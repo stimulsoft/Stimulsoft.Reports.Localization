@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
- <Localization language="Russian" description="Русский" cultureName="ru">
+<Localization language="Russian" description="Русский" cultureName="ru">
   <CheckActions>
     <ApplyEngineV2Long>Задать значение свойства EngineVersion равное EngineV2, чтобы получить доступ ко всем возможностям генератора отчета.</ApplyEngineV2Long>
     <Change>Изменить</Change>
@@ -9,7 +9,7 @@
     <Delete>Удалить</Delete>
     <Edit>Редактировать</Edit>
     <Fix>Исправить</Fix>
-    <GotoCodeLong>Перейти в код.</GotoCodeLong>
+    <GotoCodeLong>Перейти в код</GotoCodeLong>
     <Hide>Не показывать подобные сообщения в дальнейшем.</Hide>
     <NewName>Новое имя</NewName>
     <Off>Отключить</Off>
@@ -61,6 +61,8 @@
     <Zero>Обнулить</Zero>
   </CheckActions>
   <CheckComponent>
+    <StiFilterValueCheckLong>Для компонента {0} задан фильтр, но в нём не задано значение. Поэтому фильтр не применяется.</StiFilterValueCheckLong>
+    <StiFilterValueCheckShort>В фильтре не задано значение</StiFilterValueCheckShort>
     <StiAllowHtmlTagsInTextCheckLong>В тексте используются Html тэги, но значение свойства AllowHtmlTags равно false. Содержимое компонента {0} напечатается неправильно.</StiAllowHtmlTagsInTextCheckLong>
     <StiAllowHtmlTagsInTextCheckShort>Не задано значение свойства AllowHtmlTags</StiAllowHtmlTagsInTextCheckShort>
     <StiCanBreakComponentInContainerCheckLong>У контейнера '{0}' значение свойства CanBreak равно false, а у некоторых вложенных компонентов значение свойства CanBreak равно true.</StiCanBreakComponentInContainerCheckLong>
