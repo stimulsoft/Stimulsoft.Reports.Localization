@@ -2644,7 +2644,12 @@
     <Yellow>Yellow</Yellow>
     <YellowGreen>Yellow Green</YellowGreen>
   </PropertyColor>
-  <PropertyEnum>
+  <PropertyEnum>  
+    <StiIconAlignmentNone>None</StiIconAlignmentNone>
+    <StiIconAlignmentLeft>Left</StiIconAlignmentLeft>
+    <StiIconAlignmentRight>Right</StiIconAlignmentRight>
+    <StiIconAlignmentTop>Top</StiIconAlignmentTop>
+    <StiIconAlignmentBottom>Bottom</StiIconAlignmentBottom>
     <boolFalse>False</boolFalse>
     <boolTrue>True</boolTrue>
     <BorderStyleFixed3D>Fixed 3D</BorderStyleFixed3D>
@@ -3254,6 +3259,7 @@
     <ZigZag>Zig Zag</ZigZag>
   </PropertyHatchStyle>
   <PropertyMain>
+    <IconAlignment>Icon Alignment</IconAlignment>
     <AcceptsReturn>Accepts Return</AcceptsReturn>
     <AcceptsTab>Accepts Tab</AcceptsTab>
     <Actual>Actual</Actual>
