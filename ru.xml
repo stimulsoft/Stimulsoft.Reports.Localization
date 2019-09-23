@@ -641,8 +641,10 @@
     <DateFilters>Фильтры дат</DateFilters>
     <Dimension>Измерение</Dimension>
     <Dimensions>Измерения</Dimensions>
+    <DragDropData>Перетащите данные</DragDropData>
     <DragDropDataFromDictionary>Перетащите данные из Словаря данных</DragDropDataFromDictionary>
     <DrillDown>Детализация</DrillDown>
+    <DrillDownFiltered>Детализировать после фильтра</DrillDownFiltered>
     <DrillDownSelected>Детализация выделенных</DrillDownSelected>
     <DrillUp>Детализация на предыдущем уровне</DrillUp>
     <DuplicateField>Создать копию поля</DuplicateField>
@@ -654,6 +656,7 @@
     <FieldTypeRestrictionHint>Только поля указанного '{0}' типа могут быть использованы!</FieldTypeRestrictionHint>
     <FirstLastPoints>Первая / Последняя точки</FirstLastPoints>
     <FirstRowIndex>Индекс первой строки</FirstRowIndex>
+    <FullRowSelect>Выбирать всю строку</FullRowSelect>
     <HighLowPoints>Максимальная / Минимальная точки</HighLowPoints>
     <ImageNotSpecified>Изображение не выбрано</ImageNotSpecified>
     <Indicator>Индикатор</Indicator>
@@ -831,7 +834,6 @@
     <ReplaceAll>Заменить &amp;все</ReplaceAll>
     <ReplaceWith>Заменит&amp;ь на:</ReplaceWith>
     <Search>Искать</Search>
-    <TypeToSearch>Введите для поиска</TypeToSearch>
     <SearchHiddenText>С&amp;крытый текст</SearchHiddenText>
     <SearchUp>Искать в&amp;верх</SearchUp>
     <SelectionOnly>То&amp;лько выделение</SelectionOnly>
@@ -843,6 +845,7 @@
     <titleReplace>Заменить</titleReplace>
     <ToggleAllOutlining>Переключить все сворачивание</ToggleAllOutlining>
     <ToggleOutliningExpansion>&amp;Переключить сворачивание</ToggleOutliningExpansion>
+    <TypeToSearch>Введите для поиска</TypeToSearch>
     <UseRegularExpressions>Регулярные Вы&amp;ражения</UseRegularExpressions>
   </Editor>
   <Errors>
@@ -1413,6 +1416,7 @@
     <MessageTopBottomNotValid>Верхнее и нижнее значения неверны!</MessageTopBottomNotValid>
     <Minutes>{0} минут</Minutes>
     <SaveReportEvery>Сохранять отчет каждые</SaveReportEvery>
+    <ScaleMode>Режим масштабирования</ScaleMode>
     <SelectUILanguage>Выберите язык интерфейса</SelectUILanguage>
     <ShowDialogForms>Показывать диалоговые формы</ShowDialogForms>
     <ShowDimensionLines>Показывать размерные линии</ShowDimensionLines>
@@ -3116,6 +3120,8 @@
     <StiSeriesSortTypeArgument>Аргумент</StiSeriesSortTypeArgument>
     <StiSeriesSortTypeNone>Нет</StiSeriesSortTypeNone>
     <StiSeriesSortTypeValue>Значение</StiSeriesSortTypeValue>
+    <StiSeriesXAxisBottomXAxis>Нижняя X ось</StiSeriesXAxisBottomXAxis>
+    <StiSeriesXAxisTopXAxis>Верхняя X ось</StiSeriesXAxisTopXAxis>
     <StiSeriesYAxisLeftYAxis>Ось Y левая</StiSeriesYAxisLeftYAxis>
     <StiSeriesYAxisRightYAxis>Ось Y правая</StiSeriesYAxisRightYAxis>
     <StiShapeDirectionDown>Вниз</StiShapeDirectionDown>
@@ -4160,6 +4166,7 @@
     <TagDataColumn>Колонка данных тегов</TagDataColumn>
     <TagValue>Значение Тега</TagValue>
     <Target>Цель</Target>
+    <TargetIcon>Иконка цели</TargetIcon>
     <Tension>Напряженность</Tension>
     <Text>Текст</Text>
     <TextAfter>Текст после</TextAfter>
@@ -4377,7 +4384,6 @@
     <qnSynchronizeServices>Синхронизировать сервисы?</qnSynchronizeServices>
   </Questions>
   <Report>
-    <Null>Пусто</Null>
     <ActiveRelation>Активная связь</ActiveRelation>
     <Address>Адрес</Address>
     <Alphabetical>По алфавиту</Alphabetical>
@@ -4454,6 +4460,7 @@
     <NoIssues>Нет проблем</NoIssues>
     <NoNewVersions>Новые версии не обнаружены!</NoNewVersions>
     <NotAssigned>Не назначено</NotAssigned>
+    <Null>Пусто</Null>
     <Office2010Back>Назад</Office2010Back>
     <PageNofM>Страница {0} из {1}</PageNofM>
     <PreparingReport>Подготовка отчета</PreparingReport>
