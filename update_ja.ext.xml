@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Localization language="Japanese" description="Japanese" cultureName="ja">
+  <CheckComponent>
+    <StiEventsAtInterpretationCheckLong>The script in the '{0}' event in the '{1}' component doesn't work in the interpretation mode.</StiEventsAtInterpretationCheckLong>
+    <StiEventsAtInterpretationCheckShort>Events in Interpretation</StiEventsAtInterpretationCheckShort>
+    <StiFilterCircularDependencyElementCheckLong>The circular dependency of the filter is found at the element '{0}'. Please check the 'Parent Key' property of the {0} 'element!</StiFilterCircularDependencyElementCheckLong>
+    <StiFilterCircularDependencyElementCheckShort>Circular filter dependency</StiFilterCircularDependencyElementCheckShort>
+    <StiFilterValueCheckLong>A filter value of '{0}' is not specified. This filter can't be processed.</StiFilterValueCheckLong>
+    <StiFilterValueCheckShort>A filter Value is not specified</StiFilterValueCheckShort>
+  </CheckComponent>
+  <CheckLicense>
+    <StiLicenseTrialCheckLong>You are using the trial version of Stimulsoft Reports and Dashboards. To use the software in production you should purchase a license.</StiLicenseTrialCheckLong>
+  </CheckLicense>
+  <CheckReport>
+    <StiNetCoreCompilationModeCheckLong>Stimulsoft .NET Core engine cannot render this report in the compilation mode. Change the report to the interpretation mode.</StiNetCoreCompilationModeCheckLong>
+    <StiNetCoreCompilationModeCheckShort>This report is in the compilation mode</StiNetCoreCompilationModeCheckShort>
+  </CheckReport>
+  <CheckVariable>
+    <StiVariableInitializationCheckLong>The '{0}' variable has the wrong default value. It is impossible to initialize the variable with a specified value.</StiVariableInitializationCheckLong>
+    <StiVariableInitializationCheckShort>Initialization value</StiVariableInitializationCheckShort>
+    <StiVariableTypeCheckLong>For the dependent variables to work correctly, their types and the types of their columns must match.</StiVariableTypeCheckLong>
+    <StiVariableTypeCheckShort>Variable types do not match.</StiVariableTypeCheckShort>
+  </CheckVariable>
+  <Publish>
+    <UseLatestVersion>Use the latest version of libraries</UseLatestVersion>
+  </Publish>
+  <StiArea>
+    <InterlacingHor>Interlacing settings on horizontal axis.</InterlacingHor>
+  </StiArea>
+  <StiChartElement>
+    <Arguments>Chart arguments.</Arguments>
+    <CloseValues>Close values of a chart.</CloseValues>
+    <ColorEach />
+    <EndValues>End values of a chart.</EndValues>
+    <Group />
+    <HighValues>High values of a chart.</HighValues>
+    <LowValues>Low values of a chart.</LowValues>
+    <Series>Chart series.</Series>
+    <Style>A style of a chart.</Style>
+    <TextFormat>The text format.</TextFormat>
+    <Title>Chart title.</Title>
+    <Values>Chart values.</Values>
+    <Weights>Weight values of a chart.</Weights>
+  </StiChartElement>
+  <StiCheckBox>
+    <Size>A contour size.</Size>
+  </StiCheckBox>
+  <StiDatabase>
+    <Alias>An alias of the database.</Alias>
+  </StiDatabase>
+  <StiDataSource>
+    <Alias>A Data Source alias.</Alias>
+    <Name>A Data Source name which will be used in report.</Name>
+  </StiDataSource>
+  <StiDialogStyle>
+    <GlyphColor>A glyph color of the style.</GlyphColor>
+    <HotBackColor>A background color of a hot of the style.</HotBackColor>
+    <HotForeColor>A foreground color of a hot item of the style.</HotForeColor>
+    <HotGlyphColor>A glyph color of a hot item of the style.</HotGlyphColor>
+    <HotSelectedBackColor>A background color of a hot selected item of the style.</HotSelectedBackColor>
+    <HotSelectedForeColor>A foreground color of a hot selected item of the style.</HotSelectedForeColor>
+    <HotSelectedGlyphColor>A glyph color of a hot selected item of the style.</HotSelectedGlyphColor>
+    <SelectedBackColor>A background color of a selected item of the style.</SelectedBackColor>
+    <SelectedForeColor>A foreground color of a selected item of the style.</SelectedForeColor>
+    <SelectedGlyphColor>A glyph color of a selected item of the style.</SelectedGlyphColor>
+    <SeparatorColor>A color for drawing of the style.</SeparatorColor>
+  </StiDialogStyle>
+  <StiElement>
+    <BackColor>A back color for the element.</BackColor>
+    <Margin>Element margin.</Margin>
+    <Padding>Element margin.</Padding>
+  </StiElement>
+  <StiMargin>
+    <Bottom>The value sets a margin from the bottom edge of the element.</Bottom>
+    <Left>The value sets a margin from the left edge of the element.</Left>
+    <Right>The value sets a margin from the right edge of the element.</Right>
+    <Top>The value sets a margin from the top edge of the element.</Top>
+  </StiMargin>
+  <StiPadding>
+    <Bottom>The value sets the padding inside the element from the bottom border and its contents.</Bottom>
+    <Left>The value sets the padding inside the element from the left border and its contents.</Left>
+    <Right>The value sets the padding inside the element from the right border and its contents.</Right>
+    <Top>The value sets the padding inside the element from the top border and its contents.</Top>
+  </StiPadding>
+  <StiReport>
+    <Collate>A value that can be used for pages collating. The value of the property cannot be less then 1.</Collate>
+  </StiReport>
+  <StiSimpleBorder>
+    <Color>A border color.</Color>
+    <Side>Frame borders.</Side>
+    <Size>A border size.</Size>
+    <Style>A border style.</Style>
+  </StiSimpleBorder>
+  <StiTableElement>
+    <Columns>Columns displayed in the table</Columns>
+    <Group />
+    <SizeMode />
+    <Style>Table style.</Style>
+    <Title>Table title.</Title>
+  </StiTableElement>
+  <StiTitle>
+    <BackColor>Background color for a title.</BackColor>
+    <Font>Font of a title.</Font>
+    <ForeColor>Fore color for a title.</ForeColor>
+    <HorAlignment>Horizontal alignment of text.</HorAlignment>
+    <Text>Text of a title.</Text>
+    <Visible>Title visibility.</Visible>
+  </StiTitle>
+</Localization>
