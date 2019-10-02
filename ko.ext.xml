@@ -96,6 +96,12 @@
     <StiCrossGroupHeaderNotEqualToGroupCrossFooterOnContainerLong>CrossGroupFooter 수가 '{0}'컨테이너의 CrossGroupHeader의 수에 대응하고 있지 않습니다. 홀수 성분은 렌더링되지 않습니다.</StiCrossGroupHeaderNotEqualToGroupCrossFooterOnContainerLong>
     <StiDataSourcesForImageCheckLong>'{0}'구성 요소에 일부 데이터 소스가 설정되어 있습니다.</StiDataSourcesForImageCheckLong>
     <StiDataSourcesForImageCheckShort>여러 데이터 소스가 설정되어 있습니다.</StiDataSourcesForImageCheckShort>
+    <StiEventsAtInterpretationCheckLong>'{1}'구성 요소에서 '{0}'이벤트의 스크립트가 해석 모드에서 작동하지 않습니다.</StiEventsAtInterpretationCheckLong>
+    <StiEventsAtInterpretationCheckShort>해석 이벤트</StiEventsAtInterpretationCheckShort>
+    <StiFilterCircularDependencyElementCheckLong>필터의 순환 종속성은 '{0}' 요소에 있습니다. {0} '요소'의 '부모 키' 속성을 확인하세요!</StiFilterCircularDependencyElementCheckLong>
+    <StiFilterCircularDependencyElementCheckShort>원형 필터 종속성입니다</StiFilterCircularDependencyElementCheckShort>
+    <StiFilterValueCheckLong>필터 값 '{0}'이(가) 지정되지 않았습니다. 이 필터는 처리할 수 없습니다.</StiFilterValueCheckLong>
+    <StiFilterValueCheckShort>필터 값이 지정되지 않았습니다</StiFilterValueCheckShort>
     <StiFontMissingCheckLong>구성 요소 '{1}'에 지정된 글꼴 '{0}'를 찾을 수 없습니다.</StiFontMissingCheckLong>
     <StiFontMissingCheckShort>글꼴을 찾을 수 없습니다.</StiFontMissingCheckShort>
     <StiFunctionsOnlyForEngineV2CheckLong>EngineV1에서 사용할 수없는 시스템 변수가 보고서에서 사용됩니다. EngineV2을 사용 하시겠습니까?</StiFunctionsOnlyForEngineV2CheckLong>
@@ -203,6 +209,9 @@
     <RenderingMessage>렌더링 메시지를보고한다.</RenderingMessage>
     <Warning>경고!</Warning>
   </CheckGlobal>
+  <CheckLicense>
+    <StiLicenseTrialCheckLong>Stimulsoft Reports 및 대시보드의 평가판을 사용하고 있습니다. 운영 중인 소프트웨어를 사용하려면 라이센스를 구입해야 합니다.</StiLicenseTrialCheckLong>
+  </CheckLicense>  
   <CheckPage>
     <StiLostPointsOnPageCheckLong>'{0}'페이지에서 잃어버린 점이 발견 : '{1}'점은 불가하며 다음의 원시적으로 사용됩니다 : 수직선 사각형 및 둥근 사각형. 포인트가 어떤 구성 요소와 일치하지 않는 경우는 그 점을 제거 할 수 있습니다.</StiLostPointsOnPageCheckLong>
     <StiLostPointsOnPageCheckShort>잃어버린 포인트</StiLostPointsOnPageCheckShort>
@@ -310,9 +319,10 @@
     <ThemeStyle>테마 스타일 :</ThemeStyle>
     <TrialVersion>평가판</TrialVersion>
     <Use>Use</Use>
-    <UseCompilationCache>컴파일 캐시를 사용하는</UseCompilationCache>
-    <UseCompressedScripts>압축 스크립트를 사용하는</UseCompressedScripts>
-    <UseWpfDesignerV2>Designer V2를 사용하는</UseWpfDesignerV2>
+    <UseCompilationCache>컴파일 캐시를 사용</UseCompilationCache>
+    <UseCompressedScripts>압축 스크립트를 사용</UseCompressedScripts>
+    <UseLatestVersion>최신 버전의 라이브러리를 사용</UseLatestVersion>
+    <UseWpfDesignerV2>Designer V2를 사용</UseWpfDesignerV2>
   </Publish>
   <ReportComparer>
     <Change>변경</Change>
@@ -387,7 +397,7 @@
     <StiVariablePropertiesCompareShort>변수의 다른 속성 값입니다.</StiVariablePropertiesCompareShort>
   </ReportComparer>
   <ReportComparerViewer>
-    <Browse>찾아보기 ...</Browse>
+    <Browse>찾아보기...</Browse>
     <BusinessObjects>비즈니스 오브젝트</BusinessObjects>
     <BusinessObjectsDataColumns>Business Objects 데이터 열</BusinessObjectsDataColumns>
     <Cancel>취소</Cancel>
@@ -434,7 +444,8 @@
     <GridLinesHor>왼쪽 축의 수평 눈금 선</GridLinesHor>
     <GridLinesHorRight>오른쪽 축의 수평 눈금 선</GridLinesHorRight>
     <GridLinesVert>수직 눈금 선</GridLinesVert>
-    <InterlacingVert>세로축의 인터레이스 설정</InterlacingVert>
+    <InterlacingHor>수평축의 인터레이스 설정</InterlacingHor>
+    <InterlacingVert>수직축의 인터레이스 설정</InterlacingVert>
     <RadarStyle>레이더 영역의 스타일</RadarStyle>
     <ReverseHor>수평축의 모든 값이 반대임을 나타내는 값</ReverseHor>
     <ReverseVert>세로축의 모든 값이 반대임을 나타내는 값</ReverseVert>
@@ -443,7 +454,6 @@
     <XTopAxis>XTopAxis 설정</XTopAxis>
     <YAxis>YAxis 설정</YAxis>
     <YRightAxis>YRightAxis 설정</YRightAxis>
-    <인터레이스>수평 인터레이스 설정</인터레이스>
   </StiArea>
   <StiAreaSeries>
     <Brush>영역을 채우기 위해 사용되는 브러시</Brush>
@@ -731,7 +741,7 @@
     <ExcelValue>Excel로 데이터를 내보내는 데 사용되는 식</ExcelValue>
     <GetCheckedEvent>상태가 체크되어있을 때 발생</GetCheckedEvent>
     <Values>논리 값을 기술하는 캐릭터 라인</Values>
-    <크기>윤곽 크기</크기>
+    <Size>윤곽 크기</Size>	
   </StiCheckBox>
   <StiCheckBoxControl>
     <Checked>체크 박스가 체크 된 상태에 있는지 여부를 나타내는 값</Checked>
@@ -897,7 +907,7 @@
     <LineColor>상수 선을 그리는 데 사용되는 색</LineColor>
     <LineStyle>일정한 선 스타일</LineStyle>
     <LineWidth>일정한 선폭</LineWidth>
-    <Orientation>定線의 수평 또는 수직 방향</Orientation>
+    <Orientation>상수선의 수평 또는 수직 방향</Orientation>
     <Position>대화 행의 텍스트 위치</Position>
     <ShowBehind>정수 계열이 차트 시리즈의 뒷면 또는 차트 시리즈의 앞에 나타날 수를 나타내는 값</ShowBehind>
     <ShowInLegend>차트 범례의 상수 행</ShowInLegend>
@@ -980,6 +990,7 @@
     <RightToLeft>수평 열 방향</RightToLeft>
   </StiDataBand>
   <StiDatabase>
+    <Alias>데이터베이스 별칭.</Alias>
     <ConnectedEvent>연결이 활성화 될 때 발생</ConnectedEvent>
     <ConnectingEvent>연결이 활성화되어있을 때 발생</ConnectingEvent>
     <ConnectionString>SQL 연결 매개 변수를 포함하는 연결 문자열</ConnectionString>
@@ -989,7 +1000,6 @@
     <PathData>XML 데이터 경로</PathData>
     <PathSchema>XML 스키마 경로</PathSchema>
     <PromptUserNameAndPassword>UserName 매개 변수와 Password 매개 변수를 사용자가 요청해야하는 것을 나타내는 값</PromptUserNameAndPassword>
-    <별칭>데이터베이스 별칭</별칭>
   </StiDatabase>
   <StiDataColumn>
     <Alias>열 데이터 별칭</Alias>
@@ -1022,20 +1032,20 @@
     <ParentSource>부모 데이터 소스</ParentSource>
   </StiDataRelation>
   <StiDataSource>
+    <Alias>데이터 소스 별칭.</Alias>
     <AllowExpressions>데이터 소스의 sql 쿼리 스크립트 식 또는 no를 포함 할 수있는 것을 나타내는 값</AllowExpressions>
     <CodePage>코드 페이지</CodePage>
     <Columns>열 컬렉션</Columns>
     <CommandTimeout>명령 실행 중에 시도를 취소하고 오류를 생성하기 전에 대기하는 시간 (초). 기본값은 30입니다.</CommandTimeout>
     <ConnectionOrder>데이터 소스가 데이터에 어떤 순서로 연결 여부를 나타내는 값</ConnectionOrder>
     <ConnectOnStart>데이터 소스가 자동으로 데이터에 연결되어 있지 않음을 나타내는 값</ConnectOnStart>
+	<Name>리포트에 사용될 데이터 원본 이름입니다.</Name>
     <NameInSource>데이터베이스의 데이터 소스의 이름</NameInSource>
     <Parameters>SQL 쿼리의 매개 변수 컬렉션</Parameters>
     <Path>데이터 파일 경로</Path>
     <ReconnectOnEachRow>마스터 디테일 보고서의 각 마스터 행에서 데이터 소스가 다시 연결되었는지를 나타내는 값</ReconnectOnEachRow>
     <SqlCommand>데이터 소스에서 실행할 SQL 문장</SqlCommand>
     <Type>SQL 데이터 소스의 유형을 나타내는 값</Type>
-    <별칭>데이터 소스 별칭</별칭>
-    <이름>보고서에서 사용되는 데이터 소스 이름</이름>
   </StiDataSource>
   <StiDateTimePickerControl>
     <CustomFormat>사용자 지정 날짜 및 시간 형식 문자열</CustomFormat>
@@ -1051,6 +1061,19 @@
     <ValueBinding>값 데이터 바인딩</ValueBinding>
     <ValueChangedEvent>이벤트 ValueChanged 스크립트</ValueChangedEvent>
   </StiDateTimePickerControl>
+  <StiDialogStyle>
+    <GlyphColor>스타일의 글리프 색입니다.</GlyphColor>
+    <HotBackColor>스타일의 Hot 배경색입니다.</HotBackColor>
+    <HotForeColor>스타일의 Hot 아이템의 전경색입니다.</HotForeColor>
+    <HotGlyphColor>스타일의 Hot 아이템의 글리프 색입니다.</HotGlyphColor>
+    <HotSelectedBackColor>스타일에서 선택한 Hot 항목의 배경색입니다.</HotSelectedBackColor>
+    <HotSelectedForeColor>스타일에서 선택한 Hot 항목의 전경색입니다.</HotSelectedForeColor>
+    <HotSelectedGlyphColor>스타일에서 선택한 Hot 항목의 글리프 색상입니다.</HotSelectedGlyphColor>
+    <SelectedBackColor>스타일에서 선택한 항목의 배경색입니다.</SelectedBackColor>
+    <SelectedForeColor>스타일에서 선택한 항목의 전경색입니다.</SelectedForeColor>
+    <SelectedGlyphColor>스타일에서 선택한 항목의 글리프 색상입니다.</SelectedGlyphColor>
+    <SeparatorColor>스타일을 그릴 수 있는 색상입니다.</SeparatorColor>
+  </StiDialogStyle>  
   <StiDoughnutSeries>
     <Diameter>도넛 시리즈의 직경의 고정 크기</Diameter>
   </StiDoughnutSeries>
