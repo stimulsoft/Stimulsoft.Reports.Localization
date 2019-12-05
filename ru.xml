@@ -2705,7 +2705,9 @@
     <Yellow>Желтый</Yellow>
     <YellowGreen>Желто-зеленый</YellowGreen>
   </PropertyColor>
-  <PropertyEnum>
+  <PropertyEnum>  
+    <StiTargetModePercentage>Доля</StiTargetModePercentage>
+    <StiTargetModeVariation>Отклонение</StiTargetModeVariation>
     <boolFalse>Нет</boolFalse>
     <boolTrue>Да</boolTrue>
     <BorderStyleFixed3D>Трехмерная</BorderStyleFixed3D>
@@ -3342,6 +3344,7 @@
     <ZigZag>Зиг-заг</ZigZag>
   </PropertyHatchStyle>
   <PropertyMain>
+    <TargetMode>Режим цели</TargetMode>
     <AcceptsReturn>Принимать Returns</AcceptsReturn>
     <AcceptsTab>Принимать Tabs</AcceptsTab>
     <Actual>Актуальный</Actual>
