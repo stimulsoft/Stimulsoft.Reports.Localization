@@ -141,9 +141,6 @@
     <Waiting>Waiting</Waiting>
     <Yes>&amp;Yes</Yes>
   </Buttons>
-  <CharterMapEditor>
-    <Characters>Characters</Characters>
-  </CharterMapEditor>
   <Chart>
     <AddCondition>&amp;Add Condition</AddCondition>
     <AddConstantLine>Add Constant Line</AddConstantLine>
@@ -275,6 +272,9 @@
     <Style>Style</Style>
     <Treemap>Treemap</Treemap>
   </Chart>
+  <CharterMapEditor>
+    <Characters>Characters</Characters>
+  </CharterMapEditor>
   <ChartRibbon>
     <Axes>Axes</Axes>
     <AxesArrowStyle>Arrow Style</AxesArrowStyle>
@@ -629,7 +629,6 @@
     <AllowUserFiltering>Allow User Filtering</AllowUserFiltering>
     <AllowUserSorting>Allow User Sorting</AllowUserSorting>
     <Blanks>(Blanks)</Blanks>
-    <FullRowSelect>Full Row Select</FullRowSelect>
     <BooleanFilters>Boolean Filters</BooleanFilters>
     <CannotLoadDashboard>You cannot load a report with dashboards.</CannotLoadDashboard>
     <ChangeChartType>Change Chart Type</ChangeChartType>
@@ -644,11 +643,11 @@
     <DateFilters>Date Filters</DateFilters>
     <Dimension>Dimension</Dimension>
     <Dimensions>Dimensions</Dimensions>
-    <DragDropDataFromDictionary>Drag &amp; drop data from Dictionary</DragDropDataFromDictionary>
     <DragDropData>Drag &amp; drop data</DragDropData>
+    <DragDropDataFromDictionary>Drag &amp; drop data from Dictionary</DragDropDataFromDictionary>
     <DrillDown>Drill-Down</DrillDown>
-    <DrillDownSelected>Drill-Down Selected</DrillDownSelected>
     <DrillDownFiltered>Drill-Down Filtered</DrillDownFiltered>
+    <DrillDownSelected>Drill-Down Selected</DrillDownSelected>
     <DrillUp>Drill Up</DrillUp>
     <DuplicateField>Duplicate Field</DuplicateField>
     <EditExpression>Edit Expression</EditExpression>
@@ -659,6 +658,7 @@
     <FieldTypeRestrictionHint>Only '{0}' type field can be used!</FieldTypeRestrictionHint>
     <FirstLastPoints>First / Last Points</FirstLastPoints>
     <FirstRowIndex>First Row Index</FirstRowIndex>
+    <FullRowSelect>Full Row Select</FullRowSelect>
     <HighLowPoints>High / Low Points</HighLowPoints>
     <ImageNotSpecified>Image not specified</ImageNotSpecified>
     <Indicator>Indicator</Indicator>
@@ -692,9 +692,9 @@
     <SkipFirstRows>Skip First Rows</SkipFirstRows>
     <SortAZ>Sort A to Z</SortAZ>
     <SortLargestToSmallest>Sort Largest to Smallest</SortLargestToSmallest>
-    <SortSmallestToLargest>Sort Smallest to Largest</SortSmallestToLargest>
-    <SortOldestToNewest>Sort Oldest to Newest</SortOldestToNewest>
     <SortNewestToOldest>Sort Newest to Oldest</SortNewestToOldest>
+    <SortOldestToNewest>Sort Oldest to Newest</SortOldestToNewest>
+    <SortSmallestToLargest>Sort Smallest to Largest</SortSmallestToLargest>
     <SortZA>Sort Z to A</SortZA>
     <Sparklines>Sparklines</Sparklines>
     <StringFilters>String Filters</StringFilters>
@@ -828,8 +828,8 @@
     <FindNext>&amp;Find Next</FindNext>
     <FindWhat>Find What:</FindWhat>
     <FromCursor>From Cursor</FromCursor>
-    <InsertSymbol>Insert Symbol</InsertSymbol>
     <GotoLine>Go To &amp;Line</GotoLine>
+    <InsertSymbol>Insert Symbol</InsertSymbol>
     <Line>Line: {0}</Line>
     <LineNumber>Line Number:</LineNumber>
     <LineNumberIndex>Line Number ({0} - {1})</LineNumberIndex>
@@ -842,7 +842,6 @@
     <ReplaceAll>Replace &amp;All</ReplaceAll>
     <ReplaceWith>Replace With:</ReplaceWith>
     <Search>Search</Search>
-    <TypeToSearch>Type to search</TypeToSearch>
     <SearchHiddenText>Hidden Text</SearchHiddenText>
     <SearchUp>Search &amp;Up</SearchUp>
     <SelectionOnly>Selection &amp;Only</SelectionOnly>
@@ -854,6 +853,7 @@
     <titleReplace>Replace</titleReplace>
     <ToggleAllOutlining>Toggle A&amp;ll Outlining</ToggleAllOutlining>
     <ToggleOutliningExpansion>&amp;Toggle Outlining Expansion</ToggleOutliningExpansion>
+    <TypeToSearch>Type to search</TypeToSearch>
     <UseRegularExpressions>Use &amp;Regular Expressions</UseRegularExpressions>
   </Editor>
   <Errors>
@@ -1154,7 +1154,6 @@
     <title>Cross-Tab Designer</title>
   </FormCrossTabDesigner>
   <FormDatabaseEdit>
-    <Token>Token</Token>
     <ClientId>Client Id</ClientId>
     <ClientSecret>Client Secret</ClientSecret>
     <ConnectionString>Connection String:</ConnectionString>
@@ -1204,6 +1203,7 @@
     <SqlNew>New SQL Connection</SqlNew>
     <TeradataEdit>Edit Teradata Connection</TeradataEdit>
     <TeradataNew>New Teradata Connection</TeradataNew>
+    <Token>Token</Token>
     <UniDirectEdit>Edit Uni Direct Connection</UniDirectEdit>
     <UniDirectNew>New Uni Direct Connection</UniDirectNew>
     <Unpin>Unpin</Unpin>
@@ -2660,8 +2660,6 @@
     <YellowGreen>Yellow Green</YellowGreen>
   </PropertyColor>
   <PropertyEnum>
-    <StiTargetModePercentage>Percentage</StiTargetModePercentage>
-    <StiTargetModeVariation>Variation</StiTargetModeVariation>
     <boolFalse>False</boolFalse>
     <boolTrue>True</boolTrue>
     <BorderStyleFixed3D>Fixed 3D</BorderStyleFixed3D>
@@ -3080,10 +3078,10 @@
     <StiSeriesSortTypeArgument>Argument</StiSeriesSortTypeArgument>
     <StiSeriesSortTypeNone>None</StiSeriesSortTypeNone>
     <StiSeriesSortTypeValue>Value</StiSeriesSortTypeValue>
-    <StiSeriesYAxisLeftYAxis>Left Y Axis</StiSeriesYAxisLeftYAxis>
-    <StiSeriesYAxisRightYAxis>Right Y Axis</StiSeriesYAxisRightYAxis>
     <StiSeriesXAxisBottomXAxis>Bottom X Axis</StiSeriesXAxisBottomXAxis>
     <StiSeriesXAxisTopXAxis>Top X Axis</StiSeriesXAxisTopXAxis>
+    <StiSeriesYAxisLeftYAxis>Left Y Axis</StiSeriesYAxisLeftYAxis>
+    <StiSeriesYAxisRightYAxis>Right Y Axis</StiSeriesYAxisRightYAxis>
     <StiShapeDirectionDown>Down</StiShapeDirectionDown>
     <StiShapeDirectionLeft>Left</StiShapeDirectionLeft>
     <StiShapeDirectionRight>Right</StiShapeDirectionRight>
@@ -3133,6 +3131,8 @@
     <StiTableAutoWidthTypeFullTable>Full Table</StiTableAutoWidthTypeFullTable>
     <StiTableAutoWidthTypeLastColumns>Last Columns</StiTableAutoWidthTypeLastColumns>
     <StiTableAutoWidthTypeNone>None</StiTableAutoWidthTypeNone>
+    <StiTargetModePercentage>Percentage</StiTargetModePercentage>
+    <StiTargetModeVariation>Variation</StiTargetModeVariation>
     <StiTextHorAlignmentCenter>Center</StiTextHorAlignmentCenter>
     <StiTextHorAlignmentLeft>Left</StiTextHorAlignmentLeft>
     <StiTextHorAlignmentRight>Right</StiTextHorAlignmentRight>
@@ -3294,9 +3294,6 @@
     <ZigZag>Zig Zag</ZigZag>
   </PropertyHatchStyle>
   <PropertyMain>
-    <TargetMode>Target Mode</TargetMode>
-    <Variation>Variation</Variation>
-    <TargetIcon>Target Icon</TargetIcon>
     <AcceptsReturn>Accepts Return</AcceptsReturn>
     <AcceptsTab>Accepts Tab</AcceptsTab>
     <Actual>Actual</Actual>
@@ -3508,6 +3505,7 @@
     <Description>Description</Description>
     <Destination>Destination</Destination>
     <DetectUrls>Detect URLs</DetectUrls>
+    <DeviceWidth>Device Width</DeviceWidth>
     <DialogResult>Dialog Result</DialogResult>
     <Diameter>Diameter</Diameter>
     <Direction>Direction</Direction>
@@ -4119,6 +4117,8 @@
     <TagDataColumn>Tag Data Column</TagDataColumn>
     <TagValue>Tag Value</TagValue>
     <Target>Target</Target>
+    <TargetIcon>Target Icon</TargetIcon>
+    <TargetMode>Target Mode</TargetMode>
     <Tension>Tension</Tension>
     <Text>Text</Text>
     <TextAfter>Text After</TextAfter>
@@ -4203,6 +4203,7 @@
     <ValueTypeSeparator>Value Type Separator</ValueTypeSeparator>
     <Variable>Variable</Variable>
     <Variables>Variables</Variables>
+    <Variation>Variation</Variation>
     <Version>Version</Version>
     <VertAlignment>Vertical Alignment</VertAlignment>
     <VertSpacing>Vertical Spacing</VertSpacing>
@@ -4222,7 +4223,6 @@
     <YAxis>Y Axis</YAxis>
     <YRightAxis>Y Right Axis</YRightAxis>
     <Zoom>Zoom</Zoom>
-    <DeviceWidth>Device Width</DeviceWidth>
   </PropertyMain>
   <PropertySystemColors>
     <ActiveBorder>Active Border</ActiveBorder>
@@ -4337,7 +4337,6 @@
     <qnSynchronizeServices>Synchronized services?</qnSynchronizeServices>
   </Questions>
   <Report>
-    <Null>Null</Null>
     <ActiveRelation>Active Relation</ActiveRelation>
     <Address>Address</Address>
     <Alphabetical>Alphabetical</Alphabetical>
@@ -4413,6 +4412,7 @@
     <NoIssues>No Issues</NoIssues>
     <NoNewVersions>There are no new versions available!</NoNewVersions>
     <NotAssigned>Not Assigned</NotAssigned>
+    <Null>Null</Null>
     <Office2010Back>Back</Office2010Back>
     <PageNofM>Page {0} of {1}</PageNofM>
     <PreparingReport>Preparing Report</PreparingReport>
@@ -4645,9 +4645,6 @@
     <Title>Welcome to Stimulsoft Demo</Title>
   </WelcomeScreen>
   <Wizards>
-    <UseDemoData>Use Demo Data</UseDemoData>
-    <GetData>Get Data</GetData>
-    <RunWizard>Run Wizard</RunWizard>
     <BlankDashboard>Blank Dashboard</BlankDashboard>
     <BlankReport>Blank Report</BlankReport>
     <ButtonBack>&lt; &amp;Back</ButtonBack>
@@ -4663,6 +4660,7 @@
     <DefaultThemes>Default Themes</DefaultThemes>
     <Filters>Filters</Filters>
     <FromReportTemplate>From Report Template</FromReportTemplate>
+    <GetData>Get Data</GetData>
     <groupCreateNewDashboard>Create a New Dashboard</groupCreateNewDashboard>
     <groupCreateNewPageOrForm>Create a New Page or Form</groupCreateNewPageOrForm>
     <groupCreateNewReport>Create a New Report</groupCreateNewReport>
@@ -4709,6 +4707,7 @@
     <Preview>Preview</Preview>
     <Reset>&amp;Reset</Reset>
     <Results>Results</Results>
+    <RunWizard>Run Wizard</RunWizard>
     <SelectColumns>Select Columns</SelectColumns>
     <SelectTemplate>Template</SelectTemplate>
     <Sort>Sort</Sort>
@@ -4716,6 +4715,7 @@
     <Themes>Themes</Themes>
     <title>New Report</title>
     <Totals>Totals</Totals>
+    <UseDemoData>Use Demo Data</UseDemoData>
     <UsingReportWizard>Using Report Wizard</UsingReportWizard>
     <YouHaveNotOpenedAnyReportRecently>You haven't opened any report recently. To browse for a report, start by clicking on Open Existing File.</YouHaveNotOpenedAnyReportRecently>
   </Wizards>
