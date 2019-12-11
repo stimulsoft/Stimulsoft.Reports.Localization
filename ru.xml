@@ -141,9 +141,6 @@
     <Waiting>Ожидание</Waiting>
     <Yes>&amp;Да</Yes>
   </Buttons>
-  <CharterMapEditor>
-    <Characters>Символы</Characters>
-  </CharterMapEditor>
   <Chart>
     <AddCondition>&amp;Добавить условие</AddCondition>
     <AddConstantLine>Добавить константную линию</AddConstantLine>
@@ -275,6 +272,9 @@
     <Style>Стиль</Style>
     <Treemap>Древовидная</Treemap>
   </Chart>
+  <CharterMapEditor>
+    <Characters>Символы</Characters>
+  </CharterMapEditor>
   <ChartRibbon>
     <Axes>Оси</Axes>
     <AxesArrowStyle>Стиль стрелки</AxesArrowStyle>
@@ -693,6 +693,8 @@
     <SkipFirstRows>Пропустить первые строки</SkipFirstRows>
     <SortAZ>Сортировка от А до Я</SortAZ>
     <SortLargestToSmallest>Сортировка от максимального к минимальному</SortLargestToSmallest>
+    <SortNewestToOldest>Сортировать от новых к старым</SortNewestToOldest>
+    <SortOldestToNewest>Сортировать от старых к новым</SortOldestToNewest>
     <SortSmallestToLargest>Сортировка от минимального к максимальному</SortSmallestToLargest>
     <SortZA>Сортировка от Я до А</SortZA>
     <Sparklines>Спарклайны</Sparklines>
@@ -827,8 +829,8 @@
     <FindNext>На&amp;йти далее</FindNext>
     <FindWhat>Найти:</FindWhat>
     <FromCursor>От по&amp;зиции курсора</FromCursor>
-    <InsertSymbol>Вставить символ</InsertSymbol>
     <GotoLine>&amp;Перейти на линию</GotoLine>
+    <InsertSymbol>Вставить символ</InsertSymbol>
     <Line>Линия: {0}</Line>
     <LineNumber>Номер линии:</LineNumber>
     <LineNumberIndex>Номер линии ({0} - {1})</LineNumberIndex>
@@ -1203,6 +1205,7 @@
     <SqlNew>Новое SQL соединение</SqlNew>
     <TeradataEdit>Изменение Teradata соединения</TeradataEdit>
     <TeradataNew>Новое Teradata соединение</TeradataNew>
+    <Token>Токен</Token>
     <UniDirectEdit>Изменение Uni Direct соединения</UniDirectEdit>
     <UniDirectNew>Новое Uni Direct соединение</UniDirectNew>
     <Unpin>Убрать выбор</Unpin>
@@ -2708,9 +2711,7 @@
     <Yellow>Желтый</Yellow>
     <YellowGreen>Желто-зеленый</YellowGreen>
   </PropertyColor>
-  <PropertyEnum>  
-    <StiTargetModePercentage>Доля</StiTargetModePercentage>
-    <StiTargetModeVariation>Отклонение</StiTargetModeVariation>
+  <PropertyEnum>
     <boolFalse>Нет</boolFalse>
     <boolTrue>Да</boolTrue>
     <BorderStyleFixed3D>Трехмерная</BorderStyleFixed3D>
@@ -3185,6 +3186,8 @@
     <StiTableAutoWidthTypeFullTable>Полная таблица</StiTableAutoWidthTypeFullTable>
     <StiTableAutoWidthTypeLastColumns>Последняя колонка</StiTableAutoWidthTypeLastColumns>
     <StiTableAutoWidthTypeNone>Нет</StiTableAutoWidthTypeNone>
+    <StiTargetModePercentage>Доля</StiTargetModePercentage>
+    <StiTargetModeVariation>Отклонение</StiTargetModeVariation>
     <StiTextHorAlignmentCenter>По центру</StiTextHorAlignmentCenter>
     <StiTextHorAlignmentLeft>По левому краю</StiTextHorAlignmentLeft>
     <StiTextHorAlignmentRight>По правому краю</StiTextHorAlignmentRight>
@@ -3347,7 +3350,6 @@
     <ZigZag>Зиг-заг</ZigZag>
   </PropertyHatchStyle>
   <PropertyMain>
-    <TargetMode>Режим цели</TargetMode>
     <AcceptsReturn>Принимать Returns</AcceptsReturn>
     <AcceptsTab>Принимать Tabs</AcceptsTab>
     <Actual>Актуальный</Actual>
@@ -3561,6 +3563,7 @@
     <Description>Описание</Description>
     <Destination>Назначение</Destination>
     <DetectUrls>Определять гиперссылки</DetectUrls>
+    <DeviceWidth>Ширина устройства</DeviceWidth>
     <DialogResult>Результат диалога</DialogResult>
     <Diameter>Диаметр</Diameter>
     <Direction>Направление</Direction>
@@ -4177,6 +4180,7 @@
     <TagValue>Значение Тега</TagValue>
     <Target>Цель</Target>
     <TargetIcon>Иконка цели</TargetIcon>
+    <TargetMode>Режим цели</TargetMode>
     <Tension>Напряженность</Tension>
     <Text>Текст</Text>
     <TextAfter>Текст после</TextAfter>
@@ -4719,6 +4723,7 @@
     <DefaultThemes>Встроенные темы</DefaultThemes>
     <Filters>Фильтры</Filters>
     <FromReportTemplate>Отчет из шаблона</FromReportTemplate>
+    <GetData>Получить данные</GetData>
     <groupCreateNewDashboard>Создать новую панель индикаторов</groupCreateNewDashboard>
     <groupCreateNewPageOrForm>Создать страницу или форму</groupCreateNewPageOrForm>
     <groupCreateNewReport>Создать новый отчет</groupCreateNewReport>
@@ -4765,6 +4770,7 @@
     <Preview>Просмотр</Preview>
     <Reset>&amp;Сбросить</Reset>
     <Results>Результаты</Results>
+    <RunWizard>Запустить</RunWizard>
     <SelectColumns>Выбор колонок</SelectColumns>
     <SelectTemplate>Шаблон</SelectTemplate>
     <Sort>Сортировка</Sort>
@@ -4772,6 +4778,7 @@
     <Themes>Темы</Themes>
     <title>Новый отчет</title>
     <Totals>Итоги</Totals>
+    <UseDemoData>Демонстрационные данные</UseDemoData>
     <UsingReportWizard>Мастер отчета</UsingReportWizard>
     <YouHaveNotOpenedAnyReportRecently>В последнее время вы не открывали отчетов. Чтобы найти отчет, щелкните "Открыть файл".</YouHaveNotOpenedAnyReportRecently>
   </Wizards>
