@@ -2881,11 +2881,10 @@
     <StiFilterConditionNotEqualTo>not equal to</StiFilterConditionNotEqualTo>
     <StiFilterDataTypeBoolean>Boolean</StiFilterDataTypeBoolean>
     <StiFilterDataTypeDateTime>DateTime</StiFilterDataTypeDateTime>
-    <StiFilterDataTypeExpression>Expression</StiFilterDataTypeExpression>
-    <StiFontSizeCustom>Custom</StiFontSizeCustom>
-    <StiFontSizeLarge>Large</StiFontSizeLarge>
-    <StiFontSizeMedium>Medium</StiFontSizeMedium>
-    <StiFontSizeSmall>Small</StiFontSizeSmall>
+    <StiFilterDataTypeExpression>Expression</StiFilterDataTypeExpression>    
+    <StiFontSizeModeAuto>Auto</StiFontSizeModeAuto>
+    <StiFontSizeModeValue>Value</StiFontSizeModeValue>
+    <StiFontSizeModeTarget>Target</StiFontSizeModeTarget>      
     <StiFilterDataTypeNumeric>Numeric</StiFilterDataTypeNumeric>
     <StiFilterDataTypeString>String</StiFilterDataTypeString>
     <StiFilterEngineReportEngine>Report Engine</StiFilterEngineReportEngine>
@@ -3324,7 +3323,7 @@
     <ZigZag>Zig Zag</ZigZag>
   </PropertyHatchStyle>
   <PropertyMain>
-    <ValueSize>Value Size</ValueSize>
+    <FontSizeMode>Font Size Mode</FontSizeMode>
     <ParetoSeriesColors>Pareto Series Colors</ParetoSeriesColors>
     <AcceptsReturn>Accepts Return</AcceptsReturn>
     <AcceptsTab>Accepts Tab</AcceptsTab>
