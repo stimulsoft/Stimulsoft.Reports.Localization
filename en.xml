@@ -93,6 +93,7 @@
     <TwoDimensional>Two-Dimensional</TwoDimensional>
   </BarCode>
   <Buttons>
+    <Upgrade>Upgrade</Upgrade>
     <Add>Add</Add>
     <AddAllColumns>Add All Columns</AddAllColumns>
     <Attach>Attach</Attach>
@@ -164,6 +165,7 @@
     <Common>Common</Common>
     <ConstantLine>Constant Line</ConstantLine>
     <ConstantLinesEditorForm>Constant Lines Editor</ConstantLinesEditorForm>
+    <TrendLinesEditorForm>Trend Lines Editor</TrendLinesEditorForm>
     <DataColumns>Data Columns</DataColumns>
     <Doughnut>Doughnut</Doughnut>
     <Financial>Financial</Financial>
@@ -835,6 +837,7 @@
     <FromCursor>From Cursor</FromCursor>
     <GotoLine>Go To &amp;Line</GotoLine>
     <InsertSymbol>Insert Symbol</InsertSymbol>
+    <InsertLink>Insert Link</InsertLink>
     <Line>Line: {0}</Line>
     <LineNumber>Line Number:</LineNumber>
     <LineNumberIndex>Line Number ({0} - {1})</LineNumberIndex>
@@ -2671,6 +2674,10 @@
     <YellowGreen>Yellow Green</YellowGreen>
   </PropertyColor>
   <PropertyEnum>
+    <StiChartTrendLineTypeLinear>Linear</StiChartTrendLineTypeLinear>
+    <StiChartTrendLineTypeLogarithmic>Logarithmic</StiChartTrendLineTypeLogarithmic>
+    <StiChartTrendLineTypeNone>None</StiChartTrendLineTypeNone>
+    <StiChartTrendLineTypeExponential>Exponential</StiChartTrendLineTypeExponential>
     <boolFalse>False</boolFalse>
     <boolTrue>True</boolTrue>
     <BorderStyleFixed3D>Fixed 3D</BorderStyleFixed3D>
@@ -2830,7 +2837,7 @@
     <StiDesignerScaleModeAutomaticScaling>Automatic Scaling</StiDesignerScaleModeAutomaticScaling>
     <StiDesignerScaleModeScaling100>100% Scaling</StiDesignerScaleModeScaling100>
     <StiDesignerSpecificationAuto>Determine Automatically</StiDesignerSpecificationAuto>
-    <StiDesignerSpecificationBICreator>I'm BI Creator</StiDesignerSpecificationBICreator>
+    <StiDesignerSpecificationBICreator>I'm Creator</StiDesignerSpecificationBICreator>
     <StiDesignerSpecificationDeveloper>I'm Developer</StiDesignerSpecificationDeveloper>
     <StiDesignerSpecificationBeginner>I'm Beginner</StiDesignerSpecificationBeginner>
     <StiDisplayNameTypeFull>Full</StiDisplayNameTypeFull>
@@ -2876,12 +2883,12 @@
     <StiFilterConditionNotEqualTo>not equal to</StiFilterConditionNotEqualTo>
     <StiFilterDataTypeBoolean>Boolean</StiFilterDataTypeBoolean>
     <StiFilterDataTypeDateTime>DateTime</StiFilterDataTypeDateTime>
-    <StiFilterDataTypeExpression>Expression</StiFilterDataTypeExpression>
+    <StiFilterDataTypeExpression>Expression</StiFilterDataTypeExpression>    
+    <StiFontSizeModeAuto>Auto</StiFontSizeModeAuto>
+    <StiFontSizeModeValue>Value</StiFontSizeModeValue>
+    <StiFontSizeModeTarget>Target</StiFontSizeModeTarget>      
     <StiFilterDataTypeNumeric>Numeric</StiFilterDataTypeNumeric>
     <StiFilterDataTypeString>String</StiFilterDataTypeString>
-    <StiFontSizeBig>Big</StiFontSizeBig>
-    <StiFontSizeMiddle>Middle</StiFontSizeMiddle>
-    <StiFontSizeSmall>Small</StiFontSizeSmall>
     <StiFilterEngineReportEngine>Report Engine</StiFilterEngineReportEngine>
     <StiFilterEngineSQLQuery>SQL Query</StiFilterEngineSQLQuery>
     <StiFilterItemArgument>Argument</StiFilterItemArgument>
@@ -2915,7 +2922,8 @@
     <StiGaugeRangeTypeNone>None</StiGaugeRangeTypeNone>
     <StiGaugeTypeFullCircular>Full Circular</StiGaugeTypeFullCircular>
     <StiGaugeTypeHalfCircular>Half-Circular</StiGaugeTypeHalfCircular>
-    <StiGaugeTypeLinear>Linear</StiGaugeTypeLinear>
+    <StiGaugeTypeLinear>Vertical Linear</StiGaugeTypeLinear>
+    <StiGaugeTypeHorizontalLinear>Horizontal Linear</StiGaugeTypeHorizontalLinear>
     <StiGroupSortDirectionAscending>Ascending</StiGroupSortDirectionAscending>
     <StiGroupSortDirectionDescending>Descending</StiGroupSortDirectionDescending>
     <StiGroupSortDirectionNone>None</StiGroupSortDirectionNone>
@@ -3317,8 +3325,8 @@
     <WideUpwardDiagonal>Wide Upward Diagonal</WideUpwardDiagonal>
     <ZigZag>Zig Zag</ZigZag>
   </PropertyHatchStyle>
-  <PropertyMain>  
-    <ValueSize>Value Size</ValueSize>
+  <PropertyMain>
+    <FontSizeMode>Font Size Mode</FontSizeMode>
     <ParetoSeriesColors>Pareto Series Colors</ParetoSeriesColors>
     <AcceptsReturn>Accepts Return</AcceptsReturn>
     <AcceptsTab>Accepts Tab</AcceptsTab>
@@ -3412,6 +3420,8 @@
     <BorderWidth>Border Width</BorderWidth>
     <Bottom>Bottom</Bottom>
     <BottomSide>Bottom Side</BottomSide>
+    <BubbleBackColor>Bubble Back Color</BubbleBackColor>
+    <BubbleBorderColor>Bubble Border Color</BubbleBorderColor>
     <BreakIfLessThan>Break if Less Than</BreakIfLessThan>
     <Brush>Brush</Brush>
     <BrushNegative>Brush Negative</BrushNegative>
@@ -4077,6 +4087,7 @@
     <ShowXAxis>Show X Axis</ShowXAxis>
     <ShowYAxis>Show Y Axis</ShowYAxis>
     <ShowZeros>Show Zeros</ShowZeros>
+    <ShowBubble>Show Bubble</ShowBubble>
     <ShrinkFontToFit>Shrink Font to Fit</ShrinkFontToFit>
     <ShrinkFontToFitMinimumSize>Shrink Font to Fit Minimum Size</ShrinkFontToFitMinimumSize>
     <Side>Side</Side>
@@ -4191,6 +4202,7 @@
     <TrackColor>Track Color</TrackColor>
     <TransparentColor>Transparent Color</TransparentColor>
     <TrendLine>Trend Line</TrendLine>
+    <TrendLines>Trend Lines</TrendLines>
     <TrendLineColor>Trend Line Color</TrendLineColor>
     <TrendLineShowShadow>Trend Line Show Shadow</TrendLineShowShadow>
     <TrimExcessData>Trim Excess Data</TrimExcessData>
