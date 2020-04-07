@@ -804,6 +804,9 @@
     <DoYouWantToInstallReports>Do you want to install templates of reports and dashboards?</DoYouWantToInstallReports>
     <InstallSamplesDesc>Let's install our sample projects. They will help you learn the basics of working with our software.</InstallSamplesDesc>
     <WhoAreYou>Who Are you?</WhoAreYou>
+    <Beginner>Beginner</Beginner>
+    <Creator>Creator</Creator>
+    <Developer>Developer</Developer>
   </Desktop>
   <Dialogs>
     <StiButtonControl>Button</StiButtonControl>
@@ -2331,15 +2334,15 @@
     <OutOfRange>Out of range ("{0}")!</OutOfRange>
     <ParsingCommandException>An exception of processing the command in the specified xml: {0}</ParsingCommandException>
     <PleaseLogin>Please login using your Stimulsoft account credentials or register a new account before publishing report.</PleaseLogin>
-    <QuotaMaximumComputingCyclesCountExceeded>Maximum computing cycles count exceeded.</QuotaMaximumComputingCyclesCountExceeded>
-    <QuotaMaximumDataRowsCountExceeded>Maximum data rows count in one data source exceeded.</QuotaMaximumDataRowsCountExceeded>
+    <QuotaMaximumComputingCyclesCountExceeded>Maximum computing cycles exceeded.</QuotaMaximumComputingCyclesCountExceeded>
+    <QuotaMaximumDataRowsCountExceeded>Maximum data rows in one data source exceeded.</QuotaMaximumDataRowsCountExceeded>
     <QuotaMaximumFileSizeExceeded>Maximum file size exceeded.</QuotaMaximumFileSizeExceeded>
-    <QuotaMaximumItemsCountExceeded>Maximum items count exceeded.</QuotaMaximumItemsCountExceeded>
-    <QuotaMaximumReportPagesCountExceeded>Maximum report pages count exceeded.</QuotaMaximumReportPagesCountExceeded>
-    <QuotaMaximumResourcesCountExceeded>Maximum resources count exceeded.</QuotaMaximumResourcesCountExceeded>
+    <QuotaMaximumItemsCountExceeded>Maximum items exceeded.</QuotaMaximumItemsCountExceeded>
+    <QuotaMaximumReportPagesCountExceeded>Maximum report pages exceeded.</QuotaMaximumReportPagesCountExceeded>
+    <QuotaMaximumResourcesCountExceeded>Maximum resources exceeded.</QuotaMaximumResourcesCountExceeded>
     <QuotaMaximumResourceSizeExceeded>Maximum resource size exceeded.</QuotaMaximumResourceSizeExceeded>
-	<QuotaMaximumUsersCountExceeded>Maximum users count exceeded.</QuotaMaximumUsersCountExceeded>
-    <QuotaMaximumWorkspacesCountExceeded>Maximum workspaces count exceeded.</QuotaMaximumWorkspacesCountExceeded>
+	<QuotaMaximumUsersCountExceeded>Maximum users exceeded.</QuotaMaximumUsersCountExceeded>
+    <QuotaMaximumWorkspacesCountExceeded>Maximum workspaces exceeded.</QuotaMaximumWorkspacesCountExceeded>
     <SchedulerCantRunItSelf>The scheduler cannot run itself!</SchedulerCantRunItSelf>
     <SessionTimeOut>Session timeout</SessionTimeOut>
     <SnapshotAlreadyProcessed>The report snapshot is already processed!</SnapshotAlreadyProcessed>
@@ -2927,6 +2930,7 @@
     <StiGaugeTypeHalfCircular>Half-Circular</StiGaugeTypeHalfCircular>
     <StiGaugeTypeLinear>Vertical Linear</StiGaugeTypeLinear>
     <StiGaugeTypeHorizontalLinear>Horizontal Linear</StiGaugeTypeHorizontalLinear>
+    <StiGaugeTypeBullet>Bullet</StiGaugeTypeBullet>
     <StiGroupSortDirectionAscending>Ascending</StiGroupSortDirectionAscending>
     <StiGroupSortDirectionDescending>Descending</StiGroupSortDirectionDescending>
     <StiGroupSortDirectionNone>None</StiGroupSortDirectionNone>
