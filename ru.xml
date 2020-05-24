@@ -144,7 +144,6 @@
     <Yes>&amp;Да</Yes>
   </Buttons>
   <Chart>
-    <Histogram>Гистограмм</Histogram>
     <AddCondition>&amp;Добавить условие</AddCondition>
     <AddConstantLine>Добавить константную линию</AddConstantLine>
     <AddFilter>&amp;Добавить фильтр</AddFilter>
@@ -181,6 +180,7 @@
     <Gantt>Ганта</Gantt>
     <GridInterlaced>Чередование</GridInterlaced>
     <GridLines>Линии сетки</GridLines>
+    <Histogram>Гистограмм</Histogram>
     <LabelAlignment>Выравнивание:</LabelAlignment>
     <LabelAlignmentHorizontal>Горизонтальное:</LabelAlignmentHorizontal>
     <LabelAlignmentVertical>Вертикальное:</LabelAlignmentVertical>
@@ -633,7 +633,6 @@
     <StiZipCode>Почтовый индекс</StiZipCode>
   </Components>
   <Dashboard>
-    <DashboardsNotSupportedIntheWPFDesigner>Дашборды не поддерживаются в WPF Дизайнере.</DashboardsNotSupportedIntheWPFDesigner>
     <AddRange>Добавить диапазон</AddRange>
     <AfterGroupingData>Применить после группировки</AfterGroupingData>
     <AllowUserDrillDown>Разрешить пользовательскую детализацию</AllowUserDrillDown>
@@ -649,6 +648,7 @@
     <ColorScale>Цветовая шкала</ColorScale>
     <ColumnInteractions>Взаимодействие колонок</ColumnInteractions>
     <CustomFilter>Пользовательский фильтр ...</CustomFilter>
+    <DashboardsNotSupportedIntheWPFDesigner>Дашборды не поддерживаются в WPF Дизайнере.</DashboardsNotSupportedIntheWPFDesigner>
     <DataBars>Гистограмма</DataBars>
     <DataFilterGrouping>Данная операция применяется для группировки только различных колонок.</DataFilterGrouping>
     <DataNotDefined>Данные не указаны</DataNotDefined>
@@ -807,17 +807,17 @@
     <ButtonAddFolder>Добавить папку</ButtonAddFolder>
     <ButtonCreateDashboard>Создать панель индикаторов</ButtonCreateDashboard>
     <ButtonCreateReport>Создать отчет</ButtonCreateReport>
+    <ChooseYourSkillLevel>Выберите уровень сложности</ChooseYourSkillLevel>
     <Creator>Creator</Creator>
     <Developer>Разработчик</Developer>
     <DoYouWantToInstallReports>Вы хотите установить шаблоны отчетов и панелей индикаторов?</DoYouWantToInstallReports>
     <InstallSamplesDesc>Давайте установим наши примеры! Они помогут вам освоить работу с нашим продуктом.</InstallSamplesDesc>
     <PleaseAnswerWhoAreYou>Пожалуйста, ответьте, кто вы?</PleaseAnswerWhoAreYou>
+    <SkillLevel>Уровень сложности</SkillLevel>
     <WhoAreYou>Кто Вы?</WhoAreYou>
     <WhoAreYouBeginnerDescription>Оптимально подойдет для знакомства с возможностями дизайнера.</WhoAreYouBeginnerDescription>
     <WhoAreYouCreatorDescription>Оптимально подойдет для создания отчетов и имеет необходимый функционал для дизайна.</WhoAreYouCreatorDescription>
     <WhoAreYouDeveloperDescription>Оптимально подойдет для создания приложений. Доступен полный функционал для дизайна и встраивания компонентов.</WhoAreYouDeveloperDescription>
-    <SkillLevel>Уровень сложности</SkillLevel>
-    <ChooseYourSkillLevel>Выберите уровень сложности</ChooseYourSkillLevel>
   </Desktop>
   <Dialogs>
     <StiButtonControl>Кнопка</StiButtonControl>
@@ -2537,6 +2537,7 @@
     <ColorsCategory>Цвета</ColorsCategory>
     <ColumnsCategory>Колонки</ColumnsCategory>
     <ComboBoxCategory>Поле со списком</ComboBoxCategory>
+    <CommonCategory>Общие</CommonCategory>
     <ControlCategory>Управление</ControlCategory>
     <ControlsEventsCategory>События элементов управления</ControlsEventsCategory>
     <CrossTabCategory>Кросс-таблица</CrossTabCategory>
