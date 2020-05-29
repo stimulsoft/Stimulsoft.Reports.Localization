@@ -648,6 +648,7 @@
     <ColorScale>Farbenskala</ColorScale>
     <ColumnInteractions>Spalten-Interaktionen</ColumnInteractions>
     <CustomFilter>Benutzerdefinierter Filter...</CustomFilter>
+    <DashboardsNotSupportedIntheWPFDesigner>Dashboards werden nicht im WPF-Designer unterstützt.</DashboardsNotSupportedIntheWPFDesigner>
     <DataBars>Datenbalken</DataBars>
     <DataFilterGrouping>Diese Operation wird nur für Gruppierung von verschiedenen Spalten verwendet.</DataFilterGrouping>
     <DataNotDefined>Daten sind nicht festgelegt</DataNotDefined>
@@ -806,17 +807,17 @@
     <ButtonAddFolder>Ordner hinzufügen</ButtonAddFolder>
     <ButtonCreateDashboard>Dashboard erstellen</ButtonCreateDashboard>
     <ButtonCreateReport>Bericht erstellen</ButtonCreateReport>
+    <ChooseYourSkillLevel>Wählen Sie Ihr Qualifikationsniveau aus</ChooseYourSkillLevel>
     <Creator>Ersteller</Creator>
     <Developer>Entwickler</Developer>
     <DoYouWantToInstallReports>Möchten Sie die Vorlagen der Berichte und Dashboards installieren?</DoYouWantToInstallReports>
     <InstallSamplesDesc>Installieren Sie unsere Beispiel-Projekte. Sie können Ihnen die Grundlagen der Abeit mit unserer Software erlernen.</InstallSamplesDesc>
     <PleaseAnswerWhoAreYou>Bitte, antworten, wer sind Sie?</PleaseAnswerWhoAreYou>
+    <SkillLevel>Qualifikationsniveau</SkillLevel>
     <WhoAreYou>Wer sind Sie?</WhoAreYou>
     <WhoAreYouBeginnerDescription>Optimale Passform, wenn Sie den Designer erstmalig ausführen.</WhoAreYouBeginnerDescription>
     <WhoAreYouCreatorDescription>Optimale Passform für Erstellen von Berichten. Die erforderliche Funktionalität für Entwerfen ist verfügbar.</WhoAreYouCreatorDescription>
     <WhoAreYouDeveloperDescription>Optimale Passform für Erstellen von Apps. Volle Funktionalität für Entwerfen von Berichten und Einbettung von Komponenten ist eingeschlossen.</WhoAreYouDeveloperDescription>
-	<SkillLevel>Qualifikationsniveau</SkillLevel>
-    <ChooseYourSkillLevel>Wählen Sie Ihr Qualifikationsniveau aus</ChooseYourSkillLevel>
   </Desktop>
   <Dialogs>
     <StiButtonControl>Schaltfläche</StiButtonControl>
@@ -898,6 +899,21 @@
     <ReportCannotBeSaveDueToErrors>Es sind Fehler aufgetreten. Der Bericht konnte nicht gespeichert werden!</ReportCannotBeSaveDueToErrors>
     <ServiceNotFound>'{0}'-Dienst wurde nicht gefunden.</ServiceNotFound>
   </Errors>
+  <ExceptionProvider>
+    <Assemblies>Assemblierungen</Assemblies>
+    <Exception>Ausnahme</Exception>
+    <ExceptionReport>Ausnahme-Bericht</ExceptionReport>
+    <Framework>Framework</Framework>
+    <General>Haupt</General>
+    <Message>Nachricht</Message>
+    <Number>Anzahl</Number>
+    <PleaseEnterDetailedInformation>Bitte, geben Sie die Information über die Ereignisse an, die diese Ausnahme hervorrufen.</PleaseEnterDetailedInformation>
+    <SaveToFile>In Datei speichern</SaveToFile>
+    <SendErrorFailed>Fehler bei der Lieferung der Fehlermeldung.</SendErrorFailed>
+    <SendErrorSuccess>Die Fehlermeldung ist erfolgreich geliefert.</SendErrorSuccess>
+    <Source>Quelle</Source>
+    <StackTrace>Stack-Ablaufverfolgung</StackTrace>
+  </ExceptionProvider>
   <Export>
     <AddPageBreaks>Seitenumbrüche hinzufügen</AddPageBreaks>
     <AllBands>Alle Bänder</AllBands>
@@ -2521,6 +2537,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <ColorsCategory>Farben</ColorsCategory>
     <ColumnsCategory>Spalten</ColumnsCategory>
     <ComboBoxCategory>Kombinationsfeld</ComboBoxCategory>
+    <CommonCategory>Gemeinsam</CommonCategory>
     <ControlCategory>Steuerung</ControlCategory>
     <ControlsEventsCategory>Ereignisse der Steuerelemente</ControlsEventsCategory>
     <CrossTabCategory>Kreuztabelle</CrossTabCategory>
