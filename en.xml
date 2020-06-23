@@ -1194,6 +1194,7 @@
     <title>Cross-Tab Designer</title>
   </FormCrossTabDesigner>
   <FormDatabaseEdit>
+	<AccessToken>Access token</AccessToken>
     <ClientId>Client Id</ClientId>
     <ClientSecret>Client Secret</ClientSecret>
     <ConnectionString>Connection String:</ConnectionString>
@@ -1205,6 +1206,8 @@
     <FirebirdEdit>Edit Firebird Connection</FirebirdEdit>
     <FirebirdNew>New Firebird Connection</FirebirdNew>
     <FirstRowIsHeader>First Row is Header</FirstRowIsHeader>
+	<GetAuthorizationCode>Get authorization code</GetAuthorizationCode>
+    <GetTokens>Get tokens</GetTokens>
     <ImportData>Import Data</ImportData>
     <InformixEdit>Edit Informix Connection</InformixEdit>
     <InformixNew>New Informix Connection</InformixNew>
@@ -1231,7 +1234,8 @@
     <PostgreSQLNew>New PostgreSQL Connection</PostgreSQLNew>
     <PromptUserNameAndPassword>Prompt User Name and Password</PromptUserNameAndPassword>
     <RecentConnections>Recent</RecentConnections>
-    <RelationDirection>Relation Direction:</RelationDirection>
+    <RefreshToken>Refresh token</RefreshToken>
+	<RelationDirection>Relation Direction:</RelationDirection>
     <ReportConnections>Report Connections</ReportConnections>
     <SelectData>Select Data</SelectData>
     <SpreadsheetId>Spreadsheet Id</SpreadsheetId>
