@@ -154,6 +154,7 @@
     <AxisReverse>Перевернуть</AxisReverse>
     <AxisX>Ось X</AxisX>
     <AxisY>Ось Y</AxisY>
+    <BoxAndWhisker>Ящик с усами</BoxAndWhisker>
     <Bubble>Пузырьковая</Bubble>
     <Candlestick>Японские свечи</Candlestick>
     <ChartConditionsCollectionForm>Условия</ChartConditionsCollectionForm>
@@ -626,6 +627,7 @@
     <StiSubReport>Вложенный отчет</StiSubReport>
     <StiSystemText>Системный текст</StiSystemText>
     <StiTable>Таблица</StiTable>
+    <StiTableOfContents>Оглавление</StiTableOfContents>
     <StiText>Текст</StiText>
     <StiTextInCells>Текст в ячейках</StiTextInCells>
     <StiTreeView>Дерево</StiTreeView>
@@ -1204,6 +1206,7 @@
     <ClientSecret>Секрет клиента</ClientSecret>
     <ConnectionString>Строка соединения:</ConnectionString>
     <DashboardConnections>Соединения панели индикаторов</DashboardConnections>
+    <DatabaseSecret>Секрет базы данных</DatabaseSecret>
     <DB2Edit>Новое IBM DB2 соединение</DB2Edit>
     <DB2New>Изменение IBM DB2 соединения</DB2New>
     <EditConnection>Изменение {0} соединения</EditConnection>
@@ -1213,6 +1216,8 @@
     <FirstRowIsHeader>Первая строка это заголовки</FirstRowIsHeader>
     <GetAuthorizationCode>Получить код авторизации</GetAuthorizationCode>
     <GetTokens>Получить токен</GetTokens>
+    <GisEdit>Изменение GIS данных</GisEdit>
+    <GisNew>Новые GIS данные</GisNew>
     <ImportData>Импорт данных</ImportData>
     <InformixEdit>Изменение Informix соединения</InformixEdit>
     <InformixNew>Новое Informix соединение</InformixNew>
@@ -1231,6 +1236,7 @@
     <OracleODPEdit>Изменение Oracle ODP.NET соединения</OracleODPEdit>
     <OracleODPNew>Новое Oracle ODP.NET соединение</OracleODPNew>
     <PathData>Путь к XML данным:</PathData>
+    <PathGisData>Путь к GIS данным:</PathGisData>
     <PathJsonData>Путь к JSON данным:</PathJsonData>
     <PathSchema>Путь к XSD схеме:</PathSchema>
     <PathToData>Путь к данным:</PathToData>
@@ -2573,6 +2579,7 @@
     <CrossTabCategory>Кросс-таблица</CrossTabCategory>
     <DashboardCategory>Панель индикаторов</DashboardCategory>
     <DataCategory>Данные</DataCategory>
+    <DataCells>Ячейки данных</DataCells>
     <DatePickerCategory>Выбор даты</DatePickerCategory>
     <DescriptionCategory>Описание</DescriptionCategory>
     <DesignCategory>Редактирование</DesignCategory>
@@ -3821,6 +3828,7 @@
     <HyperlinkDataColumn>Колонка данных гиперссылок</HyperlinkDataColumn>
     <Icon>Значок</Icon>
     <IconAlignment>Выравнивание значка</IconAlignment>
+    <IconColor>Цвет значка</IconColor>
     <IconSet>Набор значков</IconSet>
     <IconSetCondition>Набор значков</IconSetCondition>
     <Idents>Идентификаторы</Idents>
@@ -4191,11 +4199,13 @@
     <ShowEdgeValues>Показывать крайние значения</ShowEdgeValues>
     <ShowImageBehind>Показывать изображения за</ShowImageBehind>
     <ShowInLegend>Показывать в легенде</ShowInLegend>
+    <ShowInnerPoints>Показать точки выбросов</ShowInnerPoints>
     <ShowInPercent>Показывать в процентах</ShowInPercent>
     <ShowLabels>Показывать подписи</ShowLabels>
     <ShowLabelText>Показывать текст</ShowLabelText>
     <ShowLegend>Показывать легенду</ShowLegend>
     <ShowMarker>Показывать маркер</ShowMarker>
+    <ShowMeanMarkers>Показать средние метки</ShowMeanMarkers>
     <ShowName>Показывать наименование</ShowName>
     <ShowNulls>Показывать неопределенные</ShowNulls>
     <ShowOnZeroValues>Показывать при нулевых величинах</ShowOnZeroValues>
