@@ -154,6 +154,7 @@
     <AxisReverse>Vertauschen</AxisReverse>
     <AxisX>X Achse</AxisX>
     <AxisY>Y Achse</AxisY>
+    <BoxAndWhisker>Box-Plot</BoxAndWhisker>
     <Bubble>Blase</Bubble>
     <Candlestick>Kerzen</Candlestick>
     <ChartConditionsCollectionForm>Bedingungen</ChartConditionsCollectionForm>
@@ -626,6 +627,7 @@
     <StiSubReport>Unterbericht</StiSubReport>
     <StiSystemText>Systemtext</StiSystemText>
     <StiTable>Tabelle</StiTable>
+    <StiTableOfContents>Inhaltstabelle</StiTableOfContents>
     <StiText>Text</StiText>
     <StiTextInCells>Text in Zellen</StiTextInCells>
     <StiTreeView>Baumansicht</StiTreeView>
@@ -1204,6 +1206,7 @@
     <ClientSecret>Geheimer Clientschlüssel</ClientSecret>
     <ConnectionString>Verbindungszeichenfolge:</ConnectionString>
     <DashboardConnections>Dashboard-Verbindung</DashboardConnections>
+    <DatabaseSecret>Datenbank-Geheimnis</DatabaseSecret>
     <DB2Edit>IBM DB2 Verbindung ändern</DB2Edit>
     <DB2New>Neue IBM DB2 Verbindung</DB2New>
     <EditConnection>{0} Verbindung bearbeiten</EditConnection>
@@ -1213,6 +1216,8 @@
     <FirstRowIsHeader>In der ersten Reihe sind die Kopfdaten</FirstRowIsHeader>
     <GetAuthorizationCode>Autorisierungscode erhalten</GetAuthorizationCode>
     <GetTokens>Token erhalten</GetTokens>
+    <GisEdit>GIS-Daten bearbeiten</GisEdit>
+    <GisNew>Neue GIS-Daten</GisNew>
     <ImportData>Import der Daten</ImportData>
     <InformixEdit>Informix-Verbindung ändern</InformixEdit>
     <InformixNew>Neue Informix-Verbindung</InformixNew>
@@ -1231,6 +1236,7 @@
     <OracleODPEdit>Oracle ODP.NET Verbindung ändern</OracleODPEdit>
     <OracleODPNew>Neue Oracle ODP.NET Verbindung</OracleODPNew>
     <PathData>Pfad zu XML-Daten:</PathData>
+    <PathGisData>Weg zu Gis-Daten:</PathGisData>
     <PathJsonData>Pfad zu JSON-Daten:</PathJsonData>
     <PathSchema>Pfad zu XSD-Schema:</PathSchema>
     <PathToData>Pfad zu Daten:</PathToData>
@@ -2558,6 +2564,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <CrossTabCategory>Kreuztabelle</CrossTabCategory>
     <DashboardCategory>Dashboard</DashboardCategory>
     <DataCategory>Daten</DataCategory>
+    <DataCells>Datenzellen</DataCells>
     <DatePickerCategory>Datumsauswahl</DatePickerCategory>
     <DescriptionCategory>Beschreibung</DescriptionCategory>
     <DesignCategory>Entwurf</DesignCategory>
@@ -3822,6 +3829,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <HyperlinkDataColumn>Hyperlink Datenspalte</HyperlinkDataColumn>
     <Icon>Symbol</Icon>
     <IconAlignment>Symbol-Ausrichtung</IconAlignment>
+    <IconColor>Symbolfarbe</IconColor>
     <IconSet>Symbolliste</IconSet>
     <IconSetCondition>Symbolliste Bedingung</IconSetCondition>
     <Idents>Bezeichner</Idents>
@@ -4193,11 +4201,13 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <ShowEdgeValues>Werte an den Ränder anzeigen</ShowEdgeValues>
     <ShowImageBehind>Bild dahinter anzeigen</ShowImageBehind>
     <ShowInLegend>In Legende anzeigen</ShowInLegend>
+    <ShowInnerPoints>Innere Punkte anzeigen</ShowInnerPoints>
     <ShowInPercent>Anzeige in Prozent</ShowInPercent>
     <ShowLabels>Beschriftungen anzeigen</ShowLabels>
     <ShowLabelText>Text anzeigen</ShowLabelText>
     <ShowLegend>Beschriftung anzeigen</ShowLegend>
     <ShowMarker>Marker anzeigen</ShowMarker>
+    <ShowMeanMarkers>Mittelmarker anzeigen</ShowMeanMarkers>
     <ShowNulls>Nullen anzeigen</ShowNulls>
     <ShowOnZeroValues>Bei 0-Werten anzeigen</ShowOnZeroValues>
     <ShowOthers>Andere anzeigen</ShowOthers>
