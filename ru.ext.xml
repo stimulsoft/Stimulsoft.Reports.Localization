@@ -61,7 +61,6 @@
     <Zero>Обнулить</Zero>
   </CheckActions>
   <CheckComponent>
-    <StiFilterValueCheckLong>Для компонента {0} задан фильтр, но в нём не задано значение. Поэтому фильтр не применяется.</StiFilterValueCheckLong>
     <StiAllowHtmlTagsInTextCheckLong>В тексте используются Html тэги, но значение свойства AllowHtmlTags равно false. Содержимое компонента {0} напечатается неправильно.</StiAllowHtmlTagsInTextCheckLong>
     <StiAllowHtmlTagsInTextCheckShort>Не задано значение свойства AllowHtmlTags</StiAllowHtmlTagsInTextCheckShort>
     <StiCanBreakComponentInContainerCheckLong>У контейнера '{0}' значение свойства CanBreak равно false, а у некоторых вложенных компонентов значение свойства CanBreak равно true.</StiCanBreakComponentInContainerCheckLong>
@@ -99,10 +98,11 @@
     <StiDataSourcesForImageCheckShort>Задано несколько источников данных</StiDataSourcesForImageCheckShort>
     <StiEventsAtInterpretationCheckLong>Скрипт в событии {0} в компоненте {1} не работает в режиме интерпретации.</StiEventsAtInterpretationCheckLong>
     <StiEventsAtInterpretationCheckShort>События в интерпретации</StiEventsAtInterpretationCheckShort>
-    <StiFilterCircularDependencyElementCheckLong>Циклическая зависимость фильтра найдена у '{0}' элемента. Пожалуйста, проверьте свойство 'Главный элемент' у '{0}' элемента!</StiFilterCircularDependencyElementCheckLong>
-    <StiFilterCircularDependencyElementCheckShort>Циклическая зависимость фильтра</StiFilterCircularDependencyElementCheckShort>
     <StiExpressionElementCheckLong>Выражение '{0}' в '{1}' компоненте работает неверно. Следующее сообщение было получено от парсера: '{2}'.</StiExpressionElementCheckLong>
     <StiExpressionElementCheckShort>Выражение работает неверно!</StiExpressionElementCheckShort>
+    <StiFilterCircularDependencyElementCheckLong>Циклическая зависимость фильтра найдена у '{0}' элемента. Пожалуйста, проверьте свойство 'Главный элемент' у '{0}' элемента!</StiFilterCircularDependencyElementCheckLong>
+    <StiFilterCircularDependencyElementCheckShort>Циклическая зависимость фильтра</StiFilterCircularDependencyElementCheckShort>
+    <StiFilterValueCheckLong>Для компонента {0} задан фильтр, но в нём не задано значение. Поэтому фильтр не применяется.</StiFilterValueCheckLong>
     <StiFilterValueCheckShort>В фильтре не задано значение</StiFilterValueCheckShort>
     <StiFontMissingCheckLong>Шрифт '{0}' указанный для компонента '{1}' не найден.</StiFontMissingCheckLong>
     <StiFontMissingCheckShort>Шрифт не найден.</StiFontMissingCheckShort>
@@ -313,8 +313,8 @@
     <ParametersFromReport>Использовать заданное в отчете значение</ParametersFromReport>
     <ParametersFromReportToolTip>Будут использованы значения параметров, установленных в шаблоне отчёта.</ParametersFromReportToolTip>
     <ParametersReplace>Заменить значение из {0}кода</ParametersReplace>
-    <ParametersReplaceToolTip>Будет предложен вариант изменения значений параметров отчёта из кода.</ParametersReplaceToolTip>
     <ParametersReplacePhpInfo>Параметр будет удален из словаря отчета и может быть использован только в SQL запросе.</ParametersReplacePhpInfo>
+    <ParametersReplaceToolTip>Будет предложен вариант изменения значений параметров отчёта из кода.</ParametersReplaceToolTip>
     <ParametersRequestFromUser>Запрашивать у пользователя</ParametersRequestFromUser>
     <ParametersRequestFromUserToolTip>Параметр отчёта будет запрошен у пользователя в момент просмотра отчёта в окне вьювера.</ParametersRequestFromUserToolTip>
     <Publish>Опубликовать</Publish>
