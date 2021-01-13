@@ -1205,13 +1205,14 @@
   </FormCrossTabDesigner>
   <FormDatabaseEdit>
     <AccessToken>Access token</AccessToken>
-    <AuthorizationCode>Authorization Code</AuthorizationCode>
-    <ClientId>Client Id</ClientId>
+    <AuthorizationCode>Authorization Code</AuthorizationCode>    
+	<ClientId>Client Id</ClientId>
     <ClientSecret>Client Secret</ClientSecret>
     <ConnectionString>Connection String:</ConnectionString>
     <DashboardConnections>Dashboard Connections</DashboardConnections>
     <DatabaseSecret>Database Secret</DatabaseSecret>
-    <DB2Edit>Edit IBM DB2 Connection</DB2Edit>
+    <DatasetId>Dataset Id</DatasetId>
+	<DB2Edit>Edit IBM DB2 Connection</DB2Edit>
     <DB2New>New IBM DB2 Connection</DB2New>
     <EditConnection>Edit {0} Connection</EditConnection>
     <Favorites>Favorites</Favorites>
@@ -1248,6 +1249,7 @@
     <PostgreSQLEdit>Edit PostgreSQL Connection</PostgreSQLEdit>
     <PostgreSQLNew>New PostgreSQL Connection</PostgreSQLNew>
     <PromptUserNameAndPassword>Prompt User Name and Password</PromptUserNameAndPassword>
+	<ProjectId>Project Id</ProjectId>
     <RecentConnections>Recent</RecentConnections>
     <RedirectUrl>Redirect URL</RedirectUrl>
     <RefreshAccessToken>Refresh access token</RefreshAccessToken>
@@ -1255,6 +1257,7 @@
     <RelationDirection>Relation Direction:</RelationDirection>
     <ReportConnections>Report Connections</ReportConnections>
     <SelectData>Select Data</SelectData>
+	<ServiceAccountKeyFile>Service Account Key File</ServiceAccountKeyFile>
     <SpreadsheetId>Spreadsheet Id</SpreadsheetId>
     <SqlCeEdit>Edit SQLServerCE Connection</SqlCeEdit>
     <SqlCeNew>New SQLServerCE Connection</SqlCeNew>
