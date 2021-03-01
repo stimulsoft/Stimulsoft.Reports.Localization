@@ -2278,8 +2278,16 @@
   <Map>
     <LinkDataForm>Link Data</LinkDataForm>
     <MapEditorForm>Map Editor</MapEditorForm>
-  </Map>
-  <Messages>
+  </Map>  
+  <MathFormula>
+    <Alphabets>Alphabets</Alphabets>
+    <Arrows>Arrows</Arrows>
+    <Formula>Formula</Formula>
+    <Maths>Maths</Maths>
+    <Operators>Operators</Operators>
+  </MathFormula>
+  <Messages>  
+    <LatexFormat>The LaTeX format is used to display mathematical formulas.</LatexFormat>
     <ChangeRequestTimeout>The request timeout for SQL queries exceeds the request timeout of the report designer. Set the request timeout for the designer component in no less than {0} seconds.</ChangeRequestTimeout>
     <DoNotShowAgain>Do not show again</DoNotShowAgain>
     <MessageTimeOutExpired>Command timeout has expired!</MessageTimeOutExpired>
