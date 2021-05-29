@@ -900,6 +900,7 @@
     <DoubleClickEvent>Occurs when a user double clicks the component in the report viewer.</DoubleClickEvent>
     <Editable>A value indicates that a component can be edited in the window of viewer.</Editable>
     <Enabled>A value that indicates will this component be available or not.</Enabled>
+	<ExceedMargins>Gets or sets a value to exceed margins of the component background.</ExceedMargins>
     <FilterMode>A logical operation of combining filters for the current band.</FilterMode>
     <FilterOn>A value that indicates, that filter is turned on.</FilterOn>
     <Filters>A collection of the data filters.</Filters>
@@ -939,7 +940,7 @@
   </StiComponent>
   <StiConstantLines>
     <Antialiasing>A value that control antialiasing drawing mode.</Antialiasing>
-    <AxisValue>Axis value through what the constant line is drawn.. Sample: 1, yyyy.MM.dd</AxisValue>
+    <AxisValue>Axis value through what the constant line is drawn. Sample: 1, yyyy.MM.dd</AxisValue>
     <Font>A font that is used for drawing constant line text.</Font>
     <LineColor>A color which will be used for drawing constant line.</LineColor>
     <LineStyle>Constant line style.</LineStyle>
