@@ -575,6 +575,68 @@
     <WizardXmlDescription>Create a report with XML data.</WizardXmlDescription>
   
 </Cloud>
+  <Scheduler>
+    <Schedulers>Schedulers</Schedulers>
+    <Scheduler>Scheduler</Scheduler>
+    <NewScheduler>New Scheduler</NewScheduler>
+    <EditScheduler>Edit Scheduler</EditScheduler>
+    <AllSchedulers>All Schedulers</AllSchedulers>
+    <NewAction>New Action</NewAction>
+    <ActionRunReport>Run Report</ActionRunReport>
+    <TextPressPlusIconAddNewAction>Click the icon plus to add a new action!</TextPressPlusIconAddNewAction>
+    <SmtpSettings>Smtp Settings</SmtpSettings>
+    <NoShedulers>No Shedulers</NoShedulers>
+    <SenderEmail>Sender Email</SenderEmail>
+    <Host>Host</Host>
+    <EnableSSL>Enable SSL</EnableSSL>
+    <AdvancedSettings>Advanced Settings</AdvancedSettings>
+    <WizardOnce>Once</WizardOnce>
+    <WizardOnceDescription>Run the scheduler once at any time.</WizardOnceDescription>
+    <WizardHourly>Hourly</WizardHourly>
+    <WizardHourlyDescription>Once an hour.</WizardHourlyDescription>
+    <WizardDaily>Daily</WizardDaily>
+    <WizardDailyDescription>Once a day, at a specified time.</WizardDailyDescription>
+    <WizardWeekly>Weekly</WizardWeekly>
+    <WizardWeeklyDescription>On the selected days of the week, at a specified time.</WizardWeeklyDescription>
+    <WizardMonthly>Monthly</WizardMonthly>
+    <WizardMonthlyDescription>Monthly, on selected days of the week or days of the month, at a specified time.</WizardMonthlyDescription>
+    <RepeatTaskEvery>Repeat task every</RepeatTaskEvery>
+    <ForADuractionOf>for a duraction of</ForADuractionOf>
+    <StopAllRunningTasksAtEndOfRepetitionDuraction>Stop all running tasks at end of repetition duraction</StopAllRunningTasksAtEndOfRepetitionDuraction>
+    <DelayTaskForUpToRandomDelay>Delay task for up to (random delay)</DelayTaskForUpToRandomDelay>
+    <StopTasksIfItRunsLongerThan>Stop tasks if it runs longer than</StopTasksIfItRunsLongerThan>
+    <Expire>Expire</Expire>
+    <LabelRunAtTime>Run at Time</LabelRunAtTime>
+    <LabelRunEvery>Run Every</LabelRunEvery>
+    <LabelRunAtDay>Run at Day</LabelRunAtDay>
+    <RadioButtonDay>Day</RadioButtonDay>
+    <DayDayX>Day {0}</DayDayX>
+    <DayLast>Last</DayLast>
+    <DayAll>All</DayAll>
+    <DayNone>None</DayNone>
+    <RadioButtonOn>On</RadioButtonOn>
+    <NumberOfDayFirst>First</NumberOfDayFirst>
+    <NumberOfDaySecond>Second</NumberOfDaySecond>
+    <NumberOfDayThird>Third</NumberOfDayThird>
+    <NumberOfDayFourth>Fourth</NumberOfDayFourth>
+    <NumberOfDayLast>Last</NumberOfDayLast>
+    <NumberOfDayAll>All</NumberOfDayAll>
+    <NumberOfDayNone>None</NumberOfDayNone>
+    <DaysOfWeekAll>All</DaysOfWeekAll>
+    <DaysOfWeekNone>None</DaysOfWeekNone>
+    <LabelRunAtMonth>Run at Month</LabelRunAtMonth>
+    <LabelDaysOfWeek>Days of Week</LabelDaysOfWeek>
+    <TextDragDropReportHere>Drag &amp; Drop the Report Here</TextDragDropReportHere>
+    <ToolTipSetParameters>Defining Report Parameters</ToolTipSetParameters>
+    <GetFolder>Get Folder</GetFolder>
+    <TextDragDropDestinationHere>Drag &amp; Drop the Destination Folder Here</TextDragDropDestinationHere>
+    <LabelResultName>Result Name</LabelResultName>
+    <CheckBoxOverwriteIfExists>Overwrite If Exists</CheckBoxOverwriteIfExists>
+    <LabelTo>To</LabelTo>
+    <LabelSubject>Subject</LabelSubject>
+    <LabelMessage>Message</LabelMessage>
+    <GroupBoxFiles>Files</GroupBoxFiles>
+  </Scheduler>
   <Components>
     <StiBarCode>Bar Code</StiBarCode>
     <StiButton>Button</StiButton>
@@ -3733,7 +3795,6 @@
     <ErrorCorrectionLevel>Error Correction Level</ErrorCorrectionLevel>
     <ErrorsCorrectionLevel>Errors Correction Level</ErrorsCorrectionLevel>
     <EvenStyle>Even Style</EvenStyle>
-	<ExceedMargins>Exceed Margins</ExceedMargins>
     <ExcelSheet>Excel Sheet</ExcelSheet>
     <ExcelValue>Excel Value</ExcelValue>
     <Exponential>Exponential</Exponential>
