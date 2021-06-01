@@ -2689,6 +2689,14 @@
     <TreeViewBoxCategory>Tree View Box</TreeViewBoxCategory>
     <TreeViewCategory>Tree View</TreeViewCategory>
     <TrendLineCategory>Trend Line</TrendLineCategory>
+    <TickMarkMajorCategory>Tick Mark Major</TickMarkMajorCategory>
+    <TickMarkMinorCategory>Tick Mark Minor</TickMarkMinorCategory>
+    <TickLabelMajorCategory>Tick Label Major</TickLabelMajorCategory>
+    <TickLabelMinorCategory>Tick Label Minor</TickLabelMinorCategory>
+    <LinearScaleBarCategory>Linear Scale Bar</LinearScaleBarCategory>
+    <LinearScaleCategory>Linear Scale</LinearScaleCategory>
+    <RadialScaleBarCategory>Radial Scale Bar</RadialScaleBarCategory>
+    <NeedleCategory>Needle</NeedleCategory>
     <ValueCategory>Value</ValueCategory>
     <ValueCloseCategory>Value Close</ValueCloseCategory>
     <ValueEndCategory>Value End</ValueEndCategory>
@@ -3419,9 +3427,10 @@
     <ExportingEvent>Exporting</ExportingEvent>
 	<FillParametersEvent>Fill Parameters</FillParametersEvent>
     <GetArgumentEvent>Get Argument</GetArgumentEvent>
-	<GetBarCodeEvent>Get BarCode</GetBarCodeEvent>
+    <GetBarCodeEvent>Get BarCode</GetBarCodeEvent>
     <GetBookmarkEvent>Get Bookmark</GetBookmarkEvent>
-	<GetCheckedEvent>Get Checked</GetCheckedEvent>
+    <GetPointerEvent>Get Pointer</GetPointerEvent>
+    <GetCheckedEvent>Get Checked</GetCheckedEvent>
     <GetCollapsedEvent>Get Collapsed</GetCollapsedEvent>
     <GetCrossValueEvent>Get Cross Value</GetCrossValueEvent>
     <GetCutPieListEvent>Get Cut Pie List</GetCutPieListEvent>
@@ -4002,6 +4011,7 @@
     <LineLength>Line Length</LineLength>
     <LineLimit>Line Limit</LineLimit>
     <LineMarker>Line Marker</LineMarker>
+    <LinearScaleBrush>Linear Scale Brush</LinearScaleBrush>
     <LinesOfUnderline>Lines of Underline</LinesOfUnderline>
     <LineSpacing>Line Spacing</LineSpacing>
     <LineStyle>Line Style</LineStyle>
@@ -4379,6 +4389,7 @@
     <SystemVariables>System Variables</SystemVariables>
     <Table>Table</Table>
     <Tag>Tag</Tag>
+    <TargetColor>Target Color</TargetColor>
     <TagDataColumn>Tag Data Column</TagDataColumn>
     <TagValue>Tag Value</TagValue>
     <Target>Target</Target>
