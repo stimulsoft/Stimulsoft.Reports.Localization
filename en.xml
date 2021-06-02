@@ -637,6 +637,9 @@
     <LabelSubject>Subject</LabelSubject>
     <LabelMessage>Message</LabelMessage>
     <GroupBoxFiles>Files</GroupBoxFiles>
+    <MessagePropertyNotSet>'{0}' not set!</MessagePropertyNotSet>
+    <MessageInvalidName>Task names may not include any characters which are invalid for file names.</MessageInvalidName>
+    <MessageInvalidTaskName>Task names ending with a period followed by three or fewer characters cannot be retrieved due to a bug in the native library.</MessageInvalidTaskName>
   </Scheduler>
   <Components>
     <StiBarCode>Bar Code</StiBarCode>
