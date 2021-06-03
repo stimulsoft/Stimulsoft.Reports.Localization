@@ -573,6 +573,8 @@
     <WizardPublicShareDescription>Внешний доступ для любого не авторизированного пользователя.</WizardPublicShareDescription>
     <WizardRegisteredShare>Авторизированный доступ</WizardRegisteredShare>
     <WizardRegisteredShareDescription>Внешний доступ только для зарегистрированных пользователей из любого рабочего пространства.</WizardRegisteredShareDescription>
+    <WizardTeamShare>Командный доступ</WizardTeamShare>
+    <WizardTeamShareDescription>Внешний доступ для пользователей одного рабочего пространства.</WizardTeamShareDescription>
     <WizardXmlDescription>Создание отчета с XML данными.</WizardXmlDescription>
   </Cloud>
   <Components>
@@ -3442,6 +3444,7 @@
     <GetListOfValuesEvent>Взять список значений</GetListOfValuesEvent>
     <GetListOfWeights>Взять список весовых значений</GetListOfWeights>
     <GetListOfWeightsEvent>Взять список весовых значений</GetListOfWeightsEvent>
+    <GetPointerEvent>Взять указатель</GetPointerEvent>
     <GetSummaryExpressionEvent>Взять выражение суммирования</GetSummaryExpressionEvent>
     <GetTagEvent>Взять тег</GetTagEvent>
     <GetTitleEvent>Взять заголовок</GetTitleEvent>
@@ -4779,6 +4782,9 @@
     <LabelRunEvery>Запускать каждый</LabelRunEvery>
     <LabelSubject>Тема</LabelSubject>
     <LabelTo>Куда</LabelTo>
+    <MessageInvalidName>Имя не может содержать символы, недопустимые для имен файлов.</MessageInvalidName>
+    <MessageInvalidTaskName>Имя, заканчивающее точкой, за которой следует три или меньше символов, не может быть использовано.</MessageInvalidTaskName>
+    <MessagePropertyNotSet>'{0}' не задан!</MessagePropertyNotSet>
     <NewAction>Новое действие</NewAction>
     <NewScheduler>Новый планировщик</NewScheduler>
     <NoShedulers>Нет планировщиков</NoShedulers>
