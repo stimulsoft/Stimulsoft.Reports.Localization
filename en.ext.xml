@@ -1,5 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Localization language="English" description="English" cultureName="en">
+  <StiGaugeStyle>
+    <Brush>Gets or sets a brush to fill the style.</Brush>
+    <BorderColor>Gets or sets border color.</BorderColor>
+    <TargetColor>Gets or sets target color.</TargetColor>
+    <ForeColor>Gets or sets a brush to draw the text.</ForeColor>
+    <BorderWidth>A border size.</BorderWidth>
+    <TickMarkMajorBrush>Gets or sets a brush to fill the TickMarkMajor.</TickMarkMajorBrush>
+    <TickMarkMajorBorder>Gets or sets a border of the TickMarkMajor.</TickMarkMajorBorder>
+    <TickMarkMajorBorderWidth>A border size.</TickMarkMajorBorderWidth>
+    <TickMarkMinorBrush>Gets or sets a brush to fill the TickMarkMinor.</TickMarkMinorBrush>
+    <TickMarkMinorBorder>Gets or sets a border of the TickMarkMinor.</TickMarkMinorBorder>
+    <TickMarkMinorBorderWidth>A border size.</TickMarkMinorBorderWidth>
+    <TickLabelMajorTextBrush>Gets or sets a brush to draw the text.</TickLabelMajorTextBrush>
+    <TickLabelMajorFont>Gets or sets a font for drawing TickLabelMajor.</TickLabelMajorFont>
+    <TickLabelMinorTextBrush>Gets or sets a brush to draw the text.</TickLabelMinorTextBrush>
+    <TickLabelMinorFont>Gets or sets a font for drawing TickLabelMinor.</TickLabelMinorFont>
+    <MarkerBrush>Gets or sets a brush marker.</MarkerBrush>
+    <LinearBarBrush>Gets or sets a brush LinearBar.</LinearBarBrush>
+    <LinearScaleBrush>Gets or sets a brush LinearScale.</LinearScaleBrush>
+    <LinearBarBorderBrush>Gets or sets a border of the LinearBar.</LinearBarBorderBrush>
+    <LinearBarEmptyBrush>Gets or sets a empty brush LinearBar.</LinearBarEmptyBrush>
+    <LinearBarEmptyBorderBrush>Gets or sets a empty border of the LinearBar.</LinearBarEmptyBorderBrush>
+    <RadialBarBrush>Gets or sets a brush RadialBar.</RadialBarBrush>
+    <RadialBarBorderBrush>Gets or sets a border of the RadialBar.</RadialBarBorderBrush>
+    <RadialBarEmptyBrush>Gets or sets a empty brush RadialBar.</RadialBarEmptyBrush>
+    <RadialBarEmptyBorderBrush>Gets or sets a empty border of the RadialBar.</RadialBarEmptyBorderBrush>
+    <NeedleBrush>Gets or sets a brush Needle.</NeedleBrush>
+    <NeedleBorderBrush>Gets or sets a border of the Needle.</NeedleBorderBrush>
+    <NeedleBorderWidth>A border size.</NeedleBorderWidth>
+    <NeedleCapBrush>Gets or sets a brush to fill the cap.</NeedleCapBrush>
+    <NeedleCapBorderBrush>Gets or sets a border of the cap.</NeedleCapBorderBrush>
+  </StiGaugeStyle>
   <CheckActions>
     <ApplyEngineV2Long>Set the EngineVersion property of a page to EngineV2 to get access to all reporting tool features.</ApplyEngineV2Long>
     <Change>Change</Change>

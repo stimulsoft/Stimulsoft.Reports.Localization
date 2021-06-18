@@ -373,7 +373,7 @@
     <ButtonResendEmail>Resend Email</ButtonResendEmail>
     <ButtonResetPassword>Reset Password</ButtonResetPassword>
     <ButtonRun>Run</ButtonRun>
-    <ButtonShedule>Shedule</ButtonShedule>
+    <ButtonScheduler>Scheduler</ButtonScheduler>
     <ButtonShare>Share</ButtonShare>
     <ButtonSignUp>Sign Up</ButtonSignUp>
     <ButtonSignUpWith>Sign Up with {0}</ButtonSignUpWith>
@@ -579,10 +579,12 @@
 </Cloud>
   <Scheduler>
     <Schedulers>Schedulers</Schedulers>
+    <Schedule>Schedule</Schedule>
     <Scheduler>Scheduler</Scheduler>
+    <NoSchedulers>No Schedulers</NoSchedulers>
+    <PleaseSelectSchedulerType>Please select a scheduler type</PleaseSelectSchedulerType>
     <NewScheduler>New Scheduler</NewScheduler>
     <EditScheduler>Edit Scheduler</EditScheduler>
-    <AllSchedulers>All Schedulers</AllSchedulers>
     <NewAction>New Action</NewAction>
     <ActionRunReport>Run Report</ActionRunReport>
     <TextPressPlusIconAddNewAction>Click the icon plus to add a new action!</TextPressPlusIconAddNewAction>
@@ -590,6 +592,8 @@
     <NoShedulers>No Shedulers</NoShedulers>
     <SenderEmail>Sender Email</SenderEmail>
     <Host>Host</Host>
+    <Logs>Logs</Logs>
+    <NoLogs>No Logs</NoLogs>
     <EnableSSL>Enable SSL</EnableSSL>
     <AdvancedSettings>Advanced Settings</AdvancedSettings>
     <WizardOnce>Once</WizardOnce>
@@ -626,6 +630,8 @@
     <NumberOfDayNone>None</NumberOfDayNone>
     <DaysOfWeekAll>All</DaysOfWeekAll>
     <DaysOfWeekNone>None</DaysOfWeekNone>
+    <MonthAll>All</MonthAll>
+    <MonthNone>None</MonthNone>
     <LabelRunAtMonth>Run at Month</LabelRunAtMonth>
     <LabelDaysOfWeek>Days of Week</LabelDaysOfWeek>
     <TextDragDropReportHere>Drag &amp; Drop the Report Here</TextDragDropReportHere>
@@ -887,6 +893,7 @@
     <RetrievingColumns>Retrieving Columns</RetrievingColumns>
     <SavingConfiguration>Saving Configuration</SavingConfiguration>
     <SavingReport>Saving Report</SavingReport>
+    <Saving>Saving</Saving>
     <TestConnection>Test Connection</TestConnection>
     <TextNotFound>The specified text was not found. Text : {0}</TextNotFound>
   </DesignerFx>
@@ -3812,6 +3819,7 @@
     <ErrorCorrectionLevel>Error Correction Level</ErrorCorrectionLevel>
     <ErrorsCorrectionLevel>Errors Correction Level</ErrorsCorrectionLevel>
     <EvenStyle>Even Style</EvenStyle>
+	<ExceedMargins>Exceed Margins</ExceedMargins>
     <ExcelSheet>Excel Sheet</ExcelSheet>
     <ExcelValue>Excel Value</ExcelValue>
     <Exponential>Exponential</Exponential>
@@ -4540,6 +4548,9 @@
     <WindowFrame>Window Frame</WindowFrame>
     <WindowText>Window Text</WindowText>
   </PropertySystemColors>
+  <PromptForm>
+    <CacheLoginData>Cache login data for current session</CacheLoginData>
+  </PromptForm>
   <QueryBuilder>
     <AddObject>Add Object</AddObject>
     <AddSubQuery>Add Derived Table</AddSubQuery>
