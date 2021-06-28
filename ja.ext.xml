@@ -71,6 +71,7 @@
     <StiCanGrowGrowToHeightComponentInContainerShort>コンポーネントの表示が正しくない可能性があります。</StiCanGrowGrowToHeightComponentInContainerShort>
     <StiCanGrowWordWrapTextAndWysiwygCheckLong>TextQualityプロパティがStandardまたはTypographicに設定されている場合。テキストプレビュー、異なるズームモード、およびGDI +ライブラリの丸め誤差のため印刷が異なる場合があります。</StiCanGrowWordWrapTextAndWysiwygCheckLong>
     <StiCanGrowWordWrapTextAndWysiwygCheckShort>不正なテキストラップがある可能性があります</StiCanGrowWordWrapTextAndWysiwygCheckShort>
+    <StiChartSeriesValueCheckLong>Valueプロパティは、チャート "{0}"からシリーズに指定されていますが、チャートにはデータソースプロパティが設定されていません。</StiChartSeriesValueCheckLong>
     <StiColumnsWidthGreaterContainerWidthCheckLong>合計列幅は、'{0}'コンポーネントの幅より大きくなります。これにより、レポートのレンダリングが正しく行われないことがあります。また、レポートを他の形式にエクスポートする際にいくつか問題が発生する可能性があります。</StiColumnsWidthGreaterContainerWidthCheckLong>
     <StiColumnsWidthGreaterContainerWidthCheckShort>合計列幅は、コンポーネントの幅より大きくなります。</StiColumnsWidthGreaterContainerWidthCheckShort>
     <StiColumnsWidthGreaterPageWidthCheckLong>'{0}'ページの列の合計幅がページ幅より大きくなっています。これにより、レポートのレンダリングが正しく行われないことがあります。また、レポートを他の形式にエクスポートする際にいくつかの問題が発生する可能性があります。</StiColumnsWidthGreaterPageWidthCheckLong>
@@ -213,6 +214,7 @@
   </CheckGlobal>
   <CheckLicense>
     <StiLicenseTrialCheckLong>Stimulsoft Reports と Dashboardsの試用版を使用しています。 本番環境でソフトウェアを使用するには、ライセンスを購入する必要があります。</StiLicenseTrialCheckLong>
+    <StiValidSubscriptioRequiredCheckLong>有効なサブスクリプションが必要です。 Stimulsoft Designerの完全に機能するバージョンを使用するには、サブスクリプションを更新してください。</StiValidSubscriptioRequiredCheckLong>
   </CheckLicense>
   <CheckPage>
     <StiLostPointsOnPageCheckLong>'{0}'ページで失われたポイントが見つかりました：'{1}'点は不可視であり、以下のプリミティブで使用されます：垂直線、矩形、および丸みのある矩形。ポイントがどのコンポーネントにも一致しない場合は、そのポイントを削除することができます。</StiLostPointsOnPageCheckLong>
@@ -234,6 +236,8 @@
     <StiDuplicatedNameCheckShort>重複する名前のコンポーネントが見つかりました</StiDuplicatedNameCheckShort>
     <StiDuplicatedNameInSourceInDataRelationReportCheckLong>レポートに'{0}'リレーションがあります。彼らはNameInSourceの等しい（ '{1}'）値を持っています。 NameInSource内のすべての1つの関係から1つのデータベースの範囲で一意である必要があります。これらのリレーションフィールドを修正する必要があります。</StiDuplicatedNameInSourceInDataRelationReportCheckLong>
     <StiDuplicatedNameInSourceInDataRelationReportCheckShort>リレーションで重複します。</StiDuplicatedNameInSourceInDataRelationReportCheckShort>
+    <StiDuplicatedReportName2CheckLong>レポート名 '{0}'はデータソース名と同じです。</StiDuplicatedReportName2CheckLong>
+    <StiDuplicatedReportNameCheckLong>レポート名 '{0}'はコンポーネント名と同じです。</StiDuplicatedReportNameCheckLong>
     <StiNetCoreCompilationModeCheckLong>Stimulsoft .NET Coreエンジンは、このレポートをコンパイルモードでレンダリングできません。 レポートを解釈モードに変更します。</StiNetCoreCompilationModeCheckLong>
     <StiNetCoreCompilationModeCheckShort>このレポートはコンパイルモードです</StiNetCoreCompilationModeCheckShort>
   </CheckReport>
@@ -853,6 +857,11 @@
     <Module>バーコードの最も細かい要素の幅を取得または設定します。</Module>
     <Ratio>WideToNarrow比を示す値を取得または設定します。</Ratio>
   </StiCode93ExtBarCodeType>
+  <StiColumnSize>
+    <MaxWidth>テーブル列の最大幅を取得または設定します。</MaxWidth>
+    <MinWidth>テーブル列の最小幅を取得または設定します。</MinWidth>
+    <Width>テーブル列に指定された幅を取得または設定します。 値がゼロに等しい場合、幅はテーブル要素によって自動的に計算されます。</Width>
+  </StiColumnSize>
   <StiComboBoxControl>
     <DropDownStyle>スタイルを指定する値。</DropDownStyle>
     <DropDownWidth>ドロップダウン部分の幅</DropDownWidth>
@@ -886,6 +895,7 @@
     <ComponentStyle>コンポーネントのスタイル</ComponentStyle>
     <Conditions>条件の集計</Conditions>
     <CountData>仮想データの行数</CountData>
+    <CrossFiltering>現在のページからその要素へのクロスフィルターの適用を制御する値を取得または設定します。</CrossFiltering>
     <DataRelation>マスター詳細レポートのレンダリングに使用されるリンク</DataRelation>
     <DataSource>データを取得するために使用されるデータソース</DataSource>
     <DockStyle>コンポーネントドッキングのタイプ</DockStyle>
@@ -924,6 +934,7 @@
     <TextBrush>テキストを描画するブラシ</TextBrush>
     <ToolTip>コンポーネントのToolTipを塗りつぶす式</ToolTip>
     <Top>コンポーネントの上部位置</Top>
+    <TotalLabel>合計のラベルとして表示される値を取得または設定します。</TotalLabel>
     <UseParentStyles>このコンポーネントが親コンポーネントのスタイルを使用する必要があることを示す値</UseParentStyles>
     <VertAlignment>オブジェクトの垂直方向の配置</VertAlignment>
     <Width>コンポーネントの幅</Width>
@@ -1893,6 +1904,9 @@
     <Style>テーブルスタイル。</Style>
     <Title>テーブルのタイトル</Title>
   </StiTableElement>
+  <StiTableOfContents>
+    <RightToLeft>水平出力方向を取得または設定します。</RightToLeft>
+  </StiTableOfContents>
   <StiText>
     <AllowHtmlTags>このコンポーネントがテキスト内のHTMLタグを許可することを示す値</AllowHtmlTags>
     <Angle>テキスト回転の角度</Angle>
@@ -2029,6 +2043,7 @@
   <Universal>
     <AllowApplyStyle>値はチャートスタイルが使用されることを示す値</AllowApplyStyle>
     <Key>変数をGUIで選択したときに変数で使用されるキー</Key>
+    <Label>GUIでキーの代わりに表示されるラベル。</Label>
     <Value>GUIのキー値の代わりに表示される値</Value>
   </Universal>
 </Localization>
