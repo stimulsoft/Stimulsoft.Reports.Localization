@@ -580,6 +580,7 @@
   <Components>
     <StiBarCode>Bar Code</StiBarCode>
     <StiButton>Button</StiButton>
+    <StiCards>Cards</StiCards>
     <StiChart>Chart</StiChart>
     <StiCheckBox>Check Box</StiCheckBox>
     <StiChildBand>Child</StiChildBand>
@@ -1900,8 +1901,8 @@
     <StiSparkline>This component is used to create micrographics in a report. It allows you to track dynamically changing data as bars, lines, areas.</StiSparkline>
     <StiSubReport>This component is used to output additional data in different places of a report.</StiSubReport>
     <StiTable>This component is a set of data elements that is organized using a model of vertical columns and horizontal rows.</StiTable>
-    <StiTableOfContents>This component is used to create a table of contents in a report.</StiTableOfContents>
     <StiTableElement>This element is a set of data elements that is organized using a model of vertical columns and horizontal rows.</StiTableElement>
+    <StiTableOfContents>This component is used to create a table of contents in a report.</StiTableOfContents>
     <StiText>This component is a basic object to output data as a text.</StiText>
     <StiTextElement>This element is a basic object to output data as a text.</StiTextElement>
     <StiTextInCells>The component is used to output a text in cells. It is frequently used for creating forms.</StiTextInCells>
@@ -3578,6 +3579,8 @@
     <BorderStyle>Border Style</BorderStyle>
     <BorderWidth>Border Width</BorderWidth>
     <Bottom>Bottom</Bottom>
+    <BottomLeft>Bottom-Left</BottomLeft>
+    <BottomRight>Bottom-Right</BottomRight>
     <BottomSide>Bottom Side</BottomSide>
     <BreakIfLessThan>Break if Less Than</BreakIfLessThan>
     <Brush>Brush</Brush>
@@ -4252,6 +4255,7 @@
     <ShowInLegend>Show in Legend</ShowInLegend>
     <ShowInnerPoints>Show Inner Points</ShowInnerPoints>
     <ShowInPercent>Show in Percent</ShowInPercent>
+    <ShowLabel>Show Label</ShowLabel>
     <ShowLabels>Show Labels</ShowLabels>
     <ShowLabelText>Show Label Text</ShowLabelText>
     <ShowLegend>Show Legend</ShowLegend>
@@ -4348,6 +4352,7 @@
     <TargetColor>Target Color</TargetColor>
     <TargetIcon>Target Icon</TargetIcon>
     <TargetMode>Target Mode</TargetMode>
+    <TargetSettings>Target</TargetSettings>
     <Tension>Tension</Tension>
     <Text>Text</Text>
     <TextAfter>Text After</TextAfter>
@@ -4382,11 +4387,17 @@
     <ToolTip>Tool Tip</ToolTip>
     <ToolTipDataColumn>Tool Tip Data Column</ToolTipDataColumn>
     <Top>Top</Top>
+    <TopLeft>Top-Left</TopLeft>
     <Topmost>Topmost</Topmost>
     <TopmostLine>Topmost Line</TopmostLine>
     <TopN>Top N</TopN>
+    <TopRight>Top-Right</TopRight>
     <TopSide>Top Side</TopSide>
     <Total>Total</Total>
+    <TotalCellColumnBackColor>Total Cell Column Back Color</TotalCellColumnBackColor>
+    <TotalCellColumnForeColor>Total Cell Column Fore Color</TotalCellColumnForeColor>
+    <TotalCellRowBackColor>Total Cell Row Back Color</TotalCellRowBackColor>
+    <TotalCellRowForeColor>Total Cell Row Fore Color</TotalCellRowForeColor>
     <TotalLabel>Total Label</TotalLabel>
     <Totals>Totals</Totals>
     <TrackColor>Track Color</TrackColor>
