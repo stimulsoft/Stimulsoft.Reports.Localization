@@ -660,13 +660,13 @@
     <SeriesLabelsBrush>A brush that will be used to fill area of series labels.</SeriesLabelsBrush>
     <SeriesLabelsColor>A foreground color of series labels.</SeriesLabelsColor>
     <StyleColors>A list of colors which will be used for drawing chart series.</StyleColors>
-    <TextBrush>A brush to draw the text.</TextBrush>
+    <TextBrush>A brush of the style, which is used to display text.</TextBrush>
     <VertAlignment>A vertical alignment of the style.</VertAlignment>
   </StiBaseStyle>
   <StiBorder>
     <Color>A border color.</Color>
     <DropShadow>A value that indicates whether drop shadow is shown.</DropShadow>
-    <ShadowBrush>The border shadow brush.</ShadowBrush>
+    <ShadowBrush>A border shadow brush.</ShadowBrush>
     <ShadowSize>Shadow Size.</ShadowSize>
     <Side>Frame borders.</Side>
     <Size>A border size.</Size>
@@ -818,9 +818,9 @@
     <Font>A font which used for series title drawing in chart legend.</Font>
   </StiChartLegendLabels>
   <StiChartLegendTitle>
-    <Color>Title color of legend.</Color>
+    <Color>A title color of legend.</Color>
     <Font>A title font of the chart legend.</Font>
-    <Text>The title text of legend.</Text>
+    <Text>A title text of legend.</Text>
   </StiChartLegendTitle>
   <StiChartTable>
     <Font>Font of the chart table.</Font>
@@ -959,10 +959,11 @@
     <AfterPrintEvent>Occurs after the component printing.</AfterPrintEvent>
     <Alias>A text that will be shown instead of a component name. If the text is not indicated then the name is shown.</Alias>
     <Anchor>Gets or sets a value which indicates the mode of linking component location to the parent component size..</Anchor>
+    <BackColor>The background color of the component.</BackColor>
     <BeforePrintEvent>Occurs before printing the component.</BeforePrintEvent>
     <Bookmark>An expression to fill the component Bookmark.</Bookmark>
-    <Border>A frame of the component.</Border>
-    <Brush>A brush to fill a component.</Brush>
+    <Border>A border of the component.</Border>
+    <Brush>The brush, which is used to draw background.</Brush>
     <BusinessObject>Business Object that is used for getting data.</BusinessObject>
     <CanBreak>A value that indicates whether the component can or cannot break its contents on several pages.</CanBreak>
     <CanGrow>A value indicates that this object can grow.</CanGrow>
@@ -973,7 +974,7 @@
     <ClickEvent>Occurs when a user clicks the component in the window of the viewer.</ClickEvent>
     <ComponentStyle>A style of a component.</ComponentStyle>
     <Conditions>A collection of the conditions.</Conditions>
-    <CountData>The count of rows for virtual data.</CountData>
+    <CountData>A count of rows for virtual data.</CountData>
     <CrossFiltering>Gets or sets a value which controls applying cross-filters from the current page to that element.</CrossFiltering>
     <DataRelation>Link that is used for master-detail reports rendering.</DataRelation>
     <DataSource>Data source that is used for getting data.</DataSource>
@@ -986,6 +987,8 @@
     <FilterOn>A value that indicates, that filter is turned on.</FilterOn>
     <Filters>A collection of the data filters.</Filters>
     <FixedWidth>A value which indicates that the cell have fixed width.</FixedWidth>
+    <Font>The font used to display text in control.</Font>
+    <ForeColor>The foreground color of this component, which is used to display text.</ForeColor>
     <GetBookmarkEvent>Occurs when getting the Bookmark for the component.</GetBookmarkEvent>
     <GetDrillDownReportEvent>Occurs when it is required to get a report for the Drill-Down operation.</GetDrillDownReportEvent>
     <GetHyperlinkEvent>Occurs when getting the Hyperlink for the component.</GetHyperlinkEvent>
@@ -999,19 +1002,22 @@
     <Left>Left position of the component.</Left>
     <Linked>A value indicates that the object snap to the container is turned on.</Linked>
     <Locked>A value indicates that moving is locked.</Locked>
+    <Margin>Specifies space between this component and another component's margin.</Margin>
     <MasterComponent>The master-component.</MasterComponent>
     <MaxSize>Maximal size.</MaxSize>
     <MinSize>Minimal size.</MinSize>
     <MouseEnterEvent>Occurs when a user enters the mouse into the area of the component in the report viewer.</MouseEnterEvent>
     <MouseLeaveEvent>Occurs when a user leaves the mouse out of the area of the component in the report viewer.</MouseLeaveEvent>
     <Name>Component name.</Name>
+    <Padding>Specifies the interior spacing of the component.</Padding>
     <Printable>A value that indicates whether a component is printable or not.</Printable>
     <PrintOn>A value that indicates on which pages will a component be printed.</PrintOn>
     <Restrictions>A value that indicates the restrictions of a component.</Restrictions>
+    <Shadow>Shadow settings of the component.</Shadow>
     <ShiftMode>A value that indicates the shift mode of a component.</ShiftMode>
     <Sort>The array of strings that describes rules of sorting.</Sort>
     <Tag>An expression to fill the component tag.</Tag>
-    <TextBrush>A brush to draw text.</TextBrush>
+    <TextBrush>The brush of the component, which is used to display text.</TextBrush>
     <ToolTip>An expression to fill the component ToolTip.</ToolTip>
     <Top>Top position of the component.</Top>
     <TotalLabel>Gets or sets a value that is displayed as a label for a total.</TotalLabel>
@@ -1249,11 +1255,6 @@
     <SupplementCode>Gets or sets the component supplement bar code.</SupplementCode>
     <SupplementType>Gets or sets type of supplement code.</SupplementType>
   </StiEAN8BarCodeType>
-  <StiElement>
-    <BackColor>A back color for the element.</BackColor>
-    <Margin>Element margin.</Margin>
-    <Padding>Element padding.</Padding>
-  </StiElement>
   <StiEmptyBand>
     <BeginRenderEvent>Occurs when band begin render.</BeginRenderEvent>
     <EndRenderEvent>Occurs when band rendering is finished.</EndRenderEvent>
@@ -1741,16 +1742,16 @@
     <ConvertNulls>A value that shows whether it is necessary to convert null or DBNull.</ConvertNulls>
     <EndRenderEvent>Occurs when the report rendering is finished.</EndRenderEvent>
     <EngineVersion>The current report engine.</EngineVersion>
+    <ExportedEvent>Occurs when report ends exporting.</ExportedEvent>
     <ExportingEvent>Occurs when report starts exporting.</ExportingEvent>
-	  <ExportedEvent>Occurs when report ends exporting.</ExportedEvent>
     <GlobalizationStrings>A collection which consists of globalization strings.</GlobalizationStrings>
     <NumberOfPass>Number of passes which the report generator makes while report rendering.</NumberOfPass>
     <ParametersOrientation>A value which indicates parameters panel orientation.</ParametersOrientation>
     <PreviewMode>The preview mode of a report.</PreviewMode>
     <PreviewSettings>Controls which will be shown in the Preview Window.</PreviewSettings>
+    <PrintedEvent>Occurs when report ends printing.</PrintedEvent>
     <PrinterSettings>Printer settings.</PrinterSettings>
     <PrintingEvent>Occurs when report starts printing.</PrintingEvent>
-	  <PrintedEvent>Occurs when report ends printing.</PrintedEvent>
     <ReferencedAssemblies>An array of referenced assemblies.</ReferencedAssemblies>
     <RenderingEvent>Occurs when a page is rendered.</RenderingEvent>
     <ReportAlias>A report alias.</ReportAlias>
@@ -2149,7 +2150,7 @@
     <ShowBehind>A value that indicates whether Watermark should be drawn behind or in front of page.</ShowBehind>
     <ShowImageBehind>A value that indicates whether the Watermark image should be drawn behind or in front of a page.</ShowImageBehind>
     <Text>A text of a Watermark.</Text>
-    <TextBrush>A brush to a Watermark.</TextBrush>
+    <TextBrush>The brush of the watermark, which is used to display text.</TextBrush>
   </StiWatermark>
   <StiWinControl>
     <BackColor>The background color for the control.</BackColor>
