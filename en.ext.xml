@@ -973,6 +973,7 @@
     <CheckedChangedEvent>Occurs when the Checked state is changed.</CheckedChangedEvent>
     <ClickEvent>Occurs when a user clicks the component in the window of the viewer.</ClickEvent>
     <ComponentStyle>A style of a component.</ComponentStyle>
+    <CornerRadius>Represents the value to which the corners are rounded.</CornerRadius>
     <Conditions>A collection of the conditions.</Conditions>
     <CountData>A count of rows for virtual data.</CountData>
     <CrossFiltering>Gets or sets a value which controls applying cross-filters from the current page to that element.</CrossFiltering>
@@ -981,7 +982,7 @@
     <DockStyle>A type of the component docking.</DockStyle>
     <DoubleClickEvent>Occurs when a user double clicks the component in the report viewer.</DoubleClickEvent>
     <Editable>A value indicates that a component can be edited in the window of viewer.</Editable>
-    <Enabled>A value that indicates will this component be available or not.</Enabled>
+    <Enabled>Indicates that this component will be available or not.</Enabled>
     <ExceedMargins>Gets or sets a value to exceed margins of the component background.</ExceedMargins>
     <FilterMode>A logical operation of combining filters for the current band.</FilterMode>
     <FilterOn>A value that indicates, that filter is turned on.</FilterOn>
@@ -996,8 +997,10 @@
     <GetToolTipEvent>Occurs when getting the ToolTip for the component.</GetToolTipEvent>
     <GrowToHeight>A value indicates that the height of this component increases/decreases to the bottom of a container.</GrowToHeight>
     <Height>Height of the component.</Height>
-    <HorAlignment>The horizontal alignment.</HorAlignment>
+    <HorAlignment>The horizontal alignment of the text that will be displayed on the component.</HorAlignment>
     <Hyperlink>An expression to fill the component Hyperlink.</Hyperlink>
+    <IconAlignment>The alignment of the icon that will be displayed on the component.</IconAlignment>
+    <IconBrush>The icon brush of the component.</IconBrush>
     <Interaction>Interaction options of this component.</Interaction>
     <Left>Left position of the component.</Left>
     <Linked>A value indicates that the object snap to the container is turned on.</Linked>
@@ -1022,8 +1025,9 @@
     <Top>Top position of the component.</Top>
     <TotalLabel>Gets or sets a value that is displayed as a label for a total.</TotalLabel>
     <UseParentStyles>A value indicates that this component must use styles from the parent component.</UseParentStyles>
-    <VertAlignment>The vertical alignment of an object.</VertAlignment>
+    <VertAlignment>The vertical alignment of the text that will be displayed on the component.</VertAlignment>
     <Width>Width of the component.</Width>
+    <WordWrap>Indicates that the multiline text wraps words or not.</WordWrap>
   </StiComponent>
   <StiConstantLines>
     <Antialiasing>A value that control antialiasing drawing mode.</Antialiasing>
