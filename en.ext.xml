@@ -634,8 +634,8 @@
     <AxisTitleColor>A color which will be used for title drawing.</AxisTitleColor>
     <BackColor>A background color for drawing this style.</BackColor>
     <BasicStyleColor>A base color for drawing this style.</BasicStyleColor>
-    <Border>A border of the component.</Border>
-    <Brush>A brush to fill the style.</Brush>
+    <Border>The appearance and behavior of the component border.</Border>
+    <Brush>The brush, which is used to draw background.</Brush>
     <BrushType>A value which indicates which type of brush will be used to draw this style.</BrushType>
     <ChartAreaBorderColor>A border color of area.</ChartAreaBorderColor>
     <ChartAreaBrush>A brush to fill a area.</ChartAreaBrush>
@@ -962,7 +962,7 @@
     <BackColor>The background color of the component.</BackColor>
     <BeforePrintEvent>Occurs before printing the component.</BeforePrintEvent>
     <Bookmark>An expression to fill the component Bookmark.</Bookmark>
-    <Border>A border of the component.</Border>
+    <Border>The appearance and behavior of the component border.</Border>
     <Brush>The brush, which is used to draw background.</Brush>
     <BusinessObject>Business Object that is used for getting data.</BusinessObject>
     <CanBreak>A value that indicates whether the component can or cannot break its contents on several pages.</CanBreak>
@@ -970,6 +970,9 @@
     <CanShrink>A value indicates that this object can shrink.</CanShrink>
     <CellDockStyle>A type of the cell docking.</CellDockStyle>
     <CellType>A type of the cell content.</CellType>
+    <CheckAlignment>Determines the location of the check inside the component.</CheckAlignment>
+    <CheckBrush>The check brush of the component.</CheckBrush>
+    <Checked>Indicates whether the component is in the checked state.</Checked>
     <CheckedChangedEvent>Occurs when the Checked state is changed.</CheckedChangedEvent>
     <ClickEvent>Occurs when a user clicks the component in the window of the viewer.</ClickEvent>
     <ComponentStyle>A style of a component.</ComponentStyle>
@@ -999,8 +1002,10 @@
     <Height>Height of the component.</Height>
     <HorAlignment>The horizontal alignment of the text that will be displayed on the component.</HorAlignment>
     <Hyperlink>An expression to fill the component Hyperlink.</Hyperlink>
+    <Icon>The icon used for the component.</Icon>
     <IconAlignment>The alignment of the icon that will be displayed on the component.</IconAlignment>
     <IconBrush>The icon brush of the component.</IconBrush>
+    <IconSet>The set of icons used in the component.</IconSet>
     <Interaction>Interaction options of this component.</Interaction>
     <Left>Left position of the component.</Left>
     <Linked>A value indicates that the object snap to the container is turned on.</Linked>
@@ -1017,15 +1022,22 @@
     <PrintOn>A value that indicates on which pages will a component be printed.</PrintOn>
     <Restrictions>A value that indicates the restrictions of a component.</Restrictions>
     <Shadow>Shadow settings of the component.</Shadow>
+    <ShapeType>Indicates which shape is used to draw the form of the component.</ShapeType>
     <ShiftMode>A value that indicates the shift mode of a component.</ShiftMode>
+    <Stretch>Describes how the component is resized to fill its allocated space.</Stretch>
     <Sort>The array of strings that describes rules of sorting.</Sort>
     <Tag>An expression to fill the component tag.</Tag>
+    <Text>The text is associated with the component.</Text>
     <TextBrush>The brush of the component, which is used to display text.</TextBrush>
+    <ThreeStates>Indicates that control supports two or three states.</ThreeStates>    
     <ToolTip>An expression to fill the component ToolTip.</ToolTip>
     <Top>Top position of the component.</Top>
     <TotalLabel>Gets or sets a value that is displayed as a label for a total.</TotalLabel>
+    <Type>Describes the type of that component behaviour.</Type>
     <UseParentStyles>A value indicates that this component must use styles from the parent component.</UseParentStyles>
     <VertAlignment>The vertical alignment of the text that will be displayed on the component.</VertAlignment>
+    <VisualStates>Manages the different visual states of the component.</VisualStates>
+    <Watermark>The watermark used for the component.</Watermark>
     <Width>Width of the component.</Width>
     <WordWrap>Indicates that the multiline text wraps words or not.</WordWrap>
   </StiComponent>
@@ -1641,7 +1653,6 @@
     <UnlimitedBreakable>A value indicates that, when printing multiple-sheet cross-reports, columns and strings are to be broken.</UnlimitedBreakable>
     <UnlimitedHeight>A value indicates that the page has an unlimited height.</UnlimitedHeight>
     <UnlimitedWidth>A value indicates that the page has an unlimited width.</UnlimitedWidth>
-    <Watermark>Watermark of a page.</Watermark>
   </StiPage>
   <StiPanel>
     <ColumnGaps>Distance between two columns.</ColumnGaps>
