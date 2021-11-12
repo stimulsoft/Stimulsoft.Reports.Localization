@@ -653,13 +653,22 @@
     <StiWinControl>Win Control</StiWinControl>
     <StiZipCode>ZIP Code</StiZipCode>
   </Components>
+  <CustomMapWindow>
+    <CheckedAll>Checked All</CheckedAll>
+    <HideText>Hide Text</HideText>
+    <KeysChangePosition>Keys (Left, Top, Right, Bottom) change the position of the text</KeysChangePosition>
+    <KeysChangeSize>Shift + keys (Left, Top, Right, Bottom) change the size of the text area</KeysChangeSize>
+    <UncheckedAll>Unchecked All</UncheckedAll>
+  </CustomMapWindow>
   <Dashboard>
     <AddRange>Add Range</AddRange>
     <AfterGroupingData>Apply after grouping data</AfterGroupingData>
+    <AfterSortingData>Apply after sorting data</AfterSortingData>
     <AllowUserColumnSelection>Allow User Column Selection</AllowUserColumnSelection>
     <AllowUserDrillDown>Allow User Drill-Down</AllowUserDrillDown>
     <AllowUserFiltering>Allow User Filtering</AllowUserFiltering>
     <AllowUserSorting>Allow User Sorting</AllowUserSorting>
+    <BeforeTransformation>Apply before data transformation</BeforeTransformation>
     <Blank>(Blank)</Blank>
     <Blanks>(Blanks)</Blanks>
     <BooleanFilters>Boolean Filters</BooleanFilters>
@@ -712,6 +721,7 @@
     <Nulls>(Nulls)</Nulls>
     <NumberFilters>Number Filters</NumberFilters>
     <ParentElement>Parent Element</ParentElement>
+    <Priority>Priority</Priority>
     <RangeMode>Range Mode</RangeMode>
     <RangeType>Range Type</RangeType>
     <RemoveActions>R&amp;emove Actions</RemoveActions>
@@ -3333,6 +3343,9 @@
     <StiTextQualityStandard>Standard</StiTextQualityStandard>
     <StiTextQualityTypographic>Typographic</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>Wysiwyg</StiTextQualityWysiwyg>
+    <StiTextSizeModeFit>Fit</StiTextSizeModeFit>
+    <StiTextSizeModeTrimming>Trimming</StiTextSizeModeTrimming>
+    <StiTextSizeModeWordWrap>WordWrap</StiTextSizeModeWordWrap>
     <StiTimeDateStepDay>Day</StiTimeDateStepDay>
     <StiTimeDateStepHour>Hour</StiTimeDateStepHour>
     <StiTimeDateStepMinute>Minute</StiTimeDateStepMinute>
@@ -3626,7 +3639,7 @@
     <CheckAlignment>Check Alignment</CheckAlignment>
     <CheckColor>Check Color</CheckColor>
     <Checked>Checked</Checked>
-	<CheckedIcon>Checked Icon</CheckedIcon>
+    <CheckedIcon>Checked Icon</CheckedIcon>
     <CheckOnClick>Check on Click</CheckOnClick>
     <CheckStyle>Check Style</CheckStyle>
     <CheckStyleForFalse>Check Style for False</CheckStyleForFalse>
@@ -3892,7 +3905,7 @@
     <Icon>Icon</Icon>
     <IconAlignment>Icon Alignment</IconAlignment>
     <IconBrush>Icon Brush</IconBrush>
-	<IconColor>Icon Color</IconColor>
+    <IconColor>Icon Color</IconColor>
     <IconSet>Icon Set</IconSet>
     <IconSetCondition>Icon Set Condition</IconSetCondition>
     <Idents>Indents</Idents>
@@ -4425,7 +4438,7 @@
     <Type>Type</Type>
     <TypeName>Type Name</TypeName>
     <Types>Types</Types>
-	<UncheckedIcon>Unchecked Icon</UncheckedIcon>
+    <UncheckedIcon>Unchecked Icon</UncheckedIcon>
     <Underline>Underline</Underline>
     <UndoLimit>Undo Limit</UndoLimit>
     <Unit>Unit</Unit>
@@ -4780,7 +4793,7 @@
     <NumberOfDayNone>None</NumberOfDayNone>
     <NumberOfDaySecond>Second</NumberOfDaySecond>
     <NumberOfDayThird>Third</NumberOfDayThird>
-	<OpenWindowsTaskScheduler>Open Windows Task Scheduler</OpenWindowsTaskScheduler>
+    <OpenWindowsTaskScheduler>Open Windows Task Scheduler</OpenWindowsTaskScheduler>
     <PleaseSelectSchedulerType>Please select a scheduler type</PleaseSelectSchedulerType>
     <RadioButtonDay>Day</RadioButtonDay>
     <RadioButtonOn>On</RadioButtonOn>
