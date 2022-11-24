@@ -2367,16 +2367,22 @@
   <Notices>
     <AccessDenied>Access Denied!</AccessDenied>
     <AccountLocked>Your account is locked! In order to resolve it, please send your request to sales@stimulsoft.com!</AccountLocked>
+    <ActivationContact1>Please contact our sales department at </ActivationContact1>
+    <ActivationContact2> to resolve this.</ActivationContact2>
     <ActivationExpiriedBeforeFirstRelease>Your Subscription of Stimulsoft Reports.Ultimate expired earlier than the first version of our Stimulsoft Server was released!</ActivationExpiriedBeforeFirstRelease>
     <ActivationLicenseIsNotCorrect>License file is not correct! Please contact our sales department at sales@stimulsoft.com!</ActivationLicenseIsNotCorrect>
     <ActivationLockedAccount>Your account is locked. Please contact our sales department at sales@stimulsoft.com!</ActivationLockedAccount>
     <ActivationLockedAccountExt>Your account is locked.</ActivationLockedAccountExt>
     <ActivationMaxActivationsReached>You reached the maximum number of activations. Please contact our sales department at sales@stimulsoft.com!</ActivationMaxActivationsReached>
+    <ActivationMaxActivationsReached1>You can manage the registered computers from your </ActivationMaxActivationsReached1>
+    <ActivationMaxActivationsReached2>Stimulsoft Account.</ActivationMaxActivationsReached2>
     <ActivationMaxComputersReached>You’ve already registered the maximum number of computers available for your subscription.</ActivationMaxComputersReached>
     <ActivationServerIsNotAvailableNow>Stimulsoft Activation Server is not available now! Please try again later.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>You cannot activate this version of Stimulsoft Server because your Subscription Program expired! Please log in to your account and check which version of the Stimulsoft Server you can install and activate.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>An error occurred during activation. Please try again later.</ActivationSomeTroublesOccurred>
     <ActivationTrialExpired>You can continue to use Stimulsoft Designer by purchasing the software.</ActivationTrialExpired>
+    <ActivationTrialExtend1>If you are interested in extending your trial, please </ActivationTrialExtend1>
+    <ActivationTrialExtend2>tell us why.</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>Your user name (Email) or password is wrong!</ActivationUserNameOrPasswordIsWrong>
     <ActivationWrongAccountType>Your account type does not allow to activate Stimulsoft Server!</ActivationWrongAccountType>
     <Alert>Alert</Alert>
@@ -2434,12 +2440,15 @@
     <NewDesignerAvailable>Stimulsoft Designer {0} is available.</NewDesignerAvailable>
     <NewProduct>The new product is added to your subscription!</NewProduct>
     <NewVersionsAvailable>New version</NewVersionsAvailable>
+    <NotificationConnectPackage>Connect the "{0}" package for the correct work.</NotificationConnectPackage>
     <NotificationFailed>Failed result!</NotificationFailed>
     <NotificationFailedAddFollowingFiles>Failed to add the following files. Exceeded the size {0} MB.</NotificationFailedAddFollowingFiles>
     <NotificationFilesUploadingComplete>The files uploaded successfully.</NotificationFilesUploadingComplete>
     <NotificationFileUploading>The file "{0}" is uploading.</NotificationFileUploading>
     <NotificationItemDelete>The items are deleting.</NotificationItemDelete>
     <NotificationItemDeleteComplete>The items are deleted successfully.</NotificationItemDeleteComplete>
+    <NotificationItemExtraComponentRequired>Extra component required</NotificationItemExtraComponentRequired>
+    <NotificationItemInstallWebView>Please install the WebView2 Runtime to work with the Blockly editor correctly.</NotificationItemInstallWebView>
     <NotificationItemRestore>The items are restoring.</NotificationItemRestore>
     <NotificationItemRestoreComplete>The items are restored successfully.</NotificationItemRestoreComplete>
     <NotificationItemTransfer>The items are transferring.</NotificationItemTransfer>
@@ -2489,7 +2498,9 @@
     <SpecifiedItemIsNot>The specified item is not "{0}"!</SpecifiedItemIsNot>
     <SubscriptionExpired>Your subscription has expired!</SubscriptionExpired>
     <SubscriptionExpiredDate>Your subscription will expire on {0}</SubscriptionExpiredDate>
+    <SubscriptionExpiredDays>Expires in {0} days</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Your subscription has expired. Update your subscription to get the last version.</SubscriptionExpiredExt>
+    <SubscriptionExpiredShort>Subscription expired</SubscriptionExpiredShort>
     <SubscriptionsOut10>10 days left when the subscription expires!</SubscriptionsOut10>
     <SubscriptionsOut20>The subscription period will expire in 20 days!</SubscriptionsOut20>
     <SuccessfullyRenewed>Your subscription has been successfully updated!</SuccessfullyRenewed>
@@ -4083,8 +4094,16 @@
     <Low>Low</Low>
     <LowValues>Low Values</LowValues>
     <MajorInterval>Major Interval</MajorInterval>
+    <MapAfrica>Africa</MapAfrica>
+    <MapAsia>Asia</MapAsia>
+    <MapCustom>Custom</MapCustom>
+    <MapEurope>Europe</MapEurope>
     <MapID>Map ID</MapID>
+    <MapNorthAmerica>North America</MapNorthAmerica>
+    <MapOceania>Oceania</MapOceania>
+    <MapPopularMaps>Popular maps</MapPopularMaps>
     <Maps>Maps</Maps>
+    <MapSouthAmerica>South America</MapSouthAmerica>
     <MapStyle>Map Style</MapStyle>
     <MapType>Map Type</MapType>
     <Margin>Margin</Margin>
@@ -4400,6 +4419,7 @@
     <Sorted>Sorted</Sorted>
     <SortingColumn>Sorting Column</SortingColumn>
     <SortingEnabled>Sorting Enabled</SortingEnabled>
+    <SortLetters>A-Z</SortLetters>
     <SortType>Sort Type</SortType>
     <Space>Space</Space>
     <SpaceRatio>Space Ratio</SpaceRatio>
