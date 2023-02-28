@@ -15,7 +15,7 @@
     <TextComputingCycles>Computing Cycles</TextComputingCycles>
     <TextCreatedNewRoleBasedOn>Create new role based on</TextCreatedNewRoleBasedOn>
     <TextCreators>BI Creators</TextCreators>
-	<TextDashboards>Dashboards</TextDashboards>
+    <TextDashboards>Dashboards</TextDashboards>
     <TextData>Data</TextData>
     <TextDataRows>Data Rows</TextDataRows>
     <TextDataSources>Data Sources</TextDataSources>
@@ -42,15 +42,15 @@
     <TextUser>User</TextUser>
     <TextUsers>Users</TextUsers>
     <TextWorkspaces>Workspaces</TextWorkspaces>
-	<TooltipUsers>Users with view preferences only and 'USER' role</TooltipUsers>
-	<TooltipBICreators>Users with Supervisor, Admin, Manager, and Custom roles</TooltipBICreators>
+    <TooltipBICreators>Users with Supervisor, Admin, Manager, and Custom roles</TooltipBICreators>
+    <TooltipUsers>Users with view preferences only and 'USER' role</TooltipUsers>
     <WindowDescriptionRoleDelete>Are you sure you want to delete the role "{0}"?</WindowDescriptionRoleDelete>
     <WindowDescriptionUserDelete>Are you sure you want to delete the user "{0}"?</WindowDescriptionUserDelete>
-	<WindowDescriptionUserParameterDelete>Are you sure you want to delete the user parameter "{0}"?</WindowDescriptionUserParameterDelete>
+    <WindowDescriptionUserParameterDelete>Are you sure you want to delete the user parameter "{0}"?</WindowDescriptionUserParameterDelete>
     <WindowDescriptionWorkspaceDelete>Are you sure you want to delete the workspace "{0}"?</WindowDescriptionWorkspaceDelete>
     <WindowTitleRoleDelete>Delete Role</WindowTitleRoleDelete>
     <WindowTitleUserDelete>Delete User</WindowTitleUserDelete>
-	<WindowTitleUserParameterDelete>Delete User Parameter</WindowTitleUserParameterDelete>
+    <WindowTitleUserParameterDelete>Delete User Parameter</WindowTitleUserParameterDelete>
     <WindowTitleWorkspaceDelete>Delete Workspace</WindowTitleWorkspaceDelete>
   </Administration>
   <Authorization>
@@ -263,8 +263,8 @@
     <ToolTipInfo>View details</ToolTipInfo>
     <ToolTipPublish>Prepare the selected report to be deployed in your application.</ToolTipPublish>
     <ToolTipRecover>Recover the selected items.</ToolTipRecover>
+    <ToolTipRunMailing>Run the selected mailing</ToolTipRunMailing>
     <ToolTipRunWithoutPreview>Render the selected report without preview</ToolTipRunWithoutPreview>
-	<ToolTipRunMailing>Run the selected mailing</ToolTipRunMailing>
     <ToolTipShare>Share the selected item.</ToolTipShare>
     <ToolTipSort>Sort options</ToolTipSort>
     <ToolTipThumbnailMode>Grid View</ToolTipThumbnailMode>
@@ -486,6 +486,18 @@
     <WindowTitleLicense>License</WindowTitleLicense>
     <WindowTitleRefreshLicense>Refresh License</WindowTitleRefreshLicense>
   </License>
+  <Link>
+    <Link>Link</Link>
+    <WindowTitleEdit>Edit Link</WindowTitleEdit>
+    <WindowTitleNew>New Link</WindowTitleNew>
+  </Link>
+  <Mailing>
+    <Mailing>Mailing</Mailing>
+    <TextRunMailing>Click 'OK' to run the mailing.</TextRunMailing>
+    <TextRunningMailing>Mailing is running...</TextRunningMailing>
+    <WindowTitleEdit>Edit Mailing</WindowTitleEdit>
+    <WindowTitleNew>New Mailing</WindowTitleNew>
+  </Mailing>
   <Messages>
     <ConnectionFail>Connection Fail!</ConnectionFail>
     <ConnectionSuccess>Connection Successful.</ConnectionSuccess>
@@ -513,18 +525,6 @@
     <ThisFieldIsNotSpecified>This Field is Not Specified!</ThisFieldIsNotSpecified>
     <ThisSchedulerIsNotOnceScheduler>This scheduler is not a one-time scheduler!</ThisSchedulerIsNotOnceScheduler>
   </Messages>
-  <Link>
-	<WindowTitleEdit>Edit Link</WindowTitleEdit>
-	<WindowTitleNew>New Link</WindowTitleNew>
-	<Link>Link</Link>
-  </Link>
-  <Mailing>
-	<WindowTitleEdit>Edit Mailing</WindowTitleEdit>
-	<WindowTitleNew>New Mailing</WindowTitleNew>
-	<Mailing>Mailing</Mailing>
-	<TextRunMailing>Click 'OK' to run the mailing.</TextRunMailing>
-	<TextRunningMailing>Mailing is running...</TextRunningMailing>
-  </Mailing>
   <Navigator>
     <ButtonAbout>About</ButtonAbout>
     <ButtonChangePassword>Change Password</ButtonChangePassword>
@@ -536,10 +536,10 @@
     <ButtonCreateDataSource>Create Data Source</ButtonCreateDataSource>
     <ButtonCreateFile>Create File</ButtonCreateFile>
     <ButtonCreateFileStorage>Create File Storage</ButtonCreateFileStorage>
-	<ButtonCreateForm>Create Form</ButtonCreateForm>
     <ButtonCreateFolder>Create Folder</ButtonCreateFolder>
-	<ButtonCreateLink>Create Link</ButtonCreateLink>
-	<ButtonCreateMailing>Create Mailing</ButtonCreateMailing>
+    <ButtonCreateForm>Create Form</ButtonCreateForm>
+    <ButtonCreateLink>Create Link</ButtonCreateLink>
+    <ButtonCreateMailing>Create Mailing</ButtonCreateMailing>
     <ButtonCreateReport>Create Report</ButtonCreateReport>
     <ButtonCreateScheduler>Create Scheduler</ButtonCreateScheduler>
     <ButtonHelp>Help</ButtonHelp>
@@ -560,9 +560,9 @@
     <LabelCreateFile>Add the list of files in the items tree.</LabelCreateFile>
     <LabelCreateFileStorage>Create a new file storage.</LabelCreateFileStorage>
     <LabelCreateFolder>Creating a new category in which you can place other items.</LabelCreateFolder>
+    <LabelCreateLink>Create the new link.</LabelCreateLink>
+    <LabelCreateMailing>Create the new mailing.</LabelCreateMailing>
     <LabelCreateReportTemplate>Create report template.</LabelCreateReportTemplate>
-	<LabelCreateLink>Create the new link.</LabelCreateLink>
-	<LabelCreateMailing>Create the new mailing.</LabelCreateMailing>
     <LabelScheduler>It is used to execute commands by a scheduler.</LabelScheduler>
     <MessageAbortUploadingAndCloseWindow>Uploading files on the server. Do you want to abort uploading of files and close the program?</MessageAbortUploadingAndCloseWindow>
     <RibbonButtonBackupAndRestore>Backup &amp; Restore</RibbonButtonBackupAndRestore>
@@ -580,8 +580,8 @@
     <RibbonButtonFind>Find</RibbonButtonFind>
     <RibbonButtonFolder>Folder</RibbonButtonFolder>
     <RibbonButtonLicensing>Licensing</RibbonButtonLicensing>
-	<RibbonButtonLink>Link</RibbonButtonLink>
-	<RibbonButtonMailing>Mailing</RibbonButtonMailing>
+    <RibbonButtonLink>Link</RibbonButtonLink>
+    <RibbonButtonMailing>Mailing</RibbonButtonMailing>
     <RibbonButtonNotifications>Notifications</RibbonButtonNotifications>
     <RibbonButtonRefresh>Refresh</RibbonButtonRefresh>
     <RibbonButtonReport>Report</RibbonButtonReport>
@@ -699,13 +699,13 @@
     <MessageFormsNotSupported>Reports with forms are not supported!</MessageFormsNotSupported>
     <TextAutomaticNaming>Names of added items will be created automatically!</TextAutomaticNaming>
     <TextDescriptionChanges>Please, type a description of the changes</TextDescriptionChanges>
+    <TextDragDropFilesOrItemsHere>Drag &amp; Drop Items or Files Here</TextDragDropFilesOrItemsHere>
     <TextDragDropItemsHere>Drag &amp; Drop Items Here</TextDragDropItemsHere>
-	<TextDragDropFilesOrItemsHere>Drag &amp; Drop Items or Files Here</TextDragDropFilesOrItemsHere>
     <TextDragDropReportTemplatesHere>Drag &amp; Drop Report Templates Here</TextDragDropReportTemplatesHere>
     <TextLaunchDesigner>Report Designer is being started.</TextLaunchDesigner>
-    <ToolTipDragDropItemsOrFilesHere>Drag &amp; drop here a file from the file explorer or items from the tree.</ToolTipDragDropItemsOrFilesHere>
-	<ToolTipDragDropItemsHere>Drag &amp; drop items here from the tree to use it in a new dashboard.</ToolTipDragDropItemsHere>
+    <ToolTipDragDropItemsHere>Drag &amp; drop items here from the tree to use it in a new dashboard.</ToolTipDragDropItemsHere>
     <ToolTipDragDropItemsHereToAttachIt>Drag &amp; drop here a data source from the tree of items to use it in a new report. In addition to the data source you can use images, text or Rich-text files for their displaying in the report. Also other reports can be used to output them as sub-reports.</ToolTipDragDropItemsHereToAttachIt>
+    <ToolTipDragDropItemsOrFilesHere>Drag &amp; drop here a file from the file explorer or items from the tree.</ToolTipDragDropItemsOrFilesHere>
     <ToolTipDragDropReportTemplatesHere>Drag &amp; drop a report template file here from the file explorer to create a report template on its basis. You can also use an existing report to create a new report. To do this, drag &amp; drop a report template item here from the items tree.</ToolTipDragDropReportTemplatesHere>
     <ToolTipInfoUsingAttachDataSource>If the data source is attached, its contents (data as schemes, tables, stored procedures etc.) can be used when creating reports.</ToolTipInfoUsingAttachDataSource>
     <ToolTipInfoUsingAttachImage>The attached image will be a permanent resource of this template. The image can be used in a report without having to load from external sources.</ToolTipInfoUsingAttachImage>
@@ -729,10 +729,10 @@
   </ReportTemplate>
   <Scheduler>
     <ActionCopy>Copy</ActionCopy>
+    <ActionRunMailing>Run Mailing</ActionRunMailing>
     <ActionRunReport>Run Report</ActionRunReport>
     <ActionRunScheduler>Run Scheduler</ActionRunScheduler>
     <ActionSendEmail>Send Email</ActionSendEmail>
-	<ActionRunMailing>Run Mailing</ActionRunMailing>
     <ButtonStartScheduler>Start</ButtonStartScheduler>
     <ButtonStopScheduler>Stop</ButtonStopScheduler>
     <CategoryCommon>Common</CategoryCommon>
@@ -741,7 +741,7 @@
     <CategoryNotify>Notify</CategoryNotify>
     <CategoryRange>Range</CategoryRange>
     <CategoryRepeat>Repeat</CategoryRepeat>
-	<CheckBoxAlsoCopyTo>Also Copy To</CheckBoxAlsoCopyTo>
+    <CheckBoxAlsoCopyTo>Also Copy To</CheckBoxAlsoCopyTo>
     <CheckBoxExcludeWeekendDays>Exclude Weekend Days</CheckBoxExcludeWeekendDays>
     <CheckBoxOverwriteIfExists>Overwrite If Exists</CheckBoxOverwriteIfExists>
     <CheckBoxRunAfterCreation>Run After Creation</CheckBoxRunAfterCreation>
@@ -750,8 +750,8 @@
     <ComboBoxItemAttachment>Attachment</ComboBoxItemAttachment>
     <ComboBoxItemLink>Link</ComboBoxItemLink>
     <GroupBoxReport>Report</GroupBoxReport>
-    <GroupBoxScheduler>Scheduler</GroupBoxScheduler>    
-	<LabelAttachmentDelivery>Attachment Delivery</LabelAttachmentDelivery>
+    <GroupBoxScheduler>Scheduler</GroupBoxScheduler>
+    <LabelAttachmentDelivery>Attachment Delivery</LabelAttachmentDelivery>
     <LabelAttachments>Attachments</LabelAttachments>
     <LabelCurrentStatus>Current Status</LabelCurrentStatus>
     <LabelDaysOfWeek>Days of Week</LabelDaysOfWeek>
@@ -796,8 +796,8 @@
     <TextDragDropSchedulerHere>Drag &amp; Drop the Scheduler Here</TextDragDropSchedulerHere>
     <TextFrequency>This field specifies how often the scheduler will run.</TextFrequency>
     <TextPressPlusIconAddNewAction>Click the icon plus to add a new action!</TextPressPlusIconAddNewAction>
+    <TextRunningScheduler>Scheduler is running...</TextRunningScheduler>
     <TextRunScheduler>Click 'OK' to run the scheduler.</TextRunScheduler>
-	<TextRunningScheduler>Scheduler is running...</TextRunningScheduler>
     <ToolTipChangeResultType>Change the way of handling the result of the report creation</ToolTipChangeResultType>
     <ToolTipDaysOfWeek>A day of the week the scheduler will run. You can select a single day, a few different days, or all days immediately. If more than one day is selected, the scheduler will run in each of the selected days.</ToolTipDaysOfWeek>
     <ToolTipDeleteAction>Delete Action</ToolTipDeleteAction>

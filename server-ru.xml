@@ -56,6 +56,7 @@
     <WindowDescriptionRoleDelete>Вы действительно хотите удалить роль "{0}"?</WindowDescriptionRoleDelete>
     <WindowDescriptionRoleRemove>Вы действительно хотите удалить роль "{0}"?</WindowDescriptionRoleRemove>
     <WindowDescriptionUserDelete>Вы действительно хотите удалить пользователя "{0}"?</WindowDescriptionUserDelete>
+    <WindowDescriptionUserParameterDelete>Вы хотите удалить параметр пользователя "{0}"?</WindowDescriptionUserParameterDelete>
     <WindowDescriptionUserRemove>Вы действительно хотите удалить пользователя "{0}"?</WindowDescriptionUserRemove>
     <WindowDescriptionWorkspaceDelete>Вы действительно хотите удалить рабочее пространство "{0}"?</WindowDescriptionWorkspaceDelete>
     <WindowTitleRoleDelete>Удалить роль</WindowTitleRoleDelete>
@@ -63,6 +64,7 @@
     <WindowTitleRoleNew>Новая роль</WindowTitleRoleNew>
     <WindowTitleRoleRemove>Удалить роль</WindowTitleRoleRemove>
     <WindowTitleUserDelete>Удалить пользователя</WindowTitleUserDelete>
+    <WindowTitleUserParameterDelete>Удалить параметр пользователя</WindowTitleUserParameterDelete>
     <WindowTitleUserRemove>Удалить пользователя</WindowTitleUserRemove>
     <WindowTitleWorkspaceDelete>Удалить рабочее пространство</WindowTitleWorkspaceDelete>
   </Administration>
@@ -663,6 +665,11 @@
     <WindowTitleLicense>Лицензия</WindowTitleLicense>
     <WindowTitleRefreshLicense>Обновление лицензии</WindowTitleRefreshLicense>
   </License>
+  <Link>
+    <Link>Ссылка</Link>
+    <WindowTitleEdit>Редактировать ссылку</WindowTitleEdit>
+    <WindowTitleNew>Новая ссылка</WindowTitleNew>
+  </Link>
   <Mailing>
     <Mailing>Рассылка</Mailing>
     <TextRunMailing>Нажмите 'OK' для запуска рассылки.</TextRunMailing>
@@ -716,6 +723,7 @@
     <ButtonCreateFileStorage>Создать файловое хранилище</ButtonCreateFileStorage>
     <ButtonCreateFolder>Создать папку</ButtonCreateFolder>
     <ButtonCreateForm>Создать форму</ButtonCreateForm>
+    <ButtonCreateLink>Создать ссылку</ButtonCreateLink>
     <ButtonCreateMailing>Создать рассылку</ButtonCreateMailing>
     <ButtonCreateReport>Создать отчет</ButtonCreateReport>
     <ButtonCreateScheduler>Создать планировщик</ButtonCreateScheduler>
@@ -767,6 +775,7 @@
     <LabelCreateFile>Файлы из внешних источников.</LabelCreateFile>
     <LabelCreateFileStorage>Файловое хранилище используется для работы с файлами на локальном диске.</LabelCreateFileStorage>
     <LabelCreateFolder>Папка для размещения в ней других элементов.</LabelCreateFolder>
+    <LabelCreateLink>Создать новую ссылку.</LabelCreateLink>
     <LabelCreateMailing>Создать новую рассылку.</LabelCreateMailing>
     <LabelCreateReportTemplate>Отчет для вывода данных.</LabelCreateReportTemplate>
     <LabelScheduler>Планировщик для запуска отчетов по расписанию.</LabelScheduler>
@@ -816,6 +825,7 @@
     <RibbonButtonFind>Поиск</RibbonButtonFind>
     <RibbonButtonFolder>Папка</RibbonButtonFolder>
     <RibbonButtonLicensing>Лицензирование</RibbonButtonLicensing>
+    <RibbonButtonLink>Ссылка</RibbonButtonLink>
     <RibbonButtonMailing>Рассылка</RibbonButtonMailing>
     <RibbonButtonNotifications>Уведомления</RibbonButtonNotifications>
     <RibbonButtonPaste>Вставить</RibbonButtonPaste>
