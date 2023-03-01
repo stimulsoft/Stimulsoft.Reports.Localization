@@ -1,6 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Localization>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Localization language="" description="" cultureName="">
   <Administration>
+    <LabelCompanyName>Nome Azienda:</LabelCompanyName>
     <LabelCurrentPassword>Password Corrente:</LabelCurrentPassword>
     <LabelFirstName>Nome:</LabelFirstName>
     <LabelLastLogin>Ultimo Login:</LabelLastLogin>
@@ -8,7 +9,6 @@
     <LabelNewPassword>Nuova Password:</LabelNewPassword>
     <LabelRole>Ruolo:</LabelRole>
     <LabelUserName>Nome Utente (Email):</LabelUserName>
-    <LabelCompanyName>Nome Azienda:</LabelCompanyName>
     <TextAPI>API</TextAPI>
     <TextComputingCycles>Cicli di calcolo</TextComputingCycles>
     <TextDataSources>Fonti Dati</TextDataSources>
@@ -24,15 +24,15 @@
     <TextStorage>archiviazione</TextStorage>
     <TextTransfer>Trasferimenti</TextTransfer>
     <TextUpload>Upload</TextUpload>
+    <TextUser>Utente</TextUser>
     <TextUserHimself>Utente stesso</TextUserHimself>
     <TextUserRoles>Ruoli Utente</TextUserRoles>
-    <TextUser>Utente</TextUser>
     <TextUsers>Utenti</TextUsers>
     <WindowDescriptionRoleRemove>Sei sicuro di voler rimuovere il ruolo "{0}"?</WindowDescriptionRoleRemove>
     <WindowDescriptionUserRemove>Sei sicuro di voler rimuovere l'utente "{0}"?</WindowDescriptionUserRemove>
     <WindowTitleRoleNew>Nuovo Ruolo</WindowTitleRoleNew>
-    <WindowTitleRoleRemove>Rimuovi Ruolo</WindowTitleRoleRemove>    
-    <WindowTitleUserRemove>Rimuovi User</WindowTitleUserRemove>    
+    <WindowTitleRoleRemove>Rimuovi Ruolo</WindowTitleRoleRemove>
+    <WindowTitleUserRemove>Rimuovi User</WindowTitleUserRemove>
   </Administration>
   <Authorization>
     <ButtonLogin>_Login</ButtonLogin>
@@ -44,35 +44,35 @@
     <HyperlinkHavePassword>Ho una Password</HyperlinkHavePassword>
     <HyperlinkRegisterAccount>Crea nuovo account</HyperlinkRegisterAccount>
     <TextCreate>Crea</TextCreate>
-    <TextView>Mostra</TextView>
     <TextFirstName>Nome</TextFirstName>
     <TextLastName>Cognome</TextLastName>
     <TextPassword>Password</TextPassword>
     <TextUserName>Nome Utente (Email)</TextUserName>
+    <TextView>Mostra</TextView>
     <WindowTitleForgotPassword>Reset</WindowTitleForgotPassword>
     <WindowTitleLogin>Entra</WindowTitleLogin>
     <WindowTitleSignUp>Iscriviti</WindowTitleSignUp>
   </Authorization>
   <Calendar>
     <GroupBoxDate>Data</GroupBoxDate>
-    <GroupBoxYearly>Annuale</GroupBoxYearly>
-    <GroupBoxMonthly>Mensile</GroupBoxMonthly>
     <GroupBoxEaster>Pasqua</GroupBoxEaster>
     <GroupBoxHolidays>Vacanze</GroupBoxHolidays>
+    <GroupBoxMonthly>Mensile</GroupBoxMonthly>
+    <GroupBoxYearly>Annuale</GroupBoxYearly>
+    <LabelCountry>Paese:</LabelCountry>
     <LabelDate>Data:</LabelDate>
     <LabelDay>Giorno:</LabelDay>
     <LabelDayOfWeek>Giorno della settimana:</LabelDayOfWeek>
     <LabelMonth>Mese:</LabelMonth>
     <LabelShiftFromEasterDay>scostamento dalla Pasqua:</LabelShiftFromEasterDay>
-    <LabelCountry>Paese:</LabelCountry>
     <WindowTitleEdit>Modifica Calendario</WindowTitleEdit>
     <WindowTitleNew>Nuovo Calendario</WindowTitleNew>
   </Calendar>
   <CloudStorage>
     <ButtonAuthorization>Autorizzazioni</ButtonAuthorization>
     <ButtonTestConnection>Prova Connessione</ButtonTestConnection>
-    <LabelDomainName>Nome dominio:</LabelDomainName>
     <LabelDatabaseName>Nome database:</LabelDatabaseName>
+    <LabelDomainName>Nome dominio:</LabelDomainName>
     <LabelPassword>Password:</LabelPassword>
     <LabelSelectDefaultFolder>Qui puoi selezionare la cartella radice. Quando usi il cloud storage, gli oggetto nella cartella radice verranno usati in {0}. Per cambiare la cartella radice, seleziona una cartella dall'albero qui sotto e clicca Imposta Default.</LabelSelectDefaultFolder>
     <LabelServerAddress>Indirizzo Server:</LabelServerAddress>
@@ -84,16 +84,6 @@
     <TabItemSettings>Impostazioni</TabItemSettings>
     <WizardCloudStorageDescription>Crea un Nuovo {0} cloud storage</WizardCloudStorageDescription>
   </CloudStorage>
-  <ContactList>
-    <LabelEmailList>Lista Email:</LabelEmailList>
-    <TextSample>Campione</TextSample>
-    <WindowTitleEdit>Modifica Lista Contatti</WindowTitleEdit>
-    <WindowTitleNew>Nuova Lista Contatti</WindowTitleNew>
-  </ContactList>
-  <Designer>
-    <MessageLeftRightNotValid>il valore Left e Right non è valido.</MessageLeftRightNotValid>
-    <MessageTopBottomNotValid>il valore Top e Bottom non è valido.</MessageTopBottomNotValid>
-  </Designer>
   <Common>
     <ButtonAccessKey>Chiave di Accesso</ButtonAccessKey>
     <ButtonAdd>Aggiungi</ButtonAdd>
@@ -120,10 +110,10 @@
     <ButtonOK>_OK</ButtonOK>
     <ButtonOpen>Apri</ButtonOpen>
     <ButtonPaste>Incolla</ButtonPaste>
-    <ButtonRefresh>Aggiorna</ButtonRefresh>
     <ButtonRecover>Ripristina</ButtonRecover>
-    <ButtonRun>Esegui</ButtonRun>
+    <ButtonRefresh>Aggiorna</ButtonRefresh>
     <ButtonReset>Reset</ButtonReset>
+    <ButtonRun>Esegui</ButtonRun>
     <ButtonSave>Salva</ButtonSave>
     <ButtonSaveToFile>Salva in File</ButtonSaveToFile>
     <ButtonSelectAll>Seleziona Tutto</ButtonSelectAll>
@@ -131,38 +121,38 @@
     <ButtonView>Visualizza</ButtonView>
     <ButtonYes>_Si</ButtonYes>
     <CalendarDateTypeDate>Data</CalendarDateTypeDate>
-    <CalendarDateTypeRelativeYearDay>Giorno dell'anno relativo</CalendarDateTypeRelativeYearDay>
-    <CalendarDateTypeSpecificYearDay>Giorno dell'anno specifico</CalendarDateTypeSpecificYearDay>
+    <CalendarDateTypeEachWeekDay>Ogni giorno della settimana</CalendarDateTypeEachWeekDay>
     <CalendarDateTypeEaster>Pasqua</CalendarDateTypeEaster>
     <CalendarDateTypeHolidays>Vacanze</CalendarDateTypeHolidays>
-    <CalendarDateTypeEachWeekDay>Ogni giorno della settimana</CalendarDateTypeEachWeekDay>
+    <CalendarDateTypeRelativeYearDay>Giorno dell'anno relativo</CalendarDateTypeRelativeYearDay>
+    <CalendarDateTypeSpecificYearDay>Giorno dell'anno specifico</CalendarDateTypeSpecificYearDay>
     <DataSourceCloudStorage>Fonte Dati Cloud Storage</DataSourceCloudStorage>
-    <DataSourceDynamicsNav>Fonte Dati MS Dynamics NAV</DataSourceDynamicsNav>
     <DataSourceConnection>Fonte Dati {0}</DataSourceConnection>
+    <DataSourceDynamicsNav>Fonte Dati MS Dynamics NAV</DataSourceDynamicsNav>
     <DataSourceXml>Fonte Dati XML</DataSourceXml>
-    <DayLast>Ultimo</DayLast>
-    <DayDayX>Giorno {0}</DayDayX>
     <DayAll>Tutto</DayAll>
-    <DayNone>Nessuno</DayNone>
-    <DayXdays>{0} giorni</DayXdays>
+    <DayDayX>Giorno {0}</DayDayX>
     <DayEaster>Pasqua</DayEaster>
     <DayFirstMondayOfJanuary>{0} {1} di {2}</DayFirstMondayOfJanuary>
-    <DaysOfWeekMonday>Lunedi</DaysOfWeekMonday>
-    <DaysOfWeekTuesday>Martedi</DaysOfWeekTuesday>
-    <DaysOfWeekWednesday>Mercoledi</DaysOfWeekWednesday>
-    <DaysOfWeekThursday>Giovedi</DaysOfWeekThursday>
+    <DayLast>Ultimo</DayLast>
+    <DayNone>Nessuno</DayNone>
+    <DaysOfWeekAll>Tutto</DaysOfWeekAll>
     <DaysOfWeekFriday>Venerdi</DaysOfWeekFriday>
+    <DaysOfWeekMonday>Lunedi</DaysOfWeekMonday>
+    <DaysOfWeekNone>Nessuno</DaysOfWeekNone>
     <DaysOfWeekSaturday>Sabato</DaysOfWeekSaturday>
     <DaysOfWeekSunday>Domenica</DaysOfWeekSunday>
-    <DaysOfWeekNone>Nessuno</DaysOfWeekNone>
-    <DaysOfWeekAll>Tutto</DaysOfWeekAll>
-    <FrequencyHourly>Ogni ora</FrequencyHourly>
-    <FrequencyDaily>Ogni giorno</FrequencyDaily>
-    <FrequencyWeekly>Ogni settimana</FrequencyWeekly>
-    <FrequencyMonthly>Ogni mese</FrequencyMonthly>
-    <FrequencyYearly>Ogni anno</FrequencyYearly>
+    <DaysOfWeekThursday>Giovedi</DaysOfWeekThursday>
+    <DaysOfWeekTuesday>Martedi</DaysOfWeekTuesday>
+    <DaysOfWeekWednesday>Mercoledi</DaysOfWeekWednesday>
+    <DayXdays>{0} giorni</DayXdays>
     <FrequencyCalendar>Calendario</FrequencyCalendar>
+    <FrequencyDaily>Ogni giorno</FrequencyDaily>
+    <FrequencyHourly>Ogni ora</FrequencyHourly>
+    <FrequencyMonthly>Ogni mese</FrequencyMonthly>
     <FrequencyOnce>Una volta</FrequencyOnce>
+    <FrequencyWeekly>Ogni settimana</FrequencyWeekly>
+    <FrequencyYearly>Ogni anno</FrequencyYearly>
     <ItemCalendar>Calendario</ItemCalendar>
     <ItemCloudStorage>Cloud Storage</ItemCloudStorage>
     <ItemContactList>Lista Contatti</ItemContactList>
@@ -178,46 +168,52 @@
     <LabelDeleted>Eliminato:</LabelDeleted>
     <LabelDescription>Descrizione:</LabelDescription>
     <LabelKey>Chiave:</LabelKey>
-    <LabelName>Nome:</LabelName>
     <LabelModified>Modificato:</LabelModified>
+    <LabelName>Nome:</LabelName>
     <LabelRefreshFrequency>Aggiorna Frequenza:</LabelRefreshFrequency>
     <LabelType>Tipo:</LabelType>
-    <MonthJanuary>Gennaio</MonthJanuary>
-    <MonthFebruary>Febbraio</MonthFebruary>
-    <MonthMarch>Marzo</MonthMarch>
-    <MonthApril>Aprile</MonthApril>
-    <MonthMay>Maggio</MonthMay>
-    <MonthJune>Giugno</MonthJune>
-    <MonthJuly>Luglio</MonthJuly>
-    <MonthAugust>Agosto</MonthAugust>
-    <MonthSeptember>Settembre</MonthSeptember>
-    <MonthOctober>Ottobre</MonthOctober>
-    <MonthNovember>Novembre</MonthNovember>
-    <MonthDecember>Dicembre</MonthDecember>
     <MonthAll>Tutto</MonthAll>
+    <MonthApril>Aprile</MonthApril>
+    <MonthAugust>Agosto</MonthAugust>
+    <MonthDecember>Dicembre</MonthDecember>
+    <MonthFebruary>Febbraio</MonthFebruary>
+    <MonthJanuary>Gennaio</MonthJanuary>
+    <MonthJuly>Luglio</MonthJuly>
+    <MonthJune>Giugno</MonthJune>
+    <MonthMarch>Marzo</MonthMarch>
+    <MonthMay>Maggio</MonthMay>
     <MonthNone>Nessuno</MonthNone>
+    <MonthNovember>Novembre</MonthNovember>
+    <MonthOctober>Ottobre</MonthOctober>
+    <MonthSeptember>Settembre</MonthSeptember>
+    <NumberOfDayAll>Tutto</NumberOfDayAll>
+    <NumberOfDayFifth>Quinto</NumberOfDayFifth>
     <NumberOfDayFirst>Primo</NumberOfDayFirst>
+    <NumberOfDayFourth>Quarto</NumberOfDayFourth>
+    <NumberOfDayLast>Ultimo</NumberOfDayLast>
+    <NumberOfDayNone>Nessuno</NumberOfDayNone>
     <NumberOfDaySecond>Secondo</NumberOfDaySecond>
     <NumberOfDayThird>Terzo</NumberOfDayThird>
-    <NumberOfDayFourth>Quarto</NumberOfDayFourth>
-    <NumberOfDayFifth>Quinto</NumberOfDayFifth>
-    <NumberOfDayLast>Ultimo</NumberOfDayLast>
-    <NumberOfDayAll>Tutto</NumberOfDayAll>
-    <NumberOfDayNone>Nessuno</NumberOfDayNone>
-    <RefreshFrequencyOnce>Una volta</RefreshFrequencyOnce>
     <RefreshFrequencyAlways>Sempre</RefreshFrequencyAlways>
     <RefreshFrequencyEach10Minutes>Ogni 10 Minuti</RefreshFrequencyEach10Minutes>
     <RefreshFrequencyEach30Minutes>Ogni 30 Minuti</RefreshFrequencyEach30Minutes>
-    <RefreshFrequencyEachHour>Ogni Ora</RefreshFrequencyEachHour>
     <RefreshFrequencyEach4Hours>Ogni 4 ore</RefreshFrequencyEach4Hours>
-    <RefreshFrequencyEachHalfDay>Ogni mezza giornata</RefreshFrequencyEachHalfDay>
     <RefreshFrequencyEachDay>Ogni giorno</RefreshFrequencyEachDay>
+    <RefreshFrequencyEachHalfDay>Ogni mezza giornata</RefreshFrequencyEachHalfDay>
+    <RefreshFrequencyEachHour>Ogni Ora</RefreshFrequencyEachHour>
+    <RefreshFrequencyOnce>Una volta</RefreshFrequencyOnce>
     <RepeatTypeHours>Ore</RepeatTypeHours>
     <RepeatTypeMinutes>Minuti</RepeatTypeMinutes>
     <SchedulerStatusStarted>In esecuzione</SchedulerStatusStarted>
     <SchedulerStatusStopped>Fermo</SchedulerStatusStopped>
     <TextNotDefined>Non Definito</TextNotDefined>
   </Common>
+  <ContactList>
+    <LabelEmailList>Lista Email:</LabelEmailList>
+    <TextSample>Campione</TextSample>
+    <WindowTitleEdit>Modifica Lista Contatti</WindowTitleEdit>
+    <WindowTitleNew>Nuova Lista Contatti</WindowTitleNew>
+  </ContactList>
   <Dashboard>
     <WindowTitleEdit>Modifica Dashboard</WindowTitleEdit>
     <WindowTitleNew>Nuova Dashboard</WindowTitleNew>
@@ -265,8 +261,8 @@
     <TextDragDropXsdFileHere>Trascina i Tuoi XSD qui!</TextDragDropXsdFileHere>
     <TextSchemaCloudStorage>Cloud Storage</TextSchemaCloudStorage>
     <TextSchemaDataBase>Database</TextSchemaDataBase>
-    <TextSchemaStoredProcedures>Stored Procedures</TextSchemaStoredProcedures>
     <TextSchemaQueries>Query</TextSchemaQueries>
+    <TextSchemaStoredProcedures>Stored Procedures</TextSchemaStoredProcedures>
     <TextSchemaTables>Tabelle</TextSchemaTables>
     <TextSchemaViews>Viste</TextSchemaViews>
     <TextSchemaXml>XML</TextSchemaXml>
@@ -288,26 +284,14 @@
     <WindowTitleQueryResultsPreview>Anteprima Risultati Query</WindowTitleQueryResultsPreview>
     <WindowTitleSecuredLogin>Login Protetto</WindowTitleSecuredLogin>
     <WizardCloudStorageDescription>Crea una Nuova Connessione al Cloud Storage</WizardCloudStorageDescription>
-    <WizardDynamicsNavDescription>Crea una Nuova Fonte Dati sulla base della connessione con l'ERP Microsoft Dynamics NAV </WizardDynamicsNavDescription>
     <WizardConnectionDescription>Crea una Nuova Fonte Dati sulla base della Connessione {0} </WizardConnectionDescription>
+    <WizardDynamicsNavDescription>Crea una Nuova Fonte Dati sulla base della connessione con l'ERP Microsoft Dynamics NAV </WizardDynamicsNavDescription>
     <WizardXmlDescription>Crea una Nuova Fonte Dati sulla base del file XML</WizardXmlDescription>
   </DataSource>
-  <FileTypes>
-    <Unknown>Sconosciuto</Unknown>
-    <ReportSnapshot>Snapshot Report</ReportSnapshot>
-    <Pdf>Adobe PDF</Pdf>
-    <Xps>Microsoft XPS</Xps>
-    <PowerPoint>Microsoft Power Point</PowerPoint>
-    <Html>Html</Html>
-    <Text>Testo</Text>
-    <RichText>Rich Text</RichText>
-    <Word>Microsoft Word</Word>
-    <OpenDocumentWriter>Apri Document Writer</OpenDocumentWriter>
-    <Excel>Microsoft Excel</Excel>
-    <OpenDocumentSpreadsheet>Apri Document Calc</OpenDocumentSpreadsheet>
-    <Data>File Dati</Data>
-    <Image>File Immagine</Image>
-  </FileTypes>
+  <Designer>
+    <MessageLeftRightNotValid>il valore Left e Right non è valido.</MessageLeftRightNotValid>
+    <MessageTopBottomNotValid>il valore Top e Bottom non è valido.</MessageTopBottomNotValid>
+  </Designer>
   <File>
     <GroupBoxFile>File</GroupBoxFile>
     <GroupBoxFiles>Files</GroupBoxFiles>
@@ -316,14 +300,30 @@
     <TextAutomaticNaming>I Nomi degli item aggiunti verranno creati automaticamente!</TextAutomaticNaming>
     <TextDragDropFilesHere>Trascina i Files Qui</TextDragDropFilesHere>
     <ToolTipDragDropFilesHere>Trascina qui un file da Esplora File pre creare un item basato su esso. Puoi anche usare un File Item esistente per crearne uno nuovo. Per farlo, trascina un File Item qui dall'albero degli Items.</ToolTipDragDropFilesHere>
-    <WindowTitleLoadFiles>Carica Files</WindowTitleLoadFiles>
-    <WindowTitleSaveFile>Salva File</WindowTitleSaveFile>
-    <WindowTitleNew>Nuovo File</WindowTitleNew>
     <WindowTitleEdit>Modifica File</WindowTitleEdit>
+    <WindowTitleLoadFiles>Carica Files</WindowTitleLoadFiles>
+    <WindowTitleNew>Nuovo File</WindowTitleNew>
+    <WindowTitleSaveFile>Salva File</WindowTitleSaveFile>
   </File>
+  <FileTypes>
+    <Data>File Dati</Data>
+    <Excel>Microsoft Excel</Excel>
+    <Html>Html</Html>
+    <Image>File Immagine</Image>
+    <OpenDocumentSpreadsheet>Apri Document Calc</OpenDocumentSpreadsheet>
+    <OpenDocumentWriter>Apri Document Writer</OpenDocumentWriter>
+    <Pdf>Adobe PDF</Pdf>
+    <PowerPoint>Microsoft Power Point</PowerPoint>
+    <ReportSnapshot>Snapshot Report</ReportSnapshot>
+    <RichText>Rich Text</RichText>
+    <Text>Testo</Text>
+    <Unknown>Sconosciuto</Unknown>
+    <Word>Microsoft Word</Word>
+    <Xps>Microsoft XPS</Xps>
+  </FileTypes>
   <Folder>
-    <WindowTitleNew>Nuovo Cartella</WindowTitleNew>
     <WindowTitleEdit>Modifica Cartella</WindowTitleEdit>
+    <WindowTitleNew>Nuovo Cartella</WindowTitleNew>
   </Folder>
   <Items>
     <LabelDeletedByUser>Eliminato dall'utente:</LabelDeletedByUser>
@@ -331,10 +331,10 @@
     <TextDeletingProgressStatus>Eliminazione di {0} items di {1}</TextDeletingProgressStatus>
     <TextRecoveringProgressStatus>Ripristino di {0} items di {1}</TextRecoveringProgressStatus>
     <TextRecycleBin>Cestino</TextRecycleBin>
-    <ToolTipGetItem>Ottieni gli item selezionati dall'albero degli items.</ToolTipGetItem>
     <ToolTipDeleteItem>Elimina Item</ToolTipDeleteItem>
-    <ToolTipOpenFromFile>Apri da File</ToolTipOpenFromFile>
+    <ToolTipGetItem>Ottieni gli item selezionati dall'albero degli items.</ToolTipGetItem>
     <ToolTipMoveToRecycleBin>Se sposti gli items nel Cestino puoi ripristinarli in futuro. Diversamente, gli item verranno eliminati senza possibilità di recupero.</ToolTipMoveToRecycleBin>
+    <ToolTipOpenFromFile>Apri da File</ToolTipOpenFromFile>
     <WindowDescriptionCleanRecycleBin>Sei sicuro di voler svuotare il Cestino? In seguito, i dati non saranno recuperabili.</WindowDescriptionCleanRecycleBin>
     <WindowDescriptionCopy>Spunta gli item che vuoi copiare nella clibboard e clicca il bottone "Copia".</WindowDescriptionCopy>
     <WindowDescriptionCut>Spunta gli item che vuoi tagliare e clicca il bottone "Taglia".</WindowDescriptionCut>
@@ -356,7 +356,7 @@
     <IsNotEnterAnyEmailAddress>Non hai inserito nessun indirizzo email!</IsNotEnterAnyEmailAddress>
     <IsRequiredAction>Devi aggiungere almeno un'azione!</IsRequiredAction>
     <IsRequiredCalendarDates>Devi aggiungere almeno un elemento!</IsRequiredCalendarDates>
-    <IsRequiredDestinationForReportSnapshot>Devi aggiungere almeno una destinazione per visualizzare i risultati!</IsRequiredDestinationForReportSnapshot>   
+    <IsRequiredDestinationForReportSnapshot>Devi aggiungere almeno una destinazione per visualizzare i risultati!</IsRequiredDestinationForReportSnapshot>
     <IsRequiredItem>Devi aggiungere almeno un item!</IsRequiredItem>
     <IsRequiredRecipient>Devi aggiungere almeno un destinatario!</IsRequiredRecipient>
     <IsRequiredReport>Devi aggiungere almeno un report!</IsRequiredReport>
@@ -369,53 +369,53 @@
     <ThisSchedulerIsNotOnceScheduler>Questo schedulatore non è uno schedulatore a singola esecuzione!</ThisSchedulerIsNotOnceScheduler>
   </Messages>
   <Navigator>
-    <ButtonSortByName>Per Nome</ButtonSortByName>
-    <ButtonSortByType>Per Tipo</ButtonSortByType>
-    <ButtonSortByCreationDate>Per Data Creazione</ButtonSortByCreationDate>
-    <ButtonSortByModificationDate>Per Data Modifica</ButtonSortByModificationDate>
     <ButtonAbout>Info</ButtonAbout>
-    <ButtonLogout>Logout</ButtonLogout>
-    <ButtonOptions>Opzioni</ButtonOptions>
-    <ButtonProfile>Profilo</ButtonProfile>
     <ButtonCreateCalendar>Crea Calendario</ButtonCreateCalendar>
-    <ButtonCreateContactList>Crea Lista Contatti</ButtonCreateContactList>
     <ButtonCreateCloudStorage>Crea Cloud Storage</ButtonCreateCloudStorage>
+    <ButtonCreateContactList>Crea Lista Contatti</ButtonCreateContactList>
     <ButtonCreateDashboard>Crea Dashboard</ButtonCreateDashboard>
     <ButtonCreateDataSource>Crea Fonte Dati</ButtonCreateDataSource>
+    <ButtonCreateFile>Crea File</ButtonCreateFile>
     <ButtonCreateFolder>Crea Cartella</ButtonCreateFolder>
     <ButtonCreateReport>Crea Report</ButtonCreateReport>
-    <ButtonCreateFile>Crea File</ButtonCreateFile>
     <ButtonCreateScheduler>Crea Scheduler</ButtonCreateScheduler>
+    <ButtonLogout>Logout</ButtonLogout>
+    <ButtonOptions>Opzioni</ButtonOptions>
     <ButtonOther>Altro</ButtonOther>
-    <RibbonButtonConfiguration>Configurazione</RibbonButtonConfiguration>
+    <ButtonProfile>Profilo</ButtonProfile>
+    <ButtonSortByCreationDate>Per Data Creazione</ButtonSortByCreationDate>
+    <ButtonSortByModificationDate>Per Data Modifica</ButtonSortByModificationDate>
+    <ButtonSortByName>Per Nome</ButtonSortByName>
+    <ButtonSortByType>Per Tipo</ButtonSortByType>
+    <RibbonButtonCalendar>Calendario</RibbonButtonCalendar>
     <RibbonButtonCleanRecycleBin>Svuota Cestino</RibbonButtonCleanRecycleBin>
     <RibbonButtonClose>Chiudi</RibbonButtonClose>
+    <RibbonButtonCloudStorage>Cloud Storage</RibbonButtonCloudStorage>
+    <RibbonButtonConfiguration>Configurazione</RibbonButtonConfiguration>
+    <RibbonButtonContactList>Lista Contatti</RibbonButtonContactList>
     <RibbonButtonCopy>Copia</RibbonButtonCopy>
     <RibbonButtonCut>Taglia</RibbonButtonCut>
+    <RibbonButtonDashboard>Dashboard</RibbonButtonDashboard>
+    <RibbonButtonDataSource>Fonte Dati</RibbonButtonDataSource>
     <RibbonButtonDelete>Elimina</RibbonButtonDelete>
     <RibbonButtonEdit>Modifica</RibbonButtonEdit>
+    <RibbonButtonFile>File</RibbonButtonFile>
     <RibbonButtonFind>Trova</RibbonButtonFind>
+    <RibbonButtonFolder>Cartella</RibbonButtonFolder>
     <RibbonButtonNotifications>Notifiche</RibbonButtonNotifications>
     <RibbonButtonPaste>Incolla</RibbonButtonPaste>
     <RibbonButtonRecover>Ripristina</RibbonButtonRecover>
     <RibbonButtonRecycleBin>Cestino</RibbonButtonRecycleBin>
     <RibbonButtonRefresh>Aggiorna</RibbonButtonRefresh>
-    <RibbonButtonSMTP>Impostazioni SMTP Server</RibbonButtonSMTP>
-    <RibbonButtonCalendar>Calendario</RibbonButtonCalendar>
-    <RibbonButtonContactList>Lista Contatti</RibbonButtonContactList>
-    <RibbonButtonCloudStorage>Cloud Storage</RibbonButtonCloudStorage>
-    <RibbonButtonDashboard>Dashboard</RibbonButtonDashboard>
-    <RibbonButtonDataSource>Fonte Dati</RibbonButtonDataSource>
-    <RibbonButtonFolder>Cartella</RibbonButtonFolder>
     <RibbonButtonReport>Report</RibbonButtonReport>
-    <RibbonButtonFile>File</RibbonButtonFile>
     <RibbonButtonScheduler>Schedulatore</RibbonButtonScheduler>
+    <RibbonButtonSMTP>Impostazioni SMTP Server</RibbonButtonSMTP>
     <RibbonButtonSort>Ordina</RibbonButtonSort>
     <RibbonButtonSortAscending>Ascendende</RibbonButtonSortAscending>
     <RibbonButtonSortDescending>Discendente</RibbonButtonSortDescending>
     <RibbonButtonViewAll>Tutto</RibbonButtonViewAll>
-    <RibbonButtonViewNewest>Più Nuovi</RibbonButtonViewNewest>
     <RibbonButtonViewFavorites>Preferiti</RibbonButtonViewFavorites>
+    <RibbonButtonViewNewest>Più Nuovi</RibbonButtonViewNewest>
     <RibbonButtonViewRecent>Recenti</RibbonButtonViewRecent>
     <RibbonGroupActions>Azioni</RibbonGroupActions>
     <RibbonGroupAdministration>Amministrazione</RibbonGroupAdministration>
@@ -424,85 +424,86 @@
     <RibbonGroupOther>Altro</RibbonGroupOther>
     <RibbonGroupView>Visualizza</RibbonGroupView>
     <RibbonTabActions>Azioni</RibbonTabActions>
-    <RibbonTabHome>Home</RibbonTabHome>
     <RibbonTabCreate>Crea</RibbonTabCreate>
+    <RibbonTabHome>Home</RibbonTabHome>
     <RibbonTabSystem>Sistema</RibbonTabSystem>
     <RibbonTabUsers>Utenti</RibbonTabUsers>
-    <TextProfile>Profilo</TextProfile>
-    <TextJustType>Scrivi...</TextJustType>
-    <TextItemsRoot>Radice</TextItemsRoot>
     <TextItemsFavorites>Preferiti</TextItemsFavorites>
     <TextItemsNewest>Più Nuovi</TextItemsNewest>
     <TextItemsRecent>Recenti</TextItemsRecent>
-    <ToolTipFindNext>Trova Successivo</ToolTipFindNext>
-    <ToolTipFindClose>Chiudi</ToolTipFindClose>
-    <ToolTipCreateFolder>Crea una nuova categoria in cui mettere altri items.</ToolTipCreateFolder>
-    <ToolTipCreateCloudStorage>Crea una nuova connessione al cloud storage. E' usata per salvare i risultati delle elaborazioni dello schedulatore o caricare i dati da elaborare.</ToolTipCreateCloudStorage>
-    <ToolTipCreateDataSource>Crea una Nuova Fonte Dati. Sarà usata per elaborare i reports.</ToolTipCreateDataSource>
-    <ToolTipCreateReportTemplate>Crea report template.</ToolTipCreateReportTemplate>
-    <ToolTipScheduler>E' usato per eseguire i comandi dallo schedulatore.</ToolTipScheduler>
-    <ToolTipCreateDashboard>Crea una nuova dashboard.</ToolTipCreateDashboard>
-    <ToolTipCreateCalendar>Il Calendario può essere usato per specificare i giorni in cui lo schedulatore verrà eseguito.</ToolTipCreateCalendar>
-    <ToolTipCreateFile>Aggiungi la lista di file nell'albero degli items.</ToolTipCreateFile>
-    <ToolTipCreateContactList>La lista dei contatti può essere usata nello schedulatore per inviare i risultati dell'elaborazione.</ToolTipCreateContactList>
+    <TextItemsRoot>Radice</TextItemsRoot>
+    <TextJustType>Scrivi...</TextJustType>
+    <TextProfile>Profilo</TextProfile>
     <ToolTipConfiguration>Amministrazione utenti e Impostazioni di sistema.</ToolTipConfiguration>
+    <ToolTipCopy>Copia l'item selezionato dall'albero e lo inserisce nella Clipboard.</ToolTipCopy>
+    <ToolTipCreateCalendar>Il Calendario può essere usato per specificare i giorni in cui lo schedulatore verrà eseguito.</ToolTipCreateCalendar>
+    <ToolTipCreateCloudStorage>Crea una nuova connessione al cloud storage. E' usata per salvare i risultati delle elaborazioni dello schedulatore o caricare i dati da elaborare.</ToolTipCreateCloudStorage>
+    <ToolTipCreateContactList>La lista dei contatti può essere usata nello schedulatore per inviare i risultati dell'elaborazione.</ToolTipCreateContactList>
+    <ToolTipCreateDashboard>Crea una nuova dashboard.</ToolTipCreateDashboard>
+    <ToolTipCreateDataSource>Crea una Nuova Fonte Dati. Sarà usata per elaborare i reports.</ToolTipCreateDataSource>
+    <ToolTipCreateFile>Aggiungi la lista di file nell'albero degli items.</ToolTipCreateFile>
+    <ToolTipCreateFolder>Crea una nuova categoria in cui mettere altri items.</ToolTipCreateFolder>
+    <ToolTipCreateReportTemplate>Crea report template.</ToolTipCreateReportTemplate>
+    <ToolTipCut>Taglia l'item selezionato dall'albero e lo inserisce nella Clipboard.</ToolTipCut>
+    <ToolTipDelete>Elimina l'item selezionato dall'albero.</ToolTipDelete>
+    <ToolTipEdit>Modifica l'item selezionato dall'albero.</ToolTipEdit>
+    <ToolTipFind>Trova items nell'albero per nome.</ToolTipFind>
+    <ToolTipFindClose>Chiudi</ToolTipFindClose>
+    <ToolTipFindNext>Trova Successivo</ToolTipFindNext>
+    <ToolTipNotifications>La lista di notifiche mostra il progresso dei comandi in esecuzione.</ToolTipNotifications>
+    <ToolTipPaste>Incolla il contenuto della Clipboard nell'albero.</ToolTipPaste>
+    <ToolTipRecycleBin>Ripristina files eliminati o Svuota il Cestino.</ToolTipRecycleBin>
     <ToolTipRefresh>Aggiorna the items tree.</ToolTipRefresh>
-    <ToolTipViewAll>Mostra Tutti gli items nell'albero.</ToolTipViewAll>
-    <ToolTipViewNewest>Mostra items aggiunti di recente nell'albero.</ToolTipViewNewest>
-    <ToolTipViewFavorites>Mostra solo items selezionati nell'albero.</ToolTipViewFavorites>
-    <ToolTipViewRecent>Mostra solo nuovi items nell'albero.</ToolTipViewRecent>
+    <ToolTipScheduler>E' usato per eseguire i comandi dallo schedulatore.</ToolTipScheduler>
     <ToolTipSort>Ordinamento degli items nell'albero per a condizione specificata.</ToolTipSort>
     <ToolTipSortAZ>Ordinamento - ascendente.</ToolTipSortAZ>
     <ToolTipSortZA>Ordinamento - discendente.</ToolTipSortZA>
-    <ToolTipFind>Trova items nell'albero per nome.</ToolTipFind>
-    <ToolTipPaste>Incolla il contenuto della Clipboard nell'albero.</ToolTipPaste>
-    <ToolTipCut>Taglia l'item selezionato dall'albero e lo inserisce nella Clipboard.</ToolTipCut>
-    <ToolTipCopy>Copia l'item selezionato dall'albero e lo inserisce nella Clipboard.</ToolTipCopy>
-    <ToolTipDelete>Elimina l'item selezionato dall'albero.</ToolTipDelete>
-    <ToolTipEdit>Modifica l'item selezionato dall'albero.</ToolTipEdit>
-    <ToolTipRecycleBin>Ripristina files eliminati o Svuota il Cestino.</ToolTipRecycleBin>
-    <ToolTipNotifications>La lista di notifiche mostra il progresso dei comandi in esecuzione.</ToolTipNotifications>
+    <ToolTipViewAll>Mostra Tutti gli items nell'albero.</ToolTipViewAll>
+    <ToolTipViewFavorites>Mostra solo items selezionati nell'albero.</ToolTipViewFavorites>
+    <ToolTipViewNewest>Mostra items aggiunti di recente nell'albero.</ToolTipViewNewest>
+    <ToolTipViewRecent>Mostra solo nuovi items nell'albero.</ToolTipViewRecent>
   </Navigator>
   <Options>
-    <LabelLanguageDescription>Seleziona una lingua di localizzazione per l'applicazione:</LabelLanguageDescription>
     <LabelCacheDescription>Il Caching delle informazioni avviene su disco, per aumentare le performance del programma e ridurre i tempi di caricamento sul server. A volte, la cache può occupare molto spazio. In quel caso, puoi svuotarla.</LabelCacheDescription>
     <LabelColorScheme>Schema Colori</LabelColorScheme>
+    <LabelLanguageDescription>Seleziona una lingua di localizzazione per l'applicazione:</LabelLanguageDescription>
     <LabelStyle>Stile</LabelStyle>
     <MessageApplyTheme>Il nuovo tema verrà applicato dopo aver riavviato l'applicazione!</MessageApplyTheme>
-    <TabLanguage>Lingua</TabLanguage>
     <TabCache>Cache</TabCache>
+    <TabLanguage>Lingua</TabLanguage>
     <TextDefaultLanguage>Default</TextDefaultLanguage>
     <TextEmpty>Vuoto</TextEmpty>
     <TextTotalFiles>Grandezza Totale - {0:N2} MB</TextTotalFiles>
   </Options>
   <ReportSnapshot>
-    <ButtonView>Visualizza</ButtonView>
+    <ButtonBookmarks>Segnaposti</ButtonBookmarks>
+    <ButtonEditor>Editor</ButtonEditor>
+    <ButtonFind>Trova</ButtonFind>
+    <ButtonFirstPage>Prima Pagina</ButtonFirstPage>
+    <ButtonFullScreen>Schermo Intero</ButtonFullScreen>
+    <ButtonGoToPage>Vai a Pagina</ButtonGoToPage>
+    <ButtonLastPage>Ultima Pagina</ButtonLastPage>
+    <ButtonNextPage>Pagina Successiva</ButtonNextPage>
+    <ButtonParameters>Parametri</ButtonParameters>
+    <ButtonPrevPage>Pagina Precedente</ButtonPrevPage>
     <ButtonPrint>Stampa</ButtonPrint>
     <ButtonSave>Salva</ButtonSave>
     <ButtonSendEMail>Invia Email</ButtonSendEMail>
-    <ButtonBookmarks>Segnaposti</ButtonBookmarks>
-    <ButtonParameters>Parametri</ButtonParameters>
     <ButtonThumbnails>Miniature</ButtonThumbnails>
-    <ButtonFind>Trova</ButtonFind>
-    <ButtonFirstPage>Prima Pagina</ButtonFirstPage>
-    <ButtonPrevPage>Pagina Precedente</ButtonPrevPage>
-    <ButtonGoToPage>Vai a Pagina</ButtonGoToPage>
-    <ButtonNextPage>Pagina Successiva</ButtonNextPage>
-    <ButtonLastPage>Ultima Pagina</ButtonLastPage>
-    <ButtonEditor>Editor</ButtonEditor>
+    <ButtonView>Visualizza</ButtonView>
     <ButtonZoomOnePage>Una Pagina</ButtonZoomOnePage>
     <ButtonZoomPageWidth>Pagina Con</ButtonZoomPageWidth>
-    <ButtonFullScreen>Schermo Intero</ButtonFullScreen>
     <GroupFile>File</GroupFile>
     <GroupPanels>Panels</GroupPanels>
     <GroupTools>Strumenti</GroupTools>
-    <LabelPagesPrinted>Pagine stampate:</LabelPagesPrinted>
     <LabelPageN>Pagina:</LabelPageN>
+    <LabelPagesPrinted>Pagine stampate:</LabelPagesPrinted>
+    <MessageCantFind>Impossibile trovare i dati che stai cercando.</MessageCantFind>
     <TextCancelPrinting>Annullamento Stampa...</TextCancelPrinting>
     <TextDoubleClickToView>Doppio click per Visualizzare</TextDoubleClickToView>
+    <TextExportFinishFailure>L'errore è accaduto durante l'esportazione del report.</TextExportFinishFailure>
     <TextExportFinishSuccess>Esportazione completata con successo.</TextExportFinishSuccess>
     <TextExportProcess>Il report sta per essere esportato sul server. Questo può richiedere del tempo.</TextExportProcess>
-    <TextExportFinishFailure>L'errore è accaduto durante l'esportazione del report.</TextExportFinishFailure>
     <TextLoading>Caricamento...</TextLoading>
     <TextNavigating>Navigazione...</TextNavigating>
     <TextPageOf>{0} di {1}</TextPageOf>
@@ -513,24 +514,23 @@
     <TextReportPrinting>Stampa Report...</TextReportPrinting>
     <TextReportRendering>Elaborazione Report...</TextReportRendering>
     <TextSearching>Ricerca...</TextSearching>
+    <ToolTipBookmarks>Mostra il pannello dei segnaposti che è usato per navigare velocemente saltando direttamente alle posizioni salvate.</ToolTipBookmarks>
+    <ToolTipClose>Chiude l'anteprima Report.</ToolTipClose>
+    <ToolTipFind>Cerca un testo nel report.</ToolTipFind>
+    <ToolTipFullScreen />
+    <ToolTipPageFirst>Va alla prima pagina del report.</ToolTipPageFirst>
+    <ToolTipPageGoTo>Va alla pagina specificata del report.</ToolTipPageGoTo>
+    <ToolTipPageLast>Va all'ultima pagina del report.</ToolTipPageLast>
+    <ToolTipPageNext>Va alla pagina successiva del report.</ToolTipPageNext>
+    <ToolTipPagePrevious>Va alla pagina precedente del report.</ToolTipPagePrevious>
+    <ToolTipParameters>Mostra il pannello dei parametri che sono usati nell'elaborazione del report.</ToolTipParameters>
     <ToolTipPrint>Stampa un report.</ToolTipPrint>
     <ToolTipSave>Salva un report per utilizzo futuro.</ToolTipSave>
     <ToolTipSendEMail>Invia un report via Email.</ToolTipSendEMail>
-    <ToolTipBookmarks>Mostra il pannello dei segnaposti che è usato per navigare velocemente saltando direttamente alle posizioni salvate.</ToolTipBookmarks>
-    <ToolTipParameters>Mostra il pannello dei parametri che sono usati nell'elaborazione del report.</ToolTipParameters>
     <ToolTipThumbnails>Mostra le miniature che possono esere usate per navigare velocemente trovando le sezioni del report a cui vuoi saltare.</ToolTipThumbnails>
-    <ToolTipFind>Cerca un testo nel report.</ToolTipFind>
     <ToolTipToolEditor>Questo strumento ti aiuta a Modificare il contenuto dei componenti di testo direttamente nel visualizzatore report.</ToolTipToolEditor>
     <ToolTipZoomOnePage>Zooma il report in modo che l'intera pagina sia visualizzata nella finestra.</ToolTipZoomOnePage>
     <ToolTipZoomPageWidth>Zooma il report in modo che la larghezza della pagina corrisponda con la larghezza della finestra.</ToolTipZoomPageWidth>
-    <ToolTipFullScreen></ToolTipFullScreen>
-    <ToolTipClose>Chiude l'anteprima Report.</ToolTipClose>
-    <ToolTipPageFirst>Va alla prima pagina del report.</ToolTipPageFirst>
-    <ToolTipPagePrevious>Va alla pagina precedente del report.</ToolTipPagePrevious>
-    <ToolTipPageGoTo>Va alla pagina specificata del report.</ToolTipPageGoTo>
-    <ToolTipPageNext>Va alla pagina successiva del report.</ToolTipPageNext>
-    <ToolTipPageLast>Va all'ultima pagina del report.</ToolTipPageLast>
-    <MessageCantFind>Impossibile trovare i dati che stai cercando.</MessageCantFind>
     <WindowTitleEdit>Modifica Report Snapshot</WindowTitleEdit>
     <WindowTitleViewer>Visualizzatore</WindowTitleViewer>
   </ReportSnapshot>
@@ -540,22 +540,22 @@
     <TextDescriptionChanges>Per favore, inserisci una descrizione delle modifiche</TextDescriptionChanges>
     <TextDragDropItemsHere>Trascina qui gli Items</TextDragDropItemsHere>
     <TextDragDropReportTemplatesHere>Trascina qui i Report Templates</TextDragDropReportTemplatesHere>
-    <ToolTipDragDropReportTemplatesHere>Trascina qui un file di report template dal file explorer per creare un report template basato su di esso. Puoi usare anche un report esistente per creare un nuovo report. Per farlo, Trascina qui un report template dall'albero degli items.</ToolTipDragDropReportTemplatesHere>
     <ToolTipDragDropItemsHereToAttachIt>Trascina qui una Fonte Dati dall'albero degli items per usarla in un nuovo report. In aggiunta alle Fonti Dati puoi usare immagini, file di testo o di testo formattato per mostrarli in un report. Possono essere usati anche altri report per essere visualizzati come sotto-reports.</ToolTipDragDropItemsHereToAttachIt>
+    <ToolTipDragDropReportTemplatesHere>Trascina qui un file di report template dal file explorer per creare un report template basato su di esso. Puoi usare anche un report esistente per creare un nuovo report. Per farlo, Trascina qui un report template dall'albero degli items.</ToolTipDragDropReportTemplatesHere>
     <ToolTipSetParameters>Definizione Parametri Report</ToolTipSetParameters>
     <WindowDescriptionNew>Scegli dalle opzioni presenti sopra come creare un nuovo report. Il report creato verrà salvato in "{0}".</WindowDescriptionNew>
+    <WindowTitleDesigner>Designer</WindowTitleDesigner>
+    <WindowTitleEdit>Modifica Report Template</WindowTitleEdit>
     <WindowTitleLoadReport>Carica Report</WindowTitleLoadReport>
     <WindowTitleLoadReports>Carica Reports</WindowTitleLoadReports>
-    <WindowTitleSaveReport>Salva Report</WindowTitleSaveReport>
     <WindowTitleNew>Nuovo Report Template</WindowTitleNew>
-    <WindowTitleEdit>Modifica Report Template</WindowTitleEdit>
-    <WindowTitleDesigner>Designer</WindowTitleDesigner>
     <WindowTitleParameters>Parametri</WindowTitleParameters>
+    <WindowTitleSaveReport>Salva Report</WindowTitleSaveReport>
     <WizardBlankReport>Report Vuoto</WizardBlankReport>
-    <WizardReportWizard>Report Wizard</WizardReportWizard>
-    <WizardReportWizardDescription>Crea Nuovo Report con l'aiuto del Wizard</WizardReportWizardDescription>
     <WizardReportFromFile>Report da File</WizardReportFromFile>
     <WizardReportFromFileDescription>Carica Nuovo Report da File</WizardReportFromFileDescription>
+    <WizardReportWizard>Report Wizard</WizardReportWizard>
+    <WizardReportWizardDescription>Crea Nuovo Report con l'aiuto del Wizard</WizardReportWizardDescription>
   </ReportTemplate>
   <Scheduler>
     <ActionCopy>Copia</ActionCopy>
@@ -565,17 +565,13 @@
     <ButtonStartScheduler>Avvia</ButtonStartScheduler>
     <ButtonStopScheduler>Ferma</ButtonStopScheduler>
     <CheckBoxExcludeWeekendDays>Escludi giorni del Weekend</CheckBoxExcludeWeekendDays>
-    <CheckBoxRunOnce>Esegui una volta</CheckBoxRunOnce>
     <CheckBoxRunAfterCreation>Esegui dopo la Creazione</CheckBoxRunAfterCreation>
     <CheckBoxRunAfterSaving>Esegui dopo il Salvataggio</CheckBoxRunAfterSaving>
+    <CheckBoxRunOnce>Esegui una volta</CheckBoxRunOnce>
+    <GroupBoxExceptionCalendar>Eccezione</GroupBoxExceptionCalendar>
     <GroupBoxRange>Range</GroupBoxRange>
     <GroupBoxRepeat>Ripeti</GroupBoxRepeat>
-    <GroupBoxExceptionCalendar>Eccezione</GroupBoxExceptionCalendar>
     <HyperlinkAdvancedSettings>Impostazioni Avanzate</HyperlinkAdvancedSettings>
-    <MessageItIsNecessaryToHaveOnlyTheOriginalFile>Per copiare dati tra items dello stesso tipo, è ecesario avere solo l'item originale!</MessageItIsNecessaryToHaveOnlyTheOriginalFile>
-    <MessageReportDoesNotContainParameters>Questo report non contiene parametri!</MessageReportDoesNotContainParameters>
-    <MessageTheFileTypesMustMatch>Il Tipo dell'item copiato deve corrispondere al tipo dell'item in cui lo si vuole copiare!</MessageTheFileTypesMustMatch>
-    <MessageTheItemIsAlreadyAdded>L'item è già stato aggiunto!</MessageTheItemIsAlreadyAdded>
     <LabelAttachments>Allegati:</LabelAttachments>
     <LabelCurrentStatus>Stato Corrente:</LabelCurrentStatus>
     <LabelDaysOfWeek>giorni della Settimana:</LabelDaysOfWeek>
@@ -588,70 +584,74 @@
     <LabelRepeatRate>Numero di ripetizioni:</LabelRepeatRate>
     <LabelRepeatType>Tipo ripetizioni:</LabelRepeatType>
     <LabelReport>Report:</LabelReport>
+    <LabelResultExpiresAfter>Il risultato Scade Dopo:</LabelResultExpiresAfter>
+    <LabelResultType>Tipo Risultato:</LabelResultType>
     <LabelRunAtDay>Esegui il giorno:</LabelRunAtDay>
     <LabelRunAtMinute>Esegui al Minuto:</LabelRunAtMinute>
     <LabelRunAtMonth>Esegui nel Mese:</LabelRunAtMonth>
     <LabelRunAtTime>Esegui all'Ora:</LabelRunAtTime>
     <LabelRunEvery>Esegui Ogni:</LabelRunEvery>
-    <LabelResultExpiresAfter>Il risultato Scade Dopo:</LabelResultExpiresAfter>
-    <LabelResultType>Tipo Risultato:</LabelResultType>
     <LabelSource>Sorgente:</LabelSource>
     <LabelStartDate>Data Avvio:</LabelStartDate>
     <LabelStatus>Stato:</LabelStatus>
-    <LabelSubject>Oggetto:</LabelSubject>
-    <LabelTo>A:</LabelTo>
     <LabelStatusAfterCreation>Stato dopo Creazione:</LabelStatusAfterCreation>
+    <LabelSubject>Oggetto:</LabelSubject>
     <LabelTimeZone>Fuso Orario:</LabelTimeZone>
+    <LabelTo>A:</LabelTo>
+    <MessageItIsNecessaryToHaveOnlyTheOriginalFile>Per copiare dati tra items dello stesso tipo, è ecesario avere solo l'item originale!</MessageItIsNecessaryToHaveOnlyTheOriginalFile>
+    <MessageReportDoesNotContainParameters>Questo report non contiene parametri!</MessageReportDoesNotContainParameters>
+    <MessageTheFileTypesMustMatch>Il Tipo dell'item copiato deve corrispondere al tipo dell'item in cui lo si vuole copiare!</MessageTheFileTypesMustMatch>
+    <MessageTheItemIsAlreadyAdded>L'item è già stato aggiunto!</MessageTheItemIsAlreadyAdded>
     <RadioButtonDay>giorno</RadioButtonDay>
     <RadioButtonOn>On</RadioButtonOn>
     <TabItemActions>Azioni</TabItemActions>
     <TabItemSettings>Impostazioni</TabItemSettings>
     <TextDragDropAttachedHere>Trascina qui l'Item allegato</TextDragDropAttachedHere>
     <TextDragDropCalendarHere>Trascina qui il Calendario</TextDragDropCalendarHere>
+    <TextDragDropDestinationHere>Trascina qui l'Item di Destinazione</TextDragDropDestinationHere>
     <TextDragDropItemHere>Trascina qui l'Item</TextDragDropItemHere>
     <TextDragDropReportHere>Trascina qui il Report</TextDragDropReportHere>
-    <TextDragDropDestinationHere>Trascina qui l'Item di Destinazione</TextDragDropDestinationHere>
     <TextDragDropSchedulerHere>Trascina qui lo Schedulatore</TextDragDropSchedulerHere>
     <TextFrequency>Questo campo specifica con che frequenza lo schedulatore verrà eseguito.</TextFrequency>
     <TextPressPlusIconAddNewAction>Clicca l'icona più per aggiungere una nuova azione!</TextPressPlusIconAddNewAction>
+    <ToolTipChangeResultType>Cambia il modo di gestire il risultato della creazione del report</ToolTipChangeResultType>
+    <ToolTipDaysOfWeek>Un giorno della settimana in cui lo schedulatore verrà eseguito. Puoi selezionare un singolo giorno, più giorni o tutti i giorni. Se si seleziona più di un giorno, lo schedulatore verra eseguito nei giorni selezionati.</ToolTipDaysOfWeek>
     <ToolTipDragDropActionRunReportDestinationHere>Trascina qui un item di destinazione dall'albero degli items. La destinazione conterrà i risultati. L'item di destinazione  può essere un report snapshot esistente o un file item. In quel caso l'item di destinazione verrà sostituito al risultato del report elaborato.</ToolTipDragDropActionRunReportDestinationHere>
     <ToolTipDragDropAttachedHere>Trascina qui l'item dall'albero degli items. L'item allegato verrà inviato per email.</ToolTipDragDropAttachedHere>
+    <ToolTipDragDropCalendarHere>Trascina un Calendario dall'albero degli items. Lo schedulatore verrà eseguito in base ai giorni specificati nel calendario.</ToolTipDragDropCalendarHere>
     <ToolTipDragDropDestinationHere>Trascina un item di destinazione dall'albero degli items. La destinazione conterrà il risultato. L'item di destinazione  può essere un report snapshot esistente o un file item. In quel caso l'item di destinazione verrà sostituito dall'item di origine.</ToolTipDragDropDestinationHere>
+    <ToolTipDragDropExceptionCalendarHere>Trascina un Calendario dall'albero degli items. I giorni specificati nel calendario verranno ignorati dallo schedulatore. L'esecuzione dello schedulatore verrà spostata il giorno successivo.</ToolTipDragDropExceptionCalendarHere>
     <ToolTipDragDropItemHere>Trascina un item dall'albero degli items. L'item verrà copiato durante l'esecuzione dello schedulatore.</ToolTipDragDropItemHere>
     <ToolTipDragDropReportHere>Trascina un report template dall'albero degli items. Il template verrà usato durante l'esecuzione dello schedulatore.</ToolTipDragDropReportHere>
     <ToolTipDragDropSchedulerHere>Trascina uno schedulatore dall'albero degli items. Quando lo schedulatore principale viene eseguito(quello che si sta creando o modificando) esso può eseguire altri schedulatori (quelli trascinati nel campo). Solo un livello di annidamento di schedulatori è supportato. Lo schedulatore che è stato eseguito da un altro schedulatore non può eseguirne altri a sua volta.</ToolTipDragDropSchedulerHere>
-    <ToolTipDragDropCalendarHere>Trascina un Calendario dall'albero degli items. Lo schedulatore verrà eseguito in base ai giorni specificati nel calendario.</ToolTipDragDropCalendarHere>
-    <ToolTipDragDropExceptionCalendarHere>Trascina un Calendario dall'albero degli items. I giorni specificati nel calendario verranno ignorati dallo schedulatore. L'esecuzione dello schedulatore verrà spostata il giorno successivo.</ToolTipDragDropExceptionCalendarHere>
-    <ToolTipChangeResultType>Cambia il modo di gestire il risultato della creazione del report</ToolTipChangeResultType>
-    <ToolTipDaysOfWeek>Un giorno della settimana in cui lo schedulatore verrà eseguito. Puoi selezionare un singolo giorno, più giorni o tutti i giorni. Se si seleziona più di un giorno, lo schedulatore verra eseguito nei giorni selezionati.</ToolTipDaysOfWeek>
+    <ToolTipEndDate>Esegui lo Schedulatore non più tardi di questa ora.</ToolTipEndDate>
     <ToolTipExcludeWeekendDays>Spunta questa casella se vuoi che lo Schedulatore non venga eseguito nei giorni del weekend.</ToolTipExcludeWeekendDays>
+    <ToolTipRepeatCount>Specifica il numero di ripetizioni dello Schedulatore. Ad esempio, 2 - ripeti l'esecuzione due volte.</ToolTipRepeatCount>
+    <ToolTipRepeatRate>Specifica ogni quanto ripetere l'esecuzione dello schedulatore. Ad esmepio, 0.5 min - ripetuto dopo mezzo minuto.</ToolTipRepeatRate>
+    <ToolTipRepeatType>Specifica quale unità di misura del tempo sarà usata per determinare gli intervalli tra un'esecuzione e l'altra dello schedulatore.</ToolTipRepeatType>
     <ToolTipRunAtDay>Il giorno in cui lo schedulatore viene eseguito può essere scelto in due modi. Il primo modo è specificare un giorno particolare del mese (da 1 a 31 o l'ultimo giorno del mese). Il secondo modo è specificare quale giorno della settimana e quale settimana del mese. Ad esempio, "Il primo lunedi del mese", "Il terzo mercoledi del mese". In entrambi i casi si può indicare più di un giorno al mese.</ToolTipRunAtDay>
     <ToolTipRunAtDayOnce>Un giorno in cui lo schedulatore verrà eseguito.</ToolTipRunAtDayOnce>
+    <ToolTipRunAtMinute>Un minuto in cui lo schedulatore verrà eseguito (da 1 a 60).</ToolTipRunAtMinute>
     <ToolTipRunAtMonth>Un mese, in cui lo schedulatore verrà eseguito. Puoi indicare uno, più di uno o tutti i mesi. Lo schedulatore verrà eseguito in ciasciun mese indicato.</ToolTipRunAtMonth>
     <ToolTipRunAtMonthOnce>Un mese, in cui lo schedulatore verrà eseguito.</ToolTipRunAtMonthOnce>
-    <ToolTipRunAtMinute>Un minuto in cui lo schedulatore verrà eseguito (da 1 a 60).</ToolTipRunAtMinute>
     <ToolTipRunAtTime>L'ora in cui lo schedulatore verrà eseguito.</ToolTipRunAtTime>
     <ToolTipRunEvery>Se indichi il valore 1, lo Schedulatore verrà eseguito per sempre. Se indichi 2, la prima volta lo schedulatore non verrà eseguito, mentre la seconda volta si. Indicando 3, lo schedulatore verrà eseguito solo la terza volta, mentre la prima e la seconda volta no, e cosi via.</ToolTipRunEvery>
     <ToolTipRunOnce>Deseleziona questa casella se vuoi che lo schedulatore venga eseguito a un'ora specifica, più volte in copia. Ad esempio, lo schedulatore può essere eseguito all'una e ripetere la sua esecuzione due volte ogni 3 minuti.</ToolTipRunOnce>
-    <ToolTipRepeatType>Specifica quale unità di misura del tempo sarà usata per determinare gli intervalli tra un'esecuzione e l'altra dello schedulatore.</ToolTipRepeatType>
-    <ToolTipRepeatRate>Specifica ogni quanto ripetere l'esecuzione dello schedulatore. Ad esmepio, 0.5 min - ripetuto dopo mezzo minuto.</ToolTipRepeatRate>
-    <ToolTipRepeatCount>Specifica il numero di ripetizioni dello Schedulatore. Ad esempio, 2 - ripeti l'esecuzione due volte.</ToolTipRepeatCount>
     <ToolTipStartDate>Esegui lo Schedulatore non prima di questa ora.</ToolTipStartDate>
     <ToolTipTimeZone>Esegui lo Schedulatore in base al fuso orario.</ToolTipTimeZone>
-    <ToolTipEndDate>Esegui lo Schedulatore non più tardi di questa ora.</ToolTipEndDate>
-    <WizardHourly>Orario</WizardHourly>
-    <WizardHourlyDescription>Una volta ogni ora.</WizardHourlyDescription>
-    <WizardDaily>Giornaliero</WizardDaily>
-    <WizardDailyDescription>Una volta al giorno, all'ora indicata.</WizardDailyDescription>
-    <WizardWeekly>Settimanale</WizardWeekly>
-    <WizardWeeklyDescription>Nei giorni della settimana indicati, all'ora specificata.</WizardWeeklyDescription>
-    <WizardMonthly>Mensile</WizardMonthly>
-    <WizardMonthlyDescription>Ogni mese, nei giorni indicati della settimana o del mese, all'ora indicata.</WizardMonthlyDescription>
-    <WizardYearly>Annuale</WizardYearly>
-    <WizardYearlyDescription>Ogni anno, in un mese, giorno e ora indicati.</WizardYearlyDescription>
     <WizardCalendar>Calendario</WizardCalendar>
     <WizardCalendarDescription>Esegue lo Schedulatore nelle date specificate nel Calendario selezionato.</WizardCalendarDescription>
+    <WizardDaily>Giornaliero</WizardDaily>
+    <WizardDailyDescription>Una volta al giorno, all'ora indicata.</WizardDailyDescription>
+    <WizardHourly>Orario</WizardHourly>
+    <WizardHourlyDescription>Una volta ogni ora.</WizardHourlyDescription>
+    <WizardMonthly>Mensile</WizardMonthly>
+    <WizardMonthlyDescription>Ogni mese, nei giorni indicati della settimana o del mese, all'ora indicata.</WizardMonthlyDescription>
     <WizardOnce>Una volta</WizardOnce>
     <WizardOnceDescription>Esegue lo Schedulatore una volta sola a qualsiasi ora.</WizardOnceDescription>
+    <WizardWeekly>Settimanale</WizardWeekly>
+    <WizardWeeklyDescription>Nei giorni della settimana indicati, all'ora specificata.</WizardWeeklyDescription>
+    <WizardYearly>Annuale</WizardYearly>
+    <WizardYearlyDescription>Ogni anno, in un mese, giorno e ora indicati.</WizardYearlyDescription>
   </Scheduler>
 </Localization>
