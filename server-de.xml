@@ -56,11 +56,13 @@
     <WindowDescriptionRoleDelete>Wollen Sie die Rolle "{0}" wirklich löschen?</WindowDescriptionRoleDelete>
     <WindowDescriptionRoleRemove>Möchten Sie wirklich die Rolle "{0}" entfernen?</WindowDescriptionRoleRemove>
     <WindowDescriptionUserDelete>Wollen Sie den Benutzer"{0}" wirklich löschen?</WindowDescriptionUserDelete>
+    <WindowDescriptionUserParameterDelete>Möchten Sie wirklich den Parameter des Benutzers "{0}" löschen?</WindowDescriptionUserParameterDelete>
     <WindowDescriptionUserRemove>Möchten Sie wirklich den Benutzer "{0}" entfernen?</WindowDescriptionUserRemove>
     <WindowDescriptionWorkspaceDelete>Sind Sie sicher, dass Sie den Arbeitsbereich "{0}" löschen möchten?</WindowDescriptionWorkspaceDelete>
     <WindowTitleRoleDelete>Rolle löschen</WindowTitleRoleDelete>
     <WindowTitleRoleRemove>Rolle entfernen</WindowTitleRoleRemove>
     <WindowTitleUserDelete>Benutzer löschen</WindowTitleUserDelete>
+    <WindowTitleUserParameterDelete>Benutzer-Parameter löschen</WindowTitleUserParameterDelete>
     <WindowTitleUserRemove>Benutzer entfernen</WindowTitleUserRemove>
     <WindowTitleWorkspaceDelete>Arbeitsbereich löschen</WindowTitleWorkspaceDelete>
   </Administration>
@@ -537,6 +539,11 @@
     <WindowTitleLicense>Lizenz</WindowTitleLicense>
     <WindowTitleRefreshLicense>Lizenz aktualisieren</WindowTitleRefreshLicense>
   </License>
+  <Link>
+    <Link>Link</Link>
+    <WindowTitleEdit>Link bearbeiten</WindowTitleEdit>
+    <WindowTitleNew>Neuer Link</WindowTitleNew>
+  </Link>
   <Mailing>
     <Mailing>Mailing</Mailing>
     <TextRunMailing>Klicken Sie 'OK', um das Mailing zu starten.</TextRunMailing>
@@ -584,6 +591,7 @@
     <ButtonCreateFileStorage>Datei-Speicher erstellen</ButtonCreateFileStorage>
     <ButtonCreateFolder>Ordner erstellen</ButtonCreateFolder>
     <ButtonCreateForm>Formular erstellen</ButtonCreateForm>
+    <ButtonCreateLink>Link erstellen</ButtonCreateLink>
     <ButtonCreateMailing>Mailing erstellen</ButtonCreateMailing>
     <ButtonCreateReport>Bericht erstellen</ButtonCreateReport>
     <ButtonCreateScheduler>Scheduler erstellen</ButtonCreateScheduler>
@@ -606,6 +614,7 @@
     <LabelCreateFile>Die Dateiliste in den Elementenbaum hinzufügen.</LabelCreateFile>
     <LabelCreateFileStorage>Einen neuen Datei-Speicher erstellen.</LabelCreateFileStorage>
     <LabelCreateFolder>Eine neue Kategorie, in der Sie andere Elemente platzieren können, erstellen.</LabelCreateFolder>
+    <LabelCreateLink>Neuen Link erstellen.</LabelCreateLink>
     <LabelCreateMailing>Ein neues Mailing erstellen.</LabelCreateMailing>
     <LabelCreateReportTemplate>Eine Berichtsvorlage erstellen.</LabelCreateReportTemplate>
     <LabelScheduler>Der Scheduler wird für Ausführen der Berichte nach dem Zeitplan verwendet.</LabelScheduler>
@@ -629,6 +638,7 @@
     <RibbonButtonFind>Finden</RibbonButtonFind>
     <RibbonButtonFolder>Ordner</RibbonButtonFolder>
     <RibbonButtonLicensing>Lizenzierung</RibbonButtonLicensing>
+    <RibbonButtonLink>Link</RibbonButtonLink>
     <RibbonButtonMailing>Mailing</RibbonButtonMailing>
     <RibbonButtonNotifications>Benachrichtigungen</RibbonButtonNotifications>
     <RibbonButtonPaste>Einfügen</RibbonButtonPaste>
