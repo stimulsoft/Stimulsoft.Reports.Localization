@@ -46,9 +46,11 @@
     <TooltipUsers>Usuários com preferências de visualização apenas e função de 'USUÁRIO'</TooltipUsers>
     <WindowDescriptionRoleDelete>Tem certeza de que deseja excluir a regra "{0}"?</WindowDescriptionRoleDelete>
     <WindowDescriptionUserDelete>Tem certeza de que deseja excluir o usuário "{0}"?</WindowDescriptionUserDelete>
+    <WindowDescriptionUserParameterDelete>Tem certeza de que deseja excluir o parâmetro de usuário "{0}"?</WindowDescriptionUserParameterDelete>
     <WindowDescriptionWorkspaceDelete>Tem certeza de que deseja excluir o workspace "{0}"?</WindowDescriptionWorkspaceDelete>
     <WindowTitleRoleDelete>Deletar Regra</WindowTitleRoleDelete>
     <WindowTitleUserDelete>Deletar Usuario</WindowTitleUserDelete>
+    <WindowTitleUserParameterDelete>Excluir parâmetro do usuário</WindowTitleUserParameterDelete>
     <WindowTitleWorkspaceDelete>Deletar Workspace</WindowTitleWorkspaceDelete>
   </Administration>
   <Authorization>
@@ -485,6 +487,11 @@
     <WindowTitleLicense>Licença</WindowTitleLicense>
     <WindowTitleRefreshLicense>Atualizar Licença</WindowTitleRefreshLicense>
   </License>
+  <Link>
+    <Link>Link</Link>
+    <WindowTitleEdit>Editar Link</WindowTitleEdit>
+    <WindowTitleNew>Novo Link</WindowTitleNew>
+  </Link>
   <Mailing>
     <Mailing>Mala direta</Mailing>
     <TextRunMailing>Clique 'OK' para executar a mala direta.</TextRunMailing>
@@ -532,6 +539,7 @@
     <ButtonCreateFileStorage>Criar armazenamento de arquivos</ButtonCreateFileStorage>
     <ButtonCreateFolder>Criar Pasta</ButtonCreateFolder>
     <ButtonCreateForm>Criar Formulário</ButtonCreateForm>
+    <ButtonCreateLink>Criar Link</ButtonCreateLink>
     <ButtonCreateMailing>Criar Mala direta</ButtonCreateMailing>
     <ButtonCreateReport>Criar Relatório</ButtonCreateReport>
     <ButtonCreateScheduler>Criar Agenda</ButtonCreateScheduler>
@@ -553,6 +561,7 @@
     <LabelCreateFile>Adicionar a lista de arquivos na árvore de itens.</LabelCreateFile>
     <LabelCreateFileStorage>Criar novo armazenamento de arquivo.</LabelCreateFileStorage>
     <LabelCreateFolder>Criando uma nova categoria na qual você pode colocar outros itens.</LabelCreateFolder>
+    <LabelCreateLink>Crie o novo link.</LabelCreateLink>
     <LabelCreateMailing>Criar nova mala direta.</LabelCreateMailing>
     <LabelCreateReportTemplate>Criar modelo de relatório.</LabelCreateReportTemplate>
     <LabelScheduler>Ele é usado para executar comandos por um agendador.</LabelScheduler>
@@ -572,6 +581,7 @@
     <RibbonButtonFind>Procurar</RibbonButtonFind>
     <RibbonButtonFolder>Pasta</RibbonButtonFolder>
     <RibbonButtonLicensing>Licença</RibbonButtonLicensing>
+    <RibbonButtonLink>Link</RibbonButtonLink>
     <RibbonButtonMailing>Mala Direta</RibbonButtonMailing>
     <RibbonButtonNotifications>Notificações</RibbonButtonNotifications>
     <RibbonButtonRefresh>Atualizar</RibbonButtonRefresh>
