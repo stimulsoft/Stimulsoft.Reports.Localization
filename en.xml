@@ -110,6 +110,7 @@
     <ForceDelete>Force Delete</ForceDelete>
     <Help>Help</Help>
     <Install>Install</Install>
+    <InvertAll>Invert All</InvertAll>
     <LessOptions>Less Options</LessOptions>
     <LoadDataSet>Load DataSet (*.data)</LoadDataSet>
     <More>More</More>
@@ -1986,6 +1987,8 @@
     <CenterVertically>Allows you to align a component vertically relative to container edges in what it is placed.</CenterVertically>
     <Close>Close the Report Designer.</Close>
     <Columns>Split a page into columns.</Columns>
+	<CompilationAccess1>This document uses the compilation process. If the document is from a trusted source, you can click the "Open" button to access it.</CompilationAccess1>
+	<CompilationAccess2>If you're unsure about the document's source but still want to view it, you can click the "Open in safe mode" button. In this case, you will use interpretation instead of compilation, which enables you to run the document safely.</CompilationAccess2>
     <ComponentSize>Change the size of the selected components.</ComponentSize>
     <CopyStyle>Copy Style</CopyStyle>
     <CopyToClipboard>Copy to Clipboard</CopyToClipboard>
@@ -2210,7 +2213,10 @@
     <ZoomTwoPages>Zoom the report so that two pages fit in the window.</ZoomTwoPages>
     <ZoomTxt>The report size (scale): X - change the horizontal scale, Y - to change the vertical scale.</ZoomTxt>
 	<UnsafeCompilation1>This document uses the compilation process. In some cases, this may not be safe. Therefore, the document will be loaded in safe mode to minimize any potential risks.</UnsafeCompilation1>
-	<UnsafeCompilation2>If you require this document to be used in its original form, please contact your developers.</UnsafeCompilation2>
+	<UnsafeCompilation2>If you require this document to be used in its original form, please contact your developers.</UnsafeCompilation2>	
+	<DashboardContains1>Sorry, but this report contains a dashboard.</DashboardContains1>
+	<DashboardContains2>You should open this report directly in the designer!</DashboardContains2>
+	<DashboardContains3>You cannot do that from the report viewer!</DashboardContains3>
   </HelpViewer>
   <Interface>
     <Mouse>Mouse</Mouse>
@@ -4431,6 +4437,7 @@
     <ShortValue>Short Value</ShortValue>
     <ShowAllValue>Show All Value</ShowAllValue>
     <ShowBehind>Show Behind</ShowBehind>
+	<ShowBlanks>Show Blanks</ShowBlanks>
     <ShowBubble>Show Bubble</ShowBubble>
     <ShowDialog>Show Dialog</ShowDialog>
     <ShowEdgeValues>Show Edge Values</ShowEdgeValues>
