@@ -110,7 +110,7 @@
     <ForceDelete>Force Delete</ForceDelete>
     <Help>Help</Help>
     <Install>Install</Install>
-	<InvertAll>Invert All</InvertAll>
+    <InvertAll>Invert All</InvertAll>
     <LessOptions>Less Options</LessOptions>
     <LoadDataSet>Load DataSet (*.data)</LoadDataSet>
     <More>More</More>
@@ -1989,6 +1989,11 @@
     <Columns>Split a page into columns.</Columns>
 	<CompilationAccess1>This document uses the compilation process. If the document is from a trusted source, you can click the "Open" button to access it.</CompilationAccess1>
 	<CompilationAccess2>If you're unsure about the document's source but still want to view it, you can click the "Open in safe mode" button. In this case, you will use interpretation instead of compilation, which enables you to run the document safely.</CompilationAccess2>
+	<CompilationAccess3>This document uses the compilation process and it can be unsafe. You can't open it.</CompilationAccess3>
+    <CompilationAccessAllow>Allow opening documents with compilation without any warnings or restrictions.</CompilationAccessAllow>
+	<CompilationAccessForceInterpretation>Documents with compilation will be opened without any prompt but will be automatically converted to interpretation mode, which does not use the compilation process.</CompilationAccessForceInterpretation>
+    <CompilationAccessAsk>If a document uses the compilation process, a warning window with predefined actions will be displayed.</CompilationAccessAsk>
+    <CompilationAccessDeny>Deny opening any document that uses the compilation process. A special window will be displayed.</CompilationAccessDeny>
     <ComponentSize>Change the size of the selected components.</ComponentSize>
     <CopyStyle>Copy Style</CopyStyle>
     <CopyToClipboard>Copy to Clipboard</CopyToClipboard>
@@ -3036,7 +3041,11 @@
     <StiColumnShape3DBox>Box</StiColumnShape3DBox>
     <StiColumnShape3DPartialPyramid>Partial Pyramid</StiColumnShape3DPartialPyramid>
     <StiColumnShape3DPyramid>Pyramid</StiColumnShape3DPyramid>
-    <StiCrossHorAlignmentCenter>Center</StiCrossHorAlignmentCenter>
+	<StiCompilationAccessAllow>Allow</StiCompilationAccessAllow>
+	<StiCompilationAccessForceInterpretation>Force Interpretation</StiCompilationAccessForceInterpretation>
+	<StiCompilationAccessAsk>Ask</StiCompilationAccessAsk>
+	<StiCompilationAccessDeny>Deny</StiCompilationAccessDeny>
+	<StiCrossHorAlignmentCenter>Center</StiCrossHorAlignmentCenter>
     <StiCrossHorAlignmentLeft>Left</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>None</StiCrossHorAlignmentNone>
     <StiCrossHorAlignmentRight>Right</StiCrossHorAlignmentRight>
@@ -4938,7 +4947,8 @@
     <ShowOnParametersPanel>Show on Parameters Panel</ShowOnParametersPanel>
     <Standard>Standard</Standard>
     <StandardConfiguration>Main object properties except rarely used ones.</StandardConfiguration>
-    <StiEmptyBrush>Empty</StiEmptyBrush>
+	<StoreUserNameInReportAuthor>Store 'User Name' in 'Report Author'</StoreUserNameInReportAuthor>
+	<StiEmptyBrush>Empty</StiEmptyBrush>
     <StiGlareBrush>Glare</StiGlareBrush>
     <StiGlassBrush>Glass</StiGlassBrush>
     <StiGradientBrush>Gradient</StiGradientBrush>
