@@ -644,6 +644,7 @@
     <StiPageHeaderBand>Page Header</StiPageHeaderBand>
     <StiPanel>Panel</StiPanel>
     <StiPdfDigitalSignature>PDF Digital Signature</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>PDF Element</StiPdfDigitalSignatureElement>
     <StiPivotColumn>Pivot Column</StiPivotColumn>
     <StiPivotRow>Pivot Row</StiPivotRow>
     <StiPivotSummary>Pivot Summary</StiPivotSummary>
@@ -1125,6 +1126,7 @@
     <EncryptedReportFiles>Stimulsoft Encrypted Templates (*.mrx)|*.mrx</EncryptedReportFiles>
     <Excel2007Files>Microsoft Excel files (*.xlsx)|*.xlsx</Excel2007Files>
     <ExcelAllFiles>Microsoft Excel files (*.xlsx;*.xls)|*.xlsx;*.xls</ExcelAllFiles>
+    <ExcelCsvAllFiles>Microsoft Excel files (*.xlsx;*.xls;*.csv)|*.xlsx;*.xls;*.csv</ExcelCsvAllFiles>
     <ExcelFiles>Microsoft Excel 97-2003 files (*.xls)|*.xls</ExcelFiles>
     <ExcelXmlFiles>Microsoft Excel XML files (*.xml)|*.xml</ExcelXmlFiles>
     <ExeFiles>EXE Files (*.exe)|*.exe</ExeFiles>
@@ -2380,6 +2382,7 @@
     <DoNotShowAgain>Do not show again</DoNotShowAgain>
     <LatexFormat>The LaTeX format is used to display mathematical formulas.</LatexFormat>
     <MessageTimeOutExpired>Command timeout has expired!</MessageTimeOutExpired>
+    <MustBeFile>Must be {0} file.</MustBeFile>
     <RenderingWillOccurInTheInterpretationMode>When viewing the shared report, the rendering will occur in the interpretation mode!</RenderingWillOccurInTheInterpretationMode>
     <ResourceCannotBeDeleted>The resource "{0}" cannot be deleted, because it is used in the report!</ResourceCannotBeDeleted>
     <ShareURLOfTheItemHasBeenUpdated>The share URL of the item has been updated!</ShareURLOfTheItemHasBeenUpdated>
@@ -3441,8 +3444,8 @@
     <StiTableAutoWidthTypeFullTable>Full Table</StiTableAutoWidthTypeFullTable>
     <StiTableAutoWidthTypeLastColumns>Last Columns</StiTableAutoWidthTypeLastColumns>
     <StiTableAutoWidthTypeNone>None</StiTableAutoWidthTypeNone>
-	<StiTableSizeModeAutoSize>Auto Size</StiTableSizeModeAutoSize>
-	<StiTableSizeModeFit>Fit</StiTableSizeModeFit>
+    <StiTableSizeModeAutoSize>Auto Size</StiTableSizeModeAutoSize>
+    <StiTableSizeModeFit>Fit</StiTableSizeModeFit>
     <StiTargetModePercentage>Percentage</StiTargetModePercentage>
     <StiTargetModeVariation>Variation</StiTargetModeVariation>
     <StiTextHorAlignmentCenter>Center</StiTextHorAlignmentCenter>
@@ -3882,6 +3885,7 @@
     <DisplayValue>Display Value</DisplayValue>
     <Distance>Distance</Distance>
     <DistanceBetweenTabs>Distance Between Tabs</DistanceBetweenTabs>
+    <DistinguishedName>Distinguished Name</DistinguishedName>
     <Dock>Dock</Dock>
     <DockableTable>Dockable Table</DockableTable>
     <DockStyle>Dock Style</DockStyle>
