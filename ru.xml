@@ -646,6 +646,7 @@
     <StiPageHeaderBand>Заголовок страницы</StiPageHeaderBand>
     <StiPanel>Панель</StiPanel>
     <StiPdfDigitalSignature>Цифровая подпись PDF</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>PDF элемент</StiPdfDigitalSignatureElement>
     <StiPivotColumn>Сводная колонка</StiPivotColumn>
     <StiPivotRow>Сводная строка</StiPivotRow>
     <StiPivotSummary>Сводная сумма</StiPivotSummary>
@@ -1128,6 +1129,7 @@
     <EncryptedReportFiles>Закодированные Stimulsoft шаблоны (*.mrx)|*.mrx</EncryptedReportFiles>
     <Excel2007Files>Microsoft Excel 2007/2013 файлы (*.xlsx)|*.xlsx</Excel2007Files>
     <ExcelAllFiles>Microsoft Excel файлы (*.xlsx;*.xls)|*.xlsx;*.xls</ExcelAllFiles>
+    <ExcelCsvAllFiles>Microsoft Excel файлы (*.xlsx;*.xls;*.csv)|*.xlsx;*.xls;*.csv</ExcelCsvAllFiles>
     <ExcelFiles>Microsoft Excel файлы (*.xls)|*.xls</ExcelFiles>
     <ExcelXmlFiles>Microsoft Excel XML файлы (*.xls)|*.xls</ExcelXmlFiles>
     <ExeFiles>EXE файлы (*.exe)|*.exe</ExeFiles>
@@ -1933,6 +1935,7 @@
     <StiMapCategory>Группа компонентов для работы с картами и данными.</StiMapCategory>
     <StiMapElement>Этот компонент используется для отображения данных, привязанных к географическим локациям.</StiMapElement>
     <StiMathFormula>Этот компонент используется для отображения математических формул в отчете.</StiMathFormula>
+    <StiNumberBoxElement>Элемент, который предоставляет возможность выбрать числовое значение или установить диапазон числовых значений.</StiNumberBoxElement>
     <StiOnlineMapElement>Этот компонент используется для отображения географических маркеров на онлайн-карте.</StiOnlineMapElement>
     <StiOverlayBand>Этот бэнд используется для вывода водяных знаков на странице.</StiOverlayBand>
     <StiPageFooterBand>Бэнд итог страницы используется для вывода информации в нижней части каждой страницы, и используется для вывода номеров страниц, дат и другой дополнительной информации.</StiPageFooterBand>
@@ -2396,6 +2399,7 @@
     <DoNotShowAgain>Не показывать снова</DoNotShowAgain>
     <LatexFormat>Для отображения математических формул используется формат LaTeX.</LatexFormat>
     <MessageTimeOutExpired>Истекло время ожидания исполнения команды!</MessageTimeOutExpired>
+    <MustBeFile>Должен быть файл {0}.</MustBeFile>
     <RenderingWillOccurInTheInterpretationMode>При просмотре отчета c общим доступом его построение будет происходить в режиме интерпретации!</RenderingWillOccurInTheInterpretationMode>
     <ResourceCannotBeDeleted>Ресурс "{0}" не может быть удален, т.к. он используется в отчете!</ResourceCannotBeDeleted>
     <ShareURLOfTheItemHasBeenUpdated>URL доступа к элементу был обновлен!</ShareURLOfTheItemHasBeenUpdated>
@@ -3942,6 +3946,7 @@
     <DisplayValue>Отображаемое значение</DisplayValue>
     <Distance>Дистанция</Distance>
     <DistanceBetweenTabs>Дистанция между</DistanceBetweenTabs>
+    <DistinguishedName>Известное наименование</DistinguishedName>
     <Dock>Докировка</Dock>
     <DockableTable>Стыковка таблицы</DockableTable>
     <DockStyle>Стиль стыковки</DockStyle>
