@@ -167,6 +167,8 @@
     <StiTextColorEqualToBackColorCheckShort>The TextBrush property is equal to the Brush property</StiTextColorEqualToBackColorCheckShort>
     <StiTextTextFormatCheckLong>Selected text format for the '{0}' component can`t be applied, because the result of the expression is text string.</StiTextTextFormatCheckLong>
     <StiTextTextFormatCheckShort>The format can`t be applied.</StiTextTextFormatCheckShort>
+    <StiTextTextFormatFieldCheckLong>The column used in the {0} component is not a date type. Changing the formatting to General is recommended to avoid slowing down the report and to ensure correct formatting.</StiTextTextFormatFieldCheckLong>
+    <StiTextTextFormatFieldCheckShort>The selected format is not compatible with the data column type.</StiTextTextFormatFieldCheckShort>
     <StiTotalPageCountDoublePassCheckLong>The TotalPageCount, TotalPageCountThrough system variables in scripts and conditions provide incorrect results when one pass. It is required to set the NumberOfPass property to DoublePass.</StiTotalPageCountDoublePassCheckLong>
     <StiUndefinedComponentCheckLong>Undefined '{0}' component is found in the report. The reporting tool cannot identify this component. Maybe this is a custom component. The report cannot be rendered!</StiUndefinedComponentCheckLong>
     <StiUndefinedComponentCheckShort>Undefined component</StiUndefinedComponentCheckShort>
@@ -1066,7 +1068,7 @@
     <MouseEnterEvent>Occurs when a user enters the mouse into the area of the component in the report viewer.</MouseEnterEvent>
     <MouseLeaveEvent>Occurs when a user leaves the mouse out of the area of the component in the report viewer.</MouseLeaveEvent>
     <Name>Indicates the name which is used to identify the component.</Name>
-    <Padding>Specifies the interior spacing of the component.</Padding>
+    <Padding>Specifies the interior spacing of the component (Left, Top, Right, Bottom).</Padding>
     <Pressed>The pressed state when a user pressed on the component.</Pressed>
     <Printable>A value that indicates whether a component is printable or not.</Printable>
     <PrintOn>A value that indicates on which pages will a component be printed.</PrintOn>
@@ -1131,6 +1133,7 @@
     <SortDirection>The sorting direction.</SortDirection>
     <SortType>A type of sorting.</SortType>
     <Summary>A type of values summation.</Summary>
+    <SummaryForFieldsInExpression>If True first calculate summary for fields in expression, then calculate expression, otherwise calculate summary for whole expression.</SummaryForFieldsInExpression>
     <SummaryValues>A type of zeros and nulls values summation.</SummaryValues>
     <UseStyleOfSummaryInColumnTotal>A value indicates that style of summary cell will be used in column total.</UseStyleOfSummaryInColumnTotal>
     <UseStyleOfSummaryInRowTotal>A value indicates that style of summary cell will be used in row total.</UseStyleOfSummaryInRowTotal>
