@@ -167,6 +167,8 @@
     <StiTextColorEqualToBackColorCheckShort>Значение свойства TextBrush равно значению свойства Brush</StiTextColorEqualToBackColorCheckShort>
     <StiTextTextFormatCheckLong>Выбранный для компонента '{0}' текстовый формат не может быть применён, т.к. результат выражения уже является текстовой строкой.</StiTextTextFormatCheckLong>
     <StiTextTextFormatCheckShort>Формат не может быть применён.</StiTextTextFormatCheckShort>
+    <StiTextTextFormatFieldCheckLong>Колонка, которая используется в компоненте {0}, не относится к типу date. Рекомендуется изменить форматирование на «Стандарт», чтобы избежать замедления работы отчета и обеспечить правильное форматирование.</StiTextTextFormatFieldCheckLong>
+    <StiTextTextFormatFieldCheckShort>Выбранный формат несовместим с типом колонки данных.</StiTextTextFormatFieldCheckShort>
     <StiTotalPageCountDoublePassCheckLong>Системные переменные TotalPageCount, TotalPageCountThrough в скриптах и условиях при одном проходе выдают некорректные результаты. Требуется задать значение свойства NumberOfPass равное DoublePass.</StiTotalPageCountDoublePassCheckLong>
     <StiUndefinedComponentCheckLong>В отчете найден неизвестный компонент '{0}'. Генератор отчетов не может определить тип этого компонента. Возможно, это пользовательский компонент. В текущем состоянии отчет не может быть построен!</StiUndefinedComponentCheckLong>
     <StiUndefinedComponentCheckShort>Неизвестный компонент</StiUndefinedComponentCheckShort>
@@ -1131,6 +1133,7 @@
     <SortDirection>Направление сортировки.</SortDirection>
     <SortType>Тип сортировки.</SortType>
     <Summary>Тип суммирования значений.</Summary>
+    <SummaryForFieldsInExpression>Если установлено True, то сначала вычисляется сумма для полей в выражении, а затем вычисляется выражение, иначе вычисляется сумма для всего выражения.</SummaryForFieldsInExpression>
     <SummaryValues>Значение, которое определяет, как будут суммироваться нулевые значения.</SummaryValues>
     <UseStyleOfSummaryInColumnTotal>Значение определяет, что стиль итоговой ячейки будет использовать в итоге колонки.</UseStyleOfSummaryInColumnTotal>
     <UseStyleOfSummaryInRowTotal>Значение определяет, что стиль итоговой ячейки будет использован в итоге ряда.</UseStyleOfSummaryInRowTotal>
