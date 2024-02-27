@@ -335,6 +335,8 @@
     <LoadReportClass>Class</LoadReportClass>
     <LoadReportFile>File</LoadReportFile>
     <LoadReportHyperlink>Hyperlink</LoadReportHyperlink>
+    <LoadReportOnServerSide>Load the Report on the Server Side</LoadReportOnServerSide>
+    <LoadReportOnServerSideToolTip>The report file will be loaded on the server side and transferred to the component as a Base64 string. This avoids unnecessary requests to the server.</LoadReportOnServerSideToolTip>
     <LoadReportResource>Resource</LoadReportResource>
     <LoadReportStream>Stream</LoadReportStream>
     <LoadReportString>String</LoadReportString>
@@ -378,6 +380,8 @@
     <UseCompilationCacheToolTip>The rendered report will be saved in a temporary directory, which allows you to speed up its rendering and reduce memory usage.</UseCompilationCacheToolTip>
     <UseCompressedScripts>Use Compressed Scripts</UseCompressedScripts>
     <UseCompressedScriptsToolTip>Packed scripts will be used instead of regular ones. This allows you to reduce their size, but it takes some time to unpack when running.</UseCompressedScriptsToolTip>
+    <UseHtmlTemplate>Use an HTML template</UseHtmlTemplate>
+    <UseHtmlTemplateToolTip>Use an HTML template to display the component. This allows you to place other elements on the page, and use JavaScript events.</UseHtmlTemplateToolTip>
     <UseLatestVersion>Use the latest version of libraries</UseLatestVersion>
     <UseLatestVersionToolTip>When connecting libraries and scripts, the latest available official version of the product will be used instead of the currently installed version.</UseLatestVersionToolTip>
     <UseRenderedReport>Use Rendered Report</UseRenderedReport>
