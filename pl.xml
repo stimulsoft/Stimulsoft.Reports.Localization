@@ -118,6 +118,7 @@
     <MoreOptions>Więcej opcji</MoreOptions>
     <MoveLeft>Przesuń w lewo</MoveLeft>
     <MoveRight>Przesuń w prawo</MoveRight>
+    <MoveToResource>Przenieś do zasobów</MoveToResource>
     <No>&amp;Nie</No>
     <Ok>&amp;OK</Ok>
     <Open>Otwórz</Open>
@@ -400,6 +401,7 @@
     <CreateNewCollection>Utwórz nową kolekcję</CreateNewCollection>
     <CreateYourTeam>Stwórz swój zespół</CreateYourTeam>
     <CreatingReport>Creating report...</CreatingReport>
+    <DashboardWindowTitleNew>Nowy dashboard</DashboardWindowTitleNew>
     <DeleteFile>Usuń plik</DeleteFile>
     <DoNotAskMe>Nie pytaj mnie ponownie</DoNotAskMe>
     <EnterUserNameToLogin>Wprowadź nazwę użytkownika (e-mail), aby się zalogować.</EnterUserNameToLogin>
@@ -1776,7 +1778,36 @@
     <FindWhat>Wyszukaj:</FindWhat>
   </FormViewerFind>
   <Gauge>
+    <AddNewItem>Dodaj nowy element</AddNewItem>
+    <BarRangeList>Lista zakresów słupków</BarRangeList>
     <GaugeEditorForm>Edytor mierniku</GaugeEditorForm>
+    <Kind>Rodzaj</Kind>
+    <LinearBar>Pasek liniowy</LinearBar>
+    <LinearMarker>Znacznik liniowy</LinearMarker>
+    <LinearRange>Zakres liniowy</LinearRange>
+    <LinearRangeList>Lista zakresów liniowych</LinearRangeList>
+    <LinearScale>Skala liniowa</LinearScale>
+    <LinearTickLabelCustom>Niestandardowe nagłówki znaczników linii</LinearTickLabelCustom>
+    <LinearTickLabelMajor>Nagłówki etykiet linii głównej</LinearTickLabelMajor>
+    <LinearTickLabelMinor>Nagłówki znaczników linii pośrednich</LinearTickLabelMinor>
+    <LinearTickMarkCustom>Niestandardowe znaczniki linii</LinearTickMarkCustom>
+    <LinearTickMarkMajor>Znaczniki linii głównej</LinearTickMarkMajor>
+    <LinearTickMarkMinor>Pośrednie znaczniki liniowe</LinearTickMarkMinor>
+    <Needle>Igła</Needle>
+    <RadialBar>Pasek promieniowy</RadialBar>
+    <RadialMarker>Znacznik promieniowy</RadialMarker>
+    <RadialRange>Zasięg promieniowy</RadialRange>
+    <RadialRangeList>Lista zakresów promieniowych</RadialRangeList>
+    <RadialScale>Skala promieniowa</RadialScale>
+    <RadialTickLabelCustom>Niestandardowe nagłówki radialne</RadialTickLabelCustom>
+    <RadialTickLabelMajor>Nagłówki głównych etykiet radialnych</RadialTickLabelMajor>
+    <RadialTickLabelMinor>Nagłówki znaków promieniowych pośrednich</RadialTickLabelMinor>
+    <RadialTickMarkCustom>Niestandardowe oznaczenia promieniowe</RadialTickMarkCustom>
+    <RadialTickMarkMajor>Główne oznaczenia promieniowe</RadialTickMarkMajor>
+    <RadialTickMarkMinor>Pośrednie znaczniki promieniowe</RadialTickMarkMinor>
+    <StateIndicator>Wskaźnik stanu</StateIndicator>
+    <StateIndicatorFilter>Filtr wskaźnika stanu</StateIndicatorFilter>
+    <TickCustomValue>Zaznacz wartość niestandardową</TickCustomValue>
   </Gauge>
   <Gui>
     <AccentColor>Kolor akcentu</AccentColor>
@@ -1895,6 +1926,7 @@
     <StiEmptyBand>Ten komponent służy do wypełniania pustej przestrzeni na dole strony. Wypełnia wolną przestrzeń na każdej stronie raportu.</StiEmptyBand>
     <StiFilterCategory>Grupa elementów używanych do wybierania i filtrowania wartości.</StiFilterCategory>
     <StiFooterBand>Ten komponent służy do wyświetlania podsumowania dla grupy danych. Jest usytuowany pod grupą danych i wyświetlany raz, po wygenerowaniu wszystkich wierszy danych.</StiFooterBand>
+    <StiGauge>Komponent umożliwia wyświetlanie wartości w predefiniowanym zakresie. Może mieć różną reprezentację graficzną.</StiGauge>
     <StiGaugeElement>Ten element umożliwia wyświetlanie wartości w predefiniowanym zakresie. Może mieć różną reprezentację graficzną.</StiGaugeElement>
     <StiGroupFooterBand>Ten komponent służy do wyświetlania stopki grupy. Jest usytuowany pod grupą danych. Każda stopka jest przyporządkowana do odpowiedniego nagłówka grupy i nie zostanie wyświetlona bez niego.</StiGroupFooterBand>
     <StiGroupHeaderBand>Ten komponent jest podstawowym elementem do renderowania raportu z grupowaniem. Komponenty wyświetlające informacje po grupie są usytuowane w magłówku grupy. Tymi informacjami mogą być np. nazwa grupy, data, warunek grupowania itd. Komponent jest wyświetlany raz na początku każdej grupy.</StiGroupHeaderBand>
@@ -4573,20 +4605,27 @@ It contains a link to confirm your registration. To complete the registration pl
     <StartPosition>Pozycja startowa</StartPosition>
     <StartValue>Start Value</StartValue>
     <StartWidth>Start Width</StartWidth>
+    <State>Stan</State>
     <Step>Krok</Step>
     <Stop>Zatrzymaj</Stop>
     <StopBeforePage>Zatrzymaj przed stroną</StopBeforePage>
     <StopBeforePrint>Zatrzymaj przed wydrukiem</StopBeforePrint>
     <StoreImagesInResources>Przechowuj obrazy w zasobach</StoreImagesInResources>
+    <StreetAddress>Adres ulicy</StreetAddress>
     <Stretch>Rozciągnij</Stretch>
     <StretchToPrintArea>Rozciągnij do obszaru wydruku</StretchToPrintArea>
+    <Strikeout>Strikeout</Strikeout>
     <StripBrush>Pędzel pasów</StripBrush>
     <Strips>Pasy</Strips>
+    <Stroke>Stroke</Stroke>
     <Style>Styl</Style>
     <StyleColors>Kolory styli</StyleColors>
     <Styles>Style</Styles>
+    <SubmissionMessage>Przesłanie wiadomości</SubmissionMessage>
     <SubReportPage>Strona podraportu</SubReportPage>
+    <Summaries>Podsumowania</Summaries>
     <Summary>Podsumowanie</Summary>
+    <SummaryAlignment>Wyrównanie podsumowania</SummaryAlignment>
     <SummaryExpression>Wyrażenie podsumowania</SummaryExpression>
     <SummarySortDirection>Kierunek sortowania podsumowania</SummarySortDirection>
     <SummaryType>Typ podsumowania</SummaryType>
@@ -4594,24 +4633,48 @@ It contains a link to confirm your registration. To complete the registration pl
     <SupplementCode>Kod uzupełniający</SupplementCode>
     <SupplementType>Typ uzupełniający</SupplementType>
     <SweepAngle>Sweep Angle</SweepAngle>
+    <SystemFonts>Czcionki systemowe</SystemFonts>
     <SystemVariable>Zmienna systemowa</SystemVariable>
     <SystemVariables>Zmienne systemowe</SystemVariables>
     <Table>Tabela</Table>
     <Tag>Metka</Tag>
     <TagDataColumn>Kolumna danych znaczników</TagDataColumn>
     <TagValue>Wartość metki</TagValue>
+    <Target>Cel</Target>
+    <TargetColor>Kolor docelowy</TargetColor>
+    <TargetFormat>Format docelowy</TargetFormat>
+    <TargetIcon>Znak celu</TargetIcon>
+    <TargetMode>Tryb docelowy</TargetMode>
+    <TargetSettings>Cel</TargetSettings>
     <Tension>Naprężenie</Tension>
     <Text>Tekst</Text>
     <TextAfter>Tekst po</TextAfter>
     <TextAlign>Wyrównanie tekstu</TextAlign>
     <TextAlignment>Wyrównanie tekstu</TextAlignment>
+    <TextAngle>Kąt tekstu</TextAngle>
     <TextBefore>Tekst przed</TextBefore>
     <TextBrush>Pędzel tekstu</TextBrush>
     <TextColor>Kolor tekstu</TextColor>
+    <TextEnabled>Tekst włączony</TextEnabled>
+    <TextFont>Czcionka tekstu</TextFont>
     <TextFormat>Format tekstu</TextFormat>
     <TextOnly>Tylko tekst</TextOnly>
     <TextOptions>Opcje tekstu</TextOptions>
+    <TextPlacement>Umieszczanie tekstu</TextPlacement>
     <TextQuality>Jakość tekstu</TextQuality>
+    <TextRightToLeft>Tekst od prawej do lewej</TextRightToLeft>
+    <TextShowBehind>Pokaż tekst za</TextShowBehind>
+    <Third>Trzeci</Third>
+    <TickLabelMajorFont>Czcionka podpisu etykiety głównej</TickLabelMajorFont>
+    <TickLabelMajorTextBrush>Czcionka podpisu etykiety głównej</TickLabelMajorTextBrush>
+    <TickLabelMinorFont>Czcionka podpisu etykiety pomocniczej</TickLabelMinorFont>
+    <TickLabelMinorTextBrush>Pomocniczy pędzel podpisu etykiety</TickLabelMinorTextBrush>
+    <TickMarkMajorBorder>Podstawowy pędzel z podpisem etykiety</TickMarkMajorBorder>
+    <TickMarkMajorBorderWidth>Grubość obramowania znacznika głównego</TickMarkMajorBorderWidth>
+    <TickMarkMajorBrush>Pędzel znacznika głównego</TickMarkMajorBrush>
+    <TickMarkMinorBorder>Obramowanie znacznika pomocniczego</TickMarkMinorBorder>
+    <TickMarkMinorBorderWidth>Grubość granicy znacznika pomocniczego</TickMarkMinorBorderWidth>
+    <TickMarkMinorBrush>Pędzel znacznika pomocniczego</TickMarkMinorBrush>
     <Ticks>Ptaszki</Ticks>
     <Title>Tytuł</Title>
     <TitleBeforeHeader>Tytuł przed nagłówkiem</TitleBeforeHeader>
@@ -4622,36 +4685,56 @@ It contains a link to confirm your registration. To complete the registration pl
     <To>Do</To>
     <Today>Dziś</Today>
     <ToolTip>Podpowiedź</ToolTip>
+    <ToolTipBorder>Granica podpowiedzi</ToolTipBorder>
+    <ToolTipBrush>Pędzel podpowiedzi</ToolTipBrush>
+    <ToolTipCornerRadius>Promień zakrętu podpowiedzi</ToolTipCornerRadius>
     <ToolTipDataColumn>Kolumna danych podpowiedzi</ToolTipDataColumn>
+    <ToolTipTextBrush>Pędzel tekstu podpowiedzi</ToolTipTextBrush>
     <Top>Góra</Top>
+    <TopLeft>Góra-lewo</TopLeft>
     <Topmost>Na wierzchu</Topmost>
     <TopmostLine>Najwyższa linia </TopmostLine>
     <TopN>Największe N </TopN>
+    <TopRight>Góra-prawo</TopRight>
     <TopSide>Strona górna</TopSide>
     <Total>Suma</Total>
+    <TotalCellColumnBackColor>Kolor tła komórki podsumowania kolumny</TotalCellColumnBackColor>
+    <TotalCellColumnForeColor>Kolor tekstu komórki podsumowania kolumny</TotalCellColumnForeColor>
+    <TotalCellRowBackColor>Kolor tła komórki podsumowania rzędu</TotalCellRowBackColor>
+    <TotalCellRowForeColor>Kolor tekstu komórki podsumowania rzędu</TotalCellRowForeColor>
+    <TotalLabel>Etykieta całości</TotalLabel>
     <Totals>Sumy</Totals>
+    <TrackColor>Kolor toru</TrackColor>
     <TransparentColor>Kolor przezroczysty</TransparentColor>
     <TrendLine>Linia trendu </TrendLine>
     <TrendLineColor>Color</TrendLineColor>
+    <TrendLines>Linie trendu</TrendLines>
     <TrendLineShowShadow>Show Shadow</TrendLineShowShadow>
+    <TrimExcessData>Przytnij nadmiarowe dane</TrimExcessData>
     <Trimming>Przycinanie</Trimming>
     <Type>Typ</Type>
     <TypeName>Nazwa typu</TypeName>
     <Types>Typy</Types>
+    <UncheckedIcon>Znak niezaznaczony</UncheckedIcon>
     <Underline>Podkreślenie</Underline>
     <UndoLimit>Cofnij ograniczenie</UndoLimit>
     <Unit>Jednostka</Unit>
+    <UnitAlignment>Wyrównanie jednostek</UnitAlignment>
     <UnlimitedBreakable>Nieograniczony łamliwy</UnlimitedBreakable>
     <UnlimitedHeight>Nieograniczona wysokość</UnlimitedHeight>
     <UnlimitedWidth>Nieograniczona szerokość</UnlimitedWidth>
+    <UpperMarks>Górne znaki</UpperMarks>
+    <URL>URL</URL>
     <UseAliases>Użyj aliasów</UseAliases>
     <UseExternalReport>Użyj zewnętrznego raportu</UseExternalReport>
     <UseParentStyles>Użyj styli macierzystych</UseParentStyles>
     <UseRangeColor>Use Range Color</UseRangeColor>
+    <UserBingKey>Klucz Bing użytkownika</UserBingKey>
     <UseRectangularSymbols>Użyj prostokątnych symboli</UseRectangularSymbols>
     <UseSeriesColor>Użyj koloru serii</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>Użyj stylu sumarycznego w sumie kolumny</UseStyleOfSummaryInColumnTotal>
     <UseStyleOfSummaryInRowTotal>Użyj stylu sumarycznego w sumie wiersza</UseStyleOfSummaryInRowTotal>
+    <UseUserPicture>Użyj zdjęcia użytkownika</UseUserPicture>
     <UseValuesFromTheSpecifiedRange>Use Values From The Specified Range</UseValuesFromTheSpecifiedRange>
     <Value>Wartość</Value>
     <ValueClose>Wartość zamknięta </ValueClose>
@@ -4662,20 +4745,35 @@ It contains a link to confirm your registration. To complete the registration pl
     <ValueDataColumnLow>Kolumna danych o małej wartości </ValueDataColumnLow>
     <ValueDataColumnOpen>Kolumna danych o wartości otwartej </ValueDataColumnOpen>
     <ValueEnd>Wartość krańcowa</ValueEnd>
+    <ValueFormat>Format wartości</ValueFormat>
     <ValueHigh>Wartość duża </ValueHigh>
     <ValueLow>Wartość mała </ValueLow>
+    <ValueMeter>Miernik wartości</ValueMeter>
     <ValueOpen>Wartość otwarta </ValueOpen>
     <Values>Wartości</Values>
     <ValueType>Typ wartości</ValueType>
     <ValueTypeSeparator>Separator typu wartości</ValueTypeSeparator>
     <Variable>Zmienna</Variable>
     <Variables>Zmienne</Variables>
+    <Variation>Wariacja</Variation>
     <Version>Wersja</Version>
     <VertAlignment>Wyrównanie pionowe</VertAlignment>
     <VertSpacing>Odstępy pionowe</VertSpacing>
     <ViewMode>Tryb wyświetlania</ViewMode>
+    <Visibility>Widoczność</Visibility>
     <Visible>Widoczny</Visible>
+    <VisualStates>Stany wizualne</VisualStates>
     <Watermark>Znak wodny</Watermark>
+    <WatermarkStyle>Styl znaku wodnego</WatermarkStyle>
+    <WeaveAngle>Kąt splotu</WeaveAngle>
+    <WeaveDistance>Odległość splotu</WeaveDistance>
+    <WeaveEnabled>Włączony splot</WeaveEnabled>
+    <WeaveMajorColor>Główny kolor splotu</WeaveMajorColor>
+    <WeaveMajorIcon>Główny znak splotu</WeaveMajorIcon>
+    <WeaveMajorSize>Główny rozmiar splotu</WeaveMajorSize>
+    <WeaveMinorColor>Mniejszy kolor splotu</WeaveMinorColor>
+    <WeaveMinorIcon>Mniejszy znak splotu</WeaveMinorIcon>
+    <WeaveMinorSize>Mniejszy rozmiar splotu</WeaveMinorSize>
     <Weight>Waga</Weight>
     <WeightDataColumn>Kolumna danych wag</WeightDataColumn>
     <Weights>waga</Weights>
@@ -4684,10 +4782,12 @@ It contains a link to confirm your registration. To complete the registration pl
     <WordWrap>Zawijanie słów</WordWrap>
     <Wrap>Zawijanie</Wrap>
     <WrapGap>Zawijanie odstępów</WrapGap>
+    <WrapLine>Linia zawijania</WrapLine>
     <XAxis>Oś X</XAxis>
     <XTopAxis>Górna oś X</XTopAxis>
     <YAxis>Oś Y</YAxis>
     <YRightAxis>Prawa oś Y</YRightAxis>
+    <ZeroColor>Kolor zerowy</ZeroColor>
     <Zoom>Powiększenie</Zoom>
   </PropertyMain>
   <PropertySystemColors>
@@ -5317,6 +5417,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <Preview>Podgląd</Preview>
     <Reset>&amp;Resetuj</Reset>
     <Results>Wyniki</Results>
+    <RunWizard>Uruchom kreatora</RunWizard>
     <SelectColumns>Wybierz kolumny</SelectColumns>
     <SelectTemplate>Szablon</SelectTemplate>
     <Sort>Sortowanie</Sort>
