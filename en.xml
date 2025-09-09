@@ -1374,8 +1374,8 @@
     <RefreshAccessToken>Refresh access token</RefreshAccessToken>
     <RefreshToken>Refresh token</RefreshToken>
     <RelationDirection>Relation Direction:</RelationDirection>
-    <Restricted>Restricted</Restricted>
     <ReportConnections>Report Connections</ReportConnections>
+    <Restricted>Restricted</Restricted>
     <SelectData>Select Data</SelectData>
     <ServiceAccountKeyFile>Service Account Key File</ServiceAccountKeyFile>
     <SpreadsheetId>Spreadsheet Id</SpreadsheetId>
@@ -1550,8 +1550,8 @@
     <Sample>Sample</Sample>
     <SampleText>Sample Text</SampleText>
     <TextFormat>Text Format</TextFormat>
-	<TimeFormat>Time Format</TimeFormat>
     <Time>Time</Time>
+    <TimeFormat>Time Format</TimeFormat>
     <title>Format</title>
     <UseAbbreviation>Use Abbreviation</UseAbbreviation>
     <UseGroupSeparator>Use Group Separator</UseGroupSeparator>
@@ -3397,10 +3397,10 @@
     <StiOrientationHorizontal>Horizontal</StiOrientationHorizontal>
     <StiOrientationHorizontalRight>Horizontal Right</StiOrientationHorizontalRight>
     <StiOrientationVertical>Vertical</StiOrientationVertical>
-	<StiParametersDisplayModeDialog>Dialog</StiParametersDisplayModeDialog>
-	<StiParametersDisplayModePanel>Panel</StiParametersDisplayModePanel>	  
     <StiPageOrientationLandscape>Landscape</StiPageOrientationLandscape>
     <StiPageOrientationPortrait>Portrait</StiPageOrientationPortrait>
+    <StiParametersDisplayModeDialog>Dialog</StiParametersDisplayModeDialog>
+    <StiParametersDisplayModePanel>Panel</StiParametersDisplayModePanel>
     <StiPdfDigitalSignatureAppearanceTypeDraw>Draw</StiPdfDigitalSignatureAppearanceTypeDraw>
     <StiPdfDigitalSignatureAppearanceTypeImage>Image</StiPdfDigitalSignatureAppearanceTypeImage>
     <StiPdfDigitalSignatureAppearanceTypeNone>None</StiPdfDigitalSignatureAppearanceTypeNone>
@@ -4378,9 +4378,9 @@
     <MaximumValue>Maximum Value</MaximumValue>
     <MaxLength>Max Length</MaxLength>
     <MaxNumberOfLines>Max Number of Lines</MaxNumberOfLines>
+    <MaxSelectedItems>Max Selected Items</MaxSelectedItems>
     <MaxSize>Max Size</MaxSize>
-	<MaxSelectedItems>Max Selected Items</MaxSelectedItems>
-	<MaxValue>Max Value</MaxValue>
+    <MaxValue>Max Value</MaxValue>
     <MaxWidth>Max Width</MaxWidth>
     <MergeDuplicates>Merge Duplicates</MergeDuplicates>
     <MergeHeaders>Merge Headers</MergeHeaders>
@@ -4401,13 +4401,13 @@
     <MinValue>Min Value</MinValue>
     <MinWidth>Min Width</MinWidth>
     <MirrorMargins>Mirror Margins</MirrorMargins>
-	<MyFunction>My Function</MyFunction>
     <Mode>Mode</Mode>
     <Module>Module</Module>
     <Move>Move</Move>
     <Multiline>Multiline</Multiline>
     <MultipleFactor>Multiple Factor</MultipleFactor>
     <MultipleInitialization>Multiple Initialization</MultipleInitialization>
+    <MyFunction>My Function</MyFunction>
     <Name>Name</Name>
     <NameDataColumn>Name Data Column</NameDataColumn>
     <NameInSource>Name in Source</NameInSource>
@@ -5375,7 +5375,7 @@
     <LineRoman>Returns the current line number in Roman numerals.</LineRoman>
     <LineThrough>Returns the current line number (starts from 1). When calculating the number, all groupings are ignored and numbering starts from the beginning of printing.</LineThrough>
     <PageCopyNumber>Return a number of a current copy of a page (starts from 1).</PageCopyNumber>
-	<PageLine>Returns the current line number on a page (starts from 1). Requires Double-Pass mode to be enabled.</PageLine>
+    <PageLine>Returns the current line number on a page (starts from 1). Requires Double-Pass mode to be enabled.</PageLine>
     <PageNofM>Returns a localized string, showing "Page N of M" where N is the current page number and M is the TotalPageCount of a report.</PageNofM>
     <PageNofMThrough>Returns a localized string, showing "Page N of M" where N is the current page number and M is the TotalPageCount of a report. When calculating the PageNofMThrough, all properties ResetPageNumber are ignored and numbering starts from the beginning of a report.</PageNofMThrough>
     <PageNumber>Returns the current page number (starts from 1).</PageNumber>
@@ -5512,7 +5512,6 @@
     <BlankScreen>Blank Screen</BlankScreen>
     <ButtonBack>&lt; &amp;Back</ButtonBack>
     <ButtonCancel>Cancel</ButtonCancel>
-    <ButtonGenerateReport>Generate Report</ButtonGenerateReport>
     <ButtonFinish>&amp;Finish</ButtonFinish>
     <ButtonNext>&amp;Next &gt;</ButtonNext>
     <ColumnsOrder>Columns Order</ColumnsOrder>
@@ -5543,7 +5542,6 @@
     <infoLanguages>Select the report culture.</infoLanguages>
     <infoLayout>Specify layout of report.</infoLayout>
     <infoRelation>Select one Data Relation from available.</infoRelation>
-    <infoReportGeneration>Describe required Report to AI.</infoReportGeneration>
     <infoSelectColumns>Select columns from which the information will be displayed.</infoSelectColumns>
     <infoSelectTemplate>Choose the appropriate template for your needs.</infoSelectTemplate>
     <infoSort>Set the sorting of data. You can sort immediately on multiple columns.</infoSort>
@@ -5572,7 +5570,6 @@
     <OpenExistingReport>Open Existing File</OpenExistingReport>
     <OpenFrom>Open from {0}</OpenFrom>
     <Preview>Preview</Preview>
-    <ReportGeneration>Report Generation</ReportGeneration>
     <Reset>&amp;Reset</Reset>
     <Results>Results</Results>
     <RunWizard>Run Wizard</RunWizard>
