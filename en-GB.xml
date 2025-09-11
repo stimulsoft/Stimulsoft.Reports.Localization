@@ -323,9 +323,11 @@
     <StripsEditorForm>Strips Editor Form</StripsEditorForm>
     <Style>Style</Style>
     <Sunburst>Sunburst</Sunburst>
+    <Surface>Surface</Surface>
     <Treemap>Treemap</Treemap>
     <TrendLinesEditorForm>Trend Lines Editor</TrendLinesEditorForm>
     <Waterfall>Waterfall</Waterfall>
+    <WireframeSurface>Wireframe Surface</WireframeSurface>
   </Chart>
   <CharterMapEditor>
     <Characters>Characters</Characters>
@@ -440,6 +442,7 @@
     <DashboardWindowTitleNew>New Dashboard</DashboardWindowTitleNew>
     <DeleteFile>Delete File</DeleteFile>
     <DoNotAskMe>Do not ask me again</DoNotAskMe>
+    <EnglishSearchRequired>Please use English for search queries.</EnglishSearchRequired>
     <EnterUserNameToLogin>Enter User Name (email) to log in.</EnterUserNameToLogin>
     <ExecutionError>Execution error</ExecutionError>
     <ExpiredDate>Expired Date</ExpiredDate>
@@ -1316,6 +1319,7 @@
     <AccessToken>Access token</AccessToken>
     <AccountKey>Account Key</AccountKey>
     <AccountName>Account Name</AccountName>
+    <AnyoneWithTheLink>Anyone with the Link</AnyoneWithTheLink>
     <AuthorizationCode>Authorization Code</AuthorizationCode>
     <BlobContentType>Blob Content Type</BlobContentType>
     <BlobName>Blob Name</BlobName>
@@ -1333,6 +1337,7 @@
     <FirebirdEdit>Edit Firebird Connection</FirebirdEdit>
     <FirebirdNew>New Firebird Connection</FirebirdNew>
     <FirstRowIsHeader>First Row is Header</FirstRowIsHeader>
+    <GeneralAccess>General Access</GeneralAccess>
     <GetAuthorizationCode>Get authorization code</GetAuthorizationCode>
     <GetTokens>Get tokens</GetTokens>
     <GisEdit>Edit GIS Data</GisEdit>
@@ -1371,6 +1376,7 @@
     <RefreshToken>Refresh token</RefreshToken>
     <RelationDirection>Relation Direction:</RelationDirection>
     <ReportConnections>Report Connections</ReportConnections>
+    <Restricted>Restricted</Restricted>
     <SelectData>Select Data</SelectData>
     <ServiceAccountKeyFile>Service Account Key File</ServiceAccountKeyFile>
     <SpreadsheetId>Spreadsheet Id</SpreadsheetId>
@@ -1501,6 +1507,8 @@
     <SortItems>Sort Items</SortItems>
     <Synchronize>Synchronize</Synchronize>
     <SynchronizeHint>Synchronizes contents of the Data Store and contents of the Dictionary</SynchronizeHint>
+    <TableEdit>Edit Table</TableEdit>
+    <TableNew>New Table</TableNew>
     <TextDropDataFileHere>Drop Data File Here</TextDropDataFileHere>
     <TextDropFileHere>Drop File Here</TextDropFileHere>
     <TextDropImageHere>Drop Image File Here</TextDropImageHere>
@@ -1544,6 +1552,7 @@
     <SampleText>Sample Text</SampleText>
     <TextFormat>Text Format</TextFormat>
     <Time>Time</Time>
+    <TimeFormat>Time Format</TimeFormat>
     <title>Format</title>
     <UseAbbreviation>Use Abbreviation</UseAbbreviation>
     <UseGroupSeparator>Use Group Separator</UseGroupSeparator>
@@ -1730,6 +1739,7 @@
     <pageExpression>Expression</pageExpression>
     <pageSummary>Summary</pageSummary>
     <pageSystemVariable>System Variable</pageSystemVariable>
+    <RunningAverage>Running Average</RunningAverage>
     <RunningTotal>Running Total</RunningTotal>
     <SummaryRunning>Summary Running</SummaryRunning>
     <SummaryRunningByColumn>Column</SummaryRunningByColumn>
@@ -2332,6 +2342,7 @@
     <menuEditDataTransformationNew>New Data Transformation...</menuEditDataTransformationNew>
     <menuEditDelete>&amp;Delete</menuEditDelete>
     <menuEditEdit>Edit</menuEditEdit>
+    <menuEditEditInDesigner>Edit in Designer</menuEditEditInDesigner>
     <menuEditFunctionNew>New Function...</menuEditFunctionNew>
     <menuEditImportRelations>Import Relations...</menuEditImportRelations>
     <menuEditPaste>&amp;Paste</menuEditPaste>
@@ -3410,6 +3421,8 @@
     <StiOrientationVertical>Vertical</StiOrientationVertical>
     <StiPageOrientationLandscape>Landscape</StiPageOrientationLandscape>
     <StiPageOrientationPortrait>Portrait</StiPageOrientationPortrait>
+    <StiParametersDisplayModeDialog>Dialog</StiParametersDisplayModeDialog>
+    <StiParametersDisplayModePanel>Panel</StiParametersDisplayModePanel>
     <StiPdfDigitalSignatureAppearanceTypeDraw>Draw</StiPdfDigitalSignatureAppearanceTypeDraw>
     <StiPdfDigitalSignatureAppearanceTypeImage>Image</StiPdfDigitalSignatureAppearanceTypeImage>
     <StiPdfDigitalSignatureAppearanceTypeNone>None</StiPdfDigitalSignatureAppearanceTypeNone>
@@ -4388,6 +4401,7 @@
     <MaximumValue>Maximum Value</MaximumValue>
     <MaxLength>Max Length</MaxLength>
     <MaxNumberOfLines>Max Number of Lines</MaxNumberOfLines>
+    <MaxSelectedItems>Max Selected Items</MaxSelectedItems>
     <MaxSize>Max Size</MaxSize>
     <MaxValue>Max Value</MaxValue>
     <MaxWidth>Max Width</MaxWidth>
@@ -4416,6 +4430,7 @@
     <Multiline>Multiline</Multiline>
     <MultipleFactor>Multiple Factor</MultipleFactor>
     <MultipleInitialization>Multiple Initialization</MultipleInitialization>
+    <MyFunction>My Function</MyFunction>
     <Name>Name</Name>
     <NameDataColumn>Name Data Column</NameDataColumn>
     <NameInSource>Name in Source</NameInSource>
@@ -4475,6 +4490,7 @@
     <ParameterAlignment>Parameter Alignment</ParameterAlignment>
     <Parameters>Parameters</Parameters>
     <ParametersDateFormat>Parameters Date Format</ParametersDateFormat>
+    <ParametersDisplayMode>Parameters Display-Mode</ParametersDisplayMode>
     <ParametersOrientation>Parameters Orientation</ParametersOrientation>
     <ParameterWidth>Parameter Width</ParameterWidth>
     <ParentColumns>Parent Columns</ParentColumns>
@@ -5385,6 +5401,7 @@
     <LineRoman>Returns the current line number in Roman numerals.</LineRoman>
     <LineThrough>Returns the current line number (starts from 1). When calculating the number, all groupings are ignored and numbering starts from the beginning of printing.</LineThrough>
     <PageCopyNumber>Return a number of a current copy of a page (starts from 1).</PageCopyNumber>
+    <PageLine>Returns the current line number on a page (starting from 1). Requires Double-Pass mode to be enabled.</PageLine>
     <PageNofM>Returns a localized string, showing "Page N of M" where N is the current page number and M is the TotalPageCount of a report.</PageNofM>
     <PageNofMThrough>Returns a localized string, showing "Page N of M" where N is the current page number and M is the TotalPageCount of a report. When calculating the PageNofMThrough, all properties ResetPageNumber are ignored and numbering starts from the beginning of a report.</PageNofMThrough>
     <PageNumber>Returns the current page number (starts from 1).</PageNumber>
@@ -5514,6 +5531,7 @@
     <Title>Welcome to Stimulsoft Demo</Title>
   </WelcomeScreen>
   <Wizards>
+    <AIGeneratedReport>AI-generated Report</AIGeneratedReport>
     <BlankDashboard>Blank Dashboard</BlankDashboard>
     <BlankForm>Blank Form</BlankForm>
     <BlankReport>Blank Report</BlankReport>
