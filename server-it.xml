@@ -4,42 +4,76 @@
     <LabelCompanyName>Nome Azienda:</LabelCompanyName>
     <LabelCurrentPassword>Password Corrente:</LabelCurrentPassword>
     <LabelFirstName>Nome:</LabelFirstName>
+    <LabelItems>Elementi</LabelItems>
     <LabelLastLogin>Ultimo Login:</LabelLastLogin>
     <LabelLastName>Cognome:</LabelLastName>
     <LabelNewPassword>Nuova Password:</LabelNewPassword>
+    <LabelPicture>Immagine</LabelPicture>
     <LabelRole>Ruolo:</LabelRole>
     <LabelUserName>Nome Utente (Email):</LabelUserName>
+    <TextAdministrator>Amministratore</TextAdministrator>
     <TextAPI>API</TextAPI>
+    <TextBandwidth>Larghezza di banda</TextBandwidth>
     <TextComputingCycles>Cicli di calcolo</TextComputingCycles>
+    <TextCreatedNewRoleBasedOn>Crea nuovo ruolo basato su</TextCreatedNewRoleBasedOn>
+    <TextCreators>Creatori BI</TextCreators>
+    <TextDashboards>Cruscotti</TextDashboards>
+    <TextData>Dati</TextData>
+    <TextDataRows>Righe di dati</TextDataRows>
     <TextDataSources>Fonti Dati</TextDataSources>
     <TextDate>Data</TextDate>
+    <TextDescription>Descrizione</TextDescription>
+    <TextDragDropRootFolderHere>Trascina e rilascia la tua cartella qui!</TextDragDropRootFolderHere>
     <TextEmails>Email</TextEmails>
+    <TextFileSize>Dimensione file</TextFileSize>
     <TextItems>Oggetto</TextItems>
+    <TextManager>Manager</TextManager>
+    <TextNewRole>Nuovo ruolo</TextNewRole>
     <TextPerFile>per file</TextPerFile>
     <TextPerMonth>per mese</TextPerMonth>
     <TextRecycleBin>Cestino</TextRecycleBin>
+    <TextReportPages>Pagine del rapporto</TextReportPages>
+    <TextReports>Rapporti</TextReports>
     <TextRole>Ruolo</TextRole>
     <TextRoles>Ruoli</TextRoles>
+    <TextRootFolder>Cartella principale</TextRootFolder>
     <TextSchedulers>Schedulatori</TextSchedulers>
+    <TextSelectPicture>Seleziona un'immagine</TextSelectPicture>
     <TextStorage>archiviazione</TextStorage>
+    <TextSupervisor>Supervisore</TextSupervisor>
     <TextTransfer>Trasferimenti</TextTransfer>
     <TextUpload>Upload</TextUpload>
     <TextUser>Utente</TextUser>
     <TextUserHimself>Utente stesso</TextUserHimself>
     <TextUserRoles>Ruoli Utente</TextUserRoles>
     <TextUsers>Utenti</TextUsers>
+    <TextWorkspaces>Spazi di lavoro</TextWorkspaces>
+    <TooltipBICreators>Utenti con ruoli Supervisore, Admin, Manager e Personalizzato</TooltipBICreators>
+    <TooltipUsers>Utenti con solo preferenze di visualizzazione e ruolo 'UTENTE'</TooltipUsers>
+    <WindowDescriptionRoleDelete>Sei sicuro di voler eliminare il ruolo "{0}"?</WindowDescriptionRoleDelete>
     <WindowDescriptionRoleRemove>Sei sicuro di voler rimuovere il ruolo "{0}"?</WindowDescriptionRoleRemove>
+    <WindowDescriptionUserDelete>Sei sicuro di voler eliminare l'utente "{0}"?</WindowDescriptionUserDelete>
+    <WindowDescriptionUserParameterDelete>Sei sicuro di voler eliminare il parametro utente "{0}"?</WindowDescriptionUserParameterDelete>
     <WindowDescriptionUserRemove>Sei sicuro di voler rimuovere l'utente "{0}"?</WindowDescriptionUserRemove>
+    <WindowDescriptionWorkspaceDelete>Sei sicuro di voler eliminare lo spazio di lavoro "{0}"?</WindowDescriptionWorkspaceDelete>
+    <WindowTitleRoleDelete>Elimina ruolo</WindowTitleRoleDelete>
     <WindowTitleRoleNew>Nuovo Ruolo</WindowTitleRoleNew>
     <WindowTitleRoleRemove>Rimuovi Ruolo</WindowTitleRoleRemove>
+    <WindowTitleUserDelete>Elimina utente</WindowTitleUserDelete>
+    <WindowTitleUserParameterDelete>Elimina parametro utente</WindowTitleUserParameterDelete>
     <WindowTitleUserRemove>Rimuovi User</WindowTitleUserRemove>
+    <WindowTitleWorkspaceDelete>Elimina spazio di lavoro</WindowTitleWorkspaceDelete>
   </Administration>
   <Authorization>
     <ButtonLogin>_Login</ButtonLogin>
+    <ButtonResendEmail>Invia nuovamente l'email</ButtonResendEmail>
     <ButtonResetPassword>_Reset</ButtonResetPassword>
+    <ButtonSendEmail>Invia email</ButtonSendEmail>
     <ButtonSignUp>_Iscriviti</ButtonSignUp>
     <CheckBoxRememberMe>Ricordami</CheckBoxRememberMe>
+    <HyperlinkAgreeToTerms>Registrandoti accetti i Termini.</HyperlinkAgreeToTerms>
     <HyperlinkAlreadyHaveAccount>Ho già un account</HyperlinkAlreadyHaveAccount>
+    <HyperlinkBack>Indietro</HyperlinkBack>
     <HyperlinkForgotPassword>Password dimenticata</HyperlinkForgotPassword>
     <HyperlinkHavePassword>Ho una Password</HyperlinkHavePassword>
     <HyperlinkRegisterAccount>Crea nuovo account</HyperlinkRegisterAccount>
@@ -48,6 +82,7 @@
     <TextLastName>Cognome</TextLastName>
     <TextPassword>Password</TextPassword>
     <TextUserName>Nome Utente (Email)</TextUserName>
+    <TextVerifyEmail>Verifica il tuo indirizzo email su {0} per assicurarti che il tuo account possa essere recuperato.</TextVerifyEmail>
     <TextView>Mostra</TextView>
     <WindowTitleForgotPassword>Reset</WindowTitleForgotPassword>
     <WindowTitleLogin>Entra</WindowTitleLogin>
@@ -70,6 +105,7 @@
   </Calendar>
   <CloudStorage>
     <ButtonAuthorization>Autorizzazioni</ButtonAuthorization>
+    <ButtonImportFiles>Importa file</ButtonImportFiles>
     <ButtonTestConnection>Prova Connessione</ButtonTestConnection>
     <LabelDatabaseName>Nome database:</LabelDatabaseName>
     <LabelDomainName>Nome dominio:</LabelDomainName>
@@ -82,12 +118,14 @@
     <MessageFieldIsRequired>Il campo è Obbligatorio!</MessageFieldIsRequired>
     <TabItemRootFolder>Cartella Radice</TabItemRootFolder>
     <TabItemSettings>Impostazioni</TabItemSettings>
+    <WindowTitleImportFiles>Importa file</WindowTitleImportFiles>
     <WizardCloudStorageDescription>Crea un Nuovo {0} cloud storage</WizardCloudStorageDescription>
   </CloudStorage>
   <Common>
     <ButtonAccessKey>Chiave di Accesso</ButtonAccessKey>
     <ButtonAdd>Aggiungi</ButtonAdd>
     <ButtonAddAll>Aggiungi Tutto</ButtonAddAll>
+    <ButtonAdministration>Amministrazione</ButtonAdministration>
     <ButtonApply>Applica</ButtonApply>
     <ButtonBack>Indietro</ButtonBack>
     <ButtonCancel>_Annulla</ButtonCancel>
@@ -99,24 +137,38 @@
     <ButtonCut>Taglia</ButtonCut>
     <ButtonDefault>Default</ButtonDefault>
     <ButtonDelete>Elimina</ButtonDelete>
+    <ButtonDeselectAll>Deseleziona tutto</ButtonDeselectAll>
     <ButtonDesign>Design</ButtonDesign>
+    <ButtonDesignDashboard>Progetta dashboard</ButtonDesignDashboard>
+    <ButtonDownload>Scarica</ButtonDownload>
     <ButtonEdit>Modifica</ButtonEdit>
     <ButtonExitWithoutSaving>Salva senza salvare</ButtonExitWithoutSaving>
+    <ButtonFinish>Fine</ButtonFinish>
     <ButtonGetItem>Prendi Oggetto</ButtonGetItem>
     <ButtonItemLog>Registro Oggetto</ButtonItemLog>
     <ButtonLoadFromFile>Carica da file</ButtonLoadFromFile>
+    <ButtonLog>Registro</ButtonLog>
     <ButtonMakeDefault>Imposta Default</ButtonMakeDefault>
+    <ButtonNext>Avanti</ButtonNext>
     <ButtonNo>_No</ButtonNo>
     <ButtonOK>_OK</ButtonOK>
     <ButtonOpen>Apri</ButtonOpen>
     <ButtonPaste>Incolla</ButtonPaste>
+    <ButtonPrev>Precedente</ButtonPrev>
+    <ButtonPublish>Pubblica</ButtonPublish>
     <ButtonRecover>Ripristina</ButtonRecover>
     <ButtonRefresh>Aggiorna</ButtonRefresh>
     <ButtonReset>Reset</ButtonReset>
+    <ButtonResetAll>Reimposta tutto</ButtonResetAll>
     <ButtonRun>Esegui</ButtonRun>
+    <ButtonRunInBackground>Esegui in background</ButtonRunInBackground>
+    <ButtonRunWithoutPreview>Esegui senza anteprima</ButtonRunWithoutPreview>
     <ButtonSave>Salva</ButtonSave>
     <ButtonSaveToFile>Salva in File</ButtonSaveToFile>
     <ButtonSelectAll>Seleziona Tutto</ButtonSelectAll>
+    <ButtonShare>Condividi</ButtonShare>
+    <ButtonTryAgain>Riprova</ButtonTryAgain>
+    <ButtonUsing>Utilizzo</ButtonUsing>
     <ButtonVersions>Versioni</ButtonVersions>
     <ButtonView>Visualizza</ButtonView>
     <ButtonYes>_Si</ButtonYes>
@@ -126,6 +178,7 @@
     <CalendarDateTypeHolidays>Vacanze</CalendarDateTypeHolidays>
     <CalendarDateTypeRelativeYearDay>Giorno dell'anno relativo</CalendarDateTypeRelativeYearDay>
     <CalendarDateTypeSpecificYearDay>Giorno dell'anno specifico</CalendarDateTypeSpecificYearDay>
+    <CheckBoxRunInBackground>Esegui in background</CheckBoxRunInBackground>
     <DataSourceCloudStorage>Fonte Dati Cloud Storage</DataSourceCloudStorage>
     <DataSourceConnection>Fonte Dati {0}</DataSourceConnection>
     <DataSourceDynamicsNav>Fonte Dati MS Dynamics NAV</DataSourceDynamicsNav>
@@ -159,18 +212,28 @@
     <ItemDashboard>Dashboard</ItemDashboard>
     <ItemDataSource>Fonte Dati</ItemDataSource>
     <ItemFile>File</ItemFile>
+    <ItemFileSrorage>Archiviazione file</ItemFileSrorage>
     <ItemFolder>Cartella</ItemFolder>
+    <ItemImage>Immagine</ItemImage>
+    <ItemQuery>Query</ItemQuery>
+    <ItemRelation>Relazione</ItemRelation>
     <ItemReportSnapshot>Snapshot Report</ItemReportSnapshot>
     <ItemReportTemplate>Template Report</ItemReportTemplate>
     <ItemScheduler>Schedulatore</ItemScheduler>
     <LabelAttention>Attenzione:</LabelAttention>
+    <LabelChildDatasource>Origine dati figlia</LabelChildDatasource>
     <LabelCreated>Creato:</LabelCreated>
     <LabelDeleted>Eliminato:</LabelDeleted>
     <LabelDescription>Descrizione:</LabelDescription>
+    <LabelExpires>Scade</LabelExpires>
     <LabelKey>Chiave:</LabelKey>
     <LabelModified>Modificato:</LabelModified>
     <LabelName>Nome:</LabelName>
+    <LabelParentDatasource>Origine dati principale</LabelParentDatasource>
+    <LabelParentFolder>Cartella principale</LabelParentFolder>
+    <LabelRefreshed>Aggiornato</LabelRefreshed>
     <LabelRefreshFrequency>Aggiorna Frequenza:</LabelRefreshFrequency>
+    <LabelStartTime>Ora di inizio</LabelStartTime>
     <LabelType>Tipo:</LabelType>
     <MonthAll>Tutto</MonthAll>
     <MonthApril>Aprile</MonthApril>
@@ -207,6 +270,25 @@
     <SchedulerStatusStarted>In esecuzione</SchedulerStatusStarted>
     <SchedulerStatusStopped>Fermo</SchedulerStatusStopped>
     <TextNotDefined>Non Definito</TextNotDefined>
+    <TextNotDetected>Non rilevato</TextNotDetected>
+    <TextPleaseWait>Attendere prego...</TextPleaseWait>
+    <TextReport>Rapporto</TextReport>
+    <TextSoftwareVersion>Versione: {0} del {1}</TextSoftwareVersion>
+    <TextStatus>Stato</TextStatus>
+    <TextWillBeDeletedSoon>verrà eliminato a breve</TextWillBeDeletedSoon>
+    <ToolTipDeleted>Mostra elementi eliminati</ToolTipDeleted>
+    <ToolTipDesign>Esegui il designer del rapporto per modificare il rapporto selezionato.</ToolTipDesign>
+    <ToolTipGridMode>Vista elenco</ToolTipGridMode>
+    <ToolTipInfo>Visualizza dettagli</ToolTipInfo>
+    <ToolTipPublish>Prepara il rapporto selezionato per essere distribuito nella tua applicazione.</ToolTipPublish>
+    <ToolTipRecover>Recupera gli elementi selezionati.</ToolTipRecover>
+    <ToolTipRunMailing>Esegui la mailing selezionata</ToolTipRunMailing>
+    <ToolTipRunWithoutPreview>Genera il rapporto selezionato senza anteprima</ToolTipRunWithoutPreview>
+    <ToolTipShare>Condividi l'elemento selezionato.</ToolTipShare>
+    <ToolTipSort>Opzioni di ordinamento</ToolTipSort>
+    <ToolTipThumbnailMode>Vista griglia</ToolTipThumbnailMode>
+    <ToolTipViewFile>Mostra l'elemento selezionato.</ToolTipViewFile>
+    <ToolTipViewReport>Mostra il rapporto selezionato nel visualizzatore.</ToolTipViewReport>
   </Common>
   <ContactList>
     <LabelEmailList>Lista Email:</LabelEmailList>
@@ -215,77 +297,131 @@
     <WindowTitleNew>Nuova Lista Contatti</WindowTitleNew>
   </ContactList>
   <Dashboard>
+    <TextLaunchDashboardDesigner>Dashboard Designer in fase di avvio.</TextLaunchDashboardDesigner>
+    <WindowTitleDesigner>Designer Dashboard</WindowTitleDesigner>
     <WindowTitleEdit>Modifica Dashboard</WindowTitleEdit>
     <WindowTitleNew>Nuova Dashboard</WindowTitleNew>
   </Dashboard>
   <DataSource>
+    <ButtonAddColumn>Aggiungi colonna</ButtonAddColumn>
+    <ButtonAddParameter>Aggiungi parametro</ButtonAddParameter>
     <ButtonBuildConnection>Crea Connessione</ButtonBuildConnection>
     <ButtonBuildQuery>Esegui Query Builder</ButtonBuildQuery>
     <ButtonCheckQuery>Controlla Query</ButtonCheckQuery>
     <ButtonCleanConnectionString>Pulisci stringa di connessione</ButtonCleanConnectionString>
     <ButtonCleanQuery>pulisci Query</ButtonCleanQuery>
+    <ButtonClearConnectionString>Cancella stringa di connessione</ButtonClearConnectionString>
+    <ButtonClearQuery>Cancella query</ButtonClearQuery>
     <ButtonDeleteQuery>Elimina Query</ButtonDeleteQuery>
     <ButtonEditQuery>Modifica Query</ButtonEditQuery>
     <ButtonGetCloudStorageFromList>Ottieni Item</ButtonGetCloudStorageFromList>
+    <ButtonImportData>Importa dati</ButtonImportData>
+    <ButtonImportDataRelations>Importa relazioni</ButtonImportDataRelations>
+    <ButtonMapData>Mappa dati</ButtonMapData>
+    <ButtonNewDataRelation>Nuova relazione</ButtonNewDataRelation>
     <ButtonNewQuery>Nuova Query</ButtonNewQuery>
+    <ButtonNewTable>Nuova tabella</ButtonNewTable>
+    <ButtonPreviewData>Anteprima dati</ButtonPreviewData>
     <ButtonPreviewQueryResult>Anteprima risultati Query</ButtonPreviewQueryResult>
+    <ButtonRecentConnections>Connessioni recenti</ButtonRecentConnections>
     <ButtonRemoveSelectedCloudStorage>Rimuovi Item</ButtonRemoveSelectedCloudStorage>
     <ButtonRemoveSelectedFile>Rimuovi File</ButtonRemoveSelectedFile>
+    <ButtonRetrieveColumns>Recupera colonne</ButtonRetrieveColumns>
     <ButtonTestConnection>Test Connessione</ButtonTestConnection>
+    <ButtonViewQuery>Visualizza query</ButtonViewQuery>
     <CheckBoxAutoRefresh>Auto Aggiorna</CheckBoxAutoRefresh>
+    <CheckBoxDefaultValue>Valore predefinito</CheckBoxDefaultValue>
+    <CheckBoxNotAssigned>Non assegnato</CheckBoxNotAssigned>
     <CheckBoxWindowsAuthentication>Windows-Authentication</CheckBoxWindowsAuthentication>
+    <ComboBoxItemQuery>Query</ComboBoxItemQuery>
+    <ComboBoxItemStoredProcedure>Procedura memorizzata</ComboBoxItemStoredProcedure>
+    <ComboBoxItemTable>Tabella</ComboBoxItemTable>
     <GroupBoxAuthorization>Autorizzazioni</GroupBoxAuthorization>
     <GroupBoxQueryText>Testo Query</GroupBoxQueryText>
+    <GroupParametersAndColumns>Parametri e colonne</GroupParametersAndColumns>
+    <LabelChildColumns>Colonne figlie</LabelChildColumns>
     <LabelCloudStorage>Cloud Storage:</LabelCloudStorage>
     <LabelConnection>Connessione:</LabelConnection>
     <LabelConnectionString>Stringa di connessione:</LabelConnectionString>
     <LabelDataBaseName>Nome Database:</LabelDataBaseName>
     <LabelDataType>Tipo Dati:</LabelDataType>
     <LabelDomainName>Nome Dominio:</LabelDomainName>
+    <LabelExcelItem>Elemento Excel</LabelExcelItem>
+    <LabelNameInSource>Nome nella fonte</LabelNameInSource>
+    <LabelParentColumns>Colonne principali</LabelParentColumns>
     <LabelPassword>Password:</LabelPassword>
+    <LabelQuery>Query</LabelQuery>
     <LabelQueryName>Nome:</LabelQueryName>
+    <LabelQueryParameterAndColumnDefaultValue>Valore predefinito</LabelQueryParameterAndColumnDefaultValue>
+    <LabelQueryParameterAndColumnName>Nome</LabelQueryParameterAndColumnName>
+    <LabelQueryParameterAndColumnType>Tipo</LabelQueryParameterAndColumnType>
     <LabelQueryParameterName>Parametro:</LabelQueryParameterName>
     <LabelQueryParameterTestValue>Valore Test:</LabelQueryParameterTestValue>
     <LabelServerAddress>Indirizzo Server:</LabelServerAddress>
     <LabelServicesEndPoint>OData-Service:</LabelServicesEndPoint>
     <LabelUserName>Nome Utente:</LabelUserName>
+    <LabelValue>Valore</LabelValue>
     <LabelXmlFile>File XML:</LabelXmlFile>
     <LabelXsdFile>File XSD:</LabelXsdFile>
+    <MessageStartImportDataRelationConfirmation>Vuoi davvero importare le relazioni dei dati per tutte le tabelle delle fonti dati selezionate?</MessageStartImportDataRelationConfirmation>
     <RadioButtonAuto>Auto</RadioButtonAuto>
     <RadioButtonManual>Manuale</RadioButtonManual>
     <TabItemConnectionHeader>Connessione</TabItemConnectionHeader>
+    <TabItemEditDataSourceHeader>Modifica origine dati</TabItemEditDataSourceHeader>
     <TabItemSchemaHeader>Schema</TabItemSchemaHeader>
     <TabItemType>Tipo</TabItemType>
+    <TextColumn>Colonna</TextColumn>
+    <TextColumns>Colonne</TextColumns>
     <TextDragDropCloudStoragesHere>Trascina i tuoi  Cloud Storages qui!</TextDragDropCloudStoragesHere>
+    <TextDragDropExcelFileHere>Trascina e rilascia qui il tuo elemento Excel!</TextDragDropExcelFileHere>
     <TextDragDropXmlFileHere>Trascina i Tuoi XML qui!</TextDragDropXmlFileHere>
     <TextDragDropXsdFileHere>Trascina i Tuoi XSD qui!</TextDragDropXsdFileHere>
+    <TextParameter>Parametro</TextParameter>
+    <TextParameters>Parametri</TextParameters>
     <TextSchemaCloudStorage>Cloud Storage</TextSchemaCloudStorage>
     <TextSchemaDataBase>Database</TextSchemaDataBase>
+    <TextSchemaExcel>Excel</TextSchemaExcel>
     <TextSchemaQueries>Query</TextSchemaQueries>
     <TextSchemaStoredProcedures>Stored Procedures</TextSchemaStoredProcedures>
     <TextSchemaTables>Tabelle</TextSchemaTables>
     <TextSchemaViews>Viste</TextSchemaViews>
     <TextSchemaXml>XML</TextSchemaXml>
+    <ToolTipAddColumn>Aggiungi la colonna.</ToolTipAddColumn>
+    <ToolTipAddParameter>Aggiungi il parametro.</ToolTipAddParameter>
     <ToolTipBuild>Crea una stringa di connessione usando la procedura guidata.</ToolTipBuild>
     <ToolTipBuildQuery>Esegui il query builder.</ToolTipBuildQuery>
     <ToolTipCheckQuery>Controlla la query.</ToolTipCheckQuery>
     <ToolTipCleanConnectionString>Pulisci la stringa di connessione.</ToolTipCleanConnectionString>
     <ToolTipCleanQuery>Pulisci i campi della query.</ToolTipCleanQuery>
     <ToolTipDragDropYourCloudStorageHere>Trascina una Connessione nel cloud storage dall'albero a sinistra.</ToolTipDragDropYourCloudStorageHere>
+    <ToolTipDragDropYourExcelDocumentHere>Trascina e rilascia qui un documento Excel dall'albero a sinistra.</ToolTipDragDropYourExcelDocumentHere>
     <ToolTipDragDropYourXmlFileHere>Trascina qui un file XML dall'albero a sinistra.</ToolTipDragDropYourXmlFileHere>
     <ToolTipDragDropYourXsdFileHere>Trascina qui un file XSD dall'albero a sinistra.</ToolTipDragDropYourXsdFileHere>
     <ToolTipQueryParameterApplyValue>Applica il valore di test al parametro corrente.</ToolTipQueryParameterApplyValue>
     <ToolTipQueryPreviewResult>Anteprima risultati della query come tabella.</ToolTipQueryPreviewResult>
     <ToolTipRefreshFrequency>La frequenza di aggiornamento dati dal server.</ToolTipRefreshFrequency>
+    <ToolTipRetrieveColumnsAndParameters>Recupera colonne e parametri.</ToolTipRetrieveColumnsAndParameters>
     <ToolTipTestConnection>Controllo della Connessione con il servizio.</ToolTipTestConnection>
+    <WindowTitleAddColumn>Aggiungi colonna</WindowTitleAddColumn>
+    <WindowTitleAddParameter>Aggiungi parametro</WindowTitleAddParameter>
+    <WindowTitleAddRelation>Aggiungi relazione dati</WindowTitleAddRelation>
+    <WindowTitleEditColumn>Modifica colonna</WindowTitleEditColumn>
+    <WindowTitleEditParameter>Modifica parametro</WindowTitleEditParameter>
     <WindowTitleEditQuery>Modifica Query</WindowTitleEditQuery>
+    <WindowTitleEditRelation>Modifica relazione dati</WindowTitleEditRelation>
+    <WindowTitleEditTable>Modifica tabella</WindowTitleEditTable>
     <WindowTitleNewQuery>NuovoaQuery</WindowTitleNewQuery>
+    <WindowTitleNewTable>Nuova tabella</WindowTitleNewTable>
     <WindowTitleQueryParameters>Editor Parametri Query</WindowTitleQueryParameters>
     <WindowTitleQueryResultsPreview>Anteprima Risultati Query</WindowTitleQueryResultsPreview>
     <WindowTitleSecuredLogin>Login Protetto</WindowTitleSecuredLogin>
     <WizardCloudStorageDescription>Crea una Nuova Connessione al Cloud Storage</WizardCloudStorageDescription>
     <WizardConnectionDescription>Crea una Nuova Fonte Dati sulla base della Connessione {0} </WizardConnectionDescription>
     <WizardDynamicsNavDescription>Crea una Nuova Fonte Dati sulla base della connessione con l'ERP Microsoft Dynamics NAV </WizardDynamicsNavDescription>
+    <WizardExcelDescription>Crea una nuova origine dati sulla base di un documento Excel.</WizardExcelDescription>
+    <WizardExcelMapDataDescription>Per selezionare un intervallo di dati arbitrario nel foglio Excel, è necessario mappare i dati. Altrimenti, l'intero contenuto del documento verrà salvato nell'origine dati – una tabella separata per ogni foglio di lavoro.</WizardExcelMapDataDescription>
+    <WizardExcelPreviewDataDescription>Anteprima dei dati elaborati.</WizardExcelPreviewDataDescription>
+    <WizardRecentConnectionsDescription>Crea una nuova origine dati sulla base della connessione recente.</WizardRecentConnectionsDescription>
     <WizardXmlDescription>Crea una Nuova Fonte Dati sulla base del file XML</WizardXmlDescription>
   </DataSource>
   <Designer>
@@ -293,10 +429,18 @@
     <MessageTopBottomNotValid>il valore Top e Bottom non è valido.</MessageTopBottomNotValid>
   </Designer>
   <File>
+    <ButtonResetSelection>Reimposta selezione</ButtonResetSelection>
+    <CheckBoxExcelRemoveEmptyColumns>Rimuovi colonne vuote</CheckBoxExcelRemoveEmptyColumns>
+    <CheckBoxExcelRemoveEmptyRows>Rimuovi righe vuote</CheckBoxExcelRemoveEmptyRows>
     <GroupBoxFile>File</GroupBoxFile>
     <GroupBoxFiles>Files</GroupBoxFiles>
     <LabelFile>File:</LabelFile>
     <MessageFailedAddFollowingFiles>Impossibile Aggiungere i seguenti file. Superata la dimensione di {0} MB.</MessageFailedAddFollowingFiles>
+    <MessageWrongExcelDocument>Formato documento Excel errato.</MessageWrongExcelDocument>
+    <TabItemExcelData>Dati</TabItemExcelData>
+    <TabItemExcelHeaders>Intestazioni</TabItemExcelHeaders>
+    <TabItemExcelPreview>Anteprima</TabItemExcelPreview>
+    <TabItemExcelSheets>Fogli</TabItemExcelSheets>
     <TextAutomaticNaming>I Nomi degli item aggiunti verranno creati automaticamente!</TextAutomaticNaming>
     <TextDragDropFilesHere>Trascina i Files Qui</TextDragDropFilesHere>
     <ToolTipDragDropFilesHere>Trascina qui un file da Esplora File pre creare un item basato su esso. Puoi anche usare un File Item esistente per crearne uno nuovo. Per farlo, trascina un File Item qui dall'albero degli Items.</ToolTipDragDropFilesHere>
@@ -304,12 +448,17 @@
     <WindowTitleLoadFiles>Carica Files</WindowTitleLoadFiles>
     <WindowTitleNew>Nuovo File</WindowTitleNew>
     <WindowTitleSaveFile>Salva File</WindowTitleSaveFile>
+    <WizardExcelDataTabDescription>Seleziona l'intervallo di dati che desideri importare. Tenendo premuti i tasti Ctrl e Shift puoi selezionare celle e blocchi di dati non adiacenti.</WizardExcelDataTabDescription>
+    <WizardExcelHeadersTabDescription>Seleziona le righe che verranno utilizzate come intestazioni di colonna. Verranno create per ogni colonna utilizzando i dati di diverse righe. Tenendo premuto il tasto Ctrl puoi selezionare più righe non adiacenti. L'intestazione può essere una stringa di cifre, simboli e spazi o trattini. Puoi anche posizionare le colonne nell'ordine desiderato, trascinandole dietro le intestazioni, e rimuovere righe e colonne vuote.</WizardExcelHeadersTabDescription>
+    <WizardExcelPreviewTabDescription>Visualizzazione e salvataggio del risultato.</WizardExcelPreviewTabDescription>
+    <WizardExcelSheetsTabDescription>Seleziona un foglio da cui verranno importati i dati.</WizardExcelSheetsTabDescription>
   </File>
   <FileTypes>
     <Data>File Dati</Data>
     <Excel>Microsoft Excel</Excel>
     <Html>Html</Html>
     <Image>File Immagine</Image>
+    <OpenDocumentCalc>Open Document Calc</OpenDocumentCalc>
     <OpenDocumentSpreadsheet>Apri Document Calc</OpenDocumentSpreadsheet>
     <OpenDocumentWriter>Apri Document Writer</OpenDocumentWriter>
     <Pdf>Adobe PDF</Pdf>
@@ -319,7 +468,9 @@
     <Text>Testo</Text>
     <Unknown>Sconosciuto</Unknown>
     <Word>Microsoft Word</Word>
+    <Xml>Dati XML</Xml>
     <Xps>Microsoft XPS</Xps>
+    <Xsd>Schema XSD</Xsd>
   </FileTypes>
   <Folder>
     <WindowTitleEdit>Modifica Cartella</WindowTitleEdit>
@@ -327,14 +478,19 @@
   </Folder>
   <Items>
     <LabelDeletedByUser>Eliminato dall'utente:</LabelDeletedByUser>
+    <MessageAttachSelectedItems>Vuoi allegare gli elementi selezionati a '{0}'?</MessageAttachSelectedItems>
+    <TabItemSettings>Impostazioni</TabItemSettings>
     <TextAutomaticallyDeleted>Gli Items lasciati nel Cestino per piu di 30 giorni vengono eliminati automaticamente.</TextAutomaticallyDeleted>
     <TextDeletingProgressStatus>Eliminazione di {0} items di {1}</TextDeletingProgressStatus>
     <TextRecoveringProgressStatus>Ripristino di {0} items di {1}</TextRecoveringProgressStatus>
     <TextRecycleBin>Cestino</TextRecycleBin>
+    <TextThisItemIsNotUsed>Questo elemento non è utilizzato.</TextThisItemIsNotUsed>
+    <TextVersion>Versione</TextVersion>
     <ToolTipDeleteItem>Elimina Item</ToolTipDeleteItem>
     <ToolTipGetItem>Ottieni gli item selezionati dall'albero degli items.</ToolTipGetItem>
     <ToolTipMoveToRecycleBin>Se sposti gli items nel Cestino puoi ripristinarli in futuro. Diversamente, gli item verranno eliminati senza possibilità di recupero.</ToolTipMoveToRecycleBin>
     <ToolTipOpenFromFile>Apri da File</ToolTipOpenFromFile>
+    <ToolTipSelectAll>Seleziona tutto</ToolTipSelectAll>
     <WindowDescriptionCleanRecycleBin>Sei sicuro di voler svuotare il Cestino? In seguito, i dati non saranno recuperabili.</WindowDescriptionCleanRecycleBin>
     <WindowDescriptionCopy>Spunta gli item che vuoi copiare nella clibboard e clicca il bottone "Copia".</WindowDescriptionCopy>
     <WindowDescriptionCut>Spunta gli item che vuoi tagliare e clicca il bottone "Taglia".</WindowDescriptionCut>
@@ -345,13 +501,56 @@
     <WindowTitleCut>Taglia Items</WindowTitleCut>
     <WindowTitleLog>Registro</WindowTitleLog>
     <WindowTitlePaste>Incolla Items</WindowTitlePaste>
+    <WindowTitleUsing>Utilizzo</WindowTitleUsing>
     <WindowTitleVersions>Item Versions</WindowTitleVersions>
   </Items>
+  <License>
+    <ButtonActivate>Attiva</ButtonActivate>
+    <ButtonBuy>Acquista</ButtonBuy>
+    <ButtonDeactivate>Disattiva</ButtonDeactivate>
+    <ButtonRefreshLicense>Aggiorna licenza</ButtonRefreshLicense>
+    <LabelExpiredDate>Data di scadenza</LabelExpiredDate>
+    <LabelOrderDate>Data dell'ordine</LabelOrderDate>
+    <LabelOwner>Proprietario</LabelOwner>
+    <LabelPlan>Piano</LabelPlan>
+    <MessageActivating>Attivazione in corso...</MessageActivating>
+    <MessageChecking>Verifica in corso...</MessageChecking>
+    <MessageDeactivating>Disattivazione in corso...</MessageDeactivating>
+    <MessageEnterUserNameAndPassword>Inserisci nome utente (Email) e password per attivare</MessageEnterUserNameAndPassword>
+    <MessageEnterUserNameAndPasswordRefreshLicense>Inserisci il tuo nome utente (Email) e password per aggiornare la licenza</MessageEnterUserNameAndPasswordRefreshLicense>
+    <MessageExpiredLicense>Il tuo programma di abbonamento è scaduto. Puoi continuare a utilizzare la licenza per Stimulsoft Server. Il programma di abbonamento può essere rinnovato in qualsiasi momento.</MessageExpiredLicense>
+    <MessageRefreshLicense>Aggiorna licenza...</MessageRefreshLicense>
+    <MessageUsingTrialVersion>Stai utilizzando una versione di prova di Stimulsoft Server!</MessageUsingTrialVersion>
+    <MessageYouWantDeactivating>Sei sicuro di voler disattivare la licenza?</MessageYouWantDeactivating>
+    <TextDeactivate>Disattiva</TextDeactivate>
+    <TextExpired>Scaduta</TextExpired>
+    <TextLicenseInformation>Informazioni sulla licenza</TextLicenseInformation>
+    <TextLicenseUpToUsers>fino a {0} utenti</TextLicenseUpToUsers>
+    <TextTrial>Prova</TextTrial>
+    <WindowTitleActivation>Attivazione</WindowTitleActivation>
+    <WindowTitleLicense>Licenza</WindowTitleLicense>
+    <WindowTitleRefreshLicense>Aggiorna licenza</WindowTitleRefreshLicense>
+  </License>
+  <Link>
+    <Link>Collegamento</Link>
+    <WindowTitleEdit>Modifica collegamento</WindowTitleEdit>
+    <WindowTitleNew>Nuovo collegamento</WindowTitleNew>
+  </Link>
+  <Mailing>
+    <Mailing>Mailing</Mailing>
+    <TextRunMailing>Fai clic su 'OK' per eseguire la mailing.</TextRunMailing>
+    <TextRunningMailing>Mailing in esecuzione...</TextRunningMailing>
+    <WindowTitleEdit>Modifica mailing</WindowTitleEdit>
+    <WindowTitleNew>Nuova mailing</WindowTitleNew>
+  </Mailing>
   <Messages>
     <ConnectionFail>Connessione Fallita!</ConnectionFail>
     <ConnectionSuccess>Connessione Riuscita.</ConnectionSuccess>
     <DataSchemaIsEmpty>Schema Dati vuoto. Prova ad aggiornare la connessione!</DataSchemaIsEmpty>
+    <EnterCurrentPassword>Inserisci la password attuale!</EnterCurrentPassword>
+    <EnterNewPassword>Inserisci la nuova password!</EnterNewPassword>
     <IsEmptyConnectionString>Stringa di Connessione vuota!</IsEmptyConnectionString>
+    <IsFieldNotBeFilled>Il campo deve essere compilato!</IsFieldNotBeFilled>
     <IsNotComplyWithFormattingRequirements>La stringa di input non corrisponde ai requisiti di formattazione!</IsNotComplyWithFormattingRequirements>
     <IsNotEnterAnyEmailAddress>Non hai inserito nessun indirizzo email!</IsNotEnterAnyEmailAddress>
     <IsRequiredAction>Devi aggiungere almeno un'azione!</IsRequiredAction>
@@ -363,30 +562,56 @@
     <IsRequiredReportTemplate>Devi aggiungere almeno un report template!</IsRequiredReportTemplate>
     <IsRequiredScheduler>Devi aggiungere almeno uno schedulatore da eseguire!</IsRequiredScheduler>
     <LoadItem>Il contenuto corrente dell'item verrà perso! Sei sicuro di voler caricare questo item da file?</LoadItem>
+    <QueryExecutionError>Errore nell'esecuzione della query!</QueryExecutionError>
+    <QuerySuccessfullyExecuted>Query eseguita con successo!</QuerySuccessfullyExecuted>
     <RetrieveSchemaError>Errore di Recupero Schema!</RetrieveSchemaError>
     <ServerDidNotReturnData>Il Server non ha restituito dati!</ServerDidNotReturnData>
+    <ShareURLOfTheItemHasBeenUpdated>L'URL di condivisione dell'elemento è stato aggiornato!</ShareURLOfTheItemHasBeenUpdated>
     <ThisFieldIsNotSpecified>Questo campo non è specificato!</ThisFieldIsNotSpecified>
     <ThisSchedulerIsNotOnceScheduler>Questo schedulatore non è uno schedulatore a singola esecuzione!</ThisSchedulerIsNotOnceScheduler>
   </Messages>
   <Navigator>
     <ButtonAbout>Info</ButtonAbout>
+    <ButtonChangePassword>Cambia password</ButtonChangePassword>
+    <ButtonCreate>Crea</ButtonCreate>
     <ButtonCreateCalendar>Crea Calendario</ButtonCreateCalendar>
     <ButtonCreateCloudStorage>Crea Cloud Storage</ButtonCreateCloudStorage>
     <ButtonCreateContactList>Crea Lista Contatti</ButtonCreateContactList>
     <ButtonCreateDashboard>Crea Dashboard</ButtonCreateDashboard>
     <ButtonCreateDataSource>Crea Fonte Dati</ButtonCreateDataSource>
     <ButtonCreateFile>Crea File</ButtonCreateFile>
+    <ButtonCreateFileStorage>Crea archiviazione file</ButtonCreateFileStorage>
     <ButtonCreateFolder>Crea Cartella</ButtonCreateFolder>
+    <ButtonCreateForm>Crea modulo</ButtonCreateForm>
+    <ButtonCreateLink>Crea collegamento</ButtonCreateLink>
+    <ButtonCreateMailing>Crea mailing</ButtonCreateMailing>
     <ButtonCreateReport>Crea Report</ButtonCreateReport>
     <ButtonCreateScheduler>Crea Scheduler</ButtonCreateScheduler>
+    <ButtonHelp>Aiuto</ButtonHelp>
     <ButtonLogout>Logout</ButtonLogout>
+    <ButtonMore>Altro</ButtonMore>
     <ButtonOptions>Opzioni</ButtonOptions>
     <ButtonOther>Altro</ButtonOther>
     <ButtonProfile>Profilo</ButtonProfile>
+    <ButtonSettings>Impostazioni</ButtonSettings>
     <ButtonSortByCreationDate>Per Data Creazione</ButtonSortByCreationDate>
     <ButtonSortByModificationDate>Per Data Modifica</ButtonSortByModificationDate>
     <ButtonSortByName>Per Nome</ButtonSortByName>
     <ButtonSortByType>Per Tipo</ButtonSortByType>
+    <LabelCreateCalendar>Il calendario può essere utilizzato per specificare i giorni in cui viene eseguito il pianificatore.</LabelCreateCalendar>
+    <LabelCreateCloudStorage>Crea una nuova connessione allo storage cloud. Viene utilizzato per salvare i risultati del pianificatore eseguito o caricare dati per l'elaborazione.</LabelCreateCloudStorage>
+    <LabelCreateContactList>L'elenco dei contatti può essere utilizzato nel pianificatore per inviare il risultato dell'elaborazione.</LabelCreateContactList>
+    <LabelCreateDashboard>Crea una nuova dashboard.</LabelCreateDashboard>
+    <LabelCreateDataSource>Crea una nuova origine dati. Viene utilizzata per generare i report.</LabelCreateDataSource>
+    <LabelCreateFile>Aggiungi l'elenco dei file nell'albero degli elementi.</LabelCreateFile>
+    <LabelCreateFileStorage>Crea una nuova archiviazione file.</LabelCreateFileStorage>
+    <LabelCreateFolder>Crea una nuova categoria in cui puoi inserire altri elementi.</LabelCreateFolder>
+    <LabelCreateLink>Crea un nuovo collegamento.</LabelCreateLink>
+    <LabelCreateMailing>Crea una nuova mailing.</LabelCreateMailing>
+    <LabelCreateReportTemplate>Crea un modello di report.</LabelCreateReportTemplate>
+    <LabelScheduler>Viene utilizzato per eseguire comandi tramite il pianificatore.</LabelScheduler>
+    <MessageAbortUploadingAndCloseWindow>Caricamento dei file sul server. Vuoi interrompere il caricamento dei file e chiudere il programma?</MessageAbortUploadingAndCloseWindow>
+    <RibbonButtonBackupAndRestore>Backup &amp; Ripristino</RibbonButtonBackupAndRestore>
     <RibbonButtonCalendar>Calendario</RibbonButtonCalendar>
     <RibbonButtonCleanRecycleBin>Svuota Cestino</RibbonButtonCleanRecycleBin>
     <RibbonButtonClose>Chiudi</RibbonButtonClose>
@@ -399,9 +624,14 @@
     <RibbonButtonDataSource>Fonte Dati</RibbonButtonDataSource>
     <RibbonButtonDelete>Elimina</RibbonButtonDelete>
     <RibbonButtonEdit>Modifica</RibbonButtonEdit>
+    <RibbonButtonEmailTemplates>Modelli email</RibbonButtonEmailTemplates>
     <RibbonButtonFile>File</RibbonButtonFile>
+    <RibbonButtonFileStorage>Archiviazione file</RibbonButtonFileStorage>
     <RibbonButtonFind>Trova</RibbonButtonFind>
     <RibbonButtonFolder>Cartella</RibbonButtonFolder>
+    <RibbonButtonLicensing>Licenze</RibbonButtonLicensing>
+    <RibbonButtonLink>Collegamento</RibbonButtonLink>
+    <RibbonButtonMailing>Mailing</RibbonButtonMailing>
     <RibbonButtonNotifications>Notifiche</RibbonButtonNotifications>
     <RibbonButtonPaste>Incolla</RibbonButtonPaste>
     <RibbonButtonRecover>Ripristina</RibbonButtonRecover>
@@ -413,21 +643,32 @@
     <RibbonButtonSort>Ordina</RibbonButtonSort>
     <RibbonButtonSortAscending>Ascendende</RibbonButtonSortAscending>
     <RibbonButtonSortDescending>Discendente</RibbonButtonSortDescending>
+    <RibbonButtonUpdate>Aggiorna</RibbonButtonUpdate>
+    <RibbonButtonView>Visualizza</RibbonButtonView>
     <RibbonButtonViewAll>Tutto</RibbonButtonViewAll>
     <RibbonButtonViewFavorites>Preferiti</RibbonButtonViewFavorites>
     <RibbonButtonViewNewest>Più Nuovi</RibbonButtonViewNewest>
     <RibbonButtonViewRecent>Recenti</RibbonButtonViewRecent>
+    <RibbonButtonViewRecycleBin>Cestino</RibbonButtonViewRecycleBin>
     <RibbonGroupActions>Azioni</RibbonGroupActions>
     <RibbonGroupAdministration>Amministrazione</RibbonGroupAdministration>
+    <RibbonGroupConfiguration>Configurazione</RibbonGroupConfiguration>
+    <RibbonGroupCreate>Crea</RibbonGroupCreate>
     <RibbonGroupEdit>Modifica</RibbonGroupEdit>
     <RibbonGroupMain>Principale</RibbonGroupMain>
+    <RibbonGroupNotifications>Notifiche</RibbonGroupNotifications>
     <RibbonGroupOther>Altro</RibbonGroupOther>
     <RibbonGroupView>Visualizza</RibbonGroupView>
     <RibbonTabActions>Azioni</RibbonTabActions>
+    <RibbonTabAllElements>Tutti gli elementi</RibbonTabAllElements>
     <RibbonTabCreate>Crea</RibbonTabCreate>
+    <RibbonTabEmailTemplates>Modelli email</RibbonTabEmailTemplates>
     <RibbonTabHome>Home</RibbonTabHome>
+    <RibbonTabOverview>Panoramica</RibbonTabOverview>
     <RibbonTabSystem>Sistema</RibbonTabSystem>
+    <RibbonTabTools>Strumenti</RibbonTabTools>
     <RibbonTabUsers>Utenti</RibbonTabUsers>
+    <RibbonTabWorkspace>Spazio di lavoro</RibbonTabWorkspace>
     <TextItemsFavorites>Preferiti</TextItemsFavorites>
     <TextItemsNewest>Più Nuovi</TextItemsNewest>
     <TextItemsRecent>Recenti</TextItemsRecent>
@@ -436,6 +677,7 @@
     <TextProfile>Profilo</TextProfile>
     <ToolTipConfiguration>Amministrazione utenti e Impostazioni di sistema.</ToolTipConfiguration>
     <ToolTipCopy>Copia l'item selezionato dall'albero e lo inserisce nella Clipboard.</ToolTipCopy>
+    <ToolTipCreate>Crea un nuovo elemento.</ToolTipCreate>
     <ToolTipCreateCalendar>Il Calendario può essere usato per specificare i giorni in cui lo schedulatore verrà eseguito.</ToolTipCreateCalendar>
     <ToolTipCreateCloudStorage>Crea una nuova connessione al cloud storage. E' usata per salvare i risultati delle elaborazioni dello schedulatore o caricare i dati da elaborare.</ToolTipCreateCloudStorage>
     <ToolTipCreateContactList>La lista dei contatti può essere usata nello schedulatore per inviare i risultati dell'elaborazione.</ToolTipCreateContactList>
@@ -455,6 +697,7 @@
     <ToolTipRecycleBin>Ripristina files eliminati o Svuota il Cestino.</ToolTipRecycleBin>
     <ToolTipRefresh>Aggiorna the items tree.</ToolTipRefresh>
     <ToolTipScheduler>E' usato per eseguire i comandi dallo schedulatore.</ToolTipScheduler>
+    <ToolTipSMTP>Impostazioni del server SMTP per l'invio di email.</ToolTipSMTP>
     <ToolTipSort>Ordinamento degli items nell'albero per a condizione specificata.</ToolTipSort>
     <ToolTipSortAZ>Ordinamento - ascendente.</ToolTipSortAZ>
     <ToolTipSortZA>Ordinamento - discendente.</ToolTipSortZA>
@@ -464,17 +707,28 @@
     <ToolTipViewRecent>Mostra solo nuovi items nell'albero.</ToolTipViewRecent>
   </Navigator>
   <Options>
+    <LabelBackground>Sfondo</LabelBackground>
     <LabelCacheDescription>Il Caching delle informazioni avviene su disco, per aumentare le performance del programma e ridurre i tempi di caricamento sul server. A volte, la cache può occupare molto spazio. In quel caso, puoi svuotarla.</LabelCacheDescription>
     <LabelColorScheme>Schema Colori</LabelColorScheme>
+    <LabelForeground>Primo piano</LabelForeground>
     <LabelLanguageDescription>Seleziona una lingua di localizzazione per l'applicazione:</LabelLanguageDescription>
+    <LabelOpenDesignerInANewWindow>Apri il designer in una nuova finestra</LabelOpenDesignerInANewWindow>
+    <LabelOpenViewerInANewWindow>Apri il visualizzatore in una nuova finestra</LabelOpenViewerInANewWindow>
     <LabelStyle>Stile</LabelStyle>
     <MessageApplyTheme>Il nuovo tema verrà applicato dopo aver riavviato l'applicazione!</MessageApplyTheme>
+    <TabAdditionally>Inoltre</TabAdditionally>
     <TabCache>Cache</TabCache>
+    <TabInterface>Interfaccia</TabInterface>
     <TabLanguage>Lingua</TabLanguage>
     <TextDefaultLanguage>Default</TextDefaultLanguage>
     <TextEmpty>Vuoto</TextEmpty>
     <TextTotalFiles>Grandezza Totale - {0:N2} MB</TextTotalFiles>
   </Options>
+  <Quota>
+    <ButtonUpgradeLicense>Aggiorna licenza</ButtonUpgradeLicense>
+    <TextContactYourAdministrator>Per aumentare la quota contatta il tuo amministratore.</TextContactYourAdministrator>
+    <TextQuota>Quota</TextQuota>
+  </Quota>
   <ReportSnapshot>
     <ButtonBookmarks>Segnaposti</ButtonBookmarks>
     <ButtonEditor>Editor</ButtonEditor>
@@ -484,10 +738,12 @@
     <ButtonGoToPage>Vai a Pagina</ButtonGoToPage>
     <ButtonLastPage>Ultima Pagina</ButtonLastPage>
     <ButtonNextPage>Pagina Successiva</ButtonNextPage>
+    <ButtonOpenAfterSaving>Apri dopo il salvataggio</ButtonOpenAfterSaving>
     <ButtonParameters>Parametri</ButtonParameters>
     <ButtonPrevPage>Pagina Precedente</ButtonPrevPage>
     <ButtonPrint>Stampa</ButtonPrint>
     <ButtonSave>Salva</ButtonSave>
+    <ButtonSend>Invia</ButtonSend>
     <ButtonSendEMail>Invia Email</ButtonSendEMail>
     <ButtonThumbnails>Miniature</ButtonThumbnails>
     <ButtonView>Visualizza</ButtonView>
@@ -498,12 +754,21 @@
     <GroupTools>Strumenti</GroupTools>
     <LabelPageN>Pagina:</LabelPageN>
     <LabelPagesPrinted>Pagine stampate:</LabelPagesPrinted>
+    <LabelSelectExportFormat>Seleziona il formato in cui vuoi salvare il report</LabelSelectExportFormat>
     <MessageCantFind>Impossibile trovare i dati che stai cercando.</MessageCantFind>
+    <TabItemCloudStorage>Cloud Storage</TabItemCloudStorage>
+    <TabItemContacts>Contatti</TabItemContacts>
+    <TabItemPreview>Anteprima</TabItemPreview>
     <TextCancelPrinting>Annullamento Stampa...</TextCancelPrinting>
+    <TextClickToView>Fai clic per visualizzare</TextClickToView>
+    <TextCloudStorage>Cloud Storage</TextCloudStorage>
     <TextDoubleClickToView>Doppio click per Visualizzare</TextDoubleClickToView>
+    <TextEmail>Email</TextEmail>
     <TextExportFinishFailure>L'errore è accaduto durante l'esportazione del report.</TextExportFinishFailure>
     <TextExportFinishSuccess>Esportazione completata con successo.</TextExportFinishSuccess>
     <TextExportProcess>Il report sta per essere esportato sul server. Questo può richiedere del tempo.</TextExportProcess>
+    <TextFile>File</TextFile>
+    <TextLaunchViewer>Il visualizzatore di report sta per essere avviato.</TextLaunchViewer>
     <TextLoading>Caricamento...</TextLoading>
     <TextNavigating>Navigazione...</TextNavigating>
     <TextPageOf>{0} di {1}</TextPageOf>
@@ -511,8 +776,10 @@
     <TextPressEscapeToCancel>Premere Esc per Annullare</TextPressEscapeToCancel>
     <TextPrintingFromServerDescription>Il Report ha troppe pagine. Le pagine verranno stampate 15 alla volta dopo il caricamento dal server.</TextPrintingFromServerDescription>
     <TextReportExporting>Esportazione Report...</TextReportExporting>
+    <TextReportPreparing>Preparazione del report...</TextReportPreparing>
     <TextReportPrinting>Stampa Report...</TextReportPrinting>
     <TextReportRendering>Elaborazione Report...</TextReportRendering>
+    <TextSaveReport>Il report è stato esportato. Fai clic su 'Salva' per salvare il risultato.</TextSaveReport>
     <TextSearching>Ricerca...</TextSearching>
     <ToolTipBookmarks>Mostra il pannello dei segnaposti che è usato per navigare velocemente saltando direttamente alle posizioni salvate.</ToolTipBookmarks>
     <ToolTipClose>Chiude l'anteprima Report.</ToolTipClose>
@@ -535,13 +802,33 @@
     <WindowTitleViewer>Visualizzatore</WindowTitleViewer>
   </ReportSnapshot>
   <ReportTemplate>
+    <CategoryCloud>Cloud</CategoryCloud>
+    <CategoryImages>Immagini</CategoryImages>
+    <CategoryRichTexts>Testi ricchi</CategoryRichTexts>
+    <CategorySubReports>Report</CategorySubReports>
     <GroupBoxReportTemplates>Report Templates</GroupBoxReportTemplates>
+    <GroupBoxXmlItem>Elemento XML</GroupBoxXmlItem>
+    <GroupBoxXsdItem>Elemento XSD</GroupBoxXsdItem>
+    <MessageAttachSelectedItems>Vuoi allegare gli elementi selezionati al report '{0}'?</MessageAttachSelectedItems>
+    <MessageCloseDesigner>Vuoi salvare il report prima di chiudere il Report Designer?</MessageCloseDesigner>
+    <MessageEnterDescriptionChanges>Inserisci una descrizione delle modifiche al report.</MessageEnterDescriptionChanges>
+    <MessageErrorOccurredLoadingReport>Si è verificato un errore durante il caricamento del report</MessageErrorOccurredLoadingReport>
+    <MessageFormsNotSupported>I report con moduli non sono supportati!</MessageFormsNotSupported>
     <TextAutomaticNaming>I nomi degli items aggiunti verranno creati automaticamente!</TextAutomaticNaming>
     <TextDescriptionChanges>Per favore, inserisci una descrizione delle modifiche</TextDescriptionChanges>
+    <TextDragDropFilesOrItemsHere>Trascina qui elementi o file</TextDragDropFilesOrItemsHere>
     <TextDragDropItemsHere>Trascina qui gli Items</TextDragDropItemsHere>
     <TextDragDropReportTemplatesHere>Trascina qui i Report Templates</TextDragDropReportTemplatesHere>
+    <TextLaunchDesigner>Il Report Designer sta per essere avviato.</TextLaunchDesigner>
+    <ToolTipDragDropItemsHere>Trascina qui elementi dall'albero per usarli in una nuova dashboard.</ToolTipDragDropItemsHere>
     <ToolTipDragDropItemsHereToAttachIt>Trascina qui una Fonte Dati dall'albero degli items per usarla in un nuovo report. In aggiunta alle Fonti Dati puoi usare immagini, file di testo o di testo formattato per mostrarli in un report. Possono essere usati anche altri report per essere visualizzati come sotto-reports.</ToolTipDragDropItemsHereToAttachIt>
+    <ToolTipDragDropItemsOrFilesHere>Trascina qui un file dall'esplora file o elementi dall'albero.</ToolTipDragDropItemsOrFilesHere>
     <ToolTipDragDropReportTemplatesHere>Trascina qui un file di report template dal file explorer per creare un report template basato su di esso. Puoi usare anche un report esistente per creare un nuovo report. Per farlo, Trascina qui un report template dall'albero degli items.</ToolTipDragDropReportTemplatesHere>
+    <ToolTipInfoUsingAttachDataSource>Se la fonte dati è allegata, il suo contenuto (dati come schemi, tabelle, stored procedure ecc.) può essere utilizzato durante la creazione dei report.</ToolTipInfoUsingAttachDataSource>
+    <ToolTipInfoUsingAttachImage>L'immagine allegata sarà una risorsa permanente di questo modello. L'immagine può essere usata in un report senza doverla caricare da fonti esterne.</ToolTipInfoUsingAttachImage>
+    <ToolTipInfoUsingAttachReportTemplate>L'elemento come modello di report sarà allegato in relazione al report creato.</ToolTipInfoUsingAttachReportTemplate>
+    <ToolTipInfoUsingAttachText>Il file di testo allegato può essere una fonte di testo quando si lavora con i componenti di testo del report, inclusi i componenti Rich.</ToolTipInfoUsingAttachText>
+    <ToolTipInfoUsingAttachXmlXsd>Se si allegano file XML e XSD al report, verrà generata una fonte dati sulla loro base. Questa fonte dati può essere usata per creare report.</ToolTipInfoUsingAttachXmlXsd>
     <ToolTipSetParameters>Definizione Parametri Report</ToolTipSetParameters>
     <WindowDescriptionNew>Scegli dalle opzioni presenti sopra come creare un nuovo report. Il report creato verrà salvato in "{0}".</WindowDescriptionNew>
     <WindowTitleDesigner>Designer</WindowTitleDesigner>
@@ -559,32 +846,49 @@
   </ReportTemplate>
   <Scheduler>
     <ActionCopy>Copia</ActionCopy>
+    <ActionRunMailing>Esegui Mailing</ActionRunMailing>
     <ActionRunReport>Esegui Report</ActionRunReport>
     <ActionRunScheduler>Esegui Scheduler</ActionRunScheduler>
     <ActionSendEmail>Invia Email</ActionSendEmail>
     <ButtonStartScheduler>Avvia</ButtonStartScheduler>
     <ButtonStopScheduler>Ferma</ButtonStopScheduler>
+    <CategoryCommon>Comune</CategoryCommon>
+    <CategoryExceptionCalendar>Eccezione</CategoryExceptionCalendar>
+    <CategoryFrequency>Frequenza</CategoryFrequency>
+    <CategoryNotify>Notifica</CategoryNotify>
+    <CategoryRange>Intervallo</CategoryRange>
+    <CategoryRepeat>Ripeti</CategoryRepeat>
+    <CheckBoxAlsoCopyTo>Copia anche a</CheckBoxAlsoCopyTo>
     <CheckBoxExcludeWeekendDays>Escludi giorni del Weekend</CheckBoxExcludeWeekendDays>
+    <CheckBoxOverwriteIfExists>Sovrascrivi se esiste</CheckBoxOverwriteIfExists>
     <CheckBoxRunAfterCreation>Esegui dopo la Creazione</CheckBoxRunAfterCreation>
     <CheckBoxRunAfterSaving>Esegui dopo il Salvataggio</CheckBoxRunAfterSaving>
     <CheckBoxRunOnce>Esegui una volta</CheckBoxRunOnce>
+    <ComboBoxItemAttachment>Allegato</ComboBoxItemAttachment>
+    <ComboBoxItemLink>Collegamento</ComboBoxItemLink>
     <GroupBoxExceptionCalendar>Eccezione</GroupBoxExceptionCalendar>
     <GroupBoxRange>Range</GroupBoxRange>
     <GroupBoxRepeat>Ripeti</GroupBoxRepeat>
+    <GroupBoxReport>Report</GroupBoxReport>
+    <GroupBoxScheduler>Pianificatore</GroupBoxScheduler>
     <HyperlinkAdvancedSettings>Impostazioni Avanzate</HyperlinkAdvancedSettings>
+    <LabelAttachmentDelivery>Consegna allegato</LabelAttachmentDelivery>
     <LabelAttachments>Allegati:</LabelAttachments>
     <LabelCurrentStatus>Stato Corrente:</LabelCurrentStatus>
     <LabelDaysOfWeek>giorni della Settimana:</LabelDaysOfWeek>
     <LabelDestination>Destinazione:</LabelDestination>
     <LabelEndDate>Data Fine:</LabelEndDate>
     <LabelFrequency>Frequenza:</LabelFrequency>
+    <LabelFrom>Da</LabelFrom>
     <LabelMessage>Messaggio:</LabelMessage>
     <LabelNewAction>Nuova Azione</LabelNewAction>
+    <LabelRepeat>Ripeti</LabelRepeat>
     <LabelRepeatCount>Conteggio Ripetizioni:</LabelRepeatCount>
     <LabelRepeatRate>Numero di ripetizioni:</LabelRepeatRate>
     <LabelRepeatType>Tipo ripetizioni:</LabelRepeatType>
     <LabelReport>Report:</LabelReport>
     <LabelResultExpiresAfter>Il risultato Scade Dopo:</LabelResultExpiresAfter>
+    <LabelResultName>Nome risultato</LabelResultName>
     <LabelResultType>Tipo Risultato:</LabelResultType>
     <LabelRunAtDay>Esegui il giorno:</LabelRunAtDay>
     <LabelRunAtMinute>Esegui al Minuto:</LabelRunAtMinute>
@@ -598,12 +902,17 @@
     <LabelSubject>Oggetto:</LabelSubject>
     <LabelTimeZone>Fuso Orario:</LabelTimeZone>
     <LabelTo>A:</LabelTo>
+    <LabelType>Tipo</LabelType>
     <MessageItIsNecessaryToHaveOnlyTheOriginalFile>Per copiare dati tra items dello stesso tipo, è ecesario avere solo l'item originale!</MessageItIsNecessaryToHaveOnlyTheOriginalFile>
     <MessageReportDoesNotContainParameters>Questo report non contiene parametri!</MessageReportDoesNotContainParameters>
+    <MessageSchedulerRunning>Il pianificatore è in esecuzione...</MessageSchedulerRunning>
     <MessageTheFileTypesMustMatch>Il Tipo dell'item copiato deve corrispondere al tipo dell'item in cui lo si vuole copiare!</MessageTheFileTypesMustMatch>
     <MessageTheItemIsAlreadyAdded>L'item è già stato aggiunto!</MessageTheItemIsAlreadyAdded>
+    <MessageYouCannotUseThisDestinationForTheCurrentItems>Non puoi usare questa destinazione per gli elementi attuali!</MessageYouCannotUseThisDestinationForTheCurrentItems>
     <RadioButtonDay>giorno</RadioButtonDay>
+    <RadioButtonNotRepeat>Non ripetere</RadioButtonNotRepeat>
     <RadioButtonOn>On</RadioButtonOn>
+    <RadioButtonRepeat>Ripeti {0} volte con intervallo di {1} {2}</RadioButtonRepeat>
     <TabItemActions>Azioni</TabItemActions>
     <TabItemSettings>Impostazioni</TabItemSettings>
     <TextDragDropAttachedHere>Trascina qui l'Item allegato</TextDragDropAttachedHere>
@@ -614,8 +923,11 @@
     <TextDragDropSchedulerHere>Trascina qui lo Schedulatore</TextDragDropSchedulerHere>
     <TextFrequency>Questo campo specifica con che frequenza lo schedulatore verrà eseguito.</TextFrequency>
     <TextPressPlusIconAddNewAction>Clicca l'icona più per aggiungere una nuova azione!</TextPressPlusIconAddNewAction>
+    <TextRunningScheduler>Il pianificatore è in esecuzione...</TextRunningScheduler>
+    <TextRunScheduler>Fai clic su 'OK' per eseguire il pianificatore.</TextRunScheduler>
     <ToolTipChangeResultType>Cambia il modo di gestire il risultato della creazione del report</ToolTipChangeResultType>
     <ToolTipDaysOfWeek>Un giorno della settimana in cui lo schedulatore verrà eseguito. Puoi selezionare un singolo giorno, più giorni o tutti i giorni. Se si seleziona più di un giorno, lo schedulatore verra eseguito nei giorni selezionati.</ToolTipDaysOfWeek>
+    <ToolTipDeleteAction>Elimina azione</ToolTipDeleteAction>
     <ToolTipDragDropActionRunReportDestinationHere>Trascina qui un item di destinazione dall'albero degli items. La destinazione conterrà i risultati. L'item di destinazione  può essere un report snapshot esistente o un file item. In quel caso l'item di destinazione verrà sostituito al risultato del report elaborato.</ToolTipDragDropActionRunReportDestinationHere>
     <ToolTipDragDropAttachedHere>Trascina qui l'item dall'albero degli items. L'item allegato verrà inviato per email.</ToolTipDragDropAttachedHere>
     <ToolTipDragDropCalendarHere>Trascina un Calendario dall'albero degli items. Lo schedulatore verrà eseguito in base ai giorni specificati nel calendario.</ToolTipDragDropCalendarHere>
@@ -639,6 +951,7 @@
     <ToolTipRunOnce>Deseleziona questa casella se vuoi che lo schedulatore venga eseguito a un'ora specifica, più volte in copia. Ad esempio, lo schedulatore può essere eseguito all'una e ripetere la sua esecuzione due volte ogni 3 minuti.</ToolTipRunOnce>
     <ToolTipStartDate>Esegui lo Schedulatore non prima di questa ora.</ToolTipStartDate>
     <ToolTipTimeZone>Esegui lo Schedulatore in base al fuso orario.</ToolTipTimeZone>
+    <WindowTitleResultName>Nome risultato</WindowTitleResultName>
     <WizardCalendar>Calendario</WizardCalendar>
     <WizardCalendarDescription>Esegue lo Schedulatore nelle date specificate nel Calendario selezionato.</WizardCalendarDescription>
     <WizardDaily>Giornaliero</WizardDaily>
@@ -654,4 +967,17 @@
     <WizardYearly>Annuale</WizardYearly>
     <WizardYearlyDescription>Ogni anno, in un mese, giorno e ora indicati.</WizardYearlyDescription>
   </Scheduler>
+  <Update>
+    <ButtonDetails>Dettagli</ButtonDetails>
+    <ButtonIAgree>Accetto</ButtonIAgree>
+    <ButtonUpdate>Aggiorna</ButtonUpdate>
+    <GroupBoxCurrentSoftware>Software attuale</GroupBoxCurrentSoftware>
+    <MessageCheckingNewVersion>Verifica nuova versione di {0}...</MessageCheckingNewVersion>
+    <MessageErrorOccurred>Si è verificato un errore.</MessageErrorOccurred>
+    <MessageLatestVersionIsInstalled>L'ultima versione di {0} è installata.</MessageLatestVersionIsInstalled>
+    <MessageNewVersionAvailable>Nuova versione disponibile!</MessageNewVersionAvailable>
+    <MessageNewVersionInstallingNow>La nuova versione è in fase di installazione...</MessageNewVersionInstallingNow>
+    <MessageNewVersionNotAvailable>Nessuna nuova versione trovata.</MessageNewVersionNotAvailable>
+    <MessageUnableCheckForUpdates>Impossibile verificare la presenza di aggiornamenti. Fai clic su 'Riprova' per controllare nuovamente.</MessageUnableCheckForUpdates>
+  </Update>
 </Localization>
