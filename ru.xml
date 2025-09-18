@@ -2175,6 +2175,8 @@
     <ReportOpen>Открыть отчет в дизайнере.</ReportOpen>
     <ReportPreview>Просмотр редактируемого отчета.</ReportPreview>
     <ReportSave>Сохранить редактируемый отчет.</ReportSave>
+    <ScriptEvalAccess1>Этот документ использует Script Eval. Если документ получен из доверенного источника, вы можете нажать кнопку «Открыть» для доступа к нему.</ScriptEvalAccess1>
+    <ScriptEvalAccess2>Если вы не уверены в источнике документа, но всё равно хотите его просмотреть, вы можете нажать кнопку «Открыть в безопасном режиме». В этом случае Script Eval будет проигнорирован и не выполнится.</ScriptEvalAccess2>
     <SelectAll>Выбрать все компоненты на странице.</SelectAll>
     <SelectUILanguage>Выбрать язык интерфейса.</SelectUILanguage>
     <SendToBack>Переместить выбранные компоненты назад по отношению к другим компонентам.</SendToBack>
@@ -4546,6 +4548,7 @@
     <Placeholder>Шаблон значения</Placeholder>
     <Placement>Размещение</Placement>
     <PlaceOnToolbox>Размещать в инструментарии</PlaceOnToolbox>
+    <Platform>Платформа</Platform>
     <PointAtCenter>Точка в Центре</PointAtCenter>
     <Position>Позиция</Position>
     <Positive>Позитивный</Positive>
@@ -5194,6 +5197,7 @@
     <LabelNestedLevel>Коэффициент вложенности:</LabelNestedLevel>
     <LabelPassword>Пароль:</LabelPassword>
     <LabelPixels>Пиксели:</LabelPixels>
+    <LabelPlatform>Если платформа .NET, будет использоваться скрипт C#. Если платформа JS, будет использоваться JavaScript.</LabelPlatform>
     <LabelQueryTimeout>Время ожидания запроса:</LabelQueryTimeout>
     <LabelSystemVariable>Системные переменные:</LabelSystemVariable>
     <LabelTableOfContentsHint>Пожалуйста, отметьте те компоненты, которые должны формировать содержание. Один компонент – один уровень заголовка.</LabelTableOfContentsHint>
@@ -5227,6 +5231,7 @@
     <RestartDesigner>Вам необходимо перезапустить дизайнер отчетов.</RestartDesigner>
     <SaveReportPagesOrFormsFromReport>Сохранить отчет, страницу или форму отчета</SaveReportPagesOrFormsFromReport>
     <SavingReport>Сохранение отчета</SavingReport>
+    <ScriptEvalAccess>Доступ к Script Eval</ScriptEvalAccess>
     <SecondPass>Второй проход</SecondPass>
     <Shapes>Примитивы</Shapes>
     <ShowOnParametersPanel>Показывать на панели параметров</ShowOnParametersPanel>
