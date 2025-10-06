@@ -5406,7 +5406,7 @@
     <LineRoman>Returns the current line number in Roman numerals.</LineRoman>
     <LineThrough>Returns the current line number (starts from 1). When calculating the number, all groupings are ignored and numbering starts from the beginning of printing.</LineThrough>
     <PageCopyNumber>Return a number of a current copy of a page (starts from 1).</PageCopyNumber>
-    <PageLine>Returns the current line number on a page (starting from 1). Requires Double-Pass mode to be enabled.</PageLine>
+    <PageLine>Returns the current line number on a page (starting from 1).</PageLine>
     <PageNofM>Returns a localized string, showing "Page N of M" where N is the current page number and M is the TotalPageCount of a report.</PageNofM>
     <PageNofMThrough>Returns a localized string, showing "Page N of M" where N is the current page number and M is the TotalPageCount of a report. When calculating the PageNofMThrough, all properties ResetPageNumber are ignored and numbering starts from the beginning of a report.</PageNofMThrough>
     <PageNumber>Returns the current page number (starts from 1).</PageNumber>
