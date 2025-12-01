@@ -2186,6 +2186,8 @@
     <ReportSave>Сохранить редактируемый отчет.</ReportSave>
     <ScriptEvalAccess1>Этот документ использует Script Eval. Если документ получен из доверенного источника, вы можете нажать кнопку «Открыть» для доступа к нему.</ScriptEvalAccess1>
     <ScriptEvalAccess2>Если вы не уверены в источнике документа, но всё равно хотите его просмотреть, вы можете нажать кнопку «Открыть в безопасном режиме». В этом случае Script Eval будет проигнорирован и не выполнится.</ScriptEvalAccess2>
+    <ScriptSecurityFullAccess>Полный доступ в скриптах (без ограничений, потенциально небезопасно).</ScriptSecurityFullAccess>
+    <ScriptSecuritySafeMode>Безопасный доступ в скриптах (ограниченные возможности для безопасности).</ScriptSecuritySafeMode>
     <SelectAll>Выбрать все компоненты на странице.</SelectAll>
     <SelectUILanguage>Выбрать язык интерфейса.</SelectUILanguage>
     <SendToBack>Переместить выбранные компоненты назад по отношению к другим компонентам.</SendToBack>
@@ -3561,6 +3563,8 @@
     <StiRestrictionsAllowResize>Изменение размера допускается</StiRestrictionsAllowResize>
     <StiRestrictionsAllowSelect>Выбор допускается</StiRestrictionsAllowSelect>
     <StiRestrictionsNone>Нет</StiRestrictionsNone>
+    <StiScriptSecurityFullAccess>Полный доступ</StiScriptSecurityFullAccess>
+    <StiScriptSecuritySafeMode>Безопасный режим</StiScriptSecuritySafeMode>
     <StiSelectionModeFirst>Первый</StiSelectionModeFirst>
     <StiSelectionModeFromVariable>Из переменной</StiSelectionModeFromVariable>
     <StiSelectionModeNothing>Ничего</StiSelectionModeNothing>
@@ -5246,6 +5250,7 @@
     <SaveReportPagesOrFormsFromReport>Сохранить отчет, страницу или форму отчета</SaveReportPagesOrFormsFromReport>
     <SavingReport>Сохранение отчета</SavingReport>
     <ScriptEvalAccess>Доступ к Script Eval</ScriptEvalAccess>
+    <ScriptSecurity>Безопасность скриптов</ScriptSecurity>
     <SecondPass>Второй проход</SecondPass>
     <Shapes>Примитивы</Shapes>
     <ShowOnParametersPanel>Показывать на панели параметров</ShowOnParametersPanel>
