@@ -2181,6 +2181,8 @@
     <ReportSave>Zapisz aktualnie modyfikowany raport.</ReportSave>
     <ScriptEvalAccess1>Ten dokument używa funkcji Script Eval. Jeśli dokument pochodzi z zaufanego źródła, możesz kliknąć przycisk „Otwórz”, aby uzyskać do niego dostęp.</ScriptEvalAccess1>
     <ScriptEvalAccess2>Jeśli nie masz pewności co do źródła dokumentu, ale nadal chcesz go wyświetlić, możesz kliknąć przycisk „Otwórz w trybie bezpiecznym”. W takim przypadku funkcja Script Eval zostanie pominięta i nie zostanie wykonana.</ScriptEvalAccess2>
+    <ScriptSecurityFullAccess>Pełny dostęp do skryptów (bez ograniczeń, potencjalnie niebezpieczne).</ScriptSecurityFullAccess>
+    <ScriptSecuritySafeMode>Bezpieczny dostęp do skryptów (ograniczone możliwości ze względów bezpieczeństwa).</ScriptSecuritySafeMode>
     <SelectAll>Wybierz wszystkie komponenty na aktualnej stronie.</SelectAll>
     <SelectUILanguage>Wybierz język interfejsu.</SelectUILanguage>
     <SendToBack>Przesuń wybrany komponent na tył w stosunku do pozostałych elementów.</SendToBack>
@@ -3508,6 +3510,8 @@
     <StiRestrictionsAllowResize>Zezwól na zmianę rozmiaru</StiRestrictionsAllowResize>
     <StiRestrictionsAllowSelect>Zezwól na zaznaczanie</StiRestrictionsAllowSelect>
     <StiRestrictionsNone>Brak</StiRestrictionsNone>
+    <StiScriptSecurityFullAccess>Pełny dostęp</StiScriptSecurityFullAccess>
+    <StiScriptSecuritySafeMode>Tryb bezpieczny</StiScriptSecuritySafeMode>
     <StiSelectionModeFirst>Pierwszy</StiSelectionModeFirst>
     <StiSelectionModeFromVariable>Od zmiennej</StiSelectionModeFromVariable>
     <StiSelectionModeNothing>Nic</StiSelectionModeNothing>
@@ -5183,6 +5187,7 @@
     <SaveReportPagesOrFormsFromReport>Zapisz raport, strony lub formularze</SaveReportPagesOrFormsFromReport>
     <SavingReport>Zapisywanie raportu</SavingReport>
     <ScriptEvalAccess>Dostęp do Script Eval</ScriptEvalAccess>
+    <ScriptSecurity>Zabezpieczenia skryptów</ScriptSecurity>
     <SecondPass>Drugi przebieg</SecondPass>
     <Shapes>Kształty</Shapes>
     <ShowOnParametersPanel>Pokaż w panelu parametrów</ShowOnParametersPanel>
