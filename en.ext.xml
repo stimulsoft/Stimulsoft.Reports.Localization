@@ -230,7 +230,7 @@
     <Warning>Warning! </Warning>
   </CheckGlobal>
   <CheckLicense>
-    <StiLicenseTrialCheckLong>You are using the trial version of Stimulsoft Reports and Dashboards. To use the software in production you should purchase a license.</StiLicenseTrialCheckLong>
+    <StiLicenseTrialCheckLong>Trial version for product evaluation only. A license is required to develop or deploy with Stimulsoft.</StiLicenseTrialCheckLong>
     <StiValidSubscriptioRequiredCheckLong>Valid Subscription Required. Please update your subscription to use the fully functional version of Stimulsoft Designer.</StiValidSubscriptioRequiredCheckLong>
   </CheckLicense>
   <CheckPage>
@@ -246,8 +246,8 @@
     <StiCloudCompilationModeCheckLong>Stimulsoft Cloud cannot preview this report in the compilation mode. Change the report to the interpretation mode.</StiCloudCompilationModeCheckLong>
     <StiCloudCompilationModeCheckShort>This report is in the compilation mode</StiCloudCompilationModeCheckShort>
     <StiCompilationErrorAssemblyCheckLong>Could not load file or assembly '{0}' or one of its dependencies.</StiCompilationErrorAssemblyCheckLong>
-    <StiCompilationErrorCheck2Long>The error of compilation is found in the '{1}' property of the '{2}' component:</StiCompilationErrorCheck2Long>
-    <StiCompilationErrorCheck3Long>The error of compilation is found in the '{1}' event of the '{2}' component:</StiCompilationErrorCheck3Long>
+    <StiCompilationErrorCheck2Long>The error of compilation is found in the '{1}' property of the '{2}' component.</StiCompilationErrorCheck2Long>
+    <StiCompilationErrorCheck3Long>The error of compilation is found in the '{1}' event of the '{2}' component.</StiCompilationErrorCheck3Long>
     <StiCompilationErrorCheckLong>The error of compilation is found in the '{0}' report:</StiCompilationErrorCheckLong>
     <StiCompilationErrorCheckShort>The error of compilation</StiCompilationErrorCheckShort>
     <StiCompilationWarningCheckLong>A compilation warning is found in the '{0}' report:</StiCompilationWarningCheckLong>
@@ -269,6 +269,10 @@
     <StiNetCoreCompilationModeCheckShort>This report is in the compilation mode</StiNetCoreCompilationModeCheckShort>
     <StiResourcesFontsCheckLong>Cannot load the font from resource '{0}'. The file is corrupted, or the file format is unsupported.</StiResourcesFontsCheckLong>
     <StiResourcesFontsCheckShort>Font not loaded</StiResourcesFontsCheckShort>
+    <StiScriptExecutionErrorCheck2Long>The script execution error occurred in the '{1}' property of the '{2}' component.</StiScriptExecutionErrorCheck2Long>
+    <StiScriptExecutionErrorCheck3Long>The script execution error occurred in the '{1}' event of the '{2}' component.</StiScriptExecutionErrorCheck3Long>
+    <StiScriptExecutionErrorCheckLong>The script execution error occurred.</StiScriptExecutionErrorCheckLong>
+    <StiScriptExecutionErrorCheckShort>Script execution error</StiScriptExecutionErrorCheckShort>
   </CheckReport>
   <CheckVariable>
     <StiVariableInitializationCheckLong>The '{0}' variable has the wrong default value. It is impossible to initialize the variable with a specified value.</StiVariableInitializationCheckLong>
@@ -948,7 +952,7 @@
   <StiCheckBoxControl>
     <Checked>A value indicates whether the check box is in the checked state.</Checked>
     <CheckedBinding>Data bindings for the checked.</CheckedBinding>
-    <CheckedChangedEvent>A script of the CheckedChanged event.</CheckedChangedEvent>
+    <CheckedChangedEvent>Occurs when the value of the Checked property changes.</CheckedChangedEvent>
     <Text>A text associated with this control.</Text>
     <TextBinding>Data bindings for the text.</TextBinding>
   </StiCheckBoxControl>
@@ -958,7 +962,7 @@
     <Items>A collection of items in this CheckedListBox.</Items>
     <ItemsBinding>A data bindings for the items.</ItemsBinding>
     <SelectedIndexBinding>Data bindings for the selected index.</SelectedIndexBinding>
-    <SelectedIndexChangedEvent>Occurs when the SelectedIndex property has been changed.</SelectedIndexChangedEvent>
+    <SelectedIndexChangedEvent>Occurs when the SelectedIndex property has changed.</SelectedIndexChangedEvent>
     <SelectedItemBinding>Data bindings for the selected item.</SelectedItemBinding>
     <SelectedValueBinding>Data bindings for the selected value.</SelectedValueBinding>
     <SelectionMode>A value specifying the selection mode.</SelectionMode>
@@ -1043,7 +1047,7 @@
     <ItemsBinding>Data bindings for the items.</ItemsBinding>
     <MaxDropDownItems>Maximum number.</MaxDropDownItems>
     <MaxLength>Maximum number of characters allowed.</MaxLength>
-    <SelectedIndexChangedEvent>A script of the SelectedIndexChanged event.</SelectedIndexChangedEvent>
+    <SelectedIndexChangedEvent>Occurs when the SelectedIndex property has changed.</SelectedIndexChangedEvent>
     <SelectedItemBinding>Data bindings for the selected item.</SelectedItemBinding>
     <SelectedValueBinding>Data bindings for the selected value.</SelectedValueBinding>
     <Sorted>A value indicates whether the items are sorted.</Sorted>
@@ -1173,8 +1177,8 @@
     <DisplayValue>An expression that is used for calculation of a cell value which will be output in the table.</DisplayValue>
     <EnumeratorSeparator>The enumerator separator.</EnumeratorSeparator>
     <EnumeratorType>The enumerator type.</EnumeratorType>
-    <GetCrossValueEvent>A script of the event GetValueEvent.</GetCrossValueEvent>
-    <GetDisplayCrossValueEvent>A script of the event GetDisplayCrossValueEvent.</GetDisplayCrossValueEvent>
+    <GetCrossValueEvent>Occurs when getting the cross value.</GetCrossValueEvent>
+    <GetDisplayCrossValueEvent>Occurs when getting the display cross value.</GetDisplayCrossValueEvent>
     <HideZeros>A value indicates that no need show zeroes.</HideZeros>
     <KeepMergedCellsTogether>A value indicates that merged cells will not separate to next page.</KeepMergedCellsTogether>
     <MergeHeaders>A value indicates that all equal values of header will be merged into one.</MergeHeaders>
@@ -1235,7 +1239,7 @@
     <TotalCellRowForeColor>The property defines the color which will be used for drawing of the values in the total cell row.</TotalCellRowForeColor>
   </StiCrossTabStyle>
   <StiDataBand>
-    <BeginRenderEvent>Occurs when band begin render.</BeginRenderEvent>
+    <BeginRenderEvent>Occurs when the band begins to render.</BeginRenderEvent>
     <CalcInvisible>A value indicates that, when aggregate functions calculation, it is necessary to take into consideration invisible data bands.</CalcInvisible>
     <ColumnDirection>Direction of the rendering columns.</ColumnDirection>
     <ColumnGaps>Distance between two columns.</ColumnGaps>
@@ -1257,7 +1261,7 @@
     <OddStyle>A value that indicates style of odd lines.</OddStyle>
     <PrintIfDetailEmpty>A value indicates that if detail is empty then the master data must be printed anyway.</PrintIfDetailEmpty>
     <PrintOnAllPages>A value indicates that the component is printed on all pages.</PrintOnAllPages>
-    <RenderingEvent>Occurs when a data row rendering.</RenderingEvent>
+    <RenderingEvent>Occurs when a data row is rendered.</RenderingEvent>
     <ResetDataSource>A value that indicates to reset Data Source position to begin when preparation for rendering.</ResetDataSource>
     <RightToLeft>Horizontal column direction.</RightToLeft>
   </StiDataBand>
@@ -1331,7 +1335,7 @@
     <Today>A value that indicates the date is set equal current date.</Today>
     <Value>A date-time value assigned to the control.</Value>
     <ValueBinding>Data bindings for the value.</ValueBinding>
-    <ValueChangedEvent>A script of the event ValueChanged.</ValueChangedEvent>
+    <ValueChangedEvent>Occurs when the Value property has changed.</ValueChangedEvent>
   </StiDateTimePickerControl>
   <StiDialogStyle>
     <GlyphColor>A glyph color of the style.</GlyphColor>
@@ -1397,11 +1401,11 @@
     <SupplementType>Gets or sets type of supplement code.</SupplementType>
   </StiEAN8BarCodeType>
   <StiEmptyBand>
-    <BeginRenderEvent>Occurs when band begin render.</BeginRenderEvent>
+    <BeginRenderEvent>Occurs when the band begins to render.</BeginRenderEvent>
     <EndRenderEvent>Occurs when band rendering is finished.</EndRenderEvent>
     <EvenStyle>A value that indicates style of even lines.</EvenStyle>
     <OddStyle>A value that indicates style of odd lines.</OddStyle>
-    <RenderingEvent>Occurs when data row rendering.</RenderingEvent>
+    <RenderingEvent>Occurs when a data row is rendered.</RenderingEvent>
     <SizeMode>This property allows to indicate how to change the size of the last row on a page.</SizeMode>
   </StiEmptyBand>
   <StiFIMBarCodeType>
@@ -1416,11 +1420,11 @@
   </StiFooterBand>
   <StiForm>
     <BackColor>A background color for the control.</BackColor>
-    <ClickEvent>A script of the Click event.</ClickEvent>
-    <ClosedFormEvent>A script of the ClosedForm event.</ClosedFormEvent>
-    <ClosingFormEvent>A script of the ClosingForm event.</ClosingFormEvent>
+    <ClickEvent>Occurs when the form is clicked.</ClickEvent>
+    <ClosedFormEvent>Occurs when the form is closed.</ClosedFormEvent>
+    <ClosingFormEvent>Occurs when the form is closing.</ClosingFormEvent>
     <Font>A font of the control.</Font>
-    <LoadFormEvent>A script of the LoadForm event.</LoadFormEvent>
+    <LoadFormEvent>Occurs before a form is displayed for the first time.</LoadFormEvent>
     <Location>The coordinates of the upper-left corner of the form.</Location>
     <RightToLeft>A value indicates whether control's elements are aligned to support locales using right-to-left fonts.</RightToLeft>
     <Size>Size of the form.</Size>
@@ -1432,7 +1436,7 @@
   </StiForm>
   <StiGanttSeries>
     <GetListOfValuesEndEvent>Occurs when getting the list of end values.</GetListOfValuesEndEvent>
-    <GetValueEndEvent>Occurs when getting the property Value.</GetValueEndEvent>
+    <GetValueEndEvent>Occurs when getting the end value.</GetValueEndEvent>
     <ListOfValues>An expression to fill a list of start values. Example: 1;2;3</ListOfValues>
     <ListOfValuesEnd>An expression to fill a list of end values. Example: 1;2;3</ListOfValuesEnd>
     <Value>The start value expression. Example: {Order.Value}</Value>
@@ -1517,7 +1521,7 @@
     <HeaderBackColor>A background color of all row and column headers.</HeaderBackColor>
     <HeaderFont>A font used for column headers.</HeaderFont>
     <HeaderForeColor>A foreground color of headers.</HeaderForeColor>
-    <PositionChangedEvent>A script of the event PositionChanged.</PositionChangedEvent>
+    <PositionChangedEvent>Occurs when the Position property has changed.</PositionChangedEvent>
     <PreferredColumnWidth>Default width of the grid columns in pixels.</PreferredColumnWidth>
     <PreferredRowHeight>The preferred row height.</PreferredRowHeight>
     <RowHeadersVisible>A value that specifies whether row headers are visible.</RowHeadersVisible>
@@ -1542,16 +1546,16 @@
     <KeepGroupFooterTogether>A value indicates that the group footer is printed with data.</KeepGroupFooterTogether>
   </StiGroupFooterBand>
   <StiGroupHeaderBand>
-    <BeginRenderEvent>Occurs when band begins to render.</BeginRenderEvent>
+    <BeginRenderEvent>Occurs when the band begins to render.</BeginRenderEvent>
     <Condition>Grouping condition.</Condition>
-    <EndRenderEvent>Occurs when ends rendering band.</EndRenderEvent>
+    <EndRenderEvent>Occurs when the band finishes rendering.</EndRenderEvent>
     <GetCollapsedEvent>Occurs when the Collapsed value is calculated.</GetCollapsedEvent>
-    <GetSummaryExpressionEvent>Occurs when when group summary expression is calculated.</GetSummaryExpressionEvent>
-    <GetValueEvent>Occurs when condition of the group is checked.</GetValueEvent>
+    <GetSummaryExpressionEvent>Occurs when the group summary expression is calculated.</GetSummaryExpressionEvent>
+    <GetValueEvent>Occurs when the group condition is checked.</GetValueEvent>
     <KeepGroupHeaderTogether>A value indicates that group header is printed together with data.</KeepGroupHeaderTogether>
     <KeepGroupTogether>A value indicates that a group is to be kept together.</KeepGroupTogether>
     <PrintOnAllPages>A value indicates that the component is printed on all pages.</PrintOnAllPages>
-    <RenderingEvent>Occurs when occurs rendering one line of data.</RenderingEvent>
+    <RenderingEvent>Occurs when a data row is rendered.</RenderingEvent>
     <SortDirection>Sorting direction of grouped data.</SortDirection>
     <SummaryExpression>Gets or sets summary expression which is used for group summary totals calculation.</SummaryExpression>
     <SummarySortDirection>Gets or sets function of calculating group totals for its sorting by totals.</SummarySortDirection>
@@ -1677,6 +1681,7 @@
     <BorderColor>A border color.</BorderColor>
     <Brush>A background brush of legend.</Brush>
     <Columns>Amount of columns.</Columns>
+    <ColumnWidth>Specifies the width of a legend column. Can be used together with Word Wrap to control text wrapping within legend items.</ColumnWidth>
     <Direction>Direction which used for series drawing in legend.</Direction>
     <Font>A font which used for series title drawing in chart legend.</Font>
     <HideSeriesWithEmptyTitle>A value which shows/hides series with empty title.</HideSeriesWithEmptyTitle>
@@ -1695,6 +1700,7 @@
     <VertAlignment>Vertical alignment of legend placement.</VertAlignment>
     <VertSpacing>Vertical spacing between items in legend.</VertSpacing>
     <Visible>Visibility of chart legend.</Visible>
+    <WordWrap>Enables or disables text wrapping in legend items. Works together with Column Width.</WordWrap>
   </StiLegend>
   <StiLinePrimitive>
     <Color>A line color.</Color>
@@ -1708,7 +1714,7 @@
     <Items>Items of the ListBox.</Items>
     <ItemsBinding>Data bindings for the items.</ItemsBinding>
     <SelectedIndexBinding>Data bindings for the selected index.</SelectedIndexBinding>
-    <SelectedIndexChangedEvent>A script of the event SelectedIndexChanged.</SelectedIndexChangedEvent>
+    <SelectedIndexChangedEvent>Occurs when the SelectedIndex property has changed.</SelectedIndexChangedEvent>
     <SelectedItemBinding>Data bindings for the selected item.</SelectedItemBinding>
     <SelectedValueBinding>Data bindings for the selected value.</SelectedValueBinding>
     <SelectionMode>A method in what items are selected in the ListBox.</SelectionMode>
@@ -1766,7 +1772,7 @@
     <MinimumBinding>Data bindings for the minimum.</MinimumBinding>
     <Value>A value assigned to the up-down control.</Value>
     <ValueBinding>Data bindings for the value.</ValueBinding>
-    <ValueChangedEvent>A script of the event ValueChanged.</ValueChangedEvent>
+    <ValueChangedEvent>Occurs when the Value property has changed.</ValueChangedEvent>
   </StiNumericUpDownControl>
   <StiOutsidePieLabels>
     <LineLength>A line length between border of series labels and border of pie series.</LineLength>
@@ -1778,10 +1784,10 @@
     <Top>The value sets the padding inside the element from the top border and its contents.</Top>
   </StiPadding>
   <StiPage>
-    <BeginRenderEvent>Occurs when when a page begins to render.</BeginRenderEvent>
-    <ColumnBeginRenderEvent>Occurs when begin rendering a column.</ColumnBeginRenderEvent>
-    <ColumnEndRenderEvent>Occurs when column rendering ends.</ColumnEndRenderEvent>
-    <EndRenderEvent>Occurs when a page render ends.</EndRenderEvent>
+    <BeginRenderEvent>Occurs when a page begins to render.</BeginRenderEvent>
+    <ColumnBeginRenderEvent>Occurs when a column begins to render.</ColumnBeginRenderEvent>
+    <ColumnEndRenderEvent>Occurs when a column finishes rendering.</ColumnEndRenderEvent>
+    <EndRenderEvent>Occurs when a page finishes rendering.</EndRenderEvent>
     <ExcelSheet>An expression that is used for generation name of excel sheet.</ExcelSheet>
     <GetExcelSheetEvent>Occurs when the ExcelSheet is calculated.</GetExcelSheetEvent>
     <Icon>A page icon.</Icon>
@@ -1798,7 +1804,7 @@
     <PaperSourceOfOtherPages>The paper source for the first page. Some printers does not support this feature.</PaperSourceOfOtherPages>
     <PrintHeadersFootersFromPreviousPage>A value indicates that, on this page, it is necessary to print headers and footers of the previous page.</PrintHeadersFootersFromPreviousPage>
     <PrintOnPreviousPage>A value indicates that the page will start to be rendered on the free space of the previous page.</PrintOnPreviousPage>
-    <RenderingEvent>Occurs when page rendering.</RenderingEvent>
+    <RenderingEvent>Occurs when a page is rendered.</RenderingEvent>
     <ResetPageNumber>Allows resetting page number on this page.</ResetPageNumber>
     <SegmentPerHeight>The number of segments per height.</SegmentPerHeight>
     <SegmentPerWidth>The number of segments per width.</SegmentPerWidth>
@@ -1897,7 +1903,7 @@
   <StiRadioButtonControl>
     <Checked>A value indicates whether the control is checked.</Checked>
     <CheckedBinding>Data bindings for the checked.</CheckedBinding>
-    <CheckedChangedEvent>Gets</CheckedChangedEvent>
+    <CheckedChangedEvent>Occurs when the value of the Checked property changes.</CheckedChangedEvent>
     <Text>A text associated with this control.</Text>
     <TextBinding>Data bindings for the text.</TextBinding>
   </StiRadioButtonControl>
@@ -1948,22 +1954,22 @@
   </StiReport>
   <StiReportControl>
     <BackColor>A background color for the control.</BackColor>
-    <ClickEvent>A script of the Click event.</ClickEvent>
+    <ClickEvent>Occurs when the control is clicked.</ClickEvent>
     <DataBindings>Data bindings for the control.</DataBindings>
-    <DoubleClickEvent>A script of the DoubleClick event.</DoubleClickEvent>
+    <DoubleClickEvent>Occurs when the control is double-clicked.</DoubleClickEvent>
     <Enabled>A value indicates whether the control can respond to user interaction.</Enabled>
-    <EnterEvent>A script of the Enter event.</EnterEvent>
+    <EnterEvent>Occurs when the control is entered.</EnterEvent>
     <Font>A font of the text displayed by the control.</Font>
     <ForeColor>A foreground color of the control.</ForeColor>
-    <GetTagEvent>A script of the GetTag event.</GetTagEvent>
-    <GetToolTipEvent>A script of the GetToolTip event.</GetToolTipEvent>
-    <LeaveEvent>A script of the Leave event.</LeaveEvent>
+    <GetTagEvent>Occurs when getting a Tag for the control.</GetTagEvent>
+    <GetToolTipEvent>Occurs when getting the ToolTip for the control.</GetToolTipEvent>
+    <LeaveEvent>Occurs when the input focus leaves the control.</LeaveEvent>
     <Location>The coordinates of the upper-left corner of the control relative to the upper-left corner of its container.</Location>
-    <MouseDownEvent>A script of the MouseDown event.</MouseDownEvent>
-    <MouseEnterEvent>A script of the MouseEnter event.</MouseEnterEvent>
-    <MouseLeaveEvent>A script of the MouseLeave event.</MouseLeaveEvent>
-    <MouseMoveEvent>A script of the MouseMove event.</MouseMoveEvent>
-    <MouseUpEvent>A script of the MouseUp event.</MouseUpEvent>
+    <MouseDownEvent>Occurs when the mouse pointer is over the control and a mouse button is pressed.</MouseDownEvent>
+    <MouseEnterEvent>Occurs when the mouse pointer enters the control.</MouseEnterEvent>
+    <MouseLeaveEvent>Occurs when the mouse pointer leaves the control.</MouseLeaveEvent>
+    <MouseMoveEvent>Occurs when the mouse pointer is moved over the control.</MouseMoveEvent>
+    <MouseUpEvent>Occurs when the mouse pointer is over the control and a mouse button is released.</MouseUpEvent>
     <RightToLeft>A value indicates whether control's elements are aligned to support locales using right-to-left fonts.</RightToLeft>
     <Size>Height and width of the control.</Size>
     <TagValueBinding>Data bindings for the tag value.</TagValueBinding>

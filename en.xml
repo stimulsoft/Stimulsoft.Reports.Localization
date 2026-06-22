@@ -284,6 +284,8 @@
     <Pictorial>Pictorial</Pictorial>
     <PictorialStacked>Pictorial Stacked</PictorialStacked>
     <Pie>Pie</Pie>
+    <Polar>Polar</Polar>
+    <PolarStacked>Polar Stacked</PolarStacked>
     <Radar>Radar</Radar>
     <RadarArea>Radar Area</RadarArea>
     <RadarColumn>Radar Column</RadarColumn>
@@ -741,6 +743,7 @@
     <AllowUserFiltering>Allow User Filtering</AllowUserFiltering>
     <AllowUserSorting>Allow User Sorting</AllowUserSorting>
     <BeforeTransformation>Apply before data transformation</BeforeTransformation>
+    <BindData>Bind to Data</BindData>
     <Blank>(Blank)</Blank>
     <Blanks>(Blanks)</Blanks>
     <BooleanFilters>Boolean Filters</BooleanFilters>
@@ -949,17 +952,20 @@
     <StiListControl>List</StiListControl>
     <StiListViewControl>List View</StiListViewControl>
     <StiLookUpBoxControl>LookUp Box</StiLookUpBoxControl>
+    <StiMultiListControl>Multi List</StiMultiListControl>
+    <StiMultiSelectControl>Multi Select</StiMultiSelectControl>
     <StiNumberInputControl>Number Input</StiNumberInputControl>
     <StiNumericUpDownControl>Numeric Up Down</StiNumericUpDownControl>
     <StiPanelControl>Panel</StiPanelControl>
     <StiPictureBoxControl>Picture Box</StiPictureBoxControl>
     <StiRadioButtonControl>Radio Button</StiRadioButtonControl>
     <StiRadioGroupControl>Radio Group</StiRadioGroupControl>
+    <StiRangeSliderControl>Range Slider</StiRangeSliderControl>
     <StiReportControl>Report Control</StiReportControl>
     <StiRichTextBoxControl>Rich Text Box</StiRichTextBoxControl>
     <StiSelectControl>Select</StiSelectControl>
     <StiSliderControl>Slider</StiSliderControl>
-    <StiSwitchControl>Toggle</StiSwitchControl>
+    <StiSwitchControl>Switch</StiSwitchControl>
     <StiTextBoxControl>Text Box</StiTextBoxControl>
     <StiTextInputControl>Text Input</StiTextInputControl>
     <StiTreeViewControl>Tree View</StiTreeViewControl>
@@ -987,10 +993,12 @@
     <MatchCase>Match &amp;Case</MatchCase>
     <MatchWholeWord>Match &amp;Whole Word</MatchWholeWord>
     <MaximumDimensions>Maximum 7 dimensions can be selected.</MaximumDimensions>
+    <NotFound>Not Found</NotFound>
     <Outlining>Out&amp;lining</Outlining>
     <PromptOnReplace>Prompt on Replace</PromptOnReplace>
     <Replace>&amp;Replace</Replace>
     <ReplaceAll>Replace &amp;All</ReplaceAll>
+    <Replaced>Replaced: {0}</Replaced>
     <ReplaceWith>Replace With:</ReplaceWith>
     <Search>Search</Search>
     <SearchHiddenText>Hidden Text</SearchHiddenText>
@@ -1979,10 +1987,13 @@
   <HelpComponents>
     <StiBarCode>This component allows showing bar codes in a report. Bar code data are sent to an object as a string. The string may contain any symbols but only allowed symbols for the selected chart can be displayed.</StiBarCode>
     <StiButtonElement>This element is used to execute an event script when a user is interacting.</StiButtonElement>
+    <StiButtonUI>A button used to trigger an action or start a command.</StiButtonUI>
     <StiCardsElement>This element is used to display grouped data as cards.</StiCardsElement>
     <StiChart>This component allows showing charts in a report. Different types of charts are available. Among them are bar, line, pie, doughnut, lines, areas, Gantt, scatter charts etc. </StiChart>
     <StiChartElement>This element allows showing charts in a dashboard. Different types of charts are available.</StiChartElement>
     <StiCheckBox>This component allows showing a checkbox in a report. It can display two modes: "enable" or "disable".</StiCheckBox>
+    <StiCheckBoxGroupUI>A checkbox group used to select multiple predefined options from a list.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>A checkbox used to switch a single option on or off quickly.</StiCheckBoxUI>
     <StiChildBand>The Child band can be used to output two bands on one data row.</StiChildBand>
     <StiClone>This component is used to clone parts of a report into a required part of a report. Cloning can be applied only to the panel contents.</StiClone>
     <StiColumnFooterBand>This band is used to output footers of columns on the Data band. The Column Footer band is output once under each column. All components which are placed on this band will also be output under each column.</StiColumnFooterBand>
@@ -1997,6 +2008,7 @@
     <StiCrossTab>The cross-tab component is used for the structured data representation as a table.</StiCrossTab>
     <StiDataBand>The Data band is connected to the data source and is output as many times as there are rows in the data source.</StiDataBand>
     <StiDatePickerElement>The element is used to select the date and time.</StiDatePickerElement>
+    <StiDatePickerUI>A date picker used to select a date from a calendar.</StiDatePickerUI>
     <StiElectronicSignature>This component is used to add a graphic signature, image, initials, and text.</StiElectronicSignature>
     <StiEmptyBand>This band is used to fill free space on the bottom of a page. This band fills free space on each page of a report.</StiEmptyBand>
     <StiFilterCategory>A group of elements used for selecting and filtering values.</StiFilterCategory>
@@ -2008,43 +2020,59 @@
     <StiHeaderBand>This band is used to output headers. It is used together with the data band.</StiHeaderBand>
     <StiHierarchicalBand>This band is connected to the data source and output as many times as there are rows in the data source. Data are output as a tree.</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>This component is used to output a line.</StiHorizontalLinePrimitive>
+    <StiIconUI>An icon used to display a symbolic graphic or visual marker.</StiIconUI>
     <StiImage>This component is used to output images.</StiImage>
     <StiImageElement>This element is used to output images. It supports the following graphic formats, such as BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF, SVG.</StiImageElement>
+    <StiImageUI>An image used to display graphic content inside the interface.</StiImageUI>
     <StiIndicatorElement>The element displays the difference in values between the input data.</StiIndicatorElement>
+    <StiLabelUI>A label used to display text or short captions.</StiLabelUI>
     <StiListBoxElement>The element allows selecting items from a list.</StiListBoxElement>
+    <StiListUI>A list used to display selectable items in a vertical collection.</StiListUI>
     <StiMap>This component is used to display data that is geographically targeted.</StiMap>
     <StiMapCategory>Group of elements for working with maps and data.</StiMapCategory>
     <StiMapElement>This element is used to display data that is geographically targeted.</StiMapElement>
     <StiMathFormula>This component is used to display math formulas in a report.</StiMathFormula>
+    <StiMultiListUI>A list used to select multiple items from the same collection.</StiMultiListUI>
+    <StiMultiSelectUI>A selector used to choose multiple values from a prepared list.</StiMultiSelectUI>
     <StiNumberBoxElement>This element is used to select a numeric value or set a range of numeric values.</StiNumberBoxElement>
+    <StiNumberInputUI>A number input used to enter numeric values with controlled input.</StiNumberInputUI>
     <StiOnlineMapElement>This element is used to display geographic markers on the online map.</StiOnlineMapElement>
     <StiOverlayBand>This band is used to output watermarks on a page.</StiOverlayBand>
     <StiPageFooterBand>This band is used to output the information on the bottom of each page such as page numbers, dates, and other additional information.</StiPageFooterBand>
     <StiPageHeaderBand>This band is used to output the page header such as page numbers, dates, and other additional information. It is output on the top of each page.</StiPageHeaderBand>
     <StiPanel>A rectangular region that can contain other components, including bands. When the panel is moved the components in it are moved too. A panel can be placed either on a band or on a page.</StiPanel>
     <StiPanelElement>A rectangular region that can contain other elements. When the panel is moved the elements in it are moved too.</StiPanelElement>
+    <StiPanelUI>A panel used to group and arrange other controls inside one area.</StiPanelUI>
     <StiPdfDigitalSignature>This interactive component is used to specify a place for the digital signature after the report has been exported to Adobe PDF.</StiPdfDigitalSignature>
     <StiPdfDigitalSignatureElement>This component is used to specify a space for the digital signature and fields from the certificate when exporting to PDF.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>The pivot table element is used for the structured data representation as a table.</StiPivotTableElement>
     <StiProgressElement>The element displays the ratio of the input data. It can be presented in different modes - a pie, donut, bars.</StiProgressElement>
+    <StiRadioGroupUI>A radio group used to select one option from a predefined set of values.</StiRadioGroupUI>
     <StiRangeSelectorElement>This component is used to select a range of values on a scale or timeline. It allows users to visually define the minimum and maximum limits of the range.</StiRangeSelectorElement>
+    <StiRangeSliderUI>A range slider used to define minimum and maximum values on a scale.</StiRangeSliderUI>
     <StiRectanglePrimitive>This component is used to output rectangles.</StiRectanglePrimitive>
     <StiRegionMapElement>This element is used to display data that is geographically targeted.</StiRegionMapElement>
     <StiReportSummaryBand>This band is used to output summaries through the entire report. It is output once in the end of a report.</StiReportSummaryBand>
     <StiReportTitleBand>This band is used to output the report title. It is output in the beginning of a report.</StiReportTitleBand>
     <StiRichText>This component is used to output and edit the RTF text. It also supports loading and saving files in the RTF format.</StiRichText>
     <StiRoundedRectanglePrimitive>This component is used to output rounded rectangles.</StiRoundedRectanglePrimitive>
+    <StiScreen>A screen that hosts controls, layout, and user interactions for an app page.</StiScreen>
+    <StiSelectUI>A select box used to choose one value from a drop-down list.</StiSelectUI>
     <StiShape>This component is used to insert ready-made shapes, such as arrows, diagonal line down, diagonal line up, horizontal line, left and right lines, oval, rectangle, rounded rectangle, top and bottom lines, triangle, vertical line.</StiShape>
     <StiShapeElement>This element is used to insert ready-made shapes, such as arrows, diagonal line down, diagonal line up, horizontal line, left and right lines, oval, rectangle, rounded rectangle, top and bottom lines, triangle, vertical line.</StiShapeElement>
     <StiSignature>This component is used to add an electronic or digital signature to a report.</StiSignature>
+    <StiSliderUI>A slider used to select a value on a continuous numeric scale.</StiSliderUI>
     <StiSparkline>This component is used to create micrographics in a report. It allows you to track dynamically changing data as bars, lines, areas.</StiSparkline>
     <StiSubReport>This component is used to output additional data in different places of a report.</StiSubReport>
+    <StiSwitchUI>A switch used to toggle a setting on or off with one click.</StiSwitchUI>
     <StiTable>This component is a set of data elements that is organized using a model of vertical columns and horizontal rows.</StiTable>
     <StiTableElement>This element is a set of data elements that is organized using a model of vertical columns and horizontal rows.</StiTableElement>
     <StiTableOfContents>This component is used to create a table of contents in a report.</StiTableOfContents>
+    <StiTableUI>A table used to display data in rows and columns clearly.</StiTableUI>
     <StiText>This component is a basic object to output data as a text.</StiText>
     <StiTextElement>This element is a basic object to output data as a text.</StiTextElement>
     <StiTextInCells>The component is used to output a text in cells. It is frequently used for creating forms.</StiTextInCells>
+    <StiTextInputUI>A text input used to enter and edit text values.</StiTextInputUI>
     <StiTreeViewBoxElement>The element is used to select values with a drop-down list as a tree.</StiTreeViewBoxElement>
     <StiTreeViewElement>Represents the element that is used to show the hierarchical data as a tree.</StiTreeViewElement>
     <StiVerticalLinePrimitive>This component is used to output vertical lines.</StiVerticalLinePrimitive>
@@ -2669,6 +2697,9 @@
     <SubscriptionExpiredDays>Expires in {0} days</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Your subscription has expired. Update your subscription to get the last version.</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>Subscription expired</SubscriptionExpiredShort>
+    <SubscriptionLimitExceeded>Your subscription has exceeded the developer seat limit. The application will be closed. Please upgrade your plan to continue.</SubscriptionLimitExceeded>
+    <SubscriptionLimitTitle>Subscription limit</SubscriptionLimitTitle>
+    <SubscriptionLimitWarning>Your subscription is using more developer seats than allowed. Please consider upgrading your plan to keep working without interruption.</SubscriptionLimitWarning>
     <SubscriptionsOut10>10 days left when the subscription expires!</SubscriptionsOut10>
     <SubscriptionsOut20>The subscription period will expire in 20 days!</SubscriptionsOut20>
     <SuccessfullyRenewed>Your subscription has been successfully updated!</SuccessfullyRenewed>
@@ -3202,6 +3233,9 @@
     <StiDashboardContentAlignmentRight>Right</StiDashboardContentAlignmentRight>
     <StiDashboardContentAlignmentStretchX>Stretch X</StiDashboardContentAlignmentStretchX>
     <StiDashboardContentAlignmentStretchXY>Stretch XY</StiDashboardContentAlignmentStretchXY>
+    <StiDataBarShapeArrow>Arrow</StiDataBarShapeArrow>
+    <StiDataBarShapeBanner>Banner</StiDataBarShapeBanner>
+    <StiDataBarShapeRectangle>Rectangle</StiDataBarShapeRectangle>
     <StiDataJoinTypeCross>Cross</StiDataJoinTypeCross>
     <StiDataJoinTypeFull>Full</StiDataJoinTypeFull>
     <StiDataJoinTypeInner>Inner</StiDataJoinTypeInner>
@@ -3707,6 +3741,7 @@
     <DisconnectingEvent>Disconnecting</DisconnectingEvent>
     <DoubleClickEvent>Double Click</DoubleClickEvent>
     <EndRenderEvent>End Render</EndRenderEvent>
+    <EndValueChangedEvent>End Value Changed</EndValueChangedEvent>
     <EnterEvent>Enter</EnterEvent>
     <ExportedEvent>Exported</ExportedEvent>
     <ExportingEvent>Exporting</ExportingEvent>
@@ -3759,6 +3794,7 @@
     <RenderingEvent>Rendering</RenderingEvent>
     <ReportCacheProcessingEvent>Report Cache Processing</ReportCacheProcessingEvent>
     <SelectedIndexChangedEvent>Selected Index Changed</SelectedIndexChangedEvent>
+    <StartValueChangedEvent>Start Value Changed</StartValueChangedEvent>
     <StateRestoreEvent>State Restore</StateRestoreEvent>
     <StateSaveEvent>State Save</StateSaveEvent>
     <ValueChangedEvent>Value Changed</ValueChangedEvent>
@@ -3822,6 +3858,7 @@
   <PropertyMain>
     <AcceptsReturn>Accepts Return</AcceptsReturn>
     <AcceptsTab>Accepts Tab</AcceptsTab>
+    <Action>Action</Action>
     <Actual>Actual</Actual>
     <AddClearZone>Add Clear Zone</AddClearZone>
     <Advanced>Advanced</Advanced>
@@ -3922,6 +3959,7 @@
     <BorderSize>Border Size</BorderSize>
     <BorderStyle>Border Style</BorderStyle>
     <BorderThickness>Border Thickness</BorderThickness>
+    <BorderVisible>Border Visible</BorderVisible>
     <BorderWidth>Border Width</BorderWidth>
     <Bottom>Bottom</Bottom>
     <BottomLeft>Bottom-Left</BottomLeft>
@@ -4156,11 +4194,13 @@
     <FiltersTarget>Filters Target</FiltersTarget>
     <First>First</First>
     <FirstTabOffset>First Tab Offset</FirstTabOffset>
+    <FitMode>Fit Mode</FitMode>
     <FixedHeight>Fixed Height</FixedHeight>
     <FixedWidth>Fixed Width</FixedWidth>
     <Flat>Flat</Flat>
     <FlatMode>Flat Mode</FlatMode>
     <Focus>Focus</Focus>
+    <FocusVisible>Focus Visible</FocusVisible>
     <Font>Font</Font>
     <FontBold>Font Bold</FontBold>
     <FontItalic>Font Italic</FontItalic>
@@ -4839,6 +4879,8 @@
     <TextRightToLeft>Text Right to Left</TextRightToLeft>
     <TextShowBehind>Text Show Behind</TextShowBehind>
     <Third>Third</Third>
+    <ThumbBorderColor>Thumb Border Color</ThumbBorderColor>
+    <ThumbColor>Thumb Color</ThumbColor>
     <TickLabelMajorFont>Tick Label Major Font</TickLabelMajorFont>
     <TickLabelMajorTextBrush>Tick Label Major Text Brush</TickLabelMajorTextBrush>
     <TickLabelMinorFont>Tick Label Minor Font</TickLabelMinorFont>
@@ -5131,6 +5173,7 @@
     <Categorized>Categorized</Categorized>
     <Charts>Charts</Charts>
     <Checking>Checking...</Checking>
+    <ClickAddToCreateNewAction>Click 'Add' to define what happens when this event occurs (e.g., show a screen or change a value).</ClickAddToCreateNewAction>
     <ClickForMoreDetails>Click for More Details</ClickForMoreDetails>
     <ClickHereToCreateNewCondition>to create new condition</ClickHereToCreateNewCondition>
     <ClickHereToCreateNewField>to create new field</ClickHereToCreateNewField>
@@ -5235,6 +5278,7 @@
     <ScriptSecurity>Script Security</ScriptSecurity>
     <SecondPass>Second Pass</SecondPass>
     <Shapes>Shapes</Shapes>
+    <ShowIncompatibleTypes>Show Incompatible Types</ShowIncompatibleTypes>
     <ShowOnParametersPanel>Show on Parameters Panel</ShowOnParametersPanel>
     <Standard>Standard</Standard>
     <StandardConfiguration>Main object properties except rarely used ones.</StandardConfiguration>
@@ -5422,6 +5466,7 @@
   </Signature>
   <StimulAI>
     <AskStimulAI>Ask Stimul AI</AskStimulAI>
+    <Assistant>Assistant</Assistant>
     <ChangedWithAI>Changed with Stimul AI</ChangedWithAI>
     <CheckExpressionSuccess>No issues were found in the specified expression.</CheckExpressionSuccess>
     <CheckQuery>Check Query</CheckQuery>
@@ -5559,6 +5604,7 @@
   <UserFunctionEditor>
     <ArgumentName>Argument Name</ArgumentName>
     <ArgumentType>Argument Type</ArgumentType>
+    <CheckScript>Check Script</CheckScript>
     <ConvertScript>Convert Script</ConvertScript>
     <CustomCategory>Custom Category</CustomCategory>
     <EditCode>Edit Code</EditCode>
