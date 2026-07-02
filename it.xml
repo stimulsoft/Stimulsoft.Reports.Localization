@@ -284,6 +284,8 @@
     <Pictorial>Pittorico</Pictorial>
     <PictorialStacked>Pittorico impilato</PictorialStacked>
     <Pie>Grafico a Torta</Pie>
+    <Polar>Polare</Polar>
+    <PolarStacked>Polare impilato</PolarStacked>
     <Radar>Radar</Radar>
     <RadarArea>Zona radar</RadarArea>
     <RadarColumn>Colonna Radar</RadarColumn>
@@ -742,6 +744,7 @@
     <AllowUserFiltering>Consenti filtraggio utente</AllowUserFiltering>
     <AllowUserSorting>Consenti ordinamento utente</AllowUserSorting>
     <BeforeTransformation>Applica prima della trasformazione dei dati</BeforeTransformation>
+    <BindData>Associa ai dati</BindData>
     <Blank>(Vuoto)</Blank>
     <Blanks>(Vuoti)</Blanks>
     <BooleanFilters>Filtri booleani</BooleanFilters>
@@ -950,12 +953,15 @@
     <StiListControl>Elenco</StiListControl>
     <StiListViewControl>Lista</StiListViewControl>
     <StiLookUpBoxControl>LookUp Box</StiLookUpBoxControl>
+    <StiMultiListControl>Elenco multiplo</StiMultiListControl>
+    <StiMultiSelectControl>Selezione multipla</StiMultiSelectControl>
     <StiNumberInputControl>Inserimento numero</StiNumberInputControl>
     <StiNumericUpDownControl>Numeri</StiNumericUpDownControl>
     <StiPanelControl>Pannello</StiPanelControl>
     <StiPictureBoxControl>Immagine</StiPictureBoxControl>
     <StiRadioButtonControl>RadioButton</StiRadioButtonControl>
     <StiRadioGroupControl>Radio Group</StiRadioGroupControl>
+    <StiRangeSliderControl>Cursore intervallo</StiRangeSliderControl>
     <StiReportControl>Controllo</StiReportControl>
     <StiRichTextBoxControl>Casella di Testo Estesa</StiRichTextBoxControl>
     <StiSelectControl>Seleziona</StiSelectControl>
@@ -988,10 +994,12 @@
     <MatchCase>Maiuscole/minuscole</MatchCase>
     <MatchWholeWord>Parola intera</MatchWholeWord>
     <MaximumDimensions>È possibile selezionare al massimo 7 dimensioni.</MaximumDimensions>
+    <NotFound>Non trovato</NotFound>
     <Outlining>Struttura</Outlining>
     <PromptOnReplace>Chiedi conferma sostituisci</PromptOnReplace>
     <Replace>Sostituisci</Replace>
     <ReplaceAll>Sostituisci tutto</ReplaceAll>
+    <Replaced>Sostituito: {0}</Replaced>
     <ReplaceWith>Sostituisci con:</ReplaceWith>
     <Search>Cerca</Search>
     <SearchHiddenText>Testo nascosto</SearchHiddenText>
@@ -1981,10 +1989,13 @@
   <HelpComponents>
     <StiBarCode>Questo componente permette di mostrare codici a barre in un report.I dati del codice a barre sono inviate ad un oggetto in formato stringa. La stringa pu contenere qualsiasi simbolo ma solo quelli permessi per il grafico selezionato possono essere visualizzati.</StiBarCode>
     <StiButtonElement>Questo elemento viene utilizzato per eseguire uno script evento quando l'utente interagisce.</StiButtonElement>
+    <StiButtonUI>Un pulsante usato per attivare un'azione o avviare un comando.</StiButtonUI>
     <StiCardsElement>Questo elemento viene utilizzato per visualizzare dati raggruppati come carte.</StiCardsElement>
     <StiChart>Questo componente permette di mostrare grafici in un report. Diversi tipi di grafici sono disponibili. Tra questi ci sono grafici a barre, lineari, a torta, a ciambella, a linee, ad aree, Gantt, a dispersione, ecc. </StiChart>
     <StiChartElement>Questo elemento consente di visualizzare grafici in una dashboard. Sono disponibili diversi tipi di grafici.</StiChartElement>
     <StiCheckBox>Questo componente permette di visualizzare un checkbox in un report. Pu essere visualizzato in due modi: "abilita" or "disabilita".</StiCheckBox>
+    <StiCheckBoxGroupUI>Un gruppo di caselle di controllo usato per selezionare più opzioni predefinite da un elenco.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>Una casella di controllo usata per attivare o disattivare rapidamente un'unica opzione.</StiCheckBoxUI>
     <StiChildBand>La Banda Figlia pu essere usata per mostrare due bande in una riga dati.</StiChildBand>
     <StiClone>Questo componente  utilizzato per copiare parti di un report in una parte di un report desiderata. La Copia pu essere effettuata solo per il contenuto di un pannello.</StiClone>
     <StiColumnFooterBand>Questa banda  utilizzata per visualizzare pie di pagina di colonne nella banda Dati. La Colonna Pie di Pagina  visualizzata una sola volta sotto ogni colonna. Tutti i componenti posizionati in questa banda verranno visualizzati sotto ogni colonna.</StiColumnFooterBand>
@@ -1999,6 +2010,7 @@
     <StiCrossTab>Il componente Tabella-Incrociata  utilizzato per la rappresentazione tabellare di dati strutturati.</StiCrossTab>
     <StiDataBand>La banda Dati  connessa alla fonte dati ed  visualizzata tante volte quante sono le righe presenti nella fonte dati.</StiDataBand>
     <StiDatePickerElement>L'elemento viene utilizzato per selezionare data e ora.</StiDatePickerElement>
+    <StiDatePickerUI>Un selettore di data usato per scegliere una data da un calendario.</StiDatePickerUI>
     <StiElectronicSignature>Questo componente viene utilizzato per aggiungere una firma grafica, immagine, iniziali e testo.</StiElectronicSignature>
     <StiEmptyBand>Questa banda  utilizzata per riempire spazio vuoto in fondo alla pagina. Questa banda riempie lo spazio vuoto in ogni pagina del report.</StiEmptyBand>
     <StiFilterCategory>Un gruppo di elementi utilizzati per selezionare e filtrare valori.</StiFilterCategory>
@@ -2010,43 +2022,59 @@
     <StiHeaderBand>Questa banda  utilizzata per visualizzare le intestazioni. E' utilizzata insieme alla banda dati.</StiHeaderBand>
     <StiHierarchicalBand>Questa banda  connessa alla fonte dati ed  visualizzata tante volte quante sono le righe presenti nella fonte dati. I dati sono visualizzati come un albero.</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Questo componente  utilizzato per visualizzare una linea.</StiHorizontalLinePrimitive>
+    <StiIconUI>Un'icona usata per visualizzare un simbolo grafico o un marcatore visivo.</StiIconUI>
     <StiImage>Questo componente  utilizzato per visualizzare immagini. Supporta i seguenti formati grafici:BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
     <StiImageElement>Questo elemento viene utilizzato per visualizzare immagini. Supporta i seguenti formati grafici: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF, SVG.</StiImageElement>
+    <StiImageUI>Un'immagine usata per visualizzare contenuti grafici all'interno dell'interfaccia.</StiImageUI>
     <StiIndicatorElement>L'elemento visualizza la differenza di valori tra i dati di input.</StiIndicatorElement>
+    <StiLabelUI>Un'etichetta usata per visualizzare testo o brevi didascalie.</StiLabelUI>
     <StiListBoxElement>L'elemento consente di selezionare elementi da un elenco.</StiListBoxElement>
+    <StiListUI>Un elenco usato per visualizzare elementi selezionabili in una raccolta verticale.</StiListUI>
     <StiMap>Questo componente viene utilizzato per visualizzare dati geograficamente mirati.</StiMap>
     <StiMapCategory>Gruppo di elementi per lavorare con mappe e dati.</StiMapCategory>
     <StiMapElement>Questo elemento viene utilizzato per visualizzare dati geograficamente mirati.</StiMapElement>
     <StiMathFormula>Questo componente viene utilizzato per visualizzare formule matematiche in un report.</StiMathFormula>
+    <StiMultiListUI>Un elenco usato per selezionare più elementi dalla stessa raccolta.</StiMultiListUI>
+    <StiMultiSelectUI>Un selettore usato per scegliere più valori da un elenco preparato.</StiMultiSelectUI>
     <StiNumberBoxElement>Questo elemento viene utilizzato per selezionare un valore numerico o impostare un intervallo di valori numerici.</StiNumberBoxElement>
+    <StiNumberInputUI>Un campo numerico usato per inserire valori numerici con input controllato.</StiNumberInputUI>
     <StiOnlineMapElement>Questo elemento viene utilizzato per visualizzare marcatori geografici sulla mappa online.</StiOnlineMapElement>
     <StiOverlayBand>Questa banda  utilizzata per visualizzare filigrane in una pagina.</StiOverlayBand>
     <StiPageFooterBand>Questa banda  utilizzata per visualizzare  informazioni in fondo ad ogni pagina. Questa banda  utilizzata per visualizzare numeri pagina, date, o altre informazioni.</StiPageFooterBand>
     <StiPageHeaderBand>Questa banda  utilizzata per visualizzare l'intestazione pagina. E' visualizzata in testa ad ogni pagina. Questa banda  utilizzata per visualizzare numeri pagina, date, o altre informazioni.</StiPageHeaderBand>
     <StiPanel>Questa  la regione rettangolare in cui gli altri componenti, incluse le Bande, possono essere posizionati. Muovendo il pannello, i componenti all'interno si muoveranno anch'essi. Il pannello pu essere posizionato sia in una banda che in una pagina.</StiPanel>
     <StiPanelElement>Una regione rettangolare che può contenere altri elementi. Quando il pannello viene spostato, anche gli elementi al suo interno vengono spostati.</StiPanelElement>
+    <StiPanelUI>Un pannello usato per raggruppare e organizzare altri controlli in un'unica area.</StiPanelUI>
     <StiPdfDigitalSignature>Questo componente interattivo viene utilizzato per specificare un luogo per la firma digitale dopo che il report è stato esportato in Adobe PDF.</StiPdfDigitalSignature>
     <StiPdfDigitalSignatureElement>Questo componente viene utilizzato per specificare uno spazio per la firma digitale e i campi dal certificato durante l'esportazione in PDF.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>L'elemento tabella pivot viene utilizzato per rappresentare dati strutturati come una tabella.</StiPivotTableElement>
     <StiProgressElement>L'elemento visualizza il rapporto tra i dati di input. Può essere presentato in diverse modalità: torta, ciambella, barre.</StiProgressElement>
+    <StiRadioGroupUI>Un gruppo di opzioni usato per selezionare una singola opzione da un set predefinito di valori.</StiRadioGroupUI>
     <StiRangeSelectorElement>Questo componente viene utilizzato per selezionare un intervallo di valori su una scala o una linea temporale. Consente agli utenti di definire visivamente i limiti minimo e massimo dell’intervallo.</StiRangeSelectorElement>
+    <StiRangeSliderUI>Un cursore a intervallo usato per definire valori minimi e massimi su una scala.</StiRangeSliderUI>
     <StiRectanglePrimitive>TQuesto componente  utilizzato per visualizzare rettangoli.</StiRectanglePrimitive>
     <StiRegionMapElement>Questo elemento viene utilizzato per visualizzare dati geograficamente mirati.</StiRegionMapElement>
     <StiReportSummaryBand>Questa banda  utilizzata per visualizzare riepiloghi dell'intero report. E' visualizzata una sola volta alla fine del report.</StiReportSummaryBand>
     <StiReportTitleBand>Questa banda  utilizzata per visualizzare il titolo del report. E' visualizzata all'inizio del report.</StiReportTitleBand>
     <StiRichText>Questo componente  utilizzato per visualizzare ed editare il testo RTF. Supporta anche il caricamento e il salvataggio di file in formato RTF.</StiRichText>
     <StiRoundedRectanglePrimitive>Questo componente  utilizzato per visualizzare rettangoli smussati.</StiRoundedRectanglePrimitive>
+    <StiScreen>Una schermata che ospita controlli, layout e interazioni utente per una pagina dell'app.</StiScreen>
+    <StiSelectUI>Un campo a discesa usato per scegliere un valore da un elenco a tendina.</StiSelectUI>
     <StiShape>Questo componente  utilizzato per inserire forme predefinite, come frecce, linee diagonali verso il basso e verso l'alto, linee orizzontali, linee laterali, ovali, rettangoli, rettangoli smussati,linee in alto e in basso, triangoli, linea verticale.</StiShape>
     <StiShapeElement>Questo elemento viene utilizzato per inserire forme pronte, come frecce, linea diagonale in basso, linea diagonale in alto, linea orizzontale, linee sinistra e destra, ovale, rettangolo, rettangolo arrotondato, linee superiore e inferiore, triangolo, linea verticale.</StiShapeElement>
     <StiSignature>Questo componente viene utilizzato per aggiungere una firma elettronica o digitale a un report.</StiSignature>
+    <StiSliderUI>Un cursore usato per selezionare un valore su una scala numerica continua.</StiSliderUI>
     <StiSparkline>Questo componente viene utilizzato per creare micrografici in un report. Consente di tracciare dati dinamici come barre, linee, aree.</StiSparkline>
     <StiSubReport>Questo componente  utilizzato per visualizzare dati aggiuntivi in punti diversi di un report.</StiSubReport>
+    <StiSwitchUI>Un interruttore usato per attivare o disattivare un'impostazione con un clic.</StiSwitchUI>
     <StiTable>Questo componente  un set di elementi di dati che sono organizzati adottando un modello di colonne verticali e righe orizzontali.</StiTable>
     <StiTableElement>Questo elemento è un insieme di elementi dati organizzati tramite un modello di colonne verticali e righe orizzontali.</StiTableElement>
     <StiTableOfContents>Questo componente viene utilizzato per creare un indice in un report.</StiTableOfContents>
+    <StiTableUI>Una tabella usata per visualizzare i dati in righe e colonne in modo chiaro.</StiTableUI>
     <StiText>Questo componente  l'oggetto base per visualizzare dati come testo.</StiText>
     <StiTextElement>Questo elemento è un oggetto base per visualizzare dati come testo.</StiTextElement>
     <StiTextInCells>Questo componente  utilizzato per visualizzare del testo in celle. E' usato di frequente per creare forms.</StiTextInCells>
+    <StiTextInputUI>Un campo di testo usato per inserire e modificare valori testuali.</StiTextInputUI>
     <StiTreeViewBoxElement>L'elemento viene utilizzato per selezionare valori con un elenco a discesa ad albero.</StiTreeViewBoxElement>
     <StiTreeViewElement>Rappresenta l'elemento utilizzato per mostrare dati gerarchici come un albero.</StiTreeViewElement>
     <StiVerticalLinePrimitive>Questo componente  utilizzato per visualizzare linee verticali.</StiVerticalLinePrimitive>
@@ -2683,6 +2711,9 @@
     <SubscriptionExpiredDays>Scade tra {0} giorni</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Il tuo abbonamento è scaduto. Aggiorna l'abbonamento per ottenere l'ultima versione.</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>Abbonamento scaduto</SubscriptionExpiredShort>
+    <SubscriptionLimitExceeded>Il tuo abbonamento ha superato il limite di posti per sviluppatori. L'applicazione verrà chiusa. Aggiorna il piano per continuare.</SubscriptionLimitExceeded>
+    <SubscriptionLimitTitle>Limite di abbonamento</SubscriptionLimitTitle>
+    <SubscriptionLimitWarning>Il tuo abbonamento sta utilizzando più posti per sviluppatori di quanti ne siano consentiti. Considera l'aggiornamento del piano per continuare senza interruzioni.</SubscriptionLimitWarning>
     <SubscriptionsOut10>Mancano 10 giorni alla scadenza dell'abbonamento!</SubscriptionsOut10>
     <SubscriptionsOut20>Il periodo di abbonamento scadrà tra 20 giorni!</SubscriptionsOut20>
     <SuccessfullyRenewed>Il tuo abbonamento è stato aggiornato con successo!</SuccessfullyRenewed>
@@ -3222,6 +3253,9 @@
     <StiDashboardContentAlignmentRight>Destra</StiDashboardContentAlignmentRight>
     <StiDashboardContentAlignmentStretchX>Allunga X</StiDashboardContentAlignmentStretchX>
     <StiDashboardContentAlignmentStretchXY>Allunga XY</StiDashboardContentAlignmentStretchXY>
+    <StiDataBarShapeArrow>Freccia</StiDataBarShapeArrow>
+    <StiDataBarShapeBanner>Banner</StiDataBarShapeBanner>
+    <StiDataBarShapeRectangle>Rettangolo</StiDataBarShapeRectangle>
     <StiDataJoinTypeCross>Incrociato</StiDataJoinTypeCross>
     <StiDataJoinTypeFull>Completo</StiDataJoinTypeFull>
     <StiDataJoinTypeInner>Interno</StiDataJoinTypeInner>
@@ -3727,6 +3761,7 @@
     <DisconnectingEvent>Disconnecting</DisconnectingEvent>
     <DoubleClickEvent>Doppio click</DoubleClickEvent>
     <EndRenderEvent>Alla fine del render</EndRenderEvent>
+    <EndValueChangedEvent>Valore finale modificato</EndValueChangedEvent>
     <EnterEvent>All'Invio</EnterEvent>
     <ExportedEvent>Esportato</ExportedEvent>
     <ExportingEvent>Esportando</ExportingEvent>
@@ -3779,6 +3814,7 @@
     <RenderingEvent>Al Render</RenderingEvent>
     <ReportCacheProcessingEvent>Elaborazione cache report</ReportCacheProcessingEvent>
     <SelectedIndexChangedEvent>Alla modifica dell'indice</SelectedIndexChangedEvent>
+    <StartValueChangedEvent>Valore iniziale modificato</StartValueChangedEvent>
     <StateRestoreEvent>Ripristino dello stato</StateRestoreEvent>
     <StateSaveEvent>Stato di risparmio</StateSaveEvent>
     <ValueChangedEvent>Alla modifica del valore</ValueChangedEvent>
@@ -3842,6 +3878,7 @@
   <PropertyMain>
     <AcceptsReturn>Accetta a capo</AcceptsReturn>
     <AcceptsTab>Accetta Tabs</AcceptsTab>
+    <Action>Azione</Action>
     <Actual>Attuale</Actual>
     <AddClearZone>Aggiungi Zona Vuota</AddClearZone>
     <Advanced>Avanzate</Advanced>
@@ -3943,6 +3980,7 @@
     <BorderSize>Dimensione bordo</BorderSize>
     <BorderStyle>Stile del bordo</BorderStyle>
     <BorderThickness>Spessore bordo</BorderThickness>
+    <BorderVisible>Bordo visibile</BorderVisible>
     <BorderWidth>Larghezza bordo</BorderWidth>
     <Bottom>In basso</Bottom>
     <BottomLeft>In basso a sinistra</BottomLeft>
@@ -4177,11 +4215,13 @@
     <FiltersTarget>Destinazione filtri</FiltersTarget>
     <First>Primo</First>
     <FirstTabOffset>Distanza Primo Tab</FirstTabOffset>
+    <FitMode>Modalità di adattamento</FitMode>
     <FixedHeight>Altezza fissa</FixedHeight>
     <FixedWidth>Larghezza fissata</FixedWidth>
     <Flat>Piatto</Flat>
     <FlatMode>Modalità piatto</FlatMode>
     <Focus>Focus</Focus>
+    <FocusVisible>Focus visibile</FocusVisible>
     <Font>Tipo di carattere</Font>
     <FontBold>Carattere grassetto</FontBold>
     <FontItalic>Carattere corsivo</FontItalic>
@@ -4863,6 +4903,8 @@
     <TextRightToLeft>Testo da destra a sinistra</TextRightToLeft>
     <TextShowBehind>Mostra testo dietro</TextShowBehind>
     <Third>Terzo</Third>
+    <ThumbBorderColor>Colore bordo del cursore</ThumbBorderColor>
+    <ThumbColor>Colore del cursore</ThumbColor>
     <TickLabelMajorFont>Font etichetta principale tacca</TickLabelMajorFont>
     <TickLabelMajorTextBrush>Pennello testo etichetta principale tacca</TickLabelMajorTextBrush>
     <TickLabelMinorFont>Font etichetta secondaria tacca</TickLabelMinorFont>
@@ -5155,6 +5197,7 @@
     <Categorized>Categorizzato</Categorized>
     <Charts>Grafici</Charts>
     <Checking>Verifica...</Checking>
+    <ClickAddToCreateNewAction>Fai clic su 'Aggiungi' per definire ciò che accade quando si verifica questo evento (ad esempio mostra una schermata o modifica un valore).</ClickAddToCreateNewAction>
     <ClickForMoreDetails>Clicca per maggiori dettagli</ClickForMoreDetails>
     <ClickHereToCreateNewCondition>per creare una nuova condizione</ClickHereToCreateNewCondition>
     <ClickHereToCreateNewField>per creare un nuovo campo</ClickHereToCreateNewField>
@@ -5260,6 +5303,7 @@
     <ScriptSecurity>Sicurezza degli script</ScriptSecurity>
     <SecondPass>Secondo Passo</SecondPass>
     <Shapes>Forme</Shapes>
+    <ShowIncompatibleTypes>Mostra tipi incompatibili</ShowIncompatibleTypes>
     <ShowOnParametersPanel>Mostra nel pannello parametri</ShowOnParametersPanel>
     <Standard>Standard</Standard>
     <StandardConfiguration>Proprietà complete degli oggetti principali ad eccezione di quelli meno utilizzati.</StandardConfiguration>
@@ -5447,6 +5491,7 @@
   </Signature>
   <StimulAI>
     <AskStimulAI>Chiedi a Stimul AI</AskStimulAI>
+    <Assistant>Assistente</Assistant>
     <ChangedWithAI>Modificato con Stimul AI</ChangedWithAI>
     <CheckExpressionSuccess>Nessun problema trovato nell'espressione specificata.</CheckExpressionSuccess>
     <CheckQuery>Verifica query</CheckQuery>
@@ -5584,6 +5629,7 @@
   <UserFunctionEditor>
     <ArgumentName>Nome argomento</ArgumentName>
     <ArgumentType>Tipo argomento</ArgumentType>
+    <CheckScript>Controlla script</CheckScript>
     <ConvertScript>Converti script</ConvertScript>
     <CustomCategory>Categoria personalizzata</CustomCategory>
     <EditCode>Modifica codice</EditCode>
@@ -5606,6 +5652,7 @@
     <Title>Benvenuto nella demo di Stimulsoft</Title>
   </WelcomeScreen>
   <Wizards>
+    <AIGeneratedDashboard>Dashboard generata dall'IA</AIGeneratedDashboard>
     <AIGeneratedReport>Report generato dall'IA</AIGeneratedReport>
     <BlankDashboard>Dashboard vuota</BlankDashboard>
     <BlankForm>Modulo vuoto</BlankForm>

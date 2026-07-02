@@ -284,6 +284,8 @@
     <Pictorial>Billedlig</Pictorial>
     <PictorialStacked>Bilde stablet</PictorialStacked>
     <Pie>Pai</Pie>
+    <Polar>Polar</Polar>
+    <PolarStacked>Polar Stablet</PolarStacked>
     <Radar>Radar</Radar>
     <RadarArea>Radarområde</RadarArea>
     <RadarColumn>Radarkolonne</RadarColumn>
@@ -742,6 +744,7 @@
     <AllowUserFiltering>Tillat bruker å filtrere</AllowUserFiltering>
     <AllowUserSorting>Tillat bruker å sortere</AllowUserSorting>
     <BeforeTransformation>Bruk før datatransformasjon</BeforeTransformation>
+    <BindData>Koble til data</BindData>
     <Blank>(Tom)</Blank>
     <Blanks>(Tomme)</Blanks>
     <BooleanFilters>Boolske filtere</BooleanFilters>
@@ -950,12 +953,15 @@
     <StiListControl>Liste</StiListControl>
     <StiListViewControl>Listevisning</StiListViewControl>
     <StiLookUpBoxControl>Søkeboks</StiLookUpBoxControl>
+    <StiMultiListControl>Multiliste</StiMultiListControl>
+    <StiMultiSelectControl>Flervalg</StiMultiSelectControl>
     <StiNumberInputControl>Tallinndata</StiNumberInputControl>
     <StiNumericUpDownControl>Numerisk opp ned</StiNumericUpDownControl>
     <StiPanelControl>Panel</StiPanelControl>
     <StiPictureBoxControl>Bildeboks</StiPictureBoxControl>
     <StiRadioButtonControl>Radioknapp</StiRadioButtonControl>
     <StiRadioGroupControl>Radiogruppe</StiRadioGroupControl>
+    <StiRangeSliderControl>Områdeskyvebryter</StiRangeSliderControl>
     <StiReportControl>Rapportkontrol</StiReportControl>
     <StiRichTextBoxControl>Rik tekst-boks</StiRichTextBoxControl>
     <StiSelectControl>Velg</StiSelectControl>
@@ -988,10 +994,12 @@
     <MatchCase>Match &amp;Case</MatchCase>
     <MatchWholeWord>Match &amp;Whole Word</MatchWholeWord>
     <MaximumDimensions>Maksimalt 7 dimensjoner kan velges.</MaximumDimensions>
+    <NotFound>Ikke funnet</NotFound>
     <Outlining>Out&amp;lining</Outlining>
     <PromptOnReplace>Prompt on Replace</PromptOnReplace>
     <Replace>&amp;Erstatt</Replace>
     <ReplaceAll>Erstatt &amp;alle</ReplaceAll>
+    <Replaced>Erstattet: {0}</Replaced>
     <ReplaceWith>Erstatt med:</ReplaceWith>
     <Search>Søk</Search>
     <SearchHiddenText>Skjult tekst</SearchHiddenText>
@@ -1980,10 +1988,13 @@
   <HelpComponents>
     <StiBarCode>Denne komponenten gjør det mulig å vise strekkoder i en rapport. Data sendes til et objekt som en streng. Strengen kan inneholde alle symboler, men bare symboler som er tillatt for det valgte diagrammet kan vises.</StiBarCode>
     <StiButtonElement>Dette elementet brukes til å utføre et hendelsesskript når en bruker samhandler.</StiButtonElement>
+    <StiButtonUI>En knapp som brukes til å utløse en handling eller starte en kommando.</StiButtonUI>
     <StiCardsElement>Dette elementet brukes til å vise grupperte data som kort.</StiCardsElement>
     <StiChart>Denne komponenten tillater visning av diagrammer i en rapport. Ulike typer av diagrammer er tilgjengelige. Blant disse er linje, pai, donut, områder, Gantt, punkt mfl.</StiChart>
     <StiChartElement>Dette elementet tillater visning av diagrammer i et instrumentbord. Forskjellige typer diagrammer er tilgjengelig.</StiChartElement>
     <StiCheckBox>Denne komponenten tillater visning av avkrysningsbokser i rapporter. «Aktivert» og «deaktivert» er mulig.</StiCheckBox>
+    <StiCheckBoxGroupUI>En gruppe med avkrysningsbokser som brukes til å velge flere forhåndsdefinerte alternativer fra en liste.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>En avkrysningsboks som brukes til å slå et enkelt alternativ av eller på raskt.</StiCheckBoxUI>
     <StiChildBand>The Child band can be used to output two bands on one data row.</StiChildBand>
     <StiClone>Denne komponenten brukes til å klone deler i en rapport. Kloning kan bare brukes på inneholdet i panelet.</StiClone>
     <StiColumnFooterBand>Dette båndet brukes til å lage bunntekst av kolonner til databåndet. Kolonnebunnteksten blir skrevet en gang under hver kolonne. Alle komponentene som er plassert på dette båndet blir også skrevet under hver kolonne.</StiColumnFooterBand>
@@ -1998,6 +2009,7 @@
     <StiCrossTab>Cross-tab-komponenten brukess for strukturert data representert som en tabell.</StiCrossTab>
     <StiDataBand>Databåndet er koblet til datakilden og skrives så mange ganger som det er rader i datakilden.</StiDataBand>
     <StiDatePickerElement>Elementet brukes til å velge dato og tid.</StiDatePickerElement>
+    <StiDatePickerUI>En datovelger som brukes til å velge en dato fra en kalender.</StiDatePickerUI>
     <StiElectronicSignature>Denne komponenten brukes til å legge til en grafisk signatur, bilde, initialer og tekst.</StiElectronicSignature>
     <StiEmptyBand>Dette båndet brukes til å fylle ledig plass på bunnen av en side. Båndet fyller ledig plass på hver side i en rapport.</StiEmptyBand>
     <StiFilterCategory>En gruppe elementer brukt til å velge og filtrere verdier.</StiFilterCategory>
@@ -2009,43 +2021,59 @@
     <StiHeaderBand>Dette båndet brukes til å skrive topptekst. Det brukes sammen med databåndet.</StiHeaderBand>
     <StiHierarchicalBand>Dette båndet er koblet til datakilden og skrives så mange ganger som det er rader i datakilden. Data skrives som et tre.</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Denne komponenten brukes til å skrive en linje.</StiHorizontalLinePrimitive>
+    <StiIconUI>Et ikon som brukes til å vise en symbolske grafisk representasjon eller visuell markør.</StiIconUI>
     <StiImage>Denne komponenten brukes til å skrive ut bilder. Den støtter følgende grafiske formater, som BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
     <StiImageElement>Dette elementet brukes til å skrive ut bilder. Det støtter følgende grafiske formater som BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImageElement>
+    <StiImageUI>Et bilde som brukes til å vise grafisk innhold i grensesnittet.</StiImageUI>
     <StiIndicatorElement>Elementet viser differansen i verdier mellom inndataene.</StiIndicatorElement>
+    <StiLabelUI>Et etikett som brukes til å vise tekst eller korte overskrifter.</StiLabelUI>
     <StiListBoxElement>Elementet tillater å velge verdier fra en liste.</StiListBoxElement>
+    <StiListUI>En liste som brukes til å vise valgbare elementer i en vertikal samling.</StiListUI>
     <StiMap>Denne komponenten brukes til å vise geografisk rettede data.</StiMap>
     <StiMapCategory>Gruppe av elementer for å jobbe med kart og data.</StiMapCategory>
     <StiMapElement>Dette elementet brukes til å vise data som er geografisk merket.</StiMapElement>
     <StiMathFormula>Denne komponenten brukes til å vise matematiske formler i en rapport.</StiMathFormula>
+    <StiMultiListUI>En liste som brukes til å velge flere elementer fra samme samling.</StiMultiListUI>
+    <StiMultiSelectUI>En velger som brukes til å velge flere verdier fra en forhåndsforberedt liste.</StiMultiSelectUI>
     <StiNumberBoxElement>Dette elementet brukes til å velge en numerisk verdi eller angi et område av numeriske verdier.</StiNumberBoxElement>
+    <StiNumberInputUI>Et tallfelt som brukes til å skrive inn numeriske verdier med kontrollert inndata.</StiNumberInputUI>
     <StiOnlineMapElement>Dette elementet brukes til å vise geografiske indikatorer på det elektroniske kartet.</StiOnlineMapElement>
     <StiOverlayBand>Dette båndet brukes til å skrive vannmerker på en side.</StiOverlayBand>
     <StiPageFooterBand>Dette båndet brukes til å skrive informasjon på bunnen av hver side. For eksempel sidetall, datoer og annen tilleggsinformasjon..</StiPageFooterBand>
     <StiPageHeaderBand>Dette båndet brukes til å skrive toppteksten til siden. For eksempel sidetall, datoer og annen tilleggsinformasjon.</StiPageHeaderBand>
     <StiPanel>En rektangulær region som kan inneholde andre komponenter, inkludert bånd. Når panelet flyttes følger komponentene med. Et panel kan enten bli plassert på et bånd eller en side.</StiPanel>
     <StiPanelElement>Et rektangulært område som kan inneholde andre elementer. Når panelet flyttes, flyttes også elementene det inneholder.</StiPanelElement>
+    <StiPanelUI>Et panel som brukes til å gruppere og arrangere andre kontroller i ett område.</StiPanelUI>
     <StiPdfDigitalSignature>Denne interaktive komponenten brukes til å angi et sted for digital signatur etter at rapporten er eksportert til Adobe PDF.</StiPdfDigitalSignature>
     <StiPdfDigitalSignatureElement>Denne komponenten brukes til å angi plass for digital signatur og felt fra sertifikatet ved eksport til PDF.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>Pivottabell-elementet brukes til strukturert datarepresentasjon i form av en tabell.</StiPivotTableElement>
     <StiProgressElement>Elementet viser graden av inndata. Den kan vises på forskjellige måter - kakediagram, sirkel, stolper.</StiProgressElement>
+    <StiRadioGroupUI>En radiogruppe som brukes til å velge ett alternativ fra et forhåndsdefinert sett med verdier.</StiRadioGroupUI>
     <StiRangeSelectorElement>Denne komponenten brukes til å velge et verdiområde på en skala eller tidslinje. Den lar brukere visuelt definere minimums- og maksimumsgrensene for området.</StiRangeSelectorElement>
+    <StiRangeSliderUI>En områdeglidebryter som brukes til å definere minimums- og maksimumsverdier på en skala.</StiRangeSliderUI>
     <StiRectanglePrimitive>Denne komponenten brukes til å skrive rektangler.</StiRectanglePrimitive>
     <StiRegionMapElement>Dette elementet brukes til å vise data som er geografisk merket.</StiRegionMapElement>
     <StiReportSummaryBand>Dette båndet brukes til å skrive oppsummeringer gjennom hele rapporten. Den blir skrevet en gang på slutten av en rapport.</StiReportSummaryBand>
     <StiReportTitleBand>Dette båndet brukes til å skrive tittelen på rapporten. Den skrives på begynnelsen av en rapport.</StiReportTitleBand>
     <StiRichText>Denne komponenten brukes til å skrive og endre RTF-teksten. Den støtter også lasting og lagring av filer i RTF-formater.</StiRichText>
     <StiRoundedRectanglePrimitive>Denne komponenten brukes til å skrive avrundede rektangler.</StiRoundedRectanglePrimitive>
+    <StiScreen>En skjerm som inneholder kontroller, layout og brukerinteraksjoner for en app-side.</StiScreen>
+    <StiSelectUI>En velgerute som brukes til å velge én verdi fra en nedtrekksliste.</StiSelectUI>
     <StiShape>Denne komponenten brukes til å sette inn ferdiglagde figurer som piler, diagonale linjer, horisontale linjer, ovaler, rektangler, avrundede rektangler, triangler, mfl.</StiShape>
     <StiShapeElement>Dette elementet brukes til å sette inn ferdige grafiske figurer som piler, diagonal linje ned, diagonal linje opp, horisontal linje venstre- og høyrelinjer, ovaler, rektangler, avrundede rektangler, topp- og bunnlinjer, triangler, vertikal linje.</StiShapeElement>
     <StiSignature>Denne komponenten brukes til å legge til en elektronisk eller digital signatur i en rapport.</StiSignature>
+    <StiSliderUI>En glidebryter som brukes til å velge en verdi på en kontinuerlig numerisk skala.</StiSliderUI>
     <StiSparkline>Denne komponenten brukes til å lage mikrodiagrammer i en rapport. Den lar deg spore dynamisk endrende data som stolper, linjer, områder.</StiSparkline>
     <StiSubReport>Denne komponenten brukes til å skrive tilleggsinformasjon på forskjellige steder i en rapport.</StiSubReport>
+    <StiSwitchUI>En bryter som brukes til å slå en innstilling av eller på med ett klikk.</StiSwitchUI>
     <StiTable>Denne komponenten er et sett med dataelementer som er organisert etter en modell med vertikale kolonner og horisontale rader.</StiTable>
     <StiTableElement>Dette elementet er et sett av dataelementer som er organisert i et sett av vertikale kolonner og horisontale rader.</StiTableElement>
     <StiTableOfContents>Denne komponenten brukes til å lage en innholdsfortegnelse i en rapport.</StiTableOfContents>
+    <StiTableUI>En tabell som brukes til å vise data i rader og kolonner på en tydelig måte.</StiTableUI>
     <StiText>Denne komponenten er et grunnleggende objekt for å skrive data som tekst.</StiText>
     <StiTextElement>Dette elementet er et basisobjekt for å vise data som en tekst.</StiTextElement>
     <StiTextInCells>Denne komponenten brukes til å skrive tekst i celler. Den brukes ofte for å lage skjemaer.</StiTextInCells>
+    <StiTextInputUI>Et tekstfelt som brukes til å skrive inn og redigere tekstverdier.</StiTextInputUI>
     <StiTreeViewBoxElement>Elementet brukes til å velge verdier med en rullegardinliste som et tre.</StiTreeViewBoxElement>
     <StiTreeViewElement>Representerer elementet som brukes til å vise hierarkiske data som et tre.</StiTreeViewElement>
     <StiVerticalLinePrimitive>Denne komponenten brukes til å skrive vertikale linjer.</StiVerticalLinePrimitive>
@@ -2665,6 +2693,9 @@
     <SubscriptionExpiredDays>Utløper om {0} dager</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Abonnementet ditt har utløpt. Oppdater for å få siste versjon.</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>Abonnement utløpt</SubscriptionExpiredShort>
+    <SubscriptionLimitExceeded>Abonnementet ditt har overskredet grensen for utviklerplasser. Programmet vil lukkes. Oppgrader planen din for å fortsette.</SubscriptionLimitExceeded>
+    <SubscriptionLimitTitle>Abonnementsgrense</SubscriptionLimitTitle>
+    <SubscriptionLimitWarning>Abonnementet ditt bruker flere utviklerplasser enn tillat. Vurder å oppgradere planen din for å kunne fortsette uten avbrudd.</SubscriptionLimitWarning>
     <SubscriptionsOut10>10 dager til abonnementet utløper!</SubscriptionsOut10>
     <SubscriptionsOut20>Abonnements-perioden utløper om 20 dager!</SubscriptionsOut20>
     <SuccessfullyRenewed>Oppdateringen av abonnementet ditt var vellykket!</SuccessfullyRenewed>
@@ -3198,6 +3229,9 @@
     <StiDashboardContentAlignmentRight>Høyre</StiDashboardContentAlignmentRight>
     <StiDashboardContentAlignmentStretchX>Strekk X</StiDashboardContentAlignmentStretchX>
     <StiDashboardContentAlignmentStretchXY>Strekk XY</StiDashboardContentAlignmentStretchXY>
+    <StiDataBarShapeArrow>Pil</StiDataBarShapeArrow>
+    <StiDataBarShapeBanner>Banner</StiDataBarShapeBanner>
+    <StiDataBarShapeRectangle>Rektangel</StiDataBarShapeRectangle>
     <StiDataJoinTypeCross>Kryss</StiDataJoinTypeCross>
     <StiDataJoinTypeFull>Full</StiDataJoinTypeFull>
     <StiDataJoinTypeInner>Indre</StiDataJoinTypeInner>
@@ -3703,6 +3737,7 @@
     <DisconnectingEvent>Frakobler</DisconnectingEvent>
     <DoubleClickEvent>Dobbelklikk</DoubleClickEvent>
     <EndRenderEvent>Slutt rendering</EndRenderEvent>
+    <EndValueChangedEvent>Sluttsverdi endret</EndValueChangedEvent>
     <EnterEvent>Angi</EnterEvent>
     <ExportedEvent>Eksportert</ExportedEvent>
     <ExportingEvent>Eksportering</ExportingEvent>
@@ -3755,6 +3790,7 @@
     <RenderingEvent>Rendering</RenderingEvent>
     <ReportCacheProcessingEvent>Rapportminne prosesserer</ReportCacheProcessingEvent>
     <SelectedIndexChangedEvent>Valgt indeks endret</SelectedIndexChangedEvent>
+    <StartValueChangedEvent>Startverdi endret</StartValueChangedEvent>
     <StateRestoreEvent>Tilbakestill tilstand</StateRestoreEvent>
     <StateSaveEvent>Lagre tilstand</StateSaveEvent>
     <ValueChangedEvent>Verdi endret</ValueChangedEvent>
@@ -3818,6 +3854,7 @@
   <PropertyMain>
     <AcceptsReturn>Aksepterer returnering</AcceptsReturn>
     <AcceptsTab>Aksepterer tabell</AcceptsTab>
+    <Action>Handling</Action>
     <Actual>Reell</Actual>
     <AddClearZone>Legg til gjennomsiktig område</AddClearZone>
     <Advanced>Avansert</Advanced>
@@ -3918,6 +3955,7 @@
     <BorderSize>Kantstørrelse</BorderSize>
     <BorderStyle>Kantstil</BorderStyle>
     <BorderThickness>Kantlinjetykkelse</BorderThickness>
+    <BorderVisible>Kant synlig</BorderVisible>
     <BorderWidth>Kantbredde</BorderWidth>
     <Bottom>Bunn</Bottom>
     <BottomLeft>Nederst til venstre</BottomLeft>
@@ -4152,11 +4190,13 @@
     <FiltersTarget>Filtermål</FiltersTarget>
     <First>Første</First>
     <FirstTabOffset>Første tabutligning</FirstTabOffset>
+    <FitMode>Tilpasningsmodus</FitMode>
     <FixedHeight>Fast høyde</FixedHeight>
     <FixedWidth>Fast bredde</FixedWidth>
     <Flat>Flat</Flat>
     <FlatMode>Flat modus</FlatMode>
     <Focus>Fokus</Focus>
+    <FocusVisible>Fokus synlig</FocusVisible>
     <Font>Teksttype</Font>
     <FontBold>Fet teksttype</FontBold>
     <FontItalic>Kursiv teksttype</FontItalic>
@@ -4835,6 +4875,8 @@
     <TextRightToLeft>Tekst høyre til venstre</TextRightToLeft>
     <TextShowBehind>Vis tekst bak</TextShowBehind>
     <Third>Tredje</Third>
+    <ThumbBorderColor>Kantfarge for håndtak</ThumbBorderColor>
+    <ThumbColor>Håndtakfarge</ThumbColor>
     <TickLabelMajorFont>Aksemerkeetikett større skrift</TickLabelMajorFont>
     <TickLabelMajorTextBrush>Aksemerkeetikett større tekstbørste</TickLabelMajorTextBrush>
     <TickLabelMinorFont>Aksemerkeetikett mindre skrift</TickLabelMinorFont>
@@ -5127,6 +5169,7 @@
     <Categorized>Kategorisert</Categorized>
     <Charts>Diagrammer</Charts>
     <Checking>Sjekker...</Checking>
+    <ClickAddToCreateNewAction>Klikk på 'Legg til' for å definere hva som skal skje når denne hendelsen inntreffer (for eksempel vis en skjerm eller endre en verdi).</ClickAddToCreateNewAction>
     <ClickForMoreDetails>Klikk for flere detaljer</ClickForMoreDetails>
     <ClickHereToCreateNewCondition>for å opprette ny betingelse</ClickHereToCreateNewCondition>
     <ClickHereToCreateNewField>for å opprette nytt felt</ClickHereToCreateNewField>
@@ -5231,6 +5274,7 @@
     <ScriptSecurity>Skriptsikkerhet</ScriptSecurity>
     <SecondPass>Andre passering</SecondPass>
     <Shapes>Figurer</Shapes>
+    <ShowIncompatibleTypes>Vis inkompatible typer</ShowIncompatibleTypes>
     <ShowOnParametersPanel>Vis i parameterpanelet</ShowOnParametersPanel>
     <Standard>Standard</Standard>
     <StandardConfiguration>Hovedsakelige objektegenskaper utenom de som sjelden blir brukt.</StandardConfiguration>
@@ -5418,6 +5462,7 @@
   </Signature>
   <StimulAI>
     <AskStimulAI>Spør Stimul AI</AskStimulAI>
+    <Assistant>Assistent</Assistant>
     <ChangedWithAI>Endret med Stimul AI</ChangedWithAI>
     <CheckExpressionSuccess>Ingen problemer funnet i uttrykket.</CheckExpressionSuccess>
     <CheckQuery>Sjekk spørring</CheckQuery>
@@ -5555,6 +5600,7 @@
   <UserFunctionEditor>
     <ArgumentName>Argumentnavn</ArgumentName>
     <ArgumentType>Argumenttype</ArgumentType>
+    <CheckScript>Sjekk skript</CheckScript>
     <ConvertScript>Konverter skript</ConvertScript>
     <CustomCategory>Egendefinert kategori</CustomCategory>
     <EditCode>Rediger kode</EditCode>
@@ -5577,6 +5623,7 @@
     <Title>Velkommen til Stimulsoft demo</Title>
   </WelcomeScreen>
   <Wizards>
+    <AIGeneratedDashboard>AI-generert dashbord</AIGeneratedDashboard>
     <AIGeneratedReport>AI-generert rapport</AIGeneratedReport>
     <BlankDashboard>Tomt dashbord</BlankDashboard>
     <BlankForm>Tomt skjema</BlankForm>

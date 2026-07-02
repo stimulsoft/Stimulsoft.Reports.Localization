@@ -284,6 +284,8 @@
     <Pictorial>Pictogramme</Pictorial>
     <PictorialStacked>Empilé pictural</PictorialStacked>
     <Pie>Camembert</Pie>
+    <Polar>Polar</Polar>
+    <PolarStacked>Polar empilé</PolarStacked>
     <Radar>Radar</Radar>
     <RadarArea>Aire Radar</RadarArea>
     <RadarColumn>Colonne radar</RadarColumn>
@@ -741,6 +743,7 @@
     <AllowUserFiltering>Autoriser le filtrage utilisateur</AllowUserFiltering>
     <AllowUserSorting>Autoriser le tri utilisateur</AllowUserSorting>
     <BeforeTransformation>Appliquer avant la transformation des données</BeforeTransformation>
+    <BindData>Associer aux données</BindData>
     <Blank>(Blank)</Blank>
     <Blanks>(Vides)</Blanks>
     <BooleanFilters>Filtres booléen</BooleanFilters>
@@ -949,12 +952,15 @@
     <StiListControl>Liste</StiListControl>
     <StiListViewControl>Liste vue</StiListViewControl>
     <StiLookUpBoxControl>Boîte de consultation</StiLookUpBoxControl>
+    <StiMultiListControl>Liste multiple</StiMultiListControl>
+    <StiMultiSelectControl>Sélection multiple</StiMultiSelectControl>
     <StiNumberInputControl>Entrée numérique</StiNumberInputControl>
     <StiNumericUpDownControl>Numérique haut/bas</StiNumericUpDownControl>
     <StiPanelControl>Panneau</StiPanelControl>
     <StiPictureBoxControl>Image</StiPictureBoxControl>
     <StiRadioButtonControl>Case d'options</StiRadioButtonControl>
     <StiRadioGroupControl>Groupe radio</StiRadioGroupControl>
+    <StiRangeSliderControl>Curseur de plage</StiRangeSliderControl>
     <StiReportControl>Contrôle de rapport</StiReportControl>
     <StiRichTextBoxControl>Editeur Rtf</StiRichTextBoxControl>
     <StiSelectControl>Sélectionner</StiSelectControl>
@@ -987,10 +993,12 @@
     <MatchCase>Respecter la casse</MatchCase>
     <MatchWholeWord>Mot entier</MatchWholeWord>
     <MaximumDimensions>7 dimensions maximum peuvent être sélectionnées.</MaximumDimensions>
+    <NotFound>Introuvable</NotFound>
     <Outlining>Mode plan</Outlining>
     <PromptOnReplace>Confirmer le remplacement</PromptOnReplace>
     <Replace>Remplacer</Replace>
     <ReplaceAll>Remplacer tout</ReplaceAll>
+    <Replaced>Remplacé : {0}</Replaced>
     <ReplaceWith>Remplacer par :</ReplaceWith>
     <Search>Rechercher</Search>
     <SearchHiddenText>Texte masqué</SearchHiddenText>
@@ -1989,10 +1997,13 @@
   <HelpComponents>
     <StiBarCode>Ce composant permet l'affichage de codes-barres dans un rapport. Les codes-barres sont envoyés à un objet en tant que chaîne de caractères. Cette chaîne peut contenir n'importe quel symbole mais seulement les symboles autorisés pour le graphique sélectionné ne peuvent être affichés.</StiBarCode>
     <StiButtonElement>Cet élément est utilisé pour exécuter un script d'événement lors de l'interaction de l'utilisateur.</StiButtonElement>
+    <StiButtonUI>Un bouton utilisé pour déclencher une action ou démarrer une commande.</StiButtonUI>
     <StiCardsElement>Cet élément est utilisé pour afficher des données groupées sous forme de cartes.</StiCardsElement>
     <StiChart>Ce composant permet l'affichage de graphiques dans un rapport. Différents types de graphiques sont disponibles. Parmis eux : barres, ligne, secteurs, anneau, surface, Gantt, etc. </StiChart>
     <StiChartElement>Ce contrôle autorise l'affichage de diagramme dans le tableau de bord. Différents types de diagramme sont disponibles.</StiChartElement>
     <StiCheckBox>Ce composant permet l'affichage d'une case à cocher dans un rapport. Elle peut a deux modes d'affichage : "activé" ou "désactivé".</StiCheckBox>
+    <StiCheckBoxGroupUI>Un groupe de cases à cocher utilisé pour sélectionner plusieurs options prédéfinies dans une liste.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>Une case à cocher utilisée pour activer ou désactiver rapidement une seule option.</StiCheckBoxUI>
     <StiChildBand>La bande enfant peut être utilisée pour afficher deux bandes sur une ligne de données.</StiChildBand>
     <StiClone>Ce composant est utilisé pour cloner des parties d'un rapport en une partie obligatoire d'un rapport. Le clonage peut être appliqué uniquement au contenu des panneaux.</StiClone>
     <StiColumnFooterBand>Cette bande est utilisée pour les pieds de colonnes sur la bande de données. Cette bande est affichée une fois sous chaque colonne. Tous les composants qui sont mis sur cette bande seront également affichés sous chaque colonne.</StiColumnFooterBand>
@@ -2007,6 +2018,7 @@
     <StiCrossTab>Cette bande est utilisée pour la représentation des données structurée sous forme de tableau.</StiCrossTab>
     <StiDataBand>La bande de données dans reliée à la source de données et est affichée autant de fois qu'il y a de lignes dans la source de données.</StiDataBand>
     <StiDatePickerElement>Ce contrôle est utilisé afin de sélectionner une date et une heure.</StiDatePickerElement>
+    <StiDatePickerUI>Un sélecteur de date utilisé pour choisir une date dans un calendrier.</StiDatePickerUI>
     <StiElectronicSignature>Ce composant est utilisé pour ajouter une signature graphique, une image, des initiales et du texte.</StiElectronicSignature>
     <StiEmptyBand>Cette bande est utilisée pour remplir l'espace libre en bas d'une page. Cette bande remplit l'espace libre sur chaque page d'un rapport.</StiEmptyBand>
     <StiFilterCategory>Un groupe de contrôles utilisé pour sélectionner et filtrer des valeurs.</StiFilterCategory>
@@ -2018,43 +2030,59 @@
     <StiHeaderBand>Cette bande est utilisée pour afficher des en-têtes. Elle est utilisée conjointement avec la bande de données.</StiHeaderBand>
     <StiHierarchicalBand>Cette bande est reliée à la source de données et est affichée autant de fois qu'il ya de lignes dans la source de données. Les données sont affichées sous forme arborescente.</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Ce composant est utilisée pour afficher une ligne.</StiHorizontalLinePrimitive>
+    <StiIconUI>Une icône utilisée pour afficher un graphique symbolique ou un marqueur visuel.</StiIconUI>
     <StiImage>Ce composant est utilisé pour afficher des images. Il supporte les formats suivants : BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
     <StiImageElement>Ce contrôle est utilisé pour représenter une image. Il supporte différents formats d'images, tel que BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImageElement>
+    <StiImageUI>Une image utilisée pour afficher du contenu graphique dans l'interface.</StiImageUI>
     <StiIndicatorElement>Ce contrôle affiche la différence entre les valeurs et les données d'entrée.</StiIndicatorElement>
+    <StiLabelUI>Une étiquette utilisée pour afficher du texte ou de courtes légendes.</StiLabelUI>
     <StiListBoxElement>Ce contrôle permet de sélectionner des éléments depuis une liste.</StiListBoxElement>
+    <StiListUI>Une liste utilisée pour afficher des éléments sélectionnables dans une collection verticale.</StiListUI>
     <StiMap>Ce composant est utilisé pour afficher des données réparties géographiquement.</StiMap>
     <StiMapCategory>Groupe de contrôle pour travailler avec des cartes et des données.</StiMapCategory>
     <StiMapElement>Ce contrôle est utilisé pour afficher des données géographiquement situées.</StiMapElement>
     <StiMathFormula>Ce composant est utilisé pour afficher des formules mathématiques dans un rapport.</StiMathFormula>
+    <StiMultiListUI>Une liste utilisée pour sélectionner plusieurs éléments dans la même collection.</StiMultiListUI>
+    <StiMultiSelectUI>Un sélecteur utilisé pour choisir plusieurs valeurs dans une liste préparée.</StiMultiSelectUI>
     <StiNumberBoxElement>Cet élément est utilisé pour sélectionner une valeur numérique ou définir une plage de valeurs numériques.</StiNumberBoxElement>
+    <StiNumberInputUI>Une saisie numérique utilisée pour entrer des valeurs numériques avec une saisie contrôlée.</StiNumberInputUI>
     <StiOnlineMapElement>Ce contrôle est utilisé afin de représenter des marqueurs géographie sur une carte en ligne.</StiOnlineMapElement>
     <StiOverlayBand>Cette bande est utilisée pour l'affichage de filigranes sur une page.</StiOverlayBand>
     <StiPageFooterBand>Cette bande est utilisée pour afficher des informations en bas de chaque page. Cette bande est utilisée pour afficher les numéros de page, les dates et autres informations complémentaires.</StiPageFooterBand>
     <StiPageHeaderBand>Cette bande est utilisée pour l'en-tête de page. Elle est affichée en haut de chaque page. Cette bande est utilisée pour afficher les numéros de page, les dates et autres informations complémentaires.</StiPageHeaderBand>
     <StiPanel>C'est la région rectangulaire, dans laquelle d'autres composants, y compris les bandes, seront placés. Lors du déplacement du panneau, les composants se déplacent aussi. Le panneau peut être placé à la fois sur une bande ou sur une page.</StiPanel>
     <StiPanelElement>Un panneau rectangulaire qui peut contenir d'autres contrôles. Quand le panneau est déplacé les éléments contenus sont aussi déplacés.</StiPanelElement>
+    <StiPanelUI>Un panneau utilisé pour regrouper et organiser d'autres contrôles dans une même zone.</StiPanelUI>
     <StiPdfDigitalSignature>Ce composant interactif est utilisé pour spécifier un emplacement pour la signature numérique après l'exportation du rapport en PDF.</StiPdfDigitalSignature>
     <StiPdfDigitalSignatureElement>Ce composant est utilisé pour spécifier un espace pour la signature numérique et les champs du certificat lors de l'exportation en PDF.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>Le tableau croisé dynamique est utilisé pour représenter en table des données structurés.</StiPivotTableElement>
     <StiProgressElement>Cet élément affiche le ratio des données en entrée. Il peut être représenté avec différents modes - secteurs, anneaux, bâtons.</StiProgressElement>
+    <StiRadioGroupUI>Un groupe de boutons radio utilisé pour sélectionner une seule option parmi un ensemble prédéfini de valeurs.</StiRadioGroupUI>
     <StiRangeSelectorElement>Ce composant est utilisé pour sélectionner une plage de valeurs sur une échelle ou une chronologie. Il permet aux utilisateurs de définir visuellement les limites minimale et maximale de la plage.</StiRangeSelectorElement>
+    <StiRangeSliderUI>Un curseur de plage utilisé pour définir des valeurs minimales et maximales sur une échelle.</StiRangeSliderUI>
     <StiRectanglePrimitive>Ce composant est utilisé pour l'affichage de rectangles.</StiRectanglePrimitive>
     <StiRegionMapElement>Ce contrôle est utilisé pour afficher des données qui sont géographiquement situés.</StiRegionMapElement>
     <StiReportSummaryBand>Cette bande est utilisée pour afficher des résumés sur l'intégralité du rapport. Elle est affichée une fois à la fin d'un rapport.</StiReportSummaryBand>
     <StiReportTitleBand>Cette bande est utilisée pour afficher le titre du rapport. Elle est affichée au début d'un rapport.</StiReportTitleBand>
     <StiRichText>Ce composant est utilisé pour afficher et éditer du texte RTF. Il gère également le chargement et l'enregistrement de fichiers au format RTF.</StiRichText>
     <StiRoundedRectanglePrimitive>Ce composant est utilisée pour l'affichage rectangles aux coins arrondis.</StiRoundedRectanglePrimitive>
+    <StiScreen>Un écran qui héberge des contrôles, une mise en page et des interactions utilisateur pour une page d'application.</StiScreen>
+    <StiSelectUI>Une zone de sélection utilisée pour choisir une valeur dans une liste déroulante.</StiSelectUI>
     <StiShape>Ce composant est utilisé pour insérer des formes toutes faites, comme les flèches, lignes diagonales vers le bas, lignes diagonales vers le haut, lignes horizontales, ovales, rectangles, rectangles arrondis, triangles, lignes verticales.</StiShape>
     <StiShapeElement>Ce contrôle est utilisé pour insérer des formes préconçues, tel que des flèches, lignes diagonales bas, lignes diagonales bas, lignes horizontales haut, lignes à gauche et à droite, ovales, rectangles, rectangles à coins, lignes en haut et en bas, triangles, lignes verticales.</StiShapeElement>
     <StiSignature>Ce composant est utilisé pour ajouter une signature électronique ou numérique à un rapport.</StiSignature>
+    <StiSliderUI>Un curseur utilisé pour sélectionner une valeur sur une échelle numérique continue.</StiSliderUI>
     <StiSparkline>Ce composant est utilisé pour créer des micrographies dans un rapport. Il vous permet de suivre l'évolution dynamique des données sous forme de barres, de lignes, de zones.</StiSparkline>
     <StiSubReport>Ce composant est utilisée pour afficher des données supplémentaires dans différents endroits d'un rapport.</StiSubReport>
+    <StiSwitchUI>Un interrupteur utilisé pour activer ou désactiver un paramètre en un clic.</StiSwitchUI>
     <StiTable>Ce composant est un ensemble d'éléments qui sont organisés selon un modèle de colonnes verticales de lignes horizontales.</StiTable>
     <StiTableElement>Ce contrôle est un ensemble d'éléments organisées en utilisant un modèle de colonnes en vertical et de lignes en horizontal.</StiTableElement>
     <StiTableOfContents>Ce composant est utilisé pour créer une table des matières dans un rapport.</StiTableOfContents>
+    <StiTableUI>Un tableau utilisé pour afficher des données sous forme de lignes et de colonnes de façon claire.</StiTableUI>
     <StiText>Ce composant est l'objet de base pour afficher des données sous forme de texte.</StiText>
     <StiTextElement>Ce contrôle est un objet basique pour représenter des données en tant que texte.</StiTextElement>
     <StiTextInCells>Ce composant est utilisée pour afficher un texte dans les cellules. Il est fréquemment utilisé pour créer des formulaires.</StiTextInCells>
+    <StiTextInputUI>Un champ de texte utilisé pour saisir et modifier des valeurs textuelles.</StiTextInputUI>
     <StiTreeViewBoxElement>Ce contrôle est utilisé pour sélectionner les données d'une liste déroulante en arborescence.</StiTreeViewBoxElement>
     <StiTreeViewElement>Représente le contrôle qui est utilisé pour afficher des données hiérarchisée sous forme d'arborescence.</StiTreeViewElement>
     <StiVerticalLinePrimitive>Ce composant est utilisée pour afficher des lignes verticales.</StiVerticalLinePrimitive>
@@ -2685,6 +2713,9 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <SubscriptionExpiredDays>Expire dans {0} jours</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Votre abonnement a expiré. Mettez à jour votre abonnement pour avoir la dernière version.</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>Abonnement expiré</SubscriptionExpiredShort>
+    <SubscriptionLimitExceeded>Votre abonnement a dépassé la limite de postes de développeur. L'application sera fermée. Veuillez mettre à niveau votre offre pour continuer.</SubscriptionLimitExceeded>
+    <SubscriptionLimitTitle>Limite d'abonnement</SubscriptionLimitTitle>
+    <SubscriptionLimitWarning>Votre abonnement utilise plus de postes de développeur que permis. Envisagez de mettre à niveau votre offre pour continuer sans interruption.</SubscriptionLimitWarning>
     <SubscriptionsOut10>10 jours restant avant expiration de votre abonnement!</SubscriptionsOut10>
     <SubscriptionsOut20>Votre abonnement va expirer dans 20 jours!</SubscriptionsOut20>
     <SuccessfullyRenewed>Votre abonnement a été mis à jour!</SuccessfullyRenewed>
@@ -3224,6 +3255,9 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <StiDashboardContentAlignmentRight>Droit</StiDashboardContentAlignmentRight>
     <StiDashboardContentAlignmentStretchX>Stretch X</StiDashboardContentAlignmentStretchX>
     <StiDashboardContentAlignmentStretchXY>Stretch XY</StiDashboardContentAlignmentStretchXY>
+    <StiDataBarShapeArrow>Flèche</StiDataBarShapeArrow>
+    <StiDataBarShapeBanner>Bannière</StiDataBarShapeBanner>
+    <StiDataBarShapeRectangle>Rectangle</StiDataBarShapeRectangle>
     <StiDataJoinTypeCross>Croisé</StiDataJoinTypeCross>
     <StiDataJoinTypeFull>Complet</StiDataJoinTypeFull>
     <StiDataJoinTypeInner>Interne</StiDataJoinTypeInner>
@@ -3744,6 +3778,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <DisconnectingEvent>Déconnexion</DisconnectingEvent>
     <DoubleClickEvent>Double Clic</DoubleClickEvent>
     <EndRenderEvent>Fin du rendu</EndRenderEvent>
+    <EndValueChangedEvent>Fin de valeur modifiée</EndValueChangedEvent>
     <EnterEvent>Entrée</EnterEvent>
     <ExportedEvent>Exporté</ExportedEvent>
     <ExportingEvent>Exportation</ExportingEvent>
@@ -3796,6 +3831,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <RenderingEvent>En train d'effectuer le rendu</RenderingEvent>
     <ReportCacheProcessingEvent>Traitement du cache du rapport</ReportCacheProcessingEvent>
     <SelectedIndexChangedEvent>Changement de l’index sélectionné</SelectedIndexChangedEvent>
+    <StartValueChangedEvent>Début de valeur modifiée</StartValueChangedEvent>
     <StateRestoreEvent>Restauration du rapport</StateRestoreEvent>
     <StateSaveEvent>Enregistrement du rapport</StateSaveEvent>
     <ValueChangedEvent>Changement de valeur</ValueChangedEvent>
@@ -3859,6 +3895,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
   <PropertyMain>
     <AcceptsReturn>Accepter les retours à la ligne</AcceptsReturn>
     <AcceptsTab>Accepter les tabulations</AcceptsTab>
+    <Action>Action</Action>
     <Actual>Actuel</Actual>
     <AddClearZone>Ajouter une zone vide</AddClearZone>
     <Advanced>Avancé</Advanced>
@@ -3960,6 +3997,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <BorderSize>Taille de la bordure</BorderSize>
     <BorderStyle>Style de bordure</BorderStyle>
     <BorderThickness>Epaisseur des bords</BorderThickness>
+    <BorderVisible>Bord visible</BorderVisible>
     <BorderWidth>Largeur de la bordure</BorderWidth>
     <Bottom>Bas</Bottom>
     <BottomLeft>En bas à gauche</BottomLeft>
@@ -4194,11 +4232,13 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <FiltersTarget>Cible des filtres</FiltersTarget>
     <First>Premier</First>
     <FirstTabOffset>Décalage de la première tabulation</FirstTabOffset>
+    <FitMode>Mode d'ajustement</FitMode>
     <FixedHeight>Hauteur fixe</FixedHeight>
     <FixedWidth>Largeur fixe</FixedWidth>
     <Flat>Plat</Flat>
     <FlatMode>Mode plat</FlatMode>
     <Focus>Focus</Focus>
+    <FocusVisible>Focus visible</FocusVisible>
     <Font>Police</Font>
     <FontBold>Gras</FontBold>
     <FontItalic>Italique</FontItalic>
@@ -4878,6 +4918,8 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <TextRightToLeft>Texte de droite à gauche</TextRightToLeft>
     <TextShowBehind>Afficher le texte derrière</TextShowBehind>
     <Third>Troisième</Third>
+    <ThumbBorderColor>Couleur de bordure du curseur</ThumbBorderColor>
+    <ThumbColor>Couleur du curseur</ThumbColor>
     <TickLabelMajorFont>Police principale du label de coche</TickLabelMajorFont>
     <TickLabelMajorTextBrush>Brosse principale du label de coche</TickLabelMajorTextBrush>
     <TickLabelMinorFont>Police mineure du label de coche</TickLabelMinorFont>
@@ -5170,6 +5212,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <Categorized>Categorisé</Categorized>
     <Charts>Diagrammes</Charts>
     <Checking>Vérification...</Checking>
+    <ClickAddToCreateNewAction>Cliquez sur « Ajouter » pour définir ce qui se passe lorsque cet événement se produit (par exemple, afficher un écran ou modifier une valeur).</ClickAddToCreateNewAction>
     <ClickForMoreDetails>Cliquer pour plus de détails</ClickForMoreDetails>
     <ClickHereToCreateNewCondition>pour créer une nouvelle condition</ClickHereToCreateNewCondition>
     <ClickHereToCreateNewField>pour créer un nouveau champ</ClickHereToCreateNewField>
@@ -5276,6 +5319,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <ScriptSecurity>Sécurité des scripts</ScriptSecurity>
     <SecondPass>Deuxième passe</SecondPass>
     <Shapes>Formes</Shapes>
+    <ShowIncompatibleTypes>Afficher les types incompatibles</ShowIncompatibleTypes>
     <ShowOnParametersPanel>Afficher dans le panneau des paramètres</ShowOnParametersPanel>
     <Standard>Standard</Standard>
     <StandardConfiguration>Propriétés d'objet principales, sans celles rarement utilisées.</StandardConfiguration>
@@ -5463,6 +5507,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
   </Signature>
   <StimulAI>
     <AskStimulAI>Demander à Stimul AI</AskStimulAI>
+    <Assistant>Assistant</Assistant>
     <ChangedWithAI>Modifié avec Stimul AI</ChangedWithAI>
     <CheckExpressionSuccess>Aucun problème n'a été trouvé dans l'expression spécifiée.</CheckExpressionSuccess>
     <CheckQuery>Vérifier la requête</CheckQuery>
@@ -5600,6 +5645,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
   <UserFunctionEditor>
     <ArgumentName>Nom de l'argument</ArgumentName>
     <ArgumentType>Type d'argument</ArgumentType>
+    <CheckScript>Vérifier le script</CheckScript>
     <ConvertScript>Convertir le script</ConvertScript>
     <CustomCategory>Catégorie personnalisée</CustomCategory>
     <EditCode>Modifier le code</EditCode>
@@ -5622,6 +5668,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <Title>Bienvenue dans la démo de Stimulsoft</Title>
   </WelcomeScreen>
   <Wizards>
+    <AIGeneratedDashboard>Tableau de bord généré par l'IA</AIGeneratedDashboard>
     <AIGeneratedReport>Rapport généré par l'IA</AIGeneratedReport>
     <BlankDashboard>Tableau de bord vierge</BlankDashboard>
     <BlankForm>Formulaire blanc</BlankForm>
