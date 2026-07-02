@@ -269,6 +269,10 @@
     <StiNetCoreCompilationModeCheckShort>Отчёт в режиме компиляции</StiNetCoreCompilationModeCheckShort>
     <StiResourcesFontsCheckLong>Не удаётся загрузить шрифт из ресурса '{0}'. Файл повреждён или формат файла не поддерживается.</StiResourcesFontsCheckLong>
     <StiResourcesFontsCheckShort>Шрифт не загружен</StiResourcesFontsCheckShort>
+    <StiScriptExecutionErrorCheck2Long>Ошибка выполнения сценария произошла в свойстве '{1}' компонента '{2}'.</StiScriptExecutionErrorCheck2Long>
+    <StiScriptExecutionErrorCheck3Long>Ошибка выполнения сценария произошла в событии '{1}' компонента '{2}'.</StiScriptExecutionErrorCheck3Long>
+    <StiScriptExecutionErrorCheckLong>Ошибка выполнения сценария произошла.</StiScriptExecutionErrorCheckLong>
+    <StiScriptExecutionErrorCheckShort>Ошибка выполнения сценария</StiScriptExecutionErrorCheckShort>
   </CheckReport>
   <CheckVariable>
     <StiVariableInitializationCheckLong>Переменная '{0}' имеет неправильное значение по умолчанию. Невозможно инициализировать переменную указанным значением.</StiVariableInitializationCheckLong>
@@ -1682,6 +1686,7 @@
     <BorderColor>Цвет границы.</BorderColor>
     <Brush>Кисть заднего фона легенды.</Brush>
     <Columns>Количество колонок.</Columns>
+    <ColumnWidth>Указывает ширину столбца легенды. Может использоваться вместе с Переносом текста для управления переносом текста внутри элементов легенды.</ColumnWidth>
     <Direction>Направление, используемое для отрисовки рядов в легенде.</Direction>
     <Font>Шрифт, используемый для отрисовки заголовка рядов в легенде диаграммы.</Font>
     <HideSeriesWithEmptyTitle>Значение определяет показывать или нет ряд без заголовка в легенде диаграммы.</HideSeriesWithEmptyTitle>
@@ -1700,6 +1705,7 @@
     <VertAlignment>Вертикальное выравнивание положения легенды.</VertAlignment>
     <VertSpacing>Вертикальное расстояние между элементами в легенде.</VertSpacing>
     <Visible>Видимость легенды диаграммы.</Visible>
+    <WordWrap>Включает или отключает перенос текста внутри элементов легенды. Работает вместе со свойством Ширина колонки легенды.</WordWrap>
   </StiLegend>
   <StiLinePrimitive>
     <Color>Цвет линии.</Color>
