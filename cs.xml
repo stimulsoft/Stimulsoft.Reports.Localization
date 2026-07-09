@@ -2589,19 +2589,27 @@
   <PropertyMain>
     <AcceptsReturn>Akceptovat Return</AcceptsReturn>
     <AcceptsTab>Akceptovat Tab</AcceptsTab>
+    <Action>Akce</Action>
+    <Actual>Aktuální</Actual>
     <AddClearZone>Přidat prázdnou zónu</AddClearZone>
     <Advanced>Rozšířené</Advanced>
     <AggregateFunction>Součtová funkce</AggregateFunction>
     <AggregateFunctions>Součtové funkce</AggregateFunctions>
+    <Aggregation>Agregace</Aggregation>
     <Alias>Alias</Alias>
     <Alignment>Zarovnání</Alignment>
     <AllowApplyBorderColor>Povolit použití barvy ohraničení</AllowApplyBorderColor>
     <AllowApplyBrush>Povolit použití štětce</AllowApplyBrush>
     <AllowApplyBrushNegative>Povolit použití negativního štětce</AllowApplyBrushNegative>
     <AllowApplyColorNegative>Povolit použití barevného negativu</AllowApplyColorNegative>
+    <AllowApplyLineColor>Povolit použití barvy čáry</AllowApplyLineColor>
     <AllowApplyStyle>Umožnit aplikovat styl</AllowApplyStyle>
+    <AllowCleanSignature>Povolit vymazání podpisu</AllowCleanSignature>
     <AllowExpressions>Povolit výrazy</AllowExpressions>
     <AllowHtmlTags>Povol Html Tagy</AllowHtmlTags>
+    <AllowNull>Povolit null</AllowNull>
+    <AllowScriptsInExpressions>Povolit skripty ve výrazech</AllowScriptsInExpressions>
+    <AllowScriptsToRun>Povolit spuštění skriptů</AllowScriptsToRun>
     <AllowSeries>Povolit řady</AllowSeries>
     <AllowSeriesElements>Povolit elementy řad</AllowSeriesElements>
     <AllowSorting>Povolit třídění</AllowSorting>
@@ -2615,22 +2623,37 @@
     <AllowUseForeColor>Povolit použití barvu popředí</AllowUseForeColor>
     <AllowUseHorAlignment>Allow Use Hor Alignment</AllowUseHorAlignment>
     <AllowUseImage>Povol použití obrázku</AllowUseImage>
+    <AllowUseNegativeTextBrush>Povolit použití negativního textového štětce</AllowUseNegativeTextBrush>
     <AllowUserValues>Povolit uživatelem definované hodnoty</AllowUserValues>
     <AllowUseTextBrush>Umožnit použití textový štětec</AllowUseTextBrush>
+    <AllowUseTextFormat>Povolit použití formátu textu</AllowUseTextFormat>
     <AllowUseTextOptions>Umožnit použití možností textu</AllowUseTextOptions>
+    <AllowUseTitle>Povolit použití titulku</AllowUseTitle>
     <AllowUseVertAlignment>Umožnit použití vertikálního zarovnání</AllowUseVertAlignment>
+    <AllowUsingAsSqlParameter>Povolit použití jako SQL parametr</AllowUsingAsSqlParameter>
     <AlternatingBackColor>Změna barvy pozadí</AlternatingBackColor>
+    <AlternatingCellBackColor>Barva pozadí střídavé buňky</AlternatingCellBackColor>
+    <AlternatingCellForeColor>Barva textu střídavé buňky</AlternatingCellForeColor>
+    <AlternatingDataColor>Barva střídavých dat</AlternatingDataColor>
+    <AlternatingDataForeground>Barva textu střídavých dat</AlternatingDataForeground>
+    <Always>Vždy</Always>
+    <Anchor>Ukotvení</Anchor>
     <Angle>Úhel</Angle>
     <Antialiasing>Antialiasing</Antialiasing>
+    <Appearance>Vzhled</Appearance>
+    <Apply>Použít</Apply>
     <Area>Oblast</Area>
     <Argument>Argument</Argument>
     <ArgumentDataColumn>Argument datového sloupce</ArgumentDataColumn>
+    <ArgumentFormat>Formát argumentu</ArgumentFormat>
+    <Arguments>Argumenty</Arguments>
     <ArrowHeight>Výška šipky</ArrowHeight>
     <ArrowStyle>Styl šipky</ArrowStyle>
     <ArrowWidth>Šířka šipky</ArrowWidth>
     <AspectRatio>Poměr</AspectRatio>
     <Author>Autor</Author>
     <Auto>Auto</Auto>
+    <AutoCalculateCenterPoint>Automatický výpočet středového bodu</AutoCalculateCenterPoint>
     <AutoDataColumns>Automatické data-sloupce</AutoDataColumns>
     <AutoDataRows>Automatické data-řádky</AutoDataRows>
     <AutoLocalizeReportOnRun>Auto Localize Report</AutoLocalizeReportOnRun>
@@ -2642,27 +2665,47 @@
     <AutoSeriesTitleDataColumn>Automatická řada titulků datových sloupců</AutoSeriesTitleDataColumn>
     <AutoWidth>Automatická šířka</AutoWidth>
     <AutoWidthType>Automatická šířka</AutoWidthType>
+    <AvailableInTheViewer>Dostupné v prohlížeči</AvailableInTheViewer>
+    <AxisLabelsColor>Barva štítků osy</AxisLabelsColor>
+    <AxisLineColor>Barva čáry osy</AxisLineColor>
+    <AxisTitleColor>Barva titulku osy</AxisTitleColor>
     <AxisValue>Hodnota osy</AxisValue>
     <BackColor>Barva pozadí</BackColor>
     <Background>Pozadí</Background>
     <BackgroundColor>Barva pozadí</BackgroundColor>
+    <BandColor>Barva pásu</BandColor>
     <BarCodeType>Typ čárového kódu</BarCodeType>
     <BasicStyleColor>Základní styl barvy</BasicStyleColor>
     <Blend>Blend</Blend>
+    <Blocks>Bloky</Blocks>
+    <BodyBrush>Výplň těla</BodyBrush>
+    <BodyShape>Tvar těla</BodyShape>
     <Bold>Tučně</Bold>
     <Bookmark>Záložka</Bookmark>
     <Border>Okraj</Border>
+    <BorderBrush>Výplň okraje</BorderBrush>
     <BorderColor>Barva okraje</BorderColor>
+    <BorderColorNegative>Negativní barva okraje</BorderColorNegative>
     <Borders>Okraje</Borders>
+    <BorderSize>Velikost okraje</BorderSize>
     <BorderStyle>Styl okraje</BorderStyle>
+    <BorderThickness>Tloušťka okraje</BorderThickness>
+    <BorderVisible>Viditelnost okraje</BorderVisible>
+    <BorderWidth>Šířka okraje</BorderWidth>
     <Bottom>Dolů</Bottom>
+    <BottomLeft>Dole vlevo</BottomLeft>
+    <BottomRight>Dole vpravo</BottomRight>
     <BottomSide>Spodní strana</BottomSide>
     <BreakIfLessThan>Zalomit pokud je méně než</BreakIfLessThan>
     <Brush>Výplň</Brush>
     <BrushNegative>Negativní štětec</BrushNegative>
     <BrushType>Typ štětce</BrushType>
+    <BubbleBackColor>Barva pozadí bubliny</BubbleBackColor>
+    <BubbleBorderColor>Barva okraje bubliny</BubbleBorderColor>
+    <BubbleScale>Měřítko bublin</BubbleScale>
     <BusinessObject>Business object</BusinessObject>
     <CacheAllData>Uložit do paměti všechna data</CacheAllData>
+    <CacheTotals>Ukládat Totals do mezipaměti</CacheTotals>
     <CalcInvisible>Počítat neviditelné</CalcInvisible>
     <CalculatedDataColumn>Počítané datové sloupce</CalculatedDataColumn>
     <CalculationMode>Výpočetní mód</CalculationMode>
@@ -2670,15 +2713,29 @@
     <Cancel>Storno</Cancel>
     <CanGrow>Povoleno zvětšování</CanGrow>
     <CanShrink>Povoleno zmenšování</CanShrink>
+    <CastToColumnType>Převést na typ sloupce</CastToColumnType>
     <Categories>Kategorie</Categories>
     <Category>Kategorie</Category>
     <CategoryConnections>Spojení</CategoryConnections>
+    <CellAlignment>Zarovnání buňky</CellAlignment>
+    <CellBackColor>Barva pozadí buňky</CellBackColor>
     <CellDockStyle>Styl zarovnání buňky</CellDockStyle>
+    <CellForeColor>Barva textu buňky</CellForeColor>
     <CellHeight>Výška buňky</CellHeight>
+    <Cells>Buňky</Cells>
     <CellType>Typ buňky</CellType>
     <CellWidth>Šířka buňky</CellWidth>
+    <Center>Střed</Center>
+    <CenterPoint>Středový bod</CenterPoint>
+    <ChartAreaBorderColor>Barva okraje oblasti grafu</ChartAreaBorderColor>
+    <ChartAreaBorderThickness>Tloušťka okraje oblasti grafu</ChartAreaBorderThickness>
+    <ChartAreaBrush>Výplň oblasti grafu</ChartAreaBrush>
+    <ChartAreaShowShadow>Zobrazit stín oblasti grafu</ChartAreaShowShadow>
     <ChartType>Typ grafu</ChartType>
+    <CheckAlignment>Zarovnání zaškrtnutí</CheckAlignment>
+    <CheckColor>Barva zaškrtnutí</CheckColor>
     <Checked>Zaškrtnutý</Checked>
+    <CheckedIcon>Ikona zaškrtnutí</CheckedIcon>
     <CheckOnClick>Zaškrtnout při kliknutí</CheckOnClick>
     <CheckStyle>Styl zaškrtnutí</CheckStyle>
     <CheckStyleForFalse>Kontrola chyb stylu</CheckStyleForFalse>
@@ -2690,8 +2747,10 @@
     <Child>Potomek</Child>
     <ChildColumns>Sloupce potomka</ChildColumns>
     <ChildSource>Datový zdroj potomka</ChildSource>
+    <City>Město</City>
     <ClearFormat>Smazat formát</ClearFormat>
     <CloneContainer>Klonovat kontejner</CloneContainer>
+    <CloseValues>Hodnoty uzavření</CloseValues>
     <Code>Kód</Code>
     <CodePage>Kódová stránka</CodePage>
     <Collapsed>Sbalený</Collapsed>
@@ -2700,17 +2759,24 @@
     <Collate>Srovnat</Collate>
     <CollectionName>Název kolekce</CollectionName>
     <Color>Barva</Color>
+    <ColorDataColumn>Barva datového sloupce</ColorDataColumn>
     <ColorEach>Barva navzájem</ColorEach>
+    <ColorMeter>Barva měřidla</ColorMeter>
+    <Colors>Barvy</Colors>
     <ColorScaleCondition>Barva podle podmínky</ColorScaleCondition>
     <ColorScaleType>Barva podle typu</ColorScaleType>
     <Column>Sloupec</Column>
     <ColumnCount>Počet sloupců</ColumnCount>
     <ColumnDirection>Směr sloupce</ColumnDirection>
     <ColumnGaps>Mezery mezi sloupci</ColumnGaps>
+    <ColumnHeaderBackColor>Barva pozadí hlavičky sloupce</ColumnHeaderBackColor>
+    <ColumnHeaderForeColor>Barva textu hlavičky sloupce</ColumnHeaderForeColor>
     <ColumnHeadersVisible>Viditelnost hlaviček sloupců</ColumnHeadersVisible>
     <Columns>Sloupce</Columns>
+    <ColumnShape>Tvar sloupce</ColumnShape>
     <ColumnWidth>Šířka sloupce</ColumnWidth>
     <CommandTimeout>Časový limit příkazu</CommandTimeout>
+    <CompanyPrefix>Prefix společnosti</CompanyPrefix>
     <ComponentStyle>Styl komponent</ComponentStyle>
     <Condition>Podmínka</Condition>
     <ConditionOptions>Možnosti podmínky</ConditionOptions>
@@ -2719,58 +2785,87 @@
     <ConnectOnStart>Připojit při spuštění</ConnectOnStart>
     <ConstantLines>Plná čára</ConstantLines>
     <Container>Kontejner</Container>
+    <ContentAlignment>Zarovnání obsahu</ContentAlignment>
     <ContinuousText>Souvislý text</ContinuousText>
     <ContourColor>barva obrysu</ContourColor>
     <Converting>Konverze</Converting>
     <ConvertNulls>Konvertovat NULL hodnoty</ConvertNulls>
     <Copies>kopie</Copies>
+    <CornerRadius>Poloměr rohu</CornerRadius>
     <Count>Počet</Count>
     <CountData>Počet prvků</CountData>
+    <Country>Země</Country>
     <Create>Vytvořit</Create>
     <CreateFieldOnDoubleClick>Vytvořit pole při dvojitém kliknutí</CreateFieldOnDoubleClick>
     <CreateLabel>Vytvořit štítek</CreateLabel>
+    <CrossFiltering>Křížové filtrování</CrossFiltering>
+    <Culture>Kultura</Culture>
+    <CustomFonts>Vlastní písma</CustomFonts>
     <CustomFormat>Uživatelský formát</CustomFormat>
     <CutPieList>Zkrácený seznam</CutPieList>
     <Data>Data</Data>
     <DataAdapter>Adaprér dat</DataAdapter>
     <DataAdapters>Adapréry dat</DataAdapters>
     <DataBarCondition>Panel podmínek</DataBarCondition>
+    <DataBarsNegative>Negativní datové pruhy</DataBarsNegative>
+    <DataBarsOverlapped>Překryté datové pruhy</DataBarsOverlapped>
+    <DataBarsPositive>Pozitivní datové pruhy</DataBarsPositive>
+    <DataBinding>Vazba dat</DataBinding>
     <DataBindings>Vazby dat</DataBindings>
+    <DataCells>Datové buňky</DataCells>
+    <DataColor>Barva dat</DataColor>
     <DataColumn>Sloupec dat</DataColumn>
     <DataColumns>Data-sloupce</DataColumns>
     <DataField>Pole dat</DataField>
+    <DataForeground>Barva textu dat</DataForeground>
     <DataRelation>Závislost dat</DataRelation>
     <DataRows>Data-řádky</DataRows>
     <DataSource>Datový zdroj</DataSource>
     <DataSources>Datové zdroje</DataSources>
     <DataTextField>Textové pole dat</DataTextField>
+    <DataTransformation>Transformace dat</DataTransformation>
     <DataType>Datový typ</DataType>
+    <DataUrl>URL dat</DataUrl>
     <DateInfo>Informace o datech</DateInfo>
+    <DateTimeMode>Režim DateTime</DateTimeMode>
     <DateTimeStep>Date Time Step</DateTimeStep>
+    <DecimalDigits>Desetinná místa</DecimalDigits>
     <Default>Výchozí</Default>
+    <DefaultColor>Výchozí barva</DefaultColor>
     <DefaultHeightCell>Defaultní výška buňky</DefaultHeightCell>
     <DefaultNamespace>Výchozí jmenný prostor</DefaultNamespace>
+    <DefaultSettings>Výchozí nastavení</DefaultSettings>
+    <DependentColumn>Závislý sloupec</DependentColumn>
+    <DependentValue>Závislá hodnota</DependentValue>
     <Description>popis</Description>
+    <Destination>Cíl</Destination>
     <DetectUrls>Detekování Urls</DetectUrls>
+    <DeviceWidth>Šířka zařízení</DeviceWidth>
     <DialogResult>Výsledek dialogu</DialogResult>
     <Diameter>Průměr</Diameter>
     <Direction>Směr</Direction>
+    <Disabled>Zakázáno</Disabled>
+    <DisplayNameType>Typ zobrazeného názvu</DisplayNameType>
     <DisplayValue>Zobrazovaná hodnota</DisplayValue>
     <Distance>Vzdálenost</Distance>
     <DistanceBetweenTabs>Vzdálenost mezi Taby</DistanceBetweenTabs>
+    <DistinguishedName>Rozlišující název</DistinguishedName>
     <Dock>Ukotvení</Dock>
     <DockableTable>Ukotvení tabulky</DockableTable>
     <DockStyle>Styl ukotvení</DockStyle>
     <DrawBorder>Kreslit okraj</DrawBorder>
     <DrawHatch>Draw Hatch</DrawHatch>
     <DrawLine>Kreslit čáru</DrawLine>
+    <DrillDown>Zjednodušení</DrillDown>
     <DrillDownEnabled>Zjednodušení povoleno</DrillDownEnabled>
+    <DrillDownMode>Režim zjednodušení</DrillDownMode>
     <DrillDownPage>Stránka zjednodušení</DrillDownPage>
     <DrillDownParameter1>Zjednodušení - parametr 1</DrillDownParameter1>
     <DrillDownParameter2>Zjednodušení - parametr 2</DrillDownParameter2>
     <DrillDownParameter3>Zjednodušení - parametr 3</DrillDownParameter3>
     <DrillDownParameter4>Sloučit parametr 4</DrillDownParameter4>
     <DrillDownParameter5>Sloučit parametr 5</DrillDownParameter5>
+    <DrillDownParameters>Parametry zjednodušení</DrillDownParameters>
     <DrillDownReport>Zjednodušení - report</DrillDownReport>
     <DropDownAlign>Zarovnání seznamu</DropDownAlign>
     <DropDownStyle>Styl seznamu</DropDownStyle>
@@ -2778,6 +2873,10 @@
     <DropShadow>Stín seznamu</DropShadow>
     <Duplex>Duplexní</Duplex>
     <Editable>Editovatelný</Editable>
+    <Effects>Efekty</Effects>
+    <EmptyBorderBrush>Výplň prázdného okraje</EmptyBorderBrush>
+    <EmptyBorderWidth>Šířka prázdného okraje</EmptyBorderWidth>
+    <EmptyBrush>Výplň prázdné oblasti</EmptyBrush>
     <EmptyValue>Prázdná hodnota</EmptyValue>
     <Enabled>Povoleno</Enabled>
     <EnableLog>Povolení logu</EnableLog>
@@ -2785,35 +2884,60 @@
     <EncodingType>Typ kódování</EncodingType>
     <EndCap>Zakončení</EndCap>
     <EndColor>Konečná barva</EndColor>
+    <EndValue>Konečná hodnota</EndValue>
+    <EndValues>Konečné hodnoty</EndValues>
+    <EndWidth>Konečná šířka</EndWidth>
     <EngineVersion>Verze motoru</EngineVersion>
     <EnumeratorSeparator>Enumerator Separator</EnumeratorSeparator>
     <EnumeratorType>Typ enumerátoru</EnumeratorType>
     <ErrorCorrectionLevel>Úroveň korekce chyby</ErrorCorrectionLevel>
     <ErrorsCorrectionLevel>Úroveň korekce chyb</ErrorsCorrectionLevel>
     <EvenStyle>Styl sudého řádku</EvenStyle>
+    <ExceedMargins>Překročit okraje</ExceedMargins>
     <ExcelSheet>List Excelu</ExcelSheet>
     <ExcelValue>Excel hodnota</ExcelValue>
+    <Expand>Rozbalit</Expand>
     <Exponential>Exponenciální</Exponential>
     <ExportAsImage>Exportovat jako obrázek</ExportAsImage>
+    <ExportSettings>Nastavení exportu</ExportSettings>
     <Expression>Expression</Expression>
+    <Extended>Rozšířený</Extended>
+    <ExtensionDigit>Rozšiřující číslice</ExtensionDigit>
+    <EyeBallBrush>Výplň středu oka</EyeBallBrush>
+    <EyeBallShape>Tvar středu oka</EyeBallShape>
+    <EyeFrameBrush>Výplň rámečku oka</EyeFrameBrush>
+    <EyeFrameShape>Tvar rámečku oka</EyeFrameShape>
     <FaqPage>Stránka s FAQ</FaqPage>
+    <Field>Pole</Field>
     <FieldIs>Pole je</FieldIs>
+    <Fields>Pole</Fields>
+    <Fifth>Pátý</Fifth>
     <File>Soubor</File>
+    <FileId>ID souboru</FileId>
     <Fill>Výplň</Fill>
+    <FillColor>Barva výplně</FillColor>
     <Filter>Filter</Filter>
+    <FilterElements>Prvky filtru</FilterElements>
     <FilterEngine>FilterEngine</FilterEngine>
+    <FilterMode>Režim filtru</FilterMode>
     <FilterOn>Zapnutí filtru</FilterOn>
     <Filters>Filtry</Filters>
+    <FiltersTarget>Cíl filtrů</FiltersTarget>
+    <First>První</First>
     <FirstTabOffset>Osazení prvního Tabu</FirstTabOffset>
+    <FitMode>Režim přizpůsobení</FitMode>
+    <FixedHeight>Pevná výška</FixedHeight>
     <FixedWidth>Pevná šířka</FixedWidth>
     <Flat>Plochý</Flat>
     <FlatMode>Plochý mód</FlatMode>
     <Focus>Fokus</Focus>
+    <FocusVisible>Viditelnost fokusu</FocusVisible>
     <Font>Písmo</Font>
     <FontBold>Tučné písmo</FontBold>
     <FontItalic>Kurzíva</FontItalic>
     <FontName>Jméno písma</FontName>
     <FontSize>Velikost písma</FontSize>
+    <FontSizeMode>Režim velikosti písma</FontSizeMode>
     <FontStrikeout>Přeškrtnuté písmo</FontStrikeout>
     <FontSubscript>Dolní index</FontSubscript>
     <FontSuperscript>Horní index</FontSuperscript>
@@ -2822,6 +2946,10 @@
     <FooterCanBreak>Zrušit zápatí</FooterCanBreak>
     <FooterCanGrow>Zvětšit zápatí</FooterCanGrow>
     <FooterCanShrink>Zmenšit zápatí</FooterCanShrink>
+    <FooterColor>Barva zápatí</FooterColor>
+    <FooterFont>Písmo zápatí</FooterFont>
+    <FooterForeColor>Barva písma zápatí</FooterForeColor>
+    <FooterForeground>Barva textu zápatí</FooterForeground>
     <FooterPrintAtBottom>Tisknout zápatí dole</FooterPrintAtBottom>
     <FooterPrintIfEmpty>Tisknout prázdné zápatí</FooterPrintIfEmpty>
     <FooterPrintOn>Zapnout tisk zápatí</FooterPrintOn>
@@ -2830,25 +2958,49 @@
     <FooterRowsCount>Počet řádků v zápatí</FooterRowsCount>
     <Footers>Zápatí</Footers>
     <ForeColor>Barva</ForeColor>
+    <Foreground>Barva textu</Foreground>
     <Format>Formát</Format>
+    <FormName>Název formuláře</FormName>
+    <FormSettings>Nastavení formuláře</FormSettings>
+    <Fourth>Čtvrtý</Fourth>
     <From>Od</From>
+    <FrozenColumns>Ukotvené sloupce</FrozenColumns>
     <FullConvertExpression>Full Convert Expression</FullConvertExpression>
+    <FullName>Celé jméno</FullName>
     <Function>Funkce</Function>
     <Functions>Funkce</Functions>
+    <GapAfterLastColumn>Mezera po posledním sloupci</GapAfterLastColumn>
+    <GisSettings>Nastavení GIS</GisSettings>
     <GlobalizationStrings>Globalizační řetězce</GlobalizationStrings>
     <GlobalizedName>Globalizační jméno</GlobalizedName>
+    <GlyphColor>Barva glyfu</GlyphColor>
+    <GridColor>Barva mřížky</GridColor>
+    <GridColumns>Sloupce mřížky</GridColumns>
     <GridLineColor>Barva čáry mřížky</GridLineColor>
     <GridLinesHor>Horizontální čáry mřížky</GridLinesHor>
+    <GridLinesHorColor>Barva horizontálních čar mřížky</GridLinesHorColor>
     <GridLinesHorRight>Mřížka Čáry Horizontální Vpravo</GridLinesHorRight>
     <GridLineStyle>Styl čáry mřížky</GridLineStyle>
     <GridLinesVert>Vertikální čáry mřížky</GridLinesVert>
+    <GridLinesVertColor>Barva vertikálních čar mřížky</GridLinesVertColor>
+    <GridOutline>Obrys mřížky</GridOutline>
+    <GridVerticalStep>Vertikální krok mřížky</GridVerticalStep>
+    <Group>Skupina</Group>
+    <GroupDataColumn>Skupina datového sloupce</GroupDataColumn>
+    <GroupMeter>Skupina měřidla</GroupMeter>
     <GrowToHeight>Přizpůsobit na výšku</GrowToHeight>
+    <HandleBorderColor>Barva okraje úchytu</HandleBorderColor>
+    <HandleFillColor>Barva výplně úchytu</HandleFillColor>
+    <Header>Hlavička</Header>
+    <HeaderAlignment>Zarovnání hlavičky</HeaderAlignment>
     <HeaderBackColor>Barva pozadí hlavičky</HeaderBackColor>
     <HeaderCanBreak>Zrušit hlavičku</HeaderCanBreak>
     <HeaderCanGrow>Zvětšit hlavičku</HeaderCanGrow>
     <HeaderCanShrink>Zmenšit hlavičku</HeaderCanShrink>
+    <HeaderColor>Barva hlavičky</HeaderColor>
     <HeaderFont>Písmo hlavičky</HeaderFont>
     <HeaderForeColor>Barva písma hlavičky</HeaderForeColor>
+    <HeaderForeground>Barva textu hlavičky</HeaderForeground>
     <HeaderPrintAtBottom>Tisknout hlavičku dole</HeaderPrintAtBottom>
     <HeaderPrintIfEmpty>Tisknout prázdnou hlavičku</HeaderPrintIfEmpty>
     <HeaderPrintOn>Zapnout tisk hlavičky</HeaderPrintOn>
@@ -2857,79 +3009,144 @@
     <HeaderRowsCount>Počet řádků hlavičky</HeaderRowsCount>
     <Headers>Hlavičky</Headers>
     <HeaderText>Text hlavičky</HeaderText>
+    <Heading>Nadpis</Heading>
+    <Heatmap>Teplotní mapa</Heatmap>
+    <HeatmapColors>Barvy teplotní mapy</HeatmapColors>
+    <HeatmapWithGroup>Teplotní mapa se skupinou</HeatmapWithGroup>
     <Height>Výška</Height>
+    <Hidden>Skrytý</Hidden>
     <HideSeriesWithEmptyTitle>Skrýt Řady s nevyplňeným názvem</HideSeriesWithEmptyTitle>
     <HideZeros>Skrýt nuly</HideZeros>
     <High>Horní</High>
     <HighlightCondition>Podmínka zvýraznění</HighlightCondition>
+    <HighValues>Vysoké hodnoty</HighValues>
     <HorAlignment>Vodorovné zarovnání</HorAlignment>
     <HorSpacing>Horizontální rozteč</HorSpacing>
+    <HotBackColor>Barva pozadí při najetí</HotBackColor>
+    <HotColumnHeaderBackColor>Barva pozadí hlavičky sloupce při najetí</HotColumnHeaderBackColor>
+    <HotForeColor>Barva textu při najetí</HotForeColor>
+    <HotGlyphColor>Barva symbolu při najetí</HotGlyphColor>
+    <HotHeaderBackColor>Barva pozadí hlavičky při najetí</HotHeaderBackColor>
+    <HotHeaderColor>Barva hlavičky při najetí</HotHeaderColor>
     <HotkeyPrefix>Klávesová zkratka</HotkeyPrefix>
+    <HotRowHeaderBackColor>Barva pozadí hlavičky řádku při najetí</HotRowHeaderBackColor>
+    <HotSelectedBackColor>Barva pozadí výběru při najetí</HotSelectedBackColor>
+    <HotSelectedForeColor>Barva textu výběru při najetí</HotSelectedForeColor>
+    <HotSelectedGlyphColor>Barva symbolu výběru při najetí</HotSelectedGlyphColor>
+    <HtmlPreviewMode>Režim náhledu HTML</HtmlPreviewMode>
     <HtmlTags>Html Tagy</HtmlTags>
     <Hyperlink>Hyperlink</Hyperlink>
     <HyperlinkDataColumn>Hyperlink Data Column</HyperlinkDataColumn>
+    <HyperlinkPattern>Vzor hyperlinku</HyperlinkPattern>
     <Icon>Ikona</Icon>
+    <IconAlignment>Zarovnání ikony</IconAlignment>
+    <IconBrush>Výplň ikony</IconBrush>
+    <IconColor>Barva ikony</IconColor>
     <IconSet>Nastavení ikony</IconSet>
     <IconSetCondition>Nastavení podmínky pro ikonu</IconSetCondition>
     <Idents>Identifikátory</Idents>
     <Image>Obrázek</Image>
     <ImageAlign>Zarovnání obrázku</ImageAlign>
     <ImageAlignment>Zarovnání obrázku</ImageAlignment>
+    <ImageAspectRatio>Poměr stran obrázku</ImageAspectRatio>
     <ImageData>Data obrázku</ImageData>
+    <ImageEnabled>Obrázek povolen</ImageEnabled>
     <ImageHorAlignment>Horizontální zarovnání obrázku</ImageHorAlignment>
     <ImageMultipleFactor>Zvětšení obrázku</ImageMultipleFactor>
     <ImageRotation>Rotace obrázku</ImageRotation>
+    <ImageShowBehind>Zobrazit obrázek na pozadí</ImageShowBehind>
     <ImageStretch>Roztažení obrázku</ImageStretch>
     <ImageTiling>Dlaždice</ImageTiling>
     <ImageTransparency>Transparentnost obrázku</ImageTransparency>
     <ImageURL>Image URL</ImageURL>
     <ImageVertAlignment>Vertikální zarovnání obrázku</ImageVertAlignment>
     <ImportRelations>Import závislostí</ImportRelations>
+    <InclusionMode>Režim zahrnutí</InclusionMode>
     <Increment>Přírůstek</Increment>
     <Indent>Vzor</Indent>
+    <Indicator>Indikátor</Indicator>
+    <IndicatorNegative>Negativní indikátor</IndicatorNegative>
+    <IndicatorNeutral>Neutrální indikátor</IndicatorNeutral>
+    <IndicatorPositive>Pozitivní indikátor</IndicatorPositive>
+    <IndicatorValue>Hodnota indikátoru</IndicatorValue>
+    <IndividualColor>Individuální barva</IndividualColor>
     <InitBy>Inicializovat pomocí</InitBy>
+    <Initials>Iniciály</Initials>
+    <InitialSelection>Počáteční výběr</InitialSelection>
+    <InitialSelectionSource>Zdroj počátečního výběru</InitialSelectionSource>
+    <InitialValue>Počáteční hodnota</InitialValue>
+    <InnerText>Vnitřní text</InnerText>
+    <Input>Vstup</Input>
     <Insert>Vložit</Insert>
     <Interaction>Propojení</Interaction>
     <InterlacedBrush>Prokládaný štětec</InterlacedBrush>
     <InterlacingHor>Horizontální prokládání</InterlacingHor>
+    <InterlacingHorBrush>Výplň horizontálního prokládání</InterlacingHorBrush>
     <InterlacingVert>vertikální prokládání</InterlacingVert>
+    <InterlacingVertBrush>Výplň vertikálního prokládání</InterlacingVertBrush>
+    <Interpolation>Interpolace</Interpolation>
+    <IsReversed>Převráceno</IsReversed>
     <Italic>Kurzíva</Italic>
     <Item>Položka</Item>
     <ItemHeight>Výška položky</ItemHeight>
     <Items>Položky</Items>
+    <JoinType>Typ spojení</JoinType>
     <KeepChildTogether>Seskupit potomka</KeepChildTogether>
     <KeepCrossTabTogether>Udržuj křížové tabulky společně</KeepCrossTabTogether>
+    <KeepDetails>Zachovat detaily</KeepDetails>
     <KeepDetailsTogether>Nechat detaily pohromadě</KeepDetailsTogether>
     <KeepFooterTogether>Seskupit zápatí</KeepFooterTogether>
     <KeepGroupFooterTogether>Nechat skupinové zápatí pohromadě</KeepGroupFooterTogether>
     <KeepGroupHeaderTogether>Nechat skupinová záhlaví pohromadě</KeepGroupHeaderTogether>
     <KeepGroupTogether>Seskupit skupinu</KeepGroupTogether>
     <KeepHeaderTogether>Seskupit záhlaví</KeepHeaderTogether>
+    <KeepMergedCellsTogether>Nechat sloučené buňky pohromadě</KeepMergedCellsTogether>
     <KeepReportSummaryTogether>Nechat shrnutí reportu pohromadě</KeepReportSummaryTogether>
     <KeepSubReportTogether>Udržuj podřízené reporty společně</KeepSubReportTogether>
     <Key>Klíč</Key>
     <KeyDataColumn>Klíč datového sloupce</KeyDataColumn>
+    <KeyMeter>Klíčová míra</KeyMeter>
+    <KeyMeters>Klíčové míry</KeyMeters>
     <Keys>Klíče</Keys>
+    <Label>Štítek</Label>
     <LabelColor>Barva štítku</LabelColor>
+    <LabelForeground>Barva popředí štítku</LabelForeground>
+    <LabelRotationMode>Režim rotace štítku</LabelRotationMode>
     <Labels>Štítky</Labels>
     <LabelsColor>Barva štítků</LabelsColor>
+    <LabelShadowForeground>Barva popředí stínu štítku</LabelShadowForeground>
     <LabelsOffset>Odsazení popisků</LabelsOffset>
     <Language>Jazyk</Language>
     <LargeHeight>Velká výška</LargeHeight>
     <LargeHeightFactor>Faktor velké výšky</LargeHeightFactor>
+    <LaTexExpression>Výraz LaTex</LaTexExpression>
+    <Latitude>Zeměpisná šířka</Latitude>
+    <Layout>Rozvržení</Layout>
     <Left>Vlevo</Left>
     <LeftSide>Levá strana</LeftSide>
     <Legend>Legenda</Legend>
+    <LegendBorderColor>Barva okraje legendy</LegendBorderColor>
+    <LegendBrush>Výplň legendy</LegendBrush>
+    <LegendLabelsColor>Barva štítků legendy</LegendLabelsColor>
+    <LegendTitleColor>Barva titulku legendy</LegendTitleColor>
     <LegendValueType>Typ hodnty legendy</LegendValueType>
     <Length>Délka</Length>
     <LengthUnderLabels>Length under Labels</LengthUnderLabels>
     <Lighting>Osvětlení</Lighting>
+    <LimitRows>Limit řádků</LimitRows>
     <Linear>Lineární</Linear>
+    <LinearBarBorderBrush>Výplň okraje lineární lišty</LinearBarBorderBrush>
+    <LinearBarBrush>Výplň lineární lišty</LinearBarBrush>
+    <LinearBarEmptyBorderBrush>Výplň okraje prázdné lineární lišty</LinearBarEmptyBorderBrush>
+    <LinearBarEmptyBrush>Výplň prázdné lineární lišty</LinearBarEmptyBrush>
+    <LinearScaleBrush>Výplň lineární stupnice</LinearScaleBrush>
     <LineColor>Barva čáry</LineColor>
     <LineColorNegative>Line Color Negative</LineColorNegative>
+    <LineLength>Délka čáry</LineLength>
     <LineLimit>Ohraničení stránky</LineLimit>
     <LineMarker>Označovač linky</LineMarker>
     <LinesOfUnderline>Čáry podtržení</LinesOfUnderline>
+    <LineSpacing>Řádkování</LineSpacing>
     <LineStyle>Styl čáry</LineStyle>
     <LineWidth>Šířka čáry</LineWidth>
     <Linked>Spojený</Linked>
@@ -2944,16 +3161,37 @@
     <ListOfValuesLow>Seznam hodnot Low (dno)</ListOfValuesLow>
     <ListOfValuesOpen>Seznam hodnot Open (otevření)</ListOfValuesOpen>
     <ListOfWeights>Seznam hodnot Weight</ListOfWeights>
+    <ListOfXValues>Seznam hodnot X</ListOfXValues>
+    <ListOfYValues>Seznam hodnot Y</ListOfYValues>
     <Localizable>Lokalizovatelný</Localizable>
     <Location>Umístění</Location>
     <Locked>Zamčený</Locked>
     <Logarithmic>Logaritmické</Logarithmic>
     <LogarithmicScale>Logaritmické měřítko</LogarithmicScale>
+    <Logo>Logo</Logo>
+    <Longitude>Zeměpisná délka</Longitude>
     <Low>Nízký</Low>
+    <LowValues>Nízké hodnoty</LowValues>
+    <MajorInterval>Hlavní interval</MajorInterval>
+    <MapAfrica>Afrika</MapAfrica>
+    <MapAsia>Asie</MapAsia>
+    <MapCustom>Vlastní</MapCustom>
+    <MapEurope>Evropa</MapEurope>
+    <MapID>ID mapy</MapID>
+    <MapNorthAmerica>Severní Amerika</MapNorthAmerica>
+    <MapOceania>Oceánie</MapOceania>
+    <MapPopularMaps>Oblíbené mapy</MapPopularMaps>
+    <Maps>Mapy</Maps>
+    <MapSouthAmerica>Jižní Amerika</MapSouthAmerica>
+    <MapStyle>Styl mapy</MapStyle>
+    <MapType>Typ mapy</MapType>
+    <Margin>Okraj</Margin>
     <Margins>Okraje</Margins>
     <Marker>Označovač</Marker>
     <MarkerAlignment>Zarovnání značky</MarkerAlignment>
+    <MarkerAngle>Úhel značky</MarkerAngle>
     <MarkerBorder>Hranice ukazatele</MarkerBorder>
+    <MarkerBrush>Výplň značky</MarkerBrush>
     <MarkerColor>barva značky</MarkerColor>
     <MarkerSize>velikost značky</MarkerSize>
     <MarkerType>Typ značky</MarkerType>
@@ -2965,8 +3203,10 @@
     <MaxDropDownItems>Maximální množství položek v seznamu</MaxDropDownItems>
     <MaxHeight>Maximální výška</MaxHeight>
     <Maximum>Maximum</Maximum>
+    <MaximumValue>Maximální hodnota</MaximumValue>
     <MaxLength>Maxamální délka</MaxLength>
     <MaxNumberOfLines>Maximální počet řádků</MaxNumberOfLines>
+    <MaxSelectedItems>Max. vybraných položek</MaxSelectedItems>
     <MaxSize>Maximální velikost</MaxSize>
     <MaxValue>Max. hodnota</MaxValue>
     <MaxWidth>Max. šířka</MaxWidth>
@@ -2977,8 +3217,10 @@
     <MinHeight>Minimální výška</MinHeight>
     <Minimum>Minimum</Minimum>
     <MinimumFontSize>Minimální velikost písma</MinimumFontSize>
+    <MinimumValue>Minimální hodnota</MinimumValue>
     <MinorColor>Vedlejší barva</MinorColor>
     <MinorCount>Vedlejší počet</MinorCount>
+    <MinorInterval>Vedlejší interval</MinorInterval>
     <MinorLength>Vedlejší délka</MinorLength>
     <MinorStyle>Vedlejší styl</MinorStyle>
     <MinorVisible>Vedlejší viditelnost</MinorVisible>
@@ -2986,36 +3228,65 @@
     <MinSize>Minimální velikost</MinSize>
     <MinValue>Min. hodnota</MinValue>
     <MinWidth>Min. šířka</MinWidth>
+    <MirrorMargins>Zrcadlové okraje</MirrorMargins>
     <Mode>Mód</Mode>
     <Module>Modul</Module>
     <Move>Posun</Move>
     <Multiline>Víceřádkový</Multiline>
     <MultipleFactor>Násobek</MultipleFactor>
+    <MultipleInitialization>Vícenásobná inicializace</MultipleInitialization>
+    <MyFunction>Moje funkce</MyFunction>
     <Name>Jméno</Name>
+    <NameDataColumn>Jméno datového sloupce</NameDataColumn>
     <NameInSource>Zdrojové jméno</NameInSource>
+    <NameMeter>Jméno měřidla</NameMeter>
     <NameParent>Jméno předka</NameParent>
     <Namespaces>Jmenné prostory</Namespaces>
+    <NeedleBorderBrush>Výplň ohraničení ručičky</NeedleBorderBrush>
+    <NeedleBorderWidth>Šířka ohraničení ručičky</NeedleBorderWidth>
+    <NeedleBrush>Výplň ručičky</NeedleBrush>
+    <NeedleCapBorderBrush>Výplň ohraničení krytky ručičky</NeedleCapBorderBrush>
+    <NeedleCapBrush>Výplň krytky ručičky</NeedleCapBrush>
     <Negative>Negativní</Negative>
+    <NegativeColor>Negativní barva</NegativeColor>
+    <NegativeSeriesColors>Barvy negativních řad</NegativeSeriesColors>
+    <NegativeTextBrush>Negativní výplň textu</NegativeTextBrush>
     <NestedLevel>Úroveň zanoření</NestedLevel>
     <NewColumnAfter>Nový sloupec za</NewColumnAfter>
     <NewColumnBefore>Nový sloupec před</NewColumnBefore>
     <NewPageAfter>Nová strana za</NewPageAfter>
     <NewPageBefore>Nová strana před</NewPageBefore>
     <NextPage>Další stránka</NextPage>
+    <NoElements>Žádné prvky</NoElements>
     <NoIcon>Bez ikony</NoIcon>
+    <Notifications>Oznámení</Notifications>
     <NullText>Prázdný text</NullText>
     <NumberOfColumns>Počet sloupců</NumberOfColumns>
     <NumberOfCopies>Počet kopií</NumberOfCopies>
     <NumberOfPass>Number of Pass</NumberOfPass>
     <NumberOfValues>Počet hodnot</NumberOfValues>
     <OddStyle>Styl lichého řádku</OddStyle>
+    <Offset>Odsazení</Offset>
+    <OffsetAngle>Úhel odsazení</OffsetAngle>
+    <OnClick>Při kliknutí</OnClick>
+    <OnDataManipulation>Při manipulaci s daty</OnDataManipulation>
+    <OnePointZoom>Jednobodové přiblížení</OnePointZoom>
+    <OnHover>Při najetí</OnHover>
+    <OnlineMapAdminLevel>Administrativní úroveň</OnlineMapAdminLevel>
     <OnlyText>Pouze Text</OnlyText>
+    <OnSelect>Při výběru</OnSelect>
+    <Opacity>Neprůhlednost</Opacity>
+    <OpenValues>Hodnoty otevření</OpenValues>
     <Operation>Operace</Operation>
     <Options>Možnosti</Options>
+    <Options3D>Možnosti 3D</Options3D>
     <Orientation>Orientace</Orientation>
     <OthersText>Ostatní text</OthersText>
+    <OverlappedColor>Barva překrytí</OverlappedColor>
+    <Padding>Vnitřní okraj</Padding>
     <PageHeight>Výška stránky</PageHeight>
     <PageNumbers>Čísla stránek</PageNumbers>
+    <PageTurnTime>Čas přepnutí stránky</PageTurnTime>
     <PageWidth>Šířka stránky</PageWidth>
     <Paper>Papír</Paper>
     <PaperSize>Velikost papíru</PaperSize>
@@ -3024,20 +3295,31 @@
     <PaperSourceOfOtherPages>Zdroj papíru dalších stran</PaperSourceOfOtherPages>
     <PaperSourceOtherPages>Zdroj papíru ostatní strany</PaperSourceOtherPages>
     <Parameter>Parametr</Parameter>
+    <ParameterAlignment>Zarovnání parametru</ParameterAlignment>
     <Parameters>Parametry</Parameters>
+    <ParametersDateFormat>Formát data parametrů</ParametersDateFormat>
+    <ParametersDisplayMode>Režim zobrazení parametrů</ParametersDisplayMode>
     <ParametersOrientation>Orientace parametrů</ParametersOrientation>
+    <ParameterWidth>Šířka parametru</ParameterWidth>
     <ParentColumns>Sloupce předka</ParentColumns>
     <ParentSource>Datový zdroj předka</ParentSource>
     <ParentValue>Rodičovská hodnota</ParentValue>
+    <ParetoSeriesColors>Barvy řad Pareto</ParetoSeriesColors>
     <PasswordChar>Znak hesla</PasswordChar>
     <Path>Cesta</Path>
+    <PathColor>Barva cesty</PathColor>
     <PathData>Cesta dat</PathData>
     <PathSchema>Cesta schematu</PathSchema>
+    <Pattern>Vzor</Pattern>
+    <PDFPreview>Náhled PDF</PDFPreview>
+    <Placeholder>Zástupný symbol</Placeholder>
     <Placement>Umístění</Placement>
     <PlaceOnToolbox>Umístit do panelu nástrojů</PlaceOnToolbox>
+    <Platform>Platforma</Platform>
     <PointAtCenter>Ukázat na střed</PointAtCenter>
     <Position>Pozice</Position>
     <Positive>Pozitivní</Positive>
+    <PositiveColor>Pozitivní barva</PositiveColor>
     <PreferredColumnWidth>Preferovaná šířka sloupce</PreferredColumnWidth>
     <PreferredRowHeight>Preferovaná výška řádku</PreferredRowHeight>
     <PreventIntersection>Předejít křížení</PreventIntersection>
@@ -3045,6 +3327,7 @@
     <PreviewSettings>Nastavení náhledu</PreviewSettings>
     <Printable>Tisknutelný</Printable>
     <PrintAtBottom>Tisk dole</PrintAtBottom>
+    <PrintDialogType>Typ dialogu tisku</PrintDialogType>
     <PrinterName>Název tiskárny</PrinterName>
     <PrinterSettings>Nastavení tiskárny</PrinterSettings>
     <PrintHeadersFootersFromPreviousPage>Tiskové hlavičky a patičky z předchozí stránky</PrintHeadersFootersFromPreviousPage>
@@ -3060,35 +3343,62 @@
     <ProcessAt>Process at</ProcessAt>
     <ProcessAtEnd>Zpracování dokončeno</ProcessAtEnd>
     <ProcessingDuplicates>Zpracování duplicit</ProcessingDuplicates>
+    <ProcessTilde>Zpracovat Tilde</ProcessTilde>
     <ProductHomePage>Domovská stránka</ProductHomePage>
+    <Property>Vlastnost</Property>
+    <Provider>Poskytovatel</Provider>
     <RadarStyle>Radarový styl</RadarStyle>
+    <RadialBarBorderBrush>Výplň ohraničení radiální lišty</RadialBarBorderBrush>
+    <RadialBarBrush>Výplň radiální lišty</RadialBarBrush>
+    <RadialBarEmptyBorderBrush>Výplň ohraničení prázdné radiální lišty</RadialBarEmptyBorderBrush>
+    <RadialBarEmptyBrush>Výplň prázdné radiální lišty</RadialBarEmptyBrush>
+    <Radius>Poloměr</Radius>
+    <RadiusMode>Režim poloměru</RadiusMode>
     <Range>Rozsah</Range>
+    <RangeColorMode>Režim barvy rozsahu</RangeColorMode>
     <RangeFrom>Od</RangeFrom>
+    <RangeMode>Režim rozsahu</RangeMode>
     <RangeScrollEnabled>Range Scroll Enabled</RangeScrollEnabled>
     <RangeTo>Do</RangeTo>
+    <RangeType>Typ rozsahu</RangeType>
     <Ratio>Poměr</Ratio>
     <RatioY>Ratio Y</RatioY>
     <ReadOnly>Pouze pro čtení</ReadOnly>
+    <Reason>Důvod</Reason>
+    <RecentFonts>Poslední písma</RecentFonts>
     <ReconnectOnEachRow>Znovu připojit na každém řádku</ReconnectOnEachRow>
     <ReferencedAssemblies>Odkazované sestavení</ReferencedAssemblies>
     <Refresh>Obnovit</Refresh>
+    <RefreshTime>Čas obnovení</RefreshTime>
+    <Regular>Obyčejné</Regular>
+    <RegularExpression>Regulární výraz</RegularExpression>
     <Relation>Vztah</Relation>
     <RelationName>Jméno vztahu</RelationName>
     <Relations>Vztahy</Relations>
+    <RelativeHeight>Relativní výška</RelativeHeight>
+    <RelativeWidth>Relativní šířka</RelativeWidth>
+    <RememberSelection>Zapamatovat výběr</RememberSelection>
     <RemoveUnusedDataBeforeStart>Odstranit nepoužitá data před spuštěním</RemoveUnusedDataBeforeStart>
     <RenderTo>Zpracovat k</RenderTo>
     <ReportAlias>Alias sestavy</ReportAlias>
     <ReportAuthor>Autor sestavy</ReportAuthor>
     <ReportCacheMode>Režim cahce sestavy</ReportCacheMode>
     <ReportDescription>Popis sestavy</ReportDescription>
+    <ReportIcon>Ikona sestavy</ReportIcon>
+    <ReportImage>Obrázek sestavy</ReportImage>
     <ReportName>Jméno sestavy</ReportName>
     <ReportUnit>Jednotka sestavy</ReportUnit>
     <RequestFromUser>Požadavek uživatele</RequestFromUser>
     <RequestParameters>Vyžadované patametry</RequestParameters>
+    <Required>Povinné</Required>
+    <ResetAllFilters>Resetovat všechny filtry</ResetAllFilters>
     <ResetDataSource>Vymazání datového zdroje</ResetDataSource>
     <ResetPageNumber>Vynulovat číslo stránky</ResetPageNumber>
     <Resize>Změnit velikost</Resize>
+    <Resource>Zdroj</Resource>
+    <Resources>Zdroje</Resources>
     <Restrictions>Omezení</Restrictions>
+    <RetrieveOnlyUsedData>Načíst pouze použitá data</RetrieveOnlyUsedData>
     <ReturnValue>Návratová hodnota</ReturnValue>
     <ReverseHor>Převrátit horizontálně</ReverseHor>
     <ReverseVert>Převrátit vertikálně</ReverseVert>
@@ -3097,25 +3407,61 @@
     <RightToLeft>Zprava doleva</RightToLeft>
     <Rotation>Rotace</Rotation>
     <RotationLabels>Značky rotace</RotationLabels>
+    <RotationMode>Režim rotace</RotationMode>
     <Round>Zaokrouhlit</Round>
+    <RoundValues>Zaokrouhlit hodnoty</RoundValues>
     <RowCount>Počet řádků</RowCount>
+    <RowHeaderBackColor>Barva pozadí hlavičky řádku</RowHeaderBackColor>
+    <RowHeaderForeColor>Barva písma hlavičky řádku</RowHeaderForeColor>
     <RowHeadersVisible>Viditelnost hlavičky řádku</RowHeadersVisible>
     <RowHeaderWidth>Šířka hlavičky řádku</RowHeaderWidth>
+    <Rows>Řádky</Rows>
+    <RowsPerPage>Počet řádků na stránku</RowsPerPage>
     <Scale>Poměr</Scale>
     <ScaleHor>Horizontální stupnice</ScaleHor>
     <ScriptLanguage>Skriptovací jazyk</ScriptLanguage>
+    <ScriptTimeout>Časový limit skriptu</ScriptTimeout>
+    <ScrollTime>Čas posouvání</ScrollTime>
+    <Second>Druhý</Second>
+    <SegmentCount>Počet segmentů</SegmentCount>
+    <SegmentIndex>Index segmentu</SegmentIndex>
     <SegmentPerHeight>Částí na výšku</SegmentPerHeight>
     <SegmentPerWidth>Částí na šířku</SegmentPerWidth>
+    <SelectedBackColor>Barva pozadí výběru</SelectedBackColor>
+    <SelectedCellBackColor>Barva pozadí vybrané buňky</SelectedCellBackColor>
+    <SelectedCellForeColor>Barva textu vybrané buňky</SelectedCellForeColor>
+    <SelectedDataColor>Barva vybraných dat</SelectedDataColor>
+    <SelectedDataForeground>Barva textu vybraných dat</SelectedDataForeground>
+    <SelectedForeColor>Barva vybraného textu</SelectedForeColor>
+    <SelectedGlyphColor>Barva vybraného symbolu</SelectedGlyphColor>
     <SelectedIndex>Vybraný index</SelectedIndex>
     <SelectedItem>Vybraná položka</SelectedItem>
     <SelectedKey>Vybraný klíč</SelectedKey>
     <SelectedValue>Vybraná hodnota</SelectedValue>
+    <Selection>Výběr</Selection>
     <SelectionBackColor>Pozadí výběru</SelectionBackColor>
     <SelectionEnabled>Výběr aktivní</SelectionEnabled>
     <SelectionForeColor>Barva textu výběru</SelectionForeColor>
     <SelectionMode>Mód výběru</SelectionMode>
+    <SelectionType>Typ výběru</SelectionType>
+    <SelectStyle>Vybrat styl</SelectStyle>
+    <SendType>Typ odeslání</SendType>
+    <SeparatorColor>Barva oddělovače</SeparatorColor>
+    <SerialNumber>Sériové číslo</SerialNumber>
     <Series>Řada</Series>
+    <SeriesBorderColor>Barva okraje řady</SeriesBorderColor>
+    <SeriesBorderThickness>Tloušťka okraje řady</SeriesBorderThickness>
+    <SeriesColors>Barvy řad</SeriesColors>
+    <SeriesCornerRadius>Poloměr zaoblení řady</SeriesCornerRadius>
     <SeriesLabels>Štítky řad</SeriesLabels>
+    <SeriesLabelsBorderColor>Barva okraje štítků řad</SeriesLabelsBorderColor>
+    <SeriesLabelsBrush>Výplň štítků řad</SeriesLabelsBrush>
+    <SeriesLabelsColor>Barva štítků řad</SeriesLabelsColor>
+    <SeriesLabelsLineColor>Barva čáry štítků řad</SeriesLabelsLineColor>
+    <SeriesLighting>Osvětlení řad</SeriesLighting>
+    <SeriesShowBorder>Zobrazit okraj řady</SeriesShowBorder>
+    <SeriesShowShadow>Zobrazit stín řad</SeriesShowShadow>
+    <SeriesTitle>Titulek řady</SeriesTitle>
     <Shadow>Stín</Shadow>
     <ShadowBrush>Výplň stínu</ShadowBrush>
     <ShadowColor>Barva stínování</ShadowColor>
@@ -3123,26 +3469,40 @@
     <ShapeType>Typ tvaru</ShapeType>
     <Shift>Posun</Shift>
     <ShiftMode>Režim Shiftu</ShiftMode>
+    <ShortName>Krátké jméno</ShortName>
+    <ShortValue>Krátká hodnota</ShortValue>
+    <Show3D>Zobrazit 3D</Show3D>
+    <ShowAllValue>Zobrazit všechny hodnoty</ShowAllValue>
     <ShowBar>Show Bar</ShowBar>
     <ShowBehind>Zobrazit pozadí</ShowBehind>
+    <ShowBlanks>Zobrazit prázdné</ShowBlanks>
+    <ShowBubble>Zobrazit bubliny</ShowBubble>
     <ShowDialog>Zobrazit dialog</ShowDialog>
     <ShowEdgeValues>Zobrazit hodnoty okraje</ShowEdgeValues>
+    <ShowHyperlink>Zobrazit hyperlink</ShowHyperlink>
     <ShowImageBehind>Zobrazit pozadí obrázku</ShowImageBehind>
     <ShowInLegend>Zobrazit v legendě</ShowInLegend>
+    <ShowInnerPoints>Zobrazit vnitřní body</ShowInnerPoints>
     <ShowInPercent>Ukaž v procentech</ShowInPercent>
+    <ShowLabel>Zobrazit štítek</ShowLabel>
     <ShowLabels>Zobrazit štítky</ShowLabels>
     <ShowLabelText>Zobrazit text štítku</ShowLabelText>
+    <ShowLegend>Zobrazit legendu</ShowLegend>
     <ShowMarker>Zobrazit značku</ShowMarker>
+    <ShowMeanMarkers>Zobrazit značky průměru</ShowMeanMarkers>
     <ShowNulls>Zobrazovat NULL hodnoty</ShowNulls>
     <ShowOnZeroValues>Zobrazit nulové hodnoty</ShowOnZeroValues>
     <ShowOthers>Zobrazovat ostatní</ShowOthers>
     <ShowPercents>Zobrazit procenta</ShowPercents>
+    <ShowPlacemark>Zobrazit značku místa</ShowPlacemark>
     <ShowQuietZoneIndicator>Zobrazit indikátor klidné zóny</ShowQuietZoneIndicator>
     <ShowQuietZones>Zobrazovat klidné zóny</ShowQuietZones>
     <ShowScrollBar>Zobrazovat posuvník</ShowScrollBar>
+    <ShowSelectAll>Zobrazit Vybrat vše</ShowSelectAll>
     <ShowSeriesLabels>Ukaž označení řady</ShowSeriesLabels>
     <ShowShadow>Zobrazit stín</ShowShadow>
     <ShowTotal>Ukázat součet</ShowTotal>
+    <ShowTotalSummary>Zobrazit celkový souhrn</ShowTotalSummary>
     <ShowUpDown>Zobrazit nahoru dolů</ShowUpDown>
     <ShowValue>Zobrazit hodnotu</ShowValue>
     <ShowXAxis>Zobrazovat osu X</ShowXAxis>
@@ -3150,23 +3510,38 @@
     <ShowZeros>Zobrazuj nuly</ShowZeros>
     <ShrinkFontToFit>Přizpůsobit font</ShrinkFontToFit>
     <ShrinkFontToFitMinimumSize>Přizpůsobit font minimální velikosti</ShrinkFontToFitMinimumSize>
+    <ShrinkToFit>Zmenšit na velikost</ShrinkToFit>
     <Side>Strana</Side>
+    <SideBySide>Vedle sebe</SideBySide>
     <Sides>Strany</Sides>
+    <SignatureType>Typ</SignatureType>
     <Simple>Jednoduchý</Simple>
     <Size>Velikost</Size>
     <SizeMode>Mód strany</SizeMode>
+    <Skin>Skin</Skin>
     <SkipFirst>Přeskočit první</SkipFirst>
+    <SkipIndices>Přeskočit indexy</SkipIndices>
+    <SkipIndicesObj>Přeskočit indexy</SkipIndicesObj>
+    <SkipMajorValues>Přeskočit hlavní hodnoty</SkipMajorValues>
+    <SkipValues>Přeskočit hodnoty</SkipValues>
+    <SkipValuesObj>Přeskočit hodnoty</SkipValuesObj>
     <Smoothing>Vyhlazování</Smoothing>
+    <SnapMode>Režim přichycení</SnapMode>
+    <SnapPageWidthToGrid>Přichytit šířku stránky k mřížce</SnapPageWidthToGrid>
     <Sort>Třídění</Sort>
     <SortBy>Třídit dle</SortBy>
     <SortDirection>Směr třídění</SortDirection>
     <Sorted>Setříděno</Sorted>
     <SortingColumn>Řazení sloupců</SortingColumn>
     <SortingEnabled>Řazení aktivováno</SortingEnabled>
+    <SortLetters>A-Z</SortLetters>
     <SortType>Typ třídění</SortType>
     <Space>Mezera</Space>
+    <SpaceRatio>Poměr mezer</SpaceRatio>
     <Spacing>Rozestup</Spacing>
+    <Sparkline>Sparkline</Sparkline>
     <SqlCommand>Sql příkaz</SqlCommand>
+    <Standard>Standardní</Standard>
     <StartAngle>Počáteční úhel</StartAngle>
     <StartCap>Počátek</StartCap>
     <StartColor>Počáteční barva</StartColor>
@@ -3175,80 +3550,147 @@
     <StartNewPage>Nová stránka</StartNewPage>
     <StartNewPageIfLessThan>Začít novou stránku pokud je menší než</StartNewPageIfLessThan>
     <StartPosition>Počáteční pozice</StartPosition>
+    <StartValue>Počáteční hodnota</StartValue>
+    <StartWidth>Počáteční šířka</StartWidth>
+    <State>Stav</State>
     <Step>Krok</Step>
     <Stop>Zastavit</Stop>
     <StopBeforePage>Zastavit před stránkou</StopBeforePage>
     <StopBeforePrint>Zastavit před tiskem</StopBeforePrint>
     <StoreImagesInResources>Ukládat obrázky ve zdrojích</StoreImagesInResources>
+    <StreetAddress>Adresa</StreetAddress>
     <Stretch>Roztáhnout</Stretch>
     <StretchToPrintArea>Roztáhnout na oblast tisku</StretchToPrintArea>
+    <Strikeout>Přeškrtnutý</Strikeout>
     <StripBrush>Štětec pruhy</StripBrush>
     <Strips>Pruhy</Strips>
+    <Stroke>Přeškrtnutý</Stroke>
+    <StructuredAppendPosition>Pozice strukturovaného připojení</StructuredAppendPosition>
+    <StructuredAppendTotal>Celkem strukturovaného připojení</StructuredAppendTotal>
     <Style>Styl</Style>
     <StyleColors>Styl barev</StyleColors>
     <Styles>Styly</Styles>
+    <SubmissionMessage>Zpráva o odeslání</SubmissionMessage>
     <SubReportPage>Stránka podsestavy</SubReportPage>
+    <Summaries>Souhrny</Summaries>
     <Summary>Souhrn</Summary>
+    <SummaryAlignment>Zarovnání souhrnu</SummaryAlignment>
     <SummaryExpression>Souhrnné vyjádření</SummaryExpression>
     <SummarySortDirection>Souhrnně setřídit podle směru</SummarySortDirection>
     <SummaryType>Souhrnný typ</SummaryType>
     <SummaryValues>Celkové hodnoty</SummaryValues>
     <SupplementCode>Doplňující kód</SupplementCode>
     <SupplementType>Doplňující typ</SupplementType>
+    <SweepAngle>Úhel rozevření</SweepAngle>
+    <SystemFonts>Systémová písma</SystemFonts>
     <SystemVariable>Systémová proměnná</SystemVariable>
     <SystemVariables>Systémové proměnná</SystemVariables>
+    <Table>Tabulka</Table>
     <Tag>Tag</Tag>
     <TagDataColumn>Tag Data Column</TagDataColumn>
     <TagValue>Hodnota Tagu</TagValue>
+    <Target>Cíl</Target>
+    <TargetColor>Barva cíle</TargetColor>
+    <TargetFormat>Formát cíle</TargetFormat>
+    <TargetIcon>Ikona cíle</TargetIcon>
+    <TargetMode>Režim cíle</TargetMode>
+    <TargetSettings>Cíl</TargetSettings>
     <Tension>Napnutí</Tension>
     <Text>Text</Text>
     <TextAfter>Text po</TextAfter>
     <TextAlign>Zarovnání textu</TextAlign>
     <TextAlignment>Umístění textu</TextAlignment>
+    <TextAngle>Úhel textu</TextAngle>
     <TextBefore>Text před</TextBefore>
     <TextBrush>Výplň textu</TextBrush>
     <TextColor>Barva textu</TextColor>
+    <TextEnabled>Text povolen</TextEnabled>
+    <TextFont>Písmo textu</TextFont>
     <TextFormat>Formát textu</TextFormat>
     <TextOnly>Pouze text</TextOnly>
     <TextOptions>Možnosti textu</TextOptions>
+    <TextPlacement>Umístění textu</TextPlacement>
     <TextQuality>Kvalita textu</TextQuality>
+    <TextRightToLeft>Text zprava doleva</TextRightToLeft>
+    <TextShowBehind>Zobrazit text vzadu</TextShowBehind>
+    <Third>Třetí</Third>
+    <ThumbBorderColor>Barva okraje posuvníku</ThumbBorderColor>
+    <ThumbColor>Barva posuvníku</ThumbColor>
+    <TickLabelMajorFont>Písmo popisku hlavní značky</TickLabelMajorFont>
+    <TickLabelMajorTextBrush>Výplň textu popisku hlavní značky</TickLabelMajorTextBrush>
+    <TickLabelMinorFont>Písmo popisku vedlejší značky</TickLabelMinorFont>
+    <TickLabelMinorTextBrush>Výplň textu popisku vedlejší značky</TickLabelMinorTextBrush>
+    <TickMarkMajorBorder>Okraj hlavní značky</TickMarkMajorBorder>
+    <TickMarkMajorBorderWidth>Šířka okraje hlavní značky</TickMarkMajorBorderWidth>
+    <TickMarkMajorBrush>Výplň hlavní značky</TickMarkMajorBrush>
+    <TickMarkMinorBorder>Okraj vedlejší značky</TickMarkMinorBorder>
+    <TickMarkMinorBorderWidth>Šířka okraje vedlejší značky</TickMarkMinorBorderWidth>
+    <TickMarkMinorBrush>Výplň vedlejší značky</TickMarkMinorBrush>
     <Ticks>Znaménka</Ticks>
     <Title>Titulek</Title>
+    <TitleBackColor>Barva pozadí titulku</TitleBackColor>
     <TitleBeforeHeader>Titulek před hlavičkou</TitleBeforeHeader>
     <TitleColor>Barva titulku</TitleColor>
     <TitleDirection>Směr titulku</TitleDirection>
     <TitleFont>Font titulku</TitleFont>
+    <TitleForeColor>Barva textu titulku</TitleForeColor>
     <TitleVisible>Viditelné</TitleVisible>
     <To>Do</To>
     <Today>Dnes</Today>
     <ToolTip>Nápověda</ToolTip>
+    <ToolTipBorder>Okraj nápovědy</ToolTipBorder>
+    <ToolTipBrush>Výplň nápovědy</ToolTipBrush>
+    <ToolTipCornerRadius>Poloměr zaoblení nápovědy</ToolTipCornerRadius>
     <ToolTipDataColumn>Tool Tip Data Column</ToolTipDataColumn>
+    <ToolTipText>Text nápovědy</ToolTipText>
+    <ToolTipTextBrush>Výplň textu nápovědy</ToolTipTextBrush>
     <Top>Vrch</Top>
+    <TopLeft>Nahoře vlevo</TopLeft>
     <Topmost>Nejvyšší</Topmost>
     <TopmostLine>Nejvysší čára</TopmostLine>
     <TopN>Nejvyšších N</TopN>
+    <TopRight>Nahoře vpravo</TopRight>
     <TopSide>Vrchní strana</TopSide>
     <Total>Souhrn</Total>
+    <TotalCellColumnBackColor>Barva pozadí souhrnné buňky sloupce</TotalCellColumnBackColor>
+    <TotalCellColumnForeColor>Barva textu souhrnné buňky sloupce</TotalCellColumnForeColor>
+    <TotalCellRowBackColor>Barva pozadí souhrnné buňky řádku</TotalCellRowBackColor>
+    <TotalCellRowForeColor>Barva textu souhrnné buňky řádku</TotalCellRowForeColor>
+    <TotalLabel>Štítek souhrnu</TotalLabel>
     <Totals>Souhrny</Totals>
+    <TrackColor>Barva dráhy</TrackColor>
     <TransparentColor>Barva průhlednosti</TransparentColor>
     <TrendLine>Čára trendu</TrendLine>
+    <TrendLineColor>Barva čáry trendu</TrendLineColor>
+    <TrendLines>Čáry trendu</TrendLines>
+    <TrendLineShowShadow>Zobrazit stín čáry trendu</TrendLineShowShadow>
+    <TrimExcessData>Oříznout nadbytečná data</TrimExcessData>
     <Trimming>Ořezávání</Trimming>
     <Type>Typ</Type>
     <TypeName>Jméno typu</TypeName>
     <Types>Typy</Types>
+    <UncheckedIcon>Ikona nezaškrtnuto</UncheckedIcon>
     <Underline>Podtržený</Underline>
     <UndoLimit>Limit pro Zpět</UndoLimit>
     <Unit>Jednotka</Unit>
+    <UnitAlignment>Zarovnání jednotek</UnitAlignment>
     <UnlimitedBreakable>Neomezená porušitelnost</UnlimitedBreakable>
     <UnlimitedHeight>Neomezená výška</UnlimitedHeight>
     <UnlimitedWidth>Neomezená šířka</UnlimitedWidth>
+    <UpperMarks>Horní značky</UpperMarks>
+    <URL>URL</URL>
     <UseAliases>Používat aliasy</UseAliases>
     <UseExternalReport>Použít externí report</UseExternalReport>
     <UseParentStyles>Použít nadřazené styly</UseParentStyles>
+    <UseRangeColor>Použít barvu rozsahu</UseRangeColor>
+    <UserBingKey>Uživatelský klíč Bing</UserBingKey>
     <UseRectangularSymbols>Používat obdélníkové symboly</UseRectangularSymbols>
     <UseSeriesColor>Použít barvu řad</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>Použít souhrnný styl ve sloupci souhrn</UseStyleOfSummaryInColumnTotal>
     <UseStyleOfSummaryInRowTotal>Použít souhrnný styl v řádku souhrn</UseStyleOfSummaryInRowTotal>
+    <UseUserPicture>Použít obrázek uživatele</UseUserPicture>
+    <UseValuesFromTheSpecifiedRange>Použít hodnoty ze zadaného rozsahu</UseValuesFromTheSpecifiedRange>
+    <Validation>Ověření</Validation>
     <Value>Hodnota</Value>
     <ValueClose>Hodnota Close (uzavření)</ValueClose>
     <ValueDataColumn>Hodnota datového sloupce</ValueDataColumn>
@@ -3258,31 +3700,55 @@
     <ValueDataColumnLow>Value Data Column Low</ValueDataColumnLow>
     <ValueDataColumnOpen>Value Data Column Open</ValueDataColumnOpen>
     <ValueEnd>Hodnota End (ukončení)</ValueEnd>
+    <ValueFormat>Formát hodnoty</ValueFormat>
     <ValueHigh>Hodnota High (vrchol)</ValueHigh>
     <ValueLow>Hodnota Low (dno)</ValueLow>
+    <ValueMeter>Hodnota měřidla</ValueMeter>
     <ValueOpen>Hodnota Open (otevření)</ValueOpen>
     <Values>Hodnoty</Values>
     <ValueType>Typ hodnoty</ValueType>
     <ValueTypeSeparator>Typ oddělovače hodnot</ValueTypeSeparator>
     <Variable>Proměnná</Variable>
     <Variables>Proměnné</Variables>
+    <Variation>Odchylka</Variation>
     <Version>Verze</Version>
     <VertAlignment>Vertikální zarovnání</VertAlignment>
     <VertSpacing>Vertikální rozteč</VertSpacing>
     <ViewMode>Vzhled stránky</ViewMode>
+    <Visibility>Viditelnost</Visibility>
     <Visible>Viditelnost</Visible>
+    <VisualStates>Vizuální stavy</VisualStates>
     <Watermark>Vodotisk</Watermark>
+    <WatermarkStyle>Styl vodotisku</WatermarkStyle>
+    <WeaveAngle>Úhel přepletení</WeaveAngle>
+    <WeaveDistance>Vzdálenost přepletení</WeaveDistance>
+    <WeaveEnabled>Přepletení povoleno</WeaveEnabled>
+    <WeaveMajorColor>Barva hlavního přepletení</WeaveMajorColor>
+    <WeaveMajorIcon>Ikona hlavního přepletení</WeaveMajorIcon>
+    <WeaveMajorSize>Velikost hlavního přepletení</WeaveMajorSize>
+    <WeaveMinorColor>Barva vedlejšího přepletení</WeaveMinorColor>
+    <WeaveMinorIcon>Ikona vedlejšího přepletení</WeaveMinorIcon>
+    <WeaveMinorSize>Velikost vedlejšího přepletení</WeaveMinorSize>
     <Weight>Weight</Weight>
     <WeightDataColumn>Weight Data Column</WeightDataColumn>
+    <Weights>Váhy</Weights>
     <Width>Šířka</Width>
     <WindowState>Pozice okna</WindowState>
+    <WinLossNegative>Výhra/prohra negativní</WinLossNegative>
+    <WinLossPositive>Výhra/prohra pozitivní</WinLossPositive>
     <WordWrap>Zalomení textu</WordWrap>
     <Wrap>Zalomit</Wrap>
     <WrapGap>Mezera zalomení</WrapGap>
+    <WrapLine>Čára zalomení</WrapLine>
     <XAxis>Osa X</XAxis>
     <XTopAxis>Osa X Horní</XTopAxis>
+    <XValue>Hodnota X</XValue>
+    <XValuesDataColumn>Hodnota datového sloupce X</XValuesDataColumn>
     <YAxis>Osa Y</YAxis>
     <YRightAxis>Osa Y Pravá</YRightAxis>
+    <YValue>Hodnota Y</YValue>
+    <YValuesDataColumn>Hodnota datového sloupce Y</YValuesDataColumn>
+    <ZeroColor>Barva nuly</ZeroColor>
     <Zoom>Lupa</Zoom>
   </PropertyMain>
   <PropertySystemColors>
