@@ -345,7 +345,7 @@
     <StiHierarchicalBand>Hierarchický pruh</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Horizontální čára</StiHorizontalLinePrimitive>
     <StiImage>Obrázek</StiImage>
-    <StiOverlayBand>Překryt</StiOverlayBand>
+    <StiOverlayBand>Překrytí</StiOverlayBand>
     <StiPage>Stránka</StiPage>
     <StiPageFooterBand>Zápatí stránky</StiPageFooterBand>
     <StiPageHeaderBand>Záhlaví stránky</StiPageHeaderBand>
@@ -505,12 +505,12 @@
     <DataOnly>Pouze data</DataOnly>
     <DigitalSignature>Digitální podpis</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>Není zvolen žádný certifikát</DigitalSignatureCertificateNotSelected>
-    <DigitalSignatureError>Chyba digitálního podpisu v kroce</DigitalSignatureError>
+    <DigitalSignatureError>Chyba digitálního podpisu v kroku</DigitalSignatureError>
     <DocumentSecurity>Bezpečnost dokumentu</DocumentSecurity>
     <DotMatrixMode>Režim matice bodů</DotMatrixMode>
     <EmbeddedFonts>Vložená písma</EmbeddedFonts>
     <Encoding>Kódování:</Encoding>
-    <EncryptionError>Chyba šifrování v kroce</EncryptionError>
+    <EncryptionError>Chyba šifrování v kroku</EncryptionError>
     <EscapeCodes>Escape sekvenční znaky</EscapeCodes>
     <ExportDataOnly>Exportovat pouze data</ExportDataOnly>
     <ExportEachPageToSheet>Exportovat každou stránku na list</ExportEachPageToSheet>
@@ -784,9 +784,9 @@
   </FormDatabaseEdit>
   <FormDesigner>
     <Code>Kód</Code>
-    <ColumnsOne>Jeden</ColumnsOne>
+    <ColumnsOne>Jedna</ColumnsOne>
     <ColumnsThree>Tři</ColumnsThree>
-    <ColumnsTwo>Dva</ColumnsTwo>
+    <ColumnsTwo>Dvě</ColumnsTwo>
     <CompilingReport>Zpracování sestavy</CompilingReport>
     <DockingPanels>Panely</DockingPanels>
     <HtmlPreview>HTML náhled</HtmlPreview>
@@ -1313,16 +1313,16 @@
     <Columns>Rozdělit stránku do sloupců.</Columns>
     <ComponentSize>Změnit velikost vybraných komponent.</ComponentSize>
     <CopyToClipboard>Kopírovat do schránky</CopyToClipboard>
-    <CurrencySymbol>Vybrat symbolu měny.</CurrencySymbol>
+    <CurrencySymbol>Vybrat symbol měny.</CurrencySymbol>
     <DataStore>Zobrazit data registrovaná v reportu.</DataStore>
     <DateTimeFormat>Vybrat formát datumu a času pro vybrané komponenty.</DateTimeFormat>
     <DockingPanels>Nastavení panelů.</DockingPanels>
-    <DockStyleBottom>Ukotvit vybraných komponent dolů.</DockStyleBottom>
-    <DockStyleFill>Ukotvit vybraných komponent ke všem stranám.</DockStyleFill>
-    <DockStyleLeft>Ukotvit vybraných komponent doleva.</DockStyleLeft>
+    <DockStyleBottom>Ukotvit vybrané komponenty dolů.</DockStyleBottom>
+    <DockStyleFill>Ukotvit vybrané komponenty ke všem stranám.</DockStyleFill>
+    <DockStyleLeft>Ukotvit vybrané komponenty doleva.</DockStyleLeft>
     <DockStyleNone>Zrušit ukotvení vybraných komponent.</DockStyleNone>
-    <DockStyleRight>Ukotvit vybraných komponent doprava.</DockStyleRight>
-    <DockStyleTop>Ukotvit vybraných komponent nahoru.</DockStyleTop>
+    <DockStyleRight>Ukotvit vybrané komponenty doprava.</DockStyleRight>
+    <DockStyleTop>Ukotvit vybrané komponenty nahoru.</DockStyleTop>
     <FontGrow>Zvětšit velikost písma.</FontGrow>
     <FontName>Textový font.</FontName>
     <FontNameWatermark>Vodoznak textového fontu.</FontNameWatermark>
@@ -3091,7 +3091,7 @@
     <Objects>Objekty</Objects>
     <ProcedureParameters>Parametry procedury</ProcedureParameters>
     <Procedures>Procedury</Procedures>
-    <qnSaveChanges>Chceš uložit změny dotazu?</qnSaveChanges>
+    <qnSaveChanges>Chcete uložit změny dotazu?</qnSaveChanges>
     <Query>Dotaz</Query>
     <QueryBuilder>Editor dotazů</QueryBuilder>
     <QueryParameters>Parametry dotazu</QueryParameters>
@@ -3128,7 +3128,7 @@
     <Alphabetical>Abecedně</Alphabetical>
     <Bands>Pruhy</Bands>
     <Basic>Základní</Basic>
-    <BasicConfiguration>Minimální číslo vlastností objektu, které je nutné pro generování základní typů reportu.</BasicConfiguration>
+    <BasicConfiguration>Minimální počet vlastností objektu, které jsou nutné pro generování základních typů reportu.</BasicConfiguration>
     <BusinessObjects>Business Objects</BusinessObjects>
     <Categorized>Kategoricky</Categorized>
     <Charts>Grafy</Charts>
@@ -3154,7 +3154,7 @@
     <FirstPass>První zkouška</FirstPass>
     <GenerateNewCode>Generovat nový kód</GenerateNewCode>
     <InfoMessage>{0} - {1} nalezeno.</InfoMessage>
-    <InformationMessages>Informační zpráva</InformationMessages>
+    <InformationMessages>Informační zprávy</InformationMessages>
     <LabelAlias>Alias:</LabelAlias>
     <LabelAuthor>Autor:</LabelAuthor>
     <LabelBackground>Pozadí:</LabelBackground>
@@ -3162,9 +3162,9 @@
     <LabelCentimeters>Centimetry:</LabelCentimeters>
     <LabelCollectionName>Název kolekce:</LabelCollectionName>
     <LabelColor>Barva:</LabelColor>
-    <LabelCountData>Data počet:</LabelCountData>
+    <LabelCountData>Počet dat:</LabelCountData>
     <LabelDataBand>Data:</LabelDataBand>
-    <LabelDataColumn>Data sloupec:</LabelDataColumn>
+    <LabelDataColumn>Datový sloupec:</LabelDataColumn>
     <LabelDefaultValue>Výchozí hodnota:</LabelDefaultValue>
     <LabelExpression>Výraz:</LabelExpression>
     <LabelFactorLevel>Faktor zanoření:</LabelFactorLevel>
@@ -3187,7 +3187,7 @@
     <nameAssembly>Sestavení</nameAssembly>
     <No>Ne</No>
     <NoIssues>Žádné potíže</NoIssues>
-    <NotAssigned>Nepřidělení</NotAssigned>
+    <NotAssigned>Nepřiřazeno</NotAssigned>
     <Office2010Back>Zpět</Office2010Back>
     <PageNofM>Stránka {0} z {1}</PageNofM>
     <PreparingReport>Příprava Reportu</PreparingReport>
@@ -3241,7 +3241,7 @@
     <Arrow>Šipka</Arrow>
     <BasicShapes>Základní tvary</BasicShapes>
     <BentArrow>Zlomená šipka</BentArrow>
-    <BlockArrows>Bloková šipka</BlockArrows>
+    <BlockArrows>Blokové šipky</BlockArrows>
     <Chevron>Chevron</Chevron>
     <ComplexArrow>Složená šipka</ComplexArrow>
     <DiagonalDownLine>Sestupná diagonála</DiagonalDownLine>
@@ -3308,9 +3308,9 @@
   <TableRibbon>
     <BuiltIn>Vestavěné</BuiltIn>
     <Delete>Smazat</Delete>
-    <DeleteColumns>Smazané sloupce</DeleteColumns>
-    <DeleteRows>Smazané řádky</DeleteRows>
-    <DeleteTable>Smazaná tabulka</DeleteTable>
+    <DeleteColumns>Smazat sloupce</DeleteColumns>
+    <DeleteRows>Smazat řádky</DeleteRows>
+    <DeleteTable>Smazat tabulku</DeleteTable>
     <DistributeColumns>Distribuovat sloupce</DistributeColumns>
     <DistributeRows>Distribuovat řádky</DistributeRows>
     <InsertAbove>Vložit nad</InsertAbove>
@@ -3340,9 +3340,9 @@
     <CenterHorizontally>Vystředit vodorovně</CenterHorizontally>
     <CenterVertically>Vystředit svisle</CenterVertically>
     <Conditions>Podmínky</Conditions>
-    <FontGrow>Zvětšený font</FontGrow>
+    <FontGrow>Zvětšit font</FontGrow>
     <FontName>Jméno písma</FontName>
-    <FontShrink>Zmenšený font</FontShrink>
+    <FontShrink>Zmenšit font</FontShrink>
     <FontSize>Velikost písma</FontSize>
     <FontStyleBold>Tučný styl písma</FontStyleBold>
     <FontStyleItalic>Skloněný styl písma</FontStyleItalic>
@@ -3404,7 +3404,7 @@
     <DataSources>Datové zdroje</DataSources>
     <DefaultThemes>Výchozí témata</DefaultThemes>
     <Filters>Filtry</Filters>
-    <FromReportTemplate>Z šablony</FromReportTemplate>
+    <FromReportTemplate>Ze šablony</FromReportTemplate>
     <groupCreateNewPageOrForm>Vytvořit novou stránku nebo formulář</groupCreateNewPageOrForm>
     <groupCreateNewReport>Vytvořit novou sestavu</groupCreateNewReport>
     <Groups>Skupiny</Groups>
@@ -3415,7 +3415,7 @@
     <infoDataSources>Vyberte datové zdroje z dostupných.</infoDataSources>
     <infoFilters>Filtr dat pro vaši sestavu</infoFilters>
     <infoGroups>Vyberte sloupce pro seskupení.</infoGroups>
-    <infoLabelSettings>Nastavit nastavení štítků.</infoLabelSettings>
+    <infoLabelSettings>Nastavte parametry štítků.</infoLabelSettings>
     <infoLayout>Specifikujte rozvržení sestavy.</infoLayout>
     <infoRelation>Vyberte jednu datovou závislost z dostupných.</infoRelation>
     <infoSelectColumns>Vyberte sloupce, ze kterých budou zobrazeny informace.</infoSelectColumns>
