@@ -284,6 +284,8 @@
     <Pictorial>Resimli</Pictorial>
     <PictorialStacked>Resimli Dizilmiş</PictorialStacked>
     <Pie>Pasta</Pie>
+    <Polar>Kutupsal</Polar>
+    <PolarStacked>Kutupsal Yığınlı</PolarStacked>
     <Radar>Radar</Radar>
     <RadarArea>Radar Alanı</RadarArea>
     <RadarColumn>Radar Kolonu</RadarColumn>
@@ -741,6 +743,7 @@
     <AllowUserFiltering>Kullanıcının Filtrelemesine İzin Ver</AllowUserFiltering>
     <AllowUserSorting>Kullanıcının Sıralamasına İzin Ver</AllowUserSorting>
     <BeforeTransformation>Veri dönüştürmeden önce uygula</BeforeTransformation>
+    <BindData>Verilere Bağla</BindData>
     <Blank>(Boş)</Blank>
     <Blanks>(Boşluklar)</Blanks>
     <BooleanFilters>Boole Filtreleri</BooleanFilters>
@@ -949,12 +952,15 @@
     <StiListControl>Liste</StiListControl>
     <StiListViewControl>Liste Görünümü</StiListViewControl>
     <StiLookUpBoxControl>Arama Kutusu</StiLookUpBoxControl>
+    <StiMultiListControl>Çoklu Liste</StiMultiListControl>
+    <StiMultiSelectControl>Çoklu Seçim</StiMultiSelectControl>
     <StiNumberInputControl>Sayı Girişi</StiNumberInputControl>
     <StiNumericUpDownControl>Sayısal Yukarı Aşağı </StiNumericUpDownControl>
     <StiPanelControl>Panel</StiPanelControl>
     <StiPictureBoxControl>Resim Kutusu</StiPictureBoxControl>
     <StiRadioButtonControl>Radyo Buton</StiRadioButtonControl>
     <StiRadioGroupControl>Radyo Grup</StiRadioGroupControl>
+    <StiRangeSliderControl>Aralık Ayarlayıcı</StiRangeSliderControl>
     <StiReportControl>Rapor Kontrol</StiReportControl>
     <StiRichTextBoxControl>Zengin Metin Kutusu</StiRichTextBoxControl>
     <StiSelectControl>Seçim</StiSelectControl>
@@ -987,10 +993,12 @@
     <MatchCase>Tümünü &amp;Eşleştir</MatchCase>
     <MatchWholeWord>Tüm Kelimeyi &amp;Eşleştir</MatchWholeWord>
     <MaximumDimensions>Maksimum 7 boyut seçilebilir.</MaximumDimensions>
+    <NotFound>Bulunamadı</NotFound>
     <Outlining>Kapsam&amp;Dışı</Outlining>
     <PromptOnReplace>Sor ve Değiştir</PromptOnReplace>
     <Replace>&amp;Değiştir</Replace>
     <ReplaceAll>Tümünü Değiştir &amp;</ReplaceAll>
+    <Replaced>Değiştirildi: {0}</Replaced>
     <ReplaceWith>Olarak Değiştir:</ReplaceWith>
     <Search>Ara</Search>
     <SearchHiddenText>Gizli Metin</SearchHiddenText>
@@ -1979,10 +1987,13 @@
   <HelpComponents>
     <StiBarCode>Bu bileşen bir raporda barkodları göstermeye izin verir. Barkod verileri bir nesneye bir dize olarak gönderilir. Dize herhangi bir sembol içerebilir ancak sadece seçilen grafik için izin verilen semboller gösterilebilir.</StiBarCode>
     <StiButtonElement>Bu bileşen, bir kullanıcı etkileşimde bulunduğunda bir olay komutu yürütmek için kullanılır.</StiButtonElement>
+    <StiButtonUI>Bir eylem tetiklemek veya komut başlatmak için kullanılan düğme.</StiButtonUI>
     <StiCardsElement>Bu bileşen, gruplandırılmış verileri kartlar halinde görüntülemek için kullanılır.</StiCardsElement>
     <StiChart>Bu bileşen bir raporda grafiklerin gösterilmesine izin verir. Farklı grafik türleri mevcuttur. Bunlardan bazıları; Çubuk, Çizgi, Pasta Grafik, Alanlar, Gantt, Dağılım Çizelgeleri vb. dir. </StiChart>
     <StiChartElement> Bu öğe, bir kontrol panelinde grafikler gösterilmesine izin verir. Farklı grafik türleri mevcuttur.</StiChartElement>
     <StiCheckBox>Bu bileşen bir raporda bir onay kutusu gösterilmesini sağlar. İki modu görüntüleyebilir: "aktif" veya "pasif".</StiCheckBox>
+    <StiCheckBoxGroupUI>Listeden birden çok önceden tanımlanmış seçeneği seçmek için kullanılan onay kutusu grubu.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>Tek bir seçeneği hızlı şekilde açıp kapatmak için kullanılan onay kutusu.</StiCheckBoxUI>
     <StiChildBand>Alt Öğe bandı, bir veri satırında iki bant çıkışı için kullanılabilir.</StiChildBand>
     <StiClone>Bu bileşen bir raporun bölümlerini raporun gerekli bir bölümüne kopyalamak için kullanılır. Klonlama sadece panel içeriğine uygulanabilir.</StiClone>
     <StiColumnFooterBand>Bu bant, Data bandındaki sütunların altbilgisini çıkarmak için kullanılır. Sütun Altbilgi bandı, her sütunun altında bir kez çıkar. Bu bant üzerine yerleştirilen tüm bileşenler de her bir sütunun altında çıkarılacaktır.</StiColumnFooterBand>
@@ -1997,6 +2008,7 @@
     <StiCrossTab>Çapraz-sekmeli bileşen, bir tablo olarak yapılandırılmış veri gösterimi için kullanılır.</StiCrossTab>
     <StiDataBand>Veri bandı veri kaynağına bağlanır ve veri kaynağında satırlar olduğu gibi çıkış verilir.</StiDataBand>
     <StiDatePickerElement>Öğe, tarihi ve saati seçmek için kullanılır.</StiDatePickerElement>
+    <StiDatePickerUI>Takvimden tarih seçmek için kullanılan tarih seçici.</StiDatePickerUI>
     <StiElectronicSignature>Bu Öğe grafiksel imza, resim, ismin ilk harfi ve yazi eklemek icin kullanılır.</StiElectronicSignature>
     <StiEmptyBand>Bu bant, bir sayfanın altındaki boş alanı doldurmak için kullanılır. Bu grup bir raporun her sayfasında boş alan doldurur.Rapor sayfasındaki boşlukları doldurur.</StiEmptyBand>
     <StiFilterCategory>Değerleri seçmek ve filtrelemek için kullanılan öğeler grubu.</StiFilterCategory>
@@ -2008,43 +2020,59 @@
     <StiHeaderBand>Bu bant başlıkların çıktısında kullanılır. Veri bandıyla birlikte kullanılır.</StiHeaderBand>
     <StiHierarchicalBand>Bu bant veri kaynağına bağlanır ve veri kaynağında satırlar olduğu gibi çıkış verilir. Veri bir ağaç olarak çıktı verilir.</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Bu bileşen bir satır çıktı için kullanılır.</StiHorizontalLinePrimitive>
+    <StiIconUI>Sembolik grafik veya görsel işaretçi göstermek için kullanılan simge.</StiIconUI>
     <StiImage>Bu bileşen görüntüleri çıkarmak için kullanılır.</StiImage>
     <StiImageElement>Bu öğe görüntüleri çıkarmak için kullanılır. BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF gibi aşağıdaki grafik formatlarını destekler.</StiImageElement>
+    <StiImageUI>Arayüz içinde grafik içeriği göstermek için kullanılan resim.</StiImageUI>
     <StiIndicatorElement>Öğe, giriş verileri arasındaki değerler arasındaki farkı görüntüler.</StiIndicatorElement>
+    <StiLabelUI>Metin veya kısa başlıklar göstermek için kullanılan etiket.</StiLabelUI>
     <StiListBoxElement>Öğe, listeden öğe seçilmesine izin verir.</StiListBoxElement>
+    <StiListUI>Seçilebilir öğeleri dikey koleksiyonda göstermek için kullanılan liste.</StiListUI>
     <StiMap>Bu bileşen, coğrafi olarak hedeflenmiş verileri görüntülemek için kullanılır.</StiMap>
     <StiMapCategory>Haritalar ve verilerle çalışmak için öğe grubudur.</StiMapCategory>
     <StiMapElement>Bu öğe, coğrafi olarak hedeflenmiş verileri görüntülemek için kullanılır.</StiMapElement>
     <StiMathFormula>Bu bileşen, bir raporda matematik formüllerini görüntülemek için kullanılır.</StiMathFormula>
+    <StiMultiListUI>Aynı koleksiyondan birden çok öğe seçmek için kullanılan liste.</StiMultiListUI>
+    <StiMultiSelectUI>Hazırlanan listeden birden çok değeri seçmek için kullanılan seçici.</StiMultiSelectUI>
     <StiNumberBoxElement>Bu öğe sayısal bir deger veya sayısal aralik secmek için kullanılır.</StiNumberBoxElement>
+    <StiNumberInputUI>Kontrollü girişle sayısal değerleri girmek için kullanılan sayı girdisi.</StiNumberInputUI>
     <StiOnlineMapElement>Bu öğe, çevrimiçi haritadaki coğrafi işaretleyicileri görüntülemek için kullanılır. </StiOnlineMapElement>
     <StiOverlayBand>Bu bant bir sayfada filigran çıktıları için kullanılır.</StiOverlayBand>
     <StiPageFooterBand>Bu bant, her sayfanın altındaki bilgileri sayfa numaraları, tarihler ve diğer ek bilgiler gibi çıktılamak için kullanılır.</StiPageFooterBand>
     <StiPageHeaderBand>Bu bant sayfa numaraları, tarihler ve diğer ek bilgiler gibi sayfa başlığını çıkarmak için kullanılır. Her sayfanın üstünde çıktı verilir.</StiPageHeaderBand>
     <StiPanel>Bantlar dahil olmak üzere diğer bileşenleri içerebilen dikdörtgen bir bölgedir. Panel taşınırken içindeki bileşenler de taşınır. Bir panel ya bir banda ya da bir sayfaya yerleştirilebilir.</StiPanel>
     <StiPanelElement> Diğer öğeleri içerebilen dikdörtgen bir bölgedir. Panel taşınırken içindeki öğeler de taşınır.</StiPanelElement>
+    <StiPanelUI>Diğer denetimleri bir alan içinde gruplandırmak ve düzenlemek için kullanılan panel.</StiPanelUI>
     <StiPdfDigitalSignature>Bu etkileşimli öğe rapor Adobe PDF formatına dönüştürüldükten sonra dijital imzaya yer belirlemek icin kullanılir.</StiPdfDigitalSignature>
     <StiPdfDigitalSignatureElement>Bu öğe rapor PDF'e aktarilirken dijital imza ve sertifika öğeleri için yer belirlemek icin kullanılir.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>Pivot tablo elemanı, bir tablo olarak yapılandırılmış veri gösterimi için kullanılır.</StiPivotTableElement>
     <StiProgressElement>Eleman, giriş verilerinin oranını gösterir. Farklı modlarda sunulabilir - pasta, çörek ve çubuk grafiklerdir.</StiProgressElement>
+    <StiRadioGroupUI>Önceden tanımlanmış bir değer setinden bir seçeneği seçmek için kullanılan radyo grubu.</StiRadioGroupUI>
     <StiRangeSelectorElement>Bu bileşen, bir ölçek veya zaman çizelgesinde bir değer aralığı seçmek için kullanılır. Kullanıcıların aralığın minimum ve maksimum sınırlarını görsel olarak tanımlamasına olanak tanır.</StiRangeSelectorElement>
+    <StiRangeSliderUI>Bir ölçekte minimum ve maksimum değerleri tanımlamak için kullanılan aralık kaydırıcısı.</StiRangeSliderUI>
     <StiRectanglePrimitive>Bu bileşen dikdörtgenler çıkarmak için kullanılır.</StiRectanglePrimitive>
     <StiRegionMapElement> Bu öğe, coğrafi olarak hedeflenmiş verileri görüntülemek için kullanılır.</StiRegionMapElement>
     <StiReportSummaryBand>Bu grup, raporların tamamında özet çıktıları için kullanılır. Bir raporun sonunda bir kez çıktı verilir.</StiReportSummaryBand>
     <StiReportTitleBand>Bu bant, rapor başlığını çıkarmak için kullanılır. Bir raporun başlangıcında çıktı verilir.</StiReportTitleBand>
     <StiRichText>Bu bileşen, RTF metnini çıkarmak ve düzenlemek için kullanılır. Ayrıca RTF formatında dosya yükleme ve kaydetmeyi de destekler.</StiRichText>
     <StiRoundedRectanglePrimitive>Bu bileşen yuvarlatılmış dikdörtgenler çıkarmak için kullanılır.</StiRoundedRectanglePrimitive>
+    <StiScreen>Bir uygulama sayfası için denetimleri, düzeni ve kullanıcı etkileşimlerini barındıran ekran.</StiScreen>
+    <StiSelectUI>Açılır listeden bir değer seçmek için kullanılan seçim kutusu.</StiSelectUI>
     <StiShape>Bu bileşen oklar, çapraz çizgi aşağı, çapraz çizgi yukarı, yatay çizgi, sol ve sağ çizgiler, oval, dikdörtgen, yuvarlatılmış dikdörtgen, üst ve alt çizgiler, üçgen, dikey çizgi gibi hazır şekiller eklemek için kullanılır.</StiShape>
     <StiShapeElement>Bu öğe oklar, çapraz çizgi aşağı, çapraz çizgi yukarı, yatay çizgi, sol ve sağ çizgiler, oval, dikdörtgen, yuvarlatılmış dikdörtgen, üst ve alt çizgiler, üçgen, dikey çizgi gibi hazır şekiller eklemek için kullanılır.</StiShapeElement>
     <StiSignature>Bu bileşen, bir rapora elektronik veya dijital imza eklemek için kullanılır. </StiSignature>
+    <StiSliderUI>Sürekli sayısal ölçekte bir değer seçmek için kullanılan kaydırıcı.</StiSliderUI>
     <StiSparkline>Bu bileşen, bir raporda mikrografikler oluşturmak için kullanılır. Çubuklar, çizgiler, alanlar gibi dinamik olarak değişen verileri izlemenizi sağlar.</StiSparkline>
     <StiSubReport>Bu bileşen, bir raporun farklı yerlerinde ek veri çıkışı için kullanılır.</StiSubReport>
+    <StiSwitchUI>Bir ayarı tek tıkla açıp kapatmak için kullanılan anahtar.</StiSwitchUI>
     <StiTable>Bu bileşen, bir dikey sütun modeli ve yatay satırlar kullanılarak organize edilen bir dizi veri öğesidir.</StiTable>
     <StiTableElement>Bu öğe, dikey sütunlar ve yatay satırlardan oluşan bir model kullanılarak organize edilen bir dizi veri öğesidir.</StiTableElement>
     <StiTableOfContents>Bu bileşen, bir raporda içindekiler tablosu oluşturmak için kullanılır.</StiTableOfContents>
+    <StiTableUI>Verileri satır ve sütunlarda net şekilde göstermek için kullanılan tablo.</StiTableUI>
     <StiText>Bu bileşen, verileri metin olarak çıkaran temel bir nesnedir.</StiText>
     <StiTextElement>Bu öğe, verileri metin olarak çıkarmak için temel bir nesnedir.</StiTextElement>
     <StiTextInCells>Bileşen, hücrelerde bir metin çıktılamak için kullanılır. Form oluşturmak için sıklıkla kullanılır.</StiTextInCells>
+    <StiTextInputUI>Metin değerlerini girmek ve düzenlemek için kullanılan metin girdisi.</StiTextInputUI>
     <StiTreeViewBoxElement>Öğe, aşağı açılan listeyle değerleri ağaç olarak seçmek için kullanılır.</StiTreeViewBoxElement>
     <StiTreeViewElement>Hiyerarşik verileri bir ağaç olarak göstermek için kullanılan öğeyi temsil eder.</StiTreeViewElement>
     <StiVerticalLinePrimitive> Bu bileşen dikey çizgiler oluşturmak için kullanılır.</StiVerticalLinePrimitive>
@@ -2669,6 +2697,9 @@
     <SubscriptionExpiredDays>{0} gün içinde sona eriyor</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Aboneliğiniz sona erdi. Son sürümü almak için aboneliğinizi güncelleyin.</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>Abonelik süresi doldu</SubscriptionExpiredShort>
+    <SubscriptionLimitExceeded>Aboneliğiniz geliştirici lisansı limitini aşmıştır. Uygulama kapatılacak. Devam etmek için lütfen planınızı yükseltin.</SubscriptionLimitExceeded>
+    <SubscriptionLimitTitle>Abonelik limiti</SubscriptionLimitTitle>
+    <SubscriptionLimitWarning>Aboneliğiniz izin verilen geliştirici lisansından daha fazlasını kullanıyor. Kesintisiz çalışmaya devam etmek için lütfen planınızı yükseltmeyi düşünün.</SubscriptionLimitWarning>
     <SubscriptionsOut10>Abonelik süresi dolmasına 10 gün kaldı!</SubscriptionsOut10>
     <SubscriptionsOut20>Abonelik süresi 20 gün içinde sona eriyor! </SubscriptionsOut20>
     <SuccessfullyRenewed>Aboneliğiniz başarıyla güncellendi!</SuccessfullyRenewed>
@@ -3202,6 +3233,9 @@
     <StiDashboardContentAlignmentRight>Sağ</StiDashboardContentAlignmentRight>
     <StiDashboardContentAlignmentStretchX>X'i Uzat</StiDashboardContentAlignmentStretchX>
     <StiDashboardContentAlignmentStretchXY>XY'yi Uzat</StiDashboardContentAlignmentStretchXY>
+    <StiDataBarShapeArrow>Ok</StiDataBarShapeArrow>
+    <StiDataBarShapeBanner>Banner</StiDataBarShapeBanner>
+    <StiDataBarShapeRectangle>Dikdörtgen</StiDataBarShapeRectangle>
     <StiDataJoinTypeCross>Çapraz</StiDataJoinTypeCross>
     <StiDataJoinTypeFull>Tam</StiDataJoinTypeFull>
     <StiDataJoinTypeInner>İç</StiDataJoinTypeInner>
@@ -3707,6 +3741,7 @@
     <DisconnectingEvent>Bağlantı Sonlanıyor</DisconnectingEvent>
     <DoubleClickEvent>Çift Tıkla</DoubleClickEvent>
     <EndRenderEvent>Son Oluşturma</EndRenderEvent>
+    <EndValueChangedEvent>Son Değer Değiştirildi</EndValueChangedEvent>
     <EnterEvent>Giriş</EnterEvent>
     <ExportedEvent>DışaAktarıldı</ExportedEvent>
     <ExportingEvent>DışaAktarılıyor</ExportingEvent>
@@ -3759,6 +3794,7 @@
     <RenderingEvent>Oluşturuluyor</RenderingEvent>
     <ReportCacheProcessingEvent>Rapor Önbelleği İşlemi</ReportCacheProcessingEvent>
     <SelectedIndexChangedEvent>Seçili Dizin Değiştirildi</SelectedIndexChangedEvent>
+    <StartValueChangedEvent>Başlangıç Değeri Değiştirildi</StartValueChangedEvent>
     <StateRestoreEvent>Durum Geri Yükleme</StateRestoreEvent>
     <StateSaveEvent>Durumu Kaydet</StateSaveEvent>
     <ValueChangedEvent>Değer Değiştirildi</ValueChangedEvent>
@@ -3822,6 +3858,7 @@
   <PropertyMain>
     <AcceptsReturn>İade Kabul Edilir</AcceptsReturn>
     <AcceptsTab>Sekmeyi Kabul Edilir</AcceptsTab>
+    <Action>Eylem</Action>
     <Actual>Gerçek</Actual>
     <AddClearZone>Temiz Bölge Ekle</AddClearZone>
     <Advanced>İleri Seviye</Advanced>
@@ -3922,6 +3959,7 @@
     <BorderSize>Kenarlık Boyutu</BorderSize>
     <BorderStyle>Kenarlık Stili</BorderStyle>
     <BorderThickness>Kenar Kalınlığı</BorderThickness>
+    <BorderVisible>Kenarlık Görünür</BorderVisible>
     <BorderWidth>Kenarlık Genişliği</BorderWidth>
     <Bottom>Alt</Bottom>
     <BottomLeft>Alt-Sol</BottomLeft>
@@ -4156,11 +4194,13 @@
     <FiltersTarget>Filtre Hedefi</FiltersTarget>
     <First>Birinci</First>
     <FirstTabOffset>İlk Sekme Ofseti</FirstTabOffset>
+    <FitMode>Uyum Modu</FitMode>
     <FixedHeight>Sabit Yükseklik</FixedHeight>
     <FixedWidth>Sabit Genişlik</FixedWidth>
     <Flat>Düz</Flat>
     <FlatMode>Düz Mod</FlatMode>
     <Focus>Odak</Focus>
+    <FocusVisible>Odak Görünür</FocusVisible>
     <Font>Yazı Tipi</Font>
     <FontBold>Yazı Tipi Kalın</FontBold>
     <FontItalic>Yazı Tipi Yatık</FontItalic>
@@ -4839,6 +4879,8 @@
     <TextRightToLeft>Metin Sağdan Sola</TextRightToLeft>
     <TextShowBehind>Metin Gösterimi Arkasında</TextShowBehind>
     <Third>Üçüncü</Third>
+    <ThumbBorderColor>Kaydırıcı Başlığı Kenarlık Rengi</ThumbBorderColor>
+    <ThumbColor>Kaydırıcı Başlığı Rengi</ThumbColor>
     <TickLabelMajorFont>Onay Etiketi Büyük Font</TickLabelMajorFont>
     <TickLabelMajorTextBrush>Onay Etiketi Ana Metin Fırçası</TickLabelMajorTextBrush>
     <TickLabelMinorFont>Onay Etiketi Küçük Font</TickLabelMinorFont>
@@ -5131,6 +5173,7 @@
     <Categorized>Kategorileştirilmiş</Categorized>
     <Charts>Grafikler</Charts>
     <Checking>Kontrol Ediliyor...</Checking>
+    <ClickAddToCreateNewAction>Bu olay meydana geldiğinde ne olacağını tanımlamak için 'Ekle' düğmesine tıklayın (örn. ekran göster veya değer değiştir).</ClickAddToCreateNewAction>
     <ClickForMoreDetails>Daha Fazla Detay için Tıklayın</ClickForMoreDetails>
     <ClickHereToCreateNewCondition>yeni bir durum yaratmak</ClickHereToCreateNewCondition>
     <ClickHereToCreateNewField>yeni bir alan yaratmak</ClickHereToCreateNewField>
@@ -5235,6 +5278,7 @@
     <ScriptSecurity>Betik Güvenliği</ScriptSecurity>
     <SecondPass>İkinci Geçiş</SecondPass>
     <Shapes>Şekiller </Shapes>
+    <ShowIncompatibleTypes>Uyumsuz Türleri Göster</ShowIncompatibleTypes>
     <ShowOnParametersPanel>Parametreleri Panelde Göster</ShowOnParametersPanel>
     <Standard>Standart </Standard>
     <StandardConfiguration>Nadiren kullanılanlar hariç ana nesne özellikleri.</StandardConfiguration>
@@ -5424,6 +5468,7 @@
   </Signature>
   <StimulAI>
     <AskStimulAI>Stimul AI'ya Sor</AskStimulAI>
+    <Assistant>Asistan</Assistant>
     <ChangedWithAI>Stimul AI ile değiştirildi</ChangedWithAI>
     <CheckExpressionSuccess>Belirtilen ifadede herhangi bir sorun bulunamadı.</CheckExpressionSuccess>
     <CheckQuery>Sorguyu Kontrol Et</CheckQuery>
@@ -5561,6 +5606,7 @@
   <UserFunctionEditor>
     <ArgumentName>Argüman Adı</ArgumentName>
     <ArgumentType>Argüman Tipi</ArgumentType>
+    <CheckScript>Betiği Kontrol Et</CheckScript>
     <ConvertScript>Komutu Dönüştür</ConvertScript>
     <CustomCategory>Özel Kategori</CustomCategory>
     <EditCode>Kodu Düzenle</EditCode>
@@ -5583,6 +5629,7 @@
     <Title>Stimulsoft Demosuna Hoş Geldiniz</Title>
   </WelcomeScreen>
   <Wizards>
+    <AIGeneratedDashboard>Yapay Zeka Tarafından Oluşturulan Pano</AIGeneratedDashboard>
     <AIGeneratedReport>AI ile Üretilmiş Rapor</AIGeneratedReport>
     <BlankDashboard>Boş Kontrol Paneli</BlankDashboard>
     <BlankForm>Boş Form</BlankForm>

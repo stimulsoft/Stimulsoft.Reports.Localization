@@ -284,6 +284,8 @@
     <Pictorial>Bildhaft</Pictorial>
     <PictorialStacked>Illustriertes Stapelgiagramm</PictorialStacked>
     <Pie>Kreis</Pie>
+    <Polar>Polar</Polar>
+    <PolarStacked>Gestapeltes Polardiagramm</PolarStacked>
     <Radar>Netz</Radar>
     <RadarArea>Netz Fläche</RadarArea>
     <RadarColumn>Netz Spalte</RadarColumn>
@@ -742,6 +744,7 @@
     <AllowUserFiltering>Benutzer-Filterung erlauben</AllowUserFiltering>
     <AllowUserSorting>Benutzer-Sortierung erlauben</AllowUserSorting>
     <BeforeTransformation>Vor Datenumwandlung übernehmen</BeforeTransformation>
+    <BindData>An Daten binden</BindData>
     <Blank>(Leer)</Blank>
     <Blanks>(Rohlinge)</Blanks>
     <BooleanFilters>Boolesche Filter</BooleanFilters>
@@ -950,6 +953,8 @@
     <StiListControl>Liste</StiListControl>
     <StiListViewControl>List View</StiListViewControl>
     <StiLookUpBoxControl>Nachschlage-Liste</StiLookUpBoxControl>
+    <StiMultiListControl>Mehrfachliste</StiMultiListControl>
+    <StiMultiSelectControl>Mehrfachauswahl</StiMultiSelectControl>
     <StiNumberInputControl>Zahleneingabe</StiNumberInputControl>
     <StiNumericUpDownControl>Zahl-Auf-Ab</StiNumericUpDownControl>
     <StiPanelControl>Leiste</StiPanelControl>
@@ -957,6 +962,7 @@
     <StiRadioButtonControl>RadioButton</StiRadioButtonControl>
     <StiRadioControl>Optionsfeld</StiRadioControl>
     <StiRadioGroupControl>Radio-Gruppe</StiRadioGroupControl>
+    <StiRangeSliderControl>Bereichsschieber</StiRangeSliderControl>
     <StiReportControl>Bericht</StiReportControl>
     <StiRichTextBoxControl>Rich Text Box</StiRichTextBoxControl>
     <StiSelectControl>Auswahl</StiSelectControl>
@@ -989,10 +995,12 @@
     <MatchCase>&amp;Groß-/Kleinschreibung beachten</MatchCase>
     <MatchWholeWord>Nur ganzes Wort suchen</MatchWholeWord>
     <MaximumDimensions>Maximal 7 Dimensionen können ausgewählt werden.</MaximumDimensions>
+    <NotFound>Nicht gefunden</NotFound>
     <Outlining>Glieder&amp;n</Outlining>
     <PromptOnReplace>E&amp;rsetzen bestätigen</PromptOnReplace>
     <Replace>Ersetzen</Replace>
     <ReplaceAll>Alle ersetzen</ReplaceAll>
+    <Replaced>Ersetzt: {0}</Replaced>
     <ReplaceWith>Ersetzen durch:</ReplaceWith>
     <Search>Suchen</Search>
     <SearchHiddenText>Ausgeblendeten Text durchsuchen</SearchHiddenText>
@@ -1984,10 +1992,13 @@
   <HelpComponents>
     <StiBarCode>Mit Hilfe dieser Komponente werden Barcodes in einem Bericht dargestellt. Die Daten des Barcodes werden der Komponente als Text (String) übergeben. Der Text kann beliebige Symbole enthalten, aber nur Symbole für das ausgewählte Diagramm können angezeigt werden.</StiBarCode>
     <StiButtonElement>Diese Komponente wird für Ausführen vom Script des Ereignisses bei der Benutzer-Interagierung verwendet.</StiButtonElement>
+    <StiButtonUI>Eine Schaltfläche zum Ausführen einer Aktion oder Starten eines Befehls.</StiButtonUI>
     <StiCardsElement>Diese Komponente wird für Anzeige von gruppierten Daten als Kacheln verwendet.</StiCardsElement>
     <StiChart>Mit Hilfe dieser Komponente werden Diagramme in einem Bericht dargestellt. Es sind verschiedene Diagrammtypen verfügbar (Balken-, Linien-, Kreis-, Ring-, Bereich-, Gantt-, Streudiagramme usw.)</StiChart>
     <StiChartElement>Dieses Element erlaubt Diagramme im Dashboard zu zeigen. Verschiedene Typen der Diagramme sind verfügbar.</StiChartElement>
     <StiCheckBox>Mit Hilfe dieser Komponente können Checkboxen in einem Bericht dargestellt werden. Die Komponente kann auf zwei Arten angezeigt werden: "gecheckt" oder "nicht gecheckt".</StiCheckBox>
+    <StiCheckBoxGroupUI>Kontrollkästchen-Gruppe zur Mehrfachauswahl aus einer vordefinierten Liste.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>Ein Kontrollkästchen zum schnellen Ein- oder Ausschalten einer einzelnen Option.</StiCheckBoxUI>
     <StiChildBand>Mit Hilfe des untergeordneten Bandes kann der Inhalt eines Datensatzes auf mehrere Bänder aufgeteilt werden.</StiChildBand>
     <StiClone>Diese Komponente kann verwendet werden, um Teile eines Bereichts in einem anderen Bereich des selben Berichts wiederholt anzuzeigen. Es können nur Inhalte von Panel-Komponenten geklont werden.</StiClone>
     <StiColumnFooterBand>Dieses Band erzeugt einen Spaltenfuss in mehrspaltigen Berichten. Der Inhalt des Spaltenfuss-Band wird einmal im Fuss jeder Spalte angezeigt.</StiColumnFooterBand>
@@ -2002,6 +2013,7 @@
     <StiCrossTab>Die Kreuzband-Komponente wird für die strukturierte Datendarstellung einer Tabelle verwendet.</StiCrossTab>
     <StiDataBand>Das Datenband stellt Detaildaten einer Datenquelle dar. Dieses Band wird für jeden Datensatz in der Datenquelle einmal ausgegeben.</StiDataBand>
     <StiDatePickerElement>Dieses Element wird verwendet, um Datum und Zeit auszuwählen.</StiDatePickerElement>
+    <StiDatePickerUI>Eine Datumsauswahl zur Auswahl eines Datums aus einem Kalender.</StiDatePickerUI>
     <StiElectronicSignature>Diese Komponente wird verwendet, um graphische Unterschrift, Bild, Initialen und Text hinzuzufügen.</StiElectronicSignature>
     <StiEmptyBand>Dieses Band füllt den Freiraum auf der Unterseite eines Berichts.</StiEmptyBand>
     <StiFilterCategory>Diese Gruppe der Elemente wird verwendet, um die Werte auszuwählen und zu filtern.</StiFilterCategory>
@@ -2013,43 +2025,59 @@
     <StiHeaderBand>Im Datenkopf-Band werden Informationen zu einem Datenband angezeigt.</StiHeaderBand>
     <StiHierarchicalBand>Das Hierarchische Band wird zur Darstellung von Daten verwendet, deren Datenquelle sich selbst referenziert. Das Band wird einmal für jeden Datensatz in der verbundenen Datenquelle ausgegeben.</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Mit Hilfe dieser Komponente können horizontale Linien in einem Bereicht gezeichnet werden.</StiHorizontalLinePrimitive>
+    <StiIconUI>Ein Symbol, das zur Anzeige einer grafischen Darstellung oder visuellen Markierung verwendet wird.</StiIconUI>
     <StiImage>Diese Komponente stellt Bilder in einem Bericht dar. Es werden folgende grafische Formate unterstützt: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
     <StiImageElement>Dieses Element wird verwendet, um die Bilder auszugeben. Es unterstützt folgende grafische Formate: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImageElement>
+    <StiImageUI>Ein Bild, das zur Anzeige von grafischen Inhalten in der Benutzeroberfläche verwendet wird.</StiImageUI>
     <StiIndicatorElement>Dieses Element zeigt den Unterschied in Werten zwischen Eingabedaten an.</StiIndicatorElement>
+    <StiLabelUI>Eine Beschriftung zur Darstellung von Texten oder kurzen Überschriften.</StiLabelUI>
     <StiListBoxElement>Dieses Element erlaubt, Elemente aus der Liste auszuwählen.</StiListBoxElement>
+    <StiListUI>Eine Liste zur Anzeige von auswählbaren Elementen in einer vertikalen Sammlung.</StiListUI>
     <StiMap>Diese Komponente wird für Anzeige der Daten, die geografisch ausgerichtet sind, verwendet.</StiMap>
     <StiMapCategory>Die Gruppe der Elemente für Arbeit mit Karten und Daten.</StiMapCategory>
     <StiMapElement>Dieses Element wird verwendet, um die geografisch ausgerichteten Daten anzuzeigen.</StiMapElement>
     <StiMathFormula>Diese Komponente wird für Anzeige von Mathematikformeln im Bericht verwendet.</StiMathFormula>
+    <StiMultiListUI>Eine Liste zur Auswahl mehrerer Elemente aus derselben Sammlung.</StiMultiListUI>
+    <StiMultiSelectUI>Eine Liste zur Auswahl mehrerer Werte aus einer vorbereiteten Liste.</StiMultiSelectUI>
     <StiNumberBoxElement>Dieses Element wird zur Auswahl vom Zahlenwert oder zum Festlegen vom Bereich von Zahlenwerten verwendet.</StiNumberBoxElement>
+    <StiNumberInputUI>Ein Zahlen-Eingabefeld zur Erfassung numerischer Werte mit Eingabesteuerung.</StiNumberInputUI>
     <StiOnlineMapElement>Dieses Element wird verwendet, um die geografischen Marker auf der Online-Karte anzuzeigen.</StiOnlineMapElement>
     <StiOverlayBand>Dieses Band wird zur Darstellung von Wasserzeichen auf einer Seite verwendet. Es wird über alle anderen Elemente der Seite gelegt.</StiOverlayBand>
     <StiPageFooterBand>Das Seitenfuss-Band wird zur Darstellung von Informationen wie Seitenzahlen, Datum und anderer Zusatzinformationen am unteren Seitenrand verwendet.</StiPageFooterBand>
     <StiPageHeaderBand>Das Seitenkopf-Band wird zur Darstellung von Informationen wie Seitenzahlen, Datum und anderer Zusatzinformationen am oberen Seitenrand verwendet.</StiPageHeaderBand>
     <StiPanel>Das Panel ist eine Komponente, welche frei auf dem Bericht platziert werden kann. Darin können andere Komponenten, einschliesslich Bänder abgelegt werden. Das Panel dient quasi zur Gruppierung und Positionierung dieser anderen Kopmonenten. Das Panel kann auf einem Band oder direkt auf einer Seite des Berichtes platziert werden</StiPanel>
     <StiPanelElement>Eine rechteckige Region, die andere Elemente enthalten kann. Wenn das Panel verschoben wird, werden seine Elemente auch verschoben.</StiPanelElement>
+    <StiPanelUI>Eine Leiste zur Gruppierung und Anordnung anderer Steuerelemente in einem Bereich.</StiPanelUI>
     <StiPdfDigitalSignature>Diese Komponente wird verwendet, um ein Feld für digitale Unterschrift nach dem Export vom Bericht in Adobe PDF anzugeben.</StiPdfDigitalSignature>
     <StiPdfDigitalSignatureElement>Diese Komponente wird für die Angabe vom Standort der digitaler Unterschrift und der Zertifikat-Felder beim Export in PDF verwendet.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>Das Pivot-Tabelle-Element wird verwendet, um die strukturierten Daten als Tabelle darzustellen.</StiPivotTableElement>
     <StiProgressElement>Das Element zeigt das Verhältnis der Eingabedaten an. Es kann in verschiedenen Modi - als Kreis-, Ring- oder Balkendiagramm, - dargestellt werden.</StiProgressElement>
+    <StiRadioGroupUI>Eine Radio-Gruppe zur Auswahl einer Option aus einem vordefinierten Wertevorrat.</StiRadioGroupUI>
     <StiRangeSelectorElement>Diese Komponente wird für Auswahl vom Wertebereich auf einer Skala oder Zeitachse. Es ermöglicht den Benutzern, die minimalen und maximalen Grenzen des Bereichs visuell festzulegen.</StiRangeSelectorElement>
+    <StiRangeSliderUI>Ein Bereichsschieber zur Festlegung von Mindest- und Höchstwerten auf einer Skala.</StiRangeSliderUI>
     <StiRectanglePrimitive>Diese Komponente wird zu Ausgabe von Rechtecken verwendet.</StiRectanglePrimitive>
     <StiRegionMapElement>Dieses Element wird verwendet, um die geografisch ausgerichteten Daten anzuzeigen.</StiRegionMapElement>
     <StiReportSummaryBand>Das Berichtfuss-Band wird zur Ausgabe von Zusammenfassungen des kompletten Berichtes verwendet. Es wird einmal am Ende eines Berichts ausgegeben.</StiReportSummaryBand>
     <StiReportTitleBand>Das Berichtkopf-Band wird zur Ausgabe des Berichttitels verwendet. Es wird einmalig am Anfang des Berichtes ausgegeben.</StiReportTitleBand>
     <StiRichText>Diese Komponente wird verwendet, um Richtext anzuzeigen und zu bearbeiten. Es können auch bestehende Dateien im Richtext-Format geladen werden.</StiRichText>
     <StiRoundedRectanglePrimitive>Diese Komponente wird zur Darstellung von abgerundeten Rechtecken verwendet.</StiRoundedRectanglePrimitive>
+    <StiScreen>Eine Ansicht, die Steuerelemente, Layout und Benutzerinteraktionen für eine App-Seite bereitstellt.</StiScreen>
+    <StiSelectUI>Ein Auswahlfeld zur Auswahl eines Werts aus einer Dropdown-Liste.</StiSelectUI>
     <StiShape>Mit Hilfe dieser Komponente können verschiede Formen dargestellt werden. Dies sind zum Beispiel Pfeile, diagonale, horizontale und vertikale Linien, Rechtecke, abgerundete Rechtecke oder Dreiecke.</StiShape>
     <StiShapeElement>Dieses Element wird verwendet, um fertige Formen sowie Richtungspfeile, diagonale Linien oben und unten, horizontale Linie, rechte und linke Linien, Oval, Rechteck, abgerundetes Rechteck, obere und untere Linien, Dreieck, vertikale einzufügen.</StiShapeElement>
     <StiSignature>Diese Komponente wird verwendet, um elektronische oder digitale Unterschrift zum Bericht hinzuzufügen.</StiSignature>
+    <StiSliderUI>Ein Schieberegler zur Auswahl eines Werts auf einer kontinuierlichen numerischen Skala.</StiSliderUI>
     <StiSparkline>Diese Komponente wird für Erstellen von Mikrografiken im Bericht verwendet. Sie erlaubt dynamisch verändernde Daten als Balkendiagramme, Linien, Bereiche zu verfolgen.</StiSparkline>
     <StiSubReport>Mit Hilfe dieser Komponente wird ein Unterbericht mit zusätzlichen Daten in einem bestimmten Bereich des Berichtes dargestellt.</StiSubReport>
+    <StiSwitchUI>Ein Schalter zum Ein- oder Ausschalten einer Einstellung mit einem Klick.</StiSwitchUI>
     <StiTable>Diese Komponente stellt den Inhalt einer Datenquelle in tabellarischer Form dar.</StiTable>
     <StiTableElement>Dieses Element ist ein Satz von Datenelementen, die durch ein Modell der vertikalen Spalten und horizontalen Reihen organisiert sind.</StiTableElement>
     <StiTableOfContents>Diese Komponente wird für Erstellen von Inhaltstabelle im Bericht verwendet.</StiTableOfContents>
+    <StiTableUI>Eine Tabelle zur übersichtlichen Darstellung von Daten in Zeilen und Spalten.</StiTableUI>
     <StiText>Diese Komponente wird für die Ausgabe von einfachen Texten verwendet. </StiText>
     <StiTextElement>Dieses Element ist ein Basisobjekt für Ausgabe der Daten als Text.</StiTextElement>
     <StiTextInCells>Die Komponente wird für Ausgabe von Texten in Zellen verwendet. Dabei wird um jedes Zeichen des Textes ein Rahmen gezeichnet.</StiTextInCells>
+    <StiTextInputUI>Ein Texteingabefeld zur Eingabe und Bearbeitung von Textwerten.</StiTextInputUI>
     <StiTreeViewBoxElement>Das Element wird verwendet, um die Werte mit Dropdown-Liste als Baumstruktur auszuwählen.</StiTreeViewBoxElement>
     <StiTreeViewElement>Dieses Element wird verwendet, um die  hierarchische Daten als Baumstruktur anzuzeigen.</StiTreeViewElement>
     <StiVerticalLinePrimitive>Mit Hilfe dieser Komponente können vertikale Linien in einem Bereicht gezeichnet werden.</StiVerticalLinePrimitive>
@@ -2701,6 +2729,9 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <SubscriptionExpiredDays>Läuft in {0} Tagen ab</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Ihr Abonnement ist abgelaufen. Aktualisieren Sie Ihr Abonnement, um die letzte Version zu erhalten.</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>Das Abonnement ist abgelaufen</SubscriptionExpiredShort>
+    <SubscriptionLimitExceeded>Ihr Abonnement hat das Limit der Entwicklerarbeitsplätze überschritten. Die Anwendung wird beendet. Bitte aktualisieren Sie Ihren Plan, um fortzufahren.</SubscriptionLimitExceeded>
+    <SubscriptionLimitTitle>Abonnement-Limit</SubscriptionLimitTitle>
+    <SubscriptionLimitWarning>Ihr Abonnement überschreitet das Limit der Entwicklerarbeitsplätze. Bitte aktualisieren Sie Ihren Plan, um ohne Unterbrechung fortzufahren.</SubscriptionLimitWarning>
     <SubscriptionsOut10>10 Tage bis Subskription-Ablauf!</SubscriptionsOut10>
     <SubscriptionsOut20>Die Subskriptionsfrist wird nach 20 Tagen ablaufen!</SubscriptionsOut20>
     <SuccessfullyRenewed>Ihre Subskription ist erfolgreich aktualisiert!</SuccessfullyRenewed>
@@ -3246,6 +3277,9 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <StiDashboardContentAlignmentRight>Rechts</StiDashboardContentAlignmentRight>
     <StiDashboardContentAlignmentStretchX>Nach X strecken</StiDashboardContentAlignmentStretchX>
     <StiDashboardContentAlignmentStretchXY>Nach XY strecken</StiDashboardContentAlignmentStretchXY>
+    <StiDataBarShapeArrow>Pfeil</StiDataBarShapeArrow>
+    <StiDataBarShapeBanner>Banner</StiDataBarShapeBanner>
+    <StiDataBarShapeRectangle>Rechteck</StiDataBarShapeRectangle>
     <StiDataJoinTypeCross>Kreuz</StiDataJoinTypeCross>
     <StiDataJoinTypeFull>Voll</StiDataJoinTypeFull>
     <StiDataJoinTypeInner>Innen</StiDataJoinTypeInner>
@@ -3767,6 +3801,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <DisconnectingEvent>Trennen</DisconnectingEvent>
     <DoubleClickEvent>Doppelklick</DoubleClickEvent>
     <EndRenderEvent>Ende des Rendering</EndRenderEvent>
+    <EndValueChangedEvent>Endwert geändert</EndValueChangedEvent>
     <EnterEvent>Eingabe</EnterEvent>
     <ExportedEvent>Nach dem Export</ExportedEvent>
     <ExportingEvent>Vor dem Export</ExportingEvent>
@@ -3819,6 +3854,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <RenderingEvent>Rendern</RenderingEvent>
     <ReportCacheProcessingEvent>Berichtscache verarbeiten</ReportCacheProcessingEvent>
     <SelectedIndexChangedEvent>Index geändert</SelectedIndexChangedEvent>
+    <StartValueChangedEvent>Startwert geändert</StartValueChangedEvent>
     <StateRestoreEvent>Zustand wiederherstellen</StateRestoreEvent>
     <StateSaveEvent>Zustand sichern</StateSaveEvent>
     <ValueChangedEvent>Wert geändert</ValueChangedEvent>
@@ -3882,6 +3918,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
   <PropertyMain>
     <AcceptsReturn>Returns akzeptieren</AcceptsReturn>
     <AcceptsTab>Tabs akzeptieren</AcceptsTab>
+    <Action>Aktion</Action>
     <Actual>Aktuell</Actual>
     <AddClearZone>Leeres Bereich hinzufügen</AddClearZone>
     <Advanced>Fortgeschritten</Advanced>
@@ -3983,6 +4020,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <BorderSize>Randgröße</BorderSize>
     <BorderStyle>Rahmenstil</BorderStyle>
     <BorderThickness>Randdicke</BorderThickness>
+    <BorderVisible>Sichtbarkeit der Rahmen</BorderVisible>
     <BorderWidth>Randbreite</BorderWidth>
     <Bottom>Unten</Bottom>
     <BottomLeft>Unten links</BottomLeft>
@@ -4217,11 +4255,13 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <FiltersTarget>Zielfilter</FiltersTarget>
     <First>Erste</First>
     <FirstTabOffset>Abstand des ersten Tabs</FirstTabOffset>
+    <FitMode>Anpassungsmodus</FitMode>
     <FixedHeight>Feste Höhe</FixedHeight>
     <FixedWidth>Feste Breite</FixedWidth>
     <Flat>Flach</Flat>
     <FlatMode>Flach Modus</FlatMode>
     <Focus>Fokus</Focus>
+    <FocusVisible>Fokus anzeigen</FocusVisible>
     <Font>Schriftart</Font>
     <FontBold>Fett</FontBold>
     <FontItalic>Kursiv</FontItalic>
@@ -4904,6 +4944,8 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <TextRightToLeft>Text von rechts nach links</TextRightToLeft>
     <TextShowBehind>Der Text hinter anzeigen</TextShowBehind>
     <Third>Dritte</Third>
+    <ThumbBorderColor>Schieberknopf-Randfarbe</ThumbBorderColor>
+    <ThumbColor>Schieberknopffarbe</ThumbColor>
     <TickLabelMajorFont>Beschriftungsschrift des Haupttickens</TickLabelMajorFont>
     <TickLabelMajorTextBrush>Beschriftungspinsel des Haupttickens</TickLabelMajorTextBrush>
     <TickLabelMinorFont>Beschriftungsschrift des Nebentickens</TickLabelMinorFont>
@@ -5196,6 +5238,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Categorized>Kategorisiert</Categorized>
     <Charts>Diagramme</Charts>
     <Checking>Überprüfung...</Checking>
+    <ClickAddToCreateNewAction>Klicken Sie auf „Hinzufügen“, um zu definieren, was beim Eintreten dieses Ereignisses geschehen soll (z. B. einen Bildschirm anzeigen oder einen Wert ändern).</ClickAddToCreateNewAction>
     <ClickForMoreDetails>klicken, um weitere Informationen zu erhalten</ClickForMoreDetails>
     <ClickHereToCreateNewCondition>für Erstellen von neuer Bedingung</ClickHereToCreateNewCondition>
     <ClickHereToCreateNewField>für Erstellen vom neuen Feld</ClickHereToCreateNewField>
@@ -5301,6 +5344,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <ScriptSecurity>Skript-Sicherheit</ScriptSecurity>
     <SecondPass>Zweiter Durchlauf</SecondPass>
     <Shapes>Formen</Shapes>
+    <ShowIncompatibleTypes>Inkompatible Typen anzeigen</ShowIncompatibleTypes>
     <ShowOnParametersPanel>Auf Parameter-Leiste anzeigen</ShowOnParametersPanel>
     <Standard>Standard</Standard>
     <StandardConfiguration>Die gebräuchlichsten Eigenschaften anzeigen </StandardConfiguration>
@@ -5492,6 +5536,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
   </Signature>
   <StimulAI>
     <AskStimulAI>Stimul AI fragen</AskStimulAI>
+    <Assistant>Assistуnt</Assistant>
     <ChangedWithAI>Mit Stimul AI ändern</ChangedWithAI>
     <CheckExpressionSuccess>Keine Probleme sind im angegebenen Ausdruck gefunden.</CheckExpressionSuccess>
     <CheckQuery>Abfrage überprüfen</CheckQuery>
@@ -5629,6 +5674,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
   <UserFunctionEditor>
     <ArgumentName>Argument-Name</ArgumentName>
     <ArgumentType>Argument-Typ</ArgumentType>
+    <CheckScript>Skript überprüfen</CheckScript>
     <ConvertScript>Script umwandeln</ConvertScript>
     <CustomCategory>Benutzerdefinierte Kategorie</CustomCategory>
     <EditCode>Code bearbeiten</EditCode>
@@ -5651,6 +5697,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Title>Willkommen in Stimulsoft Demo</Title>
   </WelcomeScreen>
   <Wizards>
+    <AIGeneratedDashboard>KI-generiertes Dashboard</AIGeneratedDashboard>
     <AIGeneratedReport>KI-generierter Bericht</AIGeneratedReport>
     <BlankDashboard>Leeres Dashboard</BlankDashboard>
     <BlankForm>Blankformular</BlankForm>

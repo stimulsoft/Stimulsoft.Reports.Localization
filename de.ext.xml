@@ -269,6 +269,10 @@
     <StiNetCoreCompilationModeCheckShort>Dieser Bericht ist im Kompilation-Modus</StiNetCoreCompilationModeCheckShort>
     <StiResourcesFontsCheckLong>Die Schriftart aus der Ressource '{0}' kann nicht geladen werden. Die Datei ist beschädigt, oder das Dateiformat ist nicht unterstützt.</StiResourcesFontsCheckLong>
     <StiResourcesFontsCheckShort>Schriftart nicht geladen</StiResourcesFontsCheckShort>
+    <StiScriptExecutionErrorCheck2Long>Der Fehler bei der Skriptausführung trat in der Eigenschaft '{1}' der Komponente '{2}' auf.</StiScriptExecutionErrorCheck2Long>
+    <StiScriptExecutionErrorCheck3Long>Der Fehler bei der Skriptausführung trat im Ereignis '{1}' der Komponente '{2}' auf.</StiScriptExecutionErrorCheck3Long>
+    <StiScriptExecutionErrorCheckLong>Der Fehler bei der Skriptausführung trat auf.</StiScriptExecutionErrorCheckLong>
+    <StiScriptExecutionErrorCheckShort>Der Fehler bei der Skriptausführung</StiScriptExecutionErrorCheckShort>
   </CheckReport>
   <CheckVariable>
     <StiVariableInitializationCheckLong>Die '{0}' Variable hat den falschen Standardwert. Es ist unmöglich, die Variable mit dem angegebenen Wert zu initialisieren.</StiVariableInitializationCheckLong>
@@ -1682,6 +1686,7 @@
     <BorderColor>Rahmenfarbe.</BorderColor>
     <Brush>Hintergrundpinsel für die Legende.</Brush>
     <Columns>Spaltenanzahl.</Columns>
+    <ColumnWidth>Legt die Breite einer Legenden-Spalte fest. Kann zusammen mit dem Zeilenumbruch verwendet werden, um den Textumbruch in Legenden-Elementen zu steuern.</ColumnWidth>
     <Direction>Richtung, die für die Richtung der Reihen in der Legende benutzt wird.</Direction>
     <Font>Zeichensatz, der für die Reihentitel benutzt wird, die in die Diagramm-Legende einbezogen werden.</Font>
     <HideSeriesWithEmptyTitle>Wert, der anzeigt/verbirgt Reihen mit leerem Titel.</HideSeriesWithEmptyTitle>
@@ -1700,6 +1705,7 @@
     <VertAlignment>Vertikale Ausrichtung der Legendenplazierung.</VertAlignment>
     <VertSpacing>Vertikaler Abstand zwischen den Elementen der Legende.</VertSpacing>
     <Visible>Sichtbarkeit der Diagramm-Legende.</Visible>
+    <WordWrap>Aktiviert oder deaktiviert den Zeilenumbruch in Legenden-Elementen. Funktioniert zusammen mit der Spaltenbreite.</WordWrap>
   </StiLegend>
   <StiLinePrimitive>
     <Color>Linienfarbe.</Color>
