@@ -98,7 +98,7 @@
   </Buttons>
   <Chart>
     <AddCondition>&amp;Přidat podmínku</AddCondition>
-    <AddConstantLine>Přidat plnou čáru</AddConstantLine>
+    <AddConstantLine>Přidat konstantní čáru</AddConstantLine>
     <AddFilter>&amp;Přidat filtr</AddFilter>
     <AddSeries>&amp;Přidat řadu</AddSeries>
     <AddStrip>Přidat pruh</AddStrip>
@@ -113,19 +113,19 @@
     <ChartFiltersCollectionForm>Filtry</ChartFiltersCollectionForm>
     <ChartType>Typ grafu</ChartType>
     <CheckBoxAutoRotation>Automatické otočení</CheckBoxAutoRotation>
-    <ClusteredBar>Skládaný pruhový</ClusteredBar>
-    <ClusteredColumn>Skládaný sloupcový</ClusteredColumn>
-    <ConstantLine>Plná čára</ConstantLine>
-    <ConstantLinesEditorForm>Editor plných čar</ConstantLinesEditorForm>
+    <ClusteredBar>Seskupený pruhový</ClusteredBar>
+    <ClusteredColumn>Seskupený sloupcový</ClusteredColumn>
+    <ConstantLine>Konstantní čára</ConstantLine>
+    <ConstantLinesEditorForm>Editor konstantních čar</ConstantLinesEditorForm>
     <DataColumns>Datové sloupce</DataColumns>
-    <Doughnut>Výsečový</Doughnut>
+    <Doughnut>Prstencový</Doughnut>
     <Financial>Finanční</Financial>
-    <FullStackedArea>Součtová oblast</FullStackedArea>
+    <FullStackedArea>Vrstvová oblast</FullStackedArea>
     <FullStackedBar>Vrstvový pruhový</FullStackedBar>
     <FullStackedColumn>Vrstvový sloupcový</FullStackedColumn>
     <FullStackedLine>Vrstvový spojnicový</FullStackedLine>
-    <FullStackedSpline>Paprskový</FullStackedSpline>
-    <FullStackedSplineArea>Prostorový povrchový</FullStackedSplineArea>
+    <FullStackedSpline>Vrstvová křivka</FullStackedSpline>
+    <FullStackedSplineArea>Vrstvová křivková oblast</FullStackedSplineArea>
     <Funnel>Trychtýřový</Funnel>
     <Gantt>Gantt</Gantt>
     <GridInterlaced>Prokládaný</GridInterlaced>
@@ -134,7 +134,7 @@
     <LabelAlignmentHorizontal>Vodorovně:</LabelAlignmentHorizontal>
     <LabelAlignmentVertical>Svisle:</LabelAlignmentVertical>
     <LabelAngle>Úhel:</LabelAngle>
-    <LabelArgumentDataColumn>Argument datového sloupce:</LabelArgumentDataColumn>
+    <LabelArgumentDataColumn>Datový sloupec argumentu:</LabelArgumentDataColumn>
     <LabelAutoRotation>Automatické otočení:</LabelAutoRotation>
     <LabelCloseValueDataColumn>Datový sloupec zavíracích hodnot:</LabelCloseValueDataColumn>
     <LabelEndValueDataColumn>Datový sloupec koncových hodnot:</LabelEndValueDataColumn>
@@ -157,17 +157,17 @@
     <LabelTextAfter>Text za:</LabelTextAfter>
     <LabelTextBefore>Text před:</LabelTextBefore>
     <LabelTitleAlignment>Zarovnání:</LabelTitleAlignment>
-    <LabelValueDataColumn>Hodnota datového sloupce:</LabelValueDataColumn>
+    <LabelValueDataColumn>Datový sloupec hodnot:</LabelValueDataColumn>
     <LabelValueType>Typ hodnoty:</LabelValueType>
     <LabelVertical>Svisle:</LabelVertical>
     <LabelVisible>Viditelný:</LabelVisible>
     <Legend>Legenda</Legend>
     <LegendSpacing>Mezery</LegendSpacing>
     <Line>Čára</Line>
-    <ListOfValues>Seznam sloupců</ListOfValues>
+    <ListOfValues>Seznam hodnot</ListOfValues>
     <Marker>Značka</Marker>
-    <MoveConstantLineDown>Posun plné čáry dolů</MoveConstantLineDown>
-    <MoveConstantLineUp>Posun plné čáry nahoru</MoveConstantLineUp>
+    <MoveConstantLineDown>Posunout konstantní čáru dolů</MoveConstantLineDown>
+    <MoveConstantLineUp>Posunout konstantní čáru nahoru</MoveConstantLineUp>
     <MoveSeriesDown>Posunout řadu dolů</MoveSeriesDown>
     <MoveSeriesUp>Posunout řadu nahoru</MoveSeriesUp>
     <MoveStripDown>Posun pruhu dolů</MoveStripDown>
@@ -182,7 +182,7 @@
     <Range>Rozsahový</Range>
     <RangeBar>Rozsahový pruhový</RangeBar>
     <RemoveCondition>&amp;Odstranit podmínku</RemoveCondition>
-    <RemoveConstantLine>Odstranit plnou čáru</RemoveConstantLine>
+    <RemoveConstantLine>Odstranit konstantní čáru</RemoveConstantLine>
     <RemoveFilter>&amp;Odstranit filtr</RemoveFilter>
     <RemoveSeries>&amp;Odstranit řadu</RemoveSeries>
     <RemoveStrip>Odstranit pruh</RemoveStrip>
@@ -202,28 +202,28 @@
     <StackedColumn>Součtový sloupec</StackedColumn>
     <StackedLine>Součtová čára</StackedLine>
     <StackedSpline>Součtová křivka</StackedSpline>
-    <StackedSplineArea>Prostorová povrchová oblast</StackedSplineArea>
+    <StackedSplineArea>Součtová křivková oblast</StackedSplineArea>
     <SteppedArea>Stupňovitá oblast</SteppedArea>
     <SteppedLine>Stupňovitá čára</SteppedLine>
     <SteppedRange>Stupňovitý rozsah</SteppedRange>
     <Stock>Akciový</Stock>
     <Strip>Pruh</Strip>
-    <StripsEditorForm>Formulář editoru plné čáry</StripsEditorForm>
+    <StripsEditorForm>Editor pruhů</StripsEditorForm>
     <Style>Styl</Style>
   </Chart>
   <ChartRibbon>
     <Axes>Osy</Axes>
-    <AxesArrowStyle>Styl kurzoru</AxesArrowStyle>
+    <AxesArrowStyle>Styl šipky</AxesArrowStyle>
     <AxesArrowStyleLines>Čárové</AxesArrowStyleLines>
     <AxesArrowStyleNone>Žádné</AxesArrowStyleNone>
     <AxesArrowStyleTriangle>Trojúhelníkové</AxesArrowStyleTriangle>
-    <AxesLabel>Umístění názvu</AxesLabel>
+    <AxesLabel>Umístění popisků</AxesLabel>
     <AxesLabelsNone>Žádné</AxesLabelsNone>
     <AxesLabelsOneLine>Jeden řádek</AxesLabelsOneLine>
     <AxesLabelsTwoLines>Dva řádky</AxesLabelsTwoLines>
     <AxesReverseHorizontal>Převrátit horizontálně</AxesReverseHorizontal>
     <AxesReverseVertical>Převrátit vertikálně</AxesReverseVertical>
-    <AxesTicks>Znaménka os</AxesTicks>
+    <AxesTicks>Značky</AxesTicks>
     <AxesTicksMajor>Hlavní</AxesTicksMajor>
     <AxesTicksMinor>Vedlejší</AxesTicksMinor>
     <AxesTicksNone>Žádné</AxesTicksNone>
@@ -246,9 +246,9 @@
     <HorizontalMajorMinor>&lt;b&gt;Hlavní &amp;&amp; Vedlejší vodící čáry&lt;/b&gt;&lt;br&gt;Zobrazit horizontální vodící čáry pro hlavní a vedlejší jednotky&lt;/br&gt;</HorizontalMajorMinor>
     <HorizontalMinor>&lt;b&gt;Vedlejší&lt;/b&gt;&lt;br&gt;Zobrazit horizontální vodící čáry pro vedlejší jednotky&lt;/br&gt;</HorizontalMinor>
     <HorizontalNone>&lt;b&gt;Žádné&lt;/b&gt;&lt;br&gt;Nezobrazovat horizontální vodící čáry&lt;/br&gt;</HorizontalNone>
-    <InsideBaseLabels>V základní části popisku</InsideBaseLabels>
-    <InsideEndLabels>Na konci popisku</InsideEndLabels>
-    <Labels>Sada popisků</Labels>
+    <InsideBaseLabels>Vnitřní základna</InsideBaseLabels>
+    <InsideEndLabels>Vnitřní konec</InsideEndLabels>
+    <Labels>Popisky řad</Labels>
     <Legend>Legenda</Legend>
     <LegendHorizontalAlignment>Horizontalní zarovnání</LegendHorizontalAlignment>
     <LegendMarker>Značkovač</LegendMarker>
@@ -258,8 +258,8 @@
     <LegendVerticalAlignment>Vertikální zarovnání</LegendVerticalAlignment>
     <LegendVisible>Viditelné</LegendVisible>
     <NoneLabels>Žádné</NoneLabels>
-    <OutsideBaseLabels>Mimo základní část popisku</OutsideBaseLabels>
-    <OutsideEndLabels>Mimo konec popisku</OutsideEndLabels>
+    <OutsideBaseLabels>Vnější základna</OutsideBaseLabels>
+    <OutsideEndLabels>Vnější konec</OutsideEndLabels>
     <OutsideLabels>Mimo</OutsideLabels>
     <ribbonBarAxis>Osy</ribbonBarAxis>
     <ribbonBarChartStyles>Vzhled grafu</ribbonBarChartStyles>
@@ -1284,7 +1284,7 @@
     <AlignCenter>Zarovnat obsah komponenty na střed.</AlignCenter>
     <AlignComponentBottom>Povolit zarovnání objektů horizontálně k dolnímu okraji vybraných komponent.</AlignComponentBottom>
     <AlignComponentCenter>Povolit zarovnání objektů horizontálně ke středu okraje vybraných komponent.</AlignComponentCenter>
-    <AlignComponentLeft>Povolit zarovnání objektů horizontálně k levému okraji vybraných komponent.</AlignComponentLeft>
+    <AlignComponentLeft>Povolit zarovnání objektů vertikálně k levému okraji vybraných komponent.</AlignComponentLeft>
     <AlignComponentMiddle>Povolit zarovnání objektů vertikálně ke středu okraje vybraných komponent.</AlignComponentMiddle>
     <AlignComponentRight>Povolit zarovnání objektů vertikálně k pravému okraji vybraných komponent.</AlignComponentRight>
     <AlignComponentTop>Povolit zarovnání objektů horizontálně k hornímu okraji vybraných komponent.</AlignComponentTop>
@@ -1325,7 +1325,7 @@
     <DockStyleTop>Ukotvit vybrané komponenty nahoru.</DockStyleTop>
     <FontGrow>Zvětšit velikost písma.</FontGrow>
     <FontName>Textový font.</FontName>
-    <FontNameWatermark>Vodoznak textového fontu.</FontNameWatermark>
+    <FontNameWatermark>Font textu vodoznaku.</FontNameWatermark>
     <FontShrink>Zmenšit velikost písma.</FontShrink>
     <FontSize>Velikost písma.</FontSize>
     <FontSizeWatermark>Změnit velikost fontu.</FontSizeWatermark>
@@ -1348,14 +1348,14 @@
     <ImageAlignment>Vložit obrázek s vodoznakem na stránku.</ImageAlignment>
     <ImageTransparency>Změnit průhlednost obrázku vodoznaku.</ImageTransparency>
     <Link>Propojit komponentu s aktuálním kontejnerem.</Link>
-    <LoadImage>Načíst vodoznak obrázků ze souboru.</LoadImage>
+    <LoadImage>Načíst obrázek vodoznaku ze souboru.</LoadImage>
     <Lock>Zamknout komponentu. Komponentu nelze přesunout nebo jí změnit velikost.</Lock>
     <MainMenu>Klikněte sem pro zobrazení seznamu možných operací s reportem včetně otevírání, zavírání a náhledu.</MainMenu>
     <MakeHorizontalSpacingEqual>Nastavit shodně horizontální vzdálenosti pro vybrané položky.</MakeHorizontalSpacingEqual>
     <MakeVerticalSpacingEqual>Nastavit shodně vertikální vzdálenosti pro vybrané položky.</MakeVerticalSpacingEqual>
     <Margins>Vybrat okraje aktuální stránky.</Margins>
     <menuCheckIssues>Kontrola reportu, zda-li neobsahuje chyby, varování. Generuje technická doporučení.</menuCheckIssues>
-    <menuDesignerOptions>Nastavení možností vzhledu reportu.</menuDesignerOptions>
+    <menuDesignerOptions>Nastavení možností návrháře reportů.</menuDesignerOptions>
     <menuEditClearContents>Vyčistit obsah.</menuEditClearContents>
     <menuEditCopy>Zkopírovat vybrané položky a vložit je do schránky.</menuEditCopy>
     <menuEditCut>Vyjmout vybrané položky z reportu a vložit je do schránky.</menuEditCut>
@@ -1381,7 +1381,7 @@
     <menuViewShowGrid>Zapnout mřížku reportu, ke které lze zarovnat objekty.</menuViewShowGrid>
     <menuViewShowHeaders>Zobrazit hlavičky oddílů.</menuViewShowHeaders>
     <menuViewShowOrder>Zobrazit pořadí položek na stránce.</menuViewShowOrder>
-    <menuViewShowRulers>Zobrazit pravidla používaná k měření řazení objektů na stránce.</menuViewShowRulers>
+    <menuViewShowRulers>Zobrazit pravítka používaná k měření a zarovnávání objektů na stránce.</menuViewShowRulers>
     <MoveBackward>Přesunout komponentu o úroveň nahoru v pořadí vložení na stránku.</MoveBackward>
     <MoveForward>Přesunout komponentu o úroveň dolu v pořadí vložení na stránku.</MoveForward>
     <Orientation>Přepnout stránky mezi na výšku a na šířku.</Orientation>
@@ -1397,15 +1397,15 @@
     <ReportSave>Uložit aktuálně editovaný report.</ReportSave>
     <SelectAll>Vybrat všechny komponenty na aktuální stránce.</SelectAll>
     <SelectUILanguage>Výběr jazyka UI.</SelectUILanguage>
-    <SendToBack>Přesunout vybranou komponentu zpět k ostatním komponentám.</SendToBack>
+    <SendToBack>Přesunout vybranou komponentu do pozadí vzhledem k ostatním komponentám.</SendToBack>
     <ServicesConfigurator>Spustit konfigurátor služeb.</ServicesConfigurator>
     <Shadow>Zobrazit stínování komponenty.</Shadow>
-    <ShowBehind>Zobrazit vodoznak textu za komponentami.</ShowBehind>
-    <ShowImageBehind>Vložit vodoznak textu za všemi komponentami na stránce.</ShowImageBehind>
+    <ShowBehind>Zobrazit text vodoznaku za komponentami.</ShowBehind>
+    <ShowImageBehind>Vložit obrázek vodoznaku za všechny komponenty na stránce.</ShowImageBehind>
     <ShowToolbox>Zobrazit panel nástrojů.</ShowToolbox>
     <StyleDesigner>Spustit designer stylu.</StyleDesigner>
     <Text>Vodnoznak textu.</Text>
-    <TextBrush>Změnit barvu štětce.</TextBrush>
+    <TextBrush>Změnit barvu textu.</TextBrush>
     <TextBrushWatermark>Změnit barvu textu vodoznaku.</TextBrushWatermark>
     <TextColor>Změnit barvu textu.</TextColor>
     <TextFormat>Vybrat formátování hodnot.</TextFormat>
@@ -1822,7 +1822,7 @@
     <DateTimePickerFormatLong>Dlouhý</DateTimePickerFormatLong>
     <DateTimePickerFormatShort>Krátký</DateTimePickerFormatShort>
     <DateTimePickerFormatTime>Čas</DateTimePickerFormatTime>
-    <DialogResultAbort>Zrušit</DialogResultAbort>
+    <DialogResultAbort>Přerušit</DialogResultAbort>
     <DialogResultCancel>Storno</DialogResultCancel>
     <DialogResultIgnore>Ignorovat</DialogResultIgnore>
     <DialogResultNo>Ne</DialogResultNo>
@@ -1909,7 +1909,7 @@
     <StiCapStyleOpen>Otevřený</StiCapStyleOpen>
     <StiCapStyleOval>Ovál</StiCapStyleOval>
     <StiCapStyleSquare>Čtverec</StiCapStyleSquare>
-    <StiCapStyleStealth>Tajný</StiCapStyleStealth>
+    <StiCapStyleStealth>Vydutá šipka</StiCapStyleStealth>
     <StiChartTitleDockBottom>Dole</StiChartTitleDockBottom>
     <StiChartTitleDockLeft>Vlevo</StiChartTitleDockLeft>
     <StiChartTitleDockRight>Vpravo</StiChartTitleDockRight>
@@ -1922,7 +1922,7 @@
     <StiCheckStyleDotCircle>Bodová kružnice</StiCheckStyleDotCircle>
     <StiCheckStyleDotRectangle>Bodový obdélník</StiCheckStyleDotRectangle>
     <StiCheckStyleNone>Nic</StiCheckStyleNone>
-    <StiCheckStyleNoneCircle>Bez kružnice</StiCheckStyleNoneCircle>
+    <StiCheckStyleNoneCircle>Prázdná kružnice</StiCheckStyleNoneCircle>
     <StiCheckStyleNoneRectangle>Prázdný obdélník</StiCheckStyleNoneRectangle>
     <StiCheckSumNo>Ne</StiCheckSumNo>
     <StiCheckSumYes>Ano</StiCheckSumYes>
@@ -2005,8 +2005,8 @@
     <StiImageRotationRotate90CCW>Rotace 90° CCW</StiImageRotationRotate90CCW>
     <StiImageRotationRotate90CW>Rotace 90° CW</StiImageRotationRotate90CW>
     <StiLabelsPlacementNone>Žádný</StiLabelsPlacementNone>
-    <StiLabelsPlacementOneLine>Jedna čára</StiLabelsPlacementOneLine>
-    <StiLabelsPlacementTwoLines>Dvě čáry</StiLabelsPlacementTwoLines>
+    <StiLabelsPlacementOneLine>Jeden řádek</StiLabelsPlacementOneLine>
+    <StiLabelsPlacementTwoLines>Dva řádky</StiLabelsPlacementTwoLines>
     <StiLegendDirectionBottomToTop>Zespoda nahoru</StiLegendDirectionBottomToTop>
     <StiLegendDirectionLeftToRight>Zleva doprava</StiLegendDirectionLeftToRight>
     <StiLegendDirectionRightToLeft>Zprava doleva</StiLegendDirectionRightToLeft>
@@ -2034,8 +2034,8 @@
     <StiNestedFactorHigh>Vysoký</StiNestedFactorHigh>
     <StiNestedFactorLow>Nízký</StiNestedFactorLow>
     <StiNestedFactorNormal>Normal</StiNestedFactorNormal>
-    <StiNumberOfPassDoublePass>Jednou</StiNumberOfPassDoublePass>
-    <StiNumberOfPassSinglePass>Vakrát</StiNumberOfPassSinglePass>
+    <StiNumberOfPassDoublePass>Dva průchody</StiNumberOfPassDoublePass>
+    <StiNumberOfPassSinglePass>Jeden průchod</StiNumberOfPassSinglePass>
     <StiOrientationHorizontal>Horizontální</StiOrientationHorizontal>
     <StiOrientationVertical>Vertikální</StiOrientationVertical>
     <StiPageOrientationLandscape>Na šířku</StiPageOrientationLandscape>
@@ -2150,7 +2150,7 @@
     <StiStyleConditionTypeLocation>Pozice</StiStyleConditionTypeLocation>
     <StiStyleConditionTypePlacement>Umístění</StiStyleConditionTypePlacement>
     <StiSummaryValuesAllValues>Všechny hodnoty</StiSummaryValuesAllValues>
-    <StiSummaryValuesSkipNulls>Přeskočit nuly</StiSummaryValuesSkipNulls>
+    <StiSummaryValuesSkipNulls>Přeskočit hodnoty null</StiSummaryValuesSkipNulls>
     <StiSummaryValuesSkipZerosAndNulls>Přeskočit prázdné a nulové</StiSummaryValuesSkipZerosAndNulls>
     <StiTablceCellTypeCheckBox>Zaškrtávací políčko</StiTablceCellTypeCheckBox>
     <StiTablceCellTypeImage>Obrázek</StiTablceCellTypeImage>
@@ -2183,14 +2183,14 @@
     <StiVertAlignmentCenter>Na střed</StiVertAlignmentCenter>
     <StiVertAlignmentTop>Nahoru</StiVertAlignmentTop>
     <StiViewModeNormal>Normální</StiViewModeNormal>
-    <StiViewModePageBreakPreview>Ohraničení stránky</StiViewModePageBreakPreview>
+    <StiViewModePageBreakPreview>Náhled konců stránek</StiViewModePageBreakPreview>
     <StringAlignmentCenter>Střed</StringAlignmentCenter>
     <StringAlignmentFar>Vzdálený</StringAlignmentFar>
     <StringAlignmentNear>Blízký</StringAlignmentNear>
     <StringTrimmingCharacter>Znak</StringTrimmingCharacter>
-    <StringTrimmingEllipsisCharacter>Znak elipsy</StringTrimmingEllipsisCharacter>
-    <StringTrimmingEllipsisPath>Cesta elipsy</StringTrimmingEllipsisPath>
-    <StringTrimmingEllipsisWord>Slovo elipsy</StringTrimmingEllipsisWord>
+    <StringTrimmingEllipsisCharacter>Znak s trojtečkou</StringTrimmingEllipsisCharacter>
+    <StringTrimmingEllipsisPath>Cesta s trojtečkou</StringTrimmingEllipsisPath>
+    <StringTrimmingEllipsisWord>Slovo s trojtečkou</StringTrimmingEllipsisWord>
     <StringTrimmingNone>Žádné</StringTrimmingNone>
     <StringTrimmingWord>Slovo</StringTrimmingWord>
   </PropertyEnum>
@@ -2263,10 +2263,10 @@
   <PropertyHatchStyle>
     <BackwardDiagonal>Zadní diagonála</BackwardDiagonal>
     <Cross>Kříž</Cross>
-    <DarkDownwardDiagonal>Klesající diagonála</DarkDownwardDiagonal>
-    <DarkHorizontal>Horizontála</DarkHorizontal>
-    <DarkUpwardDiagonal>Stoupající diagonála</DarkUpwardDiagonal>
-    <DarkVertical>Vertikála</DarkVertical>
+    <DarkDownwardDiagonal>Tmavá klesající diagonála</DarkDownwardDiagonal>
+    <DarkHorizontal>Tmavá horizontála</DarkHorizontal>
+    <DarkUpwardDiagonal>Tmavá stoupající diagonála</DarkUpwardDiagonal>
+    <DarkVertical>Tmavá vertikála</DarkVertical>
     <DashedDownwardDiagonal>Čárkovaná klesající diagonála</DashedDownwardDiagonal>
     <DashedHorizontal>Čárkovaná horizontála</DashedHorizontal>
     <DashedUpwardDiagonal>Čárkovaná stoupající diagonála</DashedUpwardDiagonal>
@@ -2282,10 +2282,10 @@
     <LargeCheckerBoard>Velká šachovnice</LargeCheckerBoard>
     <LargeConfetti>Velké konfety</LargeConfetti>
     <LargeGrid>Velká mříž</LargeGrid>
-    <LightDownwardDiagonal>Nepatrná klesající diagonála</LightDownwardDiagonal>
-    <LightHorizontal>Nepatrná horizontála</LightHorizontal>
-    <LightUpwardDiagonal>Nepatrná stoupající diagonála</LightUpwardDiagonal>
-    <LightVertical>Nepatrná vertikála</LightVertical>
+    <LightDownwardDiagonal>Světlá klesající diagonála</LightDownwardDiagonal>
+    <LightHorizontal>Světlá horizontála</LightHorizontal>
+    <LightUpwardDiagonal>Světlá stoupající diagonála</LightUpwardDiagonal>
+    <LightVertical>Světlá vertikála</LightVertical>
     <NarrowHorizontal>Úzká horizontála</NarrowHorizontal>
     <NarrowVertical>Úzká vertikála</NarrowVertical>
     <OutlinedDiamond>Obrysový kosočtverec</OutlinedDiamond>
@@ -2306,7 +2306,7 @@
     <SmallCheckerBoard>Malá šachovnice</SmallCheckerBoard>
     <SmallConfetti>Malé konfety</SmallConfetti>
     <SmallGrid>Malá mřížka</SmallGrid>
-    <SolidDiamond>Trojrozměrný diamand</SolidDiamond>
+    <SolidDiamond>Vyplněný diamant</SolidDiamond>
     <Sphere>Sféra</Sphere>
     <Trellis>Pletivo</Trellis>
     <Vertical>Vertikální</Vertical>
