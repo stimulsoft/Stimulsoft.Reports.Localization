@@ -1860,6 +1860,8 @@
     <PictureBoxSizeModeCenterImage>Vycentrovat</PictureBoxSizeModeCenterImage>
     <PictureBoxSizeModeNormal>Normálně</PictureBoxSizeModeNormal>
     <PictureBoxSizeModeStretchImage>Roztáhnout</PictureBoxSizeModeStretchImage>
+    <RelationDirectionChildToParent>Od podřízeného k nadřazenému</RelationDirectionChildToParent>
+    <RelationDirectionParentToChild>Od nadřazeného k podřízenému</RelationDirectionParentToChild>
     <RightToLeftInherit>Zdědit</RightToLeftInherit>
     <RightToLeftNo>Ne</RightToLeftNo>
     <RightToLeftYes>Ano</RightToLeftYes>
@@ -1867,6 +1869,10 @@
     <SelectionModeMultiSimple>Mnohonásobně jednoduchý</SelectionModeMultiSimple>
     <SelectionModeNone>Nic</SelectionModeNone>
     <SelectionModeOne>Jeden</SelectionModeOne>
+    <StiAnchorModeBottom>Dole</StiAnchorModeBottom>
+    <StiAnchorModeLeft>Vlevo</StiAnchorModeLeft>
+    <StiAnchorModeRight>Vpravo</StiAnchorModeRight>
+    <StiAnchorModeTop>Nahoře</StiAnchorModeTop>
     <StiAngleAngle0>Otočení - 0°</StiAngleAngle0>
     <StiAngleAngle180>Otočení - 180°</StiAngleAngle180>
     <StiAngleAngle270>Otočení - 270°</StiAngleAngle270>
@@ -1901,6 +1907,10 @@
     <StiBrushTypeGradient45>Gradient štětec, úhel 45</StiBrushTypeGradient45>
     <StiBrushTypeGradient90>Gradient štětec, úhel 90</StiBrushTypeGradient90>
     <StiBrushTypeSolid>Plný štětec</StiBrushTypeSolid>
+    <StiButtonSendTypeFDF>FDF</StiButtonSendTypeFDF>
+    <StiButtonSendTypeHTML>HTML</StiButtonSendTypeHTML>
+    <StiButtonSendTypePDF>PDF</StiButtonSendTypePDF>
+    <StiButtonSendTypeXFDF>XFDF</StiButtonSendTypeXFDF>
     <StiCalculationModeCompilation>Kompilace</StiCalculationModeCompilation>
     <StiCalculationModeInterpretation>Vyhodnocení</StiCalculationModeInterpretation>
     <StiCapStyleArrow>Šipka</StiCapStyleArrow>
@@ -1910,10 +1920,22 @@
     <StiCapStyleOval>Ovál</StiCapStyleOval>
     <StiCapStyleSquare>Čtverec</StiCapStyleSquare>
     <StiCapStyleStealth>Vydutá šipka</StiCapStyleStealth>
+    <StiChartLabelsStyleCategory>Kategorie</StiChartLabelsStyleCategory>
+    <StiChartLabelsStyleCategoryPercentOfTotal>Kategorie - Procento z celku</StiChartLabelsStyleCategoryPercentOfTotal>
+    <StiChartLabelsStyleCategoryValue>Kategorie - Hodnota</StiChartLabelsStyleCategoryValue>
+    <StiChartLabelsStylePercentOfTotal>Procento z celku</StiChartLabelsStylePercentOfTotal>
+    <StiChartLabelsStyleValue>Hodnota</StiChartLabelsStyleValue>
     <StiChartTitleDockBottom>Dole</StiChartTitleDockBottom>
     <StiChartTitleDockLeft>Vlevo</StiChartTitleDockLeft>
     <StiChartTitleDockRight>Vpravo</StiChartTitleDockRight>
     <StiChartTitleDockTop>Nahoře</StiChartTitleDockTop>
+    <StiChartTrendLineTypeExponential>Exponenciální</StiChartTrendLineTypeExponential>
+    <StiChartTrendLineTypeLinear>Lineární</StiChartTrendLineTypeLinear>
+    <StiChartTrendLineTypeLogarithmic>Logaritmická</StiChartTrendLineTypeLogarithmic>
+    <StiChartTrendLineTypeNone>Žádná</StiChartTrendLineTypeNone>
+    <StiCheckStateChecked>Zaškrtnuto</StiCheckStateChecked>
+    <StiCheckStateIndeterminate>Neurčeno</StiCheckStateIndeterminate>
+    <StiCheckStateUnchecked>Nezaškrtnuto</StiCheckStateUnchecked>
     <StiCheckStyleCheck>Fajfka</StiCheckStyleCheck>
     <StiCheckStyleCheckRectangle>Obdélník s fajfkou</StiCheckStyleCheckRectangle>
     <StiCheckStyleCross>Křížek</StiCheckStyleCross>
@@ -1934,22 +1956,70 @@
     <StiColorScaleTypeColor3>Tříbarevně</StiColorScaleTypeColor3>
     <StiColumnDirectionAcrossThenDown>Vpravo potom dolů</StiColumnDirectionAcrossThenDown>
     <StiColumnDirectionDownThenAcross>Dolů potom vpravo</StiColumnDirectionDownThenAcross>
+    <StiColumnShape3DBox>Obdélník</StiColumnShape3DBox>
+    <StiColumnShape3DPartialPyramid>Částečná pyramida</StiColumnShape3DPartialPyramid>
+    <StiColumnShape3DPyramid>Pyramida</StiColumnShape3DPyramid>
+    <StiColumnTypeProcessingCastToColumnType>Převést na typ sloupce</StiColumnTypeProcessingCastToColumnType>
+    <StiColumnTypeProcessingLeaveUnprocessed>Ponechat nezpracované</StiColumnTypeProcessingLeaveUnprocessed>
+    <StiCompilationAccessAllow>Povolit</StiCompilationAccessAllow>
+    <StiCompilationAccessAsk>Zeptat se</StiCompilationAccessAsk>
+    <StiCompilationAccessDeny>Zakázat</StiCompilationAccessDeny>
+    <StiCompilationAccessForceInterpretation>Vynutit interpretaci</StiCompilationAccessForceInterpretation>
     <StiCrossHorAlignmentCenter>Střed</StiCrossHorAlignmentCenter>
     <StiCrossHorAlignmentLeft>Vlevo</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>Nic</StiCrossHorAlignmentNone>
     <StiCrossHorAlignmentRight>Vpravo</StiCrossHorAlignmentRight>
+    <StiDashboardContentAlignmentCenter>Na střed</StiDashboardContentAlignmentCenter>
+    <StiDashboardContentAlignmentLeft>Vlevo</StiDashboardContentAlignmentLeft>
+    <StiDashboardContentAlignmentRight>Vpravo</StiDashboardContentAlignmentRight>
+    <StiDashboardContentAlignmentStretchX>Roztáhnout X</StiDashboardContentAlignmentStretchX>
+    <StiDashboardContentAlignmentStretchXY>Roztáhnout XY</StiDashboardContentAlignmentStretchXY>
+    <StiDataBarShapeArrow>Šipka</StiDataBarShapeArrow>
+    <StiDataBarShapeBanner>Banner</StiDataBarShapeBanner>
+    <StiDataBarShapeRectangle>Obdélník</StiDataBarShapeRectangle>
+    <StiDataJoinTypeCross>Křížové</StiDataJoinTypeCross>
+    <StiDataJoinTypeFull>Plné</StiDataJoinTypeFull>
+    <StiDataJoinTypeInner>Vnitřní</StiDataJoinTypeInner>
+    <StiDataJoinTypeLeft>Levé</StiDataJoinTypeLeft>
+    <StiDataJoinTypeRight>Pravé</StiDataJoinTypeRight>
+    <StiDateSelectionModeAutoRange>Automatický rozsah</StiDateSelectionModeAutoRange>
+    <StiDateSelectionModeRange>Rozsah</StiDateSelectionModeRange>
+    <StiDateSelectionModeSingle>Jeden</StiDateSelectionModeSingle>
+    <StiDateTimeStepAggregationAverage>Průměr</StiDateTimeStepAggregationAverage>
+    <StiDateTimeStepAggregationCount>Počet</StiDateTimeStepAggregationCount>
+    <StiDateTimeStepAggregationMax>Max</StiDateTimeStepAggregationMax>
+    <StiDateTimeStepAggregationMin>Min</StiDateTimeStepAggregationMin>
+    <StiDateTimeStepAggregationSum>Součet</StiDateTimeStepAggregationSum>
     <StiDateTimeTypeDate>Datum</StiDateTimeTypeDate>
     <StiDateTimeTypeDateAndTime>Datum a čas</StiDateTimeTypeDateAndTime>
     <StiDateTimeTypeTime>Čas</StiDateTimeTypeTime>
+    <StiDesignerScaleModeAutomaticScaling>Automatické měřítko</StiDesignerScaleModeAutomaticScaling>
+    <StiDesignerScaleModeScaling100>Měřítko 100%</StiDesignerScaleModeScaling100>
+    <StiDesignerSpecificationAuto>Určit automaticky</StiDesignerSpecificationAuto>
+    <StiDesignerSpecificationBeginner>Jsem začátečník</StiDesignerSpecificationBeginner>
+    <StiDesignerSpecificationBICreator>Jsem Creator</StiDesignerSpecificationBICreator>
+    <StiDesignerSpecificationDeveloper>Jsem vývojář</StiDesignerSpecificationDeveloper>
+    <StiDirectionBottomToTop>Zespoda nahoru</StiDirectionBottomToTop>
+    <StiDirectionLeftToRight>Zleva doprava</StiDirectionLeftToRight>
+    <StiDirectionRightToLeft>Zprava doleva</StiDirectionRightToLeft>
+    <StiDirectionTopToBottom>Z vrchu dolů</StiDirectionTopToBottom>
+    <StiDisplayNameTypeFull>Úplné</StiDisplayNameTypeFull>
+    <StiDisplayNameTypeNone>Žádné</StiDisplayNameTypeNone>
+    <StiDisplayNameTypeShort>Krátké</StiDisplayNameTypeShort>
     <StiDockStyleBottom>Spodní</StiDockStyleBottom>
     <StiDockStyleFill>Plný</StiDockStyleFill>
     <StiDockStyleLeft>Levá</StiDockStyleLeft>
     <StiDockStyleNone>Žádný</StiDockStyleNone>
     <StiDockStyleRight>Pravá</StiDockStyleRight>
     <StiDockStyleTop>Vrchní</StiDockStyleTop>
+    <StiDrillDownModeMultiPage>Více stránek</StiDrillDownModeMultiPage>
+    <StiDrillDownModeSinglePage>Jedna stránka</StiDrillDownModeSinglePage>
     <StiEanSupplementTypeFiveDigit>Pětimístný</StiEanSupplementTypeFiveDigit>
     <StiEanSupplementTypeNone>Nic</StiEanSupplementTypeNone>
     <StiEanSupplementTypeTwoDigit>Dvoumístný</StiEanSupplementTypeTwoDigit>
+    <StiEmptyCellsAsConnectPointsWithLine>Spojit body čárou</StiEmptyCellsAsConnectPointsWithLine>
+    <StiEmptyCellsAsGap>Mezera</StiEmptyCellsAsGap>
+    <StiEmptyCellsAsZero>Nula</StiEmptyCellsAsZero>
     <StiEmptySizeModeAlignFooterToBottom>Zarovnat zápatí dolu</StiEmptySizeModeAlignFooterToBottom>
     <StiEmptySizeModeAlignFooterToTop>Zarovnat zápatí nahoru</StiEmptySizeModeAlignFooterToTop>
     <StiEmptySizeModeDecreaseLastRow>Snížit poslední řádek</StiEmptySizeModeDecreaseLastRow>
@@ -1958,13 +2028,21 @@
     <StiEnumeratorTypeArabic>Arabské číslice</StiEnumeratorTypeArabic>
     <StiEnumeratorTypeNone>Žádný</StiEnumeratorTypeNone>
     <StiEnumeratorTypeRoman>Římské číslice</StiEnumeratorTypeRoman>
+    <StiExtendedStyleBoolFalse>Nepravda</StiExtendedStyleBoolFalse>
+    <StiExtendedStyleBoolFromStyle>Ze stylu</StiExtendedStyleBoolFromStyle>
+    <StiExtendedStyleBoolTrue>Pravda</StiExtendedStyleBoolTrue>
     <StiFilterConditionBeginningWith>začínající s </StiFilterConditionBeginningWith>
     <StiFilterConditionBetween>mezi</StiFilterConditionBetween>
     <StiFilterConditionContaining>obsahující</StiFilterConditionContaining>
     <StiFilterConditionEndingWith>končící s</StiFilterConditionEndingWith>
     <StiFilterConditionEqualTo>rovnající se</StiFilterConditionEqualTo>
+    <StiFilterConditionEqualToVariableOrVariableIsNull>rovnající se proměnné nebo proměnná je null</StiFilterConditionEqualToVariableOrVariableIsNull>
     <StiFilterConditionGreaterThan>větší než</StiFilterConditionGreaterThan>
     <StiFilterConditionGreaterThanOrEqualTo>větší než nebo rovnající se</StiFilterConditionGreaterThanOrEqualTo>
+    <StiFilterConditionIsBlank>je prázdné</StiFilterConditionIsBlank>
+    <StiFilterConditionIsNotBlank>není prázdné</StiFilterConditionIsNotBlank>
+    <StiFilterConditionIsNotNull>není null</StiFilterConditionIsNotNull>
+    <StiFilterConditionIsNull>je null</StiFilterConditionIsNull>
     <StiFilterConditionLessThan>menší než</StiFilterConditionLessThan>
     <StiFilterConditionLessThanOrEqualTo>menší než nebo rovnající se</StiFilterConditionLessThanOrEqualTo>
     <StiFilterConditionNotBetween>není mezi</StiFilterConditionNotBetween>
@@ -1977,20 +2055,56 @@
     <StiFilterDataTypeString>Řetězec</StiFilterDataTypeString>
     <StiFilterEngineReportEngine>Reportovací stroj</StiFilterEngineReportEngine>
     <StiFilterEngineSQLQuery>SQL dotaz</StiFilterEngineSQLQuery>
+    <StiFilterInclusionModeAlways>Vždy</StiFilterInclusionModeAlways>
+    <StiFilterInclusionModeSelectionOnly>Pouze výběr</StiFilterInclusionModeSelectionOnly>
     <StiFilterItemArgument>Argument</StiFilterItemArgument>
     <StiFilterItemExpression>Výraz</StiFilterItemExpression>
     <StiFilterItemValue>Hodnota</StiFilterItemValue>
+    <StiFilterItemValueClose>Uzavírací hodnota</StiFilterItemValueClose>
+    <StiFilterItemValueEnd>Koncová hodnota</StiFilterItemValueEnd>
+    <StiFilterItemValueHigh>Nejvyšší hodnota</StiFilterItemValueHigh>
+    <StiFilterItemValueLow>Nejnižší hodnota</StiFilterItemValueLow>
+    <StiFilterItemValueOpen>Otevírací hodnota</StiFilterItemValueOpen>
     <StiFilterModeAnd>a</StiFilterModeAnd>
     <StiFilterModeOr>nebo</StiFilterModeOr>
+    <StiFontIconGroupAccessibilityIcons>Přístupnost</StiFontIconGroupAccessibilityIcons>
+    <StiFontIconGroupBrandIcons>Značka</StiFontIconGroupBrandIcons>
+    <StiFontIconGroupDirectionalIcons>Směrové</StiFontIconGroupDirectionalIcons>
+    <StiFontIconGroupGenderIcons>Pohlaví</StiFontIconGroupGenderIcons>
+    <StiFontIconGroupMedicalIcons>Lékařské</StiFontIconGroupMedicalIcons>
+    <StiFontIconGroupPaymentIcons>Platby</StiFontIconGroupPaymentIcons>
+    <StiFontIconGroupSpinnerIcons>Spinner</StiFontIconGroupSpinnerIcons>
+    <StiFontIconGroupTransportationIcons>Doprava</StiFontIconGroupTransportationIcons>
+    <StiFontIconGroupVideoPlayerIcons>Video</StiFontIconGroupVideoPlayerIcons>
+    <StiFontIconGroupWebApplicationIcons>Aplikace</StiFontIconGroupWebApplicationIcons>
+    <StiFontSizeModeAuto>Auto</StiFontSizeModeAuto>
+    <StiFontSizeModeTarget>Cíl</StiFontSizeModeTarget>
+    <StiFontSizeModeValue>Hodnota</StiFontSizeModeValue>
     <StiFormStartModeOnEnd>Na konci</StiFormStartModeOnEnd>
     <StiFormStartModeOnPreview>Na náhled</StiFormStartModeOnPreview>
     <StiFormStartModeOnStart>Na začátku</StiFormStartModeOnStart>
+    <StiGaugeCalculationModeAuto>Auto</StiGaugeCalculationModeAuto>
+    <StiGaugeCalculationModeCustom>Vlastní</StiGaugeCalculationModeCustom>
+    <StiGaugeRangeModePercentage>Procenta</StiGaugeRangeModePercentage>
+    <StiGaugeRangeModeValue>Hodnota</StiGaugeRangeModeValue>
+    <StiGaugeRangeTypeColor>Barva</StiGaugeRangeTypeColor>
+    <StiGaugeRangeTypeNone>Žádný</StiGaugeRangeTypeNone>
+    <StiGaugeTypeBullet>Bullet</StiGaugeTypeBullet>
+    <StiGaugeTypeFullCircular>Plný kruhový</StiGaugeTypeFullCircular>
+    <StiGaugeTypeHalfCircular>Poloviční kruhový</StiGaugeTypeHalfCircular>
+    <StiGaugeTypeHorizontalLinear>Horizontální lineární</StiGaugeTypeHorizontalLinear>
+    <StiGaugeTypeLinear>Vertikální lineární</StiGaugeTypeLinear>
     <StiGroupSortDirectionAscending>Vzestupně</StiGroupSortDirectionAscending>
     <StiGroupSortDirectionDescending>Sestupně</StiGroupSortDirectionDescending>
     <StiGroupSortDirectionNone>Žádný</StiGroupSortDirectionNone>
     <StiHorAlignmentCenter>Na střed</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>Vlevo</StiHorAlignmentLeft>
     <StiHorAlignmentRight>Vpravo</StiHorAlignmentRight>
+    <StiIconAlignmentBottom>Dolů</StiIconAlignmentBottom>
+    <StiIconAlignmentLeft>Vlevo</StiIconAlignmentLeft>
+    <StiIconAlignmentNone>Nic</StiIconAlignmentNone>
+    <StiIconAlignmentRight>Vpravo</StiIconAlignmentRight>
+    <StiIconAlignmentTop>Nahoru</StiIconAlignmentTop>
     <StiImageProcessingDuplicatesTypeGlobalHide>Skrýt globálně</StiImageProcessingDuplicatesTypeGlobalHide>
     <StiImageProcessingDuplicatesTypeGlobalMerge>Spojit globálně</StiImageProcessingDuplicatesTypeGlobalMerge>
     <StiImageProcessingDuplicatesTypeGlobalRemoveImage>Odebrat obrázek globálně</StiImageProcessingDuplicatesTypeGlobalRemoveImage>
@@ -2004,6 +2118,31 @@
     <StiImageRotationRotate180>Rotace 180°</StiImageRotationRotate180>
     <StiImageRotationRotate90CCW>Rotace 90° CCW</StiImageRotationRotate90CCW>
     <StiImageRotationRotate90CW>Rotace 90° CW</StiImageRotationRotate90CW>
+    <StiIndicatorValueTypeValue>Hodnota</StiIndicatorValueTypeValue>
+    <StiIndicatorValueTypeValueTarget>Hodnota / Cíl</StiIndicatorValueTypeValueTarget>
+    <StiInteractionOnClick>Nic</StiInteractionOnClick>
+    <StiInteractionOnClickApplyFilter>Použít filtr</StiInteractionOnClickApplyFilter>
+    <StiInteractionOnClickDrillDown>Drill-Down</StiInteractionOnClickDrillDown>
+    <StiInteractionOnClickOpenHyperlink>Otevřít hypertextový odkaz</StiInteractionOnClickOpenHyperlink>
+    <StiInteractionOnClickShowDashboard>Zobrazit dashboard</StiInteractionOnClickShowDashboard>
+    <StiInteractionOnHoverNone>Nic</StiInteractionOnHoverNone>
+    <StiInteractionOnHoverShowHyperlink>Zobrazit hypertextový odkaz</StiInteractionOnHoverShowHyperlink>
+    <StiInteractionOnHoverShowToolTip>Zobrazit popisek</StiInteractionOnHoverShowToolTip>
+    <StiInteractionOpenHyperlinkDestinationCurrentTab>Aktuální karta</StiInteractionOpenHyperlinkDestinationCurrentTab>
+    <StiInteractionOpenHyperlinkDestinationNewTab>Nová karta</StiInteractionOpenHyperlinkDestinationNewTab>
+    <StiItemFilterModeFullPath>Úplná cesta</StiItemFilterModeFullPath>
+    <StiItemFilterModeSelectedOnly>Pouze vybrané</StiItemFilterModeSelectedOnly>
+    <StiItemOrientationHorizontal>Horizontální</StiItemOrientationHorizontal>
+    <StiItemOrientationVertical>Vertikální</StiItemOrientationVertical>
+    <StiItemSelectionModeMulti>Více položek</StiItemSelectionModeMulti>
+    <StiItemSelectionModeOne>Jedna položka</StiItemSelectionModeOne>
+    <StiKeepDetailsKeepDetailsTogether>Udržet detaily pohromadě</StiKeepDetailsKeepDetailsTogether>
+    <StiKeepDetailsKeepFirstDetailTogether>Udržet první detail pohromadě</StiKeepDetailsKeepFirstDetailTogether>
+    <StiKeepDetailsKeepFirstRowTogether>Udržet první řádek pohromadě</StiKeepDetailsKeepFirstRowTogether>
+    <StiKeepDetailsNone>Nic</StiKeepDetailsNone>
+    <StiLabelPlacementInside>Uvnitř</StiLabelPlacementInside>
+    <StiLabelPlacementOutside>Vně</StiLabelPlacementOutside>
+    <StiLabelsPlacementAutoRotation>Automatické otočení</StiLabelsPlacementAutoRotation>
     <StiLabelsPlacementNone>Žádný</StiLabelsPlacementNone>
     <StiLabelsPlacementOneLine>Jeden řádek</StiLabelsPlacementOneLine>
     <StiLabelsPlacementTwoLines>Dva řádky</StiLabelsPlacementTwoLines>
@@ -2021,9 +2160,22 @@
     <StiLegendVertAlignmentCenter>Střed</StiLegendVertAlignmentCenter>
     <StiLegendVertAlignmentTop>Nahoru</StiLegendVertAlignmentTop>
     <StiLegendVertAlignmentTopOutside>Vně nahoru</StiLegendVertAlignmentTopOutside>
+    <StiLineWeightNormal>Normální</StiLineWeightNormal>
+    <StiLineWeightThick>Tlustá</StiLineWeightThick>
+    <StiLineWeightThin>Tenká</StiLineWeightThin>
+    <StiMapModeChoropleth>Kartogram</StiMapModeChoropleth>
+    <StiMapModeOnline>Online</StiMapModeOnline>
+    <StiMapTypeGroup>Skupina</StiMapTypeGroup>
+    <StiMapTypeHeatmap>Teplotní mapa</StiMapTypeHeatmap>
+    <StiMapTypeHeatmapWithGroup>Teplotní mapa se skupinou</StiMapTypeHeatmapWithGroup>
+    <StiMapTypeIndividual>Individuální</StiMapTypeIndividual>
+    <StiMapTypeNone>Žádný</StiMapTypeNone>
+    <StiMapTypePoints>Body</StiMapTypePoints>
+    <StiMarkerAlignmentCenter>Na střed</StiMarkerAlignmentCenter>
     <StiMarkerAlignmentLeft>Vlevo</StiMarkerAlignmentLeft>
     <StiMarkerAlignmentRight>Vpravo</StiMarkerAlignmentRight>
     <StiMarkerTypeCircle>Kruh</StiMarkerTypeCircle>
+    <StiMarkerTypeHalfCircle>Půlkruh</StiMarkerTypeHalfCircle>
     <StiMarkerTypeHexagon>Šestihran</StiMarkerTypeHexagon>
     <StiMarkerTypeRectangle>Obdélník</StiMarkerTypeRectangle>
     <StiMarkerTypeStar5>Hvězda 5</StiMarkerTypeStar5>
@@ -2031,15 +2183,52 @@
     <StiMarkerTypeStar7>Hvězda 7</StiMarkerTypeStar7>
     <StiMarkerTypeStar8>Hvězda 8</StiMarkerTypeStar8>
     <StiMarkerTypeTriangle>Trojúhelník</StiMarkerTypeTriangle>
+    <StiNavigatorButtonVisibilityCancel>Zrušit</StiNavigatorButtonVisibilityCancel>
+    <StiNavigatorButtonVisibilityDelete>Odstranit</StiNavigatorButtonVisibilityDelete>
+    <StiNavigatorButtonVisibilityEdit>Upravit</StiNavigatorButtonVisibilityEdit>
+    <StiNavigatorButtonVisibilityFirst>První</StiNavigatorButtonVisibilityFirst>
+    <StiNavigatorButtonVisibilityInsert>Vložit</StiNavigatorButtonVisibilityInsert>
+    <StiNavigatorButtonVisibilityLast>Poslední</StiNavigatorButtonVisibilityLast>
+    <StiNavigatorButtonVisibilityNext>Další</StiNavigatorButtonVisibilityNext>
+    <StiNavigatorButtonVisibilityPost>Použít</StiNavigatorButtonVisibilityPost>
+    <StiNavigatorButtonVisibilityPrior>Předchozí</StiNavigatorButtonVisibilityPrior>
+    <StiNavigatorButtonVisibilityRefresh>Obnovit</StiNavigatorButtonVisibilityRefresh>
     <StiNestedFactorHigh>Vysoký</StiNestedFactorHigh>
     <StiNestedFactorLow>Nízký</StiNestedFactorLow>
     <StiNestedFactorNormal>Normal</StiNestedFactorNormal>
     <StiNumberOfPassDoublePass>Dva průchody</StiNumberOfPassDoublePass>
     <StiNumberOfPassSinglePass>Jeden průchod</StiNumberOfPassSinglePass>
+    <StiOnlineMapHeatmapColorGradientTypeAddRange>Přidat rozsah</StiOnlineMapHeatmapColorGradientTypeAddRange>
+    <StiOnlineMapHeatmapColorGradientTypeBlackAquaWhite>Černá-akvamarín-bílá</StiOnlineMapHeatmapColorGradientTypeBlackAquaWhite>
+    <StiOnlineMapHeatmapColorGradientTypeBlueRed>Modrá-červená</StiOnlineMapHeatmapColorGradientTypeBlueRed>
+    <StiOnlineMapHeatmapColorGradientTypeColorSpectrum>Barevné spektrum</StiOnlineMapHeatmapColorGradientTypeColorSpectrum>
+    <StiOnlineMapHeatmapColorGradientTypeDeepSea>Hluboké moře</StiOnlineMapHeatmapColorGradientTypeDeepSea>
+    <StiOnlineMapHeatmapColorGradientTypeHeatedMetal>Rozžhavený kov</StiOnlineMapHeatmapColorGradientTypeHeatedMetal>
+    <StiOnlineMapHeatmapColorGradientTypeIncandescent>Žhnoucí</StiOnlineMapHeatmapColorGradientTypeIncandescent>
+    <StiOnlineMapHeatmapColorGradientTypeSteppedColors>Odstupňované barvy</StiOnlineMapHeatmapColorGradientTypeSteppedColors>
+    <StiOnlineMapHeatmapColorGradientTypeSunrise>Východ slunce</StiOnlineMapHeatmapColorGradientTypeSunrise>
+    <StiOnlineMapHeatmapColorGradientTypeVisibleSpectrum>Viditelné spektrum</StiOnlineMapHeatmapColorGradientTypeVisibleSpectrum>
+    <StiOnlineMapLocationTypeAdminDivision1>AdminDivision1</StiOnlineMapLocationTypeAdminDivision1>
+    <StiOnlineMapLocationTypeAdminDivision2>AdminDivision2</StiOnlineMapLocationTypeAdminDivision2>
+    <StiOnlineMapLocationTypeAuto>Auto</StiOnlineMapLocationTypeAuto>
+    <StiOnlineMapLocationTypeCountryRegion>Země/region</StiOnlineMapLocationTypeCountryRegion>
+    <StiOnlineMapLocationTypeNeighborhood>Okolí</StiOnlineMapLocationTypeNeighborhood>
+    <StiOnlineMapLocationTypePopulatedPlace>Sídlo</StiOnlineMapLocationTypePopulatedPlace>
+    <StiOnlineMapLocationTypePostcode1>PSČ 1</StiOnlineMapLocationTypePostcode1>
+    <StiOnlineMapLocationTypePostcode2>PSČ 2</StiOnlineMapLocationTypePostcode2>
+    <StiOnlineMapLocationTypePostcode3>PSČ 3</StiOnlineMapLocationTypePostcode3>
+    <StiOnlineMapLocationTypePostcode4>PSČ 4</StiOnlineMapLocationTypePostcode4>
     <StiOrientationHorizontal>Horizontální</StiOrientationHorizontal>
+    <StiOrientationHorizontalRight>Horizontální vpravo</StiOrientationHorizontalRight>
     <StiOrientationVertical>Vertikální</StiOrientationVertical>
     <StiPageOrientationLandscape>Na šířku</StiPageOrientationLandscape>
     <StiPageOrientationPortrait>Na výšku</StiPageOrientationPortrait>
+    <StiParametersDisplayModeDialog>Dialog</StiParametersDisplayModeDialog>
+    <StiParametersDisplayModePanel>Panel</StiParametersDisplayModePanel>
+    <StiPdfDigitalSignatureAppearanceTypeDraw>Kreslit</StiPdfDigitalSignatureAppearanceTypeDraw>
+    <StiPdfDigitalSignatureAppearanceTypeImage>Obrázek</StiPdfDigitalSignatureAppearanceTypeImage>
+    <StiPdfDigitalSignatureAppearanceTypeNone>Žádný</StiPdfDigitalSignatureAppearanceTypeNone>
+    <StiPdfDigitalSignatureAppearanceTypeText>Text</StiPdfDigitalSignatureAppearanceTypeText>
     <StiPenStyleDash>Čárkovaná</StiPenStyleDash>
     <StiPenStyleDashDot>Čerchovaná</StiPenStyleDashDot>
     <StiPenStyleDashDotDot>Čerchovaná s dvěma tečkami</StiPenStyleDashDotDot>
@@ -2047,6 +2236,9 @@
     <StiPenStyleDouble>Dvojitý</StiPenStyleDouble>
     <StiPenStyleNone>Žádná</StiPenStyleNone>
     <StiPenStyleSolid>Plná</StiPenStyleSolid>
+    <StiPlacementInside>Uvnitř</StiPlacementInside>
+    <StiPlacementOutside>Vně</StiPlacementOutside>
+    <StiPlacementOverlay>Překrytí</StiPlacementOverlay>
     <StiPlesseyCheckSumModulo10>Modulo10</StiPlesseyCheckSumModulo10>
     <StiPlesseyCheckSumModulo11>Modulo11</StiPlesseyCheckSumModulo11>
     <StiPlesseyCheckSumNone>Nic</StiPlesseyCheckSumNone>
@@ -2082,8 +2274,36 @@
     <StiProcessingDuplicatesTypeMerge>Sloučit</StiProcessingDuplicatesTypeMerge>
     <StiProcessingDuplicatesTypeNone>Žádný</StiProcessingDuplicatesTypeNone>
     <StiProcessingDuplicatesTypeRemoveText>Vyjmout text</StiProcessingDuplicatesTypeRemoveText>
+    <StiProgressElementModeCircle>Kruh</StiProgressElementModeCircle>
+    <StiProgressElementModeDataBars>Datové pruhy</StiProgressElementModeDataBars>
+    <StiProgressElementModePie>Koláč</StiProgressElementModePie>
+    <StiProgressValueTypeNone>Žádný</StiProgressValueTypeNone>
+    <StiProgressValueTypePercentage>Procenta</StiProgressValueTypePercentage>
+    <StiProgressValueTypeValue>Hodnota</StiProgressValueTypeValue>
+    <StiProgressValueTypeValueTarget>Hodnota / Cíl</StiProgressValueTypeValueTarget>
+    <StiQRCodeBodyShapeTypeCircle>Kruh</StiQRCodeBodyShapeTypeCircle>
+    <StiQRCodeBodyShapeTypeCircular>Kruhový</StiQRCodeBodyShapeTypeCircular>
+    <StiQRCodeBodyShapeTypeDiamond>Kosočtverec</StiQRCodeBodyShapeTypeDiamond>
+    <StiQRCodeBodyShapeTypeDockedDiamonds>Spojené kosočtverce</StiQRCodeBodyShapeTypeDockedDiamonds>
+    <StiQRCodeBodyShapeTypeDot>Tečka</StiQRCodeBodyShapeTypeDot>
+    <StiQRCodeBodyShapeTypeRoundedSquare>Zaoblený čtverec</StiQRCodeBodyShapeTypeRoundedSquare>
+    <StiQRCodeBodyShapeTypeSquare>Čtverec</StiQRCodeBodyShapeTypeSquare>
+    <StiQRCodeBodyShapeTypeStar>Hvězda</StiQRCodeBodyShapeTypeStar>
+    <StiQRCodeBodyShapeTypeZebraCross>Křížová zebra</StiQRCodeBodyShapeTypeZebraCross>
+    <StiQRCodeBodyShapeTypeZebraHorizontal>Horizontální zebra</StiQRCodeBodyShapeTypeZebraHorizontal>
+    <StiQRCodeBodyShapeTypeZebraVertical>Vertikální zebra</StiQRCodeBodyShapeTypeZebraVertical>
+    <StiQRCodeEyeBallShapeTypeCircle>Kruh</StiQRCodeEyeBallShapeTypeCircle>
+    <StiQRCodeEyeBallShapeTypeDots>Tečky</StiQRCodeEyeBallShapeTypeDots>
+    <StiQRCodeEyeBallShapeTypeRound>Zaoblený</StiQRCodeEyeBallShapeTypeRound>
+    <StiQRCodeEyeBallShapeTypeSquare>Čtverec</StiQRCodeEyeBallShapeTypeSquare>
+    <StiQRCodeEyeBallShapeTypeStar>Hvězda</StiQRCodeEyeBallShapeTypeStar>
+    <StiQRCodeEyeBallShapeTypeZebraHorizontal>Horizontální zebra</StiQRCodeEyeBallShapeTypeZebraHorizontal>
+    <StiQRCodeEyeBallShapeTypeZebraVertical>Vertikální zebra</StiQRCodeEyeBallShapeTypeZebraVertical>
     <StiRadarStyleXFCircle>Kruh</StiRadarStyleXFCircle>
     <StiRadarStyleXFPolygon>Polygon</StiRadarStyleXFPolygon>
+    <StiRangeSelectorSnapModeNone>Žádný</StiRangeSelectorSnapModeNone>
+    <StiRangeSelectorSnapModeStep>Krok</StiRangeSelectorSnapModeStep>
+    <StiRangeSelectorSnapModeTick>Značka</StiRangeSelectorSnapModeTick>
     <StiReportCacheModeAuto>Auto</StiReportCacheModeAuto>
     <StiReportCacheModeOff>Vypnout</StiReportCacheModeOff>
     <StiReportCacheModeOn>Zapnout</StiReportCacheModeOn>
@@ -2092,6 +2312,7 @@
     <StiReportUnitTypeInches>Palce</StiReportUnitTypeInches>
     <StiReportUnitTypeMillimeters>Milimetry</StiReportUnitTypeMillimeters>
     <StiReportUnitTypePixels>Pixely</StiReportUnitTypePixels>
+    <StiReportUnitTypePoints>Body</StiReportUnitTypePoints>
     <StiRestrictionsAll>Vše</StiRestrictionsAll>
     <StiRestrictionsAllowChange>Povol změnu</StiRestrictionsAllowChange>
     <StiRestrictionsAllowDelete>Povol mazání</StiRestrictionsAllowDelete>
@@ -2099,12 +2320,18 @@
     <StiRestrictionsAllowResize>Povol změnu velikosti</StiRestrictionsAllowResize>
     <StiRestrictionsAllowSelect>Povol výběr</StiRestrictionsAllowSelect>
     <StiRestrictionsNone>Žádný</StiRestrictionsNone>
+    <StiScriptSecurityFullAccess>Plný přístup</StiScriptSecurityFullAccess>
+    <StiScriptSecuritySafeMode>Bezpečný režim</StiScriptSecuritySafeMode>
+    <StiSelectionModeFirst>První</StiSelectionModeFirst>
+    <StiSelectionModeFromVariable>Z proměnné</StiSelectionModeFromVariable>
+    <StiSelectionModeNothing>Nic</StiSelectionModeNothing>
     <StiSeriesLabelsValueTypeArgument>Argument</StiSeriesLabelsValueTypeArgument>
     <StiSeriesLabelsValueTypeArgumentValue>Argument - Hodnota</StiSeriesLabelsValueTypeArgumentValue>
     <StiSeriesLabelsValueTypeSeriesTitle>Titulek řad</StiSeriesLabelsValueTypeSeriesTitle>
     <StiSeriesLabelsValueTypeSeriesTitleArgument>Titulek řad - Argument</StiSeriesLabelsValueTypeSeriesTitleArgument>
     <StiSeriesLabelsValueTypeSeriesTitleValue>Titulek řad - Hodnota</StiSeriesLabelsValueTypeSeriesTitleValue>
     <StiSeriesLabelsValueTypeTag>Štítek</StiSeriesLabelsValueTypeTag>
+    <StiSeriesLabelsValueTypeTotal>Celkem</StiSeriesLabelsValueTypeTotal>
     <StiSeriesLabelsValueTypeValue>Hodnota</StiSeriesLabelsValueTypeValue>
     <StiSeriesLabelsValueTypeValueArgument>Hodnota - Argument</StiSeriesLabelsValueTypeValueArgument>
     <StiSeriesLabelsValueTypeWeight>Váha</StiSeriesLabelsValueTypeWeight>
@@ -2113,6 +2340,8 @@
     <StiSeriesSortTypeArgument>Argument</StiSeriesSortTypeArgument>
     <StiSeriesSortTypeNone>Žádný</StiSeriesSortTypeNone>
     <StiSeriesSortTypeValue>Hodnota</StiSeriesSortTypeValue>
+    <StiSeriesXAxisBottomXAxis>Osa X spodní</StiSeriesXAxisBottomXAxis>
+    <StiSeriesXAxisTopXAxis>Osa X horní</StiSeriesXAxisTopXAxis>
     <StiSeriesYAxisLeftYAxis>Osa Y Levá</StiSeriesYAxisLeftYAxis>
     <StiSeriesYAxisRightYAxis>Osa Y Pravá</StiSeriesYAxisRightYAxis>
     <StiShapeDirectionDown>Dolů</StiShapeDirectionDown>
@@ -2123,6 +2352,9 @@
     <StiShiftModeIncreasingSize>Stoupající velikost</StiShiftModeIncreasingSize>
     <StiShiftModeNone>Žádný</StiShiftModeNone>
     <StiShiftModeOnlyInWidthOfComponent>Pouze v šířce komponenty</StiShiftModeOnlyInWidthOfComponent>
+    <StiShowEmptyCellsAsConnectPointsWithLine>Spojit body čarou</StiShowEmptyCellsAsConnectPointsWithLine>
+    <StiShowEmptyCellsAsGap>Mezera</StiShowEmptyCellsAsGap>
+    <StiShowEmptyCellsAsZero>Nula</StiShowEmptyCellsAsZero>
     <StiShowSeriesLabelsFromChart>FormulářGrafu</StiShowSeriesLabelsFromChart>
     <StiShowSeriesLabelsFromSeries>FormulářŘady</StiShowSeriesLabelsFromSeries>
     <StiShowSeriesLabelsNone>Žádný</StiShowSeriesLabelsNone>
@@ -2132,6 +2364,13 @@
     <StiShowYAxisBoth>Oba</StiShowYAxisBoth>
     <StiShowYAxisCenter>Střed</StiShowYAxisCenter>
     <StiShowYAxisLeft>Vlevo</StiShowYAxisLeft>
+    <StiSignatureModeDraw>Kreslit</StiSignatureModeDraw>
+    <StiSignatureModeType>Typ</StiSignatureModeType>
+    <StiSignatureTypeDigitalSignature>Digitální podpis</StiSignatureTypeDigitalSignature>
+    <StiSignatureTypeDraw>Kreslit</StiSignatureTypeDraw>
+    <StiSignatureTypeType>Typ</StiSignatureTypeType>
+    <StiSizeModeAutoSize>Automatická velikost</StiSizeModeAutoSize>
+    <StiSizeModeFit>Přizpůsobit</StiSizeModeFit>
     <StiSortDirectionAsc>Vzestupně</StiSortDirectionAsc>
     <StiSortDirectionDesc>Sestupně</StiSortDirectionDesc>
     <StiSortDirectionNone>Nic</StiSortDirectionNone>
@@ -2162,6 +2401,10 @@
     <StiTableAutoWidthTypeFullTable>Kompletní tabulka</StiTableAutoWidthTypeFullTable>
     <StiTableAutoWidthTypeLastColumns>Poslední sloupce</StiTableAutoWidthTypeLastColumns>
     <StiTableAutoWidthTypeNone>Nic</StiTableAutoWidthTypeNone>
+    <StiTableSizeModeAutoSize>Automatická velikost</StiTableSizeModeAutoSize>
+    <StiTableSizeModeFit>Přizpůsobit</StiTableSizeModeFit>
+    <StiTargetModePercentage>Procento</StiTargetModePercentage>
+    <StiTargetModeVariation>Odchylka</StiTargetModeVariation>
     <StiTextHorAlignmentCenter>Na střed</StiTextHorAlignmentCenter>
     <StiTextHorAlignmentLeft>Vlevo</StiTextHorAlignmentLeft>
     <StiTextHorAlignmentRight>Vpravo</StiTextHorAlignmentRight>
@@ -2175,15 +2418,43 @@
     <StiTextQualityStandard>Standard</StiTextQualityStandard>
     <StiTextQualityTypographic>Typografický</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>Wysiwyg</StiTextQualityWysiwyg>
+    <StiTextSizeModeFit>Přizpůsobit</StiTextSizeModeFit>
+    <StiTextSizeModeFitAndWordWrap>Přizpůsobit a zalomit slova</StiTextSizeModeFitAndWordWrap>
+    <StiTextSizeModeTrimming>Oříznout</StiTextSizeModeTrimming>
+    <StiTextSizeModeWordWrap>Zalomení slov</StiTextSizeModeWordWrap>
+    <StiThemeAppearanceAuto>Auto</StiThemeAppearanceAuto>
+    <StiThemeAppearanceDark>Tmavý</StiThemeAppearanceDark>
+    <StiThemeAppearanceLight>Světlý</StiThemeAppearanceLight>
+    <StiThemeAppearanceLightGray>Světle šedý</StiThemeAppearanceLightGray>
+    <StiTimeDateStepDay>Den</StiTimeDateStepDay>
+    <StiTimeDateStepHour>Hodina</StiTimeDateStepHour>
+    <StiTimeDateStepMinute>Minuta</StiTimeDateStepMinute>
+    <StiTimeDateStepMonth>Měsíc</StiTimeDateStepMonth>
+    <StiTimeDateStepNone>Žádný</StiTimeDateStepNone>
+    <StiTimeDateStepSecond>Sekunda</StiTimeDateStepSecond>
+    <StiTimeDateStepYear>Rok</StiTimeDateStepYear>
+    <StiTitlePositionInside>Uvnitř</StiTitlePositionInside>
+    <StiTitlePositionOutside>Vně</StiTitlePositionOutside>
+    <StiTopNModeBottom>Spodní</StiTopNModeBottom>
+    <StiTopNModeNone>Žádný</StiTopNModeNone>
+    <StiTopNModeTop>Horní</StiTopNModeTop>
     <StiTypeModeList>Seznam</StiTypeModeList>
     <StiTypeModeNullableValue>Nullovatelná hodnota</StiTypeModeNullableValue>
     <StiTypeModeRange>Rozsah</StiTypeModeRange>
     <StiTypeModeValue>Hodnota</StiTypeModeValue>
+    <StiUnitAlignmentPrefix>Předpona</StiUnitAlignmentPrefix>
+    <StiUnitAlignmentPrefixInside>Předpona uvnitř</StiUnitAlignmentPrefixInside>
+    <StiUnitAlignmentPrefixInsideWithSpace>Předpona uvnitř s mezerou</StiUnitAlignmentPrefixInsideWithSpace>
+    <StiUnitAlignmentSuffix>Přípona</StiUnitAlignmentSuffix>
+    <StiUnitAlignmentSuffixInside>Přípona uvnitř</StiUnitAlignmentSuffixInside>
+    <StiUnitAlignmentSuffixInsideWithSpace>Přípona uvnitř s mezerou</StiUnitAlignmentSuffixInsideWithSpace>
     <StiVertAlignmentBottom>Dolů</StiVertAlignmentBottom>
     <StiVertAlignmentCenter>Na střed</StiVertAlignmentCenter>
     <StiVertAlignmentTop>Nahoru</StiVertAlignmentTop>
     <StiViewModeNormal>Normální</StiViewModeNormal>
     <StiViewModePageBreakPreview>Náhled konců stránek</StiViewModePageBreakPreview>
+    <StiXmlTypeAdoNetXml>ADO.NET XML</StiXmlTypeAdoNetXml>
+    <StiXmlTypeXml>XML</StiXmlTypeXml>
     <StringAlignmentCenter>Střed</StringAlignmentCenter>
     <StringAlignmentFar>Vzdálený</StringAlignmentFar>
     <StringAlignmentNear>Blízký</StringAlignmentNear>
