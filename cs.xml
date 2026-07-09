@@ -1,16 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Localization language="Czech" description="Čeština" cultureName="cs">
   <A_WebViewer>
+    <AbbreviatedDayFriday>Pá</AbbreviatedDayFriday>
+    <AbbreviatedDayMonday>Po</AbbreviatedDayMonday>
+    <AbbreviatedDaySaturday>So</AbbreviatedDaySaturday>
+    <AbbreviatedDaySunday>Ne</AbbreviatedDaySunday>
+    <AbbreviatedDayThursday>Čt</AbbreviatedDayThursday>
+    <AbbreviatedDayTuesday>Út</AbbreviatedDayTuesday>
+    <AbbreviatedDayWednesday>St</AbbreviatedDayWednesday>
+    <Attachment>Příloha:</Attachment>
+    <ButtonNext>Následující</ButtonNext>
+    <ButtonPrev>Předchozí</ButtonPrev>
+    <ButtonSend>Odeslat</ButtonSend>
+    <CategoryAlreadyExists>Kategorie s tímto názvem již existuje!</CategoryAlreadyExists>
     <DayFriday>Pátek</DayFriday>
     <DayMonday>Pondělí</DayMonday>
+    <Days>Dny</Days>
     <DaySaturday>Sobota</DaySaturday>
     <DaySunday>Neděle</DaySunday>
     <DayThursday>Čtvrtek</DayThursday>
     <DayTuesday>Úterý</DayTuesday>
     <DayWednesday>Středa</DayWednesday>
+    <Email>E-mail:</Email>
+    <EmailOptions>Možnosti e-mailu</EmailOptions>
     <FirstPage>První stránka</FirstPage>
+    <Hours>Hodiny</Hours>
+    <LabelFrom>Od:</LabelFrom>
+    <LabelSelectExportFormat>Vyberte formát, do kterého chcete uložit report:</LabelSelectExportFormat>
+    <LabelTo>Komu:</LabelTo>
     <LastPage>Poslední stránka</LastPage>
     <Loading>Načítání...</Loading>
+    <Message>Zpráva:</Message>
+    <Minutes>Minuty</Minutes>
     <MonthApril>Duben</MonthApril>
     <MonthAugust>Srpen</MonthAugust>
     <MonthDecember>Prosinec</MonthDecember>
@@ -35,6 +56,10 @@
     <PrintWithoutPreview>Tisk bez náhledu</PrintWithoutPreview>
     <PrintWithPreview>Tisk s náhledem</PrintWithPreview>
     <SaveReport>Uložit</SaveReport>
+    <Subject>Předmět:</Subject>
+    <TabItemContacts>Kontakty</TabItemContacts>
+    <TextComputer>Počítač</TextComputer>
+    <TextItemsRoot>Kořen</TextItemsRoot>
     <TodayDate>Dnes</TodayDate>
     <WholeReport>Celá sestava</WholeReport>
   </A_WebViewer>
@@ -47,6 +72,7 @@
     <AdapterDataViews>Data z DataViews</AdapterDataViews>
     <AdapterDB2Connection>Data z IBM DB2 připojení</AdapterDB2Connection>
     <AdapterDBaseFiles>Data ze souborů dBase</AdapterDBaseFiles>
+    <AdapterDbUserSource>Data z uživatelského zdroje</AdapterDbUserSource>
     <AdapterFirebirdConnection>Data z Firebird připojení</AdapterFirebirdConnection>
     <AdapterInformixConnection>Data z Informix připojení</AdapterInformixConnection>
     <AdapterMySQLConnection>Data z MySQL připojení</AdapterMySQLConnection>
@@ -64,24 +90,79 @@
     <AdapterVirtualSource>Data z jiného DataSource</AdapterVirtualSource>
     <AdapterVistaDBConnection>Data z VistaDB připojení</AdapterVistaDBConnection>
   </Adapters>
+  <BarCode>
+    <Post>Poštovní</Post>
+    <TwoDimensional>Dvourozměrný</TwoDimensional>
+  </BarCode>
+  <Blockly>
+    <AllComponents>Všechny komponenty</AllComponents>
+    <AllComponentsFrom>Všechny komponenty z</AllComponentsFrom>
+    <ColorHex>Barva Hex</ColorHex>
+    <ColumnName>Název sloupce</ColumnName>
+    <DateTime>Datum a čas</DateTime>
+    <GetComponentByName>Získat komponentu podle názvu</GetComponentByName>
+    <GetCurrentValue>Získat aktuální hodnotu</GetCurrentValue>
+    <GetDataSourceByName>Získat datový zdroj podle názvu</GetDataSourceByName>
+    <GetProperty>Získat vlastnost</GetProperty>
+    <GetStyleByName>Získat styl podle názvu</GetStyleByName>
+    <GetVariable>Získat proměnnou</GetVariable>
+    <IndexOfRow>Index řádku</IndexOfRow>
+    <Lists>Seznamy</Lists>
+    <LocalVariables>Lokální proměnné</LocalVariables>
+    <Logic>Logika</Logic>
+    <Loops>Cykly</Loops>
+    <Math>Matematika</Math>
+    <OfDataSource>datového zdroje</OfDataSource>
+    <OfObject>objektu</OfObject>
+    <OpenLink>Otevřít odkaz</OpenLink>
+    <Process>Proces</Process>
+    <Programming>Programování</Programming>
+    <RefreshViewer>Obnovit prohlížeč</RefreshViewer>
+    <SetCurrentValue>Nastavit aktuální hodnotu</SetCurrentValue>
+    <SetProperty>Nastavit vlastnost</SetProperty>
+    <SetSqlCommand>Nastavit SQL příkaz</SetSqlCommand>
+    <SetVariable>Nastavit proměnnou</SetVariable>
+    <Strings>Řetězce</Strings>
+    <ThisComponent>Tato komponenta</ThisComponent>
+    <ThisReport>Tento report</ThisReport>
+    <To>Do</To>
+    <Visuals>Vizuální prvky</Visuals>
+  </Blockly>
   <Buttons>
     <Add>Přidat</Add>
     <AddAllColumns>Přidat všechny sloupce</AddAllColumns>
+    <Attach>Připojit</Attach>
     <Build>Sestavit...</Build>
+    <Buttons>Tlačítka</Buttons>
     <Cancel>Storno</Cancel>
+    <Check>Zkontrolovat</Check>
     <Close>Zavřít</Close>
     <Delete>Smazat</Delete>
     <Design>Upravit</Design>
     <Down>Dolů</Down>
     <Duplicate>Duplikovat</Duplicate>
+    <EditAsData>Upravit jako data</EditAsData>
+    <EditAsText>Upravit jako text</EditAsText>
     <Export>Export</Export>
+    <ForceDelete>Přesto smazat</ForceDelete>
     <Help>Nápověda</Help>
+    <Install>Nainstalovat</Install>
+    <InvertAll>Invertovat vše</InvertAll>
+    <LessOptions>Méně možností</LessOptions>
+    <LoadDataSet>Načíst DataSet (*.data)</LoadDataSet>
+    <More>Více</More>
+    <MoreApps>Více aplikací</MoreApps>
+    <MoreOptions>Více možností</MoreOptions>
     <MoveLeft>Posun doleva</MoveLeft>
     <MoveRight>Posun doprava</MoveRight>
+    <MoveToResource>Přesunout do prostředku</MoveToResource>
     <No>&amp;Ne</No>
     <Ok>OK</Ok>
     <Open>Otevřít</Open>
+    <OpenContainingFolder>Otevřít složku s obsahem</OpenContainingFolder>
+    <OpenInSafeMode>Otevřít v nouzovém režimu</OpenInSafeMode>
     <Print>Tisk</Print>
+    <Publish>Publikovat</Publish>
     <QuickPrint>Rychlý tisk</QuickPrint>
     <Remove>Vyjmout</Remove>
     <RemoveAll>Odebrat vše</RemoveAll>
@@ -91,9 +172,19 @@
     <Save>Uložit</Save>
     <SaveCopy>Uložit kopii</SaveCopy>
     <SetAll>Nastavit vše</SetAll>
+    <ShowLess>Zobrazit méně</ShowLess>
+    <ShowMore>Zobrazit více</ShowMore>
+    <ShowSpecific>Zobrazit '{0}'</ShowSpecific>
+    <Sign>Podepsat</Sign>
     <Submit>Odeslat</Submit>
+    <SwitchTo>Přepnout na {0}</SwitchTo>
     <Test>Test</Test>
+    <TryToReconnect>Zkusit znovu připojit</TryToReconnect>
     <Up>Nahoru</Up>
+    <Upgrade>Upgradovat</Upgrade>
+    <UpgradeNow>Upgradovat nyní</UpgradeNow>
+    <Upload>Nahrát</Upload>
+    <Waiting>Čekání</Waiting>
     <Yes>&amp;Ano</Yes>
   </Buttons>
   <Chart>
@@ -102,19 +193,23 @@
     <AddFilter>&amp;Přidat filtr</AddFilter>
     <AddSeries>&amp;Přidat řadu</AddSeries>
     <AddStrip>Přidat pruh</AddStrip>
+    <AddTrendLine>Přidat čáru trendu</AddTrendLine>
     <Area>Oblast</Area>
     <Axes>Osy</Axes>
     <AxisReverse>Obrácený</AxisReverse>
     <AxisX>Osa X</AxisX>
     <AxisY>Osa Y</AxisY>
+    <BoxAndWhisker>Krabicový graf</BoxAndWhisker>
     <Bubble>Bublinový</Bubble>
     <Candlestick>Svícový</Candlestick>
     <ChartConditionsCollectionForm>Podmínky</ChartConditionsCollectionForm>
+    <ChartEditorForm>Editor grafů</ChartEditorForm>
     <ChartFiltersCollectionForm>Filtry</ChartFiltersCollectionForm>
     <ChartType>Typ grafu</ChartType>
     <CheckBoxAutoRotation>Automatické otočení</CheckBoxAutoRotation>
     <ClusteredBar>Seskupený pruhový</ClusteredBar>
     <ClusteredColumn>Seskupený sloupcový</ClusteredColumn>
+    <Common>Obecné</Common>
     <ConstantLine>Konstantní čára</ConstantLine>
     <ConstantLinesEditorForm>Editor konstantních čar</ConstantLinesEditorForm>
     <DataColumns>Datové sloupce</DataColumns>
@@ -127,9 +222,12 @@
     <FullStackedSpline>Vrstvová křivka</FullStackedSpline>
     <FullStackedSplineArea>Vrstvová křivková oblast</FullStackedSplineArea>
     <Funnel>Trychtýřový</Funnel>
+    <FunnelWeightedSlices>Trychtýřový s váženými řezy</FunnelWeightedSlices>
     <Gantt>Gantt</Gantt>
     <GridInterlaced>Prokládaný</GridInterlaced>
     <GridLines>Rastrové čáry</GridLines>
+    <Heatmap>Teplotní mapa</Heatmap>
+    <Histogram>Histogram</Histogram>
     <LabelAlignment>Zarovnání:</LabelAlignment>
     <LabelAlignmentHorizontal>Vodorovně:</LabelAlignmentHorizontal>
     <LabelAlignmentVertical>Svisle:</LabelAlignmentVertical>
@@ -153,6 +251,12 @@
     <LabelsOutside>Vně</LabelsOutside>
     <LabelsOutsideBase>Vnější základna</LabelsOutsideBase>
     <LabelsOutsideEnd>Vnější konec</LabelsOutsideEnd>
+    <LabelsOverlay>Překrytí</LabelsOverlay>
+    <LabelsStyleCategory>Kategorie</LabelsStyleCategory>
+    <LabelsStyleCategoryPercentOfTotal>Kategorie - Procento z celku</LabelsStyleCategoryPercentOfTotal>
+    <LabelsStyleCategoryValue>Kategorie - Hodnota</LabelsStyleCategoryValue>
+    <LabelsStylePercentOfTotal>Procento z celku</LabelsStylePercentOfTotal>
+    <LabelsStyleValue>Hodnota</LabelsStyleValue>
     <LabelsTwoColumns>Dva sloupce</LabelsTwoColumns>
     <LabelTextAfter>Text za:</LabelTextAfter>
     <LabelTextBefore>Text před:</LabelTextBefore>
@@ -165,6 +269,8 @@
     <LegendSpacing>Mezery</LegendSpacing>
     <Line>Čára</Line>
     <ListOfValues>Seznam hodnot</ListOfValues>
+    <ListOfXValues>Seznam hodnot X</ListOfXValues>
+    <ListOfYValues>Seznam hodnot Y</ListOfYValues>
     <Marker>Značka</Marker>
     <MoveConstantLineDown>Posunout konstantní čáru dolů</MoveConstantLineDown>
     <MoveConstantLineUp>Posunout konstantní čáru nahoru</MoveConstantLineUp>
@@ -174,9 +280,15 @@
     <MoveStripUp>Posun pruhu nahoru</MoveStripUp>
     <NoConditions>Žádné podmínky</NoConditions>
     <NoFilters>Žádné filtry</NoFilters>
+    <Pareto>Pareto</Pareto>
+    <Pictorial>Piktogramový</Pictorial>
+    <PictorialStacked>Piktogramový součtový</PictorialStacked>
     <Pie>Koláč</Pie>
+    <Polar>Polární</Polar>
+    <PolarStacked>Polární součtový</PolarStacked>
     <Radar>Radar</Radar>
     <RadarArea>Radarová oblast</RadarArea>
+    <RadarColumn>Radarový sloupcový</RadarColumn>
     <RadarLine>Radarová čára</RadarLine>
     <RadarPoint>Radarový bod</RadarPoint>
     <Range>Rozsahový</Range>
@@ -186,6 +298,7 @@
     <RemoveFilter>&amp;Odstranit filtr</RemoveFilter>
     <RemoveSeries>&amp;Odstranit řadu</RemoveSeries>
     <RemoveStrip>Odstranit pruh</RemoveStrip>
+    <Ribbon>Páskový</Ribbon>
     <RunChartWizard>Spustit &amp;průvodce grafem</RunChartWizard>
     <Scatter>Rozptyl</Scatter>
     <ScatterLine>Čára s rozptylem</ScatterLine>
@@ -194,6 +307,10 @@
     <SeriesColorsCollectionForm>Barvy řad</SeriesColorsCollectionForm>
     <SeriesEditorForm>Editor řad</SeriesEditorForm>
     <Serieses>Řady</Serieses>
+    <SparklinesArea>Oblast</SparklinesArea>
+    <SparklinesColumn>Sloupcový</SparklinesColumn>
+    <SparklinesLine>Čára</SparklinesLine>
+    <SparklinesWinLoss>Výhra / prohra</SparklinesWinLoss>
     <Spline>Křivka</Spline>
     <SplineArea>Křivková oblast</SplineArea>
     <SplineRange>Křivkový rozsah</SplineRange>
@@ -210,7 +327,16 @@
     <Strip>Pruh</Strip>
     <StripsEditorForm>Editor pruhů</StripsEditorForm>
     <Style>Styl</Style>
+    <Sunburst>Paprskový</Sunburst>
+    <Surface>Povrchový</Surface>
+    <Treemap>Stromová mapa</Treemap>
+    <TrendLinesEditorForm>Editor čar trendu</TrendLinesEditorForm>
+    <Waterfall>Vodopádový</Waterfall>
+    <WireframeSurface>Drátěný povrchový</WireframeSurface>
   </Chart>
+  <CharterMapEditor>
+    <Characters>Znaky</Characters>
+  </CharterMapEditor>
   <ChartRibbon>
     <Axes>Osy</Axes>
     <AxesArrowStyle>Styl šipky</AxesArrowStyle>
@@ -601,6 +727,13 @@
     <StiWinControl>Win Control</StiWinControl>
     <StiZipCode>PSČ</StiZipCode>
   </Components>
+  <CustomMapWindow>
+    <CheckedAll>Zaškrtnout vše</CheckedAll>
+    <HideText>Skrýt text</HideText>
+    <KeysChangePosition>Klávesy (vlevo, nahoru, vpravo, dolů) mění pozici textu</KeysChangePosition>
+    <KeysChangeSize>Shift + klávesy (vlevo, nahoru, vpravo, dolů) mění velikost oblasti textu</KeysChangeSize>
+    <UncheckedAll>Zrušit zaškrtnutí</UncheckedAll>
+  </CustomMapWindow>
   <Dashboard>
     <AddRange>Přidat rozsah</AddRange>
     <AfterGroupingData>Použít po seskupení dat</AfterGroupingData>
@@ -705,6 +838,7 @@
     <DatabaseDB2>IBM DB2 připojení</DatabaseDB2>
     <DatabaseFirebird>Firebird připojení</DatabaseFirebird>
     <DatabaseInformix>Informix připojení</DatabaseInformix>
+    <DatabaseJson>JSON Data</DatabaseJson>
     <DatabaseMySQL>MySQL připojení</DatabaseMySQL>
     <DatabaseOdbc>ODBC připojení</DatabaseOdbc>
     <DatabaseOleDb>OleDB připojení</DatabaseOleDb>
@@ -719,7 +853,40 @@
     <DatabaseVistaDB>VistaDB připojení</DatabaseVistaDB>
     <DatabaseXml>XML Data</DatabaseXml>
   </Database>
+  <DatePickerRanges>
+    <CurrentMonth>Aktuální měsíc</CurrentMonth>
+    <CurrentQuarter>Aktuální čtvrtletí</CurrentQuarter>
+    <CurrentWeek>Aktuální týden</CurrentWeek>
+    <CurrentYear>Aktuální rok</CurrentYear>
+    <DaysAgo>Před {0} dny</DaysAgo>
+    <FirstQuarter>První čtvrtletí</FirstQuarter>
+    <FourthQuarter>Čtvrté čtvrtletí</FourthQuarter>
+    <Index>Index</Index>
+    <Last14Days>Posledních 14 dní</Last14Days>
+    <Last30Days>Posledních 30 dní</Last30Days>
+    <Last7Days>Posledních 7 dní</Last7Days>
+    <MonthToDate>Od začátku měsíce</MonthToDate>
+    <NextMonth>Příští měsíc</NextMonth>
+    <NextQuarter>Příští čtvrtletí</NextQuarter>
+    <NextWeek>Příští týden</NextWeek>
+    <NextYear>Příští rok</NextYear>
+    <PreviousMonth>Předchozí měsíc</PreviousMonth>
+    <PreviousQuarter>Předchozí čtvrtletí</PreviousQuarter>
+    <PreviousWeek>Předchozí týden</PreviousWeek>
+    <PreviousYear>Předchozí rok</PreviousYear>
+    <Quarter>Čtvrtletí</Quarter>
+    <QuarterToDate>Od začátku čtvrtletí</QuarterToDate>
+    <SecondQuarter>Druhé čtvrtletí</SecondQuarter>
+    <ThirdQuarter>Třetí čtvrtletí</ThirdQuarter>
+    <Today>Dnes</Today>
+    <Tomorrow>Zítra</Tomorrow>
+    <WeekToDate>Od začátku týdne</WeekToDate>
+    <Year>Rok</Year>
+    <YearToDate>Od začátku roku</YearToDate>
+    <Yesterday>Včera</Yesterday>
+  </DatePickerRanges>
   <DesignerFx>
+    <AlreadyExists>'{0}' již existuje.</AlreadyExists>
     <CanNotLoadThisReportTemplate>Nelze načíst šablonu sestavy!</CanNotLoadThisReportTemplate>
     <CloseDataSourceEditor>Chcete zavřít editor zdroje dat?</CloseDataSourceEditor>
     <CloseEditor>Chcete zavřít editor?</CloseEditor>
@@ -729,6 +896,8 @@
     <ConnectionSuccessfull>Spojení bylo úspěšně navázáno</ConnectionSuccessfull>
     <Continue>Pokračovat</Continue>
     <DecryptionError>Chyba dekódování: Chybné heslo nebo poškozený soubor.</DecryptionError>
+    <EmailSuccessfullySent>E-mail byl úspěšně odeslán.</EmailSuccessfullySent>
+    <ErrorAtSaving>Chyba při ukládání</ErrorAtSaving>
     <ErrorCode>Chyba při ukládání. Kód chyby: {0}</ErrorCode>
     <ErrorServer>Chyba při ukládání. Server neodpovídá.</ErrorServer>
     <ExportingReport>Exportovat report</ExportingReport>
@@ -740,36 +909,72 @@
     <LoadingLanguage>Načítání jazykové lokalizace</LoadingLanguage>
     <LoadingReport>Načítání reportu</LoadingReport>
     <PreviewAs>Náhled jako {0}</PreviewAs>
+    <RenderingReport>Generování reportu</RenderingReport>
+    <ReportSuccessfullySaved>Report byl úspěšně uložen.</ReportSuccessfullySaved>
     <RetrieveError>Chyba při obnovení sloupců</RetrieveError>
     <RetrievingColumns>Obnovování sloupců</RetrievingColumns>
+    <Saving>Ukládání</Saving>
     <SavingConfiguration>Ukládání konfigurace</SavingConfiguration>
     <SavingReport>Ukládání reportu</SavingReport>
     <TestConnection>Test spojení</TestConnection>
     <TextNotFound>Určený text nelze nalézt. Text: {0}</TextNotFound>
   </DesignerFx>
+  <Desktop>
+    <Beginner>Začátečník</Beginner>
+    <ButtonAddCloud>Přidat složku Cloud</ButtonAddCloud>
+    <ButtonAddFolder>Přidat složku</ButtonAddFolder>
+    <ButtonCreateDashboard>Vytvořit dashboard</ButtonCreateDashboard>
+    <ButtonCreateReport>Vytvořit report</ButtonCreateReport>
+    <ChooseYourSkillLevel>Vyberte svou úroveň dovedností</ChooseYourSkillLevel>
+    <Creator>Creator</Creator>
+    <Developer>Vývojář</Developer>
+    <DoYouWantToInstallReports>Chcete nainstalovat šablony reportů a dashboardů?</DoYouWantToInstallReports>
+    <InstallSamplesDesc>Nainstalujme naše ukázkové projekty. Pomohou vám osvojit si základy práce s naším softwarem.</InstallSamplesDesc>
+    <PleaseAnswerWhoAreYou>Odpovězte prosím, kdo jste?</PleaseAnswerWhoAreYou>
+    <SkillLevel>Úroveň dovedností</SkillLevel>
+    <WhoAreYou>Kdo jste?</WhoAreYou>
+    <WhoAreYouBeginnerDescription>Ideální volba, pokud spouštíte návrhář poprvé.</WhoAreYouBeginnerDescription>
+    <WhoAreYouCreatorDescription>Ideální volba pro vytváření reportů. K dispozici je potřebná funkcionalita pro návrh.</WhoAreYouCreatorDescription>
+    <WhoAreYouDeveloperDescription>Ideální volba pro vytváření aplikací. Zahrnuje kompletní funkcionalitu pro návrh reportů a vkládání komponent.</WhoAreYouDeveloperDescription>
+  </Desktop>
   <Dialogs>
     <StiButtonControl>Tlačítko</StiButtonControl>
     <StiCheckBoxControl>Zaškrtávací políčko</StiCheckBoxControl>
+    <StiCheckBoxGroupControl>Skupina zaškrtávacích políček</StiCheckBoxGroupControl>
     <StiCheckedListBoxControl>Seznam zaškrtávacích políček</StiCheckedListBoxControl>
     <StiComboBoxControl>Rozbalovací seznam</StiComboBoxControl>
+    <StiDatePickerControl>Výběr data</StiDatePickerControl>
     <StiDateTimePickerControl>Výběr data a času</StiDateTimePickerControl>
     <StiForm>Formulář</StiForm>
     <StiGridControl>Tabulka</StiGridControl>
     <StiGroupBoxControl>Skupinový rámeček</StiGroupBoxControl>
     <StiLabelControl>Popisek</StiLabelControl>
     <StiListBoxControl>Seznam</StiListBoxControl>
+    <StiListControl>Seznam</StiListControl>
     <StiListViewControl>Seznam</StiListViewControl>
     <StiLookUpBoxControl>Vyhledávací políčko</StiLookUpBoxControl>
+    <StiMultiListControl>Vícenásobný seznam</StiMultiListControl>
+    <StiMultiSelectControl>Vícenásobný výběr</StiMultiSelectControl>
+    <StiNumberInputControl>Zadání čísla</StiNumberInputControl>
     <StiNumericUpDownControl>Číslo nahoru dolů</StiNumericUpDownControl>
     <StiPanelControl>Panel</StiPanelControl>
     <StiPictureBoxControl>Obrázek</StiPictureBoxControl>
     <StiRadioButtonControl>Přepínač</StiRadioButtonControl>
+    <StiRadioGroupControl>Skupina přepínačů</StiRadioGroupControl>
+    <StiRangeSliderControl>Posuvník rozsahu</StiRangeSliderControl>
     <StiReportControl>Ovládací prvek sestavy</StiReportControl>
     <StiRichTextBoxControl>Box formátovatelného textu</StiRichTextBoxControl>
+    <StiSelectControl>Výběr</StiSelectControl>
+    <StiSliderControl>Posuvník</StiSliderControl>
+    <StiSwitchControl>Přepínač</StiSwitchControl>
     <StiTextBoxControl>Textové pole</StiTextBoxControl>
+    <StiTextInputControl>Zadání textu</StiTextInputControl>
     <StiTreeViewControl>Strom</StiTreeViewControl>
   </Dialogs>
   <Editor>
+    <AllowSQLFormatting>Povolit formátování SQL</AllowSQLFormatting>
+    <AutomaticallyGeneratedExpression>Toto je automaticky generovaný výraz.</AutomaticallyGeneratedExpression>
+    <BetweenMetrics>Lze vybrat 1 až 10 metrik.</BetweenMetrics>
     <CantFind>Data, která hledáte, nebyla nalezena.</CantFind>
     <CollapseToDefinitions>S&amp;balit do definic</CollapseToDefinitions>
     <Column>Sloupec: {0}</Column>
@@ -779,16 +984,22 @@
     <FindWhat>Co hledat:</FindWhat>
     <FromCursor>Od kurzoru</FromCursor>
     <GotoLine>&amp;Přejít</GotoLine>
+    <InsertField>Vložit pole</InsertField>
+    <InsertLink>Vložit odkaz</InsertLink>
+    <InsertSymbol>Vložit symbol</InsertSymbol>
     <Line>Řádek: {0}</Line>
     <LineNumber>Číslo řádku:</LineNumber>
     <LineNumberIndex>Číslo řádku ({0} - {1})</LineNumberIndex>
     <MarkAll>&amp;Označit vše</MarkAll>
     <MatchCase>Rozlišovat &amp;velikost písmen</MatchCase>
     <MatchWholeWord>Pouze &amp;celá slova</MatchWholeWord>
+    <MaximumDimensions>Lze vybrat maximálně 7 dimenzí.</MaximumDimensions>
+    <NotFound>Nenalezeno</NotFound>
     <Outlining>&amp;Rozbalování</Outlining>
     <PromptOnReplace>Potvrzovat nahrazení</PromptOnReplace>
     <Replace>Na&amp;hradit</Replace>
     <ReplaceAll>Nahradit &amp;vše</ReplaceAll>
+    <Replaced>Nahrazeno: {0}</Replaced>
     <ReplaceWith>Čím nahradit:</ReplaceWith>
     <Search>Hledat</Search>
     <SearchHiddenText>Skrytý text</SearchHiddenText>
@@ -802,12 +1013,14 @@
     <titleReplace>Nahradit</titleReplace>
     <ToggleAllOutlining>Rozbalit / sbalit &amp;vše</ToggleAllOutlining>
     <ToggleOutliningExpansion>&amp;Zapnout rozbalování</ToggleOutliningExpansion>
+    <TypeToSearch>Zadejte hledaný text</TypeToSearch>
     <UseRegularExpressions>Use &amp;Regular Expressions</UseRegularExpressions>
   </Editor>
   <Errors>
     <ComponentIsNotRelease>Komponenta neimplementuje "{0}".</ComponentIsNotRelease>
     <ContainerIsNotValidForComponent>Kontejner {0} není platný pro komponentu {1}.</ContainerIsNotValidForComponent>
     <DataNotFound>Data nenalezena.</DataNotFound>
+    <DataNotLoaded>Nejsou načtena žádná data.</DataNotLoaded>
     <Error>Chyba!</Error>
     <ErrorsList>Seznam chyb</ErrorsList>
     <FieldRequire>Pole "{0}" vyžaduje naplnění.</FieldRequire>
@@ -818,22 +1031,48 @@
     <NoServices>Služby nenalezeny v '{0}'</NoServices>
     <NotAssign>Datový zdroj není specifikován.</NotAssign>
     <NotCorrectFormat>Vstupní řetězec má špatný formát.</NotCorrectFormat>
+    <OneTableOfContentsAllowed>V reportu lze současně použít pouze jednu komponentu 'Obsah'!</OneTableOfContentsAllowed>
+    <PrimaryColumnAction>Tuto akci nelze použít na primární sloupec '{0}'.</PrimaryColumnAction>
     <RelationsNotFound>Závislosti nenalezeny.</RelationsNotFound>
     <ReportCannotBeSaveDueToErrors>Report nelze uložit kvůli chybám.</ReportCannotBeSaveDueToErrors>
     <ServiceNotFound>'{0}' Služba nenalezena.</ServiceNotFound>
   </Errors>
+  <ExceptionProvider>
+    <Assemblies>Sestavení</Assemblies>
+    <ClickIgnore>Kliknutím na 'Ignorovat' smažete všechny automaticky uložené soubory.</ClickIgnore>
+    <Exception>Výjimka</Exception>
+    <ExceptionReport>Report o výjimce</ExceptionReport>
+    <Framework>Framework</Framework>
+    <General>Obecné</General>
+    <Message>Zpráva</Message>
+    <Number>Číslo</Number>
+    <PleaseEnterDetailedInformation>Zadejte prosím podrobné informace o událostech, které tuto výjimku způsobují.</PleaseEnterDetailedInformation>
+    <SaveToFile>Uložit do souboru</SaveToFile>
+    <SendErrorFailed>Nepodařilo se doručit chybovou zprávu.</SendErrorFailed>
+    <SendErrorSuccess>Chybová zpráva byla úspěšně doručena.</SendErrorSuccess>
+    <Source>Zdroj</Source>
+    <StackTrace>Trasování zásobníku</StackTrace>
+    <YouCanRestore>Neuložené změny můžete obnovit ze záložního souboru.</YouCanRestore>
+    <YourPreviousWorkSession>V předchozí pracovní relaci se návrhář neočekávaně ukončil.</YourPreviousWorkSession>
+  </ExceptionProvider>
   <Export>
     <AddPageBreaks>Přidat konce stránek</AddPageBreaks>
     <AllBands>Všechny skupiny</AllBands>
     <AllowAddOrModifyTextAnnotations>Umožnit přidat nebo editovat textové poznámky</AllowAddOrModifyTextAnnotations>
     <AllowCopyTextAndGraphics>Povolit kopírování textu a grafiky</AllowCopyTextAndGraphics>
+    <AllowEditable>Povolit editovatelná pole</AllowEditable>
     <AllowModifyContents>Povolit měnit obsah</AllowModifyContents>
     <AllowPrintDocument>Povolit tisknout dokument</AllowPrintDocument>
+    <Auto>Auto</Auto>
     <BandsFilter>Filtr skupin:</BandsFilter>
+    <CancelExport>Zrušit export</CancelExport>
     <Color>Barva</Color>
     <Compressed>Komprimovaný</Compressed>
+    <CompressToArchive>Komprimovat do archivu</CompressToArchive>
     <ContinuousPages>Souvislé stránky</ContinuousPages>
+    <DataAndHeaders>Data a záhlaví</DataAndHeaders>
     <DataAndHeadersFooters>Data a záhlaví/zápatí</DataAndHeadersFooters>
+    <DataExport>Export dat</DataExport>
     <DataOnly>Pouze data</DataOnly>
     <DigitalSignature>Digitální podpis</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>Není zvolen žádný certifikát</DigitalSignatureCertificateNotSelected>
@@ -841,11 +1080,16 @@
     <DocumentSecurity>Bezpečnost dokumentu</DocumentSecurity>
     <DotMatrixMode>Režim matice bodů</DotMatrixMode>
     <EmbeddedFonts>Vložená písma</EmbeddedFonts>
+    <EmbeddedImageData>Vložená data obrázku</EmbeddedImageData>
+    <EnableAnimation>Povolit animaci</EnableAnimation>
     <Encoding>Kódování:</Encoding>
     <EncryptionError>Chyba šifrování v kroku</EncryptionError>
     <EscapeCodes>Escape sekvenční znaky</EscapeCodes>
+    <Exactly>Přesně</Exactly>
+    <ExceptEditableFields>Kromě editovatelných polí</ExceptEditableFields>
     <ExportDataOnly>Exportovat pouze data</ExportDataOnly>
     <ExportEachPageToSheet>Exportovat každou stránku na list</ExportEachPageToSheet>
+    <Exporting>Probíhá export</Exporting>
     <ExportingCalculatingCoordinates>Počítání souřadnic</ExportingCalculatingCoordinates>
     <ExportingCreatingDocument>Vytvoření dokumentu</ExportingCreatingDocument>
     <ExportingFormatingObjects>Formátování objektů</ExportingFormatingObjects>
@@ -859,6 +1103,7 @@
     <ExportTypeBmpFile>BMP obrázek...</ExportTypeBmpFile>
     <ExportTypeCalcFile>OpenDocument Calc soubor...</ExportTypeCalcFile>
     <ExportTypeCsvFile>CSV soubor...</ExportTypeCsvFile>
+    <ExportTypeDataFile>Datový soubor...</ExportTypeDataFile>
     <ExportTypeDbfFile>DBF soubor...</ExportTypeDbfFile>
     <ExportTypeDifFile>Data Interchange Formát (DIF) Soubor...</ExportTypeDifFile>
     <ExportTypeExcel2007File>Microsoft Excel 2007 soubor...</ExportTypeExcel2007File>
@@ -867,7 +1112,9 @@
     <ExportTypeGifFile>GIF obrázek...</ExportTypeGifFile>
     <ExportTypeHtml5File>Soubor HTML5...</ExportTypeHtml5File>
     <ExportTypeHtmlFile>HTML soubor...</ExportTypeHtmlFile>
+    <ExportTypeImageFile>Soubor obrázku...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG obrázek...</ExportTypeJpegFile>
+    <ExportTypeJsonFile>Soubor JSON...</ExportTypeJsonFile>
     <ExportTypeMetafile>Windows Metafile...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Web Archiv...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX soubor...</ExportTypePcxFile>
@@ -892,6 +1139,7 @@
     <ImageMonochrome>Monochromatický</ImageMonochrome>
     <ImageQuality>Kvalita obrázku</ImageQuality>
     <ImageResolution>Rozlišení obrázku:</ImageResolution>
+    <ImageResolutionMode>Režim rozlišení obrázku:</ImageResolutionMode>
     <ImageType>Typ obrázku</ImageType>
     <labelEncryptionKeyLength>Délka šifrovacího klíče:</labelEncryptionKeyLength>
     <labelOwnerPassword>Heslo majitele:</labelOwnerPassword>
@@ -900,9 +1148,15 @@
     <MonochromeDitheringType>Typ monochromatického ditheringu:</MonochromeDitheringType>
     <MoreSettings>Více nastavení</MoreSettings>
     <MultipleFiles>Více souborů</MultipleFiles>
+    <NoMoreThan>Nejvýše</NoMoreThan>
     <OpenAfterExport>Otevřít po exportování</OpenAfterExport>
+    <Ordered>Uspořádané</Ordered>
     <PdfACompliance>Shodnost s PDF/A</PdfACompliance>
+    <PdfUA>PDF/UA (univerzální přístupnost)</PdfUA>
+    <PrintingReport>Tisk reportu</PrintingReport>
     <RemoveEmptySpaceAtBottom>Odebrat prázdná místa na konci stránky</RemoveEmptySpaceAtBottom>
+    <RestrictEditing>Omezit úpravy:</RestrictEditing>
+    <Scale>Měřítko:</Scale>
     <Separator>Oddělovač:</Separator>
     <Settings>Nastavení</Settings>
     <SkipColumnHeaders>Přeskoč názvy sloupců</SkipColumnHeaders>
@@ -918,6 +1172,7 @@
     <TxtKillSpaceGraphLines>Odstranit prázdné grafické řádky</TxtKillSpaceGraphLines>
     <TxtKillSpaceLines>Odstranit prázdné řádky</TxtKillSpaceLines>
     <TxtPutFeedPageCode>Vložit značku konce stránky</TxtPutFeedPageCode>
+    <Type>Typ:</Type>
     <UseDefaultSystemEncoding>Použít defaultní systémové kódování</UseDefaultSystemEncoding>
     <UseDigitalSignature>Použít digitální podpis</UseDigitalSignature>
     <UseEscapeCodes>Používat escape sekvenční znaky</UseEscapeCodes>
@@ -934,6 +1189,7 @@
     <BitmapFiles>Bitmapové soubory</BitmapFiles>
     <BmpFiles>BMP obrázek (*.bmp)|*.bmp</BmpFiles>
     <CalcFiles>OpenDocument Calc soubory (*.ods)|*.ods</CalcFiles>
+    <ConditionsFiles>Podmínky Stimulsoft (*.stc)|*.stc</ConditionsFiles>
     <CsvFiles>CSV soubory (*.csv)|*.csv</CsvFiles>
     <DataSetXmlData>DataSet XML data (*.xml)|*.xml</DataSetXmlData>
     <DataSetXmlSchema>DataSet XML schéma (*.xsd)|*.xsd</DataSetXmlSchema>
@@ -946,6 +1202,7 @@
     <EncryptedDocumentFiles>Šifrované soubory dokumentu (*.mdx)|*.mdx</EncryptedDocumentFiles>
     <EncryptedReportFiles>Šifrované soubory reportu (*.mrx)|*.mrx</EncryptedReportFiles>
     <Excel2007Files>Excel 2007/2013 soubory (*.xlsx)|*.xlsx</Excel2007Files>
+    <ExcelAllFiles>Soubory Microsoft Excel (*.xlsx;*.xls)|*.xlsx;*.xls</ExcelAllFiles>
     <ExcelCsvAllFiles>Microsoft Excel soubory (*.xlsx;*.xls;*.csv)|*.xlsx;*.xls;*.csv</ExcelCsvAllFiles>
     <ExcelFiles>Excel soubory (*.xls)|*.xls</ExcelFiles>
     <ExcelXmlFiles>Microsoft Excel XML soubory (*.xls)|*.xls</ExcelXmlFiles>
@@ -954,6 +1211,9 @@
     <HtmlFiles>HTML Soubory (*.html)|*.html</HtmlFiles>
     <InheritedLanguageFiles>{0} soubory pro zděděné sestavy (*.{1})|*.{2}</InheritedLanguageFiles>
     <JpegFiles>JPEG obrázek (*.jpg;*.jpeg)|*.jpg;*.jpeg</JpegFiles>
+    <JsonDocumentFiles>Dokumenty Stimulsoft JSON (*.mdc)|*.mdc</JsonDocumentFiles>
+    <JsonFiles>Soubory JSON (*.json)|*.json</JsonFiles>
+    <JsonReportFiles>Šablony Stimulsoft JSON (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} soubory (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} soubory pro Silverlight reporty (*.{1})|*.{2}</LanguageForSilverlightFiles>
     <MetaFiles>Meta soubory</MetaFiles>
@@ -965,6 +1225,7 @@
     <PdfFiles>Adobe PDF soubory (*.pdf)|*.pdf</PdfFiles>
     <PngFiles>PNG obrázek (*.png)|*.png</PngFiles>
     <Ppt2007Files>Microsoft PowerPoint 2007/2013 soubory (*.pptx)|*.pptx</Ppt2007Files>
+    <ReportEmbededDataFiles>Šablony Stimulsoft s vloženými daty (*.mrt)|*.mrt</ReportEmbededDataFiles>
     <ReportFiles>Soubory sestavy (*.mrt)|*.mrt</ReportFiles>
     <RtfFiles>Rich Text (*.rtf)|*.rtf</RtfFiles>
     <StandaloneReportFiles>Nezávislý report (*.exe)|*.exe</StandaloneReportFiles>
@@ -975,9 +1236,11 @@
     <TiffFiles>TIFF obrázek (*.tiff)|*.tiff</TiffFiles>
     <TxtFiles>Text (*.txt)|*.txt</TxtFiles>
     <Word2007Files>Word 2007-2016 soubory (*.docx)|*.docx</Word2007Files>
+    <WordFiles>Soubory Microsoft Word 97-2003 (*.doc)|*.doc</WordFiles>
     <WriterFiles>OpenDocument Writer soubory (*.odt)|*.odt</WriterFiles>
     <XmlFiles>XML soubory (*.xml)|*.xml</XmlFiles>
     <XpsFiles>XPS soubory (*.xps)|*.xps</XpsFiles>
+    <ZipArchives>Archivy ZIP (*.zip)|*.zip</ZipArchives>
   </FileFilters>
   <Formats>
     <custom01>d</custom01>
@@ -1048,6 +1311,7 @@
   <FormColorBoxPopup>
     <Color>Barva</Color>
     <Custom>Uživatelské</Custom>
+    <NoColor>Bez barvy</NoColor>
     <Others>Ostatní...</Others>
     <System>Systémové</System>
     <Web>Webové</Web>
@@ -1057,6 +1321,9 @@
     <AddCondition>&amp;Přidat podmínku</AddCondition>
     <AddLevel>Přidat úroveň</AddLevel>
     <AssignExpression>Přiřadit výraz</AssignExpression>
+    <BreakIfTrue>Přerušit, pokud platí</BreakIfTrue>
+    <BreakIfTrueToolTip>Přeruší zpracování podmínek, pokud je aktuální podmínka splněna.</BreakIfTrueToolTip>
+    <ChangeBorder>Změnit ohraničení...</ChangeBorder>
     <ChangeFont>Změnit font</ChangeFont>
     <ComponentIsEnabled>Komponenta je povolená</ComponentIsEnabled>
     <NoConditions>Žádná podmínka</NoConditions>
@@ -1165,8 +1432,11 @@
     <ColumnsThree>Tři</ColumnsThree>
     <ColumnsTwo>Dvě</ColumnsTwo>
     <CompilingReport>Zpracování sestavy</CompilingReport>
+    <CopyPropertyName>Kopírovat název vlastnosti</CopyPropertyName>
     <DockingPanels>Panely</DockingPanels>
+    <Four>Čtyři</Four>
     <HtmlPreview>HTML náhled</HtmlPreview>
+    <JsPreview>Náhled JS</JsPreview>
     <labelPleaseSelectTypeOfInterface>Prosím, vyberte typ rozhraní:</labelPleaseSelectTypeOfInterface>
     <LoadImage>Načíst obraz...</LoadImage>
     <LocalizePropertyGrid>Lokalizovat vlastnosti</LocalizePropertyGrid>
@@ -1300,6 +1570,7 @@
     <nameOn>Zapnuto</nameOn>
     <nameTrue>Pravda</nameTrue>
     <nameYes>Ano</nameYes>
+    <NegativeInRed>Záporné červeně</NegativeInRed>
     <NegativePattern>Formát záporného čísla:</NegativePattern>
     <Number>Číslo</Number>
     <Percentage>Procenta</Percentage>
@@ -1310,13 +1581,16 @@
     <SampleText>Vzorový text</SampleText>
     <TextFormat>Formát textu</TextFormat>
     <Time>Čas</Time>
+    <TimeFormat>Formát času</TimeFormat>
     <title>Formát</title>
+    <UseAbbreviation>Použít zkratku</UseAbbreviation>
     <UseGroupSeparator>Použít oddělovač skupin</UseGroupSeparator>
     <UseLocalSetting>Použít místní nastavení</UseLocalSetting>
   </FormFormatEditor>
   <FormGlobalizationEditor>
     <AddCulture>&amp;Přidat kulturu</AddCulture>
     <AutoLocalizeReportOnRun>Automaticky lokalizovat sestavu při spuštění</AutoLocalizeReportOnRun>
+    <CreateNewCulture>pro vytvoření nové kultury</CreateNewCulture>
     <GetCulture>Získat regionální nastavení ze sestavy</GetCulture>
     <qnGetCulture>Chcete opravdu získat regionální nastavení ze sestavy a přepsat stávající regionální nastavení?</qnGetCulture>
     <qnSetCulture>Opravdu chcete nastavit regionální nastavení sestavy a komponent?</qnSetCulture>
@@ -1324,10 +1598,22 @@
     <SetCulture>Nastavit regionální nastavení sestavy</SetCulture>
     <title>Globalizační editor</title>
   </FormGlobalizationEditor>
+  <FormInteraction>
+    <HyperlinkExternalDocuments>Hypertextový odkaz na externí dokument</HyperlinkExternalDocuments>
+    <HyperlinkUsingInteractionBookmark>Hypertextový odkaz pomocí záložky</HyperlinkUsingInteractionBookmark>
+    <HyperlinkUsingInteractionTag>Hypertextový odkaz pomocí značky</HyperlinkUsingInteractionTag>
+  </FormInteraction>
   <FormOptions>
     <AutoSave>Automatické ukládání</AutoSave>
     <AutoSaveReportToReportClass>Automatické uložení sestavy do C# nebo VB.NET souboru</AutoSaveReportToReportClass>
+    <BlankDashboard>Prázdný dashboard</BlankDashboard>
+    <BlankForm>Prázdný formulář</BlankForm>
+    <BlankReport>Prázdný report</BlankReport>
+    <BlankScreen>Prázdná obrazovka</BlankScreen>
     <Default>Výchozí</Default>
+    <DefaultSaveFormat>Výchozí formát uložení</DefaultSaveFormat>
+    <DefaultScriptMode>Výchozí režim skriptu</DefaultScriptMode>
+    <DesignSize>Velikost návrhu</DesignSize>
     <Drawing>Vykreslování</Drawing>
     <DrawMarkersWhenMoving>Vykreslit obrysy při přesouvání</DrawMarkersWhenMoving>
     <EditAfterInsert>Upravit po vložení</EditAfterInsert>
@@ -1364,13 +1650,23 @@
     <MarkersStyleCorners>Rohy</MarkersStyleCorners>
     <MarkersStyleDashedRectangle>Čárkovaný obrys</MarkersStyleDashedRectangle>
     <MarkersStyleNone>Žádný</MarkersStyleNone>
+    <MessageLeftRightNotValid>Hodnoty vlevo a vpravo nejsou platné.</MessageLeftRightNotValid>
+    <MessageTopBottomNotValid>Hodnoty nahoře a dole nejsou platné.</MessageTopBottomNotValid>
     <Minutes>{0} minut</Minutes>
     <SaveReportEvery>Ukládat report každých:</SaveReportEvery>
+    <ScaleMode>Režim měřítka</ScaleMode>
     <SelectUILanguage>Vybrat jazyk rozhraní</SelectUILanguage>
+    <ShowDialogForms>Zobrazit dialogové formuláře</ShowDialogForms>
     <ShowDimensionLines>Zobrazit rozměrové čáry</ShowDimensionLines>
+    <ShowOldGaugeEditor>Zobrazit starý editor ukazatelů</ShowOldGaugeEditor>
+    <ShowSearch>Zobrazit hledání</ShowSearch>
+    <ShowSmartGuides>Zobrazit chytrá vodítka</ShowSmartGuides>
+    <StartScreen>Úvodní obrazovka</StartScreen>
     <title>Možnosti</title>
     <UseComponentColor>Použít barvu komponenty pro vyplnění</UseComponentColor>
     <UseLastFormat>Použít poslední formát</UseLastFormat>
+    <ViewSize>Velikost náhledu</ViewSize>
+    <Welcome>Vítejte</Welcome>
     <ViewOptions>Zobrazit</ViewOptions>
   </FormOptions>
   <FormPageSetup>
@@ -1397,6 +1693,7 @@
     <labelMultipleFactor>Násobící faktor:</labelMultipleFactor>
     <labelPaperSourceOfFirstPage>Zdroj papíru první strany:</labelPaperSourceOfFirstPage>
     <labelPaperSourceOfOtherPages>Zdroj papíru dalších stran:</labelPaperSourceOfOtherPages>
+    <labelSelectBrush>Vyberte štětec:</labelSelectBrush>
     <labelSelectColor>Vyber barvu:</labelSelectColor>
     <labelSelectFont>Vyber font:</labelSelectFont>
     <labelSelectImage>Vyber obrázek:</labelSelectImage>
@@ -1440,13 +1737,22 @@
   </FormRichTextEditor>
   <FormStyleDesigner>
     <Add>Přidat styl</Add>
+    <AddCollectionName>Přidat název kolekce</AddCollectionName>
     <ApplyStyleCollectionToReportComponents>Aplikovat Kolekci stylů na prvky sestavy</ApplyStyleCollectionToReportComponents>
     <ApplyStyles>Aplikovat styly</ApplyStyles>
+    <ColorCollectionEditor>Editor kolekce barev</ColorCollectionEditor>
+    <CreateNewComponentStyle>pro vytvoření nového stylu komponenty</CreateNewComponentStyle>
     <CreateStyleCollection>Vytvořit Kolekci stylů</CreateStyleCollection>
+    <CreateStyleOnBase>Vytvořit styl na základě jiného stylu</CreateStyleOnBase>
     <CreateStylesFromColor>Vytvořit styl dle zvolené barvy</CreateStylesFromColor>
     <Duplicate>Kopírovat styl</Duplicate>
+    <EditColors>Upravit barvy</EditColors>
+    <FromStyle>Ze stylu</FromStyle>
     <GetStyle>Získat styl z vybraných položek</GetStyle>
+    <MoreStyles>Více stylů</MoreStyles>
+    <NotSpecified>Neurčeno</NotSpecified>
     <Open>Otevřít styl</Open>
+    <Predefined>Předdefinované</Predefined>
     <qnApplyStyleCollection>Chcete aplikovat Kolekci stylů na prvky sestavy?</qnApplyStyleCollection>
     <Remove>Odebrat styl</Remove>
     <RemoveExistingStyles>Odebrat existující styly</RemoveExistingStyles>
@@ -1464,6 +1770,7 @@
     <pageExpression>Výraz</pageExpression>
     <pageSummary>Souhrn</pageSummary>
     <pageSystemVariable>Systémová proměnná</pageSystemVariable>
+    <RunningAverage>Průběžný průměr</RunningAverage>
     <RunningTotal>Kumulativní součet</RunningTotal>
     <SummaryRunning>Průběžný součet</SummaryRunning>
     <SummaryRunningByColumn>Sloupec</SummaryRunningByColumn>
@@ -1472,6 +1779,7 @@
   </FormSystemTextEditor>
   <FormTitles>
     <ChartWizardForm>Návrhář grafu</ChartWizardForm>
+    <CodeEditorForm>Editor kódu</CodeEditorForm>
     <ConditionEditorForm>Podmínka</ConditionEditorForm>
     <ConnectionSelectForm>Zvolit typ připojení</ConnectionSelectForm>
     <ContainerSelectForm>Vybrat kontejner</ContainerSelectForm>
@@ -1481,6 +1789,7 @@
     <DataSourceSelectForm>Vybrat datový zdoj</DataSourceSelectForm>
     <DataSourcesNewForm>Nový datový zdroj</DataSourcesNewForm>
     <DataStoreViewerForm>Prohlížeč datového úložiště</DataStoreViewerForm>
+    <DesignerApplication>Designer reportů</DesignerApplication>
     <EventEditorForm>Editor událostí</EventEditorForm>
     <ExpressionEditorForm>Editor výrazů</ExpressionEditorForm>
     <GroupConditionForm>Skupinová podmínka</GroupConditionForm>
@@ -1490,6 +1799,7 @@
     <PageSizeForm>Velikost stránky</PageSizeForm>
     <PagesManagerForm>Správce stránek</PagesManagerForm>
     <PromptForm>Zadej informace pro nalogování do databáze</PromptForm>
+    <ReportWizard>Průvodce reportem</ReportWizard>
     <ServiceSelectForm>Vybrat službu</ServiceSelectForm>
     <SqlExpressionsForm>SQL výrazy</SqlExpressionsForm>
     <SubReportPageSelectForm>Zvolit stránky podsestavy</SubReportPageSelectForm>
@@ -1563,7 +1873,40 @@
     <FindWhat>Co hledat:</FindWhat>
     <title>Najít</title>
   </FormViewerFind>
+  <Gauge>
+    <AddNewItem>Přidat novou položku</AddNewItem>
+    <BarRangeList>Seznam rozsahů lišty</BarRangeList>
+    <GaugeEditorForm>Editor ukazatele</GaugeEditorForm>
+    <Kind>Druh</Kind>
+    <LinearBar>Lineární lišta</LinearBar>
+    <LinearMarker>Lineární značka</LinearMarker>
+    <LinearRange>Lineární rozsah</LinearRange>
+    <LinearRangeList>Seznam lineárních rozsahů</LinearRangeList>
+    <LinearScale>Lineární stupnice</LinearScale>
+    <LinearTickLabelCustom>Popisek vlastní lineární značky</LinearTickLabelCustom>
+    <LinearTickLabelMajor>Popisek hlavní lineární značky</LinearTickLabelMajor>
+    <LinearTickLabelMinor>Popisek vedlejší lineární značky</LinearTickLabelMinor>
+    <LinearTickMarkCustom>Vlastní lineární značka</LinearTickMarkCustom>
+    <LinearTickMarkMajor>Hlavní lineární značka</LinearTickMarkMajor>
+    <LinearTickMarkMinor>Vedlejší lineární značka</LinearTickMarkMinor>
+    <Needle>Ručička</Needle>
+    <RadialBar>Radiální lišta</RadialBar>
+    <RadialMarker>Radiální značka</RadialMarker>
+    <RadialRange>Radiální rozsah</RadialRange>
+    <RadialRangeList>Seznam radiálních rozsahů</RadialRangeList>
+    <RadialScale>Radiální stupnice</RadialScale>
+    <RadialTickLabelCustom>Popisek vlastní radiální značky</RadialTickLabelCustom>
+    <RadialTickLabelMajor>Popisek hlavní radiální značky</RadialTickLabelMajor>
+    <RadialTickLabelMinor>Popisek vedlejší radiální značky</RadialTickLabelMinor>
+    <RadialTickMarkCustom>Vlastní radiální značka</RadialTickMarkCustom>
+    <RadialTickMarkMajor>Hlavní radiální značka</RadialTickMarkMajor>
+    <RadialTickMarkMinor>Vedlejší radiální značka</RadialTickMarkMinor>
+    <StateIndicator>Indikátor stavu</StateIndicator>
+    <StateIndicatorFilter>Filtr indikátoru stavu</StateIndicatorFilter>
+    <TickCustomValue>Vlastní hodnota značky</TickCustomValue>
+  </Gauge>
   <Gui>
+    <AccentColor>Barva akcentu</AccentColor>
     <barname_cancel>Zrušit</barname_cancel>
     <barname_caption>Nová nástrojová lišta</barname_caption>
     <barname_msginvalidname>Jméno lišty musí být definováno.</barname_msginvalidname>
@@ -1573,10 +1916,12 @@
     <barsys_autohide_tooltip>Automaticky schovávat</barsys_autohide_tooltip>
     <barsys_close_tooltip>Zavřít</barsys_close_tooltip>
     <barsys_customize_tooltip>Volitelné</barsys_customize_tooltip>
+    <ClickAndDragPickColor>Kliknutím a tažením vyberte barvu</ClickAndDragPickColor>
     <colorpicker_morecolors>&amp;Více barev...</colorpicker_morecolors>
     <colorpicker_nofill>&amp;Nevyplňovat</colorpicker_nofill>
     <colorpicker_standardcolorslabel>Standardní barvy</colorpicker_standardcolorslabel>
     <colorpicker_themecolorslabel>Tématické barvy</colorpicker_themecolorslabel>
+    <colorpickerdialog_alphalabel>&amp;Alpha:</colorpickerdialog_alphalabel>
     <colorpickerdialog_bluelabel>&amp;Blue:</colorpickerdialog_bluelabel>
     <colorpickerdialog_cancelbutton>Zrušit</colorpickerdialog_cancelbutton>
     <colorpickerdialog_caption>Barvy</colorpickerdialog_caption>
@@ -1630,6 +1975,7 @@
     <cust_pm_stytextonly>Pouze text (vždy)</cust_pm_stytextonly>
     <cust_tab_commands>Příkazy</cust_tab_commands>
     <cust_tab_options>Možnosti</cust_tab_options>
+    <cust_tab_toolbar_alignment>Zarovnání panelu nástrojů</cust_tab_toolbar_alignment>
     <cust_tab_toolbars>Nástrojové lišty</cust_tab_toolbars>
     <mdisysmenu_close>Zavřít</mdisysmenu_close>
     <mdisysmenu_maximize>Maximalizovat</mdisysmenu_maximize>
@@ -1748,6 +2094,7 @@
     <StiZipCode>Tato komponenta se používá pro výstup zip kódu.</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
+    <ActiveRelation>Nastaví prioritní vztah pro propojení dvou tabulek. Používá se v Transformaci dat a v dashboardech. V každém datovém zdroji může být aktivní pouze jeden vztah.</ActiveRelation>
     <Align>Změnit umístění vybraných komponent.</Align>
     <AlignBottom>Zarovnat obsah komponenty dolů.</AlignBottom>
     <AlignCenter>Zarovnat obsah komponenty na střed.</AlignCenter>
@@ -1780,9 +2127,20 @@
     <CenterVertically>Povolit zarovnání komponenty vertikálně k okrajům kontejneru, kde je umístěn.</CenterVertically>
     <Close>Zavřít návrh reportu.</Close>
     <Columns>Rozdělit stránku do sloupců.</Columns>
+    <CompilationAccess1>Tento dokument používá proces kompilace. Pokud pochází z důvěryhodného zdroje, můžete pro přístup k němu kliknout na tlačítko „Otevřít“.</CompilationAccess1>
+    <CompilationAccess2>Pokud si nejste jisti zdrojem dokumentu, ale přesto si jej chcete prohlédnout, můžete kliknout na tlačítko „Otevřít v bezpečném režimu“. V tomto případě se místo kompilace použije interpretace, která umožňuje dokument bezpečně spustit.</CompilationAccess2>
+    <CompilationAccess3>Tento dokument používá proces kompilace a může být nebezpečný. Nelze jej otevřít.</CompilationAccess3>
+    <CompilationAccessAllow>Povolit otevírání dokumentů s kompilací bez jakýchkoli varování nebo omezení.</CompilationAccessAllow>
+    <CompilationAccessAsk>Pokud dokument používá proces kompilace, zobrazí se okno s varováním a předdefinovanými akcemi.</CompilationAccessAsk>
+    <CompilationAccessDeny>Zakázat otevírání jakéhokoli dokumentu, který používá proces kompilace. Zobrazí se speciální okno.</CompilationAccessDeny>
+    <CompilationAccessForceInterpretation>Dokumenty s kompilací se otevřou bez jakéhokoli dotazu, ale budou automaticky převedeny do režimu interpretace, který nepoužívá proces kompilace.</CompilationAccessForceInterpretation>
+    <CompilationModeEnabling>Přepínáte do režimu kompilace. Tento režim umožňuje spouštět různý kód, který někdy může být škodlivý. Používejte prosím tento režim pouze v případě, že rozumíte všem rizikům a souhlasíte s nimi. Pokračujte kliknutím na tlačítko {0}.</CompilationModeEnabling>
     <ComponentSize>Změnit velikost vybraných komponent.</ComponentSize>
+    <ComponentsMenu>Otevře nabídku Komponenty obsahující nepoužité prvky dashboardu na mobilní ploše.</ComponentsMenu>
+    <CopyStyle>Kopírovat styl</CopyStyle>
     <CopyToClipboard>Kopírovat do schránky</CopyToClipboard>
     <CurrencySymbol>Vybrat symbol měny.</CurrencySymbol>
+    <DashboardNew>Vytvořit nový dashboard.</DashboardNew>
     <DataStore>Zobrazit data registrovaná v reportu.</DataStore>
     <DateTimeFormat>Vybrat formát datumu a času pro vybrané komponenty.</DateTimeFormat>
     <DockingPanels>Nastavení panelů.</DockingPanels>
@@ -1792,6 +2150,8 @@
     <DockStyleNone>Zrušit ukotvení vybraných komponent.</DockStyleNone>
     <DockStyleRight>Ukotvit vybrané komponenty doprava.</DockStyleRight>
     <DockStyleTop>Ukotvit vybrané komponenty nahoru.</DockStyleTop>
+    <EventsAccess1>Tento dokument používá události. Pokud pochází z důvěryhodného zdroje, můžete pro přístup k němu kliknout na tlačítko „Otevřít“.</EventsAccess1>
+    <EventsAccess2>Pokud si nejste jisti zdrojem dokumentu, ale přesto si jej chcete prohlédnout, můžete kliknout na tlačítko „Otevřít v bezpečném režimu“. V tomto případě budou události ignorovány a nebudou spuštěny.</EventsAccess2>
     <FontGrow>Zvětšit velikost písma.</FontGrow>
     <FontName>Textový font.</FontName>
     <FontNameWatermark>Font textu vodoznaku.</FontNameWatermark>
@@ -1802,6 +2162,7 @@
     <FontStyleBoldWatermark>Označit text vodoznaku tučně.</FontStyleBoldWatermark>
     <FontStyleItalic>Zobrazit text kurzívou.</FontStyleItalic>
     <FontStyleItalicWatermark>Zobrazit text vodoznaku kurzívou.</FontStyleItalicWatermark>
+    <FontStyleStrikeout>Přeškrtne text.</FontStyleStrikeout>
     <FontStyleUnderline>Podtrhnout text.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Podtrhnout text vodoznaku.</FontStyleUnderlineWatermark>
     <FormatBoolean>Tento formát se používá pro formátování hodnot typu boolean.</FormatBoolean>
@@ -1816,6 +2177,8 @@
     <GridMode>Zobrazit mřížku čárkovaně nebo tečkovaně.</GridMode>
     <ImageAlignment>Vložit obrázek s vodoznakem na stránku.</ImageAlignment>
     <ImageTransparency>Změnit průhlednost obrázku vodoznaku.</ImageTransparency>
+    <Interaction>Ovládá interakci vybraných komponent.</Interaction>
+    <LineSpacing>Zvolte, kolik místa se zobrazí mezi řádky textu nebo mezi odstavci.</LineSpacing>
     <Link>Propojit komponentu s aktuálním kontejnerem.</Link>
     <LoadImage>Načíst obrázek vodoznaku ze souboru.</LoadImage>
     <Lock>Zamknout komponentu. Komponentu nelze přesunout nebo jí změnit velikost.</Lock>
@@ -1830,6 +2193,7 @@
     <menuEditCut>Vyjmout vybrané položky z reportu a vložit je do schránky.</menuEditCut>
     <menuEditDelete>Smazat vybrané položky.</menuEditDelete>
     <menuEditPaste>Vložit obsah schránky do reportu.</menuEditPaste>
+    <menuExportSettings>Otevře editor Nastavení exportu pro aktuální report nebo dashboard. Nastavení se použije pouze při exportu aktuálního reportu nebo dashboardu.</menuExportSettings>
     <menuFAQPage>Přejít na webovou stránku s často kladenými dotazy.</menuFAQPage>
     <menuGlobalizationStrings>Zobrazit editor globálních řetězců pro aktuální report.</menuGlobalizationStrings>
     <menuHelpAboutProgramm>Získat informace o verzi generátoru reportu a verzi .Net Frameworku.</menuHelpAboutProgramm>
@@ -1851,19 +2215,28 @@
     <menuViewShowHeaders>Zobrazit hlavičky oddílů.</menuViewShowHeaders>
     <menuViewShowOrder>Zobrazit pořadí položek na stránce.</menuViewShowOrder>
     <menuViewShowRulers>Zobrazit pravítka používaná k měření a zarovnávání objektů na stránce.</menuViewShowRulers>
+    <menuViewShowSmartGuides>Zobrazí inteligentní vodítka pro umístění komponent vůči sobě navzájem.</menuViewShowSmartGuides>
     <MoveBackward>Přesunout komponentu o úroveň nahoru v pořadí vložení na stránku.</MoveBackward>
     <MoveForward>Přesunout komponentu o úroveň dolu v pořadí vložení na stránku.</MoveForward>
+    <NotPossibleEnableCompilationMode>Pro report nelze povolit režim kompilace. Je to zakázáno možností „Přístup ke kompilaci“ v nastavení designeru.</NotPossibleEnableCompilationMode>
     <Orientation>Přepnout stránky mezi na výšku a na šířku.</Orientation>
     <PageDelete>Smazat aktuální stránku z reportu.</PageDelete>
     <PageNew>Vytvořit novou stránku.</PageNew>
     <PageSetup>Zobrazit dialog nastavení stránky.</PageSetup>
     <PageSize>Volba velikosti papíru pro aktuální stránku reportu.</PageSize>
     <PagesManager>Spustit manažer stránek.</PagesManager>
+    <PressF1>Stiskněte F1 pro více podrobností</PressF1>
+    <PropertiesButton>Aktivuje panel Vlastnosti s vlastnostmi šablony reportu.</PropertiesButton>
     <Redo>Znovu provést předchozí zrušenou změnu v reportu.</Redo>
+    <RemoveMobileSurfaceButton>Odstraní mobilní plochu z aktuálního dashboardu.</RemoveMobileSurfaceButton>
     <ReportNew>Vytvořit nový report.</ReportNew>
     <ReportOpen>Otevřít report v designeru.</ReportOpen>
     <ReportPreview>Náhled editovaného reportu v prohlížeči.</ReportPreview>
     <ReportSave>Uložit aktuálně editovaný report.</ReportSave>
+    <ScriptEvalAccess1>Tento dokument používá Script Eval. Pokud pochází z důvěryhodného zdroje, můžete pro přístup k němu kliknout na tlačítko „Otevřít“.</ScriptEvalAccess1>
+    <ScriptEvalAccess2>Pokud si nejste jisti zdrojem dokumentu, ale přesto si jej chcete prohlédnout, můžete kliknout na tlačítko „Otevřít v bezpečném režimu“. V tomto případě bude Script Eval ignorován a nebude spuštěn.</ScriptEvalAccess2>
+    <ScriptSecurityFullAccess>Plný přístup ke skriptům (bez omezení, potenciálně nebezpečné).</ScriptSecurityFullAccess>
+    <ScriptSecuritySafeMode>Bezpečný přístup ke skriptům (omezené možnosti kvůli zabezpečení).</ScriptSecuritySafeMode>
     <SelectAll>Vybrat všechny komponenty na aktuální stránce.</SelectAll>
     <SelectUILanguage>Výběr jazyka UI.</SelectUILanguage>
     <SendToBack>Přesunout vybranou komponentu do pozadí vzhledem k ostatním komponentám.</SendToBack>
@@ -1872,7 +2245,9 @@
     <ShowBehind>Zobrazit text vodoznaku za komponentami.</ShowBehind>
     <ShowImageBehind>Vložit obrázek vodoznaku za všechny komponenty na stránce.</ShowImageBehind>
     <ShowToolbox>Zobrazit panel nástrojů.</ShowToolbox>
+    <StimulsoftHelp>Nápověda Stimulsoft</StimulsoftHelp>
     <StyleDesigner>Spustit designer stylu.</StyleDesigner>
+    <TellMeMore>Více informací</TellMeMore>
     <Text>Vodnoznak textu.</Text>
     <TextBrush>Změnit barvu textu.</TextBrush>
     <TextBrushWatermark>Změnit barvu textu vodoznaku.</TextBrushWatermark>
@@ -1880,6 +2255,8 @@
     <TextFormat>Vybrat formátování hodnot.</TextFormat>
     <ToolbarStyle>Nastavit zvolený styl všem vybraným komponentám.</ToolbarStyle>
     <Undo>Vrátit poslední změnu reportu.</Undo>
+    <ViewModeDesktopButton>Aktivovat desktopovou plochu.</ViewModeDesktopButton>
+    <ViewModeMobileButton>Aktivovat mobilní plochu.</ViewModeMobileButton>
     <WordWrap>Zalomit text podle komponenty.</WordWrap>
     <Zoom>Určit level zvětšení položky.</Zoom>
   </HelpDesigner>
@@ -2002,14 +2379,26 @@
     <ZoomTwoPages>Změnit velikost reportu pro zobrazení dvou stránek v okně.</ZoomTwoPages>
     <ZoomTxt>Velikost (měřítko) reportu: X – změnit vodorovné měřítko, Y – změnit svislé měřítko.</ZoomTxt>
   </HelpViewer>
+  <Interface>
+    <Mouse>Myš</Mouse>
+    <MouseDescription>Optimalizováno pro použití s myší</MouseDescription>
+    <Touch>Dotyk</Touch>
+    <TouchDescription>Optimalizováno pro použití s dotykovým ovládáním</TouchDescription>
+  </Interface>
   <MainMenu>
     <menuCheckIssues>Zkontrolovat problémová místa</menuCheckIssues>
     <menuContextClone>Klonovat...</menuContextClone>
     <menuContextDesign>Upravit...</menuContextDesign>
     <menuContextTextFormat>Formát textu...</menuContextTextFormat>
+    <menuConvertTo>Převést na {0}</menuConvertTo>
+    <menuConvertToCheckBox>Převést na Zaškrtávací políčko</menuConvertToCheckBox>
+    <menuConvertToImage>Převést na Obrázek</menuConvertToImage>
+    <MenuConvertToRichText>Převést na Rich text</MenuConvertToRichText>
+    <menuConvertToText>Převést na Text</menuConvertToText>
     <menuDeleteColumn>Smazat sloupec</menuDeleteColumn>
     <menuDeleteRow>Smazat řádek</menuDeleteRow>
     <menuEdit>Ú&amp;pravy</menuEdit>
+    <menuEditBusinessObjectFromDataSetNew>Nový Business Object z DataSet...</menuEditBusinessObjectFromDataSetNew>
     <menuEditBusinessObjectNew>Nový Business object...</menuEditBusinessObjectNew>
     <menuEditCalcColumnNew>Nový počítaný sloupec...</menuEditCalcColumnNew>
     <menuEditCantRedo>Nelze obnovit</menuEditCantRedo>
@@ -2023,25 +2412,35 @@
     <menuEditDataParameterNew>Nový parametr...</menuEditDataParameterNew>
     <menuEditDataSourceNew>Nový datový zdroj...</menuEditDataSourceNew>
     <menuEditDataSourcesNew>Nové datové zdroje...</menuEditDataSourcesNew>
+    <menuEditDataTransformationNew>Nová transformace dat...</menuEditDataTransformationNew>
     <menuEditDelete>&amp;Smazat</menuEditDelete>
     <menuEditEdit>Upravit</menuEditEdit>
+    <menuEditEditInDesigner>Upravit v návrháři</menuEditEditInDesigner>
+    <menuEditFunctionNew>Nová funkce...</menuEditFunctionNew>
     <menuEditImportRelations>Importovat závislosti</menuEditImportRelations>
     <menuEditPaste>V&amp;ložit</menuEditPaste>
     <menuEditRedo>&amp;Obnovit</menuEditRedo>
     <menuEditRedoText>&amp;Znovu {0}</menuEditRedoText>
     <menuEditRelationNew>Nová závislost...</menuEditRelationNew>
     <menuEditRemoveUnused>Odstranit nepoužité</menuEditRemoveUnused>
+    <menuEditResourceNew>Nový zdroj...</menuEditResourceNew>
     <menuEditSelectAll>Vybrat &amp;vše</menuEditSelectAll>
     <menuEditSynchronize>Synchronizovat</menuEditSynchronize>
     <menuEditUndo>&amp;Zpět</menuEditUndo>
     <menuEditUndoText>&amp;Zpět {0}</menuEditUndoText>
     <menuEditVariableNew>Nová proměnná...</menuEditVariableNew>
     <menuEditViewData>Zobrazit data...</menuEditViewData>
+    <menuEmbedAllDataToResources>Vložit všechna data do zdrojů</menuEmbedAllDataToResources>
     <menuFile>&amp;Soubor</menuFile>
     <menuFileClose>&amp;Zavřít</menuFileClose>
+    <menuFileDashboardDelete>Smazat dashboard</menuFileDashboardDelete>
+    <menuFileDashboardNew>Nový dashboard</menuFileDashboardNew>
+    <menuFileDashboardOpen>&amp;Otevřít dashboard...</menuFileDashboardOpen>
+    <menuFileDashboardSaveAs>Uložit dashboard &amp;jako...</menuFileDashboardSaveAs>
     <menuFileExit>&amp;Ukončit</menuFileExit>
     <menuFileExportXMLSchema>Exportovat XML schéma</menuFileExportXMLSchema>
     <menuFileFormNew>Nový formulář</menuFileFormNew>
+    <menuFileFormOpen>Otevřít formulář</menuFileFormOpen>
     <menuFileImportXMLSchema>Importovat XML schéma</menuFileImportXMLSchema>
     <menuFileMerge>Sloučit</menuFileMerge>
     <menuFileMergeXMLSchema>Sloučit XML schéma</menuFileMergeXMLSchema>
@@ -2065,18 +2464,26 @@
     <menuFileReportWizardNew>Nový report pomocí &amp;průvodce...</menuFileReportWizardNew>
     <menuFileSave>&amp;Uložit</menuFileSave>
     <menuFileSaveAs>Uložit jako</menuFileSaveAs>
+    <menuFileScreenNew>Nová obrazovka</menuFileScreenNew>
     <menuHelp>Nápo&amp;věda</menuHelp>
     <menuHelpAboutProgramm>&amp;O aplikaci</menuHelpAboutProgramm>
     <menuHelpContents>O&amp;bsah</menuHelpContents>
+    <menuHelpDemos>Dema</menuHelpDemos>
+    <menuHelpDocumentation>Dokumentace</menuHelpDocumentation>
     <menuHelpFAQPage>Stránka FAQ</menuHelpFAQPage>
+    <menuHelpForum>Fórum</menuHelpForum>
     <menuHelpHowToRegister>Jak se registrovat</menuHelpHowToRegister>
     <menuHelpProductHomePage>Domovská stránka</menuHelpProductHomePage>
+    <menuHelpSamples>Příklady</menuHelpSamples>
     <menuHelpSupport>&amp;Podpora</menuHelpSupport>
+    <menuHelpTrainingCourses>Školicí kurzy</menuHelpTrainingCourses>
+    <menuHelpVideos>Videa</menuHelpVideos>
     <menuInsertColumnToLeft>Vložit sloupec vlevo</menuInsertColumnToLeft>
     <menuInsertColumnToRight>Vložit sloupec vpravo</menuInsertColumnToRight>
     <menuInsertRowAbove>Vložit řádek nahoru</menuInsertRowAbove>
     <menuInsertRowBelow>Vložit řádek dolů</menuInsertRowBelow>
     <menuJoinCells>Spojit buňky</menuJoinCells>
+    <menuMakeThisRelationActive>Nastavit tento vztah jako aktivní</menuMakeThisRelationActive>
     <menuSelectColumn>Vybrat sloupec</menuSelectColumn>
     <menuSelectRow>Vybrat řádek</menuSelectRow>
     <menuTable>Tabulka</menuTable>
@@ -2105,12 +2512,40 @@
     <menuViewQuickInfoShowFieldsOnly>Zobrazit pouze pole</menuViewQuickInfoShowFieldsOnly>
     <menuViewShowGrid>Zobrazit mřížku</menuViewShowGrid>
     <menuViewShowHeaders>Zobrazit hlavičky</menuViewShowHeaders>
+    <menuViewShowInsertTab>Zobrazit kartu 'Vložit'</menuViewShowInsertTab>
     <menuViewShowOrder>Zobrazit pořadí</menuViewShowOrder>
     <menuViewShowRulers>Zobrazit pravítka</menuViewShowRulers>
+    <menuViewShowToolbox>Zobrazit panel nástrojů</menuViewShowToolbox>
     <menuViewToolbars>Panely nástrojů</menuViewToolbars>
   </MainMenu>
+  <Map>
+    <LinkDataForm>Propojit data</LinkDataForm>
+    <MapEditorForm>Editor map</MapEditorForm>
+  </Map>
+  <MathFormula>
+    <Alphabets>Abecedy</Alphabets>
+    <Arrows>Šipky</Arrows>
+    <Formulas>Vzorce</Formulas>
+    <Maths>Matematika</Maths>
+    <Operators>Operátory</Operators>
+  </MathFormula>
   <Messages>
+    <ChangeRequestTimeout>Časový limit požadavků pro SQL dotazy překračuje časový limit požadavků návrháře reportů. Nastavte časový limit požadavků komponenty návrháře na hodnotu nejméně {0} sekund.</ChangeRequestTimeout>
+    <DatabaseTypeChangeWarning>Buďte opatrní! Tato funkce převede datový zdroj na {0}. Pro úspěšné získání dat se musí shodovat všechny názvy tabulek a sloupců. Dotazy nebudou převedeny. Chcete pokračovat?</DatabaseTypeChangeWarning>
+    <DoNotShowAgain>Znovu nezobrazovat</DoNotShowAgain>
+    <LatexFormat>Formát LaTeX se používá k zobrazení matematických vzorců.</LatexFormat>
+    <MessageTimeOutExpired>Vypršel časový limit příkazu!</MessageTimeOutExpired>
+    <MustBeFile>Musí se jednat o soubor {0}.</MustBeFile>
+    <RenderingWillOccurInTheInterpretationMode>Při zobrazení sdíleného reportu bude jeho generování probíhat v režimu interpretace!</RenderingWillOccurInTheInterpretationMode>
+    <ResourceCannotBeDeleted>Zdroj "{0}" nelze smazat, protože je použit v reportu!</ResourceCannotBeDeleted>
+    <ShareURLOfTheItemHasBeenUpdated>URL adresa pro sdílení položky byla aktualizována!</ShareURLOfTheItemHasBeenUpdated>
+    <ShareYourReportYouShouldSave>Chcete-li sdílet svůj report, musíte jej uložit do Stimulsoft Cloud!</ShareYourReportYouShouldSave>
+    <SwitchingBetweenModes>Přepínání mezi režimy způsobí ztrátu změn. Chcete pokračovat?</SwitchingBetweenModes>
+    <SwitchParametersOrientation>Změňte hodnotu vlastnosti reportu 'ParametersOrientation' na '{0}', aby se tato kategorie zobrazila na panelu parametrů.</SwitchParametersOrientation>
     <TextRegistrationSuccessfully>Zbývá poslední krok k dokončení registrace! E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší registrace. Pro dokončení registrace prosím klikněte na odkaz z e-mailu, který jste obdrželi.</TextRegistrationSuccessfully>
+    <ThisFieldIsNotSpecified>Toto pole není vyplněno!</ThisFieldIsNotSpecified>
+    <ThisFunctionEmbedsAllReportDataToTheReport>Tato funkce vloží veškerá data reportu do zdrojů reportu a učiní váš report samostatným. Buďte opatrní! Veškerá nastavení dat budou změněna a po této akci je nelze obnovit. Nejprve si prosím vytvořte záložní kopii reportu.{0}Jste si jisti?</ThisFunctionEmbedsAllReportDataToTheReport>
+    <YouNeedToLoginFirstToStartUsingTheSoftware>Chcete-li začít používat software, musíte se nejprve přihlásit. Pokud přihlašovací formulář zavřete, aplikace se ukončí.</YouNeedToLoginFirstToStartUsingTheSoftware>
   </Messages>
   <Notices>
     <AccessDenied>Přístup zamítnut!</AccessDenied>
@@ -2299,6 +2734,30 @@
     <YourTrialWillExpire>Platnost vaší zkušební verze vyprší za {0} dní.</YourTrialWillExpire>
     <YouUsingTrialVersion>Používáte zkušební verzi!</YouUsingTrialVersion>
   </Notices>
+  <NuGet>
+    <AlreadyDownloaded>Již staženo</AlreadyDownloaded>
+    <AssemblyLoadedSuccessfully>Sestavení bylo úspěšně načteno.</AssemblyLoadedSuccessfully>
+    <AssemblyNotFound>Nelze najít sestavení {0} pro použití připojení {1}!</AssemblyNotFound>
+    <Author>Autor</Author>
+    <Dependencies>Závislosti:</Dependencies>
+    <Download>Stáhnout</Download>
+    <DownloadAll>Stáhnout vše</DownloadAll>
+    <DownloadAndInstall>Stáhnout a nainstalovat</DownloadAndInstall>
+    <DownloadDataAdapter>Stáhnout datový adaptér</DownloadDataAdapter>
+    <Downloads>Stažení:</Downloads>
+    <IAccept>Souhlasím</IAccept>
+    <IDecline>Nesouhlasím</IDecline>
+    <LicenceFormDesc>Následující balíček vyžaduje, abyste před instalací přijali jeho licenční podmínky.</LicenceFormDesc>
+    <LicenceFormDesc1>Kliknutím na tlačítko "Souhlasím" vyjadřujete souhlas s licenčními podmínkami výše uvedeného balíčku. Pokud s licenčními podmínkami nesouhlasíte, klikněte na tlačítko "Nesouhlasím".</LicenceFormDesc1>
+    <LicenceFormTitle>Přijetí licence</LicenceFormTitle>
+    <License>Licence:</License>
+    <ProjectUrl>URL projektu:</ProjectUrl>
+    <ReportAbuse>Nahlásit zneužití:</ReportAbuse>
+    <RetrievingInformation>Načítání informací...</RetrievingInformation>
+    <Tags>Značky:</Tags>
+    <Title>Datový adaptér z NuGet</Title>
+    <ViewLicense>Zobrazit licenci</ViewLicense>
+  </NuGet>
   <Panels>
     <Dictionary>Slovník</Dictionary>
     <Messages>Zprávy</Messages>
@@ -2359,6 +2818,9 @@
     <MoveLeftFreeSpace>Přesune komponentu k levé části volného místa a zvětší její výšku na výšku volného místa.</MoveLeftFreeSpace>
     <MoveRightFreeSpace>Přesune komponentu k pravé části volného místa a zvětší její výšku na výšku volného místa.</MoveRightFreeSpace>
   </PlacementComponent>
+  <PromptForm>
+    <CacheLoginData>Uložit přihlašovací údaje do mezipaměti pro aktuální relaci</CacheLoginData>
+  </PromptForm>
   <PropertyCategory>
     <AppearanceCategory>Vzhled</AppearanceCategory>
     <AreaCategory>Oblast</AreaCategory>
@@ -2475,6 +2937,7 @@
     <Brown>Hnědá</Brown>
     <BurlyWood>Dřevěná</BurlyWood>
     <CadetBlue>Šedomodrá</CadetBlue>
+    <Carmine>Karmínová</Carmine>
     <Chartreuse>Zelenožlutá</Chartreuse>
     <Chocolate>Čokoládová</Chocolate>
     <Coral>Korálová</Coral>
@@ -2596,6 +3059,7 @@
     <Tomato>Rajčatová</Tomato>
     <Transparent>Průhledná</Transparent>
     <Turquoise>Tyrkysová</Turquoise>
+    <VeryDarkGray>Velmi tmavě šedá</VeryDarkGray>
     <Violet>Fialková</Violet>
     <Wheat>Pšenice</Wheat>
     <White>Bílá</White>
@@ -3293,14 +3757,19 @@
     <DisconnectingEvent>Odpojování</DisconnectingEvent>
     <DoubleClickEvent>Dvojklik</DoubleClickEvent>
     <EndRenderEvent>Po zpracování</EndRenderEvent>
+    <EndValueChangedEvent>Koncová hodnota změněna</EndValueChangedEvent>
     <EnterEvent>Vstup</EnterEvent>
     <ExportedEvent>Exportovaný</ExportedEvent>
     <ExportingEvent>Exportování</ExportingEvent>
+    <FillParametersEvent>Parametry výplně</FillParametersEvent>
     <GetArgumentEvent>Získat argument</GetArgumentEvent>
+    <GetBarCodeEvent>Získat čárový kód</GetBarCodeEvent>
     <GetBookmarkEvent>Zachytit záložku</GetBookmarkEvent>
+    <GetCheckedEvent>Získat zaškrtnutí</GetCheckedEvent>
     <GetCollapsedEvent>Získat sbalené</GetCollapsedEvent>
     <GetCrossValueEvent>Získat křížovou hodnotu</GetCrossValueEvent>
     <GetCutPieListEvent>Získat seznam vysunutých výsečí</GetCutPieListEvent>
+    <GetDataUrlEvent>Získat DataUrl</GetDataUrlEvent>
     <GetDisplayCrossValueEvent>Získat zobrazenou křížovou hodnotu</GetDisplayCrossValueEvent>
     <GetDrillDownReportEvent>Získat detailní report</GetDrillDownReportEvent>
     <GetExcelSheetEvent>Získat list Excelu</GetExcelSheetEvent>
@@ -3316,6 +3785,7 @@
     <GetListOfValuesEvent>Získat seznam hodnot</GetListOfValuesEvent>
     <GetListOfWeights>Získat seznam vah</GetListOfWeights>
     <GetListOfWeightsEvent>Získat seznam vah</GetListOfWeightsEvent>
+    <GetPointerEvent>Získat ukazatel</GetPointerEvent>
     <GetSummaryExpressionEvent>Získat shrnutí</GetSummaryExpressionEvent>
     <GetTagEvent>Zachytit tag</GetTagEvent>
     <GetTitleEvent>Získat název</GetTitleEvent>
@@ -3336,8 +3806,11 @@
     <PrintingEvent>Tisknutý</PrintingEvent>
     <ProcessCellEvent>Zpracovat buňku</ProcessCellEvent>
     <ProcessChartEvent>Zpracovat graf</ProcessChartEvent>
+    <RefreshingEvent>Aktualizace</RefreshingEvent>
     <RenderingEvent>Zpracování</RenderingEvent>
+    <ReportCacheProcessingEvent>Zpracování mezipaměti reportu</ReportCacheProcessingEvent>
     <SelectedIndexChangedEvent>Změna vybraného indexu</SelectedIndexChangedEvent>
+    <StartValueChangedEvent>Počáteční hodnota změněna</StartValueChangedEvent>
     <StateRestoreEvent>Obnovení stavu</StateRestoreEvent>
     <StateSaveEvent>Uložení stavu</StateSaveEvent>
     <ValueChangedEvent>Změna hodnoty</ValueChangedEvent>
@@ -3392,6 +3865,7 @@
     <Sphere>Sféra</Sphere>
     <Trellis>Pletivo</Trellis>
     <Vertical>Vertikální</Vertical>
+    <Wave>Vlna</Wave>
     <Weave>Tkanina</Weave>
     <WideDownwardDiagonal>Široká klesající diagonála</WideDownwardDiagonal>
     <WideUpwardDiagonal>Široká stoupající diagonála</WideUpwardDiagonal>
@@ -4597,6 +5071,7 @@
     <BadFromObjectExpression>Nekorektní FROM příkaz!</BadFromObjectExpression>
     <BadObjectName>Nekorektní jméno objektu!</BadObjectName>
     <BadSelectStatement>Nekorektní SELECT příkaz!</BadSelectStatement>
+    <Collections>Kolekce</Collections>
     <CreateLinksFromForeignKeys>Vytvořit odkazy z cizích klíčů</CreateLinksFromForeignKeys>
     <CriteriaAlias>Alias</CriteriaAlias>
     <CriteriaCriteria>Kritéria</CriteriaCriteria>
@@ -4659,6 +5134,8 @@
   </QueryBuilder>
   <Questions>
     <qnConfiguration>Zvolte prosím typ konfigurace panelu vlastností. Na typu vybrané konfigurace závisí počet zobrazených vlastností a jejich složitost pro vývojáře reportů. Typ konfigurace můžete kdykoliv změnit z kontextového menu panelu vlastností.</qnConfiguration>
+    <qnCopyCategory>Chcete zkopírovat všechny proměnné této kategorie?</qnCopyCategory>
+    <qnCovertColumnType>Změnili jste typ sloupce. Chcete pro tento datový zdroj povolit transformaci dat sloupce?</qnCovertColumnType>
     <qnDictionaryNew>Chcete vytvořit nový slovník?</qnDictionaryNew>
     <qnLanguageNew>Změnil(a) jste jazyk sestavy. Povede to k novému generování kódu sestavy. Jste si jistý(á), že chcete uložit nový jazyk?</qnLanguageNew>
     <qnPageDelete>Chcete smazat stránku?</qnPageDelete>
@@ -4666,12 +5143,43 @@
     <qnRemoveService>Chcete odstranit službu?</qnRemoveService>
     <qnRemoveServiceCategory>Chcete odstranit kategorii?</qnRemoveServiceCategory>
     <qnRemoveUnused>Chcete odstranit nepoužité?</qnRemoveUnused>
+    <qnReplace>Chcete nahradit stávající položku {0}?</qnReplace>
     <qnRestoreDefault>Obnovit výchozí?</qnRestoreDefault>
     <qnSaveChanges>Uložit změny v {0}?</qnSaveChanges>
     <qnSaveChangesToPreviewPage>Chcete uložit změny stránky?</qnSaveChangesToPreviewPage>
     <qnSynchronize>Synchronizovat obsah datového úložiště a obsah slovníku?</qnSynchronize>
     <qnSynchronizeServices>Synchronizovat služby?</qnSynchronizeServices>
   </Questions>
+  <RecentFiles>
+    <AddAPlace>Přidat místo</AddAPlace>
+    <AddAPlaceDesc>Můžete přidat umístění, abyste si usnadnili ukládání reportů do cloudu.</AddAPlaceDesc>
+    <ChangeFileType>Změnit typ souboru</ChangeFileType>
+    <ChooseALocation>Vybrat umístění</ChooseALocation>
+    <ClearUnpinnedItems>Vymazat nepřipnuté položky</ClearUnpinnedItems>
+    <CopyPathToClipboard>Kopírovat cestu do schránky</CopyPathToClipboard>
+    <DateModified>Datum úpravy</DateModified>
+    <Documents>Dokumenty</Documents>
+    <DoYouWantTo>Chcete:</DoYouWantTo>
+    <LastWeek>Minulý týden</LastWeek>
+    <LocalDisk>Místní disk ({0})</LocalDisk>
+    <MessageInvalidFolderName>Neplatný název složky.</MessageInvalidFolderName>
+    <MessageThatNameAlreadyExists>Tento název již existuje. Použijte prosím jiný název.</MessageThatNameAlreadyExists>
+    <MoreLocations>Další umístění →</MoreLocations>
+    <Older>Starší</Older>
+    <OtherLocations>Jiná umístění</OtherLocations>
+    <Personal>Osobní</Personal>
+    <Pinned>Připnuté</Pinned>
+    <PinToList>Připnout do seznamu</PinToList>
+    <PinToRecentList>Připnout do seznamu nedávných</PinToRecentList>
+    <RemoveFromList>Odebrat ze seznamu</RemoveFromList>
+    <ReplaceExistingFile>Nahradit stávající soubor.</ReplaceExistingFile>
+    <SaveChangesWithADifferentName>Uložit změny pod jiným názvem.</SaveChangesWithADifferentName>
+    <SaveThisFile>Uložit tento soubor</SaveThisFile>
+    <SelectToNavigateUpOneLevel>Vyberte pro přechod o úroveň výše</SelectToNavigateUpOneLevel>
+    <SetAsDefaultLocation>Nastavit jako výchozí umístění</SetAsDefaultLocation>
+    <ThisPC>Tento počítač</ThisPC>
+    <UnpinFromList>Odepnout ze seznamu</UnpinFromList>
+  </RecentFiles>
   <Report>
     <ActiveRelation>Aktivní relace</ActiveRelation>
     <Address>Adresa</Address>
@@ -4822,6 +5330,19 @@
     <WhenAnd>když {0} {1} a</WhenAnd>
     <WhenValueIs>když je hodnota</WhenValueIs>
   </Report>
+  <ReportInfo>
+    <CheckIssuesAdditionalDescription>Zkontrolovat chyby a najít nepřesnosti.</CheckIssuesAdditionalDescription>
+    <EncryptWithPassword>Zašifrovat heslem</EncryptWithPassword>
+    <EncryptWithPasswordAdditionalDescription>Nastavte heslo, abyste zabránili neoprávněné práci s reportem.</EncryptWithPasswordAdditionalDescription>
+    <EncryptWithPasswordDescription>Chránit report</EncryptWithPasswordDescription>
+    <Info>Informace</Info>
+    <ReportOptions>Možnosti reportu</ReportOptions>
+    <ReportOptionsAdditionalDescription>Nastavte základní informace a parametry v reportu.</ReportOptionsAdditionalDescription>
+  </ReportInfo>
+  <ReportOpen>
+    <Browse>Procházet</Browse>
+    <Import>Import</Import>
+  </ReportOpen>
   <Scheduler>
     <ActionRunReport>Spustit report</ActionRunReport>
     <AdvancedSettings>Rozšířené nastavení</AdvancedSettings>
@@ -4919,6 +5440,7 @@
     <Division>Dělení</Division>
     <Equal>Rovnost</Equal>
     <EquationShapes>Tvary rovnic</EquationShapes>
+    <Flowchart>Vývojový diagram</Flowchart>
     <FlowchartCard>Vývojový diagram: Karetní</FlowchartCard>
     <FlowchartCollate>Vývojový diagram: Porovnávací</FlowchartCollate>
     <FlowchartDecision>Vývojový diagram: Rozhodovací</FlowchartDecision>
@@ -4933,6 +5455,7 @@
     <Lines>Čáry</Lines>
     <Minus>Odečítání</Minus>
     <Multiply>Násobení</Multiply>
+    <Octagon>Osmiúhelník</Octagon>
     <Oval>Ovál</Oval>
     <Parallelogram>Rovnoběžník</Parallelogram>
     <Plus>Sčítání</Plus>
@@ -4949,6 +5472,37 @@
     <Triangle>Trojúhelník</Triangle>
     <VerticalLine>Svislá čára</VerticalLine>
   </Shapes>
+  <Signature>
+    <ClearSignature>Vymazat podpis</ClearSignature>
+    <DigitalSignatureEmptyWatermark>Místo pro digitální podpis v prohlížeči PDF</DigitalSignatureEmptyWatermark>
+    <InsertImage>Vložit obrázek</InsertImage>
+    <InsertText>Vložit text</InsertText>
+    <LoadSignature>Načíst podpis</LoadSignature>
+    <NoSavedItems>Žádné uložené položky</NoSavedItems>
+    <PdfDigitalSignatureTitle>Vyberte objekty, které chcete zobrazit v podpisu na souboru PDF.</PdfDigitalSignatureTitle>
+    <SaveSignature>Uložit podpis</SaveSignature>
+    <SignatureSavedSuccessfully>Podpis byl úspěšně uložen.</SignatureSavedSuccessfully>
+    <UseBrush>Použít štětec</UseBrush>
+  </Signature>
+  <StimulAI>
+    <AskStimulAI>Zeptat se Stimul AI</AskStimulAI>
+    <Assistant>Asistent</Assistant>
+    <ChangedWithAI>Změnit pomocí Stimul AI</ChangedWithAI>
+    <CheckExpressionSuccess>V zadaném výrazu nebyly nalezeny žádné problémy.</CheckExpressionSuccess>
+    <CheckQuery>Zkontrolovat dotaz</CheckQuery>
+    <CheckWithStimulAI>Zkontrolovat pomocí Stimul AI</CheckWithStimulAI>
+    <ClickToPreview>Kliknutím zobrazíte náhled</ClickToPreview>
+    <ConnectionStringExampleWithAI>Ukázka připojovacího řetězce pomocí Stimul AI</ConnectionStringExampleWithAI>
+    <ConnectionStringTesting>Testování připojovacího řetězce</ConnectionStringTesting>
+    <ExplainQuery>Vysvětlit dotaz</ExplainQuery>
+    <FixWithAI>Opravit pomocí Stimul AI</FixWithAI>
+    <GenerateNewQuery>Vygenerovat nový dotaz</GenerateNewQuery>
+    <OptimizeQuery>Optimalizovat dotaz</OptimizeQuery>
+    <QueryWithStimulAI>Dotaz pomocí Stimul AI</QueryWithStimulAI>
+    <Translate>Přeložit pomocí Stimul AI</Translate>
+    <Try>Vyzkoušet pomocí Stimul AI</Try>
+    <TryConvertScriptToBlockly>Zkuste převést předchozí skript {0} na skript {1}.</TryConvertScriptToBlockly>
+  </StimulAI>
   <SystemVariables>
     <Column>Vrací číslo aktuálního sloupce (začíná od 1).</Column>
     <GroupLine>Vrací číslo aktuální skupiny (začíná od 1).</GroupLine>
@@ -4960,6 +5514,8 @@
     <LineABC>Vrací aktuální písmeno řádku, analogicky k číslu řádku.</LineABC>
     <LineRoman>Vrací číslo aktuálního řádku v římských číslicích.</LineRoman>
     <LineThrough>Vrací číslo aktuálního řádku (začíná od 1). Při výpočtu proměnné jsou všechna seskupení ignorována a číslování začíná od začátku tisku.</LineThrough>
+    <PageCopyNumber>Vrátí číslo aktuální kopie stránky (začíná od 1).</PageCopyNumber>
+    <PageLine>Vrátí číslo aktuálního řádku na stránce (začíná od 1).</PageLine>
     <PageNofM>Vrací lokalizovaný text - "Stránka N z M", kde N je aktuální číslo stránky a M je hodnota proměnné TotalPageCount, celkový počet stránek sestavy.</PageNofM>
     <PageNofMThrough>Vrací lokalizovaný text - "Stránka N z M", kde N je aktuální číslo stránky a M je hodnota proměnné TotalPageCount, celkový počet stránek sestavy. Při výpočtu PageNofMThrough, všechny vlastnosti ResetPageNumber jsou ignorovány a číslování začíná od začátku sestavy.</PageNofMThrough>
     <PageNumber>Vrací číslo aktuální stránky (začíná od 1).</PageNumber>
@@ -5016,6 +5572,7 @@
     <FontSize>Velikost písma</FontSize>
     <FontStyleBold>Tučný styl písma</FontStyleBold>
     <FontStyleItalic>Skloněný styl písma</FontStyleItalic>
+    <FontStyleStrikeout>Řez písma: Přeškrtnutý</FontStyleStrikeout>
     <FontStyleUnderline>Podtržený styl písma</FontStyleUnderline>
     <Link>Odkaz</Link>
     <Lock>Zamknout</Lock>
@@ -5027,6 +5584,9 @@
     <MoveBackward>Posunout vzad</MoveBackward>
     <MoveForward>Posunout vpřed</MoveForward>
     <Order>Pořadí</Order>
+    <RibbonClassic>Klasický pás karet</RibbonClassic>
+    <RibbonLayout>Rozvržení pásu karet</RibbonLayout>
+    <RibbonSingleLine>Jednořádkový pás karet</RibbonSingleLine>
     <SendToBack>Přesunout dozadu</SendToBack>
     <Size>Velikost</Size>
     <StyleDesigner>Návrhář stylu</StyleDesigner>
@@ -5061,34 +5621,74 @@
     <TextEditor>Textový Editor</TextEditor>
     <title>Sada nástrojů</title>
   </Toolbox>
+  <UserFunctionEditor>
+    <ArgumentName>Název argumentu</ArgumentName>
+    <ArgumentType>Typ argumentu</ArgumentType>
+    <CheckScript>Zkontrolovat skript</CheckScript>
+    <ConvertScript>Převést skript</ConvertScript>
+    <CustomCategory>Vlastní kategorie</CustomCategory>
+    <EditCode>Upravit kód</EditCode>
+    <EditWithBlockly>Upravit pomocí Blockly</EditWithBlockly>
+    <ReturnType>Návratový typ</ReturnType>
+    <Script>Skript</Script>
+    <ScriptMode>Režim skriptu</ScriptMode>
+    <Title>Uživatelská funkce</Title>
+    <UserFunctionEdit>Upravit uživatelskou funkci</UserFunctionEdit>
+    <UserFunctionNew>Nová uživatelská funkce</UserFunctionNew>
+  </UserFunctionEditor>
+  <WelcomeScreen>
+    <AllDownloadsWillCanceled>Opravdu chcete zavřít toto okno? Všechna stahování budou zrušena.</AllDownloadsWillCanceled>
+    <Description>Vybrali jsme pro vás reporty, které jsou podle nás nejvhodnější pro rychlý začátek.</Description>
+    <GetStarted>Začít</GetStarted>
+    <GetStartedWithDashboards>Začněte s dashboardy</GetStartedWithDashboards>
+    <GetStartedWithReports>Začněte s reporty</GetStartedWithReports>
+    <MoreReports>Další reporty</MoreReports>
+    <ShowNextTime>Zobrazit '{0}' příště</ShowNextTime>
+    <Title>Vítejte v Stimulsoft Demo</Title>
+  </WelcomeScreen>
   <Wizards>
+    <AIGeneratedDashboard>Dashboard generovaný pomocí AI</AIGeneratedDashboard>
+    <AIGeneratedReport>Report generovaný pomocí AI</AIGeneratedReport>
+    <BlankDashboard>Prázdný dashboard</BlankDashboard>
+    <BlankForm>Prázdný formulář</BlankForm>
     <BlankReport>Prázdná sestava</BlankReport>
+    <BlankScreen>Prázdná obrazovka</BlankScreen>
     <ButtonBack>&lt; &amp;Zpět</ButtonBack>
     <ButtonCancel>Storno</ButtonCancel>
     <ButtonFinish>Do&amp;končit</ButtonFinish>
     <ButtonNext>&amp;Další &gt;</ButtonNext>
     <ColumnsOrder>Pořadí sloupců</ColumnsOrder>
+    <Company>Společnost</Company>
+    <CreateDataManually>Vytvořit data ručně</CreateDataManually>
     <Custom>Uživatelský</Custom>
     <DataRelation>Závislost</DataRelation>
     <DataSource>Datový zdroj</DataSource>
     <DataSources>Datové zdroje</DataSources>
     <DefaultThemes>Výchozí témata</DefaultThemes>
+    <EditUserSource>Upravit uživatelský zdroj</EditUserSource>
+    <Examples>Příklady</Examples>
     <Filters>Filtry</Filters>
     <FromReportTemplate>Ze šablony</FromReportTemplate>
+    <GenerateDataWithAI>Generovat data pomocí AI</GenerateDataWithAI>
+    <GetData>Získat data</GetData>
+    <groupCreateNewDashboard>Vytvořit nový dashboard</groupCreateNewDashboard>
     <groupCreateNewPageOrForm>Vytvořit novou stránku nebo formulář</groupCreateNewPageOrForm>
     <groupCreateNewReport>Vytvořit novou sestavu</groupCreateNewReport>
     <Groups>Skupiny</Groups>
     <groupTemplates>Šablony</groupTemplates>
     <groupWizards>Průvodci</groupWizards>
     <infoColumnsOrder>Uspořádejte sloupce v požadovaném pořadí.</infoColumnsOrder>
+    <infoCompanyInfo>Zadejte informace o vaší společnosti.</infoCompanyInfo>
     <infoDataSource>Vyberte jeden datový zdroj z dostupných.</infoDataSource>
     <infoDataSources>Vyberte datové zdroje z dostupných.</infoDataSources>
     <infoFilters>Filtr dat pro vaši sestavu</infoFilters>
     <infoGroups>Vyberte sloupce pro seskupení.</infoGroups>
     <infoLabelSettings>Nastavte parametry štítků.</infoLabelSettings>
+    <infoLanguages>Vyberte kulturu reportu.</infoLanguages>
     <infoLayout>Specifikujte rozvržení sestavy.</infoLayout>
     <infoRelation>Vyberte jednu datovou závislost z dostupných.</infoRelation>
     <infoSelectColumns>Vyberte sloupce, ze kterých budou zobrazeny informace.</infoSelectColumns>
+    <infoSelectTemplate>Vyberte vhodnou šablonu podle svých potřeb.</infoSelectTemplate>
     <infoSort>Nastavte třídění dat. Můžete třídit podle více sloupců.</infoSort>
     <infoThemes>Vyberte téma pro Vaši sestavu.</infoThemes>
     <infoTotals>Přidejte souhrnné informace pro sestavu.</infoTotals>
@@ -5108,20 +5708,29 @@
     <LabelVerticalGap>Vertikální mezera:</LabelVerticalGap>
     <LabelWidth>Šířka:</LabelWidth>
     <Layout>Rozvržení</Layout>
+    <Mapping>Mapování</Mapping>
     <MarkAll>Označit &amp;vše</MarkAll>
     <MasterDetailReport>Master-Detail sestava</MasterDetailReport>
+    <NewUserSource>Nový uživatelský zdroj</NewUserSource>
     <NoFunction>[Nic]</NoFunction>
     <OpenExistingReport>Otevřít existující sestavu</OpenExistingReport>
+    <OpenFrom>Otevřít z {0}</OpenFrom>
     <Preview>Náhled</Preview>
     <Reset>&amp;Zrušit výběr</Reset>
     <Results>Výsledky</Results>
+    <RunWizard>Spustit průvodce</RunWizard>
     <SelectColumns>Vybrat sloupce</SelectColumns>
+    <SelectTemplate>Šablona</SelectTemplate>
+    <SelectTypeOfLayout>Vyberte prosím typ rozvržení</SelectTypeOfLayout>
     <Sort>Třídění</Sort>
     <StandardReport>Standardní sestava</StandardReport>
+    <SuggestWithAI>Navrhnout pomocí AI</SuggestWithAI>
     <Themes>Témata</Themes>
     <title>Nová sestava</title>
     <Totals>Souhrny</Totals>
+    <UseDemoData>Použít demo data</UseDemoData>
     <UsingReportWizard>Použít průvodce sestavou</UsingReportWizard>
+    <YouHaveNotOpenedAnyReportRecently>V poslední době jste neotevřeli žádný report. Chcete-li vyhledat report, začněte kliknutím na Otevřít existující soubor.</YouHaveNotOpenedAnyReportRecently>
   </Wizards>
   <Zoom>
     <EmptyValue>Prázdná hodnota</EmptyValue>
