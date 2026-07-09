@@ -310,7 +310,7 @@
     <Save>Uložit</Save>
     <SaveAccountSettings>Uložit nastavení účtu</SaveAccountSettings>
     <SaveFile>Uložit soubor</SaveFile>
-    <ShowAllFiles>Uložit všechny soubory</ShowAllFiles>
+    <ShowAllFiles>Zobrazit všechny soubory</ShowAllFiles>
   </Cloud>
   <Components>
     <StiBarCode>Čárový kód</StiBarCode>
@@ -466,14 +466,14 @@
     <ShowLineNumbers>Zobrazit čísla řádků</ShowLineNumbers>
     <StopOutlining>Ne&amp;používat rozbalování</StopOutlining>
     <titleFind>Najít</titleFind>
-    <titleGotoLine>Přejít</titleGotoLine>
+    <titleGotoLine>Přejít na řádek</titleGotoLine>
     <titleReplace>Nahradit</titleReplace>
     <ToggleAllOutlining>Rozbalit / sbalit &amp;vše</ToggleAllOutlining>
     <ToggleOutliningExpansion>&amp;Zapnout rozbalování</ToggleOutliningExpansion>
     <UseRegularExpressions>Use &amp;Regular Expressions</UseRegularExpressions>
   </Editor>
   <Errors>
-    <ComponentIsNotRelease>Komponenta není uvolněná "{0}".</ComponentIsNotRelease>
+    <ComponentIsNotRelease>Komponenta neimplementuje "{0}".</ComponentIsNotRelease>
     <ContainerIsNotValidForComponent>Kontejner {0} není platný pro komponentu {1}.</ContainerIsNotValidForComponent>
     <DataNotFound>Data nenalezena.</DataNotFound>
     <Error>Chyba!</Error>
@@ -525,7 +525,7 @@
     <ExportPageBreaks>Export zalomení stránek</ExportPageBreaks>
     <ExportRtfTextAsImage>Exportovat Rich Text jako obrázek</ExportRtfTextAsImage>
     <ExportTypeBmpFile>BMP obrázek...</ExportTypeBmpFile>
-    <ExportTypeCalcFile>OpenOfficeDokument Calc soubor...</ExportTypeCalcFile>
+    <ExportTypeCalcFile>OpenDocument Calc soubor...</ExportTypeCalcFile>
     <ExportTypeCsvFile>CSV soubor...</ExportTypeCsvFile>
     <ExportTypeDbfFile>DBF soubor...</ExportTypeDbfFile>
     <ExportTypeDifFile>Data Interchange Formát (DIF) Soubor...</ExportTypeDifFile>
@@ -549,7 +549,7 @@
     <ExportTypeTiffFile>TIFF obrázek...</ExportTypeTiffFile>
     <ExportTypeTxtFile>Textový soubor...</ExportTypeTxtFile>
     <ExportTypeWord2007File>Microsoft Word soubor...</ExportTypeWord2007File>
-    <ExportTypeWriterFile>OpenOfficeDokument Writer soubor...</ExportTypeWriterFile>
+    <ExportTypeWriterFile>OpenDocument Writer soubor...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML soubor...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS soubor...</ExportTypeXpsFile>
     <GetCertificateFromCryptoUI>Získat certifikát z Crypto UI</GetCertificateFromCryptoUI>
@@ -601,7 +601,7 @@
     <AllImageFiles>Všechny soubory obrázků</AllImageFiles>
     <BitmapFiles>Bitmapové soubory</BitmapFiles>
     <BmpFiles>BMP obrázek (*.bmp)|*.bmp</BmpFiles>
-    <CalcFiles>OpenOfficeDokument Calc soubory (*.ods)|*.ods</CalcFiles>
+    <CalcFiles>OpenDocument Calc soubory (*.ods)|*.ods</CalcFiles>
     <CsvFiles>CSV soubory (*.csv)|*.csv</CsvFiles>
     <DataSetXmlData>DataSet XML data (*.xml)|*.xml</DataSetXmlData>
     <DataSetXmlSchema>DataSet XML schéma (*.xsd)|*.xsd</DataSetXmlSchema>
@@ -611,12 +611,12 @@
     <DllFiles>DLL soubory (*.dll)|*.dll</DllFiles>
     <DocumentFiles>Soubory dokumentu (*.mdc)|*.mdc</DocumentFiles>
     <EmfFiles>Metafile (*.emf)|*.emf</EmfFiles>
-    <EncryptedDocumentFiles>Šifrovací soubory dokumentu (*.mdx)|*.mdx</EncryptedDocumentFiles>
-    <EncryptedReportFiles>Šifrovací soubory reportu (*.mrx)|*.mrx</EncryptedReportFiles>
+    <EncryptedDocumentFiles>Šifrované soubory dokumentu (*.mdx)|*.mdx</EncryptedDocumentFiles>
+    <EncryptedReportFiles>Šifrované soubory reportu (*.mrx)|*.mrx</EncryptedReportFiles>
     <Excel2007Files>Excel 2007/2013 soubory (*.xlsx)|*.xlsx</Excel2007Files>
     <ExcelCsvAllFiles>Microsoft Excel soubory (*.xlsx;*.xls;*.csv)|*.xlsx;*.xls;*.csv</ExcelCsvAllFiles>
     <ExcelFiles>Excel soubory (*.xls)|*.xls</ExcelFiles>
-    <ExcelXmlFiles>Excel XML soubory (*.xls)|*.xls</ExcelXmlFiles>
+    <ExcelXmlFiles>Microsoft Excel XML soubory (*.xls)|*.xls</ExcelXmlFiles>
     <ExeFiles>EXE soubory (*.exe)|*.exe</ExeFiles>
     <GifFiles>GIF obrázek (*.gif)|*.gif</GifFiles>
     <HtmlFiles>HTML Soubory (*.html)|*.html</HtmlFiles>
@@ -643,7 +643,7 @@
     <TiffFiles>TIFF obrázek (*.tiff)|*.tiff</TiffFiles>
     <TxtFiles>Text (*.txt)|*.txt</TxtFiles>
     <Word2007Files>Word 2007-2016 soubory (*.docx)|*.docx</Word2007Files>
-    <WriterFiles>OpenOfficeDokument Writer soubory (*.odt)|*.odt</WriterFiles>
+    <WriterFiles>OpenDocument Writer soubory (*.odt)|*.odt</WriterFiles>
     <XmlFiles>XML soubory (*.xml)|*.xml</XmlFiles>
     <XpsFiles>XPS soubory (*.xps)|*.xps</XpsFiles>
   </FileFilters>
@@ -652,8 +652,8 @@
     <custom02>D</custom02>
     <custom03>f</custom03>
     <custom04>F</custom04>
-    <custom05>yy/MM/dd</custom05>
-    <custom06>yyyy/MM/dd</custom06>
+    <custom05>dd/MM/yy</custom05>
+    <custom06>dd/MM/yyyy</custom06>
     <custom07>[green]+0.00;[red]-0.00;[blue](0)</custom07>
     <custom08>G</custom08>
     <custom09>$0.00</custom09>
@@ -669,11 +669,11 @@
     <custom19>(###) ### - ####</custom19>
     <date01>*d</date01>
     <date02>*D</date02>
-    <date03>M.dd</date03>
-    <date04>yy.M.dd</date04>
-    <date05>yy.MM.dd</date05>
-    <date06>MMM.dd</date06>
-    <date07>yy.MMM.dd</date07>
+    <date03>dd.M</date03>
+    <date04>dd.M.yy</date04>
+    <date05>dd.MM.yy</date05>
+    <date06>dd.MMM</date06>
+    <date07>dd.MMM.yy</date07>
     <date08>yyyy, MMMM</date08>
     <date09>*f</date09>
     <date10>*F</date10>
@@ -828,7 +828,7 @@
     <DataSourceNew>Nový datový zdroj</DataSourceNew>
     <DataSourcesNew>Nové datové zdroje</DataSourcesNew>
     <Delete>Smazat</Delete>
-    <DesignTimeQueryText>Design textového dotazu</DesignTimeQueryText>
+    <DesignTimeQueryText>Text dotazu pro návrháře</DesignTimeQueryText>
     <DictionaryMerge>Sloučit Slovník...</DictionaryMerge>
     <DictionaryNew>Nový Slovník...</DictionaryNew>
     <DictionaryOpen>Otevřít Slovník...</DictionaryOpen>
@@ -880,9 +880,9 @@
     <GroupSeparator>Oddělovač skupin:</GroupSeparator>
     <GroupSize>Velikost skupiny:</GroupSize>
     <nameFalse>Nepravda</nameFalse>
-    <nameNo>Není</nameNo>
-    <nameOff>Vypnout</nameOff>
-    <nameOn>Zapnout</nameOn>
+    <nameNo>Ne</nameNo>
+    <nameOff>Vypnuto</nameOff>
+    <nameOn>Zapnuto</nameOn>
     <nameTrue>Pravda</nameTrue>
     <nameYes>Ano</nameYes>
     <NegativePattern>Formát záporného čísla:</NegativePattern>
@@ -943,16 +943,16 @@
     <labelInfoGrid>Jak je mřížka v reportu zobrazena a použita</labelInfoGrid>
     <labelInfoGui>Vyber mód pro GUI v report designeru</labelInfoGui>
     <labelInfoMain>Nastavení základních parametrů report designeru</labelInfoMain>
-    <labelInfoQuickInfo>Komponenta rychlé nápovědy na stránce</labelInfoQuickInfo>
+    <labelInfoQuickInfo>Rychlé informace komponent na stránce</labelInfoQuickInfo>
     <Main>Hlavní</Main>
     <MarkersStyle>Styl značek</MarkersStyle>
     <MarkersStyleCorners>Rohy</MarkersStyleCorners>
     <MarkersStyleDashedRectangle>Čárkovaný obrys</MarkersStyleDashedRectangle>
     <MarkersStyleNone>Žádný</MarkersStyleNone>
     <Minutes>{0} minut</Minutes>
-    <SaveReportEvery>Ulož kompletně report</SaveReportEvery>
+    <SaveReportEvery>Ukládat report každých:</SaveReportEvery>
     <SelectUILanguage>Vybrat jazyk rozhraní</SelectUILanguage>
-    <ShowDimensionLines>Ukaž ohraničení</ShowDimensionLines>
+    <ShowDimensionLines>Zobrazit rozměrové čáry</ShowDimensionLines>
     <title>Možnosti</title>
     <UseComponentColor>Použít barvu komponenty pro vyplnění</UseComponentColor>
     <UseLastFormat>Použít poslední formát</UseLastFormat>
@@ -995,7 +995,7 @@
     <Paper>Papír:</Paper>
     <RebuildReport>Přepočítat report</RebuildReport>
     <Right>Vpravo:</Right>
-    <ScaleContent>Poměr</ScaleContent>
+    <ScaleContent>Škálovat obsah</ScaleContent>
     <Size>Velikost:</Size>
     <title>Nastavení stránky</title>
     <Top>Nahoře:</Top>
@@ -1049,7 +1049,7 @@
     <pageExpression>Výraz</pageExpression>
     <pageSummary>Souhrn</pageSummary>
     <pageSystemVariable>Systémová proměnná</pageSystemVariable>
-    <RunningTotal>Celkový čas</RunningTotal>
+    <RunningTotal>Kumulativní součet</RunningTotal>
     <SummaryRunning>Průběžný součet</SummaryRunning>
     <SummaryRunningByColumn>Sloupec</SummaryRunningByColumn>
     <SummaryRunningByPage>Stránka</SummaryRunningByPage>
@@ -1069,7 +1069,7 @@
     <EventEditorForm>Editor událostí</EventEditorForm>
     <ExpressionEditorForm>Editor výrazů</ExpressionEditorForm>
     <GroupConditionForm>Skupinová podmínka</GroupConditionForm>
-    <InteractionDrillDownPageSelectForm>Výběr slučující stránky</InteractionDrillDownPageSelectForm>
+    <InteractionDrillDownPageSelectForm>Vybrat stránku pro Drill-Down</InteractionDrillDownPageSelectForm>
     <MasterComponentSelectForm>Vybrat Master komponentu</MasterComponentSelectForm>
     <PageAddForm>Přidat stránku</PageAddForm>
     <PageSizeForm>Velikost stránky</PageSizeForm>
@@ -1130,7 +1130,7 @@
     <ToolHand>Nástroj Ruka</ToolHand>
     <ToolSelect>Nástroj Výběr</ToolSelect>
     <VerScrollBar>Vertikální posuvník</VerScrollBar>
-    <ViewMode>Náhled</ViewMode>
+    <ViewMode>Režim zobrazení</ViewMode>
     <Zoom>Lupa</Zoom>
     <ZoomIn>Přiblížit</ZoomIn>
     <ZoomMultiplePages>Více stránek</ZoomMultiplePages>
@@ -1203,10 +1203,10 @@
     <cust_lbl_tlbs>Liš&amp;ty:</cust_lbl_tlbs>
     <cust_mnu_addremove>&amp;Přidat nebo odstranit tlačítko</cust_mnu_addremove>
     <cust_mnu_cust>Volitelné...</cust_mnu_cust>
-    <cust_mnu_reset>Resetovací lišta</cust_mnu_reset>
+    <cust_mnu_reset>Resetovat lištu</cust_mnu_reset>
     <cust_mnu_tooltip>Vlastnosti lišty</cust_mnu_tooltip>
     <cust_msg_delete>Opravdu chcete smazat &lt;barname&gt; lištu?</cust_msg_delete>
-    <cust_pm_begingroup>Uvozovací skupina</cust_pm_begingroup>
+    <cust_pm_begingroup>Začátek skupiny</cust_pm_begingroup>
     <cust_pm_delete>Smazat</cust_pm_delete>
     <cust_pm_name>Jméno:</cust_pm_name>
     <cust_pm_reset>Reset</cust_pm_reset>
@@ -1240,22 +1240,22 @@
     <StiBarCode>Tato komponenta zobrazuje v reportu čárový kód. Data čárového kódu jsou poslána objektu ve formátu řetězce. Řetězec může obsahovat jakékoliv znaky povolené pro zvolený graf, ale pouze ty, které jsou v něm zobrazitelné.</StiBarCode>
     <StiChart>Tato komponenta zobrazuje grafy v reportu. K dispozici je několik typů grafů. Např. sloupcový, čárový, kruhový, koláčový, spojnicový, plošný, Ganttův, bodový graf a jiné.</StiChart>
     <StiCheckBox>Tato komponenta zobrazuje v reportu zaškrtávací pole. Může obsahovat pouze hodnotu "zakázat" nebo "povolit".</StiCheckBox>
-    <StiChildBand>Oddíl, který je potomkem. Používá se pro výstup dvou rodičovských oddílů na jeden řádek.</StiChildBand>
+    <StiChildBand>Oddíl, který je potomkem. Používá se pro výstup dvou oddílů na jeden řádek dat.</StiChildBand>
     <StiClone>Tato komponenta klonuje části reportu do požadovaného reportu. Klonování může být aplikováno pouze na v rámci panelu.</StiClone>
     <StiColumnFooterBand>Tento oddíl se používá pro výpis zápatí sloupců. Oddíl ColumnFooter má každý sloupec jeden. Všechny komponenty, které jsou umístěny v tomto oddíle, budou mít výstup pod každým sloupcem.</StiColumnFooterBand>
     <StiColumnHeaderBand>Tento oddíl je použit pro hlavičku sloupce. Hlavička sloupce je použita pro výstup vždy jednou. Všechny komponenty, které jsou umístěny na oddílu, mají výstup nad každým sloupcem.</StiColumnHeaderBand>
     <StiContainer>Obdélníková oblast, kam mohou být další komponenty, včetně oddílů, vkládány. Při přesunutí kontejneru se komponenty v něm přesunou také. Kontejner může být vložen do oddílu nebo na stránku.</StiContainer>
     <StiCrossDataBand>Tento oddíl je spojen se zdrojem dat. Výpis provede tolikrát, kolik je počet řádků ve zdroji dat. Křížový oddíl je vypisován zleva doprava.</StiCrossDataBand>
-    <StiCrossFooterBand>Tento oddíl je určen pro výpis zápatí CrossData oddílu. Oddíl je výstup všech řádků Data bandu. Zápatí křížového oddílu je vypisováno zleva doprava.</StiCrossFooterBand>
+    <StiCrossFooterBand>Tento oddíl je určen pro výpis zápatí CrossData oddílu. Oddíl je vypsán jednou po všech řádcích datového oddílu. Zápatí křížového oddílu je vypisováno zleva doprava.</StiCrossFooterBand>
     <StiCrossGroupFooterBand>Tento oddíl slouží pro výstup zápatí skupiny. Nachází se pod CrossData oddílem. Každý CrossFooter patří do určitého CrossHeader oddílu. Křižový oddíl (cross header) je vypisován z leva doprava.</StiCrossGroupFooterBand>
     <StiCrossGroupHeaderBand>Tento oddíl je jedním základních sloužící pro report vytvořený seskupením, kde jsou použita CrossData. Bez tohoto oddílu nelze seskupení vytvořit. Komponenty pro zobrazení informací skupinou jsou v hlavičce skupiny. Informace mohou být název skupiny, datum, podmínky seskupení apod. Oddíl je výstup na začátku každé skupiny. Křižový oddíl (cross band) je vypisován zleva doprava.</StiCrossGroupHeaderBand>
     <StiCrossHeaderBand>Tento oddíl vytváří výstup hlaviček. Je používán v souvislosti s křížovým oddílem. Křižový oddíl (cross band) je vypisován zleva doprava.</StiCrossHeaderBand>
     <StiCrossTab>Cross-tab komponenta je používána pro strukturovanou reprezentaci dat jako tabulka.</StiCrossTab>
     <StiDataBand>Datový oddíl je propojen se zdrojovými daty a výstupem jsou řádky zdrojových dat.</StiDataBand>
     <StiEmptyBand>Tento oddíl se používá pro vyplnění bílých míst na konci stránky. Tento oddíl vyplňuje bílá místa na všech stránkách reportu.</StiEmptyBand>
-    <StiFooterBand>Tento oddíl se používá k výpisu souhrnu podle datumu oddílu. Je umístěn pod datovým oddílem a je vypisována jednou, a to po vypsání všech řádků ve výstupu datového oddílu.</StiFooterBand>
+    <StiFooterBand>Tento oddíl se používá k výpisu souhrnu datového oddílu. Je umístěn pod datovým oddílem a je vypsán jednou po vypsání všech řádků datového oddílu.</StiFooterBand>
     <StiGroupFooterBand>Oddíl zápatí skupiny (GroupFooter band) se používá pro výpis zápatí skupiny. Tento oddíl je umístěn za datový oddíl. Jedná se o datový oddíl, se kterým je svázána GroupHeader. Každý GroupFooter oddíl patří do specifikovaného GroupHeader oddílu. GroupFooter oddíl nebude vypsán bez GroupHeader oddílu.</StiGroupFooterBand>
-    <StiGroupHeaderBand>Tento oddíl je základním oddílem pro generování reportů bez použití seskupení. Komponenty pro zobrazení informací tímto oddílem jsou umístěny v hlavičce skupiny. Může to být název skupiny, datum, podmínka seskupení atd. Tento oddíl je vypisán na začátku každé skupiny.</StiGroupHeaderBand>
+    <StiGroupHeaderBand>Tento oddíl je základním oddílem pro generování reportů s použitím seskupení. Komponenty pro zobrazení informací tímto oddílem jsou umístěny v hlavičce skupiny. Může to být název skupiny, datum, podmínka seskupení atd. Tento oddíl je vypsán na začátku každé skupiny.</StiGroupHeaderBand>
     <StiHeaderBand>Tento oddíl se používá pro výpis hlaviček. Je používán s datovým oddílem.</StiHeaderBand>
     <StiHierarchicalBand>Tento oddíl je propojen se zdrojovými daty a vypisuje se tolikrát, kolik zdrojová data obsahují řádků. Výstup dat je ve formě stromu.</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Tato komponenta je používána pro výstup čáry.</StiHorizontalLinePrimitive>
@@ -1417,17 +1417,17 @@
   <HelpDialogs>
     <StiButtonControl>Představuje ovládací prvek tlačítka.</StiButtonControl>
     <StiCheckBoxControl>Představuje ovládací prvek příznaku.</StiCheckBoxControl>
-    <StiCheckedListBoxControl>Zobrazit seznam objektů ve kterém je pro každý prvek příznak zobrazen vlevo.</StiCheckedListBoxControl>
-    <StiComboBoxControl>Představuje rolovací menu, které je využívá typ a hodnotu v ovládání nebo volbu ze seznamu existujících možností.</StiComboBoxControl>
+    <StiCheckedListBoxControl>Zobrazuje objekt Seznam, ve kterém je pro každý prvek vlevo zobrazen příznak.</StiCheckedListBoxControl>
+    <StiComboBoxControl>Představuje rozbalovací seznam, který umožňuje buď zadat hodnotu přímo do ovládacího prvku, nebo vybrat ze seznamu existujících možností.</StiComboBoxControl>
     <StiDateTimePickerControl>Představuje ovládací prvek pro výběr data a času. Také umožňuje výstup data a času v určeném formátu.</StiDateTimePickerControl>
     <StiGridControl>Představuje ovládací prvek mřížky, která se skládá z řádků a sloupců.</StiGridControl>
     <StiGroupBoxControl>Představuje ovládací prvek, který vytváří kontejner s ohraničením a záhlavím pro obsah uživatelského rozhraní.</StiGroupBoxControl>
-    <StiLabelControl>Uživatelsky definovaný popisek, který zobrazuje text na formuláři. Obvykle je ovládán staticky bez interaktivního přístupu.</StiLabelControl>
+    <StiLabelControl>Popisek je ovládací prvek uživatelského rozhraní, který zobrazuje text na formuláři. Obvykle je to statický prvek bez interaktivity.</StiLabelControl>
     <StiListBoxControl>Obsahuje seznam prvků pro výběr.</StiListBoxControl>
     <StiListViewControl>Představuje ovládací prvek ListView, který zobrazuje seznam datových prvků.</StiListViewControl>
     <StiLookUpBoxControl>Obsahuje seznam prvků pro výběr.</StiLookUpBoxControl>
     <StiNumericUpDownControl>Představuje ovládací prvek, který zobrazuje číselné hodnoty.</StiNumericUpDownControl>
-    <StiPanelControl>Panel prvků použitých pro umístění a uspořádání objektů.</StiPanelControl>
+    <StiPanelControl>Prvky Panel se používají pro umístění a uspořádání objektů.</StiPanelControl>
     <StiPictureBoxControl>Představuje ovládací prvek pro zobrazení obrázku.</StiPictureBoxControl>
     <StiRadioButtonControl>Představuje ovládací prvek tlačítka předvolby, které umožňuje uživateli zvolit pouze jednu z předdefinovaných možností.</StiRadioButtonControl>
     <StiRichTextBoxControl>Představuje ovládací prvek RichText s rozšířenou editací.</StiRichTextBoxControl>
@@ -1435,10 +1435,10 @@
     <StiTreeViewControl>Představuje ovládací prvek pro zobrazení hierarchických dat ve formě stromu.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
-    <Bookmarks>Zobrazit záložku panelu pro rychlé přepnutí do záložky.</Bookmarks>
+    <Bookmarks>Zobrazit panel záložek, který slouží k rychlé navigaci na místo označené záložkou.</Bookmarks>
     <Close>Zavřít náhled reportu.</Close>
-    <CloseDotMatrix>Zavřít prohlížeč matice bodů reportu.</CloseDotMatrix>
-    <DotMatrixMode>Tento mód umožňuje pohled, jaký bude mít report vzhled, pokud bude vytisknut tiskárnou matice bodů.</DotMatrixMode>
+    <CloseDotMatrix>Zavřít prohlížeč pro jehličkové tiskárny.</CloseDotMatrix>
+    <DotMatrixMode>Tento režim umožňuje zobrazit, jak bude report vypadat, pokud bude vytištěn na jehličkové tiskárně.</DotMatrixMode>
     <Edit>Editace položek.</Edit>
     <Find>Vyhledání textu v reportu.</Find>
     <FullScreen>Čtení na celou obrazovku.</FullScreen>
@@ -1452,13 +1452,13 @@
     <PageNext>Přejít na další stránku reportu.</PageNext>
     <PagePrevious>Přejít na předchozí stránku reportu.</PagePrevious>
     <PageSize>Změnit parametry stránky reportu.</PageSize>
-    <Parameters>Zobrazit parametry panelu, který je používán pro generování reportu.</Parameters>
+    <Parameters>Zobrazit panel parametrů, který se používá při generování reportu.</Parameters>
     <Print>Tisknout report.</Print>
     <Save>Uložit report pro pozdější použití.</Save>
     <SendEMail>Poslat report e-mailem.</SendEMail>
     <Thumbnails>Zobrazit miniatury k rychlému nalezení sekce reportu, na kterou se chcete přepnout.</Thumbnails>
     <ToolEditor>Tento nástroj umožňuje editaci obsahu textu komponent přímo v prohlížeči reportu.</ToolEditor>
-    <ViewModeContinuous>Zobrazí všechny stránky reportu jako pás karet.</ViewModeContinuous>
+    <ViewModeContinuous>Zobrazit všechny stránky reportu jako svislý pás.</ViewModeContinuous>
     <ViewModeMultiplePages>Změnit velikost reportu při zobrazení více stránek v okně.</ViewModeMultiplePages>
     <ViewModeSinglePage>Zobrazit samostatnou stránku v okně náhledu.</ViewModeSinglePage>
     <ZoomMultiplePages>Změnit velikost reportu pro zobrazení vybraných stránek v okně.</ZoomMultiplePages>
@@ -1517,7 +1517,7 @@
     <menuFilePageSaveAs>Uložit stránku jako</menuFilePageSaveAs>
     <menuFilePageSetup>Nastavení stránky</menuFilePageSetup>
     <menuFileRecentDocuments>Poslední dokumenty</menuFileRecentDocuments>
-    <menuFileRecentLocations>Současné pozice</menuFileRecentLocations>
+    <menuFileRecentLocations>Poslední umístění</menuFileRecentLocations>
     <menuFileReportNew>&amp;Nová sestava</menuFileReportNew>
     <menuFileReportOpen>&amp;Otevřít sestavu</menuFileReportOpen>
     <menuFileReportOpenFromGoogleDocs>Otevřít sestavu z Google Docs...</menuFileReportOpenFromGoogleDocs>
@@ -1583,16 +1583,16 @@
     <ReportTree>Strom sestavy</ReportTree>
   </Panels>
   <Password>
-    <gbPassword>Zakódování souboru</gbPassword>
+    <gbPassword>Šifrování souboru</gbPassword>
     <lbPasswordLoad>Vložit heslo pro otevření souboru</lbPasswordLoad>
     <lbPasswordSave>Heslo:</lbPasswordSave>
     <PasswordNotEntered>Heslo nebylo vloženo</PasswordNotEntered>
-    <StiLoadPasswordForm>Zakódování dokumentu</StiLoadPasswordForm>
+    <StiLoadPasswordForm>Šifrování dokumentu</StiLoadPasswordForm>
     <StiSavePasswordForm>Heslo</StiSavePasswordForm>
   </Password>
   <PlacementComponent>
-    <MoveLeftFreeSpace>Přesunout položku doleva od prázdného místa, zvětšit výšku položky na velikost prázdného místa.</MoveLeftFreeSpace>
-    <MoveRightFreeSpace>Přesunout položku doprava od volného místa, zvětšit výšku položky na velikost volného místa.</MoveRightFreeSpace>
+    <MoveLeftFreeSpace>Přesune komponentu k levé části volného místa a zvětší její výšku na výšku volného místa.</MoveLeftFreeSpace>
+    <MoveRightFreeSpace>Přesune komponentu k pravé části volného místa a zvětší její výšku na výšku volného místa.</MoveRightFreeSpace>
   </PlacementComponent>
   <PropertyCategory>
     <AppearanceCategory>Vzhled</AppearanceCategory>
@@ -1603,7 +1603,7 @@
     <CellCategory>Buňka</CellCategory>
     <ChartAdditionalCategory>Graf přídavná</ChartAdditionalCategory>
     <ChartCategory>Graf</ChartCategory>
-    <CheckCategory>Kontrola</CheckCategory>
+    <CheckCategory>Zaškrtávací políčko</CheckCategory>
     <ColorsCategory>Barvy</ColorsCategory>
     <ColumnsCategory>Sloupce</ColumnsCategory>
     <ControlCategory>Ovládací prvek</ControlCategory>
@@ -1614,7 +1614,7 @@
     <DesignCategory>Design</DesignCategory>
     <DisplayCategory>Zobrazení</DisplayCategory>
     <ExportCategory>Export</ExportCategory>
-    <ExportEventsCategory>Export objektů</ExportEventsCategory>
+    <ExportEventsCategory>Události exportu</ExportEventsCategory>
     <HierarchicalCategory>Hierarchická</HierarchicalCategory>
     <ImageAdditionalCategory>Obrázek přídavná</ImageAdditionalCategory>
     <ImageCategory>Obrázek</ImageCategory>
@@ -1627,14 +1627,14 @@
     <OptionsCategory>Volby</OptionsCategory>
     <PageAdditionalCategory>Stránka přídavná</PageAdditionalCategory>
     <PageCategory>Stránka</PageCategory>
-    <PageColumnBreakCategory>Zalamování stran a řádků</PageColumnBreakCategory>
+    <PageColumnBreakCategory>Zalamování stránek a sloupců</PageColumnBreakCategory>
     <ParametersCategory>Parametry</ParametersCategory>
     <PositionCategory>Pozice</PositionCategory>
-    <PrimitiveCategory>Základní</PrimitiveCategory>
+    <PrimitiveCategory>Primitivum</PrimitiveCategory>
     <PrintEventsCategory>Tiskové události</PrintEventsCategory>
     <RenderEventsCategory>Události sestavování</RenderEventsCategory>
     <ShapeCategory>Obrazec</ShapeCategory>
-    <SubReportCategory>Pre-report</SubReportCategory>
+    <SubReportCategory>Subreport</SubReportCategory>
     <TextAdditionalCategory>Text přídavná</TextAdditionalCategory>
     <TextCategory>Text</TextCategory>
     <TitleCategory>Název</TitleCategory>
@@ -1780,7 +1780,7 @@
     <SpringGreen>Jarní zelená</SpringGreen>
     <SteelBlue>Ocelová modrá</SteelBlue>
     <Tan>Žlutohnědá</Tan>
-    <Teal>Čírka modrá</Teal>
+    <Teal>Zelenomodrá</Teal>
     <Thistle>Bodlák</Thistle>
     <Tomato>Rajčatová</Tomato>
     <Transparent>Průhledná</Transparent>
@@ -2218,14 +2218,14 @@
     <GetBookmarkEvent>Zachytit záložku</GetBookmarkEvent>
     <GetCollapsedEvent>Získat sbalené</GetCollapsedEvent>
     <GetCrossValueEvent>Získat křížovou hodnotu</GetCrossValueEvent>
-    <GetCutPieListEvent>Získat zkrácený seznam</GetCutPieListEvent>
+    <GetCutPieListEvent>Získat seznam vysunutých výsečí</GetCutPieListEvent>
     <GetDisplayCrossValueEvent>Získat zobrazenou křížovou hodnotu</GetDisplayCrossValueEvent>
-    <GetDrillDownReportEvent>Získat zjednodušený report</GetDrillDownReportEvent>
+    <GetDrillDownReportEvent>Získat detailní report</GetDrillDownReportEvent>
     <GetExcelSheetEvent>Získat list Excelu</GetExcelSheetEvent>
     <GetExcelValueEvent>Získat Excel hodnotu</GetExcelValueEvent>
     <GetHyperlinkEvent>Zachytit hyperlink</GetHyperlinkEvent>
     <GetImageDataEvent>Získat data obrazu</GetImageDataEvent>
-    <GetImageURLEvent>Zachytit obraz URL</GetImageURLEvent>
+    <GetImageURLEvent>Získat URL obrázku</GetImageURLEvent>
     <GetListOfArgumentsEvent>Získat seznam argumentů</GetListOfArgumentsEvent>
     <GetListOfHyperlinksEvent>Získat seznam odkazů</GetListOfHyperlinksEvent>
     <GetListOfTagsEvent>Získat seznam štítků</GetListOfTagsEvent>
@@ -2253,7 +2253,7 @@
     <PrintedEvent>Vytištěný</PrintedEvent>
     <PrintingEvent>Tisknutý</PrintingEvent>
     <ProcessCellEvent>Zpracovat buňku</ProcessCellEvent>
-    <ProcessChartEvent>Postupový diagram</ProcessChartEvent>
+    <ProcessChartEvent>Zpracovat graf</ProcessChartEvent>
     <RenderingEvent>Zpracování</RenderingEvent>
     <SelectedIndexChangedEvent>Změna vybraného indexu</SelectedIndexChangedEvent>
     <StateRestoreEvent>Obnovení stavu</StateRestoreEvent>
@@ -3020,10 +3020,10 @@
     <ActiveCaptionText>Text aktivního titulku</ActiveCaptionText>
     <AppWorkspace>Plocha aplikace</AppWorkspace>
     <Control>Ovládací prvek</Control>
-    <ControlDark>Ovládací prvek tmavá</ControlDark>
-    <ControlDarkDark>Ovládací prvek tmavá tmavá</ControlDarkDark>
-    <ControlLight>Ovládací prvek světlá</ControlLight>
-    <ControlLightLight>Ovládací prvek světlá světlá</ControlLightLight>
+    <ControlDark>Tmavý ovládací prvek</ControlDark>
+    <ControlDarkDark>Nejtmavší ovládací prvek</ControlDarkDark>
+    <ControlLight>Světlý ovládací prvek</ControlLight>
+    <ControlLightLight>Nejsvětlejší ovládací prvek</ControlLightLight>
     <ControlText>Text ovládacího prvku</ControlText>
     <Desktop>Pracovní plocha</Desktop>
     <GrayText>Šedý text</GrayText>
@@ -3049,11 +3049,11 @@
     <BadFromObjectExpression>Nekorektní FROM příkaz!</BadFromObjectExpression>
     <BadObjectName>Nekorektní jméno objektu!</BadObjectName>
     <BadSelectStatement>Nekorektní SELECT příkaz!</BadSelectStatement>
-    <CreateLinksFromForeignKeys>Vytvořit odkazy ze vdálených klíčů</CreateLinksFromForeignKeys>
+    <CreateLinksFromForeignKeys>Vytvořit odkazy z cizích klíčů</CreateLinksFromForeignKeys>
     <CriteriaAlias>Alias</CriteriaAlias>
     <CriteriaCriteria>Kritéria</CriteriaCriteria>
     <CriteriaExpression>Výraz</CriteriaExpression>
-    <CriteriaGroupBy>Třídění dle</CriteriaGroupBy>
+    <CriteriaGroupBy>Seskupení</CriteriaGroupBy>
     <CriteriaOr>Nebo...</CriteriaOr>
     <CriteriaOutput>Výstup</CriteriaOutput>
     <CriteriaSortOrder>Řazení</CriteriaSortOrder>
@@ -3065,7 +3065,7 @@
     <DialectDontSupportUnions>Tento server nepodporuje sdružování.</DialectDontSupportUnions>
     <DialectDontSupportUnionsBrackets>Tento server nepodporuje závorky ve sdružování.</DialectDontSupportUnionsBrackets>
     <DialectDontSupportUnionsBracketsInSubQuery>Tento server nepodporuje závorky ve sdružování v poddotazech.</DialectDontSupportUnionsBracketsInSubQuery>
-    <DialectDontSupportUnionsInSubQueries>Tento server nepodporuje závorky v poddotazech.</DialectDontSupportUnionsInSubQueries>
+    <DialectDontSupportUnionsInSubQueries>Tento server nepodporuje sdružování v poddotazech.</DialectDontSupportUnionsInSubQueries>
     <Edit>Editace</Edit>
     <EncloseWithBrackets>Uzavřít do závorek</EncloseWithBrackets>
     <Expressions>Výrazy</Expressions>
@@ -3107,11 +3107,11 @@
     <Unions>Sjednocení</Unions>
     <UnionSubMenu>Sjednocení</UnionSubMenu>
     <ViewQuery>Zobrazit dotaz</ViewQuery>
-    <Views>Náhledy</Views>
+    <Views>Pohledy</Views>
   </QueryBuilder>
   <Questions>
-    <qnConfiguration>Zvolte prosím typ konfigurace panelu vlastností. Typ vybrané konfigurace závisí na hodnotě čísla viditelnosti ve vlastnostech a jejich složitosti pro vývojáře reportů. Typ konfigurace pro kontextové menu je možné kdykoliv změnit ve vlastnostech panelů.</qnConfiguration>
-    <qnDictionaryNew>Chcete vytvořit nový adresář?</qnDictionaryNew>
+    <qnConfiguration>Zvolte prosím typ konfigurace panelu vlastností. Na typu vybrané konfigurace závisí počet zobrazených vlastností a jejich složitost pro vývojáře reportů. Typ konfigurace můžete kdykoliv změnit z kontextového menu panelu vlastností.</qnConfiguration>
+    <qnDictionaryNew>Chcete vytvořit nový slovník?</qnDictionaryNew>
     <qnLanguageNew>Změnil(a) jste jazyk sestavy. Povede to k novému generování kódu sestavy. Jste si jistý(á), že chcete uložit nový jazyk?</qnLanguageNew>
     <qnPageDelete>Chcete smazat stránku?</qnPageDelete>
     <qnRemove>Skutečně odstranit?</qnRemove>
@@ -3151,7 +3151,7 @@
     <FilterAnd>a</FilterAnd>
     <FilterOr>nebo</FilterOr>
     <FinishingReport>Dokončení sestavy</FinishingReport>
-    <FirstPass>První zkouška</FirstPass>
+    <FirstPass>První průchod</FirstPass>
     <GenerateNewCode>Generovat nový kód</GenerateNewCode>
     <InfoMessage>{0} - {1} nalezeno.</InfoMessage>
     <InformationMessages>Informační zprávy</InformationMessages>
@@ -3170,14 +3170,14 @@
     <LabelFactorLevel>Faktor zanoření:</LabelFactorLevel>
     <LabelFontName>Jméno fontu:</LabelFontName>
     <LabelFunction>Funkce:</LabelFunction>
-    <LabelHundredthsOfInch>Stovky palců:</LabelHundredthsOfInch>
+    <LabelHundredthsOfInch>Setiny palce:</LabelHundredthsOfInch>
     <LabelInches>Palce:</LabelInches>
     <LabelMillimeters>Milimetry:</LabelMillimeters>
     <LabelName>Jméno:</LabelName>
     <LabelNameInSource>Zdrojové jméno:</LabelNameInSource>
     <LabelNestedLevel>Úroveň zanoření:</LabelNestedLevel>
     <LabelPassword>Heslo:</LabelPassword>
-    <LabelPixels>Body:</LabelPixels>
+    <LabelPixels>Pixely:</LabelPixels>
     <LabelSystemVariable>Systémová proměnná:</LabelSystemVariable>
     <LabelTotals>Souhrny</LabelTotals>
     <LabelType>Typ:</LabelType>
@@ -3204,12 +3204,12 @@
     <RestartDesigner>Je nutné restartovat designér reportu</RestartDesigner>
     <SaveReportPagesOrFormsFromReport>Uložit report, stránky nebo formuláře</SaveReportPagesOrFormsFromReport>
     <SavingReport>Ukládání sestavy</SavingReport>
-    <SecondPass>Druhá zkouška</SecondPass>
+    <SecondPass>Druhý průchod</SecondPass>
     <Standard>Standard</Standard>
     <StandardConfiguration>Hlavní vlastnosti objektu bez málo používaných.</StandardConfiguration>
     <StiEmptyBrush>Prázdný</StiEmptyBrush>
-    <StiGlareBrush>Hladký</StiGlareBrush>
-    <StiGlassBrush>Štětec lupa</StiGlassBrush>
+    <StiGlareBrush>Odlesk</StiGlareBrush>
+    <StiGlassBrush>Sklo</StiGlassBrush>
     <StiGradientBrush>Gradient</StiGradientBrush>
     <StiHatchBrush>Šrafování</StiHatchBrush>
     <StiSolidBrush>Plná</StiSolidBrush>
@@ -3248,12 +3248,12 @@
     <DiagonalUpLine>Vzestupná diagonála</DiagonalUpLine>
     <Division>Dělení</Division>
     <Equal>Rovnost</Equal>
-    <EquationShapes>Shodné tvary</EquationShapes>
+    <EquationShapes>Tvary rovnic</EquationShapes>
     <FlowchartCard>Vývojový diagram: Karetní</FlowchartCard>
     <FlowchartCollate>Vývojový diagram: Porovnávací</FlowchartCollate>
     <FlowchartDecision>Vývojový diagram: Rozhodovací</FlowchartDecision>
     <FlowchartManualInput>Vývojový diagram: Ruční vstup</FlowchartManualInput>
-    <FlowchartOffPageConnector>Vývojový diagram: Off Page Connector</FlowchartOffPageConnector>
+    <FlowchartOffPageConnector>Vývojový diagram: Odkaz na jinou stránku</FlowchartOffPageConnector>
     <FlowchartPreparation>Vývojový diagram: Přípravný</FlowchartPreparation>
     <FlowchartSort>Vývojový diagram: Setříděný</FlowchartSort>
     <Frame>Rámec</Frame>
@@ -3271,7 +3271,7 @@
     <RegularPentagon>Pravidelný pětiúhelník</RegularPentagon>
     <RoundedRectangle>Oblý obdélník</RoundedRectangle>
     <ServiceCategory>Tvary</ServiceCategory>
-    <ShapeStyles>Ostré tvary</ShapeStyles>
+    <ShapeStyles>Styly tvarů</ShapeStyles>
     <SnipDiagonalSideCornerRectangle>Pravoúhelník s diagonálně oříznutými rohy</SnipDiagonalSideCornerRectangle>
     <SnipSameSideCornerRectangle>Pravoúhelník s oříznutými rohy na stejné straně</SnipSameSideCornerRectangle>
     <TopAndBottomLine>Čára nahoře a dole</TopAndBottomLine>
@@ -3317,7 +3317,7 @@
     <InsertBelow>Vložit pod</InsertBelow>
     <InsertLeft>Vložit doleva</InsertLeft>
     <InsertRight>Vložit doprava</InsertRight>
-    <PlainTables>Hladké tabulky</PlainTables>
+    <PlainTables>Jednoduché tabulky</PlainTables>
     <ribbonBarRowsColumns>Řádky a sloupce</ribbonBarRowsColumns>
     <ribbonBarTable>Tabulka</ribbonBarTable>
     <ribbonBarTableStyles>Styly tabulky</ribbonBarTableStyles>
@@ -3364,7 +3364,7 @@
     <TabHome>Domů</TabHome>
     <TabLayout>Rozvržení</TabLayout>
     <TabPage>Strana</TabPage>
-    <TabView>Náhled</TabView>
+    <TabView>Zobrazení</TabView>
     <TextBrush>Výplň textu</TextBrush>
     <ToolbarAlignment>Zarovnání</ToolbarAlignment>
     <ToolbarArrange>Uspořádat</ToolbarArrange>
@@ -3379,7 +3379,7 @@
     <ToolbarStyle>Styl</ToolbarStyle>
     <ToolbarTextFormat>Formát textu</ToolbarTextFormat>
     <ToolbarTools>Nástroje</ToolbarTools>
-    <ToolbarViewOptions>Zobrazit možnosti</ToolbarViewOptions>
+    <ToolbarViewOptions>Možnosti zobrazení</ToolbarViewOptions>
     <ToolbarWatermarkImage>Obrazový vodoznak</ToolbarWatermarkImage>
     <ToolbarWatermarkText>Textový vodoznak</ToolbarWatermarkText>
   </Toolbars>
@@ -3431,7 +3431,7 @@
     <LabelNumberOfRows>Počet řádků:</LabelNumberOfRows>
     <LabelPageHeight>Výška stránky:</LabelPageHeight>
     <LabelPageWidth>Šířka stránky:</LabelPageWidth>
-    <LabelReport>Štítek sestavy</LabelReport>
+    <LabelReport>Sestava se štítky</LabelReport>
     <LabelSettings>Nastavení štítku</LabelSettings>
     <LabelSize>Velikost:</LabelSize>
     <LabelTopMargin>Horní okraj:</LabelTopMargin>
