@@ -13,14 +13,14 @@
     <ButtonPrev>Precedente</ButtonPrev>
     <ButtonSend>Invia</ButtonSend>
     <CategoryAlreadyExists>Esiste già una categoria con lo stesso nome!</CategoryAlreadyExists>
-    <DayFriday>Venerdi</DayFriday>
-    <DayMonday>Lunedi</DayMonday>
+    <DayFriday>Venerdì</DayFriday>
+    <DayMonday>Lunedì</DayMonday>
     <Days>Giorni</Days>
     <DaySaturday>Sabato</DaySaturday>
     <DaySunday>Domenica</DaySunday>
-    <DayThursday>Giovedi</DayThursday>
-    <DayTuesday>Martedi</DayTuesday>
-    <DayWednesday>Mercoledi</DayWednesday>
+    <DayThursday>Giovedì</DayThursday>
+    <DayTuesday>Martedì</DayTuesday>
+    <DayWednesday>Mercoledì</DayWednesday>
     <Email>Email:</Email>
     <EmailOptions>Opzioni Email</EmailOptions>
     <FirstPage>Prima Pagina</FirstPage>
@@ -201,7 +201,7 @@
     <AxisY>Asse Y</AxisY>
     <BoxAndWhisker>Box e baffi</BoxAndWhisker>
     <Bubble>Bolle</Bubble>
-    <Candlestick>Candlestick</Candlestick>
+    <Candlestick>Candele</Candlestick>
     <ChartConditionsCollectionForm>Condizioni</ChartConditionsCollectionForm>
     <ChartEditorForm>Editor grafici</ChartEditorForm>
     <ChartFiltersCollectionForm>Filtri</ChartFiltersCollectionForm>
@@ -268,7 +268,7 @@
     <Legend>Legenda</Legend>
     <LegendSpacing>Spaziatura</LegendSpacing>
     <Line>Linea</Line>
-    <ListOfValues>Lista delle Colonne</ListOfValues>
+    <ListOfValues>Elenco dei Valori</ListOfValues>
     <ListOfXValues>Elenco valori X</ListOfXValues>
     <ListOfYValues>Elenco valori Y</ListOfYValues>
     <Marker>Marcatore</Marker>
@@ -372,8 +372,8 @@
     <HorizontalMajorMinor>&lt;b&gt;Maggiore &amp;&amp; Linee Griglia Minori&lt;/b&gt;&lt;br&gt;Visualizza Linee Griglia Orizzontali per unit Maggiori e Minori&lt;/br&gt;</HorizontalMajorMinor>
     <HorizontalMinor>&lt;b&gt;Minore&lt;/b&gt;&lt;br&gt;Visualizza Linee Griglia Orizzontali per unit Minori&lt;/br&gt;</HorizontalMinor>
     <HorizontalNone>&lt;b&gt;Nessuno&lt;/b&gt;&lt;br&gt;Non visualizza Linee Griglia Orizzontali&lt;/br&gt;</HorizontalNone>
-    <InsideBaseLabels>Inside Base</InsideBaseLabels>
-    <InsideEndLabels>Inside End</InsideEndLabels>
+    <InsideBaseLabels>Base interna</InsideBaseLabels>
+    <InsideEndLabels>Estremità interna</InsideEndLabels>
     <Labels>Etichette Serie</Labels>
     <Legend>Legenda</Legend>
     <LegendHorizontalAlignment>Allineamento Orizzontale</LegendHorizontalAlignment>
@@ -384,8 +384,8 @@
     <LegendVerticalAlignment>Allineamento Verticale</LegendVerticalAlignment>
     <LegendVisible>Visibile</LegendVisible>
     <NoneLabels>Nessuna</NoneLabels>
-    <OutsideBaseLabels>Outside Base</OutsideBaseLabels>
-    <OutsideEndLabels>Outside End</OutsideEndLabels>
+    <OutsideBaseLabels>Base esterna</OutsideBaseLabels>
+    <OutsideEndLabels>Estremità esterna</OutsideEndLabels>
     <OutsideLabels>Esterno</OutsideLabels>
     <ribbonBarAxis>Assi</ribbonBarAxis>
     <ribbonBarChartStyles>Stili Grafici</ribbonBarChartStyles>
@@ -454,9 +454,9 @@
     <FileStorageWindowTitleEdit>Modifica archiviazione file</FileStorageWindowTitleEdit>
     <FileStorageWindowTitleNew>Nuova archiviazione file</FileStorageWindowTitleNew>
     <FolderWindowTitleEdit>Modifica Cartella</FolderWindowTitleEdit>
-    <FolderWindowTitleNew>Nuovo Cartella</FolderWindowTitleNew>
+    <FolderWindowTitleNew>Nuova Cartella</FolderWindowTitleNew>
     <ForExample>Ad esempio</ForExample>
-    <GroupBoxAttachedItems>Items allegati</GroupBoxAttachedItems>
+    <GroupBoxAttachedItems>Elementi allegati</GroupBoxAttachedItems>
     <HyperlinkAgreeToTerms>Registrandoti accetti i Termini.</HyperlinkAgreeToTerms>
     <HyperlinkAlreadyHaveAccount>Ho già un account</HyperlinkAlreadyHaveAccount>
     <HyperlinkForgotPassword>Password dimenticata</HyperlinkForgotPassword>
@@ -575,7 +575,6 @@
     <TextRun>Esegui</TextRun>
     <TextUser>Utente</TextUser>
     <TextUserName>Nome Utente (Email)</TextUserName>
-    <ThisFieldIsNotSpecified>Questo campo non è specificato!</ThisFieldIsNotSpecified>
     <TimeHoursAgoFive>Cinque ore fa, {0:t}</TimeHoursAgoFive>
     <TimeHoursAgoFour>Quattro ore fa, {0:t}</TimeHoursAgoFour>
     <TimeHoursAgoOne>Un'ora fa, {0:t}</TimeHoursAgoOne>
@@ -612,8 +611,8 @@
     <ToolTipViewFile>Mostra il file selezionato.</ToolTipViewFile>
     <ToolTipViewReport>Mostra il report selezionato nel visualizzatore.</ToolTipViewReport>
     <WeDidntFindAnything>Non abbiamo trovato nulla da mostrare qui.</WeDidntFindAnything>
-    <WindowDescriptionDelete>Spunta gli item che vuoi eliminare e clicca il bottone "Elimina". Per annullare, clicca "Annulla".</WindowDescriptionDelete>
-    <WindowDescriptionRecover>Seleziona gli items che vuoi ripristinare e clicca il bottone "Ripristina". Per annullare, clicca "Annulla"</WindowDescriptionRecover>
+    <WindowDescriptionDelete>Sei sicuro di voler eliminare gli elementi selezionati?</WindowDescriptionDelete>
+    <WindowDescriptionRecover>Gli elementi selezionati saranno ripristinati dal Cestino.</WindowDescriptionRecover>
     <WindowTitleDelete>Elimina Items</WindowTitleDelete>
     <WindowTitleForgotPassword>Reset</WindowTitleForgotPassword>
     <WindowTitleLogin>Accedi</WindowTitleLogin>
@@ -665,7 +664,7 @@
     <StiCrossRow>Righe incrociate</StiCrossRow>
     <StiCrossRowTotal>Totale righe incrociate</StiCrossRowTotal>
     <StiCrossSummary>Sommario incrociato</StiCrossSummary>
-    <StiCrossSummaryHeader>Cross-Summary Header</StiCrossSummaryHeader>
+    <StiCrossSummaryHeader>Intestazione sommario incrociato</StiCrossSummaryHeader>
     <StiCrossTab>Tab incrociato</StiCrossTab>
     <StiCrossTitle>Titolo incrociato</StiCrossTitle>
     <StiDashboard>Dashboard</StiDashboard>
@@ -716,7 +715,7 @@
     <StiSlider>Cursore</StiSlider>
     <StiSparkline>Sparkline</StiSparkline>
     <StiSubReport>Sottoreport</StiSubReport>
-    <StiSystemText>Funzioni</StiSystemText>
+    <StiSystemText>Testo di sistema</StiSystemText>
     <StiTable>Tabella</StiTable>
     <StiTableOfContents>Indice</StiTableOfContents>
     <StiText>Testo</StiText>
@@ -849,7 +848,7 @@
     <DatabaseSqlCe>Connessione SQLServerCE</DatabaseSqlCe>
     <DatabaseSQLite>Connessione SQLite</DatabaseSQLite>
     <DatabaseTeradata>Connessione Teradata</DatabaseTeradata>
-    <DatabaseUniDirect>Uni Direct Connection</DatabaseUniDirect>
+    <DatabaseUniDirect>Connessione Uni Direct</DatabaseUniDirect>
     <DatabaseVistaDB>Connessione VistaDB</DatabaseVistaDB>
     <DatabaseXml>Dati Xml</DatabaseXml>
   </Database>
@@ -905,7 +904,7 @@
     <LoadingConfiguration>Caricamento Configurazione</LoadingConfiguration>
     <LoadingData>Caricamento dati</LoadingData>
     <LoadingDocument>Caricamento Documento</LoadingDocument>
-    <LoadingImages>aricamento immagini</LoadingImages>
+    <LoadingImages>Caricamento immagini</LoadingImages>
     <LoadingLanguage>Caricamento lingua</LoadingLanguage>
     <LoadingReport>Caricamento Report</LoadingReport>
     <PreviewAs>Anteprima come {0}</PreviewAs>
@@ -1018,17 +1017,17 @@
   </Editor>
   <Errors>
     <ComponentIsNotRelease>Il componente non realizza '{0}'</ComponentIsNotRelease>
-    <ContainerIsNotValidForComponent>Il container {0} non è addato per il componente {1}</ContainerIsNotValidForComponent>
+    <ContainerIsNotValidForComponent>Il container {0} non è adatto per il componente {1}</ContainerIsNotValidForComponent>
     <DataNotFound>I dati non sono trovati</DataNotFound>
     <DataNotLoaded>Nessun dato caricato.</DataNotLoaded>
     <Error>Errore.</Error>
     <ErrorsList>Elenco errori</ErrorsList>
-    <FieldRequire>È necessario di riempire il campo "{0}"</FieldRequire>
+    <FieldRequire>È necessario riempire il campo "{0}"</FieldRequire>
     <FileNotFound>File '{0}' non trovato</FileNotFound>
-    <IdentifierIsNotValid>L’identificatore '{0}' è inamissibile.</IdentifierIsNotValid>
+    <IdentifierIsNotValid>L’identificatore '{0}' non è valido.</IdentifierIsNotValid>
     <ImpossibleFindDataSource>Impossibile trovare la sorgente dei dati</ImpossibleFindDataSource>
     <NameExists>Il nome del componente '{0}' è ripetuto.</NameExists>
-    <NoServices>I servizii non sono trovati nel '{0}'</NoServices>
+    <NoServices>I servizi non sono trovati nel '{0}'</NoServices>
     <NotAssign>La sorgente dei dati non è indicata</NotAssign>
     <NotCorrectFormat>La stringa inserita non è nel formato corretto.</NotCorrectFormat>
     <OneTableOfContentsAllowed>È possibile utilizzare solo un componente 'Indice' in un report alla volta!</OneTableOfContentsAllowed>
@@ -1079,7 +1078,7 @@
     <DigitalSignatureError>Errore nella fase di firma digitale</DigitalSignatureError>
     <DocumentSecurity>Sicurezza Documento</DocumentSecurity>
     <DotMatrixMode>Modalità Matrice di Punti</DotMatrixMode>
-    <EmbeddedFonts>Tipi di carattere incorporato</EmbeddedFonts>
+    <EmbeddedFonts>Tipi di carattere incorporati</EmbeddedFonts>
     <EmbeddedImageData>Dati integrati nell'immagine</EmbeddedImageData>
     <EnableAnimation>Abilita animazione</EnableAnimation>
     <Encoding>Codifica</Encoding>
@@ -1099,7 +1098,7 @@
     <ExportModeTable>Tabella</ExportModeTable>
     <ExportObjectFormatting>Esporta Formattazione degli Oggetti</ExportObjectFormatting>
     <ExportPageBreaks>Esporta Interruzioni Pagina</ExportPageBreaks>
-    <ExportRtfTextAsImage>Esporta Test Rich Text come immagine</ExportRtfTextAsImage>
+    <ExportRtfTextAsImage>Esporta Rich Text come immagine</ExportRtfTextAsImage>
     <ExportTypeBmpFile>File BMP...</ExportTypeBmpFile>
     <ExportTypeCalcFile>File OpenDocument Calc ...</ExportTypeCalcFile>
     <ExportTypeCsvFile>File CSV...</ExportTypeCsvFile>
@@ -1107,7 +1106,7 @@
     <ExportTypeDbfFile>File DBF ...</ExportTypeDbfFile>
     <ExportTypeDifFile>Formato File di Interscambio Dati(DIF)...</ExportTypeDifFile>
     <ExportTypeExcel2007File>File Microsoft Excel 2007...</ExportTypeExcel2007File>
-    <ExportTypeExcelFile>File Microsoft Excel File...</ExportTypeExcelFile>
+    <ExportTypeExcelFile>File Microsoft Excel...</ExportTypeExcelFile>
     <ExportTypeExcelXmlFile>File Microsoft Excel Xml...</ExportTypeExcelXmlFile>
     <ExportTypeGifFile>File GIF...</ExportTypeGifFile>
     <ExportTypeHtml5File>File HTML5...</ExportTypeHtml5File>
@@ -1128,7 +1127,7 @@
     <ExportTypeTiffFile>File TIFF...</ExportTypeTiffFile>
     <ExportTypeTxtFile>File Testo...</ExportTypeTxtFile>
     <ExportTypeWord2007File>File Microsoft Word...</ExportTypeWord2007File>
-    <ExportTypeWriterFile>OpenDocument Writer File...</ExportTypeWriterFile>
+    <ExportTypeWriterFile>File OpenDocument Writer...</ExportTypeWriterFile>
     <ExportTypeXmlFile>File XML...</ExportTypeXmlFile>
     <ExportTypeXpsFile>File Microsoft XPS...</ExportTypeXpsFile>
     <GetCertificateFromCryptoUI>Ottieni Certificato da Crypto UI</GetCertificateFromCryptoUI>
@@ -1162,7 +1161,7 @@
     <SkipColumnHeaders>Salta Intestazioni Colonna</SkipColumnHeaders>
     <StandardPDFFonts>Caratteri PDF standard</StandardPDFFonts>
     <TiffCompressionScheme>Schema di compressione TIFF:</TiffCompressionScheme>
-    <title>Impostazioni esporta</title>
+    <title>Impostazioni di esportazione</title>
     <TxtBorderType>Tipo di bordo</TxtBorderType>
     <TxtBorderTypeDouble>Unicode doppio</TxtBorderTypeDouble>
     <TxtBorderTypeSimple>Semplice</TxtBorderTypeSimple>
@@ -1176,7 +1175,7 @@
     <UseDefaultSystemEncoding>Usa Codifica di Sistema di Default</UseDefaultSystemEncoding>
     <UseDigitalSignature>Usa Firma Digitale</UseDigitalSignature>
     <UseEscapeCodes>Usa codici di escape</UseEscapeCodes>
-    <UseOnePageHeaderAndFooter>Usa Intestazione e Piè di pagina per Ogni Pagina</UseOnePageHeaderAndFooter>
+    <UseOnePageHeaderAndFooter>Usa un'unica Intestazione e Piè di pagina</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>Usa Intestazione e Piè di Pagina</UsePageHeadersAndFooters>
     <UseUnicode>Usa Unicode</UseUnicode>
     <X>X:</X>
@@ -1385,10 +1384,10 @@
     <OracleNew>Nuova connessione Oracle</OracleNew>
     <OracleODPEdit>Modifica connessione Oracle ODP.NET</OracleODPEdit>
     <OracleODPNew>Nuova connessione Oracle ODP.NET</OracleODPNew>
-    <PathData>Percorso del dati XML</PathData>
+    <PathData>Percorso ai dati XML:</PathData>
     <PathGisData>Percorso ai dati GIS:</PathGisData>
     <PathJsonData>Percorso dati JSON:</PathJsonData>
-    <PathSchema>Percorso del dati Schema</PathSchema>
+    <PathSchema>Percorso allo Schema XSD:</PathSchema>
     <PathToData>Percorso dati:</PathToData>
     <Pin>Attacca</Pin>
     <PostgreSQLEdit>Modifica connessione PostgreSQL</PostgreSQLEdit>
@@ -1423,7 +1422,7 @@
     <VistaDBEdit>Edita Connessione VistaDB</VistaDBEdit>
     <VistaDBNew>Nuova Connessione VistaDB</VistaDBNew>
     <XmlEdit>Modifica dati XML</XmlEdit>
-    <XmlNew>Nuovo dati XML</XmlNew>
+    <XmlNew>Nuovi dati XML</XmlNew>
     <XmlType>Tipo XML:</XmlType>
   </FormDatabaseEdit>
   <FormDesigner>
@@ -1485,7 +1484,7 @@
     <DataSetToBusinessObjects>Da DataSet a Business Objects</DataSetToBusinessObjects>
     <DataSourceEdit>Modifica origine dati</DataSourceEdit>
     <DataSourceNew>Nuova origine dati</DataSourceNew>
-    <DataSourcesNew>Nuova origini dati</DataSourcesNew>
+    <DataSourcesNew>Nuove origini dati</DataSourcesNew>
     <DataTransformationEdit>Modifica trasformazione dati</DataTransformationEdit>
     <DataTransformationNew>Nuova trasformazione dati</DataTransformationNew>
     <Delete>Elimina</Delete>
@@ -1510,7 +1509,7 @@
     <InsertColumnRight>Inserisci colonna a destra</InsertColumnRight>
     <LabelSeparator>Separatore:</LabelSeparator>
     <MarkUsedItems>Marca oggetti usati</MarkUsedItems>
-    <NewBusinessObject>New Business Object</NewBusinessObject>
+    <NewBusinessObject>Nuovo Business Object</NewBusinessObject>
     <NewItem>Nuovo oggetto</NewItem>
     <OpenAssembly>Apri Assembly</OpenAssembly>
     <Parent>Genitore</Parent>
@@ -1599,7 +1598,7 @@
   </FormGlobalizationEditor>
   <FormInteraction>
     <HyperlinkExternalDocuments>Collegamento ipertestuale a documento esterno</HyperlinkExternalDocuments>
-    <HyperlinkUsingInteractionBookmark>Collegamento ipertestuale con seganlibro</HyperlinkUsingInteractionBookmark>
+    <HyperlinkUsingInteractionBookmark>Collegamento ipertestuale con segnalibro</HyperlinkUsingInteractionBookmark>
     <HyperlinkUsingInteractionTag>Collegamento ipertestuale con Tag</HyperlinkUsingInteractionTag>
   </FormInteraction>
   <FormOptions>
@@ -1614,7 +1613,7 @@
     <DefaultScriptMode>Modalità script predefinita</DefaultScriptMode>
     <DesignSize>Dimensione design</DesignSize>
     <Drawing>Disegno</Drawing>
-    <DrawMarkersWhenMoving>Disegnare i marker dei componenti al movimente</DrawMarkersWhenMoving>
+    <DrawMarkersWhenMoving>Disegnare i marker dei componenti al movimento</DrawMarkersWhenMoving>
     <EditAfterInsert>Editare dopo l'inserimento</EditAfterInsert>
     <EnableAutoSaveMode>Attiva Salvataggio Automatico</EnableAutoSaveMode>
     <FillBands>Riempire le band</FillBands>
@@ -1709,7 +1708,7 @@
     <Size>Dimensione</Size>
     <title>Imposta pagina</title>
     <Top>Superiore:</Top>
-    <Width>Spessore:</Width>
+    <Width>Larghezza:</Width>
   </FormPageSetup>
   <FormReportSetup>
     <groupDates>Una data di creazione report e una data dell'ultima modifica del report</groupDates>
@@ -1738,7 +1737,7 @@
     <AddCollectionName>Aggiungi nome raccolta</AddCollectionName>
     <ApplyStyleCollectionToReportComponents>Applica una raccolta di stili ai componenti del report</ApplyStyleCollectionToReportComponents>
     <ApplyStyles>Applica stili</ApplyStyles>
-    <ColorCollectionEditor>EEditor insieme di colori</ColorCollectionEditor>
+    <ColorCollectionEditor>Editor insieme di colori</ColorCollectionEditor>
     <CreateNewComponentStyle>per creare un nuovo stile componente</CreateNewComponentStyle>
     <CreateStyleCollection>Crea una raccolta di stili</CreateStyleCollection>
     <CreateStyleOnBase>Crea uno stile basato su un altro stile</CreateStyleOnBase>
@@ -1786,14 +1785,14 @@
     <DataSourceSelectForm>Selezione origine dati</DataSourceSelectForm>
     <DataSourcesNewForm>Nuovo origine dati</DataSourcesNewForm>
     <DataStoreViewerForm>Archivio dati</DataStoreViewerForm>
-    <DesignerApplication>Report Designer</DesignerApplication>
+    <DesignerApplication>Designer di report</DesignerApplication>
     <EventEditorForm>Editor evento</EventEditorForm>
     <ExpressionEditorForm>Editor espressione</ExpressionEditorForm>
     <GroupConditionForm>Condizione Raggruppamento</GroupConditionForm>
     <InteractionDrillDownPageSelectForm>Seleziona pagina di Drill-Down</InteractionDrillDownPageSelectForm>
     <MasterComponentSelectForm>Seleziona componente master</MasterComponentSelectForm>
     <PageAddForm>Aggiungi pagina</PageAddForm>
-    <PageSizeForm>Dimesione Pagina</PageSizeForm>
+    <PageSizeForm>Dimensione Pagina</PageSizeForm>
     <PagesManagerForm>Gestore Pagine</PagesManagerForm>
     <PromptForm>Inserisci le informazioni per loggare nel database</PromptForm>
     <ReportWizard>Autocomposizione Report</ReportWizard>
@@ -1820,7 +1819,6 @@
     <FullScreen>Schermo Intero</FullScreen>
     <GoToPage>Vai alla Pagina </GoToPage>
     <HorScrollBar>Barra di Scorrimento Orizzontale</HorScrollBar>
-    <JumpToPage>Salta alla Pagina</JumpToPage>
     <LabelPageN>Pagina:</LabelPageN>
     <LastPage>Ultima pagina</LastPage>
     <NextPage>Pagina successiva</NextPage>
@@ -1987,7 +1985,7 @@
     <sys_morebuttons>Altri pulsanti</sys_morebuttons>
   </Gui>
   <HelpComponents>
-    <StiBarCode>Questo componente permette di mostrare codici a barre in un report.I dati del codice a barre sono inviate ad un oggetto in formato stringa. La stringa pu contenere qualsiasi simbolo ma solo quelli permessi per il grafico selezionato possono essere visualizzati.</StiBarCode>
+    <StiBarCode>Questo componente permette di mostrare codici a barre in un report. I dati del codice a barre sono inviati a un oggetto in formato stringa. La stringa può contenere qualsiasi simbolo ma solo quelli permessi per il tipo di codice a barre selezionato possono essere visualizzati.</StiBarCode>
     <StiButtonElement>Questo elemento viene utilizzato per eseguire uno script evento quando l'utente interagisce.</StiButtonElement>
     <StiButtonUI>Un pulsante usato per attivare un'azione o avviare un comando.</StiButtonUI>
     <StiCardsElement>Questo elemento viene utilizzato per visualizzare dati raggruppati come carte.</StiCardsElement>
@@ -2052,7 +2050,7 @@
     <StiRadioGroupUI>Un gruppo di opzioni usato per selezionare una singola opzione da un set predefinito di valori.</StiRadioGroupUI>
     <StiRangeSelectorElement>Questo componente viene utilizzato per selezionare un intervallo di valori su una scala o una linea temporale. Consente agli utenti di definire visivamente i limiti minimo e massimo dell’intervallo.</StiRangeSelectorElement>
     <StiRangeSliderUI>Un cursore a intervallo usato per definire valori minimi e massimi su una scala.</StiRangeSliderUI>
-    <StiRectanglePrimitive>TQuesto componente  utilizzato per visualizzare rettangoli.</StiRectanglePrimitive>
+    <StiRectanglePrimitive>Questo componente è utilizzato per visualizzare rettangoli.</StiRectanglePrimitive>
     <StiRegionMapElement>Questo elemento viene utilizzato per visualizzare dati geograficamente mirati.</StiRegionMapElement>
     <StiReportSummaryBand>Questa banda  utilizzata per visualizzare riepiloghi dell'intero report. E' visualizzata una sola volta alla fine del report.</StiReportSummaryBand>
     <StiReportTitleBand>Questa banda  utilizzata per visualizzare il titolo del report. E' visualizzata all'inizio del report.</StiReportTitleBand>
@@ -2099,14 +2097,14 @@
     <AlignToGrid>Allinea i componenti selezionati ai nodi della griglia.</AlignToGrid>
     <AlignTop>Allinea il contenuto di un componente in alto.</AlignTop>
     <AlignWidth>Giustifica il contenuto di un componente.</AlignWidth>
-    <Angle>RuotaRotate il contenuto di un componente.</Angle>
+    <Angle>Ruota il contenuto di un componente.</Angle>
     <AngleWatermark>L'angolo di rotazione del testo della filigrana.</AngleWatermark>
     <Background>Cambia lo sfondo dei componenti selezionati.</Background>
     <biConditions>Controlla la lista di condizioni dei componenti selezionati.</biConditions>
     <BorderColor>Seleziona il colore del bordo del componente selezionato.</BorderColor>
     <BorderSidesAll>Cambia il bordo in tutti i lati dei componenti selezionati.</BorderSidesAll>
     <BorderSidesBottom>Cambia il bordo nel lato inferiore dei componenti selezionati.</BorderSidesBottom>
-    <BorderSidesLeft>Cambia il bordo le lato sinistro dei componenti selezionati.</BorderSidesLeft>
+    <BorderSidesLeft>Cambia il bordo nel lato sinistro dei componenti selezionati.</BorderSidesLeft>
     <BorderSidesNone>Spegne il bordo in tutti i lati dei componenti selezionati.</BorderSidesNone>
     <BorderSidesRight>Cambia il bordo nel lato destro dei componenti selezionati.</BorderSidesRight>
     <BorderSidesTop>Cambia il bordo nel lato superiore dei componenti selezionati.</BorderSidesTop>
@@ -2227,7 +2225,7 @@
     <ScriptSecurityFullAccess>Accesso completo agli script (senza restrizioni, potenzialmente non sicuro).</ScriptSecurityFullAccess>
     <ScriptSecuritySafeMode>Accesso sicuro agli script (funzionalità limitate per motivi di sicurezza).</ScriptSecuritySafeMode>
     <SelectAll>Seleziona tutti i componenti nella pagina corrente.</SelectAll>
-    <SelectUILanguage>Seleziona la lingua dellla UI.</SelectUILanguage>
+    <SelectUILanguage>Seleziona la lingua della UI.</SelectUILanguage>
     <SendToBack>Sposta il componente selezionato in secondo piano relativamente agli altri componenti.</SendToBack>
     <ServicesConfigurator>Esegue il Configuratore di Servizi.</ServicesConfigurator>
     <Shadow>Mostra l'ombra di un componente.</Shadow>
@@ -2255,9 +2253,9 @@
     <StiCheckedListBoxControl>Mostra l'oggetto Lista, in cui a sinistra di ogni elemento viene mostrata una checkbox.</StiCheckedListBoxControl>
     <StiComboBoxControl>Rappresenta la ComboBox che  usata sia per inserire un valore direttamente nel controllo, sia per scegliere dalla lista di opzioni esistenti.</StiComboBoxControl>
     <StiDateTimePickerControl>Rappresenta il controllo che permette di selezionare data e ora. Permette inoltre di mostrare data e ora in un formato specifico.</StiDateTimePickerControl>
-    <StiGridControl>Rappresenta il controllo Griglia formato che consiste in righe e colonne.</StiGridControl>
+    <StiGridControl>Rappresenta il controllo Griglia che consiste in righe e colonne.</StiGridControl>
     <StiGroupBoxControl>Rappresenta il controllo che crea un contenitore con bordi e un'intestazione per il contenuto.</StiGroupBoxControl>
-    <StiLabelControl>Un etichetta  un controllo di interfaccia utente che mostra un testo in un form. E' abitualmente un controllo statico senza interazione.</StiLabelControl>
+    <StiLabelControl>Un'etichetta è un controllo di interfaccia utente che mostra un testo in un form. È abitualmente un controllo statico senza interazione.</StiLabelControl>
     <StiListBoxControl>Contiene la lista di elementi per la selezione.</StiListBoxControl>
     <StiListViewControl>Rappresenta il controllo ListView che mostra una lista di elementi.</StiListViewControl>
     <StiLookUpBoxControl>Contiene la lista di elementi per la selezione.</StiLookUpBoxControl>
@@ -2270,7 +2268,7 @@
     <StiTreeViewControl>Rappresenta il controllo che  utilizzato per mostrare dati gerarchici come albero.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
-    <AddPageBreaks>Saparatore visuale delle pagine del report.</AddPageBreaks>
+    <AddPageBreaks>Separatore visuale delle pagine del report.</AddPageBreaks>
     <AllowAddOrModifyTextAnnotations>Accesso limitato alle annotazioni sul documento.</AllowAddOrModifyTextAnnotations>
     <AllowCopyTextAndGraphics>Accesso limitato alla copia delle informazioni.</AllowCopyTextAndGraphics>
     <AllowEditable>Consenti modifica dei soli componenti che hanno la proprietà Editable abilitata.</AllowEditable>
@@ -2306,7 +2304,7 @@
     <ExportModeRtf>Presentazione dei dati del report dopo l'esportazione. Tabella - il report apparirà simile ad una tabella, dove ogni compomente del report rappresenta una cella della tabella. Frame - ogni componente apparirà come un frame singolo, ma senza alcuna relazione fra essi.</ExportModeRtf>
     <ExportObjectFormatting>Applica formattazione ai dati esportati dalle Data bands (Table component, Hierachical band).</ExportObjectFormatting>
     <ExportPageBreaks>Mostra i bordi delle pagine del report sul foglio di Excel.</ExportPageBreaks>
-    <ExportRtfTextAsImage>Converti il testo RTF in immagine. Se l'opzione è abilitata, esportando, il RichText si rende compatibile con il formato PDF. il RichText con formattazione complessa (immagini incorporate, tabelle) potrebbe non essere convertito correttamente. In questo caso si raccomanda abilitare questa opzione.</ExportRtfTextAsImage>
+    <ExportRtfTextAsImage>Converti il testo RTF in immagine. Se l'opzione è disabilitata, esportando, il RichText si scompone in primitivi più semplici supportati dal formato PDF. Il RichText con formattazione complessa (immagini incorporate, tabelle) potrebbe non essere convertito correttamente. In questo caso si raccomanda di abilitare questa opzione.</ExportRtfTextAsImage>
     <Find>Cerca un testo nel report.</Find>
     <FullScreen>Lettura a Schermo Intero.</FullScreen>
     <GetCertificateFromCryptoUI>Usa l'interfacia della libreria crittografica di sistema.</GetCertificateFromCryptoUI>
@@ -2344,10 +2342,10 @@
     <ScaleHtml>La dimensione (scala) delle pagine e degli oggetti del report dopo l'esportazione.</ScaleHtml>
     <ScaleImage>La dimensione (scala) del report dopo l'esportazione. Minore è la scala, maggiore è il numero di pixels per inch, e viceversa.</ScaleImage>
     <SendEMail>Invia un report via Email.</SendEMail>
-    <Separator>Separtatore di dati nel file CSV.</Separator>
+    <Separator>Separatore di dati nel file CSV.</Separator>
     <SkipColumnHeaders>Abilita/Disabilita le intestazioni di colonna.</SkipColumnHeaders>
     <StandardPdfFonts>14 standard Adobe fonts. Se questa opzione è abilitata, solo i 14 fonts standard saranno utilizzati nel file PDF. Tutti i fonts del report saranno convertiti con questi.</StandardPdfFonts>
-    <SubjectNameString>Identificatore di certificato. L'identificatore è il nome del proprietario del certificato (full line) o una parte del nome (substring).</SubjectNameString>
+    <SubjectNameString>Identificatore di certificato. L'identificatore è il nome del proprietario del certificato (riga completa) o una parte del nome (sottostringa).</SubjectNameString>
     <Thumbnails>Mostra le miniature che possono essere usate per la navigazione rapida per trovare e saltare alla sezione del report desiderata.</Thumbnails>
     <TiffCompressionScheme>Schema di compressione per file TIFF.</TiffCompressionScheme>
     <ToolEditor>Questo strumento ti permette di modificare i contenuti del testo direttamente dal visualizzatore del report.</ToolEditor>
@@ -2400,7 +2398,7 @@
     <menuEditCut>Taglia</menuEditCut>
     <menuEditDataParameterNew>Nuovo Parametro...</menuEditDataParameterNew>
     <menuEditDataSourceNew>Nuova origine dati</menuEditDataSourceNew>
-    <menuEditDataSourcesNew>Nuova origine dati</menuEditDataSourcesNew>
+    <menuEditDataSourcesNew>Nuove origini dati...</menuEditDataSourcesNew>
     <menuEditDataTransformationNew>Nuova trasformazione dati...</menuEditDataTransformationNew>
     <menuEditDelete>Elimina</menuEditDelete>
     <menuEditEdit>Modifica</menuEditEdit>
@@ -2417,7 +2415,7 @@
     <menuEditSynchronize>Sincronizza</menuEditSynchronize>
     <menuEditUndo>Annulla</menuEditUndo>
     <menuEditUndoText>Annulla {0}</menuEditUndoText>
-    <menuEditVariableNew>Nuovo variabile...</menuEditVariableNew>
+    <menuEditVariableNew>Nuova variabile...</menuEditVariableNew>
     <menuEditViewData>Visualizza dati...</menuEditViewData>
     <menuEmbedAllDataToResources>Incorpora tutti i dati nelle risorse</menuEmbedAllDataToResources>
     <menuFile>File</menuFile>
@@ -2434,7 +2432,7 @@
     <menuFileMerge>Unisci...</menuFileMerge>
     <menuFileMergeXMLSchema>Aggiungi XML Schema...</menuFileMergeXMLSchema>
     <menuFileNew>Nuovo</menuFileNew>
-    <menuFileOpen>Apri query...</menuFileOpen>
+    <menuFileOpen>Apri...</menuFileOpen>
     <menuFilePageDelete>Elimina pagina</menuFilePageDelete>
     <menuFilePageNew>Nuova pagina</menuFilePageNew>
     <menuFilePageOpen>Apri pagina...</menuFilePageOpen>
@@ -2490,7 +2488,7 @@
     <menuViewPageBreakPreview>Anteprima interruzioni di pagina</menuViewPageBreakPreview>
     <menuViewQuickInfo>Informazioni rapide</menuViewQuickInfo>
     <menuViewQuickInfoNone>Nessuna</menuViewQuickInfoNone>
-    <menuViewQuickInfoOverlay>Componenti eccessivi dell'esposizione</menuViewQuickInfoOverlay>
+    <menuViewQuickInfoOverlay>Mostra sopra i componenti</menuViewQuickInfoOverlay>
     <menuViewQuickInfoShowAliases>Mostra Alias</menuViewQuickInfoShowAliases>
     <menuViewQuickInfoShowComponentsNames>Mostra nome componenti</menuViewQuickInfoShowComponentsNames>
     <menuViewQuickInfoShowContent>Mostra contenuti</menuViewQuickInfoShowContent>
@@ -2572,8 +2570,7 @@
     <AuthCantDeleteHimselfUser>L'utente non può eliminare se stesso!</AuthCantDeleteHimselfUser>
     <AuthCantDeleteLastAdministratorUser>L'utente non può essere eliminato perché è l'ultimo amministratore in quest'area di lavoro!</AuthCantDeleteLastAdministratorUser>
     <AuthCantDeleteLastSupervisorUser>L'utente non può essere eliminato perché è l'ultimo supervisore su questo server!</AuthCantDeleteLastSupervisorUser>
-    <AuthCantDeleteRootUser>L'utente root non può essere eliminato!</AuthCantDeleteRootUser>
-    <AuthCantDeleteSystemRole>Impossibile eliminatere questo Ruolo, perchè è un ruolo di sistema!</AuthCantDeleteSystemRole>
+    <AuthCantDeleteSystemRole>Impossibile eliminare questo Ruolo, perché è un ruolo di sistema!</AuthCantDeleteSystemRole>
     <AuthCantDisableUserBecauseLastAdministratorUser>L'utente non può essere disabilitato perché è l'ultimo amministratore in quest'area di lavoro!</AuthCantDisableUserBecauseLastAdministratorUser>
     <AuthCantDisableUserBecauseLastSupervisorUser>L'utente non può essere disabilitato perché è l'ultimo supervisore su questo server!</AuthCantDisableUserBecauseLastSupervisorUser>
     <AuthFirstNameIsNotSpecified>Il Nome non è specificato!</AuthFirstNameIsNotSpecified>
@@ -2584,14 +2581,13 @@
     <AuthPasswordIsTooLong>La password è troppo lunga!</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>La password è troppo corta (minimo 6 caratteri)!</AuthPasswordIsTooShort>
     <AuthRequestsLimitIsExceeded>Limite di richieste superato! Contatta il nostro reparto vendite a sales@stimulsoft.com!</AuthRequestsLimitIsExceeded>
-    <AuthRoleCantBeDeletedBecauseUsedByUsers>Non puoi rimuovere il Ruolo pechè è usato da altri utenti.</AuthRoleCantBeDeletedBecauseUsedByUsers>
+    <AuthRoleCantBeDeletedBecauseUsedByUsers>Non puoi rimuovere il Ruolo perché è usato da altri utenti.</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>Un Ruolo col nome "{0}" esiste già!</AuthRoleNameAlreadyExists>
     <AuthRoleNameIsSystemRole>Il Ruolo col nome "{0}" è un ruolo di sistema!</AuthRoleNameIsSystemRole>
     <AuthSendMessageWithInstructions>Un messaggio con ulteriori informazioni è stato inviato a "{0}"!</AuthSendMessageWithInstructions>
     <AuthTokenIsNotCorrect>Il token non è corretto!</AuthTokenIsNotCorrect>
     <AuthUserHasLoggedOut>Ti sei disconnesso!</AuthUserHasLoggedOut>
     <AuthUserHasLoggedOutPrevDevice>Sei stato disconnesso perché è stato rilevato un accesso da un altro dispositivo!</AuthUserHasLoggedOutPrevDevice>
-    <AuthUserNameAlreadyExist>Il nome utente (Email) è già in uso!</AuthUserNameAlreadyExist>
     <AuthUserNameAlreadyExists>Il nome utente (Email) è già in uso!</AuthUserNameAlreadyExists>
     <AuthUserNameEmailIsBlocked>Questo indirizzo email non può essere utilizzato!</AuthUserNameEmailIsBlocked>
     <AuthUserNameIsNotSpecified>Il nome utente (Email) non è specificato!</AuthUserNameIsNotSpecified>
@@ -2606,8 +2602,6 @@
     <DeveloperInformation>Informazioni sviluppatore</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>La data di fine deve essere maggiore della data corrente!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>La data di fine deve essere maggiore della data di inizio!</EndDateShouldBeGreaterThanStartDate>
-    <EnterCurrentPassword>Inserisci la password corrente!</EnterCurrentPassword>
-    <EnterNewPassword>Inserisci la nuova password!</EnterNewPassword>
     <Error>Errore</Error>
     <ExecutionError>Errore di esecuzione</ExecutionError>
     <ExpressionValidationFailed>Convalida dell'espressione non riuscita.</ExpressionValidationFailed>
@@ -2623,7 +2617,6 @@
     <IsRequiredFile>Devi aggiungere almeno un file!</IsRequiredFile>
     <ItemCantBeAttachedToItself>L'elemento non può essere allegato a se stesso!</ItemCantBeAttachedToItself>
     <ItemCantBeDeletedBecauseItemIsAttachedToOtherItems>Gli elementi "{0}" non possono essere eliminati perché sono allegati ad altri elementi!</ItemCantBeDeletedBecauseItemIsAttachedToOtherItems>
-    <ItemCantBeDeletedBecausePermissionsRole>Non puoi rimuovere i seguenti items: </ItemCantBeDeletedBecausePermissionsRole>
     <ItemCantBeMovedToSpecifiedPlace>L'item non può essere spostato nel posto specificato!</ItemCantBeMovedToSpecifiedPlace>
     <ItemDoesNotSupport>L'item non supporta "{0}"!</ItemDoesNotSupport>
     <KeyAndToKeyAreEqual>Key e ToKey sono uguali!</KeyAndToKeyAreEqual>
@@ -2674,7 +2667,7 @@
     <NotificationTitleItemTransferring>Trasferimento elemento "{0}"</NotificationTitleItemTransferring>
     <NotificationTitleMailing>Invio "{0}"</NotificationTitleMailing>
     <NotificationTitleReportExporting>Esportazione report "{0}"</NotificationTitleReportExporting>
-    <NotificationTitleReportRendering>Elaborazione il report "{0}"</NotificationTitleReportRendering>
+    <NotificationTitleReportRendering>Elaborazione del report "{0}"</NotificationTitleReportRendering>
     <NotificationTitleSchedulerRunning>Esecuzione schedulatore "{0}"</NotificationTitleSchedulerRunning>
     <NotificationTransferring>Il "{0}" sta trasferendo a "{1}".</NotificationTransferring>
     <NotificationTransferringComplete>Il "{0}" è stato trasferito con successo a "{1}".</NotificationTransferringComplete>
@@ -2685,21 +2678,14 @@
     <OutOfRange>Fuori dai limiti ("{0}")!</OutOfRange>
     <ParsingCommandException>Eccezione durante il processo del comando nell'xml specificato: {0}</ParsingCommandException>
     <PleaseLogin>Accedi con le credenziali del tuo account Stimulsoft o registrati prima di pubblicare il report.</PleaseLogin>
-    <QuotaAvailableSpaceAmountExceeded>quota spazio disponibile superata.</QuotaAvailableSpaceAmountExceeded>
     <QuotaMaximumComputingCyclesCountExceeded>Massimo numero di cicli di elaborazione superato.</QuotaMaximumComputingCyclesCountExceeded>
     <QuotaMaximumDataRowsCountExceeded>Superato il numero massimo di righe dati in un'origine dati.</QuotaMaximumDataRowsCountExceeded>
-    <QuotaMaximumDataSourceItemCountExceeded>Massima quantità di Fonti Dati superata.</QuotaMaximumDataSourceItemCountExceeded>
-    <QuotaMaximumEmailCountExceeded>Massimo numero di email superato.</QuotaMaximumEmailCountExceeded>
     <QuotaMaximumFileSizeExceeded>Superata la dimensione massima del file.</QuotaMaximumFileSizeExceeded>
-    <QuotaMaximumItemCountExceeded>Massimo numero di item superato.</QuotaMaximumItemCountExceeded>
     <QuotaMaximumItemsCountExceeded>Superato il numero massimo di elementi.</QuotaMaximumItemsCountExceeded>
     <QuotaMaximumRefreshCountExceeded>Superato il numero massimo di aggiornamenti</QuotaMaximumRefreshCountExceeded>
     <QuotaMaximumReportPagesCountExceeded>Superato il numero massimo di pagine report.</QuotaMaximumReportPagesCountExceeded>
     <QuotaMaximumResourcesCountExceeded>Superato il numero massimo di risorse.</QuotaMaximumResourcesCountExceeded>
     <QuotaMaximumResourceSizeExceeded>Superata la dimensione massima della risorsa.</QuotaMaximumResourceSizeExceeded>
-    <QuotaMaximumRoleCountExceeded>Massimo numero di ruoli superato.</QuotaMaximumRoleCountExceeded>
-    <QuotaMaximumSchedulersCountExceeded>Massimo numero di schedulatori superato.</QuotaMaximumSchedulersCountExceeded>
-    <QuotaMaximumUserCountExceeded>Massimo numero di utenti superato.</QuotaMaximumUserCountExceeded>
     <QuotaMaximumUsersCountExceeded>Superato il numero massimo di utenti.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>Superato il numero massimo di aree di lavoro.</QuotaMaximumWorkspacesCountExceeded>
     <SchedulerCantRunItSelf>Lo schedulatore non può eseguire se stesso!</SchedulerCantRunItSelf>
@@ -2751,7 +2737,7 @@
     <Downloads>Downloads:</Downloads>
     <IAccept>Accetto</IAccept>
     <IDecline>Rifiuto</IDecline>
-    <LicenceFormDesc>Il seguente paccehtto richiede che accetti i termini della licenza prima dell'installazione.</LicenceFormDesc>
+    <LicenceFormDesc>Il seguente pacchetto richiede che accetti i termini della licenza prima dell'installazione.</LicenceFormDesc>
     <LicenceFormDesc1>Cliccando "Accetto" sottoscrivi i termini della licenza per il pacchetto qui elencato. Se non desidere sottoscrivere i termini della licenza clicca "Rifiuto".</LicenceFormDesc1>
     <LicenceFormTitle>Accettazione licenza</LicenceFormTitle>
     <License>Licenza:</License>
@@ -2772,7 +2758,7 @@
     <gbPassword>Crittografia file</gbPassword>
     <lbPasswordLoad>Inserisci la password per aprire il file</lbPasswordLoad>
     <lbPasswordSave>Password:</lbPasswordSave>
-    <PasswordNotEntered>La password non  inserita</PasswordNotEntered>
+    <PasswordNotEntered>La password non è inserita</PasswordNotEntered>
     <StiLoadPasswordForm>crittografia Documento</StiLoadPasswordForm>
     <StiSavePasswordForm>Password</StiSavePasswordForm>
   </Password>
@@ -2858,7 +2844,7 @@
     <EngineCategory>Motore</EngineCategory>
     <ExportCategory>Esportazione</ExportCategory>
     <ExportEventsCategory>Eventi di Esportazione</ExportEventsCategory>
-    <FooterTableCategory>Pié di pagina Tabella</FooterTableCategory>
+    <FooterTableCategory>Piè di pagina Tabella</FooterTableCategory>
     <GaugeCategory>Indicatore</GaugeCategory>
     <GlobalizationCategory>Globalizzazione</GlobalizationCategory>
     <GridLinesCategory>Linee griglia</GridLinesCategory>
@@ -2867,7 +2853,7 @@
     <ImageAdditionalCategory>Immagine Supplementare</ImageAdditionalCategory>
     <ImageCategory>Immagine</ImageCategory>
     <IndicatorCategory>Indicatore</IndicatorCategory>
-    <InterlacingCategory>Interllacciamento</InterlacingCategory>
+    <InterlacingCategory>Interlacciamento</InterlacingCategory>
     <LabelsCategory>Etichette</LabelsCategory>
     <LegendCategory>legenda</LegendCategory>
     <LinearScaleBarCategory>Barra scala lineare</LinearScaleBarCategory>
@@ -2880,7 +2866,7 @@
     <MiscCategory>Altre</MiscCategory>
     <MouseEventsCategory>Mouse</MouseEventsCategory>
     <NavigationCategory>Spostamento</NavigationCategory>
-    <NavigationEventsCategory>Spostamento tra Eventi</NavigationEventsCategory>
+    <NavigationEventsCategory>Eventi di spostamento</NavigationEventsCategory>
     <Needle>Ago</Needle>
     <NeedleCategory>Ago</NeedleCategory>
     <OnlineMapCategory>Mappa online</OnlineMapCategory>
@@ -2917,7 +2903,7 @@
     <ValueCategory>Valore</ValueCategory>
     <ValueCloseCategory>Valore chiusura</ValueCloseCategory>
     <ValueEndCategory>Fine Valore</ValueEndCategory>
-    <ValueEventsCategory>Valore</ValueEventsCategory>
+    <ValueEventsCategory>Eventi valore</ValueEventsCategory>
     <ValueHighCategory>Valore massimo</ValueHighCategory>
     <ValueLowCategory>Valore minimo</ValueLowCategory>
     <ValueOpenCategory>Valore apertura</ValueOpenCategory>
@@ -2941,7 +2927,7 @@
     <Brown>Marrone</Brown>
     <BurlyWood>Tabacco chiaro</BurlyWood>
     <CadetBlue>Verde petrolio</CadetBlue>
-    <Carmine>Carmine</Carmine>
+    <Carmine>Carminio</Carmine>
     <Chartreuse>Verde brillante</Chartreuse>
     <Chocolate>Ruggine</Chocolate>
     <Coral>Rosso corallo</Coral>
@@ -3083,8 +3069,8 @@
     <ChartGridLinesAll>Tutte</ChartGridLinesAll>
     <ChartGridLinesMajor>Maggiore</ChartGridLinesMajor>
     <ChartGridLinesNone>Nessuna</ChartGridLinesNone>
-    <ComboBoxStyleDropDown>Drop Down</ComboBoxStyleDropDown>
-    <ComboBoxStyleDropDownList>Drop Down List</ComboBoxStyleDropDownList>
+    <ComboBoxStyleDropDown>Elenco a discesa</ComboBoxStyleDropDown>
+    <ComboBoxStyleDropDownList>Solo elenco a discesa</ComboBoxStyleDropDownList>
     <ComboBoxStyleSimple>Semplice</ComboBoxStyleSimple>
     <ContentAlignmentBottomCenter>In basso al centro</ContentAlignmentBottomCenter>
     <ContentAlignmentBottomLeft>In basso a sinistra</ContentAlignmentBottomLeft>
@@ -3094,12 +3080,12 @@
     <ContentAlignmentMiddleRight>In mezzo a destra</ContentAlignmentMiddleRight>
     <ContentAlignmentTopCenter>In alto al centro</ContentAlignmentTopCenter>
     <ContentAlignmentTopLeft>In alto a sinistra</ContentAlignmentTopLeft>
-    <ContentAlignmentTopRight>In altro a destra</ContentAlignmentTopRight>
+    <ContentAlignmentTopRight>In alto a destra</ContentAlignmentTopRight>
     <DataGridLineStyleNone>Nessuno</DataGridLineStyleNone>
     <DataGridLineStyleSolid>Tinta unita</DataGridLineStyleSolid>
     <DateTimePickerFormatCustom>Personalizzato</DateTimePickerFormatCustom>
-    <DateTimePickerFormatLong>Max</DateTimePickerFormatLong>
-    <DateTimePickerFormatShort>Min</DateTimePickerFormatShort>
+    <DateTimePickerFormatLong>Lungo</DateTimePickerFormatLong>
+    <DateTimePickerFormatShort>Corto</DateTimePickerFormatShort>
     <DateTimePickerFormatTime>Tempo</DateTimePickerFormatTime>
     <DialogResultAbort>Interrompi</DialogResultAbort>
     <DialogResultCancel>Annulla</DialogResultCancel>
@@ -3109,12 +3095,6 @@
     <DialogResultOK>OK</DialogResultOK>
     <DialogResultRetry>Riprova</DialogResultRetry>
     <DialogResultYes>Sì</DialogResultYes>
-    <DockStyleBottom>Basso</DockStyleBottom>
-    <DockStyleFill>Riempimento</DockStyleFill>
-    <DockStyleLeft>A sinistra</DockStyleLeft>
-    <DockStyleNone>Nessuna</DockStyleNone>
-    <DockStyleRight>A destra</DockStyleRight>
-    <DockStyleTop>Alto</DockStyleTop>
     <DuplexDefault>Default</DuplexDefault>
     <DuplexHorizontal>Orizzontale</DuplexHorizontal>
     <DuplexSimplex>Semplice</DuplexSimplex>
@@ -3226,16 +3206,16 @@
     <StiCheckStyleNoneCircle>Cerchio Vuoto</StiCheckStyleNoneCircle>
     <StiCheckStyleNoneRectangle>Rettangolo Vuoto</StiCheckStyleNoneRectangle>
     <StiCheckSumNo>No</StiCheckSumNo>
-    <StiCheckSumYes>Si</StiCheckSumYes>
+    <StiCheckSumYes>Sì</StiCheckSumYes>
     <StiCode11CheckSumAuto>Auto</StiCode11CheckSumAuto>
     <StiCode11CheckSumNone>Nessuno</StiCode11CheckSumNone>
     <StiCode11CheckSumOneDigit>Una Cifra</StiCode11CheckSumOneDigit>
     <StiCode11CheckSumTwoDigits>Due Cifre</StiCode11CheckSumTwoDigits>
     <StiColorScaleTypeColor2>2-Scala di colore</StiColorScaleTypeColor2>
     <StiColorScaleTypeColor3>3-Scala di colore</StiColorScaleTypeColor3>
-    <StiColumnDirectionAcrossThenDown>Attraverso allora giù</StiColumnDirectionAcrossThenDown>
-    <StiColumnDirectionDownThenAcross>Giù allora attraverso</StiColumnDirectionDownThenAcross>
-    <StiColumnShape3DBox>Box</StiColumnShape3DBox>
+    <StiColumnDirectionAcrossThenDown>A destra poi in basso</StiColumnDirectionAcrossThenDown>
+    <StiColumnDirectionDownThenAcross>In basso poi a destra</StiColumnDirectionDownThenAcross>
+    <StiColumnShape3DBox>Rettangolo</StiColumnShape3DBox>
     <StiColumnShape3DPartialPyramid>Piramide parziale</StiColumnShape3DPartialPyramid>
     <StiColumnShape3DPyramid>Piramide</StiColumnShape3DPyramid>
     <StiColumnTypeProcessingCastToColumnType>Converti in tipo colonna</StiColumnTypeProcessingCastToColumnType>
@@ -3293,9 +3273,9 @@
     <StiDockStyleTop>In Alto</StiDockStyleTop>
     <StiDrillDownModeMultiPage>Pagina multipla</StiDrillDownModeMultiPage>
     <StiDrillDownModeSinglePage>Pagina singola</StiDrillDownModeSinglePage>
-    <StiEanSupplementTypeFiveDigit>FiveDigit</StiEanSupplementTypeFiveDigit>
+    <StiEanSupplementTypeFiveDigit>Cinque cifre</StiEanSupplementTypeFiveDigit>
     <StiEanSupplementTypeNone>Nessuno</StiEanSupplementTypeNone>
-    <StiEanSupplementTypeTwoDigit>TwoDigit</StiEanSupplementTypeTwoDigit>
+    <StiEanSupplementTypeTwoDigit>Due cifre</StiEanSupplementTypeTwoDigit>
     <StiEmptyCellsAsConnectPointsWithLine>Collega punti con linea</StiEmptyCellsAsConnectPointsWithLine>
     <StiEmptyCellsAsGap>Vuoto</StiEmptyCellsAsGap>
     <StiEmptyCellsAsZero>Zero</StiEmptyCellsAsZero>
@@ -3460,7 +3440,7 @@
     <StiMarkerTypeStar5>Stella 5</StiMarkerTypeStar5>
     <StiMarkerTypeStar6>Stella 6</StiMarkerTypeStar6>
     <StiMarkerTypeStar7>Stella 7</StiMarkerTypeStar7>
-    <StiMarkerTypeStar8>Star 8</StiMarkerTypeStar8>
+    <StiMarkerTypeStar8>Stella 8</StiMarkerTypeStar8>
     <StiMarkerTypeTriangle>Triangolo</StiMarkerTypeTriangle>
     <StiNavigatorButtonVisibilityCancel>Annulla</StiNavigatorButtonVisibilityCancel>
     <StiNavigatorButtonVisibilityDelete>Elimina</StiNavigatorButtonVisibilityDelete>
@@ -3469,7 +3449,7 @@
     <StiNavigatorButtonVisibilityInsert>Inserisci</StiNavigatorButtonVisibilityInsert>
     <StiNavigatorButtonVisibilityLast>Ultimo</StiNavigatorButtonVisibilityLast>
     <StiNavigatorButtonVisibilityNext>Successivo</StiNavigatorButtonVisibilityNext>
-    <StiNavigatorButtonVisibilityPost>Posta</StiNavigatorButtonVisibilityPost>
+    <StiNavigatorButtonVisibilityPost>Applica</StiNavigatorButtonVisibilityPost>
     <StiNavigatorButtonVisibilityPrior>Precedente</StiNavigatorButtonVisibilityPrior>
     <StiNavigatorButtonVisibilityRefresh>Aggiorna</StiNavigatorButtonVisibilityRefresh>
     <StiNestedFactorHigh>Alto</StiNestedFactorHigh>
@@ -3525,8 +3505,8 @@
     <StiPreviewModeStandard>Standard</StiPreviewModeStandard>
     <StiPreviewModeStandardAndDotMatrix>Standard e Matrice di Punti</StiPreviewModeStandardAndDotMatrix>
     <StiPrintOnEvenOddPagesTypeIgnore>Ignora</StiPrintOnEvenOddPagesTypeIgnore>
-    <StiPrintOnEvenOddPagesTypePrintOnEvenPages>Stampa su pagine dispari</StiPrintOnEvenOddPagesTypePrintOnEvenPages>
-    <StiPrintOnEvenOddPagesTypePrintOnOddPages>Stampa su pagine pari</StiPrintOnEvenOddPagesTypePrintOnOddPages>
+    <StiPrintOnEvenOddPagesTypePrintOnEvenPages>Stampa su pagine pari</StiPrintOnEvenOddPagesTypePrintOnEvenPages>
+    <StiPrintOnEvenOddPagesTypePrintOnOddPages>Stampa su pagine dispari</StiPrintOnEvenOddPagesTypePrintOnOddPages>
     <StiPrintOnTypeAllPages>Tutte le Pagine</StiPrintOnTypeAllPages>
     <StiPrintOnTypeExceptFirstAndLastPage>Eccetto Prima e Ultima Pagina</StiPrintOnTypeExceptFirstAndLastPage>
     <StiPrintOnTypeExceptFirstPage>Eccetto Prima Pagina</StiPrintOnTypeExceptFirstPage>
@@ -3534,8 +3514,8 @@
     <StiPrintOnTypeOnlyFirstAndLastPage>Solo Prima e Ultima Pagina</StiPrintOnTypeOnlyFirstAndLastPage>
     <StiPrintOnTypeOnlyFirstPage>Solo Prima Pagina</StiPrintOnTypeOnlyFirstPage>
     <StiPrintOnTypeOnlyLastPage>Solo Ultima Pagina</StiPrintOnTypeOnlyLastPage>
-    <StiProcessAtEndOfPage>FineDellaPagina</StiProcessAtEndOfPage>
-    <StiProcessAtEndOfReport>FineDelReport</StiProcessAtEndOfReport>
+    <StiProcessAtEndOfPage>Fine della pagina</StiProcessAtEndOfPage>
+    <StiProcessAtEndOfReport>Fine del report</StiProcessAtEndOfReport>
     <StiProcessAtNone>Nessuno</StiProcessAtNone>
     <StiProcessingDuplicatesTypeBasedOnTagHide>Nascondi basato sul tag</StiProcessingDuplicatesTypeBasedOnTagHide>
     <StiProcessingDuplicatesTypeBasedOnTagMerge>Unisci basata sul tag</StiProcessingDuplicatesTypeBasedOnTagMerge>
@@ -3592,7 +3572,7 @@
     <StiReportUnitTypeMillimeters>Millimetri</StiReportUnitTypeMillimeters>
     <StiReportUnitTypePixels>Pixels</StiReportUnitTypePixels>
     <StiReportUnitTypePoints>Punti</StiReportUnitTypePoints>
-    <StiRestrictionsAll>Tutt0</StiRestrictionsAll>
+    <StiRestrictionsAll>Tutto</StiRestrictionsAll>
     <StiRestrictionsAllowChange>Consenti Modifiche</StiRestrictionsAllowChange>
     <StiRestrictionsAllowDelete>Consenti Cancellazione</StiRestrictionsAllowDelete>
     <StiRestrictionsAllowMove>Consenti Spostamenti</StiRestrictionsAllowMove>
@@ -3656,7 +3636,7 @@
     <StiSortTypeByDisplayValue>dal Valore di Esposizione</StiSortTypeByDisplayValue>
     <StiSortTypeByValue>da Valore</StiSortTypeByValue>
     <StiSqlSourceTypeStoredProcedure>Stored Procedure</StiSqlSourceTypeStoredProcedure>
-    <StiSqlSourceTypeTable>Tabella</StiSqlSourceTypeTable>
+    <StiSqlSourceTypeTable>Query</StiSqlSourceTypeTable>
     <StiStyleComponentTypeChart>Grafico</StiStyleComponentTypeChart>
     <StiStyleComponentTypeCheckBox>Check Box</StiStyleComponentTypeCheckBox>
     <StiStyleComponentTypeCrossTab>Cross-Tab</StiStyleComponentTypeCrossTab>
@@ -3755,10 +3735,10 @@
     <ClosingFormEvent>Prima della chiusura</ClosingFormEvent>
     <ColumnBeginRenderEvent>All'inizio del render di colonna</ColumnBeginRenderEvent>
     <ColumnEndRenderEvent>Alla fine del render di colonna</ColumnEndRenderEvent>
-    <ConnectedEvent>Connected</ConnectedEvent>
-    <ConnectingEvent>Connecting</ConnectingEvent>
-    <DisconnectedEvent>Disconnected</DisconnectedEvent>
-    <DisconnectingEvent>Disconnecting</DisconnectingEvent>
+    <ConnectedEvent>Connesso</ConnectedEvent>
+    <ConnectingEvent>Connessione</ConnectingEvent>
+    <DisconnectedEvent>Disconnesso</DisconnectedEvent>
+    <DisconnectingEvent>Disconnessione</DisconnectingEvent>
     <DoubleClickEvent>Doppio click</DoubleClickEvent>
     <EndRenderEvent>Alla fine del render</EndRenderEvent>
     <EndValueChangedEvent>Valore finale modificato</EndValueChangedEvent>
@@ -3809,14 +3789,14 @@
     <PrintedEvent>Stampato</PrintedEvent>
     <PrintingEvent>Stampando</PrintingEvent>
     <ProcessCellEvent>Elaborazione celle</ProcessCellEvent>
-    <ProcessChartEvent>Grafico del Processo</ProcessChartEvent>
+    <ProcessChartEvent>Elaborazione grafico</ProcessChartEvent>
     <RefreshingEvent>Aggiornamento in corso</RefreshingEvent>
     <RenderingEvent>Al Render</RenderingEvent>
     <ReportCacheProcessingEvent>Elaborazione cache report</ReportCacheProcessingEvent>
     <SelectedIndexChangedEvent>Alla modifica dell'indice</SelectedIndexChangedEvent>
     <StartValueChangedEvent>Valore iniziale modificato</StartValueChangedEvent>
     <StateRestoreEvent>Ripristino dello stato</StateRestoreEvent>
-    <StateSaveEvent>Stato di risparmio</StateSaveEvent>
+    <StateSaveEvent>Salvataggio dello stato</StateSaveEvent>
     <ValueChangedEvent>Alla modifica del valore</ValueChangedEvent>
   </PropertyEvents>
   <PropertyHatchStyle>
@@ -3902,10 +3882,10 @@
     <AllowSeries>Consenti serie</AllowSeries>
     <AllowSeriesElements>Consenti elementi in serie</AllowSeriesElements>
     <AllowSorting>Ordinamento</AllowSorting>
-    <AllowUseBackColor>Consenti uso del colore nero</AllowUseBackColor>
+    <AllowUseBackColor>Consenti uso del colore di sfondo</AllowUseBackColor>
     <AllowUseBorder>Consenti Uso dei Bordi</AllowUseBorder>
     <AllowUseBorderFormatting>Consenti uso formattazione bordo</AllowUseBorderFormatting>
-    <AllowUseBorderSides>nsenti uso di lati bordati</AllowUseBorderSides>
+    <AllowUseBorderSides>Consenti uso di lati bordati</AllowUseBorderSides>
     <AllowUseBorderSidesFromLocation>Consenti uso di lati bordati da una posizione</AllowUseBorderSidesFromLocation>
     <AllowUseBrush>Consenti Uso dei Pennelli</AllowUseBrush>
     <AllowUseFont>Consenti Uso dei Font</AllowUseFont>
@@ -3933,7 +3913,7 @@
     <Apply>Applica</Apply>
     <Area>Area</Area>
     <Argument>Argomento</Argument>
-    <ArgumentDataColumn>Argomento Valore Colonna</ArgumentDataColumn>
+    <ArgumentDataColumn>Colonna dati argomento</ArgumentDataColumn>
     <ArgumentFormat>Formato argomento</ArgumentFormat>
     <Arguments>Argomenti</Arguments>
     <ArrowHeight>Altezza freccia</ArrowHeight>
@@ -3965,7 +3945,6 @@
     <BandColor>Colore banda</BandColor>
     <BarCodeType>Tipo CodiceBarra</BarCodeType>
     <BasicStyleColor>Stile Colore Base</BasicStyleColor>
-    <BindingColumn>Colonna associata</BindingColumn>
     <Blend>Fondere</Blend>
     <Blocks>Blocchi</Blocks>
     <BodyBrush>Pennello corpo</BodyBrush>
@@ -4036,7 +4015,7 @@
     <CheckSum2>CheckSum2</CheckSum2>
     <Child>Figlio</Child>
     <ChildColumns>Colonne figlio</ChildColumns>
-    <ChildSource>Fonte di dati</ChildSource>
+    <ChildSource>Fonte di dati figlio</ChildSource>
     <City>Città</City>
     <ClearFormat>Cancella formato</ClearFormat>
     <CloneContainer>Contenitore del clone</CloneContainer>
@@ -4091,7 +4070,7 @@
     <CrossFiltering>Filtraggio incrociato</CrossFiltering>
     <Culture>Impostazioni internazionali</Culture>
     <CustomFonts>Font personalizzati</CustomFonts>
-    <CustomFormat>Personalizzata formato</CustomFormat>
+    <CustomFormat>Formato personalizzato</CustomFormat>
     <CutPieList>Lista torta tagliata</CutPieList>
     <Data>Dati</Data>
     <DataAdapter>Scheda dati</DataAdapter>
@@ -4109,7 +4088,7 @@
     <DataField>Campo dati</DataField>
     <DataForeground>Primo piano dati</DataForeground>
     <DataRelation>Relazione</DataRelation>
-    <DataRows>Data Rows</DataRows>
+    <DataRows>Righe dati</DataRows>
     <DataSource>Origine dati</DataSource>
     <DataSources>Origini dati</DataSources>
     <DataTextField>Dati campo testo</DataTextField>
@@ -4131,7 +4110,7 @@
     <Destination>Destinazione</Destination>
     <DetectUrls>Individua Urls</DetectUrls>
     <DeviceWidth>Larghezza dispositivo</DeviceWidth>
-    <DialogResult>Dialog Result</DialogResult>
+    <DialogResult>Risultato finestra di dialogo</DialogResult>
     <Diameter>Diametro</Diameter>
     <Direction>Direzione</Direction>
     <Disabled>Disabilitato</Disabled>
@@ -4148,13 +4127,13 @@
     <DrawLine>Disegna linea</DrawLine>
     <DrillDown>Drill-Down</DrillDown>
     <DrillDownEnabled>Drill-Down Abilitato</DrillDownEnabled>
-    <DrillDownMode>Drill-Down Mode</DrillDownMode>
+    <DrillDownMode>Modalità Drill-Down</DrillDownMode>
     <DrillDownPage>Pagina Drill-Down </DrillDownPage>
     <DrillDownParameter1>Parametro Drill-Down 1</DrillDownParameter1>
     <DrillDownParameter2>Parametro Drill-Down 2</DrillDownParameter2>
     <DrillDownParameter3>Parametro Drill-Down 3</DrillDownParameter3>
-    <DrillDownParameter4>Drill-Down Parameter 4</DrillDownParameter4>
-    <DrillDownParameter5>Drill-Down Parameter 5</DrillDownParameter5>
+    <DrillDownParameter4>Parametro Drill-Down 4</DrillDownParameter4>
+    <DrillDownParameter5>Parametro Drill-Down 5</DrillDownParameter5>
     <DrillDownParameters>Parametri Drill-Down</DrillDownParameters>
     <DrillDownReport>Report Drill-Down</DrillDownReport>
     <DropDownAlign>Allinea elenco a discesa</DropDownAlign>
@@ -4164,8 +4143,8 @@
     <Duplex>Doppio</Duplex>
     <Editable>Modificabile</Editable>
     <Effects>Effetti</Effects>
-    <EmptyBorderBrush>Riempimento senza bordo</EmptyBorderBrush>
-    <EmptyBorderWidth>Larghezza senza bordo</EmptyBorderWidth>
+    <EmptyBorderBrush>Pennello bordo vuoto</EmptyBorderBrush>
+    <EmptyBorderWidth>Larghezza bordo vuoto</EmptyBorderWidth>
     <EmptyBrush>Nessun riempimento</EmptyBrush>
     <EmptyValue>Valore Nullo</EmptyValue>
     <Enabled>Attivato</Enabled>
@@ -4233,9 +4212,9 @@
     <FontSuperscript>Apice</FontSuperscript>
     <FontUnderline>Carattere sottolineato</FontUnderline>
     <FontUnit>Unità</FontUnit>
-    <FooterCanBreak>Pie di Pagina pu interrompersi</FooterCanBreak>
-    <FooterCanGrow>Pie di Pagina Pu Crescere</FooterCanGrow>
-    <FooterCanShrink>Pie di Pagina Pu Rimpicciolirsi</FooterCanShrink>
+    <FooterCanBreak>Piè di Pagina può interrompersi</FooterCanBreak>
+    <FooterCanGrow>Piè di Pagina può Crescere</FooterCanGrow>
+    <FooterCanShrink>Piè di Pagina può Rimpicciolirsi</FooterCanShrink>
     <FooterColor>Colore piè di pagina</FooterColor>
     <FooterFont>Font piè di pagina</FooterFont>
     <FooterForeColor>Colore primo piano piè di pagina</FooterForeColor>
@@ -4284,9 +4263,9 @@
     <Header>Intestazione</Header>
     <HeaderAlignment>Allineamento intestazione</HeaderAlignment>
     <HeaderBackColor>Colore sfondo intestazione</HeaderBackColor>
-    <HeaderCanBreak>Intestazione pu interrompersi</HeaderCanBreak>
-    <HeaderCanGrow>Intestazione pu crescere</HeaderCanGrow>
-    <HeaderCanShrink>Intestazione pu rimpicciolirsi</HeaderCanShrink>
+    <HeaderCanBreak>Intestazione può interrompersi</HeaderCanBreak>
+    <HeaderCanGrow>Intestazione può crescere</HeaderCanGrow>
+    <HeaderCanShrink>Intestazione può rimpicciolirsi</HeaderCanShrink>
     <HeaderColor>Colore intestazione</HeaderColor>
     <HeaderFont>Intestazione tipi di carattere</HeaderFont>
     <HeaderForeColor>Colore primo piano intestazione</HeaderForeColor>
@@ -4334,7 +4313,7 @@
     <IconColor>Colore icona</IconColor>
     <IconSet>Gruppo di icone</IconSet>
     <IconSetCondition>Condizione gruppo di icone</IconSetCondition>
-    <Idents>Idents</Idents>
+    <Idents>Identificatori</Idents>
     <Image>Immagine</Image>
     <ImageAlign>Allineamento Immagine</ImageAlign>
     <ImageAlignment>Allineamento Immagine</ImageAlignment>
@@ -4377,7 +4356,7 @@
     <Interpolation>Interpolazione</Interpolation>
     <IsReversed>Rovesciato</IsReversed>
     <Italic>Corsivo</Italic>
-    <Item>Item</Item>
+    <Item>Elemento</Item>
     <ItemHeight>Altezza elemento</ItemHeight>
     <Items>Elementi</Items>
     <JoinType>Tipo join</JoinType>
@@ -4385,7 +4364,7 @@
     <KeepCrossTabTogether>Mantieni insieme Cross-Tab </KeepCrossTabTogether>
     <KeepDetails>Mantieni dettagli</KeepDetails>
     <KeepDetailsTogether>Mantieni Insieme Dettagli</KeepDetailsTogether>
-    <KeepFooterTogether>Tenere l’articolo di taglio insieme</KeepFooterTogether>
+    <KeepFooterTogether>Mantieni insieme il piè di pagina</KeepFooterTogether>
     <KeepGroupFooterTogether>Mantieni Insieme Piè di Gruppo</KeepGroupFooterTogether>
     <KeepGroupHeaderTogether>Mantieni Insieme Intestazione di Gruppo</KeepGroupHeaderTogether>
     <KeepGroupTogether>Tenere il gruppo insieme</KeepGroupTogether>
@@ -4407,8 +4386,8 @@
     <LabelShadowForeground>Primo piano ombra etichetta</LabelShadowForeground>
     <LabelsOffset>Offset Etichette</LabelsOffset>
     <Language>Lingua</Language>
-    <LargeHeight>Cresce in larghezza</LargeHeight>
-    <LargeHeightFactor>Fattore di crescita in larghezza</LargeHeightFactor>
+    <LargeHeight>Altezza grande</LargeHeight>
+    <LargeHeightFactor>Fattore di altezza grande</LargeHeightFactor>
     <LaTexExpression>Espressione LaTex</LaTexExpression>
     <Latitude>Latitudine</Latitude>
     <Layout>Layout</Layout>
@@ -4489,7 +4468,7 @@
     <MasterComponent>Componente master</MasterComponent>
     <MasterKeyDataColumn>Colonna Dati Chiave Primaria</MasterKeyDataColumn>
     <MatrixSize>Dimensioni Matrice</MatrixSize>
-    <MaxDate>Massimo dati</MaxDate>
+    <MaxDate>Data massima</MaxDate>
     <MaxDropDownItems>Il numero massimo degli elementi</MaxDropDownItems>
     <MaxHeight>Altezza Massima</MaxHeight>
     <Maximum>Massimo</Maximum>
@@ -4503,7 +4482,7 @@
     <MergeDuplicates>Unire I duplicati</MergeDuplicates>
     <MergeHeaders>Unisci Intestazioni</MergeHeaders>
     <Mid>Medio</Mid>
-    <MinDate>Dati minimi</MinDate>
+    <MinDate>Data minima</MinDate>
     <MinHeight>Altezza Minima</MinHeight>
     <Minimum>Minimo</Minimum>
     <MinimumFontSize>Dimensione carattere minima</MinimumFontSize>
@@ -4522,8 +4501,8 @@
     <Mode>Modalità</Mode>
     <Module>Modulo</Module>
     <Move>Sposta</Move>
-    <Multiline>Plurimo</Multiline>
-    <MultipleFactor>Fattore multipli</MultipleFactor>
+    <Multiline>Multiriga</Multiline>
+    <MultipleFactor>Fattore moltiplicatore</MultipleFactor>
     <MultipleInitialization>Inizializzazione multipla</MultipleInitialization>
     <MyFunction>La mia funzione</MyFunction>
     <Name>Nome</Name>
@@ -4580,10 +4559,8 @@
     <PageWidth>Larghezza pagina</PageWidth>
     <Paper>Carta</Paper>
     <PaperSize>Dimensioni Foglio</PaperSize>
-    <PaperSourceFirstPage>Fonte Carta Prima Pagina</PaperSourceFirstPage>
     <PaperSourceOfFirstPage>Sorgente Foglio della Prima Pagina</PaperSourceOfFirstPage>
     <PaperSourceOfOtherPages>Sorgente foglio per Altre Pagine</PaperSourceOfOtherPages>
-    <PaperSourceOtherPages>Fonte Carta Altre Pagine</PaperSourceOtherPages>
     <Parameter>Parametro</Parameter>
     <ParameterAlignment>Allineamento parametro</ParameterAlignment>
     <Parameters>Parametri</Parameters>
@@ -4628,7 +4605,7 @@
     <PrintOnAllPages>Stampa su tutte pagine</PrintOnAllPages>
     <PrintOnEvenOddPages>Stampa su pagine pari e dispari</PrintOnEvenOddPages>
     <PrintOnPreviousPage>Stampa su pagina precedente</PrintOnPreviousPage>
-    <PrintTitleOnAllPages>Print Title On All Pages</PrintTitleOnAllPages>
+    <PrintTitleOnAllPages>Stampa titolo su tutte le pagine</PrintTitleOnAllPages>
     <PrintVerticalBars>Stampa barre verticali</PrintVerticalBars>
     <ProcessAt>Elabora</ProcessAt>
     <ProcessAtEnd>Elaborare alla fine</ProcessAtEnd>
@@ -4703,7 +4680,7 @@
     <RowCount>Conteggio Riga</RowCount>
     <RowHeaderBackColor>Colore sfondo intestazione riga</RowHeaderBackColor>
     <RowHeaderForeColor>Colore primo piano intestazione riga</RowHeaderForeColor>
-    <RowHeadersVisible>Larghezza visibili</RowHeadersVisible>
+    <RowHeadersVisible>Intestazioni righe visibili</RowHeadersVisible>
     <RowHeaderWidth>Larghezza intestazione</RowHeaderWidth>
     <Rows>Righe</Rows>
     <RowsPerPage>Righe per pagina</RowsPerPage>
@@ -4715,8 +4692,8 @@
     <Second>Secondo</Second>
     <SegmentCount>Numero segmenti</SegmentCount>
     <SegmentIndex>Indice segmento</SegmentIndex>
-    <SegmentPerHeight>I segmenti par l’altezza</SegmentPerHeight>
-    <SegmentPerWidth>I segmenti par la larghezza</SegmentPerWidth>
+    <SegmentPerHeight>I segmenti per l’altezza</SegmentPerHeight>
+    <SegmentPerWidth>I segmenti per la larghezza</SegmentPerWidth>
     <SelectedBackColor>Colore sfondo selezionato</SelectedBackColor>
     <SelectedCellBackColor>Colore sfondo cella selezionata</SelectedCellBackColor>
     <SelectedCellForeColor>Colore primo piano cella selezionata</SelectedCellForeColor>
@@ -4769,7 +4746,7 @@
     <ShowDialog>Mostra Finestra di Dialogo</ShowDialog>
     <ShowEdgeValues>Mostra Valori Margini</ShowEdgeValues>
     <ShowHyperlink>Mostra collegamento</ShowHyperlink>
-    <ShowImageBehind>Mostra Immagine Show Image Dietro</ShowImageBehind>
+    <ShowImageBehind>Mostra Immagine Dietro</ShowImageBehind>
     <ShowInLegend>Visualizza in Legenda</ShowInLegend>
     <ShowInnerPoints>Mostra punti interni</ShowInnerPoints>
     <ShowInPercent>Mostra in Percentuale</ShowInPercent>
@@ -4780,7 +4757,6 @@
     <ShowMarker>Visualizza Marcatore</ShowMarker>
     <ShowMeanMarkers>Mostra marcatori medi</ShowMeanMarkers>
     <ShowNulls>Mostra valori nulli</ShowNulls>
-    <ShowOnZeroValues>Mostra per Valori Zero</ShowOnZeroValues>
     <ShowOthers>Mostra 'altri'</ShowOthers>
     <ShowPercents>Mostra percentuali</ShowPercents>
     <ShowPlacemark>Mostra segnaposto</ShowPlacemark>
@@ -4792,7 +4768,7 @@
     <ShowShadow>Visualizza Ombreggiatura</ShowShadow>
     <ShowTotal>Visualizza totale</ShowTotal>
     <ShowTotalSummary>Mostra riepilogo totale</ShowTotalSummary>
-    <ShowUpDown>Non mostrare il calendario</ShowUpDown>
+    <ShowUpDown>Mostra su giù</ShowUpDown>
     <ShowValue>Mostra Valore</ShowValue>
     <ShowXAxis>Mostra asse X </ShowXAxis>
     <ShowYAxis>Mostra asse Y </ShowYAxis>
@@ -4825,7 +4801,7 @@
     <SortingEnabled>Ordinamento Abilitato</SortingEnabled>
     <SortLetters>Ordina lettere</SortLetters>
     <SortType>Tipo ordinamento</SortType>
-    <Space>Space</Space>
+    <Space>Spazio</Space>
     <SpaceRatio>Rapporto spaziatura</SpaceRatio>
     <Spacing>Spaziatura</Spacing>
     <Sparkline>Sparkline</Sparkline>
@@ -4842,14 +4818,14 @@
     <StartValue>Valore di partenza</StartValue>
     <StartWidth>Larghezza di partenza</StartWidth>
     <State>Stato</State>
-    <Step>Step</Step>
+    <Step>Passo</Step>
     <Stop>Arresta</Stop>
     <StopBeforePage>Ferma prima della pagina</StopBeforePage>
     <StopBeforePrint>Ferma prima della stampa</StopBeforePrint>
     <StoreImagesInResources>Salva immagini come risorse</StoreImagesInResources>
     <StreetAddress>Indirizzo</StreetAddress>
     <Stretch>Adatta</Stretch>
-    <StretchToPrintArea>Estendere verso la zona della stampe</StretchToPrintArea>
+    <StretchToPrintArea>Estendere verso la zona di stampa</StretchToPrintArea>
     <Strikeout>Barrato</Strikeout>
     <StripBrush>Pennello Striscia</StripBrush>
     <Strips>Strisce</Strips>
@@ -4918,9 +4894,9 @@
     <Ticks>Spunte</Ticks>
     <Title>Titolo</Title>
     <TitleBackColor>Colore sfondo titolo</TitleBackColor>
-    <TitleBeforeHeader>Il titolo della testata</TitleBeforeHeader>
+    <TitleBeforeHeader>Titolo prima dell’intestazione</TitleBeforeHeader>
     <TitleColor>Colore Titolo</TitleColor>
-    <TitleDirection>DirezioneTitolo</TitleDirection>
+    <TitleDirection>Direzione Titolo</TitleDirection>
     <TitleFont>Carattere Titolo</TitleFont>
     <TitleForeColor>Colore primo piano titolo</TitleForeColor>
     <TitleVisible>Visibile</TitleVisible>
@@ -4954,7 +4930,7 @@
     <TrendLines>Linee tendenza</TrendLines>
     <TrendLineShowShadow>Mostra ombra linea tendenza</TrendLineShowShadow>
     <TrimExcessData>Taglia dati in eccesso</TrimExcessData>
-    <Trimming>Guarnizione</Trimming>
+    <Trimming>Troncamento</Trimming>
     <Type>Tipo</Type>
     <TypeName>Nome Tipo</TypeName>
     <Types>Tipi</Types>
@@ -4978,7 +4954,7 @@
     <UseStyleOfSummaryInColumnTotal>Usa stile di Riepilogo in Colonna Totale</UseStyleOfSummaryInColumnTotal>
     <UseStyleOfSummaryInRowTotal>Usa stile di Riepilogo in Riga Totale</UseStyleOfSummaryInRowTotal>
     <UseUserPicture>Usa immagine utente</UseUserPicture>
-    <UseValuesFromTheSpecifiedRange>Usa volori dall'insieme specificato</UseValuesFromTheSpecifiedRange>
+    <UseValuesFromTheSpecifiedRange>Usa valori dall'insieme specificato</UseValuesFromTheSpecifiedRange>
     <Validation>Convalida</Validation>
     <Value>Valore</Value>
     <ValueClose>Valore chiusura</ValueClose>
@@ -5018,7 +4994,7 @@
     <WeaveMinorColor>Colore secondario trama</WeaveMinorColor>
     <WeaveMinorIcon>Icona secondaria trama</WeaveMinorIcon>
     <WeaveMinorSize>Dimensione secondaria trama</WeaveMinorSize>
-    <Weight>Pesi</Weight>
+    <Weight>Peso</Weight>
     <WeightDataColumn>Colonna pesi</WeightDataColumn>
     <Weights>Pesi</Weights>
     <Width>Larghezza</Width>
@@ -5026,15 +5002,15 @@
     <WinLossNegative>Negativo vittoria/sconfitta</WinLossNegative>
     <WinLossPositive>Positivo vittoria/sconfitta</WinLossPositive>
     <WordWrap>A capo automatico</WordWrap>
-    <Wrap>Unisci</Wrap>
-    <WrapGap>Unisci Spazi</WrapGap>
+    <Wrap>A capo</Wrap>
+    <WrapGap>Spazio a capo</WrapGap>
     <WrapLine>Linea a capo</WrapLine>
     <XAxis>Asse X</XAxis>
-    <XTopAxis>Limite Asse X</XTopAxis>
+    <XTopAxis>Asse X superiore</XTopAxis>
     <XValue>Valore X</XValue>
     <XValuesDataColumn>Colonna dati valori X</XValuesDataColumn>
     <YAxis>Asse Y</YAxis>
-    <YRightAxis>Limite Asse Y</YRightAxis>
+    <YRightAxis>Asse Y destra</YRightAxis>
     <YValue>Valore Y</YValue>
     <YValuesDataColumn>Colonna dati valori Y</YValuesDataColumn>
     <ZeroColor>Colore zero</ZeroColor>
@@ -5055,7 +5031,7 @@
     <GrayText>Testo grigio</GrayText>
     <Highlight>Evidenzia</Highlight>
     <HighlightText>Testo evidenziato</HighlightText>
-    <HotTrack>Hot Track</HotTrack>
+    <HotTrack>Evidenziazione</HotTrack>
     <InactiveBorder>Bordo inattivo</InactiveBorder>
     <InactiveCaption>Caption Inattiva</InactiveCaption>
     <InactiveCaptionText>Testo Caption Inattivo</InactiveCaptionText>
@@ -5063,7 +5039,7 @@
     <InfoText>Testo Info</InfoText>
     <Menu>Menu</Menu>
     <MenuText>Testo Menu</MenuText>
-    <ScrollBar>Scroll Bar</ScrollBar>
+    <ScrollBar>Barra di scorrimento</ScrollBar>
     <Window>Finestra</Window>
     <WindowFrame>Finestra Frame</WindowFrame>
     <WindowText>Testo della Finestra</WindowText>
@@ -5120,7 +5096,7 @@
     <Procedures>Procedure</Procedures>
     <qnSaveChanges>Vuoi salvare le modifiche alla query?</qnSaveChanges>
     <Query>Query</Query>
-    <QueryBuilder>Query Builder</QueryBuilder>
+    <QueryBuilder>Generatore di query</QueryBuilder>
     <QueryParameters>Parametri Query</QueryParameters>
     <QueryProperties>Proprietà Query</QueryProperties>
     <Remove>Rimuovi</Remove>
@@ -5192,7 +5168,7 @@
     <AlphaNumeric>Alfanumerico</AlphaNumeric>
     <Bands>Bande</Bands>
     <Basic>Base</Basic>
-    <BasicConfiguration>L'insieme minimo delle proprietà che consentono la crazione dei più semplici tipi di report.</BasicConfiguration>
+    <BasicConfiguration>L'insieme minimo delle proprietà che consentono la creazione dei più semplici tipi di report.</BasicConfiguration>
     <BusinessObjects>Business Objects</BusinessObjects>
     <Categorized>Categorizzato</Categorized>
     <Charts>Grafici</Charts>
@@ -5213,7 +5189,6 @@
     <CreatingReport>Creando il Report</CreatingReport>
     <CrossBands>Bande incrociate</CrossBands>
     <CustomRange>Intervallo personalizzato</CustomRange>
-    <Dashboard>Dashboard</Dashboard>
     <DashboardOnly>Solo Dashboard e Trasformazione dati</DashboardOnly>
     <Dialogs>Controlli</Dialogs>
     <EditStyles>Edita Stili</EditStyles>
@@ -5248,7 +5223,7 @@
     <LabelCentimeters>Centimetri:</LabelCentimeters>
     <LabelCollectionName>Nome elenco:</LabelCollectionName>
     <LabelColor>Colore:</LabelColor>
-    <LabelCountData>Conta Data:</LabelCountData>
+    <LabelCountData>Conteggio dati:</LabelCountData>
     <LabelDataBand>DataBand:</LabelDataBand>
     <LabelDataColumn>Data Colonna:</LabelDataColumn>
     <LabelDefaultValue>Valore Predefinito:</LabelDefaultValue>
@@ -5291,7 +5266,7 @@
     <PropertiesTab>Proprietà</PropertiesTab>
     <RangeAll>Tutto</RangeAll>
     <RangeCurrentPage>Pagina corrente</RangeCurrentPage>
-    <RangeInfo>Immettere un unico numero di pagina o un intervallo di pagine. Ad esempio: 1,3,5-12</RangeInfo>
+    <RangeInfo>Immettere i numeri di pagina e/o gli intervalli di pagine separati da virgole. Ad esempio: 1, 3, 5-12</RangeInfo>
     <RangePage>Pagine da stampare</RangePage>
     <RangePages>Pagine:</RangePages>
     <ReportChecker>Verifica report</ReportChecker>
@@ -5311,7 +5286,7 @@
     <StiGlareBrush>Effetto Specchio</StiGlareBrush>
     <StiGlassBrush>Effetto Vetro</StiGlassBrush>
     <StiGradientBrush>Gradiente</StiGradientBrush>
-    <StiHatchBrush>Hatch</StiHatchBrush>
+    <StiHatchBrush>Tratteggio</StiHatchBrush>
     <StiSolidBrush>Tinta unita</StiSolidBrush>
     <StoresPrintingOutputToAFile>Salva output di stampa su file</StoresPrintingOutputToAFile>
     <StoreUserFirstLastNameInReportAuthor>Salva nome e cognome dell'utente in 'Autore report'</StoreUserFirstLastNameInReportAuthor>
@@ -5445,7 +5420,7 @@
     <Division>Divisione</Division>
     <Equal>Uguale</Equal>
     <EquationShapes>Equazione forme</EquationShapes>
-    <Flowchart>Flowchart</Flowchart>
+    <Flowchart>Diagramma di flusso</Flowchart>
     <FlowchartCard>Diagramma di flusso: Scheda</FlowchartCard>
     <FlowchartCollate>Diagramma di flusso: Confronto</FlowchartCollate>
     <FlowchartDecision>Diagramma di flusso: Decisione</FlowchartDecision>
@@ -5473,7 +5448,7 @@
     <SnipDiagonalSideCornerRectangle>Ritaglio angolo lato diagonale</SnipDiagonalSideCornerRectangle>
     <SnipSameSideCornerRectangle>Ritaglio stesso lato angolo rettangolo</SnipSameSideCornerRectangle>
     <TopAndBottomLine>Linea superiore e inferiore</TopAndBottomLine>
-    <Trapezoid>Trapezioidale</Trapezoid>
+    <Trapezoid>Trapezio</Trapezoid>
     <Triangle>Triangolo</Triangle>
     <VerticalLine>Linea verticale</VerticalLine>
   </Shapes>
@@ -5512,7 +5487,7 @@
     <Column>Riporta il numero di colonna corrente (partendo da 1).</Column>
     <GroupLine>Riporta il numero linea del gruppo corrente (partendo da 1).</GroupLine>
     <IsFirstPage>Riporta vero, se, al momento della valutazione, la prima pagina del report è in fase di stampa.</IsFirstPage>
-    <IsFirstPageThrough>Riporta vero, se, in questo momento, l'ultima pagina del report è stampata. Mentre si calcola IsFirstPageThrough, tutte le proprietà ResetPageNumber vengono ignorate e la numerazione parte dall'inizio del report. Per il corretto calcolo di questa variabile il report deve essere in modalità 'doppio passaggio'</IsFirstPageThrough>
+    <IsFirstPageThrough>Riporta vero, se, in questo momento, la prima pagina del report è stampata. Mentre si calcola IsFirstPageThrough, tutte le proprietà ResetPageNumber vengono ignorate e la numerazione parte dall'inizio del report. Per il corretto calcolo di questa variabile il report deve essere in modalità 'doppio passaggio'</IsFirstPageThrough>
     <IsLastPage>Riporta vero, se, al momento della valutazione, si sta stampando l'ultima pagina del report. Per il corretto calcolo di questa variabile il report deve essere in modalità 'doppio passaggio'.</IsLastPage>
     <IsLastPageThrough>Riporta vero, se, in questo momento, l'ultima pagina del report è stampata. Mentre si calcola IsLastPageThrough, tutte le proprietà ResetPageNumber vengono ignorate e la numerazione parte dall'inizio del report. Per il corretto calcolo di questa variabile il report deve essere in modalità 'doppio passaggio'.</IsLastPageThrough>
     <Line>Riporta il numero linea corrente (partendo da 1).</Line>
@@ -5529,8 +5504,8 @@
     <ReportAuthor>Riporta l'autore del report. Puoi cambiare il ReportAuthor con la proprietà ReportAuthor del report.</ReportAuthor>
     <ReportChanged>La data di ultima modifica del report.</ReportChanged>
     <ReportCreated>La data di creazione del report.</ReportCreated>
-    <ReportDescription>Riporta la descrizione del report. Puoi cambiare il ReportName con la proprietà ReportDescription del report.</ReportDescription>
-    <ReportName>Riporta la descrizione del report. Puoi cambiare il ReportName con la proprietà ReportName del report.</ReportName>
+    <ReportDescription>Riporta la descrizione del report. Puoi cambiare il ReportDescription con la proprietà ReportDescription del report.</ReportDescription>
+    <ReportName>Riporta il nome del report. Puoi cambiare il ReportName con la proprietà ReportName del report.</ReportName>
     <Time>Riporta l'ora attuale.</Time>
     <Today>Riporta la data attuale.</Today>
     <TotalPageCount>Riporta il numero di pagine in un report.</TotalPageCount>
@@ -5560,13 +5535,13 @@
   <Toolbars>
     <Align>Allinea</Align>
     <AlignBottom>Allinea in basso</AlignBottom>
-    <AlignCenter>Allinea al centro verticalmente</AlignCenter>
+    <AlignCenter>Allinea al centro orizzontalmente</AlignCenter>
     <AlignLeft>Allinea a sinistra</AlignLeft>
-    <AlignMiddle>Allinea al centro orizzontalmente</AlignMiddle>
+    <AlignMiddle>Allinea al centro verticalmente</AlignMiddle>
     <AlignRight>Allinea a destra</AlignRight>
     <AlignToGrid>Allinea alla griglia</AlignToGrid>
     <AlignTop>Allinea in alto</AlignTop>
-    <AlignWidth>Allinea in alto larghezza</AlignWidth>
+    <AlignWidth>Allinea alla larghezza</AlignWidth>
     <BringToFront>Porta in primo piano</BringToFront>
     <CenterHorizontally>Allinea al centro orizzontalmente</CenterHorizontally>
     <CenterVertically>Allinea al centro verticalmente</CenterVertically>
@@ -5682,7 +5657,7 @@
     <Groups>Gruppi</Groups>
     <groupTemplates>Modelli</groupTemplates>
     <groupWizards>Wizard</groupWizards>
-    <infoColumnsOrder>Sistemi le colonne nell' ordine necessario.</infoColumnsOrder>
+    <infoColumnsOrder>Sistemi le colonne nell'ordine necessario.</infoColumnsOrder>
     <infoCompanyInfo>Inserisci le informazioni della tua azienda.</infoCompanyInfo>
     <infoDataSource>Selezioni una sorgente dei dati</infoDataSource>
     <infoDataSources>Seleziona Fonte Dati disponibile.</infoDataSources>
@@ -5706,11 +5681,11 @@
     <LabelNumberOfRows>Numero di Righe:</LabelNumberOfRows>
     <LabelPageHeight>Altezza Pagina:</LabelPageHeight>
     <LabelPageWidth>Larghezza Pagina:</LabelPageWidth>
-    <LabelReport>Label Report</LabelReport>
+    <LabelReport>Report a etichette</LabelReport>
     <LabelSettings>Label Impostazioni</LabelSettings>
     <LabelSize>Dimensione:</LabelSize>
     <LabelTopMargin>Margine Superiore:</LabelTopMargin>
-    <LabelVerticalGap>Spaziature Verticale:</LabelVerticalGap>
+    <LabelVerticalGap>Spaziatura Verticale:</LabelVerticalGap>
     <LabelWidth>Larghezza:</LabelWidth>
     <Layout>Layout</Layout>
     <Mapping>Associazione</Mapping>
