@@ -12,7 +12,7 @@
     <ButtonNext>Next</ButtonNext>
     <ButtonPrev>Previous</ButtonPrev>
     <ButtonSend>Send</ButtonSend>
-    <CategoryAlreadyExists>The category with that name already exists!</CategoryAlreadyExists>
+    <CategoryAlreadyExists>A category with that name already exists!</CategoryAlreadyExists>
     <DayFriday>Friday</DayFriday>
     <DayMonday>Monday</DayMonday>
     <Days>Days</Days>
@@ -480,7 +480,7 @@
     <LabelForeground>Foreground:</LabelForeground>
     <LabelFromReport>From Report</LabelFromReport>
     <LabelFromReportCode>From Report (defined in code)</LabelFromReportCode>
-    <LabelInviteUser>Invite new users to your team. Send invitations to their emails.</LabelInviteUser>
+    <LabelInviteUser>Invite new users to your team. Send invitations to their email addresses.</LabelInviteUser>
     <LabelLastLogin>Last Login:</LabelLastLogin>
     <LabelLastTime>Last Time:</LabelLastTime>
     <LabelModified>Modified:</LabelModified>
@@ -769,7 +769,7 @@
     <DrillDown>Drill-Down</DrillDown>
     <DrillDownFiltered>Drill-Down Filtered</DrillDownFiltered>
     <DrillDownSelected>Drill-Down Selected</DrillDownSelected>
-    <DrillUp>Drill Up</DrillUp>
+    <DrillUp>Drill-Up</DrillUp>
     <DuplicateField>Duplicate Field</DuplicateField>
     <EditDataBinding>Edit Data Binding</EditDataBinding>
     <EditExpression>Edit Expression</EditExpression>
@@ -916,7 +916,7 @@
     <SavingConfiguration>Saving Configuration</SavingConfiguration>
     <SavingReport>Saving Report</SavingReport>
     <TestConnection>Test Connection</TestConnection>
-    <TextNotFound>The specified text was not found. Text : {0}</TextNotFound>
+    <TextNotFound>The specified text was not found. Text: {0}</TextNotFound>
   </DesignerFx>
   <Desktop>
     <Beginner>Beginner</Beginner>
@@ -1513,7 +1513,7 @@
     <NewItem>New Item</NewItem>
     <OpenAssembly>Open Assembly</OpenAssembly>
     <Parent>Parent</Parent>
-    <ParentSource>Parent Source:</ParentSource>
+    <ParentSource>Parent Data Source:</ParentSource>
     <Queries>Queries</Queries>
     <QueryNew>New Query</QueryNew>
     <QueryText>Query Text</QueryText>
@@ -1634,7 +1634,7 @@
     <groupMainOptions>Main options for working with designer</groupMainOptions>
     <groupMarkersStyle>Marker style</groupMarkersStyle>
     <groupOptionsOfQuickInfo>Options of Quick Info</groupOptionsOfQuickInfo>
-    <groupPleaseSelectTypeOfGui>Please, select the type of GUI</groupPleaseSelectTypeOfGui>
+    <groupPleaseSelectTypeOfGui>Please select the type of GUI</groupPleaseSelectTypeOfGui>
     <groupReportDisplayOptions>Report display options</groupReportDisplayOptions>
     <labelColorScheme>Color Scheme:</labelColorScheme>
     <labelInfoAutoSave>Change parameters of report autosaving</labelInfoAutoSave>
@@ -1717,7 +1717,7 @@
     <groupNames>Report name, report alias, and report author</groupNames>
     <groupScript>Script language of your report</groupScript>
     <groupUnits>Size and coordinates in a report will be in specified units</groupUnits>
-    <labelInfoDescription>Indicate the information of a report</labelInfoDescription>
+    <labelInfoDescription>Information about the report</labelInfoDescription>
     <labelInfoMain>Change of basic report parameters</labelInfoMain>
     <labelNumberOfPass>Number of Passes:</labelNumberOfPass>
     <labelReportCacheMode>Report Cache Mode:</labelReportCacheMode>
@@ -1843,7 +1843,7 @@
     <Thumbnails>Thumbnails</Thumbnails>
     <title>Viewer</title>
     <titlePageSettings>Page Settings</titlePageSettings>
-    <Toolbar>Tool bar</Toolbar>
+    <Toolbar>Toolbar</Toolbar>
     <VerScrollBar>Vertical Scroll Bar</VerScrollBar>
     <ViewMode>View Mode</ViewMode>
     <Zoom>Zoom</Zoom>
@@ -2003,7 +2003,7 @@
     <StiCrossDataBand>This band is connected to the data source. It is output as many times as there are rows in the data source. A Cross band is output from left to right.</StiCrossDataBand>
     <StiCrossFooterBand>This band is used to output footers of the Cross-Data band. The band is output once after all rows of the Data band. A Cross band is output from left to right.</StiCrossFooterBand>
     <StiCrossGroupFooterBand>This band is used to output footers of a group. It is placed under the Cross-Data band. Each Cross-Footer belongs to the specified Cross-Header band. A Cross band is output from left to right.</StiCrossGroupFooterBand>
-    <StiCrossGroupHeaderBand>This band is the basic one for the report rendering with grouping, when Cross-Data are used. It is impossible to create grouping without this band. The components for showing information about the group are placed on the group header. The information can be group name, date, condition of grouping etc. The band is output in the beginning of each group. A Cross band is output from left to right.</StiCrossGroupHeaderBand>
+    <StiCrossGroupHeaderBand>This band is the basic one for rendering reports with grouping, when Cross-Data are used. It is impossible to create grouping without this band. The components for showing information about the group are placed on the group header. The information can be group name, date, condition of grouping etc. The band is output in the beginning of each group. A Cross band is output from left to right.</StiCrossGroupHeaderBand>
     <StiCrossHeaderBand>This band is used to output headers. It is used in association with the Cross band. A Cross band is output from left to right.</StiCrossHeaderBand>
     <StiCrossTab>The cross-tab component is used to represent structured data as a table.</StiCrossTab>
     <StiDataBand>The Data band is connected to the data source and is output as many times as there are rows in the data source.</StiDataBand>
@@ -2013,8 +2013,8 @@
     <StiEmptyBand>This band is used to fill free space at the bottom of a page. This band fills free space on each page of a report.</StiEmptyBand>
     <StiFilterCategory>A group of elements used for selecting and filtering values.</StiFilterCategory>
     <StiFooterBand>This band is used to output a summary for the Data band. It is placed under the Data band and is output once after all the data rows that the Data band outputs.</StiFooterBand>
-    <StiGauge>The component allows you to display a value within a predefined range. It can have different graphical representation.</StiGauge>
-    <StiGaugeElement>The element allows you to display a value within a predefined range. It can have different graphical representation.</StiGaugeElement>
+    <StiGauge>The component allows you to display a value within a predefined range. It can have different graphical representations.</StiGauge>
+    <StiGaugeElement>The element allows you to display a value within a predefined range. It can have different graphical representations.</StiGaugeElement>
     <StiGroupFooterBand>The Group Footer band is used to output the group footer. This band is placed after the Data band. And this is the Data band to which the Group Header band is bound. Each Group Footer band belongs to the specified Group Header band. The Group Footer band will not be output without the Group Header band.</StiGroupFooterBand>
     <StiGroupHeaderBand>This band is the basic band for rendering reports with grouping. The components for showing information about this group are placed on the group header. It can be group name, date, condition of grouping etc. This band is output once in the beginning of each group.</StiGroupHeaderBand>
     <StiHeaderBand>This band is used to output headers. It is used together with the data band.</StiHeaderBand>
@@ -2069,9 +2069,9 @@
     <StiTableElement>This element is a set of data elements that is organized using a model of vertical columns and horizontal rows.</StiTableElement>
     <StiTableOfContents>This component is used to create a table of contents in a report.</StiTableOfContents>
     <StiTableUI>A table used to display data in rows and columns clearly.</StiTableUI>
-    <StiText>This component is a basic object to output data as a text.</StiText>
-    <StiTextElement>This element is a basic object to output data as a text.</StiTextElement>
-    <StiTextInCells>The component is used to output a text in cells. It is frequently used for creating forms.</StiTextInCells>
+    <StiText>This component is a basic object to output data as text.</StiText>
+    <StiTextElement>This element is a basic object to output data as text.</StiTextElement>
+    <StiTextInCells>The component is used to output text in cells. It is frequently used for creating forms.</StiTextInCells>
     <StiTextInputUI>A text input used to enter and edit text values.</StiTextInputUI>
     <StiTreeViewBoxElement>The element is used to select values with a drop-down list as a tree.</StiTreeViewBoxElement>
     <StiTreeViewElement>Represents the element that is used to show the hierarchical data as a tree.</StiTreeViewElement>
@@ -2092,7 +2092,7 @@
     <AlignComponentRight>Allows you to align objects vertically along the right edge of selected components.</AlignComponentRight>
     <AlignComponentTop>Allows you to align objects horizontally along the top edge of selected components.</AlignComponentTop>
     <AlignLeft>Align the contents of a component to left.</AlignLeft>
-    <AlignMiddle>Center the contents by the top and bottom borders of a component.</AlignMiddle>
+    <AlignMiddle>Center the contents of a component between the top and bottom borders.</AlignMiddle>
     <AlignRight>Align contents of a component to right.</AlignRight>
     <AlignToGrid>Align the selected components to grid nodes.</AlignToGrid>
     <AlignTop>Align the contents of a component to top.</AlignTop>
@@ -2252,8 +2252,8 @@
     <StiCheckBoxControl>Represents the Flag control.</StiCheckBoxControl>
     <StiCheckedListBoxControl>Shows the List object, in which a flag on the left is shown for each element.</StiCheckedListBoxControl>
     <StiComboBoxControl>Represents the ComboBox that is used to either type a value directly into the control or choose from the list of existing options.</StiComboBoxControl>
-    <StiDateTimePickerControl>Represents the control that allows selecting the date and time. It also allows you to output the date and time in specified format.</StiDateTimePickerControl>
-    <StiGridControl>Represents the Grid control that consist of rows and columns.</StiGridControl>
+    <StiDateTimePickerControl>Represents the control that allows selecting the date and time. It also allows you to output the date and time in the specified format.</StiDateTimePickerControl>
+    <StiGridControl>Represents the Grid control that consists of rows and columns.</StiGridControl>
     <StiGroupBoxControl>Represents the control that creates a container with borders and a header for the UI content.</StiGroupBoxControl>
     <StiLabelControl>A label is a user interface control which displays text on a form. It is usually a static control having no interactivity.</StiLabelControl>
     <StiListBoxControl>Contains the list of elements for selection.</StiListBoxControl>
@@ -2304,7 +2304,7 @@
     <ExportModeRtf>Presentation of the report data after export. The Table - the report will look like a table, where each report component is a table cell. Frame - each component will look like a single frame, but without any relationship between them.</ExportModeRtf>
     <ExportObjectFormatting>Apply formatting to export data from Data bands (Table component, Hierarchical band).</ExportObjectFormatting>
     <ExportPageBreaks>Show the borders of the report pages on the Excel sheet.</ExportPageBreaks>
-    <ExportRtfTextAsImage>Convert the RTF text into the image. If the option is enabled, then, when exporting, RichText decomposes into simpler primitives supported by the PDF format. RichText with complex formatting (embedded images, tables) cannot always be converted correctly. In this case it is recommended to enable this option.</ExportRtfTextAsImage>
+    <ExportRtfTextAsImage>Convert the RTF text into the image. If the option is disabled, then, when exporting, RichText decomposes into simpler primitives supported by the PDF format. RichText with complex formatting (embedded images, tables) cannot always be converted correctly. In this case it is recommended to enable this option.</ExportRtfTextAsImage>
     <Find>Find a text in the report.</Find>
     <FullScreen>Full screen reading.</FullScreen>
     <GetCertificateFromCryptoUI>Using the interface of the system cryptography library.</GetCertificateFromCryptoUI>
@@ -2535,7 +2535,7 @@
     </TextRegistrationSuccessfully>
     <ThisFieldIsNotSpecified>This Field is Not Specified!</ThisFieldIsNotSpecified>
     <ThisFunctionEmbedsAllReportDataToTheReport>This function embeds all report data to the report resources and makes your report standalone. Be careful! All your data settings will be changed and can't be restored. Please make a backup copy of your report first.{0}Are you sure?</ThisFunctionEmbedsAllReportDataToTheReport>
-    <YouNeedToLoginFirstToStartUsingTheSoftware>You need to log in first to start using the software. The application will close if you quit the login form.</YouNeedToLoginFirstToStartUsingTheSoftware>
+    <YouNeedToLoginFirstToStartUsingTheSoftware>You need to log in first to start using the software. The application will close if you close the login form.</YouNeedToLoginFirstToStartUsingTheSoftware>
   </Messages>
   <Notices>
     <AccessDenied>Access Denied!</AccessDenied>
@@ -2558,7 +2558,7 @@
     <ActivationTrialExtend1>If you are interested in extending your trial, please </ActivationTrialExtend1>
     <ActivationTrialExtend2>tell us why.</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>Your user name (Email) or password is wrong!</ActivationUserNameOrPasswordIsWrong>
-    <ActivationWrongAccountType>Your account type does not allow to activate Stimulsoft Server!</ActivationWrongAccountType>
+    <ActivationWrongAccountType>Your account type does not allow you to activate Stimulsoft Server!</ActivationWrongAccountType>
     <AITokensExhausted>Your tokens have been exhausted! Please contact our sales department at sales@stimulsoft.com!</AITokensExhausted>
     <Alert>Alert</Alert>
     <AuthAccountAlreadyExists>The account with this User Name (email) already exists. To associate it with your {0} account, please use your Stimulsoft account password.</AuthAccountAlreadyExists>
@@ -2633,7 +2633,7 @@
     <NotificationConnectPackage>Connect the "{0}" package for correct operation.</NotificationConnectPackage>
     <NotificationFailed>Failed result!</NotificationFailed>
     <NotificationFailedAddFollowingFiles>Failed to add the following files. Exceeded the size {0} MB.</NotificationFailedAddFollowingFiles>
-    <NotificationFilesUploadingComplete>The files uploaded successfully.</NotificationFilesUploadingComplete>
+    <NotificationFilesUploadingComplete>The files have been uploaded successfully.</NotificationFilesUploadingComplete>
     <NotificationFileUploading>The file "{0}" is uploading.</NotificationFileUploading>
     <NotificationItemDelete>The items are deleting.</NotificationItemDelete>
     <NotificationItemDeleteComplete>The items are deleted successfully.</NotificationItemDeleteComplete>
@@ -2700,7 +2700,7 @@
     <SubscriptionLimitExceeded>Your subscription has exceeded the developer seat limit. The application will be closed. Please upgrade your plan to continue.</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>Subscription limit</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>Your subscription is using more developer seats than allowed. Please consider upgrading your plan to keep working without interruption.</SubscriptionLimitWarning>
-    <SubscriptionsOut10>10 days left when the subscription expires!</SubscriptionsOut10>
+    <SubscriptionsOut10>10 days left until the subscription expires!</SubscriptionsOut10>
     <SubscriptionsOut20>The subscription period will expire in 20 days!</SubscriptionsOut20>
     <SuccessfullyRenewed>Your subscription has been successfully updated!</SuccessfullyRenewed>
     <TrialToLicense>We would like to thank you for choosing our software!</TrialToLicense>
@@ -3273,9 +3273,9 @@
     <StiDockStyleTop>Top</StiDockStyleTop>
     <StiDrillDownModeMultiPage>Multi Page</StiDrillDownModeMultiPage>
     <StiDrillDownModeSinglePage>Single Page</StiDrillDownModeSinglePage>
-    <StiEanSupplementTypeFiveDigit>FiveDigit</StiEanSupplementTypeFiveDigit>
+    <StiEanSupplementTypeFiveDigit>Five Digit</StiEanSupplementTypeFiveDigit>
     <StiEanSupplementTypeNone>None</StiEanSupplementTypeNone>
-    <StiEanSupplementTypeTwoDigit>TwoDigit</StiEanSupplementTypeTwoDigit>
+    <StiEanSupplementTypeTwoDigit>Two Digit</StiEanSupplementTypeTwoDigit>
     <StiEmptyCellsAsConnectPointsWithLine>Connect Points with Line</StiEmptyCellsAsConnectPointsWithLine>
     <StiEmptyCellsAsGap>Gap</StiEmptyCellsAsGap>
     <StiEmptyCellsAsZero>Zero</StiEmptyCellsAsZero>
@@ -4692,8 +4692,8 @@
     <Second>Second</Second>
     <SegmentCount>Segment Count</SegmentCount>
     <SegmentIndex>Segment Index</SegmentIndex>
-    <SegmentPerHeight>Segment per Height</SegmentPerHeight>
-    <SegmentPerWidth>Segment per Width</SegmentPerWidth>
+    <SegmentPerHeight>Segments per Height</SegmentPerHeight>
+    <SegmentPerWidth>Segments per Width</SegmentPerWidth>
     <SelectedBackColor>Selected Back Color</SelectedBackColor>
     <SelectedCellBackColor>Selected Cell Back Color</SelectedCellBackColor>
     <SelectedCellForeColor>Selected Cell Fore Color</SelectedCellForeColor>
@@ -5243,7 +5243,7 @@
     <LabelQueryTimeout>Query Timeout:</LabelQueryTimeout>
     <LabelSystemVariable>System Variable:</LabelSystemVariable>
     <LabelTableOfContentsHint>Please check the components that should form the table of contents. One component is equal to one heading level.</LabelTableOfContentsHint>
-    <LabelTotals>Totals</LabelTotals>
+    <LabelTotals>Totals:</LabelTotals>
     <LabelType>Type:</LabelType>
     <LabelUserName>User Name:</LabelUserName>
     <LabelValue>Value:</LabelValue>
@@ -5467,7 +5467,7 @@
   <StimulAI>
     <AskStimulAI>Ask Stimul AI</AskStimulAI>
     <Assistant>Assistant</Assistant>
-    <ChangedWithAI>Changed with Stimul AI</ChangedWithAI>
+    <ChangedWithAI>Change with Stimul AI</ChangedWithAI>
     <CheckExpressionSuccess>No issues were found in the specified expression.</CheckExpressionSuccess>
     <CheckQuery>Check Query</CheckQuery>
     <CheckWithStimulAI>Check with Stimul AI</CheckWithStimulAI>
@@ -5661,7 +5661,7 @@
     <infoCompanyInfo>Enter your company information.</infoCompanyInfo>
     <infoDataSource>Select one Data Source from those available.</infoDataSource>
     <infoDataSources>Select Data Sources from those available. The first selected one will be the Master data source.</infoDataSources>
-    <infoFilters>Filter Data for your report</infoFilters>
+    <infoFilters>Filter Data for your report.</infoFilters>
     <infoGroups>Select the columns by which to group the data.</infoGroups>
     <infoLabelSettings>Configure the label settings.</infoLabelSettings>
     <infoLanguages>Select the report culture.</infoLanguages>
