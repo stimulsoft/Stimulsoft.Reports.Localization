@@ -1985,7 +1985,7 @@
     <sys_morebuttons>Více tlačítek</sys_morebuttons>
   </Gui>
   <HelpComponents>
-    <StiBarCode>Tato komponenta zobrazuje v reportu čárový kód. Data čárového kódu jsou poslána objektu ve formátu řetězce. Řetězec může obsahovat jakékoliv znaky povolené pro zvolený graf, ale pouze ty, které jsou v něm zobrazitelné.</StiBarCode>
+    <StiBarCode>Tato komponenta zobrazuje v reportu čárový kód. Data čárového kódu jsou poslána objektu ve formátu řetězce. Řetězec může obsahovat jakékoliv znaky povolené pro zvolený typ čárového kódu, ale pouze ty, které jsou v něm zobrazitelné.</StiBarCode>
     <StiButtonElement>Tento prvek se používá ke spuštění skriptu události při interakci uživatele.</StiButtonElement>
     <StiButtonUI>Tlačítko sloužící ke spuštění akce nebo příkazu.</StiButtonUI>
     <StiCardsElement>Tento prvek se používá k zobrazení seskupených dat ve formě karet.</StiCardsElement>
@@ -2304,7 +2304,7 @@
     <ExportModeRtf>Prezentace dat reportu po exportu. Tabulka – report bude vypadat jako tabulka, kde každá komponenta reportu je buňka tabulky. Rámeček – každá komponenta bude představovat samostatný rámeček, ale bez jakékoli vzájemné vazby mezi nimi.</ExportModeRtf>
     <ExportObjectFormatting>Použít formátování při exportu dat z bandů Data (komponenta Tabulka, hierarchický band).</ExportObjectFormatting>
     <ExportPageBreaks>Zobrazit okraje stránek reportu na listu v Excelu.</ExportPageBreaks>
-    <ExportRtfTextAsImage>Převést text RTF na obrázek. Pokud je tato možnost zapnuta, RichText se při exportu rozkládá na jednodušší primitiva podporovaná formátem PDF. RichText se složitým formátováním (vložené obrázky, tabulky) nelze vždy převést správně. V takovém případě se doporučuje tuto možnost zapnout.</ExportRtfTextAsImage>
+    <ExportRtfTextAsImage>Převést text RTF na obrázek. Pokud je tato možnost vypnuta, RichText se při exportu rozkládá na jednodušší primitiva podporovaná formátem PDF. RichText se složitým formátováním (vložené obrázky, tabulky) nelze vždy převést správně. V takovém případě se doporučuje tuto možnost zapnout.</ExportRtfTextAsImage>
     <Find>Vyhledání textu v reportu.</Find>
     <FullScreen>Čtení na celou obrazovku.</FullScreen>
     <GetCertificateFromCryptoUI>Použití rozhraní systémové kryptografické knihovny.</GetCertificateFromCryptoUI>

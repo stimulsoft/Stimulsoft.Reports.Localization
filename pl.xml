@@ -730,8 +730,8 @@
   <CustomMapWindow>
     <CheckedAll>Zaznaczone wszystkie</CheckedAll>
     <HideText>Ukryj tekst</HideText>
-    <KeysChangePosition>Klawisze (Left, Top, Right, Bottom) zmieniają położenie tekstu</KeysChangePosition>
-    <KeysChangeSize>Shift + keys (Left, Top, Right, Bottom) zmieniają rozmiar obszaru tekstowego</KeysChangeSize>
+    <KeysChangePosition>Klawisze (Lewo, Góra, Prawo, Dół) zmieniają położenie tekstu</KeysChangePosition>
+    <KeysChangeSize>Shift + klawisze (Lewo, Góra, Prawo, Dół) zmieniają rozmiar obszaru tekstowego</KeysChangeSize>
     <UncheckedAll>Niezaznaczone wszystkie</UncheckedAll>
   </CustomMapWindow>
   <Dashboard>
@@ -1985,7 +1985,7 @@
     <sys_morebuttons>Więcej przycisków</sys_morebuttons>
   </Gui>
   <HelpComponents>
-    <StiBarCode>Ten komponent umożliwia wyświetlanie kodów paskowych w raporcie. Dane kodu paskowego są wysyłane do obiektu w postaci łańcucha znaków. Łańcuch znaków może zawierać dowolne symbole, jednak wyświetlone zostaną jedynie symbole dozwolone dla danego wykresu.</StiBarCode>
+    <StiBarCode>Ten komponent umożliwia wyświetlanie kodów paskowych w raporcie. Dane kodu paskowego są wysyłane do obiektu w postaci łańcucha znaków. Łańcuch znaków może zawierać dowolne symbole, jednak wyświetlone zostaną jedynie symbole dozwolone dla danego typu kodu kreskowego.</StiBarCode>
     <StiButtonElement>Ten element służy do wykonywania skryptu zdarzeń, gdy użytkownik wchodzi w interakcję.</StiButtonElement>
     <StiButtonUI>Przycisk służący do wywołania akcji lub uruchomienia polecenia.</StiButtonUI>
     <StiCardsElement>Ten element służy do wyświetlania zgrupowanych danych w postaci kart.</StiCardsElement>
@@ -2304,7 +2304,7 @@
     <ExportModeRtf>Prezentacja danych z raportu po eksporcie. Tabela - raport będzie wyglądał jak tabela, w której każdy element raportu stanowi komórkę tabeli. Ramka - każdy element raportu będzie wyglądał jak pojedyncza ramka, lecz bez żadnego powiązania pomiędzy nimi. </ExportModeRtf>
     <ExportObjectFormatting>Stosuj formatowanie do eksportu danych z pasków danych (element Tabela, pasek hierarchiczny). </ExportObjectFormatting>
     <ExportPageBreaks>Pokazuj obramowania stron raportu na arkuszu Excela. </ExportPageBreaks>
-    <ExportRtfTextAsImage>Przekształć tekst RTF na obraz. Jeśli ta opcja jest włączona, to podczas eksportowania format RichText rozkłada się na prostsze podstawowe elementy obsługiwane przez format PDF. RichText o skomplikowanym formatowaniu (wbudowane obrazy, tabele) nie zawsze może być przekształcony prawidłowo. W tym przypadku, zaleca się włączenie tej opcji. </ExportRtfTextAsImage>
+    <ExportRtfTextAsImage>Przekształć tekst RTF na obraz. Jeśli ta opcja jest wyłączona, to podczas eksportowania format RichText rozkłada się na prostsze podstawowe elementy obsługiwane przez format PDF. RichText o skomplikowanym formatowaniu (wbudowane obrazy, tabele) nie zawsze może być przekształcony prawidłowo. W tym przypadku, zaleca się włączenie tej opcji. </ExportRtfTextAsImage>
     <Find>Wyszukaj tekst w raporcie.</Find>
     <FullScreen>Pełny ekran.</FullScreen>
     <GetCertificateFromCryptoUI>Używanie interfejsu biblioteki kryptograficznej systemu </GetCertificateFromCryptoUI>
@@ -4311,7 +4311,7 @@
     <IconColor>Kolor do znaku</IconColor>
     <IconSet>Zestaw ikon</IconSet>
     <IconSetCondition>Warunek zestawu ikon</IconSetCondition>
-    <Idents>Wcięcia</Idents>
+    <Idents>Identyfikatory</Idents>
     <Image>Obraz</Image>
     <ImageAlign>Wyrównaj obraz</ImageAlign>
     <ImageAlignment>Wyrównanie obrazu</ImageAlignment>
