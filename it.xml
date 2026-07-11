@@ -91,7 +91,7 @@
     <AdapterVistaDBConnection>Dati da connessione VistaDB</AdapterVistaDBConnection>
   </Adapters>
   <BarCode>
-    <Post>Posta</Post>
+    <Post>Post</Post>
     <TwoDimensional>Bidimensionale</TwoDimensional>
   </BarCode>
   <Blockly>
@@ -206,10 +206,10 @@
     <ChartEditorForm>Editor grafici</ChartEditorForm>
     <ChartFiltersCollectionForm>Filtri</ChartFiltersCollectionForm>
     <ChartType>Tipo Grafico</ChartType>
-    <CheckBoxAutoRotation>Auto Rotazione</CheckBoxAutoRotation>
+    <CheckBoxAutoRotation>Rotazione automatica</CheckBoxAutoRotation>
     <ClusteredBar>Barre</ClusteredBar>
     <ClusteredColumn>Istogramma</ClusteredColumn>
-    <Common>Generali</Common>
+    <Common>Comune</Common>
     <ConstantLine>Linea Costante</ConstantLine>
     <ConstantLinesEditorForm>Editor Linee Costanti</ConstantLinesEditorForm>
     <DataColumns>Colonne Dati</DataColumns>
@@ -244,14 +244,14 @@
     <Labels>Etichette</Labels>
     <LabelsCenter>Centrato</LabelsCenter>
     <LabelSeriesName>Nome Serie:</LabelSeriesName>
-    <LabelsInside>Dentro</LabelsInside>
-    <LabelsInsideBase>Dentro in testa</LabelsInsideBase>
-    <LabelsInsideEnd>Dentro in coda</LabelsInsideEnd>
+    <LabelsInside>Interno</LabelsInside>
+    <LabelsInsideBase>Base interna</LabelsInsideBase>
+    <LabelsInsideEnd>Estremità interna</LabelsInsideEnd>
     <LabelsNone>Nessuno</LabelsNone>
-    <LabelsOutside>Fuori</LabelsOutside>
-    <LabelsOutsideBase>Fuori in testa</LabelsOutsideBase>
-    <LabelsOutsideEnd>Fuori in coda</LabelsOutsideEnd>
-    <LabelsOverlay>Sovrapposizione</LabelsOverlay>
+    <LabelsOutside>Esterno</LabelsOutside>
+    <LabelsOutsideBase>Base esterna</LabelsOutsideBase>
+    <LabelsOutsideEnd>Estremità esterna</LabelsOutsideEnd>
+    <LabelsOverlay>Sovrapposto</LabelsOverlay>
     <LabelsStyleCategory>Categoria</LabelsStyleCategory>
     <LabelsStyleCategoryPercentOfTotal>Categoria - Percentuale del totale</LabelsStyleCategoryPercentOfTotal>
     <LabelsStyleCategoryValue>Categoria - Valore</LabelsStyleCategoryValue>
@@ -467,7 +467,7 @@
     <Invite>Invita</Invite>
     <LabelAddCloudFolder>Collega la tua cartella Stimulsoft Cloud con report e dashboard.</LabelAddCloudFolder>
     <LabelAddFolder>Aggiungi la tua cartella locale con report e dashboard.</LabelAddFolder>
-    <labelCollectionName>Nome galleria:</labelCollectionName>
+    <labelCollectionName>Nome raccolta:</labelCollectionName>
     <LabelCreated>Creato:</LabelCreated>
     <LabelCreateFolder>Crea una nuova categoria in cui puoi inserire altri elementi.</LabelCreateFolder>
     <LabelCreateNewDashboard>Crea nuova dashboard.</LabelCreateNewDashboard>
@@ -495,7 +495,7 @@
     <LabelSeparateReport>File separato per report (e script)</LabelSeparateReport>
     <LabelShowReport>Mostra report:</LabelShowReport>
     <LabelStartDate>Data inizio:</LabelStartDate>
-    <labelUserName>User Name:</labelUserName>
+    <labelUserName>Nome utente:</labelUserName>
     <License>Licenza</License>
     <LicenseInformation>Informazioni licenza</LicenseInformation>
     <LicenseKey>Chiave di licenza</LicenseKey>
@@ -559,7 +559,7 @@
     <TextDescriptionChanges>Per favore, inserisci una descrizione delle modifiche:</TextDescriptionChanges>
     <TextFirstName>Nome</TextFirstName>
     <TextFromTo>Da {0} a {1} (Totale - {2})</TextFromTo>
-    <TextItemsWorkspace>Workspace</TextItemsWorkspace>
+    <TextItemsWorkspace>Area di lavoro</TextItemsWorkspace>
     <TextLastName>Cognome</TextLastName>
     <TextModify>Modifica</TextModify>
     <TextNewsLetters>Newsletter</TextNewsLetters>
@@ -1783,7 +1783,7 @@
     <DataRelationSelectForm>Selezione relazione</DataRelationSelectForm>
     <DataSetName>Inserisci nome DataSet</DataSetName>
     <DataSourceSelectForm>Selezione origine dati</DataSourceSelectForm>
-    <DataSourcesNewForm>Nuovo origine dati</DataSourcesNewForm>
+    <DataSourcesNewForm>Nuove origini dati</DataSourcesNewForm>
     <DataStoreViewerForm>Archivio dati</DataStoreViewerForm>
     <DesignerApplication>Designer di report</DesignerApplication>
     <EventEditorForm>Editor evento</EventEditorForm>
@@ -1852,7 +1852,7 @@
     <ZoomPageWidth>Zoom su larghezza pagina</ZoomPageWidth>
     <ZoomTwoPages>Due pagine</ZoomTwoPages>
     <ZoomXXPages>{0} X {1} Pagine</ZoomXXPages>
-    <ZoomXXPagesCancel>Cancella</ZoomXXPagesCancel>
+    <ZoomXXPagesCancel>Annulla</ZoomXXPagesCancel>
   </FormViewer>
   <FormViewerFind>
     <Close>Chiudi</Close>
@@ -2780,7 +2780,7 @@
     <ItemReportSnapshots>Istantanee report</ItemReportSnapshots>
     <ItemReportTemplates>Modelli report</ItemReportTemplates>
     <ItemSchedulers>Pianificatori</ItemSchedulers>
-    <ReportDesignerBusinessObjects>Oggetti business</ReportDesignerBusinessObjects>
+    <ReportDesignerBusinessObjects>Business Objects</ReportDesignerBusinessObjects>
     <ReportDesignerDataColumns>Colonne dati</ReportDesignerDataColumns>
     <ReportDesignerDataConnections>Connessioni dati</ReportDesignerDataConnections>
     <ReportDesignerDataRelations>Relazioni dati</ReportDesignerDataRelations>
@@ -2796,7 +2796,7 @@
     <SystemWorkspaces>Aree di lavoro</SystemWorkspaces>
     <TextAdministration>Amministrazione</TextAdministration>
     <TextItems>Elementi</TextItems>
-    <TextReportDesigner>Designer report</TextReportDesigner>
+    <TextReportDesigner>Designer di report</TextReportDesigner>
     <TextSystem>Sistema</TextSystem>
     <TextUsers>Utenti</TextUsers>
     <UserHimself>Se stesso</UserHimself>
@@ -2837,7 +2837,7 @@
     <DashboardCategory>Dashboard</DashboardCategory>
     <DataCategory>Dati</DataCategory>
     <DataCells>Celle dati</DataCells>
-    <DatePickerCategory>Selettore data</DatePickerCategory>
+    <DatePickerCategory>Selettore di data</DatePickerCategory>
     <DescriptionCategory>Descrizione</DescriptionCategory>
     <DesignCategory>Struttura</DesignCategory>
     <DisplayCategory>Visualizza</DisplayCategory>
@@ -2887,7 +2887,7 @@
     <SeriesLabelsCategory>Etichette serie</SeriesLabelsCategory>
     <ShapeCategory>Forma</ShapeCategory>
     <Size>Dimensione</Size>
-    <SubReportCategory>Sub-Report</SubReportCategory>
+    <SubReportCategory>Sottoreport</SubReportCategory>
     <TableCategory>Tabella</TableCategory>
     <TableOfContents>Indice</TableOfContents>
     <TextAdditionalCategory>Testo Supplementare</TextAdditionalCategory>
@@ -2902,7 +2902,7 @@
     <TrendLineCategory>Linea di tendenza</TrendLineCategory>
     <ValueCategory>Valore</ValueCategory>
     <ValueCloseCategory>Valore chiusura</ValueCloseCategory>
-    <ValueEndCategory>Fine Valore</ValueEndCategory>
+    <ValueEndCategory>Valore finale</ValueEndCategory>
     <ValueEventsCategory>Eventi valore</ValueEventsCategory>
     <ValueHighCategory>Valore massimo</ValueHighCategory>
     <ValueLowCategory>Valore minimo</ValueLowCategory>
@@ -3063,7 +3063,7 @@
     <BorderStyleFixed3D>3D fisso</BorderStyleFixed3D>
     <BorderStyleFixedSingle>Singolo fisso</BorderStyleFixedSingle>
     <BorderStyleNone>Nessuno</BorderStyleNone>
-    <ChartAxesTicksAll>Tutti</ChartAxesTicksAll>
+    <ChartAxesTicksAll>Tutte</ChartAxesTicksAll>
     <ChartAxesTicksMajor>Maggiore</ChartAxesTicksMajor>
     <ChartAxesTicksNone>Nessuno</ChartAxesTicksNone>
     <ChartGridLinesAll>Tutte</ChartGridLinesAll>
@@ -3086,7 +3086,7 @@
     <DateTimePickerFormatCustom>Personalizzato</DateTimePickerFormatCustom>
     <DateTimePickerFormatLong>Lungo</DateTimePickerFormatLong>
     <DateTimePickerFormatShort>Corto</DateTimePickerFormatShort>
-    <DateTimePickerFormatTime>Tempo</DateTimePickerFormatTime>
+    <DateTimePickerFormatTime>Ora</DateTimePickerFormatTime>
     <DialogResultAbort>Interrompi</DialogResultAbort>
     <DialogResultCancel>Annulla</DialogResultCancel>
     <DialogResultIgnore>Ignora</DialogResultIgnore>
@@ -3095,7 +3095,7 @@
     <DialogResultOK>OK</DialogResultOK>
     <DialogResultRetry>Riprova</DialogResultRetry>
     <DialogResultYes>Sì</DialogResultYes>
-    <DuplexDefault>Default</DuplexDefault>
+    <DuplexDefault>Predefinito</DuplexDefault>
     <DuplexHorizontal>Orizzontale</DuplexHorizontal>
     <DuplexSimplex>Semplice</DuplexSimplex>
     <DuplexVertical>Verticale</DuplexVertical>
@@ -3115,7 +3115,7 @@
     <HotkeyPrefixShow>Mostra</HotkeyPrefixShow>
     <LeftRightAlignmentLeft>A sinistra</LeftRightAlignmentLeft>
     <LeftRightAlignmentRight>A destra</LeftRightAlignmentRight>
-    <PictureBoxSizeModeAutoSize>Dimensioni automatiche</PictureBoxSizeModeAutoSize>
+    <PictureBoxSizeModeAutoSize>Dimensione automatica</PictureBoxSizeModeAutoSize>
     <PictureBoxSizeModeCenterImage>Immagine centrata</PictureBoxSizeModeCenterImage>
     <PictureBoxSizeModeNormal>Normale</PictureBoxSizeModeNormal>
     <PictureBoxSizeModeStretchImage>Esteso</PictureBoxSizeModeStretchImage>
@@ -3148,7 +3148,7 @@
     <StiBorderSidesLeft>A sinistra</StiBorderSidesLeft>
     <StiBorderSidesNone>Nessuna</StiBorderSidesNone>
     <StiBorderSidesRight>A destra</StiBorderSidesRight>
-    <StiBorderSidesTop>Alto</StiBorderSidesTop>
+    <StiBorderSidesTop>In alto</StiBorderSidesTop>
     <StiBorderStyleBump>Urto</StiBorderStyleBump>
     <StiBorderStyleEtched>Inciso</StiBorderStyleEtched>
     <StiBorderStyleFlat>Piatto</StiBorderStyleFlat>
@@ -3195,7 +3195,7 @@
     <StiCheckStateChecked>Selezionato</StiCheckStateChecked>
     <StiCheckStateIndeterminate>Indeterminato</StiCheckStateIndeterminate>
     <StiCheckStateUnchecked>Non selezionato</StiCheckStateUnchecked>
-    <StiCheckStyleCheck>Seleziona</StiCheckStyleCheck>
+    <StiCheckStyleCheck>Spunta</StiCheckStyleCheck>
     <StiCheckStyleCheckRectangle>Rettangolo con Check</StiCheckStyleCheckRectangle>
     <StiCheckStyleCross>Croce</StiCheckStyleCross>
     <StiCheckStyleCrossCircle>Cerchio con Croce</StiCheckStyleCrossCircle>
@@ -3320,7 +3320,7 @@
     <StiFilterItemExpression>Espressione</StiFilterItemExpression>
     <StiFilterItemValue>Valore</StiFilterItemValue>
     <StiFilterItemValueClose>Valore chiusura</StiFilterItemValueClose>
-    <StiFilterItemValueEnd>Valore fine</StiFilterItemValueEnd>
+    <StiFilterItemValueEnd>Valore finale</StiFilterItemValueEnd>
     <StiFilterItemValueHigh>Valore massimo</StiFilterItemValueHigh>
     <StiFilterItemValueLow>Valore minimo</StiFilterItemValueLow>
     <StiFilterItemValueOpen>Valore apertura</StiFilterItemValueOpen>
@@ -3353,8 +3353,8 @@
     <StiGaugeTypeHalfCircular>Mezzo circolare</StiGaugeTypeHalfCircular>
     <StiGaugeTypeHorizontalLinear>Lineare orizzontale</StiGaugeTypeHorizontalLinear>
     <StiGaugeTypeLinear>Lineare verticale</StiGaugeTypeLinear>
-    <StiGroupSortDirectionAscending>Ascendente</StiGroupSortDirectionAscending>
-    <StiGroupSortDirectionDescending>Discendente</StiGroupSortDirectionDescending>
+    <StiGroupSortDirectionAscending>Crescente</StiGroupSortDirectionAscending>
+    <StiGroupSortDirectionDescending>Decrescente</StiGroupSortDirectionDescending>
     <StiGroupSortDirectionNone>Nessuno</StiGroupSortDirectionNone>
     <StiHorAlignmentCenter>Al centro</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>A sinistra</StiHorAlignmentLeft>
@@ -3405,7 +3405,7 @@
     <StiLabelsPlacementNone>Nessuno</StiLabelsPlacementNone>
     <StiLabelsPlacementOneLine>Una Linea</StiLabelsPlacementOneLine>
     <StiLabelsPlacementTwoLines>Due Linee</StiLabelsPlacementTwoLines>
-    <StiLegendDirectionBottomToTop>Dal Basso in Alto</StiLegendDirectionBottomToTop>
+    <StiLegendDirectionBottomToTop>Dal basso verso l'alto</StiLegendDirectionBottomToTop>
     <StiLegendDirectionLeftToRight>Da sinistra a destra</StiLegendDirectionLeftToRight>
     <StiLegendDirectionRightToLeft>Da destra a sinistra</StiLegendDirectionRightToLeft>
     <StiLegendDirectionTopToBottom>Dall'alto verso il basso</StiLegendDirectionTopToBottom>
@@ -3449,7 +3449,7 @@
     <StiNavigatorButtonVisibilityInsert>Inserisci</StiNavigatorButtonVisibilityInsert>
     <StiNavigatorButtonVisibilityLast>Ultimo</StiNavigatorButtonVisibilityLast>
     <StiNavigatorButtonVisibilityNext>Successivo</StiNavigatorButtonVisibilityNext>
-    <StiNavigatorButtonVisibilityPost>Applica</StiNavigatorButtonVisibilityPost>
+    <StiNavigatorButtonVisibilityPost>Post</StiNavigatorButtonVisibilityPost>
     <StiNavigatorButtonVisibilityPrior>Precedente</StiNavigatorButtonVisibilityPrior>
     <StiNavigatorButtonVisibilityRefresh>Aggiorna</StiNavigatorButtonVisibilityRefresh>
     <StiNestedFactorHigh>Alto</StiNestedFactorHigh>
@@ -3500,7 +3500,7 @@
     <StiPlacementOverlay>Sovrapposto</StiPlacementOverlay>
     <StiPlesseyCheckSumModulo10>Modulo10</StiPlesseyCheckSumModulo10>
     <StiPlesseyCheckSumModulo11>Modulo11</StiPlesseyCheckSumModulo11>
-    <StiPlesseyCheckSumNone>None</StiPlesseyCheckSumNone>
+    <StiPlesseyCheckSumNone>Nessuno</StiPlesseyCheckSumNone>
     <StiPreviewModeDotMatrix>Matrice di Punti</StiPreviewModeDotMatrix>
     <StiPreviewModeStandard>Standard</StiPreviewModeStandard>
     <StiPreviewModeStandardAndDotMatrix>Standard e Matrice di Punti</StiPreviewModeStandardAndDotMatrix>
@@ -3526,8 +3526,8 @@
     <StiProcessingDuplicatesTypeGlobalBasedOnValueAndTagHide>Nascondi tutto basato su valore e tag</StiProcessingDuplicatesTypeGlobalBasedOnValueAndTagHide>
     <StiProcessingDuplicatesTypeGlobalBasedOnValueAndTagMerge>Unisci tutto basato su valore e tag</StiProcessingDuplicatesTypeGlobalBasedOnValueAndTagMerge>
     <StiProcessingDuplicatesTypeGlobalBasedOnValueRemoveText>Rimuovi tutto basato su valore testo</StiProcessingDuplicatesTypeGlobalBasedOnValueRemoveText>
-    <StiProcessingDuplicatesTypeGlobalHide>Nascondi in Generale</StiProcessingDuplicatesTypeGlobalHide>
-    <StiProcessingDuplicatesTypeGlobalMerge>Unisci in Generale</StiProcessingDuplicatesTypeGlobalMerge>
+    <StiProcessingDuplicatesTypeGlobalHide>Nascondi globale</StiProcessingDuplicatesTypeGlobalHide>
+    <StiProcessingDuplicatesTypeGlobalMerge>Unisci globale</StiProcessingDuplicatesTypeGlobalMerge>
     <StiProcessingDuplicatesTypeGlobalRemoveText>Rimuovi testo in Generale</StiProcessingDuplicatesTypeGlobalRemoveText>
     <StiProcessingDuplicatesTypeHide>Nascondi</StiProcessingDuplicatesTypeHide>
     <StiProcessingDuplicatesTypeMerge>Unisci</StiProcessingDuplicatesTypeMerge>
@@ -3632,25 +3632,25 @@
     <StiSizeModeFit>Adatta</StiSizeModeFit>
     <StiSortDirectionAsc>Asc</StiSortDirectionAsc>
     <StiSortDirectionDesc>Desc</StiSortDirectionDesc>
-    <StiSortDirectionNone>None</StiSortDirectionNone>
+    <StiSortDirectionNone>Nessuno</StiSortDirectionNone>
     <StiSortTypeByDisplayValue>dal Valore di Esposizione</StiSortTypeByDisplayValue>
     <StiSortTypeByValue>da Valore</StiSortTypeByValue>
     <StiSqlSourceTypeStoredProcedure>Stored Procedure</StiSqlSourceTypeStoredProcedure>
     <StiSqlSourceTypeTable>Query</StiSqlSourceTypeTable>
     <StiStyleComponentTypeChart>Grafico</StiStyleComponentTypeChart>
-    <StiStyleComponentTypeCheckBox>Check Box</StiStyleComponentTypeCheckBox>
-    <StiStyleComponentTypeCrossTab>Cross-Tab</StiStyleComponentTypeCrossTab>
+    <StiStyleComponentTypeCheckBox>Casella di controllo</StiStyleComponentTypeCheckBox>
+    <StiStyleComponentTypeCrossTab>Tabella incrociata</StiStyleComponentTypeCrossTab>
     <StiStyleComponentTypeImage>Immagine</StiStyleComponentTypeImage>
     <StiStyleComponentTypePrimitive>Primitiva</StiStyleComponentTypePrimitive>
     <StiStyleComponentTypeText>Testo</StiStyleComponentTypeText>
     <StiStyleConditionTypeComponentName>Nome componente</StiStyleConditionTypeComponentName>
     <StiStyleConditionTypeComponentType>Tipo componente</StiStyleConditionTypeComponentType>
     <StiStyleConditionTypeLocation>Posizione</StiStyleConditionTypeLocation>
-    <StiStyleConditionTypePlacement>Collocamento</StiStyleConditionTypePlacement>
+    <StiStyleConditionTypePlacement>Posizionamento</StiStyleConditionTypePlacement>
     <StiSummaryValuesAllValues>Tutti i Valori</StiSummaryValuesAllValues>
     <StiSummaryValuesSkipNulls>Ignora Nulli</StiSummaryValuesSkipNulls>
     <StiSummaryValuesSkipZerosAndNulls>Ignora Zeri e Nulli</StiSummaryValuesSkipZerosAndNulls>
-    <StiTablceCellTypeCheckBox>CheckBox</StiTablceCellTypeCheckBox>
+    <StiTablceCellTypeCheckBox>Casella di controllo</StiTablceCellTypeCheckBox>
     <StiTablceCellTypeImage>Immagine</StiTablceCellTypeImage>
     <StiTablceCellTypeRichText>RichText</StiTablceCellTypeRichText>
     <StiTablceCellTypeText>Testo</StiTablceCellTypeText>
@@ -3679,7 +3679,7 @@
     <StiTextQualityWysiwyg>Wysiwyg</StiTextQualityWysiwyg>
     <StiTextSizeModeFit>Adatta</StiTextSizeModeFit>
     <StiTextSizeModeFitAndWordWrap>Adatta e vai a capo</StiTextSizeModeFitAndWordWrap>
-    <StiTextSizeModeTrimming>Taglia</StiTextSizeModeTrimming>
+    <StiTextSizeModeTrimming>Troncamento</StiTextSizeModeTrimming>
     <StiTextSizeModeWordWrap>Vai a capo</StiTextSizeModeWordWrap>
     <StiThemeAppearanceAuto>Auto</StiThemeAppearanceAuto>
     <StiThemeAppearanceDark>Scuro</StiThemeAppearanceDark>
@@ -3707,7 +3707,7 @@
     <StiUnitAlignmentSuffix>Suffisso</StiUnitAlignmentSuffix>
     <StiUnitAlignmentSuffixInside>Suffisso interno</StiUnitAlignmentSuffixInside>
     <StiUnitAlignmentSuffixInsideWithSpace>Suffisso interno con spazio</StiUnitAlignmentSuffixInsideWithSpace>
-    <StiVertAlignmentBottom>Inferiore</StiVertAlignmentBottom>
+    <StiVertAlignmentBottom>In basso</StiVertAlignmentBottom>
     <StiVertAlignmentCenter>Al centro</StiVertAlignmentCenter>
     <StiVertAlignmentTop>In alto</StiVertAlignmentTop>
     <StiViewModeNormal>Normale</StiViewModeNormal>
@@ -4003,7 +4003,7 @@
     <ChartType>Tipo Grafico</ChartType>
     <CheckAlignment>Allineamento selezione</CheckAlignment>
     <CheckColor>Colore selezione</CheckColor>
-    <Checked>Verificato</Checked>
+    <Checked>Selezionato</Checked>
     <CheckedIcon>Icona selezionata</CheckedIcon>
     <CheckOnClick>Controlla su click</CheckOnClick>
     <CheckStyle>Controlla stile</CheckStyle>
@@ -4121,7 +4121,7 @@
     <DistinguishedName>Nome distinto</DistinguishedName>
     <Dock>Ancora</Dock>
     <DockableTable>Tabella ancorabile</DockableTable>
-    <DockStyle>Stile ancora</DockStyle>
+    <DockStyle>Stile ancoraggio</DockStyle>
     <DrawBorder>Disegna Bordi</DrawBorder>
     <DrawHatch>Disegna tratteggio</DrawHatch>
     <DrawLine>Disegna linea</DrawLine>
@@ -4159,8 +4159,8 @@
     <EngineVersion>Versione Motore</EngineVersion>
     <EnumeratorSeparator>Separatore di Enumeratore</EnumeratorSeparator>
     <EnumeratorType>Tipo Enumeratore</EnumeratorType>
-    <ErrorCorrectionLevel>Errore correzione livello</ErrorCorrectionLevel>
-    <ErrorsCorrectionLevel>Errori correzione livello</ErrorsCorrectionLevel>
+    <ErrorCorrectionLevel>Livello di correzione errori</ErrorCorrectionLevel>
+    <ErrorsCorrectionLevel>Livello di correzione errori</ErrorsCorrectionLevel>
     <EvenStyle>Stile Normale</EvenStyle>
     <ExceedMargins>Supera margini</ExceedMargins>
     <ExcelSheet>Foglio Excel</ExcelSheet>
@@ -4363,7 +4363,7 @@
     <KeepChildTogether>Tenere i figli insieme</KeepChildTogether>
     <KeepCrossTabTogether>Mantieni insieme Cross-Tab </KeepCrossTabTogether>
     <KeepDetails>Mantieni dettagli</KeepDetails>
-    <KeepDetailsTogether>Mantieni Insieme Dettagli</KeepDetailsTogether>
+    <KeepDetailsTogether>Mantieni i dettagli insieme</KeepDetailsTogether>
     <KeepFooterTogether>Mantieni insieme il piè di pagina</KeepFooterTogether>
     <KeepGroupFooterTogether>Mantieni Insieme Piè di Gruppo</KeepGroupFooterTogether>
     <KeepGroupHeaderTogether>Mantieni Insieme Intestazione di Gruppo</KeepGroupHeaderTogether>
@@ -4580,7 +4580,7 @@
     <Pattern>Motivo</Pattern>
     <PDFPreview>Anteprima PDF</PDFPreview>
     <Placeholder>Segnaposto</Placeholder>
-    <Placement>Piazzamento</Placement>
+    <Placement>Posizionamento</Placement>
     <PlaceOnToolbox>Inserire nella toolbox</PlaceOnToolbox>
     <Platform>Piattaforma</Platform>
     <PointAtCenter>Centra</PointAtCenter>
@@ -4611,7 +4611,7 @@
     <ProcessAtEnd>Elaborare alla fine</ProcessAtEnd>
     <ProcessingDuplicates>Processa Duplicati</ProcessingDuplicates>
     <ProcessTilde>Gestisci tilde</ProcessTilde>
-    <ProductHomePage>Home page</ProductHomePage>
+    <ProductHomePage>Pagina iniziale</ProductHomePage>
     <Property>Proprietà</Property>
     <Provider>Provider</Provider>
     <RadarStyle>Stile radar</RadarStyle>
@@ -4677,7 +4677,7 @@
     <RotationMode>Modalità rotazione</RotationMode>
     <Round>Rotonda</Round>
     <RoundValues>Arrotonda valori</RoundValues>
-    <RowCount>Conteggio Riga</RowCount>
+    <RowCount>Numero righe</RowCount>
     <RowHeaderBackColor>Colore sfondo intestazione riga</RowHeaderBackColor>
     <RowHeaderForeColor>Colore primo piano intestazione riga</RowHeaderForeColor>
     <RowHeadersVisible>Intestazioni righe visibili</RowHeadersVisible>
@@ -4760,7 +4760,7 @@
     <ShowOthers>Mostra 'altri'</ShowOthers>
     <ShowPercents>Mostra percentuali</ShowPercents>
     <ShowPlacemark>Mostra segnaposto</ShowPlacemark>
-    <ShowQuietZoneIndicator>Show Quiet Zone Indicator</ShowQuietZoneIndicator>
+    <ShowQuietZoneIndicator>Mostra indicatore margini</ShowQuietZoneIndicator>
     <ShowQuietZones>Mostra margini</ShowQuietZones>
     <ShowScrollBar>Mostra barra di scorrimento</ShowScrollBar>
     <ShowSelectAll>Mostra seleziona tutto</ShowSelectAll>
@@ -4891,7 +4891,7 @@
     <TickMarkMinorBorder>Bordo tacca secondaria</TickMarkMinorBorder>
     <TickMarkMinorBorderWidth>Spessore bordo tacca secondaria</TickMarkMinorBorderWidth>
     <TickMarkMinorBrush>Pennello tacca secondaria</TickMarkMinorBrush>
-    <Ticks>Spunte</Ticks>
+    <Ticks>Tacche</Ticks>
     <Title>Titolo</Title>
     <TitleBackColor>Colore sfondo titolo</TitleBackColor>
     <TitleBeforeHeader>Titolo prima dell’intestazione</TitleBeforeHeader>
@@ -5053,7 +5053,7 @@
     <BadSelectStatement>Espressione SELECT invalida!</BadSelectStatement>
     <Collections>Collezioni</Collections>
     <CreateLinksFromForeignKeys>Crea Collegamenti da Chiavi Esterne</CreateLinksFromForeignKeys>
-    <CriteriaAlias>Sinonimo</CriteriaAlias>
+    <CriteriaAlias>Alias</CriteriaAlias>
     <CriteriaCriteria>Criterio</CriteriaCriteria>
     <CriteriaExpression>Espressione</CriteriaExpression>
     <CriteriaGroupBy>Raggruppa per</CriteriaGroupBy>
@@ -5107,8 +5107,8 @@
     <SwitchToDerivedTable>Passa a Tabella Derivata</SwitchToDerivedTable>
     <Tables>Tabelle</Tables>
     <UnexpectedTokenAt>Token inaspettato "{0}" alla linea {1}, pos {2}!</UnexpectedTokenAt>
-    <Unions>Unions</Unions>
-    <UnionSubMenu>Union</UnionSubMenu>
+    <Unions>Unioni</Unions>
+    <UnionSubMenu>Unione</UnionSubMenu>
     <ViewQuery>Mostra Query</ViewQuery>
     <Views>Viste</Views>
   </QueryBuilder>
@@ -5221,7 +5221,7 @@
     <LabelBackground>Sfondo:</LabelBackground>
     <LabelCategory>Categoria:</LabelCategory>
     <LabelCentimeters>Centimetri:</LabelCentimeters>
-    <LabelCollectionName>Nome elenco:</LabelCollectionName>
+    <LabelCollectionName>Nome raccolta:</LabelCollectionName>
     <LabelColor>Colore:</LabelColor>
     <LabelCountData>Conteggio dati:</LabelCountData>
     <LabelDataBand>DataBand:</LabelDataBand>
@@ -5296,7 +5296,7 @@
     <StyleNeutral>Neutrale</StyleNeutral>
     <StyleNormal>Normale</StyleNormal>
     <StyleNote>Nota</StyleNote>
-    <StyleWarning>Avvertimento</StyleWarning>
+    <StyleWarning>Attenzione</StyleWarning>
     <UseDataFields>Usa campi dati</UseDataFields>
     <VisualChecked>Selezionato</VisualChecked>
     <VisualDefault>Predefinito</VisualDefault>
@@ -5572,14 +5572,14 @@
     <StyleDesigner>Editor di stili</StyleDesigner>
     <Styles>Elenco dei stili</Styles>
     <TabHome>Home</TabHome>
-    <TabLayout>Impaginazione</TabLayout>
+    <TabLayout>Layout</TabLayout>
     <TabPage>Pagina</TabPage>
     <TabView>Vista</TabView>
     <TextBrush>Pennello testo</TextBrush>
     <ToolbarAlignment>Allineamento</ToolbarAlignment>
     <ToolbarArrange>Arrangia</ToolbarArrange>
     <ToolbarBorders>Bordi</ToolbarBorders>
-    <ToolbarClipboard>Clipboard</ToolbarClipboard>
+    <ToolbarClipboard>Appunti</ToolbarClipboard>
     <ToolbarDockStyle>Stile Ancoraggio</ToolbarDockStyle>
     <ToolbarFont>Font</ToolbarFont>
     <ToolbarFormatting>Formattazione</ToolbarFormatting>
