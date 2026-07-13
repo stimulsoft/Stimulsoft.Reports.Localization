@@ -285,7 +285,7 @@
     <PictorialStacked>Pictórico Empilhado</PictorialStacked>
     <Pie>Pizza</Pie>
     <Polar>Polar</Polar>
-    <PolarStacked>Polar Empilhado</PolarStacked>
+    <PolarStacked>Empilhado Polar</PolarStacked>
     <Radar>Radar</Radar>
     <RadarArea>Área Radar</RadarArea>
     <RadarColumn>Coluna radar</RadarColumn>
@@ -743,7 +743,7 @@
     <AllowUserFiltering>Permitir filtragem de usuários</AllowUserFiltering>
     <AllowUserSorting>Permitir classificação do usuário</AllowUserSorting>
     <BeforeTransformation>Aplicar antes da transformação de dados</BeforeTransformation>
-    <BindData>Vincular aos Dados</BindData>
+    <BindData>Vincular a dados</BindData>
     <Blank>(Em branco)</Blank>
     <Blanks>(Vazio)</Blanks>
     <BooleanFilters>Filtros Booleanos</BooleanFilters>
@@ -961,7 +961,7 @@ sucedida</ConnectionSuccessfull>
     <StiPictureBoxControl>Caixa de Imagem</StiPictureBoxControl>
     <StiRadioButtonControl>Botão de Rádio</StiRadioButtonControl>
     <StiRadioGroupControl>Grupo de Rádio</StiRadioGroupControl>
-    <StiRangeSliderControl>Controle Deslizante de Intervalo</StiRangeSliderControl>
+    <StiRangeSliderControl>Intervalo Deslizante</StiRangeSliderControl>
     <StiReportControl>Relatório</StiReportControl>
     <StiRichTextBoxControl>Rich Text Box</StiRichTextBoxControl>
     <StiSelectControl>Selecione</StiSelectControl>
@@ -2010,7 +2010,7 @@ sucedida</ConnectionSuccessfull>
     <StiCrossTab>O componente de tabela cruzada é usado para representar dados estruturados como uma tabela.</StiCrossTab>
     <StiDataBand>A faixa de Dados é ligada à fonte de dados e é gerada tantas vezes quantas forem as linhas na fonte de dados.</StiDataBand>
     <StiDatePickerElement>O elemento é usado para selecionar a data e a hora.</StiDatePickerElement>
-    <StiDatePickerUI>Um seletor de data usado para selecionar uma data em um calendário.</StiDatePickerUI>
+    <StiDatePickerUI>Um seletor de data usado para escolher uma data em um calendário.</StiDatePickerUI>
     <StiElectronicSignature>Este componente é usado para adicionar uma assinatura gráfica, imagem, iniciais e texto.</StiElectronicSignature>
     <StiEmptyBand>Esta faixa é usada para preencher o espaço livre no fundo de uma página. Esta faixa preenche o espaço livre em cada página de um relatório.</StiEmptyBand>
     <StiFilterCategory>Um grupo de elementos usados ​​para selecionar e filtrar valores.</StiFilterCategory>
@@ -2022,22 +2022,22 @@ sucedida</ConnectionSuccessfull>
     <StiHeaderBand>Esta faixa é usada para gerar cabeçalhos. É utilizada em conjunto com a faixa de dados.</StiHeaderBand>
     <StiHierarchicalBand>Esta faixa é ligada à fonte de dados e é gerada tantas vezes quantas forem as linhas na fonte de dados. Os dados são gerados como uma árvore.</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Este componente é usado para gerar uma linha.</StiHorizontalLinePrimitive>
-    <StiIconUI>Um ícone usado para exibir um gráfico simbólico ou marcador visual.</StiIconUI>
+    <StiIconUI>Um ícone usado para exibir um gráfico simbólico ou um marcador visual.</StiIconUI>
     <StiImage>Este componente é usado para gerar imagens. Ele suporta os seguintes formatos gráficos, como BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
     <StiImageElement>Este elemento é usado para gerar imagens. Suporta os seguintes formatos gráficos: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF, SVG.</StiImageElement>
     <StiImageUI>Uma imagem usada para exibir conteúdo gráfico dentro da interface.</StiImageUI>
     <StiIndicatorElement>O elemento exibe a diferença nos valores entre os dados de entrada.</StiIndicatorElement>
     <StiLabelUI>Um rótulo usado para exibir texto ou legendas curtas.</StiLabelUI>
     <StiListBoxElement>O elemento permite selecionar itens de uma lista.</StiListBoxElement>
-    <StiListUI>Uma lista usada para exibir itens selecionáveis em uma coleção vertical.</StiListUI>
+    <StiListUI>Uma lista usada para exibir itens selecionáveis ​​em uma coleção vertical.</StiListUI>
     <StiMap>Esse componente é usado para exibir dados segmentados geograficamente.</StiMap>
     <StiMapCategory>Grupo de elementos para trabalhar com mapas e dados.</StiMapCategory>
     <StiMapElement>Esse elemento é usado para exibir dados segmentados geograficamente.</StiMapElement>
     <StiMathFormula>Este componente é usado para exibir fórmulas matemáticas em um relatório.</StiMathFormula>
-    <StiMultiListUI>Uma lista usada para selecionar vários itens da mesma coleção.</StiMultiListUI>
-    <StiMultiSelectUI>Um seletor usado para escolher vários valores de uma lista preparada.</StiMultiSelectUI>
+    <StiMultiListUI>Uma lista usada para selecionar múltiplos itens da mesma coleção.</StiMultiListUI>
+    <StiMultiSelectUI>Um seletor usado para escolher múltiplos valores de uma lista preparada.</StiMultiSelectUI>
     <StiNumberBoxElement>Este elemento é usado para selecionar um valor numérico ou definir um intervalo de valores numéricos.</StiNumberBoxElement>
-    <StiNumberInputUI>Um campo numérico usado para inserir valores numéricos com entrada controlada.</StiNumberInputUI>
+    <StiNumberInputUI>Um campo de entrada numérica usado para inserir valores numéricos com entrada controlada.</StiNumberInputUI>
     <StiOnlineMapElement>Este elemento é usado para exibir marcadores geográficos no mapa online.</StiOnlineMapElement>
     <StiOverlayBand>Esta faixa é usada para exibir marcas d'água em uma página.</StiOverlayBand>
     <StiPageFooterBand>Esta faixa é usada para exibir as informações na parte inferior de cada página, como números de página, datas e outras informações adicionais.</StiPageFooterBand>
@@ -2049,17 +2049,17 @@ sucedida</ConnectionSuccessfull>
     <StiPdfDigitalSignatureElement>Este componente é utilizado para especificar um espaço para a assinatura digital e campos do certificado ao exportar para PDF.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>O elemento de tabela dinâmica é usado para representar dados estruturados como uma tabela.</StiPivotTableElement>
     <StiProgressElement>O elemento exibe a proporção dos dados de entrada. Pode ser apresentado em diferentes modos - uma pizza, rosca, barras.</StiProgressElement>
-    <StiRadioGroupUI>Um grupo de opções usado para selecionar uma opção de um conjunto predefinido de valores.</StiRadioGroupUI>
+    <StiRadioGroupUI>Um grupo de botões de opção usado para selecionar uma opção de um conjunto predefinido de valores.</StiRadioGroupUI>
     <StiRangeSelectorElement>Este componente é usado para selecionar um intervalo de valores em uma escala ou linha do tempo. Ele permite que os usuários definam visualmente os limites mínimo e máximo do intervalo.</StiRangeSelectorElement>
-    <StiRangeSliderUI>Um controle deslizante de intervalo usado para definir valores mínimo e máximo em uma escala.</StiRangeSliderUI>
+    <StiRangeSliderUI>Um controle deslizante de intervalo usado para definir valores mínimos e máximos em uma escala.</StiRangeSliderUI>
     <StiRectanglePrimitive>Este componente é usado para exibir retângulos.</StiRectanglePrimitive>
     <StiRegionMapElement>Esse elemento é usado para exibir dados segmentados geograficamente.</StiRegionMapElement>
     <StiReportSummaryBand>Esta faixa é usada para exibir resumos ao longo de todo o relatório. É exibida uma vez no final de um relatório.</StiReportSummaryBand>
     <StiReportTitleBand>Esta faixa é usada para exibir o título do relatório. É exibida no início de um relatório.</StiReportTitleBand>
     <StiRichText>Este componente é usado para produzir e editar o texto RTF. Ele também suporta carregar e salvar arquivos no formato RTF.</StiRichText>
     <StiRoundedRectanglePrimitive>Este componente é usado para saída de retângulos arredondados.</StiRoundedRectanglePrimitive>
-    <StiScreen>Uma tela que hospeda controles, layout e interações do usuário para uma página de aplicativo.</StiScreen>
-    <StiSelectUI>Uma caixa de seleção usada para escolher um valor de uma lista suspensa.</StiSelectUI>
+    <StiScreen>Uma tela que abriga controles, layout e interações do usuário para uma página de aplicativo.</StiScreen>
+    <StiSelectUI>Um campo de seleção usado para escolher um valor de uma lista suspensa.</StiSelectUI>
     <StiShape>Este componente é utilizado para inserir formas prontas, como setas, linha diagonal para baixo, linha diagonal para cima, linha horizontal, linhas esquerda e direita, oval, retângulo, retângulo arredondado, linhas superior e inferior, triângulo, linha vertical.</StiShape>
     <StiShapeElement>Esse elemento é usado para inserir formas prontas, como setas, linha diagonal para baixo, linha diagonal para cima, linha horizontal, linhas esquerda e direita, oval, retângulo, retângulo arredondado, linhas superior e inferior, triângulo, linha vertical.</StiShapeElement>
     <StiSignature>Este componente é usado para adicionar uma assinatura eletrônica ou digital a um relatório.</StiSignature>
@@ -2070,11 +2070,11 @@ sucedida</ConnectionSuccessfull>
     <StiTable>Este componente é um conjunto de elementos de dados que é organizado através de um modelo de colunas verticais e linhas horizontais.</StiTable>
     <StiTableElement>Esse elemento é um conjunto de elementos de dados que é organizado usando um modelo de colunas verticais e linhas horizontais.</StiTableElement>
     <StiTableOfContents>Este componente é usado para criar um índice em um relatório.</StiTableOfContents>
-    <StiTableUI>Uma tabela usada para exibir dados em linhas e colunas de forma clara.</StiTableUI>
+    <StiTableUI>Uma tabela usada para exibir dados de forma clara em linhas e colunas.</StiTableUI>
     <StiText>Este componente é um objeto básico para gerar dados como texto.</StiText>
     <StiTextElement>Esse elemento é um objeto básico para gerar dados como um texto.</StiTextElement>
     <StiTextInCells>O componente é usado para produzir um texto em células. É frequentemente utilizado para criação de formulários.</StiTextInCells>
-    <StiTextInputUI>Um campo de texto usado para inserir e editar valores de texto.</StiTextInputUI>
+    <StiTextInputUI>Um campo de entrada de texto usado para inserir e editar valores de texto.</StiTextInputUI>
     <StiTreeViewBoxElement>O elemento é usado para selecionar valores com uma lista suspensa como uma árvore.</StiTreeViewBoxElement>
     <StiTreeViewElement>Representa o elemento que é usado para mostrar os dados hierárquicos como uma árvore.</StiTreeViewElement>
     <StiVerticalLinePrimitive>Este componente é usado para saída de linhas verticais.</StiVerticalLinePrimitive>
@@ -2697,9 +2697,9 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <SubscriptionExpiredDays>Expira em {0} dias</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Sua assinatura expirou. Atualize sua assinatura para obter a última versão.</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>Assinatura expirou</SubscriptionExpiredShort>
-    <SubscriptionLimitExceeded>Sua assinatura excedeu o limite de licenças de desenvolvedor. O aplicativo será fechado. Faça upgrade do seu plano para continuar.</SubscriptionLimitExceeded>
-    <SubscriptionLimitTitle>Limite da assinatura</SubscriptionLimitTitle>
-    <SubscriptionLimitWarning>Sua assinatura está usando mais licenças de desenvolvedor do que o permitido. Considere fazer upgrade do seu plano para continuar trabalhando sem interrupções.</SubscriptionLimitWarning>
+    <SubscriptionLimitExceeded>Sua assinatura excedeu o limite de licenças para desenvolvedores. O aplicativo será encerrado. Por favor, faça o upgrade do seu plano para continuar.</SubscriptionLimitExceeded>
+    <SubscriptionLimitTitle>Limite de assinatura</SubscriptionLimitTitle>
+    <SubscriptionLimitWarning>Sua assinatura está utilizando mais licenças de desenvolvedor do que o permitido. Considere fazer o upgrade do seu plano para continuar trabalhando sem interrupções.</SubscriptionLimitWarning>
     <SubscriptionsOut10>Faltam 10 dias para a assinatura expirar!</SubscriptionsOut10>
     <SubscriptionsOut20>O período de assinatura expirará em 20 dias!</SubscriptionsOut20>
     <SuccessfullyRenewed>Sua assinatura foi atualizada com sucesso!</SuccessfullyRenewed>
@@ -3234,7 +3234,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <StiDashboardContentAlignmentStretchX>Alongamento X</StiDashboardContentAlignmentStretchX>
     <StiDashboardContentAlignmentStretchXY>Alongamento XY</StiDashboardContentAlignmentStretchXY>
     <StiDataBarShapeArrow>Seta</StiDataBarShapeArrow>
-    <StiDataBarShapeBanner>Banner</StiDataBarShapeBanner>
+    <StiDataBarShapeBanner>Bandeira</StiDataBarShapeBanner>
     <StiDataBarShapeRectangle>Retângulo</StiDataBarShapeRectangle>
     <StiDataJoinTypeCross>Cruzar</StiDataJoinTypeCross>
     <StiDataJoinTypeFull>Completo</StiDataJoinTypeFull>
@@ -4194,7 +4194,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <FiltersTarget>Alvo de filtros</FiltersTarget>
     <First>Primeiro</First>
     <FirstTabOffset>Deslocamento da Primeira Tabulação</FirstTabOffset>
-    <FitMode>Modo de Ajuste</FitMode>
+    <FitMode>Modo Ajuste</FitMode>
     <FixedHeight>Altura Fixa</FixedHeight>
     <FixedWidth>Largura Fixa</FixedWidth>
     <Flat>Superfície Lisa</Flat>
@@ -4879,8 +4879,8 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <TextRightToLeft>Texto da direita para a esquerda</TextRightToLeft>
     <TextShowBehind>Texto Mostrar Atrás</TextShowBehind>
     <Third>Terceiro</Third>
-    <ThumbBorderColor>Cor da Borda do Cursor</ThumbBorderColor>
-    <ThumbColor>Cor do Cursor</ThumbColor>
+    <ThumbBorderColor>Cor da borda do botão deslizante</ThumbBorderColor>
+    <ThumbColor>Cor da miniatura</ThumbColor>
     <TickLabelMajorFont>Tipo de letra principal do Tick Label</TickLabelMajorFont>
     <TickLabelMajorTextBrush>Pincel de texto principal de marca de escala</TickLabelMajorTextBrush>
     <TickLabelMinorFont>Tipo de letra menor do rótulo de escala</TickLabelMinorFont>
@@ -5177,7 +5177,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <Categorized>Categorizado</Categorized>
     <Charts>Gráficos</Charts>
     <Checking>Verificando...</Checking>
-    <ClickAddToCreateNewAction>Clique em 'Adicionar' para definir o que acontece quando este evento ocorre (por exemplo, exibir uma tela ou alterar um valor).</ClickAddToCreateNewAction>
+    <ClickAddToCreateNewAction>Clique em "Adicionar" para definir o que acontece quando esse evento ocorre (por exemplo, exibir uma tela ou alterar um valor).</ClickAddToCreateNewAction>
     <ClickForMoreDetails>Clique para mais detalhes</ClickForMoreDetails>
     <ClickHereToCreateNewCondition>para criar uma nova condição</ClickHereToCreateNewCondition>
     <ClickHereToCreateNewField>para criar um novo campo</ClickHereToCreateNewField>
