@@ -22,7 +22,7 @@
     <TextDate>Дата</TextDate>
     <TextDescription>Описание</TextDescription>
     <TextDragDropRootFolderHere>Перетяните сюда папку!</TextDragDropRootFolderHere>
-    <TextEmails>Emails</TextEmails>
+    <TextEmails>Email</TextEmails>
     <TextFileSize>Размер файла</TextFileSize>
     <TextItems>Элементы</TextItems>
     <TextManager>Менеджер</TextManager>
@@ -46,7 +46,7 @@
     <TooltipUsers>Пользователи, которые обладают только возможностью просмотра и относятся к роли "Пользователь"</TooltipUsers>
     <WindowDescriptionRoleDelete>Вы действительно хотите удалить роль "{0}"?</WindowDescriptionRoleDelete>
     <WindowDescriptionUserDelete>Вы действительно хотите удалить пользователя "{0}"?</WindowDescriptionUserDelete>
-    <WindowDescriptionUserParameterDelete>Вы хотите удалить параметр пользователя "{0}"?</WindowDescriptionUserParameterDelete>
+    <WindowDescriptionUserParameterDelete>Вы действительно хотите удалить параметр пользователя "{0}"?</WindowDescriptionUserParameterDelete>
     <WindowDescriptionWorkspaceDelete>Вы действительно хотите удалить рабочее пространство "{0}"?</WindowDescriptionWorkspaceDelete>
     <WindowTitleRoleDelete>Удалить роль</WindowTitleRoleDelete>
     <WindowTitleUserDelete>Удалить пользователя</WindowTitleUserDelete>
@@ -60,7 +60,7 @@
     <ButtonSendEmail>Отправить Email</ButtonSendEmail>
     <ButtonSignUp>_Регистрация</ButtonSignUp>
     <CheckBoxRememberMe>Запомнить меня</CheckBoxRememberMe>
-    <HyperlinkAgreeToTerms>Регистрируясь, Вы соглашаетесь с условиями</HyperlinkAgreeToTerms>
+    <HyperlinkAgreeToTerms>Регистрируясь, Вы соглашаетесь с условиями.</HyperlinkAgreeToTerms>
     <HyperlinkAlreadyHaveAccount>Уже есть аккаунт</HyperlinkAlreadyHaveAccount>
     <HyperlinkBack>Назад</HyperlinkBack>
     <HyperlinkForgotPassword>Забыл пароль</HyperlinkForgotPassword>
@@ -71,11 +71,11 @@
     <TextLastName>Фамилия</TextLastName>
     <TextPassword>Пароль</TextPassword>
     <TextUserName>Адрес электронной почты</TextUserName>
-    <TextVerifyEmail>Проверьте свой адрес электронной почты {0}, для восстановления Вашего аккаунта.</TextVerifyEmail>
+    <TextVerifyEmail>Подтвердите свой адрес электронной почты {0} для восстановления Вашего аккаунта.</TextVerifyEmail>
     <TextView>Просмотр</TextView>
-    <WindowTitleForgotPassword>Сброс</WindowTitleForgotPassword>
+    <WindowTitleForgotPassword>Забыли пароль</WindowTitleForgotPassword>
     <WindowTitleLogin>Войти</WindowTitleLogin>
-    <WindowTitleSignUp>Создать</WindowTitleSignUp>
+    <WindowTitleSignUp>Регистрация</WindowTitleSignUp>
   </Authorization>
   <Calendar>
     <GroupBoxDate>Дата</GroupBoxDate>
@@ -102,7 +102,7 @@
     <LabelServerAddress>Адрес сервера</LabelServerAddress>
     <LabelUserName>Имя пользователя</LabelUserName>
     <MessageAuthorizationIsRequired>Требуется авторизация!</MessageAuthorizationIsRequired>
-    <MessageAuthorizationSuccessful>Авторизация прошла успешно!</MessageAuthorizationSuccessful>
+    <MessageAuthorizationSuccessful>Авторизация прошла успешно.</MessageAuthorizationSuccessful>
     <MessageFieldIsRequired>Требуется заполнить данное поле!</MessageFieldIsRequired>
     <TabItemSettings>Настройки</TabItemSettings>
     <WindowTitleImportFiles>Импорт файлов</WindowTitleImportFiles>
@@ -124,13 +124,13 @@
     <ButtonCut>Вырезать</ButtonCut>
     <ButtonDefault>По умолчанию</ButtonDefault>
     <ButtonDelete>Удалить</ButtonDelete>
-    <ButtonDeselectAll>Сбросить все</ButtonDeselectAll>
+    <ButtonDeselectAll>Снять выделение</ButtonDeselectAll>
     <ButtonDesign>Дизайнер отчета</ButtonDesign>
     <ButtonDesignDashboard>Дизайнер панели индикаторов</ButtonDesignDashboard>
     <ButtonDownload>Скачать</ButtonDownload>
     <ButtonEdit>Изменить</ButtonEdit>
     <ButtonExitWithoutSaving>Выйти без сохранения</ButtonExitWithoutSaving>
-    <ButtonFinish>Финиш</ButtonFinish>
+    <ButtonFinish>Готово</ButtonFinish>
     <ButtonGetItem>Взять элемент</ButtonGetItem>
     <ButtonLoadFromFile>Загрузить из файла</ButtonLoadFromFile>
     <ButtonLog>Лог</ButtonLog>
@@ -236,7 +236,7 @@
     <NumberOfDayFirst>Первый</NumberOfDayFirst>
     <NumberOfDayFourth>Четвертый</NumberOfDayFourth>
     <NumberOfDayLast>Последний</NumberOfDayLast>
-    <NumberOfDayNone>Никогда</NumberOfDayNone>
+    <NumberOfDayNone>Ни одного</NumberOfDayNone>
     <NumberOfDaySecond>Второй</NumberOfDaySecond>
     <NumberOfDayThird>Третий</NumberOfDayThird>
     <RefreshFrequencyAlways>Всегда</RefreshFrequencyAlways>
@@ -265,7 +265,7 @@
     <ToolTipInfo>Показать параметры</ToolTipInfo>
     <ToolTipPublish>Подготовить выделенные элементы для использования в приложении или документе.</ToolTipPublish>
     <ToolTipRecover>Восстановить выделенные элементы.</ToolTipRecover>
-    <ToolTipRunMailing>Запустить выбранную рассылку</ToolTipRunMailing>
+    <ToolTipRunMailing>Запустить выбранную рассылку.</ToolTipRunMailing>
     <ToolTipRunWithoutPreview>Построить выделенный отчет без предварительного просмотра.</ToolTipRunWithoutPreview>
     <ToolTipShare>Поделиться выделенным элементом.</ToolTipShare>
     <ToolTipSort>Параметры сортировки</ToolTipSort>
@@ -300,9 +300,9 @@
     <ButtonNewQuery>Новый запрос</ButtonNewQuery>
     <ButtonNewTable>Новая таблица</ButtonNewTable>
     <ButtonPreviewData>Просмотреть данные</ButtonPreviewData>
-    <ButtonRecentConnections>Прошлые соединения</ButtonRecentConnections>
+    <ButtonRecentConnections>Недавние соединения</ButtonRecentConnections>
     <ButtonRetrieveColumns>Получить колонки</ButtonRetrieveColumns>
-    <ButtonTestConnection>Проверка</ButtonTestConnection>
+    <ButtonTestConnection>Проверить соединение</ButtonTestConnection>
     <ButtonViewQuery>Просмотр запроса</ButtonViewQuery>
     <CheckBoxAutoRefresh>Автообновление</CheckBoxAutoRefresh>
     <CheckBoxDefaultValue>Значение по умолчанию</CheckBoxDefaultValue>
@@ -321,7 +321,7 @@
     <LabelDataBaseName>Название БД</LabelDataBaseName>
     <LabelDataType>Тип данных</LabelDataType>
     <LabelDomainName>Домен</LabelDomainName>
-    <LabelExcelItem>Excel элемент</LabelExcelItem>
+    <LabelExcelItem>Элемент Excel</LabelExcelItem>
     <LabelNameInSource>Наименование в источнике</LabelNameInSource>
     <LabelParentColumns>Колонки главного</LabelParentColumns>
     <LabelPassword>Пароль</LabelPassword>
@@ -331,10 +331,10 @@
     <LabelQueryParameterAndColumnName>Наименование</LabelQueryParameterAndColumnName>
     <LabelQueryParameterAndColumnType>Тип</LabelQueryParameterAndColumnType>
     <LabelServerAddress>Адрес сервера</LabelServerAddress>
-    <LabelServicesEndPoint>OData-Service</LabelServicesEndPoint>
+    <LabelServicesEndPoint>OData-сервис</LabelServicesEndPoint>
     <LabelUserName>Имя пользователя</LabelUserName>
     <LabelValue>Значение</LabelValue>
-    <MessageStartImportDataRelationConfirmation>Вы действительно хотите импортировать связи для всех таблиц выделенного источника данных?</MessageStartImportDataRelationConfirmation>
+    <MessageStartImportDataRelationConfirmation>Вы действительно хотите импортировать связи для всех таблиц выделенных источников данных?</MessageStartImportDataRelationConfirmation>
     <RadioButtonAuto>Автоматически</RadioButtonAuto>
     <RadioButtonManual>Вручную</RadioButtonManual>
     <TabItemConnectionHeader>Соединение</TabItemConnectionHeader>
@@ -357,7 +357,7 @@
     <TextSchemaViews>Представления</TextSchemaViews>
     <ToolTipAddColumn>Добавить новую колонку.</ToolTipAddColumn>
     <ToolTipAddParameter>Добавить новый параметр.</ToolTipAddParameter>
-    <ToolTipBuild>Создать строку соединения используя мастера.</ToolTipBuild>
+    <ToolTipBuild>Создать строку соединения с помощью мастера.</ToolTipBuild>
     <ToolTipBuildQuery>Запустить построитель запросов.</ToolTipBuildQuery>
     <ToolTipCheckQuery>Проверить введенный запрос на корректность.</ToolTipCheckQuery>
     <ToolTipCleanConnectionString>Очистить строку соединения.</ToolTipCleanConnectionString>
@@ -386,7 +386,7 @@
     <WizardConnectionDescription>Создать новый источник данных на базе {0} соединения</WizardConnectionDescription>
     <WizardDynamicsNavDescription>Создать новый источник данных на базе соединения с ERP Microsoft Dynamics NAV</WizardDynamicsNavDescription>
     <WizardExcelDescription>Создать новый источник данных на основе Excel документа</WizardExcelDescription>
-    <WizardExcelMapDataDescription>Выполните разметку данных, если необходимо выбрать определенный диапазон ячеек в Excel листе. Иначе, будут выбраны все данные в Excel документе - по одной таблице на каждый Excel лист.</WizardExcelMapDataDescription>
+    <WizardExcelMapDataDescription>Выполните разметку данных, если необходимо выбрать определенный диапазон ячеек в Excel листе. Иначе будут выбраны все данные в Excel документе - по одной таблице на каждый Excel лист.</WizardExcelMapDataDescription>
     <WizardExcelPreviewDataDescription>Просмотреть обработанные данные</WizardExcelPreviewDataDescription>
     <WizardRecentConnectionsDescription>Создать новый источник данных на основе прошлого соединения</WizardRecentConnectionsDescription>
     <WizardXmlDescription>Создать новый источник данных на базе XML элементов</WizardXmlDescription>
@@ -405,14 +405,14 @@
     <TabItemExcelPreview>Предварительный просмотр</TabItemExcelPreview>
     <TabItemExcelSheets>Листы</TabItemExcelSheets>
     <TextAutomaticNaming>Имена созданных элементов будут сформированы автоматически!</TextAutomaticNaming>
-    <TextDragDropFilesHere>Перетяните сюда файлы </TextDragDropFilesHere>
+    <TextDragDropFilesHere>Перетяните сюда файлы</TextDragDropFilesHere>
     <ToolTipDragDropFilesHere>Перетяните сюда файлы из проводника файлов или дерева элементов, чтобы добавить их в дерево элементов!</ToolTipDragDropFilesHere>
     <WindowTitleEdit>Изменение параметров файла</WindowTitleEdit>
     <WindowTitleLoadFiles>Загрузить файлы</WindowTitleLoadFiles>
     <WindowTitleNew>Новый файл</WindowTitleNew>
     <WindowTitleSaveFile>Сохранить файл</WindowTitleSaveFile>
-    <WizardExcelDataTabDescription>Выделите диапазон данных, которые необходимо импортировать. Удерживая Ctrl и Shift можно выделять несмежные ячейки и блоки данных.</WizardExcelDataTabDescription>
-    <WizardExcelHeadersTabDescription>Выделите строки, которые будут использоваться в качестве заголовков столбцов. Они будут сформированы для каждой колонки по отдельности, используя данные нескольких строк. Удерживая Ctrl можно выделить несколько несмежных строк. Заголовком может являться строка из символов и цифр, а также пробелов и тире. Вы также можете расположить колонки в удобном порядке, перетаскивая их за заголовки, и убрать пустые столбцы и строки, а также данные, использованные в качестве заголовков.</WizardExcelHeadersTabDescription>
+    <WizardExcelDataTabDescription>Выделите диапазон данных, которые необходимо импортировать. Удерживая Ctrl и Shift, можно выделять несмежные ячейки и блоки данных.</WizardExcelDataTabDescription>
+    <WizardExcelHeadersTabDescription>Выделите строки, которые будут использоваться в качестве заголовков столбцов. Они будут сформированы для каждой колонки по отдельности, используя данные нескольких строк. Удерживая Ctrl, можно выделить несколько несмежных строк. Заголовком может являться строка из символов и цифр, а также пробелов и тире. Вы также можете расположить колонки в удобном порядке, перетаскивая их за заголовки, и убрать пустые столбцы и строки, а также данные, использованные в качестве заголовков.</WizardExcelHeadersTabDescription>
     <WizardExcelPreviewTabDescription>Просмотр и сохранение результата.</WizardExcelPreviewTabDescription>
     <WizardExcelSheetsTabDescription>Выберите Excel лист, из которого будут импортированы данные.</WizardExcelSheetsTabDescription>
   </File>
@@ -420,13 +420,13 @@
     <Data>Файл данных</Data>
     <Excel>Microsoft Excel</Excel>
     <Html>HTML</Html>
-    <Image>Файл изображений</Image>
+    <Image>Файл изображения</Image>
     <OpenDocumentCalc>Open Document Calc</OpenDocumentCalc>
     <OpenDocumentWriter>Open Document Writer</OpenDocumentWriter>
     <Pdf>Adobe PDF</Pdf>
-    <PowerPoint>Microsoft Power Point</PowerPoint>
+    <PowerPoint>Microsoft PowerPoint</PowerPoint>
     <ReportSnapshot>Снимок отчета</ReportSnapshot>
-    <RichText>Rich текст</RichText>
+    <RichText>Rich Text</RichText>
     <Text>Текст</Text>
     <Unknown>Неизвестный</Unknown>
     <Word>Microsoft Word</Word>
@@ -439,7 +439,7 @@
     <WindowTitleNew>Новая папка</WindowTitleNew>
   </Folder>
   <Items>
-    <MessageAttachSelectedItems>Вы хотите присоединить выделенные элементы к  '{0}'?</MessageAttachSelectedItems>
+    <MessageAttachSelectedItems>Вы хотите присоединить выделенные элементы к '{0}'?</MessageAttachSelectedItems>
     <TabItemSettings>Настройки</TabItemSettings>
     <TextThisItemIsNotUsed>Элемент не используется.</TextThisItemIsNotUsed>
     <TextVersion>Версия</TextVersion>
@@ -449,10 +449,10 @@
     <ToolTipOpenFromFile>Открыть из файла</ToolTipOpenFromFile>
     <ToolTipSelectAll>Выбрать все</ToolTipSelectAll>
     <WindowDescriptionCleanRecycleBin>Вы действительно хотите удалить элементы из корзины? После удаления восстановить элементы будет нельзя!</WindowDescriptionCleanRecycleBin>
-    <WindowDescriptionCopy>Пожалуйста, отметьте элементы, которые необходимо скопировать в буфер обмена и нажмите кнопку "Копировать".</WindowDescriptionCopy>
-    <WindowDescriptionCut>Пожалуйста, отметьте элементы, которые нужно вырезать в буфер обмена и нажмите кнопку "Вырезать".</WindowDescriptionCut>
+    <WindowDescriptionCopy>Пожалуйста, отметьте элементы, которые необходимо скопировать в буфер обмена, и нажмите кнопку "Копировать".</WindowDescriptionCopy>
+    <WindowDescriptionCut>Пожалуйста, отметьте элементы, которые нужно вырезать в буфер обмена, и нажмите кнопку "Вырезать".</WindowDescriptionCut>
     <WindowDescriptionHideDemo>Вы уверены, что хотите скрыть папки с демо-решениями? Их можно будет показать снова в меню "Дополнительно".</WindowDescriptionHideDemo>
-    <WindowDescriptionPaste>Пожалуйста, выберите папку, в которую Вы бы хотели вставить элементы из буфера обмена и нажмите "Вставить".</WindowDescriptionPaste>
+    <WindowDescriptionPaste>Пожалуйста, выберите папку, в которую Вы бы хотели вставить элементы из буфера обмена, и нажмите "Вставить".</WindowDescriptionPaste>
     <WindowTitleAccessKey>Ключ доступа</WindowTitleAccessKey>
     <WindowTitleCleanRecycleBin>Очистка корзины</WindowTitleCleanRecycleBin>
     <WindowTitleCopy>Копировать элементы</WindowTitleCopy>
@@ -509,18 +509,18 @@
     <EnterNewPassword>Введите новый пароль!</EnterNewPassword>
     <IsEmptyConnectionString>Строка соединения не указана!</IsEmptyConnectionString>
     <IsFieldNotBeFilled>Это поле должно быть заполнено!</IsFieldNotBeFilled>
-    <IsNotComplyWithFormattingRequirements>Входная строка не соответствует правилам форматирования.</IsNotComplyWithFormattingRequirements>
+    <IsNotComplyWithFormattingRequirements>Входная строка не соответствует правилам форматирования!</IsNotComplyWithFormattingRequirements>
     <IsNotEnterAnyEmailAddress>Не указан Email адрес!</IsNotEnterAnyEmailAddress>
     <IsRequiredAction>Необходимо добавить хотя бы одно действие!</IsRequiredAction>
     <IsRequiredCalendarDates>Необходимо добавить хотя бы один элемент для календаря!</IsRequiredCalendarDates>
     <IsRequiredDestinationForReportSnapshot>Необходимо указать элемент, в котором будет размещен результат построения отчета!</IsRequiredDestinationForReportSnapshot>
     <IsRequiredItem>Необходимо добавить хотя бы один элемент!</IsRequiredItem>
-    <IsRequiredRecipient>Необходимо добавить получателя!</IsRequiredRecipient>
+    <IsRequiredRecipient>Необходимо добавить хотя бы одного получателя!</IsRequiredRecipient>
     <IsRequiredReport>Необходимо добавить отчет!</IsRequiredReport>
-    <IsRequiredReportTemplate>Необходимо добавить отчет!</IsRequiredReportTemplate>
+    <IsRequiredReportTemplate>Необходимо добавить шаблон отчета!</IsRequiredReportTemplate>
     <IsRequiredScheduler>Необходимо добавить планировщик для запуска!</IsRequiredScheduler>
     <LoadItem>Текущее содержимое элемента будет утеряно! Вы действительно хотите загрузить элемент из файла?</LoadItem>
-    <QueryExecutionError>Запуск запроса прошел с ошибкой!</QueryExecutionError>
+    <QueryExecutionError>Ошибка выполнения запроса!</QueryExecutionError>
     <QuerySuccessfullyExecuted>Запрос успешно выполнен!</QuerySuccessfullyExecuted>
     <RetrieveSchemaError>Ошибка получения схемы данных!</RetrieveSchemaError>
     <ServerDidNotReturnData>Сервер не вернул никаких данных!</ServerDidNotReturnData>
@@ -558,7 +558,7 @@
     <LabelCreateCalendar>Календарь используется в планировщике для выбора определенных дат, праздников и т.д.</LabelCreateCalendar>
     <LabelCreateCloudStorage>Соединение с облачным хранилищем для импорта и экспорта файлов.</LabelCreateCloudStorage>
     <LabelCreateContactList>Список контактов для использования в планировщике.</LabelCreateContactList>
-    <LabelCreateDashboard>Панель инструментов для анализа данных.</LabelCreateDashboard>
+    <LabelCreateDashboard>Панель индикаторов для анализа данных.</LabelCreateDashboard>
     <LabelCreateDataSource>Подключение источников внешних данных.</LabelCreateDataSource>
     <LabelCreateFile>Файлы из внешних источников.</LabelCreateFile>
     <LabelCreateFileStorage>Файловое хранилище используется для работы с файлами на локальном диске.</LabelCreateFileStorage>
@@ -568,7 +568,7 @@
     <LabelCreateReportTemplate>Отчет для вывода данных.</LabelCreateReportTemplate>
     <LabelScheduler>Планировщик для запуска отчетов по расписанию.</LabelScheduler>
     <MessageAbortUploadingAndCloseWindow>Загрузка файлов на сервер. Вы действительно хотите прервать загрузку файлов и закрыть программу?</MessageAbortUploadingAndCloseWindow>
-    <RibbonButtonBackupAndRestore>Резервное копирование</RibbonButtonBackupAndRestore>
+    <RibbonButtonBackupAndRestore>Резервное копирование и восстановление</RibbonButtonBackupAndRestore>
     <RibbonButtonCalendar>Календарь</RibbonButtonCalendar>
     <RibbonButtonClose>Закрыть</RibbonButtonClose>
     <RibbonButtonCloudStorage>Облачное хранилище</RibbonButtonCloudStorage>
@@ -622,11 +622,11 @@
     <TextJustType>Текст для поиска...</TextJustType>
     <TextProfile>Профиль</TextProfile>
     <ToolTipCreate>Создать новый элемент.</ToolTipCreate>
-    <ToolTipDelete>Удалить выделенный элемент из дерева.</ToolTipDelete>
+    <ToolTipDelete>Удалить выделенные элементы из дерева.</ToolTipDelete>
     <ToolTipEdit>Редактировать выделенный элемент из дерева.</ToolTipEdit>
     <ToolTipFind>Поиск элементов в дереве по имени.</ToolTipFind>
     <ToolTipFindClose>Закрыть</ToolTipFindClose>
-    <ToolTipFindNext>Найти</ToolTipFindNext>
+    <ToolTipFindNext>Найти далее</ToolTipFindNext>
     <ToolTipNotifications>Список уведомлений, отображающих прогресс выполнения команд.</ToolTipNotifications>
     <ToolTipRecycleBin>Работа с ранее удаленными элементами в корзине.</ToolTipRecycleBin>
     <ToolTipRefresh>Обновление дерева элементов.</ToolTipRefresh>
@@ -636,15 +636,15 @@
     <ToolTipSortZA>Сортировка - по убыванию.</ToolTipSortZA>
     <ToolTipViewAll>Отображать все элементы в дереве.</ToolTipViewAll>
     <ToolTipViewFavorites>Отображать только наиболее часто используемые элементы в дереве.</ToolTipViewFavorites>
-    <ToolTipViewNewest>Отображать только недавно добавленные элементы в дереве.</ToolTipViewNewest>
-    <ToolTipViewRecent>Отображать только новые элементы в дереве.</ToolTipViewRecent>
+    <ToolTipViewNewest>Отображать только новые элементы в дереве.</ToolTipViewNewest>
+    <ToolTipViewRecent>Отображать только недавно добавленные элементы в дереве.</ToolTipViewRecent>
   </Navigator>
   <Options>
     <LabelBackground>Задний план</LabelBackground>
-    <LabelCacheDescription>Кэширование данных приложения производится на диске компьютера. Это сделано для ускорения работы приложения и уменьшения нагрузки на Stimulsoft Server. В результате, размер кэша может иметь значительный размер. В этом случае Вы можете очистить его.</LabelCacheDescription>
+    <LabelCacheDescription>Кэширование данных приложения производится на диске компьютера. Это сделано для ускорения работы приложения и уменьшения нагрузки на Stimulsoft Server. В результате кэш может достигать значительного размера. В этом случае Вы можете очистить его.</LabelCacheDescription>
     <LabelColorScheme>Цветовая схема</LabelColorScheme>
     <LabelForeground>Передний план</LabelForeground>
-    <LabelLanguageDescription>Выберите язык локализации приложения</LabelLanguageDescription>
+    <LabelLanguageDescription>Выберите язык локализации приложения.</LabelLanguageDescription>
     <LabelOpenDesignerInANewWindow>Открывать дизайнер отчетов в новом окне</LabelOpenDesignerInANewWindow>
     <LabelOpenViewerInANewWindow>Открывать вьювер отчетов в новом окне</LabelOpenViewerInANewWindow>
     <LabelStyle>Стиль</LabelStyle>
@@ -701,22 +701,22 @@
     <MessageErrorOccurredLoadingReport>Произошла ошибка во время загрузки отчета.</MessageErrorOccurredLoadingReport>
     <MessageFormsNotSupported>Отчеты с диалоговыми формами не поддерживаются!</MessageFormsNotSupported>
     <TextAutomaticNaming>Имена создаваемых элементов будут созданы автоматически!</TextAutomaticNaming>
-    <TextDescriptionChanges>Пожалуйста, опишите изменения</TextDescriptionChanges>
+    <TextDescriptionChanges>Пожалуйста, опишите изменения.</TextDescriptionChanges>
     <TextDragDropFilesOrItemsHere>Перетащите элементы или файлы сюда</TextDragDropFilesOrItemsHere>
     <TextDragDropItemsHere>Перетяните сюда элементы</TextDragDropItemsHere>
     <TextDragDropReportTemplatesHere>Перетяните сюда шаблоны отчетов</TextDragDropReportTemplatesHere>
     <TextLaunchDesigner>Дизайнер отчетов запускается...</TextLaunchDesigner>
-    <ToolTipDragDropItemsHere>Перетяните сюда элементы из дерева слева для их использования в панели инструментов.</ToolTipDragDropItemsHere>
+    <ToolTipDragDropItemsHere>Перетяните сюда элементы из дерева слева для их использования в панели индикаторов.</ToolTipDragDropItemsHere>
     <ToolTipDragDropItemsHereToAttachIt>Перетяните сюда источник данных из дерева элементов, чтобы использовать его в новом отчете. Кроме источника данных можно использовать изображения, текстовые файлы или Rich-текст файлы для их вывода в отчете. Также могут быть использованы другие отчеты - для вывода их в виде суб-отчетов.</ToolTipDragDropItemsHereToAttachIt>
     <ToolTipDragDropItemsOrFilesHere>Перетащите сюда файлы из проводника или элементы из дерева.</ToolTipDragDropItemsOrFilesHere>
     <ToolTipDragDropReportTemplatesHere>Перетяните сюда файл с шаблоном отчета из проводника файлов для создания на его основе нового шаблона отчета. Также можно использовать существующий отчет при создании нового отчета. Для этого перетяните сюда элемент шаблона отчета из дерева элементов.</ToolTipDragDropReportTemplatesHere>
     <ToolTipInfoUsingAttachDataSource>Содержимое присоединенного источника данных (схемы данных, таблицы, хранимые процедуры и т.д.) может использоваться при построении отчета.</ToolTipInfoUsingAttachDataSource>
     <ToolTipInfoUsingAttachImage>Присоединенное изображение будет постоянным ресурсом шаблона и может использоваться в отчете без загрузки из внешних источников.</ToolTipInfoUsingAttachImage>
     <ToolTipInfoUsingAttachReportTemplate>Этот элемент будет присоединен к созданному отчету в качестве связанного шаблона отчета.</ToolTipInfoUsingAttachReportTemplate>
-    <ToolTipInfoUsingAttachText>Присоединенный текстовый файл будет источником данных для работы с текстовыми компонентами отчета, включая Rich-компоненты.</ToolTipInfoUsingAttachText>
+    <ToolTipInfoUsingAttachText>Присоединенный текстовый файл будет источником текста для работы с текстовыми компонентами отчета, включая Rich-компоненты.</ToolTipInfoUsingAttachText>
     <ToolTipInfoUsingAttachXmlXsd>На основе присоединенных XML- и XSD-файлов будет сгенерирован источник данных, который можно использовать для создания отчета.</ToolTipInfoUsingAttachXmlXsd>
     <ToolTipSetParameters>Определение параметров отчета</ToolTipSetParameters>
-    <WindowDescriptionNew>Выберите способ создания нового отчета из представленных снизу вариантов. Созданный шаблон отчета будет размещен в "{0}".</WindowDescriptionNew>
+    <WindowDescriptionNew>Выберите способ создания нового отчета из представленных выше вариантов. Созданный шаблон отчета будет размещен в "{0}".</WindowDescriptionNew>
     <WindowTitleDesigner>Дизайнер</WindowTitleDesigner>
     <WindowTitleEdit>Изменение параметров отчета</WindowTitleEdit>
     <WindowTitleLoadReport>Загрузить отчет</WindowTitleLoadReport>
@@ -735,8 +735,8 @@
     <ActionRunMailing>Запустить рассылку</ActionRunMailing>
     <ActionRunReport>Запустить отчет</ActionRunReport>
     <ActionRunScheduler>Запустить планировщик</ActionRunScheduler>
-    <ActionSendEmail>Послать Email</ActionSendEmail>
-    <ButtonStartScheduler>Стартовать планировщик</ButtonStartScheduler>
+    <ActionSendEmail>Отправить Email</ActionSendEmail>
+    <ButtonStartScheduler>Запустить планировщик</ButtonStartScheduler>
     <ButtonStopScheduler>Остановить планировщик</ButtonStopScheduler>
     <CategoryCommon>Общие</CategoryCommon>
     <CategoryExceptionCalendar>Исключение</CategoryExceptionCalendar>
@@ -757,7 +757,7 @@
     <LabelAttachmentDelivery>Доставка вложения</LabelAttachmentDelivery>
     <LabelAttachments>Вложения</LabelAttachments>
     <LabelCurrentStatus>Текущий статус</LabelCurrentStatus>
-    <LabelDaysOfWeek>День запуска</LabelDaysOfWeek>
+    <LabelDaysOfWeek>Дни недели</LabelDaysOfWeek>
     <LabelDestination>Назначение</LabelDestination>
     <LabelEndDate>Конец</LabelEndDate>
     <LabelFrom>От</LabelFrom>
@@ -802,7 +802,7 @@
     <TextRunningScheduler>Планировщик работает...</TextRunningScheduler>
     <TextRunScheduler>Нажмите 'OK' для запуска планировщика.</TextRunScheduler>
     <ToolTipChangeResultType>Изменить способ обработки результата построения отчета</ToolTipChangeResultType>
-    <ToolTipDaysOfWeek>День недели, в который будет запущен планировщик. Можно выбрать один день, несколько разных дней, или все дни сразу. Если было выбрано более одного дня, то планировщик будет запущен в каждый из выбранных дней.</ToolTipDaysOfWeek>
+    <ToolTipDaysOfWeek>День недели, в который будет запущен планировщик. Можно выбрать один день, несколько разных дней или все дни сразу. Если было выбрано более одного дня, то планировщик будет запущен в каждый из выбранных дней.</ToolTipDaysOfWeek>
     <ToolTipDeleteAction>Удалить действие</ToolTipDeleteAction>
     <ToolTipDragDropActionRunReportDestinationHere>Перетяните сюда элемент из дерева элементов. В этом элементе будет размещен результат построения отчета. Также можно использовать существующий снимок отчета или файл. В этом случае элемент-получатель будет замещен новым снимком отчета или файлом.</ToolTipDragDropActionRunReportDestinationHere>
     <ToolTipDragDropAttachedHere>Перетяните сюда элемент из дерева элементов. Этот элемент будет использован как приложение в Email.</ToolTipDragDropAttachedHere>
@@ -814,10 +814,10 @@
     <ToolTipDragDropSchedulerHere>Перетяните сюда планировщик из дерева элементов. Когда запускается основной планировщик (тот который сейчас создается или изменяется), он может запустить неограниченное количество других планировщиков (те, которые перетягиваются в это поле).</ToolTipDragDropSchedulerHere>
     <ToolTipEndDate>Не позднее данного времени запустить планировщик.</ToolTipEndDate>
     <ToolTipExcludeWeekendDays>Установите этот флажок, чтобы планировщик не запускался по выходным дням.</ToolTipExcludeWeekendDays>
-    <ToolTipRunAtDay>День, когда будет запущен планировщик можно выбрать двумя способами. Первый способ - указать конкретный день месяца (с 1 по 31 или последний день месяца). Второй способ - указать день недели и каким по счету этот день недели будет в месяце. Например, 'Первый понедельник месяца', 'Третья среда месяца'. Оба способа допускают выбор более одного дня в месяце.</ToolTipRunAtDay>
+    <ToolTipRunAtDay>День, когда будет запущен планировщик, можно выбрать двумя способами. Первый способ - указать конкретный день месяца (с 1 по 31 или последний день месяца). Второй способ - указать день недели и каким по счету этот день недели будет в месяце. Например, 'Первый понедельник месяца', 'Третья среда месяца'. Оба способа допускают выбор более одного дня в месяце.</ToolTipRunAtDay>
     <ToolTipRunAtDayOnce>День месяца, когда будет запущен планировщик.</ToolTipRunAtDayOnce>
-    <ToolTipRunAtMinute>Минута, на которой произойдет запуск планировщика (Диапазон от 1 до 60).</ToolTipRunAtMinute>
-    <ToolTipRunAtMonth>Месяц, когда будет запущен планировщик. Можно выбрать один, несколько, или все месяцы. Планировщик будет запущен в каждый из выбранных месяцев.</ToolTipRunAtMonth>
+    <ToolTipRunAtMinute>Минута, на которой произойдет запуск планировщика (диапазон от 1 до 60).</ToolTipRunAtMinute>
+    <ToolTipRunAtMonth>Месяц, когда будет запущен планировщик. Можно выбрать один, несколько или все месяцы. Планировщик будет запущен в каждый из выбранных месяцев.</ToolTipRunAtMonth>
     <ToolTipRunAtMonthOnce>Месяц, когда будет запущен планировщик.</ToolTipRunAtMonthOnce>
     <ToolTipRunAtTime>Время, в которое планировщик будет запущен.</ToolTipRunAtTime>
     <ToolTipRunEvery>Если указать значение 1, то планировщик будет запускаться всегда. Если указать значение 2, то каждый первый раз планировщик запущен не будет. Каждый второй раз - будет. Если указать значение 3, то планировщик будет запущен только на третий раз, первые два раза будут проигнорированы. И т.д.</ToolTipRunEvery>
@@ -837,7 +837,7 @@
     <WizardWeekly>Еженедельно</WizardWeekly>
     <WizardWeeklyDescription>В выбранные дни недели, в указанное время.</WizardWeeklyDescription>
     <WizardYearly>Ежегодно</WizardYearly>
-    <WizardYearlyDescription>Один раз в год, в указанный месяц, день, и время в течение дня.</WizardYearlyDescription>
+    <WizardYearlyDescription>Один раз в год, в указанный месяц, день и время в течение дня.</WizardYearlyDescription>
   </Scheduler>
   <Update>
     <ButtonDetails>Что нового?</ButtonDetails>
