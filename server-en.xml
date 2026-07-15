@@ -60,8 +60,8 @@
     <ButtonSendEmail>Send Email</ButtonSendEmail>
     <ButtonSignUp>_Sign up</ButtonSignUp>
     <CheckBoxRememberMe>Remember Me</CheckBoxRememberMe>
-    <HyperlinkAgreeToTerms>By registering you agree to Terms.</HyperlinkAgreeToTerms>
-    <HyperlinkAlreadyHaveAccount>Already have account</HyperlinkAlreadyHaveAccount>
+    <HyperlinkAgreeToTerms>By registering, you agree to Terms.</HyperlinkAgreeToTerms>
+    <HyperlinkAlreadyHaveAccount>Already have an account</HyperlinkAlreadyHaveAccount>
     <HyperlinkBack>Back</HyperlinkBack>
     <HyperlinkForgotPassword>Forgot password</HyperlinkForgotPassword>
     <HyperlinkHavePassword>Have password</HyperlinkHavePassword>
@@ -101,9 +101,9 @@
     <LabelPassword>Password</LabelPassword>
     <LabelServerAddress>Server Address</LabelServerAddress>
     <LabelUserName>User Name</LabelUserName>
-    <MessageAuthorizationIsRequired>Authorization is Required!</MessageAuthorizationIsRequired>
-    <MessageAuthorizationSuccessful>Authorization Successful.</MessageAuthorizationSuccessful>
-    <MessageFieldIsRequired>Field is Required!</MessageFieldIsRequired>
+    <MessageAuthorizationIsRequired>Authorization is required!</MessageAuthorizationIsRequired>
+    <MessageAuthorizationSuccessful>Authorization successful.</MessageAuthorizationSuccessful>
+    <MessageFieldIsRequired>Field is required!</MessageFieldIsRequired>
     <TabItemSettings>Settings</TabItemSettings>
     <WindowTitleImportFiles>Import Files</WindowTitleImportFiles>
     <WizardCloudStorageDescription>Create a new {0} cloud storage</WizardCloudStorageDescription>
@@ -265,8 +265,8 @@
     <ToolTipInfo>View details</ToolTipInfo>
     <ToolTipPublish>Prepare the selected report to be deployed in your application.</ToolTipPublish>
     <ToolTipRecover>Recover the selected items.</ToolTipRecover>
-    <ToolTipRunMailing>Run the selected mailing</ToolTipRunMailing>
-    <ToolTipRunWithoutPreview>Render the selected report without preview</ToolTipRunWithoutPreview>
+    <ToolTipRunMailing>Run the selected mailing.</ToolTipRunMailing>
+    <ToolTipRunWithoutPreview>Render the selected report without preview.</ToolTipRunWithoutPreview>
     <ToolTipShare>Share the selected item.</ToolTipShare>
     <ToolTipSort>Sort options</ToolTipSort>
     <ToolTipThumbnailMode>Grid View</ToolTipThumbnailMode>
@@ -281,7 +281,7 @@
   </ContactList>
   <Dashboard>
     <TextLaunchDashboardDesigner>Dashboard Designer is being started.</TextLaunchDashboardDesigner>
-    <WindowTitleDesigner>Designer Dashboard</WindowTitleDesigner>
+    <WindowTitleDesigner>Dashboard Designer</WindowTitleDesigner>
     <WindowTitleEdit>Edit Dashboard</WindowTitleEdit>
     <WindowTitleNew>New Dashboard</WindowTitleNew>
   </Dashboard>
@@ -307,7 +307,7 @@
     <CheckBoxAutoRefresh>Auto Refresh</CheckBoxAutoRefresh>
     <CheckBoxDefaultValue>Default Value</CheckBoxDefaultValue>
     <CheckBoxNotAssigned>Not Assigned</CheckBoxNotAssigned>
-    <CheckBoxWindowsAuthentication>Windows-Authentication</CheckBoxWindowsAuthentication>
+    <CheckBoxWindowsAuthentication>Windows Authentication</CheckBoxWindowsAuthentication>
     <ComboBoxItemQuery>Query</ComboBoxItemQuery>
     <ComboBoxItemStoredProcedure>Stored Procedure</ComboBoxItemStoredProcedure>
     <ComboBoxItemTable>Table</ComboBoxItemTable>
@@ -331,7 +331,7 @@
     <LabelQueryParameterAndColumnName>Name</LabelQueryParameterAndColumnName>
     <LabelQueryParameterAndColumnType>Type</LabelQueryParameterAndColumnType>
     <LabelServerAddress>Server Address</LabelServerAddress>
-    <LabelServicesEndPoint>OData-Service</LabelServicesEndPoint>
+    <LabelServicesEndPoint>OData Service</LabelServicesEndPoint>
     <LabelUserName>User Name</LabelUserName>
     <LabelValue>Value</LabelValue>
     <MessageStartImportDataRelationConfirmation>Do you really want to import data relations for all tables of selected data sources?</MessageStartImportDataRelationConfirmation>
@@ -386,7 +386,7 @@
     <WizardConnectionDescription>Create a new data source on the base of {0} connection.</WizardConnectionDescription>
     <WizardDynamicsNavDescription>Create a new data source on the base of connection with ERP Microsoft Dynamics NAV.</WizardDynamicsNavDescription>
     <WizardExcelDescription>Create a new data source on the base of Excel Document.</WizardExcelDescription>
-    <WizardExcelMapDataDescription>In order to select an arbitrary data range in the Excel sheet, it is necessary to map the data. Otherwise, the entire content of the document will be saved in the data source – a separate table per the worksheet.</WizardExcelMapDataDescription>
+    <WizardExcelMapDataDescription>In order to select an arbitrary data range in the Excel sheet, it is necessary to map the data. Otherwise, the entire content of the document will be saved in the data source – a separate table per worksheet.</WizardExcelMapDataDescription>
     <WizardExcelPreviewDataDescription>Preview processed data.</WizardExcelPreviewDataDescription>
     <WizardRecentConnectionsDescription>Create a new data source on the base of the recent connection.</WizardRecentConnectionsDescription>
     <WizardXmlDescription>Create a new data source on the base of XML file.</WizardXmlDescription>
@@ -419,12 +419,12 @@
   <FileTypes>
     <Data>Data File</Data>
     <Excel>Microsoft Excel</Excel>
-    <Html>Html</Html>
+    <Html>HTML</Html>
     <Image>Image File</Image>
     <OpenDocumentCalc>Open Document Calc</OpenDocumentCalc>
     <OpenDocumentWriter>Open Document Writer</OpenDocumentWriter>
     <Pdf>Adobe PDF</Pdf>
-    <PowerPoint>Microsoft Power Point</PowerPoint>
+    <PowerPoint>Microsoft PowerPoint</PowerPoint>
     <ReportSnapshot>Report Snapshot</ReportSnapshot>
     <RichText>Rich Text</RichText>
     <Text>Text</Text>
@@ -445,7 +445,7 @@
     <TextVersion>Version</TextVersion>
     <ToolTipDeleteItem>Delete Item</ToolTipDeleteItem>
     <ToolTipGetItem>Get the selected items from the items tree.</ToolTipGetItem>
-    <ToolTipMoveToRecycleBin>If you move the item into the Recycle Bin you can restore it in the future. Otherwise the item will be deleted without the ability of recovery.</ToolTipMoveToRecycleBin>
+    <ToolTipMoveToRecycleBin>If you move the item into the Recycle Bin you can restore it in the future. Otherwise the item will be deleted without the possibility of recovery.</ToolTipMoveToRecycleBin>
     <ToolTipOpenFromFile>Open from File</ToolTipOpenFromFile>
     <ToolTipSelectAll>Select All</ToolTipSelectAll>
     <WindowDescriptionCleanRecycleBin>Do you really want to entirely clean the recycle bin? After that, data cannot be restored.</WindowDescriptionCleanRecycleBin>
@@ -467,7 +467,7 @@
     <ButtonBuy>Buy</ButtonBuy>
     <ButtonDeactivate>Deactivate</ButtonDeactivate>
     <ButtonRefreshLicense>Refresh License</ButtonRefreshLicense>
-    <LabelExpiredDate>Expired Date</LabelExpiredDate>
+    <LabelExpiredDate>Expiration Date</LabelExpiredDate>
     <LabelOrderDate>Order Date</LabelOrderDate>
     <LabelOwner>Owner</LabelOwner>
     <LabelPlan>Plan</LabelPlan>
@@ -502,7 +502,7 @@
     <WindowTitleNew>New Mailing</WindowTitleNew>
   </Mailing>
   <Messages>
-    <ConnectionFail>Connection Fail!</ConnectionFail>
+    <ConnectionFail>Connection Failed!</ConnectionFail>
     <ConnectionSuccess>Connection Successful.</ConnectionSuccess>
     <DataSchemaIsEmpty>Data schema is empty. Try to update the connection!</DataSchemaIsEmpty>
     <EnterCurrentPassword>Enter the current password!</EnterCurrentPassword>
@@ -522,10 +522,10 @@
     <LoadItem>The current content of the item will be lost! Do you really want to load this item from the file?</LoadItem>
     <QueryExecutionError>Query execution error!</QueryExecutionError>
     <QuerySuccessfullyExecuted>Query successfully executed!</QuerySuccessfullyExecuted>
-    <RetrieveSchemaError>Retrieving Schema Error!</RetrieveSchemaError>
-    <ServerDidNotReturnData>Server Did Not Return Data!</ServerDidNotReturnData>
+    <RetrieveSchemaError>Retrieving schema error!</RetrieveSchemaError>
+    <ServerDidNotReturnData>Server did not return data!</ServerDidNotReturnData>
     <ShareURLOfTheItemHasBeenUpdated>The share URL of the item has been updated!</ShareURLOfTheItemHasBeenUpdated>
-    <ThisFieldIsNotSpecified>This Field is Not Specified!</ThisFieldIsNotSpecified>
+    <ThisFieldIsNotSpecified>This field is not specified!</ThisFieldIsNotSpecified>
     <ThisSchedulerIsNotOnceScheduler>This scheduler is not a one-time scheduler!</ThisSchedulerIsNotOnceScheduler>
   </Messages>
   <Navigator>
@@ -560,7 +560,7 @@
     <LabelCreateContactList>The list of contacts can be used in the scheduler to send the result of rendering.</LabelCreateContactList>
     <LabelCreateDashboard>Create the new dashboard.</LabelCreateDashboard>
     <LabelCreateDataSource>Create the new data source. It is used to render reports.</LabelCreateDataSource>
-    <LabelCreateFile>Add the list of files in the items tree.</LabelCreateFile>
+    <LabelCreateFile>Add the list of files to the items tree.</LabelCreateFile>
     <LabelCreateFileStorage>Create a new file storage.</LabelCreateFileStorage>
     <LabelCreateFolder>Creating a new category in which you can place other items.</LabelCreateFolder>
     <LabelCreateLink>Create the new link.</LabelCreateLink>
@@ -624,7 +624,7 @@
     <ToolTipCreate>Create a new item.</ToolTipCreate>
     <ToolTipDelete>Delete the selected items.</ToolTipDelete>
     <ToolTipEdit>Edit the selected item.</ToolTipEdit>
-    <ToolTipFind>Find items in the item tree by names.</ToolTipFind>
+    <ToolTipFind>Find items in the item tree by name.</ToolTipFind>
     <ToolTipFindClose>Close</ToolTipFindClose>
     <ToolTipFindNext>Find Next</ToolTipFindNext>
     <ToolTipNotifications>The notification list that shows the progress of executing commands.</ToolTipNotifications>
@@ -632,8 +632,8 @@
     <ToolTipRefresh>Refresh the item tree.</ToolTipRefresh>
     <ToolTipSMTP>Settings of the SMTP server for sending emails.</ToolTipSMTP>
     <ToolTipSort>Sorting items in the tree by the specified condition.</ToolTipSort>
-    <ToolTipSortAZ>Sorting - by ascending.</ToolTipSortAZ>
-    <ToolTipSortZA>Sorting - by descending.</ToolTipSortZA>
+    <ToolTipSortAZ>Sort in ascending order.</ToolTipSortAZ>
+    <ToolTipSortZA>Sort in descending order.</ToolTipSortZA>
     <ToolTipViewAll>Show all items in the item tree.</ToolTipViewAll>
     <ToolTipViewFavorites>Show only frequently used items.</ToolTipViewFavorites>
     <ToolTipViewNewest>Show only new items in the item tree.</ToolTipViewNewest>
@@ -641,10 +641,10 @@
   </Navigator>
   <Options>
     <LabelBackground>Background</LabelBackground>
-    <LabelCacheDescription>Caching of information occurs on the hard disk. It works the way it is to speed up the program performance and reduce the load on the server. Eventually, the cache may have a considerable size. In this case, you can to clear it.</LabelCacheDescription>
+    <LabelCacheDescription>Caching of information occurs on the hard disk. It works the way it is to speed up the program performance and reduce the load on the server. Eventually, the cache may have a considerable size. In this case, you can clear it.</LabelCacheDescription>
     <LabelColorScheme>Color Scheme</LabelColorScheme>
     <LabelForeground>Foreground</LabelForeground>
-    <LabelLanguageDescription>Select a localization language of the application</LabelLanguageDescription>
+    <LabelLanguageDescription>Select a localization language of the application.</LabelLanguageDescription>
     <LabelOpenDesignerInANewWindow>Open designer in a new window</LabelOpenDesignerInANewWindow>
     <LabelOpenViewerInANewWindow>Open viewer in a new window</LabelOpenViewerInANewWindow>
     <LabelStyle>Style</LabelStyle>
@@ -678,7 +678,7 @@
     <TextLaunchViewer>Report Viewer is being started.</TextLaunchViewer>
     <TextNavigating>Navigating...</TextNavigating>
     <TextPageOf>{0} of {1}</TextPageOf>
-    <TextPrintingFromServerDescription>Report has too many pages. The pages will be printed by 15 pages at once after loading from server.</TextPrintingFromServerDescription>
+    <TextPrintingFromServerDescription>The report has too many pages. The pages will be printed 15 pages at a time after loading from the server.</TextPrintingFromServerDescription>
     <TextReportPreparing>Report Preparing...</TextReportPreparing>
     <TextReportPrinting>Report Printing...</TextReportPrinting>
     <TextReportRendering>Report Rendering...</TextReportRendering>
@@ -696,25 +696,25 @@
     <GroupBoxXmlItem>XML Item</GroupBoxXmlItem>
     <GroupBoxXsdItem>XSD Item</GroupBoxXsdItem>
     <MessageAttachSelectedItems>Do you want to attach the selected items to the report '{0}'?</MessageAttachSelectedItems>
-    <MessageCloseDesigner>Do you want to save the report before Report Designer closing?</MessageCloseDesigner>
+    <MessageCloseDesigner>Do you want to save the report before closing Report Designer?</MessageCloseDesigner>
     <MessageEnterDescriptionChanges>Enter a description of report changes.</MessageEnterDescriptionChanges>
-    <MessageErrorOccurredLoadingReport>An error occurred when loading the report</MessageErrorOccurredLoadingReport>
+    <MessageErrorOccurredLoadingReport>An error occurred when loading the report.</MessageErrorOccurredLoadingReport>
     <MessageFormsNotSupported>Reports with forms are not supported!</MessageFormsNotSupported>
     <TextAutomaticNaming>Names of added items will be created automatically!</TextAutomaticNaming>
-    <TextDescriptionChanges>Please, type a description of the changes</TextDescriptionChanges>
+    <TextDescriptionChanges>Please type a description of the changes.</TextDescriptionChanges>
     <TextDragDropFilesOrItemsHere>Drag &amp; Drop Items or Files Here</TextDragDropFilesOrItemsHere>
     <TextDragDropItemsHere>Drag &amp; Drop Items Here</TextDragDropItemsHere>
     <TextDragDropReportTemplatesHere>Drag &amp; Drop Report Templates Here</TextDragDropReportTemplatesHere>
     <TextLaunchDesigner>Report Designer is being started.</TextLaunchDesigner>
-    <ToolTipDragDropItemsHere>Drag &amp; drop items here from the tree to use it in a new dashboard.</ToolTipDragDropItemsHere>
-    <ToolTipDragDropItemsHereToAttachIt>Drag &amp; drop here a data source from the tree of items to use it in a new report. In addition to the data source you can use images, text or Rich-text files for their displaying in the report. Also other reports can be used to output them as sub-reports.</ToolTipDragDropItemsHereToAttachIt>
-    <ToolTipDragDropItemsOrFilesHere>Drag &amp; drop here a file from the file explorer or items from the tree.</ToolTipDragDropItemsOrFilesHere>
+    <ToolTipDragDropItemsHere>Drag &amp; drop items here from the tree to use them in a new dashboard.</ToolTipDragDropItemsHere>
+    <ToolTipDragDropItemsHereToAttachIt>Drag &amp; drop a data source here from the items tree to use it in a new report. In addition to the data source, you can use images, text or Rich-text files to display them in the report. Also, other reports can be used to output them as sub-reports.</ToolTipDragDropItemsHereToAttachIt>
+    <ToolTipDragDropItemsOrFilesHere>Drag &amp; drop a file here from the file explorer or items from the tree.</ToolTipDragDropItemsOrFilesHere>
     <ToolTipDragDropReportTemplatesHere>Drag &amp; drop a report template file here from the file explorer to create a report template on its basis. You can also use an existing report to create a new report. To do this, drag &amp; drop a report template item here from the items tree.</ToolTipDragDropReportTemplatesHere>
     <ToolTipInfoUsingAttachDataSource>If the data source is attached, its contents (data as schemes, tables, stored procedures etc.) can be used when creating reports.</ToolTipInfoUsingAttachDataSource>
     <ToolTipInfoUsingAttachImage>The attached image will be a permanent resource of this template. The image can be used in a report without having to load from external sources.</ToolTipInfoUsingAttachImage>
     <ToolTipInfoUsingAttachReportTemplate>The item as a report template will be attached in relation to the created report.</ToolTipInfoUsingAttachReportTemplate>
-    <ToolTipInfoUsingAttachText>The attached text file can be a source of a text when working with text components of the report, including Rich components.</ToolTipInfoUsingAttachText>
-    <ToolTipInfoUsingAttachXmlXsd>If to attach XML and XSD files to the report, then, a data source will be generated on their base. This data source can be used to create reports.</ToolTipInfoUsingAttachXmlXsd>
+    <ToolTipInfoUsingAttachText>The attached text file can be a source of text when working with text components of the report, including Rich components.</ToolTipInfoUsingAttachText>
+    <ToolTipInfoUsingAttachXmlXsd>If you attach XML and XSD files to the report, a data source will be generated based on them. This data source can be used to create reports.</ToolTipInfoUsingAttachXmlXsd>
     <ToolTipSetParameters>Defining Report Parameters</ToolTipSetParameters>
     <WindowDescriptionNew>Choose, from the options presented above, how to create a new report. Created report template will be placed in "{0}".</WindowDescriptionNew>
     <WindowTitleDesigner>Designer</WindowTitleDesigner>
@@ -780,9 +780,9 @@
     <LabelTimeZone>Time Zone</LabelTimeZone>
     <LabelTo>To</LabelTo>
     <LabelType>Type</LabelType>
-    <MessageReportDoesNotContainParameters>This report does not contains parameters!</MessageReportDoesNotContainParameters>
+    <MessageReportDoesNotContainParameters>This report does not contain parameters!</MessageReportDoesNotContainParameters>
     <MessageSchedulerRunning>Scheduler is running...</MessageSchedulerRunning>
-    <MessageTheFileTypesMustMatch>The type of the copied item must match the type of the item in what it will be copied!</MessageTheFileTypesMustMatch>
+    <MessageTheFileTypesMustMatch>The type of the copied item must match the type of the item into which it will be copied!</MessageTheFileTypesMustMatch>
     <MessageTheItemIsAlreadyAdded>The item is already added!</MessageTheItemIsAlreadyAdded>
     <MessageYouCannotUseThisDestinationForTheCurrentItems>You cannot use this destination for the current items!</MessageYouCannotUseThisDestinationForTheCurrentItems>
     <RadioButtonDay>Day</RadioButtonDay>
@@ -798,30 +798,30 @@
     <TextDragDropReportHere>Drag &amp; Drop the Report Here</TextDragDropReportHere>
     <TextDragDropSchedulerHere>Drag &amp; Drop the Scheduler Here</TextDragDropSchedulerHere>
     <TextFrequency>This field specifies how often the scheduler will run.</TextFrequency>
-    <TextPressPlusIconAddNewAction>Click the icon plus to add a new action!</TextPressPlusIconAddNewAction>
+    <TextPressPlusIconAddNewAction>Click the plus icon to add a new action!</TextPressPlusIconAddNewAction>
     <TextRunningScheduler>Scheduler is running...</TextRunningScheduler>
     <TextRunScheduler>Click 'OK' to run the scheduler.</TextRunScheduler>
     <ToolTipChangeResultType>Change the way of handling the result of the report creation</ToolTipChangeResultType>
-    <ToolTipDaysOfWeek>A day of the week the scheduler will run. You can select a single day, a few different days, or all days immediately. If more than one day is selected, the scheduler will run in each of the selected days.</ToolTipDaysOfWeek>
+    <ToolTipDaysOfWeek>A day of the week the scheduler will run. You can select a single day, a few different days, or all days at once. If more than one day is selected, the scheduler will run on each of the selected days.</ToolTipDaysOfWeek>
     <ToolTipDeleteAction>Delete Action</ToolTipDeleteAction>
-    <ToolTipDragDropActionRunReportDestinationHere>Drag &amp; Drop a destination item here from the items tree. The destination will contain the result. Also the destination item can be an existing report snapshot or file item. In this case the destination item will be replaced on the result of the report running.</ToolTipDragDropActionRunReportDestinationHere>
+    <ToolTipDragDropActionRunReportDestinationHere>Drag &amp; Drop a destination item here from the items tree. The destination will contain the result. Also the destination item can be an existing report snapshot or file item. In this case the destination item will be replaced by the result of the report running.</ToolTipDragDropActionRunReportDestinationHere>
     <ToolTipDragDropAttachedHere>Drag &amp; Drop the item here from the items tree. The attached item will be sent in the Email.</ToolTipDragDropAttachedHere>
     <ToolTipDragDropCalendarHere>Drag &amp; Drop a calendar here from the items tree. The scheduler will run by days specified in the calendar.</ToolTipDragDropCalendarHere>
-    <ToolTipDragDropDestinationHere>Drag &amp; Drop a destination item here from the items tree. The destination will contain the result. Also the destination item can be an existing report snapshot or file item. In this case the destination item will be replaced by source item.</ToolTipDragDropDestinationHere>
+    <ToolTipDragDropDestinationHere>Drag &amp; Drop a destination item here from the items tree. The destination will contain the result. Also the destination item can be an existing report snapshot or file item. In this case the destination item will be replaced by the source item.</ToolTipDragDropDestinationHere>
     <ToolTipDragDropExceptionCalendarHere>Drag &amp; Drop a calendar here from the items tree. Specified days in the calendar will be ignored by the scheduler. Running the scheduler will be moved to the next day.</ToolTipDragDropExceptionCalendarHere>
-    <ToolTipDragDropItemHere>Drag &amp; Drop a item here from the items tree. The item will be copied when running the scheduler.</ToolTipDragDropItemHere>
+    <ToolTipDragDropItemHere>Drag &amp; Drop an item here from the items tree. The item will be copied when running the scheduler.</ToolTipDragDropItemHere>
     <ToolTipDragDropReportHere>Drag &amp; Drop a report template here from the items tree. The template will be used when running the scheduler.</ToolTipDragDropReportHere>
     <ToolTipDragDropSchedulerHere>Drag &amp; Drop a scheduler here from the items tree. When the main scheduler runs (the one that is being created or modified) then it can run other schedulers (the ones that are dragged in this field). Only one level of nesting is supported to run the schedulers. The scheduler that was run by another scheduler cannot run one more scheduler.</ToolTipDragDropSchedulerHere>
-    <ToolTipEndDate>Run the scheduler not later than at this time.</ToolTipEndDate>
-    <ToolTipExcludeWeekendDays>Check this box if you want the scheduler not to run at weekend days.</ToolTipExcludeWeekendDays>
+    <ToolTipEndDate>Run the scheduler no later than this time.</ToolTipEndDate>
+    <ToolTipExcludeWeekendDays>Check this box if you want the scheduler not to run on weekend days.</ToolTipExcludeWeekendDays>
     <ToolTipRunAtDay>The day when the scheduler is run can be selected in two ways. The first way is to specify a particular day of the month (from 1 to 31 or the last day of the month). The second way is to specify which day of the week it is and a number of this day of the week in the month. For example, "The first Monday of the month", "The third Wednesday of the month". Both ways allow selecting more than one day in a month.</ToolTipRunAtDay>
-    <ToolTipRunAtDayOnce>A day, when the scheduler run.</ToolTipRunAtDayOnce>
+    <ToolTipRunAtDayOnce>A day when the scheduler runs.</ToolTipRunAtDayOnce>
     <ToolTipRunAtMinute>A minute when the scheduler runs (range from 1 to 60).</ToolTipRunAtMinute>
-    <ToolTipRunAtMonth>A month, when the scheduler is running. You can select one, several, or all months. The scheduler will run in each of the selected month.</ToolTipRunAtMonth>
+    <ToolTipRunAtMonth>A month, when the scheduler is running. You can select one, several, or all months. The scheduler will run in each of the selected months.</ToolTipRunAtMonth>
     <ToolTipRunAtMonthOnce>A month, when the scheduler runs.</ToolTipRunAtMonthOnce>
     <ToolTipRunAtTime>The time at which the scheduler will run.</ToolTipRunAtTime>
     <ToolTipRunEvery>If to specify a value 1, the scheduler will run forever. If to specify a value 2 then, every first time, the scheduler will not run. Every second time - it will. If to specify a value 3, then, every third time, the scheduler will run. Every first and second time it will be ignored etc.</ToolTipRunEvery>
-    <ToolTipStartDate>Run the scheduler not earlier than at this time.</ToolTipStartDate>
+    <ToolTipStartDate>Run the scheduler no earlier than this time.</ToolTipStartDate>
     <ToolTipTimeZone>Run the scheduler by the time zone.</ToolTipTimeZone>
     <WindowTitleResultName>Result Name</WindowTitleResultName>
     <WizardCalendar>Calendar</WizardCalendar>
@@ -850,6 +850,6 @@
     <MessageNewVersionAvailable>New Version Available!</MessageNewVersionAvailable>
     <MessageNewVersionInstallingNow>New version is installing now...</MessageNewVersionInstallingNow>
     <MessageNewVersionNotAvailable>New Version Not Found.</MessageNewVersionNotAvailable>
-    <MessageUnableCheckForUpdates>Unable to check for updates. Click 'Try Again', to check for updates again.</MessageUnableCheckForUpdates>
+    <MessageUnableCheckForUpdates>Unable to check for updates. Click 'Try Again' to check for updates again.</MessageUnableCheckForUpdates>
   </Update>
 </Localization>
