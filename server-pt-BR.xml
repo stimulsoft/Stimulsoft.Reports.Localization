@@ -3,40 +3,40 @@
   <Administration>
     <LabelCurrentPassword>Senha Atual</LabelCurrentPassword>
     <LabelFirstName>Primeiro nome</LabelFirstName>
-    <LabelItems>Items</LabelItems>
-    <LabelLastLogin>Ultimo Log in</LabelLastLogin>
-    <LabelLastName>Ultimo Nome</LabelLastName>
+    <LabelItems>Itens</LabelItems>
+    <LabelLastLogin>Último Login</LabelLastLogin>
+    <LabelLastName>Sobrenome</LabelLastName>
     <LabelNewPassword>Nova Senha</LabelNewPassword>
     <LabelPicture>Imagem</LabelPicture>
-    <LabelRole>Regra</LabelRole>
-    <LabelUserName>User Name (Email)</LabelUserName>
+    <LabelRole>Função</LabelRole>
+    <LabelUserName>Nome de Usuário (Email)</LabelUserName>
     <TextAdministrator>Administrador</TextAdministrator>
     <TextBandwidth>Largura de banda</TextBandwidth>
     <TextComputingCycles>Ciclos de computação</TextComputingCycles>
-    <TextCreatedNewRoleBasedOn>Criar uma nova regra com base em</TextCreatedNewRoleBasedOn>
+    <TextCreatedNewRoleBasedOn>Criar uma nova função com base em</TextCreatedNewRoleBasedOn>
     <TextCreators>Criadores de BI</TextCreators>
     <TextDashboards>Dashboards</TextDashboards>
     <TextData>Dados</TextData>
-    <TextDataRows>Dados da Linha</TextDataRows>
+    <TextDataRows>Linhas de Dados</TextDataRows>
     <TextDataSources>Data Sources</TextDataSources>
     <TextDate>Data</TextDate>
     <TextDescription>Descrição</TextDescription>
     <TextDragDropRootFolderHere>Arraste &amp; Solte sua pasta Aqui!</TextDragDropRootFolderHere>
     <TextEmails>Emails</TextEmails>
     <TextFileSize>Tamanho Do Arquivo</TextFileSize>
-    <TextItems>Items</TextItems>
-    <TextManager>Gerenciador</TextManager>
-    <TextNewRole>Nova regra</TextNewRole>
+    <TextItems>Itens</TextItems>
+    <TextManager>Gerente</TextManager>
+    <TextNewRole>Nova função</TextNewRole>
     <TextPerFile>Por arquivo</TextPerFile>
     <TextPerMonth>por mês</TextPerMonth>
-    <TextReportPages>Paginas do Relatorio</TextReportPages>
-    <TextReports>Relatorios</TextReports>
-    <TextRole>Regra</TextRole>
-    <TextRoles>Regras</TextRoles>
+    <TextReportPages>Páginas do Relatório</TextReportPages>
+    <TextReports>Relatórios</TextReports>
+    <TextRole>Função</TextRole>
+    <TextRoles>Funções</TextRoles>
     <TextRootFolder>Pasta Raiz</TextRootFolder>
-    <TextSchedulers>Agendas</TextSchedulers>
+    <TextSchedulers>Agendadores</TextSchedulers>
     <TextSelectPicture>Selecione uma imagem</TextSelectPicture>
-    <TextStorage>Storage</TextStorage>
+    <TextStorage>Armazenamento</TextStorage>
     <TextSupervisor>Supervisor</TextSupervisor>
     <TextUpload>Upload</TextUpload>
     <TextUser>Usuário</TextUser>
@@ -44,36 +44,36 @@
     <TextWorkspaces>Workspaces</TextWorkspaces>
     <TooltipBICreators>Usuários com funções de supervisor, administrador, gerente e personalizadas</TooltipBICreators>
     <TooltipUsers>Usuários com preferências de visualização apenas e função de 'USUÁRIO'</TooltipUsers>
-    <WindowDescriptionRoleDelete>Tem certeza de que deseja excluir a regra "{0}"?</WindowDescriptionRoleDelete>
+    <WindowDescriptionRoleDelete>Tem certeza de que deseja excluir a função "{0}"?</WindowDescriptionRoleDelete>
     <WindowDescriptionUserDelete>Tem certeza de que deseja excluir o usuário "{0}"?</WindowDescriptionUserDelete>
     <WindowDescriptionUserParameterDelete>Tem certeza de que deseja excluir o parâmetro de usuário "{0}"?</WindowDescriptionUserParameterDelete>
     <WindowDescriptionWorkspaceDelete>Tem certeza de que deseja excluir o workspace "{0}"?</WindowDescriptionWorkspaceDelete>
-    <WindowTitleRoleDelete>Deletar Regra</WindowTitleRoleDelete>
-    <WindowTitleUserDelete>Deletar Usuario</WindowTitleUserDelete>
+    <WindowTitleRoleDelete>Deletar Função</WindowTitleRoleDelete>
+    <WindowTitleUserDelete>Deletar Usuário</WindowTitleUserDelete>
     <WindowTitleUserParameterDelete>Excluir parâmetro do usuário</WindowTitleUserParameterDelete>
     <WindowTitleWorkspaceDelete>Deletar Workspace</WindowTitleWorkspaceDelete>
   </Administration>
   <Authorization>
     <ButtonLogin>_Log in</ButtonLogin>
     <ButtonResendEmail>Reenviar Email</ButtonResendEmail>
-    <ButtonResetPassword>_Resetar</ButtonResetPassword>
+    <ButtonResetPassword>_Resetar Senha</ButtonResetPassword>
     <ButtonSendEmail>Enviar Email</ButtonSendEmail>
     <ButtonSignUp>_Sign up</ButtonSignUp>
     <CheckBoxRememberMe>Lembrar</CheckBoxRememberMe>
     <HyperlinkAgreeToTerms>Para registrar aceite os termos.</HyperlinkAgreeToTerms>
-    <HyperlinkAlreadyHaveAccount>Conta já existe.</HyperlinkAlreadyHaveAccount>
+    <HyperlinkAlreadyHaveAccount>Já possui uma conta</HyperlinkAlreadyHaveAccount>
     <HyperlinkBack>Voltar</HyperlinkBack>
     <HyperlinkForgotPassword>Esqueci a senha</HyperlinkForgotPassword>
     <HyperlinkHavePassword>Já possui senha</HyperlinkHavePassword>
     <HyperlinkRegisterAccount>Registrar nova conta</HyperlinkRegisterAccount>
     <TextCreate>Criar</TextCreate>
     <TextFirstName>Primeiro Nome</TextFirstName>
-    <TextLastName>Ultimo Nome</TextLastName>
+    <TextLastName>Sobrenome</TextLastName>
     <TextPassword>Senha</TextPassword>
-    <TextUserName>User Name (Email)</TextUserName>
+    <TextUserName>Nome de Usuário (Email)</TextUserName>
     <TextVerifyEmail>Verifique seu email {0} para assegurar que sua conta possa ser recuperada.</TextVerifyEmail>
     <TextView>Visualizar</TextView>
-    <WindowTitleForgotPassword>Reset</WindowTitleForgotPassword>
+    <WindowTitleForgotPassword>Esqueci a Senha</WindowTitleForgotPassword>
     <WindowTitleLogin>Log in</WindowTitleLogin>
     <WindowTitleSignUp>Sign up</WindowTitleSignUp>
   </Authorization>
@@ -97,14 +97,14 @@
     <ButtonImportFiles>Importar arquivos</ButtonImportFiles>
     <ButtonTestConnection>Testar Conexão</ButtonTestConnection>
     <LabelDatabaseName>Nome do Banco de Dados</LabelDatabaseName>
-    <LabelDomainName>Nome de Dominio</LabelDomainName>
+    <LabelDomainName>Nome de Domínio</LabelDomainName>
     <LabelPassword>Senha</LabelPassword>
     <LabelServerAddress>Endereço do Servidor</LabelServerAddress>
-    <LabelUserName>User Name</LabelUserName>
+    <LabelUserName>Nome de Usuário</LabelUserName>
     <MessageAuthorizationIsRequired>Autorização requerida!</MessageAuthorizationIsRequired>
     <MessageAuthorizationSuccessful>Autorização com sucesso.</MessageAuthorizationSuccessful>
-    <MessageFieldIsRequired>Campos requeridos!</MessageFieldIsRequired>
-    <TabItemSettings>Definições</TabItemSettings>
+    <MessageFieldIsRequired>Campo obrigatório!</MessageFieldIsRequired>
+    <TabItemSettings>Configurações</TabItemSettings>
     <WindowTitleImportFiles>Importar Arquivos</WindowTitleImportFiles>
     <WizardCloudStorageDescription>Criar um novo {0} cloud storage</WizardCloudStorageDescription>
   </CloudStorage>
@@ -113,7 +113,7 @@
     <ButtonAdd>Incluir</ButtonAdd>
     <ButtonAddAll>Incluir Todos</ButtonAddAll>
     <ButtonAdministration>Administração</ButtonAdministration>
-    <ButtonApply>Applicar</ButtonApply>
+    <ButtonApply>Aplicar</ButtonApply>
     <ButtonBack>Voltar</ButtonBack>
     <ButtonCancel>_Cancelar</ButtonCancel>
     <ButtonClean>Limpar</ButtonClean>
@@ -134,8 +134,8 @@
     <ButtonGetItem>Pegar Item</ButtonGetItem>
     <ButtonLoadFromFile>Carregar de Arquivo</ButtonLoadFromFile>
     <ButtonLog>Log</ButtonLog>
-    <ButtonNext>Proximo</ButtonNext>
-    <ButtonNo>_Not</ButtonNo>
+    <ButtonNext>Próximo</ButtonNext>
+    <ButtonNo>_Não</ButtonNo>
     <ButtonOK>_OK</ButtonOK>
     <ButtonOpen>Abrir</ButtonOpen>
     <ButtonPaste>Colar</ButtonPaste>
@@ -154,11 +154,11 @@
     <ButtonShare>Compartilhar</ButtonShare>
     <ButtonTryAgain>Tente novamente</ButtonTryAgain>
     <ButtonUsing>Usar</ButtonUsing>
-    <ButtonVersions>Versão</ButtonVersions>
+    <ButtonVersions>Versões</ButtonVersions>
     <ButtonView>Visualizar</ButtonView>
     <ButtonYes>_Sim</ButtonYes>
     <CalendarDateTypeDate>Data</CalendarDateTypeDate>
-    <CalendarDateTypeEachWeekDay>Cada Dia Semana</CalendarDateTypeEachWeekDay>
+    <CalendarDateTypeEachWeekDay>Cada Dia da Semana</CalendarDateTypeEachWeekDay>
     <CalendarDateTypeEaster>Páscoa</CalendarDateTypeEaster>
     <CalendarDateTypeHolidays>Feriados</CalendarDateTypeHolidays>
     <CalendarDateTypeRelativeYearDay>Relativo dia do Ano</CalendarDateTypeRelativeYearDay>
@@ -168,13 +168,13 @@
     <DayAll>Todos</DayAll>
     <DayDayX>Dia {0}</DayDayX>
     <DayEaster>Páscoa</DayEaster>
-    <DayLast>Ultimo</DayLast>
+    <DayLast>Último</DayLast>
     <DayNone>Nenhum</DayNone>
     <DaysOfWeekAll>Todos</DaysOfWeekAll>
     <DaysOfWeekFriday>Sexta</DaysOfWeekFriday>
     <DaysOfWeekMonday>Segunda</DaysOfWeekMonday>
     <DaysOfWeekNone>Nenhum</DaysOfWeekNone>
-    <DaysOfWeekSaturday>Sabado</DaysOfWeekSaturday>
+    <DaysOfWeekSaturday>Sábado</DaysOfWeekSaturday>
     <DaysOfWeekSunday>Domingo</DaysOfWeekSunday>
     <DaysOfWeekThursday>Quinta</DaysOfWeekThursday>
     <DaysOfWeekTuesday>Terça</DaysOfWeekTuesday>
@@ -185,7 +185,7 @@
     <FrequencyDaily>Diariamente</FrequencyDaily>
     <FrequencyHourly>A cada hora</FrequencyHourly>
     <FrequencyMonthly>Mensalmente</FrequencyMonthly>
-    <FrequencyOnce>Uma</FrequencyOnce>
+    <FrequencyOnce>Uma vez</FrequencyOnce>
     <FrequencyWeekly>Semanalmente</FrequencyWeekly>
     <FrequencyYearly>Anualmente</FrequencyYearly>
     <ItemCalendar>Calendário</ItemCalendar>
@@ -214,7 +214,7 @@
     <LabelParentDatasource>Data Source pai</LabelParentDatasource>
     <LabelParentFolder>Pasta pai</LabelParentFolder>
     <LabelRefreshed>Atualizado</LabelRefreshed>
-    <LabelRefreshFrequency>Frequencia de atualização</LabelRefreshFrequency>
+    <LabelRefreshFrequency>Frequência de atualização</LabelRefreshFrequency>
     <LabelStartTime>Hora Inicial</LabelStartTime>
     <LabelType>Tipo</LabelType>
     <MonthAll>Todos</MonthAll>
@@ -242,41 +242,41 @@
     <RefreshFrequencyAlways>Sempre</RefreshFrequencyAlways>
     <RefreshFrequencyEach10Minutes>A cada 10 Minutos</RefreshFrequencyEach10Minutes>
     <RefreshFrequencyEach30Minutes>A cada 30 Minutos</RefreshFrequencyEach30Minutes>
-    <RefreshFrequencyEach4Hours>A cada 4 Hora</RefreshFrequencyEach4Hours>
+    <RefreshFrequencyEach4Hours>A cada 4 Horas</RefreshFrequencyEach4Hours>
     <RefreshFrequencyEachDay>A Cada Dia</RefreshFrequencyEachDay>
-    <RefreshFrequencyEachHalfDay>a Cada Dia Meio</RefreshFrequencyEachHalfDay>
+    <RefreshFrequencyEachHalfDay>A Cada Meio Dia</RefreshFrequencyEachHalfDay>
     <RefreshFrequencyEachHour>A cada Hora</RefreshFrequencyEachHour>
-    <RefreshFrequencyOnce>Unica</RefreshFrequencyOnce>
+    <RefreshFrequencyOnce>Uma vez</RefreshFrequencyOnce>
     <RepeatTypeHours>horas</RepeatTypeHours>
     <RepeatTypeMinutes>minutos</RepeatTypeMinutes>
-    <SchedulerStatusStarted>Iniciar</SchedulerStatusStarted>
-    <SchedulerStatusStopped>Parar</SchedulerStatusStopped>
+    <SchedulerStatusStarted>Iniciado</SchedulerStatusStarted>
+    <SchedulerStatusStopped>Parado</SchedulerStatusStopped>
     <ShowDemoSolutions>Mostrar soluções de demonstração</ShowDemoSolutions>
     <TextNotDefined>Não definido</TextNotDefined>
-    <TextNotDetected>não detectado</TextNotDetected>
+    <TextNotDetected>Não detectado</TextNotDetected>
     <TextPleaseWait>Aguarde...</TextPleaseWait>
     <TextReport>Relatório</TextReport>
     <TextSoftwareVersion>Versão: {0} de {1}</TextSoftwareVersion>
     <TextStatus>Status</TextStatus>
     <TextWillBeDeletedSoon>será deletado em breve</TextWillBeDeletedSoon>
     <ToolTipDeleted>Mostrar itens deletados</ToolTipDeleted>
-    <ToolTipDesign>Execute o desenho do relatorio para editar o relatorio selecionado.</ToolTipDesign>
+    <ToolTipDesign>Execute o desenho do relatório para editar o relatório selecionado.</ToolTipDesign>
     <ToolTipGridMode>Ver em lista</ToolTipGridMode>
     <ToolTipInfo>Ver detalhes</ToolTipInfo>
     <ToolTipPublish>Prepare o relatório selecionado para ser disponibilizado em seu aplicativo.</ToolTipPublish>
     <ToolTipRecover>Recuperar o item selecionado.</ToolTipRecover>
-    <ToolTipRunMailing>Executar o envio selecionado</ToolTipRunMailing>
-    <ToolTipRunWithoutPreview>Renderizar o relatório selecionado sem visualização</ToolTipRunWithoutPreview>
+    <ToolTipRunMailing>Executar o envio selecionado.</ToolTipRunMailing>
+    <ToolTipRunWithoutPreview>Renderizar o relatório selecionado sem visualização.</ToolTipRunWithoutPreview>
     <ToolTipShare>Compartilhar o item selecionado.</ToolTipShare>
     <ToolTipSort>Opções de classificação</ToolTipSort>
     <ToolTipThumbnailMode>Ver em grid</ToolTipThumbnailMode>
     <ToolTipViewFile>Mostrar o item selecionado.</ToolTipViewFile>
-    <ToolTipViewReport>Mostrar o relatorio selecionado no visualizador.</ToolTipViewReport>
+    <ToolTipViewReport>Mostrar o relatório selecionado no visualizador.</ToolTipViewReport>
   </Common>
   <ContactList>
     <LabelEmailList>Lista de Email</LabelEmailList>
     <TextSample>Exemplo</TextSample>
-    <WindowTitleEdit>Edita Lista de Contato</WindowTitleEdit>
+    <WindowTitleEdit>Editar Lista de Contato</WindowTitleEdit>
     <WindowTitleNew>Nova Lista de Contato</WindowTitleNew>
   </ContactList>
   <Dashboard>
@@ -332,7 +332,7 @@
     <LabelQueryParameterAndColumnType>Type</LabelQueryParameterAndColumnType>
     <LabelServerAddress>Server Address</LabelServerAddress>
     <LabelServicesEndPoint>OData-Service</LabelServicesEndPoint>
-    <LabelUserName>User Name</LabelUserName>
+    <LabelUserName>Nome de Usuário</LabelUserName>
     <LabelValue>Value</LabelValue>
     <MessageStartImportDataRelationConfirmation>Do you really want to import data relations for all tables of selected data sources?</MessageStartImportDataRelationConfirmation>
     <RadioButtonAuto>Auto</RadioButtonAuto>
@@ -399,12 +399,12 @@
     <GroupBoxFiles>Arquivos</GroupBoxFiles>
     <LabelFile>Arquivo</LabelFile>
     <MessageFailedAddFollowingFiles>Falha ao adicionar os seguintes arquivos. Excedeu o tamanho {0} MB.</MessageFailedAddFollowingFiles>
-    <MessageWrongExcelDocument>Incorreto formato Excel do documento.</MessageWrongExcelDocument>
+    <MessageWrongExcelDocument>Formato de documento Excel incorreto.</MessageWrongExcelDocument>
     <TabItemExcelData>Dados</TabItemExcelData>
-    <TabItemExcelHeaders>Cabeçario</TabItemExcelHeaders>
-    <TabItemExcelPreview>Anterior</TabItemExcelPreview>
+    <TabItemExcelHeaders>Cabeçalhos</TabItemExcelHeaders>
+    <TabItemExcelPreview>Visualização</TabItemExcelPreview>
     <TabItemExcelSheets>Sheets</TabItemExcelSheets>
-    <TextAutomaticNaming>Os nomes dos itens adicionados será criado automaticamente!</TextAutomaticNaming>
+    <TextAutomaticNaming>Os nomes dos itens adicionados serão criados automaticamente!</TextAutomaticNaming>
     <TextDragDropFilesHere>Arraste e solte arquivos aqui</TextDragDropFilesHere>
     <ToolTipDragDropFilesHere>Arraste e solte um arquivo aqui a partir do gerenciador de arquivos para criar um item em sua base. Você também pode usar um item de arquivo existente para criar um novo item. Para fazer isso, arraste e solte um item de arquivo aqui a partir da árvore de itens.</ToolTipDragDropFilesHere>
     <WindowTitleEdit>Editar arquivo</WindowTitleEdit>
@@ -412,19 +412,19 @@
     <WindowTitleNew>Novo arquivo</WindowTitleNew>
     <WindowTitleSaveFile>Salvar arquivo</WindowTitleSaveFile>
     <WizardExcelDataTabDescription>Selecione o intervalo de dados que você deseja importar. Mantendo pressionada a tecla Ctrl e teclas Shift você pode selecionar células não adjacentes e blocos de dados.</WizardExcelDataTabDescription>
-    <WizardExcelHeadersTabDescription>Selecionar linhas que serão utilizadas como cabeçalhos de coluna. Eles serão criados para cada coluna usando dados de várias linhas. Mantendo pressionada a tecla Ctrl você pode selecionar várias linhas não adjacentes. O cabeçalho pode ser uma seqüência de dígitos, símbolos e espaços ou traços. Você também pode colocar as colunas em uma ordem conveniente, arrastando-os para trás os cabeçalhos, e remover linhas e colunas em branco.</WizardExcelHeadersTabDescription>
+    <WizardExcelHeadersTabDescription>Selecionar linhas que serão utilizadas como cabeçalhos de coluna. Eles serão criados para cada coluna usando dados de várias linhas. Mantendo pressionada a tecla Ctrl você pode selecionar várias linhas não adjacentes. O cabeçalho pode ser uma sequência de dígitos, símbolos e espaços ou traços. Você também pode colocar as colunas em uma ordem conveniente, arrastando-os para trás os cabeçalhos, e remover linhas e colunas em branco.</WizardExcelHeadersTabDescription>
     <WizardExcelPreviewTabDescription>Visualizar e salvar o resultado.</WizardExcelPreviewTabDescription>
     <WizardExcelSheetsTabDescription>Selecione uma folha a partir do qual os dados serão importados.</WizardExcelSheetsTabDescription>
   </File>
   <FileTypes>
     <Data>Arquivo de Dados</Data>
     <Excel>Microsoft Excel</Excel>
-    <Html>Html</Html>
+    <Html>HTML</Html>
     <Image>Arquivo de Imagem</Image>
     <OpenDocumentCalc>Abrir Documento Calc</OpenDocumentCalc>
     <OpenDocumentWriter>Abrir Documento Writer</OpenDocumentWriter>
     <Pdf>Adobe PDF</Pdf>
-    <PowerPoint>Microsoft Power Point</PowerPoint>
+    <PowerPoint>Microsoft PowerPoint</PowerPoint>
     <ReportSnapshot>Report Snapshot</ReportSnapshot>
     <RichText>Rich Text</RichText>
     <Text>Texto</Text>
@@ -440,13 +440,13 @@
   </Folder>
   <Items>
     <MessageAttachSelectedItems>Você deseja anexar os itens selecionados para '{0}'?</MessageAttachSelectedItems>
-    <TabItemSettings>Definições</TabItemSettings>
-    <TextThisItemIsNotUsed>Este item não está em uso</TextThisItemIsNotUsed>
+    <TabItemSettings>Configurações</TabItemSettings>
+    <TextThisItemIsNotUsed>Este item não está em uso.</TextThisItemIsNotUsed>
     <TextVersion>Versão</TextVersion>
     <ToolTipDeleteItem>Deletar Item</ToolTipDeleteItem>
     <ToolTipGetItem>Pegue os itens selecionados da árvore de itens.</ToolTipGetItem>
     <ToolTipMoveToRecycleBin>Se você mover o item para a Lixeira pode restaurá-lo no futuro. Caso contrário, o item será apagado sem a capacidade de recuperação.</ToolTipMoveToRecycleBin>
-    <ToolTipOpenFromFile>Abri de arquivo</ToolTipOpenFromFile>
+    <ToolTipOpenFromFile>Abrir de arquivo</ToolTipOpenFromFile>
     <ToolTipSelectAll>Selecionar todos</ToolTipSelectAll>
     <WindowDescriptionCleanRecycleBin>Você realmente quer limpar a lixeira totalmente? Depois disso, os dados não podem ser restaurados.</WindowDescriptionCleanRecycleBin>
     <WindowDescriptionCopy>Por favor, verifique os itens que você deseja copiar para a área de transferência e clique no botão "Copiar".</WindowDescriptionCopy>
@@ -460,16 +460,15 @@
     <WindowTitleLog>Log</WindowTitleLog>
     <WindowTitlePaste>Colar Items</WindowTitlePaste>
     <WindowTitleUsing>Usando</WindowTitleUsing>
-    <WindowTitleVersions>Item da Versão</WindowTitleVersions>
+    <WindowTitleVersions>Versões do Item</WindowTitleVersions>
   </Items>
   <License>
     <ButtonActivate>Ativar</ButtonActivate>
     <ButtonBuy>Comprar</ButtonBuy>
     <ButtonDeactivate>Desativar</ButtonDeactivate>
     <ButtonRefreshLicense>Atualizar Licença</ButtonRefreshLicense>
-    <ButtonRenew>Renovar</ButtonRenew>
-    <LabelExpiredDate>Expira Dia</LabelExpiredDate>
-    <LabelOrderDate>Comprado Dia</LabelOrderDate>
+    <LabelExpiredDate>Data de Expiração</LabelExpiredDate>
+    <LabelOrderDate>Data do Pedido</LabelOrderDate>
     <LabelOwner>Proprietário</LabelOwner>
     <LabelPlan>Plano</LabelPlan>
     <MessageActivating>Ativando...</MessageActivating>
@@ -477,11 +476,11 @@
     <MessageDeactivating>Desativando...</MessageDeactivating>
     <MessageEnterUserNameAndPassword>Entre com o user name (Email) e senha para ativar</MessageEnterUserNameAndPassword>
     <MessageEnterUserNameAndPasswordRefreshLicense>Entre com o user name (Email) e senha para atualizar a licença</MessageEnterUserNameAndPasswordRefreshLicense>
-    <MessageExpiredLicense>Seu programa de assinatura está expirado. Você pode continuar a usar a licença para o Stimulsoft Server. O Programa de assinatua pode ser renovado a qualquer momento.</MessageExpiredLicense>
+    <MessageExpiredLicense>Seu programa de assinatura está expirado. Você pode continuar a usar a licença para o Stimulsoft Server. O Programa de assinatura pode ser renovado a qualquer momento.</MessageExpiredLicense>
     <MessageRefreshLicense>Atualizar Licença...</MessageRefreshLicense>
     <MessageUsingTrialVersion>Você está usando uma versão trial do Stimulsoft Server!</MessageUsingTrialVersion>
     <MessageYouWantDeactivating>Tem certeza de que deseja desativar a licença?</MessageYouWantDeactivating>
-    <TextDeactivate>Desativado</TextDeactivate>
+    <TextDeactivate>Desativar</TextDeactivate>
     <TextExpired>Expirado</TextExpired>
     <TextLicenseInformation>Informações de Licença</TextLicenseInformation>
     <TextLicenseUpToUsers>Até {0} usuários</TextLicenseUpToUsers>
@@ -503,7 +502,7 @@
     <WindowTitleNew>Nova Mala direta</WindowTitleNew>
   </Mailing>
   <Messages>
-    <ConnectionFail>Falha de conexão</ConnectionFail>
+    <ConnectionFail>Falha de conexão!</ConnectionFail>
     <ConnectionSuccess>Conectado com sucesso!</ConnectionSuccess>
     <DataSchemaIsEmpty>Data schema está em branco, tente atualizar a conexão!</DataSchemaIsEmpty>
     <EnterCurrentPassword>Entre com a senha atual!</EnterCurrentPassword>
@@ -521,9 +520,9 @@
     <IsRequiredReportTemplate>Você deve adicionar um modelo de relatório!</IsRequiredReportTemplate>
     <IsRequiredScheduler>Você deve adicionar um agendador para executar!</IsRequiredScheduler>
     <LoadItem>O conteúdo atual do item será perdido! Você realmente deseja carregar este item do arquivo?</LoadItem>
-    <QueryExecutionError>Query ececutada com erro!</QueryExecutionError>
+    <QueryExecutionError>Query executada com erro!</QueryExecutionError>
     <QuerySuccessfullyExecuted>Query executada com sucesso!</QuerySuccessfullyExecuted>
-    <RetrieveSchemaError>Recuperando Erro de Esquema!</RetrieveSchemaError>
+    <RetrieveSchemaError>Erro ao recuperar o esquema!</RetrieveSchemaError>
     <ServerDidNotReturnData>Servidor não retornou dados!</ServerDidNotReturnData>
     <ShareURLOfTheItemHasBeenUpdated>A URL de compartilhamento do item foi atualizada!</ShareURLOfTheItemHasBeenUpdated>
     <ThisFieldIsNotSpecified>Este campo não é especificado!</ThisFieldIsNotSpecified>
@@ -533,11 +532,11 @@
     <ButtonAbout>Sobre</ButtonAbout>
     <ButtonChangePassword>Alterar Senha</ButtonChangePassword>
     <ButtonCreate>Criar</ButtonCreate>
-    <ButtonCreateCalendar>Criar Calendario</ButtonCreateCalendar>
+    <ButtonCreateCalendar>Criar Calendário</ButtonCreateCalendar>
     <ButtonCreateCloudStorage>Criar Cloud Storage</ButtonCreateCloudStorage>
     <ButtonCreateContactList>Criar Lista de Contato</ButtonCreateContactList>
     <ButtonCreateDashboard>Criar Dashboard</ButtonCreateDashboard>
-    <ButtonCreateDataSource>Criar Data Source</ButtonCreateDataSource>
+    <ButtonCreateDataSource>Criar Fonte de Dados</ButtonCreateDataSource>
     <ButtonCreateFile>Criar Arquivo</ButtonCreateFile>
     <ButtonCreateFileStorage>Criar armazenamento de arquivos</ButtonCreateFileStorage>
     <ButtonCreateFolder>Criar Pasta</ButtonCreateFolder>
@@ -551,14 +550,14 @@
     <ButtonMore>Mais</ButtonMore>
     <ButtonOther>Outro</ButtonOther>
     <ButtonProfile>Perfil</ButtonProfile>
-    <ButtonSettings>Definições</ButtonSettings>
+    <ButtonSettings>Configurações</ButtonSettings>
     <ButtonSortByCreationDate>Por data de criação</ButtonSortByCreationDate>
     <ButtonSortByModificationDate>por data de modificação</ButtonSortByModificationDate>
     <ButtonSortByName>Por Nome</ButtonSortByName>
     <ButtonSortByType>Por Tipo</ButtonSortByType>
     <LabelCreateCalendar>O calendário pode ser usado para especificar dias quando o agendador é executado.</LabelCreateCalendar>
-    <LabelCreateCloudStorage>Criar uma nova conexão com o armazenamento em nuvem. Ele é usado para salvar os resultados dos dados agendador ou de carga prestados para renderização.</LabelCreateCloudStorage>
-    <LabelCreateContactList>A lista de contactos pode ser utilizada no programador, para enviar o resultado de processamento.</LabelCreateContactList>
+    <LabelCreateCloudStorage>Criar uma nova conexão com o armazenamento em nuvem. Ele é usado para salvar os resultados do agendador renderizado ou carregar dados para renderização.</LabelCreateCloudStorage>
+    <LabelCreateContactList>A lista de contatos pode ser usada no agendador para enviar o resultado da renderização.</LabelCreateContactList>
     <LabelCreateDashboard>Criar um novo dashboard.</LabelCreateDashboard>
     <LabelCreateDataSource>Criar a nova fonte de dados. Ele é usado para processar relatórios.</LabelCreateDataSource>
     <LabelCreateFile>Adicionar a lista de arquivos na árvore de itens.</LabelCreateFile>
@@ -575,7 +574,7 @@
     <RibbonButtonCloudStorage>Cloud Storage</RibbonButtonCloudStorage>
     <RibbonButtonContactList>Lista de Contato</RibbonButtonContactList>
     <RibbonButtonDashboard>Dashboard</RibbonButtonDashboard>
-    <RibbonButtonDataSource>Data Source</RibbonButtonDataSource>
+    <RibbonButtonDataSource>Fonte de Dados</RibbonButtonDataSource>
     <RibbonButtonDelete>Deletar</RibbonButtonDelete>
     <RibbonButtonEdit>Editar</RibbonButtonEdit>
     <RibbonButtonEmailTemplates>Email Templates</RibbonButtonEmailTemplates>
@@ -588,14 +587,14 @@
     <RibbonButtonMailing>Mala Direta</RibbonButtonMailing>
     <RibbonButtonNotifications>Notificações</RibbonButtonNotifications>
     <RibbonButtonRefresh>Atualizar</RibbonButtonRefresh>
-    <RibbonButtonReport>Relatorio</RibbonButtonReport>
+    <RibbonButtonReport>Relatório</RibbonButtonReport>
     <RibbonButtonScheduler>Agenda</RibbonButtonScheduler>
-    <RibbonButtonSMTP>Definições do SMTP Server</RibbonButtonSMTP>
+    <RibbonButtonSMTP>Configurações do Servidor SMTP</RibbonButtonSMTP>
     <RibbonButtonSort>Ordem</RibbonButtonSort>
     <RibbonButtonSortAscending>Ascendente</RibbonButtonSortAscending>
     <RibbonButtonSortDescending>Descendente</RibbonButtonSortDescending>
-    <RibbonButtonUpdate>Update</RibbonButtonUpdate>
-    <RibbonButtonView>Visor</RibbonButtonView>
+    <RibbonButtonUpdate>Atualizar</RibbonButtonUpdate>
+    <RibbonButtonView>Exibir</RibbonButtonView>
     <RibbonButtonViewAll>Todos</RibbonButtonViewAll>
     <RibbonButtonViewFavorites>Favoritos</RibbonButtonViewFavorites>
     <RibbonButtonViewNewest>Mais recente</RibbonButtonViewNewest>
@@ -607,7 +606,7 @@
     <RibbonGroupMain>Principal</RibbonGroupMain>
     <RibbonGroupNotifications>Notificações</RibbonGroupNotifications>
     <RibbonGroupOther>Outros</RibbonGroupOther>
-    <RibbonGroupView>Visor</RibbonGroupView>
+    <RibbonGroupView>Exibir</RibbonGroupView>
     <RibbonTabAllElements>Todos os Elementos</RibbonTabAllElements>
     <RibbonTabEmailTemplates>Email Templates</RibbonTabEmailTemplates>
     <RibbonTabHome>Home</RibbonTabHome>
@@ -620,130 +619,128 @@
     <TextItemsNewest>Mais recente</TextItemsNewest>
     <TextItemsRecent>Recente</TextItemsRecent>
     <TextItemsRoot>Raiz</TextItemsRoot>
-    <TextJustType>Apenas digite ...</TextJustType>
+    <TextJustType>Apenas digite...</TextJustType>
     <TextProfile>Perfil</TextProfile>
     <ToolTipCreate>Criar um novo item.</ToolTipCreate>
     <ToolTipDelete>Excluir o item selecionado da árvore de itens.</ToolTipDelete>
     <ToolTipEdit>Editar o item selecionado.</ToolTipEdit>
     <ToolTipFind>Localizar item na árvore de itens por nomes.</ToolTipFind>
     <ToolTipFindClose>Fechar</ToolTipFindClose>
-    <ToolTipFindNext>Procurar Proximo</ToolTipFindNext>
+    <ToolTipFindNext>Procurar Próximo</ToolTipFindNext>
     <ToolTipNotifications>A lista de notificação que mostra o progresso da execução de comandos.</ToolTipNotifications>
     <ToolTipRecycleBin>Trabalhando com itens que foram excluídos anteriormente e colocados na lixeira.</ToolTipRecycleBin>
     <ToolTipRefresh>Atualizar a árvore de item.</ToolTipRefresh>
     <ToolTipSMTP>Configurações do servidor SMTP para enviar e-mails.</ToolTipSMTP>
     <ToolTipSort>Classificando itens na árvore pela condição especificada.</ToolTipSort>
-    <ToolTipSortAZ>Ordenação - por ascendencia.</ToolTipSortAZ>
-    <ToolTipSortZA>Ordenação - por descendencia</ToolTipSortZA>
+    <ToolTipSortAZ>Ordenar em ordem crescente.</ToolTipSortAZ>
+    <ToolTipSortZA>Ordenar em ordem decrescente.</ToolTipSortZA>
     <ToolTipViewAll>Mostrar todos os itens na árvore de item.</ToolTipViewAll>
-    <ToolTipViewFavorites>Mostrar apenas itens usados com freqüência.</ToolTipViewFavorites>
+    <ToolTipViewFavorites>Mostrar apenas itens usados com frequência.</ToolTipViewFavorites>
     <ToolTipViewNewest>Mostrar apenas novos itens na árvore de item.</ToolTipViewNewest>
     <ToolTipViewRecent>Mostrar itens adicionados recentemente na árvore de item.</ToolTipViewRecent>
   </Navigator>
   <Options>
     <LabelBackground>Fundo</LabelBackground>
-    <LabelCacheDescription>Cache de informação ocorre no disco rígido. Ele funciona da maneira que é para acelerar o desempenho do programa e reduzir a carga sobre o servidor. Eventualmente, o cache pode ter um tamanho considerável. Neste caso, você pode limpá-la.</LabelCacheDescription>
+    <LabelCacheDescription>Cache de informação ocorre no disco rígido. Ele funciona da maneira que é para acelerar o desempenho do programa e reduzir a carga sobre o servidor. Eventualmente, o cache pode ter um tamanho considerável. Neste caso, você pode limpá-lo.</LabelCacheDescription>
     <LabelColorScheme>Esquema de Cores</LabelColorScheme>
-    <LabelForeground>Foreground</LabelForeground>
-    <LabelLanguageDescription>Selecione um idioma de localização do aplicativo</LabelLanguageDescription>
+    <LabelForeground>Primeiro Plano</LabelForeground>
+    <LabelLanguageDescription>Selecione um idioma de localização do aplicativo.</LabelLanguageDescription>
     <LabelOpenDesignerInANewWindow>Abrir designer em uma nova janela</LabelOpenDesignerInANewWindow>
     <LabelOpenViewerInANewWindow>Abrir visor em uma nova janela</LabelOpenViewerInANewWindow>
     <LabelStyle>Estilo</LabelStyle>
-    <MessageApplyTheme>O novo tema será aplicado após a re-executar o aplicativo!</MessageApplyTheme>
+    <MessageApplyTheme>O novo tema será aplicado após reexecutar o aplicativo!</MessageApplyTheme>
     <TabAdditionally>Adicionais</TabAdditionally>
     <TabCache>Cache</TabCache>
     <TabInterface>Interface</TabInterface>
-    <TabLanguage>Linguagem</TabLanguage>
+    <TabLanguage>Idioma</TabLanguage>
     <TextDefaultLanguage>Padrão</TextDefaultLanguage>
     <TextEmpty>Em Branco</TextEmpty>
-    <TextTotalFiles>Total Tamanho - {0:N2} MB</TextTotalFiles>
+    <TextTotalFiles>Tamanho Total - {0:N2} MB</TextTotalFiles>
   </Options>
   <Quota>
     <ButtonUpgradeLicense>Upgrade de Licença</ButtonUpgradeLicense>
-    <TextContactYourAdministrator>Para aumentar a quota contato com o administrador.</TextContactYourAdministrator>
-    <TextQuota>Quota</TextQuota>
+    <TextContactYourAdministrator>Para aumentar a cota, entre em contato com o administrador.</TextContactYourAdministrator>
+    <TextQuota>Cota</TextQuota>
   </Quota>
   <ReportSnapshot>
-    <ButtonOpenAfterSaving>Open After Saving</ButtonOpenAfterSaving>
-    <ButtonSend>Send</ButtonSend>
-    <LabelPagesPrinted>Pages printed</LabelPagesPrinted>
-    <LabelSelectExportFormat>Select the format to which you want to save the report</LabelSelectExportFormat>
+    <ButtonOpenAfterSaving>Abrir Após Salvar</ButtonOpenAfterSaving>
+    <ButtonSend>Enviar</ButtonSend>
+    <LabelPagesPrinted>Páginas impressas</LabelPagesPrinted>
+    <LabelSelectExportFormat>Selecione o formato no qual deseja salvar o relatório</LabelSelectExportFormat>
     <TabItemCloudStorage>Cloud Storage</TabItemCloudStorage>
-    <TabItemContacts>Contacts</TabItemContacts>
-    <TabItemPreview>Preview</TabItemPreview>
-    <TextCancelPrinting>Cancel Printing...</TextCancelPrinting>
+    <TabItemContacts>Contatos</TabItemContacts>
+    <TabItemPreview>Visualização</TabItemPreview>
+    <TextCancelPrinting>Cancelar Impressão...</TextCancelPrinting>
     <TextClickToView>Clique para visualizar</TextClickToView>
     <TextCloudStorage>Cloud Storage</TextCloudStorage>
-    <TextComputer>Computer</TextComputer>
-    <TextDoubleClickToView>Double Click to View</TextDoubleClickToView>
     <TextEmail>Email</TextEmail>
     <TextFile>Arquivo</TextFile>
-    <TextLaunchViewer>Report Viewer is being started.</TextLaunchViewer>
-    <TextNavigating>Navigating...</TextNavigating>
-    <TextPageOf>{0} of {1}</TextPageOf>
-    <TextPrintingFromServerDescription>Report has too many pages. The pages will be printed by 15 pages at once after loading from server.</TextPrintingFromServerDescription>
-    <TextReportPreparing>Report Preparing...</TextReportPreparing>
-    <TextReportPrinting>Report Printing...</TextReportPrinting>
-    <TextReportRendering>Report Rendering...</TextReportRendering>
-    <TextSaveReport>The report is exported. Click 'Save' to save the result.</TextSaveReport>
-    <TextSearching>Searching...</TextSearching>
-    <WindowTitleEdit>Edit Report Snapshot</WindowTitleEdit>
-    <WindowTitleViewer>Viewer</WindowTitleViewer>
+    <TextLaunchViewer>Report Viewer está sendo iniciado.</TextLaunchViewer>
+    <TextNavigating>Navegando...</TextNavigating>
+    <TextPageOf>{0} de {1}</TextPageOf>
+    <TextPrintingFromServerDescription>O relatório tem muitas páginas. As páginas serão impressas 15 de cada vez após o carregamento do servidor.</TextPrintingFromServerDescription>
+    <TextReportPreparing>Preparando Relatório...</TextReportPreparing>
+    <TextReportPrinting>Imprimindo Relatório...</TextReportPrinting>
+    <TextReportRendering>Renderizando Relatório...</TextReportRendering>
+    <TextSaveReport>O relatório foi exportado. Clique em 'Salvar' para salvar o resultado.</TextSaveReport>
+    <TextSearching>Pesquisando...</TextSearching>
+    <WindowTitleEdit>Editar Instantâneo do Relatório</WindowTitleEdit>
+    <WindowTitleViewer>Visualizador</WindowTitleViewer>
   </ReportSnapshot>
   <ReportTemplate>
     <CategoryCloud>Cloud</CategoryCloud>
     <CategoryImages>Imagens</CategoryImages>
     <CategoryRichTexts>Rich Texts</CategoryRichTexts>
-    <CategorySubReports>Relatorios</CategorySubReports>
-    <GroupBoxReportTemplates>Report Templates</GroupBoxReportTemplates>
+    <CategorySubReports>Relatórios</CategorySubReports>
+    <GroupBoxReportTemplates>Modelos de Relatório</GroupBoxReportTemplates>
     <GroupBoxXmlItem>XML Item</GroupBoxXmlItem>
     <GroupBoxXsdItem>XSD Item</GroupBoxXsdItem>
     <MessageAttachSelectedItems>Você deseja anexar os itens selecionados para o relatório '{0}'?</MessageAttachSelectedItems>
     <MessageCloseDesigner>Você quer salvar o relatório antes de fechar o Designer de Relatórios?</MessageCloseDesigner>
     <MessageEnterDescriptionChanges>Digite a descrição das alterações do relatório.</MessageEnterDescriptionChanges>
-    <MessageErrorOccurredLoadingReport>Ocorreu um erro ao carregar o relatório</MessageErrorOccurredLoadingReport>
-    <MessageFormsNotSupported>Relatórios com formas não são suportados!</MessageFormsNotSupported>
-    <TextAutomaticNaming>Os nomes dos itens adicionados será criado automaticamente!</TextAutomaticNaming>
-    <TextDescriptionChanges>Por favor, digite uma descrição das alterações</TextDescriptionChanges>
+    <MessageErrorOccurredLoadingReport>Ocorreu um erro ao carregar o relatório.</MessageErrorOccurredLoadingReport>
+    <MessageFormsNotSupported>Relatórios com formulários não são suportados!</MessageFormsNotSupported>
+    <TextAutomaticNaming>Os nomes dos itens adicionados serão criados automaticamente!</TextAutomaticNaming>
+    <TextDescriptionChanges>Por favor, digite uma descrição das alterações.</TextDescriptionChanges>
     <TextDragDropFilesOrItemsHere>Arrastar &amp; Solte itens ou arquivos aqui</TextDragDropFilesOrItemsHere>
     <TextDragDropItemsHere>Arraste &amp; Solte os itens aqui</TextDragDropItemsHere>
-    <TextDragDropReportTemplatesHere>Arraste &amp; Solte Report Templates Aqui</TextDragDropReportTemplatesHere>
+    <TextDragDropReportTemplatesHere>Arraste &amp; Solte Modelos de Relatório Aqui</TextDragDropReportTemplatesHere>
     <TextLaunchDesigner>Report Designer está sendo iniciado.</TextLaunchDesigner>
-    <ToolTipDragDropItemsHere>Arraste e solte itens aqui da árvore para usá-lo em um novo dashboard.</ToolTipDragDropItemsHere>
+    <ToolTipDragDropItemsHere>Arraste e solte itens aqui da árvore para usá-los em um novo dashboard.</ToolTipDragDropItemsHere>
     <ToolTipDragDropItemsHereToAttachIt>Arraste e solte aqui uma fonte de dados a partir da árvore de itens para usá-lo em um novo relatório. Além da fonte de dados que você pode usar imagens, arquivos de texto ou Rich-texto para sua visualização no relatório. Também outros relatórios podem ser usados para a saída deles como sub-relatórios.</ToolTipDragDropItemsHereToAttachIt>
     <ToolTipDragDropItemsOrFilesHere>Arrastar &amp; solte aqui um arquivo do explorador de arquivos ou itens da árvore.</ToolTipDragDropItemsOrFilesHere>
     <ToolTipDragDropReportTemplatesHere>Arraste e solte um arquivo de modelo de relatório aqui a partir do gerenciador de arquivos para criar um modelo de relatório sobre a sua base. Você também pode usar um relatório existente para criar um novo relatório. Para fazer isso, arraste e solte um item de modelo de relatório aqui a partir da árvore itens.</ToolTipDragDropReportTemplatesHere>
-    <ToolTipInfoUsingAttachDataSource>Se a fonte de dados está anexado, seu conteúdo (dados como esquemas, tabelas, procedimentos armazenados etc.) pode ser usado ao criar relatórios.</ToolTipInfoUsingAttachDataSource>
+    <ToolTipInfoUsingAttachDataSource>Se a fonte de dados está anexada, seu conteúdo (dados como esquemas, tabelas, procedimentos armazenados etc.) pode ser usado ao criar relatórios.</ToolTipInfoUsingAttachDataSource>
     <ToolTipInfoUsingAttachImage>A imagem anexada será um recurso permanente deste modelo. A imagem pode ser usada em um relatório sem ter de carregar a partir de fontes externas.</ToolTipInfoUsingAttachImage>
-    <ToolTipInfoUsingAttachReportTemplate>O artigo como um modelo de relatório será ligado em relação ao relatório criado.</ToolTipInfoUsingAttachReportTemplate>
+    <ToolTipInfoUsingAttachReportTemplate>O item como um modelo de relatório será anexado em relação ao relatório criado.</ToolTipInfoUsingAttachReportTemplate>
     <ToolTipInfoUsingAttachText>O arquivo de texto anexado pode ser uma fonte de um texto quando se trabalha com componentes de texto do relatório, incluindo componentes ricos.</ToolTipInfoUsingAttachText>
-    <ToolTipInfoUsingAttachXmlXsd>Se anexar arquivos XML e XSD com o relatório, em seguida, uma fonte de dados será gerado na sua base. Esta fonte de dados pode ser usada para criar relatórios.</ToolTipInfoUsingAttachXmlXsd>
+    <ToolTipInfoUsingAttachXmlXsd>Se anexar arquivos XML e XSD com o relatório, em seguida, uma fonte de dados será gerada na sua base. Esta fonte de dados pode ser usada para criar relatórios.</ToolTipInfoUsingAttachXmlXsd>
     <ToolTipSetParameters>Definindo parâmetros de relatório</ToolTipSetParameters>
     <WindowDescriptionNew>Escolha, entre as opções apresentadas acima, como criar um novo relatório. Modelo de relatório criado será colocado em "{0}".</WindowDescriptionNew>
     <WindowTitleDesigner>Designer</WindowTitleDesigner>
     <WindowTitleEdit>Editar Relatório</WindowTitleEdit>
-    <WindowTitleLoadReport>Carregar Relatorio</WindowTitleLoadReport>
+    <WindowTitleLoadReport>Carregar Relatório</WindowTitleLoadReport>
     <WindowTitleLoadReports>Carregar Relatórios</WindowTitleLoadReports>
     <WindowTitleNew>Novo Relatório</WindowTitleNew>
-    <WindowTitleParameters>Parametros</WindowTitleParameters>
-    <WindowTitleSaveReport>Salvar Relatórios</WindowTitleSaveReport>
+    <WindowTitleParameters>Parâmetros</WindowTitleParameters>
+    <WindowTitleSaveReport>Salvar Relatório</WindowTitleSaveReport>
     <WizardBlankReport>Relatório em Branco</WizardBlankReport>
-    <WizardReportFromFile>Relatorio de arquivo</WizardReportFromFile>
-    <WizardReportFromFileDescription>Carregar novo relatorio do arquivo</WizardReportFromFileDescription>
+    <WizardReportFromFile>Relatório de arquivo</WizardReportFromFile>
+    <WizardReportFromFileDescription>Carregar novo relatório do arquivo</WizardReportFromFileDescription>
     <WizardReportWizard>Assistente de Relatório</WizardReportWizard>
-    <WizardReportWizardDescription>Criar novo relatorio com ajuda e assistente</WizardReportWizardDescription>
+    <WizardReportWizardDescription>Criar novo relatório com a ajuda do assistente</WizardReportWizardDescription>
   </ReportTemplate>
   <Scheduler>
     <ActionCopy>Copiar</ActionCopy>
     <ActionRunMailing>Executar Mala Direta</ActionRunMailing>
-    <ActionRunReport>Executar Relatorio</ActionRunReport>
+    <ActionRunReport>Executar Relatório</ActionRunReport>
     <ActionRunScheduler>Executar Agendamento</ActionRunScheduler>
     <ActionSendEmail>Enviar Email</ActionSendEmail>
     <ButtonStartScheduler>Iniciar</ButtonStartScheduler>
     <ButtonStopScheduler>Parar</ButtonStopScheduler>
     <CategoryCommon>Comum</CategoryCommon>
-    <CategoryExceptionCalendar>Exception</CategoryExceptionCalendar>
-    <CategoryFrequency>Frequencia</CategoryFrequency>
+    <CategoryExceptionCalendar>Exceção</CategoryExceptionCalendar>
+    <CategoryFrequency>Frequência</CategoryFrequency>
     <CategoryNotify>Notificar</CategoryNotify>
     <CategoryRange>Intervalo</CategoryRange>
     <CategoryRepeat>Repetir</CategoryRepeat>
@@ -768,11 +765,11 @@
     <LabelNewAction>Nova ação</LabelNewAction>
     <LabelRepeat>Repetir</LabelRepeat>
     <LabelResultExpiresAfter>Resultado expira após</LabelResultExpiresAfter>
-    <LabelResultName>Resultado Nome</LabelResultName>
+    <LabelResultName>Nome do Resultado</LabelResultName>
     <LabelResultType>Tipo de resultado</LabelResultType>
     <LabelRunAtDay>Executar no Dia</LabelRunAtDay>
-    <LabelRunAtMinute>Executar no Mimuto</LabelRunAtMinute>
-    <LabelRunAtMonth>Exetuar no Mês</LabelRunAtMonth>
+    <LabelRunAtMinute>Executar no Minuto</LabelRunAtMinute>
+    <LabelRunAtMonth>Executar no Mês</LabelRunAtMonth>
     <LabelRunAtTime>Executar na hora</LabelRunAtTime>
     <LabelRunEvery>Executar cada</LabelRunEvery>
     <LabelSource>Fonte</LabelSource>
@@ -784,7 +781,7 @@
     <LabelTo>Para</LabelTo>
     <LabelType>Tipo</LabelType>
     <MessageReportDoesNotContainParameters>Este relatório não contém parâmetros!</MessageReportDoesNotContainParameters>
-    <MessageSchedulerRunning>Agendador está em execução ...</MessageSchedulerRunning>
+    <MessageSchedulerRunning>Agendador está em execução...</MessageSchedulerRunning>
     <MessageTheFileTypesMustMatch>O tipo do item copiado deve corresponder ao tipo do item no qual ele será copiado!</MessageTheFileTypesMustMatch>
     <MessageTheItemIsAlreadyAdded>O item já foi adicionado!</MessageTheItemIsAlreadyAdded>
     <MessageYouCannotUseThisDestinationForTheCurrentItems>Você não pode usar este destino para os itens atuais!</MessageYouCannotUseThisDestinationForTheCurrentItems>
@@ -792,13 +789,13 @@
     <RadioButtonNotRepeat>Não repetir</RadioButtonNotRepeat>
     <RadioButtonOn>On</RadioButtonOn>
     <RadioButtonRepeat>Repetir {0} vezes com o intervalo de {1} {2}</RadioButtonRepeat>
-    <TabItemActions>Ação</TabItemActions>
-    <TabItemSettings>Definições</TabItemSettings>
+    <TabItemActions>Ações</TabItemActions>
+    <TabItemSettings>Configurações</TabItemSettings>
     <TextDragDropAttachedHere>Arraste &amp; Solte o item anexado aqui</TextDragDropAttachedHere>
     <TextDragDropCalendarHere>Arraste &amp; Solte o calendário aqui!</TextDragDropCalendarHere>
-    <TextDragDropDestinationHere>Arraste &amp; Solte a destinação do item</TextDragDropDestinationHere>
+    <TextDragDropDestinationHere>Arraste &amp; Solte o item de destino aqui</TextDragDropDestinationHere>
     <TextDragDropItemHere>Arraste &amp; Solte o item aqui</TextDragDropItemHere>
-    <TextDragDropReportHere>Arraste e Solte o relatorio aqui</TextDragDropReportHere>
+    <TextDragDropReportHere>Arraste e Solte o relatório aqui</TextDragDropReportHere>
     <TextDragDropSchedulerHere>Arraste &amp; Solte o agendador aqui</TextDragDropSchedulerHere>
     <TextFrequency>Este campo especifica quantas vezes o agendador será executado.</TextFrequency>
     <TextPressPlusIconAddNewAction>Clique no ícone de adição para adicionar uma nova ação!</TextPressPlusIconAddNewAction>
@@ -807,7 +804,7 @@
     <ToolTipChangeResultType>Mude a maneira de lidar com o resultado da criação de relatórios</ToolTipChangeResultType>
     <ToolTipDaysOfWeek>Um dia da semana o agendador será executado. Você pode selecionar um único dia, poucos dias diferentes, ou todos os dias imediatamente. Se mais de um dia é selecionado, o agendador será executado em cada um dos dias selecionados.</ToolTipDaysOfWeek>
     <ToolTipDeleteAction>Deletar Ação</ToolTipDeleteAction>
-    <ToolTipDragDropActionRunReportDestinationHere>Arraste &amp; Solte um item de destino aqui na árvore de itens. O destino irá conter o resultado. Além disso, o item de destino pode ser um instantâneo de relatório ou arquivo item existente. Neste caso, o item de destino será substituído no resultado do funcionamento relatório.</ToolTipDragDropActionRunReportDestinationHere>
+    <ToolTipDragDropActionRunReportDestinationHere>Arraste &amp; Solte um item de destino aqui na árvore de itens. O destino irá conter o resultado. Além disso, o item de destino pode ser um instantâneo de relatório ou arquivo item existente. Neste caso, o item de destino será substituído pelo resultado da execução do relatório.</ToolTipDragDropActionRunReportDestinationHere>
     <ToolTipDragDropAttachedHere>Arraste e solte o item aqui a partir da árvore itens. O item anexado será enviado no e-mail.</ToolTipDragDropAttachedHere>
     <ToolTipDragDropCalendarHere>Arraste &amp; Solte um calendário aqui a partir da árvore itens. O agendador será executado por dias especificados no calendário.</ToolTipDragDropCalendarHere>
     <ToolTipDragDropDestinationHere>Arraste &amp; Solte um item de destino aqui na árvore de itens. O destino irá conter o resultado. Além disso, o item de destino pode ser um instantâneo de relatório ou arquivo item existente. Neste caso, o item de destino será substituído por item de origem.</ToolTipDragDropDestinationHere>
@@ -815,8 +812,8 @@
     <ToolTipDragDropItemHere>Arraste &amp; Solte um item  aqui na árvore de itens. O item será copiado quando da execução do agendador.</ToolTipDragDropItemHere>
     <ToolTipDragDropReportHere>Arraste &amp; Solte um modelo de relatório aqui a partir da árvore itens. O modelo será usado quando execução do agendador.</ToolTipDragDropReportHere>
     <ToolTipDragDropSchedulerHere>Arraste &amp; Solte um agendador aqui a partir da árvore de itens. Quando os principais Execuções do agendador (aquele que está sendo criado ou modificado), então ele pode executar outros agendadores (aqueles que são arrastados neste campo). Apenas um nível de aninhamento é suportado para executar os agendadores. O agendador que foi executado por um outro agendador não pode executar mais um agendador.</ToolTipDragDropSchedulerHere>
-    <ToolTipEndDate>Execute o agendador, o mais tardar no momento.</ToolTipEndDate>
-    <ToolTipExcludeWeekendDays>Marque esta caixa se você quer que o agendador não para ser executado em dias de semana.</ToolTipExcludeWeekendDays>
+    <ToolTipEndDate>Execute o agendador não depois deste horário.</ToolTipEndDate>
+    <ToolTipExcludeWeekendDays>Marque esta caixa se você não quer que o agendador seja executado nos fins de semana.</ToolTipExcludeWeekendDays>
     <ToolTipRunAtDay>O dia em que o agendador é executado pode ser selecionado de duas maneiras. A primeira maneira consiste em especificar um determinado dia do mês (de 1 a 31 ou o último dia do mês). A segunda maneira é especificar qual dia da semana que é e uma série  deste dia da semana no mês. Por exemplo, "A primeira segunda-feira do mês" "A terceira quarta-feira do mês",. Ambas as formas permitem selecionar mais de um dia em um mês.</ToolTipRunAtDay>
     <ToolTipRunAtDayOnce>Um dia, quando o agendador executar.</ToolTipRunAtDayOnce>
     <ToolTipRunAtMinute>Um minuto quando o agendador executar (intervalo de 1 a 60).</ToolTipRunAtMinute>
@@ -824,15 +821,15 @@
     <ToolTipRunAtMonthOnce>Um mês, quando o agendador for executado.</ToolTipRunAtMonthOnce>
     <ToolTipRunAtTime>O momento em que o agendador será executado.</ToolTipRunAtTime>
     <ToolTipRunEvery>Se especificar um valor de 1, o agendador será executado para sempre. Se especificar um valor 2, então, cada primeira vez, o agendador não será executado. Toda segunda vez - ele vai. Se especificar um valor de 3, então, a cada terceira vez, o agendador será executado. Toda primeira e segunda vez ele será ignorado etc.</ToolTipRunEvery>
-    <ToolTipStartDate>Execute o agendador, o bem antes do momento.</ToolTipStartDate>
+    <ToolTipStartDate>Execute o agendador não antes deste horário.</ToolTipStartDate>
     <ToolTipTimeZone>Execute o agendador pelo fuso horário.</ToolTipTimeZone>
-    <WindowTitleResultName>Nome de Resultado</WindowTitleResultName>
+    <WindowTitleResultName>Nome do Resultado</WindowTitleResultName>
     <WizardCalendar>Calendário</WizardCalendar>
     <WizardCalendarDescription>Execute o agendador em datas definidas no calendário selecionado.</WizardCalendarDescription>
     <WizardDaily>Diariamente</WizardDaily>
     <WizardDailyDescription>Uma vez por dia, em um determinado momento.</WizardDailyDescription>
     <WizardHourly>De hora em hora</WizardHourly>
-    <WizardHourlyDescription>Em uma hora.</WizardHourlyDescription>
+    <WizardHourlyDescription>Uma vez por hora.</WizardHourlyDescription>
     <WizardMonthly>Mensalmente</WizardMonthly>
     <WizardMonthlyDescription>Mensalmente, em determinados dias da semana ou dias do mês, em um momento especificado.</WizardMonthlyDescription>
     <WizardOnce>Uma vez</WizardOnce>
@@ -846,13 +843,13 @@
     <ButtonDetails>Detalhes</ButtonDetails>
     <ButtonIAgree>Eu Aceito</ButtonIAgree>
     <ButtonUpdate>Atualizar</ButtonUpdate>
-    <GroupBoxCurrentSoftware>Software Corrente</GroupBoxCurrentSoftware>
-    <MessageCheckingNewVersion>Procurando nova versao de  {0}...</MessageCheckingNewVersion>
+    <GroupBoxCurrentSoftware>Software Atual</GroupBoxCurrentSoftware>
+    <MessageCheckingNewVersion>Procurando nova versão de {0}...</MessageCheckingNewVersion>
     <MessageErrorOccurred>Um erro ocorreu.</MessageErrorOccurred>
-    <MessageLatestVersionIsInstalled>Ultima versão de {0} está instalada.</MessageLatestVersionIsInstalled>
+    <MessageLatestVersionIsInstalled>Última versão de {0} está instalada.</MessageLatestVersionIsInstalled>
     <MessageNewVersionAvailable>Nova versão disponível!</MessageNewVersionAvailable>
     <MessageNewVersionInstallingNow>Nova versão sendo instalada...</MessageNewVersionInstallingNow>
     <MessageNewVersionNotAvailable>Nova versão não encontrada.</MessageNewVersionNotAvailable>
-    <MessageUnableCheckForUpdates>Checagem de update indisponivel. Click em 'Re-tentar', para verificar atualizações novamente.</MessageUnableCheckForUpdates>
+    <MessageUnableCheckForUpdates>Verificação de atualizações indisponível. Clique em 'Tentar Novamente' para verificar atualizações novamente.</MessageUnableCheckForUpdates>
   </Update>
 </Localization>
