@@ -3,9 +3,11 @@
   <CheckActions>
     <ApplyEngineV2Long>Ställ in egenskapen EngineVersion av en sida till EngineV2 att få tillgång till alla rapporterande verktygsfunktioner.</ApplyEngineV2Long>
     <Change>Förändring</Change>
+    <ChangeReportToInterpretationMode>Ändra rapporten till tolkningsläge</ChangeReportToInterpretationMode>
     <Code>Kod</Code>
     <Convert>Konvertera</Convert>
     <Delete>Radera</Delete>
+    <Edit>Redigera</Edit>
     <Fix>Fixa</Fix>
     <GotoCodeLong>Gå till kod.</GotoCodeLong>
     <Hide>Göm dessa meddelanden.</Hide>
@@ -16,6 +18,8 @@
     <SetGrowToHeightToTrue>Ställ in egenskapen GrowToHeight till True</SetGrowToHeightToTrue>
     <StiAllowHtmlTagsInTextActionLong>Ställ in värdet för egenskapen AllowHtmlTags av komponenten till true för korrekt visar HTML-taggar.</StiAllowHtmlTagsInTextActionLong>
     <StiAllowOnDoublePassActionLong>Ställ in egenskapen NumberOfPass till DoublePass för korrekt beräkning av variabler.</StiAllowOnDoublePassActionLong>
+    <StiApplyGeneralTextFormatLong>Ange formatet 'General' för komponenten '{0}'.</StiApplyGeneralTextFormatLong>
+    <StiApplyGeneralTextFormatShort>Tillämpa allmänt</StiApplyGeneralTextFormatShort>
     <StiCanBreakComponentInContainerActionLong>Ställ in värdet för egenskapen CanBreak av komponenten till true.</StiCanBreakComponentInContainerActionLong>
     <StiCanGrowComponentInContainerActionLong>Ställ in värdet för egenskapen CanGrow av behållaren till true.</StiCanGrowComponentInContainerActionLong>
     <StiCanGrowGrowToHeightComponentInContainerLong>egenskapen GrowToHeight ställs in till true för alla komponenter i behållaren. Denna operation garanterar inte rätt fix 100%!</StiCanGrowGrowToHeightComponentInContainerLong>
@@ -33,7 +37,10 @@
     <StiGenerateNewNameDataSourceActionLong>Skapa ett nytt namn på datakälla.</StiGenerateNewNameDataSourceActionLong>
     <StiGenerateNewNamePageActionLong>Skapa ett nytt namn på sidan.</StiGenerateNewNamePageActionLong>
     <StiGenerateNewNameRelationActionLong>Skapa ett nytt namn för relationen.</StiGenerateNewNameRelationActionLong>
+    <StiGenerateNewNameVariableActionLong>Generera ett nytt namn för variabeln.</StiGenerateNewNameVariableActionLong>
     <StiGrowToHeightOverlappingLong>Ställ in värdet för egenskapen GrowToHeight av komponenten till false.</StiGrowToHeightOverlappingLong>
+    <StiInsufficientTextHeightForOneLineLong>Komponentens höjd ökar minst till höjden av en textrad eller till nästa cell i rapportrutnätet.</StiInsufficientTextHeightForOneLineLong>
+    <StiInsufficientTextHeightForOneLineShort>Fast höjd</StiInsufficientTextHeightForOneLineShort>
     <StiLargeHeightAtPageActionLong>För praktiska visning och redigering komponenter, kommer egenskapen LargeHeight av sidan sättas till true.</StiLargeHeightAtPageActionLong>
     <StiMinRowsInColumnsActionLong>Ställ egenskapen MinRowsInColumns till noll.</StiMinRowsInColumnsActionLong>
     <StiMoveComponentToPageAreaActionLong>Komponenten kommer att placeras så att den är helt och hållet upp på sidan. I detta fall är sidfält inte beaktas.</StiMoveComponentToPageAreaActionLong>
@@ -45,11 +52,13 @@
     <StiOrientationPageToLandscapeActionShort>Landskap layout</StiOrientationPageToLandscapeActionShort>
     <StiOrientationPageToPortraitActionLong>Ändra sidlayouten till stående. Sidan storlek ändras inte.</StiOrientationPageToPortraitActionLong>
     <StiOrientationPageToPortraitActionShort>Stående layout</StiOrientationPageToPortraitActionShort>
+    <StiPageFooterOnlyLastPageActionLong>Konvertera PageFooter till ReportSummary</StiPageFooterOnlyLastPageActionLong>
     <StiPrintHeadersFootersFromPreviousPageLong>Ange PrintHeadersFootersFromPreviousPage egenskap av en sida på false.</StiPrintHeadersFootersFromPreviousPageLong>
     <StiPrintOnPreviousPageLong>Ange PrintOnPreviousPage egenskap av en sida på false.</StiPrintOnPreviousPageLong>
     <StiPropertiesOnlyEngineV1ActionLong>Inaktivera egenskaper för '{0}' komponenter som inte stöds i EngineV2.</StiPropertiesOnlyEngineV1ActionLong>
     <StiPropertiesOnlyEngineV2ActionLong>Inaktivera egenskaper hos den komponent som inte stöds i EngineV1.</StiPropertiesOnlyEngineV2ActionLong>
     <StiResetPageNumberActionLong>Ställ in egenskapen ResetPageNumber på en sida på false.</StiResetPageNumberActionLong>
+    <StiSwitchToParametersVerticalOrientationAction>Växla värdet för rapportegenskapen 'Parameters Orientation' till 'Vertical'.</StiSwitchToParametersVerticalOrientationAction>
     <StiSwitchWidthAndHeightOfPageActionLong>Ordna höjden och bredden på sidan.</StiSwitchWidthAndHeightOfPageActionLong>
     <StiVerySmallSizesOfComponentsLong>Storleken på en komponent kommer att ökas till GridSize värdet av rapporten. Denna operation garanterar inte 100% rätt fix!</StiVerySmallSizesOfComponentsLong>
     <StiVerySmallSizesOfComponentsShort>Öka storlek</StiVerySmallSizesOfComponentsShort>
@@ -67,6 +76,7 @@
     <StiCanGrowGrowToHeightComponentInContainerShort>Det är möjligt en felaktig visning av komponenter</StiCanGrowGrowToHeightComponentInContainerShort>
     <StiCanGrowWordWrapTextAndWysiwygCheckLong>När egenskapen TextQuality är inställt på Standard eller Typographic. Text förhandsgranskning, i olika zoomlägen och vid utskrift kan variera på grund av fel på avrundning av GDI +-biblioteket.</StiCanGrowWordWrapTextAndWysiwygCheckLong>
     <StiCanGrowWordWrapTextAndWysiwygCheckShort>Möjligen blir det den felaktiga texten wrap</StiCanGrowWordWrapTextAndWysiwygCheckShort>
+    <StiChartSeriesValueCheckLong>Egenskapen Value är angiven för serier från diagrammet "{0}" men diagrammet har inte egenskapen Data Source inställd.</StiChartSeriesValueCheckLong>
     <StiColumnsWidthGreaterContainerWidthCheckLong>Den totala kolumnbredd är större än bredden på "{0}" komponent. Detta kan leda till felaktig rapport rendering. Det kan också orsaka en del problem med att exportera en rapport till andra format.</StiColumnsWidthGreaterContainerWidthCheckLong>
     <StiColumnsWidthGreaterContainerWidthCheckShort>Den totala kolumnbredd är större än den komponent bredd</StiColumnsWidthGreaterContainerWidthCheckShort>
     <StiColumnsWidthGreaterPageWidthCheckLong>Den totala bredden på kolumnerna i '{0}' sidan är större än sidan bredd. Detta kan leda till felaktig rapport rendering. Det kan också orsaka en del problem med att exportera en rapport till andra format.</StiColumnsWidthGreaterPageWidthCheckLong>
@@ -75,6 +85,10 @@
     <StiComponentBoundsAreOutOfBandShort>Komponenten är delvis utanför bandet.</StiComponentBoundsAreOutOfBandShort>
     <StiComponentExpressionCheckLong>Uttryck i {0} egenskapen "{1}" kan inte utvärderas!</StiComponentExpressionCheckLong>
     <StiComponentExpressionCheckShort>Expression inte kan utvärderas!</StiComponentExpressionCheckShort>
+    <StiComponentNameIsSystemVariableCheckLong>Komponentnamnet '{0}' står i konflikt med ett systemvariabelnamn. Uttryck som använder denna systemvariabel fungerar inte korrekt, eftersom referensen ersätts av komponentreferensen.</StiComponentNameIsSystemVariableCheckLong>
+    <StiComponentNameIsSystemVariableCheckShort>Komponentnamnet står i konflikt med ett systemvariabelnamn</StiComponentNameIsSystemVariableCheckShort>
+    <StiComponentResourceCheckLong>Resursen '{0}' som angetts för komponenten '{1}' hittades inte i rapportens ordlista.</StiComponentResourceCheckLong>
+    <StiComponentResourceCheckShort>Den angivna resursen hittades inte!</StiComponentResourceCheckShort>
     <StiComponentStyleIsNotFoundCheckAtPageLong>Stilen anges för "{0}" sidan finns inte.</StiComponentStyleIsNotFoundCheckAtPageLong>
     <StiComponentStyleIsNotFoundCheckLong>Stilen anges för "{0}" existerar inte komponent.</StiComponentStyleIsNotFoundCheckLong>
     <StiComponentStyleIsNotFoundCheckShort>Den angivna stil finns inte</StiComponentStyleIsNotFoundCheckShort>
@@ -90,6 +104,14 @@
     <StiCrossGroupHeaderNotEqualToGroupCrossFooterOnContainerLong>Antalet CrossGroupFooter inte motsvarar antalet CrossGroupHeader i '{0}' container. Udda komponenter kommer inte att göras.</StiCrossGroupHeaderNotEqualToGroupCrossFooterOnContainerLong>
     <StiDataSourcesForImageCheckLong>Flera datakällor är inställda för "{0}" komponent.</StiDataSourcesForImageCheckLong>
     <StiDataSourcesForImageCheckShort>Flera datakällor ställs</StiDataSourcesForImageCheckShort>
+    <StiEventsAtInterpretationCheckLong>Skriptet i händelsen '{0}' i komponenten '{1}' fungerar inte i tolkningsläget.</StiEventsAtInterpretationCheckLong>
+    <StiEventsAtInterpretationCheckShort>Händelser i tolkning</StiEventsAtInterpretationCheckShort>
+    <StiExpressionElementCheckLong>Uttrycket '{0}' i komponenten '{1}' fungerar felaktigt. Följande meddelande togs emot från parsern: '{2}'.</StiExpressionElementCheckLong>
+    <StiExpressionElementCheckShort>Ett uttryck fungerar felaktigt!</StiExpressionElementCheckShort>
+    <StiFilterCircularDependencyElementCheckLong>Filtrets cirkulära beroende hittades vid elementet '{0}'. Kontrollera egenskapen 'Parent Key' för elementet '{0}'!</StiFilterCircularDependencyElementCheckLong>
+    <StiFilterCircularDependencyElementCheckShort>Cirkulärt filterberoende</StiFilterCircularDependencyElementCheckShort>
+    <StiFilterValueCheckLong>Ett filtervärde för '{0}' har inte angetts. Detta filter kan inte bearbetas.</StiFilterValueCheckLong>
+    <StiFilterValueCheckShort>Ett filtervärde har inte angetts</StiFilterValueCheckShort>
     <StiFontMissingCheckLong>Typsnittet "{0}" som anges för komponenten "{1}" finns inte.</StiFontMissingCheckLong>
     <StiFontMissingCheckShort>Typsnittet inte hittas.</StiFontMissingCheckShort>
     <StiFunctionsOnlyForEngineV2CheckLong>Systemvariabler som inte är tillgängliga i EngineV1 används i rapporten. Vill du använda EngineV2.</StiFunctionsOnlyForEngineV2CheckLong>
@@ -97,8 +119,12 @@
     <StiGroupHeaderNotEqualToGroupFooterOnContainerLong>Antalet GroupFooter inte motsvarar antalet GroupHeader i '{0}' container. Udda komponenter kommer inte att göras.</StiGroupHeaderNotEqualToGroupFooterOnContainerLong>
     <StiGroupHeaderNotEqualToGroupFooterOnPageLong>Antalet GroupFooter inte motsvarar antalet GroupHeader på "{0}" sidan. Udda komponenter kommer inte att göras.</StiGroupHeaderNotEqualToGroupFooterOnPageLong>
     <StiGroupHeaderNotEqualToGroupFooterShort>Vissa komponenter inte kommer att göras</StiGroupHeaderNotEqualToGroupFooterShort>
+    <StiGroupHeaderSummaryExpressionCheckLong>Summeringsuttrycket för grupphuvudet {0} innehåller en aggregatfunktion, men denna funktion är angiven i en separat egenskap. Rapportgenerering är inte möjlig.</StiGroupHeaderSummaryExpressionCheckLong>
+    <StiGroupHeaderSummaryExpressionCheckShort>Ogiltig funktion i uttryck</StiGroupHeaderSummaryExpressionCheckShort>
     <StiGrowToHeightOverlappingLong>egenskapen GrowToHeight av '{0}' komponent är true. När du gör en rapport, kan denna komponent lappa en eller flera underliggande komponenter.</StiGrowToHeightOverlappingLong>
     <StiGrowToHeightOverlappingShort>Det är möjligt att överlappa komponenter.</StiGrowToHeightOverlappingShort>
+    <StiInsufficientTextHeightForOneLineCheckLong>Höjden på textkomponenten {0} är för liten, även för en textrad. Detta kan orsaka problem vid export till vissa format samt vid utskrift på webben. Det rekommenderas att öka höjden eller ange egenskapen CanGrow till true.</StiInsufficientTextHeightForOneLineCheckLong>
+    <StiInsufficientTextHeightForOneLineCheckShort>Otillräcklig höjd för en rad.</StiInsufficientTextHeightForOneLineCheckShort>
     <StiIsFirstPageIsLastPageDoublePassCheckLong>Den IsFirstPage, IsFirstPageThrough, IsLastPage, IsLastPageThrough systemvariabler ger felaktiga resultat när ett pass. Det krävs för att ställa in egenskapen NumberOfPass till DoublePass.</StiIsFirstPageIsLastPageDoublePassCheckLong>
     <StiIsFirstPageIsLastPageDoublePassCheckShort>Systemvariabler som kräver dubbla pass används i rapporten</StiIsFirstPageIsLastPageDoublePassCheckShort>
     <StiIsFirstPassIsSecondPassCheckLong>För korrekt arbete IsFirstPass, IsSecondPass funktioner dubbla pass av rapporten rendering krävs. kanske du har glömt att ange egenskapen NumberOfPass av rapporten till DoublePass.</StiIsFirstPassIsSecondPassCheckLong>
@@ -110,6 +136,7 @@
     <StiLocationOutsidePrintableAreaCheckLong>Den "{0}" komponent är helt eller delvis utanför utskriftsområdet. Denna komponent kommer inte att skrivas ut på rätt sätt. Men i vissa fall är en sådan postion av komponenten acceptabelt. Det kan också orsaka en del problem med att exportera en rapport till andra format.</StiLocationOutsidePrintableAreaCheckLong>
     <StiLocationOutsidePrintableAreaCheckShort>Komponenten är delvis ut av tryckområdet</StiLocationOutsidePrintableAreaCheckShort>
     <StiMinRowsInColumnsCheckLong>egenskapen MinRowsInColumns av bandet inte är satt till 0. Men värdet av kolumnerna egenskap är inställd på 0. Det är meningslöst.</StiMinRowsInColumnsCheckLong>
+    <StiMinRowsInColumnsCheckShort>Kanske är egenskapen MinRowsInColumns felaktigt inställd</StiMinRowsInColumnsCheckShort>
     <StiNegativeSizesOfComponentsCheckLong>Den bredd och höjd "{0}" komponent har negativa värden. Detta kan leda till felaktig rapport rendering.</StiNegativeSizesOfComponentsCheckLong>
     <StiNegativeSizesOfComponentsCheckShort>Bredden och höjden på komponenten har negativa värden.</StiNegativeSizesOfComponentsCheckShort>
     <StiNoConditionAtGroupCheckLong>Ett tillstånd inte är inställd för "{0}" komponent. Gruppering kommer inte att ske utan att det</StiNoConditionAtGroupCheckLong>
@@ -118,6 +145,10 @@
     <StiNoNameComponentCheckShort>Komponenten har inget namn</StiNoNameComponentCheckShort>
     <StiNoNamePageCheckLong>Namnet på sidan med '{0}' index inte har angetts. Om namnet på den sida som inte anges kommer rapportmotorn inte kommer att sammanställa rapporten.</StiNoNamePageCheckLong>
     <StiNoNamePageCheckShort>En sida har inget namn</StiNoNamePageCheckShort>
+    <StiPageFooterOnlyLastPageCheckLong>Bandet {0} med egenskapen PrintOn=OnlyLastPage skapar oönskade mellanrum längst ned på sidan. Vi rekommenderar att du ersätter det med ReportSummary.</StiPageFooterOnlyLastPageCheckLong>
+    <StiPageFooterOnlyLastPageCheckShort>Sannolikhet för att luckor uppstår</StiPageFooterOnlyLastPageCheckShort>
+    <StiPageLineAndDoublePassCheckLong>Systemvariabeln PageLine kräver Double-Pass av rapportmotorn.</StiPageLineAndDoublePassCheckLong>
+    <StiPageLineAndDoublePassCheckShort>PageLine kräver Double-Pass!</StiPageLineAndDoublePassCheckShort>
     <StiPanelInEngineV1CheckLong>Den "{0}" panelen finns i rapporten där EngineV1 används. Denna komponent är inte tillgänglig i det EngineV1. Så rapporteringsverktyget försöker göra det som en Container komponent. Men panelen komponenten har fler funktioner i jämförelse med Container och detta kan leda till att felaktiga rapporten rendering.</StiPanelInEngineV1CheckLong>
     <StiPanelInEngineV1CheckShort>Panelen i EngineV1</StiPanelInEngineV1CheckShort>
     <StiPrintHeadersAndFootersFromPreviousPageLong>Den PrintHeadersAndFootersFromPreviousPage egenskapen '{0}' sida är satt till true. Men för det första och enda sidan den har ingen mening.</StiPrintHeadersAndFootersFromPreviousPageLong>
@@ -142,6 +173,10 @@
     <StiSystemTextObsoleteCheckShort>Komponenten är föråldrade</StiSystemTextObsoleteCheckShort>
     <StiTextColorEqualToBackColorCheckLong>Möjlig orsak är att värdena för TextBrush och Pensel egenskaperna hos '{0}' komponent var felaktig. Texten kommer inte att vara synliga.</StiTextColorEqualToBackColorCheckLong>
     <StiTextColorEqualToBackColorCheckShort>egenskapen TextBrush är lika med egenskapen Brush</StiTextColorEqualToBackColorCheckShort>
+    <StiTextTextFormatCheckLong>Det valda textformatet för komponenten '{0}' kan inte tillämpas eftersom resultatet av uttrycket är en textsträng.</StiTextTextFormatCheckLong>
+    <StiTextTextFormatCheckShort>Formatet kan inte tillämpas.</StiTextTextFormatCheckShort>
+    <StiTextTextFormatFieldCheckLong>Kolumnen som används i komponenten {0} är inte av datumtyp. Det rekommenderas att ändra formateringen till General för att undvika att rapporten blir långsam och för att säkerställa korrekt formatering.</StiTextTextFormatFieldCheckLong>
+    <StiTextTextFormatFieldCheckShort>Det valda formatet är inte kompatibelt med datakolumnens typ.</StiTextTextFormatFieldCheckShort>
     <StiTotalPageCountDoublePassCheckLong>Den TotalPageCount, TotalPageCountThrough systemvariabler i manus och villkor ger felaktiga resultat när ett pass. Det krävs för att ställa in egenskapen NumberOfPass till DoublePass.</StiTotalPageCountDoublePassCheckLong>
     <StiUndefinedComponentCheckLong>odefinierat "{0}" komponent finns i rapporten. Den rapporteringsverktyg kan inte identifiera denna komponent. Kanske detta är en anpassad komponent. Rapporten kan inte göras!</StiUndefinedComponentCheckLong>
     <StiUndefinedComponentCheckShort>Undefined komponent</StiUndefinedComponentCheckShort>
@@ -159,6 +194,8 @@
   <CheckConnection>
     <StiUndefinedConnectionCheckLong>odefinierat "{0}" anslutning hittas. Den rapporteringsverktyg kan inte korrekt behandla sådan typ av anslutning till databasen! Kan kunden typer av anslutningar som används i rapporten. Rapporten kan inte göras!</StiUndefinedConnectionCheckLong>
     <StiUndefinedConnectionCheckShort>Undefined typ av anslutning</StiUndefinedConnectionCheckShort>
+    <StiUnsupportedConnectionCheckLong>Rapporten innehåller anslutningen '{0}' som inte stöds på den valda plattformen. Ändra alternativen för denna anslutning.</StiUnsupportedConnectionCheckLong>
+    <StiUnsupportedConnectionCheckShort>Anslutningstyp som inte stöds</StiUnsupportedConnectionCheckShort>
   </CheckConnection>
   <CheckDataRelation>
     <StiDifferentAmountOfKeysInDataRelationCheckLong>Antalet moder nycklar av '{0}' relation motsvarar inte antalet barn nycklar. Följande samband kan inte skapas vid rendering en rapport!</StiDifferentAmountOfKeysInDataRelationCheckLong>
@@ -177,6 +214,8 @@
     <StiSourcesInAbsentDataRelationCheckShort>Det finns inga datakällor</StiSourcesInAbsentDataRelationCheckShort>
   </CheckDataRelation>
   <CheckDataSource>
+    <StiCalculatedColumnRecursionCheckLong>Den beräknade kolumnen '{0}' i datakällan '{1}' har ett uttryck med rekursion. Det är omöjligt att referera till den beräknade kolumnen i dess eget uttryck.</StiCalculatedColumnRecursionCheckLong>
+    <StiCalculatedColumnRecursionCheckShort>Rekursivt uttryck</StiCalculatedColumnRecursionCheckShort>
     <StiNoNameDataSourceCheckLong>Den datakälla namn inte anges. Detta namn används för att skapa en klass i rapporten koden för datakälla. Utan att ange namn, kan den rapporteringsverktyg inte skapa rapporten koden och rapporten kommer inte att sammanställas!</StiNoNameDataSourceCheckLong>
     <StiNoNameDataSourceCheckShort>Det finns inget namn på datakälla</StiNoNameDataSourceCheckShort>
     <StiNoNameInSourceDataSourceCheckLong>NameInSource fält inte fylls för "{0}" datakällor. Utan att fylla detta område kommer rapporteringsverktyg inte kunna hitta data för datakällan i databasen och rapporten kommer inte att göras!</StiNoNameInSourceDataSourceCheckLong>
@@ -190,6 +229,10 @@
     <RenderingMessage>Rapportens Renderings meddelande.</RenderingMessage>
     <Warning>Varning!</Warning>
   </CheckGlobal>
+  <CheckLicense>
+    <StiLicenseTrialCheckLong>Testversion endast för produktutvärdering. En licens krävs för att utveckla eller distribuera med Stimulsoft.</StiLicenseTrialCheckLong>
+    <StiValidSubscriptioRequiredCheckLong>Giltig prenumeration krävs. Uppdatera din prenumeration för att använda den fullt fungerande versionen av Stimulsoft Designer.</StiValidSubscriptioRequiredCheckLong>
+  </CheckLicense>
   <CheckPage>
     <StiLostPointsOnPageCheckLong>Förlorade punkter finns på '{0}' sida: {1}. Poäng är osynliga och användas i följande primitiver: lodrät linje, rektangel och rundad rektangel. Om punkten inte matchar till alla delar då det kan tas bort.</StiLostPointsOnPageCheckLong>
     <StiLostPointsOnPageCheckShort>Förlorade poäng</StiLostPointsOnPageCheckShort>
@@ -198,12 +241,49 @@
     <StiOrientationPageCheckShort>Fel '{0}' sida opientation.</StiOrientationPageCheckShort>
   </CheckPage>
   <CheckReport>
+    <StiCategoryRequestFromUserCheckLong>Kategorierna för variabeln '{0}' kan inte visas på visarens parameterpanel eftersom det endast är möjligt när värdet för rapportegenskapen 'ParametersOrientation' är inställt på 'Vertical'.</StiCategoryRequestFromUserCheckLong>
+    <StiCategoryRequestFromUserCheckShort>Visar kategorier på parameterpanelen</StiCategoryRequestFromUserCheckShort>
+    <StiCloudCompilationModeCheckLong>Stimulsoft Cloud kan inte förhandsgranska denna rapport i kompileringsläge. Ändra rapporten till tolkningsläge.</StiCloudCompilationModeCheckLong>
+    <StiCloudCompilationModeCheckShort>Den här rapporten är i kompileringsläge</StiCloudCompilationModeCheckShort>
     <StiCompilationErrorAssemblyCheckLong>Kunde inte ladda filen eller sammansättningen '{0}' eller en av dess beroenden.</StiCompilationErrorAssemblyCheckLong>
+    <StiCompilationErrorCheck2Long>Ett kompileringsfel har hittats i egenskapen '{1}' i komponenten '{2}'.</StiCompilationErrorCheck2Long>
+    <StiCompilationErrorCheck3Long>Ett kompileringsfel har hittats i händelsen '{1}' i komponenten '{2}'.</StiCompilationErrorCheck3Long>
     <StiCompilationErrorCheckLong>Felet i sammanställningen finns i '{0}' rapport:</StiCompilationErrorCheckLong>
     <StiCompilationErrorCheckShort>Felet av sammanställningen</StiCompilationErrorCheckShort>
+    <StiCompilationWarningCheckLong>En kompileringsvarning har hittats i rapporten '{0}':</StiCompilationWarningCheckLong>
+    <StiCompilationWarningCheckShort>En kompileringsvarning</StiCompilationWarningCheckShort>
+    <StiDataSourceLoopingCheckLong>Databandet '{0}' och underdatabandet '{1}' använder samma datakälla '{2}'. För att undvika loopning visas inte underdatabandet.</StiDataSourceLoopingCheckLong>
+    <StiDataSourceLoopingCheckShort>Dataloopning är möjlig</StiDataSourceLoopingCheckShort>
+    <StiDuplicatedName2CheckLong>Det finns flera datakällor med namnet '{0}'.</StiDuplicatedName2CheckLong>
+    <StiDuplicatedName3CheckLong>Det finns flera datakällor med namnet '{0}' som skiljer sig åt i skiftläge.</StiDuplicatedName3CheckLong>
+    <StiDuplicatedNameCheckLong>Det finns flera komponenter med namnet '{0}'.</StiDuplicatedNameCheckLong>
+    <StiDuplicatedNameCheckShort>Komponenter med dubbletter av namn har hittats</StiDuplicatedNameCheckShort>
+    <StiDuplicatedNameInSourceCheckShort>Dubbletter i datakällan</StiDuplicatedNameInSourceCheckShort>
     <StiDuplicatedNameInSourceInDataRelationReportCheckLong>Den "{0}" relationer finns i rapporten. De har lika ('{1}') värden i NameInSource. Alla värden i NameInSource bör vara unikt inom området av ett förhållande till en databas! Det är nödvändigt att rätta till dessa områden av relationer.</StiDuplicatedNameInSourceInDataRelationReportCheckLong>
     <StiDuplicatedNameInSourceInDataRelationReportCheckShort>dubbletter i relationerna</StiDuplicatedNameInSourceInDataRelationReportCheckShort>
+    <StiDuplicatedReportName2CheckLong>Rapportnamnet '{0}' är samma som datakällans namn.</StiDuplicatedReportName2CheckLong>
+    <StiDuplicatedReportNameCheckLong>Rapportnamnet '{0}' är samma som komponentnamnet.</StiDuplicatedReportNameCheckLong>
+    <StiMainPageMissingCheckLong>Rapporten kan inte genereras eftersom huvudsidan inte kan fastställas. Kontrollera sidhänvisningen i SubReports och DrillDowns.</StiMainPageMissingCheckLong>
+    <StiMainPageMissingCheckShort>Huvudsidan saknas</StiMainPageMissingCheckShort>
+    <StiNetCoreCompilationModeCheckLong>Stimulsoft .NET Core-motorn kan inte rendera denna rapport i kompileringsläge. Ändra rapporten till tolkningsläge.</StiNetCoreCompilationModeCheckLong>
+    <StiNetCoreCompilationModeCheckShort>Den här rapporten är i kompileringsläge</StiNetCoreCompilationModeCheckShort>
+    <StiResourcesFontsCheckLong>Det går inte att ladda teckensnittet från resursen '{0}'. Filen är skadad eller filformatet stöds inte.</StiResourcesFontsCheckLong>
+    <StiResourcesFontsCheckShort>Teckensnittet laddades inte</StiResourcesFontsCheckShort>
+    <StiScriptExecutionErrorCheck2Long>Ett skriptkörningsfel uppstod i egenskapen '{1}' för komponenten '{2}'.</StiScriptExecutionErrorCheck2Long>
+    <StiScriptExecutionErrorCheck3Long>Ett skriptkörningsfel uppstod i händelsen '{1}' för komponenten '{2}'.</StiScriptExecutionErrorCheck3Long>
+    <StiScriptExecutionErrorCheckLong>Ett skriptkörningsfel uppstod.</StiScriptExecutionErrorCheckLong>
+    <StiScriptExecutionErrorCheckShort>Fel vid skriptkörning</StiScriptExecutionErrorCheckShort>
   </CheckReport>
+  <CheckVariable>
+    <StiVariableInitializationCheckLong>Variabeln '{0}' har fel standardvärde. Det är omöjligt att initiera variabeln med ett angivet värde.</StiVariableInitializationCheckLong>
+    <StiVariableInitializationCheckShort>Initieringsvärde</StiVariableInitializationCheckShort>
+    <StiVariableNameCheckLong>Variabelnamnet "{0}" kan inte användas eftersom det är reserverat.</StiVariableNameCheckLong>
+    <StiVariableNameCheckShort>Variabelnamnet är ogiltigt.</StiVariableNameCheckShort>
+    <StiVariableRecursionCheckLong>Variabeln '{0}' har ett uttryck med rekursion. Det är omöjligt att referera till variabeln i dess eget uttryck.</StiVariableRecursionCheckLong>
+    <StiVariableRecursionCheckShort>Rekursivt uttryck</StiVariableRecursionCheckShort>
+    <StiVariableTypeCheckLong>För att de beroende variablerna ska fungera korrekt måste deras typer och typerna för deras kolumner matcha.</StiVariableTypeCheckLong>
+    <StiVariableTypeCheckShort>Variabeltyperna matchar inte.</StiVariableTypeCheckShort>
+  </CheckVariable>
   <Font>
     <Bold>Ett värde som anger om detta teckensnitt är fet.</Bold>
     <Italic>Ett värde som anger om detta teckensnitt är kursiv.</Italic>
@@ -212,6 +292,151 @@
     <Strikeout>Ett värde som anger om den här Font anger en horisontell linje genom teckensnitt.</Strikeout>
     <Underline>Ett värde som anger om detta teckensnitt är understruken.</Underline>
   </Font>
+  <Parser>
+    <DivisionByZero>Division med noll.</DivisionByZero>
+    <ExpressionIsEmpty>Uttrycket är tomt.</ExpressionIsEmpty>
+    <FieldMethodOrPropertyNotFound>Fält, metod eller egenskap hittades inte: '{0}'.</FieldMethodOrPropertyNotFound>
+    <FunctionHasInvalidArgument>Funktionen '{0}' har ett ogiltigt argument '{1}': det går inte att konvertera från '{2}' till '{3}'.</FunctionHasInvalidArgument>
+    <FunctionNotFound>Funktionen hittas inte: '{0}'.</FunctionNotFound>
+    <FunctionNotYetImplemented>Funktionen '{0}' är ännu inte implementerad.</FunctionNotYetImplemented>
+    <IntegralConstantIsTooLarge>Heltalskonstanten är för stor.</IntegralConstantIsTooLarge>
+    <ItemDoesNotContainDefinition>'{0}' innehåller ingen definition för '{1}'.</ItemDoesNotContainDefinition>
+    <LeftParenthesisExpected>( förväntas.</LeftParenthesisExpected>
+    <MethodHasInvalidArgument>Metoden '{0}' har ett ogiltigt argument '{1}'. Det går inte att konvertera från '{2}' till '{3}'.</MethodHasInvalidArgument>
+    <NameDoesNotExistInCurrentContext>Namnet '{0}' finns inte i den aktuella kontexten.</NameDoesNotExistInCurrentContext>
+    <NoMatchingOverloadedMethod>Det finns ingen matchande överlagrad metod för '{0}({1})'.</NoMatchingOverloadedMethod>
+    <NoOverloadForMethodTakesNArguments>Ingen överlagring för metoden '{0}' tar '{1}' argument.</NoOverloadForMethodTakesNArguments>
+    <OperatorCannotBeAppliedToOperands>Operatorn '{0}' kan inte tillämpas på operander av typen '{1}' och typen '{2}'.</OperatorCannotBeAppliedToOperands>
+    <RightParenthesisExpected>) förväntas.</RightParenthesisExpected>
+    <SyntaxError>Syntaxfel.</SyntaxError>
+    <TheTypeOrNamespaceNotExistInTheNamespace>Typ- eller namnrymdsnamnet '{0}' finns inte i namnrymden '{1}'.</TheTypeOrNamespaceNotExistInTheNamespace>
+    <UnexpectedEndOfExpression>Oväntat slut på uttrycket.</UnexpectedEndOfExpression>
+    <UnknownInternalError>Okänt internt fel.</UnknownInternalError>
+    <UnprocessedLexemesRemain>Syntaxfel - obehandlade lexem återstår.</UnprocessedLexemesRemain>
+  </Parser>
+  <Publish>
+    <ActionDesign>Design</ActionDesign>
+    <ActionExport>Exportera</ActionExport>
+    <ActionShow>Visa</ActionShow>
+    <AddNewConnection>Lägg till ny anslutning</AddNewConnection>
+    <Cancel>Avbryt</Cancel>
+    <ChangeExportSettings>Ändra exportinställningar</ChangeExportSettings>
+    <ChangeExportSettingsToolTip>Koden för att skapa inställningsklassen för det valda exportformatet läggs till. I projektet kan du ändra exportinställningarna.</ChangeExportSettingsToolTip>
+    <Close>Stäng</Close>
+    <ConnectionsFromReport>Använd anslutning från rapport</ConnectionsFromReport>
+    <ConnectionsFromReportToolTip>Anslutningar som sparats i rapportmallen används utan några ändringar.</ConnectionsFromReportToolTip>
+    <ConnectionsRegData>Registrera data från kod</ConnectionsRegData>
+    <ConnectionsRegDataToolTip>Du kommer att erbjudas att ansluta data från koden i form av XML- eller JSON-data, eller om möjligt i form av affärsobjekt.</ConnectionsRegDataToolTip>
+    <ConnectionsReplace>Ersätt anslutningssträng</ConnectionsReplace>
+    <ConnectionsReplaceToolTip>Du kommer att erbjudas att ändra anslutningen från koden, beroende på dess typ - filsökväg, databasanslutningssträng.</ConnectionsReplaceToolTip>
+    <Copy>Kopiera</Copy>
+    <CopyingLibraries>Kopierar projektfiler...</CopyingLibraries>
+    <DataAdapterPlatform>Dataadapterplattform</DataAdapterPlatform>
+    <DeployFormPlatform>Distribuera formulär till plattform:</DeployFormPlatform>
+    <DeployReportPlatform>Distribuera rapport till plattform:</DeployReportPlatform>
+    <DownloadingLibraries>Laddar ner bibliotek...</DownloadingLibraries>
+    <EmbedAllDataToResources>Rapporten innehåller dataanslutningar som inte stöds på den valda plattformen. Vill du bädda in tillgängliga data i rapporten som resurser? I så fall ersätts alla anslutningar med XML-resurser.</EmbedAllDataToResources>
+    <EmbedAllDataToResourcesToolTip>All data laddas och läggs till i rapportmallen som resurser. Detta gör att du kan visa rapporten utan att behöva fråga databasen.</EmbedAllDataToResourcesToolTip>
+    <ExportFormat>Exportera rapport till:</ExportFormat>
+    <ExportFormatData>Data</ExportFormatData>
+    <ExportFormatDataType>Datatyp:</ExportFormatDataType>
+    <ExportFormatImage>Bild</ExportFormatImage>
+    <ExportFormatImageType>Bildtyp:</ExportFormatImageType>
+    <FormAction>Vad ska göras med formuläret:</FormAction>
+    <FrameworkType>Ramverkstyp</FrameworkType>
+    <FrameworkVersion>Ramverksversion</FrameworkVersion>
+    <FullScreenViewer>Visa visaren i helt webbläsarfönster</FullScreenViewer>
+    <FullScreenViewerToolTip>Visaren med rapporten visas i hela det tillgängliga utrymmet i webbläsarfönstret.</FullScreenViewerToolTip>
+    <GetLibrariesFrom>Hämta Stimulsoft-bibliotek från {0}</GetLibrariesFrom>
+    <GetLibrariesFromToolTip>Alla nödvändiga bibliotek och skript ansluts från förvaret. Annars kopieras de in i projektet och ansluts direkt.</GetLibrariesFromToolTip>
+    <GroupAddons>Tillägg</GroupAddons>
+    <GroupConnections>Dataanslutningar</GroupConnections>
+    <GroupParameters>Rapportparametrar</GroupParameters>
+    <HideOptions>Dölj alternativ</HideOptions>
+    <IncludeFonts>Inkludera teckensnitt</IncludeFonts>
+    <IncludeFontsToolTip>Teckensnitten som behövs för korrekt beräkning av rapportkomponenternas storlekar kopieras och kopplas till projektet.</IncludeFontsToolTip>
+    <IncludeFormPackedStringToCode>Inkludera Form som packad sträng i koden</IncludeFormPackedStringToCode>
+    <IncludeFormPackedStringToCodeToolTip>Formuläret sparas som en Base64-sträng direkt i projektkoden. Detta gör att du kan bli av med ytterligare filer.</IncludeFormPackedStringToCodeToolTip>
+    <IncludeLibrariesToStandalone>Inkludera Stimulsoft-bibliotek i den körbara filen</IncludeLibrariesToStandalone>
+    <IncludeLibrariesToStandaloneToolTip>Alla nödvändiga bibliotek och filer inkluderas i den körbara filen. Annars skapas ett ZIP-arkiv.</IncludeLibrariesToStandaloneToolTip>
+    <IncludeLicenseKey>Inkludera licensnyckel</IncludeLicenseKey>
+    <IncludeLicenseKeyToolTip>Licensnyckeln från den för närvarande auktoriserade användarens konto integreras i projektet.</IncludeLicenseKeyToolTip>
+    <IncludeLocalization>Inkludera lokalisering</IncludeLocalization>
+    <IncludeLocalizationToolTip>Den valda lokaliseringen kopieras och kopplas till projektet.</IncludeLocalizationToolTip>
+    <IncludeReportPackedStringToCode>Inkludera rapport som packad sträng i koden</IncludeReportPackedStringToCode>
+    <IncludeReportPackedStringToCodeToolTip>Rapporten sparas som en Base64-sträng direkt i projektkoden. Detta gör att du kan bli av med ytterligare filer.</IncludeReportPackedStringToCodeToolTip>
+    <IncludeUITheme>Inkludera UI-tema</IncludeUITheme>
+    <IncludeUIThemeToolTip>Det valda temat för användargränssnittet anges i komponentens inställningar.</IncludeUIThemeToolTip>
+    <JavaScriptFramework>Ramverkstyp:</JavaScriptFramework>
+    <LicenseKeyTypeFile>Fil</LicenseKeyTypeFile>
+    <LicenseKeyTypeString>Sträng</LicenseKeyTypeString>
+    <LoadForm>Läs in Form från:</LoadForm>
+    <LoadReport>Läs in rapport från:</LoadReport>
+    <LoadReportAssembly>Assembly</LoadReportAssembly>
+    <LoadReportByteArray>Byte-array</LoadReportByteArray>
+    <LoadReportClass>Klass</LoadReportClass>
+    <LoadReportFile>Fil</LoadReportFile>
+    <LoadReportHyperlink>Hyperlänk</LoadReportHyperlink>
+    <LoadReportOnServerSide>Läs in rapporten på serversidan</LoadReportOnServerSide>
+    <LoadReportOnServerSideToolTip>Rapportfilen läses in på serversidan och överförs till komponenten som en Base64-sträng. Detta undviker onödiga förfrågningar till servern.</LoadReportOnServerSideToolTip>
+    <LoadReportResource>Resurs</LoadReportResource>
+    <LoadReportStream>Ström</LoadReportStream>
+    <LoadReportString>Sträng</LoadReportString>
+    <ParametersFromReport>Använd värde från rapport</ParametersFromReport>
+    <ParametersFromReportToolTip>Värdena för de parametrar som anges i rapportmallen kommer att användas.</ParametersFromReportToolTip>
+    <ParametersReplace>Ersätt värde från {0}Code</ParametersReplace>
+    <ParametersReplacePhpInfo>Parametern tas bort från rapportordlistan och kan endast användas i SQL-frågan.</ParametersReplacePhpInfo>
+    <ParametersReplaceToolTip>Du kommer att erbjudas att ändra värdena för rapportparametrarna från koden.</ParametersReplaceToolTip>
+    <ParametersRequestFromUser>Begär från användare</ParametersRequestFromUser>
+    <ParametersRequestFromUserToolTip>Rapportparametern begärs från användaren när rapporten visas i visningsfönstret.</ParametersRequestFromUserToolTip>
+    <ProjectType>Projekttyp:</ProjectType>
+    <Publish>Publicera</Publish>
+    <PublishType>Publiceringstyp för rapport:</PublishType>
+    <PublishTypeForm>Publiceringstyp för formulär:</PublishTypeForm>
+    <PublishTypeProject>Projekt</PublishTypeProject>
+    <PublishTypeProjectToolTip>Ett ZIP-arkiv skapas med det färdiga projektet och alla nödvändiga filer för vidare kompilering och start.</PublishTypeProjectToolTip>
+    <PublishTypeStandalone>Fristående</PublishTypeStandalone>
+    <PublishTypeStandaloneToolTip>En redan kompilerad applikation för att visa rapporten skapas.</PublishTypeStandaloneToolTip>
+    <ReadMore>Läs mer</ReadMore>
+    <RegDataOnlyForPreview>Använd endast för förhandsgranskning av rapport</RegDataOnlyForPreview>
+    <RegDataOnlyForPreviewToolTip>Data kopplas till rapporten först i förhandsgranskningsögonblicket.</RegDataOnlyForPreviewToolTip>
+    <RegDataSynchronize>Synkronisera rapportordlista</RegDataSynchronize>
+    <RegDataSynchronizeToolTip>När data har anslutits till rapporten synkroniseras dataordlistan - datakällor, kolumner och deras typer, datalänkar.</RegDataSynchronizeToolTip>
+    <ReplaceConnectionString>Ersätt anslutningssträng</ReplaceConnectionString>
+    <ReplacePathToData>Ersätt sökväg till data</ReplacePathToData>
+    <ReportAction>Vad ska göras med rapporten:</ReportAction>
+    <ReportErrors>Tyvärr kan den här rapporten inte publiceras på grund av fel!</ReportErrors>
+    <SaveExportedPagesToArchive>Spara alla sidor i ett ZIP-arkiv</SaveExportedPagesToArchive>
+    <SaveExportedPagesToArchiveToolTip>Varje rapportsida exporteras till det valda bildformatet, alla sidor läggs till i ett ZIP-arkiv.</SaveExportedPagesToArchiveToolTip>
+    <SaveExportedReportToFile>Spara den exporterade rapporten till en fil</SaveExportedReportToFile>
+    <SaveExportedReportToFileToolTip>Sparar den exporterade rapporten på serversidan till den angivna filen. Exportfunktionen returnerar ett booleskt resultat.</SaveExportedReportToFileToolTip>
+    <SaveProjectPackage>Spara projektpaket</SaveProjectPackage>
+    <SaveStandalone>Spara fristående</SaveStandalone>
+    <SaveStandalonePackage>Spara fristående paket</SaveStandalonePackage>
+    <SearchLibraries>Sök efter bibliotek...</SearchLibraries>
+    <ServerSideReportProcessing>Rapportbearbetning på serversidan</ServerSideReportProcessing>
+    <ServerSideReportProcessingToolTip>Inläsning, byggande och export av rapporten görs på serversidan med Node.js-plattformen.</ServerSideReportProcessingToolTip>
+    <ShowMore>Visa mer</ShowMore>
+    <ShowOptions>Visa alternativ</ShowOptions>
+    <ThemeBackground>Bakgrund:</ThemeBackground>
+    <ThemeStyle>Temastil:</ThemeStyle>
+    <TrialVersion>Testversion</TrialVersion>
+    <TrialVersionHasExpired>Testversion. Din prenumeration har löpt ut och behöver förnyas.</TrialVersionHasExpired>
+    <TrialVersionNotIncluded>Testversion. Den här produkten ingår inte i din prenumeration.</TrialVersionNotIncluded>
+    <Use>Använd</Use>
+    <UseCompilationCache>Använd kompileringscache</UseCompilationCache>
+    <UseCompilationCacheToolTip>Den genererade rapporten sparas i en tillfällig katalog, vilket gör att du kan påskynda genereringen och minska minnesanvändningen.</UseCompilationCacheToolTip>
+    <UseCompressedScripts>Använd komprimerade skript</UseCompressedScripts>
+    <UseCompressedScriptsToolTip>Packade skript används i stället för vanliga. Detta gör att du kan minska deras storlek, men det tar en viss tid att packa upp vid körning.</UseCompressedScriptsToolTip>
+    <UseHtmlTemplate>Använd en HTML-mall</UseHtmlTemplate>
+    <UseHtmlTemplateToolTip>Använd en HTML-mall för att visa komponenten. Detta gör att du kan placera andra element på sidan och använda JavaScript-händelser.</UseHtmlTemplateToolTip>
+    <UseLatestVersion>Använd den senaste versionen av biblioteken</UseLatestVersion>
+    <UseLatestVersionToolTip>När bibliotek och skript ansluts används den senaste tillgängliga officiella versionen av produkten i stället för den för närvarande installerade versionen.</UseLatestVersionToolTip>
+    <UseRenderedReport>Använd genererad rapport</UseRenderedReport>
+    <UseRenderedReportToolTip>Rapporten byggs och sparas i dokumentformat. Du behöver inte längre någon dataanslutning för att visa rapporten, men ingen interaktivitet och inga rapportparametrar kommer att vara tillgängliga.</UseRenderedReportToolTip>
+    <UseWpfDesignerV2>Använd Designer V2</UseWpfDesignerV2>
+    <UseWpfDesignerV2ToolTip>Den uppdaterade WPF-rapportdesignern kommer att användas. Den har ett nytt användargränssnitt, ökad hastighet och andra optimeringar.</UseWpfDesignerV2ToolTip>
+  </Publish>
   <ReportComparer>
     <Change>Ändra</Change>
     <Copy>Kopiera</Copy>
@@ -350,8 +575,13 @@
     <ArrowHeight>Pilen höjdfaktorn.</ArrowHeight>
     <ArrowWidth>Pilen bredd faktor.</ArrowWidth>
   </StiArrowShapeType>
+  <StiAustraliaPost4StateBarCodeType>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+  </StiAustraliaPost4StateBarCodeType>
   <StiAxis>
     <ArrowStyle>Style av axel pil.</ArrowStyle>
+    <Interaction>Interaktionsalternativ för denna komponent.</Interaction>
     <Labels>Axeletiketter inställningar.</Labels>
     <LineColor>Linje färg som används för att rita axel.</LineColor>
     <LineStyle>Linjestil axel.</LineStyle>
@@ -411,6 +641,7 @@
     <Color>En färg som kommer att användas för titel ritning.</Color>
     <Direction>En textriktning för axelrubrik ritning.</Direction>
     <Font>Ett teckensnitt som ska användas för axelrubrik ritning.</Font>
+    <Position>En position för titeltexten.</Position>
     <Text>En titel text.</Text>
   </StiAxisTitle>
   <StiBand>
@@ -479,20 +710,36 @@
     <AllowUseTextBrush>Ett värde som anger om en rapport motor kan använda TextBrush formatering eller inte.</AllowUseTextBrush>
     <AllowUseTextOptions>Ett värde som anger om en rapport motor kan använda TextOptions formatering eller inte.</AllowUseTextOptions>
     <AllowUseVertAlignment>Ett värde som anger om en rapport motor kan använda VertAlignment formatering eller inte.</AllowUseVertAlignment>
+    <AxisLabelsColor>En färg för ritning av etiketter.</AxisLabelsColor>
+    <AxisLineColor>En linjefärg som används för att rita axeln.</AxisLineColor>
+    <AxisTitleColor>En färg som används för att rita titeln.</AxisTitleColor>
     <BackColor>En bakgrundsfärg för att rita den här stilen.</BackColor>
     <BasicStyleColor>En bas färg för att rita den här stilen.</BasicStyleColor>
     <Border>En gräns av komponenten.</Border>
     <Brush>En borste för att fylla stilen.</Brush>
     <BrushType>Ett värde som anger vilken typ av borste kommer att användas för att dra denna stil.</BrushType>
+    <ChartAreaBorderColor>En kantfärg för området.</ChartAreaBorderColor>
+    <ChartAreaBrush>En pensel för att fylla ett område.</ChartAreaBrush>
     <CollectionName>Ett namn på stilar samlingen.</CollectionName>
     <Color>En färg på stilen.</Color>
     <Conditions>En samling av formatförhållanden.</Conditions>
     <Description>En stil beskrivning.</Description>
     <Font>Ett teckensnitt för att rita den här stilen.</Font>
     <ForeColor>En förgrundsfärg för att rita den här stilen.</ForeColor>
+    <GridLinesHorColor>En färg som används för att rita horisontella rutnätslinjer.</GridLinesHorColor>
+    <GridLinesVertColor>En färg som används för att rita vertikala rutnätslinjer.</GridLinesVertColor>
     <HorAlignment>En horisontell justering av stilen.</HorAlignment>
     <Image>En bild för att fylla bild egenskapen Bild komponenten.</Image>
+    <InterlacingHorBrush>En pensel som används för att rita horisontell varvad stapel.</InterlacingHorBrush>
+    <InterlacingVertBrush>En pensel som används för att rita vertikal varvad stapel.</InterlacingVertBrush>
+    <LegendBorderColor>En kantfärg.</LegendBorderColor>
+    <LegendBrush>En bakgrundspensel för förklaringen.</LegendBrush>
+    <LegendLabelsColor>En färg för etiketterna.</LegendLabelsColor>
+    <LegendTitleColor>En titelfärg för förklaringen.</LegendTitleColor>
     <Name>En stilnamn.</Name>
+    <SeriesLabelsBorderColor>En kantfärg för serieetiketter.</SeriesLabelsBorderColor>
+    <SeriesLabelsBrush>En pensel som används för att fylla området för serieetiketter.</SeriesLabelsBrush>
+    <SeriesLabelsColor>En förgrundsfärg för serieetiketter.</SeriesLabelsColor>
     <StyleColors>En lista med färger som ska användas för att rita diagram serien.</StyleColors>
     <TextBrush>En borste för att dra texten.</TextBrush>
     <VertAlignment>En vertikal inriktning av stilen.</VertAlignment>
@@ -548,6 +795,9 @@
     <Style>Stil.</Style>
     <Width>Bredd.</Width>
   </StiCap>
+  <StiCardsStyle>
+    <LineColor>Egenskapen definierar färgen som används för att rita kanterna på korten.</LineColor>
+  </StiCardsStyle>
   <StiChart>
     <Area>Ett område på sjökortet.</Area>
     <ChartType>En typ av diagrammet.</ChartType>
@@ -565,6 +815,20 @@
     <Title>Diagram titel inställningar.</Title>
     <VertSpacing>Vertikalt utrymme mellan kanten på diagrammet och tabellen.</VertSpacing>
   </StiChart>
+  <StiChartArea>
+    <ColorEach>Ett värde som anger att varje serie ritas med sin egen färg.</ColorEach>
+    <GridLinesHor>Horisontella rutnätslinjer på vänster axel.</GridLinesHor>
+    <GridLinesVert>Rutnätslinjer på vertikal axel.</GridLinesVert>
+    <InterlacingHor>Inställningar för sammanflätning på horisontell axel.</InterlacingHor>
+    <InterlacingVert>Inställningar för sammanflätning på vertikal axel.</InterlacingVert>
+    <ReverseHor>Ett värde som anger att alla värden på den horisontella axeln är omvända.</ReverseHor>
+    <ReverseVert>Ett värde som anger att alla värden på den vertikala axeln är omvända.</ReverseVert>
+    <SideBySide>Anger layoutläget för diagrammets grafiska element för varje argument - sida vid sida eller längs Z-axeln.</SideBySide>
+    <XAxis>Inställningar för XAxis.</XAxis>
+    <XTopAxis>Inställningar för XTopAxis.</XTopAxis>
+    <YAxis>Inställningar för YAxis.</YAxis>
+    <YRightAxis>Inställningar för YRightAxis.</YRightAxis>
+  </StiChartArea>
   <StiChartAxis>
     <Visible>Synlighet axel.</Visible>
   </StiChartAxis>
@@ -587,18 +851,43 @@
     <Alignment>En titel textjustering.</Alignment>
     <Color>En färg som kommer att användas för titel ritning.</Color>
     <Font>Ett teckensnitt som ska användas för axelrubrik ritning.</Font>
+    <Position>En position för titeltexten.</Position>
     <Text>En titel text.</Text>
+    <Visible>Titelns synlighet.</Visible>
   </StiChartAxisTitle>
+  <StiChartElement>
+    <Area>Ett område i diagrammet.</Area>
+    <Arguments>Diagramargument.</Arguments>
+    <CloseValues>Slutvärden för ett diagram.</CloseValues>
+    <ColorEach />
+    <ConstantLines>Inställningar för konstanta linjer i diagrammet.</ConstantLines>
+    <EndValues>Slutvärden för ett diagram.</EndValues>
+    <Group />
+    <HighValues>Höga värden i ett diagram.</HighValues>
+    <Labels>Serieetiketter.</Labels>
+    <Legend>Inställningar för förklaring.</Legend>
+    <LowValues>Låga värden i ett diagram.</LowValues>
+    <Series>Diagramserier.</Series>
+    <Style>En stil för ett diagram.</Style>
+    <TextFormat>Textformatet.</TextFormat>
+    <Title>Diagramtitel.</Title>
+    <TrendLines>Inställningar för trendlinje.</TrendLines>
+    <Values>Diagramvärden.</Values>
+    <Weights>Viktvärden för ett diagram.</Weights>
+  </StiChartElement>
   <StiChartGridLines>
     <Color>Färg som ska användas för att rita stora rutnätslinjer.</Color>
   </StiChartGridLines>
   <StiChartInterlacing>
+    <Color>Färg som används för att rita varvade staplar.</Color>
     <Visible>Synlighet flätade barer.</Visible>
   </StiChartInterlacing>
   <StiChartLabels>
     <AutoRotate>Ett värde som aktiverar eller avaktiverar automatisk roteläge ritning av serieetiketter.</AutoRotate>
     <Font>Ett teckensnitt som ska användas för att rita serieetiketter.</Font>
     <ForeColor>En färg av etiketter ritning.</ForeColor>
+    <Position>En position för etiketterna.</Position>
+    <Style>En stil för etiketterna.</Style>
     <TextAfter>En text som kommer att visas efter etikettens text.</TextAfter>
     <TextBefore>En text som visas före etikett text.</TextBefore>
   </StiChartLabels>
@@ -616,7 +905,19 @@
   <StiChartLegendTitle>
     <Color>Titel färg legend.</Color>
     <Font>En titel teckensnitt i diagramförklaringen.</Font>
+    <Text>En titeltext för förklaringen.</Text>
   </StiChartLegendTitle>
+  <StiChartStyle>
+    <ChartAreaShowShadow>Egenskapen anger om områdesskuggan ska visas eller inte.</ChartAreaShowShadow>
+    <MarkerVisible>Egenskapen anger om markören ska visas eller inte.</MarkerVisible>
+    <SeriesBorderThickness>Egenskapen anger seriens kantbredd.</SeriesBorderThickness>
+    <SeriesLabelsLineColor>Egenskapen anger linjefärgen för serieetiketter.</SeriesLabelsLineColor>
+    <SeriesLighting>Egenskapen anger om tårtans belysning ska visas eller inte.</SeriesLighting>
+    <SeriesShowBorder>Egenskapen anger om seriens kant ska visas eller inte.</SeriesShowBorder>
+    <SeriesShowShadow>Egenskapen anger om seriens skugga ska visas eller inte.</SeriesShowShadow>
+    <TrendLineColor>Egenskapen definierar trendlinjens färg.</TrendLineColor>
+    <TrendLineShowShadow>Egenskapen anger om trendlinjens skugga ska visas eller inte.</TrendLineShowShadow>
+  </StiChartStyle>
   <StiChartTable>
     <Font>Font av kartbordet.</Font>
     <GridLineColor>En färg på stödlinjerna.</GridLineColor>
@@ -624,6 +925,8 @@
     <GridLinesVert>Synlighet rutnätslinjer vertikalt.</GridLinesVert>
     <GridOutline>Synlighet rutnät kontur</GridOutline>
     <MarkerVisible>synlighet markörer.</MarkerVisible>
+    <NegativeSeriesColors>En lista med färger som används för att rita serier med negativa värden.</NegativeSeriesColors>
+    <SeriesColors>En lista med färger som används för att rita serier.</SeriesColors>
     <Visible>Synlighet på kartbordet.</Visible>
   </StiChartTable>
   <StiChartTitle>
@@ -673,9 +976,69 @@
     <Container>En behållare.</Container>
     <ScaleHor>Ett värde som visar om innehållet i behållaren kommer att krympas eller växa.</ScaleHor>
   </StiClone>
+  <StiClusteredColumnArea3D>
+    <SideBySide>Anger layoutläget för diagrammets grafiska element för varje argument - sida vid sida eller längs Z-axeln.</SideBySide>
+  </StiClusteredColumnArea3D>
   <StiClusteredColumnSeries>
     <Width>Bredd faktor på en bar serie. Standard 1 är lika med 100%.</Width>
   </StiClusteredColumnSeries>
+  <StiCodabarBarCodeType>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+    <Ratio>Hämtar eller anger värde som anger WideToNarrow-förhållandet.</Ratio>
+  </StiCodabarBarCodeType>
+  <StiCode11BarCodeType>
+    <Checksum>Hämtar eller anger ett läge för kontrollsumman.</Checksum>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+  </StiCode11BarCodeType>
+  <StiCode128aBarCodeType>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+  </StiCode128aBarCodeType>
+  <StiCode128AutoBarCodeType>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+  </StiCode128AutoBarCodeType>
+  <StiCode128BarCodeType>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+  </StiCode128BarCodeType>
+  <StiCode128bBarCodeType>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+  </StiCode128bBarCodeType>
+  <StiCode128cBarCodeType>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+  </StiCode128cBarCodeType>
+  <StiCode39BarCodeType>
+    <CheckSum>Hämtar eller anger ett läge för kontrollsumman.</CheckSum>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+    <Ratio>Hämtar eller anger värde som anger WideToNarrow-förhållandet.</Ratio>
+  </StiCode39BarCodeType>
+  <StiCode39ExtBarCodeType>
+    <CheckSum>Hämtar eller anger ett läge för kontrollsumman.</CheckSum>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+    <Ratio>Hämtar eller anger värde som anger WideToNarrow-förhållandet.</Ratio>
+  </StiCode39ExtBarCodeType>
+  <StiCode93BarCodeType>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+    <Ratio>Hämtar eller anger värde som anger WideToNarrow-förhållandet.</Ratio>
+  </StiCode93BarCodeType>
+  <StiCode93ExtBarCodeType>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+    <Ratio>Hämtar eller anger värde som anger WideToNarrow-förhållandet.</Ratio>
+  </StiCode93ExtBarCodeType>
+  <StiColumnSize>
+    <MaxWidth>Hämtar eller anger en maximal bredd för tabellkolumnen.</MaxWidth>
+    <MinWidth>Hämtar eller anger en minimal bredd för tabellkolumnen.</MinWidth>
+    <Width>Hämtar eller anger den angivna bredden för tabellkolumnen. Bredden beräknas automatiskt av tabellelementet om värdet är lika med noll.</Width>
+  </StiColumnSize>
   <StiComboBoxControl>
     <DropDownStyle>Ett värde som anger stilen.</DropDownStyle>
     <DropDownWidth>Bredd av listdelen.</DropDownWidth>
@@ -694,6 +1057,8 @@
   <StiComponent>
     <AfterPrintEvent>Inträffar efter utskrift av komponenten.</AfterPrintEvent>
     <Alias>En text som kommer att visas i stället för en del namn. Om texten inte visas då kommer namnet visas.</Alias>
+    <Anchor>Hämtar eller anger ett värde som anger läget för att länka komponentens plats till den överordnade komponentens storlek.</Anchor>
+    <BackColor>Komponentens bakgrundsfärg.</BackColor>
     <BeforePrintEvent>Inträffar innan du skriver ut komponenten.</BeforePrintEvent>
     <Bookmark>Ett uttryck för att fylla komponentens bokmärke.</Bookmark>
     <Border>En ram för komponenten.</Border>
@@ -704,20 +1069,32 @@
     <CanShrink>Ett värde som visar att detta objekt kan krympa.</CanShrink>
     <CellDockStyle>En typ av cell dockning.</CellDockStyle>
     <CellType>En typ av cellinnehållet.</CellType>
+    <CheckAlignment>Bestämmer platsen för kryssrutan inuti komponenten.</CheckAlignment>
+    <CheckBrush>Komponentens markeringspensel.</CheckBrush>
+    <Checked>Anger om komponenten är i markerat tillstånd.</Checked>
+    <CheckedChangedEvent>Inträffar när tillståndet Checked ändras.</CheckedChangedEvent>
+    <CheckSize>Komponentens markeringsstorlek.</CheckSize>
     <ClickEvent>Inträffar när en användare klickar på komponenten i fönstret.</ClickEvent>
     <ComponentStyle>En stil för komponent.</ComponentStyle>
     <Conditions>En samling av villkoren.</Conditions>
+    <CornerRadius>Representerar värdet som hörnen rundas till (Top-Left, Top-Right, Bottom-Right, Bottom-Left).</CornerRadius>
     <CountData>Räkning av rader för virtuella data.</CountData>
+    <CrossFiltering>Hämtar eller anger ett värde som styr tillämpningen av korsfilter från den aktuella sidan på det elementet.</CrossFiltering>
     <DataRelation>Länk som används för master-detaljrapporters rendering.</DataRelation>
     <DataSource>Datakälla som används för att hämta uppgifter.</DataSource>
+    <DecimalDigits>Antalet decimaler som ska användas i värden.</DecimalDigits>
+    <Disabled>Komponentens icke-interaktiva tillstånd.</Disabled>
     <DockStyle>En typ av komponenten dockning.</DockStyle>
     <DoubleClickEvent>Inträffar när en användare dubbelklickar på komponenten i rapporten.</DoubleClickEvent>
     <Editable>Ett värde som anger att en komponent kan redigeras direkt i fönstret.</Editable>
     <Enabled>Ett värde som visar att denna komponent är tillgängliga eller inte.</Enabled>
+    <ExceedMargins>Hämtar eller anger ett värde för att överskrida marginalerna för komponentens bakgrund.</ExceedMargins>
     <FilterMode>Filterläge.</FilterMode>
     <FilterOn>Ett värde som visar att filtret på.</FilterOn>
     <Filters>En samling datafilter.</Filters>
     <FixedWidth>Ett värde som indikerar att cellen har fast bredd.</FixedWidth>
+    <Font>Teckensnittet som används för att visa text i kontrollen.</Font>
+    <ForeColor>Förgrundsfärgen för denna komponent, som används för att visa text.</ForeColor>
     <GetBookmarkEvent>Inträffar när bokmärke används för komponenten.</GetBookmarkEvent>
     <GetDrillDownReportEvent>Inträffar när man zoomar ner i en rapport (Drilldown).</GetDrillDownReportEvent>
     <GetHyperlinkEvent>Inträffar när Hyperlänk klickas för komponenten.</GetHyperlinkEvent>
@@ -726,29 +1103,50 @@
     <GrowToHeight>Ett värde som indikerar att höjden av denna komponent ökar/minskar till botten av en behållare.</GrowToHeight>
     <Height>Höjd på komponenten.</Height>
     <HorAlignment>Horisontell justering.</HorAlignment>
+    <Hover>Hovringstillståndet när en användare har placerat markören ovanför komponenten.</Hover>
     <Hyperlink>Ett uttryck för att fylla komponents hyperlänk.</Hyperlink>
+    <Icon>Ikonen som används för komponenten.</Icon>
+    <IconAlignment>Justeringen av ikonen som visas på komponenten.</IconAlignment>
+    <IconBrush>Komponentens ikonpensel.</IconBrush>
+    <IconSet>Den uppsättning ikoner som används i komponenten.</IconSet>
+    <InclusionMode>Anger läget i vilket detta element tillämpas på filtret.</InclusionMode>
     <Interaction>Interaktionsalternativ för denna komponent.</Interaction>
     <Left>Vänster komponent position.</Left>
     <Linked>Ett värde som anger att objektet skall fästa till bakgrund är på.</Linked>
     <Locked>Ett värde som anger att flyttning är låst.</Locked>
+    <Margin>Anger avståndet mellan denna komponent och en annan komponents marginal (Left, Top, Right, Bottom).</Margin>
+    <Margins>Marginalerna (Left, Right, Top, Bottom).</Margins>
     <MasterComponent>Huvud-komponenten.</MasterComponent>
+    <MaxSelectedItems>Begränsar det maximala antalet objekt som kan väljas. Ange 0 för obegränsat val.</MaxSelectedItems>
     <MaxSize>Maximal storlek.</MaxSize>
     <MinSize>Minimal storlek.</MinSize>
     <MouseEnterEvent>Inträffar när en användare drar över muspekaren i en del av komponenten i rapporten.</MouseEnterEvent>
     <MouseLeaveEvent>Inträffar när en användare lämnar muspekaren bort från komponenten i rapporten.</MouseLeaveEvent>
     <Name>Komponentnamn</Name>
+    <Padding>Anger komponentens inre utfyllnad (Left, Top, Right, Bottom).</Padding>
+    <Pressed>Nedtryckt-tillståndet när en användare tryckte på komponenten.</Pressed>
     <Printable>Ett värde som anger om en komponent är tryckbart eller inte.</Printable>
     <PrintOn>Ett värde som visar på vilka sidor kommer en komponent att skrivas ut.</PrintOn>
     <Restrictions>Ett värde som visar begränsningar på en komponent.</Restrictions>
+    <Shadow>Inställningar för komponentens skugga.</Shadow>
+    <ShapeType>Anger vilken figur som används för att rita komponentens form.</ShapeType>
     <ShiftMode>Ett värde som anger skiftläget för en komponent.</ShiftMode>
     <Sort>Den samling med strängar som beskriver reglerna för sortering.</Sort>
+    <Stretch>Beskriver hur komponenten storleksändras för att fylla sitt tilldelade utrymme.</Stretch>
     <Tag>Ett uttryck för att fylla komponents tagg.</Tag>
+    <Text>Texten är kopplad till komponenten.</Text>
     <TextBrush>En borste för att rita text.</TextBrush>
+    <ThreeStates>Anger att kontrollen stöder två eller tre tillstånd.</ThreeStates>
     <ToolTip>Ett uttryck för att fylla komponents Verktygstips.</ToolTip>
     <Top>Topp positionen för komponenten.</Top>
+    <TotalLabel>Hämtar eller anger ett värde som visas som en etikett för en summa.</TotalLabel>
+    <Type>Beskriver typen av den komponentens beteende.</Type>
     <UseParentStyles>Ett värde som visar att denna komponent måste använda stilar från den överordnade komponenten.</UseParentStyles>
     <VertAlignment>Vertikal justering.</VertAlignment>
+    <VisualStates>Hanterar komponentens olika visuella tillstånd.</VisualStates>
+    <Watermark>Vattenstämpeln som används för komponenten.</Watermark>
     <Width>Bredd på komponenten.</Width>
+    <WordWrap>Anger om den flerradiga texten radbryter ord eller inte.</WordWrap>
   </StiComponent>
   <StiConstantLines>
     <Antialiasing>Ett värde som styr kantutjämning ritningsläge.</Antialiasing>
@@ -765,6 +1163,12 @@
     <TitleVisible>Synlighet ständiga linjer titel.</TitleVisible>
     <Visible>Synlighet konstant linje.</Visible>
   </StiConstantLines>
+  <StiCornerRadius>
+    <BottomLeft>Värdet som anger radien för det nedre vänstra hörnet.</BottomLeft>
+    <BottomRight>Värdet som anger radien för det nedre högra hörnet.</BottomRight>
+    <TopLeft>Värdet som anger radien för det övre vänstra hörnet.</TopLeft>
+    <TopRight>Värdet som anger radien för det övre högra hörnet.</TopRight>
+  </StiCornerRadius>
   <StiCrossDataBand>
     <MaxWidth>Maximal bredd på ett band.</MaxWidth>
     <MinWidth>Kortaste bredden på ett band.</MinWidth>
@@ -776,6 +1180,7 @@
     <GetCrossValueEvent>Ett skript för händelsen GetValueEvent.</GetCrossValueEvent>
     <GetDisplayCrossValueEvent>Ett skript för händelsen GetDisplayCrossValueEvent.</GetDisplayCrossValueEvent>
     <HideZeros>Ett värde som indikerar att ingen behöver visa nollor.</HideZeros>
+    <KeepMergedCellsTogether>Ett värde som anger att sammanfogade celler inte delas upp till nästa sida.</KeepMergedCellsTogether>
     <MergeHeaders>Ett värde som visar att alla samma värden för rubrik kommer att slås samman till en.</MergeHeaders>
     <PrintOnAllPages>Ett värde som visar att komponenten skrivs ut på alla sidor.</PrintOnAllPages>
     <ShowPercents>Måste visas Ett värde som indikerar att värdet i cellen som underleverans.</ShowPercents>
@@ -783,6 +1188,7 @@
     <SortDirection>Sorterings riktning.</SortDirection>
     <SortType>En typ av sortering.</SortType>
     <Summary>En typ av värden summering.</Summary>
+    <SummaryForFieldsInExpression>Om True beräknas först summeringen för fälten i uttrycket och därefter uttrycket, annars beräknas summeringen för hela uttrycket.</SummaryForFieldsInExpression>
     <SummaryValues>En typ av nollor och nollor värden summering.</SummaryValues>
     <UseStyleOfSummaryInColumnTotal>Ett värde som anger att stilen av sammandrag cell kommer att användas i kolumnen totalt.</UseStyleOfSummaryInColumnTotal>
     <UseStyleOfSummaryInRowTotal>Ett värde som anger att stilen av sammandrag cell kommer att användas i rad totalt.</UseStyleOfSummaryInRowTotal>
@@ -813,6 +1219,25 @@
     <Wrap>Ett värde som indikerar att tvär fliken är som ska matas ut i en kolonn. Samtidigt, allt som inte passar med bredden matas nedan. För att använda denna egenskap är det nödvändigt att göra det möjligt för egenskapen CanBreak av bandet på vilken tvär fliken är placerad (om den är placerad på bandet).</Wrap>
     <WrapGap>Utrymme mellan två delar av ett lindade kors fliken. egenskapen används tillsammans med fastighets Wrap.</WrapGap>
   </StiCrossTab>
+  <StiCrossTabStyle>
+    <AlternatingCellBackColor>Egenskapen definierar färgen som används för att fylla bakgrunden på de jämna raderna.</AlternatingCellBackColor>
+    <AlternatingCellForeColor>Egenskapen definierar färgen som används för att rita värdena i de jämna raderna.</AlternatingCellForeColor>
+    <CellBackColor>Egenskapen definierar färgen som används för att fylla bakgrunden på cellerna.</CellBackColor>
+    <CellForeColor>Egenskapen definierar färgen som används för att rita värdena i cellerna.</CellForeColor>
+    <ColumnHeaderBackColor>Egenskapen definierar färgen som används för att fylla bakgrunden på kolumnrubrikcellerna.</ColumnHeaderBackColor>
+    <ColumnHeaderForeColor>Egenskapen definierar färgen som används för att rita texten i kolumnrubrikcellerna.</ColumnHeaderForeColor>
+    <HotColumnHeaderBackColor>Egenskapen definierar färgen som används för att fylla bakgrunden på kolumnrubrikcellen när markören hovrar över den.</HotColumnHeaderBackColor>
+    <HotRowHeaderBackColor>Egenskapen definierar färgen som används för att fylla bakgrunden på radrubrikcellen när markören hovrar över den.</HotRowHeaderBackColor>
+    <LineColor>Egenskapen definierar färgen som används för att rita cellkanter.</LineColor>
+    <RowHeaderBackColor>Egenskapen definierar färgen som används för att fylla bakgrunden på radrubrikcellerna.</RowHeaderBackColor>
+    <RowHeaderForeColor>Egenskapen definierar färgen som används för att rita texten i radrubrikcellerna.</RowHeaderForeColor>
+    <SelectedCellBackColor>Egenskapen definierar färgen som används för att fylla bakgrunden på den markerade cellen.</SelectedCellBackColor>
+    <SelectedCellForeColor>Egenskapen definierar färgen som används för att rita värdena i de markerade cellerna.</SelectedCellForeColor>
+    <TotalCellColumnBackColor>Egenskapen definierar färgen som används för att fylla bakgrunden på totalcellkolumnen.</TotalCellColumnBackColor>
+    <TotalCellColumnForeColor>Egenskapen definierar färgen som används för att rita värdena i totalcellkolumnen.</TotalCellColumnForeColor>
+    <TotalCellRowBackColor>Egenskapen definierar färgen som används för att fylla bakgrunden på totalcellraden.</TotalCellRowBackColor>
+    <TotalCellRowForeColor>Egenskapen definierar färgen som används för att rita värdena i totalcellraden.</TotalCellRowForeColor>
+  </StiCrossTabStyle>
   <StiDataBand>
     <BeginRenderEvent>Inträffar när bandet börjar återge.</BeginRenderEvent>
     <CalcInvisible>Ett värde som visar att, när beräkningen mängdfunktioner, är det nesessary att ta hänsyn osynliga data band.</CalcInvisible>
@@ -824,6 +1249,7 @@
     <EvenStyle>Ett värde som anger stilen av jämna linjer.</EvenStyle>
     <FilterEngine>Ett värde som anger hur ett filter kommer att tillämpas på uppgifter - vara hjälp av rapportgeneratorn eller genom att ändra SQL-fråga.</FilterEngine>
     <FilterMode>En filterläge.</FilterMode>
+    <GapAfterLastColumn>Egenskapen låter dig lägga till ett mellanrum efter den sista kolumnen.</GapAfterLastColumn>
     <GetCollapsedEvent>Inträffar när den kollapsade värdet beräknas.</GetCollapsedEvent>
     <KeepChildTogether>Ett värde som visar att barns ska hållas samman.</KeepChildTogether>
     <KeepDetailsTogether>Ett värde som anger att uppgifter ska förvaras tillsammans med denna DataBand.</KeepDetailsTogether>
@@ -831,6 +1257,7 @@
     <KeepGroupTogether>Ett värde som anger att gruppen ska hållas samman.</KeepGroupTogether>
     <KeepHeaderTogether>Ett värde som visar att rubriken skrivs ut med uppgifter tillsammans.</KeepHeaderTogether>
     <MinRowsInColumn>Minsta antalet rader i en kolumn.</MinRowsInColumn>
+    <MultipleInitialization>Initiera datakällan för varje behållare och detaljsektion. Till exempel tillämpas filter för varje detaljsektion även om Relation inte har tilldelats.</MultipleInitialization>
     <OddStyle>Ett värde som anger stilen av udda linjer.</OddStyle>
     <PrintIfDetailEmpty>Ett värde som visar att om detaljer är tom då basdata måste skrivas ut i alla fall.</PrintIfDetailEmpty>
     <PrintOnAllPages>Ett värde som visar att komponenten skrivs ut på alla sidor.</PrintOnAllPages>
@@ -857,6 +1284,13 @@
     <NameInSource>En kolumn ursprungliga namn i databasen.</NameInSource>
     <Type>En typ av kolumndata.</Type>
   </StiDataColumn>
+  <StiDataMatrixBarCodeType>
+    <EncodingType>Hämtar eller anger kodningstyp.</EncodingType>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <MatrixSize>Hämtar eller anger matrisstorlek.</MatrixSize>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+    <UseRectangularSymbols>Hämtar eller anger ett värde som anger om RectangularSymbols ska användas eller inte.</UseRectangularSymbols>
+  </StiDataMatrixBarCodeType>
   <StiDataParameter>
     <Alias>Ett alias för parametern data.</Alias>
     <Expression>Ett uttryck för den beräknade kolumnen.</Expression>
@@ -903,6 +1337,19 @@
     <ValueBinding>Bindningar Data för värdet.</ValueBinding>
     <ValueChangedEvent>Ett skript för händelsen ValueChanged.</ValueChangedEvent>
   </StiDateTimePickerControl>
+  <StiDialogStyle>
+    <GlyphColor>En glyffärg för stilen.</GlyphColor>
+    <HotBackColor>En bakgrundsfärg för en aktiv post i stilen.</HotBackColor>
+    <HotForeColor>En förgrundsfärg för en aktiv post i stilen.</HotForeColor>
+    <HotGlyphColor>En glyffärg för en aktiv post i stilen.</HotGlyphColor>
+    <HotSelectedBackColor>En bakgrundsfärg för en aktiv markerad post i stilen.</HotSelectedBackColor>
+    <HotSelectedForeColor>En förgrundsfärg för en aktiv markerad post i stilen.</HotSelectedForeColor>
+    <HotSelectedGlyphColor>En glyffärg för en aktiv markerad post i stilen.</HotSelectedGlyphColor>
+    <SelectedBackColor>En bakgrundsfärg för en markerad post i stilen.</SelectedBackColor>
+    <SelectedForeColor>En förgrundsfärg för en markerad post i stilen.</SelectedForeColor>
+    <SelectedGlyphColor>En glyffärg för en markerad post i stilen.</SelectedGlyphColor>
+    <SeparatorColor>En färg för ritning av stilen.</SeparatorColor>
+  </StiDialogStyle>
   <StiDoughnutSeries>
     <Diameter>Fast storlek på diameter munk serien.</Diameter>
   </StiDoughnutSeries>
@@ -910,6 +1357,10 @@
     <Expression>Ett uttryck för att fylla drill-down parametern.</Expression>
     <Name>Ett namn på parameter drill-down.</Name>
   </StiDrillDownParameter>
+  <StiDutchKIXBarCodeType>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+  </StiDutchKIXBarCodeType>
   <StiDynamicBand>
     <BreakIfLessThan>Ett värde som visar hur mycket ledigt utrymme på en sida (i procent) bör reserveras för bildandet av en ny sida eller en ny kolumn. Värdet bör fastställas i intervallet från 0 till 100. Om värdet är 100 sedan, i vilket fall en ny sida eller en ny kolumn kommer att bildas. Denna egenskap används tillsammans med NewPageBefore, NewPageAfter, NewColumnBefore, NewColumnAfter egenskaper.</BreakIfLessThan>
     <NewColumnAfter>Om värdet för den här egenskapen är sant, då, efter att produktionen av ett band, en ny kolumn kommer att genereras.</NewColumnAfter>
@@ -919,6 +1370,36 @@
     <PrintAtBottom>Ett värde som visar att sidfoten skrivs ut längst ner på sidan.</PrintAtBottom>
     <SkipFirst>Om värdet för den här egenskapen är sant, då, en ny sida/kolumn kommer att genereras endast från det andra fallet.</SkipFirst>
   </StiDynamicBand>
+  <StiEAN128aBarCodeType>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+  </StiEAN128aBarCodeType>
+  <StiEAN128AutoBarCodeType>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+  </StiEAN128AutoBarCodeType>
+  <StiEAN128bBarCodeType>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+  </StiEAN128bBarCodeType>
+  <StiEAN128cBarCodeType>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+  </StiEAN128cBarCodeType>
+  <StiEAN13BarCodeType>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+    <ShowQuietZoneIndicator>Hämtar eller anger ett värde som anger om Quiet Zone-indikatorn ska visas eller inte.</ShowQuietZoneIndicator>
+    <SupplementCode>Hämtar eller anger komponentens tilläggsstreckkod.</SupplementCode>
+    <SupplementType>Hämtar eller anger typ av tilläggskod.</SupplementType>
+  </StiEAN13BarCodeType>
+  <StiEAN8BarCodeType>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+    <ShowQuietZoneIndicator>Hämtar eller anger ett värde som anger om Quiet Zone-indikatorn ska visas eller inte.</ShowQuietZoneIndicator>
+    <SupplementCode>Hämtar eller anger komponentens tilläggsstreckkod.</SupplementCode>
+    <SupplementType>Hämtar eller anger typ av tilläggskod.</SupplementType>
+  </StiEAN8BarCodeType>
   <StiEmptyBand>
     <BeginRenderEvent>Inträffar när bandet börjar återge.</BeginRenderEvent>
     <EndRenderEvent>Inträffar när bandet rendering är klar.</EndRenderEvent>
@@ -927,6 +1408,11 @@
     <RenderingEvent>Inträffar när dataraden rendering.</RenderingEvent>
     <SizeMode>Denna egenskap gör det möjligt att visa hur man ändrar storleken på den sista raden på en sida.</SizeMode>
   </StiEmptyBand>
+  <StiFIMBarCodeType>
+    <AddClearZone>Hämtar eller anger ett värde som anger om Clear Zone ska visas eller inte.</AddClearZone>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+  </StiFIMBarCodeType>
   <StiFooterBand>
     <KeepFooterTogether>Ett värde som visar att sidfoten skrivs ut med uppgifter.</KeepFooterTogether>
     <PrintIfEmpty>Ett värde som visar att sidfoten om uppgifterna inte presentera.</PrintIfEmpty>
@@ -958,6 +1444,45 @@
     <ValueDataColumnEnd>En namnet på kolumnen som innehåller slutvärdet.</ValueDataColumnEnd>
     <ValueEnd>Slutvärde uttryck. Exempel: {Order.Value}</ValueEnd>
   </StiGanttSeries>
+  <StiGaugeElement>
+    <Font>Teckensnitt.</Font>
+    <ForeColor>Förgrundsfärg.</ForeColor>
+    <Series>Mätarserier.</Series>
+    <Style>Mätarstil.</Style>
+    <Title>Mätartitel.</Title>
+  </StiGaugeElement>
+  <StiGaugeStyle>
+    <BorderColor>Hämtar eller anger kantfärg.</BorderColor>
+    <BorderWidth>En kantstorlek.</BorderWidth>
+    <Brush>Hämtar eller anger en pensel för att fylla stilen.</Brush>
+    <ForeColor>Hämtar eller anger en pensel för att rita texten.</ForeColor>
+    <LinearBarBorderBrush>Hämtar eller anger en kant för LinearBar.</LinearBarBorderBrush>
+    <LinearBarBrush>Hämtar eller anger en pensel för LinearBar.</LinearBarBrush>
+    <LinearBarEmptyBorderBrush>Hämtar eller anger en tom kant för LinearBar.</LinearBarEmptyBorderBrush>
+    <LinearBarEmptyBrush>Hämtar eller anger en tom pensel för LinearBar.</LinearBarEmptyBrush>
+    <LinearScaleBrush>Hämtar eller anger en pensel för LinearScale.</LinearScaleBrush>
+    <MarkerBrush>Hämtar eller anger en penselmarkör.</MarkerBrush>
+    <NeedleBorderBrush>Hämtar eller anger en kant för Needle.</NeedleBorderBrush>
+    <NeedleBorderWidth>En kantstorlek.</NeedleBorderWidth>
+    <NeedleBrush>Hämtar eller anger en pensel för Needle.</NeedleBrush>
+    <NeedleCapBorderBrush>Hämtar eller anger en kant för locket.</NeedleCapBorderBrush>
+    <NeedleCapBrush>Hämtar eller anger en pensel för att fylla locket.</NeedleCapBrush>
+    <RadialBarBorderBrush>Hämtar eller anger en kant för RadialBar.</RadialBarBorderBrush>
+    <RadialBarBrush>Hämtar eller anger en pensel för RadialBar.</RadialBarBrush>
+    <RadialBarEmptyBorderBrush>Hämtar eller anger en tom kant för RadialBar.</RadialBarEmptyBorderBrush>
+    <RadialBarEmptyBrush>Hämtar eller anger en tom pensel för RadialBar.</RadialBarEmptyBrush>
+    <TargetColor>Hämtar eller anger målfärg.</TargetColor>
+    <TickLabelMajorFont>Hämtar eller anger ett teckensnitt för att rita TickLabelMajor.</TickLabelMajorFont>
+    <TickLabelMajorTextBrush>Hämtar eller anger en pensel för att rita texten.</TickLabelMajorTextBrush>
+    <TickLabelMinorFont>Hämtar eller anger ett teckensnitt för att rita TickLabelMinor.</TickLabelMinorFont>
+    <TickLabelMinorTextBrush>Hämtar eller anger en pensel för att rita texten.</TickLabelMinorTextBrush>
+    <TickMarkMajorBorder>Hämtar eller anger en kant för TickMarkMajor.</TickMarkMajorBorder>
+    <TickMarkMajorBorderWidth>En kantstorlek.</TickMarkMajorBorderWidth>
+    <TickMarkMajorBrush>Hämtar eller anger en pensel för att fylla TickMarkMajor.</TickMarkMajorBrush>
+    <TickMarkMinorBorder>Hämtar eller anger en kant för TickMarkMinor.</TickMarkMinorBorder>
+    <TickMarkMinorBorderWidth>En kantstorlek.</TickMarkMinorBorderWidth>
+    <TickMarkMinorBrush>Hämtar eller anger en pensel för att fylla TickMarkMinor.</TickMarkMinorBrush>
+  </StiGaugeStyle>
   <StiGlareBrush>
     <Angle>Vinkeln, mätt i grader medurs från x-axeln, i lutning orientering linje.</Angle>
     <EndColor>Slut färg för övertoningen.</EndColor>
@@ -1046,6 +1571,16 @@
     <PrintIfEmpty>Ett värde som visar att rubriken om uppgifterna inte presentera.</PrintIfEmpty>
     <PrintOnAllPages>Ett värde som visar att komponenten skrivs ut på alla sidor.</PrintOnAllPages>
   </StiHeaderBand>
+  <StiHeatmapStyleData>
+    <Color>Denna egenskap anger färgen som används för att fylla det geografiska objektet Map som innehåller maxvärdet.</Color>
+    <Mode>Egenskapen anger läget som används för att bilda färgsamlingen för heatmap.</Mode>
+    <ZeroColor>Denna egenskap anger färgen som används för att fylla det geografiska objektet Map som innehåller nollvärdet.</ZeroColor>
+  </StiHeatmapStyleData>
+  <StiHeatmapWithGroupStyleData>
+    <Colors>Egenskapen möjliggör skapandet av en samling färger. Varje färg i samlingen används som primärfärg för den specifika gruppen.</Colors>
+    <Mode>Egenskapen anger läget som används för att bilda färgsamlingen för heatmap.</Mode>
+    <ZeroColor>Denna egenskap anger färgen som används för att fylla det geografiska objektet Map som innehåller nollvärdet.</ZeroColor>
+  </StiHeatmapWithGroupStyleData>
   <StiHierarchicalBand>
     <Footers>En lista på sidfot för den hierarkiska bandet.</Footers>
     <Headers>En lista över rubriker för den hierarkiska bandet.</Headers>
@@ -1054,6 +1589,9 @@
     <MasterKeyDataColumn>En kolumn som innehåller data huvudnyckel.</MasterKeyDataColumn>
     <ParentValue>En kolumn som innehåller överordnade värde som identifierar förälder rader.</ParentValue>
   </StiHierarchicalBand>
+  <StiHorChartGridLines>
+    <Visible>Synlighet för huvudrutnätslinjer.</Visible>
+  </StiHorChartGridLines>
   <StiImage>
     <DataColumn>En namnet på kolumnen som innehåller en bild.</DataColumn>
     <File>Sökvägen till den fil som innehåller en bild.</File>
@@ -1066,6 +1604,12 @@
     <ImageURL>Uttrycket att fylla en komponentbild webbadress.</ImageURL>
     <ProcessingDuplicates>Ett värde som visar hur processerna rapport motor duplicerade bilder.</ProcessingDuplicates>
   </StiImage>
+  <StiIndicatorStyle>
+    <GlyphColor>Egenskapen definierar färgen som används för att rita ikonen.</GlyphColor>
+    <HotBackColor>Egenskapen definierar färgen som används för att fylla indikatorbakgrunden när markören hovrar.</HotBackColor>
+    <NegativeColor>Egenskapen definierar färgen som används för variationsvärdet när det är mindre än noll.</NegativeColor>
+    <PositiveColor>Egenskapen definierar färgen som används för variationsvärdet när det är större än noll.</PositiveColor>
+  </StiIndicatorStyle>
   <StiInteraction>
     <AllowSeries>Ett värde som anger om Drill-Down operation kan utföras för serien.</AllowSeries>
     <AllowSeriesElements>Ett värde som anger om Drill-Down operation kan utföras för serie Elements.</AllowSeriesElements>
@@ -1089,6 +1633,45 @@
     <InterlacedBrush>En borste som används för att rita sammanflätning bar.</InterlacedBrush>
     <Visible>Synlighet flätade barer.</Visible>
   </StiInterlacing>
+  <StiInterleaved2of5BarCodeType>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+    <Ratio>Hämtar eller anger värde som anger WideToNarrow-förhållandet.</Ratio>
+  </StiInterleaved2of5BarCodeType>
+  <StiIsbn10BarCodeType>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+    <ShowQuietZoneIndicator>Hämtar eller anger ett värde som anger om Quiet Zone-indikatorn ska visas eller inte.</ShowQuietZoneIndicator>
+    <SupplementCode>Hämtar eller anger komponentens tilläggsstreckkod.</SupplementCode>
+    <SupplementType>Hämtar eller anger typ av tilläggskod.</SupplementType>
+  </StiIsbn10BarCodeType>
+  <StiIsbn13BarCodeType>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+    <ShowQuietZoneIndicator>Hämtar eller anger ett värde som anger om Quiet Zone-indikatorn ska visas eller inte.</ShowQuietZoneIndicator>
+    <SupplementCode>Hämtar eller anger komponentens tilläggsstreckkod.</SupplementCode>
+    <SupplementType>Hämtar eller anger typ av tilläggskod.</SupplementType>
+  </StiIsbn13BarCodeType>
+  <StiITF14BarCodeType>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+    <PrintVerticalBars>Hämtar eller anger ett värde som anger om vertikala sektioner ska skrivas ut eller inte.</PrintVerticalBars>
+    <Ratio>Hämtar eller anger värde som anger WideToNarrow-förhållandet.</Ratio>
+  </StiITF14BarCodeType>
+  <StiJan13BarCodeType>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+    <ShowQuietZoneIndicator>Hämtar eller anger ett värde som anger om Quiet Zone-indikatorn ska visas eller inte.</ShowQuietZoneIndicator>
+    <SupplementCode>Hämtar eller anger komponentens tilläggsstreckkod.</SupplementCode>
+    <SupplementType>Hämtar eller anger typ av tilläggskod.</SupplementType>
+  </StiJan13BarCodeType>
+  <StiJan8BarCodeType>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+    <ShowQuietZoneIndicator>Hämtar eller anger ett värde som anger om Quiet Zone-indikatorn ska visas eller inte.</ShowQuietZoneIndicator>
+    <SupplementCode>Hämtar eller anger komponentens tilläggsstreckkod.</SupplementCode>
+    <SupplementType>Hämtar eller anger typ av tilläggskod.</SupplementType>
+  </StiJan8BarCodeType>
   <StiLabelControl>
     <Text>En text i samband med denna kontroll.</Text>
     <TextAlign>En anpassning av texten i etiketten.</TextAlign>
@@ -1098,6 +1681,7 @@
     <BorderColor>S kantfärg.</BorderColor>
     <Brush>En bakgrundsborste av legenden.</Brush>
     <Columns>Antal kolumner.</Columns>
+    <ColumnWidth>Anger bredden på en förklaringskolumn. Kan användas tillsammans med Word Wrap för att styra radbrytning inom förklaringsobjekt.</ColumnWidth>
     <Direction>Riktning som används för serie ritning i legend.</Direction>
     <Font>Ett teckensnitt som används för serie titel ritning i diagramförklaringen.</Font>
     <HideSeriesWithEmptyTitle>Ett värde som visar/döljer serie med tom titel.</HideSeriesWithEmptyTitle>
@@ -1116,6 +1700,7 @@
     <VertAlignment>Lodrät justering av legenden placering.</VertAlignment>
     <VertSpacing>Vertikalt avstånd mellan objekt i legend.</VertSpacing>
     <Visible>Synlighet diagramförklaring.</Visible>
+    <WordWrap>Aktiverar eller inaktiverar radbrytning i förklaringsposter. Fungerar tillsammans med Column Width.</WordWrap>
   </StiLegend>
   <StiLinePrimitive>
     <Color>En linjefärg.</Color>
@@ -1143,6 +1728,26 @@
     <KeysBinding>Bindningar Data för nycklarna.</KeysBinding>
     <SelectedKeyBinding>Data bindningar för den valda nyckeln.</SelectedKeyBinding>
   </StiLookUpBoxControl>
+  <StiMapStyle>
+    <BackColor>Egenskapen definierar färgen som används för att fylla kartbakgrunden.</BackColor>
+    <BorderColor>Egenskapen definierar färgen som används för att rita kanterna på kartans geografiska objekt.</BorderColor>
+    <BorderSize>Egenskapen definierar kantbredden som används för kartans geografiska objekt.</BorderSize>
+    <BubbleBackColor>Egenskapen definierar färgen som används för att fylla kartbubblorna.</BubbleBackColor>
+    <BubbleBorderColor>Egenskapen definierar färgen som används för att rita kanterna på kartbubblorna.</BubbleBorderColor>
+    <Colors>Egenskapen möjliggör skapandet av en uppsättning färger som används för att fylla kartans geografiska objekt när läget color each används.</Colors>
+    <DefaultColor>Egenskapen definierar standardfärgen som används för att fylla kartans geografiska objekt när karttypen är inställd på någon annan typ än individual.</DefaultColor>
+    <Heatmap>Egenskapsuppsättningen definierar inställningarna som används för värmekarta.</Heatmap>
+    <HeatmapWithGroup>Egenskapsuppsättningen definierar inställningarna som används för värmekarta med grupp.</HeatmapWithGroup>
+    <IndividualColor>Egenskapen definierar färgen som används för att fylla kartans geografiska objekt.</IndividualColor>
+    <LabelForeground>Egenskapen definierar färgen som används för att rita etiketterna för kartans geografiska objekt.</LabelForeground>
+    <LabelShadowForeground>Egenskapen definierar färgen som används för att rita etikettskuggan för kartans geografiska objekt.</LabelShadowForeground>
+  </StiMapStyle>
+  <StiMargin>
+    <Bottom>Värdet anger en marginal från elementets nederkant.</Bottom>
+    <Left>Värdet anger en marginal från elementets vänsterkant.</Left>
+    <Right>Värdet anger en marginal från elementets högerkant.</Right>
+    <Top>Värdet anger en marginal från elementets överkant.</Top>
+  </StiMargin>
   <StiMarker>
     <Angle>En rotationsvinkel av markören.</Angle>
     <BorderColor>En kantfärg på markör.</BorderColor>
@@ -1153,6 +1758,12 @@
     <Type>En typ av markör.</Type>
     <Visible>Synlighet markör.</Visible>
   </StiMarker>
+  <StiMsiBarCodeType>
+    <CheckSum1>Hämtar eller anger läge för CheckSum1.</CheckSum1>
+    <CheckSum2>Hämtar eller anger läge för CheckSum2.</CheckSum2>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+  </StiMsiBarCodeType>
   <StiNumericUpDownControl>
     <Increment>Ett värde för att öka eller minska den upp-ned-kontroll när de upp eller ner knappen klickas.</Increment>
     <Maximum>Maximalt värde för upp-ner-kontroll.</Maximum>
@@ -1166,6 +1777,12 @@
   <StiOutsidePieLabels>
     <LineLength>En linjelängd mellan gränsen till serie etiketter och gränsen till paj serien.</LineLength>
   </StiOutsidePieLabels>
+  <StiPadding>
+    <Bottom>Värdet anger utfyllnaden inuti elementet mellan den nedre kanten och dess innehåll.</Bottom>
+    <Left>Värdet anger utfyllnaden inuti elementet mellan den vänstra kanten och dess innehåll.</Left>
+    <Right>Värdet anger utfyllnaden inuti elementet mellan den högra kanten och dess innehåll.</Right>
+    <Top>Värdet anger utfyllnaden inuti elementet mellan den övre kanten och dess innehåll.</Top>
+  </StiPadding>
   <StiPage>
     <BeginRenderEvent>Inträffar när en sida börjar renderas.</BeginRenderEvent>
     <ColumnBeginRenderEvent>Inträffar när kolumn rendering påbörjas.</ColumnBeginRenderEvent>
@@ -1173,9 +1790,11 @@
     <EndRenderEvent>Inträffar när en sida slutar renderas.</EndRenderEvent>
     <ExcelSheet>Ett uttryck som används för generering namn på Excel-blad.</ExcelSheet>
     <GetExcelSheetEvent>Inträffar när ExcelSheet beräknas.</GetExcelSheetEvent>
+    <Icon>En sidikon.</Icon>
     <LargeHeight>Ett värde som visar att den här sidan har stor höjd i designern.</LargeHeight>
     <LargeHeightFactor>Stor höjdfaktorn för egenskapen LargeHeight på denna sida.</LargeHeightFactor>
     <Margins>Sidmarginaler.</Margins>
+    <MirrorMargins>Ett värde som speglar marginalerna på en sida beroende på om sidan är udda eller jämn.</MirrorMargins>
     <NumberOfCopies>Ett värde på antal kopior av den aktuella sidan.</NumberOfCopies>
     <Orientation>Sid orientering.</Orientation>
     <PageHeight>Den totala höjden på sidan.</PageHeight>
@@ -1195,7 +1814,6 @@
     <UnlimitedBreakable>Ett värde som visar att, när du skriver ut flera ark kors rapporter, kolumner och strängar skall fördelas.</UnlimitedBreakable>
     <UnlimitedHeight>Ett värde som anger att sidan har en obegränsad höjd.</UnlimitedHeight>
     <UnlimitedWidth>Ett värde som anger att sidan har en obegränsad bredd.</UnlimitedWidth>
-    <Watermark>Vattenstämpel på sida.</Watermark>
   </StiPage>
   <StiPanel>
     <ColumnGaps>Avstånd mellan två kolumner.</ColumnGaps>
@@ -1206,6 +1824,22 @@
   <StiPanelControl>
     <BorderStyle>Anger gränsen stil för kontrollen.</BorderStyle>
   </StiPanelControl>
+  <StiPdf417BarCodeType>
+    <AspectRatio>Hämtar eller anger ett värde som anger bildförhållandet mellan streckkodens horisontella och vertikala sidor.</AspectRatio>
+    <AutoDataColumns>Hämtar eller anger värde som anger att antalet kolumner beräknas automatiskt.</AutoDataColumns>
+    <AutoDataRows>Hämtar eller anger värde som anger att antalet rader beräknas automatiskt.</AutoDataRows>
+    <DataColumns>Hämtar eller anger antalet datakolumner.</DataColumns>
+    <DataRows>Hämtar eller anger antalet datarader.</DataRows>
+    <EncodingMode>Hämtar eller anger kodningstyp.</EncodingMode>
+    <ErrorsCorrectionLevel>Hämtar eller anger felkorrigeringsnivå. Ju högre nivå, desto mer information läggs till i streckkoden för återställning.</ErrorsCorrectionLevel>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+    <RatioY>Hämtar eller anger streckkodens vertikala förhållande. Värdet måste vara mellan 2 och 5.</RatioY>
+  </StiPdf417BarCodeType>
+  <StiPharmacodeBarCodeType>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+  </StiPharmacodeBarCodeType>
   <StiPictureBoxControl>
     <BorderStyle>Anger gränsen stil för kontrollen.</BorderStyle>
     <Image>En bild som de PictureBox displayer.</Image>
@@ -1221,6 +1855,17 @@
     <GetCutPieListEvent>Inträffar när få klippa paj listan.</GetCutPieListEvent>
     <StartAngle>En rotationsvinkel serie.</StartAngle>
   </StiPieSeries>
+  <StiPlesseyBarCodeType>
+    <CheckSum1>Hämtar eller anger läge för CheckSum1.</CheckSum1>
+    <CheckSum2>Hämtar eller anger läge för CheckSum2.</CheckSum2>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+  </StiPlesseyBarCodeType>
+  <StiPostnetBarCodeType>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+    <Space>Hämtar eller anger avstånd mellan streckkodens element.</Space>
+  </StiPostnetBarCodeType>
   <StiPrinterSettings>
     <Collate>Ett värde som indikerar att sorteringsläge för utskrift ska användas eller inte.</Collate>
     <Copies>Ett antal exemplar av en rapport för utskrift.</Copies>
@@ -1228,6 +1873,17 @@
     <PrinterName>Ett namn på skrivare som ska användas för utskrift av rapporter.</PrinterName>
     <ShowDialog>Ett värde som anger att dialogrutan Skriv visas eller inte.</ShowDialog>
   </StiPrinterSettings>
+  <StiProgressStyle>
+    <BandColor>Egenskapen definierar färgen som används för att fylla ytgrafiken för förloppsvärdet.</BandColor>
+    <SeriesColors>Egenskapen möjliggör skapandet av en färguppsättning för att rita förloppsserien.</SeriesColors>
+    <TrackColor>Egenskapen definierar färgen som används för att fylla förloppsspåret.</TrackColor>
+  </StiProgressStyle>
+  <StiQRCodeBarCodeType>
+    <ErrorCorrectionLevel>Hämtar eller anger felkorrigeringsnivån.</ErrorCorrectionLevel>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <MatrixSize>Hämtar eller anger matrisstorlek.</MatrixSize>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+  </StiQRCodeBarCodeType>
   <StiRadarAxis>
     <Visible>Synlighet axel.</Visible>
   </StiRadarAxis>
@@ -1261,23 +1917,33 @@
     <AutoLocalizeReportOnRun>En egenskap som möjliggör automatisk lokalisering av rapporten när du kör startar.</AutoLocalizeReportOnRun>
     <BeginRenderEvent>Inträffar när rapporten rendering påbörjas.</BeginRenderEvent>
     <CacheAllData>Ett värde som anger om det är nödvändigt för att cacha alla uppgifter i rapporten i ett DataSet.</CacheAllData>
+    <CacheTotals>Egenskapen omfattar cachning av rapportens totalsummor som används med prefixet Totals. Denna egenskap påskyndar rapportgenereringen om flera totalsummor med samma indataparametrar används på ett band.</CacheTotals>
     <CalculationMode>En metod för ett beräkningsuttryck i rapporten rendering.</CalculationMode>
     <Collate>Ett värde som kan användas för sidor sammanställa. Värdet på egenskapen kan inte vara mindre än 1.</Collate>
     <ConvertNulls>Ett värde som visar om det är nödvändigt att konvertera null eller DBNull.</ConvertNulls>
     <EndRenderEvent>Inträffar när rapporten rendering är klar.</EndRenderEvent>
     <EngineVersion>Den aktuella rapporten motor.</EngineVersion>
+    <ExportedEvent>Inträffar när rapporten avslutar exporten.</ExportedEvent>
+    <ExportingEvent>Inträffar när rapporten startar exporten.</ExportingEvent>
+    <ExportSettings>Exportinställningar</ExportSettings>
     <GlobalizationStrings>En kollektion som består av globaliseringen strängar.</GlobalizationStrings>
     <NumberOfPass>Antal överfarter som rapportgeneratorn gör medan rapport rendering.</NumberOfPass>
+    <ParametersDisplayMode>Visningsläget för parameterpanelen: Panel - visa parametrar i en panel i visaren, Dialog - visa parametrar i ett dialogfönster.</ParametersDisplayMode>
     <ParametersOrientation>Ett värde som anger parametrar panelorientering.</ParametersOrientation>
+    <ParameterWidth>Hämtar eller anger en bredd i pixlar för en parameter i visaren. Standardvärdet används om ett nollvärde anges.</ParameterWidth>
     <PreviewMode>I förhandsgranskningsläge i en rapport.</PreviewMode>
     <PreviewSettings>Kontroll som kommer att visas i förhandsgranskningsfönstret.</PreviewSettings>
+    <PrintedEvent>Inträffar när rapporten avslutar utskriften.</PrintedEvent>
     <PrinterSettings>Skri inställningar.</PrinterSettings>
+    <PrintingEvent>Inträffar när rapporten startar utskriften.</PrintingEvent>
     <ReferencedAssemblies>En array med refererade församlingar.</ReferencedAssemblies>
     <RenderingEvent>Inträffar när en sida återges.</RenderingEvent>
     <ReportAlias>En rapport alias.</ReportAlias>
     <ReportAuthor>En rapport författare.</ReportAuthor>
     <ReportCacheMode>Ett värde som visar hur rapporten motorn använder rapport cache.</ReportCacheMode>
     <ReportDescription>En rapport beskrivning.</ReportDescription>
+    <ReportIcon>En rapportikon.</ReportIcon>
+    <ReportImage>En rapportbild.</ReportImage>
     <ReportName>En rapport namnet.</ReportName>
     <ReportUnit>Den nuvarande enheten i rapporten.</ReportUnit>
     <RequestParameters>Hämtar eller ställer in värde som anger om att begära parametrar från en användare innan rapport rendering eller avge en rapport med standardvärdet för parametrarna.</RequestParameters>
@@ -1319,6 +1985,7 @@
   <StiRichText>
     <BackColor>En back färg.</BackColor>
     <DataColumn>En namnet på kolumnen som innehåller RTF-text.</DataColumn>
+    <DataUrl>Uttrycket för att fylla en komponents RTF-text.</DataUrl>
     <DetectUrls>Upptäckt av webbadresser.</DetectUrls>
     <FullConvertExpression>Ett värde som visar att det är nödvändigt att helt omvandla uttrycket till RTF-format. Full konvertering av uttryck bromsar rapporten rendering.</FullConvertExpression>
     <Margins>Text marginaler.</Margins>
@@ -1334,6 +2001,11 @@
   <StiRoundedRectangleShapeType>
     <Round>Faktorn av avrundning.</Round>
   </StiRoundedRectangleShapeType>
+  <StiRoyalMail4StateBarCodeType>
+    <CheckSum>Hämtar eller anger läge för kontrollsumma.</CheckSum>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+  </StiRoyalMail4StateBarCodeType>
   <StiSeries>
     <AllowApplyBrushNegative>Värdena indikerar att den specifika borste för att fylla negativa värden kommer att användas.</AllowApplyBrushNegative>
     <AllowApplyColorNegative>Detta värde anger att viss färg för negativa värden kommer att användas.</AllowApplyColorNegative>
@@ -1458,6 +2130,12 @@
   <StiShapeTypeService>
     <Direction>Pilen riktning.</Direction>
   </StiShapeTypeService>
+  <StiSimpleBorder>
+    <Color>En kantfärg.</Color>
+    <Side>Ramkanter.</Side>
+    <Size>En kantstorlek.</Size>
+    <Style>En kantstil.</Style>
+  </StiSimpleBorder>
   <StiSimpleText>
     <GetValueEvent>Inträffar när texten förbereds för rendering.</GetValueEvent>
     <GlobalizedName>Ett värde som används som en nyckel för globaliseringsnamn.</GlobalizedName>
@@ -1473,6 +2151,18 @@
   <StiSolidBrush>
     <Color>Färgen på borste.</Color>
   </StiSolidBrush>
+  <StiSSCC18BarCodeType>
+    <CompanyPrefix>Hämtar eller anger GS1 Company Prefix (7-10 siffror).</CompanyPrefix>
+    <ExtensionDigit>Hämtar eller anger tilläggssiffran.</ExtensionDigit>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+    <SerialNumber>Hämtar eller anger Serial Reference Numbers (6-9 siffror).</SerialNumber>
+  </StiSSCC18BarCodeType>
+  <StiStandard2of5BarCodeType>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+    <Ratio>Hämtar eller anger värde som anger WideToNarrow-förhållandet.</Ratio>
+  </StiStandard2of5BarCodeType>
   <StiStrips>
     <Antialiasing>Ett värde som styr kantutjämning ritningsläge.</Antialiasing>
     <Font>Ett teckensnitt på rubriktexten.</Font>
@@ -1517,6 +2207,31 @@
     <HeaderRowsCount>Ett flertal rubrikrader i tabellen.</HeaderRowsCount>
     <RowCount>Ett antal rader i tabellen.</RowCount>
   </StiTable>
+  <StiTableElement>
+    <Columns>Kolumner som visas i tabellen.</Columns>
+    <FiltersTarget>Hämtar eller anger måldata som filter tillämpas på.</FiltersTarget>
+    <Group />
+    <SizeMode />
+    <Style>Tabellstil.</Style>
+    <Title>Tabelltitel.</Title>
+  </StiTableElement>
+  <StiTableOfContents>
+    <RightToLeft>Hämtar eller anger horisontell utmatningsriktning.</RightToLeft>
+  </StiTableOfContents>
+  <StiTableStyle>
+    <AlternatingDataColor>Egenskapen definierar färgen som används för att fylla bakgrunden på de alternerande raderna.</AlternatingDataColor>
+    <AlternatingDataForeground>Egenskapen definierar färgen som används för att rita värdet i de alternerande raderna.</AlternatingDataForeground>
+    <DataColor>Egenskapen definierar färgen som används för att fylla bakgrunden på raderna.</DataColor>
+    <DataForeground>Egenskapen definierar färgen som används för att rita värdet i raderna.</DataForeground>
+    <FooterColor>Egenskapen definierar färgen som används för att fylla bakgrunden på sidfotsraden.</FooterColor>
+    <FooterForeground>Egenskapen definierar färgen som används för att rita värdena i sidfotsraden.</FooterForeground>
+    <GridColor>Egenskapen definierar färgen som används för att rita cellkanterna.</GridColor>
+    <HeaderColor>Egenskapen definierar färgen som används för att fylla bakgrunden på rubrikraden.</HeaderColor>
+    <HeaderForeground>Egenskapen definierar färgen som används för att rita värdena i rubrikraden.</HeaderForeground>
+    <HotHeaderColor>Egenskapen definierar färgen som används för att fylla bakgrunden på rubrikraden när markören hovrar över den.</HotHeaderColor>
+    <SelectedDataColor>Egenskapen definierar färgen som används för att fylla bakgrunden på den markerade cellen.</SelectedDataColor>
+    <SelectedDataForeground>Egenskapen definierar färgen som används för att rita värdet i den markerade cellen.</SelectedDataForeground>
+  </StiTableStyle>
   <StiText>
     <AllowHtmlTags>Ett värde som visar att denna komponent kan hantera HTML-taggar i en text.</AllowHtmlTags>
     <Angle>En vinkel i en textrotation.</Angle>
@@ -1545,6 +2260,9 @@
     <TextBinding>Bindningar Data för texten.</TextBinding>
     <WordWrap>Anger om ett textruta radbryts automatiskt ord till början av nästa rad när det behövs.</WordWrap>
   </StiTextBoxControl>
+  <StiTextElement>
+    <SizeMode>Anger hur textutmatningen i komponentområdet beror på textstorleken.</SizeMode>
+  </StiTextElement>
   <StiTextInCells>
     <CellHeight>Höjd av cellen.</CellHeight>
     <CellWidth>Bredd av cellen.</CellWidth>
@@ -1564,6 +2282,14 @@
     <Trimming>En typ för att trimma slutet av en linje.</Trimming>
     <WordWrap>Radbrytning.</WordWrap>
   </StiTextOptions>
+  <StiTitle>
+    <BackColor>Bakgrundsfärg för en titel.</BackColor>
+    <Font>Teckensnitt för en titel.</Font>
+    <ForeColor>Förgrundsfärg för en titel.</ForeColor>
+    <HorAlignment>Horisontell justering av text.</HorAlignment>
+    <Text>Text för en titel.</Text>
+    <Visible>Titelns synlighet.</Visible>
+  </StiTitle>
   <StiTreeViewControl>
     <AfterSelectEvent>Inträffar när egenskapen AfterSelect har förändrats.</AfterSelectEvent>
   </StiTreeViewControl>
@@ -1573,12 +2299,46 @@
     <LineWidth>Trend linjebredd.</LineWidth>
     <ShowShadow>Ett värde som visar rita skugga eller nej.</ShowShadow>
   </StiTrendLine>
+  <StiUpcABarCodeType>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+    <ShowQuietZoneIndicator>Hämtar eller anger ett värde som anger om Quiet Zone-indikatorn ska visas eller inte.</ShowQuietZoneIndicator>
+    <SupplementCode>Hämtar eller anger komponentens tilläggsstreckkod.</SupplementCode>
+    <SupplementType>Hämtar eller anger typ av tilläggskod.</SupplementType>
+  </StiUpcABarCodeType>
+  <StiUpcEBarCodeType>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+    <SupplementCode>Hämtar eller anger komponentens tilläggsstreckkod.</SupplementCode>
+    <SupplementType>Hämtar eller anger typ av tilläggskod.</SupplementType>
+  </StiUpcEBarCodeType>
+  <StiUpcSup2BarCodeType>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+    <ShowQuietZoneIndicator>Hämtar eller anger ett värde som anger om Quiet Zone-indikatorn ska visas eller inte.</ShowQuietZoneIndicator>
+  </StiUpcSup2BarCodeType>
+  <StiUpcSup5BarCodeType>
+    <Height>Hämtar eller anger streckkodens höjdfaktor.</Height>
+    <Module>Hämtar eller anger bredden på streckkodens finaste element.</Module>
+    <ShowQuietZoneIndicator>Hämtar eller anger ett värde som anger om Quiet Zone-indikatorn ska visas eller inte.</ShowQuietZoneIndicator>
+  </StiUpcSup5BarCodeType>
+  <StiUserFunction>
+    <InterpretationModeSwitchToBlocks>Den här rapporten använder tolkningsläge. Funktioner med kod fungerar inte. Vi rekommenderar att du växlar till ScriptMode på Blocks.</InterpretationModeSwitchToBlocks>
+    <StiScriptAtInterpretationCheckLong>Skriptet i användarfunktionen '{0}' fungerar inte i tolkningsläget.</StiScriptAtInterpretationCheckLong>
+    <StiScriptAtInterpretationCheckShort>Skript i tolkningsläge</StiScriptAtInterpretationCheckShort>
+    <StiUserFunctionLangScriptValueCheckLong>Inget skript definierat för språket {0} i användarfunktionen '{1}'.</StiUserFunctionLangScriptValueCheckLong>
+    <StiUserFunctionScriptValueCheckLong>Inget skript angivet för det aktuella rapportprogrammeringsspråket i användarfunktionen '{0}'.</StiUserFunctionScriptValueCheckLong>
+    <StiUserFunctionScriptValueCheckShort>Skript</StiUserFunctionScriptValueCheckShort>
+  </StiUserFunction>
   <StiVariable>
     <Alias>Ett alias för variabeln.</Alias>
     <Category>En kategori av variabeln.</Category>
     <Description>En beskrivning av variabeln.</Description>
     <Name>Ett namn på variabeln.</Name>
   </StiVariable>
+  <StiVertChartGridLines>
+    <Visible>Synlighet för huvudrutnätslinjer.</Visible>
+  </StiVertChartGridLines>
   <StiView>
     <AspectRatio>Ett värde som anger att en bild kommer att spara sitt bildförhållande.</AspectRatio>
     <MultipleFactor>Ett värde att multiplicera med det en bildstorlek.</MultipleFactor>
@@ -1636,6 +2396,7 @@
   <Universal>
     <AllowApplyStyle>Ett värde som visar att diagramformat används.</AllowApplyStyle>
     <Key>En nyckel som kommer att användas i variabler när användaren väljer i samband med det värde i GUI.</Key>
+    <Label>En etikett som visas i stället för Key i GUI.</Label>
     <Value>Ett värde som kommer att visas istället för nyckelvärdet i GUI.</Value>
   </Universal>
 </Localization>
