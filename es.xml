@@ -251,7 +251,7 @@
     <LabelsOutside>Exterior</LabelsOutside>
     <LabelsOutsideBase>Exterior Base</LabelsOutsideBase>
     <LabelsOutsideEnd>Exterior Final</LabelsOutsideEnd>
-    <LabelsOverlay>Incrustar</LabelsOverlay>
+    <LabelsOverlay>Superposición</LabelsOverlay>
     <LabelsStyleCategory>Categoría</LabelsStyleCategory>
     <LabelsStyleCategoryPercentOfTotal>Categoría - Porcentaje del total</LabelsStyleCategoryPercentOfTotal>
     <LabelsStyleCategoryValue>Categoría - Valor</LabelsStyleCategoryValue>
@@ -547,7 +547,7 @@
     <ShowNotificationMessages>Mostrar mensajes de notificación</ShowNotificationMessages>
     <Submissions>Presentaciones</Submissions>
     <Subscriptions>Subscripciones</Subscriptions>
-    <TabItemEmbedCode>Embeber Código</TabItemEmbedCode>
+    <TabItemEmbedCode>Incrustar Código</TabItemEmbedCode>
     <TabItemQRCode>Código QR</TabItemQRCode>
     <TabItemShare>Enlace a Compartir</TabItemShare>
     <Team>Equipo</Team>
@@ -1026,7 +1026,7 @@
     <FileNotFound>Archivo "{0}" no encontrado.</FileNotFound>
     <IdentifierIsNotValid>Identificador '{0}' no es válido.</IdentifierIsNotValid>
     <ImpossibleFindDataSource>Imposible encontrar Fuente de Datos.</ImpossibleFindDataSource>
-    <NameExists>Ya hay un componente con éste nombre '{0} '. Los Componentes no pueden tener nombres duplicados.</NameExists>
+    <NameExists>Ya hay un componente con este nombre '{0} '. Los Componentes no pueden tener nombres duplicados.</NameExists>
     <NoServices>Servicios no encontrados en '{0}'</NoServices>
     <NotAssign>Fuente de datos no especificada.</NotAssign>
     <NotCorrectFormat>La cadena de entrada no tiene el formato correcto.</NotCorrectFormat>
@@ -1078,8 +1078,8 @@
     <DigitalSignatureError>Error de Firma Digital en paso</DigitalSignatureError>
     <DocumentSecurity>Seguridad del Documento</DocumentSecurity>
     <DotMatrixMode>Modo Matricial</DotMatrixMode>
-    <EmbeddedFonts>Fuentes Embutidas</EmbeddedFonts>
-    <EmbeddedImageData>Datos de Imagen Embebidos</EmbeddedImageData>
+    <EmbeddedFonts>Fuentes Incrustadas</EmbeddedFonts>
+    <EmbeddedImageData>Datos de Imagen Incrustados</EmbeddedImageData>
     <EnableAnimation>Habilitar animación</EnableAnimation>
     <Encoding>Codificación</Encoding>
     <EncryptionError>Error de Encriptación en paso</EncryptionError>
@@ -1224,7 +1224,7 @@
     <PdfFiles>Archivos de Adobe PDF(*.pdf)|*.pdf</PdfFiles>
     <PngFiles>Archivos de Imagen PNG (*.png)|*.png</PngFiles>
     <Ppt2007Files>Ficheros de Microsoft PowerPoint 2007/2013 (*.pptx)|*.pptx</Ppt2007Files>
-    <ReportEmbededDataFiles>Plantillas de Informes con datos embebidos (*.mrt)|*.mrt</ReportEmbededDataFiles>
+    <ReportEmbededDataFiles>Plantillas de Informes con datos incrustados (*.mrt)|*.mrt</ReportEmbededDataFiles>
     <ReportFiles>Archivos de Informe (*.mrt)|*.mrt</ReportFiles>
     <RtfFiles>Archivos Rich Text (*.rtf)|*.rtf</RtfFiles>
     <StandaloneReportFiles>Informe ejecutable (*.exe)|*.exe</StandaloneReportFiles>
@@ -2003,7 +2003,7 @@
     <StiCrossDataBand>Esta banda se conecta a una fuente de datos. Se imprimirá tantas veces como filas existan en la fuente de datos. Bandas cruzadas se imprimen de izquierda a derecha.</StiCrossDataBand>
     <StiCrossFooterBand>Esta banda se usa para imprimir pies de una banda cruzada. La banda se imprime una vez después de todas las filas de la banda de datos. Bandas cruzadas se imprimen de izquierda a derecha.</StiCrossFooterBand>
     <StiCrossGroupFooterBand>Esta banda se usa para imprimir pies de grupos. Se coloca por debajo de la banda de datos cruzados. Cada CrossFooter pertenece a una banda CrossHeader específica. Bandas cruzadas se imprimen de izquierda a derecha.</StiCrossGroupFooterBand>
-    <StiCrossGroupHeaderBand>Esta banda se emplea para mostrar agrupaciones cuando se usa Datos Cruzados. No es posible crear agrupaciones sin esta banda. Los componentes utilizados para mostrar información por grupos se colocan en ésta cabecera. Se puede agrupar por nombre, fecha o cualquier condición de agrupaje. La banda se imprime al principio de cada grupo. Bandas cruzadas se imprimen de izquierda a derecha.</StiCrossGroupHeaderBand>
+    <StiCrossGroupHeaderBand>Esta banda se emplea para mostrar agrupaciones cuando se usa Datos Cruzados. No es posible crear agrupaciones sin esta banda. Los componentes utilizados para mostrar información por grupos se colocan en esta cabecera. Se puede agrupar por nombre, fecha o cualquier condición de agrupaje. La banda se imprime al principio de cada grupo. Bandas cruzadas se imprimen de izquierda a derecha.</StiCrossGroupHeaderBand>
     <StiCrossHeaderBand>Esta banda se usa para imprimir cabeceras. Se emplea juntamente con una Banda Cruzada. Bandas cruzadas se imprimen de izquierda a derecha.</StiCrossHeaderBand>
     <StiCrossTab>El componente de tabla-cruzada se usa con datos estructurados representados en una tabla.</StiCrossTab>
     <StiDataBand>La banda de Datos se conecta a una fuente de datos. Se imprimirá tantas veces como filas existan en la fuente de datos..</StiDataBand>
@@ -2152,7 +2152,7 @@
     <FontStyleStrikeout>Tachar el texto.</FontStyleStrikeout>
     <FontStyleUnderline>Convertir a subrayado.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Convertir el texto de la filigrana a subrayado.</FontStyleUnderlineWatermark>
-    <FormatBoolean>Éste formato se emplea para formatear valores de tipo lógico.</FormatBoolean>
+    <FormatBoolean>Este formato se emplea para formatear valores de tipo lógico.</FormatBoolean>
     <FormatCurrency>Mostrar un valor como moneda. Permite mostrar un número con el signo de la divisa por defecto.</FormatCurrency>
     <FormatCustom>Este tipo se emplea para mostrar valores con requerimientos personalizados. Se permite formatear los datos con la Máscara de Formato.</FormatCustom>
     <FormatDate>Mostrar un valor como una fecha. El formato de la fecha depende de la configuración regional.</FormatDate>
@@ -2187,7 +2187,7 @@
     <menuHomePage>Ir a la página web del producto.</menuHomePage>
     <menuPageOptions>Configurar los parámetros básicas de la página actual. Todas las opciones disponibles están accesibles en el panel de las Propiedades.</menuPageOptions>
     <menuPagesManager>Lanzar el Gestor de Páginas. Permite mover, eliminar y crear nuevas páginas.</menuPagesManager>
-    <menuPreviewSettings>Lanzar el editor de Vista Preliminar. Éstos cambios solamente tendrán efecto mientras visualice el informe actual.</menuPreviewSettings>
+    <menuPreviewSettings>Lanzar el editor de Vista Preliminar. Estos cambios solamente tendrán efecto mientras visualice el informe actual.</menuPreviewSettings>
     <menuPrint>Selecciona una impresora, número de copias y otras opciones de impresión antes de imprimir.</menuPrint>
     <menuPrintPreview>Mostrar vista preliminar antes de imprimir.</menuPrintPreview>
     <menuPrintQuick>Imprimir el informe directamente a la impresora. No mostrará el diálogo de impresión antes.</menuPrintQuick>
@@ -2292,8 +2292,8 @@
     <DotMatrixMode>Este modo permite ver como quedaría un informe si se imprime en una impresora matricial.</DotMatrixMode>
     <DrawBorder>Pintando los bordes de los componentes con caracteres gráficos.</DrawBorder>
     <Edit>Editar componentes.</Edit>
-    <EmbeddedFonts>Encastrar los ficheros de fuentes en el PDF.</EmbeddedFonts>
-    <EmbeddedImageData>Encastrar las imágenes directamente en el HTML.</EmbeddedImageData>
+    <EmbeddedFonts>Incrustar los ficheros de fuentes en el PDF.</EmbeddedFonts>
+    <EmbeddedImageData>Incrustar las imágenes directamente en el HTML.</EmbeddedImageData>
     <Encoding>Codificando el informe después de exportarse.</Encoding>
     <EncodingData>Codificando fichero de datos.</EncodingData>
     <EncryptionKeyLength>La longitud de la clave de encriptación. Cuanto más largo la clave más difícil es desencriptar el documento, y consecuentemente, aumenta la seguridad del documento.</EncryptionKeyLength>
@@ -2304,7 +2304,7 @@
     <ExportModeRtf>Presentación del informe después de la exportación. La Tabla - el informe aparecerá como una tabla donde cada componente será una celda. Marco - cada componente aparecerá como un marco, pero sin relación entre ellos.</ExportModeRtf>
     <ExportObjectFormatting>Aplicar el formateo a los datos exportados de las Bandas de Datos (el componente de Tabla, banda jerárquica).</ExportObjectFormatting>
     <ExportPageBreaks>Mostrar los bordes de las páginas en las hojas de Excel.</ExportPageBreaks>
-    <ExportRtfTextAsImage>Convertir el texto RTF en imagen. Si ésta opción está habilitada, al exportar RichText, se descompondrá en los primitivos más simples soportados por el formato PDF. RichText con formato complejo (imágenes encastradas, tablas) no siempre pueden convertirse correctamente. En éste caso se recomienda habilitar ésta opción.</ExportRtfTextAsImage>
+    <ExportRtfTextAsImage>Convertir el texto RTF en imagen. Si esta opción está deshabilitada, al exportar, RichText se descompondrá en los primitivos más simples soportados por el formato PDF. RichText con formato complejo (imágenes incrustadas, tablas) no siempre puede convertirse correctamente. En este caso se recomienda habilitar esta opción.</ExportRtfTextAsImage>
     <Find>Buscar un texto dentro del informe.</Find>
     <FullScreen>Modo pantalla completa.</FullScreen>
     <GetCertificateFromCryptoUI>Usando el interfaz de la librería de criptografía del sistema.</GetCertificateFromCryptoUI>
@@ -2317,7 +2317,7 @@
     <KillSpaceLines>Eliminar filas vacías del documento.</KillSpaceLines>
     <MultipleFiles>Cada página del informe puede ser un fichero nuevo.</MultipleFiles>
     <Open>Abrir un informe previamente guardado en el visor.</Open>
-    <OpenAfterExport>Apertura automática del documento (después de exportar) por el programa asociado con éste tipo de fichero.</OpenAfterExport>
+    <OpenAfterExport>Apertura automática del documento (después de exportar) por el programa asociado con este tipo de fichero.</OpenAfterExport>
     <OwnerPassword>Contraseña de acceso para operaciones con ficheros.</OwnerPassword>
     <PageAll>Procesando todas las páginas del informe.</PageAll>
     <PageDelete>Eliminar la página seleccionada del informe.</PageDelete>
@@ -2344,7 +2344,7 @@
     <SendEMail>Enviar el informe por correo electrónico.</SendEMail>
     <Separator>Separador entre datos en el fichero CSV.</Separator>
     <SkipColumnHeaders>Habilitar/deshabilitar los encabezados de las columnas.</SkipColumnHeaders>
-    <StandardPdfFonts>14 fuentes estándar de Adobe. Habilitando ésta opción, solamente dispondrá de 14 fuentes estándar en el fichero PDF. Todas las fuentes se convertirán a éstas.</StandardPdfFonts>
+    <StandardPdfFonts>14 fuentes estándar de Adobe. Habilitando esta opción, solamente dispondrá de 14 fuentes estándar en el fichero PDF. Todas las fuentes se convertirán a estas.</StandardPdfFonts>
     <SubjectNameString>Identificador del Certificado. El identificador del certificado es el propietario del certificado (líneas completa) o nombre parcial (sub-cadena).</SubjectNameString>
     <Thumbnails>Mostrar miniaturas de páginas para facilitar la navigación rápida dentro del informe.</Thumbnails>
     <TiffCompressionScheme>Esquema de compresión de ficheros TIFF.</TiffCompressionScheme>
@@ -2531,7 +2531,7 @@
 
 Se ha enviado un correo a "{0}".
 Contiene un enlace para confirmar su registro. Para completar el registro, por favor siga el enlace del correo electrónico que recibió.</TextRegistrationSuccessfully>
-    <ThisFieldIsNotSpecified>¡Éste campo no se ha especificado!</ThisFieldIsNotSpecified>
+    <ThisFieldIsNotSpecified>¡Este campo no se ha especificado!</ThisFieldIsNotSpecified>
     <ThisFunctionEmbedsAllReportDataToTheReport>Esta función incorpora todos los datos del informe a los recursos del informe y hace que su informe sea independiente. ¡Ten cuidado! Se cambiarán todas las configuraciones de datos y no se podrán restaurar. Por favor, haga una copia de seguridad de su informe en primer lugar.{0}¿Está seguro?</ThisFunctionEmbedsAllReportDataToTheReport>
     <YouNeedToLoginFirstToStartUsingTheSoftware>Primero debe iniciar sesión para comenzar a usar el software. La aplicación se cerrará si sale del formulario de inicio de sesión.</YouNeedToLoginFirstToStartUsingTheSoftware>
   </Messages>
@@ -5492,7 +5492,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <Line>El número de línea actual (comienza en 1).</Line>
     <LineABC>El número alfabético de la línea actual.</LineABC>
     <LineRoman>El número de la línea actual en números Romanos.</LineRoman>
-    <LineThrough>El número de la línea actual (comienza en 1). Para calcular éste valor, todas las agrupaciones se ignoran y el contador comienza desde el inicio del informe.</LineThrough>
+    <LineThrough>El número de la línea actual (comienza en 1). Para calcular este valor, todas las agrupaciones se ignoran y el contador comienza desde el inicio del informe.</LineThrough>
     <PageCopyNumber>Devuelve el número de copia actual de una página (comienza en 1).</PageCopyNumber>
     <PageLine>Devuelve el número de línea actual de una página (empieza desde 1).</PageLine>
     <PageNofM>Un cadena localizada, mostrando "Página N de M" dónde N es la página actual y M es TotalPageCount del informe.</PageNofM>
