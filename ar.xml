@@ -2946,7 +2946,6 @@
     <AllowApplyBrushNegative>السماح بتطبيق فرشة معكوسة</AllowApplyBrushNegative>
     <AllowApplyColorNegative>السماح بتطبيق لون معكوس</AllowApplyColorNegative>
     <AllowApplyStyle>السماح للتطبيق النمط</AllowApplyStyle>
-    <AllowDataWriting>السماح بالكتابة في البيانات</AllowDataWriting>
     <AllowExpressions>السماح بالتعبيرات</AllowExpressions>
     <AllowHtmlTags>علامات تسمح هتمل</AllowHtmlTags>
     <AllowSeries>السماح بالسلاسل</AllowSeries>
@@ -3111,6 +3110,7 @@
     <DataTextField>نص البيانات الميدانية</DataTextField>
     <DataType>نوع البيانات</DataType>
     <DataUrl>وصلة</DataUrl>
+    <DataWriting>الكتابة في البيانات</DataWriting>
     <DateInfo>وحتى الآن معلومات اضافية</DateInfo>
     <DateTimeStep>خطوة وقت وتاريخ</DateTimeStep>
     <Default>افتراضي</Default>
@@ -3814,8 +3814,8 @@
     <Views>آراء</Views>
   </QueryBuilder>
   <Questions>
-    <qnAllowDataWriting>السماح بذلك يتيح للتطبيق تغيير بيانات قواعد البيانات الخاصة بك: يمكن إضافة صفوف الجداول وتحديثها وحذفها، ولا يمكن للمصمم التراجع عن تغيير البيانات.</qnAllowDataWriting>
-    <qnAllowDataWritingResponsibility>أنت تتحمل المسؤولية عما تتم كتابته. هل تسمح بالكتابة؟</qnAllowDataWritingResponsibility>
+    <qnDataWriting>السماح بذلك يتيح للتطبيق تغيير بيانات قواعد البيانات الخاصة بك: يمكن إضافة صفوف الجداول وتحديثها وحذفها، ولا يمكن للمصمم التراجع عن تغيير البيانات.</qnDataWriting>
+    <qnDataWritingResponsibility>أنت تتحمل المسؤولية عما تتم كتابته. هل تسمح بالكتابة؟</qnDataWritingResponsibility>
     <qnConfiguration>الرجاء اختيار نمط الإعدادات للوحة الخصائص. النمط يعتمد على عدد الخصائص المعروضة وحجم تعقيدها في التقرير. بإمكانك تغيير النمط لاحقا من القائمة المنسدلة للوحة الخصائص.</qnConfiguration>
     <qnDictionaryNew>هل ترغب في فتح فرص جديدة للقاموس؟</qnDictionaryNew>
     <qnLanguageNew>هل تغيرت لغة التقرير. وسيؤدي ذلك إلى تقرير جديد رمز جيل. أنت معينة تريد حفظ لغة جديدة؟</qnLanguageNew>

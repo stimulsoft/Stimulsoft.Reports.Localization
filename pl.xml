@@ -3872,7 +3872,6 @@
     <AllowApplyLineColor>Zezwalaj na stosowanie koloru linii</AllowApplyLineColor>
     <AllowApplyStyle>Zezwól na zastosowanie stylu</AllowApplyStyle>
     <AllowCleanSignature>Zezwalaj na wyczyszczenie podpisu</AllowCleanSignature>
-    <AllowDataWriting>Zezwól na zapis do danych</AllowDataWriting>
     <AllowExpressions>Dopuść wyrażenia</AllowExpressions>
     <AllowHtmlTags>Zezwól na metki (znaczniki) HTML</AllowHtmlTags>
     <AllowNull>Zezwalaj na Null</AllowNull>
@@ -4094,6 +4093,7 @@
     <DataTransformation>Transformacja danych</DataTransformation>
     <DataType>Typ danych</DataType>
     <DataUrl>URL danych</DataUrl>
+    <DataWriting>Zapis do danych</DataWriting>
     <DateInfo>Informacje o datach</DateInfo>
     <DateTimeMode>Tryb daty i czasu</DateTimeMode>
     <DateTimeStep>Data godzina krok</DateTimeStep>
@@ -5114,8 +5114,8 @@
     <Views>Widoki</Views>
   </QueryBuilder>
   <Questions>
-    <qnAllowDataWriting>Zezwolenie na to pozwala aplikacji zmieniać dane w Twoich bazach danych: wiersze tabel mogą być dodawane, zmieniane i usuwane, a zmiany danych nie można cofnąć w projektancie.</qnAllowDataWriting>
-    <qnAllowDataWritingResponsibility>Bierzesz odpowiedzialność za to, co zostanie zapisane. Zezwolić na zapis?</qnAllowDataWritingResponsibility>
+    <qnDataWriting>Zezwolenie na to pozwala aplikacji zmieniać dane w Twoich bazach danych: wiersze tabel mogą być dodawane, zmieniane i usuwane, a zmiany danych nie można cofnąć w projektancie.</qnDataWriting>
+    <qnDataWritingResponsibility>Bierzesz odpowiedzialność za to, co zostanie zapisane. Zezwolić na zapis?</qnDataWritingResponsibility>
     <qnConfiguration>Proszę wybrać typ konfiguracji dla panelu właściwości. Typ wybranej konfiguracji zależy od ilości widocznych właściwości i ich złożoności dla autora raportów. Możesz zawsze zmienić typ z menu kontekstowego dla tego panelu.</qnConfiguration>
     <qnCopyCategory>Czy chcesz skopiować wszystkie zmienne tej kategorii?</qnCopyCategory>
     <qnCovertColumnType>Zmieniłeś typ kolumny, czy chcesz włączyć transformację danych kolumny dla tego źródła danych?</qnCovertColumnType>

@@ -3869,7 +3869,6 @@
     <AllowApplyLineColor>Tillåt tillämpa linjefärg</AllowApplyLineColor>
     <AllowApplyStyle>Tillåt applicera stil</AllowApplyStyle>
     <AllowCleanSignature>Tillåt rensa signatur</AllowCleanSignature>
-    <AllowDataWriting>Tillåt skrivning till data</AllowDataWriting>
     <AllowExpressions>Tillåt uttryck</AllowExpressions>
     <AllowHtmlTags>Tillåt html-taggar</AllowHtmlTags>
     <AllowNull>Tillåt null</AllowNull>
@@ -4091,6 +4090,7 @@
     <DataTransformation>Datatransformation</DataTransformation>
     <DataType>Datatyp</DataType>
     <DataUrl>Data-URL</DataUrl>
+    <DataWriting>Skrivning till data</DataWriting>
     <DateInfo>Dateinformation</DateInfo>
     <DateTimeMode>Datum-tid-läge</DateTimeMode>
     <DateTimeStep>Datumtid steg</DateTimeStep>
@@ -5111,8 +5111,8 @@
     <Views>Vyer</Views>
   </QueryBuilder>
   <Questions>
-    <qnAllowDataWriting>Om du tillåter detta kan ett program ändra data i dina databaser: tabellernas rader kan läggas till, uppdateras och tas bort, och en ändring av data kan inte ångras av designern.</qnAllowDataWriting>
-    <qnAllowDataWritingResponsibility>Du tar ansvaret för det som skrivs. Tillåta skrivning?</qnAllowDataWritingResponsibility>
+    <qnDataWriting>Om du tillåter detta kan ett program ändra data i dina databaser: tabellernas rader kan läggas till, uppdateras och tas bort, och en ändring av data kan inte ångras av designern.</qnDataWriting>
+    <qnDataWritingResponsibility>Du tar ansvaret för det som skrivs. Tillåta skrivning?</qnDataWritingResponsibility>
     <qnConfiguration>Vänligen välj typ av konfiguration för egenskapspanelen. Den valda typen av konfiguration beror på antalet synliga egenskaper och deras komplexitet för utvecklaren av rapporten. Du kan alltid ändra konfigurationstypen från kontextmenyn i egenskapspanelen.</qnConfiguration>
     <qnCopyCategory>Vill du kopiera alla variabler i den här kategorin?</qnCopyCategory>
     <qnCovertColumnType>Du har ändrat kolumntypen. Vill du aktivera datatransformation för kolumnen för denna datakälla?</qnCovertColumnType>

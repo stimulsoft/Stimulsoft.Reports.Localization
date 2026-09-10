@@ -3874,7 +3874,6 @@
     <AllowApplyLineColor>Consenti applicazione colore linea</AllowApplyLineColor>
     <AllowApplyStyle>Consenti Applicazione Stile</AllowApplyStyle>
     <AllowCleanSignature>Consenti pulizia firma</AllowCleanSignature>
-    <AllowDataWriting>Consenti scrittura nei dati</AllowDataWriting>
     <AllowExpressions>Consenti espressioni</AllowExpressions>
     <AllowHtmlTags>Consenti tag Html</AllowHtmlTags>
     <AllowNull>Consenti Null</AllowNull>
@@ -4096,6 +4095,7 @@
     <DataTransformation>Trasformazione dati</DataTransformation>
     <DataType>Tipo Dati</DataType>
     <DataUrl>URL dati</DataUrl>
+    <DataWriting>Scrittura nei dati</DataWriting>
     <DateInfo>Informazioni data</DateInfo>
     <DateTimeMode>Modalità data/ora</DateTimeMode>
     <DateTimeStep>Incremento Date Time</DateTimeStep>
@@ -5116,8 +5116,8 @@
     <Views>Viste</Views>
   </QueryBuilder>
   <Questions>
-    <qnAllowDataWriting>Consentendolo, un'applicazione può modificare i dati dei vostri database: le righe delle tabelle possono essere inserite, aggiornate ed eliminate, e una modifica dei dati non può essere annullata dal designer.</qnAllowDataWriting>
-    <qnAllowDataWritingResponsibility>Vi assumete la responsabilità di ciò che viene scritto. Consentire la scrittura?</qnAllowDataWritingResponsibility>
+    <qnDataWriting>Consentendolo, un'applicazione può modificare i dati dei vostri database: le righe delle tabelle possono essere inserite, aggiornate ed eliminate, e una modifica dei dati non può essere annullata dal designer.</qnDataWriting>
+    <qnDataWritingResponsibility>Vi assumete la responsabilità di ciò che viene scritto. Consentire la scrittura?</qnDataWritingResponsibility>
     <qnConfiguration>Scegli il tipo di configurazione per il pannello delle proprietà. Il tipo di configurazione selezionata determina il numero delle proprietà visibili e la loro complessità. Puoi sempre cambiare il tipo di configurazione dal menù di scelta rapida del pannello delle proprietà.</qnConfiguration>
     <qnCopyCategory>Vuoi copiare tutte le variabili di questa categoria?</qnCopyCategory>
     <qnCovertColumnType>Hai cambiato il tipo di colonna, vuoi abilitare la trasformazione dei dati della colonna per questa origine dati?</qnCovertColumnType>

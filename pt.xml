@@ -3875,7 +3875,6 @@
     <AllowApplyLineColor>Permitir aplicação de cores nas linhas</AllowApplyLineColor>
     <AllowApplyStyle>Permitir aplicar estilo</AllowApplyStyle>
     <AllowCleanSignature>Permitir limpar assinatura</AllowCleanSignature>
-    <AllowDataWriting>Permitir escrita nos dados</AllowDataWriting>
     <AllowExpressions>Permitir expressões</AllowExpressions>
     <AllowHtmlTags>Permitir Tags Html</AllowHtmlTags>
     <AllowNull>Permitir Nulo</AllowNull>
@@ -4097,6 +4096,7 @@
     <DataTransformation>Transformação de Dados</DataTransformation>
     <DataType>Tipo de dados</DataType>
     <DataUrl>URL de Dados</DataUrl>
+    <DataWriting>Escrita nos dados</DataWriting>
     <DateInfo>Informação da data</DateInfo>
     <DateTimeMode>Modo DataHora</DateTimeMode>
     <DateTimeStep>Passo de Data/Hora</DateTimeStep>
@@ -5117,8 +5117,8 @@
     <Views>Vistas</Views>
   </QueryBuilder>
   <Questions>
-    <qnAllowDataWriting>Ao permitir, uma aplicação pode alterar os dados das suas bases de dados: as linhas das tabelas podem ser inseridas, atualizadas e eliminadas, e uma alteração dos dados não pode ser anulada pelo designer.</qnAllowDataWriting>
-    <qnAllowDataWritingResponsibility>Assume a responsabilidade pelo que é escrito. Permitir a escrita?</qnAllowDataWritingResponsibility>
+    <qnDataWriting>Ao permitir, uma aplicação pode alterar os dados das suas bases de dados: as linhas das tabelas podem ser inseridas, atualizadas e eliminadas, e uma alteração dos dados não pode ser anulada pelo designer.</qnDataWriting>
+    <qnDataWritingResponsibility>Assume a responsabilidade pelo que é escrito. Permitir a escrita?</qnDataWritingResponsibility>
     <qnConfiguration>Por favor, escolha o tipo de configuração para o
 painel de propriedades. O tipo de configuração escolhida depende do
 número de propriedades visíveis e da sua complexidade para o utilizador. Poderá sempre que quiser mudar o tipo de configuração no menu de

@@ -3874,7 +3874,6 @@
     <AllowApplyLineColor>Çizgi Rengi Uygulamaya İzin Ver</AllowApplyLineColor>
     <AllowApplyStyle>Stili Uygulamaya İzin Ver</AllowApplyStyle>
     <AllowCleanSignature>Temiz İmzaya İzin Ver</AllowCleanSignature>
-    <AllowDataWriting>Verilere Yazmaya İzin Ver</AllowDataWriting>
     <AllowExpressions>İfadelere İzin Ver</AllowExpressions>
     <AllowHtmlTags>HTML Etiketlerine İzin Ver</AllowHtmlTags>
     <AllowNull>Boşluğa izin ver</AllowNull>
@@ -4096,6 +4095,7 @@
     <DataTransformation>Veri Dönüşümü</DataTransformation>
     <DataType>Veri Türü</DataType>
     <DataUrl>Veri URL'si </DataUrl>
+    <DataWriting>Verilere yazma</DataWriting>
     <DateInfo>Tarih Bilgisi </DateInfo>
     <DateTimeMode>TarihSaat Modu</DateTimeMode>
     <DateTimeStep>Tarih Saat Adımı </DateTimeStep>
@@ -5116,8 +5116,8 @@
     <Views>Görünümler</Views>
   </QueryBuilder>
   <Questions>
-    <qnAllowDataWriting>Buna izin vermek, bir uygulamanın veritabanlarınızdaki verileri değiştirmesine olanak tanır: tabloların satırları eklenebilir, güncellenebilir ve silinebilir; verilerdeki bir değişiklik tasarımcı tarafından geri alınamaz.</qnAllowDataWriting>
-    <qnAllowDataWritingResponsibility>Yazılanların sorumluluğunu siz üstlenirsiniz. Yazmaya izin verilsin mi?</qnAllowDataWritingResponsibility>
+    <qnDataWriting>Buna izin vermek, bir uygulamanın veritabanlarınızdaki verileri değiştirmesine olanak tanır: tabloların satırları eklenebilir, güncellenebilir ve silinebilir; verilerdeki bir değişiklik tasarımcı tarafından geri alınamaz.</qnDataWriting>
+    <qnDataWritingResponsibility>Yazılanların sorumluluğunu siz üstlenirsiniz. Yazmaya izin verilsin mi?</qnDataWritingResponsibility>
     <qnConfiguration>Lütfen özellikler paneli için yapılandırma türünü seçin. Görünen özelliklerin sayısı ve rapor geliştiricisi için bunların karmaşıklığı, seçilen yapılandırma türüne bağlıdır. Yapılandırma türünü özellikler panelinin içerik menüsünden istediğiniz zaman değiştirebilirsiniz.</qnConfiguration>
     <qnCopyCategory>Bu kategorideki tüm değişkenleri kopyalamak istiyor musunuz?</qnCopyCategory>
     <qnCovertColumnType>Sütun türünü değiştirdiniz, bu veri kaynağı için sütun veri dönüşümünü etkinleştirmek istiyor musunuz?</qnCovertColumnType>

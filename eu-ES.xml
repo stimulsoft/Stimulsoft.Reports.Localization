@@ -2337,7 +2337,6 @@
     <AllowApplyBrushNegative>Brotxa Negatiboa Aplikatzea baimendu</AllowApplyBrushNegative>
     <AllowApplyColorNegative>Kolore Negatiboa Aplikatzea baimendu</AllowApplyColorNegative>
     <AllowApplyStyle>Estiloa Aplikatzea baimendu</AllowApplyStyle>
-    <AllowDataWriting>Datuetan idaztea baimendu</AllowDataWriting>
     <AllowExpressions>Adierazpenak baimendu</AllowExpressions>
     <AllowHtmlTags>Html Etiketak baimendu</AllowHtmlTags>
     <AllowSeries>Segidak baimendu</AllowSeries>
@@ -2483,6 +2482,7 @@
     <DataSources>Datu Iturriak</DataSources>
     <DataTextField>Datu Testuen Eremua</DataTextField>
     <DataType>Datu motak</DataType>
+    <DataWriting>Datuetan idaztea</DataWriting>
     <DateInfo>Dataren informazioa</DateInfo>
     <DateTimeStep>Data / Ordua Urratsa</DateTimeStep>
     <Default>Estandarra</Default>
@@ -3120,8 +3120,8 @@
     <Views>Ikuspegiak</Views>
   </QueryBuilder>
   <Questions>
-    <qnAllowDataWriting>Hau baimentzeak aplikazio bati zure datu-baseen datuak aldatzeko aukera ematen dio: taulen errenkadak txertatu, eguneratu eta ezabatu daitezke, eta diseinatzaileak ezin du datuen aldaketa desegin.</qnAllowDataWriting>
-    <qnAllowDataWritingResponsibility>Idazten denaren erantzukizuna zure gain hartzen duzu. Idaztea baimendu?</qnAllowDataWritingResponsibility>
+    <qnDataWriting>Hau baimentzeak aplikazio bati zure datu-baseen datuak aldatzeko aukera ematen dio: taulen errenkadak txertatu, eguneratu eta ezabatu daitezke, eta diseinatzaileak ezin du datuen aldaketa desegin.</qnDataWriting>
+    <qnDataWritingResponsibility>Idazten denaren erantzukizuna zure gain hartzen duzu. Idaztea baimendu?</qnDataWritingResponsibility>
     <qnConfiguration>Mesedez, aukeratu propietateen panelerako konfigurazioa. Aukeratutako letra tipoak erabakiko du txostenaren garatzailerako erakutsiko diren propietateen kopurua eta konplexutasuna. Edozein unetan alda daiteke konfigurazioa, propietateen paneleko laster-menuaren bidez.</qnConfiguration>
     <qnDictionaryNew>Hiztegi Berria sortu?</qnDictionaryNew>
     <qnLanguageNew>Txostenaren hizkuntza aldatu duzu. Txostenerako beste kode bat sorraraziko du horrek. Gorde nahi duzu?</qnLanguageNew>

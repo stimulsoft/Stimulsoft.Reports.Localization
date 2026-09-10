@@ -3871,7 +3871,6 @@
     <AllowApplyLineColor>Allow Apply Line Color</AllowApplyLineColor>
     <AllowApplyStyle>Memperbolehkan menerapkan Corak</AllowApplyStyle>
     <AllowCleanSignature>Izinkan Tanda Tangan Bersih</AllowCleanSignature>
-    <AllowDataWriting>Memperbolehkan Penulisan Data</AllowDataWriting>
     <AllowExpressions>Memperbolehkan Ekspresi </AllowExpressions>
     <AllowHtmlTags>Memperbolehkan Tag HTML</AllowHtmlTags>
     <AllowNull>Izinkan Null</AllowNull>
@@ -4093,6 +4092,7 @@
     <DataTransformation>Data Transformation</DataTransformation>
     <DataType>Tipe Data</DataType>
     <DataUrl>URL Data</DataUrl>
+    <DataWriting>Penulisan data</DataWriting>
     <DateInfo>Info Tanggal</DateInfo>
     <DateTimeMode>Mode DateTime</DateTimeMode>
     <DateTimeStep>Tanggal Waktu Tindakan</DateTimeStep>
@@ -5112,8 +5112,8 @@
     <Views>Lihat</Views>
   </QueryBuilder>
   <Questions>
-    <qnAllowDataWriting>Mengizinkan ini membuat aplikasi dapat mengubah data basis data Anda: baris tabel dapat ditambahkan, diperbarui, dan dihapus, dan perubahan data tidak dapat dibatalkan oleh perancang.</qnAllowDataWriting>
-    <qnAllowDataWritingResponsibility>Anda mengambil tanggung jawab atas apa yang ditulis. Izinkan penulisan?</qnAllowDataWritingResponsibility>
+    <qnDataWriting>Mengizinkan ini membuat aplikasi dapat mengubah data basis data Anda: baris tabel dapat ditambahkan, diperbarui, dan dihapus, dan perubahan data tidak dapat dibatalkan oleh perancang.</qnDataWriting>
+    <qnDataWritingResponsibility>Anda mengambil tanggung jawab atas apa yang ditulis. Izinkan penulisan?</qnDataWritingResponsibility>
     <qnConfiguration>Silahkan pilih tipe konfigurasi untuk panel propertis. Tipe dari konfigurasi yang terpilih tergantung dari properti yang terlihat dan tingkat kesulitan untuk para pengembang laporan. Anda juga dapat merubah tipe konfigurasi dari konteks menu di panel properti.</qnConfiguration>
     <qnCopyCategory>Apakah Anda ingin menyalin semua variabel dari kategori ini?</qnCopyCategory>
     <qnCovertColumnType>Anda telah mengubah tipe kolom. Apakah Anda ingin mengaktifkan transformasi data kolom untuk sumber data ini?</qnCovertColumnType>

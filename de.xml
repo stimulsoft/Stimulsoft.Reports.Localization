@@ -3872,7 +3872,6 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <AllowApplyLineColor>Linienfarbe erlauben</AllowApplyLineColor>
     <AllowApplyStyle>Angewendete Stil</AllowApplyStyle>
     <AllowCleanSignature>Erlauben, die Unterschrift zu leeren</AllowCleanSignature>
-    <AllowDataWriting>Schreiben in die Daten zulassen</AllowDataWriting>
     <AllowExpressions>Ausdrücke zulassen</AllowExpressions>
     <AllowHtmlTags>Html-Tags auswerten</AllowHtmlTags>
     <AllowNull>Null erlauben</AllowNull>
@@ -4094,6 +4093,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <DataTransformation>Datenumwandlung</DataTransformation>
     <DataType>Datentyp</DataType>
     <DataUrl>Daten-URL</DataUrl>
+    <DataWriting>Schreiben in die Daten</DataWriting>
     <DateInfo>Datumsinformation</DateInfo>
     <DateTimeMode>DateTime-Modus</DateTimeMode>
     <DateTimeStep>Datum/Uhrzeit Schritt</DateTimeStep>
@@ -5114,8 +5114,8 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Views>Ansichten</Views>
   </QueryBuilder>
   <Questions>
-    <qnAllowDataWriting>Wenn Sie dies erlauben, kann eine Anwendung die Daten Ihrer Datenbanken ändern: Zeilen der Tabellen können eingefügt, geändert und gelöscht werden, und eine Änderung der Daten kann vom Designer nicht rückgängig gemacht werden.</qnAllowDataWriting>
-    <qnAllowDataWritingResponsibility>Sie übernehmen die Verantwortung für das, was geschrieben wird. Das Schreiben erlauben?</qnAllowDataWritingResponsibility>
+    <qnDataWriting>Wenn Sie dies erlauben, kann eine Anwendung die Daten Ihrer Datenbanken ändern: Zeilen der Tabellen können eingefügt, geändert und gelöscht werden, und eine Änderung der Daten kann vom Designer nicht rückgängig gemacht werden.</qnDataWriting>
+    <qnDataWritingResponsibility>Sie übernehmen die Verantwortung für das, was geschrieben wird. Das Schreiben erlauben?</qnDataWritingResponsibility>
     <qnConfiguration>Bitte wählen Sie den Konfigurationstyp des Eigenschaften Panels. Die Anzahl der sichtbaren Eigenschaften hängt von dieser Einstellung ab. Sie kann jederzeit über das Kontextmenü des Eigenschaften Panels geändert werden.</qnConfiguration>
     <qnCopyCategory>Möchten Sie alle Variablen dieser Kategorie kopieren?</qnCopyCategory>
     <qnCovertColumnType>Sie haben den Spalte-Typen geändert. Wollen Sie die Datentransformation der Spalte für diese Datenquelle aktivieren?</qnCovertColumnType>

@@ -3621,7 +3621,6 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <AllowApplyColorNegative>Alkalmazza az elfogadott szín negatívot</AllowApplyColorNegative>
     <AllowApplyLineColor>Vonalszín engedélyezése</AllowApplyLineColor>
     <AllowApplyStyle>Stílus elfogadást megenged</AllowApplyStyle>
-    <AllowDataWriting>Adatokba írás engedélyezése</AllowDataWriting>
     <AllowExpressions>Alkalmazza a kifejezést</AllowExpressions>
     <AllowHtmlTags>Html Tagok elfogadása</AllowHtmlTags>
     <AllowNull>Null engedélyezése</AllowNull>
@@ -3832,6 +3831,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <DataTransformation>Adat transzformáció</DataTransformation>
     <DataType>Adat típus</DataType>
     <DataUrl>Adat URL</DataUrl>
+    <DataWriting>Adatok írása</DataWriting>
     <DateInfo>Dátum infó</DateInfo>
     <DateTimeMode>Dátum/idő mód</DateTimeMode>
     <DateTimeStep>Date Time lépés</DateTimeStep>
@@ -4784,8 +4784,8 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <Views>Nézetek</Views>
   </QueryBuilder>
   <Questions>
-    <qnAllowDataWriting>Ha ezt engedélyezi, egy alkalmazás módosíthatja az adatbázisai adatait: a táblák sorai beszúrhatók, módosíthatók és törölhetők, és az adatok módosítását a tervező nem tudja visszavonni.</qnAllowDataWriting>
-    <qnAllowDataWritingResponsibility>Ön vállalja a felelősséget azért, ami beírásra kerül. Engedélyezi az írást?</qnAllowDataWritingResponsibility>
+    <qnDataWriting>Ha ezt engedélyezi, egy alkalmazás módosíthatja az adatbázisai adatait: a táblák sorai beszúrhatók, módosíthatók és törölhetők, és az adatok módosítását a tervező nem tudja visszavonni.</qnDataWriting>
+    <qnDataWritingResponsibility>Ön vállalja a felelősséget azért, ami beírásra kerül. Engedélyezi az írást?</qnDataWritingResponsibility>
     <qnConfiguration>Kérem válasszon konfigurációs típust a tulajdonság panelhez. A kiválasztott beállítás fűgg a megjelenő tulajdonságok számától és szerkesztett jelentés összetettségétől. Bármikor megváltoztathatja a beállítás típusát a tulajdnonság panel helyi menüjében.</qnConfiguration>
     <qnCopyCategory>Másolni szeretné ezen kategória összes változóját?</qnCopyCategory>
     <qnDictionaryNew>Új szótárat kíván létrehozni?</qnDictionaryNew>

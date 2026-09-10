@@ -3876,7 +3876,6 @@
     <AllowApplyLineColor>ラインカラー適用を許可</AllowApplyLineColor>
     <AllowApplyStyle>適用スタイルを許可</AllowApplyStyle>
     <AllowCleanSignature>クリーンな署名を許可する</AllowCleanSignature>
-    <AllowDataWriting>データへの書き込みを許可</AllowDataWriting>
     <AllowExpressions>式を許可</AllowExpressions>
     <AllowHtmlTags>HTMLタグを許可</AllowHtmlTags>
     <AllowNull>Nullを許可</AllowNull>
@@ -4098,6 +4097,7 @@
     <DataTransformation>データ変換</DataTransformation>
     <DataType>データ・タイプ</DataType>
     <DataUrl>データURL</DataUrl>
+    <DataWriting>データへの書き込み</DataWriting>
     <DateInfo>日付情報</DateInfo>
     <DateTimeMode>DateTimeモード</DateTimeMode>
     <DateTimeStep>日時ステップ</DateTimeStep>
@@ -5118,8 +5118,8 @@
     <Views>ビュー</Views>
   </QueryBuilder>
   <Questions>
-    <qnAllowDataWriting>これを許可すると、アプリケーションがデータベースのデータを変更できるようになります。テーブルの行の追加、更新、削除が可能になり、データの変更はデザイナーで元に戻すことはできません。</qnAllowDataWriting>
-    <qnAllowDataWritingResponsibility>書き込まれる内容については、お客様が責任を負います。書き込みを許可しますか？</qnAllowDataWritingResponsibility>
+    <qnDataWriting>これを許可すると、アプリケーションがデータベースのデータを変更できるようになります。テーブルの行の追加、更新、削除が可能になり、データの変更はデザイナーで元に戻すことはできません。</qnDataWriting>
+    <qnDataWritingResponsibility>書き込まれる内容については、お客様が責任を負います。書き込みを許可しますか？</qnDataWritingResponsibility>
     <qnConfiguration>プロパティパネルの設定の種類を選択してください。 選択した構成のタイプは、表示されるプロパティの数とレポートの開発者にとっての複雑さによって異なります。 プロパティパネルのコンテキストメニューからいつでも設定タイプを変更できます。</qnConfiguration>
     <qnCopyCategory>このカテゴリのすべての変数をコピーしますか？</qnCopyCategory>
     <qnCovertColumnType>列タイプを変更しました。このデータソースの列データ変換を有効にしますか？</qnCovertColumnType>

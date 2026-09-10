@@ -3905,7 +3905,6 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <AllowApplyLineColor>Povoliť aplikovať farbu čiary</AllowApplyLineColor>
     <AllowApplyStyle>Povoliť aplikovať štýl</AllowApplyStyle>
     <AllowCleanSignature>Povoliť prázdny podpis</AllowCleanSignature>
-    <AllowDataWriting>Povoliť zápis do údajov</AllowDataWriting>
     <AllowExpressions>Povoliť výrazy</AllowExpressions>
     <AllowHtmlTags>Povoliť Html tagy</AllowHtmlTags>
     <AllowNull>Povoliť null hodnoty</AllowNull>
@@ -4128,6 +4127,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <DataTransformation>Transformácia dát</DataTransformation>
     <DataType>Dátový typ</DataType>
     <DataUrl>URL</DataUrl>
+    <DataWriting>Zápis do údajov</DataWriting>
     <DateInfo>Informácie o dátach</DateInfo>
     <DateTimeMode>Režim dátumu a času</DateTimeMode>
     <DateTimeStep>Časový krok</DateTimeStep>
@@ -5153,8 +5153,8 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <Views>Pohľady</Views>
   </QueryBuilder>
   <Questions>
-    <qnAllowDataWriting>Povolením umožníte aplikácii meniť údaje vašich databáz: riadky tabuliek možno vkladať, upravovať a mazať a zmenu údajov nemožno v návrhári vrátiť späť.</qnAllowDataWriting>
-    <qnAllowDataWritingResponsibility>Preberáte zodpovednosť za to, čo sa zapíše. Povoliť zápis?</qnAllowDataWritingResponsibility>
+    <qnDataWriting>Povolením umožníte aplikácii meniť údaje vašich databáz: riadky tabuliek možno vkladať, upravovať a mazať a zmenu údajov nemožno v návrhári vrátiť späť.</qnDataWriting>
+    <qnDataWritingResponsibility>Preberáte zodpovednosť za to, čo sa zapíše. Povoliť zápis?</qnDataWritingResponsibility>
     <qnConfiguration>Prosím, vyberte typ konfigurácie pre panel vlastností. Typ vybranej konfigurácie závisí od počtu viditeľných vlastností a ich zložitosti pre vývoj zostavy. Vždy môžete zmeniť konfiguráciu z kontextového menu pre panel vlastností.</qnConfiguration>
     <qnCopyCategory>Chcete skopírovať všetky premenné tejto kategórie?</qnCopyCategory>
     <qnCovertColumnType>Zmenili ste typ stĺpca, chcete povoliť transformáciu údajov stĺpca pre tento zdroj údajov?</qnCovertColumnType>

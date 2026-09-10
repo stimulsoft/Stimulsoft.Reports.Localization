@@ -3876,7 +3876,6 @@
     <AllowApplyLineColor>라인 색상을 허용</AllowApplyLineColor>
     <AllowApplyStyle>스타일적용을 허용</AllowApplyStyle>
     <AllowCleanSignature>서명 지우기 허용</AllowCleanSignature>
-    <AllowDataWriting>데이터에 쓰기 허용</AllowDataWriting>
     <AllowExpressions>식을 허용</AllowExpressions>
     <AllowHtmlTags>HTML 태그 허용</AllowHtmlTags>
     <AllowNull>널 허용</AllowNull>
@@ -4098,6 +4097,7 @@
     <DataTransformation>데이터 변환</DataTransformation>
     <DataType>데이터 유형</DataType>
     <DataUrl>데이터 URL</DataUrl>
+    <DataWriting>데이터 쓰기</DataWriting>
     <DateInfo>날짜 정보</DateInfo>
     <DateTimeMode>날짜시간 모드</DateTimeMode>
     <DateTimeStep>일시 단계</DateTimeStep>
@@ -5118,8 +5118,8 @@
     <Views>보기</Views>
   </QueryBuilder>
   <Questions>
-    <qnAllowDataWriting>이를 허용하면 응용 프로그램이 데이터베이스의 데이터를 변경할 수 있습니다. 테이블의 행을 삽입, 업데이트, 삭제할 수 있으며 데이터 변경은 디자이너에서 취소할 수 없습니다.</qnAllowDataWriting>
-    <qnAllowDataWritingResponsibility>기록되는 내용에 대한 책임은 사용자에게 있습니다. 쓰기를 허용하시겠습니까?</qnAllowDataWritingResponsibility>
+    <qnDataWriting>이를 허용하면 응용 프로그램이 데이터베이스의 데이터를 변경할 수 있습니다. 테이블의 행을 삽입, 업데이트, 삭제할 수 있으며 데이터 변경은 디자이너에서 취소할 수 없습니다.</qnDataWriting>
+    <qnDataWritingResponsibility>기록되는 내용에 대한 책임은 사용자에게 있습니다. 쓰기를 허용하시겠습니까?</qnDataWritingResponsibility>
     <qnConfiguration>속성 패널의 설정 유형을 선택하십시오. 선택한 구성 유형은 표시되는 속성의 수와 보고서 개발자의 복잡성에 따라 달라집니다. 속성 패널의 컨텍스트 메뉴에서 언제든지 설정 유형을 변경할 수 있습니다.</qnConfiguration>
     <qnCopyCategory>이 범주의 모든 변수를 복사하시겠습니까?</qnCopyCategory>
     <qnCovertColumnType>열 유형을 변경했습니다. 이 데이터 소스에 대해 열 데이터 변환을 활성화하시겠습니까?</qnCovertColumnType>

@@ -1472,7 +1472,6 @@
     <AggregateFunctions>توابع متراکم</AggregateFunctions>
     <Alias>نام مستعار</Alias>
     <Alignment>هم ترازی</Alignment>
-    <AllowDataWriting>اجازه نوشتن در داده‌ها</AllowDataWriting>
     <AllowSorting>اجازه مرتب سازی</AllowSorting>
     <AlternatingBackColor>جایگزینی رنگ پیش زمینه</AlternatingBackColor>
     <Angle>زاویه</Angle>
@@ -1571,6 +1570,7 @@
     <DataSources>منابع داده</DataSources>
     <DataTextField>فیلد متن داده</DataTextField>
     <DataType>نوع داده</DataType>
+    <DataWriting>نوشتن در داده‌ها</DataWriting>
     <DateInfo>اطلاعات داده</DateInfo>
     <Default>پیش فرض</Default>
     <DefaultNamespace>پیش فرضNamespace</DefaultNamespace>
@@ -2029,8 +2029,8 @@
     <Views>دید</Views>
   </QueryBuilder>
   <Questions>
-    <qnAllowDataWriting>اجازه دادن به این گزینه به برنامه امکان می‌دهد داده‌های پایگاه‌های داده شما را تغییر دهد: سطرهای جدول‌ها می‌توانند درج، به‌روزرسانی و حذف شوند و تغییر داده‌ها توسط طراح قابل بازگرداندن نیست.</qnAllowDataWriting>
-    <qnAllowDataWritingResponsibility>مسئولیت آنچه نوشته می‌شود بر عهده شماست. آیا نوشتن مجاز باشد؟</qnAllowDataWritingResponsibility>
+    <qnDataWriting>اجازه دادن به این گزینه به برنامه امکان می‌دهد داده‌های پایگاه‌های داده شما را تغییر دهد: سطرهای جدول‌ها می‌توانند درج، به‌روزرسانی و حذف شوند و تغییر داده‌ها توسط طراح قابل بازگرداندن نیست.</qnDataWriting>
+    <qnDataWritingResponsibility>مسئولیت آنچه نوشته می‌شود بر عهده شماست. آیا نوشتن مجاز باشد؟</qnDataWritingResponsibility>
     <qnDictionaryNew>آیا می خواهید دیکشنری جدید ایجاد کنید؟</qnDictionaryNew>
     <qnLanguageNew>شما زبان گزارش را تغییر دادید.این منتهی به تولید کد گزارش جدید می شود.ایا شما مطمئنید که میخواهید زبان جدید را ذخیره کنید؟</qnLanguageNew>
     <qnPageDelete>آیا می خواهید صفحه را حذف کنید؟</qnPageDelete>

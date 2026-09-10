@@ -3945,7 +3945,6 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <AllowApplyLineColor>Permiteți aplicare culoare linie</AllowApplyLineColor>
     <AllowApplyStyle>Permite aplicarea stilului</AllowApplyStyle>
     <AllowCleanSignature>Permiteți ștergerea semnăturii</AllowCleanSignature>
-    <AllowDataWriting>Permite scrierea în date</AllowDataWriting>
     <AllowExpressions>Permite Expresii</AllowExpressions>
     <AllowHtmlTags>Permite tag-uri Html </AllowHtmlTags>
     <AllowNull>Permite Null</AllowNull>
@@ -4168,6 +4167,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <DataTransformation>Transformarea Datelor</DataTransformation>
     <DataType>Tipul datelor</DataType>
     <DataUrl>URL-ul de date</DataUrl>
+    <DataWriting>Scrierea în date</DataWriting>
     <DateInfo>Informaţii dată</DateInfo>
     <DateTimeMode>Modul DateTime</DateTimeMode>
     <DateTimeStep>Interval Pas</DateTimeStep>
@@ -5193,8 +5193,8 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Views>Vizualizări</Views>
   </QueryBuilder>
   <Questions>
-    <qnAllowDataWriting>Permiterea acesteia lasă o aplicație să modifice datele bazelor dumneavoastră de date: rândurile tabelelor pot fi inserate, actualizate și șterse, iar o modificare a datelor nu poate fi anulată de designer.</qnAllowDataWriting>
-    <qnAllowDataWritingResponsibility>Vă asumați responsabilitatea pentru ceea ce se scrie. Permiteți scrierea?</qnAllowDataWritingResponsibility>
+    <qnDataWriting>Permiterea acesteia lasă o aplicație să modifice datele bazelor dumneavoastră de date: rândurile tabelelor pot fi inserate, actualizate și șterse, iar o modificare a datelor nu poate fi anulată de designer.</qnDataWriting>
+    <qnDataWritingResponsibility>Vă asumați responsabilitatea pentru ceea ce se scrie. Permiteți scrierea?</qnDataWritingResponsibility>
     <qnConfiguration>Vă rugăm alegeţi tipul configuraţiei pentru panoul de proprietaţi. Tipul configuraţiei selectate depinde de numărul proprietaţilor vizibile si complexitatea lor pentru dezvoltatorul rapoartelor. Puteţi întotdeauna schimba tipul configuraţiei din meniul contextual al panoului de proprietaţi.</qnConfiguration>
     <qnCopyCategory>Doriți să copiați toate variabilele din această categorie?</qnCopyCategory>
     <qnCovertColumnType>Ați schimbat tipul coloanei, doriți să activați transformarea datelor coloanei pentru această sursă de date?</qnCovertColumnType>
