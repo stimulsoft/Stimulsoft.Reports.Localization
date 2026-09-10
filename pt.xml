@@ -3875,6 +3875,7 @@
     <AllowApplyLineColor>Permitir aplicação de cores nas linhas</AllowApplyLineColor>
     <AllowApplyStyle>Permitir aplicar estilo</AllowApplyStyle>
     <AllowCleanSignature>Permitir limpar assinatura</AllowCleanSignature>
+    <AllowDataWriting>Permitir escrita nos dados</AllowDataWriting>
     <AllowExpressions>Permitir expressões</AllowExpressions>
     <AllowHtmlTags>Permitir Tags Html</AllowHtmlTags>
     <AllowNull>Permitir Nulo</AllowNull>
@@ -5116,6 +5117,8 @@
     <Views>Vistas</Views>
   </QueryBuilder>
   <Questions>
+    <qnAllowDataWriting>Ao permitir, uma aplicação pode alterar os dados das suas bases de dados: as linhas das tabelas podem ser inseridas, atualizadas e eliminadas, e uma alteração dos dados não pode ser anulada pelo designer.</qnAllowDataWriting>
+    <qnAllowDataWritingResponsibility>Assume a responsabilidade pelo que é escrito. Permitir a escrita?</qnAllowDataWritingResponsibility>
     <qnConfiguration>Por favor, escolha o tipo de configuração para o
 painel de propriedades. O tipo de configuração escolhida depende do
 número de propriedades visíveis e da sua complexidade para o utilizador. Poderá sempre que quiser mudar o tipo de configuração no menu de

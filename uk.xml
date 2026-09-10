@@ -3869,6 +3869,7 @@
     <AllowApplyLineColor>Дозволити застосування кольору лінії</AllowApplyLineColor>
     <AllowApplyStyle>Дозволити викор. стилі</AllowApplyStyle>
     <AllowCleanSignature>Дозволити очищення підпису</AllowCleanSignature>
+    <AllowDataWriting>Дозволити запис у дані</AllowDataWriting>
     <AllowExpressions>Дозволити вирази</AllowExpressions>
     <AllowHtmlTags>Дозволити Html теги</AllowHtmlTags>
     <AllowNull>Дозволити Null</AllowNull>
@@ -5110,6 +5111,8 @@
     <Views>Запити</Views>
   </QueryBuilder>
   <Questions>
+    <qnAllowDataWriting>Дозвіл дає програмі змінювати дані ваших баз даних: рядки таблиць можна буде додавати, змінювати та видаляти, а скасувати зміну даних дизайнер не зможе.</qnAllowDataWriting>
+    <qnAllowDataWritingResponsibility>Ви берете на себе відповідальність за те, що буде записано. Дозволити запис?</qnAllowDataWritingResponsibility>
     <qnConfiguration>Будь ласка, виберіть тип конфігурації для панелі властивостей. Від типу обраної конфігурації залежить кількість відображуваних властивостей та їх складність для розробника звітів. Ви завжди зможете змінити тип конфігурації з контекстного меню панелі властивостей.</qnConfiguration>
     <qnCopyCategory>Скопіювати всі змінні цієї категорії?</qnCopyCategory>
     <qnCovertColumnType>Ви змінили тип стовпця. Бажаєте увімкнути перетворення даних стовпця для цього джерела даних?</qnCovertColumnType>

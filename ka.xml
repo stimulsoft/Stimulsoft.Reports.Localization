@@ -3962,6 +3962,7 @@
     <AllowApplyLineColor>ხაზის ფერის</AllowApplyLineColor>
     <AllowApplyStyle>სტილის მინიჭების დაშვება</AllowApplyStyle>
     <AllowCleanSignature>ხელმოწერის წაშლის ნებართვა</AllowCleanSignature>
+    <AllowDataWriting>მონაცემებში ჩაწერის დაშვება</AllowDataWriting>
     <AllowExpressions>გამოთქმების დაშვება</AllowExpressions>
     <AllowHtmlTags>Html Tag-ების დაშვება</AllowHtmlTags>
     <AllowNull>null-ის ნებართვა</AllowNull>
@@ -5209,6 +5210,8 @@
     <Views>ხედები</Views>
   </QueryBuilder>
   <Questions>
+    <qnAllowDataWriting>ამის ნებართვა აპლიკაციას საშუალებას აძლევს შეცვალოს თქვენი მონაცემთა ბაზების მონაცემები: ცხრილების სტრიქონების დამატება, განახლება და წაშლა შესაძლებელია, ხოლო მონაცემების ცვლილების გაუქმება დიზაინერს არ შეუძლია.</qnAllowDataWriting>
+    <qnAllowDataWritingResponsibility>თქვენ იღებთ პასუხისმგებლობას ჩაწერილზე. დაიშვას ჩაწერა?</qnAllowDataWritingResponsibility>
     <qnConfiguration>გთხოვთ აირჩიოთ თვისებების პანელის კონფიგურაცია. არჩეული კონფიგურაცია იმოქმედებს ხელმისაწვდომ თვისებებზე და მათ ჩაშლებზე. შემდგომში თქვენ შეგიძლიათ შეცვალოთ კონფიგურაციის ტიპი თვისებების პანელის კონტექსტური მენიუდან.</qnConfiguration>
     <qnCopyCategory>გსურთ მონიშნული კატეგორიიდან ყველა ცვლადის კოპირება?</qnCopyCategory>
     <qnCovertColumnType>თქვენ შეცვალეთ სვეტის ტიპი. გსურთ ჩართოთ სვეტის მონაცემების გარდაქმნა ამ მონაცემთა წყაროსთვის?</qnCovertColumnType>

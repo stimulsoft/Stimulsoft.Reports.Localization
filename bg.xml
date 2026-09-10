@@ -3898,6 +3898,7 @@
     <AllowApplyLineColor>Позволете прилагане на цвета на линията</AllowApplyLineColor>
     <AllowApplyStyle>Разреши прилагане стил</AllowApplyStyle>
     <AllowCleanSignature>Разрешаване на чист подпис</AllowCleanSignature>
+    <AllowDataWriting>Разреши запис в данните</AllowDataWriting>
     <AllowExpressions>Разреши Изрази</AllowExpressions>
     <AllowHtmlTags>Разреши Html </AllowHtmlTags>
     <AllowNull>Разрешаване на Null</AllowNull>
@@ -5141,6 +5142,8 @@
     <Views>Изгледи</Views>
   </QueryBuilder>
   <Questions>
+    <qnAllowDataWriting>Разрешаването позволява на приложението да променя данните във вашите бази данни: редовете на таблиците могат да бъдат добавяни, променяни и изтривани, а промяната на данните не може да бъде отменена от дизайнера.</qnAllowDataWriting>
+    <qnAllowDataWritingResponsibility>Вие поемате отговорността за това, което се записва. Да се разреши ли записът?</qnAllowDataWritingResponsibility>
     <qnConfiguration>Моля, изберете типа конфигурация за панела със свойствата. Типа на избраната конфигурация зависи от броя на видимите свойства и тяхната сложност за създателя на отчета. Вие можете винаги да промените типа от контексното меню на панела със свойствата.</qnConfiguration>
     <qnCopyCategory>Искате ли да копирате всички променливи от тази категория?</qnCopyCategory>
     <qnCovertColumnType>Променихте типа на колоната, искате ли да активирате преобразуването на данни на колона за този източник на данни?</qnCovertColumnType>

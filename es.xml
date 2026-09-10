@@ -3872,6 +3872,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <AllowApplyLineColor>Permitir aplicar color de línea</AllowApplyLineColor>
     <AllowApplyStyle>Permitir Aplicar Estilo</AllowApplyStyle>
     <AllowCleanSignature>Permitir firma limpia</AllowCleanSignature>
+    <AllowDataWriting>Permitir Escritura en los Datos</AllowDataWriting>
     <AllowExpressions>Permitir Expresiones</AllowExpressions>
     <AllowHtmlTags>Permitir Etiquetas Html</AllowHtmlTags>
     <AllowNull>Permitir nulos</AllowNull>
@@ -5113,6 +5114,8 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <Views>Vistas</Views>
   </QueryBuilder>
   <Questions>
+    <qnAllowDataWriting>Si lo permite, una aplicación podrá cambiar los datos de sus bases de datos: las filas de las tablas se pueden insertar, actualizar y eliminar, y el diseñador no puede deshacer un cambio de los datos.</qnAllowDataWriting>
+    <qnAllowDataWritingResponsibility>Usted asume la responsabilidad de lo que se escribe. ¿Permitir la escritura?</qnAllowDataWritingResponsibility>
     <qnConfiguration>Por favor, escoge la configuración para el panel de las propiedades. El tipo escogido determinará el número y la complejidad de las propiedades mostradas para el desarrollador del informe. En cualquier momento se puede cambiar la configuración a través del menú contextual del panel de propiedades.</qnConfiguration>
     <qnCopyCategory>¿Quiere copiar todas las variables de esta categoría?</qnCopyCategory>
     <qnCovertColumnType>Ha cambiado el tipo de columna, ¿desea habilitar la transformación de datos de columna para esta fuente de datos?</qnCovertColumnType>

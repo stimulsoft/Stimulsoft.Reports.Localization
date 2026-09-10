@@ -1193,6 +1193,10 @@
     <StiCheckSumYes>بالا</StiCheckSumYes>
     <StiColumnDirectionAcrossThenDown>سرتاسر سپس پایین</StiColumnDirectionAcrossThenDown>
     <StiColumnDirectionDownThenAcross>پایین سپس سرتاسر</StiColumnDirectionDownThenAcross>
+    <StiCompilationAccessAllow>اجازه دادن</StiCompilationAccessAllow>
+    <StiCompilationAccessAsk>پرسیدن</StiCompilationAccessAsk>
+    <StiCompilationAccessDeny>رد کردن</StiCompilationAccessDeny>
+    <StiCompilationAccessForceInterpretation>اجبار حالت تفسیر</StiCompilationAccessForceInterpretation>
     <StiCrossHorAlignmentCenter>Center</StiCrossHorAlignmentCenter>
     <StiCrossHorAlignmentLeft>Left</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>None</StiCrossHorAlignmentNone>
@@ -1468,6 +1472,7 @@
     <AggregateFunctions>توابع متراکم</AggregateFunctions>
     <Alias>نام مستعار</Alias>
     <Alignment>هم ترازی</Alignment>
+    <AllowDataWriting>اجازه نوشتن در داده‌ها</AllowDataWriting>
     <AllowSorting>اجازه مرتب سازی</AllowSorting>
     <AlternatingBackColor>جایگزینی رنگ پیش زمینه</AlternatingBackColor>
     <Angle>زاویه</Angle>
@@ -2024,6 +2029,8 @@
     <Views>دید</Views>
   </QueryBuilder>
   <Questions>
+    <qnAllowDataWriting>اجازه دادن به این گزینه به برنامه امکان می‌دهد داده‌های پایگاه‌های داده شما را تغییر دهد: سطرهای جدول‌ها می‌توانند درج، به‌روزرسانی و حذف شوند و تغییر داده‌ها توسط طراح قابل بازگرداندن نیست.</qnAllowDataWriting>
+    <qnAllowDataWritingResponsibility>مسئولیت آنچه نوشته می‌شود بر عهده شماست. آیا نوشتن مجاز باشد؟</qnAllowDataWritingResponsibility>
     <qnDictionaryNew>آیا می خواهید دیکشنری جدید ایجاد کنید؟</qnDictionaryNew>
     <qnLanguageNew>شما زبان گزارش را تغییر دادید.این منتهی به تولید کد گزارش جدید می شود.ایا شما مطمئنید که میخواهید زبان جدید را ذخیره کنید؟</qnLanguageNew>
     <qnPageDelete>آیا می خواهید صفحه را حذف کنید؟</qnPageDelete>

@@ -3869,6 +3869,7 @@
     <AllowApplyLineColor>Разрешить цвет линии</AllowApplyLineColor>
     <AllowApplyStyle>Разрешить применять стили</AllowApplyStyle>
     <AllowCleanSignature>Разрешить очистку подписи</AllowCleanSignature>
+    <AllowDataWriting>Разрешить запись в данные</AllowDataWriting>
     <AllowExpressions>Разрешить выражения</AllowExpressions>
     <AllowHtmlTags>Разрешить HTML теги</AllowHtmlTags>
     <AllowNull>Разрешить null</AllowNull>
@@ -5110,6 +5111,8 @@
     <Views>Представления</Views>
   </QueryBuilder>
   <Questions>
+    <qnAllowDataWriting>Разрешение позволит приложению изменять данные ваших баз данных: строки таблиц можно будет добавлять, изменять и удалять, а отменить изменение данных дизайнер не сможет.</qnAllowDataWriting>
+    <qnAllowDataWritingResponsibility>Вы берете на себя ответственность за то, что будет записано. Разрешить запись?</qnAllowDataWritingResponsibility>
     <qnConfiguration>Пожалуйста, выберите тип конфигурации для панели свойств. От типа выбранной конфигурации зависит количество отображаемых свойств и их сложности для разработчика отчетов. Вы всегда сможете изменить тип конфигурации из контекстного меню панели свойств.</qnConfiguration>
     <qnCopyCategory>Скопировать все переменные из этой категории?</qnCopyCategory>
     <qnCovertColumnType>Вы изменили тип колонки. Хотите ли вы включить преобразование данных колонки для этого источника данных?</qnCovertColumnType>

@@ -3026,6 +3026,10 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <StiColumnShape3DBox>Doboz</StiColumnShape3DBox>
     <StiColumnShape3DPartialPyramid>Csonkagúla</StiColumnShape3DPartialPyramid>
     <StiColumnShape3DPyramid>Gúla</StiColumnShape3DPyramid>
+    <StiCompilationAccessAllow>Engedélyezés</StiCompilationAccessAllow>
+    <StiCompilationAccessAsk>Kérdés</StiCompilationAccessAsk>
+    <StiCompilationAccessDeny>Megtagadás</StiCompilationAccessDeny>
+    <StiCompilationAccessForceInterpretation>Értelmezési mód kényszerítése</StiCompilationAccessForceInterpretation>
     <StiCrossHorAlignmentCenter>Középre</StiCrossHorAlignmentCenter>
     <StiCrossHorAlignmentLeft>Balra</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>Nincs</StiCrossHorAlignmentNone>
@@ -3617,6 +3621,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <AllowApplyColorNegative>Alkalmazza az elfogadott szín negatívot</AllowApplyColorNegative>
     <AllowApplyLineColor>Vonalszín engedélyezése</AllowApplyLineColor>
     <AllowApplyStyle>Stílus elfogadást megenged</AllowApplyStyle>
+    <AllowDataWriting>Adatokba írás engedélyezése</AllowDataWriting>
     <AllowExpressions>Alkalmazza a kifejezést</AllowExpressions>
     <AllowHtmlTags>Html Tagok elfogadása</AllowHtmlTags>
     <AllowNull>Null engedélyezése</AllowNull>
@@ -4779,6 +4784,8 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <Views>Nézetek</Views>
   </QueryBuilder>
   <Questions>
+    <qnAllowDataWriting>Ha ezt engedélyezi, egy alkalmazás módosíthatja az adatbázisai adatait: a táblák sorai beszúrhatók, módosíthatók és törölhetők, és az adatok módosítását a tervező nem tudja visszavonni.</qnAllowDataWriting>
+    <qnAllowDataWritingResponsibility>Ön vállalja a felelősséget azért, ami beírásra kerül. Engedélyezi az írást?</qnAllowDataWritingResponsibility>
     <qnConfiguration>Kérem válasszon konfigurációs típust a tulajdonság panelhez. A kiválasztott beállítás fűgg a megjelenő tulajdonságok számától és szerkesztett jelentés összetettségétől. Bármikor megváltoztathatja a beállítás típusát a tulajdnonság panel helyi menüjében.</qnConfiguration>
     <qnCopyCategory>Másolni szeretné ezen kategória összes változóját?</qnCopyCategory>
     <qnDictionaryNew>Új szótárat kíván létrehozni?</qnDictionaryNew>

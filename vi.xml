@@ -3874,6 +3874,7 @@
     <AllowApplyLineColor>Cho phép áp dụng màu đường kẻ</AllowApplyLineColor>
     <AllowApplyStyle>Cho phép áp dụng phong cách</AllowApplyStyle>
     <AllowCleanSignature>Cho phép chữ ký rõ ràng</AllowCleanSignature>
+    <AllowDataWriting>Cho phép ghi vào dữ liệu</AllowDataWriting>
     <AllowExpressions>Cho phép biểu thức</AllowExpressions>
     <AllowHtmlTags>Cho phép các thẻ HTML</AllowHtmlTags>
     <AllowNull>Cho phép Null</AllowNull>
@@ -5114,6 +5115,8 @@
     <Views>Lượt xem</Views>
   </QueryBuilder>
   <Questions>
+    <qnAllowDataWriting>Cho phép điều này nghĩa là ứng dụng có thể thay đổi dữ liệu trong các cơ sở dữ liệu của bạn: các hàng của bảng có thể được thêm, cập nhật và xóa, và trình thiết kế không thể hoàn tác thay đổi dữ liệu.</qnAllowDataWriting>
+    <qnAllowDataWritingResponsibility>Bạn chịu trách nhiệm về những gì được ghi. Cho phép ghi?</qnAllowDataWritingResponsibility>
     <qnConfiguration>Vui lòng chọn loại cấu hình cho bảng thuộc tính. Loại cấu hình được chọn phụ thuộc vào số lượng thuộc tính có thể nhìn thấy và sự phức tạp của chúng đối với nhà phát triển báo cáo. Bạn luôn có thể thay đổi kiểu cấu hình từ trình đơn ngữ cảnh của bảng thuộc tính.</qnConfiguration>
     <qnCopyCategory>Bạn có muốn sao chép tất cả các biến của danh mục này không?</qnCopyCategory>
     <qnCovertColumnType>Bạn đã thay đổi kiểu cột, bạn có muốn bật chuyển đổi dữ liệu cột cho nguồn dữ liệu này không?</qnCovertColumnType>

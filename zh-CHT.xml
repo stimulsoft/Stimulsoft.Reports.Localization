@@ -3872,6 +3872,7 @@
     <AllowApplyLineColor>允許套用線條顏色</AllowApplyLineColor>
     <AllowApplyStyle>允許套用樣式</AllowApplyStyle>
     <AllowCleanSignature>允許清除簽名</AllowCleanSignature>
+    <AllowDataWriting>允許寫入資料</AllowDataWriting>
     <AllowExpressions>允許運算式</AllowExpressions>
     <AllowHtmlTags>允許Html標籤</AllowHtmlTags>
     <AllowNull>允許 Null</AllowNull>
@@ -5113,6 +5114,8 @@
     <Views>視圖</Views>
   </QueryBuilder>
   <Questions>
+    <qnAllowDataWriting>允許後，應用程式可以變更您資料庫中的資料：表格中的列可以被插入、更新和刪除，並且資料的變更無法透過設計器復原。</qnAllowDataWriting>
+    <qnAllowDataWritingResponsibility>您需要對寫入的內容承擔責任。是否允許寫入？</qnAllowDataWritingResponsibility>
     <qnConfiguration>請選擇屬性面板的組態類型。可見屬性的數量及其對報表開發者的複雜度取決於所選的組態類型。您隨時可以從屬性面板的內容選單變更組態類型。</qnConfiguration>
     <qnCopyCategory>要複製此類別的所有變數嗎？</qnCopyCategory>
     <qnCovertColumnType>您已變更欄的類型。是否要為此資料來源啟用欄資料轉換？</qnCovertColumnType>

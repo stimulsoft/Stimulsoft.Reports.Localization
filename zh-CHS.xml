@@ -3886,6 +3886,7 @@
     <AllowApplyLineColor>允许应用线条颜色</AllowApplyLineColor>
     <AllowApplyStyle>允许套用样式</AllowApplyStyle>
     <AllowCleanSignature>允许干净签名</AllowCleanSignature>
+    <AllowDataWriting>允许写入数据</AllowDataWriting>
     <AllowExpressions>允许表达式</AllowExpressions>
     <AllowHtmlTags>允许Html标签</AllowHtmlTags>
     <AllowNull>允许Null</AllowNull>
@@ -5130,6 +5131,8 @@
     <Views>视图</Views>
   </QueryBuilder>
   <Questions>
+    <qnAllowDataWriting>允许后，应用程序可以更改您数据库中的数据：表中的行可以被插入、更新和删除，并且数据的更改无法通过设计器撤消。</qnAllowDataWriting>
+    <qnAllowDataWritingResponsibility>您需要对写入的内容承担责任。是否允许写入？</qnAllowDataWritingResponsibility>
     <qnConfiguration>请为属性面板选择配置的类型. 所选配置的类型依赖于课件属性的个数和它们对报表开发人员的复杂性.您可以通过属性面板的上下文菜单更改配置类型.</qnConfiguration>
     <qnCopyCategory>是否要复制此类别的所有变量</qnCopyCategory>
     <qnCovertColumnType>您更改了列类型，是否要为此数据源启用列数据转换？</qnCovertColumnType>

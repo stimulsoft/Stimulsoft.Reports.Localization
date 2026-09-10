@@ -3897,6 +3897,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <AllowApplyLineColor>Dopusti primjenu boje linija</AllowApplyLineColor>
     <AllowApplyStyle>Dopusti primjenu stila</AllowApplyStyle>
     <AllowCleanSignature>Dopusti čisti potpis</AllowCleanSignature>
+    <AllowDataWriting>Dozvoli pisanje u podatke</AllowDataWriting>
     <AllowExpressions>Dozvoli izraze</AllowExpressions>
     <AllowHtmlTags>Dozvoli Html tagove</AllowHtmlTags>
     <AllowNull>Dopusti Null</AllowNull>
@@ -5139,6 +5140,8 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <Views>Pogledi</Views>
   </QueryBuilder>
   <Questions>
+    <qnAllowDataWriting>Ako to dopustite, aplikacija može mijenjati podatke vaših baza podataka: retci tablica mogu se dodavati, mijenjati i brisati, a promjenu podataka dizajner ne može poništiti.</qnAllowDataWriting>
+    <qnAllowDataWritingResponsibility>Preuzimate odgovornost za ono što se zapisuje. Dopustiti pisanje?</qnAllowDataWritingResponsibility>
     <qnConfiguration>Molim odaberite tip konfiguracije za panel svojstva. tip odabrane konfiguracije ovisi o broju vidljivih svojstava i njihovoj složenosti za programera izvještaja. Možete uvijek promijeniti tip konfiuracije iz konetkstnog menija panela svojstava.</qnConfiguration>
     <qnCopyCategory>Želite li kopirati sve varijable ove kategorije?</qnCopyCategory>
     <qnCovertColumnType>Promijenili ste tip kolone, želite li omogućiti transformaciju podataka kolone za ovaj izvor podataka?</qnCovertColumnType>

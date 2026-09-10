@@ -3872,6 +3872,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <AllowApplyLineColor>Autoriser l'application de la couleur de ligne</AllowApplyLineColor>
     <AllowApplyStyle>Appliquer le style</AllowApplyStyle>
     <AllowCleanSignature>Autoriser la suppression de la signature</AllowCleanSignature>
+    <AllowDataWriting>Autoriser l'écriture dans les données</AllowDataWriting>
     <AllowExpressions>Autoriser les expressions</AllowExpressions>
     <AllowHtmlTags>Autoriser les balises Html</AllowHtmlTags>
     <AllowNull>Autoriser Null</AllowNull>
@@ -5113,6 +5114,8 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <Views>Vues</Views>
   </QueryBuilder>
   <Questions>
+    <qnAllowDataWriting>En l'autorisant, une application peut modifier les données de vos bases de données : les lignes des tables peuvent être insérées, mises à jour et supprimées, et une modification des données ne peut pas être annulée par le concepteur.</qnAllowDataWriting>
+    <qnAllowDataWritingResponsibility>Vous prenez la responsabilité de ce qui est écrit. Autoriser l'écriture ?</qnAllowDataWritingResponsibility>
     <qnConfiguration>Choisissez le type de configuration pour le panneau de propriétés. Le nombre de propriétés visibles et leur complexité pour le développeur de rapports dépendent du type de configuration sélectionné. Vous pouvez toujours modifier par la suite le type de configuration depuis le menu contextuel du panneau de propriétés.</qnConfiguration>
     <qnCopyCategory>Voulez-vous copier toutes les variables de cette catégorie ?</qnCopyCategory>
     <qnCovertColumnType>Vous avez changé le type de colonne, souhaitez-vous activer la transformation des données de colonne pour cette source de données ?</qnCovertColumnType>

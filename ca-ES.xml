@@ -3869,6 +3869,7 @@
     <AllowApplyLineColor>Permetre aplicar el color de línia</AllowApplyLineColor>
     <AllowApplyStyle>Permet aplicar estil</AllowApplyStyle>
     <AllowCleanSignature>Permetre netejar la signatura</AllowCleanSignature>
+    <AllowDataWriting>Permet escriure a les dades</AllowDataWriting>
     <AllowExpressions>Permet expressions</AllowExpressions>
     <AllowHtmlTags>Permet etiquetes Html</AllowHtmlTags>
     <AllowNull>Permetre valors nuls</AllowNull>
@@ -5109,6 +5110,8 @@
     <Views>Vistes</Views>
   </QueryBuilder>
   <Questions>
+    <qnAllowDataWriting>Si ho permeteu, una aplicació podrà canviar les dades de les vostres bases de dades: les files de les taules es poden inserir, actualitzar i esborrar, i el dissenyador no pot desfer un canvi de les dades.</qnAllowDataWriting>
+    <qnAllowDataWritingResponsibility>Assumiu la responsabilitat del que s'escriu. Voleu permetre l'escriptura?</qnAllowDataWritingResponsibility>
     <qnConfiguration>Si us plau, tria la configuració per al panell de les propietats. El tipus triat determinarà el nombre i la complexitat de les propietats mostrades per al desenvolupador de l’informe. En qualsevol moment es pot canviar la configuració a través del menú contextual del panell de propietats.</qnConfiguration>
     <qnCopyCategory>Voleu copiar totes les variables d'aquesta categoria?</qnCopyCategory>
     <qnCovertColumnType>Has canviat el tipus de columna. Vols activar la transformació de dades de columna per a aquesta font de dades?</qnCovertColumnType>

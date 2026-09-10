@@ -3874,6 +3874,7 @@
     <AllowApplyLineColor>Allow Apply Line Colour</AllowApplyLineColor>
     <AllowApplyStyle>Allow Apply Style</AllowApplyStyle>
     <AllowCleanSignature>Allow Clean Signature</AllowCleanSignature>
+    <AllowDataWriting>Allow Data Writing</AllowDataWriting>
     <AllowExpressions>Allow Expressions</AllowExpressions>
     <AllowHtmlTags>Allow HTML Tags</AllowHtmlTags>
     <AllowNull>Allow Null</AllowNull>
@@ -5115,6 +5116,8 @@
     <Views>Views</Views>
   </QueryBuilder>
   <Questions>
+    <qnAllowDataWriting>Allowing this lets an application change the data of your databases: the rows of the tables can be inserted, updated and deleted, and a change of the data cannot be taken back by the designer.</qnAllowDataWriting>
+    <qnAllowDataWritingResponsibility>You take the responsibility for what is written. Allow the writing?</qnAllowDataWritingResponsibility>
     <qnConfiguration>Please choose the type of configuration for the properties panel. The type of the selected configuration depends on the number of visible properties and their complexity for the developer of reports. You can always change the configuration type from the context menu of the properties panel.</qnConfiguration>
     <qnCopyCategory>Do you want to copy all variables of this category?</qnCopyCategory>
     <qnCovertColumnType>You changed the column type. Do you want to enable column data transformation for this data source?</qnCovertColumnType>

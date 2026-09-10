@@ -3872,6 +3872,7 @@
     <AllowApplyLineColor>Επιτρέψτε την Εφαρμογή Χρώματος Γραμμής</AllowApplyLineColor>
     <AllowApplyStyle>Επιτρέπεται Εφαρμογή Στυλ</AllowApplyStyle>
     <AllowCleanSignature>Επιτρέψτε Καθαρή Υπογραφή</AllowCleanSignature>
+    <AllowDataWriting>Επιτρέπεται η εγγραφή στα δεδομένα</AllowDataWriting>
     <AllowExpressions>Επιτρέπονται οι Εκφράσεις</AllowExpressions>
     <AllowHtmlTags>Επιτρέπονται Html Tags</AllowHtmlTags>
     <AllowNull>Επιτρέψτε Κενό (null)</AllowNull>
@@ -5112,6 +5113,8 @@
     <Views>Προβολές</Views>
   </QueryBuilder>
   <Questions>
+    <qnAllowDataWriting>Αν το επιτρέψετε, μια εφαρμογή μπορεί να αλλάξει τα δεδομένα των βάσεων δεδομένων σας: οι γραμμές των πινάκων μπορούν να προστεθούν, να ενημερωθούν και να διαγραφούν, και μια αλλαγή των δεδομένων δεν μπορεί να αναιρεθεί από τον σχεδιαστή.</qnAllowDataWriting>
+    <qnAllowDataWritingResponsibility>Αναλαμβάνετε την ευθύνη για ό,τι γράφεται. Να επιτραπεί η εγγραφή;</qnAllowDataWritingResponsibility>
     <qnConfiguration>Παρακαλούμε επιλέξτε τον τύπο της διαμόρφωσης για το πάνελ ιδιοτήτων. Ο τύπος της επιλεγμένης διαμόρφωσης εξαρτάται από τον αριθμό των ορατών ιδιοτήτων και την πολυπλοκότητά τους για τον κατασκευαστή της αναφοράς. Μπορείτε πάντα να αλλάξετε τον τύπο της διαμόρφωσης από το μενού περιβάλλοντος του πάνελ ιδιοτήτων.</qnConfiguration>
     <qnCopyCategory>Θέλετε να αντιγράψετε όλες τις μεταβλητές αυτής της κατηγορίας?</qnCopyCategory>
     <qnCovertColumnType>Αλλάξατε το είδος στήλης. Επιθυμείτε να ενεργοποιήσετε τον μετασχηματισμό στήλης για αυτή την πηγή δεδομένων?</qnCovertColumnType>

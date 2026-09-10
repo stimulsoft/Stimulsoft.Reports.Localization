@@ -1131,6 +1131,10 @@
     <StiColorScaleTypeColor3>3-Scala di colore</StiColorScaleTypeColor3>
     <StiColumnDirectionAcrossThenDown>Išilgai po to žemyn</StiColumnDirectionAcrossThenDown>
     <StiColumnDirectionDownThenAcross>Žemyn po to išilgai</StiColumnDirectionDownThenAcross>
+    <StiCompilationAccessAllow>Leisti</StiCompilationAccessAllow>
+    <StiCompilationAccessAsk>Klausti</StiCompilationAccessAsk>
+    <StiCompilationAccessDeny>Drausti</StiCompilationAccessDeny>
+    <StiCompilationAccessForceInterpretation>Priverstinis interpretavimo režimas</StiCompilationAccessForceInterpretation>
     <StiDateTimeTypeDate>Data</StiDateTimeTypeDate>
     <StiDateTimeTypeDateAndTime>Data e ora</StiDateTimeTypeDateAndTime>
     <StiDateTimeTypeTime>Ora</StiDateTimeTypeTime>
@@ -1353,6 +1357,7 @@
     <Alignment>Lygiavimas</Alignment>
     <AllowApplyBrushNegative>Consenti di applicare pennello in negativo</AllowApplyBrushNegative>
     <AllowApplyColorNegative>Consenti di applicare colore in negativo</AllowApplyColorNegative>
+    <AllowDataWriting>Leisti rašyti į duomenis</AllowDataWriting>
     <AllowExpressions>Consenti espressioni</AllowExpressions>
     <AllowSeries>Consetnti serie</AllowSeries>
     <AllowSeriesElements>Consenti elementi in serie</AllowSeriesElements>
@@ -1813,6 +1818,8 @@
     <WindowText>Lango tekstas</WindowText>
   </PropertySystemColors>
   <Questions>
+    <qnAllowDataWriting>Tai leidus, programa gali keisti jūsų duomenų bazių duomenis: lentelių eilutes galima įterpti, atnaujinti ir ištrinti, o duomenų pakeitimo dizaineris negali atšaukti.</qnAllowDataWriting>
+    <qnAllowDataWritingResponsibility>Jūs prisiimate atsakomybę už tai, kas įrašoma. Leisti rašymą?</qnAllowDataWritingResponsibility>
     <qnConfiguration>Scegli il tipo di configurazione per il pannello delle proprietà. Il tipo di configurazione selezionata determina il numero delle proprietà visibili e la loro complessità. Puoi sempre cambiare il tipo di configurazione dal menù di scelta rapida del pannello delle proprietà.</qnConfiguration>
     <qnDictionaryNew>Tikrai norite sukurti naują žodyną?</qnDictionaryNew>
     <qnGenerateNewCode>Tikrai norite generuoti naują ataskaitos kodą?</qnGenerateNewCode>

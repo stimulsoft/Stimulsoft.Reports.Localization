@@ -3874,6 +3874,7 @@
     <AllowApplyLineColor>रेखा रंग लागू करने की अनुमति दें</AllowApplyLineColor>
     <AllowApplyStyle>शैली लागू करने की अनुमति दें</AllowApplyStyle>
     <AllowCleanSignature>हस्ताक्षर साफ़ करने की अनुमति दें</AllowCleanSignature>
+    <AllowDataWriting>डेटा में लिखने की अनुमति दें</AllowDataWriting>
     <AllowExpressions>अभिव्यक्तियों की अनुमति दें</AllowExpressions>
     <AllowHtmlTags>HTML टैग की अनुमति दें</AllowHtmlTags>
     <AllowNull>Null की अनुमति दें</AllowNull>
@@ -5114,6 +5115,8 @@
     <Views>दृश्य</Views>
   </QueryBuilder>
   <Questions>
+    <qnAllowDataWriting>इसकी अनुमति देने पर कोई एप्लिकेशन आपके डेटाबेस का डेटा बदल सकता है: तालिकाओं की पंक्तियाँ जोड़ी, बदली और हटाई जा सकती हैं, और डेटा में हुए परिवर्तन को डिज़ाइनर वापस नहीं ला सकता।</qnAllowDataWriting>
+    <qnAllowDataWritingResponsibility>जो लिखा जाएगा उसकी जिम्मेदारी आपकी है। क्या लिखने की अनुमति दें?</qnAllowDataWritingResponsibility>
     <qnConfiguration>कृपया गुण पैनल के लिए कॉन्फ़िगरेशन का प्रकार चुनें। रिपोर्ट डेवलपर के लिए दृश्यमान गुणों की संख्या और उनकी जटिलता चयनित कॉन्फ़िगरेशन प्रकार पर निर्भर करती है। आप गुण पैनल के संदर्भ मेनू से कॉन्फ़िगरेशन प्रकार को हमेशा बदल सकते हैं।</qnConfiguration>
     <qnCopyCategory>क्या आप इस श्रेणी के सभी चर कॉपी करना चाहते हैं?</qnCopyCategory>
     <qnCovertColumnType>आपने कॉलम प्रकार बदल दिया है। क्या आप इस डेटा स्रोत के लिए कॉलम डेटा रूपांतरण सक्षम करना चाहते हैं?</qnCovertColumnType>
