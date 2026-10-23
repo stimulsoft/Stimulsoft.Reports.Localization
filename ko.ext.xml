@@ -18,6 +18,7 @@
     <SetGrowToHeightToTrue>GrowToHeight 속성을 true로 설정합니다.</SetGrowToHeightToTrue>
     <StiAllowHtmlTagsInTextActionLong>HTML 태그를 올바르게 표시하기 위해 구성 요소의 AllowHtmlTags 속성 값을 true로 설정합니다.</StiAllowHtmlTagsInTextActionLong>
     <StiAllowOnDoublePassActionLong>변수의 올바른 계산을 위해 NumberOfPass 속성을 DoublePass로 설정합니다.</StiAllowOnDoublePassActionLong>
+    <StiAllowVariableAsSqlParameterActionLong>변수를 SQL 매개 변수로 사용할 수 있도록 허용하여 해당 값이 쿼리에 전달되도록 합니다.</StiAllowVariableAsSqlParameterActionLong>
     <StiApplyGeneralTextFormatLong>'{0}'구성 요소 '일반적인'형식을 설정합니다.</StiApplyGeneralTextFormatLong>
     <StiApplyGeneralTextFormatShort>일반적인 적용</StiApplyGeneralTextFormatShort>
     <StiCanBreakComponentInContainerActionLong>구성 요소 CanBreak 속성 값을 true로 설정합니다.</StiCanBreakComponentInContainerActionLong>
@@ -32,6 +33,7 @@
     <StiDeleteDataSourceActionLong>보고서에서 데이터 소스를 제거합니다.</StiDeleteDataSourceActionLong>
     <StiDeleteLostPointsActionLong>페이지에서 잃어버린 포인트를 모두 삭제</StiDeleteLostPointsActionLong>
     <StiDeletePageActionLong>보고서에서 페이지를 삭제합니다.</StiDeletePageActionLong>
+    <StiFilterVariableAsExpressionActionLong>필터의 데이터 형식을 Expression으로 설정하여 변수 값과 비교하도록 합니다.</StiFilterVariableAsExpressionActionLong>
     <StiFixCrossLinePrimitiveActionLong>잃어버린 포인트 대신에 새로운 포인트를 작성합니다. 이 작업은 100 % 올바른 해결을 보장하지 않습니다!</StiFixCrossLinePrimitiveActionLong>
     <StiGenerateNewNameComponentActionLong>구성 요소의 새 이름을 생성합니다.</StiGenerateNewNameComponentActionLong>
     <StiGenerateNewNameDataSourceActionLong>데이터 소스의 새 이름을 생성합니다.</StiGenerateNewNameDataSourceActionLong>
@@ -58,6 +60,7 @@
     <StiPropertiesOnlyEngineV1ActionLong>EngineV2에서 지원되지 않는 '{0}'구성 요소의 속성을 해제합니다.</StiPropertiesOnlyEngineV1ActionLong>
     <StiPropertiesOnlyEngineV2ActionLong>EngineV1에서 지원되지 않는 구성 요소의 속성을 해제합니다.</StiPropertiesOnlyEngineV2ActionLong>
     <StiResetPageNumberActionLong>페이지의 ResetPageNumber 속성을 false로 설정합니다.</StiResetPageNumberActionLong>
+    <StiStyleNegativeBorderSizeActionLong>스타일의 음수 테두리 크기를 0으로 설정합니다.</StiStyleNegativeBorderSizeActionLong>
     <StiSwitchToParametersVerticalOrientationAction>'매개변수 Orientation' 보고서 속성의 값을 '세로'로 전환합니다.</StiSwitchToParametersVerticalOrientationAction>
     <StiSwitchWidthAndHeightOfPageActionLong>페이지의 높이와 너비를 변경합니다.</StiSwitchWidthAndHeightOfPageActionLong>
     <StiVerySmallSizesOfComponentsLong>구성 요소의 크기는 보고서 GridSize 값으로 증가합니다. 이 작업은 100 % 정확한 수정이 보장되는 것은 아닙니다!</StiVerySmallSizesOfComponentsLong>
@@ -108,10 +111,18 @@
     <StiEventsAtInterpretationCheckShort>해석 이벤트</StiEventsAtInterpretationCheckShort>
     <StiExpressionElementCheckLong>'{1}'구성 요소의 '{0}'표현식이 잘못 작동합니다. 파서에서 '{2}'메시지가 수신되었습니다.</StiExpressionElementCheckLong>
     <StiExpressionElementCheckShort>식이 잘못 작동합니다!</StiExpressionElementCheckShort>
+    <StiFilterAfterLoadingCheckLong>데이터 밴드 '{0}'은(는) 데이터베이스에서 모든 행을 로드한 후 데이터 원본 '{1}'의 행을 변수 '{2}'(으)로 필터링합니다. 큰 테이블의 경우 쿼리에서 필터링하십시오. 매개 변수 @{2}를 사용하는 조건을 쿼리에 추가하고 변수를 SQL 매개 변수로 사용할 수 있도록 허용하십시오.</StiFilterAfterLoadingCheckLong>
+    <StiFilterAfterLoadingCheckShort>행이 로드된 후 필터링됩니다</StiFilterAfterLoadingCheckShort>
     <StiFilterCircularDependencyElementCheckLong>필터의 순환 종속성은 '{0}' 요소에 있습니다. {0} '요소'의 '부모 키' 속성을 확인하세요!</StiFilterCircularDependencyElementCheckLong>
     <StiFilterCircularDependencyElementCheckShort>원형 필터 종속성입니다</StiFilterCircularDependencyElementCheckShort>
+    <StiFilterColumnNotFoundCheckLong>구성 요소 '{0}'의 필터가 열 '{1}'을(를) 사용하지만 데이터 원본 '{2}'에는 이 열이 없습니다. 필터를 처리할 수 없습니다.</StiFilterColumnNotFoundCheckLong>
+    <StiFilterColumnNotFoundCheckShort>필터 열을 찾을 수 없습니다</StiFilterColumnNotFoundCheckShort>
     <StiFilterValueCheckLong>필터 값 '{0}'이(가) 지정되지 않았습니다. 이 필터는 처리할 수 없습니다.</StiFilterValueCheckLong>
     <StiFilterValueCheckShort>필터 값이 지정되지 않았습니다</StiFilterValueCheckShort>
+    <StiFilterValueTypeCheckLong>구성 요소 '{0}'의 필터가 값 '{1}'과(와) 비교하지만 이 값은 {2} 형식의 값이 아닙니다. 대신 필터가 기본값(0, 현재 날짜 또는 false)과 비교하므로 밴드에 다른 행이 표시됩니다.</StiFilterValueTypeCheckLong>
+    <StiFilterValueTypeCheckShort>필터 값이 데이터 형식과 일치하지 않습니다</StiFilterValueTypeCheckShort>
+    <StiFilterVariableAsTextCheckLong>구성 요소 '{0}'의 필터가 변수 '{1}'과(와) 비교하지만 데이터 형식이 {2}이므로 변수 값이 아니라 이름을 텍스트로 비교합니다. 필터의 데이터 형식을 Expression으로 설정하십시오.</StiFilterVariableAsTextCheckLong>
+    <StiFilterVariableAsTextCheckShort>필터가 변수를 텍스트로 처리합니다</StiFilterVariableAsTextCheckShort>
     <StiFontGlyphsMissingCheckLong>구성 요소 '{1}'의 글꼴 '{0}'에 다음 문자의 글리프가 없습니다: {2}. 이 문자는 PDF 파일에서 빈 사각형으로 표시됩니다.</StiFontGlyphsMissingCheckLong>
     <StiFontGlyphsMissingCheckShort>글꼴에 텍스트의 글리프가 없습니다.</StiFontGlyphsMissingCheckShort>
     <StiFontMissingCheckLong>구성 요소 '{1}'에 지정된 글꼴 '{0}'를 찾을 수 없습니다.</StiFontMissingCheckLong>
@@ -224,8 +235,18 @@
     <StiNoNameDataSourceCheckShort>데이터 소스의 이름이 아닙니다</StiNoNameDataSourceCheckShort>
     <StiNoNameInSourceDataSourceCheckLong>'{0}'데이터 소스의 NameInSource 필드가 입력되어 있지 않습니다. 이 필드를 채울 수없이보고 도구는 데이터베이스의 데이터 소스의 데이터를 찾을 수 없으며 보고서는 렌더링되지 않습니다!</StiNoNameInSourceDataSourceCheckLong>
     <StiNoNameInSourceDataSourceCheckShort>데이터 소스 필드의 NameInSource이 충족되지 않은</StiNoNameInSourceDataSourceCheckShort>
+    <StiSqlParameterDuplicateCheckLong>데이터 원본 '{0}'에 이름이 '{1}'인 매개 변수가 여러 개 있습니다. 쿼리를 실행할 수 없습니다.</StiSqlParameterDuplicateCheckLong>
+    <StiSqlParameterDuplicateCheckShort>SQL 매개 변수가 중복되었습니다</StiSqlParameterDuplicateCheckShort>
+    <StiSqlParameterNotFoundCheckLong>데이터 원본 '{0}'의 쿼리가 매개 변수 @{1}을(를) 사용하지만 데이터 원본에 이 매개 변수가 없고 보고서에도 이 이름의 변수가 없습니다. 보고서를 생성할 때 쿼리가 실패합니다.</StiSqlParameterNotFoundCheckLong>
+    <StiSqlParameterNotFoundCheckShort>쿼리가 정의되지 않은 매개 변수를 사용합니다</StiSqlParameterNotFoundCheckShort>
+    <StiSqlParameterVariableNotFoundCheckLong>데이터 원본 '{0}'의 매개 변수 '{1}'은(는) '{2}'에서 값을 가져오지만 보고서에 이 이름의 변수가 없습니다. 쿼리가 이 매개 변수의 값을 받지 못합니다.</StiSqlParameterVariableNotFoundCheckLong>
+    <StiSqlParameterVariableNotFoundCheckShort>매개 변수가 없는 변수를 참조합니다</StiSqlParameterVariableNotFoundCheckShort>
+    <StiSqlVariableNotAllowedCheckLong>데이터 원본 '{0}'의 쿼리가 매개 변수 @{1}을(를) 사용합니다. 보고서에 변수 '{1}'이(가) 있지만 SQL 매개 변수로 사용할 수 없으므로 값이 쿼리에 전달되지 않고 쿼리가 실패합니다.</StiSqlVariableNotAllowedCheckLong>
+    <StiSqlVariableNotAllowedCheckShort>변수를 SQL 매개 변수로 사용할 수 없습니다</StiSqlVariableNotAllowedCheckShort>
     <StiUndefinedDataSourceCheckLong>정의되지 않은 '{0}'데이터 소스가 보고서에 발견. 보고서 도구는 이러한 종류의 데이터 소스를 제대로 처리 할 수 ​​없습니다. 아마 사용자 정의 데이터 소스가 보고서에서 사용 될 수 있습니다. 이 보고서는 렌더링 할 수 없습니다!</StiUndefinedDataSourceCheckLong>
     <StiUndefinedDataSourceCheckShort>정의되지 않은 데이터 소스</StiUndefinedDataSourceCheckShort>
+    <StiUnusedSqlDataSourceCheckLong>데이터 원본 '{0}'은(는) 보고서에서 사용되지 않지만 보고서를 생성할 때마다 해당 쿼리가 실행됩니다. ConnectOnStart 속성을 끄거나, 데이터 원본을 삭제하거나, 보고서의 RetrieveOnlyUsedData 속성을 설정하십시오.</StiUnusedSqlDataSourceCheckLong>
+    <StiUnusedSqlDataSourceCheckShort>사용되지 않는 데이터 원본이 로드됩니다</StiUnusedSqlDataSourceCheckShort>
   </CheckDataSource>
   <CheckGlobal>
     <Error>오류!</Error>
@@ -281,6 +302,8 @@
     <StiScriptExecutionErrorCheck3Long>'{2}' 구성 요소의 '{1}' 이벤트에서 스크립트 실행 오류가 발생했습니다.</StiScriptExecutionErrorCheck3Long>
     <StiScriptExecutionErrorCheckLong>스크립트 실행 오류가 발생했습니다.</StiScriptExecutionErrorCheckLong>
     <StiScriptExecutionErrorCheckShort>스크립트 실행 오류</StiScriptExecutionErrorCheckShort>
+    <StiStyleNegativeBorderSizeCheckLong>스타일 '{0}'의 테두리 크기가 음수입니다: {1}. 테두리 크기는 0보다 작을 수 없습니다.</StiStyleNegativeBorderSizeCheckLong>
+    <StiStyleNegativeBorderSizeCheckShort>스타일의 테두리 크기가 음수입니다</StiStyleNegativeBorderSizeCheckShort>
   </CheckReport>
   <CheckVariable>
     <StiVariableInitializationCheckLong>'{0}' 변수의 기본값이 잘못되었습니다. 지정한 값으로 변수를 초기화할 수 없습니다.</StiVariableInitializationCheckLong>

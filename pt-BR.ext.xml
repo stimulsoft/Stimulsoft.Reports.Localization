@@ -18,6 +18,7 @@
     <SetGrowToHeightToTrue>Definir a propriedade Aumentar a Altura (GrowToHeight) como verdadeiro</SetGrowToHeightToTrue>
     <StiAllowHtmlTagsInTextActionLong>Defina o valor da propriedade Permitir Tags Html (AllowHtmlTags) do componente como verdadeiro para exibir as tags HTML corretamente.</StiAllowHtmlTagsInTextActionLong>
     <StiAllowOnDoublePassActionLong>Defina a propriedade Número de Passagens (NumberOfPass) como DoublePass para o cálculo correto das variáveis.</StiAllowOnDoublePassActionLong>
+    <StiAllowVariableAsSqlParameterActionLong>Permitir que a variável seja usada como parâmetro SQL, para que seu valor seja passado para a consulta.</StiAllowVariableAsSqlParameterActionLong>
     <StiApplyGeneralTextFormatLong>Defina o formato 'Geral' para o componente '{0}'.</StiApplyGeneralTextFormatLong>
     <StiApplyGeneralTextFormatShort>Aplicar Geral</StiApplyGeneralTextFormatShort>
     <StiCanBreakComponentInContainerActionLong>Defina o valor da propriedade Pode Quebrar (CanBreak) do componente como verdadeiro.</StiCanBreakComponentInContainerActionLong>
@@ -32,6 +33,7 @@
     <StiDeleteDataSourceActionLong>Exclua a Fonte de Dados do relatório.</StiDeleteDataSourceActionLong>
     <StiDeleteLostPointsActionLong>Excluir todos os pontos perdidos em uma página</StiDeleteLostPointsActionLong>
     <StiDeletePageActionLong>Exclua a página do relatório.</StiDeletePageActionLong>
+    <StiFilterVariableAsExpressionActionLong>Definir o tipo de dados do filtro como Expression, para que ele compare com o valor da variável.</StiFilterVariableAsExpressionActionLong>
     <StiFixCrossLinePrimitiveActionLong>Criar novos pontos no lugar dos perdidos. Esta operação não garante uma correção 100% correta!</StiFixCrossLinePrimitiveActionLong>
     <StiGenerateNewNameComponentActionLong>Gere um novo nome para o componente.</StiGenerateNewNameComponentActionLong>
     <StiGenerateNewNameDataSourceActionLong>Gere um novo nome para a Fonte de Dados.</StiGenerateNewNameDataSourceActionLong>
@@ -58,6 +60,7 @@
     <StiPropertiesOnlyEngineV1ActionLong>Desative as propriedades do componente '{0}' que não são suportadas no EngineV2.</StiPropertiesOnlyEngineV1ActionLong>
     <StiPropertiesOnlyEngineV2ActionLong>Desative as propriedades do componente que não são suportadas no EngineV1.</StiPropertiesOnlyEngineV2ActionLong>
     <StiResetPageNumberActionLong>Defina a propriedade Reiniciar Número da Página (ResetPageNumber) da página como falso.</StiResetPageNumberActionLong>
+    <StiStyleNegativeBorderSizeActionLong>Definir como 0 os tamanhos de borda negativos do estilo.</StiStyleNegativeBorderSizeActionLong>
     <StiSwitchToParametersVerticalOrientationAction>Altere o valor da propriedade de relatório 'Orientação dos Parâmetros' para 'Vertical'.</StiSwitchToParametersVerticalOrientationAction>
     <StiSwitchWidthAndHeightOfPageActionLong>Reorganize a altura e a largura da página.</StiSwitchWidthAndHeightOfPageActionLong>
     <StiVerySmallSizesOfComponentsLong>O tamanho do componente será aumentado até o valor do Tamanho de grade (GridSize) do relatório. Esta operação não garante uma correção 100% correta!</StiVerySmallSizesOfComponentsLong>
@@ -108,10 +111,18 @@
     <StiEventsAtInterpretationCheckShort>Eventos na Interpretação</StiEventsAtInterpretationCheckShort>
     <StiExpressionElementCheckLong>A expressão '{0}' no componente '{1}' funciona incorretamente. A seguinte mensagem foi recebida do analisador: '{2}'.</StiExpressionElementCheckLong>
     <StiExpressionElementCheckShort>Uma expressão funciona incorretamente!</StiExpressionElementCheckShort>
+    <StiFilterAfterLoadingCheckLong>A banda de dados '{0}' filtra as linhas da fonte de dados '{1}' pela variável '{2}' depois que todas as linhas são carregadas do banco de dados. Para uma tabela grande, filtre na consulta: adicione à consulta uma condição com o parâmetro @{2} e permita que a variável seja usada como parâmetro SQL.</StiFilterAfterLoadingCheckLong>
+    <StiFilterAfterLoadingCheckShort>As linhas são filtradas após o carregamento</StiFilterAfterLoadingCheckShort>
     <StiFilterCircularDependencyElementCheckLong>A dependência circular do filtro foi encontrada no elemento '{0}'. Verifique a propriedade 'Chave Pai' do elemento '{0}'!</StiFilterCircularDependencyElementCheckLong>
     <StiFilterCircularDependencyElementCheckShort>Dependência circular de filtro</StiFilterCircularDependencyElementCheckShort>
+    <StiFilterColumnNotFoundCheckLong>Um filtro do componente '{0}' usa a coluna '{1}', que a fonte de dados '{2}' não tem. O filtro não pode ser processado.</StiFilterColumnNotFoundCheckLong>
+    <StiFilterColumnNotFoundCheckShort>A coluna do filtro não foi encontrada</StiFilterColumnNotFoundCheckShort>
     <StiFilterValueCheckLong>O valor do filtro de '{0}' não está especificado. Este filtro não pode ser processado.</StiFilterValueCheckLong>
     <StiFilterValueCheckShort>O Valor do filtro não está especificado</StiFilterValueCheckShort>
+    <StiFilterValueTypeCheckLong>Um filtro do componente '{0}' compara com o valor '{1}', que não é um valor do tipo {2}. Em vez disso, o filtro compara com um valor padrão (0, a data atual ou false), portanto a banda mostra outras linhas.</StiFilterValueTypeCheckLong>
+    <StiFilterValueTypeCheckShort>O valor do filtro não corresponde ao seu tipo de dados</StiFilterValueTypeCheckShort>
+    <StiFilterVariableAsTextCheckLong>Um filtro do componente '{0}' compara com a variável '{1}', mas seu tipo de dados é {2}, portanto o filtro compara com o nome como texto, e não com o valor da variável. Defina o tipo de dados do filtro como Expression.</StiFilterVariableAsTextCheckLong>
+    <StiFilterVariableAsTextCheckShort>O filtro trata uma variável como texto</StiFilterVariableAsTextCheckShort>
     <StiFontGlyphsMissingCheckLong>A fonte '{0}' do componente '{1}' não contém glifos para os seguintes caracteres: {2}. Esses caracteres serão exibidos como retângulos vazios em um arquivo PDF.</StiFontGlyphsMissingCheckLong>
     <StiFontGlyphsMissingCheckShort>A fonte não contém glifos para o texto.</StiFontGlyphsMissingCheckShort>
     <StiFontMissingCheckLong>A fonte '{0}' especificada para o componente '{1}' não foi encontrada.</StiFontMissingCheckLong>
@@ -224,8 +235,18 @@
     <StiNoNameDataSourceCheckShort>Não há nome para a Fonte de Dados</StiNoNameDataSourceCheckShort>
     <StiNoNameInSourceDataSourceCheckLong>O campo Nome na Fonte (NameInSource) não está preenchido para a fonte de dados '{0}'. Sem preencher este campo, a ferramenta de relatórios não poderá encontrar os dados para a fonte de dados no banco de dados e o relatório não será construído!</StiNoNameInSourceDataSourceCheckLong>
     <StiNoNameInSourceDataSourceCheckShort>O campo Nome na Fonte (NameInSource) da fonte de dados não está preenchido</StiNoNameInSourceDataSourceCheckShort>
+    <StiSqlParameterDuplicateCheckLong>A fonte de dados '{0}' tem vários parâmetros com o nome '{1}'. A consulta não pode ser executada.</StiSqlParameterDuplicateCheckLong>
+    <StiSqlParameterDuplicateCheckShort>Parâmetro SQL duplicado</StiSqlParameterDuplicateCheckShort>
+    <StiSqlParameterNotFoundCheckLong>A consulta da fonte de dados '{0}' usa o parâmetro @{1}, mas a fonte de dados não tem esse parâmetro e o relatório não tem uma variável com esse nome. A consulta falha quando o relatório é gerado.</StiSqlParameterNotFoundCheckLong>
+    <StiSqlParameterNotFoundCheckShort>A consulta usa um parâmetro não definido</StiSqlParameterNotFoundCheckShort>
+    <StiSqlParameterVariableNotFoundCheckLong>O parâmetro '{1}' da fonte de dados '{0}' obtém seu valor de '{2}', mas o relatório não tem uma variável com esse nome. A consulta não recebe nenhum valor para o parâmetro.</StiSqlParameterVariableNotFoundCheckLong>
+    <StiSqlParameterVariableNotFoundCheckShort>Um parâmetro faz referência a uma variável inexistente</StiSqlParameterVariableNotFoundCheckShort>
+    <StiSqlVariableNotAllowedCheckLong>A consulta da fonte de dados '{0}' usa o parâmetro @{1}. O relatório tem a variável '{1}', mas não é permitido usá-la como parâmetro SQL, portanto seu valor não é passado para a consulta e a consulta falha.</StiSqlVariableNotAllowedCheckLong>
+    <StiSqlVariableNotAllowedCheckShort>Não é permitido usar a variável como parâmetro SQL</StiSqlVariableNotAllowedCheckShort>
     <StiUndefinedDataSourceCheckLong>A fonte de dados indefinida '{0}' foi encontrada no relatório. A ferramenta de relatórios não consegue processar corretamente este tipo de fonte de dados! Talvez fontes de dados personalizadas sejam usadas no relatório. Este relatório não pode ser construído!</StiUndefinedDataSourceCheckLong>
     <StiUndefinedDataSourceCheckShort>Fonte de Dados indefinida</StiUndefinedDataSourceCheckShort>
+    <StiUnusedSqlDataSourceCheckLong>A fonte de dados '{0}' não é usada no relatório, mas sua consulta é executada sempre que o relatório é gerado. Desative a propriedade ConnectOnStart, exclua a fonte de dados ou defina a propriedade RetrieveOnlyUsedData do relatório.</StiUnusedSqlDataSourceCheckLong>
+    <StiUnusedSqlDataSourceCheckShort>Uma fonte de dados não utilizada é carregada</StiUnusedSqlDataSourceCheckShort>
   </CheckDataSource>
   <CheckGlobal>
     <Error>Erro! </Error>
@@ -281,6 +302,8 @@
     <StiScriptExecutionErrorCheck3Long>O erro de execução de script ocorreu no evento '{1}' do componente '{2}'.</StiScriptExecutionErrorCheck3Long>
     <StiScriptExecutionErrorCheckLong>Ocorreu o erro de execução de script.</StiScriptExecutionErrorCheckLong>
     <StiScriptExecutionErrorCheckShort>Erro de execução de script</StiScriptExecutionErrorCheckShort>
+    <StiStyleNegativeBorderSizeCheckLong>O estilo '{0}' tem um tamanho de borda negativo: {1}. O tamanho de uma borda não pode ser menor que 0.</StiStyleNegativeBorderSizeCheckLong>
+    <StiStyleNegativeBorderSizeCheckShort>Tamanho de borda negativo em um estilo</StiStyleNegativeBorderSizeCheckShort>
   </CheckReport>
   <CheckVariable>
     <StiVariableInitializationCheckLong>A variável '{0}' tem o valor padrão errado. Não é possível inicializar a variável com o valor especificado.</StiVariableInitializationCheckLong>

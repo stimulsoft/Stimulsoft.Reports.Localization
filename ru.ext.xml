@@ -18,6 +18,7 @@
     <SetGrowToHeightToTrue>Установить свойство GrowToHeight в true</SetGrowToHeightToTrue>
     <StiAllowHtmlTagsInTextActionLong>Задать у компонента значение свойства AllowHtmlTags равное true, для правильного отображения HTML-тегов.</StiAllowHtmlTagsInTextActionLong>
     <StiAllowOnDoublePassActionLong>Задать значение свойства NumberOfPass равное DoublePass, для правильного расчета переменных.</StiAllowOnDoublePassActionLong>
+    <StiAllowVariableAsSqlParameterActionLong>Разрешить использовать переменную как SQL-параметр, чтобы ее значение передавалось в запрос.</StiAllowVariableAsSqlParameterActionLong>
     <StiApplyGeneralTextFormatLong>Установить 'Общий' формат для компонента '{0}'.</StiApplyGeneralTextFormatLong>
     <StiApplyGeneralTextFormatShort>Применить Общий</StiApplyGeneralTextFormatShort>
     <StiCanBreakComponentInContainerActionLong>Задать у компонента значение свойства CanBreak равное true.</StiCanBreakComponentInContainerActionLong>
@@ -32,6 +33,7 @@
     <StiDeleteDataSourceActionLong>Удалить источник данных из отчета.</StiDeleteDataSourceActionLong>
     <StiDeleteLostPointsActionLong>Удалить все потерянные точки на странице</StiDeleteLostPointsActionLong>
     <StiDeletePageActionLong>Удалить страницу из отчета.</StiDeletePageActionLong>
+    <StiFilterVariableAsExpressionActionLong>Установить тип данных фильтра Expression, чтобы он сравнивал со значением переменной.</StiFilterVariableAsExpressionActionLong>
     <StiFixCrossLinePrimitiveActionLong>Создать новые точки вместо отсутствующих. Данное действие не дает 100% гарантию правильного исправления!</StiFixCrossLinePrimitiveActionLong>
     <StiGenerateNewNameComponentActionLong>Сгенерировать новое имя для компонента.</StiGenerateNewNameComponentActionLong>
     <StiGenerateNewNameDataSourceActionLong>Сгенерировать новое имя для источника данных.</StiGenerateNewNameDataSourceActionLong>
@@ -58,6 +60,7 @@
     <StiPropertiesOnlyEngineV1ActionLong>Выключить у компонента '{0}' свойства, которые не поддерживаются в EngineV2.</StiPropertiesOnlyEngineV1ActionLong>
     <StiPropertiesOnlyEngineV2ActionLong>Выключить у компонента свойства, которые не поддерживаются в EngineV1.</StiPropertiesOnlyEngineV2ActionLong>
     <StiResetPageNumberActionLong>Задать у страницы значение свойства ResetPageNumber равное false.</StiResetPageNumberActionLong>
+    <StiStyleNegativeBorderSizeActionLong>Установить отрицательные размеры границ стиля в 0.</StiStyleNegativeBorderSizeActionLong>
     <StiSwitchToParametersVerticalOrientationAction>Переключите значение свойства отчета «Расположение параметров» на «Вертикальный».</StiSwitchToParametersVerticalOrientationAction>
     <StiSwitchWidthAndHeightOfPageActionLong>Поменять местами ширину и высоту страницы.</StiSwitchWidthAndHeightOfPageActionLong>
     <StiVerySmallSizesOfComponentsLong>Размер компонента увеличится до значения GridSize отчета. Данное действие не дает 100% гарантию правильного исправления!</StiVerySmallSizesOfComponentsLong>
@@ -108,10 +111,18 @@
     <StiEventsAtInterpretationCheckShort>События в интерпретации</StiEventsAtInterpretationCheckShort>
     <StiExpressionElementCheckLong>Выражение '{0}' в '{1}' компоненте работает неверно. Следующее сообщение было получено от парсера: '{2}'.</StiExpressionElementCheckLong>
     <StiExpressionElementCheckShort>Выражение работает неверно!</StiExpressionElementCheckShort>
+    <StiFilterAfterLoadingCheckLong>Бэнд данных '{0}' фильтрует строки источника данных '{1}' по переменной '{2}' после того, как все строки загружены из базы данных. Для большой таблицы лучше фильтровать в запросе: добавьте в запрос условие с параметром @{2} и разрешите использовать переменную как SQL-параметр.</StiFilterAfterLoadingCheckLong>
+    <StiFilterAfterLoadingCheckShort>Строки фильтруются после загрузки</StiFilterAfterLoadingCheckShort>
     <StiFilterCircularDependencyElementCheckLong>Циклическая зависимость фильтра найдена у '{0}' элемента. Пожалуйста, проверьте свойство 'Главный элемент' у '{0}' элемента!</StiFilterCircularDependencyElementCheckLong>
     <StiFilterCircularDependencyElementCheckShort>Циклическая зависимость фильтра</StiFilterCircularDependencyElementCheckShort>
+    <StiFilterColumnNotFoundCheckLong>Фильтр компонента '{0}' использует колонку '{1}', которой нет в источнике данных '{2}'. Фильтр не может быть обработан.</StiFilterColumnNotFoundCheckLong>
+    <StiFilterColumnNotFoundCheckShort>Колонка фильтра не найдена</StiFilterColumnNotFoundCheckShort>
     <StiFilterValueCheckLong>Для компонента {0} задан фильтр, но в нём не задано значение. Поэтому фильтр не применяется.</StiFilterValueCheckLong>
     <StiFilterValueCheckShort>В фильтре не задано значение</StiFilterValueCheckShort>
+    <StiFilterValueTypeCheckLong>Фильтр компонента '{0}' сравнивает со значением '{1}', которое не является значением типа {2}. Вместо него фильтр сравнивает со значением по умолчанию (0, текущей датой или false), поэтому бэнд выводит другие строки.</StiFilterValueTypeCheckLong>
+    <StiFilterValueTypeCheckShort>Значение фильтра не соответствует его типу данных</StiFilterValueTypeCheckShort>
+    <StiFilterVariableAsTextCheckLong>Фильтр компонента '{0}' сравнивает с переменной '{1}', но его тип данных {2}, поэтому фильтр сравнивает с именем как с текстом, а не со значением переменной. Установите тип данных фильтра Expression.</StiFilterVariableAsTextCheckLong>
+    <StiFilterVariableAsTextCheckShort>Фильтр воспринимает переменную как текст</StiFilterVariableAsTextCheckShort>
     <StiFontGlyphsMissingCheckLong>Шрифт '{0}' компонента '{1}' не содержит глифы для следующих символов: {2}. Эти символы будут выведены в PDF файле пустыми прямоугольниками.</StiFontGlyphsMissingCheckLong>
     <StiFontGlyphsMissingCheckShort>Шрифт не содержит глифы для текста.</StiFontGlyphsMissingCheckShort>
     <StiFontMissingCheckLong>Шрифт '{0}', указанный для компонента '{1}', не найден.</StiFontMissingCheckLong>
@@ -224,8 +235,18 @@
     <StiNoNameDataSourceCheckShort>Источник данных без имени</StiNoNameDataSourceCheckShort>
     <StiNoNameInSourceDataSourceCheckLong>У источника данных '{0}' не заполнено поле 'Наименование в источнике данных (Name In Source)'. Без заполнения этого поля, генератор отчетов не сможет найти данные для источника данных в базе данных и отчет не будет построен!</StiNoNameInSourceDataSourceCheckLong>
     <StiNoNameInSourceDataSourceCheckShort>У источника данных не заполнено поле 'Наименование в источнике данных'</StiNoNameInSourceDataSourceCheckShort>
+    <StiSqlParameterDuplicateCheckLong>У источника данных '{0}' несколько параметров с именем '{1}'. Запрос не может быть выполнен.</StiSqlParameterDuplicateCheckLong>
+    <StiSqlParameterDuplicateCheckShort>Повторяющийся SQL-параметр</StiSqlParameterDuplicateCheckShort>
+    <StiSqlParameterNotFoundCheckLong>Запрос источника данных '{0}' использует параметр @{1}, но у источника данных нет такого параметра, а в отчете нет переменной с таким именем. Запрос завершится ошибкой при построении отчета.</StiSqlParameterNotFoundCheckLong>
+    <StiSqlParameterNotFoundCheckShort>Запрос использует неопределенный параметр</StiSqlParameterNotFoundCheckShort>
+    <StiSqlParameterVariableNotFoundCheckLong>Параметр '{1}' источника данных '{0}' берет значение из '{2}', но в отчете нет переменной с таким именем. Запрос не получит значение этого параметра.</StiSqlParameterVariableNotFoundCheckLong>
+    <StiSqlParameterVariableNotFoundCheckShort>Параметр ссылается на отсутствующую переменную</StiSqlParameterVariableNotFoundCheckShort>
+    <StiSqlVariableNotAllowedCheckLong>Запрос источника данных '{0}' использует параметр @{1}. В отчете есть переменная '{1}', но ее не разрешено использовать как SQL-параметр, поэтому ее значение не передается в запрос и запрос завершается ошибкой.</StiSqlVariableNotAllowedCheckLong>
+    <StiSqlVariableNotAllowedCheckShort>Переменную не разрешено использовать как SQL-параметр</StiSqlVariableNotAllowedCheckShort>
     <StiUndefinedDataSourceCheckLong>В отчете найден источник данных '{0}' неизвестного типа. Генератор отчетов не сможет корректно обработать такой тип источника данных! Возможно в отчете используются пользовательские источники данных. Такой отчет не может быть построен!</StiUndefinedDataSourceCheckLong>
     <StiUndefinedDataSourceCheckShort>Неизвестный источник данных</StiUndefinedDataSourceCheckShort>
+    <StiUnusedSqlDataSourceCheckLong>Источник данных '{0}' не используется в отчете, но его запрос выполняется при каждом построении отчета. Отключите его свойство ConnectOnStart, удалите источник данных или установите свойство отчета RetrieveOnlyUsedData.</StiUnusedSqlDataSourceCheckLong>
+    <StiUnusedSqlDataSourceCheckShort>Загружается неиспользуемый источник данных</StiUnusedSqlDataSourceCheckShort>
   </CheckDataSource>
   <CheckGlobal>
     <Error>Ошибка! </Error>
@@ -281,6 +302,8 @@
     <StiScriptExecutionErrorCheck3Long>Ошибка выполнения сценария произошла в событии '{1}' компонента '{2}'.</StiScriptExecutionErrorCheck3Long>
     <StiScriptExecutionErrorCheckLong>Ошибка выполнения сценария произошла.</StiScriptExecutionErrorCheckLong>
     <StiScriptExecutionErrorCheckShort>Ошибка выполнения сценария</StiScriptExecutionErrorCheckShort>
+    <StiStyleNegativeBorderSizeCheckLong>У стиля '{0}' отрицательный размер границы: {1}. Размер границы не может быть меньше 0.</StiStyleNegativeBorderSizeCheckLong>
+    <StiStyleNegativeBorderSizeCheckShort>Отрицательный размер границы в стиле</StiStyleNegativeBorderSizeCheckShort>
   </CheckReport>
   <CheckVariable>
     <StiVariableInitializationCheckLong>Переменная '{0}' имеет неправильное значение по умолчанию. Невозможно инициализировать переменную указанным значением.</StiVariableInitializationCheckLong>

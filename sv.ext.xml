@@ -18,6 +18,7 @@
     <SetGrowToHeightToTrue>Ställ in egenskapen GrowToHeight till True</SetGrowToHeightToTrue>
     <StiAllowHtmlTagsInTextActionLong>Ställ in värdet för egenskapen AllowHtmlTags för komponenten till true för att visa HTML-taggar korrekt.</StiAllowHtmlTagsInTextActionLong>
     <StiAllowOnDoublePassActionLong>Ställ in egenskapen NumberOfPass till DoublePass för korrekt beräkning av variabler.</StiAllowOnDoublePassActionLong>
+    <StiAllowVariableAsSqlParameterActionLong>Tillåt att variabeln används som SQL-parameter, så att dess värde skickas till frågan.</StiAllowVariableAsSqlParameterActionLong>
     <StiApplyGeneralTextFormatLong>Ange formatet 'General' för komponenten '{0}'.</StiApplyGeneralTextFormatLong>
     <StiApplyGeneralTextFormatShort>Tillämpa allmänt</StiApplyGeneralTextFormatShort>
     <StiCanBreakComponentInContainerActionLong>Ställ in värdet för egenskapen CanBreak av komponenten till true.</StiCanBreakComponentInContainerActionLong>
@@ -32,6 +33,7 @@
     <StiDeleteDataSourceActionLong>Ta bort Datakällan från rapporten.</StiDeleteDataSourceActionLong>
     <StiDeleteLostPointsActionLong>Ta bort alla förlorade punkter på en sida</StiDeleteLostPointsActionLong>
     <StiDeletePageActionLong>Ta bort sidan från rapporten.</StiDeletePageActionLong>
+    <StiFilterVariableAsExpressionActionLong>Ställ in filtrets datatyp på Expression, så att det jämför med variabelns värde.</StiFilterVariableAsExpressionActionLong>
     <StiFixCrossLinePrimitiveActionLong>Skapa nya punkter i stället för de förlorade. Denna operation garanterar inte en 100% korrekt fix!</StiFixCrossLinePrimitiveActionLong>
     <StiGenerateNewNameComponentActionLong>Skapa ett nytt namn för komponenten.</StiGenerateNewNameComponentActionLong>
     <StiGenerateNewNameDataSourceActionLong>Skapa ett nytt namn för datakällan.</StiGenerateNewNameDataSourceActionLong>
@@ -58,6 +60,7 @@
     <StiPropertiesOnlyEngineV1ActionLong>Inaktivera egenskaper för komponenten '{0}' som inte stöds i EngineV2.</StiPropertiesOnlyEngineV1ActionLong>
     <StiPropertiesOnlyEngineV2ActionLong>Inaktivera egenskaper hos den komponent som inte stöds i EngineV1.</StiPropertiesOnlyEngineV2ActionLong>
     <StiResetPageNumberActionLong>Ställ in egenskapen ResetPageNumber för en sida till false.</StiResetPageNumberActionLong>
+    <StiStyleNegativeBorderSizeActionLong>Ställ in stilens negativa kantstorlekar på 0.</StiStyleNegativeBorderSizeActionLong>
     <StiSwitchToParametersVerticalOrientationAction>Växla värdet för rapportegenskapen 'Parameters Orientation' till 'Vertical'.</StiSwitchToParametersVerticalOrientationAction>
     <StiSwitchWidthAndHeightOfPageActionLong>Ordna höjden och bredden på sidan.</StiSwitchWidthAndHeightOfPageActionLong>
     <StiVerySmallSizesOfComponentsLong>Storleken på en komponent kommer att ökas till rapportens GridSize-värde. Denna operation garanterar inte en 100% korrekt fix!</StiVerySmallSizesOfComponentsLong>
@@ -108,10 +111,18 @@
     <StiEventsAtInterpretationCheckShort>Händelser i tolkning</StiEventsAtInterpretationCheckShort>
     <StiExpressionElementCheckLong>Uttrycket '{0}' i komponenten '{1}' fungerar felaktigt. Följande meddelande togs emot från parsern: '{2}'.</StiExpressionElementCheckLong>
     <StiExpressionElementCheckShort>Ett uttryck fungerar felaktigt!</StiExpressionElementCheckShort>
+    <StiFilterAfterLoadingCheckLong>Databandet '{0}' filtrerar raderna i datakällan '{1}' efter variabeln '{2}' efter att alla rader har lästs in från databasen. För en stor tabell bör du filtrera i frågan i stället: lägg till ett villkor med parametern @{2} i frågan och tillåt att variabeln används som SQL-parameter.</StiFilterAfterLoadingCheckLong>
+    <StiFilterAfterLoadingCheckShort>Raderna filtreras efter inläsningen</StiFilterAfterLoadingCheckShort>
     <StiFilterCircularDependencyElementCheckLong>Filtrets cirkulära beroende hittades vid elementet '{0}'. Kontrollera egenskapen 'Parent Key' för elementet '{0}'!</StiFilterCircularDependencyElementCheckLong>
     <StiFilterCircularDependencyElementCheckShort>Cirkulärt filterberoende</StiFilterCircularDependencyElementCheckShort>
+    <StiFilterColumnNotFoundCheckLong>Ett filter för komponenten '{0}' använder kolumnen '{1}', som datakällan '{2}' inte har. Filtret kan inte bearbetas.</StiFilterColumnNotFoundCheckLong>
+    <StiFilterColumnNotFoundCheckShort>Filterkolumnen hittades inte</StiFilterColumnNotFoundCheckShort>
     <StiFilterValueCheckLong>Ett filtervärde för '{0}' har inte angetts. Detta filter kan inte bearbetas.</StiFilterValueCheckLong>
     <StiFilterValueCheckShort>Ett filtervärde har inte angetts</StiFilterValueCheckShort>
+    <StiFilterValueTypeCheckLong>Ett filter för komponenten '{0}' jämför med värdet '{1}', som inte är ett värde av typen {2}. Filtret jämför i stället med ett standardvärde (0, dagens datum eller false), så bandet visar andra rader.</StiFilterValueTypeCheckLong>
+    <StiFilterValueTypeCheckShort>Filtervärdet matchar inte dess datatyp</StiFilterValueTypeCheckShort>
+    <StiFilterVariableAsTextCheckLong>Ett filter för komponenten '{0}' jämför med variabeln '{1}', men dess datatyp är {2}, så filtret jämför med namnet som text och inte med variabelns värde. Ställ in filtrets datatyp på Expression.</StiFilterVariableAsTextCheckLong>
+    <StiFilterVariableAsTextCheckShort>Filtret tolkar en variabel som text</StiFilterVariableAsTextCheckShort>
     <StiFontGlyphsMissingCheckLong>Typsnittet '{0}' för komponenten '{1}' innehåller inte glyfer för följande tecken: {2}. Dessa tecken visas som tomma rektanglar i PDF-filen.</StiFontGlyphsMissingCheckLong>
     <StiFontGlyphsMissingCheckShort>Typsnittet innehåller inte glyfer för texten.</StiFontGlyphsMissingCheckShort>
     <StiFontMissingCheckLong>Typsnittet "{0}" som anges för komponenten "{1}" finns inte.</StiFontMissingCheckLong>
@@ -224,8 +235,18 @@
     <StiNoNameDataSourceCheckShort>Det finns inget namn på datakälla</StiNoNameDataSourceCheckShort>
     <StiNoNameInSourceDataSourceCheckLong>NameInSource-fältet är inte ifyllt för datakällan '{0}'. Utan att fylla i detta fält kommer rapporteringsverktyget inte att kunna hitta data för datakällan i databasen och rapporten kommer inte att genereras!</StiNoNameInSourceDataSourceCheckLong>
     <StiNoNameInSourceDataSourceCheckShort>NameInSource-fältet för datakällan är inte ifyllt</StiNoNameInSourceDataSourceCheckShort>
+    <StiSqlParameterDuplicateCheckLong>Datakällan '{0}' har flera parametrar med namnet '{1}'. Frågan kan inte köras.</StiSqlParameterDuplicateCheckLong>
+    <StiSqlParameterDuplicateCheckShort>Dubblerad SQL-parameter</StiSqlParameterDuplicateCheckShort>
+    <StiSqlParameterNotFoundCheckLong>Frågan i datakällan '{0}' använder parametern @{1}, men datakällan har ingen sådan parameter och rapporten har ingen variabel med detta namn. Frågan misslyckas när rapporten skapas.</StiSqlParameterNotFoundCheckLong>
+    <StiSqlParameterNotFoundCheckShort>Frågan använder en odefinierad parameter</StiSqlParameterNotFoundCheckShort>
+    <StiSqlParameterVariableNotFoundCheckLong>Parametern '{1}' i datakällan '{0}' hämtar sitt värde från '{2}', men rapporten har ingen variabel med detta namn. Frågan får inget värde för parametern.</StiSqlParameterVariableNotFoundCheckLong>
+    <StiSqlParameterVariableNotFoundCheckShort>En parameter refererar till en saknad variabel</StiSqlParameterVariableNotFoundCheckShort>
+    <StiSqlVariableNotAllowedCheckLong>Frågan i datakällan '{0}' använder parametern @{1}. Rapporten har variabeln '{1}', men den får inte användas som SQL-parameter, så dess värde skickas inte till frågan och frågan misslyckas.</StiSqlVariableNotAllowedCheckLong>
+    <StiSqlVariableNotAllowedCheckShort>Variabeln får inte användas som SQL-parameter</StiSqlVariableNotAllowedCheckShort>
     <StiUndefinedDataSourceCheckLong>Den odefinierade datakällan '{0}' hittades i rapporten. Rapporteringsverktyget kan inte korrekt bearbeta denna typ av datakälla! Kanske används anpassade datakällor i rapporten. Rapporten kan inte genereras!</StiUndefinedDataSourceCheckLong>
     <StiUndefinedDataSourceCheckShort>Odefinierad datakälla</StiUndefinedDataSourceCheckShort>
+    <StiUnusedSqlDataSourceCheckLong>Datakällan '{0}' används inte i rapporten, men dess fråga körs varje gång rapporten skapas. Stäng av egenskapen ConnectOnStart, ta bort datakällan eller ställ in rapportens egenskap RetrieveOnlyUsedData.</StiUnusedSqlDataSourceCheckLong>
+    <StiUnusedSqlDataSourceCheckShort>En oanvänd datakälla läses in</StiUnusedSqlDataSourceCheckShort>
   </CheckDataSource>
   <CheckGlobal>
     <Error>Fel!</Error>
@@ -281,6 +302,8 @@
     <StiScriptExecutionErrorCheck3Long>Ett skriptkörningsfel uppstod i händelsen '{1}' för komponenten '{2}'.</StiScriptExecutionErrorCheck3Long>
     <StiScriptExecutionErrorCheckLong>Ett skriptkörningsfel uppstod.</StiScriptExecutionErrorCheckLong>
     <StiScriptExecutionErrorCheckShort>Fel vid skriptkörning</StiScriptExecutionErrorCheckShort>
+    <StiStyleNegativeBorderSizeCheckLong>Stilen '{0}' har en negativ kantstorlek: {1}. En kantstorlek kan inte vara mindre än 0.</StiStyleNegativeBorderSizeCheckLong>
+    <StiStyleNegativeBorderSizeCheckShort>Negativ kantstorlek i en stil</StiStyleNegativeBorderSizeCheckShort>
   </CheckReport>
   <CheckVariable>
     <StiVariableInitializationCheckLong>Variabeln '{0}' har fel standardvärde. Det är omöjligt att initiera variabeln med ett angivet värde.</StiVariableInitializationCheckLong>

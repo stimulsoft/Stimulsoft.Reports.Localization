@@ -18,6 +18,7 @@
     <SetGrowToHeightToTrue>Set the GrowToHeight property to true</SetGrowToHeightToTrue>
     <StiAllowHtmlTagsInTextActionLong>Set the value of the AllowHtmlTags property of the component to true, to display the HTML tags correctly.</StiAllowHtmlTagsInTextActionLong>
     <StiAllowOnDoublePassActionLong>Set the NumberOfPass property to DoublePass for correct calculation of variables.</StiAllowOnDoublePassActionLong>
+    <StiAllowVariableAsSqlParameterActionLong>Allow the variable to be used as a SQL parameter, so its value is passed to the query.</StiAllowVariableAsSqlParameterActionLong>
     <StiApplyGeneralTextFormatLong>Set the 'General' format for the '{0}' component.</StiApplyGeneralTextFormatLong>
     <StiApplyGeneralTextFormatShort>Apply General</StiApplyGeneralTextFormatShort>
     <StiCanBreakComponentInContainerActionLong>Set the value of the CanBreak property of the component to true.</StiCanBreakComponentInContainerActionLong>
@@ -32,6 +33,7 @@
     <StiDeleteDataSourceActionLong>Delete the Data Source from the report.</StiDeleteDataSourceActionLong>
     <StiDeleteLostPointsActionLong>Delete all lost points on a page</StiDeleteLostPointsActionLong>
     <StiDeletePageActionLong>Delete the page from the report.</StiDeletePageActionLong>
+    <StiFilterVariableAsExpressionActionLong>Set the data type of the filter to Expression, so it compares with the value of the variable.</StiFilterVariableAsExpressionActionLong>
     <StiFixCrossLinePrimitiveActionLong>Create new points instead of the lost ones. This operation does not guarantee the 100% correct fix!</StiFixCrossLinePrimitiveActionLong>
     <StiGenerateNewNameComponentActionLong>Generate a new name for the component.</StiGenerateNewNameComponentActionLong>
     <StiGenerateNewNameDataSourceActionLong>Generate a new name for the Data Source.</StiGenerateNewNameDataSourceActionLong>
@@ -58,6 +60,7 @@
     <StiPropertiesOnlyEngineV1ActionLong>Disable properties of the '{0}' component which are not supported in the EngineV2.</StiPropertiesOnlyEngineV1ActionLong>
     <StiPropertiesOnlyEngineV2ActionLong>Disable properties of the component which are not supported in the EngineV1.</StiPropertiesOnlyEngineV2ActionLong>
     <StiResetPageNumberActionLong>Set the ResetPageNumber property of a page to false.</StiResetPageNumberActionLong>
+    <StiStyleNegativeBorderSizeActionLong>Set the negative border sizes of the style to 0.</StiStyleNegativeBorderSizeActionLong>
     <StiSwitchToParametersVerticalOrientationAction>Switch the value of the 'Parameters Orientation' report property to 'Vertical'.</StiSwitchToParametersVerticalOrientationAction>
     <StiSwitchWidthAndHeightOfPageActionLong>Rearrange the height and width of the page.</StiSwitchWidthAndHeightOfPageActionLong>
     <StiVerySmallSizesOfComponentsLong>The size of a component will be increased to the GridSize value of a report. This operation does not guarantee the 100% correct fix!</StiVerySmallSizesOfComponentsLong>
@@ -108,10 +111,18 @@
     <StiEventsAtInterpretationCheckShort>Events in Interpretation</StiEventsAtInterpretationCheckShort>
     <StiExpressionElementCheckLong>The expression '{0}' in the '{1}' component works incorrectly. The following message was received from the parser: '{2}'.</StiExpressionElementCheckLong>
     <StiExpressionElementCheckShort>An expression works incorrectly!</StiExpressionElementCheckShort>
+    <StiFilterAfterLoadingCheckLong>The '{0}' data band filters the rows of the '{1}' data source by the '{2}' variable after all rows are loaded from the database. For a large table, filter in the query instead: add a condition with the @{2} parameter to the query and allow the variable to be used as a SQL parameter.</StiFilterAfterLoadingCheckLong>
+    <StiFilterAfterLoadingCheckShort>Rows are filtered after loading</StiFilterAfterLoadingCheckShort>
     <StiFilterCircularDependencyElementCheckLong>The circular dependency of the filter is found at the element '{0}'. Please check the 'Parent Key' property of the '{0}' element!</StiFilterCircularDependencyElementCheckLong>
     <StiFilterCircularDependencyElementCheckShort>Circular filter dependency</StiFilterCircularDependencyElementCheckShort>
+    <StiFilterColumnNotFoundCheckLong>A filter of the '{0}' component uses the '{1}' column, which the '{2}' data source does not have. The filter cannot be processed.</StiFilterColumnNotFoundCheckLong>
+    <StiFilterColumnNotFoundCheckShort>The filter column is not found</StiFilterColumnNotFoundCheckShort>
     <StiFilterValueCheckLong>A filter value of '{0}' is not specified. This filter can't be processed.</StiFilterValueCheckLong>
     <StiFilterValueCheckShort>A filter Value is not specified</StiFilterValueCheckShort>
+    <StiFilterValueTypeCheckLong>A filter of the '{0}' component compares with the '{1}' value, which is not a {2} value. The filter compares with a default value instead (0, the current date or false), so the band shows other rows.</StiFilterValueTypeCheckLong>
+    <StiFilterValueTypeCheckShort>The filter value does not match its data type</StiFilterValueTypeCheckShort>
+    <StiFilterVariableAsTextCheckLong>A filter of the '{0}' component compares with the '{1}' variable, but its data type is {2}, so the filter compares with the name as text, not with the value of the variable. Set the data type of the filter to Expression.</StiFilterVariableAsTextCheckLong>
+    <StiFilterVariableAsTextCheckShort>The filter takes a variable as text</StiFilterVariableAsTextCheckShort>
     <StiFontGlyphsMissingCheckLong>The font '{0}' of the component '{1}' does not contain glyphs for the following characters: {2}. These characters will be shown as empty rectangles in a PDF file.</StiFontGlyphsMissingCheckLong>
     <StiFontGlyphsMissingCheckShort>The font does not contain glyphs for the text.</StiFontGlyphsMissingCheckShort>
     <StiFontMissingCheckLong>The font '{0}' specified for the component '{1}' is not found.</StiFontMissingCheckLong>
@@ -224,8 +235,18 @@
     <StiNoNameDataSourceCheckShort>There is no name for the Data Source</StiNoNameDataSourceCheckShort>
     <StiNoNameInSourceDataSourceCheckLong>NameInSource field is not filled for the '{0}' data source. Without filling this field, the reporting tool will not be able to find the data for the data source in the database and the report will not be rendered!</StiNoNameInSourceDataSourceCheckLong>
     <StiNoNameInSourceDataSourceCheckShort>NameInSource of the data source field is not filled</StiNoNameInSourceDataSourceCheckShort>
+    <StiSqlParameterDuplicateCheckLong>The '{0}' data source has several parameters named '{1}'. The query cannot be executed.</StiSqlParameterDuplicateCheckLong>
+    <StiSqlParameterDuplicateCheckShort>Duplicated SQL parameter</StiSqlParameterDuplicateCheckShort>
+    <StiSqlParameterNotFoundCheckLong>The query of the '{0}' data source uses the @{1} parameter, but the data source has no such parameter and the report has no variable with this name. The query fails when the report is rendered.</StiSqlParameterNotFoundCheckLong>
+    <StiSqlParameterNotFoundCheckShort>The query uses an undefined parameter</StiSqlParameterNotFoundCheckShort>
+    <StiSqlParameterVariableNotFoundCheckLong>The '{1}' parameter of the '{0}' data source takes its value from '{2}', but the report has no variable with this name. The query gets no value for the parameter.</StiSqlParameterVariableNotFoundCheckLong>
+    <StiSqlParameterVariableNotFoundCheckShort>A parameter refers to a missing variable</StiSqlParameterVariableNotFoundCheckShort>
+    <StiSqlVariableNotAllowedCheckLong>The query of the '{0}' data source uses the @{1} parameter. The report has the '{1}' variable, but it is not allowed to be used as a SQL parameter, so its value is not passed to the query and the query fails.</StiSqlVariableNotAllowedCheckLong>
+    <StiSqlVariableNotAllowedCheckShort>The variable is not allowed as a SQL parameter</StiSqlVariableNotAllowedCheckShort>
     <StiUndefinedDataSourceCheckLong>The undefined '{0}' data source is found in the report. The reporting tool cannot correctly process this type of data source! Maybe custom data sources are used in the report. This report cannot be rendered!</StiUndefinedDataSourceCheckLong>
     <StiUndefinedDataSourceCheckShort>Undefined Data Source</StiUndefinedDataSourceCheckShort>
+    <StiUnusedSqlDataSourceCheckLong>The '{0}' data source is not used in the report, but its query runs every time the report is rendered. Turn its ConnectOnStart property off, delete the data source, or set the RetrieveOnlyUsedData property of the report.</StiUnusedSqlDataSourceCheckLong>
+    <StiUnusedSqlDataSourceCheckShort>An unused data source is loaded</StiUnusedSqlDataSourceCheckShort>
   </CheckDataSource>
   <CheckGlobal>
     <Error>Error! </Error>
@@ -281,6 +302,8 @@
     <StiScriptExecutionErrorCheck3Long>The script execution error occurred in the '{1}' event of the '{2}' component.</StiScriptExecutionErrorCheck3Long>
     <StiScriptExecutionErrorCheckLong>The script execution error occurred.</StiScriptExecutionErrorCheckLong>
     <StiScriptExecutionErrorCheckShort>Script execution error</StiScriptExecutionErrorCheckShort>
+    <StiStyleNegativeBorderSizeCheckLong>The '{0}' style has a negative border size: {1}. A border size cannot be less than 0.</StiStyleNegativeBorderSizeCheckLong>
+    <StiStyleNegativeBorderSizeCheckShort>A negative border size in a style</StiStyleNegativeBorderSizeCheckShort>
   </CheckReport>
   <CheckVariable>
     <StiVariableInitializationCheckLong>The '{0}' variable has the wrong default value. It is impossible to initialize the variable with a specified value.</StiVariableInitializationCheckLong>
