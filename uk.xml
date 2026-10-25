@@ -708,7 +708,7 @@
     <StiReport>Звіт</StiReport>
     <StiReportSummaryBand>Підсумок звіту</StiReportSummaryBand>
     <StiReportTitleBand>Заголовок звіту</StiReportTitleBand>
-    <StiRichText>Rich-текст</StiRichText>
+    <StiRichText>Форматований текст</StiRichText>
     <StiRoundedRectanglePrimitive>Округлений прямокутник</StiRoundedRectanglePrimitive>
     <StiScreen>Екран</StiScreen>
     <StiShape>Геометрія</StiShape>
@@ -964,7 +964,7 @@
     <StiRadioGroupControl>Група перемикачів</StiRadioGroupControl>
     <StiRangeSliderControl>Повзунок діапазону</StiRangeSliderControl>
     <StiReportControl>Елемент керування</StiReportControl>
-    <StiRichTextBoxControl>Rich Text Box</StiRichTextBoxControl>
+    <StiRichTextBoxControl>Форматований текст</StiRichTextBoxControl>
     <StiSelectControl>Вибрати</StiSelectControl>
     <StiSliderControl>Повзунок</StiSliderControl>
     <StiSwitchControl>Перемикач</StiSwitchControl>
@@ -1104,7 +1104,7 @@
     <ExportModeTable>Таблиця</ExportModeTable>
     <ExportObjectFormatting>Експорт форматування об'єкта</ExportObjectFormatting>
     <ExportPageBreaks>Експортувати розриви сторінок</ExportPageBreaks>
-    <ExportRtfTextAsImage>Експортувати Rich Text як зображення</ExportRtfTextAsImage>
+    <ExportRtfTextAsImage>Експортувати форматований текст як зображення</ExportRtfTextAsImage>
     <ExportTypeBmpFile>BMP зображення...</ExportTypeBmpFile>
     <ExportTypeCalcFile>OpenDocument Calc файл...</ExportTypeCalcFile>
     <ExportTypeCsvFile>CSV файл...</ExportTypeCsvFile>
@@ -1740,7 +1740,7 @@
     <PreviewHintData>Виберіть стовпчик даних, змінну або ресурс</PreviewHintData>
     <PreviewHintFile>Виберіть файл</PreviewHintFile>
     <PreviewHintURL>Введіть URL або вираз</PreviewHintURL>
-    <title>Rich редактор</title>
+    <title>Редактор форматованого тексту</title>
   </FormRichTextEditor>
   <FormStyleDesigner>
     <Add>Додати новий стиль</Add>
@@ -2315,7 +2315,7 @@
     <ExportModeRtf>Представлення даних звіту після експорту. Таблиця - звіт буде представлено у вигляді таблиці, де кожен компонент звіту - клітинка в таблиці. Рамка - кожен компонент буде являти собою окрему рамку, але взаємозв'язків між ними не буде.</ExportModeRtf>
     <ExportObjectFormatting>Застосовувати форматування до експорту з бендів Дані (компонент Таблиця, бенд Дерево).</ExportObjectFormatting>
     <ExportPageBreaks>Відобразити границі сторінок звіту на сторінці в Excel.</ExportPageBreaks>
-    <ExportRtfTextAsImage>Конвертація Rtf тексту в картинку при експорті. Якщо параметр вимкнено, то RichText при експорті розкладається на більш прості примітиви, підтримувані форматом PDF. RichText зі складним форматуванням (вкладені зображення, таблиці) не завжди може бути перетворений коректно. У цьому випадку рекомендується увімкнути цей параметр.</ExportRtfTextAsImage>
+    <ExportRtfTextAsImage>Конвертація Rtf тексту в картинку при експорті. Якщо параметр вимкнено, то форматований текст при експорті розкладається на більш прості примітиви, підтримувані форматом PDF. Форматований текст зі складним форматуванням (вкладені зображення, таблиці) не завжди може бути перетворений коректно. У цьому випадку рекомендується увімкнути цей параметр.</ExportRtfTextAsImage>
     <Find>Пошук тексту в звіті.</Find>
     <FullScreen>Повноекранний перегляд звіту.</FullScreen>
     <GetCertificateFromCryptoUI>Використання інтерфейсу системної бібліотеки криптографії.</GetCertificateFromCryptoUI>
@@ -2391,7 +2391,7 @@
     <menuConvertTo>Конвертувати в {0}</menuConvertTo>
     <menuConvertToCheckBox>Конвертувати в Прапорець</menuConvertToCheckBox>
     <menuConvertToImage>Конвертувати в зображення</menuConvertToImage>
-    <MenuConvertToRichText>Конвертувати в Rich текст</MenuConvertToRichText>
+    <MenuConvertToRichText>Конвертувати у форматований текст</MenuConvertToRichText>
     <menuConvertToText>Конвертувати в текст</menuConvertToText>
     <menuDeleteColumn>Видалити стовпчик</menuDeleteColumn>
     <menuDeleteRow>Видалити рядок</menuDeleteRow>
@@ -3672,7 +3672,7 @@
     <StiSummaryValuesSkipZerosAndNulls>Пропустити нулі та нули(null)</StiSummaryValuesSkipZerosAndNulls>
     <StiTablceCellTypeCheckBox>Прапорець</StiTablceCellTypeCheckBox>
     <StiTablceCellTypeImage>Картинка</StiTablceCellTypeImage>
-    <StiTablceCellTypeRichText>Rich текст</StiTablceCellTypeRichText>
+    <StiTablceCellTypeRichText>Форматований текст</StiTablceCellTypeRichText>
     <StiTablceCellTypeText>Текст</StiTablceCellTypeText>
     <StiTableAutoWidthNone>Ні</StiTableAutoWidthNone>
     <StiTableAutoWidthPage>Сторінка</StiTableAutoWidthPage>

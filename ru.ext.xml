@@ -2027,14 +2027,14 @@
     <BackColor>Цвет фона.</BackColor>
     <DataColumn>Имя колонки, которая содержит RTF текст.</DataColumn>
     <DataUrl>Выражение для заполнения RTF текста компонента.</DataUrl>
-    <DetectUrls>Определение гиперссылок в Rich тексте.</DetectUrls>
+    <DetectUrls>Определение гиперссылок в форматированном тексте.</DetectUrls>
     <FullConvertExpression>Значение определяет, что необходимо полностью конвертировать выражение в формат RTF. Полное преобразование выражений замедляет построение отчета.</FullConvertExpression>
     <Margins>Границы текста (слева, справа, сверху, снизу).</Margins>
     <WordWrap>Перенос текста.</WordWrap>
     <Wysiwyg>Значение, которое определяет, что будет использоваться Wysiwyg режим отображения компонента.</Wysiwyg>
   </StiRichText>
   <StiRichTextBoxControl>
-    <Text>Текущий текст в RichTextBox.</Text>
+    <Text>Текущий текст в поле форматированного текста.</Text>
   </StiRichTextBoxControl>
   <StiRoundedRectanglePrimitive>
     <Round>Коэффициент скругления.</Round>

@@ -708,7 +708,7 @@
     <StiReport>Отчет</StiReport>
     <StiReportSummaryBand>Итог отчета</StiReportSummaryBand>
     <StiReportTitleBand>Заголовок отчета</StiReportTitleBand>
-    <StiRichText>Rich текст</StiRichText>
+    <StiRichText>Форматированный текст</StiRichText>
     <StiRoundedRectanglePrimitive>Закругленный прямоугольник</StiRoundedRectanglePrimitive>
     <StiScreen>Экран</StiScreen>
     <StiShape>Геометрия</StiShape>
@@ -964,7 +964,7 @@
     <StiRadioGroupControl>Radio группа</StiRadioGroupControl>
     <StiRangeSliderControl>Ползунок диапазона</StiRangeSliderControl>
     <StiReportControl>Элемент управления</StiReportControl>
-    <StiRichTextBoxControl>Rich текст</StiRichTextBoxControl>
+    <StiRichTextBoxControl>Форматированный текст</StiRichTextBoxControl>
     <StiSelectControl>Выбор</StiSelectControl>
     <StiSliderControl>Слайдер</StiSliderControl>
     <StiSwitchControl>Тогл</StiSwitchControl>
@@ -1740,7 +1740,7 @@
     <PreviewHintData>Выберите колонку данных, переменную или ресурс</PreviewHintData>
     <PreviewHintFile>Выберите файл</PreviewHintFile>
     <PreviewHintURL>Введите URL или выражение</PreviewHintURL>
-    <title>Rich-текст редактор</title>
+    <title>Редактор форматированного текста</title>
   </FormRichTextEditor>
   <FormStyleDesigner>
     <Add>Добавить новый стиль</Add>
@@ -2315,7 +2315,7 @@
     <ExportModeRtf>Представление данных отчета после экспорта. Таблица - отчет будет представлять собой таблицу, где каждый компонент отчета - ячейка в таблице. Рамка - каждый компонент будет представлять собой отдельную рамку, но взамосвязи между ними не будет.</ExportModeRtf>
     <ExportObjectFormatting>Применять форматирование к экспорту с бэндов Данные (компонент Таблица, бэнд Дерево).</ExportObjectFormatting>
     <ExportPageBreaks>Отобразить границы страниц отчета на листе в Excel.</ExportPageBreaks>
-    <ExportRtfTextAsImage>Конвертация RTF текста в изображение при экспорте. Если параметр выключен, то RichText при экспорте раскладывается на более простые примитивы, поддерживаемые форматом PDF. RichText со сложным форматированием (вложенные изображения, таблицы) не всегда может быть преобразован корректно. В этом случае рекомендуется включить данный параметр.</ExportRtfTextAsImage>
+    <ExportRtfTextAsImage>Конвертация RTF текста в изображение при экспорте. Если параметр выключен, то форматированный текст при экспорте раскладывается на более простые примитивы, поддерживаемые форматом PDF. Форматированный текст со сложным форматированием (вложенные изображения, таблицы) не всегда может быть преобразован корректно. В этом случае рекомендуется включить данный параметр.</ExportRtfTextAsImage>
     <Find>Поиск текста в отчете.</Find>
     <FullScreen>Полноэкранный просмотр отчета.</FullScreen>
     <GetCertificateFromCryptoUI>Использование интерфейса системной библиотеки криптографии.</GetCertificateFromCryptoUI>
@@ -2391,7 +2391,7 @@
     <menuConvertTo>Преобразовать в {0}</menuConvertTo>
     <menuConvertToCheckBox>Конвертировать во Флажок</menuConvertToCheckBox>
     <menuConvertToImage>Конвертировать в Изображение</menuConvertToImage>
-    <MenuConvertToRichText>Конвертировать в Rich-текст</MenuConvertToRichText>
+    <MenuConvertToRichText>Конвертировать в форматированный текст</MenuConvertToRichText>
     <menuConvertToText>Конвертировать в Текст</menuConvertToText>
     <menuDeleteColumn>Удалить колонку</menuDeleteColumn>
     <menuDeleteRow>Удалить строку</menuDeleteRow>
@@ -3672,7 +3672,7 @@
     <StiSummaryValuesSkipZerosAndNulls>Пропускать нули и недействительные</StiSummaryValuesSkipZerosAndNulls>
     <StiTablceCellTypeCheckBox>Флажок</StiTablceCellTypeCheckBox>
     <StiTablceCellTypeImage>Изображение</StiTablceCellTypeImage>
-    <StiTablceCellTypeRichText>Rich-текст</StiTablceCellTypeRichText>
+    <StiTablceCellTypeRichText>Форматированный текст</StiTablceCellTypeRichText>
     <StiTablceCellTypeText>Текст</StiTablceCellTypeText>
     <StiTableAutoWidthNone>Нет</StiTableAutoWidthNone>
     <StiTableAutoWidthPage>Страница</StiTableAutoWidthPage>
