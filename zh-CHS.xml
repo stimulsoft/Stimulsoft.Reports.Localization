@@ -1046,7 +1046,10 @@
   </Errors>
   <ExceptionProvider>
     <Assemblies>组合</Assemblies>
+    <BackupsKeptFor30Days>未立即恢复的备份将保留 30 天。</BackupsKeptFor30Days>
     <ClickIgnore>点击"忽略"删除所有自动保存的文件。</ClickIgnore>
+    <DeleteAllBackups>删除所有备份...</DeleteAllBackups>
+    <DesignerClosedUnexpectedly>设计器上次意外关闭</DesignerClosedUnexpectedly>
     <Exception>异常</Exception>
     <ExceptionReport>异常报告</ExceptionReport>
     <Framework>框架</Framework>
@@ -5180,6 +5183,7 @@
     <qnCovertColumnType>您更改了列类型，是否要为此数据源启用列数据转换？</qnCovertColumnType>
     <qnDataWriting>允许后，应用程序可以更改您数据库中的数据：表中的行可以被插入、更新和删除，并且数据的更改无法通过设计器撤消。</qnDataWriting>
     <qnDataWritingResponsibility>您需要对写入的内容承担责任。是否允许写入？</qnDataWritingResponsibility>
+    <qnDeleteAll>您是否想要删除所有项目?</qnDeleteAll>
     <qnDictionaryNew>您是否想要创建新的字典?</qnDictionaryNew>
     <qnLanguageNew>您已经改变报表语言。这将导致新的报表代码生成。 您是否确定要保存当前语言?</qnLanguageNew>
     <qnPageDelete>您是否想要删除页面?</qnPageDelete>

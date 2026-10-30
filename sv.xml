@@ -1042,7 +1042,10 @@
   </Errors>
   <ExceptionProvider>
     <Assemblies>Assemblies</Assemblies>
+    <BackupsKeptFor30Days>Säkerhetskopior som du inte återställer nu sparas i 30 dagar.</BackupsKeptFor30Days>
     <ClickIgnore>Klicka på Ignorera för att ta bort alla autosparade filer.</ClickIgnore>
+    <DeleteAllBackups>Radera alla säkerhetskopior...</DeleteAllBackups>
+    <DesignerClosedUnexpectedly>Designern avslutades oväntat förra gången</DesignerClosedUnexpectedly>
     <Exception>Undantag</Exception>
     <ExceptionReport>Undantagsrapport</ExceptionReport>
     <Framework>Ramverk</Framework>
@@ -5133,6 +5136,7 @@
     <qnCovertColumnType>Du har ändrat kolumntypen. Vill du aktivera datatransformation för kolumnen för denna datakälla?</qnCovertColumnType>
     <qnDataWriting>Om du tillåter detta kan ett program ändra data i dina databaser: tabellernas rader kan läggas till, uppdateras och tas bort, och en ändring av data kan inte ångras av designern.</qnDataWriting>
     <qnDataWritingResponsibility>Du tar ansvaret för det som skrivs. Tillåta skrivning?</qnDataWritingResponsibility>
+    <qnDeleteAll>Vill du radera alla objekt?</qnDeleteAll>
     <qnDictionaryNew>Vill du skapa en ny ordbok?</qnDictionaryNew>
     <qnLanguageNew>Du har ändrat rapportens språk. Det betyder att en ny rapport kommer att genereras. Är du säker på att du vill spara det nya språket?</qnLanguageNew>
     <qnPageDelete>Vill du radera sida?</qnPageDelete>

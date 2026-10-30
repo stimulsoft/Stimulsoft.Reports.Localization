@@ -1044,7 +1044,10 @@
   </Errors>
   <ExceptionProvider>
     <Assemblies>Assemblies</Assemblies>
+    <BackupsKeptFor30Days>Les sauvegardes que vous ne récupérez pas maintenant sont conservées pendant 30 jours.</BackupsKeptFor30Days>
     <ClickIgnore>Cliquez sur "Ignorer" pour supprimer tous les fichiers enregistrés automatiquement.</ClickIgnore>
+    <DeleteAllBackups>Supprimer toutes les sauvegardes...</DeleteAllBackups>
+    <DesignerClosedUnexpectedly>Le concepteur s'est fermé de manière inattendue la dernière fois</DesignerClosedUnexpectedly>
     <Exception>Exception</Exception>
     <ExceptionReport>Rapport d'exception</ExceptionReport>
     <Framework>Framework</Framework>
@@ -5163,6 +5166,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <qnCovertColumnType>Vous avez changé le type de colonne, souhaitez-vous activer la transformation des données de colonne pour cette source de données ?</qnCovertColumnType>
     <qnDataWriting>En l'autorisant, une application peut modifier les données de vos bases de données : les lignes des tables peuvent être insérées, mises à jour et supprimées, et une modification des données ne peut pas être annulée par le concepteur.</qnDataWriting>
     <qnDataWritingResponsibility>Vous prenez la responsabilité de ce qui est écrit. Autoriser l'écriture ?</qnDataWritingResponsibility>
+    <qnDeleteAll>Voulez-vous supprimer tous les éléments ?</qnDeleteAll>
     <qnDictionaryNew>Voulez-vous créer un nouveau dictionnaire ?</qnDictionaryNew>
     <qnLanguageNew>Vous avez changé la langue du rapport. Cela entraînera la génération du nouveau code du rapport. Êtes-vous sûr de vouloir enregistrer cette nouvelle langue ?</qnLanguageNew>
     <qnPageDelete>Voulez-vous supprimer la page ?</qnPageDelete>
