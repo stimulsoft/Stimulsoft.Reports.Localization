@@ -181,6 +181,7 @@
     <Test>Test</Test>
     <TryToReconnect>Try to Reconnect</TryToReconnect>
     <Up>Up</Up>
+    <Update>Update</Update>
     <Upgrade>Upgrade</Upgrade>
     <UpgradeNow>Upgrade Now</UpgradeNow>
     <Upload>Upload</Upload>
@@ -440,6 +441,7 @@
     <CheckForUpdate>Check for Update</CheckForUpdate>
     <Cloud>Cloud</Cloud>
     <Collection>Collection</Collection>
+    <ConfirmEmailAddress>Confirm your Email address</ConfirmEmailAddress>
     <Create>Create</Create>
     <CreateError>Error while creating report!</CreateError>
     <CreateNewCollection>Create New Collection</CreateNewCollection>
@@ -449,7 +451,7 @@
     <DeleteFile>Delete File</DeleteFile>
     <DoNotAskMe>Do not ask me again</DoNotAskMe>
     <EnglishSearchRequired>Please use English for search queries.</EnglishSearchRequired>
-    <EnterUserNameToLogin>Enter User Name (email) to log in.</EnterUserNameToLogin>
+    <EnterUserNameToLogin>Enter User Name (Email) to log in.</EnterUserNameToLogin>
     <ExecutionError>Execution error</ExecutionError>
     <ExpiredDate>Expiration Date</ExpiredDate>
     <FileStorageWindowTitleEdit>Edit File Storage</FileStorageWindowTitleEdit>
@@ -481,7 +483,7 @@
     <LabelForeground>Foreground:</LabelForeground>
     <LabelFromReport>From Report</LabelFromReport>
     <LabelFromReportCode>From Report (defined in code)</LabelFromReportCode>
-    <LabelInviteUser>Invite new users to your team. Send invitations to their email addresses.</LabelInviteUser>
+    <LabelInviteUser>Invite new users to your team. Send invitations to their Email addresses.</LabelInviteUser>
     <LabelLastLogin>Last Login:</LabelLastLogin>
     <LabelLastTime>Last Time:</LabelLastTime>
     <LabelModified>Modified:</LabelModified>
@@ -543,6 +545,7 @@
     <SaveFile>Save File</SaveFile>
     <SavingToStimulsoftCloudPleaseWait>Saving the report to Stimulsoft Cloud. Please wait!</SavingToStimulsoftCloudPleaseWait>
     <SearchForOnlineTemplates>Search templates online</SearchForOnlineTemplates>
+    <SendingEmail>Sending Email...</SendingEmail>
     <ShareWindowTitleNew>Share</ShareWindowTitleNew>
     <ShowAllFiles>Show All Files</ShowAllFiles>
     <ShowNotificationMessages>Show Notification Messages</ShowNotificationMessages>
@@ -2570,14 +2573,14 @@
     <ActivationServerIsNotAvailableNow>Stimulsoft Activation Server is not available now! Please try again later.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>You cannot activate this version of Stimulsoft Server because your Subscription Program expired! Please log in to your account and check which version of the Stimulsoft Server you can install and activate.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>An error occurred during activation. Please try again later.</ActivationSomeTroublesOccurred>
-    <ActivationTrialExpired>You can continue to use Stimulsoft Designer by purchasing the software.</ActivationTrialExpired>
+    <ActivationTrialExpired>You can continue to use Stimulsoft products by purchasing the software.</ActivationTrialExpired>
     <ActivationTrialExtend1>If you are interested in extending your trial, please </ActivationTrialExtend1>
     <ActivationTrialExtend2>tell us why.</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>Your user name (Email) or password is wrong!</ActivationUserNameOrPasswordIsWrong>
     <ActivationWrongAccountType>Your account type does not allow you to activate Stimulsoft Server!</ActivationWrongAccountType>
     <AITokensExhausted>Your tokens have been exhausted! Please contact our sales department at sales@stimulsoft.com!</AITokensExhausted>
     <Alert>Alert</Alert>
-    <AuthAccountAlreadyExists>The account with this User Name (email) already exists. To associate it with your {0} account, please use your Stimulsoft account password.</AuthAccountAlreadyExists>
+    <AuthAccountAlreadyExists>The account with this User Name (Email) already exists. To associate it with your {0} account, please use your Stimulsoft account password.</AuthAccountAlreadyExists>
     <AuthAccountCantBeUsedNow>The account cannot be used now!</AuthAccountCantBeUsedNow>
     <AuthAccountIsNotActivated>The account is not activated yet! Please follow the instructions sent to the Email during registration.</AuthAccountIsNotActivated>
     <AuthCantChangeRoleBecauseLastAdministratorUser>The user role cannot be changed because this is the last administrator user in this workspace!</AuthCantChangeRoleBecauseLastAdministratorUser>
@@ -2618,12 +2621,15 @@
     <CertificateNotFound>Certificate Not Found!</CertificateNotFound>
     <CommandTimeOut>Waiting time of processing the command is elapsed!</CommandTimeOut>
     <Congratulations>Congratulations!</Congratulations>
+    <ContentNeedsAdditionalPackage>This content needs an additional package</ContentNeedsAdditionalPackage>
     <DeveloperInformation>Developer Information</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>The end date should be greater than the current date!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>The end date should be greater than the start date!</EndDateShouldBeGreaterThanStartDate>
     <Error>Error</Error>
     <ExecutionError>Execution error</ExecutionError>
     <ExpressionValidationFailed>Expression validation failed.</ExpressionValidationFailed>
+    <FileCreatedInNewerVersion>The file was created in version {0}, and you use version {1}. Update to the latest version to open it.</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>This file needs a newer version</FileNeedsNewerVersion>
     <GracePeriod>The grace period of your subscription will expire in {0} days.</GracePeriod>
     <IsIdentical>"{0}" and "{1}" are identical.</IsIdentical>
     <IsNotAuthorized>No access to "{0}"!</IsNotAuthorized>
@@ -2648,6 +2654,7 @@
     <MinimumValue>Minimum is {0}.</MinimumValue>
     <NewDesignerAvailable>Stimulsoft Designer {0} is available.</NewDesignerAvailable>
     <NewProduct>The new product is added to your subscription!</NewProduct>
+    <NewProductAddedToSubscription>A new product is added to your subscription</NewProductAddedToSubscription>
     <NewVersionsAvailable>New version</NewVersionsAvailable>
     <NotificationConnectPackage>Connect the "{0}" package for correct operation.</NotificationConnectPackage>
     <NotificationFailed>Failed result!</NotificationFailed>
@@ -2697,6 +2704,9 @@
     <OutOfRange>Out of range ("{0}")!</OutOfRange>
     <ParsingCommandException>An exception of processing the command in the specified xml: {0}</ParsingCommandException>
     <PleaseLogin>Please login using your Stimulsoft account credentials or register a new account before publishing a report.</PleaseLogin>
+    <PurchaseSubscriptionBeforeTrialEnds>Purchase a subscription or add your license key to the application to keep using Stimulsoft products after the trial.</PurchaseSubscriptionBeforeTrialEnds>
+    <PurchaseSubscriptionDesignerTrialEnds>Purchase a subscription to keep using Stimulsoft products after the trial.</PurchaseSubscriptionDesignerTrialEnds>
+    <PurchaseSubscriptionTrialExpired>Purchase a subscription or add your license key to the application to keep using Stimulsoft products. Closing this window also closes the application.</PurchaseSubscriptionTrialExpired>
     <QuotaMaximumComputingCyclesCountExceeded>Maximum computing cycles exceeded.</QuotaMaximumComputingCyclesCountExceeded>
     <QuotaMaximumDataRowsCountExceeded>Maximum data rows in one data source exceeded.</QuotaMaximumDataRowsCountExceeded>
     <QuotaMaximumFileSizeExceeded>Maximum file size exceeded.</QuotaMaximumFileSizeExceeded>
@@ -2707,18 +2717,26 @@
     <QuotaMaximumResourceSizeExceeded>Maximum resource size exceeded.</QuotaMaximumResourceSizeExceeded>
     <QuotaMaximumUsersCountExceeded>Maximum users exceeded.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>Maximum workspaces exceeded.</QuotaMaximumWorkspacesCountExceeded>
+    <RenewSubscriptionBeforeGracePeriodEnds>Your {0} subscription has expired. Renew it before the grace period ends.</RenewSubscriptionBeforeGracePeriodEnds>
+    <RenewSubscriptionToGetNewVersions>Renew your {0} subscription to keep getting new versions.</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersionsAgain>Renew your {0} subscription to get new versions again.</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>The scheduler cannot run itself!</SchedulerCantRunItSelf>
+    <SeatLimitUpgradeBeforeDate>Your subscription uses more developer seats than it includes. Upgrade your plan before {0} to keep working without interruption.</SeatLimitUpgradeBeforeDate>
+    <SeatLimitUpgradeToContinue>Your subscription uses more developer seats than it includes. Upgrade your plan to continue. Closing this window also closes the application.</SeatLimitUpgradeToContinue>
     <SessionTimeOut>Session timeout</SessionTimeOut>
     <SnapshotAlreadyProcessed>The report snapshot is already processed!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>The specified item is not "{0}"!</SpecifiedItemIsNot>
+    <SubscriptionEndedBeforeVersion>Your {0} subscription ended on {1}, before this version was released. Renew it to use this version.</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>Your subscription has expired!</SubscriptionExpired>
     <SubscriptionExpiredDate>Your subscription will expire on {0}</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>Expires in {0} days</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Your subscription has expired. Update your subscription to get the last version.</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>Subscription expired</SubscriptionExpiredShort>
+    <SubscriptionIsActiveUntil>Your {0} subscription is now active until {1}.</SubscriptionIsActiveUntil>
     <SubscriptionLimitExceeded>Your subscription has exceeded the developer seat limit. The application will be closed. Please upgrade your plan to continue.</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>Subscription limit</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>Your subscription is using more developer seats than allowed. Please consider upgrading your plan to keep working without interruption.</SubscriptionLimitWarning>
+    <SubscriptionNowIncludes>Your subscription now includes {0}. Thank you for your purchase.</SubscriptionNowIncludes>
     <SubscriptionsOut10>10 days left until the subscription expires!</SubscriptionsOut10>
     <SubscriptionsOut20>The subscription period will expire in 20 days!</SubscriptionsOut20>
     <SuccessfullyRenewed>Your subscription has been successfully updated!</SuccessfullyRenewed>
@@ -2734,11 +2752,21 @@
     <VersionCreatedFromItem>Created from item "{0}".</VersionCreatedFromItem>
     <VersionLoadedFromFile>Loaded from file "{0}".</VersionLoadedFromFile>
     <VersionNewItemCreation>New item creation.</VersionNewItemCreation>
+    <VersionNotInSubscription>This version is not included in your subscription</VersionNotInSubscription>
     <Warning>Warning</Warning>
     <WindowClosePreventWhileUploading>Some files are still uploading. If you close the page, they will be lost. Are you sure you want to close the page?</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>"{0}" with the specified key is not found!</WithSpecifiedKeyIsNotFound>
     <WouldYouLikeToUpdateNow>Would you like to update now?</WouldYouLikeToUpdateNow>
+    <YourGracePeriodEndsInDays>Your grace period ends in {0} days</YourGracePeriodEndsInDays>
+    <YourSubscriptionEndsInDays>Your subscription ends in {0} days</YourSubscriptionEndsInDays>
+    <YourSubscriptionHasBeenBlocked>Your subscription has been blocked</YourSubscriptionHasBeenBlocked>
+    <YourSubscriptionHasBeenRenewed>Your subscription has been renewed</YourSubscriptionHasBeenRenewed>
+    <YourSubscriptionHasExpired>Your subscription has expired</YourSubscriptionHasExpired>
+    <YourSubscriptionNeedsAttention>Your subscription needs attention</YourSubscriptionNeedsAttention>
     <YourTimeSessionHasExpired>Your time session has expired!</YourTimeSessionHasExpired>
+    <YourTrialEndsInDays>Your trial ends in {0} days</YourTrialEndsInDays>
+    <YourTrialEndsToday>Your trial ends today</YourTrialEndsToday>
+    <YourTrialEndsTomorrow>Your trial ends tomorrow</YourTrialEndsTomorrow>
     <YourTrialHasExpired>Your trial has expired</YourTrialHasExpired>
     <YourTrialWillExpire>Your trial will expire in {0} days.</YourTrialWillExpire>
     <YouUsingTrialVersion>You are using a trial version!</YouUsingTrialVersion>
@@ -2748,6 +2776,7 @@
     <AssemblyLoadedSuccessfully>The assembly is loaded successfully.</AssemblyLoadedSuccessfully>
     <AssemblyNotFound>It is impossible to find the {0} assembly to use the {1} connection!</AssemblyNotFound>
     <Author>Author</Author>
+    <ChooseDataAdapter>To connect to {0}, download one of these NuGet packages.</ChooseDataAdapter>
     <Dependencies>Dependencies:</Dependencies>
     <Download>Download</Download>
     <DownloadAll>Download All</DownloadAll>

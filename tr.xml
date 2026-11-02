@@ -181,6 +181,7 @@
     <Test>Test</Test>
     <TryToReconnect>Tekrar Bağlanmayı Dene</TryToReconnect>
     <Up>Yukarı</Up>
+    <Update>Güncelle</Update>
     <Upgrade>Yükselt</Upgrade>
     <UpgradeNow>Şimdi Yükselt</UpgradeNow>
     <Upload>Yükle</Upload>
@@ -440,6 +441,7 @@
     <CheckForUpdate>Güncellemeyi Kontrol Et</CheckForUpdate>
     <Cloud>Bulut</Cloud>
     <Collection>Koleksiyon</Collection>
+    <ConfirmEmailAddress>E-posta adresinizi onaylayın</ConfirmEmailAddress>
     <Create>Oluştur</Create>
     <CreateError>Rapor oluşturulurken hata oluştu!</CreateError>
     <CreateNewCollection>Yeni Koleksiyon Oluştur</CreateNewCollection>
@@ -543,6 +545,7 @@
     <SaveFile>Dosyayı Kaydet</SaveFile>
     <SavingToStimulsoftCloudPleaseWait>Rapor Stimulsoft Cloud'a kaydediliyor... Lütfen bekleyin!</SavingToStimulsoftCloudPleaseWait>
     <SearchForOnlineTemplates>Şablonları çevrimiçi arayın</SearchForOnlineTemplates>
+    <SendingEmail>E-posta gönderiliyor...</SendingEmail>
     <ShareWindowTitleNew>Paylaş</ShareWindowTitleNew>
     <ShowAllFiles>Tüm Dosyaları Göster</ShowAllFiles>
     <ShowNotificationMessages>Bildirim İletilerini Göster</ShowNotificationMessages>
@@ -2570,7 +2573,7 @@
     <ActivationServerIsNotAvailableNow>Stimulsoft Etkinleştirme Sunucusu artık mevcut değil! Lütfen daha sonra tekrar deneyin.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>Abonelik Programınızın süresi dolduğundan Stimulsoft Server'ın bu sürümünü etkinleştiremezsiniz! Lütfen hesabınıza giriş yapın ve Stimulsoft Server'ın hangi sürümünü yükleyip etkinleştirebileceğinizi kontrol edin.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>Etkinleştirme sırasında bir hata oluştu. Lütfen daha sonra tekrar deneyin.</ActivationSomeTroublesOccurred>
-    <ActivationTrialExpired>Yazılımı satın alarak Stimulsoft Designer'ı kullanmaya devam edebilirsiniz.</ActivationTrialExpired>
+    <ActivationTrialExpired>Yazılımı satın alarak Stimulsoft ürünlerini kullanmaya devam edebilirsiniz.</ActivationTrialExpired>
     <ActivationTrialExtend1>Deneme sürenizi uzatmakla ilgileniyorsanız lütfen </ActivationTrialExtend1>
     <ActivationTrialExtend2>bize neden olduğunu anlatın.</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>Kullanıcı adınız (E-posta) veya şifre yanlış!</ActivationUserNameOrPasswordIsWrong>
@@ -2618,12 +2621,15 @@
     <CertificateNotFound>Sertifika Bulunamadı!</CertificateNotFound>
     <CommandTimeOut>Komutu işlemek için bekleme süresi doldu!</CommandTimeOut>
     <Congratulations>Tebrikler!</Congratulations>
+    <ContentNeedsAdditionalPackage>Bu içerik için ek bir paket gerekiyor</ContentNeedsAdditionalPackage>
     <DeveloperInformation>Geliştirici Bilgileri</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>Bitiş tarihi, geçerli tarihten daha büyük olmalıdır!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>Bitiş tarihi, başlangıç ​​tarihinden daha büyük olmalıdır!</EndDateShouldBeGreaterThanStartDate>
     <Error>Hata</Error>
     <ExecutionError>Yürütme hatası</ExecutionError>
     <ExpressionValidationFailed>İfade doğrulaması başarısız oldu.</ExpressionValidationFailed>
+    <FileCreatedInNewerVersion>Dosya {0} sürümünde oluşturuldu ve siz {1} sürümünü kullanıyorsunuz. Açmak için en son sürüme güncelleyin.</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>Bu dosya daha yeni bir sürüm gerektiriyor</FileNeedsNewerVersion>
     <GracePeriod>Aboneliğinizin geçerlilik süresi {0} gün içinde sona erecektir.</GracePeriod>
     <IsIdentical>"{0}" ve "{1}" aynıdır.</IsIdentical>
     <IsNotAuthorized>"{0}" öğesine erişim yok!</IsNotAuthorized>
@@ -2648,6 +2654,7 @@
     <MinimumValue>Minimum değer {0}.</MinimumValue>
     <NewDesignerAvailable>Stimulsoft Designer {0} kullanıma sunuldu.</NewDesignerAvailable>
     <NewProduct>Aboneliğinize yeni bir ürün eklendi!</NewProduct>
+    <NewProductAddedToSubscription>Aboneliğinize yeni bir ürün eklendi</NewProductAddedToSubscription>
     <NewVersionsAvailable>Yeni sürüm mevcut!</NewVersionsAvailable>
     <NotificationConnectPackage>Doğru çalışması için "{0}" paketini bağlayın.</NotificationConnectPackage>
     <NotificationFailed>Başarısız sonuç!</NotificationFailed>
@@ -2697,6 +2704,9 @@
     <OutOfRange>Aralık dışı ("{0}")!</OutOfRange>
     <ParsingCommandException>Belirtilen xml: {0} komutunu işlerken bir istisna oluştu</ParsingCommandException>
     <PleaseLogin>Raporu yayınlamadan önce lütfen Stimulsoft hesabı kimlik bilgilerinizi kullanarak oturum açın veya yeni bir hesap kaydedin.</PleaseLogin>
+    <PurchaseSubscriptionBeforeTrialEnds>Deneme süresi bittikten sonra da Stimulsoft ürünlerini kullanmaya devam etmek için bir abonelik satın alın veya lisans anahtarınızı uygulamaya ekleyin.</PurchaseSubscriptionBeforeTrialEnds>
+    <PurchaseSubscriptionDesignerTrialEnds>Deneme süresi bittikten sonra da Stimulsoft ürünlerini kullanmaya devam etmek için bir abonelik satın alın.</PurchaseSubscriptionDesignerTrialEnds>
+    <PurchaseSubscriptionTrialExpired>Stimulsoft ürünlerini kullanmaya devam etmek için bir abonelik satın alın veya lisans anahtarınızı uygulamaya ekleyin. Bu pencereyi kapatmak uygulamayı da kapatır.</PurchaseSubscriptionTrialExpired>
     <QuotaMaximumComputingCyclesCountExceeded>Maksimum hesaplama döngüsü sayısı aşıldı.</QuotaMaximumComputingCyclesCountExceeded>
     <QuotaMaximumDataRowsCountExceeded>Bir veri kaynağında maksimum veri satırı sayısı aşıldı.</QuotaMaximumDataRowsCountExceeded>
     <QuotaMaximumFileSizeExceeded>Maksimum dosya boyutu aşıldı.</QuotaMaximumFileSizeExceeded>
@@ -2707,18 +2717,26 @@
     <QuotaMaximumResourceSizeExceeded>Maksimum kaynak boyutu aşıldı.</QuotaMaximumResourceSizeExceeded>
     <QuotaMaximumUsersCountExceeded>Maksimum kullanıcı sayısı aşıldı.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>Maksimum çalışma alanı sayısı aşıldı.</QuotaMaximumWorkspacesCountExceeded>
+    <RenewSubscriptionBeforeGracePeriodEnds>{0} aboneliğinizin süresi doldu. Ek süre bitmeden yenileyin.</RenewSubscriptionBeforeGracePeriodEnds>
+    <RenewSubscriptionToGetNewVersions>Yeni sürümleri almaya devam etmek için {0} aboneliğinizi yenileyin.</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersionsAgain>Yeni sürümleri yeniden almak için {0} aboneliğinizi yenileyin.</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>Zamanlayıcı kendisini çalıştıramaz!</SchedulerCantRunItSelf>
+    <SeatLimitUpgradeBeforeDate>Aboneliğiniz, içerdiğinden daha fazla geliştirici koltuğu kullanıyor. Kesintisiz çalışmaya devam etmek için planınızı {0} tarihinden önce yükseltin.</SeatLimitUpgradeBeforeDate>
+    <SeatLimitUpgradeToContinue>Aboneliğiniz, içerdiğinden daha fazla geliştirici koltuğu kullanıyor. Devam etmek için planınızı yükseltin. Bu pencereyi kapatmak uygulamayı da kapatır.</SeatLimitUpgradeToContinue>
     <SessionTimeOut>Oturum zaman aşımı</SessionTimeOut>
     <SnapshotAlreadyProcessed>Rapor anlık görüntüsü zaten işlendi!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>Belirtilen öğe "{0}" değil!</SpecifiedItemIsNot>
+    <SubscriptionEndedBeforeVersion>{0} aboneliğiniz bu sürüm yayımlanmadan önce, {1} tarihinde sona erdi. Bu sürümü kullanmak için aboneliğinizi yenileyin.</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>Aboneliğinizin süresi doldu!</SubscriptionExpired>
     <SubscriptionExpiredDate>Aboneliğiniz {0} tarihinde sona erecek </SubscriptionExpiredDate>
     <SubscriptionExpiredDays>{0} gün içinde sona eriyor</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Aboneliğiniz sona erdi. Son sürümü almak için aboneliğinizi güncelleyin.</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>Abonelik süresi doldu</SubscriptionExpiredShort>
+    <SubscriptionIsActiveUntil>{0} aboneliğiniz artık {1} tarihine kadar geçerli.</SubscriptionIsActiveUntil>
     <SubscriptionLimitExceeded>Aboneliğiniz geliştirici lisansı limitini aşmıştır. Uygulama kapatılacak. Devam etmek için lütfen planınızı yükseltin.</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>Abonelik limiti</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>Aboneliğiniz izin verilen geliştirici lisansından daha fazlasını kullanıyor. Kesintisiz çalışmaya devam etmek için lütfen planınızı yükseltmeyi düşünün.</SubscriptionLimitWarning>
+    <SubscriptionNowIncludes>Aboneliğiniz artık şunları içeriyor: {0}. Satın aldığınız için teşekkür ederiz.</SubscriptionNowIncludes>
     <SubscriptionsOut10>Abonelik süresi dolmasına 10 gün kaldı!</SubscriptionsOut10>
     <SubscriptionsOut20>Abonelik süresi 20 gün içinde sona eriyor! </SubscriptionsOut20>
     <SuccessfullyRenewed>Aboneliğiniz başarıyla güncellendi!</SuccessfullyRenewed>
@@ -2734,11 +2752,21 @@
     <VersionCreatedFromItem>"{0}" öğesinden oluşturuldu.</VersionCreatedFromItem>
     <VersionLoadedFromFile>"{0}" dosyasından yüklendi.</VersionLoadedFromFile>
     <VersionNewItemCreation>Yeni öğe oluşturma.</VersionNewItemCreation>
+    <VersionNotInSubscription>Bu sürüm aboneliğinize dahil değil</VersionNotInSubscription>
     <Warning>Uyarı</Warning>
     <WindowClosePreventWhileUploading>Bazı dosyalar şimdi yükleniyor, sayfayı kapatırsanız kaybolacaklar. Sayfayı kapatmak istediğinizden emin misiniz?</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>"{0}" ile belirtilen anahtar bulunamadı!</WithSpecifiedKeyIsNotFound>
     <WouldYouLikeToUpdateNow>Şimdi güncellemek ister misiniz?</WouldYouLikeToUpdateNow>
+    <YourGracePeriodEndsInDays>Ek süreniz {0} gün içinde sona eriyor</YourGracePeriodEndsInDays>
+    <YourSubscriptionEndsInDays>Aboneliğiniz {0} gün içinde sona eriyor</YourSubscriptionEndsInDays>
+    <YourSubscriptionHasBeenBlocked>Aboneliğiniz engellendi</YourSubscriptionHasBeenBlocked>
+    <YourSubscriptionHasBeenRenewed>Aboneliğiniz yenilendi</YourSubscriptionHasBeenRenewed>
+    <YourSubscriptionHasExpired>Aboneliğinizin süresi doldu</YourSubscriptionHasExpired>
+    <YourSubscriptionNeedsAttention>Aboneliğiniz ilgi gerektiriyor</YourSubscriptionNeedsAttention>
     <YourTimeSessionHasExpired>Oturumunuzun süresi doldu!</YourTimeSessionHasExpired>
+    <YourTrialEndsInDays>Deneme süreniz {0} gün içinde sona eriyor</YourTrialEndsInDays>
+    <YourTrialEndsToday>Deneme süreniz bugün sona eriyor</YourTrialEndsToday>
+    <YourTrialEndsTomorrow>Deneme süreniz yarın sona eriyor</YourTrialEndsTomorrow>
     <YourTrialHasExpired>Deneme süreniz sona erdi.</YourTrialHasExpired>
     <YourTrialWillExpire>Deneme süreniz {0} gün içinde sona erecek.</YourTrialWillExpire>
     <YouUsingTrialVersion>Deneme sürümü kullanıyorsunuz!</YouUsingTrialVersion>
@@ -2748,6 +2776,7 @@
     <AssemblyLoadedSuccessfully>Derleme başarıyla yüklendi.</AssemblyLoadedSuccessfully>
     <AssemblyNotFound>{1} bağlantısını kullanmak için {0} derlemesinin bulunması mümkün değil!</AssemblyNotFound>
     <Author>Yazar</Author>
+    <ChooseDataAdapter>{0} bağlantısı için bu NuGet paketlerinden birini indirin.</ChooseDataAdapter>
     <Dependencies>Bağımlılıklar:</Dependencies>
     <Download>İndir</Download>
     <DownloadAll>Tümünü İndir</DownloadAll>

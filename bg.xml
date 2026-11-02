@@ -181,6 +181,7 @@
     <Test>Проверка</Test>
     <TryToReconnect>Опитайте да се свържете отново</TryToReconnect>
     <Up>Нагоре</Up>
+    <Update>Актуализирай</Update>
     <Upgrade>Надграждане</Upgrade>
     <UpgradeNow>Надгради сега</UpgradeNow>
     <Upload>Качване</Upload>
@@ -440,6 +441,7 @@
     <CheckForUpdate>Проверка за актуализация</CheckForUpdate>
     <Cloud>Облак</Cloud>
     <Collection>Колекция</Collection>
+    <ConfirmEmailAddress>Потвърдете своя Email адрес</ConfirmEmailAddress>
     <Create>Създай</Create>
     <CreateError>Грешка при създаване на отчета!</CreateError>
     <CreateNewCollection>Създай нова колекция</CreateNewCollection>
@@ -543,6 +545,7 @@
     <SaveFile>Съхрани файл</SaveFile>
     <SavingToStimulsoftCloudPleaseWait>Съхраняване на отчета в Stimulsoft облака. Моля почакайте!</SavingToStimulsoftCloudPleaseWait>
     <SearchForOnlineTemplates>Търсене онлайн шаблони</SearchForOnlineTemplates>
+    <SendingEmail>Изпращане на Email...</SendingEmail>
     <ShareWindowTitleNew>Сподели</ShareWindowTitleNew>
     <ShowAllFiles>Покажи всички файлове</ShowAllFiles>
     <ShowNotificationMessages>Покажи информационни съобщения</ShowNotificationMessages>
@@ -2578,7 +2581,7 @@
     <ActivationServerIsNotAvailableNow>Stimulsoft Activation Server в момента не е наличен! Опитайте отново по-късно.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>Вие не можете да активирате тази версия на Stimulsoft Server защото абонамента ви е изтекъл! Моля, влезте в профила си и проверите коя версия на Stimulsoft Server можете да инсталирате и активирте.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>Възникна грешка при активиране. Моля, опитайте отново по-късно.</ActivationSomeTroublesOccurred>
-    <ActivationTrialExpired>Можете да продължите да използвате Stimulsoft Designer, като закупите софтуера.</ActivationTrialExpired>
+    <ActivationTrialExpired>Можете да продължите да използвате продуктите на Stimulsoft, като закупите софтуера.</ActivationTrialExpired>
     <ActivationTrialExtend1>Ако се интересувате от удължаване на пробния период, моля </ActivationTrialExtend1>
     <ActivationTrialExtend2>споделете ни защо..</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>Грешно потребителско име (Email) или парола!</ActivationUserNameOrPasswordIsWrong>
@@ -2626,12 +2629,15 @@
     <CertificateNotFound>Сертификата не е намерен!</CertificateNotFound>
     <CommandTimeOut>Времето за обработка на командата е изтекло!</CommandTimeOut>
     <Congratulations>Поздравления!</Congratulations>
+    <ContentNeedsAdditionalPackage>Това съдържание изисква допълнителен пакет</ContentNeedsAdditionalPackage>
     <DeveloperInformation>Информация за програмиста</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>Крайната дата трябва да е по-голяма от текущата!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>Крайната дата трябва да е по-голяма от началната дата!</EndDateShouldBeGreaterThanStartDate>
     <Error>Грешка</Error>
     <ExecutionError>Грешка при изпълнение</ExecutionError>
     <ExpressionValidationFailed>Проверката на израза не бе успешна.</ExpressionValidationFailed>
+    <FileCreatedInNewerVersion>Файлът е създаден във версия {0}, а вие използвате версия {1}. Обновете до най-новата версия, за да го отворите.</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>Този файл изисква по-нова версия</FileNeedsNewerVersion>
     <GracePeriod>Гратисният период на вашия абонамент ще изтече след {0} дни.</GracePeriod>
     <IsIdentical>"{0}" и "{1}" са еднакви."</IsIdentical>
     <IsNotAuthorized>Няма достъп до "{0}"!</IsNotAuthorized>
@@ -2656,6 +2662,7 @@
     <MinimumValue>Минимумът е {0}.</MinimumValue>
     <NewDesignerAvailable>Наличен е Stimulsoft Designer {0}.</NewDesignerAvailable>
     <NewProduct>Добавен е нов продукт към вашия абонамент!</NewProduct>
+    <NewProductAddedToSubscription>Към абонамента ви е добавен нов продукт</NewProductAddedToSubscription>
     <NewVersionsAvailable>Налична е нова версия!</NewVersionsAvailable>
     <NotificationConnectPackage>Свържете пакета "{0}" за правилна работа.</NotificationConnectPackage>
     <NotificationFailed>Неуспешен резултат!</NotificationFailed>
@@ -2705,6 +2712,9 @@
     <OutOfRange>Извън обхват ("{0}")!</OutOfRange>
     <ParsingCommandException>Изключение от обработката на команда в зададен XML: {0}</ParsingCommandException>
     <PleaseLogin>Моля, влезте с помощта на идентификационните си данни за акаунта в Stimulsoft или регистрирайте нов акаунт, преди да публикувате отчет.</PleaseLogin>
+    <PurchaseSubscriptionBeforeTrialEnds>Закупете абонамент или добавете лицензния си ключ в приложението, за да продължите да използвате продуктите на Stimulsoft след края на пробния период.</PurchaseSubscriptionBeforeTrialEnds>
+    <PurchaseSubscriptionDesignerTrialEnds>Закупете абонамент, за да продължите да използвате продуктите на Stimulsoft след края на пробния период.</PurchaseSubscriptionDesignerTrialEnds>
+    <PurchaseSubscriptionTrialExpired>Закупете абонамент или добавете лицензния си ключ в приложението, за да продължите да използвате продуктите на Stimulsoft. Затварянето на този прозорец затваря и приложението.</PurchaseSubscriptionTrialExpired>
     <QuotaMaximumComputingCyclesCountExceeded>Превишени са максималните изчислителни цикли за преброяване.</QuotaMaximumComputingCyclesCountExceeded>
     <QuotaMaximumDataRowsCountExceeded>Максималните редове от данни са превишени в един източник на данни.</QuotaMaximumDataRowsCountExceeded>
     <QuotaMaximumFileSizeExceeded>Превишен е максималният размер на файла.</QuotaMaximumFileSizeExceeded>
@@ -2715,18 +2725,26 @@
     <QuotaMaximumResourceSizeExceeded>Максималният размер на ресурса е надвишен.</QuotaMaximumResourceSizeExceeded>
     <QuotaMaximumUsersCountExceeded>Превишен е максимания брой потребители.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>Превишен е максималния брой работни пространства.</QuotaMaximumWorkspacesCountExceeded>
+    <RenewSubscriptionBeforeGracePeriodEnds>Абонаментът ви за {0} е изтекъл. Подновете го преди края на гратисния период.</RenewSubscriptionBeforeGracePeriodEnds>
+    <RenewSubscriptionToGetNewVersions>Подновете абонамента си за {0}, за да продължите да получавате новите версии.</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersionsAgain>Подновете абонамента си за {0}, за да получавате отново новите версии.</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>Заданието не може да стартира себе си!</SchedulerCantRunItSelf>
+    <SeatLimitUpgradeBeforeDate>Абонаментът ви използва повече места за разработчици, отколкото включва. Надградете плана си преди {0}, за да продължите работа без прекъсване.</SeatLimitUpgradeBeforeDate>
+    <SeatLimitUpgradeToContinue>Абонаментът ви използва повече места за разработчици, отколкото включва. Надградете плана си, за да продължите. Затварянето на този прозорец затваря и приложението.</SeatLimitUpgradeToContinue>
     <SessionTimeOut>Изтекла сесия</SessionTimeOut>
     <SnapshotAlreadyProcessed>Моментната снимка на отчета е вече обработена!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>Определения елемент не е "{0}"!</SpecifiedItemIsNot>
+    <SubscriptionEndedBeforeVersion>Абонаментът ви за {0} е изтекъл на {1}, преди излизането на тази версия. Подновете го, за да използвате тази версия.</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>Вашият абонамент е изтекъл!</SubscriptionExpired>
     <SubscriptionExpiredDate>Вашият абонамент ще изтече на {0}</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>Изтича след {0} дни</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Абонаментът ви е изтекъл. Актуализирайте абонамента си, за да получите последната версия.</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>Абонаментът е изтекъл</SubscriptionExpiredShort>
+    <SubscriptionIsActiveUntil>Абонаментът ви за {0} вече е активен до {1}.</SubscriptionIsActiveUntil>
     <SubscriptionLimitExceeded>Абонаментът ви е надвишил лимита за разработчици. Приложението ще бъде затворено. Моля, надстройте плана си, за да продължите.</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>Лимит на абонамента</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>Вашият абонамент използва повече места за разработчици от разрешеното. Моля, помислете за надграждане на плана си, за да продължите да работите без прекъсване.</SubscriptionLimitWarning>
+    <SubscriptionNowIncludes>Абонаментът ви вече включва {0}. Благодарим ви за покупката.</SubscriptionNowIncludes>
     <SubscriptionsOut10>остават 10 дни до изтичане на вашия абонамент!</SubscriptionsOut10>
     <SubscriptionsOut20>Абонаментния период изтича след 20 дни!</SubscriptionsOut20>
     <SuccessfullyRenewed>Вашият абонамент е подновен успешно!</SuccessfullyRenewed>
@@ -2742,11 +2760,21 @@
     <VersionCreatedFromItem>Създаден от елемент "{0}".</VersionCreatedFromItem>
     <VersionLoadedFromFile>Зареден от файл "{0}".</VersionLoadedFromFile>
     <VersionNewItemCreation>Създаване на нов елемент.</VersionNewItemCreation>
+    <VersionNotInSubscription>Тази версия не е включена в абонамента ви</VersionNotInSubscription>
     <Warning>Предупреждение</Warning>
     <WindowClosePreventWhileUploading>Някой файлове се качват в момента, ако затворите страницате те ще се загубят.Сигурни ли сте че искате да затворите страницата?</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>"{0}" със зададения ключ не е намерен!</WithSpecifiedKeyIsNotFound>
     <WouldYouLikeToUpdateNow>Искате ли да актуализирате сега?</WouldYouLikeToUpdateNow>
+    <YourGracePeriodEndsInDays>Гратисният период изтича след {0} дни</YourGracePeriodEndsInDays>
+    <YourSubscriptionEndsInDays>Абонаментът ви изтича след {0} дни</YourSubscriptionEndsInDays>
+    <YourSubscriptionHasBeenBlocked>Абонаментът ви е блокиран</YourSubscriptionHasBeenBlocked>
+    <YourSubscriptionHasBeenRenewed>Абонаментът ви е подновен</YourSubscriptionHasBeenRenewed>
+    <YourSubscriptionHasExpired>Абонаментът ви е изтекъл</YourSubscriptionHasExpired>
+    <YourSubscriptionNeedsAttention>Абонаментът ви изисква внимание</YourSubscriptionNeedsAttention>
     <YourTimeSessionHasExpired>Вашата сесия е изтекла!</YourTimeSessionHasExpired>
+    <YourTrialEndsInDays>Пробният ви период изтича след {0} дни</YourTrialEndsInDays>
+    <YourTrialEndsToday>Пробният ви период изтича днес</YourTrialEndsToday>
+    <YourTrialEndsTomorrow>Пробният ви период изтича утре</YourTrialEndsTomorrow>
     <YourTrialHasExpired>Пробният ви период изтече</YourTrialHasExpired>
     <YourTrialWillExpire>Пробният ви период ще изтече след {0} дни.</YourTrialWillExpire>
     <YouUsingTrialVersion>Вие ползвате пробна версия!</YouUsingTrialVersion>
@@ -2756,6 +2784,7 @@
     <AssemblyLoadedSuccessfully>Колекцията е заредена успешно.</AssemblyLoadedSuccessfully>
     <AssemblyNotFound>Невъзможно е да се намери {0} колекция за ползване в {1} връзки!</AssemblyNotFound>
     <Author>Автор</Author>
+    <ChooseDataAdapter>За да се свържете с {0}, изтеглете един от тези NuGet пакети.</ChooseDataAdapter>
     <Dependencies>Зависимости:</Dependencies>
     <Download>Изтегли</Download>
     <DownloadAll>Изтегли всичко</DownloadAll>

@@ -181,7 +181,8 @@
     <Test>Перевірка</Test>
     <TryToReconnect>Спробувати повторне з'єднання</TryToReconnect>
     <Up>Вгору</Up>
-    <Upgrade>Оновити версію</Upgrade>
+    <Update>Оновити</Update>
+    <Upgrade>Розширити</Upgrade>
     <UpgradeNow>Оновити зараз</UpgradeNow>
     <Upload>Вивантажити</Upload>
     <Waiting>Очікування</Waiting>
@@ -440,6 +441,7 @@
     <CheckForUpdate>Перевірити наявність оновлень</CheckForUpdate>
     <Cloud>Хмара</Cloud>
     <Collection>Колекція</Collection>
+    <ConfirmEmailAddress>Підтвердьте свою адресу електронної пошти</ConfirmEmailAddress>
     <Create>Створити</Create>
     <CreateError>Помилка під час створення звіту!</CreateError>
     <CreateNewCollection>Створити нову колекцію</CreateNewCollection>
@@ -543,6 +545,7 @@
     <SaveFile>Зберегти файл</SaveFile>
     <SavingToStimulsoftCloudPleaseWait>Збереження звіту в Stimulsoft Cloud. Будь ласка, зачекайте!</SavingToStimulsoftCloudPleaseWait>
     <SearchForOnlineTemplates>Шукати шаблони онлайн</SearchForOnlineTemplates>
+    <SendingEmail>Надсилання листа...</SendingEmail>
     <ShareWindowTitleNew>Поділитися</ShareWindowTitleNew>
     <ShowAllFiles>Показати всі файли</ShowAllFiles>
     <ShowNotificationMessages>Показувати повідомлення сповіщень</ShowNotificationMessages>
@@ -2567,7 +2570,7 @@
     <ActivationServerIsNotAvailableNow>Сервер активації Stimulsoft зараз недоступний! Будь ласка, спробуйте пізніше.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>Ви не можете активувати цю версію Stimulsoft Server, оскільки термін дії вашої програми підписки закінчився! Будь ласка, увійдіть у свій обліковий запис і перевірте, яку версію Stimulsoft Server ви можете встановити та активувати.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>Під час активації сталася помилка. Спробуйте ще раз пізніше.</ActivationSomeTroublesOccurred>
-    <ActivationTrialExpired>Ви можете продовжити використання Stimulsoft Designer, придбавши програмне забезпечення.</ActivationTrialExpired>
+    <ActivationTrialExpired>Ви можете продовжити використання продуктів Stimulsoft, придбавши програмне забезпечення.</ActivationTrialExpired>
     <ActivationTrialExtend1>Якщо ви зацікавлені в продовженні пробного періоду, будь ласка,</ActivationTrialExtend1>
     <ActivationTrialExtend2>розкажіть нам чому.</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>Ваше ім'я користувача (електронна пошта) або пароль неправильні!</ActivationUserNameOrPasswordIsWrong>
@@ -2615,12 +2618,15 @@
     <CertificateNotFound>Сертифікат не знайдено!</CertificateNotFound>
     <CommandTimeOut>Час очікування обробки команди минув!</CommandTimeOut>
     <Congratulations>Вітаємо!</Congratulations>
+    <ContentNeedsAdditionalPackage>Для цього вмісту потрібен додатковий пакет</ContentNeedsAdditionalPackage>
     <DeveloperInformation>Інформація для розробника</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>Кінцева дата має бути пізнішою за поточну дату!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>Кінцева дата має бути пізнішою за початкову дату!</EndDateShouldBeGreaterThanStartDate>
     <Error>Помилка</Error>
     <ExecutionError>Помилка виконання</ExecutionError>
     <ExpressionValidationFailed>Не вдалося перевірити вираз.</ExpressionValidationFailed>
+    <FileCreatedInNewerVersion>Файл створено у версії {0}, а у вас версія {1}. Оновіться до останньої версії, щоб відкрити його.</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>Для цього файлу потрібна новіша версія</FileNeedsNewerVersion>
     <GracePeriod>Пільговий період вашої підписки завершиться через {0} дн.</GracePeriod>
     <IsIdentical>"{0}" та "{1}" ідентичні.</IsIdentical>
     <IsNotAuthorized>Немає доступу до "{0}"!</IsNotAuthorized>
@@ -2645,6 +2651,7 @@
     <MinimumValue>Мінімум — {0}.</MinimumValue>
     <NewDesignerAvailable>Доступний Stimulsoft Designer {0}.</NewDesignerAvailable>
     <NewProduct>Новий продукт додано до вашої підписки!</NewProduct>
+    <NewProductAddedToSubscription>До підписки додано новий продукт</NewProductAddedToSubscription>
     <NewVersionsAvailable>Нова версія</NewVersionsAvailable>
     <NotificationConnectPackage>Підключіть пакет "{0}" для коректної роботи.</NotificationConnectPackage>
     <NotificationFailed>Невдалий результат!</NotificationFailed>
@@ -2694,6 +2701,9 @@
     <OutOfRange>Поза діапазоном ("{0}")!</OutOfRange>
     <ParsingCommandException>Виняток під час обробки команди у вказаному xml: {0}</ParsingCommandException>
     <PleaseLogin>Будь ласка, увійдіть за допомогою облікових даних Stimulsoft або зареєструйте новий обліковий запис перед публікацією звіту.</PleaseLogin>
+    <PurchaseSubscriptionBeforeTrialEnds>Оформіть підписку або додайте ліцензійний ключ у програму, щоб і далі користуватися продуктами Stimulsoft після завершення пробного періоду.</PurchaseSubscriptionBeforeTrialEnds>
+    <PurchaseSubscriptionDesignerTrialEnds>Оформіть підписку, щоб і далі користуватися продуктами Stimulsoft після завершення пробного періоду.</PurchaseSubscriptionDesignerTrialEnds>
+    <PurchaseSubscriptionTrialExpired>Оформіть підписку або додайте ліцензійний ключ у програму, щоб і далі користуватися продуктами Stimulsoft. Разом із цим вікном закриється і програма.</PurchaseSubscriptionTrialExpired>
     <QuotaMaximumComputingCyclesCountExceeded>Перевищено максимальну кількість циклів обчислення.</QuotaMaximumComputingCyclesCountExceeded>
     <QuotaMaximumDataRowsCountExceeded>Перевищено максимальну кількість рядків даних в одному джерелі даних.</QuotaMaximumDataRowsCountExceeded>
     <QuotaMaximumFileSizeExceeded>Перевищено максимальний розмір файлу.</QuotaMaximumFileSizeExceeded>
@@ -2704,18 +2714,26 @@
     <QuotaMaximumResourceSizeExceeded>Перевищено максимальний розмір ресурсу.</QuotaMaximumResourceSizeExceeded>
     <QuotaMaximumUsersCountExceeded>Перевищено максимальну кількість користувачів.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>Перевищено максимальну кількість робочих просторів.</QuotaMaximumWorkspacesCountExceeded>
+    <RenewSubscriptionBeforeGracePeriodEnds>Підписка на {0} закінчилася. Продовжте її до кінця пільгового періоду.</RenewSubscriptionBeforeGracePeriodEnds>
+    <RenewSubscriptionToGetNewVersions>Продовжте підписку на {0}, щоб і далі отримувати нові версії.</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersionsAgain>Продовжте підписку на {0}, щоб знову отримувати нові версії.</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>Планувальник не може запустити сам себе!</SchedulerCantRunItSelf>
+    <SeatLimitUpgradeBeforeDate>Підписка використовується на більшій кількості місць розробників, ніж до неї входить. Розширте план до {0}, щоб працювати без перерв.</SeatLimitUpgradeBeforeDate>
+    <SeatLimitUpgradeToContinue>Підписка використовується на більшій кількості місць розробників, ніж до неї входить. Розширте план, щоб продовжити роботу. Разом із цим вікном закриється і програма.</SeatLimitUpgradeToContinue>
     <SessionTimeOut>Тайм-аут сесії</SessionTimeOut>
     <SnapshotAlreadyProcessed>Знімок звіту вже оброблено!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>Указаний елемент не є "{0}"!</SpecifiedItemIsNot>
+    <SubscriptionEndedBeforeVersion>Підписка на {0} закінчилася {1}, до виходу цієї версії. Продовжте її, щоб користуватися цією версією.</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>Термін дії вашої підписки закінчився!</SubscriptionExpired>
     <SubscriptionExpiredDate>Термін дії вашої підписки закінчиться {0}</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>Термін дії закінчується через {0} дн.</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Термін дії вашої підписки закінчився. Оновіть підписку, щоб отримати останню версію.</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>Термін дії підписки закінчився</SubscriptionExpiredShort>
+    <SubscriptionIsActiveUntil>Підписка на {0} тепер діє до {1}.</SubscriptionIsActiveUntil>
     <SubscriptionLimitExceeded>Ваша підписка перевищила ліміт місць розробників. Застосунок буде закрито. Будь ласка, оновіть свій план, щоб продовжити.</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>Ліміт підписки</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>Ваша підписка використовує більше місць розробників, ніж дозволено. Будь ласка, розгляньте можливість оновлення плану, щоб продовжити роботу без перерв.</SubscriptionLimitWarning>
+    <SubscriptionNowIncludes>Тепер ваша підписка включає {0}. Дякуємо за покупку.</SubscriptionNowIncludes>
     <SubscriptionsOut10>До закінчення передплати залишилося 10 днів!</SubscriptionsOut10>
     <SubscriptionsOut20>Період підписки завершиться через 20 днів!</SubscriptionsOut20>
     <SuccessfullyRenewed>Вашу підписку успішно оновлено!</SuccessfullyRenewed>
@@ -2731,11 +2749,21 @@
     <VersionCreatedFromItem>Створено з елемента "{0}".</VersionCreatedFromItem>
     <VersionLoadedFromFile>Завантажено з файлу "{0}".</VersionLoadedFromFile>
     <VersionNewItemCreation>Створення нового елемента.</VersionNewItemCreation>
+    <VersionNotInSubscription>Ця версія не входить до вашої підписки</VersionNotInSubscription>
     <Warning>Попередження</Warning>
     <WindowClosePreventWhileUploading>Деякі файли ще завантажуються. Якщо ви закриєте сторінку, їх буде втрачено. Ви дійсно хочете закрити сторінку?</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>"{0}" із вказаним ключем не знайдено!</WithSpecifiedKeyIsNotFound>
     <WouldYouLikeToUpdateNow>Бажаєте оновити зараз?</WouldYouLikeToUpdateNow>
+    <YourGracePeriodEndsInDays>Пільговий період закінчиться через {0} днів</YourGracePeriodEndsInDays>
+    <YourSubscriptionEndsInDays>Підписка закінчиться через {0} днів</YourSubscriptionEndsInDays>
+    <YourSubscriptionHasBeenBlocked>Підписку заблоковано</YourSubscriptionHasBeenBlocked>
+    <YourSubscriptionHasBeenRenewed>Підписку продовжено</YourSubscriptionHasBeenRenewed>
+    <YourSubscriptionHasExpired>Термін дії підписки закінчився</YourSubscriptionHasExpired>
+    <YourSubscriptionNeedsAttention>Підписка потребує уваги</YourSubscriptionNeedsAttention>
     <YourTimeSessionHasExpired>Час вашого сеансу минув!</YourTimeSessionHasExpired>
+    <YourTrialEndsInDays>Пробний період закінчиться через {0} днів</YourTrialEndsInDays>
+    <YourTrialEndsToday>Пробний період закінчиться сьогодні</YourTrialEndsToday>
+    <YourTrialEndsTomorrow>Пробний період закінчиться завтра</YourTrialEndsTomorrow>
     <YourTrialHasExpired>Термін дії вашої пробної версії закінчився</YourTrialHasExpired>
     <YourTrialWillExpire>Термін дії вашої пробної версії закінчиться через {0} дн.</YourTrialWillExpire>
     <YouUsingTrialVersion>Ви використовуєте пробну версію!</YouUsingTrialVersion>
@@ -2745,6 +2773,7 @@
     <AssemblyLoadedSuccessfully>Збірку успішно завантажено.</AssemblyLoadedSuccessfully>
     <AssemblyNotFound>Неможливо знайти збірку {0} для використання з'єднання {1}!</AssemblyNotFound>
     <Author>Автор</Author>
+    <ChooseDataAdapter>Щоб підключитися до {0}, завантажте один із цих пакетів NuGet.</ChooseDataAdapter>
     <Dependencies>Залежності:</Dependencies>
     <Download>Завантажити</Download>
     <DownloadAll>Завантажити все</DownloadAll>

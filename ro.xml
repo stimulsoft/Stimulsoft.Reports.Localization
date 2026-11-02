@@ -183,7 +183,8 @@
     <Test>Test</Test>
     <TryToReconnect>Încercați reconectarea</TryToReconnect>
     <Up>Sus</Up>
-    <Upgrade>Actualizare</Upgrade>
+    <Update>Actualizează</Update>
+    <Upgrade>Extinde</Upgrade>
     <UpgradeNow>Actualizare Acum</UpgradeNow>
     <Upload>Încarcă</Upload>
     <Waiting>Aşteptare</Waiting>
@@ -424,7 +425,7 @@
     <ButtonPublish>Publicare</ButtonPublish>
     <ButtonPurchase>Cumpără</ButtonPurchase>
     <ButtonRecover>Recuperare</ButtonRecover>
-    <ButtonRenew>Reînnoire</ButtonRenew>
+    <ButtonRenew>Reînnoiește</ButtonRenew>
     <ButtonResendEmail>Retrimitere E-mail</ButtonResendEmail>
     <ButtonResendInvitation>Retrimite invitația</ButtonResendInvitation>
     <ButtonResetPassword>Resetează parola</ButtonResetPassword>
@@ -442,6 +443,7 @@
     <CheckForUpdate>Verifică pentru actualizare</CheckForUpdate>
     <Cloud>Cloud</Cloud>
     <Collection>Colecţie</Collection>
+    <ConfirmEmailAddress>Confirmați adresa de E-mail</ConfirmEmailAddress>
     <Create>Creare</Create>
     <CreateError>Eroare la creare raport!</CreateError>
     <CreateNewCollection>Creare Colecţie Noua</CreateNewCollection>
@@ -545,6 +547,7 @@
     <SaveFile>Salvează Fişier</SaveFile>
     <SavingToStimulsoftCloudPleaseWait>Salvare raport în Stimulsoft Cloud. Vă rugăm aşteptaţi!</SavingToStimulsoftCloudPleaseWait>
     <SearchForOnlineTemplates>Căutare șabloane online</SearchForOnlineTemplates>
+    <SendingEmail>Se trimite E-mailul...</SendingEmail>
     <ShareWindowTitleNew>Partajare</ShareWindowTitleNew>
     <ShowAllFiles>Arată Toate Fişierele</ShowAllFiles>
     <ShowNotificationMessages>Afișare mesaje de notificare</ShowNotificationMessages>
@@ -577,7 +580,7 @@
     <TextRole>Rol</TextRole>
     <TextRun>Executare</TextRun>
     <TextUser>Utilizator</TextUser>
-    <TextUserName>Nume Utilizator (Email)</TextUserName>
+    <TextUserName>Nume Utilizator (E-mail)</TextUserName>
     <TimeHoursAgoFive>Acum cinci ore, {0:t}</TimeHoursAgoFive>
     <TimeHoursAgoFour>Acum patru ore, {0:t}</TimeHoursAgoFour>
     <TimeHoursAgoOne>Acum o oră, {0:t}</TimeHoursAgoOne>
@@ -1877,7 +1880,7 @@
     <Print>Imprimă...</Print>
     <qnPageDelete>Doriţi să ştergeţi pagina curentă?</qnPageDelete>
     <Save>Salvează...</Save>
-    <SendEMail>Trimite Email...</SendEMail>
+    <SendEMail>Trimite e-mail...</SendEMail>
     <StatusBar>Bară de stare</StatusBar>
     <Thumbnails>Index</Thumbnails>
     <title>Previzualizare</title>
@@ -2383,7 +2386,7 @@
     <Save>Salvează un raport pentru a-l utiliza ulterior.</Save>
     <ScaleHtml>Dimensiunea (scala) paginii şi elementelor raportului după export.</ScaleHtml>
     <ScaleImage>Dimensiunea (scala) din raport după export.Cu cât dimensiunea este mai mică, cu atât mai mare este numărul de pixeli pe inch, si invers.</ScaleImage>
-    <SendEMail>Trimite un raport prin Email.</SendEMail>
+    <SendEMail>Trimite un raport prin e-mail.</SendEMail>
     <Separator>Separator între datele din fişierul CSV.</Separator>
     <SkipColumnHeaders>Activare / dezactivare anteturi de coloană.</SkipColumnHeaders>
     <StandardPdfFonts>14 fonturi Adobe standard. Dacă această opţiune este activată, atunci doar 14 fonturi standard vor fi folosite în fişierul PDF. Toate fonturile raport sunt convertite în ele.</StandardPdfFonts>
@@ -2600,7 +2603,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <ActivationServerIsNotAvailableNow>Serverul pentru activare Stimulsoft nu este disponibil acum! Vă rugăm să încercați din nou mai târziu.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>Nu puteți activa această versiune de Stimulsoft Server deoarece abonamentul dvs. a expirat! Conectați-vă la contul dvs. și verificați ce versiune Stimulsoft Server puteți instala și activa.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>A apărut o eroare în timpul activării. Vă rugăm să încercați din nou mai târziu.</ActivationSomeTroublesOccurred>
-    <ActivationTrialExpired>Puteți continua să utilizați Stimulsoft Designer achiziționând software-ul.</ActivationTrialExpired>
+    <ActivationTrialExpired>Puteți continua să utilizați produsele Stimulsoft achiziționând software-ul.</ActivationTrialExpired>
     <ActivationTrialExtend1>Dacă sunteți interesat să prelungiți perioada de testare, vă rugăm </ActivationTrialExtend1>
     <ActivationTrialExtend2>spune-ne de ce.</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>Nume utilizator (e-mail) sau parola greșită!</ActivationUserNameOrPasswordIsWrong>
@@ -2648,12 +2651,15 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <CertificateNotFound>Certificatul nu a fost găsit!</CertificateNotFound>
     <CommandTimeOut>Momentul de așteptare a procesării comenzii a trecut</CommandTimeOut>
     <Congratulations>Felicitări!</Congratulations>
+    <ContentNeedsAdditionalPackage>Acest conținut necesită un pachet suplimentar</ContentNeedsAdditionalPackage>
     <DeveloperInformation>Informație dezvoltator</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>Data încheiere trebuie să fie mai mare decât data curentă!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>Data încheiere trebuie să fie mai mare decât data de începere!</EndDateShouldBeGreaterThanStartDate>
     <Error>Eroare</Error>
     <ExecutionError>Eroare de execuție</ExecutionError>
     <ExpressionValidationFailed>Validarea expresiei a eșuat.</ExpressionValidationFailed>
+    <FileCreatedInNewerVersion>Fișierul a fost creat în versiunea {0}, iar dvs. folosiți versiunea {1}. Actualizați la cea mai nouă versiune pentru a-l deschide.</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>Acest fișier necesită o versiune mai nouă</FileNeedsNewerVersion>
     <GracePeriod>Perioada de grație a abonamentului dvs. va expira în {0} zile.</GracePeriod>
     <IsIdentical>"{0}" și "{1}" sunt identice."</IsIdentical>
     <IsNotAuthorized>Nu există acces la "{0}"!</IsNotAuthorized>
@@ -2678,6 +2684,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <MinimumValue>Minimul este {0}.</MinimumValue>
     <NewDesignerAvailable>Stimulsoft Designer {0} este disponibil.</NewDesignerAvailable>
     <NewProduct>Un nou produs este adăugat la abonament!</NewProduct>
+    <NewProductAddedToSubscription>A fost adăugat un produs nou la abonamentul dvs.</NewProductAddedToSubscription>
     <NewVersionsAvailable>Este disponibilă o nouă versiune!</NewVersionsAvailable>
     <NotificationConnectPackage>Conectați pachetul "{0}" pentru funcționare corectă..</NotificationConnectPackage>
     <NotificationFailed>Rezultatul a eșuat!</NotificationFailed>
@@ -2727,6 +2734,9 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <OutOfRange>În afara intervalului ("{0}")!</OutOfRange>
     <ParsingCommandException>O excepție de procesare a comenzii în fișierul XML specificat: {0}</ParsingCommandException>
     <PleaseLogin>Vă rugăm să vă autentificați utilizând datele de autentificare ale contului dvs. Stimulsoft sau să vă înregistrați un cont nou înainte de publicarea raportului.</PleaseLogin>
+    <PurchaseSubscriptionBeforeTrialEnds>Achiziționați un abonament sau adăugați cheia de licență în aplicație pentru a continua să utilizați produsele Stimulsoft după perioada de evaluare.</PurchaseSubscriptionBeforeTrialEnds>
+    <PurchaseSubscriptionDesignerTrialEnds>Achiziționați un abonament pentru a continua să utilizați produsele Stimulsoft după perioada de evaluare.</PurchaseSubscriptionDesignerTrialEnds>
+    <PurchaseSubscriptionTrialExpired>Achiziționați un abonament sau adăugați cheia de licență în aplicație pentru a continua să utilizați produsele Stimulsoft. Închiderea acestei ferestre închide și aplicația.</PurchaseSubscriptionTrialExpired>
     <QuotaMaximumComputingCyclesCountExceeded>S-a depășit numărul de cicluri maxime de calcul.</QuotaMaximumComputingCyclesCountExceeded>
     <QuotaMaximumDataRowsCountExceeded>Numărul maxim de rânduri dintr-o singură sursă de date a fost depășit.</QuotaMaximumDataRowsCountExceeded>
     <QuotaMaximumFileSizeExceeded>S-a depășit dimensiunea maximă a fișierului.</QuotaMaximumFileSizeExceeded>
@@ -2737,18 +2747,26 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <QuotaMaximumResourceSizeExceeded>Dimensiunea maximă a resurselor a fost depășită.</QuotaMaximumResourceSizeExceeded>
     <QuotaMaximumUsersCountExceeded>S-a depășit numărul maxim de utilizatori.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>S-a depășit numărul maxim Spații de lucru.</QuotaMaximumWorkspacesCountExceeded>
+    <RenewSubscriptionBeforeGracePeriodEnds>Abonamentul la {0} a expirat. Reînnoiți-l înainte de sfârșitul perioadei de grație.</RenewSubscriptionBeforeGracePeriodEnds>
+    <RenewSubscriptionToGetNewVersions>Reînnoiți abonamentul la {0} pentru a primi în continuare versiunile noi.</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersionsAgain>Reînnoiți abonamentul la {0} pentru a primi din nou versiunile noi.</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>Planificatorul nu se poate rula!</SchedulerCantRunItSelf>
+    <SeatLimitUpgradeBeforeDate>Abonamentul dvs. folosește mai multe locuri de dezvoltator decât include. Extindeți-vă planul înainte de {0} pentru a lucra în continuare fără întreruperi.</SeatLimitUpgradeBeforeDate>
+    <SeatLimitUpgradeToContinue>Abonamentul dvs. folosește mai multe locuri de dezvoltator decât include. Extindeți-vă planul pentru a continua. Închiderea acestei ferestre închide și aplicația.</SeatLimitUpgradeToContinue>
     <SessionTimeOut>Timpul sesiunii a expirat</SessionTimeOut>
     <SnapshotAlreadyProcessed>Raportul instantaneu este deja procesat!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>Articolul specificat nu este "{0}"!</SpecifiedItemIsNot>
+    <SubscriptionEndedBeforeVersion>Abonamentul la {0} s-a încheiat pe {1}, înainte de lansarea acestei versiuni. Reînnoiți-l pentru a folosi această versiune.</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>Abonamentul dvs. a expirat!</SubscriptionExpired>
     <SubscriptionExpiredDate>Abonamentul va expira la data de {0}</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>Expiră în {0} zile</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Abonamentul dvs. a expirat. Actualizați-vă abonamentul pentru a obține ultima versiune.</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>Abonamentul a expirat</SubscriptionExpiredShort>
+    <SubscriptionIsActiveUntil>Abonamentul la {0} este acum activ până la {1}.</SubscriptionIsActiveUntil>
     <SubscriptionLimitExceeded>Abonamentul dumneavoastră a depășit limita de locuri pentru dezvoltatori. Aplicația se va închide. Vă rugăm să treceți la un plan superior pentru a continua.</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>Limită de abonament</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>Abonamentul tău utilizează mai multe locuri pentru dezvoltatori decât este permis. Te rugăm să iei în considerare actualizarea planului pentru a putea continua activitatea fără întreruperi.</SubscriptionLimitWarning>
+    <SubscriptionNowIncludes>Abonamentul dvs. include acum {0}. Vă mulțumim pentru achiziție.</SubscriptionNowIncludes>
     <SubscriptionsOut10>Au mai rămas 10 zile până la expirarea abonamentului!</SubscriptionsOut10>
     <SubscriptionsOut20>Perioada de abonare expiră în 20 de zile!</SubscriptionsOut20>
     <SuccessfullyRenewed>Abonamentul dvs. a fost actualizat cu succes!</SuccessfullyRenewed>
@@ -2764,11 +2782,21 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <VersionCreatedFromItem>Creat dintr-un element "{0}".</VersionCreatedFromItem>
     <VersionLoadedFromFile>Încărcat din fișierul "{0}".</VersionLoadedFromFile>
     <VersionNewItemCreation>Creare element nou.</VersionNewItemCreation>
+    <VersionNotInSubscription>Această versiune nu este inclusă în abonamentul dvs.</VersionNotInSubscription>
     <Warning>Avertizare</Warning>
     <WindowClosePreventWhileUploading>Anumite fișiere sunt încărcate acum, dacă închideți pagina se vor pierde. Sunteți sigur că doriți să închideți pagina?</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>"{0}" cu cheia specificată nu s-a găsit!</WithSpecifiedKeyIsNotFound>
     <WouldYouLikeToUpdateNow>Doriți să actualizați acum?</WouldYouLikeToUpdateNow>
+    <YourGracePeriodEndsInDays>Perioada de grație se încheie în {0} zile</YourGracePeriodEndsInDays>
+    <YourSubscriptionEndsInDays>Abonamentul dvs. se încheie în {0} zile</YourSubscriptionEndsInDays>
+    <YourSubscriptionHasBeenBlocked>Abonamentul dvs. a fost blocat</YourSubscriptionHasBeenBlocked>
+    <YourSubscriptionHasBeenRenewed>Abonamentul dvs. a fost reînnoit</YourSubscriptionHasBeenRenewed>
+    <YourSubscriptionHasExpired>Abonamentul dvs. a expirat</YourSubscriptionHasExpired>
+    <YourSubscriptionNeedsAttention>Abonamentul dvs. necesită atenție</YourSubscriptionNeedsAttention>
     <YourTimeSessionHasExpired>Sesiunea de timp a expirat!</YourTimeSessionHasExpired>
+    <YourTrialEndsInDays>Evaluarea dvs. se încheie în {0} zile</YourTrialEndsInDays>
+    <YourTrialEndsToday>Evaluarea dvs. se încheie astăzi</YourTrialEndsToday>
+    <YourTrialEndsTomorrow>Evaluarea dvs. se încheie mâine</YourTrialEndsTomorrow>
     <YourTrialHasExpired>Evaluarea dvs. a expirat</YourTrialHasExpired>
     <YourTrialWillExpire>Evaluarea dvs. va expira în {0} zile.</YourTrialWillExpire>
     <YouUsingTrialVersion>Utilizați o versiune de probă!</YouUsingTrialVersion>
@@ -2778,6 +2806,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <AssemblyLoadedSuccessfully>Ansamblul este încărcat cu succes.</AssemblyLoadedSuccessfully>
     <AssemblyNotFound>Este imposibil de găsit ansamblul {0} pentru a utiliza conexiunea {1} !</AssemblyNotFound>
     <Author>Autor</Author>
+    <ChooseDataAdapter>Pentru a vă conecta la {0}, descărcați unul dintre aceste pachete NuGet.</ChooseDataAdapter>
     <Dependencies>Dependențe:</Dependencies>
     <Download>Descărcare</Download>
     <DownloadAll>Descărcare toate</DownloadAll>
@@ -2838,7 +2867,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <ReportDesignerRestrictions>Restricţii</ReportDesignerRestrictions>
     <ReportDesignerVariables>Variabile</ReportDesignerVariables>
     <SystemBackupRestore>Backup &amp; Restaurare</SystemBackupRestore>
-    <SystemEmailTemplates>Șabloane email</SystemEmailTemplates>
+    <SystemEmailTemplates>Șabloane e-mail</SystemEmailTemplates>
     <SystemLicensing>Licenţiere</SystemLicensing>
     <SystemMonitoring>Monitorizare</SystemMonitoring>
     <SystemUpdate>Actualizare</SystemUpdate>

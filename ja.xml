@@ -181,6 +181,7 @@
     <Test>テスト</Test>
     <TryToReconnect>再接続</TryToReconnect>
     <Up>アップ</Up>
+    <Update>更新</Update>
     <Upgrade>アップグレード</Upgrade>
     <UpgradeNow>今すぐアップグレード</UpgradeNow>
     <Upload>アップロード</Upload>
@@ -440,6 +441,7 @@
     <CheckForUpdate>更新確認</CheckForUpdate>
     <Cloud>雲</Cloud>
     <Collection>コレクション</Collection>
+    <ConfirmEmailAddress>メール アドレスを確認してください</ConfirmEmailAddress>
     <Create>作成</Create>
     <CreateError>レポートの作成中にエラーが発生しました。</CreateError>
     <CreateNewCollection>新規コレクションを作成</CreateNewCollection>
@@ -543,6 +545,7 @@
     <SaveFile>ファイルを保存</SaveFile>
     <SavingToStimulsoftCloudPleaseWait>レポートをStimulsoft Cloudに保存します。 お待ちください！</SavingToStimulsoftCloudPleaseWait>
     <SearchForOnlineTemplates>オンラインテンプレートを検索</SearchForOnlineTemplates>
+    <SendingEmail>メールを送信しています...</SendingEmail>
     <ShareWindowTitleNew>シェア</ShareWindowTitleNew>
     <ShowAllFiles>すべてのファイルを表示</ShowAllFiles>
     <ShowNotificationMessages>通知メッセージを表示</ShowNotificationMessages>
@@ -2571,7 +2574,7 @@
     <ActivationServerIsNotAvailableNow>Stimulsoft Activation Serverは現在利用できません！ 後でもう一度お試しください。</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>サブスクリプションプログラムが期限切れになったため、Stimulsoft Serverのこのバージョンをアクティブ化することはできません！ アカウントにログインし、インストールして有効にできるStimulsoft Serverのバージョンを確認してください。</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>有効化中にエラーが発生しました。 後でもう一度お試しください。</ActivationSomeTroublesOccurred>
-    <ActivationTrialExpired>ソフトウェアを購入すると、Stimulsoft Designerを引き続き使用できます。</ActivationTrialExpired>
+    <ActivationTrialExpired>ソフトウェアを購入すると、Stimulsoft 製品を引き続き使用できます。</ActivationTrialExpired>
     <ActivationTrialExtend1>トライアルの延長を希望される方は</ActivationTrialExtend1>
     <ActivationTrialExtend2>その理由をお聞かせください。</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>あなたのユーザー名（電子メール）またはパスワードが間違っています！</ActivationUserNameOrPasswordIsWrong>
@@ -2619,12 +2622,15 @@
     <CertificateNotFound>証明書が見つかりません！</CertificateNotFound>
     <CommandTimeOut>コマンドの処理待ち時間が経過しました。</CommandTimeOut>
     <Congratulations>おめでとう！</Congratulations>
+    <ContentNeedsAdditionalPackage>このコンテンツには追加のパッケージが必要です</ContentNeedsAdditionalPackage>
     <DeveloperInformation>デベロッパー情報</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>終了日は現在の日付より大きくする必要があります。</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>終了日は開始日より長くする必要があります。</EndDateShouldBeGreaterThanStartDate>
     <Error>エラー</Error>
     <ExecutionError>実行エラー</ExecutionError>
     <ExpressionValidationFailed>式の検証に失敗しました。</ExpressionValidationFailed>
+    <FileCreatedInNewerVersion>このファイルはバージョン {0} で作成されており、ご使用のバージョンは {1} です。開くには最新バージョンに更新してください。</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>このファイルには新しいバージョンが必要です</FileNeedsNewerVersion>
     <GracePeriod>サブスクリプションの猶予期間は{0}日で終了します。</GracePeriod>
     <IsIdentical>"{0}"と "{1}"は同一です。 "</IsIdentical>
     <IsNotAuthorized>"{0}"へのアクセス権がありません！</IsNotAuthorized>
@@ -2649,6 +2655,7 @@
     <MinimumValue>最小値は {0} です。</MinimumValue>
     <NewDesignerAvailable>Stimulsoft Designer {0}が利用可能です。</NewDesignerAvailable>
     <NewProduct>あなたの購読に新製品が追加されました！</NewProduct>
+    <NewProductAddedToSubscription>サブスクリプションに新しい製品が追加されました</NewProductAddedToSubscription>
     <NewVersionsAvailable>新規バージョンが利用可能です！</NewVersionsAvailable>
     <NotificationConnectPackage>正しい作業のために「{0}」パッケージを接続します。</NotificationConnectPackage>
     <NotificationFailed>失敗した結果！</NotificationFailed>
@@ -2698,6 +2705,9 @@
     <OutOfRange>範囲外です（ "{0}"）！</OutOfRange>
     <ParsingCommandException>指定されたxml：{0}でコマンドを処理する例外は、</ParsingCommandException>
     <PleaseLogin>レポートを公開する前に、Stimulsoftアカウントの資格情報を使用してログインするか、新しいアカウントを登録してください。</PleaseLogin>
+    <PurchaseSubscriptionBeforeTrialEnds>試用期間の終了後も Stimulsoft 製品を使用するには、サブスクリプションを購入するか、ライセンスキーをアプリケーションに追加してください。</PurchaseSubscriptionBeforeTrialEnds>
+    <PurchaseSubscriptionDesignerTrialEnds>試用期間の終了後も Stimulsoft 製品を使用するには、サブスクリプションを購入してください。</PurchaseSubscriptionDesignerTrialEnds>
+    <PurchaseSubscriptionTrialExpired>Stimulsoft 製品を引き続き使用するには、サブスクリプションを購入するか、ライセンスキーをアプリケーションに追加してください。このウィンドウを閉じるとアプリケーションも終了します。</PurchaseSubscriptionTrialExpired>
     <QuotaMaximumComputingCyclesCountExceeded>最大計算サイクル数を超えました。</QuotaMaximumComputingCyclesCountExceeded>
     <QuotaMaximumDataRowsCountExceeded>1つのデータソースの最大データ行数を超えました。</QuotaMaximumDataRowsCountExceeded>
     <QuotaMaximumFileSizeExceeded>最大ファイルサイズを超えました。</QuotaMaximumFileSizeExceeded>
@@ -2708,18 +2718,26 @@
     <QuotaMaximumResourceSizeExceeded>最大リソースサイズを超えました。</QuotaMaximumResourceSizeExceeded>
     <QuotaMaximumUsersCountExceeded>最大ユーザー数を超えました。</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>ワークスペースの最大数を超えました。</QuotaMaximumWorkspacesCountExceeded>
+    <RenewSubscriptionBeforeGracePeriodEnds>{0} のサブスクリプションの有効期限が切れました。猶予期間が終了する前に更新してください。</RenewSubscriptionBeforeGracePeriodEnds>
+    <RenewSubscriptionToGetNewVersions>新しいバージョンを引き続き入手するには、{0} のサブスクリプションを更新してください。</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersionsAgain>新しいバージョンを再び入手するには、{0} のサブスクリプションを更新してください。</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>スケジューラは実行できません！</SchedulerCantRunItSelf>
+    <SeatLimitUpgradeBeforeDate>サブスクリプションに含まれる数を超える開発者シートが使用されています。中断なく作業を続けるには、{0} までにプランをアップグレードしてください。</SeatLimitUpgradeBeforeDate>
+    <SeatLimitUpgradeToContinue>サブスクリプションに含まれる数を超える開発者シートが使用されています。続行するにはプランをアップグレードしてください。このウィンドウを閉じるとアプリケーションも終了します。</SeatLimitUpgradeToContinue>
     <SessionTimeOut>セッションタイムアウト</SessionTimeOut>
     <SnapshotAlreadyProcessed>レポートのスナップショットは既に処理されています！</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>指定された項目は "{0}"ではありません！</SpecifiedItemIsNot>
+    <SubscriptionEndedBeforeVersion>{0} のサブスクリプションは、このバージョンのリリース前の {1} に終了しました。このバージョンを使用するには、サブスクリプションを更新してください。</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>あなたの定期購読は有効期限切れです！</SubscriptionExpired>
     <SubscriptionExpiredDate>サブスクリプションは{0}に期限切れになります。</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>有効期限は{0}日</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>サブスクリプションの有効期限が切れています。 サブスクリプションを更新して最新バージョンを取得してください。</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>購読期限切れ</SubscriptionExpiredShort>
+    <SubscriptionIsActiveUntil>{0} のサブスクリプションは {1} まで有効になりました。</SubscriptionIsActiveUntil>
     <SubscriptionLimitExceeded>サブスクリプションの開発者シート数が上限を超えています。アプリケーションを終了します。継続するにはプランをアップグレードしてください。</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>サブスクリプションの制限</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>サブスクリプションで許可されている数を超える開発者シートが使用されています。作業を中断せず継続するため、プランのアップグレードをご検討ください。</SubscriptionLimitWarning>
+    <SubscriptionNowIncludes>サブスクリプションに {0} が含まれるようになりました。ご購入ありがとうございます。</SubscriptionNowIncludes>
     <SubscriptionsOut10>定期購読期限が切れてから10日が経過しました！</SubscriptionsOut10>
     <SubscriptionsOut20>購読期間は20日で終了します！</SubscriptionsOut20>
     <SuccessfullyRenewed>あなたのサブスクリプションは正常に更新されました！</SuccessfullyRenewed>
@@ -2735,11 +2753,21 @@
     <VersionCreatedFromItem>アイテム "{0}"から作成されました。</VersionCreatedFromItem>
     <VersionLoadedFromFile>ファイル "{0}"からロードされました。</VersionLoadedFromFile>
     <VersionNewItemCreation>新規アイテムの作成。</VersionNewItemCreation>
+    <VersionNotInSubscription>このバージョンはサブスクリプションに含まれていません</VersionNotInSubscription>
     <Warning>警告</Warning>
     <WindowClosePreventWhileUploading>あなたがページを閉じると失われてしまうファイルもあります。 ページを閉じてもよろしいですか？</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>指定されたキーを持つ "{0}"が見つかりません！</WithSpecifiedKeyIsNotFound>
     <WouldYouLikeToUpdateNow>今更新しますか？</WouldYouLikeToUpdateNow>
+    <YourGracePeriodEndsInDays>猶予期間はあと{0}日で終了します</YourGracePeriodEndsInDays>
+    <YourSubscriptionEndsInDays>サブスクリプションはあと{0}日で終了します</YourSubscriptionEndsInDays>
+    <YourSubscriptionHasBeenBlocked>サブスクリプションがブロックされました</YourSubscriptionHasBeenBlocked>
+    <YourSubscriptionHasBeenRenewed>サブスクリプションが更新されました</YourSubscriptionHasBeenRenewed>
+    <YourSubscriptionHasExpired>サブスクリプションの有効期限が切れました</YourSubscriptionHasExpired>
+    <YourSubscriptionNeedsAttention>サブスクリプションの確認が必要です</YourSubscriptionNeedsAttention>
     <YourTimeSessionHasExpired>あなたの時間セッションが終了しました！</YourTimeSessionHasExpired>
+    <YourTrialEndsInDays>試用期間はあと{0}日で終了します</YourTrialEndsInDays>
+    <YourTrialEndsToday>試用期間は本日で終了します</YourTrialEndsToday>
+    <YourTrialEndsTomorrow>試用期間は明日で終了します</YourTrialEndsTomorrow>
     <YourTrialHasExpired>試用期間が終了しました。</YourTrialHasExpired>
     <YourTrialWillExpire>試用期間は{0}日で期限切れになります。</YourTrialWillExpire>
     <YouUsingTrialVersion>試用版を使用しています！</YouUsingTrialVersion>
@@ -2749,6 +2777,7 @@
     <AssemblyLoadedSuccessfully>アセンブリが正常にロードされます。</AssemblyLoadedSuccessfully>
     <AssemblyNotFound>{1} 接続を使用するための {0} アセンブリが見つかりません。</AssemblyNotFound>
     <Author>著者</Author>
+    <ChooseDataAdapter>{0} に接続するには、次のいずれかの NuGet パッケージをダウンロードしてください。</ChooseDataAdapter>
     <Dependencies>依存関係：</Dependencies>
     <Download>ダウンロード</Download>
     <DownloadAll>すべてをダウンロード</DownloadAll>

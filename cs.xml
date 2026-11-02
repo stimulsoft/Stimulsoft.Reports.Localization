@@ -181,7 +181,8 @@
     <Test>Test</Test>
     <TryToReconnect>Zkusit znovu připojit</TryToReconnect>
     <Up>Nahoru</Up>
-    <Upgrade>Upgradovat</Upgrade>
+    <Update>Aktualizovat</Update>
+    <Upgrade>Rozšířit</Upgrade>
     <UpgradeNow>Upgradovat nyní</UpgradeNow>
     <Upload>Nahrát</Upload>
     <Waiting>Čekání</Waiting>
@@ -439,6 +440,7 @@
     <CheckForUpdate>Zkontrolovat aktualizace</CheckForUpdate>
     <Cloud>Cloud</Cloud>
     <Collection>Kolekce</Collection>
+    <ConfirmEmailAddress>Potvrďte svou e-mailovou adresu</ConfirmEmailAddress>
     <Create>Vytvořit</Create>
     <CreateError>Chyba při vytváření reportu!</CreateError>
     <CreateNewCollection>Vytvořit novou kolekci</CreateNewCollection>
@@ -542,6 +544,7 @@
     <SaveFile>Uložit soubor</SaveFile>
     <SavingToStimulsoftCloudPleaseWait>Report se ukládá do Stimulsoft Cloud. Čekejte prosím!</SavingToStimulsoftCloudPleaseWait>
     <SearchForOnlineTemplates>Vyhledat šablony online</SearchForOnlineTemplates>
+    <SendingEmail>Odesílání e-mailu...</SendingEmail>
     <ShareWindowTitleNew>Sdílet</ShareWindowTitleNew>
     <ShowAllFiles>Zobrazit všechny soubory</ShowAllFiles>
     <ShowNotificationMessages>Zobrazit oznámení</ShowNotificationMessages>
@@ -1849,7 +1852,7 @@
     <Print>Tisknout...</Print>
     <qnPageDelete>Opravdu chcete smazat stránku?</qnPageDelete>
     <Save>Uložit...</Save>
-    <SendEMail>Poslat E-Mail...</SendEMail>
+    <SendEMail>Poslat e-mail...</SendEMail>
     <StatusBar>Stavový řádek</StatusBar>
     <Thumbnails>Miniatury</Thumbnails>
     <title>Náhled</title>
@@ -2564,7 +2567,7 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <ActivationServerIsNotAvailableNow>Stimulsoft Activation Server není nyní dostupný! Zkuste to prosím později.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>Tuto verzi Stimulsoft Server nelze aktivovat, protože platnost vašeho programu předplatného vypršela! Přihlaste se prosím ke svému účtu a zkontrolujte, kterou verzi Stimulsoft Server můžete nainstalovat a aktivovat.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>Během aktivace došlo k chybě. Zkuste to prosím později.</ActivationSomeTroublesOccurred>
-    <ActivationTrialExpired>V používání aplikace Stimulsoft Designer můžete pokračovat zakoupením softwaru.</ActivationTrialExpired>
+    <ActivationTrialExpired>V používání produktů Stimulsoft můžete pokračovat zakoupením softwaru.</ActivationTrialExpired>
     <ActivationTrialExtend1>Pokud máte zájem o prodloužení zkušební verze,</ActivationTrialExtend1>
     <ActivationTrialExtend2>sdělte nám proč.</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>Vaše uživatelské jméno (e-mail) nebo heslo je nesprávné!</ActivationUserNameOrPasswordIsWrong>
@@ -2609,12 +2612,15 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <CertificateNotFound>Certifikát nenalezen!</CertificateNotFound>
     <CommandTimeOut>Vypršel čas čekání na zpracování příkazu!</CommandTimeOut>
     <Congratulations>Blahopřejeme!</Congratulations>
+    <ContentNeedsAdditionalPackage>Tento obsah vyžaduje další balíček</ContentNeedsAdditionalPackage>
     <DeveloperInformation>Informace pro vývojáře</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>Datum ukončení musí být pozdější než aktuální datum!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>Datum ukončení musí být pozdější než datum zahájení!</EndDateShouldBeGreaterThanStartDate>
     <Error>Chyba</Error>
     <ExecutionError>Chyba při spuštění</ExecutionError>
     <ExpressionValidationFailed>Ověření výrazu se nezdařilo.</ExpressionValidationFailed>
+    <FileCreatedInNewerVersion>Soubor byl vytvořen ve verzi {0} a vy používáte verzi {1}. Pro jeho otevření aktualizujte na nejnovější verzi.</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>Tento soubor vyžaduje novější verzi</FileNeedsNewerVersion>
     <GracePeriod>Ochranná lhůta vašeho předplatného vyprší za {0} dní.</GracePeriod>
     <IsIdentical>„{0}“ a „{1}“ jsou identické.“</IsIdentical>
     <IsNotAuthorized>Žádný přístup k „{0}“!</IsNotAuthorized>
@@ -2639,6 +2645,7 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <MinimumValue>Minimum je {0}.</MinimumValue>
     <NewDesignerAvailable>Stimulsoft Designer {0} je dostupný.</NewDesignerAvailable>
     <NewProduct>Do vašeho předplatného byl přidán nový produkt!</NewProduct>
+    <NewProductAddedToSubscription>Do předplatného byl přidán nový produkt</NewProductAddedToSubscription>
     <NewVersionsAvailable>Nová verze</NewVersionsAvailable>
     <NotificationConnectPackage>Pro správnou funkci připojte balíček "{0}".</NotificationConnectPackage>
     <NotificationFailed>Chybný výsledek!</NotificationFailed>
@@ -2688,6 +2695,9 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <OutOfRange>Mimo rozsah ("{0}")!</OutOfRange>
     <ParsingCommandException>Výjimka při zpracování příkazu v zadaném xml: {0}</ParsingCommandException>
     <PleaseLogin>Před publikováním reportu se prosím přihlaste pomocí přihlašovacích údajů svého účtu Stimulsoft nebo si zaregistrujte nový účet.</PleaseLogin>
+    <PurchaseSubscriptionBeforeTrialEnds>Kupte si předplatné nebo přidejte do aplikace svůj licenční klíč, abyste mohli produkty Stimulsoft používat i po skončení zkušební doby.</PurchaseSubscriptionBeforeTrialEnds>
+    <PurchaseSubscriptionDesignerTrialEnds>Kupte si předplatné, abyste mohli produkty Stimulsoft používat i po skončení zkušební doby.</PurchaseSubscriptionDesignerTrialEnds>
+    <PurchaseSubscriptionTrialExpired>Kupte si předplatné nebo přidejte do aplikace svůj licenční klíč, abyste mohli produkty Stimulsoft dál používat. Zavřením tohoto okna se zavře i aplikace.</PurchaseSubscriptionTrialExpired>
     <QuotaMaximumComputingCyclesCountExceeded>Byl překročen maximální počet výpočetních cyklů.</QuotaMaximumComputingCyclesCountExceeded>
     <QuotaMaximumDataRowsCountExceeded>Byl překročen maximální počet řádků dat v jednom datovém zdroji.</QuotaMaximumDataRowsCountExceeded>
     <QuotaMaximumFileSizeExceeded>Byla překročena maximální velikost souboru.</QuotaMaximumFileSizeExceeded>
@@ -2698,18 +2708,26 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <QuotaMaximumResourceSizeExceeded>Byla překročena maximální velikost zdroje.</QuotaMaximumResourceSizeExceeded>
     <QuotaMaximumUsersCountExceeded>Byl překročen maximální počet uživatelů.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>Byl překročen maximální počet pracovních prostorů.</QuotaMaximumWorkspacesCountExceeded>
+    <RenewSubscriptionBeforeGracePeriodEnds>Platnost předplatného {0} vypršela. Obnovte ho před koncem ochranné lhůty.</RenewSubscriptionBeforeGracePeriodEnds>
+    <RenewSubscriptionToGetNewVersions>Obnovte předplatné {0}, abyste i nadále dostávali nové verze.</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersionsAgain>Obnovte předplatné {0}, abyste opět dostávali nové verze.</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>Plánovač nemůže spustit sám sebe!</SchedulerCantRunItSelf>
+    <SeatLimitUpgradeBeforeDate>Vaše předplatné využívá více vývojářských míst, než zahrnuje. Rozšiřte svůj plán do {0}, abyste mohli pracovat bez přerušení.</SeatLimitUpgradeBeforeDate>
+    <SeatLimitUpgradeToContinue>Vaše předplatné využívá více vývojářských míst, než zahrnuje. Pokračujte rozšířením svého plánu. Zavřením tohoto okna se zavře i aplikace.</SeatLimitUpgradeToContinue>
     <SessionTimeOut>Vypršel časový limit relace</SessionTimeOut>
     <SnapshotAlreadyProcessed>Snímek reportu je již zpracován!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>Zadaná položka není "{0}"!</SpecifiedItemIsNot>
+    <SubscriptionEndedBeforeVersion>Předplatné {0} skončilo {1}, ještě před vydáním této verze. Obnovte ho, abyste mohli tuto verzi používat.</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>Platnost vašeho předplatného vypršela!</SubscriptionExpired>
     <SubscriptionExpiredDate>Platnost vašeho předplatného vyprší {0}</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>Vyprší za {0} dní</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Platnost vašeho předplatného vypršela. Aktualizujte své předplatné, abyste získali nejnovější verzi.</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>Předplatné vypršelo</SubscriptionExpiredShort>
+    <SubscriptionIsActiveUntil>Předplatné {0} je nyní platné do {1}.</SubscriptionIsActiveUntil>
     <SubscriptionLimitExceeded>Vaše předplatné překročilo limit počtu vývojářských míst. Aplikace bude ukončena. Pro pokračování prosím upgradujte svůj tarif.</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>Limit předplatného</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>Vaše předplatné využívá více vývojářských míst, než je povoleno. Zvažte prosím upgrade svého tarifu, abyste mohli pokračovat v práci bez přerušení.</SubscriptionLimitWarning>
+    <SubscriptionNowIncludes>Vaše předplatné nyní zahrnuje {0}. Děkujeme za nákup.</SubscriptionNowIncludes>
     <SubscriptionsOut10>Do vypršení platnosti předplatného zbývá 10 dní!</SubscriptionsOut10>
     <SubscriptionsOut20>Platnost předplatného vyprší za 20 dní!</SubscriptionsOut20>
     <SuccessfullyRenewed>Vaše předplatné bylo úspěšně obnoveno!</SuccessfullyRenewed>
@@ -2725,11 +2743,21 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <VersionCreatedFromItem>Vytvořeno z položky „{0}“.</VersionCreatedFromItem>
     <VersionLoadedFromFile>Načteno ze souboru „{0}“.</VersionLoadedFromFile>
     <VersionNewItemCreation>Vytvoření nové položky.</VersionNewItemCreation>
+    <VersionNotInSubscription>Tato verze není součástí vašeho předplatného</VersionNotInSubscription>
     <Warning>Varování</Warning>
     <WindowClosePreventWhileUploading>Některé soubory se právě nahrávají. Pokud stránku zavřete, budou tyto soubory ztraceny. Opravdu chcete stránku zavřít?</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>„{0}“ se zadaným klíčem nebyl nalezen!</WithSpecifiedKeyIsNotFound>
     <WouldYouLikeToUpdateNow>Chcete aktualizovat nyní?</WouldYouLikeToUpdateNow>
+    <YourGracePeriodEndsInDays>Ochranná lhůta končí za {0} dní</YourGracePeriodEndsInDays>
+    <YourSubscriptionEndsInDays>Předplatné končí za {0} dní</YourSubscriptionEndsInDays>
+    <YourSubscriptionHasBeenBlocked>Vaše předplatné bylo zablokováno</YourSubscriptionHasBeenBlocked>
+    <YourSubscriptionHasBeenRenewed>Předplatné bylo obnoveno</YourSubscriptionHasBeenRenewed>
+    <YourSubscriptionHasExpired>Platnost předplatného vypršela</YourSubscriptionHasExpired>
+    <YourSubscriptionNeedsAttention>Vaše předplatné vyžaduje pozornost</YourSubscriptionNeedsAttention>
     <YourTimeSessionHasExpired>Platnost vaší relace vypršela!</YourTimeSessionHasExpired>
+    <YourTrialEndsInDays>Zkušební verze končí za {0} dní</YourTrialEndsInDays>
+    <YourTrialEndsToday>Zkušební verze končí dnes</YourTrialEndsToday>
+    <YourTrialEndsTomorrow>Zkušební verze končí zítra</YourTrialEndsTomorrow>
     <YourTrialHasExpired>Platnost vaší zkušební verze vypršela</YourTrialHasExpired>
     <YourTrialWillExpire>Platnost vaší zkušební verze vyprší za {0} dní.</YourTrialWillExpire>
     <YouUsingTrialVersion>Používáte zkušební verzi!</YouUsingTrialVersion>
@@ -2739,6 +2767,7 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <AssemblyLoadedSuccessfully>Sestavení bylo úspěšně načteno.</AssemblyLoadedSuccessfully>
     <AssemblyNotFound>Nelze najít sestavení {0} pro použití připojení {1}!</AssemblyNotFound>
     <Author>Autor</Author>
+    <ChooseDataAdapter>Chcete-li se připojit k {0}, stáhněte si jeden z těchto balíčků NuGet.</ChooseDataAdapter>
     <Dependencies>Závislosti:</Dependencies>
     <Download>Stáhnout</Download>
     <DownloadAll>Stáhnout vše</DownloadAll>

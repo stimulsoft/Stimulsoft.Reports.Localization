@@ -181,6 +181,7 @@
     <Test>Testa</Test>
     <TryToReconnect>Försök återansluta</TryToReconnect>
     <Up>Upp</Up>
+    <Update>Uppdatera</Update>
     <Upgrade>Uppgradera</Upgrade>
     <UpgradeNow>Uppgradera nu</UpgradeNow>
     <Upload>Ladda upp</Upload>
@@ -439,6 +440,7 @@
     <CheckForUpdate>Sök efter uppdatering</CheckForUpdate>
     <Cloud>Moln</Cloud>
     <Collection>Samling</Collection>
+    <ConfirmEmailAddress>Bekräfta din e-postadress</ConfirmEmailAddress>
     <Create>Skapa</Create>
     <CreateError>Fel vid skapande av rapport!</CreateError>
     <CreateNewCollection>Skapa ny samling</CreateNewCollection>
@@ -542,6 +544,7 @@
     <SaveFile>Spara fil</SaveFile>
     <SavingToStimulsoftCloudPleaseWait>Sparar rapporten till Stimulsoft Cloud. Vänta!</SavingToStimulsoftCloudPleaseWait>
     <SearchForOnlineTemplates>Sök mallar online</SearchForOnlineTemplates>
+    <SendingEmail>Skickar e-post...</SendingEmail>
     <ShareWindowTitleNew>Dela</ShareWindowTitleNew>
     <ShowAllFiles>Visa alla filer</ShowAllFiles>
     <ShowNotificationMessages>Visa aviseringsmeddelanden</ShowNotificationMessages>
@@ -2564,7 +2567,7 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <ActivationServerIsNotAvailableNow>Stimulsofts aktiveringsserver är inte tillgänglig just nu! Försök igen senare.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>Du kan inte aktivera denna version av Stimulsoft Server eftersom ditt prenumerationsprogram har upphört! Logga in på ditt konto och kontrollera vilken version av Stimulsoft Server du kan installera och aktivera.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>Ett fel uppstod under aktiveringen. Försök igen senare.</ActivationSomeTroublesOccurred>
-    <ActivationTrialExpired>Du kan fortsätta använda Stimulsoft Designer genom att köpa programvaran.</ActivationTrialExpired>
+    <ActivationTrialExpired>Du kan fortsätta använda Stimulsoft-produkterna genom att köpa programvaran.</ActivationTrialExpired>
     <ActivationTrialExtend1>Om du är intresserad av att förlänga din provperiod, vänligen</ActivationTrialExtend1>
     <ActivationTrialExtend2>berätta varför.</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>Ditt användarnamn (E-post) eller lösenord är felaktigt!</ActivationUserNameOrPasswordIsWrong>
@@ -2609,12 +2612,15 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <CertificateNotFound>Certifikatet hittades inte!</CertificateNotFound>
     <CommandTimeOut>Väntetiden för bearbetning av kommandot har löpt ut!</CommandTimeOut>
     <Congratulations>Grattis!</Congratulations>
+    <ContentNeedsAdditionalPackage>Det här innehållet kräver ett extra paket</ContentNeedsAdditionalPackage>
     <DeveloperInformation>Utvecklarinformation</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>Slutdatumet måste vara senare än det aktuella datumet!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>Slutdatumet måste vara senare än startdatumet!</EndDateShouldBeGreaterThanStartDate>
     <Error>Fel</Error>
     <ExecutionError>Körningsfel</ExecutionError>
     <ExpressionValidationFailed>Valideringen av uttrycket misslyckades.</ExpressionValidationFailed>
+    <FileCreatedInNewerVersion>Filen skapades i version {0} och du använder version {1}. Uppdatera till den senaste versionen för att öppna den.</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>Den här filen kräver en nyare version</FileNeedsNewerVersion>
     <GracePeriod>Respitperioden för din prenumeration löper ut om {0} dagar.</GracePeriod>
     <IsIdentical>"{0}" och "{1}" är identiska.</IsIdentical>
     <IsNotAuthorized>Ingen åtkomst till "{0}"!</IsNotAuthorized>
@@ -2639,6 +2645,7 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <MinimumValue>Minimalt är {0}.</MinimumValue>
     <NewDesignerAvailable>Stimulsoft Designer {0} är tillgänglig.</NewDesignerAvailable>
     <NewProduct>Den nya produkten har lagts till i din prenumeration!</NewProduct>
+    <NewProductAddedToSubscription>En ny produkt har lagts till i din prenumeration</NewProductAddedToSubscription>
     <NewVersionsAvailable>Ny version</NewVersionsAvailable>
     <NotificationConnectPackage>Anslut paketet "{0}" för korrekt funktion.</NotificationConnectPackage>
     <NotificationFailed>Misslyckat resultat!</NotificationFailed>
@@ -2688,6 +2695,9 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <OutOfRange>Utanför intervallet ("{0}")!</OutOfRange>
     <ParsingCommandException>Ett undantag vid bearbetning av kommandot i den angivna xml:en: {0}</ParsingCommandException>
     <PleaseLogin>Logga in med dina Stimulsoft-kontouppgifter eller registrera ett nytt konto innan du publicerar rapporten.</PleaseLogin>
+    <PurchaseSubscriptionBeforeTrialEnds>Köp en prenumeration eller lägg till din licensnyckel i programmet för att fortsätta använda Stimulsoft-produkterna efter testperioden.</PurchaseSubscriptionBeforeTrialEnds>
+    <PurchaseSubscriptionDesignerTrialEnds>Köp en prenumeration för att fortsätta använda Stimulsoft-produkterna efter testperioden.</PurchaseSubscriptionDesignerTrialEnds>
+    <PurchaseSubscriptionTrialExpired>Köp en prenumeration eller lägg till din licensnyckel i programmet för att fortsätta använda Stimulsoft-produkterna. När du stänger det här fönstret stängs även programmet.</PurchaseSubscriptionTrialExpired>
     <QuotaMaximumComputingCyclesCountExceeded>Maximalt antal beräkningscykler överskridet.</QuotaMaximumComputingCyclesCountExceeded>
     <QuotaMaximumDataRowsCountExceeded>Maximalt antal datarader i en datakälla överskridet.</QuotaMaximumDataRowsCountExceeded>
     <QuotaMaximumFileSizeExceeded>Maximal filstorlek överskriden.</QuotaMaximumFileSizeExceeded>
@@ -2698,18 +2708,26 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <QuotaMaximumResourceSizeExceeded>Maximal resursstorlek överskriden.</QuotaMaximumResourceSizeExceeded>
     <QuotaMaximumUsersCountExceeded>Maximalt antal användare överskridet.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>Maximalt antal arbetsytor överskridet.</QuotaMaximumWorkspacesCountExceeded>
+    <RenewSubscriptionBeforeGracePeriodEnds>Din prenumeration på {0} har upphört. Förnya den innan respitperioden tar slut.</RenewSubscriptionBeforeGracePeriodEnds>
+    <RenewSubscriptionToGetNewVersions>Förnya prenumerationen på {0} för att fortsätta få nya versioner.</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersionsAgain>Förnya prenumerationen på {0} för att få nya versioner igen.</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>Schemaläggaren kan inte köra sig själv!</SchedulerCantRunItSelf>
+    <SeatLimitUpgradeBeforeDate>Din prenumeration används på fler utvecklarplatser än den omfattar. Uppgradera din plan före {0} för att fortsätta arbeta utan avbrott.</SeatLimitUpgradeBeforeDate>
+    <SeatLimitUpgradeToContinue>Din prenumeration används på fler utvecklarplatser än den omfattar. Uppgradera din plan för att fortsätta. När du stänger det här fönstret stängs även programmet.</SeatLimitUpgradeToContinue>
     <SessionTimeOut>Sessionstimeout</SessionTimeOut>
     <SnapshotAlreadyProcessed>Rapportögonblicksbilden har redan bearbetats!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>Det angivna objektet är inte "{0}"!</SpecifiedItemIsNot>
+    <SubscriptionEndedBeforeVersion>Din prenumeration på {0} upphörde {1}, innan den här versionen släpptes. Förnya den för att använda den här versionen.</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>Din prenumeration har upphört!</SubscriptionExpired>
     <SubscriptionExpiredDate>Din prenumeration upphör den {0}</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>Upphör om {0} dagar</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Din prenumeration har upphört. Uppdatera din prenumeration för att få den senaste versionen.</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>Prenumerationen har löpt ut</SubscriptionExpiredShort>
+    <SubscriptionIsActiveUntil>Din prenumeration på {0} gäller nu till och med {1}.</SubscriptionIsActiveUntil>
     <SubscriptionLimitExceeded>Din prenumeration har överskridit gränsen för utvecklarplatser. Programmet kommer att stängas. Uppgradera din plan för att fortsätta.</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>Prenumerationsgräns</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>Din prenumeration använder fler utvecklarplatser än tillåtet. Överväg att uppgradera din plan för att kunna fortsätta arbeta utan avbrott.</SubscriptionLimitWarning>
+    <SubscriptionNowIncludes>Din prenumeration omfattar nu {0}. Tack för ditt köp.</SubscriptionNowIncludes>
     <SubscriptionsOut10>10 dagar kvar tills prenumerationen upphör!</SubscriptionsOut10>
     <SubscriptionsOut20>Prenumerationsperioden löper ut om 20 dagar!</SubscriptionsOut20>
     <SuccessfullyRenewed>Din prenumeration har uppdaterats!</SuccessfullyRenewed>
@@ -2725,11 +2743,21 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <VersionCreatedFromItem>Skapad från objektet "{0}".</VersionCreatedFromItem>
     <VersionLoadedFromFile>Inläst från filen "{0}".</VersionLoadedFromFile>
     <VersionNewItemCreation>Skapande av nytt objekt.</VersionNewItemCreation>
+    <VersionNotInSubscription>Den här versionen ingår inte i din prenumeration</VersionNotInSubscription>
     <Warning>Varning</Warning>
     <WindowClosePreventWhileUploading>Vissa filer laddas fortfarande upp. Om du stänger sidan går de förlorade. Är du säker på att du vill stänga sidan?</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>"{0}" med den angivna nyckeln hittades inte!</WithSpecifiedKeyIsNotFound>
     <WouldYouLikeToUpdateNow>Vill du uppdatera nu?</WouldYouLikeToUpdateNow>
+    <YourGracePeriodEndsInDays>Din respitperiod upphör om {0} dagar</YourGracePeriodEndsInDays>
+    <YourSubscriptionEndsInDays>Din prenumeration upphör om {0} dagar</YourSubscriptionEndsInDays>
+    <YourSubscriptionHasBeenBlocked>Din prenumeration har blockerats</YourSubscriptionHasBeenBlocked>
+    <YourSubscriptionHasBeenRenewed>Din prenumeration har förnyats</YourSubscriptionHasBeenRenewed>
+    <YourSubscriptionHasExpired>Din prenumeration har upphört</YourSubscriptionHasExpired>
+    <YourSubscriptionNeedsAttention>Din prenumeration behöver åtgärdas</YourSubscriptionNeedsAttention>
     <YourTimeSessionHasExpired>Din tidssession har upphört!</YourTimeSessionHasExpired>
+    <YourTrialEndsInDays>Din testversion upphör om {0} dagar</YourTrialEndsInDays>
+    <YourTrialEndsToday>Din testversion upphör i dag</YourTrialEndsToday>
+    <YourTrialEndsTomorrow>Din testversion upphör i morgon</YourTrialEndsTomorrow>
     <YourTrialHasExpired>Din testversion har upphört</YourTrialHasExpired>
     <YourTrialWillExpire>Din testversion upphör om {0} dagar.</YourTrialWillExpire>
     <YouUsingTrialVersion>Du använder en testversion!</YouUsingTrialVersion>
@@ -2739,6 +2767,7 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <AssemblyLoadedSuccessfully>Sammansättningen laddades.</AssemblyLoadedSuccessfully>
     <AssemblyNotFound>Kunde inte hitta {0} sammansättningen för att ladda {1} kopplingen!</AssemblyNotFound>
     <Author>Författare</Author>
+    <ChooseDataAdapter>Om du vill ansluta till {0} laddar du ned ett av dessa NuGet-paket.</ChooseDataAdapter>
     <Dependencies>Beroenden:</Dependencies>
     <Download>Ladda ner</Download>
     <DownloadAll>Ladda ner alla</DownloadAll>

@@ -21,8 +21,8 @@
     <DayThursday>Czwartek</DayThursday>
     <DayTuesday>Wtorek</DayTuesday>
     <DayWednesday>Środa</DayWednesday>
-    <Email>Email:</Email>
-    <EmailOptions>Opcje Email</EmailOptions>
+    <Email>E-mail:</Email>
+    <EmailOptions>Opcje E-mail</EmailOptions>
     <FirstPage>Pierwsza strona</FirstPage>
     <Hours>Godziny</Hours>
     <LabelFrom>od:</LabelFrom>
@@ -181,7 +181,8 @@
     <Test>Testuj</Test>
     <TryToReconnect>Spróbuj ponownie się połączyć</TryToReconnect>
     <Up>Góra</Up>
-    <Upgrade>Aktualizacja</Upgrade>
+    <Update>Aktualizuj</Update>
+    <Upgrade>Rozszerz</Upgrade>
     <UpgradeNow>Aktualizuj teraz</UpgradeNow>
     <Upload>Przekaż plik</Upload>
     <Waiting>Czekanie</Waiting>
@@ -420,7 +421,7 @@
     <ButtonLogInWith>Zaloguj się za pomocą {0}</ButtonLogInWith>
     <ButtonLogout>Wyloguj</ButtonLogout>
     <ButtonPublish>Publikuj</ButtonPublish>
-    <ButtonPurchase>przycisk</ButtonPurchase>
+    <ButtonPurchase>Kup</ButtonPurchase>
     <ButtonRecover>Odzyskaj</ButtonRecover>
     <ButtonRenew>Odnów</ButtonRenew>
     <ButtonResendEmail>Wyślij ponownie e-mail</ButtonResendEmail>
@@ -440,6 +441,7 @@
     <CheckForUpdate>Sprawdź aktualizację</CheckForUpdate>
     <Cloud>Cloud</Cloud>
     <Collection>Kolekcja</Collection>
+    <ConfirmEmailAddress>Potwierdź swój adres e-mail</ConfirmEmailAddress>
     <Create>Utwórz</Create>
     <CreateError>Błąd przy tworzeniu raportu!</CreateError>
     <CreateNewCollection>Utwórz nową kolekcję</CreateNewCollection>
@@ -543,6 +545,7 @@
     <SaveFile>Zapisz plik</SaveFile>
     <SavingToStimulsoftCloudPleaseWait>Zapisywanie raportu do Stimulsoft Cloud. Proszę czekać!</SavingToStimulsoftCloudPleaseWait>
     <SearchForOnlineTemplates>Szukaj szablonów online</SearchForOnlineTemplates>
+    <SendingEmail>Wysyłanie e-maila...</SendingEmail>
     <ShareWindowTitleNew>Udostępnij</ShareWindowTitleNew>
     <ShowAllFiles>Pokaż wszystkie pliki</ShowAllFiles>
     <ShowNotificationMessages>Pokazywanie komunikatów powiadomień</ShowNotificationMessages>
@@ -1851,7 +1854,7 @@
     <Print>Drukuj...</Print>
     <qnPageDelete>Czy chcesz usunąć stronę?</qnPageDelete>
     <Save>Zapisz...</Save>
-    <SendEMail>Wyślij Email...</SendEMail>
+    <SendEMail>Wyślij e-mail...</SendEMail>
     <StatusBar>Pasek stanu</StatusBar>
     <Thumbnails>Miniatury</Thumbnails>
     <title>Przeglądarka</title>
@@ -2357,7 +2360,7 @@
     <Save>Zapisz raport do późniejszego użycia.</Save>
     <ScaleHtml>Rozmiar (skala) stron i elementów raportu po eksporcie. </ScaleHtml>
     <ScaleImage>Rozmiar (skala) raportu po eksporcie. Im mniejsza jest skala, tym większa jest liczba pikseli na cal i odwrotnie. </ScaleImage>
-    <SendEMail>Wyślij raport przez Email.</SendEMail>
+    <SendEMail>Wyślij raport przez e-mail.</SendEMail>
     <Separator>Separator pomiędzy danymi w pliku CSV. </Separator>
     <SkipColumnHeaders>Otwórz/ zamknij nagłówki kolumn. </SkipColumnHeaders>
     <StandardPdfFonts>14 standardowych zestawów czcionek Adobe. Jeśli opcja ta jest wybrana, używanych będzie tylko 14 standardowych zestawów czcionek w pliku PDF. Wszystkie czcionki raportu są przekształcane na powyższe czcionki. </StandardPdfFonts>
@@ -2567,7 +2570,7 @@ Wiadomość e-mail została wysłana do "{0}". Zawiera ona link do potwierdzenia
     <ActivationServerIsNotAvailableNow>Stimulsoft Activation Server nie jest dostępny! Spróbuj ponownie później.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>Nie możesz aktywować tej wersji Stimulsoft Server, ponieważ Twoja subskrypcja wygasła! Zaloguj się na swoje konto i sprawdź, którą wersję Stimulsoft Server możesz zainstalować i aktywować.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>Wystąpił błąd podczas aktywacji. Spróbuj ponownie później.</ActivationSomeTroublesOccurred>
-    <ActivationTrialExpired>Możesz kontynuować korzystanie ze Stimulsoft Designer, kupując oprogramowanie.</ActivationTrialExpired>
+    <ActivationTrialExpired>Możesz kontynuować korzystanie z produktów Stimulsoft, kupując oprogramowanie.</ActivationTrialExpired>
     <ActivationTrialExtend1>Jeśli jesteś zainteresowany przedłużeniem okresu próbnego, proszę</ActivationTrialExtend1>
     <ActivationTrialExtend2>powiedz nam dlaczego.</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>Nazwa użytkownika (e-mail) lub hasło są nieprawidłowe!</ActivationUserNameOrPasswordIsWrong>
@@ -2604,23 +2607,26 @@ Wiadomość e-mail została wysłana do "{0}". Zawiera ona link do potwierdzenia
     <AuthTwoFactorIsExpired>Uwierzytelnianie dwuskładnikowe wygasło. Zaloguj się ponownie!</AuthTwoFactorIsExpired>
     <AuthUserHasLoggedOut>Wylogowałeś się!</AuthUserHasLoggedOut>
     <AuthUserHasLoggedOutPrevDevice>Zostałeś wylogowany, ponieważ wykryto logowanie z innego urządzenia!</AuthUserHasLoggedOutPrevDevice>
-    <AuthUserNameAlreadyExists>Nazwa użytkownika (Email) jest już używana!</AuthUserNameAlreadyExists>
+    <AuthUserNameAlreadyExists>Nazwa użytkownika (e-mail) jest już używana!</AuthUserNameAlreadyExists>
     <AuthUserNameEmailIsBlocked>Ten adres e-mail nie może być użyty!</AuthUserNameEmailIsBlocked>
-    <AuthUserNameIsNotSpecified>Nazwa użytkownika (Email) nie została określona!</AuthUserNameIsNotSpecified>
-    <AuthUserNameIsTooLong>Nazwa użytkownika (Email) jest za długa!</AuthUserNameIsTooLong>
+    <AuthUserNameIsNotSpecified>Nazwa użytkownika (e-mail) nie została określona!</AuthUserNameIsNotSpecified>
+    <AuthUserNameIsTooLong>Nazwa użytkownika (e-mail) jest za długa!</AuthUserNameIsTooLong>
     <AuthUserNameNotAssociatedWithYourAccount>Nazwa użytkownika (e-mail) {0} nie jest powiązana z kontem {1}!</AuthUserNameNotAssociatedWithYourAccount>
-    <AuthUserNameOrPasswordIsNotCorrect>Nazwa użytkownika (Email) lub hasło są nieprawidłowe!</AuthUserNameOrPasswordIsNotCorrect>
+    <AuthUserNameOrPasswordIsNotCorrect>Nazwa użytkownika (e-mail) lub hasło są nieprawidłowe!</AuthUserNameOrPasswordIsNotCorrect>
     <AuthUserNameShouldLookLikeAnEmailAddress>Nazwa użytkownika powinna być podobna do adresu e-mail!</AuthUserNameShouldLookLikeAnEmailAddress>
     <AuthWorkspaceNameAlreadyInUse>Nazwa obszaru roboczego jest już używana!</AuthWorkspaceNameAlreadyInUse>
     <CertificateNotFound>Nie znaleziono certyfikatu!</CertificateNotFound>
     <CommandTimeOut>Czas oczekiwania na przetworzenie polecenia upłynął!</CommandTimeOut>
     <Congratulations>Gratulacje!</Congratulations>
+    <ContentNeedsAdditionalPackage>Ta zawartość wymaga dodatkowego pakietu</ContentNeedsAdditionalPackage>
     <DeveloperInformation>Informacje dla programistów</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>Data końcowa powinna być większa niż bieżąca data!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>Data końcowa powinna być większa niż data początkowa!</EndDateShouldBeGreaterThanStartDate>
     <Error>Błąd</Error>
     <ExecutionError>Błąd wykonania</ExecutionError>
     <ExpressionValidationFailed>Walidacja wyrażenia nie powiodła się.</ExpressionValidationFailed>
+    <FileCreatedInNewerVersion>Plik został utworzony w wersji {0}, a używasz wersji {1}. Zaktualizuj do najnowszej wersji, aby go otworzyć.</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>Ten plik wymaga nowszej wersji</FileNeedsNewerVersion>
     <GracePeriod>Okres karencji subskrypcji wygaśnie za {0} dni.</GracePeriod>
     <IsIdentical>"{0}" i "{1}" są identyczne."</IsIdentical>
     <IsNotAuthorized>Brak dostępu do "{0}"!</IsNotAuthorized>
@@ -2645,6 +2651,7 @@ Wiadomość e-mail została wysłana do "{0}". Zawiera ona link do potwierdzenia
     <MinimumValue>Minimum to {0}.</MinimumValue>
     <NewDesignerAvailable>Stimulsoft Designer {0} jest dostępny.</NewDesignerAvailable>
     <NewProduct>Nowy produkt jest dodany do Twojej subskrypcji!</NewProduct>
+    <NewProductAddedToSubscription>Do subskrypcji dodano nowy produkt</NewProductAddedToSubscription>
     <NewVersionsAvailable>Nowa wersja</NewVersionsAvailable>
     <NotificationConnectPackage>Podłącz pakiet "{0}" w celu poprawnej pracy.</NotificationConnectPackage>
     <NotificationFailed>Nieudany wynik!</NotificationFailed>
@@ -2694,6 +2701,9 @@ Wiadomość e-mail została wysłana do "{0}". Zawiera ona link do potwierdzenia
     <OutOfRange>Poza zakresem ("{0}")!</OutOfRange>
     <ParsingCommandException>Wyjątek przetwarzania polecenia w określonym xml: {0}</ParsingCommandException>
     <PleaseLogin>Przed opublikowaniem raportu zaloguj się przy użyciu poświadczeń konta Stimulsoft lub zarejestruj nowe konto.</PleaseLogin>
+    <PurchaseSubscriptionBeforeTrialEnds>Kup subskrypcję lub dodaj swój klucz licencyjny do aplikacji, aby korzystać z produktów Stimulsoft po zakończeniu okresu próbnego.</PurchaseSubscriptionBeforeTrialEnds>
+    <PurchaseSubscriptionDesignerTrialEnds>Kup subskrypcję, aby korzystać z produktów Stimulsoft po zakończeniu okresu próbnego.</PurchaseSubscriptionDesignerTrialEnds>
+    <PurchaseSubscriptionTrialExpired>Kup subskrypcję lub dodaj swój klucz licencyjny do aplikacji, aby nadal korzystać z produktów Stimulsoft. Zamknięcie tego okna zamyka również aplikację.</PurchaseSubscriptionTrialExpired>
     <QuotaMaximumComputingCyclesCountExceeded>Przekroczona maksymalna liczba cyklów obliczeniowych.</QuotaMaximumComputingCyclesCountExceeded>
     <QuotaMaximumDataRowsCountExceeded>Przekroczono maksymalną liczbę wierszy danych w jednym źródle danych.</QuotaMaximumDataRowsCountExceeded>
     <QuotaMaximumFileSizeExceeded>Przekroczony maksymalny rozmiar pliku.</QuotaMaximumFileSizeExceeded>
@@ -2704,18 +2714,26 @@ Wiadomość e-mail została wysłana do "{0}". Zawiera ona link do potwierdzenia
     <QuotaMaximumResourceSizeExceeded>Przekroczono maksymalny rozmiar zasobu.</QuotaMaximumResourceSizeExceeded>
     <QuotaMaximumUsersCountExceeded>Maksymalna liczba użytkowników przekroczona.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>Przekroczona maksymalna liczba obszarów roboczych.</QuotaMaximumWorkspacesCountExceeded>
+    <RenewSubscriptionBeforeGracePeriodEnds>Subskrypcja {0} wygasła. Odnów ją przed końcem okresu karencji.</RenewSubscriptionBeforeGracePeriodEnds>
+    <RenewSubscriptionToGetNewVersions>Odnów subskrypcję {0}, aby nadal otrzymywać nowe wersje.</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersionsAgain>Odnów subskrypcję {0}, aby znów otrzymywać nowe wersje.</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>Scheduler nie może uruchomić się sam!</SchedulerCantRunItSelf>
+    <SeatLimitUpgradeBeforeDate>Twoja subskrypcja jest używana na większej liczbie stanowisk programistów, niż obejmuje. Rozszerz plan przed {0}, aby pracować bez przerw.</SeatLimitUpgradeBeforeDate>
+    <SeatLimitUpgradeToContinue>Twoja subskrypcja jest używana na większej liczbie stanowisk programistów, niż obejmuje. Rozszerz plan, aby kontynuować. Zamknięcie tego okna zamyka również aplikację.</SeatLimitUpgradeToContinue>
     <SessionTimeOut>Przekroczenie limitu sesji</SessionTimeOut>
     <SnapshotAlreadyProcessed>Migawka raportu została już przetworzona!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>Podany element nie jest "{0}"!</SpecifiedItemIsNot>
+    <SubscriptionEndedBeforeVersion>Subskrypcja {0} wygasła {1}, przed wydaniem tej wersji. Odnów ją, aby korzystać z tej wersji.</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>subskrypcja wygasła!</SubscriptionExpired>
     <SubscriptionExpiredDate>Subskrypcja wygaśnie w dniu {0}</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>Wygasa za {0} dni</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Twoja subskrypcja wygasła. Zaktualizuj subskrypcję, aby uzyskać ostatnią wersję.</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>Subskrypcja wygasła</SubscriptionExpiredShort>
+    <SubscriptionIsActiveUntil>Subskrypcja {0} jest teraz aktywna do {1}.</SubscriptionIsActiveUntil>
     <SubscriptionLimitExceeded>Liczba stanowisk deweloperskich w Twojej subskrypcji przekroczyła dozwolony limit. Aplikacja zostanie zamknięta. Uaktualnij swój plan, aby kontynuować pracę.</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>Limit subskrypcji</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>Twoja subskrypcja wykorzystuje więcej stanowisk deweloperskich, niż jest dozwolone. Rozważ uaktualnienie planu, aby kontynuować pracę bez przerw.</SubscriptionLimitWarning>
+    <SubscriptionNowIncludes>Twoja subskrypcja obejmuje teraz {0}. Dziękujemy za zakup.</SubscriptionNowIncludes>
     <SubscriptionsOut10>zostało 10 dni do wygaśnięcia subskrypcji!</SubscriptionsOut10>
     <SubscriptionsOut20>okres subskrypcji wygaśnie w ciągu 20 dni!</SubscriptionsOut20>
     <SuccessfullyRenewed>subskrypcja została pomyślnie zaktualizowana!</SuccessfullyRenewed>
@@ -2731,11 +2749,21 @@ Wiadomość e-mail została wysłana do "{0}". Zawiera ona link do potwierdzenia
     <VersionCreatedFromItem>Utworzono z elementu "{0}".</VersionCreatedFromItem>
     <VersionLoadedFromFile>Załadowano z pliku "{0}".</VersionLoadedFromFile>
     <VersionNewItemCreation>Tworzenie nowego elementu.</VersionNewItemCreation>
+    <VersionNotInSubscription>Ta wersja nie jest objęta subskrypcją</VersionNotInSubscription>
     <Warning>Uwaga</Warning>
     <WindowClosePreventWhileUploading>Niektóre pliki są teraz przesyłane, jeśli zamkniesz stronę, zostaną utracone. Czy na pewno chcesz zamknąć stronę?</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>"{0}" z określonym kluczem nie zostało znalezione!</WithSpecifiedKeyIsNotFound>
     <WouldYouLikeToUpdateNow>Czy chcesz teraz zaktualizować?</WouldYouLikeToUpdateNow>
+    <YourGracePeriodEndsInDays>Okres karencji kończy się za {0} dni</YourGracePeriodEndsInDays>
+    <YourSubscriptionEndsInDays>Subskrypcja kończy się za {0} dni</YourSubscriptionEndsInDays>
+    <YourSubscriptionHasBeenBlocked>Subskrypcja została zablokowana</YourSubscriptionHasBeenBlocked>
+    <YourSubscriptionHasBeenRenewed>Subskrypcja została odnowiona</YourSubscriptionHasBeenRenewed>
+    <YourSubscriptionHasExpired>Subskrypcja wygasła</YourSubscriptionHasExpired>
+    <YourSubscriptionNeedsAttention>Subskrypcja wymaga uwagi</YourSubscriptionNeedsAttention>
     <YourTimeSessionHasExpired>Twoja sesja wygasła!</YourTimeSessionHasExpired>
+    <YourTrialEndsInDays>Wersja próbna kończy się za {0} dni</YourTrialEndsInDays>
+    <YourTrialEndsToday>Wersja próbna kończy się dzisiaj</YourTrialEndsToday>
+    <YourTrialEndsTomorrow>Wersja próbna kończy się jutro</YourTrialEndsTomorrow>
     <YourTrialHasExpired>Okres próbny wygasł</YourTrialHasExpired>
     <YourTrialWillExpire>Wersja próbna wygaśnie za {0} dni.</YourTrialWillExpire>
     <YouUsingTrialVersion>Używasz wersji próbnej!</YouUsingTrialVersion>
@@ -2745,6 +2773,7 @@ Wiadomość e-mail została wysłana do "{0}". Zawiera ona link do potwierdzenia
     <AssemblyLoadedSuccessfully>Zestaw został załadowany pomyślnie.</AssemblyLoadedSuccessfully>
     <AssemblyNotFound>Niemożliwe jest znalezienie zestawu {0} do użycia połączenia {1}!</AssemblyNotFound>
     <Author>Autor</Author>
+    <ChooseDataAdapter>Aby połączyć się z {0}, pobierz jeden z tych pakietów NuGet.</ChooseDataAdapter>
     <Dependencies>Zależności:</Dependencies>
     <Download>Pobierz</Download>
     <DownloadAll>Pobierz wszystko</DownloadAll>
@@ -5430,7 +5459,7 @@ Wiadomość e-mail została wysłana do "{0}". Zawiera ona link do potwierdzenia
     <Schedule>Plan</Schedule>
     <Scheduler>Scheduler</Scheduler>
     <Schedulers>Schedulers</Schedulers>
-    <SenderEmail>Email nadawcy</SenderEmail>
+    <SenderEmail>E-mail nadawcy</SenderEmail>
     <SmtpSettings>Ustawienia SMTP</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuration>Zatrzymanie wszystkich uruchomionych zadań na koniec czasu trwania powtórzenia</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>Zatrzymaj zadanie, jeśli trwa dłużej niż</StopTasksIfItRunsLongerThan>

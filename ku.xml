@@ -181,6 +181,7 @@
     <Test>هەڵسەنگاندن</Test>
     <TryToReconnect>دوبارە هەوڵی پەیوەندی کردن بدەرەوە</TryToReconnect>
     <Up>سەرەوە</Up>
+    <Update>نوێکردنەوە</Update>
     <Upgrade>پێشخستن</Upgrade>
     <UpgradeNow>ئێستا پێشی بخە</UpgradeNow>
     <Upload>بارکردن</Upload>
@@ -440,6 +441,7 @@
     <CheckForUpdate>دڵنایبونەوە لە نوێگاەری</CheckForUpdate>
     <Cloud>هەور</Cloud>
     <Collection>کۆکردنەوە</Collection>
+    <ConfirmEmailAddress>ناونیشانی نامەی ئەلیکترۆنییەکەت پشتڕاست بکەرەوە</ConfirmEmailAddress>
     <Create>دروستکردن</Create>
     <CreateError>هەڵە ڕوویدا لەکاتی دروستکردنی راپۆرت!</CreateError>
     <CreateNewCollection>دروستکردنی کۆلێکشنی نوێ</CreateNewCollection>
@@ -543,6 +545,7 @@
     <SaveFile>هەڵگرتنی فایل</SaveFile>
     <SavingToStimulsoftCloudPleaseWait>هەڵگرتنی ڕاپۆرتەکە لە Stimulsoft Cloud. تکایە چاوەڕوانبە!</SavingToStimulsoftCloudPleaseWait>
     <SearchForOnlineTemplates>گەڕان بۆ قاڵب بە شێوەی ئۆنلاین</SearchForOnlineTemplates>
+    <SendingEmail>ناردنی نامەی ئەلیکترۆنی...</SendingEmail>
     <ShareWindowTitleNew>هاوبەشکردن</ShareWindowTitleNew>
     <ShowAllFiles>هەموو فایلەکان نیشان بدە</ShowAllFiles>
     <ShowNotificationMessages>پیشاندانی نامەکانی نۆتیفیکەیشنەکان</ShowNotificationMessages>
@@ -2571,7 +2574,7 @@
     <ActivationServerIsNotAvailableNow>Stimulsoft Activation Server ئێستا بەردەست نیە! تکایە دواتر دووبارە هەوڵ بدە.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>ناتوانیت ئەم وەشانەی سێرڤەری Stimulsoft چالاک بکەیت لەبەرئەوەی بەرنامەی بەشداربوونەکەت بەسەرچووە! تکایە بچۆ ژوورەوە بۆ ئەژمێرەکەت و چێک بکە کام وەشانی Stimulsoft Server دەتوانیت دایبنێیت و چالاک بکەیت.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>هەڵەیەک ڕوویدا لەکاتی چالاککردن. تکایە دواتر دووبارە هەوڵ بدە.</ActivationSomeTroublesOccurred>
-    <ActivationTrialExpired>دەتوانیت بەردەوام بیت لە بەکارهێنانی Stimulsoft Designer بە کڕینی سۆفتوێرەکە.</ActivationTrialExpired>
+    <ActivationTrialExpired>دەتوانیت بەردەوام بیت لە بەکارهێنانی بەرهەمەکانی Stimulsoft بە کڕینی سۆفتوێرەکە.</ActivationTrialExpired>
     <ActivationTrialExtend1>ئەگەر ئارەزووت کرد بە درێژکردنەوەی ماوەی هەڵسەنگاندن تکایە </ActivationTrialExtend1>
     <ActivationTrialExtend2>پێمان بڵێ بۆ.</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>ناوی بەکارهێنەرەکەت (ئیمەیڵ) یان وشەی نهێنیت هەڵەیە!</ActivationUserNameOrPasswordIsWrong>
@@ -2619,12 +2622,15 @@
     <CertificateNotFound>سەنتفیکات نەدۆزرایەوە!</CertificateNotFound>
     <CommandTimeOut>کاتی چاوەروانی پرۆسەی فەرمانەکە بەسەرچووە!</CommandTimeOut>
     <Congratulations>پیرۆزە!</Congratulations>
+    <ContentNeedsAdditionalPackage>ئەم ناوەڕۆکە پێویستی بە پاکێجێکی زیادە هەیە</ContentNeedsAdditionalPackage>
     <DeveloperInformation>زانیاری گەشەپێدەر</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>بەرواری کۆتایی دەبێت گەورەتر بێت لە بەرواری ئێستا!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>بەرواری کۆتایی دەبێت گەورەتر بێت لە بەرواری دەستپێکردن!</EndDateShouldBeGreaterThanStartDate>
     <Error>هەڵە</Error>
     <ExecutionError>هەڵەی جێبەجێکردن</ExecutionError>
     <ExpressionValidationFailed>پشکنینی دەربڕین شکستی هێنا.</ExpressionValidationFailed>
+    <FileCreatedInNewerVersion>فایلەکە لە ڤێرژنی {0} دروستکراوە، تۆش ڤێرژنی {1} بەکاردەهێنیت. بۆ کردنەوەی، نوێی بکەرەوە بۆ دوایین ڤێرژن.</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>ئەم فایلە پێویستی بە ڤێرژنێکی نوێترە</FileNeedsNewerVersion>
     <GracePeriod>ماوەی بەشداریکردنت لە {0} ڕۆژدا بەسەردەچێت.</GracePeriod>
     <IsIdentical>{0} و {1} یەکن</IsIdentical>
     <IsNotAuthorized>هیچ دەسگەیشتنێک نیە بۆ "{0}"!</IsNotAuthorized>
@@ -2649,6 +2655,7 @@
     <MinimumValue>کەمترین نرخ {0}ـە.</MinimumValue>
     <NewDesignerAvailable>Stimulsoft Designer {0} بەردەستە.</NewDesignerAvailable>
     <NewProduct>بەرهەمی نوێ زیادکراوە بۆ بەشداری کردنەکەت!</NewProduct>
+    <NewProductAddedToSubscription>بەرهەمێکی نوێ زیاد کرا بۆ بەشداریکردنەکەت</NewProductAddedToSubscription>
     <NewVersionsAvailable>وەشانی نوێ</NewVersionsAvailable>
     <NotificationConnectPackage>بەستنەوەی پاکێجی "{0}" بۆ کاری دروست.</NotificationConnectPackage>
     <NotificationFailed>ئەنجامێکی سەرکەوتوو نەبوو!</NotificationFailed>
@@ -2698,6 +2705,9 @@
     <OutOfRange>لە دەرەوەی مەودا ("{0}")!</OutOfRange>
     <ParsingCommandException>هەڵە ڕویدا لە کاتی ئەنجامادانی پڕۆسەی فەرمانەکانی ناو xml دیاریکراو: {0}</ParsingCommandException>
     <PleaseLogin>تکایە چوونەژوورەوە بە بەکارهێنانی بڕواپێدانەکانی ئەژمێری Stimulsoft یان تۆمارکردنی ئەژمێرێکی نوێ پێش بڵاوکردنەوەی راپۆرت.</PleaseLogin>
+    <PurchaseSubscriptionBeforeTrialEnds>بەشداریکردنێک بکڕە یان کلیلی مۆڵەتەکەت زیاد بکە بۆ بەرنامەکە بۆ ئەوەی دوای ماوەی تاقیکردنەوە بەردەوام بیت لە بەکارهێنانی بەرهەمەکانی Stimulsoft.</PurchaseSubscriptionBeforeTrialEnds>
+    <PurchaseSubscriptionDesignerTrialEnds>بەشداریکردنێک بکڕە بۆ ئەوەی دوای ماوەی تاقیکردنەوە بەردەوام بیت لە بەکارهێنانی بەرهەمەکانی Stimulsoft.</PurchaseSubscriptionDesignerTrialEnds>
+    <PurchaseSubscriptionTrialExpired>بەشداریکردنێک بکڕە یان کلیلی مۆڵەتەکەت زیاد بکە بۆ بەرنامەکە بۆ ئەوەی بەردەوام بیت لە بەکارهێنانی بەرهەمەکانی Stimulsoft. داخستنی ئەم پەنجەرەیە بەرنامەکەش دادەخات.</PurchaseSubscriptionTrialExpired>
     <QuotaMaximumComputingCyclesCountExceeded>زۆرترین سووڕی ژمێریاری تێپەڕیوە.</QuotaMaximumComputingCyclesCountExceeded>
     <QuotaMaximumDataRowsCountExceeded>بەرزترین ڕیزی داتا لە یەک سەرچاوەی داتا تێپەڕیوە.</QuotaMaximumDataRowsCountExceeded>
     <QuotaMaximumFileSizeExceeded>زۆرترین قەبارەی فایل تێپەڕیوە.</QuotaMaximumFileSizeExceeded>
@@ -2708,18 +2718,26 @@
     <QuotaMaximumResourceSizeExceeded>زۆرترین قەبارەی سەرچاوە تێپەڕێنراوە.</QuotaMaximumResourceSizeExceeded>
     <QuotaMaximumUsersCountExceeded>زۆرترین بەکارهێنەران تێپەڕین.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>زۆرترین مەودای کار تێپەڕێنراوە.</QuotaMaximumWorkspacesCountExceeded>
+    <RenewSubscriptionBeforeGracePeriodEnds>بەشداریکردنی {0} بەسەرچووە. پێش کۆتایی هاتنی ماوەی مۆڵەت نوێی بکەرەوە.</RenewSubscriptionBeforeGracePeriodEnds>
+    <RenewSubscriptionToGetNewVersions>بەشداریکردنی {0} نوێ بکەرەوە بۆ ئەوەی بەردەوام ڤێرژنە نوێیەکان وەربگریت.</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersionsAgain>بەشداریکردنی {0} نوێ بکەرەوە بۆ ئەوەی دووبارە ڤێرژنە نوێیەکان وەربگریت.</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>خشتەکە ناتوانێت خۆی بەڕێوە ببات!</SchedulerCantRunItSelf>
+    <SeatLimitUpgradeBeforeDate>بەشداریکردنەکەت شوێنی گەشەپێدەری زیاتر بەکاردەهێنێت لەوەی لەخۆی دەگرێت. پلانەکەت پێش {0} بەرز بکەرەوە بۆ ئەوەی بەبێ پچڕان کار بکەیت.</SeatLimitUpgradeBeforeDate>
+    <SeatLimitUpgradeToContinue>بەشداریکردنەکەت شوێنی گەشەپێدەری زیاتر بەکاردەهێنێت لەوەی لەخۆی دەگرێت. بۆ بەردەوامبوون پلانەکەت بەرز بکەرەوە. داخستنی ئەم پەنجەرەیە بەرنامەکەش دادەخات.</SeatLimitUpgradeToContinue>
     <SessionTimeOut>ماوەکە تەواو بوو</SessionTimeOut>
     <SnapshotAlreadyProcessed>لەبەرگراوەی وێنەی راپۆرتەکە پێشتر پرۆسەکراوە!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>ئایتمی دیاریکراو "{0}" نییە!</SpecifiedItemIsNot>
+    <SubscriptionEndedBeforeVersion>بەشداریکردنی {0} لە {1} کۆتایی هات، پێش دەرچوونی ئەم ڤێرژنە. نوێی بکەرەوە بۆ بەکارهێنانی ئەم ڤێرژنە.</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>بەشداری کردنەکەت بەسەرچووە!</SubscriptionExpired>
     <SubscriptionExpiredDate>بەشداری کردنەکەت بەسەردەچێت لە {0}</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>بەسەردەچێت لە {0} ڕۆژدا</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>بەشداری کردنەکەت بەسەرچووە. بەشداریکردنەکەت نوێبکەرەوە بۆ بەدەستهێنانی دوایین وەشان.</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>بەشداربوون بەسەرچووە</SubscriptionExpiredShort>
+    <SubscriptionIsActiveUntil>بەشداریکردنی {0} ئێستا تا {1} چالاکە.</SubscriptionIsActiveUntil>
     <SubscriptionLimitExceeded>بەشداریکردنەکەت سنووری کورسی گەشەپێدەری تێپەڕاندووە. بەرنامەکە دادەخرێت. تکایە پلانی خۆت بەرزبکەرەوە بۆ بەردەوامبوون.</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>سنووری بەشداریکردن</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>بەشداریکردنەکەت کورسی گەشەپێدەری زیاتر بەکاردەهێنێت لەوەی ڕێگەپێدراوە. تکایە بیر لە بەرزکردنەوەی پلانەکەت بکەرەوە بۆ ئەوەی بێ پچڕان بەردەوام بیت لە کارکردن.</SubscriptionLimitWarning>
+    <SubscriptionNowIncludes>بەشداریکردنەکەت ئێستا {0} لەخۆدەگرێت. سوپاس بۆ کڕینەکەت.</SubscriptionNowIncludes>
     <SubscriptionsOut10>10 ڕۆژی شداربوونەکەت ماوە!</SubscriptionsOut10>
     <SubscriptionsOut20>ماوەی بەشداربوون لە ماوەی 20 ڕۆژ بەسەر دەچێت!</SubscriptionsOut20>
     <SuccessfullyRenewed>بەشداری کردنەکەت بە سەرکەوتوویی نوێکرایەوە!</SuccessfullyRenewed>
@@ -2735,11 +2753,21 @@
     <VersionCreatedFromItem>دروستکراوە لە بڕگەی "{0}".</VersionCreatedFromItem>
     <VersionLoadedFromFile>بارکراوە لە فایلی "{0}".</VersionLoadedFromFile>
     <VersionNewItemCreation>دروست کردنی ئایتمی نوێ.</VersionNewItemCreation>
+    <VersionNotInSubscription>ئەم ڤێرژنە لە بەشداریکردنەکەتدا نییە</VersionNotInSubscription>
     <Warning>ئاگادارکردنەوە</Warning>
     <WindowClosePreventWhileUploading>هەندێ فایل ئێستا باردەکەن، ئەگەر لاپەڕەکە دابخەیت ون دەبن. دڵنیای لەوەی دەتەوێت لاپەڕە دابخەیت؟</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>"{0}" بە کلیلی دیاریکراو نەدۆزرایەوە!</WithSpecifiedKeyIsNotFound>
     <WouldYouLikeToUpdateNow>دەتەوێت ئێستا نوێکاری بکەیتەوە؟</WouldYouLikeToUpdateNow>
+    <YourGracePeriodEndsInDays>ماوەی مۆڵەتەکەت لە {0} ڕۆژدا کۆتایی دێت</YourGracePeriodEndsInDays>
+    <YourSubscriptionEndsInDays>بەشداریکردنەکەت لە {0} ڕۆژدا کۆتایی دێت</YourSubscriptionEndsInDays>
+    <YourSubscriptionHasBeenBlocked>بەشداریکردنەکەت بلۆک کراوە</YourSubscriptionHasBeenBlocked>
+    <YourSubscriptionHasBeenRenewed>بەشداریکردنەکەت نوێکرایەوە</YourSubscriptionHasBeenRenewed>
+    <YourSubscriptionHasExpired>بەشداریکردنەکەت بەسەرچووە</YourSubscriptionHasExpired>
+    <YourSubscriptionNeedsAttention>بەشداریکردنەکەت پێویستی بە سەرنجە</YourSubscriptionNeedsAttention>
     <YourTimeSessionHasExpired>کاتەکەت بەسەرچووە!</YourTimeSessionHasExpired>
+    <YourTrialEndsInDays>ماوەی ڤێرژنی تاقیکردنەوە لە {0} ڕۆژدا کۆتایی دێت</YourTrialEndsInDays>
+    <YourTrialEndsToday>ماوەی ڤێرژنی تاقیکردنەوە ئەمڕۆ کۆتایی دێت</YourTrialEndsToday>
+    <YourTrialEndsTomorrow>ماوەی ڤێرژنی تاقیکردنەوە سبەی کۆتایی دێت</YourTrialEndsTomorrow>
     <YourTrialHasExpired>ماوەی  ڤێرژنی تاقی کردنەوە بەسەرچوو</YourTrialHasExpired>
     <YourTrialWillExpire>ماوەی  ڤێرژنی تاقی کردنەوە لە {0} ڕۆژدا بەسەر دەچێت</YourTrialWillExpire>
     <YouUsingTrialVersion>تۆ ڤێرژنی تاقی کردنەوە بەکاردێنیت!</YouUsingTrialVersion>
@@ -2749,6 +2777,7 @@
     <AssemblyLoadedSuccessfully>کۆمەڵەکە بە سەرکەوتوویی بارکراوە.</AssemblyLoadedSuccessfully>
     <AssemblyNotFound>ئەستەمە کۆبوونەوەی {0} بدۆزرێتەوە بۆ بەکارهێنانی پەیوەندی {1}!</AssemblyNotFound>
     <Author>نووسەر</Author>
+    <ChooseDataAdapter>بۆ پەیوەندیکردن بە {0}، یەکێک لەم پاکێجانەی NuGet دابگرە.</ChooseDataAdapter>
     <Dependencies>پاشکۆکان:</Dependencies>
     <Download>داگرتن</Download>
     <DownloadAll>داگرتنی هەموو</DownloadAll>

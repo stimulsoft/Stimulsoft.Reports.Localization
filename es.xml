@@ -181,7 +181,8 @@
     <Test>Pruebas</Test>
     <TryToReconnect>Intenta volver a conectarte</TryToReconnect>
     <Up>Arriba</Up>
-    <Upgrade>Actualizar</Upgrade>
+    <Update>Actualizar</Update>
+    <Upgrade>Ampliar</Upgrade>
     <UpgradeNow>Actualizar ahora</UpgradeNow>
     <Upload>Subir</Upload>
     <Waiting>Esperando</Waiting>
@@ -440,6 +441,7 @@
     <CheckForUpdate>Buscar actualizaciones</CheckForUpdate>
     <Cloud>Nube</Cloud>
     <Collection>Colección</Collection>
+    <ConfirmEmailAddress>Confirme su dirección de correo electrónico</ConfirmEmailAddress>
     <Create>Crear</Create>
     <CreateError>¡Error creando el informe!</CreateError>
     <CreateNewCollection>Crear Nueva Colección</CreateNewCollection>
@@ -543,6 +545,7 @@
     <SaveFile>Guardar Archivo</SaveFile>
     <SavingToStimulsoftCloudPleaseWait>Guardando el informe al Stimulsoft Cloud. ¡Espere, por favor!</SavingToStimulsoftCloudPleaseWait>
     <SearchForOnlineTemplates>Busque plantillas en línea</SearchForOnlineTemplates>
+    <SendingEmail>Enviando correo...</SendingEmail>
     <ShareWindowTitleNew>Compartir</ShareWindowTitleNew>
     <ShowAllFiles>Mostrar Todos los Archivos</ShowAllFiles>
     <ShowNotificationMessages>Mostrar mensajes de notificación</ShowNotificationMessages>
@@ -2568,7 +2571,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <ActivationServerIsNotAvailableNow>¡El servidor de activaciones de Stimulsoft no está disponible en estos momentos! Por favor, inténtelo de nuevo más tarde.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>¡No se puede activar esta versión de Stimulsoft Server porque su programa de suscripción ha caducado! Por favor, acceda a su cuenta y comprobar la versión de la Stimulsoft Server puede instalar y activar.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>Se produjo un error durante la activación. Por favor, inténtelo de nuevo más tarde.</ActivationSomeTroublesOccurred>
-    <ActivationTrialExpired>Puede continuar usando Stimulsoft Designer comprando el software.</ActivationTrialExpired>
+    <ActivationTrialExpired>Puede continuar usando los productos de Stimulsoft comprando el software.</ActivationTrialExpired>
     <ActivationTrialExtend1>Si está interesado en extender su prueba, por favor </ActivationTrialExtend1>
     <ActivationTrialExtend2>dinos por qué.</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>¡Su nombre de usuario (correo electrónico) o la contraseña es incorrecta!</ActivationUserNameOrPasswordIsWrong>
@@ -2616,12 +2619,15 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <CertificateNotFound>¡Certificado no encontrado!</CertificateNotFound>
     <CommandTimeOut>¡Ha transcurrido el tiempo de espera para procesar el comando!</CommandTimeOut>
     <Congratulations>¡Enhorabuena!</Congratulations>
+    <ContentNeedsAdditionalPackage>Este contenido necesita un paquete adicional</ContentNeedsAdditionalPackage>
     <DeveloperInformation>Información del desarrollador</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>¡La fecha de finalización debe ser mayor que la fecha actual!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>¡La fecha de finalización debe ser mayor que la fecha de inicio!</EndDateShouldBeGreaterThanStartDate>
     <Error>Error</Error>
     <ExecutionError>Error de ejecución</ExecutionError>
     <ExpressionValidationFailed>Falló la validación de la expresión.</ExpressionValidationFailed>
+    <FileCreatedInNewerVersion>El archivo se creó en la versión {0} y usted usa la versión {1}. Actualice a la última versión para abrirlo.</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>Este archivo necesita una versión más reciente</FileNeedsNewerVersion>
     <GracePeriod>El período de gracia de su suscripción expirará en {0} días.</GracePeriod>
     <IsIdentical>"{0}" y "{1}" son idénticos."</IsIdentical>
     <IsNotAuthorized>Sin acceso a "{0}"!</IsNotAuthorized>
@@ -2646,6 +2652,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <MinimumValue>El mínimo es {0}.</MinimumValue>
     <NewDesignerAvailable>Stimulsoft Designer {0} está disponible.</NewDesignerAvailable>
     <NewProduct>¡Se agrega un nuevo producto a su suscripción.!</NewProduct>
+    <NewProductAddedToSubscription>Se ha añadido un producto nuevo a su suscripción</NewProductAddedToSubscription>
     <NewVersionsAvailable>¡Nueva versión disponible!</NewVersionsAvailable>
     <NotificationConnectPackage>Conecte el paquete "{0}" para el trabajo correcto.</NotificationConnectPackage>
     <NotificationFailed>¡Resultado fallido!</NotificationFailed>
@@ -2695,6 +2702,9 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <OutOfRange>Fuera de rango ("{0}")!</OutOfRange>
     <ParsingCommandException>Se produjo una excepción al procesar el comando en el xml: {0}</ParsingCommandException>
     <PleaseLogin>Inicie sesión con sus credenciales de cuenta de Stimulsoft o registre una nueva cuenta antes de publicar el informe.</PleaseLogin>
+    <PurchaseSubscriptionBeforeTrialEnds>Compre una suscripción o agregue su clave de licencia a la aplicación para seguir usando los productos de Stimulsoft después del período de prueba.</PurchaseSubscriptionBeforeTrialEnds>
+    <PurchaseSubscriptionDesignerTrialEnds>Compre una suscripción para seguir usando los productos de Stimulsoft después del período de prueba.</PurchaseSubscriptionDesignerTrialEnds>
+    <PurchaseSubscriptionTrialExpired>Compre una suscripción o agregue su clave de licencia a la aplicación para seguir usando los productos de Stimulsoft. Al cerrar esta ventana también se cierra la aplicación.</PurchaseSubscriptionTrialExpired>
     <QuotaMaximumComputingCyclesCountExceeded>El número de ciclos de computación máximos se ha excedido.</QuotaMaximumComputingCyclesCountExceeded>
     <QuotaMaximumDataRowsCountExceeded>Se ha superado el recuento máximo de filas de datos en un origen de datos.</QuotaMaximumDataRowsCountExceeded>
     <QuotaMaximumFileSizeExceeded>Tamaño máximo del archivo superado.</QuotaMaximumFileSizeExceeded>
@@ -2705,18 +2715,26 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <QuotaMaximumResourceSizeExceeded>Tamaño de recurso máximo excedido.</QuotaMaximumResourceSizeExceeded>
     <QuotaMaximumUsersCountExceeded>El número máximo de usuarios se ha excedido.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>El número máximo de espacios de trabajo se ha excedido.</QuotaMaximumWorkspacesCountExceeded>
+    <RenewSubscriptionBeforeGracePeriodEnds>Su suscripción a {0} ha expirado. Renuévela antes de que termine el período de gracia.</RenewSubscriptionBeforeGracePeriodEnds>
+    <RenewSubscriptionToGetNewVersions>Renueve su suscripción a {0} para seguir recibiendo las nuevas versiones.</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersionsAgain>Renueve su suscripción a {0} para volver a recibir las nuevas versiones.</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>¡El planificador no puede ejecutarse a si mismo!</SchedulerCantRunItSelf>
+    <SeatLimitUpgradeBeforeDate>Su suscripción usa más puestos de desarrollador de los que incluye. Amplíe su plan antes del {0} para seguir trabajando sin interrupciones.</SeatLimitUpgradeBeforeDate>
+    <SeatLimitUpgradeToContinue>Su suscripción usa más puestos de desarrollador de los que incluye. Amplíe su plan para continuar. Al cerrar esta ventana también se cierra la aplicación.</SeatLimitUpgradeToContinue>
     <SessionTimeOut>Ha caducado el tiempo de la Sessión</SessionTimeOut>
     <SnapshotAlreadyProcessed>¡La instantánea del informe ya ha sido procesado!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>El elemento especificado no es "{0}"!</SpecifiedItemIsNot>
+    <SubscriptionEndedBeforeVersion>Su suscripción a {0} terminó el {1}, antes de que se publicara esta versión. Renuévela para usar esta versión.</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>¡Su suscripción ha expirado!</SubscriptionExpired>
     <SubscriptionExpiredDate>Su suscripción caducará el {0}</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>Caduca en {0} días</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Su suscripción ha expirado. Actualice su suscripción para obtener la última versión.</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>Suscripción vencida</SubscriptionExpiredShort>
+    <SubscriptionIsActiveUntil>Su suscripción a {0} ahora está activa hasta el {1}.</SubscriptionIsActiveUntil>
     <SubscriptionLimitExceeded>Tu suscripción ha superado el límite de plazas para desarrolladores. La aplicación se cerrará. Actualiza tu plan para continuar.</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>Límite de suscripción</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>Tu suscripción está utilizando más puestos de desarrollador de los permitidos. Considera actualizar tu plan para seguir trabajando sin interrupciones.</SubscriptionLimitWarning>
+    <SubscriptionNowIncludes>Su suscripción ahora incluye {0}. Gracias por su compra.</SubscriptionNowIncludes>
     <SubscriptionsOut10>¡Faltan 10 días cuando caduca la suscripción!</SubscriptionsOut10>
     <SubscriptionsOut20>¡El período de suscripción expirará en 20 días!</SubscriptionsOut20>
     <SuccessfullyRenewed>¡Su suscripción se ha actualizado correctamente!</SuccessfullyRenewed>
@@ -2732,11 +2750,21 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <VersionCreatedFromItem>Creado desde el elemento "{0}".</VersionCreatedFromItem>
     <VersionLoadedFromFile>Cargado desde el archivo "{0}".</VersionLoadedFromFile>
     <VersionNewItemCreation>Creación de Nuevos Elementos.</VersionNewItemCreation>
+    <VersionNotInSubscription>Esta versión no está incluida en su suscripción</VersionNotInSubscription>
     <Warning>Aviso</Warning>
     <WindowClosePreventWhileUploading>Algunos archivos están subiendo ahora, si cierra la página se perderán. ¿Seguro que desea cerrar la página?</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>"{0}" con la clave especificada ¡no se ha encontrado!</WithSpecifiedKeyIsNotFound>
     <WouldYouLikeToUpdateNow>¿Desea actualizar ahora?</WouldYouLikeToUpdateNow>
+    <YourGracePeriodEndsInDays>Su período de gracia termina en {0} días</YourGracePeriodEndsInDays>
+    <YourSubscriptionEndsInDays>Su suscripción termina en {0} días</YourSubscriptionEndsInDays>
+    <YourSubscriptionHasBeenBlocked>Su suscripción ha sido bloqueada</YourSubscriptionHasBeenBlocked>
+    <YourSubscriptionHasBeenRenewed>Su suscripción se ha renovado</YourSubscriptionHasBeenRenewed>
+    <YourSubscriptionHasExpired>Su suscripción ha expirado</YourSubscriptionHasExpired>
+    <YourSubscriptionNeedsAttention>Su suscripción requiere atención</YourSubscriptionNeedsAttention>
     <YourTimeSessionHasExpired>¡Su periodo de tiempo ha caducado!</YourTimeSessionHasExpired>
+    <YourTrialEndsInDays>Su versión de prueba termina en {0} días</YourTrialEndsInDays>
+    <YourTrialEndsToday>Su versión de prueba termina hoy</YourTrialEndsToday>
+    <YourTrialEndsTomorrow>Su versión de prueba termina mañana</YourTrialEndsTomorrow>
     <YourTrialHasExpired>Su periodo de prueba ha caducado</YourTrialHasExpired>
     <YourTrialWillExpire>Su versión de prueba caducará en {0} días.</YourTrialWillExpire>
     <YouUsingTrialVersion>¡Estás usando una versión de prueba!</YouUsingTrialVersion>
@@ -2746,6 +2774,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <AssemblyLoadedSuccessfully>El ensamblado se ha cargado con éxito.</AssemblyLoadedSuccessfully>
     <AssemblyNotFound>¡No ha sido posible localizar el ensambaldo {0} para usar la conexión {1}!</AssemblyNotFound>
     <Author>Autor</Author>
+    <ChooseDataAdapter>Para conectarse a {0}, descargue uno de estos paquetes NuGet.</ChooseDataAdapter>
     <Dependencies>Dependencias:</Dependencies>
     <Download>Descarga</Download>
     <DownloadAll>Descargar Todo</DownloadAll>

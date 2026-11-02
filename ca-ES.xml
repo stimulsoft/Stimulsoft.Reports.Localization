@@ -181,7 +181,8 @@
     <Test>Proves</Test>
     <TryToReconnect>Prova de tornar a connectar</TryToReconnect>
     <Up>A dalt</Up>
-    <Upgrade>Millora</Upgrade>
+    <Update>Actualitza</Update>
+    <Upgrade>Amplia</Upgrade>
     <UpgradeNow>Millora ara</UpgradeNow>
     <Upload>Puja</Upload>
     <Waiting>En espera</Waiting>
@@ -439,6 +440,7 @@
     <CheckForUpdate>Comprovar actualitzacions</CheckForUpdate>
     <Cloud>Núvol</Cloud>
     <Collection>Col·lecció</Collection>
+    <ConfirmEmailAddress>Confirma la teva adreça de correu electrònic</ConfirmEmailAddress>
     <Create>Crea</Create>
     <CreateError>S'ha produït un error en crear l'informe!</CreateError>
     <CreateNewCollection>Crea una col·lecció nova</CreateNewCollection>
@@ -542,6 +544,7 @@
     <SaveFile>Desa el fitxer</SaveFile>
     <SavingToStimulsoftCloudPleaseWait>Desant l'informe a Stimulsoft Cloud. Si us plau, espereu!</SavingToStimulsoftCloudPleaseWait>
     <SearchForOnlineTemplates>Cercar plantilles en línia</SearchForOnlineTemplates>
+    <SendingEmail>S'està enviant el correu electrònic...</SendingEmail>
     <ShareWindowTitleNew>Compartir</ShareWindowTitleNew>
     <ShowAllFiles>Desa tots els fitxers</ShowAllFiles>
     <ShowNotificationMessages>Mostrar missatges de notificació</ShowNotificationMessages>
@@ -2564,7 +2567,7 @@ S'ha enviat un correu electrònic a "{0}". Conté un enllaç per confirmar el vo
     <ActivationServerIsNotAvailableNow>El servidor d'activació de Stimulsoft no està disponible ara! Torneu-ho a provar més tard.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>No pots activar aquesta versió de Stimulsoft Server perquè el teu Programa de subscripció ha caducat! Inicia sessió al teu compte i comprova quina versió de Stimulsoft Server pots instal·lar i activar.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>S'ha produït un error durant l'activació. Torneu-ho a provar més tard.</ActivationSomeTroublesOccurred>
-    <ActivationTrialExpired>Pots continuar utilitzant Stimulsoft Designer comprant el programari.</ActivationTrialExpired>
+    <ActivationTrialExpired>Pots continuar utilitzant els productes de Stimulsoft comprant el programari.</ActivationTrialExpired>
     <ActivationTrialExtend1>Si us interessa ampliar el vostre període de prova, si us plau</ActivationTrialExtend1>
     <ActivationTrialExtend2>digueu-nos per què.</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>El teu nom d'usuari (Correu electrònic) o la contrasenya són incorrectes!</ActivationUserNameOrPasswordIsWrong>
@@ -2609,12 +2612,15 @@ S'ha enviat un correu electrònic a "{0}". Conté un enllaç per confirmar el vo
     <CertificateNotFound>No s'ha trobat el certificat!</CertificateNotFound>
     <CommandTimeOut>S'ha esgotat el temps d'espera per processar l'ordre!</CommandTimeOut>
     <Congratulations>Felicitats!</Congratulations>
+    <ContentNeedsAdditionalPackage>Aquest contingut necessita un paquet addicional</ContentNeedsAdditionalPackage>
     <DeveloperInformation>Informació del desenvolupador</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>La data de finalització hauria de ser posterior a la data actual!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>La data de finalització hauria de ser posterior a la data d'inici!</EndDateShouldBeGreaterThanStartDate>
     <Error>Error</Error>
     <ExecutionError>Error d'execució</ExecutionError>
     <ExpressionValidationFailed>Ha fallat la validació de l'expressió.</ExpressionValidationFailed>
+    <FileCreatedInNewerVersion>El fitxer es va crear amb la versió {0} i tu fas servir la versió {1}. Actualitza a la darrera versió per obrir-lo.</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>Aquest fitxer necessita una versió més nova</FileNeedsNewerVersion>
     <GracePeriod>El període de gràcia de la vostra subscripció caducarà d'aquí a {0} dies.</GracePeriod>
     <IsIdentical>"{0}" i "{1}" són idèntics.</IsIdentical>
     <IsNotAuthorized>Sense accés a "{0}"!</IsNotAuthorized>
@@ -2639,6 +2645,7 @@ S'ha enviat un correu electrònic a "{0}". Conté un enllaç per confirmar el vo
     <MinimumValue>El mínim és {0}.</MinimumValue>
     <NewDesignerAvailable>El dissenyador de Stimulsoft {0} està disponible.</NewDesignerAvailable>
     <NewProduct>El nou producte s'ha afegit a la vostra subscripció!</NewProduct>
+    <NewProductAddedToSubscription>S'ha afegit un producte nou a la teva subscripció</NewProductAddedToSubscription>
     <NewVersionsAvailable>Nova versió</NewVersionsAvailable>
     <NotificationConnectPackage>Connecteu el paquet "{0}" per a un funcionament correcte.</NotificationConnectPackage>
     <NotificationFailed>Resultat fallit!</NotificationFailed>
@@ -2688,6 +2695,9 @@ S'ha enviat un correu electrònic a "{0}". Conté un enllaç per confirmar el vo
     <OutOfRange>Fora de l'interval ("{0}")!</OutOfRange>
     <ParsingCommandException>Excepció en processar l'ordre a l'xml especificat: {0}</ParsingCommandException>
     <PleaseLogin>Si us plau, inicieu la sessió amb les credencials del vostre compte de Stimulsoft o registreu un compte nou abans de publicar l'informe.</PleaseLogin>
+    <PurchaseSubscriptionBeforeTrialEnds>Compra una subscripció o afegeix la teva clau de llicència a l'aplicació per continuar utilitzant els productes de Stimulsoft després del període de prova.</PurchaseSubscriptionBeforeTrialEnds>
+    <PurchaseSubscriptionDesignerTrialEnds>Compra una subscripció per continuar utilitzant els productes de Stimulsoft després del període de prova.</PurchaseSubscriptionDesignerTrialEnds>
+    <PurchaseSubscriptionTrialExpired>Compra una subscripció o afegeix la teva clau de llicència a l'aplicació per continuar utilitzant els productes de Stimulsoft. En tancar aquesta finestra també es tanca l'aplicació.</PurchaseSubscriptionTrialExpired>
     <QuotaMaximumComputingCyclesCountExceeded>S'ha superat el màxim de cicles de càlcul.</QuotaMaximumComputingCyclesCountExceeded>
     <QuotaMaximumDataRowsCountExceeded>S'ha superat el màxim de files de dades en una font de dades.</QuotaMaximumDataRowsCountExceeded>
     <QuotaMaximumFileSizeExceeded>S'ha superat la mida màxima de fitxer.</QuotaMaximumFileSizeExceeded>
@@ -2698,18 +2708,26 @@ S'ha enviat un correu electrònic a "{0}". Conté un enllaç per confirmar el vo
     <QuotaMaximumResourceSizeExceeded>S'ha superat la mida màxima del recurs.</QuotaMaximumResourceSizeExceeded>
     <QuotaMaximumUsersCountExceeded>S'ha superat el màxim d'usuaris.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>S'ha superat el màxim d'espais de treball.</QuotaMaximumWorkspacesCountExceeded>
+    <RenewSubscriptionBeforeGracePeriodEnds>La subscripció de {0} ha caducat. Renova-la abans que acabi el període de gràcia.</RenewSubscriptionBeforeGracePeriodEnds>
+    <RenewSubscriptionToGetNewVersions>Renova la subscripció de {0} per continuar rebent les noves versions.</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersionsAgain>Renova la subscripció de {0} per tornar a rebre les noves versions.</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>El planificador no es pot executar a si mateix!</SchedulerCantRunItSelf>
+    <SeatLimitUpgradeBeforeDate>La teva subscripció fa servir més llocs de desenvolupador dels que inclou. Amplia el teu pla abans del {0} per continuar treballant sense interrupcions.</SeatLimitUpgradeBeforeDate>
+    <SeatLimitUpgradeToContinue>La teva subscripció fa servir més llocs de desenvolupador dels que inclou. Amplia el teu pla per continuar. En tancar aquesta finestra també es tanca l'aplicació.</SeatLimitUpgradeToContinue>
     <SessionTimeOut>Temps d'espera de la sessió</SessionTimeOut>
     <SnapshotAlreadyProcessed>La instantània de l'informe ja està processada!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>L'element especificat no és "{0}"!</SpecifiedItemIsNot>
+    <SubscriptionEndedBeforeVersion>La subscripció de {0} va acabar el {1}, abans que sortís aquesta versió. Renova-la per utilitzar aquesta versió.</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>La teva subscripció ha caducat!</SubscriptionExpired>
     <SubscriptionExpiredDate>La teva subscripció caducarà el {0}</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>Caduca d'aquí a {0} dies</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>La teva subscripció ha caducat. Actualitza la teva subscripció per obtenir l'última versió.</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>La subscripció ha caducat</SubscriptionExpiredShort>
+    <SubscriptionIsActiveUntil>La subscripció de {0} ara és activa fins al {1}.</SubscriptionIsActiveUntil>
     <SubscriptionLimitExceeded>La teva subscripció ha superat el límit de llicències de desenvolupador. L'aplicació es tancarà. Millora el teu pla per continuar.</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>Límit de subscripció</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>La teva subscripció utilitza més llicències de desenvolupador de les permeses. Considera millorar el teu pla per continuar treballant sense interrupcions.</SubscriptionLimitWarning>
+    <SubscriptionNowIncludes>Ara la teva subscripció inclou {0}. Gràcies per la compra.</SubscriptionNowIncludes>
     <SubscriptionsOut10>Queden 10 dies perquè caduqui la subscripció!</SubscriptionsOut10>
     <SubscriptionsOut20>El període de subscripció caducarà d'aquí a 20 dies!</SubscriptionsOut20>
     <SuccessfullyRenewed>La teva subscripció s'ha actualitzat correctament!</SuccessfullyRenewed>
@@ -2725,11 +2743,21 @@ S'ha enviat un correu electrònic a "{0}". Conté un enllaç per confirmar el vo
     <VersionCreatedFromItem>Creat a partir de l'element "{0}".</VersionCreatedFromItem>
     <VersionLoadedFromFile>Carregat des del fitxer "{0}".</VersionLoadedFromFile>
     <VersionNewItemCreation>Creació d'un element nou.</VersionNewItemCreation>
+    <VersionNotInSubscription>Aquesta versió no està inclosa a la teva subscripció</VersionNotInSubscription>
     <Warning>Advertiment</Warning>
     <WindowClosePreventWhileUploading>Alguns fitxers encara s'estan carregant. Si tanqueu la pàgina, es perdran. Segur que voleu tancar la pàgina?</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>No s'ha trobat "{0}" amb la clau especificada!</WithSpecifiedKeyIsNotFound>
     <WouldYouLikeToUpdateNow>Vols actualitzar ara?</WouldYouLikeToUpdateNow>
+    <YourGracePeriodEndsInDays>El període de gràcia acaba d'aquí a {0} dies</YourGracePeriodEndsInDays>
+    <YourSubscriptionEndsInDays>La teva subscripció acaba d'aquí a {0} dies</YourSubscriptionEndsInDays>
+    <YourSubscriptionHasBeenBlocked>La teva subscripció s'ha bloquejat</YourSubscriptionHasBeenBlocked>
+    <YourSubscriptionHasBeenRenewed>La teva subscripció s'ha renovat</YourSubscriptionHasBeenRenewed>
+    <YourSubscriptionHasExpired>La teva subscripció ha caducat</YourSubscriptionHasExpired>
+    <YourSubscriptionNeedsAttention>La teva subscripció requereix atenció</YourSubscriptionNeedsAttention>
     <YourTimeSessionHasExpired>La teva sessió de temps ha caducat!</YourTimeSessionHasExpired>
+    <YourTrialEndsInDays>La teva versió de prova acaba d'aquí a {0} dies</YourTrialEndsInDays>
+    <YourTrialEndsToday>La teva versió de prova acaba avui</YourTrialEndsToday>
+    <YourTrialEndsTomorrow>La teva versió de prova acaba demà</YourTrialEndsTomorrow>
     <YourTrialHasExpired>La teva versió de prova ha caducat</YourTrialHasExpired>
     <YourTrialWillExpire>La teva versió de prova caducarà d'aquí a {0} dies.</YourTrialWillExpire>
     <YouUsingTrialVersion>Estàs utilitzant una versió de prova!</YouUsingTrialVersion>
@@ -2739,6 +2767,7 @@ S'ha enviat un correu electrònic a "{0}". Conté un enllaç per confirmar el vo
     <AssemblyLoadedSuccessfully>L'assemblatge s'ha carregat correctament.</AssemblyLoadedSuccessfully>
     <AssemblyNotFound>No és possible trobar l'assembly {0} per utilitzar la connexió {1}!</AssemblyNotFound>
     <Author>Autor</Author>
+    <ChooseDataAdapter>Per connectar-vos a {0}, baixeu un d'aquests paquets NuGet.</ChooseDataAdapter>
     <Dependencies>Dependències:</Dependencies>
     <Download>Descarregar</Download>
     <DownloadAll>Descarregar-ho tot</DownloadAll>

@@ -181,6 +181,7 @@
     <Test>შემოწმება</Test>
     <TryToReconnect>ხელახალი ჩართვის ცდა</TryToReconnect>
     <Up>ზევით</Up>
+    <Update>განახლება</Update>
     <Upgrade>გაუმჯობესება</Upgrade>
     <UpgradeNow>გაუმჯობესება ახლა</UpgradeNow>
     <Upload>ატვირთვა</Upload>
@@ -441,6 +442,7 @@
     <CheckForUpdate>განახლების შემოწმება</CheckForUpdate>
     <Cloud>ღრუბელი</Cloud>
     <Collection>კოლექცია</Collection>
+    <ConfirmEmailAddress>დაადასტურეთ თქვენი ელფოსტის მისამართი</ConfirmEmailAddress>
     <Create>შექმნა</Create>
     <CreateError>შეცდომა რეპორტის შექმნისას!</CreateError>
     <CreateNewCollection>ახალი კოლექციის შექმნა</CreateNewCollection>
@@ -450,7 +452,7 @@
     <DeleteFile>ფაილის წაშლა</DeleteFile>
     <DoNotAskMe>აღარ მკითხოთ</DoNotAskMe>
     <EnglishSearchRequired>გთხოვთ, გამოიყენოთ ინგლისური ენა საძიებო მოთხოვნებისთვის.</EnglishSearchRequired>
-    <EnterUserNameToLogin>შესვლისთვის შეიყვანეთ User Name (email).</EnterUserNameToLogin>
+    <EnterUserNameToLogin>შესვლისთვის შეიყვანეთ User Name (Email).</EnterUserNameToLogin>
     <ExecutionError>გაშვების შეცდომა</ExecutionError>
     <ExpiredDate>ვადის გასვლის თარიღი</ExpiredDate>
     <FileStorageWindowTitleEdit>ფაილების საცავის რედაქტირება</FileStorageWindowTitleEdit>
@@ -544,6 +546,7 @@
     <SaveFile>ფაილის შენახვა</SaveFile>
     <SavingToStimulsoftCloudPleaseWait>რეპორტი ინახება ღრუბელში. გთხოვთ, დაიცადოთ!</SavingToStimulsoftCloudPleaseWait>
     <SearchForOnlineTemplates>ანგარიშების ძებნა ქსელში</SearchForOnlineTemplates>
+    <SendingEmail>წერილის გაგზავნა...</SendingEmail>
     <ShareWindowTitleNew>გაზიარება</ShareWindowTitleNew>
     <ShowAllFiles>ყველა ფაილის ჩვენება</ShowAllFiles>
     <ShowNotificationMessages>შეტყობინებების ჩვენება</ShowNotificationMessages>
@@ -2594,7 +2597,7 @@
     <ActivationServerIsNotAvailableNow>Stimulsoft Activation Server ხელმიუწვდომელია! სცადეთ მოგვიანებით.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>გამოწერის ვადის გასვლის გამო თქვენ არ შეგიძლიათ Stimulsoft Server-ს ამ ვერსიის გააქტიურება! გთხოვთ შეხვიდეთ თქვენი მომხმარებლით და გადაამოწმოთ თქვენთვის ხელმისაწვდომი Stimulsoft Server-ის ბოლო ვერსია.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>აქტივაციის დროს მოხდა შეცდომა. გთხოვთ სცადოთ მოგვიანებით.</ActivationSomeTroublesOccurred>
-    <ActivationTrialExpired>თქვენ შეგიძლიათ განაგრძოთ Stimulsoft Designer-ის გამოყენება, პროგრამული უზრუნველყოფის ყიდვით. </ActivationTrialExpired>
+    <ActivationTrialExpired>თქვენ შეგიძლიათ განაგრძოთ Stimulsoft-ის პროდუქტების გამოყენება პროგრამული უზრუნველყოფის ყიდვით.</ActivationTrialExpired>
     <ActivationTrialExtend1>თუ საჭიროა სატესტო პერიოდის გახანგრძლივება, გთხოვთ</ActivationTrialExtend1>
     <ActivationTrialExtend2>მოგვწერეთ მიზეზი.</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>თქვენი მომხმარებლის სახელი (ელ.ფოსტა) ან პაროლი არასწორია!</ActivationUserNameOrPasswordIsWrong>
@@ -2648,6 +2651,7 @@
     <CertificateNotFound>სერტიფიკატი ვერ მოიძებნა!</CertificateNotFound>
     <CommandTimeOut>ბრძანების შესრულების მოლოდინის მაქსიმალური დრო!</CommandTimeOut>
     <Congratulations>გილოცავთ!</Congratulations>
+    <ContentNeedsAdditionalPackage>ამ შიგთავსს დამატებითი პაკეტი სჭირდება</ContentNeedsAdditionalPackage>
     <DeveloperInformation>ინფორმაცია დეველოპერებისთვის</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>დასრულების თარიღი უნდა იყოს მიმდინარე თარიღზე მეტი!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>დასრულების თარიღი უნდა იყოს დაწყების თარიღზე მეტი!</EndDateShouldBeGreaterThanStartDate>
@@ -2656,6 +2660,8 @@
     <Error>შეცდომა</Error>
     <ExecutionError>გაშვების შეცდომა</ExecutionError>
     <ExpressionValidationFailed>გამოსახულების შემოწმება ვერ მოხერხდა.</ExpressionValidationFailed>
+    <FileCreatedInNewerVersion>ფაილი შექმნილია {0} ვერსიაში, თქვენ კი იყენებთ {1} ვერსიას. გასახსნელად განაახლეთ უახლეს ვერსიამდე.</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>ამ ფაილს უფრო ახალი ვერსია სჭირდება</FileNeedsNewerVersion>
     <GracePeriod>თქვენი გამოწერის საშეღავათო პერიოდი იწურება {0} დღეში.</GracePeriod>
     <IsIdentical>"{0}" და "{1}" იდენტურია."</IsIdentical>
     <IsNotAuthorized>არ არის წვდომა "{0}"-ზე!</IsNotAuthorized>
@@ -2681,6 +2687,7 @@
     <MinimumValue>მინიმუმი {0}.</MinimumValue>
     <NewDesignerAvailable>Stimulsoft Designer {0} ხელმისაწვდომია.</NewDesignerAvailable>
     <NewProduct>ახალი პროდუქტი დამატებულია თქვენს გამოწერაში!</NewProduct>
+    <NewProductAddedToSubscription>გამოწერას დაემატა ახალი პროდუქტი</NewProductAddedToSubscription>
     <NewVersionsAvailable>ხელმისაწვდომია ახალი ვერსია!</NewVersionsAvailable>
     <NotificationConnectPackage>კორექტული მუშაობისთვის ჩართეთ პაკეტი "{0}".</NotificationConnectPackage>
     <NotificationFailed>არასწორი შედეგი!</NotificationFailed>
@@ -2741,6 +2748,9 @@
     <OutOfRange>დიაპაზონს გარეთ ("{0}")!</OutOfRange>
     <ParsingCommandException>ბრძანების დამუშავების გამონაკლსი აღნიშნულ xml ფაილში: {0}</ParsingCommandException>
     <PleaseLogin>რეპორტის პუბლიკაციამდე გთხოვთ შეხვიდეთ სისტემაში Stimulsoft-ში რეგისტრირებული მონაცემების მეშვეობით, ან დაარეგისტრირეთ ახალი მომხმარებელი.</PleaseLogin>
+    <PurchaseSubscriptionBeforeTrialEnds>შეიძინეთ გამოწერა ან დაამატეთ სალიცენზიო გასაღები აპლიკაციაში, რათა საცდელი პერიოდის შემდეგაც გამოიყენოთ Stimulsoft-ის პროდუქტები.</PurchaseSubscriptionBeforeTrialEnds>
+    <PurchaseSubscriptionDesignerTrialEnds>შეიძინეთ გამოწერა, რათა საცდელი პერიოდის შემდეგაც გამოიყენოთ Stimulsoft-ის პროდუქტები.</PurchaseSubscriptionDesignerTrialEnds>
+    <PurchaseSubscriptionTrialExpired>შეიძინეთ გამოწერა ან დაამატეთ სალიცენზიო გასაღები აპლიკაციაში, რათა გააგრძელოთ Stimulsoft-ის პროდუქტების გამოყენება. ამ ფანჯრის დახურვა აპლიკაციასაც დახურავს.</PurchaseSubscriptionTrialExpired>
     <QuotaAvailableSpaceAmountExceeded>ხელმისაწვდომი ადგილი ამოწურულია</QuotaAvailableSpaceAmountExceeded>
     <QuotaMaximumBandwidthExceeded>ტრაფიკის ლიმიტი მიღწეულია.</QuotaMaximumBandwidthExceeded>
     <QuotaMaximumComputingCyclesCountExceeded>გამოყენებულია გამოთვლითი ციკლების მაქსიმალური რაოდენობა.</QuotaMaximumComputingCyclesCountExceeded>
@@ -2765,18 +2775,26 @@
     <QuotaMaximumWorkspaceCountExceeded>სამუშაო განზომილებების მაქსიმალური რაოდენობა გადაჭარბებულია.</QuotaMaximumWorkspaceCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>გამოყენებულია სამუშაო გარემოებების მაქსიმალური რაოდენობა.</QuotaMaximumWorkspacesCountExceeded>
     <QuotasSizeLimitIsExceeded>ხელმისაწვდომი ადგილის ზომე გადაჭარბებულია, დაკავებულია "{0}" Gb!</QuotasSizeLimitIsExceeded>
+    <RenewSubscriptionBeforeGracePeriodEnds>{0}-ის გამოწერას ვადა გაუვიდა. განაახლეთ ის საშეღავათო პერიოდის დასრულებამდე.</RenewSubscriptionBeforeGracePeriodEnds>
+    <RenewSubscriptionToGetNewVersions>განაახლეთ {0}-ის გამოწერა, რათა კვლავ მიიღოთ ახალი ვერსიები.</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersionsAgain>განაახლეთ {0}-ის გამოწერა, რათა ისევ მიიღოთ ახალი ვერსიები.</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>დამგეგმავს არ შეუძლია საკუთარი თავის გამოძახება!</SchedulerCantRunItSelf>
+    <SeatLimitUpgradeBeforeDate>თქვენი გამოწერა იყენებს იმაზე მეტ დეველოპერის ადგილს, ვიდრე მოიცავს. განაახლეთ გეგმა {0}-მდე, რათა შეუფერხებლად განაგრძოთ მუშაობა.</SeatLimitUpgradeBeforeDate>
+    <SeatLimitUpgradeToContinue>თქვენი გამოწერა იყენებს იმაზე მეტ დეველოპერის ადგილს, ვიდრე მოიცავს. გასაგრძელებლად განაახლეთ გეგმა. ამ ფანჯრის დახურვა აპლიკაციასაც დახურავს.</SeatLimitUpgradeToContinue>
     <SessionTimeOut>სესიის დრო ამოწურულია</SessionTimeOut>
     <SnapshotAlreadyProcessed>რეპორტის snapshot-ი უკვე შექმნილია!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>მითითებული ელემენტი ვერ მოიძებნა "{0}"!</SpecifiedItemIsNot>
+    <SubscriptionEndedBeforeVersion>{0}-ის გამოწერა დასრულდა {1}, ამ ვერსიის გამოსვლამდე. განაახლეთ ის, რათა გამოიყენოთ ეს ვერსია.</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>თქვენს გამოწერას ვადა გაუვიდა!</SubscriptionExpired>
     <SubscriptionExpiredDate>თქვენი გამოწერის ვადა იწურება {0}</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>ვადა იწურება {0} დღეში</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>თქვენი გამოწერა ამოიწურა. განაახლეთ თქვენი გამოწერა უახლესი ვერსიის მისაღებად.</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>გამოწერის ვადა ამოიწურა</SubscriptionExpiredShort>
+    <SubscriptionIsActiveUntil>{0}-ის გამოწერა ახლა მოქმედებს {1}-მდე.</SubscriptionIsActiveUntil>
     <SubscriptionLimitExceeded>თქვენმა გამოწერამ გადააჭარბა დეველოპერების დასაშვებ რაოდენობას. აპლიკაცია დაიხურება. გასაგრძელებლად გთხოვთ განაახლოთ თქვენი გეგმა.</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>გამოწერის ლიმიტი</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>თქვენი გამოწერა იყენებს ნებადართულზე მეტ დეველოპერს. გთხოვთ განიხილოთ გეგმის განახლება, რათა მუშაობა შეფერხების გარეშე გააგრძელოთ.</SubscriptionLimitWarning>
+    <SubscriptionNowIncludes>თქვენი გამოწერა ახლა მოიცავს: {0}. გმადლობთ შეძენისთვის.</SubscriptionNowIncludes>
     <SubscriptionsOut10>დარჩენილია 10 დღე თქვენი გამოწერის ვადის გასვლამდე! </SubscriptionsOut10>
     <SubscriptionsOut20>გამოწერის ვადა იწურება 20 დღეში!</SubscriptionsOut20>
     <SuccessfullyRenewed>თქვენი გამოწერა წარმატებით განახლდა!</SuccessfullyRenewed>
@@ -2792,11 +2810,21 @@
     <VersionCreatedFromItem>შექმნილია "{0}" ელემენტიდან.</VersionCreatedFromItem>
     <VersionLoadedFromFile>ჩატვირტულია "{0}" ფაილიდან.</VersionLoadedFromFile>
     <VersionNewItemCreation>ახალი ელემენტის შექმნა.</VersionNewItemCreation>
+    <VersionNotInSubscription>ეს ვერსია არ შედის თქვენს გამოწერაში</VersionNotInSubscription>
     <Warning>გაფრთხილება</Warning>
     <WindowClosePreventWhileUploading>მიმდინარეობს ფაილების ატვირთვა. გვერდის დახურვის შემთხვევაში აღნიშნული ფაილები დაიკარგება. დარწმუნებული ხართ, რომ გსურთ გვერდის დახურვა?</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>"{0}" მითითებული გასაღებით ვერ მოიძებნა!</WithSpecifiedKeyIsNotFound>
     <WouldYouLikeToUpdateNow>გსურთ ახლა განაახლოთ?</WouldYouLikeToUpdateNow>
+    <YourGracePeriodEndsInDays>საშეღავათო პერიოდი მთავრდება {0} დღეში</YourGracePeriodEndsInDays>
+    <YourSubscriptionEndsInDays>გამოწერის ვადა მთავრდება {0} დღეში</YourSubscriptionEndsInDays>
+    <YourSubscriptionHasBeenBlocked>თქვენი გამოწერა დაბლოკილია</YourSubscriptionHasBeenBlocked>
+    <YourSubscriptionHasBeenRenewed>გამოწერა განახლდა</YourSubscriptionHasBeenRenewed>
+    <YourSubscriptionHasExpired>გამოწერას ვადა გაუვიდა</YourSubscriptionHasExpired>
+    <YourSubscriptionNeedsAttention>თქვენი გამოწერა ყურადღებას საჭიროებს</YourSubscriptionNeedsAttention>
     <YourTimeSessionHasExpired>თქვენი სესიის დრო ამოიწურა!</YourTimeSessionHasExpired>
+    <YourTrialEndsInDays>საცდელი ვერსიის ვადა მთავრდება {0} დღეში</YourTrialEndsInDays>
+    <YourTrialEndsToday>საცდელი ვერსიის ვადა დღეს მთავრდება</YourTrialEndsToday>
+    <YourTrialEndsTomorrow>საცდელი ვერსიის ვადა ხვალ მთავრდება</YourTrialEndsTomorrow>
     <YourTrialHasExpired>თქვენი საცდელი ვერსიის ვადა ამოიწურა</YourTrialHasExpired>
     <YourTrialWillExpire>საცდელი ვერსიის ვადა ამოიწურება {0} დღეში.</YourTrialWillExpire>
     <YouUsingTrialVersion>თქვენ იყენებთ საცდელ ვერსიას!</YouUsingTrialVersion>
@@ -2806,6 +2834,7 @@
     <AssemblyLoadedSuccessfully>Assembly წარმატებით ჩაიტვირთა.</AssemblyLoadedSuccessfully>
     <AssemblyNotFound>შეუძლებელია {0} assembly-ის პოვნა {1} კავშირის გამოყენებით!</AssemblyNotFound>
     <Author>ავტორი</Author>
+    <ChooseDataAdapter>{0}-თან დასაკავშირებლად გადმოწერეთ ერთ-ერთი ამ NuGet პაკეტიდან.</ChooseDataAdapter>
     <Dependencies>დამოკიდებულებები:</Dependencies>
     <Download>ჩამოტვირთვა</Download>
     <DownloadAll>ყველას ჩამოტვირთვა</DownloadAll>

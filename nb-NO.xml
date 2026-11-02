@@ -181,6 +181,7 @@
     <Test>Test</Test>
     <TryToReconnect>Prøv å koble til igjen</TryToReconnect>
     <Up>Opp</Up>
+    <Update>Oppdater</Update>
     <Upgrade>Oppgrader</Upgrade>
     <UpgradeNow>Oppgrader nå</UpgradeNow>
     <Upload>Last opp</Upload>
@@ -440,6 +441,7 @@
     <CheckForUpdate>Sjekk etter oppdatering</CheckForUpdate>
     <Cloud>Sky</Cloud>
     <Collection>Samling</Collection>
+    <ConfirmEmailAddress>Bekreft e-postadressen din</ConfirmEmailAddress>
     <Create>Lag</Create>
     <CreateError>Feil ved lagring av rapport!</CreateError>
     <CreateNewCollection>Lag ny samling</CreateNewCollection>
@@ -543,6 +545,7 @@
     <SaveFile>Lagre fil</SaveFile>
     <SavingToStimulsoftCloudPleaseWait>Lagrer rapporten til Stimulsoft Cloud. Vennligst vent!</SavingToStimulsoftCloudPleaseWait>
     <SearchForOnlineTemplates>Søk etter maler på nett</SearchForOnlineTemplates>
+    <SendingEmail>Sender e-post...</SendingEmail>
     <ShareWindowTitleNew>Del</ShareWindowTitleNew>
     <ShowAllFiles>Vis alle filer</ShowAllFiles>
     <ShowNotificationMessages>Vis melding</ShowNotificationMessages>
@@ -2567,7 +2570,7 @@ E-posten ble sendt til "{0}". Den inneholder en lenke for å bekrefte registreri
     <ActivationServerIsNotAvailableNow>Stimulsofts aktiveringsserver er ikke tilgjengelig for øyeblikket! Vennligst prøv igjen senere.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>Du kan ikke aktivere denne versjonen av Stimulsoft Server fordi abonnementet er utløpt! Vennligst logg inn på kontoen din og sjekk hvilken versjon av Stimulsoft Server du kan installere og aktivere.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>Det oppstod en feil under aktivering. Vennligst prøv igjen senere.</ActivationSomeTroublesOccurred>
-    <ActivationTrialExpired>Du kan fortsette å bruke Stimulsoft Designer ved å kjøpe programvaren.</ActivationTrialExpired>
+    <ActivationTrialExpired>Du kan fortsette å bruke Stimulsoft-produktene ved å kjøpe programvaren.</ActivationTrialExpired>
     <ActivationTrialExtend1>Hvis du ønsker å forlenge prøveperioden, </ActivationTrialExtend1>
     <ActivationTrialExtend2>fortell oss hvorfor.</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>Ditt brukernavn (e-post) eller passord er feil!</ActivationUserNameOrPasswordIsWrong>
@@ -2615,12 +2618,15 @@ E-posten ble sendt til "{0}". Den inneholder en lenke for å bekrefte registreri
     <CertificateNotFound>Sertifikat ikke funnet!</CertificateNotFound>
     <CommandTimeOut>Ventetiden for å utføre kommandoen er utløpt!</CommandTimeOut>
     <Congratulations>Gratulerer!</Congratulations>
+    <ContentNeedsAdditionalPackage>Dette innholdet trenger en tilleggspakke</ContentNeedsAdditionalPackage>
     <DeveloperInformation>Utviklerinformasjon</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>Sluttdatoen må være større enn inneværende dato!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>Sluttdatoen må være større enn startdatoen!</EndDateShouldBeGreaterThanStartDate>
     <Error>Feil</Error>
     <ExecutionError>Eksekveringsfeil</ExecutionError>
     <ExpressionValidationFailed>Uttrykksvalidering mislyktes.</ExpressionValidationFailed>
+    <FileCreatedInNewerVersion>Filen ble opprettet i versjon {0}, og du bruker versjon {1}. Oppdater til den nyeste versjonen for å åpne den.</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>Denne filen krever en nyere versjon</FileNeedsNewerVersion>
     <GracePeriod>Prøveperioden utløper om {0} dager.</GracePeriod>
     <IsIdentical>"{0}" og "{1}" er identiske."</IsIdentical>
     <IsNotAuthorized>Ingen adgang til "{0}"!</IsNotAuthorized>
@@ -2645,6 +2651,7 @@ E-posten ble sendt til "{0}". Den inneholder en lenke for å bekrefte registreri
     <MinimumValue>Minimum er {0}.</MinimumValue>
     <NewDesignerAvailable>Stimulsoft Designer {0} er tilgjengelig.</NewDesignerAvailable>
     <NewProduct>Et nytt produkt er lagt til i abonnementet ditt!</NewProduct>
+    <NewProductAddedToSubscription>Et nytt produkt er lagt til i abonnementet ditt</NewProductAddedToSubscription>
     <NewVersionsAvailable>Ny versjon er tilgjengelig!</NewVersionsAvailable>
     <NotificationConnectPackage>Koble til pakken "{0}" for korrekt funksjon.</NotificationConnectPackage>
     <NotificationFailed>Feilslått resultat!</NotificationFailed>
@@ -2694,6 +2701,9 @@ E-posten ble sendt til "{0}". Den inneholder en lenke for å bekrefte registreri
     <OutOfRange>Utenfor rekkevidde ("{0}")!</OutOfRange>
     <ParsingCommandException>Feil ved prosessering av kommandoen i aktuell xml: {0}:</ParsingCommandException>
     <PleaseLogin>Logg inn med dine Stimulsoft-kontodetaljer eller registrer en ny konto før du publiserer rapporten.</PleaseLogin>
+    <PurchaseSubscriptionBeforeTrialEnds>Kjøp et abonnement eller legg til lisensnøkkelen din i programmet for å fortsette å bruke Stimulsoft-produktene etter prøveperioden.</PurchaseSubscriptionBeforeTrialEnds>
+    <PurchaseSubscriptionDesignerTrialEnds>Kjøp et abonnement for å fortsette å bruke Stimulsoft-produktene etter prøveperioden.</PurchaseSubscriptionDesignerTrialEnds>
+    <PurchaseSubscriptionTrialExpired>Kjøp et abonnement eller legg til lisensnøkkelen din i programmet for å fortsette å bruke Stimulsoft-produktene. Når du lukker dette vinduet, lukkes også programmet.</PurchaseSubscriptionTrialExpired>
     <QuotaMaximumComputingCyclesCountExceeded>Maksimum antall beregninger overskredet.</QuotaMaximumComputingCyclesCountExceeded>
     <QuotaMaximumDataRowsCountExceeded>Maksimum antall datarader i en datakilde er overskredet.</QuotaMaximumDataRowsCountExceeded>
     <QuotaMaximumFileSizeExceeded>Maksimum filstørrelse er overskredet.</QuotaMaximumFileSizeExceeded>
@@ -2704,18 +2714,26 @@ E-posten ble sendt til "{0}". Den inneholder en lenke for å bekrefte registreri
     <QuotaMaximumResourceSizeExceeded>Maksimal ressursstørrelse overskredet.</QuotaMaximumResourceSizeExceeded>
     <QuotaMaximumUsersCountExceeded>Maksimum antall brukere overskredet.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>Maksimum antall arbeidsområder overskredet.</QuotaMaximumWorkspacesCountExceeded>
+    <RenewSubscriptionBeforeGracePeriodEnds>Abonnementet på {0} er utløpt. Forny det før fornyelsesfristen utløper.</RenewSubscriptionBeforeGracePeriodEnds>
+    <RenewSubscriptionToGetNewVersions>Forny abonnementet på {0} for å fortsette å få nye versjoner.</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersionsAgain>Forny abonnementet på {0} for å få nye versjoner igjen.</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>Planleggeren kan ikke kjøre seg selv!</SchedulerCantRunItSelf>
+    <SeatLimitUpgradeBeforeDate>Abonnementet ditt bruker flere utviklerplasser enn det omfatter. Oppgrader planen før {0} for å fortsette å jobbe uten avbrudd.</SeatLimitUpgradeBeforeDate>
+    <SeatLimitUpgradeToContinue>Abonnementet ditt bruker flere utviklerplasser enn det omfatter. Oppgrader planen for å fortsette. Når du lukker dette vinduet, lukkes også programmet.</SeatLimitUpgradeToContinue>
     <SessionTimeOut>Sesjonen ble tidsavbrutt</SessionTimeOut>
     <SnapshotAlreadyProcessed>Rapport-øyeblikksbildet har allerede blitt behandlet!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>Det angitte elementet er ikke "{0}"!</SpecifiedItemIsNot>
+    <SubscriptionEndedBeforeVersion>Abonnementet på {0} utløp {1}, før denne versjonen kom ut. Forny det for å bruke denne versjonen.</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>Abonnementet ditt er utløpt!</SubscriptionExpired>
     <SubscriptionExpiredDate>Abonnementet utløper den {0}</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>Utløper om {0} dager</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Abonnementet ditt har utløpt. Oppdater for å få siste versjon.</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>Abonnement utløpt</SubscriptionExpiredShort>
+    <SubscriptionIsActiveUntil>Abonnementet på {0} er nå aktivt til {1}.</SubscriptionIsActiveUntil>
     <SubscriptionLimitExceeded>Abonnementet ditt har overskredet grensen for utviklerplasser. Programmet vil lukkes. Oppgrader planen din for å fortsette.</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>Abonnementsgrense</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>Abonnementet ditt bruker flere utviklerplasser enn tillat. Vurder å oppgradere planen din for å kunne fortsette uten avbrudd.</SubscriptionLimitWarning>
+    <SubscriptionNowIncludes>Abonnementet ditt inkluderer nå {0}. Takk for kjøpet.</SubscriptionNowIncludes>
     <SubscriptionsOut10>10 dager til abonnementet utløper!</SubscriptionsOut10>
     <SubscriptionsOut20>Abonnements-perioden utløper om 20 dager!</SubscriptionsOut20>
     <SuccessfullyRenewed>Oppdateringen av abonnementet ditt var vellykket!</SuccessfullyRenewed>
@@ -2731,11 +2749,21 @@ E-posten ble sendt til "{0}". Den inneholder en lenke for å bekrefte registreri
     <VersionCreatedFromItem>Laget fra elementet "{0}".</VersionCreatedFromItem>
     <VersionLoadedFromFile>Lastet fra filen "{0}".</VersionLoadedFromFile>
     <VersionNewItemCreation>Lage nytt element.</VersionNewItemCreation>
+    <VersionNotInSubscription>Denne versjonen er ikke inkludert i abonnementet ditt</VersionNotInSubscription>
     <Warning>Advarsel</Warning>
     <WindowClosePreventWhileUploading>Noen filer lastes opp nå, hvis du lukker siden mister du dem. Er du sikker på at du vil lukke siden?</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>"{0}" med denne nøkkelen finnes ikke!</WithSpecifiedKeyIsNotFound>
     <WouldYouLikeToUpdateNow>Vil du oppdatere nå?</WouldYouLikeToUpdateNow>
+    <YourGracePeriodEndsInDays>Fornyelsesfristen utløper om {0} dager</YourGracePeriodEndsInDays>
+    <YourSubscriptionEndsInDays>Abonnementet ditt slutter om {0} dager</YourSubscriptionEndsInDays>
+    <YourSubscriptionHasBeenBlocked>Abonnementet ditt er blokkert</YourSubscriptionHasBeenBlocked>
+    <YourSubscriptionHasBeenRenewed>Abonnementet ditt er fornyet</YourSubscriptionHasBeenRenewed>
+    <YourSubscriptionHasExpired>Abonnementet ditt er utløpt</YourSubscriptionHasExpired>
+    <YourSubscriptionNeedsAttention>Abonnementet ditt trenger oppmerksomhet</YourSubscriptionNeedsAttention>
     <YourTimeSessionHasExpired>Tidssesjonen din er utløpt!</YourTimeSessionHasExpired>
+    <YourTrialEndsInDays>Prøveperioden din slutter om {0} dager</YourTrialEndsInDays>
+    <YourTrialEndsToday>Prøveperioden din slutter i dag</YourTrialEndsToday>
+    <YourTrialEndsTomorrow>Prøveperioden din slutter i morgen</YourTrialEndsTomorrow>
     <YourTrialHasExpired>Din prøveperiode har utløpt</YourTrialHasExpired>
     <YourTrialWillExpire>Din prøveperiode utløper om {0} dager.</YourTrialWillExpire>
     <YouUsingTrialVersion>Du bruker en prøveversjon!</YouUsingTrialVersion>
@@ -2745,6 +2773,7 @@ E-posten ble sendt til "{0}". Den inneholder en lenke for å bekrefte registreri
     <AssemblyLoadedSuccessfully>Vellykket lasting av samlingen.</AssemblyLoadedSuccessfully>
     <AssemblyNotFound>Det er ikke mulig å finne {0} samlingen for å bruke {1}-tilkoblingen!</AssemblyNotFound>
     <Author>Forfatter</Author>
+    <ChooseDataAdapter>For å koble til {0}, last ned en av disse NuGet-pakkene.</ChooseDataAdapter>
     <Dependencies>Avhengigheter:</Dependencies>
     <Download>Last ned</Download>
     <DownloadAll>Last ned alle</DownloadAll>

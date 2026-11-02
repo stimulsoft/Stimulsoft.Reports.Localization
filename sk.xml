@@ -21,7 +21,7 @@
     <DayThursday>štvrtok</DayThursday>
     <DayTuesday>utorok</DayTuesday>
     <DayWednesday>streda</DayWednesday>
-    <Email>Email:</Email>
+    <Email>E-mail:</Email>
     <EmailOptions>Možnosti</EmailOptions>
     <FirstPage>Prvá strana</FirstPage>
     <Hours>Hodiny</Hours>
@@ -181,7 +181,8 @@
     <Test>Test</Test>
     <TryToReconnect>Skúste sa znova pripojiť</TryToReconnect>
     <Up>Hore</Up>
-    <Upgrade>Aktualizovať</Upgrade>
+    <Update>Aktualizovať</Update>
+    <Upgrade>Rozšíriť</Upgrade>
     <UpgradeNow>Aktualizovať teraz</UpgradeNow>
     <Upload>Nahrať</Upload>
     <Waiting>Čakať</Waiting>
@@ -440,6 +441,7 @@
     <CheckForUpdate>Skontrolovať aktualizácie</CheckForUpdate>
     <Cloud>Cloud</Cloud>
     <Collection>Kolekcia</Collection>
+    <ConfirmEmailAddress>Potvrďte svoju e-mailovú adresu</ConfirmEmailAddress>
     <Create>Vytvoriť</Create>
     <CreateError>Chyba počas vytvárania zostavy!</CreateError>
     <CreateNewCollection>Vytvoriť novú kolekciu</CreateNewCollection>
@@ -543,6 +545,7 @@
     <SaveFile>Uložiť súbor</SaveFile>
     <SavingToStimulsoftCloudPleaseWait>Ukladám zostavu do Stimulsoft cloudu. Prosím čakajte!</SavingToStimulsoftCloudPleaseWait>
     <SearchForOnlineTemplates>Hľadať šablóny online</SearchForOnlineTemplates>
+    <SendingEmail>Odosiela sa e-mail...</SendingEmail>
     <ShareWindowTitleNew>Zdieľanie</ShareWindowTitleNew>
     <ShowAllFiles>Ukázať všetky súbory</ShowAllFiles>
     <ShowNotificationMessages>Ukázať notifikačné správy</ShowNotificationMessages>
@@ -898,7 +901,7 @@
     <ConnectionSuccessfull>Pripojenie bolo úspešné</ConnectionSuccessfull>
     <Continue>Pokračovať</Continue>
     <DecryptionError>Chyba dekódovania: Zlé heslo alebo poškodený súbor.</DecryptionError>
-    <EmailSuccessfullySent>Email bol úspešne poslaný.</EmailSuccessfullySent>
+    <EmailSuccessfullySent>E-mail bol úspešne poslaný.</EmailSuccessfullySent>
     <ErrorAtSaving>Chyba pri ukladaní</ErrorAtSaving>
     <ErrorCode>Chyba pri ukladaní. Kód chyby: {0}</ErrorCode>
     <ErrorServer>Chyba pri ukladaní. Server neodpovedá.</ErrorServer>
@@ -2579,7 +2582,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <ActivationServerIsNotAvailableNow>Stimulsoft Activation Server momentálne nie je k dispozícii! Skúste prosím neskôr.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>Nie je možné aktivovať túto verziu Stimulsoft Server, pretože vaše predplatné vypršalo! Prosím, prihláste sa k svojmu účtu a môžete zistiť, akú verziu Stimulsoft Server môžete inštalovať a aktivovať.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>Počas aktivácie došlo k chybe. Prosím skúste neskôr.</ActivationSomeTroublesOccurred>
-    <ActivationTrialExpired>Stimulsoft Designer môžete naďalej používať zakúpením softvéru.</ActivationTrialExpired>
+    <ActivationTrialExpired>Produkty Stimulsoft môžete naďalej používať zakúpením softvéru.</ActivationTrialExpired>
     <ActivationTrialExtend1>Ak máte záujem o predĺženie skúšobnej verzie, prosím </ActivationTrialExtend1>
     <ActivationTrialExtend2>povedzte nám prečo.</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>Vaše užívateľské meno (e-mail) alebo heslo nie je správne!</ActivationUserNameOrPasswordIsWrong>
@@ -2627,12 +2630,15 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <CertificateNotFound>Certifikát sa nenašiel!</CertificateNotFound>
     <CommandTimeOut>Čas čakania na spracovanie príkazu uplynul!</CommandTimeOut>
     <Congratulations>Gratulujeme!</Congratulations>
+    <ContentNeedsAdditionalPackage>Tento obsah vyžaduje ďalší balík</ContentNeedsAdditionalPackage>
     <DeveloperInformation>Informácie pre vývojárov</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>Dátum do by mal byť väčší ako aktuálny dátum!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>Dátum do by mal byť väčší ako dátum od!</EndDateShouldBeGreaterThanStartDate>
     <Error>Chyba</Error>
     <ExecutionError>Execution error</ExecutionError>
     <ExpressionValidationFailed>Overenie výrazu zlyhalo.</ExpressionValidationFailed>
+    <FileCreatedInNewerVersion>Súbor bol vytvorený vo verzii {0} a vy používate verziu {1}. Ak ho chcete otvoriť, aktualizujte na najnovšiu verziu.</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>Tento súbor vyžaduje novšiu verziu</FileNeedsNewerVersion>
     <GracePeriod>Ochranná lehota vášho predplatného uplynie o {0} dní.</GracePeriod>
     <IsIdentical>"{0}" a "{1}" sú identické."</IsIdentical>
     <IsNotAuthorized>Bez prístupu na "{0}"!</IsNotAuthorized>
@@ -2657,6 +2663,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <MinimumValue>Minimum je {0}.</MinimumValue>
     <NewDesignerAvailable>K dispozícii je Stimulsoft Designer {0}.</NewDesignerAvailable>
     <NewProduct>Do vášho predplatného bol pridaný nový produkt!</NewProduct>
+    <NewProductAddedToSubscription>Do predplatného bol pridaný nový produkt</NewProductAddedToSubscription>
     <NewVersionsAvailable>K dispozícii je nová verzia!</NewVersionsAvailable>
     <NotificationConnectPackage>Pre správnu prácu pripojte balíček „{0}“.</NotificationConnectPackage>
     <NotificationFailed>Poškodený výsledok!</NotificationFailed>
@@ -2706,6 +2713,9 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <OutOfRange>Mimo rozsah ("{0}")!</OutOfRange>
     <ParsingCommandException>Nastala výnimka pri spracovaní príkazu z daného xml: {0}</ParsingCommandException>
     <PleaseLogin>Pred zverejnením zostavy sa prihláste pomocou prihlasovacích údajov účtu Stimulsoft alebo si zaregistrujte nový účet.</PleaseLogin>
+    <PurchaseSubscriptionBeforeTrialEnds>Kúpte si predplatné alebo pridajte do aplikácie svoj licenčný kľúč, aby ste mohli produkty Stimulsoft používať aj po skončení skúšobnej lehoty.</PurchaseSubscriptionBeforeTrialEnds>
+    <PurchaseSubscriptionDesignerTrialEnds>Kúpte si predplatné, aby ste mohli produkty Stimulsoft používať aj po skončení skúšobnej lehoty.</PurchaseSubscriptionDesignerTrialEnds>
+    <PurchaseSubscriptionTrialExpired>Kúpte si predplatné alebo pridajte do aplikácie svoj licenčný kľúč, aby ste mohli produkty Stimulsoft naďalej používať. Zatvorením tohto okna sa zatvorí aj aplikácia.</PurchaseSubscriptionTrialExpired>
     <QuotaMaximumComputingCyclesCountExceeded>Maximálny počet pracovných cyklov bol prekročený.</QuotaMaximumComputingCyclesCountExceeded>
     <QuotaMaximumDataRowsCountExceeded>Maximálny počet dátových riadkov v jednom dátovom zdroji bol prekročený.</QuotaMaximumDataRowsCountExceeded>
     <QuotaMaximumFileSizeExceeded>Maximálan veľkosť súboru bola prekročená.</QuotaMaximumFileSizeExceeded>
@@ -2716,18 +2726,26 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <QuotaMaximumResourceSizeExceeded>Bola prekročená maximálna veľkosť zdroja.</QuotaMaximumResourceSizeExceeded>
     <QuotaMaximumUsersCountExceeded>Maximálny počet užívateľov bol prekročený.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>Maximálny počet pracovných priestorov bol prekročený.</QuotaMaximumWorkspacesCountExceeded>
+    <RenewSubscriptionBeforeGracePeriodEnds>Predplatné {0} skončilo. Obnovte si ho pred koncom ochrannej lehoty.</RenewSubscriptionBeforeGracePeriodEnds>
+    <RenewSubscriptionToGetNewVersions>Obnovte si predplatné {0}, aby ste aj naďalej dostávali nové verzie.</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersionsAgain>Obnovte si predplatné {0}, aby ste opäť dostávali nové verzie.</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>Plánovač nemôže byť cyklicky spustený!</SchedulerCantRunItSelf>
+    <SeatLimitUpgradeBeforeDate>Vaše predplatné využíva viac vývojárskych miest, než zahŕňa. Rozšírte svoj plán do {0}, aby ste mohli pracovať bez prerušenia.</SeatLimitUpgradeBeforeDate>
+    <SeatLimitUpgradeToContinue>Vaše predplatné využíva viac vývojárskych miest, než zahŕňa. Ak chcete pokračovať, rozšírte svoj plán. Zatvorením tohto okna sa zatvorí aj aplikácia.</SeatLimitUpgradeToContinue>
     <SessionTimeOut>Časový limit pre reláciu (session)</SessionTimeOut>
     <SnapshotAlreadyProcessed>Snímka zostavy je práve spracovávaná!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>Daná položka nie je "{0}"!</SpecifiedItemIsNot>
+    <SubscriptionEndedBeforeVersion>Predplatné {0} skončilo {1}, ešte pred vydaním tejto verzie. Obnovte si ho, aby ste mohli túto verziu používať.</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>Vaše predplatné skončilo!</SubscriptionExpired>
     <SubscriptionExpiredDate>Vaše predplatné vyprší o {0}</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>Platnosť vyprší o {0} dní</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Platnosť predplatného vypršala. Aktualizujte svoje predplatné a získajte poslednú verziu.</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>Platnosť predplatného vypršala</SubscriptionExpiredShort>
+    <SubscriptionIsActiveUntil>Predplatné {0} je teraz platné do {1}.</SubscriptionIsActiveUntil>
     <SubscriptionLimitExceeded>Vaše predplatné prekročilo povolený počet vývojárskych licencií. Aplikácia bude zatvorená. Ak chcete pokračovať, inovujte svoj plán.</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>Limit predplatného</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>Vaše predplatné používa viac vývojárskych licencií, než je povolené. Zvážte inováciu svojho plánu, aby ste mohli pokračovať v práci bez prerušenia.</SubscriptionLimitWarning>
+    <SubscriptionNowIncludes>Vaše predplatné teraz zahŕňa {0}. Ďakujeme za nákup.</SubscriptionNowIncludes>
     <SubscriptionsOut10>Zostáva 10 dní do skončenia vášho predplatného!</SubscriptionsOut10>
     <SubscriptionsOut20>Perióda predplatného skončí v priebehu 20 dní!</SubscriptionsOut20>
     <SuccessfullyRenewed>Vaše predplatné bolo úspešne obnovené!</SuccessfullyRenewed>
@@ -2743,11 +2761,21 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <VersionCreatedFromItem>Vytvorené z položky "{0}".</VersionCreatedFromItem>
     <VersionLoadedFromFile>Nahrané zo súboru "{0}".</VersionLoadedFromFile>
     <VersionNewItemCreation>Vytvorenie novej položky.</VersionNewItemCreation>
+    <VersionNotInSubscription>Táto verzia nie je súčasťou vášho predplatného</VersionNotInSubscription>
     <Warning>Upozornenie</Warning>
     <WindowClosePreventWhileUploading>Niektoré súbory sa nahrávajú práve teraz. Ak zatvoríte stránku stratia sa. Ste si istí, že chcete zatvoriť stránku?</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>Položka "{0}" s daným kľúčom sa nenašla!</WithSpecifiedKeyIsNotFound>
     <WouldYouLikeToUpdateNow>Naozaj chcete aktualizovať?</WouldYouLikeToUpdateNow>
+    <YourGracePeriodEndsInDays>Ochranná lehota končí o {0} dní</YourGracePeriodEndsInDays>
+    <YourSubscriptionEndsInDays>Predplatné končí o {0} dní</YourSubscriptionEndsInDays>
+    <YourSubscriptionHasBeenBlocked>Vaše predplatné bolo zablokované</YourSubscriptionHasBeenBlocked>
+    <YourSubscriptionHasBeenRenewed>Predplatné bolo obnovené</YourSubscriptionHasBeenRenewed>
+    <YourSubscriptionHasExpired>Vaše predplatné skončilo</YourSubscriptionHasExpired>
+    <YourSubscriptionNeedsAttention>Vaše predplatné si vyžaduje pozornosť</YourSubscriptionNeedsAttention>
     <YourTimeSessionHasExpired>Časový limit pre vašu reláciu (session) vypršal!</YourTimeSessionHasExpired>
+    <YourTrialEndsInDays>Skúšobná lehota končí o {0} dní</YourTrialEndsInDays>
+    <YourTrialEndsToday>Skúšobná lehota končí dnes</YourTrialEndsToday>
+    <YourTrialEndsTomorrow>Skúšobná lehota končí zajtra</YourTrialEndsTomorrow>
     <YourTrialHasExpired>Vaša skúšobná lehota vypršala</YourTrialHasExpired>
     <YourTrialWillExpire>Vaša skúšobná lehota vyprší za {0} dní.</YourTrialWillExpire>
     <YouUsingTrialVersion>Používate skúšobnú verziu!</YouUsingTrialVersion>
@@ -2757,6 +2785,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <AssemblyLoadedSuccessfully>Zostavenie bolo úspešne načítané.</AssemblyLoadedSuccessfully>
     <AssemblyNotFound>Zostavenie {0} sa nedá nájsť, používa pripojenie {1}!</AssemblyNotFound>
     <Author>Autor</Author>
+    <ChooseDataAdapter>Ak sa chcete pripojiť k {0}, stiahnite si jeden z týchto balíčkov NuGet.</ChooseDataAdapter>
     <Dependencies>Závislosti:</Dependencies>
     <Download>Načítanie dát</Download>
     <DownloadAll>Načítaj všetko</DownloadAll>
@@ -5284,7 +5313,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <DashboardOnly>Iba panel a transformácia údajov</DashboardOnly>
     <Dialogs>Ovládacie prvky zostavy</Dialogs>
     <EditStyles>Upraviť štýly</EditStyles>
-    <Email>Email</Email>
+    <Email>E-mail</Email>
     <EnableCacheAllDataMode>Povoliť režim 'Ukladať všetky údaje do vyrovnávacej pamäte'</EnableCacheAllDataMode>
     <Enhancements>Rozšírenia</Enhancements>
     <EnterDataManually>Zadať dáta manuálne</EnterDataManually>

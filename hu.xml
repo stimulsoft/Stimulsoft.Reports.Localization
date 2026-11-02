@@ -141,7 +141,8 @@
     <SwitchTo>Váltás ide: {0}</SwitchTo>
     <Test>Teszt</Test>
     <Up>Fel</Up>
-    <Upgrade>Frissítés</Upgrade>
+    <Update>Frissítés</Update>
+    <Upgrade>Bővítés</Upgrade>
     <UpgradeNow>Frissítés most</UpgradeNow>
     <Upload>Feltölt</Upload>
     <Waiting>Folyamatban</Waiting>
@@ -391,6 +392,7 @@
     <CheckForUpdate>Frissítés kresése</CheckForUpdate>
     <Cloud>Felhő</Cloud>
     <Collection>Gyűjtemény</Collection>
+    <ConfirmEmailAddress>Erősítse meg Email-címét</ConfirmEmailAddress>
     <Create>Létrehoz</Create>
     <CreateError>Hiba jelentés készítés közben!</CreateError>
     <CreateNewCollection>Új gyűjtemény létrehozása</CreateNewCollection>
@@ -399,7 +401,7 @@
     <DashboardWindowTitleNew>Új irányítópult</DashboardWindowTitleNew>
     <DeleteFile>Fájl törlése</DeleteFile>
     <DoNotAskMe>Ne kérdezz újra</DoNotAskMe>
-    <EnterUserNameToLogin>Add meg felhasználóneved (e-mail címed) a bejelentkezéshez!</EnterUserNameToLogin>
+    <EnterUserNameToLogin>Add meg felhasználóneved (Email címed) a bejelentkezéshez!</EnterUserNameToLogin>
     <ExecutionError>Futtatási hiba</ExecutionError>
     <ExpiredDate>Lejárati dátum</ExpiredDate>
     <FileStorageWindowTitleEdit>Fájl tároló módosítása</FileStorageWindowTitleEdit>
@@ -431,7 +433,7 @@
     <LabelForeground>Előtér:</LabelForeground>
     <LabelFromReport>Jelentésből</LabelFromReport>
     <LabelFromReportCode>Jelentésből (kódban definiált)</LabelFromReportCode>
-    <LabelInviteUser>Hívjon meg új felhasználókat csapatához! Küldjön meghívókat az email címükre!</LabelInviteUser>
+    <LabelInviteUser>Hívjon meg új felhasználókat csapatához! Küldjön meghívókat az Email címükre!</LabelInviteUser>
     <LabelLastLogin>Utolsó bejelentkezés:</LabelLastLogin>
     <LabelLastTime>Utolsó idő:</LabelLastTime>
     <LabelModified>Módosítva:</LabelModified>
@@ -490,6 +492,7 @@
     <SaveFile>Fájl mentése</SaveFile>
     <SavingToStimulsoftCloudPleaseWait>Report mentése Stimulsoft Cloud-ba. Kérem várjon!</SavingToStimulsoftCloudPleaseWait>
     <SearchForOnlineTemplates>Online sablonok keresése</SearchForOnlineTemplates>
+    <SendingEmail>Email küldése...</SendingEmail>
     <ShareWindowTitleNew>Megoszt</ShareWindowTitleNew>
     <ShowAllFiles>Minden fájl megmutatása</ShowAllFiles>
     <ShowNotificationMessages>Figyelmeztetések megjelenítése</ShowNotificationMessages>
@@ -831,7 +834,7 @@
     <ConnectionSuccessfull>Kapcsolódás sikeres</ConnectionSuccessfull>
     <Continue>Folytatás</Continue>
     <DecryptionError>Titkosítás feloldási hiba: Hibás jelszó, vagy rossz fájl.</DecryptionError>
-    <EmailSuccessfullySent>Az email sikeresen elküldve.</EmailSuccessfullySent>
+    <EmailSuccessfullySent>Az Email sikeresen elküldve.</EmailSuccessfullySent>
     <ErrorAtSaving>Hiba mentéskor</ErrorAtSaving>
     <ErrorCode>Hiba a Mentésben. Hibás Kód: {0}</ErrorCode>
     <ErrorServer>Hiba a Mentésben. A Kiszolgáló nem válaszol.</ErrorServer>
@@ -1745,7 +1748,7 @@
     <Print>Nyomtat...</Print>
     <qnPageDelete>Törölni akarja ezt az oldalt?</qnPageDelete>
     <Save>Mentés...</Save>
-    <SendEMail>Küldés E-Mail-ben...</SendEMail>
+    <SendEMail>Küldés Email-ben...</SendEMail>
     <StatusBar>Állapot sáv</StatusBar>
     <Thumbnails>Miniatűrök</Thumbnails>
     <title>Megjelenítő</title>
@@ -2403,13 +2406,13 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <ActivationServerIsNotAvailableNow>A Stimulsoft Activation Server nem elérhető jelenleg! Kérem próbálja meg később.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>Nem aktiválhatja ezt a verziójú Stimulsoft Server-t, mert az előfizetői program lejárt! Kérem lépjen be a fiókjába és ellenőrizze mely verziójú Stimulsoft Server-t telepítheti és aktiválhatja.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>Hiba lépett fel aktiválás közben. Kérem próbálja meg később.</ActivationSomeTroublesOccurred>
-    <ActivationTrialExpired>A szoftver megvásárlásával folytathatja a Stimulsoft Designer program használatát.</ActivationTrialExpired>
+    <ActivationTrialExpired>A szoftver megvásárlásával folytathatja a Stimulsoft-termékek használatát.</ActivationTrialExpired>
     <ActivationTrialExtend1>Ha ki szeretnéd terjeszteni próbaverziódat, kérjük indokolja értékesítési osztályunknál a </ActivationTrialExtend1>
     <ActivationTrialExtend2>címen.</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>Helytelen felhasználónév (Email) vagy jelszó!</ActivationUserNameOrPasswordIsWrong>
     <ActivationWrongAccountType>A fiók típusa nem engedi a Stimulsoft Server aktiválását!</ActivationWrongAccountType>
     <Alert>Figyelem</Alert>
-    <AuthAccountAlreadyExists>Ezen felhasználónévvel (e-mail címmel) ellátott fiók már létezik. Hogy a(z) {0} fiókodhoz társítsd, kérjük használd Stimulsoft fiókod jelszavát!</AuthAccountAlreadyExists>
+    <AuthAccountAlreadyExists>Ezen felhasználónévvel (Email címmel) ellátott fiók már létezik. Hogy a(z) {0} fiókodhoz társítsd, kérjük használd Stimulsoft fiókod jelszavát!</AuthAccountAlreadyExists>
     <AuthAccountCantBeUsedNow>A fiók jelenleg nem használható!</AuthAccountCantBeUsedNow>
     <AuthAccountIsNotActivated>A fiók még nincs aktiválva! Kérem kövesse a regisztráció során megadott Email címre érkezett utasításokat.</AuthAccountIsNotActivated>
     <AuthCantChangeRoleBecauseLastAdministratorUser>A felhasználói szerepkör nem módosítható, mert ez az utolsó adminisztrátor felhasználó ebben a munkakörnyezetben!</AuthCantChangeRoleBecauseLastAdministratorUser>
@@ -2434,18 +2437,21 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <AuthTokenIsNotCorrect>A token nem megfelelő!</AuthTokenIsNotCorrect>
     <AuthUserHasLoggedOut>Kijelentkezett!</AuthUserHasLoggedOut>
     <AuthUserNameAlreadyExists>A felhasználónév (Email) már használatban van!</AuthUserNameAlreadyExists>
-    <AuthUserNameEmailIsBlocked>Ez az email cím nem használható!</AuthUserNameEmailIsBlocked>
+    <AuthUserNameEmailIsBlocked>Ez az Email cím nem használható!</AuthUserNameEmailIsBlocked>
     <AuthUserNameIsNotSpecified>A felhasználónév (Email) nincs megadva!</AuthUserNameIsNotSpecified>
-    <AuthUserNameNotAssociatedWithYourAccount>Felhasználónév (email) {0} nincs társítva a(z) {1} fiókjával!</AuthUserNameNotAssociatedWithYourAccount>
+    <AuthUserNameNotAssociatedWithYourAccount>Felhasználónév (Email) {0} nincs társítva a(z) {1} fiókjával!</AuthUserNameNotAssociatedWithYourAccount>
     <AuthUserNameOrPasswordIsNotCorrect>Helytelen felhasználónév (Email) vagy jelszó!</AuthUserNameOrPasswordIsNotCorrect>
     <AuthUserNameShouldLookLikeAnEmailAddress>A felhasználónévnek hasonlónak kell lennie az Email címhez!</AuthUserNameShouldLookLikeAnEmailAddress>
     <AuthWorkspaceNameAlreadyInUse>A munkaterület név már használatban van!</AuthWorkspaceNameAlreadyInUse>
     <CommandTimeOut>A parancsfeldolgozás várakozási ideje letelt!</CommandTimeOut>
     <Congratulations>Gratulálunk!</Congratulations>
+    <ContentNeedsAdditionalPackage>Ehhez a tartalomhoz további csomag szükséges</ContentNeedsAdditionalPackage>
     <DeveloperInformation>Fejlesztői információ</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>A záró dátumnak nagyobbnak kell lennie az aktuális dátumnál!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>A záró dátumnak nagyobbnak kell lennie a kezdő dátumnál!</EndDateShouldBeGreaterThanStartDate>
     <ExecutionError>Végrehajtási hiba</ExecutionError>
+    <FileCreatedInNewerVersion>A fájl a(z) {0} verzióban készült, Ön pedig a(z) {1} verziót használja. A megnyitáshoz frissítsen a legújabb verzióra.</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>Ehhez a fájlhoz újabb verzió szükséges</FileNeedsNewerVersion>
     <IsIdentical>"{0}" és "{1}" megyegyeznek."</IsIdentical>
     <IsNotAuthorized>Nincs hozzáférése a következőhöz "{0}"!</IsNotAuthorized>
     <IsNotCorrect>"{0}" helytelen!</IsNotCorrect>
@@ -2464,6 +2470,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <MessageMaximumFileSizeExceeded>Figyelem! Az általad hozzáadni kívánt fájl mérete meghaladja a megengedett maximális mérethatárt! Biztos, hogy fel szeretnéd venni ezt a fájlt (jelentés feldolgozása jelentősen lelassulhat)?</MessageMaximumFileSizeExceeded>
     <NewDesignerAvailable>Stimulsoft Designer {0} elérhető.</NewDesignerAvailable>
     <NewProduct>Új terméket adtunk az előfizetéséhez!</NewProduct>
+    <NewProductAddedToSubscription>Új termék került az előfizetésébe</NewProductAddedToSubscription>
     <NewVersionsAvailable>Új verzió érhető el!</NewVersionsAvailable>
     <NotificationConnectPackage>Csatlakozz a "{0}" csomaghoz a megfelelő munkához!</NotificationConnectPackage>
     <NotificationFailed>Sikertelen eredmény!</NotificationFailed>
@@ -2509,6 +2516,9 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <OutOfRange>Tartományon kívül ("{0}")!</OutOfRange>
     <ParsingCommandException>Kivétel a parancs feldolgozása közben a megadott xml-ben: {0}</ParsingCommandException>
     <PleaseLogin>Kérjük, jelentkezzen be a Stimulsoft fiók bejelentkezési adataival, vagy regisztráljon egy új fiókot a jelentése kiadása előtt.</PleaseLogin>
+    <PurchaseSubscriptionBeforeTrialEnds>Vásároljon előfizetést, vagy adja hozzá licenckulcsát az alkalmazáshoz, hogy a próbaidőszak után is használhassa a Stimulsoft-termékeket.</PurchaseSubscriptionBeforeTrialEnds>
+    <PurchaseSubscriptionDesignerTrialEnds>Vásároljon előfizetést, hogy a próbaidőszak után is használhassa a Stimulsoft-termékeket.</PurchaseSubscriptionDesignerTrialEnds>
+    <PurchaseSubscriptionTrialExpired>Vásároljon előfizetést, vagy adja hozzá licenckulcsát az alkalmazáshoz, hogy továbbra is használhassa a Stimulsoft-termékeket. Az ablak bezárásával az alkalmazás is bezárul.</PurchaseSubscriptionTrialExpired>
     <QuotaMaximumComputingCyclesCountExceeded>Maximális számítási ciklusok száma meghaladva.</QuotaMaximumComputingCyclesCountExceeded>
     <QuotaMaximumDataRowsCountExceeded>Az adatsorok száma meghaladja a maximumot az egyik adatforrásban.</QuotaMaximumDataRowsCountExceeded>
     <QuotaMaximumFileSizeExceeded>Maximális fájlméret meghaladva.</QuotaMaximumFileSizeExceeded>
@@ -2519,15 +2529,24 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <QuotaMaximumResourceSizeExceeded>Maximum forrás mennyisége túllépve.</QuotaMaximumResourceSizeExceeded>
     <QuotaMaximumUsersCountExceeded>Maximális felhasználószám meghaladva.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>Maximális munkaterületek száma meghaladva.</QuotaMaximumWorkspacesCountExceeded>
+    <RenewSubscriptionBeforeGracePeriodEnds>A(z) {0} előfizetése lejárt. Újítsa meg a türelmi idő vége előtt.</RenewSubscriptionBeforeGracePeriodEnds>
+    <RenewSubscriptionToGetNewVersions>Újítsa meg a(z) {0} előfizetését, hogy továbbra is megkapja az új verziókat.</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersionsAgain>Újítsa meg a(z) {0} előfizetését, hogy újra megkapja az új verziókat.</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>Az ütemező nem futtathatja önmagát!</SchedulerCantRunItSelf>
+    <SeatLimitUpgradeBeforeDate>Az előfizetése több fejlesztői helyet használ, mint amennyit tartalmaz. Bővítse csomagját {0} előtt, hogy megszakítás nélkül dolgozhasson tovább.</SeatLimitUpgradeBeforeDate>
+    <SeatLimitUpgradeToContinue>Az előfizetése több fejlesztői helyet használ, mint amennyit tartalmaz. A folytatáshoz bővítse csomagját. Az ablak bezárásával az alkalmazás is bezárul.</SeatLimitUpgradeToContinue>
     <SessionTimeOut>Munkamenet időtúllépés</SessionTimeOut>
     <SnapshotAlreadyProcessed>A jelentés pillanatkép már fel lett dolgozva!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>A megadott elem nem "{0}"!</SpecifiedItemIsNot>
+    <SubscriptionEndedBeforeVersion>A(z) {0} előfizetése {1} napján lejárt, még a verzió megjelenése előtt. Újítsa meg, hogy ezt a verziót használhassa.</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>Az ön előfizetése lejárt!</SubscriptionExpired>
     <SubscriptionExpiredDate>Előfizetésed {0}. lejár</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>{0} napon belül lejár</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Az Ön feliratkozása lejárt. Kérjük, frissítse a legutóbbi verzió beszerzéséhez!</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>Előfizetés lejárt</SubscriptionExpiredShort>
+    <SubscriptionIsActiveUntil>A(z) {0} előfizetése mostantól {1}-ig érvényes.</SubscriptionIsActiveUntil>
+    <SubscriptionLimitTitle>Előfizetési korlát</SubscriptionLimitTitle>
+    <SubscriptionNowIncludes>Az előfizetése mostantól ezt is tartalmazza: {0}. Köszönjük a vásárlást.</SubscriptionNowIncludes>
     <SubscriptionsOut10>10 nap van hátra az előfizetés lejártáig!</SubscriptionsOut10>
     <SubscriptionsOut20>Az előfizetés 20 nap múlva lejár!</SubscriptionsOut20>
     <SuccessfullyRenewed>Az előfizetése sikeresen frissítve!</SuccessfullyRenewed>
@@ -2537,11 +2556,21 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <VersionCreatedFromItem>"{0}" elemből létrehozva.</VersionCreatedFromItem>
     <VersionLoadedFromFile>"{0}" fájlból betöltve.</VersionLoadedFromFile>
     <VersionNewItemCreation>Új elem létrehozása.</VersionNewItemCreation>
+    <VersionNotInSubscription>Ez a verzió nem része az előfizetésének</VersionNotInSubscription>
     <Warning>Figyelmeztetés</Warning>
     <WindowClosePreventWhileUploading>Fájlok feltöltése zajlik, ha bezárja az oldalt ezek elvesznek. Biztosan bezárja az oldalt?</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>"{0}" a megadott kulccsal nem található!</WithSpecifiedKeyIsNotFound>
     <WouldYouLikeToUpdateNow>Szeretne most frissíteni?</WouldYouLikeToUpdateNow>
+    <YourGracePeriodEndsInDays>A türelmi idő {0} nap múlva lejár</YourGracePeriodEndsInDays>
+    <YourSubscriptionEndsInDays>Az előfizetése {0} nap múlva lejár</YourSubscriptionEndsInDays>
+    <YourSubscriptionHasBeenBlocked>Az előfizetését letiltották</YourSubscriptionHasBeenBlocked>
+    <YourSubscriptionHasBeenRenewed>Az előfizetése megújult</YourSubscriptionHasBeenRenewed>
+    <YourSubscriptionHasExpired>Az előfizetése lejárt</YourSubscriptionHasExpired>
+    <YourSubscriptionNeedsAttention>Az előfizetése figyelmet igényel</YourSubscriptionNeedsAttention>
     <YourTimeSessionHasExpired>A munkamenet ideje lejárt!</YourTimeSessionHasExpired>
+    <YourTrialEndsInDays>A próbaidőszak {0} nap múlva lejár</YourTrialEndsInDays>
+    <YourTrialEndsToday>A próbaidőszak ma lejár</YourTrialEndsToday>
+    <YourTrialEndsTomorrow>A próbaidőszak holnap lejár</YourTrialEndsTomorrow>
     <YourTrialHasExpired>Az Ön próbaverziója lejárt.</YourTrialHasExpired>
     <YourTrialWillExpire>Az Ön próbaverziója {0} napon belül lejár.</YourTrialWillExpire>
     <YouUsingTrialVersion>Próbaverziót használ!</YouUsingTrialVersion>
@@ -2551,6 +2580,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <AssemblyLoadedSuccessfully>A szerelvény sikeresen betöltve.</AssemblyLoadedSuccessfully>
     <AssemblyNotFound>Nem található {0} szerelvény {1} kapcsolat használatához!</AssemblyNotFound>
     <Author>Szerző</Author>
+    <ChooseDataAdapter>A(z) {0} kapcsolódáshoz töltse le az alábbi NuGet csomagok egyikét.</ChooseDataAdapter>
     <Dependencies>Függőségek:</Dependencies>
     <Download>Letölt</Download>
     <DownloadAll>Mindet letölt</DownloadAll>
@@ -5046,7 +5076,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <Schedule>Ütemezés</Schedule>
     <Scheduler>Ütemező</Scheduler>
     <Schedulers>Ütemezők</Schedulers>
-    <SenderEmail>Küldő email</SenderEmail>
+    <SenderEmail>Küldő Email</SenderEmail>
     <SmtpSettings>SMTP beállítások</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuration>Állítsa le az összes futtató feladatot az adott ismétlés időtartama végén</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>Állítsa le a feladatokat, ha az tovább tart, mint</StopTasksIfItRunsLongerThan>

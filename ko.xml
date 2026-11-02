@@ -181,6 +181,7 @@
     <Test>테스트</Test>
     <TryToReconnect>다시 연결 시도</TryToReconnect>
     <Up>업</Up>
+    <Update>업데이트</Update>
     <Upgrade>업그레이드</Upgrade>
     <UpgradeNow>지금 업그레이드</UpgradeNow>
     <Upload>업로드</Upload>
@@ -422,7 +423,7 @@
     <ButtonPublish>공개</ButtonPublish>
     <ButtonPurchase>구매</ButtonPurchase>
     <ButtonRecover>회복합니다</ButtonRecover>
-    <ButtonRenew>업데이트</ButtonRenew>
+    <ButtonRenew>갱신</ButtonRenew>
     <ButtonResendEmail>이메일을 재전송</ButtonResendEmail>
     <ButtonResendInvitation>초대장 재발송</ButtonResendInvitation>
     <ButtonResetPassword>암호를 다시 설정</ButtonResetPassword>
@@ -440,6 +441,7 @@
     <CheckForUpdate>업데이트 확인</CheckForUpdate>
     <Cloud>클라우드</Cloud>
     <Collection>컬렉션</Collection>
+    <ConfirmEmailAddress>이메일 주소를 확인하세요</ConfirmEmailAddress>
     <Create>만들기</Create>
     <CreateError>보고서 작성 중 오류가 발생했습니다.</CreateError>
     <CreateNewCollection>새 컬렉션을 생성</CreateNewCollection>
@@ -543,6 +545,7 @@
     <SaveFile>파일을 저장</SaveFile>
     <SavingToStimulsoftCloudPleaseWait>보고서를 Stimulsoft Cloud에 저장한다. 기다려주십시오!</SavingToStimulsoftCloudPleaseWait>
     <SearchForOnlineTemplates>온라인에서 탬플릿 검색</SearchForOnlineTemplates>
+    <SendingEmail>이메일을 보내는 중...</SendingEmail>
     <ShareWindowTitleNew>공유</ShareWindowTitleNew>
     <ShowAllFiles>모든 파일 표시</ShowAllFiles>
     <ShowNotificationMessages>알림 메시지를 표시</ShowNotificationMessages>
@@ -2571,7 +2574,7 @@
     <ActivationServerIsNotAvailableNow>Stimulsoft Activation Server는 현재 사용할 수 없습니다! 나중에 다시 시도하십시오.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>구독 프로그램이 만료 되었기 때문에 Stimulsoft Server이 버전을 활성화 할 수 없습니다! 계정에 로그인하여 설치하고 활성화 할 수 Stimulsoft Server 버전을 확인하십시오.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>사용 중 오류가 발생했습니다. 나중에 다시 시도하십시오.</ActivationSomeTroublesOccurred>
-    <ActivationTrialExpired>소프트웨어를 구매하여 Stimulsoft Designer를 계속 사용할 수 있습니다.</ActivationTrialExpired>
+    <ActivationTrialExpired>소프트웨어를 구매하여 Stimulsoft 제품을 계속 사용할 수 있습니다.</ActivationTrialExpired>
     <ActivationTrialExtend1>평가판 연장에 관심이 있는 경우 다음을 참조하십시오 </ActivationTrialExtend1>
     <ActivationTrialExtend2>이유를 말씀해 주세요.</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>당신의 사용자 이름 (이메일) 또는 암호가 잘못되었습니다!</ActivationUserNameOrPasswordIsWrong>
@@ -2619,12 +2622,15 @@
     <CertificateNotFound>인증서를 찾을 수 없습니다!</CertificateNotFound>
     <CommandTimeOut>명령 처리 대기 시간이 경과했습니다.</CommandTimeOut>
     <Congratulations>축하합니다!</Congratulations>
+    <ContentNeedsAdditionalPackage>이 콘텐츠에는 추가 패키지가 필요합니다</ContentNeedsAdditionalPackage>
     <DeveloperInformation>개발자 정보</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>종료일 현재 날짜보다 커야합니다.</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>종료일은 시작일보다 커야합니다.</EndDateShouldBeGreaterThanStartDate>
     <Error>오류</Error>
     <ExecutionError>실행 오류</ExecutionError>
     <ExpressionValidationFailed>표현식 검증에 실패했습니다.</ExpressionValidationFailed>
+    <FileCreatedInNewerVersion>이 파일은 버전 {0}에서 만들어졌으며, 현재 사용 중인 버전은 {1}입니다. 파일을 열려면 최신 버전으로 업데이트하세요.</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>이 파일에는 최신 버전이 필요합니다</FileNeedsNewerVersion>
     <GracePeriod>가입 유예 기간이 {0}일 후에 만료됩니다.</GracePeriod>
     <IsIdentical>"{0}"및 "{1}"은 동일합니다.</IsIdentical>
     <IsNotAuthorized>"{0}"에 대한 액세스 권한이 없습니다!</IsNotAuthorized>
@@ -2649,6 +2655,7 @@
     <MinimumValue>최소값은 {0}입니다.</MinimumValue>
     <NewDesignerAvailable>Stimulsoft Designer {0} 를 사용할 수 있습니다.</NewDesignerAvailable>
     <NewProduct>당신의 가입에 신제품이 추가되었습니다!</NewProduct>
+    <NewProductAddedToSubscription>구독에 새 제품이 추가되었습니다</NewProductAddedToSubscription>
     <NewVersionsAvailable>새 버전을 사용할 수 있습니다!</NewVersionsAvailable>
     <NotificationConnectPackage>올바른 작업을 위해 "{0}" 패키지를 연결하십시오.</NotificationConnectPackage>
     <NotificationFailed>실패한 결과!</NotificationFailed>
@@ -2698,6 +2705,9 @@
     <OutOfRange>범위를 벗어났습니다 ( "{0}")!</OutOfRange>
     <ParsingCommandException>지정된 xml : {0} 명령을 처리하는 예외는</ParsingCommandException>
     <PleaseLogin>보고서를 게시하기 전에 Stimulsoft 계정을 사용하여 로그인하거나 새 계정을 등록하십시오.</PleaseLogin>
+    <PurchaseSubscriptionBeforeTrialEnds>평가판 기간이 끝난 후에도 Stimulsoft 제품을 계속 사용하려면 구독을 구매하거나 라이센스 키를 애플리케이션에 추가하세요.</PurchaseSubscriptionBeforeTrialEnds>
+    <PurchaseSubscriptionDesignerTrialEnds>평가판 기간이 끝난 후에도 Stimulsoft 제품을 계속 사용하려면 구독을 구매하세요.</PurchaseSubscriptionDesignerTrialEnds>
+    <PurchaseSubscriptionTrialExpired>Stimulsoft 제품을 계속 사용하려면 구독을 구매하거나 라이센스 키를 애플리케이션에 추가하세요. 이 창을 닫으면 애플리케이션도 종료됩니다.</PurchaseSubscriptionTrialExpired>
     <QuotaMaximumComputingCyclesCountExceeded>최대 계산 사이클 수를 초과했습니다.</QuotaMaximumComputingCyclesCountExceeded>
     <QuotaMaximumDataRowsCountExceeded>하나의 데이터 소스의 최대 데이터 행 수를 초과했습니다.</QuotaMaximumDataRowsCountExceeded>
     <QuotaMaximumFileSizeExceeded>최대 파일 크기를 초과했습니다.</QuotaMaximumFileSizeExceeded>
@@ -2708,18 +2718,26 @@
     <QuotaMaximumResourceSizeExceeded>최대 리소스 크기를 초과했습니다.</QuotaMaximumResourceSizeExceeded>
     <QuotaMaximumUsersCountExceeded>최대 사용자 수를 초과했습니다.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>작업 영역의 최대 수를 초과했습니다.</QuotaMaximumWorkspacesCountExceeded>
+    <RenewSubscriptionBeforeGracePeriodEnds>{0} 구독이 만료되었습니다. 유예 기간이 끝나기 전에 갱신하세요.</RenewSubscriptionBeforeGracePeriodEnds>
+    <RenewSubscriptionToGetNewVersions>새 버전을 계속 받으려면 {0} 구독을 갱신하세요.</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersionsAgain>새 버전을 다시 받으려면 {0} 구독을 갱신하세요.</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>스케줄러는 실행할 수 없습니다!</SchedulerCantRunItSelf>
+    <SeatLimitUpgradeBeforeDate>구독에 포함된 것보다 많은 개발자 시트가 사용되고 있습니다. 중단 없이 계속 작업하려면 {0} 전에 플랜을 업그레이드하세요.</SeatLimitUpgradeBeforeDate>
+    <SeatLimitUpgradeToContinue>구독에 포함된 것보다 많은 개발자 시트가 사용되고 있습니다. 계속하려면 플랜을 업그레이드하세요. 이 창을 닫으면 애플리케이션도 종료됩니다.</SeatLimitUpgradeToContinue>
     <SessionTimeOut>세션 타임 아웃</SessionTimeOut>
     <SnapshotAlreadyProcessed>보고서 스냅 샷은 이미 처리되어 있습니다!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>지정된 항목은 "{0}"은 없습니다!</SpecifiedItemIsNot>
+    <SubscriptionEndedBeforeVersion>{0} 구독이 이 버전이 출시되기 전인 {1}에 종료되었습니다. 이 버전을 사용하려면 구독을 갱신하세요.</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>당신의 구독이 만료되었습니다!</SubscriptionExpired>
     <SubscriptionExpiredDate>구독은 {0}에 만료됩니다.</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>{0}일 후에 만료</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>구독이 만료되었습니다. 마지막 버전을 받으려면 구독을 업데이트하십시오.</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>구독이 만료되었습니다</SubscriptionExpiredShort>
+    <SubscriptionIsActiveUntil>{0} 구독이 이제 {1}까지 유효합니다.</SubscriptionIsActiveUntil>
     <SubscriptionLimitExceeded>구독의 개발자 좌석 수 한도를 초과했습니다. 응용 프로그램이 종료됩니다. 계속 사용하려면 구독을 업그레이드하세요.</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>구독 한도</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>현재 구독에서 허용된 개발자 좌석 수를 초과하여 사용 중입니다. 중단 없이 계속 작업하려면 구독을 업그레이드하는 것을 권장합니다.</SubscriptionLimitWarning>
+    <SubscriptionNowIncludes>이제 구독에 {0}이(가) 포함됩니다. 구매해 주셔서 감사합니다.</SubscriptionNowIncludes>
     <SubscriptionsOut10>정기 구독 만료 후 10 일이 경과했습니다!</SubscriptionsOut10>
     <SubscriptionsOut20>구독 기간은 20 일에 끝납니다!</SubscriptionsOut20>
     <SuccessfullyRenewed>당신의 가입이 성공적으로 업데이트되었습니다!</SuccessfullyRenewed>
@@ -2735,11 +2753,21 @@
     <VersionCreatedFromItem>항목 "{0}"에서 작성되었습니다.</VersionCreatedFromItem>
     <VersionLoadedFromFile>파일 "{0}"에서로드되었습니다.</VersionLoadedFromFile>
     <VersionNewItemCreation>새 항목을 만듭니다.</VersionNewItemCreation>
+    <VersionNotInSubscription>이 버전은 구독에 포함되어 있지 않습니다</VersionNotInSubscription>
     <Warning>경고</Warning>
     <WindowClosePreventWhileUploading>당신이 페이지를 닫으면 없어지 파일도 있습니다. 페이지를 닫으시겠습니까?</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>지정된 키를 가지는 "{0}"을 찾을 수 없습니다!</WithSpecifiedKeyIsNotFound>
     <WouldYouLikeToUpdateNow>지금 업데이트 하시겠습니까?</WouldYouLikeToUpdateNow>
+    <YourGracePeriodEndsInDays>유예 기간이 {0}일 후에 종료됩니다</YourGracePeriodEndsInDays>
+    <YourSubscriptionEndsInDays>구독이 {0}일 후에 종료됩니다</YourSubscriptionEndsInDays>
+    <YourSubscriptionHasBeenBlocked>구독이 차단되었습니다</YourSubscriptionHasBeenBlocked>
+    <YourSubscriptionHasBeenRenewed>구독이 갱신되었습니다</YourSubscriptionHasBeenRenewed>
+    <YourSubscriptionHasExpired>구독이 만료되었습니다</YourSubscriptionHasExpired>
+    <YourSubscriptionNeedsAttention>구독에 주의가 필요합니다</YourSubscriptionNeedsAttention>
     <YourTimeSessionHasExpired>당신의 시간 세션이 종료되었습니다!</YourTimeSessionHasExpired>
+    <YourTrialEndsInDays>평가판이 {0}일 후에 종료됩니다</YourTrialEndsInDays>
+    <YourTrialEndsToday>평가판이 오늘 종료됩니다</YourTrialEndsToday>
+    <YourTrialEndsTomorrow>평가판이 내일 종료됩니다</YourTrialEndsTomorrow>
     <YourTrialHasExpired>평가판이 만료되었습니다</YourTrialHasExpired>
     <YourTrialWillExpire>평가판은 {0} 일 후에 만료됩니다.</YourTrialWillExpire>
     <YouUsingTrialVersion>평가판을 사용하고 있습니다!</YouUsingTrialVersion>
@@ -2749,6 +2777,7 @@
     <AssemblyLoadedSuccessfully>어셈블리가 성공적으로로드됩니다.</AssemblyLoadedSuccessfully>
     <AssemblyNotFound>{1} 연결을 사용할 수 있는 {0} 어셈블리를 찾을 수 없습니다!</AssemblyNotFound>
     <Author>저자</Author>
+    <ChooseDataAdapter>{0}에 연결하려면 다음 NuGet 패키지 중 하나를 다운로드하십시오.</ChooseDataAdapter>
     <Dependencies>종속성 :</Dependencies>
     <Download>다운로드</Download>
     <DownloadAll>모두 다운로드</DownloadAll>

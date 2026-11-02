@@ -181,6 +181,7 @@
     <Test>Δοκιμή</Test>
     <TryToReconnect>Προσπάθεια Επανασύνδεσης</TryToReconnect>
     <Up>Πάνω</Up>
+    <Update>Ενημέρωση</Update>
     <Upgrade>Αναβάθμιση</Upgrade>
     <UpgradeNow>Αναβάθμιση Τώρα</UpgradeNow>
     <Upload>Ανέβασμα</Upload>
@@ -439,6 +440,7 @@
     <CheckForUpdate>Έλεγχος για Ενημερώσεις</CheckForUpdate>
     <Cloud>Υπολογιστικό Νέφος</Cloud>
     <Collection>Συλλογή</Collection>
+    <ConfirmEmailAddress>Επιβεβαιώστε τη διεύθυνση email σας</ConfirmEmailAddress>
     <Create>Δημιουργία</Create>
     <CreateError>Σφάλμα κατά τη δημιουργία της αναφοράς!</CreateError>
     <CreateNewCollection>Δημιουργία Νέας Συλλογής</CreateNewCollection>
@@ -448,7 +450,7 @@
     <DeleteFile>Διαγραφή Αρχείου</DeleteFile>
     <DoNotAskMe>Μη με ξαναρωτήσεις</DoNotAskMe>
     <EnglishSearchRequired>Παρακαλώ χρησιμοποιήστε Αγγλικά για τα ερωτήματα αναζήτησης.</EnglishSearchRequired>
-    <EnterUserNameToLogin>Εισαγωγή Ονόματος Χρήστη (email) για σύνδεση.</EnterUserNameToLogin>
+    <EnterUserNameToLogin>Εισαγωγή Ονόματος Χρήστη (Email) για σύνδεση.</EnterUserNameToLogin>
     <ExecutionError>Σφάλμα εκτέλεσης</ExecutionError>
     <ExpiredDate>Ημερομηνία Λήξης</ExpiredDate>
     <FileStorageWindowTitleEdit>Επεξεργασία Αποθήκης Αρχείων</FileStorageWindowTitleEdit>
@@ -542,6 +544,7 @@
     <SaveFile>Αποθήκευση Αρχείου</SaveFile>
     <SavingToStimulsoftCloudPleaseWait>Αποθήκευση της αναφοράς στο υπολογιστικό νέφος της Stimulsoft. Παρακαλώ περιμένετε!</SavingToStimulsoftCloudPleaseWait>
     <SearchForOnlineTemplates>Ψάξτε για online templates</SearchForOnlineTemplates>
+    <SendingEmail>Αποστολή email...</SendingEmail>
     <ShareWindowTitleNew>Διαμοιρασμός</ShareWindowTitleNew>
     <ShowAllFiles>Εμφάνιση Όλων των Αρχείων</ShowAllFiles>
     <ShowNotificationMessages>Προβολή Μηνυμάτων Ειδοποίησης</ShowNotificationMessages>
@@ -1849,7 +1852,7 @@
     <Print>Εκτύπωση...</Print>
     <qnPageDelete>Επιθυμείτε να διαγράψετε αυτή τη σελίδα;</qnPageDelete>
     <Save>Αποθήκευση...</Save>
-    <SendEMail>Αποστολή e-mail...</SendEMail>
+    <SendEMail>Αποστολή Email...</SendEMail>
     <StatusBar>Γραμμή Κατάστασης</StatusBar>
     <Thumbnails>Μικρογραφίες</Thumbnails>
     <title>Πρόγραμμα Προβολής</title>
@@ -2543,7 +2546,7 @@
     <TextRegistrationSuccessfully>Ένα τελευταίο βήμα για να ολοκληρώσετε την εγγραφή σας!
 
 Το μειλ στάλθηκε στο "{0}".
-Περιέχει ένα λινκ για να επιβεβαιώσετε την εγγραφή σας. Για την ολοκλήρωση της εγγραφής παρακαλούμε ακολουθήστε το λινκ από το email που λάβατε.</TextRegistrationSuccessfully>
+Περιέχει ένα λινκ για να επιβεβαιώσετε την εγγραφή σας. Για την ολοκλήρωση της εγγραφής παρακαλούμε ακολουθήστε το λινκ από το Email που λάβατε.</TextRegistrationSuccessfully>
     <ThisFieldIsNotSpecified>Αυτό το πεδίο δεν είναι ορισμένο!</ThisFieldIsNotSpecified>
     <ThisFunctionEmbedsAllReportDataToTheReport>Αυτή η λειτουργία ενσωματώνει όλα τα δεδομένα της αναφοράς στους πόρους της αναφοράς και κάνει την αναφορά σας αυτόνομη. Προσοχή! Όλες οι ρυθμίσεις δεδομένων σας θα αλλάξουν χωρίς δυνατότητα επαναφοράς. Παρακαλούμε, πρώτα δημιουργήστε αντίγραφο ασφαλείας της αναφοράς σας. {0}Είστε βέβαιοι;</ThisFunctionEmbedsAllReportDataToTheReport>
     <YouNeedToLoginFirstToStartUsingTheSoftware>Πρέπει να συνδεθείτε πρώτα για να ξεκινήσετε να χρησιμοποιείτε το λογισμικό μας. Η εφαρμογή θα κλήσει εάν κλείσετε τη φόρμα σύνδεσης.</YouNeedToLoginFirstToStartUsingTheSoftware>
@@ -2565,16 +2568,16 @@
     <ActivationServerIsNotAvailableNow>Ο διακομιστής ενεργοποίησης της Stimulsoft δεν είναι διαθέσιμος αυτή τη στιγμή! Παρακαλούμε δοκιμάστε αργότερα.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>Δεν γίνεται να ενεργοποιήσετε αυτή την έκδοση του Stimulsoft Server γιατί το πρόγραμμα συνδρομής σας έληξε! Παρακαλούμε, συνδεθείτε στο στο λογαριασμό σας και ελέγξτε ποια έκδοση του Stimulsoft Server μπορείτε να εγκαταστήσετε και να ενεργοποιήσετε.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>Ένα σφάλμα συνέβη κατά την ενεργοποίηση. Παρακαλούμε δοκιμάστε ξανά αργότερα.</ActivationSomeTroublesOccurred>
-    <ActivationTrialExpired>Μπορείτε να συνεχίσετε να χρησιμοποιείτε τον Stimulsoft Designer αγοράζοντας το λογισμικό.</ActivationTrialExpired>
+    <ActivationTrialExpired>Μπορείτε να συνεχίσετε να χρησιμοποιείτε τα προϊόντα Stimulsoft αγοράζοντας το λογισμικό.</ActivationTrialExpired>
     <ActivationTrialExtend1>Εάν ενδιαφέρεστε να επεκτείνετε την περίοδο δοκιμής, παρακαλώ </ActivationTrialExtend1>
     <ActivationTrialExtend2>πείτε μας γιατί.</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>Το όνομα χρήστη σας (Email) ή ο κωδικός δεν είναι σωστός!</ActivationUserNameOrPasswordIsWrong>
     <ActivationWrongAccountType>Ο τύπος του λογαριασμού σας δεν επιτρέπει την ενεργοποίηση του Stimulsoft Server!</ActivationWrongAccountType>
     <AITokensExhausted>Έχετε εξαντλήσει τα διαθέσιμα tokens! Παρακαλώ επικοινωνήστε με το τμήμα πωλήσεων στο sales@stimulsoft.com!</AITokensExhausted>
     <Alert>Εδοποίηση</Alert>
-    <AuthAccountAlreadyExists>Ο λογαριασμός με αυτό το Όνομα Χρήστη (email) υπάρχει ήδη. Για να τον συσχετίσετε με τον λγοαριασμό {0} , παρακαλώ χρησιμοποιήστε τον κωδικό του Stimulsoft λογαριασμού σας.</AuthAccountAlreadyExists>
+    <AuthAccountAlreadyExists>Ο λογαριασμός με αυτό το Όνομα Χρήστη (Email) υπάρχει ήδη. Για να τον συσχετίσετε με τον λγοαριασμό {0} , παρακαλώ χρησιμοποιήστε τον κωδικό του Stimulsoft λογαριασμού σας.</AuthAccountAlreadyExists>
     <AuthAccountCantBeUsedNow>Ο λογαριασμός δεν μπορεί να χρησιμοποιηθεί αυτή τη στιγμή!</AuthAccountCantBeUsedNow>
-    <AuthAccountIsNotActivated>Ο λογαριασμός δεν είναι ενεργοποιημένος ακόμα! Παρακαλούμε, ακολουθήστε τις οδηγίες που στείλαμε στο email εγγραφής.</AuthAccountIsNotActivated>
+    <AuthAccountIsNotActivated>Ο λογαριασμός δεν είναι ενεργοποιημένος ακόμα! Παρακαλούμε, ακολουθήστε τις οδηγίες που στείλαμε στο Email εγγραφής.</AuthAccountIsNotActivated>
     <AuthCantChangeRoleBecauseLastAdministratorUser>Ο ρόλος του χρήστη δεν μπορεί να αλλάξει γιατί είναι ο χρήστης είναι ο τελευταίος διαχειριστής σε αυτό το χώρο εργασίας!</AuthCantChangeRoleBecauseLastAdministratorUser>
     <AuthCantChangeRoleBecauseLastSupervisorUser>Ο ρόλος του χρήστη δεν μπορεί να αλλάξει γιατί είναι ο τελευταίος επιβλέπων χρήστης σε αυτό το διακομιστή!</AuthCantChangeRoleBecauseLastSupervisorUser>
     <AuthCantChangeSystemRole>Ο ρόλος συστήματος δεν μπορεί να αλλαχθεί!</AuthCantChangeSystemRole>
@@ -2600,22 +2603,25 @@
     <AuthUserHasLoggedOut>Είστε αποσυνδεδεμένος!</AuthUserHasLoggedOut>
     <AuthUserHasLoggedOutPrevDevice>Έχετε αποσυνδεθεί. Ανιχνεύθηκε σύνδεση από άλλη συσκευή!</AuthUserHasLoggedOutPrevDevice>
     <AuthUserNameAlreadyExists>Το όνομα χρήστη (Email) χρησιμοποιείται ήδη!</AuthUserNameAlreadyExists>
-    <AuthUserNameEmailIsBlocked>Αυτή η διεύθυνση email δεν μπορεί να χρησιμοποιηθεί!</AuthUserNameEmailIsBlocked>
+    <AuthUserNameEmailIsBlocked>Αυτή η διεύθυνση Email δεν μπορεί να χρησιμοποιηθεί!</AuthUserNameEmailIsBlocked>
     <AuthUserNameIsNotSpecified>Το όνομα χρήστη (Email) δεν έχει καθοριστεί!</AuthUserNameIsNotSpecified>
     <AuthUserNameIsTooLong>Το Όνομα Χρήστη (Email) έχει υπερβολικά μεγάλο μέγεθος!</AuthUserNameIsTooLong>
-    <AuthUserNameNotAssociatedWithYourAccount>Το Username (email) {0} δεν σχετίζεται με τον λογαριασμό {1}!</AuthUserNameNotAssociatedWithYourAccount>
+    <AuthUserNameNotAssociatedWithYourAccount>Το Username (Email) {0} δεν σχετίζεται με τον λογαριασμό {1}!</AuthUserNameNotAssociatedWithYourAccount>
     <AuthUserNameOrPasswordIsNotCorrect>Το όνομα χρήστη (Email) ή ο κωδικός πρόσβασης δεν είναι σωστός!</AuthUserNameOrPasswordIsNotCorrect>
     <AuthUserNameShouldLookLikeAnEmailAddress>Το όνομα χρήστη πρέπει να είναι όμοιο με τη διεύθυνση ηλεκτρονικής αλληλογραφίας (Email)!</AuthUserNameShouldLookLikeAnEmailAddress>
     <AuthWorkspaceNameAlreadyInUse>Το όνομα του χώρου εργασίας χρησιμοποιείται ήδη!</AuthWorkspaceNameAlreadyInUse>
     <CertificateNotFound>Δεν βρέθηκε πιστοποιητικό!</CertificateNotFound>
     <CommandTimeOut>Ο χρόνος αναμονής της επεξεργασίας της εντολής πέρασε!</CommandTimeOut>
     <Congratulations>Συγχαρητήρια!</Congratulations>
+    <ContentNeedsAdditionalPackage>Αυτό το περιεχόμενο χρειάζεται ένα πρόσθετο πακέτο</ContentNeedsAdditionalPackage>
     <DeveloperInformation>Πληροφορίες Προγραμματιστή</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>Η ημερομηνία τέλους πρέπει να είναι μεγαλύτερη από την τωρινή ημερομηνία!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>Η ημερομηνία τέλους πρέπει να είναι μεγαλύτερη από την ημερομηνία έναρξης!</EndDateShouldBeGreaterThanStartDate>
     <Error>Σφάλμα</Error>
     <ExecutionError>Σφάλμα εκτέλεσης</ExecutionError>
     <ExpressionValidationFailed>Η επικύρωση της έκφρασης απέτυχε.</ExpressionValidationFailed>
+    <FileCreatedInNewerVersion>Το αρχείο δημιουργήθηκε στην έκδοση {0} και χρησιμοποιείτε την έκδοση {1}. Ενημερώστε στην τελευταία έκδοση για να το ανοίξετε.</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>Αυτό το αρχείο χρειάζεται νεότερη έκδοση</FileNeedsNewerVersion>
     <GracePeriod>Η περίοδος χάριτος της συνδρομής σας λήγει σε {0} ημέρες.</GracePeriod>
     <IsIdentical>Τα "{0}" και "{1}" είναι ολόιδια."</IsIdentical>
     <IsNotAuthorized>Δεν υπάρχει πρόσβαση στο "{0}"!</IsNotAuthorized>
@@ -2640,6 +2646,7 @@
     <MinimumValue>Το ελάχιστο είναι {0}.</MinimumValue>
     <NewDesignerAvailable>Ο Stimulsoft Designer {0} είναι διαθέσιμος.</NewDesignerAvailable>
     <NewProduct>Ένα νέο προϊόν έχει προστεθεί στην συνδρομή σας!</NewProduct>
+    <NewProductAddedToSubscription>Προστέθηκε νέο προϊόν στη συνδρομή σας</NewProductAddedToSubscription>
     <NewVersionsAvailable>Νέα έκδοση διαθέσιμη!</NewVersionsAvailable>
     <NotificationConnectPackage>Συνδέστε το "{0}" πακέτο για την ορθή εργασία.</NotificationConnectPackage>
     <NotificationFailed>Αποτυχημένο αποτέλεσμα!</NotificationFailed>
@@ -2689,6 +2696,9 @@
     <OutOfRange>Εκτός εύρους ("{0}")!</OutOfRange>
     <ParsingCommandException>Υπήρξε σφάλμα κατά την επεξεργασία της εντολής στο καθορισμένο xml: {0}</ParsingCommandException>
     <PleaseLogin>Παρακαλώ συνδεθείτε με τον Stimulsoft λογαριασμό σας ή δημιουργήστε ένα νέο λογαριασμό πριν τη δημοσίευση αναφοράς.</PleaseLogin>
+    <PurchaseSubscriptionBeforeTrialEnds>Αγοράστε μια συνδρομή ή προσθέστε το κλειδί άδειας στην εφαρμογή για να συνεχίσετε να χρησιμοποιείτε τα προϊόντα Stimulsoft μετά τη δοκιμαστική περίοδο.</PurchaseSubscriptionBeforeTrialEnds>
+    <PurchaseSubscriptionDesignerTrialEnds>Αγοράστε μια συνδρομή για να συνεχίσετε να χρησιμοποιείτε τα προϊόντα Stimulsoft μετά τη δοκιμαστική περίοδο.</PurchaseSubscriptionDesignerTrialEnds>
+    <PurchaseSubscriptionTrialExpired>Αγοράστε μια συνδρομή ή προσθέστε το κλειδί άδειας στην εφαρμογή για να συνεχίσετε να χρησιμοποιείτε τα προϊόντα Stimulsoft. Το κλείσιμο αυτού του παραθύρου κλείνει και την εφαρμογή.</PurchaseSubscriptionTrialExpired>
     <QuotaMaximumComputingCyclesCountExceeded>Ξεπεράστηκε ο μέγιστος αριθμός κύκλων επεξεργασίας.</QuotaMaximumComputingCyclesCountExceeded>
     <QuotaMaximumDataRowsCountExceeded>Ο μέγιστος αριθμός γραμμών σε μια πηγή δεδομένων ξεπεράστηκε.</QuotaMaximumDataRowsCountExceeded>
     <QuotaMaximumFileSizeExceeded>Ξεπεράστηκε το μέγιστο μέγεθος αρχείου.</QuotaMaximumFileSizeExceeded>
@@ -2699,18 +2709,26 @@
     <QuotaMaximumResourceSizeExceeded>Υπέρβαση του Μέγιστου μεγέθους πόρου.</QuotaMaximumResourceSizeExceeded>
     <QuotaMaximumUsersCountExceeded>Ξεπεράστηκε ο μέγιστος αριθμός χρηστών.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>Ξεπεράστηκε ο μέγιστος αριθμός χώρων εργασίας.</QuotaMaximumWorkspacesCountExceeded>
+    <RenewSubscriptionBeforeGracePeriodEnds>Η συνδρομή σας για το {0} έχει λήξει. Ανανεώστε την πριν τελειώσει η περίοδος χάριτος.</RenewSubscriptionBeforeGracePeriodEnds>
+    <RenewSubscriptionToGetNewVersions>Ανανεώστε τη συνδρομή σας για το {0} για να συνεχίσετε να λαμβάνετε τις νέες εκδόσεις.</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersionsAgain>Ανανεώστε τη συνδρομή σας για το {0} για να λαμβάνετε ξανά τις νέες εκδόσεις.</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>Ο χρονοπρογραμματιστής δεν μπορεί να τρέξει τον εαυτό του!</SchedulerCantRunItSelf>
+    <SeatLimitUpgradeBeforeDate>Η συνδρομή σας χρησιμοποιεί περισσότερες θέσεις προγραμματιστών από όσες περιλαμβάνει. Αναβαθμίστε το πρόγραμμά σας πριν από τις {0} για να συνεχίσετε να εργάζεστε χωρίς διακοπή.</SeatLimitUpgradeBeforeDate>
+    <SeatLimitUpgradeToContinue>Η συνδρομή σας χρησιμοποιεί περισσότερες θέσεις προγραμματιστών από όσες περιλαμβάνει. Αναβαθμίστε το πρόγραμμά σας για να συνεχίσετε. Το κλείσιμο αυτού του παραθύρου κλείνει και την εφαρμογή.</SeatLimitUpgradeToContinue>
     <SessionTimeOut>Λήξη συνεδρίας</SessionTimeOut>
     <SnapshotAlreadyProcessed>Το στιγμιότυπο της αναφοράς έχει ήδη επεξεργαστεί!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>Το καθορισμένο στοιχείο δεν είναι "{0}"!</SpecifiedItemIsNot>
+    <SubscriptionEndedBeforeVersion>Η συνδρομή σας για το {0} έληξε στις {1}, πριν κυκλοφορήσει αυτή η έκδοση. Ανανεώστε την για να χρησιμοποιήσετε αυτή την έκδοση.</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>Η συνδρομή σας έχει λήξει!</SubscriptionExpired>
     <SubscriptionExpiredDate>Η συνδρομή σας θα λήξει στις {0}</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>Λήγει σε {0} ημέρες</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Η συνδρομή σας έχει λήξει. Ενημερώστε  τη συνδρομή σας για να πάρετε την τελευταία έκδοση.</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>Η συνδρομή έληξε</SubscriptionExpiredShort>
+    <SubscriptionIsActiveUntil>Η συνδρομή σας για το {0} είναι πλέον ενεργή έως {1}.</SubscriptionIsActiveUntil>
     <SubscriptionLimitExceeded>Η συνδρομή σας έχει υπερβεί το όριο θέσεων προγραμματιστή. Η εφαρμογή θα κλείσει. Παρακαλώ αναβαθμίστε το πρόγραμμά σας για να συνεχίσετε.</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>Όριο συνδρομής</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>Η συνδρομή σας χρησιμοποιεί περισσότερες θέσεις προγραμματιστή από τις επιτρεπόμενες. Παρακαλώ εξετάστε το ενδεχόμενο αναβάθμισης του προγράμματός σας για να συνεχίσετε να εργάζεστε χωρίς διακοπή.</SubscriptionLimitWarning>
+    <SubscriptionNowIncludes>Η συνδρομή σας περιλαμβάνει πλέον {0}. Σας ευχαριστούμε για την αγορά.</SubscriptionNowIncludes>
     <SubscriptionsOut10>Απομένουν 10 μέρες μέχρι την λήξη της συνδρομής!</SubscriptionsOut10>
     <SubscriptionsOut20>Η περίοδος συνδρομής θα λήξει σε 20 μέρες!</SubscriptionsOut20>
     <SuccessfullyRenewed>Η συνδρομή σας ανανεώθηκε επιτυχώς!</SuccessfullyRenewed>
@@ -2726,11 +2744,21 @@
     <VersionCreatedFromItem>Δημιουργήθηκε από το στοιχείο "{0}".</VersionCreatedFromItem>
     <VersionLoadedFromFile>Φορτώθηκε από το αρχείο "{0}".</VersionLoadedFromFile>
     <VersionNewItemCreation>Δημιουργία νέου στοιχείου.</VersionNewItemCreation>
+    <VersionNotInSubscription>Αυτή η έκδοση δεν περιλαμβάνεται στη συνδρομή σας</VersionNotInSubscription>
     <Warning>Προειδοποίηση</Warning>
     <WindowClosePreventWhileUploading>Κάποια αρχεία μεταφορτώνονται αυτή τη στιγμή και αν κλείσετε τη σελίδα θα χαθούν. Είστε βέβαιος ότι θέλετε να κλείσετε τη σελίδα;</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>"{0}" με το καθορισμένο κλειδί δεν βρέθηκε!</WithSpecifiedKeyIsNotFound>
     <WouldYouLikeToUpdateNow>Θα θέλατε να κάνετε ανανέωση τώρα;</WouldYouLikeToUpdateNow>
+    <YourGracePeriodEndsInDays>Η περίοδος χάριτος λήγει σε {0} ημέρες</YourGracePeriodEndsInDays>
+    <YourSubscriptionEndsInDays>Η συνδρομή σας λήγει σε {0} ημέρες</YourSubscriptionEndsInDays>
+    <YourSubscriptionHasBeenBlocked>Η συνδρομή σας έχει αποκλειστεί</YourSubscriptionHasBeenBlocked>
+    <YourSubscriptionHasBeenRenewed>Η συνδρομή σας ανανεώθηκε</YourSubscriptionHasBeenRenewed>
+    <YourSubscriptionHasExpired>Η συνδρομή σας έχει λήξει</YourSubscriptionHasExpired>
+    <YourSubscriptionNeedsAttention>Η συνδρομή σας χρειάζεται προσοχή</YourSubscriptionNeedsAttention>
     <YourTimeSessionHasExpired>Ο χρόνος της συνεδρίας σας έληξε!</YourTimeSessionHasExpired>
+    <YourTrialEndsInDays>Η δοκιμαστική περίοδός σας λήγει σε {0} ημέρες</YourTrialEndsInDays>
+    <YourTrialEndsToday>Η δοκιμαστική περίοδός σας λήγει σήμερα</YourTrialEndsToday>
+    <YourTrialEndsTomorrow>Η δοκιμαστική περίοδός σας λήγει αύριο</YourTrialEndsTomorrow>
     <YourTrialHasExpired>Η δοκιμαστική περίοδός σας έχει λήξει</YourTrialHasExpired>
     <YourTrialWillExpire>Η δοκιμαστική περίοδός σας θα λήξει σε {0} μέρες.</YourTrialWillExpire>
     <YouUsingTrialVersion>Χρησιμοποιείτε την δοκιμαστική έκδοση!</YouUsingTrialVersion>
@@ -2740,6 +2768,7 @@
     <AssemblyLoadedSuccessfully>Η βιβλιοθήκε φορτώθηκε επιτυχώς.</AssemblyLoadedSuccessfully>
     <AssemblyNotFound>Είναι αδύνατον να βρεθεί η βιβλιοθήκη {0} για τη χρήση της σύνδεσης {1} !</AssemblyNotFound>
     <Author>Συγγραφέας</Author>
+    <ChooseDataAdapter>Για να συνδεθείτε με {0}, κατεβάστε ένα από αυτά τα πακέτα NuGet.</ChooseDataAdapter>
     <Dependencies>Εξαρτήσεις:</Dependencies>
     <Download>Λήψη</Download>
     <DownloadAll>Λήψη Όλων</DownloadAll>

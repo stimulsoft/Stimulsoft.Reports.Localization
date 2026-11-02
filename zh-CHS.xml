@@ -181,6 +181,7 @@
     <Test>测试</Test>
     <TryToReconnect>尝试重新连接</TryToReconnect>
     <Up>向上</Up>
+    <Update>更新</Update>
     <Upgrade>升级</Upgrade>
     <UpgradeNow>现在升级</UpgradeNow>
     <Upload>上传</Upload>
@@ -423,7 +424,7 @@
     <ButtonPublish>发布</ButtonPublish>
     <ButtonPurchase>购买</ButtonPurchase>
     <ButtonRecover>恢复</ButtonRecover>
-    <ButtonRenew>更新</ButtonRenew>
+    <ButtonRenew>续订</ButtonRenew>
     <ButtonResendEmail>重发邮件</ButtonResendEmail>
     <ButtonResendInvitation>重新发送邀请</ButtonResendInvitation>
     <ButtonResetPassword>重置密码</ButtonResetPassword>
@@ -441,6 +442,7 @@
     <CheckForUpdate>检查更新</CheckForUpdate>
     <Cloud>云端</Cloud>
     <Collection>集合</Collection>
+    <ConfirmEmailAddress>确认您的电子邮件地址</ConfirmEmailAddress>
     <Create>创建</Create>
     <CreateError>创建报表时出错！</CreateError>
     <CreateNewCollection>创建新集合</CreateNewCollection>
@@ -544,6 +546,7 @@
     <SaveFile>保存文档</SaveFile>
     <SavingToStimulsoftCloudPleaseWait>正在将该报告保存至 Stimulsoft 云端，请耐心等待!</SavingToStimulsoftCloudPleaseWait>
     <SearchForOnlineTemplates>搜索在线模板</SearchForOnlineTemplates>
+    <SendingEmail>正在发送邮件...</SendingEmail>
     <ShareWindowTitleNew>分享</ShareWindowTitleNew>
     <ShowAllFiles>显示所有文档</ShowAllFiles>
     <ShowNotificationMessages>显示通知信息</ShowNotificationMessages>
@@ -2573,7 +2576,7 @@
     <ActivationServerIsNotAvailableNow>报表编辑软件服务器现在不可用！请稍后再试！.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>您无法激活此版本的Stimulsoft Reports.服务器，因为您订阅的程序已过期！请登录您的账户，检查可以安装和激活的版本。</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>激活期间出错。请稍后再试。</ActivationSomeTroublesOccurred>
-    <ActivationTrialExpired>请您购买以继续使用Stimulsoft Designer</ActivationTrialExpired>
+    <ActivationTrialExpired>请您购买以继续使用 Stimulsoft 产品。</ActivationTrialExpired>
     <ActivationTrialExtend1>如果你有兴趣延长试用期，请</ActivationTrialExtend1>
     <ActivationTrialExtend2>告诉我们为什么</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>您的用户名（电子邮件）或密码错误!</ActivationUserNameOrPasswordIsWrong>
@@ -2621,12 +2624,15 @@
     <CertificateNotFound>未找到证书！</CertificateNotFound>
     <CommandTimeOut>处理命令的等待时间已过!</CommandTimeOut>
     <Congratulations>祝贺您!</Congratulations>
+    <ContentNeedsAdditionalPackage>此内容需要附加程序包</ContentNeedsAdditionalPackage>
     <DeveloperInformation>开发者信息</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>结束日期应大于当前日期!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>结束日期应大于开始日期!</EndDateShouldBeGreaterThanStartDate>
     <Error>错误</Error>
     <ExecutionError>执行错误</ExecutionError>
     <ExpressionValidationFailed>表达式验证失败。</ExpressionValidationFailed>
+    <FileCreatedInNewerVersion>该文件是在版本 {0} 中创建的，而您使用的是版本 {1}。请更新到最新版本以打开它。</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>此文件需要更新的版本</FileNeedsNewerVersion>
     <GracePeriod>您的Subscription宽限期将在{0}天后到期。</GracePeriod>
     <IsIdentical>"{0}" 和 "{1}" 是相同的."</IsIdentical>
     <IsNotAuthorized>无法访问"{0}"!</IsNotAuthorized>
@@ -2651,6 +2657,7 @@
     <MinimumValue>最小值为 {0}。</MinimumValue>
     <NewDesignerAvailable>Stimulsoft Designer {0}可用</NewDesignerAvailable>
     <NewProduct>新产品已添加到您的订阅中!</NewProduct>
+    <NewProductAddedToSubscription>您的订阅中已添加新产品</NewProductAddedToSubscription>
     <NewVersionsAvailable>新版本可用!</NewVersionsAvailable>
     <NotificationConnectPackage>连接"{0}"包以获得正确的工作</NotificationConnectPackage>
     <NotificationFailed>结果失败!</NotificationFailed>
@@ -2700,6 +2707,9 @@
     <OutOfRange>超出范围("{0}")!</OutOfRange>
     <ParsingCommandException>处理指定的可拓展标记语言命令中的异常: {0}</ParsingCommandException>
     <PleaseLogin>请在生成报表前使用您的Stimusoft账户登录或注册一个新账户。</PleaseLogin>
+    <PurchaseSubscriptionBeforeTrialEnds>请购买订阅或将您的许可证密钥添加到应用程序中，以便在试用期结束后继续使用 Stimulsoft 产品。</PurchaseSubscriptionBeforeTrialEnds>
+    <PurchaseSubscriptionDesignerTrialEnds>请购买订阅，以便在试用期结束后继续使用 Stimulsoft 产品。</PurchaseSubscriptionDesignerTrialEnds>
+    <PurchaseSubscriptionTrialExpired>请购买订阅或将您的许可证密钥添加到应用程序中，以继续使用 Stimulsoft 产品。关闭此窗口也会关闭应用程序。</PurchaseSubscriptionTrialExpired>
     <QuotaMaximumComputingCyclesCountExceeded>超出最大计算周期数。</QuotaMaximumComputingCyclesCountExceeded>
     <QuotaMaximumDataRowsCountExceeded>超出数据源中的最大数据行。</QuotaMaximumDataRowsCountExceeded>
     <QuotaMaximumFileSizeExceeded>超出最大文件大小。</QuotaMaximumFileSizeExceeded>
@@ -2710,18 +2720,26 @@
     <QuotaMaximumResourceSizeExceeded>超过最大资源大小</QuotaMaximumResourceSizeExceeded>
     <QuotaMaximumUsersCountExceeded>超出最大用户数。</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>超出最大工作区数。</QuotaMaximumWorkspacesCountExceeded>
+    <RenewSubscriptionBeforeGracePeriodEnds>您的 {0} 订阅已过期。请在宽限期结束前续订。</RenewSubscriptionBeforeGracePeriodEnds>
+    <RenewSubscriptionToGetNewVersions>请续订 {0}，以继续获取新版本。</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersionsAgain>请续订 {0}，以重新获取新版本。</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>调度程序无法自行运行！</SchedulerCantRunItSelf>
+    <SeatLimitUpgradeBeforeDate>您的订阅使用的开发者席位超出了其包含的数量。请在 {0} 之前升级您的计划，以便继续不间断地工作。</SeatLimitUpgradeBeforeDate>
+    <SeatLimitUpgradeToContinue>您的订阅使用的开发者席位超出了其包含的数量。请升级您的计划以继续。关闭此窗口也会关闭应用程序。</SeatLimitUpgradeToContinue>
     <SessionTimeOut>会话超时</SessionTimeOut>
     <SnapshotAlreadyProcessed>报表快照已处理完毕!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>"{0}"不是指定项!</SpecifiedItemIsNot>
+    <SubscriptionEndedBeforeVersion>您的 {0} 订阅已于 {1} 结束，早于此版本的发布。请续订以使用此版本。</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>您的订阅已过期!</SubscriptionExpired>
     <SubscriptionExpiredDate>您的订阅将于{0}过期</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>在{0}天后过期</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>您的订阅已过期，更新您的订阅以获得最新版本</SubscriptionExpiredExt>
     <SubscriptionExpiredShort>Subscription 到期</SubscriptionExpiredShort>
+    <SubscriptionIsActiveUntil>您的 {0} 订阅现在有效期至 {1}。</SubscriptionIsActiveUntil>
     <SubscriptionLimitExceeded>您的订阅已超过开发人员席位限制。应用程序将关闭。请升级您的计划以继续使用。</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>订阅限制</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>您的订阅正在使用超过允许数量的开发人员席位。请考虑升级您的计划，以便继续正常工作。</SubscriptionLimitWarning>
+    <SubscriptionNowIncludes>您的订阅现在包含 {0}。感谢您的购买。</SubscriptionNowIncludes>
     <SubscriptionsOut10>订阅还有10天到期!</SubscriptionsOut10>
     <SubscriptionsOut20>订阅将在20天后到期!</SubscriptionsOut20>
     <SuccessfullyRenewed>您的订阅已成功更新!</SuccessfullyRenewed>
@@ -2737,11 +2755,21 @@
     <VersionCreatedFromItem>从项目"{0}"中创建。</VersionCreatedFromItem>
     <VersionLoadedFromFile>从文件"{0}"中加载。</VersionLoadedFromFile>
     <VersionNewItemCreation>新项目创建。</VersionNewItemCreation>
+    <VersionNotInSubscription>您的订阅不包含此版本</VersionNotInSubscription>
     <Warning>警告</Warning>
     <WindowClosePreventWhileUploading>部分文件正在上传，现在关闭页面会丢失。您确定要关闭页面吗？</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>找不到具有指定键的"{0}"!</WithSpecifiedKeyIsNotFound>
     <WouldYouLikeToUpdateNow>您想现在更新吗?</WouldYouLikeToUpdateNow>
+    <YourGracePeriodEndsInDays>您的宽限期将在 {0} 天后结束</YourGracePeriodEndsInDays>
+    <YourSubscriptionEndsInDays>您的订阅将在 {0} 天后结束</YourSubscriptionEndsInDays>
+    <YourSubscriptionHasBeenBlocked>您的订阅已被锁定</YourSubscriptionHasBeenBlocked>
+    <YourSubscriptionHasBeenRenewed>您的订阅已续订</YourSubscriptionHasBeenRenewed>
+    <YourSubscriptionHasExpired>您的订阅已过期</YourSubscriptionHasExpired>
+    <YourSubscriptionNeedsAttention>您的订阅需要关注</YourSubscriptionNeedsAttention>
     <YourTimeSessionHasExpired>您的时间会话已过期!</YourTimeSessionHasExpired>
+    <YourTrialEndsInDays>您的试用将在 {0} 天后结束</YourTrialEndsInDays>
+    <YourTrialEndsToday>您的试用将于今天结束</YourTrialEndsToday>
+    <YourTrialEndsTomorrow>您的试用将于明天结束</YourTrialEndsTomorrow>
     <YourTrialHasExpired>您的试用期已过</YourTrialHasExpired>
     <YourTrialWillExpire>您的试用将在{0}天内过期</YourTrialWillExpire>
     <YouUsingTrialVersion>您正在使用试用版!</YouUsingTrialVersion>
@@ -2751,6 +2779,7 @@
     <AssemblyLoadedSuccessfully>程序集已成功加载。</AssemblyLoadedSuccessfully>
     <AssemblyNotFound>不能找到程序集{0}来使用{1}连接!</AssemblyNotFound>
     <Author>作者</Author>
+    <ChooseDataAdapter>若要连接到 {0}，请下载以下 NuGet 包之一。</ChooseDataAdapter>
     <Dependencies>依赖关系:</Dependencies>
     <Download>下载</Download>
     <DownloadAll>全部下载</DownloadAll>
