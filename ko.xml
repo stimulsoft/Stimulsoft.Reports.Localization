@@ -2629,8 +2629,8 @@
     <Error>오류</Error>
     <ExecutionError>실행 오류</ExecutionError>
     <ExpressionValidationFailed>표현식 검증에 실패했습니다.</ExpressionValidationFailed>
-    <FileCreatedInNewerVersion>이 파일은 버전 {0}에서 만들어졌으며, 현재 사용 중인 버전은 {1}입니다. 파일을 열려면 최신 버전으로 업데이트하세요.</FileCreatedInNewerVersion>
-    <FileNeedsNewerVersion>이 파일에는 최신 버전이 필요합니다</FileNeedsNewerVersion>
+    <FileCreatedInNewerVersion>이 파일을 열려면 버전 {0}이(가) 필요하지만 현재 버전 {1}을(를) 사용 중입니다. 소프트웨어를 업데이트하세요.</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>소프트웨어가 최신 버전이 아닙니다</FileNeedsNewerVersion>
     <GracePeriod>가입 유예 기간이 {0}일 후에 만료됩니다.</GracePeriod>
     <IsIdentical>"{0}"및 "{1}"은 동일합니다.</IsIdentical>
     <IsNotAuthorized>"{0}"에 대한 액세스 권한이 없습니다!</IsNotAuthorized>
@@ -2719,7 +2719,7 @@
     <QuotaMaximumUsersCountExceeded>최대 사용자 수를 초과했습니다.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>작업 영역의 최대 수를 초과했습니다.</QuotaMaximumWorkspacesCountExceeded>
     <RenewSubscriptionBeforeGracePeriodEnds>{0} 구독이 만료되었습니다. 유예 기간이 끝나기 전에 갱신하세요.</RenewSubscriptionBeforeGracePeriodEnds>
-    <RenewSubscriptionToGetNewVersions>새 버전을 계속 받으려면 {0} 구독을 갱신하세요.</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersions>지속적인 개선 사항을 계속 받으려면 {0} 구독을 갱신하세요.</RenewSubscriptionToGetNewVersions>
     <RenewSubscriptionToGetNewVersionsAgain>새 버전을 다시 받으려면 {0} 구독을 갱신하세요.</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>스케줄러는 실행할 수 없습니다!</SchedulerCantRunItSelf>
     <SeatLimitUpgradeBeforeDate>구독에 포함된 것보다 많은 개발자 시트가 사용되고 있습니다. 중단 없이 계속 작업하려면 {0} 전에 플랜을 업그레이드하세요.</SeatLimitUpgradeBeforeDate>
@@ -2727,7 +2727,7 @@
     <SessionTimeOut>세션 타임 아웃</SessionTimeOut>
     <SnapshotAlreadyProcessed>보고서 스냅 샷은 이미 처리되어 있습니다!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>지정된 항목은 "{0}"은 없습니다!</SpecifiedItemIsNot>
-    <SubscriptionEndedBeforeVersion>{0} 구독이 이 버전이 출시되기 전인 {1}에 종료되었습니다. 이 버전을 사용하려면 구독을 갱신하세요.</SubscriptionEndedBeforeVersion>
+    <SubscriptionEndedBeforeVersion>유지 관리 기간이 버전 {1} 출시 전인 {0}에 종료되었습니다. 최신 버전을 중단 없이 계속 사용하려면 구독을 갱신하세요.</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>당신의 구독이 만료되었습니다!</SubscriptionExpired>
     <SubscriptionExpiredDate>구독은 {0}에 만료됩니다.</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>{0}일 후에 만료</SubscriptionExpiredDays>
@@ -2737,7 +2737,7 @@
     <SubscriptionLimitExceeded>구독의 개발자 좌석 수 한도를 초과했습니다. 응용 프로그램이 종료됩니다. 계속 사용하려면 구독을 업그레이드하세요.</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>구독 한도</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>현재 구독에서 허용된 개발자 좌석 수를 초과하여 사용 중입니다. 중단 없이 계속 작업하려면 구독을 업그레이드하는 것을 권장합니다.</SubscriptionLimitWarning>
-    <SubscriptionNowIncludes>이제 구독에 {0}이(가) 포함됩니다. 구매해 주셔서 감사합니다.</SubscriptionNowIncludes>
+    <SubscriptionNowIncludes>이제 구독에 {0}이(가) 포함됩니다. Stimulsoft를 선택해 주셔서 감사합니다.</SubscriptionNowIncludes>
     <SubscriptionsOut10>정기 구독 만료 후 10 일이 경과했습니다!</SubscriptionsOut10>
     <SubscriptionsOut20>구독 기간은 20 일에 끝납니다!</SubscriptionsOut20>
     <SuccessfullyRenewed>당신의 가입이 성공적으로 업데이트되었습니다!</SuccessfullyRenewed>
@@ -2753,7 +2753,7 @@
     <VersionCreatedFromItem>항목 "{0}"에서 작성되었습니다.</VersionCreatedFromItem>
     <VersionLoadedFromFile>파일 "{0}"에서로드되었습니다.</VersionLoadedFromFile>
     <VersionNewItemCreation>새 항목을 만듭니다.</VersionNewItemCreation>
-    <VersionNotInSubscription>이 버전은 구독에 포함되어 있지 않습니다</VersionNotInSubscription>
+    <VersionNotInSubscription>이 버전은 구독 대상에 포함되지 않습니다</VersionNotInSubscription>
     <Warning>경고</Warning>
     <WindowClosePreventWhileUploading>당신이 페이지를 닫으면 없어지 파일도 있습니다. 페이지를 닫으시겠습니까?</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>지정된 키를 가지는 "{0}"을 찾을 수 없습니다!</WithSpecifiedKeyIsNotFound>

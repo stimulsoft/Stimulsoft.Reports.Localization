@@ -2635,8 +2635,8 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <Error>Greška</Error>
     <ExecutionError>Greška izvršenja</ExecutionError>
     <ExpressionValidationFailed>Validacija izraza nije uspjela.</ExpressionValidationFailed>
-    <FileCreatedInNewerVersion>Datoteka je izrađena u verziji {0}, a vi koristite verziju {1}. Ažurirajte na najnoviju verziju kako biste je otvorili.</FileCreatedInNewerVersion>
-    <FileNeedsNewerVersion>Za ovu datoteku potrebna je novija verzija</FileNeedsNewerVersion>
+    <FileCreatedInNewerVersion>Za otvaranje ove datoteke potrebna je verzija {0}, a vi koristite verziju {1}. Ažurirajte softver.</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>Softver je zastario</FileNeedsNewerVersion>
     <GracePeriod>Razdoblje odgode vaše pretplate ističe za {0} dana.</GracePeriod>
     <IsIdentical>"{0}" i "{1}" su identični."</IsIdentical>
     <IsNotAuthorized>Nema pristupa u "{0}"!</IsNotAuthorized>
@@ -2725,7 +2725,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <QuotaMaximumUsersCountExceeded>Premašen maksimalni broj korisnika.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>Premašen maksimalni broj radnih prostora.</QuotaMaximumWorkspacesCountExceeded>
     <RenewSubscriptionBeforeGracePeriodEnds>Vaša pretplata za {0} je istekla. Obnovite je prije isteka razdoblja odgode.</RenewSubscriptionBeforeGracePeriodEnds>
-    <RenewSubscriptionToGetNewVersions>Obnovite pretplatu za {0} kako biste i dalje dobivali nove verzije.</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersions>Obnovite pretplatu za {0} kako biste pratili stalna poboljšanja.</RenewSubscriptionToGetNewVersions>
     <RenewSubscriptionToGetNewVersionsAgain>Obnovite pretplatu za {0} kako biste ponovno dobivali nove verzije.</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>Planer ne može pokrenuti samoga sebe!</SchedulerCantRunItSelf>
     <SeatLimitUpgradeBeforeDate>Vaša pretplata koristi više razvojnih mjesta nego što uključuje. Nadogradite svoj plan prije {0} kako biste nastavili raditi bez prekida.</SeatLimitUpgradeBeforeDate>
@@ -2733,7 +2733,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <SessionTimeOut>Timeout sesije</SessionTimeOut>
     <SnapshotAlreadyProcessed>Snimak izvještaja je već procesuiran!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>Specificirana stavka nije "{0}"!</SpecifiedItemIsNot>
-    <SubscriptionEndedBeforeVersion>Vaša pretplata za {0} istekla je {1}, prije izlaska ove verzije. Obnovite je kako biste koristili ovu verziju.</SubscriptionEndedBeforeVersion>
+    <SubscriptionEndedBeforeVersion>Vaše razdoblje održavanja isteklo je {0}, prije izlaska verzije {1}. Obnovite pretplatu kako biste bez prekida nastavili koristiti najnovije verzije.</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>Vaša pretplata je istekla!</SubscriptionExpired>
     <SubscriptionExpiredDate>Vaša pretplata ističe u {0}</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>Ističe za {0} dana</SubscriptionExpiredDays>
@@ -2743,7 +2743,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <SubscriptionLimitExceeded>Vaša pretplata je prekoračila ograničenje broja developerskih mjesta. Aplikacija će se zatvoriti. Molim nadogradite svoj plan kako bi nastavili.</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>Limit pretplate</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>Vaša pretplata koristi više developerskih mjesta nego što je dopušteno. Molim razmotrite nadogradnju svog plana kako bi neometano nastavili s radom.</SubscriptionLimitWarning>
-    <SubscriptionNowIncludes>Vaša pretplata sada uključuje {0}. Hvala vam na kupnji.</SubscriptionNowIncludes>
+    <SubscriptionNowIncludes>Vaša pretplata sada uključuje {0}. Hvala vam što ste odabrali Stimulsoft.</SubscriptionNowIncludes>
     <SubscriptionsOut10>10 dana preostalo do isteka pretplate!</SubscriptionsOut10>
     <SubscriptionsOut20>Pretplata ističe za 20 dana!</SubscriptionsOut20>
     <SuccessfullyRenewed>Vaša pretplata je uspješno obnovljena!</SuccessfullyRenewed>
@@ -2759,7 +2759,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <VersionCreatedFromItem>Kreirano iz stavke "{0}".</VersionCreatedFromItem>
     <VersionLoadedFromFile>Učitano iz datoteke "{0}".</VersionLoadedFromFile>
     <VersionNewItemCreation>Kreiranje nove stavke.</VersionNewItemCreation>
-    <VersionNotInSubscription>Ova verzija nije uključena u vašu pretplatu</VersionNotInSubscription>
+    <VersionNotInSubscription>Ova verzija nije obuhvaćena vašom pretplatom</VersionNotInSubscription>
     <Warning>Upozorenje</Warning>
     <WindowClosePreventWhileUploading>Neke datoteke se trenutno prenose. Ako zatvorite stranicu, biti će izgubljene. Jeste li sigurni da želite zatvoriti stranicu?</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>"{0}" sa specificiranim ključem nije pronađeno!</WithSpecifiedKeyIsNotFound>

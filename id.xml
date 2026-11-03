@@ -2621,8 +2621,8 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <Error>Kesalahan</Error>
     <ExecutionError>kesalahan Eksekusi</ExecutionError>
     <ExpressionValidationFailed>Validasi ekspresi gagal.</ExpressionValidationFailed>
-    <FileCreatedInNewerVersion>File ini dibuat di versi {0}, sedangkan Anda menggunakan versi {1}. Perbarui ke versi terbaru untuk membukanya.</FileCreatedInNewerVersion>
-    <FileNeedsNewerVersion>File ini memerlukan versi yang lebih baru</FileNeedsNewerVersion>
+    <FileCreatedInNewerVersion>File ini memerlukan versi {0} untuk dibuka, tetapi Anda menggunakan versi {1}. Perbarui perangkat lunak.</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>Perangkat lunak sudah usang</FileNeedsNewerVersion>
     <GracePeriod>Masa tenggang langganan Anda akan berakhir dalam {0} hari.</GracePeriod>
     <IsIdentical>"{0}" dan "{1}" identik."</IsIdentical>
     <IsNotAuthorized>Tidak ada akses ke "{0}"!</IsNotAuthorized>
@@ -2711,7 +2711,7 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <QuotaMaximumUsersCountExceeded>pengguna maksimum hitungan melebihi.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>ruang kerja maksimum hitungan terlampaui.</QuotaMaximumWorkspacesCountExceeded>
     <RenewSubscriptionBeforeGracePeriodEnds>Langganan {0} Anda telah berakhir. Perpanjang sebelum masa tenggang berakhir.</RenewSubscriptionBeforeGracePeriodEnds>
-    <RenewSubscriptionToGetNewVersions>Perpanjang langganan {0} Anda untuk terus mendapatkan versi baru.</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersions>Perpanjang langganan {0} Anda agar tetap mendapatkan peningkatan yang berkelanjutan.</RenewSubscriptionToGetNewVersions>
     <RenewSubscriptionToGetNewVersionsAgain>Perpanjang langganan {0} Anda untuk kembali mendapatkan versi baru.</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>scheduler tidak bisa berjalan sendiri!</SchedulerCantRunItSelf>
     <SeatLimitUpgradeBeforeDate>Langganan Anda menggunakan lebih banyak kursi pengembang daripada yang termasuk di dalamnya. Tingkatkan paket Anda sebelum {0} agar dapat terus bekerja tanpa gangguan.</SeatLimitUpgradeBeforeDate>
@@ -2719,7 +2719,7 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <SessionTimeOut>Waktu tunggu sesi</SessionTimeOut>
     <SnapshotAlreadyProcessed>Laporan snapshot sudah diproses!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>Item yang ditentukan tidak "{0}"!</SpecifiedItemIsNot>
-    <SubscriptionEndedBeforeVersion>Langganan {0} Anda berakhir pada {1}, sebelum versi ini dirilis. Perpanjang langganan untuk menggunakan versi ini.</SubscriptionEndedBeforeVersion>
+    <SubscriptionEndedBeforeVersion>Periode pemeliharaan Anda berakhir pada {0}, sebelum versi {1} dirilis. Perpanjang langganan Anda untuk terus menggunakan versi terbaru tanpa gangguan.</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>Langganan Anda telah kedaluwarsa!</SubscriptionExpired>
     <SubscriptionExpiredDate>Langganan Anda akan berakhir pada {0}</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>Kedaluwarsa dalam {0} hari</SubscriptionExpiredDays>
@@ -2729,7 +2729,7 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <SubscriptionLimitExceeded>Langganan Anda telah melampaui batas kursi pengembang. Aplikasi akan ditutup. Silakan tingkatkan paket Anda untuk melanjutkan.</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>Batas langganan</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>Langganan Anda menggunakan lebih banyak kursi pengembang daripada yang diizinkan. Harap pertimbangkan untuk meningkatkan paket Anda agar dapat terus bekerja tanpa gangguan.</SubscriptionLimitWarning>
-    <SubscriptionNowIncludes>Langganan Anda kini mencakup {0}. Terima kasih atas pembelian Anda.</SubscriptionNowIncludes>
+    <SubscriptionNowIncludes>Langganan Anda kini mencakup {0}. Terima kasih telah memilih Stimulsoft.</SubscriptionNowIncludes>
     <SubscriptionsOut10>10 hari tersisa saat langganan berakhir!</SubscriptionsOut10>
     <SubscriptionsOut20>Periode berlangganan akan berakhir dalam 20 hari</SubscriptionsOut20>
     <SuccessfullyRenewed>Langganan Anda telah berhasil diperbarui!</SuccessfullyRenewed>
@@ -2745,7 +2745,7 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <VersionCreatedFromItem>Dibuat dari item "{0}".</VersionCreatedFromItem>
     <VersionLoadedFromFile>Loaded dari file "{0}".</VersionLoadedFromFile>
     <VersionNewItemCreation>pembuatan item baru.</VersionNewItemCreation>
-    <VersionNotInSubscription>Versi ini tidak termasuk dalam langganan Anda</VersionNotInSubscription>
+    <VersionNotInSubscription>Versi ini tidak tercakup dalam langganan Anda</VersionNotInSubscription>
     <Warning>Peringatan</Warning>
     <WindowClosePreventWhileUploading>Beberapa file upload sekarang, jika Anda menutup halaman mereka akan hilang. Apakah Anda yakin ingin menutup halaman?</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>"{0}" dengan kunci yang ditentukan tidak ditemukan!</WithSpecifiedKeyIsNotFound>

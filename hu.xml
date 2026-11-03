@@ -2450,8 +2450,8 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <EndDateShouldBeGreaterThanCurrentDate>A záró dátumnak nagyobbnak kell lennie az aktuális dátumnál!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>A záró dátumnak nagyobbnak kell lennie a kezdő dátumnál!</EndDateShouldBeGreaterThanStartDate>
     <ExecutionError>Végrehajtási hiba</ExecutionError>
-    <FileCreatedInNewerVersion>A fájl a(z) {0} verzióban készült, Ön pedig a(z) {1} verziót használja. A megnyitáshoz frissítsen a legújabb verzióra.</FileCreatedInNewerVersion>
-    <FileNeedsNewerVersion>Ehhez a fájlhoz újabb verzió szükséges</FileNeedsNewerVersion>
+    <FileCreatedInNewerVersion>A fájl megnyitásához a(z) {0} verzió szükséges, Ön azonban a(z) {1} verziót használja. Frissítse a szoftvert.</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>A szoftver elavult</FileNeedsNewerVersion>
     <IsIdentical>"{0}" és "{1}" megyegyeznek."</IsIdentical>
     <IsNotAuthorized>Nincs hozzáférése a következőhöz "{0}"!</IsNotAuthorized>
     <IsNotCorrect>"{0}" helytelen!</IsNotCorrect>
@@ -2530,7 +2530,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <QuotaMaximumUsersCountExceeded>Maximális felhasználószám meghaladva.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>Maximális munkaterületek száma meghaladva.</QuotaMaximumWorkspacesCountExceeded>
     <RenewSubscriptionBeforeGracePeriodEnds>A(z) {0} előfizetése lejárt. Újítsa meg a türelmi idő vége előtt.</RenewSubscriptionBeforeGracePeriodEnds>
-    <RenewSubscriptionToGetNewVersions>Újítsa meg a(z) {0} előfizetését, hogy továbbra is megkapja az új verziókat.</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersions>Újítsa meg a(z) {0} előfizetését, hogy lépést tartson a folyamatos fejlesztésekkel.</RenewSubscriptionToGetNewVersions>
     <RenewSubscriptionToGetNewVersionsAgain>Újítsa meg a(z) {0} előfizetését, hogy újra megkapja az új verziókat.</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>Az ütemező nem futtathatja önmagát!</SchedulerCantRunItSelf>
     <SeatLimitUpgradeBeforeDate>Az előfizetése több fejlesztői helyet használ, mint amennyit tartalmaz. Bővítse csomagját {0} előtt, hogy megszakítás nélkül dolgozhasson tovább.</SeatLimitUpgradeBeforeDate>
@@ -2538,7 +2538,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <SessionTimeOut>Munkamenet időtúllépés</SessionTimeOut>
     <SnapshotAlreadyProcessed>A jelentés pillanatkép már fel lett dolgozva!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>A megadott elem nem "{0}"!</SpecifiedItemIsNot>
-    <SubscriptionEndedBeforeVersion>A(z) {0} előfizetése {1} napján lejárt, még a verzió megjelenése előtt. Újítsa meg, hogy ezt a verziót használhassa.</SubscriptionEndedBeforeVersion>
+    <SubscriptionEndedBeforeVersion>Az Ön karbantartási időszaka {0} napján lejárt, még a(z) {1} verzió megjelenése előtt. Újítsa meg előfizetését, hogy megszakítás nélkül használhassa a legújabb verziókat.</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>Az ön előfizetése lejárt!</SubscriptionExpired>
     <SubscriptionExpiredDate>Előfizetésed {0}. lejár</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>{0} napon belül lejár</SubscriptionExpiredDays>
@@ -2546,7 +2546,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <SubscriptionExpiredShort>Előfizetés lejárt</SubscriptionExpiredShort>
     <SubscriptionIsActiveUntil>A(z) {0} előfizetése mostantól {1}-ig érvényes.</SubscriptionIsActiveUntil>
     <SubscriptionLimitTitle>Előfizetési korlát</SubscriptionLimitTitle>
-    <SubscriptionNowIncludes>Az előfizetése mostantól ezt is tartalmazza: {0}. Köszönjük a vásárlást.</SubscriptionNowIncludes>
+    <SubscriptionNowIncludes>Az előfizetése mostantól ezt is tartalmazza: {0}. Köszönjük, hogy a Stimulsoftot választotta.</SubscriptionNowIncludes>
     <SubscriptionsOut10>10 nap van hátra az előfizetés lejártáig!</SubscriptionsOut10>
     <SubscriptionsOut20>Az előfizetés 20 nap múlva lejár!</SubscriptionsOut20>
     <SuccessfullyRenewed>Az előfizetése sikeresen frissítve!</SuccessfullyRenewed>
@@ -2556,7 +2556,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <VersionCreatedFromItem>"{0}" elemből létrehozva.</VersionCreatedFromItem>
     <VersionLoadedFromFile>"{0}" fájlból betöltve.</VersionLoadedFromFile>
     <VersionNewItemCreation>Új elem létrehozása.</VersionNewItemCreation>
-    <VersionNotInSubscription>Ez a verzió nem része az előfizetésének</VersionNotInSubscription>
+    <VersionNotInSubscription>Ezt a verziót nem fedi le az előfizetése</VersionNotInSubscription>
     <Warning>Figyelmeztetés</Warning>
     <WindowClosePreventWhileUploading>Fájlok feltöltése zajlik, ha bezárja az oldalt ezek elvesznek. Biztosan bezárja az oldalt?</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>"{0}" a megadott kulccsal nem található!</WithSpecifiedKeyIsNotFound>

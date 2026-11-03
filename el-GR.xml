@@ -2620,8 +2620,8 @@
     <Error>Σφάλμα</Error>
     <ExecutionError>Σφάλμα εκτέλεσης</ExecutionError>
     <ExpressionValidationFailed>Η επικύρωση της έκφρασης απέτυχε.</ExpressionValidationFailed>
-    <FileCreatedInNewerVersion>Το αρχείο δημιουργήθηκε στην έκδοση {0} και χρησιμοποιείτε την έκδοση {1}. Ενημερώστε στην τελευταία έκδοση για να το ανοίξετε.</FileCreatedInNewerVersion>
-    <FileNeedsNewerVersion>Αυτό το αρχείο χρειάζεται νεότερη έκδοση</FileNeedsNewerVersion>
+    <FileCreatedInNewerVersion>Για να ανοίξει αυτό το αρχείο απαιτείται η έκδοση {0}, αλλά χρησιμοποιείτε την έκδοση {1}. Ενημερώστε το λογισμικό.</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>Το λογισμικό δεν είναι ενημερωμένο</FileNeedsNewerVersion>
     <GracePeriod>Η περίοδος χάριτος της συνδρομής σας λήγει σε {0} ημέρες.</GracePeriod>
     <IsIdentical>Τα "{0}" και "{1}" είναι ολόιδια."</IsIdentical>
     <IsNotAuthorized>Δεν υπάρχει πρόσβαση στο "{0}"!</IsNotAuthorized>
@@ -2710,7 +2710,7 @@
     <QuotaMaximumUsersCountExceeded>Ξεπεράστηκε ο μέγιστος αριθμός χρηστών.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>Ξεπεράστηκε ο μέγιστος αριθμός χώρων εργασίας.</QuotaMaximumWorkspacesCountExceeded>
     <RenewSubscriptionBeforeGracePeriodEnds>Η συνδρομή σας για το {0} έχει λήξει. Ανανεώστε την πριν τελειώσει η περίοδος χάριτος.</RenewSubscriptionBeforeGracePeriodEnds>
-    <RenewSubscriptionToGetNewVersions>Ανανεώστε τη συνδρομή σας για το {0} για να συνεχίσετε να λαμβάνετε τις νέες εκδόσεις.</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersions>Ανανεώστε τη συνδρομή σας για το {0} για να παραμένετε ενημερωμένοι με τις συνεχείς βελτιώσεις.</RenewSubscriptionToGetNewVersions>
     <RenewSubscriptionToGetNewVersionsAgain>Ανανεώστε τη συνδρομή σας για το {0} για να λαμβάνετε ξανά τις νέες εκδόσεις.</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>Ο χρονοπρογραμματιστής δεν μπορεί να τρέξει τον εαυτό του!</SchedulerCantRunItSelf>
     <SeatLimitUpgradeBeforeDate>Η συνδρομή σας χρησιμοποιεί περισσότερες θέσεις προγραμματιστών από όσες περιλαμβάνει. Αναβαθμίστε το πρόγραμμά σας πριν από τις {0} για να συνεχίσετε να εργάζεστε χωρίς διακοπή.</SeatLimitUpgradeBeforeDate>
@@ -2718,7 +2718,7 @@
     <SessionTimeOut>Λήξη συνεδρίας</SessionTimeOut>
     <SnapshotAlreadyProcessed>Το στιγμιότυπο της αναφοράς έχει ήδη επεξεργαστεί!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>Το καθορισμένο στοιχείο δεν είναι "{0}"!</SpecifiedItemIsNot>
-    <SubscriptionEndedBeforeVersion>Η συνδρομή σας για το {0} έληξε στις {1}, πριν κυκλοφορήσει αυτή η έκδοση. Ανανεώστε την για να χρησιμοποιήσετε αυτή την έκδοση.</SubscriptionEndedBeforeVersion>
+    <SubscriptionEndedBeforeVersion>Η περίοδος συντήρησής σας έληξε στις {0}, πριν κυκλοφορήσει η έκδοση {1}. Ανανεώστε τη συνδρομή σας για να συνεχίσετε να χρησιμοποιείτε τις πιο πρόσφατες εκδόσεις χωρίς διακοπή.</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>Η συνδρομή σας έχει λήξει!</SubscriptionExpired>
     <SubscriptionExpiredDate>Η συνδρομή σας θα λήξει στις {0}</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>Λήγει σε {0} ημέρες</SubscriptionExpiredDays>
@@ -2728,7 +2728,7 @@
     <SubscriptionLimitExceeded>Η συνδρομή σας έχει υπερβεί το όριο θέσεων προγραμματιστή. Η εφαρμογή θα κλείσει. Παρακαλώ αναβαθμίστε το πρόγραμμά σας για να συνεχίσετε.</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>Όριο συνδρομής</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>Η συνδρομή σας χρησιμοποιεί περισσότερες θέσεις προγραμματιστή από τις επιτρεπόμενες. Παρακαλώ εξετάστε το ενδεχόμενο αναβάθμισης του προγράμματός σας για να συνεχίσετε να εργάζεστε χωρίς διακοπή.</SubscriptionLimitWarning>
-    <SubscriptionNowIncludes>Η συνδρομή σας περιλαμβάνει πλέον {0}. Σας ευχαριστούμε για την αγορά.</SubscriptionNowIncludes>
+    <SubscriptionNowIncludes>Η συνδρομή σας περιλαμβάνει πλέον {0}. Σας ευχαριστούμε που επιλέξατε τη Stimulsoft.</SubscriptionNowIncludes>
     <SubscriptionsOut10>Απομένουν 10 μέρες μέχρι την λήξη της συνδρομής!</SubscriptionsOut10>
     <SubscriptionsOut20>Η περίοδος συνδρομής θα λήξει σε 20 μέρες!</SubscriptionsOut20>
     <SuccessfullyRenewed>Η συνδρομή σας ανανεώθηκε επιτυχώς!</SuccessfullyRenewed>
@@ -2744,7 +2744,7 @@
     <VersionCreatedFromItem>Δημιουργήθηκε από το στοιχείο "{0}".</VersionCreatedFromItem>
     <VersionLoadedFromFile>Φορτώθηκε από το αρχείο "{0}".</VersionLoadedFromFile>
     <VersionNewItemCreation>Δημιουργία νέου στοιχείου.</VersionNewItemCreation>
-    <VersionNotInSubscription>Αυτή η έκδοση δεν περιλαμβάνεται στη συνδρομή σας</VersionNotInSubscription>
+    <VersionNotInSubscription>Αυτή η έκδοση δεν καλύπτεται από τη συνδρομή σας</VersionNotInSubscription>
     <Warning>Προειδοποίηση</Warning>
     <WindowClosePreventWhileUploading>Κάποια αρχεία μεταφορτώνονται αυτή τη στιγμή και αν κλείσετε τη σελίδα θα χαθούν. Είστε βέβαιος ότι θέλετε να κλείσετε τη σελίδα;</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>"{0}" με το καθορισμένο κλειδί δεν βρέθηκε!</WithSpecifiedKeyIsNotFound>

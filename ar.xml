@@ -2016,8 +2016,8 @@
     <EndDateShouldBeGreaterThanCurrentDate>!تاريخ النهاية يجب أن يكون أكبر من التاريخ الحالي </EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>!تاريخ النهاية يجب أن يكون أكبر من تاريخ البداية</EndDateShouldBeGreaterThanStartDate>
     <ExecutionError>خطأ في التنفيذ</ExecutionError>
-    <FileCreatedInNewerVersion>تم إنشاء الملف في الإصدار {0}، وأنت تستخدم الإصدار {1}. حدّث إلى أحدث إصدار لفتحه.</FileCreatedInNewerVersion>
-    <FileNeedsNewerVersion>يتطلب هذا الملف إصدارًا أحدث</FileNeedsNewerVersion>
+    <FileCreatedInNewerVersion>يتطلب فتح هذا الملف الإصدار {0}، لكنك تستخدم الإصدار {1}. يُرجى تحديث البرنامج.</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>البرنامج قديم</FileNeedsNewerVersion>
     <IsNotAuthorized>لا توجد صلاحية لـ "{0}"!</IsNotAuthorized>
     <IsNotCorrect>"{0}" غير صحيح!</IsNotCorrect>
     <IsNotDeleted>"{0}" لم يتم حذفه!</IsNotDeleted>
@@ -2079,7 +2079,7 @@
     <QuotaMaximumUsersCountExceeded>.تجاوز الحد الأعلى لعدد المستخدمين</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>.تجاوز الحد الأعلى لعدد مساحات العمل</QuotaMaximumWorkspacesCountExceeded>
     <RenewSubscriptionBeforeGracePeriodEnds>انتهى اشتراك {0}. جدِّده قبل انتهاء فترة السماح.</RenewSubscriptionBeforeGracePeriodEnds>
-    <RenewSubscriptionToGetNewVersions>جدِّد اشتراك {0} لمواصلة الحصول على الإصدارات الجديدة.</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersions>جدِّد اشتراك {0} لتبقى مواكبًا للتحسينات المستمرة.</RenewSubscriptionToGetNewVersions>
     <RenewSubscriptionToGetNewVersionsAgain>جدِّد اشتراك {0} لتحصل على الإصدارات الجديدة مجددًا.</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>!لا يمكن للمجدول تشغيل نفسه</SchedulerCantRunItSelf>
     <SeatLimitUpgradeBeforeDate>يستخدم اشتراكك مقاعد مطورين أكثر مما يتضمن. قم بترقية خطتك قبل {0} لمواصلة العمل دون انقطاع.</SeatLimitUpgradeBeforeDate>
@@ -2087,16 +2087,16 @@
     <SessionTimeOut>انتهى وقت الجلسة</SessionTimeOut>
     <SnapshotAlreadyProcessed>لقطة التقرير تم تنفيذها!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>العنصر المحدد ليس "{0}"!</SpecifiedItemIsNot>
-    <SubscriptionEndedBeforeVersion>انتهى اشتراك {0} في {1}، قبل صدور هذا الإصدار. جدِّده لاستخدام هذا الإصدار.</SubscriptionEndedBeforeVersion>
+    <SubscriptionEndedBeforeVersion>انتهت فترة الصيانة الخاصة بك في {0}، قبل صدور الإصدار {1}. جدِّد اشتراكك لمواصلة استخدام أحدث الإصدارات دون انقطاع.</SubscriptionEndedBeforeVersion>
     <SubscriptionIsActiveUntil>اشتراك {0} ساري المفعول الآن حتى {1}.</SubscriptionIsActiveUntil>
     <SubscriptionLimitTitle>حد الاشتراك</SubscriptionLimitTitle>
-    <SubscriptionNowIncludes>يشمل اشتراكك الآن {0}. شكرًا لك على الشراء.</SubscriptionNowIncludes>
+    <SubscriptionNowIncludes>يشمل اشتراكك الآن {0}. شكرًا لاختيارك Stimulsoft.</SubscriptionNowIncludes>
     <VersionCopyFromItem>نسخ من العنصر "{0}".</VersionCopyFromItem>
     <VersionCreatedFromFile>انشاء من ملف "{0}".</VersionCreatedFromFile>
     <VersionCreatedFromItem>انشاء من عنصر "{0}".</VersionCreatedFromItem>
     <VersionLoadedFromFile>تحميل من ملف "{0}".</VersionLoadedFromFile>
     <VersionNewItemCreation>انشاء عنصر جديد.</VersionNewItemCreation>
-    <VersionNotInSubscription>هذا الإصدار غير مشمول في اشتراكك</VersionNotInSubscription>
+    <VersionNotInSubscription>هذا الإصدار لا يشمله اشتراكك</VersionNotInSubscription>
     <WindowClosePreventWhileUploading>جاري رفع بعض الملفات, إذا أغلقت الصفحة فسيتم فقدانها. هل أنت متأكد من أنك تود إغلاق الصفحة?</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>لم يتم العثور على "{0}" بالمفتاح المحدد!</WithSpecifiedKeyIsNotFound>
     <YourGracePeriodEndsInDays>تنتهي فترة السماح خلال {0} أيام</YourGracePeriodEndsInDays>

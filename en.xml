@@ -2628,8 +2628,8 @@
     <Error>Error</Error>
     <ExecutionError>Execution error</ExecutionError>
     <ExpressionValidationFailed>Expression validation failed.</ExpressionValidationFailed>
-    <FileCreatedInNewerVersion>The file was created in version {0}, and you use version {1}. Update to the latest version to open it.</FileCreatedInNewerVersion>
-    <FileNeedsNewerVersion>This file needs a newer version</FileNeedsNewerVersion>
+    <FileCreatedInNewerVersion>This file requires version {0} to open, but you are using version {1}. Please update the software.</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>The software is out of date</FileNeedsNewerVersion>
     <GracePeriod>The grace period of your subscription will expire in {0} days.</GracePeriod>
     <IsIdentical>"{0}" and "{1}" are identical.</IsIdentical>
     <IsNotAuthorized>No access to "{0}"!</IsNotAuthorized>
@@ -2718,7 +2718,7 @@
     <QuotaMaximumUsersCountExceeded>Maximum users exceeded.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>Maximum workspaces exceeded.</QuotaMaximumWorkspacesCountExceeded>
     <RenewSubscriptionBeforeGracePeriodEnds>Your {0} subscription has expired. Renew it before the grace period ends.</RenewSubscriptionBeforeGracePeriodEnds>
-    <RenewSubscriptionToGetNewVersions>Renew your {0} subscription to keep getting new versions.</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersions>Renew your {0} subscription to stay up&#160;to&#160;date with ongoing improvements.</RenewSubscriptionToGetNewVersions>
     <RenewSubscriptionToGetNewVersionsAgain>Renew your {0} subscription to get new versions again.</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>The scheduler cannot run itself!</SchedulerCantRunItSelf>
     <SeatLimitUpgradeBeforeDate>Your subscription uses more developer seats than it includes. Upgrade your plan before {0} to keep working without interruption.</SeatLimitUpgradeBeforeDate>
@@ -2726,7 +2726,7 @@
     <SessionTimeOut>Session timeout</SessionTimeOut>
     <SnapshotAlreadyProcessed>The report snapshot is already processed!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>The specified item is not "{0}"!</SpecifiedItemIsNot>
-    <SubscriptionEndedBeforeVersion>Your {0} subscription ended on {1}, before this version was released. Renew it to use this version.</SubscriptionEndedBeforeVersion>
+    <SubscriptionEndedBeforeVersion>Your maintenance period ended on {0}, before version {1} was released. Renew your subscription to continue using the latest versions without interruption.</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>Your subscription has expired!</SubscriptionExpired>
     <SubscriptionExpiredDate>Your subscription will expire on {0}</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>Expires in {0} days</SubscriptionExpiredDays>
@@ -2736,7 +2736,7 @@
     <SubscriptionLimitExceeded>Your subscription has exceeded the developer seat limit. The application will be closed. Please upgrade your plan to continue.</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>Subscription limit</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>Your subscription is using more developer seats than allowed. Please consider upgrading your plan to keep working without interruption.</SubscriptionLimitWarning>
-    <SubscriptionNowIncludes>Your subscription now includes {0}. Thank you for your purchase.</SubscriptionNowIncludes>
+    <SubscriptionNowIncludes>Your subscription now includes {0}. Thank you for choosing Stimulsoft.</SubscriptionNowIncludes>
     <SubscriptionsOut10>10 days left until the subscription expires!</SubscriptionsOut10>
     <SubscriptionsOut20>The subscription period will expire in 20 days!</SubscriptionsOut20>
     <SuccessfullyRenewed>Your subscription has been successfully updated!</SuccessfullyRenewed>
@@ -2752,7 +2752,7 @@
     <VersionCreatedFromItem>Created from item "{0}".</VersionCreatedFromItem>
     <VersionLoadedFromFile>Loaded from file "{0}".</VersionLoadedFromFile>
     <VersionNewItemCreation>New item creation.</VersionNewItemCreation>
-    <VersionNotInSubscription>This version is not included in your subscription</VersionNotInSubscription>
+    <VersionNotInSubscription>This version is not covered by your subscription</VersionNotInSubscription>
     <Warning>Warning</Warning>
     <WindowClosePreventWhileUploading>Some files are still uploading. If you close the page, they will be lost. Are you sure you want to close the page?</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>"{0}" with the specified key is not found!</WithSpecifiedKeyIsNotFound>

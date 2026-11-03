@@ -2619,8 +2619,8 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <Error>Chyba</Error>
     <ExecutionError>Chyba při spuštění</ExecutionError>
     <ExpressionValidationFailed>Ověření výrazu se nezdařilo.</ExpressionValidationFailed>
-    <FileCreatedInNewerVersion>Soubor byl vytvořen ve verzi {0} a vy používáte verzi {1}. Pro jeho otevření aktualizujte na nejnovější verzi.</FileCreatedInNewerVersion>
-    <FileNeedsNewerVersion>Tento soubor vyžaduje novější verzi</FileNeedsNewerVersion>
+    <FileCreatedInNewerVersion>K otevření tohoto souboru je potřeba verze {0}, ale používáte verzi {1}. Aktualizujte prosím software.</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>Software je zastaralý</FileNeedsNewerVersion>
     <GracePeriod>Ochranná lhůta vašeho předplatného vyprší za {0} dní.</GracePeriod>
     <IsIdentical>„{0}“ a „{1}“ jsou identické.“</IsIdentical>
     <IsNotAuthorized>Žádný přístup k „{0}“!</IsNotAuthorized>
@@ -2709,7 +2709,7 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <QuotaMaximumUsersCountExceeded>Byl překročen maximální počet uživatelů.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>Byl překročen maximální počet pracovních prostorů.</QuotaMaximumWorkspacesCountExceeded>
     <RenewSubscriptionBeforeGracePeriodEnds>Platnost předplatného {0} vypršela. Obnovte ho před koncem ochranné lhůty.</RenewSubscriptionBeforeGracePeriodEnds>
-    <RenewSubscriptionToGetNewVersions>Obnovte předplatné {0}, abyste i nadále dostávali nové verze.</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersions>Obnovte předplatné {0}, abyste drželi krok s průběžnými vylepšeními.</RenewSubscriptionToGetNewVersions>
     <RenewSubscriptionToGetNewVersionsAgain>Obnovte předplatné {0}, abyste opět dostávali nové verze.</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>Plánovač nemůže spustit sám sebe!</SchedulerCantRunItSelf>
     <SeatLimitUpgradeBeforeDate>Vaše předplatné využívá více vývojářských míst, než zahrnuje. Rozšiřte svůj plán do {0}, abyste mohli pracovat bez přerušení.</SeatLimitUpgradeBeforeDate>
@@ -2717,7 +2717,7 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <SessionTimeOut>Vypršel časový limit relace</SessionTimeOut>
     <SnapshotAlreadyProcessed>Snímek reportu je již zpracován!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>Zadaná položka není "{0}"!</SpecifiedItemIsNot>
-    <SubscriptionEndedBeforeVersion>Předplatné {0} skončilo {1}, ještě před vydáním této verze. Obnovte ho, abyste mohli tuto verzi používat.</SubscriptionEndedBeforeVersion>
+    <SubscriptionEndedBeforeVersion>Vaše období údržby skončilo {0}, ještě před vydáním verze {1}. Obnovte předplatné, abyste mohli bez přerušení dál používat nejnovější verze.</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>Platnost vašeho předplatného vypršela!</SubscriptionExpired>
     <SubscriptionExpiredDate>Platnost vašeho předplatného vyprší {0}</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>Vyprší za {0} dní</SubscriptionExpiredDays>
@@ -2727,7 +2727,7 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <SubscriptionLimitExceeded>Vaše předplatné překročilo limit počtu vývojářských míst. Aplikace bude ukončena. Pro pokračování prosím upgradujte svůj tarif.</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>Limit předplatného</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>Vaše předplatné využívá více vývojářských míst, než je povoleno. Zvažte prosím upgrade svého tarifu, abyste mohli pokračovat v práci bez přerušení.</SubscriptionLimitWarning>
-    <SubscriptionNowIncludes>Vaše předplatné nyní zahrnuje {0}. Děkujeme za nákup.</SubscriptionNowIncludes>
+    <SubscriptionNowIncludes>Vaše předplatné nyní zahrnuje {0}. Děkujeme, že jste si vybrali Stimulsoft.</SubscriptionNowIncludes>
     <SubscriptionsOut10>Do vypršení platnosti předplatného zbývá 10 dní!</SubscriptionsOut10>
     <SubscriptionsOut20>Platnost předplatného vyprší za 20 dní!</SubscriptionsOut20>
     <SuccessfullyRenewed>Vaše předplatné bylo úspěšně obnoveno!</SuccessfullyRenewed>
@@ -2743,7 +2743,7 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <VersionCreatedFromItem>Vytvořeno z položky „{0}“.</VersionCreatedFromItem>
     <VersionLoadedFromFile>Načteno ze souboru „{0}“.</VersionLoadedFromFile>
     <VersionNewItemCreation>Vytvoření nové položky.</VersionNewItemCreation>
-    <VersionNotInSubscription>Tato verze není součástí vašeho předplatného</VersionNotInSubscription>
+    <VersionNotInSubscription>Tato verze není pokryta vaším předplatným</VersionNotInSubscription>
     <Warning>Varování</Warning>
     <WindowClosePreventWhileUploading>Některé soubory se právě nahrávají. Pokud stránku zavřete, budou tyto soubory ztraceny. Opravdu chcete stránku zavřít?</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>„{0}“ se zadaným klíčem nebyl nalezen!</WithSpecifiedKeyIsNotFound>

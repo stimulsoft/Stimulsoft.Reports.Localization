@@ -2622,8 +2622,8 @@
     <Error>Lỗi</Error>
     <ExecutionError>Lỗi thực thi</ExecutionError>
     <ExpressionValidationFailed>Xác thực biểu thức không thành công.</ExpressionValidationFailed>
-    <FileCreatedInNewerVersion>Tệp được tạo bằng phiên bản {0}, còn bạn đang dùng phiên bản {1}. Hãy cập nhật lên phiên bản mới nhất để mở tệp.</FileCreatedInNewerVersion>
-    <FileNeedsNewerVersion>Tệp này cần phiên bản mới hơn</FileNeedsNewerVersion>
+    <FileCreatedInNewerVersion>Tệp này cần phiên bản {0} để mở, nhưng bạn đang dùng phiên bản {1}. Vui lòng cập nhật phần mềm.</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>Phần mềm đã lỗi thời</FileNeedsNewerVersion>
     <GracePeriod>Giai đoạn khoan hồng của đăng ký của bạn sẽ hết hạn trong {0} ngày.</GracePeriod>
     <IsIdentical>"{0}" và "{1}" là giống nhau."</IsIdentical>
     <IsNotAuthorized>Không có quyền truy cập vào "{0}"!</IsNotAuthorized>
@@ -2712,7 +2712,7 @@
     <QuotaMaximumUsersCountExceeded>Đã vượt quá số lượng tài nguyên tối đa.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>Đã vượt quá phạm vi làm việc tối đa.</QuotaMaximumWorkspacesCountExceeded>
     <RenewSubscriptionBeforeGracePeriodEnds>Gói đăng ký {0} của bạn đã hết hạn. Hãy gia hạn trước khi thời gian ân hạn kết thúc.</RenewSubscriptionBeforeGracePeriodEnds>
-    <RenewSubscriptionToGetNewVersions>Hãy gia hạn gói đăng ký {0} để tiếp tục nhận các phiên bản mới.</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersions>Hãy gia hạn gói đăng ký {0} để luôn cập nhật những cải tiến liên tục.</RenewSubscriptionToGetNewVersions>
     <RenewSubscriptionToGetNewVersionsAgain>Hãy gia hạn gói đăng ký {0} để nhận lại các phiên bản mới.</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>Trình lên lịch không thể chạy chính nó!</SchedulerCantRunItSelf>
     <SeatLimitUpgradeBeforeDate>Gói đăng ký của bạn đang dùng nhiều chỗ nhà phát triển hơn số chỗ được bao gồm. Hãy nâng cấp gói trước {0} để tiếp tục làm việc không gián đoạn.</SeatLimitUpgradeBeforeDate>
@@ -2720,7 +2720,7 @@
     <SessionTimeOut>Hết thời gian chờ phiên</SessionTimeOut>
     <SnapshotAlreadyProcessed>Bản chụp báo cáo đã được xử lý!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>Mục được chỉ định không "{0}"!</SpecifiedItemIsNot>
-    <SubscriptionEndedBeforeVersion>Gói đăng ký {0} của bạn đã kết thúc vào {1}, trước khi phiên bản này được phát hành. Hãy gia hạn để sử dụng phiên bản này.</SubscriptionEndedBeforeVersion>
+    <SubscriptionEndedBeforeVersion>Thời hạn bảo trì của bạn đã kết thúc vào {0}, trước khi phiên bản {1} được phát hành. Hãy gia hạn gói đăng ký để tiếp tục sử dụng các phiên bản mới nhất mà không bị gián đoạn.</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>Đăng ký của bạn đã hết hạn!</SubscriptionExpired>
     <SubscriptionExpiredDate>Đăng ký của bạn sẽ hết hạn vào {0}</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>Hết hạn sau {0} ngày</SubscriptionExpiredDays>
@@ -2730,7 +2730,7 @@
     <SubscriptionLimitExceeded>Đăng ký của bạn đã vượt quá giới hạn số ghế nhà phát triển. Ứng dụng sẽ bị đóng. Vui lòng nâng cấp gói của bạn để tiếp tục.</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>Giới hạn đăng ký</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>Đăng ký của bạn đang sử dụng nhiều ghế nhà phát triển hơn mức cho phép. Vui lòng cân nhắc nâng cấp gói của bạn để tiếp tục làm việc mà không bị gián đoạn.</SubscriptionLimitWarning>
-    <SubscriptionNowIncludes>Gói đăng ký của bạn hiện bao gồm {0}. Cảm ơn bạn đã mua hàng.</SubscriptionNowIncludes>
+    <SubscriptionNowIncludes>Gói đăng ký của bạn hiện bao gồm {0}. Cảm ơn bạn đã chọn Stimulsoft.</SubscriptionNowIncludes>
     <SubscriptionsOut10>Còn 10 ngày khi đăng ký hết hạn!</SubscriptionsOut10>
     <SubscriptionsOut20>Thời hạn thuê bao sẽ hết hạn trong 20 ngày!</SubscriptionsOut20>
     <SuccessfullyRenewed>Đăng ký của bạn đã được cập nhật thành công!</SuccessfullyRenewed>
@@ -2746,7 +2746,7 @@
     <VersionCreatedFromItem>Được tạo từ mục "{0}".</VersionCreatedFromItem>
     <VersionLoadedFromFile>Đã tải từ tệp "{0}".</VersionLoadedFromFile>
     <VersionNewItemCreation>Tạo mục mới.</VersionNewItemCreation>
-    <VersionNotInSubscription>Phiên bản này không có trong gói đăng ký của bạn</VersionNotInSubscription>
+    <VersionNotInSubscription>Phiên bản này không nằm trong phạm vi gói đăng ký của bạn</VersionNotInSubscription>
     <Warning>Cảnh báo</Warning>
     <WindowClosePreventWhileUploading>Một số tệp đang được tải lên ngay bây giờ, nếu bạn đóng trang chúng sẽ bị mất. Bạn có chắc chắn muốn đóng trang không?</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>"{0}" với các phím được chỉ định không được tìm thấy!</WithSpecifiedKeyIsNotFound>

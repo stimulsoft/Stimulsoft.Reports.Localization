@@ -2629,8 +2629,8 @@
     <Error>エラー</Error>
     <ExecutionError>実行エラー</ExecutionError>
     <ExpressionValidationFailed>式の検証に失敗しました。</ExpressionValidationFailed>
-    <FileCreatedInNewerVersion>このファイルはバージョン {0} で作成されており、ご使用のバージョンは {1} です。開くには最新バージョンに更新してください。</FileCreatedInNewerVersion>
-    <FileNeedsNewerVersion>このファイルには新しいバージョンが必要です</FileNeedsNewerVersion>
+    <FileCreatedInNewerVersion>このファイルを開くにはバージョン {0} が必要ですが、ご使用のバージョンは {1} です。ソフトウェアを更新してください。</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>ソフトウェアが最新ではありません</FileNeedsNewerVersion>
     <GracePeriod>サブスクリプションの猶予期間は{0}日で終了します。</GracePeriod>
     <IsIdentical>"{0}"と "{1}"は同一です。 "</IsIdentical>
     <IsNotAuthorized>"{0}"へのアクセス権がありません！</IsNotAuthorized>
@@ -2719,7 +2719,7 @@
     <QuotaMaximumUsersCountExceeded>最大ユーザー数を超えました。</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>ワークスペースの最大数を超えました。</QuotaMaximumWorkspacesCountExceeded>
     <RenewSubscriptionBeforeGracePeriodEnds>{0} のサブスクリプションの有効期限が切れました。猶予期間が終了する前に更新してください。</RenewSubscriptionBeforeGracePeriodEnds>
-    <RenewSubscriptionToGetNewVersions>新しいバージョンを引き続き入手するには、{0} のサブスクリプションを更新してください。</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersions>継続的な改善を引き続き利用するには、{0} のサブスクリプションを更新してください。</RenewSubscriptionToGetNewVersions>
     <RenewSubscriptionToGetNewVersionsAgain>新しいバージョンを再び入手するには、{0} のサブスクリプションを更新してください。</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>スケジューラは実行できません！</SchedulerCantRunItSelf>
     <SeatLimitUpgradeBeforeDate>サブスクリプションに含まれる数を超える開発者シートが使用されています。中断なく作業を続けるには、{0} までにプランをアップグレードしてください。</SeatLimitUpgradeBeforeDate>
@@ -2727,7 +2727,7 @@
     <SessionTimeOut>セッションタイムアウト</SessionTimeOut>
     <SnapshotAlreadyProcessed>レポートのスナップショットは既に処理されています！</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>指定された項目は "{0}"ではありません！</SpecifiedItemIsNot>
-    <SubscriptionEndedBeforeVersion>{0} のサブスクリプションは、このバージョンのリリース前の {1} に終了しました。このバージョンを使用するには、サブスクリプションを更新してください。</SubscriptionEndedBeforeVersion>
+    <SubscriptionEndedBeforeVersion>メンテナンス期間は、バージョン {1} のリリース前の {0} に終了しました。最新バージョンを中断なく使い続けるには、サブスクリプションを更新してください。</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>あなたの定期購読は有効期限切れです！</SubscriptionExpired>
     <SubscriptionExpiredDate>サブスクリプションは{0}に期限切れになります。</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>有効期限は{0}日</SubscriptionExpiredDays>
@@ -2737,7 +2737,7 @@
     <SubscriptionLimitExceeded>サブスクリプションの開発者シート数が上限を超えています。アプリケーションを終了します。継続するにはプランをアップグレードしてください。</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>サブスクリプションの制限</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>サブスクリプションで許可されている数を超える開発者シートが使用されています。作業を中断せず継続するため、プランのアップグレードをご検討ください。</SubscriptionLimitWarning>
-    <SubscriptionNowIncludes>サブスクリプションに {0} が含まれるようになりました。ご購入ありがとうございます。</SubscriptionNowIncludes>
+    <SubscriptionNowIncludes>サブスクリプションに {0} が含まれるようになりました。Stimulsoft をお選びいただきありがとうございます。</SubscriptionNowIncludes>
     <SubscriptionsOut10>定期購読期限が切れてから10日が経過しました！</SubscriptionsOut10>
     <SubscriptionsOut20>購読期間は20日で終了します！</SubscriptionsOut20>
     <SuccessfullyRenewed>あなたのサブスクリプションは正常に更新されました！</SuccessfullyRenewed>
@@ -2753,7 +2753,7 @@
     <VersionCreatedFromItem>アイテム "{0}"から作成されました。</VersionCreatedFromItem>
     <VersionLoadedFromFile>ファイル "{0}"からロードされました。</VersionLoadedFromFile>
     <VersionNewItemCreation>新規アイテムの作成。</VersionNewItemCreation>
-    <VersionNotInSubscription>このバージョンはサブスクリプションに含まれていません</VersionNotInSubscription>
+    <VersionNotInSubscription>このバージョンはサブスクリプションの対象外です</VersionNotInSubscription>
     <Warning>警告</Warning>
     <WindowClosePreventWhileUploading>あなたがページを閉じると失われてしまうファイルもあります。 ページを閉じてもよろしいですか？</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>指定されたキーを持つ "{0}"が見つかりません！</WithSpecifiedKeyIsNotFound>

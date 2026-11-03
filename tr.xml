@@ -2628,8 +2628,8 @@
     <Error>Hata</Error>
     <ExecutionError>Yürütme hatası</ExecutionError>
     <ExpressionValidationFailed>İfade doğrulaması başarısız oldu.</ExpressionValidationFailed>
-    <FileCreatedInNewerVersion>Dosya {0} sürümünde oluşturuldu ve siz {1} sürümünü kullanıyorsunuz. Açmak için en son sürüme güncelleyin.</FileCreatedInNewerVersion>
-    <FileNeedsNewerVersion>Bu dosya daha yeni bir sürüm gerektiriyor</FileNeedsNewerVersion>
+    <FileCreatedInNewerVersion>Bu dosyayı açmak için {0} sürümü gerekiyor, ancak siz {1} sürümünü kullanıyorsunuz. Lütfen yazılımı güncelleyin.</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>Yazılım güncel değil</FileNeedsNewerVersion>
     <GracePeriod>Aboneliğinizin geçerlilik süresi {0} gün içinde sona erecektir.</GracePeriod>
     <IsIdentical>"{0}" ve "{1}" aynıdır.</IsIdentical>
     <IsNotAuthorized>"{0}" öğesine erişim yok!</IsNotAuthorized>
@@ -2718,7 +2718,7 @@
     <QuotaMaximumUsersCountExceeded>Maksimum kullanıcı sayısı aşıldı.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>Maksimum çalışma alanı sayısı aşıldı.</QuotaMaximumWorkspacesCountExceeded>
     <RenewSubscriptionBeforeGracePeriodEnds>{0} aboneliğinizin süresi doldu. Ek süre bitmeden yenileyin.</RenewSubscriptionBeforeGracePeriodEnds>
-    <RenewSubscriptionToGetNewVersions>Yeni sürümleri almaya devam etmek için {0} aboneliğinizi yenileyin.</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersions>Sürekli yapılan iyileştirmelerden yararlanmaya devam etmek için {0} aboneliğinizi yenileyin.</RenewSubscriptionToGetNewVersions>
     <RenewSubscriptionToGetNewVersionsAgain>Yeni sürümleri yeniden almak için {0} aboneliğinizi yenileyin.</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>Zamanlayıcı kendisini çalıştıramaz!</SchedulerCantRunItSelf>
     <SeatLimitUpgradeBeforeDate>Aboneliğiniz, içerdiğinden daha fazla geliştirici koltuğu kullanıyor. Kesintisiz çalışmaya devam etmek için planınızı {0} tarihinden önce yükseltin.</SeatLimitUpgradeBeforeDate>
@@ -2726,7 +2726,7 @@
     <SessionTimeOut>Oturum zaman aşımı</SessionTimeOut>
     <SnapshotAlreadyProcessed>Rapor anlık görüntüsü zaten işlendi!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>Belirtilen öğe "{0}" değil!</SpecifiedItemIsNot>
-    <SubscriptionEndedBeforeVersion>{0} aboneliğiniz bu sürüm yayımlanmadan önce, {1} tarihinde sona erdi. Bu sürümü kullanmak için aboneliğinizi yenileyin.</SubscriptionEndedBeforeVersion>
+    <SubscriptionEndedBeforeVersion>Bakım süreniz, {1} sürümü yayımlanmadan önce, {0} tarihinde sona erdi. En son sürümleri kesintisiz kullanmaya devam etmek için aboneliğinizi yenileyin.</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>Aboneliğinizin süresi doldu!</SubscriptionExpired>
     <SubscriptionExpiredDate>Aboneliğiniz {0} tarihinde sona erecek </SubscriptionExpiredDate>
     <SubscriptionExpiredDays>{0} gün içinde sona eriyor</SubscriptionExpiredDays>
@@ -2736,7 +2736,7 @@
     <SubscriptionLimitExceeded>Aboneliğiniz geliştirici lisansı limitini aşmıştır. Uygulama kapatılacak. Devam etmek için lütfen planınızı yükseltin.</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>Abonelik limiti</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>Aboneliğiniz izin verilen geliştirici lisansından daha fazlasını kullanıyor. Kesintisiz çalışmaya devam etmek için lütfen planınızı yükseltmeyi düşünün.</SubscriptionLimitWarning>
-    <SubscriptionNowIncludes>Aboneliğiniz artık şunları içeriyor: {0}. Satın aldığınız için teşekkür ederiz.</SubscriptionNowIncludes>
+    <SubscriptionNowIncludes>Aboneliğiniz artık şunları içeriyor: {0}. Stimulsoft'u tercih ettiğiniz için teşekkür ederiz.</SubscriptionNowIncludes>
     <SubscriptionsOut10>Abonelik süresi dolmasına 10 gün kaldı!</SubscriptionsOut10>
     <SubscriptionsOut20>Abonelik süresi 20 gün içinde sona eriyor! </SubscriptionsOut20>
     <SuccessfullyRenewed>Aboneliğiniz başarıyla güncellendi!</SuccessfullyRenewed>
@@ -2752,7 +2752,7 @@
     <VersionCreatedFromItem>"{0}" öğesinden oluşturuldu.</VersionCreatedFromItem>
     <VersionLoadedFromFile>"{0}" dosyasından yüklendi.</VersionLoadedFromFile>
     <VersionNewItemCreation>Yeni öğe oluşturma.</VersionNewItemCreation>
-    <VersionNotInSubscription>Bu sürüm aboneliğinize dahil değil</VersionNotInSubscription>
+    <VersionNotInSubscription>Bu sürüm aboneliğinizin kapsamında değil</VersionNotInSubscription>
     <Warning>Uyarı</Warning>
     <WindowClosePreventWhileUploading>Bazı dosyalar şimdi yükleniyor, sayfayı kapatırsanız kaybolacaklar. Sayfayı kapatmak istediğinizden emin misiniz?</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>"{0}" ile belirtilen anahtar bulunamadı!</WithSpecifiedKeyIsNotFound>

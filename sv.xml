@@ -2619,8 +2619,8 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <Error>Fel</Error>
     <ExecutionError>Körningsfel</ExecutionError>
     <ExpressionValidationFailed>Valideringen av uttrycket misslyckades.</ExpressionValidationFailed>
-    <FileCreatedInNewerVersion>Filen skapades i version {0} och du använder version {1}. Uppdatera till den senaste versionen för att öppna den.</FileCreatedInNewerVersion>
-    <FileNeedsNewerVersion>Den här filen kräver en nyare version</FileNeedsNewerVersion>
+    <FileCreatedInNewerVersion>Den här filen kräver version {0} för att öppnas, men du använder version {1}. Uppdatera programvaran.</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>Programvaran är inaktuell</FileNeedsNewerVersion>
     <GracePeriod>Respitperioden för din prenumeration löper ut om {0} dagar.</GracePeriod>
     <IsIdentical>"{0}" och "{1}" är identiska.</IsIdentical>
     <IsNotAuthorized>Ingen åtkomst till "{0}"!</IsNotAuthorized>
@@ -2709,7 +2709,7 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <QuotaMaximumUsersCountExceeded>Maximalt antal användare överskridet.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>Maximalt antal arbetsytor överskridet.</QuotaMaximumWorkspacesCountExceeded>
     <RenewSubscriptionBeforeGracePeriodEnds>Din prenumeration på {0} har upphört. Förnya den innan respitperioden tar slut.</RenewSubscriptionBeforeGracePeriodEnds>
-    <RenewSubscriptionToGetNewVersions>Förnya prenumerationen på {0} för att fortsätta få nya versioner.</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersions>Förnya prenumerationen på {0} för att hålla dig uppdaterad med löpande förbättringar.</RenewSubscriptionToGetNewVersions>
     <RenewSubscriptionToGetNewVersionsAgain>Förnya prenumerationen på {0} för att få nya versioner igen.</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>Schemaläggaren kan inte köra sig själv!</SchedulerCantRunItSelf>
     <SeatLimitUpgradeBeforeDate>Din prenumeration används på fler utvecklarplatser än den omfattar. Uppgradera din plan före {0} för att fortsätta arbeta utan avbrott.</SeatLimitUpgradeBeforeDate>
@@ -2717,7 +2717,7 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <SessionTimeOut>Sessionstimeout</SessionTimeOut>
     <SnapshotAlreadyProcessed>Rapportögonblicksbilden har redan bearbetats!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>Det angivna objektet är inte "{0}"!</SpecifiedItemIsNot>
-    <SubscriptionEndedBeforeVersion>Din prenumeration på {0} upphörde {1}, innan den här versionen släpptes. Förnya den för att använda den här versionen.</SubscriptionEndedBeforeVersion>
+    <SubscriptionEndedBeforeVersion>Din underhållsperiod upphörde {0}, innan version {1} släpptes. Förnya prenumerationen för att fortsätta använda de senaste versionerna utan avbrott.</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>Din prenumeration har upphört!</SubscriptionExpired>
     <SubscriptionExpiredDate>Din prenumeration upphör den {0}</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>Upphör om {0} dagar</SubscriptionExpiredDays>
@@ -2727,7 +2727,7 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <SubscriptionLimitExceeded>Din prenumeration har överskridit gränsen för utvecklarplatser. Programmet kommer att stängas. Uppgradera din plan för att fortsätta.</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>Prenumerationsgräns</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>Din prenumeration använder fler utvecklarplatser än tillåtet. Överväg att uppgradera din plan för att kunna fortsätta arbeta utan avbrott.</SubscriptionLimitWarning>
-    <SubscriptionNowIncludes>Din prenumeration omfattar nu {0}. Tack för ditt köp.</SubscriptionNowIncludes>
+    <SubscriptionNowIncludes>Din prenumeration omfattar nu {0}. Tack för att du valde Stimulsoft.</SubscriptionNowIncludes>
     <SubscriptionsOut10>10 dagar kvar tills prenumerationen upphör!</SubscriptionsOut10>
     <SubscriptionsOut20>Prenumerationsperioden löper ut om 20 dagar!</SubscriptionsOut20>
     <SuccessfullyRenewed>Din prenumeration har uppdaterats!</SuccessfullyRenewed>
@@ -2743,7 +2743,7 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <VersionCreatedFromItem>Skapad från objektet "{0}".</VersionCreatedFromItem>
     <VersionLoadedFromFile>Inläst från filen "{0}".</VersionLoadedFromFile>
     <VersionNewItemCreation>Skapande av nytt objekt.</VersionNewItemCreation>
-    <VersionNotInSubscription>Den här versionen ingår inte i din prenumeration</VersionNotInSubscription>
+    <VersionNotInSubscription>Den här versionen täcks inte av din prenumeration</VersionNotInSubscription>
     <Warning>Varning</Warning>
     <WindowClosePreventWhileUploading>Vissa filer laddas fortfarande upp. Om du stänger sidan går de förlorade. Är du säker på att du vill stänga sidan?</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>"{0}" med den angivna nyckeln hittades inte!</WithSpecifiedKeyIsNotFound>

@@ -2625,8 +2625,8 @@ E-posten ble sendt til "{0}". Den inneholder en lenke for å bekrefte registreri
     <Error>Feil</Error>
     <ExecutionError>Eksekveringsfeil</ExecutionError>
     <ExpressionValidationFailed>Uttrykksvalidering mislyktes.</ExpressionValidationFailed>
-    <FileCreatedInNewerVersion>Filen ble opprettet i versjon {0}, og du bruker versjon {1}. Oppdater til den nyeste versjonen for å åpne den.</FileCreatedInNewerVersion>
-    <FileNeedsNewerVersion>Denne filen krever en nyere versjon</FileNeedsNewerVersion>
+    <FileCreatedInNewerVersion>Denne filen krever versjon {0} for å åpnes, men du bruker versjon {1}. Oppdater programvaren.</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>Programvaren er utdatert</FileNeedsNewerVersion>
     <GracePeriod>Prøveperioden utløper om {0} dager.</GracePeriod>
     <IsIdentical>"{0}" og "{1}" er identiske."</IsIdentical>
     <IsNotAuthorized>Ingen adgang til "{0}"!</IsNotAuthorized>
@@ -2715,7 +2715,7 @@ E-posten ble sendt til "{0}". Den inneholder en lenke for å bekrefte registreri
     <QuotaMaximumUsersCountExceeded>Maksimum antall brukere overskredet.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>Maksimum antall arbeidsområder overskredet.</QuotaMaximumWorkspacesCountExceeded>
     <RenewSubscriptionBeforeGracePeriodEnds>Abonnementet på {0} er utløpt. Forny det før fornyelsesfristen utløper.</RenewSubscriptionBeforeGracePeriodEnds>
-    <RenewSubscriptionToGetNewVersions>Forny abonnementet på {0} for å fortsette å få nye versjoner.</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersions>Forny abonnementet på {0} for å holde deg oppdatert med løpende forbedringer.</RenewSubscriptionToGetNewVersions>
     <RenewSubscriptionToGetNewVersionsAgain>Forny abonnementet på {0} for å få nye versjoner igjen.</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>Planleggeren kan ikke kjøre seg selv!</SchedulerCantRunItSelf>
     <SeatLimitUpgradeBeforeDate>Abonnementet ditt bruker flere utviklerplasser enn det omfatter. Oppgrader planen før {0} for å fortsette å jobbe uten avbrudd.</SeatLimitUpgradeBeforeDate>
@@ -2723,7 +2723,7 @@ E-posten ble sendt til "{0}". Den inneholder en lenke for å bekrefte registreri
     <SessionTimeOut>Sesjonen ble tidsavbrutt</SessionTimeOut>
     <SnapshotAlreadyProcessed>Rapport-øyeblikksbildet har allerede blitt behandlet!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>Det angitte elementet er ikke "{0}"!</SpecifiedItemIsNot>
-    <SubscriptionEndedBeforeVersion>Abonnementet på {0} utløp {1}, før denne versjonen kom ut. Forny det for å bruke denne versjonen.</SubscriptionEndedBeforeVersion>
+    <SubscriptionEndedBeforeVersion>Vedlikeholdsperioden din utløp {0}, før versjon {1} kom ut. Forny abonnementet for å fortsette å bruke de nyeste versjonene uten avbrudd.</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>Abonnementet ditt er utløpt!</SubscriptionExpired>
     <SubscriptionExpiredDate>Abonnementet utløper den {0}</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>Utløper om {0} dager</SubscriptionExpiredDays>
@@ -2733,7 +2733,7 @@ E-posten ble sendt til "{0}". Den inneholder en lenke for å bekrefte registreri
     <SubscriptionLimitExceeded>Abonnementet ditt har overskredet grensen for utviklerplasser. Programmet vil lukkes. Oppgrader planen din for å fortsette.</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>Abonnementsgrense</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>Abonnementet ditt bruker flere utviklerplasser enn tillat. Vurder å oppgradere planen din for å kunne fortsette uten avbrudd.</SubscriptionLimitWarning>
-    <SubscriptionNowIncludes>Abonnementet ditt inkluderer nå {0}. Takk for kjøpet.</SubscriptionNowIncludes>
+    <SubscriptionNowIncludes>Abonnementet ditt inkluderer nå {0}. Takk for at du valgte Stimulsoft.</SubscriptionNowIncludes>
     <SubscriptionsOut10>10 dager til abonnementet utløper!</SubscriptionsOut10>
     <SubscriptionsOut20>Abonnements-perioden utløper om 20 dager!</SubscriptionsOut20>
     <SuccessfullyRenewed>Oppdateringen av abonnementet ditt var vellykket!</SuccessfullyRenewed>
@@ -2749,7 +2749,7 @@ E-posten ble sendt til "{0}". Den inneholder en lenke for å bekrefte registreri
     <VersionCreatedFromItem>Laget fra elementet "{0}".</VersionCreatedFromItem>
     <VersionLoadedFromFile>Lastet fra filen "{0}".</VersionLoadedFromFile>
     <VersionNewItemCreation>Lage nytt element.</VersionNewItemCreation>
-    <VersionNotInSubscription>Denne versjonen er ikke inkludert i abonnementet ditt</VersionNotInSubscription>
+    <VersionNotInSubscription>Denne versjonen dekkes ikke av abonnementet ditt</VersionNotInSubscription>
     <Warning>Advarsel</Warning>
     <WindowClosePreventWhileUploading>Noen filer lastes opp nå, hvis du lukker siden mister du dem. Er du sikker på at du vil lukke siden?</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>"{0}" med denne nøkkelen finnes ikke!</WithSpecifiedKeyIsNotFound>

@@ -2626,8 +2626,8 @@
     <Error>錯誤</Error>
     <ExecutionError>執行錯誤</ExecutionError>
     <ExpressionValidationFailed>運算式驗證失敗。</ExpressionValidationFailed>
-    <FileCreatedInNewerVersion>此檔案是在版本 {0} 中建立的，而您使用的是版本 {1}。請更新至最新版本以開啟它。</FileCreatedInNewerVersion>
-    <FileNeedsNewerVersion>此檔案需要較新的版本</FileNeedsNewerVersion>
+    <FileCreatedInNewerVersion>開啟此檔案需要版本 {0}，但您使用的是版本 {1}。請更新軟體。</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>軟體版本過舊</FileNeedsNewerVersion>
     <GracePeriod>您的訂閱寬限期將於 {0} 天後到期。</GracePeriod>
     <IsIdentical>"{0}" 與 "{1}" 相同。</IsIdentical>
     <IsNotAuthorized>無法存取「{0}」！</IsNotAuthorized>
@@ -2716,7 +2716,7 @@
     <QuotaMaximumUsersCountExceeded>已超過使用者數量上限。</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>已超過工作區數量上限。</QuotaMaximumWorkspacesCountExceeded>
     <RenewSubscriptionBeforeGracePeriodEnds>您的 {0} 訂閱已過期。請在寬限期結束前續訂。</RenewSubscriptionBeforeGracePeriodEnds>
-    <RenewSubscriptionToGetNewVersions>請續訂 {0}，以繼續取得新版本。</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersions>請續訂 {0}，以持續獲得最新改進。</RenewSubscriptionToGetNewVersions>
     <RenewSubscriptionToGetNewVersionsAgain>請續訂 {0}，以重新取得新版本。</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>排程器無法執行自身！</SchedulerCantRunItSelf>
     <SeatLimitUpgradeBeforeDate>您的訂閱使用的開發人員席位超出了其包含的數量。請在 {0} 之前升級您的方案，以便繼續不中斷地工作。</SeatLimitUpgradeBeforeDate>
@@ -2724,7 +2724,7 @@
     <SessionTimeOut>工作階段逾時</SessionTimeOut>
     <SnapshotAlreadyProcessed>報表快照已處理完成！</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>指定的項目不是「{0}」！</SpecifiedItemIsNot>
-    <SubscriptionEndedBeforeVersion>您的 {0} 訂閱已於 {1} 結束，早於此版本的發行。請續訂以使用此版本。</SubscriptionEndedBeforeVersion>
+    <SubscriptionEndedBeforeVersion>您的維護期已於 {0} 結束，早於版本 {1} 的發行。請續訂以繼續不間斷地使用最新版本。</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>您的訂閱已過期！</SubscriptionExpired>
     <SubscriptionExpiredDate>您的訂閱將於 {0} 到期</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>將於 {0} 天後到期</SubscriptionExpiredDays>
@@ -2734,7 +2734,7 @@
     <SubscriptionLimitExceeded>您的訂閱已超出開發人員席次上限。應用程式將會關閉。請升級您的方案以繼續使用。</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>訂閱限制</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>您的訂閱使用的開發人員席次超出允許數量。請考慮升級您的方案，以便不間斷地繼續工作。</SubscriptionLimitWarning>
-    <SubscriptionNowIncludes>您的訂閱現在包含 {0}。感謝您的購買。</SubscriptionNowIncludes>
+    <SubscriptionNowIncludes>您的訂閱現在包含 {0}。感謝您選擇 Stimulsoft。</SubscriptionNowIncludes>
     <SubscriptionsOut10>距離訂閱到期還有 10 天！</SubscriptionsOut10>
     <SubscriptionsOut20>訂閱期限將於 20 天後到期！</SubscriptionsOut20>
     <SuccessfullyRenewed>您的訂閱已成功更新！</SuccessfullyRenewed>
@@ -2750,7 +2750,7 @@
     <VersionCreatedFromItem>從項目 "{0}" 建立。</VersionCreatedFromItem>
     <VersionLoadedFromFile>已從檔案「{0}」載入。</VersionLoadedFromFile>
     <VersionNewItemCreation>建立新項目。</VersionNewItemCreation>
-    <VersionNotInSubscription>您的訂閱不包含此版本</VersionNotInSubscription>
+    <VersionNotInSubscription>此版本不在您的訂閱範圍內</VersionNotInSubscription>
     <Warning>警告</Warning>
     <WindowClosePreventWhileUploading>部分檔案仍在上傳中。如果關閉頁面，這些檔案將會遺失。確定要關閉頁面嗎？</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>找不到具有指定索引鍵的 "{0}"！</WithSpecifiedKeyIsNotFound>

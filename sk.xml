@@ -2637,8 +2637,8 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <Error>Chyba</Error>
     <ExecutionError>Execution error</ExecutionError>
     <ExpressionValidationFailed>Overenie výrazu zlyhalo.</ExpressionValidationFailed>
-    <FileCreatedInNewerVersion>Súbor bol vytvorený vo verzii {0} a vy používate verziu {1}. Ak ho chcete otvoriť, aktualizujte na najnovšiu verziu.</FileCreatedInNewerVersion>
-    <FileNeedsNewerVersion>Tento súbor vyžaduje novšiu verziu</FileNeedsNewerVersion>
+    <FileCreatedInNewerVersion>Na otvorenie tohto súboru je potrebná verzia {0}, ale používate verziu {1}. Aktualizujte softvér.</FileCreatedInNewerVersion>
+    <FileNeedsNewerVersion>Softvér je zastaraný</FileNeedsNewerVersion>
     <GracePeriod>Ochranná lehota vášho predplatného uplynie o {0} dní.</GracePeriod>
     <IsIdentical>"{0}" a "{1}" sú identické."</IsIdentical>
     <IsNotAuthorized>Bez prístupu na "{0}"!</IsNotAuthorized>
@@ -2727,7 +2727,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <QuotaMaximumUsersCountExceeded>Maximálny počet užívateľov bol prekročený.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>Maximálny počet pracovných priestorov bol prekročený.</QuotaMaximumWorkspacesCountExceeded>
     <RenewSubscriptionBeforeGracePeriodEnds>Predplatné {0} skončilo. Obnovte si ho pred koncom ochrannej lehoty.</RenewSubscriptionBeforeGracePeriodEnds>
-    <RenewSubscriptionToGetNewVersions>Obnovte si predplatné {0}, aby ste aj naďalej dostávali nové verzie.</RenewSubscriptionToGetNewVersions>
+    <RenewSubscriptionToGetNewVersions>Obnovte si predplatné {0}, aby ste držali krok s priebežnými vylepšeniami.</RenewSubscriptionToGetNewVersions>
     <RenewSubscriptionToGetNewVersionsAgain>Obnovte si predplatné {0}, aby ste opäť dostávali nové verzie.</RenewSubscriptionToGetNewVersionsAgain>
     <SchedulerCantRunItSelf>Plánovač nemôže byť cyklicky spustený!</SchedulerCantRunItSelf>
     <SeatLimitUpgradeBeforeDate>Vaše predplatné využíva viac vývojárskych miest, než zahŕňa. Rozšírte svoj plán do {0}, aby ste mohli pracovať bez prerušenia.</SeatLimitUpgradeBeforeDate>
@@ -2735,7 +2735,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <SessionTimeOut>Časový limit pre reláciu (session)</SessionTimeOut>
     <SnapshotAlreadyProcessed>Snímka zostavy je práve spracovávaná!</SnapshotAlreadyProcessed>
     <SpecifiedItemIsNot>Daná položka nie je "{0}"!</SpecifiedItemIsNot>
-    <SubscriptionEndedBeforeVersion>Predplatné {0} skončilo {1}, ešte pred vydaním tejto verzie. Obnovte si ho, aby ste mohli túto verziu používať.</SubscriptionEndedBeforeVersion>
+    <SubscriptionEndedBeforeVersion>Vaše obdobie údržby skončilo {0}, ešte pred vydaním verzie {1}. Obnovte si predplatné, aby ste mohli bez prerušenia ďalej používať najnovšie verzie.</SubscriptionEndedBeforeVersion>
     <SubscriptionExpired>Vaše predplatné skončilo!</SubscriptionExpired>
     <SubscriptionExpiredDate>Vaše predplatné vyprší o {0}</SubscriptionExpiredDate>
     <SubscriptionExpiredDays>Platnosť vyprší o {0} dní</SubscriptionExpiredDays>
@@ -2745,7 +2745,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <SubscriptionLimitExceeded>Vaše predplatné prekročilo povolený počet vývojárskych licencií. Aplikácia bude zatvorená. Ak chcete pokračovať, inovujte svoj plán.</SubscriptionLimitExceeded>
     <SubscriptionLimitTitle>Limit predplatného</SubscriptionLimitTitle>
     <SubscriptionLimitWarning>Vaše predplatné používa viac vývojárskych licencií, než je povolené. Zvážte inováciu svojho plánu, aby ste mohli pokračovať v práci bez prerušenia.</SubscriptionLimitWarning>
-    <SubscriptionNowIncludes>Vaše predplatné teraz zahŕňa {0}. Ďakujeme za nákup.</SubscriptionNowIncludes>
+    <SubscriptionNowIncludes>Vaše predplatné teraz zahŕňa {0}. Ďakujeme, že ste si vybrali Stimulsoft.</SubscriptionNowIncludes>
     <SubscriptionsOut10>Zostáva 10 dní do skončenia vášho predplatného!</SubscriptionsOut10>
     <SubscriptionsOut20>Perióda predplatného skončí v priebehu 20 dní!</SubscriptionsOut20>
     <SuccessfullyRenewed>Vaše predplatné bolo úspešne obnovené!</SuccessfullyRenewed>
@@ -2761,7 +2761,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <VersionCreatedFromItem>Vytvorené z položky "{0}".</VersionCreatedFromItem>
     <VersionLoadedFromFile>Nahrané zo súboru "{0}".</VersionLoadedFromFile>
     <VersionNewItemCreation>Vytvorenie novej položky.</VersionNewItemCreation>
-    <VersionNotInSubscription>Táto verzia nie je súčasťou vášho predplatného</VersionNotInSubscription>
+    <VersionNotInSubscription>Táto verzia nie je pokrytá vaším predplatným</VersionNotInSubscription>
     <Warning>Upozornenie</Warning>
     <WindowClosePreventWhileUploading>Niektoré súbory sa nahrávajú práve teraz. Ak zatvoríte stránku stratia sa. Ste si istí, že chcete zatvoriť stránku?</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>Položka "{0}" s daným kľúčom sa nenašla!</WithSpecifiedKeyIsNotFound>
