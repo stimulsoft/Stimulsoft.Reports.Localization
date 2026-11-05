@@ -183,6 +183,7 @@
     <StiHierarchicalBand>باند سلسله مراتبی</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>خط افقی</StiHorizontalLinePrimitive>
     <StiImage>تصویر</StiImage>
+    <StiMarkdown>Markdown</StiMarkdown>
     <StiOverlayBand>روی هم قرار دادن</StiOverlayBand>
     <StiPage>صفحه</StiPage>
     <StiPageFooterBand>زیرنویس صفحه</StiPageFooterBand>
@@ -216,6 +217,9 @@
     <DatabaseVistaDB>VistaDB ارتباط یا پایگاه داده</DatabaseVistaDB>
     <DatabaseXml>XML داده</DatabaseXml>
   </Database>
+  <DesignerFx>
+    <TextNotFound>متن مشخص شده یافت نشد. متن: {0}</TextNotFound>
+  </DesignerFx>
   <Dialogs>
     <StiButtonControl>دکمه</StiButtonControl>
     <StiCheckBoxControl>جعبه چک</StiCheckBoxControl>
@@ -250,6 +254,7 @@
     <FindWhat>پیدا کن چه چیز را:</FindWhat>
     <FromCursor>از نشانه رو</FromCursor>
     <GotoLine> خط&amp;برو به</GotoLine>
+    <InsertLink>درج پیوند</InsertLink>
     <Line>خط:{0}</Line>
     <LineNumber>خط شماره:</LineNumber>
     <LineNumberIndex>({0} - {1})خط شماره </LineNumberIndex>
@@ -258,6 +263,7 @@
     <MatchWholeWord>تمام کلمه &amp;تطبیق بده</MatchWholeWord>
     <OrderedList>فهرست شماره گذاری شده</OrderedList>
     <Outlining>خط کشی&amp;بیرون</Outlining>
+    <Paragraph>پاراگراف</Paragraph>
     <PromptOnReplace>اجازه برای جایگزینی</PromptOnReplace>
     <Replace>&amp;جایگزین</Replace>
     <ReplaceAll>همه&amp;جایگزین</ReplaceAll>
@@ -267,6 +273,7 @@
     <SearchUp>به بالا &amp;جستجو</SearchUp>
     <SelectionOnly>فقط &amp;انتخاب</SelectionOnly>
     <ShowLineNumbers>نمایش اعداد خطوط</ShowLineNumbers>
+    <Split>تقسیم</Split>
     <StopOutlining>متوقف کن&amp;خلاصه کردن</StopOutlining>
     <TaskList>فهرست کارها</TaskList>
     <titleFind>پیدا کردن</titleFind>
@@ -752,6 +759,7 @@
     <Close>بستن</Close>
     <CollapseAll>خرابی همه</CollapseAll>
     <ContextMenu>منوی محتوا</ContextMenu>
+    <Editor>ویرایشگر</Editor>
     <ExpandAll>گسترش همه</ExpandAll>
     <Export>صادرات</Export>
     <FirstPage>صفحه اول</FirstPage>
@@ -1654,6 +1662,7 @@
     <HeaderFont>فونت سرصفحه</HeaderFont>
     <HeaderForeColor>رنگ جلو سرصفحه</HeaderForeColor>
     <HeaderText>متن سرصفحه</HeaderText>
+    <Heading>عنوان</Heading>
     <Height>ارتفاع</Height>
     <HideZeros>پنهان سازی صفرها</HideZeros>
     <High>ارتفاع</High>
@@ -1880,6 +1889,7 @@
     <StopBeforePrint>توقف قبل از چاپ</StopBeforePrint>
     <Stretch>کشش</Stretch>
     <StretchToPrintArea>کشش به محوطه چاپ</StretchToPrintArea>
+    <Strikeout>خط خورده</Strikeout>
     <StripBrush>برس باریک</StripBrush>
     <Strips>نوارها</Strips>
     <Style>سبک</Style>
@@ -1888,6 +1898,7 @@
     <Summary>خلاصه</Summary>
     <SystemVariable>متغیر سیستم</SystemVariable>
     <SystemVariables>متغیرهای سیستم</SystemVariables>
+    <Table>جدول</Table>
     <Tag>برچسب</Tag>
     <TagValue>مقدار برچسب</TagValue>
     <Tension>کشش</Tension>
@@ -2159,6 +2170,9 @@
     <VerticalLine>خط عمودی</VerticalLine>
   </Shapes>
   <Toolbars>
+  <Signature>
+    <InsertImage>درج تصویر</InsertImage>
+  </Signature>
     <Align>تنظیم</Align>
     <AlignBottom>توازن پایینی</AlignBottom>
     <AlignCenter>توازن مرکزی</AlignCenter>
