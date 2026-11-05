@@ -1746,10 +1746,14 @@
     <Bullets>箇条書き</Bullets>
     <FontName>フォント名</FontName>
     <FontSize>フォントサイズ</FontSize>
+    <ImportFromFile>ファイルからインポート</ImportFromFile>
+    <ImportQuestion>エディターには既にテキストがあります。「{0}」のテキストで置き換えますか、それともカーソル位置にファイルを挿入しますか？どちらも元に戻せます。</ImportQuestion>
     <Insert>表現を挿入</Insert>
+    <InsertAtCursor>カーソル位置に挿入</InsertAtCursor>
     <PreviewHintData>データ列、変数、またはリソースを選択してください</PreviewHintData>
     <PreviewHintFile>ファイルを選択してください</PreviewHintFile>
     <PreviewHintURL>URL または式を入力してください</PreviewHintURL>
+    <ReplaceAll>すべて置換</ReplaceAll>
     <title>リッチテキストエディタ</title>
   </FormRichTextEditor>
   <FormStyleDesigner>
@@ -5301,6 +5305,7 @@
     <HideUnlistedExportsInTheViewer>ビューアーで未リスト化のエクスポートを非表示にする</HideUnlistedExportsInTheViewer>
     <History>履歴</History>
     <IfEmpty>{0} が空の場合</IfEmpty>
+    <ImportDropHint>ここに {0} または {1} ファイルをドロップするか、ファイルを選択してください</ImportDropHint>
     <Infographics>視覚化</Infographics>
     <InfoMessage>{0} - {1}が見つかりました。</InfoMessage>
     <InformationMessages>情報メッセージ</InformationMessages>
@@ -5358,6 +5363,7 @@
     <RangeInfo>ページ番号と</RangeInfo>
     <RangePage>ページ範囲</RangePage>
     <RangePages>ページ：</RangePages>
+    <RecentFiles>最近使ったファイル</RecentFiles>
     <ReportChecker>レポートチェッカー</ReportChecker>
     <ReportRenderingMessages>レンダリングメッセージを報告する</ReportRenderingMessages>
     <RestartDesigner>レポートデザイナーを再起動する必要があります</RestartDesigner>
