@@ -91,6 +91,7 @@
     <No>&amp;Ez</No>
     <Ok>&amp;Onartu</Ok>
     <Open>Ireki</Open>
+    <OpenInSafeMode>Ireki modu seguruan</OpenInSafeMode>
     <Print>Inprimatu</Print>
     <QuickPrint>Inpresio Azkarra</QuickPrint>
     <Remove>Kendu</Remove>
@@ -295,6 +296,7 @@
     <Create>Sortu</Create>
     <CreateNewCollection>Bilduma Berria sortu</CreateNewCollection>
     <DeleteFile>Fitxategia ezeztatu</DeleteFile>
+    <DoNotAskMe>Ez galdetu berriro</DoNotAskMe>
     <labelCollectionName>Bildumaren Izena:</labelCollectionName>
     <labelFileName>Fitxategiaren Izena:</labelFileName>
     <labelPassword>Pasahitza:</labelPassword>
@@ -378,6 +380,10 @@
     <StiWinControl>Windows Kontrola</StiWinControl>
     <StiZipCode>Posta-kodea</StiZipCode>
   </Components>
+  <Dashboard>
+    <ViewEditCompilationNotice>Ezin duzu editatu 'Report.CalculationMode' propietatea 'Compilation' balioan duen txostena. Ezarri propietate hori 'Interpretation' balioan.</ViewEditCompilationNotice>
+    <ViewEditCompilationTitle>Edizioa ez dago erabilgarri</ViewEditCompilationTitle>
+  </Dashboard>
   <Database>
     <Connection>Konexioa</Connection>
     <Database>{0} Konexioa</Database>
@@ -1329,6 +1335,11 @@
     <CenterVertically>Osagai bat edukitzailearen ertzaren arabera bertikalki lerrokatzeko aukera ematen du.</CenterVertically>
     <Close>Txosten Diseinatzailea itxi.</Close>
     <Columns>Orrialdea zutabetan zatitu.</Columns>
+    <CompilationAccess1>Dokumentu honek konpilazio-prozesua erabiltzen du. Dokumentua iturri fidagarri batetik badator, "Ireki" botoia sakatu dezakezu hura irekitzeko.</CompilationAccess1>
+    <CompilationAccess2>Dokumentuaren jatorriaz ziur ez bazaude baina hura ikusi nahi baduzu, "Ireki modu seguruan" botoia sakatu dezakezu. Kasu horretan, konpilazioaren ordez interpretazioa erabiliko da, eta dokumentua modu seguruan exekutatu ahal izango duzu.</CompilationAccess2>
+    <CompilationAccess3>Dokumentu honek konpilazio-prozesua erabiltzen du eta arriskutsua izan daiteke. Ezin duzu ireki.</CompilationAccess3>
+    <CompilationAccessDeniedTitle>Ezin da dokumentua ireki</CompilationAccessDeniedTitle>
+    <CompilationAccessTitle>Dokumentuak konpilazioa erabiltzen du</CompilationAccessTitle>
     <ComponentSize>Aukeratutako osagaien neurria aldatu.</ComponentSize>
     <CopyToClipboard>Kopiatu Arbelean.</CopyToClipboard>
     <CurrencySymbol>Dibisaren sinboloa aukeratu.</CurrencySymbol>
@@ -1477,6 +1488,9 @@
     <SendEMail>Txostena posta elektronikoz bidali.</SendEMail>
     <Thumbnails>Orrialde-miniaturak erakutsi txostenaren barnean nabigazio azkarra errazteko.</Thumbnails>
     <ToolEditor>Osagai baten testua zuzenean txostenaren bisorean editatzeko aukera ematen du tresna honek. </ToolEditor>
+    <UnsafeCompilation1>Dokumentu honek konpilazio-prozesua erabiltzen du. Kasu batzuetan, baliteke segurua ez izatea. Horregatik, dokumentua modu seguruan kargatuko da arrisku potentzialak murrizteko.</UnsafeCompilation1>
+    <UnsafeCompilation2>Dokumentua jatorrizko moduan erabili behar baduzu, jarri harremanetan zure garatzaileekin.</UnsafeCompilation2>
+    <UnsafeCompilationTitle>Dokumentua modu seguruan irekiko da</UnsafeCompilationTitle>
     <ViewModeContinuous>Orrialde guztiak bisore bertikal gisa erakutsi.</ViewModeContinuous>
     <ViewModeMultiplePages>Txostena txikitu/handitu, gehieneko orrialde kopurua leiho bakar batean erakusteko.</ViewModeMultiplePages>
     <ViewModeSinglePage>Aurrebistan orrialde bakar bat erakutsi.</ViewModeSinglePage>

@@ -833,6 +833,7 @@
     <TransformationHint>Click on the table header to apply sorting, filtering or change data. This transformation will be applied only to the data of this item.</TransformationHint>
     <Trend>Trend</Trend>
     <ViewEditCompilationNotice>You can't edit the report which has the 'Report.CalculationMode' property equals to the 'Compilation' value. Please set that property to 'Interpretation'.</ViewEditCompilationNotice>
+    <ViewEditCompilationTitle>Editing is not available</ViewEditCompilationTitle>
     <ViewModeDesktop>Desktop</ViewModeDesktop>
     <ViewModeMobile>Mobile</ViewModeMobile>
   </Dashboard>
@@ -2144,8 +2145,10 @@
     <CompilationAccess3>This document uses the compilation process and it can be unsafe. You can't open it.</CompilationAccess3>
     <CompilationAccessAllow>Allow opening documents with compilation without any warnings or restrictions.</CompilationAccessAllow>
     <CompilationAccessAsk>If a document uses the compilation process, a warning window with predefined actions will be displayed.</CompilationAccessAsk>
+    <CompilationAccessDeniedTitle>The document can't be opened</CompilationAccessDeniedTitle>
     <CompilationAccessDeny>Deny opening any document that uses the compilation process. A special window will be displayed.</CompilationAccessDeny>
     <CompilationAccessForceInterpretation>Documents with compilation will be opened without any prompt but will be automatically converted to interpretation mode, which does not use the compilation process.</CompilationAccessForceInterpretation>
+    <CompilationAccessTitle>The document uses compilation</CompilationAccessTitle>
     <CompilationModeEnabling>You are switching to compilation mode. This mode allows you to run different code, and sometimes it could be harmful. Please use this mode only if you understand all the risks and agree to them. Click the {0} button to proceed.</CompilationModeEnabling>
     <ComponentSize>Change the size of the selected components.</ComponentSize>
     <ComponentsMenu>Opens the Components menu containing unused dashboard elements on the mobile surface.</ComponentsMenu>
@@ -2378,6 +2381,7 @@
     <TypeExport>The file the report will be converted into.</TypeExport>
     <UnsafeCompilation1>This document uses the compilation process. In some cases, this may not be safe. Therefore, the document will be loaded in safe mode to minimize any potential risks.</UnsafeCompilation1>
     <UnsafeCompilation2>If you require this document to be used in its original form, please contact your developers.</UnsafeCompilation2>
+    <UnsafeCompilationTitle>The document will open in safe mode</UnsafeCompilationTitle>
     <UseDefaultSystemEncoding>Use system coding by default or specify the encoding by standard.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>Define the page bands Header and Footer as the header and footer of the Microsoft Word document.</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>Define the bands Page Header and Footer as the header and footer of the document in Microsoft Word.</UsePageHeadersAndFooters>

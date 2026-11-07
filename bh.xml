@@ -833,6 +833,7 @@
     <TransformationHint>Klikni na zaglavlje tabele za sortiranje, filtriranje ili izmjenu podataka. Izmjene će biti primijenjene samo na podatke ove stavke.</TransformationHint>
     <Trend>Trend</Trend>
     <ViewEditCompilationNotice>Ne možete uređivati ​​izvještaj koji ima svojstvo 'Report.CalculationMode' jednako vrijednosti 'Compilation'. Molimo postavite to svojstvo na vrijednost 'Interpretation'.</ViewEditCompilationNotice>
+    <ViewEditCompilationTitle>Uređivanje nije dostupno</ViewEditCompilationTitle>
     <ViewModeDesktop>Desktop</ViewModeDesktop>
     <ViewModeMobile>Mobile</ViewModeMobile>
   </Dashboard>
@@ -2145,8 +2146,10 @@
     <CompilationAccess3>Ovaj dokument koristi kompajliranje i može biti nesiguran. Ne možete ga otvoriti.</CompilationAccess3>
     <CompilationAccessAllow>Dozvolite otvaranje dokumenata sa kompajliranjem bez ikakvih upozorenja ili ograničenja.</CompilationAccessAllow>
     <CompilationAccessAsk>Ako dokument koristi kompajliranje, prikazat će se prozor upozorenja sa unaprijed definisanim radnjama.</CompilationAccessAsk>
+    <CompilationAccessDeniedTitle>Dokument se ne može otvoriti</CompilationAccessDeniedTitle>
     <CompilationAccessDeny>Zabranite otvaranje bilo kojeg dokumenta koji koristi kompajliranje. Biće prikazan poseban prozor.</CompilationAccessDeny>
     <CompilationAccessForceInterpretation>Dokumenti sa kompajliranjem će se otvarati bez ikakvog upita, ali će se automatski pretvoriti u način interpretacije, koji ne koristi kompajliranje.</CompilationAccessForceInterpretation>
+    <CompilationAccessTitle>Dokument koristi kompilaciju</CompilationAccessTitle>
     <CompilationModeEnabling>Prebacujete se na način rada sa kompajliranjem. Ovaj način rada omogućava pokretanje različitog koda i ponekad može biti štetan. Molimo da koristite ovaj način rada samo ako razumijete sve rizike i slažete se sa njima. Kliknite na dugme {0} da nastavite.</CompilationModeEnabling>
     <ComponentSize>Promijenite veličinu odabrane komponente.</ComponentSize>
     <ComponentsMenu>Otvara meni Komponente koji sadrži nekorištene elemente kontrolne table na mobilnoj površini.</ComponentsMenu>
@@ -2379,6 +2382,7 @@
     <TypeExport>The file the report will be converted into.</TypeExport>
     <UnsafeCompilation1>Ovaj dokument koristi kompajliranje. U nekim slučajevima, ovo možda nije sigurno. Stoga će se dokument učitati u sigurnom načinu rada kako bi se umanjili potencijalni rizici.</UnsafeCompilation1>
     <UnsafeCompilation2>Ako želite da se ovaj dokument koristi u originalnom obliku, molimo da kontaktirate svoje programere.</UnsafeCompilation2>
+    <UnsafeCompilationTitle>Dokument će se otvoriti u sigurnom modu</UnsafeCompilationTitle>
     <UseDefaultSystemEncoding>Use system coding by default or specify the encoding by standard.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>Define the page bands Header and Footer as the header and footer of the Microsoft Word document.</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>Define the bands Page Header and Footer as the header and footer of the document in Microsoft Word.</UsePageHeadersAndFooters>

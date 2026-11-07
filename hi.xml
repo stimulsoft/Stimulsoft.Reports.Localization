@@ -832,6 +832,7 @@
     <TransformationHint>क्रमबद्धता या फ़िल्टरिंग लागू करने, या डेटा बदलने के लिए तालिका हेडर पर क्लिक करें। यह रूपांतरण केवल इस आइटम के डेटा पर लागू होगा।</TransformationHint>
     <Trend>रुझान</Trend>
     <ViewEditCompilationNotice>आप ऐसी रिपोर्ट संपादित नहीं कर सकते जिसका 'Report.CalculationMode' गुण 'Compilation' पर सेट है। कृपया उस गुण को 'Interpretation' पर सेट करें।</ViewEditCompilationNotice>
+    <ViewEditCompilationTitle>संपादन उपलब्ध नहीं है</ViewEditCompilationTitle>
     <ViewModeDesktop>डेस्कटॉप</ViewModeDesktop>
     <ViewModeMobile>मोबाइल</ViewModeMobile>
   </Dashboard>
@@ -2142,8 +2143,10 @@
     <CompilationAccess3>यह दस्तावेज़ संकलन प्रक्रिया का उपयोग करता है और यह असुरक्षित हो सकता है। आप इसे नहीं खोल सकते।</CompilationAccess3>
     <CompilationAccessAllow>बिना किसी चेतावनी या प्रतिबंध के संकलन वाले दस्तावेज़ खोलने की अनुमति दें।</CompilationAccessAllow>
     <CompilationAccessAsk>यदि कोई दस्तावेज़ संकलन प्रक्रिया का उपयोग करता है, तो पूर्वनिर्धारित क्रियाओं वाली एक चेतावनी विंडो प्रदर्शित होगी।</CompilationAccessAsk>
+    <CompilationAccessDeniedTitle>दस्तावेज़ नहीं खोला जा सकता</CompilationAccessDeniedTitle>
     <CompilationAccessDeny>संकलन प्रक्रिया का उपयोग करने वाले किसी भी दस्तावेज़ को खोलने से मना करें। एक विशेष विंडो प्रदर्शित होगी।</CompilationAccessDeny>
     <CompilationAccessForceInterpretation>संकलन वाले दस्तावेज़ बिना किसी संकेत के खोले जाएँगे लेकिन स्वचालित रूप से व्याख्या मोड में परिवर्तित हो जाएँगे, जो संकलन प्रक्रिया का उपयोग नहीं करता।</CompilationAccessForceInterpretation>
+    <CompilationAccessTitle>दस्तावेज़ कंपाइलेशन का उपयोग करता है</CompilationAccessTitle>
     <CompilationModeEnabling>आप संकलन मोड में स्विच कर रहे हैं। यह मोड आपको विभिन्न कोड चलाने की अनुमति देता है और कभी-कभी यह हानिकारक हो सकता है। कृपया, इस मोड का उपयोग केवल तभी करें जब आप सभी जोखिमों को समझते हों और उनसे सहमत हों। आगे बढ़ने के लिए {0} बटन पर क्लिक करें।</CompilationModeEnabling>
     <ComponentSize>चयनित घटकों का आकार बदलें।</ComponentSize>
     <ComponentsMenu>मोबाइल सतह पर अप्रयुक्त डैशबोर्ड एलिमेंट्स वाला घटक मेनू खोलता है।</ComponentsMenu>
@@ -2376,6 +2379,7 @@
     <TypeExport>वह फ़ाइल जिसमें रिपोर्ट परिवर्तित की जाएगी।</TypeExport>
     <UnsafeCompilation1>यह दस्तावेज़ संकलन प्रक्रिया का उपयोग करता है। कुछ मामलों में, यह सुरक्षित नहीं हो सकता। इसलिए, किसी भी संभावित जोखिम को न्यूनतम करने के लिए दस्तावेज़ सुरक्षित मोड में लोड किया जाएगा।</UnsafeCompilation1>
     <UnsafeCompilation2>यदि आपको इस दस्तावेज़ को इसके मूल रूप में उपयोग करने की आवश्यकता है, तो कृपया अपने डेवलपर्स से संपर्क करें।</UnsafeCompilation2>
+    <UnsafeCompilationTitle>दस्तावेज़ सुरक्षित मोड में खुलेगा</UnsafeCompilationTitle>
     <UseDefaultSystemEncoding>डिफ़ॉल्ट रूप से सिस्टम एन्कोडिंग का उपयोग करें या मैन्युअल रूप से एन्कोडिंग निर्दिष्ट करें।</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>पेज बैंड हेडर और फ़ुटर को Microsoft Word दस्तावेज़ के हेडर और फ़ुटर के रूप में परिभाषित करें।</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>पेज हेडर और फ़ुटर बैंड को Microsoft Word में दस्तावेज़ के हेडर और फ़ुटर के रूप में परिभाषित करें।</UsePageHeadersAndFooters>

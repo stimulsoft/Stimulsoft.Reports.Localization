@@ -47,6 +47,7 @@
     <Help>کمک</Help>
     <Ok>&amp;تایید</Ok>
     <Open>باز کردن</Open>
+    <OpenInSafeMode>باز کردن در حالت امن</OpenInSafeMode>
     <Print>چاپ</Print>
     <Remove>از بین بردن</Remove>
     <Rename>تغییر نام</Rename>
@@ -152,6 +153,9 @@
     <StripsEditorForm>فرم ویرایش نوارها</StripsEditorForm>
     <Style>سبک</Style>
   </Chart>
+  <Cloud>
+    <DoNotAskMe>دیگر سؤال نشود</DoNotAskMe>
+  </Cloud>
   <Components>
     <StiBarCode>رمز میله ای</StiBarCode>
     <StiChart>نمودار</StiChart>
@@ -203,6 +207,10 @@
     <StiWinControl>Win کنترل</StiWinControl>
     <StiZipCode>کد فشرده</StiZipCode>
   </Components>
+  <Dashboard>
+    <ViewEditCompilationNotice>نمی‌توانید گزارشی را ویرایش کنید که ویژگی 'Report.CalculationMode' آن روی 'Compilation' تنظیم شده است. لطفاً این ویژگی را روی 'Interpretation' تنظیم کنید.</ViewEditCompilationNotice>
+    <ViewEditCompilationTitle>ویرایش در دسترس نیست</ViewEditCompilationTitle>
+  </Dashboard>
   <Database>
     <Connection>ارتباط</Connection>
     <DatabaseDB2>IBM DB2 ارتباط با پایگاه داده</DatabaseDB2>
@@ -814,6 +822,18 @@
     <FindWhat>کدام را پیدا کن:</FindWhat>
     <title>پیدا کردن</title>
   </FormViewerFind>
+  <HelpDesigner>
+    <CompilationAccess1>این سند از فرایند کامپایل استفاده می‌کند. اگر سند از منبعی مطمئن است، می‌توانید برای دسترسی به آن روی دکمه "باز کردن" کلیک کنید.</CompilationAccess1>
+    <CompilationAccess2>اگر از منبع سند مطمئن نیستید اما همچنان می‌خواهید آن را مشاهده کنید، می‌توانید روی دکمه "باز کردن در حالت امن" کلیک کنید. در این صورت به جای کامپایل از تفسیر استفاده می‌شود و می‌توانید سند را با امنیت اجرا کنید.</CompilationAccess2>
+    <CompilationAccess3>این سند از فرایند کامپایل استفاده می‌کند و ممکن است ناامن باشد. نمی‌توانید آن را باز کنید.</CompilationAccess3>
+    <CompilationAccessDeniedTitle>نمی‌توان سند را باز کرد</CompilationAccessDeniedTitle>
+    <CompilationAccessTitle>سند از کامپایل استفاده می‌کند</CompilationAccessTitle>
+  </HelpDesigner>
+  <HelpViewer>
+    <UnsafeCompilation1>این سند از فرایند کامپایل استفاده می‌کند. در برخی موارد ممکن است این کار امن نباشد. بنابراین سند برای کاهش خطرات احتمالی در حالت امن بارگذاری می‌شود.</UnsafeCompilation1>
+    <UnsafeCompilation2>اگر لازم است این سند به شکل اصلی خود استفاده شود، لطفاً با توسعه‌دهندگان خود تماس بگیرید.</UnsafeCompilation2>
+    <UnsafeCompilationTitle>سند در حالت امن باز می‌شود</UnsafeCompilationTitle>
+  </HelpViewer>
   <MainMenu>
     <menuContextClone>تکثیر...</menuContextClone>
     <menuContextDesign>طراحی...</menuContextDesign>
@@ -1204,6 +1224,7 @@
     <StiButtonUITypeOutline>کادر</StiButtonUITypeOutline>
     <StiButtonUITypePrimary>اصلی</StiButtonUITypePrimary>
     <StiButtonUITypeSecondary>ثانویه</StiButtonUITypeSecondary>
+    <StiCalculationModeCompilation>کامپایل</StiCalculationModeCompilation>
     <StiChartTitleDockBottom>پایین</StiChartTitleDockBottom>
     <StiChartTitleDockLeft>چپ</StiChartTitleDockLeft>
     <StiChartTitleDockRight>راست</StiChartTitleDockRight>

@@ -833,6 +833,7 @@
     <TransformationHint>테이블 헤더를 클릭하면 정렬, 필터링, 또는 데이터의 변경 내용이 적용됩니다. 이 변환은이 항목의 데이터에만 적용됩니다.</TransformationHint>
     <Trend>경향</Trend>
     <ViewEditCompilationNotice>'Report.CalculationMode'속성이 '편집'값과 동일한 보고서는 편집 할 수 없습니다. 해당 속성을 '편집'값으로 설정하십시오.</ViewEditCompilationNotice>
+    <ViewEditCompilationTitle>편집할 수 없습니다</ViewEditCompilationTitle>
     <ViewModeDesktop>데스크탑</ViewModeDesktop>
     <ViewModeMobile>모바일</ViewModeMobile>
   </Dashboard>
@@ -2145,8 +2146,10 @@
     <CompilationAccess3>이 문서는 컴파일 프로세스를 사용하므로 안전하지 않을 수 있습니다. 열 수 없습니다.</CompilationAccess3>
     <CompilationAccessAllow>아무런 경고나 제한 없이 컴파일로 문서를 열 수 있습니다.</CompilationAccessAllow>
     <CompilationAccessAsk>문서가 컴파일 프로세스를 사용하는 경우, 미리 정의된 수행이 있는 경고 창이 표시됩니다.</CompilationAccessAsk>
+    <CompilationAccessDeniedTitle>문서를 열 수 없습니다</CompilationAccessDeniedTitle>
     <CompilationAccessDeny>컴파일 프로세스를 사용하는 문서 열기를 거부합니다. 특수 창이 표시됩니다.</CompilationAccessDeny>
     <CompilationAccessForceInterpretation>컴파일된 문서는 프롬프트 없이 열리지만 컴파일 프로세스를 사용하지 않는 해석 모드로 자동 변환됩니다.</CompilationAccessForceInterpretation>
+    <CompilationAccessTitle>문서가 컴파일을 사용합니다</CompilationAccessTitle>
     <CompilationModeEnabling>컴파일 모드로 전환하고 있습니다. 이 모드에서는 다른 코드를 실행할 수 있으며 때로는 위험할 수 있습니다. 모든 위험을 이해하고 이에 동의하는 경우에만 이 모드를 사용하십시오. 계속하려면 {0} 버튼을 클릭하십시오.</CompilationModeEnabling>
     <ComponentSize>선택한 구성 요소의 크기를 변경합니다.</ComponentSize>
     <ComponentsMenu>모바일 화면에서 사용되지 않은 대시보드 요소를 포함한 구성 요소 메뉴를 엽니다.</ComponentsMenu>
@@ -2379,6 +2382,7 @@
     <TypeExport>보고서가 변환되는 파일입니다.</TypeExport>
     <UnsafeCompilation1>이 문서는 컴파일 프로세스를 사용합니다. 경우에 따라 안전하지 않을 수 있습니다. 따라서 문서는 잠재적 위험을 최소화하기 위해 안전 모드로 로드됩니다.</UnsafeCompilation1>
     <UnsafeCompilation2>이 문서를 원래 형태로 사용하려면 개발자에게 문의하십시오.</UnsafeCompilation2>
+    <UnsafeCompilationTitle>문서가 안전 모드에서 열립니다</UnsafeCompilationTitle>
     <UseDefaultSystemEncoding>기본적으로 시스템 코딩을 사용하거나 표준 인코딩을 지정하십시오.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>머리글과 바닥 글을 Microsoft Word 문서의 머리글과 바닥 글로 정의합니다.</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>페이지 머리글과 바닥 글을 Microsoft Word에서 문서의 머리글과 바닥 글로 정의합니다.</UsePageHeadersAndFooters>

@@ -832,6 +832,7 @@
     <TransformationHint>Feu clic a la capçalera de la taula per aplicar l'ordenació o el filtratge, o per canviar les dades. Aquesta transformació s'aplicarà només a les dades d'aquest element.</TransformationHint>
     <Trend>Tendència</Trend>
     <ViewEditCompilationNotice>No pots editar un informe la propietat 'Report.CalculationMode' del qual està establerta a 'Compilation'. Estableix aquesta propietat a 'Interpretation'.</ViewEditCompilationNotice>
+    <ViewEditCompilationTitle>L'edició no està disponible</ViewEditCompilationTitle>
     <ViewModeDesktop>Escriptori</ViewModeDesktop>
     <ViewModeMobile>Mòbil</ViewModeMobile>
   </Dashboard>
@@ -2142,8 +2143,10 @@
     <CompilationAccess3>Aquest document utilitza el procés de compilació i pot ser insegur. No el podeu obrir.</CompilationAccess3>
     <CompilationAccessAllow>Permetre obrir documents amb compilació sense cap advertiment ni restricció.</CompilationAccessAllow>
     <CompilationAccessAsk>Si un document utilitza el procés de compilació, es mostrarà una finestra d'advertiment amb accions predefinides.</CompilationAccessAsk>
+    <CompilationAccessDeniedTitle>No es pot obrir el document</CompilationAccessDeniedTitle>
     <CompilationAccessDeny>Denega l'obertura de qualsevol document que utilitzi el procés de compilació. Es mostrarà una finestra especial.</CompilationAccessDeny>
     <CompilationAccessForceInterpretation>Els documents amb compilació s'obriran sense cap avís, però es convertiran automàticament al mode d'interpretació, que no utilitza el procés de compilació.</CompilationAccessForceInterpretation>
+    <CompilationAccessTitle>El document utilitza la compilació</CompilationAccessTitle>
     <CompilationModeEnabling>Estàs canviant al mode de compilació. Aquest mode permet executar codi divers i de vegades pot ser perjudicial. Utilitza aquest mode només si comprens tots els riscos i hi estàs d'acord. Fes clic al botó {0} per continuar.</CompilationModeEnabling>
     <ComponentSize>Canvia la mida dels components seleccionats.</ComponentSize>
     <ComponentsMenu>Obre el menú de components que conté els elements del tauler no utilitzats a la superfície mòbil.</ComponentsMenu>
@@ -2376,6 +2379,7 @@
     <TypeExport>El fitxer en què es convertirà l'informe.</TypeExport>
     <UnsafeCompilation1>Aquest document utilitza el procés de compilació. En alguns casos, això pot no ser segur. Per tant, el document es carregarà en mode segur per minimitzar qualsevol risc potencial.</UnsafeCompilation1>
     <UnsafeCompilation2>Si necessiteu que aquest document s'utilitzi en la seva forma original, poseu-vos en contacte amb els vostres desenvolupadors.</UnsafeCompilation2>
+    <UnsafeCompilationTitle>El document s'obrirà en mode segur</UnsafeCompilationTitle>
     <UseDefaultSystemEncoding>Utilitza la codificació del sistema per defecte o especifica la codificació manualment.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>Defineix les bandes de pàgina Capçalera i Peu com a capçalera i peu del document de Microsoft Word.</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>Defineix les bandes Capçalera i Peu de pàgina com a capçalera i peu del document a Microsoft Word.</UsePageHeadersAndFooters>

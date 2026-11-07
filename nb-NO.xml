@@ -833,6 +833,7 @@
     <TransformationHint>Klikk på tabelloverskriften for å legge til sortering, filtrering eller endre data. Denne endringen vil kun bli brukt på dataene til dette elementet.</TransformationHint>
     <Trend>Trend</Trend>
     <ViewEditCompilationNotice>Du kan ikke redigere rapporten som har egenskapen 'Report.CalculationMode' satt til 'Compilation'. Sett denne egenskapen til 'Interpretation'.</ViewEditCompilationNotice>
+    <ViewEditCompilationTitle>Redigering er ikke tilgjengelig</ViewEditCompilationTitle>
     <ViewModeDesktop>Skrivebord</ViewModeDesktop>
     <ViewModeMobile>Mobil</ViewModeMobile>
   </Dashboard>
@@ -2144,8 +2145,10 @@
     <CompilationAccess3>Dette dokumentet bruker kompilering og kan være usikkert. Du kan ikke åpne det.</CompilationAccess3>
     <CompilationAccessAllow>Tillat åpning av dokumenter med kompilering uten advarsler eller begrensninger.</CompilationAccessAllow>
     <CompilationAccessAsk>Hvis et dokument bruker kompilering, vises et varselvindu med forhåndsdefinerte handlinger.</CompilationAccessAsk>
+    <CompilationAccessDeniedTitle>Dokumentet kan ikke åpnes</CompilationAccessDeniedTitle>
     <CompilationAccessDeny>Nekt åpning av dokumenter som bruker kompilering. Et spesielt vindu vises.</CompilationAccessDeny>
     <CompilationAccessForceInterpretation>Dokumenter med kompilering åpnes uten varsel, men konverteres automatisk til tolkningsmodus.</CompilationAccessForceInterpretation>
+    <CompilationAccessTitle>Dokumentet bruker kompilering</CompilationAccessTitle>
     <CompilationModeEnabling>Du bytter til kompilasjonsmodus. Denne modusen lar deg kjøre ulik kode og kan være risikabel. Bruk kun hvis du forstår og godtar risikoen. Klikk {0} for å fortsette.</CompilationModeEnabling>
     <ComponentSize>Endre størrelse på valgte komponenter.</ComponentSize>
     <ComponentsMenu>Åpner Komponenter-menyen som inneholder ubrukte instrumentpanelelementer på mobiloverflaten.</ComponentsMenu>
@@ -2378,6 +2381,7 @@
     <TypeExport>Filen rapporten blir konvertert til.</TypeExport>
     <UnsafeCompilation1>Dette dokumentet bruker kompilering. Dette kan i noen tilfeller være usikkert. Derfor lastes dokumentet i sikker modus for å minimere risiko.</UnsafeCompilation1>
     <UnsafeCompilation2>Hvis du trenger å bruke dokumentet i original form, kontakt utviklerne dine.</UnsafeCompilation2>
+    <UnsafeCompilationTitle>Dokumentet åpnes i sikker modus</UnsafeCompilationTitle>
     <UseDefaultSystemEncoding>Bruk systemkoding som standard, eller angi ut fra standard.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>Definer sidebåndene Topptekst og Bunntekst som toppteksten og bunnteksten i Microsoft Word-dokumentet.</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>Definer båndene Sidetopptekst og Bunntekst som toppteksten og bunnteksten til dokumentet i Microsoft Word.</UsePageHeadersAndFooters>

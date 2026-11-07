@@ -834,6 +834,7 @@
     <TransformationHint>按一下表格標頭以套用排序或篩選，或變更資料。此轉換僅會套用至此項目的資料。</TransformationHint>
     <Trend>趨勢</Trend>
     <ViewEditCompilationNotice>您無法編輯 'Report.CalculationMode' 屬性設為 'Compilation' 的報表。請將該屬性設為 'Interpretation'。</ViewEditCompilationNotice>
+    <ViewEditCompilationTitle>無法編輯</ViewEditCompilationTitle>
     <ViewModeDesktop>桌面</ViewModeDesktop>
     <ViewModeMobile>行動裝置</ViewModeMobile>
   </Dashboard>
@@ -2145,8 +2146,10 @@
     <CompilationAccess3>此文件使用了編譯過程，可能不安全。您無法開啟它。</CompilationAccess3>
     <CompilationAccessAllow>允許開啟含編譯的文件，不顯示任何警告或限制。</CompilationAccessAllow>
     <CompilationAccessAsk>若文件使用編譯程序，將顯示含預先定義動作的警告視窗。</CompilationAccessAsk>
+    <CompilationAccessDeniedTitle>無法開啟文件</CompilationAccessDeniedTitle>
     <CompilationAccessDeny>拒絕開啟任何使用編譯程序的文件。將顯示特殊視窗。</CompilationAccessDeny>
     <CompilationAccessForceInterpretation>使用編譯的文件將直接開啟而不提示，但會自動轉換為不使用編譯程序的解譯模式。</CompilationAccessForceInterpretation>
+    <CompilationAccessTitle>此文件使用編譯</CompilationAccessTitle>
     <CompilationModeEnabling>您正在切換至編譯模式。此模式允許執行不同的程式碼，有時可能造成危害。請僅在您了解並同意所有風險的情況下使用此模式。按一下 {0} 按鈕以繼續。</CompilationModeEnabling>
     <ComponentSize>變更所選元件的大小。</ComponentSize>
     <ComponentsMenu>開啟「元件」選單，其中包含行動介面上未使用的儀表板元素。</ComponentsMenu>
@@ -2379,6 +2382,7 @@
     <TypeExport>報表將轉換成的檔案。</TypeExport>
     <UnsafeCompilation1>此文件使用了編譯過程。在某些情況下，這可能不安全。因此，文件將以安全模式載入，以將任何潛在風險降至最低。</UnsafeCompilation1>
     <UnsafeCompilation2>若您需要以原始形式使用此文件，請聯絡您的開發人員。</UnsafeCompilation2>
+    <UnsafeCompilationTitle>文件將以安全模式開啟</UnsafeCompilationTitle>
     <UseDefaultSystemEncoding>預設使用系統編碼，或手動指定編碼。</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>將頁面區帶「頁首」與「頁尾」定義為 Microsoft Word 文件的頁首與頁尾。</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>將「頁首」與「頁尾」區帶定義為 Microsoft Word 中文件的頁首與頁尾。</UsePageHeadersAndFooters>

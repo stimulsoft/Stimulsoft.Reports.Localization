@@ -833,6 +833,7 @@
     <TransformationHint>Kliknij nagłówek tabeli, aby zastosować sortowanie, filtrowanie lub zmienić dane. Ta transformacja zostanie zastosowana tylko do danych tego elementu.</TransformationHint>
     <Trend>Tendencja</Trend>
     <ViewEditCompilationNotice>Nie można edytować raportu, którego właściwość "Report.CalculationMode" jest równa wartości "Compilation". Ustaw tę właściwość na wartość "Interpretation".</ViewEditCompilationNotice>
+    <ViewEditCompilationTitle>Edycja jest niedostępna</ViewEditCompilationTitle>
     <ViewModeDesktop>Desktop</ViewModeDesktop>
     <ViewModeMobile>Mobile</ViewModeMobile>
   </Dashboard>
@@ -2144,8 +2145,10 @@
     <CompilationAccess3>Ten dokument wykorzystuje proces kompilacji i może być niebezpieczny. Nie można go otworzyć.</CompilationAccess3>
     <CompilationAccessAllow>Zezwalaj na otwieranie dokumentów z kompilacją bez żadnych ostrzeżeń lub ograniczeń.</CompilationAccessAllow>
     <CompilationAccessAsk>Jeśli dokument korzysta z procesu kompilacji, wyświetlone zostanie okno ostrzeżenia z predefiniowanymi działaniami.</CompilationAccessAsk>
+    <CompilationAccessDeniedTitle>Nie można otworzyć dokumentu</CompilationAccessDeniedTitle>
     <CompilationAccessDeny>Odmów otwierania dowolnego dokumentu korzystającego z procesu kompilacji. Zostanie wyświetlone specjalne okno.</CompilationAccessDeny>
     <CompilationAccessForceInterpretation>Dokumenty z kompilacją zostaną otwarte bez żadnych komunikatów, ale zostaną automatycznie przekonwertowane do trybu interpretacji, który nie wykorzystuje procesu kompilacji.</CompilationAccessForceInterpretation>
+    <CompilationAccessTitle>Dokument używa kompilacji</CompilationAccessTitle>
     <CompilationModeEnabling>Przechodzisz do trybu kompilacji. Tryb ten pozwala na uruchomienie dowolnego kodu i czasami może być szkodliwy. Korzystaj z tego trybu tylko wtedy, gdy rozumiesz wszystkie zagrożenia i zgadzasz się z nimi. Kliknij przycisk {0}, aby kontynuować.</CompilationModeEnabling>
     <ComponentSize>Zmień rozmiar wybranych komponentów.</ComponentSize>
     <ComponentsMenu>Otwiera menu komponentów z nieużywanymi elementami dashboardu na widoku mobilnym.</ComponentsMenu>
@@ -2378,6 +2381,7 @@
     <TypeExport>Plik z raportem zostanie przekształcony na: </TypeExport>
     <UnsafeCompilation1>Ten dokument wykorzystuje proces kompilacji. W niektórych przypadkach może to nie być bezpieczne. Dlatego dokument zostanie załadowany w trybie bezpiecznym, aby zminimalizować potencjalne ryzyko.</UnsafeCompilation1>
     <UnsafeCompilation2>Jeśli chcesz, aby ten dokument był używany w oryginalnej formie, skontaktuj się z programistami.</UnsafeCompilation2>
+    <UnsafeCompilationTitle>Dokument zostanie otwarty w trybie bezpiecznym</UnsafeCompilationTitle>
     <UseDefaultSystemEncoding>Stosuj kodowanie systemowe domyślnie lub podaj kodowanie według standardu. </UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>Definiuj paski strony Nagłówek i Stopkę jako nagłówek i stopkę dokumentu w MS Word. </UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>Definiuj paski Nagłówek i Stopkę Strony jako nagłówek i stopkę dokumentu w MS Word. </UsePageHeadersAndFooters>

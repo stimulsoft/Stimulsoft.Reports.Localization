@@ -833,6 +833,7 @@
     <TransformationHint>Fai clic sull'intestazione della tabella per applicare ordinamento, filtro o modificare i dati. Questa trasformazione sarà applicata solo ai dati di questo elemento.</TransformationHint>
     <Trend>Tendenza</Trend>
     <ViewEditCompilationNotice>Non puoi modificare il report che ha la proprietà 'Report.CalculationMode' impostata su 'Compilation'. Imposta quella proprietà su 'Interpretation'.</ViewEditCompilationNotice>
+    <ViewEditCompilationTitle>La modifica non è disponibile</ViewEditCompilationTitle>
     <ViewModeDesktop>Desktop</ViewModeDesktop>
     <ViewModeMobile>Mobile</ViewModeMobile>
   </Dashboard>
@@ -2144,8 +2145,10 @@
     <CompilationAccess3>Questo documento utilizza il processo di compilazione e potrebbe non essere sicuro. Non puoi aprirlo.</CompilationAccess3>
     <CompilationAccessAllow>Consenti l'apertura di documenti con compilazione senza avvisi o restrizioni.</CompilationAccessAllow>
     <CompilationAccessAsk>Se un documento utilizza il processo di compilazione, verrà visualizzata una finestra di avviso con azioni predefinite.</CompilationAccessAsk>
+    <CompilationAccessDeniedTitle>Impossibile aprire il documento</CompilationAccessDeniedTitle>
     <CompilationAccessDeny>Nega l'apertura di qualsiasi documento che utilizza il processo di compilazione. Verrà visualizzata una finestra speciale.</CompilationAccessDeny>
     <CompilationAccessForceInterpretation>I documenti con compilazione verranno aperti senza alcun avviso ma saranno automaticamente convertiti in modalità interpretazione, che non utilizza il processo di compilazione.</CompilationAccessForceInterpretation>
+    <CompilationAccessTitle>Il documento usa la compilazione</CompilationAccessTitle>
     <CompilationModeEnabling>Stai passando alla modalità compilazione. Questa modalità consente di eseguire codice e talvolta potrebbe essere rischiosa. Usa questa modalità solo se comprendi tutti i rischi e li accetti. Fai clic sul pulsante {0} per continuare.</CompilationModeEnabling>
     <ComponentSize>Cambia la grandezza dei componenti selezionati.</ComponentSize>
     <ComponentsMenu>Apre il menu Componenti che contiene elementi della dashboard inutilizzati sulla superficie mobile.</ComponentsMenu>
@@ -2378,6 +2381,7 @@
     <TypeExport>Il tipo di file in cui il report sarà convertito.</TypeExport>
     <UnsafeCompilation1>Questo documento utilizza il processo di compilazione. In alcuni casi, ciò potrebbe non essere sicuro. Pertanto, il documento verrà caricato in modalità sicura per minimizzare eventuali rischi.</UnsafeCompilation1>
     <UnsafeCompilation2>Se hai bisogno di utilizzare questo documento nella sua forma originale, contatta i tuoi sviluppatori.</UnsafeCompilation2>
+    <UnsafeCompilationTitle>Il documento verrà aperto in modalità sicura</UnsafeCompilationTitle>
     <UseDefaultSystemEncoding>Usa il sistema di codifica di default o specifica il sistema di codifica.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>Usa Intestazione e piè di pagina del report come intestazione e piè di pagina del documento MS Word.</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>Usa Intestazione e piè di pagina del report come intestazione e piè di pagina del documento MS Word.</UsePageHeadersAndFooters>

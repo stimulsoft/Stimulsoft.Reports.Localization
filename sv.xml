@@ -832,6 +832,7 @@
     <TransformationHint>Klicka på tabellhuvudet för att tillämpa sortering eller filtrering, eller för att ändra data. Den här transformationen tillämpas endast på det här objektets data.</TransformationHint>
     <Trend>Trend</Trend>
     <ViewEditCompilationNotice>Du kan inte redigera en rapport vars egenskap 'Report.CalculationMode' är inställd på 'Compilation'. Ställ in den egenskapen på 'Interpretation'.</ViewEditCompilationNotice>
+    <ViewEditCompilationTitle>Redigering är inte tillgänglig</ViewEditCompilationTitle>
     <ViewModeDesktop>Skrivbord</ViewModeDesktop>
     <ViewModeMobile>Mobil</ViewModeMobile>
   </Dashboard>
@@ -2142,8 +2143,10 @@
     <CompilationAccess3>Det här dokumentet använder kompileringsprocessen och det kan vara osäkert. Du kan inte öppna det.</CompilationAccess3>
     <CompilationAccessAllow>Tillåt öppning av dokument med kompilering utan några varningar eller begränsningar.</CompilationAccessAllow>
     <CompilationAccessAsk>Om ett dokument använder kompileringsprocessen visas ett varningsfönster med fördefinierade åtgärder.</CompilationAccessAsk>
+    <CompilationAccessDeniedTitle>Dokumentet kan inte öppnas</CompilationAccessDeniedTitle>
     <CompilationAccessDeny>Neka öppning av dokument som använder kompileringsprocessen. Ett särskilt fönster visas.</CompilationAccessDeny>
     <CompilationAccessForceInterpretation>Dokument med kompilering öppnas utan någon uppmaning men konverteras automatiskt till tolkningsläge, som inte använder kompileringsprocessen.</CompilationAccessForceInterpretation>
+    <CompilationAccessTitle>Dokumentet använder kompilering</CompilationAccessTitle>
     <CompilationModeEnabling>Du växlar till kompileringsläge. Detta läge gör att du kan köra olika kod och ibland kan det vara skadligt. Använd endast detta läge om du förstår alla risker och godkänner dem. Klicka på knappen {0} för att fortsätta.</CompilationModeEnabling>
     <ComponentSize>Ändra storlek på valda komponenter.</ComponentSize>
     <ComponentsMenu>Öppnar Komponent-menyn som innehåller oanvända dashboard-element på den mobila ytan.</ComponentsMenu>
@@ -2376,6 +2379,7 @@
     <TypeExport>Filen som rapporten konverteras till.</TypeExport>
     <UnsafeCompilation1>Det här dokumentet använder kompileringsprocessen. I vissa fall kan detta vara osäkert. Därför laddas dokumentet i säkert läge för att minimera eventuella risker.</UnsafeCompilation1>
     <UnsafeCompilation2>Om du behöver att detta dokument används i sin ursprungliga form, kontakta dina utvecklare.</UnsafeCompilation2>
+    <UnsafeCompilationTitle>Dokumentet öppnas i felsäkert läge</UnsafeCompilationTitle>
     <UseDefaultSystemEncoding>Använd systemkodning som standard eller specificera kodning som används som standard.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>Definiera sidbandens huvud och fot som huvud och fot i MS Word dokument.</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>Definiera bandens sidhuvud och sidfot som huvud och fot i MS Word.</UsePageHeadersAndFooters>

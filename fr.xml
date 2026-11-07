@@ -833,6 +833,7 @@
     <TransformationHint>Cliquer sur l'en-tête de la table pour appliquer le tri, le filtrage ou le changement de données. Cette transformation sera appliquée uniquement aux données de cet objet.</TransformationHint>
     <Trend>Tendance</Trend>
     <ViewEditCompilationNotice>Vous ne pouvez pas éditer le rapport qui a la propriété 'Report.CalculationMode' avec une valeur 'Compilation'. Mettez la valeur de la propriété à 'Interpretation' à la place.</ViewEditCompilationNotice>
+    <ViewEditCompilationTitle>La modification n'est pas disponible</ViewEditCompilationTitle>
     <ViewModeDesktop>Bureau</ViewModeDesktop>
     <ViewModeMobile>Mobile</ViewModeMobile>
   </Dashboard>
@@ -2144,8 +2145,10 @@
     <CompilationAccess3>Ce document utilise le processus de compilation et cela peut être dangereux. Vous ne pouvez pas l'ouvrir.</CompilationAccess3>
     <CompilationAccessAllow>Autoriser l'ouverture des documents avec compilation sans avertissements ni restrictions.</CompilationAccessAllow>
     <CompilationAccessAsk>Si un document utilise le processus de compilation, une fenêtre d'avertissement avec des actions prédéfinies s'affichera.</CompilationAccessAsk>
+    <CompilationAccessDeniedTitle>Impossible d'ouvrir le document</CompilationAccessDeniedTitle>
     <CompilationAccessDeny>Refuser l'ouverture de tout document utilisant le processus de compilation. Une fenêtre spéciale s'affichera.</CompilationAccessDeny>
     <CompilationAccessForceInterpretation>Les documents avec compilation seront ouverts sans invite mais seront automatiquement convertis en mode interprétation, qui n'utilise pas le processus de compilation.</CompilationAccessForceInterpretation>
+    <CompilationAccessTitle>Le document utilise la compilation</CompilationAccessTitle>
     <CompilationModeEnabling>Vous passez en mode compilation. Ce mode permet d'exécuter différents codes et cela peut parfois être dangereux. Veuillez utiliser ce mode uniquement si vous comprenez tous les risques et les acceptez. Cliquez sur le bouton {0} pour continuer.</CompilationModeEnabling>
     <ComponentSize>Changer la taille des composants sélectionnés.</ComponentSize>
     <ComponentsMenu>Ouvre le menu Composants contenant les éléments de tableau de bord inutilisés sur la surface mobile.</ComponentsMenu>
@@ -2378,6 +2381,7 @@
     <TypeExport>Le type de fichier dans lequel sera exporté le rapport.</TypeExport>
     <UnsafeCompilation1>Ce document utilise le processus de compilation. Dans certains cas, cela peut ne pas être sûr. Par conséquent, le document sera chargé en mode sans échec pour minimiser les risques potentiels.</UnsafeCompilation1>
     <UnsafeCompilation2>Si vous souhaitez utiliser ce document dans sa forme originale, veuillez contacter vos développeurs.</UnsafeCompilation2>
+    <UnsafeCompilationTitle>Le document s'ouvrira en mode sans échec</UnsafeCompilationTitle>
     <UseDefaultSystemEncoding>Utiliser l'encodage par défaut du système ou spécifier l'encodage à utiliser.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>Définir les bandes des pages Entête et Pied du rapport comme Entête et Pied de page du document Microsoft Word.</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>Définir les bandes Entête de page et Pied de page du rapport comme Entête et Pied de page du document Microsoft Word.</UsePageHeadersAndFooters>

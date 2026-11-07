@@ -110,6 +110,7 @@
     <No>لا</No>
     <Ok>&amp;موافق</Ok>
     <Open>فتح</Open>
+    <OpenInSafeMode>فتح في الوضع الآمن</OpenInSafeMode>
     <Print>طباعة</Print>
     <QuickPrint>طباعة سريعة</QuickPrint>
     <Remove>إزالة</Remove>
@@ -347,6 +348,7 @@
     <CreatingReport>إنشاء التقرير...</CreatingReport>
     <DashboardWindowTitleNew>لوحة معلومات جديدة</DashboardWindowTitleNew>
     <DeleteFile>حذف ملف</DeleteFile>
+    <DoNotAskMe>عدم السؤال مرة أخرى</DoNotAskMe>
     <ExecutionError>خطأ في التنفيذ</ExecutionError>
     <FileStorageWindowTitleEdit>تعديل تخزين الملف</FileStorageWindowTitleEdit>
     <FileStorageWindowTitleNew>تخزين ملف جديد</FileStorageWindowTitleNew>
@@ -548,6 +550,10 @@
     <StiWinControl>عنصر نماذج</StiWinControl>
     <StiZipCode>رمز بريدي</StiZipCode>
   </Components>
+  <Dashboard>
+    <ViewEditCompilationNotice>لا يمكنك تحرير تقرير تم تعيين الخاصية 'Report.CalculationMode' فيه إلى 'Compilation'. يرجى تعيين هذه الخاصية إلى 'Interpretation'.</ViewEditCompilationNotice>
+    <ViewEditCompilationTitle>التحرير غير متاح</ViewEditCompilationTitle>
+  </Dashboard>
   <Database>
     <Connection>اتصال</Connection>
     <Database>{0} اتصال</Database>
@@ -1624,6 +1630,11 @@
     <CenterVertically>يسمح لك محاذاة عنصر عموديا بالنسبة إلى حواف الحاويات في ما هو وضعها.</CenterVertically>
     <Close>إغلاق مصمم التقرير.</Close>
     <Columns>تقسيم الصفحة إلى أعمدة.</Columns>
+    <CompilationAccess1>يستخدم هذا المستند عملية التجميع. إذا كان المستند من مصدر موثوق، يمكنك النقر على زر "فتح" للوصول إليه.</CompilationAccess1>
+    <CompilationAccess2>إذا لم تكن متأكدًا من مصدر المستند ولكنك لا تزال ترغب في عرضه، يمكنك النقر على زر "فتح في الوضع الآمن". في هذه الحالة، سيتم استخدام التفسير بدلاً من التجميع، مما يتيح لك تشغيل المستند بأمان.</CompilationAccess2>
+    <CompilationAccess3>يستخدم هذا المستند عملية التجميع وقد يكون غير آمن. لا يمكنك فتحه.</CompilationAccess3>
+    <CompilationAccessDeniedTitle>لا يمكن فتح المستند</CompilationAccessDeniedTitle>
+    <CompilationAccessTitle>يستخدم المستند التجميع</CompilationAccessTitle>
     <ComponentSize>تغيير حجم المكونات المحددة.</ComponentSize>
     <CopyStyle>نسخ التنسيق</CopyStyle>
     <CopyToClipboard>نسخ إلى الحافظة</CopyToClipboard>
@@ -1837,6 +1848,9 @@
     <TiffCompressionScheme>مخطط الضغك لملفات TIFF.</TiffCompressionScheme>
     <ToolEditor>هذه الأداة تسمح بتحرير محتوى النصوص مباشرة في التقرير</ToolEditor>
     <TypeExport>الملف الذي سيتم تحويل التقرير إليه.</TypeExport>
+    <UnsafeCompilation1>يستخدم هذا المستند عملية التجميع. في بعض الحالات، قد لا يكون ذلك آمنًا. لذلك سيتم تحميل المستند في الوضع الآمن لتقليل أي مخاطر محتملة.</UnsafeCompilation1>
+    <UnsafeCompilation2>إذا كنت بحاجة إلى استخدام هذا المستند بشكله الأصلي، يرجى التواصل مع المطورين لديك.</UnsafeCompilation2>
+    <UnsafeCompilationTitle>سيُفتح المستند في الوضع الآمن</UnsafeCompilationTitle>
     <UseDefaultSystemEncoding>استخدام الترميز الافتراضي للنظام أو تحديد ترميز خاص</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>تعريف قيود ترويس وتذييل الصفحة كترويسة وتذييل الصفحة  في MS Word.</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>تعريف قيود ترويس وتذييل الصفحة كترويسة وتذييل الصفحة  في MS Word.</UsePageHeadersAndFooters>

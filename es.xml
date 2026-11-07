@@ -833,6 +833,7 @@
     <TransformationHint>Haga clic en el encabezado de la tabla para aplicar clasificación, filtrado o cambiar datos. Esta transformación se aplicará solo a los datos de este elemento.</TransformationHint>
     <Trend>Tendencia</Trend>
     <ViewEditCompilationNotice>No puede editar el informe que tiene la propiedad 'Report.CalculationMode' igual al valor de 'Compilación'. Establezca esa propiedad en un valor de 'Interpretación'.</ViewEditCompilationNotice>
+    <ViewEditCompilationTitle>La edición no está disponible</ViewEditCompilationTitle>
     <ViewModeDesktop>Escritorio</ViewModeDesktop>
     <ViewModeMobile>Móvil</ViewModeMobile>
   </Dashboard>
@@ -2144,8 +2145,10 @@
     <CompilationAccess3>Este documento utiliza el proceso de compilación y puede no ser seguro. No puedes abrirlo.</CompilationAccess3>
     <CompilationAccessAllow>Permita abrir documentos con compilación sin advertencias ni restricciones.</CompilationAccessAllow>
     <CompilationAccessAsk>Si un documento utiliza el proceso de compilación, se mostrará una ventana de advertencia con acciones predefinidas.</CompilationAccessAsk>
+    <CompilationAccessDeniedTitle>No se puede abrir el documento</CompilationAccessDeniedTitle>
     <CompilationAccessDeny>Denegar la apertura de cualquier documento que utilice el proceso de compilación. Se mostrará una ventana especial.</CompilationAccessDeny>
     <CompilationAccessForceInterpretation>Los documentos con compilación se abrirán sin ningún aviso, pero se convertirán automáticamente al modo de interpretación, que no utiliza el proceso de compilación.</CompilationAccessForceInterpretation>
+    <CompilationAccessTitle>El documento usa compilación</CompilationAccessTitle>
     <CompilationModeEnabling>Está cambiando al modo de compilación. Este modo permite ejecutar código diferente y, en ocasiones, podría ser dañino. Por favor, use este modo solo si comprende todos los riesgos y está de acuerdo con ellos. Haga clic en el botón {0} para continuar.</CompilationModeEnabling>
     <ComponentSize>Cambiar el tamaño de los componentes seleccionados.</ComponentSize>
     <ComponentsMenu>Abre el menú Componentes que contiene elementos del panel de control no utilizados en la superficie móvil.</ComponentsMenu>
@@ -2378,6 +2381,7 @@
     <TypeExport>El archivo destino a la cual se convertirá el informe.</TypeExport>
     <UnsafeCompilation1>Este documento utiliza el proceso de compilación. En algunos casos, esto puede no ser seguro. Por lo tanto, el documento se cargará en modo seguro para minimizar cualquier riesgo potencial.</UnsafeCompilation1>
     <UnsafeCompilation2>Si necesita que este documento se utilice en su forma original, comuníquese con sus desarrolladores.</UnsafeCompilation2>
+    <UnsafeCompilationTitle>El documento se abrirá en modo seguro</UnsafeCompilationTitle>
     <UseDefaultSystemEncoding>Usar la codificación del sistema por defecto o especifique una codificación distinta.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>Use las bandas de Cabecera y Pie como cabeceras y pies del documento MS Word.</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>Use las bandas de página de Cabecera y Pie como cabeceras y pies del documento MS Word.</UsePageHeadersAndFooters>

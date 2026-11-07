@@ -834,6 +834,7 @@
     <TransformationHint>单击表标题去应用排序，过滤或更改数据。此转换仅适用于此数据项目。</TransformationHint>
     <Trend>趋向</Trend>
     <ViewEditCompilationNotice>您不能编辑 "Report.CalculationMode" 属性设置为 "Compilation" 的报表。请将该属性设置为"Interpretation"</ViewEditCompilationNotice>
+    <ViewEditCompilationTitle>无法编辑</ViewEditCompilationTitle>
     <ViewModeDesktop>桌面端</ViewModeDesktop>
     <ViewModeMobile>移动端</ViewModeMobile>
   </Dashboard>
@@ -2147,8 +2148,10 @@
     <CompilationAccess3>此文档使用编译过程，可能不安全。你无法打开它</CompilationAccess3>
     <CompilationAccessAllow>允许在没有任何警告或限制的情况下打开编译文档</CompilationAccessAllow>
     <CompilationAccessAsk>如果文档使用编译过程，将显示带有预定义操作的警告窗口</CompilationAccessAsk>
+    <CompilationAccessDeniedTitle>无法打开文档</CompilationAccessDeniedTitle>
     <CompilationAccessDeny>拒绝打开任何使用编译过程的文档。将显示一个特殊窗口</CompilationAccessDeny>
     <CompilationAccessForceInterpretation>编译后的文件将在没有任何提示的情况下打开，但将自动转换为解释模式，该模式不使用编译过程.</CompilationAccessForceInterpretation>
+    <CompilationAccessTitle>该文档使用编译</CompilationAccessTitle>
     <CompilationModeEnabling>您正在切换到编译模式。这种模式允许运行不同的代码，有时可能是有害的。请仅在您了解并同意所有风险的情况下使用此模式。单击{0}按钮继续.</CompilationModeEnabling>
     <ComponentSize>更改所选组件的尺寸.</ComponentSize>
     <ComponentsMenu>打开组件菜单，其中包含移动端界面上未使用的仪表板元素。</ComponentsMenu>
@@ -2381,6 +2384,7 @@
     <TypeExport>报表将转换到的文件.</TypeExport>
     <UnsafeCompilation1>本文档使用编译过程。在某些情况下，这可能不安全。因此，文件将以安全模式加载，以最大限度地减少任何潜在风险.</UnsafeCompilation1>
     <UnsafeCompilation2>如果您要求以原始形式使用此文档，请联系您的开发人员</UnsafeCompilation2>
+    <UnsafeCompilationTitle>文档将在安全模式下打开</UnsafeCompilationTitle>
     <UseDefaultSystemEncoding>使用默认的系统编码.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>只使用首个页眉和最后一个的页脚. 移除剩下的页眉和页脚.</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>导出页面页眉和页脚作为MS Word文档的页眉和页脚.</UsePageHeadersAndFooters>

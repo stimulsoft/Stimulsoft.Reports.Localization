@@ -832,6 +832,7 @@
     <TransformationHint>Κάντε κλικ στην κεφαλίδα του πίνακα για να εφαρμόσετε ταξινόμηση, φίλτραρισμα η αλλαγή στα δεδομένα. Αυτός ο μετασχηματισμός θα εφαρμοστεί μόνο στα δεδομένα αυτού του στοιχείου.</TransformationHint>
     <Trend>Τάση</Trend>
     <ViewEditCompilationNotice>Δεν μπορείτε να επεξεργαστείτε την αναφορά εάν σε αυτή τη ιδιότητα 'Report.CalculationMode' έχει τιμή 'Compilation'. Παρακαλώ θέστε στην ιδιότητα αυτή την τιμή 'Interpretation'.</ViewEditCompilationNotice>
+    <ViewEditCompilationTitle>Η επεξεργασία δεν είναι διαθέσιμη</ViewEditCompilationTitle>
     <ViewModeDesktop>Desktop</ViewModeDesktop>
     <ViewModeMobile>Mobile</ViewModeMobile>
   </Dashboard>
@@ -2142,8 +2143,10 @@
     <CompilationAccess3>Αυτό το έγγραφο χρησιμοποιεί την διαδικασία μεταγλώττισης και μπορεί να μην είναι ασφαλές. Δεν μπορείτε να το ανοίξετε.</CompilationAccess3>
     <CompilationAccessAllow>Επιτρέψτε το άνοιγμα εγγράφων χωρίς μεταγλώττιση, χωρίς καθόλου προειδοποιήσεις ή περιορισμούς.</CompilationAccessAllow>
     <CompilationAccessAsk>Εάν ένα έγγραφο χρησιμοποιεί τη διαδικασία μεταγλώττισης, θα προβληθεί ένα προειδοποιητικό παράθυρο με προκαθορισμένες ενέργειες.</CompilationAccessAsk>
+    <CompilationAccessDeniedTitle>Δεν είναι δυνατό το άνοιγμα του εγγράφου</CompilationAccessDeniedTitle>
     <CompilationAccessDeny>Αποτρέψτε το άνοιγμα οποιουδήποτε εγγράφου που χρησιμοποιεί τη διαδικασία μεταγλώττισης. Θα προβληθεί ένα ειδικό παράθυρο</CompilationAccessDeny>
     <CompilationAccessForceInterpretation>Έγγραφα με μεταγλώττιση΄ θα ανοίγουν χωρίς κάποια προειδοποίηση, θα μετατρέποντα όμως αυτόματα σε έγγραφα που εκτελούνται με μετάφραση, χωρίς να χρησιμοποιείται η διαδικασία μεταγλώττισης. </CompilationAccessForceInterpretation>
+    <CompilationAccessTitle>Το έγγραφο χρησιμοποιεί μεταγλώττιση</CompilationAccessTitle>
     <CompilationModeEnabling>Μεταβαίνετε σε λειτουργία μεταγλώττισης. Αυτή η λειτουργία επιτρέπει την εκτέλεση κώδικα και ενδέχεται να είναι επιβλαβής. Παρακαλώ, χρησιμοποιήστε τη λειτουργία αυτή μόνο εάν καταλαβαίνεται όλους τους κινδύνους και συμφωνείτε. Επιλέξτε το {0} για να συνεχίσετε.</CompilationModeEnabling>
     <ComponentSize>Αλλαγή μεγέθους των επιλεγμένων εξαρτημάτων.</ComponentSize>
     <ComponentsMenu>Ανοίγει το μενού Στοιχεία που περιέχει αχρησιμοποίητα στοιχεία του πίνακα ελέγχου στην κινητή επιφάνεια.</ComponentsMenu>
@@ -2376,6 +2379,7 @@
     <TypeExport>Ο τύπος αρχείου στον οποίον θα μετατραπεί η αναφορά.</TypeExport>
     <UnsafeCompilation1>Το έγγραφο αυτό χρησιμοποιεί τη διαδικασία μεταγλώττισης. Σε μερικές περιπτώσεις, αυτό μπορεί να μην είναι ασφαλες. Έτσι, το έγγραφο θα φορτωθεί σε ασφαλή λειτουργία, για να ελαχιστοποιηθούν πιθανοί κίνδυνοι.</UnsafeCompilation1>
     <UnsafeCompilation2>Εάν επιθυμείτε το έγγραφο αυτό να χρησιμοποιείται στην αρχική του μορφή, παρακαλώ επικοινωνήστε με τους προγραμματιστές σας.</UnsafeCompilation2>
+    <UnsafeCompilationTitle>Το έγγραφο θα ανοίξει σε ασφαλή λειτουργία</UnsafeCompilationTitle>
     <UseDefaultSystemEncoding>Χρήση προεπιλεγμένης κωδικοποίησης συστήματος.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>Χρήση μόνο της κεφαλίδας της πρώτης σελίδας και του υποσέλιδου της τελευταίας σελίδας. Αφαίρεση των εναπομεινάντων κεφαλίδων και υποσέλιδων.</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>Εξαγωγή των ζωνών Κεφαλίδα Σελίδας και Υποσέλιδο Σελίδας, σαν κεφαλίδες και υποσέλιδα του εγγράφου Microsoft Word.</UsePageHeadersAndFooters>

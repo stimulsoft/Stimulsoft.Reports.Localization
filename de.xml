@@ -833,6 +833,7 @@
     <TransformationHint>Auf die Kopfzeile der Tabelle klicken, um Sortierung, Filterung oder Bearbeitung der Daten zu übernehmen. Diese Verarbeitung wird nur für Daten deses Elementes übernommen werden.</TransformationHint>
     <Trend>Trend</Trend>
     <ViewEditCompilationNotice>Sie können nicht den Bericht, in dem die Eigenschaft 'Report.CalculationMode' dem Wert 'Compilation' entspricht, beabeiten. Bitte, setzen Sie diese Eigenschaft auf den Wert 'Interpretation'.</ViewEditCompilationNotice>
+    <ViewEditCompilationTitle>Bearbeiten ist nicht verfügbar</ViewEditCompilationTitle>
     <ViewModeDesktop>Desktop</ViewModeDesktop>
     <ViewModeMobile>Mobile</ViewModeMobile>
   </Dashboard>
@@ -2144,8 +2145,10 @@
     <CompilationAccess3>Dieses Dokument verwendet den Kompilation-Modus und es kann unsicher sein. Sie können nicht es öffnen.</CompilationAccess3>
     <CompilationAccessAllow>Ermöglicht das Dokument mit Kompilation ohne Warnungen und Beschränkungen zu öffnen.</CompilationAccessAllow>
     <CompilationAccessAsk>Wenn das Dokument den Kompilation-Modus verwendet, wird das Fenster mit vordefinierten Aktionen angezeigt werden.</CompilationAccessAsk>
+    <CompilationAccessDeniedTitle>Das Dokument kann nicht geöffnet werden</CompilationAccessDeniedTitle>
     <CompilationAccessDeny>Das Öffnen jedes Dokumentes, das den Kompilation-Modus verwendet, verweigern. Ein spezielles Fenster wird angezeigt werden.</CompilationAccessDeny>
     <CompilationAccessForceInterpretation>Die Dokumente mit Kompilation werden ohne zusätzliche Abfrage geöffnet werden, aber werden automatisch in den Interpretation-Modus, der keinen Kompilation-Modus verwendet, umgewandelt.</CompilationAccessForceInterpretation>
+    <CompilationAccessTitle>Das Dokument verwendet die Kompilierung</CompilationAccessTitle>
     <CompilationModeEnabling>Sie wechseln in den Kompilation-Modus. Dieser Modus ermöglicht den unterschiedlichen Code auszuführen, und manchmal könnte es gefährlich sein. Verwenden Sie bitte diesen Modus nur wenn Sie alle Risiken verstehen und mit ihnen einverstanden sind. Klicken Sie auf Schaltfläche {0} zum Fortfahren.</CompilationModeEnabling>
     <ComponentSize>Grösse der Komponenten ändern</ComponentSize>
     <ComponentsMenu>Öffnet das Menü Komponenten, das die unbenutzten Dashboard-Elemente auf mobiler Oberfläche enthält.</ComponentsMenu>
@@ -2378,6 +2381,7 @@
     <TypeExport>Der Typ Datendatei, welcher durch den Export erstellt wird.</TypeExport>
     <UnsafeCompilation1>Dieses Dokument verwendet den Kompilationsprozess. Manchmal könnte es gefährlich sein. Deshalb wird das Dokument im abgesicherten Modus geladen werden, um mögliche Risiken zu minimieren.</UnsafeCompilation1>
     <UnsafeCompilation2>Wenn Sie das Dokument in seiner ursprünglichen Form verwenden möchten, kontaktieren Sie Ihren Entwicklern.</UnsafeCompilation2>
+    <UnsafeCompilationTitle>Das Dokument wird im abgesicherten Modus geöffnet</UnsafeCompilationTitle>
     <UseDefaultSystemEncoding>Entweder die Standardcodierung des Systems verwenden oder eine Codierung festlegen.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>Die Kopf- und Fuß-Bänder der Berichtseite als Kopf- bzw. Fußzeile im MS Word Dokument verwenden.</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>Die Kopf- und Fuß-Bänder der Berichtseite als Kopf- bzw. Fußzeile im MS Word Dokument verwenden.</UsePageHeadersAndFooters>

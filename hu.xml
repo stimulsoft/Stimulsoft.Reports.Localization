@@ -122,6 +122,7 @@
     <Ok>&amp;Elfogad</Ok>
     <Open>Megnyitás</Open>
     <OpenContainingFolder>Tartalmazó mappa megnyitása</OpenContainingFolder>
+    <OpenInSafeMode>Megnyitás csökkentett módban</OpenInSafeMode>
     <Print>Nyomtat</Print>
     <Publish>Közzé tesz</Publish>
     <QuickPrint>Gyors nyomtatás</QuickPrint>
@@ -768,6 +769,7 @@
     <TransformationHint>Kattints a tábla fejlécére, hogy az adatok sorba rendezéséhez, szűréséhez vagy módosításához. Ez az átalakítás csak ezen elem adataira lehet alkalmazni.</TransformationHint>
     <Trend>Trend</Trend>
     <ViewEditCompilationNotice>Ön nem tud olyan jelentést szerkeszteni, amelynek 'Report.CalculationMode' tulajdonságának értéke 'Compilation'. Kérjük, állítsa át ezen tulajdonságát 'Interpretation' értékre!</ViewEditCompilationNotice>
+    <ViewEditCompilationTitle>A szerkesztés nem érhető el</ViewEditCompilationTitle>
     <ViewModeDesktop>Asztali</ViewModeDesktop>
     <ViewModeMobile>Mobil</ViewModeMobile>
   </Dashboard>
@@ -2009,6 +2011,11 @@
     <CenterVertically>Középre igazítás a tárolón belül függőlegesen.</CenterVertically>
     <Close>Jelentés tervező bezárása.</Close>
     <Columns>Oldal oszlopokra osztása.</Columns>
+    <CompilationAccess1>Ez a dokumentum fordítási folyamatot használ. Ha a dokumentum megbízható forrásból származik, a „Megnyitás” gombra kattintva megnyithatja.</CompilationAccess1>
+    <CompilationAccess2>Ha nem biztos a dokumentum forrásában, de mégis meg szeretné tekinteni, kattintson a „Megnyitás csökkentett módban” gombra. Ebben az esetben fordítás helyett értelmezés történik, így a dokumentum biztonságosan futtatható.</CompilationAccess2>
+    <CompilationAccess3>Ez a dokumentum fordítási folyamatot használ, és nem biztonságos lehet. Nem nyithatja meg.</CompilationAccess3>
+    <CompilationAccessDeniedTitle>A dokumentum nem nyitható meg</CompilationAccessDeniedTitle>
+    <CompilationAccessTitle>A dokumentum fordítást használ</CompilationAccessTitle>
     <ComponentSize>omponens méretének megváltoztatása.</ComponentSize>
     <CopyStyle>Másolás stílusa</CopyStyle>
     <CopyToClipboard>Másolás vágólapra</CopyToClipboard>
@@ -2220,6 +2227,9 @@
     <TiffCompressionScheme>Tömörítési séma TIFF fájlokhoz.</TiffCompressionScheme>
     <ToolEditor>Ez az eszköz lehetővé teszi hogy tudd módosítani a szöveg komponens tartalmát a report nézőben.</ToolEditor>
     <TypeExport>A fájl, amelybe konvertáljuk a riportot.</TypeExport>
+    <UnsafeCompilation1>Ez a dokumentum fordítási folyamatot használ. Bizonyos esetekben ez nem biztonságos. Ezért a dokumentum a lehetséges kockázatok csökkentése érdekében csökkentett módban töltődik be.</UnsafeCompilation1>
+    <UnsafeCompilation2>Ha a dokumentumot eredeti formájában kell használnia, forduljon a fejlesztőihez.</UnsafeCompilation2>
+    <UnsafeCompilationTitle>A dokumentum csökkentett módban nyílik meg</UnsafeCompilationTitle>
     <UseDefaultSystemEncoding>Alapértelmezett rendszer kódolás  használata, vagy szabvány kódolás megadása.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>Az oldalak fejléceinek és lábléceinek beállítása az MS Word dokumentum fejléceivé és lábléceivé.</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>A fejléc és lábléc sávok használata az MS Word dokumentumban fejlécként és láblécként.</UsePageHeadersAndFooters>

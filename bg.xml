@@ -834,6 +834,7 @@
     <TransformationHint>Натиснете върху заглавието на таблицата за да приложите сортиране, филтриране или промяна на данни. Тази транформация се отнася само за данни от този елемент.</TransformationHint>
     <Trend>Тренд</Trend>
     <ViewEditCompilationNotice>Не можете да редактирате отчета, който има свойството 'Report.CalculationMode', равно на стойността 'Compilation'. Моля, задайте това свойство на стойност 'Interpretation'.</ViewEditCompilationNotice>
+    <ViewEditCompilationTitle>Редактирането не е налично</ViewEditCompilationTitle>
     <ViewModeDesktop>Работен плот</ViewModeDesktop>
     <ViewModeMobile>Мобилен</ViewModeMobile>
   </Dashboard>
@@ -2148,8 +2149,10 @@
     <CompilationAccess3>Този документ използва процеса на компилиране и може да бъде опасен. Не можеш да го отвориш.</CompilationAccess3>
     <CompilationAccessAllow>Разрешаване на отваряне на документи с компилация без никакви предупреждения или ограничения.</CompilationAccessAllow>
     <CompilationAccessAsk>Ако документ използва процеса на компилиране, ще се покаже предупредителен прозорец с предварително дефинирани действия.</CompilationAccessAsk>
+    <CompilationAccessDeniedTitle>Документът не може да бъде отворен</CompilationAccessDeniedTitle>
     <CompilationAccessDeny>Забранете отварянето на всеки документ, който използва процеса на компилиране. Ще се покаже специален прозорец.</CompilationAccessDeny>
     <CompilationAccessForceInterpretation>Документите с компилация ще бъдат отворени без подкана, но ще бъдат автоматично преобразувани в режим на интерпретация, който не използва процеса на компилация.</CompilationAccessForceInterpretation>
+    <CompilationAccessTitle>Документът използва компилация</CompilationAccessTitle>
     <CompilationModeEnabling>Превключвате в режим на компилация. Този режим позволява да се изпълнява различен код и понякога може да бъде вреден. Моля, използвайте този режим само ако разбирате всички рискове и сте съгласни с тях. Щракнете върху бутона {0}, за да продължите.</CompilationModeEnabling>
     <ComponentSize>Промяна размера на избраните компоненти.</ComponentSize>
     <ComponentsMenu>Отваря менюто Компоненти, съдържащо неизползвани елементи на таблото за управление на мобилната повърхност.</ComponentsMenu>
@@ -2382,6 +2385,7 @@
     <TypeExport>Файла в който отчетът ще бъде кнвертиран.</TypeExport>
     <UnsafeCompilation1>Този документ използва процеса на компилация. В някои случаи това може да не е безопасно. Следователно документът ще бъде зареден в безопасен режим, за да се сведат до минимум всички потенциални рискове.</UnsafeCompilation1>
     <UnsafeCompilation2>Ако искате този документ да се използва в оригиналната му форма, моля, свържете се с вашите разработчици.</UnsafeCompilation2>
+    <UnsafeCompilationTitle>Документът ще се отвори в безопасен режим</UnsafeCompilationTitle>
     <UseDefaultSystemEncoding>Използване на системната кодировка по подразбиране или задайте стандартна кодировка.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>Дефиниране на секциите заглавие и край на страницата като заглавие и край в MS Word документа</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>Дефиниране на секциите заглавие и край на страницата като заглавие и край в документа на MS Word.</UsePageHeadersAndFooters>

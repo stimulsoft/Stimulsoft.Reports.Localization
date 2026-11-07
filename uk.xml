@@ -833,6 +833,7 @@
     <TransformationHint>Клацніть на заголовку таблиці, щоб застосувати сортування чи фільтрацію або змінити дані. Це перетворення буде застосовано лише до даних цього елемента.</TransformationHint>
     <Trend>Тренд</Trend>
     <ViewEditCompilationNotice>Ви не можете редагувати звіт, у якого властивість 'Report.CalculationMode' встановлена в 'Compilation'. Будь ласка, встановіть цю властивість у 'Interpretation'.</ViewEditCompilationNotice>
+    <ViewEditCompilationTitle>Редагування недоступне</ViewEditCompilationTitle>
     <ViewModeDesktop>Робочий стіл</ViewModeDesktop>
     <ViewModeMobile>Мобільний</ViewModeMobile>
   </Dashboard>
@@ -2144,8 +2145,10 @@
     <CompilationAccess3>Цей документ використовує процес компіляції, і це може бути небезпечно. Ви не можете його відкрити.</CompilationAccess3>
     <CompilationAccessAllow>Дозволити відкриття документів із компіляцією без будь-яких попереджень чи обмежень.</CompilationAccessAllow>
     <CompilationAccessAsk>Якщо документ використовує процес компіляції, буде показано вікно попередження з передбаченими діями.</CompilationAccessAsk>
+    <CompilationAccessDeniedTitle>Документ неможливо відкрити</CompilationAccessDeniedTitle>
     <CompilationAccessDeny>Заборонити відкриття будь-якого документа, який використовує процес компіляції. Буде відображено спеціальне вікно.</CompilationAccessDeny>
     <CompilationAccessForceInterpretation>Документи з компіляцією буде відкрито без будь-якого запиту, але їх буде автоматично перетворено в режим інтерпретації, який не використовує процес компіляції.</CompilationAccessForceInterpretation>
+    <CompilationAccessTitle>Документ використовує компіляцію</CompilationAccessTitle>
     <CompilationModeEnabling>Ви переходите в режим компіляції. Цей режим дозволяє виконувати різний код, який іноді може бути шкідливим. Будь ласка, використовуйте цей режим, лише якщо ви розумієте всі ризики та погоджуєтеся з ними. Натисніть кнопку {0}, щоб продовжити.</CompilationModeEnabling>
     <ComponentSize>Змінити розмір виділених компонентів.</ComponentSize>
     <ComponentsMenu>Відкриває меню компонентів, що містить невикористані елементи дашборда на мобільній поверхні.</ComponentsMenu>
@@ -2378,6 +2381,7 @@
     <TypeExport>Тип файлу, в який буде перетворено звіт.</TypeExport>
     <UnsafeCompilation1>Цей документ використовує процес компіляції. У деяких випадках це може бути небезпечно. Тому документ буде завантажено в безпечному режимі, щоб мінімізувати можливі ризики.</UnsafeCompilation1>
     <UnsafeCompilation2>Якщо вам потрібно використовувати цей документ у його оригінальному вигляді, зверніться до своїх розробників.</UnsafeCompilation2>
+    <UnsafeCompilationTitle>Документ відкриється в безпечному режимі</UnsafeCompilationTitle>
     <UseDefaultSystemEncoding>Використовувати кодування системи за замовчуванням або задати кодування за стандартом.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>Визначити бенди Заголовок сторінки і Підсумок сторінки як верхній і нижній колонтитул документа в MS Word.</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>Визначити бенди Заголовок сторінки і Підсумок сторінки як верхній і нижній колонтитул документа в MS Word.</UsePageHeadersAndFooters>

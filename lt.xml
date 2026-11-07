@@ -43,6 +43,7 @@
     <Help>Pagalba</Help>
     <Ok>Gerai</Ok>
     <Open>Atidaryti</Open>
+    <OpenInSafeMode>Atidaryti saugiuoju režimu</OpenInSafeMode>
     <Print>Atspausdinti</Print>
     <QuickPrint>Stampa Rapida</QuickPrint>
     <Remove>Pašalinti</Remove>
@@ -84,6 +85,7 @@
     <Create>Crea</Create>
     <CreateNewCollection>Crea nuova galleria</CreateNewCollection>
     <DeleteFile>Cancella File</DeleteFile>
+    <DoNotAskMe>Daugiau neklausti</DoNotAskMe>
     <labelCollectionName>Nome galleria:</labelCollectionName>
     <labelFileName>Nome file:</labelFileName>
     <labelPassword>Password:</labelPassword>
@@ -157,6 +159,10 @@
     <StiWinControl>Win komponentė</StiWinControl>
     <StiZipCode>Zip kodas</StiZipCode>
   </Components>
+  <Dashboard>
+    <ViewEditCompilationNotice>Negalite redaguoti ataskaitos, kurios savybė 'Report.CalculationMode' nustatyta į 'Compilation'. Nustatykite šią savybę į 'Interpretation'.</ViewEditCompilationNotice>
+    <ViewEditCompilationTitle>Redagavimas negalimas</ViewEditCompilationTitle>
+  </Dashboard>
   <Database>
     <Database>{0} Connessione</Database>
     <DatabaseFirebird>Firebird prisijungimas</DatabaseFirebird>
@@ -743,6 +749,11 @@
     <Help2>Paspauskite F4 norėdami persijungti į redaktorių. Spauskite Insert norėdami įterpti žodyno elementą.</Help2>
   </Help>
   <HelpDesigner>
+    <CompilationAccess1>Šis dokumentas naudoja kompiliavimo procesą. Jei dokumentas gautas iš patikimo šaltinio, galite spustelėti mygtuką „Atidaryti“, kad jį atidarytumėte.</CompilationAccess1>
+    <CompilationAccess2>Jei nesate tikri dėl dokumento šaltinio, bet vis tiek norite jį peržiūrėti, galite spustelėti mygtuką „Atidaryti saugiuoju režimu“. Tokiu atveju vietoj kompiliavimo bus naudojamas interpretavimas, todėl dokumentą galėsite vykdyti saugiai.</CompilationAccess2>
+    <CompilationAccess3>Šis dokumentas naudoja kompiliavimo procesą ir gali būti nesaugus. Negalite jo atidaryti.</CompilationAccess3>
+    <CompilationAccessDeniedTitle>Dokumento atidaryti negalima</CompilationAccessDeniedTitle>
+    <CompilationAccessTitle>Dokumentas naudoja kompiliavimą</CompilationAccessTitle>
     <CopyToClipboard>Copia negli appunti</CopyToClipboard>
     <menuCheckIssues>Controlla nel report per trovare errori, avvertimenti e suggerimenti.</menuCheckIssues>
     <menuDesignerOptions>Imposta opzioni del report designer.</menuDesignerOptions>
@@ -763,6 +774,9 @@
   <HelpViewer>
     <Parameters>Mostra il pannello dei parametri che viene usato durante il rendering del report.</Parameters>
     <ToolEditor>Questo strumento ti permette di editare i contenuti di componenti di testo direttamente dal visualizzatore report.</ToolEditor>
+    <UnsafeCompilation1>Šis dokumentas naudoja kompiliavimo procesą. Kai kuriais atvejais tai gali būti nesaugu. Todėl dokumentas bus įkeltas saugiuoju režimu, kad būtų sumažinta galima rizika.</UnsafeCompilation1>
+    <UnsafeCompilation2>Jei šį dokumentą reikia naudoti originalios formos, kreipkitės į savo kūrėjus.</UnsafeCompilation2>
+    <UnsafeCompilationTitle>Dokumentas bus atidarytas saugiuoju režimu</UnsafeCompilationTitle>
   </HelpViewer>
   <MainMenu>
     <menuCheckIssues>Controlla problemi</menuCheckIssues>

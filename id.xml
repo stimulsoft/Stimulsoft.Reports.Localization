@@ -832,6 +832,7 @@
     <TransformationHint>Klik pada header tabel untuk menerapkan pengurutan, pemfilteran, atau perubahan data. Transformasi ini hanya akan diterapkan pada data item ini.</TransformationHint>
     <Trend>Tren</Trend>
     <ViewEditCompilationNotice>Anda tidak dapat mengedit laporan yang memiliki properti 'Report.CalculationMode' sama dengan nilai 'Compilation'. Harap setel properti itu ke nilai 'Interpretasi'.</ViewEditCompilationNotice>
+    <ViewEditCompilationTitle>Pengeditan tidak tersedia</ViewEditCompilationTitle>
     <ViewModeDesktop>Desktop</ViewModeDesktop>
     <ViewModeMobile>Seluler</ViewModeMobile>
   </Dashboard>
@@ -2142,8 +2143,10 @@
     <CompilationAccess3>Dokumen ini menggunakan proses kompilasi dan bisa jadi tidak aman. Anda tidak dapat membukanya.</CompilationAccess3>
     <CompilationAccessAllow>Izinkan membuka dokumen dengan kompilasi tanpa peringatan atau pembatasan apa pun.</CompilationAccessAllow>
     <CompilationAccessAsk>Jika dokumen menggunakan proses kompilasi, jendela peringatan dengan tindakan yang telah ditentukan akan ditampilkan.</CompilationAccessAsk>
+    <CompilationAccessDeniedTitle>Dokumen tidak dapat dibuka</CompilationAccessDeniedTitle>
     <CompilationAccessDeny>Tolak membuka dokumen apa pun yang menggunakan proses kompilasi. Jendela khusus akan ditampilkan.</CompilationAccessDeny>
     <CompilationAccessForceInterpretation>Dokumen dengan kompilasi akan dibuka tanpa prompt apa pun tetapi akan otomatis dikonversi ke mode interpretasi, yang tidak menggunakan proses kompilasi.</CompilationAccessForceInterpretation>
+    <CompilationAccessTitle>Dokumen menggunakan kompilasi</CompilationAccessTitle>
     <CompilationModeEnabling>Anda beralih ke mode kompilasi. Mode ini memungkinkan Anda menjalankan kode yang berbeda dan terkadang bisa berbahaya. Harap gunakan mode ini hanya jika Anda memahami semua risiko dan menyetujuinya. Klik tombol {0} untuk melanjutkan.</CompilationModeEnabling>
     <ComponentSize>Rubah ukuran dari komponen yang dipilih.</ComponentSize>
     <ComponentsMenu>Membuka menu Komponen yang berisi elemen dasbor yang tidak terpakai pada permukaan seluler.</ComponentsMenu>
@@ -2376,6 +2379,7 @@
     <TypeExport>File laporan akan diubah menjadi.</TypeExport>
     <UnsafeCompilation1>Dokumen ini menggunakan proses kompilasi. Dalam beberapa kasus, hal ini mungkin tidak aman. Oleh karena itu, dokumen akan dimuat dalam mode aman untuk meminimalkan potensi risiko.</UnsafeCompilation1>
     <UnsafeCompilation2>Jika Anda memerlukan dokumen ini digunakan dalam bentuk aslinya, silakan hubungi pengembang Anda.</UnsafeCompilation2>
+    <UnsafeCompilationTitle>Dokumen akan dibuka dalam Mode Aman</UnsafeCompilationTitle>
     <UseDefaultSystemEncoding>Gunakan sistem pengkodean secara default atau menentukan encoding dengan standar.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>Tentukan band halaman Header dan Footer sebagai header dan footer dari dokumen Microsoft Word.</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>Tentukan band Halaman Header dan Footer sebagai header dan footer dari dokumen Microsoft Word.</UsePageHeadersAndFooters>

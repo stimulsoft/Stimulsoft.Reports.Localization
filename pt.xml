@@ -833,6 +833,7 @@
     <TransformationHint>Clique no cabeçalho da tabela para aplicar ordenação ou filtragem, ou para alterar os dados. Esta transformação será aplicada apenas aos dados deste item.</TransformationHint>
     <Trend>Tendência</Trend>
     <ViewEditCompilationNotice>Não pode editar relatórios com a propriedade 'Report.CalculationMode' igual a 'Compilation'. Por favor altere a propriedade para 'Interpretation'.</ViewEditCompilationNotice>
+    <ViewEditCompilationTitle>A edição não está disponível</ViewEditCompilationTitle>
     <ViewModeDesktop>Computador</ViewModeDesktop>
     <ViewModeMobile>Telemóvel</ViewModeMobile>
   </Dashboard>
@@ -2145,8 +2146,10 @@
     <CompilationAccess3>Este documento está em modo de compilação e pode ser inseguro. Não o poderá abrir.</CompilationAccess3>
     <CompilationAccessAllow>Permitir documentos em modo de compilação sem nenhum aviso ou restrição.</CompilationAccessAllow>
     <CompilationAccessAsk>Se um documento está em modo de compilação, uma janela de aviso com as ações predefinidas será aberta.</CompilationAccessAsk>
+    <CompilationAccessDeniedTitle>Não é possível abrir o documento</CompilationAccessDeniedTitle>
     <CompilationAccessDeny>Não permitir abrir documentos em modo de compilação. Uma janela especial será aberta.</CompilationAccessDeny>
     <CompilationAccessForceInterpretation>Documentos em modo de compilação serão abertos sem nenhum aviso, mas serão automaticamente convertidos para o modo de interpretação, o que não usa a compilação.</CompilationAccessForceInterpretation>
+    <CompilationAccessTitle>O documento utiliza compilação</CompilationAccessTitle>
     <CompilationModeEnabling>Está a mudar para o modo de compilação. Este modo permite correr código que pode ser prejudicial. Por favor use este modo apenas se entender os riscos associados e concordar com eles. Clique na opção {0} para prosseguir.</CompilationModeEnabling>
     <ComponentSize>Alterar o tamanho dos componentes selecionados.</ComponentSize>
     <ComponentsMenu>Abre o menu Componentes, que contém elementos do painel de controlo não utilizados, no dispositivo móvel.</ComponentsMenu>
@@ -2379,6 +2382,7 @@
     <TypeExport>O ficheiro para o qual o relatório será convertido.</TypeExport>
     <UnsafeCompilation1>Este documento usa o processo de compilação. Nalguns casos isto pode não ser seguro. Por isso o documento será aberto em modo de segurança para minimizar riscos.</UnsafeCompilation1>
     <UnsafeCompilation2>Se deseja usar o documento na sua forma original, deverá contactar os seus programadores.</UnsafeCompilation2>
+    <UnsafeCompilationTitle>O documento será aberto em modo de segurança</UnsafeCompilationTitle>
     <UseDefaultSystemEncoding>Use a codificação do sistema por defeito ou especifique a codificação manualmente.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>Defina a página de bandas de cabeçalho e rodapé como o cabeçalho e rodapé do documento MS Word.</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>Definir as bandas da página de cabeçalho e rodapé como o cabeçalho e o rodapé do documento no MS Word.</UsePageHeadersAndFooters>

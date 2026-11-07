@@ -832,6 +832,7 @@
     <TransformationHint>Kliknutím na záhlaví tabulky použijete řazení, filtrování nebo změníte data. Tato transformace bude použita pouze na data této položky.</TransformationHint>
     <Trend>Trend</Trend>
     <ViewEditCompilationNotice>Nemůžete upravit report, jehož vlastnost 'Report.CalculationMode' se rovná hodnotě 'Compilation'. Nastavte prosím tuto vlastnost na hodnotu 'Interpretation'.</ViewEditCompilationNotice>
+    <ViewEditCompilationTitle>Úpravy nejsou k dispozici</ViewEditCompilationTitle>
     <ViewModeDesktop>Počítač</ViewModeDesktop>
     <ViewModeMobile>Mobil</ViewModeMobile>
   </Dashboard>
@@ -2142,8 +2143,10 @@
     <CompilationAccess3>Tento dokument používá proces kompilace a může být nebezpečný. Nelze jej otevřít.</CompilationAccess3>
     <CompilationAccessAllow>Povolit otevírání dokumentů s kompilací bez jakýchkoli varování nebo omezení.</CompilationAccessAllow>
     <CompilationAccessAsk>Pokud dokument používá proces kompilace, zobrazí se okno s varováním a předdefinovanými akcemi.</CompilationAccessAsk>
+    <CompilationAccessDeniedTitle>Dokument nelze otevřít</CompilationAccessDeniedTitle>
     <CompilationAccessDeny>Zakázat otevírání jakéhokoli dokumentu, který používá proces kompilace. Zobrazí se speciální okno.</CompilationAccessDeny>
     <CompilationAccessForceInterpretation>Dokumenty s kompilací se otevřou bez jakéhokoli dotazu, ale budou automaticky převedeny do režimu interpretace, který nepoužívá proces kompilace.</CompilationAccessForceInterpretation>
+    <CompilationAccessTitle>Dokument používá kompilaci</CompilationAccessTitle>
     <CompilationModeEnabling>Přepínáte do režimu kompilace. Tento režim umožňuje spouštět různý kód, který někdy může být škodlivý. Používejte prosím tento režim pouze v případě, že rozumíte všem rizikům a souhlasíte s nimi. Pokračujte kliknutím na tlačítko {0}.</CompilationModeEnabling>
     <ComponentSize>Změnit velikost vybraných komponent.</ComponentSize>
     <ComponentsMenu>Otevře nabídku Komponenty obsahující nepoužité prvky dashboardu na mobilní ploše.</ComponentsMenu>
@@ -2376,6 +2379,7 @@
     <TypeExport>Soubor, do kterého bude report převeden.</TypeExport>
     <UnsafeCompilation1>Tento dokument používá proces kompilace. V některých případech to nemusí být bezpečné. Proto bude dokument načten v bezpečném režimu, aby se minimalizovala jakákoli potenciální rizika.</UnsafeCompilation1>
     <UnsafeCompilation2>Pokud potřebujete tento dokument používat v jeho původní podobě, obraťte se na své vývojáře.</UnsafeCompilation2>
+    <UnsafeCompilationTitle>Dokument se otevře v nouzovém režimu</UnsafeCompilationTitle>
     <UseDefaultSystemEncoding>Použít výchozí kódování systému nebo zadat kódování podle standardu.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>Definovat stránkové bandy Záhlaví a Zápatí jako záhlaví a zápatí dokumentu Microsoft Word.</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>Definovat bandy Záhlaví stránky a Zápatí jako záhlaví a zápatí dokumentu v aplikaci Microsoft Word.</UsePageHeadersAndFooters>
