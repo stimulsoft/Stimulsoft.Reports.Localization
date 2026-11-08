@@ -254,6 +254,38 @@
     <RenderingMessage>Предупреждения построения отчета. </RenderingMessage>
     <Warning>Внимание! </Warning>
   </CheckGlobal>
+  <CheckLabel>
+    <AfterSheet>Не проверено, пока лист не помещается</AfterSheet>
+    <Dots>Штрихи печатаются ровно</Dots>
+    <DotsDetail>Модуль {0} при {1} DPI, минимум {2}</DotsDetail>
+    <DotsProblem>Штрихи слишком тонкие для сканеров</DotsProblem>
+    <Height>Содержимое помещается по высоте этикетки</Height>
+    <HeightDetail>{0} из {1}</HeightDetail>
+    <HeightProblem>Содержимое не помещается по высоте этикетки</HeightProblem>
+    <NoBarCode>Нет штрихкода</NoBarCode>
+    <NoEncodedRecord>Ни одну запись нельзя закодировать</NoEncodedRecord>
+    <NoPrinter>Нет принтера по умолчанию</NoPrinter>
+    <NoRecords>Нет записей для проверки</NoRecords>
+    <NoSizes>Не все размеры заданы</NoSizes>
+    <NoSource>Нет источника данных</NoSource>
+    <Printer>Этикетки помещаются в область печати</Printer>
+    <PrinterDetail>Принтер '{0}' печатает от {1}, этикетки от {2}</PrinterDetail>
+    <PrinterProblem>Этикетки заходят на край, который принтер не печатает</PrinterProblem>
+    <PrinterReading>Опрос принтера по умолчанию</PrinterReading>
+    <Records>Записи можно закодировать</Records>
+    <RecordsDetail>Проверено записей: {0} из {1}</RecordsDetail>
+    <RecordsProblem>Запись {0} нельзя закодировать в {1}</RecordsProblem>
+    <RecordsReadProblem>Не удаётся прочитать записи</RecordsReadProblem>
+    <Sheet>Раскладка помещается на лист</Sheet>
+    <SheetDetail>{0} на {1}, наименьшее поле {2}</SheetDetail>
+    <SheetProblem>Этикетки не помещаются на листе</SheetProblem>
+    <SheetProblemDetail>Этикетки выходят за край листа на {0}</SheetProblemDetail>
+    <SizeDetail>{0}: {1}</SizeDetail>
+    <SizeProblem>Неверный размер</SizeProblem>
+    <Width>Штрихкод с зонами тишины помещается</Width>
+    <WidthDetail>{0} из {1} по ширине</WidthDetail>
+    <WidthProblem>Штрихкод шире этикетки</WidthProblem>
+  </CheckLabel>
   <CheckLicense>
     <StiLicenseTrialCheckLong>Пробная версия только для ознакомления с продуктом. Для разработки или развертывания с использованием Stimulsoft требуется лицензия.</StiLicenseTrialCheckLong>
     <StiValidSubscriptioRequiredCheckLong>Требуется активная подписка. Обновите подписку, чтобы использовать весь функционал Stimulsoft Designer.</StiValidSubscriptioRequiredCheckLong>

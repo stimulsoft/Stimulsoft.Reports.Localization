@@ -254,6 +254,38 @@
     <RenderingMessage>Nachricht bei der Reporterstellung. </RenderingMessage>
     <Warning>Warnung! </Warning>
   </CheckGlobal>
+  <CheckLabel>
+    <AfterSheet>Nicht geprüft, bis der Bogen passt</AfterSheet>
+    <Dots>Striche werden gleichmäßig gedruckt</Dots>
+    <DotsDetail>Modul {0} bei {1} DPI, das Minimum ist {2}</DotsDetail>
+    <DotsProblem>Die Striche sind zu dünn für Scanner</DotsProblem>
+    <Height>Inhalt passt in die Etikettenhöhe</Height>
+    <HeightDetail>{0} von {1}</HeightDetail>
+    <HeightProblem>Der Inhalt passt nicht in die Etikettenhöhe</HeightProblem>
+    <NoBarCode>Kein Barcode</NoBarCode>
+    <NoEncodedRecord>Kein Datensatz kann kodiert werden</NoEncodedRecord>
+    <NoPrinter>Kein Standarddrucker</NoPrinter>
+    <NoRecords>Keine Datensätze zu prüfen</NoRecords>
+    <NoSizes>Einige Größen sind leer</NoSizes>
+    <NoSource>Keine Datenquelle</NoSource>
+    <Printer>Etiketten passen in den druckbaren Bereich</Printer>
+    <PrinterDetail>Drucker '{0}' druckt ab {1}, die Etiketten ab {2}</PrinterDetail>
+    <PrinterProblem>Die Etiketten reichen in den Rand, den der Drucker nicht druckt</PrinterProblem>
+    <PrinterReading>Standarddrucker wird gelesen</PrinterReading>
+    <Records>Datensätze können kodiert werden</Records>
+    <RecordsDetail>Geprüfte Datensätze: {0} von {1}</RecordsDetail>
+    <RecordsProblem>Datensatz {0} kann nicht in {1} kodiert werden</RecordsProblem>
+    <RecordsReadProblem>Die Datensätze können nicht gelesen werden</RecordsReadProblem>
+    <Sheet>Layout passt auf den Bogen</Sheet>
+    <SheetDetail>{0} auf {1}, kleinster Rand {2}</SheetDetail>
+    <SheetProblem>Die Etiketten passen nicht auf den Bogen</SheetProblem>
+    <SheetProblemDetail>Die Etiketten ragen {0} über den Rand des Papiers</SheetProblemDetail>
+    <SizeDetail>{0}: {1}</SizeDetail>
+    <SizeProblem>Eine Größe ist ungültig</SizeProblem>
+    <Width>Barcode und Ruhezonen passen</Width>
+    <WidthDetail>{0} von {1} breit</WidthDetail>
+    <WidthProblem>Der Barcode ist breiter als das Etikett</WidthProblem>
+  </CheckLabel>
   <CheckLicense>
     <StiLicenseTrialCheckLong>Testversion nur zur Evaluierung des Produkts. Für die Entwicklung oder Bereitstellung mit Stimulsoft ist eine Lizenz erforderlich.</StiLicenseTrialCheckLong>
     <StiValidSubscriptioRequiredCheckLong>Gültiges Abonnement erforderlich. Bitte aktualisieren Sie Ihr Abonnement, um die voll funktionsfähige Version des Stimulsoft Designers zu verwenden.</StiValidSubscriptioRequiredCheckLong>

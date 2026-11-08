@@ -254,6 +254,38 @@
     <RenderingMessage>Mensagem de Construção do Relatório. </RenderingMessage>
     <Warning>Aviso! </Warning>
   </CheckGlobal>
+  <CheckLabel>
+    <AfterSheet>Não verificado até a folha caber</AfterSheet>
+    <Dots>As barras são impressas uniformes</Dots>
+    <DotsDetail>Módulo {0} a {1} DPI, o mínimo é {2}</DotsDetail>
+    <DotsProblem>As barras são finas demais para os leitores</DotsProblem>
+    <Height>O conteúdo cabe na altura da etiqueta</Height>
+    <HeightDetail>{0} de {1}</HeightDetail>
+    <HeightProblem>O conteúdo não cabe na altura da etiqueta</HeightProblem>
+    <NoBarCode>Sem código de barras</NoBarCode>
+    <NoEncodedRecord>Nenhum registro pode ser codificado</NoEncodedRecord>
+    <NoPrinter>Sem impressora padrão</NoPrinter>
+    <NoRecords>Não há registros para verificar</NoRecords>
+    <NoSizes>Alguns tamanhos estão vazios</NoSizes>
+    <NoSource>Sem fonte de dados</NoSource>
+    <Printer>As etiquetas cabem na área de impressão</Printer>
+    <PrinterDetail>A impressora '{0}' imprime a partir de {1}, as etiquetas a partir de {2}</PrinterDetail>
+    <PrinterProblem>As etiquetas chegam à borda que a impressora não imprime</PrinterProblem>
+    <PrinterReading>Lendo a impressora padrão</PrinterReading>
+    <Records>Os registros podem ser codificados</Records>
+    <RecordsDetail>Registros verificados: {0} de {1}</RecordsDetail>
+    <RecordsProblem>O registro {0} não pode ser codificado em {1}</RecordsProblem>
+    <RecordsReadProblem>Não é possível ler os registros</RecordsReadProblem>
+    <Sheet>O layout cabe na folha</Sheet>
+    <SheetDetail>{0} em {1}, margem mínima {2}</SheetDetail>
+    <SheetProblem>As etiquetas não cabem na folha</SheetProblem>
+    <SheetProblemDetail>As etiquetas passam {0} da borda do papel</SheetProblemDetail>
+    <SizeDetail>{0}: {1}</SizeDetail>
+    <SizeProblem>Um tamanho não é válido</SizeProblem>
+    <Width>O código de barras e as zonas de silêncio cabem</Width>
+    <WidthDetail>{0} de {1} de largura</WidthDetail>
+    <WidthProblem>O código de barras é mais largo que a etiqueta</WidthProblem>
+  </CheckLabel>
   <CheckLicense>
     <StiLicenseTrialCheckLong>Versão de avaliação somente para avaliação do produto. É necessária uma licença para desenvolver ou implantar com o Stimulsoft.</StiLicenseTrialCheckLong>
     <StiValidSubscriptioRequiredCheckLong>Assinatura Válida Necessária. Atualize sua assinatura para usar a versão totalmente funcional do Stimulsoft Designer.</StiValidSubscriptioRequiredCheckLong>

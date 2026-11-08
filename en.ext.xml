@@ -254,6 +254,38 @@
     <RenderingMessage>Report Rendering Message. </RenderingMessage>
     <Warning>Warning! </Warning>
   </CheckGlobal>
+  <CheckLabel>
+    <AfterSheet>Not checked until the sheet fits</AfterSheet>
+    <Dots>Bars print evenly</Dots>
+    <DotsDetail>Module {0} at {1} DPI, the minimum is {2}</DotsDetail>
+    <DotsProblem>The bars are too thin for scanners</DotsProblem>
+    <Height>Content fits the label height</Height>
+    <HeightDetail>{0} of {1}</HeightDetail>
+    <HeightProblem>The content does not fit the label height</HeightProblem>
+    <NoBarCode>No barcode</NoBarCode>
+    <NoEncodedRecord>No record can be encoded</NoEncodedRecord>
+    <NoPrinter>No default printer</NoPrinter>
+    <NoRecords>No records to check</NoRecords>
+    <NoSizes>Some sizes are empty</NoSizes>
+    <NoSource>No data source</NoSource>
+    <Printer>Labels fit the printable area</Printer>
+    <PrinterDetail>Printer '{0}' prints from {1}, the labels from {2}</PrinterDetail>
+    <PrinterProblem>The labels reach the edge the printer cannot print</PrinterProblem>
+    <PrinterReading>Reading the default printer</PrinterReading>
+    <Records>Records can be encoded</Records>
+    <RecordsDetail>Records checked: {0} of {1}</RecordsDetail>
+    <RecordsProblem>Record {0} cannot be encoded in {1}</RecordsProblem>
+    <RecordsReadProblem>The records cannot be read</RecordsReadProblem>
+    <Sheet>Layout fits the sheet</Sheet>
+    <SheetDetail>{0} on {1}, smallest margin {2}</SheetDetail>
+    <SheetProblem>The labels do not fit on the sheet</SheetProblem>
+    <SheetProblemDetail>The labels go {0} past the edge of the paper</SheetProblemDetail>
+    <SizeDetail>{0}: {1}</SizeDetail>
+    <SizeProblem>A size is not valid</SizeProblem>
+    <Width>Barcode and quiet zones fit</Width>
+    <WidthDetail>{0} of {1} wide</WidthDetail>
+    <WidthProblem>The barcode is wider than the label</WidthProblem>
+  </CheckLabel>
   <CheckLicense>
     <StiLicenseTrialCheckLong>Trial version for product evaluation only. A license is required to develop or deploy with Stimulsoft.</StiLicenseTrialCheckLong>
     <StiValidSubscriptioRequiredCheckLong>Valid Subscription Required. Please update your subscription to use the fully functional version of Stimulsoft Designer.</StiValidSubscriptioRequiredCheckLong>

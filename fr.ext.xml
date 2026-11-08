@@ -254,6 +254,38 @@
     <RenderingMessage>Message du Rendu du rapport.</RenderingMessage>
     <Warning>Avertissement! </Warning>
   </CheckGlobal>
+  <CheckLabel>
+    <AfterSheet>Non vérifié tant que la planche ne convient pas</AfterSheet>
+    <Dots>Les barres s'impriment régulièrement</Dots>
+    <DotsDetail>Module {0} à {1} DPI, le minimum est {2}</DotsDetail>
+    <DotsProblem>Les barres sont trop fines pour les lecteurs</DotsProblem>
+    <Height>Le contenu tient dans la hauteur de l'étiquette</Height>
+    <HeightDetail>{0} sur {1}</HeightDetail>
+    <HeightProblem>Le contenu ne tient pas dans la hauteur de l'étiquette</HeightProblem>
+    <NoBarCode>Pas de code-barres</NoBarCode>
+    <NoEncodedRecord>Aucun enregistrement ne peut être encodé</NoEncodedRecord>
+    <NoPrinter>Pas d'imprimante par défaut</NoPrinter>
+    <NoRecords>Aucun enregistrement à vérifier</NoRecords>
+    <NoSizes>Certaines tailles sont vides</NoSizes>
+    <NoSource>Pas de source de données</NoSource>
+    <Printer>Les étiquettes tiennent dans la zone imprimable</Printer>
+    <PrinterDetail>L'imprimante '{0}' imprime à partir de {1}, les étiquettes à partir de {2}</PrinterDetail>
+    <PrinterProblem>Les étiquettes atteignent le bord que l'imprimante n'imprime pas</PrinterProblem>
+    <PrinterReading>Lecture de l'imprimante par défaut</PrinterReading>
+    <Records>Les enregistrements peuvent être encodés</Records>
+    <RecordsDetail>Enregistrements vérifiés : {0} sur {1}</RecordsDetail>
+    <RecordsProblem>L'enregistrement {0} ne peut pas être encodé en {1}</RecordsProblem>
+    <RecordsReadProblem>Les enregistrements ne peuvent pas être lus</RecordsReadProblem>
+    <Sheet>La mise en page tient sur la planche</Sheet>
+    <SheetDetail>{0} sur {1}, marge minimale {2}</SheetDetail>
+    <SheetProblem>Les étiquettes ne tiennent pas sur la planche</SheetProblem>
+    <SheetProblemDetail>Les étiquettes dépassent le bord du papier de {0}</SheetProblemDetail>
+    <SizeDetail>{0} : {1}</SizeDetail>
+    <SizeProblem>Une taille n'est pas valide</SizeProblem>
+    <Width>Le code-barres et les zones de silence tiennent</Width>
+    <WidthDetail>{0} sur {1} de large</WidthDetail>
+    <WidthProblem>Le code-barres est plus large que l'étiquette</WidthProblem>
+  </CheckLabel>
   <CheckLicense>
     <StiLicenseTrialCheckLong>Version d’essai uniquement pour l’évaluation du produit. Une licence est requise pour développer ou déployer avec Stimulsoft.</StiLicenseTrialCheckLong>
     <StiValidSubscriptioRequiredCheckLong>Abonnement valide requis. Veuillez mettre à jour votre abonnement pour utiliser la version entièrement fonctionnelle de Stimulsoft Designer.</StiValidSubscriptioRequiredCheckLong>
