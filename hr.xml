@@ -2306,7 +2306,7 @@
     <AllowEditable>Dopušta izmjenu samo komponenata kod kojih je omogućeno svojstvo Izmjenjivo.</AllowEditable>
     <AllowModifyContents>Ograničen pristup uređivanju teksta.</AllowModifyContents>
     <AllowPrintDocument>Ograničen pristup operaciji ispisa.</AllowPrintDocument>
-    <Bookmarks>Prikaži bookmark panel koji se koristi za brzu navigaciju kako bi skočili direktno na označenu lokaciju.</Bookmarks>
+    <Bookmarks>Prikaži panel knjižnih oznaka.</Bookmarks>
     <BorderType>The border type of components: simple - drawing borders of components with characters +, -, |; Unicode single - drawing the borders with single box-drawing characters, Unicode double - drawing the borders with double box-drawing characters.</BorderType>
     <Close>Zatvori pretpregled i vrati se editiranju izvještaja.</Close>
     <CloseDotMatrix>Zatvori Dot Matrix preglednik i vrati se editiranju izvještaja.</CloseDotMatrix>
@@ -2321,7 +2321,7 @@
     <DashboardContains3>Ne možete to napraviti u pregledniku izvještaja!</DashboardContains3>
     <DigitalSignature>Digitalni potpis datoteke.</DigitalSignature>
     <DitheringType>Tip treperenja: Ništa - bez treperenja, Poredano, FloydSt - sa treperenjem.</DitheringType>
-    <DotMatrixMode>Ovaj način omogućava vam da vidite kako bi izvještaj izgledao da se ispisuje na dot matrix pisač.</DotMatrixMode>
+    <DotMatrixMode>Pretpregled izvještaja za matrični pisač.</DotMatrixMode>
     <DrawBorder>Iscrtavanje granica komponenti sa grafičkim znakovima.</DrawBorder>
     <Edit>Uredi komponente.</Edit>
     <EmbeddedFonts>Ugraditi font datoteke u PDF datoteku.</EmbeddedFonts>
@@ -2348,12 +2348,12 @@
     <ImageType>Shema boja slike: boja - slika će nakon export-a u potpunosti odgovarati slici iz preglednika; sivo – slika će nakon export-a biti u sivim tonovima; monokromatski - slike će biti isključivo crno-bijele. U isto vrijeme, treba imati na umu da monokromatski ima tri moda - Ništa, Poredano, FloydSt.</ImageType>
     <KillSpaceLines>Ukloni prazne linije (redove) iz dokumenta.</KillSpaceLines>
     <MultipleFiles>Svaka stranica izvještaja može biti zasebna datoteka.</MultipleFiles>
-    <Open>Otvori prethodno sačuvani izvještaj u prozoru pretpregleda.</Open>
+    <Open>Otvori sačuvani izvještaj.</Open>
     <OpenAfterExport>Automatsko otvaranje kreiranog dokumenta (nakon export-a) sa programom podešenim za ovu vrstu datoteka.</OpenAfterExport>
     <OwnerPassword>Lozinka za pristup operacijama sa datotekama.</OwnerPassword>
     <PageAll>Procesiranje svih stranica izvještaja.</PageAll>
     <PageDelete>Obriši odabranu stranicu izvještaja.</PageDelete>
-    <PageDesign>Uredi odabranu stranicu u dizajneru izvještaja.</PageDesign>
+    <PageDesign>Uredi stranicu u dizajneru.</PageDesign>
     <PageFirst>Idi na prvu stranicu izvještaja.</PageFirst>
     <PageGoTo>Idi na određenu stranicu izvještaja.</PageGoTo>
     <PageLast>Idi na zadnju stranicu izvještaja.</PageLast>
@@ -2361,7 +2361,7 @@
     <PageNext>Idi na slijedeću stranicu izvještaja.</PageNext>
     <PagePrevious>Idi ne prethodnu stranicu izvještaja.</PagePrevious>
     <PageSize>Izmijeni parametre stranice u izvještaju.</PageSize>
-    <Parameters>Prikazivanje panela parametara koji se koristi kod renderiranja izvještaja.</Parameters>
+    <Parameters>Prikaži panel parametara izvještaja.</Parameters>
     <PdfACompliance>Podrška za standard dugoročnog arhiviranja i spremanja elektronskih dokumenata.</PdfACompliance>
     <PdfUniversalAccessibility>Podrška za standard univerzalno dostupnih elektroničkih dokumenata i informacija.</PdfUniversalAccessibility>
     <Print>Ispiši izvještaj.</Print>
@@ -2378,9 +2378,10 @@
     <SkipColumnHeaders>Omogući/onemogući zaglavlja kolona.</SkipColumnHeaders>
     <StandardPdfFonts>14 standardnih Adobe fontova. Ako je ova opcija omogućena, tada će se u PDF datoteci koristiti samo standardnih 14 fontova. Svi fontovi izvještaja će biti konvertirani u njih.</StandardPdfFonts>
     <SubjectNameString>Identifikator certifikata. Identifikator je naziv vlasnika certifikata (puna linija) ili dio naziva (substring).</SubjectNameString>
-    <Thumbnails>Prikaži thumbnail-ove koji se mogu koristiti za brzu navigaciju kako bi pronašli sekciju izvještaju na koju želite skočiti.</Thumbnails>
+    <Thumbnails>Prikaži panel sličica stranica.</Thumbnails>
     <TiffCompressionScheme>Shema kompresije za TIFF datoteke.</TiffCompressionScheme>
-    <ToolEditor>Ovaj alat omogućuje uređivanje sadržaja tekstualnih komponenti direktno u pregledniku izvještaja.</ToolEditor>
+    <ToolEditor>Uredi tekst izvještaja u pregledniku.</ToolEditor>
+    <ToolSignature>Stavite svoj potpis na označena mjesta.</ToolSignature>
     <TypeExport>Datoteka u koju će izvještaj biti konvertiran.</TypeExport>
     <UnsafeCompilation1>Ovaj dokument koristi kompilacijski proces. U nekim slučajevima, ovo nije sigurno. Stoga će dokument biti učitan u sigurnom načinu rada kako bi se umanjili potencijalni rizici.</UnsafeCompilation1>
     <UnsafeCompilation2>Ako vam je potreban ovaj dokument u originalnoj formi, molimo kontakirajte svoje programere.</UnsafeCompilation2>
@@ -2391,12 +2392,12 @@
     <UserPassword>Lozinka potrebna za otvaranje dokumenta.</UserPassword>
     <UseUnicode>Dodatna podrška za enkodiranje znakova. Utječe na interno enkodiranje znakova unutar PDF datoteke, i poboljšava kopiranje teksta iz PDF datoteke.</UseUnicode>
     <ViewModeContinuous>Prikaži sve stranice izvještaja kao okomitu traku.</ViewModeContinuous>
-    <ViewModeMultiplePages>Zumiraj izvještaj tako da se što više stranica može prikazati u prozoru.</ViewModeMultiplePages>
+    <ViewModeMultiplePages>Prikaži onoliko stranica koliko stane u prozor.</ViewModeMultiplePages>
     <ViewModeSinglePage>Prikaži jednu stranicu u prozoru pretpregleda.</ViewModeSinglePage>
-    <ZoomMultiplePages>Zumiraj izvještaj tako da odabrane stranice mogu stati u prozor.</ZoomMultiplePages>
-    <ZoomOnePage>Zumiraj izvještaj tako da cijela stranica stane u prozor.</ZoomOnePage>
-    <ZoomPageWidth>Zumiraj izvještaj tako da širina stranice odgovara širini prozora.</ZoomPageWidth>
-    <ZoomTwoPages>Zumiraj izvještaj tako da dvije stranice stanu u prozor.</ZoomTwoPages>
+    <ZoomMultiplePages>Prilagodi nekoliko stranica prozoru.</ZoomMultiplePages>
+    <ZoomOnePage>Prilagodi jednu stranicu prozoru.</ZoomOnePage>
+    <ZoomPageWidth>Prilagodi širinu stranice prozoru.</ZoomPageWidth>
+    <ZoomTwoPages>Prilagodi dvije stranice prozoru.</ZoomTwoPages>
     <ZoomTxt>Veličina izvještaja (skala): X - za promjenu horizontalne skale, Y - za promjenu vertikalne skale.</ZoomTxt>
   </HelpViewer>
   <Interface>

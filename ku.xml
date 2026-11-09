@@ -2304,7 +2304,7 @@
     <AllowEditable>ڕێگە دەدات بە گۆڕینی پێکهاتەکان کاتێ تایبەتمەندی گۆڕانکاری چالاککراوبێت.</AllowEditable>
     <AllowModifyContents>دەسەڵاتی سنووردار لە گۆڕینی تێکست</AllowModifyContents>
     <AllowPrintDocument>دەسەڵاتی سنووردار لە ئەنجامدانی پرینتکردن</AllowPrintDocument>
-    <Bookmarks>پیشاندانی پەڕەی نیشانە کە بەکاردێت بۆ گەڕانی خێرا بۆ بازدان ڕاستەوخۆ بۆ شوێنێکی نیشانکراو.</Bookmarks>
+    <Bookmarks>پیشاندانی پەڕەی نیشانەکان.</Bookmarks>
     <BorderType>جۆری سنووری پێکهاتەکان: سنورەکانی هێڵکاری سادەی پێکهاتەکان لەگەڵ پیتەکان +, -, |; Unicode تاک - وێنەکێشانی سنوورەکان لەگەڵ تاکە سنووقی وێنەکێشان پیتەکان, Unicode جووت - وێنەکێشانی سنوورەکان لەگەڵ دوو بۆکس-وێنەکێشان پیتەکان.</BorderType>
     <Close>داخستنی پێشاندەری ڕاپۆرت.</Close>
     <CloseDotMatrix>داخستنی پێشاندەری Dot Matrix.</CloseDotMatrix>
@@ -2319,7 +2319,7 @@
     <DashboardContains3>ناتوانیت ئەوە بکەیت لە لایەن بینەری ڕاپۆرتەکەوە!</DashboardContains3>
     <DigitalSignature>ئیمزای دیجیتاڵی فایلەکە.</DigitalSignature>
     <DitheringType>جۆری داگرتن:None - no dithering, Ordered, FloydSt. - with dithering.</DitheringType>
-    <DotMatrixMode>ئەم مۆدە ڕێگەت پێدەدات بۆ بینینی راپۆرتێک چۆن دەردەکەوێت ئەگەر چاپی بکەیت لەسەر پرینتەرێکی ماترێکسی خاڵ.</DotMatrixMode>
+    <DotMatrixMode>پێشبینینی راپۆرت بۆ پرینتەری ماتریکسی خاڵ.</DotMatrixMode>
     <DrawBorder>وێنەکێشانی سنوورەکانی پێکهاتەکان لەگەڵ هێما گرافیکیەکان.</DrawBorder>
     <Edit>گۆڕانکاری لە پێکهاتەکان.</Edit>
     <EmbeddedFonts>فایلەکانی فۆنتەکە بنچین بکە ناو فایلی PDF.</EmbeddedFonts>
@@ -2346,12 +2346,12 @@
     <ImageType>نەخشی ڕەنگ لە وێنە: ڕەنگ - وێنە دوای ناردن بەتەواوی هاوتا دەبێت لەگەڵ وێنەکە لە پیشاندان دا؛ خۆڵەمێشی – وێنەیەک دوای ناردن لە سێبەری خۆڵەمێشی دەبێت، مۆنۆکرۆم - وێنەکان بە توندی ڕەش و سپی دەبن. لە هەمان کاتدا، دەبێت ڕەچاوی ئەوە بکرێت کە مۆنۆکرۆم سێ مۆدی هەیە None, Ordered, FloydSt.</ImageType>
     <KillSpaceLines>لابردنی هێڵە بەتاڵەکان (ڕیزەکان) لە دۆکیومێنتەکە.</KillSpaceLines>
     <MultipleFiles>هەر پەڕەی راپۆرتێک دەتوانێت فایلێکی جیا بێت.</MultipleFiles>
-    <Open>کردنەوەی راپۆرتی پاشەکەوتکراو لە پەنجەرەی پیشاندان دا.</Open>
+    <Open>کردنەوەی راپۆرتی پاشەکەوتکراو.</Open>
     <OpenAfterExport>کردنەوەی خۆکارانەی دۆکیومێنتی دروست کراو (دوای هەناردەکردن) لەلایەن بەرنامەی دانراو بۆ ئەم جۆرە فایلانە.</OpenAfterExport>
     <OwnerPassword>ووشەی نهێنی بۆ چوونە ژورەوەی کردارەکان لەگەڵ فایلەکان.</OwnerPassword>
     <PageAll>پرۆسەکردنی هەموو لاپەڕەکانی ڕاپۆرت.</PageAll>
     <PageDelete>سڕینەوەی پەڕەی راپۆرتی دیاریکراو.</PageDelete>
-    <PageDesign>گۆڕانکاری لە پەڕەی دیاریکراو لە دیزاینەری راپۆرت.</PageDesign>
+    <PageDesign>گۆڕانکاری لە پەڕە لە دیزاینەردا.</PageDesign>
     <PageFirst>بڕۆ بۆ یەکەم لاپەڕەی ڕاپۆرت.</PageFirst>
     <PageGoTo>بڕۆ بۆ پەڕەی راپۆرتی دیاریکراو.</PageGoTo>
     <PageLast>بڕۆ بۆ دوایین لاپەڕەی ڕاپۆرت.</PageLast>
@@ -2359,7 +2359,7 @@
     <PageNext>بڕۆ بۆ لاپەڕەی دواتری ڕاپۆرتەکە.</PageNext>
     <PagePrevious>بڕۆ بۆ لاپەڕەی پێشتری ڕاپۆرتەکە.</PagePrevious>
     <PageSize>گۆڕینی پارامیتەرەکانی لاپەڕە لە ڕاپۆرتەکەدا.</PageSize>
-    <Parameters>پیشاندانی پەڕەی پارامیتەرەکان کە بەکاردێت لە کاتی راپۆرت دروستکردن دا.</Parameters>
+    <Parameters>پیشاندانی پەڕەی پارامیتەرەکانی راپۆرت.</Parameters>
     <PdfACompliance>پاڵپشتیکردنی ستانداردی هەڵگرتنی دۆکۆمێنت و ئەرشیف کردنیبۆماوەیەکی زۆر.</PdfACompliance>
     <PdfUniversalAccessibility>پشتگیری بۆ ستانداردی بەڵگەنامە و زانیارییە ئەلیکترۆنییە گشتگیرەکان.</PdfUniversalAccessibility>
     <Print>چاپکردنی ڕاپۆرت.</Print>
@@ -2376,9 +2376,10 @@
     <SkipColumnHeaders>چالاککردن/ناچالاککردنی سەرپەڕەکانی ستوون.</SkipColumnHeaders>
     <StandardPdfFonts>14 فۆنتی Adobe ستاندارد. ئەگەر ئەم هەڵبژاردنە چالاک بکرێت، ئەوا تەنها 14 فۆنتی ستاندارد بەکاردێت لە فایلی PDF. هەموو فۆنتەکانی ڕاپۆرت گۆڕدراون بۆ ئەوان.</StandardPdfFonts>
     <SubjectNameString>پێناسی بڕوانامە. پێناسەکە ناوی خاوەنی بڕوانامە (هێڵی تەواو) یان بەشێکە لە ناو (ژێربەندی).</SubjectNameString>
-    <Thumbnails>پیشاندانی وێنە بچووکەکان کەدەتوانن بەکار بهێنرێن بۆ گەڕانی خێرا بۆ دۆزینەوەی ئەو بەشەی ڕاپۆرتەکە کەدەتەوێت باز بدەیت بۆی.</Thumbnails>
+    <Thumbnails>پیشاندانی پەڕەی وێنە بچووکەکانی لاپەڕەکان.</Thumbnails>
     <TiffCompressionScheme>پلانی پەستاندن بۆ فایلەکانی TIFF.</TiffCompressionScheme>
-    <ToolEditor>ئەم ئامڕازە ڕێگەت پێدەدات بۆ گۆڕانکاری لە ناوەڕۆکی پێکهاتەکان بە شێوەی ڕاستەوخۆ لە پیشاندەری ڕاپۆرت دا.</ToolEditor>
+    <ToolEditor>گۆڕانکاری لە دەقی راپۆرت لە پیشاندەردا.</ToolEditor>
+    <ToolSignature>واژۆکەت لە شوێنە دیاریکراوەکاندا دابنێ.</ToolSignature>
     <TypeExport>فایلی ڕاپۆرتەکە دەگۆڕێت بۆ.</TypeExport>
     <UnsafeCompilation1>ئەم بەڵگەنامەیە پرۆسەی کۆمپایل بەکاردێنێت. لە هەندێک حاڵەتدا، لەوانەیە ئەمە سەلامەت نەبێت. لەبەر ئەوە، بەڵگەنامەکە لە دۆخی سەلامەتدا بار دەکرێت بۆ کەمکردنەوەی هەر مەترسییەک.</UnsafeCompilation1>
     <UnsafeCompilation2>ئەگەر پێویستت بە بەکارهێنانی ئەم بەڵگەنامەیە هەیە لە شێوە ڕەسەنەکەی، تکایە پەیوەندی بکە بە گەشەپێدەرەکانتەوە.</UnsafeCompilation2>
@@ -2389,12 +2390,12 @@
     <UserPassword>وشەی نهێنی پێویستە بۆ کردنەوەی دۆکیومێنتەکە.</UserPassword>
     <UseUnicode>پشتگیری درێژکراوە بۆ هێماکانی مشەفەرکردن. کاردەکاتە سەر کۆدکردنی کاراکتەری ناو فایلی PDF ەکەو، و کۆپیکردنی دەقەکە لە فایلی PDF باشتر دەکات.</UseUnicode>
     <ViewModeContinuous>پیشاندانی هەموو پەڕەکانی ڕاپۆرت وەک شریتی ستوونی.</ViewModeContinuous>
-    <ViewModeMultiplePages>راپۆرتەکە زووم بکە بۆ ئەوەی پەڕەی زۆر بتوانێت لە شاشەی پیشاندان دا جێگەیان ببێتەوە.</ViewModeMultiplePages>
+    <ViewModeMultiplePages>پیشاندانی ئەو ژمارە لاپەڕەیەی لە پەنجەرەدا جێی دەبێتەوە.</ViewModeMultiplePages>
     <ViewModeSinglePage>پیشاندانی یەک لاپەڕە لەپەنجەرەی پیشاندان دا.</ViewModeSinglePage>
-    <ZoomMultiplePages>راپۆرتەکە زووم بکە بۆ ئەوەی پەڕە دیاریکراوەکان لە پەنجەرەکەدا جێگەیان بێتەوە.</ZoomMultiplePages>
-    <ZoomOnePage>راپۆرتەکە زووم بکە بۆ ئەوەی هەموو لاپەڕەکە لە پەنجەرەکەدا جێگەیان بێتەوە.</ZoomOnePage>
-    <ZoomPageWidth>راپۆرتەکە زووم بکە بۆ ئەوەی پانی لاپەڕەکە لەگەڵ پانی پەنجەرەکە هاوچەشن بێت.</ZoomPageWidth>
-    <ZoomTwoPages>راپۆرتەکە زووم بکە بۆ ئەوەی دوو لاپەڕە لە پەنجەرەکەدا جێگەیان بێتەوە.</ZoomTwoPages>
+    <ZoomMultiplePages>گونجاندنی چەند لاپەڕەیەک لە پەنجەرەدا.</ZoomMultiplePages>
+    <ZoomOnePage>گونجاندنی یەک لاپەڕە لە پەنجەرەدا.</ZoomOnePage>
+    <ZoomPageWidth>گونجاندنی پانی لاپەڕە لەگەڵ پەنجەرە.</ZoomPageWidth>
+    <ZoomTwoPages>گونجاندنی دوو لاپەڕە لە پەنجەرەدا.</ZoomTwoPages>
     <ZoomTxt>قەبارەی ڕاپۆرتەکە (پێوەر): X - گۆڕینی پێوەری ئاسۆیی، Y - بۆ گۆڕینی پێوەری ستوونی.</ZoomTxt>
   </HelpViewer>
   <Interface>

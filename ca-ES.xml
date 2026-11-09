@@ -2301,7 +2301,7 @@
     <AllowEditable>Permet canviar components amb la propietat Editable activada.</AllowEditable>
     <AllowModifyContents>Accés limitat a l'edició de text.</AllowModifyContents>
     <AllowPrintDocument>Accés limitat a l'operació d'impressió.</AllowPrintDocument>
-    <Bookmarks>Mostra el panell de marques de llibre que es pot utilitzar per saltar ràpidament a ubicacions prèviament marcades.</Bookmarks>
+    <Bookmarks>Mostra el panell de marcadors.</Bookmarks>
     <BorderType>El tipus de vora dels components: simple - dibuixar les vores dels components amb els caràcters +, -, |; Unicode simple - dibuixar les vores amb caràcters simples de dibuix de caixes, Unicode doble - dibuixar les vores amb caràcters dobles de dibuix de caixes.</BorderType>
     <Close>Tanca la vista preliminar i torna a editar l’informe.</Close>
     <CloseDotMatrix>Tanca el visor matricial i torna a editar l’informe.</CloseDotMatrix>
@@ -2316,7 +2316,7 @@
     <DashboardContains3>No pots fer això des del visualitzador d'informes!</DashboardContains3>
     <DigitalSignature>La signatura digital del fitxer.</DigitalSignature>
     <DitheringType>Tipus de tramat: Cap - sense tramat, Ordenat, FloydSt. - amb tramat.</DitheringType>
-    <DotMatrixMode>Aquest mode permet veure com quedaria un informe si s’imprimeix en una impressora matricial.</DotMatrixMode>
+    <DotMatrixMode>Vista prèvia de l’informe per a impressora matricial.</DotMatrixMode>
     <DrawBorder>Mostra la vora</DrawBorder>
     <Edit>Edita els components.</Edit>
     <EmbeddedFonts>Incrusta els fitxers de tipus de lletra en un fitxer PDF.</EmbeddedFonts>
@@ -2343,12 +2343,12 @@
     <ImageType>L'esquema de color de la imatge: color - la imatge després d'exportar coincidirà completament amb la imatge del visor; gris – una imatge després d'exportar serà en tons de gris; monocrom - les imatges seran estrictament en blanc i negre. Alhora, cal tenir en compte que el monocrom té tres modes None, Ordered, FloydSt.</ImageType>
     <KillSpaceLines>Elimina les línies (files) en blanc del document.</KillSpaceLines>
     <MultipleFiles>Cada pàgina de l'informe pot ser un fitxer separat.</MultipleFiles>
-    <Open>Obre un informe prèviament guardat en el visor.</Open>
+    <Open>Obre un informe guardat.</Open>
     <OpenAfterExport>Obertura automàtica del document creat (després de l'exportació) pel programa associat amb aquests tipus de fitxer.</OpenAfterExport>
     <OwnerPassword>La contrasenya necessària per realitzar operacions amb el fitxer.</OwnerPassword>
     <PageAll>Processament de totes les pàgines de l'informe.</PageAll>
     <PageDelete>Elimina la pàgina seleccionada de l’informe.</PageDelete>
-    <PageDesign>Edita la pàgina seleccionada en el dissenyador.</PageDesign>
+    <PageDesign>Edita la pàgina en el dissenyador.</PageDesign>
     <PageFirst>Vés a la primera pàgina de l’informe.</PageFirst>
     <PageGoTo>Vés a una primera específica de l’informe.</PageGoTo>
     <PageLast>Vés a l’última pàgina de l’informe.</PageLast>
@@ -2356,7 +2356,7 @@
     <PageNext>Vés a la pàgina següent de l’informe.</PageNext>
     <PagePrevious>Vés a la pàgina anterior de l’informe.</PagePrevious>
     <PageSize>Canvia els paràmetres de pàgina de l’informe.</PageSize>
-    <Parameters>Es mostra el panell de paràmetres utilitzat mentre es presenta l’informe.</Parameters>
+    <Parameters>Mostra el panell de paràmetres.</Parameters>
     <PdfACompliance>Suport per a l'estàndard d'arxivament i emmagatzematge a llarg termini de documents electrònics.</PdfACompliance>
     <PdfUniversalAccessibility>Suport per a l'estàndard de documents i informació electrònics universalment accessibles.</PdfUniversalAccessibility>
     <Print>Imprimeix l’informe.</Print>
@@ -2373,9 +2373,10 @@
     <SkipColumnHeaders>Activa/desactiva les capçaleres de columna.</SkipColumnHeaders>
     <StandardPdfFonts>14 tipus de lletra estàndard d'Adobe. Si aquesta opció està activada, només s'utilitzaran els 14 tipus de lletra estàndard al fitxer PDF. Tots els tipus de lletra de l'informe s'hi converteixen.</StandardPdfFonts>
     <SubjectNameString>Identificador del certificat. L'identificador és el nom del propietari del certificat (línia completa) o una part del nom (subcadena).</SubjectNameString>
-    <Thumbnails>Mostra miniatures de pàgines per facilitar la navegació ràpida dins de l’informe.</Thumbnails>
+    <Thumbnails>Mostra el panell de miniatures de pàgines.</Thumbnails>
     <TiffCompressionScheme>Esquema de compressió per a fitxers TIFF.</TiffCompressionScheme>
-    <ToolEditor>Aquesta eina permet editar el text d’un component, directament en el visor de l’informe.</ToolEditor>
+    <ToolEditor>Edita el text de l’informe en el visor.</ToolEditor>
+    <ToolSignature>Poseu la vostra signatura als llocs marcats.</ToolSignature>
     <TypeExport>El fitxer en què es convertirà l'informe.</TypeExport>
     <UnsafeCompilation1>Aquest document utilitza el procés de compilació. En alguns casos, això pot no ser segur. Per tant, el document es carregarà en mode segur per minimitzar qualsevol risc potencial.</UnsafeCompilation1>
     <UnsafeCompilation2>Si necessiteu que aquest document s'utilitzi en la seva forma original, poseu-vos en contacte amb els vostres desenvolupadors.</UnsafeCompilation2>
@@ -2386,12 +2387,12 @@
     <UserPassword>La contrasenya necessària per obrir el document.</UserPassword>
     <UseUnicode>Suport ampliat per a la codificació de caràcters. Afecta la codificació interna de caràcters dins del fitxer PDF i millora la còpia del text des del fitxer PDF.</UseUnicode>
     <ViewModeContinuous>Mostra totes les pàgines com un visor vertical</ViewModeContinuous>
-    <ViewModeMultiplePages>Redueix/amplia l’informe per mostrar el nombre màxim de pàgines en una sola finestra.</ViewModeMultiplePages>
+    <ViewModeMultiplePages>Mostra tantes pàgines com càpiguen a la finestra.</ViewModeMultiplePages>
     <ViewModeSinglePage>Mostra una sola pàgina en la vista preliminar.</ViewModeSinglePage>
-    <ZoomMultiplePages>Redueix/amplia l’informe per mostrar les pàgines seleccionades en una sola finestra.</ZoomMultiplePages>
-    <ZoomOnePage>Redueix/amplia l’informe per mostrar una pàgina en la finestra.</ZoomOnePage>
-    <ZoomPageWidth>Redueix/amplia l’informe per ajustar l’amplada de la pàgina a la finestra.</ZoomPageWidth>
-    <ZoomTwoPages>Redueix/amplia l’informe per mostrar dues pàgines en la finestra.</ZoomTwoPages>
+    <ZoomMultiplePages>Ajusta diverses pàgines a la finestra.</ZoomMultiplePages>
+    <ZoomOnePage>Ajusta una pàgina a la finestra.</ZoomOnePage>
+    <ZoomPageWidth>Ajusta l’amplada de la pàgina a la finestra.</ZoomPageWidth>
+    <ZoomTwoPages>Ajusta dues pàgines a la finestra.</ZoomTwoPages>
     <ZoomTxt>La mida de l'informe (escala): X - canvia l'escala horitzontal, Y - canvia l'escala vertical.</ZoomTxt>
   </HelpViewer>
   <Interface>

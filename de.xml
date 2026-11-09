@@ -2303,7 +2303,7 @@
     <AllowEditable>Erlaubt im exportierten PDF das Bearbeiten von Elementen, bei welchen die Eigenschaft Editierbar aktiviert ist.</AllowEditable>
     <AllowModifyContents>Das Bearbeiten von Inhalten erlauben.</AllowModifyContents>
     <AllowPrintDocument>Das Drucken des Dokuments erlauben.</AllowPrintDocument>
-    <Bookmarks>Lesezeichen</Bookmarks>
+    <Bookmarks>Lesezeichenbereich anzeigen.</Bookmarks>
     <BorderType>Rahmentyp der Komponenten: Einfach - der Rahmen wird mit den Zeichen +, - und | gezeichnet; Unicode-Einfach - der Rahmen wird mit einfachen Unicode-Rahmenelementen gezeichnet, Unicode-Doppelt - der Rahmen wird mit doppelten Unicode-Rahmenelementen gezeichnet</BorderType>
     <Close>Vorschau schließen</Close>
     <CloseDotMatrix>Dot-Matrix Vorschau schließen</CloseDotMatrix>
@@ -2318,7 +2318,7 @@
     <DashboardContains3>Sie können nicht es aus dem Viewer erfüllen!</DashboardContains3>
     <DigitalSignature>Die digitale Signatur der Datei aktivieren.</DigitalSignature>
     <DitheringType>Dithering Typ: None - ohne Dithering; Ordered und FloydSteinberg - mit Dithering</DitheringType>
-    <DotMatrixMode>Dot-Matrix Vorschau</DotMatrixMode>
+    <DotMatrixMode>Vorschau des Berichts für Nadeldrucker.</DotMatrixMode>
     <DrawBorder>Den Rahmen von Komponenten mit Hilfe von grafischen Zeichen darstellen.</DrawBorder>
     <Edit>Bearbeiten</Edit>
     <EmbeddedFonts>Schriftarten in die PDF-Datei einbetten.</EmbeddedFonts>
@@ -2345,12 +2345,12 @@
     <ImageType>Das Farbschema des zu exportierenden Bildes: Farbe - die Bilder werden in vollem Farbumfang exportiert; Graustufen – die Bilder werden in Graustufen umgewandelt; Monochrom - die Bilder werden in Schwarz/Weiss umgewandelt.</ImageType>
     <KillSpaceLines>Entfernt Leerzeilen aus dem Dokument.</KillSpaceLines>
     <MultipleFiles>Exportiert jede Berichtseite in eine eigene Datei.</MultipleFiles>
-    <Open>Öffnen</Open>
+    <Open>Gespeicherten Bericht öffnen.</Open>
     <OpenAfterExport>Die Exportdatei wird nach Abschluss des Exportvorgangs automatisch durch das dem Dateityp zugewiesene Programm geöffnet.</OpenAfterExport>
     <OwnerPassword>Das benötigte Passwort, um Aktionen im geöffneten Dokument auszuführen.</OwnerPassword>
     <PageAll>Alle Berichtseiten werden verarbeitet.</PageAll>
     <PageDelete>Seite löschen</PageDelete>
-    <PageDesign>Seiten-Designer</PageDesign>
+    <PageDesign>Seite im Designer bearbeiten.</PageDesign>
     <PageFirst>Erste Seite</PageFirst>
     <PageGoTo>Gehe zu... Seite</PageGoTo>
     <PageLast>Letzte Seite</PageLast>
@@ -2358,7 +2358,7 @@
     <PageNext>Nächste Seite</PageNext>
     <PagePrevious>Vorherige Seite</PagePrevious>
     <PageSize>Seitengröße ändern</PageSize>
-    <Parameters>Parameterwerte zeigen, welche beim Rendern des Reports verwendet werden</Parameters>
+    <Parameters>Parameterbereich anzeigen.</Parameters>
     <PdfACompliance>Das exportierte Dokument unterstützt das Format PDF/A, welches für Langzeitarchivierung verwendet wird.</PdfACompliance>
     <PdfUniversalAccessibility>Die Unterstützung für Standard der universellen Verfügbarkeit von elektronischen Dokumenten und Informationen.</PdfUniversalAccessibility>
     <Print>Drucken</Print>
@@ -2375,9 +2375,10 @@
     <SkipColumnHeaders>Export der Spaltenüberschriften unterdrücken.</SkipColumnHeaders>
     <StandardPdfFonts>Aktiviert die Verwendung der 14 Standardschriftarten von Adobe. Alle im Bericht verwendeten Schriftarten werden in eine dieser Standardschriftarten konvertiert.</StandardPdfFonts>
     <SubjectNameString>Identifiziert ein Zertifikat. Der Wert kann den vollen oder einen Teil des Zertifikatnamens beinhalten.</SubjectNameString>
-    <Thumbnails>Eine Liste von Miniaturansichten des aktuellen Berichtes zur einfacheren Navigation anzeigen</Thumbnails>
+    <Thumbnails>Bereich mit Seitenminiaturen anzeigen.</Thumbnails>
     <TiffCompressionScheme>Legt das Kompressionsschema für TIFF Grafikdateien fest.</TiffCompressionScheme>
-    <ToolEditor>Ermöglicht das Editieren von Text direkt im Report Viewer.</ToolEditor>
+    <ToolEditor>Berichtstext im Viewer bearbeiten.</ToolEditor>
+    <ToolSignature>Setzen Sie Ihre Unterschrift an die markierten Stellen.</ToolSignature>
     <TypeExport>Der Typ Datendatei, welcher durch den Export erstellt wird.</TypeExport>
     <UnsafeCompilation1>Dieses Dokument verwendet den Kompilationsprozess. Manchmal könnte es gefährlich sein. Deshalb wird das Dokument im abgesicherten Modus geladen werden, um mögliche Risiken zu minimieren.</UnsafeCompilation1>
     <UnsafeCompilation2>Wenn Sie das Dokument in seiner ursprünglichen Form verwenden möchten, kontaktieren Sie Ihren Entwicklern.</UnsafeCompilation2>
@@ -2388,12 +2389,12 @@
     <UserPassword>Das benötigte Passwort, um das Dokument zu öffnen.</UserPassword>
     <UseUnicode>Unterstützung des Unicode Zeichensatzes. Damit wird die Codierung spezieller Zeichen im PDF und das Kopieren von Text aus dem PDF verbessert.</UseUnicode>
     <ViewModeContinuous>Alle Berichtsseiten in einem endlosen vertikalen Band anzeigen</ViewModeContinuous>
-    <ViewModeMultiplePages>Mehrere Seiten anzeigen</ViewModeMultiplePages>
+    <ViewModeMultiplePages>So viele Seiten anzeigen, wie ins Fenster passen.</ViewModeMultiplePages>
     <ViewModeSinglePage>Einzelne Seite anzeigen</ViewModeSinglePage>
-    <ZoomMultiplePages>Mehrere Seiten anzeigen</ZoomMultiplePages>
-    <ZoomOnePage>Eine Seite anzeigen</ZoomOnePage>
-    <ZoomPageWidth>Seitenbreite</ZoomPageWidth>
-    <ZoomTwoPages>Zwei Seiten</ZoomTwoPages>
+    <ZoomMultiplePages>Mehrere Seiten in das Fenster einpassen.</ZoomMultiplePages>
+    <ZoomOnePage>Eine Seite in das Fenster einpassen.</ZoomOnePage>
+    <ZoomPageWidth>Seitenbreite an das Fenster anpassen.</ZoomPageWidth>
+    <ZoomTwoPages>Zwei Seiten in das Fenster einpassen.</ZoomTwoPages>
     <ZoomTxt>Die Skalierung im Dokument: X - Ändert die horizontale Skalierung; Y - Ändert die vertikale Skalierung.</ZoomTxt>
   </HelpViewer>
   <Interface>

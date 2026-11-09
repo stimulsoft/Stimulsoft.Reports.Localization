@@ -2301,7 +2301,7 @@
     <AllowEditable>Tillåter endast komponenter att ändras</AllowEditable>
     <AllowModifyContents>Begränsad behörighet att redigera text.</AllowModifyContents>
     <AllowPrintDocument>Begränsad behörighet att skriva ut.</AllowPrintDocument>
-    <Bookmarks>Visa panelen med bokmärken, som kan användas för att navigera direkt till märkta platser.</Bookmarks>
+    <Bookmarks>Visa panelen med bokmärken.</Bookmarks>
     <BorderType>Kanttyp på komponenter: enkel - rita kanter på komponenter med +, -, |; Unicode enkel - rita kanter på komponenter med rittecken, Unicode dubbel - rita kanter på komponenter med dubbla rittecken.</BorderType>
     <Close>Stäng förhandsvisning och återgå till att redigera rapport.</Close>
     <CloseDotMatrix>Stäng Dot Matrix Viewer och återgå till att redigera rapport.</CloseDotMatrix>
@@ -2316,7 +2316,7 @@
     <DashboardContains3>Du kan inte göra det från rapportvisaren!</DashboardContains3>
     <DigitalSignature>Digitala signaturen på filen.</DigitalSignature>
     <DitheringType>Gittertyp: Ingen - inget gitter, Sorterad, FloydSt - med gitter.</DitheringType>
-    <DotMatrixMode>Denna vy visar hur en rapport ser ut om den skrivs ut på en matrisskrivare.</DotMatrixMode>
+    <DotMatrixMode>Förhandsgranska rapporten för en matrisskrivare.</DotMatrixMode>
     <DrawBorder>Rita kanterna på komponenten med grafiska tecken.</DrawBorder>
     <Edit>Redigera komponent.</Edit>
     <EmbeddedFonts>Inkludera typsnittsinformation i PDF-filen.</EmbeddedFonts>
@@ -2343,12 +2343,12 @@
     <ImageType>Färgschemat för bilden: färg - bilden kommer efter export att stämma överens med bilden i viewern; gråskala – bilden kommer efter export att vara i gråskala; svart/vit - bilden kommer endast att vara svart/vit. Notera att svart/vit har tre modes Ingen, Ordnad, FloydSt.</ImageType>
     <KillSpaceLines>Ta bort svarta linjer (rader) i dokumentet.</KillSpaceLines>
     <MultipleFiles>Varje rapport kan vara en separat fil.</MultipleFiles>
-    <Open>Öppna tidigare sparad rapport i förhandsvisningsfönster.</Open>
+    <Open>Öppna en sparad rapport.</Open>
     <OpenAfterExport>Öppna skapat dokument automatiskt (efter export) med hjälp av standardprogrammet för aktuell filtyp.</OpenAfterExport>
     <OwnerPassword>Lösenordet för att få behörighet att arbeta med filen.</OwnerPassword>
     <PageAll>Behandla alla rapportsidor.</PageAll>
     <PageDelete>Radera markerad sida i rapporten.</PageDelete>
-    <PageDesign>Redigera markerad sida med Report Designer.</PageDesign>
+    <PageDesign>Redigera sidan i designern.</PageDesign>
     <PageFirst>Gå till första sidan i rapport.</PageFirst>
     <PageGoTo>Gå till angiven sida i rapport.</PageGoTo>
     <PageLast>Gå till sista sidan i rapport.</PageLast>
@@ -2356,7 +2356,7 @@
     <PageNext>Gå till nästa sida i rapport.</PageNext>
     <PagePrevious>Gå till föregående sida i rapport.</PagePrevious>
     <PageSize>Ändra parametrar för sida i rapport.</PageSize>
-    <Parameters>Visar parameterpanelen för parametrar för att rendera rapport.</Parameters>
+    <Parameters>Visa panelen med rapportparametrar.</Parameters>
     <PdfACompliance>Stöd för standard för långtidsarkivering och lagring av digitala dokument.</PdfACompliance>
     <PdfUniversalAccessibility>Stöd för standarden för allmänt tillgängliga elektroniska dokument och information.</PdfUniversalAccessibility>
     <Print>Skriv ut rapport.</Print>
@@ -2373,9 +2373,10 @@
     <SkipColumnHeaders>Aktivera/avaktivera kolumnhuvud.</SkipColumnHeaders>
     <StandardPdfFonts>14 standard Adobe typsnitt. Om detta val aktiveras så kommer endast 14 standardtypsnitt att användas i PDF-filen. Alla rapporttypsnitt konverteras till något av dessa 14.</StandardPdfFonts>
     <SubjectNameString>Certifikatidentifierare. Identifieraren är namnet på certifikatägaren (en hel rad) eller en del av namnet (del av rad).</SubjectNameString>
-    <Thumbnails>Visa ikoner som kan användas för snabb navigation för att välja den rapport du vill hoppa till.</Thumbnails>
+    <Thumbnails>Visa panelen med sidminiatyrer.</Thumbnails>
     <TiffCompressionScheme>Kompression för TIFF-fil.</TiffCompressionScheme>
-    <ToolEditor>Detta verktyg gör det möjigt att redigera innehåll i textkomponenter direkt i rapportviewern.</ToolEditor>
+    <ToolEditor>Redigera rapporttexten i rapportviewern.</ToolEditor>
+    <ToolSignature>Placera din signatur på de markerade platserna.</ToolSignature>
     <TypeExport>Filen som rapporten konverteras till.</TypeExport>
     <UnsafeCompilation1>Det här dokumentet använder kompileringsprocessen. I vissa fall kan detta vara osäkert. Därför laddas dokumentet i säkert läge för att minimera eventuella risker.</UnsafeCompilation1>
     <UnsafeCompilation2>Om du behöver att detta dokument används i sin ursprungliga form, kontakta dina utvecklare.</UnsafeCompilation2>
@@ -2386,12 +2387,12 @@
     <UserPassword>Lösenordet som behövs för att öppna dokumentet.</UserPassword>
     <UseUnicode>Utökat stöd för att kodning av tecken. Det påverkar intern teckenkodning inom PDF-filen och förbättrar möjligheten att kopiera text från PDF-filen.</UseUnicode>
     <ViewModeContinuous>Visa alla rapportsidor som ett vertikalt band.</ViewModeContinuous>
-    <ViewModeMultiplePages>Zooma rapporten så att så många sidor som ryms i fönstret visas.</ViewModeMultiplePages>
+    <ViewModeMultiplePages>Visa så många sidor som ryms i fönstret.</ViewModeMultiplePages>
     <ViewModeSinglePage>Visa en sida i förhandsgranskningsfönstret.</ViewModeSinglePage>
-    <ZoomMultiplePages>Zooma rapporten så att markerade sidor ryms i fönstret.</ZoomMultiplePages>
-    <ZoomOnePage>Zooma rapporten så att en sida fyller hela fönstret.</ZoomOnePage>
-    <ZoomPageWidth>Zooma rapporten så att bredden på sidan är samma som bredden på fönstret.</ZoomPageWidth>
-    <ZoomTwoPages>Zooma rapporten så att två sidor ryms i fönstret.</ZoomTwoPages>
+    <ZoomMultiplePages>Anpassa flera sidor till fönstret.</ZoomMultiplePages>
+    <ZoomOnePage>Anpassa en sida till fönstret.</ZoomOnePage>
+    <ZoomPageWidth>Anpassa sidbredden till fönstret.</ZoomPageWidth>
+    <ZoomTwoPages>Anpassa två sidor till fönstret.</ZoomTwoPages>
     <ZoomTxt>Rapportens storlek (skala): X - ändra horisontell skala, Y - ändra vertikal skala.</ZoomTxt>
   </HelpViewer>
   <Interface>

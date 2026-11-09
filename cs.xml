@@ -2301,7 +2301,7 @@
     <AllowEditable>Povolit změny pouze u komponent se zapnutou vlastností Editovatelné.</AllowEditable>
     <AllowModifyContents>Omezený přístup k úpravám textu.</AllowModifyContents>
     <AllowPrintDocument>Omezený přístup k operaci tisku.</AllowPrintDocument>
-    <Bookmarks>Zobrazit panel záložek, který slouží k rychlé navigaci na místo označené záložkou.</Bookmarks>
+    <Bookmarks>Zobrazit panel záložek.</Bookmarks>
     <BorderType>Typ okraje komponent: jednoduchý – vykreslení okrajů komponent znaky +, -, |; Unicode jednoduchý – vykreslení okrajů jednoduchými znaky pro kreslení rámečků, Unicode dvojitý – vykreslení okrajů dvojitými znaky pro kreslení rámečků.</BorderType>
     <Close>Zavřít náhled reportu.</Close>
     <CloseDotMatrix>Zavřít prohlížeč pro jehličkové tiskárny.</CloseDotMatrix>
@@ -2316,7 +2316,7 @@
     <DashboardContains3>To nelze provést z prohlížeče reportů!</DashboardContains3>
     <DigitalSignature>Digitální podpis souboru.</DigitalSignature>
     <DitheringType>Typ ditheringu: None – bez ditheringu, Ordered, FloydSt. – s ditheringem.</DitheringType>
-    <DotMatrixMode>Tento režim umožňuje zobrazit, jak bude report vypadat, pokud bude vytištěn na jehličkové tiskárně.</DotMatrixMode>
+    <DotMatrixMode>Náhled reportu pro jehličkovou tiskárnu.</DotMatrixMode>
     <DrawBorder>Vykreslení okrajů komponent grafickými znaky.</DrawBorder>
     <Edit>Editace položek.</Edit>
     <EmbeddedFonts>Vložit soubory písem do souboru PDF.</EmbeddedFonts>
@@ -2343,12 +2343,12 @@
     <ImageType>Barevné schéma obrázku: barevné – obrázek po exportu bude plně odpovídat obrázku v prohlížeči; šedé – obrázek po exportu bude v šedém odstínu; monochromatické – obrázky budou výhradně černobílé. Přitom je třeba vzít v úvahu, že monochromatické zobrazení má tři režimy None, Ordered, FloydSt.</ImageType>
     <KillSpaceLines>Odstranit prázdné řádky v dokumentu.</KillSpaceLines>
     <MultipleFiles>Každá stránka reportu může být samostatným souborem.</MultipleFiles>
-    <Open>Otevřít předchozí uložený report v okně náhledu.</Open>
+    <Open>Otevřít uložený report.</Open>
     <OpenAfterExport>Automatické otevření vytvořeného dokumentu (po exportu) programem nastaveným pro tyto typy souborů.</OpenAfterExport>
     <OwnerPassword>Heslo pro přístup k operacím se soubory.</OwnerPassword>
     <PageAll>Zpracování všech stránek reportu.</PageAll>
     <PageDelete>Smazat vybranou stránku reportu.</PageDelete>
-    <PageDesign>Editovat vybranou stránku v návrhu reportu.</PageDesign>
+    <PageDesign>Editovat stránku v návrháři.</PageDesign>
     <PageFirst>Přejít na první stranu reportu.</PageFirst>
     <PageGoTo>Přejít na určenou stránku reportu.</PageGoTo>
     <PageLast>Přejít na poslední stránku reportu.</PageLast>
@@ -2356,7 +2356,7 @@
     <PageNext>Přejít na další stránku reportu.</PageNext>
     <PagePrevious>Přejít na předchozí stránku reportu.</PagePrevious>
     <PageSize>Změnit parametry stránky reportu.</PageSize>
-    <Parameters>Zobrazit panel parametrů, který se používá při generování reportu.</Parameters>
+    <Parameters>Zobrazit panel parametrů reportu.</Parameters>
     <PdfACompliance>Podpora standardu pro dlouhodobou archivaci a ukládání elektronických dokumentů.</PdfACompliance>
     <PdfUniversalAccessibility>Podpora standardu pro univerzálně přístupné elektronické dokumenty a informace.</PdfUniversalAccessibility>
     <Print>Tisknout report.</Print>
@@ -2373,9 +2373,10 @@
     <SkipColumnHeaders>Zapnout/vypnout záhlaví sloupců.</SkipColumnHeaders>
     <StandardPdfFonts>14 standardních písem Adobe. Pokud je tato možnost zapnuta, budou v souboru PDF použita pouze standardní písma v počtu 14. Všechna písma reportu jsou do nich převedena.</StandardPdfFonts>
     <SubjectNameString>Identifikátor certifikátu. Identifikátorem je jméno vlastníka certifikátu (celý řetězec) nebo část jména (podřetězec).</SubjectNameString>
-    <Thumbnails>Zobrazit miniatury k rychlému nalezení sekce reportu, na kterou se chcete přepnout.</Thumbnails>
+    <Thumbnails>Zobrazit panel miniatur stránek.</Thumbnails>
     <TiffCompressionScheme>Schéma komprese pro soubory TIFF.</TiffCompressionScheme>
-    <ToolEditor>Tento nástroj umožňuje editaci obsahu textu komponent přímo v prohlížeči reportu.</ToolEditor>
+    <ToolEditor>Editovat text reportu v prohlížeči.</ToolEditor>
+    <ToolSignature>Vložte svůj podpis na označená místa.</ToolSignature>
     <TypeExport>Soubor, do kterého bude report převeden.</TypeExport>
     <UnsafeCompilation1>Tento dokument používá proces kompilace. V některých případech to nemusí být bezpečné. Proto bude dokument načten v bezpečném režimu, aby se minimalizovala jakákoli potenciální rizika.</UnsafeCompilation1>
     <UnsafeCompilation2>Pokud potřebujete tento dokument používat v jeho původní podobě, obraťte se na své vývojáře.</UnsafeCompilation2>
@@ -2386,12 +2387,12 @@
     <UserPassword>Heslo potřebné k otevření dokumentu.</UserPassword>
     <UseUnicode>Rozšířená podpora kódování znaků. Ovlivňuje interní kódování znaků v souboru PDF a zlepšuje kopírování textu ze souboru PDF.</UseUnicode>
     <ViewModeContinuous>Zobrazit všechny stránky reportu jako svislý pás.</ViewModeContinuous>
-    <ViewModeMultiplePages>Změnit velikost reportu při zobrazení více stránek v okně.</ViewModeMultiplePages>
+    <ViewModeMultiplePages>Zobrazit tolik stránek, kolik se vejde do okna.</ViewModeMultiplePages>
     <ViewModeSinglePage>Zobrazit samostatnou stránku v okně náhledu.</ViewModeSinglePage>
-    <ZoomMultiplePages>Změnit velikost reportu pro zobrazení vybraných stránek v okně.</ZoomMultiplePages>
-    <ZoomOnePage>Změnit velikost reportu pro zobrazení celé stránky v okně.</ZoomOnePage>
-    <ZoomPageWidth>Změnit velikost reportu na šířku stránky reportu v okně.</ZoomPageWidth>
-    <ZoomTwoPages>Změnit velikost reportu pro zobrazení dvou stránek v okně.</ZoomTwoPages>
+    <ZoomMultiplePages>Přizpůsobit několik stránek oknu.</ZoomMultiplePages>
+    <ZoomOnePage>Přizpůsobit jednu stránku oknu.</ZoomOnePage>
+    <ZoomPageWidth>Přizpůsobit šířku stránky oknu.</ZoomPageWidth>
+    <ZoomTwoPages>Přizpůsobit dvě stránky oknu.</ZoomTwoPages>
     <ZoomTxt>Velikost (měřítko) reportu: X – změnit vodorovné měřítko, Y – změnit svislé měřítko.</ZoomTxt>
   </HelpViewer>
   <Interface>

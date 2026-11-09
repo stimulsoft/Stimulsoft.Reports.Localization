@@ -2303,7 +2303,7 @@
     <AllowEditable>Pozwala na zmianę tych składników, które mają możliwość edycji właściwości.</AllowEditable>
     <AllowModifyContents>Ograniczony dostęp do edytowania tekstu </AllowModifyContents>
     <AllowPrintDocument>Ograniczony dostęp do operacji drukowania </AllowPrintDocument>
-    <Bookmarks>Wyświetl panel zakładek służący dla szybkiej nawigacji - przeskoków bezpośrednio między zdefiniowanymi miejscami raportu.</Bookmarks>
+    <Bookmarks>Wyświetl panel zakładek.</Bookmarks>
     <BorderType>Typ obramowania elementów: prosty – rysowanie obramowania elementów przy użyciu znaków +, -, |; Unicode pojedynczy – rysowanie obramowań przy użyciu pojedynczych znaków do rysowania ramek, Unicode podwójny – rysowanie obramowań przy użyciu podwójnych znaków do rysowania ramek </BorderType>
     <Close>Zamknij podgląd i powróć do modyfikacji raportu.</Close>
     <CloseDotMatrix>Zamknij przeglądarkę mozaikową i powróć do modyfikacji raportu.</CloseDotMatrix>
@@ -2318,7 +2318,7 @@
     <DashboardContains3>Nie możesz tego zrobić z przeglądarki raportów!</DashboardContains3>
     <DigitalSignature>Podpis cyfrowy pliku </DigitalSignature>
     <DitheringType>Typ symulacji kolorów: Brak – brak symulacji kolorów, Uporządkowany, FloydSt – z symulacją kolorów. </DitheringType>
-    <DotMatrixMode>Ten tryb umożliwia podgląd wydruku raportu na drukarce mozaikowej.</DotMatrixMode>
+    <DotMatrixMode>Podgląd raportu dla drukarki igłowej.</DotMatrixMode>
     <DrawBorder>Rysowanie obramowań elementów przy użyciu znaków graficznych </DrawBorder>
     <Edit>Modyfikuj komponenty.</Edit>
     <EmbeddedFonts>Wbuduj pliki z czcionkami do pliku PDF. </EmbeddedFonts>
@@ -2345,12 +2345,12 @@
     <ImageType>Schemat kolorów obrazu: kolor – obraz po eksporcie jest całkowicie zgodny z obrazem w przeglądarce; szary – obraz po eksporcie jest przedstawiony w odcieniu szarości; monochromatyczny – obrazy są dokładnie czarno-białe. Jednocześnie, należy zauważyć, że obraz monochromatyczny ma trzy tryby Brak, Uporządkowany, FloydSt. </ImageType>
     <KillSpaceLines>Usuń puste wiersze (rzędy) w dokumencie. </KillSpaceLines>
     <MultipleFiles>Każda strona może być oddzielnym plikiem. </MultipleFiles>
-    <Open>Otwórz poprzednio zapisany raport w oknie podglądu.</Open>
+    <Open>Otwórz zapisany raport.</Open>
     <OpenAfterExport>Automatyczne otwieranie utworzonego dokumentu (po eksporcie) przez program ustawiony do plików tego typu </OpenAfterExport>
     <OwnerPassword>Hasło dostępu do operacji na plikach </OwnerPassword>
     <PageAll>Przetwarzanie wszystkich stron raportu </PageAll>
     <PageDelete>Usuń wybraną stronę raportu.</PageDelete>
-    <PageDesign>Modyfikuj wybraną stronę w projektancie raportów.</PageDesign>
+    <PageDesign>Modyfikuj stronę w projektancie.</PageDesign>
     <PageFirst>Idź do pierwszej strony raportu.</PageFirst>
     <PageGoTo>Idź do wybranej strony raportu.</PageGoTo>
     <PageLast>Idź do ostatniej strony raportu.</PageLast>
@@ -2358,7 +2358,7 @@
     <PageNext>Idź do następnej strony raportu.</PageNext>
     <PagePrevious>Idź do poprzedniej strony raportu.</PagePrevious>
     <PageSize>Zmień parametry strony w raporcie.</PageSize>
-    <Parameters>Wyświetlanie panelu parametrów używanych podczas wyświetlania raportu.</Parameters>
+    <Parameters>Wyświetl panel parametrów raportu.</Parameters>
     <PdfACompliance>Obsługa standardu długoterminowej archiwizacji i przechowywania dokumentów elektronicznych. </PdfACompliance>
     <PdfUniversalAccessibility> Obsługa standardu uniwersalnie dostępnych dokumentów elektronicznych i informacji.</PdfUniversalAccessibility>
     <Print>Wydrukuj raport.</Print>
@@ -2375,9 +2375,10 @@
     <SkipColumnHeaders>Otwórz/ zamknij nagłówki kolumn. </SkipColumnHeaders>
     <StandardPdfFonts>14 standardowych zestawów czcionek Adobe. Jeśli opcja ta jest wybrana, używanych będzie tylko 14 standardowych zestawów czcionek w pliku PDF. Wszystkie czcionki raportu są przekształcane na powyższe czcionki. </StandardPdfFonts>
     <SubjectNameString>Identyfikator certyfikatu. Identyfikator jest nazwą właściciela certyfikatu (pełny wiersz) lub częścią nazwy (podłańcuch). </SubjectNameString>
-    <Thumbnails>Wyświetl miniatury służące do szybkiej nawigacji - wyszukania i przejścia do wybranej sekcji raportu.</Thumbnails>
+    <Thumbnails>Wyświetl panel miniatur stron.</Thumbnails>
     <TiffCompressionScheme>Schemat kompresji dla plików TIFF </TiffCompressionScheme>
-    <ToolEditor>To narzędzie pozwala na edycję zawartości komponentów tekstowych bezpośrednio w przeglądarce raportów.</ToolEditor>
+    <ToolEditor>Edytuj tekst raportu w przeglądarce raportów.</ToolEditor>
+    <ToolSignature>Złóż swój podpis w oznaczonych miejscach.</ToolSignature>
     <TypeExport>Plik z raportem zostanie przekształcony na: </TypeExport>
     <UnsafeCompilation1>Ten dokument wykorzystuje proces kompilacji. W niektórych przypadkach może to nie być bezpieczne. Dlatego dokument zostanie załadowany w trybie bezpiecznym, aby zminimalizować potencjalne ryzyko.</UnsafeCompilation1>
     <UnsafeCompilation2>Jeśli chcesz, aby ten dokument był używany w oryginalnej formie, skontaktuj się z programistami.</UnsafeCompilation2>
@@ -2388,12 +2389,12 @@
     <UserPassword>Hasło wymagane do otwarcia dokumentu </UserPassword>
     <UseUnicode>Rozszerzona obsługa znaków kodujących. Ma ona wpływ na kodowanie znaku wewnętrznego w pliku PDF i poprawia kopiowanie tekstu z pliku PDF. </UseUnicode>
     <ViewModeContinuous>Wyświetl wszystkie strony raportu jako pionową wstęgę.</ViewModeContinuous>
-    <ViewModeMultiplePages>Zbliż raport tak, by jak najwięcej stron zmieściło się w oknie.</ViewModeMultiplePages>
+    <ViewModeMultiplePages>Wyświetl tyle stron, ile mieści się w oknie.</ViewModeMultiplePages>
     <ViewModeSinglePage>Wyświetl pojedynczą stronę w oknie podglądu.</ViewModeSinglePage>
-    <ZoomMultiplePages>Zbliż raport tak, by wybrane strony zmieściły się w oknie.</ZoomMultiplePages>
-    <ZoomOnePage>Zbliż raport tak, by cała strona mieściła się w oknie.</ZoomOnePage>
-    <ZoomPageWidth>Zbliż raport tak, by szerokość strony odpowiadała szerokości okna.</ZoomPageWidth>
-    <ZoomTwoPages>Zbliż raport tak, by dwie strony mieściły się w oknie.</ZoomTwoPages>
+    <ZoomMultiplePages>Dopasuj kilka stron do okna.</ZoomMultiplePages>
+    <ZoomOnePage>Dopasuj jedną stronę do okna.</ZoomOnePage>
+    <ZoomPageWidth>Dopasuj szerokość strony do okna.</ZoomPageWidth>
+    <ZoomTwoPages>Dopasuj dwie strony do okna.</ZoomTwoPages>
     <ZoomTxt>Rozmiar raportu (skala): X – zmiana skali poziomej, Y – zmiana skali pionowej </ZoomTxt>
   </HelpViewer>
   <Interface>

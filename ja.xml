@@ -2304,7 +2304,7 @@
     <AllowEditable>Editableプロパティを有効にして部品を変更できるようにします。</AllowEditable>
     <AllowModifyContents>テキスト編集へのアクセスが制限されています。</AllowModifyContents>
     <AllowPrintDocument>印刷操作へのアクセスが制限されています。</AllowPrintDocument>
-    <Bookmarks>クイックナビゲーションに使用されるブックマークパネルを表示して、ブックマークされた場所に直接ジャンプします。</Bookmarks>
+    <Bookmarks>ブックマークパネルを表示します。</Bookmarks>
     <BorderType>部品のボーダータイプ：シンプル - 文字による部品の境界線の描画 - 、 -</BorderType>
     <Close>レポートプレビューを閉じます。</Close>
     <CloseDotMatrix>ドットマトリクスビューアを閉じます。</CloseDotMatrix>
@@ -2319,7 +2319,7 @@
     <DashboardContains3>レポート・ビューアからはできない！</DashboardContains3>
     <DigitalSignature>ファイルのデジタル署名。</DigitalSignature>
     <DitheringType>ディザリングタイプ：なし - ディザリングなし、オーダード、FloydSt。 - ディザリングあり。</DitheringType>
-    <DotMatrixMode>このモードでは、ドットマトリックスプリンタで印刷する場合のレポートの表示方法を確認できます。</DotMatrixMode>
+    <DotMatrixMode>ドットマトリックスプリンタ用にレポートをプレビューします。</DotMatrixMode>
     <DrawBorder>グラフィック文字で部品の境界を描画する。</DrawBorder>
     <Edit>部品を編集します。</Edit>
     <EmbeddedFonts>フォントファイルをPDFファイルに埋め込みます。</EmbeddedFonts>
@@ -2346,12 +2346,12 @@
     <ImageType>画像のカラースキーム：エクスポート後のカラー画像は、ビューア内の画像と完全に一致します。 グレー - エクスポート後のイメージはグレーの色合いになります。 モノクロ - 画像は厳密に黒と白になります。 同時に、モノクロにはNone、Ordered、FloydStの3つのモードがあると考えるべきである。</ImageType>
     <KillSpaceLines>ドキュメント内の空白行（行）を削除します。</KillSpaceLines>
     <MultipleFiles>各レポートページは個別のファイルにすることができます。</MultipleFiles>
-    <Open>プレビューのウィンドウで以前に保存したレポートを開きます。</Open>
+    <Open>保存したレポートを開きます。</Open>
     <OpenAfterExport>これらのファイルタイプに設定されたプログラムによって、作成された文書を（エクスポート後に）自動的に開きます。</OpenAfterExport>
     <OwnerPassword>ファイル操作にアクセスするためのパスワード</OwnerPassword>
     <PageAll>すべてのレポートページの処理</PageAll>
     <PageDelete>選択したレポートページを削除</PageDelete>
-    <PageDesign>レポートデザイナーで選択したページを編集</PageDesign>
+    <PageDesign>デザイナーでページを編集します。</PageDesign>
     <PageFirst>最初のレポートへ移動</PageFirst>
     <PageGoTo>指定したレポートへ移動</PageGoTo>
     <PageLast>最後のレポートへ移動</PageLast>
@@ -2359,7 +2359,7 @@
     <PageNext>次のレポートへ移動</PageNext>
     <PagePrevious>前のレポートへ移動</PagePrevious>
     <PageSize>レポートのページパラメータを変更</PageSize>
-    <Parameters>レポートのレンダリング時に使用されるパラメータパネルを表示</Parameters>
+    <Parameters>レポートのパラメーターパネルを表示します。</Parameters>
     <PdfACompliance>電子文書の長期保存と保管の基準をサポート</PdfACompliance>
     <PdfUniversalAccessibility>誰もがアクセス可能な電子文書および情報の標準への対応です。</PdfUniversalAccessibility>
     <Print>レポートを印刷</Print>
@@ -2376,9 +2376,10 @@
     <SkipColumnHeaders>有効にする</SkipColumnHeaders>
     <StandardPdfFonts>14の標準Adobeフォント。 このオプションを有効にすると、標準14フォントのみがPDFファイルで使用されます。 すべてのレポートフォントがそれらに変換されます。</StandardPdfFonts>
     <SubjectNameString>証明書の識別子。 識別子は、証明書所有者の名前（フルライン）または名前の一部（サブストリング）です。</SubjectNameString>
-    <Thumbnails>ジャンプしたいレポートのセクションを見つけるためのクイックナビゲーションに使用できるサムネイルを表示します。</Thumbnails>
+    <Thumbnails>ページのサムネイルパネルを表示します。</Thumbnails>
     <TiffCompressionScheme>TIFFファイルの圧縮方式。</TiffCompressionScheme>
-    <ToolEditor>このツールを使用すると、レポートビューアで直接テキスト部品の内容を編集できます。</ToolEditor>
+    <ToolEditor>ビューアでレポートのテキストを編集します。</ToolEditor>
+    <ToolSignature>指定された場所に署名を入れます。</ToolSignature>
     <TypeExport>レポートが変換されるファイル。</TypeExport>
     <UnsafeCompilation1>この文書ではコンパイルプロセスを使用しています。場合によっては、これは安全ではないかもしれません。そのため、潜在的なリスクを最小限に抑えるため、文書はセーフモードで読み込まれます。</UnsafeCompilation1>
     <UnsafeCompilation2>この文書を原文のまま使用する必要がある場合は、開発者にご連絡ください。</UnsafeCompilation2>
@@ -2389,12 +2390,12 @@
     <UserPassword>ドキュメントを開くために必要なパスワード。</UserPassword>
     <UseUnicode>エンコード文字の拡張サポート。 これは、PDFファイル内の文字エンコーディングに影響し、PDFファイルからのテキストのコピーを改善します。</UseUnicode>
     <ViewModeContinuous>すべてのレポートページを縦のリボンとして表示します。</ViewModeContinuous>
-    <ViewModeMultiplePages>ウィンドウに収まるように多くのページが表示されるようにレポートを拡大します。</ViewModeMultiplePages>
+    <ViewModeMultiplePages>ウィンドウに収まる数のページを表示します。</ViewModeMultiplePages>
     <ViewModeSinglePage>プレビューウィンドウに1つのページを表示します。</ViewModeSinglePage>
-    <ZoomMultiplePages>選択したページがウィンドウに収まるようにレポートを拡大します。</ZoomMultiplePages>
-    <ZoomOnePage>ページ全体がウィンドウに収まるようにレポートをズームします。</ZoomOnePage>
-    <ZoomPageWidth>ページの幅とウィンドウの幅が一致するようにレポートをズームします。</ZoomPageWidth>
-    <ZoomTwoPages>2つのページがウィンドウに収まるようにレポートをズームします。</ZoomTwoPages>
+    <ZoomMultiplePages>複数のページをウィンドウに合わせます。</ZoomMultiplePages>
+    <ZoomOnePage>1ページをウィンドウに合わせます。</ZoomOnePage>
+    <ZoomPageWidth>ページの幅をウィンドウに合わせます。</ZoomPageWidth>
+    <ZoomTwoPages>2ページをウィンドウに合わせます。</ZoomTwoPages>
     <ZoomTxt>レポートのサイズ（スケール）：X - 水平スケールを変更、Y - 垂直スケールを変更します。</ZoomTxt>
   </HelpViewer>
   <Interface>

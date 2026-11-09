@@ -2303,7 +2303,7 @@
     <AllowEditable>Permite cambiar solamente los componentes con la propiedad Editable habilitado.</AllowEditable>
     <AllowModifyContents>Acceso Restringido para editar texto.</AllowModifyContents>
     <AllowPrintDocument>Acceso Restringido para operaciones de impresión.</AllowPrintDocument>
-    <Bookmarks>Mostrar el panel de Marcas de Libro que se puede usar para saltar de forma rápida a ubicaciones previamente marcadas.</Bookmarks>
+    <Bookmarks>Mostrar el panel de marcadores.</Bookmarks>
     <BorderType>El tipo de borde del componente: simple - utiliza la caracteres +, -, |; Unicode simple - pinta los bordes con caracteres de recuadro simple, Unicode doble - pinta los bordes con caracteres de recuadro dobles.</BorderType>
     <Close>Cerrar la Vista Preliminar y volver a editar el informe.</Close>
     <CloseDotMatrix>Cerrar el Visor Matricial y volver a editar el informe.</CloseDotMatrix>
@@ -2318,7 +2318,7 @@
     <DashboardContains3>¡No puede hacer eso desde el visor de informes!</DashboardContains3>
     <DigitalSignature>La firma digital del documento.</DigitalSignature>
     <DitheringType>Tipo Difuminación: Ninguno - sin difuminación, Ordenado, FloydSt - con difuminación.</DitheringType>
-    <DotMatrixMode>Este modo permite ver como quedaría un informe si se imprime en una impresora matricial.</DotMatrixMode>
+    <DotMatrixMode>Vista previa del informe para impresora matricial.</DotMatrixMode>
     <DrawBorder>Pintando los bordes de los componentes con caracteres gráficos.</DrawBorder>
     <Edit>Editar componentes.</Edit>
     <EmbeddedFonts>Incrustar los archivos de fuentes en el PDF.</EmbeddedFonts>
@@ -2345,12 +2345,12 @@
     <ImageType>Esquema de color de la imagen: color - la image será idéntica al original del visor; gris – la imagen se exportará en tonos de gris; monocromático - la imagen se exportará en blanco y negro. Se recuerda que el modo monocromático tiene tres modos Ninguno, Ordenado, FloydSt.</ImageType>
     <KillSpaceLines>Eliminar filas vacías del documento.</KillSpaceLines>
     <MultipleFiles>Cada página del informe puede ser un archivo nuevo.</MultipleFiles>
-    <Open>Abrir un informe previamente guardado en el visor.</Open>
+    <Open>Abrir un informe guardado.</Open>
     <OpenAfterExport>Apertura automática del documento (después de exportar) por el programa asociado con este tipo de archivo.</OpenAfterExport>
     <OwnerPassword>Contraseña de acceso para operaciones con archivos.</OwnerPassword>
     <PageAll>Procesando todas las páginas del informe.</PageAll>
     <PageDelete>Eliminar la página seleccionada del informe.</PageDelete>
-    <PageDesign>Editar la página seleccionada en el diseñador.</PageDesign>
+    <PageDesign>Editar la página en el diseñador.</PageDesign>
     <PageFirst>Ir a la primera página del informe.</PageFirst>
     <PageGoTo>Ir a una página específica del informe.</PageGoTo>
     <PageLast>Ir a la última página del informe.</PageLast>
@@ -2358,7 +2358,7 @@
     <PageNext>Ir a la siguiente página del informe.</PageNext>
     <PagePrevious>Ir a página anterior del informe.</PagePrevious>
     <PageSize>Cambiar los parámetros de página del informe.</PageSize>
-    <Parameters>Mostrando el panel de parámetros utilizado mientras se presenta el informe.</Parameters>
+    <Parameters>Mostrar el panel de parámetros.</Parameters>
     <PdfACompliance>Soporte para el archivo de larga duración y ordenación de documentos electrónicos.</PdfACompliance>
     <PdfUniversalAccessibility>Soporte para el estándar de documentos e información electrónicos de acceso universal.</PdfUniversalAccessibility>
     <Print>Imprimir el informe.</Print>
@@ -2375,9 +2375,10 @@
     <SkipColumnHeaders>Habilitar/deshabilitar los encabezados de las columnas.</SkipColumnHeaders>
     <StandardPdfFonts>14 fuentes estándar de Adobe. Habilitando esta opción, solamente dispondrá de 14 fuentes estándar en el archivo PDF. Todas las fuentes se convertirán a estas.</StandardPdfFonts>
     <SubjectNameString>Identificador del Certificado. El identificador del certificado es el propietario del certificado (líneas completa) o nombre parcial (sub-cadena).</SubjectNameString>
-    <Thumbnails>Mostrar miniaturas de páginas para facilitar la navigación rápida dentro del informe.</Thumbnails>
+    <Thumbnails>Mostrar el panel de miniaturas de páginas.</Thumbnails>
     <TiffCompressionScheme>Esquema de compresión de archivos TIFF.</TiffCompressionScheme>
-    <ToolEditor>Esta herramienta le permite editar el texto de un componente, directamente en el visor del informe.</ToolEditor>
+    <ToolEditor>Editar el texto del informe en el visor.</ToolEditor>
+    <ToolSignature>Ponga su firma en los lugares marcados.</ToolSignature>
     <TypeExport>El archivo destino a la cual se convertirá el informe.</TypeExport>
     <UnsafeCompilation1>Este documento utiliza el proceso de compilación. En algunos casos, esto puede no ser seguro. Por lo tanto, el documento se cargará en modo seguro para minimizar cualquier riesgo potencial.</UnsafeCompilation1>
     <UnsafeCompilation2>Si necesita que este documento se utilice en su forma original, comuníquese con sus desarrolladores.</UnsafeCompilation2>
@@ -2388,12 +2389,12 @@
     <UserPassword>La contraseña requerida para abrir el documento.</UserPassword>
     <UseUnicode>Soporte ampliado para caracteres de codificación. Afecta a la codificación interna de un archivo PDF, y mejora el copiado de texto desde un archivo PDF.</UseUnicode>
     <ViewModeContinuous>Mostrar todas las páginas como un visor vertical</ViewModeContinuous>
-    <ViewModeMultiplePages>Reducir/ampliar el informe para mostrar el número máximo de páginas en una sola ventana.</ViewModeMultiplePages>
+    <ViewModeMultiplePages>Mostrar tantas páginas como quepan en la ventana.</ViewModeMultiplePages>
     <ViewModeSinglePage>Mostrar una sola página en la Vista Preliminar.</ViewModeSinglePage>
-    <ZoomMultiplePages>Reducir/ampliar el informe para mostrar las páginas seleccionadas en una sola ventana.</ZoomMultiplePages>
-    <ZoomOnePage>Reducir/ampliar el informe para mostrar una página en la ventana.</ZoomOnePage>
-    <ZoomPageWidth>Reducir/ampliar el informe para ajustar la anchura de la página a la ventana.</ZoomPageWidth>
-    <ZoomTwoPages>Reducir/ampliar el informe para mostrar dos páginas en la ventana.</ZoomTwoPages>
+    <ZoomMultiplePages>Ajustar varias páginas a la ventana.</ZoomMultiplePages>
+    <ZoomOnePage>Ajustar una página a la ventana.</ZoomOnePage>
+    <ZoomPageWidth>Ajustar la anchura de la página a la ventana.</ZoomPageWidth>
+    <ZoomTwoPages>Ajustar dos páginas a la ventana.</ZoomTwoPages>
     <ZoomTxt>Tamaño del informe (escala): X - cambiar la escala horizontal, Y - cambiar la escala vertical.</ZoomTxt>
   </HelpViewer>
   <Interface>

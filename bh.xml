@@ -2304,7 +2304,7 @@
     <AllowEditable>Allows changing components with the Editable property enabled.</AllowEditable>
     <AllowModifyContents>Limited access to the text editing.</AllowModifyContents>
     <AllowPrintDocument>Limited access to the print operation.</AllowPrintDocument>
-    <Bookmarks>Show the bookmark panel that is used for quick navigation to jump directly to a bookmarked location.</Bookmarks>
+    <Bookmarks>Prikaži panel sačuvanih oznaka.</Bookmarks>
     <BorderType>The border type of components: simple - drawing borders of components with characters +, -, |; Unicode single - drawing the borders with single box-drawing characters, Unicode double - drawing the borders with double box-drawing characters.</BorderType>
     <Close>Close the Report Preview.</Close>
     <CloseDotMatrix>Close the Dot Matrix Viewer.</CloseDotMatrix>
@@ -2319,7 +2319,7 @@
     <DashboardContains3>Ovo nije moguće uraditi u pregledaču izvještaja!</DashboardContains3>
     <DigitalSignature>The digital signature of the file.</DigitalSignature>
     <DitheringType>Dithering type: None - no dithering, Ordered, FloydSt. - with dithering.</DitheringType>
-    <DotMatrixMode>This mode allows you to see how will a report look like if to print it on a dot matrix printer.</DotMatrixMode>
+    <DotMatrixMode>Pregled izvještaja za matrični štampač.</DotMatrixMode>
     <DrawBorder>Drawing the borders of components with graphic characters.</DrawBorder>
     <Edit>Edit components.</Edit>
     <EmbeddedFonts>Embed the font files into a PDF file.</EmbeddedFonts>
@@ -2346,12 +2346,12 @@
     <ImageType>The color scheme of the image: color - image after exporting will fully match the image in the viewer; gray – an image after exporting will be of the gray shade; monochrome - the images will be strictly black and white. At the same time, it should be considered that the monochrome has three modes None, Ordered, FloydSt.</ImageType>
     <KillSpaceLines>Remove blank lines (rows) in the document.</KillSpaceLines>
     <MultipleFiles>Each report page can be a separate file.</MultipleFiles>
-    <Open>Open the previously saved report in the window of preview.</Open>
+    <Open>Otvori sačuvani izvještaj.</Open>
     <OpenAfterExport>Automatic opening of the created document (after export) by the program set for these file types.</OpenAfterExport>
     <OwnerPassword>The password to access operations with files.</OwnerPassword>
     <PageAll>Processing of all report pages.</PageAll>
     <PageDelete>Briši the selected report page.</PageDelete>
-    <PageDesign>Edit the selected page in the report designer.</PageDesign>
+    <PageDesign>Uredi stranu u dizajneru.</PageDesign>
     <PageFirst>Go to the first report page.</PageFirst>
     <PageGoTo>Go to the specified report page.</PageGoTo>
     <PageLast>Go to the last report page.</PageLast>
@@ -2359,7 +2359,7 @@
     <PageNext>Go to the next report page.</PageNext>
     <PagePrevious>Go to the previous report page.</PagePrevious>
     <PageSize>Change the page parameters in a report.</PageSize>
-    <Parameters>Showing parameters panel which is used when report rendering.</Parameters>
+    <Parameters>Prikaži panel parametara izvještaja.</Parameters>
     <PdfACompliance>Support for the standard of the long-term archiving and storing of electronic documents.</PdfACompliance>
     <PdfUniversalAccessibility>Podrška standardu univerzalno dostupnih elektronskih dokumenata i informacija.</PdfUniversalAccessibility>
     <Print>Print a report.</Print>
@@ -2376,9 +2376,10 @@
     <SkipColumnHeaders>Enable/disable the column headers.</SkipColumnHeaders>
     <StandardPdfFonts>14 standard Adobe fonts. If this option is enabled, then only standard 14 fonts will be used in the PDF file. All report fonts are converted into them.</StandardPdfFonts>
     <SubjectNameString>Certificate identifier. The identifier is the name of the certificate owner (full line) or a part of the name (substring).</SubjectNameString>
-    <Thumbnails>Show the thumbnails that can be used for quick navigation to find the section of the report that you want to jump to.</Thumbnails>
+    <Thumbnails>Prikaži panel slikovnih oznaka.</Thumbnails>
     <TiffCompressionScheme>Compression scheme for TIFF files.</TiffCompressionScheme>
-    <ToolEditor>This tool allows you to edit contents of text components directly in the report viewer.</ToolEditor>
+    <ToolEditor>Uredi tekst izvještaja u pregledniku.</ToolEditor>
+    <ToolSignature>Stavite svoj potpis na označena mjesta.</ToolSignature>
     <TypeExport>The file the report will be converted into.</TypeExport>
     <UnsafeCompilation1>Ovaj dokument koristi kompajliranje. U nekim slučajevima, ovo možda nije sigurno. Stoga će se dokument učitati u sigurnom načinu rada kako bi se umanjili potencijalni rizici.</UnsafeCompilation1>
     <UnsafeCompilation2>Ako želite da se ovaj dokument koristi u originalnom obliku, molimo da kontaktirate svoje programere.</UnsafeCompilation2>
@@ -2389,12 +2390,12 @@
     <UserPassword>The password required to open the document.</UserPassword>
     <UseUnicode>Extended support for encoding characters. It affects on the internal character encoding within the PDF file, and improves the copying of the text from the PDF file.</UseUnicode>
     <ViewModeContinuous>Show all report pages as a vertical ribbon.</ViewModeContinuous>
-    <ViewModeMultiplePages>Zoom the report so that as many pages as can be fit in window are displayed.</ViewModeMultiplePages>
+    <ViewModeMultiplePages>Prikaži onoliko strana koliko stane u prozor.</ViewModeMultiplePages>
     <ViewModeSinglePage>Show a single page in the window of preview.</ViewModeSinglePage>
-    <ZoomMultiplePages>Zoom the report so that the selected pages fit in the window.</ZoomMultiplePages>
-    <ZoomOnePage>Zoom the report so that an entire page fits in the window.</ZoomOnePage>
-    <ZoomPageWidth>Zoom the report so that the width of the page matches the width of the window.</ZoomPageWidth>
-    <ZoomTwoPages>Zoom the report so that two pages fit in the window.</ZoomTwoPages>
+    <ZoomMultiplePages>Uklopi nekoliko strana u prozor.</ZoomMultiplePages>
+    <ZoomOnePage>Uklopi jednu stranu u prozor.</ZoomOnePage>
+    <ZoomPageWidth>Uklopi širinu strane u prozor.</ZoomPageWidth>
+    <ZoomTwoPages>Uklopi dvije strane u prozor.</ZoomTwoPages>
     <ZoomTxt>The report size (scale): X - change the horizontal scale, Y - to change the vertical scale.</ZoomTxt>
   </HelpViewer>
   <Interface>

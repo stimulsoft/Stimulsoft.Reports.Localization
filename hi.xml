@@ -2301,7 +2301,7 @@
     <AllowEditable>Editable गुण सक्षम वाले घटकों को बदलने की अनुमति देता है।</AllowEditable>
     <AllowModifyContents>टेक्स्ट संपादन के लिए सीमित एक्सेस।</AllowModifyContents>
     <AllowPrintDocument>प्रिंट संचालन के लिए सीमित एक्सेस।</AllowPrintDocument>
-    <Bookmarks>बुकमार्क पैनल दिखाएँ जिसका उपयोग किसी बुकमार्क किए गए स्थान पर सीधे जाने के लिए त्वरित नेविगेशन के लिए किया जाता है।</Bookmarks>
+    <Bookmarks>बुकमार्क पैनल दिखाएँ।</Bookmarks>
     <BorderType>घटकों का बॉर्डर प्रकार: सरल - घटकों के बॉर्डर को +, -, | वर्णों से बनाना; यूनिकोड सिंगल - बॉर्डर को सिंगल बॉक्स-ड्रॉइंग वर्णों से बनाना, यूनिकोड डबल - बॉर्डर को डबल बॉक्स-ड्रॉइंग वर्णों से बनाना।</BorderType>
     <Close>रिपोर्ट पूर्वावलोकन बंद करें।</Close>
     <CloseDotMatrix>डॉट मैट्रिक्स व्यूअर बंद करें।</CloseDotMatrix>
@@ -2316,7 +2316,7 @@
     <DashboardContains3>आप रिपोर्ट व्यूअर से ऐसा नहीं कर सकते!</DashboardContains3>
     <DigitalSignature>फ़ाइल का डिजिटल हस्ताक्षर।</DigitalSignature>
     <DitheringType>डिथरिंग प्रकार: None - कोई डिथरिंग नहीं, Ordered, FloydSt. - डिथरिंग के साथ।</DitheringType>
-    <DotMatrixMode>यह मोड आपको यह देखने की अनुमति देता है कि यदि किसी डॉट मैट्रिक्स प्रिंटर पर प्रिंट किया जाए तो रिपोर्ट कैसी दिखेगी।</DotMatrixMode>
+    <DotMatrixMode>डॉट मैट्रिक्स प्रिंटर के लिए रिपोर्ट का पूर्वावलोकन करें।</DotMatrixMode>
     <DrawBorder>घटकों के बॉर्डर को ग्राफ़िक वर्णों से बनाना।</DrawBorder>
     <Edit>घटकों को संपादित करें।</Edit>
     <EmbeddedFonts>फ़ॉन्ट फ़ाइलों को PDF फ़ाइल में एम्बेड करें।</EmbeddedFonts>
@@ -2343,12 +2343,12 @@
     <ImageType>छवि की रंग योजना: color - निर्यात के बाद छवि व्यूअर में छवि से पूरी तरह मेल खाएगी; gray – निर्यात के बाद छवि ग्रे के शेड्स में होगी; monochrome - छवियाँ पूर्णतः काली और सफ़ेद होंगी। साथ ही, यह ध्यान में रखना चाहिए कि मोनोक्रोम के तीन मोड हैं None, Ordered, FloydSt.।</ImageType>
     <KillSpaceLines>दस्तावेज़ में रिक्त पंक्तियाँ हटाएँ।</KillSpaceLines>
     <MultipleFiles>प्रत्येक रिपोर्ट पेज एक अलग फ़ाइल हो सकता है।</MultipleFiles>
-    <Open>पूर्वावलोकन विंडो में पहले सहेजी गई रिपोर्ट खोलें।</Open>
+    <Open>सहेजी गई रिपोर्ट खोलें।</Open>
     <OpenAfterExport>इन फ़ाइल प्रकारों से संबद्ध प्रोग्राम द्वारा बनाए गए दस्तावेज़ को स्वचालित रूप से खोलना (निर्यात के बाद)।</OpenAfterExport>
     <OwnerPassword>फ़ाइल के साथ संचालन करने के लिए आवश्यक पासवर्ड।</OwnerPassword>
     <PageAll>सभी रिपोर्ट पेजों को संसाधित करना।</PageAll>
     <PageDelete>चयनित रिपोर्ट पेज हटाएँ।</PageDelete>
-    <PageDesign>रिपोर्ट डिज़ाइनर में चयनित पेज संपादित करें।</PageDesign>
+    <PageDesign>डिज़ाइनर में पेज संपादित करें।</PageDesign>
     <PageFirst>पहले रिपोर्ट पेज पर जाएँ।</PageFirst>
     <PageGoTo>निर्दिष्ट रिपोर्ट पेज पर जाएँ।</PageGoTo>
     <PageLast>अंतिम रिपोर्ट पेज पर जाएँ।</PageLast>
@@ -2356,7 +2356,7 @@
     <PageNext>अगले रिपोर्ट पेज पर जाएँ।</PageNext>
     <PagePrevious>पिछले रिपोर्ट पेज पर जाएँ।</PagePrevious>
     <PageSize>रिपोर्ट में पेज पैरामीटर बदलें।</PageSize>
-    <Parameters>रिपोर्ट रेंडरिंग के दौरान उपयोग किया जाने वाला पैरामीटर पैनल दिखाता है।</Parameters>
+    <Parameters>रिपोर्ट पैरामीटर पैनल दिखाएँ।</Parameters>
     <PdfACompliance>इलेक्ट्रॉनिक दस्तावेज़ों के दीर्घकालिक संग्रहण और भंडारण के मानक के लिए समर्थन।</PdfACompliance>
     <PdfUniversalAccessibility>सार्वभौमिक रूप से सुलभ इलेक्ट्रॉनिक दस्तावेज़ों और जानकारी के मानक के लिए समर्थन।</PdfUniversalAccessibility>
     <Print>एक रिपोर्ट प्रिंट करें।</Print>
@@ -2373,9 +2373,10 @@
     <SkipColumnHeaders>कॉलम हेडर सक्षम/अक्षम करें।</SkipColumnHeaders>
     <StandardPdfFonts>14 मानक Adobe फ़ॉन्ट। यदि यह विकल्प सक्षम है, तो PDF फ़ाइल में केवल मानक 14 फ़ॉन्ट का उपयोग किया जाएगा। सभी रिपोर्ट फ़ॉन्ट उनमें परिवर्तित हो जाते हैं।</StandardPdfFonts>
     <SubjectNameString>प्रमाणपत्र पहचानकर्ता। पहचानकर्ता प्रमाणपत्र स्वामी का नाम (पूर्ण पंक्ति) या नाम का एक भाग (उपस्ट्रिंग) है।</SubjectNameString>
-    <Thumbnails>थंबनेल दिखाएँ जिनका उपयोग रिपोर्ट के उस अनुभाग को खोजने के लिए त्वरित नेविगेशन के लिए किया जा सकता है जिस पर आप जाना चाहते हैं।</Thumbnails>
+    <Thumbnails>पेज थंबनेल पैनल दिखाएँ।</Thumbnails>
     <TiffCompressionScheme>TIFF फ़ाइलों के लिए संपीड़न योजना।</TiffCompressionScheme>
-    <ToolEditor>यह टूल आपको रिपोर्ट व्यूअर में सीधे टेक्स्ट घटकों की सामग्री संपादित करने की अनुमति देता है।</ToolEditor>
+    <ToolEditor>व्यूअर में रिपोर्ट का टेक्स्ट संपादित करें।</ToolEditor>
+    <ToolSignature>चिह्नित स्थानों पर अपना हस्ताक्षर करें।</ToolSignature>
     <TypeExport>वह फ़ाइल जिसमें रिपोर्ट परिवर्तित की जाएगी।</TypeExport>
     <UnsafeCompilation1>यह दस्तावेज़ संकलन प्रक्रिया का उपयोग करता है। कुछ मामलों में, यह सुरक्षित नहीं हो सकता। इसलिए, किसी भी संभावित जोखिम को न्यूनतम करने के लिए दस्तावेज़ सुरक्षित मोड में लोड किया जाएगा।</UnsafeCompilation1>
     <UnsafeCompilation2>यदि आपको इस दस्तावेज़ को इसके मूल रूप में उपयोग करने की आवश्यकता है, तो कृपया अपने डेवलपर्स से संपर्क करें।</UnsafeCompilation2>
@@ -2386,12 +2387,12 @@
     <UserPassword>दस्तावेज़ खोलने के लिए आवश्यक पासवर्ड।</UserPassword>
     <UseUnicode>वर्णों की एन्कोडिंग के लिए विस्तारित समर्थन। यह PDF फ़ाइल के भीतर आंतरिक वर्ण एन्कोडिंग को प्रभावित करता है, और PDF फ़ाइल से टेक्स्ट की कॉपी में सुधार करता है।</UseUnicode>
     <ViewModeContinuous>सभी रिपोर्ट पेजों को एक लंबवत रिबन के रूप में दिखाएँ।</ViewModeContinuous>
-    <ViewModeMultiplePages>रिपोर्ट को इस तरह ज़ूम करें कि विंडो में जितने पेज फ़िट हो सकें उतने प्रदर्शित हों।</ViewModeMultiplePages>
+    <ViewModeMultiplePages>विंडो में जितने पेज फ़िट हों उतने दिखाएँ।</ViewModeMultiplePages>
     <ViewModeSinglePage>पूर्वावलोकन विंडो में एक एकल पेज दिखाएँ।</ViewModeSinglePage>
-    <ZoomMultiplePages>रिपोर्ट को इस तरह ज़ूम करें कि चयनित पेज विंडो में फ़िट हो जाएँ।</ZoomMultiplePages>
-    <ZoomOnePage>रिपोर्ट को इस तरह ज़ूम करें कि एक पूरा पेज विंडो में फ़िट हो जाए।</ZoomOnePage>
-    <ZoomPageWidth>रिपोर्ट को इस तरह ज़ूम करें कि पेज की चौड़ाई विंडो की चौड़ाई से मेल खाए।</ZoomPageWidth>
-    <ZoomTwoPages>रिपोर्ट को इस तरह ज़ूम करें कि दो पेज विंडो में फ़िट हो जाएँ।</ZoomTwoPages>
+    <ZoomMultiplePages>कई पेज विंडो में फ़िट करें।</ZoomMultiplePages>
+    <ZoomOnePage>एक पेज विंडो में फ़िट करें।</ZoomOnePage>
+    <ZoomPageWidth>पेज की चौड़ाई विंडो में फ़िट करें।</ZoomPageWidth>
+    <ZoomTwoPages>दो पेज विंडो में फ़िट करें।</ZoomTwoPages>
     <ZoomTxt>रिपोर्ट का आकार (स्केल): X - क्षैतिज स्केल बदलें, Y - लंबवत स्केल बदलें।</ZoomTxt>
   </HelpViewer>
   <Interface>

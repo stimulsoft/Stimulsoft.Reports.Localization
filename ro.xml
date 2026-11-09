@@ -2329,7 +2329,7 @@
     <AllowEditable>Permite schimbarea numai a componentelor cu proprietatea Editabil activată.</AllowEditable>
     <AllowModifyContents>Accesul limitat la editarea textului.</AllowModifyContents>
     <AllowPrintDocument>Accesul limitat la operaţia de imprimare.</AllowPrintDocument>
-    <Bookmarks>Arată panoul bookmark care este folosit pentru navigare rapidă, pentru a sări direct la o locaţie marcată.</Bookmarks>
+    <Bookmarks>Arată panoul de bookmark-uri.</Bookmarks>
     <BorderType>Tipul de margină al componentelor: Simplu - desenare margini cu caracterele +, -, |; Unicod simplu - desenarea marginilor folosind caracterele desenare-cutie simple, Unicod doublu - desenarea marginilor folosind caracterele desenare-cutie duble.</BorderType>
     <Close>Inchide previzualizarea şi revine la editarea raportului.</Close>
     <CloseDotMatrix>Inchide Dot Matrix Viewer şi revine la editarea raportului.</CloseDotMatrix>
@@ -2344,7 +2344,7 @@
     <DashboardContains3>Nu puteți face aceasta din vizualizatorul de rapoarte!</DashboardContains3>
     <DigitalSignature>Semnătura digitală a fişierului.</DigitalSignature>
     <DitheringType>Tip Cuantizare: Făra - făra cuantizare, Ordonat, FloydSt - folosind cuantizare.</DitheringType>
-    <DotMatrixMode>Acest mod vă permite să vedeţi cum va arăta un raport în cazul în care-l imprimaţi pe o imprimantă matriceală</DotMatrixMode>
+    <DotMatrixMode>Previzualizează raportul pentru imprimantă matriceală.</DotMatrixMode>
     <DrawBorder>Desenarea marginilor componentelor cu caractere grafice.</DrawBorder>
     <Edit>Editare componente.</Edit>
     <EmbeddedFonts>Încorporare fişiere font intr-un fişier PDF.</EmbeddedFonts>
@@ -2371,12 +2371,12 @@
     <ImageType>Schema de culori a imaginii: color - imaginea după export se va potrivi pe deplin celei vizualizate, gri - o imagine după export va fi de umbră gri, alb-negru - imaginile vor fi strict în alb şi negru. În acelaşi timp, trebuie să se considere că alb-negru are trei moduri: Nici unul, Ordonat, FloydSt.</ImageType>
     <KillSpaceLines>Eliminare linii goale (rânduri) din document.</KillSpaceLines>
     <MultipleFiles>Fiecare pagină de raport poate fi un fişier separat.</MultipleFiles>
-    <Open>Deschide raportul salvat anterior în fereastra de previzualizare.</Open>
+    <Open>Deschide un raport salvat.</Open>
     <OpenAfterExport>Deschiderea automată a documentului creat (după export) de programul stabilit pentru aceste tipuri de fişier.</OpenAfterExport>
     <OwnerPassword>Parola pentru accesare operaţii cu fişiere.</OwnerPassword>
     <PageAll>Prelucrarea tuturor paginilor raportului.</PageAll>
     <PageDelete>Şterge pagina selectată dintr-un raport.</PageDelete>
-    <PageDesign>Editează pagina selectată în designer-ul de rapoarte.</PageDesign>
+    <PageDesign>Editează pagina în designer.</PageDesign>
     <PageFirst>Mergi la prima pagină a unui raport.</PageFirst>
     <PageGoTo>Mergi la pagina specificată din raport.</PageGoTo>
     <PageLast>Mergi la ultima pagină a unui raport.</PageLast>
@@ -2384,7 +2384,7 @@
     <PageNext>Mergi la pagina următoare a unui raport.</PageNext>
     <PagePrevious>Mergi la pagina anterioară a unui raport.</PagePrevious>
     <PageSize>Schimbă parametrii de pagină într-un raport.</PageSize>
-    <Parameters>Se afişează panoul cu parametri,folosit la redarea raportului.</Parameters>
+    <Parameters>Arată panoul cu parametrii raportului.</Parameters>
     <PdfACompliance>Suport pentru standardul de arhivare şi stocare pe termen lung a documentelor electronice.</PdfACompliance>
     <PdfUniversalAccessibility>Suport pentru standardul documentelor și informațiilor electronice universal accesibile.</PdfUniversalAccessibility>
     <Print>Tipăreşte un raport.</Print>
@@ -2401,9 +2401,10 @@
     <SkipColumnHeaders>Activare / dezactivare anteturi de coloană.</SkipColumnHeaders>
     <StandardPdfFonts>14 fonturi Adobe standard. Dacă această opţiune este activată, atunci doar 14 fonturi standard vor fi folosite în fişierul PDF. Toate fonturile raport sunt convertite în ele.</StandardPdfFonts>
     <SubjectNameString>Identificator certificat.Identificator este numele proprietarului certificatului	(linie completă) sau o parte a numelui (subşir).</SubjectNameString>
-    <Thumbnails>Arată miniaturi care pot fi utilizate pentru navigarea rapidă în vederea regăsirii unei secţiuni în raport, la care doriţi să ajungeţi.</Thumbnails>
+    <Thumbnails>Arată panoul cu miniaturile paginilor.</Thumbnails>
     <TiffCompressionScheme>Schema de compresie fişiere TIFF.</TiffCompressionScheme>
-    <ToolEditor>Acest instrument vă permite să editaţi conţinutul componentelor direct la vizualizarea raportului.</ToolEditor>
+    <ToolEditor>Editează textul raportului la vizualizare.</ToolEditor>
+    <ToolSignature>Puneţi semnătura în locurile marcate.</ToolSignature>
     <TypeExport>Fişierul raport va fi convertite în.</TypeExport>
     <UnsafeCompilation1>Acest document utilizează procesul de compilare. În unele cazuri, acest lucru poate să nu fie sigur. Prin urmare, documentul va fi încărcat în modul sigur pentru a minimiza orice riscuri potențiale.</UnsafeCompilation1>
     <UnsafeCompilation2>Dacă doriți ca acest document să fie utilizat în forma sa originală, vă rugăm să contactați dezvoltatorii dvs.</UnsafeCompilation2>
@@ -2414,12 +2415,12 @@
     <UserPassword>Parola necesară pentru a deschide documentul.</UserPassword>
     <UseUnicode>Suport extins pentru caractere de encodare. Aceasta afectează encodarea internă a caracterelor în fişierul PDF, şi îmbunătăţeşte copierea textului din fişierul PDF.</UseUnicode>
     <ViewModeContinuous>Arată toate paginile raportului ca o bandă verticală.</ViewModeContinuous>
-    <ViewModeMultiplePages>Zoom pe raport, astfel încât cât mai multe pagini să încapă în fereastra afişată.</ViewModeMultiplePages>
+    <ViewModeMultiplePages>Arată câte pagini încap în fereastră.</ViewModeMultiplePages>
     <ViewModeSinglePage>Arată o singură pagină în fereastra de previzualizare.</ViewModeSinglePage>
-    <ZoomMultiplePages>Zoom pe raport, astfel încât paginile selectate sa încapă în fereastră.</ZoomMultiplePages>
-    <ZoomOnePage>Zoom pe raport, astfel încât o pagină întreagă să se potrivescă în fereastră.</ZoomOnePage>
-    <ZoomPageWidth>Zoom pe raport, astfel încât lăţimea paginii să se potrivească lăţimii ferestrei.</ZoomPageWidth>
-    <ZoomTwoPages>Zoom pe raport, astfel încât sa încapă două pagini în fereastră.</ZoomTwoPages>
+    <ZoomMultiplePages>Potriveşte mai multe pagini în fereastră.</ZoomMultiplePages>
+    <ZoomOnePage>Potriveşte o pagină în fereastră.</ZoomOnePage>
+    <ZoomPageWidth>Potriveşte lăţimea paginii la fereastră.</ZoomPageWidth>
+    <ZoomTwoPages>Potriveşte două pagini în fereastră.</ZoomTwoPages>
     <ZoomTxt>Dimensiunea raportului (scala): X - modifică scala orizontală, Y - pentru a modifica scala verticală.</ZoomTxt>
   </HelpViewer>
   <Interface>

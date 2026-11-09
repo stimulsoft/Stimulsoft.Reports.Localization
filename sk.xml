@@ -2308,7 +2308,7 @@
     <AllowEditable>Povoliť zmenu len pre komponenty s vlastnosťou Editovať nastavenou na Povoliť.</AllowEditable>
     <AllowModifyContents>Povoliť prístup editovať text.</AllowModifyContents>
     <AllowPrintDocument>Povoliť prístup k operácii tlače.</AllowPrintDocument>
-    <Bookmarks>Zobrazí panel záložiek, ktorý je použitý pre rýchlu navigáciu na skok priamo na záložku.</Bookmarks>
+    <Bookmarks>Zobraziť panel záložiek.</Bookmarks>
     <BorderType>Typ okraja komponentov: jednoduchý - kreslenie okraja komponentov znakmi +, -, |; jednoduchý Unicode - kreslenie okraja komponentov jednoduchými grafickými znakmi rámčeka, dvojitý Unicode - kreslenie okraja komponentov dvojitými grafickými znakmi rámčeka.</BorderType>
     <Close>Zatvorí režim Zobrazenie a vráti sa do editácie zostavy.</Close>
     <CloseDotMatrix>Zatvorí Dot Matrix prehliadač a vráti sa do editácie zostavy.</CloseDotMatrix>
@@ -2323,7 +2323,7 @@
     <DashboardContains3>V prehliadači zostáv to nemôžete urobiť!</DashboardContains3>
     <DigitalSignature>Digitálny podpis súboru.</DigitalSignature>
     <DitheringType>Typ ditheringu: Bez - bez ditheringu, usporiadaný, FloydSt - s ditheringom.</DitheringType>
-    <DotMatrixMode>Tento režim umožňuje nahliadnuť, ako bude vyzerať zostava, keď sa bude tlačiť na maticovú tlačiareň.</DotMatrixMode>
+    <DotMatrixMode>Náhľad zostavy pre maticovú tlačiareň.</DotMatrixMode>
     <DrawBorder>Kreslenie okrajov komponentov grafickými znakmi.</DrawBorder>
     <Edit>Editovať prvky.</Edit>
     <EmbeddedFonts>Vložiť súbor fontov do PDF súboru.</EmbeddedFonts>
@@ -2350,12 +2350,12 @@
     <ImageType>Paleta farieb obrázku: farebná - obrázok po exporte plne zodpovedá obrázku v prehliadači; šedá – a obrázok po exporte bude v odtieňoch šedej; monochromatická - obrázok bude čierno-biely. Tak isto, pri monochromatickej palete sú tri módy: bez, sekvenčne, FloydSt.</ImageType>
     <KillSpaceLines>Odstrániť prázdne riadky v dokumente.</KillSpaceLines>
     <MultipleFiles>Každá stránka bude vo zvláštnom súbore.</MultipleFiles>
-    <Open>Otvorí predtým uloženú zostava v okne prehliadača.</Open>
+    <Open>Otvoriť uloženú zostavu.</Open>
     <OpenAfterExport>Automaticky otvoriť vytváraný dokument (po exporte) programom nastaveným pre tento typ súborov.</OpenAfterExport>
     <OwnerPassword>Heslo pre prístup k operáciám so súbormi.</OwnerPassword>
     <PageAll>Spracuj všetky stránky zostavy.</PageAll>
     <PageDelete>Zmaže vybranú stránku zostavy.</PageDelete>
-    <PageDesign>Editovať vybranú stránku v Dizajnéri zostáv.</PageDesign>
+    <PageDesign>Editovať stránku v dizajnéri.</PageDesign>
     <PageFirst>Prejsť na prvú stránku zostavy.</PageFirst>
     <PageGoTo>Prejsť na špecifickú stránku zostavy.</PageGoTo>
     <PageLast>Prejsť na poslednú stránku zostavy.</PageLast>
@@ -2363,7 +2363,7 @@
     <PageNext>Prejsť na nasledujúcu stránku zostavy.</PageNext>
     <PagePrevious>Prejsť na predchádzajúcu stránku zostavy.</PagePrevious>
     <PageSize>Zmeniť parametre stránky v zostave.</PageSize>
-    <Parameters>Ukázať panel s parametrami, ktoré sú použité pri renderovaní zostavy.</Parameters>
+    <Parameters>Zobraziť panel parametrov zostavy.</Parameters>
     <PdfACompliance>Podpora pre štandardy dlhodobej archivácie a ukladania elektronických dokumentov.</PdfACompliance>
     <PdfUniversalAccessibility>Podpora štandardu pre univerzálne dostupné elektronické dokumenty a informácie.</PdfUniversalAccessibility>
     <Print>Vytlačiť zostavu.</Print>
@@ -2380,9 +2380,10 @@
     <SkipColumnHeaders>Povoliť/Nepovoliť hlavičky stĺpcov.</SkipColumnHeaders>
     <StandardPdfFonts>14 štandardných Adobe fontov. Ak je voľba vybraná, potom len štandardných 14 fontov bude použitých v PDF súbore. Všetky fonty zostavy budú konvertované na ne.</StandardPdfFonts>
     <SubjectNameString>Identifikátor certifikačnej autority. Identifikátor je meno vlastníka certifikátu (celé) alebo časť mena (podreťazec).</SubjectNameString>
-    <Thumbnails>Zobraziť náhľady, ktoré môžu byť použité pre rýchlu navigáciu pre vyhľadanie sekcie v zostave, na ktorú chcete prejsť.</Thumbnails>
+    <Thumbnails>Zobraziť panel miniatúr stránok.</Thumbnails>
     <TiffCompressionScheme>Kompresná schéma pre súbory typu TIFF.</TiffCompressionScheme>
-    <ToolEditor>Tento nástroj umožňuje editovať obsah textových komponentov priamo v prehliadači zostáv.</ToolEditor>
+    <ToolEditor>Editovať text zostavy v prehliadači.</ToolEditor>
+    <ToolSignature>Vložte svoj podpis na označené miesta.</ToolSignature>
     <TypeExport>Zostava bude konvertovaná do súboru typu.</TypeExport>
     <UnsafeCompilation1>Tento dokument používa proces kompilácie. V niektorých prípadoch to nemusí byť bezpečné. Dokument sa preto načíta v núdzovom režime, aby sa minimalizovali prípadné riziká.</UnsafeCompilation1>
     <UnsafeCompilation2>Ak požadujete, aby bol tento dokument použitý v jeho pôvodnej podobe, kontaktujte svojich vývojárov.</UnsafeCompilation2>
@@ -2393,12 +2394,12 @@
     <UserPassword>Heslo je požadované pre otvorenie dokumentu.</UserPassword>
     <UseUnicode>Rozšírená podpora pre zakódovanie znakov. Ovplyvňuje interné kódovanie znakov vo vnútri PDF súboru a ovplyvňuje kopírovanie textu z PDF súboru.</UseUnicode>
     <ViewModeContinuous>Zobraziť všetky stránky zostavy ako vertikálny pruh.</ViewModeContinuous>
-    <ViewModeMultiplePages>Zväčšiť/Zmenšiť zostavu tak, aby bolo zobrazených toľko stránok ako sa zmestí do okna.</ViewModeMultiplePages>
+    <ViewModeMultiplePages>Zobraziť toľko stránok, koľko sa zmestí do okna.</ViewModeMultiplePages>
     <ViewModeSinglePage>Zobraziť jednu stránku v okne náhľadu.</ViewModeSinglePage>
-    <ZoomMultiplePages>Zväčšiť/Zmenšiť zostavu tak, aby sa vybrané stránky zmestili na stránku.</ZoomMultiplePages>
-    <ZoomOnePage>Zväčšiť/Zmenšiť zostavu tak, aby sa celá stránka zmestila na stránku.</ZoomOnePage>
-    <ZoomPageWidth>Zväčšiť/Zmenšiť zostavu tak, aby sa šírka stránky zhodovala so šírkou okna.</ZoomPageWidth>
-    <ZoomTwoPages>Zväčšiť/Zmenšiť zostavu tak, aby sa dve stránky zmestili do okna.</ZoomTwoPages>
+    <ZoomMultiplePages>Prispôsobiť niekoľko stránok oknu.</ZoomMultiplePages>
+    <ZoomOnePage>Prispôsobiť jednu stránku oknu.</ZoomOnePage>
+    <ZoomPageWidth>Prispôsobiť šírku stránky oknu.</ZoomPageWidth>
+    <ZoomTwoPages>Prispôsobiť dve stránky oknu.</ZoomTwoPages>
     <ZoomTxt>Veľkosť zostavy (mierka): X - zmeniť horizontálnu mierku, Y - zmeniť vertikálnu mierku.</ZoomTxt>
   </HelpViewer>
   <Interface>

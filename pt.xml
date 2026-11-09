@@ -2304,7 +2304,7 @@
     <AllowEditable>Permite alterar os componentes com a propriedade editável ativada.</AllowEditable>
     <AllowModifyContents>Acesso limitado à edição de texto.</AllowModifyContents>
     <AllowPrintDocument>Acesso limitado à operação de impressão.</AllowPrintDocument>
-    <Bookmarks>Mostrar o painel de marcadores que é utilizado para navegação rápida para ir diretamente para um local marcado.</Bookmarks>
+    <Bookmarks>Mostrar o painel de marcadores.</Bookmarks>
     <BorderType>O tipo de limites dos componentes: simples - desenho dos limites dos componentes com os caracteres +, -, |; Unicode simples - desenho dos limites com caracteres individuais de desenho de caixa; Unicode duplo - desenho dos limites com caracteres duplos de desenho de caixa.</BorderType>
     <Close>Fechar pré-visualização e retornar à edição do relatório.</Close>
     <CloseDotMatrix>Fechar o visualizador matricial e retornar à edição do relatório.</CloseDotMatrix>
@@ -2319,7 +2319,7 @@
     <DashboardContains3>Ação não permitida através do viewer!</DashboardContains3>
     <DigitalSignature>A assinatura digital do ficheiro.</DigitalSignature>
     <DitheringType>Tipo de pontilhado: None - sem pontilhado, Ordered, FloydSt. - com pontilhado.</DitheringType>
-    <DotMatrixMode>Este modo permite ver como um relatório ficará se for impresso numa impressora matricial.</DotMatrixMode>
+    <DotMatrixMode>Pré-visualizar o relatório para impressora matricial.</DotMatrixMode>
     <DrawBorder>Desenho dos limites dos componentes com caracteres gráficos.</DrawBorder>
     <Edit>Editar componentes.</Edit>
     <EmbeddedFonts>Incorporar as fontes no ficheiro PDF.</EmbeddedFonts>
@@ -2346,12 +2346,12 @@
     <ImageType>O esquema de cores da imagem: cor - a imagem após a exportação irá corresponder totalmente à imagem no visualizador; cinzento - uma imagem após a exportação será em tons de cinzento; preto e branco - as imagens serão estritamente preto e branco. Ao mesmo tempo, deve ser considerado que o monocromático tem três modos: Nenhum, ordenada, FloydSt.</ImageType>
     <KillSpaceLines>Remover linhas em branco no documento.</KillSpaceLines>
     <MultipleFiles>Cada página do relatório pode ser um ficheiro separado.</MultipleFiles>
-    <Open>Abra o relatório anteriormente guardado na janela de visualização.</Open>
+    <Open>Abrir um relatório guardado.</Open>
     <OpenAfterExport>Abertura automática do documento criado (depois de exportação) pelo programa definido para esses tipos de ficheiro.</OpenAfterExport>
     <OwnerPassword>A password necessária para realizar operações com o ficheiro.</OwnerPassword>
     <PageAll>Processamento de todas as páginas do relatório.</PageAll>
     <PageDelete>Apagar a página selecionada do relatório.</PageDelete>
-    <PageDesign>Editar a página selecionada no designer do relatório.</PageDesign>
+    <PageDesign>Editar a página no designer.</PageDesign>
     <PageFirst>Ir para a primeira página do relatório.</PageFirst>
     <PageGoTo>Ir para a página especificada do relatório.</PageGoTo>
     <PageLast>Ir para a última página do relatório.</PageLast>
@@ -2359,7 +2359,7 @@
     <PageNext>Ir para a próxima página do relatório.</PageNext>
     <PagePrevious>Ir à página anterior do relatório.</PagePrevious>
     <PageSize>Alterar os parâmetros de página num relatório.</PageSize>
-    <Parameters>Mostra o painel de parâmetros utilizado durante o processamento do relatório.</Parameters>
+    <Parameters>Mostrar o painel de parâmetros.</Parameters>
     <PdfACompliance>Suporte para o padrão de arquivo a longo prazo e armazenamento de documentos eletrónicos.</PdfACompliance>
     <PdfUniversalAccessibility>Apoio ao padrão de documentos e informações eletrónicas universalmente acessíveis.</PdfUniversalAccessibility>
     <Print>Imprimir um relatório.</Print>
@@ -2376,9 +2376,10 @@
     <SkipColumnHeaders>Ativar / desativar os cabeçalhos das colunas.</SkipColumnHeaders>
     <StandardPdfFonts>14 fontes padrão da Adobe. Se esta opção estiver ativada, então, apenas 14 fontes padrão serão utilizadas no ficheiro PDF. Todas as fontes de relatório são convertidas para essas.</StandardPdfFonts>
     <SubjectNameString>Identificador de certificado. O identificador é o nome do proprietário do certificado (linha cheia), ou uma parte do nome (substring).</SubjectNameString>
-    <Thumbnails>Mostrar as miniaturas que podem ser usadas para navegação rápida para encontrar a secção do relatório para onde pretende saltar.</Thumbnails>
+    <Thumbnails>Mostrar o painel de miniaturas das páginas.</Thumbnails>
     <TiffCompressionScheme>Esquema de compressão de ficheiros TIFF.</TiffCompressionScheme>
-    <ToolEditor>Esta ferramenta permite que edite o conteúdo de componentes de texto diretamente no visualizador de relatórios.</ToolEditor>
+    <ToolEditor>Editar o texto do relatório no visualizador.</ToolEditor>
+    <ToolSignature>Coloque a sua assinatura nos locais marcados.</ToolSignature>
     <TypeExport>O ficheiro para o qual o relatório será convertido.</TypeExport>
     <UnsafeCompilation1>Este documento usa o processo de compilação. Nalguns casos isto pode não ser seguro. Por isso o documento será aberto em modo de segurança para minimizar riscos.</UnsafeCompilation1>
     <UnsafeCompilation2>Se deseja usar o documento na sua forma original, deverá contactar os seus programadores.</UnsafeCompilation2>
@@ -2389,12 +2390,12 @@
     <UserPassword>A palavra-passe necessária para abrir o documento.</UserPassword>
     <UseUnicode>O suporte estendido para a codificação de caracteres. Afeta a codificação de caracteres interna dentro do ficheiro PDF e melhora a cópia do texto a partir do ficheiro PDF.</UseUnicode>
     <ViewModeContinuous>Mostrar todas as páginas do relatório como uma fita vertical.</ViewModeContinuous>
-    <ViewModeMultiplePages>Ajustar o zoom do relatório para que sejam apresentadas tantas páginas quantas as que cabem na janela.</ViewModeMultiplePages>
+    <ViewModeMultiplePages>Mostrar tantas páginas quantas couberem na janela.</ViewModeMultiplePages>
     <ViewModeSinglePage>Mostrar uma única página na janela de visualização.</ViewModeSinglePage>
-    <ZoomMultiplePages>Zoom no relatório para que as páginas selecionadas caibam na janela.</ZoomMultiplePages>
-    <ZoomOnePage>Zoom no relatório para que uma página inteira caiba na janela.</ZoomOnePage>
-    <ZoomPageWidth>Zoom do relatório para que a largura da página corresponda à largura da janela.</ZoomPageWidth>
-    <ZoomTwoPages>Zoom no relatório para que duas páginas caibam na janela.</ZoomTwoPages>
+    <ZoomMultiplePages>Ajustar várias páginas à janela.</ZoomMultiplePages>
+    <ZoomOnePage>Ajustar uma página à janela.</ZoomOnePage>
+    <ZoomPageWidth>Ajustar a largura da página à janela.</ZoomPageWidth>
+    <ZoomTwoPages>Ajustar duas páginas à janela.</ZoomTwoPages>
     <ZoomTxt>O tamanho do relatório (escala): X - alterar a escala horizontal, Y - para alterar a escala vertical.</ZoomTxt>
   </HelpViewer>
   <Interface>

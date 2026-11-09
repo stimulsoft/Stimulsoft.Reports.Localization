@@ -2314,7 +2314,7 @@
     <AllowEditable>მხოლოდ "რედაქტირებადი" თვისების მქონე კომპონენტების ცვლილების ნებართვა.</AllowEditable>
     <AllowModifyContents>ტექსტის რედაქტირების შეზღუდვა.</AllowModifyContents>
     <AllowPrintDocument>ბეჭდვის ოპერაციებთან წვდომის შეზღუდვა.</AllowPrintDocument>
-    <Bookmarks>ჩასანიშნების პანელის ჩვენება, რეპორტში არსებულ ჩასანიშნებზე სწრაფი გადასვლისათვის.</Bookmarks>
+    <Bookmarks>ჩასანიშნების პანელის ჩვენება.</Bookmarks>
     <BorderType>კომპონენტის საზღვრის ტიპი: მარტივი - საზღვრების ხატვა მარტივი სიმბოლოებით: +, -, |; Unicode ერთიანი - საზღვებრის ხატვა ერთზოლიანი სპეც. სიმბოლოებით. Unicode ორმაგი - საზღვრების ხატვა ორზოლიანი სპეც. სიმბოლოებით.</BorderType>
     <Close>წინასწარი დათვალიერებიდან გამოსვლა და რეპორტის დიზაინერის ფანჯარაში დაბრუნება.</Close>
     <CloseDotMatrix>მატრიცული პრინტერის რეჟიმის დახურვა და რეპორტის დიზაინერის ფანჯარაში დაბრუნება.</CloseDotMatrix>
@@ -2329,7 +2329,7 @@
     <DashboardContains3>თქვენ არ შეგიძლიათ აღნიშნული მოქმედების განხორციელება ანგარიშების ვიუვერიდან!</DashboardContains3>
     <DigitalSignature>ფაილის ციფრული ხელმოწერა.</DigitalSignature>
     <DitheringType>მონოქრომული შერევის ტიპი: None - შერევის გარეშე, Ordered, FloydSt. - შერევით.</DitheringType>
-    <DotMatrixMode>ეს რეჟიმი გაძლევთ საშუალებას წინასწარ დაათვალიეროთ რეპორტი მატრიცულ პრინტერზე ამობეჭდვის ხარისხის სანახავად.</DotMatrixMode>
+    <DotMatrixMode>რეპორტის ნახვა მატრიცული პრინტერისთვის.</DotMatrixMode>
     <DrawBorder>კომპონენტების საზღვრების ხატვა გრაფიკული სიმბოლოებით.</DrawBorder>
     <Edit>კომპონენტების რედაქტირება.</Edit>
     <EmbeddedFonts>PDF ფაილში გამოყენებული ფონტების ჩაშენება.</EmbeddedFonts>
@@ -2356,12 +2356,12 @@
     <ImageType>სურათის ფერების ტიპი: ფერადი - ექსპორტის შემდეგ სურათი ემთხვევა დასათვალიერებელ პროგრამაში არსებულს; ნაცრისფერი – ექსპორტის შემდეგ სურათი იქნება ნაცრისფერ ტონებში; მონოქრომული - ექსპორტის შემდეგ სურათი იქნება შავ-თეთრი. ამავდროულად გაითვალისწინეთ, რომ მონოქრომს გააჩნია სამი რეჟიმი: None, Ordered, FloydSt.</ImageType>
     <KillSpaceLines>ცარიელი სტრიქონების წაშლა.</KillSpaceLines>
     <MultipleFiles>რეპორტის თითოეული გვერდი იქნება ცალკეული ფაილი.</MultipleFiles>
-    <Open>ბოლო შენახული რეპორტის გახსნა წინასწარი დათვალიერების ფანჯარაში.</Open>
+    <Open>შენახული რეპორტის გახსნა.</Open>
     <OpenAfterExport>ექსპორტირებული ფაილის გახსნა შესაბამისი პროგრამით.</OpenAfterExport>
     <OwnerPassword>ფაილის ოპერაციებთან წვდომის პაროლი.</OwnerPassword>
     <PageAll>რეპორტის ყველა გვერდის დამუშავება.</PageAll>
     <PageDelete>რეპორტის მონიშნული გვერდის წაშლა.</PageDelete>
-    <PageDesign>რეპორტის მონიშნული გვერდის დიზაინერში რედაქტირება.</PageDesign>
+    <PageDesign>გვერდის შეცვლა დიზაინერში.</PageDesign>
     <PageFirst>რეპორტის პირველ გვერდზე გადასვლა.</PageFirst>
     <PageGoTo>რეპორტის მითითებულ გვერდზე გადასვლა.</PageGoTo>
     <PageLast>რეპოტის ბოლო გვერდზე გადასვლა.</PageLast>
@@ -2369,7 +2369,7 @@
     <PageNext>რეპორტის შემდეგ გვერდზე გადასვლა.</PageNext>
     <PagePrevious>რეპორტის წინა გვერდზე გადასვლა.</PagePrevious>
     <PageSize>რეპორტის გვერდის პარამეტრის შეცვლა.</PageSize>
-    <Parameters>პარამეტრების პანელის გამოჩენა, რომელიც გამოიყენება რეპორტის რენდერის დროს.</Parameters>
+    <Parameters>პარამეტრების პანელის ჩვენება.</Parameters>
     <PdfACompliance>ელექტრონული დოკუმენტების გრძელვადიანი არქივაციის სტანდარტების (PdfA) მხარდაჭერა.</PdfACompliance>
     <PdfUniversalAccessibility>ელექტრონული დოკუმენტებისა და ინფორმაციის უნივერსალური ხელმისაწვდომობის სტანდარტის მხარდაჭერა.</PdfUniversalAccessibility>
     <Print>რეპორტის ბეჭდვა.</Print>
@@ -2386,9 +2386,10 @@
     <SkipColumnHeaders>სვეტის წარწერის ჩართვა/გამორთვა.</SkipColumnHeaders>
     <StandardPdfFonts>14 სტანდარტული Adobe ფონტი. თუ ეს პარამეტრი ჩართულია მხოლოდ 14 სტანდარტული ფონტი იქნება გამოყენებული PDF ფაილში. რეპორტის ყველა ფონტი შეიცვლება.</StandardPdfFonts>
     <SubjectNameString>სერტიფიკატის იდენტიფიკატორი. იდენტიფიკატორი - სერტიფიკატის მფლობელის სახელია (full line) ან სახელის ნაწილი (substring).</SubjectNameString>
-    <Thumbnails>რეპორტის გვერდების ესკიზების ჩვენება ინფორმაციის მოძებნის გასაადვილებლად.</Thumbnails>
+    <Thumbnails>გვერდების ესკიზების პანელის ჩვენება.</Thumbnails>
     <TiffCompressionScheme>TIFF ფაილის კომპრესიის ტიპი.</TiffCompressionScheme>
-    <ToolEditor>ეს ინსტრუმენტი გაძლევთ საშუალებას შეცვალოთ ტექსტური კომპონენტთა შინაარსი რეპორტის დათვალიერების რეჟიმში.</ToolEditor>
+    <ToolEditor>რეპორტის ტექსტის რედაქტირება.</ToolEditor>
+    <ToolSignature>დასვით თქვენი ხელმოწერა მონიშნულ ადგილებში.</ToolSignature>
     <TypeExport>რეპორტის ექსპორტის ტიპი.</TypeExport>
     <UnsafeCompilation1>აღნიშნულ დოკუმენტში გამოიყენება კომპილაციის პროცესი. ზოგიერთ შემთხვევაში ეს სახიფათოა. შესაბამისად დოკუმენტი ჩაიტვირთება უსაფრთხო რეჟიმში, პოტენციური რისკების მინიმუმამდე დასაყვანად.</UnsafeCompilation1>
     <UnsafeCompilation2>თუ გსურთ აღნიშნული დოკუმენტის თავდაპირველი სახით გამოყენება, მიმართეთ თქვენს დეველოპერებს.</UnsafeCompilation2>
@@ -2399,12 +2400,12 @@
     <UserPassword>დოკუმენტის გახსნის პაროლი.</UserPassword>
     <UseUnicode>დოკუმენტში Unicode კოდირების მხარდაჭერა. მოქმედებს PDF ფაილში შენახულ სიმბოლოებზე და შემდგომში აადვილებს  ტექსტის კოპირება/გადატანას ფაილიდან.</UseUnicode>
     <ViewModeContinuous>რეპორტის ყველა გვერდის გამოტანა ვერტიკალური ლენტის სახით.</ViewModeContinuous>
-    <ViewModeMultiplePages>რეპორტის გვერდების მაქსიმალური რაოდენობის ჩვენება ფანჯარაში</ViewModeMultiplePages>
+    <ViewModeMultiplePages>ფანჯარაში მაქსიმუმი გვერდის ჩვენება.</ViewModeMultiplePages>
     <ViewModeSinglePage>წინასწარი დათვალიერების ფანჯარაში ერთი გვერდი ჩვენება.</ViewModeSinglePage>
-    <ZoomMultiplePages>რეპორტის მასშტაბის, მონიშნული გვერდის ფანჯარაში ჩატევამდე.</ZoomMultiplePages>
-    <ZoomOnePage>რეპორტის გადიდება, 1 გვერდის ფანჯარაში ჩატევამდე.</ZoomOnePage>
-    <ZoomPageWidth>რეპორტის გადიდება, 1 გვერდის სიგანეში ფანჯარაში ჩატევამდე.</ZoomPageWidth>
-    <ZoomTwoPages>რეპორტის გადიდება, 2 გვერდის ფანჯარაში ჩატევამდე.</ZoomTwoPages>
+    <ZoomMultiplePages>რამდენიმე გვერდის ჩატევა ფანჯარაში.</ZoomMultiplePages>
+    <ZoomOnePage>ერთი გვერდის ჩატევა ფანჯარაში.</ZoomOnePage>
+    <ZoomPageWidth>გვერდის სიგანის მორგება ფანჯარაზე.</ZoomPageWidth>
+    <ZoomTwoPages>ორი გვერდის ჩატევა ფანჯარაში.</ZoomTwoPages>
     <ZoomTxt>რეპორტის ზომა (მასშტაბი): X - ჰორიზონტალური მასშტაბის ცვლილება, Y - ვერტიკალური მასშტაბის ცვლილება.</ZoomTxt>
   </HelpViewer>
   <Infographics>

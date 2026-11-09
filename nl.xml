@@ -2301,7 +2301,7 @@
     <AllowEditable>Maakt het wijzigen van componenten mogelijk waarvan de eigenschap Bewerkbaar is ingeschakeld.</AllowEditable>
     <AllowModifyContents>Beperkte toegang tot het bewerken van tekst.</AllowModifyContents>
     <AllowPrintDocument>Beperkte toegang tot de afdrukbewerking.</AllowPrintDocument>
-    <Bookmarks>Tonen de bladwijzer paneel dat wordt gebruikt voor snelle navigatie om direct naar een bladwijzer locatie.</Bookmarks>
+    <Bookmarks>Toon het bladwijzerpaneel.</Bookmarks>
     <BorderType>Het randtype van componenten: simple - randen van componenten tekenen met de tekens +, -, |; Unicode single - de randen tekenen met enkele lijntekens, Unicode double - de randen tekenen met dubbele lijntekens.</BorderType>
     <Close>Sluit Voorbeeld van het rapport.</Close>
     <CloseDotMatrix>Sluit Dot Matrix Viewer van het rapport.</CloseDotMatrix>
@@ -2316,7 +2316,7 @@
     <DashboardContains3>Dat kunt u niet doen vanuit de rapportviewer!</DashboardContains3>
     <DigitalSignature>De digitale handtekening van het bestand.</DigitalSignature>
     <DitheringType>Ditheringtype: Geen - geen dithering, Ordered, FloydSt. - met dithering.</DitheringType>
-    <DotMatrixMode>In deze modus kunt u zien hoe een verslag eruit als om het op een dot matrix printer af te drukken.</DotMatrixMode>
+    <DotMatrixMode>Voorbeeld van het rapport voor een matrixprinter.</DotMatrixMode>
     <DrawBorder>Teken Rand</DrawBorder>
     <Edit>Edit components.</Edit>
     <EmbeddedFonts>Sluit de lettertypebestanden in een PDF-bestand in.</EmbeddedFonts>
@@ -2343,12 +2343,12 @@
     <ImageType>Het kleurenschema van de afbeelding: color - de afbeelding komt na het exporteren volledig overeen met de afbeelding in de viewer; gray - een afbeelding is na het exporteren in grijstinten; monochrome - de afbeeldingen zijn strikt zwart-wit. Houd er daarbij rekening mee dat monochrome drie modi heeft: None, Ordered, FloydSt.</ImageType>
     <KillSpaceLines>Verwijder lege regels (rijen) in het document.</KillSpaceLines>
     <MultipleFiles>Elke rapportpagina kan een apart bestand zijn.</MultipleFiles>
-    <Open>Open de eerder opgeslagen rapport in het venster van voorbeeld.</Open>
+    <Open>Open een opgeslagen rapport.</Open>
     <OpenAfterExport>Automatisch openen van het gemaakte document (na export) door het programma dat aan deze bestandstypen is gekoppeld.</OpenAfterExport>
     <OwnerPassword>Het wachtwoord dat vereist is om bewerkingen met het bestand uit te voeren.</OwnerPassword>
     <PageAll>Verwerking van alle rapportpagina's.</PageAll>
     <PageDelete>Verwijder de geselecteerde pagina van een rapport.</PageDelete>
-    <PageDesign>Bewerk de geselecteerde pagina in het rapport ontwerper.</PageDesign>
+    <PageDesign>Bewerk de pagina in de ontwerper.</PageDesign>
     <PageFirst>Ga naar de eerste pagina van een rapport.</PageFirst>
     <PageGoTo>Ga naar de opgegeven rapport pagina.</PageGoTo>
     <PageLast>Ga naar de laatste pagina van een rapport.</PageLast>
@@ -2356,7 +2356,7 @@
     <PageNext>Ga naar de volgende pagina van een rapport.</PageNext>
     <PagePrevious>Ga naar de vorige pagina van een rapport.</PagePrevious>
     <PageSize>Wijzig de parameters in een rapport.</PageSize>
-    <Parameters>Weergegeven parameters paneel dat wordt bij het verslag van rendering gebruikt.</Parameters>
+    <Parameters>Toon het paneel met rapportparameters.</Parameters>
     <PdfACompliance>Ondersteuning voor de standaard voor langdurige archivering en opslag van elektronische documenten.</PdfACompliance>
     <PdfUniversalAccessibility>Ondersteuning voor de standaard voor universeel toegankelijke elektronische documenten en informatie.</PdfUniversalAccessibility>
     <Print>Rapport afdrukken</Print>
@@ -2373,9 +2373,10 @@
     <SkipColumnHeaders>Kolomkopteksten in-/uitschakelen.</SkipColumnHeaders>
     <StandardPdfFonts>14 standaard Adobe-lettertypen. Als deze optie is ingeschakeld, worden alleen de 14 standaardlettertypen gebruikt in het PDF-bestand. Alle rapportlettertypen worden hiernaar geconverteerd.</StandardPdfFonts>
     <SubjectNameString>Certificaatidentificatie. De identificatie is de naam van de certificaateigenaar (volledige regel) of een deel van de naam (subtekenreeks).</SubjectNameString>
-    <Thumbnails>Toon de miniaturen die gebruikt kunnen worden voor snelle navigatie naar de sectie van het rapport dat u wilt springen te vinden.</Thumbnails>
+    <Thumbnails>Toon het paneel met paginaminiaturen.</Thumbnails>
     <TiffCompressionScheme>Compressieschema voor TIFF-bestanden.</TiffCompressionScheme>
-    <ToolEditor>Deze tool stelt u in staat direct te bewerken inhoud van de tekst componenten in het verslag kijker.</ToolEditor>
+    <ToolEditor>Bewerk de rapporttekst in de viewer.</ToolEditor>
+    <ToolSignature>Plaats uw handtekening op de gemarkeerde plaatsen.</ToolSignature>
     <TypeExport>Het bestand waarnaar het rapport wordt geconverteerd.</TypeExport>
     <UnsafeCompilation1>Dit document maakt gebruik van het compilatieproces. In sommige gevallen kan dit onveilig zijn. Daarom wordt het document in de veilige modus geladen om mogelijke risico's te minimaliseren.</UnsafeCompilation1>
     <UnsafeCompilation2>Als u dit document in de oorspronkelijke vorm wilt gebruiken, neem dan contact op met uw ontwikkelaars.</UnsafeCompilation2>
@@ -2386,12 +2387,12 @@
     <UserPassword>Het wachtwoord dat vereist is om het document te openen.</UserPassword>
     <UseUnicode>Uitgebreide ondersteuning voor het coderen van tekens. Het beïnvloedt de interne tekencodering binnen het PDF-bestand en verbetert het kopiëren van de tekst uit het PDF-bestand.</UseUnicode>
     <ViewModeContinuous>Toon alle pagina's rapport als een verticale lint</ViewModeContinuous>
-    <ViewModeMultiplePages>Zoom het rapport, zodat zoveel pagina's zoals te passen in het venster worden weergegeven.</ViewModeMultiplePages>
+    <ViewModeMultiplePages>Toon zoveel pagina's als in het venster passen.</ViewModeMultiplePages>
     <ViewModeSinglePage>Toon een pagina in het venster van voorbeeld.</ViewModeSinglePage>
-    <ZoomMultiplePages>Zoom het rapport, zodat de geselecteerde pagina's passen in het venster.</ZoomMultiplePages>
-    <ZoomOnePage>Zoom het rapport, zodat een hele pagina past in het venster.</ZoomOnePage>
-    <ZoomPageWidth>Zoom het rapport zodat de breedte van de pagina de breedte van het venster past.</ZoomPageWidth>
-    <ZoomTwoPages>Zoom het rapport, zodat twee pagina's passen in het venster.</ZoomTwoPages>
+    <ZoomMultiplePages>Pas meerdere pagina's in het venster.</ZoomMultiplePages>
+    <ZoomOnePage>Pas één pagina in het venster.</ZoomOnePage>
+    <ZoomPageWidth>Pas de paginabreedte aan het venster aan.</ZoomPageWidth>
+    <ZoomTwoPages>Pas twee pagina's in het venster.</ZoomTwoPages>
     <ZoomTxt>De rapportgrootte (schaal): X - de horizontale schaal wijzigen, Y - de verticale schaal wijzigen.</ZoomTxt>
   </HelpViewer>
   <Interface>

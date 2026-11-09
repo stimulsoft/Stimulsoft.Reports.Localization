@@ -2303,7 +2303,7 @@
     <AllowEditable>Permet de modifier uniquement les composants avec la propriété Editable activée.</AllowEditable>
     <AllowModifyContents>Accès limité à l'édition du texte.</AllowModifyContents>
     <AllowPrintDocument>Accès limité à l'impression.</AllowPrintDocument>
-    <Bookmarks>Affiche le panneau de signets qui est utilisé pour naviguer rapidement à un emplacement marqué.</Bookmarks>
+    <Bookmarks>Afficher le panneau des signets.</Bookmarks>
     <BorderType>Le type de bordure des composants : simple - bordure des composants avec les caractères +, -, | ; Unicode simple - bordure des composants avec des caractères de bordure simples, Unicode double - bordure des composants avec des caractères de bordure doubles.</BorderType>
     <Close>Ferme l'aperçu et retourne à la conception du rapport.</Close>
     <CloseDotMatrix>Ferme le Mode matriciel et retourne à la conception du rapport.</CloseDotMatrix>
@@ -2318,7 +2318,7 @@
     <DashboardContains3>Vous ne pouvez pas faire cela depuis le visualiseur de rapports !</DashboardContains3>
     <DigitalSignature>La signature numérique du fichier.</DigitalSignature>
     <DitheringType>Type de tramage : Aucun - pas de tramage, Bayer (ordonné), Floyd-Steinberg.</DitheringType>
-    <DotMatrixMode>Ce mode vous permet de voir comment le rapport serait imprimé sur une imprimante matricielle.</DotMatrixMode>
+    <DotMatrixMode>Aperçu du rapport pour une imprimante matricielle.</DotMatrixMode>
     <DrawBorder>Imprimer les bordures des composants avec des caractères graphiques.</DrawBorder>
     <Edit>Modifier les composants.</Edit>
     <EmbeddedFonts>Inclure les fichiers de police de caractères dans le fichier PDF.</EmbeddedFonts>
@@ -2345,12 +2345,12 @@
     <ImageType>La palette de couleurs de l'image : Couleurs - l'image exportée aura les mêmes couleurs que l'image visualisée ; Gris – l'image exportée sera en niveaux de gris ; Monochrome - l'image exportée sera exclusivement en noir et blanc. Par contre, le monochrome offre trois modes Aucun, Bayer (ordonné) et Floyd-Steinberg.</ImageType>
     <KillSpaceLines>Enlever les lignes vides du document.</KillSpaceLines>
     <MultipleFiles>Chaque page du rapport peut être un fichier séparé.</MultipleFiles>
-    <Open>Ouvrir le rapport précédemment enregistré dans la fenêtre de prévisualisation.</Open>
+    <Open>Ouvrir un rapport enregistré.</Open>
     <OpenAfterExport>Ouverture automatique du document exporté par le programme par défaut pour ce type de fichier.</OpenAfterExport>
     <OwnerPassword>Le mot de passe pour manipuler les fichiers.</OwnerPassword>
     <PageAll>Traitement de toutes les pages du rapport.</PageAll>
     <PageDelete>Supprimer la page sélectionnée d'un rapport.</PageDelete>
-    <PageDesign>Modifier la page sélectionnée dans le concepteur de rapport.</PageDesign>
+    <PageDesign>Modifier la page dans le concepteur.</PageDesign>
     <PageFirst>Aller à la première page du rapport.</PageFirst>
     <PageGoTo>Aller à la page du rapport spécifiée.</PageGoTo>
     <PageLast>Aller à la dernière page du rapport.</PageLast>
@@ -2358,7 +2358,7 @@
     <PageNext>Aller à la page suivante du rapport.</PageNext>
     <PagePrevious>Aller à la page précédente du rapport.</PagePrevious>
     <PageSize>Modifiez les paramètres de page dans un rapport.</PageSize>
-    <Parameters>Afficher le panneau de paramètres utilisé quand le rapport est affiché.</Parameters>
+    <Parameters>Afficher le panneau des paramètres.</Parameters>
     <PdfACompliance>Support du standard d'archivage longue durée et de stockage de documents électroniques.</PdfACompliance>
     <PdfUniversalAccessibility>Prise en charge de la norme des documents et informations électroniques universellement accessibles.</PdfUniversalAccessibility>
     <Print>Imprimer un rapport.</Print>
@@ -2375,9 +2375,10 @@
     <SkipColumnHeaders>Activer/désactiver les entêtes de colonne.</SkipColumnHeaders>
     <StandardPdfFonts>14 polices standard Adobe. Si cette option est activée, seulement les 14 polices de caractères standard seront utilisées dans le fichier PDF. Toutes les polices du rapport seront converties dans l'une de ces polices standard.</StandardPdfFonts>
     <SubjectNameString>Identifiant du certificat. L'identifiant est le nom du propriétaire du certificat (ligne complète) ou une partie du nom.</SubjectNameString>
-    <Thumbnails>Afficher les miniatures qui peuvent être utilisées pour une navigation rapide.</Thumbnails>
+    <Thumbnails>Afficher le panneau des miniatures de pages.</Thumbnails>
     <TiffCompressionScheme>Méthode de compression pour les fichiers TIFF.</TiffCompressionScheme>
-    <ToolEditor>Cet outil vous permet d'éditer le contenu de composants texte directement dans l'aperçu du rapport.</ToolEditor>
+    <ToolEditor>Modifier le texte du rapport dans l'aperçu.</ToolEditor>
+    <ToolSignature>Apposez votre signature aux endroits indiqués.</ToolSignature>
     <TypeExport>Le type de fichier dans lequel sera exporté le rapport.</TypeExport>
     <UnsafeCompilation1>Ce document utilise le processus de compilation. Dans certains cas, cela peut ne pas être sûr. Par conséquent, le document sera chargé en mode sans échec pour minimiser les risques potentiels.</UnsafeCompilation1>
     <UnsafeCompilation2>Si vous souhaitez utiliser ce document dans sa forme originale, veuillez contacter vos développeurs.</UnsafeCompilation2>
@@ -2388,12 +2389,12 @@
     <UserPassword>Le mot de passe utilisé pour l'ouverture du document.</UserPassword>
     <UseUnicode>Support pour l'encodage de caractères étendus. Cette option affecte l'encodage des caractères dans le fichier PDF, et améliore la copie du texte depuis le fichier PDF.</UseUnicode>
     <ViewModeContinuous>Afficher toutes les pages les unes à la suite des autres.</ViewModeContinuous>
-    <ViewModeMultiplePages>Afficher le plus de pages possibles dans la fenêtre.</ViewModeMultiplePages>
+    <ViewModeMultiplePages>Afficher autant de pages que la fenêtre en contient.</ViewModeMultiplePages>
     <ViewModeSinglePage>Afficher une seule page dans la fenêtre de prévisualisation.</ViewModeSinglePage>
-    <ZoomMultiplePages>Afficher les pages sélectionnées dans la fenêtre.</ZoomMultiplePages>
-    <ZoomOnePage>Afficher une page entière.</ZoomOnePage>
-    <ZoomPageWidth>Ajuster le zoom à la largeur de la page.</ZoomPageWidth>
-    <ZoomTwoPages>Afficher deux pages.</ZoomTwoPages>
+    <ZoomMultiplePages>Ajuster plusieurs pages à la fenêtre.</ZoomMultiplePages>
+    <ZoomOnePage>Ajuster une page à la fenêtre.</ZoomOnePage>
+    <ZoomPageWidth>Ajuster la largeur de la page à la fenêtre.</ZoomPageWidth>
+    <ZoomTwoPages>Ajuster deux pages à la fenêtre.</ZoomTwoPages>
     <ZoomTxt>La taille (échelle) du rapport : X - modifie l'échelle horizontale, Y - modifie l'échelle verticale.</ZoomTxt>
   </HelpViewer>
   <Interface>

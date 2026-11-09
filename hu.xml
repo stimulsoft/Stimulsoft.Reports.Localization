@@ -2155,7 +2155,7 @@
     <AllowEditable>Csak azon komponensek módosítását teszi lehetővé, melyek szerkeszthető tulajdonsága engedélyezett.</AllowEditable>
     <AllowModifyContents>Korlátozott hozzáférés a szövegszerkesztéshez.</AllowModifyContents>
     <AllowPrintDocument>Korlátozott hozzáférés a nyomtatási művelethez.</AllowPrintDocument>
-    <Bookmarks>Könyvjelző panel megnyitása a gyors navigáláshoz.</Bookmarks>
+    <Bookmarks>Könyvjelző panel megjelenítése.</Bookmarks>
     <BorderType>Komponensek szegélyeinek típusa: egyszerű - komponensek szegélyeinek kirajzolása karakterekkel +, -, |; Unicode egyszeres - szegélyek kirajzolása egyszeres karakterekkel, Unicode dupla - határok kirajzolása dupla karakterekkel.</BorderType>
     <Close>Nyomtatási kép bezárása. Visszatérés a szerkesztőbe.</Close>
     <CloseDotMatrix>DOT Matrix nézőke bezárása. Visszatérés a szerkesztőbe.</CloseDotMatrix>
@@ -2167,7 +2167,7 @@
     <CutLongLines>Hosszú sorok levágása a komponensek szegélyeinél.</CutLongLines>
     <DigitalSignature>A fájl digitális aláírása.</DigitalSignature>
     <DitheringType>Árnyalás típusa: Nincs - nincs árnyalás, Rendezett, FloydSt - árnyalással.</DitheringType>
-    <DotMatrixMode>Ez a mód megmutatja hogy nézne ki a jelentés egy mátrix nyomtatón.</DotMatrixMode>
+    <DotMatrixMode>A jelentés előnézete mátrixnyomtatóhoz.</DotMatrixMode>
     <DrawBorder>Komponensek határainak kirajzolása grafikus karakterekkel.</DrawBorder>
     <Edit>Komponensek szerkesztése.</Edit>
     <EmbeddedFonts>Betűtípus fájlok beágyazása a PDF fájlba.</EmbeddedFonts>
@@ -2194,12 +2194,12 @@
     <ImageType>A kép színösszeállítása: színes - egy kép exportálás után a tervezőben látottaknak megfelelő lesz; szürke – egy kép az exportálás után szürkeárnyalatos lesz; monokróm - a képek szigorúan fekete-fehérek lesznek. Ugyanakkor figyelembe kell venni, hogy a monokrómnak három típusa van: Nincs, Rendezett, FloydSt.</ImageType>
     <KillSpaceLines>Üres sorok eltávolítása a dokumentumból.</KillSpaceLines>
     <MultipleFiles>A jelentés minden oldala lehet egy különálló fájl.</MultipleFiles>
-    <Open>Korábbi mentett jelentés betöltése.</Open>
+    <Open>Mentett jelentés megnyitása.</Open>
     <OpenAfterExport>Az elkészült dokumentum megnyitása (exportálás után) a fájltípushoz rendelt programmal.</OpenAfterExport>
     <OwnerPassword>A fájlokkal való műveletekhez szükséges jelszó.</OwnerPassword>
     <PageAll>A jelentés összes oldalának feldolgozása.</PageAll>
     <PageDelete>Kiválasztott oldal törlése.</PageDelete>
-    <PageDesign>Kiválasztott oldal szerkesztése.</PageDesign>
+    <PageDesign>Oldal szerkesztése a tervezőben.</PageDesign>
     <PageFirst>Ugrás az első oldalra.</PageFirst>
     <PageGoTo>Megadott oldalra ugrás</PageGoTo>
     <PageLast>Utolsó oldalra ugrás</PageLast>
@@ -2207,7 +2207,7 @@
     <PageNext>Következő oldara ugrás.</PageNext>
     <PagePrevious>Előző oldalra ugrás</PagePrevious>
     <PageSize>Oldal beállítás módosítása.</PageSize>
-    <Parameters>Renderelés paraméter ablakának megjelenítése.</Parameters>
+    <Parameters>Paraméterpanel megjelenítése.</Parameters>
     <PdfACompliance>A szabvány támogatása, mely lehetővé teszi az elektronikus dokumentumok hosszú távú tárolását, archiválását.</PdfACompliance>
     <Print>Nyomtatás.</Print>
     <PutFeedPageCode>Oldalak megjelölése a végső dokumentumban egy speciális karakterrel.</PutFeedPageCode>
@@ -2223,9 +2223,10 @@
     <SkipColumnHeaders>Bekapcsolja/kikapcsolja az oszlopfejléceket.</SkipColumnHeaders>
     <StandardPdfFonts>14 szabvány Adobe betűtípus. Ha ez az opció be van kapcsolva, akkor csak a 14 szabványos betűtípus kerül felhasználásra a PDF fájlban. A jelentés összes betűtípusa ezekre lesz konvertálva.</StandardPdfFonts>
     <SubjectNameString>Tanúsítvány azonosító. Az azonosító a tanúsítvány tulajdonosának neve (teljes sor), vagy a név egy része (töredékszó).</SubjectNameString>
-    <Thumbnails>Miniatűrök megjelenítése a gyorsabb navigáláshoz.</Thumbnails>
+    <Thumbnails>Oldalminiatűrök paneljének megjelenítése.</Thumbnails>
     <TiffCompressionScheme>Tömörítési séma TIFF fájlokhoz.</TiffCompressionScheme>
-    <ToolEditor>Ez az eszköz lehetővé teszi hogy tudd módosítani a szöveg komponens tartalmát a report nézőben.</ToolEditor>
+    <ToolEditor>A jelentés szövegének szerkesztése a nézőben.</ToolEditor>
+    <ToolSignature>Helyezd el az aláírásod a megjelölt helyeken.</ToolSignature>
     <TypeExport>A fájl, amelybe konvertáljuk a riportot.</TypeExport>
     <UnsafeCompilation1>Ez a dokumentum fordítási folyamatot használ. Bizonyos esetekben ez nem biztonságos. Ezért a dokumentum a lehetséges kockázatok csökkentése érdekében csökkentett módban töltődik be.</UnsafeCompilation1>
     <UnsafeCompilation2>Ha a dokumentumot eredeti formájában kell használnia, forduljon a fejlesztőihez.</UnsafeCompilation2>
@@ -2236,12 +2237,12 @@
     <UserPassword>Jelszó szükséges a dokumentum megnyitásához.</UserPassword>
     <UseUnicode>Kiterjesztett támogatás karakterek kódolásához. A PDF fájl belső karakterkódolását érinti, és javítja a szöveg másolását a PDF fájlból.</UseUnicode>
     <ViewModeContinuous>Folyamatos megjelenítés</ViewModeContinuous>
-    <ViewModeMultiplePages>Több oldalas megjelenítési mód.</ViewModeMultiplePages>
+    <ViewModeMultiplePages>Annyi oldal megjelenítése, amennyi az ablakba fér.</ViewModeMultiplePages>
     <ViewModeSinglePage>Egy oldalas megjelenítés.</ViewModeSinglePage>
-    <ZoomMultiplePages>Több oldalas megjelenítés.</ZoomMultiplePages>
-    <ZoomOnePage>Egy oldal nyújtása képernyőre.</ZoomOnePage>
-    <ZoomPageWidth>Szélesség figyelemebevételével méretezi az oldalt.</ZoomPageWidth>
-    <ZoomTwoPages>Két oldalra méretezi a jelentést.</ZoomTwoPages>
+    <ZoomMultiplePages>Több oldal igazítása az ablakhoz.</ZoomMultiplePages>
+    <ZoomOnePage>Egy oldal igazítása az ablakhoz.</ZoomOnePage>
+    <ZoomPageWidth>Oldalszélesség igazítása az ablakhoz.</ZoomPageWidth>
+    <ZoomTwoPages>Két oldal igazítása az ablakhoz.</ZoomTwoPages>
     <ZoomTxt>A jelentés mérete (méretezés): X - a vízszintes méretezés állítása, Y - a függőleges méretezés állítása.</ZoomTxt>
   </HelpViewer>
   <Interface>

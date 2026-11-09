@@ -2301,7 +2301,7 @@
     <AllowEditable>Permite cambiar compoñentes coa propiedade Editable activada.</AllowEditable>
     <AllowModifyContents>Acceso limitado á edición de texto.</AllowModifyContents>
     <AllowPrintDocument>Acceso limitado á operación de impresión.</AllowPrintDocument>
-    <Bookmarks>Mostrar o panel de Marcas de Libro que se pode usar para saltar de forma rápida a situacións previamente marcadas.</Bookmarks>
+    <Bookmarks>Mostrar o panel de marcadores.</Bookmarks>
     <BorderType>O tipo de bordo dos compoñentes: simple - debuxa os bordos dos compoñentes cos caracteres +, -, |; Unicode simple - debuxa os bordos con caracteres de debuxo de caixas simples, Unicode dobre - debuxa os bordos con caracteres de debuxo de caixas dobres.</BorderType>
     <Close>Cerrar a Vista Preliminar e volver editar o informe.</Close>
     <CloseDotMatrix>Cerrar o Visor Matricial e volver editar o informe.</CloseDotMatrix>
@@ -2316,7 +2316,7 @@
     <DashboardContains3>Non pode facer iso desde o visor de informes!</DashboardContains3>
     <DigitalSignature>A sinatura dixital do ficheiro.</DigitalSignature>
     <DitheringType>Tipo de tramado: None - sen tramado, Ordered, FloydSt. - con tramado.</DitheringType>
-    <DotMatrixMode>Este modo permite ver como quedaría un informe se se imprime nunha impresora matricial.</DotMatrixMode>
+    <DotMatrixMode>Vista previa do informe para impresora matricial.</DotMatrixMode>
     <DrawBorder>Mostrar Rebordo</DrawBorder>
     <Edit>Editar compoñentes.</Edit>
     <EmbeddedFonts>Incrustar os ficheiros de tipos de letra nun ficheiro PDF.</EmbeddedFonts>
@@ -2343,12 +2343,12 @@
     <ImageType>O esquema de cor da imaxe: cor - a imaxe despois de exportala coincidirá totalmente coa imaxe no visor; gris – a imaxe despois de exportala estará en tons de gris; monocromo - as imaxes serán estritamente en branco e negro. Ao mesmo tempo, hai que ter en conta que o monocromo ten tres modos None, Ordered, FloydSt.</ImageType>
     <KillSpaceLines>Eliminar as liñas (filas) en branco do documento.</KillSpaceLines>
     <MultipleFiles>Cada páxina do informe pode ser un ficheiro separado.</MultipleFiles>
-    <Open>Abrir un informe previamente gardado no visor.</Open>
+    <Open>Abrir un informe gardado.</Open>
     <OpenAfterExport>Apertura automática do documento creado (despois da exportación) polo programa asociado a estes tipos de ficheiro.</OpenAfterExport>
     <OwnerPassword>O contrasinal necesario para realizar operacións co ficheiro.</OwnerPassword>
     <PageAll>Procesamento de todas as páxinas do informe.</PageAll>
     <PageDelete>Eliminar a páxina seleccionada do informe.</PageDelete>
-    <PageDesign>Editar a páxina seleccionada no deseñador.</PageDesign>
+    <PageDesign>Editar a páxina no deseñador.</PageDesign>
     <PageFirst>Ir á primeira páxina do informe.</PageFirst>
     <PageGoTo>Ir a unha primeira específica do informe.</PageGoTo>
     <PageLast>Ir á última páxina do informe.</PageLast>
@@ -2356,7 +2356,7 @@
     <PageNext>Ir á seguinte páxina do informe.</PageNext>
     <PagePrevious>Ir á páxina anterior do informe.</PagePrevious>
     <PageSize>Cambiar os parámetros de páxina do informe.</PageSize>
-    <Parameters>Mostrando panel de parámetros utilizado mentres se presenta o informe.</Parameters>
+    <Parameters>Mostrar o panel de parámetros.</Parameters>
     <PdfACompliance>Compatibilidade co estándar de arquivo e almacenamento a longo prazo de documentos electrónicos.</PdfACompliance>
     <PdfUniversalAccessibility>Compatibilidade co estándar de documentos e información electrónica universalmente accesibles.</PdfUniversalAccessibility>
     <Print>Imprimir o informe.</Print>
@@ -2373,9 +2373,10 @@
     <SkipColumnHeaders>Activar/desactivar as cabeceiras de columna.</SkipColumnHeaders>
     <StandardPdfFonts>14 tipos de letra estándar de Adobe. Se esta opción está activada, só se usarán os 14 tipos de letra estándar no ficheiro PDF. Todos os tipos de letra do informe convértense neles.</StandardPdfFonts>
     <SubjectNameString>Identificador do certificado. O identificador é o nome do propietario do certificado (liña completa) ou unha parte do nome (subcadea).</SubjectNameString>
-    <Thumbnails>Mostrar miniaturas de páxinas para facilitar a navegación rápida dentro do informe.</Thumbnails>
+    <Thumbnails>Mostrar o panel de miniaturas de páxinas.</Thumbnails>
     <TiffCompressionScheme>Esquema de compresión para ficheiros TIFF.</TiffCompressionScheme>
-    <ToolEditor>Esta ferramenta permítelle editar o texto dun compoñente, directamente no visor do informe.</ToolEditor>
+    <ToolEditor>Editar o texto do informe no visor.</ToolEditor>
+    <ToolSignature>Poña a súa sinatura nos lugares marcados.</ToolSignature>
     <TypeExport>O ficheiro no que se converterá o informe.</TypeExport>
     <UnsafeCompilation1>Este documento usa o proceso de compilación. Nalgúns casos, isto pode non ser seguro. Por iso, o documento cargarase en modo seguro para minimizar calquera risco potencial.</UnsafeCompilation1>
     <UnsafeCompilation2>Se precisa que este documento se use na súa forma orixinal, póñase en contacto cos seus desenvolvedores.</UnsafeCompilation2>
@@ -2386,12 +2387,12 @@
     <UserPassword>O contrasinal necesario para abrir o documento.</UserPassword>
     <UseUnicode>Compatibilidade estendida para a codificación de caracteres. Afecta á codificación interna de caracteres dentro do ficheiro PDF e mellora a copia do texto desde o ficheiro PDF.</UseUnicode>
     <ViewModeContinuous>Mostrar todas as páxinas como un visor vertical</ViewModeContinuous>
-    <ViewModeMultiplePages>Reducir/ampliar o informe para mostrar o número máximo de páxinas nunha soa ventá.</ViewModeMultiplePages>
+    <ViewModeMultiplePages>Mostrar tantas páxinas como caiban na ventá.</ViewModeMultiplePages>
     <ViewModeSinglePage>Mostrar unha soa páxina na Vista Preliminar.</ViewModeSinglePage>
-    <ZoomMultiplePages>Reducir/ampliar o informe para mostrar as páxinas seleccionadas nunha soa ventá.</ZoomMultiplePages>
-    <ZoomOnePage>Reducir/ampliar o informe para mostrar unha páxina na ventá.</ZoomOnePage>
-    <ZoomPageWidth>Reducir/ampliar o informe para axustar a anchura da páxina á ventá.</ZoomPageWidth>
-    <ZoomTwoPages>Reducir/ampliar o informe para mostrar dúas páxinas na ventá.</ZoomTwoPages>
+    <ZoomMultiplePages>Axustar varias páxinas á ventá.</ZoomMultiplePages>
+    <ZoomOnePage>Axustar unha páxina á ventá.</ZoomOnePage>
+    <ZoomPageWidth>Axustar a anchura da páxina á ventá.</ZoomPageWidth>
+    <ZoomTwoPages>Axustar dúas páxinas á ventá.</ZoomTwoPages>
     <ZoomTxt>O tamaño do informe (escala): X - cambia a escala horizontal, Y - cambia a escala vertical.</ZoomTxt>
   </HelpViewer>
   <Interface>

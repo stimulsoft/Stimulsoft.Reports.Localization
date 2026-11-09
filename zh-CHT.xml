@@ -2304,7 +2304,7 @@
     <AllowEditable>允許變更已啟用「可編輯」屬性的元件。</AllowEditable>
     <AllowModifyContents>文字編輯的存取受限。</AllowModifyContents>
     <AllowPrintDocument>列印作業的存取受限。</AllowPrintDocument>
-    <Bookmarks>顯示書籤面板，用於快速導覽，可直接跳至已加入書籤的位置。</Bookmarks>
+    <Bookmarks>顯示書籤面板。</Bookmarks>
     <BorderType>元件的框線類型：簡單 - 使用 +、-、| 字元繪製元件框線；Unicode 單線 - 使用單線方框繪製字元繪製框線；Unicode 雙線 - 使用雙線方框繪製字元繪製框線。</BorderType>
     <Close>關閉報表預覽。</Close>
     <CloseDotMatrix>關閉點陣檢視器。</CloseDotMatrix>
@@ -2319,7 +2319,7 @@
     <DashboardContains3>您無法在報表檢視器中執行此操作！</DashboardContains3>
     <DigitalSignature>檔案的數位簽章。</DigitalSignature>
     <DitheringType>遞色類型：None - 無遞色，Ordered、FloydSt. - 有遞色。</DitheringType>
-    <DotMatrixMode>此模式可讓您查看報表在點陣式印表機上列印時的外觀。</DotMatrixMode>
+    <DotMatrixMode>預覽報表在點陣式印表機上的外觀。</DotMatrixMode>
     <DrawBorder>繪製邊框</DrawBorder>
     <Edit>編輯</Edit>
     <EmbeddedFonts>將字型檔案內嵌至 PDF 檔案。</EmbeddedFonts>
@@ -2346,12 +2346,12 @@
     <ImageType>圖片的色彩配置：彩色 - 匯出後的圖片將與檢視器中的圖片完全一致；灰階 - 匯出後的圖片將以灰階呈現；黑白 - 圖片將為純黑白。同時應注意，黑白模式有三種：None、Ordered、FloydSt。</ImageType>
     <KillSpaceLines>移除文件中的空白行（列）。</KillSpaceLines>
     <MultipleFiles>每個報表頁面可以是個別的檔案。</MultipleFiles>
-    <Open>在預覽視窗中開啟先前儲存的報表。</Open>
+    <Open>開啟已儲存的報表。</Open>
     <OpenAfterExport>匯出後，由與這些檔案類型關聯的程式自動開啟建立的文件。</OpenAfterExport>
     <OwnerPassword>對檔案執行操作所需的密碼。</OwnerPassword>
     <PageAll>處理所有報表頁面。</PageAll>
     <PageDelete>刪除選取的報表頁面。</PageDelete>
-    <PageDesign>在報表設計器中編輯選取的頁面。</PageDesign>
+    <PageDesign>在設計器中編輯頁面。</PageDesign>
     <PageFirst>移至第一個報表頁面。</PageFirst>
     <PageGoTo>移至指定的報表頁面。</PageGoTo>
     <PageLast>移至最後一個報表頁面。</PageLast>
@@ -2359,7 +2359,7 @@
     <PageNext>移至下一個報表頁面。</PageNext>
     <PagePrevious>移至上一個報表頁面。</PagePrevious>
     <PageSize>變更報表中的頁面參數。</PageSize>
-    <Parameters>顯示報表呈現期間所使用的參數面板。</Parameters>
+    <Parameters>顯示報表參數面板。</Parameters>
     <PdfACompliance>支援電子文件長期封存與儲存的標準。</PdfACompliance>
     <PdfUniversalAccessibility>支援通用無障礙電子文件與資訊的標準。</PdfUniversalAccessibility>
     <Print>列印報表。</Print>
@@ -2376,9 +2376,10 @@
     <SkipColumnHeaders>啟用/停用欄標題。</SkipColumnHeaders>
     <StandardPdfFonts>14 種標準 Adobe 字型。若啟用此選項，PDF 檔案中將僅使用 14 種標準字型。所有報表字型都會轉換為這些字型。</StandardPdfFonts>
     <SubjectNameString>憑證識別碼。識別碼為憑證擁有者的名稱（完整字串）或名稱的一部分（子字串）。</SubjectNameString>
-    <Thumbnails>顯示縮圖，可用於快速導覽，尋找您想跳至的報表章節。</Thumbnails>
+    <Thumbnails>顯示頁面縮圖面板。</Thumbnails>
     <TiffCompressionScheme>TIFF 檔案的壓縮方式。</TiffCompressionScheme>
-    <ToolEditor>此工具可讓您直接在報表檢視器中編輯文字元件的內容。</ToolEditor>
+    <ToolEditor>在檢視器中編輯報表文字。</ToolEditor>
+    <ToolSignature>在標示的位置放上您的簽名。</ToolSignature>
     <TypeExport>報表將轉換成的檔案。</TypeExport>
     <UnsafeCompilation1>此文件使用了編譯過程。在某些情況下，這可能不安全。因此，文件將以安全模式載入，以將任何潛在風險降至最低。</UnsafeCompilation1>
     <UnsafeCompilation2>若您需要以原始形式使用此文件，請聯絡您的開發人員。</UnsafeCompilation2>
@@ -2389,12 +2390,12 @@
     <UserPassword>開啟文件所需的密碼。</UserPassword>
     <UseUnicode>對字元編碼的延伸支援。這會影響 PDF 檔案內部的字元編碼，並改善從 PDF 檔案複製文字的效果。</UseUnicode>
     <ViewModeContinuous>將所有報表頁面顯示為垂直帶狀。</ViewModeContinuous>
-    <ViewModeMultiplePages>縮放報表，以顯示視窗可容納的最多頁面。</ViewModeMultiplePages>
+    <ViewModeMultiplePages>顯示視窗可容納的頁數。</ViewModeMultiplePages>
     <ViewModeSinglePage>在預覽視窗中顯示單一頁面。</ViewModeSinglePage>
-    <ZoomMultiplePages>縮放報表，使選取的頁面符合視窗大小。</ZoomMultiplePages>
-    <ZoomOnePage>縮放報表，使整個頁面符合視窗大小。</ZoomOnePage>
-    <ZoomPageWidth>縮放報表，使頁面寬度符合視窗寬度。</ZoomPageWidth>
-    <ZoomTwoPages>縮放報表，使兩個頁面符合視窗大小。</ZoomTwoPages>
+    <ZoomMultiplePages>使多個頁面符合視窗。</ZoomMultiplePages>
+    <ZoomOnePage>使單一頁面符合視窗。</ZoomOnePage>
+    <ZoomPageWidth>使頁面寬度符合視窗。</ZoomPageWidth>
+    <ZoomTwoPages>使兩個頁面符合視窗。</ZoomTwoPages>
     <ZoomTxt>報表大小（縮放比例）：X - 變更水平縮放比例，Y - 變更垂直縮放比例。</ZoomTxt>
   </HelpViewer>
   <Interface>

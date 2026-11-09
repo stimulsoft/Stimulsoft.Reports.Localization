@@ -2303,7 +2303,7 @@
     <AllowEditable>Düzenlenebilir özellik etkinleştirilmiş bileşenleri değiştirmeye izin verir.</AllowEditable>
     <AllowModifyContents>Metin düzenlemeye sınırlı erişim.</AllowModifyContents>
     <AllowPrintDocument>Yazdırma işlemine sınırlı erişim.</AllowPrintDocument>
-    <Bookmarks>Hızlı gezinme için kullanılan yer işareti panelini doğrudan yer işaretli bir yere atlamak için gösterin.</Bookmarks>
+    <Bookmarks>Yer imleri panelini gösterin.</Bookmarks>
     <BorderType>Bileşenlerin kenarlık türü: karakterler ve bileşenlerin basit çizim sınırları +, -, |; Unicode tek - tek kutu çizim karakterleri ile sınırları çizme, Unicode çift - çift kutu çizim karakterler ile sınırları çizme.</BorderType>
     <Close>Rapor Önizlemeyi Kapat.</Close>
     <CloseDotMatrix>Dot Matrix Görüntüleyici'yi kapat.</CloseDotMatrix>
@@ -2318,7 +2318,7 @@
     <DashboardContains3>Bunu rapor görüntüleyicisinden yapamazsınız!</DashboardContains3>
     <DigitalSignature>Dosyanın dijital imzası.</DigitalSignature>
     <DitheringType>Dithering Tipi: Yok - dithering yok, Ordered, FloydSt. - dithering ile.</DitheringType>
-    <DotMatrixMode>Bu mod, bir raporun bir nokta vuruşlu yazıcıda basılması durumunda nasıl görüneceğini görmenizi sağlar..</DotMatrixMode>
+    <DotMatrixMode>Raporu nokta vuruşlu yazıcı için önizleyin.</DotMatrixMode>
     <DrawBorder>Bileşenlerin kenarlıklarını grafik karakterlerle çizme.</DrawBorder>
     <Edit>Bileşenleri düzenle.</Edit>
     <EmbeddedFonts>Font dosyalarını bir PDF dosyasına gömün.</EmbeddedFonts>
@@ -2345,12 +2345,12 @@
     <ImageType>Görüntünün renk şeması: dışa aktarmadan sonraki renk - görüntü, görüntüleyicideki görüntüyle tamamen eşleşecektir; gri - dışa aktarım sonrası bir görüntü gri gölgede olacak; tek renkli - görüntüler kesinlikle siyah ve beyaz olacaktır. Aynı zamanda, monokromun Yok, Sıralı, FloydSt olmak üzere üç modu olduğu düşünülmelidir.</ImageType>
     <KillSpaceLines>Belgedeki boş satırları (satırları) kaldırın.</KillSpaceLines>
     <MultipleFiles>Her rapor sayfası ayrı bir dosya olabilir.</MultipleFiles>
-    <Open>Önceden kaydedilmiş olan raporu önizleme penceresinde açın.</Open>
+    <Open>Kaydedilmiş bir raporu açın.</Open>
     <OpenAfterExport>Oluşturulan belgenin (dışa aktarmadan sonra) bu dosya türleri için ayarlanan program tarafından otomatik olarak açılması.</OpenAfterExport>
     <OwnerPassword>Dosya ile işlemleri gerçekleştirmek için gereken şifre.</OwnerPassword>
     <PageAll>Tüm rapor sayfalarının işlenmesi.</PageAll>
     <PageDelete>Seçilen rapor sayfasını sil.</PageDelete>
-    <PageDesign>Rapor tasarımcısında seçilen sayfayı düzenleyin.</PageDesign>
+    <PageDesign>Sayfayı tasarımcıda düzenleyin.</PageDesign>
     <PageFirst>İlk rapor sayfasına git.</PageFirst>
     <PageGoTo>Belirtilen rapor sayfasına git.</PageGoTo>
     <PageLast>Son rapor sayfasına git.</PageLast>
@@ -2358,7 +2358,7 @@
     <PageNext>Sonraki rapor sayfasına git.</PageNext>
     <PagePrevious>Bir önceki rapor sayfasına git.</PagePrevious>
     <PageSize>Rapordaki sayfa parametrelerini değiştirin.</PageSize>
-    <Parameters>Rapor oluşturma sırasında kullanılan parametre panelini gösterir.</Parameters>
+    <Parameters>Rapor parametreleri panelini gösterin.</Parameters>
     <PdfACompliance>Elektronik belgelerin uzun süreli arşivlenmesi ve saklanması standardı için destek.</PdfACompliance>
     <PdfUniversalAccessibility>Evrensel olarak erişilebilir elektronik belgeler ve bilgiler standardı desteği.</PdfUniversalAccessibility>
     <Print>Rapor yazdır.</Print>
@@ -2375,9 +2375,10 @@
     <SkipColumnHeaders>Sütun başlıklarını etkin / devre dışı bırakın.</SkipColumnHeaders>
     <StandardPdfFonts>14 standart Adobe yazı tipi. Bu seçenek etkinleştirilirse, PDF dosyasında yalnızca standart 14 yazı tipi kullanılacaktır. Tüm rapor yazı tipleri bunlara dönüştürülür.</StandardPdfFonts>
     <SubjectNameString>Sertifika tanımlayıcısı. Tanımlayıcı, sertifika sahibinin adıdır (tam satır) veya adın bir kısmıdır (alt dizgi).</SubjectNameString>
-    <Thumbnails>Rapora atlamak istediğiniz raporun bölümünü bulmak için hızlı gezinme için kullanılabilecek küçük resimleri gösterin.</Thumbnails>
+    <Thumbnails>Sayfa küçük resimleri panelini gösterin.</Thumbnails>
     <TiffCompressionScheme>TIFF dosyaları için sıkıştırma şeması.</TiffCompressionScheme>
-    <ToolEditor>Bu araç, metin bileşenlerinin içeriğini doğrudan rapor görüntüleyicide düzenlemenizi sağlar.</ToolEditor>
+    <ToolEditor>Rapor metnini görüntüleyicide düzenleyin.</ToolEditor>
+    <ToolSignature>İmzanızı işaretli yerlere koyun.</ToolSignature>
     <TypeExport> Rapor, dosyaya dönüştürülecek.</TypeExport>
     <UnsafeCompilation1>Bu belge derleme sürecini kullanır. Bazı durumlarda bu güvenli olmayabilir. Bu nedenle, belge olası riskleri en aza indirmek için güvenli modda yüklenecektir.</UnsafeCompilation1>
     <UnsafeCompilation2>Bu belgenin orijinal haliyle kullanılmasını istiyorsanız lütfen geliştiricilerinizle iletişime geçin.</UnsafeCompilation2>
@@ -2388,12 +2389,12 @@
     <UserPassword>Belgeyi açmak için gereken şifre.</UserPassword>
     <UseUnicode>Karakterleri kodlamak için genişletilmiş destek. PDF dosyasındaki dahili karakter kodlamasını etkiler ve metnin PDF dosyasından kopyalanmasını geliştirir.</UseUnicode>
     <ViewModeContinuous>Tüm rapor sayfalarını dikey şerit olarak göster.</ViewModeContinuous>
-    <ViewModeMultiplePages>Raporu, pencereye sığacak kadar çok sayfa görüntülenecek şekilde yakınlaştırın.</ViewModeMultiplePages>
+    <ViewModeMultiplePages>Pencereye sığan kadar sayfa gösterin.</ViewModeMultiplePages>
     <ViewModeSinglePage>Önizleme penceresindeki tek bir sayfayı göster.</ViewModeSinglePage>
-    <ZoomMultiplePages>Raporu, seçilen sayfaların pencereye sığması için yakınlaştırın.</ZoomMultiplePages>
-    <ZoomOnePage>Raporu, tüm sayfanın pencereye sığması için yakınlaştırın.</ZoomOnePage>
-    <ZoomPageWidth>Raporu, sayfanın genişliği pencerenin genişliğiyle eşleşecek şekilde yakınlaştırın.</ZoomPageWidth>
-    <ZoomTwoPages>Raporu, iki sayfanın pencereye sığması için yakınlaştırın.</ZoomTwoPages>
+    <ZoomMultiplePages>Birkaç sayfayı pencereye sığdırın.</ZoomMultiplePages>
+    <ZoomOnePage>Bir sayfayı pencereye sığdırın.</ZoomOnePage>
+    <ZoomPageWidth>Sayfa genişliğini pencereye sığdırın.</ZoomPageWidth>
+    <ZoomTwoPages>İki sayfayı pencereye sığdırın.</ZoomTwoPages>
     <ZoomTxt>Rapor boyutu (ölçek): X - yatay ölçeği değiştirir, Y - dikey ölçeği değiştirir.</ZoomTxt>
   </HelpViewer>
   <Interface>

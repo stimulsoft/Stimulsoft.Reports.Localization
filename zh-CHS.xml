@@ -2306,7 +2306,7 @@
     <AllowEditable>允许改变组件的可编辑属性的启用性.</AllowEditable>
     <AllowModifyContents>限制对文本编辑访问.</AllowModifyContents>
     <AllowPrintDocument>限制打印操作的访问.</AllowPrintDocument>
-    <Bookmarks>显示书签面板,用于快速导航直接跳到书签的位置.</Bookmarks>
+    <Bookmarks>显示书签面板.</Bookmarks>
     <BorderType>组件边框类型:简单——画边框的组件与字符+,-; 单个字符-用单个方框绘制字符画边框, 双字符-用双方框绘制字符画边框.</BorderType>
     <Close>关闭报表预览.</Close>
     <CloseDotMatrix>关闭点矩阵查看器.</CloseDotMatrix>
@@ -2321,7 +2321,7 @@
     <DashboardContains3>您不能从报表查看器执行此操作</DashboardContains3>
     <DigitalSignature>文件的数字签名.</DigitalSignature>
     <DitheringType>抖动类型：无-没有抖动，有序， FloydSt. - 带有抖动.</DitheringType>
-    <DotMatrixMode>此模式允许您看到如果使用点阵打印机打印报表时的样子.</DotMatrixMode>
+    <DotMatrixMode>预览报表在点阵打印机上的效果.</DotMatrixMode>
     <DrawBorder>用图形字符绘制组件边框.</DrawBorder>
     <Edit>编辑组件.</Edit>
     <EmbeddedFonts>将字体文件嵌入到PDF文件里.</EmbeddedFonts>
@@ -2348,12 +2348,12 @@
     <ImageType>图像的配色方案 : 颜色 - 导出后的图片会与查看器的图片完全匹配; 灰色 – 导出后的图像呈灰度; 单色 - 图像将完全为黑白色.同时,其应该有三种模式None, Ordered, FloydSt.</ImageType>
     <KillSpaceLines>移除文档中的空白行/列.</KillSpaceLines>
     <MultipleFiles>每个报表页面可以是一个分离的文件.</MultipleFiles>
-    <Open>在预览窗口上打开以前保存的报表.</Open>
+    <Open>打开已保存的报表.</Open>
     <OpenAfterExport>通过文件类型的程序设置在导出后自动打开创建的文件.</OpenAfterExport>
     <OwnerPassword>文件存取操作的密码.</OwnerPassword>
     <PageAll>处理所有报表页.</PageAll>
     <PageDelete>删除所选报表页.</PageDelete>
-    <PageDesign>编辑报表设计器里的所选页面.</PageDesign>
+    <PageDesign>在设计器中编辑页面.</PageDesign>
     <PageFirst>转到报表的第一页.</PageFirst>
     <PageGoTo>转到指定的报表页.</PageGoTo>
     <PageLast>转到报表的最后一页.</PageLast>
@@ -2361,7 +2361,7 @@
     <PageNext>转到下一报表页.</PageNext>
     <PagePrevious>转到上一报表页.</PagePrevious>
     <PageSize>更改报表的页面参数.</PageSize>
-    <Parameters>显示参数面板,在报表渲染时使用.</Parameters>
+    <Parameters>显示报表参数面板.</Parameters>
     <PdfACompliance>支持长期存档和储存电子文档的标准.</PdfACompliance>
     <PdfUniversalAccessibility>支持通用无障碍电子文档与信息标准。</PdfUniversalAccessibility>
     <Print>打印报表.</Print>
@@ -2378,9 +2378,10 @@
     <SkipColumnHeaders>启用/禁用列标题.</SkipColumnHeaders>
     <StandardPdfFonts>14 标准Adobe字体. 如果此项可用，那么在PDF文件中只能使用标准的14个字体.所有报表的字体都会转换为他们.</StandardPdfFonts>
     <SubjectNameString>凭证识别符.这个识别符是凭证拥有者的名字或者是名字的一部分.</SubjectNameString>
-    <Thumbnails>显示缩略图，它可以用于快速导航找到你想要跳转的报表部分.</Thumbnails>
+    <Thumbnails>显示页面缩略图面板.</Thumbnails>
     <TiffCompressionScheme>TIFF文件的压缩方案.</TiffCompressionScheme>
-    <ToolEditor>该工具允许在报表视图器中直接对文本组件内容进行编辑.</ToolEditor>
+    <ToolEditor>在视图器中编辑报表文本.</ToolEditor>
+    <ToolSignature>在标记的位置放置您的签名.</ToolSignature>
     <TypeExport>报表将转换到的文件.</TypeExport>
     <UnsafeCompilation1>本文档使用编译过程。在某些情况下，这可能不安全。因此，文件将以安全模式加载，以最大限度地减少任何潜在风险.</UnsafeCompilation1>
     <UnsafeCompilation2>如果您要求以原始形式使用此文档，请联系您的开发人员</UnsafeCompilation2>
@@ -2391,12 +2392,12 @@
     <UserPassword>打开文件所需的密码.</UserPassword>
     <UseUnicode>编码字符扩展支持. 它影响PDF文件里的内部字符编码, 并提高从PDF文件中复制文本的能力.</UseUnicode>
     <ViewModeContinuous>连续显示所有报表页.</ViewModeContinuous>
-    <ViewModeMultiplePages>缩放报表以便在窗口中显示更多的页面.</ViewModeMultiplePages>
+    <ViewModeMultiplePages>显示窗口可容纳的页数.</ViewModeMultiplePages>
     <ViewModeSinglePage>在预览窗口显示一个单一页面.</ViewModeSinglePage>
-    <ZoomMultiplePages>缩放报表使得所选页面适应窗口大小.</ZoomMultiplePages>
-    <ZoomOnePage>缩放报表以便在窗口中显示整个页面.</ZoomOnePage>
-    <ZoomPageWidth>缩放报表以便报表的宽度与窗口的宽度相适应.</ZoomPageWidth>
-    <ZoomTwoPages>缩放报表以便在窗口中显示双页.</ZoomTwoPages>
+    <ZoomMultiplePages>使多页适应窗口.</ZoomMultiplePages>
+    <ZoomOnePage>使整页适应窗口.</ZoomOnePage>
+    <ZoomPageWidth>使页宽适应窗口.</ZoomPageWidth>
+    <ZoomTwoPages>使双页适应窗口.</ZoomTwoPages>
     <ZoomTxt>报表尺寸: X - 改变水平尺寸, Y - 改变垂直尺寸.</ZoomTxt>
   </HelpViewer>
   <Interface>

@@ -1770,7 +1770,7 @@
     <AllowEditable>السماح فقط بتعديل العناصر ذات خاصية التعديل مفعلة.</AllowEditable>
     <AllowModifyContents>محدودية الوصول لتعديل النصوص.</AllowModifyContents>
     <AllowPrintDocument>محدودية الوصول لعمليات الطباعة.</AllowPrintDocument>
-    <Bookmarks>وتظهر العلامة الفريق الذي يستخدم للملاحة البحرية سريعة للقفز مباشرة إلى موقع مرجعية.</Bookmarks>
+    <Bookmarks>إظهار لوحة العناوين.</Bookmarks>
     <BorderType>نوع حدود المكون: بسيط - رسم حدود المكونات باستخدام الرموز +, -, |; يونيكود مفرد - رسم الحدود باستخدام رمز صندوق منفرد, يونيكود ثنائي - رسم الحدود باستخدام رمز صندوق ثنائي.</BorderType>
     <Close>استعراض وثيقة والعودة إلى تحرير هذا التقرير.</Close>
     <CloseDotMatrix>مصفوفة نقطة قريبة عارض والعودة إلى تحرير هذا التقرير.</CloseDotMatrix>
@@ -1782,7 +1782,7 @@
     <CutLongLines>تقليم الأسطر طويلة (أسطرالنص) من قبل حدود المكونات.</CutLongLines>
     <DigitalSignature>التوقيع الرقمي للملف.</DigitalSignature>
     <DitheringType>نمط التردد: بدون - بلا تردد, مرتب, FloydSt - مع تردد.</DitheringType>
-    <DotMatrixMode>هذا الوضع يسمح لكم لنرى كيف ستكون نظرة التقرير مثل إذا طباعته على طابعة نقطية نقطة.</DotMatrixMode>
+    <DotMatrixMode>معاينة التقرير لطابعة نقطية.</DotMatrixMode>
     <DrawBorder>رسم حدود المكونات باستخدام رموز رسومية.</DrawBorder>
     <Edit>عدل المكونات.</Edit>
     <EmbeddedFonts>تضمين ملفات الخط في ملف PDF.</EmbeddedFonts>
@@ -1816,12 +1816,12 @@
     <ImageType>تدرج الألوان في الصورة: ملون - الصورة بعد التصدير ستطابق المستعرض مطابقة كاملة; الرمادي – الصورة بعد التصدير ستكون بتدرج الرمادي; أحادي - الصور ستكون باللونين الأبيض والأسود فقط. في نفس الوقت, يجب الأخذ في الحسبان أن اللون الأحادي له ثلاثة أنماط None, Ordered, FloydSt.</ImageType>
     <KillSpaceLines>إزالة الأسطر الفارغة (الصفوف) من الوثيقة.</KillSpaceLines>
     <MultipleFiles>كل صفحة في التقرير يمكن أن تكون في ملف منفصل.</MultipleFiles>
-    <Open>فتح التقرير المحفوظة مسبقا في نافذة المعاينة.</Open>
+    <Open>فتح تقرير محفوظ.</Open>
     <OpenAfterExport>الفتح التلقائي للوثيقة بعد إنشائها (بعد التصدير) بواسطة البرنامج المخصص لهذا النوع من الملفات.</OpenAfterExport>
     <OwnerPassword>كلمة المرور للوصول إلى العمليات للملفات.</OwnerPassword>
     <PageAll>معالجة كافة صفحات التقرير.</PageAll>
     <PageDelete>حذف صفحة مختارة من التقرير.</PageDelete>
-    <PageDesign>تحرير الصفحة المحدد في مصمم التقرير.</PageDesign>
+    <PageDesign>تحرير الصفحة في المصمم.</PageDesign>
     <PageFirst>انتقل إلى الصفحة الأولى من التقرير.</PageFirst>
     <PageGoTo>الذهاب إلى الصفحة المحددة التقرير.</PageGoTo>
     <PageLast>انتقل إلى الصفحة الأخيرة من التقرير.</PageLast>
@@ -1829,7 +1829,7 @@
     <PageNext>الذهاب إلى الصفحة التالية من التقرير.</PageNext>
     <PagePrevious>الذهاب إلى الصفحة السابقة من التقرير.</PagePrevious>
     <PageSize>تغيير المعلمات صفحة في التقرير.</PageSize>
-    <Parameters>إظهار لوحة المتغيرات المستخدمة عند عرض التقرير</Parameters>
+    <Parameters>إظهار لوحة متغيرات التقرير.</Parameters>
     <PdfACompliance>دعم المواصفات القياسية للأرشفة طويلة المدى لتخزين الوثائق الرقمية.</PdfACompliance>
     <Print>طباعة التقرير.</Print>
     <PutFeedPageCode>تغذية الصفحات في نهاية الوثيقة بحرف مميز.</PutFeedPageCode>
@@ -1844,9 +1844,10 @@
     <SkipColumnHeaders>تفعيل/تعطيل عنوان العمود.</SkipColumnHeaders>
     <StandardPdfFonts>14 خط أدوبي قياسي. إذا تم تحديد هذا الخيار, فإنه سيتم استخدام 14 خط قياسي فقط في ملفات PDF. جميع الخطوط المستخدمة في التقرير سيتم تحويلها إلى هذه الخطوط القياسية.</StandardPdfFonts>
     <SubjectNameString>معرف الشهادة. المعرف هو اسم مالك الشهادة (سطر كامل) أو جزء منه (جزء مقطوع).</SubjectNameString>
-    <Thumbnails>وتظهر الصور المصغرة التي يمكن استخدامها للملاحة سريعة للعثور على القسم من التقرير الذي تريد الانتقال إليها.</Thumbnails>
+    <Thumbnails>إظهار لوحة الصور المصغرة.</Thumbnails>
     <TiffCompressionScheme>مخطط الضغك لملفات TIFF.</TiffCompressionScheme>
-    <ToolEditor>هذه الأداة تسمح بتحرير محتوى النصوص مباشرة في التقرير</ToolEditor>
+    <ToolEditor>تحرير نص التقرير في العارض.</ToolEditor>
+    <ToolSignature>ضع توقيعك في الأماكن المحددة.</ToolSignature>
     <TypeExport>الملف الذي سيتم تحويل التقرير إليه.</TypeExport>
     <UnsafeCompilation1>يستخدم هذا المستند عملية التجميع. في بعض الحالات، قد لا يكون ذلك آمنًا. لذلك سيتم تحميل المستند في الوضع الآمن لتقليل أي مخاطر محتملة.</UnsafeCompilation1>
     <UnsafeCompilation2>إذا كنت بحاجة إلى استخدام هذا المستند بشكله الأصلي، يرجى التواصل مع المطورين لديك.</UnsafeCompilation2>
@@ -1857,12 +1858,12 @@
     <UserPassword>طلب كلمة مرور لفتح الملف</UserPassword>
     <UseUnicode>دعم إضافي لحروف الترميز. تؤثر في الترميز الداخلي للحروف في ملفات PDF, وتحسن نسخ النصوص من ملفات PDF.</UseUnicode>
     <ViewModeContinuous>عرض كل صفحات التقرير في الشريط العمودي.</ViewModeContinuous>
-    <ViewModeMultiplePages>تكبير التقرير بحيث العديد من الصفحات كما يمكن أن يكون لائقا في نافذة يتم عرضها.</ViewModeMultiplePages>
+    <ViewModeMultiplePages>عرض أكبر عدد من الصفحات في النافذة.</ViewModeMultiplePages>
     <ViewModeSinglePage>وتظهر في صفحة واحدة في نافذة المعاينة.</ViewModeSinglePage>
-    <ZoomMultiplePages>التكبير في التقرير بحيث تناسب صفحات مختارة في الإطار.</ZoomMultiplePages>
-    <ZoomOnePage>تكبير التقرير بحيث يناسب صفحة كاملة في الإطار.</ZoomOnePage>
-    <ZoomPageWidth>التكبير في التقرير بحيث عرض الصفحة يطابق عرض النافذة.</ZoomPageWidth>
-    <ZoomTwoPages>تكبير التقرير بحيث صفحتين احتوائها في الإطار.</ZoomTwoPages>
+    <ZoomMultiplePages>ملاءمة عدة صفحات في النافذة.</ZoomMultiplePages>
+    <ZoomOnePage>ملاءمة صفحة واحدة في النافذة.</ZoomOnePage>
+    <ZoomPageWidth>ملاءمة عرض الصفحة للنافذة.</ZoomPageWidth>
+    <ZoomTwoPages>ملاءمة صفحتين في النافذة.</ZoomTwoPages>
     <ZoomTxt>حجم التقرير  - الوزن (scale): X - تغيير المحور الأفقي, Y - تغيير المحور العمودي.</ZoomTxt>
   </HelpViewer>
   <MainMenu>

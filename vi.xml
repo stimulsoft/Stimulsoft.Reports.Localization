@@ -2301,7 +2301,7 @@
     <AllowEditable>Cho phép thay đổi các thành phần với tính năng chỉnh sửa được bật.</AllowEditable>
     <AllowModifyContents>Hạn chế quyền truy cập vào việc chỉnh sửa văn bản.</AllowModifyContents>
     <AllowPrintDocument>Hạn chế quyền truy cập vào hoạt động in.</AllowPrintDocument>
-    <Bookmarks>Hiển thị bảng đánh dấu trang được sử dụng để điều hướng nhanh để chuyển trực tiếp đến vị trí được đánh dấu.</Bookmarks>
+    <Bookmarks>Hiển thị bảng đánh dấu trang.</Bookmarks>
     <BorderType>Kiểu viền của các thành phần: đơn giản - vẽ viền của các thành phần có ký tự +, -, |; Unicode đơn - vẽ viền với các ký tự vẽ hộp đơn, Unicode hai lần - vẽ viền với các ký tự vẽ hộp kép.</BorderType>
     <Close>Đóng xem trước báo cáo.</Close>
     <CloseDotMatrix>Đóng trình xem ma trận điểm.</CloseDotMatrix>
@@ -2316,7 +2316,7 @@
     <DashboardContains3>Bạn không thể làm điều đó từ trình xem báo cáo!</DashboardContains3>
     <DigitalSignature>Chữ ký số của tệp.</DigitalSignature>
     <DitheringType>Loại phối màu: Không - Không phối màu, Đã sắp xếp, FloydSt. - với phối màu.</DitheringType>
-    <DotMatrixMode>Chế độ này cho phép bạn xem báo cáo sẽ như thế nào nếu in nó trên một máy in ma trận điểm.</DotMatrixMode>
+    <DotMatrixMode>Xem trước báo cáo cho máy in ma trận điểm.</DotMatrixMode>
     <DrawBorder>Vẽ đường viền của các thành phần có các ký tự đồ hoạ.</DrawBorder>
     <Edit>Chỉnh sửa các thành phần.</Edit>
     <EmbeddedFonts>Nhúng các tệp tin phông chữ vào một tệp tin PDF.</EmbeddedFonts>
@@ -2343,12 +2343,12 @@
     <ImageType>Phông màu của hình ảnh: màu - hình ảnh sau khi xuất hoàn toàn khớp với hình ảnh trong trình xem; xám - hình ảnh sau khi xuất sẽ có màu xám; đơn sắc - hình ảnh sẽ hoàn toàn đen trắng. Đồng thời, cần lưu ý rằng đơn sắc có ba chế độ Không, Đã sắp xếp, FloydSt.</ImageType>
     <KillSpaceLines>Xóa dòng trống (hàng) trong tài liệu.</KillSpaceLines>
     <MultipleFiles>Mỗi trang báo cáo có thể là một tệp riêng biệt.</MultipleFiles>
-    <Open>Mở báo cáo đã lưu trước đó trong cửa sổ xem trước.</Open>
+    <Open>Mở báo cáo đã lưu.</Open>
     <OpenAfterExport>Tự động mở tài liệu được tạo ra (sau khi xuất) bởi chương trình đã đặt cho các loại tệp này.</OpenAfterExport>
     <OwnerPassword>Mật khẩu để truy cập hoạt động với các tệp tin.</OwnerPassword>
     <PageAll>Xử lý tất cả các trang báo cáo.</PageAll>
     <PageDelete>Xóa trang báo cáo đã chọn.</PageDelete>
-    <PageDesign>Chỉnh sửa trang được chọn trong trình thiết kế báo cáo.</PageDesign>
+    <PageDesign>Chỉnh sửa trang trong trình thiết kế.</PageDesign>
     <PageFirst>Chuyển đến trang báo cáo đầu tiên.</PageFirst>
     <PageGoTo>Chuyển đến trang báo cáo cụ thể.</PageGoTo>
     <PageLast>Chuyển đến trang báo cáo mới nhất.</PageLast>
@@ -2356,7 +2356,7 @@
     <PageNext>Chuyển đến trang báo cáo tiếp theo.</PageNext>
     <PagePrevious>Chuyển đến trang báo cáo trước.</PagePrevious>
     <PageSize>Thay đổi các tham số trang trong một báo cáo.</PageSize>
-    <Parameters>Hiển thị bảng tham số được sử dụng khi xuất báo cáo.</Parameters>
+    <Parameters>Hiển thị bảng tham số báo cáo.</Parameters>
     <PdfACompliance>Hỗ trợ tiêu chuẩn nén và lưu trữ tài liệu điện tử dài hạn.</PdfACompliance>
     <PdfUniversalAccessibility>Hỗ trợ tiêu chuẩn về tài liệu và thông tin điện tử có thể truy cập toàn cầu.</PdfUniversalAccessibility>
     <Print>In báo cáo.</Print>
@@ -2373,9 +2373,10 @@
     <SkipColumnHeaders>Bật / tắt tiêu đề cột.</SkipColumnHeaders>
     <StandardPdfFonts>14 phông chữ Adobe tiêu chuẩn. Nếu tùy chọn này được kích hoạt, sau đó chỉ có 14 phông chữ tiêu chuẩn sẽ được sử dụng trong tệp PDF. Tất cả các phông chữ báo cáo được chuyển đổi thành chúng.</StandardPdfFonts>
     <SubjectNameString>Chứng chỉ nhận dạng. Tên nhận dạng là tên của chủ sở hữu chứng chỉ (dòng đầy đủ) hoặc một phần của tên (chuỗi con).</SubjectNameString>
-    <Thumbnails>Hiển thị các hình thu nhỏ có thể được sử dụng để điều hướng nhanh để tìm phần của báo cáo mà bạn muốn chuyển đến.</Thumbnails>
+    <Thumbnails>Hiển thị bảng hình thu nhỏ của trang.</Thumbnails>
     <TiffCompressionScheme>Lược đồ nén cho các tệp TIFF.</TiffCompressionScheme>
-    <ToolEditor>Công cụ này cho phép bạn chỉnh sửa nội dung của các thành phần văn bản trực tiếp trong trình xem báo cáo.</ToolEditor>
+    <ToolEditor>Chỉnh sửa văn bản báo cáo trong trình xem.</ToolEditor>
+    <ToolSignature>Đặt chữ ký của bạn vào những vị trí được đánh dấu.</ToolSignature>
     <TypeExport>Tệp báo cáo sẽ được chuyển đổi thành.</TypeExport>
     <UnsafeCompilation1>Tài liệu này sử dụng quy trình biên dịch. Trong một số trường hợp, điều này có thểkhông an toàn. Do đó, tài liệu sẽ được tải trong chế độ an toàn để giảm thiểu bất kỳ rủi ro tiềm ẩn nào.</UnsafeCompilation1>
     <UnsafeCompilation2>Nếu bạn cần tài liệu này được sử dụng dưới hình thức ban đầu của nó, vui lòng liên hệ với các nhà phát triển của bạn.</UnsafeCompilation2>
@@ -2386,12 +2387,12 @@
     <UserPassword>Mật khẩu được yêu cầu để mở tài liệu.</UserPassword>
     <UseUnicode>Hỗ trợ mở rộng cho các ký tự mã hóa. Nó ảnh hưởng đến bộ mã hóa ký tự bên trong tệp PDF và cải thiện việc sao chép văn bản từ tệp PDF.</UseUnicode>
     <ViewModeContinuous>Hiển thị tất cả các trang báo cáo dưới dạng ruy băng dọc.</ViewModeContinuous>
-    <ViewModeMultiplePages>Thu phóng báo cáo để có thể hiển thị nhiều trang nhất trong cửa sổ.</ViewModeMultiplePages>
+    <ViewModeMultiplePages>Hiển thị số trang vừa với cửa sổ.</ViewModeMultiplePages>
     <ViewModeSinglePage>Hiển thị một trang duy nhất trong cửa sổ xem trước.</ViewModeSinglePage>
-    <ZoomMultiplePages>Thu phóng báo cáo để các trang được chọn phù hợp với cửa sổ.</ZoomMultiplePages>
-    <ZoomOnePage>Thu phóng báo cáo để toàn bộ trang phù hợp trong cửa sổ.</ZoomOnePage>
-    <ZoomPageWidth>Thu phóng báo cáo để chiều rộng trang phù hợp với chiều rộng của cửa sổ.</ZoomPageWidth>
-    <ZoomTwoPages>Thu phóng báo cáo để hai trang phù hợp với cửa sổ.</ZoomTwoPages>
+    <ZoomMultiplePages>Vừa nhiều trang trong cửa sổ.</ZoomMultiplePages>
+    <ZoomOnePage>Vừa một trang trong cửa sổ.</ZoomOnePage>
+    <ZoomPageWidth>Vừa chiều rộng trang với cửa sổ.</ZoomPageWidth>
+    <ZoomTwoPages>Vừa hai trang trong cửa sổ.</ZoomTwoPages>
     <ZoomTxt>Kích thước báo cáo (tỉ lệ): X - thay đổi tỉ lệ ngang, Y - để thay đổi tỉ lệ dọc.</ZoomTxt>
   </HelpViewer>
   <Interface>
