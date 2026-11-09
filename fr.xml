@@ -5769,7 +5769,39 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <infoSort>Définissez le tri des données. Le tri est possible sur plusieurs colonnes.</infoSort>
     <infoThemes>Sélectionnez un thème pour votre rapport.</infoThemes>
     <infoTotals>Ajoutez un résumé au rapport.</infoTotals>
+    <Label>Étiquette</Label>
+    <LabelCheckAfterSheet>Non vérifié tant que la planche ne convient pas</LabelCheckAfterSheet>
+    <LabelCheckDots>Les barres s'impriment régulièrement</LabelCheckDots>
+    <LabelCheckDotsDetail>Module {0} à {1} DPI, le minimum est {2}</LabelCheckDotsDetail>
+    <LabelCheckDotsProblem>Les barres sont trop fines pour les lecteurs</LabelCheckDotsProblem>
+    <LabelCheckHeight>Le contenu tient dans la hauteur de l'étiquette</LabelCheckHeight>
+    <LabelCheckHeightDetail>{0} sur {1}</LabelCheckHeightDetail>
+    <LabelCheckHeightProblem>Le contenu ne tient pas dans la hauteur de l'étiquette</LabelCheckHeightProblem>
+    <LabelCheckNoBarCode>Pas de code-barres</LabelCheckNoBarCode>
+    <LabelCheckNoPrinter>Pas d'imprimante par défaut</LabelCheckNoPrinter>
+    <LabelCheckNoRecords>Aucun enregistrement à vérifier</LabelCheckNoRecords>
+    <LabelCheckNoSizes>Certaines tailles sont vides</LabelCheckNoSizes>
+    <LabelCheckNoSource>Pas de source de données</LabelCheckNoSource>
+    <LabelCheckPrinter>Les étiquettes tiennent dans la zone imprimable</LabelCheckPrinter>
+    <LabelCheckPrinterDetail>L'imprimante '{0}' imprime à partir de {1}, les étiquettes à partir de {2}</LabelCheckPrinterDetail>
+    <LabelCheckPrinterProblem>Les étiquettes atteignent le bord que l'imprimante n'imprime pas</LabelCheckPrinterProblem>
+    <LabelCheckPrinterReading>Lecture de l'imprimante par défaut</LabelCheckPrinterReading>
+    <LabelCheckRecords>Les enregistrements peuvent être encodés</LabelCheckRecords>
+    <LabelCheckRecordsDetail>Enregistrements vérifiés : {0} sur {1}</LabelCheckRecordsDetail>
+    <LabelCheckRecordsProblem>L'enregistrement {0} ne peut pas être encodé en {1}</LabelCheckRecordsProblem>
+    <LabelCheckRecordsReadProblem>Les enregistrements ne peuvent pas être lus</LabelCheckRecordsReadProblem>
+    <LabelCheckSheet>La mise en page tient sur la planche</LabelCheckSheet>
+    <LabelCheckSheetDetail>{0} sur {1}, marge minimale {2}</LabelCheckSheetDetail>
+    <LabelCheckSheetProblem>Les étiquettes ne tiennent pas sur la planche</LabelCheckSheetProblem>
+    <LabelCheckSheetProblemDetail>Les étiquettes dépassent le bord du papier de {0}</LabelCheckSheetProblemDetail>
+    <LabelCheckSizeDetail>{0} : {1}</LabelCheckSizeDetail>
+    <LabelCheckSizeProblem>Une taille n'est pas valide</LabelCheckSizeProblem>
+    <LabelCheckWidth>Le code-barres et les zones de silence tiennent</LabelCheckWidth>
+    <LabelCheckWidthDetail>{0} sur {1} de large</LabelCheckWidthDetail>
+    <LabelCheckWidthProblem>Le code-barres est plus large que l'étiquette</LabelCheckWidthProblem>
+    <LabelCornerText>Texte d'angle</LabelCornerText>
     <LabelDirection>Direction :</LabelDirection>
+    <LabelDots>points</LabelDots>
     <LabelHeight>Hauteur:</LabelHeight>
     <LabelHorizontalGap>Espacement horizontal des étiquettes</LabelHorizontalGap>
     <LabelLabelType>Type de label:</LabelLabelType>
@@ -5778,9 +5810,15 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <LabelNumberOfRows>Nombre de lignes:</LabelNumberOfRows>
     <LabelPageHeight>Hauteur de la page:</LabelPageHeight>
     <LabelPageWidth>Largeur de la page:</LabelPageWidth>
+    <LabelPreviewCaption>Étiquette {0} aux proportions réelles</LabelPreviewCaption>
+    <LabelPrinterResolution>Résolution de l'imprimante</LabelPrinterResolution>
+    <LabelPrintTestPage>Imprimer une page de test</LabelPrintTestPage>
+    <LabelReadyToPrint>Étiquettes : {0}, planches : {1}</LabelReadyToPrint>
     <LabelReport>Rapport</LabelReport>
     <LabelSettings>Paramètres</LabelSettings>
     <LabelSize>Taille:</LabelSize>
+    <LabelStartHere>L'impression commence ici</LabelStartHere>
+    <LabelTestPageOutlines>Contours des étiquettes sur la page de test</LabelTestPageOutlines>
     <LabelTopMargin>Marge du haut:</LabelTopMargin>
     <LabelVerticalGap>Espacement vertical des étiquettes:</LabelVerticalGap>
     <LabelWidth>Largeur:</LabelWidth>

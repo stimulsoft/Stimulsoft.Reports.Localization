@@ -3587,6 +3587,7 @@
     <RowCount>الصف الكونت</RowCount>
     <RowHeadersVisible>صف رؤوس مرئي</RowHeadersVisible>
     <RowHeaderWidth>صف رأس العرض</RowHeaderWidth>
+    <Rows>الصفوف</Rows>
     <Scale>النطاق</Scale>
     <ScaleHor>الجدول هور</ScaleHor>
     <ScriptLanguage>لغة النص</ScriptLanguage>
@@ -4236,7 +4237,39 @@
     <infoSort>حدد فرز البيانات. يمكن فرز فورا على عدة أعمدة.</infoSort>
     <infoThemes>اختر سمة لتقريرك</infoThemes>
     <infoTotals>إضافة إلى معلومات موجزة تقريرك.</infoTotals>
+    <Label>العلامة</Label>
+    <LabelCheckAfterSheet>لم يتم التحقق حتى يتسع التخطيط في الورقة</LabelCheckAfterSheet>
+    <LabelCheckDots>تُطبع الأشرطة بانتظام</LabelCheckDots>
+    <LabelCheckDotsDetail>الوحدة {0} عند {1} DPI، الحد الأدنى {2}</LabelCheckDotsDetail>
+    <LabelCheckDotsProblem>الأشرطة رفيعة جدًا بالنسبة للماسحات الضوئية</LabelCheckDotsProblem>
+    <LabelCheckHeight>المحتوى يناسب ارتفاع العلامة</LabelCheckHeight>
+    <LabelCheckHeightDetail>{0} من {1}</LabelCheckHeightDetail>
+    <LabelCheckHeightProblem>المحتوى لا يناسب ارتفاع العلامة</LabelCheckHeightProblem>
+    <LabelCheckNoBarCode>لا يوجد باركود</LabelCheckNoBarCode>
+    <LabelCheckNoPrinter>لا توجد طابعة افتراضية</LabelCheckNoPrinter>
+    <LabelCheckNoRecords>لا توجد سجلات للتحقق</LabelCheckNoRecords>
+    <LabelCheckNoSizes>بعض المقاسات فارغة</LabelCheckNoSizes>
+    <LabelCheckNoSource>لا يوجد مصدر بيانات</LabelCheckNoSource>
+    <LabelCheckPrinter>العلامات ضمن منطقة الطباعة</LabelCheckPrinter>
+    <LabelCheckPrinterDetail>الطابعة '{0}' تطبع من {1}، والعلامات من {2}</LabelCheckPrinterDetail>
+    <LabelCheckPrinterProblem>تصل العلامات إلى الحافة التي لا تطبعها الطابعة</LabelCheckPrinterProblem>
+    <LabelCheckPrinterReading>جارٍ قراءة الطابعة الافتراضية</LabelCheckPrinterReading>
+    <LabelCheckRecords>يمكن ترميز السجلات</LabelCheckRecords>
+    <LabelCheckRecordsDetail>السجلات التي تم فحصها: {0} من {1}</LabelCheckRecordsDetail>
+    <LabelCheckRecordsProblem>لا يمكن ترميز السجل {0} في {1}</LabelCheckRecordsProblem>
+    <LabelCheckRecordsReadProblem>تعذرت قراءة السجلات</LabelCheckRecordsReadProblem>
+    <LabelCheckSheet>التخطيط يناسب الورقة</LabelCheckSheet>
+    <LabelCheckSheetDetail>{0} على {1}، أصغر هامش {2}</LabelCheckSheetDetail>
+    <LabelCheckSheetProblem>العلامات لا تتسع على الورقة</LabelCheckSheetProblem>
+    <LabelCheckSheetProblemDetail>تتجاوز العلامات حافة الورقة بمقدار {0}</LabelCheckSheetProblemDetail>
+    <LabelCheckSizeDetail>{0}: {1}</LabelCheckSizeDetail>
+    <LabelCheckSizeProblem>المقاس غير صالح</LabelCheckSizeProblem>
+    <LabelCheckWidth>الباركود والمناطق الهادئة ضمن المساحة</LabelCheckWidth>
+    <LabelCheckWidthDetail>{0} من {1} عرضًا</LabelCheckWidthDetail>
+    <LabelCheckWidthProblem>الباركود أعرض من العلامة</LabelCheckWidthProblem>
+    <LabelCornerText>نص الزاوية</LabelCornerText>
     <LabelDirection>الاتجاه :</LabelDirection>
+    <LabelDots>نقاط</LabelDots>
     <LabelHeight>الطول :</LabelHeight>
     <LabelHorizontalGap>الفجوة الأفقية :</LabelHorizontalGap>
     <LabelLabelType>العلامة النوع :</LabelLabelType>
@@ -4245,9 +4278,15 @@
     <LabelNumberOfRows>عدد الصفوف :</LabelNumberOfRows>
     <LabelPageHeight>الصفحة الطول :</LabelPageHeight>
     <LabelPageWidth>صفحة العرض :</LabelPageWidth>
+    <LabelPreviewCaption>العلامة {0} بالنسب الفعلية</LabelPreviewCaption>
+    <LabelPrinterResolution>دقة الطابعة</LabelPrinterResolution>
+    <LabelPrintTestPage>طباعة صفحة اختبار</LabelPrintTestPage>
+    <LabelReadyToPrint>العلامات: {0}، الأوراق: {1}</LabelReadyToPrint>
     <LabelReport>وصف تقرير</LabelReport>
     <LabelSettings>العلامة تادادعإ</LabelSettings>
     <LabelSize>الحجم :</LabelSize>
+    <LabelStartHere>تبدأ الطباعة من هنا</LabelStartHere>
+    <LabelTestPageOutlines>طباعة حدود العلامات في صفحة الاختبار</LabelTestPageOutlines>
     <LabelTopMargin>الهامش الأعلى :</LabelTopMargin>
     <LabelVerticalGap>فرجة العمودي :</LabelVerticalGap>
     <LabelWidth>العرض :</LabelWidth>

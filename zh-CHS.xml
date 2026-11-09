@@ -5789,7 +5789,39 @@
     <infoSort>设置数据排序。您可以选择多列进行排序。</infoSort>
     <infoThemes>选择报表主题.</infoThemes>
     <infoTotals>为您的报表添加摘要信息。</infoTotals>
+    <Label>标签</Label>
+    <LabelCheckAfterSheet>布局适合纸张之前不进行检查</LabelCheckAfterSheet>
+    <LabelCheckDots>线条打印均匀</LabelCheckDots>
+    <LabelCheckDotsDetail>模块 {0},{1} DPI,最小值 {2}</LabelCheckDotsDetail>
+    <LabelCheckDotsProblem>线条太细,扫描仪无法识别</LabelCheckDotsProblem>
+    <LabelCheckHeight>内容适合标签高度</LabelCheckHeight>
+    <LabelCheckHeightDetail>{0} / {1}</LabelCheckHeightDetail>
+    <LabelCheckHeightProblem>内容超出标签高度</LabelCheckHeightProblem>
+    <LabelCheckNoBarCode>无条形码</LabelCheckNoBarCode>
+    <LabelCheckNoPrinter>无默认打印机</LabelCheckNoPrinter>
+    <LabelCheckNoRecords>没有要检查的记录</LabelCheckNoRecords>
+    <LabelCheckNoSizes>部分尺寸为空</LabelCheckNoSizes>
+    <LabelCheckNoSource>无数据源</LabelCheckNoSource>
+    <LabelCheckPrinter>标签在可打印区域内</LabelCheckPrinter>
+    <LabelCheckPrinterDetail>打印机 '{0}' 从 {1} 处打印,标签从 {2} 处开始</LabelCheckPrinterDetail>
+    <LabelCheckPrinterProblem>标签到达打印机无法打印的边缘</LabelCheckPrinterProblem>
+    <LabelCheckPrinterReading>正在读取默认打印机</LabelCheckPrinterReading>
+    <LabelCheckRecords>记录可以编码</LabelCheckRecords>
+    <LabelCheckRecordsDetail>已检查记录: {0} / {1}</LabelCheckRecordsDetail>
+    <LabelCheckRecordsProblem>记录 {0} 无法以 {1} 编码</LabelCheckRecordsProblem>
+    <LabelCheckRecordsReadProblem>无法读取记录</LabelCheckRecordsReadProblem>
+    <LabelCheckSheet>布局适合纸张</LabelCheckSheet>
+    <LabelCheckSheetDetail>{1} 上 {0},最小边距 {2}</LabelCheckSheetDetail>
+    <LabelCheckSheetProblem>标签无法放在纸张上</LabelCheckSheetProblem>
+    <LabelCheckSheetProblemDetail>标签超出纸张边缘 {0}</LabelCheckSheetProblemDetail>
+    <LabelCheckSizeDetail>{0}: {1}</LabelCheckSizeDetail>
+    <LabelCheckSizeProblem>尺寸无效</LabelCheckSizeProblem>
+    <LabelCheckWidth>条形码和静区可以容纳</LabelCheckWidth>
+    <LabelCheckWidthDetail>宽度 {0} / {1}</LabelCheckWidthDetail>
+    <LabelCheckWidthProblem>条形码比标签宽</LabelCheckWidthProblem>
+    <LabelCornerText>角落文本</LabelCornerText>
     <LabelDirection>说明:</LabelDirection>
+    <LabelDots>点</LabelDots>
     <LabelHeight>高:</LabelHeight>
     <LabelHorizontalGap>水平间距:</LabelHorizontalGap>
     <LabelLabelType>标签类型:</LabelLabelType>
@@ -5798,9 +5830,15 @@
     <LabelNumberOfRows>行数:</LabelNumberOfRows>
     <LabelPageHeight>页高:</LabelPageHeight>
     <LabelPageWidth>页宽:</LabelPageWidth>
+    <LabelPreviewCaption>标签 {0} (实际比例)</LabelPreviewCaption>
+    <LabelPrinterResolution>打印机分辨率</LabelPrinterResolution>
+    <LabelPrintTestPage>打印测试页</LabelPrintTestPage>
+    <LabelReadyToPrint>标签: {0},纸张: {1}</LabelReadyToPrint>
     <LabelReport>报表标签</LabelReport>
     <LabelSettings>标签设置</LabelSettings>
     <LabelSize>尺寸:</LabelSize>
+    <LabelStartHere>从此处开始打印</LabelStartHere>
+    <LabelTestPageOutlines>在测试页上打印标签轮廓</LabelTestPageOutlines>
     <LabelTopMargin>上边距:</LabelTopMargin>
     <LabelVerticalGap>垂直间距:</LabelVerticalGap>
     <LabelWidth>宽:</LabelWidth>

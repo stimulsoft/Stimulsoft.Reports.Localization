@@ -5777,7 +5777,39 @@
     <infoSort>データのソートを設定します。 複数の列ですぐにソートできます。</infoSort>
     <infoThemes>レポートのテーマを選択します。</infoThemes>
     <infoTotals>レポートに要約情報を追加します。</infoTotals>
+    <Label>ラベル</Label>
+    <LabelCheckAfterSheet>シートが収まるまでチェックされません</LabelCheckAfterSheet>
+    <LabelCheckDots>バーが均一に印刷されます</LabelCheckDots>
+    <LabelCheckDotsDetail>モジュール {0} ({1} DPI)、最小値は {2}</LabelCheckDotsDetail>
+    <LabelCheckDotsProblem>バーがスキャナーには細すぎます</LabelCheckDotsProblem>
+    <LabelCheckHeight>内容がラベルの高さに収まります</LabelCheckHeight>
+    <LabelCheckHeightDetail>{0} / {1}</LabelCheckHeightDetail>
+    <LabelCheckHeightProblem>内容がラベルの高さに収まりません</LabelCheckHeightProblem>
+    <LabelCheckNoBarCode>バーコードなし</LabelCheckNoBarCode>
+    <LabelCheckNoPrinter>既定のプリンターなし</LabelCheckNoPrinter>
+    <LabelCheckNoRecords>チェックするレコードがありません</LabelCheckNoRecords>
+    <LabelCheckNoSizes>空のサイズがあります</LabelCheckNoSizes>
+    <LabelCheckNoSource>データソースなし</LabelCheckNoSource>
+    <LabelCheckPrinter>ラベルが印刷可能領域に収まります</LabelCheckPrinter>
+    <LabelCheckPrinterDetail>プリンター '{0}' は {1} から印刷し、ラベルは {2} からです</LabelCheckPrinterDetail>
+    <LabelCheckPrinterProblem>ラベルがプリンターの印刷できない端にかかっています</LabelCheckPrinterProblem>
+    <LabelCheckPrinterReading>既定のプリンターを読み込んでいます</LabelCheckPrinterReading>
+    <LabelCheckRecords>レコードをエンコードできます</LabelCheckRecords>
+    <LabelCheckRecordsDetail>チェックしたレコード: {0} / {1}</LabelCheckRecordsDetail>
+    <LabelCheckRecordsProblem>レコード {0} は {1} でエンコードできません</LabelCheckRecordsProblem>
+    <LabelCheckRecordsReadProblem>レコードを読み込めません</LabelCheckRecordsReadProblem>
+    <LabelCheckSheet>レイアウトがシートに収まります</LabelCheckSheet>
+    <LabelCheckSheetDetail>{1} に {0}、最小余白 {2}</LabelCheckSheetDetail>
+    <LabelCheckSheetProblem>ラベルがシートに収まりません</LabelCheckSheetProblem>
+    <LabelCheckSheetProblemDetail>ラベルが用紙の端から {0} はみ出しています</LabelCheckSheetProblemDetail>
+    <LabelCheckSizeDetail>{0}: {1}</LabelCheckSizeDetail>
+    <LabelCheckSizeProblem>無効なサイズがあります</LabelCheckSizeProblem>
+    <LabelCheckWidth>バーコードとクワイエットゾーンが収まります</LabelCheckWidth>
+    <LabelCheckWidthDetail>幅 {0} / {1}</LabelCheckWidthDetail>
+    <LabelCheckWidthProblem>バーコードがラベルより幅が広いです</LabelCheckWidthProblem>
+    <LabelCornerText>コーナーのテキスト</LabelCornerText>
     <LabelDirection>方向：</LabelDirection>
+    <LabelDots>ドット</LabelDots>
     <LabelHeight>高さ：</LabelHeight>
     <LabelHorizontalGap>水平ギャップ：</LabelHorizontalGap>
     <LabelLabelType>ラベルの種類：</LabelLabelType>
@@ -5786,9 +5818,15 @@
     <LabelNumberOfRows>行数：</LabelNumberOfRows>
     <LabelPageHeight>ページ高さ：</LabelPageHeight>
     <LabelPageWidth>ページ幅：</LabelPageWidth>
+    <LabelPreviewCaption>ラベル {0} (実際の比率)</LabelPreviewCaption>
+    <LabelPrinterResolution>プリンターの解像度</LabelPrinterResolution>
+    <LabelPrintTestPage>テストページを印刷</LabelPrintTestPage>
+    <LabelReadyToPrint>ラベル: {0}、シート: {1}</LabelReadyToPrint>
     <LabelReport>ラベルレポート</LabelReport>
     <LabelSettings>ラベル設定</LabelSettings>
     <LabelSize>サイズ：</LabelSize>
+    <LabelStartHere>ここから印刷を開始</LabelStartHere>
+    <LabelTestPageOutlines>テストページにラベルの輪郭を印刷</LabelTestPageOutlines>
     <LabelTopMargin>上余白：</LabelTopMargin>
     <LabelVerticalGap>垂直ギャップ：</LabelVerticalGap>
     <LabelWidth>幅：</LabelWidth>

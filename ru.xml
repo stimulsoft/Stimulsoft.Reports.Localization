@@ -5768,7 +5768,39 @@
     <infoSort>Настройте сортировку данных. Допускается сортировка сразу по нескольким полям.</infoSort>
     <infoThemes>Выберите тему оформления для Вашего отчета.</infoThemes>
     <infoTotals>Добавьте итоговую информацию в отчет.</infoTotals>
+    <Label>Этикетка</Label>
+    <LabelCheckAfterSheet>Не проверено, пока лист не помещается</LabelCheckAfterSheet>
+    <LabelCheckDots>Штрихи печатаются ровно</LabelCheckDots>
+    <LabelCheckDotsDetail>Модуль {0} при {1} DPI, минимум {2}</LabelCheckDotsDetail>
+    <LabelCheckDotsProblem>Штрихи слишком тонкие для сканеров</LabelCheckDotsProblem>
+    <LabelCheckHeight>Содержимое помещается по высоте этикетки</LabelCheckHeight>
+    <LabelCheckHeightDetail>{0} из {1}</LabelCheckHeightDetail>
+    <LabelCheckHeightProblem>Содержимое не помещается по высоте этикетки</LabelCheckHeightProblem>
+    <LabelCheckNoBarCode>Нет штрихкода</LabelCheckNoBarCode>
+    <LabelCheckNoPrinter>Нет принтера по умолчанию</LabelCheckNoPrinter>
+    <LabelCheckNoRecords>Нет записей для проверки</LabelCheckNoRecords>
+    <LabelCheckNoSizes>Не все размеры заданы</LabelCheckNoSizes>
+    <LabelCheckNoSource>Нет источника данных</LabelCheckNoSource>
+    <LabelCheckPrinter>Этикетки помещаются в область печати</LabelCheckPrinter>
+    <LabelCheckPrinterDetail>Принтер '{0}' печатает от {1}, этикетки от {2}</LabelCheckPrinterDetail>
+    <LabelCheckPrinterProblem>Этикетки заходят на край, который принтер не печатает</LabelCheckPrinterProblem>
+    <LabelCheckPrinterReading>Опрос принтера по умолчанию</LabelCheckPrinterReading>
+    <LabelCheckRecords>Записи можно закодировать</LabelCheckRecords>
+    <LabelCheckRecordsDetail>Проверено записей: {0} из {1}</LabelCheckRecordsDetail>
+    <LabelCheckRecordsProblem>Запись {0} нельзя закодировать в {1}</LabelCheckRecordsProblem>
+    <LabelCheckRecordsReadProblem>Не удаётся прочитать записи</LabelCheckRecordsReadProblem>
+    <LabelCheckSheet>Раскладка помещается на лист</LabelCheckSheet>
+    <LabelCheckSheetDetail>{0} на {1}, наименьшее поле {2}</LabelCheckSheetDetail>
+    <LabelCheckSheetProblem>Этикетки не помещаются на листе</LabelCheckSheetProblem>
+    <LabelCheckSheetProblemDetail>Этикетки выходят за край листа на {0}</LabelCheckSheetProblemDetail>
+    <LabelCheckSizeDetail>{0}: {1}</LabelCheckSizeDetail>
+    <LabelCheckSizeProblem>Неверный размер</LabelCheckSizeProblem>
+    <LabelCheckWidth>Штрихкод с зонами тишины помещается</LabelCheckWidth>
+    <LabelCheckWidthDetail>{0} из {1} по ширине</LabelCheckWidthDetail>
+    <LabelCheckWidthProblem>Штрихкод шире этикетки</LabelCheckWidthProblem>
+    <LabelCornerText>Текст в углу</LabelCornerText>
     <LabelDirection>Направление:</LabelDirection>
+    <LabelDots>точки</LabelDots>
     <LabelHeight>Высота:</LabelHeight>
     <LabelHorizontalGap>Гор. промежуток:</LabelHorizontalGap>
     <LabelLabelType>Тип этикетки:</LabelLabelType>
@@ -5777,9 +5809,15 @@
     <LabelNumberOfRows>Количество строк:</LabelNumberOfRows>
     <LabelPageHeight>Высота страницы:</LabelPageHeight>
     <LabelPageWidth>Ширина страницы:</LabelPageWidth>
+    <LabelPreviewCaption>Этикетка {0} в реальных пропорциях</LabelPreviewCaption>
+    <LabelPrinterResolution>Разрешение принтера</LabelPrinterResolution>
+    <LabelPrintTestPage>Печать тестовой страницы</LabelPrintTestPage>
+    <LabelReadyToPrint>Этикеток: {0}, листов: {1}</LabelReadyToPrint>
     <LabelReport>Отчет с этикетками</LabelReport>
     <LabelSettings>Настройка этикеток</LabelSettings>
     <LabelSize>Размер:</LabelSize>
+    <LabelStartHere>Печать начинается здесь</LabelStartHere>
+    <LabelTestPageOutlines>Контуры этикеток на тестовой странице</LabelTestPageOutlines>
     <LabelTopMargin>Верхнее поле:</LabelTopMargin>
     <LabelVerticalGap>Верт. промежуток:</LabelVerticalGap>
     <LabelWidth>Ширина:</LabelWidth>

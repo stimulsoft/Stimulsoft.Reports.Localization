@@ -1853,6 +1853,7 @@
     <Round>گرد کردن</Round>
     <RowHeadersVisible>نمایش سرصفحه ردیف</RowHeadersVisible>
     <RowHeaderWidth>عرض سرصفحه ردیف</RowHeaderWidth>
+    <Rows>ردیف ها</Rows>
     <Scale>برد</Scale>
     <ScaleHor>برد افقی</ScaleHor>
     <ScriptLanguage>زبان متن سند</ScriptLanguage>
@@ -2277,7 +2278,39 @@
     <infoSelectColumns>ستون های را که می خواهید اطلاعاتش را ببینید انتخاب کنید.</infoSelectColumns>
     <infoSort>.گردآوری مرتب سازی داده.شما می توانید مرتب کنید فورا در چند ستون</infoSort>
     <infoTotals>اضافه کردن اطلاعات خلاصه به گزارش</infoTotals>
+    <Label>برچسب</Label>
+    <LabelCheckAfterSheet>تا جا شدن چیدمان در برگه بررسی نشده است</LabelCheckAfterSheet>
+    <LabelCheckDots>میله‌ها یکنواخت چاپ می‌شوند</LabelCheckDots>
+    <LabelCheckDotsDetail>ماژول {0} در {1} DPI، حداقل {2}</LabelCheckDotsDetail>
+    <LabelCheckDotsProblem>میله‌ها برای اسکنرها بیش از حد نازک هستند</LabelCheckDotsProblem>
+    <LabelCheckHeight>محتوا در ارتفاع برچسب جا می‌شود</LabelCheckHeight>
+    <LabelCheckHeightDetail>{0} از {1}</LabelCheckHeightDetail>
+    <LabelCheckHeightProblem>محتوا در ارتفاع برچسب جا نمی‌شود</LabelCheckHeightProblem>
+    <LabelCheckNoBarCode>بدون بارکد</LabelCheckNoBarCode>
+    <LabelCheckNoPrinter>چاپگر پیش‌فرض وجود ندارد</LabelCheckNoPrinter>
+    <LabelCheckNoRecords>رکوردی برای بررسی وجود ندارد</LabelCheckNoRecords>
+    <LabelCheckNoSizes>برخی اندازه‌ها خالی هستند</LabelCheckNoSizes>
+    <LabelCheckNoSource>بدون منبع داده</LabelCheckNoSource>
+    <LabelCheckPrinter>برچسب‌ها در ناحیه چاپ جا می‌شوند</LabelCheckPrinter>
+    <LabelCheckPrinterDetail>چاپگر '{0}' از {1} چاپ می‌کند، برچسب‌ها از {2}</LabelCheckPrinterDetail>
+    <LabelCheckPrinterProblem>برچسب‌ها به لبه‌ای می‌رسند که چاپگر چاپ نمی‌کند</LabelCheckPrinterProblem>
+    <LabelCheckPrinterReading>در حال خواندن چاپگر پیش‌فرض</LabelCheckPrinterReading>
+    <LabelCheckRecords>رکوردها قابل کدگذاری هستند</LabelCheckRecords>
+    <LabelCheckRecordsDetail>رکوردهای بررسی‌شده: {0} از {1}</LabelCheckRecordsDetail>
+    <LabelCheckRecordsProblem>رکورد {0} را نمی‌توان در {1} کدگذاری کرد</LabelCheckRecordsProblem>
+    <LabelCheckRecordsReadProblem>خواندن رکوردها ممکن نیست</LabelCheckRecordsReadProblem>
+    <LabelCheckSheet>چیدمان در برگه جا می‌شود</LabelCheckSheet>
+    <LabelCheckSheetDetail>{0} روی {1}، کوچک‌ترین حاشیه {2}</LabelCheckSheetDetail>
+    <LabelCheckSheetProblem>برچسب‌ها در برگه جا نمی‌شوند</LabelCheckSheetProblem>
+    <LabelCheckSheetProblemDetail>برچسب‌ها {0} از لبه کاغذ بیرون می‌زنند</LabelCheckSheetProblemDetail>
+    <LabelCheckSizeDetail>{0}: {1}</LabelCheckSizeDetail>
+    <LabelCheckSizeProblem>اندازه نامعتبر است</LabelCheckSizeProblem>
+    <LabelCheckWidth>بارکد و ناحیه‌های خالی جا می‌شوند</LabelCheckWidth>
+    <LabelCheckWidthDetail>{0} از {1} عرض</LabelCheckWidthDetail>
+    <LabelCheckWidthProblem>بارکد از برچسب پهن‌تر است</LabelCheckWidthProblem>
+    <LabelCornerText>متن گوشه</LabelCornerText>
     <LabelDirection>:جهت</LabelDirection>
+    <LabelDots>نقطه</LabelDots>
     <LabelHeight>ارتفاع:</LabelHeight>
     <LabelHorizontalGap>فضای خالی:</LabelHorizontalGap>
     <LabelLabelType>نوع برچسب:</LabelLabelType>
@@ -2286,9 +2319,15 @@
     <LabelNumberOfRows>تعداد ستون ها:</LabelNumberOfRows>
     <LabelPageHeight>:ارتفاع صفحه</LabelPageHeight>
     <LabelPageWidth>عرض صفحه:</LabelPageWidth>
+    <LabelPreviewCaption>برچسب {0} با نسبت‌های واقعی</LabelPreviewCaption>
+    <LabelPrinterResolution>وضوح چاپگر</LabelPrinterResolution>
+    <LabelPrintTestPage>چاپ صفحه آزمایشی</LabelPrintTestPage>
+    <LabelReadyToPrint>برچسب‌ها: {0}، برگه‌ها: {1}</LabelReadyToPrint>
     <LabelReport>برچسب گزارش</LabelReport>
     <LabelSettings>تنظیمات برچسب</LabelSettings>
     <LabelSize>:سایز</LabelSize>
+    <LabelStartHere>چاپ از اینجا شروع می‌شود</LabelStartHere>
+    <LabelTestPageOutlines>چاپ خطوط دور برچسب‌ها در صفحه آزمایشی</LabelTestPageOutlines>
     <LabelTopMargin>:حاشیه بالا</LabelTopMargin>
     <LabelVerticalGap>:فضای عمودی</LabelVerticalGap>
     <LabelWidth>:عرض</LabelWidth>

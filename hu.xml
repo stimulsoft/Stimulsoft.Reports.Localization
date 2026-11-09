@@ -5349,7 +5349,39 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <infoSort>Állítsd be az adatok sorrendjét. Töb oszlop is kiválasztható.</infoSort>
     <infoThemes>Select theme for your report.</infoThemes>
     <infoTotals>Adj meg összesen információt a jelentéshez.</infoTotals>
+    <Label>Címke</Label>
+    <LabelCheckAfterSheet>Nincs ellenőrizve, amíg az elrendezés nem fér a lapra</LabelCheckAfterSheet>
+    <LabelCheckDots>A vonalak egyenletesen nyomtatódnak</LabelCheckDots>
+    <LabelCheckDotsDetail>Modul {0}, {1} DPI mellett, a minimum {2}</LabelCheckDotsDetail>
+    <LabelCheckDotsProblem>A vonalak túl vékonyak a szkennerekhez</LabelCheckDotsProblem>
+    <LabelCheckHeight>A tartalom elfér a címke magasságában</LabelCheckHeight>
+    <LabelCheckHeightDetail>{0} / {1}</LabelCheckHeightDetail>
+    <LabelCheckHeightProblem>A tartalom nem fér el a címke magasságában</LabelCheckHeightProblem>
+    <LabelCheckNoBarCode>Nincs vonalkód</LabelCheckNoBarCode>
+    <LabelCheckNoPrinter>Nincs alapértelmezett nyomtató</LabelCheckNoPrinter>
+    <LabelCheckNoRecords>Nincs ellenőrizhető rekord</LabelCheckNoRecords>
+    <LabelCheckNoSizes>Néhány méret üres</LabelCheckNoSizes>
+    <LabelCheckNoSource>Nincs adatforrás</LabelCheckNoSource>
+    <LabelCheckPrinter>A címkék elférnek a nyomtatható területen</LabelCheckPrinter>
+    <LabelCheckPrinterDetail>A(z) '{0}' nyomtató {1} távolságtól nyomtat, a címkék {2} távolságtól</LabelCheckPrinterDetail>
+    <LabelCheckPrinterProblem>A címkék elérik a szélt, amelyre a nyomtató nem nyomtat</LabelCheckPrinterProblem>
+    <LabelCheckPrinterReading>Az alapértelmezett nyomtató lekérdezése</LabelCheckPrinterReading>
+    <LabelCheckRecords>A rekordok kódolhatók</LabelCheckRecords>
+    <LabelCheckRecordsDetail>Ellenőrzött rekordok: {0} / {1}</LabelCheckRecordsDetail>
+    <LabelCheckRecordsProblem>A(z) {0}. rekord nem kódolható ezzel: {1}</LabelCheckRecordsProblem>
+    <LabelCheckRecordsReadProblem>A rekordok nem olvashatók</LabelCheckRecordsReadProblem>
+    <LabelCheckSheet>Az elrendezés elfér a lapon</LabelCheckSheet>
+    <LabelCheckSheetDetail>{0}, {1} lapon, legkisebb margó {2}</LabelCheckSheetDetail>
+    <LabelCheckSheetProblem>A címkék nem férnek el a lapon</LabelCheckSheetProblem>
+    <LabelCheckSheetProblemDetail>A címkék {0} távolsággal túlnyúlnak a papír szélén</LabelCheckSheetProblemDetail>
+    <LabelCheckSizeDetail>{0}: {1}</LabelCheckSizeDetail>
+    <LabelCheckSizeProblem>Érvénytelen méret</LabelCheckSizeProblem>
+    <LabelCheckWidth>A vonalkód és a csendes zónák elférnek</LabelCheckWidth>
+    <LabelCheckWidthDetail>{0} / {1} szélességben</LabelCheckWidthDetail>
+    <LabelCheckWidthProblem>A vonalkód szélesebb a címkénél</LabelCheckWidthProblem>
+    <LabelCornerText>Sarokszöveg</LabelCornerText>
     <LabelDirection>Rendezés:</LabelDirection>
+    <LabelDots>pont</LabelDots>
     <LabelHeight>Magasság:</LabelHeight>
     <LabelHorizontalGap>Vízszinets köz:</LabelHorizontalGap>
     <LabelLabelType>Címke típus:</LabelLabelType>
@@ -5358,9 +5390,15 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <LabelNumberOfRows>Sorok száma:</LabelNumberOfRows>
     <LabelPageHeight>Lap magasság:</LabelPageHeight>
     <LabelPageWidth>Lap szélesség:</LabelPageWidth>
+    <LabelPreviewCaption>{0}. címke valós arányokban</LabelPreviewCaption>
+    <LabelPrinterResolution>Nyomtató felbontása</LabelPrinterResolution>
+    <LabelPrintTestPage>Tesztoldal nyomtatása</LabelPrintTestPage>
+    <LabelReadyToPrint>Címkék: {0}, lapok: {1}</LabelReadyToPrint>
     <LabelReport>Jelentés címke</LabelReport>
     <LabelSettings>Cimke beállítások</LabelSettings>
     <LabelSize>Méret:</LabelSize>
+    <LabelStartHere>A nyomtatás itt kezdődik</LabelStartHere>
+    <LabelTestPageOutlines>Címkék körvonala a tesztoldalon</LabelTestPageOutlines>
     <LabelTopMargin>Felső margó:</LabelTopMargin>
     <LabelVerticalGap>Függőleges köz:</LabelVerticalGap>
     <LabelWidth>Szélesség:</LabelWidth>

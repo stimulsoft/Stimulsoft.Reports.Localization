@@ -5771,7 +5771,39 @@
     <infoSort>Set the sorting of the data. You can sort on multiple columns at once.</infoSort>
     <infoThemes>Select a theme for your report.</infoThemes>
     <infoTotals>Add summary information to your report.</infoTotals>
+    <Label>Label</Label>
+    <LabelCheckAfterSheet>Not checked until the sheet fits</LabelCheckAfterSheet>
+    <LabelCheckDots>Bars print evenly</LabelCheckDots>
+    <LabelCheckDotsDetail>Module {0} at {1} DPI, the minimum is {2}</LabelCheckDotsDetail>
+    <LabelCheckDotsProblem>The bars are too thin for scanners</LabelCheckDotsProblem>
+    <LabelCheckHeight>Content fits the label height</LabelCheckHeight>
+    <LabelCheckHeightDetail>{0} of {1}</LabelCheckHeightDetail>
+    <LabelCheckHeightProblem>The content does not fit the label height</LabelCheckHeightProblem>
+    <LabelCheckNoBarCode>No barcode</LabelCheckNoBarCode>
+    <LabelCheckNoPrinter>No default printer</LabelCheckNoPrinter>
+    <LabelCheckNoRecords>No records to check</LabelCheckNoRecords>
+    <LabelCheckNoSizes>Some sizes are empty</LabelCheckNoSizes>
+    <LabelCheckNoSource>No data source</LabelCheckNoSource>
+    <LabelCheckPrinter>Labels fit the printable area</LabelCheckPrinter>
+    <LabelCheckPrinterDetail>Printer '{0}' prints from {1}, the labels from {2}</LabelCheckPrinterDetail>
+    <LabelCheckPrinterProblem>The labels reach the edge the printer cannot print</LabelCheckPrinterProblem>
+    <LabelCheckPrinterReading>Reading the default printer</LabelCheckPrinterReading>
+    <LabelCheckRecords>Records can be encoded</LabelCheckRecords>
+    <LabelCheckRecordsDetail>Records checked: {0} of {1}</LabelCheckRecordsDetail>
+    <LabelCheckRecordsProblem>Record {0} cannot be encoded in {1}</LabelCheckRecordsProblem>
+    <LabelCheckRecordsReadProblem>The records cannot be read</LabelCheckRecordsReadProblem>
+    <LabelCheckSheet>Layout fits the sheet</LabelCheckSheet>
+    <LabelCheckSheetDetail>{0} on {1}, smallest margin {2}</LabelCheckSheetDetail>
+    <LabelCheckSheetProblem>The labels do not fit on the sheet</LabelCheckSheetProblem>
+    <LabelCheckSheetProblemDetail>The labels go {0} past the edge of the paper</LabelCheckSheetProblemDetail>
+    <LabelCheckSizeDetail>{0}: {1}</LabelCheckSizeDetail>
+    <LabelCheckSizeProblem>A size is not valid</LabelCheckSizeProblem>
+    <LabelCheckWidth>Barcode and quiet zones fit</LabelCheckWidth>
+    <LabelCheckWidthDetail>{0} of {1} wide</LabelCheckWidthDetail>
+    <LabelCheckWidthProblem>The barcode is wider than the label</LabelCheckWidthProblem>
+    <LabelCornerText>Corner Text</LabelCornerText>
     <LabelDirection>Direction:</LabelDirection>
+    <LabelDots>dots</LabelDots>
     <LabelHeight>Height:</LabelHeight>
     <LabelHorizontalGap>Horizontal Gap:</LabelHorizontalGap>
     <LabelLabelType>Label Type:</LabelLabelType>
@@ -5780,9 +5812,15 @@
     <LabelNumberOfRows>Number of Rows:</LabelNumberOfRows>
     <LabelPageHeight>Page Height:</LabelPageHeight>
     <LabelPageWidth>Page Width:</LabelPageWidth>
+    <LabelPreviewCaption>Label {0} at Actual Proportions</LabelPreviewCaption>
+    <LabelPrinterResolution>Printer Resolution</LabelPrinterResolution>
+    <LabelPrintTestPage>Print Test Page</LabelPrintTestPage>
+    <LabelReadyToPrint>Labels: {0}, Sheets: {1}</LabelReadyToPrint>
     <LabelReport>Label Report</LabelReport>
     <LabelSettings>Label Settings</LabelSettings>
     <LabelSize>Size:</LabelSize>
+    <LabelStartHere>Printing Starts Here</LabelStartHere>
+    <LabelTestPageOutlines>Print Label Outlines on the Test Page</LabelTestPageOutlines>
     <LabelTopMargin>Top Margin:</LabelTopMargin>
     <LabelVerticalGap>Vertical Gap:</LabelVerticalGap>
     <LabelWidth>Width:</LabelWidth>
