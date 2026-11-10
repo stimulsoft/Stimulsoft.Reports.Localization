@@ -1,8 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Localization language="Lithuanian" description="Lietuvių" cultureName="lt">
   <A_WebViewer>
+    <ButtonNext>Kitas</ButtonNext>
+    <ButtonPrev>Ankstesnis</ButtonPrev>
     <FirstPage>Pirmas lapas</FirstPage>
     <LastPage>Paskutinis lapas</LastPage>
+    <Loading>Įkeliama...</Loading>
     <NextPage>Kitas lapas</NextPage>
     <OnePage>Vienas lapas</OnePage>
     <Page>Lapas</Page>
@@ -41,6 +44,8 @@
     <Down>Žemyn</Down>
     <Export>Eksportuoti</Export>
     <Help>Pagalba</Help>
+    <More>Daugiau</More>
+    <MoveToResource>Perkelti į išteklius</MoveToResource>
     <Ok>Gerai</Ok>
     <Open>Atidaryti</Open>
     <OpenInSafeMode>Atidaryti saugiuoju režimu</OpenInSafeMode>
@@ -57,17 +62,20 @@
     <Submit>Invia</Submit>
     <Test>Testas</Test>
     <Up>Aukštyn</Up>
+    <Upload>Įkelti</Upload>
   </Buttons>
   <Chart>
     <Bubble>Bollea</Bubble>
     <Candlestick>Candlestick</Candlestick>
     <Financial>Finanziario</Financial>
+    <Flow>Srautas</Flow>
     <Funnel>Imbuto</Funnel>
     <LabelCloseValueDataColumn>Colonna valore di chiusura:</LabelCloseValueDataColumn>
     <LabelEndValueDataColumn>Calonna valore finale:</LabelEndValueDataColumn>
     <LabelHighValueDataColumn>Colonna massimo:</LabelHighValueDataColumn>
     <LabelLowValueDataColumn>Colonna minimo:</LabelLowValueDataColumn>
     <LabelOpenValueDataColumn>Colonna valore di apertura:</LabelOpenValueDataColumn>
+    <Network>Tinklas</Network>
     <Radar>Radar</Radar>
     <RadarArea>Zona radar</RadarArea>
     <RadarLine>Linea radar</RadarLine>
@@ -80,6 +88,7 @@
   </Chart>
   <Cloud>
     <AccountSettings>Impostazioni account</AccountSettings>
+    <AgreeToReceiveNewsletters>Sutinku gauti Stimulsoft rinkodaros el. laiškus, įskaitant produktų naujienas, versijų pranešimus ir pasiūlymus. Galiu bet kada atsisakyti prenumeratos.</AgreeToReceiveNewsletters>
     <Cancel>Annulla</Cancel>
     <Collection>Galleria</Collection>
     <Create>Crea</Create>
@@ -88,6 +97,7 @@
     <DoNotAskMe>Daugiau neklausti</DoNotAskMe>
     <labelCollectionName>Nome galleria:</labelCollectionName>
     <labelFileName>Nome file:</labelFileName>
+    <LabelFromReport>Iš ataskaitos</LabelFromReport>
     <labelPassword>Password:</labelPassword>
     <labelUserName>User Name:</labelUserName>
     <Login>Login</Login>
@@ -160,6 +170,8 @@
     <StiZipCode>Zip kodas</StiZipCode>
   </Components>
   <Dashboard>
+    <Dimensions>Dimensijos</Dimensions>
+    <EditExpression>Redaguoti išraišką</EditExpression>
     <ViewEditCompilationNotice>Negalite redaguoti ataskaitos, kurios savybė 'Report.CalculationMode' nustatyta į 'Compilation'. Nustatykite šią savybę į 'Interpretation'.</ViewEditCompilationNotice>
     <ViewEditCompilationTitle>Redagavimas negalimas</ViewEditCompilationTitle>
   </Dashboard>
@@ -225,6 +237,7 @@
     <FromCursor>Nuo žymeklio</FromCursor>
     <GotoLine>Eiti į ei&amp;lutę</GotoLine>
     <InsertLink>Įterpti nuorodą</InsertLink>
+    <InsertSymbol>Įterpti simbolį</InsertSymbol>
     <Line>Eilutė: {0}</Line>
     <LineNumber>Eilutės numeris:</LineNumber>
     <LineNumberIndex>Eilutės numeris ({0} - {1})</LineNumberIndex>
@@ -252,6 +265,7 @@
     <titleReplace>Pakeisti</titleReplace>
     <ToggleAllOutlining>Įjungti/išj. &amp;visus kontūrus</ToggleAllOutlining>
     <ToggleOutliningExpansion>&amp;Perjungti kontūravimo plėtimąsi</ToggleOutliningExpansion>
+    <TypeToSearch>Įveskite paieškai</TypeToSearch>
     <UseRegularExpressions>Naudoti &amp;reguliariąsias išraiškas</UseRegularExpressions>
   </Editor>
   <Errors>
@@ -304,6 +318,7 @@
     <ExportTypeHtml5File>File HTML5...</ExportTypeHtml5File>
     <ExportTypeHtmlFile>HTML failas...</ExportTypeHtmlFile>
     <ExportTypeJpegFile>JPEG paveikslėlis...</ExportTypeJpegFile>
+    <ExportTypeMarkdownFile>Markdown failas...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Windows Metafile...</ExportTypeMetafile>
     <ExportTypePdfFile>Adobe PDF failas...</ExportTypePdfFile>
     <ExportTypePngFile>PNG paveikslėlis...</ExportTypePngFile>
@@ -321,6 +336,10 @@
     <MonochromeDitheringType>Tipo Dithering Monocromatico:</MonochromeDitheringType>
     <MoreSettings>Daugiau nustatymų</MoreSettings>
     <OpenAfterExport>Eksportavus atidaryti</OpenAfterExport>
+    <PageBands>Puslapio viršus/apačia:</PageBands>
+    <PageBandsAll>Visi</PageBandsAll>
+    <PageBandsFirstAndLast>Pirmas viršus ir paskutinė apačia</PageBandsFirstAndLast>
+    <PageBandsNone>Nėra</PageBandsNone>
     <PdfACompliance>Conformità PDF/A</PdfACompliance>
     <RemoveEmptySpaceAtBottom>Rimuovi spazi vuoti in fondo alla pagina</RemoveEmptySpaceAtBottom>
     <Separator>Skirtukas:</Separator>
@@ -358,6 +377,7 @@
     <JpegFiles>JPEG paveikslėliai (*.jpg;*.jpeg)|*.jpg;*.jpeg</JpegFiles>
     <LanguageFiles>{0} failai (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} files per Silverlight reports (*.{1})|*.{2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>Markdown failai (*.md)|*.md</MarkdownFiles>
     <PageFiles>Puslapių failai (*.pg)|*.pg</PageFiles>
     <PdfFiles>Adobe PDF failai (*.pdf)|*.pdf</PdfFiles>
     <PngFiles>PNG paveikslėliai (*.png)|*.png</PngFiles>
@@ -473,6 +493,7 @@
   <FormDesigner>
     <Code>Kodas</Code>
     <CompilingReport>Ataskaitos kompiliavimas</CompilingReport>
+    <LoadImage>Įkelti paveikslėlį...</LoadImage>
     <LocalizePropertyGrid>Lokalizuoti savybes</LocalizePropertyGrid>
     <OrderToolbars>Surūšiuoti įrankių juostas</OrderToolbars>
     <Others>Kitos</Others>
@@ -524,6 +545,8 @@
     <SelectTypeOfBusinessObject>Seleziona Tipo di Business Object</SelectTypeOfBusinessObject>
     <Synchronize>Sinchronizuoti</Synchronize>
     <SynchronizeHint>Sinchronizuoja Data Store ir žodyno turinį</SynchronizeHint>
+    <TextDropFileHere>Nutempkite failą čia</TextDropFileHere>
+    <TextDropImageHere>Nutempkite paveikslėlio failą čia</TextDropImageHere>
     <title>Žodyno komponuotojas</title>
     <ValueNew>Nuovo valore</ValueNew>
     <VariableEdit>Redaguoti kintamąjį</VariableEdit>
@@ -774,7 +797,9 @@
   <HelpViewer>
     <Bookmarks>Rodyti žymių skydelį.</Bookmarks>
     <DotMatrixMode>Ataskaitos peržiūra matriciniam spausdintuvui.</DotMatrixMode>
+    <EmbeddedFontsHtml>Įterpti šriftų failus į HTML failą: jokių, tik pasirinktinius arba visus ataskaitoje naudojamus šriftus.</EmbeddedFontsHtml>
     <Open>Atidaryti išsaugotą ataskaitą.</Open>
+    <PageBands>Kurie puslapių viršai ir apačios patenka į dokumentą: jokie, pirmas viršus ir paskutinė apačia arba visi.</PageBands>
     <PageDesign>Redaguoti lapą dizaineryje.</PageDesign>
     <Parameters>Rodyti ataskaitos parametrų skydelį.</Parameters>
     <Thumbnails>Rodyti lapų eskizų skydelį.</Thumbnails>
@@ -888,6 +913,9 @@
 
 El. laiškas išsiųstas adresu "{0}". Jame yra nuoroda registracijai patvirtinti. Norėdami užbaigti registraciją, paspauskite gautame el. laiške esančią nuorodą.</TextRegistrationSuccessfully>
   </Messages>
+  <Notices>
+    <IsNotAuthorized>Nėra prieigos prie "{0}"!</IsNotAuthorized>
+  </Notices>
   <Panels>
     <Dictionary>Žodynas</Dictionary>
     <Messages>Pranešimai</Messages>
@@ -1203,6 +1231,10 @@ El. laiškas išsiųstas adresu "{0}". Jame yra nuoroda registracijai patvirtint
     <StiHorAlignmentCenter>Centre</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>Kairėje</StiHorAlignmentLeft>
     <StiHorAlignmentRight>Dešinėje</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>Visi šriftai</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>Tik pasirinktiniai</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>Nėra</StiHtmlEmbeddedFontsModeNone>
+    <StiImageProcessingDuplicatesTypeRemoveImage>Pašalinti paveikslėlį</StiImageProcessingDuplicatesTypeRemoveImage>
     <StiKeepDetailsKeepDetailsTogether>Mantenere i dettagli insieme</StiKeepDetailsKeepDetailsTogether>
     <StiKeepDetailsKeepFirstDetailTogether>Mantenere il primo dettaglio insieme</StiKeepDetailsKeepFirstDetailTogether>
     <StiKeepDetailsKeepFirstRowTogether>Mantieni la prima riga insieme</StiKeepDetailsKeepFirstRowTogether>
@@ -1244,6 +1276,8 @@ El. laiškas išsiųstas adresu "{0}". Jame yra nuoroda registracijai patvirtint
     <StiReportUnitTypeInches>Coliai</StiReportUnitTypeInches>
     <StiReportUnitTypeMillimeters>Milimetrai</StiReportUnitTypeMillimeters>
     <StiReportUnitTypePixels>Ekrano taškai</StiReportUnitTypePixels>
+    <StiRestrictionsAll>Visi</StiRestrictionsAll>
+    <StiSelectionModeFromVariable>Iš kintamojo</StiSelectionModeFromVariable>
     <StiSeriesLabelsValueTypeTag>Tag</StiSeriesLabelsValueTypeTag>
     <StiSeriesLabelsValueTypeWeight>Peso</StiSeriesLabelsValueTypeWeight>
     <StiShapeDirectionDown>Žemyn</StiShapeDirectionDown>
@@ -1559,6 +1593,8 @@ El. laiškas išsiųstas adresu "{0}". Jame yra nuoroda registracijai patvirtint
     <FontName>Šrifto pavadinimas</FontName>
     <FontSize>Šrifto dydis</FontSize>
     <FontStrikeout>Perbrauktas</FontStrikeout>
+    <FontSubscript>Apatinis indeksas</FontSubscript>
+    <FontSuperscript>Viršutinis indeksas</FontSuperscript>
     <FontUnderline>Pabrauktas</FontUnderline>
     <FontUnit>Šrifto matavimo vienetas</FontUnit>
     <ForeColor>Teksto spalva</ForeColor>
@@ -1667,7 +1703,12 @@ El. laiškas išsiųstas adresu "{0}". Jame yra nuoroda registracijai patvirtint
     <Namespaces>Vardų sritys</Namespaces>
     <Negative>Negativo</Negative>
     <NestedLevel>Livello nidificato</NestedLevel>
+    <NetworkEdgeLength>Tinklo briaunų ilgis</NetworkEdgeLength>
+    <NetworkIterations>Tinklo iteracijos</NetworkIterations>
+    <NetworkLayout>Tinklo išdėstymas</NetworkLayout>
+    <NetworkRepulsion>Tinklo mazgų atostūmis</NetworkRepulsion>
     <NextPage>Kitas lapas</NextPage>
+    <NoElements>Nėra elementų</NoElements>
     <NoIcon>Nessuna icona</NoIcon>
     <NullText>Tuščias tekstas</NullText>
     <NumberOfColumns>Stulpelių skaičius</NumberOfColumns>
@@ -1730,6 +1771,7 @@ El. laiškas išsiųstas adresu "{0}". Jame yra nuoroda registracijai patvirtint
     <RequestParameters>Richiedi parametri</RequestParameters>
     <ResetDataSource>Išvalyti duomenis</ResetDataSource>
     <Resize>Dydžio keitimas</Resize>
+    <Resource>Išteklius</Resource>
     <Right>Iš dešinės</Right>
     <RightToLeft>Iš dešinės į kairę</RightToLeft>
     <Rotation>Rotazione</Rotation>
@@ -1772,6 +1814,7 @@ El. laiškas išsiųstas adresu "{0}". Jame yra nuoroda registracijai patvirtint
     <SortDirection>Rūšiavimo kryptis</SortDirection>
     <Sorted>Surūšiuota</Sorted>
     <SortType>Rūšiavimo tipas</SortType>
+    <Source>Šaltinis</Source>
     <Space>Tarpas</Space>
     <SqlCommand>SQL komanda</SqlCommand>
     <StartCap>Tratto iniziale</StartCap>
@@ -1825,6 +1868,7 @@ El. laiškas išsiųstas adresu "{0}". Jame yra nuoroda registracijai patvirtint
     <UnlimitedBreakable>Išskiriamas neribotas</UnlimitedBreakable>
     <UnlimitedHeight>Neribojamas aukštis</UnlimitedHeight>
     <UnlimitedWidth>Neribojamas plotis</UnlimitedWidth>
+    <URL>URL</URL>
     <Value>Reikšmė</Value>
     <ValueClose>Valore chiusura</ValueClose>
     <ValueDataColumnClose>Colonna dati chiusura</ValueDataColumnClose>
@@ -1933,6 +1977,7 @@ El. laiškas išsiųstas adresu "{0}". Jame yra nuoroda registracijai patvirtint
     <LabelDataBand>Duomenų skiltis:</LabelDataBand>
     <LabelDataColumn>Duomenų stulpelis:</LabelDataColumn>
     <LabelDataName>Duomenų pavadinimas:</LabelDataName>
+    <LabelExpression>Išraiška:</LabelExpression>
     <LabelFactorLevel>Fattore nidificato:</LabelFactorLevel>
     <LabelFontName>Šrifto pavadinimas:</LabelFontName>
     <LabelFunction>Funkcija:</LabelFunction>
@@ -1966,6 +2011,7 @@ El. laiškas išsiųstas adresu "{0}". Jame yra nuoroda registracijai patvirtint
     <ReportRenderingMessages>Messaggi di rendering</ReportRenderingMessages>
     <RestartDesigner>Devi riavviare il designer di report</RestartDesigner>
     <SaveReportPagesOrFormsFromReport>Salva un report, pagine e forms</SaveReportPagesOrFormsFromReport>
+    <ShowIncompatibleTypes>Rodyti nesuderinamus tipus</ShowIncompatibleTypes>
     <Standard>Standard</Standard>
     <StandardConfiguration>Proprietà complete degli oggetti principali ad eccezione di quelli meno utilizzati.</StandardConfiguration>
     <StiGradientBrush>Nuolaidus</StiGradientBrush>
@@ -1976,6 +2022,10 @@ El. laiškas išsiųstas adresu "{0}". Jame yra nuoroda registracijai patvirtint
     <WhenAnd>Quando {0} {1} e</WhenAnd>
     <WhenValueIs>Quando il valore è</WhenValueIs>
   </Report>
+  <ReportOpen>
+    <Browse>Naršyti</Browse>
+    <Import>Importuoti</Import>
+  </ReportOpen>
   <Scheduler>
     <ActionRunReport>Esegui Report</ActionRunReport>
     <DayAll>Tutto</DayAll>
@@ -2002,6 +2052,7 @@ El. laiškas išsiųstas adresu "{0}". Jame yra nuoroda registracijai patvirtint
     <NumberOfDayThird>Terzo</NumberOfDayThird>
     <RadioButtonDay>giorno</RadioButtonDay>
     <RadioButtonOn>On</RadioButtonOn>
+    <ShowHTMLReportsInMessageBody>Rodyti HTML ataskaitas laiško tekste</ShowHTMLReportsInMessageBody>
     <TextDragDropDestinationHere>Trascina qui l'Item di Destinazione</TextDragDropDestinationHere>
     <TextDragDropReportHere>Trascina qui il Report</TextDragDropReportHere>
     <TextPressPlusIconAddNewAction>Clicca l'icona più per aggiungere una nuova azione!</TextPressPlusIconAddNewAction>
@@ -2186,6 +2237,7 @@ El. laiškas išsiųstas adresu "{0}". Jame yra nuoroda registracijai patvirtint
     <Custom>Pasirinktas</Custom>
     <DataSource>Duomenų šaltinis</DataSource>
     <DefaultThemes>Temi di default</DefaultThemes>
+    <Examples>Pavyzdžiai</Examples>
     <groupCreateNewPageOrForm>Crea Nuova Pagina o Form</groupCreateNewPageOrForm>
     <Groups>Grupės</Groups>
     <infoColumnsOrder>Sulygiuoti stulpelius reikiama tvarka.</infoColumnsOrder>

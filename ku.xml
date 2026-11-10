@@ -216,6 +216,7 @@
     <DataColumns>ستوونەکانی داتا</DataColumns>
     <Doughnut>دۆنات</Doughnut>
     <Financial>دارایی</Financial>
+    <Flow>ڕەوت</Flow>
     <FullStackedArea>ڕووبەری تەواو-لەسەر یەک دانراو</FullStackedArea>
     <FullStackedBar>شریتی تەواو-لەسەر یەک دانراو</FullStackedBar>
     <FullStackedColumn>ستوونی تەواو-لەسەر یەک دانراو</FullStackedColumn>
@@ -279,6 +280,7 @@
     <MoveSeriesUp>گواستنەوەی زنجیرە بۆ سەرەوە</MoveSeriesUp>
     <MoveStripDown>گواستنەوەی شریت بۆ خوارەوە</MoveStripDown>
     <MoveStripUp>گواستنەوەی شریت بۆ سەرەوە</MoveStripUp>
+    <Network>تۆڕ</Network>
     <NoConditions>هیچ مەرجێک نیە</NoConditions>
     <NoFilters>بێ فلتەر</NoFilters>
     <Pareto>پاریتۆ</Pareto>
@@ -411,6 +413,7 @@
     <Account>هەژمار</Account>
     <AccountSettings>ڕێکخستەنەکانی هەژمار</AccountSettings>
     <AddAPlace>زیادکردنی شوێنێک</AddAPlace>
+    <AgreeToReceiveNewsletters>ڕازیم بە وەرگرتنی ئیمەیڵی بازاڕکردن لە Stimulsoft، لەوانە هەواڵی بەرهەمەکان، ڕاگەیاندنی وەشانەکان و ئۆفەرەکان. دەتوانم لە هەر کاتێکدا بەشداریکردنەکەم هەڵبوەشێنمەوە.</AgreeToReceiveNewsletters>
     <AreYouSureYouWantDeleteReport>ئایا دڵنیای لەوەی دەتەوێت ڕاپۆرتی "{0}" بسڕیتەوە؟</AreYouSureYouWantDeleteReport>
     <Authorize>ڕێپێدان</Authorize>
     <AuthorizeWithLicenseKey>ڕێپێدان لەڕێی کلیلی مۆڵەتەوە</AuthorizeWithLicenseKey>
@@ -1131,6 +1134,7 @@
     <ExportTypeImageFile>فایلی وێنە...</ExportTypeImageFile>
     <ExportTypeJpegFile>وێنەی JPEG...</ExportTypeJpegFile>
     <ExportTypeJsonFile>فایلی JSON...</ExportTypeJsonFile>
+    <ExportTypeMarkdownFile>فایلی Markdown...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>فایلی Windows Meta...</ExportTypeMetafile>
     <ExportTypeMhtFile>ئەرچیڤی MHT Web...</ExportTypeMhtFile>
     <ExportTypePcxFile>وێنەی PCX...</ExportTypePcxFile>
@@ -1167,6 +1171,10 @@
     <NoMoreThan>زیاتر لەوە نا</NoMoreThan>
     <OpenAfterExport>کردنەوە پاش هەناردەکردن</OpenAfterExport>
     <Ordered>ڕیزکراو</Ordered>
+    <PageBands>سەرپەڕە و ژێرپەڕەکانی لاپەڕە:</PageBands>
+    <PageBandsAll>هەموو</PageBandsAll>
+    <PageBandsFirstAndLast>یەکەم سەرپەڕە و دوا ژێرپەڕە</PageBandsFirstAndLast>
+    <PageBandsNone>هیچ</PageBandsNone>
     <PdfACompliance>PDF/A پابەندبوون</PdfACompliance>
     <PdfUA>PDF/UA (دەستپێڕاگەیشتنی گشتگیر)</PdfUA>
     <PrintingReport>چاپکردنی ڕاپۆرت</PrintingReport>
@@ -1232,6 +1240,7 @@
     <JsonReportFiles>JSON Stimulsoft Templates (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} Classes (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} Classes for Silverlight Reports (*.{1})|*.{2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>فایلەکانی Markdown (*.md)|*.md</MarkdownFiles>
     <MetaFiles>Metafiles</MetaFiles>
     <MhtFiles>MHT Web Archives (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>Packed Stimulsoft Documents (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -2323,6 +2332,7 @@
     <DrawBorder>وێنەکێشانی سنوورەکانی پێکهاتەکان لەگەڵ هێما گرافیکیەکان.</DrawBorder>
     <Edit>گۆڕانکاری لە پێکهاتەکان.</Edit>
     <EmbeddedFonts>فایلەکانی فۆنتەکە بنچین بکە ناو فایلی PDF.</EmbeddedFonts>
+    <EmbeddedFontsHtml>فایلەکانی فۆنت بنچین بکە ناو فایلی HTML: هیچیان، تەنها فۆنتە تایبەتەکان، یان هەموو ئەو فۆنتانەی لە ڕاپۆرتەکەدا بەکارهاتوون.</EmbeddedFontsHtml>
     <EmbeddedImageData>وێنەکان ڕاستەوخۆ بنچینە بکە ناو فایلی HTML.</EmbeddedImageData>
     <Encoding>مشەفەرکردنی دەقی ڕاپۆرت پاش هەناردەکردن.</Encoding>
     <EncodingData>مشەفەرکردنی فایلی داتا.</EncodingData>
@@ -2350,6 +2360,7 @@
     <OpenAfterExport>کردنەوەی خۆکارانەی دۆکیومێنتی دروست کراو (دوای هەناردەکردن) لەلایەن بەرنامەی دانراو بۆ ئەم جۆرە فایلانە.</OpenAfterExport>
     <OwnerPassword>ووشەی نهێنی بۆ چوونە ژورەوەی کردارەکان لەگەڵ فایلەکان.</OwnerPassword>
     <PageAll>پرۆسەکردنی هەموو لاپەڕەکانی ڕاپۆرت.</PageAll>
+    <PageBands>کام سەرپەڕە و ژێرپەڕەی لاپەڕە دەچنە ناو بەڵگەنامەکە: هیچیان، یەکەم سەرپەڕە و دوا ژێرپەڕە، یان هەموویان.</PageBands>
     <PageDelete>سڕینەوەی پەڕەی راپۆرتی دیاریکراو.</PageDelete>
     <PageDesign>گۆڕانکاری لە پەڕە لە دیزاینەردا.</PageDesign>
     <PageFirst>بڕۆ بۆ یەکەم لاپەڕەی ڕاپۆرت.</PageFirst>
@@ -3432,6 +3443,9 @@
     <StiHorAlignmentCenter>ناوەڕاست</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>چەپ</StiHorAlignmentLeft>
     <StiHorAlignmentRight>ڕاست</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>هەموو فۆنتەکان</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>تەنها تایبەت</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>هیچ</StiHtmlEmbeddedFontsModeNone>
     <StiIconAlignmentBottom>خوارەوە</StiIconAlignmentBottom>
     <StiIconAlignmentLeft>چەپ</StiIconAlignmentLeft>
     <StiIconAlignmentNone>هیچ</StiIconAlignmentNone>
@@ -4603,6 +4617,10 @@
     <NegativeSeriesColors>ڕەنگەکانی زنجیرەی نەرێن</NegativeSeriesColors>
     <NegativeTextBrush>فڵچەی تێکستی نەرێنی</NegativeTextBrush>
     <NestedLevel>ئاستە لەناو یەکەکان</NestedLevel>
+    <NetworkEdgeLength>درێژی لێوارەکانی تۆڕ</NetworkEdgeLength>
+    <NetworkIterations>دووبارەکردنەوەکانی تۆڕ</NetworkIterations>
+    <NetworkLayout>لەیئاوتی تۆڕ</NetworkLayout>
+    <NetworkRepulsion>پاڵنانی گرێکانی تۆڕ</NetworkRepulsion>
     <NewColumnAfter>زیاکردنی ستوونی نوێ لە داواوە</NewColumnAfter>
     <NewColumnBefore>زیادکردنی ستوونی نوێ لە پێشەوە</NewColumnBefore>
     <NewPageAfter>پەڕەی نوێ لە دواوە</NewPageAfter>
@@ -5481,6 +5499,7 @@
     <Scheduler>خشتەی کات دانەر</Scheduler>
     <Schedulers>خشتەی کات دانەرەکان</Schedulers>
     <SenderEmail>ئیمەیڵی نێرەر</SenderEmail>
+    <ShowHTMLReportsInMessageBody>ڕاپۆرتەکانی HTML لە ناوەڕۆکی نامەکەدا پیشان بدە</ShowHTMLReportsInMessageBody>
     <SmtpSettings>ڕێکخستەکانی Smtp</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuration>وەستاندنی هەموو ئەرکەکانی لە کارکردندان لە کۆتایی ماوەی دووبارەبوونەوە</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>ئەرکەکان بوەستێنە ئەگەر درێژتر بێت لە</StopTasksIfItRunsLongerThan>

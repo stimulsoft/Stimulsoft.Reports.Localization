@@ -216,6 +216,7 @@
     <DataColumns>Колони данни</DataColumns>
     <Doughnut>Пръстен</Doughnut>
     <Financial>Финанси</Financial>
+    <Flow>Поток</Flow>
     <FullStackedArea>Нормирана област</FullStackedArea>
     <FullStackedBar>Нормирана ивица</FullStackedBar>
     <FullStackedColumn>Нормирана хистограма</FullStackedColumn>
@@ -279,6 +280,7 @@
     <MoveSeriesUp>Преместване на сериите нагоре</MoveSeriesUp>
     <MoveStripDown>Преместване на лентата надолу</MoveStripDown>
     <MoveStripUp>Преместване на лентата нагоре</MoveStripUp>
+    <Network>Мрежа</Network>
     <NoConditions>Няма условия</NoConditions>
     <NoFilters>Няма филтри</NoFilters>
     <Pareto>Парето</Pareto>
@@ -411,6 +413,7 @@
     <Account>Регистрация</Account>
     <AccountSettings>Настройки на профила</AccountSettings>
     <AddAPlace>Добави място</AddAPlace>
+    <AgreeToReceiveNewsletters>Давам съгласие да получавам маркетингови имейли от Stimulsoft, включително новини за продуктите, съобщения за нови версии и оферти. Мога да се отпиша по всяко време.</AgreeToReceiveNewsletters>
     <AreYouSureYouWantDeleteReport>Сигурни ли сте, че искате да изтриете "{0}" отчет от диска?</AreYouSureYouWantDeleteReport>
     <Authorize>Упълномощаване</Authorize>
     <AuthorizeWithLicenseKey>Упълномощаване с лицензен ключ</AuthorizeWithLicenseKey>
@@ -1132,6 +1135,7 @@
     <ExportTypeImageFile>Файл графика...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG Картинка...</ExportTypeJpegFile>
     <ExportTypeJsonFile>JSON файл...</ExportTypeJsonFile>
+    <ExportTypeMarkdownFile>Markdown файл...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Windows Metafile...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Web архив...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX картинка...</ExportTypePcxFile>
@@ -1168,6 +1172,10 @@
     <NoMoreThan>Не повече от</NoMoreThan>
     <OpenAfterExport>Отвори след експорт</OpenAfterExport>
     <Ordered>Подреден</Ordered>
+    <PageBands>Заглавия и краища на страници:</PageBands>
+    <PageBandsAll>Всички</PageBandsAll>
+    <PageBandsFirstAndLast>Първо заглавие и последен край</PageBandsFirstAndLast>
+    <PageBandsNone>Няма</PageBandsNone>
     <PdfACompliance>PDF/A съгласъваност</PdfACompliance>
     <PdfUA>PDF/УД (Унверсална Достъпност)</PdfUA>
     <PrintingReport>Отпечатване отчет</PrintingReport>
@@ -1234,6 +1242,7 @@
     <JsonReportFiles>JSON Шаблони (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} файлове (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} файлове за Silverlight справки (*.{1})|*.{2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>Markdown файлове (*.md)|*.md</MarkdownFiles>
     <MetaFiles>Meta файлове</MetaFiles>
     <MhtFiles>MHT Web архвни файлове (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>Файл пакетирани документи (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -2326,6 +2335,7 @@
     <DrawBorder>Очертаване границите на компонента с графични символи.</DrawBorder>
     <Edit>Редакция на компоненти.</Edit>
     <EmbeddedFonts>Вмъкване файла с шрифтове в PDF файла.</EmbeddedFonts>
+    <EmbeddedFontsHtml>Вграждане на файловете с шрифтове в HTML файла: никакви, само потребителските или всички шрифтове, използвани в отчета.</EmbeddedFontsHtml>
     <EmbeddedImageData>Вмъкване на графика директно в HTML файла.</EmbeddedImageData>
     <Encoding>Кодиране (encoding) на текста в отчета след експорт.</Encoding>
     <EncodingData>Кодиране (encoding) на файла с данни.</EncodingData>
@@ -2353,6 +2363,7 @@
     <OpenAfterExport>Автоматично отваряне на създадения документ (след експорт) от програмата асоциирана за този тип файл.</OpenAfterExport>
     <OwnerPassword>Паролата за достъп за операциите с файловете.</OwnerPassword>
     <PageAll>Обработка на всички страници на отчета.</PageAll>
+    <PageBands>Кои заглавия и краища на страници да влязат в документа: никакви, първото заглавие и последният край или всички.</PageBands>
     <PageDelete>Изтриване на избраната страница на отчета.</PageDelete>
     <PageDesign>Редакция на страницата в дизайнера.</PageDesign>
     <PageFirst>Отиди до първа страница на отчета.</PageFirst>
@@ -3439,6 +3450,9 @@
     <StiHorAlignmentCenter>Центриране</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>Отляво</StiHorAlignmentLeft>
     <StiHorAlignmentRight>Отдясно</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>Всички шрифтове</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>Само потребителски</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>Няма</StiHtmlEmbeddedFontsModeNone>
     <StiIconAlignmentBottom>Долу</StiIconAlignmentBottom>
     <StiIconAlignmentLeft>Ляво</StiIconAlignmentLeft>
     <StiIconAlignmentNone>Нито един</StiIconAlignmentNone>
@@ -4628,6 +4642,10 @@
     <NegativeSeriesColors>Цвят на отрицателните серии</NegativeSeriesColors>
     <NegativeTextBrush>Четка за отрицателен текст</NegativeTextBrush>
     <NestedLevel>Ниво на вложеност</NestedLevel>
+    <NetworkEdgeLength>Дължина на ребрата на мрежата</NetworkEdgeLength>
+    <NetworkIterations>Итерации на мрежата</NetworkIterations>
+    <NetworkLayout>Оформление на мрежата</NetworkLayout>
+    <NetworkRepulsion>Отблъскване на възлите на мрежата</NetworkRepulsion>
     <NewColumnAfter>Нова колона след</NewColumnAfter>
     <NewColumnBefore>Нова колона преди</NewColumnBefore>
     <NewPageAfter>Нова страница след</NewPageAfter>
@@ -5511,6 +5529,7 @@
     <Scheduler>Scheduler</Scheduler>
     <Schedulers>Schedulers</Schedulers>
     <SenderEmail>Имейл на изпращача </SenderEmail>
+    <ShowHTMLReportsInMessageBody>Показване на HTML отчетите в текста на писмото</ShowHTMLReportsInMessageBody>
     <SmtpSettings>Smtp настойки</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuraction>Спрете всички изпълнявани задачи в края на продължителността на повторение </StopAllRunningTasksAtEndOfRepetitionDuraction>
     <StopAllRunningTasksAtEndOfRepetitionDuration>Спрете всички изпълнявани задачи в края на продължителността на повторението.</StopAllRunningTasksAtEndOfRepetitionDuration>

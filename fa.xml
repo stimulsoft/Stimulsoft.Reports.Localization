@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Localization language="Farsi" description="Farsi" cultureName="fa">
   <A_WebViewer>
+    <ButtonNext>بعدی</ButtonNext>
+    <ButtonPrev>قبلی</ButtonPrev>
     <FirstPage>صفحه اول</FirstPage>
     <LastPage>صفحه آخر</LastPage>
     <Loading>بارگداری...</Loading>
@@ -45,6 +47,8 @@
     <Down>پایین</Down>
     <Export>صادر کردن</Export>
     <Help>کمک</Help>
+    <More>بیشتر</More>
+    <MoveToResource>انتقال به منبع</MoveToResource>
     <Ok>&amp;تایید</Ok>
     <Open>باز کردن</Open>
     <OpenInSafeMode>باز کردن در حالت امن</OpenInSafeMode>
@@ -55,6 +59,7 @@
     <Save>ذخیره</Save>
     <Test>آزمایش</Test>
     <Up>بالا</Up>
+    <Upload>بارگذاری</Upload>
   </Buttons>
   <Chart>
     <AddCondition>اضافه کردن ارتباط</AddCondition>
@@ -77,6 +82,7 @@
     <ConstantLinesEditorForm>ویرایشگر خط ثابت</ConstantLinesEditorForm>
     <DataColumns>ستون های داده</DataColumns>
     <Doughnut>حلقه ای</Doughnut>
+    <Flow>جریان</Flow>
     <FullStackedArea>محیط کامل پشته ای</FullStackedArea>
     <FullStackedBar>میله کامل پشته ای </FullStackedBar>
     <FullStackedColumn>کامل پشته ای ستون</FullStackedColumn>
@@ -123,6 +129,7 @@
     <MoveSeriesUp>حرکت سری ها به بالا</MoveSeriesUp>
     <MoveStripDown>حرکت نوار به پایین</MoveStripDown>
     <MoveStripUp>حرکت  نوار به بالا</MoveStripUp>
+    <Network>شبکه</Network>
     <NoConditions>بدون شرط</NoConditions>
     <NoFilters>بدون فیلتر</NoFilters>
     <Pie>دایره ای</Pie>
@@ -154,7 +161,10 @@
     <Style>سبک</Style>
   </Chart>
   <Cloud>
+    <AgreeToReceiveNewsletters>موافقم که ایمیل های بازاریابی Stimulsoft شامل اخبار محصولات، اطلاعیه های انتشار و پیشنهادها را دریافت کنم. هر زمان می توانم اشتراک خود را لغو کنم.</AgreeToReceiveNewsletters>
     <DoNotAskMe>دیگر سؤال نشود</DoNotAskMe>
+    <labelFileName>نام فایل:</labelFileName>
+    <LabelFromReport>از گزارش</LabelFromReport>
   </Cloud>
   <Components>
     <StiBarCode>رمز میله ای</StiBarCode>
@@ -208,6 +218,8 @@
     <StiZipCode>کد فشرده</StiZipCode>
   </Components>
   <Dashboard>
+    <Dimensions>ابعاد</Dimensions>
+    <EditExpression>ویرایش عبارت</EditExpression>
     <ViewEditCompilationNotice>نمی‌توانید گزارشی را ویرایش کنید که ویژگی 'Report.CalculationMode' آن روی 'Compilation' تنظیم شده است. لطفاً این ویژگی را روی 'Interpretation' تنظیم کنید.</ViewEditCompilationNotice>
     <ViewEditCompilationTitle>ویرایش در دسترس نیست</ViewEditCompilationTitle>
   </Dashboard>
@@ -226,6 +238,7 @@
     <DatabaseXml>XML داده</DatabaseXml>
   </Database>
   <DesignerFx>
+    <LoadingData>بارگذاری داده‌ها</LoadingData>
     <TextNotFound>متن مشخص شده یافت نشد. متن: {0}</TextNotFound>
   </DesignerFx>
   <Dialogs>
@@ -263,6 +276,7 @@
     <FromCursor>از نشانه رو</FromCursor>
     <GotoLine> خط&amp;برو به</GotoLine>
     <InsertLink>درج پیوند</InsertLink>
+    <InsertSymbol>درج نماد</InsertSymbol>
     <Line>خط:{0}</Line>
     <LineNumber>خط شماره:</LineNumber>
     <LineNumberIndex>({0} - {1})خط شماره </LineNumberIndex>
@@ -289,6 +303,7 @@
     <titleReplace>جایگزین</titleReplace>
     <ToggleAllOutlining>همه را به صرفصل خلاصه کن</ToggleAllOutlining>
     <ToggleOutliningExpansion>همه را با جزیاات نشان بده</ToggleOutliningExpansion>
+    <TypeToSearch>برای جستجو تایپ کنید</TypeToSearch>
     <UseRegularExpressions>عبارات منظم &amp;استفاده کن از</UseRegularExpressions>
   </Editor>
   <Errors>
@@ -340,6 +355,7 @@
     <ExportTypeGifFile>GIF تصویر</ExportTypeGifFile>
     <ExportTypeHtmlFile>HTML فایل</ExportTypeHtmlFile>
     <ExportTypeJpegFile>JPEG تصویر</ExportTypeJpegFile>
+    <ExportTypeMarkdownFile>فایل Markdown...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Windows ابرفایل</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Web آرشیو...</ExportTypeMhtFile>
     <ExportTypePdfFile>Adobe PDF فایل</ExportTypePdfFile>
@@ -366,6 +382,10 @@
     <MoreSettings>تنظیمات بیشتر</MoreSettings>
     <MultipleFiles>فایل های چندتایی</MultipleFiles>
     <OpenAfterExport>باز کردن بعد از صادرکردن</OpenAfterExport>
+    <PageBands>سرصفحه ها و زیرنویس های صفحه:</PageBands>
+    <PageBandsAll>همه</PageBandsAll>
+    <PageBandsFirstAndLast>اولین سرصفحه و آخرین زیرنویس</PageBandsFirstAndLast>
+    <PageBandsNone>هیچ</PageBandsNone>
     <Separator>جداکننده:</Separator>
     <Settings>تنظیمات</Settings>
     <SkipColumnHeaders>گذر از سر ستون</SkipColumnHeaders>
@@ -411,6 +431,7 @@
     <InheritedLanguageFiles>{0} فایل هایی برای زبان به ارث برده شده (*.{1})|*.{2}</InheritedLanguageFiles>
     <JpegFiles>JPEG تصویر (*.jpg;*.jpeg)|*.jpg;*.jpeg</JpegFiles>
     <LanguageFiles>{0} فایل های (*.{1})|*.{2}</LanguageFiles>
+    <MarkdownFiles>فایل های Markdown (*.md)|*.md</MarkdownFiles>
     <MetaFiles>فایل های متا</MetaFiles>
     <MhtFiles>MHT فایل های آرشسو وب (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>فایل های سند بسته بندی شده (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -554,6 +575,7 @@
     <Code>کد</Code>
     <CompilingReport>گزارش در حال کامپایل است</CompilingReport>
     <HtmlPreview>HTML پیش نمایش</HtmlPreview>
+    <LoadImage>بارگذاری تصویر...</LoadImage>
     <LocalizePropertyGrid>محلی سازی دریچه خصوصیت</LocalizePropertyGrid>
     <OrderToolbars>سفارش جعبه ابزار</OrderToolbars>
     <Others>بقیه</Others>
@@ -604,6 +626,8 @@
     <SortOrder>نظم</SortOrder>
     <Synchronize>هم زمانی</Synchronize>
     <SynchronizeHint>همزمان کردن محتویات مخزن داده و محتویات دیکشنری</SynchronizeHint>
+    <TextDropFileHere>فایل را اینجا رها کنید</TextDropFileHere>
+    <TextDropImageHere>فایل تصویر را اینجا رها کنید</TextDropImageHere>
     <title>طراح دیکشنری</title>
     <VariableEdit>ویرایش متغیر</VariableEdit>
     <VariableNew>متغیر جدید</VariableNew>
@@ -823,6 +847,9 @@
     <FindWhat>کدام را پیدا کن:</FindWhat>
     <title>پیدا کردن</title>
   </FormViewerFind>
+  <Gui>
+    <monthcalendar_clearbutton>پاک کردن</monthcalendar_clearbutton>
+  </Gui>
   <HelpDesigner>
     <CompilationAccess1>این سند از فرایند کامپایل استفاده می‌کند. اگر سند از منبعی مطمئن است، می‌توانید برای دسترسی به آن روی دکمه "باز کردن" کلیک کنید.</CompilationAccess1>
     <CompilationAccess2>اگر از منبع سند مطمئن نیستید اما همچنان می‌خواهید آن را مشاهده کنید، می‌توانید روی دکمه "باز کردن در حالت امن" کلیک کنید. در این صورت به جای کامپایل از تفسیر استفاده می‌شود و می‌توانید سند را با امنیت اجرا کنید.</CompilationAccess2>
@@ -833,7 +860,9 @@
   <HelpViewer>
     <Bookmarks>نمایش پنل نشانواره‌ها.</Bookmarks>
     <DotMatrixMode>پیش‌نمایش گزارش برای چاپگر ماتریس نقطه‌ای.</DotMatrixMode>
+    <EmbeddedFontsHtml>فایل های فونت در فایل HTML جاسازی شوند: هیچ کدام، فقط فونت های سفارشی، یا همه فونت های استفاده شده در گزارش.</EmbeddedFontsHtml>
     <Open>باز کردن گزارش ذخیره‌شده.</Open>
+    <PageBands>کدام سرصفحه ها و زیرنویس های صفحه در سند قرار می گیرند: هیچ کدام، اولین سرصفحه و آخرین زیرنویس، یا همه آنها.</PageBands>
     <PageDesign>ویرایش صفحه در طراح.</PageDesign>
     <Parameters>نمایش پنل پارامترهای گزارش.</Parameters>
     <Thumbnails>نمایش پنل تصاویر کوچک صفحه‌ها.</Thumbnails>
@@ -940,6 +969,9 @@
 
 ایمیلی به "{0}" ارسال شد. این ایمیل حاوی پیوندی برای تأیید ثبت‌نام شماست. برای تکمیل ثبت‌نام لطفاً روی پیوند موجود در ایمیل دریافتی کلیک کنید.</TextRegistrationSuccessfully>
   </Messages>
+  <Notices>
+    <IsNotAuthorized>دسترسی به "{0}" وجود ندارد!</IsNotAuthorized>
+  </Notices>
   <Panels>
     <Dictionary>دیکشنری</Dictionary>
     <Messages>پیغام ها</Messages>
@@ -1305,6 +1337,10 @@
     <StiHorAlignmentCenter>مرکز</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>چپ</StiHorAlignmentLeft>
     <StiHorAlignmentRight>راست</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>همه فونت ها</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>فقط سفارشی</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>هیچ</StiHtmlEmbeddedFontsModeNone>
+    <StiImageProcessingDuplicatesTypeRemoveImage>حذف تصویر</StiImageProcessingDuplicatesTypeRemoveImage>
     <StiLabelsPlacementNone>هیچ</StiLabelsPlacementNone>
     <StiLabelsPlacementOneLine>یک خط</StiLabelsPlacementOneLine>
     <StiLabelsPlacementTwoLines>دو خط</StiLabelsPlacementTwoLines>
@@ -1372,6 +1408,7 @@
     <StiRestrictionsAllowResize>اجاره تغییر سایز</StiRestrictionsAllowResize>
     <StiRestrictionsAllowSelect>اجاره انتخاب</StiRestrictionsAllowSelect>
     <StiRestrictionsNone>هیج</StiRestrictionsNone>
+    <StiSelectionModeFromVariable>از متغیر</StiSelectionModeFromVariable>
     <StiSeriesLabelsValueTypeArgument>آرگومان</StiSeriesLabelsValueTypeArgument>
     <StiSeriesLabelsValueTypeArgumentValue>آرگومان-ارزش</StiSeriesLabelsValueTypeArgumentValue>
     <StiSeriesLabelsValueTypeSeriesTitle>عنوان سری ها</StiSeriesLabelsValueTypeSeriesTitle>
@@ -1711,6 +1748,7 @@
     <HorSpacing>فضای افقی</HorSpacing>
     <HotkeyPrefix>Hotkey پیشوند</HotkeyPrefix>
     <Hyperlink>ابرلینک</Hyperlink>
+    <Icon>آیکون</Icon>
     <Idents>مشخصه ها</Idents>
     <Image>تصویر</Image>
     <ImageAlignment>تنظیم تصویر</ImageAlignment>
@@ -1796,7 +1834,12 @@
     <NameInSource>نام در منبع</NameInSource>
     <NameParent>نام والد</NameParent>
     <Namespaces>فضا نام</Namespaces>
+    <NetworkEdgeLength>طول یال های شبکه</NetworkEdgeLength>
+    <NetworkIterations>تکرارهای شبکه</NetworkIterations>
+    <NetworkLayout>چیدمان شبکه</NetworkLayout>
+    <NetworkRepulsion>دافعه گره های شبکه</NetworkRepulsion>
     <NextPage>صفحه بعد</NextPage>
+    <NoElements>بدون عنصر</NoElements>
     <NullText>متن پوچ</NullText>
     <NumberOfColumns>عدد ستون ها</NumberOfColumns>
     <NumberOfCopies>تعداد کپی ها</NumberOfCopies>
@@ -1860,6 +1903,7 @@
     <ResetDataSource>پاک کردن منبع داده</ResetDataSource>
     <ResetPageNumber>پاک کردن شماره صفحه</ResetPageNumber>
     <Resize>دوباره اندازه گیری</Resize>
+    <Resource>منبع</Resource>
     <Restrictions>محدودیت ها</Restrictions>
     <ReturnValue>مقدار بارگشتی</ReturnValue>
     <ReverseHor>معکوس افقی</ReverseHor>
@@ -1915,6 +1959,7 @@
     <SortDirection>مرتب سازی جهت</SortDirection>
     <Sorted>مرتب شده</Sorted>
     <SortType>نوع مرتب سازی</SortType>
+    <Source>منبع</Source>
     <Space>فضای خالی</Space>
     <Spacing>فضا سازی</Spacing>
     <SqlCommand>Sql دستور</SqlCommand>
@@ -1976,6 +2021,7 @@
     <UnlimitedBreakable>جداسازی نامحدود</UnlimitedBreakable>
     <UnlimitedHeight>ارتفاع نامحدود</UnlimitedHeight>
     <UnlimitedWidth>عرض نامحدود</UnlimitedWidth>
+    <URL>URL</URL>
     <UseAliases>استفاده از نام مستعار</UseAliases>
     <UseRectangularSymbols>استفاده از نماد مستطیلی</UseRectangularSymbols>
     <UseSeriesColor>استفاره از رنگ سری ها</UseSeriesColor>
@@ -2180,6 +2226,7 @@
     <RecentFiles>فایل‌های اخیر</RecentFiles>
     <SavingReport>ذخیره سازی گزارش</SavingReport>
     <SecondPass>دومین گذر</SecondPass>
+    <ShowIncompatibleTypes>نمایش انواع ناسازگار</ShowIncompatibleTypes>
     <StiEmptyBrush>خالی</StiEmptyBrush>
     <StiGlareBrush>درخشش</StiGlareBrush>
     <StiGradientBrush>متحرک</StiGradientBrush>
@@ -2192,6 +2239,13 @@
     <StyleNote>یادداشت</StyleNote>
     <StyleWarning>اخطار</StyleWarning>
   </Report>
+  <ReportOpen>
+    <Browse>مرور</Browse>
+    <Import>وارد کردن</Import>
+  </ReportOpen>
+  <Scheduler>
+    <ShowHTMLReportsInMessageBody>نمایش گزارش های HTML در متن پیام</ShowHTMLReportsInMessageBody>
+  </Scheduler>
   <Services>
     <categoryContextTools>ابزار متن</categoryContextTools>
     <categoryDesigner>طراح</categoryDesigner>
@@ -2283,6 +2337,7 @@
     <DataRelation>رابطه</DataRelation>
     <DataSource>منبع داده</DataSource>
     <DataSources>منابع داده</DataSources>
+    <Examples>نمونه‌ها</Examples>
     <Filters>فیلترها</Filters>
     <FromReportTemplate>از الگوی گرازش</FromReportTemplate>
     <groupCreateNewReport>ایجاد گزارش جدید</groupCreateNewReport>

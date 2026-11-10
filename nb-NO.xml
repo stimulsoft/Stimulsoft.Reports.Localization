@@ -216,6 +216,7 @@
     <DataColumns>Datakolonner</DataColumns>
     <Doughnut>Smultring</Doughnut>
     <Financial>Finans</Financial>
+    <Flow>Flyt</Flow>
     <FullStackedArea>Fullstablet område</FullStackedArea>
     <FullStackedBar>Fullstablet linje</FullStackedBar>
     <FullStackedColumn>Fullstablet kolonne</FullStackedColumn>
@@ -279,6 +280,7 @@
     <MoveSeriesUp>Flytt serie opp</MoveSeriesUp>
     <MoveStripDown>Flytt strimmel ned</MoveStripDown>
     <MoveStripUp>Flytt strimmel opp</MoveStripUp>
+    <Network>Nettverk</Network>
     <NoConditions>Ingen betingelser</NoConditions>
     <NoFilters>Ingen filtre</NoFilters>
     <Pareto>Pareto</Pareto>
@@ -411,6 +413,7 @@
     <Account>Konto</Account>
     <AccountSettings>Kontoinstillinger</AccountSettings>
     <AddAPlace>Legg til sted</AddAPlace>
+    <AgreeToReceiveNewsletters>Jeg godtar å motta markedsførings-e-post fra Stimulsoft, inkludert produktnyheter, versjonskunngjøringer og tilbud. Jeg kan når som helst melde meg av.</AgreeToReceiveNewsletters>
     <AreYouSureYouWantDeleteReport>Er du sikker på at du vil slette "{0}" rapporten fra disken?</AreYouSureYouWantDeleteReport>
     <Authorize>Autoriser</Authorize>
     <AuthorizeWithLicenseKey>Autoriser med lisensnøkkel</AuthorizeWithLicenseKey>
@@ -1130,6 +1133,7 @@
     <ExportTypeImageFile>Bildefil ...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG-bilde...</ExportTypeJpegFile>
     <ExportTypeJsonFile>JSON Fil...</ExportTypeJsonFile>
+    <ExportTypeMarkdownFile>Markdown-fil...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Windows Metafil...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Webarkiv...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX-bilde...</ExportTypePcxFile>
@@ -1166,6 +1170,10 @@
     <NoMoreThan>Ikke mer enn</NoMoreThan>
     <OpenAfterExport>Åpne etter eksportering</OpenAfterExport>
     <Ordered>Sortert</Ordered>
+    <PageBands>Topptekster/bunntekster:</PageBands>
+    <PageBandsAll>Alle</PageBandsAll>
+    <PageBandsFirstAndLast>Første topptekst og siste bunntekst</PageBandsFirstAndLast>
+    <PageBandsNone>Ingen</PageBandsNone>
     <PdfACompliance>PDF/A Compliance</PdfACompliance>
     <PdfUA>PDF/UA (Universell tilgjengelighet)</PdfUA>
     <PrintingReport>Skriver rapport</PrintingReport>
@@ -1231,6 +1239,7 @@
     <JsonReportFiles>JSON rapport-maler (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} filer (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} filer for Silverlightrapporter (*.{1})|*.{2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>Markdown-filer (*.md)|*.md</MarkdownFiles>
     <MetaFiles>Meta Files</MetaFiles>
     <MhtFiles>MHT Web Archive-filer (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>Stimulsoft pakkede dokumenter (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -2322,6 +2331,7 @@
     <DrawBorder>Tegner kantene på komponenter med grafiske tegn.</DrawBorder>
     <Edit>Rediger komponenter.</Edit>
     <EmbeddedFonts>Bygg inn skrifttypefiler i en PDF-fil.</EmbeddedFonts>
+    <EmbeddedFontsHtml>Bygg inn skrifttypefiler i HTML-filen: ingen, bare egendefinerte eller alle skrifttyper som brukes i rapporten.</EmbeddedFontsHtml>
     <EmbeddedImageData>Bygg inn bilder direkte i HTML-filen.</EmbeddedImageData>
     <Encoding>Koding av rapportteksten etter eksport.</Encoding>
     <EncodingData>Koder datafil.</EncodingData>
@@ -2349,6 +2359,7 @@
     <OpenAfterExport>Det nyopprettede dokumentet åpnes automatisk av programmet som er angitt for disse filtypene etter eksport.</OpenAfterExport>
     <OwnerPassword>Passordet som gir tilgang til filene.</OwnerPassword>
     <PageAll>Behandling av alle rapportsider.</PageAll>
+    <PageBands>Hvilke topptekster og bunntekster som tas med i dokumentet: ingen, første topptekst og siste bunntekst, eller alle.</PageBands>
     <PageDelete>Slett valgt side i rapport.</PageDelete>
     <PageDesign>Rediger siden i designeren.</PageDesign>
     <PageFirst>Gå til første siden i rapporten.</PageFirst>
@@ -3428,6 +3439,9 @@ E-posten ble sendt til "{0}". Den inneholder en lenke for å bekrefte registreri
     <StiHorAlignmentCenter>Sentrert</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>Venstre</StiHorAlignmentLeft>
     <StiHorAlignmentRight>Høyre</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>Alle skrifttyper</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>Bare egendefinerte</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>Ingen</StiHtmlEmbeddedFontsModeNone>
     <StiIconAlignmentBottom>Bunn</StiIconAlignmentBottom>
     <StiIconAlignmentLeft>Venstre</StiIconAlignmentLeft>
     <StiIconAlignmentNone>Ingen</StiIconAlignmentNone>
@@ -4599,6 +4613,10 @@ E-posten ble sendt til "{0}". Den inneholder en lenke for å bekrefte registreri
     <NegativeSeriesColors>Negativ serie-farge</NegativeSeriesColors>
     <NegativeTextBrush>Negativ tekstbørste</NegativeTextBrush>
     <NestedLevel>Nøstet nivå</NestedLevel>
+    <NetworkEdgeLength>Kantlengde i nettverk</NetworkEdgeLength>
+    <NetworkIterations>Nettverksiterasjoner</NetworkIterations>
+    <NetworkLayout>Nettverksoppsett</NetworkLayout>
+    <NetworkRepulsion>Nettverksfrastøtning</NetworkRepulsion>
     <NewColumnAfter>Ny kolonne etter</NewColumnAfter>
     <NewColumnBefore>Ny kolonne før</NewColumnBefore>
     <NewPageAfter>Ny side etter</NewPageAfter>
@@ -5477,6 +5495,7 @@ E-posten ble sendt til "{0}". Den inneholder en lenke for å bekrefte registreri
     <Scheduler>Planlegger</Scheduler>
     <Schedulers>Planleggere</Schedulers>
     <SenderEmail>Avsender e-post</SenderEmail>
+    <ShowHTMLReportsInMessageBody>Vis HTML-rapporter i meldingsteksten</ShowHTMLReportsInMessageBody>
     <SmtpSettings>SMTP-innstillinger</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuration>Stopp alle kjørende oppgaver ved slutten av gjentakelsesperioden</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>Stopp oppgaver hvis de kjører lenger enn</StopTasksIfItRunsLongerThan>

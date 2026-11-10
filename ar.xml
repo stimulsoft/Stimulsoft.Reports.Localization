@@ -104,9 +104,11 @@
     <Help>مساعدة</Help>
     <LessOptions>خيارات أقل</LessOptions>
     <LoadDataSet>تحميل حزمة بيانات (*.data)</LoadDataSet>
+    <More>المزيد</More>
     <MoreOptions>خيارات أكثر</MoreOptions>
     <MoveLeft>تحريك لليسار</MoveLeft>
     <MoveRight>تحريك لليمين</MoveRight>
+    <MoveToResource>نقل إلى مورد</MoveToResource>
     <No>لا</No>
     <Ok>&amp;موافق</Ok>
     <Open>فتح</Open>
@@ -157,6 +159,7 @@
     <DataColumns>أعمدة بيانات</DataColumns>
     <Doughnut>دونات</Doughnut>
     <Financial>مالي</Financial>
+    <Flow>تدفق</Flow>
     <FullStackedArea>نطاقات مكدسة كاملة</FullStackedArea>
     <FullStackedBar>أشرطة مكدسة كاملة</FullStackedBar>
     <FullStackedColumn>أعمدة مكدسة كاملة</FullStackedColumn>
@@ -210,6 +213,7 @@
     <MoveSeriesUp>تحريك مجموعة لأعلى</MoveSeriesUp>
     <MoveStripDown>تحريك شريط لأسفل</MoveStripDown>
     <MoveStripUp>تحريك شريط لأعلى</MoveStripUp>
+    <Network>شبكة</Network>
     <NoConditions>بدون شروط</NoConditions>
     <NoFilters>بدون تصفية</NoFilters>
     <Pie>دائري</Pie>
@@ -320,6 +324,7 @@
   </ChartRibbon>
   <Cloud>
     <AccountSettings>إعدادات الحساب</AccountSettings>
+    <AgreeToReceiveNewsletters>أوافق على تلقي رسائل بريد إلكتروني تسويقية من Stimulsoft، بما في ذلك أخبار المنتجات وإعلانات الإصدارات والعروض. يمكنني إلغاء الاشتراك في أي وقت.</AgreeToReceiveNewsletters>
     <ButtonChangePassword>تغيير كلمة المرور</ButtonChangePassword>
     <ButtonDeleteAll>حذف الكل</ButtonDeleteAll>
     <ButtonDesign>تصميم التقرير</ButtonDesign>
@@ -551,6 +556,8 @@
     <StiZipCode>رمز بريدي</StiZipCode>
   </Components>
   <Dashboard>
+    <Dimensions>الأبعاد</Dimensions>
+    <EditExpression>تحرير التعبير</EditExpression>
     <ViewEditCompilationNotice>لا يمكنك تحرير تقرير تم تعيين الخاصية 'Report.CalculationMode' فيه إلى 'Compilation'. يرجى تعيين هذه الخاصية إلى 'Interpretation'.</ViewEditCompilationNotice>
     <ViewEditCompilationTitle>التحرير غير متاح</ViewEditCompilationTitle>
   </Dashboard>
@@ -668,6 +675,7 @@
     <FromCursor>مؤشر من</FromCursor>
     <GotoLine>الذهاب إلى &amp;سطر</GotoLine>
     <InsertLink>إدراج ارتباط</InsertLink>
+    <InsertSymbol>إدراج رمز</InsertSymbol>
     <Line>سطر: {0}</Line>
     <LineNumber>رقم السطر:</LineNumber>
     <LineNumberIndex>رقم السطر ({0} - {1})</LineNumberIndex>
@@ -695,6 +703,7 @@
     <titleReplace>استبدال</titleReplace>
     <ToggleAllOutlining>تشغيل جميع المحددات</ToggleAllOutlining>
     <ToggleOutliningExpansion>تشغيل توسيع المحددات</ToggleOutliningExpansion>
+    <TypeToSearch>اكتب للبحث</TypeToSearch>
     <UseRegularExpressions>استخدام التعابير النمطية</UseRegularExpressions>
   </Editor>
   <Errors>
@@ -769,6 +778,7 @@
     <ExportTypeHtmlFile>HTML ملف...</ExportTypeHtmlFile>
     <ExportTypeImageFile>ملف رسوم...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG ملف...</ExportTypeJpegFile>
+    <ExportTypeMarkdownFile>ملف Markdown...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Windows Metafile...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Web Archive...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX صورة...</ExportTypePcxFile>
@@ -804,6 +814,10 @@
     <MultipleFiles>ملفات متعددة</MultipleFiles>
     <NoMoreThan>ليس أكثر من</NoMoreThan>
     <OpenAfterExport>فتح بعد التصدير</OpenAfterExport>
+    <PageBands>رؤوس وتذييلات الصفحة:</PageBands>
+    <PageBandsAll>الكل</PageBandsAll>
+    <PageBandsFirstAndLast>الرأس الأول والتذييل الأخير</PageBandsFirstAndLast>
+    <PageBandsNone>بلا</PageBandsNone>
     <PdfACompliance>PDF/A متوافق</PdfACompliance>
     <RemoveEmptySpaceAtBottom>إزالة المسافة الفارغة من أسفل الصفحة</RemoveEmptySpaceAtBottom>
     <RestrictEditing>حظر التعديل:</RestrictEditing>
@@ -866,6 +880,7 @@
     <JsonReportFiles>JSON نماذج تقرير (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} ملفات (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} ملفات تقارير  Silverlight(*.{1})|*.{2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>ملف Markdown (*.md)|*.md</MarkdownFiles>
     <MetaFiles>ملفات Meta</MetaFiles>
     <MhtFiles>MHT Web Archive صفحة ويب مدمجة (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>ملف packed document (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -1786,6 +1801,7 @@
     <DrawBorder>رسم حدود المكونات باستخدام رموز رسومية.</DrawBorder>
     <Edit>عدل المكونات.</Edit>
     <EmbeddedFonts>تضمين ملفات الخط في ملف PDF.</EmbeddedFonts>
+    <EmbeddedFontsHtml>تضمين ملفات الخط في ملف HTML: لا شيء، أو الخطوط المخصصة فقط، أو جميع الخطوط المستخدمة في التقرير.</EmbeddedFontsHtml>
     <EmbeddedImageData>تضمين الصور مباشرة إلى ملف HTML.</EmbeddedImageData>
     <Encoding>ترميز نص التقرير بعد التصدير.</Encoding>
     <EncodingData>ترميز ملف البيانات.</EncodingData>
@@ -1820,6 +1836,7 @@
     <OpenAfterExport>الفتح التلقائي للوثيقة بعد إنشائها (بعد التصدير) بواسطة البرنامج المخصص لهذا النوع من الملفات.</OpenAfterExport>
     <OwnerPassword>كلمة المرور للوصول إلى العمليات للملفات.</OwnerPassword>
     <PageAll>معالجة كافة صفحات التقرير.</PageAll>
+    <PageBands>ما رؤوس الصفحة وتذييلاتها التي تدخل في المستند: لا شيء، أو الرأس الأول والتذييل الأخير، أو الكل.</PageBands>
     <PageDelete>حذف صفحة مختارة من التقرير.</PageDelete>
     <PageDesign>تحرير الصفحة في المصمم.</PageDesign>
     <PageFirst>انتقل إلى الصفحة الأولى من التقرير.</PageFirst>
@@ -2646,6 +2663,9 @@
     <StiHorAlignmentCenter>مركز</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>يسار</StiHorAlignmentLeft>
     <StiHorAlignmentRight>صحيح</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>جميع الخطوط</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>المخصصة فقط</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>بلا</StiHtmlEmbeddedFontsModeNone>
     <StiImageProcessingDuplicatesTypeGlobalHide>إخفاء عام</StiImageProcessingDuplicatesTypeGlobalHide>
     <StiImageProcessingDuplicatesTypeGlobalMerge>دمج عام</StiImageProcessingDuplicatesTypeGlobalMerge>
     <StiImageProcessingDuplicatesTypeGlobalRemoveImage>إخفاء صور عام</StiImageProcessingDuplicatesTypeGlobalRemoveImage>
@@ -3473,11 +3493,16 @@
     <Namespaces>التسمية</Namespaces>
     <Negative>سالب</Negative>
     <NestedLevel>مستوى داخلي</NestedLevel>
+    <NetworkEdgeLength>طول حواف الشبكة</NetworkEdgeLength>
+    <NetworkIterations>تكرارات الشبكة</NetworkIterations>
+    <NetworkLayout>تخطيط الشبكة</NetworkLayout>
+    <NetworkRepulsion>تنافر عقد الشبكة</NetworkRepulsion>
     <NewColumnAfter>وبعد العمود جديدة</NewColumnAfter>
     <NewColumnBefore>وقبل أن العمود جديدة</NewColumnBefore>
     <NewPageAfter>صفحة جديدة بعد</NewPageAfter>
     <NewPageBefore>وقبل أن الصفحة الجديدة</NewPageBefore>
     <NextPage>الصفحة التالية</NextPage>
+    <NoElements>لا توجد عناصر</NoElements>
     <NoIcon>بدون أيقونة</NoIcon>
     <NullText>نص لاغية</NullText>
     <NumberOfColumns>عدد الأعمدة</NumberOfColumns>
@@ -3664,6 +3689,7 @@
     <SortingColumn>فرز العمود</SortingColumn>
     <SortingEnabled>فرز تمكين</SortingEnabled>
     <SortType>النوع النوع</SortType>
+    <Source>المصدر</Source>
     <Space>الفضاء</Space>
     <Spacing>المباعدة</Spacing>
     <SqlCommand>Sql القيادة</SqlCommand>
@@ -3749,6 +3775,7 @@
     <UnlimitedBreakable>غير محدود للكسر</UnlimitedBreakable>
     <UnlimitedHeight>غير محدودة الطول</UnlimitedHeight>
     <UnlimitedWidth>العرض غير محدود</UnlimitedWidth>
+    <URL>URL</URL>
     <UseAliases>استخدام الأسماء المستعارة</UseAliases>
     <UseExternalReport>استخدام تقرير الخارجية</UseExternalReport>
     <UseParentStyles>استخدام الأنماط دلاولا</UseParentStyles>
@@ -4005,6 +4032,7 @@
     <SavingReport>تقرير لإنقاذ</SavingReport>
     <SecondPass>ممر الثانية</SecondPass>
     <Shapes>أشكال</Shapes>
+    <ShowIncompatibleTypes>إظهار الأنواع غير المتوافقة</ShowIncompatibleTypes>
     <Standard>عادي</Standard>
     <StandardConfiguration>خصائص العنصر الأساسية باستثناء الخصائص ناردة الاستخدام</StandardConfiguration>
     <StiEmptyBrush>فارغ</StiEmptyBrush>
@@ -4038,6 +4066,9 @@
     <Browse>تصفح</Browse>
     <Import>استيراد</Import>
   </ReportOpen>
+  <Scheduler>
+    <ShowHTMLReportsInMessageBody>إظهار تقارير HTML في نص الرسالة</ShowHTMLReportsInMessageBody>
+  </Scheduler>
   <Services>
     <categoryContextTools>أدوات السياق</categoryContextTools>
     <categoryDesigner>مصمم</categoryDesigner>
@@ -4224,6 +4255,7 @@
     <DataSource>مصدر البيانات</DataSource>
     <DataSources>مصادر البيانات</DataSources>
     <DefaultThemes>السمة الافتراضية</DefaultThemes>
+    <Examples>أمثلة</Examples>
     <Filters>الفلاتر</Filters>
     <FromReportTemplate>من نموذج تقرير</FromReportTemplate>
     <groupCreateNewPageOrForm>إنشاء صفحة جديدة أو نموذج</groupCreateNewPageOrForm>

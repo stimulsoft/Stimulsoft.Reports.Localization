@@ -216,6 +216,7 @@
     <DataColumns>Datakolumn</DataColumns>
     <Doughnut>Ring</Doughnut>
     <Financial>Finansiell</Financial>
+    <Flow>Flöde</Flow>
     <FullStackedArea>Full-Staplad yta</FullStackedArea>
     <FullStackedBar>Full-Staplad liggande stapel</FullStackedBar>
     <FullStackedColumn>Full-Staplad stapel</FullStackedColumn>
@@ -279,6 +280,7 @@
     <MoveSeriesUp>Flytta serie uppåt</MoveSeriesUp>
     <MoveStripDown>Flytta remsa nedåt</MoveStripDown>
     <MoveStripUp>Flytta remsa uppåt</MoveStripUp>
+    <Network>Nätverk</Network>
     <NoConditions>Inga villkor</NoConditions>
     <NoFilters>Inga filter</NoFilters>
     <Pareto>Pareto</Pareto>
@@ -410,6 +412,7 @@
     <Account>Konto</Account>
     <AccountSettings>Kontoinställningar</AccountSettings>
     <AddAPlace>Lägg till en plats</AddAPlace>
+    <AgreeToReceiveNewsletters>Jag godkänner att få marknadsföringsmejl från Stimulsoft, inklusive produktnyheter, versionsmeddelanden och erbjudanden. Jag kan när som helst avsluta prenumerationen.</AgreeToReceiveNewsletters>
     <AreYouSureYouWantDeleteReport>Är du säker på att du vill ta bort rapporten "{0}" från disken?</AreYouSureYouWantDeleteReport>
     <Authorize>Auktorisera</Authorize>
     <AuthorizeWithLicenseKey>Auktorisera med licensnyckel</AuthorizeWithLicenseKey>
@@ -1129,6 +1132,7 @@
     <ExportTypeImageFile>Bildfil...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG-bild...</ExportTypeJpegFile>
     <ExportTypeJsonFile>JSON-fil...</ExportTypeJsonFile>
+    <ExportTypeMarkdownFile>Markdown-fil...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Windows metafil...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Web arkiv...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX bild...</ExportTypePcxFile>
@@ -1165,6 +1169,10 @@
     <NoMoreThan>Inte mer än</NoMoreThan>
     <OpenAfterExport>Öppna efter export</OpenAfterExport>
     <Ordered>Ordnad</Ordered>
+    <PageBands>Sidhuvuden/sidfötter:</PageBands>
+    <PageBandsAll>Alla</PageBandsAll>
+    <PageBandsFirstAndLast>Första sidhuvud och sista sidfot</PageBandsFirstAndLast>
+    <PageBandsNone>Inga</PageBandsNone>
     <PdfACompliance>PDF/A efterlevnad</PdfACompliance>
     <PdfUA>PDF/UA (universell tillgänglighet)</PdfUA>
     <PrintingReport>Skriver ut rapport</PrintingReport>
@@ -1230,6 +1238,7 @@
     <JsonReportFiles>JSON Rapport Mallar (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} filer (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} filer för Silverlight rapporter(*.{1})|*.{2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>Markdown-filer (*.md)|*.md</MarkdownFiles>
     <MetaFiles>Metafiler</MetaFiles>
     <MhtFiles>MHT Web Arkivfiler (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>Packade fildokument (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -2320,6 +2329,7 @@
     <DrawBorder>Rita kanterna på komponenten med grafiska tecken.</DrawBorder>
     <Edit>Redigera komponent.</Edit>
     <EmbeddedFonts>Inkludera typsnittsinformation i PDF-filen.</EmbeddedFonts>
+    <EmbeddedFontsHtml>Bädda in typsnittsfilerna i HTML-filen: inga, endast anpassade eller alla typsnitt som används i rapporten.</EmbeddedFontsHtml>
     <EmbeddedImageData>Inkludera bilder direkt i HTML-filen.</EmbeddedImageData>
     <Encoding>Koda rapporttexten efter export.</Encoding>
     <EncodingData>Koda datafilen.</EncodingData>
@@ -2347,6 +2357,7 @@
     <OpenAfterExport>Öppna skapat dokument automatiskt (efter export) med hjälp av standardprogrammet för aktuell filtyp.</OpenAfterExport>
     <OwnerPassword>Lösenordet för att få behörighet att arbeta med filen.</OwnerPassword>
     <PageAll>Behandla alla rapportsidor.</PageAll>
+    <PageBands>Vilka sidhuvuden och sidfötter som tas med i dokumentet: inga, det första sidhuvudet och den sista sidfoten, eller alla.</PageBands>
     <PageDelete>Radera markerad sida i rapporten.</PageDelete>
     <PageDesign>Redigera sidan i designern.</PageDesign>
     <PageFirst>Gå till första sidan i rapport.</PageFirst>
@@ -3419,6 +3430,9 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <StiHorAlignmentCenter>Centrera</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>Vänster</StiHorAlignmentLeft>
     <StiHorAlignmentRight>Höger</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>Alla typsnitt</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>Endast anpassade</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>Inga</StiHtmlEmbeddedFontsModeNone>
     <StiIconAlignmentBottom>Nederkant</StiIconAlignmentBottom>
     <StiIconAlignmentLeft>Vänster</StiIconAlignmentLeft>
     <StiIconAlignmentNone>Ingen</StiIconAlignmentNone>
@@ -4582,6 +4596,10 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <NegativeSeriesColors>Negativa seriefärger</NegativeSeriesColors>
     <NegativeTextBrush>Negativ textpensel</NegativeTextBrush>
     <NestedLevel>Nestlad nivå</NestedLevel>
+    <NetworkEdgeLength>Kantlängd i nätverk</NetworkEdgeLength>
+    <NetworkIterations>Nätverksiterationer</NetworkIterations>
+    <NetworkLayout>Nätverkslayout</NetworkLayout>
+    <NetworkRepulsion>Nätverksrepulsion</NetworkRepulsion>
     <NewColumnAfter>Ny kolumn efter</NewColumnAfter>
     <NewColumnBefore>Ny kolumn före</NewColumnBefore>
     <NewPageAfter>Ny sida efter</NewPageAfter>
@@ -4864,6 +4882,7 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <SortingEnabled>Sortering påslagen</SortingEnabled>
     <SortLetters>A-Ö</SortLetters>
     <SortType>Sorteringstyp</SortType>
+    <Source>Källa</Source>
     <Space>Mellanslag</Space>
     <SpaceRatio>Mellanrumsförhållande</SpaceRatio>
     <Spacing>Mellanrum</Spacing>
@@ -5450,6 +5469,7 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <Scheduler>Schemaläggare</Scheduler>
     <Schedulers>Schemaläggare</Schedulers>
     <SenderEmail>Avsändarens e-post</SenderEmail>
+    <ShowHTMLReportsInMessageBody>Visa HTML-rapporter i meddelandetexten</ShowHTMLReportsInMessageBody>
     <SmtpSettings>SMTP-inställningar</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuration>Stoppa alla pågående uppgifter när upprepningstiden är slut</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>Stoppa uppgifter om de körs längre än</StopTasksIfItRunsLongerThan>

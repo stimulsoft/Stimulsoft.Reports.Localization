@@ -216,6 +216,7 @@
     <DataColumns>Datenspalten</DataColumns>
     <Doughnut>Ring</Doughnut>
     <Financial>Finanzen</Financial>
+    <Flow>Fluss</Flow>
     <FullStackedArea>Gestapelte Fläche(100%)</FullStackedArea>
     <FullStackedBar>Gestapelte Balken(100%)</FullStackedBar>
     <FullStackedColumn>Gestapelte Säulen(100%)</FullStackedColumn>
@@ -279,6 +280,7 @@
     <MoveSeriesUp>Reihen nach oben</MoveSeriesUp>
     <MoveStripDown>Streifen nach unten</MoveStripDown>
     <MoveStripUp>Streifen nach oben</MoveStripUp>
+    <Network>Netzwerk</Network>
     <NoConditions>Keine Bedingungen</NoConditions>
     <NoFilters>Keine Filter</NoFilters>
     <Pareto>Pareto</Pareto>
@@ -411,6 +413,7 @@
     <Account>Account</Account>
     <AccountSettings>Konto Einstellungen</AccountSettings>
     <AddAPlace>Platz hinzufügen</AddAPlace>
+    <AgreeToReceiveNewsletters>Ich bin damit einverstanden, Marketing-E-Mails von Stimulsoft zu erhalten, darunter Produktneuigkeiten, Release-Ankündigungen und Angebote. Ich kann mich jederzeit abmelden.</AgreeToReceiveNewsletters>
     <AreYouSureYouWantDeleteReport>Wollen Sie den Bericht "{0}" aus dem Speicher wirklich löschen?</AreYouSureYouWantDeleteReport>
     <Authorize>Autorisieren</Authorize>
     <AuthorizeWithLicenseKey>Mit dem Lizenzschlüssel autorisieren</AuthorizeWithLicenseKey>
@@ -1130,6 +1133,7 @@
     <ExportTypeImageFile>Bilddatei...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG-Bild...</ExportTypeJpegFile>
     <ExportTypeJsonFile>JSON-Datei...</ExportTypeJsonFile>
+    <ExportTypeMarkdownFile>Markdown-Datei...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Windows Metafile...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Web Archiv...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX-Bild...</ExportTypePcxFile>
@@ -1166,6 +1170,10 @@
     <NoMoreThan>Nicht mehr als</NoMoreThan>
     <OpenAfterExport>Nach dem Export öffnen</OpenAfterExport>
     <Ordered>Geordnet</Ordered>
+    <PageBands>Seitenköpfe und -füße:</PageBands>
+    <PageBandsAll>Alle</PageBandsAll>
+    <PageBandsFirstAndLast>Erster Seitenkopf und letzter Seitenfuß</PageBandsFirstAndLast>
+    <PageBandsNone>Keine</PageBandsNone>
     <PdfACompliance>PDF/A Konformität</PdfACompliance>
     <PdfUA>PDF/UA (universelle Verfügbarkeit)</PdfUA>
     <PrintingReport>Drucken des Berichts</PrintingReport>
@@ -1231,6 +1239,7 @@
     <JsonReportFiles>Stimulsoft JSON-Vorlagen (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} Dateien (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} Dateien für Silverlight Berichte (*.{1})|*.{2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>Markdown-Dateien (*.md)|*.md</MarkdownFiles>
     <MetaFiles>Vektorgrafik</MetaFiles>
     <MhtFiles>MHT Web Archiv-Dateien (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>Gepackte Dokument-Dateien (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -2322,6 +2331,7 @@
     <DrawBorder>Den Rahmen von Komponenten mit Hilfe von grafischen Zeichen darstellen.</DrawBorder>
     <Edit>Bearbeiten</Edit>
     <EmbeddedFonts>Schriftarten in die PDF-Datei einbetten.</EmbeddedFonts>
+    <EmbeddedFontsHtml>Schriftarten in die HTML-Datei einbetten: keine, nur benutzerdefinierte oder alle im Bericht verwendeten Schriftarten.</EmbeddedFontsHtml>
     <EmbeddedImageData>Bilder direkt in die HTML-Datei einbetten.</EmbeddedImageData>
     <Encoding>Codierung der zu erstellenden Textdatei.</Encoding>
     <EncodingData>Codierung der Datendatei.</EncodingData>
@@ -2349,6 +2359,7 @@
     <OpenAfterExport>Die Exportdatei wird nach Abschluss des Exportvorgangs automatisch durch das dem Dateityp zugewiesene Programm geöffnet.</OpenAfterExport>
     <OwnerPassword>Das benötigte Passwort, um Aktionen im geöffneten Dokument auszuführen.</OwnerPassword>
     <PageAll>Alle Berichtseiten werden verarbeitet.</PageAll>
+    <PageBands>Welche Seitenköpfe und -füße in das Dokument übernommen werden: keine, der erste Seitenkopf und der letzte Seitenfuß oder alle.</PageBands>
     <PageDelete>Seite löschen</PageDelete>
     <PageDesign>Seite im Designer bearbeiten.</PageDesign>
     <PageFirst>Erste Seite</PageFirst>
@@ -3429,6 +3440,9 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <StiHorAlignmentCenter>Zentriert</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>Linksbündig</StiHorAlignmentLeft>
     <StiHorAlignmentRight>Rechtsbündig</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>Alle Schriftarten</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>Nur benutzerdefinierte</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>Keine</StiHtmlEmbeddedFontsModeNone>
     <StiIconAlignmentBottom>Unten</StiIconAlignmentBottom>
     <StiIconAlignmentLeft>Links</StiIconAlignmentLeft>
     <StiIconAlignmentNone>Kein</StiIconAlignmentNone>
@@ -4600,6 +4614,10 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <NegativeSeriesColors>Serienfarben für Negative</NegativeSeriesColors>
     <NegativeTextBrush>Textfarbe für Negative</NegativeTextBrush>
     <NestedLevel>Verschachtelungstiefe</NestedLevel>
+    <NetworkEdgeLength>Kantenlänge des Netzwerks</NetworkEdgeLength>
+    <NetworkIterations>Netzwerk-Iterationen</NetworkIterations>
+    <NetworkLayout>Netzwerk-Layout</NetworkLayout>
+    <NetworkRepulsion>Netzwerk-Abstoßung</NetworkRepulsion>
     <NewColumnAfter>Nach der neuen Spalte </NewColumnAfter>
     <NewColumnBefore>Vor der neuen Spalte</NewColumnBefore>
     <NewPageAfter>Nach der neuen Seite</NewPageAfter>
@@ -5478,6 +5496,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Scheduler>Scheduler</Scheduler>
     <Schedulers>Schedulers</Schedulers>
     <SenderEmail>Sender-E-Mail</SenderEmail>
+    <ShowHTMLReportsInMessageBody>HTML-Berichte im Nachrichtentext anzeigen</ShowHTMLReportsInMessageBody>
     <SmtpSettings>Smtp-Einstellungen</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuration>Alle ausgeführende Aufgaben nach der Beendung von Wiederholung stoppen</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>Alle Aufgaben stoppen, wenn Sie arbeiten länger als</StopTasksIfItRunsLongerThan>

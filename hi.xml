@@ -216,6 +216,7 @@
     <DataColumns>डेटा कॉलम</DataColumns>
     <Doughnut>डोनट</Doughnut>
     <Financial>वित्तीय</Financial>
+    <Flow>फ़्लो</Flow>
     <FullStackedArea>पूर्ण-स्टैक्ड क्षेत्र</FullStackedArea>
     <FullStackedBar>पूर्ण-स्टैक्ड बार</FullStackedBar>
     <FullStackedColumn>पूर्ण-स्टैक्ड कॉलम</FullStackedColumn>
@@ -279,6 +280,7 @@
     <MoveSeriesUp>शृंखला ऊपर ले जाएँ</MoveSeriesUp>
     <MoveStripDown>स्ट्रिप नीचे ले जाएँ</MoveStripDown>
     <MoveStripUp>स्ट्रिप ऊपर ले जाएँ</MoveStripUp>
+    <Network>नेटवर्क</Network>
     <NoConditions>कोई शर्त नहीं</NoConditions>
     <NoFilters>कोई फ़िल्टर नहीं</NoFilters>
     <Pareto>पैरेटो</Pareto>
@@ -410,6 +412,7 @@
     <Account>खाता</Account>
     <AccountSettings>खाता सेटिंग्स</AccountSettings>
     <AddAPlace>एक स्थान जोड़ें</AddAPlace>
+    <AgreeToReceiveNewsletters>मैं Stimulsoft से मार्केटिंग ईमेल प्राप्त करने के लिए सहमत हूँ, जिनमें उत्पाद समाचार, रिलीज़ घोषणाएँ और ऑफ़र शामिल हैं। सदस्यता किसी भी समय समाप्त की जा सकती है।</AgreeToReceiveNewsletters>
     <AreYouSureYouWantDeleteReport>क्या आप वाकई डिस्क से "{0}" रिपोर्ट हटाना चाहते हैं?</AreYouSureYouWantDeleteReport>
     <Authorize>अधिकृत करें</Authorize>
     <AuthorizeWithLicenseKey>लाइसेंस कुंजी से अधिकृत करें</AuthorizeWithLicenseKey>
@@ -1129,6 +1132,7 @@
     <ExportTypeImageFile>छवि फ़ाइल...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG छवि...</ExportTypeJpegFile>
     <ExportTypeJsonFile>JSON फ़ाइल...</ExportTypeJsonFile>
+    <ExportTypeMarkdownFile>Markdown फ़ाइल...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Windows मेटाफ़ाइल...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT वेब संग्रह...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX छवि...</ExportTypePcxFile>
@@ -1165,6 +1169,10 @@
     <NoMoreThan>इससे अधिक नहीं</NoMoreThan>
     <OpenAfterExport>निर्यात के बाद खोलें</OpenAfterExport>
     <Ordered>क्रमबद्ध</Ordered>
+    <PageBands>पेज हेडर/फ़ुटर:</PageBands>
+    <PageBandsAll>सभी</PageBandsAll>
+    <PageBandsFirstAndLast>पहला हेडर और अंतिम फ़ुटर</PageBandsFirstAndLast>
+    <PageBandsNone>कोई नहीं</PageBandsNone>
     <PdfACompliance>PDF/A अनुपालन</PdfACompliance>
     <PdfUA>PDF/UA (यूनिवर्सल एक्सेसिबिलिटी)</PdfUA>
     <PrintingReport>रिपोर्ट प्रिंट की जा रही है</PrintingReport>
@@ -1230,6 +1238,7 @@
     <JsonReportFiles>Stimulsoft JSON टेम्पलेट (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} क्लासेस (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>Silverlight रिपोर्ट के लिए {0} क्लासेस (*.{1})|*.{2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>Markdown फ़ाइलें (*.md)|*.md</MarkdownFiles>
     <MetaFiles>मेटाफ़ाइलें</MetaFiles>
     <MhtFiles>MHT वेब संग्रह (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>Stimulsoft पैक्ड दस्तावेज़ (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -2320,6 +2329,7 @@
     <DrawBorder>घटकों के बॉर्डर को ग्राफ़िक वर्णों से बनाना।</DrawBorder>
     <Edit>घटकों को संपादित करें।</Edit>
     <EmbeddedFonts>फ़ॉन्ट फ़ाइलों को PDF फ़ाइल में एम्बेड करें।</EmbeddedFonts>
+    <EmbeddedFontsHtml>फ़ॉन्ट फ़ाइलों को HTML फ़ाइल में एम्बेड करें: कोई नहीं, केवल कस्टम फ़ॉन्ट, या रिपोर्ट में उपयोग किए गए सभी फ़ॉन्ट।</EmbeddedFontsHtml>
     <EmbeddedImageData>छवियों को सीधे HTML फ़ाइल में एम्बेड करें।</EmbeddedImageData>
     <Encoding>निर्यात के बाद रिपोर्ट टेक्स्ट की एन्कोडिंग।</Encoding>
     <EncodingData>डेटा फ़ाइल की एन्कोडिंग।</EncodingData>
@@ -2347,6 +2357,7 @@
     <OpenAfterExport>इन फ़ाइल प्रकारों से संबद्ध प्रोग्राम द्वारा बनाए गए दस्तावेज़ को स्वचालित रूप से खोलना (निर्यात के बाद)।</OpenAfterExport>
     <OwnerPassword>फ़ाइल के साथ संचालन करने के लिए आवश्यक पासवर्ड।</OwnerPassword>
     <PageAll>सभी रिपोर्ट पेजों को संसाधित करना।</PageAll>
+    <PageBands>दस्तावेज़ में कौन से पेज हेडर और फ़ुटर शामिल होंगे: कोई नहीं, पहला हेडर और अंतिम फ़ुटर, या सभी।</PageBands>
     <PageDelete>चयनित रिपोर्ट पेज हटाएँ।</PageDelete>
     <PageDesign>डिज़ाइनर में पेज संपादित करें।</PageDesign>
     <PageFirst>पहले रिपोर्ट पेज पर जाएँ।</PageFirst>
@@ -3422,6 +3433,9 @@
     <StiHorAlignmentCenter>केंद्र</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>बाएँ</StiHorAlignmentLeft>
     <StiHorAlignmentRight>दाएँ</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>सभी फ़ॉन्ट</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>केवल कस्टम</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>कोई नहीं</StiHtmlEmbeddedFontsModeNone>
     <StiIconAlignmentBottom>नीचे</StiIconAlignmentBottom>
     <StiIconAlignmentLeft>बाएँ</StiIconAlignmentLeft>
     <StiIconAlignmentNone>कोई नहीं</StiIconAlignmentNone>
@@ -4585,6 +4599,10 @@
     <NegativeSeriesColors>ऋणात्मक शृंखला रंग</NegativeSeriesColors>
     <NegativeTextBrush>ऋणात्मक टेक्स्ट ब्रश</NegativeTextBrush>
     <NestedLevel>नेस्टेड स्तर</NestedLevel>
+    <NetworkEdgeLength>नेटवर्क एज लंबाई</NetworkEdgeLength>
+    <NetworkIterations>नेटवर्क पुनरावृत्तियाँ</NetworkIterations>
+    <NetworkLayout>नेटवर्क लेआउट</NetworkLayout>
+    <NetworkRepulsion>नेटवर्क प्रतिकर्षण</NetworkRepulsion>
     <NewColumnAfter>बाद में नया कॉलम</NewColumnAfter>
     <NewColumnBefore>पहले नया कॉलम</NewColumnBefore>
     <NewPageAfter>बाद में नया पेज</NewPageAfter>
@@ -4866,6 +4884,7 @@
     <SortingEnabled>क्रमबद्धता सक्षम</SortingEnabled>
     <SortLetters>A-Z</SortLetters>
     <SortType>क्रम प्रकार</SortType>
+    <Source>स्रोत</Source>
     <Space>स्थान</Space>
     <SpaceRatio>स्थान अनुपात</SpaceRatio>
     <Spacing>अंतराल</Spacing>
@@ -5452,6 +5471,7 @@
     <Scheduler>शेड्यूलर</Scheduler>
     <Schedulers>शेड्यूलर</Schedulers>
     <SenderEmail>प्रेषक ईमेल</SenderEmail>
+    <ShowHTMLReportsInMessageBody>संदेश के मुख्य भाग में HTML रिपोर्ट दिखाएँ</ShowHTMLReportsInMessageBody>
     <SmtpSettings>Smtp सेटिंग्स</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuration>पुनरावृत्ति अवधि के अंत में सभी चल रहे कार्य रोकें</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>यदि कार्य इससे अधिक समय तक चलें तो उन्हें रोकें</StopTasksIfItRunsLongerThan>

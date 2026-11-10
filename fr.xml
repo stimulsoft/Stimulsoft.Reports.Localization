@@ -216,6 +216,7 @@
     <DataColumns>Colonnes de données</DataColumns>
     <Doughnut>Anneau</Doughnut>
     <Financial>Financier</Financial>
+    <Flow>Flux</Flow>
     <FullStackedArea>Surfaces empilées 100%</FullStackedArea>
     <FullStackedBar>Barres empilées 100%</FullStackedBar>
     <FullStackedColumn>Histogramme empilé 100%</FullStackedColumn>
@@ -279,6 +280,7 @@
     <MoveSeriesUp>Déplacer la série vers le haut</MoveSeriesUp>
     <MoveStripDown>Déplacer la bande vers le bas</MoveStripDown>
     <MoveStripUp>Déplacer la bande vers le haut</MoveStripUp>
+    <Network>Réseau</Network>
     <NoConditions>Aucune conditions</NoConditions>
     <NoFilters>Aucun filtres</NoFilters>
     <Pareto>Pareto</Pareto>
@@ -411,6 +413,7 @@
     <Account>Compte</Account>
     <AccountSettings>Paramètres du compte</AccountSettings>
     <AddAPlace>Ajouter un endroit</AddAPlace>
+    <AgreeToReceiveNewsletters>J'accepte de recevoir des e-mails marketing de Stimulsoft, notamment des actualités sur les produits, des annonces de versions et des offres. Je peux me désabonner à tout moment.</AgreeToReceiveNewsletters>
     <AreYouSureYouWantDeleteReport>Êtes vous sûr de vouloir supprimer le rapport "{0}" du disque ?</AreYouSureYouWantDeleteReport>
     <Authorize>Autoriser</Authorize>
     <AuthorizeWithLicenseKey>Autoriser avec une clé de licence</AuthorizeWithLicenseKey>
@@ -1130,6 +1133,7 @@
     <ExportTypeImageFile>fichier image...</ExportTypeImageFile>
     <ExportTypeJpegFile>Fichier JPEG...</ExportTypeJpegFile>
     <ExportTypeJsonFile>Fichier JSON...</ExportTypeJsonFile>
+    <ExportTypeMarkdownFile>Fichier Markdown...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Fichier Windows MetaFile...</ExportTypeMetafile>
     <ExportTypeMhtFile>Archive Web MHT...</ExportTypeMhtFile>
     <ExportTypePcxFile>Image PCX...</ExportTypePcxFile>
@@ -1166,6 +1170,10 @@
     <NoMoreThan>Pas plus de</NoMoreThan>
     <OpenAfterExport>Ouvrir après l'export</OpenAfterExport>
     <Ordered>En ordre</Ordered>
+    <PageBands>En-têtes et pieds de page:</PageBands>
+    <PageBandsAll>Tous</PageBandsAll>
+    <PageBandsFirstAndLast>Premier en-tête et dernier pied de page</PageBandsFirstAndLast>
+    <PageBandsNone>Aucun</PageBandsNone>
     <PdfACompliance>Conformité PDF/A</PdfACompliance>
     <PdfUA>PDF/UA (Accessibilité universelle)</PdfUA>
     <PrintingReport>Impression du rapport</PrintingReport>
@@ -1231,6 +1239,7 @@
     <JsonReportFiles>Rapports JSON (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>Fichiers {0} (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>Fichiers {0} pour modèles Silverlight (*.{1})|*.{2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>Fichiers Markdown (*.md)|*.md</MarkdownFiles>
     <MetaFiles>Meta Fichiers</MetaFiles>
     <MhtFiles>Archive Web MHT (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>Fichiers ensemble de documents (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -2322,6 +2331,7 @@
     <DrawBorder>Imprimer les bordures des composants avec des caractères graphiques.</DrawBorder>
     <Edit>Modifier les composants.</Edit>
     <EmbeddedFonts>Inclure les fichiers de police de caractères dans le fichier PDF.</EmbeddedFonts>
+    <EmbeddedFontsHtml>Inclure les fichiers de police dans le fichier HTML: aucune, uniquement les polices personnalisées ou toutes les polices utilisées dans le rapport.</EmbeddedFontsHtml>
     <EmbeddedImageData>Inclure les images dans le fichier HTML.</EmbeddedImageData>
     <Encoding>Encodage du texte du rapport après l'export.</Encoding>
     <EncodingData>Encodage du fichier de données.</EncodingData>
@@ -2349,6 +2359,7 @@
     <OpenAfterExport>Ouverture automatique du document exporté par le programme par défaut pour ce type de fichier.</OpenAfterExport>
     <OwnerPassword>Le mot de passe pour manipuler les fichiers.</OwnerPassword>
     <PageAll>Traitement de toutes les pages du rapport.</PageAll>
+    <PageBands>Les en-têtes et pieds de page à inclure dans le document: aucun, le premier en-tête et le dernier pied de page, ou tous.</PageBands>
     <PageDelete>Supprimer la page sélectionnée d'un rapport.</PageDelete>
     <PageDesign>Modifier la page dans le concepteur.</PageDesign>
     <PageFirst>Aller à la première page du rapport.</PageFirst>
@@ -3429,6 +3440,9 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <StiHorAlignmentCenter>Centré</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>Gauche</StiHorAlignmentLeft>
     <StiHorAlignmentRight>Droite</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>Toutes les polices</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>Personnalisées uniquement</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>Aucune</StiHtmlEmbeddedFontsModeNone>
     <StiIconAlignmentBottom>En bas</StiIconAlignmentBottom>
     <StiIconAlignmentLeft>Gauche</StiIconAlignmentLeft>
     <StiIconAlignmentNone>Aucun</StiIconAlignmentNone>
@@ -4600,6 +4614,10 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <NegativeSeriesColors>Couleurs de séries négatives</NegativeSeriesColors>
     <NegativeTextBrush>Pinceau texte négatif</NegativeTextBrush>
     <NestedLevel>Niveau imbriqué</NestedLevel>
+    <NetworkEdgeLength>Longueur des arêtes du réseau</NetworkEdgeLength>
+    <NetworkIterations>Itérations du réseau</NetworkIterations>
+    <NetworkLayout>Disposition du réseau</NetworkLayout>
+    <NetworkRepulsion>Répulsion des nœuds du réseau</NetworkRepulsion>
     <NewColumnAfter>Nouvelle colonne après</NewColumnAfter>
     <NewColumnBefore>Nouvelle colonne avant</NewColumnBefore>
     <NewPageAfter>Nouvelle page après</NewPageAfter>
@@ -5478,6 +5496,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <Scheduler>Planificateur</Scheduler>
     <Schedulers>Planificateurs</Schedulers>
     <SenderEmail>E-mail de l'expéditeur</SenderEmail>
+    <ShowHTMLReportsInMessageBody>Afficher les rapports HTML dans le corps du message</ShowHTMLReportsInMessageBody>
     <SmtpSettings>Paramétrage Smtp</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuration>Arrêter toutes les tâches en cours d'exécution à la fin de la durée de répétition</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>Arrêtez les tâches si elles durent plus longtemps que</StopTasksIfItRunsLongerThan>

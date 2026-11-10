@@ -216,6 +216,7 @@
     <DataColumns>Veri Sütunları</DataColumns>
     <Doughnut>Donut</Doughnut>
     <Financial>Finansal</Financial>
+    <Flow>Akış</Flow>
     <FullStackedArea>Tam Yığın Alan</FullStackedArea>
     <FullStackedBar>Tam Yığın Bar</FullStackedBar>
     <FullStackedColumn>Tam Yığınlı Sütun</FullStackedColumn>
@@ -279,6 +280,7 @@
     <MoveSeriesUp>Seriyi Yukarıya Taşı</MoveSeriesUp>
     <MoveStripDown>Şerit Aşağıya Taşı</MoveStripDown>
     <MoveStripUp>Şerit Yukarıya Taşı</MoveStripUp>
+    <Network>Ağ</Network>
     <NoConditions>Koşul Yok</NoConditions>
     <NoFilters>Filtre Yok</NoFilters>
     <Pareto>Pareto</Pareto>
@@ -411,6 +413,7 @@
     <Account>Hesap</Account>
     <AccountSettings>Hesap Ayarları</AccountSettings>
     <AddAPlace>Yer Ekle</AddAPlace>
+    <AgreeToReceiveNewsletters>Ürün haberleri, sürüm duyuruları ve teklifler dahil olmak üzere Stimulsoft'tan pazarlama e-postaları almayı kabul ediyorum. Aboneliğimi istediğim zaman iptal edebilirim.</AgreeToReceiveNewsletters>
     <AreYouSureYouWantDeleteReport>"{0}" raporunu diskten silmek istediğinizden emin misiniz? </AreYouSureYouWantDeleteReport>
     <Authorize>Yetkilendir</Authorize>
     <AuthorizeWithLicenseKey>Lisans Anahtarı ile Yetkilendir</AuthorizeWithLicenseKey>
@@ -1130,6 +1133,7 @@
     <ExportTypeImageFile>Resim Dosyası...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG Resmi...</ExportTypeJpegFile>
     <ExportTypeJsonFile>JSON Dosyası...</ExportTypeJsonFile>
+    <ExportTypeMarkdownFile>Markdown Dosyası...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Windows Meta Dosyası...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Web Arşivi...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX Resmi...</ExportTypePcxFile>
@@ -1166,6 +1170,10 @@
     <NoMoreThan>Daha Fazlası Yok</NoMoreThan>
     <OpenAfterExport>Dışa Aktardıktan Sonra Aç</OpenAfterExport>
     <Ordered>Sıralı</Ordered>
+    <PageBands>Sayfa Üst ve Alt Kısımları:</PageBands>
+    <PageBandsAll>Tümü</PageBandsAll>
+    <PageBandsFirstAndLast>İlk Üst Kısım ve Son Alt Kısım</PageBandsFirstAndLast>
+    <PageBandsNone>Yok</PageBandsNone>
     <PdfACompliance>PDF/A Uyumu</PdfACompliance>
     <PdfUA>PDF/UA (Evrensel Erişilebilirlik)</PdfUA>
     <PrintingReport>Rapor Yazdırılıyor</PrintingReport>
@@ -1231,6 +1239,7 @@
     <JsonReportFiles>JSON Rapor Temaları (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} Sınıfları (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} Silverlight Raporları için Sınıflar (*.{1})|*.{2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>Markdown Dosyaları (*.md)|*.md</MarkdownFiles>
     <MetaFiles>Meta Dosyaları</MetaFiles>
     <MhtFiles>MHT Web Arşivleri (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>Paketlenmiş Rapor Dokümanları (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -2322,6 +2331,7 @@
     <DrawBorder>Bileşenlerin kenarlıklarını grafik karakterlerle çizme.</DrawBorder>
     <Edit>Bileşenleri düzenle.</Edit>
     <EmbeddedFonts>Font dosyalarını bir PDF dosyasına gömün.</EmbeddedFonts>
+    <EmbeddedFontsHtml>Font dosyalarını HTML dosyasına gömün: hiçbiri, yalnızca özel fontlar veya raporda kullanılan tüm fontlar.</EmbeddedFontsHtml>
     <EmbeddedImageData>Resimleri doğrudan HTML dosyasına gömün.</EmbeddedImageData>
     <Encoding>Rapor metnini dışa aktardıktan sonra kodlama.</Encoding>
     <EncodingData>Kodlama veri dosyası.</EncodingData>
@@ -2349,6 +2359,7 @@
     <OpenAfterExport>Oluşturulan belgenin (dışa aktarmadan sonra) bu dosya türleri için ayarlanan program tarafından otomatik olarak açılması.</OpenAfterExport>
     <OwnerPassword>Dosya ile işlemleri gerçekleştirmek için gereken şifre.</OwnerPassword>
     <PageAll>Tüm rapor sayfalarının işlenmesi.</PageAll>
+    <PageBands>Belgeye hangi sayfa üst ve alt kısımlarının ekleneceği: hiçbiri, ilk üst kısım ve son alt kısım veya tümü.</PageBands>
     <PageDelete>Seçilen rapor sayfasını sil.</PageDelete>
     <PageDesign>Sayfayı tasarımcıda düzenleyin.</PageDesign>
     <PageFirst>İlk rapor sayfasına git.</PageFirst>
@@ -3431,6 +3442,9 @@
     <StiHorAlignmentCenter>Merkez</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>Sol</StiHorAlignmentLeft>
     <StiHorAlignmentRight>Sağ</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>Tüm Fontlar</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>Yalnızca Özel</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>Yok</StiHtmlEmbeddedFontsModeNone>
     <StiIconAlignmentBottom>Alt</StiIconAlignmentBottom>
     <StiIconAlignmentLeft>Sol</StiIconAlignmentLeft>
     <StiIconAlignmentNone>Yok</StiIconAlignmentNone>
@@ -4602,6 +4616,10 @@
     <NegativeSeriesColors>Negatif Seri Renkleri</NegativeSeriesColors>
     <NegativeTextBrush>Negatif Metin Fırçası</NegativeTextBrush>
     <NestedLevel>İç İçe Seviye</NestedLevel>
+    <NetworkEdgeLength>Ağ Kenar Uzunluğu</NetworkEdgeLength>
+    <NetworkIterations>Ağ Yinelemeleri</NetworkIterations>
+    <NetworkLayout>Ağ Düzeni</NetworkLayout>
+    <NetworkRepulsion>Ağ İtme Kuvveti</NetworkRepulsion>
     <NewColumnAfter>...Dan Sonra Yeni Sütun</NewColumnAfter>
     <NewColumnBefore>...Den Önce Yeni Sütun</NewColumnBefore>
     <NewPageAfter>...Den Sonra Yeni Sayfa</NewPageAfter>
@@ -5480,6 +5498,7 @@
     <Scheduler>Zamanlayıcı</Scheduler>
     <Schedulers>Zamanlayıcılar</Schedulers>
     <SenderEmail>Gönderici E-Posta Adresi</SenderEmail>
+    <ShowHTMLReportsInMessageBody>HTML Raporlarını İleti Gövdesinde Göster</ShowHTMLReportsInMessageBody>
     <SmtpSettings>Smtp Ayarları</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuration>Tekrarlama süresinin sonunda çalışan tüm görevleri durdur</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>Daha uzun süre çalışırsa görevleri durdur</StopTasksIfItRunsLongerThan>

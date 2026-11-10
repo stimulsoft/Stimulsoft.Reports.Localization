@@ -216,6 +216,7 @@
     <DataColumns>Калонкі дадзеных</DataColumns>
     <Doughnut>Кальцавая</Doughnut>
     <Financial>Фінансавая</Financial>
+    <Flow>Паток</Flow>
     <FullStackedArea>Нармаваная вобласць</FullStackedArea>
     <FullStackedBar>Нармаваная лінейкавая</FullStackedBar>
     <FullStackedColumn>Нармаваная гістаграма</FullStackedColumn>
@@ -279,6 +280,7 @@
     <MoveSeriesUp>Перамясціць шэраг уверх</MoveSeriesUp>
     <MoveStripDown>Перамясціць паласу ўніз</MoveStripDown>
     <MoveStripUp>Перамясціць паласу ўверх</MoveStripUp>
+    <Network>Сетка</Network>
     <NoConditions>Няма ўмоў</NoConditions>
     <NoFilters>Няма фільтраў</NoFilters>
     <Pareto>Парето</Pareto>
@@ -411,6 +413,7 @@
     <Account>Акаўнт</Account>
     <AccountSettings>Налады акаўнта</AccountSettings>
     <AddAPlace>Даданне месца</AddAPlace>
+    <AgreeToReceiveNewsletters>Я даю згоду на атрыманне ад Stimulsoft маркетынгавых лістоў, у тым ліку навін пра прадукты, аб'яў пра выпускі і прапаноў. Я магу адмовіцца ад падпіскі ў любы час.</AgreeToReceiveNewsletters>
     <AreYouSureYouWantDeleteReport>Вы сапраўды хочаце выдаліць справаздачу "{0}" з дыска?</AreYouSureYouWantDeleteReport>
     <Authorize>Аўтарызаваць</Authorize>
     <AuthorizeWithLicenseKey>Аўтарызацыя ліцэнзійным ключом</AuthorizeWithLicenseKey>
@@ -1130,6 +1133,7 @@
     <ExportTypeImageFile>Файл малюнка...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG малюнак...</ExportTypeJpegFile>
     <ExportTypeJsonFile>JSON файл...</ExportTypeJsonFile>
+    <ExportTypeMarkdownFile>Markdown файл...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Windows Metafile...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Web архіў...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX малюнак...</ExportTypePcxFile>
@@ -1166,6 +1170,10 @@
     <NoMoreThan>Не больш чым</NoMoreThan>
     <OpenAfterExport>Адкрыць пасля экспарту</OpenAfterExport>
     <Ordered>Упарадкавана</Ordered>
+    <PageBands>Калантытулы старонкі:</PageBands>
+    <PageBandsAll>Усе</PageBandsAll>
+    <PageBandsFirstAndLast>Першы загаловак і апошні падрахунак</PageBandsFirstAndLast>
+    <PageBandsNone>Не</PageBandsNone>
     <PdfACompliance>PDF/A дамова</PdfACompliance>
     <PdfUA>PDF/UA (Універсальная даступнасць)</PdfUA>
     <PrintingReport>Друк справаздачы</PrintingReport>
@@ -1231,6 +1239,7 @@
     <JsonReportFiles>JSON Stimulsoft шаблоны (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} файлы (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} файлы для Silverlight справаздач (*.{1})|*.{2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>Markdown файлы (*.md)|*.md</MarkdownFiles>
     <MetaFiles>Вектарныя малюнкі</MetaFiles>
     <MhtFiles>MHT Web файл архіва (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>Спакаваныя Stimulsoft дакументы (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -2322,6 +2331,7 @@
     <DrawBorder>Адмалёўка межаў кампанентаў сімваламі графікі.</DrawBorder>
     <Edit>Рэдагаваць элементы справаздачы.</Edit>
     <EmbeddedFonts>Ўбудаваць файлы шрыфтоў у файл PDF.</EmbeddedFonts>
+    <EmbeddedFontsHtml>Убудаваць файлы шрыфтоў у файл HTML: ніякія, толькі карыстальніцкія або ўсе шрыфты, якія выкарыстоўваюцца ў справаздачы.</EmbeddedFontsHtml>
     <EmbeddedImageData>Ўбудаваць малюнкi непасрэдна ў HTML файл.</EmbeddedImageData>
     <Encoding>Кадаваньне тэксту справаздачы пасля экспарту.</Encoding>
     <EncodingData>Кадаванне файла дадзеных.</EncodingData>
@@ -2349,6 +2359,7 @@
     <OpenAfterExport>Аўтаматычнае адкрыццё створанага дакумента (пасля завяршэння экспарту), праграмай, усталяванай па змаўчанні для гэтых тыпаў файлаў.</OpenAfterExport>
     <OwnerPassword>Пароль доступу да аперацый з файлам.</OwnerPassword>
     <PageAll>Апрацоўка ўсіх старонак справаздачы.</PageAll>
+    <PageBands>Якія калантытулы старонак трапяць у дакумент: ніякія, першы загаловак і апошні падрахунак або ўсе.</PageBands>
     <PageDelete>Выдаліць выбраную старонку справаздачы.</PageDelete>
     <PageDesign>Змяніць старонку ў дызайнеры.</PageDesign>
     <PageFirst>Перайсці на першую старонку справаздачы.</PageFirst>
@@ -3428,6 +3439,9 @@
     <StiHorAlignmentCenter>Па цэнтры</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>Па левым боку</StiHorAlignmentLeft>
     <StiHorAlignmentRight>Па правым боку</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>Усе шрыфты</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>Толькі карыстальніцкія</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>Не</StiHtmlEmbeddedFontsModeNone>
     <StiIconAlignmentBottom>Унізе</StiIconAlignmentBottom>
     <StiIconAlignmentLeft>Злева</StiIconAlignmentLeft>
     <StiIconAlignmentNone>Не</StiIconAlignmentNone>
@@ -4599,6 +4613,10 @@
     <NegativeSeriesColors>Колеры серый для адмоўных</NegativeSeriesColors>
     <NegativeTextBrush>Колер тэксту для адмоўных</NegativeTextBrush>
     <NestedLevel>Узровень ўкладзенасці</NestedLevel>
+    <NetworkEdgeLength>Даўжыня рэбраў сеткі</NetworkEdgeLength>
+    <NetworkIterations>Ітэрацыі сеткі</NetworkIterations>
+    <NetworkLayout>Месцаванне сеткі</NetworkLayout>
+    <NetworkRepulsion>Адштурхоўванне вузлоў сеткі</NetworkRepulsion>
     <NewColumnAfter>Новая калонка пасля</NewColumnAfter>
     <NewColumnBefore>Новая калонка да</NewColumnBefore>
     <NewPageAfter>Новая старонка пасля</NewPageAfter>
@@ -5477,6 +5495,7 @@
     <Scheduler>Планавальнік</Scheduler>
     <Schedulers>Планавальнікі</Schedulers>
     <SenderEmail>Email адпраўніка</SenderEmail>
+    <ShowHTMLReportsInMessageBody>Паказваць HTML-справаздачы ў целе ліста</ShowHTMLReportsInMessageBody>
     <SmtpSettings>Налады SMTP сервера</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuration>Спыніць усе выкананыя заданні па сканчэнні паўтору.</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>Спыніць заданні калі яны працуюць даўжэй чым</StopTasksIfItRunsLongerThan>

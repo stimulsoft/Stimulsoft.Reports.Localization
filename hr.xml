@@ -216,6 +216,7 @@
     <DataColumns>Stupci podataka</DataColumns>
     <Doughnut>Prstenasti</Doughnut>
     <Financial>Financijski</Financial>
+    <Flow>Tok</Flow>
     <FullStackedArea>Složeni površinski</FullStackedArea>
     <FullStackedBar>100% Složeni trakasti</FullStackedBar>
     <FullStackedColumn>100% Složeni stupčasti</FullStackedColumn>
@@ -279,6 +280,7 @@
     <MoveSeriesUp>Pomakni niz gore</MoveSeriesUp>
     <MoveStripDown>Pomakni traku dolje</MoveStripDown>
     <MoveStripUp>Pomakni traku gore</MoveStripUp>
+    <Network>Mreža</Network>
     <NoConditions>Bez uvjeta</NoConditions>
     <NoFilters>Bez filtera</NoFilters>
     <Pareto>Pareto</Pareto>
@@ -411,6 +413,7 @@
     <Account>Račun</Account>
     <AccountSettings>Postavke računa</AccountSettings>
     <AddAPlace>Dodaj mjesto</AddAPlace>
+    <AgreeToReceiveNewsletters>Pristajem primati marketinške e-poruke tvrtke Stimulsoft, uključujući novosti o proizvodima, najave izdanja i ponude. Mogu se odjaviti u bilo kojem trenutku.</AgreeToReceiveNewsletters>
     <AreYouSureYouWantDeleteReport>Jeste li sigurni da želite obrisati "{0}" izvještaj sa diska?</AreYouSureYouWantDeleteReport>
     <Authorize>Autoriziraj</Authorize>
     <AuthorizeWithLicenseKey>Autoriziraj sa licenčnim ključem</AuthorizeWithLicenseKey>
@@ -1132,6 +1135,7 @@
     <ExportTypeImageFile>Slikovna datoteka...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG slika...</ExportTypeJpegFile>
     <ExportTypeJsonFile>JSON datoteka...</ExportTypeJsonFile>
+    <ExportTypeMarkdownFile>Markdown datoteka...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Windows Metafile...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Web Archive...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX slika...</ExportTypePcxFile>
@@ -1168,6 +1172,10 @@
     <NoMoreThan>Ne više od</NoMoreThan>
     <OpenAfterExport>Otvori nakon eksporta</OpenAfterExport>
     <Ordered>Poredano</Ordered>
+    <PageBands>Zaglavlja i podnožja stranice:</PageBands>
+    <PageBandsAll>Sve</PageBandsAll>
+    <PageBandsFirstAndLast>Prvo zaglavlje i zadnje podnožje</PageBandsFirstAndLast>
+    <PageBandsNone>Ništa</PageBandsNone>
     <PdfACompliance>PDF/A sukkladno</PdfACompliance>
     <PdfUA>PDF/UA (univerzalna pristupačnost)</PdfUA>
     <PrintingReport>Ispisivanje izvještaja</PrintingReport>
@@ -1233,6 +1241,7 @@
     <JsonReportFiles>JSON Report predlošci (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} datoteka (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} datoteka za Silverlight izvještaje (*.{1})|*.{2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>Markdown datoteke (*.md)|*.md</MarkdownFiles>
     <MetaFiles>Meta Files</MetaFiles>
     <MhtFiles>MHT Web Archive datoteke (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>Files packed document (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -2325,6 +2334,7 @@
     <DrawBorder>Iscrtavanje granica komponenti sa grafičkim znakovima.</DrawBorder>
     <Edit>Uredi komponente.</Edit>
     <EmbeddedFonts>Ugraditi font datoteke u PDF datoteku.</EmbeddedFonts>
+    <EmbeddedFontsHtml>Ugraditi font datoteke u HTML datoteku: nijedan, samo prilagođene ili sve fontove korištene u izvještaju.</EmbeddedFontsHtml>
     <EmbeddedImageData>Ugradi slike direktno u HTML datoteku.</EmbeddedImageData>
     <Encoding>Enkodiranje teksta izvještaja nakon export-a.</Encoding>
     <EncodingData>Enkodiranje podatkovne datoteke.</EncodingData>
@@ -2352,6 +2362,7 @@
     <OpenAfterExport>Automatsko otvaranje kreiranog dokumenta (nakon export-a) sa programom podešenim za ovu vrstu datoteka.</OpenAfterExport>
     <OwnerPassword>Lozinka za pristup operacijama sa datotekama.</OwnerPassword>
     <PageAll>Procesiranje svih stranica izvještaja.</PageAll>
+    <PageBands>Koja zaglavlja i podnožja stranica ulaze u dokument: nijedno, prvo zaglavlje i zadnje podnožje ili sva.</PageBands>
     <PageDelete>Obriši odabranu stranicu izvještaja.</PageDelete>
     <PageDesign>Uredi stranicu u dizajneru.</PageDesign>
     <PageFirst>Idi na prvu stranicu izvještaja.</PageFirst>
@@ -3438,6 +3449,9 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <StiHorAlignmentCenter>Centrirano</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>Lijevo</StiHorAlignmentLeft>
     <StiHorAlignmentRight>Desno</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>Svi fontovi</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>Samo prilagođeni</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>Ništa</StiHtmlEmbeddedFontsModeNone>
     <StiIconAlignmentBottom>Dno</StiIconAlignmentBottom>
     <StiIconAlignmentLeft>Lijevo</StiIconAlignmentLeft>
     <StiIconAlignmentNone>Ništa</StiIconAlignmentNone>
@@ -4626,6 +4640,10 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <NegativeSeriesColors>Boje negativnih serija</NegativeSeriesColors>
     <NegativeTextBrush>Četka negativnog teksta</NegativeTextBrush>
     <NestedLevel>Ugniježđeni nivo</NestedLevel>
+    <NetworkEdgeLength>Duljina bridova mreže</NetworkEdgeLength>
+    <NetworkIterations>Iteracije mreže</NetworkIterations>
+    <NetworkLayout>Raspored mreže</NetworkLayout>
+    <NetworkRepulsion>Odbijanje čvorova mreže</NetworkRepulsion>
     <NewColumnAfter>Novi stupac nakon</NewColumnAfter>
     <NewColumnBefore>Novi stupac prije</NewColumnBefore>
     <NewPageAfter>Nova stranica nakon</NewPageAfter>
@@ -5507,6 +5525,7 @@ Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju 
     <Scheduler>Planer</Scheduler>
     <Schedulers>Planeri</Schedulers>
     <SenderEmail>Email pošiljatelja</SenderEmail>
+    <ShowHTMLReportsInMessageBody>Prikaži HTML izvještaje u tijelu poruke</ShowHTMLReportsInMessageBody>
     <SmtpSettings>Smtp postavke</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuration>Zaustavi sve pokrenute zadatke na kraju trajanja ponavljanja</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>Zaustavi zadatke ako traju dulje od</StopTasksIfItRunsLongerThan>

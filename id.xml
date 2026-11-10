@@ -216,6 +216,7 @@
     <DataColumns>Kolom Data</DataColumns>
     <Doughnut>Donat</Doughnut>
     <Financial>Keuangan</Financial>
+    <Flow>Aliran</Flow>
     <FullStackedArea>Susunan Penuh Area</FullStackedArea>
     <FullStackedBar>Susunan Penuh Batang</FullStackedBar>
     <FullStackedColumn>Susunan Penuh Kolom</FullStackedColumn>
@@ -279,6 +280,7 @@
     <MoveSeriesUp>Pindahkan Seri ke Atas</MoveSeriesUp>
     <MoveStripDown>Pindahkan Lajur ke Bawah</MoveStripDown>
     <MoveStripUp>Pindahkan Lajur ke Atas</MoveStripUp>
+    <Network>Jaringan</Network>
     <NoConditions>Tanpa Kriteria</NoConditions>
     <NoFilters>Tanpa Filter</NoFilters>
     <Pareto>Pareto</Pareto>
@@ -410,6 +412,7 @@
     <Account>Akun</Account>
     <AccountSettings>Pengaturan Akun</AccountSettings>
     <AddAPlace>Tambahkan Tempat</AddAPlace>
+    <AgreeToReceiveNewsletters>Saya setuju untuk menerima email pemasaran dari Stimulsoft, termasuk berita produk, pengumuman rilis, dan penawaran. Saya dapat berhenti berlangganan kapan saja.</AgreeToReceiveNewsletters>
     <AreYouSureYouWantDeleteReport>Apakah Anda yakin ingin menghapus laporan "{0}"?</AreYouSureYouWantDeleteReport>
     <Authorize>Otorisasi</Authorize>
     <AuthorizeWithLicenseKey>Otorisasi dengan Kunci Lisensi</AuthorizeWithLicenseKey>
@@ -1129,6 +1132,7 @@
     <ExportTypeImageFile>File Gambar ...</ExportTypeImageFile>
     <ExportTypeJpegFile>Gambar JPEG...</ExportTypeJpegFile>
     <ExportTypeJsonFile>File JSON..</ExportTypeJsonFile>
+    <ExportTypeMarkdownFile>File Markdown...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Windows Metafile...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Web Archive...</ExportTypeMhtFile>
     <ExportTypePcxFile>Gambar PCX...</ExportTypePcxFile>
@@ -1165,6 +1169,10 @@
     <NoMoreThan>Tidak Lebih dari</NoMoreThan>
     <OpenAfterExport>Buka setelah export</OpenAfterExport>
     <Ordered>Terurut</Ordered>
+    <PageBands>Header/Footer Halaman:</PageBands>
+    <PageBandsAll>Semua</PageBandsAll>
+    <PageBandsFirstAndLast>Header Pertama dan Footer Terakhir</PageBandsFirstAndLast>
+    <PageBandsNone>Tidak Ada</PageBandsNone>
     <PdfACompliance>PDF/A Compliance</PdfACompliance>
     <PdfUA>PDF/UA (Aksesibilitas Universal)</PdfUA>
     <PrintingReport>Mencetak Laporan</PrintingReport>
@@ -1230,6 +1238,7 @@
     <JsonReportFiles>JSON Laporan Template (* .mrt) | * .mrt</JsonReportFiles>
     <LanguageFiles>{0} file (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} file untuk laporan Silverlight (*.{1})|*.{2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>File Markdown (*.md)|*.md</MarkdownFiles>
     <MetaFiles>Meta Files</MetaFiles>
     <MhtFiles>file MHT Web Archive (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>File dokumen yang dipak (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -2320,6 +2329,7 @@
     <DrawBorder>Menggambar perbatasan komponen dengan karakter grafis.</DrawBorder>
     <Edit>Rubah komponen.</Edit>
     <EmbeddedFonts>Embed file font ke file PDF.</EmbeddedFonts>
+    <EmbeddedFontsHtml>Embed file font ke file HTML: tidak ada, hanya font kustom, atau semua font yang digunakan dalam laporan.</EmbeddedFontsHtml>
     <EmbeddedImageData>Embed gambar langsung ke file HTML.</EmbeddedImageData>
     <Encoding>Pengkodean teks laporan setelah ekspor.</Encoding>
     <EncodingData>Pengkodean data file.</EncodingData>
@@ -2347,6 +2357,7 @@
     <OpenAfterExport>pembukaan otomatis dari dokumen yang dibuat (setelah ekspor) dengan program yang ditetapkan untuk jenis file ini.</OpenAfterExport>
     <OwnerPassword>Sandi untuk mengakses operasi dengan file.</OwnerPassword>
     <PageAll>Pengolahan dari semua halaman laporan.</PageAll>
+    <PageBands>Header dan footer halaman mana yang dimasukkan ke dalam dokumen: tidak ada, header pertama dan footer terakhir, atau semuanya.</PageBands>
     <PageDelete>Hapus halaman laporan yang dipilih.</PageDelete>
     <PageDesign>Ubah halaman di designer.</PageDesign>
     <PageFirst>Pergi ke halaman pertama laporan.</PageFirst>
@@ -3421,6 +3432,9 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <StiHorAlignmentCenter>Tengah</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>Kiri</StiHorAlignmentLeft>
     <StiHorAlignmentRight>Kanan</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>Semua Font</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>Hanya Kustom</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>Tidak Ada</StiHtmlEmbeddedFontsModeNone>
     <StiIconAlignmentBottom>Bawah</StiIconAlignmentBottom>
     <StiIconAlignmentLeft>Kiri</StiIconAlignmentLeft>
     <StiIconAlignmentNone>Tidak ada</StiIconAlignmentNone>
@@ -4584,6 +4598,10 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <NegativeSeriesColors>Warna Seri Negatif</NegativeSeriesColors>
     <NegativeTextBrush>Kuas Teks Negatif</NegativeTextBrush>
     <NestedLevel>Kumpulan Level</NestedLevel>
+    <NetworkEdgeLength>Panjang Tepi Jaringan</NetworkEdgeLength>
+    <NetworkIterations>Iterasi Jaringan</NetworkIterations>
+    <NetworkLayout>Tata Letak Jaringan</NetworkLayout>
+    <NetworkRepulsion>Tolakan Jaringan</NetworkRepulsion>
     <NewColumnAfter>Setelah Kolom Baru</NewColumnAfter>
     <NewColumnBefore>Sebelum Kolom Baru</NewColumnBefore>
     <NewPageAfter>Setelah Halaman Baru</NewPageAfter>
@@ -4865,6 +4883,7 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <SortingEnabled>Pengurutan Diperbolehkan</SortingEnabled>
     <SortLetters>A-Z</SortLetters>
     <SortType>Tipe Urutan</SortType>
+    <Source>Sumber</Source>
     <Space>Jarak</Space>
     <SpaceRatio>SRasio Ruang</SpaceRatio>
     <Spacing>Penentuan Jarak</Spacing>
@@ -5451,6 +5470,7 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <Scheduler>Pembuat Jadwal</Scheduler>
     <Schedulers>Kumpulan Pembuat Jadwal</Schedulers>
     <SenderEmail>Email Pengirim</SenderEmail>
+    <ShowHTMLReportsInMessageBody>Tampilkan Laporan HTML di Isi Pesan</ShowHTMLReportsInMessageBody>
     <SmtpSettings>Pengaturan Smtp</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuration>Hentikan semua tugas yang sedang berjalan di akhir durasi pengulangan</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>Hentikan tugas jika berjalan lebih lama dari</StopTasksIfItRunsLongerThan>

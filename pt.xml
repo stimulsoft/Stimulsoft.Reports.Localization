@@ -216,6 +216,7 @@
     <DataColumns>Colunas de dados</DataColumns>
     <Doughnut>Anel</Doughnut>
     <Financial>Financeira</Financial>
+    <Flow>Fluxo</Flow>
     <FullStackedArea>Área Full-Stacked</FullStackedArea>
     <FullStackedBar>Barra Full-Stacked</FullStackedBar>
     <FullStackedColumn>Coluna Full-Stacked</FullStackedColumn>
@@ -279,6 +280,7 @@
     <MoveSeriesUp>Mover séries para cima</MoveSeriesUp>
     <MoveStripDown>Mover faixa para baixo</MoveStripDown>
     <MoveStripUp>Mover faixa para cima</MoveStripUp>
+    <Network>Rede</Network>
     <NoConditions>Nenhuma condição</NoConditions>
     <NoFilters>Nenhum filtro</NoFilters>
     <Pareto>Pareto</Pareto>
@@ -411,6 +413,7 @@
     <Account>Conta</Account>
     <AccountSettings>Configurações de Conta</AccountSettings>
     <AddAPlace>Add a Place</AddAPlace>
+    <AgreeToReceiveNewsletters>Aceito receber e-mails de marketing da Stimulsoft, incluindo novidades sobre produtos, anúncios de versões e ofertas. Posso cancelar a subscrição a qualquer momento.</AgreeToReceiveNewsletters>
     <AreYouSureYouWantDeleteReport>Tem a certeza que deseja eliminar o relatório "{0}" do disco?</AreYouSureYouWantDeleteReport>
     <Authorize>Autorizar</Authorize>
     <AuthorizeWithLicenseKey>Autorizar com a Chave da Licença</AuthorizeWithLicenseKey>
@@ -1130,6 +1133,7 @@
     <ExportTypeImageFile>Ficheiro de Imagem...</ExportTypeImageFile>
     <ExportTypeJpegFile>Imagem JPEG...</ExportTypeJpegFile>
     <ExportTypeJsonFile>Ficheiro JSON...</ExportTypeJsonFile>
+    <ExportTypeMarkdownFile>Ficheiro Markdown...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Windows Metafile...</ExportTypeMetafile>
     <ExportTypeMhtFile>Ficheiro MHT Web ...</ExportTypeMhtFile>
     <ExportTypePcxFile>Imagem PCX ...</ExportTypePcxFile>
@@ -1166,6 +1170,10 @@
     <NoMoreThan>Não mais que</NoMoreThan>
     <OpenAfterExport>Abrir depois da exportação</OpenAfterExport>
     <Ordered>Pedido</Ordered>
+    <PageBands>Cabeçalhos e rodapés de página:</PageBands>
+    <PageBandsAll>Todos</PageBandsAll>
+    <PageBandsFirstAndLast>Primeiro cabeçalho e último rodapé</PageBandsFirstAndLast>
+    <PageBandsNone>Nenhum</PageBandsNone>
     <PdfACompliance>Conformidade PDF/A</PdfACompliance>
     <PdfUA>PDF/UA (Acessibilidade Universal)</PdfUA>
     <PrintingReport>A imprimir Relatório</PrintingReport>
@@ -1232,6 +1240,7 @@
     <LanguageFiles>{0} Ficheiros(*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} ficheiros para relatórios Silverlight
 (*.{1})|*.{2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>Ficheiros Markdown (*.md)|*.md</MarkdownFiles>
     <MetaFiles>Ficheiros Metadados</MetaFiles>
     <MhtFiles>Ficheiros de MHT (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>Pacote de ficheiros de documento (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -2323,6 +2332,7 @@
     <DrawBorder>Desenho dos limites dos componentes com caracteres gráficos.</DrawBorder>
     <Edit>Editar componentes.</Edit>
     <EmbeddedFonts>Incorporar as fontes no ficheiro PDF.</EmbeddedFonts>
+    <EmbeddedFontsHtml>Incorporar as fontes no ficheiro HTML: nenhuma, apenas as personalizadas ou todas as fontes utilizadas no relatório.</EmbeddedFontsHtml>
     <EmbeddedImageData>Incorporar imagens diretamente para o ficheiro HTML.</EmbeddedImageData>
     <Encoding>Codificação do texto do relatório após a exportação.</Encoding>
     <EncodingData>Codificação de ficheiro de dados.</EncodingData>
@@ -2350,6 +2360,7 @@
     <OpenAfterExport>Abertura automática do documento criado (depois de exportação) pelo programa definido para esses tipos de ficheiro.</OpenAfterExport>
     <OwnerPassword>A password necessária para realizar operações com o ficheiro.</OwnerPassword>
     <PageAll>Processamento de todas as páginas do relatório.</PageAll>
+    <PageBands>Quais os cabeçalhos e rodapés de página a incluir no documento: nenhum, o primeiro cabeçalho e o último rodapé, ou todos.</PageBands>
     <PageDelete>Apagar a página selecionada do relatório.</PageDelete>
     <PageDesign>Editar a página no designer.</PageDesign>
     <PageFirst>Ir para a primeira página do relatório.</PageFirst>
@@ -3432,6 +3443,9 @@
     <StiHorAlignmentCenter>Centro</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>Esquerda</StiHorAlignmentLeft>
     <StiHorAlignmentRight>Direita</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>Todas as fontes</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>Apenas personalizadas</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>Nenhuma</StiHtmlEmbeddedFontsModeNone>
     <StiIconAlignmentBottom>Inferior</StiIconAlignmentBottom>
     <StiIconAlignmentLeft>Esquerda</StiIconAlignmentLeft>
     <StiIconAlignmentNone>Nenhum</StiIconAlignmentNone>
@@ -4603,6 +4617,10 @@
     <NegativeSeriesColors>Cor das séries negativas</NegativeSeriesColors>
     <NegativeTextBrush>Pincel do texto negativo</NegativeTextBrush>
     <NestedLevel>Nível aninhado</NestedLevel>
+    <NetworkEdgeLength>Comprimento das arestas da rede</NetworkEdgeLength>
+    <NetworkIterations>Iterações da rede</NetworkIterations>
+    <NetworkLayout>Layout da rede</NetworkLayout>
+    <NetworkRepulsion>Repulsão dos nós da rede</NetworkRepulsion>
     <NewColumnAfter>Nova coluna após</NewColumnAfter>
     <NewColumnBefore>Nova coluna antes</NewColumnBefore>
     <NewPageAfter>Nova página após</NewPageAfter>
@@ -5484,6 +5502,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <Scheduler>Agendador</Scheduler>
     <Schedulers>Agendadores</Schedulers>
     <SenderEmail>Email do remetente</SenderEmail>
+    <ShowHTMLReportsInMessageBody>Mostrar relatórios HTML no corpo da mensagem</ShowHTMLReportsInMessageBody>
     <SmtpSettings>Definições de Smtp</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuration>Parar todas as tarefas em execução no fim da duração da repetição</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>Parar tarefas se demorarem mais de </StopTasksIfItRunsLongerThan>

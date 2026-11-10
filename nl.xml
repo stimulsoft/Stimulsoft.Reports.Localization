@@ -216,6 +216,7 @@
     <DataColumns>Gegevens Kolommen</DataColumns>
     <Doughnut>Doughnut</Doughnut>
     <Financial>Financieel</Financial>
+    <Flow>Stroom</Flow>
     <FullStackedArea>Volledig Gestapelde Oppervlakte</FullStackedArea>
     <FullStackedBar>Volledig Gestapelde Staaf</FullStackedBar>
     <FullStackedColumn>Volledig Gestapelde Kolom</FullStackedColumn>
@@ -279,6 +280,7 @@
     <MoveSeriesUp>Verplaats Reeks Naar Boven</MoveSeriesUp>
     <MoveStripDown>Verplaats Strip Down</MoveStripDown>
     <MoveStripUp>Verplaats Strip Up</MoveStripUp>
+    <Network>Netwerk</Network>
     <NoConditions>Geen Voorwaarden</NoConditions>
     <NoFilters>Geen Filters</NoFilters>
     <Pareto>Pareto</Pareto>
@@ -410,6 +412,7 @@
     <Account>Account</Account>
     <AccountSettings>Accountinstellingen</AccountSettings>
     <AddAPlace>Een locatie toevoegen</AddAPlace>
+    <AgreeToReceiveNewsletters>Ik ga akkoord met het ontvangen van marketingmails van Stimulsoft, waaronder productnieuws, release-aankondigingen en aanbiedingen. Ik kan me op elk moment afmelden.</AgreeToReceiveNewsletters>
     <AreYouSureYouWantDeleteReport>Weet u zeker dat u het rapport "{0}" van de schijf wilt verwijderen?</AreYouSureYouWantDeleteReport>
     <Authorize>Autoriseren</Authorize>
     <AuthorizeWithLicenseKey>Autoriseren met licentiesleutel</AuthorizeWithLicenseKey>
@@ -1129,6 +1132,7 @@
     <ExportTypeImageFile>Afbeeldingsbestand...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG Afbeelding...</ExportTypeJpegFile>
     <ExportTypeJsonFile>JSON-bestand...</ExportTypeJsonFile>
+    <ExportTypeMarkdownFile>Markdown-bestand...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Windows Metabestand...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Web Archief...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX Afbeelding...</ExportTypePcxFile>
@@ -1165,6 +1169,10 @@
     <NoMoreThan>Niet meer dan</NoMoreThan>
     <OpenAfterExport>Openen Na Export</OpenAfterExport>
     <Ordered>Geordend</Ordered>
+    <PageBands>Pagina Kop- en Voetteksten:</PageBands>
+    <PageBandsAll>Alle</PageBandsAll>
+    <PageBandsFirstAndLast>Eerste Koptekst en Laatste Voettekst</PageBandsFirstAndLast>
+    <PageBandsNone>Geen</PageBandsNone>
     <PdfACompliance>PDF/A Compliance</PdfACompliance>
     <PdfUA>PDF/UA (Universele toegankelijkheid)</PdfUA>
     <PrintingReport>Rapport afdrukken</PrintingReport>
@@ -1230,6 +1238,7 @@
     <JsonReportFiles>Stimulsoft JSON-sjablonen (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} bestanden (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} bestanden voor Silverlight rapporten (* {1}.) |. * {2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>Markdown bestanden (*.md)|*.md</MarkdownFiles>
     <MetaFiles>Metabestanden</MetaFiles>
     <MhtFiles>MHT Web Archief bestanden (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>Packed document bestanden (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -2320,6 +2329,7 @@
     <DrawBorder>Teken Rand</DrawBorder>
     <Edit>Edit components.</Edit>
     <EmbeddedFonts>Sluit de lettertypebestanden in een PDF-bestand in.</EmbeddedFonts>
+    <EmbeddedFontsHtml>Sluit de lettertypebestanden in het HTML-bestand in: geen, alleen aangepaste of alle lettertypen die in het rapport worden gebruikt.</EmbeddedFontsHtml>
     <EmbeddedImageData>Sluit afbeeldingen rechtstreeks in het HTML-bestand in.</EmbeddedImageData>
     <Encoding>De rapporttekst coderen na het exporteren.</Encoding>
     <EncodingData>Gegevensbestand coderen.</EncodingData>
@@ -2347,6 +2357,7 @@
     <OpenAfterExport>Automatisch openen van het gemaakte document (na export) door het programma dat aan deze bestandstypen is gekoppeld.</OpenAfterExport>
     <OwnerPassword>Het wachtwoord dat vereist is om bewerkingen met het bestand uit te voeren.</OwnerPassword>
     <PageAll>Verwerking van alle rapportpagina's.</PageAll>
+    <PageBands>Welke paginakop- en voetteksten in het document komen: geen, de eerste koptekst en de laatste voettekst, of alle.</PageBands>
     <PageDelete>Verwijder de geselecteerde pagina van een rapport.</PageDelete>
     <PageDesign>Bewerk de pagina in de ontwerper.</PageDesign>
     <PageFirst>Ga naar de eerste pagina van een rapport.</PageFirst>
@@ -3419,6 +3430,9 @@ De e-mail is verzonden naar "{0}". Deze bevat een link om uw registratie te beve
     <StiHorAlignmentCenter>Gecentreerd</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>Links</StiHorAlignmentLeft>
     <StiHorAlignmentRight>Rechts</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>Alle Lettertypen</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>Alleen Aangepaste</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>Geen</StiHtmlEmbeddedFontsModeNone>
     <StiIconAlignmentBottom>Onder</StiIconAlignmentBottom>
     <StiIconAlignmentLeft>Links</StiIconAlignmentLeft>
     <StiIconAlignmentNone>Geen</StiIconAlignmentNone>
@@ -4582,6 +4596,10 @@ De e-mail is verzonden naar "{0}". Deze bevat een link om uw registratie te beve
     <NegativeSeriesColors>Negatieve reekskleuren</NegativeSeriesColors>
     <NegativeTextBrush>Penseel negatieve tekst</NegativeTextBrush>
     <NestedLevel>Genest Niveau</NestedLevel>
+    <NetworkEdgeLength>Netwerk Randlengte</NetworkEdgeLength>
+    <NetworkIterations>Netwerk Iteraties</NetworkIterations>
+    <NetworkLayout>Netwerk Layout</NetworkLayout>
+    <NetworkRepulsion>Netwerk Afstoting</NetworkRepulsion>
     <NewColumnAfter>Nieuwe Kolom Na</NewColumnAfter>
     <NewColumnBefore>Nieuwe Kolom Voor</NewColumnBefore>
     <NewPageAfter>Nieuwe Pagina Na</NewPageAfter>
@@ -4864,6 +4882,7 @@ De e-mail is verzonden naar "{0}". Deze bevat een link om uw registratie te beve
     <SortingEnabled>Sorteren Actief</SortingEnabled>
     <SortLetters>A-Z</SortLetters>
     <SortType>Sorteer Type</SortType>
+    <Source>Bron</Source>
     <Space>Spatie</Space>
     <SpaceRatio>Ruimteverhouding</SpaceRatio>
     <Spacing>Spatiëring</Spacing>
@@ -5450,6 +5469,7 @@ De e-mail is verzonden naar "{0}". Deze bevat een link om uw registratie te beve
     <Scheduler>Planner</Scheduler>
     <Schedulers>Planners</Schedulers>
     <SenderEmail>E-mail afzender</SenderEmail>
+    <ShowHTMLReportsInMessageBody>HTML-rapporten in Berichttekst Weergeven</ShowHTMLReportsInMessageBody>
     <SmtpSettings>SMTP-instellingen</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuration>Stop alle actieve taken aan het einde van de herhalingsduur</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>Stop taken als ze langer duren dan</StopTasksIfItRunsLongerThan>

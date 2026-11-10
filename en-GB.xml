@@ -216,6 +216,7 @@
     <DataColumns>Data Columns</DataColumns>
     <Doughnut>Doughnut</Doughnut>
     <Financial>Financial</Financial>
+    <Flow>Flow</Flow>
     <FullStackedArea>Full-Stacked Area</FullStackedArea>
     <FullStackedBar>Full-Stacked Bar</FullStackedBar>
     <FullStackedColumn>Full-Stacked Column</FullStackedColumn>
@@ -279,6 +280,7 @@
     <MoveSeriesUp>Move Series Up</MoveSeriesUp>
     <MoveStripDown>Move Strip Down</MoveStripDown>
     <MoveStripUp>Move Strip Up</MoveStripUp>
+    <Network>Network</Network>
     <NoConditions>No Conditions</NoConditions>
     <NoFilters>No Filters</NoFilters>
     <Pareto>Pareto</Pareto>
@@ -411,6 +413,7 @@
     <Account>Account</Account>
     <AccountSettings>Account Settings</AccountSettings>
     <AddAPlace>Add a Place</AddAPlace>
+    <AgreeToReceiveNewsletters>I agree to receive marketing emails from Stimulsoft, including product news, release announcements, and offers. I can unsubscribe at any time.</AgreeToReceiveNewsletters>
     <AreYouSureYouWantDeleteReport>Are you sure you want to delete "{0}" report from disk?</AreYouSureYouWantDeleteReport>
     <Authorize>Authorise</Authorize>
     <AuthorizeWithLicenseKey>Authorise with Licence Key</AuthorizeWithLicenseKey>
@@ -1130,6 +1133,7 @@
     <ExportTypeImageFile>Image File...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG Image...</ExportTypeJpegFile>
     <ExportTypeJsonFile>JSON File...</ExportTypeJsonFile>
+    <ExportTypeMarkdownFile>Markdown File...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Windows Metafile...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Web Archive...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX Image...</ExportTypePcxFile>
@@ -1166,6 +1170,10 @@
     <NoMoreThan>No More Than</NoMoreThan>
     <OpenAfterExport>Open After Export</OpenAfterExport>
     <Ordered>Ordered</Ordered>
+    <PageBands>Page Headers/Footers:</PageBands>
+    <PageBandsAll>All</PageBandsAll>
+    <PageBandsFirstAndLast>First Header and Last Footer</PageBandsFirstAndLast>
+    <PageBandsNone>None</PageBandsNone>
     <PdfACompliance>PDF/A Compliance</PdfACompliance>
     <PdfUA>PDF/UA (Universal Accessibility)</PdfUA>
     <PrintingReport>Printing Report</PrintingReport>
@@ -1231,6 +1239,7 @@
     <JsonReportFiles>JSON Stimulsoft Templates (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} Classes (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} Classes for Silverlight Reports (*.{1})|*.{2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>Markdown Files (*.md)|*.md</MarkdownFiles>
     <MetaFiles>Metafiles</MetaFiles>
     <MhtFiles>MHT Web Archives (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>Packed Stimulsoft Documents (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -2322,6 +2331,7 @@
     <DrawBorder>Drawing the borders of components with graphic characters.</DrawBorder>
     <Edit>Edit components.</Edit>
     <EmbeddedFonts>Embed the font files into a PDF file.</EmbeddedFonts>
+    <EmbeddedFontsHtml>Embed the font files into the HTML file: none, the custom fonts only, or all the fonts used in the report.</EmbeddedFontsHtml>
     <EmbeddedImageData>Embed images directly into the HTML file.</EmbeddedImageData>
     <Encoding>Encoding the report text after export.</Encoding>
     <EncodingData>Encoding data file.</EncodingData>
@@ -2349,6 +2359,7 @@
     <OpenAfterExport>Automatic opening of the created document (after export) by the program set for these file types.</OpenAfterExport>
     <OwnerPassword>The password to access operations with files.</OwnerPassword>
     <PageAll>Processing of all report pages.</PageAll>
+    <PageBands>Which page headers and footers go into the document: none, the first header and the last footer, or all of them.</PageBands>
     <PageDelete>Delete the selected report page.</PageDelete>
     <PageDesign>Edit the page in the designer.</PageDesign>
     <PageFirst>Go to the first report page.</PageFirst>
@@ -3431,6 +3442,9 @@
     <StiHorAlignmentCenter>Centre</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>Left</StiHorAlignmentLeft>
     <StiHorAlignmentRight>Right</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>All Fonts</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>Custom Only</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>None</StiHtmlEmbeddedFontsModeNone>
     <StiIconAlignmentBottom>Bottom</StiIconAlignmentBottom>
     <StiIconAlignmentLeft>Left</StiIconAlignmentLeft>
     <StiIconAlignmentNone>None</StiIconAlignmentNone>
@@ -4602,6 +4616,10 @@
     <NegativeSeriesColors>Negative Series Colours</NegativeSeriesColors>
     <NegativeTextBrush>Negative Text Brush</NegativeTextBrush>
     <NestedLevel>Nested Level</NestedLevel>
+    <NetworkEdgeLength>Network Edge Length</NetworkEdgeLength>
+    <NetworkIterations>Network Iterations</NetworkIterations>
+    <NetworkLayout>Network Layout</NetworkLayout>
+    <NetworkRepulsion>Network Repulsion</NetworkRepulsion>
     <NewColumnAfter>New Column After</NewColumnAfter>
     <NewColumnBefore>New Column Before</NewColumnBefore>
     <NewPageAfter>New Page After</NewPageAfter>
@@ -5480,6 +5498,7 @@
     <Scheduler>Scheduler</Scheduler>
     <Schedulers>Schedulers</Schedulers>
     <SenderEmail>Sender Email</SenderEmail>
+    <ShowHTMLReportsInMessageBody>Show HTML Reports in Message Body</ShowHTMLReportsInMessageBody>
     <SmtpSettings>Smtp Settings</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuration>Stop all running tasks at end of repetition duration</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>Stop tasks if it runs longer than</StopTasksIfItRunsLongerThan>

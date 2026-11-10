@@ -216,6 +216,7 @@
     <DataColumns>Dátové stĺpce</DataColumns>
     <Doughnut>Výsekový</Doughnut>
     <Financial>Finančný</Financial>
+    <Flow>Tok</Flow>
     <FullStackedArea>Súčtová oblasť</FullStackedArea>
     <FullStackedBar>Vrstvový pruhový</FullStackedBar>
     <FullStackedColumn>Vrstvový stĺpcový</FullStackedColumn>
@@ -279,6 +280,7 @@
     <MoveSeriesUp>Posunúť rad hore</MoveSeriesUp>
     <MoveStripDown>Posunúť pruh nadol</MoveStripDown>
     <MoveStripUp>Posunúť pruh nahor</MoveStripUp>
+    <Network>Sieť</Network>
     <NoConditions>Žiadne podmienky</NoConditions>
     <NoFilters>Žiadne filtre</NoFilters>
     <Pareto>Pareto diagram</Pareto>
@@ -411,6 +413,7 @@
     <Account>Účet</Account>
     <AccountSettings>Nastavenie konta</AccountSettings>
     <AddAPlace>Pridať miesto</AddAPlace>
+    <AgreeToReceiveNewsletters>Súhlasím so zasielaním marketingových e-mailov od spoločnosti Stimulsoft vrátane noviniek o produktoch, oznámení o vydaniach a ponúk. Odber môžem kedykoľvek zrušiť.</AgreeToReceiveNewsletters>
     <AreYouSureYouWantDeleteReport>Naozaj chcete vymazať "{0}" report z disku?</AreYouSureYouWantDeleteReport>
     <Authorize>Autorizovať</Authorize>
     <AuthorizeWithLicenseKey>Autorizácia pomocou licenčného kľúča</AuthorizeWithLicenseKey>
@@ -1132,6 +1135,7 @@
     <ExportTypeImageFile>Typ obrazový súbor...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG obrázok...</ExportTypeJpegFile>
     <ExportTypeJsonFile>JSON súbor...</ExportTypeJsonFile>
+    <ExportTypeMarkdownFile>Markdown súbor...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Windows Metafile...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Web Archiv...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX obrázok...</ExportTypePcxFile>
@@ -1168,6 +1172,10 @@
     <NoMoreThan>Nie viac ako</NoMoreThan>
     <OpenAfterExport>Otvoriť po exporte</OpenAfterExport>
     <Ordered>Zotriedené</Ordered>
+    <PageBands>Záhlavia a päty strán:</PageBands>
+    <PageBandsAll>Všetky</PageBandsAll>
+    <PageBandsFirstAndLast>Prvé záhlavie a posledná päta</PageBandsFirstAndLast>
+    <PageBandsNone>Žiadne</PageBandsNone>
     <PdfACompliance>PDF/A kompatibilita</PdfACompliance>
     <PdfUA>PDF/UA (univerzálny prístup)</PdfUA>
     <PrintingReport>Tlač zostavy</PrintingReport>
@@ -1234,6 +1242,7 @@
     <JsonReportFiles>JSON šablóny zostáv (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} súbory (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} súbor(ov) pre Silverlight zostavy (*.{1})|*.{2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>Markdown súbory (*.md)|*.md</MarkdownFiles>
     <MetaFiles>Meta súbory</MetaFiles>
     <MhtFiles>MHT Web Archiv súbory (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>Súbory zabaleného dokumentu (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -2327,6 +2336,7 @@
     <DrawBorder>Kreslenie okrajov komponentov grafickými znakmi.</DrawBorder>
     <Edit>Editovať prvky.</Edit>
     <EmbeddedFonts>Vložiť súbor fontov do PDF súboru.</EmbeddedFonts>
+    <EmbeddedFontsHtml>Vložiť súbory fontov do HTML súboru: žiadne, iba vlastné alebo všetky fonty použité v zostave.</EmbeddedFontsHtml>
     <EmbeddedImageData>Vložiť obrázky priamo do HTML súboru.</EmbeddedImageData>
     <Encoding>Zakódovať texty zostavy po exporte.</Encoding>
     <EncodingData>Zakódovať dátový súbor.</EncodingData>
@@ -2354,6 +2364,7 @@
     <OpenAfterExport>Automaticky otvoriť vytváraný dokument (po exporte) programom nastaveným pre tento typ súborov.</OpenAfterExport>
     <OwnerPassword>Heslo pre prístup k operáciám so súbormi.</OwnerPassword>
     <PageAll>Spracuj všetky stránky zostavy.</PageAll>
+    <PageBands>Ktoré záhlavia a päty strán sa dostanú do dokumentu: žiadne, prvé záhlavie a posledná päta alebo všetky.</PageBands>
     <PageDelete>Zmaže vybranú stránku zostavy.</PageDelete>
     <PageDesign>Editovať stránku v dizajnéri.</PageDesign>
     <PageFirst>Prejsť na prvú stránku zostavy.</PageFirst>
@@ -3446,6 +3457,9 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <StiHorAlignmentCenter>Na stred</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>Vľavo</StiHorAlignmentLeft>
     <StiHorAlignmentRight>Vpravo</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>Všetky písma</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>Iba vlastné</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>Žiadne</StiHtmlEmbeddedFontsModeNone>
     <StiIconAlignmentBottom>Dolu</StiIconAlignmentBottom>
     <StiIconAlignmentLeft>Vľavo</StiIconAlignmentLeft>
     <StiIconAlignmentNone>Žiadne</StiIconAlignmentNone>
@@ -4635,6 +4649,10 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <NegativeSeriesColors>Farby negatívnej série</NegativeSeriesColors>
     <NegativeTextBrush>farby textu pre negatívne hodnoty</NegativeTextBrush>
     <NestedLevel>Úroveň vnorenia</NestedLevel>
+    <NetworkEdgeLength>Dĺžka hrán siete</NetworkEdgeLength>
+    <NetworkIterations>Iterácie siete</NetworkIterations>
+    <NetworkLayout>Rozvrhnutie siete</NetworkLayout>
+    <NetworkRepulsion>Odpudzovanie uzlov siete</NetworkRepulsion>
     <NewColumnAfter>Nový stĺpec po</NewColumnAfter>
     <NewColumnBefore>Nový stĺpec pred</NewColumnBefore>
     <NewPageAfter>Nová stránka po</NewPageAfter>
@@ -5521,6 +5539,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <Scheduler>Plánovač</Scheduler>
     <Schedulers>Plánovače</Schedulers>
     <SenderEmail>E-mail odosielateľa</SenderEmail>
+    <ShowHTMLReportsInMessageBody>Zobraziť HTML zostavy v tele správy</ShowHTMLReportsInMessageBody>
     <SmtpSettings>Smtp nastavenia</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuration>Zastaviť všetky spustené úlohy na konci trvania opakovania</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>Zastaviť úlohy, ak trvajú dlhšie ako</StopTasksIfItRunsLongerThan>

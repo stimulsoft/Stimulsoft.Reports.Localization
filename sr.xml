@@ -216,6 +216,7 @@
     <DataColumns>Kolone sa podacima</DataColumns>
     <Doughnut>Krofna</Doughnut>
     <Financial>Finansijski</Financial>
+    <Flow>Tok</Flow>
     <FullStackedArea>Složeni - oblast</FullStackedArea>
     <FullStackedBar>Složeni - traka</FullStackedBar>
     <FullStackedColumn>Složeni - kolona</FullStackedColumn>
@@ -279,6 +280,7 @@
     <MoveSeriesUp>Pomeri seriju gore</MoveSeriesUp>
     <MoveStripDown>Pomeri traku dole</MoveStripDown>
     <MoveStripUp>Pomeri traku gore</MoveStripUp>
+    <Network>Mreža</Network>
     <NoConditions>Nema uslova</NoConditions>
     <NoFilters>Nema filtera</NoFilters>
     <Pareto>Pareto</Pareto>
@@ -410,6 +412,7 @@
     <Account>Nalog</Account>
     <AccountSettings>Postavke naloga</AccountSettings>
     <AddAPlace>Dodaj mesto</AddAPlace>
+    <AgreeToReceiveNewsletters>Pristajem da primam marketinške imejlove kompanije Stimulsoft, uključujući novosti o proizvodima, najave izdanja i ponude. Mogu da se odjavim u bilo kom trenutku.</AgreeToReceiveNewsletters>
     <AreYouSureYouWantDeleteReport>Jeste li sigurni da želite obrisati izvještaj "{0}" sa diska?</AreYouSureYouWantDeleteReport>
     <Authorize>Autorizuj</Authorize>
     <AuthorizeWithLicenseKey>Autorizuj licencnim ključem</AuthorizeWithLicenseKey>
@@ -1131,6 +1134,7 @@
     <ExportTypeImageFile>Image datoteka...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG slika...</ExportTypeJpegFile>
     <ExportTypeJsonFile>JSON datoteka...</ExportTypeJsonFile>
+    <ExportTypeMarkdownFile>Markdown datoteka...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Windows Metadatoteka...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Web Archive...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX slika...</ExportTypePcxFile>
@@ -1167,6 +1171,10 @@
     <NoMoreThan>Ne više od</NoMoreThan>
     <OpenAfterExport>Otvori nakon izvoza</OpenAfterExport>
     <Ordered>Poredano</Ordered>
+    <PageBands>Zaglavlja i podnožja stranice:</PageBands>
+    <PageBandsAll>Sve</PageBandsAll>
+    <PageBandsFirstAndLast>Prvo zaglavlje i poslednje podnožje</PageBandsFirstAndLast>
+    <PageBandsNone>Ništa</PageBandsNone>
     <PdfACompliance>PDF/A Compliance</PdfACompliance>
     <PdfUA>PDF/UA (Universal Accessibility)</PdfUA>
     <PrintingReport>Štampanje izvještaja</PrintingReport>
@@ -1233,6 +1241,7 @@
     <JsonReportFiles>JSON predlošci za izveštaje (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} Classes (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} klase za Silverlight izveštaje (*.{1})|*.{2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>Markdown datoteke (*.md)|*.md</MarkdownFiles>
     <MetaFiles>Meta datoteke</MetaFiles>
     <MhtFiles>MHT Web arhive (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>Paketi dokumenata za izveštaje (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -2324,6 +2333,7 @@
     <DrawBorder>Iscrtavanje okvira komponenata grafičkim karakterima.</DrawBorder>
     <Edit>Izmeni komponente.</Edit>
     <EmbeddedFonts>Ugradi fontove u PDF datoteku.</EmbeddedFonts>
+    <EmbeddedFontsHtml>Ugradi fontove u HTML datoteku: nijedan, samo prilagođene ili sve fontove korišćene u izveštaju.</EmbeddedFontsHtml>
     <EmbeddedImageData>Ugradi slike u HTML datoteku.</EmbeddedImageData>
     <Encoding>Šifruj tekst izveštaja nakon izvoza.</Encoding>
     <EncodingData>Šifrovanje datoteke sa podacima.</EncodingData>
@@ -2351,6 +2361,7 @@
     <OpenAfterExport>Automatsko otvaranje kreiranog dokumenta (nakon izvoza) programom podešenim za dati tip datoteke.</OpenAfterExport>
     <OwnerPassword>Lozinka za pristup operacijama sa datotekama.</OwnerPassword>
     <PageAll>Obrada svih stranica izveštaja.</PageAll>
+    <PageBands>Koja zaglavlja i podnožja stranica ulaze u dokument: nijedno, prvo zaglavlje i poslednje podnožje ili sva.</PageBands>
     <PageDelete>Briši izabranu stranicu izveštaja.</PageDelete>
     <PageDesign>Izmeni stranicu u dizajneru.</PageDesign>
     <PageFirst>Idi na prvu stranicu.</PageFirst>
@@ -3424,6 +3435,9 @@ Sadrži link za potvrdu vaše registracije. Kako biste dovršili registraciju mo
     <StiHorAlignmentCenter>Centrirano</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>Levo</StiHorAlignmentLeft>
     <StiHorAlignmentRight>Desno</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>Svi fontovi</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>Samo prilagođeni</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>Ništa</StiHtmlEmbeddedFontsModeNone>
     <StiIconAlignmentBottom>Dno</StiIconAlignmentBottom>
     <StiIconAlignmentLeft>Lijevo</StiIconAlignmentLeft>
     <StiIconAlignmentNone>Nema</StiIconAlignmentNone>
@@ -4603,6 +4617,10 @@ Sadrži link za potvrdu vaše registracije. Kako biste dovršili registraciju mo
     <NegativeSeriesColors>Negative Series Colors</NegativeSeriesColors>
     <NegativeTextBrush>Negative Text Brush</NegativeTextBrush>
     <NestedLevel>Ugnežđeni nivo</NestedLevel>
+    <NetworkEdgeLength>Dužina ivica mreže</NetworkEdgeLength>
+    <NetworkIterations>Iteracije mreže</NetworkIterations>
+    <NetworkLayout>Raspored mreže</NetworkLayout>
+    <NetworkRepulsion>Odbijanje čvorova mreže</NetworkRepulsion>
     <NewColumnAfter>Nova kolona nakon</NewColumnAfter>
     <NewColumnBefore>Nova kolona pre</NewColumnBefore>
     <NewPageAfter>Nova stranica nakon</NewPageAfter>
@@ -4885,6 +4903,7 @@ Sadrži link za potvrdu vaše registracije. Kako biste dovršili registraciju mo
     <SortingEnabled>Sortiranje omogućeno</SortingEnabled>
     <SortLetters>A-Z</SortLetters>
     <SortType>Vrsta sortiranja</SortType>
+    <Source>Izvor</Source>
     <Space>Razmak</Space>
     <SpaceRatio>Odnos prostora</SpaceRatio>
     <Spacing>Razmak</Spacing>
@@ -5473,6 +5492,7 @@ Sadrži link za potvrdu vaše registracije. Kako biste dovršili registraciju mo
     <Scheduler>Planer</Scheduler>
     <Schedulers>Planeri</Schedulers>
     <SenderEmail>pošalji e-poštu</SenderEmail>
+    <ShowHTMLReportsInMessageBody>Prikaži HTML izveštaje u telu poruke</ShowHTMLReportsInMessageBody>
     <SmtpSettings>Smtp podešavanje</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuration>Zaustavite sve pokrenute zadatke na kraju trajanja ponavljanja</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>Zaustavite zadatke ako traje duže od</StopTasksIfItRunsLongerThan>

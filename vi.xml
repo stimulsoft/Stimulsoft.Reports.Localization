@@ -216,6 +216,7 @@
     <DataColumns>Cột dữ liệu</DataColumns>
     <Doughnut>Biểu đồ vành khuyên bị cắt</Doughnut>
     <Financial>Tài chính</Financial>
+    <Flow>Luồng</Flow>
     <FullStackedArea>Vùng chồng dữ liệu</FullStackedArea>
     <FullStackedBar>Thanh ngang chồng dữ liệu</FullStackedBar>
     <FullStackedColumn>Cột chồng dữ liệu</FullStackedColumn>
@@ -279,6 +280,7 @@
     <MoveSeriesUp>Di chuyển dòng lên</MoveSeriesUp>
     <MoveStripDown>Di chuyển dải xuống</MoveStripDown>
     <MoveStripUp>Di chuyển dải lên</MoveStripUp>
+    <Network>Mạng</Network>
     <NoConditions>Không điều kiện</NoConditions>
     <NoFilters>Không có bộ lọc</NoFilters>
     <Pareto>Pareto</Pareto>
@@ -410,6 +412,7 @@
     <Account>Tài khoản</Account>
     <AccountSettings>Cài đặt tài khoản</AccountSettings>
     <AddAPlace>Thêm địa điểm</AddAPlace>
+    <AgreeToReceiveNewsletters>Tôi đồng ý nhận email tiếp thị từ Stimulsoft, bao gồm tin tức sản phẩm, thông báo phát hành và ưu đãi. Tôi có thể hủy đăng ký bất cứ lúc nào.</AgreeToReceiveNewsletters>
     <AreYouSureYouWantDeleteReport>Bạn có chắc chắn muốn xóa báo cáo "{0}" khỏi đĩa không?</AreYouSureYouWantDeleteReport>
     <Authorize>Ủy quyền</Authorize>
     <AuthorizeWithLicenseKey>Ủy quyền với mã bản quyền</AuthorizeWithLicenseKey>
@@ -1129,6 +1132,7 @@
     <ExportTypeImageFile>Tệp hình ảnh...</ExportTypeImageFile>
     <ExportTypeJpegFile>Ảnh JPEG...</ExportTypeJpegFile>
     <ExportTypeJsonFile>Tệp JSON...</ExportTypeJsonFile>
+    <ExportTypeMarkdownFile>Tệp Markdown...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Siêu tệp tin Windows...</ExportTypeMetafile>
     <ExportTypeMhtFile>Lưu trữ Web MHT...</ExportTypeMhtFile>
     <ExportTypePcxFile>Ảnh PCX...</ExportTypePcxFile>
@@ -1165,6 +1169,10 @@
     <NoMoreThan>Không nhiều hơn</NoMoreThan>
     <OpenAfterExport>Mở sau khi xuất</OpenAfterExport>
     <Ordered>Đã sắp xếp</Ordered>
+    <PageBands>Tiêu đề/Chân trang:</PageBands>
+    <PageBandsAll>Tất cả</PageBandsAll>
+    <PageBandsFirstAndLast>Tiêu đề đầu tiên và chân trang cuối cùng</PageBandsFirstAndLast>
+    <PageBandsNone>Không</PageBandsNone>
     <PdfACompliance>Phù hợp với PDF/A</PdfACompliance>
     <PdfUA>PDF/UA (Khả năng truy cập toàn cầu)</PdfUA>
     <PrintingReport>Báo cáo in</PrintingReport>
@@ -1230,6 +1238,7 @@
     <JsonReportFiles>Mẫu báo cáo JSON (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} phân loại (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} phân loại cho báo cáo Silverlight (*.{1})|*.{2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>Tệp Markdown (*.md)|*.md</MarkdownFiles>
     <MetaFiles>Siêu tập tin</MetaFiles>
     <MhtFiles>Lưu trữ Web MHT (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>Đóng gói tài liệu báo cáo (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -2320,6 +2329,7 @@
     <DrawBorder>Vẽ đường viền của các thành phần có các ký tự đồ hoạ.</DrawBorder>
     <Edit>Chỉnh sửa các thành phần.</Edit>
     <EmbeddedFonts>Nhúng các tệp tin phông chữ vào một tệp tin PDF.</EmbeddedFonts>
+    <EmbeddedFontsHtml>Nhúng các tệp phông chữ vào tệp HTML: không có, chỉ phông chữ tùy chỉnh, hoặc tất cả phông chữ dùng trong báo cáo.</EmbeddedFontsHtml>
     <EmbeddedImageData>Nhúng hình ảnh trực tiếp vào tệp HTML.</EmbeddedImageData>
     <Encoding>Mã hóa văn bản báo cáo sau khi xuất.</Encoding>
     <EncodingData>Mã hóa tệp dữ liệu.</EncodingData>
@@ -2347,6 +2357,7 @@
     <OpenAfterExport>Tự động mở tài liệu được tạo ra (sau khi xuất) bởi chương trình đã đặt cho các loại tệp này.</OpenAfterExport>
     <OwnerPassword>Mật khẩu để truy cập hoạt động với các tệp tin.</OwnerPassword>
     <PageAll>Xử lý tất cả các trang báo cáo.</PageAll>
+    <PageBands>Những tiêu đề và chân trang nào được đưa vào tài liệu: không có, tiêu đề đầu tiên và chân trang cuối cùng, hoặc tất cả.</PageBands>
     <PageDelete>Xóa trang báo cáo đã chọn.</PageDelete>
     <PageDesign>Chỉnh sửa trang trong trình thiết kế.</PageDesign>
     <PageFirst>Chuyển đến trang báo cáo đầu tiên.</PageFirst>
@@ -3422,6 +3433,9 @@
     <StiHorAlignmentCenter>Giữa</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>Trái</StiHorAlignmentLeft>
     <StiHorAlignmentRight>Phải</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>Tất cả phông chữ</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>Chỉ tùy chỉnh</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>Không</StiHtmlEmbeddedFontsModeNone>
     <StiIconAlignmentBottom>Dưới</StiIconAlignmentBottom>
     <StiIconAlignmentLeft>Trái</StiIconAlignmentLeft>
     <StiIconAlignmentNone>Không</StiIconAlignmentNone>
@@ -4585,6 +4599,10 @@
     <NegativeSeriesColors>Màu sắc âm tính</NegativeSeriesColors>
     <NegativeTextBrush>Cọ văn bản âm tính</NegativeTextBrush>
     <NestedLevel>Mức độ lồng nhau</NestedLevel>
+    <NetworkEdgeLength>Độ dài cạnh mạng</NetworkEdgeLength>
+    <NetworkIterations>Số lần lặp mạng</NetworkIterations>
+    <NetworkLayout>Bố trí mạng</NetworkLayout>
+    <NetworkRepulsion>Lực đẩy mạng</NetworkRepulsion>
     <NewColumnAfter>Tạo cột mới sau</NewColumnAfter>
     <NewColumnBefore>Tạo cột mới trước</NewColumnBefore>
     <NewPageAfter>Tạo trang sau</NewPageAfter>
@@ -4866,6 +4884,7 @@
     <SortingEnabled>Bật sắp xếp</SortingEnabled>
     <SortLetters>A-Z</SortLetters>
     <SortType>Kiểu sắp xếp</SortType>
+    <Source>Nguồn</Source>
     <Space>Không gian</Space>
     <SpaceRatio>Tỷ lệ không gian</SpaceRatio>
     <Spacing>Khoảng cách</Spacing>
@@ -5452,6 +5471,7 @@
     <Scheduler>Bộ lập kế hoạch</Scheduler>
     <Schedulers>Bộ lập kế hoạch</Schedulers>
     <SenderEmail>Email người gửi</SenderEmail>
+    <ShowHTMLReportsInMessageBody>Hiển thị báo cáo HTML trong nội dung thư</ShowHTMLReportsInMessageBody>
     <SmtpSettings>Cài đặt Smtp</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuration>Dừng tất cả các tác vụ đang chạy khi hết thời gian lặp lại</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>Dừng nhiệm vụ nếu nó chạy lâu hơn</StopTasksIfItRunsLongerThan>

@@ -216,6 +216,7 @@
     <DataColumns>データ列</DataColumns>
     <Doughnut>ドーナツ</Doughnut>
     <Financial>財務</Financial>
+    <Flow>フロー</Flow>
     <FullStackedArea>フルスタックエリア</FullStackedArea>
     <FullStackedBar>フルスタックバー</FullStackedBar>
     <FullStackedColumn>フルスタックカラム</FullStackedColumn>
@@ -279,6 +280,7 @@
     <MoveSeriesUp>シリーズを上に移動</MoveSeriesUp>
     <MoveStripDown>ストリップを下に移動</MoveStripDown>
     <MoveStripUp>ストリップを上に移動</MoveStripUp>
+    <Network>ネットワーク</Network>
     <NoConditions>条件なし</NoConditions>
     <NoFilters>フィルタなし</NoFilters>
     <Pareto>パレット</Pareto>
@@ -411,6 +413,7 @@
     <Account>アカウント</Account>
     <AccountSettings>アカウント設定</AccountSettings>
     <AddAPlace>場所を追加</AddAPlace>
+    <AgreeToReceiveNewsletters>製品ニュース、リリース情報、特典などを含む Stimulsoft からのマーケティングメールの受信に同意します。配信はいつでも停止できます。</AgreeToReceiveNewsletters>
     <AreYouSureYouWantDeleteReport>ディスクから "{0}"レポートを削除してもよろしいですか？</AreYouSureYouWantDeleteReport>
     <Authorize>認証</Authorize>
     <AuthorizeWithLicenseKey>ライセンスキーで認証する</AuthorizeWithLicenseKey>
@@ -1131,6 +1134,7 @@
     <ExportTypeImageFile>画像ファイル...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG画像...</ExportTypeJpegFile>
     <ExportTypeJsonFile>JSON ファイル...</ExportTypeJsonFile>
+    <ExportTypeMarkdownFile>Markdown ファイル...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Windowsメタファイル...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHTウェブアーカイブ...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCXイメージ...</ExportTypePcxFile>
@@ -1167,6 +1171,10 @@
     <NoMoreThan>に過ぎません</NoMoreThan>
     <OpenAfterExport>エクスポート後に開く</OpenAfterExport>
     <Ordered>順序付き</Ordered>
+    <PageBands>ページヘッダ/フッタ:</PageBands>
+    <PageBandsAll>すべて</PageBandsAll>
+    <PageBandsFirstAndLast>最初のヘッダと最後のフッタ</PageBandsFirstAndLast>
+    <PageBandsNone>なし</PageBandsNone>
     <PdfACompliance>PDF</PdfACompliance>
     <PdfUA>PDF/UA（ユニバーサルアクセシビリティ）</PdfUA>
     <PrintingReport>印刷レポート</PrintingReport>
@@ -1232,6 +1240,7 @@
     <JsonReportFiles>JSONレポートテンプレート(*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0}クラス(*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} Silverlightレポートのクラス(*.{1})|*.{2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>Markdownファイル(*.md)|*.md</MarkdownFiles>
     <MetaFiles>メタファイル</MetaFiles>
     <MhtFiles>MHTウェブアーカイブ(*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>パックされたレポートドキュメント(*.mdz)|*.mdz</PackedDocumentFiles>
@@ -2323,6 +2332,7 @@
     <DrawBorder>グラフィック文字で部品の境界を描画する。</DrawBorder>
     <Edit>部品を編集します。</Edit>
     <EmbeddedFonts>フォントファイルをPDFファイルに埋め込みます。</EmbeddedFonts>
+    <EmbeddedFontsHtml>フォントファイルをHTMLファイルに埋め込みます：なし、カスタムフォントのみ、またはレポートで使用するすべてのフォント。</EmbeddedFontsHtml>
     <EmbeddedImageData>イメージをHTMLファイルに直接埋め込みます。</EmbeddedImageData>
     <Encoding>エクスポート後のレポートテキストのエンコード</Encoding>
     <EncodingData>エンコードデータファイル。</EncodingData>
@@ -2350,6 +2360,7 @@
     <OpenAfterExport>これらのファイルタイプに設定されたプログラムによって、作成された文書を（エクスポート後に）自動的に開きます。</OpenAfterExport>
     <OwnerPassword>ファイル操作にアクセスするためのパスワード</OwnerPassword>
     <PageAll>すべてのレポートページの処理</PageAll>
+    <PageBands>ドキュメントに含めるページヘッダとフッタを指定します：なし、最初のヘッダと最後のフッタ、またはすべて。</PageBands>
     <PageDelete>選択したレポートページを削除</PageDelete>
     <PageDesign>デザイナーでページを編集します。</PageDesign>
     <PageFirst>最初のレポートへ移動</PageFirst>
@@ -3432,6 +3443,9 @@
     <StiHorAlignmentCenter>センター</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>左</StiHorAlignmentLeft>
     <StiHorAlignmentRight>右</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>すべてのフォント</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>カスタムのみ</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>なし</StiHtmlEmbeddedFontsModeNone>
     <StiIconAlignmentBottom>下</StiIconAlignmentBottom>
     <StiIconAlignmentLeft>左</StiIconAlignmentLeft>
     <StiIconAlignmentNone>なし</StiIconAlignmentNone>
@@ -4604,6 +4618,10 @@
     <NegativeSeriesColors>シリーズ色反転</NegativeSeriesColors>
     <NegativeTextBrush>テキストブラシ反転</NegativeTextBrush>
     <NestedLevel>入れ子レベル</NestedLevel>
+    <NetworkEdgeLength>ネットワークのエッジ長</NetworkEdgeLength>
+    <NetworkIterations>ネットワークの反復回数</NetworkIterations>
+    <NetworkLayout>ネットワークのレイアウト</NetworkLayout>
+    <NetworkRepulsion>ネットワークの反発力</NetworkRepulsion>
     <NewColumnAfter>後に新規列</NewColumnAfter>
     <NewColumnBefore>前に新規列</NewColumnBefore>
     <NewPageAfter>後に新規ページ</NewPageAfter>
@@ -5484,6 +5502,7 @@
     <Scheduler>スケジューラー</Scheduler>
     <Schedulers>スケジューラー</Schedulers>
     <SenderEmail>送信者の電子メール</SenderEmail>
+    <ShowHTMLReportsInMessageBody>HTMLレポートをメッセージ本文に表示</ShowHTMLReportsInMessageBody>
     <SmtpSettings>SMTP設定</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuration>繰り返し期間の終了時に実行中のすべてのタスクを停止します</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>実行時間が長くなる場合はタスクを停止します</StopTasksIfItRunsLongerThan>

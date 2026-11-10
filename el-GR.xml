@@ -216,6 +216,7 @@
     <DataColumns>Στήλες Δεδομένων</DataColumns>
     <Doughnut>Ντόνατ</Doughnut>
     <Financial>Οικονομικά</Financial>
+    <Flow>Ροή</Flow>
     <FullStackedArea>Πλήρως Στοιβαγμένη Περιοχή</FullStackedArea>
     <FullStackedBar>Πλήρως Στοιβαγμένες Ράβδοι</FullStackedBar>
     <FullStackedColumn>Πλήρως Στοιβαγμένες Στήλες</FullStackedColumn>
@@ -279,6 +280,7 @@
     <MoveSeriesUp>Μετακίνηση Σειράς Δεδομένων Πάνω</MoveSeriesUp>
     <MoveStripDown>Μετακίνηση Λωρίδας Κάτω</MoveStripDown>
     <MoveStripUp>Μετακίνηση Λωρίδας Πάνω</MoveStripUp>
+    <Network>Δίκτυο</Network>
     <NoConditions>Χωρίς Συνθήκες</NoConditions>
     <NoFilters>Χωρίς Φίλτρα</NoFilters>
     <Pareto>Pareto</Pareto>
@@ -410,6 +412,7 @@
     <Account>Λογαριασμός</Account>
     <AccountSettings>Ρυθμίσεις Λογαριασμού</AccountSettings>
     <AddAPlace>Προσθήκη Τοποθεσίας</AddAPlace>
+    <AgreeToReceiveNewsletters>Συμφωνώ να λαμβάνω μηνύματα ηλεκτρονικού ταχυδρομείου μάρκετινγκ από τη Stimulsoft, συμπεριλαμβανομένων νέων για προϊόντα, ανακοινώσεων εκδόσεων και προσφορών. Μπορώ να διαγραφώ ανά πάσα στιγμή.</AgreeToReceiveNewsletters>
     <AreYouSureYouWantDeleteReport>Είστε βέβαιος ότι θέλετε να διαγράψετε την αναφορά "{0}" από τον δίσκο;</AreYouSureYouWantDeleteReport>
     <Authorize>Εξουσιοδότηση</Authorize>
     <AuthorizeWithLicenseKey>Εξουσιοδότηση με κλειδία άδειας</AuthorizeWithLicenseKey>
@@ -1129,6 +1132,7 @@
     <ExportTypeImageFile>Αρχείο Εικόνας...</ExportTypeImageFile>
     <ExportTypeJpegFile>Εικόνα JPEG...</ExportTypeJpegFile>
     <ExportTypeJsonFile>Αρχείο JSON...</ExportTypeJsonFile>
+    <ExportTypeMarkdownFile>Αρχείο Markdown...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Αρχείο Windows Metafile...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Web Archive...</ExportTypeMhtFile>
     <ExportTypePcxFile>Εικόνα PCX...</ExportTypePcxFile>
@@ -1165,6 +1169,10 @@
     <NoMoreThan>Όχι Περισσότερο Από</NoMoreThan>
     <OpenAfterExport>Άνοιγμα μετά την Εξαγωγή</OpenAfterExport>
     <Ordered>Ταξινόμηση</Ordered>
+    <PageBands>Κεφαλίδες/Υποσέλιδα Σελίδας:</PageBands>
+    <PageBandsAll>Όλα</PageBandsAll>
+    <PageBandsFirstAndLast>Πρώτη Κεφαλίδα και Τελευταίο Υποσέλιδο</PageBandsFirstAndLast>
+    <PageBandsNone>Κανένα</PageBandsNone>
     <PdfACompliance>Συμμόρφωση με PDF/A</PdfACompliance>
     <PdfUA>PDF/UA (Καθολική προσβασιμότητα)</PdfUA>
     <PrintingReport>Εκτύπωση Αναφοράς</PrintingReport>
@@ -1230,6 +1238,7 @@
     <JsonReportFiles>Πρότυπα Αναφορών JSON (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} Κλάσεις (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} Κλάσεις για Αναφορές Silverlight (*.{1})|*.{2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>Αρχεία Markdown (*.md)|*.md</MarkdownFiles>
     <MetaFiles>Metafiles</MetaFiles>
     <MhtFiles>Αρχεία MHT (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>Πακεταρισμένα Έγγραφα Αναφορών (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -2320,6 +2329,7 @@
     <DrawBorder>Εκτύπωση των ορίων των εξαρτημάτων με χαρακτήρες.</DrawBorder>
     <Edit>Επεξεργασία εξαρτημάτων.</Edit>
     <EmbeddedFonts>Ενσωμάτωση των αρχείων γραμματοσειρών στο αρχείο PDF.</EmbeddedFonts>
+    <EmbeddedFontsHtml>Ενσωμάτωση των αρχείων γραμματοσειρών στο αρχείο HTML: καμία, μόνο οι προσαρμοσμένες ή όλες οι γραμματοσειρές που χρησιμοποιούνται στην αναφορά.</EmbeddedFontsHtml>
     <EmbeddedImageData>Ενσωμάτωση εικόνων απευθείας μέσα στο HTML αρχείο.</EmbeddedImageData>
     <Encoding>Κωδικοποίηση του κειμένου της αναφοράς μετά από την εξαγωγή.</Encoding>
     <EncodingData>Κωδικοποίηση του αρχείου δεδομένων.</EncodingData>
@@ -2347,6 +2357,7 @@
     <OpenAfterExport>Αυτόματο άνοιγμα του παραχθέντος εγγράφου (μετά την εξαγωγή) με το πρόγραμμα που είναι προεπιλεγμένο για αυτόν τον τύπο αρχείου.</OpenAfterExport>
     <OwnerPassword>Ο κωδικός πρόσβασης για λειτουργίες επεξεργασίας του αρχείου.</OwnerPassword>
     <PageAll>Επεξεργασία όλων των σελίδων της αναφοράς.</PageAll>
+    <PageBands>Ποιες κεφαλίδες και ποια υποσέλιδα σελίδας περιλαμβάνονται στο έγγραφο: κανένα, η πρώτη κεφαλίδα και το τελευταίο υποσέλιδο ή όλα.</PageBands>
     <PageDelete>Διαγραφή της επιλεγμένης σελίδας της αναφοράς.</PageDelete>
     <PageDesign>Επεξεργασία σελίδας στον Σχεδιαστή.</PageDesign>
     <PageFirst>Μετάβαση στην πρώτη σελίδα της αναφοράς.</PageFirst>
@@ -3420,6 +3431,9 @@
     <StiHorAlignmentCenter>Κέντρο</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>Αριστερά</StiHorAlignmentLeft>
     <StiHorAlignmentRight>Δεξιά</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>Όλες οι Γραμματοσειρές</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>Μόνο Προσαρμοσμένες</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>Καμία</StiHtmlEmbeddedFontsModeNone>
     <StiIconAlignmentBottom>Κάτω</StiIconAlignmentBottom>
     <StiIconAlignmentLeft>Αριστερά</StiIconAlignmentLeft>
     <StiIconAlignmentNone>Καθόλου</StiIconAlignmentNone>
@@ -4583,6 +4597,10 @@
     <NegativeSeriesColors>Χρώματα Αρνητικών Σειρών Δεδομένων</NegativeSeriesColors>
     <NegativeTextBrush>Βούρτσα Αρνητικού Κειμένου</NegativeTextBrush>
     <NestedLevel>Ένθετο Επίπεδο</NestedLevel>
+    <NetworkEdgeLength>Μήκος Ακμών Δικτύου</NetworkEdgeLength>
+    <NetworkIterations>Επαναλήψεις Δικτύου</NetworkIterations>
+    <NetworkLayout>Διάταξη Δικτύου</NetworkLayout>
+    <NetworkRepulsion>Άπωση Κόμβων Δικτύου</NetworkRepulsion>
     <NewColumnAfter>Νέα Στήλη Μετά</NewColumnAfter>
     <NewColumnBefore>Νέα Στήλη Πριν</NewColumnBefore>
     <NewPageAfter>Νέα Σελίδα Μετά</NewPageAfter>
@@ -4864,6 +4882,7 @@
     <SortingEnabled>Ταξινόμηση Ενεργή</SortingEnabled>
     <SortLetters>A-Z (Α-Ω)</SortLetters>
     <SortType>Τύπος Ταξινόμησης</SortType>
+    <Source>Πηγή</Source>
     <Space>Διάστημα</Space>
     <SpaceRatio>Αναλογία Χώρου</SpaceRatio>
     <Spacing>Διάκενο</Spacing>
@@ -5450,6 +5469,7 @@
     <Scheduler>Χρονοπρογραμματισμός</Scheduler>
     <Schedulers>Χρονοπρογραμματισμοί</Schedulers>
     <SenderEmail>Email Αποστολέα</SenderEmail>
+    <ShowHTMLReportsInMessageBody>Εμφάνιση Αναφορών HTML στο Σώμα του Μηνύματος</ShowHTMLReportsInMessageBody>
     <SmtpSettings>Ρυθμίσεις Smtp</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuration>Σταματήσετε όλα τα tasks που είναι σε εξέλιξη στο τέλος της διάρκειας επανάληψης</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>Σταμάτημα των ενεργειών εάν εκτελούνται για περισσότερο από</StopTasksIfItRunsLongerThan>

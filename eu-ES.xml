@@ -8,6 +8,8 @@
     <AbbreviatedDayThursday>Og</AbbreviatedDayThursday>
     <AbbreviatedDayTuesday>Ar</AbbreviatedDayTuesday>
     <AbbreviatedDayWednesday>Az</AbbreviatedDayWednesday>
+    <ButtonNext>Hurrengoa</ButtonNext>
+    <ButtonPrev>Aurrekoa</ButtonPrev>
     <DayFriday>Ostirala</DayFriday>
     <DayMonday>Astelehena</DayMonday>
     <DaySaturday>Larunbata</DaySaturday>
@@ -86,8 +88,10 @@
     <Export>Esportatu</Export>
     <Help>Laguntza</Help>
     <LoadDataSet>DataSet kargatu (*.data)</LoadDataSet>
+    <More>Gehiago</More>
     <MoveLeft>Ezkerrera mugitu</MoveLeft>
     <MoveRight>Eskuinera mugitu</MoveRight>
+    <MoveToResource>Eraman baliabidera</MoveToResource>
     <No>&amp;Ez</No>
     <Ok>&amp;Onartu</Ok>
     <Open>Ireki</Open>
@@ -105,6 +109,7 @@
     <Submit>Egin</Submit>
     <Test>Probak</Test>
     <Up>Gora</Up>
+    <Upload>Kargatu</Upload>
     <Yes>&amp;Bai</Yes>
   </Buttons>
   <Chart>
@@ -131,6 +136,7 @@
     <DataColumns>Datuen Zutabea</DataColumns>
     <Doughnut>Donuta</Doughnut>
     <Financial>Finantzarioa</Financial>
+    <Flow>Fluxua</Flow>
     <FullStackedArea>Pilatutako Azalera guztira</FullStackedArea>
     <FullStackedBar>Pilatutako Barrak guztira</FullStackedBar>
     <FullStackedColumn>Pilatutako Zutabeak guztira</FullStackedColumn>
@@ -183,6 +189,7 @@
     <MoveSeriesUp>Segida Gora mugitu</MoveSeriesUp>
     <MoveStripDown>Zerrenda Behera mugitu</MoveStripDown>
     <MoveStripUp>Zerrenda Gora mugitu</MoveStripUp>
+    <Network>Sarea</Network>
     <NoConditions>Baldintzarik gabe</NoConditions>
     <NoFilters>Iragazkirik gabe</NoFilters>
     <Pie>Tarta</Pie>
@@ -291,6 +298,7 @@
   </ChartRibbon>
   <Cloud>
     <AccountSettings>Kontuaren aukerak</AccountSettings>
+    <AgreeToReceiveNewsletters>Stimulsoft-en marketin-mezu elektronikoak jasotzea onartzen dut, produktuen berriak, bertsioen iragarpenak eta eskaintzak barne. Harpidetza edozein unetan bertan behera utz dezaket.</AgreeToReceiveNewsletters>
     <Cancel>Ezeztatu</Cancel>
     <Collection>Bilduma</Collection>
     <Create>Sortu</Create>
@@ -299,6 +307,7 @@
     <DoNotAskMe>Ez galdetu berriro</DoNotAskMe>
     <labelCollectionName>Bildumaren Izena:</labelCollectionName>
     <labelFileName>Fitxategiaren Izena:</labelFileName>
+    <LabelFromReport>Txostenetik</LabelFromReport>
     <labelPassword>Pasahitza:</labelPassword>
     <labelUserName>Erabiltzailearen Izena:</labelUserName>
     <Login>Logina</Login>
@@ -381,6 +390,8 @@
     <StiZipCode>Posta-kodea</StiZipCode>
   </Components>
   <Dashboard>
+    <Dimensions>Dimentsioak</Dimensions>
+    <EditExpression>Editatu adierazpena</EditExpression>
     <ViewEditCompilationNotice>Ezin duzu editatu 'Report.CalculationMode' propietatea 'Compilation' balioan duen txostena. Ezarri propietate hori 'Interpretation' balioan.</ViewEditCompilationNotice>
     <ViewEditCompilationTitle>Edizioa ez dago erabilgarri</ViewEditCompilationTitle>
   </Dashboard>
@@ -468,6 +479,7 @@
     <FromCursor>Kurtsoretik</FromCursor>
     <GotoLine>&amp;Lerrora salto egin</GotoLine>
     <InsertLink>Esteka sartu</InsertLink>
+    <InsertSymbol>Sinboloa sartu</InsertSymbol>
     <Line>Lerroa: {0}</Line>
     <LineNumber>Lerro-zenbakia:</LineNumber>
     <LineNumberIndex>Lerro-zenbakia ({0} - {1})</LineNumberIndex>
@@ -495,6 +507,7 @@
     <titleReplace>Ordeztu</titleReplace>
     <ToggleAllOutlining>Delineazioak alderantzikatu</ToggleAllOutlining>
     <ToggleOutliningExpansion>Delineazioen Hedapena alderantzikatu</ToggleOutliningExpansion>
+    <TypeToSearch>Idatzi bilatzeko</TypeToSearch>
     <UseRegularExpressions>Espresio &amp;Erregularrak erabili</UseRegularExpressions>
   </Editor>
   <Errors>
@@ -561,6 +574,7 @@
     <ExportTypeHtml5File>HTML5 Fitxategia...</ExportTypeHtml5File>
     <ExportTypeHtmlFile>HTML Artxiboa...</ExportTypeHtmlFile>
     <ExportTypeJpegFile>JPEG Irudia...</ExportTypeJpegFile>
+    <ExportTypeMarkdownFile>Markdown artxiboa...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Windows Metafile...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Web Artxiboa...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX Irudia...</ExportTypePcxFile>
@@ -594,6 +608,10 @@
     <MoreSettings>Konfigurazio gehiago</MoreSettings>
     <MultipleFiles>Hainbat Fitxategi</MultipleFiles>
     <OpenAfterExport>Esportatu ondoren ireki</OpenAfterExport>
+    <PageBands>Orrialdeko goiburuak eta oinak:</PageBands>
+    <PageBandsAll>Guztiak</PageBandsAll>
+    <PageBandsFirstAndLast>Lehen goiburua eta azken oina</PageBandsFirstAndLast>
+    <PageBandsNone>Batere ez</PageBandsNone>
     <PdfACompliance>PDF/A Onespena</PdfACompliance>
     <RemoveEmptySpaceAtBottom>Orrialdearen amaieran zuriunea ezabatu</RemoveEmptySpaceAtBottom>
     <Separator>Bereizlea:</Separator>
@@ -648,6 +666,7 @@
     <JpegFiles>JPEG Irudien Artxiboak (*.jpg;*.jpeg)|*.jpg;*.jpeg</JpegFiles>
     <LanguageFiles>{0} Artxiboak (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} fitxategiak  (*.{1})|*.{2} Silverlight  txostenetarako</LanguageForSilverlightFiles>
+    <MarkdownFiles>Markdown Artxiboak (*.md)|*.md</MarkdownFiles>
     <MetaFiles>Metadatuen Fitxategiak</MetaFiles>
     <MhtFiles>MHT Web Artxiboen Fitxategiak (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>Dokumentuen fitxategi paketatuak (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -881,6 +900,8 @@
     <SortItems>Elementuak ordenatu</SortItems>
     <Synchronize>Sinkronizatu</Synchronize>
     <SynchronizeHint>Biltegiratutako Datuen edukiak eta Hiztegiko edukiak sinkronizatu</SynchronizeHint>
+    <TextDropFileHere>Jaregin fitxategia hemen</TextDropFileHere>
+    <TextDropImageHere>Jaregin irudi-fitxategia hemen</TextDropImageHere>
     <title>Hiztegi Diseinatzailea</title>
     <ValueNew>Balio Berria</ValueNew>
     <VariableEdit>Aldagaia editatu</VariableEdit>
@@ -1470,9 +1491,11 @@
     <CloseDotMatrix>Bisore Matriziala itxi eta txostena berriro editatu.</CloseDotMatrix>
     <DotMatrixMode>Txostenaren aurrebista inprimagailu matrizialerako.</DotMatrixMode>
     <Edit>Osagaiak editatu.</Edit>
+    <EmbeddedFontsHtml>Letra-tipoen fitxategiak HTML fitxategian txertatu: bat ere ez, pertsonalizatuak soilik, edo txostenean erabilitako letra-tipo guztiak.</EmbeddedFontsHtml>
     <Find>Txostenaren barnean testu bat bilatu.</Find>
     <FullScreen>Pantaila osoa modua.</FullScreen>
     <Open>Gordetako txosten bat ireki.</Open>
+    <PageBands>Zein orrialde-goiburu eta -oin sartzen diren dokumentuan: bat ere ez, lehen goiburua eta azken oina, edo guztiak.</PageBands>
     <PageDelete>Aukeratutako orrialdea txostenetik ezabatu.</PageDelete>
     <PageDesign>Orrialdea diseinatzailean editatu.</PageDesign>
     <PageFirst>Txosteneko lehen orrialdera joan.</PageFirst>
@@ -1611,6 +1634,9 @@
 
 Mezu elektronikoa "{0}" helbidera bidali da. Zure erregistroa berresteko esteka bat dauka. Erregistroa osatzeko, jarraitu jasotako mezu elektronikoko esteka.</TextRegistrationSuccessfully>
   </Messages>
+  <Notices>
+    <IsNotAuthorized>Ez dago "{0}" atzitzeko baimenik!</IsNotAuthorized>
+  </Notices>
   <Panels>
     <Dictionary>Hiztegia</Dictionary>
     <Messages>Mezuak</Messages>
@@ -2038,6 +2064,9 @@ Mezu elektronikoa "{0}" helbidera bidali da. Zure erregistroa berresteko esteka 
     <StiHorAlignmentCenter>Zentratua</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>Ezkerra</StiHorAlignmentLeft>
     <StiHorAlignmentRight>Eskuina</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>Letra tipo guztiak</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>Pertsonalizatuak soilik</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>Batere ez</StiHtmlEmbeddedFontsModeNone>
     <StiImageProcessingDuplicatesTypeGlobalHide>Ezkutaketa Globala</StiImageProcessingDuplicatesTypeGlobalHide>
     <StiImageProcessingDuplicatesTypeGlobalMerge>Fusio Globala</StiImageProcessingDuplicatesTypeGlobalMerge>
     <StiImageProcessingDuplicatesTypeGlobalRemoveImage>Irudi Globala kendu</StiImageProcessingDuplicatesTypeGlobalRemoveImage>
@@ -2150,6 +2179,7 @@ Mezu elektronikoa "{0}" helbidera bidali da. Zure erregistroa berresteko esteka 
     <StiRestrictionsAllowResize>Neurriak egokitzen utzi</StiRestrictionsAllowResize>
     <StiRestrictionsAllowSelect>Aukeratzen utzi</StiRestrictionsAllowSelect>
     <StiRestrictionsNone>Batere ez</StiRestrictionsNone>
+    <StiSelectionModeFromVariable>Aldagaitik</StiSelectionModeFromVariable>
     <StiSeriesLabelsValueTypeArgument>Argumentua</StiSeriesLabelsValueTypeArgument>
     <StiSeriesLabelsValueTypeArgumentValue>Argumentua - Balioa</StiSeriesLabelsValueTypeArgumentValue>
     <StiSeriesLabelsValueTypeSeriesTitle>Segidaren izenburua</StiSeriesLabelsValueTypeSeriesTitle>
@@ -2782,11 +2812,16 @@ Mezu elektronikoa "{0}" helbidera bidali da. Zure erregistroa berresteko esteka 
     <Namespaces>Izenaren Tarteak</Namespaces>
     <Negative>Negatiboa</Negative>
     <NestedLevel>Habiaraketa maila</NestedLevel>
+    <NetworkEdgeLength>Sareko ertzen luzera</NetworkEdgeLength>
+    <NetworkIterations>Sareko iterazioak</NetworkIterations>
+    <NetworkLayout>Sarearen diseinua</NetworkLayout>
+    <NetworkRepulsion>Sareko nodoen aldarapena</NetworkRepulsion>
     <NewColumnAfter>Zutabe Berria Ondoren</NewColumnAfter>
     <NewColumnBefore>Zutabe Berria Aurretik</NewColumnBefore>
     <NewPageAfter>Orrialde Berria Ondoren</NewPageAfter>
     <NewPageBefore>Orrialde Berria Aurretik</NewPageBefore>
     <NextPage>Hurrengo Orrialdea</NextPage>
+    <NoElements>Elementurik ez</NoElements>
     <NoIcon>Ikonorik gabe</NoIcon>
     <NullText>Testu Baliogabea</NullText>
     <NumberOfColumns>Zutabe Kopurua</NumberOfColumns>
@@ -2873,6 +2908,7 @@ Mezu elektronikoa "{0}" helbidera bidali da. Zure erregistroa berresteko esteka 
     <ResetDataSource>Datu Iturria berrabiarazi</ResetDataSource>
     <ResetPageNumber>Orrialde Zenbakia berrabiarazi</ResetPageNumber>
     <Resize>Neurria egokitu</Resize>
+    <Resource>Baliabidea</Resource>
     <Restrictions>Mugak</Restrictions>
     <ReturnValue>Itzulerako Balioa</ReturnValue>
     <ReverseHor>Horizontal Alderantzikatua</ReverseHor>
@@ -2949,6 +2985,7 @@ Mezu elektronikoa "{0}" helbidera bidali da. Zure erregistroa berresteko esteka 
     <SortingColumn>Zutabearen Antolamendua</SortingColumn>
     <SortingEnabled>Antolamendua Gaitua</SortingEnabled>
     <SortType>Antolamendu mota</SortType>
+    <Source>Iturria</Source>
     <Space>Tartea</Space>
     <Spacing>Tartea</Spacing>
     <SqlCommand>SQL Komandoa</SqlCommand>
@@ -3029,6 +3066,7 @@ Mezu elektronikoa "{0}" helbidera bidali da. Zure erregistroa berresteko esteka 
     <UnlimitedBreakable>Jauzi Mugagabea</UnlimitedBreakable>
     <UnlimitedHeight>Altuera Mugagabea</UnlimitedHeight>
     <UnlimitedWidth>Zabalera Mugagabea</UnlimitedWidth>
+    <URL>URL</URL>
     <UseAliases>Ezizena erabili</UseAliases>
     <UseExternalReport>Kanpoko Txostena erabili</UseExternalReport>
     <UseParentStyles>Heredatutako Estiloak erabili</UseParentStyles>
@@ -3273,6 +3311,7 @@ Mezu elektronikoa "{0}" helbidera bidali da. Zure erregistroa berresteko esteka 
     <SaveReportPagesOrFormsFromReport>Txostena, orrialdeak edo inprimakiak gorde</SaveReportPagesOrFormsFromReport>
     <SavingReport>Txostena gordetzen</SavingReport>
     <SecondPass>Bigarren emanaldia</SecondPass>
+    <ShowIncompatibleTypes>Erakutsi mota bateraezinak</ShowIncompatibleTypes>
     <Standard>Estandarra</Standard>
     <StandardConfiguration>Propietate nagusiak, inoiz gutxitan erabiltzen direnak izan ezik.</StandardConfiguration>
     <StiEmptyBrush>Hutsa</StiEmptyBrush>
@@ -3292,6 +3331,13 @@ Mezu elektronikoa "{0}" helbidera bidali da. Zure erregistroa berresteko esteka 
     <WhenAnd>{0} {1} eta direnean</WhenAnd>
     <WhenValueIs>Balioa hau denean:</WhenValueIs>
   </Report>
+  <ReportOpen>
+    <Browse>Arakatu</Browse>
+    <Import>Inportatu</Import>
+  </ReportOpen>
+  <Scheduler>
+    <ShowHTMLReportsInMessageBody>Erakutsi HTML txostenak mezuaren gorputzean</ShowHTMLReportsInMessageBody>
+  </Scheduler>
   <Services>
     <categoryContextTools>Testuinguru Tresnak</categoryContextTools>
     <categoryDesigner>Diseinatzailea</categoryDesigner>
@@ -3476,6 +3522,7 @@ Mezu elektronikoa "{0}" helbidera bidali da. Zure erregistroa berresteko esteka 
     <DataSource>Datu Iturria</DataSource>
     <DataSources>Datu Iturriak</DataSources>
     <DefaultThemes>Lehenetsitako Gaiak</DefaultThemes>
+    <Examples>Adibideak</Examples>
     <Filters>Iragazkiak</Filters>
     <FromReportTemplate>Txosteneko Txantiloi batetik</FromReportTemplate>
     <groupCreateNewPageOrForm>Orrialde edo Inprimaki Berri bat sortu</groupCreateNewPageOrForm>

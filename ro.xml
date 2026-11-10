@@ -218,6 +218,7 @@
     <DataColumns>Coloane de date</DataColumns>
     <Doughnut>Tor</Doughnut>
     <Financial>Financiar</Financial>
+    <Flow>Flux</Flow>
     <FullStackedArea>Arii suprapuse</FullStackedArea>
     <FullStackedBar>Bare suprapuse</FullStackedBar>
     <FullStackedColumn>Coloane suprapuse</FullStackedColumn>
@@ -281,6 +282,7 @@
     <MoveSeriesUp>Mută serie sus</MoveSeriesUp>
     <MoveStripDown>Mişcă fâşie în jos</MoveStripDown>
     <MoveStripUp>Mută fâşie în sus</MoveStripUp>
+    <Network>Rețea</Network>
     <NoConditions>Fără condiţii</NoConditions>
     <NoFilters>Fără filtre</NoFilters>
     <Pareto>Diagramă Pareto</Pareto>
@@ -413,6 +415,7 @@
     <Account>Cont</Account>
     <AccountSettings>Setări Cont</AccountSettings>
     <AddAPlace>Adăugă locaţie</AddAPlace>
+    <AgreeToReceiveNewsletters>Sunt de acord să primesc e-mailuri de marketing de la Stimulsoft, inclusiv noutăți despre produse, anunțuri de lansare și oferte. Mă pot dezabona oricând.</AgreeToReceiveNewsletters>
     <AreYouSureYouWantDeleteReport>Sunteţi sigur că vreţi să ștergeţi raportul "{0}" de pe disc?</AreYouSureYouWantDeleteReport>
     <Authorize>Autorizare</Authorize>
     <AuthorizeWithLicenseKey>Autorizare cu cheia de licență</AuthorizeWithLicenseKey>
@@ -1147,6 +1150,7 @@
     <ExportTypeImageFile>Fişier Imagine...</ExportTypeImageFile>
     <ExportTypeJpegFile>Imagine JPEG...</ExportTypeJpegFile>
     <ExportTypeJsonFile>Fişier JSON ...</ExportTypeJsonFile>
+    <ExportTypeMarkdownFile>Fișier Markdown...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Metafişier Windows...</ExportTypeMetafile>
     <ExportTypeMhtFile>Arhivă web MHT...</ExportTypeMhtFile>
     <ExportTypePcxFile>Imagine PCX...</ExportTypePcxFile>
@@ -1183,6 +1187,10 @@
     <NoMoreThan>Nu mai mult de</NoMoreThan>
     <OpenAfterExport>Deschide după exportare</OpenAfterExport>
     <Ordered>Sortat</Ordered>
+    <PageBands>Antete și subsoluri de pagină:</PageBands>
+    <PageBandsAll>Toate</PageBandsAll>
+    <PageBandsFirstAndLast>Primul antet și ultimul subsol</PageBandsFirstAndLast>
+    <PageBandsNone>Niciunul</PageBandsNone>
     <PdfACompliance>PDF/Conformitate A</PdfACompliance>
     <PdfUA>PDF/UA (Accesibilitate universală)</PdfUA>
     <PrintingReport>Imprimare Raport</PrintingReport>
@@ -1249,6 +1257,7 @@
     <JsonReportFiles>Șabloane Raport JSON (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>Fişiere {0} (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} rapoarte Silverlight (*.{1})|*.{2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>Fișiere Markdown (*.md)|*.md</MarkdownFiles>
     <MetaFiles>Meta fişiere</MetaFiles>
     <MhtFiles>Fişiere arhivă web MHT (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>Fişiere document compacte (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -2348,6 +2357,7 @@
     <DrawBorder>Desenarea marginilor componentelor cu caractere grafice.</DrawBorder>
     <Edit>Editare componente.</Edit>
     <EmbeddedFonts>Încorporare fişiere font intr-un fişier PDF.</EmbeddedFonts>
+    <EmbeddedFontsHtml>Încorporare fișiere font în fișierul HTML: niciunul, doar cele personalizate sau toate fonturile utilizate în raport.</EmbeddedFontsHtml>
     <EmbeddedImageData>Încorporare imagini direct în fişierul HTML.</EmbeddedImageData>
     <Encoding>Encodare text raport dupa export.</Encoding>
     <EncodingData>Encodare fişier date.</EncodingData>
@@ -2375,6 +2385,7 @@
     <OpenAfterExport>Deschiderea automată a documentului creat (după export) de programul stabilit pentru aceste tipuri de fişier.</OpenAfterExport>
     <OwnerPassword>Parola pentru accesare operaţii cu fişiere.</OwnerPassword>
     <PageAll>Prelucrarea tuturor paginilor raportului.</PageAll>
+    <PageBands>Ce antete și subsoluri de pagină intră în document: niciunul, primul antet și ultimul subsol sau toate.</PageBands>
     <PageDelete>Şterge pagina selectată dintr-un raport.</PageDelete>
     <PageDesign>Editează pagina în designer.</PageDesign>
     <PageFirst>Mergi la prima pagină a unui raport.</PageFirst>
@@ -3484,6 +3495,9 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StiHorAlignmentCenter>Centrat</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>Stânga</StiHorAlignmentLeft>
     <StiHorAlignmentRight>Dreapta</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>Toate fonturile</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>Doar personalizate</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>Niciunul</StiHtmlEmbeddedFontsModeNone>
     <StiIconAlignmentBottom>Fund</StiIconAlignmentBottom>
     <StiIconAlignmentLeft>Stânga</StiIconAlignmentLeft>
     <StiIconAlignmentNone>Nici unul</StiIconAlignmentNone>
@@ -4675,6 +4689,10 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <NegativeSeriesColors>Serii Culori Negative</NegativeSeriesColors>
     <NegativeTextBrush>Pensulă Text Negativ</NegativeTextBrush>
     <NestedLevel>Nivel Imbricat</NestedLevel>
+    <NetworkEdgeLength>Lungimea muchiilor rețelei</NetworkEdgeLength>
+    <NetworkIterations>Iterațiile rețelei</NetworkIterations>
+    <NetworkLayout>Configurația rețelei</NetworkLayout>
+    <NetworkRepulsion>Repulsia nodurilor rețelei</NetworkRepulsion>
     <NewColumnAfter>Coloană nouă după</NewColumnAfter>
     <NewColumnBefore>Coloană nouă înainte</NewColumnBefore>
     <NewPageAfter>Pagină nouă după</NewPageAfter>
@@ -5560,6 +5578,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Scheduler>Planificator</Scheduler>
     <Schedulers>Planificatoare</Schedulers>
     <SenderEmail>Expeditor e-mail</SenderEmail>
+    <ShowHTMLReportsInMessageBody>Afișează rapoartele HTML în corpul mesajului</ShowHTMLReportsInMessageBody>
     <SmtpSettings>Setări Smtp</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuration>Opriți toate taskurile care rulează la sfârșitul duratei repetării</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>Opriți taskurile dacă rulează mai mult de</StopTasksIfItRunsLongerThan>

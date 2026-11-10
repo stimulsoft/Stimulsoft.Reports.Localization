@@ -216,6 +216,7 @@
     <DataColumns>Colunas dos dados</DataColumns>
     <Doughnut>Rosca</Doughnut>
     <Financial>Financeira</Financial>
+    <Flow>Fluxo</Flow>
     <FullStackedArea>Área Total-Empilhada</FullStackedArea>
     <FullStackedBar>Barra Total-Empilhada</FullStackedBar>
     <FullStackedColumn>Coluna Total-Empilhada</FullStackedColumn>
@@ -279,6 +280,7 @@
     <MoveSeriesUp>Mover Séries para Cima</MoveSeriesUp>
     <MoveStripDown>Mover Strip para Baixo</MoveStripDown>
     <MoveStripUp>Mover Strip para Cima</MoveStripUp>
+    <Network>Rede</Network>
     <NoConditions>Nenhuma Condição</NoConditions>
     <NoFilters>Nenhum Filtro</NoFilters>
     <Pareto>Pareto</Pareto>
@@ -410,6 +412,7 @@
     <Account>Conta</Account>
     <AccountSettings>Configurações de Conta</AccountSettings>
     <AddAPlace>Adicionar um lugar</AddAPlace>
+    <AgreeToReceiveNewsletters>Concordo em receber e-mails de marketing da Stimulsoft, incluindo novidades sobre produtos, anúncios de versões e ofertas. Posso cancelar a assinatura a qualquer momento.</AgreeToReceiveNewsletters>
     <AreYouSureYouWantDeleteReport>Tem certeza de que deseja excluir o relatório "{0}" do disco?</AreYouSureYouWantDeleteReport>
     <Authorize>Autorizar</Authorize>
     <AuthorizeWithLicenseKey>Autorizar com chave de licença</AuthorizeWithLicenseKey>
@@ -1130,6 +1133,7 @@ sucedida</ConnectionSuccessfull>
     <ExportTypeImageFile>Arquivo de Imagem...</ExportTypeImageFile>
     <ExportTypeJpegFile>Imagem JPEG...</ExportTypeJpegFile>
     <ExportTypeJsonFile>Arquivo JSON...</ExportTypeJsonFile>
+    <ExportTypeMarkdownFile>Arquivo Markdown...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Windows Metafile...</ExportTypeMetafile>
     <ExportTypeMhtFile>Arquivo MHT Web ...</ExportTypeMhtFile>
     <ExportTypePcxFile>Imagem PCX ...</ExportTypePcxFile>
@@ -1166,6 +1170,10 @@ sucedida</ConnectionSuccessfull>
     <NoMoreThan>Não mais que</NoMoreThan>
     <OpenAfterExport>Abrir Depois da Exportação</OpenAfterExport>
     <Ordered>Ordenado</Ordered>
+    <PageBands>Cabeçalhos e Rodapés de Página:</PageBands>
+    <PageBandsAll>Todos</PageBandsAll>
+    <PageBandsFirstAndLast>Primeiro Cabeçalho e Último Rodapé</PageBandsFirstAndLast>
+    <PageBandsNone>Nenhum</PageBandsNone>
     <PdfACompliance>Conformidade PDF/A</PdfACompliance>
     <PdfUA>PDF/UA (Acessibilidade Universal)</PdfUA>
     <PrintingReport>Imprimindo Relatório</PrintingReport>
@@ -1232,6 +1240,7 @@ sucedida</ConnectionSuccessfull>
     <LanguageFiles>{0} Arquivos(*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} arquivos para relatórios Silverlight
 (*.{1})|*.{2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>Arquivos Markdown (*.md)|*.md</MarkdownFiles>
     <MetaFiles>Meta Arquivos</MetaFiles>
     <MhtFiles>Arquivos Web MHT (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>Pacote de arquivos de Documento (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -2322,6 +2331,7 @@ sucedida</ConnectionSuccessfull>
     <DrawBorder>Desenho das bordas dos componentes com caracteres gráficos.</DrawBorder>
     <Edit>Editar componentes.</Edit>
     <EmbeddedFonts>Incorporar os arquivos de fonte em um arquivo PDF.</EmbeddedFonts>
+    <EmbeddedFontsHtml>Incorporar os arquivos de fonte no arquivo HTML: nenhuma, somente as personalizadas ou todas as fontes usadas no relatório.</EmbeddedFontsHtml>
     <EmbeddedImageData>Incorporar imagens diretamente no arquivo HTML.</EmbeddedImageData>
     <Encoding>Codificação do texto do relatório após a exportação.</Encoding>
     <EncodingData>Codificação de arquivo de dados.</EncodingData>
@@ -2349,6 +2359,7 @@ sucedida</ConnectionSuccessfull>
     <OpenAfterExport>Abertura automática do documento criado (depois de exportação) pelo programa definido para esses tipos de arquivo.</OpenAfterExport>
     <OwnerPassword>A senha necessária para realizar operações com o arquivo.</OwnerPassword>
     <PageAll>Processamento de todas as páginas de relatório.</PageAll>
+    <PageBands>Quais cabeçalhos e rodapés de página entram no documento: nenhum, o primeiro cabeçalho e o último rodapé, ou todos.</PageBands>
     <PageDelete>Apagar a página selecionada de um relatório.</PageDelete>
     <PageDesign>Editar a página no designer.</PageDesign>
     <PageFirst>Ir para a primeira página de um relatório.</PageFirst>
@@ -3422,6 +3433,9 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <StiHorAlignmentCenter>Centro</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>Esquerda</StiHorAlignmentLeft>
     <StiHorAlignmentRight>Direita</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>Todas as Fontes</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>Somente Personalizadas</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>Nenhuma</StiHtmlEmbeddedFontsModeNone>
     <StiIconAlignmentBottom>Inferior</StiIconAlignmentBottom>
     <StiIconAlignmentLeft>Esquerda</StiIconAlignmentLeft>
     <StiIconAlignmentNone>Nenhuma</StiIconAlignmentNone>
@@ -4585,6 +4599,10 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <NegativeSeriesColors>Cores da série negativa</NegativeSeriesColors>
     <NegativeTextBrush>Pincel de Texto Negativo</NegativeTextBrush>
     <NestedLevel>Nível de aninhamento</NestedLevel>
+    <NetworkEdgeLength>Comprimento das Arestas da Rede</NetworkEdgeLength>
+    <NetworkIterations>Iterações da Rede</NetworkIterations>
+    <NetworkLayout>Layout da Rede</NetworkLayout>
+    <NetworkRepulsion>Repulsão dos Nós da Rede</NetworkRepulsion>
     <NewColumnAfter>Nova coluna após</NewColumnAfter>
     <NewColumnBefore>Nova coluna antes</NewColumnBefore>
     <NewPageAfter>Nova página após</NewPageAfter>
@@ -4867,6 +4885,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <SortingEnabled>Habilitar Classificação</SortingEnabled>
     <SortLetters>A-Z</SortLetters>
     <SortType>Tipo de Classificação</SortType>
+    <Source>Fonte</Source>
     <Space>Espaço</Space>
     <SpaceRatio>Razão de Espaço</SpaceRatio>
     <Spacing>Espaçamento</Spacing>
@@ -5457,6 +5476,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <Scheduler>Agendador</Scheduler>
     <Schedulers>Agendadores</Schedulers>
     <SenderEmail>E-mail do Remetente</SenderEmail>
+    <ShowHTMLReportsInMessageBody>Mostrar Relatórios HTML no Corpo da Mensagem</ShowHTMLReportsInMessageBody>
     <SmtpSettings>Configurações Smtp</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuration>Pare todas as tarefas em execução no final da duração da repetição</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>Pare as tarefas se durarem mais do que</StopTasksIfItRunsLongerThan>

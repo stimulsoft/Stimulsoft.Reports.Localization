@@ -216,6 +216,7 @@
     <DataColumns>데이터 열</DataColumns>
     <Doughnut>도넛</Doughnut>
     <Financial>금융</Financial>
+    <Flow>흐름</Flow>
     <FullStackedArea>전체 스택 영역</FullStackedArea>
     <FullStackedBar>전체 스택 바</FullStackedBar>
     <FullStackedColumn>전체 스택 칼럼</FullStackedColumn>
@@ -279,6 +280,7 @@
     <MoveSeriesUp>시리즈를 위로 이동</MoveSeriesUp>
     <MoveStripDown>지구를 아래로 이동</MoveStripDown>
     <MoveStripUp>지구를 위로 이동</MoveStripUp>
+    <Network>네트워크</Network>
     <NoConditions>조건없음</NoConditions>
     <NoFilters>필터 없음</NoFilters>
     <Pareto>파레토</Pareto>
@@ -411,6 +413,7 @@
     <Account>계정</Account>
     <AccountSettings>계정 설정</AccountSettings>
     <AddAPlace>위치 추가</AddAPlace>
+    <AgreeToReceiveNewsletters>제품 소식, 릴리스 공지, 혜택 등 Stimulsoft의 마케팅 이메일 수신에 동의합니다. 언제든지 수신을 거부할 수 있습니다.</AgreeToReceiveNewsletters>
     <AreYouSureYouWantDeleteReport>디스크에서 "{0}" 보고서를 삭제하시겠습니까?</AreYouSureYouWantDeleteReport>
     <Authorize>인증</Authorize>
     <AuthorizeWithLicenseKey>라이센스키로 인증</AuthorizeWithLicenseKey>
@@ -1131,6 +1134,7 @@
     <ExportTypeImageFile>이미지 파일...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG 이미지...</ExportTypeJpegFile>
     <ExportTypeJsonFile>JSON 파일...</ExportTypeJsonFile>
+    <ExportTypeMarkdownFile>Markdown 파일...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Windows 메타 파일...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT 웹 아카이브...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX 이미지...</ExportTypePcxFile>
@@ -1167,6 +1171,10 @@
     <NoMoreThan>에 지나지 않습니다</NoMoreThan>
     <OpenAfterExport>내보내기 후 열기</OpenAfterExport>
     <Ordered>정렬됨</Ordered>
+    <PageBands>페이지 머리글/바닥 글:</PageBands>
+    <PageBandsAll>전체</PageBandsAll>
+    <PageBandsFirstAndLast>첫 머리글과 마지막 바닥 글</PageBandsFirstAndLast>
+    <PageBandsNone>없음</PageBandsNone>
     <PdfACompliance>PDF</PdfACompliance>
     <PdfUA>PDF/UA (범용 접근성)</PdfUA>
     <PrintingReport>보고서 인쇄</PrintingReport>
@@ -1232,6 +1240,7 @@
     <JsonReportFiles>JSON 보고서 템플릿 (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} 클래스 (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} Silverlight 보고서 클래스 (*.{1})|*.{2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>Markdown 파일 (*.md)|*.md</MarkdownFiles>
     <MetaFiles>메타 파일</MetaFiles>
     <MhtFiles>MHT 웹 아카이브 (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>압축 된 보고서 문서 (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -2323,6 +2332,7 @@
     <DrawBorder>그림 문자로 컴퍼넌트의 테두리를 그립니다.</DrawBorder>
     <Edit>요소를 편집합니다.</Edit>
     <EmbeddedFonts>글꼴 파일을 PDF 파일에 포함합니다.</EmbeddedFonts>
+    <EmbeddedFontsHtml>글꼴 파일을 HTML 파일에 포함합니다: 없음, 사용자 지정 글꼴만 또는 보고서에 사용된 모든 글꼴.</EmbeddedFontsHtml>
     <EmbeddedImageData>이미지를 HTML 파일에 직접 포함합니다.</EmbeddedImageData>
     <Encoding>내 보낸 보고서 텍스트 인코딩</Encoding>
     <EncodingData>인코딩 데이터 파일.</EncodingData>
@@ -2350,6 +2360,7 @@
     <OpenAfterExport>이 파일 유형에 설정된 프로그램에 의해 생성 된 문서를 (내보내기 후) 자동으로 열립니다.</OpenAfterExport>
     <OwnerPassword>파일 작업에 액세스하기위한 암호입니다.</OwnerPassword>
     <PageAll>모든 보고서 페이지의 처리.</PageAll>
+    <PageBands>문서에 포함할 페이지 머리글과 바닥 글: 없음, 첫 머리글과 마지막 바닥 글 또는 전체.</PageBands>
     <PageDelete>선택한 보고서 페이지를 삭제합니다.</PageDelete>
     <PageDesign>디자이너에서 페이지를 편집합니다.</PageDesign>
     <PageFirst>첫 번째 보고서 페이지로 이동합니다.</PageFirst>
@@ -3432,6 +3443,9 @@
     <StiHorAlignmentCenter>센터</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>왼쪽</StiHorAlignmentLeft>
     <StiHorAlignmentRight>오른쪽</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>모든 글꼴</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>사용자 지정만</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>없음</StiHtmlEmbeddedFontsModeNone>
     <StiIconAlignmentBottom>아래쪽</StiIconAlignmentBottom>
     <StiIconAlignmentLeft>왼쪽</StiIconAlignmentLeft>
     <StiIconAlignmentNone>None</StiIconAlignmentNone>
@@ -4604,6 +4618,10 @@
     <NegativeSeriesColors>네거티브 시리즈 색상</NegativeSeriesColors>
     <NegativeTextBrush>네거티브 텍스트 브러쉬</NegativeTextBrush>
     <NestedLevel>중첩 수준</NestedLevel>
+    <NetworkEdgeLength>네트워크 에지 길이</NetworkEdgeLength>
+    <NetworkIterations>네트워크 반복 횟수</NetworkIterations>
+    <NetworkLayout>네트워크 레이아웃</NetworkLayout>
+    <NetworkRepulsion>네트워크 반발력</NetworkRepulsion>
     <NewColumnAfter>새 열 후</NewColumnAfter>
     <NewColumnBefore>앞에 새로운 열</NewColumnBefore>
     <NewPageAfter>새 페이지 후</NewPageAfter>
@@ -5482,6 +5500,7 @@
     <Scheduler>스케줄러</Scheduler>
     <Schedulers>스케쥴러</Schedulers>
     <SenderEmail>메일 보내기</SenderEmail>
+    <ShowHTMLReportsInMessageBody>메시지 본문에 HTML 보고서 표시</ShowHTMLReportsInMessageBody>
     <SmtpSettings>Smtp 설정</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuration>반복 기간이 끝나면 실행 중인 모든 작업을 중지합니다.</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>다음보다 오래 실행되는 경우 작업 중지</StopTasksIfItRunsLongerThan>

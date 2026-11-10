@@ -216,6 +216,7 @@
     <DataColumns>Columnas de Datos</DataColumns>
     <Doughnut>Donut</Doughnut>
     <Financial>Financeiro</Financial>
+    <Flow>Fluxo</Flow>
     <FullStackedArea>Área Amoreada-Total</FullStackedArea>
     <FullStackedBar>Barras Amoreadas-Total</FullStackedBar>
     <FullStackedColumn>Columnas Amoreadas-Total</FullStackedColumn>
@@ -279,6 +280,7 @@
     <MoveSeriesUp>Mover Serie Arriba</MoveSeriesUp>
     <MoveStripDown>Mover Franxa Abaixo</MoveStripDown>
     <MoveStripUp>Mover Franxa Arriba</MoveStripUp>
+    <Network>Rede</Network>
     <NoConditions>Sen Condicións</NoConditions>
     <NoFilters>Sen Filtros</NoFilters>
     <Pareto>Pareto</Pareto>
@@ -410,6 +412,7 @@
     <Account>Conta</Account>
     <AccountSettings>Opcións da conta</AccountSettings>
     <AddAPlace>Engadir un lugar</AddAPlace>
+    <AgreeToReceiveNewsletters>Acepto recibir correos electrónicos de márketing de Stimulsoft, incluídas novas sobre produtos, anuncios de versións e ofertas. Podo cancelar a subscrición en calquera momento.</AgreeToReceiveNewsletters>
     <AreYouSureYouWantDeleteReport>Está seguro de que quere eliminar o informe "{0}" do disco?</AreYouSureYouWantDeleteReport>
     <Authorize>Autorizar</Authorize>
     <AuthorizeWithLicenseKey>Autorizar coa clave de licenza</AuthorizeWithLicenseKey>
@@ -1129,6 +1132,7 @@
     <ExportTypeImageFile>Ficheiro de imaxe...</ExportTypeImageFile>
     <ExportTypeJpegFile>Imaxe JPEG...</ExportTypeJpegFile>
     <ExportTypeJsonFile>Ficheiro JSON...</ExportTypeJsonFile>
+    <ExportTypeMarkdownFile>Ficheiro Markdown...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Windows Metafile...</ExportTypeMetafile>
     <ExportTypeMhtFile>Arquivo MHT Web...</ExportTypeMhtFile>
     <ExportTypePcxFile>Imaxe PCX...</ExportTypePcxFile>
@@ -1165,6 +1169,10 @@
     <NoMoreThan>Non máis de</NoMoreThan>
     <OpenAfterExport>Abrir despois de exportar</OpenAfterExport>
     <Ordered>Ordenado</Ordered>
+    <PageBands>Cabeceiras e Pés de Páxina:</PageBands>
+    <PageBandsAll>Todos</PageBandsAll>
+    <PageBandsFirstAndLast>Primeira Cabeceira e Último Pé</PageBandsFirstAndLast>
+    <PageBandsNone>Ningún</PageBandsNone>
     <PdfACompliance>Conformidade PDF/A</PdfACompliance>
     <PdfUA>PDF/UA (Accesibilidade Universal)</PdfUA>
     <PrintingReport>Imprimindo o informe</PrintingReport>
@@ -1230,6 +1238,7 @@
     <JsonReportFiles>Modelos JSON de Stimulsoft (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} Arquivos(*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} ficheiros para informes Silverlight (*.{1})|*.{2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>Arquivos Markdown (*.md)|*.md</MarkdownFiles>
     <MetaFiles>Ficheiros de Metadatos</MetaFiles>
     <MhtFiles>Ficheiros de Arquivo MHT Web (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>Ficheiros empaquetados de documentos (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -2320,6 +2329,7 @@
     <DrawBorder>Mostrar Rebordo</DrawBorder>
     <Edit>Editar compoñentes.</Edit>
     <EmbeddedFonts>Incrustar os ficheiros de tipos de letra nun ficheiro PDF.</EmbeddedFonts>
+    <EmbeddedFontsHtml>Incrustar os ficheiros de tipos de letra no ficheiro HTML: ningunha, só as personalizadas ou todas as fontes usadas no informe.</EmbeddedFontsHtml>
     <EmbeddedImageData>Incrustar as imaxes directamente no ficheiro HTML.</EmbeddedImageData>
     <Encoding>Codificando o texto do informe despois da exportación.</Encoding>
     <EncodingData>Codificando o ficheiro de datos.</EncodingData>
@@ -2347,6 +2357,7 @@
     <OpenAfterExport>Apertura automática do documento creado (despois da exportación) polo programa asociado a estes tipos de ficheiro.</OpenAfterExport>
     <OwnerPassword>O contrasinal necesario para realizar operacións co ficheiro.</OwnerPassword>
     <PageAll>Procesamento de todas as páxinas do informe.</PageAll>
+    <PageBands>Que cabeceiras e pés de páxina se inclúen no documento: ningún, a primeira cabeceira e o último pé, ou todos.</PageBands>
     <PageDelete>Eliminar a páxina seleccionada do informe.</PageDelete>
     <PageDesign>Editar a páxina no deseñador.</PageDesign>
     <PageFirst>Ir á primeira páxina do informe.</PageFirst>
@@ -3419,6 +3430,9 @@ Enviouse un correo electrónico a "{0}". Contén unha ligazón para confirmar o 
     <StiHorAlignmentCenter>Centrado</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>Esquerda</StiHorAlignmentLeft>
     <StiHorAlignmentRight>Dereita</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>Todas as Fontes</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>Só Personalizadas</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>Ningunha</StiHtmlEmbeddedFontsModeNone>
     <StiIconAlignmentBottom>Inferior</StiIconAlignmentBottom>
     <StiIconAlignmentLeft>Esquerda</StiIconAlignmentLeft>
     <StiIconAlignmentNone>Ningún</StiIconAlignmentNone>
@@ -4582,6 +4596,10 @@ Enviouse un correo electrónico a "{0}". Contén unha ligazón para confirmar o 
     <NegativeSeriesColors>Cores da serie negativa</NegativeSeriesColors>
     <NegativeTextBrush>Pincel do texto negativo</NegativeTextBrush>
     <NestedLevel>Nivel de Aniñamento</NestedLevel>
+    <NetworkEdgeLength>Lonxitude das Arestas da Rede</NetworkEdgeLength>
+    <NetworkIterations>Iteracións da Rede</NetworkIterations>
+    <NetworkLayout>Distribución da Rede</NetworkLayout>
+    <NetworkRepulsion>Repulsión dos Nodos da Rede</NetworkRepulsion>
     <NewColumnAfter>Nova Columna Despois</NewColumnAfter>
     <NewColumnBefore>Nova Columna Antes</NewColumnBefore>
     <NewPageAfter>Nova Páxina Despois</NewPageAfter>
@@ -4863,6 +4881,7 @@ Enviouse un correo electrónico a "{0}". Contén unha ligazón para confirmar o 
     <SortingEnabled>Ordenación Habilitada</SortingEnabled>
     <SortLetters>A-Z</SortLetters>
     <SortType>Tipo de Ordenación</SortType>
+    <Source>Fonte</Source>
     <Space>Espazo</Space>
     <SpaceRatio>Proporción de espazo</SpaceRatio>
     <Spacing>Espazado</Spacing>
@@ -5449,6 +5468,7 @@ Enviouse un correo electrónico a "{0}". Contén unha ligazón para confirmar o 
     <Scheduler>Planificador</Scheduler>
     <Schedulers>Planificadores</Schedulers>
     <SenderEmail>Correo electrónico do remitente</SenderEmail>
+    <ShowHTMLReportsInMessageBody>Mostrar Informes HTML no Corpo da Mensaxe</ShowHTMLReportsInMessageBody>
     <SmtpSettings>Configuración SMTP</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuration>Deter todas as tarefas en execución ao rematar a duración da repetición</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>Deter as tarefas se se executan durante máis de</StopTasksIfItRunsLongerThan>

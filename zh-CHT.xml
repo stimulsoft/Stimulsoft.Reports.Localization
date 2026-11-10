@@ -217,6 +217,7 @@
     <DataColumns>數據列</DataColumns>
     <Doughnut>圓環圖</Doughnut>
     <Financial>財務</Financial>
+    <Flow>流向圖</Flow>
     <FullStackedArea>全堆積面積圖</FullStackedArea>
     <FullStackedBar>全堆積條形圖</FullStackedBar>
     <FullStackedColumn>全堆積直條圖</FullStackedColumn>
@@ -280,6 +281,7 @@
     <MoveSeriesUp>上移序列</MoveSeriesUp>
     <MoveStripDown>下移長條</MoveStripDown>
     <MoveStripUp>上移長條</MoveStripUp>
+    <Network>網路</Network>
     <NoConditions>無條件</NoConditions>
     <NoFilters>無過濾</NoFilters>
     <Pareto>柏拉圖</Pareto>
@@ -412,6 +414,7 @@
     <Account>帳戶</Account>
     <AccountSettings>帳戶設定</AccountSettings>
     <AddAPlace>加入地點</AddAPlace>
+    <AgreeToReceiveNewsletters>我同意接收 Stimulsoft 的行銷電子郵件，包括產品消息、版本發布公告和優惠資訊。我可以隨時取消訂閱。</AgreeToReceiveNewsletters>
     <AreYouSureYouWantDeleteReport>確定要從磁碟刪除 "{0}" 報表嗎？</AreYouSureYouWantDeleteReport>
     <Authorize>授權</Authorize>
     <AuthorizeWithLicenseKey>使用授權金鑰授權</AuthorizeWithLicenseKey>
@@ -1131,6 +1134,7 @@
     <ExportTypeImageFile>圖片檔案...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG 圖片...</ExportTypeJpegFile>
     <ExportTypeJsonFile>JSON 檔案...</ExportTypeJsonFile>
+    <ExportTypeMarkdownFile>Markdown 檔案...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Windows 圖元文件...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Web Archive文件...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX 圖像...</ExportTypePcxFile>
@@ -1167,6 +1171,10 @@
     <NoMoreThan>不超過</NoMoreThan>
     <OpenAfterExport>導出後打開</OpenAfterExport>
     <Ordered>已排序</Ordered>
+    <PageBands>頁眉/頁腳:</PageBands>
+    <PageBandsAll>全部</PageBandsAll>
+    <PageBandsFirstAndLast>第一個頁眉和最後一個頁腳</PageBandsFirstAndLast>
+    <PageBandsNone>無</PageBandsNone>
     <PdfACompliance>PDF/A 相容性</PdfACompliance>
     <PdfUA>PDF/UA（通用無障礙）</PdfUA>
     <PrintingReport>正在列印報表</PrintingReport>
@@ -1232,6 +1240,7 @@
     <JsonReportFiles>Stimulsoft JSON 範本 (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} 文件 (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} Silverlight 報表類別 (*.{1})|*.{2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>Markdown 檔案 (*.md)|*.md</MarkdownFiles>
     <MetaFiles>元文件</MetaFiles>
     <MhtFiles>MHT Web Archive 文件 (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>Files packed document (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -2323,6 +2332,7 @@
     <DrawBorder>繪製邊框</DrawBorder>
     <Edit>編輯</Edit>
     <EmbeddedFonts>將字型檔案內嵌至 PDF 檔案。</EmbeddedFonts>
+    <EmbeddedFontsHtml>將字型檔案內嵌至 HTML 檔案：無、僅自訂字型或報表中使用的所有字型。</EmbeddedFontsHtml>
     <EmbeddedImageData>將圖片直接內嵌至 HTML 檔案。</EmbeddedImageData>
     <Encoding>匯出後對報表文字進行編碼。</Encoding>
     <EncodingData>正在編碼資料檔案。</EncodingData>
@@ -2350,6 +2360,7 @@
     <OpenAfterExport>匯出後，由與這些檔案類型關聯的程式自動開啟建立的文件。</OpenAfterExport>
     <OwnerPassword>對檔案執行操作所需的密碼。</OwnerPassword>
     <PageAll>處理所有報表頁面。</PageAll>
+    <PageBands>文件中包含哪些頁眉和頁腳：無、第一個頁眉和最後一個頁腳或全部。</PageBands>
     <PageDelete>刪除選取的報表頁面。</PageDelete>
     <PageDesign>在設計器中編輯頁面。</PageDesign>
     <PageFirst>移至第一個報表頁面。</PageFirst>
@@ -3431,6 +3442,9 @@
     <StiHorAlignmentCenter>居中</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>居左</StiHorAlignmentLeft>
     <StiHorAlignmentRight>居右</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>所有字型</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>僅自訂</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>無</StiHtmlEmbeddedFontsModeNone>
     <StiIconAlignmentBottom>靠下</StiIconAlignmentBottom>
     <StiIconAlignmentLeft>靠左</StiIconAlignmentLeft>
     <StiIconAlignmentNone>無</StiIconAlignmentNone>
@@ -4602,6 +4616,10 @@
     <NegativeSeriesColors>負值數列顏色</NegativeSeriesColors>
     <NegativeTextBrush>負值文字筆刷</NegativeTextBrush>
     <NestedLevel>巢狀層級</NestedLevel>
+    <NetworkEdgeLength>網路邊長</NetworkEdgeLength>
+    <NetworkIterations>網路迭代次數</NetworkIterations>
+    <NetworkLayout>網路佈局</NetworkLayout>
+    <NetworkRepulsion>網路排斥力</NetworkRepulsion>
     <NewColumnAfter>在後插入新列</NewColumnAfter>
     <NewColumnBefore>在前插入新列</NewColumnBefore>
     <NewPageAfter>在後插入新頁</NewPageAfter>
@@ -5480,6 +5498,7 @@
     <Scheduler>排程器</Scheduler>
     <Schedulers>排程器</Schedulers>
     <SenderEmail>寄件者電子郵件</SenderEmail>
+    <ShowHTMLReportsInMessageBody>在郵件內文中顯示 HTML 報表</ShowHTMLReportsInMessageBody>
     <SmtpSettings>SMTP 設定</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuration>在重複持續時間結束時停止所有執行中的工作</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>如果工作執行時間超過以下時間則停止</StopTasksIfItRunsLongerThan>

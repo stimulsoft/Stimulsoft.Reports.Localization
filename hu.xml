@@ -177,6 +177,7 @@
     <DataColumns>Adat oszlop</DataColumns>
     <Doughnut>Fánk</Doughnut>
     <Financial>Pénzügyi</Financial>
+    <Flow>Folyam</Flow>
     <FullStackedArea>100%-ig halmozott terület</FullStackedArea>
     <FullStackedBar>100%-ig halmozott sáv</FullStackedBar>
     <FullStackedColumn>100%-ig halmozott oszlop</FullStackedColumn>
@@ -237,6 +238,7 @@
     <MoveSeriesUp>Sorozat mozgatás felfelé</MoveSeriesUp>
     <MoveStripDown>Szalag mozgatás lefelé</MoveStripDown>
     <MoveStripUp>Szalag mozgatás felfelé</MoveStripUp>
+    <Network>Hálózat</Network>
     <NoConditions>Nincsenek feltételek</NoConditions>
     <NoFilters>Nincsenek szűrők</NoFilters>
     <Pareto>Pareto</Pareto>
@@ -364,6 +366,7 @@
     <Account>Fiók</Account>
     <AccountSettings>Fiók beállítások</AccountSettings>
     <AddAPlace>Hely hozzáadása</AddAPlace>
+    <AgreeToReceiveNewsletters>Hozzájárulok, hogy a Stimulsoft marketing e-maileket küldjön nekem, beleértve a termékhíreket, a kiadási közleményeket és az ajánlatokat. Bármikor leiratkozhatok.</AgreeToReceiveNewsletters>
     <AreYouSureYouWantDeleteReport>Biztos, hogy törölni akarja a(z) "{0}" reportot a lemezről?</AreYouSureYouWantDeleteReport>
     <Authorize>Engedélyezés</Authorize>
     <AuthorizeWithLicenseKey>Engedélyezés licenckulccsal</AuthorizeWithLicenseKey>
@@ -1049,6 +1052,7 @@
     <ExportTypeImageFile>Kép fájl...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG kép...</ExportTypeJpegFile>
     <ExportTypeJsonFile>JSON File...</ExportTypeJsonFile>
+    <ExportTypeMarkdownFile>Markdown fájl...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Windows Metafájl...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Web Archive...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX kép...</ExportTypePcxFile>
@@ -1084,6 +1088,10 @@
     <MultipleFiles>Összetett fájlok</MultipleFiles>
     <NoMoreThan>Nem több mint</NoMoreThan>
     <OpenAfterExport>Megnyitás export után</OpenAfterExport>
+    <PageBands>Oldal fejlécek/láblécek:</PageBands>
+    <PageBandsAll>Mind</PageBandsAll>
+    <PageBandsFirstAndLast>Első fejléc és utolsó lábléc</PageBandsFirstAndLast>
+    <PageBandsNone>Nincs</PageBandsNone>
     <PdfACompliance>PDF/A típus</PdfACompliance>
     <PrintingReport>Riport nyomtatása</PrintingReport>
     <RemoveEmptySpaceAtBottom>Üres terület eltávolítása a lap alján</RemoveEmptySpaceAtBottom>
@@ -1148,6 +1156,7 @@
     <JsonReportFiles>JSON jelentés sablonok (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} fájl(*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} fájlok Silverlight jelentéshez (*.{1})|*.{2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>Markdown fájlok (*.md)|*.md</MarkdownFiles>
     <MetaFiles>Meta fájlok</MetaFiles>
     <MhtFiles>MHT Web Archive fájlok(*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>Tömörített dokumentum fájlok(*.mdz)|*.mdz</PackedDocumentFiles>
@@ -2171,6 +2180,7 @@
     <DrawBorder>Komponensek határainak kirajzolása grafikus karakterekkel.</DrawBorder>
     <Edit>Komponensek szerkesztése.</Edit>
     <EmbeddedFonts>Betűtípus fájlok beágyazása a PDF fájlba.</EmbeddedFonts>
+    <EmbeddedFontsHtml>Betűtípus fájlok beágyazása a HTML fájlba: egyik sem, csak az egyéni betűtípusok, vagy a jelentésben használt összes betűtípus.</EmbeddedFontsHtml>
     <EmbeddedImageData>Képek beágyazása közvetlenül a HTML fájlba.</EmbeddedImageData>
     <Encoding>Jelentés szövegének kódolása exportálás után.</Encoding>
     <EncodingData>Adatfájl kódolása.</EncodingData>
@@ -2198,6 +2208,7 @@
     <OpenAfterExport>Az elkészült dokumentum megnyitása (exportálás után) a fájltípushoz rendelt programmal.</OpenAfterExport>
     <OwnerPassword>A fájlokkal való műveletekhez szükséges jelszó.</OwnerPassword>
     <PageAll>A jelentés összes oldalának feldolgozása.</PageAll>
+    <PageBands>Mely oldal fejlécek és láblécek kerüljenek a dokumentumba: egyik sem, az első fejléc és az utolsó lábléc, vagy mind.</PageBands>
     <PageDelete>Kiválasztott oldal törlése.</PageDelete>
     <PageDesign>Oldal szerkesztése a tervezőben.</PageDesign>
     <PageFirst>Ugrás az első oldalra.</PageFirst>
@@ -3220,6 +3231,9 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <StiHorAlignmentCenter>Középre</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>Bal</StiHorAlignmentLeft>
     <StiHorAlignmentRight>Jobb</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>Összes betűtípus</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>Csak egyéni</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>Nincs</StiHtmlEmbeddedFontsModeNone>
     <StiIconAlignmentBottom>Alulra</StiIconAlignmentBottom>
     <StiIconAlignmentLeft>Balra</StiIconAlignmentLeft>
     <StiIconAlignmentNone>Nincs</StiIconAlignmentNone>
@@ -4300,6 +4314,10 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <NegativeSeriesColors>Negatív széria szín</NegativeSeriesColors>
     <NegativeTextBrush>Negatív szöveg kitöltés</NegativeTextBrush>
     <NestedLevel>Beágyazott szint</NestedLevel>
+    <NetworkEdgeLength>Hálózati élhossz</NetworkEdgeLength>
+    <NetworkIterations>Hálózati iterációk</NetworkIterations>
+    <NetworkLayout>Hálózati elrendezés</NetworkLayout>
+    <NetworkRepulsion>Hálózati taszítás</NetworkRepulsion>
     <NewColumnAfter>Új oszlop utána</NewColumnAfter>
     <NewColumnBefore>Új oszlop előtte</NewColumnBefore>
     <NewPageAfter>Új oldal utána</NewPageAfter>
@@ -4560,6 +4578,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <SortingEnabled>Rendezés engedélyez</SortingEnabled>
     <SortLetters>A-Z</SortLetters>
     <SortType>Rendezés típusa</SortType>
+    <Source>Forrás</Source>
     <Space>Szóköz</Space>
     <SpaceRatio>Térarány</SpaceRatio>
     <Spacing>Köz</Spacing>
@@ -5011,6 +5030,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <SavingReport>Report mentve</SavingReport>
     <SecondPass>Second Pass</SecondPass>
     <Shapes>Alakzatok</Shapes>
+    <ShowIncompatibleTypes>Nem kompatibilis típusok megjelenítése</ShowIncompatibleTypes>
     <ShowOnParametersPanel>Megjelenítés a paraméterpanelen</ShowOnParametersPanel>
     <Standard>Sztenderd</Standard>
     <StandardConfiguration>Fő objektum tulajdonságok kivéve a ritkán használtakt is</StandardConfiguration>
@@ -5105,6 +5125,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <Scheduler>Ütemező</Scheduler>
     <Schedulers>Ütemezők</Schedulers>
     <SenderEmail>Küldő Email</SenderEmail>
+    <ShowHTMLReportsInMessageBody>HTML jelentések megjelenítése az üzenet törzsében</ShowHTMLReportsInMessageBody>
     <SmtpSettings>SMTP beállítások</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuration>Állítsa le az összes futtató feladatot az adott ismétlés időtartama végén</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>Állítsa le a feladatokat, ha az tovább tart, mint</StopTasksIfItRunsLongerThan>
@@ -5331,6 +5352,7 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <DataSource>Adat forrás</DataSource>
     <DataSources>Adat források</DataSources>
     <DefaultThemes>Alapértelmezett téma</DefaultThemes>
+    <Examples>Példák</Examples>
     <Filters>Szűrők</Filters>
     <FromReportTemplate>Jelentés sablonból</FromReportTemplate>
     <GetData>Adatok beszerzése</GetData>

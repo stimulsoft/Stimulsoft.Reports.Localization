@@ -216,6 +216,7 @@
     <DataColumns>მონაცემთა სვეტები</DataColumns>
     <Doughnut>რგოლი</Doughnut>
     <Financial>ფინანსური</Financial>
+    <Flow>ნაკადი</Flow>
     <FullStackedArea>ნორმირებული არე</FullStackedArea>
     <FullStackedBar>ნორმირებული ხაზოვანი</FullStackedBar>
     <FullStackedColumn>ნორმირებული ჰისტოგრამა</FullStackedColumn>
@@ -279,6 +280,7 @@
     <MoveSeriesUp>რიგის ზევით ატანა</MoveSeriesUp>
     <MoveStripDown>ზოლის ქვევით ჩატანა</MoveStripDown>
     <MoveStripUp>ზოლის ზევით ატანა</MoveStripUp>
+    <Network>ქსელი</Network>
     <NoConditions>პირობების გარეშე</NoConditions>
     <NoFilters>ფილტრების გარეშე</NoFilters>
     <Pareto>პარეტო</Pareto>
@@ -411,6 +413,7 @@
     <Account>მომხმარებელი</Account>
     <AccountSettings>ექაუნთის პარამეტრები</AccountSettings>
     <AddAPlace>ადგილის დამატება</AddAPlace>
+    <AgreeToReceiveNewsletters>ვეთანხმები Stimulsoft-ისგან მარკეტინგული ელფოსტის მიღებას, მათ შორის პროდუქტის სიახლეების, ვერსიების განცხადებებისა და შეთავაზებების. გამოწერის გაუქმება ნებისმიერ დროს შემიძლია.</AgreeToReceiveNewsletters>
     <AreYouSureYouWantDeleteReport>თქვენ ნამდვილად გსურთ წაშალოთ "{0}" რეპორტი დისკიდან?</AreYouSureYouWantDeleteReport>
     <Authorize>ავტორიზაცია</Authorize>
     <AuthorizeWithLicenseKey>სალიცენზიო გასაღებით ავტორიზაცია</AuthorizeWithLicenseKey>
@@ -1136,6 +1139,7 @@
     <ExportTypeImageFile>Image ფაილი...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG სურათი...</ExportTypeJpegFile>
     <ExportTypeJsonFile>JSON ფაილი...</ExportTypeJsonFile>
+    <ExportTypeMarkdownFile>Markdown ფაილი...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Windows Metafile...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Web არქივი...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX სურათი...</ExportTypePcxFile>
@@ -1172,6 +1176,10 @@
     <NoMoreThan>არაუმეტეს</NoMoreThan>
     <OpenAfterExport>გაიხსნას ექსპორტის შემდეგ</OpenAfterExport>
     <Ordered>დალაგებული</Ordered>
+    <PageBands>გვერდის კოლონტიტულები:</PageBands>
+    <PageBandsAll>ყველა</PageBandsAll>
+    <PageBandsFirstAndLast>პირველი ზედა და ბოლო ქვედა კოლონტიტული</PageBandsFirstAndLast>
+    <PageBandsNone>არა</PageBandsNone>
     <PdfACompliance>PDF/A შესაბამისობა</PdfACompliance>
     <PdfUA>PDF/UA (უნივერსალური ხელმისაწვდომობა)</PdfUA>
     <PrintingReport>რეპორტის ბეჭდვა</PrintingReport>
@@ -1238,6 +1246,7 @@
     <JsonReportFiles>JSON პატაკის შაბლონი (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} ფაილი (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} ფაილი Silverlight რეპორტისათვის (*.{1})|*.{2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>Markdown ფაილი (*.md)|*.md</MarkdownFiles>
     <MetaFiles>ვექტორული სურათი</MetaFiles>
     <MhtFiles>MHT Web არქივის ფაილი (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>შეკუმშული დოკუმენტის ფაილი (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -2333,6 +2342,7 @@
     <DrawBorder>კომპონენტების საზღვრების ხატვა გრაფიკული სიმბოლოებით.</DrawBorder>
     <Edit>კომპონენტების რედაქტირება.</Edit>
     <EmbeddedFonts>PDF ფაილში გამოყენებული ფონტების ჩაშენება.</EmbeddedFonts>
+    <EmbeddedFontsHtml>შრიფტის ფაილების HTML ფაილში ჩაშენება: არცერთი, მხოლოდ სამომხმარებლო, თუ რეპორტში გამოყენებული ყველა შრიფტი.</EmbeddedFontsHtml>
     <EmbeddedImageData>HTML ფაილში სურათების ჩაშენება.</EmbeddedImageData>
     <Encoding>ექსპორტის შემდეგ რეპორტის ტექსტის შიფრაცია.</Encoding>
     <EncodingData>მონაცემთა ფაილის შიფრაცია.</EncodingData>
@@ -2360,6 +2370,7 @@
     <OpenAfterExport>ექსპორტირებული ფაილის გახსნა შესაბამისი პროგრამით.</OpenAfterExport>
     <OwnerPassword>ფაილის ოპერაციებთან წვდომის პაროლი.</OwnerPassword>
     <PageAll>რეპორტის ყველა გვერდის დამუშავება.</PageAll>
+    <PageBands>გვერდის რომელი კოლონტიტულები მოხვდება დოკუმენტში: არცერთი, პირველი ზედა და ბოლო ქვედა კოლონტიტული, თუ ყველა.</PageBands>
     <PageDelete>რეპორტის მონიშნული გვერდის წაშლა.</PageDelete>
     <PageDesign>გვერდის შეცვლა დიზაინერში.</PageDesign>
     <PageFirst>რეპორტის პირველ გვერდზე გადასვლა.</PageFirst>
@@ -3497,6 +3508,9 @@
     <StiHorAlignmentCenter>ცენტრში</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>მარცხნივ</StiHorAlignmentLeft>
     <StiHorAlignmentRight>მარჯვნივ</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>ყველა შრიფტი</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>მხოლოდ სამომხმარებლო</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>არა</StiHtmlEmbeddedFontsModeNone>
     <StiIconAlignmentBottom>ქვევით</StiIconAlignmentBottom>
     <StiIconAlignmentLeft>მარცხნივ</StiIconAlignmentLeft>
     <StiIconAlignmentNone>None</StiIconAlignmentNone>
@@ -4694,6 +4708,10 @@
     <NegativeSeriesColors>უარყოფითებისთვის სერიის ფერი</NegativeSeriesColors>
     <NegativeTextBrush>უარყოფითებისთვის ტექსტის ფერი</NegativeTextBrush>
     <NestedLevel>ქვედონე</NestedLevel>
+    <NetworkEdgeLength>ქსელის წიბოების სიგრძე</NetworkEdgeLength>
+    <NetworkIterations>ქსელის იტერაციები</NetworkIterations>
+    <NetworkLayout>ქსელის განლაგება</NetworkLayout>
+    <NetworkRepulsion>ქსელის კვანძების განზიდვა</NetworkRepulsion>
     <NewColumnAfter>სვეტის მარჯნივ ჩასმა</NewColumnAfter>
     <NewColumnBefore>სვეტის მარცნივ ჩასმა</NewColumnBefore>
     <NewPageAfter>სვეტის ქვევით ჩასმა</NewPageAfter>
@@ -5578,6 +5596,7 @@
     <Scheduler>დამგეგმავი</Scheduler>
     <Schedulers>დამგეგმავები</Schedulers>
     <SenderEmail>გამგზავნის ელ.ფოსტა</SenderEmail>
+    <ShowHTMLReportsInMessageBody>HTML რეპორტების ჩვენება წერილის ტექსტში</ShowHTMLReportsInMessageBody>
     <SmtpSettings>SMTP სერვერის პარამეტრები</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuration>გამეორების დასრულებისას ყველა გაშვებული ამოცანის შეჩერება.</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>ამოცანების შეჩერება თუ ისინი მუშაობენ უფრო დიდხანს ვიდრე</StopTasksIfItRunsLongerThan>

@@ -216,6 +216,7 @@
     <DataColumns>Колонки данных</DataColumns>
     <Doughnut>Кольцевая</Doughnut>
     <Financial>Финансовая</Financial>
+    <Flow>Поток</Flow>
     <FullStackedArea>Нормированная область</FullStackedArea>
     <FullStackedBar>Нормированная линейчатая</FullStackedBar>
     <FullStackedColumn>Нормированная гистограмма</FullStackedColumn>
@@ -279,6 +280,7 @@
     <MoveSeriesUp>Переместить ряд вверх</MoveSeriesUp>
     <MoveStripDown>Переместить полосу вниз</MoveStripDown>
     <MoveStripUp>Переместить полосу вверх</MoveStripUp>
+    <Network>Сеть</Network>
     <NoConditions>Нет условий</NoConditions>
     <NoFilters>Нет фильтров</NoFilters>
     <Pareto>Парето</Pareto>
@@ -411,6 +413,7 @@
     <Account>Аккаунт</Account>
     <AccountSettings>Настройки аккаунта</AccountSettings>
     <AddAPlace>Добавление места</AddAPlace>
+    <AgreeToReceiveNewsletters>Я даю согласие на получение от Stimulsoft маркетинговых писем, включая новости о продуктах, объявления о выпусках и предложения. Я могу отказаться от подписки в любое время.</AgreeToReceiveNewsletters>
     <AreYouSureYouWantDeleteReport>Вы действительно хотите удалить отчет "{0}" с диска?</AreYouSureYouWantDeleteReport>
     <Authorize>Авторизовать</Authorize>
     <AuthorizeWithLicenseKey>Авторизация лицензионным ключом</AuthorizeWithLicenseKey>
@@ -1130,6 +1133,7 @@
     <ExportTypeImageFile>Файл изображения...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG рисунок...</ExportTypeJpegFile>
     <ExportTypeJsonFile>JSON файл...</ExportTypeJsonFile>
+    <ExportTypeMarkdownFile>Markdown файл...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Windows Metafile...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Web архив...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX рисунок...</ExportTypePcxFile>
@@ -1166,6 +1170,10 @@
     <NoMoreThan>Не больше чем</NoMoreThan>
     <OpenAfterExport>Открыть после экспорта</OpenAfterExport>
     <Ordered>Упорядочено</Ordered>
+    <PageBands>Колонтитулы страницы:</PageBands>
+    <PageBandsAll>Все</PageBandsAll>
+    <PageBandsFirstAndLast>Первый заголовок и последний итог</PageBandsFirstAndLast>
+    <PageBandsNone>Нет</PageBandsNone>
     <PdfACompliance>PDF/A соглашение</PdfACompliance>
     <PdfUA>PDF/UA (Универсальная доступность)</PdfUA>
     <PrintingReport>Печать отчета</PrintingReport>
@@ -1231,6 +1239,7 @@
     <JsonReportFiles>JSON Stimulsoft шаблоны (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} классы (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} классы для Silverlight отчетов (*.{1})|*.{2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>Markdown файлы (*.md)|*.md</MarkdownFiles>
     <MetaFiles>Векторные изображения</MetaFiles>
     <MhtFiles>MHT Web архивы (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>Упакованные Stimulsoft документы (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -2322,6 +2331,7 @@
     <DrawBorder>Отрисовка границ компонентов символами графики.</DrawBorder>
     <Edit>Редактировать элементы отчета.</Edit>
     <EmbeddedFonts>Встроить файлы шрифтов в файл PDF.</EmbeddedFonts>
+    <EmbeddedFontsHtml>Встроить файлы шрифтов в файл HTML: никакие, только пользовательские или все шрифты, используемые в отчете.</EmbeddedFontsHtml>
     <EmbeddedImageData>Встроить изображения непосредственно в HTML-файл.</EmbeddedImageData>
     <Encoding>Кодировка текста отчета после экспорта.</Encoding>
     <EncodingData>Кодировка при создании файла.</EncodingData>
@@ -2349,6 +2359,7 @@
     <OpenAfterExport>Автоматическое открытие созданного документа (после завершения экспорта) программой, установленной по умолчанию для этих типов файлов.</OpenAfterExport>
     <OwnerPassword>Пароль доступа к операциям с файлом.</OwnerPassword>
     <PageAll>Обработка всех страниц отчета.</PageAll>
+    <PageBands>Какие колонтитулы страниц попадут в документ: никакие, первый заголовок и последний итог или все.</PageBands>
     <PageDelete>Удалить выбранную страницу отчета.</PageDelete>
     <PageDesign>Изменить страницу в дизайнере.</PageDesign>
     <PageFirst>Перейти на первую страницу отчета.</PageFirst>
@@ -3428,6 +3439,9 @@
     <StiHorAlignmentCenter>По центру</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>По левому краю</StiHorAlignmentLeft>
     <StiHorAlignmentRight>По правому краю</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>Все шрифты</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>Только пользовательские</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>Нет</StiHtmlEmbeddedFontsModeNone>
     <StiIconAlignmentBottom>Внизу</StiIconAlignmentBottom>
     <StiIconAlignmentLeft>Слева</StiIconAlignmentLeft>
     <StiIconAlignmentNone>Нет</StiIconAlignmentNone>
@@ -4599,6 +4613,10 @@
     <NegativeSeriesColors>Цвета рядов для отрицательных</NegativeSeriesColors>
     <NegativeTextBrush>Цвет текста для отрицательных</NegativeTextBrush>
     <NestedLevel>Уровень вложенности</NestedLevel>
+    <NetworkEdgeLength>Длина ребер сети</NetworkEdgeLength>
+    <NetworkIterations>Итерации сети</NetworkIterations>
+    <NetworkLayout>Размещение сети</NetworkLayout>
+    <NetworkRepulsion>Отталкивание узлов сети</NetworkRepulsion>
     <NewColumnAfter>Новая колонка после</NewColumnAfter>
     <NewColumnBefore>Новая колонка до</NewColumnBefore>
     <NewPageAfter>Новая страница после</NewPageAfter>
@@ -5477,6 +5495,7 @@
     <Scheduler>Планировщик</Scheduler>
     <Schedulers>Планировщики</Schedulers>
     <SenderEmail>Email отправителя</SenderEmail>
+    <ShowHTMLReportsInMessageBody>Показывать HTML-отчеты в теле письма</ShowHTMLReportsInMessageBody>
     <SmtpSettings>Настройки SMTP сервера</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuration>Остановить все выполняемые задачи по окончанию повторения.</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>Остановить задачи если они работают дольше чем</StopTasksIfItRunsLongerThan>

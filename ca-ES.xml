@@ -216,6 +216,7 @@
     <DataColumns>Columnes de dades</DataColumns>
     <Doughnut>Anell</Doughnut>
     <Financial>Financer</Financial>
+    <Flow>Flux</Flow>
     <FullStackedArea>Àrea apilada-total</FullStackedArea>
     <FullStackedBar>Barres apilades-total</FullStackedBar>
     <FullStackedColumn>Columnes apilades-total</FullStackedColumn>
@@ -279,6 +280,7 @@
     <MoveSeriesUp>Mou sèrie cap amunt</MoveSeriesUp>
     <MoveStripDown>Mou franja cap avall</MoveStripDown>
     <MoveStripUp>Mou franja cap amunt</MoveStripUp>
+    <Network>Xarxa</Network>
     <NoConditions>Sense condicions</NoConditions>
     <NoFilters>Sense filtres</NoFilters>
     <Pareto>Pareto</Pareto>
@@ -410,6 +412,7 @@
     <Account>Compte</Account>
     <AccountSettings>Opcions del compte</AccountSettings>
     <AddAPlace>Afegir un lloc</AddAPlace>
+    <AgreeToReceiveNewsletters>Accepto rebre correus electrònics de màrqueting de Stimulsoft, incloses notícies de productes, anuncis de versions i ofertes. Puc cancel·lar la subscripció en qualsevol moment.</AgreeToReceiveNewsletters>
     <AreYouSureYouWantDeleteReport>Segur que voleu suprimir l'informe "{0}" del disc?</AreYouSureYouWantDeleteReport>
     <Authorize>Autoritzar</Authorize>
     <AuthorizeWithLicenseKey>Autoritzar amb la clau de llicència</AuthorizeWithLicenseKey>
@@ -1129,6 +1132,7 @@
     <ExportTypeImageFile>Fitxer d'imatge...</ExportTypeImageFile>
     <ExportTypeJpegFile>Imatge JPEG...</ExportTypeJpegFile>
     <ExportTypeJsonFile>Fitxer JSON...</ExportTypeJsonFile>
+    <ExportTypeMarkdownFile>Fitxer Markdown...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Windows Metafile...</ExportTypeMetafile>
     <ExportTypeMhtFile>Arxiu MHT Web...</ExportTypeMhtFile>
     <ExportTypePcxFile>Imatge PCX...</ExportTypePcxFile>
@@ -1165,6 +1169,10 @@
     <NoMoreThan>No més de</NoMoreThan>
     <OpenAfterExport>Obre després d’exportar</OpenAfterExport>
     <Ordered>Ordenat</Ordered>
+    <PageBands>Capçaleres i peus de pàgina:</PageBands>
+    <PageBandsAll>Tots</PageBandsAll>
+    <PageBandsFirstAndLast>Primera capçalera i darrer peu</PageBandsFirstAndLast>
+    <PageBandsNone>Cap</PageBandsNone>
     <PdfACompliance>Conformitat PDF/A</PdfACompliance>
     <PdfUA>PDF/UA (Accessibilitat universal)</PdfUA>
     <PrintingReport>Imprimint l'informe</PrintingReport>
@@ -1230,6 +1238,7 @@
     <JsonReportFiles>Plantilles JSON de Stimulsoft (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} Arxius(*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} Fitxers per a informes Silverlight (*.{1})|*.{2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>Arxius Markdown (*.md)|*.md</MarkdownFiles>
     <MetaFiles>Fitxers de metadades</MetaFiles>
     <MhtFiles>Fitxers d’arxiu MHT Web (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>Fitxers empaquetats de documents (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -2320,6 +2329,7 @@
     <DrawBorder>Mostra la vora</DrawBorder>
     <Edit>Edita els components.</Edit>
     <EmbeddedFonts>Incrusta els fitxers de tipus de lletra en un fitxer PDF.</EmbeddedFonts>
+    <EmbeddedFontsHtml>Incrusta els fitxers de tipus de lletra al fitxer HTML: cap, només els personalitzats o tots els utilitzats a l'informe.</EmbeddedFontsHtml>
     <EmbeddedImageData>Incrusta les imatges directament al fitxer HTML.</EmbeddedImageData>
     <Encoding>Codificació del text de l'informe després de l'exportació.</Encoding>
     <EncodingData>Codificació del fitxer de dades.</EncodingData>
@@ -2347,6 +2357,7 @@
     <OpenAfterExport>Obertura automàtica del document creat (després de l'exportació) pel programa associat amb aquests tipus de fitxer.</OpenAfterExport>
     <OwnerPassword>La contrasenya necessària per realitzar operacions amb el fitxer.</OwnerPassword>
     <PageAll>Processament de totes les pàgines de l'informe.</PageAll>
+    <PageBands>Quines capçaleres i peus de pàgina s'inclouen al document: cap, la primera capçalera i el darrer peu, o tots.</PageBands>
     <PageDelete>Elimina la pàgina seleccionada de l’informe.</PageDelete>
     <PageDesign>Edita la pàgina en el dissenyador.</PageDesign>
     <PageFirst>Vés a la primera pàgina de l’informe.</PageFirst>
@@ -3419,6 +3430,9 @@ S'ha enviat un correu electrònic a "{0}". Conté un enllaç per confirmar el vo
     <StiHorAlignmentCenter>Centrat</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>Esquerra</StiHorAlignmentLeft>
     <StiHorAlignmentRight>Dreta</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>Totes les fonts</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>Només personalitzades</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>Cap</StiHtmlEmbeddedFontsModeNone>
     <StiIconAlignmentBottom>Inferior</StiIconAlignmentBottom>
     <StiIconAlignmentLeft>Esquerra</StiIconAlignmentLeft>
     <StiIconAlignmentNone>Cap</StiIconAlignmentNone>
@@ -4582,6 +4596,10 @@ S'ha enviat un correu electrònic a "{0}". Conté un enllaç per confirmar el vo
     <NegativeSeriesColors>Colors de sèrie negatius</NegativeSeriesColors>
     <NegativeTextBrush>Pinzell de text negatiu</NegativeTextBrush>
     <NestedLevel>Nivell d’implantació</NestedLevel>
+    <NetworkEdgeLength>Longitud de les arestes de la xarxa</NetworkEdgeLength>
+    <NetworkIterations>Iteracions de la xarxa</NetworkIterations>
+    <NetworkLayout>Distribució de la xarxa</NetworkLayout>
+    <NetworkRepulsion>Repulsió dels nodes de la xarxa</NetworkRepulsion>
     <NewColumnAfter>Columna nova després</NewColumnAfter>
     <NewColumnBefore>Columna nova abans</NewColumnBefore>
     <NewPageAfter>Pàgina nova després</NewPageAfter>
@@ -4863,6 +4881,7 @@ S'ha enviat un correu electrònic a "{0}". Conté un enllaç per confirmar el vo
     <SortingEnabled>Ordenació activada</SortingEnabled>
     <SortLetters>A-Z</SortLetters>
     <SortType>Tipus d’ordenació</SortType>
+    <Source>Font</Source>
     <Space>Espai</Space>
     <SpaceRatio>Relació d'espai</SpaceRatio>
     <Spacing>Espaiat</Spacing>
@@ -5449,6 +5468,7 @@ S'ha enviat un correu electrònic a "{0}". Conté un enllaç per confirmar el vo
     <Scheduler>Planificador</Scheduler>
     <Schedulers>Planificadors</Schedulers>
     <SenderEmail>Correu electrònic del remitent</SenderEmail>
+    <ShowHTMLReportsInMessageBody>Mostra els informes HTML al cos del missatge</ShowHTMLReportsInMessageBody>
     <SmtpSettings>Configuració SMTP</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuration>Aturar totes les tasques en execució al final de la durada de la repetició</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>Aturar les tasques si s'executen més temps de</StopTasksIfItRunsLongerThan>

@@ -216,6 +216,7 @@
     <DataColumns>Datové sloupce</DataColumns>
     <Doughnut>Prstencový</Doughnut>
     <Financial>Finanční</Financial>
+    <Flow>Tok</Flow>
     <FullStackedArea>Vrstvová oblast</FullStackedArea>
     <FullStackedBar>Vrstvový pruhový</FullStackedBar>
     <FullStackedColumn>Vrstvový sloupcový</FullStackedColumn>
@@ -279,6 +280,7 @@
     <MoveSeriesUp>Posunout řadu nahoru</MoveSeriesUp>
     <MoveStripDown>Posun pruhu dolů</MoveStripDown>
     <MoveStripUp>Posun pruhu nahoru</MoveStripUp>
+    <Network>Síť</Network>
     <NoConditions>Žádné podmínky</NoConditions>
     <NoFilters>Žádné filtry</NoFilters>
     <Pareto>Pareto</Pareto>
@@ -410,6 +412,7 @@
     <Account>Účet</Account>
     <AccountSettings>Nastavení účtu</AccountSettings>
     <AddAPlace>Přidat místo</AddAPlace>
+    <AgreeToReceiveNewsletters>Souhlasím se zasíláním marketingových e-mailů od společnosti Stimulsoft, včetně novinek o produktech, oznámení o vydáních a nabídek. Odběr mohu kdykoli zrušit.</AgreeToReceiveNewsletters>
     <AreYouSureYouWantDeleteReport>Opravdu chcete smazat report "{0}" z disku?</AreYouSureYouWantDeleteReport>
     <Authorize>Autorizovat</Authorize>
     <AuthorizeWithLicenseKey>Autorizovat pomocí licenčního klíče</AuthorizeWithLicenseKey>
@@ -1129,6 +1132,7 @@
     <ExportTypeImageFile>Soubor obrázku...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG obrázek...</ExportTypeJpegFile>
     <ExportTypeJsonFile>Soubor JSON...</ExportTypeJsonFile>
+    <ExportTypeMarkdownFile>Soubor Markdown...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Windows Metafile...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Web Archiv...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX soubor...</ExportTypePcxFile>
@@ -1165,6 +1169,10 @@
     <NoMoreThan>Nejvýše</NoMoreThan>
     <OpenAfterExport>Otevřít po exportování</OpenAfterExport>
     <Ordered>Uspořádané</Ordered>
+    <PageBands>Záhlaví a zápatí stránek:</PageBands>
+    <PageBandsAll>Všechna</PageBandsAll>
+    <PageBandsFirstAndLast>První záhlaví a poslední zápatí</PageBandsFirstAndLast>
+    <PageBandsNone>Žádná</PageBandsNone>
     <PdfACompliance>Shodnost s PDF/A</PdfACompliance>
     <PdfUA>PDF/UA (univerzální přístupnost)</PdfUA>
     <PrintingReport>Tisk reportu</PrintingReport>
@@ -1230,6 +1238,7 @@
     <JsonReportFiles>Šablony Stimulsoft JSON (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} soubory (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} soubory pro Silverlight reporty (*.{1})|*.{2}</LanguageForSilverlightFiles>
+    <MarkdownFiles>Soubory Markdown (*.md)|*.md</MarkdownFiles>
     <MetaFiles>Meta soubory</MetaFiles>
     <MhtFiles>MHT Web Archiv soubory (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>Soubory zabaleného dokumentu (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -2320,6 +2329,7 @@
     <DrawBorder>Vykreslení okrajů komponent grafickými znaky.</DrawBorder>
     <Edit>Editace položek.</Edit>
     <EmbeddedFonts>Vložit soubory písem do souboru PDF.</EmbeddedFonts>
+    <EmbeddedFontsHtml>Vložit soubory písem do souboru HTML: žádná, pouze vlastní, nebo všechna písma použitá v reportu.</EmbeddedFontsHtml>
     <EmbeddedImageData>Vložit obrázky přímo do souboru HTML.</EmbeddedImageData>
     <Encoding>Kódování textu reportu po exportu.</Encoding>
     <EncodingData>Kódování při vytváření souboru.</EncodingData>
@@ -2347,6 +2357,7 @@
     <OpenAfterExport>Automatické otevření vytvořeného dokumentu (po exportu) programem nastaveným pro tyto typy souborů.</OpenAfterExport>
     <OwnerPassword>Heslo pro přístup k operacím se soubory.</OwnerPassword>
     <PageAll>Zpracování všech stránek reportu.</PageAll>
+    <PageBands>Která záhlaví a zápatí stránek se dostanou do dokumentu: žádná, první záhlaví a poslední zápatí, nebo všechna.</PageBands>
     <PageDelete>Smazat vybranou stránku reportu.</PageDelete>
     <PageDesign>Editovat stránku v návrháři.</PageDesign>
     <PageFirst>Přejít na první stranu reportu.</PageFirst>
@@ -3419,6 +3430,9 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <StiHorAlignmentCenter>Na střed</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>Vlevo</StiHorAlignmentLeft>
     <StiHorAlignmentRight>Vpravo</StiHorAlignmentRight>
+    <StiHtmlEmbeddedFontsModeAll>Všechna písma</StiHtmlEmbeddedFontsModeAll>
+    <StiHtmlEmbeddedFontsModeCustomOnly>Pouze vlastní</StiHtmlEmbeddedFontsModeCustomOnly>
+    <StiHtmlEmbeddedFontsModeNone>Žádná</StiHtmlEmbeddedFontsModeNone>
     <StiIconAlignmentBottom>Dolů</StiIconAlignmentBottom>
     <StiIconAlignmentLeft>Vlevo</StiIconAlignmentLeft>
     <StiIconAlignmentNone>Nic</StiIconAlignmentNone>
@@ -4582,6 +4596,10 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <NegativeSeriesColors>Barvy negativních řad</NegativeSeriesColors>
     <NegativeTextBrush>Negativní výplň textu</NegativeTextBrush>
     <NestedLevel>Úroveň zanoření</NestedLevel>
+    <NetworkEdgeLength>Délka hran sítě</NetworkEdgeLength>
+    <NetworkIterations>Iterace sítě</NetworkIterations>
+    <NetworkLayout>Rozvržení sítě</NetworkLayout>
+    <NetworkRepulsion>Odpuzování uzlů sítě</NetworkRepulsion>
     <NewColumnAfter>Nový sloupec za</NewColumnAfter>
     <NewColumnBefore>Nový sloupec před</NewColumnBefore>
     <NewPageAfter>Nová strana za</NewPageAfter>
@@ -4864,6 +4882,7 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <SortingEnabled>Řazení aktivováno</SortingEnabled>
     <SortLetters>A-Z</SortLetters>
     <SortType>Typ třídění</SortType>
+    <Source>Zdroj</Source>
     <Space>Mezera</Space>
     <SpaceRatio>Poměr mezer</SpaceRatio>
     <Spacing>Rozestup</Spacing>
@@ -5450,6 +5469,7 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <Scheduler>Plánovač</Scheduler>
     <Schedulers>Plánovače</Schedulers>
     <SenderEmail>E-mail odesílatele</SenderEmail>
+    <ShowHTMLReportsInMessageBody>Zobrazit HTML reporty v těle zprávy</ShowHTMLReportsInMessageBody>
     <SmtpSettings>Nastavení SMTP</SmtpSettings>
     <StopAllRunningTasksAtEndOfRepetitionDuration>Zastavit všechny spuštěné úlohy na konci doby opakování</StopAllRunningTasksAtEndOfRepetitionDuration>
     <StopTasksIfItRunsLongerThan>Zastavit úlohy, pokud běží déle než</StopTasksIfItRunsLongerThan>
