@@ -1316,16 +1316,22 @@
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>بنود</Bullets>
+    <ExpressionRenderHint>يتم حساب التعبير عند عرض التقرير.</ExpressionRenderHint>
+    <FileCall>أسقط ملف نص غني أو انقر لاختياره</FileCall>
+    <FileLocalWarning>هذا المسار موجود على هذا الكمبيوتر فقط. لن يتم العثور على النص على الأجهزة الأخرى.</FileLocalWarning>
+    <FileWebPage>هذا الملف صفحة ويب وليس نصًا غنيًا</FileWebPage>
     <FontName>اسم الخط</FontName>
     <FontSize>حجم الخط</FontSize>
     <ImportFromFile>استيراد من ملف</ImportFromFile>
     <ImportQuestion>يحتوي المحرر على نص بالفعل. هل تريد استبداله بنص "{0}" أم إدراج الملف عند موضع المؤشر؟ يمكن التراجع عن أي منهما.</ImportQuestion>
     <Insert>إضافة تعبير</Insert>
     <InsertAtCursor>إدراج عند المؤشر</InsertAtCursor>
-    <PreviewHintData>اختر عمود بيانات أو متغيرًا أو موردًا</PreviewHintData>
+    <LinkCall>أدخل أو الصق وصلة إلى ملف نص غني</LinkCall>
+    <LinkRenderHint>يتم تحميل النص من الوصلة عند عرض التقرير</LinkRenderHint>
+    <LinkWebPage>تؤدي هذه الوصلة إلى صفحة ويب وليس إلى نص غني</LinkWebPage>
+    <PreviewHintData>اختر عمود بيانات</PreviewHintData>
     <PreviewHintFile>اختر ملفًا</PreviewHintFile>
     <PreviewHintURL>أدخل عنوان URL أو تعبيرًا</PreviewHintURL>
-    <ReplaceAll>استبدال الكل</ReplaceAll>
     <title>محرر نص منسق</title>
   </FormRichTextEditor>
   <FormStyleDesigner>
@@ -3963,9 +3969,11 @@
     <DataNotLoadedHint>حمّلها لاستعراض قيم {0} هنا.</DataNotLoadedHint>
     <Dialogs>الحوارات</Dialogs>
     <EditStyles>تحرير الأنماط</EditStyles>
+    <EmbedIntoReport>تضمين في التقرير</EmbedIntoReport>
     <Errors>أخطاء</Errors>
     <EventsTab>علامة تبويب الأحداث</EventsTab>
     <ExpandAll>توسيع الكل</ExpandAll>
+    <FilePathKeptHint>يحتفظ التقرير بمسار الملف</FilePathKeptHint>
     <FilterAnd>و</FilterAnd>
     <FilterOr>أو</FilterOr>
     <FinishingReport>الانتهاء من تقرير</FinishingReport>
@@ -4024,10 +4032,14 @@
     <RangeInfo>أدخل رقم الصفحة و / أو نطاقات الصفحات مفصولة بفواصل. على سبيل المثال : 1 و 3 و 5-12</RangeInfo>
     <RangePage>صفحة المدى</RangePage>
     <RangePages>الصفحات :</RangePages>
+    <RecentAddresses>العناوين الأخيرة</RecentAddresses>
     <RecentFiles>الملفات الأخيرة</RecentFiles>
+    <RecentFilesHint>ستظهر هنا الملفات التي تفتحها</RecentFilesHint>
+    <RecentLinksHint>ستظهر هنا الوصلات التي تستخدمها</RecentLinksHint>
     <ReportChecker>مدقق التقرير</ReportChecker>
     <ReportRenderingMessages>رسائل عرض التقرير</ReportRenderingMessages>
     <RestartDesigner>يجب إعادة تشغيل مصمم التقارير</RestartDesigner>
+    <RowNofM>صف {0} من {1}</RowNofM>
     <SaveReportPagesOrFormsFromReport>حفظ التقرير ، الصفحة  ، النموذج</SaveReportPagesOrFormsFromReport>
     <SavingReport>تقرير لإنقاذ</SavingReport>
     <SecondPass>ممر الثانية</SecondPass>

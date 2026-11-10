@@ -1756,16 +1756,22 @@
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Odrážky</Bullets>
+    <ExpressionRenderHint>Výraz sa vyhodnotí pri generovaní zostavy.</ExpressionRenderHint>
+    <FileCall>Presuňte sem súbor Rich text alebo ho vyberte kliknutím</FileCall>
+    <FileLocalWarning>Táto cesta existuje len na tomto počítači. Inde sa text nenájde.</FileLocalWarning>
+    <FileWebPage>Súbor je webová stránka, nie Rich text</FileWebPage>
     <FontName>Názov písma</FontName>
     <FontSize>Veľkosť písma</FontSize>
     <ImportFromFile>Importovať zo súboru</ImportFromFile>
     <ImportQuestion>Editor už obsahuje text. Nahradiť ho textom súboru „{0}“, alebo vložiť súbor na pozíciu kurzora? Obe akcie sa dajú vrátiť späť.</ImportQuestion>
     <Insert>Vložiť výraz</Insert>
     <InsertAtCursor>Vložiť na pozíciu kurzora</InsertAtCursor>
-    <PreviewHintData>Vyberte stĺpec dát, premennú alebo zdroj</PreviewHintData>
+    <LinkCall>Zadajte alebo vložte odkaz na súbor Rich text</LinkCall>
+    <LinkRenderHint>Text sa načíta z odkazu pri generovaní zostavy</LinkRenderHint>
+    <LinkWebPage>Odkaz vedie na webovú stránku, nie na Rich text</LinkWebPage>
+    <PreviewHintData>Vyberte stĺpec dát</PreviewHintData>
     <PreviewHintFile>Vyberte súbor</PreviewHintFile>
     <PreviewHintURL>Zadajte URL alebo výraz</PreviewHintURL>
-    <ReplaceAll>Nahradiť všetko</ReplaceAll>
     <title>Rich Text Editor</title>
   </FormRichTextEditor>
   <FormStyleDesigner>
@@ -5349,6 +5355,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <Dialogs>Ovládacie prvky zostavy</Dialogs>
     <EditStyles>Upraviť štýly</EditStyles>
     <Email>E-mail</Email>
+    <EmbedIntoReport>Vložiť do zostavy</EmbedIntoReport>
     <EnableCacheAllDataMode>Povoliť režim 'Ukladať všetky údaje do vyrovnávacej pamäte'</EnableCacheAllDataMode>
     <Enhancements>Rozšírenia</Enhancements>
     <EnterDataManually>Zadať dáta manuálne</EnterDataManually>
@@ -5356,6 +5363,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <EventsAccess>Prístup k udalostiam</EventsAccess>
     <EventsTab>Záložka udalostí</EventsTab>
     <ExpandAll>Rozbaliť všetko</ExpandAll>
+    <FilePathKeptHint>Zostava uchováva cestu k súboru</FilePathKeptHint>
     <FilterAnd>a</FilterAnd>
     <FilterOr>alebo</FilterOr>
     <FinishingReport>Dokončenie zostavy</FinishingReport>
@@ -5428,10 +5436,14 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <RangeInfo>Zadajte číslo strany a rozsah oddelený čiarkami. Napr.: 1, 3, 5-12</RangeInfo>
     <RangePage>Rozsah strán</RangePage>
     <RangePages>Strany</RangePages>
+    <RecentAddresses>Posledné adresy</RecentAddresses>
     <RecentFiles>Posledné súbory</RecentFiles>
+    <RecentFilesHint>Tu sa zobrazia súbory, ktoré otvoríte</RecentFilesHint>
+    <RecentLinksHint>Tu sa zobrazia odkazy, ktoré používate</RecentLinksHint>
     <ReportChecker>Kontrolór zostáv</ReportChecker>
     <ReportRenderingMessages>Správy z renderovania zostavy</ReportRenderingMessages>
     <RestartDesigner>Je nutné reštartovať dizajnér zostáv</RestartDesigner>
+    <RowNofM>Riadok {0} z {1}</RowNofM>
     <SaveReportPagesOrFormsFromReport>Uložiť zostavu, stránky alebo formuláre</SaveReportPagesOrFormsFromReport>
     <SavingReport>Ukladanie zostavy</SavingReport>
     <ScriptEvalAccess>Prístup k spusteniu skriptu</ScriptEvalAccess>

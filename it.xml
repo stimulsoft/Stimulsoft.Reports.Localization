@@ -1753,16 +1753,22 @@
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Elenco puntato</Bullets>
+    <ExpressionRenderHint>L'espressione viene calcolata durante l'elaborazione del report.</ExpressionRenderHint>
+    <FileCall>Trascina qui un file Rich Text o fai clic per sceglierne uno</FileCall>
+    <FileLocalWarning>Questo percorso esiste solo su questo computer. Altrove il testo non verrà trovato.</FileLocalWarning>
+    <FileWebPage>Il file è una pagina web, non un file Rich Text</FileWebPage>
     <FontName>Tipo carattere</FontName>
     <FontSize>Dimensioni caratteri</FontSize>
     <ImportFromFile>Importa da file</ImportFromFile>
     <ImportQuestion>L'editor contiene già del testo. Sostituirlo con il testo di «{0}» o inserire il file alla posizione del cursore? Entrambe le operazioni possono essere annullate.</ImportQuestion>
     <Insert>Inserisci espressione</Insert>
     <InsertAtCursor>Inserisci al cursore</InsertAtCursor>
-    <PreviewHintData>Seleziona una colonna dati, una variabile o una risorsa</PreviewHintData>
+    <LinkCall>Inserisci o incolla un link a un file Rich Text</LinkCall>
+    <LinkRenderHint>Il testo viene caricato dal link durante l'elaborazione del report</LinkRenderHint>
+    <LinkWebPage>Il link porta a una pagina web, non a un file Rich Text</LinkWebPage>
+    <PreviewHintData>Seleziona una colonna dati</PreviewHintData>
     <PreviewHintFile>Seleziona un file</PreviewHintFile>
     <PreviewHintURL>Inserisci un URL o un'espressione</PreviewHintURL>
-    <ReplaceAll>Sostituisci tutto</ReplaceAll>
     <title>Editor testo RTF</title>
   </FormRichTextEditor>
   <FormStyleDesigner>
@@ -5311,6 +5317,7 @@
     <Dialogs>Controlli</Dialogs>
     <EditStyles>Modifica Stili</EditStyles>
     <Email>Email</Email>
+    <EmbedIntoReport>Incorpora nel report</EmbedIntoReport>
     <EnableCacheAllDataMode>Abilita modalità 'Cache tutti i dati'</EnableCacheAllDataMode>
     <Enhancements>Miglioramenti</Enhancements>
     <EnterDataManually>Inserisci dati manualmente</EnterDataManually>
@@ -5318,6 +5325,7 @@
     <EventsAccess>Accesso eventi</EventsAccess>
     <EventsTab>Eventi</EventsTab>
     <ExpandAll>Espandi tutte</ExpandAll>
+    <FilePathKeptHint>Il report conserva il percorso del file</FilePathKeptHint>
     <FilterAnd>E</FilterAnd>
     <FilterOr>O</FilterOr>
     <FinishingReport>Completando il Report</FinishingReport>
@@ -5389,10 +5397,14 @@
     <RangeInfo>Immettere i numeri di pagina e/o gli intervalli di pagine separati da virgole. Ad esempio: 1, 3, 5-12</RangeInfo>
     <RangePage>Pagine da stampare</RangePage>
     <RangePages>Pagine:</RangePages>
+    <RecentAddresses>Indirizzi recenti</RecentAddresses>
     <RecentFiles>File recenti</RecentFiles>
+    <RecentFilesHint>I file aperti verranno visualizzati qui</RecentFilesHint>
+    <RecentLinksHint>I link utilizzati verranno visualizzati qui</RecentLinksHint>
     <ReportChecker>Verifica report</ReportChecker>
     <ReportRenderingMessages>Messaggi di rendering</ReportRenderingMessages>
     <RestartDesigner>È necessario riavviare il report designer</RestartDesigner>
+    <RowNofM>Riga {0} di {1}</RowNofM>
     <SaveReportPagesOrFormsFromReport>Salva il report, pagine o moduli</SaveReportPagesOrFormsFromReport>
     <SavingReport>Salvataggio report</SavingReport>
     <ScriptEvalAccess>Accesso a Script Eval</ScriptEvalAccess>

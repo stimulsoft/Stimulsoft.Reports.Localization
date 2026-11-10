@@ -1752,16 +1752,22 @@
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Bolletjes</Bullets>
+    <ExpressionRenderHint>De expressie wordt berekend wanneer het rapport wordt gegenereerd.</ExpressionRenderHint>
+    <FileCall>Zet een bestand met rich tekst hier neer of klik om er een te selecteren</FileCall>
+    <FileLocalWarning>Dit pad bestaat alleen op deze computer. Op andere computers wordt de tekst niet gevonden.</FileLocalWarning>
+    <FileWebPage>Het bestand is een webpagina, geen rich tekst</FileWebPage>
     <FontName>Lettertype Naam</FontName>
     <FontSize>Lettertype Grootte</FontSize>
     <ImportFromFile>Importeren uit bestand</ImportFromFile>
     <ImportQuestion>De editor bevat al tekst. Vervangen door de tekst van "{0}" of het bestand invoegen op de cursorpositie? Beide kunnen ongedaan worden gemaakt.</ImportQuestion>
     <Insert>Toevoegen Expressie</Insert>
     <InsertAtCursor>Invoegen bij cursor</InsertAtCursor>
-    <PreviewHintData>Selecteer een gegevenskolom, variabele of bron</PreviewHintData>
+    <LinkCall>Voer een link naar een bestand met rich tekst in of plak deze</LinkCall>
+    <LinkRenderHint>De tekst wordt via de link geladen wanneer het rapport wordt gegenereerd</LinkRenderHint>
+    <LinkWebPage>De link verwijst naar een webpagina, niet naar rich tekst</LinkWebPage>
+    <PreviewHintData>Selecteer een gegevenskolom</PreviewHintData>
     <PreviewHintFile>Selecteer een bestand</PreviewHintFile>
     <PreviewHintURL>Voer een URL of expressie in</PreviewHintURL>
-    <ReplaceAll>Alles vervangen</ReplaceAll>
     <title>Rich Text Editor</title>
   </FormRichTextEditor>
   <FormStyleDesigner>
@@ -5282,6 +5288,7 @@ De e-mail is verzonden naar "{0}". Deze bevat een link om uw registratie te beve
     <Dialogs>Dialogen</Dialogs>
     <EditStyles>Bewerk Stijlen</EditStyles>
     <Email>E-mail</Email>
+    <EmbedIntoReport>Insluiten in rapport</EmbedIntoReport>
     <EnableCacheAllDataMode>Modus 'Alle gegevens cachen' inschakelen</EnableCacheAllDataMode>
     <Enhancements>Verbeteringen</Enhancements>
     <EnterDataManually>Gegevens handmatig invoeren</EnterDataManually>
@@ -5289,6 +5296,7 @@ De e-mail is verzonden naar "{0}". Deze bevat een link om uw registratie te beve
     <EventsAccess>Toegang tot gebeurtenissen</EventsAccess>
     <EventsTab>Gebeurtenissen Tabblad</EventsTab>
     <ExpandAll>Alles Uitklappen</ExpandAll>
+    <FilePathKeptHint>Het rapport bewaart het pad naar het bestand</FilePathKeptHint>
     <FilterAnd>En</FilterAnd>
     <FilterOr>Of</FilterOr>
     <FinishingReport>Afwerken Rapport</FinishingReport>
@@ -5360,10 +5368,14 @@ De e-mail is verzonden naar "{0}". Deze bevat een link om uw registratie te beve
     <RangeInfo>Geef de paginanummer op en/of een paginabereik, gescheiden door komma's. Bijvoorbeeld: 1, 3, 5-12</RangeInfo>
     <RangePage>Pagina Bereik</RangePage>
     <RangePages>Pagina's:</RangePages>
+    <RecentAddresses>Recente adressen</RecentAddresses>
     <RecentFiles>Recente bestanden</RecentFiles>
+    <RecentFilesHint>Geopende bestanden worden hier weergegeven</RecentFilesHint>
+    <RecentLinksHint>Gebruikte links worden hier weergegeven</RecentLinksHint>
     <ReportChecker>Rapport Checker</ReportChecker>
     <ReportRenderingMessages>Rapport Rendering Berichten</ReportRenderingMessages>
     <RestartDesigner>U moet de rapportontwerper opnieuw opstarten</RestartDesigner>
+    <RowNofM>Rij {0} van {1}</RowNofM>
     <SaveReportPagesOrFormsFromReport>Sla het rapport, pagina's of formulieren op</SaveReportPagesOrFormsFromReport>
     <SavingReport>Bewaren Rapport</SavingReport>
     <ScriptEvalAccess>Script-evaluatietoegang</ScriptEvalAccess>

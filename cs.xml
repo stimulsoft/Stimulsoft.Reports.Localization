@@ -1752,16 +1752,22 @@
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Odrážky</Bullets>
+    <ExpressionRenderHint>Výraz se vyhodnotí při generování sestavy.</ExpressionRenderHint>
+    <FileCall>Přetáhněte sem soubor Rich text nebo jej vyberte kliknutím</FileCall>
+    <FileLocalWarning>Tato cesta existuje jen na tomto počítači. Jinde se text nenajde.</FileLocalWarning>
+    <FileWebPage>Soubor je webová stránka, ne Rich text</FileWebPage>
     <FontName>Název písma</FontName>
     <FontSize>Velikost písma</FontSize>
     <ImportFromFile>Importovat ze souboru</ImportFromFile>
     <ImportQuestion>Editor již obsahuje text. Nahradit jej textem souboru „{0}“, nebo vložit soubor na pozici kurzoru? Obojí lze vrátit zpět.</ImportQuestion>
     <Insert>Vložit výraz</Insert>
     <InsertAtCursor>Vložit na pozici kurzoru</InsertAtCursor>
-    <PreviewHintData>Vyberte sloupec dat, proměnnou nebo zdroj</PreviewHintData>
+    <LinkCall>Zadejte nebo vložte odkaz na soubor Rich text</LinkCall>
+    <LinkRenderHint>Text se načte z odkazu při generování sestavy</LinkRenderHint>
+    <LinkWebPage>Odkaz vede na webovou stránku, ne na Rich text</LinkWebPage>
+    <PreviewHintData>Vyberte sloupec dat</PreviewHintData>
     <PreviewHintFile>Vyberte soubor</PreviewHintFile>
     <PreviewHintURL>Zadejte URL nebo výraz</PreviewHintURL>
-    <ReplaceAll>Nahradit vše</ReplaceAll>
     <title>Rich Text Editor</title>
   </FormRichTextEditor>
   <FormStyleDesigner>
@@ -5282,6 +5288,7 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <Dialogs>Ovládací prvky sestavy</Dialogs>
     <EditStyles>Upravit styly</EditStyles>
     <Email>E-mail</Email>
+    <EmbedIntoReport>Vložit do sestavy</EmbedIntoReport>
     <EnableCacheAllDataMode>Povolit režim 'Uložit do paměti všechna data'</EnableCacheAllDataMode>
     <Enhancements>Vylepšení</Enhancements>
     <EnterDataManually>Zadejte data ručně</EnterDataManually>
@@ -5289,6 +5296,7 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <EventsAccess>Přístup k událostem</EventsAccess>
     <EventsTab>Záložka událostí</EventsTab>
     <ExpandAll>Rozbalit vše</ExpandAll>
+    <FilePathKeptHint>Sestava uchovává cestu k souboru</FilePathKeptHint>
     <FilterAnd>a</FilterAnd>
     <FilterOr>nebo</FilterOr>
     <FinishingReport>Dokončení sestavy</FinishingReport>
@@ -5360,10 +5368,14 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <RangeInfo>Zadejete číslo stránky a/nebo rozsah oddělený čárkami. Např.: 1, 3, 5-12</RangeInfo>
     <RangePage>Rozsah stránek</RangePage>
     <RangePages>Stránky</RangePages>
+    <RecentAddresses>Poslední adresy</RecentAddresses>
     <RecentFiles>Poslední soubory</RecentFiles>
+    <RecentFilesHint>Zde se zobrazí soubory, které otevřete</RecentFilesHint>
+    <RecentLinksHint>Zde se zobrazí odkazy, které používáte</RecentLinksHint>
     <ReportChecker>Kontrolor reportu</ReportChecker>
     <ReportRenderingMessages>Generovací zprávy reportu</ReportRenderingMessages>
     <RestartDesigner>Je nutné restartovat designér reportu</RestartDesigner>
+    <RowNofM>Řádek {0} z {1}</RowNofM>
     <SaveReportPagesOrFormsFromReport>Uložit report, stránky nebo formuláře</SaveReportPagesOrFormsFromReport>
     <SavingReport>Ukládání sestavy</SavingReport>
     <ScriptEvalAccess>Přístup ke Script Eval</ScriptEvalAccess>

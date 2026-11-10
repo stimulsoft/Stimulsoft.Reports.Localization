@@ -1752,16 +1752,22 @@
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Punkter</Bullets>
+    <ExpressionRenderHint>Uttrycket beräknas när rapporten renderas.</ExpressionRenderHint>
+    <FileCall>Släpp en fil med formatterad text eller klicka för att välja en</FileCall>
+    <FileLocalWarning>Den här sökvägen finns bara på den här datorn. På andra datorer hittas inte texten.</FileLocalWarning>
+    <FileWebPage>Filen är en webbsida, inte formatterad text</FileWebPage>
     <FontName>Typsnitt</FontName>
     <FontSize>Storlek</FontSize>
     <ImportFromFile>Importera från fil</ImportFromFile>
     <ImportQuestion>Redigeraren innehåller redan text. Ersätta den med texten från ”{0}” eller infoga filen vid markören? Båda kan ångras.</ImportQuestion>
     <Insert>Lägg till uttryck</Insert>
     <InsertAtCursor>Infoga vid markören</InsertAtCursor>
-    <PreviewHintData>Välj en datakolumn, variabel eller resurs</PreviewHintData>
+    <LinkCall>Ange eller klistra in en länk till en fil med formatterad text</LinkCall>
+    <LinkRenderHint>Texten läses in via länken när rapporten renderas</LinkRenderHint>
+    <LinkWebPage>Länken leder till en webbsida, inte till formatterad text</LinkWebPage>
+    <PreviewHintData>Välj en datakolumn</PreviewHintData>
     <PreviewHintFile>Välj en fil</PreviewHintFile>
     <PreviewHintURL>Ange en URL eller ett uttryck</PreviewHintURL>
-    <ReplaceAll>Ersätt allt</ReplaceAll>
     <title>Redigera formatterad text</title>
   </FormRichTextEditor>
   <FormStyleDesigner>
@@ -5282,6 +5288,7 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <Dialogs>Dialoger</Dialogs>
     <EditStyles>Redigera stiler</EditStyles>
     <Email>E-post</Email>
+    <EmbedIntoReport>Bädda in i rapporten</EmbedIntoReport>
     <EnableCacheAllDataMode>Aktivera läget Cacha alla data</EnableCacheAllDataMode>
     <Enhancements>Förbättringar</Enhancements>
     <EnterDataManually>Ange data manuellt</EnterDataManually>
@@ -5289,6 +5296,7 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <EventsAccess>Händelseåtkomst</EventsAccess>
     <EventsTab>Händelseflik</EventsTab>
     <ExpandAll>Expandera alla</ExpandAll>
+    <FilePathKeptHint>Rapporten sparar sökvägen till filen</FilePathKeptHint>
     <FilterAnd>och</FilterAnd>
     <FilterOr>eller</FilterOr>
     <FinishingReport>Slutförde rapport</FinishingReport>
@@ -5360,10 +5368,14 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <RangeInfo>Ange sidnummer och/eller sidspann separerat med kommatecken. Example: 1, 3, 5-12</RangeInfo>
     <RangePage>Sidspann</RangePage>
     <RangePages>Sidor:</RangePages>
+    <RecentAddresses>Senaste adresser</RecentAddresses>
     <RecentFiles>Senaste filer</RecentFiles>
+    <RecentFilesHint>Filer som du öppnar visas här</RecentFilesHint>
+    <RecentLinksHint>Länkar som du använder visas här</RecentLinksHint>
     <ReportChecker>Rapportkontroll</ReportChecker>
     <ReportRenderingMessages>Meddelande rapportrenderings</ReportRenderingMessages>
     <RestartDesigner>Du behöver starta om rapportdesignern</RestartDesigner>
+    <RowNofM>Rad {0} av {1}</RowNofM>
     <SaveReportPagesOrFormsFromReport>Spara rapporten, sidor eller formulär</SaveReportPagesOrFormsFromReport>
     <SavingReport>Spara rapport</SavingReport>
     <ScriptEvalAccess>Skript-evalåtkomst</ScriptEvalAccess>

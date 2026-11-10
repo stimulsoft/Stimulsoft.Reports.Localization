@@ -1777,16 +1777,22 @@
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Listă punctată</Bullets>
+    <ExpressionRenderHint>Expresia este calculată la redarea raportului.</ExpressionRenderHint>
+    <FileCall>Aruncați un fișier Rich Text sau faceți clic pentru a alege unul</FileCall>
+    <FileLocalWarning>Această cale există doar pe acest computer. Pe alte computere textul nu va fi găsit.</FileLocalWarning>
+    <FileWebPage>Fișierul este o pagină web, nu un fișier Rich Text</FileWebPage>
     <FontName>Numele fontului</FontName>
     <FontSize>Dimensiuni caractere</FontSize>
     <ImportFromFile>Importă din fișier</ImportFromFile>
     <ImportQuestion>Editorul conține deja text. Îl înlocuiți cu textul din „{0}” sau inserați fișierul la poziția cursorului? Ambele acțiuni pot fi anulate.</ImportQuestion>
     <Insert>Inserare expresie</Insert>
     <InsertAtCursor>Inserează la cursor</InsertAtCursor>
-    <PreviewHintData>Selectați o coloană de date, o variabilă sau o resursă</PreviewHintData>
+    <LinkCall>Introduceți sau lipiți un link către un fișier Rich Text</LinkCall>
+    <LinkRenderHint>Textul este încărcat prin link la redarea raportului</LinkRenderHint>
+    <LinkWebPage>Linkul duce la o pagină web, nu la un fișier Rich Text</LinkWebPage>
+    <PreviewHintData>Selectați o coloană de date</PreviewHintData>
     <PreviewHintFile>Selectați un fișier</PreviewHintFile>
     <PreviewHintURL>Introduceți un URL sau o expresie</PreviewHintURL>
-    <ReplaceAll>Înlocuiește tot</ReplaceAll>
     <title>Editor Rich Text</title>
   </FormRichTextEditor>
   <FormStyleDesigner>
@@ -5389,6 +5395,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Dialogs>Controale raport</Dialogs>
     <EditStyles>Editează Stiluri</EditStyles>
     <Email>E-mail</Email>
+    <EmbedIntoReport>Încorporare în Raport</EmbedIntoReport>
     <EnableCacheAllDataMode>Activare mod „Memorează toate datele în cache”</EnableCacheAllDataMode>
     <Enhancements>Îmbunătățiri</Enhancements>
     <EnterDataManually>Introduceți datele manual</EnterDataManually>
@@ -5396,6 +5403,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <EventsAccess>Acces la evenimente</EventsAccess>
     <EventsTab>Evenimente</EventsTab>
     <ExpandAll>Expandează tot</ExpandAll>
+    <FilePathKeptHint>Raportul păstrează calea către fișier</FilePathKeptHint>
     <FilterAnd>Şi</FilterAnd>
     <FilterOr>Sau</FilterOr>
     <FinishingReport>Terminare raport</FinishingReport>
@@ -5468,10 +5476,14 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <RangeInfo>Introduceţi numărul paginii si/sau o succesiune de pagini separate prin virgule. De exemplu: 1, 3, 5-12</RangeInfo>
     <RangePage>Pagini de imprimat</RangePage>
     <RangePages>Pagini:</RangePages>
+    <RecentAddresses>Adrese recente</RecentAddresses>
     <RecentFiles>Fișiere recente</RecentFiles>
+    <RecentFilesHint>Fișierele pe care le deschideți vor apărea aici</RecentFilesHint>
+    <RecentLinksHint>Linkurile pe care le folosiți vor apărea aici</RecentLinksHint>
     <ReportChecker>Examinator raport</ReportChecker>
     <ReportRenderingMessages>Mesaje la Redarea Raportului</ReportRenderingMessages>
     <RestartDesigner>Trebuie sa reporniti designer-ul de rapoarte</RestartDesigner>
+    <RowNofM>Rândul {0} din {1}</RowNofM>
     <SaveReportPagesOrFormsFromReport>Salvare raport, pagini sau forme</SaveReportPagesOrFormsFromReport>
     <SavingReport>Salvare raport</SavingReport>
     <ScriptEvalAccess>Acces la evaluarea scriptului</ScriptEvalAccess>

@@ -1753,16 +1753,22 @@
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Puces</Bullets>
+    <ExpressionRenderHint>L'expression est calculée lors du rendu du rapport.</ExpressionRenderHint>
+    <FileCall>Déposez un fichier de texte enrichi ou cliquez pour en choisir un</FileCall>
+    <FileLocalWarning>Ce chemin n'existe que sur cet ordinateur. Ailleurs, le texte sera introuvable.</FileLocalWarning>
+    <FileWebPage>Le fichier est une page web, pas un texte enrichi</FileWebPage>
     <FontName>Nom de la police</FontName>
     <FontSize>Taille de la police</FontSize>
     <ImportFromFile>Importer depuis un fichier</ImportFromFile>
     <ImportQuestion>L'éditeur contient déjà du texte. Le remplacer par le texte de « {0} » ou insérer le fichier à la position du curseur ? Les deux actions peuvent être annulées.</ImportQuestion>
     <Insert>Insérer une expression</Insert>
     <InsertAtCursor>Insérer au curseur</InsertAtCursor>
-    <PreviewHintData>Sélectionnez une colonne de données, une variable ou une ressource</PreviewHintData>
+    <LinkCall>Saisissez ou collez un lien vers un fichier de texte enrichi</LinkCall>
+    <LinkRenderHint>Le texte est chargé à partir du lien lors du rendu du rapport</LinkRenderHint>
+    <LinkWebPage>Le lien mène à une page web, pas à un texte enrichi</LinkWebPage>
+    <PreviewHintData>Sélectionnez une colonne de données</PreviewHintData>
     <PreviewHintFile>Sélectionnez un fichier</PreviewHintFile>
     <PreviewHintURL>Saisissez une URL ou une expression</PreviewHintURL>
-    <ReplaceAll>Tout remplacer</ReplaceAll>
     <title>Éditeur de texte enrichi</title>
   </FormRichTextEditor>
   <FormStyleDesigner>
@@ -5309,6 +5315,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <Dialogs>Contrôles</Dialogs>
     <EditStyles>Éditer les styles</EditStyles>
     <Email>E-mail</Email>
+    <EmbedIntoReport>Intégrer au rapport</EmbedIntoReport>
     <EnableCacheAllDataMode>Activer le mode « Mettre en cache toutes les données »</EnableCacheAllDataMode>
     <Enhancements>Améliorations</Enhancements>
     <EnterDataManually>Saisir les données manuellement</EnterDataManually>
@@ -5316,6 +5323,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <EventsAccess>Accès aux événements</EventsAccess>
     <EventsTab>Évènements</EventsTab>
     <ExpandAll>Développer tout</ExpandAll>
+    <FilePathKeptHint>Le rapport conserve le chemin du fichier</FilePathKeptHint>
     <FilterAnd>Et</FilterAnd>
     <FilterOr>Ou</FilterOr>
     <FinishingReport>Finition du rapport</FinishingReport>
@@ -5387,10 +5395,14 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <RangeInfo>Entrez un numéro ou une étendue de pages séparé par des virgules. Par exemple : 1, 3, 5-12</RangeInfo>
     <RangePage>Étendue de pages</RangePage>
     <RangePages>Pages :</RangePages>
+    <RecentAddresses>Adresses récentes</RecentAddresses>
     <RecentFiles>Fichiers récents</RecentFiles>
+    <RecentFilesHint>Les fichiers ouverts apparaîtront ici</RecentFilesHint>
+    <RecentLinksHint>Les liens utilisés apparaîtront ici</RecentLinksHint>
     <ReportChecker>Vérificateur de rapport</ReportChecker>
     <ReportRenderingMessages>Messages du rendu du rapport</ReportRenderingMessages>
     <RestartDesigner>Vous devez redémarrer le concepteur de rapport</RestartDesigner>
+    <RowNofM>Ligne {0} sur {1}</RowNofM>
     <SaveReportPagesOrFormsFromReport>Sauve le rapport, les pages ou les formulaires</SaveReportPagesOrFormsFromReport>
     <SavingReport>Sauvegarde du rapport</SavingReport>
     <ScriptEvalAccess>Accès à Script Eval</ScriptEvalAccess>

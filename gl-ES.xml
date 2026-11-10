@@ -1752,16 +1752,22 @@
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Remuda</Bullets>
+    <ExpressionRenderHint>A expresión calcúlase ao renderizar o informe.</ExpressionRenderHint>
+    <FileCall>Solte un ficheiro de texto enriquecido ou faga clic para escoller un</FileCall>
+    <FileLocalWarning>Este camiño só existe neste ordenador. Noutros ordenadores non se atopará o texto.</FileLocalWarning>
+    <FileWebPage>O ficheiro é unha páxina web, non un texto enriquecido</FileWebPage>
     <FontName>Nome de Fonte</FontName>
     <FontSize>Tamaño de Fonte</FontSize>
     <ImportFromFile>Importar desde un ficheiro</ImportFromFile>
     <ImportQuestion>O editor xa contén texto. Substituílo polo texto de «{0}» ou inserir o ficheiro na posición do cursor? Ambas as accións pódense desfacer.</ImportQuestion>
     <Insert>Insira expresión</Insert>
     <InsertAtCursor>Inserir no cursor</InsertAtCursor>
-    <PreviewHintData>Seleccione unha columna de datos, unha variable ou un recurso</PreviewHintData>
+    <LinkCall>Introduza ou pegue unha ligazón a un ficheiro de texto enriquecido</LinkCall>
+    <LinkRenderHint>O texto cárgase desde a ligazón ao renderizar o informe</LinkRenderHint>
+    <LinkWebPage>A ligazón leva a unha páxina web, non a un texto enriquecido</LinkWebPage>
+    <PreviewHintData>Seleccione unha columna de datos</PreviewHintData>
     <PreviewHintFile>Seleccione un ficheiro</PreviewHintFile>
     <PreviewHintURL>Introduza un URL ou unha expresión</PreviewHintURL>
-    <ReplaceAll>Substituír todo</ReplaceAll>
     <title>Editor de Texto</title>
   </FormRichTextEditor>
   <FormStyleDesigner>
@@ -5281,6 +5287,7 @@ Enviouse un correo electrónico a "{0}". Contén unha ligazón para confirmar o 
     <Dialogs>Diálogos</Dialogs>
     <EditStyles>Editar Estilos</EditStyles>
     <Email>Correo electrónico</Email>
+    <EmbedIntoReport>Incrustar no informe</EmbedIntoReport>
     <EnableCacheAllDataMode>Activar o modo «Almacenar todos os datos na caché»</EnableCacheAllDataMode>
     <Enhancements>Melloras</Enhancements>
     <EnterDataManually>Introducir os datos manualmente</EnterDataManually>
@@ -5288,6 +5295,7 @@ Enviouse un correo electrónico a "{0}". Contén unha ligazón para confirmar o 
     <EventsAccess>Acceso a eventos</EventsAccess>
     <EventsTab>Pestana de Eventos</EventsTab>
     <ExpandAll>Expandir todo</ExpandAll>
+    <FilePathKeptHint>O informe conserva o camiño do ficheiro</FilePathKeptHint>
     <FilterAnd>E</FilterAnd>
     <FilterOr>Ou</FilterOr>
     <FinishingReport>Finalizando Informe</FinishingReport>
@@ -5359,10 +5367,14 @@ Enviouse un correo electrónico a "{0}". Contén unha ligazón para confirmar o 
     <RangeInfo>Entre o número da páxina e/ou un rango separados por comas. Por exemplo:1, 3, 5-12</RangeInfo>
     <RangePage>Rango de Páxinas</RangePage>
     <RangePages>Páxinas:</RangePages>
+    <RecentAddresses>Enderezos recentes</RecentAddresses>
     <RecentFiles>Ficheiros recentes</RecentFiles>
+    <RecentFilesHint>Os ficheiros que abra aparecerán aquí</RecentFilesHint>
+    <RecentLinksHint>As ligazóns que utilice aparecerán aquí</RecentLinksHint>
     <ReportChecker>Verificador de Informe</ReportChecker>
     <ReportRenderingMessages>Mensaxe da Presentación do Informe</ReportRenderingMessages>
     <RestartDesigner>Require reiniciar o deseñador de informes</RestartDesigner>
+    <RowNofM>Fila {0} de {1}</RowNofM>
     <SaveReportPagesOrFormsFromReport>Gardar o informe, páxinas o formularios</SaveReportPagesOrFormsFromReport>
     <SavingReport>Gardando Informe</SavingReport>
     <ScriptEvalAccess>Acceso a Eval de script</ScriptEvalAccess>

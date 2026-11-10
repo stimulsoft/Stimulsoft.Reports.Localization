@@ -733,16 +733,22 @@
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>گلوله</Bullets>
+    <ExpressionRenderHint>عبارت هنگام ساخت گزارش محاسبه می‌شود.</ExpressionRenderHint>
+    <FileCall>فایل متن توانا را رها کنید یا برای انتخاب آن کلیک کنید</FileCall>
+    <FileLocalWarning>این مسیر فقط روی همین رایانه وجود دارد. در رایانه‌های دیگر متن پیدا نخواهد شد.</FileLocalWarning>
+    <FileWebPage>این فایل یک صفحه وب است، نه متن توانا</FileWebPage>
     <FontName>نام فونت</FontName>
     <FontSize>اندازه فونت</FontSize>
     <ImportFromFile>وارد کردن از فایل</ImportFromFile>
     <ImportQuestion>ویرایشگر از قبل متن دارد. آن را با متن «{0}» جایگزین شود یا فایل در محل مکان‌نما درج شود؟ هر دو قابل بازگشت هستند.</ImportQuestion>
     <Insert>ورود عبارت</Insert>
     <InsertAtCursor>درج در محل مکان‌نما</InsertAtCursor>
-    <PreviewHintData>یک ستون داده، متغیر یا منبع انتخاب کنید</PreviewHintData>
+    <LinkCall>لینک یک فایل متن توانا را وارد یا جای‌گذاری کنید</LinkCall>
+    <LinkRenderHint>متن هنگام ساخت گزارش از لینک بارگذاری می‌شود</LinkRenderHint>
+    <LinkWebPage>این لینک به یک صفحه وب اشاره می‌کند، نه متن توانا</LinkWebPage>
+    <PreviewHintData>یک ستون داده انتخاب کنید</PreviewHintData>
     <PreviewHintFile>یک فایل انتخاب کنید</PreviewHintFile>
     <PreviewHintURL>یک URL یا عبارت وارد کنید</PreviewHintURL>
-    <ReplaceAll>جایگزینی همه</ReplaceAll>
     <title>Rich Text ویرایشگر</title>
   </FormRichTextEditor>
   <FormStyleDesigner>
@@ -2177,8 +2183,10 @@
     <DataNotLoadedHint>داده‌ها را بارگذاری کنید تا مقادیر {0} را اینجا مرور کنید.</DataNotLoadedHint>
     <Dialogs>کنترل های گزارش</Dialogs>
     <EditStyles>ویرایش سبک ها</EditStyles>
+    <EmbedIntoReport>جاسازی در گزارش</EmbedIntoReport>
     <EventsTab>برچسب وقایع</EventsTab>
     <ExpandAll>گسترش همه</ExpandAll>
+    <FilePathKeptHint>گزارش مسیر فایل را نگه می‌دارد</FilePathKeptHint>
     <FilterAnd>و</FilterAnd>
     <FilterOr>یا</FilterOr>
     <FinishingReport>در حال اتمام گزارش</FinishingReport>
@@ -2223,7 +2231,11 @@
     <RangeInfo>شماره صفحه و/یا محدوده صفحات که بوسیله کاما جدا شدهرا وارد کنید.برای مثال 1و3و5-12</RangeInfo>
     <RangePage>برد صفحه</RangePage>
     <RangePages>صفحات:</RangePages>
+    <RecentAddresses>آدرس‌های اخیر</RecentAddresses>
     <RecentFiles>فایل‌های اخیر</RecentFiles>
+    <RecentFilesHint>فایل‌هایی که باز می‌کنید اینجا نمایش داده می‌شوند</RecentFilesHint>
+    <RecentLinksHint>لینک‌هایی که استفاده می‌کنید اینجا نمایش داده می‌شوند</RecentLinksHint>
+    <RowNofM>ردیف {0} از {1}</RowNofM>
     <SavingReport>ذخیره سازی گزارش</SavingReport>
     <SecondPass>دومین گذر</SecondPass>
     <ShowIncompatibleTypes>نمایش انواع ناسازگار</ShowIncompatibleTypes>

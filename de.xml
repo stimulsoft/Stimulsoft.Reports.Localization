@@ -1753,16 +1753,22 @@
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Marker</Bullets>
+    <ExpressionRenderHint>Der Ausdruck wird beim Rendern des Berichts berechnet.</ExpressionRenderHint>
+    <FileCall>RichText-Datei hierher ablegen oder zum Auswählen klicken</FileCall>
+    <FileLocalWarning>Dieser Pfad existiert nur auf diesem Computer. Auf anderen Computern wird der Text nicht gefunden.</FileLocalWarning>
+    <FileWebPage>Die Datei ist eine Webseite, keine RichText-Datei</FileWebPage>
     <FontName>Schriftartname</FontName>
     <FontSize>Schriftgröße</FontSize>
     <ImportFromFile>Aus Datei importieren</ImportFromFile>
     <ImportQuestion>Der Editor enthält bereits Text. Durch den Text von „{0}“ ersetzen oder die Datei an der Cursorposition einfügen? Beides kann rückgängig gemacht werden.</ImportQuestion>
     <Insert>Ausdruck einfügen</Insert>
     <InsertAtCursor>An Cursorposition einfügen</InsertAtCursor>
-    <PreviewHintData>Datenspalte, Variable oder Ressource auswählen</PreviewHintData>
+    <LinkCall>Link zu einer RichText-Datei eingeben oder einfügen</LinkCall>
+    <LinkRenderHint>Der Text wird beim Rendern des Berichts über den Link geladen</LinkRenderHint>
+    <LinkWebPage>Der Link führt zu einer Webseite, nicht zu einer RichText-Datei</LinkWebPage>
+    <PreviewHintData>Datenspalte auswählen</PreviewHintData>
     <PreviewHintFile>Datei auswählen</PreviewHintFile>
     <PreviewHintURL>URL oder Ausdruck eingeben</PreviewHintURL>
-    <ReplaceAll>Alles ersetzen</ReplaceAll>
     <title>Rich-Text-Editor</title>
   </FormRichTextEditor>
   <FormStyleDesigner>
@@ -5309,6 +5315,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Dialogs>Steuerelemente</Dialogs>
     <EditStyles>Stile bearbeiten</EditStyles>
     <Email>E-Mail</Email>
+    <EmbedIntoReport>In Bericht einbetten</EmbedIntoReport>
     <EnableCacheAllDataMode>'Alle Daten Cachieren'-Modus aktivieren</EnableCacheAllDataMode>
     <Enhancements>Erweiterungen</Enhancements>
     <EnterDataManually>Daten manuell eingeben</EnterDataManually>
@@ -5316,6 +5323,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <EventsAccess>Zugang zu Ereignissen</EventsAccess>
     <EventsTab>Ereignisse</EventsTab>
     <ExpandAll>Alle Ebenen erweitern</ExpandAll>
+    <FilePathKeptHint>Der Bericht speichert den Pfad zur Datei</FilePathKeptHint>
     <FilterAnd>Und</FilterAnd>
     <FilterOr>Oder</FilterOr>
     <FinishingReport>Bericht wird abgeschlossen</FinishingReport>
@@ -5387,10 +5395,14 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <RangeInfo>Geben Sie bitte die Seitennummer (durch Komma getrennt) oder Seitenbereiche ein. Z.B. 1, 3, 5-12</RangeInfo>
     <RangePage>Seiten:</RangePage>
     <RangePages>Nummer</RangePages>
+    <RecentAddresses>Zuletzt verwendete Adressen</RecentAddresses>
     <RecentFiles>Zuletzt verwendete Dateien</RecentFiles>
+    <RecentFilesHint>Geöffnete Dateien werden hier angezeigt</RecentFilesHint>
+    <RecentLinksHint>Verwendete Links werden hier angezeigt</RecentLinksHint>
     <ReportChecker>Prüfer</ReportChecker>
     <ReportRenderingMessages>Bericht Renderingmeldungen</ReportRenderingMessages>
     <RestartDesigner>Berichtsdesigner neu starten.</RestartDesigner>
+    <RowNofM>Zeile {0} von {1}</RowNofM>
     <SaveReportPagesOrFormsFromReport>Den Bericht, die Seiten oder die Formen speichern.</SaveReportPagesOrFormsFromReport>
     <SavingReport>Bericht wird gespeichert</SavingReport>
     <ScriptEvalAccess>Script Eval Zugang</ScriptEvalAccess>

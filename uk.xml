@@ -1753,16 +1753,22 @@
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Маркери</Bullets>
+    <ExpressionRenderHint>Вираз обчислюється під час побудови звіту.</ExpressionRenderHint>
+    <FileCall>Перетягніть файл із форматованим текстом або клацніть, щоб вибрати його</FileCall>
+    <FileLocalWarning>Цей шлях існує лише на цьому комп'ютері. На інших комп'ютерах текст не буде знайдено.</FileLocalWarning>
+    <FileWebPage>Файл є вебсторінкою, а не форматованим текстом</FileWebPage>
     <FontName>Шрифт</FontName>
     <FontSize>Розмір шрифту</FontSize>
     <ImportFromFile>Імпорт із файлу</ImportFromFile>
     <ImportQuestion>У редакторі вже є текст. Замінити його текстом «{0}» чи вставити файл у позицію курсора? Будь-яку дію можна скасувати.</ImportQuestion>
     <Insert>Вставити вираз</Insert>
     <InsertAtCursor>Вставити в позицію курсора</InsertAtCursor>
-    <PreviewHintData>Виберіть стовпчик даних, змінну або ресурс</PreviewHintData>
+    <LinkCall>Введіть або вставте посилання на файл із форматованим текстом</LinkCall>
+    <LinkRenderHint>Текст завантажується за посиланням під час побудови звіту</LinkRenderHint>
+    <LinkWebPage>Посилання веде на вебсторінку, а не на форматований текст</LinkWebPage>
+    <PreviewHintData>Виберіть стовпчик даних</PreviewHintData>
     <PreviewHintFile>Виберіть файл</PreviewHintFile>
     <PreviewHintURL>Введіть URL або вираз</PreviewHintURL>
-    <ReplaceAll>Замінити все</ReplaceAll>
     <title>Редактор форматованого тексту</title>
   </FormRichTextEditor>
   <FormStyleDesigner>
@@ -5308,6 +5314,7 @@
     <Dialogs>Елементи керування</Dialogs>
     <EditStyles>Редагувати стилі</EditStyles>
     <Email>Електронна пошта</Email>
+    <EmbedIntoReport>Вбудувати у звіт</EmbedIntoReport>
     <EnableCacheAllDataMode>Увімкнути режим 'Кешувати всі дані'</EnableCacheAllDataMode>
     <Enhancements>Покращення</Enhancements>
     <EnterDataManually>Ввести дані вручну</EnterDataManually>
@@ -5315,6 +5322,7 @@
     <EventsAccess>Доступ до подій</EventsAccess>
     <EventsTab>Події</EventsTab>
     <ExpandAll>Розгорнути всі</ExpandAll>
+    <FilePathKeptHint>У звіті зберігається шлях до файлу</FilePathKeptHint>
     <FilterAnd>І</FilterAnd>
     <FilterOr>Або</FilterOr>
     <FinishingReport>Завершення Звіту</FinishingReport>
@@ -5386,10 +5394,14 @@
     <RangeInfo>Вкажіть номери або діапазони сторінок, розділені комами. Наприклад: 1, 3, 5-12</RangeInfo>
     <RangePage>Сторінки:</RangePage>
     <RangePages>номери</RangePages>
+    <RecentAddresses>Недавні адреси</RecentAddresses>
     <RecentFiles>Недавні файли</RecentFiles>
+    <RecentFilesHint>Тут з'являться файли, які ви відкриєте</RecentFilesHint>
+    <RecentLinksHint>Тут з'являться посилання, які ви використовуєте</RecentLinksHint>
     <ReportChecker>Перевірка</ReportChecker>
     <ReportRenderingMessages>Повідомлення звіту</ReportRenderingMessages>
     <RestartDesigner>Вам потрібно перезапустити дизайнер звітів</RestartDesigner>
+    <RowNofM>Рядок {0} із {1}</RowNofM>
     <SaveReportPagesOrFormsFromReport>Зберегти звіт, сторінки або форми</SaveReportPagesOrFormsFromReport>
     <SavingReport>Збереження звіту</SavingReport>
     <ScriptEvalAccess>Доступ до Eval у скриптах</ScriptEvalAccess>

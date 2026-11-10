@@ -1754,16 +1754,22 @@
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Marcas</Bullets>
+    <ExpressionRenderHint>A expressão é calculada ao processar o relatório.</ExpressionRenderHint>
+    <FileCall>Largue um ficheiro Rich Text ou clique para escolher um</FileCall>
+    <FileLocalWarning>Este caminho só existe neste computador. Noutros computadores o texto não será encontrado.</FileLocalWarning>
+    <FileWebPage>O ficheiro é uma página web, não um ficheiro Rich Text</FileWebPage>
     <FontName>Nome da fonte</FontName>
     <FontSize>Tamanho da fonte</FontSize>
     <ImportFromFile>Importar de ficheiro</ImportFromFile>
     <ImportQuestion>O editor já contém texto. Substituí-lo pelo texto de «{0}» ou inserir o ficheiro na posição do cursor? Ambas as ações podem ser anuladas.</ImportQuestion>
     <Insert>Inserir expressão</Insert>
     <InsertAtCursor>Inserir no cursor</InsertAtCursor>
-    <PreviewHintData>Selecione uma coluna de dados, uma variável ou um recurso</PreviewHintData>
+    <LinkCall>Introduza ou cole um link para um ficheiro Rich Text</LinkCall>
+    <LinkRenderHint>O texto é carregado a partir do link ao processar o relatório</LinkRenderHint>
+    <LinkWebPage>O link leva a uma página web, não a um ficheiro Rich Text</LinkWebPage>
+    <PreviewHintData>Selecione uma coluna de dados</PreviewHintData>
     <PreviewHintFile>Selecione um ficheiro</PreviewHintFile>
     <PreviewHintURL>Introduza um URL ou uma expressão</PreviewHintURL>
-    <ReplaceAll>Substituir tudo</ReplaceAll>
     <title>Editor de texto</title>
   </FormRichTextEditor>
   <FormStyleDesigner>
@@ -5315,6 +5321,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <Dialogs>Caixas de Mensagem</Dialogs>
     <EditStyles>Editar estilo</EditStyles>
     <Email>Email</Email>
+    <EmbedIntoReport>Incorporar no Relatório</EmbedIntoReport>
     <EnableCacheAllDataMode>Ativar modo 'Dados em Cache'</EnableCacheAllDataMode>
     <Enhancements>Melhorias</Enhancements>
     <EnterDataManually>Introduzir os dados manualmente</EnterDataManually>
@@ -5322,6 +5329,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <EventsAccess>Acesso a eventos</EventsAccess>
     <EventsTab>Separador de eventos</EventsTab>
     <ExpandAll>Expandir tudo</ExpandAll>
+    <FilePathKeptHint>O relatório guarda o caminho para o ficheiro</FilePathKeptHint>
     <FilterAnd>E</FilterAnd>
     <FilterOr>Ou</FilterOr>
     <FinishingReport>A finalizar relatório</FinishingReport>
@@ -5393,10 +5401,14 @@ contexto do painel de propriedades.</qnConfiguration>
     <RangeInfo>Introduza os números e/ou intervalos de páginas separados por vírgulas. Por exemplo: 1, 3, 5-12</RangeInfo>
     <RangePage>Intervalo das páginas</RangePage>
     <RangePages>Páginas:</RangePages>
+    <RecentAddresses>Endereços recentes</RecentAddresses>
     <RecentFiles>Ficheiros recentes</RecentFiles>
+    <RecentFilesHint>Os ficheiros que abrir aparecerão aqui</RecentFilesHint>
+    <RecentLinksHint>Os links que utilizar aparecerão aqui</RecentLinksHint>
     <ReportChecker>Verificação do relatório</ReportChecker>
     <ReportRenderingMessages>Mensagens de rendering</ReportRenderingMessages>
     <RestartDesigner>Precisa de reiniciar o designer de relatório</RestartDesigner>
+    <RowNofM>Linha {0} de {1}</RowNofM>
     <SaveReportPagesOrFormsFromReport>Grave o relatório, as páginas ou formulários</SaveReportPagesOrFormsFromReport>
     <SavingReport>A gravar relatório</SavingReport>
     <ScriptEvalAccess>Acesso à Script Eval</ScriptEvalAccess>

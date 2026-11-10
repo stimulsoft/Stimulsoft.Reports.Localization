@@ -1756,16 +1756,22 @@
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Маркери</Bullets>
+    <ExpressionRenderHint>Изразът се изчислява при генериране на отчета.</ExpressionRenderHint>
+    <FileCall>Пуснете файл с Rich текст или щракнете, за да го изберете</FileCall>
+    <FileLocalWarning>Тази пътека съществува само на този компютър. На други компютри текстът няма да бъде намерен.</FileLocalWarning>
+    <FileWebPage>Файлът е уеб страница, а не Rich текст</FileWebPage>
     <FontName>Име на шрифт</FontName>
     <FontSize>Размер на шрифт</FontSize>
     <ImportFromFile>Импортиране от файл</ImportFromFile>
     <ImportQuestion>Редакторът вече съдържа текст. Да се замени ли с текста на „{0}“ или файлът да се вмъкне на мястото на курсора? И двете действия могат да бъдат отменени.</ImportQuestion>
     <Insert>Вмъкни израз</Insert>
     <InsertAtCursor>Вмъкни при курсора</InsertAtCursor>
-    <PreviewHintData>Изберете колона с данни, променлива или ресурс</PreviewHintData>
+    <LinkCall>Въведете или поставете връзка към файл с Rich текст</LinkCall>
+    <LinkRenderHint>Текстът се зарежда от връзката при генериране на отчета</LinkRenderHint>
+    <LinkWebPage>Връзката води до уеб страница, а не до Rich текст</LinkWebPage>
+    <PreviewHintData>Изберете колона с данни</PreviewHintData>
     <PreviewHintFile>Изберете файл</PreviewHintFile>
     <PreviewHintURL>Въведете URL адрес или израз</PreviewHintURL>
-    <ReplaceAll>Замени всичко</ReplaceAll>
     <title>Rich Text Редактор</title>
   </FormRichTextEditor>
   <FormStyleDesigner>
@@ -5339,6 +5345,7 @@
     <Dialogs>Диалози</Dialogs>
     <EditStyles>Редакция на стилове</EditStyles>
     <Email>Имейл</Email>
+    <EmbedIntoReport>Вгради в отчета</EmbedIntoReport>
     <EnableCacheAllDataMode>Активиране на режим 'Кеширане на всички данни'</EnableCacheAllDataMode>
     <Enhancements>Подобрения</Enhancements>
     <EnterDataManually>Въведете данните ръчно</EnterDataManually>
@@ -5346,6 +5353,7 @@
     <EventsAccess>Достъп до събития</EventsAccess>
     <EventsTab>Събития</EventsTab>
     <ExpandAll>Разгъване на всички</ExpandAll>
+    <FilePathKeptHint>Отчетът съхранява пътеката до файла</FilePathKeptHint>
     <FilterAnd>И</FilterAnd>
     <FilterOr>ИЛИ</FilterOr>
     <FinishingReport>Завършване отчета</FinishingReport>
@@ -5418,10 +5426,14 @@
     <RangeInfo>Въведете номер на страница и/или диапазон разделен със запетая. Например: 1, 3, 5-12</RangeInfo>
     <RangePage>Диапазон на страници</RangePage>
     <RangePages>Страници:</RangePages>
+    <RecentAddresses>Последни адреси</RecentAddresses>
     <RecentFiles>Последни файлове</RecentFiles>
+    <RecentFilesHint>Тук ще се появят файловете, които отваряте</RecentFilesHint>
+    <RecentLinksHint>Тук ще се появят връзките, които използвате</RecentLinksHint>
     <ReportChecker>Проверка на отчета</ReportChecker>
     <ReportRenderingMessages>Съобщения при построяването на отчета</ReportRenderingMessages>
     <RestartDesigner>Необходимо е да рестартирате дизайнера на отчета</RestartDesigner>
+    <RowNofM>Ред {0} от {1}</RowNofM>
     <SaveReportPagesOrFormsFromReport>Съхраняване на отчета, страници или форми</SaveReportPagesOrFormsFromReport>
     <SavingReport>Съхранене на отчет</SavingReport>
     <ScriptEvalAccess>Достъп до Script Eval</ScriptEvalAccess>

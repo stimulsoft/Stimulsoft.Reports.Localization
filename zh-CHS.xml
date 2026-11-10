@@ -1755,16 +1755,22 @@
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>项目符号</Bullets>
+    <ExpressionRenderHint>表达式在报表渲染时计算。</ExpressionRenderHint>
+    <FileCall>将富文本文件拖至此处或单击选择</FileCall>
+    <FileLocalWarning>此路径仅存在于这台计算机上。在其他计算机上将找不到文本。</FileLocalWarning>
+    <FileWebPage>该文件是网页，而不是富文本</FileWebPage>
     <FontName>字体名称</FontName>
     <FontSize>字体大小</FontSize>
     <ImportFromFile>从文件导入</ImportFromFile>
     <ImportQuestion>编辑器中已有文本。要用“{0}”的文本替换它，还是在光标处插入该文件？两种操作都可以撤消。</ImportQuestion>
     <Insert>插入表达式</Insert>
     <InsertAtCursor>在光标处插入</InsertAtCursor>
-    <PreviewHintData>选择数据列、变量或资源</PreviewHintData>
+    <LinkCall>输入或粘贴富文本文件的链接</LinkCall>
+    <LinkRenderHint>报表渲染时将通过链接加载文本</LinkRenderHint>
+    <LinkWebPage>该链接指向网页，而不是富文本</LinkWebPage>
+    <PreviewHintData>选择数据列</PreviewHintData>
     <PreviewHintFile>选择文件</PreviewHintFile>
     <PreviewHintURL>输入 URL 或表达式</PreviewHintURL>
-    <ReplaceAll>全部替换</ReplaceAll>
     <title>Rich Text 编辑器</title>
   </FormRichTextEditor>
   <FormStyleDesigner>
@@ -5326,6 +5332,7 @@
     <Dialogs>报表控件</Dialogs>
     <EditStyles>编辑样式</EditStyles>
     <Email>电子邮件</Email>
+    <EmbedIntoReport>嵌入报表</EmbedIntoReport>
     <EnableCacheAllDataMode>启用"缓存所有数据"模式</EnableCacheAllDataMode>
     <Enhancements>增强</Enhancements>
     <EnterDataManually>手动输入数据</EnterDataManually>
@@ -5333,6 +5340,7 @@
     <EventsAccess>事件访问</EventsAccess>
     <EventsTab>事件表</EventsTab>
     <ExpandAll>全部展开</ExpandAll>
+    <FilePathKeptHint>报表保存的是文件路径</FilePathKeptHint>
     <FilterAnd>并且</FilterAnd>
     <FilterOr>或</FilterOr>
     <FinishingReport>正在完成报表</FinishingReport>
@@ -5404,10 +5412,14 @@
     <RangeInfo>输入页码并且/或页码范围用逗号分隔。例如: 1, 3, 5-12</RangeInfo>
     <RangePage>页面范围</RangePage>
     <RangePages>页数:</RangePages>
+    <RecentAddresses>最近的地址</RecentAddresses>
     <RecentFiles>最近的文件</RecentFiles>
+    <RecentFilesHint>打开过的文件将显示在此处</RecentFilesHint>
+    <RecentLinksHint>使用过的链接将显示在此处</RecentLinksHint>
     <ReportChecker>报告检查器</ReportChecker>
     <ReportRenderingMessages>报表渲染信息</ReportRenderingMessages>
     <RestartDesigner>您需要重新启动报表设计器</RestartDesigner>
+    <RowNofM>第 {0} 行，共 {1} 行</RowNofM>
     <SaveReportPagesOrFormsFromReport>保存报表、页面或窗体</SaveReportPagesOrFormsFromReport>
     <SavingReport>正在保存报表</SavingReport>
     <ScriptEvalAccess>脚本执行访问</ScriptEvalAccess>

@@ -1752,16 +1752,22 @@
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Peluru</Bullets>
+    <ExpressionRenderHint>Ekspresi dihitung saat laporan dibuat.</ExpressionRenderHint>
+    <FileCall>Jatuhkan file Rich Text atau klik untuk memilihnya</FileCall>
+    <FileLocalWarning>Path ini hanya ada di komputer ini. Di tempat lain, teks tidak akan ditemukan.</FileLocalWarning>
+    <FileWebPage>File ini adalah halaman web, bukan Rich Text</FileWebPage>
     <FontName>Nama Huruf</FontName>
     <FontSize>Ukuran Huruf</FontSize>
     <ImportFromFile>Impor dari File</ImportFromFile>
     <ImportQuestion>Editor sudah berisi teks. Ganti dengan teks dari "{0}" atau sisipkan file di posisi kursor? Keduanya dapat dibatalkan.</ImportQuestion>
     <Insert>Masukkan Ekspresi</Insert>
     <InsertAtCursor>Sisipkan di Kursor</InsertAtCursor>
-    <PreviewHintData>Pilih kolom data, variabel, atau sumber daya</PreviewHintData>
+    <LinkCall>Masukkan atau tempel link ke file Rich Text</LinkCall>
+    <LinkRenderHint>Teks dimuat dari link saat laporan dibuat</LinkRenderHint>
+    <LinkWebPage>Link mengarah ke halaman web, bukan ke Rich Text</LinkWebPage>
+    <PreviewHintData>Pilih kolom data</PreviewHintData>
     <PreviewHintFile>Pilih file</PreviewHintFile>
     <PreviewHintURL>Masukkan URL atau ekspresi</PreviewHintURL>
-    <ReplaceAll>Ganti Semua</ReplaceAll>
     <title>Perubah Teks Kaya Format</title>
   </FormRichTextEditor>
   <FormStyleDesigner>
@@ -5283,6 +5289,7 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <Dialogs>Dialog</Dialogs>
     <EditStyles>Edit Styles</EditStyles>
     <Email>Email</Email>
+    <EmbedIntoReport>Sematkan ke Laporan</EmbedIntoReport>
     <EnableCacheAllDataMode>Aktifkan mode 'Cache All Data'</EnableCacheAllDataMode>
     <Enhancements>Peningkatan</Enhancements>
     <EnterDataManually>Masukkan data secara manual</EnterDataManually>
@@ -5290,6 +5297,7 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <EventsAccess>Akses Peristiwa</EventsAccess>
     <EventsTab>Tab Event</EventsTab>
     <ExpandAll>Expand All</ExpandAll>
+    <FilePathKeptHint>Laporan menyimpan path ke file</FilePathKeptHint>
     <FilterAnd>Dan</FilterAnd>
     <FilterOr>Atau</FilterOr>
     <FinishingReport>Sedang menyelesaikan Laporan</FinishingReport>
@@ -5361,10 +5369,14 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <RangeInfo>Masukkan Nomor Halaman dan/atau rentang Halaman dibagi oleh koma. Sebagai contoh : 1, 3, 5-12</RangeInfo>
     <RangePage>Rentang Halaman</RangePage>
     <RangePages>Halaman:</RangePages>
+    <RecentAddresses>Alamat terbaru</RecentAddresses>
     <RecentFiles>File terbaru</RecentFiles>
+    <RecentFilesHint>File yang Anda buka akan muncul di sini</RecentFilesHint>
+    <RecentLinksHint>Link yang Anda gunakan akan muncul di sini</RecentLinksHint>
     <ReportChecker>Pemeriksa Laporan</ReportChecker>
     <ReportRenderingMessages>Pesan Pembuatan Laporan</ReportRenderingMessages>
     <RestartDesigner>Anda perlu merestart Report Designer</RestartDesigner>
+    <RowNofM>Baris {0} dari {1}</RowNofM>
     <SaveReportPagesOrFormsFromReport>Simpan laporan, halaman atau form</SaveReportPagesOrFormsFromReport>
     <SavingReport>Sedang Menyimpan Laporan</SavingReport>
     <ScriptEvalAccess>Akses Eval Skrip</ScriptEvalAccess>

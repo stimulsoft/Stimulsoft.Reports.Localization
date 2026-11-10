@@ -1754,16 +1754,22 @@
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>箇条書き</Bullets>
+    <ExpressionRenderHint>式はレポートのレンダリング時に計算されます。</ExpressionRenderHint>
+    <FileCall>リッチテキストファイルをドロップするか、クリックして選択してください</FileCall>
+    <FileLocalWarning>このパスはこのコンピューターにのみ存在します。他の環境ではテキストが見つかりません。</FileLocalWarning>
+    <FileWebPage>このファイルはリッチテキストではなく Web ページです</FileWebPage>
     <FontName>フォント名</FontName>
     <FontSize>フォントサイズ</FontSize>
     <ImportFromFile>ファイルからインポート</ImportFromFile>
     <ImportQuestion>エディターには既にテキストがあります。「{0}」のテキストで置き換えますか、それともカーソル位置にファイルを挿入しますか？どちらも元に戻せます。</ImportQuestion>
     <Insert>表現を挿入</Insert>
     <InsertAtCursor>カーソル位置に挿入</InsertAtCursor>
-    <PreviewHintData>データ列、変数、またはリソースを選択してください</PreviewHintData>
+    <LinkCall>リッチテキストファイルへのリンクを入力または貼り付けてください</LinkCall>
+    <LinkRenderHint>テキストはレポートのレンダリング時にリンクからロードされます</LinkRenderHint>
+    <LinkWebPage>このリンクの先はリッチテキストではなく Web ページです</LinkWebPage>
+    <PreviewHintData>データ列を選択してください</PreviewHintData>
     <PreviewHintFile>ファイルを選択してください</PreviewHintFile>
     <PreviewHintURL>URL または式を入力してください</PreviewHintURL>
-    <ReplaceAll>すべて置換</ReplaceAll>
     <title>リッチテキストエディタ</title>
   </FormRichTextEditor>
   <FormStyleDesigner>
@@ -5313,6 +5319,7 @@
     <Dialogs>ダイアログ</Dialogs>
     <EditStyles>スタイルの編集</EditStyles>
     <Email>メール</Email>
+    <EmbedIntoReport>レポートに埋め込み</EmbedIntoReport>
     <EnableCacheAllDataMode>'すべてのデータをキャッシュ' モードを有効にする</EnableCacheAllDataMode>
     <Enhancements>強化</Enhancements>
     <EnterDataManually>手動でデータを入力する</EnterDataManually>
@@ -5320,6 +5327,7 @@
     <EventsAccess>イベントアクセス</EventsAccess>
     <EventsTab>[イベント]タブ</EventsTab>
     <ExpandAll>すべて展開</ExpandAll>
+    <FilePathKeptHint>レポートにはファイルのパスが保存されます</FilePathKeptHint>
     <FilterAnd>そして</FilterAnd>
     <FilterOr>又は</FilterOr>
     <FinishingReport>仕上げレポート</FinishingReport>
@@ -5391,10 +5399,14 @@
     <RangeInfo>ページ番号と</RangeInfo>
     <RangePage>ページ範囲</RangePage>
     <RangePages>ページ：</RangePages>
+    <RecentAddresses>最近使ったアドレス</RecentAddresses>
     <RecentFiles>最近使ったファイル</RecentFiles>
+    <RecentFilesHint>開いたファイルがここに表示されます</RecentFilesHint>
+    <RecentLinksHint>使用したリンクがここに表示されます</RecentLinksHint>
     <ReportChecker>レポートチェッカー</ReportChecker>
     <ReportRenderingMessages>レンダリングメッセージを報告する</ReportRenderingMessages>
     <RestartDesigner>レポートデザイナーを再起動する必要があります</RestartDesigner>
+    <RowNofM>{1} 行中 {0} 行目</RowNofM>
     <SaveReportPagesOrFormsFromReport>レポート、ページ、またはフォームを保存する</SaveReportPagesOrFormsFromReport>
     <SavingReport>レポートの保存</SavingReport>
     <ScriptEvalAccess>Script Eval アクセス</ScriptEvalAccess>

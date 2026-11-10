@@ -1753,16 +1753,22 @@
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Madde İşaretleri</Bullets>
+    <ExpressionRenderHint>İfade, rapor işlenirken hesaplanır.</ExpressionRenderHint>
+    <FileCall>Bir zengin metin dosyası bırakın veya seçmek için tıklayın</FileCall>
+    <FileLocalWarning>Bu yol yalnızca bu bilgisayarda bulunur. Başka bilgisayarlarda metin bulunamaz.</FileLocalWarning>
+    <FileWebPage>Dosya zengin metin değil, bir web sayfası</FileWebPage>
     <FontName>Yazı Tipi Adı</FontName>
     <FontSize>Yazı Tipi Boyutu</FontSize>
     <ImportFromFile>Dosyadan İçe Aktar</ImportFromFile>
     <ImportQuestion>Düzenleyicide zaten metin var. "{0}" dosyasının metniyle değiştirilsin mi, yoksa dosya imleç konumuna mı eklensin? Her ikisi de geri alınabilir.</ImportQuestion>
     <Insert>İfade Ekle</Insert>
     <InsertAtCursor>İmleç Konumuna Ekle</InsertAtCursor>
-    <PreviewHintData>Bir veri sütunu, değişken veya kaynak seçin</PreviewHintData>
+    <LinkCall>Zengin metin dosyasına giden bir köprü girin veya yapıştırın</LinkCall>
+    <LinkRenderHint>Metin, rapor işlenirken köprüden yüklenir</LinkRenderHint>
+    <LinkWebPage>Köprü zengin metne değil, bir web sayfasına gidiyor</LinkWebPage>
+    <PreviewHintData>Bir veri sütunu seçin</PreviewHintData>
     <PreviewHintFile>Bir dosya seçin</PreviewHintFile>
     <PreviewHintURL>Bir URL veya ifade girin</PreviewHintURL>
-    <ReplaceAll>Tümünü Değiştir</ReplaceAll>
     <title>Zengin Metin Düzenleyici</title>
   </FormRichTextEditor>
   <FormStyleDesigner>
@@ -5311,6 +5317,7 @@
     <Dialogs>Diyaloglar</Dialogs>
     <EditStyles>Stilleri Düzenle</EditStyles>
     <Email>E-posta</Email>
+    <EmbedIntoReport>Rapora Göm</EmbedIntoReport>
     <EnableCacheAllDataMode>'Tüm Veri Önbelleği' modunu etkinleştir</EnableCacheAllDataMode>
     <Enhancements>İyileştirmeler</Enhancements>
     <EnterDataManually>Verileri manuel olarak girin</EnterDataManually>
@@ -5318,6 +5325,7 @@
     <EventsAccess>Etkinliklere Erişim</EventsAccess>
     <EventsTab>Etkinlikler Sekmesi</EventsTab>
     <ExpandAll>Tümünü Genişlet</ExpandAll>
+    <FilePathKeptHint>Rapor, dosyanın yolunu saklar</FilePathKeptHint>
     <FilterAnd>Ve</FilterAnd>
     <FilterOr>Veya</FilterOr>
     <FinishingReport>Rapor Tamamlanıyor</FinishingReport>
@@ -5389,10 +5397,14 @@
     <RangeInfo>Sayfa numarasını ve / veya virgülle ayrılmış sayfa aralığını girin. Örneğin: 1, 3, 5-12</RangeInfo>
     <RangePage>Sayfa Aralığı</RangePage>
     <RangePages>Sayfalar:</RangePages>
+    <RecentAddresses>Son adresler</RecentAddresses>
     <RecentFiles>Son dosyalar</RecentFiles>
+    <RecentFilesHint>Açtığınız dosyalar burada görünür</RecentFilesHint>
+    <RecentLinksHint>Kullandığınız köprüler burada görünür</RecentLinksHint>
     <ReportChecker>Rapor Denetleyicisi</ReportChecker>
     <ReportRenderingMessages>Rapor Oluşturma İletileri</ReportRenderingMessages>
     <RestartDesigner>Rapor tasarımcısını yeniden başlatmanız gerekiyor</RestartDesigner>
+    <RowNofM>Satır {0} / {1}</RowNofM>
     <SaveReportPagesOrFormsFromReport> Raporu, sayfaları veya formları kaydedin</SaveReportPagesOrFormsFromReport>
     <SavingReport>Rapor Kaydediliyor</SavingReport>
     <ScriptEvalAccess>Script Eval Erişimi</ScriptEvalAccess>

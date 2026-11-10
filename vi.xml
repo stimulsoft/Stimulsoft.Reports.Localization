@@ -1752,16 +1752,22 @@
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Viên đạn</Bullets>
+    <ExpressionRenderHint>Biểu thức được tính khi kết xuất báo cáo.</ExpressionRenderHint>
+    <FileCall>Thả tệp văn bản đa dạng hoặc nhấp để chọn</FileCall>
+    <FileLocalWarning>Đường dẫn này chỉ tồn tại trên máy tính này. Ở nơi khác sẽ không tìm thấy văn bản.</FileLocalWarning>
+    <FileWebPage>Tệp này là trang web, không phải văn bản đa dạng</FileWebPage>
     <FontName>Tên phông</FontName>
     <FontSize>Kích cỡ phông</FontSize>
     <ImportFromFile>Nhập từ tệp</ImportFromFile>
     <ImportQuestion>Trình soạn thảo đã có văn bản. Thay thế bằng văn bản của "{0}" hay chèn tệp tại vị trí con trỏ? Cả hai đều có thể hoàn tác.</ImportQuestion>
     <Insert>Chèn biểu thức</Insert>
     <InsertAtCursor>Chèn tại con trỏ</InsertAtCursor>
-    <PreviewHintData>Chọn cột dữ liệu, biến hoặc nguồn</PreviewHintData>
+    <LinkCall>Nhập hoặc dán liên kết đến tệp văn bản đa dạng</LinkCall>
+    <LinkRenderHint>Văn bản được tải từ liên kết khi kết xuất báo cáo</LinkRenderHint>
+    <LinkWebPage>Liên kết dẫn đến trang web, không phải văn bản đa dạng</LinkWebPage>
+    <PreviewHintData>Chọn cột dữ liệu</PreviewHintData>
     <PreviewHintFile>Chọn tệp tin</PreviewHintFile>
     <PreviewHintURL>Nhập URL hoặc biểu thức</PreviewHintURL>
-    <ReplaceAll>Thay thế tất cả</ReplaceAll>
     <title>Trình soạn thảo văn bản</title>
   </FormRichTextEditor>
   <FormStyleDesigner>
@@ -5284,6 +5290,7 @@
     <Dialogs>Hộp thoại</Dialogs>
     <EditStyles>[Chỉnh sửa kiểu]</EditStyles>
     <Email>Email</Email>
+    <EmbedIntoReport>Nhúng vào báo cáo</EmbedIntoReport>
     <EnableCacheAllDataMode>Bật chế độ 'Lưu vào bộ nhớ đệm Tất cả Dữ liệu'</EnableCacheAllDataMode>
     <Enhancements>Cải tiến</Enhancements>
     <EnterDataManually>Nhập thủ công dữ liệu</EnterDataManually>
@@ -5291,6 +5298,7 @@
     <EventsAccess>Truy cập sự kiện</EventsAccess>
     <EventsTab>Tab sự kiện</EventsTab>
     <ExpandAll>Mở rộng tất cả</ExpandAll>
+    <FilePathKeptHint>Báo cáo lưu đường dẫn đến tệp</FilePathKeptHint>
     <FilterAnd>Và</FilterAnd>
     <FilterOr>Hoặc</FilterOr>
     <FinishingReport>Hoàn thành báo cáo</FinishingReport>
@@ -5362,10 +5370,14 @@
     <RangeInfo>Nhập số trang và/hoặc phạm vi trang phân cách bởi dấu phẩy. Ví dụ: 1, 3, 5-12</RangeInfo>
     <RangePage>Phạm vi trang</RangePage>
     <RangePages>Trang:</RangePages>
+    <RecentAddresses>Địa chỉ gần đây</RecentAddresses>
     <RecentFiles>Tệp gần đây</RecentFiles>
+    <RecentFilesHint>Các tệp bạn mở sẽ xuất hiện ở đây</RecentFilesHint>
+    <RecentLinksHint>Các liên kết bạn sử dụng sẽ xuất hiện ở đây</RecentLinksHint>
     <ReportChecker>Trình kiểm tra báo cáo</ReportChecker>
     <ReportRenderingMessages>Thông báo báo cáo kết xuất</ReportRenderingMessages>
     <RestartDesigner>Bạn cần phải khởi động lại trình thiết kế báo cáo</RestartDesigner>
+    <RowNofM>Hàng {0} của {1}</RowNofM>
     <SaveReportPagesOrFormsFromReport>Lưu báo cáo, trang hoặc biểu mẫu</SaveReportPagesOrFormsFromReport>
     <SavingReport>Lưu báo cáo</SavingReport>
     <ScriptEvalAccess>Truy cập Eval tập lệnh</ScriptEvalAccess>

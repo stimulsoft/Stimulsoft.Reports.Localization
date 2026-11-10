@@ -1754,16 +1754,22 @@
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Grafičke oznake</Bullets>
+    <ExpressionRenderHint>Izraz se izračunava prilikom generisanja izvještaja.</ExpressionRenderHint>
+    <FileCall>Spustite datoteku s obogaćenim tekstom ili kliknite da je odaberete</FileCall>
+    <FileLocalWarning>Ova putanja postoji samo na ovom računaru. Na drugim računarima tekst neće biti pronađen.</FileLocalWarning>
+    <FileWebPage>Datoteka je web stranica, a ne obogaćeni tekst</FileWebPage>
     <FontName>Ime fonta</FontName>
     <FontSize>Veličina fonta</FontSize>
     <ImportFromFile>Uvoz iz datoteke</ImportFromFile>
     <ImportQuestion>Uređivač već sadrži tekst. Zamijeniti ga tekstom datoteke „{0}“ ili umetnuti datoteku na mjesto kursora? Obje radnje se mogu poništiti.</ImportQuestion>
     <Insert>Dodaj izraz</Insert>
     <InsertAtCursor>Umetni na mjesto kursora</InsertAtCursor>
-    <PreviewHintData>Odaberite kolonu podataka, varijablu ili resurs</PreviewHintData>
+    <LinkCall>Unesite ili nalijepite link do datoteke s obogaćenim tekstom</LinkCall>
+    <LinkRenderHint>Tekst se učitava s linka prilikom generisanja izvještaja</LinkRenderHint>
+    <LinkWebPage>Link vodi do web stranice, a ne do obogaćenog teksta</LinkWebPage>
+    <PreviewHintData>Odaberite kolonu podataka</PreviewHintData>
     <PreviewHintFile>Odaberite datoteku</PreviewHintFile>
     <PreviewHintURL>Unesite URL ili izraz</PreviewHintURL>
-    <ReplaceAll>Zamijeni sve</ReplaceAll>
     <title>Rich Text Editor</title>
   </FormRichTextEditor>
   <FormStyleDesigner>
@@ -5303,6 +5309,7 @@ Sadrži link za potvrdu vaše registracije. Kako biste dovršili registraciju mo
     <Dialogs>Dijalozi</Dialogs>
     <EditStyles>Uredi stilove</EditStyles>
     <Email>Email</Email>
+    <EmbedIntoReport>Ugradi u izvještaj</EmbedIntoReport>
     <EnableCacheAllDataMode>Omogući način rada 'Cache All Data'</EnableCacheAllDataMode>
     <Enhancements>Poboljšanja</Enhancements>
     <EnterDataManually>Unesite podatke ručno</EnterDataManually>
@@ -5310,6 +5317,7 @@ Sadrži link za potvrdu vaše registracije. Kako biste dovršili registraciju mo
     <EventsAccess>Pristupanje događajima</EventsAccess>
     <EventsTab>Kartica događaja</EventsTab>
     <ExpandAll>Raširi sve</ExpandAll>
+    <FilePathKeptHint>Izvještaj čuva putanju do datoteke</FilePathKeptHint>
     <FilterAnd>I</FilterAnd>
     <FilterOr>Ili</FilterOr>
     <FinishingReport>Dovršavanje izvještaja</FinishingReport>
@@ -5382,10 +5390,14 @@ Sadrži link za potvrdu vaše registracije. Kako biste dovršili registraciju mo
     <RangeInfo>Unesite broj stranice i/ili raspon stranica odvojenih zarezom. Na primjer: 1, 3, 5-12</RangeInfo>
     <RangePage>Raspon stranica</RangePage>
     <RangePages>Stranice:</RangePages>
+    <RecentAddresses>Nedavne adrese</RecentAddresses>
     <RecentFiles>Nedavne datoteke</RecentFiles>
+    <RecentFilesHint>Ovdje će se pojaviti datoteke koje otvarate</RecentFilesHint>
+    <RecentLinksHint>Ovdje će se pojaviti linkovi koje koristite</RecentLinksHint>
     <ReportChecker>Ispitivač izvještaja</ReportChecker>
     <ReportRenderingMessages>Poruke renderisanja izvještaja</ReportRenderingMessages>
     <RestartDesigner>Ponovo pokrenite dizajner izvještaja</RestartDesigner>
+    <RowNofM>Red {0} od {1}</RowNofM>
     <SaveReportPagesOrFormsFromReport>Sačuvaj zvještaj, stranice ili forme</SaveReportPagesOrFormsFromReport>
     <SavingReport>Čuvanje izvještaja</SavingReport>
     <ScriptEvalAccess>Script Eval Access</ScriptEvalAccess>

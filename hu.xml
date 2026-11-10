@@ -1651,16 +1651,22 @@
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Golyók</Bullets>
+    <ExpressionRenderHint>A kifejezés kiszámítása a jelentés renderelésekor történik.</ExpressionRenderHint>
+    <FileCall>Ejtsen ide egy Rich Text-fájlt, vagy kattintson a kiválasztásához</FileCall>
+    <FileLocalWarning>Ez az útvonal csak ezen a számítógépen létezik. Máshol a szöveg nem található.</FileLocalWarning>
+    <FileWebPage>A fájl weboldal, nem Rich Text-fájl</FileWebPage>
     <FontName>Betűtípus</FontName>
     <FontSize>Betű mérete</FontSize>
     <ImportFromFile>Importálás fájlból</ImportFromFile>
     <ImportQuestion>A szerkesztő már tartalmaz szöveget. Lecseréli a(z) „{0}” szövegére, vagy beszúrja a fájlt a kurzor helyére? Mindkettő visszavonható.</ImportQuestion>
     <Insert>Kifejezés beszúrása</Insert>
     <InsertAtCursor>Beszúrás a kurzorhoz</InsertAtCursor>
-    <PreviewHintData>Válasszon adatoszlopot, változót vagy erőforrást</PreviewHintData>
+    <LinkCall>Adjon meg vagy illesszen be egy Rich Text-fájlra mutató hivatkozást</LinkCall>
+    <LinkRenderHint>A szöveg a jelentés renderelésekor töltődik be a hivatkozásról</LinkRenderHint>
+    <LinkWebPage>A hivatkozás weboldalra mutat, nem Rich Text-fájlra</LinkWebPage>
+    <PreviewHintData>Válasszon adatoszlopot</PreviewHintData>
     <PreviewHintFile>Válasszon fájlt</PreviewHintFile>
     <PreviewHintURL>Adjon meg egy URL-t vagy kifejezést</PreviewHintURL>
-    <ReplaceAll>Az összes cseréje</ReplaceAll>
     <title>Rich Text szerkesztő</title>
   </FormRichTextEditor>
   <FormStyleDesigner>
@@ -4951,11 +4957,13 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <DataNotLoadedHint>Töltse be az adatokat, hogy itt lapozhasson a(z) {0} értékei között.</DataNotLoadedHint>
     <Dialogs>Dialogs</Dialogs>
     <EditStyles>Stílusok szerkesztése</EditStyles>
+    <EmbedIntoReport>Beágyazás a jelentésbe</EmbedIntoReport>
     <Enhancements>Fejlesztések</Enhancements>
     <EnterDataManually>Adatok kézi kitöltése</EnterDataManually>
     <Errors>Hibák</Errors>
     <EventsTab>Események tab</EventsTab>
     <ExpandAll>Mindet kinyit</ExpandAll>
+    <FilePathKeptHint>A jelentés a fájl útvonalát tárolja</FilePathKeptHint>
     <FilterAnd>És</FilterAnd>
     <FilterOr>Vagy</FilterOr>
     <FinishingReport>Jelentés befejezése</FinishingReport>
@@ -5022,10 +5030,14 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <RangeInfo>Enter page number and/or pages ranges separated by commas. For example: 1, 3, 5-12</RangeInfo>
     <RangePage>Oldal tartomány</RangePage>
     <RangePages>Oldalak:</RangePages>
+    <RecentAddresses>Legutóbbi címek</RecentAddresses>
     <RecentFiles>Legutóbbi fájlok</RecentFiles>
+    <RecentFilesHint>A megnyitott fájlok itt jelennek meg</RecentFilesHint>
+    <RecentLinksHint>A használt hivatkozások itt jelennek meg</RecentLinksHint>
     <ReportChecker>Jelentés ellenőrző</ReportChecker>
     <ReportRenderingMessages>Report készítési üzenetek.</ReportRenderingMessages>
     <RestartDesigner>Újra kell indítani a jelentés tervezőt</RestartDesigner>
+    <RowNofM>Sor {0} / {1}</RowNofM>
     <SaveReportPagesOrFormsFromReport>Jelentés elmentése, oldalak vagy formok</SaveReportPagesOrFormsFromReport>
     <SavingReport>Report mentve</SavingReport>
     <SecondPass>Second Pass</SecondPass>

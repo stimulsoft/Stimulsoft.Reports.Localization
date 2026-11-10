@@ -1754,16 +1754,22 @@
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>بولێتەکان</Bullets>
+    <ExpressionRenderHint>دەربڕینەکە لە کاتی دروستکردنی ڕاپۆرتەکەدا هەژمار دەکرێت.</ExpressionRenderHint>
+    <FileCall>فایلێکی نووسینی زۆر دابنێ یان کلیک بکە بۆ دیاریکردنی</FileCall>
+    <FileLocalWarning>ئەم ڕێگایە تەنها لەسەر ئەم کۆمپیوتەرە هەیە. لە شوێنی تر دەقەکە نادۆزرێتەوە.</FileLocalWarning>
+    <FileWebPage>ئەم فایلە لاپەڕەیەکی وێبە، نەک نووسینی زۆر</FileWebPage>
     <FontName>ناوی فۆنت</FontName>
     <FontSize>قەبارەی فۆنت</FontSize>
     <ImportFromFile>هاوردەکردن لە فایل</ImportFromFile>
     <ImportQuestion>دەستکاریکەر پێشتر دەقی تێدایە. بە دەقی «{0}» بیگۆڕیت یان فایلەکە لە شوێنی نیشاندەر دابنێیت؟ هەردووکیان دەتوانرێت پاشگەز بکرێنەوە.</ImportQuestion>
     <Insert>داربڕینەکانی زیادکردن</Insert>
     <InsertAtCursor>دانان لە شوێنی نیشاندەر</InsertAtCursor>
-    <PreviewHintData>ستوونی داتا، گۆڕاو یان سەرچاوە دیاری بکە</PreviewHintData>
+    <LinkCall>بەستەری فایلێکی نووسینی زۆر بنووسە یان بیلکێنە</LinkCall>
+    <LinkRenderHint>دەقەکە لە کاتی دروستکردنی ڕاپۆرتەکەدا لە بەستەرەکەوە بار دەکرێت</LinkRenderHint>
+    <LinkWebPage>ئەم بەستەرە بۆ لاپەڕەیەکی وێب دەچێت، نەک نووسینی زۆر</LinkWebPage>
+    <PreviewHintData>ستوونی داتا دیاری بکە</PreviewHintData>
     <PreviewHintFile>فایلێک دیاری بکە</PreviewHintFile>
     <PreviewHintURL>URL یان دەربڕینێک بنووسە</PreviewHintURL>
-    <ReplaceAll>گۆڕینی هەمووی</ReplaceAll>
     <title>دەستکاریکەری دەقی دەوڵەمەند</title>
   </FormRichTextEditor>
   <FormStyleDesigner>
@@ -5312,6 +5318,7 @@
     <Dialogs>دیالۆگەکان</Dialogs>
     <EditStyles>دەستکاریکردنی شێوازەکان</EditStyles>
     <Email>ئیمەیڵ</Email>
+    <EmbedIntoReport>بنچینکردن لەناو ڕاپۆرت</EmbedIntoReport>
     <EnableCacheAllDataMode>چالاککردنی دۆخی 'هەموو داتاکان بەشێوەی کاش'</EnableCacheAllDataMode>
     <Enhancements>بەرزکردنەوەکان</Enhancements>
     <EnterDataManually>زانیاری بە دەستی تێبنووسە</EnterDataManually>
@@ -5319,6 +5326,7 @@
     <EventsAccess>دەستگەیشتن بە ڕووداوەکان</EventsAccess>
     <EventsTab>تابی ڕووداوەکان</EventsTab>
     <ExpandAll>فراوانکردنی هەموو</ExpandAll>
+    <FilePathKeptHint>ڕاپۆرتەکە ڕێگای فایلەکە هەڵدەگرێت</FilePathKeptHint>
     <FilterAnd>و</FilterAnd>
     <FilterOr>یان</FilterOr>
     <FinishingReport>تەواوکردنی ڕاپۆرت</FinishingReport>
@@ -5390,10 +5398,14 @@
     <RangeInfo>ژمارەی لاپەڕە و/یان مەوداکانی پەڕەکان بنووسە کە جیاکراوەتەوە بە فاریزە. بۆ نموونە: 1,3,5-12</RangeInfo>
     <RangePage>مەودای لاپەڕە</RangePage>
     <RangePages>پەڕەکان:</RangePages>
+    <RecentAddresses>ناونیشانە دواییەکان</RecentAddresses>
     <RecentFiles>فایلە دواییەکان</RecentFiles>
+    <RecentFilesHint>ئەو فایلانەی دەیانکەیتەوە لێرە دەردەکەون</RecentFilesHint>
+    <RecentLinksHint>ئەو بەستەرانەی بەکاریان دەهێنیت لێرە دەردەکەون</RecentLinksHint>
     <ReportChecker>پشکنەر</ReportChecker>
     <ReportRenderingMessages>ڕاپۆرتکردنی نامەکان</ReportRenderingMessages>
     <RestartDesigner>پێویستە دیزاینەری راپۆرتەکە دەستپێبکەیتەوە</RestartDesigner>
+    <RowNofM>ڕیزی {0} لە {1}</RowNofM>
     <SaveReportPagesOrFormsFromReport>ڕاپۆرتەکە، لاپەڕەکان یان فۆرمەکان خەزن بکە</SaveReportPagesOrFormsFromReport>
     <SavingReport>پاشەکەوتکردنی ڕاپۆرت</SavingReport>
     <ScriptEvalAccess>دەستگەیشتنی سکریپت ئیڤاڵ</ScriptEvalAccess>

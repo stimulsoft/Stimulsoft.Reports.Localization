@@ -1753,16 +1753,22 @@
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Маркеры</Bullets>
+    <ExpressionRenderHint>Выражение вычисляется при построении отчета.</ExpressionRenderHint>
+    <FileCall>Перетащите файл с форматированным текстом или щелкните, чтобы выбрать его</FileCall>
+    <FileLocalWarning>Этот путь существует только на этом компьютере. На других компьютерах текст не будет найден.</FileLocalWarning>
+    <FileWebPage>Файл является веб-страницей, а не форматированным текстом</FileWebPage>
     <FontName>Шрифт</FontName>
     <FontSize>Размер шрифта</FontSize>
     <ImportFromFile>Импорт из файла</ImportFromFile>
     <ImportQuestion>В редакторе уже есть текст. Заменить его текстом «{0}» или вставить файл в позицию курсора? Любое действие можно отменить.</ImportQuestion>
     <Insert>Вставить выражение</Insert>
     <InsertAtCursor>Вставить в позицию курсора</InsertAtCursor>
-    <PreviewHintData>Выберите колонку данных, переменную или ресурс</PreviewHintData>
+    <LinkCall>Введите или вставьте ссылку на файл с форматированным текстом</LinkCall>
+    <LinkRenderHint>Текст загружается по ссылке при построении отчета</LinkRenderHint>
+    <LinkWebPage>Ссылка ведет на веб-страницу, а не на форматированный текст</LinkWebPage>
+    <PreviewHintData>Выберите колонку данных</PreviewHintData>
     <PreviewHintFile>Выберите файл</PreviewHintFile>
     <PreviewHintURL>Введите URL или выражение</PreviewHintURL>
-    <ReplaceAll>Заменить всё</ReplaceAll>
     <title>Редактор форматированного текста</title>
   </FormRichTextEditor>
   <FormStyleDesigner>
@@ -5308,6 +5314,7 @@
     <Dialogs>Элементы управления</Dialogs>
     <EditStyles>Редактировать стили</EditStyles>
     <Email>Электронная почта</Email>
+    <EmbedIntoReport>Внедрить в отчет</EmbedIntoReport>
     <EnableCacheAllDataMode>Включить режим "Кэшировать все данные"</EnableCacheAllDataMode>
     <Enhancements>Улучшения</Enhancements>
     <EnterDataManually>Введите данные вручную</EnterDataManually>
@@ -5315,6 +5322,7 @@
     <EventsAccess>Доступ к событиям</EventsAccess>
     <EventsTab>События</EventsTab>
     <ExpandAll>Развернуть все</ExpandAll>
+    <FilePathKeptHint>В отчете хранится путь к файлу</FilePathKeptHint>
     <FilterAnd>И</FilterAnd>
     <FilterOr>Или</FilterOr>
     <FinishingReport>Завершение отчета</FinishingReport>
@@ -5386,10 +5394,14 @@
     <RangeInfo>Введите номера или диапазоны страниц, разделенные запятыми. Например: 1, 3, 5-12</RangeInfo>
     <RangePage>Страницы</RangePage>
     <RangePages>Номера</RangePages>
+    <RecentAddresses>Недавние адреса</RecentAddresses>
     <RecentFiles>Недавние файлы</RecentFiles>
+    <RecentFilesHint>Здесь появятся файлы, которые вы откроете</RecentFilesHint>
+    <RecentLinksHint>Здесь появятся ссылки, которые вы используете</RecentLinksHint>
     <ReportChecker>Проверка</ReportChecker>
     <ReportRenderingMessages>Сообщения отчета</ReportRenderingMessages>
     <RestartDesigner>Вам необходимо перезапустить дизайнер отчетов.</RestartDesigner>
+    <RowNofM>Строка {0} из {1}</RowNofM>
     <SaveReportPagesOrFormsFromReport>Сохранить отчет, страницу или форму отчета</SaveReportPagesOrFormsFromReport>
     <SavingReport>Сохранение отчета</SavingReport>
     <ScriptEvalAccess>Доступ к Script Eval</ScriptEvalAccess>

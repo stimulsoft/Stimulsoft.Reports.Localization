@@ -1752,16 +1752,22 @@
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Κουκκίδες</Bullets>
+    <ExpressionRenderHint>Η έκφραση υπολογίζεται κατά την παραγωγή της αναφοράς.</ExpressionRenderHint>
+    <FileCall>Σύρτε ένα αρχείο εμπλουτισμένου κειμένου ή κάντε κλικ για να επιλέξετε ένα</FileCall>
+    <FileLocalWarning>Αυτή η διαδρομή υπάρχει μόνο σε αυτόν τον υπολογιστή. Αλλού το κείμενο δεν θα βρεθεί.</FileLocalWarning>
+    <FileWebPage>Το αρχείο είναι ιστοσελίδα, όχι εμπλουτισμένο κείμενο</FileWebPage>
     <FontName>Όνομα Γραμματοσειράς</FontName>
     <FontSize>Μέγεθος Γραμματοσειράς</FontSize>
     <ImportFromFile>Εισαγωγή από αρχείο</ImportFromFile>
     <ImportQuestion>Ο επεξεργαστής περιέχει ήδη κείμενο. Να αντικατασταθεί με το κείμενο του «{0}» ή να εισαχθεί το αρχείο στη θέση του δρομέα; Και οι δύο ενέργειες μπορούν να αναιρεθούν.</ImportQuestion>
     <Insert>Εισαγωγή Έκφρασης</Insert>
     <InsertAtCursor>Εισαγωγή στη θέση του δρομέα</InsertAtCursor>
-    <PreviewHintData>Επιλέξτε στήλη δεδομένων, μεταβλητή ή πόρο</PreviewHintData>
+    <LinkCall>Εισαγάγετε ή επικολλήστε μια σύνδεση προς αρχείο εμπλουτισμένου κειμένου</LinkCall>
+    <LinkRenderHint>Το κείμενο φορτώνεται από τη σύνδεση κατά την παραγωγή της αναφοράς</LinkRenderHint>
+    <LinkWebPage>Η σύνδεση οδηγεί σε ιστοσελίδα, όχι σε εμπλουτισμένο κείμενο</LinkWebPage>
+    <PreviewHintData>Επιλέξτε στήλη δεδομένων</PreviewHintData>
     <PreviewHintFile>Επιλέξτε αρχείο</PreviewHintFile>
     <PreviewHintURL>Εισαγάγετε URL ή έκφραση</PreviewHintURL>
-    <ReplaceAll>Αντικατάσταση όλων</ReplaceAll>
     <title>Επεξεργασία Εμπλουτισμένου Κειμένου</title>
   </FormRichTextEditor>
   <FormStyleDesigner>
@@ -5282,6 +5288,7 @@
     <Dialogs>Διάλογοι</Dialogs>
     <EditStyles>Επεξεργασία Στυλ</EditStyles>
     <Email>Email</Email>
+    <EmbedIntoReport>Ενσωμάτωση στην Αναφορά</EmbedIntoReport>
     <EnableCacheAllDataMode>Ενεργοποίηση της προσωρινής αποθήκευσης όλων των δεδομένων</EnableCacheAllDataMode>
     <Enhancements>Βελτιώσεις</Enhancements>
     <EnterDataManually>Χειροκίνητη καταχώρηση δεδομένων</EnterDataManually>
@@ -5289,6 +5296,7 @@
     <EventsAccess>Πρόσβαση Συμβάντων</EventsAccess>
     <EventsTab>Καρτέλα Γεγονότων</EventsTab>
     <ExpandAll>Ανάπτυξη Όλων</ExpandAll>
+    <FilePathKeptHint>Η αναφορά διατηρεί τη διαδρομή προς το αρχείο</FilePathKeptHint>
     <FilterAnd>Και</FilterAnd>
     <FilterOr>Ή</FilterOr>
     <FinishingReport>Ολοκλήρωση Αναφοράς</FinishingReport>
@@ -5360,10 +5368,14 @@
     <RangeInfo>Εισάγετε αριθμό σελίδας και/ή εύρος σελιδών χωρισμένα με κόμμα. Για παράδειγμα: 1, 3, 5-12</RangeInfo>
     <RangePage>Εύρος Σελιδών</RangePage>
     <RangePages>Σελίδες:</RangePages>
+    <RecentAddresses>Πρόσφατες διευθύνσεις</RecentAddresses>
     <RecentFiles>Πρόσφατα αρχεία</RecentFiles>
+    <RecentFilesHint>Τα αρχεία που ανοίγετε θα εμφανίζονται εδώ</RecentFilesHint>
+    <RecentLinksHint>Οι συνδέσεις που χρησιμοποιείτε θα εμφανίζονται εδώ</RecentLinksHint>
     <ReportChecker>Ελεγκτής Αναφοράς</ReportChecker>
     <ReportRenderingMessages>Μηνύματα Παραγωγής Αναφοράς</ReportRenderingMessages>
     <RestartDesigner>Χρειάζεται να επανακινήσετε τον Σχεδιαστή</RestartDesigner>
+    <RowNofM>Γραμμή {0} από {1}</RowNofM>
     <SaveReportPagesOrFormsFromReport>Αποθήκευση αναφοράς, των σελίδων ή των φορμών</SaveReportPagesOrFormsFromReport>
     <SavingReport>Αποθήκευση Αναφοράς</SavingReport>
     <ScriptEvalAccess>Πρόσβαση αξιολόγησης σεναρίου</ScriptEvalAccess>

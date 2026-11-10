@@ -1064,16 +1064,22 @@
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Erreleboa</Bullets>
+    <ExpressionRenderHint>Adierazpena txostena sortzean kalkulatzen da.</ExpressionRenderHint>
+    <FileCall>Jaregin testu aberastuko fitxategi bat edo egin klik bat hautatzeko</FileCall>
+    <FileLocalWarning>Bide hau ordenagailu honetan bakarrik dago. Beste inon ez da testua aurkituko.</FileLocalWarning>
+    <FileWebPage>Fitxategia web-orri bat da, ez testu aberats bat</FileWebPage>
     <FontName>Letra tipoaren Izena</FontName>
     <FontSize>Letra tipoaren neurria</FontSize>
     <ImportFromFile>Inportatu fitxategitik</ImportFromFile>
     <ImportQuestion>Editoreak testua du dagoeneko. «{0}» fitxategiko testuarekin ordeztu nahi duzu, edo fitxategia kurtsorearen posizioan txertatu? Bi ekintzak desegin daitezke.</ImportQuestion>
     <Insert>Adierazpena sartu</Insert>
     <InsertAtCursor>Txertatu kurtsorean</InsertAtCursor>
-    <PreviewHintData>Hautatu datu-zutabe bat, aldagai bat edo baliabide bat</PreviewHintData>
+    <LinkCall>Idatzi edo itsatsi testu aberastuko fitxategi baten esteka</LinkCall>
+    <LinkRenderHint>Testua estekatik kargatzen da txostena sortzean</LinkRenderHint>
+    <LinkWebPage>Estekak web-orri batera darama, ez testu aberats batera</LinkWebPage>
+    <PreviewHintData>Hautatu datu-zutabe bat</PreviewHintData>
     <PreviewHintFile>Hautatu fitxategi bat</PreviewHintFile>
     <PreviewHintURL>Idatzi URL bat edo adierazpen bat</PreviewHintURL>
-    <ReplaceAll>Ordeztu dena</ReplaceAll>
     <title>Testu-editorea</title>
   </FormRichTextEditor>
   <FormStyleDesigner>
@@ -3248,9 +3254,11 @@ Mezu elektronikoa "{0}" helbidera bidali da. Zure erregistroa berresteko esteka 
     <DataNotLoadedHint>Kargatu datuak {0} balioak hemen arakatzeko.</DataNotLoadedHint>
     <Dialogs>Elkarrizketak</Dialogs>
     <EditStyles>Estiloak Editatu</EditStyles>
+    <EmbedIntoReport>Txertatu txostenean</EmbedIntoReport>
     <Errors>Erroreak</Errors>
     <EventsTab>Ekitaldien Erlaitza</EventsTab>
     <ExpandAll>Guztia zabaldu</ExpandAll>
+    <FilePathKeptHint>Txostenak fitxategiaren bidea gordetzen du</FilePathKeptHint>
     <FilterAnd>Y</FilterAnd>
     <FilterOr>O</FilterOr>
     <FinishingReport>Txostena bukatzen</FinishingReport>
@@ -3304,10 +3312,14 @@ Mezu elektronikoa "{0}" helbidera bidali da. Zure erregistroa berresteko esteka 
     <RangeInfo>Orrialdearen zenbakiaren edota komen bidez bereizitako tarte baten artean. Adibidez: 1, 3, 5-12</RangeInfo>
     <RangePage>Orrialde Tartea</RangePage>
     <RangePages>Orrialdeak:</RangePages>
+    <RecentAddresses>Azken helbideak</RecentAddresses>
     <RecentFiles>Azken fitxategiak</RecentFiles>
+    <RecentFilesHint>Irekitzen dituzun fitxategiak hemen agertuko dira</RecentFilesHint>
+    <RecentLinksHint>Erabiltzen dituzun estekak hemen agertuko dira</RecentLinksHint>
     <ReportChecker>Txosten Egiaztatzailea</ReportChecker>
     <ReportRenderingMessages>Txostenaren Aurkezpeneko Mezua</ReportRenderingMessages>
     <RestartDesigner>Beharrezkoa da txosten-diseinatzailea berrabiaraztea</RestartDesigner>
+    <RowNofM>{0}. errenkada {1}-tik</RowNofM>
     <SaveReportPagesOrFormsFromReport>Txostena, orrialdeak edo inprimakiak gorde</SaveReportPagesOrFormsFromReport>
     <SavingReport>Txostena gordetzen</SavingReport>
     <SecondPass>Bigarren emanaldia</SecondPass>
