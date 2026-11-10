@@ -2336,9 +2336,9 @@
     <AllowEditable>Επιτρέπει μόνο την τροποποίηση εξαρτημάτων που έχουν την ιδιότητα "Επεξεργάσιμο" (Editable) ενεργοποιημένη.</AllowEditable>
     <AllowModifyContents>Περιορισμένη πρόσβαση για επεξεργασία κείμενου.</AllowModifyContents>
     <AllowPrintDocument>Περιορισμένη πρόσβαση για λειτουργία εκτύπωσης.</AllowPrintDocument>
-    <Bookmarks>Εμφάνιση του πάνελ σελιδοδεικτών.</Bookmarks>
+    <Bookmarks>Εμφάνιση των σελιδοδεικτών.</Bookmarks>
     <BorderType>Ο τύπος συνόρου των εξαρτημάτων: απλό - εκτύπωση συνόρου εξαρτημάτων με χαρακτήρες +, -, |; Unicode απλό - εκτύπωση συνόρου με απλούς χαρακτήρες σχεδίασης κουτιού, Unicode διπλό - εκτύπωση συνόρου με διπλούς χαρακτήρες σχεδίασης κουτιού.</BorderType>
-    <Close>Κλείσιμο Προεπισκόπισης Αναφοράς.</Close>
+    <Close>Κλείσιμο της προεπισκόπησης.</Close>
     <CloseDotMatrix>Κλείσιμο προβολής Dot-Matrix της αναφοράς.</CloseDotMatrix>
     <Compressed>Συμπίεση του έτοιμου εγγράφου. Συνίσταται να γίνεται συμπίεση αρχείου πάντα.</Compressed>
     <CompressToArchive>Πακετάρισμα όλων των αρχείων και φακέλων σε ένα πακέτο συμπίεσης ZIP.</CompressToArchive>
@@ -2351,7 +2351,7 @@
     <DashboardContains3>Δεν μπορείτε να εκτελέσετε αυτή την ενεργεια από το περιβάλλον προβολής αναφορών!</DashboardContains3>
     <DigitalSignature>Η ψηφιακή υπογραφή του αρχείου.</DigitalSignature>
     <DitheringType>Τύπος Dithering: Κανένας - χωρίς dithering, Ordered, FloydSt. - με dithering.</DitheringType>
-    <DotMatrixMode>Προεπισκόπηση αναφοράς για εκτυπωτή dot matrix.</DotMatrixMode>
+    <DotMatrixMode>Προβολή σε λειτουργία Dot-Matrix.</DotMatrixMode>
     <DrawBorder>Εκτύπωση των ορίων των εξαρτημάτων με χαρακτήρες.</DrawBorder>
     <Edit>Επεξεργασία εξαρτημάτων.</Edit>
     <EmbeddedFonts>Ενσωμάτωση των αρχείων γραμματοσειρών στο αρχείο PDF.</EmbeddedFonts>
@@ -2369,8 +2369,8 @@
     <ExportObjectFormatting>Εφαρμογή μορφοποίησης στα δεδομένα εξαγωγής από Ζώνες Δεδομένων (εξάρτημα Πίνακα, Ιεραρχική Ζώνη).</ExportObjectFormatting>
     <ExportPageBreaks>Εμφάνιση ορίων των σελίδων της αναφοράς στο φύλο Excel.</ExportPageBreaks>
     <ExportRtfTextAsImage>Μετατροπή του εμπλουτισμένου κειμένου (RTF) σε εικόνα. Όταν η επιλογή είναι ενεργή και γίνεται εξαγωγή, το εμπλουτισμένο κείμενο αναλύεται σε απλούστερα στοιχεία τα οποία υποστηρίζονται από το πρότυπο PDF. Εμπλουτισμένο κείμενο με σύνθετη μορφή (ενσωματωμένες εικόνες, πίνακες) δεν μπορεί πάντα να μετατραπεί σωστά. Σε αυτή την περίπτωση, προτείνεται να ενεργοποιηθεί αυτή επιλογή.</ExportRtfTextAsImage>
-    <Find>Αναζήτηση κειμένου μέσα στην αναφορά.</Find>
-    <FullScreen>Ανάγνωση σε πλήρη οθόνη.</FullScreen>
+    <Find>Αναζήτηση κειμένου.</Find>
+    <FullScreen>Προβολή σε πλήρη οθόνη.</FullScreen>
     <GetCertificateFromCryptoUI>Χρήση διεπαφής της βιβλιοθήκες κρυπτογραφίας του συστήματος.</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Η μέθοδος συμπίεσης: JPEG - αυτό μπορεί να προκαλέσει απώλεια ποιότητας, Flate – χωρίς απώλεια ποιότητας, Απλή, Ordered, FloydSt. - οι εικόνες εκτυπώνονται σε ασπρόμαυρο.</ImageCompressionMethod>
     <ImageFormat>Ο τρόπος κωδικοποίησης της εικόνας στο τελικό αρχείο.</ImageFormat>
@@ -2381,41 +2381,41 @@
     <ImageType>Το χρωματικό θέμα της εικόνας: χρώμα - η εικόνα μετά την εξαγωγή θα μοιάζει απόλυτα με την εικόνα στο πρόγραμμα προβολής; γκρι – η εικόνα μετά την εξαγωγή θα είναι σε αποχρώσεις του γκρι; μονόχρωμη - η εικόνα θα είναι αυστηρώς ασπρόμαυρη. Παράλληλα, θα πρέπει να ληφθεί υπ' όψιν ότι η μονόχρωμη επιλογή διαχωρίζεται σε τρεις υποδιαιρέσεις ανάλογα με το dithering: Κανένα, Ordered, FloydSt.</ImageType>
     <KillSpaceLines>Αφαίρεση κενώνω γραμμών από το έγγραφο.</KillSpaceLines>
     <MultipleFiles>Κάθε σελίδα αναφοράς μπορεί να είναι ξεχωριστό αρχείο.</MultipleFiles>
-    <Open>Άνοιγμα αποθηκευμένης αναφοράς.</Open>
+    <Open>Άνοιγμα αναφοράς.</Open>
     <OpenAfterExport>Αυτόματο άνοιγμα του παραχθέντος εγγράφου (μετά την εξαγωγή) με το πρόγραμμα που είναι προεπιλεγμένο για αυτόν τον τύπο αρχείου.</OpenAfterExport>
     <OwnerPassword>Ο κωδικός πρόσβασης για λειτουργίες επεξεργασίας του αρχείου.</OwnerPassword>
     <PageAll>Επεξεργασία όλων των σελίδων της αναφοράς.</PageAll>
     <PageBands>Ποιες κεφαλίδες και ποια υποσέλιδα σελίδας περιλαμβάνονται στο έγγραφο: κανένα, η πρώτη κεφαλίδα και το τελευταίο υποσέλιδο ή όλα.</PageBands>
-    <PageDelete>Διαγραφή της επιλεγμένης σελίδας της αναφοράς.</PageDelete>
+    <PageDelete>Διαγραφή της επιλεγμένης σελίδας.</PageDelete>
     <PageDesign>Επεξεργασία σελίδας στον Σχεδιαστή.</PageDesign>
-    <PageFirst>Μετάβαση στην πρώτη σελίδα της αναφοράς.</PageFirst>
-    <PageGoTo>Μετάβαση στην προσδιορισμένη σελίδα της αναφοράς.</PageGoTo>
-    <PageLast>Μετάβαση στην τελευταία σελίδα της αναφοράς.</PageLast>
-    <PageNew>Προσθήκη νέας σελίδας στην αναφορά.</PageNew>
-    <PageNext>Μετάβαση στην επόμενη σελίδα της αναφοράς.</PageNext>
-    <PagePrevious>Μετάβαση στην προηγούμενη σελίδα της αναφοράς.</PagePrevious>
-    <PageSize>Αλλαγή των παραμέτρων σελίδας της αναφοράς.</PageSize>
-    <Parameters>Εμφάνιση του πάνελ παραμέτρων.</Parameters>
+    <PageFirst>Μετάβαση στην πρώτη σελίδα.</PageFirst>
+    <PageGoTo>Μετάβαση στην προσδιορισμένη σελίδα.</PageGoTo>
+    <PageLast>Μετάβαση στην τελευταία σελίδα.</PageLast>
+    <PageNew>Προσθήκη νέας σελίδας.</PageNew>
+    <PageNext>Μετάβαση στην επόμενη σελίδα.</PageNext>
+    <PagePrevious>Μετάβαση στην προηγούμενη σελίδα.</PagePrevious>
+    <PageSize>Αλλαγή των ρυθμίσεων σελίδας.</PageSize>
+    <Parameters>Εμφάνιση των παραμέτρων.</Parameters>
     <PdfACompliance>Υποστήριξη του προτύπου για μακροχρόνια αρχειοθέτηση και αποθήκευση ηλεκτρονικών εγγράφων.</PdfACompliance>
     <PdfUniversalAccessibility>Υποστήριξη του προτύπου των καθολικά προσβάσιμων ηλεκτρονικών εγγράφων και πληροφοριών.</PdfUniversalAccessibility>
-    <Print>Εκτύπωση αναφοράς.</Print>
+    <Print>Εκτύπωση της αναφοράς.</Print>
     <PutFeedPageCode>Τροφοδοσία σελίδων στο τελικό έγγραφο με έναν ειδικό χαρακτήρα.</PutFeedPageCode>
     <RangePages>Οι αριθμοί σελίδων προς επεξεργασία. Μπορείτε να καθορίσετε μόνο μια σελίδα, μια λίστα από σελίδες (χρησιμοποιώντας κόμμα ',' σαν χαρακτήρα διαχωρισμού), όπως και εύρη σελίδων παρεμβάλλοντας τον χαρακτήρα '-' μεταξύ της αρχικής και τελικής σελίδας. Π.χ. 1,3,5-12.</RangePages>
     <RemoveEmptySpaceAtBottom>Ελαχιστοποίηση κενού χώρου στο κάτω μέρος της σελίδας.</RemoveEmptySpaceAtBottom>
-    <Resources>Εμφάνιση πλαισίου πόρων</Resources>
+    <Resources>Εμφάνιση των πόρων.</Resources>
     <RestrictEditing>Περιορισμός στις αλλαγές του εγγράφου Word.</RestrictEditing>
-    <Save>Αποθήκευση αναφοράς για περαιτέρω χρήση.</Save>
+    <Save>Αποθήκευση της αναφοράς.</Save>
     <ScaleHtml>Το μέγεθος (κλίμακα) των αντικειμένων και σελίδων της αναφοράς μετά την εξαγωγή.</ScaleHtml>
     <ScaleImage>Το μέγεθος (κλίμακα) της αναφοράς μετά την εξαγωγή. Όσο μικρότερη η κλίμακα, τόσο μεγαλύτερος ο αριθμός των εικονοστοιχείων (pixels) ανά ίντσα, και το αντίστροφο.</ScaleImage>
-    <SendEMail>Αποστολή αναφοράς με ηλεκτρονικό ταχυδρομείο.</SendEMail>
+    <SendEMail>Αποστολή της αναφοράς με Email.</SendEMail>
     <Separator>Χαρακτήρας διαχωρισμού δεδομένων στο αρχείο CSV.</Separator>
     <SkipColumnHeaders>Ενεργοποίηση/Απενεργοποίηση των κεφαλίδων στηλών.</SkipColumnHeaders>
     <StandardPdfFonts>14 καθιερωμένες γραμματοσειρές της Adobe. Εάν αυτή η επιλογή είναι ενεργή, τότε μόνο οι 14 γραμματοσειρές θα χρησιμοποιηθούν στο αρχείο PDF. Όλες οι γραμματοσειρές της αναφοράς θα αντιστοιχιστούν σε αυτές τις 14 γραμματοσειρές.</StandardPdfFonts>
     <SubjectNameString>Αναγνωριστικό πιστοποιητικού. Το αναγνωριστικό είναι το όνομα του κατόχου του πιστοποιητικού (πλήρης γραμμή) ή κομμάτι από το όνομα (υπο-μονάδα).</SubjectNameString>
-    <Thumbnails>Εμφάνιση του πάνελ μικρογραφιών σελίδων.</Thumbnails>
+    <Thumbnails>Εμφάνιση των μικρογραφιών σελίδων.</Thumbnails>
     <TiffCompressionScheme>Μέθοδος συμπίεσης για αρχεία TIFF.</TiffCompressionScheme>
-    <ToolEditor>Επεξεργασία κειμένου στην προβολή.</ToolEditor>
-    <ToolSignature>Τοποθετήστε την υπογραφή σας στα σημειωμένα σημεία.</ToolSignature>
+    <ToolEditor>Επεξεργασία επεξεργάσιμων εξαρτημάτων.</ToolEditor>
+    <ToolSignature>Υπογραφή στα σημειωμένα σημεία.</ToolSignature>
     <TypeExport>Ο τύπος αρχείου στον οποίον θα μετατραπεί η αναφορά.</TypeExport>
     <UnsafeCompilation1>Το έγγραφο αυτό χρησιμοποιεί τη διαδικασία μεταγλώττισης. Σε μερικές περιπτώσεις, αυτό μπορεί να μην είναι ασφαλες. Έτσι, το έγγραφο θα φορτωθεί σε ασφαλή λειτουργία, για να ελαχιστοποιηθούν πιθανοί κίνδυνοι.</UnsafeCompilation1>
     <UnsafeCompilation2>Εάν επιθυμείτε το έγγραφο αυτό να χρησιμοποιείται στην αρχική του μορφή, παρακαλώ επικοινωνήστε με τους προγραμματιστές σας.</UnsafeCompilation2>
@@ -2425,13 +2425,13 @@
     <UsePageHeadersAndFooters>Εξαγωγή των ζωνών Κεφαλίδα Σελίδας και Υποσέλιδο Σελίδας, σαν κεφαλίδες και υποσέλιδα του εγγράφου Microsoft Word.</UsePageHeadersAndFooters>
     <UserPassword>Ο κωδικός πρόσβασης που απαιτείται για το άνοιγμα του εγγράφου.</UserPassword>
     <UseUnicode>Εκτεταμένη υποστήριξη κωδικοποίησης χαρακτήρων. Επηρεάζει την εσωτερική κωδικοποίηση του αρχείο PDF και βελτιώνει την αντιγραφή του κειμένου από το αρχείο PDF.</UseUnicode>
-    <ViewModeContinuous>Προβολή όλως των σελίδων της αναφοράς σαν σε κατακόρυφη λωρίδα.</ViewModeContinuous>
-    <ViewModeMultiplePages>Εμφάνιση όσων σελίδων χωρούν στο παράθυρο.</ViewModeMultiplePages>
-    <ViewModeSinglePage>Προβολή μιας μόνο σελίδας στο παράθυρο της προεπισκόπισης.</ViewModeSinglePage>
-    <ZoomMultiplePages>Προσαρμογή πολλών σελίδων στο παράθυρο.</ZoomMultiplePages>
-    <ZoomOnePage>Προσαρμογή μιας σελίδας στο παράθυρο.</ZoomOnePage>
-    <ZoomPageWidth>Προσαρμογή πλάτους σελίδας στο παράθυρο.</ZoomPageWidth>
-    <ZoomTwoPages>Προσαρμογή δύο σελίδων στο παράθυρο.</ZoomTwoPages>
+    <ViewModeContinuous>Εμφάνιση όλων των σελίδων ως λωρίδα.</ViewModeContinuous>
+    <ViewModeMultiplePages>Εμφάνιση πολλών σελίδων.</ViewModeMultiplePages>
+    <ViewModeSinglePage>Εμφάνιση μιας μόνο σελίδας.</ViewModeSinglePage>
+    <ZoomMultiplePages>Προσαρμογή πολλών σελίδων.</ZoomMultiplePages>
+    <ZoomOnePage>Προσαρμογή μιας σελίδας.</ZoomOnePage>
+    <ZoomPageWidth>Προσαρμογή πλάτους σελίδας.</ZoomPageWidth>
+    <ZoomTwoPages>Προσαρμογή δύο σελίδων.</ZoomTwoPages>
     <ZoomTxt>Το μέγεθος της αναφοράς (κλίμακα): X - αλλαγή της οριζόντιας κλίμακας, Y - αλλαγή της κατακόρυφης κλίμακας.</ZoomTxt>
   </HelpViewer>
   <Interface>

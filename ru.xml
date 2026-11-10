@@ -2338,9 +2338,9 @@
     <AllowEditable>Разрешить изменения только для компонентов с включенным свойством Редактируемый.</AllowEditable>
     <AllowModifyContents>Ограниченный доступ к редактированию текста.</AllowModifyContents>
     <AllowPrintDocument>Ограниченный доступ к операции печать.</AllowPrintDocument>
-    <Bookmarks>Показать панель закладок.</Bookmarks>
+    <Bookmarks>Показать закладки.</Bookmarks>
     <BorderType>Тип границы компонентов: простая - отрисовка границы компонентов символами +,-, |. Unicode одинарная - отрисовка границ компонентов символами псевдографики одинарными, Unicode двойная - отрисовка границ компонентов двойными символами псевдографики.</BorderType>
-    <Close>Свернуть закладку просмотра.</Close>
+    <Close>Закрыть просмотр.</Close>
     <CloseDotMatrix>Свернуть закладку просмотра для матричных принтеров.</CloseDotMatrix>
     <Compressed>Сжатие конечного документа. Рекомендуется всегда включать сжатие файла.</Compressed>
     <CompressToArchive>Упаковать все файлы и папки в zip архив.</CompressToArchive>
@@ -2353,7 +2353,7 @@
     <DashboardContains3>Вы не можете сделать это из вьювера отчетов!</DashboardContains3>
     <DigitalSignature>Цифровая подпись к файлу.</DigitalSignature>
     <DitheringType>Тип монохромного смешивания: None - без дизеринга, Ordered, FloydSt - с дизерингом.</DitheringType>
-    <DotMatrixMode>Просмотр отчета для матричного принтера.</DotMatrixMode>
+    <DotMatrixMode>Показать в матричном режиме.</DotMatrixMode>
     <DrawBorder>Отрисовка границ компонентов символами графики.</DrawBorder>
     <Edit>Редактировать элементы отчета.</Edit>
     <EmbeddedFonts>Встроить файлы шрифтов в файл PDF.</EmbeddedFonts>
@@ -2371,8 +2371,8 @@
     <ExportObjectFormatting>Применять форматирование к экспорту с бэндов Данные (компонент Таблица, бэнд Дерево).</ExportObjectFormatting>
     <ExportPageBreaks>Отобразить границы страниц отчета на листе в Excel.</ExportPageBreaks>
     <ExportRtfTextAsImage>Конвертация RTF текста в изображение при экспорте. Если параметр выключен, то форматированный текст при экспорте раскладывается на более простые примитивы, поддерживаемые форматом PDF. Форматированный текст со сложным форматированием (вложенные изображения, таблицы) не всегда может быть преобразован корректно. В этом случае рекомендуется включить данный параметр.</ExportRtfTextAsImage>
-    <Find>Поиск текста в отчете.</Find>
-    <FullScreen>Полноэкранный просмотр отчета.</FullScreen>
+    <Find>Найти текст.</Find>
+    <FullScreen>Показать во весь экран.</FullScreen>
     <GetCertificateFromCryptoUI>Использование интерфейса системной библиотеки криптографии.</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Метод сжатия: JPEG - это сжатие с потерями, Flate - сжатие без потерь, Simple, Ordered, FloydSt. - изображения в монохромном режиме.</ImageCompressionMethod>
     <ImageFormat>Формат изображений в конечном файле.</ImageFormat>
@@ -2383,41 +2383,41 @@
     <ImageType>Цветовая схема изображения: цвет - изображения после экспорта будет полностью соответствовать изображению во вьювере; серый - изображения после экспорта будут серого оттенка; монохромный - изображения будут сугубо черно-белые. При этом, следует учитывать, что монохромные изображения имеют три режима None, Ordered, FloydSt.</ImageType>
     <KillSpaceLines>Удалить пустые линии (строки) в документе.</KillSpaceLines>
     <MultipleFiles>Каждая страница отчета отдельным файлом.</MultipleFiles>
-    <Open>Открыть сохраненный отчет.</Open>
+    <Open>Открыть отчет.</Open>
     <OpenAfterExport>Автоматическое открытие созданного документа (после завершения экспорта) программой, установленной по умолчанию для этих типов файлов.</OpenAfterExport>
     <OwnerPassword>Пароль доступа к операциям с файлом.</OwnerPassword>
     <PageAll>Обработка всех страниц отчета.</PageAll>
     <PageBands>Какие колонтитулы страниц попадут в документ: никакие, первый заголовок и последний итог или все.</PageBands>
-    <PageDelete>Удалить выбранную страницу отчета.</PageDelete>
+    <PageDelete>Удалить выбранную страницу.</PageDelete>
     <PageDesign>Изменить страницу в дизайнере.</PageDesign>
-    <PageFirst>Перейти на первую страницу отчета.</PageFirst>
-    <PageGoTo>Перейти на указанную страницу отчета.</PageGoTo>
-    <PageLast>Перейти на последнюю страницу отчета.</PageLast>
-    <PageNew>Добавить пустую страницу в конец отчета.</PageNew>
-    <PageNext>Перейти на следующую страницу в отчете.</PageNext>
-    <PagePrevious>Перейти на предыдущую страницу в отчете.</PagePrevious>
-    <PageSize>Изменить параметры страницы в отчете.</PageSize>
-    <Parameters>Показать панель параметров отчета.</Parameters>
+    <PageFirst>Перейти на первую страницу.</PageFirst>
+    <PageGoTo>Перейти на указанную страницу.</PageGoTo>
+    <PageLast>Перейти на последнюю страницу.</PageLast>
+    <PageNew>Добавить новую страницу.</PageNew>
+    <PageNext>Перейти на следующую страницу.</PageNext>
+    <PagePrevious>Перейти на предыдущую страницу.</PagePrevious>
+    <PageSize>Изменить параметры страницы.</PageSize>
+    <Parameters>Показать параметры.</Parameters>
     <PdfACompliance>Поддержка стандарта долгосрочного архивного хранения электронных документов.</PdfACompliance>
     <PdfUniversalAccessibility>Поддержка стандарта универсальной доступности электронных документов и информации.</PdfUniversalAccessibility>
     <Print>Напечатать отчет.</Print>
     <PutFeedPageCode>Разграничивать страницы в конечном документе при помощи специального символа.</PutFeedPageCode>
     <RangePages>Номера страниц, которые необходимо обработать. Указать можно одну страницу, список страниц (используя запятые как разделитель), а также задать диапазон, задав начальную страницу диапазона, разделитель "-", и конечную страницу диапазона. Для примера: 1,3,5-12.</RangePages>
     <RemoveEmptySpaceAtBottom>Минимизировать пустое место внизу страницы.</RemoveEmptySpaceAtBottom>
-    <Resources>Отображение панели ресурсов</Resources>
+    <Resources>Показать ресурсы.</Resources>
     <RestrictEditing>Ограничения на изменения в документе Word.</RestrictEditing>
-    <Save>Сохранить отчет для последующего использования.</Save>
+    <Save>Сохранить отчет.</Save>
     <ScaleHtml>Размер (масштаб) страниц отчета и элементов отчета после экспорта.</ScaleHtml>
     <ScaleImage>Размер (масштаб) отчета после экспорта. Чем меньше масштаб, тем больше количество пикселей на дюйм и наоборот.</ScaleImage>
-    <SendEMail>Послать отчет по Email.</SendEMail>
+    <SendEMail>Отправить отчет по Email.</SendEMail>
     <Separator>Символ-разделитель между данными в файле CSV.</Separator>
     <SkipColumnHeaders>Включить/выключить заголовки колонок.</SkipColumnHeaders>
     <StandardPdfFonts>14 стандартных шрифтов Adobe. Если данный параметр включен, то в PDF файле после экспорта, будут использованы только стандартные 14 шрифтов, и все шрифты отчета будут преобразованы в них.</StandardPdfFonts>
     <SubjectNameString>Идентификатор сертификата. Идентификатор - это имя владельца сертификата (полная строка) или часть имени (подстрока).</SubjectNameString>
-    <Thumbnails>Показать панель эскизов страниц.</Thumbnails>
+    <Thumbnails>Показать эскизы страниц.</Thumbnails>
     <TiffCompressionScheme>Схема сжатия для TIFF файлов.</TiffCompressionScheme>
-    <ToolEditor>Редактировать текст отчета во вьювере.</ToolEditor>
-    <ToolSignature>Поставьте свою подпись в отмеченных местах.</ToolSignature>
+    <ToolEditor>Изменить редактируемые компоненты.</ToolEditor>
+    <ToolSignature>Подписать отмеченные места.</ToolSignature>
     <TypeExport>Тип файла, в который будет преобразован отчет.</TypeExport>
     <UnsafeCompilation1>В этом документе используется процесс компиляции. В некоторых случаях это может быть небезопасно. Поэтому документ будет загружен в безопасном режиме, чтобы свести к минимуму любые потенциальные риски.</UnsafeCompilation1>
     <UnsafeCompilation2>Если вам требуется, чтобы этот документ использовался в оригинальном виде, обратитесь к своим разработчикам.</UnsafeCompilation2>
@@ -2427,13 +2427,13 @@
     <UsePageHeadersAndFooters>Экспортировать бэнды Заголовок страницы и Итог страницы как верхний и нижний колонтитул документа MS Word.</UsePageHeadersAndFooters>
     <UserPassword>Пароль, необходимый для открытия документа.</UserPassword>
     <UseUnicode>Расширенная поддержка кодирования символов. Влияет на внутреннее кодирование символов внутри PDF файла и улучшает копирование текста из PDF файла.</UseUnicode>
-    <ViewModeContinuous>Отображать все страницы отчета в виде вертикальной ленты.</ViewModeContinuous>
-    <ViewModeMultiplePages>Показать столько страниц, сколько войдет в окно.</ViewModeMultiplePages>
-    <ViewModeSinglePage>Отображать только одну страницу в окне просмотра.</ViewModeSinglePage>
-    <ZoomMultiplePages>Вписать несколько страниц в окно.</ZoomMultiplePages>
-    <ZoomOnePage>Вписать одну страницу в окно.</ZoomOnePage>
-    <ZoomPageWidth>Вписать ширину страницы в окно.</ZoomPageWidth>
-    <ZoomTwoPages>Вписать две страницы в окно.</ZoomTwoPages>
+    <ViewModeContinuous>Показывать все страницы лентой.</ViewModeContinuous>
+    <ViewModeMultiplePages>Показывать несколько страниц.</ViewModeMultiplePages>
+    <ViewModeSinglePage>Показывать одну страницу.</ViewModeSinglePage>
+    <ZoomMultiplePages>Вписать несколько страниц.</ZoomMultiplePages>
+    <ZoomOnePage>Вписать одну страницу.</ZoomOnePage>
+    <ZoomPageWidth>Вписать ширину страницы.</ZoomPageWidth>
+    <ZoomTwoPages>Вписать две страницы.</ZoomTwoPages>
     <ZoomTxt>Размер (масштаб) отчета: X - изменить масштаб по горизонтали, Y - изменить масштаб по вертикали.</ZoomTxt>
   </HelpViewer>
   <Interface>

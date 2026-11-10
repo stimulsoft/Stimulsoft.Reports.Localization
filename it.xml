@@ -2338,9 +2338,9 @@
     <AllowEditable>Consenti modifica dei soli componenti che hanno la proprietà Editable abilitata.</AllowEditable>
     <AllowModifyContents>Accesso limitato alla modifica del testo.</AllowModifyContents>
     <AllowPrintDocument>Accesso limitato alla stampa.</AllowPrintDocument>
-    <Bookmarks>Mostra il pannello dei segnalibri.</Bookmarks>
+    <Bookmarks>Mostra i segnalibri.</Bookmarks>
     <BorderType>Il tipo di bordo dei componenti: semplice - disegna bordi dei componenti con il carattere +, -, |; Unicode singolo - disegna bordi singoli intorno ai caratteri, Unicode doppio - disegna bordi doppi intorno ai caratteri</BorderType>
-    <Close>Chiude l'Anteprima e torna alla modifica del report.</Close>
+    <Close>Chiude l'anteprima.</Close>
     <CloseDotMatrix>Chiude la visualizzazione Matrice di Punti e torna alla modifica del report.</CloseDotMatrix>
     <Compressed>Compressione del documento. Si raccomanda di includere sempre la compressione file.</Compressed>
     <CompressToArchive>Includi tutti i files e le cartelle nell'archivio zip.</CompressToArchive>
@@ -2353,7 +2353,7 @@
     <DashboardContains3>Non puoi farlo dal visualizzatore report!</DashboardContains3>
     <DigitalSignature>La firma digitale del file.</DigitalSignature>
     <DitheringType>Tipo di Dithering: Nessuno - nessun dithering, Ordinato, FloydSt - con dithering.</DitheringType>
-    <DotMatrixMode>Anteprima del report per stampante a matrice di punti.</DotMatrixMode>
+    <DotMatrixMode>Visualizza in modalità matrice di punti.</DotMatrixMode>
     <DrawBorder>Disegna i bordi dei componenti con caratteri grafici.</DrawBorder>
     <Edit>Modifica componenti.</Edit>
     <EmbeddedFonts>Includi i files del font nel file PDF.</EmbeddedFonts>
@@ -2371,8 +2371,8 @@
     <ExportObjectFormatting>Applica formattazione ai dati esportati dalle Data bands (Table component, Hierarchical band).</ExportObjectFormatting>
     <ExportPageBreaks>Mostra i bordi delle pagine del report sul foglio di Excel.</ExportPageBreaks>
     <ExportRtfTextAsImage>Converti il testo RTF in immagine. Se l'opzione è disabilitata, esportando, il RichText si scompone in primitivi più semplici supportati dal formato PDF. Il RichText con formattazione complessa (immagini incorporate, tabelle) potrebbe non essere convertito correttamente. In questo caso si raccomanda di abilitare questa opzione.</ExportRtfTextAsImage>
-    <Find>Cerca un testo nel report.</Find>
-    <FullScreen>Lettura a Schermo Intero.</FullScreen>
+    <Find>Cerca un testo.</Find>
+    <FullScreen>Visualizza a schermo intero.</FullScreen>
     <GetCertificateFromCryptoUI>Usa l'interfaccia della libreria crittografica di sistema.</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Il metodo di compressione: JPEG - può causare perdita di qualità, Flate – nessuna perdita di qualità, Semplice, Ordinato, FloydSt - output immagini monocromatico.</ImageCompressionMethod>
     <ImageFormat>Formato immagine del file finale.</ImageFormat>
@@ -2383,41 +2383,41 @@
     <ImageType>Schema di colore dell'immagine: colore - l'immagine dopo l'esportazione risulterà esattamente come l'immagine nel visualizzatore; grigio – una immagine dopo l'esportazione sarà in toni di grigio; monocromatica - l'immagine sarà in bianco e nero. Allo stesso tempo, dovete considerare che il monocromatico ha tre modalità Nessuno, Ordinato, FloydSt.</ImageType>
     <KillSpaceLines>Rimuovi le linee vuote (righe) nel documento.</KillSpaceLines>
     <MultipleFiles>Ogni pagina del report può essere un file separato.</MultipleFiles>
-    <Open>Apre un report salvato.</Open>
+    <Open>Apre un report.</Open>
     <OpenAfterExport>Apertura automatica del documento creato (dopo l'esportazione) tramite il programma associato a questo tipo di file.</OpenAfterExport>
     <OwnerPassword>La password richiesta per eseguire le operazioni con il file.</OwnerPassword>
     <PageAll>Processa tutte le pagine del report.</PageAll>
     <PageBands>Quali intestazioni e piè di pagina inserire nel documento: nessuno, la prima intestazione e l'ultimo piè di pagina, oppure tutti.</PageBands>
-    <PageDelete>Elimina la pagina selezionata di un report.</PageDelete>
+    <PageDelete>Elimina la pagina selezionata.</PageDelete>
     <PageDesign>Modifica la pagina nel designer.</PageDesign>
-    <PageFirst>Va alla prima pagina del report.</PageFirst>
-    <PageGoTo>Va alla pagine del report specificata.</PageGoTo>
-    <PageLast>Va all'ultima pagina del report.</PageLast>
-    <PageNew>Aggiunge nuova pagina ad un report.</PageNew>
-    <PageNext>Va alla pagina successiva di un report.</PageNext>
-    <PagePrevious>Va alla pagina precedente di un report.</PagePrevious>
-    <PageSize>Cambia i parametri della pagina di un report.</PageSize>
-    <Parameters>Mostra il pannello dei parametri.</Parameters>
+    <PageFirst>Va alla prima pagina.</PageFirst>
+    <PageGoTo>Va alla pagina specificata.</PageGoTo>
+    <PageLast>Va all'ultima pagina.</PageLast>
+    <PageNew>Aggiunge una nuova pagina.</PageNew>
+    <PageNext>Va alla pagina successiva.</PageNext>
+    <PagePrevious>Va alla pagina precedente.</PagePrevious>
+    <PageSize>Cambia le impostazioni della pagina.</PageSize>
+    <Parameters>Mostra i parametri.</Parameters>
     <PdfACompliance>Supporto allo standard di archiviazione documentale a lungo termine.</PdfACompliance>
     <PdfUniversalAccessibility>Supporto dello standard dei documenti e delle informazioni elettroniche universalmente accessibili.</PdfUniversalAccessibility>
-    <Print>Stampa un report.</Print>
+    <Print>Stampa il report.</Print>
     <PutFeedPageCode>Inserisce un carattere speciale di salto pagina.</PutFeedPageCode>
     <RangePages>Numero di pagine da processare. Puoi specificare una pagina singola, una lista di pagine (utilizzando la virgola come separatore), oppure un intervallo di pagine specificando la prima pagina dell'insieme separata da "-" e l'ultima pagina dell'insieme. Per esempio: 1,3,5-12.</RangePages>
     <RemoveEmptySpaceAtBottom>Minimizza lo spazio vuoto in fondo alla pagina.</RemoveEmptySpaceAtBottom>
-    <Resources>Mostra il pannello delle risorse</Resources>
+    <Resources>Mostra le risorse.</Resources>
     <RestrictEditing>Limita le modifiche sui documenti Word.</RestrictEditing>
-    <Save>Salva un report per utilizzi futuri.</Save>
+    <Save>Salva il report.</Save>
     <ScaleHtml>La dimensione (scala) delle pagine e degli oggetti del report dopo l'esportazione.</ScaleHtml>
     <ScaleImage>La dimensione (scala) del report dopo l'esportazione. Minore è la scala, maggiore è il numero di pixel per pollice, e viceversa.</ScaleImage>
-    <SendEMail>Invia un report via Email.</SendEMail>
+    <SendEMail>Invia il report via Email.</SendEMail>
     <Separator>Separatore di dati nel file CSV.</Separator>
     <SkipColumnHeaders>Abilita/Disabilita le intestazioni di colonna.</SkipColumnHeaders>
     <StandardPdfFonts>14 standard Adobe fonts. Se questa opzione è abilitata, solo i 14 fonts standard saranno utilizzati nel file PDF. Tutti i fonts del report saranno convertiti con questi.</StandardPdfFonts>
     <SubjectNameString>Identificatore di certificato. L'identificatore è il nome del proprietario del certificato (riga completa) o una parte del nome (sottostringa).</SubjectNameString>
-    <Thumbnails>Mostra il pannello delle miniature delle pagine.</Thumbnails>
+    <Thumbnails>Mostra le miniature delle pagine.</Thumbnails>
     <TiffCompressionScheme>Schema di compressione per file TIFF.</TiffCompressionScheme>
-    <ToolEditor>Modifica il testo del report nel visualizzatore.</ToolEditor>
-    <ToolSignature>Inserisci la tua firma nei punti indicati.</ToolSignature>
+    <ToolEditor>Modifica i componenti modificabili.</ToolEditor>
+    <ToolSignature>Firma nei punti indicati.</ToolSignature>
     <TypeExport>Il tipo di file in cui il report sarà convertito.</TypeExport>
     <UnsafeCompilation1>Questo documento utilizza il processo di compilazione. In alcuni casi, ciò potrebbe non essere sicuro. Pertanto, il documento verrà caricato in modalità sicura per minimizzare eventuali rischi.</UnsafeCompilation1>
     <UnsafeCompilation2>Se hai bisogno di utilizzare questo documento nella sua forma originale, contatta i tuoi sviluppatori.</UnsafeCompilation2>
@@ -2427,13 +2427,13 @@
     <UsePageHeadersAndFooters>Usa Intestazione e piè di pagina del report come intestazione e piè di pagina del documento MS Word.</UsePageHeadersAndFooters>
     <UserPassword>La password richiesta per aprire il documento.</UserPassword>
     <UseUnicode>Supporto esteso per l'encoding dei caratteri. Determina la codifica interna dei caratteri nel file PDF e migliora la copia del testo dal file PDF.</UseUnicode>
-    <ViewModeContinuous>Mostra tutte le pagine del report come nastro verticale.</ViewModeContinuous>
-    <ViewModeMultiplePages>Mostra tutte le pagine che entrano nella finestra.</ViewModeMultiplePages>
-    <ViewModeSinglePage>Mostra una singola pagina nella finestra di anteprima.</ViewModeSinglePage>
-    <ZoomMultiplePages>Adatta più pagine alla finestra.</ZoomMultiplePages>
-    <ZoomOnePage>Adatta una pagina alla finestra.</ZoomOnePage>
-    <ZoomPageWidth>Adatta la larghezza della pagina alla finestra.</ZoomPageWidth>
-    <ZoomTwoPages>Adatta due pagine alla finestra.</ZoomTwoPages>
+    <ViewModeContinuous>Mostra tutte le pagine come un nastro.</ViewModeContinuous>
+    <ViewModeMultiplePages>Mostra più pagine.</ViewModeMultiplePages>
+    <ViewModeSinglePage>Mostra una singola pagina.</ViewModeSinglePage>
+    <ZoomMultiplePages>Adatta più pagine.</ZoomMultiplePages>
+    <ZoomOnePage>Adatta una pagina.</ZoomOnePage>
+    <ZoomPageWidth>Adatta la larghezza della pagina.</ZoomPageWidth>
+    <ZoomTwoPages>Adatta due pagine.</ZoomTwoPages>
     <ZoomTxt>Dimensione report (scala): X - cambia la scala orizzontale, Y - cambia la scala verticale.</ZoomTxt>
   </HelpViewer>
   <Interface>

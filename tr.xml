@@ -2338,9 +2338,9 @@
     <AllowEditable>Düzenlenebilir özellik etkinleştirilmiş bileşenleri değiştirmeye izin verir.</AllowEditable>
     <AllowModifyContents>Metin düzenlemeye sınırlı erişim.</AllowModifyContents>
     <AllowPrintDocument>Yazdırma işlemine sınırlı erişim.</AllowPrintDocument>
-    <Bookmarks>Yer imleri panelini gösterin.</Bookmarks>
+    <Bookmarks>Yer imlerini gösterin.</Bookmarks>
     <BorderType>Bileşenlerin kenarlık türü: karakterler ve bileşenlerin basit çizim sınırları +, -, |; Unicode tek - tek kutu çizim karakterleri ile sınırları çizme, Unicode çift - çift kutu çizim karakterler ile sınırları çizme.</BorderType>
-    <Close>Rapor Önizlemeyi Kapat.</Close>
+    <Close>Önizlemeyi kapatın.</Close>
     <CloseDotMatrix>Dot Matrix Görüntüleyici'yi kapat.</CloseDotMatrix>
     <Compressed>Hazır belgenin sıkıştırılması. Her zaman dosya sıkıştırması eklemeniz önerilir.</Compressed>
     <CompressToArchive>Tüm dosyaları ve klasörleri zip arşivinde paketleyin.</CompressToArchive>
@@ -2353,7 +2353,7 @@
     <DashboardContains3>Bunu rapor görüntüleyicisinden yapamazsınız!</DashboardContains3>
     <DigitalSignature>Dosyanın dijital imzası.</DigitalSignature>
     <DitheringType>Dithering Tipi: Yok - dithering yok, Ordered, FloydSt. - dithering ile.</DitheringType>
-    <DotMatrixMode>Raporu nokta vuruşlu yazıcı için önizleyin.</DotMatrixMode>
+    <DotMatrixMode>Dot-Matrix modunda görüntüleyin.</DotMatrixMode>
     <DrawBorder>Bileşenlerin kenarlıklarını grafik karakterlerle çizme.</DrawBorder>
     <Edit>Bileşenleri düzenle.</Edit>
     <EmbeddedFonts>Font dosyalarını bir PDF dosyasına gömün.</EmbeddedFonts>
@@ -2371,8 +2371,8 @@
     <ExportObjectFormatting>Veri bantlarından (Tablo bileşeni, Hiyerarşik bant) verileri dışa aktarmak için biçimlendirme uygulayın.</ExportObjectFormatting>
     <ExportPageBreaks>Excel Sayfasındaki rapor sayfalarının kenarlıklarını göster.</ExportPageBreaks>
     <ExportRtfTextAsImage>RTF metnini görüntüye dönüştürün. Bu seçenek etkinleştirilirse, dışa aktarma sırasında, ZenginMetin PDF formatı tarafından desteklenen daha basit ilkellere ayrışır. Karmaşık formatlamaya sahip ZenginMetin (gömülü görüntüler, tablolar) her zaman doğru şekilde dönüştürülemez. Bu durumda bu seçeneği etkinleştirmeniz önerilir.</ExportRtfTextAsImage>
-    <Find>Raporda bir metin bulun.</Find>
-    <FullScreen>Tam ekran okuma.</FullScreen>
+    <Find>Metin bulun.</Find>
+    <FullScreen>Tam ekranda görüntüleyin.</FullScreen>
     <GetCertificateFromCryptoUI>Sistem şifreleme kitaplığı arabirimini kullanarak.</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Sıkıştırma yöntemi: JPEG - bu kalite kaybına neden olabilir, Flate - kalite kaybı yok, Basit, Düzen, FloydSt. - görüntüler tek renkli olarak çıktı.</ImageCompressionMethod>
     <ImageFormat>Bitmiş dosyadaki resim formatı.</ImageFormat>
@@ -2383,41 +2383,41 @@
     <ImageType>Görüntünün renk şeması: dışa aktarmadan sonraki renk - görüntü, görüntüleyicideki görüntüyle tamamen eşleşecektir; gri - dışa aktarım sonrası bir görüntü gri gölgede olacak; tek renkli - görüntüler kesinlikle siyah ve beyaz olacaktır. Aynı zamanda, monokromun Yok, Sıralı, FloydSt olmak üzere üç modu olduğu düşünülmelidir.</ImageType>
     <KillSpaceLines>Belgedeki boş satırları (satırları) kaldırın.</KillSpaceLines>
     <MultipleFiles>Her rapor sayfası ayrı bir dosya olabilir.</MultipleFiles>
-    <Open>Kaydedilmiş bir raporu açın.</Open>
+    <Open>Bir rapor açın.</Open>
     <OpenAfterExport>Oluşturulan belgenin (dışa aktarmadan sonra) bu dosya türleri için ayarlanan program tarafından otomatik olarak açılması.</OpenAfterExport>
     <OwnerPassword>Dosya ile işlemleri gerçekleştirmek için gereken şifre.</OwnerPassword>
     <PageAll>Tüm rapor sayfalarının işlenmesi.</PageAll>
     <PageBands>Belgeye hangi sayfa üst ve alt kısımlarının ekleneceği: hiçbiri, ilk üst kısım ve son alt kısım veya tümü.</PageBands>
-    <PageDelete>Seçilen rapor sayfasını sil.</PageDelete>
+    <PageDelete>Seçilen sayfayı silin.</PageDelete>
     <PageDesign>Sayfayı tasarımcıda düzenleyin.</PageDesign>
-    <PageFirst>İlk rapor sayfasına git.</PageFirst>
-    <PageGoTo>Belirtilen rapor sayfasına git.</PageGoTo>
-    <PageLast>Son rapor sayfasına git.</PageLast>
-    <PageNew>Bir rapora yeni bir sayfa ekle.</PageNew>
-    <PageNext>Sonraki rapor sayfasına git.</PageNext>
-    <PagePrevious>Bir önceki rapor sayfasına git.</PagePrevious>
-    <PageSize>Rapordaki sayfa parametrelerini değiştirin.</PageSize>
-    <Parameters>Rapor parametreleri panelini gösterin.</Parameters>
+    <PageFirst>İlk sayfaya gidin.</PageFirst>
+    <PageGoTo>Belirtilen sayfaya gidin.</PageGoTo>
+    <PageLast>Son sayfaya gidin.</PageLast>
+    <PageNew>Yeni bir sayfa ekleyin.</PageNew>
+    <PageNext>Sonraki sayfaya gidin.</PageNext>
+    <PagePrevious>Önceki sayfaya gidin.</PagePrevious>
+    <PageSize>Sayfa ayarlarını değiştirin.</PageSize>
+    <Parameters>Parametreleri gösterin.</Parameters>
     <PdfACompliance>Elektronik belgelerin uzun süreli arşivlenmesi ve saklanması standardı için destek.</PdfACompliance>
     <PdfUniversalAccessibility>Evrensel olarak erişilebilir elektronik belgeler ve bilgiler standardı desteği.</PdfUniversalAccessibility>
-    <Print>Rapor yazdır.</Print>
+    <Print>Raporu yazdırın.</Print>
     <PutFeedPageCode>Son belgedeki sayfaları özel bir karakterle ayırın.</PutFeedPageCode>
     <RangePages>şlenecek sayfa numaraları. Tek bir sayfa, sayfaların bir listesini (ayırıcı olarak virgül kullanarak) belirtebildiğiniz gibi, aralığın başlangıç ​​sayfasının "-" ve aralığın son sayfası ile ayrılmış olarak ayarlanmasını sağlayabilirsiniz. Örneğin: 1,3,5-12.</RangePages>
     <RemoveEmptySpaceAtBottom>Sayfanın altındaki boş alanı en aza indirin.</RemoveEmptySpaceAtBottom>
-    <Resources>Kaynak panelini gösterme</Resources>
+    <Resources>Kaynakları gösterin.</Resources>
     <RestrictEditing> Word belgesindeki değişikliklerin limiti.</RestrictEditing>
-    <Save>Bir raporu ileride kullanmak için kaydedin.</Save>
+    <Save>Raporu kaydedin.</Save>
     <ScaleHtml>Rapor sayfalarının ve öğelerin dışa aktarma sonrası boyutu (ölçeği).</ScaleHtml>
     <ScaleImage>Dışa aktarma işleminden sonra raporun boyutu (ölçeği). Ölçek ne kadar düşükse, inç başına düşen piksel sayısı o kadar fazla olur, tersi de geçerlidir.</ScaleImage>
-    <SendEMail>E-posta ile bir rapor gönderin.</SendEMail>
+    <SendEMail>Raporu e-posta ile gönderin.</SendEMail>
     <Separator>CSV dosyasındaki veriler arasında ayırıcı</Separator>
     <SkipColumnHeaders>Sütun başlıklarını etkin / devre dışı bırakın.</SkipColumnHeaders>
     <StandardPdfFonts>14 standart Adobe yazı tipi. Bu seçenek etkinleştirilirse, PDF dosyasında yalnızca standart 14 yazı tipi kullanılacaktır. Tüm rapor yazı tipleri bunlara dönüştürülür.</StandardPdfFonts>
     <SubjectNameString>Sertifika tanımlayıcısı. Tanımlayıcı, sertifika sahibinin adıdır (tam satır) veya adın bir kısmıdır (alt dizgi).</SubjectNameString>
-    <Thumbnails>Sayfa küçük resimleri panelini gösterin.</Thumbnails>
+    <Thumbnails>Sayfa küçük resimlerini gösterin.</Thumbnails>
     <TiffCompressionScheme>TIFF dosyaları için sıkıştırma şeması.</TiffCompressionScheme>
-    <ToolEditor>Rapor metnini görüntüleyicide düzenleyin.</ToolEditor>
-    <ToolSignature>İmzanızı işaretli yerlere koyun.</ToolSignature>
+    <ToolEditor>Düzenlenebilir bileşenleri düzenleyin.</ToolEditor>
+    <ToolSignature>İşaretli yerleri imzalayın.</ToolSignature>
     <TypeExport> Rapor, dosyaya dönüştürülecek.</TypeExport>
     <UnsafeCompilation1>Bu belge derleme sürecini kullanır. Bazı durumlarda bu güvenli olmayabilir. Bu nedenle, belge olası riskleri en aza indirmek için güvenli modda yüklenecektir.</UnsafeCompilation1>
     <UnsafeCompilation2>Bu belgenin orijinal haliyle kullanılmasını istiyorsanız lütfen geliştiricilerinizle iletişime geçin.</UnsafeCompilation2>
@@ -2427,13 +2427,13 @@
     <UsePageHeadersAndFooters>Sayfa ÜstKısım ve AltKısmını, Microsoft Word'deki belgenin üstbilgisi ve altbilgisi olarak tanımlayın.</UsePageHeadersAndFooters>
     <UserPassword>Belgeyi açmak için gereken şifre.</UserPassword>
     <UseUnicode>Karakterleri kodlamak için genişletilmiş destek. PDF dosyasındaki dahili karakter kodlamasını etkiler ve metnin PDF dosyasından kopyalanmasını geliştirir.</UseUnicode>
-    <ViewModeContinuous>Tüm rapor sayfalarını dikey şerit olarak göster.</ViewModeContinuous>
-    <ViewModeMultiplePages>Pencereye sığan kadar sayfa gösterin.</ViewModeMultiplePages>
-    <ViewModeSinglePage>Önizleme penceresindeki tek bir sayfayı göster.</ViewModeSinglePage>
-    <ZoomMultiplePages>Birkaç sayfayı pencereye sığdırın.</ZoomMultiplePages>
-    <ZoomOnePage>Bir sayfayı pencereye sığdırın.</ZoomOnePage>
-    <ZoomPageWidth>Sayfa genişliğini pencereye sığdırın.</ZoomPageWidth>
-    <ZoomTwoPages>İki sayfayı pencereye sığdırın.</ZoomTwoPages>
+    <ViewModeContinuous>Tüm sayfaları şerit olarak gösterin.</ViewModeContinuous>
+    <ViewModeMultiplePages>Birkaç sayfa gösterin.</ViewModeMultiplePages>
+    <ViewModeSinglePage>Tek bir sayfa gösterin.</ViewModeSinglePage>
+    <ZoomMultiplePages>Birkaç sayfayı sığdırın.</ZoomMultiplePages>
+    <ZoomOnePage>Bir sayfayı sığdırın.</ZoomOnePage>
+    <ZoomPageWidth>Sayfa genişliğini sığdırın.</ZoomPageWidth>
+    <ZoomTwoPages>İki sayfayı sığdırın.</ZoomTwoPages>
     <ZoomTxt>Rapor boyutu (ölçek): X - yatay ölçeği değiştirir, Y - dikey ölçeği değiştirir.</ZoomTxt>
   </HelpViewer>
   <Interface>

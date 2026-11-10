@@ -2336,9 +2336,9 @@
     <AllowEditable>Povolit změny pouze u komponent se zapnutou vlastností Editovatelné.</AllowEditable>
     <AllowModifyContents>Omezený přístup k úpravám textu.</AllowModifyContents>
     <AllowPrintDocument>Omezený přístup k operaci tisku.</AllowPrintDocument>
-    <Bookmarks>Zobrazit panel záložek.</Bookmarks>
+    <Bookmarks>Zobrazit záložky.</Bookmarks>
     <BorderType>Typ okraje komponent: jednoduchý – vykreslení okrajů komponent znaky +, -, |; Unicode jednoduchý – vykreslení okrajů jednoduchými znaky pro kreslení rámečků, Unicode dvojitý – vykreslení okrajů dvojitými znaky pro kreslení rámečků.</BorderType>
-    <Close>Zavřít náhled reportu.</Close>
+    <Close>Zavřít náhled.</Close>
     <CloseDotMatrix>Zavřít prohlížeč pro jehličkové tiskárny.</CloseDotMatrix>
     <Compressed>Komprese výsledného dokumentu. Doporučuje se komprese souboru vždy zapnout.</Compressed>
     <CompressToArchive>Zabalit všechny soubory a složky do zip archivu.</CompressToArchive>
@@ -2351,7 +2351,7 @@
     <DashboardContains3>To nelze provést z prohlížeče reportů!</DashboardContains3>
     <DigitalSignature>Digitální podpis souboru.</DigitalSignature>
     <DitheringType>Typ ditheringu: None – bez ditheringu, Ordered, FloydSt. – s ditheringem.</DitheringType>
-    <DotMatrixMode>Náhled reportu pro jehličkovou tiskárnu.</DotMatrixMode>
+    <DotMatrixMode>Zobrazit v režimu matice bodů.</DotMatrixMode>
     <DrawBorder>Vykreslení okrajů komponent grafickými znaky.</DrawBorder>
     <Edit>Editace položek.</Edit>
     <EmbeddedFonts>Vložit soubory písem do souboru PDF.</EmbeddedFonts>
@@ -2369,8 +2369,8 @@
     <ExportObjectFormatting>Použít formátování při exportu dat z bandů Data (komponenta Tabulka, hierarchický band).</ExportObjectFormatting>
     <ExportPageBreaks>Zobrazit okraje stránek reportu na listu v Excelu.</ExportPageBreaks>
     <ExportRtfTextAsImage>Převést text RTF na obrázek. Pokud je tato možnost vypnuta, RichText se při exportu rozkládá na jednodušší primitiva podporovaná formátem PDF. RichText se složitým formátováním (vložené obrázky, tabulky) nelze vždy převést správně. V takovém případě se doporučuje tuto možnost zapnout.</ExportRtfTextAsImage>
-    <Find>Vyhledání textu v reportu.</Find>
-    <FullScreen>Čtení na celou obrazovku.</FullScreen>
+    <Find>Najít text.</Find>
+    <FullScreen>Zobrazit na celou obrazovku.</FullScreen>
     <GetCertificateFromCryptoUI>Použití rozhraní systémové kryptografické knihovny.</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Metoda komprese: JPEG – může způsobit ztrátu kvality, Flate – bez ztráty kvality, Simple, Ordered, FloydSt. – obrázky jsou vytvářeny monochromaticky.</ImageCompressionMethod>
     <ImageFormat>Formát obrázků ve výsledném souboru.</ImageFormat>
@@ -2381,30 +2381,30 @@
     <ImageType>Barevné schéma obrázku: barevné – obrázek po exportu bude plně odpovídat obrázku v prohlížeči; šedé – obrázek po exportu bude v šedém odstínu; monochromatické – obrázky budou výhradně černobílé. Přitom je třeba vzít v úvahu, že monochromatické zobrazení má tři režimy None, Ordered, FloydSt.</ImageType>
     <KillSpaceLines>Odstranit prázdné řádky v dokumentu.</KillSpaceLines>
     <MultipleFiles>Každá stránka reportu může být samostatným souborem.</MultipleFiles>
-    <Open>Otevřít uložený report.</Open>
+    <Open>Otevřít report.</Open>
     <OpenAfterExport>Automatické otevření vytvořeného dokumentu (po exportu) programem nastaveným pro tyto typy souborů.</OpenAfterExport>
     <OwnerPassword>Heslo pro přístup k operacím se soubory.</OwnerPassword>
     <PageAll>Zpracování všech stránek reportu.</PageAll>
     <PageBands>Která záhlaví a zápatí stránek se dostanou do dokumentu: žádná, první záhlaví a poslední zápatí, nebo všechna.</PageBands>
-    <PageDelete>Smazat vybranou stránku reportu.</PageDelete>
+    <PageDelete>Smazat vybranou stránku.</PageDelete>
     <PageDesign>Editovat stránku v návrháři.</PageDesign>
-    <PageFirst>Přejít na první stranu reportu.</PageFirst>
-    <PageGoTo>Přejít na určenou stránku reportu.</PageGoTo>
-    <PageLast>Přejít na poslední stránku reportu.</PageLast>
-    <PageNew>Přidat novou stránku reportu.</PageNew>
-    <PageNext>Přejít na další stránku reportu.</PageNext>
-    <PagePrevious>Přejít na předchozí stránku reportu.</PagePrevious>
-    <PageSize>Změnit parametry stránky reportu.</PageSize>
-    <Parameters>Zobrazit panel parametrů reportu.</Parameters>
+    <PageFirst>Přejít na první stránku.</PageFirst>
+    <PageGoTo>Přejít na určenou stránku.</PageGoTo>
+    <PageLast>Přejít na poslední stránku.</PageLast>
+    <PageNew>Přidat novou stránku.</PageNew>
+    <PageNext>Přejít na další stránku.</PageNext>
+    <PagePrevious>Přejít na předchozí stránku.</PagePrevious>
+    <PageSize>Změnit nastavení stránky.</PageSize>
+    <Parameters>Zobrazit parametry.</Parameters>
     <PdfACompliance>Podpora standardu pro dlouhodobou archivaci a ukládání elektronických dokumentů.</PdfACompliance>
     <PdfUniversalAccessibility>Podpora standardu pro univerzálně přístupné elektronické dokumenty a informace.</PdfUniversalAccessibility>
     <Print>Tisknout report.</Print>
     <PutFeedPageCode>Oddělit stránky ve výsledném dokumentu speciálním znakem.</PutFeedPageCode>
     <RangePages>Čísla stránek, které mají být zpracovány. Můžete zadat jednu stránku, seznam stránek (s použitím čárky jako oddělovače) nebo zadat rozsah nastavením počáteční stránky rozsahu odděleného znakem "-" a koncové stránky rozsahu. Například: 1,3,5-12.</RangePages>
     <RemoveEmptySpaceAtBottom>Minimalizovat prázdné místo v dolní části stránky.</RemoveEmptySpaceAtBottom>
-    <Resources>Zobrazení panelu zdrojů</Resources>
+    <Resources>Zobrazit zdroje.</Resources>
     <RestrictEditing>Omezení změn v dokumentu Word.</RestrictEditing>
-    <Save>Uložit report pro pozdější použití.</Save>
+    <Save>Uložit report.</Save>
     <ScaleHtml>Velikost (měřítko) stránek reportu a položek po exportu.</ScaleHtml>
     <ScaleImage>Velikost (měřítko) reportu po exportu. Čím nižší je měřítko, tím větší je počet pixelů na palec a naopak.</ScaleImage>
     <SendEMail>Poslat report e-mailem.</SendEMail>
@@ -2412,10 +2412,10 @@
     <SkipColumnHeaders>Zapnout/vypnout záhlaví sloupců.</SkipColumnHeaders>
     <StandardPdfFonts>14 standardních písem Adobe. Pokud je tato možnost zapnuta, budou v souboru PDF použita pouze standardní písma v počtu 14. Všechna písma reportu jsou do nich převedena.</StandardPdfFonts>
     <SubjectNameString>Identifikátor certifikátu. Identifikátorem je jméno vlastníka certifikátu (celý řetězec) nebo část jména (podřetězec).</SubjectNameString>
-    <Thumbnails>Zobrazit panel miniatur stránek.</Thumbnails>
+    <Thumbnails>Zobrazit miniatury stránek.</Thumbnails>
     <TiffCompressionScheme>Schéma komprese pro soubory TIFF.</TiffCompressionScheme>
-    <ToolEditor>Editovat text reportu v prohlížeči.</ToolEditor>
-    <ToolSignature>Vložte svůj podpis na označená místa.</ToolSignature>
+    <ToolEditor>Editovat editovatelné komponenty.</ToolEditor>
+    <ToolSignature>Podepsat označená místa.</ToolSignature>
     <TypeExport>Soubor, do kterého bude report převeden.</TypeExport>
     <UnsafeCompilation1>Tento dokument používá proces kompilace. V některých případech to nemusí být bezpečné. Proto bude dokument načten v bezpečném režimu, aby se minimalizovala jakákoli potenciální rizika.</UnsafeCompilation1>
     <UnsafeCompilation2>Pokud potřebujete tento dokument používat v jeho původní podobě, obraťte se na své vývojáře.</UnsafeCompilation2>
@@ -2425,13 +2425,13 @@
     <UsePageHeadersAndFooters>Definovat bandy Záhlaví stránky a Zápatí jako záhlaví a zápatí dokumentu v aplikaci Microsoft Word.</UsePageHeadersAndFooters>
     <UserPassword>Heslo potřebné k otevření dokumentu.</UserPassword>
     <UseUnicode>Rozšířená podpora kódování znaků. Ovlivňuje interní kódování znaků v souboru PDF a zlepšuje kopírování textu ze souboru PDF.</UseUnicode>
-    <ViewModeContinuous>Zobrazit všechny stránky reportu jako svislý pás.</ViewModeContinuous>
-    <ViewModeMultiplePages>Zobrazit tolik stránek, kolik se vejde do okna.</ViewModeMultiplePages>
-    <ViewModeSinglePage>Zobrazit samostatnou stránku v okně náhledu.</ViewModeSinglePage>
-    <ZoomMultiplePages>Přizpůsobit několik stránek oknu.</ZoomMultiplePages>
-    <ZoomOnePage>Přizpůsobit jednu stránku oknu.</ZoomOnePage>
-    <ZoomPageWidth>Přizpůsobit šířku stránky oknu.</ZoomPageWidth>
-    <ZoomTwoPages>Přizpůsobit dvě stránky oknu.</ZoomTwoPages>
+    <ViewModeContinuous>Zobrazit všechny stránky jako pás.</ViewModeContinuous>
+    <ViewModeMultiplePages>Zobrazit několik stránek.</ViewModeMultiplePages>
+    <ViewModeSinglePage>Zobrazit jednu stránku.</ViewModeSinglePage>
+    <ZoomMultiplePages>Přizpůsobit několik stránek.</ZoomMultiplePages>
+    <ZoomOnePage>Přizpůsobit jednu stránku.</ZoomOnePage>
+    <ZoomPageWidth>Přizpůsobit šířku stránky.</ZoomPageWidth>
+    <ZoomTwoPages>Přizpůsobit dvě stránky.</ZoomTwoPages>
     <ZoomTxt>Velikost (měřítko) reportu: X – změnit vodorovné měřítko, Y – změnit svislé měřítko.</ZoomTxt>
   </HelpViewer>
   <Interface>

@@ -2338,9 +2338,9 @@
     <AllowEditable>Erlaubt im exportierten PDF das Bearbeiten von Elementen, bei welchen die Eigenschaft Editierbar aktiviert ist.</AllowEditable>
     <AllowModifyContents>Das Bearbeiten von Inhalten erlauben.</AllowModifyContents>
     <AllowPrintDocument>Das Drucken des Dokuments erlauben.</AllowPrintDocument>
-    <Bookmarks>Lesezeichenbereich anzeigen.</Bookmarks>
+    <Bookmarks>Lesezeichen anzeigen.</Bookmarks>
     <BorderType>Rahmentyp der Komponenten: Einfach - der Rahmen wird mit den Zeichen +, - und | gezeichnet; Unicode-Einfach - der Rahmen wird mit einfachen Unicode-Rahmenelementen gezeichnet, Unicode-Doppelt - der Rahmen wird mit doppelten Unicode-Rahmenelementen gezeichnet</BorderType>
-    <Close>Vorschau schließen</Close>
+    <Close>Vorschau schließen.</Close>
     <CloseDotMatrix>Dot-Matrix Vorschau schließen</CloseDotMatrix>
     <Compressed>Komprimierung des erstellten Dokuments. Es wird empfohlen, die Dateikomprimierung immer zu aktivieren.</Compressed>
     <CompressToArchive>Alle Dateien und Ordner in ZIP-Datei archivieren.</CompressToArchive>
@@ -2353,7 +2353,7 @@
     <DashboardContains3>Sie können nicht es aus dem Viewer erfüllen!</DashboardContains3>
     <DigitalSignature>Die digitale Signatur der Datei aktivieren.</DigitalSignature>
     <DitheringType>Dithering Typ: None - ohne Dithering; Ordered und FloydSteinberg - mit Dithering</DitheringType>
-    <DotMatrixMode>Vorschau des Berichts für Nadeldrucker.</DotMatrixMode>
+    <DotMatrixMode>Im Dot-Matrix Modus anzeigen.</DotMatrixMode>
     <DrawBorder>Den Rahmen von Komponenten mit Hilfe von grafischen Zeichen darstellen.</DrawBorder>
     <Edit>Bearbeiten</Edit>
     <EmbeddedFonts>Schriftarten in die PDF-Datei einbetten.</EmbeddedFonts>
@@ -2371,8 +2371,8 @@
     <ExportObjectFormatting>Formatierung beim Exportieren von Daten anwenden (Datenband, Tabelle, hierarchisches Band).</ExportObjectFormatting>
     <ExportPageBreaks>Seitenumbrüche in der Excel-Tabelle anzeigen.</ExportPageBreaks>
     <ExportRtfTextAsImage>Konvertiert den Inhalt von Richtext-Elementen in ein Bild. Diese Option kann verwendet werden, wenn komplexer Richtext (zum Beispiel mit eingebetteten Bildern oder Tabellen) nicht korrekt ins PDF-Format exportiert werden kann.</ExportRtfTextAsImage>
-    <Find>Suchen</Find>
-    <FullScreen>Vorschau bildschirmfüllend darstellen</FullScreen>
+    <Find>Text suchen.</Find>
+    <FullScreen>Auf dem ganzen Bildschirm anzeigen.</FullScreen>
     <GetCertificateFromCryptoUI>Während dem Export ein auf dem Rechner installiertes Zertifikat in einem Dialogfenster auswählen.</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Auswahl der Bildkomprimierungsmethode: JPEG - kleine Dateien aber möglicherweise Datenverlust; Flate – ohne Qualitätsverlust aber grössere Dateien; Simple, Ordered und FloydSt - Bilder werden monochrom exportiert.</ImageCompressionMethod>
     <ImageFormat>Exportformat von Bildern.</ImageFormat>
@@ -2383,41 +2383,41 @@
     <ImageType>Das Farbschema des zu exportierenden Bildes: Farbe - die Bilder werden in vollem Farbumfang exportiert; Graustufen – die Bilder werden in Graustufen umgewandelt; Monochrom - die Bilder werden in Schwarz/Weiss umgewandelt.</ImageType>
     <KillSpaceLines>Entfernt Leerzeilen aus dem Dokument.</KillSpaceLines>
     <MultipleFiles>Exportiert jede Berichtseite in eine eigene Datei.</MultipleFiles>
-    <Open>Gespeicherten Bericht öffnen.</Open>
+    <Open>Einen Bericht öffnen.</Open>
     <OpenAfterExport>Die Exportdatei wird nach Abschluss des Exportvorgangs automatisch durch das dem Dateityp zugewiesene Programm geöffnet.</OpenAfterExport>
     <OwnerPassword>Das benötigte Passwort, um Aktionen im geöffneten Dokument auszuführen.</OwnerPassword>
     <PageAll>Alle Berichtseiten werden verarbeitet.</PageAll>
     <PageBands>Welche Seitenköpfe und -füße in das Dokument übernommen werden: keine, der erste Seitenkopf und der letzte Seitenfuß oder alle.</PageBands>
-    <PageDelete>Seite löschen</PageDelete>
+    <PageDelete>Ausgewählte Seite löschen.</PageDelete>
     <PageDesign>Seite im Designer bearbeiten.</PageDesign>
-    <PageFirst>Erste Seite</PageFirst>
-    <PageGoTo>Gehe zu... Seite</PageGoTo>
-    <PageLast>Letzte Seite</PageLast>
-    <PageNew>Neue Seite</PageNew>
-    <PageNext>Nächste Seite</PageNext>
-    <PagePrevious>Vorherige Seite</PagePrevious>
-    <PageSize>Seitengröße ändern</PageSize>
-    <Parameters>Parameterbereich anzeigen.</Parameters>
+    <PageFirst>Zur ersten Seite gehen.</PageFirst>
+    <PageGoTo>Zur angegebenen Seite gehen.</PageGoTo>
+    <PageLast>Zur letzten Seite gehen.</PageLast>
+    <PageNew>Neue Seite hinzufügen.</PageNew>
+    <PageNext>Zur nächsten Seite gehen.</PageNext>
+    <PagePrevious>Zur vorherigen Seite gehen.</PagePrevious>
+    <PageSize>Seiteneinstellungen ändern.</PageSize>
+    <Parameters>Parameter anzeigen.</Parameters>
     <PdfACompliance>Das exportierte Dokument unterstützt das Format PDF/A, welches für Langzeitarchivierung verwendet wird.</PdfACompliance>
     <PdfUniversalAccessibility>Die Unterstützung für Standard der universellen Verfügbarkeit von elektronischen Dokumenten und Informationen.</PdfUniversalAccessibility>
-    <Print>Drucken</Print>
+    <Print>Bericht drucken.</Print>
     <PutFeedPageCode>Das Seitenende in der Textdatei mit einem speziellen Zeichen markieren.</PutFeedPageCode>
     <RangePages>Seitennummern, welche verarbeitet werden sollen. Es kann eine einzelne Seite, eine kommagetrennte Liste von Seiten oder ein durch das "-"-Zeichen getrennter Bereich von Seiten angegeben werden. Beispiel: 1,3,5-12</RangePages>
     <RemoveEmptySpaceAtBottom>Unterdrückt den leeren Bereich am unteren Ende einer Berichtseite.</RemoveEmptySpaceAtBottom>
-    <Resources>Anzeige des Ressourcen Panel</Resources>
+    <Resources>Ressourcen anzeigen.</Resources>
     <RestrictEditing>Limitiert die Bearbeitbarkeit von Text in einem Word Dokument.</RestrictEditing>
-    <Save>Speichern</Save>
+    <Save>Bericht speichern.</Save>
     <ScaleHtml>Die Skalierung der Berichtseiten beim Exportieren.</ScaleHtml>
     <ScaleImage>Die Skalierung des Bildes beim Export. Je tiefer der Wert, desto höher ist der Dpi-Wert des exportieren Bildes.</ScaleImage>
-    <SendEMail>E-Mail versenden</SendEMail>
+    <SendEMail>Bericht per E-Mail versenden.</SendEMail>
     <Separator>Trennzeichen zwischen den Feldern der CSV-Datei.</Separator>
     <SkipColumnHeaders>Export der Spaltenüberschriften unterdrücken.</SkipColumnHeaders>
     <StandardPdfFonts>Aktiviert die Verwendung der 14 Standardschriftarten von Adobe. Alle im Bericht verwendeten Schriftarten werden in eine dieser Standardschriftarten konvertiert.</StandardPdfFonts>
     <SubjectNameString>Identifiziert ein Zertifikat. Der Wert kann den vollen oder einen Teil des Zertifikatnamens beinhalten.</SubjectNameString>
-    <Thumbnails>Bereich mit Seitenminiaturen anzeigen.</Thumbnails>
+    <Thumbnails>Seitenminiaturen anzeigen.</Thumbnails>
     <TiffCompressionScheme>Legt das Kompressionsschema für TIFF Grafikdateien fest.</TiffCompressionScheme>
-    <ToolEditor>Berichtstext im Viewer bearbeiten.</ToolEditor>
-    <ToolSignature>Setzen Sie Ihre Unterschrift an die markierten Stellen.</ToolSignature>
+    <ToolEditor>Editierbare Komponenten bearbeiten.</ToolEditor>
+    <ToolSignature>An markierten Stellen unterschreiben.</ToolSignature>
     <TypeExport>Der Typ Datendatei, welcher durch den Export erstellt wird.</TypeExport>
     <UnsafeCompilation1>Dieses Dokument verwendet den Kompilationsprozess. Manchmal könnte es gefährlich sein. Deshalb wird das Dokument im abgesicherten Modus geladen werden, um mögliche Risiken zu minimieren.</UnsafeCompilation1>
     <UnsafeCompilation2>Wenn Sie das Dokument in seiner ursprünglichen Form verwenden möchten, kontaktieren Sie Ihren Entwicklern.</UnsafeCompilation2>
@@ -2427,13 +2427,13 @@
     <UsePageHeadersAndFooters>Die Kopf- und Fuß-Bänder der Berichtseite als Kopf- bzw. Fußzeile im MS Word Dokument verwenden.</UsePageHeadersAndFooters>
     <UserPassword>Das benötigte Passwort, um das Dokument zu öffnen.</UserPassword>
     <UseUnicode>Unterstützung des Unicode Zeichensatzes. Damit wird die Codierung spezieller Zeichen im PDF und das Kopieren von Text aus dem PDF verbessert.</UseUnicode>
-    <ViewModeContinuous>Alle Berichtsseiten in einem endlosen vertikalen Band anzeigen</ViewModeContinuous>
-    <ViewModeMultiplePages>So viele Seiten anzeigen, wie ins Fenster passen.</ViewModeMultiplePages>
-    <ViewModeSinglePage>Einzelne Seite anzeigen</ViewModeSinglePage>
-    <ZoomMultiplePages>Mehrere Seiten in das Fenster einpassen.</ZoomMultiplePages>
-    <ZoomOnePage>Eine Seite in das Fenster einpassen.</ZoomOnePage>
-    <ZoomPageWidth>Seitenbreite an das Fenster anpassen.</ZoomPageWidth>
-    <ZoomTwoPages>Zwei Seiten in das Fenster einpassen.</ZoomTwoPages>
+    <ViewModeContinuous>Alle Seiten als Band anzeigen.</ViewModeContinuous>
+    <ViewModeMultiplePages>Mehrere Seiten anzeigen.</ViewModeMultiplePages>
+    <ViewModeSinglePage>Einzelne Seite anzeigen.</ViewModeSinglePage>
+    <ZoomMultiplePages>Mehrere Seiten einpassen.</ZoomMultiplePages>
+    <ZoomOnePage>Eine Seite einpassen.</ZoomOnePage>
+    <ZoomPageWidth>An Seitenbreite anpassen.</ZoomPageWidth>
+    <ZoomTwoPages>Zwei Seiten einpassen.</ZoomTwoPages>
     <ZoomTxt>Die Skalierung im Dokument: X - Ändert die horizontale Skalierung; Y - Ändert die vertikale Skalierung.</ZoomTxt>
   </HelpViewer>
   <Interface>

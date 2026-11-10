@@ -2338,9 +2338,9 @@
     <AllowEditable>Gjør det mulig å bare endre de komponentene som har egenskapen Redigerbar aktivert.</AllowEditable>
     <AllowModifyContents>Begrenset tilgang til tekstredigering.</AllowModifyContents>
     <AllowPrintDocument>Begrenset tilgang til utskrifter.</AllowPrintDocument>
-    <Bookmarks>Vis bokmerkepanelet.</Bookmarks>
+    <Bookmarks>Vis bokmerker.</Bookmarks>
     <BorderType>Rammetypen til komponenter: enkel – tegner komponentrammer med tegn +, -, |; Enkel Unicode – tegner rammene med enkle bokstegn, Dobbel Unicode – tegner rammene med doble bokstegn.</BorderType>
-    <Close>Lukk forhåndsvisning av rapport.</Close>
+    <Close>Lukk forhåndsvisningen.</Close>
     <CloseDotMatrix>Avslutt Dot Matrix Viewer av rapport.</CloseDotMatrix>
     <Compressed>Komprimering av det ferdige dokumentet. Vi anbefaler at du alltid bruker filkomprimering.</Compressed>
     <CompressToArchive>Pakker sammen alle filer og mapper i zip-arkivet.</CompressToArchive>
@@ -2353,7 +2353,7 @@
     <DashboardContains3>Du kan ikke gjøre dette fra rapportvisningen!</DashboardContains3>
     <DigitalSignature>Den digitale signaturen til filen.</DigitalSignature>
     <DitheringType>Rastreringstype: Ingen – ingen rastrering, I rekkefølge, FloydSt. – med rastrering.</DitheringType>
-    <DotMatrixMode>Forhåndsvis rapporten for en matriseskriver.</DotMatrixMode>
+    <DotMatrixMode>Vis i prikkmatriseformat.</DotMatrixMode>
     <DrawBorder>Tegner kantene på komponenter med grafiske tegn.</DrawBorder>
     <Edit>Rediger komponenter.</Edit>
     <EmbeddedFonts>Bygg inn skrifttypefiler i en PDF-fil.</EmbeddedFonts>
@@ -2371,8 +2371,8 @@
     <ExportObjectFormatting>Bruk formattering på eksportdata fra databånd (tabellkomponent, hierarkisk bånd).</ExportObjectFormatting>
     <ExportPageBreaks>Vis rammene til rapportsidene i Excel-arket.</ExportPageBreaks>
     <ExportRtfTextAsImage>Konverter RTF-teksten inn i bildet. Hvis dette alternativet er aktivert, blir rik tekst redusert til enklere primitive typer som støttes av PDF-formatet ved eksport. Rik tekst med kompleks formattering (innebygde bilder, tabeller) blir ikke alltid riktig konvertert. Hvis dette er tilfelle, anbefaler vi at du aktiverer dette alternativet.</ExportRtfTextAsImage>
-    <Find>Søk etter tekst i rapport.</Find>
-    <FullScreen>Fullskjermvisning.</FullScreen>
+    <Find>Søk etter tekst.</Find>
+    <FullScreen>Vis i fullskjerm.</FullScreen>
     <GetCertificateFromCryptoUI>Bruker grensesnittet til kryptografibiblioteket i systemet.</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Komprimeringsmetoden: JPEG – dette kan føre til kvalitetstap, Flate – ingen kvalitetstap, Enkel, I rekkefølge, FloydSt. – bilder tegnes i svart-hvitt.</ImageCompressionMethod>
     <ImageFormat>Bildeformatet til den ferdige filen.</ImageFormat>
@@ -2383,41 +2383,41 @@
     <ImageType>Fargeskjemaet til bildet: farge – etter eksport er bildet helt likt bildet i visningsprogrammet, grått – etter eksport er bildet gråskalert, monokrom – bildene blir utelukkende svart-hvite. Du bør samtidig huske at monokrom har tre moduser: Ingen, I rekkefølge, FloydSt.</ImageType>
     <KillSpaceLines>Fjern blanke linjer (rader) i dokumentet.</KillSpaceLines>
     <MultipleFiles>Hver rapportsiden kan være en egen fil.</MultipleFiles>
-    <Open>Åpne en lagret rapport.</Open>
+    <Open>Åpne en rapport.</Open>
     <OpenAfterExport>Det nyopprettede dokumentet åpnes automatisk av programmet som er angitt for disse filtypene etter eksport.</OpenAfterExport>
     <OwnerPassword>Passordet som gir tilgang til filene.</OwnerPassword>
     <PageAll>Behandling av alle rapportsider.</PageAll>
     <PageBands>Hvilke topptekster og bunntekster som tas med i dokumentet: ingen, første topptekst og siste bunntekst, eller alle.</PageBands>
-    <PageDelete>Slett valgt side i rapport.</PageDelete>
+    <PageDelete>Slett valgt side.</PageDelete>
     <PageDesign>Rediger siden i designeren.</PageDesign>
-    <PageFirst>Gå til første siden i rapporten.</PageFirst>
-    <PageGoTo>Gå til spesifiserte side i rapporten.</PageGoTo>
-    <PageLast>Gå til siste side i rapporten.</PageLast>
-    <PageNew>Legg til en ny side i rapporten.</PageNew>
-    <PageNext>Gå til neste side i rapporten.</PageNext>
-    <PagePrevious>Gå til forrige side i rapporten.</PagePrevious>
-    <PageSize>Endre sideparametere i rapporten.</PageSize>
-    <Parameters>Vis panelet med rapportparametere.</Parameters>
+    <PageFirst>Gå til første side.</PageFirst>
+    <PageGoTo>Gå til angitt side.</PageGoTo>
+    <PageLast>Gå til siste side.</PageLast>
+    <PageNew>Legg til en ny side.</PageNew>
+    <PageNext>Gå til neste side.</PageNext>
+    <PagePrevious>Gå til forrige side.</PagePrevious>
+    <PageSize>Endre sideinnstillingene.</PageSize>
+    <Parameters>Vis parametere.</Parameters>
     <PdfACompliance>Støtte for langtidsarkivering og lagring av elektroniske dokumenter.</PdfACompliance>
     <PdfUniversalAccessibility>Støtte for standarden for universelt tilgjengelige elektroniske dokumenter og informasjon.</PdfUniversalAccessibility>
-    <Print>Skriv ut rapport.</Print>
+    <Print>Skriv ut rapporten.</Print>
     <PutFeedPageCode>Fyll opp sider i det endelige dokumentet med et spesialtegn.</PutFeedPageCode>
     <RangePages>Sidenumrene som skal behandles. Du kan angi en enkelt side, en liste med sider (hvor du bruker komma for å dele inn), i tillegg til at du kan angi et område ved å skrive inn startsiden til området adskilt med "-" og deretter sistesiden til området. For eksempel: 1,3,5-12.</RangePages>
     <RemoveEmptySpaceAtBottom>Reduser det tomme området nederst på siden til et minimum.</RemoveEmptySpaceAtBottom>
-    <Resources>Viser ressurspanel</Resources>
+    <Resources>Vis ressurser.</Resources>
     <RestrictEditing>Begrenser muligheten til å endret et Word-dokument.</RestrictEditing>
-    <Save>Lagre rapport for videre bruk.</Save>
+    <Save>Lagre rapporten.</Save>
     <ScaleHtml>Størrelsen (skalaen) til rapportsider og elementer etter eksporten.</ScaleHtml>
     <ScaleImage>Størrelsen (skalaen) til rapporten etter eksport. Jo mindre skalaen er, jo større er antall piksler per tomme og motsatt.</ScaleImage>
-    <SendEMail>Send rapport via e-post.</SendEMail>
+    <SendEMail>Send rapporten via e-post.</SendEMail>
     <Separator>Dataseparator i CSV-filen.</Separator>
     <SkipColumnHeaders>Aktiver/deaktiver kolonneoverskrifter.</SkipColumnHeaders>
     <StandardPdfFonts>14 standard Adobe-skrifttyper. Hvis dette alternativer er aktivert, brukes bare de 14 standardskrifttypene i PDF-filen. Alle rapportskrifttyper konverteres til dem.</StandardPdfFonts>
     <SubjectNameString>Sertifikatidentifikator. Identifikatoren er navnet til eieren av sertifikatet (full linje) eller deler av navnet (delstreng).</SubjectNameString>
-    <Thumbnails>Vis panelet med miniatyrbilder av sidene.</Thumbnails>
+    <Thumbnails>Vis miniatyrbilder av sidene.</Thumbnails>
     <TiffCompressionScheme>Komprimeringsmåten til TIFF-filer.</TiffCompressionScheme>
-    <ToolEditor>Rediger rapportteksten i rapportviseren.</ToolEditor>
-    <ToolSignature>Sett signaturen din på de merkede stedene.</ToolSignature>
+    <ToolEditor>Rediger de redigerbare komponentene.</ToolEditor>
+    <ToolSignature>Signer på de merkede stedene.</ToolSignature>
     <TypeExport>Filen rapporten blir konvertert til.</TypeExport>
     <UnsafeCompilation1>Dette dokumentet bruker kompilering. Dette kan i noen tilfeller være usikkert. Derfor lastes dokumentet i sikker modus for å minimere risiko.</UnsafeCompilation1>
     <UnsafeCompilation2>Hvis du trenger å bruke dokumentet i original form, kontakt utviklerne dine.</UnsafeCompilation2>
@@ -2427,13 +2427,13 @@
     <UsePageHeadersAndFooters>Definer båndene Sidetopptekst og Bunntekst som toppteksten og bunnteksten til dokumentet i Microsoft Word.</UsePageHeadersAndFooters>
     <UserPassword>Passordet som brukes til å åpne dokumentet.</UserPassword>
     <UseUnicode>Utvidet støtte for kodetegn. Det påvirker den interne tegnkodingen i PDF-filen og gjør det enklere å kopiere tekst fra PDF-filen.</UseUnicode>
-    <ViewModeContinuous>Vis alle rapportsider som et vertikalt bånd.</ViewModeContinuous>
-    <ViewModeMultiplePages>Vis så mange sider som får plass i vinduet.</ViewModeMultiplePages>
-    <ViewModeSinglePage>Vis en side i forhåndsvisningsvinduet.</ViewModeSinglePage>
-    <ZoomMultiplePages>Tilpass flere sider til vinduet.</ZoomMultiplePages>
-    <ZoomOnePage>Tilpass én side til vinduet.</ZoomOnePage>
-    <ZoomPageWidth>Tilpass sidebredden til vinduet.</ZoomPageWidth>
-    <ZoomTwoPages>Tilpass to sider til vinduet.</ZoomTwoPages>
+    <ViewModeContinuous>Vis alle sider som et bånd.</ViewModeContinuous>
+    <ViewModeMultiplePages>Vis flere sider.</ViewModeMultiplePages>
+    <ViewModeSinglePage>Vis én enkelt side.</ViewModeSinglePage>
+    <ZoomMultiplePages>Tilpass flere sider.</ZoomMultiplePages>
+    <ZoomOnePage>Tilpass én side.</ZoomOnePage>
+    <ZoomPageWidth>Tilpass sidebredden.</ZoomPageWidth>
+    <ZoomTwoPages>Tilpass to sider.</ZoomTwoPages>
     <ZoomTxt>Rapportstørrelse (skala): X – endre den horisontale skalaen, Y – endre den vertikale standarden.</ZoomTxt>
   </HelpViewer>
   <Interface>

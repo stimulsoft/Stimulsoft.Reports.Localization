@@ -2339,9 +2339,9 @@
     <AllowEditable>Editableプロパティを有効にして部品を変更できるようにします。</AllowEditable>
     <AllowModifyContents>テキスト編集へのアクセスが制限されています。</AllowModifyContents>
     <AllowPrintDocument>印刷操作へのアクセスが制限されています。</AllowPrintDocument>
-    <Bookmarks>ブックマークパネルを表示します。</Bookmarks>
+    <Bookmarks>ブックマークを表示します。</Bookmarks>
     <BorderType>部品のボーダータイプ：シンプル - 文字による部品の境界線の描画 - 、 -</BorderType>
-    <Close>レポートプレビューを閉じます。</Close>
+    <Close>プレビューを閉じます。</Close>
     <CloseDotMatrix>ドットマトリクスビューアを閉じます。</CloseDotMatrix>
     <Compressed>準備完了文書の圧縮。 常にファイル圧縮を含めることをお勧めします。</Compressed>
     <CompressToArchive>zipアーカイブ内のすべてのファイルとフォルダをパックします。</CompressToArchive>
@@ -2354,7 +2354,7 @@
     <DashboardContains3>レポート・ビューアからはできない！</DashboardContains3>
     <DigitalSignature>ファイルのデジタル署名。</DigitalSignature>
     <DitheringType>ディザリングタイプ：なし - ディザリングなし、オーダード、FloydSt。 - ディザリングあり。</DitheringType>
-    <DotMatrixMode>ドットマトリックスプリンタ用にレポートをプレビューします。</DotMatrixMode>
+    <DotMatrixMode>ドットマトリクスモードで表示します。</DotMatrixMode>
     <DrawBorder>グラフィック文字で部品の境界を描画する。</DrawBorder>
     <Edit>部品を編集します。</Edit>
     <EmbeddedFonts>フォントファイルをPDFファイルに埋め込みます。</EmbeddedFonts>
@@ -2372,8 +2372,8 @@
     <ExportObjectFormatting>データバンド（表部品、階層バンド）からデータをエクスポートするための書式設定を適用します。</ExportObjectFormatting>
     <ExportPageBreaks>レポートシートの罫線をExcelシートに表示します。</ExportPageBreaks>
     <ExportRtfTextAsImage>RTFテキストをイメージに変換します。 このオプションを有効にすると、書き出し時にRichTextはPDF形式でサポートされるより単純なプリミティブに分解されます。 複雑な書式設定（埋め込み画像、テーブル）を使用したリッチテキストは、常に正しく変換されるとは限りません。 この場合、このオプションを有効にすることをお勧めします。</ExportRtfTextAsImage>
-    <Find>レポート内のテキスト検索</Find>
-    <FullScreen>全画面表示</FullScreen>
+    <Find>テキストを検索します。</Find>
+    <FullScreen>全画面で表示します。</FullScreen>
     <GetCertificateFromCryptoUI>システム暗号ライブラリのインタフェースを使用する。</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>圧縮方法：JPEG - これは品質の低下、Flate - 品質損失なし、Simple、Ordered、FloydSt。 - 画像はモノクロで出力されます。</ImageCompressionMethod>
     <ImageFormat>完成したファイルのイメージフォーマット。</ImageFormat>
@@ -2384,41 +2384,41 @@
     <ImageType>画像のカラースキーム：エクスポート後のカラー画像は、ビューア内の画像と完全に一致します。 グレー - エクスポート後のイメージはグレーの色合いになります。 モノクロ - 画像は厳密に黒と白になります。 同時に、モノクロにはNone、Ordered、FloydStの3つのモードがあると考えるべきである。</ImageType>
     <KillSpaceLines>ドキュメント内の空白行（行）を削除します。</KillSpaceLines>
     <MultipleFiles>各レポートページは個別のファイルにすることができます。</MultipleFiles>
-    <Open>保存したレポートを開きます。</Open>
+    <Open>レポートを開きます。</Open>
     <OpenAfterExport>これらのファイルタイプに設定されたプログラムによって、作成された文書を（エクスポート後に）自動的に開きます。</OpenAfterExport>
     <OwnerPassword>ファイル操作にアクセスするためのパスワード</OwnerPassword>
     <PageAll>すべてのレポートページの処理</PageAll>
     <PageBands>ドキュメントに含めるページヘッダとフッタを指定します：なし、最初のヘッダと最後のフッタ、またはすべて。</PageBands>
-    <PageDelete>選択したレポートページを削除</PageDelete>
+    <PageDelete>選択したページを削除します。</PageDelete>
     <PageDesign>デザイナーでページを編集します。</PageDesign>
-    <PageFirst>最初のレポートへ移動</PageFirst>
-    <PageGoTo>指定したレポートへ移動</PageGoTo>
-    <PageLast>最後のレポートへ移動</PageLast>
-    <PageNew>レポートに新規ページを追加する。</PageNew>
-    <PageNext>次のレポートへ移動</PageNext>
-    <PagePrevious>前のレポートへ移動</PagePrevious>
-    <PageSize>レポートのページパラメータを変更</PageSize>
-    <Parameters>レポートのパラメーターパネルを表示します。</Parameters>
+    <PageFirst>最初のページへ移動します。</PageFirst>
+    <PageGoTo>指定したページへ移動します。</PageGoTo>
+    <PageLast>最後のページへ移動します。</PageLast>
+    <PageNew>新規ページを追加します。</PageNew>
+    <PageNext>次のページへ移動します。</PageNext>
+    <PagePrevious>前のページへ移動します。</PagePrevious>
+    <PageSize>ページ設定を変更します。</PageSize>
+    <Parameters>パラメーターを表示します。</Parameters>
     <PdfACompliance>電子文書の長期保存と保管の基準をサポート</PdfACompliance>
     <PdfUniversalAccessibility>誰もがアクセス可能な電子文書および情報の標準への対応です。</PdfUniversalAccessibility>
-    <Print>レポートを印刷</Print>
+    <Print>レポートを印刷します。</Print>
     <PutFeedPageCode>最終的な文書のページに特殊文字を入力します。</PutFeedPageCode>
     <RangePages>処理されるページ番号。 単一のページ、ページのリスト（セパレータとしてコンマを使用）、および範囲の開始ページを " - "で区切って範囲を指定し、その範囲の最後のページを指定することができます。 例：1,3,5-12。</RangePages>
     <RemoveEmptySpaceAtBottom>ページ下部の空きスペースを最小限に抑えます。</RemoveEmptySpaceAtBottom>
-    <Resources>リソースパネルを表示する</Resources>
+    <Resources>リソースを表示します。</Resources>
     <RestrictEditing>Word文書の変更の制限。</RestrictEditing>
-    <Save>レポートをローカルに保存</Save>
+    <Save>レポートを保存します。</Save>
     <ScaleHtml>エクスポート後のレポートページおよびアイテムのサイズ（スケール）。</ScaleHtml>
     <ScaleImage>エクスポート後のレポートのサイズ（縮尺）。 スケールが小さいほど、1インチあたりのピクセル数が多くなり、その逆もあります。</ScaleImage>
-    <SendEMail>電子メールでレポートを送信する。</SendEMail>
+    <SendEMail>電子メールでレポートを送信します。</SendEMail>
     <Separator>CSVファイル内のデータ間の区切り文字。</Separator>
     <SkipColumnHeaders>有効にする</SkipColumnHeaders>
     <StandardPdfFonts>14の標準Adobeフォント。 このオプションを有効にすると、標準14フォントのみがPDFファイルで使用されます。 すべてのレポートフォントがそれらに変換されます。</StandardPdfFonts>
     <SubjectNameString>証明書の識別子。 識別子は、証明書所有者の名前（フルライン）または名前の一部（サブストリング）です。</SubjectNameString>
-    <Thumbnails>ページのサムネイルパネルを表示します。</Thumbnails>
+    <Thumbnails>ページのサムネイルを表示します。</Thumbnails>
     <TiffCompressionScheme>TIFFファイルの圧縮方式。</TiffCompressionScheme>
-    <ToolEditor>ビューアでレポートのテキストを編集します。</ToolEditor>
-    <ToolSignature>指定された場所に署名を入れます。</ToolSignature>
+    <ToolEditor>編集可能な部品を編集します。</ToolEditor>
+    <ToolSignature>指定された場所に署名します。</ToolSignature>
     <TypeExport>レポートが変換されるファイル。</TypeExport>
     <UnsafeCompilation1>この文書ではコンパイルプロセスを使用しています。場合によっては、これは安全ではないかもしれません。そのため、潜在的なリスクを最小限に抑えるため、文書はセーフモードで読み込まれます。</UnsafeCompilation1>
     <UnsafeCompilation2>この文書を原文のまま使用する必要がある場合は、開発者にご連絡ください。</UnsafeCompilation2>
@@ -2428,13 +2428,13 @@
     <UsePageHeadersAndFooters>ページヘッダとフッタをMicrosoft Wordで文書のヘッダとフッタとして定義します。</UsePageHeadersAndFooters>
     <UserPassword>ドキュメントを開くために必要なパスワード。</UserPassword>
     <UseUnicode>エンコード文字の拡張サポート。 これは、PDFファイル内の文字エンコーディングに影響し、PDFファイルからのテキストのコピーを改善します。</UseUnicode>
-    <ViewModeContinuous>すべてのレポートページを縦のリボンとして表示します。</ViewModeContinuous>
-    <ViewModeMultiplePages>ウィンドウに収まる数のページを表示します。</ViewModeMultiplePages>
-    <ViewModeSinglePage>プレビューウィンドウに1つのページを表示します。</ViewModeSinglePage>
-    <ZoomMultiplePages>複数のページをウィンドウに合わせます。</ZoomMultiplePages>
-    <ZoomOnePage>1ページをウィンドウに合わせます。</ZoomOnePage>
-    <ZoomPageWidth>ページの幅をウィンドウに合わせます。</ZoomPageWidth>
-    <ZoomTwoPages>2ページをウィンドウに合わせます。</ZoomTwoPages>
+    <ViewModeContinuous>すべてのページをリボンとして表示します。</ViewModeContinuous>
+    <ViewModeMultiplePages>複数ページを表示します。</ViewModeMultiplePages>
+    <ViewModeSinglePage>単一ページを表示します。</ViewModeSinglePage>
+    <ZoomMultiplePages>複数ページに合わせます。</ZoomMultiplePages>
+    <ZoomOnePage>1ページに合わせます。</ZoomOnePage>
+    <ZoomPageWidth>ページ幅に合わせます。</ZoomPageWidth>
+    <ZoomTwoPages>2ページに合わせます。</ZoomTwoPages>
     <ZoomTxt>レポートのサイズ（スケール）：X - 水平スケールを変更、Y - 垂直スケールを変更します。</ZoomTxt>
   </HelpViewer>
   <Interface>

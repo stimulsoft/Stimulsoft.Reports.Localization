@@ -2336,9 +2336,9 @@
     <AllowEditable>Memungkinkan mengubah komponen dengan properti Editable diaktifkan.</AllowEditable>
     <AllowModifyContents>akses terbatas ke mengedit teks.</AllowModifyContents>
     <AllowPrintDocument>akses terbatas untuk operasi cetak.</AllowPrintDocument>
-    <Bookmarks>Tampilkan panel penanda buku.</Bookmarks>
+    <Bookmarks>Tampilkan penanda buku.</Bookmarks>
     <BorderType>Jenis perbatasan komponen: sederhana - gambar perbatasan komponen dengan karakter +, -, |; Unicode tunggal - menggambar perbatasan dengan single box-gambar karakter, Unicode ganda -. Menggambar perbatasan dengan dua karakter kotak-gambar</BorderType>
-    <Close>Tutup Pratinjau Laporan.</Close>
+    <Close>Tutup pratinjau.</Close>
     <CloseDotMatrix>Tutup Pelihat Laporan Dot Matrix.</CloseDotMatrix>
     <Compressed>Kompresi dokumen siap. Dianjurkan untuk selalu menyertakan file kompresi.</Compressed>
     <CompressToArchive>Paket semua file dan folder dalam arsip zip.</CompressToArchive>
@@ -2351,7 +2351,7 @@
     <DashboardContains3>Anda tidak dapat melakukan itu dari penampil laporan!</DashboardContains3>
     <DigitalSignature>Tanda tangan digital file.</DigitalSignature>
     <DitheringType>Dithering Jenis: Tidak ada - ada dithering, Memerintahkan, FloydSt. -. Dengan dithering</DitheringType>
-    <DotMatrixMode>Pratinjau laporan untuk printer dot matrix.</DotMatrixMode>
+    <DotMatrixMode>Lihat dalam mode dot-matrix.</DotMatrixMode>
     <DrawBorder>Menggambar perbatasan komponen dengan karakter grafis.</DrawBorder>
     <Edit>Rubah komponen.</Edit>
     <EmbeddedFonts>Embed file font ke file PDF.</EmbeddedFonts>
@@ -2369,8 +2369,8 @@
     <ExportObjectFormatting>Terapkan format data ekspor dari band Data (komponen Table, band hirarkis).</ExportObjectFormatting>
     <ExportPageBreaks>Tampilkan perbatasan halaman laporan pada lembar Excel.</ExportPageBreaks>
     <ExportRtfTextAsImage>Mengkonversi teks RTF ke dalam gambar. Jika opsi ini diaktifkan, maka, ketika mengekspor, RichText terurai menjadi primitif sederhana didukung oleh format PDF. RichText dengan format yang kompleks (gambar tertanam, tabel) tidak selalu dapat dikonversi dengan benar. Dalam hal ini dianjurkan untuk mengaktifkan opsi ini.</ExportRtfTextAsImage>
-    <Find>Cari tulisan dalam laporan.</Find>
-    <FullScreen>Membaca Layar Penuh.</FullScreen>
+    <Find>Cari teks.</Find>
+    <FullScreen>Lihat dalam layar penuh.</FullScreen>
     <GetCertificateFromCryptoUI>Menggunakan antarmuka perpustakaan sistem kriptografi.</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Kompresi Metode: JPEG - ini dapat menyebabkan penurunan kualitas, Flate - tanpa kehilangan kualitas, Simple, Memerintahkan, FloydSt. - Gambar adalah output dalam monokrom</ImageCompressionMethod>
     <ImageFormat>Format gambar dalam file selesai.</ImageFormat>
@@ -2381,41 +2381,41 @@
     <ImageType>Skema warna gambar: warna - gambar setelah mengekspor akan sepenuhnya sesuai dengan gambar di penampil; abu-abu - gambar setelah mengekspor akan dari warna abu-abu; monokrom - gambar akan ketat hitam dan putih. Pada saat yang sama, itu harus dipertimbangkan bahwa monokrom memiliki tiga mode ada, Memerintahkan, FloydSt.</ImageType>
     <KillSpaceLines>Hapus baris kosong (baris) dalam dokumen.</KillSpaceLines>
     <MultipleFiles>Setiap halaman laporan dapat file terpisah.</MultipleFiles>
-    <Open>Buka laporan yang tersimpan.</Open>
+    <Open>Buka laporan.</Open>
     <OpenAfterExport>pembukaan otomatis dari dokumen yang dibuat (setelah ekspor) dengan program yang ditetapkan untuk jenis file ini.</OpenAfterExport>
     <OwnerPassword>Sandi untuk mengakses operasi dengan file.</OwnerPassword>
     <PageAll>Pengolahan dari semua halaman laporan.</PageAll>
     <PageBands>Header dan footer halaman mana yang dimasukkan ke dalam dokumen: tidak ada, header pertama dan footer terakhir, atau semuanya.</PageBands>
-    <PageDelete>Hapus halaman laporan yang dipilih.</PageDelete>
+    <PageDelete>Hapus halaman yang dipilih.</PageDelete>
     <PageDesign>Ubah halaman di designer.</PageDesign>
-    <PageFirst>Pergi ke halaman pertama laporan.</PageFirst>
-    <PageGoTo>Pergi ke halaman tertentu laporan.</PageGoTo>
-    <PageLast>Pergi ke halaman terakhir laporan.</PageLast>
-    <PageNew>Tambahkan satu halaman laporan.</PageNew>
-    <PageNext>Pergi ke Halaman Laporan selanjutnya.</PageNext>
-    <PagePrevious>Pergi ke Halaman Laporan Sebelumnya.</PagePrevious>
-    <PageSize>Rubah parameter halaman pada laporan.</PageSize>
-    <Parameters>Tampilkan panel parameter laporan.</Parameters>
+    <PageFirst>Pergi ke halaman pertama.</PageFirst>
+    <PageGoTo>Pergi ke halaman tertentu.</PageGoTo>
+    <PageLast>Pergi ke halaman terakhir.</PageLast>
+    <PageNew>Tambahkan halaman baru.</PageNew>
+    <PageNext>Pergi ke halaman berikutnya.</PageNext>
+    <PagePrevious>Pergi ke halaman sebelumnya.</PagePrevious>
+    <PageSize>Ubah pengaturan halaman.</PageSize>
+    <Parameters>Tampilkan parameter.</Parameters>
     <PdfACompliance>Dukungan untuk standar pengarsipan jangka panjang dan menyimpan dokumen elektronik.</PdfACompliance>
     <PdfUniversalAccessibility>Dukungan untuk standar dokumen dan informasi elektronik yang dapat diakses secara universal.</PdfUniversalAccessibility>
-    <Print>Cetak Laporan.</Print>
+    <Print>Cetak laporan.</Print>
     <PutFeedPageCode>Umpan halaman dalam dokumen akhir dengan karakter khusus.</PutFeedPageCode>
     <RangePages>Nomor halaman untuk diproses. Anda dapat menentukan satu halaman, daftar halaman (menggunakan koma sebagai pemisah), serta menentukan rentang dengan menetapkan halaman awal dari kisaran dipisahkan oleh "-" dan halaman akhir rentang. Sebagai contoh:. 1,3,5-12</RangePages>
     <RemoveEmptySpaceAtBottom>Minimalkan ruang kosong di bagian bawah halaman.</RemoveEmptySpaceAtBottom>
-    <Resources>Menampilkan panel sumber daya</Resources>
+    <Resources>Tampilkan sumber daya.</Resources>
     <RestrictEditing>Batas perubahan dalam dokumen Word.</RestrictEditing>
-    <Save>Simpan Laporan untuk digunakan lagi.</Save>
+    <Save>Simpan laporan.</Save>
     <ScaleHtml>Ukuran (skala) dari halaman laporan dan barang-barang setelah ekspor.</ScaleHtml>
     <ScaleImage>Ukuran (skala) dari laporan setelah ekspor. Skala yang lebih rendah adalah, lebih besar adalah jumlah pixel per inci, dan sebaliknya.</ScaleImage>
-    <SendEMail>Kirim Laporan Lewat Email.</SendEMail>
+    <SendEMail>Kirim laporan lewat Email.</SendEMail>
     <Separator>Separator antara data di file CSV.</Separator>
     <SkipColumnHeaders>Mengaktifkan / menonaktifkan header kolom.</SkipColumnHeaders>
     <StandardPdfFonts>14 font Adobe standar. Jika opsi ini diaktifkan, maka hanya standar 14 font akan digunakan dalam file PDF. Semua font laporan dikonversi ke mereka.</StandardPdfFonts>
     <SubjectNameString>pengenal Sertifikat. identifier adalah nama dari pemilik sertifikat (garis penuh) atau bagian dari nama (substring).</SubjectNameString>
-    <Thumbnails>Tampilkan panel thumbnail halaman.</Thumbnails>
+    <Thumbnails>Tampilkan thumbnail halaman.</Thumbnails>
     <TiffCompressionScheme>Skema kompresi untuk file TIFF.</TiffCompressionScheme>
-    <ToolEditor>Ubah teks laporan di penampil.</ToolEditor>
-    <ToolSignature>Bubuhkan tanda tangan anda di tempat yang ditandai.</ToolSignature>
+    <ToolEditor>Ubah komponen yang bisa diedit.</ToolEditor>
+    <ToolSignature>Tanda tangani tempat yang ditandai.</ToolSignature>
     <TypeExport>File laporan akan diubah menjadi.</TypeExport>
     <UnsafeCompilation1>Dokumen ini menggunakan proses kompilasi. Dalam beberapa kasus, hal ini mungkin tidak aman. Oleh karena itu, dokumen akan dimuat dalam mode aman untuk meminimalkan potensi risiko.</UnsafeCompilation1>
     <UnsafeCompilation2>Jika Anda memerlukan dokumen ini digunakan dalam bentuk aslinya, silakan hubungi pengembang Anda.</UnsafeCompilation2>
@@ -2425,13 +2425,13 @@
     <UsePageHeadersAndFooters>Tentukan band Halaman Header dan Footer sebagai header dan footer dari dokumen Microsoft Word.</UsePageHeadersAndFooters>
     <UserPassword>Sandi diperlukan untuk membuka dokumen.</UserPassword>
     <UseUnicode>Diperpanjang dukungan untuk encoding karakter. Ini mempengaruhi pada pengkodean karakter internal dalam file PDF, dan meningkatkan menyalin teks dari file PDF.</UseUnicode>
-    <ViewModeContinuous>Perlihatkan Semua Halaman Laporan sebagai Pita Vertikal.</ViewModeContinuous>
-    <ViewModeMultiplePages>Tampilkan halaman sebanyak yang muat di jendela.</ViewModeMultiplePages>
-    <ViewModeSinglePage>Perlihatkan halaman tunggal pada Jendela Pratinjau.</ViewModeSinglePage>
-    <ZoomMultiplePages>Sesuaikan beberapa halaman dengan jendela.</ZoomMultiplePages>
-    <ZoomOnePage>Sesuaikan satu halaman dengan jendela.</ZoomOnePage>
-    <ZoomPageWidth>Sesuaikan lebar halaman dengan jendela.</ZoomPageWidth>
-    <ZoomTwoPages>Sesuaikan dua halaman dengan jendela.</ZoomTwoPages>
+    <ViewModeContinuous>Tampilkan semua halaman sebagai pita.</ViewModeContinuous>
+    <ViewModeMultiplePages>Tampilkan beberapa halaman.</ViewModeMultiplePages>
+    <ViewModeSinglePage>Tampilkan halaman tunggal.</ViewModeSinglePage>
+    <ZoomMultiplePages>Sesuaikan beberapa halaman.</ZoomMultiplePages>
+    <ZoomOnePage>Sesuaikan satu halaman.</ZoomOnePage>
+    <ZoomPageWidth>Sesuaikan lebar halaman.</ZoomPageWidth>
+    <ZoomTwoPages>Sesuaikan dua halaman.</ZoomTwoPages>
     <ZoomTxt>Ukuran laporan (skala). X - mengubah skala horisontal, Y - untuk mengubah skala vertikal</ZoomTxt>
   </HelpViewer>
   <Interface>

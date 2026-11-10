@@ -1811,9 +1811,9 @@
     <AllowEditable>السماح فقط بتعديل العناصر ذات خاصية التعديل مفعلة.</AllowEditable>
     <AllowModifyContents>محدودية الوصول لتعديل النصوص.</AllowModifyContents>
     <AllowPrintDocument>محدودية الوصول لعمليات الطباعة.</AllowPrintDocument>
-    <Bookmarks>إظهار لوحة العناوين.</Bookmarks>
+    <Bookmarks>إظهار العناوين.</Bookmarks>
     <BorderType>نوع حدود المكون: بسيط - رسم حدود المكونات باستخدام الرموز +, -, |; يونيكود مفرد - رسم الحدود باستخدام رمز صندوق منفرد, يونيكود ثنائي - رسم الحدود باستخدام رمز صندوق ثنائي.</BorderType>
-    <Close>استعراض وثيقة والعودة إلى تحرير هذا التقرير.</Close>
+    <Close>إغلاق المعاينة.</Close>
     <CloseDotMatrix>مصفوفة نقطة قريبة عارض والعودة إلى تحرير هذا التقرير.</CloseDotMatrix>
     <Compressed>ضغط الوثيقة الجاهزة. من المستحسن دائما ضغط الملف.</Compressed>
     <CompressToArchive>ضم كافة الملفات والمجلدات في أرشيف مضغوط.</CompressToArchive>
@@ -1823,7 +1823,7 @@
     <CutLongLines>تقليم الأسطر طويلة (أسطرالنص) من قبل حدود المكونات.</CutLongLines>
     <DigitalSignature>التوقيع الرقمي للملف.</DigitalSignature>
     <DitheringType>نمط التردد: بدون - بلا تردد, مرتب, FloydSt - مع تردد.</DitheringType>
-    <DotMatrixMode>معاينة التقرير لطابعة نقطية.</DotMatrixMode>
+    <DotMatrixMode>العرض في نمط الطباعة النقطية.</DotMatrixMode>
     <DrawBorder>رسم حدود المكونات باستخدام رموز رسومية.</DrawBorder>
     <Edit>عدل المكونات.</Edit>
     <EmbeddedFonts>تضمين ملفات الخط في ملف PDF.</EmbeddedFonts>
@@ -1848,8 +1848,8 @@
     <ExportObjectFormatting>تطبيق التنسيق لتصدير البيانات من نطاقات البيانات (مكون جدول، ونطاق هرمية).</ExportObjectFormatting>
     <ExportPageBreaks>كيفية حدود صفحات التقرير على ورقة اكسل.</ExportPageBreaks>
     <ExportRtfTextAsImage>تحويل النص RTF إلى صورة. إذا تم تمكين الخيار، فإنه عند التصدير، RichText يتحلل إلى أبسط المكونات المعتمدة من قبل تنسيق PDF. لا يمكن دائما تحويل RichText معقد النسق  (الصور المضمنة والجداول) بشكل صحيح. في هذه الحالة فمن المستحسن تمكين هذا الخيار.</ExportRtfTextAsImage>
-    <Find>البحث في النص من خلال التقرير.</Find>
-    <FullScreen>قراءة كامل الشاشة.</FullScreen>
+    <Find>البحث عن نص.</Find>
+    <FullScreen>العرض في الشاشة الكاملة.</FullScreen>
     <GetCertificateFromCryptoUI>استخدام واجهة مكتبة التشفير الخاصة بنظام التشغيل.</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>طريقة الضغط: JPEG - قد تسبب فقدان للجودة، Flate - عدم فقدان للجودة، Simple, Ordered, FloydSt - صور أحادية اللون.</ImageCompressionMethod>
     <ImageFormat>صيغة صورة في الملف النهائي.</ImageFormat>
@@ -1860,28 +1860,29 @@
     <ImageType>تدرج الألوان في الصورة: ملون - الصورة بعد التصدير ستطابق المستعرض مطابقة كاملة; الرمادي – الصورة بعد التصدير ستكون بتدرج الرمادي; أحادي - الصور ستكون باللونين الأبيض والأسود فقط. في نفس الوقت, يجب الأخذ في الحسبان أن اللون الأحادي له ثلاثة أنماط None, Ordered, FloydSt.</ImageType>
     <KillSpaceLines>إزالة الأسطر الفارغة (الصفوف) من الوثيقة.</KillSpaceLines>
     <MultipleFiles>كل صفحة في التقرير يمكن أن تكون في ملف منفصل.</MultipleFiles>
-    <Open>فتح تقرير محفوظ.</Open>
+    <Open>فتح تقرير.</Open>
     <OpenAfterExport>الفتح التلقائي للوثيقة بعد إنشائها (بعد التصدير) بواسطة البرنامج المخصص لهذا النوع من الملفات.</OpenAfterExport>
     <OwnerPassword>كلمة المرور للوصول إلى العمليات للملفات.</OwnerPassword>
     <PageAll>معالجة كافة صفحات التقرير.</PageAll>
     <PageBands>ما رؤوس الصفحة وتذييلاتها التي تدخل في المستند: لا شيء، أو الرأس الأول والتذييل الأخير، أو الكل.</PageBands>
-    <PageDelete>حذف صفحة مختارة من التقرير.</PageDelete>
+    <PageDelete>حذف الصفحة المختارة.</PageDelete>
     <PageDesign>تحرير الصفحة في المصمم.</PageDesign>
-    <PageFirst>انتقل إلى الصفحة الأولى من التقرير.</PageFirst>
-    <PageGoTo>الذهاب إلى الصفحة المحددة التقرير.</PageGoTo>
-    <PageLast>انتقل إلى الصفحة الأخيرة من التقرير.</PageLast>
-    <PageNew>إضافة صفحة جديدة إلى التقرير.</PageNew>
-    <PageNext>الذهاب إلى الصفحة التالية من التقرير.</PageNext>
-    <PagePrevious>الذهاب إلى الصفحة السابقة من التقرير.</PagePrevious>
-    <PageSize>تغيير المعلمات صفحة في التقرير.</PageSize>
-    <Parameters>إظهار لوحة متغيرات التقرير.</Parameters>
+    <PageFirst>الذهاب إلى الصفحة الأولى.</PageFirst>
+    <PageGoTo>الذهاب إلى الصفحة المحددة.</PageGoTo>
+    <PageLast>الذهاب إلى الصفحة الأخيرة.</PageLast>
+    <PageNew>إضافة صفحة جديدة.</PageNew>
+    <PageNext>الذهاب إلى الصفحة التالية.</PageNext>
+    <PagePrevious>الذهاب إلى الصفحة السابقة.</PagePrevious>
+    <PageSize>تغيير إعدادات الصفحة.</PageSize>
+    <Parameters>إظهار المتغيرات.</Parameters>
     <PdfACompliance>دعم المواصفات القياسية للأرشفة طويلة المدى لتخزين الوثائق الرقمية.</PdfACompliance>
     <Print>طباعة التقرير.</Print>
     <PutFeedPageCode>تغذية الصفحات في نهاية الوثيقة بحرف مميز.</PutFeedPageCode>
     <RangePages>عدد الصفحات للمعالجة.يمكنك تحديد صفحة واحدة فقط,قائمة بالصفحات (استخدم علامة الفاصلة),بالإضافة لتحديد نطاق بتحديد صفحة البداية ومن ثم وضع علامة "-" ثم تحديد صفحة النهاية للنطاق.مثال: 1,3,5-12.</RangePages>
     <RemoveEmptySpaceAtBottom>تصغير المساحة الفارغة في أسفل الصفحة.</RemoveEmptySpaceAtBottom>
+    <Resources>إظهار الموارد.</Resources>
     <RestrictEditing>حظر التعديلات في ملف ورد.</RestrictEditing>
-    <Save>حفظ تقرير لمزيد من استخدام.</Save>
+    <Save>حفظ التقرير.</Save>
     <ScaleHtml>الحجم (الوزن) لصفحات التقرير والعناصر بعد التصدير.</ScaleHtml>
     <ScaleImage>حجم (وزن) التقرير بعد التصدير. الوزن الأقل, يتيح عددا أكبر من البكسلات في الانش الواحد والعكس صحيح, and vice versa.</ScaleImage>
     <SendEMail>إرسال التقرير عبر البريد الإلكتروني.</SendEMail>
@@ -1889,10 +1890,10 @@
     <SkipColumnHeaders>تفعيل/تعطيل عنوان العمود.</SkipColumnHeaders>
     <StandardPdfFonts>14 خط أدوبي قياسي. إذا تم تحديد هذا الخيار, فإنه سيتم استخدام 14 خط قياسي فقط في ملفات PDF. جميع الخطوط المستخدمة في التقرير سيتم تحويلها إلى هذه الخطوط القياسية.</StandardPdfFonts>
     <SubjectNameString>معرف الشهادة. المعرف هو اسم مالك الشهادة (سطر كامل) أو جزء منه (جزء مقطوع).</SubjectNameString>
-    <Thumbnails>إظهار لوحة الصور المصغرة.</Thumbnails>
+    <Thumbnails>إظهار الصور المصغرة للصفحات.</Thumbnails>
     <TiffCompressionScheme>مخطط الضغك لملفات TIFF.</TiffCompressionScheme>
-    <ToolEditor>تحرير نص التقرير في العارض.</ToolEditor>
-    <ToolSignature>ضع توقيعك في الأماكن المحددة.</ToolSignature>
+    <ToolEditor>تحرير المكونات القابلة للتعديل.</ToolEditor>
+    <ToolSignature>التوقيع في الأماكن المحددة.</ToolSignature>
     <TypeExport>الملف الذي سيتم تحويل التقرير إليه.</TypeExport>
     <UnsafeCompilation1>يستخدم هذا المستند عملية التجميع. في بعض الحالات، قد لا يكون ذلك آمنًا. لذلك سيتم تحميل المستند في الوضع الآمن لتقليل أي مخاطر محتملة.</UnsafeCompilation1>
     <UnsafeCompilation2>إذا كنت بحاجة إلى استخدام هذا المستند بشكله الأصلي، يرجى التواصل مع المطورين لديك.</UnsafeCompilation2>
@@ -1902,13 +1903,13 @@
     <UsePageHeadersAndFooters>تعريف قيود ترويس وتذييل الصفحة كترويسة وتذييل الصفحة  في MS Word.</UsePageHeadersAndFooters>
     <UserPassword>طلب كلمة مرور لفتح الملف</UserPassword>
     <UseUnicode>دعم إضافي لحروف الترميز. تؤثر في الترميز الداخلي للحروف في ملفات PDF, وتحسن نسخ النصوص من ملفات PDF.</UseUnicode>
-    <ViewModeContinuous>عرض كل صفحات التقرير في الشريط العمودي.</ViewModeContinuous>
-    <ViewModeMultiplePages>عرض أكبر عدد من الصفحات في النافذة.</ViewModeMultiplePages>
-    <ViewModeSinglePage>وتظهر في صفحة واحدة في نافذة المعاينة.</ViewModeSinglePage>
-    <ZoomMultiplePages>ملاءمة عدة صفحات في النافذة.</ZoomMultiplePages>
-    <ZoomOnePage>ملاءمة صفحة واحدة في النافذة.</ZoomOnePage>
-    <ZoomPageWidth>ملاءمة عرض الصفحة للنافذة.</ZoomPageWidth>
-    <ZoomTwoPages>ملاءمة صفحتين في النافذة.</ZoomTwoPages>
+    <ViewModeContinuous>عرض كل الصفحات كشريط.</ViewModeContinuous>
+    <ViewModeMultiplePages>عرض عدة صفحات.</ViewModeMultiplePages>
+    <ViewModeSinglePage>عرض صفحة واحدة.</ViewModeSinglePage>
+    <ZoomMultiplePages>ملاءمة عدة صفحات.</ZoomMultiplePages>
+    <ZoomOnePage>ملاءمة صفحة واحدة.</ZoomOnePage>
+    <ZoomPageWidth>ملاءمة عرض الصفحة.</ZoomPageWidth>
+    <ZoomTwoPages>ملاءمة صفحتين.</ZoomTwoPages>
     <ZoomTxt>حجم التقرير  - الوزن (scale): X - تغيير المحور الأفقي, Y - تغيير المحور العمودي.</ZoomTxt>
   </HelpViewer>
   <MainMenu>

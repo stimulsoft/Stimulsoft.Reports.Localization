@@ -2336,9 +2336,9 @@
     <AllowEditable>Cho phép thay đổi các thành phần với tính năng chỉnh sửa được bật.</AllowEditable>
     <AllowModifyContents>Hạn chế quyền truy cập vào việc chỉnh sửa văn bản.</AllowModifyContents>
     <AllowPrintDocument>Hạn chế quyền truy cập vào hoạt động in.</AllowPrintDocument>
-    <Bookmarks>Hiển thị bảng đánh dấu trang.</Bookmarks>
+    <Bookmarks>Hiển thị các đánh dấu trang.</Bookmarks>
     <BorderType>Kiểu viền của các thành phần: đơn giản - vẽ viền của các thành phần có ký tự +, -, |; Unicode đơn - vẽ viền với các ký tự vẽ hộp đơn, Unicode hai lần - vẽ viền với các ký tự vẽ hộp kép.</BorderType>
-    <Close>Đóng xem trước báo cáo.</Close>
+    <Close>Đóng xem trước.</Close>
     <CloseDotMatrix>Đóng trình xem ma trận điểm.</CloseDotMatrix>
     <Compressed>Nén các tài liệu đã sẵn sàng. Nên luôn luôn bao gồm tệp nén.</Compressed>
     <CompressToArchive>Nén tất cả các tệp và thư mục thành lưu trữ zip.</CompressToArchive>
@@ -2351,7 +2351,7 @@
     <DashboardContains3>Bạn không thể làm điều đó từ trình xem báo cáo!</DashboardContains3>
     <DigitalSignature>Chữ ký số của tệp.</DigitalSignature>
     <DitheringType>Loại phối màu: Không - Không phối màu, Đã sắp xếp, FloydSt. - với phối màu.</DitheringType>
-    <DotMatrixMode>Xem trước báo cáo cho máy in ma trận điểm.</DotMatrixMode>
+    <DotMatrixMode>Xem ở chế độ ma trận điểm.</DotMatrixMode>
     <DrawBorder>Vẽ đường viền của các thành phần có các ký tự đồ hoạ.</DrawBorder>
     <Edit>Chỉnh sửa các thành phần.</Edit>
     <EmbeddedFonts>Nhúng các tệp tin phông chữ vào một tệp tin PDF.</EmbeddedFonts>
@@ -2369,8 +2369,8 @@
     <ExportObjectFormatting>Áp dụng định dạng để xuất dữ liệu từ dải dữ liệu (thành phần bảng, dải phân đoạn).</ExportObjectFormatting>
     <ExportPageBreaks>Hiển thị đường viền của các trang báo cáo trên bảng tính Excel.</ExportPageBreaks>
     <ExportRtfTextAsImage>Chuyển đổi văn bản RTF vào hình ảnh. Nếu tùy chọn được kích hoạt, sau đó, khi xuất khẩu, RichText phân hủy thành các nguyên thủy đơn giản được hỗ trợ bởi định dạng PDF. Không thể luôn luôn chuyển đổi RichText với định dạng phức tạp (hình ảnh, bảng). Trong trường hợp này, bạn nên bật tùy chọn này.</ExportRtfTextAsImage>
-    <Find>Tìm kiếm trong báo cáo.</Find>
-    <FullScreen>Đọc toàn màn hình.</FullScreen>
+    <Find>Tìm kiếm văn bản.</Find>
+    <FullScreen>Xem toàn màn hình.</FullScreen>
     <GetCertificateFromCryptoUI>Sử dụng giao diện của thư viện mật mã hệ thống.</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Phương pháp nén: JPEG - điều này có thể làm mất chất lượng, Flate - không mất chất lượng, Đơn giản, Đã sắp xếp, FloydSt. - hình ảnh được xuất ra đơn sắc.</ImageCompressionMethod>
     <ImageFormat>Định dạng hình ảnh trong tệp tin đã hoàn tất.</ImageFormat>
@@ -2381,30 +2381,30 @@
     <ImageType>Phông màu của hình ảnh: màu - hình ảnh sau khi xuất hoàn toàn khớp với hình ảnh trong trình xem; xám - hình ảnh sau khi xuất sẽ có màu xám; đơn sắc - hình ảnh sẽ hoàn toàn đen trắng. Đồng thời, cần lưu ý rằng đơn sắc có ba chế độ Không, Đã sắp xếp, FloydSt.</ImageType>
     <KillSpaceLines>Xóa dòng trống (hàng) trong tài liệu.</KillSpaceLines>
     <MultipleFiles>Mỗi trang báo cáo có thể là một tệp riêng biệt.</MultipleFiles>
-    <Open>Mở báo cáo đã lưu.</Open>
+    <Open>Mở một báo cáo.</Open>
     <OpenAfterExport>Tự động mở tài liệu được tạo ra (sau khi xuất) bởi chương trình đã đặt cho các loại tệp này.</OpenAfterExport>
     <OwnerPassword>Mật khẩu để truy cập hoạt động với các tệp tin.</OwnerPassword>
     <PageAll>Xử lý tất cả các trang báo cáo.</PageAll>
     <PageBands>Những tiêu đề và chân trang nào được đưa vào tài liệu: không có, tiêu đề đầu tiên và chân trang cuối cùng, hoặc tất cả.</PageBands>
-    <PageDelete>Xóa trang báo cáo đã chọn.</PageDelete>
+    <PageDelete>Xóa trang đã chọn.</PageDelete>
     <PageDesign>Chỉnh sửa trang trong trình thiết kế.</PageDesign>
-    <PageFirst>Chuyển đến trang báo cáo đầu tiên.</PageFirst>
-    <PageGoTo>Chuyển đến trang báo cáo cụ thể.</PageGoTo>
-    <PageLast>Chuyển đến trang báo cáo mới nhất.</PageLast>
-    <PageNew>Thêm trang mới vào báo cáo.</PageNew>
-    <PageNext>Chuyển đến trang báo cáo tiếp theo.</PageNext>
-    <PagePrevious>Chuyển đến trang báo cáo trước.</PagePrevious>
-    <PageSize>Thay đổi các tham số trang trong một báo cáo.</PageSize>
-    <Parameters>Hiển thị bảng tham số báo cáo.</Parameters>
+    <PageFirst>Chuyển đến trang đầu tiên.</PageFirst>
+    <PageGoTo>Chuyển đến trang cụ thể.</PageGoTo>
+    <PageLast>Chuyển đến trang cuối.</PageLast>
+    <PageNew>Thêm trang mới.</PageNew>
+    <PageNext>Chuyển đến trang tiếp theo.</PageNext>
+    <PagePrevious>Chuyển đến trang trước.</PagePrevious>
+    <PageSize>Thay đổi cài đặt trang.</PageSize>
+    <Parameters>Hiển thị các tham số.</Parameters>
     <PdfACompliance>Hỗ trợ tiêu chuẩn nén và lưu trữ tài liệu điện tử dài hạn.</PdfACompliance>
     <PdfUniversalAccessibility>Hỗ trợ tiêu chuẩn về tài liệu và thông tin điện tử có thể truy cập toàn cầu.</PdfUniversalAccessibility>
     <Print>In báo cáo.</Print>
     <PutFeedPageCode>Các trang nguồn cấp dữ liệu trong tài liệu cuối cùng với một ký tự đặc biệt.</PutFeedPageCode>
     <RangePages>Các số trang sẽ được xử lý. Bạn có thể chỉ định một trang duy nhất, một danh sách các trang (sử dụng dấu phẩy làm dấu tách), cũng như chỉ định phạm vi bằng cách đặt trang đầu tiên của phạm vi phân cách với trang cuối của phạm vi bằng dấu "-". Ví dụ: 1,3,5-12.</RangePages>
     <RemoveEmptySpaceAtBottom>Giảm thiểu khoảng trống ở cuối trang.</RemoveEmptySpaceAtBottom>
-    <Resources>Hiển thị bảng tài nguyên</Resources>
+    <Resources>Hiển thị tài nguyên.</Resources>
     <RestrictEditing>Giới hạn về thay đổi trong một tài liệu Word.</RestrictEditing>
-    <Save>Lưu báo cáo để tiếp tục sử dụng.</Save>
+    <Save>Lưu báo cáo.</Save>
     <ScaleHtml>Kích thước (tỉ lệ) của các trang báo cáo và các mục sau khi xuất.</ScaleHtml>
     <ScaleImage>Kích thước (tỉ lệ) của báo cáo sau khi xuất. Tỉ lệ càng thấp, thì số lượng điểm ảnh trên mỗi inch càng lớn, và ngược lại.</ScaleImage>
     <SendEMail>Gửi báo cáo qua thư điện tử.</SendEMail>
@@ -2412,10 +2412,10 @@
     <SkipColumnHeaders>Bật / tắt tiêu đề cột.</SkipColumnHeaders>
     <StandardPdfFonts>14 phông chữ Adobe tiêu chuẩn. Nếu tùy chọn này được kích hoạt, sau đó chỉ có 14 phông chữ tiêu chuẩn sẽ được sử dụng trong tệp PDF. Tất cả các phông chữ báo cáo được chuyển đổi thành chúng.</StandardPdfFonts>
     <SubjectNameString>Chứng chỉ nhận dạng. Tên nhận dạng là tên của chủ sở hữu chứng chỉ (dòng đầy đủ) hoặc một phần của tên (chuỗi con).</SubjectNameString>
-    <Thumbnails>Hiển thị bảng hình thu nhỏ của trang.</Thumbnails>
+    <Thumbnails>Hiển thị hình thu nhỏ của trang.</Thumbnails>
     <TiffCompressionScheme>Lược đồ nén cho các tệp TIFF.</TiffCompressionScheme>
-    <ToolEditor>Chỉnh sửa văn bản báo cáo trong trình xem.</ToolEditor>
-    <ToolSignature>Đặt chữ ký của bạn vào những vị trí được đánh dấu.</ToolSignature>
+    <ToolEditor>Chỉnh sửa thành phần có thể chỉnh sửa.</ToolEditor>
+    <ToolSignature>Ký tên vào những vị trí được đánh dấu.</ToolSignature>
     <TypeExport>Tệp báo cáo sẽ được chuyển đổi thành.</TypeExport>
     <UnsafeCompilation1>Tài liệu này sử dụng quy trình biên dịch. Trong một số trường hợp, điều này có thểkhông an toàn. Do đó, tài liệu sẽ được tải trong chế độ an toàn để giảm thiểu bất kỳ rủi ro tiềm ẩn nào.</UnsafeCompilation1>
     <UnsafeCompilation2>Nếu bạn cần tài liệu này được sử dụng dưới hình thức ban đầu của nó, vui lòng liên hệ với các nhà phát triển của bạn.</UnsafeCompilation2>
@@ -2425,13 +2425,13 @@
     <UsePageHeadersAndFooters>Định nghĩa dải tiêu đề trang và chân trang làm tiêu đề và chân trang của tài liệu trong Microsoft Word</UsePageHeadersAndFooters>
     <UserPassword>Mật khẩu được yêu cầu để mở tài liệu.</UserPassword>
     <UseUnicode>Hỗ trợ mở rộng cho các ký tự mã hóa. Nó ảnh hưởng đến bộ mã hóa ký tự bên trong tệp PDF và cải thiện việc sao chép văn bản từ tệp PDF.</UseUnicode>
-    <ViewModeContinuous>Hiển thị tất cả các trang báo cáo dưới dạng ruy băng dọc.</ViewModeContinuous>
-    <ViewModeMultiplePages>Hiển thị số trang vừa với cửa sổ.</ViewModeMultiplePages>
-    <ViewModeSinglePage>Hiển thị một trang duy nhất trong cửa sổ xem trước.</ViewModeSinglePage>
-    <ZoomMultiplePages>Vừa nhiều trang trong cửa sổ.</ZoomMultiplePages>
-    <ZoomOnePage>Vừa một trang trong cửa sổ.</ZoomOnePage>
-    <ZoomPageWidth>Vừa chiều rộng trang với cửa sổ.</ZoomPageWidth>
-    <ZoomTwoPages>Vừa hai trang trong cửa sổ.</ZoomTwoPages>
+    <ViewModeContinuous>Hiển thị mọi trang dưới dạng ruy băng.</ViewModeContinuous>
+    <ViewModeMultiplePages>Hiển thị nhiều trang.</ViewModeMultiplePages>
+    <ViewModeSinglePage>Hiển thị một trang duy nhất.</ViewModeSinglePage>
+    <ZoomMultiplePages>Vừa nhiều trang.</ZoomMultiplePages>
+    <ZoomOnePage>Vừa một trang.</ZoomOnePage>
+    <ZoomPageWidth>Vừa chiều rộng trang.</ZoomPageWidth>
+    <ZoomTwoPages>Vừa hai trang.</ZoomTwoPages>
     <ZoomTxt>Kích thước báo cáo (tỉ lệ): X - thay đổi tỉ lệ ngang, Y - để thay đổi tỉ lệ dọc.</ZoomTxt>
   </HelpViewer>
   <Interface>

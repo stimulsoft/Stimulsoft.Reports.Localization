@@ -2339,9 +2339,9 @@
     <AllowEditable>Permite alterar os componentes com a propriedade editável ativada.</AllowEditable>
     <AllowModifyContents>Acesso limitado à edição de texto.</AllowModifyContents>
     <AllowPrintDocument>Acesso limitado à operação de impressão.</AllowPrintDocument>
-    <Bookmarks>Mostrar o painel de marcadores.</Bookmarks>
+    <Bookmarks>Mostrar os marcadores.</Bookmarks>
     <BorderType>O tipo de limites dos componentes: simples - desenho dos limites dos componentes com os caracteres +, -, |; Unicode simples - desenho dos limites com caracteres individuais de desenho de caixa; Unicode duplo - desenho dos limites com caracteres duplos de desenho de caixa.</BorderType>
-    <Close>Fechar pré-visualização e retornar à edição do relatório.</Close>
+    <Close>Fechar a pré-visualização.</Close>
     <CloseDotMatrix>Fechar o visualizador matricial e retornar à edição do relatório.</CloseDotMatrix>
     <Compressed>Compressão do documento pronto. Recomenda-se sempre incluir a compactação de ficheiros.</Compressed>
     <CompressToArchive>Empacotar todos os ficheiros e pastas no ficheiro zip.</CompressToArchive>
@@ -2354,7 +2354,7 @@
     <DashboardContains3>Ação não permitida através do viewer!</DashboardContains3>
     <DigitalSignature>A assinatura digital do ficheiro.</DigitalSignature>
     <DitheringType>Tipo de pontilhado: None - sem pontilhado, Ordered, FloydSt. - com pontilhado.</DitheringType>
-    <DotMatrixMode>Pré-visualizar o relatório para impressora matricial.</DotMatrixMode>
+    <DotMatrixMode>Ver em modo Dot-Matrix.</DotMatrixMode>
     <DrawBorder>Desenho dos limites dos componentes com caracteres gráficos.</DrawBorder>
     <Edit>Editar componentes.</Edit>
     <EmbeddedFonts>Incorporar as fontes no ficheiro PDF.</EmbeddedFonts>
@@ -2372,8 +2372,8 @@
     <ExportObjectFormatting>Aplicar formatação para exportar dados de bandas de Dados (componente Tabela, banda Hierárquica).</ExportObjectFormatting>
     <ExportPageBreaks>Mostrar os limites das páginas de relatório sobre a folha de Excel.</ExportPageBreaks>
     <ExportRtfTextAsImage>Converter o texto RTF numa imagem. Se a opção estiver desativada, então, ao exportar, o RichText decompõe-se em primitivas mais simples suportadas pelo formato PDF. RichText com formatação complexa (imagens incorporadas, tabelas) nem sempre pode ser convertido corretamente. Neste caso, é recomendável ativar esta opção.</ExportRtfTextAsImage>
-    <Find>Pesquisar um texto no relatório.</Find>
-    <FullScreen>Leitura em ecrã inteiro.</FullScreen>
+    <Find>Pesquisar texto.</Find>
+    <FullScreen>Ver em ecrã inteiro.</FullScreen>
     <GetCertificateFromCryptoUI>A utilizar a interface da biblioteca de criptografia do sistema.</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>O método de compressão: JPEG - o que pode causar perda de qualidade, Flate - sem perda de qualidade, simples e ordenada, FloydSt - as imagens são impressas em preto e branco.</ImageCompressionMethod>
     <ImageFormat>O formato da imagem no ficheiro final.</ImageFormat>
@@ -2384,41 +2384,41 @@
     <ImageType>O esquema de cores da imagem: cor - a imagem após a exportação irá corresponder totalmente à imagem no visualizador; cinzento - uma imagem após a exportação será em tons de cinzento; preto e branco - as imagens serão estritamente preto e branco. Ao mesmo tempo, deve ser considerado que o monocromático tem três modos: Nenhum, ordenada, FloydSt.</ImageType>
     <KillSpaceLines>Remover linhas em branco no documento.</KillSpaceLines>
     <MultipleFiles>Cada página do relatório pode ser um ficheiro separado.</MultipleFiles>
-    <Open>Abrir um relatório guardado.</Open>
+    <Open>Abrir um relatório.</Open>
     <OpenAfterExport>Abertura automática do documento criado (depois de exportação) pelo programa definido para esses tipos de ficheiro.</OpenAfterExport>
     <OwnerPassword>A password necessária para realizar operações com o ficheiro.</OwnerPassword>
     <PageAll>Processamento de todas as páginas do relatório.</PageAll>
     <PageBands>Quais os cabeçalhos e rodapés de página a incluir no documento: nenhum, o primeiro cabeçalho e o último rodapé, ou todos.</PageBands>
-    <PageDelete>Apagar a página selecionada do relatório.</PageDelete>
+    <PageDelete>Eliminar a página selecionada.</PageDelete>
     <PageDesign>Editar a página no designer.</PageDesign>
-    <PageFirst>Ir para a primeira página do relatório.</PageFirst>
-    <PageGoTo>Ir para a página especificada do relatório.</PageGoTo>
-    <PageLast>Ir para a última página do relatório.</PageLast>
-    <PageNew>Adicionar uma nova página a um relatório.</PageNew>
-    <PageNext>Ir para a próxima página do relatório.</PageNext>
-    <PagePrevious>Ir à página anterior do relatório.</PagePrevious>
-    <PageSize>Alterar os parâmetros de página num relatório.</PageSize>
-    <Parameters>Mostrar o painel de parâmetros.</Parameters>
+    <PageFirst>Ir para a primeira página.</PageFirst>
+    <PageGoTo>Ir para a página especificada.</PageGoTo>
+    <PageLast>Ir para a última página.</PageLast>
+    <PageNew>Adicionar uma nova página.</PageNew>
+    <PageNext>Ir para a próxima página.</PageNext>
+    <PagePrevious>Ir para a página anterior.</PagePrevious>
+    <PageSize>Alterar as definições da página.</PageSize>
+    <Parameters>Mostrar os parâmetros.</Parameters>
     <PdfACompliance>Suporte para o padrão de arquivo a longo prazo e armazenamento de documentos eletrónicos.</PdfACompliance>
     <PdfUniversalAccessibility>Apoio ao padrão de documentos e informações eletrónicas universalmente acessíveis.</PdfUniversalAccessibility>
-    <Print>Imprimir um relatório.</Print>
+    <Print>Imprimir o relatório.</Print>
     <PutFeedPageCode>Separe as páginas do documento final com um carácter especial.</PutFeedPageCode>
     <RangePages>Os números das páginas a serem processados. Pode especificar uma única página, uma lista de páginas (usando uma vírgula como separador), bem como especificar um intervalo, definindo a página inicial do intervalo, um separador "-" e a página final do intervalo. Por exemplo: 1,3,5-12.</RangePages>
     <RemoveEmptySpaceAtBottom>Minimizar o espaço vazio na parte inferior da página.</RemoveEmptySpaceAtBottom>
-    <Resources>Showing resources panel</Resources>
+    <Resources>Mostrar os recursos.</Resources>
     <RestrictEditing>Limites de alterações num documento do Word.</RestrictEditing>
-    <Save>Gravar um relatório para utilização posterior.</Save>
+    <Save>Gravar o relatório.</Save>
     <ScaleHtml>O tamanho (escala) de páginas de relatórios e itens após a exportação.</ScaleHtml>
     <ScaleImage>O tamanho (escala) do relatório após a exportação. Quanto menor a escala, maior o número de pixéis por polegada, e vice-versa.</ScaleImage>
-    <SendEMail>Enviar um relatório por Email.</SendEMail>
+    <SendEMail>Enviar o relatório por Email.</SendEMail>
     <Separator>Separador entre os dados no ficheiro CSV.</Separator>
     <SkipColumnHeaders>Ativar / desativar os cabeçalhos das colunas.</SkipColumnHeaders>
     <StandardPdfFonts>14 fontes padrão da Adobe. Se esta opção estiver ativada, então, apenas 14 fontes padrão serão utilizadas no ficheiro PDF. Todas as fontes de relatório são convertidas para essas.</StandardPdfFonts>
     <SubjectNameString>Identificador de certificado. O identificador é o nome do proprietário do certificado (linha cheia), ou uma parte do nome (substring).</SubjectNameString>
-    <Thumbnails>Mostrar o painel de miniaturas das páginas.</Thumbnails>
+    <Thumbnails>Mostrar as miniaturas das páginas.</Thumbnails>
     <TiffCompressionScheme>Esquema de compressão de ficheiros TIFF.</TiffCompressionScheme>
-    <ToolEditor>Editar o texto do relatório no visualizador.</ToolEditor>
-    <ToolSignature>Coloque a sua assinatura nos locais marcados.</ToolSignature>
+    <ToolEditor>Editar os componentes editáveis.</ToolEditor>
+    <ToolSignature>Assinar nos locais marcados.</ToolSignature>
     <TypeExport>O ficheiro para o qual o relatório será convertido.</TypeExport>
     <UnsafeCompilation1>Este documento usa o processo de compilação. Nalguns casos isto pode não ser seguro. Por isso o documento será aberto em modo de segurança para minimizar riscos.</UnsafeCompilation1>
     <UnsafeCompilation2>Se deseja usar o documento na sua forma original, deverá contactar os seus programadores.</UnsafeCompilation2>
@@ -2428,13 +2428,13 @@
     <UsePageHeadersAndFooters>Definir as bandas da página de cabeçalho e rodapé como o cabeçalho e o rodapé do documento no MS Word.</UsePageHeadersAndFooters>
     <UserPassword>A palavra-passe necessária para abrir o documento.</UserPassword>
     <UseUnicode>O suporte estendido para a codificação de caracteres. Afeta a codificação de caracteres interna dentro do ficheiro PDF e melhora a cópia do texto a partir do ficheiro PDF.</UseUnicode>
-    <ViewModeContinuous>Mostrar todas as páginas do relatório como uma fita vertical.</ViewModeContinuous>
-    <ViewModeMultiplePages>Mostrar tantas páginas quantas couberem na janela.</ViewModeMultiplePages>
-    <ViewModeSinglePage>Mostrar uma única página na janela de visualização.</ViewModeSinglePage>
-    <ZoomMultiplePages>Ajustar várias páginas à janela.</ZoomMultiplePages>
-    <ZoomOnePage>Ajustar uma página à janela.</ZoomOnePage>
-    <ZoomPageWidth>Ajustar a largura da página à janela.</ZoomPageWidth>
-    <ZoomTwoPages>Ajustar duas páginas à janela.</ZoomTwoPages>
+    <ViewModeContinuous>Mostrar todas as páginas como uma fita.</ViewModeContinuous>
+    <ViewModeMultiplePages>Mostrar várias páginas.</ViewModeMultiplePages>
+    <ViewModeSinglePage>Mostrar uma única página.</ViewModeSinglePage>
+    <ZoomMultiplePages>Ajustar várias páginas.</ZoomMultiplePages>
+    <ZoomOnePage>Ajustar uma página.</ZoomOnePage>
+    <ZoomPageWidth>Ajustar a largura da página.</ZoomPageWidth>
+    <ZoomTwoPages>Ajustar duas páginas.</ZoomTwoPages>
     <ZoomTxt>O tamanho do relatório (escala): X - alterar a escala horizontal, Y - para alterar a escala vertical.</ZoomTxt>
   </HelpViewer>
   <Interface>

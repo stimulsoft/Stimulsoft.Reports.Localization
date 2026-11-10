@@ -2338,9 +2338,9 @@
     <AllowEditable>Pozwala na zmianę tych składników, które mają możliwość edycji właściwości.</AllowEditable>
     <AllowModifyContents>Ograniczony dostęp do edytowania tekstu </AllowModifyContents>
     <AllowPrintDocument>Ograniczony dostęp do operacji drukowania </AllowPrintDocument>
-    <Bookmarks>Wyświetl panel zakładek.</Bookmarks>
+    <Bookmarks>Wyświetl zakładki.</Bookmarks>
     <BorderType>Typ obramowania elementów: prosty – rysowanie obramowania elementów przy użyciu znaków +, -, |; Unicode pojedynczy – rysowanie obramowań przy użyciu pojedynczych znaków do rysowania ramek, Unicode podwójny – rysowanie obramowań przy użyciu podwójnych znaków do rysowania ramek </BorderType>
-    <Close>Zamknij podgląd i powróć do modyfikacji raportu.</Close>
+    <Close>Zamknij podgląd.</Close>
     <CloseDotMatrix>Zamknij przeglądarkę mozaikową i powróć do modyfikacji raportu.</CloseDotMatrix>
     <Compressed>Kompresja gotowego dokumentu. Zawsze zaleca się załączenie kompresji pliku. </Compressed>
     <CompressToArchive>Spakuj wszystkie pliki i foldery do archiwum zip. </CompressToArchive>
@@ -2353,7 +2353,7 @@
     <DashboardContains3>Nie możesz tego zrobić z przeglądarki raportów!</DashboardContains3>
     <DigitalSignature>Podpis cyfrowy pliku </DigitalSignature>
     <DitheringType>Typ symulacji kolorów: Brak – brak symulacji kolorów, Uporządkowany, FloydSt – z symulacją kolorów. </DitheringType>
-    <DotMatrixMode>Podgląd raportu dla drukarki igłowej.</DotMatrixMode>
+    <DotMatrixMode>Wyświetl w trybie matrycy punktowej.</DotMatrixMode>
     <DrawBorder>Rysowanie obramowań elementów przy użyciu znaków graficznych </DrawBorder>
     <Edit>Modyfikuj komponenty.</Edit>
     <EmbeddedFonts>Wbuduj pliki z czcionkami do pliku PDF. </EmbeddedFonts>
@@ -2371,8 +2371,8 @@
     <ExportObjectFormatting>Stosuj formatowanie do eksportu danych z pasków danych (element Tabela, pasek hierarchiczny). </ExportObjectFormatting>
     <ExportPageBreaks>Pokazuj obramowania stron raportu na arkuszu Excela. </ExportPageBreaks>
     <ExportRtfTextAsImage>Przekształć tekst RTF na obraz. Jeśli ta opcja jest wyłączona, to podczas eksportowania format RichText rozkłada się na prostsze podstawowe elementy obsługiwane przez format PDF. RichText o skomplikowanym formatowaniu (wbudowane obrazy, tabele) nie zawsze może być przekształcony prawidłowo. W tym przypadku, zaleca się włączenie tej opcji. </ExportRtfTextAsImage>
-    <Find>Wyszukaj tekst w raporcie.</Find>
-    <FullScreen>Pełny ekran.</FullScreen>
+    <Find>Znajdź tekst.</Find>
+    <FullScreen>Wyświetl na pełnym ekranie.</FullScreen>
     <GetCertificateFromCryptoUI>Używanie interfejsu biblioteki kryptograficznej systemu </GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Metoda kompresji: JPEG – może spowodować utratę jakości, Flate – bez utraty jakości, Prosty, Uporządkowany, FloydSt – obrazy stanowią wyjście monochromatyczne. </ImageCompressionMethod>
     <ImageFormat>Format obrazu jest plikiem końcowym. </ImageFormat>
@@ -2383,30 +2383,30 @@
     <ImageType>Schemat kolorów obrazu: kolor – obraz po eksporcie jest całkowicie zgodny z obrazem w przeglądarce; szary – obraz po eksporcie jest przedstawiony w odcieniu szarości; monochromatyczny – obrazy są dokładnie czarno-białe. Jednocześnie, należy zauważyć, że obraz monochromatyczny ma trzy tryby Brak, Uporządkowany, FloydSt. </ImageType>
     <KillSpaceLines>Usuń puste wiersze (rzędy) w dokumencie. </KillSpaceLines>
     <MultipleFiles>Każda strona może być oddzielnym plikiem. </MultipleFiles>
-    <Open>Otwórz zapisany raport.</Open>
+    <Open>Otwórz raport.</Open>
     <OpenAfterExport>Automatyczne otwieranie utworzonego dokumentu (po eksporcie) przez program ustawiony do plików tego typu </OpenAfterExport>
     <OwnerPassword>Hasło dostępu do operacji na plikach </OwnerPassword>
     <PageAll>Przetwarzanie wszystkich stron raportu </PageAll>
     <PageBands>Które nagłówki i stopki stron trafiają do dokumentu: żadne, pierwszy nagłówek i ostatnia stopka lub wszystkie.</PageBands>
-    <PageDelete>Usuń wybraną stronę raportu.</PageDelete>
+    <PageDelete>Usuń wybraną stronę.</PageDelete>
     <PageDesign>Modyfikuj stronę w projektancie.</PageDesign>
-    <PageFirst>Idź do pierwszej strony raportu.</PageFirst>
-    <PageGoTo>Idź do wybranej strony raportu.</PageGoTo>
-    <PageLast>Idź do ostatniej strony raportu.</PageLast>
-    <PageNew>Dodaj nową stronę do raportu.</PageNew>
-    <PageNext>Idź do następnej strony raportu.</PageNext>
-    <PagePrevious>Idź do poprzedniej strony raportu.</PagePrevious>
-    <PageSize>Zmień parametry strony w raporcie.</PageSize>
-    <Parameters>Wyświetl panel parametrów raportu.</Parameters>
+    <PageFirst>Idź do pierwszej strony.</PageFirst>
+    <PageGoTo>Idź do wskazanej strony.</PageGoTo>
+    <PageLast>Idź do ostatniej strony.</PageLast>
+    <PageNew>Dodaj nową stronę.</PageNew>
+    <PageNext>Idź do następnej strony.</PageNext>
+    <PagePrevious>Idź do poprzedniej strony.</PagePrevious>
+    <PageSize>Zmień ustawienia strony.</PageSize>
+    <Parameters>Wyświetl parametry.</Parameters>
     <PdfACompliance>Obsługa standardu długoterminowej archiwizacji i przechowywania dokumentów elektronicznych. </PdfACompliance>
     <PdfUniversalAccessibility> Obsługa standardu uniwersalnie dostępnych dokumentów elektronicznych i informacji.</PdfUniversalAccessibility>
     <Print>Wydrukuj raport.</Print>
     <PutFeedPageCode>Wstaw znak specjalny na stronach dokumentu końcowego. </PutFeedPageCode>
     <RangePages>Numery stron do przetworzenia. Można podać jedną stronę, listę stron (stosując przecinek jako znak rozdzielający), jak również podać zakres stron poprzez podanie strony początkowej i końcowej zakresu oddzielonych znakiem "-". Na przykład: 1,3,5-12. </RangePages>
     <RemoveEmptySpaceAtBottom>Minimalizuj puste miejsce na dole strony. </RemoveEmptySpaceAtBottom>
-    <Resources>Wyświetlanie panelu zasobów</Resources>
+    <Resources>Wyświetl zasoby.</Resources>
     <RestrictEditing>Ograniczenie zmian w dokumencie Word.</RestrictEditing>
-    <Save>Zapisz raport do późniejszego użycia.</Save>
+    <Save>Zapisz raport.</Save>
     <ScaleHtml>Rozmiar (skala) stron i elementów raportu po eksporcie. </ScaleHtml>
     <ScaleImage>Rozmiar (skala) raportu po eksporcie. Im mniejsza jest skala, tym większa jest liczba pikseli na cal i odwrotnie. </ScaleImage>
     <SendEMail>Wyślij raport przez e-mail.</SendEMail>
@@ -2414,10 +2414,10 @@
     <SkipColumnHeaders>Otwórz/ zamknij nagłówki kolumn. </SkipColumnHeaders>
     <StandardPdfFonts>14 standardowych zestawów czcionek Adobe. Jeśli opcja ta jest wybrana, używanych będzie tylko 14 standardowych zestawów czcionek w pliku PDF. Wszystkie czcionki raportu są przekształcane na powyższe czcionki. </StandardPdfFonts>
     <SubjectNameString>Identyfikator certyfikatu. Identyfikator jest nazwą właściciela certyfikatu (pełny wiersz) lub częścią nazwy (podłańcuch). </SubjectNameString>
-    <Thumbnails>Wyświetl panel miniatur stron.</Thumbnails>
+    <Thumbnails>Wyświetl miniatury stron.</Thumbnails>
     <TiffCompressionScheme>Schemat kompresji dla plików TIFF </TiffCompressionScheme>
-    <ToolEditor>Edytuj tekst raportu w przeglądarce raportów.</ToolEditor>
-    <ToolSignature>Złóż swój podpis w oznaczonych miejscach.</ToolSignature>
+    <ToolEditor>Edytuj edytowalne komponenty.</ToolEditor>
+    <ToolSignature>Podpisz oznaczone miejsca.</ToolSignature>
     <TypeExport>Plik z raportem zostanie przekształcony na: </TypeExport>
     <UnsafeCompilation1>Ten dokument wykorzystuje proces kompilacji. W niektórych przypadkach może to nie być bezpieczne. Dlatego dokument zostanie załadowany w trybie bezpiecznym, aby zminimalizować potencjalne ryzyko.</UnsafeCompilation1>
     <UnsafeCompilation2>Jeśli chcesz, aby ten dokument był używany w oryginalnej formie, skontaktuj się z programistami.</UnsafeCompilation2>
@@ -2427,13 +2427,13 @@
     <UsePageHeadersAndFooters>Definiuj paski Nagłówek i Stopkę Strony jako nagłówek i stopkę dokumentu w MS Word. </UsePageHeadersAndFooters>
     <UserPassword>Hasło wymagane do otwarcia dokumentu </UserPassword>
     <UseUnicode>Rozszerzona obsługa znaków kodujących. Ma ona wpływ na kodowanie znaku wewnętrznego w pliku PDF i poprawia kopiowanie tekstu z pliku PDF. </UseUnicode>
-    <ViewModeContinuous>Wyświetl wszystkie strony raportu jako pionową wstęgę.</ViewModeContinuous>
-    <ViewModeMultiplePages>Wyświetl tyle stron, ile mieści się w oknie.</ViewModeMultiplePages>
-    <ViewModeSinglePage>Wyświetl pojedynczą stronę w oknie podglądu.</ViewModeSinglePage>
-    <ZoomMultiplePages>Dopasuj kilka stron do okna.</ZoomMultiplePages>
-    <ZoomOnePage>Dopasuj jedną stronę do okna.</ZoomOnePage>
-    <ZoomPageWidth>Dopasuj szerokość strony do okna.</ZoomPageWidth>
-    <ZoomTwoPages>Dopasuj dwie strony do okna.</ZoomTwoPages>
+    <ViewModeContinuous>Wyświetl wszystkie strony jako wstęgę.</ViewModeContinuous>
+    <ViewModeMultiplePages>Wyświetl kilka stron.</ViewModeMultiplePages>
+    <ViewModeSinglePage>Wyświetl pojedynczą stronę.</ViewModeSinglePage>
+    <ZoomMultiplePages>Dopasuj kilka stron.</ZoomMultiplePages>
+    <ZoomOnePage>Dopasuj jedną stronę.</ZoomOnePage>
+    <ZoomPageWidth>Dopasuj szerokość strony.</ZoomPageWidth>
+    <ZoomTwoPages>Dopasuj dwie strony.</ZoomTwoPages>
     <ZoomTxt>Rozmiar raportu (skala): X – zmiana skali poziomej, Y – zmiana skali pionowej </ZoomTxt>
   </HelpViewer>
   <Interface>

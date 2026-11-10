@@ -2190,9 +2190,9 @@
     <AllowEditable>Csak azon komponensek módosítását teszi lehetővé, melyek szerkeszthető tulajdonsága engedélyezett.</AllowEditable>
     <AllowModifyContents>Korlátozott hozzáférés a szövegszerkesztéshez.</AllowModifyContents>
     <AllowPrintDocument>Korlátozott hozzáférés a nyomtatási művelethez.</AllowPrintDocument>
-    <Bookmarks>Könyvjelző panel megjelenítése.</Bookmarks>
+    <Bookmarks>Könyvjelzők megjelenítése.</Bookmarks>
     <BorderType>Komponensek szegélyeinek típusa: egyszerű - komponensek szegélyeinek kirajzolása karakterekkel +, -, |; Unicode egyszeres - szegélyek kirajzolása egyszeres karakterekkel, Unicode dupla - határok kirajzolása dupla karakterekkel.</BorderType>
-    <Close>Nyomtatási kép bezárása. Visszatérés a szerkesztőbe.</Close>
+    <Close>Előnézet bezárása.</Close>
     <CloseDotMatrix>DOT Matrix nézőke bezárása. Visszatérés a szerkesztőbe.</CloseDotMatrix>
     <Compressed>Kész dokumentum tömörítése. Ajánlott a tömörítés használata.</Compressed>
     <CompressToArchive>Az összes fájl és könyvtár becsomagolása.</CompressToArchive>
@@ -2202,7 +2202,7 @@
     <CutLongLines>Hosszú sorok levágása a komponensek szegélyeinél.</CutLongLines>
     <DigitalSignature>A fájl digitális aláírása.</DigitalSignature>
     <DitheringType>Árnyalás típusa: Nincs - nincs árnyalás, Rendezett, FloydSt - árnyalással.</DitheringType>
-    <DotMatrixMode>A jelentés előnézete mátrixnyomtatóhoz.</DotMatrixMode>
+    <DotMatrixMode>Megtekintés matrix módban.</DotMatrixMode>
     <DrawBorder>Komponensek határainak kirajzolása grafikus karakterekkel.</DrawBorder>
     <Edit>Komponensek szerkesztése.</Edit>
     <EmbeddedFonts>Betűtípus fájlok beágyazása a PDF fájlba.</EmbeddedFonts>
@@ -2220,8 +2220,8 @@
     <ExportObjectFormatting>Formázás használata exportált Adat sávokon (táblázat komponens, hierarchikus sáv).</ExportObjectFormatting>
     <ExportPageBreaks>A jelentéslapok széleinek mutatása az Excel munkafüzetben.</ExportPageBreaks>
     <ExportRtfTextAsImage>Az RTF szöveg konvertálása képpé. Ha ez az opció be van kapcsolva, akkor exportáláskor, a RichText a PDF formátum által támogatott egyszerűbb részekre bomlik. A komplex formázással ellátott RichText (beágyazott képekkel, táblázatokkal) nem mindig konvertálható megfelelően. Ebben az esetben ajánlott ezen opció bekapcsolása.</ExportRtfTextAsImage>
-    <Find>Szöveg keresése a jelentésben.</Find>
-    <FullScreen>Teljes képernyős olvassás.</FullScreen>
+    <Find>Szöveg keresése.</Find>
+    <FullScreen>Megtekintés teljes képernyőn.</FullScreen>
     <GetCertificateFromCryptoUI>A rendszer titkosítási könyvtárainak használata.</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Tömörítés módszere: JPEG - ez minőség csökkenéséhez vezethet, Flate – nincs minőség csökkenés, Egyszerű, Rendezett, FloydSt - monokróm képek.</ImageCompressionMethod>
     <ImageFormat>A kész fájl képformátuma.</ImageFormat>
@@ -2232,7 +2232,7 @@
     <ImageType>A kép színösszeállítása: színes - egy kép exportálás után a tervezőben látottaknak megfelelő lesz; szürke – egy kép az exportálás után szürkeárnyalatos lesz; monokróm - a képek szigorúan fekete-fehérek lesznek. Ugyanakkor figyelembe kell venni, hogy a monokrómnak három típusa van: Nincs, Rendezett, FloydSt.</ImageType>
     <KillSpaceLines>Üres sorok eltávolítása a dokumentumból.</KillSpaceLines>
     <MultipleFiles>A jelentés minden oldala lehet egy különálló fájl.</MultipleFiles>
-    <Open>Mentett jelentés megnyitása.</Open>
+    <Open>Jelentés megnyitása.</Open>
     <OpenAfterExport>Az elkészült dokumentum megnyitása (exportálás után) a fájltípushoz rendelt programmal.</OpenAfterExport>
     <OwnerPassword>A fájlokkal való műveletekhez szükséges jelszó.</OwnerPassword>
     <PageAll>A jelentés összes oldalának feldolgozása.</PageAll>
@@ -2240,32 +2240,32 @@
     <PageDelete>Kiválasztott oldal törlése.</PageDelete>
     <PageDesign>Oldal szerkesztése a tervezőben.</PageDesign>
     <PageFirst>Ugrás az első oldalra.</PageFirst>
-    <PageGoTo>Megadott oldalra ugrás</PageGoTo>
-    <PageLast>Utolsó oldalra ugrás</PageLast>
-    <PageNew>Új oldal hozzáadása a jelentéshez</PageNew>
-    <PageNext>Következő oldara ugrás.</PageNext>
-    <PagePrevious>Előző oldalra ugrás</PagePrevious>
-    <PageSize>Oldal beállítás módosítása.</PageSize>
-    <Parameters>Paraméterpanel megjelenítése.</Parameters>
+    <PageGoTo>Ugrás a megadott oldalra.</PageGoTo>
+    <PageLast>Ugrás az utolsó oldalra.</PageLast>
+    <PageNew>Új oldal hozzáadása.</PageNew>
+    <PageNext>Ugrás a következő oldalra.</PageNext>
+    <PagePrevious>Ugrás az előző oldalra.</PagePrevious>
+    <PageSize>Oldalbeállítások módosítása.</PageSize>
+    <Parameters>Paraméterek megjelenítése.</Parameters>
     <PdfACompliance>A szabvány támogatása, mely lehetővé teszi az elektronikus dokumentumok hosszú távú tárolását, archiválását.</PdfACompliance>
-    <Print>Nyomtatás.</Print>
+    <Print>Jelentés nyomtatása.</Print>
     <PutFeedPageCode>Oldalak megjelölése a végső dokumentumban egy speciális karakterrel.</PutFeedPageCode>
     <RangePages>A feldolgozandó oldalak számai. Megadhat egyetlen oldalt, oldalak egy listáját (vesszőt használva elválasztó karakterként), valamint megadható tartomány, melyhez be kell állítani a kezdőoldalt, elválasztva a "-" karakterrel az utolsó oldaltól. Például: 1,3,5-12.</RangePages>
     <RemoveEmptySpaceAtBottom>Az üres terület minimalizálása az oldal aljára.</RemoveEmptySpaceAtBottom>
-    <Resources>Erődorrás panel megmutatása</Resources>
+    <Resources>Erőforrások megjelenítése.</Resources>
     <RestrictEditing>Változtatások korlátozása egy Word dokumentumban.</RestrictEditing>
-    <Save>Jelentés elmentése.</Save>
+    <Save>Jelentés mentése.</Save>
     <ScaleHtml>A jelentés oldalainak és elemeinek mérete (méretezés) az exportálás után.</ScaleHtml>
     <ScaleImage>A mérete (méretezése) a jelentésnek az exportálás után. Ha kisebb a méretezés, akkor több pixel jut egy inchre, és fordítva.</ScaleImage>
-    <SendEMail>Jelentés küldése e-mailban.</SendEMail>
+    <SendEMail>Jelentés küldése e-mailben.</SendEMail>
     <Separator>Az adatokat elválasztó karakter a CSV fájlban.</Separator>
     <SkipColumnHeaders>Bekapcsolja/kikapcsolja az oszlopfejléceket.</SkipColumnHeaders>
     <StandardPdfFonts>14 szabvány Adobe betűtípus. Ha ez az opció be van kapcsolva, akkor csak a 14 szabványos betűtípus kerül felhasználásra a PDF fájlban. A jelentés összes betűtípusa ezekre lesz konvertálva.</StandardPdfFonts>
     <SubjectNameString>Tanúsítvány azonosító. Az azonosító a tanúsítvány tulajdonosának neve (teljes sor), vagy a név egy része (töredékszó).</SubjectNameString>
-    <Thumbnails>Oldalminiatűrök paneljének megjelenítése.</Thumbnails>
+    <Thumbnails>Oldalminiatűrök megjelenítése.</Thumbnails>
     <TiffCompressionScheme>Tömörítési séma TIFF fájlokhoz.</TiffCompressionScheme>
-    <ToolEditor>A jelentés szövegének szerkesztése a nézőben.</ToolEditor>
-    <ToolSignature>Helyezd el az aláírásod a megjelölt helyeken.</ToolSignature>
+    <ToolEditor>Szerkeszthető komponensek szerkesztése.</ToolEditor>
+    <ToolSignature>Aláírás a megjelölt helyeken.</ToolSignature>
     <TypeExport>A fájl, amelybe konvertáljuk a riportot.</TypeExport>
     <UnsafeCompilation1>Ez a dokumentum fordítási folyamatot használ. Bizonyos esetekben ez nem biztonságos. Ezért a dokumentum a lehetséges kockázatok csökkentése érdekében csökkentett módban töltődik be.</UnsafeCompilation1>
     <UnsafeCompilation2>Ha a dokumentumot eredeti formájában kell használnia, forduljon a fejlesztőihez.</UnsafeCompilation2>
@@ -2275,13 +2275,13 @@
     <UsePageHeadersAndFooters>A fejléc és lábléc sávok használata az MS Word dokumentumban fejlécként és láblécként.</UsePageHeadersAndFooters>
     <UserPassword>Jelszó szükséges a dokumentum megnyitásához.</UserPassword>
     <UseUnicode>Kiterjesztett támogatás karakterek kódolásához. A PDF fájl belső karakterkódolását érinti, és javítja a szöveg másolását a PDF fájlból.</UseUnicode>
-    <ViewModeContinuous>Folyamatos megjelenítés</ViewModeContinuous>
-    <ViewModeMultiplePages>Annyi oldal megjelenítése, amennyi az ablakba fér.</ViewModeMultiplePages>
-    <ViewModeSinglePage>Egy oldalas megjelenítés.</ViewModeSinglePage>
-    <ZoomMultiplePages>Több oldal igazítása az ablakhoz.</ZoomMultiplePages>
-    <ZoomOnePage>Egy oldal igazítása az ablakhoz.</ZoomOnePage>
-    <ZoomPageWidth>Oldalszélesség igazítása az ablakhoz.</ZoomPageWidth>
-    <ZoomTwoPages>Két oldal igazítása az ablakhoz.</ZoomTwoPages>
+    <ViewModeContinuous>Minden oldal megjelenítése szalagként.</ViewModeContinuous>
+    <ViewModeMultiplePages>Több oldal megjelenítése.</ViewModeMultiplePages>
+    <ViewModeSinglePage>Egyetlen oldal megjelenítése.</ViewModeSinglePage>
+    <ZoomMultiplePages>Több oldal igazítása.</ZoomMultiplePages>
+    <ZoomOnePage>Egy oldal igazítása.</ZoomOnePage>
+    <ZoomPageWidth>Oldalszélesség igazítása.</ZoomPageWidth>
+    <ZoomTwoPages>Két oldal igazítása.</ZoomTwoPages>
     <ZoomTxt>A jelentés mérete (méretezés): X - a vízszintes méretezés állítása, Y - a függőleges méretezés állítása.</ZoomTxt>
   </HelpViewer>
   <Interface>

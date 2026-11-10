@@ -2336,9 +2336,9 @@
     <AllowEditable>Editable गुण सक्षम वाले घटकों को बदलने की अनुमति देता है।</AllowEditable>
     <AllowModifyContents>टेक्स्ट संपादन के लिए सीमित एक्सेस।</AllowModifyContents>
     <AllowPrintDocument>प्रिंट संचालन के लिए सीमित एक्सेस।</AllowPrintDocument>
-    <Bookmarks>बुकमार्क पैनल दिखाएँ।</Bookmarks>
+    <Bookmarks>बुकमार्क दिखाएँ।</Bookmarks>
     <BorderType>घटकों का बॉर्डर प्रकार: सरल - घटकों के बॉर्डर को +, -, | वर्णों से बनाना; यूनिकोड सिंगल - बॉर्डर को सिंगल बॉक्स-ड्रॉइंग वर्णों से बनाना, यूनिकोड डबल - बॉर्डर को डबल बॉक्स-ड्रॉइंग वर्णों से बनाना।</BorderType>
-    <Close>रिपोर्ट पूर्वावलोकन बंद करें।</Close>
+    <Close>पूर्वावलोकन बंद करें।</Close>
     <CloseDotMatrix>डॉट मैट्रिक्स व्यूअर बंद करें।</CloseDotMatrix>
     <Compressed>तैयार दस्तावेज़ का संपीड़न। हमेशा फ़ाइल संपीड़न शामिल करने की अनुशंसा की जाती है।</Compressed>
     <CompressToArchive>सभी फ़ाइलों और फ़ोल्डरों को zip संग्रह में पैक करें।</CompressToArchive>
@@ -2351,7 +2351,7 @@
     <DashboardContains3>आप रिपोर्ट व्यूअर से ऐसा नहीं कर सकते!</DashboardContains3>
     <DigitalSignature>फ़ाइल का डिजिटल हस्ताक्षर।</DigitalSignature>
     <DitheringType>डिथरिंग प्रकार: None - कोई डिथरिंग नहीं, Ordered, FloydSt. - डिथरिंग के साथ।</DitheringType>
-    <DotMatrixMode>डॉट मैट्रिक्स प्रिंटर के लिए रिपोर्ट का पूर्वावलोकन करें।</DotMatrixMode>
+    <DotMatrixMode>डॉट-मैट्रिक्स मोड में देखें।</DotMatrixMode>
     <DrawBorder>घटकों के बॉर्डर को ग्राफ़िक वर्णों से बनाना।</DrawBorder>
     <Edit>घटकों को संपादित करें।</Edit>
     <EmbeddedFonts>फ़ॉन्ट फ़ाइलों को PDF फ़ाइल में एम्बेड करें।</EmbeddedFonts>
@@ -2369,8 +2369,8 @@
     <ExportObjectFormatting>डेटा बैंड (तालिका घटक, पदानुक्रमिक बैंड) से डेटा निर्यात करने के लिए प्रारूपण लागू करें।</ExportObjectFormatting>
     <ExportPageBreaks>Excel शीट पर रिपोर्ट पेजों के बॉर्डर दिखाएँ।</ExportPageBreaks>
     <ExportRtfTextAsImage>RTF टेक्स्ट को छवि में परिवर्तित करें। यदि विकल्प अक्षम है, तो निर्यात करते समय, रिचटेक्स्ट PDF प्रारूप द्वारा समर्थित सरल प्रिमिटिव्स में विघटित हो जाता है। जटिल प्रारूपण (एम्बेडेड छवियाँ, तालिकाएँ) वाले रिचटेक्स्ट को हमेशा सही ढंग से परिवर्तित नहीं किया जा सकता। इस स्थिति में इस विकल्प को सक्षम करने की अनुशंसा की जाती है।</ExportRtfTextAsImage>
-    <Find>रिपोर्ट में एक टेक्स्ट खोजें।</Find>
-    <FullScreen>पूर्ण स्क्रीन रीडिंग।</FullScreen>
+    <Find>टेक्स्ट खोजें।</Find>
+    <FullScreen>पूर्ण स्क्रीन में देखें।</FullScreen>
     <GetCertificateFromCryptoUI>सिस्टम क्रिप्टोग्राफ़ी लाइब्रेरी के इंटरफ़ेस का उपयोग करना।</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>संपीड़न विधि: JPEG - इससे गुणवत्ता में हानि हो सकती है, Flate – कोई गुणवत्ता हानि नहीं, Simple, Ordered, FloydSt. - छवियाँ मोनोक्रोम में आउटपुट होती हैं।</ImageCompressionMethod>
     <ImageFormat>तैयार फ़ाइल में छवि प्रारूप।</ImageFormat>
@@ -2381,41 +2381,41 @@
     <ImageType>छवि की रंग योजना: color - निर्यात के बाद छवि व्यूअर में छवि से पूरी तरह मेल खाएगी; gray – निर्यात के बाद छवि ग्रे के शेड्स में होगी; monochrome - छवियाँ पूर्णतः काली और सफ़ेद होंगी। साथ ही, यह ध्यान में रखना चाहिए कि मोनोक्रोम के तीन मोड हैं None, Ordered, FloydSt.।</ImageType>
     <KillSpaceLines>दस्तावेज़ में रिक्त पंक्तियाँ हटाएँ।</KillSpaceLines>
     <MultipleFiles>प्रत्येक रिपोर्ट पेज एक अलग फ़ाइल हो सकता है।</MultipleFiles>
-    <Open>सहेजी गई रिपोर्ट खोलें।</Open>
+    <Open>एक रिपोर्ट खोलें।</Open>
     <OpenAfterExport>इन फ़ाइल प्रकारों से संबद्ध प्रोग्राम द्वारा बनाए गए दस्तावेज़ को स्वचालित रूप से खोलना (निर्यात के बाद)।</OpenAfterExport>
     <OwnerPassword>फ़ाइल के साथ संचालन करने के लिए आवश्यक पासवर्ड।</OwnerPassword>
     <PageAll>सभी रिपोर्ट पेजों को संसाधित करना।</PageAll>
     <PageBands>दस्तावेज़ में कौन से पेज हेडर और फ़ुटर शामिल होंगे: कोई नहीं, पहला हेडर और अंतिम फ़ुटर, या सभी।</PageBands>
-    <PageDelete>चयनित रिपोर्ट पेज हटाएँ।</PageDelete>
+    <PageDelete>चयनित पेज हटाएँ।</PageDelete>
     <PageDesign>डिज़ाइनर में पेज संपादित करें।</PageDesign>
-    <PageFirst>पहले रिपोर्ट पेज पर जाएँ।</PageFirst>
-    <PageGoTo>निर्दिष्ट रिपोर्ट पेज पर जाएँ।</PageGoTo>
-    <PageLast>अंतिम रिपोर्ट पेज पर जाएँ।</PageLast>
-    <PageNew>रिपोर्ट में एक नया पेज जोड़ें।</PageNew>
-    <PageNext>अगले रिपोर्ट पेज पर जाएँ।</PageNext>
-    <PagePrevious>पिछले रिपोर्ट पेज पर जाएँ।</PagePrevious>
-    <PageSize>रिपोर्ट में पेज पैरामीटर बदलें।</PageSize>
-    <Parameters>रिपोर्ट पैरामीटर पैनल दिखाएँ।</Parameters>
+    <PageFirst>पहले पेज पर जाएँ।</PageFirst>
+    <PageGoTo>निर्दिष्ट पेज पर जाएँ।</PageGoTo>
+    <PageLast>अंतिम पेज पर जाएँ।</PageLast>
+    <PageNew>नया पेज जोड़ें।</PageNew>
+    <PageNext>अगले पेज पर जाएँ।</PageNext>
+    <PagePrevious>पिछले पेज पर जाएँ।</PagePrevious>
+    <PageSize>पेज सेटिंग बदलें।</PageSize>
+    <Parameters>पैरामीटर दिखाएँ।</Parameters>
     <PdfACompliance>इलेक्ट्रॉनिक दस्तावेज़ों के दीर्घकालिक संग्रहण और भंडारण के मानक के लिए समर्थन।</PdfACompliance>
     <PdfUniversalAccessibility>सार्वभौमिक रूप से सुलभ इलेक्ट्रॉनिक दस्तावेज़ों और जानकारी के मानक के लिए समर्थन।</PdfUniversalAccessibility>
-    <Print>एक रिपोर्ट प्रिंट करें।</Print>
+    <Print>रिपोर्ट प्रिंट करें।</Print>
     <PutFeedPageCode>अंतिम दस्तावेज़ में पेजों को एक विशेष वर्ण से अलग करें।</PutFeedPageCode>
     <RangePages>संसाधित किए जाने वाले पेज नंबर। आप एक एकल पेज, पेजों की एक सूची (विभाजक के रूप में अल्पविराम का उपयोग करके), या प्रारंभ पेज, एक "-" विभाजक, और अंतिम पेज देकर एक श्रेणी निर्दिष्ट कर सकते हैं। उदाहरण के लिए: 1,3,5-12।</RangePages>
     <RemoveEmptySpaceAtBottom>पेज के नीचे रिक्त स्थान को न्यूनतम करें।</RemoveEmptySpaceAtBottom>
-    <Resources>संसाधन पैनल दिखाना</Resources>
+    <Resources>संसाधन दिखाएँ।</Resources>
     <RestrictEditing>Word दस्तावेज़ में परिवर्तनों पर सीमाएँ।</RestrictEditing>
-    <Save>आगे उपयोग के लिए एक रिपोर्ट सहेजें।</Save>
+    <Save>रिपोर्ट सहेजें।</Save>
     <ScaleHtml>निर्यात के बाद रिपोर्ट पेजों और आइटमों का आकार (स्केल)।</ScaleHtml>
     <ScaleImage>निर्यात के बाद रिपोर्ट का आकार (स्केल)। स्केल जितना कम होगा, प्रति इंच पिक्सेल की संख्या उतनी ही अधिक होगी, और इसके विपरीत।</ScaleImage>
-    <SendEMail>ईमेल के माध्यम से एक रिपोर्ट भेजें।</SendEMail>
+    <SendEMail>ईमेल से रिपोर्ट भेजें।</SendEMail>
     <Separator>CSV फ़ाइल में डेटा के बीच विभाजक।</Separator>
     <SkipColumnHeaders>कॉलम हेडर सक्षम/अक्षम करें।</SkipColumnHeaders>
     <StandardPdfFonts>14 मानक Adobe फ़ॉन्ट। यदि यह विकल्प सक्षम है, तो PDF फ़ाइल में केवल मानक 14 फ़ॉन्ट का उपयोग किया जाएगा। सभी रिपोर्ट फ़ॉन्ट उनमें परिवर्तित हो जाते हैं।</StandardPdfFonts>
     <SubjectNameString>प्रमाणपत्र पहचानकर्ता। पहचानकर्ता प्रमाणपत्र स्वामी का नाम (पूर्ण पंक्ति) या नाम का एक भाग (उपस्ट्रिंग) है।</SubjectNameString>
-    <Thumbnails>पेज थंबनेल पैनल दिखाएँ।</Thumbnails>
+    <Thumbnails>पेज थंबनेल दिखाएँ।</Thumbnails>
     <TiffCompressionScheme>TIFF फ़ाइलों के लिए संपीड़न योजना।</TiffCompressionScheme>
-    <ToolEditor>व्यूअर में रिपोर्ट का टेक्स्ट संपादित करें।</ToolEditor>
-    <ToolSignature>चिह्नित स्थानों पर अपना हस्ताक्षर करें।</ToolSignature>
+    <ToolEditor>संपादन योग्य घटक संपादित करें।</ToolEditor>
+    <ToolSignature>चिह्नित स्थानों पर हस्ताक्षर करें।</ToolSignature>
     <TypeExport>वह फ़ाइल जिसमें रिपोर्ट परिवर्तित की जाएगी।</TypeExport>
     <UnsafeCompilation1>यह दस्तावेज़ संकलन प्रक्रिया का उपयोग करता है। कुछ मामलों में, यह सुरक्षित नहीं हो सकता। इसलिए, किसी भी संभावित जोखिम को न्यूनतम करने के लिए दस्तावेज़ सुरक्षित मोड में लोड किया जाएगा।</UnsafeCompilation1>
     <UnsafeCompilation2>यदि आपको इस दस्तावेज़ को इसके मूल रूप में उपयोग करने की आवश्यकता है, तो कृपया अपने डेवलपर्स से संपर्क करें।</UnsafeCompilation2>
@@ -2425,13 +2425,13 @@
     <UsePageHeadersAndFooters>पेज हेडर और फ़ुटर बैंड को Microsoft Word में दस्तावेज़ के हेडर और फ़ुटर के रूप में परिभाषित करें।</UsePageHeadersAndFooters>
     <UserPassword>दस्तावेज़ खोलने के लिए आवश्यक पासवर्ड।</UserPassword>
     <UseUnicode>वर्णों की एन्कोडिंग के लिए विस्तारित समर्थन। यह PDF फ़ाइल के भीतर आंतरिक वर्ण एन्कोडिंग को प्रभावित करता है, और PDF फ़ाइल से टेक्स्ट की कॉपी में सुधार करता है।</UseUnicode>
-    <ViewModeContinuous>सभी रिपोर्ट पेजों को एक लंबवत रिबन के रूप में दिखाएँ।</ViewModeContinuous>
-    <ViewModeMultiplePages>विंडो में जितने पेज फ़िट हों उतने दिखाएँ।</ViewModeMultiplePages>
-    <ViewModeSinglePage>पूर्वावलोकन विंडो में एक एकल पेज दिखाएँ।</ViewModeSinglePage>
-    <ZoomMultiplePages>कई पेज विंडो में फ़िट करें।</ZoomMultiplePages>
-    <ZoomOnePage>एक पेज विंडो में फ़िट करें।</ZoomOnePage>
-    <ZoomPageWidth>पेज की चौड़ाई विंडो में फ़िट करें।</ZoomPageWidth>
-    <ZoomTwoPages>दो पेज विंडो में फ़िट करें।</ZoomTwoPages>
+    <ViewModeContinuous>सभी पेजों को रिबन के रूप में दिखाएँ।</ViewModeContinuous>
+    <ViewModeMultiplePages>कई पेज दिखाएँ।</ViewModeMultiplePages>
+    <ViewModeSinglePage>एकल पेज दिखाएँ।</ViewModeSinglePage>
+    <ZoomMultiplePages>कई पेज फ़िट करें।</ZoomMultiplePages>
+    <ZoomOnePage>एक पेज फ़िट करें।</ZoomOnePage>
+    <ZoomPageWidth>पेज की चौड़ाई फ़िट करें।</ZoomPageWidth>
+    <ZoomTwoPages>दो पेज फ़िट करें।</ZoomTwoPages>
     <ZoomTxt>रिपोर्ट का आकार (स्केल): X - क्षैतिज स्केल बदलें, Y - लंबवत स्केल बदलें।</ZoomTxt>
   </HelpViewer>
   <Interface>
