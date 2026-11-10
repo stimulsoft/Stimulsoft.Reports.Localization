@@ -1620,6 +1620,26 @@
     <SetCulture>Spara språkinställningar till rapport</SetCulture>
     <title>Editor för nationella inställningar</title>
   </FormGlobalizationEditor>
+  <FormImageEditor>
+    <DataChooseOtherType>Välj en kolumn av en annan typ.</DataChooseOtherType>
+    <DataNothingToPreview>Inget att förhandsgranska</DataNothingToPreview>
+    <DataNotImage>Radens värde är inte en bild</DataNotImage>
+    <DataTypeNotImage>Kolumner av typen {0} kan inte visas som bilder.</DataTypeNotImage>
+    <ExampleFromColumn>Från kolumn</ExampleFromColumn>
+    <ExampleFromFilePath>Från filsökväg</ExampleFromFilePath>
+    <ExpressionCall>Ange ett uttryck som returnerar en bild</ExpressionCall>
+    <ExpressionRenderHint>Bilden beräknas när rapporten renderas</ExpressionRenderHint>
+    <FileCall>Släpp en bildfil eller klicka för att välja en</FileCall>
+    <FileLocalWarning>Den här sökvägen finns bara på den här datorn. På andra datorer hittas inte bilden.</FileLocalWarning>
+    <FileNotImage>Filen är inte en bild</FileNotImage>
+    <LinkCall>Ange eller klistra in en länk till en bild</LinkCall>
+    <LinkNotImage>Länken leder inte till en bild</LinkNotImage>
+    <LinkRenderHint>Bilden läses in via länken när rapporten renderas</LinkRenderHint>
+    <UploadDownscale>Skala ned till {0} px</UploadDownscale>
+    <UploadDrop>Släpp en bild, klicka för att välja en fil eller tryck på Ctrl+V</UploadDrop>
+    <UploadSizeWarning>Den här bilden lägger till {0} i rapportfilen. Den skrivs ut i den här komponentens storlek, så de flesta av dess pixlar syns aldrig.</UploadSizeWarning>
+    <UploadStoredHint>Bilden lagras i rapporten</UploadStoredHint>
+  </FormImageEditor>
   <FormInteraction>
     <HyperlinkExternalDocuments>Hyperlänk till Externt Dokument</HyperlinkExternalDocuments>
     <HyperlinkUsingInteractionBookmark>Hyperlänk med bokmärke</HyperlinkUsingInteractionBookmark>

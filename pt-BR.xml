@@ -1622,6 +1622,26 @@ sucedida</ConnectionSuccessfull>
     <SetCulture>Definir as configurações de Cultura no Relatório</SetCulture>
     <title>Editor de Globalização</title>
   </FormGlobalizationEditor>
+  <FormImageEditor>
+    <DataChooseOtherType>Selecione uma coluna de outro tipo.</DataChooseOtherType>
+    <DataNothingToPreview>Nada para pré-visualizar</DataNothingToPreview>
+    <DataNotImage>O valor da linha não é uma imagem</DataNotImage>
+    <DataTypeNotImage>Colunas do tipo {0} não podem ser exibidas como imagens.</DataTypeNotImage>
+    <ExampleFromColumn>Da coluna</ExampleFromColumn>
+    <ExampleFromFilePath>Do caminho do arquivo</ExampleFromFilePath>
+    <ExpressionCall>Digite uma expressão que retorne uma imagem</ExpressionCall>
+    <ExpressionRenderHint>A imagem é calculada ao renderizar o relatório</ExpressionRenderHint>
+    <FileCall>Solte um arquivo de imagem ou clique para escolher um</FileCall>
+    <FileLocalWarning>Este caminho existe apenas neste computador. Em outros computadores a imagem não será encontrada.</FileLocalWarning>
+    <FileNotImage>O arquivo não é uma imagem</FileNotImage>
+    <LinkCall>Digite ou cole um link para uma imagem</LinkCall>
+    <LinkNotImage>O link não leva a uma imagem</LinkNotImage>
+    <LinkRenderHint>A imagem é carregada pelo link ao renderizar o relatório</LinkRenderHint>
+    <UploadDownscale>Reduzir para {0} px</UploadDownscale>
+    <UploadDrop>Solte uma imagem, clique para escolher um arquivo ou pressione Ctrl+V</UploadDrop>
+    <UploadSizeWarning>Esta imagem adiciona {0} ao arquivo do relatório. Ela é impressa no tamanho deste componente, então a maioria dos seus pixels nunca é vista.</UploadSizeWarning>
+    <UploadStoredHint>A imagem é armazenada dentro do relatório</UploadStoredHint>
+  </FormImageEditor>
   <FormInteraction>
     <HyperlinkExternalDocuments>Hiperlink para documento externo</HyperlinkExternalDocuments>
     <HyperlinkUsingInteractionBookmark>Hyperlink usando Marcador</HyperlinkUsingInteractionBookmark>

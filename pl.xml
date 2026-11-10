@@ -1621,6 +1621,26 @@
     <SetCulture>Ustaw ustawienia regionalne w raporcie</SetCulture>
     <title>Edytor globalizacji</title>
   </FormGlobalizationEditor>
+  <FormImageEditor>
+    <DataChooseOtherType>Wybierz kolumnę innego typu.</DataChooseOtherType>
+    <DataNothingToPreview>Brak podglądu</DataNothingToPreview>
+    <DataNotImage>Wartość w wierszu nie jest obrazem</DataNotImage>
+    <DataTypeNotImage>Kolumn typu {0} nie można wyświetlić jako obrazów.</DataTypeNotImage>
+    <ExampleFromColumn>Z kolumny</ExampleFromColumn>
+    <ExampleFromFilePath>Ze ścieżki do pliku</ExampleFromFilePath>
+    <ExpressionCall>Wprowadź wyrażenie zwracające obraz</ExpressionCall>
+    <ExpressionRenderHint>Obraz jest obliczany podczas generowania raportu</ExpressionRenderHint>
+    <FileCall>Upuść plik obrazu lub kliknij, aby go wybrać</FileCall>
+    <FileLocalWarning>Ta ścieżka istnieje tylko na tym komputerze. Gdzie indziej obraz nie zostanie znaleziony.</FileLocalWarning>
+    <FileNotImage>Plik nie jest obrazem</FileNotImage>
+    <LinkCall>Wprowadź lub wklej odnośnik do obrazu</LinkCall>
+    <LinkNotImage>Odnośnik nie prowadzi do obrazu</LinkNotImage>
+    <LinkRenderHint>Obraz jest ładowany z odnośnika podczas generowania raportu</LinkRenderHint>
+    <UploadDownscale>Zmniejsz do {0} px</UploadDownscale>
+    <UploadDrop>Upuść obraz, kliknij, aby wybrać plik, lub naciśnij Ctrl+V</UploadDrop>
+    <UploadSizeWarning>Ten obraz zwiększa plik raportu o {0}. Drukuje się w rozmiarze tego komponentu, więc większość jego pikseli nigdy nie jest widoczna.</UploadSizeWarning>
+    <UploadStoredHint>Obraz jest przechowywany w raporcie</UploadStoredHint>
+  </FormImageEditor>
   <FormInteraction>
     <HyperlinkExternalDocuments>Hiperłącze do dokumentu zewnętrznego</HyperlinkExternalDocuments>
     <HyperlinkUsingInteractionBookmark>Hiperłącze przy użyciu zakładki</HyperlinkUsingInteractionBookmark>

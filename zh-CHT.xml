@@ -1622,6 +1622,26 @@
     <SetCulture>將文化特性設定套用至報表</SetCulture>
     <title>全局編輯器</title>
   </FormGlobalizationEditor>
+  <FormImageEditor>
+    <DataChooseOtherType>請選取其他類型的欄位。</DataChooseOtherType>
+    <DataNothingToPreview>沒有可預覽的內容</DataNothingToPreview>
+    <DataNotImage>此列的值不是圖片</DataNotImage>
+    <DataTypeNotImage>{0} 類型的欄位無法顯示為圖片。</DataTypeNotImage>
+    <ExampleFromColumn>來自數據列</ExampleFromColumn>
+    <ExampleFromFilePath>來自檔案路徑</ExampleFromFilePath>
+    <ExpressionCall>輸入會傳回圖片的運算式</ExpressionCall>
+    <ExpressionRenderHint>圖片會在產生報表時計算</ExpressionRenderHint>
+    <FileCall>將圖片檔案拖放到此處或按一下選取</FileCall>
+    <FileLocalWarning>此路徑僅存在於這台電腦上。在其他電腦上將找不到圖片。</FileLocalWarning>
+    <FileNotImage>此檔案不是圖片</FileNotImage>
+    <LinkCall>輸入或貼上圖片鏈結</LinkCall>
+    <LinkNotImage>此鏈結指向的不是圖片</LinkNotImage>
+    <LinkRenderHint>產生報表時會透過鏈結載入圖片</LinkRenderHint>
+    <UploadDownscale>縮小至 {0} px</UploadDownscale>
+    <UploadDrop>將圖片拖放到此處、按一下選取檔案或按 Ctrl+V</UploadDrop>
+    <UploadSizeWarning>此圖片會使報表檔案增加 {0}。它會以此組件的大小列印，因此大部分像素都不會顯示出來。</UploadSizeWarning>
+    <UploadStoredHint>圖片儲存在報表內部</UploadStoredHint>
+  </FormImageEditor>
   <FormInteraction>
     <HyperlinkExternalDocuments>超連結至外部文件</HyperlinkExternalDocuments>
     <HyperlinkUsingInteractionBookmark>使用書籤的超連結</HyperlinkUsingInteractionBookmark>

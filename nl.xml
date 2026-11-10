@@ -1620,6 +1620,26 @@
     <SetCulture>Cultuurinstellingen Toepassen Op Rapport</SetCulture>
     <title>Globalisatie Editor</title>
   </FormGlobalizationEditor>
+  <FormImageEditor>
+    <DataChooseOtherType>Selecteer een kolom van een ander type.</DataChooseOtherType>
+    <DataNothingToPreview>Geen voorbeeld beschikbaar</DataNothingToPreview>
+    <DataNotImage>De waarde van de rij is geen afbeelding</DataNotImage>
+    <DataTypeNotImage>Kolommen van het type {0} kunnen niet als afbeeldingen worden weergegeven.</DataTypeNotImage>
+    <ExampleFromColumn>Uit kolom</ExampleFromColumn>
+    <ExampleFromFilePath>Uit bestandspad</ExampleFromFilePath>
+    <ExpressionCall>Voer een expressie in die een afbeelding retourneert</ExpressionCall>
+    <ExpressionRenderHint>De afbeelding wordt berekend wanneer het rapport wordt gegenereerd</ExpressionRenderHint>
+    <FileCall>Zet een afbeeldingsbestand hier neer of klik om er een te selecteren</FileCall>
+    <FileLocalWarning>Dit pad bestaat alleen op deze computer. Op andere computers wordt de afbeelding niet gevonden.</FileLocalWarning>
+    <FileNotImage>Het bestand is geen afbeelding</FileNotImage>
+    <LinkCall>Voer een link naar een afbeelding in of plak deze</LinkCall>
+    <LinkNotImage>De link verwijst niet naar een afbeelding</LinkNotImage>
+    <LinkRenderHint>De afbeelding wordt via de link geladen wanneer het rapport wordt gegenereerd</LinkRenderHint>
+    <UploadDownscale>Verkleinen tot {0} px</UploadDownscale>
+    <UploadDrop>Zet een afbeelding hier neer, klik om een bestand te selecteren of druk op Ctrl+V</UploadDrop>
+    <UploadSizeWarning>Deze afbeelding voegt {0} toe aan het rapportbestand. De afbeelding wordt afgedrukt op het formaat van deze component, dus de meeste pixels zijn nooit te zien.</UploadSizeWarning>
+    <UploadStoredHint>De afbeelding wordt in het rapport opgeslagen</UploadStoredHint>
+  </FormImageEditor>
   <FormInteraction>
     <HyperlinkExternalDocuments>Hyperlink naar extern document</HyperlinkExternalDocuments>
     <HyperlinkUsingInteractionBookmark>Hyperlink via bladwijzer</HyperlinkUsingInteractionBookmark>

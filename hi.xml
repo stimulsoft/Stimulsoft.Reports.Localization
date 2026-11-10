@@ -1620,6 +1620,26 @@
     <SetCulture>रिपोर्ट में संस्कृति सेटिंग्स सेट करें</SetCulture>
     <title>वैश्वीकरण संपादक</title>
   </FormGlobalizationEditor>
+  <FormImageEditor>
+    <DataChooseOtherType>किसी अन्य प्रकार का कॉलम चुनें।</DataChooseOtherType>
+    <DataNothingToPreview>पूर्वावलोकन के लिए कुछ नहीं है</DataNothingToPreview>
+    <DataNotImage>इस पंक्ति का मान छवि नहीं है</DataNotImage>
+    <DataTypeNotImage>{0} प्रकार के कॉलम छवियों के रूप में नहीं दिखाए जा सकते।</DataTypeNotImage>
+    <ExampleFromColumn>कॉलम से</ExampleFromColumn>
+    <ExampleFromFilePath>फ़ाइल पथ से</ExampleFromFilePath>
+    <ExpressionCall>छवि लौटाने वाला एक्सप्रेशन दर्ज करें</ExpressionCall>
+    <ExpressionRenderHint>रिपोर्ट रेंडर होने पर छवि की गणना की जाती है</ExpressionRenderHint>
+    <FileCall>छवि फ़ाइल यहाँ छोड़ें या चुनने के लिए क्लिक करें</FileCall>
+    <FileLocalWarning>यह पथ केवल इसी कंप्यूटर पर मौजूद है। अन्य कंप्यूटरों पर छवि नहीं मिलेगी।</FileLocalWarning>
+    <FileNotImage>यह फ़ाइल छवि नहीं है</FileNotImage>
+    <LinkCall>छवि का लिंक दर्ज करें या पेस्ट करें</LinkCall>
+    <LinkNotImage>यह लिंक किसी छवि पर नहीं ले जाता</LinkNotImage>
+    <LinkRenderHint>रिपोर्ट रेंडर होने पर छवि लिंक से लोड की जाती है</LinkRenderHint>
+    <UploadDownscale>{0} px तक छोटा करें</UploadDownscale>
+    <UploadDrop>छवि छोड़ें, फ़ाइल चुनने के लिए क्लिक करें या Ctrl+V दबाएँ</UploadDrop>
+    <UploadSizeWarning>यह छवि रिपोर्ट फ़ाइल में {0} जोड़ती है। यह इस घटक के आकार में प्रिंट होती है, इसलिए इसके अधिकांश पिक्सेल कभी दिखाई नहीं देते।</UploadSizeWarning>
+    <UploadStoredHint>छवि रिपोर्ट के अंदर सहेजी जाती है</UploadStoredHint>
+  </FormImageEditor>
   <FormInteraction>
     <HyperlinkExternalDocuments>बाहरी दस्तावेज़ का हाइपरलिंक</HyperlinkExternalDocuments>
     <HyperlinkUsingInteractionBookmark>बुकमार्क का उपयोग कर हाइपरलिंक</HyperlinkUsingInteractionBookmark>

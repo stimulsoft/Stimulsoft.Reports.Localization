@@ -1620,6 +1620,26 @@
     <SetCulture>Đặt cài đặt văn bản cho báo cáo</SetCulture>
     <title>Trình chỉnh sửa toàn cầu hóa</title>
   </FormGlobalizationEditor>
+  <FormImageEditor>
+    <DataChooseOtherType>Chọn một cột có kiểu khác.</DataChooseOtherType>
+    <DataNothingToPreview>Không có gì để xem trước</DataNothingToPreview>
+    <DataNotImage>Giá trị của hàng không phải là hình ảnh</DataNotImage>
+    <DataTypeNotImage>Không thể hiển thị các cột kiểu {0} dưới dạng hình ảnh.</DataTypeNotImage>
+    <ExampleFromColumn>Từ cột</ExampleFromColumn>
+    <ExampleFromFilePath>Từ đường dẫn tệp</ExampleFromFilePath>
+    <ExpressionCall>Nhập biểu thức trả về hình ảnh</ExpressionCall>
+    <ExpressionRenderHint>Hình ảnh được tính khi kết xuất báo cáo</ExpressionRenderHint>
+    <FileCall>Thả tệp hình ảnh hoặc nhấp để chọn</FileCall>
+    <FileLocalWarning>Đường dẫn này chỉ tồn tại trên máy tính này. Ở nơi khác sẽ không tìm thấy hình ảnh.</FileLocalWarning>
+    <FileNotImage>Tệp này không phải là hình ảnh</FileNotImage>
+    <LinkCall>Nhập hoặc dán liên kết đến hình ảnh</LinkCall>
+    <LinkNotImage>Liên kết không dẫn đến hình ảnh</LinkNotImage>
+    <LinkRenderHint>Hình ảnh được tải từ liên kết khi kết xuất báo cáo</LinkRenderHint>
+    <UploadDownscale>Thu nhỏ xuống {0} px</UploadDownscale>
+    <UploadDrop>Thả hình ảnh, nhấp để chọn tệp hoặc nhấn Ctrl+V</UploadDrop>
+    <UploadSizeWarning>Hình ảnh này làm tệp báo cáo tăng thêm {0}. Hình ảnh được in theo kích thước của thành phần này nên phần lớn điểm ảnh không bao giờ được nhìn thấy.</UploadSizeWarning>
+    <UploadStoredHint>Hình ảnh được lưu bên trong báo cáo</UploadStoredHint>
+  </FormImageEditor>
   <FormInteraction>
     <HyperlinkExternalDocuments>Liên kết tới tài liệu bên ngoài</HyperlinkExternalDocuments>
     <HyperlinkUsingInteractionBookmark>Liên kết bằng cách sử dụng đánh dấu trang</HyperlinkUsingInteractionBookmark>

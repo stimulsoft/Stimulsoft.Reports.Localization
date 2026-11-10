@@ -1621,6 +1621,26 @@
     <SetCulture>Set Culture Settings to Report</SetCulture>
     <title>Globalization Editor</title>
   </FormGlobalizationEditor>
+  <FormImageEditor>
+    <DataChooseOtherType>Choose a column of another type.</DataChooseOtherType>
+    <DataNothingToPreview>Nothing to preview</DataNothingToPreview>
+    <DataNotImage>The value of the row is not an image</DataNotImage>
+    <DataTypeNotImage>Columns of the {0} type can't be shown as images.</DataTypeNotImage>
+    <ExampleFromColumn>From Column</ExampleFromColumn>
+    <ExampleFromFilePath>From File Path</ExampleFromFilePath>
+    <ExpressionCall>Enter an expression that returns an image</ExpressionCall>
+    <ExpressionRenderHint>The image is calculated when the report is rendered</ExpressionRenderHint>
+    <FileCall>Drop an image file or click to choose one</FileCall>
+    <FileLocalWarning>This path exists only on this computer. Elsewhere the image won't be found.</FileLocalWarning>
+    <FileNotImage>The file is not an image</FileNotImage>
+    <LinkCall>Enter or paste a link to an image</LinkCall>
+    <LinkNotImage>The link does not lead to an image</LinkNotImage>
+    <LinkRenderHint>The image is loaded by the link when the report is rendered</LinkRenderHint>
+    <UploadDownscale>Downscale to {0} px</UploadDownscale>
+    <UploadDrop>Drop an image, click to choose a file, or press Ctrl+V</UploadDrop>
+    <UploadSizeWarning>This image adds {0} to the report file. It prints at the size of this component, so most of its pixels are never seen.</UploadSizeWarning>
+    <UploadStoredHint>The image is stored inside the report</UploadStoredHint>
+  </FormImageEditor>
   <FormInteraction>
     <HyperlinkExternalDocuments>Hyperlink to External Document</HyperlinkExternalDocuments>
     <HyperlinkUsingInteractionBookmark>Hyperlink using Bookmark</HyperlinkUsingInteractionBookmark>

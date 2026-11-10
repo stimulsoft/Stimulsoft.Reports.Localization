@@ -1620,6 +1620,26 @@
     <SetCulture>Estableix la configuració regional de l’informe</SetCulture>
     <title>Editor de configuracions regionals</title>
   </FormGlobalizationEditor>
+  <FormImageEditor>
+    <DataChooseOtherType>Seleccioneu una columna d'un altre tipus.</DataChooseOtherType>
+    <DataNothingToPreview>No hi ha res per previsualitzar</DataNothingToPreview>
+    <DataNotImage>El valor de la fila no és una imatge</DataNotImage>
+    <DataTypeNotImage>Les columnes de tipus {0} no es poden mostrar com a imatges.</DataTypeNotImage>
+    <ExampleFromColumn>Des d'una columna</ExampleFromColumn>
+    <ExampleFromFilePath>Des d'un camí de fitxer</ExampleFromFilePath>
+    <ExpressionCall>Introduïu una expressió que retorni una imatge</ExpressionCall>
+    <ExpressionRenderHint>La imatge es calcula en renderitzar l'informe</ExpressionRenderHint>
+    <FileCall>Deixeu anar un fitxer d'imatge o feu clic per triar-ne un</FileCall>
+    <FileLocalWarning>Aquest camí només existeix en aquest ordinador. En altres ordinadors no es trobarà la imatge.</FileLocalWarning>
+    <FileNotImage>El fitxer no és una imatge</FileNotImage>
+    <LinkCall>Introduïu o enganxeu un enllaç a una imatge</LinkCall>
+    <LinkNotImage>L'enllaç no porta a una imatge</LinkNotImage>
+    <LinkRenderHint>La imatge es carrega des de l'enllaç en renderitzar l'informe</LinkRenderHint>
+    <UploadDownscale>Reduir a {0} px</UploadDownscale>
+    <UploadDrop>Deixeu anar una imatge, feu clic per triar un fitxer o premeu Ctrl+V</UploadDrop>
+    <UploadSizeWarning>Aquesta imatge afegeix {0} al fitxer de l'informe. S'imprimeix a la mida d'aquest component, de manera que la majoria dels seus píxels no es veuen mai.</UploadSizeWarning>
+    <UploadStoredHint>La imatge es desa dins de l'informe</UploadStoredHint>
+  </FormImageEditor>
   <FormInteraction>
     <HyperlinkExternalDocuments>Hiperenllaç a un document extern</HyperlinkExternalDocuments>
     <HyperlinkUsingInteractionBookmark>Hiperenllaç mitjançant marcador</HyperlinkUsingInteractionBookmark>

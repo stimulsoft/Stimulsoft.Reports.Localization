@@ -1623,6 +1623,26 @@
     <SetCulture>Postavi postavke kulture u izvještaju</SetCulture>
     <title>Editor globalizacije</title>
   </FormGlobalizationEditor>
+  <FormImageEditor>
+    <DataChooseOtherType>Odaberite stupac druge vrste.</DataChooseOtherType>
+    <DataNothingToPreview>Nema ničega za pregled</DataNothingToPreview>
+    <DataNotImage>Vrijednost u retku nije slika</DataNotImage>
+    <DataTypeNotImage>Stupci vrste {0} ne mogu se prikazati kao slike.</DataTypeNotImage>
+    <ExampleFromColumn>Iz stupca</ExampleFromColumn>
+    <ExampleFromFilePath>Prema putu do datoteke</ExampleFromFilePath>
+    <ExpressionCall>Unesite izraz koji vraća sliku</ExpressionCall>
+    <ExpressionRenderHint>Slika se izračunava pri generiranju izvještaja</ExpressionRenderHint>
+    <FileCall>Ispustite datoteku slike ili kliknite da biste je odabrali</FileCall>
+    <FileLocalWarning>Ovaj put postoji samo na ovom računalu. Na drugim računalima slika neće biti pronađena.</FileLocalWarning>
+    <FileNotImage>Datoteka nije slika</FileNotImage>
+    <LinkCall>Unesite ili zalijepite poveznicu na sliku</LinkCall>
+    <LinkNotImage>Poveznica ne vodi na sliku</LinkNotImage>
+    <LinkRenderHint>Slika se učitava s poveznice pri generiranju izvještaja</LinkRenderHint>
+    <UploadDownscale>Smanji na {0} px</UploadDownscale>
+    <UploadDrop>Ispustite sliku, kliknite za odabir datoteke ili pritisnite Ctrl+V</UploadDrop>
+    <UploadSizeWarning>Ova slika datoteci izvještaja dodaje {0}. Ispisuje se u veličini ove komponente, pa se većina njezinih piksela nikad ne vidi.</UploadSizeWarning>
+    <UploadStoredHint>Slika se sprema unutar izvještaja</UploadStoredHint>
+  </FormImageEditor>
   <FormInteraction>
     <HyperlinkExternalDocuments>Hiperveza do eksternog dokumenta</HyperlinkExternalDocuments>
     <HyperlinkUsingInteractionBookmark>Hiperveza koristeći knjižnu oznaku</HyperlinkUsingInteractionBookmark>

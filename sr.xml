@@ -1623,6 +1623,26 @@
     <SetCulture>Postavi Culture podešavanja u izveštaj</SetCulture>
     <title>Editor globalizacije</title>
   </FormGlobalizationEditor>
+  <FormImageEditor>
+    <DataChooseOtherType>Odaberite kolonu druge vrste.</DataChooseOtherType>
+    <DataNothingToPreview>Nema ničega za pregled</DataNothingToPreview>
+    <DataNotImage>Vrednost u redu nije slika</DataNotImage>
+    <DataTypeNotImage>Kolone vrste {0} ne mogu se prikazati kao slike.</DataTypeNotImage>
+    <ExampleFromColumn>Iz kolone</ExampleFromColumn>
+    <ExampleFromFilePath>Iz putanje do datoteke</ExampleFromFilePath>
+    <ExpressionCall>Unesite izraz koji vraća sliku</ExpressionCall>
+    <ExpressionRenderHint>Slika se izračunava prilikom generisanja izveštaja</ExpressionRenderHint>
+    <FileCall>Spustite datoteku slike ili kliknite da je odaberete</FileCall>
+    <FileLocalWarning>Ova putanja postoji samo na ovom računaru. Na drugim računarima slika neće biti pronađena.</FileLocalWarning>
+    <FileNotImage>Datoteka nije slika</FileNotImage>
+    <LinkCall>Unesite ili nalepite link ka slici</LinkCall>
+    <LinkNotImage>Link ne vodi do slike</LinkNotImage>
+    <LinkRenderHint>Slika se učitava sa linka prilikom generisanja izveštaja</LinkRenderHint>
+    <UploadDownscale>Smanji na {0} px</UploadDownscale>
+    <UploadDrop>Spustite sliku, kliknite da odaberete datoteku ili pritisnite Ctrl+V</UploadDrop>
+    <UploadSizeWarning>Ova slika dodaje {0} datoteci izveštaja. Štampa se u veličini ove komponente, pa se većina njenih piksela nikada ne vidi.</UploadSizeWarning>
+    <UploadStoredHint>Slika se čuva unutar izveštaja</UploadStoredHint>
+  </FormImageEditor>
   <FormInteraction>
     <HyperlinkExternalDocuments>Hiperlink do vanjskog dokumenta</HyperlinkExternalDocuments>
     <HyperlinkUsingInteractionBookmark>Hiperlink iz sačuvanih oznaka</HyperlinkUsingInteractionBookmark>

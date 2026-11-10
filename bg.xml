@@ -1624,6 +1624,26 @@
     <SetCulture>Задай регонални настройки на отчета</SetCulture>
     <title>Редактор култура</title>
   </FormGlobalizationEditor>
+  <FormImageEditor>
+    <DataChooseOtherType>Изберете колона от друг тип.</DataChooseOtherType>
+    <DataNothingToPreview>Няма нищо за преглед</DataNothingToPreview>
+    <DataNotImage>Стойността в реда не е картинка</DataNotImage>
+    <DataTypeNotImage>Колони от тип {0} не могат да се показват като картинки.</DataTypeNotImage>
+    <ExampleFromColumn>От колона</ExampleFromColumn>
+    <ExampleFromFilePath>От пътека до файл</ExampleFromFilePath>
+    <ExpressionCall>Въведете израз, който връща картинка</ExpressionCall>
+    <ExpressionRenderHint>Картинката се изчислява при генериране на отчета</ExpressionRenderHint>
+    <FileCall>Пуснете файл с картинка или щракнете, за да го изберете</FileCall>
+    <FileLocalWarning>Тази пътека съществува само на този компютър. На други компютри картинката няма да бъде намерена.</FileLocalWarning>
+    <FileNotImage>Файлът не е картинка</FileNotImage>
+    <LinkCall>Въведете или поставете връзка към картинка</LinkCall>
+    <LinkNotImage>Връзката не води до картинка</LinkNotImage>
+    <LinkRenderHint>Картинката се зарежда от връзката при генериране на отчета</LinkRenderHint>
+    <UploadDownscale>Намали до {0} px</UploadDownscale>
+    <UploadDrop>Пуснете картинка, щракнете за избор на файл или натиснете Ctrl+V</UploadDrop>
+    <UploadSizeWarning>Тази картинка добавя {0} към файла на отчета. Тя се отпечатва в размера на този компонент, така че повечето пиксели никога не се виждат.</UploadSizeWarning>
+    <UploadStoredHint>Картинката се съхранява в отчета</UploadStoredHint>
+  </FormImageEditor>
   <FormInteraction>
     <HyperlinkExternalDocuments>Хиперлинк към Външен Документ</HyperlinkExternalDocuments>
     <HyperlinkUsingInteractionBookmark>Хиперлинк използващ Показалец</HyperlinkUsingInteractionBookmark>

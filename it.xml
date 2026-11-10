@@ -1621,6 +1621,26 @@
     <SetCulture>Copia le impostazioni di localizzazione al report</SetCulture>
     <title>Editor Globalizzazione</title>
   </FormGlobalizationEditor>
+  <FormImageEditor>
+    <DataChooseOtherType>Seleziona una colonna di un altro tipo.</DataChooseOtherType>
+    <DataNothingToPreview>Nessuna anteprima</DataNothingToPreview>
+    <DataNotImage>Il valore della riga non è un'immagine</DataNotImage>
+    <DataTypeNotImage>Le colonne di tipo {0} non possono essere visualizzate come immagini.</DataTypeNotImage>
+    <ExampleFromColumn>Da colonna</ExampleFromColumn>
+    <ExampleFromFilePath>Da percorso file</ExampleFromFilePath>
+    <ExpressionCall>Inserisci un'espressione che restituisca un'immagine</ExpressionCall>
+    <ExpressionRenderHint>L'immagine viene calcolata durante l'elaborazione del report</ExpressionRenderHint>
+    <FileCall>Trascina qui un file immagine o fai clic per sceglierne uno</FileCall>
+    <FileLocalWarning>Questo percorso esiste solo su questo computer. Altrove l'immagine non verrà trovata.</FileLocalWarning>
+    <FileNotImage>Il file non è un'immagine</FileNotImage>
+    <LinkCall>Inserisci o incolla un link a un'immagine</LinkCall>
+    <LinkNotImage>Il link non porta a un'immagine</LinkNotImage>
+    <LinkRenderHint>L'immagine viene caricata dal link durante l'elaborazione del report</LinkRenderHint>
+    <UploadDownscale>Riduci a {0} px</UploadDownscale>
+    <UploadDrop>Trascina qui un'immagine, fai clic per scegliere un file o premi Ctrl+V</UploadDrop>
+    <UploadSizeWarning>Questa immagine aggiunge {0} al file del report. Viene stampata alle dimensioni di questo componente, quindi la maggior parte dei suoi pixel non si vede mai.</UploadSizeWarning>
+    <UploadStoredHint>L'immagine viene salvata nel report</UploadStoredHint>
+  </FormImageEditor>
   <FormInteraction>
     <HyperlinkExternalDocuments>Collegamento ipertestuale a documento esterno</HyperlinkExternalDocuments>
     <HyperlinkUsingInteractionBookmark>Collegamento ipertestuale con segnalibro</HyperlinkUsingInteractionBookmark>

@@ -1620,6 +1620,26 @@
     <SetCulture>Atur Pengaturan Pemeliharaan dari Laporan</SetCulture>
     <title>Pengedit Global</title>
   </FormGlobalizationEditor>
+  <FormImageEditor>
+    <DataChooseOtherType>Pilih kolom dengan tipe lain.</DataChooseOtherType>
+    <DataNothingToPreview>Tidak ada yang bisa dipratinjau</DataNothingToPreview>
+    <DataNotImage>Nilai baris ini bukan gambar</DataNotImage>
+    <DataTypeNotImage>Kolom bertipe {0} tidak dapat ditampilkan sebagai gambar.</DataTypeNotImage>
+    <ExampleFromColumn>Dari Kolom</ExampleFromColumn>
+    <ExampleFromFilePath>Dari Path File</ExampleFromFilePath>
+    <ExpressionCall>Masukkan ekspresi yang menghasilkan gambar</ExpressionCall>
+    <ExpressionRenderHint>Gambar dihitung saat laporan dibuat</ExpressionRenderHint>
+    <FileCall>Jatuhkan file gambar atau klik untuk memilihnya</FileCall>
+    <FileLocalWarning>Path ini hanya ada di komputer ini. Di tempat lain, gambar tidak akan ditemukan.</FileLocalWarning>
+    <FileNotImage>File ini bukan gambar</FileNotImage>
+    <LinkCall>Masukkan atau tempel link ke gambar</LinkCall>
+    <LinkNotImage>Link tidak mengarah ke gambar</LinkNotImage>
+    <LinkRenderHint>Gambar dimuat dari link saat laporan dibuat</LinkRenderHint>
+    <UploadDownscale>Perkecil ke {0} px</UploadDownscale>
+    <UploadDrop>Jatuhkan gambar, klik untuk memilih file, atau tekan Ctrl+V</UploadDrop>
+    <UploadSizeWarning>Gambar ini menambahkan {0} ke file laporan. Gambar dicetak sesuai ukuran komponen ini, sehingga sebagian besar pikselnya tidak pernah terlihat.</UploadSizeWarning>
+    <UploadStoredHint>Gambar disimpan di dalam laporan</UploadStoredHint>
+  </FormImageEditor>
   <FormInteraction>
     <HyperlinkExternalDocuments>Hyperlink ke Dokumen Eksternal</HyperlinkExternalDocuments>
     <HyperlinkUsingInteractionBookmark>Hyperlink menggunakan Bookmark</HyperlinkUsingInteractionBookmark>

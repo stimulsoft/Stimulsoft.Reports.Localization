@@ -1524,6 +1524,26 @@
     <SetCulture>Jelentés nyelvi beállítások</SetCulture>
     <title>Globalizáció szerkesztő</title>
   </FormGlobalizationEditor>
+  <FormImageEditor>
+    <DataChooseOtherType>Válasszon másik típusú oszlopot.</DataChooseOtherType>
+    <DataNothingToPreview>Nincs megjeleníthető előnézet</DataNothingToPreview>
+    <DataNotImage>A sor értéke nem kép</DataNotImage>
+    <DataTypeNotImage>A(z) {0} típusú oszlopok nem jeleníthetők meg képként.</DataTypeNotImage>
+    <ExampleFromColumn>Oszlopból</ExampleFromColumn>
+    <ExampleFromFilePath>Fájlútvonalból</ExampleFromFilePath>
+    <ExpressionCall>Adjon meg egy képet visszaadó kifejezést</ExpressionCall>
+    <ExpressionRenderHint>A kép kiszámítása a jelentés renderelésekor történik</ExpressionRenderHint>
+    <FileCall>Ejtsen ide egy képfájlt, vagy kattintson a kiválasztásához</FileCall>
+    <FileLocalWarning>Ez az útvonal csak ezen a számítógépen létezik. Máshol a kép nem található.</FileLocalWarning>
+    <FileNotImage>A fájl nem kép</FileNotImage>
+    <LinkCall>Adjon meg vagy illesszen be egy képre mutató hivatkozást</LinkCall>
+    <LinkNotImage>A hivatkozás nem képre mutat</LinkNotImage>
+    <LinkRenderHint>A kép a jelentés renderelésekor töltődik be a hivatkozásról</LinkRenderHint>
+    <UploadDownscale>Kicsinyítés erre: {0} px</UploadDownscale>
+    <UploadDrop>Ejtsen ide egy képet, kattintson a fájl kiválasztásához, vagy nyomja meg a Ctrl+V billentyűkombinációt</UploadDrop>
+    <UploadSizeWarning>Ez a kép {0} mérettel növeli a jelentésfájlt. A komponens méretében nyomtatódik ki, így a képpontok többsége soha nem látható.</UploadSizeWarning>
+    <UploadStoredHint>A kép a jelentésben tárolódik</UploadStoredHint>
+  </FormImageEditor>
   <FormInteraction>
     <HyperlinkExternalDocuments>Hiperhivatkozás külső dokumentumra</HyperlinkExternalDocuments>
     <HyperlinkUsingInteractionBookmark>Hiperhivatkozás könyvjelző használatával</HyperlinkUsingInteractionBookmark>

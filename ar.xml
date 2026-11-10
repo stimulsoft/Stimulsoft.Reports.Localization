@@ -1199,6 +1199,26 @@
     <SetCulture>ضبط الإعدادات الإقليمية للتقرير</SetCulture>
     <title>محرر Globalization</title>
   </FormGlobalizationEditor>
+  <FormImageEditor>
+    <DataChooseOtherType>اختر عمودًا من نوع آخر.</DataChooseOtherType>
+    <DataNothingToPreview>لا شيء للمعاينة</DataNothingToPreview>
+    <DataNotImage>قيمة هذا الصف ليست صورة</DataNotImage>
+    <DataTypeNotImage>لا يمكن عرض أعمدة النوع {0} كصور.</DataTypeNotImage>
+    <ExampleFromColumn>من عمود</ExampleFromColumn>
+    <ExampleFromFilePath>من مسار ملف</ExampleFromFilePath>
+    <ExpressionCall>أدخل تعبيرًا يُرجع صورة</ExpressionCall>
+    <ExpressionRenderHint>يتم حساب الصورة عند عرض التقرير</ExpressionRenderHint>
+    <FileCall>أسقط ملف صورة أو انقر لاختياره</FileCall>
+    <FileLocalWarning>هذا المسار موجود على هذا الكمبيوتر فقط. لن يتم العثور على الصورة على الأجهزة الأخرى.</FileLocalWarning>
+    <FileNotImage>هذا الملف ليس صورة</FileNotImage>
+    <LinkCall>أدخل أو الصق وصلة إلى صورة</LinkCall>
+    <LinkNotImage>لا تؤدي هذه الوصلة إلى صورة</LinkNotImage>
+    <LinkRenderHint>يتم تحميل الصورة من الوصلة عند عرض التقرير</LinkRenderHint>
+    <UploadDownscale>تصغير إلى {0} px</UploadDownscale>
+    <UploadDrop>أسقط صورة، أو انقر لاختيار ملف، أو اضغط على Ctrl+V</UploadDrop>
+    <UploadSizeWarning>تضيف هذه الصورة {0} إلى ملف التقرير. وتُطبع بحجم هذا العنصر، لذا لن تظهر معظم وحدات البكسل فيها أبدًا.</UploadSizeWarning>
+    <UploadStoredHint>يتم تخزين الصورة داخل التقرير</UploadStoredHint>
+  </FormImageEditor>
   <FormInteraction>
     <HyperlinkExternalDocuments>رابط لمستند خارجي</HyperlinkExternalDocuments>
     <HyperlinkUsingInteractionBookmark>رابط باستخدام المراجع</HyperlinkUsingInteractionBookmark>

@@ -1621,6 +1621,26 @@
     <SetCulture>Установить настройки культуры в отчет</SetCulture>
     <title>Редактор культур</title>
   </FormGlobalizationEditor>
+  <FormImageEditor>
+    <DataChooseOtherType>Выберите колонку другого типа.</DataChooseOtherType>
+    <DataNothingToPreview>Нечего показать</DataNothingToPreview>
+    <DataNotImage>Значение в строке не является изображением</DataNotImage>
+    <DataTypeNotImage>Колонки типа {0} нельзя показать как изображения.</DataTypeNotImage>
+    <ExampleFromColumn>Из колонки</ExampleFromColumn>
+    <ExampleFromFilePath>По пути к файлу</ExampleFromFilePath>
+    <ExpressionCall>Введите выражение, которое возвращает изображение</ExpressionCall>
+    <ExpressionRenderHint>Изображение вычисляется при построении отчета</ExpressionRenderHint>
+    <FileCall>Перетащите файл изображения или щелкните, чтобы выбрать его</FileCall>
+    <FileLocalWarning>Этот путь существует только на этом компьютере. На других компьютерах изображение не будет найдено.</FileLocalWarning>
+    <FileNotImage>Файл не является изображением</FileNotImage>
+    <LinkCall>Введите или вставьте ссылку на изображение</LinkCall>
+    <LinkNotImage>Ссылка не ведет на изображение</LinkNotImage>
+    <LinkRenderHint>Изображение загружается по ссылке при построении отчета</LinkRenderHint>
+    <UploadDownscale>Уменьшить до {0} px</UploadDownscale>
+    <UploadDrop>Перетащите изображение, щелкните, чтобы выбрать файл, или нажмите Ctrl+V</UploadDrop>
+    <UploadSizeWarning>Это изображение увеличивает файл отчета на {0}. Оно печатается в размере этого компонента, поэтому большая часть его пикселей не видна.</UploadSizeWarning>
+    <UploadStoredHint>Изображение хранится внутри отчета</UploadStoredHint>
+  </FormImageEditor>
   <FormInteraction>
     <HyperlinkExternalDocuments>Гиперссылка к внешнему документу</HyperlinkExternalDocuments>
     <HyperlinkUsingInteractionBookmark>Гиперссылка с закладкой</HyperlinkUsingInteractionBookmark>

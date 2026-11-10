@@ -1621,6 +1621,26 @@
     <SetCulture>Establecer Configuración Regional del Informe</SetCulture>
     <title>Editor de Configuraciones Regionales</title>
   </FormGlobalizationEditor>
+  <FormImageEditor>
+    <DataChooseOtherType>Seleccione una columna de otro tipo.</DataChooseOtherType>
+    <DataNothingToPreview>Nada que previsualizar</DataNothingToPreview>
+    <DataNotImage>El valor de la fila no es una imagen</DataNotImage>
+    <DataTypeNotImage>Las columnas de tipo {0} no se pueden mostrar como imágenes.</DataTypeNotImage>
+    <ExampleFromColumn>Desde Columna</ExampleFromColumn>
+    <ExampleFromFilePath>Desde Ruta de Archivo</ExampleFromFilePath>
+    <ExpressionCall>Introduzca una expresión que devuelva una imagen</ExpressionCall>
+    <ExpressionRenderHint>La imagen se calcula al renderizar el informe</ExpressionRenderHint>
+    <FileCall>Suelte un archivo de imagen o haga clic para elegir uno</FileCall>
+    <FileLocalWarning>Esta ruta solo existe en este equipo. En otros equipos no se encontrará la imagen.</FileLocalWarning>
+    <FileNotImage>El archivo no es una imagen</FileNotImage>
+    <LinkCall>Introduzca o pegue un enlace a una imagen</LinkCall>
+    <LinkNotImage>El enlace no lleva a una imagen</LinkNotImage>
+    <LinkRenderHint>La imagen se carga desde el enlace al renderizar el informe</LinkRenderHint>
+    <UploadDownscale>Reducir a {0} px</UploadDownscale>
+    <UploadDrop>Suelte una imagen, haga clic para elegir un archivo o pulse Ctrl+V</UploadDrop>
+    <UploadSizeWarning>Esta imagen añade {0} al archivo del informe. Se imprime al tamaño de este componente, por lo que la mayoría de sus píxeles nunca se ven.</UploadSizeWarning>
+    <UploadStoredHint>La imagen se guarda dentro del informe</UploadStoredHint>
+  </FormImageEditor>
   <FormInteraction>
     <HyperlinkExternalDocuments>Hipervínculo a Documento Externo</HyperlinkExternalDocuments>
     <HyperlinkUsingInteractionBookmark>Hipervínculo usando Marcador</HyperlinkUsingInteractionBookmark>

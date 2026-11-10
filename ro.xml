@@ -1639,6 +1639,26 @@
     <SetCulture>Stabilire Setări Cultură pentru Raport</SetCulture>
     <title>Editor globalizare</title>
   </FormGlobalizationEditor>
+  <FormImageEditor>
+    <DataChooseOtherType>Selectați o coloană de alt tip.</DataChooseOtherType>
+    <DataNothingToPreview>Nimic de previzualizat</DataNothingToPreview>
+    <DataNotImage>Valoarea rândului nu este o imagine</DataNotImage>
+    <DataTypeNotImage>Coloanele de tip {0} nu pot fi afișate ca imagini.</DataTypeNotImage>
+    <ExampleFromColumn>Din Coloană</ExampleFromColumn>
+    <ExampleFromFilePath>Din Cale Fișier</ExampleFromFilePath>
+    <ExpressionCall>Introduceți o expresie care returnează o imagine</ExpressionCall>
+    <ExpressionRenderHint>Imaginea este calculată la redarea raportului</ExpressionRenderHint>
+    <FileCall>Aruncați un fișier imagine sau faceți clic pentru a alege unul</FileCall>
+    <FileLocalWarning>Această cale există doar pe acest computer. Pe alte computere imaginea nu va fi găsită.</FileLocalWarning>
+    <FileNotImage>Fișierul nu este o imagine</FileNotImage>
+    <LinkCall>Introduceți sau lipiți un link către o imagine</LinkCall>
+    <LinkNotImage>Linkul nu duce la o imagine</LinkNotImage>
+    <LinkRenderHint>Imaginea este încărcată prin link la redarea raportului</LinkRenderHint>
+    <UploadDownscale>Reducere la {0} px</UploadDownscale>
+    <UploadDrop>Aruncați o imagine, faceți clic pentru a alege un fișier sau apăsați Ctrl+V</UploadDrop>
+    <UploadSizeWarning>Această imagine adaugă {0} la fișierul raportului. Se tipărește la dimensiunea acestei componente, așa că majoritatea pixelilor nu se văd niciodată.</UploadSizeWarning>
+    <UploadStoredHint>Imaginea este stocată în raport</UploadStoredHint>
+  </FormImageEditor>
   <FormInteraction>
     <HyperlinkExternalDocuments>Hyperlink la Documente Externe</HyperlinkExternalDocuments>
     <HyperlinkUsingInteractionBookmark>Hyperlink folosind Semne de carte</HyperlinkUsingInteractionBookmark>

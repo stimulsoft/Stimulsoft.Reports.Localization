@@ -1621,6 +1621,26 @@
     <SetCulture>Lagre språkinstillinger til rapport</SetCulture>
     <title>Globaliseringsredigering</title>
   </FormGlobalizationEditor>
+  <FormImageEditor>
+    <DataChooseOtherType>Velg en kolonne av en annen type.</DataChooseOtherType>
+    <DataNothingToPreview>Ingenting å forhåndsvise</DataNothingToPreview>
+    <DataNotImage>Verdien i raden er ikke et bilde</DataNotImage>
+    <DataTypeNotImage>Kolonner av typen {0} kan ikke vises som bilder.</DataTypeNotImage>
+    <ExampleFromColumn>Fra kolonne</ExampleFromColumn>
+    <ExampleFromFilePath>Fra filsti</ExampleFromFilePath>
+    <ExpressionCall>Skriv inn et uttrykk som returnerer et bilde</ExpressionCall>
+    <ExpressionRenderHint>Bildet beregnes når rapporten gjengis</ExpressionRenderHint>
+    <FileCall>Slipp en bildefil, eller klikk for å velge en</FileCall>
+    <FileLocalWarning>Denne stien finnes bare på denne datamaskinen. Bildet blir ikke funnet på andre datamaskiner.</FileLocalWarning>
+    <FileNotImage>Filen er ikke et bilde</FileNotImage>
+    <LinkCall>Skriv inn eller lim inn en kobling til et bilde</LinkCall>
+    <LinkNotImage>Koblingen fører ikke til et bilde</LinkNotImage>
+    <LinkRenderHint>Bildet lastes inn fra koblingen når rapporten gjengis</LinkRenderHint>
+    <UploadDownscale>Skaler ned til {0} px</UploadDownscale>
+    <UploadDrop>Slipp et bilde, klikk for å velge en fil, eller trykk Ctrl+V</UploadDrop>
+    <UploadSizeWarning>Dette bildet legger {0} til rapportfilen. Det skrives ut i størrelsen til denne komponenten, så de fleste pikslene blir aldri synlige.</UploadSizeWarning>
+    <UploadStoredHint>Bildet lagres i rapporten</UploadStoredHint>
+  </FormImageEditor>
   <FormInteraction>
     <HyperlinkExternalDocuments>Hyperlenke til eksternt dokument</HyperlinkExternalDocuments>
     <HyperlinkUsingInteractionBookmark>Hyperlenke med bruk av bokmerke</HyperlinkUsingInteractionBookmark>

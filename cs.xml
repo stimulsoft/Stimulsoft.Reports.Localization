@@ -1620,6 +1620,26 @@
     <SetCulture>Nastavit regionální nastavení sestavy</SetCulture>
     <title>Globalizační editor</title>
   </FormGlobalizationEditor>
+  <FormImageEditor>
+    <DataChooseOtherType>Vyberte sloupec jiného typu.</DataChooseOtherType>
+    <DataNothingToPreview>Není co zobrazit</DataNothingToPreview>
+    <DataNotImage>Hodnota v řádku není obrázek</DataNotImage>
+    <DataTypeNotImage>Sloupce typu {0} nelze zobrazit jako obrázky.</DataTypeNotImage>
+    <ExampleFromColumn>Ze sloupce</ExampleFromColumn>
+    <ExampleFromFilePath>Z cesty k souboru</ExampleFromFilePath>
+    <ExpressionCall>Zadejte výraz, který vrací obrázek</ExpressionCall>
+    <ExpressionRenderHint>Obrázek se získá při generování sestavy</ExpressionRenderHint>
+    <FileCall>Přetáhněte sem soubor obrázku nebo jej vyberte kliknutím</FileCall>
+    <FileLocalWarning>Tato cesta existuje jen na tomto počítači. Jinde se obrázek nenajde.</FileLocalWarning>
+    <FileNotImage>Soubor není obrázek</FileNotImage>
+    <LinkCall>Zadejte nebo vložte odkaz na obrázek</LinkCall>
+    <LinkNotImage>Odkaz nevede na obrázek</LinkNotImage>
+    <LinkRenderHint>Obrázek se načte z odkazu při generování sestavy</LinkRenderHint>
+    <UploadDownscale>Zmenšit na {0} px</UploadDownscale>
+    <UploadDrop>Přetáhněte sem obrázek, kliknutím vyberte soubor nebo stiskněte Ctrl+V</UploadDrop>
+    <UploadSizeWarning>Tento obrázek zvětší soubor sestavy o {0}. Tiskne se ve velikosti této komponenty, takže většina jeho pixelů nikdy není vidět.</UploadSizeWarning>
+    <UploadStoredHint>Obrázek je uložen v sestavě</UploadStoredHint>
+  </FormImageEditor>
   <FormInteraction>
     <HyperlinkExternalDocuments>Hypertextový odkaz na externí dokument</HyperlinkExternalDocuments>
     <HyperlinkUsingInteractionBookmark>Hypertextový odkaz pomocí záložky</HyperlinkUsingInteractionBookmark>

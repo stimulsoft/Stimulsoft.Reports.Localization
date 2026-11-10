@@ -1622,6 +1622,26 @@
     <SetCulture>言語設定をレポートに設定</SetCulture>
     <title>グローバル対応エディタ</title>
   </FormGlobalizationEditor>
+  <FormImageEditor>
+    <DataChooseOtherType>別のタイプの列を選択してください。</DataChooseOtherType>
+    <DataNothingToPreview>プレビューするものがありません</DataNothingToPreview>
+    <DataNotImage>この行の値は画像ではありません</DataNotImage>
+    <DataTypeNotImage>{0} タイプの列は画像として表示できません。</DataTypeNotImage>
+    <ExampleFromColumn>データ列から</ExampleFromColumn>
+    <ExampleFromFilePath>ファイルパスから</ExampleFromFilePath>
+    <ExpressionCall>画像を返す式を入力してください</ExpressionCall>
+    <ExpressionRenderHint>画像はレポートのレンダリング時に計算されます</ExpressionRenderHint>
+    <FileCall>画像ファイルをドロップするか、クリックして選択してください</FileCall>
+    <FileLocalWarning>このパスはこのコンピューターにのみ存在します。他の環境では画像が見つかりません。</FileLocalWarning>
+    <FileNotImage>このファイルは画像ではありません</FileNotImage>
+    <LinkCall>画像へのリンクを入力または貼り付けてください</LinkCall>
+    <LinkNotImage>このリンクの先は画像ではありません</LinkNotImage>
+    <LinkRenderHint>画像はレポートのレンダリング時にリンクからロードされます</LinkRenderHint>
+    <UploadDownscale>{0} px に縮小</UploadDownscale>
+    <UploadDrop>画像をドロップするか、クリックしてファイルを選択するか、Ctrl+V を押してください</UploadDrop>
+    <UploadSizeWarning>この画像でレポートファイルが {0} 増えます。印刷はこのコンポーネントのサイズで行われるため、ほとんどのピクセルは表示されません。</UploadSizeWarning>
+    <UploadStoredHint>画像はレポート内に保存されます</UploadStoredHint>
+  </FormImageEditor>
   <FormInteraction>
     <HyperlinkExternalDocuments>外部ドキュメントへのハイパーリンク</HyperlinkExternalDocuments>
     <HyperlinkUsingInteractionBookmark>ブックマークを使用したハイパーリンク</HyperlinkUsingInteractionBookmark>

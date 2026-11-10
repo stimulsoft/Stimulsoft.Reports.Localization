@@ -1621,6 +1621,26 @@
     <SetCulture>Kültür Ayarlarını Raporlara Ayarla</SetCulture>
     <title>Küreselleşme Düzenleyicisi</title>
   </FormGlobalizationEditor>
+  <FormImageEditor>
+    <DataChooseOtherType>Başka türde bir sütun seçin.</DataChooseOtherType>
+    <DataNothingToPreview>Önizlenecek bir şey yok</DataNothingToPreview>
+    <DataNotImage>Satırın değeri bir resim değil</DataNotImage>
+    <DataTypeNotImage>{0} türündeki sütunlar resim olarak gösterilemez.</DataTypeNotImage>
+    <ExampleFromColumn>Sütundan</ExampleFromColumn>
+    <ExampleFromFilePath>Dosya Yolundan</ExampleFromFilePath>
+    <ExpressionCall>Resim döndüren bir ifade girin</ExpressionCall>
+    <ExpressionRenderHint>Resim, rapor işlenirken hesaplanır</ExpressionRenderHint>
+    <FileCall>Bir resim dosyası bırakın veya seçmek için tıklayın</FileCall>
+    <FileLocalWarning>Bu yol yalnızca bu bilgisayarda bulunur. Başka bilgisayarlarda resim bulunamaz.</FileLocalWarning>
+    <FileNotImage>Dosya bir resim değil</FileNotImage>
+    <LinkCall>Resme giden bir köprü girin veya yapıştırın</LinkCall>
+    <LinkNotImage>Köprü bir resme gitmiyor</LinkNotImage>
+    <LinkRenderHint>Resim, rapor işlenirken köprüden yüklenir</LinkRenderHint>
+    <UploadDownscale>{0} px Boyutuna Küçült</UploadDownscale>
+    <UploadDrop>Bir resim bırakın, dosya seçmek için tıklayın veya Ctrl+V tuşlarına basın</UploadDrop>
+    <UploadSizeWarning>Bu resim rapor dosyasına {0} ekler. Bu bileşenin boyutunda yazdırılır, bu nedenle piksellerinin çoğu hiçbir zaman görünmez.</UploadSizeWarning>
+    <UploadStoredHint>Resim, raporun içinde saklanır</UploadStoredHint>
+  </FormImageEditor>
   <FormInteraction>
     <HyperlinkExternalDocuments>Harici Dökümana Köprü</HyperlinkExternalDocuments>
     <HyperlinkUsingInteractionBookmark>Yer İşaretini Kullanarak Köprü</HyperlinkUsingInteractionBookmark>
