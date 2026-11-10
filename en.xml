@@ -2358,6 +2358,7 @@
     <Edit>Edit components.</Edit>
     <EmbeddedFonts>Embed the font files into a PDF file.</EmbeddedFonts>
     <EmbeddedFontsHtml>Embed the font files into the HTML file: none, the custom fonts only, or all the fonts used in the report.</EmbeddedFontsHtml>
+    <EmbeddedFontsOffice>Embed the font files into the exported file.</EmbeddedFontsOffice>
     <EmbeddedImageData>Embed images directly into the HTML file.</EmbeddedImageData>
     <Encoding>Encoding the report text after export.</Encoding>
     <EncodingData>Encoding data file.</EncodingData>
@@ -2378,6 +2379,7 @@
     <ImageQuality>Allows you to choose the ratio of the image quality/size of the file. The higher the quality is, the larger is the size of the finished file.</ImageQuality>
     <ImageQualityPdf>The option is available only in JPEG compression, and allows you to select the ratio of the image quality/size of the file. The higher the quality is, the larger is the size of the finished file.</ImageQualityPdf>
     <ImageResolution>The number of pixels per inch. The higher the number of pixels is, the better is the quality of the image. The size of the finished file is much larger.</ImageResolution>
+    <ImageResolutionMode>How the resolution is applied to images: exactly, only to reduce larger ones, or not at all.</ImageResolutionMode>
     <ImageType>The color scheme of the image: color - the image after exporting will fully match the image in the viewer; gray – an image after exporting will be in shades of gray; monochrome - the images will be strictly black and white. At the same time, it should be considered that monochrome has three modes None, Ordered, FloydSt.</ImageType>
     <KillSpaceLines>Remove blank lines (rows) in the document.</KillSpaceLines>
     <MultipleFiles>Each report page can be a separate file.</MultipleFiles>

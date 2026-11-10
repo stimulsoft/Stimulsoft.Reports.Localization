@@ -2358,6 +2358,7 @@
     <Edit>Modifier les composants.</Edit>
     <EmbeddedFonts>Inclure les fichiers de police de caractères dans le fichier PDF.</EmbeddedFonts>
     <EmbeddedFontsHtml>Inclure les fichiers de police dans le fichier HTML: aucune, uniquement les polices personnalisées ou toutes les polices utilisées dans le rapport.</EmbeddedFontsHtml>
+    <EmbeddedFontsOffice>Inclure les fichiers de police dans le fichier exporté.</EmbeddedFontsOffice>
     <EmbeddedImageData>Inclure les images dans le fichier HTML.</EmbeddedImageData>
     <Encoding>Encodage du texte du rapport après l'export.</Encoding>
     <EncodingData>Encodage du fichier de données.</EncodingData>
@@ -2378,6 +2379,7 @@
     <ImageQuality>Permet de choisir le rapport qualité/taille du fichier. Plus la qualité est haute, plus le fichier final sera de grande taille.</ImageQuality>
     <ImageQualityPdf>Cette option ne concerne que la compression JPEG, et permet de choisir le rapport qualité/taille du fichier. Plus la qualité est haute, plus le fichier final sera de grande taille.</ImageQualityPdf>
     <ImageResolution>Le nombre de points par pouce. Plus le nombre de points est élevé, plus l'image est de haute qualité. La taille du fichier final sera également bien plus importante.</ImageResolution>
+    <ImageResolutionMode>Comment la résolution est appliquée aux images : exactement, uniquement pour réduire les plus grandes, ou pas du tout.</ImageResolutionMode>
     <ImageType>La palette de couleurs de l'image : Couleurs - l'image exportée aura les mêmes couleurs que l'image visualisée ; Gris – l'image exportée sera en niveaux de gris ; Monochrome - l'image exportée sera exclusivement en noir et blanc. Par contre, le monochrome offre trois modes Aucun, Bayer (ordonné) et Floyd-Steinberg.</ImageType>
     <KillSpaceLines>Enlever les lignes vides du document.</KillSpaceLines>
     <MultipleFiles>Chaque page du rapport peut être un fichier séparé.</MultipleFiles>
