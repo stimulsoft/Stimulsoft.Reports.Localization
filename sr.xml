@@ -2154,12 +2154,12 @@
     <Align>Poravnaj izabrane komponente.</Align>
     <AlignBottom>Poravnaj sadržaj uz dno.</AlignBottom>
     <AlignCenter>Centriraj sadržaj.</AlignCenter>
-    <AlignComponentBottom>Omogućava vam da poravnate obekat horizontalno po donjoj ivici odabrane komponente.</AlignComponentBottom>
-    <AlignComponentCenter>Omogućava vam da poravnate obekat horizontalno po sredini odabrane komponente.</AlignComponentCenter>
-    <AlignComponentLeft>Omogućava vam da poravnate obekat vertikalno po levoj ivici odabrane komponente.</AlignComponentLeft>
-    <AlignComponentMiddle>Omogućava vam da poravnate obekat vertikalno po sredini odabrane komponente.</AlignComponentMiddle>
-    <AlignComponentRight>Omogućava vam da poravnate obekat vertikalno po desnoj ivici odabrane komponente.</AlignComponentRight>
-    <AlignComponentTop>Omogućava vam da poravnate obekat horizontalno po gornjoj ivici odabrane komponente.</AlignComponentTop>
+    <AlignComponentBottom>Poravnaj komponente po donjoj ivici.</AlignComponentBottom>
+    <AlignComponentCenter>Poravnaj komponente po centru.</AlignComponentCenter>
+    <AlignComponentLeft>Poravnaj komponente po levoj ivici.</AlignComponentLeft>
+    <AlignComponentMiddle>Poravnaj komponente po sredini.</AlignComponentMiddle>
+    <AlignComponentRight>Poravnaj komponente po desnoj ivici.</AlignComponentRight>
+    <AlignComponentTop>Poravnaj komponente po gornjoj ivici.</AlignComponentTop>
     <AlignLeft>Poravnaj sadržaj ulevo.</AlignLeft>
     <AlignMiddle>Poravnaj sadržaj po sredini.</AlignMiddle>
     <AlignRight>Poravnaj sadržaj udesno.</AlignRight>
@@ -2179,8 +2179,8 @@
     <BorderSidesTop>Prikaži ili sakrij gornji okvir.</BorderSidesTop>
     <BorderStyle>Promeni stil okvira.</BorderStyle>
     <BringToFront>Premesti u prvi plan.</BringToFront>
-    <CenterHorizontally>Omogućava da se vodoravno poravna komponenta u zavisnosti od rubova kontejnera u koji je smeštena.</CenterHorizontally>
-    <CenterVertically>Omogućava da se uspravno poravna komponenta u zavisnosti od rubova kontejnera u koji je smeštena.</CenterVertically>
+    <CenterHorizontally>Centriraj horizontalno u kontejneru.</CenterHorizontally>
+    <CenterVertically>Centriraj vertikalno u kontejneru.</CenterVertically>
     <Close>Zatvori dizajner izveštaja.</Close>
     <Columns>Podeli stranicu na kolone.</Columns>
     <CompilationAccess1>Ovaj dokument koristi proces kompilacije. Ako je dokument iz pouzdanog izvora, možete kliknuti na dugme "Otvori" da biste mu pristupili.</CompilationAccess1>
@@ -2202,12 +2202,12 @@
     <DataStore>Prikaži podatke registrovane u izveštaju.</DataStore>
     <DateTimeFormat>Izaberi format datuma i vremena.</DateTimeFormat>
     <DockingPanels>Prikaži ili sakrij panele.</DockingPanels>
-    <DockStyleBottom>Zalepi odabrane komponente na donju stranicu.</DockStyleBottom>
-    <DockStyleFill>Zalepi odabrane komponente na sve stranice.</DockStyleFill>
-    <DockStyleLeft>Zalepi odabrane komponente na levu stranicu.</DockStyleLeft>
-    <DockStyleNone>Undock izabrane komponente.</DockStyleNone>
-    <DockStyleRight>Zalepi odabrane komponente na desnu stranicu.</DockStyleRight>
-    <DockStyleTop>Zalepi odabrane komponente na gornju stranicu.</DockStyleTop>
+    <DockStyleBottom>Priljubi uz donju ivicu.</DockStyleBottom>
+    <DockStyleFill>Priljubi uz sve ivice.</DockStyleFill>
+    <DockStyleLeft>Priljubi uz levu ivicu.</DockStyleLeft>
+    <DockStyleNone>Poništi priljubljivanje komponenti.</DockStyleNone>
+    <DockStyleRight>Priljubi uz desnu ivicu.</DockStyleRight>
+    <DockStyleTop>Priljubi uz gornju ivicu.</DockStyleTop>
     <EventsAccess1>Ovaj dokument koristi događaje. Ako je dokument iz pouzdanog izvora, možete kliknuti na dugme "Otvori" da biste mu pristupili.</EventsAccess1>
     <EventsAccess2>Ako niste sigurni u vezi sa izvorom dokumenta, ali i dalje želite da ga pogledate, možete kliknuti na dugme "Otvori u sigurnom načinu rada". U ovom slučaju, događaji će biti zanemareni i neće biti izvršeni.</EventsAccess2>
     <FontGrow>Povećaj tekst.</FontGrow>
@@ -2223,15 +2223,15 @@
     <FontStyleStrikeout>Precrtaj tekst.</FontStyleStrikeout>
     <FontStyleUnderline>Podvuci tekst.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Podvuci tekst vodenog pečata.</FontStyleUnderlineWatermark>
-    <FormatBoolean>Ovaj format se koristi za oblikovanje logičkih vrednosti.</FormatBoolean>
-    <FormatCurrency>Prikaži vrednost kao valutu. Omogućava prikaz broja sa zadanim simbolom valute.</FormatCurrency>
-    <FormatCustom>Ovaj tip se koristi za prikaz vrednosti u skladu sa prilagođenim zahtevima. Omogućava oblikovanje u Format Mask-u.</FormatCustom>
-    <FormatDate>Prikaži vrednost kao datum. Format datuma je baziran na regionalnim postavkama datuma.</FormatDate>
-    <FormatGeneral>Prikažite vrednost bez određenog formata.</FormatGeneral>
-    <FormatNumber>Koristi se za generalno prikazivanje brojeva.</FormatNumber>
-    <FormatPercentage>Prikažite vrednost kao postotak. Brojevi su pomnoženi sa 100 da bi se konvertovali u postotak.</FormatPercentage>
-    <FormatTime>Prikažite vrednost kao vreme. Format za vreme je baziran na regionalnim podešavanjima.</FormatTime>
-    <FormNew>Napravite novu dialog formu.</FormNew>
+    <FormatBoolean>Formatiraj vrednost logičkog tipa.</FormatBoolean>
+    <FormatCurrency>Prikaži vrednost kao valutu.</FormatCurrency>
+    <FormatCustom>Prikaži vrednost po prilagođenoj maski.</FormatCustom>
+    <FormatDate>Prikaži vrednost kao datum.</FormatDate>
+    <FormatGeneral>Prikaži vrednost bez određenog formata.</FormatGeneral>
+    <FormatNumber>Prikaži vrednost kao broj.</FormatNumber>
+    <FormatPercentage>Prikaži vrednost kao postotak.</FormatPercentage>
+    <FormatTime>Prikaži vrednost kao vreme.</FormatTime>
+    <FormNew>Kreiraj novu dijalošku formu.</FormNew>
     <GridMode>Prikaži mrežu kao linije ili tačke.</GridMode>
     <ImageAlignment>Stavi sliku vodenog pečata na stranicu.</ImageAlignment>
     <ImageTransparency>Promeni Providnost slike vodenog pečata.</ImageTransparency>
@@ -2241,8 +2241,8 @@
     <LoadImage>Učitaj slike vodenog pečata iz datoteke.</LoadImage>
     <Lock>Zaključaj položaj i veličinu.</Lock>
     <MainMenu>Kreiraj, otvori ili sačuvaj izveštaj.</MainMenu>
-    <MakeHorizontalSpacingEqual>Omogućava vam da postavite jednak horizontalni razmak između odabranih komponenti.</MakeHorizontalSpacingEqual>
-    <MakeVerticalSpacingEqual>Omogućava vam da postavite jednak vertikalni razmak između odabranih komponenti.</MakeVerticalSpacingEqual>
+    <MakeHorizontalSpacingEqual>Ujednači horizontalni razmak.</MakeHorizontalSpacingEqual>
+    <MakeVerticalSpacingEqual>Ujednači vertikalni razmak.</MakeVerticalSpacingEqual>
     <Margins>Izaberi margine stranice.</Margins>
     <menuCheckIssues>Proverite kroz izveštaj da pronađete greške, upozorenja i da dobijete preporuke.</menuCheckIssues>
     <menuDesignerOptions>Podešavanje opcija dizajnera izveštaja.</menuDesignerOptions>
@@ -2278,28 +2278,28 @@
     <MoveForward>Premesti za jedan nivo napred.</MoveForward>
     <NotPossibleEnableCompilationMode>Nemoguće je omogućiti način kompilacije za izvještaj. Ovo je zabranjeno opcijom 'Pristup kompilaciji' u postavkama dizajnera.</NotPossibleEnableCompilationMode>
     <Orientation>Prebaci između portreta i pejzaža.</Orientation>
-    <PageDelete>Obriši trenutnu stranicu iz izveštaja</PageDelete>
+    <PageDelete>Obriši trenutnu stranicu.</PageDelete>
     <PageNew>Kreiraj novu stranicu.</PageNew>
     <PageSetup>Promeni podešavanja stranice.</PageSetup>
     <PageSize>Izaberi veličinu papira.</PageSize>
-    <PagesManager>Pokreni Pages Manager.</PagesManager>
+    <PagesManager>Otvori Upravljanje stranicama.</PagesManager>
     <PressF1>Pritisnite F1 za više detalja</PressF1>
     <PropertiesButton>Prikaži osobine izveštaja.</PropertiesButton>
-    <Redo>Ponovi prethodno otkazanu promenu u izveštaju.</Redo>
+    <Redo>Ponovi poništenu izmenu.</Redo>
     <RemoveMobileSurfaceButton>Ukloni mobilnu površinu.</RemoveMobileSurfaceButton>
     <ReportNew>Kreiraj novi izveštaj.</ReportNew>
-    <ReportOpen>Otvori izveštaj u dizajneru.</ReportOpen>
-    <ReportPreview>Pregledaj izmenjeni izveštaj.</ReportPreview>
-    <ReportSave>Spremi trenutno izmenjeni izveštaj.</ReportSave>
+    <ReportOpen>Otvori izveštaj.</ReportOpen>
+    <ReportPreview>Pregledaj izveštaj.</ReportPreview>
+    <ReportSave>Sačuvaj izveštaj.</ReportSave>
     <ScreenNew>Kreiraj novi ekran.</ScreenNew>
     <ScriptEvalAccess1>Ovaj dokument koristi Script Eval. Ako dokument potiče iz pouzdanog izvora, možete kliknuti na dugme "Otvori" da biste mu pristupili.</ScriptEvalAccess1>
     <ScriptEvalAccess2>Ako niste sigurni u izvor dokumenta, ali ga i dalje želite pregledati, možete kliknuti na dugme "Otvori u sigurnom načinu rada". U tom slučaju, Script Eval će biti ignorisan i neće se izvršiti.</ScriptEvalAccess2>
     <ScriptSecurityFullAccess>Puni pristup skriptama (bez ograničenja, potencijalno nesigurno).</ScriptSecurityFullAccess>
     <ScriptSecuritySafeMode>Siguran pristup skriptama (ograničene mogućnosti radi sigurnosti).</ScriptSecuritySafeMode>
-    <SelectAll>Odaberi sve komponente na trenutnoj stranici.</SelectAll>
+    <SelectAll>Izaberi sve komponente na stranici.</SelectAll>
     <SelectUILanguage>Odaberi jezik korisničkog interfejsa.</SelectUILanguage>
     <SendToBack>Premesti u pozadinu.</SendToBack>
-    <ServicesConfigurator>Pokreni Services Configurator.</ServicesConfigurator>
+    <ServicesConfigurator>Otvori Services Configurator.</ServicesConfigurator>
     <Shadow>Prikaži ili sakrij senku.</Shadow>
     <ShowBehind>Prikaži tekst vodenog pečata iza komponenata.</ShowBehind>
     <ShowImageBehind>Stavi sliku vodenog pečata iza svih komponenata na stranici.</ShowImageBehind>
@@ -2312,13 +2312,13 @@
     <TextBrushWatermark>Promeni boju teksta vodenog pečata.</TextBrushWatermark>
     <TextColor>Promeni boju teksta.</TextColor>
     <TextFormat>Izaberi format vrednosti.</TextFormat>
-    <ToolbarStyle>Postavi odabrani stil za sve izabrane komponente.</ToolbarStyle>
-    <Undo>Poništi zadnju izmenu u izveštaju.</Undo>
+    <ToolbarStyle>Primeni stil na izabrane komponente.</ToolbarStyle>
+    <Undo>Poništi zadnju izmenu.</Undo>
     <ViewModeDesktopButton>Prikaži desktop površinu.</ViewModeDesktopButton>
     <ViewModeMobileButton>Prikaži mobilnu površinu.</ViewModeMobileButton>
     <Watermark>Promeni podešavanja vodenog pečata.</Watermark>
     <WordWrap>Prelomi tekst.</WordWrap>
-    <Zoom>Odredi nivo zumiranja izveštaja.</Zoom>
+    <Zoom>Odredi nivo zumiranja.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
     <StiButtonControl>Pokreće akciju na klik.</StiButtonControl>

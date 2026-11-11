@@ -2152,12 +2152,12 @@
     <Align>Alinhar os componentes selecionados.</Align>
     <AlignBottom>Alinhar o conteúdo em baixo.</AlignBottom>
     <AlignCenter>Alinhar o conteúdo ao centro.</AlignCenter>
-    <AlignComponentBottom>Permite alinhar objetos horizontalmente ao longo da margem inferior de componentes selecionados.</AlignComponentBottom>
-    <AlignComponentCenter>Permite alinhar objetos horizontalmente ao longo da margem central de componentes selecionados.</AlignComponentCenter>
-    <AlignComponentLeft>Permite alinhar objetos verticalmente ao longo da margem esquerda de componentes selecionados.</AlignComponentLeft>
-    <AlignComponentMiddle>Permite alinhar objetos verticalmente ao longo da margem central de componentes selecionados.</AlignComponentMiddle>
-    <AlignComponentRight>Permite alinhar objetos verticalmente ao longo da margem direita de componentes selecionados.</AlignComponentRight>
-    <AlignComponentTop>Permite alinhar objetos horizontalmente ao longo da margem superior dos componentes selecionados.</AlignComponentTop>
+    <AlignComponentBottom>Alinhar os componentes pela margem inferior.</AlignComponentBottom>
+    <AlignComponentCenter>Alinhar os componentes pelo centro.</AlignComponentCenter>
+    <AlignComponentLeft>Alinhar os componentes pela margem esquerda.</AlignComponentLeft>
+    <AlignComponentMiddle>Alinhar os componentes pelo meio.</AlignComponentMiddle>
+    <AlignComponentRight>Alinhar os componentes pela margem direita.</AlignComponentRight>
+    <AlignComponentTop>Alinhar os componentes pela margem superior.</AlignComponentTop>
     <AlignLeft>Alinhar o conteúdo à esquerda.</AlignLeft>
     <AlignMiddle>Alinhar o conteúdo ao meio.</AlignMiddle>
     <AlignRight>Alinhar o conteúdo à direita.</AlignRight>
@@ -2177,8 +2177,8 @@
     <BorderSidesTop>Mostrar ou ocultar o limite superior.</BorderSidesTop>
     <BorderStyle>Alterar o estilo do limite.</BorderStyle>
     <BringToFront>Trazer para a frente.</BringToFront>
-    <CenterHorizontally>Permite alinhar um componente horizontalmente em relação às bordas do recipiente em que é colocado.</CenterHorizontally>
-    <CenterVertically>Permite alinhar um componente verticalmente em relação às bordas do recipiente em que é colocado.</CenterVertically>
+    <CenterHorizontally>Centrar horizontalmente no contentor.</CenterHorizontally>
+    <CenterVertically>Centrar verticalmente no contentor.</CenterVertically>
     <Close>Fechar o Designer de relatórios.</Close>
     <Columns>Dividir a página em colunas.</Columns>
     <CompilationAccess1>Este documento está em modo de compilação. Se o documento é proveniente de uma fonte fidedigna, poderá clicar na opção "Abrir".</CompilationAccess1>
@@ -2197,15 +2197,15 @@
     <CopyToClipboard>Copiar para a área de transferência</CopyToClipboard>
     <CurrencySymbol>Selecionar o símbolo da moeda.</CurrencySymbol>
     <DashboardNew>Criar um novo dashboard.</DashboardNew>
-    <DataStore>Ver dados registados num relatório.</DataStore>
+    <DataStore>Mostrar os dados registados no relatório.</DataStore>
     <DateTimeFormat>Selecionar o formato de data e hora.</DateTimeFormat>
     <DockingPanels>Mostrar ou ocultar os painéis.</DockingPanels>
-    <DockStyleBottom>Acoplar componentes selecionados ao fundo.</DockStyleBottom>
-    <DockStyleFill>Acoplar componentes selecionados para todos os lados.</DockStyleFill>
-    <DockStyleLeft>Acoplar componentes selecionados ao lado esquerdo.</DockStyleLeft>
-    <DockStyleNone>Desencaixar componentes selecionados.</DockStyleNone>
-    <DockStyleRight>Acoplar componentes selecionados ao lado direito.</DockStyleRight>
-    <DockStyleTop>Acoplar componentes selecionados ao topo.</DockStyleTop>
+    <DockStyleBottom>Acoplar ao lado inferior.</DockStyleBottom>
+    <DockStyleFill>Acoplar a todos os lados.</DockStyleFill>
+    <DockStyleLeft>Acoplar ao lado esquerdo.</DockStyleLeft>
+    <DockStyleNone>Desencaixar os componentes.</DockStyleNone>
+    <DockStyleRight>Acoplar ao lado direito.</DockStyleRight>
+    <DockStyleTop>Acoplar ao lado superior.</DockStyleTop>
     <EventsAccess1>Este documento usa eventos. Se o documento for de uma fonte fidedigna, pode clicar na opção "Abrir" para aceder.</EventsAccess1>
     <EventsAccess2>Se não tem a certeza de que o documento vem de uma fonte fidedigna, mas deseja mesmo assim abri-lo, pode clicar na opção "Abrir em modo de segurança". Neste caso, os eventos serão ignorados e não serão executados.</EventsAccess2>
     <FontGrow>Aumentar o tamanho do texto.</FontGrow>
@@ -2221,14 +2221,14 @@
     <FontStyleStrikeout>Rasurar o texto.</FontStyleStrikeout>
     <FontStyleUnderline>Sublinhar o texto.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Sublinhar o texto da marca de água.</FontStyleUnderlineWatermark>
-    <FormatBoolean>Este formato é usado para formatar valores do tipo boolean.</FormatBoolean>
-    <FormatCurrency>Mostrar um valor como moeda. Permite mostrar um número com o símbolo de moeda padrão.</FormatCurrency>
-    <FormatCustom>Este tipo é usado para mostrar valores de acordo com as necessidades personalizadas. Este tipo permite a formatação de dados na máscara de formato.</FormatCustom>
-    <FormatDate>Mostrar um valor de data. O formato da data é baseada nas configurações regionais.</FormatDate>
+    <FormatBoolean>Formatar um valor do tipo booleano.</FormatBoolean>
+    <FormatCurrency>Mostrar um valor como moeda.</FormatCurrency>
+    <FormatCustom>Mostrar um valor com uma máscara personalizada.</FormatCustom>
+    <FormatDate>Mostrar um valor como data.</FormatDate>
     <FormatGeneral>Mostrar um valor sem formato específico.</FormatGeneral>
-    <FormatNumber>É usado para formatar como número.</FormatNumber>
-    <FormatPercentage>Mostrar um valor em percentagem. Os números são multiplicados por 100 para convertê-los em percentagens.</FormatPercentage>
-    <FormatTime>Mostrar um valor como hora. O formato hora é baseado nas configurações regionais.</FormatTime>
+    <FormatNumber>Mostrar um valor como número.</FormatNumber>
+    <FormatPercentage>Mostrar um valor como percentagem.</FormatPercentage>
+    <FormatTime>Mostrar um valor como hora.</FormatTime>
     <FormNew>Criar um novo formulário de diálogo.</FormNew>
     <GridMode>Mostrar a grelha como linhas ou pontos.</GridMode>
     <ImageAlignment>Colocar uma imagem de marca de água numa página.</ImageAlignment>
@@ -2239,8 +2239,8 @@
     <LoadImage>Carregar imagens de marca de água a partir de um ficheiro.</LoadImage>
     <Lock>Bloquear a posição e o tamanho.</Lock>
     <MainMenu>Criar, abrir ou gravar um relatório.</MainMenu>
-    <MakeHorizontalSpacingEqual>Permite definir um espaçamento horizontal igual entre os componentes selecionados.</MakeHorizontalSpacingEqual>
-    <MakeVerticalSpacingEqual>Permite definir um espaçamento vertical igual entre os componentes selecionados.</MakeVerticalSpacingEqual>
+    <MakeHorizontalSpacingEqual>Tornar o espaçamento horizontal igual.</MakeHorizontalSpacingEqual>
+    <MakeVerticalSpacingEqual>Tornar o espaçamento vertical igual.</MakeVerticalSpacingEqual>
     <Margins>Selecionar as margens da página.</Margins>
     <menuCheckIssues>Verificar erros e avisos no relatório e obter recomendações.</menuCheckIssues>
     <menuDesignerOptions>Opções da instalação do Designer do relatório.</menuDesignerOptions>
@@ -2276,28 +2276,28 @@
     <MoveForward>Mover um nível para a frente.</MoveForward>
     <NotPossibleEnableCompilationMode>É impossível ativar o modo de compilação para este relatório. Isto é proibido pela opção 'Acesso à compilação' nas definições do designer.</NotPossibleEnableCompilationMode>
     <Orientation>Alternar entre retrato e paisagem.</Orientation>
-    <PageDelete>Eliminar página atual do relatório.</PageDelete>
+    <PageDelete>Eliminar a página atual.</PageDelete>
     <PageNew>Criar uma nova página.</PageNew>
     <PageSetup>Alterar as definições da página.</PageSetup>
     <PageSize>Selecionar o tamanho do papel.</PageSize>
-    <PagesManager>Execute o gestor de páginas. </PagesManager>
+    <PagesManager>Abrir o Gestor de páginas.</PagesManager>
     <PressF1>Pressione F1 para mais detalhes</PressF1>
     <PropertiesButton>Mostrar as propriedades do relatório.</PropertiesButton>
-    <Redo>Refazer a alteração anteriormente cancelada num relatório.</Redo>
+    <Redo>Refazer a alteração cancelada.</Redo>
     <RemoveMobileSurfaceButton>Remover a superfície móvel.</RemoveMobileSurfaceButton>
     <ReportNew>Criar um novo relatório.</ReportNew>
-    <ReportOpen>Abrir um relatório no designer.</ReportOpen>
-    <ReportPreview>Pré-visualizar relatório.</ReportPreview>
-    <ReportSave>Gravar o relatório atualmente editado.</ReportSave>
+    <ReportOpen>Abrir um relatório.</ReportOpen>
+    <ReportPreview>Pré-visualizar o relatório.</ReportPreview>
+    <ReportSave>Gravar o relatório.</ReportSave>
     <ScreenNew>Criar um novo ecrã.</ScreenNew>
     <ScriptEvalAccess1>Este documento utiliza Script Eval. Se o documento for de uma fonte confiável, pode clicar no botão "Abrir" para aceder.</ScriptEvalAccess1>
     <ScriptEvalAccess2>Se não tiver a certeza sobre a origem do documento, mas mesmo assim quiser visualizá-lo, clique no botão "Abrir em modo de segurança". Nesse caso, o comando Script Eval será ignorado e não será executado.</ScriptEvalAccess2>
     <ScriptSecurityFullAccess>Acesso total à script (sem restrições, potencialmente inseguro).</ScriptSecurityFullAccess>
     <ScriptSecuritySafeMode>Acesso seguro a scripts (recursos restritos por motivos de segurança).</ScriptSecuritySafeMode>
-    <SelectAll>Selecione todos os componentes na página atual.</SelectAll>
+    <SelectAll>Selecionar todos os componentes da página.</SelectAll>
     <SelectUILanguage>Selecione o idioma da interface do utilizador.</SelectUILanguage>
     <SendToBack>Enviar para trás.</SendToBack>
-    <ServicesConfigurator>Execute o Configurador de Serviços.</ServicesConfigurator>
+    <ServicesConfigurator>Abrir o Configurador de serviços.</ServicesConfigurator>
     <Shadow>Mostrar ou ocultar a sombra.</Shadow>
     <ShowBehind>Mostrar o texto da marca de água por trás dos componentes.</ShowBehind>
     <ShowImageBehind>Coloque a imagem de marca de água atrás de todos os componentes numa página.</ShowImageBehind>
@@ -2310,13 +2310,13 @@
     <TextBrushWatermark>Alterar a cor do texto da marca de água.</TextBrushWatermark>
     <TextColor>Alterar a cor do texto.</TextColor>
     <TextFormat>Selecionar o formato de valores.</TextFormat>
-    <ToolbarStyle>Aplicar estilo a todos os componentes selecionados.</ToolbarStyle>
-    <Undo>Desfazer a última modificação num relatório.</Undo>
+    <ToolbarStyle>Aplicar um estilo aos componentes selecionados.</ToolbarStyle>
+    <Undo>Desfazer a última alteração.</Undo>
     <ViewModeDesktopButton>Mostrar a superfície para computador.</ViewModeDesktopButton>
     <ViewModeMobileButton>Mostrar a superfície móvel.</ViewModeMobileButton>
     <Watermark>Alterar as definições da marca de água.</Watermark>
     <WordWrap>Quebrar o texto em linhas.</WordWrap>
-    <Zoom>Especifique o nível de zoom do relatório.</Zoom>
+    <Zoom>Especificar o nível de zoom.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
     <StiButtonControl>Executa uma ação ao clicar.</StiButtonControl>

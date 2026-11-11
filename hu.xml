@@ -2047,12 +2047,12 @@
     <Align>Kiválasztott komponensek igazítása.</Align>
     <AlignBottom>Tartalom igazítása alulra.</AlignBottom>
     <AlignCenter>Tartalom igazítása vízszintesen középre.</AlignCenter>
-    <AlignComponentBottom>Igazítása lentre</AlignComponentBottom>
-    <AlignComponentCenter>Igazítása vizszintesen középre.</AlignComponentCenter>
-    <AlignComponentLeft>Igazítása vizszintesen  balra.</AlignComponentLeft>
-    <AlignComponentMiddle>Igazítása középre.</AlignComponentMiddle>
-    <AlignComponentRight>Igazítása vizszintesen jobbra.</AlignComponentRight>
-    <AlignComponentTop>Függőlegesen fentre igazít.</AlignComponentTop>
+    <AlignComponentBottom>Komponensek igazítása az alsó szélhez.</AlignComponentBottom>
+    <AlignComponentCenter>Komponensek vízszintes középre igazítása.</AlignComponentCenter>
+    <AlignComponentLeft>Komponensek igazítása a bal szélhez.</AlignComponentLeft>
+    <AlignComponentMiddle>Komponensek függőleges középre igazítása.</AlignComponentMiddle>
+    <AlignComponentRight>Komponensek igazítása a jobb szélhez.</AlignComponentRight>
+    <AlignComponentTop>Komponensek igazítása a felső szélhez.</AlignComponentTop>
     <AlignLeft>Tartalom igazítása balra.</AlignLeft>
     <AlignMiddle>Tartalom igazítása függőlegesen középre.</AlignMiddle>
     <AlignRight>Tartalom igazítása jobbra.</AlignRight>
@@ -2072,8 +2072,8 @@
     <BorderSidesTop>Felső keret megjelenítése vagy elrejtése.</BorderSidesTop>
     <BorderStyle>Keret stílusának módosítása.</BorderStyle>
     <BringToFront>Előtérbe hozás.</BringToFront>
-    <CenterHorizontally>Középre igazítás a tárolón belül vízszintesen.</CenterHorizontally>
-    <CenterVertically>Középre igazítás a tárolón belül függőlegesen.</CenterVertically>
+    <CenterHorizontally>Vízszintes középre igazítás a tárolóban.</CenterHorizontally>
+    <CenterVertically>Függőleges középre igazítás a tárolóban.</CenterVertically>
     <Close>Jelentés tervező bezárása.</Close>
     <Columns>Oldal oszlopokra osztása.</Columns>
     <CompilationAccess1>Ez a dokumentum fordítási folyamatot használ. Ha a dokumentum megbízható forrásból származik, a „Megnyitás” gombra kattintva megnyithatja.</CompilationAccess1>
@@ -2086,16 +2086,16 @@
     <CopyStyle>Stílus másolása más komponensekre.</CopyStyle>
     <CopyToClipboard>Másolás vágólapra</CopyToClipboard>
     <CurrencySymbol>Pénznem szimbólumának kiválasztása.</CurrencySymbol>
-    <DashboardNew>Új irányítópult készítés.</DashboardNew>
-    <DataStore>Reportban regisztrált adatok megmutatása.</DataStore>
+    <DashboardNew>Új irányítópult készítése.</DashboardNew>
+    <DataStore>Jelentésben regisztrált adatok megjelenítése.</DataStore>
     <DateTimeFormat>Dátum- és időformátum kiválasztása.</DateTimeFormat>
     <DockingPanels>Panelek megjelenítése vagy elrejtése.</DockingPanels>
-    <DockStyleBottom>Dokkolás fentre.</DockStyleBottom>
-    <DockStyleFill>Dokkolás kliens méretre.</DockStyleFill>
+    <DockStyleBottom>Dokkolás alulra.</DockStyleBottom>
+    <DockStyleFill>Dokkolás minden oldalra.</DockStyleFill>
     <DockStyleLeft>Dokkolás balra.</DockStyleLeft>
-    <DockStyleNone>Dokkolás megszüntetése.</DockStyleNone>
+    <DockStyleNone>Komponensek dokkolásának megszüntetése.</DockStyleNone>
     <DockStyleRight>Dokkolás jobbra.</DockStyleRight>
-    <DockStyleTop>Dokkolás fentre.</DockStyleTop>
+    <DockStyleTop>Dokkolás felülre.</DockStyleTop>
     <FontGrow>Szövegméret növelése.</FontGrow>
     <FontName>Szöveg betűtípusának módosítása.</FontName>
     <FontNameWatermark>Vízjel szövegtípus.</FontNameWatermark>
@@ -2109,15 +2109,15 @@
     <FontStyleStrikeout>Szöveg áthúzása.</FontStyleStrikeout>
     <FontStyleUnderline>Szöveg aláhúzása.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Vízjel aláhúzott.</FontStyleUnderlineWatermark>
-    <FormatBoolean>Logikai változóhoz tartozóü formátum.</FormatBoolean>
-    <FormatCurrency>Ez a formátum az alapértelmezett valutatípusra állítja a formátumot</FormatCurrency>
-    <FormatCustom>Itt egyedi formátum állítható be maszkokkal.</FormatCustom>
-    <FormatDate>Alapértelmezett dátum formátum.</FormatDate>
-    <FormatGeneral>Speciális formázás nélkül.</FormatGeneral>
-    <FormatNumber>Általános szám formátum.</FormatNumber>
-    <FormatPercentage>Százalék formátum.</FormatPercentage>
-    <FormatTime>Idő formátum, területi beáll. szerint,.</FormatTime>
-    <FormNew>Új dialógus ablak</FormNew>
+    <FormatBoolean>Logikai típusú érték formázása.</FormatBoolean>
+    <FormatCurrency>Érték megjelenítése valutaként.</FormatCurrency>
+    <FormatCustom>Érték megjelenítése egyéni formátummal.</FormatCustom>
+    <FormatDate>Érték megjelenítése dátumként.</FormatDate>
+    <FormatGeneral>Érték megjelenítése konkrét formátum nélkül.</FormatGeneral>
+    <FormatNumber>Érték megjelenítése számként.</FormatNumber>
+    <FormatPercentage>Érték megjelenítése százalékként.</FormatPercentage>
+    <FormatTime>Érték megjelenítése időként.</FormatTime>
+    <FormNew>Új dialógusablak készítése.</FormNew>
     <GridMode>Rács megjelenítése vonalakként vagy pontokként.</GridMode>
     <ImageAlignment>Kép igazítás (vízjel).</ImageAlignment>
     <ImageTransparency>Vízjel átlátszóság megváltoztatása.</ImageTransparency>
@@ -2127,8 +2127,8 @@
     <LoadImage>Vízjel kép betöltése fájlból.</LoadImage>
     <Lock>Pozíció és méret zárolása.</Lock>
     <MainMenu>Jelentés létrehozása, megnyitása vagy mentése.</MainMenu>
-    <MakeHorizontalSpacingEqual>Vízszintes térköz komponensek között.</MakeHorizontalSpacingEqual>
-    <MakeVerticalSpacingEqual>Függőleges térköz komponensek között.</MakeVerticalSpacingEqual>
+    <MakeHorizontalSpacingEqual>Vízszintes térköz egyenlővé tétele.</MakeHorizontalSpacingEqual>
+    <MakeVerticalSpacingEqual>Függőleges térköz egyenlővé tétele.</MakeVerticalSpacingEqual>
     <Margins>Oldalmargók kiválasztása.</Margins>
     <menuCheckIssues>Report teljes ellenőrzése a hibák és figyelmeztetések felderítésére.</menuCheckIssues>
     <menuDesignerOptions>Report tervező opciók beállítása.</menuDesignerOptions>
@@ -2163,24 +2163,24 @@
     <MoveBackward>Mozgatás egy szinttel hátrébb.</MoveBackward>
     <MoveForward>Mozgatás egy szinttel előrébb.</MoveForward>
     <Orientation>Váltás álló és fekvő tájolás között.</Orientation>
-    <PageDelete>Oldal törlése.</PageDelete>
-    <PageNew>Új oldal.</PageNew>
+    <PageDelete>Aktuális oldal törlése.</PageDelete>
+    <PageNew>Új oldal készítése.</PageNew>
     <PageSetup>Oldalbeállítások módosítása.</PageSetup>
     <PageSize>Papírméret kiválasztása.</PageSize>
     <PagesManager>Oldal manager megnyitása.</PagesManager>
     <PressF1>Nyomj F1-et további információkért</PressF1>
     <PropertiesButton>Jelentés tulajdonságainak megjelenítése.</PropertiesButton>
-    <Redo>Visszavonás megfordítása.</Redo>
+    <Redo>Visszavont módosítás helyreállítása.</Redo>
     <RemoveMobileSurfaceButton>Mobil felület eltávolítása.</RemoveMobileSurfaceButton>
     <ReportNew>Új jelentés készítése.</ReportNew>
-    <ReportOpen>Jelentés megnyitésa tervezőbe.</ReportOpen>
-    <ReportPreview>Nyomtatási kép.</ReportPreview>
+    <ReportOpen>Jelentés megnyitása.</ReportOpen>
+    <ReportPreview>Jelentés előnézetének megjelenítése.</ReportPreview>
     <ReportSave>Jelentés elmentése.</ReportSave>
     <ScreenNew>Új képernyő készítése.</ScreenNew>
     <SelectAll>Minden komponens kijelölése az oldalon.</SelectAll>
     <SelectUILanguage>Felhasználói felület nyelvének kiváélasztása.</SelectUILanguage>
     <SendToBack>Háttérbe küldés.</SendToBack>
-    <ServicesConfigurator>Szolgáltatás konfigurátor megnyitása</ServicesConfigurator>
+    <ServicesConfigurator>Szolgáltatás beállítás megnyitása.</ServicesConfigurator>
     <Shadow>Árnyék megjelenítése vagy elrejtése.</Shadow>
     <ShowBehind>Vízjel felirat megjelenítése háttérben.</ShowBehind>
     <ShowImageBehind>Vízjel minden komponens mögött.</ShowImageBehind>
@@ -2193,8 +2193,8 @@
     <TextBrushWatermark>Vízjel szöveg színének megváltoztatása.</TextBrushWatermark>
     <TextColor>Szöveg színének módosítása.</TextColor>
     <TextFormat>Értékek formátumának kiválasztása.</TextFormat>
-    <ToolbarStyle>Stílus kiválasztása.</ToolbarStyle>
-    <Undo>Visszavonás.</Undo>
+    <ToolbarStyle>Stílus alkalmazása a kiválasztott komponensekre.</ToolbarStyle>
+    <Undo>Utolsó módosítás visszavonása.</Undo>
     <ViewModeDesktopButton>Asztali felület megjelenítése.</ViewModeDesktopButton>
     <ViewModeMobileButton>Mobil felület megjelenítése.</ViewModeMobileButton>
     <Watermark>Vízjel beállításainak módosítása.</Watermark>

@@ -1701,12 +1701,12 @@
     <Align>محاذاة المكونات المختارة.</Align>
     <AlignBottom>محاذاة المحتويات إلى الأسفل.</AlignBottom>
     <AlignCenter>محاذاة المحتويات إلى الوسط.</AlignCenter>
-    <AlignComponentBottom>يسمح لك محاذاة الكائنات أفقيا على طول الحافة السفلية من عناصر مختارة.</AlignComponentBottom>
-    <AlignComponentCenter>يسمح لك محاذاة الكائنات أفقيا على طول حافة وسط عناصر مختارة.</AlignComponentCenter>
-    <AlignComponentLeft>يسمح لك محاذاة الكائنات عموديا على طول الحافة اليسرى من عناصر مختارة.</AlignComponentLeft>
-    <AlignComponentMiddle>يسمح لك محاذاة الكائنات عموديا على طول حافة وسط عناصر مختارة.</AlignComponentMiddle>
-    <AlignComponentRight>يسمح لك محاذاة الكائنات عموديا على طول الحافة اليمنى من عناصر مختارة.</AlignComponentRight>
-    <AlignComponentTop>يسمح لك محاذاة الكائنات أفقيا على طول الحافة العليا من عناصر مختارة.</AlignComponentTop>
+    <AlignComponentBottom>محاذاة المكونات حسب الحافة السفلية.</AlignComponentBottom>
+    <AlignComponentCenter>محاذاة المكونات حسب الوسط.</AlignComponentCenter>
+    <AlignComponentLeft>محاذاة المكونات حسب الحافة اليسرى.</AlignComponentLeft>
+    <AlignComponentMiddle>محاذاة المكونات حسب المنتصف.</AlignComponentMiddle>
+    <AlignComponentRight>محاذاة المكونات حسب الحافة اليمنى.</AlignComponentRight>
+    <AlignComponentTop>محاذاة المكونات حسب الحافة العلوية.</AlignComponentTop>
     <AlignLeft>محاذاة المحتويات إلى اليسار.</AlignLeft>
     <AlignMiddle>محاذاة المحتويات إلى المنتصف.</AlignMiddle>
     <AlignRight>محاذاة المحتويات إلى اليمين.</AlignRight>
@@ -1726,8 +1726,8 @@
     <BorderSidesTop>إظهار أو إخفاء الحد العلوي.</BorderSidesTop>
     <BorderStyle>تغيير نمط الحدود.</BorderStyle>
     <BringToFront>الإحضار إلى المقدمة.</BringToFront>
-    <CenterHorizontally>يسمح لك محاذاة عنصر أفقيا النسبي لحواف الحاويات في ما هو وضعها.</CenterHorizontally>
-    <CenterVertically>يسمح لك محاذاة عنصر عموديا بالنسبة إلى حواف الحاويات في ما هو وضعها.</CenterVertically>
+    <CenterHorizontally>التوسيط أفقيًا في الحاوية.</CenterHorizontally>
+    <CenterVertically>التوسيط عموديًا في الحاوية.</CenterVertically>
     <Close>إغلاق مصمم التقرير.</Close>
     <Columns>تقسيم الصفحة إلى أعمدة.</Columns>
     <CompilationAccess1>يستخدم هذا المستند عملية التجميع. إذا كان المستند من مصدر موثوق، يمكنك النقر على زر "فتح" للوصول إليه.</CompilationAccess1>
@@ -1740,15 +1740,16 @@
     <CopyStyle>نسخ النمط إلى مكونات أخرى.</CopyStyle>
     <CopyToClipboard>نسخ إلى الحافظة</CopyToClipboard>
     <CurrencySymbol>اختيار رمز العملة.</CurrencySymbol>
-    <DataStore>وتظهر البيانات ، والمسجلة في التقرير.</DataStore>
+    <DashboardNew>إنشاء لوحة معلومات جديدة.</DashboardNew>
+    <DataStore>إظهار البيانات المسجلة في التقرير.</DataStore>
     <DateTimeFormat>اختيار تنسيق التاريخ والوقت.</DateTimeFormat>
     <DockingPanels>إظهار أو إخفاء اللوحات.</DockingPanels>
-    <DockStyleBottom>قفص الاتهام لعناصر مختارة الجانب السفلي.</DockStyleBottom>
-    <DockStyleFill>قفص الاتهام المكونات المحددة لجميع الاطراف.</DockStyleFill>
-    <DockStyleLeft>قفص الاتهام لعناصر مختارة في الجانب الأيسر.</DockStyleLeft>
-    <DockStyleNone>إرساء مكونات مختارة.</DockStyleNone>
-    <DockStyleRight>قفص الاتهام لعناصر مختارة الجانب الأيمن.</DockStyleRight>
-    <DockStyleTop>قفص الاتهام لعناصر مختارة الجانب العلوي.</DockStyleTop>
+    <DockStyleBottom>الإرساء إلى الجانب السفلي.</DockStyleBottom>
+    <DockStyleFill>الإرساء إلى جميع الجوانب.</DockStyleFill>
+    <DockStyleLeft>الإرساء إلى الجانب الأيسر.</DockStyleLeft>
+    <DockStyleNone>إلغاء إرساء المكونات.</DockStyleNone>
+    <DockStyleRight>الإرساء إلى الجانب الأيمن.</DockStyleRight>
+    <DockStyleTop>الإرساء إلى الجانب العلوي.</DockStyleTop>
     <FontGrow>تكبير النص.</FontGrow>
     <FontName>تغيير خط النص.</FontName>
     <FontNameWatermark>العلامة المائية خط النص.</FontNameWatermark>
@@ -1762,15 +1763,15 @@
     <FontStyleStrikeout>وضع خط يتوسط النص.</FontStyleStrikeout>
     <FontStyleUnderline>وضع خط تحت النص.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>جعل النص أكد العلامة المائية.</FontStyleUnderlineWatermark>
-    <FormatBoolean>يتم استخدام هذا التنسيق لتنسيق قيم من نوع منطقي.</FormatBoolean>
-    <FormatCurrency>كما عرض قيمة العملة. فإنه يسمح لك عرض عددا مع رمز العملة الافتراضية.</FormatCurrency>
-    <FormatCustom>هذا النوع يستخدم لإظهار القيم وفقا لمتطلبات العرف. هذا النوع من البيانات يسمح التنسيق في قناع تنسيق.</FormatCustom>
-    <FormatDate>عرض قيمة وتاريخ. تنسيق التاريخ يستند الى ضبط التاريخ الإقليمية.</FormatDate>
+    <FormatBoolean>تنسيق قيمة من النوع المنطقي.</FormatBoolean>
+    <FormatCurrency>عرض قيمة كعملة.</FormatCurrency>
+    <FormatCustom>عرض قيمة حسب قناع تنسيق مخصص.</FormatCustom>
+    <FormatDate>عرض قيمة كتاريخ.</FormatDate>
     <FormatGeneral>عرض قيمة دون تنسيق معين.</FormatGeneral>
-    <FormatNumber>فهو يستخدم لعرض عام للأرقام.</FormatNumber>
-    <FormatPercentage>عرض قيمة كنسبة مئوية. أرقام مضروبة في 100 ، لتحويلها إلى نسب مئوية.</FormatPercentage>
-    <FormatTime>كما عرض قيمة الوقت. تنسيق الوقت يقوم على ضبط الوقت الإقليمي.</FormatTime>
-    <FormNew>إنشاء نموذج جديد الحوار.</FormNew>
+    <FormatNumber>عرض قيمة كرقم.</FormatNumber>
+    <FormatPercentage>عرض قيمة كنسبة مئوية.</FormatPercentage>
+    <FormatTime>عرض قيمة كوقت.</FormatTime>
+    <FormNew>إنشاء نموذج حوار جديد.</FormNew>
     <GridMode>إظهار الشبكة كخطوط أو نقاط.</GridMode>
     <ImageAlignment>وضع صورة مائية على صفحة.</ImageAlignment>
     <ImageTransparency>تغيير الشفافية في صورة مائية.</ImageTransparency>
@@ -1780,8 +1781,8 @@
     <LoadImage>صور مائية من تحميل الملف.</LoadImage>
     <Lock>قفل الموضع والحجم.</Lock>
     <MainMenu>إنشاء تقرير أو فتحه أو حفظه.</MainMenu>
-    <MakeHorizontalSpacingEqual>يسمح لك تعيين متساوية التباعد الأفقي بين عناصر مختارة.</MakeHorizontalSpacingEqual>
-    <MakeVerticalSpacingEqual>يسمح لك تعيين متساوية التباعد العمودي بين عناصر مختارة.</MakeVerticalSpacingEqual>
+    <MakeHorizontalSpacingEqual>جعل التباعد الأفقي متساويًا.</MakeHorizontalSpacingEqual>
+    <MakeVerticalSpacingEqual>جعل التباعد العمودي متساويًا.</MakeVerticalSpacingEqual>
     <Margins>اختيار هوامش الصفحة.</Margins>
     <menuCheckIssues>التحقق من الأخطاء والتنبيهات في التقرير</menuCheckIssues>
     <menuDesignerOptions>ضبط إعدادات مصمم التقارير</menuDesignerOptions>
@@ -1816,24 +1817,24 @@
     <MoveBackward>النقل مستوى واحدًا إلى الخلف.</MoveBackward>
     <MoveForward>النقل مستوى واحدًا إلى الأمام.</MoveForward>
     <Orientation>التبديل بين الاتجاه الطولي والعرضي.</Orientation>
-    <PageDelete>حذف صفحة من التقرير الحالي.</PageDelete>
+    <PageDelete>حذف الصفحة الحالية.</PageDelete>
     <PageNew>إنشاء صفحة جديدة.</PageNew>
     <PageSetup>تغيير إعدادات الصفحة.</PageSetup>
     <PageSize>اختيار حجم الورق.</PageSize>
-    <PagesManager>تشغيل وإدارة صفحات.</PagesManager>
+    <PagesManager>فتح مدير الصفحات.</PagesManager>
     <PressF1>اضغط F1 للمزيد من التفاصيل</PressF1>
     <PropertiesButton>إظهار خصائص التقرير.</PropertiesButton>
-    <Redo>يعيد تغيير الغى في وقت سابق تقريرا  (CTRL+Y).</Redo>
+    <Redo>إعادة التغيير الملغى.</Redo>
     <RemoveMobileSurfaceButton>إزالة واجهة الجوال.</RemoveMobileSurfaceButton>
     <ReportNew>إنشاء تقرير جديد.</ReportNew>
-    <ReportOpen>تقرير المفتوحة في المصمم.</ReportOpen>
-    <ReportPreview>معاينة تقرير تحريرها في المشاهد.</ReportPreview>
-    <ReportSave>حفظ التقرير حاليا تحريره.</ReportSave>
+    <ReportOpen>فتح تقرير.</ReportOpen>
+    <ReportPreview>معاينة التقرير.</ReportPreview>
+    <ReportSave>حفظ التقرير.</ReportSave>
     <ScreenNew>إنشاء شاشة جديدة.</ScreenNew>
-    <SelectAll>حدد كافة العناصر على الصفحة الحالية (CTRL+A).</SelectAll>
+    <SelectAll>اختيار جميع المكونات في الصفحة.</SelectAll>
     <SelectUILanguage>حدد لغة واجهة المستخدم.</SelectUILanguage>
     <SendToBack>الإرسال إلى الخلف.</SendToBack>
-    <ServicesConfigurator>تشغيل خدمات مكون.</ServicesConfigurator>
+    <ServicesConfigurator>فتح مهيئ الخدمات.</ServicesConfigurator>
     <Shadow>إظهار أو إخفاء الظل.</Shadow>
     <ShowBehind>وتظهر علامة مائية وراء النص المكونات.</ShowBehind>
     <ShowImageBehind>وضع صورة مائية وراء كل المكونات على صفحة.</ShowImageBehind>
@@ -1846,13 +1847,13 @@
     <TextBrushWatermark>تغيير لون النص من العلامة المائية.</TextBrushWatermark>
     <TextColor>تغيير لون النص.</TextColor>
     <TextFormat>اختيار تنسيق القيم.</TextFormat>
-    <ToolbarStyle>تعيين النمط المحدد لجميع عناصر مختارة.</ToolbarStyle>
-    <Undo>التراجع عن التغيير الأخير في تقرير  (Ctrl+Z).</Undo>
+    <ToolbarStyle>تطبيق نمط على المكونات المختارة.</ToolbarStyle>
+    <Undo>التراجع عن التغيير الأخير.</Undo>
     <ViewModeDesktopButton>إظهار واجهة سطح المكتب.</ViewModeDesktopButton>
     <ViewModeMobileButton>إظهار واجهة الجوال.</ViewModeMobileButton>
     <Watermark>تغيير إعدادات العلامة المائية.</Watermark>
     <WordWrap>التفاف النص.</WordWrap>
-    <Zoom>تحديد مستوى التكبير من التقرير.</Zoom>
+    <Zoom>تحديد مستوى التكبير.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
     <StiButtonControl>ينفذ إجراءً عند النقر.</StiButtonControl>

@@ -2150,12 +2150,12 @@
     <Align>Zarovnat vybrané komponenty.</Align>
     <AlignBottom>Zarovnat obsah dolů.</AlignBottom>
     <AlignCenter>Zarovnat obsah na střed.</AlignCenter>
-    <AlignComponentBottom>Povolit zarovnání objektů horizontálně k dolnímu okraji vybraných komponent.</AlignComponentBottom>
-    <AlignComponentCenter>Povolit zarovnání objektů horizontálně ke středu okraje vybraných komponent.</AlignComponentCenter>
-    <AlignComponentLeft>Povolit zarovnání objektů vertikálně k levému okraji vybraných komponent.</AlignComponentLeft>
-    <AlignComponentMiddle>Povolit zarovnání objektů vertikálně ke středu okraje vybraných komponent.</AlignComponentMiddle>
-    <AlignComponentRight>Povolit zarovnání objektů vertikálně k pravému okraji vybraných komponent.</AlignComponentRight>
-    <AlignComponentTop>Povolit zarovnání objektů horizontálně k hornímu okraji vybraných komponent.</AlignComponentTop>
+    <AlignComponentBottom>Zarovnat komponenty k dolnímu okraji.</AlignComponentBottom>
+    <AlignComponentCenter>Zarovnat komponenty na střed.</AlignComponentCenter>
+    <AlignComponentLeft>Zarovnat komponenty k levému okraji.</AlignComponentLeft>
+    <AlignComponentMiddle>Zarovnat komponenty svisle na střed.</AlignComponentMiddle>
+    <AlignComponentRight>Zarovnat komponenty k pravému okraji.</AlignComponentRight>
+    <AlignComponentTop>Zarovnat komponenty k hornímu okraji.</AlignComponentTop>
     <AlignLeft>Zarovnat obsah doleva.</AlignLeft>
     <AlignMiddle>Zarovnat obsah svisle na střed.</AlignMiddle>
     <AlignRight>Zarovnat obsah doprava.</AlignRight>
@@ -2175,8 +2175,8 @@
     <BorderSidesTop>Zobrazit nebo skrýt horní ohraničení.</BorderSidesTop>
     <BorderStyle>Změnit styl ohraničení.</BorderStyle>
     <BringToFront>Přesunout do popředí.</BringToFront>
-    <CenterHorizontally>Povolit zarovnání komponenty horizontálně k okrajům kontejneru, kde je umístěn.</CenterHorizontally>
-    <CenterVertically>Povolit zarovnání komponenty vertikálně k okrajům kontejneru, kde je umístěn.</CenterVertically>
+    <CenterHorizontally>Vystředit vodorovně v kontejneru.</CenterHorizontally>
+    <CenterVertically>Vystředit svisle v kontejneru.</CenterVertically>
     <Close>Zavřít návrh reportu.</Close>
     <Columns>Rozdělit stránku do sloupců.</Columns>
     <CompilationAccess1>Tento dokument používá proces kompilace. Pokud pochází z důvěryhodného zdroje, můžete pro přístup k němu kliknout na tlačítko „Otevřít“.</CompilationAccess1>
@@ -2198,12 +2198,12 @@
     <DataStore>Zobrazit data registrovaná v reportu.</DataStore>
     <DateTimeFormat>Vybrat formát data a času.</DateTimeFormat>
     <DockingPanels>Zobrazit nebo skrýt panely.</DockingPanels>
-    <DockStyleBottom>Ukotvit vybrané komponenty dolů.</DockStyleBottom>
-    <DockStyleFill>Ukotvit vybrané komponenty ke všem stranám.</DockStyleFill>
-    <DockStyleLeft>Ukotvit vybrané komponenty doleva.</DockStyleLeft>
-    <DockStyleNone>Zrušit ukotvení vybraných komponent.</DockStyleNone>
-    <DockStyleRight>Ukotvit vybrané komponenty doprava.</DockStyleRight>
-    <DockStyleTop>Ukotvit vybrané komponenty nahoru.</DockStyleTop>
+    <DockStyleBottom>Ukotvit k dolní straně.</DockStyleBottom>
+    <DockStyleFill>Ukotvit ke všem stranám.</DockStyleFill>
+    <DockStyleLeft>Ukotvit k levé straně.</DockStyleLeft>
+    <DockStyleNone>Zrušit ukotvení komponent.</DockStyleNone>
+    <DockStyleRight>Ukotvit k pravé straně.</DockStyleRight>
+    <DockStyleTop>Ukotvit k horní straně.</DockStyleTop>
     <EventsAccess1>Tento dokument používá události. Pokud pochází z důvěryhodného zdroje, můžete pro přístup k němu kliknout na tlačítko „Otevřít“.</EventsAccess1>
     <EventsAccess2>Pokud si nejste jisti zdrojem dokumentu, ale přesto si jej chcete prohlédnout, můžete kliknout na tlačítko „Otevřít v bezpečném režimu“. V tomto případě budou události ignorovány a nebudou spuštěny.</EventsAccess2>
     <FontGrow>Zvětšit text.</FontGrow>
@@ -2219,15 +2219,15 @@
     <FontStyleStrikeout>Přeškrtnout text.</FontStyleStrikeout>
     <FontStyleUnderline>Podtrhnout text.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Podtrhnout text vodoznaku.</FontStyleUnderlineWatermark>
-    <FormatBoolean>Tento formát se používá pro formátování hodnot typu boolean.</FormatBoolean>
-    <FormatCurrency>Zobrazit hodnotu jako měnu. Povoluje zobrazení čísla s defaultním symbolem měny.</FormatCurrency>
-    <FormatCustom>Tento typ se používá k zobrazení hodnot podle uživatelských požadavků. Tento typ umožnuje používat formátovací masku.</FormatCustom>
-    <FormatDate>Zobrazit hodnotu jako datum. Formát datumu je založen na lokálním nastavení.</FormatDate>
-    <FormatGeneral>Zobrazit hodnotu bez použití formátování.</FormatGeneral>
-    <FormatNumber>Tento formát je používán pro obecné zobrazení čísel.</FormatNumber>
-    <FormatPercentage>Zobrazit hodnotu procentuálně. Čísla jsou násobena hodnotou 100 pro konverzi do procent.</FormatPercentage>
-    <FormatTime>Zobrazit hodnotu jako čas. Časový formát je založen na lokálním nastavení.</FormatTime>
-    <FormNew>Vytvořit nový dialog.</FormNew>
+    <FormatBoolean>Formátovat hodnotu logického typu.</FormatBoolean>
+    <FormatCurrency>Zobrazit hodnotu jako měnu.</FormatCurrency>
+    <FormatCustom>Zobrazit hodnotu podle vlastní masky formátu.</FormatCustom>
+    <FormatDate>Zobrazit hodnotu jako datum.</FormatDate>
+    <FormatGeneral>Zobrazit hodnotu bez určitého formátu.</FormatGeneral>
+    <FormatNumber>Zobrazit hodnotu jako číslo.</FormatNumber>
+    <FormatPercentage>Zobrazit hodnotu jako procenta.</FormatPercentage>
+    <FormatTime>Zobrazit hodnotu jako čas.</FormatTime>
+    <FormNew>Vytvořit nový dialogový formulář.</FormNew>
     <GridMode>Zobrazit mřížku jako čáry nebo tečky.</GridMode>
     <ImageAlignment>Vložit obrázek s vodoznakem na stránku.</ImageAlignment>
     <ImageTransparency>Změnit průhlednost obrázku vodoznaku.</ImageTransparency>
@@ -2237,8 +2237,8 @@
     <LoadImage>Načíst obrázek vodoznaku ze souboru.</LoadImage>
     <Lock>Zamknout pozici a velikost.</Lock>
     <MainMenu>Vytvořit, otevřít nebo uložit report.</MainMenu>
-    <MakeHorizontalSpacingEqual>Nastavit shodně horizontální vzdálenosti pro vybrané položky.</MakeHorizontalSpacingEqual>
-    <MakeVerticalSpacingEqual>Nastavit shodně vertikální vzdálenosti pro vybrané položky.</MakeVerticalSpacingEqual>
+    <MakeHorizontalSpacingEqual>Nastavit stejné vodorovné mezery.</MakeHorizontalSpacingEqual>
+    <MakeVerticalSpacingEqual>Nastavit stejné svislé mezery.</MakeVerticalSpacingEqual>
     <Margins>Vybrat okraje stránky.</Margins>
     <menuCheckIssues>Kontrola reportu, zda-li neobsahuje chyby, varování. Generuje technická doporučení.</menuCheckIssues>
     <menuDesignerOptions>Nastavení možností návrháře reportů.</menuDesignerOptions>
@@ -2274,28 +2274,28 @@
     <MoveForward>Posunout o jednu úroveň vpřed.</MoveForward>
     <NotPossibleEnableCompilationMode>Pro report nelze povolit režim kompilace. Je to zakázáno možností „Přístup ke kompilaci“ v nastavení designeru.</NotPossibleEnableCompilationMode>
     <Orientation>Přepnout mezi orientací na výšku a na šířku.</Orientation>
-    <PageDelete>Smazat aktuální stránku z reportu.</PageDelete>
+    <PageDelete>Smazat aktuální stránku.</PageDelete>
     <PageNew>Vytvořit novou stránku.</PageNew>
     <PageSetup>Změnit nastavení stránky.</PageSetup>
     <PageSize>Vybrat velikost papíru.</PageSize>
-    <PagesManager>Spustit manažer stránek.</PagesManager>
+    <PagesManager>Otevřít Správce stránek.</PagesManager>
     <PressF1>Stiskněte F1 pro více podrobností</PressF1>
     <PropertiesButton>Zobrazit vlastnosti reportu.</PropertiesButton>
-    <Redo>Znovu provést předchozí zrušenou změnu v reportu.</Redo>
+    <Redo>Znovu provést zrušenou změnu.</Redo>
     <RemoveMobileSurfaceButton>Odstranit mobilní plochu.</RemoveMobileSurfaceButton>
     <ReportNew>Vytvořit nový report.</ReportNew>
-    <ReportOpen>Otevřít report v designeru.</ReportOpen>
-    <ReportPreview>Náhled editovaného reportu v prohlížeči.</ReportPreview>
-    <ReportSave>Uložit aktuálně editovaný report.</ReportSave>
+    <ReportOpen>Otevřít report.</ReportOpen>
+    <ReportPreview>Zobrazit náhled reportu.</ReportPreview>
+    <ReportSave>Uložit report.</ReportSave>
     <ScreenNew>Vytvořit novou obrazovku.</ScreenNew>
     <ScriptEvalAccess1>Tento dokument používá Script Eval. Pokud pochází z důvěryhodného zdroje, můžete pro přístup k němu kliknout na tlačítko „Otevřít“.</ScriptEvalAccess1>
     <ScriptEvalAccess2>Pokud si nejste jisti zdrojem dokumentu, ale přesto si jej chcete prohlédnout, můžete kliknout na tlačítko „Otevřít v bezpečném režimu“. V tomto případě bude Script Eval ignorován a nebude spuštěn.</ScriptEvalAccess2>
     <ScriptSecurityFullAccess>Plný přístup ke skriptům (bez omezení, potenciálně nebezpečné).</ScriptSecurityFullAccess>
     <ScriptSecuritySafeMode>Bezpečný přístup ke skriptům (omezené možnosti kvůli zabezpečení).</ScriptSecuritySafeMode>
-    <SelectAll>Vybrat všechny komponenty na aktuální stránce.</SelectAll>
+    <SelectAll>Vybrat všechny komponenty na stránce.</SelectAll>
     <SelectUILanguage>Výběr jazyka UI.</SelectUILanguage>
     <SendToBack>Přesunout do pozadí.</SendToBack>
-    <ServicesConfigurator>Spustit konfigurátor služeb.</ServicesConfigurator>
+    <ServicesConfigurator>Otevřít Konfiguraci služeb.</ServicesConfigurator>
     <Shadow>Zobrazit nebo skrýt stín.</Shadow>
     <ShowBehind>Zobrazit text vodoznaku za komponentami.</ShowBehind>
     <ShowImageBehind>Vložit obrázek vodoznaku za všechny komponenty na stránce.</ShowImageBehind>
@@ -2308,13 +2308,13 @@
     <TextBrushWatermark>Změnit barvu textu vodoznaku.</TextBrushWatermark>
     <TextColor>Změnit barvu textu.</TextColor>
     <TextFormat>Vybrat formát hodnot.</TextFormat>
-    <ToolbarStyle>Nastavit zvolený styl všem vybraným komponentám.</ToolbarStyle>
-    <Undo>Vrátit poslední změnu reportu.</Undo>
+    <ToolbarStyle>Použít styl na vybrané komponenty.</ToolbarStyle>
+    <Undo>Vrátit zpět poslední změnu.</Undo>
     <ViewModeDesktopButton>Zobrazit desktopovou plochu.</ViewModeDesktopButton>
     <ViewModeMobileButton>Zobrazit mobilní plochu.</ViewModeMobileButton>
     <Watermark>Změnit nastavení vodoznaku.</Watermark>
     <WordWrap>Zalamovat text.</WordWrap>
-    <Zoom>Určit level zvětšení položky.</Zoom>
+    <Zoom>Určit úroveň lupy.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
     <StiButtonControl>Spouští akci po kliknutí.</StiButtonControl>

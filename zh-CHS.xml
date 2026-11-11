@@ -2154,12 +2154,12 @@
     <Align>对齐所选组件.</Align>
     <AlignBottom>将内容底端对齐.</AlignBottom>
     <AlignCenter>将内容居中对齐.</AlignCenter>
-    <AlignComponentBottom>允许沿着选中组件底端缘水平对齐对象.</AlignComponentBottom>
-    <AlignComponentCenter>允许沿着选中组件中间边缘垂直对齐对象.</AlignComponentCenter>
-    <AlignComponentLeft>允许沿着选中组件左边缘垂直对齐对象.</AlignComponentLeft>
-    <AlignComponentMiddle>允许沿着选中组件中间边缘水平对齐对象.</AlignComponentMiddle>
-    <AlignComponentRight>允许沿着选中组件右边缘垂直对齐对象.</AlignComponentRight>
-    <AlignComponentTop>允许沿着选中组件顶端边缘水平对齐对象.</AlignComponentTop>
+    <AlignComponentBottom>按下边缘对齐组件.</AlignComponentBottom>
+    <AlignComponentCenter>按中心对齐组件.</AlignComponentCenter>
+    <AlignComponentLeft>按左边缘对齐组件.</AlignComponentLeft>
+    <AlignComponentMiddle>按垂直中心对齐组件.</AlignComponentMiddle>
+    <AlignComponentRight>按右边缘对齐组件.</AlignComponentRight>
+    <AlignComponentTop>按上边缘对齐组件.</AlignComponentTop>
     <AlignLeft>将内容左对齐.</AlignLeft>
     <AlignMiddle>将内容垂直居中对齐.</AlignMiddle>
     <AlignRight>将内容右对齐.</AlignRight>
@@ -2179,8 +2179,8 @@
     <BorderSidesTop>显示或隐藏上边框.</BorderSidesTop>
     <BorderStyle>更改边框样式.</BorderStyle>
     <BringToFront>移到最前面.</BringToFront>
-    <CenterHorizontally>允许对应组件放置的容器边缘使组件水平对齐.</CenterHorizontally>
-    <CenterVertically>允许对应组件放置的容器边缘使组件垂直对齐.</CenterVertically>
+    <CenterHorizontally>在容器中水平居中.</CenterHorizontally>
+    <CenterVertically>在容器中垂直居中.</CenterVertically>
     <Close>关闭报表设计器.</Close>
     <Columns>将页面分为多栏.</Columns>
     <CompilationAccess1>本文档使用编译过程。如果文档来自可信来源，您可以单击"打开"按钮访问它</CompilationAccess1>
@@ -2198,16 +2198,16 @@
     <CopyStyle>将样式复制到其他组件.</CopyStyle>
     <CopyToClipboard>复制到剪贴板</CopyToClipboard>
     <CurrencySymbol>选择货币符号.</CurrencySymbol>
-    <DashboardNew>创建新仪表盘。</DashboardNew>
-    <DataStore>显示已注册在报表里的数据.</DataStore>
+    <DashboardNew>创建新仪表盘.</DashboardNew>
+    <DataStore>显示报表中已注册的数据.</DataStore>
     <DateTimeFormat>选择日期和时间格式.</DateTimeFormat>
     <DockingPanels>显示或隐藏面板.</DockingPanels>
-    <DockStyleBottom>将所选组件停靠到底部.</DockStyleBottom>
-    <DockStyleFill>将所选组件停靠到各边.</DockStyleFill>
-    <DockStyleLeft>将所选组件停靠到左边.</DockStyleLeft>
-    <DockStyleNone>所选组件解除停靠.</DockStyleNone>
-    <DockStyleRight>将所选组件停靠到右边.</DockStyleRight>
-    <DockStyleTop>将所选组件停靠到上边.</DockStyleTop>
+    <DockStyleBottom>停靠到下边.</DockStyleBottom>
+    <DockStyleFill>停靠到各边.</DockStyleFill>
+    <DockStyleLeft>停靠到左边.</DockStyleLeft>
+    <DockStyleNone>解除组件停靠.</DockStyleNone>
+    <DockStyleRight>停靠到右边.</DockStyleRight>
+    <DockStyleTop>停靠到上边.</DockStyleTop>
     <EventsAccess1>本文档使用事件。如果文档来自可信来源，您可以单击"打开"按钮访问它</EventsAccess1>
     <EventsAccess2>如果您不确定文档的来源，但仍想查看它，可以单击"在安全模式下打开"按钮。在这种情况下，事件将被忽略而不执行</EventsAccess2>
     <FontGrow>放大文本.</FontGrow>
@@ -2223,14 +2223,14 @@
     <FontStyleStrikeout>为文本添加删除线.</FontStyleStrikeout>
     <FontStyleUnderline>为文本添加下划线.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>水印文本加下划线.</FontStyleUnderlineWatermark>
-    <FormatBoolean>这种格式是用来格式化布尔类型的值.</FormatBoolean>
-    <FormatCurrency>显示为货币格式值.它允许显示带有默认货币符号的值.</FormatCurrency>
-    <FormatCustom>该类型用于根据定制要求显示数值.该类型是掩码格式下允许的数据格式.</FormatCustom>
-    <FormatDate>显示日期格式的数值.日期格式基于区域的日期设置.</FormatDate>
-    <FormatGeneral>显示无指定格式的数值.</FormatGeneral>
-    <FormatNumber>用于数字的常规显示.</FormatNumber>
-    <FormatPercentage>显示百分数格式的数值.数字被100整除后转换为百分数.</FormatPercentage>
-    <FormatTime>显示时间格式的数值.时间格式基于区域的时间设置.</FormatTime>
+    <FormatBoolean>格式化布尔类型的值.</FormatBoolean>
+    <FormatCurrency>将值显示为货币.</FormatCurrency>
+    <FormatCustom>按自定义格式掩码显示值.</FormatCustom>
+    <FormatDate>将值显示为日期.</FormatDate>
+    <FormatGeneral>显示无特定格式的值.</FormatGeneral>
+    <FormatNumber>将值显示为数字.</FormatNumber>
+    <FormatPercentage>将值显示为百分数.</FormatPercentage>
+    <FormatTime>将值显示为时间.</FormatTime>
     <FormNew>创建一个新的对话框窗体.</FormNew>
     <GridMode>以线或点显示网格.</GridMode>
     <ImageAlignment>将水印图像放到页面上.</ImageAlignment>
@@ -2241,8 +2241,8 @@
     <LoadImage>从文件加载水印图像.</LoadImage>
     <Lock>锁定位置和大小.</Lock>
     <MainMenu>新建、打开或保存报表.</MainMenu>
-    <MakeHorizontalSpacingEqual>允许你在所选组件中设置相等水平间距.</MakeHorizontalSpacingEqual>
-    <MakeVerticalSpacingEqual>允许你在所选组件中设置相等垂直间距.</MakeVerticalSpacingEqual>
+    <MakeHorizontalSpacingEqual>使水平间距相等.</MakeHorizontalSpacingEqual>
+    <MakeVerticalSpacingEqual>使垂直间距相等.</MakeVerticalSpacingEqual>
     <Margins>选择页边距.</Margins>
     <menuCheckIssues>查看全篇报表，找出错误、警告并更改修正.</menuCheckIssues>
     <menuDesignerOptions>设置报表设计器选项.</menuDesignerOptions>
@@ -2278,28 +2278,28 @@
     <MoveForward>向前移动一层.</MoveForward>
     <NotPossibleEnableCompilationMode>无法为报告启用编译模式。设计器设置中的"编译访问"选项禁止此操作</NotPossibleEnableCompilationMode>
     <Orientation>在纵向和横向之间切换.</Orientation>
-    <PageDelete>删除报表的当前页面.</PageDelete>
+    <PageDelete>删除当前页面.</PageDelete>
     <PageNew>创建一个新页面.</PageNew>
     <PageSetup>更改页面设置.</PageSetup>
     <PageSize>选择纸张大小.</PageSize>
-    <PagesManager>运行页面管理器.</PagesManager>
+    <PagesManager>打开页面管理.</PagesManager>
     <PressF1>按F1查询更多资料</PressF1>
     <PropertiesButton>显示报表属性.</PropertiesButton>
-    <Redo>重做报表里前面取消的变更.</Redo>
+    <Redo>重做已撤销的更改.</Redo>
     <RemoveMobileSurfaceButton>移除移动端界面.</RemoveMobileSurfaceButton>
     <ReportNew>创建一个新报表.</ReportNew>
-    <ReportOpen>在设计器里打开报表.</ReportOpen>
-    <ReportPreview>在查看器预览编辑了的报告.</ReportPreview>
-    <ReportSave>保存当前编辑的报表.</ReportSave>
-    <ScreenNew>创建新屏幕。</ScreenNew>
+    <ReportOpen>打开报表.</ReportOpen>
+    <ReportPreview>预览报表.</ReportPreview>
+    <ReportSave>保存报表.</ReportSave>
+    <ScreenNew>创建新屏幕.</ScreenNew>
     <ScriptEvalAccess1>此文档使用 Script Eval。如果该文档来自可信来源，你可以点击"打开"按钮访问它。</ScriptEvalAccess1>
     <ScriptEvalAccess2>如果你不确定文档来源但仍想查看，可以点击"以安全模式打开"按钮。在这种情况下，Script Eval 将被忽略且不会执行。</ScriptEvalAccess2>
     <ScriptSecurityFullAccess>脚本完全访问（无任何限制，可能不安全）。</ScriptSecurityFullAccess>
     <ScriptSecuritySafeMode>脚本安全访问（受限功能以确保安全）。</ScriptSecuritySafeMode>
-    <SelectAll>在当前页面全选组件 .</SelectAll>
+    <SelectAll>选择页面上的所有组件.</SelectAll>
     <SelectUILanguage>选择用户界面语言.</SelectUILanguage>
     <SendToBack>移到最后面.</SendToBack>
-    <ServicesConfigurator>运行服务配置器.</ServicesConfigurator>
+    <ServicesConfigurator>打开服务设置.</ServicesConfigurator>
     <Shadow>显示或隐藏阴影.</Shadow>
     <ShowBehind>在组件后显示水印文本.</ShowBehind>
     <ShowImageBehind>把水印图像放到页面所有组件后.</ShowImageBehind>
@@ -2312,13 +2312,13 @@
     <TextBrushWatermark>更改水印文本的颜色.</TextBrushWatermark>
     <TextColor>更改文本颜色.</TextColor>
     <TextFormat>选择值格式.</TextFormat>
-    <ToolbarStyle>将所选样式应用到所有选择组件.</ToolbarStyle>
-    <Undo>取消报告的最新变更.</Undo>
+    <ToolbarStyle>将样式应用到所选组件.</ToolbarStyle>
+    <Undo>撤销最新更改.</Undo>
     <ViewModeDesktopButton>显示桌面端界面.</ViewModeDesktopButton>
     <ViewModeMobileButton>显示移动端界面.</ViewModeMobileButton>
     <Watermark>更改水印设置.</Watermark>
     <WordWrap>使文本自动换行.</WordWrap>
-    <Zoom>指定报表的缩放比例.</Zoom>
+    <Zoom>指定缩放比例.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
     <StiButtonControl>单击时执行操作.</StiButtonControl>

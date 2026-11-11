@@ -2152,12 +2152,12 @@
     <Align>對齊選取的元件。</Align>
     <AlignBottom>將內容靠下對齊。</AlignBottom>
     <AlignCenter>將內容置中對齊。</AlignCenter>
-    <AlignComponentBottom>可讓您沿所選元件的下緣水平對齊物件。</AlignComponentBottom>
-    <AlignComponentCenter>可讓您沿所選元件的中線水平對齊物件。</AlignComponentCenter>
-    <AlignComponentLeft>可讓您沿所選元件的左緣垂直對齊物件。</AlignComponentLeft>
-    <AlignComponentMiddle>可讓您沿所選元件的中線垂直對齊物件。</AlignComponentMiddle>
-    <AlignComponentRight>可讓您沿所選元件的右緣垂直對齊物件。</AlignComponentRight>
-    <AlignComponentTop>可讓您沿所選元件的上緣水平對齊物件。</AlignComponentTop>
+    <AlignComponentBottom>依下緣對齊元件。</AlignComponentBottom>
+    <AlignComponentCenter>依中心對齊元件。</AlignComponentCenter>
+    <AlignComponentLeft>依左緣對齊元件。</AlignComponentLeft>
+    <AlignComponentMiddle>依垂直中心對齊元件。</AlignComponentMiddle>
+    <AlignComponentRight>依右緣對齊元件。</AlignComponentRight>
+    <AlignComponentTop>依上緣對齊元件。</AlignComponentTop>
     <AlignLeft>將內容靠左對齊。</AlignLeft>
     <AlignMiddle>將內容垂直置中對齊。</AlignMiddle>
     <AlignRight>將內容靠右對齊。</AlignRight>
@@ -2177,8 +2177,8 @@
     <BorderSidesTop>顯示或隱藏上框線。</BorderSidesTop>
     <BorderStyle>變更框線樣式。</BorderStyle>
     <BringToFront>移到最上層。</BringToFront>
-    <CenterHorizontally>水準居中</CenterHorizontally>
-    <CenterVertically>垂直居中</CenterVertically>
+    <CenterHorizontally>在容器中水平置中。</CenterHorizontally>
+    <CenterVertically>在容器中垂直置中。</CenterVertically>
     <Close>關閉報表設計器。</Close>
     <Columns>將頁面分成多欄。</Columns>
     <CompilationAccess1>此文件使用了編譯過程。如果文件來自信任的來源，您可以按一下「開啟」按鈕來存取它。</CompilationAccess1>
@@ -2200,12 +2200,12 @@
     <DataStore>顯示報表中已註冊的資料。</DataStore>
     <DateTimeFormat>選取日期與時間格式。</DateTimeFormat>
     <DockingPanels>顯示或隱藏面板。</DockingPanels>
-    <DockStyleBottom>按鈕</DockStyleBottom>
-    <DockStyleFill>填充</DockStyleFill>
-    <DockStyleLeft>左</DockStyleLeft>
-    <DockStyleNone>無</DockStyleNone>
-    <DockStyleRight>右</DockStyleRight>
-    <DockStyleTop>上</DockStyleTop>
+    <DockStyleBottom>停靠至下邊。</DockStyleBottom>
+    <DockStyleFill>停靠至所有邊。</DockStyleFill>
+    <DockStyleLeft>停靠至左邊。</DockStyleLeft>
+    <DockStyleNone>取消元件的停靠。</DockStyleNone>
+    <DockStyleRight>停靠至右邊。</DockStyleRight>
+    <DockStyleTop>停靠至上邊。</DockStyleTop>
     <EventsAccess1>此文件使用了事件。如果文件來自信任的來源，您可以按一下「開啟」按鈕來存取它。</EventsAccess1>
     <EventsAccess2>如果您不確定文件的來源但仍想檢視它，可以按一下「以安全模式開啟」按鈕。在此情況下，事件將被忽略且不會執行。</EventsAccess2>
     <FontGrow>放大文字。</FontGrow>
@@ -2221,14 +2221,14 @@
     <FontStyleStrikeout>為文字加上刪除線。</FontStyleStrikeout>
     <FontStyleUnderline>為文字加上底線。</FontStyleUnderline>
     <FontStyleUnderlineWatermark>將浮水印文字加上底線。</FontStyleUnderlineWatermark>
-    <FormatBoolean>此格式用於格式化布林類型的值。</FormatBoolean>
-    <FormatCurrency>將值顯示為貨幣。可讓您以預設貨幣符號顯示數字。</FormatCurrency>
-    <FormatCustom>此類型用於依自訂需求顯示值。此類型允許在格式遮罩中進行資料格式化。</FormatCustom>
-    <FormatDate>將值顯示為日期。日期格式依據地區日期設定。</FormatDate>
+    <FormatBoolean>格式化布林類型的值。</FormatBoolean>
+    <FormatCurrency>將值顯示為貨幣。</FormatCurrency>
+    <FormatCustom>依自訂格式遮罩顯示值。</FormatCustom>
+    <FormatDate>將值顯示為日期。</FormatDate>
     <FormatGeneral>顯示不套用特定格式的值。</FormatGeneral>
-    <FormatNumber>用於數字的一般顯示。</FormatNumber>
-    <FormatPercentage>將值顯示為百分比。數字會乘以 100 以轉換為百分比。</FormatPercentage>
-    <FormatTime>將值顯示為時間。時間格式依據地區時間設定。</FormatTime>
+    <FormatNumber>將值顯示為數字。</FormatNumber>
+    <FormatPercentage>將值顯示為百分比。</FormatPercentage>
+    <FormatTime>將值顯示為時間。</FormatTime>
     <FormNew>建立新對話方塊表單。</FormNew>
     <GridMode>以線條或點顯示格線。</GridMode>
     <ImageAlignment>對齊</ImageAlignment>
@@ -2239,8 +2239,8 @@
     <LoadImage>從檔案載入浮水印圖片。</LoadImage>
     <Lock>鎖定位置與大小。</Lock>
     <MainMenu>建立、開啟或儲存報表。</MainMenu>
-    <MakeHorizontalSpacingEqual>水準間距相同</MakeHorizontalSpacingEqual>
-    <MakeVerticalSpacingEqual>垂直間距相同</MakeVerticalSpacingEqual>
+    <MakeHorizontalSpacingEqual>使水平間距相等。</MakeHorizontalSpacingEqual>
+    <MakeVerticalSpacingEqual>使垂直間距相等。</MakeVerticalSpacingEqual>
     <Margins>選取頁面邊界。</Margins>
     <menuCheckIssues>進行檢查以找出錯誤、警告並取得建議。</menuCheckIssues>
     <menuDesignerOptions>設定報表設計器選項。</menuDesignerOptions>
@@ -2276,28 +2276,28 @@
     <MoveForward>往前移一層。</MoveForward>
     <NotPossibleEnableCompilationMode>無法為此報表啟用編譯模式。這已被設計器設定中的「編譯存取」選項所禁止。</NotPossibleEnableCompilationMode>
     <Orientation>在縱向與橫向之間切換。</Orientation>
-    <PageDelete>從報表中刪除目前頁面。</PageDelete>
+    <PageDelete>刪除目前頁面。</PageDelete>
     <PageNew>建立新頁面。</PageNew>
     <PageSetup>變更頁面設定。</PageSetup>
     <PageSize>選取紙張大小。</PageSize>
-    <PagesManager>執行頁面管理員。</PagesManager>
+    <PagesManager>開啟頁面管理。</PagesManager>
     <PressF1>按 F1 取得更多詳細資訊</PressF1>
     <PropertiesButton>顯示報表屬性。</PropertiesButton>
-    <Redo>重做先前在報表中取消的變更。</Redo>
+    <Redo>重做已取消的變更。</Redo>
     <RemoveMobileSurfaceButton>移除行動介面。</RemoveMobileSurfaceButton>
     <ReportNew>建立新報表。</ReportNew>
-    <ReportOpen>在設計器中開啟報表。</ReportOpen>
-    <ReportPreview>在檢視器中預覽已編輯的報表。</ReportPreview>
-    <ReportSave>儲存目前編輯的報表。</ReportSave>
+    <ReportOpen>開啟報表。</ReportOpen>
+    <ReportPreview>預覽報表。</ReportPreview>
+    <ReportSave>儲存報表。</ReportSave>
     <ScreenNew>建立新畫面。</ScreenNew>
     <ScriptEvalAccess1>此文件使用了 Script Eval。如果文件來自信任的來源，您可以按一下「開啟」按鈕來存取它。</ScriptEvalAccess1>
     <ScriptEvalAccess2>如果您不確定文件的來源但仍想檢視它，可以按一下「以安全模式開啟」按鈕。在此情況下，Script Eval 將被忽略且不會執行。</ScriptEvalAccess2>
     <ScriptSecurityFullAccess>完整指令碼存取 (無限制，可能不安全)。</ScriptSecurityFullAccess>
     <ScriptSecuritySafeMode>安全指令碼存取（基於安全性限制功能）。</ScriptSecuritySafeMode>
-    <SelectAll>選取目前頁面上的所有元件。</SelectAll>
+    <SelectAll>選取頁面上的所有元件。</SelectAll>
     <SelectUILanguage>選取使用者介面語言。</SelectUILanguage>
     <SendToBack>移到最下層。</SendToBack>
-    <ServicesConfigurator>執行服務設定程式。</ServicesConfigurator>
+    <ServicesConfigurator>開啟服務設置。</ServicesConfigurator>
     <Shadow>顯示或隱藏陰影。</Shadow>
     <ShowBehind>顯示於後面</ShowBehind>
     <ShowImageBehind>顯示圖片於後面</ShowImageBehind>
@@ -2310,13 +2310,13 @@
     <TextBrushWatermark>變更浮水印的文字顏色。</TextBrushWatermark>
     <TextColor>變更文字顏色。</TextColor>
     <TextFormat>選取值的格式。</TextFormat>
-    <ToolbarStyle>樣式</ToolbarStyle>
-    <Undo>復原報表中最近的變更。</Undo>
+    <ToolbarStyle>將樣式套用至選取的元件。</ToolbarStyle>
+    <Undo>復原最近的變更。</Undo>
     <ViewModeDesktopButton>顯示桌面介面。</ViewModeDesktopButton>
     <ViewModeMobileButton>顯示行動介面。</ViewModeMobileButton>
     <Watermark>變更浮水印設定。</Watermark>
     <WordWrap>將文字自動換行。</WordWrap>
-    <Zoom>縮放</Zoom>
+    <Zoom>指定縮放比例。</Zoom>
   </HelpDesigner>
   <HelpDialogs>
     <StiButtonControl>按一下時執行動作。</StiButtonControl>

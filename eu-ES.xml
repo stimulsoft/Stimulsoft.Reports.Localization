@@ -1413,12 +1413,12 @@
     <Align>Aukeratutako osagaiak lerrokatu.</Align>
     <AlignBottom>Edukia behean lerrokatu.</AlignBottom>
     <AlignCenter>Edukia zentroan lerrokatu.</AlignCenter>
-    <AlignComponentBottom>Aukeratutako osagaiaren objektuak horizontalki beheko ertzean lerrokatzeko aukera ematen du.</AlignComponentBottom>
-    <AlignComponentCenter>Aukeratutako osagaiaren objektuak horizontalki erdiko ertzean lerrokatzeko aukera ematen du.</AlignComponentCenter>
-    <AlignComponentLeft>Aukeratutako osagaiaren objektuak bertikalki ezkerreko ertzean lerrokatzeko aukera ematen du.</AlignComponentLeft>
-    <AlignComponentMiddle>Aukeratutako osagaiaren objektuak bertikalki ezkerreko ertzean lerrokatzeko aukera ematen du.</AlignComponentMiddle>
-    <AlignComponentRight>Aukeratutako osagaiaren objektuak horizontalki eskuineko ertzean lerrokatzeko aukera ematen du.</AlignComponentRight>
-    <AlignComponentTop>Aukeratutako osagaiaren objektuak horizontalki goiko ertzean lerrokatzeko aukera ematen du.</AlignComponentTop>
+    <AlignComponentBottom>Osagaiak beheko ertzean lerrokatu.</AlignComponentBottom>
+    <AlignComponentCenter>Osagaiak zentroan lerrokatu.</AlignComponentCenter>
+    <AlignComponentLeft>Osagaiak ezkerreko ertzean lerrokatu.</AlignComponentLeft>
+    <AlignComponentMiddle>Osagaiak erdian lerrokatu.</AlignComponentMiddle>
+    <AlignComponentRight>Osagaiak eskuineko ertzean lerrokatu.</AlignComponentRight>
+    <AlignComponentTop>Osagaiak goiko ertzean lerrokatu.</AlignComponentTop>
     <AlignLeft>Edukia ezkerrean lerrokatu.</AlignLeft>
     <AlignMiddle>Edukia erdian lerrokatu.</AlignMiddle>
     <AlignRight>Edukia eskuinean lerrokatu.</AlignRight>
@@ -1438,8 +1438,8 @@
     <BorderSidesTop>Markoaren goiko aldea erakutsi edo ezkutatu.</BorderSidesTop>
     <BorderStyle>Markoaren estiloa aldatu.</BorderStyle>
     <BringToFront>Aurrera ekarri.</BringToFront>
-    <CenterHorizontally>Osagai bat edukitzailearen ertzaren arabera horizontalki lerrokatzeko aukera ematen du.</CenterHorizontally>
-    <CenterVertically>Osagai bat edukitzailearen ertzaren arabera bertikalki lerrokatzeko aukera ematen du.</CenterVertically>
+    <CenterHorizontally>Edukitzailean horizontalki zentratu.</CenterHorizontally>
+    <CenterVertically>Edukitzailean bertikalki zentratu.</CenterVertically>
     <Close>Txosten Diseinatzailea itxi.</Close>
     <Columns>Orrialdea zutabetan zatitu.</Columns>
     <CompilationAccess1>Dokumentu honek konpilazio-prozesua erabiltzen du. Dokumentua iturri fidagarri batetik badator, "Ireki" botoia sakatu dezakezu hura irekitzeko.</CompilationAccess1>
@@ -1452,15 +1452,16 @@
     <CopyStyle>Estiloa beste osagai batzuetara kopiatu.</CopyStyle>
     <CopyToClipboard>Kopiatu Arbelean.</CopyToClipboard>
     <CurrencySymbol>Dibisaren sinboloa aukeratu.</CurrencySymbol>
+    <DashboardNew>Aginte-panel berri bat sortu.</DashboardNew>
     <DataStore>Txostenean erregistratutako datuak erakutsi.</DataStore>
     <DateTimeFormat>Data eta orduaren formatua aukeratu.</DateTimeFormat>
     <DockingPanels>Panelak erakutsi edo ezkutatu.</DockingPanels>
-    <DockStyleBottom>Aukeratutako osagaiak beheko ertzera egokitu.</DockStyleBottom>
-    <DockStyleFill>Aukeratutako osagaiak ertz guztietara egokitu.</DockStyleFill>
-    <DockStyleLeft>Aukeratutako osagaiak ezkerreko ertzera egokitu.</DockStyleLeft>
-    <DockStyleNone>Aukeratutako osagaiak banandu.</DockStyleNone>
-    <DockStyleRight>Aukeratutako osagaiak eskuineko ertzera egokitu.</DockStyleRight>
-    <DockStyleTop>Aukeratutako osagaiak goiko ertzera egokitu.</DockStyleTop>
+    <DockStyleBottom>Beheko aldera ainguratu.</DockStyleBottom>
+    <DockStyleFill>Alde guztietara ainguratu.</DockStyleFill>
+    <DockStyleLeft>Ezkerreko aldera ainguratu.</DockStyleLeft>
+    <DockStyleNone>Osagaien ainguraketa kendu.</DockStyleNone>
+    <DockStyleRight>Eskuineko aldera ainguratu.</DockStyleRight>
+    <DockStyleTop>Goiko aldera ainguratu.</DockStyleTop>
     <FontGrow>Testua handitu.</FontGrow>
     <FontName>Testuaren letra tipoa aldatu.</FontName>
     <FontNameWatermark>Filigranaren testuaren letra tipoa.</FontNameWatermark>
@@ -1474,15 +1475,15 @@
     <FontStyleStrikeout>Testua marratu.</FontStyleStrikeout>
     <FontStyleUnderline>Testua azpimarratu.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Filigranaren testua letra azpimarratura bihurtu.</FontStyleUnderlineWatermark>
-    <FormatBoolean>Modu logikoko balioak formateatzeko erabiltzen da formatu hau.</FormatBoolean>
-    <FormatCurrency>Balio bat moneta gisa erakutsi. Aukera ematen du zenbaki bat lehenetsitako dibisaren zeinuarekin erakusteko.</FormatCurrency>
-    <FormatCustom>Eskakizun pertsonalizatuak dituzten balioak erakusteko erabiltzen da tipo hau. Aukera dago Formatu Maskararekin datuak formateatzeko.</FormatCustom>
-    <FormatDate>Balio bat data gisa erakutsi. Dataren formatua eskualdeko konfigurazioaren araberakoa da.</FormatDate>
+    <FormatBoolean>Mota booleanoko balio bat formateatu.</FormatBoolean>
+    <FormatCurrency>Balio bat moneta gisa erakutsi.</FormatCurrency>
+    <FormatCustom>Balioa maskara pertsonalizatuz erakutsi.</FormatCustom>
+    <FormatDate>Balio bat data gisa erakutsi.</FormatDate>
     <FormatGeneral>Balio bat formatu zehatzik gabe erakutsi.</FormatGeneral>
-    <FormatNumber>Zenbakiak orokorrean erakusteko erabiltzen da.</FormatNumber>
-    <FormatPercentage>Balio bat ehunekotan erakutsi. Zenbakiak 100ez biderkatzen dira ehuneko bihurtzeko.</FormatPercentage>
-    <FormatTime>Balio bat ordu gisa erakutsi. Orduaren formatua eskualdeko konfigurazioaren araberakoa da. </FormatTime>
-    <FormNew>Inprimaki berri bat sortu.</FormNew>
+    <FormatNumber>Balio bat zenbaki gisa erakutsi.</FormatNumber>
+    <FormatPercentage>Balio bat ehuneko gisa erakutsi.</FormatPercentage>
+    <FormatTime>Balio bat ordu gisa erakutsi.</FormatTime>
+    <FormNew>Elkarrizketa-inprimaki berria sortu.</FormNew>
     <GridMode>Sareta lerro edo puntu gisa erakutsi.</GridMode>
     <ImageAlignment>Filigrana-irudi bat orrialdean jarri.</ImageAlignment>
     <ImageTransparency>Filigrana-irudiaren gardenkia aldatu.</ImageTransparency>
@@ -1492,8 +1493,8 @@
     <LoadImage>Filigrana-irudiak fitxategi batetik kargatu,</LoadImage>
     <Lock>Posizioa eta neurria blokeatu.</Lock>
     <MainMenu>Txosten bat sortu, ireki edo gorde.</MainMenu>
-    <MakeHorizontalSpacingEqual>Aukeratutako osagaien artean tarte horizontala berdintzeko aukera ematen du.</MakeHorizontalSpacingEqual>
-    <MakeVerticalSpacingEqual>Aukeratutako osagaien artean tarte bertikala berdintzeko aukera ematen du.</MakeVerticalSpacingEqual>
+    <MakeHorizontalSpacingEqual>Tarte horizontala berdindu.</MakeHorizontalSpacingEqual>
+    <MakeVerticalSpacingEqual>Tarte bertikala berdindu.</MakeVerticalSpacingEqual>
     <Margins>Orrialdearen marjinak aukeratu.</Margins>
     <menuCheckIssues>Txostena egiaztatu, akatsak, ohartarazpenak eta bestelako aholkuak bilatzeko.</menuCheckIssues>
     <menuDesignerOptions>Txosten-diseinatzailearen aukerak konfiguratu.</menuDesignerOptions>
@@ -1528,23 +1529,23 @@
     <MoveBackward>Maila bat atzera mugitu.</MoveBackward>
     <MoveForward>Maila bat aurrera mugitu.</MoveForward>
     <Orientation>Erretratuaren eta paisaiaren artean txandatu.</Orientation>
-    <PageDelete>Orrialde hau txostenetik ezabatu.</PageDelete>
+    <PageDelete>Uneko orrialdea ezabatu.</PageDelete>
     <PageNew>Orrialde berri bat sortu.</PageNew>
     <PageSetup>Orrialdearen ezarpenak aldatu.</PageSetup>
     <PageSize>Paperaren neurria aukeratu.</PageSize>
-    <PagesManager>Orrialde Kudeatzailea exekutatu.</PagesManager>
+    <PagesManager>Orrialde Kudeatzailea ireki.</PagesManager>
     <PropertiesButton>Txostenaren propietateak erakutsi.</PropertiesButton>
-    <Redo>Txostenean egindako azken aldaketa berregin.</Redo>
+    <Redo>Desegindako aldaketa berregin.</Redo>
     <RemoveMobileSurfaceButton>Mugikorrerako gainazala kendu.</RemoveMobileSurfaceButton>
     <ReportNew>Txosten berria sortu.</ReportNew>
-    <ReportOpen>Txostena diseinatzailean ireki.</ReportOpen>
-    <ReportPreview>Editatutako txostena bisorean bistaratu.</ReportPreview>
-    <ReportSave>Editatutako txostena gorde.</ReportSave>
+    <ReportOpen>Txosten bat ireki.</ReportOpen>
+    <ReportPreview>Txostenaren aurrebista erakutsi.</ReportPreview>
+    <ReportSave>Txostena gorde.</ReportSave>
     <ScreenNew>Pantaila berri bat sortu.</ScreenNew>
-    <SelectAll>Orrialde honetako osagai guztiak aukeratu.</SelectAll>
+    <SelectAll>Orrialdeko osagai guztiak aukeratu.</SelectAll>
     <SelectUILanguage>UIaren hizkuntza aukeratu.</SelectUILanguage>
     <SendToBack>Atzera bidali.</SendToBack>
-    <ServicesConfigurator>Zerbitzuen Konfiguratzailea exekutatu.</ServicesConfigurator>
+    <ServicesConfigurator>Zerbitzu Konfiguratzailea ireki.</ServicesConfigurator>
     <Shadow>Itzala erakutsi edo ezkutatu.</Shadow>
     <ShowBehind>Filigrana osagaien atzean erakutsi.</ShowBehind>
     <ShowImageBehind>Filigrana orrialdeko osagai guztien atzean erakutsi.</ShowImageBehind>
@@ -1555,13 +1556,13 @@
     <TextBrushWatermark>Filigranaren testuaren kolorea aldatu.</TextBrushWatermark>
     <TextColor>Testuaren kolorea aldatu.</TextColor>
     <TextFormat>Balioen formatua aukeratu.</TextFormat>
-    <ToolbarStyle>Aukeratutako osagai guztiei uneko estiloa ezarri.</ToolbarStyle>
-    <Undo>Txostenean egindako azken aldaketa desegin.</Undo>
+    <ToolbarStyle>Aukeratutako osagaiei estilo bat ezarri.</ToolbarStyle>
+    <Undo>Azken aldaketa desegin.</Undo>
     <ViewModeDesktopButton>Mahaigainerako gainazala erakutsi.</ViewModeDesktopButton>
     <ViewModeMobileButton>Mugikorrerako gainazala erakutsi.</ViewModeMobileButton>
     <Watermark>Filigranaren ezarpenak aldatu.</Watermark>
     <WordWrap>Testua tolestu.</WordWrap>
-    <Zoom>Txostenaren zabalpen-maila adierazi.</Zoom>
+    <Zoom>Zabalpen-maila adierazi.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
     <StiButtonControl>Klik egitean ekintza bat exekutatzen du.</StiButtonControl>

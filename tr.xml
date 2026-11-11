@@ -2151,12 +2151,12 @@
     <Align>Seçilen bileşenleri hizalayın.</Align>
     <AlignBottom>İçeriği alta hizalayın.</AlignBottom>
     <AlignCenter>İçeriği merkeze hizalayın.</AlignCenter>
-    <AlignComponentBottom>Nesneleri seçilen bileşenlerin alt kenarı boyunca yatay olarak hizalamanıza izin verir.</AlignComponentBottom>
-    <AlignComponentCenter>Nesneleri seçilen bileşenlerin orta kenarı boyunca yatay olarak hizalamanıza olanak verir.</AlignComponentCenter>
-    <AlignComponentLeft>Nesneleri seçilen bileşenlerin sol kenarı boyunca dikey olarak hizalamanıza izin verir.</AlignComponentLeft>
-    <AlignComponentMiddle>Nesneleri, seçilen bileşenlerin orta kenarı boyunca dikey olarak hizalamanıza izin verir.</AlignComponentMiddle>
-    <AlignComponentRight>Nesneleri, seçilen bileşenlerin sağ kenarı boyunca dikey olarak hizalamanıza izin verir.</AlignComponentRight>
-    <AlignComponentTop>Nesneleri, seçilen bileşenlerin üst kenarı boyunca yatay olarak hizalamanıza izin verir.</AlignComponentTop>
+    <AlignComponentBottom>Bileşenleri alt kenara göre hizalayın.</AlignComponentBottom>
+    <AlignComponentCenter>Bileşenleri merkeze göre hizalayın.</AlignComponentCenter>
+    <AlignComponentLeft>Bileşenleri sol kenara göre hizalayın.</AlignComponentLeft>
+    <AlignComponentMiddle>Bileşenleri ortaya göre hizalayın.</AlignComponentMiddle>
+    <AlignComponentRight>Bileşenleri sağ kenara göre hizalayın.</AlignComponentRight>
+    <AlignComponentTop>Bileşenleri üst kenara göre hizalayın.</AlignComponentTop>
     <AlignLeft>İçeriği sola hizalayın.</AlignLeft>
     <AlignMiddle>İçeriği ortaya hizalayın.</AlignMiddle>
     <AlignRight>İçeriği sağa hizalayın.</AlignRight>
@@ -2176,8 +2176,8 @@
     <BorderSidesTop>Üst kenarlığı gösterin veya gizleyin.</BorderSidesTop>
     <BorderStyle>Kenarlık stilini değiştirin.</BorderStyle>
     <BringToFront>Öne getirin.</BringToFront>
-    <CenterHorizontally>Bir bileşeni, yerleştirildiği kapsayıcının kenarlarına göre yatay olarak hizalamanıza izin verir.</CenterHorizontally>
-    <CenterVertically>Bir bileşeni, yerleştirildiği kapsayıcının kenarlarına göre dikey olarak hizalamanıza izin verir.</CenterVertically>
+    <CenterHorizontally>Kapsayıcıda yatay olarak ortalayın.</CenterHorizontally>
+    <CenterVertically>Kapsayıcıda dikey olarak ortalayın.</CenterVertically>
     <Close>Rapor Tasarımcısını Kapat.</Close>
     <Columns>Sayfayı sütunlara bölün.</Columns>
     <CompilationAccess1>Bu doküman derleme işlemini kullanır. Eğer doküman güvenli bir kaynaktan geliyorsa "Aç" tuşuna basarak ona ulaşabilirsiniz.</CompilationAccess1>
@@ -2195,16 +2195,16 @@
     <CopyStyle>Stili diğer bileşenlere kopyalayın.</CopyStyle>
     <CopyToClipboard>Panoya Kopyala</CopyToClipboard>
     <CurrencySymbol>Para birimi simgesini seçin.</CurrencySymbol>
-    <DashboardNew>Yeni bir Kontrol Paneli oluşturun.</DashboardNew>
-    <DataStore>Bir raporda kayıtlı verileri göster.</DataStore>
+    <DashboardNew>Yeni bir pano oluşturun.</DashboardNew>
+    <DataStore>Raporda kayıtlı verileri gösterin.</DataStore>
     <DateTimeFormat>Tarih ve saat biçimini seçin.</DateTimeFormat>
     <DockingPanels>Panelleri gösterin veya gizleyin.</DockingPanels>
-    <DockStyleBottom>Seçilen bileşenleri alt tarafa sabitle.</DockStyleBottom>
-    <DockStyleFill>Seçilen bileşenleri tüm taraflara sabitle.</DockStyleFill>
-    <DockStyleLeft>Seçilen bileşenleri sol tarafa yerleştir.</DockStyleLeft>
-    <DockStyleNone>Seçilen bileşenleri geri al.</DockStyleNone>
-    <DockStyleRight>Seçilen bileşenleri sağ tarafa sabitle.</DockStyleRight>
-    <DockStyleTop>Seçilen bileşenleri üst tarafa sabitle.</DockStyleTop>
+    <DockStyleBottom>Alt tarafa sabitleyin.</DockStyleBottom>
+    <DockStyleFill>Tüm taraflara sabitleyin.</DockStyleFill>
+    <DockStyleLeft>Sol tarafa sabitleyin.</DockStyleLeft>
+    <DockStyleNone>Bileşenlerin sabitlemesini kaldırın.</DockStyleNone>
+    <DockStyleRight>Sağ tarafa sabitleyin.</DockStyleRight>
+    <DockStyleTop>Üst tarafa sabitleyin.</DockStyleTop>
     <EventsAccess1>Bu doküman Etkinlikleri kullanır. Eğer doküman güvenilir bir kaynaktan geliyorsa "Aç" tuşuna basarak ona ulaşabilirsiniz.</EventsAccess1>
     <EventsAccess2>Eğer dokümanın kaynağından emin değilseniz ama yine de onu açmak istiyorsanız, "Güvenli modda aç" tuşuna basabilirsiniz. Bu durumda etkinlikler devre dışı bırakılacak ve çalıştırılmayacaktır.</EventsAccess2>
     <FontGrow>Metni büyütün.</FontGrow>
@@ -2220,15 +2220,15 @@
     <FontStyleStrikeout>Metnin üstünü çizin.</FontStyleStrikeout>
     <FontStyleUnderline>Metnin altını çizin.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Filigran metninin altını çiz.</FontStyleUnderlineWatermark>
-    <FormatBoolean>Bu biçim, boole türünün değerlerini formatlamak için kullanılır.</FormatBoolean>
-    <FormatCurrency>Bir değeri para birimi olarak görüntüler. Varsayılan para birimi simgesiyle bir sayı görüntülemenizi sağlar.</FormatCurrency>
-    <FormatCustom>Bu tür, değerleri özel gereksinimlere göre göstermek için kullanılır. Bu tür Biçim Maskesinde veri formatlama sağlar.</FormatCustom>
-    <FormatDate>Tarih olarak bir değer görüntüler. Tarih formatı, bölgesel tarih ayarlarına dayanır.</FormatDate>
-    <FormatGeneral>Belirli bir format içermeyen bir değeri görüntüler.</FormatGeneral>
-    <FormatNumber>Sayıların genel gösterimi için kullanılır.</FormatNumber>
-    <FormatPercentage>Bir değeri yüzde olarak görüntüleyin. Sayılar, yüzdelere dönüştürmek için 100 ile çarpılır.</FormatPercentage>
-    <FormatTime>Bir değeri zaman olarak görüntüler. Saat formatı bölgesel saat ayarlarına dayanır.</FormatTime>
-    <FormNew>Yeni bir iletişim formu oluştur.</FormNew>
+    <FormatBoolean>Boolean türündeki değeri biçimlendirin.</FormatBoolean>
+    <FormatCurrency>Değeri para birimi olarak gösterin.</FormatCurrency>
+    <FormatCustom>Değeri özel biçim maskesiyle gösterin.</FormatCustom>
+    <FormatDate>Değeri tarih olarak gösterin.</FormatDate>
+    <FormatGeneral>Değeri belirli bir biçim olmadan gösterin.</FormatGeneral>
+    <FormatNumber>Değeri sayı olarak gösterin.</FormatNumber>
+    <FormatPercentage>Değeri yüzde olarak gösterin.</FormatPercentage>
+    <FormatTime>Değeri saat olarak gösterin.</FormatTime>
+    <FormNew>Yeni bir iletişim formu oluşturun.</FormNew>
     <GridMode>Izgarayı çizgi veya nokta olarak gösterin.</GridMode>
     <ImageAlignment>Bir sayfaya filigran görüntüsü koyun.</ImageAlignment>
     <ImageTransparency>Filigran görüntünün saydamlığını değiştirin.</ImageTransparency>
@@ -2238,8 +2238,8 @@
     <LoadImage>Dosyadan filigran görüntüleri yükleyin.</LoadImage>
     <Lock>Konumu ve boyutu kilitleyin.</Lock>
     <MainMenu>Rapor oluşturun, açın veya kaydedin.</MainMenu>
-    <MakeHorizontalSpacingEqual>Seçilen bileşenler arasında eşit yatay boşluk bırakmanızı sağlar.</MakeHorizontalSpacingEqual>
-    <MakeVerticalSpacingEqual>Seçilen bileşenler arasında eşit dikey boşluk ayarlamanıza olanak verir.</MakeVerticalSpacingEqual>
+    <MakeHorizontalSpacingEqual>Yatay boşluğu eşitleyin.</MakeHorizontalSpacingEqual>
+    <MakeVerticalSpacingEqual>Dikey boşluğu eşitleyin.</MakeVerticalSpacingEqual>
     <Margins>Sayfa kenar boşluklarını seçin.</Margins>
     <menuCheckIssues>Hataları, uyarıları bulmak ve öneriler almak için bir raporu kontrol edin.</menuCheckIssues>
     <menuDesignerOptions>Rapor tasarımcısı seçeneklerini ayarla.</menuDesignerOptions>
@@ -2275,28 +2275,28 @@
     <MoveForward>Bir seviye ileri taşıyın.</MoveForward>
     <NotPossibleEnableCompilationMode>Rapor için derleme modunu aktifleştirmek imkansız. Dizayner ayarlarındaki 'Derleme Erişimi' opsiyonu buna izin vermiyor.</NotPossibleEnableCompilationMode>
     <Orientation>Dikey ve yatay arasında geçiş yapın.</Orientation>
-    <PageDelete>Mevcut sayfayı bir rapordan sil.</PageDelete>
-    <PageNew>Yeni sayfa oluştur.</PageNew>
+    <PageDelete>Geçerli sayfayı silin.</PageDelete>
+    <PageNew>Yeni bir sayfa oluşturun.</PageNew>
     <PageSetup>Sayfa ayarlarını değiştirin.</PageSetup>
     <PageSize>Kağıt boyutunu seçin.</PageSize>
-    <PagesManager>Sayfa Yöneticisi'ni çalıştırın.</PagesManager>
+    <PagesManager>Sayfa Yöneticisi'ni açın.</PagesManager>
     <PressF1>Daha Fazla Bilgi için F1'e basın</PressF1>
     <PropertiesButton>Rapor özelliklerini gösterin.</PropertiesButton>
-    <Redo>Bir raporda önceden iptal edilmiş değişikliği tekrar yapın.</Redo>
+    <Redo>Geri alınan değişikliği yineleyin.</Redo>
     <RemoveMobileSurfaceButton>Mobil yüzeyi kaldırın.</RemoveMobileSurfaceButton>
     <ReportNew>Yeni bir rapor oluşturun.</ReportNew>
-    <ReportOpen>Tasarımcıda bir rapor açın.</ReportOpen>
-    <ReportPreview>Düzenlenen bir raporu görüntüleyende önizleyin.</ReportPreview>
-    <ReportSave>Düzenlenmiş raporu kaydedin.</ReportSave>
+    <ReportOpen>Bir rapor açın.</ReportOpen>
+    <ReportPreview>Raporu önizleyin.</ReportPreview>
+    <ReportSave>Raporu kaydedin.</ReportSave>
     <ScreenNew>Yeni bir ekran oluşturun.</ScreenNew>
     <ScriptEvalAccess1>Bu belge Script Eval kullanmaktadır. Belge güvenilir bir kaynaktan geliyorsa, erişmek için "Aç" düğmesine tıklayabilirsiniz.</ScriptEvalAccess1>
     <ScriptEvalAccess2>Belgenin kaynağından emin değilseniz ancak yine de görüntülemek istiyorsanız, "Güvenli modda aç" düğmesine tıklayabilirsiniz. Bu durumda, Script Eval yok sayılır ve çalıştırılmaz.</ScriptEvalAccess2>
     <ScriptSecurityFullAccess>Tam betik erişimi (kısıtlama yok, potansiyel olarak güvensiz).</ScriptSecurityFullAccess>
     <ScriptSecuritySafeMode>Güvenli betik erişimi (güvenlik için kısıtlı erişim).</ScriptSecuritySafeMode>
-    <SelectAll>Geçerli sayfadaki tüm bileşenleri seçin.</SelectAll>
+    <SelectAll>Sayfadaki tüm bileşenleri seçin.</SelectAll>
     <SelectUILanguage>UI dilini seçin.</SelectUILanguage>
     <SendToBack>Arkaya gönderin.</SendToBack>
-    <ServicesConfigurator>Services Configurator'ı çalıştırın.</ServicesConfigurator>
+    <ServicesConfigurator>Hizmet Yapılandırıcı'yı açın.</ServicesConfigurator>
     <Shadow>Gölgeyi gösterin veya gizleyin.</Shadow>
     <ShowBehind>Bileşenlerin arkasındaki filigran metnini gösterin.</ShowBehind>
     <ShowImageBehind>Filigran görüntüsünü bir sayfanın tüm bileşenlerinin arkasına koyun.</ShowImageBehind>
@@ -2309,13 +2309,13 @@
     <TextBrushWatermark>Filigranın metin rengini değiştirin.</TextBrushWatermark>
     <TextColor>Metin rengini değiştirin.</TextColor>
     <TextFormat>Değer biçimini seçin.</TextFormat>
-    <ToolbarStyle>Seçilen stili tüm seçilmiş bileşenlere ayarlayın.</ToolbarStyle>
-    <Undo>Rapordaki son değişikliği geri al. </Undo>
+    <ToolbarStyle>Seçilen bileşenlere bir stil uygulayın.</ToolbarStyle>
+    <Undo>Son değişikliği geri alın.</Undo>
     <ViewModeDesktopButton>Masaüstü yüzeyini gösterin.</ViewModeDesktopButton>
     <ViewModeMobileButton>Mobil yüzeyi gösterin.</ViewModeMobileButton>
     <Watermark>Filigran ayarlarını değiştirin.</Watermark>
     <WordWrap>Metni kaydırın.</WordWrap>
-    <Zoom>Raporun yakınlaştırma düzeyini belirtin.</Zoom>
+    <Zoom>Yakınlaştırma düzeyini belirtin.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
     <StiButtonControl>Tıklandığında bir eylem çalıştırır.</StiButtonControl>

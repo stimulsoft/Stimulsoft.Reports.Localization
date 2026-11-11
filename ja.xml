@@ -2152,12 +2152,12 @@
     <Align>選択した部品を整列します。</Align>
     <AlignBottom>内容を下端に揃えます。</AlignBottom>
     <AlignCenter>内容を中央に揃えます。</AlignCenter>
-    <AlignComponentBottom>選択した部品の下端に沿ってオブジェクトを水平に整列させることができます。</AlignComponentBottom>
-    <AlignComponentCenter>選択した部品の中央のエッジに沿ってオブジェクトを水平に整列させることができます。</AlignComponentCenter>
-    <AlignComponentLeft>選択した部品の左端に沿ってオブジェクトを垂直に揃えることができます。</AlignComponentLeft>
-    <AlignComponentMiddle>選択した部品の中央のエッジに沿ってオブジェクトを垂直に整列させることができます。</AlignComponentMiddle>
-    <AlignComponentRight>選択した部品の右端に沿ってオブジェクトを垂直に整列させることができます。</AlignComponentRight>
-    <AlignComponentTop>選択した部品の上端に沿ってオブジェクトを水平に整列させることができます。</AlignComponentTop>
+    <AlignComponentBottom>部品の下端を揃えます。</AlignComponentBottom>
+    <AlignComponentCenter>部品の中央を揃えます。</AlignComponentCenter>
+    <AlignComponentLeft>部品の左端を揃えます。</AlignComponentLeft>
+    <AlignComponentMiddle>部品の上下中央を揃えます。</AlignComponentMiddle>
+    <AlignComponentRight>部品の右端を揃えます。</AlignComponentRight>
+    <AlignComponentTop>部品の上端を揃えます。</AlignComponentTop>
     <AlignLeft>内容を左端に揃えます。</AlignLeft>
     <AlignMiddle>内容を上下中央に揃えます。</AlignMiddle>
     <AlignRight>内容を右端に揃えます。</AlignRight>
@@ -2177,8 +2177,8 @@
     <BorderSidesTop>上側の罫線を表示または非表示にします。</BorderSidesTop>
     <BorderStyle>罫線のスタイルを変更します。</BorderStyle>
     <BringToFront>最前面へ移動します。</BringToFront>
-    <CenterHorizontally>部品が配置されているコンテナのエッジに対して部品を水平方向に揃えることができます。</CenterHorizontally>
-    <CenterVertically>部品が配置されているコンテナのエッジに対して部品を垂直方向に揃えることができます。</CenterVertically>
+    <CenterHorizontally>コンテナ内で左右中央に配置します。</CenterHorizontally>
+    <CenterVertically>コンテナ内で上下中央に配置します。</CenterVertically>
     <Close>レポートデザイナを閉じます。</Close>
     <Columns>ページを列に分割します。</Columns>
     <CompilationAccess1>この文書はコンパイルプロセスを使用しています。信頼できるソースからの文書であれば、「開く」ボタンをクリックしてアクセスすることができます。</CompilationAccess1>
@@ -2196,16 +2196,16 @@
     <CopyStyle>スタイルを他の部品にコピーします。</CopyStyle>
     <CopyToClipboard>クリップボードコピー</CopyToClipboard>
     <CurrencySymbol>通貨記号を選択します。</CurrencySymbol>
-    <DashboardNew>新しいダッシュボードを作成してください。</DashboardNew>
+    <DashboardNew>新規ダッシュボードを作成します。</DashboardNew>
     <DataStore>レポートに登録されたデータを表示します。</DataStore>
     <DateTimeFormat>日付と時刻の形式を選択します。</DateTimeFormat>
     <DockingPanels>パネルを表示または非表示にします。</DockingPanels>
-    <DockStyleBottom>選択した部品を下部にドッキングします。</DockStyleBottom>
-    <DockStyleFill>選択した部品をすべての面にドッキングします。</DockStyleFill>
-    <DockStyleLeft>選択した部品を左側にドッキングします。</DockStyleLeft>
-    <DockStyleNone>選択した部品の選択を解除します。</DockStyleNone>
-    <DockStyleRight>選択した部品を右側にドッキングします。</DockStyleRight>
-    <DockStyleTop>選択した部品を上面にドッキングします。</DockStyleTop>
+    <DockStyleBottom>下側にドッキングします。</DockStyleBottom>
+    <DockStyleFill>すべての側にドッキングします。</DockStyleFill>
+    <DockStyleLeft>左側にドッキングします。</DockStyleLeft>
+    <DockStyleNone>部品のドッキングを解除します。</DockStyleNone>
+    <DockStyleRight>右側にドッキングします。</DockStyleRight>
+    <DockStyleTop>上側にドッキングします。</DockStyleTop>
     <EventsAccess1>このドキュメントはイベントを使用しています。このドキュメントが信頼できるソースからのものである場合は、「開く」ボタンをクリックしてアクセスできます。</EventsAccess1>
     <EventsAccess2>ドキュメントのソースが不明であっても表示したい場合は、「セーフモードで開く」ボタンをクリックできます。この場合、イベントは無視され、実行されません。</EventsAccess2>
     <FontGrow>テキストを大きくします。</FontGrow>
@@ -2221,14 +2221,14 @@
     <FontStyleStrikeout>テキストに取り消し線を引きます。</FontStyleStrikeout>
     <FontStyleUnderline>テキストに下線を引きます。</FontStyleUnderline>
     <FontStyleUnderlineWatermark>ウォーターマークのテキストに下線を引きます。</FontStyleUnderlineWatermark>
-    <FormatBoolean>この形式はブール型の値の書式設定に使用されます。</FormatBoolean>
-    <FormatCurrency>値を通貨として表示します。 これにより、デフォルトの通貨記号で数値を表示することができます。</FormatCurrency>
-    <FormatCustom>このタイプは、カスタム要件に従って値を表示するために使用されます。 このタイプでは、フォーマットマスクでのデータフォーマットが可能です。</FormatCustom>
-    <FormatDate>値を日付として表示します。 日付形式は、地域の日付設定に基づいています。</FormatDate>
-    <FormatGeneral>特定のフォーマットのない値を表示します。</FormatGeneral>
-    <FormatNumber>数字の一般的な表示に使用されます。</FormatNumber>
-    <FormatPercentage>値をパーセンテージで表示します。 数値に100を掛けてパーセントに変換します。</FormatPercentage>
-    <FormatTime>時間として値を表示します。 時間形式は地域時間の設定に基づいています。</FormatTime>
+    <FormatBoolean>ブール型の値を書式設定します。</FormatBoolean>
+    <FormatCurrency>値を通貨として表示します。</FormatCurrency>
+    <FormatCustom>値をカスタム形式マスクで表示します。</FormatCustom>
+    <FormatDate>値を日付として表示します。</FormatDate>
+    <FormatGeneral>値を特定の形式なしで表示します。</FormatGeneral>
+    <FormatNumber>値を数値として表示します。</FormatNumber>
+    <FormatPercentage>値をパーセンテージで表示します。</FormatPercentage>
+    <FormatTime>値を時間として表示します。</FormatTime>
     <FormNew>新規ダイアログフォームを作成します。</FormNew>
     <GridMode>グリッドを線または点で表示します。</GridMode>
     <ImageAlignment>ページに透かし画像を置く。</ImageAlignment>
@@ -2239,8 +2239,8 @@
     <LoadImage>ファイルから透かし画像を読み込みます。</LoadImage>
     <Lock>位置とサイズをロックします。</Lock>
     <MainMenu>レポートを作成、開く、または保存します。</MainMenu>
-    <MakeHorizontalSpacingEqual>選択した部品間の水平方向の間隔を均等に設定できます。</MakeHorizontalSpacingEqual>
-    <MakeVerticalSpacingEqual>選択した部品間の垂直方向の間隔を均等に設定できます。</MakeVerticalSpacingEqual>
+    <MakeHorizontalSpacingEqual>左右の間隔を均等にします。</MakeHorizontalSpacingEqual>
+    <MakeVerticalSpacingEqual>上下の間隔を均等にします。</MakeVerticalSpacingEqual>
     <Margins>ページの余白を選択します。</Margins>
     <menuCheckIssues>レポートを確認して、エラーや警告を見つけ、推奨事項を入手してください。</menuCheckIssues>
     <menuDesignerOptions>レポートデザイナーのオプションを設定します。</menuDesignerOptions>
@@ -2276,28 +2276,28 @@
     <MoveForward>1つ前面へ移動します。</MoveForward>
     <NotPossibleEnableCompilationMode>このレポートに対してコンパイルモードを有効にすることはできません。「デザイナー設定」の「コンパイルアクセス」オプションによって禁止されています。</NotPossibleEnableCompilationMode>
     <Orientation>縦向きと横向きを切り替えます。</Orientation>
-    <PageDelete>レポートから現在のページを削除します。</PageDelete>
+    <PageDelete>現在のページを削除します。</PageDelete>
     <PageNew>新規ページを作成します。</PageNew>
     <PageSetup>ページ設定を変更します。</PageSetup>
     <PageSize>用紙サイズを選択します。</PageSize>
-    <PagesManager>ページマネージャを実行します。</PagesManager>
+    <PagesManager>ページマネージャーを開きます。</PagesManager>
     <PressF1>F1を押して詳細を表示</PressF1>
     <PropertiesButton>レポートのプロパティを表示します。</PropertiesButton>
-    <Redo>以前にキャンセルされたレポートの変更をやり直します。</Redo>
+    <Redo>取り消した変更をやり直します。</Redo>
     <RemoveMobileSurfaceButton>モバイルサーフェスを削除します。</RemoveMobileSurfaceButton>
     <ReportNew>新規レポートを作成します。</ReportNew>
-    <ReportOpen>デザイナーでレポートを開きます。</ReportOpen>
-    <ReportPreview>ビューアで編集したレポートをプレビューします。</ReportPreview>
-    <ReportSave>現在編集されているレポートを保存します。</ReportSave>
+    <ReportOpen>レポートを開きます。</ReportOpen>
+    <ReportPreview>レポートをプレビューします。</ReportPreview>
+    <ReportSave>レポートを保存します。</ReportSave>
     <ScreenNew>新しい画面を作成します。</ScreenNew>
     <ScriptEvalAccess1>このドキュメントは Script Eval を使用しています。信頼できるソースのドキュメントであれば、「開く」ボタンをクリックしてアクセスできます。</ScriptEvalAccess1>
     <ScriptEvalAccess2>ソースが不明な場合でも閲覧したい場合は、「セーフモードで開く」をクリックできます。この場合、Script Eval は無視され実行されません。</ScriptEvalAccess2>
     <ScriptSecurityFullAccess>完全なスクリプトアクセス（制限なし。安全でない可能性があります）。</ScriptSecurityFullAccess>
     <ScriptSecuritySafeMode>安全なスクリプトアクセス（セキュリティのため機能が制限されます）。</ScriptSecuritySafeMode>
-    <SelectAll>現在のページのすべての部品を選択します。</SelectAll>
+    <SelectAll>ページの部品をすべて選択します。</SelectAll>
     <SelectUILanguage>UI言語を選択します。</SelectUILanguage>
     <SendToBack>最背面へ移動します。</SendToBack>
-    <ServicesConfigurator>サービスコンフィグレータを実行します。</ServicesConfigurator>
+    <ServicesConfigurator>サービスコンフィギュレータを開きます。</ServicesConfigurator>
     <Shadow>影を表示または非表示にします。</Shadow>
     <ShowBehind>部品の後ろに透かしテキストを表示します。</ShowBehind>
     <ShowImageBehind>ページ上のすべての部品の後ろにウォーターマークイメージを置きます。</ShowImageBehind>
@@ -2310,13 +2310,13 @@
     <TextBrushWatermark>透かしのテキストの色を変更</TextBrushWatermark>
     <TextColor>テキストの色を変更します。</TextColor>
     <TextFormat>値の形式を選択します。</TextFormat>
-    <ToolbarStyle>選択したすべての部品に選択したスタイルを設定</ToolbarStyle>
-    <Undo>レポートの最新の変更を取り消す</Undo>
+    <ToolbarStyle>選択した部品にスタイルを適用します。</ToolbarStyle>
+    <Undo>最新の変更を元に戻します。</Undo>
     <ViewModeDesktopButton>デスクトップサーフェスを表示します。</ViewModeDesktopButton>
     <ViewModeMobileButton>モバイルサーフェスを表示します。</ViewModeMobileButton>
     <Watermark>透かしの設定を変更します。</Watermark>
     <WordWrap>テキストを折り返します。</WordWrap>
-    <Zoom>レポートのズームレベルを指定</Zoom>
+    <Zoom>ズームレベルを指定します。</Zoom>
   </HelpDesigner>
   <HelpDialogs>
     <StiButtonControl>クリック時にアクションを実行します。</StiButtonControl>

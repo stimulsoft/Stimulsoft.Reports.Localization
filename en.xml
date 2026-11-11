@@ -2151,12 +2151,12 @@
     <Align>Align the selected components.</Align>
     <AlignBottom>Align the contents to the bottom.</AlignBottom>
     <AlignCenter>Align the contents to the center.</AlignCenter>
-    <AlignComponentBottom>Allows you to align objects horizontally along the bottom edge of selected components.</AlignComponentBottom>
-    <AlignComponentCenter>Allows you to align objects horizontally along the center edge of selected components.</AlignComponentCenter>
-    <AlignComponentLeft>Allows you to align objects vertically along the left edge of selected components.</AlignComponentLeft>
-    <AlignComponentMiddle>Allows you to align objects vertically along the center edge of selected components.</AlignComponentMiddle>
-    <AlignComponentRight>Allows you to align objects vertically along the right edge of selected components.</AlignComponentRight>
-    <AlignComponentTop>Allows you to align objects horizontally along the top edge of selected components.</AlignComponentTop>
+    <AlignComponentBottom>Align the components by the bottom edge.</AlignComponentBottom>
+    <AlignComponentCenter>Align the components by the center.</AlignComponentCenter>
+    <AlignComponentLeft>Align the components by the left edge.</AlignComponentLeft>
+    <AlignComponentMiddle>Align the components by the middle.</AlignComponentMiddle>
+    <AlignComponentRight>Align the components by the right edge.</AlignComponentRight>
+    <AlignComponentTop>Align the components by the top edge.</AlignComponentTop>
     <AlignLeft>Align the contents to the left.</AlignLeft>
     <AlignMiddle>Align the contents to the middle.</AlignMiddle>
     <AlignRight>Align the contents to the right.</AlignRight>
@@ -2176,8 +2176,8 @@
     <BorderSidesTop>Show or hide the top border.</BorderSidesTop>
     <BorderStyle>Change the border style.</BorderStyle>
     <BringToFront>Bring to the front.</BringToFront>
-    <CenterHorizontally>Allows you to align a component horizontally relative to the edges of the container in which it is placed.</CenterHorizontally>
-    <CenterVertically>Allows you to align a component vertically relative to the edges of the container in which it is placed.</CenterVertically>
+    <CenterHorizontally>Center horizontally in the container.</CenterHorizontally>
+    <CenterVertically>Center vertically in the container.</CenterVertically>
     <Close>Close the Report Designer.</Close>
     <Columns>Split the page into columns.</Columns>
     <CompilationAccess1>This document uses the compilation process. If the document is from a trusted source, you can click the "Open" button to access it.</CompilationAccess1>
@@ -2196,15 +2196,15 @@
     <CopyToClipboard>Copy to Clipboard</CopyToClipboard>
     <CurrencySymbol>Select the currency symbol.</CurrencySymbol>
     <DashboardNew>Create a new dashboard.</DashboardNew>
-    <DataStore>Show data registered in a report.</DataStore>
+    <DataStore>Show the data registered in the report.</DataStore>
     <DateTimeFormat>Select the date and time format.</DateTimeFormat>
     <DockingPanels>Show or hide the panels.</DockingPanels>
-    <DockStyleBottom>Dock selected components to the bottom side.</DockStyleBottom>
-    <DockStyleFill>Dock selected components to all sides.</DockStyleFill>
-    <DockStyleLeft>Dock selected components to the left side.</DockStyleLeft>
-    <DockStyleNone>Undock selected components.</DockStyleNone>
-    <DockStyleRight>Dock selected components to the right side.</DockStyleRight>
-    <DockStyleTop>Dock selected components to the top side.</DockStyleTop>
+    <DockStyleBottom>Dock to the bottom side.</DockStyleBottom>
+    <DockStyleFill>Dock to all sides.</DockStyleFill>
+    <DockStyleLeft>Dock to the left side.</DockStyleLeft>
+    <DockStyleNone>Undock the components.</DockStyleNone>
+    <DockStyleRight>Dock to the right side.</DockStyleRight>
+    <DockStyleTop>Dock to the top side.</DockStyleTop>
     <EventsAccess1>This document uses Events. If the document is from a trusted source, you can click the "Open" button to access it.</EventsAccess1>
     <EventsAccess2>If you're unsure about the document's source but still want to view it, you can click the "Open in safe mode" button. In this case, events will be ignored and not executed.</EventsAccess2>
     <FontGrow>Make the text larger.</FontGrow>
@@ -2220,14 +2220,14 @@
     <FontStyleStrikeout>Strike through the text.</FontStyleStrikeout>
     <FontStyleUnderline>Underline the text.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Make the watermark text underlined.</FontStyleUnderlineWatermark>
-    <FormatBoolean>This format is used to format values of the boolean type.</FormatBoolean>
-    <FormatCurrency>Display a value as currency. It allows you to display a number with the default currency symbol.</FormatCurrency>
-    <FormatCustom>This type is used to show values according to custom requirements. This type allows data formatting in the Format Mask.</FormatCustom>
-    <FormatDate>Display a value as date. The date format is based on the regional date settings.</FormatDate>
-    <FormatGeneral>Display a value without specific format.</FormatGeneral>
-    <FormatNumber>It is used for general display of numbers.</FormatNumber>
-    <FormatPercentage>Display a value as percentage. Numbers are multiplied by 100 to convert them to percentages.</FormatPercentage>
-    <FormatTime>Display a value as time. The time format is based on the regional time settings.</FormatTime>
+    <FormatBoolean>Format a value of the boolean type.</FormatBoolean>
+    <FormatCurrency>Show a value as currency.</FormatCurrency>
+    <FormatCustom>Show a value by a custom format mask.</FormatCustom>
+    <FormatDate>Show a value as a date.</FormatDate>
+    <FormatGeneral>Show a value without a specific format.</FormatGeneral>
+    <FormatNumber>Show a value as a number.</FormatNumber>
+    <FormatPercentage>Show a value as a percentage.</FormatPercentage>
+    <FormatTime>Show a value as time.</FormatTime>
     <FormNew>Create a new dialog form.</FormNew>
     <GridMode>Show the grid as lines or dots.</GridMode>
     <ImageAlignment>Put a watermark image on a page.</ImageAlignment>
@@ -2238,8 +2238,8 @@
     <LoadImage>Load watermark images from the file.</LoadImage>
     <Lock>Lock the position and size.</Lock>
     <MainMenu>Create, open or save a report.</MainMenu>
-    <MakeHorizontalSpacingEqual>Allows you to set equal horizontal spacing between selected components.</MakeHorizontalSpacingEqual>
-    <MakeVerticalSpacingEqual>Allows you to set equal vertical spacing between selected components.</MakeVerticalSpacingEqual>
+    <MakeHorizontalSpacingEqual>Make the horizontal spacing equal.</MakeHorizontalSpacingEqual>
+    <MakeVerticalSpacingEqual>Make the vertical spacing equal.</MakeVerticalSpacingEqual>
     <Margins>Select the page margins.</Margins>
     <menuCheckIssues>Check to find errors, warnings and get recommendations.</menuCheckIssues>
     <menuDesignerOptions>Setup report designer options.</menuDesignerOptions>
@@ -2275,28 +2275,28 @@
     <MoveForward>Move one level forward.</MoveForward>
     <NotPossibleEnableCompilationMode>It is impossible to enable compilation mode for the report. This is prohibited by the 'Compilation Access' option in the designer settings.</NotPossibleEnableCompilationMode>
     <Orientation>Switch between portrait and landscape.</Orientation>
-    <PageDelete>Delete current page from a report.</PageDelete>
+    <PageDelete>Delete the current page.</PageDelete>
     <PageNew>Create a new page.</PageNew>
     <PageSetup>Change the page settings.</PageSetup>
     <PageSize>Select the paper size.</PageSize>
-    <PagesManager>Run the Pages Manager.</PagesManager>
+    <PagesManager>Open the Pages Manager.</PagesManager>
     <PressF1>Press F1 for More Details</PressF1>
     <PropertiesButton>Show the report properties.</PropertiesButton>
-    <Redo>Redo the previously canceled change in a report.</Redo>
+    <Redo>Redo the canceled change.</Redo>
     <RemoveMobileSurfaceButton>Remove the mobile surface.</RemoveMobileSurfaceButton>
     <ReportNew>Create a new report.</ReportNew>
-    <ReportOpen>Open a report in the designer.</ReportOpen>
-    <ReportPreview>Preview an edited report in the viewer.</ReportPreview>
-    <ReportSave>Save currently edited report.</ReportSave>
+    <ReportOpen>Open a report.</ReportOpen>
+    <ReportPreview>Preview the report.</ReportPreview>
+    <ReportSave>Save the report.</ReportSave>
     <ScreenNew>Create a new screen.</ScreenNew>
     <ScriptEvalAccess1>This document uses Script Eval. If the document is from a trusted source, you can click the "Open" button to access it.</ScriptEvalAccess1>
     <ScriptEvalAccess2>If you're unsure about the document's source but still want to view it, you can click the "Open in safe mode" button. In this case, Script Eval will be ignored and not executed.</ScriptEvalAccess2>
     <ScriptSecurityFullAccess>Full script access (no restrictions, potentially unsafe).</ScriptSecurityFullAccess>
     <ScriptSecuritySafeMode>Safe script access (restricted capabilities for security).</ScriptSecuritySafeMode>
-    <SelectAll>Select all components on the current page.</SelectAll>
+    <SelectAll>Select all components on the page.</SelectAll>
     <SelectUILanguage>Select the UI language.</SelectUILanguage>
     <SendToBack>Send to the back.</SendToBack>
-    <ServicesConfigurator>Run the Services Configurator.</ServicesConfigurator>
+    <ServicesConfigurator>Open the Services Configurator.</ServicesConfigurator>
     <Shadow>Show or hide the shadow.</Shadow>
     <ShowBehind>Show the watermark text behind the components.</ShowBehind>
     <ShowImageBehind>Put the watermark image behind all components on a page.</ShowImageBehind>
@@ -2309,13 +2309,13 @@
     <TextBrushWatermark>Change the text color of the watermark.</TextBrushWatermark>
     <TextColor>Change the text color.</TextColor>
     <TextFormat>Select the format of values.</TextFormat>
-    <ToolbarStyle>Set selected style to all selected components.</ToolbarStyle>
-    <Undo>Undo the latest change in a report.</Undo>
+    <ToolbarStyle>Apply a style to the selected components.</ToolbarStyle>
+    <Undo>Undo the latest change.</Undo>
     <ViewModeDesktopButton>Show the desktop surface.</ViewModeDesktopButton>
     <ViewModeMobileButton>Show the mobile surface.</ViewModeMobileButton>
     <Watermark>Change the watermark settings.</Watermark>
     <WordWrap>Wrap the text.</WordWrap>
-    <Zoom>Specify the zoom level of the report.</Zoom>
+    <Zoom>Specify the zoom level.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
     <StiButtonControl>Runs an action on a click.</StiButtonControl>

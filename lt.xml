@@ -903,6 +903,12 @@
     <Align>Lygiuoti pasirinktus komponentus.</Align>
     <AlignBottom>Lygiuoti turinį pagal apačią.</AlignBottom>
     <AlignCenter>Lygiuoti turinį pagal centrą.</AlignCenter>
+    <AlignComponentBottom>Lygiuoti komponentus pagal apačią.</AlignComponentBottom>
+    <AlignComponentCenter>Lygiuoti komponentus pagal centrą.</AlignComponentCenter>
+    <AlignComponentLeft>Lygiuoti komponentus pagal kairę pusę.</AlignComponentLeft>
+    <AlignComponentMiddle>Lygiuoti komponentus pagal vidurį.</AlignComponentMiddle>
+    <AlignComponentRight>Lygiuoti komponentus pagal dešinę pusę.</AlignComponentRight>
+    <AlignComponentTop>Lygiuoti komponentus pagal viršų.</AlignComponentTop>
     <AlignLeft>Lygiuoti turinį pagal kairę pusę.</AlignLeft>
     <AlignMiddle>Lygiuoti turinį pagal vidurį.</AlignMiddle>
     <AlignRight>Lygiuoti turinį pagal dešinę pusę.</AlignRight>
@@ -921,6 +927,8 @@
     <BorderSidesTop>Rodyti arba slėpti viršutinį kraštą.</BorderSidesTop>
     <BorderStyle>Keisti kraštų stilių.</BorderStyle>
     <BringToFront>Perkelti į priekį.</BringToFront>
+    <CenterHorizontally>Centruoti horizontaliai konteineryje.</CenterHorizontally>
+    <CenterVertically>Centruoti vertikaliai konteineryje.</CenterVertically>
     <Columns>Padalyti lapą į stulpelius.</Columns>
     <CompilationAccess1>Šis dokumentas naudoja kompiliavimo procesą. Jei dokumentas gautas iš patikimo šaltinio, galite spustelėti mygtuką „Atidaryti“, kad jį atidarytumėte.</CompilationAccess1>
     <CompilationAccess2>Jei nesate tikri dėl dokumento šaltinio, bet vis tiek norite jį peržiūrėti, galite spustelėti mygtuką „Atidaryti saugiuoju režimu“. Tokiu atveju vietoj kompiliavimo bus naudojamas interpretavimas, todėl dokumentą galėsite vykdyti saugiai.</CompilationAccess2>
@@ -932,8 +940,16 @@
     <CopyStyle>Kopijuoti stilių kitiems komponentams.</CopyStyle>
     <CopyToClipboard>Copia negli appunti</CopyToClipboard>
     <CurrencySymbol>Pasirinkti valiutos simbolį.</CurrencySymbol>
+    <DashboardNew>Sukurti naują informacinį skydelį.</DashboardNew>
+    <DataStore>Rodyti ataskaitoje registruotus duomenis.</DataStore>
     <DateTimeFormat>Pasirinkti datos ir laiko formatą.</DateTimeFormat>
     <DockingPanels>Rodyti arba slėpti paneles.</DockingPanels>
+    <DockStyleBottom>Švartuoti prie apačios.</DockStyleBottom>
+    <DockStyleFill>Švartuoti prie visų pusių.</DockStyleFill>
+    <DockStyleLeft>Švartuoti prie kairės pusės.</DockStyleLeft>
+    <DockStyleNone>Atšvartuoti komponentus.</DockStyleNone>
+    <DockStyleRight>Švartuoti prie dešinės pusės.</DockStyleRight>
+    <DockStyleTop>Švartuoti prie viršaus.</DockStyleTop>
     <FontGrow>Padidinti tekstą.</FontGrow>
     <FontName>Keisti teksto šriftą.</FontName>
     <FontShrink>Sumažinti tekstą.</FontShrink>
@@ -942,12 +958,23 @@
     <FontStyleItalic>Paversti tekstą kursyvu.</FontStyleItalic>
     <FontStyleStrikeout>Perbraukti tekstą.</FontStyleStrikeout>
     <FontStyleUnderline>Pabraukti tekstą.</FontStyleUnderline>
+    <FormatBoolean>Formatuoti loginio tipo reikšmę.</FormatBoolean>
+    <FormatCurrency>Rodyti reikšmę kaip valiutą.</FormatCurrency>
+    <FormatCustom>Rodyti reikšmę pagal savo formato šabloną.</FormatCustom>
+    <FormatDate>Rodyti reikšmę kaip datą.</FormatDate>
+    <FormatGeneral>Rodyti reikšmę be konkretaus formato.</FormatGeneral>
+    <FormatNumber>Rodyti reikšmę kaip skaičių.</FormatNumber>
+    <FormatPercentage>Rodyti reikšmę kaip procentus.</FormatPercentage>
+    <FormatTime>Rodyti reikšmę kaip laiką.</FormatTime>
+    <FormNew>Sukurti naują dialogo formą.</FormNew>
     <GridMode>Rodyti tinklelį linijomis arba taškais.</GridMode>
     <Interaction>Nustatyti sąveiką.</Interaction>
     <LineSpacing>Keisti tarpą tarp eilučių.</LineSpacing>
     <Link>Susieti su konteineriu.</Link>
     <Lock>Užrakinti padėtį ir dydį.</Lock>
     <MainMenu>Kurti, atidaryti arba išsaugoti ataskaitą.</MainMenu>
+    <MakeHorizontalSpacingEqual>Sulyginti horizontalius tarpus.</MakeHorizontalSpacingEqual>
+    <MakeVerticalSpacingEqual>Sulyginti vertikalius tarpus.</MakeVerticalSpacingEqual>
     <Margins>Pasirinkti lapo paraštes.</Margins>
     <menuCheckIssues>Controlla nel report per trovare errori, avvertimenti e suggerimenti.</menuCheckIssues>
     <menuDesignerOptions>Imposta opzioni del report designer.</menuDesignerOptions>
@@ -979,20 +1006,33 @@
     <MoveBackward>Perkelti vienu lygiu atgal.</MoveBackward>
     <MoveForward>Perkelti vienu lygiu pirmyn.</MoveForward>
     <Orientation>Perjungti portretinę ir gulsčią orientaciją.</Orientation>
+    <PageDelete>Ištrinti dabartinį lapą.</PageDelete>
+    <PageNew>Sukurti naują lapą.</PageNew>
     <PageSetup>Keisti lapo nustatymus.</PageSetup>
     <PageSize>Pasirinkti popieriaus dydį.</PageSize>
+    <PagesManager>Atidaryti puslapių redaktorių.</PagesManager>
     <PropertiesButton>Rodyti ataskaitos savybes.</PropertiesButton>
+    <Redo>Pakartoti atšauktą pakeitimą.</Redo>
     <RemoveMobileSurfaceButton>Pašalinti mobilųjį paviršių.</RemoveMobileSurfaceButton>
+    <ReportNew>Sukurti naują ataskaitą.</ReportNew>
+    <ReportOpen>Atidaryti ataskaitą.</ReportOpen>
+    <ReportPreview>Peržiūrėti ataskaitą.</ReportPreview>
+    <ReportSave>Išsaugoti ataskaitą.</ReportSave>
     <ScreenNew>Sukurti naują ekraną.</ScreenNew>
+    <SelectAll>Pasirinkti visus lapo komponentus.</SelectAll>
     <SendToBack>Perkelti į galą.</SendToBack>
+    <ServicesConfigurator>Atidaryti servisų konfigūravimą.</ServicesConfigurator>
     <Shadow>Rodyti arba slėpti šešėlį.</Shadow>
     <StyleDesigner>Atidaryti stilių redaktorių.</StyleDesigner>
     <TextColor>Keisti teksto spalvą.</TextColor>
     <TextFormat>Pasirinkti reikšmių formatą.</TextFormat>
+    <ToolbarStyle>Taikyti stilių pasirinktiems komponentams.</ToolbarStyle>
+    <Undo>Atšaukti paskutinį pakeitimą.</Undo>
     <ViewModeDesktopButton>Rodyti darbalaukio paviršių.</ViewModeDesktopButton>
     <ViewModeMobileButton>Rodyti mobilųjį paviršių.</ViewModeMobileButton>
     <Watermark>Keisti vandenženklio nustatymus.</Watermark>
     <WordWrap>Kelti tekstą į kitą eilutę.</WordWrap>
+    <Zoom>Nurodyti priartinimo lygį.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
     <StiButtonControl>Spustelėjus vykdo veiksmą.</StiButtonControl>

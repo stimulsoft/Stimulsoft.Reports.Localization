@@ -2150,12 +2150,12 @@
     <Align>Justera markerade komponenter.</Align>
     <AlignBottom>Justera innehållet mot nederkanten.</AlignBottom>
     <AlignCenter>Centrera innehållet.</AlignCenter>
-    <AlignComponentBottom>Tillåter att justera objekt horisontellt mot nederkant för valda komponenter.</AlignComponentBottom>
-    <AlignComponentCenter>Tillåter att justera objekt horisontellt centrerat för valda komponenter.</AlignComponentCenter>
-    <AlignComponentLeft>Tillåter att justera objekt vertikalt mot vänsterkant för valda komponenter.</AlignComponentLeft>
-    <AlignComponentMiddle>Tillåter att justera objekt vertikalt centrerat för valda komponenter.</AlignComponentMiddle>
-    <AlignComponentRight>Tillåter att justera objekt vertikalt mot högerkant för valda komponenter.</AlignComponentRight>
-    <AlignComponentTop>Tillåter att justera objekt horisontellt mot överkant för valda komponenter.</AlignComponentTop>
+    <AlignComponentBottom>Justera komponenterna mot nederkanten.</AlignComponentBottom>
+    <AlignComponentCenter>Centrera komponenterna.</AlignComponentCenter>
+    <AlignComponentLeft>Justera komponenterna mot vänsterkanten.</AlignComponentLeft>
+    <AlignComponentMiddle>Justera komponenterna mot mitten.</AlignComponentMiddle>
+    <AlignComponentRight>Justera komponenterna mot högerkanten.</AlignComponentRight>
+    <AlignComponentTop>Justera komponenterna mot överkanten.</AlignComponentTop>
     <AlignLeft>Justera innehållet åt vänster.</AlignLeft>
     <AlignMiddle>Justera innehållet mot mitten.</AlignMiddle>
     <AlignRight>Justera innehållet åt höger.</AlignRight>
@@ -2175,8 +2175,8 @@
     <BorderSidesTop>Visa eller dölj övre ramsidan.</BorderSidesTop>
     <BorderStyle>Ändra ramstilen.</BorderStyle>
     <BringToFront>Placera längst fram.</BringToFront>
-    <CenterHorizontally>Tillåter att justera komponenter horisontellt relativt kontainerns kanter.</CenterHorizontally>
-    <CenterVertically>Tillåter att justera komponenter vertikalt relativt kontainerns kanter.</CenterVertically>
+    <CenterHorizontally>Centrera horisontellt i kontainern.</CenterHorizontally>
+    <CenterVertically>Centrera vertikalt i kontainern.</CenterVertically>
     <Close>Stäng Report Designer.</Close>
     <Columns>Dela upp sidan i kolumner.</Columns>
     <CompilationAccess1>Det här dokumentet använder kompileringsprocessen. Om dokumentet kommer från en betrodd källa kan du klicka på knappen "Öppna" för att komma åt det.</CompilationAccess1>
@@ -2195,15 +2195,15 @@
     <CopyToClipboard>Kopiera till klippbord</CopyToClipboard>
     <CurrencySymbol>Välj valutasymbol.</CurrencySymbol>
     <DashboardNew>Skapa en ny dashboard.</DashboardNew>
-    <DataStore>Visa data registrerad i en rapport.</DataStore>
+    <DataStore>Visa data som registrerats i rapporten.</DataStore>
     <DateTimeFormat>Välj datum- och tidsformat.</DateTimeFormat>
     <DockingPanels>Visa eller dölj panelerna.</DockingPanels>
-    <DockStyleBottom>Fäst valda komponenter mot nederkanten.</DockStyleBottom>
-    <DockStyleFill>Fäst valda komponenter mot alla kanter.</DockStyleFill>
-    <DockStyleLeft>Fäst valda komponenter mot vänsterkanten.</DockStyleLeft>
-    <DockStyleNone>Koppla loss valda komponenter.</DockStyleNone>
-    <DockStyleRight>Fäst valda komponenter mot högerkanten.</DockStyleRight>
-    <DockStyleTop>Fäst valda komponenter mot överkanten.</DockStyleTop>
+    <DockStyleBottom>Fäst mot nederkanten.</DockStyleBottom>
+    <DockStyleFill>Fäst mot alla kanter.</DockStyleFill>
+    <DockStyleLeft>Fäst mot vänsterkanten.</DockStyleLeft>
+    <DockStyleNone>Koppla loss komponenterna.</DockStyleNone>
+    <DockStyleRight>Fäst mot högerkanten.</DockStyleRight>
+    <DockStyleTop>Fäst mot överkanten.</DockStyleTop>
     <EventsAccess1>Det här dokumentet använder Events. Om dokumentet kommer från en betrodd källa kan du klicka på knappen "Öppna" för att komma åt det.</EventsAccess1>
     <EventsAccess2>Om du är osäker på dokumentets källa men ändå vill visa det kan du klicka på knappen "Öppna i säkert läge". I detta fall ignoreras händelser och körs inte.</EventsAccess2>
     <FontGrow>Gör texten större.</FontGrow>
@@ -2219,15 +2219,15 @@
     <FontStyleStrikeout>Stryk över texten.</FontStyleStrikeout>
     <FontStyleUnderline>Stryk under texten.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Gör vattenstämpelns text understruken.</FontStyleUnderlineWatermark>
-    <FormatBoolean>Detta format används för att formatera värdet för boolean-typer.</FormatBoolean>
-    <FormatCurrency>Visa värdet som valuta. Tillåter att visa en siffra med standardvalutan.</FormatCurrency>
-    <FormatCustom>Denna typ används för att visa värden enligt specialdefinition. Denna typ tillåter dataformatering med maskning.</FormatCustom>
-    <FormatDate>Vis värde som datum. Formatet baseras på lokala datuminställningar.</FormatDate>
-    <FormatGeneral>Visa värde utan formatering.</FormatGeneral>
-    <FormatNumber>Det används för generell visning av siffror.</FormatNumber>
-    <FormatPercentage>Visa ett värde som procenttal. Värdet är multiplicerat med 100 för att konvertera till procenttal.</FormatPercentage>
-    <FormatTime>Visa värdet som tid. Tidsformatet baseras på lokala tidsinställningar.</FormatTime>
-    <FormNew>Skapa nytt dialogformulär.</FormNew>
+    <FormatBoolean>Formatera ett värde av typen Boolean.</FormatBoolean>
+    <FormatCurrency>Visa ett värde som valuta.</FormatCurrency>
+    <FormatCustom>Visa ett värde med valfri formatmask.</FormatCustom>
+    <FormatDate>Visa ett värde som datum.</FormatDate>
+    <FormatGeneral>Visa ett värde utan särskilt format.</FormatGeneral>
+    <FormatNumber>Visa ett värde som tal.</FormatNumber>
+    <FormatPercentage>Visa ett värde som procent.</FormatPercentage>
+    <FormatTime>Visa ett värde som tid.</FormatTime>
+    <FormNew>Skapa ett nytt dialogformulär.</FormNew>
     <GridMode>Visa stödlinjerna som linjer eller punkter.</GridMode>
     <ImageAlignment>Visa vattenstämpel på sida.</ImageAlignment>
     <ImageTransparency>Ändra vattenstämpelns genomskinlighet.</ImageTransparency>
@@ -2237,8 +2237,8 @@
     <LoadImage>Läs in fil med vattenstämpel.</LoadImage>
     <Lock>Lås position och storlek.</Lock>
     <MainMenu>Skapa, öppna eller spara en rapport.</MainMenu>
-    <MakeHorizontalSpacingEqual>Tillåter horisontell fördelning mellan valda komponenter.</MakeHorizontalSpacingEqual>
-    <MakeVerticalSpacingEqual>Tillåter vertikal fördelning mellan valda komponenter.</MakeVerticalSpacingEqual>
+    <MakeHorizontalSpacingEqual>Gör det horisontella avståndet lika.</MakeHorizontalSpacingEqual>
+    <MakeVerticalSpacingEqual>Gör det vertikala avståndet lika.</MakeVerticalSpacingEqual>
     <Margins>Välj sidmarginaler.</Margins>
     <menuCheckIssues>Kontrollera rapport för att hitta fel, varningar och rekommendationer.</menuCheckIssues>
     <menuDesignerOptions>Välj inställningar för rapportdesigner.</menuDesignerOptions>
@@ -2274,28 +2274,28 @@
     <MoveForward>Flytta en nivå framåt.</MoveForward>
     <NotPossibleEnableCompilationMode>Det går inte att aktivera kompileringsläge för rapporten. Detta är förbjudet av alternativet Compilation Access i designerinställningarna.</NotPossibleEnableCompilationMode>
     <Orientation>Växla mellan stående och liggande.</Orientation>
-    <PageDelete>Radera sidan från rapporten.</PageDelete>
-    <PageNew>Skapa ny sida.</PageNew>
+    <PageDelete>Radera den aktuella sidan.</PageDelete>
+    <PageNew>Skapa en ny sida.</PageNew>
     <PageSetup>Ändra sidinställningarna.</PageSetup>
     <PageSize>Välj pappersformat.</PageSize>
-    <PagesManager>Starta Pages Manager.</PagesManager>
+    <PagesManager>Öppna Redigera sidor.</PagesManager>
     <PressF1>Tryck F1 för detaljer</PressF1>
     <PropertiesButton>Visa rapportens egenskaper.</PropertiesButton>
-    <Redo>Gör om tidigare ångrad ändring i rapporten.</Redo>
+    <Redo>Gör om den ångrade ändringen.</Redo>
     <RemoveMobileSurfaceButton>Ta bort den mobila ytan.</RemoveMobileSurfaceButton>
-    <ReportNew>Skapa ny rapport.</ReportNew>
-    <ReportOpen>Öppna rapport i Designer.</ReportOpen>
-    <ReportPreview>Förhandsvisa redigerad rapport i Viewer.</ReportPreview>
-    <ReportSave>Spara nuvarande redigerad rapport.</ReportSave>
+    <ReportNew>Skapa en ny rapport.</ReportNew>
+    <ReportOpen>Öppna en rapport.</ReportOpen>
+    <ReportPreview>Förhandsgranska rapporten.</ReportPreview>
+    <ReportSave>Spara rapporten.</ReportSave>
     <ScreenNew>Skapa en ny skärm.</ScreenNew>
     <ScriptEvalAccess1>Det här dokumentet använder Script Eval. Om dokumentet kommer från en betrodd källa kan du klicka på knappen "Öppna" för att komma åt det.</ScriptEvalAccess1>
     <ScriptEvalAccess2>Om du är osäker på dokumentets källa men ändå vill visa det kan du klicka på knappen "Öppna i säkert läge". I detta fall ignoreras Script Eval och körs inte.</ScriptEvalAccess2>
     <ScriptSecurityFullAccess>Fullständig skriptåtkomst (inga begränsningar, potentiellt osäkert).</ScriptSecurityFullAccess>
     <ScriptSecuritySafeMode>Säker skriptåtkomst (begränsade funktioner av säkerhetsskäl).</ScriptSecuritySafeMode>
-    <SelectAll>Välj alla komponenter på den aktuella sidan.</SelectAll>
+    <SelectAll>Markera alla komponenter på sidan.</SelectAll>
     <SelectUILanguage>Välj språk i GUI.</SelectUILanguage>
     <SendToBack>Placera längst bak.</SendToBack>
-    <ServicesConfigurator>Kör Services Configurator.</ServicesConfigurator>
+    <ServicesConfigurator>Öppna Tjänstekonfiguratorn.</ServicesConfigurator>
     <Shadow>Visa eller dölj skuggan.</Shadow>
     <ShowBehind>Visa vattenstämpelns text bakom komponenten.</ShowBehind>
     <ShowImageBehind>Lägg vattenstämpelns bild bakom alla komponenter på sidan.</ShowImageBehind>
@@ -2308,13 +2308,13 @@
     <TextBrushWatermark>Ändra vattenstämpelns färg.</TextBrushWatermark>
     <TextColor>Ändra textens färg.</TextColor>
     <TextFormat>Välj format för värden.</TextFormat>
-    <ToolbarStyle>Sätt vald stil för alla markerade komponenter.</ToolbarStyle>
-    <Undo>Ångra senaste ändringen i rapporten.</Undo>
+    <ToolbarStyle>Använd en stil på markerade komponenter.</ToolbarStyle>
+    <Undo>Ångra den senaste ändringen.</Undo>
     <ViewModeDesktopButton>Visa skrivbordsytan.</ViewModeDesktopButton>
     <ViewModeMobileButton>Visa den mobila ytan.</ViewModeMobileButton>
     <Watermark>Ändra vattenmärkets inställningar.</Watermark>
     <WordWrap>Radbryt texten.</WordWrap>
-    <Zoom>Ange zoomnivå för rapporten.</Zoom>
+    <Zoom>Ange zoomnivån.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
     <StiButtonControl>Kör en åtgärd vid klick.</StiButtonControl>

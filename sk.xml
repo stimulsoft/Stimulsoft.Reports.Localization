@@ -2156,12 +2156,12 @@
     <Align>Zarovnať vybrané komponenty.</Align>
     <AlignBottom>Zarovnať obsah nadol.</AlignBottom>
     <AlignCenter>Zarovnať obsah na stred.</AlignCenter>
-    <AlignComponentBottom>Umožňuje zarovnať objekty horizontálne pozdĺž spodného okraja vybraných prvkov.</AlignComponentBottom>
-    <AlignComponentCenter>Umožňuje zarovnať objekty horizontálne v strede vybraných prvkov.</AlignComponentCenter>
-    <AlignComponentLeft>Umožňuje zarovnať objekty vertikálne pozdĺž ľavého okraja vybraných prvkov.</AlignComponentLeft>
-    <AlignComponentMiddle>Umožňuje zarovnať objekty vertikálne pozdĺž stredu vybraných prvkov.</AlignComponentMiddle>
-    <AlignComponentRight>Umožňuje zarovnať objekty vertikálne pozdĺž pravého okraja vybraných prvkov.</AlignComponentRight>
-    <AlignComponentTop>Umožňuje zarovnať objekty horizontálne pozdĺž vrchného okraja vybraných prvkov.</AlignComponentTop>
+    <AlignComponentBottom>Zarovnať komponenty k dolnému okraju.</AlignComponentBottom>
+    <AlignComponentCenter>Zarovnať komponenty na stred.</AlignComponentCenter>
+    <AlignComponentLeft>Zarovnať komponenty k ľavému okraju.</AlignComponentLeft>
+    <AlignComponentMiddle>Zarovnať komponenty zvislo na stred.</AlignComponentMiddle>
+    <AlignComponentRight>Zarovnať komponenty k pravému okraju.</AlignComponentRight>
+    <AlignComponentTop>Zarovnať komponenty k hornému okraju.</AlignComponentTop>
     <AlignLeft>Zarovnať obsah doľava.</AlignLeft>
     <AlignMiddle>Zarovnať obsah zvislo na stred.</AlignMiddle>
     <AlignRight>Zarovnať obsah doprava.</AlignRight>
@@ -2181,8 +2181,8 @@
     <BorderSidesTop>Zobraziť alebo skryť vrchný okraj.</BorderSidesTop>
     <BorderStyle>Zmeniť štýl okraja.</BorderStyle>
     <BringToFront>Presunúť do popredia.</BringToFront>
-    <CenterHorizontally>Umožňuje zarovnať prvok horizontálne, relatívne k okraju kontajnera, kde je umiestnený.</CenterHorizontally>
-    <CenterVertically>Umožňuje zarovnať prvok vertikálne, relatívne k okraju kontajnera, kde je umiestnený.</CenterVertically>
+    <CenterHorizontally>Vycentrovať vodorovne v kontajneri.</CenterHorizontally>
+    <CenterVertically>Vycentrovať zvislo v kontajneri.</CenterVertically>
     <Close>Zatvoriť Dizajnér.</Close>
     <Columns>Rozdeliť stránku do stĺpcov.</Columns>
     <CompilationAccess1>Tento dokument používa proces kompilácie. Ak dokument pochádza z dôveryhodného zdroja, môžete ho otvoriť kliknutím na tlačidlo "Otvoriť".</CompilationAccess1>
@@ -2201,15 +2201,15 @@
     <CopyToClipboard>Kopírovať do schránky</CopyToClipboard>
     <CurrencySymbol>Vybrať symbol meny.</CurrencySymbol>
     <DashboardNew>Vytvoriť nový riadiaci panel.</DashboardNew>
-    <DataStore>Zobraziť údaje, registrované v zostave.</DataStore>
+    <DataStore>Zobraziť údaje registrované v zostave.</DataStore>
     <DateTimeFormat>Vybrať formát dátumu a času.</DateTimeFormat>
     <DockingPanels>Zobraziť alebo skryť panely.</DockingPanels>
-    <DockStyleBottom>Ukotviť vybrané prvky dole.</DockStyleBottom>
-    <DockStyleFill>Ukotviť vybrané prvky na všetky strany.</DockStyleFill>
-    <DockStyleLeft>Ukotviť vybrané prvky vľavo.</DockStyleLeft>
-    <DockStyleNone>Zrušiť ukotvenie vybraných prvkov.</DockStyleNone>
-    <DockStyleRight>Ukotviť vybrané prvky vpravo.</DockStyleRight>
-    <DockStyleTop>Ukotviť vybrané prvky hore.</DockStyleTop>
+    <DockStyleBottom>Ukotviť k dolnej strane.</DockStyleBottom>
+    <DockStyleFill>Ukotviť ku všetkým stranám.</DockStyleFill>
+    <DockStyleLeft>Ukotviť k ľavej strane.</DockStyleLeft>
+    <DockStyleNone>Zrušiť ukotvenie komponentov.</DockStyleNone>
+    <DockStyleRight>Ukotviť k pravej strane.</DockStyleRight>
+    <DockStyleTop>Ukotviť k hornej strane.</DockStyleTop>
     <EventsAccess1>Tento dokument používa udalosti. Ak dokument pochádza z dôveryhodného zdroja, môžete ho otvoriť kliknutím na tlačidlo "Otvoriť".</EventsAccess1>
     <EventsAccess2>Ak si nie ste istí zdrojom dokumentu, ale napriek tomu ho chcete zobraziť, môžete kliknúť na tlačidlo „Otvoriť v núdzovom režime“. V tomto prípade budú udalosti ignorované a nevykonané.</EventsAccess2>
     <FontGrow>Zväčšiť text.</FontGrow>
@@ -2225,15 +2225,15 @@
     <FontStyleStrikeout>Prečiarknuť text.</FontStyleStrikeout>
     <FontStyleUnderline>Podčiarknuť text.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Zobrazí text značky vodotlače podčiarknutým pismom.</FontStyleUnderlineWatermark>
-    <FormatBoolean>Tento formát sa používa na formátovanie hodnôt typu boolean.</FormatBoolean>
-    <FormatCurrency>Zobraziť hodnotu ako menu. Umožňuje Vám zobraziť číslo s prednastaveným symbolom meny.</FormatCurrency>
-    <FormatCustom>Tento typ je použitý na zobrazenie podľa zákaznických požiadaviek. Tento typ umožňuje formátovať dáta podľa masky.</FormatCustom>
-    <FormatDate>Zobraziť hodnotu ako dátum. Dátumový formát je založený na formáte dátumu v systémových regionálnych nastaveniach.</FormatDate>
+    <FormatBoolean>Formátovať hodnotu logického typu.</FormatBoolean>
+    <FormatCurrency>Zobraziť hodnotu ako menu.</FormatCurrency>
+    <FormatCustom>Zobraziť hodnotu podľa vlastnej masky formátu.</FormatCustom>
+    <FormatDate>Zobraziť hodnotu ako dátum.</FormatDate>
     <FormatGeneral>Zobraziť hodnotu bez špecifického formátu.</FormatGeneral>
-    <FormatNumber>Tento formát je použitý na všeobecné zobrazenie čísel.</FormatNumber>
-    <FormatPercentage>Zobraziť hodnotu v percentách. Čísla sú násobené krát 100 pre konverziu na percentá.</FormatPercentage>
-    <FormatTime>Zobraziť hodnotu ako čas. Formát času je založený na systémových regionálnych nastaveniach.</FormatTime>
-    <FormNew>Vytvoriť formulár pre nový dialóg.</FormNew>
+    <FormatNumber>Zobraziť hodnotu ako číslo.</FormatNumber>
+    <FormatPercentage>Zobraziť hodnotu v percentách.</FormatPercentage>
+    <FormatTime>Zobraziť hodnotu ako čas.</FormatTime>
+    <FormNew>Vytvoriť nový dialógový formulár.</FormNew>
     <GridMode>Zobraziť mriežku ako čiary alebo bodky.</GridMode>
     <ImageAlignment>Vlož obrázok značky vodotlače na stránku.</ImageAlignment>
     <ImageTransparency>Zmeniť priehľadnosť obrázku značky vodotlače.</ImageTransparency>
@@ -2243,8 +2243,8 @@
     <LoadImage>Nahrať obrázok značky vodotlače zo súboru.</LoadImage>
     <Lock>Zamknúť pozíciu a veľkosť.</Lock>
     <MainMenu>Vytvoriť, otvoriť alebo uložiť zostavu.</MainMenu>
-    <MakeHorizontalSpacingEqual>Umožňuje nastaviť rovnaké horizontálne vzdialenosti medzi vybranými prvkami.</MakeHorizontalSpacingEqual>
-    <MakeVerticalSpacingEqual>Umožňuje nastaviť rovnaké vertikálne vzdialenosti medzi vybranými prvkami.</MakeVerticalSpacingEqual>
+    <MakeHorizontalSpacingEqual>Nastaviť rovnaké vodorovné medzery.</MakeHorizontalSpacingEqual>
+    <MakeVerticalSpacingEqual>Nastaviť rovnaké zvislé medzery.</MakeVerticalSpacingEqual>
     <Margins>Vybrať okraje stránky.</Margins>
     <menuCheckIssues>Skontroluj zostavu na nájdenie chýb, varovaní a odporúčaní.</menuCheckIssues>
     <menuDesignerOptions>Nastav možnosti dizajnéra zostáv.</menuDesignerOptions>
@@ -2280,28 +2280,28 @@
     <MoveForward>Posunúť o jednu úroveň vpred.</MoveForward>
     <NotPossibleEnableCompilationMode>Pre zostavu nie je možné povoliť režim kompilácie. Toto zakazuje možnosť „Prístup ku kompilácii“ v nastaveniach dizajnéra.</NotPossibleEnableCompilationMode>
     <Orientation>Prepnúť medzi orientáciou na výšku a na šírku.</Orientation>
-    <PageDelete>Zmazať aktuálnu stránku zo zostavy.</PageDelete>
+    <PageDelete>Zmazať aktuálnu stránku.</PageDelete>
     <PageNew>Vytvoriť novú stránku.</PageNew>
     <PageSetup>Zmeniť nastavenia stránky.</PageSetup>
     <PageSize>Vybrať veľkosť papiera.</PageSize>
-    <PagesManager>Spustiť the Manažér stránok.</PagesManager>
+    <PagesManager>Otvoriť Správcu strán.</PagesManager>
     <PressF1>Stlač F1 pre viacej podrobností</PressF1>
     <PropertiesButton>Zobraziť vlastnosti zostavy.</PropertiesButton>
-    <Redo>Vrátiť späť predtým zrušené zmeny v zostave.</Redo>
+    <Redo>Znova vykonať zrušenú zmenu.</Redo>
     <RemoveMobileSurfaceButton>Odstrániť mobilný povrch.</RemoveMobileSurfaceButton>
     <ReportNew>Vytvoriť novú zostavu.</ReportNew>
-    <ReportOpen>Otvoriť zostavu v dizajnéri.</ReportOpen>
-    <ReportPreview>Zobraziť editovanú zostavu v prehliadači.</ReportPreview>
-    <ReportSave>Uložiť aktuálne editovanú zostavu.</ReportSave>
+    <ReportOpen>Otvoriť zostavu.</ReportOpen>
+    <ReportPreview>Zobraziť náhľad zostavy.</ReportPreview>
+    <ReportSave>Uložiť zostavu.</ReportSave>
     <ScreenNew>Vytvoriť novú obrazovku.</ScreenNew>
     <ScriptEvalAccess1>Tento dokument používa spustenie skriptu. Ak dokument pochádza z dôveryhodného zdroja, môžete kliknúť na tlačidlo „Otvoriť“.</ScriptEvalAccess1>
     <ScriptEvalAccess2>Ak si nie ste istí zdrojom dokumentu, ale stále si ho chcete zobraziť, môžete kliknúť na tlačidlo „Otvoriť v núdzovom režime“. V takom prípade bude príkaz spustenia skriptu ignorovaný a nebude vykonaný.</ScriptEvalAccess2>
     <ScriptSecurityFullAccess>Úplný prístup k skriptom (bez obmedzení, potenciálne nebezpečné).</ScriptSecurityFullAccess>
     <ScriptSecuritySafeMode>Bezpečný prístup k skriptom (obmedzené možnosti z bezpečnostných dôvodov).</ScriptSecuritySafeMode>
-    <SelectAll>Vybrať všetky prvky pre aktuálnu stránku.</SelectAll>
+    <SelectAll>Vybrať všetky komponenty na stránke.</SelectAll>
     <SelectUILanguage>Vybrať jazyk pre UI.</SelectUILanguage>
     <SendToBack>Presunúť do pozadia.</SendToBack>
-    <ServicesConfigurator>Spustiť Konfigurátor služieb.</ServicesConfigurator>
+    <ServicesConfigurator>Otvoriť Konfiguráciu služieb.</ServicesConfigurator>
     <Shadow>Zobraziť alebo skryť tieň.</Shadow>
     <ShowBehind>Zobraziť text značky vodotlače za prvkami.</ShowBehind>
     <ShowImageBehind>Vložiť obrázok značky vodotlače pred všetky prvky na stránke.</ShowImageBehind>
@@ -2314,13 +2314,13 @@
     <TextBrushWatermark>Zmeniť farbu textu značky vodotlače.</TextBrushWatermark>
     <TextColor>Zmeniť farbu textu.</TextColor>
     <TextFormat>Vybrať formát hodnôt.</TextFormat>
-    <ToolbarStyle>Použiť vybraný štýl na všetky vybrané prvky.</ToolbarStyle>
-    <Undo>Vrátiť posledné zmeny v zostave.</Undo>
+    <ToolbarStyle>Použiť štýl na vybrané komponenty.</ToolbarStyle>
+    <Undo>Vrátiť späť poslednú zmenu.</Undo>
     <ViewModeDesktopButton>Zobraziť povrch pracovnej plochy.</ViewModeDesktopButton>
     <ViewModeMobileButton>Zobraziť mobilný povrch.</ViewModeMobileButton>
     <Watermark>Zmeniť nastavenia vodoznaku.</Watermark>
     <WordWrap>Zalamovať text.</WordWrap>
-    <Zoom>Špecifikovať zväčšenie zostavy.</Zoom>
+    <Zoom>Určiť úroveň lupy.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
     <StiButtonControl>Spúšťa akciu po kliknutí.</StiButtonControl>

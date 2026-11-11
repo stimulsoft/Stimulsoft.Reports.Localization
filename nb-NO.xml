@@ -2151,12 +2151,12 @@
     <Align>Juster valgte komponenter.</Align>
     <AlignBottom>Juster innholdet mot bunnen.</AlignBottom>
     <AlignCenter>Midtstill innholdet vannrett.</AlignCenter>
-    <AlignComponentBottom>Tillater justering av objekter horisontalt mot kanten på bunden for valgte komponenter.</AlignComponentBottom>
-    <AlignComponentCenter>Tillater justering av objekter horisontalt sentrert for valgte komponenter.</AlignComponentCenter>
-    <AlignComponentLeft>Tillater justering av objekter virtikalt langs venstre kant for valgte komponenter.</AlignComponentLeft>
-    <AlignComponentMiddle>Tillater justering av objekter vertikalt sentrert for valgte komponenter.</AlignComponentMiddle>
-    <AlignComponentRight>Tillater justering av objekter vertikalt langt høyre kant for valgte komponenter.</AlignComponentRight>
-    <AlignComponentTop>Tillater justering av objekter horisontalt langt kanten på toppen for valgte komponenter.</AlignComponentTop>
+    <AlignComponentBottom>Juster komponentene etter nedre kant.</AlignComponentBottom>
+    <AlignComponentCenter>Midtstill komponentene vannrett.</AlignComponentCenter>
+    <AlignComponentLeft>Juster komponentene etter venstre kant.</AlignComponentLeft>
+    <AlignComponentMiddle>Midtstill komponentene loddrett.</AlignComponentMiddle>
+    <AlignComponentRight>Juster komponentene etter høyre kant.</AlignComponentRight>
+    <AlignComponentTop>Juster komponentene etter øvre kant.</AlignComponentTop>
     <AlignLeft>Juster innholdet til venstre.</AlignLeft>
     <AlignMiddle>Midtstill innholdet loddrett.</AlignMiddle>
     <AlignRight>Juster innholdet til høyre.</AlignRight>
@@ -2176,8 +2176,8 @@
     <BorderSidesTop>Vis eller skjul øvre kant.</BorderSidesTop>
     <BorderStyle>Endre kantstilen.</BorderStyle>
     <BringToFront>Plasser lengst frem.</BringToFront>
-    <CenterHorizontally>Tillater å justere en komponent horisontalt, relativt til beholderkantene hvor den er plassert.</CenterHorizontally>
-    <CenterVertically>Tillater å justere en komponent vertikalt, relativt til beholderkantene hvor den er plassert.</CenterVertically>
+    <CenterHorizontally>Midtstill vannrett i beholderen.</CenterHorizontally>
+    <CenterVertically>Midtstill loddrett i beholderen.</CenterVertically>
     <Close>Lukk rapportdesigneren.</Close>
     <Columns>Del siden i kolonner.</Columns>
     <CompilationAccess1>Dette dokumentet bruker kompilering. Hvis dokumentet er fra en pålitelig kilde, kan du klikke "Åpne" for å få tilgang.</CompilationAccess1>
@@ -2196,15 +2196,15 @@
     <CopyToClipboard>Kopier til utklippstavlen</CopyToClipboard>
     <CurrencySymbol>Velg valutasymbol.</CurrencySymbol>
     <DashboardNew>Lag et nytt dashbord.</DashboardNew>
-    <DataStore>Vis data registrert i en rapport.</DataStore>
+    <DataStore>Vis data registrert i rapporten.</DataStore>
     <DateTimeFormat>Velg dato- og tidsformat.</DateTimeFormat>
     <DockingPanels>Vis eller skjul panelene.</DockingPanels>
-    <DockStyleBottom>Fest valgte komponenter mot bunnen.</DockStyleBottom>
-    <DockStyleFill>Fest valgte komponenter til alle sider.</DockStyleFill>
-    <DockStyleLeft>Fest valgte komponenter til venstre side.</DockStyleLeft>
-    <DockStyleNone>Løsne valgte komponenter.</DockStyleNone>
-    <DockStyleRight>Fest valgte komponenter til høyre side.</DockStyleRight>
-    <DockStyleTop>Fest valgte komponenter til toppen.</DockStyleTop>
+    <DockStyleBottom>Fest til bunnen.</DockStyleBottom>
+    <DockStyleFill>Fest til alle sider.</DockStyleFill>
+    <DockStyleLeft>Fest til venstre side.</DockStyleLeft>
+    <DockStyleNone>Løsne komponentene.</DockStyleNone>
+    <DockStyleRight>Fest til høyre side.</DockStyleRight>
+    <DockStyleTop>Fest til toppen.</DockStyleTop>
     <EventsAccess1>Dette dokumentet bruker hendelser. Hvis dokumentet er fra en pålitelig kilde, kan du klikke "Åpne" for å få tilgang.</EventsAccess1>
     <EventsAccess2>Hvis du er usikker på kilden, men fortsatt vil se dokumentet, kan du klikke "Åpne i sikker modus". Da ignoreres hendelser.</EventsAccess2>
     <FontGrow>Gjør teksten større.</FontGrow>
@@ -2220,15 +2220,15 @@
     <FontStyleStrikeout>Stryk gjennom teksten.</FontStyleStrikeout>
     <FontStyleUnderline>Understrek teksten.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Understrek teksten på vannmerket.</FontStyleUnderlineWatermark>
-    <FormatBoolean>Dette formatet brukes til å formatere verdier for boolean-typen.</FormatBoolean>
-    <FormatCurrency>Vis en verdi som valuta. Den tillater å vise et nummer med standardsymbolet for valuta.</FormatCurrency>
-    <FormatCustom>Denne typen brukes til å vise verdier ifølge egendefinerte krav. Denne typen tillater også dataformatering med maskering.</FormatCustom>
-    <FormatDate>Vis en verdi som dato. Dataformatet er basert på regionale datainstillinger.</FormatDate>
+    <FormatBoolean>Formater en verdi av typen Boolean.</FormatBoolean>
+    <FormatCurrency>Vis en verdi som valuta.</FormatCurrency>
+    <FormatCustom>Vis en verdi med valgfri formatmaske.</FormatCustom>
+    <FormatDate>Vis en verdi som dato.</FormatDate>
     <FormatGeneral>Vis en verdi uten et spesifikt format.</FormatGeneral>
-    <FormatNumber>Brukes for generell visning av tall.</FormatNumber>
-    <FormatPercentage>Vis verdi som prosent. Tall multipliseres med 100 for å konvertere de til prosenttall.</FormatPercentage>
-    <FormatTime>Vis verdi som tid. Tidsformatet er basert på regionale tidsinstillinger.</FormatTime>
-    <FormNew>Lag ny dialogform.</FormNew>
+    <FormatNumber>Vis en verdi som tall.</FormatNumber>
+    <FormatPercentage>Vis en verdi som prosent.</FormatPercentage>
+    <FormatTime>Vis en verdi som tid.</FormatTime>
+    <FormNew>Lag en ny dialogform.</FormNew>
     <GridMode>Vis rutenettet som linjer eller prikker.</GridMode>
     <ImageAlignment>Vis vannmerke på side.</ImageAlignment>
     <ImageTransparency>Endre vannmerkets gjennomsiktighet.</ImageTransparency>
@@ -2238,8 +2238,8 @@
     <LoadImage>Last inn vannmerke fra fil.</LoadImage>
     <Lock>Lås posisjonen og størrelsen.</Lock>
     <MainMenu>Opprett, åpne eller lagre en rapport.</MainMenu>
-    <MakeHorizontalSpacingEqual>Tillater å sette lik horisontal avstand mellom valgte komponenter.</MakeHorizontalSpacingEqual>
-    <MakeVerticalSpacingEqual>Tillater å sette lik vertikal avstand mellom valgte komponenter.</MakeVerticalSpacingEqual>
+    <MakeHorizontalSpacingEqual>Gjør den vannrette avstanden lik.</MakeHorizontalSpacingEqual>
+    <MakeVerticalSpacingEqual>Gjør den loddrette avstanden lik.</MakeVerticalSpacingEqual>
     <Margins>Velg sidemarginer.</Margins>
     <menuCheckIssues>Kontroller rapport for feil, advarsler og anbefalinger.</menuCheckIssues>
     <menuDesignerOptions>Velg innstillinger for rapportdesigner.</menuDesignerOptions>
@@ -2275,28 +2275,28 @@
     <MoveForward>Flytt ett nivå fremover.</MoveForward>
     <NotPossibleEnableCompilationMode>Det er ikke mulig å aktivere kompilasjonsmodus for rapporten. Dette er forbudt av 'Compilation Access'-innstillingen i designeren.</NotPossibleEnableCompilationMode>
     <Orientation>Bytt mellom stående og liggende.</Orientation>
-    <PageDelete>Slett gjeldende side fra rapport.</PageDelete>
+    <PageDelete>Slett gjeldende side.</PageDelete>
     <PageNew>Lag en ny side.</PageNew>
     <PageSetup>Endre sideinnstillingene.</PageSetup>
     <PageSize>Velg papirstørrelse.</PageSize>
-    <PagesManager>Kjør Pages Manager.</PagesManager>
+    <PagesManager>Åpne sidebehandleren.</PagesManager>
     <PressF1>Trykk F1 hvis du vil ha mer informasjon</PressF1>
     <PropertiesButton>Vis rapportegenskapene.</PropertiesButton>
-    <Redo>Gjør om forrige avbrutte endring i rapporten.</Redo>
+    <Redo>Gjør om den angrede endringen.</Redo>
     <RemoveMobileSurfaceButton>Fjern mobiloverflaten.</RemoveMobileSurfaceButton>
     <ReportNew>Lag en ny rapport.</ReportNew>
-    <ReportOpen>Åpne rapport i designer.</ReportOpen>
-    <ReportPreview>Forhåndsvis redigert rapport i viewer.</ReportPreview>
-    <ReportSave>Lagre gjeldende redigerte rapport.</ReportSave>
+    <ReportOpen>Åpne en rapport.</ReportOpen>
+    <ReportPreview>Forhåndsvis rapporten.</ReportPreview>
+    <ReportSave>Lagre rapporten.</ReportSave>
     <ScreenNew>Lag en ny skjerm.</ScreenNew>
     <ScriptEvalAccess1>Dette dokumentet bruker Script Eval. Hvis dokumentet kommer fra en pålitelig kilde, kan du klikke på knappen «Åpne» for å få tilgang til det.</ScriptEvalAccess1>
     <ScriptEvalAccess2>Hvis du er usikker på dokumentets kilde, men likevel ønsker å vise det, kan du klikke på knappen «Åpne i sikker modus». I dette tilfellet vil Script Eval bli ignorert og ikke kjørt.</ScriptEvalAccess2>
     <ScriptSecurityFullAccess>Full skripttilgang (ingen begrensninger, potensielt usikkert).</ScriptSecurityFullAccess>
     <ScriptSecuritySafeMode>Sikker skripttilgang (begrensede funksjoner av hensyn til sikkerhet).</ScriptSecuritySafeMode>
-    <SelectAll>VElg alle komponentene på gjeldende side.</SelectAll>
+    <SelectAll>Velg alle komponentene på siden.</SelectAll>
     <SelectUILanguage>Velg UI-språk.</SelectUILanguage>
     <SendToBack>Plasser lengst bak.</SendToBack>
-    <ServicesConfigurator>Kjør tjenestekonfigurering.</ServicesConfigurator>
+    <ServicesConfigurator>Åpne tjenestekonfigureringen.</ServicesConfigurator>
     <Shadow>Vis eller skjul skyggen.</Shadow>
     <ShowBehind>Vis vannmerkingstekst bak komponentene.</ShowBehind>
     <ShowImageBehind>Vis vannmerkingsbilde bak alle komponentene på siden.</ShowImageBehind>
@@ -2309,13 +2309,13 @@
     <TextBrushWatermark>Endre tekstfargen til vannmerket.</TextBrushWatermark>
     <TextColor>Endre tekstfargen.</TextColor>
     <TextFormat>Velg format for verdier.</TextFormat>
-    <ToolbarStyle>Sett valgt stil for alle valgte komponenter.</ToolbarStyle>
-    <Undo>Angre siste endring i rapporten.</Undo>
+    <ToolbarStyle>Bruk en stil på valgte komponenter.</ToolbarStyle>
+    <Undo>Angre siste endring.</Undo>
     <ViewModeDesktopButton>Vis skrivebordsoverflaten.</ViewModeDesktopButton>
     <ViewModeMobileButton>Vis mobiloverflaten.</ViewModeMobileButton>
     <Watermark>Endre vannmerkeinnstillingene.</Watermark>
     <WordWrap>Bryt teksten.</WordWrap>
-    <Zoom>Spesifiser zoomnivået for rapporten.</Zoom>
+    <Zoom>Angi zoomnivået.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
     <StiButtonControl>Utfører en handling ved klikk.</StiButtonControl>

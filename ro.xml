@@ -2177,12 +2177,12 @@
     <Align>Aliniază componentele selectate.</Align>
     <AlignBottom>Aliniază conţinutul jos.</AlignBottom>
     <AlignCenter>Aliniază conţinutul la centru.</AlignCenter>
-    <AlignComponentBottom>Vă permite să aliniaţi obiecte orizontal de-a lungul marginii de jos a componentelor selectate.</AlignComponentBottom>
-    <AlignComponentCenter>Vă permite să aliniaţi obiecte orizontal de-a lungul marginii de centru a componentelor selectate.</AlignComponentCenter>
-    <AlignComponentLeft>Vă permite să aliniaţi obiecte vertical de-a lungul marginea din stânga a componentelor selectate.</AlignComponentLeft>
-    <AlignComponentMiddle>Vă permite să aliniaţi obiecte vertical de-a lungul marginii de centrul a componentelor selectate.</AlignComponentMiddle>
-    <AlignComponentRight>Vă permite să aliniaţi obiecte vertical de-a lungul marginea din dreapta a componentelor selectate.</AlignComponentRight>
-    <AlignComponentTop>Vă permite să aliniaţi obiecte orizontal de-a lungul marginea de sus a componentelor selectate.</AlignComponentTop>
+    <AlignComponentBottom>Aliniază componentele la marginea de jos.</AlignComponentBottom>
+    <AlignComponentCenter>Aliniază componentele la centru.</AlignComponentCenter>
+    <AlignComponentLeft>Aliniază componentele la marginea stângă.</AlignComponentLeft>
+    <AlignComponentMiddle>Aliniază componentele la mijloc.</AlignComponentMiddle>
+    <AlignComponentRight>Aliniază componentele la marginea dreaptă.</AlignComponentRight>
+    <AlignComponentTop>Aliniază componentele la marginea de sus.</AlignComponentTop>
     <AlignLeft>Aliniază conţinutul la stânga.</AlignLeft>
     <AlignMiddle>Aliniază conţinutul la mijloc.</AlignMiddle>
     <AlignRight>Aliniază conţinutul la dreapta.</AlignRight>
@@ -2202,8 +2202,8 @@
     <BorderSidesTop>Arată sau ascunde bordura de sus.</BorderSidesTop>
     <BorderStyle>Schimbă stilul bordurii.</BorderStyle>
     <BringToFront>Adu în faţă.</BringToFront>
-    <CenterHorizontally>Vă permite să aliniaţi o componentă orizontal în raport cu marginile containerului în care se gaseşte.</CenterHorizontally>
-    <CenterVertically>Vă permite să aliniaţi o componentă vertical în raport cu marginile containerului în care se gaseşte.</CenterVertically>
+    <CenterHorizontally>Centrează orizontal în container.</CenterHorizontally>
+    <CenterVertically>Centrează vertical în container.</CenterVertically>
     <Close>Închide Designer-ul de Rapoarte .</Close>
     <Columns>Împarte pagina în coloane.</Columns>
     <CompilationAccess1>Acest document utilizează procesul de compilare. Dacă documentul provine dintr-o sursă de încredere, puteți face clic pe butonul "Deschidere" pentru a-l accesa.</CompilationAccess1>
@@ -2221,16 +2221,16 @@
     <CopyStyle>Copiază stilul pe alte componente.</CopyStyle>
     <CopyToClipboard>Copie în Clipboard</CopyToClipboard>
     <CurrencySymbol>Selectează simbolul monedei.</CurrencySymbol>
-    <DashboardNew>Creare panou control nou.</DashboardNew>
-    <DataStore>Afişează datele, înregistrate într-un raport.</DataStore>
+    <DashboardNew>Creează un panou control nou.</DashboardNew>
+    <DataStore>Afişează datele înregistrate în raport.</DataStore>
     <DateTimeFormat>Selectează formatul de dată şi oră.</DateTimeFormat>
     <DockingPanels>Arată sau ascunde panel-urile.</DockingPanels>
-    <DockStyleBottom>Reţine componentele selectate spre partea de jos.</DockStyleBottom>
-    <DockStyleFill>Reţine componentele selectate spre toate parţile.</DockStyleFill>
-    <DockStyleLeft>Reţine componentele selectate spre partea din stânga.</DockStyleLeft>
-    <DockStyleNone>Eliberează componentele selectate.</DockStyleNone>
-    <DockStyleRight>Reţine componentele selectate spre partea din dreapta.</DockStyleRight>
-    <DockStyleTop>Reţine componentele selectate spre partea de sus.</DockStyleTop>
+    <DockStyleBottom>Dochează în partea de jos.</DockStyleBottom>
+    <DockStyleFill>Dochează pe toate părţile.</DockStyleFill>
+    <DockStyleLeft>Dochează în partea stângă.</DockStyleLeft>
+    <DockStyleNone>Eliberează componentele.</DockStyleNone>
+    <DockStyleRight>Dochează în partea dreaptă.</DockStyleRight>
+    <DockStyleTop>Dochează în partea de sus.</DockStyleTop>
     <EventsAccess1>Acest document folosește Evenimente. Dacă documentul provine dintr-o sursă de încredere, puteți face clic pe butonul "Deschide" pentru a-l accesa.</EventsAccess1>
     <EventsAccess2>Dacă nu sunteți sigur de sursa documentului, dar doriți totuși să îl vizualizați, puteți face clic pe butonul "Deschide în modul sigur". În acest caz, evenimentele vor fi ignorate și nu vor fi executate.</EventsAccess2>
     <FontGrow>Măreşte textul.</FontGrow>
@@ -2246,15 +2246,15 @@
     <FontStyleStrikeout>Taie textul cu o linie.</FontStyleStrikeout>
     <FontStyleUnderline>Subliniază textul.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Subliniază textul de watermark.</FontStyleUnderlineWatermark>
-    <FormatBoolean>Acest format este folosit pentru formatarea valorilor de tip boolean.</FormatBoolean>
-    <FormatCurrency>Afişează o valoare ca monedă. Vă permite sa afisaţi un număr cu simbolul monedei predefinite.</FormatCurrency>
-    <FormatCustom>Acest tip este folosit pentru a afişa valori în funcţie de cerinţele personalizate. Acest tip de date permite formatare din Masca Format.</FormatCustom>
-    <FormatDate>Afişează o valoare ca dată. Formatul de dată este bazat pe setările regionale pentru data.</FormatDate>
+    <FormatBoolean>Formatează o valoare de tip boolean.</FormatBoolean>
+    <FormatCurrency>Afişează o valoare ca monedă.</FormatCurrency>
+    <FormatCustom>Afişează o valoare după o mască personalizată.</FormatCustom>
+    <FormatDate>Afişează o valoare ca dată.</FormatDate>
     <FormatGeneral>Afişează o valoare fără format specific.</FormatGeneral>
-    <FormatNumber>Este folosit pentru afişare generală a numerelor.</FormatNumber>
-    <FormatPercentage>Afişează o valoare ca procent. Numerele sunt multiplicate cu 100 pentru a le converti la procente.</FormatPercentage>
-    <FormatTime>Afişează o valoare ca timp. Formatul de dată este bazat pe setările regionale pentru timp.</FormatTime>
-    <FormNew>Crearea unui nou formular de dialog.</FormNew>
+    <FormatNumber>Afişează o valoare ca număr.</FormatNumber>
+    <FormatPercentage>Afişează o valoare ca procent.</FormatPercentage>
+    <FormatTime>Afişează o valoare ca oră.</FormatTime>
+    <FormNew>Creează un formular de dialog nou.</FormNew>
     <GridMode>Arată grila ca linii sau puncte.</GridMode>
     <ImageAlignment>Pune o imagine de watermark pe o pagină.</ImageAlignment>
     <ImageTransparency>Schimbă transparenţa imaginii de watermark.</ImageTransparency>
@@ -2264,8 +2264,8 @@
     <LoadImage>Încărcă imagini de watermark din fişier.</LoadImage>
     <Lock>Blochează poziţia şi dimensiunea.</Lock>
     <MainMenu>Creează, deschide sau salvează un raport.</MainMenu>
-    <MakeHorizontalSpacingEqual>Vă permite să stabiliţi spaţierea orizontală egală între componentele selectate.</MakeHorizontalSpacingEqual>
-    <MakeVerticalSpacingEqual>Vă permite să stabiliţi spaţierea egală verticală între componentele selectate.</MakeVerticalSpacingEqual>
+    <MakeHorizontalSpacingEqual>Egalizează spaţierea orizontală.</MakeHorizontalSpacingEqual>
+    <MakeVerticalSpacingEqual>Egalizează spaţierea verticală.</MakeVerticalSpacingEqual>
     <Margins>Selectează marginile paginii.</Margins>
     <menuCheckIssues>Verifică raportul pentru a găsi erori, avertismente şi a obţine recomandări.</menuCheckIssues>
     <menuDesignerOptions>Opţiuni de configurare Designer Rapoarte.</menuDesignerOptions>
@@ -2301,28 +2301,28 @@
     <MoveForward>Mută cu un nivel înainte.</MoveForward>
     <NotPossibleEnableCompilationMode>Este imposibil să activați modul de compilare pentru raport. Acest lucru este interzis de opțiunea „Acces la compilare” din setările designerului.</NotPossibleEnableCompilationMode>
     <Orientation>Comută între portret şi peisaj.</Orientation>
-    <PageDelete>Şterge pagina curentă dintr-un raport.</PageDelete>
-    <PageNew>Crează o pagină nouă.</PageNew>
+    <PageDelete>Şterge pagina curentă.</PageDelete>
+    <PageNew>Creează o pagină nouă.</PageNew>
     <PageSetup>Schimbă setările paginii.</PageSetup>
     <PageSize>Selectează dimensiunea hârtiei.</PageSize>
-    <PagesManager>Porneşte Managerul de Pagini.</PagesManager>
+    <PagesManager>Deschide organizarea paginilor.</PagesManager>
     <PressF1>Apăsaţi F1 pentru Mai Multe Detalii</PressF1>
     <PropertiesButton>Arată proprietăţile raportului.</PropertiesButton>
-    <Redo>Refă schimbarea anulată anterior într-un raport.</Redo>
+    <Redo>Refă schimbarea anulată.</Redo>
     <RemoveMobileSurfaceButton>Elimină suprafaţa mobilă.</RemoveMobileSurfaceButton>
-    <ReportNew>Crează un raport nou.</ReportNew>
-    <ReportOpen>Deschide un raport în designer.</ReportOpen>
-    <ReportPreview>Previzualizează un raport.</ReportPreview>
-    <ReportSave>Salvează raportul editat curent.</ReportSave>
+    <ReportNew>Creează un raport nou.</ReportNew>
+    <ReportOpen>Deschide un raport.</ReportOpen>
+    <ReportPreview>Previzualizează raportul.</ReportPreview>
+    <ReportSave>Salvează raportul.</ReportSave>
     <ScreenNew>Creează un ecran nou.</ScreenNew>
     <ScriptEvalAccess1>Acest document folosește Script Eval. Dacă documentul provine dintr-o sursă de încredere, puteți face clic pe butonul „Deschide” pentru a-l accesa..</ScriptEvalAccess1>
     <ScriptEvalAccess2>Dacă nu sunteți sigur de sursa documentului, dar doriți totuși să îl vizualizați, puteți face clic pe butonul „Deschide în modul de siguranță”. În acest caz, Script Eval va fi ignorat și nu va fi executat..</ScriptEvalAccess2>
     <ScriptSecurityFullAccess>Acces complet la script (fără restricții, potențial nesigur).</ScriptSecurityFullAccess>
     <ScriptSecuritySafeMode>Acces securizat la scripturi (capacități restricționate pentru securitate).</ScriptSecuritySafeMode>
-    <SelectAll>Selectează toate componentele de pe pagina curentă.</SelectAll>
+    <SelectAll>Selectează toate componentele din pagină.</SelectAll>
     <SelectUILanguage>Selectaţi limba pentru interfaţa grafică.</SelectUILanguage>
     <SendToBack>Trimite în spate.</SendToBack>
-    <ServicesConfigurator>Porneşte Configuratorul de Servicii.</ServicesConfigurator>
+    <ServicesConfigurator>Deschide configurarea serviciilor.</ServicesConfigurator>
     <Shadow>Arată sau ascunde umbra.</Shadow>
     <ShowBehind>Arată textul de watermark în spatele componentelor.</ShowBehind>
     <ShowImageBehind>Pune imaginea de watermark în spatele tuturor componentelor pe o pagină.</ShowImageBehind>
@@ -2335,13 +2335,13 @@
     <TextBrushWatermark>Schimbă culorea textului pentru watermark.</TextBrushWatermark>
     <TextColor>Schimbă culoarea textului.</TextColor>
     <TextFormat>Selectează formatul valorilor.</TextFormat>
-    <ToolbarStyle>Aplică stilul ales la toate componentele selectate.</ToolbarStyle>
-    <Undo>Anulează ultima schimbare într-un raport.</Undo>
+    <ToolbarStyle>Aplică un stil componentelor selectate.</ToolbarStyle>
+    <Undo>Anulează ultima schimbare.</Undo>
     <ViewModeDesktopButton>Arată suprafaţa desktop.</ViewModeDesktopButton>
     <ViewModeMobileButton>Arată suprafaţa mobilă.</ViewModeMobileButton>
     <Watermark>Schimbă setările de watermark.</Watermark>
     <WordWrap>Rupe textul pe rânduri.</WordWrap>
-    <Zoom>Stabileşte nivelul de zoom al raportului.</Zoom>
+    <Zoom>Stabileşte nivelul de zoom.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
     <StiButtonControl>Execută o acţiune la clic.</StiButtonControl>

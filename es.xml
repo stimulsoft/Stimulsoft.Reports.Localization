@@ -2151,12 +2151,12 @@
     <Align>Alinear los componentes seleccionados.</Align>
     <AlignBottom>Alinear el contenido abajo.</AlignBottom>
     <AlignCenter>Alinear el contenido al centro.</AlignCenter>
-    <AlignComponentBottom>Permite alinear los objetos del componente seleccionado horizontalmente a lo largo del borde inferior.</AlignComponentBottom>
-    <AlignComponentCenter>Permite alinear los objetos del componente seleccionado horizontalmente a lo largo del borde central.</AlignComponentCenter>
-    <AlignComponentLeft>Permite alinear los objetos del componente seleccionado verticalmente a lo largo del borde izquierdo.</AlignComponentLeft>
-    <AlignComponentMiddle>Permite alinear los objetos del componente seleccionado verticalmente a lo largo del borde central.</AlignComponentMiddle>
-    <AlignComponentRight>Permite alinear los objetos del componente seleccionado horizontalmente a lo largo del borde derecho.</AlignComponentRight>
-    <AlignComponentTop>Permite alinear los objetos del componente seleccionado horizontalmente a lo largo del borde superior.</AlignComponentTop>
+    <AlignComponentBottom>Alinear los componentes al borde inferior.</AlignComponentBottom>
+    <AlignComponentCenter>Alinear los componentes al centro.</AlignComponentCenter>
+    <AlignComponentLeft>Alinear los componentes al borde izquierdo.</AlignComponentLeft>
+    <AlignComponentMiddle>Alinear los componentes en el medio.</AlignComponentMiddle>
+    <AlignComponentRight>Alinear los componentes al borde derecho.</AlignComponentRight>
+    <AlignComponentTop>Alinear los componentes al borde superior.</AlignComponentTop>
     <AlignLeft>Alinear el contenido a la izquierda.</AlignLeft>
     <AlignMiddle>Alinear el contenido en el medio.</AlignMiddle>
     <AlignRight>Alinear el contenido a la derecha.</AlignRight>
@@ -2176,8 +2176,8 @@
     <BorderSidesTop>Mostrar u ocultar el borde superior.</BorderSidesTop>
     <BorderStyle>Cambiar el estilo del borde.</BorderStyle>
     <BringToFront>Traer al frente.</BringToFront>
-    <CenterHorizontally>Permite alinear un componente horizontalmente relativo al borde del continente.</CenterHorizontally>
-    <CenterVertically>Permite alinear un componente verticalmente relativo al borde del continente.</CenterVertically>
+    <CenterHorizontally>Centrar horizontalmente en el contenedor.</CenterHorizontally>
+    <CenterVertically>Centrar verticalmente en el contenedor.</CenterVertically>
     <Close>Cerrar el Diseñador de Informes.</Close>
     <Columns>Dividir la página en columnas.</Columns>
     <CompilationAccess1>Este documento utiliza el proceso de compilación. Si el documento proviene de una fuente confiable, puede hacer clic en el botón "Abrir" para acceder a él.</CompilationAccess1>
@@ -2195,16 +2195,16 @@
     <CopyStyle>Copiar el estilo a otros componentes.</CopyStyle>
     <CopyToClipboard>Copiar al Portapapeles</CopyToClipboard>
     <CurrencySymbol>Seleccionar el símbolo de divisa.</CurrencySymbol>
-    <DashboardNew>Crear un nuevo panel de control.</DashboardNew>
-    <DataStore>Mostrar datos, registrados en el informe.</DataStore>
+    <DashboardNew>Crear una nueva consola.</DashboardNew>
+    <DataStore>Mostrar los datos registrados en el informe.</DataStore>
     <DateTimeFormat>Seleccionar el formato de fecha y hora.</DateTimeFormat>
     <DockingPanels>Mostrar u ocultar los paneles.</DockingPanels>
-    <DockStyleBottom>Acoplar los componentes seleccionados al borde inferior.</DockStyleBottom>
-    <DockStyleFill>Acoplar los componentes seleccionados a todos los bordes.</DockStyleFill>
-    <DockStyleLeft>Acoplar los componentes seleccionados al borde izquierdo.</DockStyleLeft>
-    <DockStyleNone>Desacoplar los componentes seleccionados.</DockStyleNone>
-    <DockStyleRight>Acoplar los componentes seleccionados al borde derecho.</DockStyleRight>
-    <DockStyleTop>Acoplar los componentes seleccionados al borde superior.</DockStyleTop>
+    <DockStyleBottom>Acoplar al borde inferior.</DockStyleBottom>
+    <DockStyleFill>Acoplar a todos los bordes.</DockStyleFill>
+    <DockStyleLeft>Acoplar al borde izquierdo.</DockStyleLeft>
+    <DockStyleNone>Desacoplar los componentes.</DockStyleNone>
+    <DockStyleRight>Acoplar al borde derecho.</DockStyleRight>
+    <DockStyleTop>Acoplar al borde superior.</DockStyleTop>
     <EventsAccess1>Este documento utiliza Eventos. Si el documento proviene de una fuente confiable, puede hacer clic en el botón "Abrir" para acceder a él.</EventsAccess1>
     <EventsAccess2>Si no está seguro de la fuente del documento pero aún desea verlo, puede hacer clic en el botón "Abrir en modo seguro". En este caso, los eventos serán ignorados y no ejecutados.</EventsAccess2>
     <FontGrow>Aumentar el tamaño del texto.</FontGrow>
@@ -2220,15 +2220,15 @@
     <FontStyleStrikeout>Tachar el texto.</FontStyleStrikeout>
     <FontStyleUnderline>Subrayar el texto.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Convertir el texto de la filigrana a subrayado.</FontStyleUnderlineWatermark>
-    <FormatBoolean>Este formato se emplea para formatear valores de tipo lógico.</FormatBoolean>
-    <FormatCurrency>Mostrar un valor como moneda. Permite mostrar un número con el signo de la divisa por defecto.</FormatCurrency>
-    <FormatCustom>Este tipo se emplea para mostrar valores con requerimientos personalizados. Se permite formatear los datos con la Máscara de Formato.</FormatCustom>
-    <FormatDate>Mostrar un valor como una fecha. El formato de la fecha depende de la configuración regional.</FormatDate>
+    <FormatBoolean>Formatear un valor de tipo booleano.</FormatBoolean>
+    <FormatCurrency>Mostrar un valor como moneda.</FormatCurrency>
+    <FormatCustom>Mostrar un valor con una máscara personalizada.</FormatCustom>
+    <FormatDate>Mostrar un valor como fecha.</FormatDate>
     <FormatGeneral>Mostrar un valor sin un formato específico.</FormatGeneral>
-    <FormatNumber>Se emplea para mostrar números en general.</FormatNumber>
-    <FormatPercentage>Mostrar un valor como porcentaje. Los números se multiplican por 100 para convertirlos a porcentajes.</FormatPercentage>
-    <FormatTime>Mostrar un valor como hora. El formato de la hora depende de la configuración regional.</FormatTime>
-    <FormNew>Crear un formulario nuevo.</FormNew>
+    <FormatNumber>Mostrar un valor como número.</FormatNumber>
+    <FormatPercentage>Mostrar un valor como porcentaje.</FormatPercentage>
+    <FormatTime>Mostrar un valor como hora.</FormatTime>
+    <FormNew>Crear un nuevo formulario de diálogo.</FormNew>
     <GridMode>Mostrar la rejilla como líneas o puntos.</GridMode>
     <ImageAlignment>Poner una imagen de filigrana en la página.</ImageAlignment>
     <ImageTransparency>Cambiar la transparencia de la imagen de filigrana.</ImageTransparency>
@@ -2238,8 +2238,8 @@
     <LoadImage>Cargar las imágenes de filigranas desde un archivo.</LoadImage>
     <Lock>Bloquear la posición y el tamaño.</Lock>
     <MainMenu>Crear, abrir o guardar un informe.</MainMenu>
-    <MakeHorizontalSpacingEqual>Permite igualar el espaciado horizontal entre los componentes seleccionados.</MakeHorizontalSpacingEqual>
-    <MakeVerticalSpacingEqual>Permite igualar el espaciado vertical entre los componentes seleccionados.</MakeVerticalSpacingEqual>
+    <MakeHorizontalSpacingEqual>Igualar el espaciado horizontal.</MakeHorizontalSpacingEqual>
+    <MakeVerticalSpacingEqual>Igualar el espaciado vertical.</MakeVerticalSpacingEqual>
     <Margins>Seleccionar los márgenes de la página.</Margins>
     <menuCheckIssues>Verificar el informe buscando errores, advertencias y otros consejos.</menuCheckIssues>
     <menuDesignerOptions>Configurar opciones del diseñador de informes.</menuDesignerOptions>
@@ -2275,28 +2275,28 @@
     <MoveForward>Mover un nivel hacia delante.</MoveForward>
     <NotPossibleEnableCompilationMode>No es posible habilitar el modo de compilación para el informe. Esto está prohibido por la opción "Acceso a compilación" en la configuración del diseñador.</NotPossibleEnableCompilationMode>
     <Orientation>Alternar entre retrato y paisaje.</Orientation>
-    <PageDelete>Eliminar la página actual del informe.</PageDelete>
+    <PageDelete>Eliminar la página actual.</PageDelete>
     <PageNew>Crear una nueva página.</PageNew>
     <PageSetup>Cambiar la configuración de página.</PageSetup>
     <PageSize>Seleccionar el tamaño del papel.</PageSize>
-    <PagesManager>Ejecutar el Gestor de Páginas.</PagesManager>
+    <PagesManager>Abrir el Gestor de Páginas.</PagesManager>
     <PressF1>Pulse F1 para más detalles</PressF1>
     <PropertiesButton>Mostrar las propiedades del informe.</PropertiesButton>
-    <Redo>Rehacer el último cambio realizado en el informe.</Redo>
+    <Redo>Rehacer el cambio deshecho.</Redo>
     <RemoveMobileSurfaceButton>Eliminar la superficie móvil.</RemoveMobileSurfaceButton>
     <ReportNew>Crear un nuevo informe.</ReportNew>
-    <ReportOpen>Abrir el informe en el diseñador.</ReportOpen>
-    <ReportPreview>Visualizar el informe editado en el visor.</ReportPreview>
-    <ReportSave>Guardar el informe editado.</ReportSave>
+    <ReportOpen>Abrir un informe.</ReportOpen>
+    <ReportPreview>Mostrar la vista previa del informe.</ReportPreview>
+    <ReportSave>Guardar el informe.</ReportSave>
     <ScreenNew>Crear una nueva pantalla.</ScreenNew>
     <ScriptEvalAccess1>Este documento utiliza Script Eval. Si el documento proviene de una fuente confiable, puede hacer clic en el botón "Abrir" para acceder a él.</ScriptEvalAccess1>
     <ScriptEvalAccess2>Si no está seguro del origen del documento, pero aun así desea verlo, puede hacer clic en el botón "Abrir en modo seguro". En este caso, Script Eval se ignorará y no se ejecutará.</ScriptEvalAccess2>
     <ScriptSecurityFullAccess>Acceso completo al script (sin restricciones, potencialmente inseguro).</ScriptSecurityFullAccess>
     <ScriptSecuritySafeMode>Acceso seguro a scripts (funcionalidades restringidas por motivos de seguridad).</ScriptSecuritySafeMode>
-    <SelectAll>Seleccione todos los componentes en la página actual.</SelectAll>
+    <SelectAll>Seleccionar todo en la página.</SelectAll>
     <SelectUILanguage>Seleccione el idioma del UI.</SelectUILanguage>
     <SendToBack>Enviar al fondo.</SendToBack>
-    <ServicesConfigurator>Ejecutar el Configurador de Servicios.</ServicesConfigurator>
+    <ServicesConfigurator>Abrir el Configurador de Servicios.</ServicesConfigurator>
     <Shadow>Mostrar u ocultar la sombra.</Shadow>
     <ShowBehind>Mostrar la filigrana por detrás de los componentes.</ShowBehind>
     <ShowImageBehind>Mostrar la filigrana por detrás de todos los componentes en la página.</ShowImageBehind>
@@ -2309,13 +2309,13 @@
     <TextBrushWatermark>Cambiar el color del texto de la filigrana.</TextBrushWatermark>
     <TextColor>Cambiar el color del texto.</TextColor>
     <TextFormat>Seleccionar el formato de los valores.</TextFormat>
-    <ToolbarStyle>Establezca el estilo actual a todos los componentes seleccionados.</ToolbarStyle>
-    <Undo>Deshacer el último cambio realizado en el informe.</Undo>
+    <ToolbarStyle>Aplicar un estilo a los componentes seleccionados.</ToolbarStyle>
+    <Undo>Deshacer el último cambio.</Undo>
     <ViewModeDesktopButton>Mostrar la superficie de escritorio.</ViewModeDesktopButton>
     <ViewModeMobileButton>Mostrar la superficie móvil.</ViewModeMobileButton>
     <Watermark>Cambiar la configuración de la filigrana.</Watermark>
     <WordWrap>Ajustar el texto en varias líneas.</WordWrap>
-    <Zoom>Indique el nivel de ampliación del informe.</Zoom>
+    <Zoom>Indicar el nivel de ampliación.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
     <StiButtonControl>Ejecuta una acción al hacer clic.</StiButtonControl>

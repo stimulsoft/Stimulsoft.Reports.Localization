@@ -2151,12 +2151,12 @@
     <Align>Ausgewählte Komponenten ausrichten.</Align>
     <AlignBottom>Inhalt unten ausrichten.</AlignBottom>
     <AlignCenter>Inhalt zentriert ausrichten.</AlignCenter>
-    <AlignComponentBottom>Alle ausgewählten Komponenten am unteren Rand ausrichten</AlignComponentBottom>
-    <AlignComponentCenter>Alle ausgewählten Komponenten horizontal zentrieren</AlignComponentCenter>
-    <AlignComponentLeft>Alle ausgewählten Komponenten am linken Rand ausrichten</AlignComponentLeft>
-    <AlignComponentMiddle>Alle ausgewählten Komponenten vertikal zentrieren</AlignComponentMiddle>
-    <AlignComponentRight>Alle ausgewählten Komponenten am rechten Rand ausrichten</AlignComponentRight>
-    <AlignComponentTop>Alle ausgewählten Komponenten am oberen Rand ausrichten</AlignComponentTop>
+    <AlignComponentBottom>Komponenten am unteren Rand ausrichten.</AlignComponentBottom>
+    <AlignComponentCenter>Komponenten zentriert ausrichten.</AlignComponentCenter>
+    <AlignComponentLeft>Komponenten am linken Rand ausrichten.</AlignComponentLeft>
+    <AlignComponentMiddle>Komponenten in der Mitte ausrichten.</AlignComponentMiddle>
+    <AlignComponentRight>Komponenten am rechten Rand ausrichten.</AlignComponentRight>
+    <AlignComponentTop>Komponenten am oberen Rand ausrichten.</AlignComponentTop>
     <AlignLeft>Inhalt links ausrichten.</AlignLeft>
     <AlignMiddle>Inhalt in der Mitte ausrichten.</AlignMiddle>
     <AlignRight>Inhalt rechts ausrichten.</AlignRight>
@@ -2176,8 +2176,8 @@
     <BorderSidesTop>Obere Rahmenlinie ein- oder ausblenden.</BorderSidesTop>
     <BorderStyle>Rahmenstil ändern.</BorderStyle>
     <BringToFront>In den Vordergrund bringen.</BringToFront>
-    <CenterHorizontally>Horizontal zentrieren</CenterHorizontally>
-    <CenterVertically>Vertikal zentrieren</CenterVertically>
+    <CenterHorizontally>Im Container horizontal zentrieren.</CenterHorizontally>
+    <CenterVertically>Im Container vertikal zentrieren.</CenterVertically>
     <Close>Designer schließen</Close>
     <Columns>Seite in Spalten aufteilen.</Columns>
     <CompilationAccess1>Dieses Dokument verwendet den Kompilationsprozess. Wenn das Dokument aus zuverlässiger Quelle ist, können Sie auf Schaltfläche "Öffnen" klicken, um darauf zuzugreifen.</CompilationAccess1>
@@ -2195,16 +2195,16 @@
     <CopyStyle>Stil auf andere Komponenten kopieren.</CopyStyle>
     <CopyToClipboard>In Zwischenablage kopieren</CopyToClipboard>
     <CurrencySymbol>Währungssymbol wählen.</CurrencySymbol>
-    <DashboardNew>Ein neues Dashboard erstellen.</DashboardNew>
-    <DataStore>Daten-Depot anzeigen</DataStore>
+    <DashboardNew>Neues Dashboard erstellen.</DashboardNew>
+    <DataStore>Im Bericht registrierte Daten anzeigen.</DataStore>
     <DateTimeFormat>Datums- und Uhrzeitformat wählen.</DateTimeFormat>
     <DockingPanels>Leisten ein- oder ausblenden.</DockingPanels>
-    <DockStyleBottom>Unten andocken</DockStyleBottom>
-    <DockStyleFill>Füllend andocken</DockStyleFill>
-    <DockStyleLeft>Links andocken</DockStyleLeft>
-    <DockStyleNone>Nicht andocken</DockStyleNone>
-    <DockStyleRight>Rechts andocken</DockStyleRight>
-    <DockStyleTop>Oben andocken</DockStyleTop>
+    <DockStyleBottom>Unten andocken.</DockStyleBottom>
+    <DockStyleFill>An allen Seiten andocken.</DockStyleFill>
+    <DockStyleLeft>Links andocken.</DockStyleLeft>
+    <DockStyleNone>Andocken der Komponenten aufheben.</DockStyleNone>
+    <DockStyleRight>Rechts andocken.</DockStyleRight>
+    <DockStyleTop>Oben andocken.</DockStyleTop>
     <EventsAccess1>Dieses Dokument verwendet Ereignisse. Wenn das Dokument aus einer zuverlässigen Quelle empfangen wurde, können Sie für den Zugang auf Öffnen-Schaltfläche klicken.</EventsAccess1>
     <EventsAccess2>Wenn Sie unsicher über die Quelle des Dokumentes sind, aber wollen dennoch es ansehen, klicken Sie auf die Schaltfläche "Im abgesicherten Modus öffnen". In diesem Fall werden die Ereignisse ignoriert und nicht ausgeführt werden.</EventsAccess2>
     <FontGrow>Text vergrößern.</FontGrow>
@@ -2220,15 +2220,15 @@
     <FontStyleStrikeout>Text durchstreichen.</FontStyleStrikeout>
     <FontStyleUnderline>Text unterstreichen.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Textstil unterstrichen für Wasserzeichen</FontStyleUnderlineWatermark>
-    <FormatBoolean>Format: Boolean</FormatBoolean>
-    <FormatCurrency>Format: Währung</FormatCurrency>
-    <FormatCustom>Format: Benutzerdefiniert</FormatCustom>
-    <FormatDate>Format: Datum</FormatDate>
-    <FormatGeneral>Format: Allgemein</FormatGeneral>
-    <FormatNumber>Format: Numerisch</FormatNumber>
-    <FormatPercentage>Format: Prozent</FormatPercentage>
-    <FormatTime>Format: Uhrzeit</FormatTime>
-    <FormNew>Neues Formular anlegen</FormNew>
+    <FormatBoolean>Booleschen Wert formatieren.</FormatBoolean>
+    <FormatCurrency>Wert als Währung anzeigen.</FormatCurrency>
+    <FormatCustom>Wert mit eigener Format-Maske anzeigen.</FormatCustom>
+    <FormatDate>Wert als Datum anzeigen.</FormatDate>
+    <FormatGeneral>Wert ohne bestimmtes Format anzeigen.</FormatGeneral>
+    <FormatNumber>Wert als Zahl anzeigen.</FormatNumber>
+    <FormatPercentage>Wert als Prozentsatz anzeigen.</FormatPercentage>
+    <FormatTime>Wert als Uhrzeit anzeigen.</FormatTime>
+    <FormNew>Neues Dialogformular erstellen.</FormNew>
     <GridMode>Raster als Linien oder Punkte anzeigen.</GridMode>
     <ImageAlignment>Bild-Ausrichtung</ImageAlignment>
     <ImageTransparency>Bild-Transparenz</ImageTransparency>
@@ -2238,8 +2238,8 @@
     <LoadImage>Bild laden</LoadImage>
     <Lock>Position und Größe sperren.</Lock>
     <MainMenu>Bericht erstellen, öffnen oder speichern.</MainMenu>
-    <MakeHorizontalSpacingEqual>Horizontalen Abstand angleichen</MakeHorizontalSpacingEqual>
-    <MakeVerticalSpacingEqual>Vertikalen Abstand angleichen</MakeVerticalSpacingEqual>
+    <MakeHorizontalSpacingEqual>Horizontalen Abstand angleichen.</MakeHorizontalSpacingEqual>
+    <MakeVerticalSpacingEqual>Vertikalen Abstand angleichen.</MakeVerticalSpacingEqual>
     <Margins>Seitenränder wählen.</Margins>
     <menuCheckIssues>Prüfen Sie die Fehler und Warnungen, und erhalten Sie die Empfehlungen.</menuCheckIssues>
     <menuDesignerOptions>Berichtsdesigner-Optionen.</menuDesignerOptions>
@@ -2275,28 +2275,28 @@
     <MoveForward>Eine Ebene nach vorne verschieben.</MoveForward>
     <NotPossibleEnableCompilationMode>Es ist unmöglich, den Kompilation-Modus für den Bericht zu aktivieren. Das ist aufgrund der Option 'Zugang zur Kompilation' in den Einstellungen des Designers verboten.</NotPossibleEnableCompilationMode>
     <Orientation>Zwischen Hoch- und Querformat wechseln.</Orientation>
-    <PageDelete>Die aktuell angezeigte Seite löschen</PageDelete>
-    <PageNew>Neue Seite anlegen</PageNew>
+    <PageDelete>Aktuelle Seite löschen.</PageDelete>
+    <PageNew>Neue Seite erstellen.</PageNew>
     <PageSetup>Seiteneinstellungen ändern.</PageSetup>
     <PageSize>Papiergröße wählen.</PageSize>
-    <PagesManager>Seitenmanager ausführen</PagesManager>
+    <PagesManager>Seiten-Manager öffnen.</PagesManager>
     <PressF1>Für weitere Details F1 drücken</PressF1>
     <PropertiesButton>Berichtseigenschaften anzeigen.</PropertiesButton>
-    <Redo>Die zuletzt rückgängig gemachte Operation erneut durchführen (STRG + Y).</Redo>
+    <Redo>Widerrufene Änderung wiederholen.</Redo>
     <RemoveMobileSurfaceButton>Mobile Oberfläche entfernen.</RemoveMobileSurfaceButton>
-    <ReportNew>Neuen Bericht erstellen</ReportNew>
-    <ReportOpen>Gespeicherten Bericht öffnen</ReportOpen>
-    <ReportPreview>Gespeicherte Berichtvorschau öffnen</ReportPreview>
-    <ReportSave>Bericht speichern</ReportSave>
-    <ScreenNew>Einen neuen Bildschirm erstellen.</ScreenNew>
+    <ReportNew>Neuen Bericht erstellen.</ReportNew>
+    <ReportOpen>Bericht öffnen.</ReportOpen>
+    <ReportPreview>Berichtsvorschau anzeigen.</ReportPreview>
+    <ReportSave>Bericht speichern.</ReportSave>
+    <ScreenNew>Neuen Bildschirm erstellen.</ScreenNew>
     <ScriptEvalAccess1>Dieses Dokument verwendet Script Eval. Wenn das Dokument aus der zuverlässigen Quelle ist, klicken Sie "Öffnen"-Schaltfläche für den Zugang.</ScriptEvalAccess1>
     <ScriptEvalAccess2>Wenn Sie nicht über die Dokument-Quelle sicher ist, aber wollen es trotzdem ansehen, können Sie die Schaltfläche "Im abgesicherten Modus öffnen" klicken. In diesem Fall wird Script Eval ignoriert und nicht ausgeführt.</ScriptEvalAccess2>
     <ScriptSecurityFullAccess>Voller Skript-Zugriff (keine Beschränkungen, potenziell unsicher).</ScriptSecurityFullAccess>
     <ScriptSecuritySafeMode>Sicher Skript-Zugriff (beschränkte Möglichkeiten für Sicherheit).</ScriptSecuritySafeMode>
-    <SelectAll>Alles markieren</SelectAll>
+    <SelectAll>Alle Komponenten der Seite auswählen.</SelectAll>
     <SelectUILanguage>Sprache auswählen</SelectUILanguage>
     <SendToBack>In den Hintergrund stellen.</SendToBack>
-    <ServicesConfigurator>Dienste konfiguriren...</ServicesConfigurator>
+    <ServicesConfigurator>Dienste-Konfigurator öffnen.</ServicesConfigurator>
     <Shadow>Schatten ein- oder ausblenden.</Shadow>
     <ShowBehind>Hinten anzeigen</ShowBehind>
     <ShowImageBehind>Bild dahinter anzeigen</ShowImageBehind>
@@ -2309,13 +2309,13 @@
     <TextBrushWatermark>Wasserzeichen: Pinsel</TextBrushWatermark>
     <TextColor>Textfarbe ändern.</TextColor>
     <TextFormat>Format der Werte wählen.</TextFormat>
-    <ToolbarStyle>Symbolleiste-Stil</ToolbarStyle>
-    <Undo>Rückgängig</Undo>
+    <ToolbarStyle>Stil auf ausgewählte Komponenten anwenden.</ToolbarStyle>
+    <Undo>Letzte Änderung rückgängig machen.</Undo>
     <ViewModeDesktopButton>Desktop-Oberfläche anzeigen.</ViewModeDesktopButton>
     <ViewModeMobileButton>Mobile Oberfläche anzeigen.</ViewModeMobileButton>
     <Watermark>Wasserzeichen-Einstellungen ändern.</Watermark>
     <WordWrap>Text umbrechen.</WordWrap>
-    <Zoom>Zoom</Zoom>
+    <Zoom>Zoomstufe festlegen.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
     <StiButtonControl>Führt bei einem Klick eine Aktion aus.</StiButtonControl>

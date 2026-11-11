@@ -2155,12 +2155,12 @@
     <Align>Подравняване на избраните компоненти.</Align>
     <AlignBottom>Подравняване на съдържанието отдолу.</AlignBottom>
     <AlignCenter>Подравняване на съдържанието в центъра.</AlignCenter>
-    <AlignComponentBottom>Позволява подравняването на компонентите хоризонтално по протежението на долния край на избраните компоненти.</AlignComponentBottom>
-    <AlignComponentCenter>Позволява подравняването на обекти хоризонтално по отношение на центъра на избраните компоненти.</AlignComponentCenter>
-    <AlignComponentLeft>Позволява подравняването на обекти вертикално по отношение на левия край на избраните компоненти.</AlignComponentLeft>
-    <AlignComponentMiddle>Позволява подравняването на обекти вертикално по отношение на центъра на избраните компоненти.</AlignComponentMiddle>
-    <AlignComponentRight>Позволява подравняването на обекти вертикално по отношение на десния на избраните компоненти.</AlignComponentRight>
-    <AlignComponentTop>Позволява подравняването на обекти хоризонтално по отношение на горния край на избраните компоненти.</AlignComponentTop>
+    <AlignComponentBottom>Подравняване на компонентите отдолу.</AlignComponentBottom>
+    <AlignComponentCenter>Подравняване на компонентите в центъра.</AlignComponentCenter>
+    <AlignComponentLeft>Подравняване на компонентите отляво.</AlignComponentLeft>
+    <AlignComponentMiddle>Подравняване на компонентите по средата.</AlignComponentMiddle>
+    <AlignComponentRight>Подравняване на компонентите отдясно.</AlignComponentRight>
+    <AlignComponentTop>Подравняване на компонентите отгоре.</AlignComponentTop>
     <AlignLeft>Подравняване на съдържанието отляво.</AlignLeft>
     <AlignMiddle>Подравняване на съдържанието по средата.</AlignMiddle>
     <AlignRight>Подравняване на съдържанието отдясно.</AlignRight>
@@ -2180,8 +2180,8 @@
     <BorderSidesTop>Показване или скриване на горната граница.</BorderSidesTop>
     <BorderStyle>Промяна на стила на границата.</BorderStyle>
     <BringToFront>Преместване на преден план.</BringToFront>
-    <CenterHorizontally>Allows you to align a component horizontally relative to container edges in what it is placed.</CenterHorizontally>
-    <CenterVertically>Allows you to align a component vertically relative to container edges in what it is placed.</CenterVertically>
+    <CenterHorizontally>Центриране хоризонтално в контейнера.</CenterHorizontally>
+    <CenterVertically>Центриране вертикално в контейнера.</CenterVertically>
     <Close>Затвори дизайнера на отчета.</Close>
     <Columns>Разделяне на страницата на колони.</Columns>
     <CompilationAccess1>Този документ използва процеса на компилация. Ако документът е от доверен източник, можете да щракнете върху бутона "Отвори", за да го достъпите.</CompilationAccess1>
@@ -2199,16 +2199,16 @@
     <CopyStyle>Копиране на стила върху други компоненти.</CopyStyle>
     <CopyToClipboard>Копирай в клипборда</CopyToClipboard>
     <CurrencySymbol>Избор на символа за валута.</CurrencySymbol>
-    <DashboardNew>Създайте ново табло за управление.</DashboardNew>
+    <DashboardNew>Създаване на ново табло.</DashboardNew>
     <DataStore>Показване на данните, регистрирани в отчета.</DataStore>
     <DateTimeFormat>Избор на формата за дата и час.</DateTimeFormat>
     <DockingPanels>Показване или скриване на панелите.</DockingPanels>
-    <DockStyleBottom>Dock selected components to bottom side.</DockStyleBottom>
-    <DockStyleFill>Dock selected components to all sides.</DockStyleFill>
-    <DockStyleLeft>Dock selected components to the left side.</DockStyleLeft>
-    <DockStyleNone>Undock selected components.</DockStyleNone>
-    <DockStyleRight>Dock selected components to the right side.</DockStyleRight>
-    <DockStyleTop>Dock selected components to the top side.</DockStyleTop>
+    <DockStyleBottom>Закрепване към долната страна.</DockStyleBottom>
+    <DockStyleFill>Закрепване към всички страни.</DockStyleFill>
+    <DockStyleLeft>Закрепване към лявата страна.</DockStyleLeft>
+    <DockStyleNone>Отмяна на закрепването на компонентите.</DockStyleNone>
+    <DockStyleRight>Закрепване към дясната страна.</DockStyleRight>
+    <DockStyleTop>Закрепване към горната страна.</DockStyleTop>
     <EventsAccess1>Този документ използва събития. Ако документът е от доверен източник, можете да щракнете върху бутона "Отвори", за да го получите.</EventsAccess1>
     <EventsAccess2>Ако не сте сигурни за източника на документа, но все пак искате да го видите, можете да щракнете върху бутона „Отваряне в безопасен режим“. В този случай събитията ще бъдат игнорирани и няма да бъдат изпълнени.</EventsAccess2>
     <FontGrow>Уголемяване на текста.</FontGrow>
@@ -2224,14 +2224,14 @@
     <FontStyleStrikeout>Зачеркване на текста.</FontStyleStrikeout>
     <FontStyleUnderline>Подчертаване на текста.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Подчертаване на текст на воден знак.</FontStyleUnderlineWatermark>
-    <FormatBoolean>Този формат се използва за форматиране на стойности от Булев тип.</FormatBoolean>
-    <FormatCurrency>Показване на стойността като валута. Позволява показването на числото с текущия символ на валута.</FormatCurrency>
-    <FormatCustom>Този тип се използва да показва стойностите дефинирани от потребителя. Типа позволява форматирането в на данни в формат маска.</FormatCustom>
-    <FormatDate>Показване на стойността като дата. Формата на датата се базира на регионалните настройки.</FormatDate>
+    <FormatBoolean>Форматиране на стойност от булев тип.</FormatBoolean>
+    <FormatCurrency>Показване на стойността като валута.</FormatCurrency>
+    <FormatCustom>Показване на стойността по зададена маска.</FormatCustom>
+    <FormatDate>Показване на стойността като дата.</FormatDate>
     <FormatGeneral>Показване на стойността без определен формат.</FormatGeneral>
     <FormatNumber>Показване на стойността като число.</FormatNumber>
-    <FormatPercentage>Показване на стойността като процент. Числата се уможават по 100 за да се преобразуват в процент.</FormatPercentage>
-    <FormatTime>Показване на стойността като час. Формата се базира на регионалните настройки.</FormatTime>
+    <FormatPercentage>Показване на стойността като процент.</FormatPercentage>
+    <FormatTime>Показване на стойността като час.</FormatTime>
     <FormNew>Създаване на нова диалогова форма.</FormNew>
     <GridMode>Показване на мрежата като линии или точки.</GridMode>
     <ImageAlignment>Поставяне на картинка за воден знак.</ImageAlignment>
@@ -2242,8 +2242,8 @@
     <LoadImage>Зарежда картинка като воден знак от файл.</LoadImage>
     <Lock>Заключване на позицията и размера.</Lock>
     <MainMenu>Създаване, отваряне или съхраняване на отчет.</MainMenu>
-    <MakeHorizontalSpacingEqual>Позволява установяване на равни хоризинтални разстояния между избраните компоненти.</MakeHorizontalSpacingEqual>
-    <MakeVerticalSpacingEqual>Позволява установяване на равни верикални разстояния между избраните компоненти.</MakeVerticalSpacingEqual>
+    <MakeHorizontalSpacingEqual>Изравняване на хоризонталните разстояния.</MakeHorizontalSpacingEqual>
+    <MakeVerticalSpacingEqual>Изравняване на вертикалните разстояния.</MakeVerticalSpacingEqual>
     <Margins>Избор на полетата на страницата.</Margins>
     <menuCheckIssues>Проверка на отчета за намиране на грешки, предупреждения и предложения.</menuCheckIssues>
     <menuDesignerOptions>Настройка на опции за дизайнер на отчета.</menuDesignerOptions>
@@ -2279,28 +2279,28 @@
     <MoveForward>Преместване с едно ниво напред.</MoveForward>
     <NotPossibleEnableCompilationMode>Невъзможно е да се активира режим на компилация за отчета. Това е забранено от опцията 'Достъп до компилация' в настройките на дизайнера.</NotPossibleEnableCompilationMode>
     <Orientation>Превключване между портрет и пейзаж.</Orientation>
-    <PageDelete>Изтриване на текъщата страница от отчета.</PageDelete>
+    <PageDelete>Изтриване на текущата страница.</PageDelete>
     <PageNew>Създаване на нова страница.</PageNew>
     <PageSetup>Смяна на настройките на страницата.</PageSetup>
     <PageSize>Избор на размера на хартията.</PageSize>
-    <PagesManager>Стартира менажер на страници.</PagesManager>
+    <PagesManager>Отваряне на менажера на страници.</PagesManager>
     <PressF1>Натисни  F1 за подробности</PressF1>
     <PropertiesButton>Показване на свойствата на отчета.</PropertiesButton>
-    <Redo>Връщане на по-рано отменената промяна в отчета.</Redo>
+    <Redo>Връщане на отменената промяна.</Redo>
     <RemoveMobileSurfaceButton>Премахване на мобилната повърхност.</RemoveMobileSurfaceButton>
     <ReportNew>Създаване на нов отчет.</ReportNew>
-    <ReportOpen>Отваряне на отчета в дизайнера.</ReportOpen>
-    <ReportPreview>Предварителен преглед на редактирания отчет.</ReportPreview>
-    <ReportSave>Съхраняване на текущо редактирания отчет.</ReportSave>
+    <ReportOpen>Отваряне на отчет.</ReportOpen>
+    <ReportPreview>Преглед на отчета.</ReportPreview>
+    <ReportSave>Съхраняване на отчета.</ReportSave>
     <ScreenNew>Създаване на нов екран.</ScreenNew>
     <ScriptEvalAccess1>Този документ използва Script Eval. Ако документът е от надежден източник, можете да щракнете върху бутона "Отвори", за да получите достъп до него.</ScriptEvalAccess1>
     <ScriptEvalAccess2>Ако не сте сигурни за източника на документа, но все пак искате да го видите, можете да кликнете върху бутона "Отваряне в безопасен режим". В този случай Script Eval ще бъде игнориран и няма да бъде изпълнен.</ScriptEvalAccess2>
     <ScriptSecurityFullAccess>Пълен достъп до скриптове (без ограничения, потенциално опасно).</ScriptSecurityFullAccess>
     <ScriptSecuritySafeMode>Безопасен достъп до скриптове (ограничени възможности за сигурност).</ScriptSecuritySafeMode>
-    <SelectAll>Избиране на всички компоненти от текущата страница.</SelectAll>
+    <SelectAll>Избор на всички компоненти на страницата.</SelectAll>
     <SelectUILanguage>Изберете език на интерфейса.</SelectUILanguage>
     <SendToBack>Преместване на заден план.</SendToBack>
-    <ServicesConfigurator>Стартиране на конфигуратора на сервизи.</ServicesConfigurator>
+    <ServicesConfigurator>Отваряне на конфигуратора на сервизи.</ServicesConfigurator>
     <Shadow>Показване или скриване на сянката.</Shadow>
     <ShowBehind>Показване на текста на водния знак зад компонентите.</ShowBehind>
     <ShowImageBehind>Поставяне на картинка на воден знак за всички компоненти в страницата.</ShowImageBehind>
@@ -2313,13 +2313,13 @@
     <TextBrushWatermark>Промяна на цвета на текста на воден знак.</TextBrushWatermark>
     <TextColor>Промяна на цвета на текста.</TextColor>
     <TextFormat>Избор на формата на стойностите.</TextFormat>
-    <ToolbarStyle>Прилагане на избрания стил за всички компоненти.</ToolbarStyle>
-    <Undo>Отмяна на последното изменение в отчета.</Undo>
+    <ToolbarStyle>Прилагане на стил към избраните компоненти.</ToolbarStyle>
+    <Undo>Отмяна на последната промяна.</Undo>
     <ViewModeDesktopButton>Показване на повърхността за работен плот.</ViewModeDesktopButton>
     <ViewModeMobileButton>Показване на мобилната повърхност.</ViewModeMobileButton>
     <Watermark>Смяна на настройките на водния знак.</Watermark>
     <WordWrap>Пренасяне на текста.</WordWrap>
-    <Zoom>Определяне на нивото на мащабиране в отчета.</Zoom>
+    <Zoom>Задаване на мащаба.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
     <StiButtonControl>Изпълнява действие при щракване.</StiButtonControl>

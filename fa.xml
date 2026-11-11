@@ -982,6 +982,12 @@
     <Align>تراز کردن مولفات انتخاب‌شده.</Align>
     <AlignBottom>تراز کردن محتوا به پایین.</AlignBottom>
     <AlignCenter>تراز کردن محتوا به مرکز.</AlignCenter>
+    <AlignComponentBottom>تراز کردن مولفات با لبه پایین.</AlignComponentBottom>
+    <AlignComponentCenter>تراز کردن مولفات با مرکز.</AlignComponentCenter>
+    <AlignComponentLeft>تراز کردن مولفات با لبه چپ.</AlignComponentLeft>
+    <AlignComponentMiddle>تراز کردن مولفات با وسط.</AlignComponentMiddle>
+    <AlignComponentRight>تراز کردن مولفات با لبه راست.</AlignComponentRight>
+    <AlignComponentTop>تراز کردن مولفات با لبه بالا.</AlignComponentTop>
     <AlignLeft>تراز کردن محتوا به چپ.</AlignLeft>
     <AlignMiddle>تراز کردن محتوا به وسط.</AlignMiddle>
     <AlignRight>تراز کردن محتوا به راست.</AlignRight>
@@ -1000,6 +1006,8 @@
     <BorderSidesTop>نمایش یا پنهان کردن حاشیه بالا.</BorderSidesTop>
     <BorderStyle>تغییر سبک حاشیه.</BorderStyle>
     <BringToFront>آوردن به جلو.</BringToFront>
+    <CenterHorizontally>وسط‌چین کردن افقی در حامل.</CenterHorizontally>
+    <CenterVertically>وسط‌چین کردن عمودی در حامل.</CenterVertically>
     <Columns>تقسیم صفحه به ستون‌ها.</Columns>
     <CompilationAccess1>این سند از فرایند کامپایل استفاده می‌کند. اگر سند از منبعی مطمئن است، می‌توانید برای دسترسی به آن روی دکمه "باز کردن" کلیک کنید.</CompilationAccess1>
     <CompilationAccess2>اگر از منبع سند مطمئن نیستید اما همچنان می‌خواهید آن را مشاهده کنید، می‌توانید روی دکمه "باز کردن در حالت امن" کلیک کنید. در این صورت به جای کامپایل از تفسیر استفاده می‌شود و می‌توانید سند را با امنیت اجرا کنید.</CompilationAccess2>
@@ -1010,8 +1018,16 @@
     <ComponentsMenu>نمایش عناصر استفاده‌نشده.</ComponentsMenu>
     <CopyStyle>کپی سبک به مولفات دیگر.</CopyStyle>
     <CurrencySymbol>انتخاب نماد ارز.</CurrencySymbol>
+    <DashboardNew>ایجاد داشبورد جدید.</DashboardNew>
+    <DataStore>نمایش داده‌های ثبت‌شده در گزارش.</DataStore>
     <DateTimeFormat>انتخاب قالب تاریخ و زمان.</DateTimeFormat>
     <DockingPanels>نمایش یا پنهان کردن پنل‌ها.</DockingPanels>
+    <DockStyleBottom>چسباندن به سمت پایین.</DockStyleBottom>
+    <DockStyleFill>چسباندن به همه سمت‌ها.</DockStyleFill>
+    <DockStyleLeft>چسباندن به سمت چپ.</DockStyleLeft>
+    <DockStyleNone>لغو چسباندن مولفات.</DockStyleNone>
+    <DockStyleRight>چسباندن به سمت راست.</DockStyleRight>
+    <DockStyleTop>چسباندن به سمت بالا.</DockStyleTop>
     <FontGrow>بزرگ‌تر کردن متن.</FontGrow>
     <FontName>تغییر فونت متن.</FontName>
     <FontShrink>کوچک‌تر کردن متن.</FontShrink>
@@ -1020,12 +1036,23 @@
     <FontStyleItalic>مورب کردن متن.</FontStyleItalic>
     <FontStyleStrikeout>خط زدن متن.</FontStyleStrikeout>
     <FontStyleUnderline>خط کشیدن زیر متن.</FontStyleUnderline>
+    <FormatBoolean>قالب‌بندی مقدار از نوع بولی.</FormatBoolean>
+    <FormatCurrency>نمایش مقدار به صورت ارز.</FormatCurrency>
+    <FormatCustom>نمایش مقدار با ماسک قالب سفارشی.</FormatCustom>
+    <FormatDate>نمایش مقدار به صورت تاریخ.</FormatDate>
+    <FormatGeneral>نمایش مقدار بدون قالب خاص.</FormatGeneral>
+    <FormatNumber>نمایش مقدار به صورت عدد.</FormatNumber>
+    <FormatPercentage>نمایش مقدار به صورت درصد.</FormatPercentage>
+    <FormatTime>نمایش مقدار به صورت زمان.</FormatTime>
+    <FormNew>ایجاد فرم محاوره‌ای جدید.</FormNew>
     <GridMode>نمایش شبکه به صورت خط یا نقطه.</GridMode>
     <Interaction>تنظیم تعامل.</Interaction>
     <LineSpacing>تغییر فاصله خطوط.</LineSpacing>
     <Link>پیوند دادن به حامل.</Link>
     <Lock>قفل کردن موقعیت و اندازه.</Lock>
     <MainMenu>ایجاد، باز کردن یا ذخیره گزارش.</MainMenu>
+    <MakeHorizontalSpacingEqual>برابر کردن فاصله افقی.</MakeHorizontalSpacingEqual>
+    <MakeVerticalSpacingEqual>برابر کردن فاصله عمودی.</MakeVerticalSpacingEqual>
     <Margins>انتخاب حاشیه‌های صفحه.</Margins>
     <menuEditClearContents>پاک کردن محتوا.</menuEditClearContents>
     <menuEditCopy>کپی مولفات انتخاب‌شده.</menuEditCopy>
@@ -1046,19 +1073,33 @@
     <MoveBackward>انتقال یک سطح به عقب.</MoveBackward>
     <MoveForward>انتقال یک سطح به جلو.</MoveForward>
     <Orientation>جابه‌جایی بین حالت عمودی و افقی.</Orientation>
+    <PageDelete>حذف صفحه جاری.</PageDelete>
+    <PageNew>ایجاد صفحه جدید.</PageNew>
     <PageSetup>تغییر تنظیمات صفحه.</PageSetup>
     <PageSize>انتخاب اندازه کاغذ.</PageSize>
+    <PagesManager>باز کردن مدیر صفحات.</PagesManager>
     <PropertiesButton>نمایش خصوصیات گزارش.</PropertiesButton>
+    <Redo>انجام دوباره تغییر لغوشده.</Redo>
     <RemoveMobileSurfaceButton>حذف سطح موبایل.</RemoveMobileSurfaceButton>
+    <ReportNew>ایجاد گزارش جدید.</ReportNew>
+    <ReportOpen>باز کردن یک گزارش.</ReportOpen>
+    <ReportPreview>پیش‌نمایش گزارش.</ReportPreview>
+    <ReportSave>ذخیره گزارش.</ReportSave>
+    <ScreenNew>ایجاد صفحه‌نمایش جدید.</ScreenNew>
+    <SelectAll>انتخاب همه مولفات صفحه.</SelectAll>
     <SendToBack>فرستادن به عقب.</SendToBack>
+    <ServicesConfigurator>باز کردن تنظیم کننده خدمات.</ServicesConfigurator>
     <Shadow>نمایش یا پنهان کردن سایه.</Shadow>
     <StyleDesigner>باز کردن طراح سبک.</StyleDesigner>
     <TextColor>تغییر رنگ متن.</TextColor>
     <TextFormat>انتخاب قالب مقادیر.</TextFormat>
+    <ToolbarStyle>اعمال سبک به مولفات انتخاب‌شده.</ToolbarStyle>
+    <Undo>لغو آخرین تغییر.</Undo>
     <ViewModeDesktopButton>نمایش سطح دسکتاپ.</ViewModeDesktopButton>
     <ViewModeMobileButton>نمایش سطح موبایل.</ViewModeMobileButton>
     <Watermark>تغییر تنظیمات واترمارک.</Watermark>
     <WordWrap>شکستن متن به چند خط.</WordWrap>
+    <Zoom>تعیین سطح زوم.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
     <StiButtonControl>با کلیک، یک عمل را اجرا می‌کند.</StiButtonControl>

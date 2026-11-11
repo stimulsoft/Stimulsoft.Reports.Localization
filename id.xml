@@ -2150,12 +2150,12 @@
     <Align>Ratakan komponen yang dipilih.</Align>
     <AlignBottom>Ratakan isi ke bawah.</AlignBottom>
     <AlignCenter>Ratakan isi ke tengah.</AlignCenter>
-    <AlignComponentBottom>Mengizinkan anda untuk meratakan objek secara horisontal pada bagian bawah komponen yang dipilih.</AlignComponentBottom>
-    <AlignComponentCenter>Mengizinkan anda untuk meratakan objek secara horisontal pada bagian tengah komponen yang dipilih</AlignComponentCenter>
-    <AlignComponentLeft>Mengizinkan anda untuk meratakan objek secara vertikal pada bagian kiri komponen yang dipilih.</AlignComponentLeft>
-    <AlignComponentMiddle>Mengizinkan anda untuk meratakan objek secara vertikal pada bagian tengah komponen yang dipilih.</AlignComponentMiddle>
-    <AlignComponentRight>Mengizinkan anda untuk meratakan objek secara vertikal pada bagian kanan komponen yang dipilih.</AlignComponentRight>
-    <AlignComponentTop>Mengizinkan anda untuk meratakan objek secara horisontal pada bagian atas komponen yang dipilih.</AlignComponentTop>
+    <AlignComponentBottom>Ratakan komponen menurut tepi bawah.</AlignComponentBottom>
+    <AlignComponentCenter>Ratakan komponen menurut tengah.</AlignComponentCenter>
+    <AlignComponentLeft>Ratakan komponen menurut tepi kiri.</AlignComponentLeft>
+    <AlignComponentMiddle>Ratakan komponen menurut tengah vertikal.</AlignComponentMiddle>
+    <AlignComponentRight>Ratakan komponen menurut tepi kanan.</AlignComponentRight>
+    <AlignComponentTop>Ratakan komponen menurut tepi atas.</AlignComponentTop>
     <AlignLeft>Ratakan isi ke kiri.</AlignLeft>
     <AlignMiddle>Ratakan isi ke tengah secara vertikal.</AlignMiddle>
     <AlignRight>Ratakan isi ke kanan.</AlignRight>
@@ -2175,8 +2175,8 @@
     <BorderSidesTop>Tampilkan atau sembunyikan pinggiran atas.</BorderSidesTop>
     <BorderStyle>Ubah gaya pinggiran.</BorderStyle>
     <BringToFront>Bawa ke depan.</BringToFront>
-    <CenterHorizontally>Mengizinkan anda untuk meratakan komponen secara horisontal tergantung pada tepi kontainer dimana diletakkan.</CenterHorizontally>
-    <CenterVertically>Mngizinkan anda untuk meratakan suatu komponen secara vertikal tergantung pada tepi komponen dimana diletakkan.</CenterVertically>
+    <CenterHorizontally>Pusatkan secara horizontal di kontainer.</CenterHorizontally>
+    <CenterVertically>Pusatkan secara vertikal di kontainer.</CenterVertically>
     <Close>Tutup Pembuat Laporan.</Close>
     <Columns>Bagi halaman menjadi kolom.</Columns>
     <CompilationAccess1>Dokumen ini menggunakan proses kompilasi. Jika dokumen berasal dari sumber tepercaya, Anda dapat mengeklik tombol "Buka" untuk mengaksesnya.</CompilationAccess1>
@@ -2195,15 +2195,15 @@
     <CopyToClipboard>Salin ke Clipboard</CopyToClipboard>
     <CurrencySymbol>Pilih simbol mata uang.</CurrencySymbol>
     <DashboardNew>Buat dasbor baru.</DashboardNew>
-    <DataStore>Tunjukkan data, terdaftar pada laporan.</DataStore>
+    <DataStore>Tampilkan data yang terdaftar di laporan.</DataStore>
     <DateTimeFormat>Pilih format tanggal dan waktu.</DateTimeFormat>
     <DockingPanels>Tampilkan atau sembunyikan panel.</DockingPanels>
-    <DockStyleBottom>Dekatkan komponen terpilih ke sisi bawah.</DockStyleBottom>
-    <DockStyleFill>Dekatkan komponen terpilih ke semua sisi.</DockStyleFill>
-    <DockStyleLeft>Dekatkan komponen terpilih ke sisi kiri.</DockStyleLeft>
-    <DockStyleNone>Jauhkan komponen terpilih.</DockStyleNone>
-    <DockStyleRight>Dekatkan komponen terpilih ke sisi kanan.</DockStyleRight>
-    <DockStyleTop>Dekatkan komponen terpilih ke sisi atas.</DockStyleTop>
+    <DockStyleBottom>Tambatkan ke sisi bawah.</DockStyleBottom>
+    <DockStyleFill>Tambatkan ke semua sisi.</DockStyleFill>
+    <DockStyleLeft>Tambatkan ke sisi kiri.</DockStyleLeft>
+    <DockStyleNone>Lepaskan tambatan komponen.</DockStyleNone>
+    <DockStyleRight>Tambatkan ke sisi kanan.</DockStyleRight>
+    <DockStyleTop>Tambatkan ke sisi atas.</DockStyleTop>
     <EventsAccess1>Dokumen ini menggunakan Events. Jika dokumen berasal dari sumber tepercaya, Anda dapat mengeklik tombol "Buka" untuk mengaksesnya.</EventsAccess1>
     <EventsAccess2>Jika Anda tidak yakin dengan sumber dokumen tetapi tetap ingin melihatnya, Anda dapat mengklik tombol "Open in safe mode". Dalam hal ini, peristiwa akan diabaikan dan tidak dijalankan.</EventsAccess2>
     <FontGrow>Perbesar teks.</FontGrow>
@@ -2219,15 +2219,15 @@
     <FontStyleStrikeout>Coret teks.</FontStyleStrikeout>
     <FontStyleUnderline>Garis bawahi teks.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Buat tulisan cat air digarus bawahi.</FontStyleUnderlineWatermark>
-    <FormatBoolean>Format ini digunakan untuk memformat nilai dari tipe boolean.</FormatBoolean>
-    <FormatCurrency>Tampilkan nilai sebagai mata uang. Ini akan mengizinkan anda untuk menampilkan satu nomoer dengan simbol mata uang dengan default.</FormatCurrency>
-    <FormatCustom>Tipe ini digunakan untuk menunjukkan nilai berdasarkan permintaan khusus. Tipe ini mengizinkan data untuk diformat dengan Masking.</FormatCustom>
-    <FormatDate>Tampilkan nilai sebagai tanggal. Format tanggal berdasarkan pada pengaturan tanggal wilayah setempat.</FormatDate>
+    <FormatBoolean>Format nilai bertipe boolean.</FormatBoolean>
+    <FormatCurrency>Tampilkan nilai sebagai mata uang.</FormatCurrency>
+    <FormatCustom>Tampilkan nilai dengan masker format kustom.</FormatCustom>
+    <FormatDate>Tampilkan nilai sebagai tanggal.</FormatDate>
     <FormatGeneral>Tampilkan nilai tanpa format yang khusus.</FormatGeneral>
-    <FormatNumber>Ini digunakan secara umum untuk menampilkan nomer.</FormatNumber>
-    <FormatPercentage>Tampilkan nilai sebagai persen. Nomer dikalikan dengan 100 untuk mengkonversi menjadi persen.</FormatPercentage>
-    <FormatTime>Tampilkan nilai sebagai waktu. Format waktu berdasarkan pengaturan waktu wilayah setempat.</FormatTime>
-    <FormNew>Buat satu form dialog baru.</FormNew>
+    <FormatNumber>Tampilkan nilai sebagai angka.</FormatNumber>
+    <FormatPercentage>Tampilkan nilai sebagai persen.</FormatPercentage>
+    <FormatTime>Tampilkan nilai sebagai waktu.</FormatTime>
+    <FormNew>Buat form dialog baru.</FormNew>
     <GridMode>Tampilkan grid sebagai garis atau titik.</GridMode>
     <ImageAlignment>Letakkan gambar cat air pada halaman.</ImageAlignment>
     <ImageTransparency>Rubah transparansi dari gambar cat air.</ImageTransparency>
@@ -2237,8 +2237,8 @@
     <LoadImage>Muat Gambar Cat air dari file.</LoadImage>
     <Lock>Kunci posisi dan ukuran.</Lock>
     <MainMenu>Buat, buka, atau simpan laporan.</MainMenu>
-    <MakeHorizontalSpacingEqual>Mengizinkan anda untuk menetapkan jarak horisontal antara komponen-komponen terpilih.</MakeHorizontalSpacingEqual>
-    <MakeVerticalSpacingEqual>Mengizinkan anda untuk menetapkan jarak vertikal antara komponen-komponen terpilih.</MakeVerticalSpacingEqual>
+    <MakeHorizontalSpacingEqual>Samakan jarak horizontal.</MakeHorizontalSpacingEqual>
+    <MakeVerticalSpacingEqual>Samakan jarak vertikal.</MakeVerticalSpacingEqual>
     <Margins>Pilih margin halaman.</Margins>
     <menuCheckIssues>Memeirksa melalui laporan untuk mencari error, peringatan dan mendapat rekomendasi.</menuCheckIssues>
     <menuDesignerOptions>Pilihan Pengaturan pembuat laporan.</menuDesignerOptions>
@@ -2274,28 +2274,28 @@
     <MoveForward>Pindahkan satu tingkat ke depan.</MoveForward>
     <NotPossibleEnableCompilationMode>Tidak mungkin mengaktifkan mode kompilasi untuk laporan. Ini dilarang oleh opsi 'Compilation Access' di pengaturan desainer.</NotPossibleEnableCompilationMode>
     <Orientation>Beralih antara potret dan lanskap.</Orientation>
-    <PageDelete>Hapus halaman ini pada laporan.</PageDelete>
-    <PageNew>Membuat satu halaman baru.</PageNew>
+    <PageDelete>Hapus halaman saat ini.</PageDelete>
+    <PageNew>Buat halaman baru.</PageNew>
     <PageSetup>Ubah pengaturan halaman.</PageSetup>
     <PageSize>Pilih ukuran kertas.</PageSize>
-    <PagesManager>Jalankan Pengatur Halaman.</PagesManager>
+    <PagesManager>Buka Pengaturan Halaman.</PagesManager>
     <PressF1>Tekan F1 untuk Detail Lebih</PressF1>
     <PropertiesButton>Tampilkan properti laporan.</PropertiesButton>
-    <Redo>Majukan perubahan sebelumnya pada laporan.</Redo>
+    <Redo>Ulangi perubahan yang dibatalkan.</Redo>
     <RemoveMobileSurfaceButton>Hapus permukaan seluler.</RemoveMobileSurfaceButton>
-    <ReportNew>Buat Laporan Baru.</ReportNew>
-    <ReportOpen>Buka laporan pada designer.</ReportOpen>
-    <ReportPreview>Pratinjau suatu laporan yang diedit pada pelihat.</ReportPreview>
-    <ReportSave>Simpan laporan yang dirubah ini.</ReportSave>
+    <ReportNew>Buat laporan baru.</ReportNew>
+    <ReportOpen>Buka laporan.</ReportOpen>
+    <ReportPreview>Pratinjau laporan.</ReportPreview>
+    <ReportSave>Simpan laporan.</ReportSave>
     <ScreenNew>Buat layar baru.</ScreenNew>
     <ScriptEvalAccess1>Dokumen ini menggunakan Script Eval. Jika dokumen berasal dari sumber tepercaya, Anda dapat mengeklik tombol "Buka" untuk mengaksesnya.</ScriptEvalAccess1>
     <ScriptEvalAccess2>Jika Anda tidak yakin dengan sumber dokumen tetapi tetap ingin melihatnya, Anda dapat mengklik tombol "Open in safe mode". Dalam hal ini, Script Eval akan diabaikan dan tidak dijalankan.</ScriptEvalAccess2>
     <ScriptSecurityFullAccess>Akses skrip penuh (tanpa batasan, berpotensi tidak aman).</ScriptSecurityFullAccess>
     <ScriptSecuritySafeMode>Akses skrip aman (kemampuan terbatas untuk keamanan).</ScriptSecuritySafeMode>
-    <SelectAll>Pilih semua komponen pada halaman ini.</SelectAll>
+    <SelectAll>Pilih semua komponen pada halaman.</SelectAll>
     <SelectUILanguage>Pilih Bahasa UI.</SelectUILanguage>
     <SendToBack>Kirim ke belakang.</SendToBack>
-    <ServicesConfigurator>Jalankan Services Configurator.</ServicesConfigurator>
+    <ServicesConfigurator>Buka Services Configurator.</ServicesConfigurator>
     <Shadow>Tampilkan atau sembunyikan bayangan.</Shadow>
     <ShowBehind>Perlihatkan tulisan cap air di belakang komponen.</ShowBehind>
     <ShowImageBehind>Letakkan Gambar Cap Air di belakang semua komponen pada halaman.</ShowImageBehind>
@@ -2308,13 +2308,13 @@
     <TextBrushWatermark>Rubah warna tulisan pada cap air.</TextBrushWatermark>
     <TextColor>Ubah warna teks.</TextColor>
     <TextFormat>Pilih format nilai.</TextFormat>
-    <ToolbarStyle>Pilih corak yang dipilih kepada semua komponen yang dipilih.</ToolbarStyle>
-    <Undo>Kembalikan perubahan terakhir dari laporan.</Undo>
+    <ToolbarStyle>Terapkan gaya ke komponen yang dipilih.</ToolbarStyle>
+    <Undo>Batalkan perubahan terakhir.</Undo>
     <ViewModeDesktopButton>Tampilkan permukaan desktop.</ViewModeDesktopButton>
     <ViewModeMobileButton>Tampilkan permukaan seluler.</ViewModeMobileButton>
     <Watermark>Ubah pengaturan tanda air.</Watermark>
     <WordWrap>Bungkus teks.</WordWrap>
-    <Zoom>Tentukan Persentase untuk melihat laporan.</Zoom>
+    <Zoom>Tentukan tingkat perbesaran.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
     <StiButtonControl>Menjalankan tindakan saat diklik.</StiButtonControl>

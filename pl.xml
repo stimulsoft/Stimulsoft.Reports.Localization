@@ -2151,12 +2151,12 @@
     <Align>Wyrównaj wybrane komponenty.</Align>
     <AlignBottom>Wyrównaj zawartość do dołu.</AlignBottom>
     <AlignCenter>Wyrównaj zawartość do środka.</AlignCenter>
-    <AlignComponentBottom>Pozwala na wyrównanie obiektów poziomo wzdłuż dolnej krawędzi wybranych komponentów.</AlignComponentBottom>
-    <AlignComponentCenter>Pozwala na wyrównanie obiektów poziomo wzdłuż środkowej krawędzi wybranych komponentów.</AlignComponentCenter>
-    <AlignComponentLeft>Pozwala na wyrównanie obiektów pionowo wzdłuż lewej krawędzi wybranych komponentów.</AlignComponentLeft>
-    <AlignComponentMiddle>Pozwala na wyrównanie obiektów pionowo wzdłuż środkowej krawędzi wybranych komponentów.</AlignComponentMiddle>
-    <AlignComponentRight>Pozwala na wyrównanie obiektów pionowo wzdłuż prawej krawędzi wybranych komponentów.</AlignComponentRight>
-    <AlignComponentTop>Pozwala na wyrównanie obiektów poziomo wzdłuż górnej krawędzi wybranych komponentów.</AlignComponentTop>
+    <AlignComponentBottom>Wyrównaj komponenty do dolnej krawędzi.</AlignComponentBottom>
+    <AlignComponentCenter>Wyrównaj komponenty do środka.</AlignComponentCenter>
+    <AlignComponentLeft>Wyrównaj komponenty do lewej krawędzi.</AlignComponentLeft>
+    <AlignComponentMiddle>Wyrównaj komponenty do środka w pionie.</AlignComponentMiddle>
+    <AlignComponentRight>Wyrównaj komponenty do prawej krawędzi.</AlignComponentRight>
+    <AlignComponentTop>Wyrównaj komponenty do górnej krawędzi.</AlignComponentTop>
     <AlignLeft>Wyrównaj zawartość do lewej.</AlignLeft>
     <AlignMiddle>Wyrównaj zawartość do środka w pionie.</AlignMiddle>
     <AlignRight>Wyrównaj zawartość do prawej.</AlignRight>
@@ -2176,8 +2176,8 @@
     <BorderSidesTop>Wyświetl lub ukryj górną krawędź.</BorderSidesTop>
     <BorderStyle>Zmień styl krawędzi.</BorderStyle>
     <BringToFront>Przesuń na wierzch.</BringToFront>
-    <CenterHorizontally>Pozwala na wyrównanie komponentu poziomo w stosunku do krawędzi kontenera, w którym jest umieszczony.</CenterHorizontally>
-    <CenterVertically>Pozwala na wyrównanie komponentu pionowo w stosunku do krawędzi kontenera, w którym jest umieszczony.</CenterVertically>
+    <CenterHorizontally>Wyśrodkuj w poziomie w kontenerze.</CenterHorizontally>
+    <CenterVertically>Wyśrodkuj w pionie w kontenerze.</CenterVertically>
     <Close>Zamknij Projektanta Raportów.</Close>
     <Columns>Podziel stronę na kolumny.</Columns>
     <CompilationAccess1>Ten dokument wykorzystuje proces kompilacji. Jeśli dokument pochodzi z zaufanego źródła, możesz kliknąć przycisk "Otwórz", aby uzyskać do niego dostęp.</CompilationAccess1>
@@ -2199,12 +2199,12 @@
     <DataStore>Wyświetl dane zarejestrowane w raporcie.</DataStore>
     <DateTimeFormat>Wybierz format daty i godziny.</DateTimeFormat>
     <DockingPanels>Wyświetl lub ukryj panele.</DockingPanels>
-    <DockStyleBottom>Zadokuj wybrane komponenty na dole.</DockStyleBottom>
-    <DockStyleFill>Zadokuj wybrane komponenty na wszystkich stronach.</DockStyleFill>
-    <DockStyleLeft>Zadokuj wybrane komponentu po lewej.</DockStyleLeft>
-    <DockStyleNone>Wyłącz dokowanie dla wybranych komponentów.</DockStyleNone>
-    <DockStyleRight>Zadokuj wybrane komponenty po prawej.</DockStyleRight>
-    <DockStyleTop>Zadokuj wybrane komponenty na górze.</DockStyleTop>
+    <DockStyleBottom>Zadokuj do dolnej krawędzi.</DockStyleBottom>
+    <DockStyleFill>Zadokuj do wszystkich krawędzi.</DockStyleFill>
+    <DockStyleLeft>Zadokuj do lewej krawędzi.</DockStyleLeft>
+    <DockStyleNone>Oddokuj komponenty.</DockStyleNone>
+    <DockStyleRight>Zadokuj do prawej krawędzi.</DockStyleRight>
+    <DockStyleTop>Zadokuj do górnej krawędzi.</DockStyleTop>
     <EventsAccess1>Ten dokument wykorzystuje Zdarzenia. Jeśli dokument pochodzi z zaufanego źródła, możesz kliknąć przycisk "Otwórz", aby uzyskać do niego dostęp.</EventsAccess1>
     <EventsAccess2>Jeśli nie masz pewności co do źródła dokumentu, ale nadal chcesz go wyświetlić, możesz kliknąć przycisk "Otwórz w trybie bezpiecznym". W takim przypadku zdarzenia zostaną zignorowane i nie będą wykonywane.</EventsAccess2>
     <FontGrow>Powiększ tekst.</FontGrow>
@@ -2220,14 +2220,14 @@
     <FontStyleStrikeout>Przekreśl tekst.</FontStyleStrikeout>
     <FontStyleUnderline>Podkreśl tekst.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Ustaw podkreślenie tekstu znaku wodnego.</FontStyleUnderlineWatermark>
-    <FormatBoolean>Ten format jest używany do wartości typu boolowskiego (Prawda/Fałsz lub 0/1).</FormatBoolean>
-    <FormatCurrency>Wyświetl wartość jako walutę. Pozwala na wyświetlenie liczby wraz z domyślnym symbolem waluty.</FormatCurrency>
-    <FormatCustom>Ten typ jest używany do wyświetlania wartości według ustalonych wymagań. Ten typ pozwala na formatowanie danych przez maskę formatowania.</FormatCustom>
-    <FormatDate>Wyświetl wartość jako datę. Format daty bazuje na regionalnych ustawieniach.</FormatDate>
-    <FormatGeneral>Wyświetl wartość bez wyszczególnionego formatu.</FormatGeneral>
-    <FormatNumber>Jest używany do ogólnej reprezentacji liczb.</FormatNumber>
-    <FormatPercentage>Wyświetl wartość jako procent. Liczby są mnożone przez 100 do zamiany je w procenty.</FormatPercentage>
-    <FormatTime>Wyświetl wartość jako czas. Format czasu bazuje na ustawieniach regionalnych.</FormatTime>
+    <FormatBoolean>Sformatuj wartość typu logicznego.</FormatBoolean>
+    <FormatCurrency>Wyświetl wartość jako walutę.</FormatCurrency>
+    <FormatCustom>Wyświetl wartość z własną maską formatu.</FormatCustom>
+    <FormatDate>Wyświetl wartość jako datę.</FormatDate>
+    <FormatGeneral>Wyświetl wartość bez określonego formatu.</FormatGeneral>
+    <FormatNumber>Wyświetl wartość jako liczbę.</FormatNumber>
+    <FormatPercentage>Wyświetl wartość jako procent.</FormatPercentage>
+    <FormatTime>Wyświetl wartość jako czas.</FormatTime>
     <FormNew>Stwórz nowy formularz okna dialogowego.</FormNew>
     <GridMode>Wyświetl siatkę jako linie lub kropki.</GridMode>
     <ImageAlignment>Umieść obraz znaku wodnego na stronie.</ImageAlignment>
@@ -2238,8 +2238,8 @@
     <LoadImage>Załaduj obrazy znaków wodnych z pliku.</LoadImage>
     <Lock>Zablokuj położenie i rozmiar.</Lock>
     <MainMenu>Utwórz, otwórz lub zapisz raport.</MainMenu>
-    <MakeHorizontalSpacingEqual>Pozwala na ustawienie równych odstępów poziomych pomiędzy wybranymi komponentami.</MakeHorizontalSpacingEqual>
-    <MakeVerticalSpacingEqual>Pozwala na ustawienie równych odstępów pionowych pomiędzy wybranymi komponentami</MakeVerticalSpacingEqual>
+    <MakeHorizontalSpacingEqual>Ustaw równe odstępy poziome.</MakeHorizontalSpacingEqual>
+    <MakeVerticalSpacingEqual>Ustaw równe odstępy pionowe.</MakeVerticalSpacingEqual>
     <Margins>Wybierz marginesy strony.</Margins>
     <menuCheckIssues>Sprawdź raport w poszukiwaniu błędów, ostrzeżeń i wyświetl rozwiązania.</menuCheckIssues>
     <menuDesignerOptions>Ustaw opcje projektanta raportów.</menuDesignerOptions>
@@ -2275,28 +2275,28 @@
     <MoveForward>Przesuń o jeden poziom do przodu.</MoveForward>
     <NotPossibleEnableCompilationMode>Nie można włączyć trybu kompilacji dla raportu. Jest to zabronione przez opcję 'Dostęp do kompilacji' w ustawieniach projektanta.</NotPossibleEnableCompilationMode>
     <Orientation>Przełącz między orientacją pionową a poziomą.</Orientation>
-    <PageDelete>Usuń aktualną stronę z raportu.</PageDelete>
-    <PageNew>Stwórz nową stronę</PageNew>
+    <PageDelete>Usuń aktualną stronę.</PageDelete>
+    <PageNew>Stwórz nową stronę.</PageNew>
     <PageSetup>Zmień ustawienia strony.</PageSetup>
     <PageSize>Wybierz rozmiar papieru.</PageSize>
-    <PagesManager>Uruchom menedżera stron.</PagesManager>
+    <PagesManager>Otwórz Menedżera stron.</PagesManager>
     <PressF1>Naciśnij F1 dla uzyskania większej ilości szczegółów</PressF1>
     <PropertiesButton>Wyświetl właściwości raportu.</PropertiesButton>
-    <Redo>Przywróć poprzednio anulowaną zmianę w raporcie.</Redo>
+    <Redo>Przywróć cofniętą zmianę.</Redo>
     <RemoveMobileSurfaceButton>Usuń widok mobilny.</RemoveMobileSurfaceButton>
     <ReportNew>Stwórz nowy raport.</ReportNew>
-    <ReportOpen>Otwórz raport w projektancie.</ReportOpen>
-    <ReportPreview>Podejrzyj modyfikowany raport w przeglądarce raportów.</ReportPreview>
-    <ReportSave>Zapisz aktualnie modyfikowany raport.</ReportSave>
+    <ReportOpen>Otwórz raport.</ReportOpen>
+    <ReportPreview>Podejrzyj raport.</ReportPreview>
+    <ReportSave>Zapisz raport.</ReportSave>
     <ScreenNew>Utwórz nowy ekran.</ScreenNew>
     <ScriptEvalAccess1>Ten dokument używa funkcji Script Eval. Jeśli dokument pochodzi z zaufanego źródła, możesz kliknąć przycisk „Otwórz”, aby uzyskać do niego dostęp.</ScriptEvalAccess1>
     <ScriptEvalAccess2>Jeśli nie masz pewności co do źródła dokumentu, ale nadal chcesz go wyświetlić, możesz kliknąć przycisk „Otwórz w trybie bezpiecznym”. W takim przypadku funkcja Script Eval zostanie pominięta i nie zostanie wykonana.</ScriptEvalAccess2>
     <ScriptSecurityFullAccess>Pełny dostęp do skryptów (bez ograniczeń, potencjalnie niebezpieczne).</ScriptSecurityFullAccess>
     <ScriptSecuritySafeMode>Bezpieczny dostęp do skryptów (ograniczone możliwości ze względów bezpieczeństwa).</ScriptSecuritySafeMode>
-    <SelectAll>Wybierz wszystkie komponenty na aktualnej stronie.</SelectAll>
+    <SelectAll>Wybierz wszystkie komponenty na stronie.</SelectAll>
     <SelectUILanguage>Wybierz język interfejsu.</SelectUILanguage>
     <SendToBack>Przesuń na spód.</SendToBack>
-    <ServicesConfigurator>Uruchom konfiguratora usług.</ServicesConfigurator>
+    <ServicesConfigurator>Otwórz Konfigurator usług.</ServicesConfigurator>
     <Shadow>Wyświetl lub ukryj cień.</Shadow>
     <ShowBehind>Wyświetl tekst znaku wodnego pod komponentami.</ShowBehind>
     <ShowImageBehind>Ustaw obraz znaku wodnego pod wszystkimi komponentami na stronie.</ShowImageBehind>
@@ -2309,13 +2309,13 @@
     <TextBrushWatermark>Zmień kolor tekstu znaku wodnego.</TextBrushWatermark>
     <TextColor>Zmień kolor tekstu.</TextColor>
     <TextFormat>Wybierz format wartości.</TextFormat>
-    <ToolbarStyle>Ustaw wybrany styl dla wszystkich wybranych komponentów.</ToolbarStyle>
-    <Undo>Cofnij ostatnią zmianę w raporcie.</Undo>
+    <ToolbarStyle>Zastosuj styl do wybranych komponentów.</ToolbarStyle>
+    <Undo>Cofnij ostatnią zmianę.</Undo>
     <ViewModeDesktopButton>Wyświetl widok desktopowy.</ViewModeDesktopButton>
     <ViewModeMobileButton>Wyświetl widok mobilny.</ViewModeMobileButton>
     <Watermark>Zmień ustawienia znaku wodnego.</Watermark>
     <WordWrap>Zawijaj tekst.</WordWrap>
-    <Zoom>Ustaw poziom zbliżenia raportu.</Zoom>
+    <Zoom>Określ poziom powiększenia.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
     <StiButtonControl>Uruchamia akcję po kliknięciu.</StiButtonControl>

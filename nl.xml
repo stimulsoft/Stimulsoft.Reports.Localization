@@ -2150,12 +2150,12 @@
     <Align>Lijn de geselecteerde componenten uit.</Align>
     <AlignBottom>Lijn de inhoud onderaan uit.</AlignBottom>
     <AlignCenter>Centreer de inhoud.</AlignCenter>
-    <AlignComponentBottom>Hiermee kunt u horizontaal uitlijnen van objecten langs de onderste rand van de geselecteerde componenten.</AlignComponentBottom>
-    <AlignComponentCenter>Hiermee kunt u horizontaal uitlijnen van objecten langs het midden rand van de geselecteerde componenten.</AlignComponentCenter>
-    <AlignComponentLeft>Hiermee kunt u objecten uit te lijnen verticaal langs de linkerrand van de geselecteerde componenten.</AlignComponentLeft>
-    <AlignComponentMiddle>Hiermee kunt u objecten uit te lijnen verticaal langs het centrum rand van de geselecteerde componenten.</AlignComponentMiddle>
-    <AlignComponentRight>Hiermee kunt u objecten uit te lijnen verticaal langs de rechterkant van de geselecteerde componenten.</AlignComponentRight>
-    <AlignComponentTop>Hiermee kunt u horizontaal uitlijnen van objecten langs de bovenrand van de geselecteerde componenten.</AlignComponentTop>
+    <AlignComponentBottom>Lijn de componenten uit op de onderrand.</AlignComponentBottom>
+    <AlignComponentCenter>Centreer de componenten.</AlignComponentCenter>
+    <AlignComponentLeft>Lijn de componenten uit op de linkerrand.</AlignComponentLeft>
+    <AlignComponentMiddle>Lijn de componenten in het midden uit.</AlignComponentMiddle>
+    <AlignComponentRight>Lijn de componenten uit op de rechterrand.</AlignComponentRight>
+    <AlignComponentTop>Lijn de componenten uit op de bovenrand.</AlignComponentTop>
     <AlignLeft>Lijn de inhoud links uit.</AlignLeft>
     <AlignMiddle>Lijn de inhoud in het midden uit.</AlignMiddle>
     <AlignRight>Lijn de inhoud rechts uit.</AlignRight>
@@ -2175,8 +2175,8 @@
     <BorderSidesTop>Toon of verberg de bovenrand.</BorderSidesTop>
     <BorderStyle>Wijzig de randstijl.</BorderStyle>
     <BringToFront>Breng naar de voorgrond.</BringToFront>
-    <CenterHorizontally>Hiermee kunt u af te stemmen op een component horizontaal ten opzichte van de container randen in wat het wordt geplaatst.</CenterHorizontally>
-    <CenterVertically>Hiermee kunt u af te stemmen op een component verticaal ten opzichte van de verpakking randen in wat het wordt geplaatst.</CenterVertically>
+    <CenterHorizontally>Centreer horizontaal in de container.</CenterHorizontally>
+    <CenterVertically>Centreer verticaal in de container.</CenterVertically>
     <Close>Sluit de Report Designer.</Close>
     <Columns>Splits de pagina in kolommen.</Columns>
     <CompilationAccess1>Dit document maakt gebruik van het compilatieproces. Als het document van een vertrouwde bron afkomstig is, kunt u op de knop "Openen" klikken om het te openen.</CompilationAccess1>
@@ -2194,16 +2194,16 @@
     <CopyStyle>Kopieer de stijl naar andere componenten.</CopyStyle>
     <CopyToClipboard>Kopiëren naar klembord</CopyToClipboard>
     <CurrencySymbol>Selecteer het valutasymbool.</CurrencySymbol>
-    <DashboardNew>Een nieuw dashboard maken.</DashboardNew>
-    <DataStore>Tonen van gegevens, geregistreerd in een rapport.</DataStore>
+    <DashboardNew>Maak een nieuw dashboard.</DashboardNew>
+    <DataStore>Toon de geregistreerde rapportgegevens.</DataStore>
     <DateTimeFormat>Selecteer het datum- en tijdformaat.</DateTimeFormat>
     <DockingPanels>Toon of verberg de panelen.</DockingPanels>
-    <DockStyleBottom>Dock geselecteerde componenten aan onderkant.</DockStyleBottom>
-    <DockStyleFill>Dock geselecteerde componenten naar alle kanten.</DockStyleFill>
-    <DockStyleLeft>Dock geselecteerde componenten aan de linkerkant.</DockStyleLeft>
-    <DockStyleNone>Loskoppelen geselecteerde componenten.</DockStyleNone>
-    <DockStyleRight>Dock geselecteerde componenten aan de rechterkant.</DockStyleRight>
-    <DockStyleTop>Dok de geselecteerde componenten aan de bovenkant.</DockStyleTop>
+    <DockStyleBottom>Dock aan de onderkant.</DockStyleBottom>
+    <DockStyleFill>Dock aan alle kanten.</DockStyleFill>
+    <DockStyleLeft>Dock aan de linkerkant.</DockStyleLeft>
+    <DockStyleNone>Hef het docken van de componenten op.</DockStyleNone>
+    <DockStyleRight>Dock aan de rechterkant.</DockStyleRight>
+    <DockStyleTop>Dock aan de bovenkant.</DockStyleTop>
     <EventsAccess1>Dit document maakt gebruik van Events. Als het document van een vertrouwde bron afkomstig is, kunt u op de knop "Openen" klikken om het te openen.</EventsAccess1>
     <EventsAccess2>Als u niet zeker bent van de bron van het document maar het toch wilt bekijken, kunt u op de knop "Openen in veilige modus" klikken. In dat geval worden gebeurtenissen genegeerd en niet uitgevoerd.</EventsAccess2>
     <FontGrow>Maak de tekst groter.</FontGrow>
@@ -2219,15 +2219,15 @@
     <FontStyleStrikeout>Haal de tekst door.</FontStyleStrikeout>
     <FontStyleUnderline>Onderstreep de tekst.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Maak het watermerk tekst onderstreept.</FontStyleUnderlineWatermark>
-    <FormatBoolean>Dit formaat wordt gebruikt voor het opmaken van waarden van de boolean type.</FormatBoolean>
-    <FormatCurrency>Geef een waarde als betaalmiddel. Het staat u toe om een ​​aantal weer te geven met de standaard valuta symbool.</FormatCurrency>
-    <FormatCustom>Dit type wordt gebruikt om waarden te tonen volgens de aangepaste eisen. Dit type kunnen gegevens opmaak in de Format Mask.</FormatCustom>
-    <FormatDate>Geef een waarde als datum. De datum formaat is gebaseerd op de regionale datum.</FormatDate>
-    <FormatGeneral>Geef een waarde zonder specifiek formaat.</FormatGeneral>
-    <FormatNumber>Het wordt gebruikt voor algemene weergave van getallen.</FormatNumber>
-    <FormatPercentage>Geef een waarde als percentage. Getallen worden vermenigvuldigd met 100 om te zetten naar percentages.</FormatPercentage>
-    <FormatTime>Geef een waarde als de tijd. Het formaat is gebaseerd op de regionale tijdsinstellingen.</FormatTime>
-    <FormNew>Maak een nieuw dialoogvenster formulier.</FormNew>
+    <FormatBoolean>Maak een booleaanse waarde op.</FormatBoolean>
+    <FormatCurrency>Toon een waarde als valuta.</FormatCurrency>
+    <FormatCustom>Toon een waarde met eigen opmaakmasker.</FormatCustom>
+    <FormatDate>Toon een waarde als datum.</FormatDate>
+    <FormatGeneral>Toon een waarde zonder bepaald formaat.</FormatGeneral>
+    <FormatNumber>Toon een waarde als getal.</FormatNumber>
+    <FormatPercentage>Toon een waarde als percentage.</FormatPercentage>
+    <FormatTime>Toon een waarde als tijd.</FormatTime>
+    <FormNew>Maak een nieuw dialoogformulier.</FormNew>
     <GridMode>Toon het raster als lijnen of punten.</GridMode>
     <ImageAlignment>Zet een watermerk beeld op een pagina.</ImageAlignment>
     <ImageTransparency>Wijzig de transparantie van het watermerk afbeelding.</ImageTransparency>
@@ -2237,8 +2237,8 @@
     <LoadImage>Laad watermerk beelden uit het bestand.</LoadImage>
     <Lock>Vergrendel de positie en grootte.</Lock>
     <MainMenu>Maak, open of bewaar een rapport.</MainMenu>
-    <MakeHorizontalSpacingEqual>Hiermee kunt u gelijke horizontale afstand tussen de geselecteerde componenten.</MakeHorizontalSpacingEqual>
-    <MakeVerticalSpacingEqual>Hiermee kunt u gelijke verticale afstand tussen de geselecteerde componenten.</MakeVerticalSpacingEqual>
+    <MakeHorizontalSpacingEqual>Maak de horizontale afstand gelijk.</MakeHorizontalSpacingEqual>
+    <MakeVerticalSpacingEqual>Maak de verticale afstand gelijk.</MakeVerticalSpacingEqual>
     <Margins>Selecteer de paginamarges.</Margins>
     <menuCheckIssues>Controleer door middel van een verslag aan fouten, waarschuwingen te vinden en aanbevelingen te krijgen.</menuCheckIssues>
     <menuDesignerOptions>Setup rapport ontwerper opties.</menuDesignerOptions>
@@ -2274,28 +2274,28 @@
     <MoveForward>Verplaats één niveau naar voren.</MoveForward>
     <NotPossibleEnableCompilationMode>Het is onmogelijk om de compilatiemodus voor het rapport in te schakelen. Dit is verboden door de optie 'Compilatietoegang' in de designerinstellingen.</NotPossibleEnableCompilationMode>
     <Orientation>Wissel tussen staand en liggend.</Orientation>
-    <PageDelete>Verwijder huidige pagina uit een rapport.</PageDelete>
+    <PageDelete>Verwijder de huidige pagina.</PageDelete>
     <PageNew>Maak een nieuwe pagina.</PageNew>
     <PageSetup>Wijzig de pagina-instellingen.</PageSetup>
     <PageSize>Selecteer het papierformaat.</PageSize>
-    <PagesManager>Voer de pagina's Manager.</PagesManager>
+    <PagesManager>Open de Paginamanager.</PagesManager>
     <PressF1>Druk op F1 voor meer details</PressF1>
     <PropertiesButton>Toon de rapporteigenschappen.</PropertiesButton>
-    <Redo>Opnieuw de eerder geannuleerde verandering in een rapport.</Redo>
+    <Redo>Herhaal de geannuleerde wijziging.</Redo>
     <RemoveMobileSurfaceButton>Verwijder het mobiele oppervlak.</RemoveMobileSurfaceButton>
     <ReportNew>Maak een nieuw rapport.</ReportNew>
-    <ReportOpen>Open een rapport in ontwerper.</ReportOpen>
-    <ReportPreview>Voorbeeld van een bewerkte rapport in kijker.</ReportPreview>
-    <ReportSave>Sla op dit moment bewerkt rapport.</ReportSave>
-    <ScreenNew>Een nieuw scherm maken.</ScreenNew>
+    <ReportOpen>Open een rapport.</ReportOpen>
+    <ReportPreview>Bekijk een voorbeeld van het rapport.</ReportPreview>
+    <ReportSave>Bewaar het rapport.</ReportSave>
+    <ScreenNew>Maak een nieuw scherm.</ScreenNew>
     <ScriptEvalAccess1>Dit document maakt gebruik van Script Eval. Als het document van een vertrouwde bron afkomstig is, kunt u op de knop "Openen" klikken om het te openen.</ScriptEvalAccess1>
     <ScriptEvalAccess2>Als u niet zeker bent van de bron van het document maar het toch wilt bekijken, kunt u op de knop "Openen in veilige modus" klikken. In dat geval wordt Script Eval genegeerd en niet uitgevoerd.</ScriptEvalAccess2>
     <ScriptSecurityFullAccess>Volledige scripttoegang (geen beperkingen, mogelijk onveilig).</ScriptSecurityFullAccess>
     <ScriptSecuritySafeMode>Veilige scripttoegang (beperkte mogelijkheden voor beveiliging).</ScriptSecuritySafeMode>
-    <SelectAll>Selecteer alle componenten op de huidige pagina.</SelectAll>
+    <SelectAll>Selecteer alle componenten op de pagina.</SelectAll>
     <SelectUILanguage>Selecteer de taal voor de gebruikersinterface.</SelectUILanguage>
     <SendToBack>Stuur naar de achtergrond.</SendToBack>
-    <ServicesConfigurator>Voer de Diensten Configurator.</ServicesConfigurator>
+    <ServicesConfigurator>Open de Services Configurator.</ServicesConfigurator>
     <Shadow>Toon of verberg de schaduw.</Shadow>
     <ShowBehind>Tonen het watermerk tekst achter de componenten.</ShowBehind>
     <ShowImageBehind>Plaats het watermerk beeld achter alle onderdelen op een pagina.</ShowImageBehind>
@@ -2308,13 +2308,13 @@
     <TextBrushWatermark>Verander de kleur van de tekst van het watermerk.</TextBrushWatermark>
     <TextColor>Wijzig de tekstkleur.</TextColor>
     <TextFormat>Selecteer het formaat van waarden.</TextFormat>
-    <ToolbarStyle>Stel geselecteerde stijl op alle geselecteerde componenten.</ToolbarStyle>
-    <Undo>Maak de laatste wijziging in een rapport.</Undo>
+    <ToolbarStyle>Pas een stijl toe op de geselecteerde componenten.</ToolbarStyle>
+    <Undo>Maak de laatste wijziging ongedaan.</Undo>
     <ViewModeDesktopButton>Toon het desktopoppervlak.</ViewModeDesktopButton>
     <ViewModeMobileButton>Toon het mobiele oppervlak.</ViewModeMobileButton>
     <Watermark>Wijzig de watermerkinstellingen.</Watermark>
     <WordWrap>Laat de tekst teruglopen.</WordWrap>
-    <Zoom>Geef het zoomniveau van het rapport.</Zoom>
+    <Zoom>Geef het zoomniveau op.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
     <StiButtonControl>Voert een actie uit bij een klik.</StiButtonControl>

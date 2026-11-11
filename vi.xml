@@ -2150,12 +2150,12 @@
     <Align>Căn chỉnh các thành phần đã chọn.</Align>
     <AlignBottom>Căn chỉnh nội dung xuống dưới.</AlignBottom>
     <AlignCenter>Căn chỉnh nội dung vào giữa.</AlignCenter>
-    <AlignComponentBottom>Cho phép bạn căn chỉnh các đối tượng theo chiều ngang dọc theo cạnh dưới cùng của các thành phần được chọn.</AlignComponentBottom>
-    <AlignComponentCenter>Cho phép bạn căn chỉnh các đối tượng theo chiều ngang dọc theo cạnh giữa của các thành phần được chọn.</AlignComponentCenter>
-    <AlignComponentLeft>Cho phép bạn căn chỉnh các đối tượng theo chiều dọc dọc theo cạnh trái của các thành phần đã chọn.</AlignComponentLeft>
-    <AlignComponentMiddle>Cho phép bạn căn chỉnh các đối tượng theo chiều dọc dọc theo cạnh giữa của các thành phần được chọn.</AlignComponentMiddle>
-    <AlignComponentRight>Cho phép bạn căn chỉnh các đối tượng theo chiều dọc dọc theo cạnh phải của các thành phần được chọn.</AlignComponentRight>
-    <AlignComponentTop>Cho phép bạn căn chỉnh các đối tượng theo chiều ngang dọc theo cạnh trên của các thành phần được chọn.</AlignComponentTop>
+    <AlignComponentBottom>Căn chỉnh các thành phần theo cạnh dưới.</AlignComponentBottom>
+    <AlignComponentCenter>Căn chỉnh các thành phần theo tâm.</AlignComponentCenter>
+    <AlignComponentLeft>Căn chỉnh các thành phần theo cạnh trái.</AlignComponentLeft>
+    <AlignComponentMiddle>Căn chỉnh các thành phần theo tâm dọc.</AlignComponentMiddle>
+    <AlignComponentRight>Căn chỉnh các thành phần theo cạnh phải.</AlignComponentRight>
+    <AlignComponentTop>Căn chỉnh các thành phần theo cạnh trên.</AlignComponentTop>
     <AlignLeft>Căn chỉnh nội dung sang trái.</AlignLeft>
     <AlignMiddle>Căn chỉnh nội dung vào giữa theo chiều dọc.</AlignMiddle>
     <AlignRight>Căn chỉnh nội dung sang phải.</AlignRight>
@@ -2175,8 +2175,8 @@
     <BorderSidesTop>Hiển thị hoặc ẩn đường viền trên.</BorderSidesTop>
     <BorderStyle>Thay đổi kiểu đường viền.</BorderStyle>
     <BringToFront>Đưa lên trước.</BringToFront>
-    <CenterHorizontally>Cho phép bạn căn chỉnh một thành phần theo chiều ngang tương đối so với các cạnh của đối tượng chứa thành phần đó.</CenterHorizontally>
-    <CenterVertically>Cho phép bạn căn chỉnh một thành phần theo chiều dọc tương đối so với các cạnh của đối tượng chứa thành phần đó.</CenterVertically>
+    <CenterHorizontally>Căn giữa ngang trong đối tượng chứa.</CenterHorizontally>
+    <CenterVertically>Căn giữa dọc trong đối tượng chứa.</CenterVertically>
     <Close>Đóng trình thiết kế báo cáo.</Close>
     <Columns>Chia trang thành các cột.</Columns>
     <CompilationAccess1>Tài liệu này sử dụng quy trình biên dịch. Nếu tài liệu từ một nguồn đáng tin cậy, bạn có thể nhấp vào nút "Mở" để truy cập nó.</CompilationAccess1>
@@ -2194,16 +2194,16 @@
     <CopyStyle>Sao chép kiểu sang các thành phần khác.</CopyStyle>
     <CopyToClipboard>Sao chép vào bộ nhớ tạm</CopyToClipboard>
     <CurrencySymbol>Chọn biểu tượng tiền tệ.</CurrencySymbol>
-    <DashboardNew>Tạo một bảng điều khiển mới.</DashboardNew>
-    <DataStore>Hiển thị dữ liệu, đã đăng ký trong báo cáo.</DataStore>
+    <DashboardNew>Tạo một bảng thông tin mới.</DashboardNew>
+    <DataStore>Hiển thị dữ liệu đã đăng ký trong báo cáo.</DataStore>
     <DateTimeFormat>Chọn định dạng ngày và giờ.</DateTimeFormat>
     <DockingPanels>Hiển thị hoặc ẩn các bảng điều khiển.</DockingPanels>
-    <DockStyleBottom>Gắn các thành phần đã chọn vào phía bên dưới.</DockStyleBottom>
-    <DockStyleFill>Gắn các thành phần đã chọn vào tất cả các phía.</DockStyleFill>
-    <DockStyleLeft>Gắn các thành phần đã chọn vào phía bên trái.</DockStyleLeft>
-    <DockStyleNone>Không gắn các thành phần đã chọn.</DockStyleNone>
-    <DockStyleRight>Gắn các thành phần đã chọn vào phía bên phải.</DockStyleRight>
-    <DockStyleTop>Gắn các thành phần đã chọn vào phía bên trên.</DockStyleTop>
+    <DockStyleBottom>Gắn vào phía bên dưới.</DockStyleBottom>
+    <DockStyleFill>Gắn vào tất cả các phía.</DockStyleFill>
+    <DockStyleLeft>Gắn vào phía bên trái.</DockStyleLeft>
+    <DockStyleNone>Bỏ gắn các thành phần.</DockStyleNone>
+    <DockStyleRight>Gắn vào phía bên phải.</DockStyleRight>
+    <DockStyleTop>Gắn vào phía bên trên.</DockStyleTop>
     <EventsAccess1>Tài liệu này sử dụng sự kiện. Nếu tài liệu đến từ nguồn đáng tin cậy, bạn có thể nhấp vào nút "Mở" để truy cập.</EventsAccess1>
     <EventsAccess2>Nếu bạn không chắc chắn về nguồn gốc của tài liệu nhưng vẫn muốn xem, bạn có thể nhấp vào nút "Mở ở chế độ an toàn". Trong trường hợp này, các sự kiện sẽ bị bỏ qua và không được thực thi.</EventsAccess2>
     <FontGrow>Làm cho văn bản lớn hơn.</FontGrow>
@@ -2219,15 +2219,15 @@
     <FontStyleStrikeout>Gạch ngang văn bản.</FontStyleStrikeout>
     <FontStyleUnderline>Gạch chân văn bản.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Làm cho văn bản của thủy ấn gạch chân.</FontStyleUnderlineWatermark>
-    <FormatBoolean>Định dạng này được sử dụng để định dạng các giá trị của kiểu boolean.</FormatBoolean>
-    <FormatCurrency>Hiển thị giá trị bằng đơn vị tiền tệ. Nó cho phép bạn hiển thị một số với ký hiệu tiền tệ mặc định.</FormatCurrency>
-    <FormatCustom>Kiểu này được sử dụng để hiển thị giá trị theo yêu cầu tùy chỉnh. Loại này cho phép định dạng dữ liệu trong định dạng mặt nạ.</FormatCustom>
-    <FormatDate>Hiển thị giá trị theo ngày. Định dạng ngày được dựa trên cài đặt ngày của khu vực.</FormatDate>
+    <FormatBoolean>Định dạng giá trị kiểu boolean.</FormatBoolean>
+    <FormatCurrency>Hiển thị giá trị dưới dạng tiền tệ.</FormatCurrency>
+    <FormatCustom>Hiển thị giá trị theo mặt nạ định dạng tùy chỉnh.</FormatCustom>
+    <FormatDate>Hiển thị giá trị dưới dạng ngày.</FormatDate>
     <FormatGeneral>Hiển thị giá trị không có định dạng cụ thể.</FormatGeneral>
-    <FormatNumber>Nó được sử dụng để hiển thị số.</FormatNumber>
-    <FormatPercentage>Hiển thị giá trị theo tỷ lệ phần trăm. Số được nhân với 100 để chuyển đổi chúng thành phần trăm.</FormatPercentage>
-    <FormatTime>Hiển thị một giá trị theo thời gian. Định dạng thời gian được dựa trên cài đặt thời gian khu vực.</FormatTime>
-    <FormNew>Tạo một hộp thoại mới.</FormNew>
+    <FormatNumber>Hiển thị giá trị dưới dạng số.</FormatNumber>
+    <FormatPercentage>Hiển thị giá trị dưới dạng phần trăm.</FormatPercentage>
+    <FormatTime>Hiển thị giá trị dưới dạng thời gian.</FormatTime>
+    <FormNew>Tạo một biểu mẫu hộp thoại mới.</FormNew>
     <GridMode>Hiển thị lưới dưới dạng đường kẻ hoặc chấm.</GridMode>
     <ImageAlignment>Đặt thủy ấn trên một trang.</ImageAlignment>
     <ImageTransparency>Thay đổi độ trong suốt của thủy ấn.</ImageTransparency>
@@ -2237,8 +2237,8 @@
     <LoadImage>Nạp thủy ấn từ tệp tin.</LoadImage>
     <Lock>Khóa vị trí và kích thước.</Lock>
     <MainMenu>Tạo, mở hoặc lưu báo cáo.</MainMenu>
-    <MakeHorizontalSpacingEqual>Cho phép bạn thiết lập khoảng cách ngang bằng nhau giữa các thành phần được chọn.</MakeHorizontalSpacingEqual>
-    <MakeVerticalSpacingEqual>Cho phép bạn đặt khoảng trắng bằng nhau giữa các thành phần được chọn.</MakeVerticalSpacingEqual>
+    <MakeHorizontalSpacingEqual>Đặt khoảng cách ngang bằng nhau.</MakeHorizontalSpacingEqual>
+    <MakeVerticalSpacingEqual>Đặt khoảng cách dọc bằng nhau.</MakeVerticalSpacingEqual>
     <Margins>Chọn lề trang.</Margins>
     <menuCheckIssues>Kiểm tra thông qua một báo cáo để tìm lỗi, cảnh báo và nhận được đề xuất.</menuCheckIssues>
     <menuDesignerOptions>Thiết lập các tùy chọn thiết kế báo cáo.</menuDesignerOptions>
@@ -2274,28 +2274,28 @@
     <MoveForward>Di chuyển lên trước một cấp.</MoveForward>
     <NotPossibleEnableCompilationMode>Không thể kích hoạt chế độ biên dịch cho báo cáo. Điều này bị cấm bởi tùy chọn 'Quyền truy cập biên dịch' trong cài đặt trình thiết kế.</NotPossibleEnableCompilationMode>
     <Orientation>Chuyển giữa hướng dọc và hướng ngang.</Orientation>
-    <PageDelete>Xóa trang hiện tại khỏi một báo cáo.</PageDelete>
+    <PageDelete>Xóa trang hiện tại.</PageDelete>
     <PageNew>Tạo một trang mới.</PageNew>
     <PageSetup>Thay đổi cài đặt trang.</PageSetup>
     <PageSize>Chọn khổ giấy.</PageSize>
-    <PagesManager>Chạy trình quản lý trang.</PagesManager>
+    <PagesManager>Mở trình Quản lý trang.</PagesManager>
     <PressF1>Nhấn F1 để biết thêm chi tiết</PressF1>
     <PropertiesButton>Hiển thị thuộc tính báo cáo.</PropertiesButton>
-    <Redo>Hoàn tác thay đổi đã hủy trước đó trong báo cáo.</Redo>
+    <Redo>Làm lại thay đổi đã hủy.</Redo>
     <RemoveMobileSurfaceButton>Xóa bề mặt di động.</RemoveMobileSurfaceButton>
     <ReportNew>Tạo một báo cáo mới.</ReportNew>
-    <ReportOpen>Mở một báo cáo trong trình thiết kế.</ReportOpen>
-    <ReportPreview>Xem trước báo cáo đã chỉnh sửa trong trình xem.</ReportPreview>
-    <ReportSave>Lưu báo cáo đã chỉnh sửa hiện tại.</ReportSave>
+    <ReportOpen>Mở một báo cáo.</ReportOpen>
+    <ReportPreview>Xem trước báo cáo.</ReportPreview>
+    <ReportSave>Lưu báo cáo.</ReportSave>
     <ScreenNew>Tạo một màn hình mới.</ScreenNew>
     <ScriptEvalAccess1>Tài liệu này sử dụng Script Eval. Nếu tài liệu đến từ nguồn đáng tin cậy, bạn có thể nhấp vào nút "Mở" để truy cập.</ScriptEvalAccess1>
     <ScriptEvalAccess2>Nếu bạn không chắc chắn về nguồn của tài liệu nhưng vẫn muốn xem, bạn có thể nhấp vào nút "Mở ở chế độ an toàn". Trong trường hợp này, Script Eval sẽ bị bỏ qua và không được thực thi.</ScriptEvalAccess2>
     <ScriptSecurityFullAccess>Toàn quyền truy cập script (không hạn chế, có thể không an toàn).</ScriptSecurityFullAccess>
     <ScriptSecuritySafeMode>Truy cập tập lệnh an toàn (khả năng bị hạn chế vì bảo mật).</ScriptSecuritySafeMode>
-    <SelectAll>Chọn tất cả các thành phần trên trang hiện tại.</SelectAll>
+    <SelectAll>Chọn tất cả các thành phần trên trang.</SelectAll>
     <SelectUILanguage>Chọn ngôn ngữ giao diện người dùng.</SelectUILanguage>
     <SendToBack>Đưa ra sau.</SendToBack>
-    <ServicesConfigurator>Chạy trình cấu hình dịch vụ.</ServicesConfigurator>
+    <ServicesConfigurator>Mở Trình cấu hình dịch vụ.</ServicesConfigurator>
     <Shadow>Hiển thị hoặc ẩn bóng.</Shadow>
     <ShowBehind>Hiển thị văn bản thủy ấn phía sau các thành phần.</ShowBehind>
     <ShowImageBehind>Đặt thủy ấn dưới tất cả các thành phần trên một trang.</ShowImageBehind>
@@ -2308,13 +2308,13 @@
     <TextBrushWatermark>Thay đổi màu văn bản thủy ấn.</TextBrushWatermark>
     <TextColor>Thay đổi màu văn bản.</TextColor>
     <TextFormat>Chọn định dạng giá trị.</TextFormat>
-    <ToolbarStyle>Đặt kiểu đã chọn cho tất cả các thành phần đã chọn.</ToolbarStyle>
-    <Undo>Hoàn tác thay đổi mới nhất trong báo cáo.</Undo>
+    <ToolbarStyle>Áp dụng kiểu cho các thành phần đã chọn.</ToolbarStyle>
+    <Undo>Hoàn tác thay đổi mới nhất.</Undo>
     <ViewModeDesktopButton>Hiển thị bề mặt máy tính để bàn.</ViewModeDesktopButton>
     <ViewModeMobileButton>Hiển thị bề mặt di động.</ViewModeMobileButton>
     <Watermark>Thay đổi cài đặt thủy ấn.</Watermark>
     <WordWrap>Ngắt dòng văn bản.</WordWrap>
-    <Zoom>Chỉ định mức thu phóng của báo cáo.</Zoom>
+    <Zoom>Chỉ định mức thu phóng.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
     <StiButtonControl>Thực hiện một hành động khi nhấp chuột.</StiButtonControl>

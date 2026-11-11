@@ -2151,12 +2151,12 @@
     <Align>Вирівняти виділені компоненти.</Align>
     <AlignBottom>Вирівняти вміст по нижньому краю.</AlignBottom>
     <AlignCenter>Вирівняти вміст по центру.</AlignCenter>
-    <AlignComponentBottom>Дозволяє вирівнювати виділені компоненти горизонтально вздовж нижнього краю виділених компонентів.</AlignComponentBottom>
-    <AlignComponentCenter>Дозволяє вирівнювати виділені компоненти горизонтально вздовж центру виділених компонентів.</AlignComponentCenter>
-    <AlignComponentLeft>Дозволяє вирівнювати виділені компоненти вертикально по лівому краю виділених компонентів.</AlignComponentLeft>
-    <AlignComponentMiddle>Дозволяє вирівнювати виділені компоненти вертикально по центру виділених компонентів.</AlignComponentMiddle>
-    <AlignComponentRight>Дозволяє вирівнювати виділені компоненти вертикально вздовж правого краю виділених компонентів.</AlignComponentRight>
-    <AlignComponentTop>Дозволяє вирівнювати виділені компоненти горизонтально вздовж верхнього краю виділених компонентів.</AlignComponentTop>
+    <AlignComponentBottom>Вирівняти компоненти по нижньому краю.</AlignComponentBottom>
+    <AlignComponentCenter>Вирівняти компоненти по центру.</AlignComponentCenter>
+    <AlignComponentLeft>Вирівняти компоненти по лівому краю.</AlignComponentLeft>
+    <AlignComponentMiddle>Вирівняти компоненти посередині.</AlignComponentMiddle>
+    <AlignComponentRight>Вирівняти компоненти по правому краю.</AlignComponentRight>
+    <AlignComponentTop>Вирівняти компоненти по верхньому краю.</AlignComponentTop>
     <AlignLeft>Вирівняти вміст по лівому краю.</AlignLeft>
     <AlignMiddle>Вирівняти вміст посередині.</AlignMiddle>
     <AlignRight>Вирівняти вміст по правому краю.</AlignRight>
@@ -2176,8 +2176,8 @@
     <BorderSidesTop>Показати або приховати верхню границю.</BorderSidesTop>
     <BorderStyle>Змінити стиль границі.</BorderStyle>
     <BringToFront>Помістити на передній план.</BringToFront>
-    <CenterHorizontally>Центрує виділені компоненти по вертикалі.</CenterHorizontally>
-    <CenterVertically>Центрує виділені компоненти по горизонталі.</CenterVertically>
+    <CenterHorizontally>Центрувати по горизонталі в контейнері.</CenterHorizontally>
+    <CenterVertically>Центрувати по вертикалі в контейнері.</CenterVertically>
     <Close>Закрити дизайнер звітів.</Close>
     <Columns>Розбити сторінку на стовпчики.</Columns>
     <CompilationAccess1>Цей документ використовує процес компіляції. Якщо документ походить із надійного джерела, натисніть кнопку «Відкрити», щоб отримати до нього доступ.</CompilationAccess1>
@@ -2196,15 +2196,15 @@
     <CopyToClipboard>Скопіювати до буферу обміну</CopyToClipboard>
     <CurrencySymbol>Вибрати символ валюти.</CurrencySymbol>
     <DashboardNew>Створити новий дашборд.</DashboardNew>
-    <DataStore>Показати дані, зареєстровані для звіту.</DataStore>
+    <DataStore>Показати дані, зареєстровані у звіті.</DataStore>
     <DateTimeFormat>Вибрати формат дати й часу.</DateTimeFormat>
     <DockingPanels>Показати або приховати панелі.</DockingPanels>
-    <DockStyleBottom>Пристикувати виділені компоненти до нижнього краю.</DockStyleBottom>
-    <DockStyleFill>Пристикувати виділені компоненти до всіх країв одразу.</DockStyleFill>
-    <DockStyleLeft>Пристикувати виділені компоненти до лівого краю.</DockStyleLeft>
-    <DockStyleNone>Не пристиковувати виділені компоненти.</DockStyleNone>
-    <DockStyleRight>Пристикувати виділені компоненти до правого краю.</DockStyleRight>
-    <DockStyleTop>Пристикувати виділені компоненти до верхнього краю.</DockStyleTop>
+    <DockStyleBottom>Пристикувати до нижнього краю.</DockStyleBottom>
+    <DockStyleFill>Пристикувати до всіх країв.</DockStyleFill>
+    <DockStyleLeft>Пристикувати до лівого краю.</DockStyleLeft>
+    <DockStyleNone>Відстикувати компоненти.</DockStyleNone>
+    <DockStyleRight>Пристикувати до правого краю.</DockStyleRight>
+    <DockStyleTop>Пристикувати до верхнього краю.</DockStyleTop>
     <EventsAccess1>Цей документ використовує події (Events). Якщо документ походить із надійного джерела, натисніть кнопку «Відкрити», щоб отримати до нього доступ.</EventsAccess1>
     <EventsAccess2>Якщо ви не впевнені в джерелі документа, але все одно хочете його переглянути, натисніть кнопку «Відкрити в безпечному режимі». У цьому випадку події будуть проігноровані й не виконуватимуться.</EventsAccess2>
     <FontGrow>Збільшити розмір тексту.</FontGrow>
@@ -2220,14 +2220,14 @@
     <FontStyleStrikeout>Закреслити текст.</FontStyleStrikeout>
     <FontStyleUnderline>Підкреслити текст.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Зробити текст водяного знаку підкресленим.</FontStyleUnderlineWatermark>
-    <FormatBoolean>Цей формат використовується для форматування значень логічного типу.</FormatBoolean>
-    <FormatCurrency>Відображувати дані як дані грошового типу.</FormatCurrency>
-    <FormatCustom>Цей тип використовується для відображення значень у відповідності з вимогами клієнта. Цей тип дозволяє задавати форматування даних у форматі маски.</FormatCustom>
-    <FormatDate>Відображувати дані у вигляді дати. Формат дати залежить від регіональних параметрів.</FormatDate>
-    <FormatGeneral>Відображувати дані без певного формату.</FormatGeneral>
-    <FormatNumber>Відображувати дані у числовому форматі.</FormatNumber>
-    <FormatPercentage>Відображувати дані у відсотках. Число множиться на 100 для перетворення у відсотки.</FormatPercentage>
-    <FormatTime>Відображувати дані як час. Формат часу залежить від регіональних параметрів.</FormatTime>
+    <FormatBoolean>Форматувати значення логічного типу.</FormatBoolean>
+    <FormatCurrency>Показувати значення у грошовому форматі.</FormatCurrency>
+    <FormatCustom>Показувати значення за заданою маскою.</FormatCustom>
+    <FormatDate>Показувати значення як дату.</FormatDate>
+    <FormatGeneral>Показувати значення без певного формату.</FormatGeneral>
+    <FormatNumber>Показувати значення як число.</FormatNumber>
+    <FormatPercentage>Показувати значення у відсотках.</FormatPercentage>
+    <FormatTime>Показувати значення як час.</FormatTime>
     <FormNew>Створити нову діалогову форму.</FormNew>
     <GridMode>Показувати сітку лініями або крапками.</GridMode>
     <ImageAlignment>Розміщення водяного знаку на сторінці.</ImageAlignment>
@@ -2238,8 +2238,8 @@
     <LoadImage>Завантажити зображення для водяного знаку з файла.</LoadImage>
     <Lock>Заблокувати положення та розмір.</Lock>
     <MainMenu>Створити, відкрити або зберегти звіт.</MainMenu>
-    <MakeHorizontalSpacingEqual>Дозволяє встановити рівні відстані по горизонталі між вибраними компонентами.</MakeHorizontalSpacingEqual>
-    <MakeVerticalSpacingEqual>Дозволяє встановити рівні відстані по вертикалі між вибраними компонентами.</MakeVerticalSpacingEqual>
+    <MakeHorizontalSpacingEqual>Зробити рівними відстані по горизонталі.</MakeHorizontalSpacingEqual>
+    <MakeVerticalSpacingEqual>Зробити рівними відстані по вертикалі.</MakeVerticalSpacingEqual>
     <Margins>Вибрати поля сторінки.</Margins>
     <menuCheckIssues>Перевірка для пошуку помилок, попереджень та отримання рекомендацій</menuCheckIssues>
     <menuDesignerOptions>Установка параметрів дизайнера звітів.</menuDesignerOptions>
@@ -2275,28 +2275,28 @@
     <MoveForward>Перемістити на один рівень вперед.</MoveForward>
     <NotPossibleEnableCompilationMode>Неможливо ввімкнути режим компіляції для звіту. Це заборонено параметром 'Compilation Access' у налаштуваннях дизайнера.</NotPossibleEnableCompilationMode>
     <Orientation>Вибрати портретну або альбомну орієнтацію.</Orientation>
-    <PageDelete>Видалити поточну сторінку зі звіту.</PageDelete>
+    <PageDelete>Видалити поточну сторінку.</PageDelete>
     <PageNew>Створити нову сторінку.</PageNew>
     <PageSetup>Змінити параметри сторінки.</PageSetup>
     <PageSize>Вибрати розмір паперу.</PageSize>
-    <PagesManager>Запускає менеджер сторінок.</PagesManager>
+    <PagesManager>Відкрити менеджер сторінок.</PagesManager>
     <PressF1>Натисніть F1 для довідки</PressF1>
     <PropertiesButton>Показати властивості звіту.</PropertiesButton>
-    <Redo>Повторити раніше відмінені зміни в дизайнері звітів.</Redo>
+    <Redo>Повторити скасовану зміну.</Redo>
     <RemoveMobileSurfaceButton>Вилучити мобільну поверхню.</RemoveMobileSurfaceButton>
     <ReportNew>Створити новий звіт.</ReportNew>
-    <ReportOpen>Відкрити звіт у дизайнері.</ReportOpen>
-    <ReportPreview>Попередній перегляд звіту, що редагується.</ReportPreview>
-    <ReportSave>Зберегти звіт, що редагується.</ReportSave>
+    <ReportOpen>Відкрити звіт.</ReportOpen>
+    <ReportPreview>Переглянути звіт.</ReportPreview>
+    <ReportSave>Зберегти звіт.</ReportSave>
     <ScreenNew>Створити новий екран.</ScreenNew>
     <ScriptEvalAccess1>Цей документ використовує Script Eval. Якщо документ походить із надійного джерела, натисніть кнопку «Відкрити», щоб отримати до нього доступ.</ScriptEvalAccess1>
     <ScriptEvalAccess2>Якщо ви не впевнені в джерелі документа, але все одно хочете його переглянути, натисніть кнопку «Відкрити в безпечному режимі». У цьому випадку Script Eval буде проігноровано й не виконано.</ScriptEvalAccess2>
     <ScriptSecurityFullAccess>Повний доступ до скриптів (без обмежень, потенційно небезпечно).</ScriptSecurityFullAccess>
     <ScriptSecuritySafeMode>Безпечний доступ до скриптів (обмежені можливості з міркувань безпеки).</ScriptSecuritySafeMode>
-    <SelectAll>Вибрати всі компоненти на поточній сторінці.</SelectAll>
+    <SelectAll>Вибрати всі компоненти на сторінці.</SelectAll>
     <SelectUILanguage>Вибрати мову інтерфейсу.</SelectUILanguage>
     <SendToBack>Помістити на задній план.</SendToBack>
-    <ServicesConfigurator>Запустити конфігуратор сервісів.</ServicesConfigurator>
+    <ServicesConfigurator>Відкрити конфігуратор сервісів.</ServicesConfigurator>
     <Shadow>Показати або приховати тінь.</Shadow>
     <ShowBehind>Показувати текст водяного знаку позаду сторінки.</ShowBehind>
     <ShowImageBehind>Показувати зображення водяного знаку позаду сторінки.</ShowImageBehind>
@@ -2309,13 +2309,13 @@
     <TextBrushWatermark>Змінити колір тексту водяного знаку.</TextBrushWatermark>
     <TextColor>Змінити колір тексту.</TextColor>
     <TextFormat>Вибрати формат значень.</TextFormat>
-    <ToolbarStyle>Застосувати вибраний стиль для всіх вибраних компонентів.</ToolbarStyle>
-    <Undo>Відмінити останні зміни в дизайнері звітів.</Undo>
+    <ToolbarStyle>Застосувати стиль до виділених компонентів.</ToolbarStyle>
+    <Undo>Скасувати останню зміну.</Undo>
     <ViewModeDesktopButton>Показати поверхню для комп'ютера.</ViewModeDesktopButton>
     <ViewModeMobileButton>Показати мобільну поверхню.</ViewModeMobileButton>
     <Watermark>Змінити параметри водяного знака.</Watermark>
     <WordWrap>Переносити текст.</WordWrap>
-    <Zoom>Вибрати масштаб відображення звіту в дизайнері.</Zoom>
+    <Zoom>Вказати масштаб.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
     <StiButtonControl>Виконує дію після клацання.</StiButtonControl>
