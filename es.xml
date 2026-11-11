@@ -1639,8 +1639,9 @@
     <LinkNotImage>El enlace no lleva a una imagen</LinkNotImage>
     <LinkRenderHint>La imagen se carga desde el enlace al renderizar el informe</LinkRenderHint>
     <UploadDownscale>Reducir a {0} px</UploadDownscale>
+    <UploadDownscaleOnSave>El ícono se reducirá al guardar.</UploadDownscaleOnSave>
     <UploadDrop>Suelte una imagen, haga clic para elegir un archivo o pulse Ctrl+V</UploadDrop>
-    <UploadSizeWarning>Esta imagen añade {0} al archivo del informe. Se imprime al tamaño de este componente, por lo que la mayoría de sus píxeles nunca se ven.</UploadSizeWarning>
+    <UploadSizeWarning>Esta imagen añade {0} al archivo del informe. Su resolución es mayor de la que necesita el informe, y las imágenes grandes ralentizan el informe.</UploadSizeWarning>
     <UploadStoredHint>La imagen se guarda dentro del informe</UploadStoredHint>
   </FormImageEditor>
   <FormInteraction>

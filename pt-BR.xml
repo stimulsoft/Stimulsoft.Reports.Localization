@@ -1640,8 +1640,9 @@ sucedida</ConnectionSuccessfull>
     <LinkNotImage>O link não leva a uma imagem</LinkNotImage>
     <LinkRenderHint>A imagem é carregada pelo link ao renderizar o relatório</LinkRenderHint>
     <UploadDownscale>Reduzir para {0} px</UploadDownscale>
+    <UploadDownscaleOnSave>O ícone será reduzido ao salvar.</UploadDownscaleOnSave>
     <UploadDrop>Solte uma imagem, clique para escolher um arquivo ou pressione Ctrl+V</UploadDrop>
-    <UploadSizeWarning>Esta imagem adiciona {0} ao arquivo do relatório. Ela é impressa no tamanho deste componente, então a maioria dos seus pixels nunca é vista.</UploadSizeWarning>
+    <UploadSizeWarning>Esta imagem adiciona {0} ao arquivo do relatório. A resolução é maior do que o relatório precisa, e imagens grandes deixam o relatório mais lento.</UploadSizeWarning>
     <UploadStoredHint>A imagem é armazenada dentro do relatório</UploadStoredHint>
   </FormImageEditor>
   <FormInteraction>

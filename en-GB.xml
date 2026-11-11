@@ -1639,8 +1639,9 @@
     <LinkNotImage>The link does not lead to an image</LinkNotImage>
     <LinkRenderHint>The image is loaded by the link when the report is rendered</LinkRenderHint>
     <UploadDownscale>Downscale to {0} px</UploadDownscale>
+    <UploadDownscaleOnSave>The icon will be downscaled on save.</UploadDownscaleOnSave>
     <UploadDrop>Drop an image, click to choose a file, or press Ctrl+V</UploadDrop>
-    <UploadSizeWarning>This image adds {0} to the report file. It prints at the size of this component, so most of its pixels are never seen.</UploadSizeWarning>
+    <UploadSizeWarning>This image adds {0} to the report file. Its resolution is higher than a report needs, and large images slow the report down.</UploadSizeWarning>
     <UploadStoredHint>The image is stored inside the report</UploadStoredHint>
   </FormImageEditor>
   <FormInteraction>

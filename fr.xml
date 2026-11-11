@@ -1639,8 +1639,9 @@
     <LinkNotImage>Le lien ne mène pas à une image</LinkNotImage>
     <LinkRenderHint>L'image est chargée à partir du lien lors du rendu du rapport</LinkRenderHint>
     <UploadDownscale>Réduire à {0} px</UploadDownscale>
+    <UploadDownscaleOnSave>L'icône sera réduite lors de l'enregistrement.</UploadDownscaleOnSave>
     <UploadDrop>Déposez une image, cliquez pour choisir un fichier ou appuyez sur Ctrl+V</UploadDrop>
-    <UploadSizeWarning>Cette image ajoute {0} au fichier du rapport. Elle est imprimée à la taille de ce composant, donc la plupart de ses pixels ne sont jamais visibles.</UploadSizeWarning>
+    <UploadSizeWarning>Cette image ajoute {0} au fichier du rapport. Sa résolution est plus élevée que ce dont le rapport a besoin, et les grandes images ralentissent le rapport.</UploadSizeWarning>
     <UploadStoredHint>L'image est stockée dans le rapport</UploadStoredHint>
   </FormImageEditor>
   <FormInteraction>

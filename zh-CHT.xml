@@ -1640,8 +1640,9 @@
     <LinkNotImage>此鏈結指向的不是圖片</LinkNotImage>
     <LinkRenderHint>產生報表時會透過鏈結載入圖片</LinkRenderHint>
     <UploadDownscale>縮小至 {0} px</UploadDownscale>
+    <UploadDownscaleOnSave>儲存時將縮小圖示。</UploadDownscaleOnSave>
     <UploadDrop>將圖片拖放到此處、按一下選取檔案或按 Ctrl+V</UploadDrop>
-    <UploadSizeWarning>此圖片會使報表檔案增加 {0}。它會以此組件的大小列印，因此大部分像素都不會顯示出來。</UploadSizeWarning>
+    <UploadSizeWarning>此圖片會使報表檔案增加 {0}。其解析度高於報表所需，大圖片會使報表變慢。</UploadSizeWarning>
     <UploadStoredHint>圖片儲存在報表內部</UploadStoredHint>
   </FormImageEditor>
   <FormInteraction>

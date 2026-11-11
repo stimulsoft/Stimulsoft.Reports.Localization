@@ -1639,8 +1639,9 @@
     <LinkNotImage>Der Link führt nicht zu einem Bild</LinkNotImage>
     <LinkRenderHint>Das Bild wird beim Rendern des Berichts über den Link geladen</LinkRenderHint>
     <UploadDownscale>Auf {0} px verkleinern</UploadDownscale>
+    <UploadDownscaleOnSave>Das Symbol wird beim Speichern verkleinert.</UploadDownscaleOnSave>
     <UploadDrop>Bild hierher ablegen, zum Auswählen einer Datei klicken oder Ctrl+V drücken</UploadDrop>
-    <UploadSizeWarning>Dieses Bild vergrößert die Berichtsdatei um {0}. Es wird in der Größe dieser Komponente gedruckt, daher sind die meisten seiner Pixel nie zu sehen.</UploadSizeWarning>
+    <UploadSizeWarning>Dieses Bild vergrößert die Berichtsdatei um {0}. Seine Auflösung ist höher, als der Bericht benötigt, und große Bilder verlangsamen den Bericht.</UploadSizeWarning>
     <UploadStoredHint>Das Bild wird im Bericht gespeichert</UploadStoredHint>
   </FormImageEditor>
   <FormInteraction>

@@ -1641,8 +1641,9 @@
     <LinkNotImage>该链接指向的不是图片</LinkNotImage>
     <LinkRenderHint>报表渲染时将通过链接加载图片</LinkRenderHint>
     <UploadDownscale>缩小到 {0} px</UploadDownscale>
+    <UploadDownscaleOnSave>保存时将缩小图标。</UploadDownscaleOnSave>
     <UploadDrop>将图片拖至此处、单击选择文件或按 Ctrl+V</UploadDrop>
-    <UploadSizeWarning>此图片会使报表文件增加 {0}。它按此组件的尺寸打印，因此大部分像素都不会显示出来。</UploadSizeWarning>
+    <UploadSizeWarning>此图片会使报表文件增加 {0}。其分辨率高于报表所需，大图片会使报表变慢。</UploadSizeWarning>
     <UploadStoredHint>图片存储在报表内部</UploadStoredHint>
   </FormImageEditor>
   <FormInteraction>
