@@ -1299,6 +1299,7 @@
     <RenderingEvent>データ行のレンダリング時に発生</RenderingEvent>
     <ResetDataSource>レンダリングの準備を開始するときにデータソースの位置をリセットすることを示す値</ResetDataSource>
     <RightToLeft>水平方向の列方向</RightToLeft>
+    <SkipCells>列の先頭で空のままにするセルの数です（例: シートで使用済みのラベル）。方向が「ダウン・アロス」の場合は、「列の最小行」をページの行数に設定してください。</SkipCells>
   </StiDataBand>
   <StiDatabase>
     <Alias>データベースのエイリアス</Alias>

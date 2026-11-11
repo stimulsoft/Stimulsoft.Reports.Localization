@@ -1297,6 +1297,7 @@
     <RenderingEvent>Occurs when a data row is rendered.</RenderingEvent>
     <ResetDataSource>A value that indicates to reset the Data Source position to the beginning when preparing for rendering.</ResetDataSource>
     <RightToLeft>Horizontal column direction.</RightToLeft>
+    <SkipCells>Number of cells left empty at the start of the columns, for example the labels already used on a sheet. With the 'Down Then Across' direction, set 'Min Rows in Column' to the number of rows on a page.</SkipCells>
   </StiDataBand>
   <StiDatabase>
     <Alias>An alias of the database.</Alias>
