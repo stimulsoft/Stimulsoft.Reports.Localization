@@ -1943,82 +1943,110 @@
     <sys_morebuttons>További gombok</sys_morebuttons>
   </Gui>
   <HelpComponents>
-    <StiBarCode>Ez a komponens hivatott vonalkódokat megjeléeníteni. A vonalkódok adatát egy stringeben fogadja. A string tartalmazhat olyan speciális szimbólumokat amit a vonalkód képes megjeleníteni.</StiBarCode>
-    <StiButtonElement>Ez a komponens egy olyan eseményfolyamat végrehajtására szolgál, amikor a felhasználó kapcsolatba lép.</StiButtonElement>
-    <StiCardsElement>Ez a komponens arra szolgál, hogy kártyákként jelenítsen meg csoportosított adatokat.</StiCardsElement>
-    <StiChart>Ez a komponens szolgál a diagrammok megjelenítésére. ülönböző diagrammok vannak. Ezek: sáv, vonal, torta, doughnut, vonalas, terület alapú, stb. </StiChart>
-    <StiChartElement>Ezen elem segítségével grafikonokat lehet megjeleníteni az irányítópulton. Különböző típusú grafikonok érhetők el.</StiChartElement>
-    <StiCheckBox>Ez a komponenss a jelölő négyzet. Két állapota van bekapcsolva és a kikapcsolva</StiCheckBox>
-    <StiChildBand>A gyerek sáv szolgál arra hogy egy adat sort két sorban tudjunk megjeleníteni.</StiChildBand>
-    <StiClone>Ez a komponens a jelentés egy részének klónozására szolgál. A clónozó csak panel alkotókat tud elfogadni.</StiClone>
-    <StiColumnFooterBand>Ez a kompi szolgál az oszlopok láblécének megjelenítésére. Elég ehgyszer használni, mert minden kompi megjelkenik egyszer minden oszlop alján.</StiColumnFooterBand>
-    <StiColumnHeaderBand>Ez a kompi az oszlopok fejléce. Elég ehgyszer használni, mert minden kompi megjelkenik egyszer minden oszlop tetején.</StiColumnHeaderBand>
-    <StiComboBoxElement>Megjelenít egy legördülő listát, amely közvetlenül az érték elembe való írására, vagy létező opciók kiválasztására használható.</StiComboBoxElement>
-    <StiContainer>Ez a négszög terület ahol  más komponenseket tudstz elhelyezni akár sávokat is. Ezzel összefogva tudod mozgatni a komponenseidet, teheted magára az oldalra illetve egy másik sávra is.</StiContainer>
-    <StiCrossDataBand>Ez a komonens kapcsolódik az adathoz. Minden adatsornak megfelel egy ilyen sor. Kereszt sáv ballról jobbra jelenik meg.</StiCrossDataBand>
-    <StiCrossFooterBand>Ez a kompi szolgál a kereszt lekérdezés láblécének megjelenítésére. Egyszer jelenik meg minden adatsor után. Balról jobbra jelenik meg.</StiCrossFooterBand>
-    <StiCrossGroupFooterBand>Ez a sáv szolgál a kereszt lekérdezések csoportzjainak összesítésére. Ez az adatsor után jelenik meg, a fejlécében megadottak után. Balról jobbra jelenik meg.</StiCrossGroupFooterBand>
-    <StiCrossGroupHeaderBand>Ez a sáv szolgl a csoportosítások definiálására. Csoportosítást enélkül nem lehet készíteni. Itt meg tudsz jeleníteni információt a csoportosításról nlév, dátum stb. Ez is balról jobbra jelenik meg.</StiCrossGroupHeaderBand>
-    <StiCrossHeaderBand>Ez a sáv szolgál afejlévc megjelenítésére. Ez szolgál a kereszt lekérdezés fejléc infrmációinak megjelenítésére.</StiCrossHeaderBand>
-    <StiCrossTab>Ezt a komponenst használjuk struktúrált adatok megjelenítésére táblázatos fomában.</StiCrossTab>
-    <StiDataBand>Ez a komponens csatlakozik az adatforráshoz, minden adatforrásban szereplő sornál megjelenik egyszer ez a sáv.</StiDataBand>
-    <StiDatePickerElement>Ez az elem a dátum és idő kiválasztására használatos.</StiDatePickerElement>
-    <StiElectronicSignature>Ez a komponens grafikai aláírások, képek, inicializációk és szövegek felvételére használatos.</StiElectronicSignature>
-    <StiEmptyBand>Ez a sáv egy üres teret eredményez minden oldal alján</StiEmptyBand>
-    <StiFilterCategory>Elemek csoportja, melyek értékek kiválasztására és szűrésére használható.</StiFilterCategory>
-    <StiFooterBand>Ezzel a sávval lehet összesítő adatokat megjeleníteni a jelentés végén.</StiFooterBand>
-    <StiGauge>A komponens lehetővé teszi érték megjelenítését előre megadott tartományon belül. Grafikus ábrázolása eltérő lehet.</StiGauge>
-    <StiGaugeElement>Az elem lehetővé teszi, hogy egy előre meghatározott tartományon belül jelenjen meg egy érték. Különböző grafikus ábrázolással jeleníthető meg.</StiGaugeElement>
-    <StiGroupFooterBand>Ez a sáv szolgál a csoport összesítések megjelenítésére. Minden csoport lábléchez tartozik egy csoport fejléc amit figyel, és az ott megadottak alapján  összesíti az adatokat.</StiGroupFooterBand>
-    <StiGroupHeaderBand>Ez a sáv  szolgál a csoportok definiálásara. Itt lehet megejeleníteni információkat a csoportról név, dátum stb.</StiGroupHeaderBand>
-    <StiHeaderBand>Ez a komponens szolgál az adatsávok fejlécének megjelenítésére. Az adatsorok felett jelenik meg.</StiHeaderBand>
-    <StiHierarchicalBand>Ez a komponens kapcsolódik egy adatforráshoz minden sornak megfelkel egy bejegyzés. Az adatok fa szerkezetben jelennek meg.</StiHierarchicalBand>
-    <StiHorizontalLinePrimitive>Ez egy sort jelenít meg a jelentésen.</StiHorizontalLinePrimitive>
-    <StiImage>Ezt a komponenst képek megjenítésére használjuk. Ezeket a formátumokat támogatja: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
-    <StiImageElement>Ez az elem a képek megjelenítésére szolgál. Támogatja a következő képformátumokat: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImageElement>
-    <StiIndicatorElement>Az elem a bemeneti adatok közötti különbséget mutatja.</StiIndicatorElement>
-    <StiListBoxElement>Az elem lehetővé teszi az elemek kiválasztását egy listáról.</StiListBoxElement>
-    <StiMap>Ez a komponens földrajzilag célzott adatokat jelenített meg.</StiMap>
-    <StiMapCategory>Elemek csoportja a térképekkel és adatokkal való munkálkodáshoz.</StiMapCategory>
-    <StiMapElement>Ez az elem földrajzilag célzott adatokat jeleníti meg.</StiMapElement>
-    <StiMathFormula>Ez a komponens a jelentésben lévő matematikai egyenletek megjelenítéséért felel.</StiMathFormula>
-    <StiOnlineMapElement>Ez az elem földrajzi jelölőket jeleníti meg az online térképen.</StiOnlineMapElement>
-    <StiOverlayBand>Ez a komponens vízjelek megjenítésére használható.</StiOverlayBand>
-    <StiPageFooterBand>Ez a sáv az oldalak alján megjelenítendő adatok kezelésére szolgál min oldal lábléc.</StiPageFooterBand>
-    <StiPageHeaderBand>Ez a sáv oldalfejlécként megjelenítő adatok kezelésére szolgál.</StiPageHeaderBand>
-    <StiPanel>Ez a komponens képes tartalmazni más komponseket lehet az oldalon vagy egy másik sávon és ezzel lehet együtt mozgatni a komponenseket.</StiPanel>
-    <StiPanelElement>Téglalap alakú terület, amely más elemeket is tartalmazhat. A panel mozgatásakor a benne lévő elemek is el lesznek mozdítva.</StiPanelElement>
-    <StiPdfDigitalSignature>Ez a komponens a digitális aláírás elhelyezését használja, miután a jelentés ki lett exportálva Adobe PDF-be.</StiPdfDigitalSignature>
-    <StiPivotTableElement>A pivot tábla elem az adatok strukturált táblázatkénti ábrázolását használható.</StiPivotTableElement>
-    <StiProgressElement>Az elem a bemeneti adatok arányát mutatja. Különböző formákban - torta, kör, csíkok - jeleníthető meg.</StiProgressElement>
-    <StiRectanglePrimitive>Ez a komponens négyszogek megjelenítésére használható.</StiRectanglePrimitive>
-    <StiRegionMapElement>Ez az elem földrajzilag célzott adatokat jeleníti meg.</StiRegionMapElement>
-    <StiReportSummaryBand>Ez a jelentés összesítő sáv szolgál a mindösszesen értékek megjelenítésére. A jelentés végén egszer jelenik meg</StiReportSummaryBand>
-    <StiReportTitleBand>Ez a sáv szolgál a jelentés címének megjelemnítésére,  a jelentés elején egyszer jelenik meg.</StiReportTitleBand>
-    <StiRichText>Ez a komponens szolgál RTF szövegek megjelenítésére és szerkesztésére. Támogatja RTF formátumú fájlok mentését betöltést.</StiRichText>
-    <StiRoundedRectanglePrimitive>Lekerekített négyzetek rajzolására használhatjuk ezt a komponenst.</StiRoundedRectanglePrimitive>
-    <StiShape>This component is used to insert ready-made shapes, such as arrows, diagonal line down, diagonal line up, horizontal line, left and right lines, oval, rectangle, rounded rectangle, top and bottom lines, triangle, vertical line.</StiShape>
-    <StiShapeElement>Ez az elem kész formák, például nyilak, átlós, vízszintes, függőleges vonalak, ellipszisek, téglalapok, lekerekített téglalapok, felső és alsó sorok, háromszögek berögzítésére használható.</StiShapeElement>
-    <StiSignature>Ez a komponens lehetővé teszi, hogy a jelentéshez fel lehessen venni egy elektronikus vagy digitális aláírást.</StiSignature>
-    <StiSparkline>Ez a komponens mikrografikákat hoz létre egy jelentésben. Ennek segítségével követhető nyomon a dinamikusan változó adatok pl. vonalakban, csíkokban, területekben.</StiSparkline>
-    <StiSubReport>Ez egy aljelentés készítését lehetővé tevő komponens.</StiSubReport>
-    <StiTable>Ez a komponens szolgál az adatztok tánblázatos megjelenítésére, vannak sorai és oszlopai hasonlóan az excel táblázatokhoz.</StiTable>
-    <StiTableElement>Ez az elem olyan adatelemek halmaza, amelyek függőleges oszlopok és vízszintes sorok modellezésével szerveznek.</StiTableElement>
-    <StiTableOfContents>Ez a komponens hoz létre egy tartalomjegyzéket a jelentésbe.</StiTableOfContents>
-    <StiText>Ez a komponens az alap szövegek és adatok megjelenítésére szolgál.</StiText>
-    <StiTextElement>Ez az elem egy alapvető objektum, amely az adatot szövegként továbbítja.</StiTextElement>
-    <StiTextInCells>Szövegek megjelenítésére szolgál cellában. Ezt formok készítésekor lehet leginkább használni.</StiTextInCells>
-    <StiTreeViewBoxElement>Az elem a fastruktúrában megjelenítő listán szereplő értékek kiválasztására szolgál.</StiTreeViewBoxElement>
-    <StiTreeViewElement>Megjeleníti az elemet, amely használható a hierarchikus adat fastruktúrájú megjelenítéséhez.</StiTreeViewElement>
-    <StiVerticalLinePrimitive>Függőleges sorok megjelenítésére használható a jelentésen.</StiVerticalLinePrimitive>
-    <StiWinControl>Ez a komponens meg tud jeleníteni .Net-es vizuális komponenseket.</StiWinControl>
-    <StiZipCode>Ez a komponens postai irányítószámok megjelenítésére használható.</StiZipCode>
+    <CategoryBands>Fejléceket, adatokat és lábléceket nyomtató sávok.</CategoryBands>
+    <CategoryComponents>Szöveget, képet és más adatot mutató komponensek.</CategoryComponents>
+    <CategoryCrossBands>Balról jobbra megjelenő sávok.</CategoryCrossBands>
+    <StiBarCode>Vonalkódot jelenít meg.</StiBarCode>
+    <StiButtonElement>Kattintásra scriptet futtat.</StiButtonElement>
+    <StiButtonUI>Műveletet vagy parancsot indít el.</StiButtonUI>
+    <StiCardsElement>Csoportosított adatokat jelenít meg kártyákként.</StiCardsElement>
+    <StiChart>Adatokat jelenít meg diagramként.</StiChart>
+    <StiChartElement>Adatokat jelenít meg diagramként.</StiChartElement>
+    <StiCheckBox>Igaz vagy hamis értéket jelenít meg pipaként.</StiCheckBox>
+    <StiCheckBoxGroupUI>Lehetőségeket kínál, több is bejelölhető közülük.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>Egy lehetőséget kapcsol be vagy ki.</StiCheckBoxUI>
+    <StiChildBand>Még egy sávot nyomtat ugyanahhoz az adatsorhoz.</StiChildBand>
+    <StiClone>Egy panel tartalmát ismétli meg.</StiClone>
+    <StiColumnFooterBand>Az Adat sáv minden oszlopa alatt jelenik meg.</StiColumnFooterBand>
+    <StiColumnHeaderBand>Az Adat sáv minden oszlopa fölött jelenik meg.</StiColumnHeaderBand>
+    <StiComboBoxElement>Értéket választ ki egy legördülő listából.</StiComboBoxElement>
+    <StiContainer>Más komponenseket csoportosít egy területen.</StiContainer>
+    <StiCrossDataBand>Minden sornál egyszer jelenik meg, balról jobbra.</StiCrossDataBand>
+    <StiCrossFooterBand>A Cross-Data sáv után jelenik meg.</StiCrossFooterBand>
+    <StiCrossGroupFooterBand>Minden keresztcsoport végén jelenik meg.</StiCrossGroupFooterBand>
+    <StiCrossGroupHeaderBand>Minden keresztcsoport elején jelenik meg.</StiCrossGroupHeaderBand>
+    <StiCrossHeaderBand>A Cross-Data sáv előtt jelenik meg.</StiCrossHeaderBand>
+    <StiCrossTab>Strukturált adatokat jelenít meg kereszttáblaként.</StiCrossTab>
+    <StiDataBand>Az adatforrás minden soránál egyszer jelenik meg.</StiDataBand>
+    <StiDatePickerElement>Dátumot és időt választ ki.</StiDatePickerElement>
+    <StiDatePickerUI>Naptárt jelenít meg dátum kiválasztásához.</StiDatePickerUI>
+    <StiElectronicSignature>Rajzolt, gépelt vagy képalapú aláírást ad hozzá.</StiElectronicSignature>
+    <StiEmptyBand>Kitölti az oldal alján lévő szabad helyet.</StiEmptyBand>
+    <StiFilterCategory>Értékeket kiválasztó és szűrő elemek.</StiFilterCategory>
+    <StiFooterBand>Az Adat sáv sorai után jelenik meg.</StiFooterBand>
+    <StiGauge>Értéket jelenít meg egy tartományon belül.</StiGauge>
+    <StiGaugeElement>Értéket jelenít meg egy tartományon belül.</StiGaugeElement>
+    <StiGroupFooterBand>Minden csoport végén jelenik meg.</StiGroupFooterBand>
+    <StiGroupHeaderBand>Minden csoport elején jelenik meg.</StiGroupHeaderBand>
+    <StiHeaderBand>Az Adat sáv sorai előtt jelenik meg.</StiHeaderBand>
+    <StiHierarchicalBand>Az adatforrás sorait fastruktúrában nyomtatja.</StiHierarchicalBand>
+    <StiHorizontalLinePrimitive>Vízszintes vonalat rajzol.</StiHorizontalLinePrimitive>
+    <StiIconUI>Ikont jelenít meg.</StiIconUI>
+    <StiImage>Képet jelenít meg.</StiImage>
+    <StiImageElement>Képet jelenít meg.</StiImageElement>
+    <StiImageUI>Képet jelenít meg.</StiImageUI>
+    <StiIndicatorElement>Értékek közötti különbséget jelenít meg.</StiIndicatorElement>
+    <StiLabelUI>Rövid szöveget jelenít meg.</StiLabelUI>
+    <StiListBoxElement>Elemeket választ ki egy listából.</StiListBoxElement>
+    <StiListUI>Listát jelenít meg egy elem kiválasztásához.</StiListUI>
+    <StiMap>Adatokat jelenít meg térképen.</StiMap>
+    <StiMapCategory>Adatokat térképen megjelenítő elemek.</StiMapCategory>
+    <StiMapElement>Adatokat jelenít meg térképen.</StiMapElement>
+    <StiMarkdown>Markdown szöveget jelenít meg.</StiMarkdown>
+    <StiMathFormula>Matematikai egyenletet jelenít meg.</StiMathFormula>
+    <StiMultiListUI>Listát jelenít meg több elem kiválasztásához.</StiMultiListUI>
+    <StiMultiSelectUI>Legördülő listát jelenít meg több érték kiválasztásához.</StiMultiSelectUI>
+    <StiNumberBoxElement>Számot vagy számtartományt választ ki.</StiNumberBoxElement>
+    <StiNumberInputUI>Számot kér be a felhasználótól.</StiNumberInputUI>
+    <StiOnlineMapElement>Jelölőket jelenít meg online térképen.</StiOnlineMapElement>
+    <StiOverlayBand>Vízjelet nyomtat minden oldalra.</StiOverlayBand>
+    <StiPageFooterBand>Minden oldal alján jelenik meg.</StiPageFooterBand>
+    <StiPageHeaderBand>Minden oldal tetején jelenik meg.</StiPageHeaderBand>
+    <StiPanel>Más komponenseket csoportosít egy területen.</StiPanel>
+    <StiPanelElement>Más elemeket csoportosít egy területen.</StiPanelElement>
+    <StiPanelUI>Más kontrolokat csoportosít egy területen.</StiPanelUI>
+    <StiPdfDigitalSignature>A digitális aláírás helyét jelöli a PDF-ben.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>A digitális aláírás helyét jelöli a PDF-ben.</StiPdfDigitalSignatureElement>
+    <StiPivotTableElement>Strukturált adatokat jelenít meg pivot táblaként.</StiPivotTableElement>
+    <StiProgressElement>Egy értéket az egész részeként jelenít meg.</StiProgressElement>
+    <StiRadioGroupUI>Lehetőségeket kínál, egy választható közülük.</StiRadioGroupUI>
+    <StiRangeSelectorElement>Tartományt választ ki skálán vagy idővonalon.</StiRangeSelectorElement>
+    <StiRangeSliderUI>Tartományt állít be egy skálán.</StiRangeSliderUI>
+    <StiRectanglePrimitive>Téglalapot rajzol.</StiRectanglePrimitive>
+    <StiRegionMapElement>Adatokat jelenít meg régiók térképén.</StiRegionMapElement>
+    <StiReportSummaryBand>A jelentés végén egyszer jelenik meg.</StiReportSummaryBand>
+    <StiReportTitleBand>A jelentés elején egyszer jelenik meg.</StiReportTitleBand>
+    <StiRichText>Formázott RTF szöveget jelenít meg.</StiRichText>
+    <StiRoundedRectanglePrimitive>Lekerekített téglalapot rajzol.</StiRoundedRectanglePrimitive>
+    <StiScreen>Egy alkalmazásoldal kontroljait tartalmazza.</StiScreen>
+    <StiSelectUI>Legördülő listát jelenít meg egy érték kiválasztásához.</StiSelectUI>
+    <StiShape>Kész alakzatot jelenít meg.</StiShape>
+    <StiShapeElement>Kész alakzatot jelenít meg.</StiShapeElement>
+    <StiSignature>Elektronikus vagy digitális aláírást ad hozzá.</StiSignature>
+    <StiSliderUI>Értéket állít be egy skálán.</StiSliderUI>
+    <StiSparkline>Egy adatsor kis diagramját jeleníti meg.</StiSparkline>
+    <StiSubReport>Másik jelentést vagy oldalt nyomtat erre a helyre.</StiSubReport>
+    <StiSwitchUI>Egy beállítást kapcsol be vagy ki.</StiSwitchUI>
+    <StiTable>Adatokat jelenít meg sorokban és oszlopokban.</StiTable>
+    <StiTableElement>Adatokat jelenít meg sorokban és oszlopokban.</StiTableElement>
+    <StiTableOfContents>Összeállítja a tartalomjegyzéket.</StiTableOfContents>
+    <StiTableUI>Adatokat jelenít meg sorokban és oszlopokban.</StiTableUI>
+    <StiText>Adatokat jelenít meg szövegként.</StiText>
+    <StiTextElement>Adatokat jelenít meg szövegként.</StiTextElement>
+    <StiTextInCells>Szöveget jelenít meg, cellánként egy karakterrel.</StiTextInCells>
+    <StiTextInputUI>Szöveget kér be a felhasználótól.</StiTextInputUI>
+    <StiTreeViewBoxElement>Értékeket választ ki egy legördülő fából.</StiTreeViewBoxElement>
+    <StiTreeViewElement>Hierarchikus adatokat jelenít meg fastruktúrában.</StiTreeViewElement>
+    <StiVerticalLinePrimitive>Függőleges vonalat rajzol.</StiVerticalLinePrimitive>
+    <StiWebContentElement>Webes tartalmat jelenít meg.</StiWebContentElement>
+    <StiWinControl>Vizuális .NET kontrolt jelenít meg.</StiWinControl>
+    <StiZipCode>Irányítószámot (ZIP-kódot) jelenít meg.</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
     <ActiveRelation>Beállítja a prioritásos kapcsolatot a két táblázat között. Adatátalakításhoz és irányítópultokhoz használják. Minden egyes Adatforráson belül csak egy kapcsolat lehet aktív.</ActiveRelation>
-    <Align>A komponens igazítását változtatja meg.</Align>
-    <AlignBottom>Komponens igazítása az őt tartalmazó komponens aljára.</AlignBottom>
-    <AlignCenter>Komponens igazítása az őt tartalmazó komponens közepére.</AlignCenter>
+    <Align>Kiválasztott komponensek igazítása.</Align>
+    <AlignBottom>Tartalom igazítása alulra.</AlignBottom>
+    <AlignCenter>Tartalom igazítása vízszintesen középre.</AlignCenter>
     <AlignComponentBottom>Igazítása lentre</AlignComponentBottom>
     <AlignComponentCenter>Igazítása vizszintesen középre.</AlignComponentCenter>
     <AlignComponentLeft>Igazítása vizszintesen  balra.</AlignComponentLeft>
@@ -2026,24 +2054,24 @@
     <AlignComponentRight>Igazítása vizszintesen jobbra.</AlignComponentRight>
     <AlignComponentTop>Függőlegesen fentre igazít.</AlignComponentTop>
     <AlignLeft>Tartalom igazítása balra.</AlignLeft>
-    <AlignMiddle>Tartalom igazítása középre.</AlignMiddle>
+    <AlignMiddle>Tartalom igazítása függőlegesen középre.</AlignMiddle>
     <AlignRight>Tartalom igazítása jobbra.</AlignRight>
-    <AlignToGrid>Kiválasztott komponensek igazítása rendező rácshoz.</AlignToGrid>
-    <AlignTop>Tartalom igazítása fentre.</AlignTop>
-    <AlignWidth>Igazítás kitöltve.</AlignWidth>
-    <Angle>Forgatja a komponens tartalmát.</Angle>
+    <AlignToGrid>Kiválasztott komponensek igazítása a rácshoz.</AlignToGrid>
+    <AlignTop>Tartalom igazítása felülre.</AlignTop>
+    <AlignWidth>Tartalom sorkizárt igazítása.</AlignWidth>
+    <Angle>Szöveg elforgatása.</Angle>
     <AngleWatermark>Vízjel szöveg forgatási szöge.</AngleWatermark>
-    <Background>Háttérszín megváltoztatása</Background>
-    <biConditions>Kiválasztott kontrolok kondíciós listája.</biConditions>
-    <BorderColor>Keret szín megválasztása</BorderColor>
-    <BorderSidesAll>Keret mindenhol.</BorderSidesAll>
-    <BorderSidesBottom>Keret fent.</BorderSidesBottom>
-    <BorderSidesLeft>Keret baloldalon.</BorderSidesLeft>
-    <BorderSidesNone>Keret kikapcsolása.</BorderSidesNone>
-    <BorderSidesRight>Keret jobb oldalon.</BorderSidesRight>
-    <BorderSidesTop>Keret fent.</BorderSidesTop>
-    <BorderStyle>Keret stílus.</BorderStyle>
-    <BringToFront>Kiválasztott kontrol előtérbe hozása.</BringToFront>
+    <Background>Háttér módosítása.</Background>
+    <biConditions>Feltételek szerkesztése.</biConditions>
+    <BorderColor>Keret színének módosítása.</BorderColor>
+    <BorderSidesAll>Összes keret megjelenítése.</BorderSidesAll>
+    <BorderSidesBottom>Alsó keret megjelenítése vagy elrejtése.</BorderSidesBottom>
+    <BorderSidesLeft>Bal oldali keret megjelenítése vagy elrejtése.</BorderSidesLeft>
+    <BorderSidesNone>Összes keret elrejtése.</BorderSidesNone>
+    <BorderSidesRight>Jobb oldali keret megjelenítése vagy elrejtése.</BorderSidesRight>
+    <BorderSidesTop>Felső keret megjelenítése vagy elrejtése.</BorderSidesTop>
+    <BorderStyle>Keret stílusának módosítása.</BorderStyle>
+    <BringToFront>Előtérbe hozás.</BringToFront>
     <CenterHorizontally>Középre igazítás a tárolón belül vízszintesen.</CenterHorizontally>
     <CenterVertically>Középre igazítás a tárolón belül függőlegesen.</CenterVertically>
     <Close>Jelentés tervező bezárása.</Close>
@@ -2053,32 +2081,33 @@
     <CompilationAccess3>Ez a dokumentum fordítási folyamatot használ, és nem biztonságos lehet. Nem nyithatja meg.</CompilationAccess3>
     <CompilationAccessDeniedTitle>A dokumentum nem nyitható meg</CompilationAccessDeniedTitle>
     <CompilationAccessTitle>A dokumentum fordítást használ</CompilationAccessTitle>
-    <ComponentSize>omponens méretének megváltoztatása.</ComponentSize>
-    <CopyStyle>Másolás stílusa</CopyStyle>
+    <ComponentSize>Kiválasztott komponensek átméretezése.</ComponentSize>
+    <ComponentsMenu>Nem használt elemek megjelenítése.</ComponentsMenu>
+    <CopyStyle>Stílus másolása más komponensekre.</CopyStyle>
     <CopyToClipboard>Másolás vágólapra</CopyToClipboard>
-    <CurrencySymbol>Pénznem szimbólum kiválasztása.</CurrencySymbol>
+    <CurrencySymbol>Pénznem szimbólumának kiválasztása.</CurrencySymbol>
     <DashboardNew>Új irányítópult készítés.</DashboardNew>
     <DataStore>Reportban regisztrált adatok megmutatása.</DataStore>
-    <DateTimeFormat>Dátum idő formátum megadása.</DateTimeFormat>
-    <DockingPanels>Panel beállítások.</DockingPanels>
+    <DateTimeFormat>Dátum- és időformátum kiválasztása.</DateTimeFormat>
+    <DockingPanels>Panelek megjelenítése vagy elrejtése.</DockingPanels>
     <DockStyleBottom>Dokkolás fentre.</DockStyleBottom>
     <DockStyleFill>Dokkolás kliens méretre.</DockStyleFill>
     <DockStyleLeft>Dokkolás balra.</DockStyleLeft>
     <DockStyleNone>Dokkolás megszüntetése.</DockStyleNone>
     <DockStyleRight>Dokkolás jobbra.</DockStyleRight>
     <DockStyleTop>Dokkolás fentre.</DockStyleTop>
-    <FontGrow>Szöveg méret növelése.</FontGrow>
-    <FontName>Betütípus neve.</FontName>
+    <FontGrow>Szövegméret növelése.</FontGrow>
+    <FontName>Szöveg betűtípusának módosítása.</FontName>
     <FontNameWatermark>Vízjel szövegtípus.</FontNameWatermark>
     <FontShrink>Szövegméret csökkentése.</FontShrink>
-    <FontSize>Betü méret.</FontSize>
+    <FontSize>Szövegméret módosítása.</FontSize>
     <FontSizeWatermark>Betüméret változtatása.</FontSizeWatermark>
-    <FontStyleBold>Félkövér.</FontStyleBold>
+    <FontStyleBold>Szöveg félkövérré tétele.</FontStyleBold>
     <FontStyleBoldWatermark>Vízjel félkövér.</FontStyleBoldWatermark>
-    <FontStyleItalic>Dőlt.</FontStyleItalic>
+    <FontStyleItalic>Szöveg dőlt betűssé tétele.</FontStyleItalic>
     <FontStyleItalicWatermark>Vízjel dőlt.</FontStyleItalicWatermark>
-    <FontStyleStrikeout>Húzza át a szöveget.</FontStyleStrikeout>
-    <FontStyleUnderline>Aláhúzott.</FontStyleUnderline>
+    <FontStyleStrikeout>Szöveg áthúzása.</FontStyleStrikeout>
+    <FontStyleUnderline>Szöveg aláhúzása.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Vízjel aláhúzott.</FontStyleUnderlineWatermark>
     <FormatBoolean>Logikai változóhoz tartozóü formátum.</FormatBoolean>
     <FormatCurrency>Ez a formátum az alapértelmezett valutatípusra állítja a formátumot</FormatCurrency>
@@ -2089,56 +2118,60 @@
     <FormatPercentage>Százalék formátum.</FormatPercentage>
     <FormatTime>Idő formátum, területi beáll. szerint,.</FormatTime>
     <FormNew>Új dialógus ablak</FormNew>
-    <GridMode>Igazító rács vagy pont megmutatása.</GridMode>
+    <GridMode>Rács megjelenítése vonalakként vagy pontokként.</GridMode>
     <ImageAlignment>Kép igazítás (vízjel).</ImageAlignment>
     <ImageTransparency>Vízjel átlátszóság megváltoztatása.</ImageTransparency>
-    <Interaction>Kezelje a kiválasztott komponensek interakcióját!</Interaction>
-    <LineSpacing>Válassz, mekkora legyen a távolság a szöveg sorai vagy bekezdései között!</LineSpacing>
-    <Link>Link the component to the current container.</Link>
+    <Interaction>Interakció beállítása.</Interaction>
+    <LineSpacing>Sorköz módosítása.</LineSpacing>
+    <Link>Csatolás a tárolóhoz.</Link>
     <LoadImage>Vízjel kép betöltése fájlból.</LoadImage>
-    <Lock>omponens zárolás, nem lehet mozgatni méretezni.</Lock>
-    <MainMenu>A reporton végezhető lehetőségekért id kell kapttintatni, megnyitás zárás, nyomtatái kép stb</MainMenu>
+    <Lock>Pozíció és méret zárolása.</Lock>
+    <MainMenu>Jelentés létrehozása, megnyitása vagy mentése.</MainMenu>
     <MakeHorizontalSpacingEqual>Vízszintes térköz komponensek között.</MakeHorizontalSpacingEqual>
     <MakeVerticalSpacingEqual>Függőleges térköz komponensek között.</MakeVerticalSpacingEqual>
-    <Margins>Aktuális lap margóinak beállítása.</Margins>
+    <Margins>Oldalmargók kiválasztása.</Margins>
     <menuCheckIssues>Report teljes ellenőrzése a hibák és figyelmeztetések felderítésére.</menuCheckIssues>
     <menuDesignerOptions>Report tervező opciók beállítása.</menuDesignerOptions>
-    <menuEditClearContents>Tatalom törlése.</menuEditClearContents>
-    <menuEditCopy>Aktuális komponens másolása vágólapra.</menuEditCopy>
-    <menuEditCut>ivágás és a vágólapra helyezés.</menuEditCut>
-    <menuEditDelete>Kiválasztottak törlése.</menuEditDelete>
-    <menuEditPaste>Beillesztés a jelentésbe.</menuEditPaste>
+    <menuEditClearContents>Tartalom törlése.</menuEditClearContents>
+    <menuEditCopy>Kiválasztott komponensek másolása.</menuEditCopy>
+    <menuEditCut>Kiválasztott komponensek kivágása.</menuEditCut>
+    <menuEditDelete>Kiválasztott komponensek törlése.</menuEditDelete>
+    <menuEditPaste>Beillesztés a vágólapról.</menuEditPaste>
+    <menuExportSettings>Exportálási beállítások módosítása.</menuExportSettings>
     <menuFAQPage>FAQ oldal meglátogatása.</menuFAQPage>
-    <menuGlobalizationStrings>Honosító ablak megnyitása.</menuGlobalizationStrings>
+    <menuGlobalizationStrings>Honosítási szövegek szerkesztése.</menuGlobalizationStrings>
     <menuHelpAboutProgramm>Névjegy és verzió infók.</menuHelpAboutProgramm>
     <menuHomePage>Ugrás a program honlapjára.</menuHomePage>
     <menuPageOptions>Setup the basic parameters of the current page. All page options can be changed using the Property panel.</menuPageOptions>
     <menuPagesManager>Oldal manager megnyitása. Ezen lehet oldalakot formokat sorbarendezni törölni, illetve újakat létrehozni.</menuPagesManager>
-    <menuPreviewSettings>Nyomtatási kép beállító ablak megnyitása. Az itt elvégzett beállítások csak az adott reporte vonatkoznak..</menuPreviewSettings>
+    <menuPreviewSettings>Előnézet beállításainak módosítása.</menuPreviewSettings>
     <menuPrint>Nyomtató választás, példányszám, és más nyomtatási beállítás nyomtatás előtt.</menuPrint>
     <menuPrintPreview>Nyomtatási kép megjelenítése nyomtatás előtt.</menuPrintPreview>
     <menuPrintQuick>Report nyomtatása alapértelmezett nyomtatóra. Nyomtatás ablak nem jelenik meg.</menuPrintQuick>
-    <menuReportOptions>Alap report opciók bállítása. Minden opció állítható a tulajdonság panelen is.</menuReportOptions>
+    <menuReportOptions>Jelentés beállításainak módosítása.</menuReportOptions>
     <menuStyleDesigner>Stílus tervező megnyitása.</menuStyleDesigner>
     <menuSupport>Ugrás a támogatás oldalra kérdés feltételéhez.</menuSupport>
-    <menuViewAlignToGrid>Komponensek rendezése igazító rácshoz.</menuViewAlignToGrid>
+    <menuViewAlignToGrid>Komponensek igazítása a rácshoz.</menuViewAlignToGrid>
     <menuViewNormal>Normál nézete az oldalnak.</menuViewNormal>
     <menuViewPageBreakPreview>Oldaltörésekkel megjelenítő mód.</menuViewPageBreakPreview>
-    <menuViewQuickInfo>Gyors infók a komponensekről: név, aliasz, stb.</menuViewQuickInfo>
-    <menuViewShowGrid>Igazító rács megjelenítése.</menuViewShowGrid>
+    <menuViewQuickInfo>Gyors információ megjelenítése a komponensekről.</menuViewQuickInfo>
+    <menuViewShowGrid>Rács megjelenítése.</menuViewShowGrid>
     <menuViewShowHeaders>Sávok fejlécének megjelenítése.</menuViewShowHeaders>
-    <menuViewShowOrder>Komponens sorrend mutatása az oldalon.</menuViewShowOrder>
-    <menuViewShowRulers>Szabályok megmutatása.</menuViewShowRulers>
-    <MoveBackward>Komponens mozgatása egy szinttel feljebb.</MoveBackward>
-    <MoveForward>Komponens mozgatása egy szinttel lejebb.</MoveForward>
-    <Orientation>Oldal tájolás megváltoztatása.</Orientation>
+    <menuViewShowOrder>Komponensek sorrendjének megjelenítése.</menuViewShowOrder>
+    <menuViewShowRulers>Vonalzók megjelenítése.</menuViewShowRulers>
+    <menuViewShowSmartGuides>Intelligens segédvonalak megjelenítése.</menuViewShowSmartGuides>
+    <MoveBackward>Mozgatás egy szinttel hátrébb.</MoveBackward>
+    <MoveForward>Mozgatás egy szinttel előrébb.</MoveForward>
+    <Orientation>Váltás álló és fekvő tájolás között.</Orientation>
     <PageDelete>Oldal törlése.</PageDelete>
     <PageNew>Új oldal.</PageNew>
-    <PageSetup>Oldalbeállítás megnyitása.</PageSetup>
-    <PageSize>Oldal méret kiválasztása.</PageSize>
+    <PageSetup>Oldalbeállítások módosítása.</PageSetup>
+    <PageSize>Papírméret kiválasztása.</PageSize>
     <PagesManager>Oldal manager megnyitása.</PagesManager>
     <PressF1>Nyomj F1-et további információkért</PressF1>
+    <PropertiesButton>Jelentés tulajdonságainak megjelenítése.</PropertiesButton>
     <Redo>Visszavonás megfordítása.</Redo>
+    <RemoveMobileSurfaceButton>Mobil felület eltávolítása.</RemoveMobileSurfaceButton>
     <ReportNew>Új jelentés készítése.</ReportNew>
     <ReportOpen>Jelentés megnyitésa tervezőbe.</ReportOpen>
     <ReportPreview>Nyomtatási kép.</ReportPreview>
@@ -2146,9 +2179,9 @@
     <ScreenNew>Új képernyő készítése.</ScreenNew>
     <SelectAll>Minden komponens kijelölése az oldalon.</SelectAll>
     <SelectUILanguage>Felhasználói felület nyelvének kiváélasztása.</SelectUILanguage>
-    <SendToBack>Komponens háttérbe küldése.</SendToBack>
+    <SendToBack>Háttérbe küldés.</SendToBack>
     <ServicesConfigurator>Szolgáltatás konfigurátor megnyitása</ServicesConfigurator>
-    <Shadow>Árnyék megjelenítése.</Shadow>
+    <Shadow>Árnyék megjelenítése vagy elrejtése.</Shadow>
     <ShowBehind>Vízjel felirat megjelenítése háttérben.</ShowBehind>
     <ShowImageBehind>Vízjel minden komponens mögött.</ShowImageBehind>
     <ShowToolbox>Eszköztár megjelenítése.</ShowToolbox>
@@ -2158,32 +2191,35 @@
     <Text>Vízjel szöveg.</Text>
     <TextBrush>Szöveg szín megváltoztatása.</TextBrush>
     <TextBrushWatermark>Vízjel szöveg színének megváltoztatása.</TextBrushWatermark>
-    <TextColor>Szöveg szín megváltoztatása..</TextColor>
-    <TextFormat>Szöveg formázása.</TextFormat>
+    <TextColor>Szöveg színének módosítása.</TextColor>
+    <TextFormat>Értékek formátumának kiválasztása.</TextFormat>
     <ToolbarStyle>Stílus kiválasztása.</ToolbarStyle>
     <Undo>Visszavonás.</Undo>
+    <ViewModeDesktopButton>Asztali felület megjelenítése.</ViewModeDesktopButton>
+    <ViewModeMobileButton>Mobil felület megjelenítése.</ViewModeMobileButton>
+    <Watermark>Vízjel beállításainak módosítása.</Watermark>
     <WordWrap>Szöveg tördelése.</WordWrap>
     <Zoom>Nagyítás beállítása.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
-    <StiButtonControl>Gomb kontrol.</StiButtonControl>
-    <StiCheckBoxControl>Jelölő négyzet kontrol.</StiCheckBoxControl>
-    <StiCheckedListBoxControl>Választólita kontrol.</StiCheckedListBoxControl>
-    <StiComboBoxControl>Legördülő lista amiből egy elem választható ki</StiComboBoxControl>
-    <StiDateTimePickerControl>Dátum és idő kiválasztó kontrol.</StiDateTimePickerControl>
-    <StiGridControl>Táblázatoslista aminek vannak sorai és oszlopai.</StiGridControl>
-    <StiGroupBoxControl>Csoportosító panel.</StiGroupBoxControl>
-    <StiLabelControl>Felirat kontrol szövegek megjelenítésére.</StiLabelControl>
-    <StiListBoxControl>Választó lista.</StiListBoxControl>
-    <StiListViewControl>List view kontrol.</StiListViewControl>
-    <StiLookUpBoxControl>Adatforrásra irányított legördülő lista.</StiLookUpBoxControl>
-    <StiNumericUpDownControl>Szám választó kontrol.</StiNumericUpDownControl>
-    <StiPanelControl>Panel kontrol, amiben több kontrol kaphat helyet.</StiPanelControl>
-    <StiPictureBoxControl>Képek megjelenítésére szolgáló kontrol.</StiPictureBoxControl>
-    <StiRadioButtonControl>Választó kontrol egy elem választására</StiRadioButtonControl>
-    <StiRichTextBoxControl>RTF szövegek szerkesztésére megjelenítésére szolgáló kontrol.</StiRichTextBoxControl>
-    <StiTextBoxControl>Text box kontrol szöveg bevitelre.</StiTextBoxControl>
-    <StiTreeViewControl>Fa szerkezetben megjelenítendő adatok kezelésére szolgáló kontrol.</StiTreeViewControl>
+    <StiButtonControl>Kattintásra műveletet hajt végre.</StiButtonControl>
+    <StiCheckBoxControl>Egy lehetőséget kapcsol be vagy ki.</StiCheckBoxControl>
+    <StiCheckedListBoxControl>Listát jelenít meg jelölőnégyzettel minden elemnél.</StiCheckedListBoxControl>
+    <StiComboBoxControl>Legördülő listát jelenít meg, az érték be is írható.</StiComboBoxControl>
+    <StiDateTimePickerControl>Naptárt jelenít meg dátum és idő kiválasztásához.</StiDateTimePickerControl>
+    <StiGridControl>Adatokat jelenít meg sorokban és oszlopokban.</StiGridControl>
+    <StiGroupBoxControl>Kontrolokat csoportosít egy feliratos keretben.</StiGroupBoxControl>
+    <StiLabelControl>Szöveget jelenít meg az ablakon.</StiLabelControl>
+    <StiListBoxControl>Listát jelenít meg elemek kiválasztásához.</StiListBoxControl>
+    <StiListViewControl>Adatelemek listáját jeleníti meg.</StiListViewControl>
+    <StiLookUpBoxControl>Legördülő listát jelenít meg egy elem kiválasztásához.</StiLookUpBoxControl>
+    <StiNumericUpDownControl>Számot kér be, gombokkal módosítható.</StiNumericUpDownControl>
+    <StiPanelControl>Más kontrolokat csoportosít egy területen.</StiPanelControl>
+    <StiPictureBoxControl>Képet jelenít meg.</StiPictureBoxControl>
+    <StiRadioButtonControl>Egy csoport egyik lehetőségét választja ki.</StiRadioButtonControl>
+    <StiRichTextBoxControl>Formázott szöveget jelenít meg és szerkeszt.</StiRichTextBoxControl>
+    <StiTextBoxControl>Szöveget jelenít meg és szerkeszt.</StiTextBoxControl>
+    <StiTreeViewControl>Hierarchikus adatokat jelenít meg fastruktúrában.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
     <AddPageBreaks>Jelentés oldalak vizuális elválasztója.</AddPageBreaks>

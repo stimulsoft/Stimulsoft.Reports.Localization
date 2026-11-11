@@ -878,13 +878,208 @@
   <Gui>
     <monthcalendar_clearbutton>پاک کردن</monthcalendar_clearbutton>
   </Gui>
+  <HelpComponents>
+    <CategoryBands>نوارهایی که سرصفحه، داده و زیرنویس را چاپ می‌کنند.</CategoryBands>
+    <CategoryComponents>مولفاتی که متن، تصویر و داده‌های دیگر را نمایش می‌دهند.</CategoryComponents>
+    <CategoryCrossBands>نوارهایی که از چپ به راست چاپ می‌شوند.</CategoryCrossBands>
+    <StiBarCode>رمز میله‌ای را نمایش می‌دهد.</StiBarCode>
+    <StiButtonElement>با کلیک، یک اسکریپت را اجرا می‌کند.</StiButtonElement>
+    <StiButtonUI>یک عمل یا فرمان را آغاز می‌کند.</StiButtonUI>
+    <StiCardsElement>داده‌های گروه‌بندی‌شده را به صورت کارت نمایش می‌دهد.</StiCardsElement>
+    <StiChart>داده‌ها را به صورت نمودار نمایش می‌دهد.</StiChart>
+    <StiChartElement>داده‌ها را به صورت نمودار نمایش می‌دهد.</StiChartElement>
+    <StiCheckBox>مقدار درست یا نادرست را با علامت تیک نمایش می‌دهد.</StiCheckBox>
+    <StiCheckBoxGroupUI>گزینه‌هایی برای تیک زدن چند مورد ارائه می‌دهد.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>یک گزینه را روشن یا خاموش می‌کند.</StiCheckBoxUI>
+    <StiChildBand>یک نوار دیگر برای همان ردیف داده چاپ می‌کند.</StiChildBand>
+    <StiClone>محتوای یک پنل را تکرار می‌کند.</StiClone>
+    <StiColumnFooterBand>زیر هر ستون نوار داده چاپ می‌شود.</StiColumnFooterBand>
+    <StiColumnHeaderBand>بالای هر ستون نوار داده چاپ می‌شود.</StiColumnHeaderBand>
+    <StiComboBoxElement>یک مقدار را از لیست کشویی انتخاب می‌کند.</StiComboBoxElement>
+    <StiContainer>مولفات دیگر را در یک ناحیه گروه‌بندی می‌کند.</StiContainer>
+    <StiCrossDataBand>برای هر ردیف یک بار، از چپ به راست چاپ می‌شود.</StiCrossDataBand>
+    <StiCrossFooterBand>بعد از نوار داده متقاطع چاپ می‌شود.</StiCrossFooterBand>
+    <StiCrossGroupFooterBand>در انتهای هر گروه متقاطع چاپ می‌شود.</StiCrossGroupFooterBand>
+    <StiCrossGroupHeaderBand>در ابتدای هر گروه متقاطع چاپ می‌شود.</StiCrossGroupHeaderBand>
+    <StiCrossHeaderBand>قبل از نوار داده متقاطع چاپ می‌شود.</StiCrossHeaderBand>
+    <StiCrossTab>داده‌های ساخت‌یافته را در جدول متقاطع نمایش می‌دهد.</StiCrossTab>
+    <StiDataBand>برای هر ردیف منبع داده یک بار چاپ می‌شود.</StiDataBand>
+    <StiDatePickerElement>تاریخ و زمان را انتخاب می‌کند.</StiDatePickerElement>
+    <StiDatePickerUI>تقویمی برای انتخاب تاریخ نمایش می‌دهد.</StiDatePickerUI>
+    <StiElectronicSignature>امضای ترسیمی، تایپی یا تصویری اضافه می‌کند.</StiElectronicSignature>
+    <StiEmptyBand>فضای خالی پایین صفحه را پر می‌کند.</StiEmptyBand>
+    <StiFilterCategory>عناصری که مقادیر را انتخاب و فیلتر می‌کنند.</StiFilterCategory>
+    <StiFooterBand>بعد از ردیف‌های نوار داده چاپ می‌شود.</StiFooterBand>
+    <StiGauge>یک مقدار را در یک بازه نمایش می‌دهد.</StiGauge>
+    <StiGaugeElement>یک مقدار را در یک بازه نمایش می‌دهد.</StiGaugeElement>
+    <StiGroupFooterBand>در انتهای هر گروه چاپ می‌شود.</StiGroupFooterBand>
+    <StiGroupHeaderBand>در ابتدای هر گروه چاپ می‌شود.</StiGroupHeaderBand>
+    <StiHeaderBand>قبل از ردیف‌های نوار داده چاپ می‌شود.</StiHeaderBand>
+    <StiHierarchicalBand>ردیف‌های منبع داده را به صورت درخت چاپ می‌کند.</StiHierarchicalBand>
+    <StiHorizontalLinePrimitive>یک خط افقی رسم می‌کند.</StiHorizontalLinePrimitive>
+    <StiIconUI>یک آیکون نمایش می‌دهد.</StiIconUI>
+    <StiImage>یک تصویر نمایش می‌دهد.</StiImage>
+    <StiImageElement>یک تصویر نمایش می‌دهد.</StiImageElement>
+    <StiImageUI>یک تصویر نمایش می‌دهد.</StiImageUI>
+    <StiIndicatorElement>تفاوت بین مقادیر را نمایش می‌دهد.</StiIndicatorElement>
+    <StiLabelUI>یک متن کوتاه نمایش می‌دهد.</StiLabelUI>
+    <StiListBoxElement>مواردی را از یک لیست انتخاب می‌کند.</StiListBoxElement>
+    <StiListUI>لیستی برای انتخاب یک مورد نمایش می‌دهد.</StiListUI>
+    <StiMap>داده‌ها را روی نقشه نمایش می‌دهد.</StiMap>
+    <StiMapCategory>عناصری که داده‌ها را روی نقشه نمایش می‌دهند.</StiMapCategory>
+    <StiMapElement>داده‌ها را روی نقشه نمایش می‌دهد.</StiMapElement>
+    <StiMarkdown>متن Markdown را نمایش می‌دهد.</StiMarkdown>
+    <StiMathFormula>یک فرمول ریاضی نمایش می‌دهد.</StiMathFormula>
+    <StiMultiListUI>لیستی برای انتخاب چند مورد نمایش می‌دهد.</StiMultiListUI>
+    <StiMultiSelectUI>لیست کشویی برای انتخاب چند مقدار نمایش می‌دهد.</StiMultiSelectUI>
+    <StiNumberBoxElement>یک عدد یا بازه‌ای از اعداد را انتخاب می‌کند.</StiNumberBoxElement>
+    <StiNumberInputUI>یک عدد از کاربر دریافت می‌کند.</StiNumberInputUI>
+    <StiOnlineMapElement>نشانگرها را روی نقشه آنلاین نمایش می‌دهد.</StiOnlineMapElement>
+    <StiOverlayBand>روی هر صفحه یک واترمارک چاپ می‌کند.</StiOverlayBand>
+    <StiPageFooterBand>در پایین هر صفحه چاپ می‌شود.</StiPageFooterBand>
+    <StiPageHeaderBand>در بالای هر صفحه چاپ می‌شود.</StiPageHeaderBand>
+    <StiPanel>مولفات دیگر را در یک ناحیه گروه‌بندی می‌کند.</StiPanel>
+    <StiPanelElement>عناصر دیگر را در یک ناحیه گروه‌بندی می‌کند.</StiPanelElement>
+    <StiPanelUI>کنترل‌های دیگر را در یک ناحیه گروه‌بندی می‌کند.</StiPanelUI>
+    <StiPdfDigitalSignature>محل امضای دیجیتال را در PDF مشخص می‌کند.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>محل امضای دیجیتال را در PDF مشخص می‌کند.</StiPdfDigitalSignatureElement>
+    <StiPivotTableElement>داده‌های ساخت‌یافته را در جدول محوری نمایش می‌دهد.</StiPivotTableElement>
+    <StiProgressElement>یک مقدار را به صورت بخشی از کل نمایش می‌دهد.</StiProgressElement>
+    <StiRadioGroupUI>گزینه‌هایی برای انتخاب یکی از آن‌ها ارائه می‌دهد.</StiRadioGroupUI>
+    <StiRangeSelectorElement>بازه‌ای را روی مقیاس یا خط زمان انتخاب می‌کند.</StiRangeSelectorElement>
+    <StiRangeSliderUI>بازه‌ای را روی مقیاس تعیین می‌کند.</StiRangeSliderUI>
+    <StiRectanglePrimitive>یک مستطیل رسم می‌کند.</StiRectanglePrimitive>
+    <StiRegionMapElement>داده‌ها را روی نقشه مناطق نمایش می‌دهد.</StiRegionMapElement>
+    <StiReportSummaryBand>یک بار در انتهای گزارش چاپ می‌شود.</StiReportSummaryBand>
+    <StiReportTitleBand>یک بار در ابتدای گزارش چاپ می‌شود.</StiReportTitleBand>
+    <StiRichText>متن قالب‌بندی‌شده RTF را نمایش می‌دهد.</StiRichText>
+    <StiRoundedRectanglePrimitive>یک مستطیل گوشه‌گرد رسم می‌کند.</StiRoundedRectanglePrimitive>
+    <StiScreen>کنترل‌های یک صفحه برنامه را نگه می‌دارد.</StiScreen>
+    <StiSelectUI>لیست کشویی برای انتخاب یک مقدار نمایش می‌دهد.</StiSelectUI>
+    <StiShape>یک شکل آماده نمایش می‌دهد.</StiShape>
+    <StiShapeElement>یک شکل آماده نمایش می‌دهد.</StiShapeElement>
+    <StiSignature>امضای الکترونیکی یا دیجیتال اضافه می‌کند.</StiSignature>
+    <StiSliderUI>مقداری را روی مقیاس تعیین می‌کند.</StiSliderUI>
+    <StiSparkline>نمودار کوچکی از یک سری داده نمایش می‌دهد.</StiSparkline>
+    <StiSubReport>گزارش یا صفحه دیگری را در این محل چاپ می‌کند.</StiSubReport>
+    <StiSwitchUI>یک تنظیم را روشن یا خاموش می‌کند.</StiSwitchUI>
+    <StiTable>داده‌ها را در ردیف‌ها و ستون‌ها نمایش می‌دهد.</StiTable>
+    <StiTableElement>داده‌ها را در ردیف‌ها و ستون‌ها نمایش می‌دهد.</StiTableElement>
+    <StiTableOfContents>فهرست مطالب را می‌سازد.</StiTableOfContents>
+    <StiTableUI>داده‌ها را در ردیف‌ها و ستون‌ها نمایش می‌دهد.</StiTableUI>
+    <StiText>داده‌ها را به صورت متن نمایش می‌دهد.</StiText>
+    <StiTextElement>داده‌ها را به صورت متن نمایش می‌دهد.</StiTextElement>
+    <StiTextInCells>متن را با یک کاراکتر در هر سلول نمایش می‌دهد.</StiTextInCells>
+    <StiTextInputUI>متن را از کاربر دریافت می‌کند.</StiTextInputUI>
+    <StiTreeViewBoxElement>مقادیر را از درخت کشویی انتخاب می‌کند.</StiTreeViewBoxElement>
+    <StiTreeViewElement>داده‌های سلسله‌مراتبی را به صورت درخت نمایش می‌دهد.</StiTreeViewElement>
+    <StiVerticalLinePrimitive>یک خط عمودی رسم می‌کند.</StiVerticalLinePrimitive>
+    <StiWebContentElement>محتوای وب را نمایش می‌دهد.</StiWebContentElement>
+    <StiWinControl>یک کنترل بصری .NET نمایش می‌دهد.</StiWinControl>
+    <StiZipCode>کد پستی ZIP را نمایش می‌دهد.</StiZipCode>
+  </HelpComponents>
   <HelpDesigner>
+    <Align>تراز کردن مولفات انتخاب‌شده.</Align>
+    <AlignBottom>تراز کردن محتوا به پایین.</AlignBottom>
+    <AlignCenter>تراز کردن محتوا به مرکز.</AlignCenter>
+    <AlignLeft>تراز کردن محتوا به چپ.</AlignLeft>
+    <AlignMiddle>تراز کردن محتوا به وسط.</AlignMiddle>
+    <AlignRight>تراز کردن محتوا به راست.</AlignRight>
+    <AlignToGrid>تراز کردن مولفات انتخاب‌شده با شبکه.</AlignToGrid>
+    <AlignTop>تراز کردن محتوا به بالا.</AlignTop>
+    <AlignWidth>تراز کردن محتوا از دو طرف.</AlignWidth>
+    <Angle>چرخاندن متن.</Angle>
+    <Background>تغییر پس‌زمینه.</Background>
+    <biConditions>ویرایش شروط.</biConditions>
+    <BorderColor>تغییر رنگ حاشیه.</BorderColor>
+    <BorderSidesAll>نمایش همه حاشیه‌ها.</BorderSidesAll>
+    <BorderSidesBottom>نمایش یا پنهان کردن حاشیه پایین.</BorderSidesBottom>
+    <BorderSidesLeft>نمایش یا پنهان کردن حاشیه چپ.</BorderSidesLeft>
+    <BorderSidesNone>پنهان کردن همه حاشیه‌ها.</BorderSidesNone>
+    <BorderSidesRight>نمایش یا پنهان کردن حاشیه راست.</BorderSidesRight>
+    <BorderSidesTop>نمایش یا پنهان کردن حاشیه بالا.</BorderSidesTop>
+    <BorderStyle>تغییر سبک حاشیه.</BorderStyle>
+    <BringToFront>آوردن به جلو.</BringToFront>
+    <Columns>تقسیم صفحه به ستون‌ها.</Columns>
     <CompilationAccess1>این سند از فرایند کامپایل استفاده می‌کند. اگر سند از منبعی مطمئن است، می‌توانید برای دسترسی به آن روی دکمه "باز کردن" کلیک کنید.</CompilationAccess1>
     <CompilationAccess2>اگر از منبع سند مطمئن نیستید اما همچنان می‌خواهید آن را مشاهده کنید، می‌توانید روی دکمه "باز کردن در حالت امن" کلیک کنید. در این صورت به جای کامپایل از تفسیر استفاده می‌شود و می‌توانید سند را با امنیت اجرا کنید.</CompilationAccess2>
     <CompilationAccess3>این سند از فرایند کامپایل استفاده می‌کند و ممکن است ناامن باشد. نمی‌توانید آن را باز کنید.</CompilationAccess3>
     <CompilationAccessDeniedTitle>نمی‌توان سند را باز کرد</CompilationAccessDeniedTitle>
     <CompilationAccessTitle>سند از کامپایل استفاده می‌کند</CompilationAccessTitle>
+    <ComponentSize>تغییر اندازه مولفات انتخاب‌شده.</ComponentSize>
+    <ComponentsMenu>نمایش عناصر استفاده‌نشده.</ComponentsMenu>
+    <CopyStyle>کپی سبک به مولفات دیگر.</CopyStyle>
+    <CurrencySymbol>انتخاب نماد ارز.</CurrencySymbol>
+    <DateTimeFormat>انتخاب قالب تاریخ و زمان.</DateTimeFormat>
+    <DockingPanels>نمایش یا پنهان کردن پنل‌ها.</DockingPanels>
+    <FontGrow>بزرگ‌تر کردن متن.</FontGrow>
+    <FontName>تغییر فونت متن.</FontName>
+    <FontShrink>کوچک‌تر کردن متن.</FontShrink>
+    <FontSize>تغییر اندازه متن.</FontSize>
+    <FontStyleBold>پررنگ کردن متن.</FontStyleBold>
+    <FontStyleItalic>مورب کردن متن.</FontStyleItalic>
+    <FontStyleStrikeout>خط زدن متن.</FontStyleStrikeout>
+    <FontStyleUnderline>خط کشیدن زیر متن.</FontStyleUnderline>
+    <GridMode>نمایش شبکه به صورت خط یا نقطه.</GridMode>
+    <Interaction>تنظیم تعامل.</Interaction>
+    <LineSpacing>تغییر فاصله خطوط.</LineSpacing>
+    <Link>پیوند دادن به حامل.</Link>
+    <Lock>قفل کردن موقعیت و اندازه.</Lock>
+    <MainMenu>ایجاد، باز کردن یا ذخیره گزارش.</MainMenu>
+    <Margins>انتخاب حاشیه‌های صفحه.</Margins>
+    <menuEditClearContents>پاک کردن محتوا.</menuEditClearContents>
+    <menuEditCopy>کپی مولفات انتخاب‌شده.</menuEditCopy>
+    <menuEditCut>برش مولفات انتخاب‌شده.</menuEditCut>
+    <menuEditDelete>حذف مولفات انتخاب‌شده.</menuEditDelete>
+    <menuEditPaste>جای‌گذاری از بریده‌دان.</menuEditPaste>
+    <menuExportSettings>تغییر تنظیمات خروجی.</menuExportSettings>
+    <menuGlobalizationStrings>ویرایش رشته‌های جهانی‌سازی.</menuGlobalizationStrings>
+    <menuPreviewSettings>تغییر تنظیمات پیش‌نمایش.</menuPreviewSettings>
+    <menuReportOptions>تغییر گزینه‌های گزارش.</menuReportOptions>
+    <menuViewAlignToGrid>تراز کردن مولفات با شبکه.</menuViewAlignToGrid>
+    <menuViewQuickInfo>نمایش اطلاعات سریع روی مولفات.</menuViewQuickInfo>
+    <menuViewShowGrid>نمایش شبکه.</menuViewShowGrid>
+    <menuViewShowHeaders>نمایش سرصفحه نوارها.</menuViewShowHeaders>
+    <menuViewShowOrder>نمایش ترتیب مولفات.</menuViewShowOrder>
+    <menuViewShowRulers>نمایش خط‌کش‌ها.</menuViewShowRulers>
+    <menuViewShowSmartGuides>نمایش راهنماهای هوشمند.</menuViewShowSmartGuides>
+    <MoveBackward>انتقال یک سطح به عقب.</MoveBackward>
+    <MoveForward>انتقال یک سطح به جلو.</MoveForward>
+    <Orientation>جابه‌جایی بین حالت عمودی و افقی.</Orientation>
+    <PageSetup>تغییر تنظیمات صفحه.</PageSetup>
+    <PageSize>انتخاب اندازه کاغذ.</PageSize>
+    <PropertiesButton>نمایش خصوصیات گزارش.</PropertiesButton>
+    <RemoveMobileSurfaceButton>حذف سطح موبایل.</RemoveMobileSurfaceButton>
+    <SendToBack>فرستادن به عقب.</SendToBack>
+    <Shadow>نمایش یا پنهان کردن سایه.</Shadow>
+    <StyleDesigner>باز کردن طراح سبک.</StyleDesigner>
+    <TextColor>تغییر رنگ متن.</TextColor>
+    <TextFormat>انتخاب قالب مقادیر.</TextFormat>
+    <ViewModeDesktopButton>نمایش سطح دسکتاپ.</ViewModeDesktopButton>
+    <ViewModeMobileButton>نمایش سطح موبایل.</ViewModeMobileButton>
+    <Watermark>تغییر تنظیمات واترمارک.</Watermark>
+    <WordWrap>شکستن متن به چند خط.</WordWrap>
   </HelpDesigner>
+  <HelpDialogs>
+    <StiButtonControl>با کلیک، یک عمل را اجرا می‌کند.</StiButtonControl>
+    <StiCheckBoxControl>یک گزینه را روشن یا خاموش می‌کند.</StiCheckBoxControl>
+    <StiCheckedListBoxControl>لیستی با یک جعبه چک برای هر مورد نمایش می‌دهد.</StiCheckedListBoxControl>
+    <StiComboBoxControl>لیست کشویی برای انتخاب یا تایپ مقدار نمایش می‌دهد.</StiComboBoxControl>
+    <StiDateTimePickerControl>تقویمی برای انتخاب تاریخ و زمان نمایش می‌دهد.</StiDateTimePickerControl>
+    <StiGridControl>داده‌ها را در ردیف‌ها و ستون‌ها نمایش می‌دهد.</StiGridControl>
+    <StiGroupBoxControl>کنترل‌ها را در قابی با عنوان گروه‌بندی می‌کند.</StiGroupBoxControl>
+    <StiLabelControl>متنی را روی فرم نمایش می‌دهد.</StiLabelControl>
+    <StiListBoxControl>لیستی برای انتخاب موارد نمایش می‌دهد.</StiListBoxControl>
+    <StiListViewControl>لیستی از موارد داده را نمایش می‌دهد.</StiListViewControl>
+    <StiLookUpBoxControl>لیست کشویی برای انتخاب یک مورد نمایش می‌دهد.</StiLookUpBoxControl>
+    <StiNumericUpDownControl>یک عدد دریافت می‌کند، با دکمه‌هایی برای تغییر آن.</StiNumericUpDownControl>
+    <StiPanelControl>کنترل‌های دیگر را در یک ناحیه گروه‌بندی می‌کند.</StiPanelControl>
+    <StiPictureBoxControl>یک تصویر نمایش می‌دهد.</StiPictureBoxControl>
+    <StiRadioButtonControl>یک گزینه از یک گروه را انتخاب می‌کند.</StiRadioButtonControl>
+    <StiRichTextBoxControl>متن قالب‌بندی‌شده را نمایش می‌دهد و ویرایش می‌کند.</StiRichTextBoxControl>
+    <StiTextBoxControl>متن را نمایش می‌دهد و ویرایش می‌کند.</StiTextBoxControl>
+    <StiTreeViewControl>داده‌های سلسله‌مراتبی را به صورت درخت نمایش می‌دهد.</StiTreeViewControl>
+  </HelpDialogs>
   <HelpViewer>
     <Bookmarks>نمایش نشانواره‌ها.</Bookmarks>
     <Close>بستن پیش‌نمایش.</Close>

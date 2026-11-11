@@ -2046,131 +2046,135 @@
     <sys_morebuttons>Více tlačítek</sys_morebuttons>
   </Gui>
   <HelpComponents>
-    <StiBarCode>Tato komponenta zobrazuje v reportu čárový kód. Data čárového kódu jsou poslána objektu ve formátu řetězce. Řetězec může obsahovat jakékoliv znaky povolené pro zvolený typ čárového kódu, ale pouze ty, které jsou v něm zobrazitelné.</StiBarCode>
-    <StiButtonElement>Tento prvek se používá ke spuštění skriptu události při interakci uživatele.</StiButtonElement>
-    <StiButtonUI>Tlačítko sloužící ke spuštění akce nebo příkazu.</StiButtonUI>
-    <StiCardsElement>Tento prvek se používá k zobrazení seskupených dat ve formě karet.</StiCardsElement>
-    <StiChart>Tato komponenta zobrazuje grafy v reportu. K dispozici je několik typů grafů. Např. sloupcový, čárový, kruhový, koláčový, spojnicový, plošný, Ganttův, bodový graf a jiné.</StiChart>
-    <StiChartElement>Tento prvek umožňuje zobrazit grafy v dashboardu. K dispozici jsou různé typy grafů.</StiChartElement>
-    <StiCheckBox>Tato komponenta zobrazuje v reportu zaškrtávací pole. Může obsahovat pouze hodnotu "zakázat" nebo "povolit".</StiCheckBox>
-    <StiCheckBoxGroupUI>Skupina zaškrtávacích políček sloužící k výběru více předdefinovaných možností ze seznamu.</StiCheckBoxGroupUI>
-    <StiCheckBoxUI>Zaškrtávací políčko sloužící k rychlému zapnutí nebo vypnutí jedné možnosti.</StiCheckBoxUI>
-    <StiChildBand>Oddíl, který je potomkem. Používá se pro výstup dvou oddílů na jeden řádek dat.</StiChildBand>
-    <StiClone>Tato komponenta klonuje části reportu do požadovaného reportu. Klonování může být aplikováno pouze na v rámci panelu.</StiClone>
-    <StiColumnFooterBand>Tento oddíl se používá pro výpis zápatí sloupců. Oddíl ColumnFooter má každý sloupec jeden. Všechny komponenty, které jsou umístěny v tomto oddíle, budou mít výstup pod každým sloupcem.</StiColumnFooterBand>
-    <StiColumnHeaderBand>Tento oddíl je použit pro hlavičku sloupce. Hlavička sloupce je použita pro výstup vždy jednou. Všechny komponenty, které jsou umístěny na oddílu, mají výstup nad každým sloupcem.</StiColumnHeaderBand>
-    <StiComboBoxElement>Představuje rozbalovací seznam, který umožňuje buď zadat hodnotu přímo do ovládacího prvku, nebo vybrat ze seznamu existujících možností.</StiComboBoxElement>
-    <StiContainer>Obdélníková oblast, kam mohou být další komponenty, včetně oddílů, vkládány. Při přesunutí kontejneru se komponenty v něm přesunou také. Kontejner může být vložen do oddílu nebo na stránku.</StiContainer>
-    <StiCrossDataBand>Tento oddíl je spojen se zdrojem dat. Výpis provede tolikrát, kolik je počet řádků ve zdroji dat. Křížový oddíl je vypisován zleva doprava.</StiCrossDataBand>
-    <StiCrossFooterBand>Tento oddíl je určen pro výpis zápatí CrossData oddílu. Oddíl je vypsán jednou po všech řádcích datového oddílu. Zápatí křížového oddílu je vypisováno zleva doprava.</StiCrossFooterBand>
-    <StiCrossGroupFooterBand>Tento oddíl slouží pro výstup zápatí skupiny. Nachází se pod CrossData oddílem. Každý CrossFooter patří do určitého CrossHeader oddílu. Křižový oddíl (cross header) je vypisován z leva doprava.</StiCrossGroupFooterBand>
-    <StiCrossGroupHeaderBand>Tento oddíl je jedním základních sloužící pro report vytvořený seskupením, kde jsou použita CrossData. Bez tohoto oddílu nelze seskupení vytvořit. Komponenty pro zobrazení informací skupinou jsou v hlavičce skupiny. Informace mohou být název skupiny, datum, podmínky seskupení apod. Oddíl je výstup na začátku každé skupiny. Křižový oddíl (cross band) je vypisován zleva doprava.</StiCrossGroupHeaderBand>
-    <StiCrossHeaderBand>Tento oddíl vytváří výstup hlaviček. Je používán v souvislosti s křížovým oddílem. Křižový oddíl (cross band) je vypisován zleva doprava.</StiCrossHeaderBand>
-    <StiCrossTab>Cross-tab komponenta je používána pro strukturovanou reprezentaci dat jako tabulka.</StiCrossTab>
-    <StiDataBand>Datový oddíl je propojen se zdrojovými daty a výstupem jsou řádky zdrojových dat.</StiDataBand>
-    <StiDatePickerElement>Tento prvek se používá k výběru data a času.</StiDatePickerElement>
-    <StiDatePickerUI>Výběr data sloužící k výběru data z kalendáře.</StiDatePickerUI>
-    <StiElectronicSignature>Tato komponenta se používá k přidání grafického podpisu, obrázku, iniciál a textu.</StiElectronicSignature>
-    <StiEmptyBand>Tento oddíl se používá pro vyplnění bílých míst na konci stránky. Tento oddíl vyplňuje bílá místa na všech stránkách reportu.</StiEmptyBand>
-    <StiFilterCategory>Skupina prvků sloužících k výběru a filtrování hodnot.</StiFilterCategory>
-    <StiFooterBand>Tento oddíl se používá k výpisu souhrnu datového oddílu. Je umístěn pod datovým oddílem a je vypsán jednou po vypsání všech řádků datového oddílu.</StiFooterBand>
-    <StiGauge>Komponenta umožňuje zobrazit hodnotu v rámci předdefinovaného rozsahu. Může mít různé grafické znázornění.</StiGauge>
-    <StiGaugeElement>Tento prvek umožňuje zobrazit hodnotu v rámci předdefinovaného rozsahu. Může mít různé grafické znázornění.</StiGaugeElement>
-    <StiGroupFooterBand>Oddíl zápatí skupiny (GroupFooter band) se používá pro výpis zápatí skupiny. Tento oddíl je umístěn za datový oddíl. Jedná se o datový oddíl, se kterým je svázána GroupHeader. Každý GroupFooter oddíl patří do specifikovaného GroupHeader oddílu. GroupFooter oddíl nebude vypsán bez GroupHeader oddílu.</StiGroupFooterBand>
-    <StiGroupHeaderBand>Tento oddíl je základním oddílem pro generování reportů s použitím seskupení. Komponenty pro zobrazení informací tímto oddílem jsou umístěny v hlavičce skupiny. Může to být název skupiny, datum, podmínka seskupení atd. Tento oddíl je vypsán na začátku každé skupiny.</StiGroupHeaderBand>
-    <StiHeaderBand>Tento oddíl se používá pro výpis hlaviček. Je používán s datovým oddílem.</StiHeaderBand>
-    <StiHierarchicalBand>Tento oddíl je propojen se zdrojovými daty a vypisuje se tolikrát, kolik zdrojová data obsahují řádků. Výstup dat je ve formě stromu.</StiHierarchicalBand>
-    <StiHorizontalLinePrimitive>Tato komponenta je používána pro výstup čáry.</StiHorizontalLinePrimitive>
-    <StiIconUI>Ikona sloužící k zobrazení symbolické grafiky nebo vizuální značky.</StiIconUI>
-    <StiImage>Tato komponenta je používáná pro výstup obrazků. Podporuje následující grafické formáty: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
-    <StiImageElement>Tento prvek se používá k výstupu obrázků. Podporuje následující grafické formáty: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF, SVG.</StiImageElement>
-    <StiImageUI>Obrázek sloužící k zobrazení grafického obsahu v rozhraní.</StiImageUI>
-    <StiIndicatorElement>Tento prvek zobrazuje rozdíl hodnot mezi vstupními daty.</StiIndicatorElement>
-    <StiLabelUI>Popisek sloužící k zobrazení textu nebo krátkých popisků.</StiLabelUI>
-    <StiListBoxElement>Tento prvek umožňuje vybírat položky ze seznamu.</StiListBoxElement>
-    <StiListUI>Seznam sloužící k zobrazení vybíratelných položek ve svislé kolekci.</StiListUI>
-    <StiMap>Tato komponenta se používá k zobrazení geograficky zaměřených dat.</StiMap>
-    <StiMapCategory>Skupina prvků pro práci s mapami a daty.</StiMapCategory>
-    <StiMapElement>Tento prvek se používá k zobrazení geograficky zaměřených dat.</StiMapElement>
-    <StiMathFormula>Tato komponenta se používá k zobrazení matematických vzorců v reportu.</StiMathFormula>
-    <StiMultiListUI>Seznam sloužící k výběru více položek ze stejné kolekce.</StiMultiListUI>
-    <StiMultiSelectUI>Selektor sloužící k výběru více hodnot z připraveného seznamu.</StiMultiSelectUI>
-    <StiNumberBoxElement>Tento prvek se používá k výběru číselné hodnoty nebo nastavení rozsahu číselných hodnot.</StiNumberBoxElement>
-    <StiNumberInputUI>Číselné pole sloužící k zadávání číselných hodnot s řízeným vstupem.</StiNumberInputUI>
-    <StiOnlineMapElement>Tento prvek se používá k zobrazení geografických značek na online mapě.</StiOnlineMapElement>
-    <StiOverlayBand>Tento oddíl je používán pro výstup vodoznaku na stránce.</StiOverlayBand>
-    <StiPageFooterBand>Tento oddíl se používá pro výstup informace na konec každé stránky jako očíslování stránky, datum a další dodatečné informace.</StiPageFooterBand>
-    <StiPageHeaderBand>Tento oddíl se používá pro výstup hlavičky stránky jako čísla stránek, datumů a dalších dodatečných informací. Výstup je nahoře každé stránky.</StiPageHeaderBand>
-    <StiPanel>Obdélníková oblast, která může obsahovat další komponenty, včetně oddílů. Když jsou komponenty v panelu přesunuty, pak je posunuta také. Panel lze vložit na oddíl nebo na stránku.</StiPanel>
-    <StiPanelElement>Obdélníková oblast, která může obsahovat další prvky. Při přesunu panelu se přesunou i prvky v něm.</StiPanelElement>
-    <StiPanelUI>Panel sloužící k seskupení a uspořádání dalších ovládacích prvků v jedné oblasti.</StiPanelUI>
-    <StiPdfDigitalSignature>Tato interaktivní komponenta se používá k určení místa pro digitální podpis po exportu reportu do Adobe PDF.</StiPdfDigitalSignature>
-    <StiPdfDigitalSignatureElement>Tato komponenta se používá k určení místa pro digitální podpis a polí z certifikátu při exportu do PDF.</StiPdfDigitalSignatureElement>
-    <StiPivotTableElement>Prvek kontingenční tabulky se používá k reprezentaci strukturovaných dat ve formě tabulky.</StiPivotTableElement>
-    <StiProgressElement>Tento prvek zobrazuje poměr vstupních dat. Může být prezentován v různých režimech – koláč, prstenec, pruhy.</StiProgressElement>
-    <StiRadioGroupUI>Skupina přepínačů sloužící k výběru jedné možnosti z předdefinované sady hodnot.</StiRadioGroupUI>
-    <StiRangeSelectorElement>Tato komponenta se používá k výběru rozsahu hodnot na stupnici nebo časové ose. Umožňuje uživatelům vizuálně definovat minimální a maximální meze rozsahu.</StiRangeSelectorElement>
-    <StiRangeSliderUI>Posuvník rozsahu sloužící k definování minimálních a maximálních hodnot na stupnici.</StiRangeSliderUI>
-    <StiRectanglePrimitive>Komponenta je použita pro výstup pravoúhelníků.</StiRectanglePrimitive>
-    <StiRegionMapElement>Tento prvek se používá k zobrazení geograficky zaměřených dat.</StiRegionMapElement>
-    <StiReportSummaryBand>Tento oddíl slouží pro výstup souhrnů kompletních reportů. Výstup tohoto oddílu se nachází na konci reportu.</StiReportSummaryBand>
-    <StiReportTitleBand>Tento oddíl se používá pro výstup titulku reportu. Výstup je na začátku reportu.</StiReportTitleBand>
-    <StiRichText>Tato komponenta se používá pro výstup a editaci RTF textu. Je podporováno náčítání a ukládání do RTF formátu.</StiRichText>
-    <StiRoundedRectanglePrimitive>Tato komponenta se stará o výstup pravoúhelníků se zaoblenými rohy.</StiRoundedRectanglePrimitive>
-    <StiScreen>Obrazovka, která hostí ovládací prvky, rozvržení a interakce uživatele pro stránku aplikace.</StiScreen>
-    <StiSelectUI>Výběrové pole sloužící k výběru jedné hodnoty z rozbalovacího seznamu.</StiSelectUI>
-    <StiShape>Tato komponenta slouží pro vkládání připravených tvarů, např. šipky, hlavní diagonála, vedlejší diagonála, horizontála, levé a pravé čáry, elipsa, pravoúhelník, zaoblený pravoúhelník, horní a dolní čáry, trojúhelník, vertikála.</StiShape>
-    <StiShapeElement>Tento prvek se používá k vkládání připravených tvarů, např. šipky, klesající diagonální čára, stoupající diagonální čára, horizontální čára, levé a pravé čáry, elipsa, obdélník, zaoblený obdélník, horní a dolní čáry, trojúhelník, vertikální čára.</StiShapeElement>
-    <StiSignature>Tato komponenta se používá k přidání elektronického nebo digitálního podpisu do reportu.</StiSignature>
-    <StiSliderUI>Posuvník sloužící k výběru hodnoty na spojité číselné stupnici.</StiSliderUI>
-    <StiSparkline>Tato komponenta se používá k vytváření mikrografiky v reportu. Umožňuje sledovat dynamicky se měnící data ve formě pruhů, čar, oblastí.</StiSparkline>
-    <StiSubReport>Tato komponenta je použita pro výstup dodatečných dat v různých částech reportu.</StiSubReport>
-    <StiSwitchUI>Přepínač sloužící k zapnutí nebo vypnutí nastavení jedním kliknutím.</StiSwitchUI>
-    <StiTable>Tato komponenta je množinou datových prvků, které jsou organizovány pomocí modelu vertikálních sloupců a horizontálních řádků.</StiTable>
-    <StiTableElement>Tento prvek je množinou datových prvků, které jsou organizovány pomocí modelu vertikálních sloupců a horizontálních řádků.</StiTableElement>
-    <StiTableOfContents>Tato komponenta se používá k vytvoření obsahu v reportu.</StiTableOfContents>
-    <StiTableUI>Tabulka sloužící k přehlednému zobrazení dat v řádcích a sloupcích.</StiTableUI>
-    <StiText>Tato komponenta je základním objektem pro výstup dat jako textu.</StiText>
-    <StiTextElement>Tento prvek je základním objektem pro výstup dat jako textu.</StiTextElement>
-    <StiTextInCells>Tato komponenta se používá pro výstup textu v buňkách. Často se využívá pro vytváření formulářů.</StiTextInCells>
-    <StiTextInputUI>Textové pole sloužící k zadávání a úpravě textových hodnot.</StiTextInputUI>
-    <StiTreeViewBoxElement>Tento prvek se používá k výběru hodnot pomocí rozbalovacího seznamu ve formě stromu.</StiTreeViewBoxElement>
-    <StiTreeViewElement>Představuje prvek, který se používá k zobrazení hierarchických dat ve formě stromu.</StiTreeViewElement>
-    <StiVerticalLinePrimitive>Tato komponenta je používáná pro výstup vertikál.</StiVerticalLinePrimitive>
-    <StiWebContentElement>Tato komponenta umožňuje přidávat webový obsah do dashboardů.</StiWebContentElement>
-    <StiWinControl>Tato komponenta se používá pro zobrazení vizuálních ovládacích prvků .NET.</StiWinControl>
-    <StiZipCode>Tato komponenta se používá pro výstup zip kódu.</StiZipCode>
+    <CategoryBands>Pruhy tisknoucí záhlaví, data a zápatí.</CategoryBands>
+    <CategoryComponents>Komponenty zobrazující text, obrázky a jiná data.</CategoryComponents>
+    <CategoryCrossBands>Pruhy tištěné zleva doprava.</CategoryCrossBands>
+    <StiBarCode>Zobrazuje čárový kód.</StiBarCode>
+    <StiButtonElement>Spouští skript po kliknutí.</StiButtonElement>
+    <StiButtonUI>Spouští akci nebo příkaz.</StiButtonUI>
+    <StiCardsElement>Zobrazuje seskupená data jako karty.</StiCardsElement>
+    <StiChart>Zobrazuje data jako graf.</StiChart>
+    <StiChartElement>Zobrazuje data jako graf.</StiChartElement>
+    <StiCheckBox>Zobrazuje pravdu nebo nepravdu jako zaškrtnutí.</StiCheckBox>
+    <StiCheckBoxGroupUI>Nabízí možnosti, z nichž lze zaškrtnout několik.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>Zapíná nebo vypíná jednu možnost.</StiCheckBoxUI>
+    <StiChildBand>Tiskne další pruh pro stejný řádek dat.</StiChildBand>
+    <StiClone>Opakuje obsah panelu.</StiClone>
+    <StiColumnFooterBand>Tiskne se pod každým sloupcem pruhu Data.</StiColumnFooterBand>
+    <StiColumnHeaderBand>Tiskne se nad každým sloupcem pruhu Data.</StiColumnHeaderBand>
+    <StiComboBoxElement>Vybírá hodnotu z rozbalovacího seznamu.</StiComboBoxElement>
+    <StiContainer>Seskupuje jiné komponenty v jedné oblasti.</StiContainer>
+    <StiCrossDataBand>Tiskne se jednou pro každý řádek, zleva doprava.</StiCrossDataBand>
+    <StiCrossFooterBand>Tiskne se za pruhem Křížení Data.</StiCrossFooterBand>
+    <StiCrossGroupFooterBand>Tiskne se na konci každé křížové skupiny.</StiCrossGroupFooterBand>
+    <StiCrossGroupHeaderBand>Tiskne se na začátku každé křížové skupiny.</StiCrossGroupHeaderBand>
+    <StiCrossHeaderBand>Tiskne se před pruhem Křížení Data.</StiCrossHeaderBand>
+    <StiCrossTab>Zobrazuje strukturovaná data jako křížovou tabulku.</StiCrossTab>
+    <StiDataBand>Tiskne se jednou pro každý řádek datového zdroje.</StiDataBand>
+    <StiDatePickerElement>Vybírá datum a čas.</StiDatePickerElement>
+    <StiDatePickerUI>Zobrazuje kalendář pro výběr data.</StiDatePickerUI>
+    <StiElectronicSignature>Přidává kreslený, psaný nebo obrázkový podpis.</StiElectronicSignature>
+    <StiEmptyBand>Vyplňuje volné místo dole na stránce.</StiEmptyBand>
+    <StiFilterCategory>Prvky vybírající a filtrující hodnoty.</StiFilterCategory>
+    <StiFooterBand>Tiskne se za řádky pruhu Data.</StiFooterBand>
+    <StiGauge>Zobrazuje hodnotu v rámci rozsahu.</StiGauge>
+    <StiGaugeElement>Zobrazuje hodnotu v rámci rozsahu.</StiGaugeElement>
+    <StiGroupFooterBand>Tiskne se na konci každé skupiny.</StiGroupFooterBand>
+    <StiGroupHeaderBand>Tiskne se na začátku každé skupiny.</StiGroupHeaderBand>
+    <StiHeaderBand>Tiskne se před řádky pruhu Data.</StiHeaderBand>
+    <StiHierarchicalBand>Tiskne řádky datového zdroje jako strom.</StiHierarchicalBand>
+    <StiHorizontalLinePrimitive>Kreslí horizontální čáru.</StiHorizontalLinePrimitive>
+    <StiIconUI>Zobrazuje ikonu.</StiIconUI>
+    <StiImage>Zobrazuje obrázek.</StiImage>
+    <StiImageElement>Zobrazuje obrázek.</StiImageElement>
+    <StiImageUI>Zobrazuje obrázek.</StiImageUI>
+    <StiIndicatorElement>Zobrazuje rozdíl mezi hodnotami.</StiIndicatorElement>
+    <StiLabelUI>Zobrazuje krátký text.</StiLabelUI>
+    <StiListBoxElement>Vybírá položky ze seznamu.</StiListBoxElement>
+    <StiListUI>Zobrazuje seznam pro výběr jedné položky.</StiListUI>
+    <StiMap>Zobrazuje data na mapě.</StiMap>
+    <StiMapCategory>Prvky zobrazující data na mapě.</StiMapCategory>
+    <StiMapElement>Zobrazuje data na mapě.</StiMapElement>
+    <StiMarkdown>Zobrazuje text ve formátu Markdown.</StiMarkdown>
+    <StiMathFormula>Zobrazuje matematický vzorec.</StiMathFormula>
+    <StiMultiListUI>Zobrazuje seznam pro výběr více položek.</StiMultiListUI>
+    <StiMultiSelectUI>Rozbaluje seznam pro výběr více hodnot.</StiMultiSelectUI>
+    <StiNumberBoxElement>Vybírá číslo nebo rozsah čísel.</StiNumberBoxElement>
+    <StiNumberInputUI>Přijímá číslo od uživatele.</StiNumberInputUI>
+    <StiOnlineMapElement>Zobrazuje značky na online mapě.</StiOnlineMapElement>
+    <StiOverlayBand>Tiskne vodoznak na každé stránce.</StiOverlayBand>
+    <StiPageFooterBand>Tiskne se dole na každé stránce.</StiPageFooterBand>
+    <StiPageHeaderBand>Tiskne se nahoře na každé stránce.</StiPageHeaderBand>
+    <StiPanel>Seskupuje jiné komponenty v jedné oblasti.</StiPanel>
+    <StiPanelElement>Seskupuje jiné prvky v jedné oblasti.</StiPanelElement>
+    <StiPanelUI>Seskupuje jiné ovládací prvky v jedné oblasti.</StiPanelUI>
+    <StiPdfDigitalSignature>Označuje místo digitálního podpisu v PDF.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>Označuje místo digitálního podpisu v PDF.</StiPdfDigitalSignatureElement>
+    <StiPivotTableElement>Zobrazuje strukturovaná data jako pivot tabulku.</StiPivotTableElement>
+    <StiProgressElement>Zobrazuje hodnotu jako část celku.</StiProgressElement>
+    <StiRadioGroupUI>Nabízí možnosti, z nichž lze vybrat jednu.</StiRadioGroupUI>
+    <StiRangeSelectorElement>Vybírá rozsah na stupnici nebo časové ose.</StiRangeSelectorElement>
+    <StiRangeSliderUI>Nastavuje rozsah na stupnici.</StiRangeSliderUI>
+    <StiRectanglePrimitive>Kreslí obdélník.</StiRectanglePrimitive>
+    <StiRegionMapElement>Zobrazuje data na mapě regionů.</StiRegionMapElement>
+    <StiReportSummaryBand>Tiskne se jednou na konci reportu.</StiReportSummaryBand>
+    <StiReportTitleBand>Tiskne se jednou na začátku reportu.</StiReportTitleBand>
+    <StiRichText>Zobrazuje formátovaný text RTF.</StiRichText>
+    <StiRoundedRectanglePrimitive>Kreslí zaoblený obdélník.</StiRoundedRectanglePrimitive>
+    <StiScreen>Obsahuje ovládací prvky stránky aplikace.</StiScreen>
+    <StiSelectUI>Rozbaluje seznam pro výběr jedné hodnoty.</StiSelectUI>
+    <StiShape>Zobrazuje hotový tvar.</StiShape>
+    <StiShapeElement>Zobrazuje hotový tvar.</StiShapeElement>
+    <StiSignature>Přidává elektronický nebo digitální podpis.</StiSignature>
+    <StiSliderUI>Nastavuje hodnotu na stupnici.</StiSliderUI>
+    <StiSparkline>Zobrazuje malý graf datové řady.</StiSparkline>
+    <StiSubReport>Tiskne na tomto místě jiný report nebo stránku.</StiSubReport>
+    <StiSwitchUI>Zapíná nebo vypíná nastavení.</StiSwitchUI>
+    <StiTable>Zobrazuje data v řádcích a sloupcích.</StiTable>
+    <StiTableElement>Zobrazuje data v řádcích a sloupcích.</StiTableElement>
+    <StiTableOfContents>Sestavuje obsah reportu.</StiTableOfContents>
+    <StiTableUI>Zobrazuje data v řádcích a sloupcích.</StiTableUI>
+    <StiText>Zobrazuje data jako text.</StiText>
+    <StiTextElement>Zobrazuje data jako text.</StiTextElement>
+    <StiTextInCells>Zobrazuje text po jednom znaku v buňce.</StiTextInCells>
+    <StiTextInputUI>Přijímá text od uživatele.</StiTextInputUI>
+    <StiTreeViewBoxElement>Vybírá hodnoty z rozbalovacího stromu.</StiTreeViewBoxElement>
+    <StiTreeViewElement>Zobrazuje hierarchická data jako strom.</StiTreeViewElement>
+    <StiVerticalLinePrimitive>Kreslí vertikální čáru.</StiVerticalLinePrimitive>
+    <StiWebContentElement>Zobrazuje webový obsah.</StiWebContentElement>
+    <StiWinControl>Zobrazuje vizuální ovládací prvek .NET.</StiWinControl>
+    <StiZipCode>Zobrazuje PSČ (ZIP kód).</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
     <ActiveRelation>Nastaví prioritní vztah pro propojení dvou tabulek. Používá se v Transformaci dat a v dashboardech. V každém datovém zdroji může být aktivní pouze jeden vztah.</ActiveRelation>
-    <Align>Změnit umístění vybraných komponent.</Align>
-    <AlignBottom>Zarovnat obsah komponenty dolů.</AlignBottom>
-    <AlignCenter>Zarovnat obsah komponenty na střed.</AlignCenter>
+    <Align>Zarovnat vybrané komponenty.</Align>
+    <AlignBottom>Zarovnat obsah dolů.</AlignBottom>
+    <AlignCenter>Zarovnat obsah na střed.</AlignCenter>
     <AlignComponentBottom>Povolit zarovnání objektů horizontálně k dolnímu okraji vybraných komponent.</AlignComponentBottom>
     <AlignComponentCenter>Povolit zarovnání objektů horizontálně ke středu okraje vybraných komponent.</AlignComponentCenter>
     <AlignComponentLeft>Povolit zarovnání objektů vertikálně k levému okraji vybraných komponent.</AlignComponentLeft>
     <AlignComponentMiddle>Povolit zarovnání objektů vertikálně ke středu okraje vybraných komponent.</AlignComponentMiddle>
     <AlignComponentRight>Povolit zarovnání objektů vertikálně k pravému okraji vybraných komponent.</AlignComponentRight>
     <AlignComponentTop>Povolit zarovnání objektů horizontálně k hornímu okraji vybraných komponent.</AlignComponentTop>
-    <AlignLeft>Zarovnat obsah komponenty doleva.</AlignLeft>
-    <AlignMiddle>Vycentrovat obsah podle dolního a horního okraje komponenty.</AlignMiddle>
-    <AlignRight>Zarovnat obsah komponenty doprava.</AlignRight>
-    <AlignToGrid>Zarovnat vybrané komponenty podle bodů mřížky.</AlignToGrid>
-    <AlignTop>Zarovnat obsah komponenty nahoru.</AlignTop>
-    <AlignWidth>Zarovnat obsah komponenty.</AlignWidth>
-    <Angle>Otočit obsah komponenty.</Angle>
+    <AlignLeft>Zarovnat obsah doleva.</AlignLeft>
+    <AlignMiddle>Zarovnat obsah svisle na střed.</AlignMiddle>
+    <AlignRight>Zarovnat obsah doprava.</AlignRight>
+    <AlignToGrid>Zarovnat vybrané komponenty k mřížce.</AlignToGrid>
+    <AlignTop>Zarovnat obsah nahoru.</AlignTop>
+    <AlignWidth>Zarovnat obsah do bloku.</AlignWidth>
+    <Angle>Otočit text.</Angle>
     <AngleWatermark>Úhel otočení textu vodoznaku.</AngleWatermark>
-    <Background>Změnit pozadí vybraných komponent.</Background>
-    <biConditions>Seznam ovládacích podmínek vybraných komponent.</biConditions>
-    <BorderColor>Získat barvu okraje vybrané komponenty.</BorderColor>
-    <BorderSidesAll>Zapnout úplné ohraničení vybraných komponent.</BorderSidesAll>
-    <BorderSidesBottom>Zapnout dolní ohraničení vybraných komponent.</BorderSidesBottom>
-    <BorderSidesLeft>Zapnout levé ohraničení vybraných komponent.</BorderSidesLeft>
-    <BorderSidesNone>Zrušit ohraničení všech vybraných komponent.</BorderSidesNone>
-    <BorderSidesRight>Zapnout pravé ohraničení vybraných komponent.</BorderSidesRight>
-    <BorderSidesTop>Zapnout horní ohraničení vybraných komponent.</BorderSidesTop>
-    <BorderStyle>Vybrat styl ohraničení vybraných komponent.</BorderStyle>
-    <BringToFront>Přenést vybrané komponenty dopředu.</BringToFront>
+    <Background>Změnit pozadí.</Background>
+    <biConditions>Upravit podmínky.</biConditions>
+    <BorderColor>Změnit barvu ohraničení.</BorderColor>
+    <BorderSidesAll>Zobrazit všechna ohraničení.</BorderSidesAll>
+    <BorderSidesBottom>Zobrazit nebo skrýt dolní ohraničení.</BorderSidesBottom>
+    <BorderSidesLeft>Zobrazit nebo skrýt levé ohraničení.</BorderSidesLeft>
+    <BorderSidesNone>Skrýt všechna ohraničení.</BorderSidesNone>
+    <BorderSidesRight>Zobrazit nebo skrýt pravé ohraničení.</BorderSidesRight>
+    <BorderSidesTop>Zobrazit nebo skrýt horní ohraničení.</BorderSidesTop>
+    <BorderStyle>Změnit styl ohraničení.</BorderStyle>
+    <BringToFront>Přesunout do popředí.</BringToFront>
     <CenterHorizontally>Povolit zarovnání komponenty horizontálně k okrajům kontejneru, kde je umístěn.</CenterHorizontally>
     <CenterVertically>Povolit zarovnání komponenty vertikálně k okrajům kontejneru, kde je umístěn.</CenterVertically>
     <Close>Zavřít návrh reportu.</Close>
@@ -2186,14 +2190,14 @@
     <CompilationAccessTitle>Dokument používá kompilaci</CompilationAccessTitle>
     <CompilationModeEnabling>Přepínáte do režimu kompilace. Tento režim umožňuje spouštět různý kód, který někdy může být škodlivý. Používejte prosím tento režim pouze v případě, že rozumíte všem rizikům a souhlasíte s nimi. Pokračujte kliknutím na tlačítko {0}.</CompilationModeEnabling>
     <ComponentSize>Změnit velikost vybraných komponent.</ComponentSize>
-    <ComponentsMenu>Otevře nabídku Komponenty obsahující nepoužité prvky dashboardu na mobilní ploše.</ComponentsMenu>
-    <CopyStyle>Kopírovat styl</CopyStyle>
+    <ComponentsMenu>Zobrazit nepoužité prvky.</ComponentsMenu>
+    <CopyStyle>Kopírovat styl do jiných komponent.</CopyStyle>
     <CopyToClipboard>Kopírovat do schránky</CopyToClipboard>
     <CurrencySymbol>Vybrat symbol měny.</CurrencySymbol>
     <DashboardNew>Vytvořit nový dashboard.</DashboardNew>
     <DataStore>Zobrazit data registrovaná v reportu.</DataStore>
-    <DateTimeFormat>Vybrat formát datumu a času pro vybrané komponenty.</DateTimeFormat>
-    <DockingPanels>Nastavení panelů.</DockingPanels>
+    <DateTimeFormat>Vybrat formát data a času.</DateTimeFormat>
+    <DockingPanels>Zobrazit nebo skrýt panely.</DockingPanels>
     <DockStyleBottom>Ukotvit vybrané komponenty dolů.</DockStyleBottom>
     <DockStyleFill>Ukotvit vybrané komponenty ke všem stranám.</DockStyleFill>
     <DockStyleLeft>Ukotvit vybrané komponenty doleva.</DockStyleLeft>
@@ -2202,17 +2206,17 @@
     <DockStyleTop>Ukotvit vybrané komponenty nahoru.</DockStyleTop>
     <EventsAccess1>Tento dokument používá události. Pokud pochází z důvěryhodného zdroje, můžete pro přístup k němu kliknout na tlačítko „Otevřít“.</EventsAccess1>
     <EventsAccess2>Pokud si nejste jisti zdrojem dokumentu, ale přesto si jej chcete prohlédnout, můžete kliknout na tlačítko „Otevřít v bezpečném režimu“. V tomto případě budou události ignorovány a nebudou spuštěny.</EventsAccess2>
-    <FontGrow>Zvětšit velikost písma.</FontGrow>
-    <FontName>Textový font.</FontName>
+    <FontGrow>Zvětšit text.</FontGrow>
+    <FontName>Změnit písmo textu.</FontName>
     <FontNameWatermark>Font textu vodoznaku.</FontNameWatermark>
-    <FontShrink>Zmenšit velikost písma.</FontShrink>
-    <FontSize>Velikost písma.</FontSize>
+    <FontShrink>Zmenšit text.</FontShrink>
+    <FontSize>Změnit velikost textu.</FontSize>
     <FontSizeWatermark>Změnit velikost fontu.</FontSizeWatermark>
-    <FontStyleBold>Označit text tučně.</FontStyleBold>
+    <FontStyleBold>Zobrazit text tučně.</FontStyleBold>
     <FontStyleBoldWatermark>Označit text vodoznaku tučně.</FontStyleBoldWatermark>
     <FontStyleItalic>Zobrazit text kurzívou.</FontStyleItalic>
     <FontStyleItalicWatermark>Zobrazit text vodoznaku kurzívou.</FontStyleItalicWatermark>
-    <FontStyleStrikeout>Přeškrtne text.</FontStyleStrikeout>
+    <FontStyleStrikeout>Přeškrtnout text.</FontStyleStrikeout>
     <FontStyleUnderline>Podtrhnout text.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Podtrhnout text vodoznaku.</FontStyleUnderlineWatermark>
     <FormatBoolean>Tento formát se používá pro formátování hodnot typu boolean.</FormatBoolean>
@@ -2224,61 +2228,61 @@
     <FormatPercentage>Zobrazit hodnotu procentuálně. Čísla jsou násobena hodnotou 100 pro konverzi do procent.</FormatPercentage>
     <FormatTime>Zobrazit hodnotu jako čas. Časový formát je založen na lokálním nastavení.</FormatTime>
     <FormNew>Vytvořit nový dialog.</FormNew>
-    <GridMode>Zobrazit mřížku čárkovaně nebo tečkovaně.</GridMode>
+    <GridMode>Zobrazit mřížku jako čáry nebo tečky.</GridMode>
     <ImageAlignment>Vložit obrázek s vodoznakem na stránku.</ImageAlignment>
     <ImageTransparency>Změnit průhlednost obrázku vodoznaku.</ImageTransparency>
-    <Interaction>Ovládá interakci vybraných komponent.</Interaction>
-    <LineSpacing>Zvolte, kolik místa se zobrazí mezi řádky textu nebo mezi odstavci.</LineSpacing>
-    <Link>Propojit komponentu s aktuálním kontejnerem.</Link>
+    <Interaction>Nastavit interakci.</Interaction>
+    <LineSpacing>Změnit řádkování.</LineSpacing>
+    <Link>Propojit s kontejnerem.</Link>
     <LoadImage>Načíst obrázek vodoznaku ze souboru.</LoadImage>
-    <Lock>Zamknout komponentu. Komponentu nelze přesunout nebo jí změnit velikost.</Lock>
-    <MainMenu>Klikněte sem pro zobrazení seznamu možných operací s reportem včetně otevírání, zavírání a náhledu.</MainMenu>
+    <Lock>Zamknout pozici a velikost.</Lock>
+    <MainMenu>Vytvořit, otevřít nebo uložit report.</MainMenu>
     <MakeHorizontalSpacingEqual>Nastavit shodně horizontální vzdálenosti pro vybrané položky.</MakeHorizontalSpacingEqual>
     <MakeVerticalSpacingEqual>Nastavit shodně vertikální vzdálenosti pro vybrané položky.</MakeVerticalSpacingEqual>
-    <Margins>Vybrat okraje aktuální stránky.</Margins>
+    <Margins>Vybrat okraje stránky.</Margins>
     <menuCheckIssues>Kontrola reportu, zda-li neobsahuje chyby, varování. Generuje technická doporučení.</menuCheckIssues>
     <menuDesignerOptions>Nastavení možností návrháře reportů.</menuDesignerOptions>
     <menuEditClearContents>Vyčistit obsah.</menuEditClearContents>
-    <menuEditCopy>Zkopírovat vybrané položky a vložit je do schránky.</menuEditCopy>
-    <menuEditCut>Vyjmout vybrané položky z reportu a vložit je do schránky.</menuEditCut>
-    <menuEditDelete>Smazat vybrané položky.</menuEditDelete>
-    <menuEditPaste>Vložit obsah schránky do reportu.</menuEditPaste>
-    <menuExportSettings>Otevře editor Nastavení exportu pro aktuální report nebo dashboard. Nastavení se použije pouze při exportu aktuálního reportu nebo dashboardu.</menuExportSettings>
+    <menuEditCopy>Kopírovat vybrané komponenty.</menuEditCopy>
+    <menuEditCut>Vyjmout vybrané komponenty.</menuEditCut>
+    <menuEditDelete>Smazat vybrané komponenty.</menuEditDelete>
+    <menuEditPaste>Vložit ze schránky.</menuEditPaste>
+    <menuExportSettings>Změnit nastavení exportu.</menuExportSettings>
     <menuFAQPage>Přejít na webovou stránku s často kladenými dotazy.</menuFAQPage>
-    <menuGlobalizationStrings>Zobrazit editor globálních řetězců pro aktuální report.</menuGlobalizationStrings>
+    <menuGlobalizationStrings>Upravit globalizační řetězce.</menuGlobalizationStrings>
     <menuHelpAboutProgramm>Získat informace o verzi generátoru reportu a verzi .NET.</menuHelpAboutProgramm>
     <menuHomePage>Přejít na domovské stránky produktu.</menuHomePage>
     <menuPageOptions>Základní nastavení aktuální stránky. Všechna nastavení stránky mohou být změněna v panelu vlastností.</menuPageOptions>
     <menuPagesManager>Spustit stránky manažera. Umožňuje přesun stran, mazání stránek a vytváření nových stránek.</menuPagesManager>
-    <menuPreviewSettings>Vyvolat náhled nastavení editoru aktuálního reportu. Nastavení bude použito pouze pro prohlížení aktuálního reportu.</menuPreviewSettings>
+    <menuPreviewSettings>Změnit nastavení náhledu.</menuPreviewSettings>
     <menuPrint>Vybrat tiskárnu, počet kopií a další nastavení před tiskem.</menuPrint>
     <menuPrintPreview>Náhled reportu před tiskem.</menuPrintPreview>
     <menuPrintQuick>Tisk reportu defaultně nastavenou tiskárnou. Dialog tisku nebude zobrazen.</menuPrintQuick>
-    <menuReportOptions>Základní nastavení reportu. Všechny možnosti je možné měnit pomocí panelu vlastností.</menuReportOptions>
+    <menuReportOptions>Změnit možnosti reportu.</menuReportOptions>
     <menuStyleDesigner>Spustit designer stylu aktuálního reportu.</menuStyleDesigner>
     <menuSupport>Přejít na stránku podpory pro vložení dotazu.</menuSupport>
-    <menuViewAlignToGrid>Zarovnat komponenty k mřížce.</menuViewAlignToGrid>
+    <menuViewAlignToGrid>Zarovnávat komponenty k mřížce.</menuViewAlignToGrid>
     <menuViewNormal>Normální pohled na stránku.</menuViewNormal>
     <menuViewPageBreakPreview>Režim zobrazení stránky s ohraničenými segmenty.</menuViewPageBreakPreview>
-    <menuViewQuickInfo>Zobrazit stručné informace o komponentách: název komponenty, alias, obsah, události aj.</menuViewQuickInfo>
-    <menuViewShowGrid>Zapnout mřížku reportu, ke které lze zarovnat objekty.</menuViewShowGrid>
-    <menuViewShowHeaders>Zobrazit hlavičky oddílů.</menuViewShowHeaders>
-    <menuViewShowOrder>Zobrazit pořadí položek na stránce.</menuViewShowOrder>
-    <menuViewShowRulers>Zobrazit pravítka používaná k měření a zarovnávání objektů na stránce.</menuViewShowRulers>
-    <menuViewShowSmartGuides>Zobrazí inteligentní vodítka pro umístění komponent vůči sobě navzájem.</menuViewShowSmartGuides>
-    <MoveBackward>Přesunout komponentu o úroveň nahoru v pořadí vložení na stránku.</MoveBackward>
-    <MoveForward>Přesunout komponentu o úroveň dolu v pořadí vložení na stránku.</MoveForward>
+    <menuViewQuickInfo>Zobrazit rychlé informace o komponentách.</menuViewQuickInfo>
+    <menuViewShowGrid>Zobrazit mřížku.</menuViewShowGrid>
+    <menuViewShowHeaders>Zobrazit hlavičky pruhů.</menuViewShowHeaders>
+    <menuViewShowOrder>Zobrazit pořadí komponent.</menuViewShowOrder>
+    <menuViewShowRulers>Zobrazit pravítka.</menuViewShowRulers>
+    <menuViewShowSmartGuides>Zobrazit inteligentní vodítka.</menuViewShowSmartGuides>
+    <MoveBackward>Posunout o jednu úroveň vzad.</MoveBackward>
+    <MoveForward>Posunout o jednu úroveň vpřed.</MoveForward>
     <NotPossibleEnableCompilationMode>Pro report nelze povolit režim kompilace. Je to zakázáno možností „Přístup ke kompilaci“ v nastavení designeru.</NotPossibleEnableCompilationMode>
-    <Orientation>Přepnout stránky mezi na výšku a na šířku.</Orientation>
+    <Orientation>Přepnout mezi orientací na výšku a na šířku.</Orientation>
     <PageDelete>Smazat aktuální stránku z reportu.</PageDelete>
     <PageNew>Vytvořit novou stránku.</PageNew>
-    <PageSetup>Zobrazit dialog nastavení stránky.</PageSetup>
-    <PageSize>Volba velikosti papíru pro aktuální stránku reportu.</PageSize>
+    <PageSetup>Změnit nastavení stránky.</PageSetup>
+    <PageSize>Vybrat velikost papíru.</PageSize>
     <PagesManager>Spustit manažer stránek.</PagesManager>
     <PressF1>Stiskněte F1 pro více podrobností</PressF1>
-    <PropertiesButton>Aktivuje panel Vlastnosti s vlastnostmi šablony reportu.</PropertiesButton>
+    <PropertiesButton>Zobrazit vlastnosti reportu.</PropertiesButton>
     <Redo>Znovu provést předchozí zrušenou změnu v reportu.</Redo>
-    <RemoveMobileSurfaceButton>Odstraní mobilní plochu z aktuálního dashboardu.</RemoveMobileSurfaceButton>
+    <RemoveMobileSurfaceButton>Odstranit mobilní plochu.</RemoveMobileSurfaceButton>
     <ReportNew>Vytvořit nový report.</ReportNew>
     <ReportOpen>Otevřít report v designeru.</ReportOpen>
     <ReportPreview>Náhled editovaného reportu v prohlížeči.</ReportPreview>
@@ -2290,46 +2294,47 @@
     <ScriptSecuritySafeMode>Bezpečný přístup ke skriptům (omezené možnosti kvůli zabezpečení).</ScriptSecuritySafeMode>
     <SelectAll>Vybrat všechny komponenty na aktuální stránce.</SelectAll>
     <SelectUILanguage>Výběr jazyka UI.</SelectUILanguage>
-    <SendToBack>Přesunout vybranou komponentu do pozadí vzhledem k ostatním komponentám.</SendToBack>
+    <SendToBack>Přesunout do pozadí.</SendToBack>
     <ServicesConfigurator>Spustit konfigurátor služeb.</ServicesConfigurator>
-    <Shadow>Zobrazit stínování komponenty.</Shadow>
+    <Shadow>Zobrazit nebo skrýt stín.</Shadow>
     <ShowBehind>Zobrazit text vodoznaku za komponentami.</ShowBehind>
     <ShowImageBehind>Vložit obrázek vodoznaku za všechny komponenty na stránce.</ShowImageBehind>
     <ShowToolbox>Zobrazit panel nástrojů.</ShowToolbox>
     <StimulsoftHelp>Nápověda Stimulsoft</StimulsoftHelp>
-    <StyleDesigner>Spustit designer stylu.</StyleDesigner>
+    <StyleDesigner>Otevřít Návrhář stylu.</StyleDesigner>
     <TellMeMore>Více informací</TellMeMore>
     <Text>Vodnoznak textu.</Text>
     <TextBrush>Změnit barvu textu.</TextBrush>
     <TextBrushWatermark>Změnit barvu textu vodoznaku.</TextBrushWatermark>
     <TextColor>Změnit barvu textu.</TextColor>
-    <TextFormat>Vybrat formátování hodnot.</TextFormat>
+    <TextFormat>Vybrat formát hodnot.</TextFormat>
     <ToolbarStyle>Nastavit zvolený styl všem vybraným komponentám.</ToolbarStyle>
     <Undo>Vrátit poslední změnu reportu.</Undo>
-    <ViewModeDesktopButton>Aktivovat desktopovou plochu.</ViewModeDesktopButton>
-    <ViewModeMobileButton>Aktivovat mobilní plochu.</ViewModeMobileButton>
-    <WordWrap>Zalomit text podle komponenty.</WordWrap>
+    <ViewModeDesktopButton>Zobrazit desktopovou plochu.</ViewModeDesktopButton>
+    <ViewModeMobileButton>Zobrazit mobilní plochu.</ViewModeMobileButton>
+    <Watermark>Změnit nastavení vodoznaku.</Watermark>
+    <WordWrap>Zalamovat text.</WordWrap>
     <Zoom>Určit level zvětšení položky.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
-    <StiButtonControl>Představuje ovládací prvek tlačítka.</StiButtonControl>
-    <StiCheckBoxControl>Představuje ovládací prvek příznaku.</StiCheckBoxControl>
-    <StiCheckedListBoxControl>Zobrazuje objekt Seznam, ve kterém je pro každý prvek vlevo zobrazen příznak.</StiCheckedListBoxControl>
-    <StiComboBoxControl>Představuje rozbalovací seznam, který umožňuje buď zadat hodnotu přímo do ovládacího prvku, nebo vybrat ze seznamu existujících možností.</StiComboBoxControl>
-    <StiDateTimePickerControl>Představuje ovládací prvek pro výběr data a času. Také umožňuje výstup data a času v určeném formátu.</StiDateTimePickerControl>
-    <StiGridControl>Představuje ovládací prvek mřížky, která se skládá z řádků a sloupců.</StiGridControl>
-    <StiGroupBoxControl>Představuje ovládací prvek, který vytváří kontejner s ohraničením a záhlavím pro obsah uživatelského rozhraní.</StiGroupBoxControl>
-    <StiLabelControl>Popisek je ovládací prvek uživatelského rozhraní, který zobrazuje text na formuláři. Obvykle je to statický prvek bez interaktivity.</StiLabelControl>
-    <StiListBoxControl>Obsahuje seznam prvků pro výběr.</StiListBoxControl>
-    <StiListViewControl>Představuje ovládací prvek ListView, který zobrazuje seznam datových prvků.</StiListViewControl>
-    <StiLookUpBoxControl>Obsahuje seznam prvků pro výběr.</StiLookUpBoxControl>
-    <StiNumericUpDownControl>Představuje ovládací prvek, který zobrazuje číselné hodnoty.</StiNumericUpDownControl>
-    <StiPanelControl>Prvky Panel se používají pro umístění a uspořádání objektů.</StiPanelControl>
-    <StiPictureBoxControl>Představuje ovládací prvek pro zobrazení obrázku.</StiPictureBoxControl>
-    <StiRadioButtonControl>Představuje ovládací prvek tlačítka předvolby, které umožňuje uživateli zvolit pouze jednu z předdefinovaných možností.</StiRadioButtonControl>
-    <StiRichTextBoxControl>Představuje ovládací prvek RichText s rozšířenou editací.</StiRichTextBoxControl>
-    <StiTextBoxControl>Představuje ovládací prvek textu pro zobrazení nebo editaci textu.</StiTextBoxControl>
-    <StiTreeViewControl>Představuje ovládací prvek pro zobrazení hierarchických dat ve formě stromu.</StiTreeViewControl>
+    <StiButtonControl>Spouští akci po kliknutí.</StiButtonControl>
+    <StiCheckBoxControl>Zapíná nebo vypíná jednu možnost.</StiCheckBoxControl>
+    <StiCheckedListBoxControl>Zobrazuje seznam položek se zaškrtávacími políčky.</StiCheckedListBoxControl>
+    <StiComboBoxControl>Rozbaluje seznam pro výběr nebo zadání hodnoty.</StiComboBoxControl>
+    <StiDateTimePickerControl>Zobrazuje kalendář pro výběr data a času.</StiDateTimePickerControl>
+    <StiGridControl>Zobrazuje data v řádcích a sloupcích.</StiGridControl>
+    <StiGroupBoxControl>Seskupuje ovládací prvky v rámečku s titulkem.</StiGroupBoxControl>
+    <StiLabelControl>Zobrazuje text na formuláři.</StiLabelControl>
+    <StiListBoxControl>Zobrazuje seznam pro výběr položek.</StiListBoxControl>
+    <StiListViewControl>Zobrazuje seznam datových položek.</StiListViewControl>
+    <StiLookUpBoxControl>Rozbaluje seznam pro výběr položky.</StiLookUpBoxControl>
+    <StiNumericUpDownControl>Přijímá číslo, s tlačítky pro jeho změnu.</StiNumericUpDownControl>
+    <StiPanelControl>Seskupuje jiné ovládací prvky v jedné oblasti.</StiPanelControl>
+    <StiPictureBoxControl>Zobrazuje obrázek.</StiPictureBoxControl>
+    <StiRadioButtonControl>Vybírá jednu možnost ze skupiny.</StiRadioButtonControl>
+    <StiRichTextBoxControl>Zobrazuje a upravuje formátovaný text.</StiRichTextBoxControl>
+    <StiTextBoxControl>Zobrazuje a upravuje text.</StiTextBoxControl>
+    <StiTreeViewControl>Zobrazuje hierarchická data jako strom.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
     <AddPageBreaks>Vizuální oddělovač stránek reportu.</AddPageBreaks>

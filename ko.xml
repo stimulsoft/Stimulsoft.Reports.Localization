@@ -2048,136 +2048,139 @@
     <sys_morebuttons>기타 버튼</sys_morebuttons>
   </Gui>
   <HelpComponents>
-    <StiBarCode>이 구성 요소는 보고서에 바코드를 표시 할 수 있습니다. 바코드 데이터는 문자열로 객체에 전달됩니다. 문자열에 어떤 기호를 포함 할 수 있지만, 선택한 그림이 허가 된 기호만을 표시 할 수 있습니다.</StiBarCode>
-    <StiButtonElement>이 구성 요소는 사용자가 상호 작용할 때 이벤트 스크립트를 실행하는 데 사용됩니다.</StiButtonElement>
-    <StiButtonUI>작업을 실행하거나 명령을 시작하는 데 사용되는 버튼입니다.</StiButtonUI>
-    <StiCardsElement>이 구성 요소는 그룹화된 데이터를 카드로 표시하는 데 사용됩니다.</StiCardsElement>
-    <StiChart>이 구성 요소는 보고서에 그래프를 볼 수 있습니다. 다른 유형의 차트가 제공됩니다. 바, 선, 파이, 도넛, 선, 공간, 간트, 분산 형 등</StiChart>
-    <StiChartElement>이 구성 요소는 대시보드에 차트를 표시 할 수 있습니다. 다른 유형의 차트가 제공됩니다.</StiChartElement>
-    <StiCheckBox>이 구성 요소는 보고서에 확인란을 표시 할 수 있습니다. 「유효」또는 「무효」의 2 개의 모드를 볼 수 있습니다.</StiCheckBox>
-    <StiCheckBoxGroupUI>목록에서 여러 개의 미리 정의된 옵션을 선택하는 데 사용되는 체크박스 그룹입니다.</StiCheckBoxGroupUI>
-    <StiCheckBoxUI>하나의 옵션을 빠르게 켜거나 끄는 데 사용되는 체크박스입니다.</StiCheckBoxUI>
-    <StiChildBand>Child 밴드는 하나의 데이터 행에 2 개의 밴드를 출력하는 데 사용할 수 있습니다.</StiChildBand>
-    <StiClone>이 요소는 보고서의 일부를보고 필요한 부분에 복제하는 데 사용됩니다. 복제는 패널의 내용에만 적용 할 수 있습니다.</StiClone>
-    <StiColumnFooterBand>이 밴드는 데이터 밴드의 열의 바닥 글을 출력하는 데 사용됩니다. 열 바닥 글 밴드는 각 열에서 1 회 출력됩니다. 이 밴드에 배치 된 모든 구성 요소도 각 열 아래에 출력됩니다.</StiColumnFooterBand>
-    <StiColumnHeaderBand>이 밴드는 열 머리글을 출력하는 데 사용됩니다. 열 머리글 밴드는 한 번만 출력하는 데 사용됩니다. 밴드에 배치 된 모든 구성 요소는 각 라인에 출력 할 수 있습니다.</StiColumnHeaderBand>
-    <StiComboBoxElement>컨트롤에 값을 직접 입력하거나 기존의 옵션 목록에서 선택하는 데 사용되는 ComboBox를 나타냅니다.</StiComboBoxElement>
-    <StiContainer>이 밴드를 포함하여 다른 구성 요소를 배치 할 수있는 사각형 영역입니다. 컨테이너를 이동하면 컨테이너도 이동합니다. 컨테이너는 밴드와 페이지에 모두 배치 할 수 있습니다.</StiContainer>
-    <StiCrossDataBand>이 밴드는 데이터 소스에 연결되어 있습니다. 데이터 소스에 행이있는 경우와 같은 횟수만큼 출력됩니다. 크로스 밴드는 왼쪽에서 오른쪽으로 출력됩니다.</StiCrossDataBand>
-    <StiCrossFooterBand>이 밴드는 크로스 데이터 밴드 하단을 출력하는 데 사용됩니다. 이 밴드는 데이터 밴드의 모든 행 후 1 회 출력됩니다. 크로스 밴드는 왼쪽에서 오른쪽으로 출력됩니다.</StiCrossFooterBand>
-    <StiCrossGroupFooterBand>이 밴드는 그룹 바닥 글을 출력하는 데 사용됩니다. 그것은 크로스 데이터 밴드의 아래에 배치됩니다. 각 크로스 풀러는 지정된 크로스 헤더 밴드에 속합니다. 크로스 밴드는 왼쪽에서 오른쪽으로 출력됩니다.</StiCrossGroupFooterBand>
-    <StiCrossGroupHeaderBand>이 밴드는 크로스 데이터가 사용되는 경우, 그룹화 된 보고서 렌더링의 기본적인 밴드입니다. 이 밴드없이 그룹을 만드는 것은 불가능합니다. 그룹에 의해 정보를 표시하기위한 구성 요소는 그룹 헤더에 배치됩니다. 정보는 그룹 이름, 날짜, 그룹화 조건 등이다. 밴드는 각 그룹의 선두에 출력된다. 크로스 밴드는 왼쪽에서 오른쪽으로 출력됩니다.</StiCrossGroupHeaderBand>
-    <StiCrossHeaderBand>이 밴드는 헤더를 출력하는 데 사용됩니다. 크로스 밴드와 관련하여 사용됩니다. 크로스 밴드는 왼쪽에서 오른쪽으로 출력됩니다.</StiCrossHeaderBand>
-    <StiCrossTab>크로스 탭 구성 요소는 구조적 데이터 표현을 테이블로 사용합니다.</StiCrossTab>
-    <StiDataBand>데이터 밴드는 데이터 소스에 연결된 데이터 소스의 행 수와 같은 횟수만큼 출력됩니다.</StiDataBand>
-    <StiDatePickerElement>컨트롤은 날짜와 시간을 선택하는 데 사용됩니다.</StiDatePickerElement>
-    <StiDatePickerUI>달력에서 날짜를 선택하는 데 사용되는 날짜 선택기입니다.</StiDatePickerUI>
-    <StiElectronicSignature>이 구성 요소는 그래픽 서명, 이미지, 이니셜 및 텍스트를 추가하는 데 사용됩니다.</StiElectronicSignature>
-    <StiEmptyBand>이 밴드는 페이지 하단에 공간을 채우기 위해 사용됩니다. 이 밴드는 보고서의 각 페이지의 빈 공간을 채 웁니다.</StiEmptyBand>
-    <StiFilterCategory>값 선택 및 필터링에 사용되는 구성 요소의 그룹.</StiFilterCategory>
-    <StiFooterBand>이 밴드는 데이터 밴드에 의해 요약을 출력하는 데 사용됩니다. 데이터 밴드의 아래에 배치되어 데이터 밴드가 출력하는 모든 데이터 로우 후 1 회 출력됩니다.</StiFooterBand>
-    <StiGauge>이 구성 요소는 사전 정의 된 범위 내의 값을 볼 수 있습니다. 다른 그래픽 표시를 가질 수 있습니다.</StiGauge>
-    <StiGaugeElement>이 구성 요소는 사전 정의 된 범위 내의 값을 볼 수 있습니다. 다른 그래픽 표시를 가질 수 있습니다.</StiGaugeElement>
-    <StiGroupFooterBand>그룹 바닥 글 밴드 그룹 바닥 글을 출력하는 데 사용됩니다. 이 밴드는 데이터 밴드 뒤에 배치됩니다. 그리고 이것은 그룹 머리글 밴드가 묶여있는 데이터 밴드입니다. 각 그룹 바닥 글 밴드는 지정된 그룹 머리글 밴드에 속합니다. Group Footer 밴드 Group Header 밴드없이 출력되지 않습니다.</StiGroupFooterBand>
-    <StiGroupHeaderBand>이 밴드는 그룹화하여 보고서를 렌더링하기위한 기본 밴드입니다. 이 그룹의 정보를 표시하기위한 구성 요소는 그룹 헤더에 배치됩니다. 그룹 이름, 날짜, 그룹화 조건 등이 있습니다. 이 밴드는 각 그룹의 선두에 1 회 출력됩니다.</StiGroupHeaderBand>
-    <StiHeaderBand>이 밴드는 헤더를 출력하는 데 사용됩니다. 이것은 데이터 밴드와 함께 사용됩니다.</StiHeaderBand>
-    <StiHierarchicalBand>이 밴드는 데이터 소스에 연결된 데이터 소스의 행 수와 같은 횟수만큼 출력됩니다. 데이터는 트리로 출력됩니다.</StiHierarchicalBand>
-    <StiHorizontalLinePrimitive>이 구성 요소는 행을 출력하는 데 사용됩니다.</StiHorizontalLinePrimitive>
-    <StiIconUI>기호 또는 시각적 표시를 나타내는 아이콘입니다.</StiIconUI>
-    <StiImage>이 구성 요소는 이미지를 출력하는 데 사용됩니다.</StiImage>
-    <StiImageElement>이 구성 요소는 이미지를 출력하는 데 사용됩니다. BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF 등의 다음 그래픽 포맷을 지원하고 있습니다.</StiImageElement>
-    <StiImageUI>인터페이스에 그래픽 콘텐츠를 표시하는 데 사용되는 이미지입니다.</StiImageUI>
-    <StiIndicatorElement>요소는 입력 데이터 간의 값의 차이를 표시합니다.</StiIndicatorElement>
-    <StiLabelUI>텍스트나 짧은 설명을 표시하는 데 사용되는 레이블입니다.</StiLabelUI>
-    <StiListBoxElement>구성 요소 목록에서 항목을 선택할 수 있습니다.</StiListBoxElement>
-    <StiListUI>선택 가능한 항목을 세로 목록으로 표시하는 데 사용되는 목록입니다.</StiListUI>
-    <StiMap>이 구성 요소는 지리적으로 타겟팅 된 데이터를 표시하는 데 사용됩니다.</StiMap>
-    <StiMapCategory>지도와 데이터를 처리하기위한 컴포넌트 군.</StiMapCategory>
-    <StiMapElement>이 구성 요소는 지리적으로 타겟팅 된 데이터를 표시하는 데 사용됩니다.</StiMapElement>
-    <StiMarkdown>이 구성 요소는 보고서에서 CommonMark / GFM 마크다운 텍스트를 렌더링하는 데 사용됩니다.</StiMarkdown>
-    <StiMathFormula>이 구성 요소는 보고서에 수학 공식을 표시하는 데 사용됩니다.</StiMathFormula>
-    <StiMultiListUI>동일한 목록에서 여러 항목을 선택하는 데 사용되는 목록입니다.</StiMultiListUI>
-    <StiMultiSelectUI>미리 준비된 목록에서 여러 값을 선택하는 데 사용되는 선택기입니다.</StiMultiSelectUI>
-    <StiNumberBoxElement>이 요소는 숫자 값을 선택하거나 숫자 값의 범위를 설정하는 데 사용됩니다.</StiNumberBoxElement>
-    <StiNumberInputUI>숫자 값을 입력하는 데 사용되는 숫자 입력 컨트롤입니다.</StiNumberInputUI>
-    <StiOnlineMapElement>이 구성 요소는 온라인지도상의 지리적 표시를 표시하는 데 사용됩니다.</StiOnlineMapElement>
-    <StiOverlayBand>이 밴드는 페이지에 워터 마크를 출력하는 데 사용됩니다.</StiOverlayBand>
-    <StiPageFooterBand>이 밴드는 페이지 번호, 날짜 및 기타 정보 등 각 페이지의 하단에있는 정보를 출력하는 데 사용됩니다.</StiPageFooterBand>
-    <StiPageHeaderBand>이 밴드는 페이지 번호, 날짜 및 기타 정보 등의 페이지 헤더를 출력하는 데 사용됩니다. 각 페이지 상단에 출력됩니다.</StiPageHeaderBand>
-    <StiPanel>밴드 등 다른 구성 요소를 포함 할 수있다 사각형 영역. 패널을 이동하면 패널의 구성 요소도 이동됩니다. 패널은 밴드 또는 페이지에 배치 할 수 있습니다.</StiPanel>
-    <StiPanelElement>다른 구성 요소를 포함 할 수있다 사각형 영역. 패널을 이동하면 패널의 구성 요소도 이동됩니다.</StiPanelElement>
-    <StiPanelUI>다른 컨트롤을 하나의 영역에 그룹화하고 배치하는 데 사용되는 패널입니다.</StiPanelUI>
-    <StiPdfDigitalSignature>이 구성 요소는 보고서를 Adobe PDF로 내보낸 후 디지털 서명 위치를 지정하는 데 사용됩니다.</StiPdfDigitalSignature>
-    <StiPdfDigitalSignatureElement>이 구성요소는 PDF로 내보낼 때 인증서에서 디지털 서명 및 필드에 대한 공간을 지정하는 데 사용됩니다.</StiPdfDigitalSignatureElement>
-    <StiPivotTableElement>피벗 구성 요소는 구조화 된 데이터 표현을 테이블로 사용합니다.</StiPivotTableElement>
-    <StiProgressElement>요소는 입력 데이터의 비율이 표시됩니다. 이것은 파이, 원형, 막대 등 다양한 모드에서 볼 수 있습니다.</StiProgressElement>
-    <StiRadioGroupUI>미리 정의된 값 중 하나를 선택하는 데 사용되는 라디오 그룹입니다.</StiRadioGroupUI>
-    <StiRangeSelectorElement>이 컴포넌트는 스케일 또는 타임라인에서 값의 범위를 선택하는 데 사용됩니다. 사용자가 범위의 최소 및 최대 값을 시각적으로 지정할 수 있습니다.</StiRangeSelectorElement>
-    <StiRangeSliderUI>눈금에서 최소값과 최대값을 지정하는 데 사용되는 범위 슬라이더입니다.</StiRangeSliderUI>
-    <StiRectanglePrimitive>이 구성 요소는 사각형을 출력하는 데 사용됩니다.</StiRectanglePrimitive>
-    <StiRegionMapElement>이 구성 요소는 지리적으로 타겟팅 된 데이터를 표시하는 데 사용됩니다.</StiRegionMapElement>
-    <StiReportSummaryBand>이 밴드는 보고서 전반에 걸쳐 요약을 출력하는 데 사용됩니다. 보고서의 마지막에 1 회 출력됩니다.</StiReportSummaryBand>
-    <StiReportTitleBand>이 밴드는 보고서의 제목을 출력하는 데 사용됩니다. 보고서의 첫 번째 출력됩니다.</StiReportTitleBand>
-    <StiRichText>이 구성 요소는 RTF 텍스트 출력 및 편집에 사용됩니다. RTF 형식의 파일로드 및 저장도 지원하고 있습니다.</StiRichText>
-    <StiRoundedRectanglePrimitive>이 구성 요소는 반올림 사각형을 출력하는 데 사용됩니다.</StiRoundedRectanglePrimitive>
-    <StiScreen>앱 페이지의 컨트롤, 레이아웃 및 사용자 상호 작용을 포함하는 화면입니다.</StiScreen>
-    <StiSelectUI>드롭다운 목록에서 하나의 값을 선택하는 데 사용되는 선택 상자입니다.</StiSelectUI>
-    <StiShape>이 구성 요소는 반올림 사각형을 출력하는 데 사용됩니다....</StiShape>
-    <StiShapeElement>이 구성 요소는 화살표 사선 아래, 대각선, 수평선, 왼쪽 및 오른쪽 선, 타원형, 사각형, 사각형, 상단과 하단 선, 삼각형, 수직선 등의 기성의 도형을 삽입하는 데 사용됩니다 있습니다.</StiShapeElement>
-    <StiSignature>이 구성 요소는 리포트에 전자 또는 디지털 서명을 추가하는 데 사용됩니다.</StiSignature>
-    <StiSliderUI>연속적인 숫자 범위에서 값을 선택하는 데 사용되는 슬라이더입니다.</StiSliderUI>
-    <StiSparkline>이 구성 요소는 보고서에서 마이크로그래픽을 만드는 데 사용됩니다. 막대(bar), 선, 영역으로 동적으로 변화하는 데이터를 추적할 수 있습니다.</StiSparkline>
-    <StiSubReport>이 요소는 보고서의 다양한 장소에서 추가 데이터를 출력하는 데 사용됩니다.</StiSubReport>
-    <StiSwitchUI>클릭 한 번으로 설정을 켜거나 끄는 데 사용되는 스위치입니다.</StiSwitchUI>
-    <StiTable>이 구성 요소는 수직 라인과 수평 라인의 모델을 사용하여 편성 된 일련의 데이터 요소입니다.</StiTable>
-    <StiTableElement>이 구성 요소는 수직 라인과 수평 라인의 모델을 사용하여 편성 된 일련의 데이터 요소입니다.</StiTableElement>
-    <StiTableOfContents>이 구성 요소는 보고서의 목차를 만드는 데 사용됩니다.</StiTableOfContents>
-    <StiTableUI>데이터를 행과 열로 표시하는 데 사용되는 테이블입니다.</StiTableUI>
-    <StiText>이 구성 요소는 데이터를 텍스트로 출력하기위한 기본 개체입니다.</StiText>
-    <StiTextElement>이 구성 요소는 데이터를 텍스트로 출력하기위한 기본 개체입니다.</StiTextElement>
-    <StiTextInCells>이 구성 요소는 셀에 텍스트를 출력하는 데 사용됩니다. 양식 작성에 자주 사용됩니다.</StiTextInCells>
-    <StiTextInputUI>텍스트 값을 입력하고 편집하는 데 사용되는 텍스트 입력 컨트롤입니다.</StiTextInputUI>
-    <StiTreeViewBoxElement>컨트롤 드롭 다운 목록을 사용하여 값을 트리로 선택하는 데 사용됩니다.</StiTreeViewBoxElement>
-    <StiTreeViewElement>계층 구조 데이터를 트리로 표시하는 데 사용되는 컨트롤을 나타냅니다.</StiTreeViewElement>
-    <StiVerticalLinePrimitive>이 구성 요소는 수직선을 출력하는 데 사용됩니다.</StiVerticalLinePrimitive>
-    <StiWebContentElement>이 구성 요소를 사용하면 대시보드에 웹 콘텐츠를 추가할 수 있습니다.</StiWebContentElement>
-    <StiWinControl>이 구성 요소는 .NET에서 시각적 컨트롤을 볼 수 있습니다.</StiWinControl>
-    <StiZipCode>이 구성 요소는 우편 번호를 출력하는 데 사용됩니다.</StiZipCode>
+    <CategoryBands>헤더, 데이터, 푸터를 출력하는 밴드.</CategoryBands>
+    <CategoryComponents>텍스트, 이미지 등 데이터를 표시하는 구성 요소.</CategoryComponents>
+    <CategoryCrossBands>왼쪽에서 오른쪽으로 출력되는 밴드.</CategoryCrossBands>
+    <StiBarCode>바코드를 표시합니다.</StiBarCode>
+    <StiButtonElement>클릭하면 스크립트를 실행합니다.</StiButtonElement>
+    <StiButtonUI>작업이나 명령을 시작합니다.</StiButtonUI>
+    <StiCardsElement>그룹화된 데이터를 카드로 표시합니다.</StiCardsElement>
+    <StiChart>데이터를 차트로 표시합니다.</StiChart>
+    <StiChartElement>데이터를 차트로 표시합니다.</StiChartElement>
+    <StiCheckBox>참 또는 거짓 값을 체크 표시로 나타냅니다.</StiCheckBox>
+    <StiCheckBoxGroupUI>여러 개를 체크할 수 있는 옵션을 제공합니다.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>옵션 하나를 켜거나 끕니다.</StiCheckBoxUI>
+    <StiChildBand>같은 데이터 행에 밴드를 하나 더 출력합니다.</StiChildBand>
+    <StiClone>패널의 내용을 반복합니다.</StiClone>
+    <StiColumnFooterBand>데이터 밴드의 각 열 아래에 출력됩니다.</StiColumnFooterBand>
+    <StiColumnHeaderBand>데이터 밴드의 각 열 위에 출력됩니다.</StiColumnHeaderBand>
+    <StiComboBoxElement>드롭다운에서 값을 선택합니다.</StiComboBoxElement>
+    <StiContainer>다른 구성 요소를 한 영역에 묶습니다.</StiContainer>
+    <StiCrossDataBand>행마다 한 번, 왼쪽에서 오른쪽으로 출력됩니다.</StiCrossDataBand>
+    <StiCrossFooterBand>크로스 데이터 밴드 뒤에 출력됩니다.</StiCrossFooterBand>
+    <StiCrossGroupFooterBand>각 크로스 그룹의 끝에 출력됩니다.</StiCrossGroupFooterBand>
+    <StiCrossGroupHeaderBand>각 크로스 그룹의 시작에 출력됩니다.</StiCrossGroupHeaderBand>
+    <StiCrossHeaderBand>크로스 데이터 밴드 앞에 출력됩니다.</StiCrossHeaderBand>
+    <StiCrossTab>구조화된 데이터를 교차표로 표시합니다.</StiCrossTab>
+    <StiDataBand>데이터 소스의 행마다 한 번씩 출력됩니다.</StiDataBand>
+    <StiDatePickerElement>날짜와 시간을 선택합니다.</StiDatePickerElement>
+    <StiDatePickerUI>날짜를 고르는 달력을 표시합니다.</StiDatePickerUI>
+    <StiElectronicSignature>그리기, 입력 또는 이미지 서명을 추가합니다.</StiElectronicSignature>
+    <StiEmptyBand>페이지 하단의 빈 공간을 채웁니다.</StiEmptyBand>
+    <StiFilterCategory>값을 선택하고 필터링하는 요소.</StiFilterCategory>
+    <StiFooterBand>데이터 밴드의 행 뒤에 출력됩니다.</StiFooterBand>
+    <StiGauge>범위 내의 값을 표시합니다.</StiGauge>
+    <StiGaugeElement>범위 내의 값을 표시합니다.</StiGaugeElement>
+    <StiGroupFooterBand>각 그룹의 끝에 출력됩니다.</StiGroupFooterBand>
+    <StiGroupHeaderBand>각 그룹의 시작에 출력됩니다.</StiGroupHeaderBand>
+    <StiHeaderBand>데이터 밴드의 행 앞에 출력됩니다.</StiHeaderBand>
+    <StiHierarchicalBand>데이터 소스의 행을 트리로 출력합니다.</StiHierarchicalBand>
+    <StiHorizontalLinePrimitive>수평선을 그립니다.</StiHorizontalLinePrimitive>
+    <StiIconUI>아이콘을 표시합니다.</StiIconUI>
+    <StiImage>이미지를 표시합니다.</StiImage>
+    <StiImageElement>이미지를 표시합니다.</StiImageElement>
+    <StiImageUI>이미지를 표시합니다.</StiImageUI>
+    <StiIndicatorElement>값 사이의 차이를 표시합니다.</StiIndicatorElement>
+    <StiLabelUI>짧은 텍스트를 표시합니다.</StiLabelUI>
+    <StiListBoxElement>목록에서 항목을 선택합니다.</StiListBoxElement>
+    <StiListUI>항목 하나를 고르는 목록을 표시합니다.</StiListUI>
+    <StiMap>데이터를 지도에 표시합니다.</StiMap>
+    <StiMapCategory>데이터를 지도에 표시하는 요소.</StiMapCategory>
+    <StiMapElement>데이터를 지도에 표시합니다.</StiMapElement>
+    <StiMarkdown>Markdown 텍스트를 표시합니다.</StiMarkdown>
+    <StiMathFormula>수학 공식을 표시합니다.</StiMathFormula>
+    <StiMultiListUI>여러 항목을 고르는 목록을 표시합니다.</StiMultiListUI>
+    <StiMultiSelectUI>여러 값을 고르는 드롭다운을 표시합니다.</StiMultiSelectUI>
+    <StiNumberBoxElement>숫자 또는 숫자 범위를 선택합니다.</StiNumberBoxElement>
+    <StiNumberInputUI>사용자로부터 숫자를 입력받습니다.</StiNumberInputUI>
+    <StiOnlineMapElement>온라인 지도에 마커를 표시합니다.</StiOnlineMapElement>
+    <StiOverlayBand>각 페이지에 워터마크를 출력합니다.</StiOverlayBand>
+    <StiPageFooterBand>각 페이지 하단에 출력됩니다.</StiPageFooterBand>
+    <StiPageHeaderBand>각 페이지 상단에 출력됩니다.</StiPageHeaderBand>
+    <StiPanel>다른 구성 요소를 한 영역에 묶습니다.</StiPanel>
+    <StiPanelElement>다른 요소를 한 영역에 묶습니다.</StiPanelElement>
+    <StiPanelUI>다른 컨트롤을 한 영역에 묶습니다.</StiPanelUI>
+    <StiPdfDigitalSignature>PDF에서 디지털 서명의 위치를 지정합니다.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>PDF에서 디지털 서명의 위치를 지정합니다.</StiPdfDigitalSignatureElement>
+    <StiPivotTableElement>구조화된 데이터를 피벗 테이블로 표시합니다.</StiPivotTableElement>
+    <StiProgressElement>값을 전체의 일부로 표시합니다.</StiProgressElement>
+    <StiRadioGroupUI>하나만 선택할 수 있는 옵션을 제공합니다.</StiRadioGroupUI>
+    <StiRangeSelectorElement>눈금이나 타임라인에서 범위를 선택합니다.</StiRangeSelectorElement>
+    <StiRangeSliderUI>눈금에서 범위를 설정합니다.</StiRangeSliderUI>
+    <StiRectanglePrimitive>사각형을 그립니다.</StiRectanglePrimitive>
+    <StiRegionMapElement>데이터를 지역 지도에 표시합니다.</StiRegionMapElement>
+    <StiReportSummaryBand>보고서의 끝에 한 번 출력됩니다.</StiReportSummaryBand>
+    <StiReportTitleBand>보고서의 시작에 한 번 출력됩니다.</StiReportTitleBand>
+    <StiRichText>서식 있는 RTF 텍스트를 표시합니다.</StiRichText>
+    <StiRoundedRectanglePrimitive>둥근 직사각형을 그립니다.</StiRoundedRectanglePrimitive>
+    <StiScreen>앱 페이지의 컨트롤을 담습니다.</StiScreen>
+    <StiSelectUI>값 하나를 고르는 드롭다운을 표시합니다.</StiSelectUI>
+    <StiShape>미리 만들어진 도형을 표시합니다.</StiShape>
+    <StiShapeElement>미리 만들어진 도형을 표시합니다.</StiShapeElement>
+    <StiSignature>전자 서명 또는 디지털 서명을 추가합니다.</StiSignature>
+    <StiSliderUI>눈금에서 값을 설정합니다.</StiSliderUI>
+    <StiSparkline>데이터 계열의 작은 차트를 표시합니다.</StiSparkline>
+    <StiSubReport>이 위치에 다른 보고서나 페이지를 출력합니다.</StiSubReport>
+    <StiSwitchUI>설정을 켜거나 끕니다.</StiSwitchUI>
+    <StiTable>데이터를 행과 열로 표시합니다.</StiTable>
+    <StiTableElement>데이터를 행과 열로 표시합니다.</StiTableElement>
+    <StiTableOfContents>목차를 만듭니다.</StiTableOfContents>
+    <StiTableUI>데이터를 행과 열로 표시합니다.</StiTableUI>
+    <StiText>데이터를 텍스트로 표시합니다.</StiText>
+    <StiTextElement>데이터를 텍스트로 표시합니다.</StiTextElement>
+    <StiTextInCells>텍스트를 셀마다 한 글자씩 표시합니다.</StiTextInCells>
+    <StiTextInputUI>사용자로부터 텍스트를 입력받습니다.</StiTextInputUI>
+    <StiTreeViewBoxElement>드롭다운 트리에서 값을 선택합니다.</StiTreeViewBoxElement>
+    <StiTreeViewElement>계층 데이터를 트리로 표시합니다.</StiTreeViewElement>
+    <StiVerticalLinePrimitive>수직선을 그립니다.</StiVerticalLinePrimitive>
+    <StiWebContentElement>웹 콘텐츠를 표시합니다.</StiWebContentElement>
+    <StiWinControl>.NET 시각적 컨트롤을 표시합니다.</StiWinControl>
+    <StiZipCode>ZIP 코드를 표시합니다.</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
     <ActiveRelation>두 테이블을 바인딩 우선 관계를 설정합니다. 이것은 데이터 변환 및 대시보드에 사용됩니다. 각 데이터 소스의 하나의 관계 만 활성화됩니다.</ActiveRelation>
-    <Align>선택한 구성 요소의 위치를 ​​변경합니다.</Align>
-    <AlignBottom>요소의 내용을 하단에 맞 춥니다.</AlignBottom>
-    <AlignCenter>요소의 내용을 중앙에 맞 춥니다.</AlignCenter>
+    <Align>선택한 구성 요소를 정렬합니다.</Align>
+    <AlignBottom>내용을 아래쪽으로 정렬합니다.</AlignBottom>
+    <AlignCenter>내용을 가운데로 정렬합니다.</AlignCenter>
     <AlignComponentBottom>선택한 구성 요소의 아래쪽 가장자리 객체를 수평으로 정렬 할 수 있습니다.</AlignComponentBottom>
     <AlignComponentCenter>선택한 구성 요소의 중앙 가장자리를 따라 객체를 수평으로 정렬 할 수 있습니다.</AlignComponentCenter>
     <AlignComponentLeft>선택한 구성 요소의 왼쪽을 따라 객체를 수직으로 정렬 할 수 있습니다.</AlignComponentLeft>
     <AlignComponentMiddle>선택한 구성 요소의 중앙 가장자리를 따라 객체를 수직으로 정렬 할 수 있습니다.</AlignComponentMiddle>
     <AlignComponentRight>선택한 구성 요소의 오른쪽 가장자리를 따라 객체를 수직으로 정렬 할 수 있습니다.</AlignComponentRight>
     <AlignComponentTop>선택한 구성 요소의 위쪽에 따라 개체를 수평으로 정렬 할 수 있습니다.</AlignComponentTop>
-    <AlignLeft>요소의 내용을 왼쪽으로 정렬됩니다.</AlignLeft>
-    <AlignMiddle>구성 요소의 위쪽과 아래쪽 테두리에서 내용을 가운데 정렬합니다.</AlignMiddle>
-    <AlignRight>요소의 내용을 오른쪽으로 정렬됩니다.</AlignRight>
-    <AlignToGrid>선택한 구성 요소를 그리드 노드에 맞 춥니 다.</AlignToGrid>
-    <AlignTop>요소의 내용을 위쪽에 맞 춥니 다.</AlignTop>
-    <AlignWidth>요소의 내용을 조정합니다.</AlignWidth>
-    <Angle>요소의 내용을 회전합니다.</Angle>
+    <AlignLeft>내용을 왼쪽으로 정렬합니다.</AlignLeft>
+    <AlignMiddle>내용을 세로 가운데로 정렬합니다.</AlignMiddle>
+    <AlignRight>내용을 오른쪽으로 정렬합니다.</AlignRight>
+    <AlignToGrid>선택한 구성 요소를 그리드에 맞춥니다.</AlignToGrid>
+    <AlignTop>내용을 위쪽으로 정렬합니다.</AlignTop>
+    <AlignWidth>내용을 양쪽에 맞춥니다.</AlignWidth>
+    <Angle>텍스트를 회전합니다.</Angle>
     <AngleWatermark>워터 마크 텍스트의 회전 각도.</AngleWatermark>
-    <Background>선택한 구성 요소의 배경을 변경합니다.</Background>
-    <biConditions>선택한 구성 요소의 조건 목록을 제어합니다.</biConditions>
-    <BorderColor>선택한 구성 요소의 테두리 색상을 선택합니다.</BorderColor>
-    <BorderSidesAll>선택한 구성 요소의 모든면을 선택합니다.</BorderSidesAll>
-    <BorderSidesBottom>선택한 구성 요소의 아래쪽 테두리를 선택합니다.</BorderSidesBottom>
-    <BorderSidesLeft>선택한 구성 요소의 왼쪽 테두리를 선택합니다.</BorderSidesLeft>
-    <BorderSidesNone>선택한 구성 요소의 모든면을 취소합니다.</BorderSidesNone>
-    <BorderSidesRight>선택한 구성 요소의 오른쪽의 스위치를 켭니다.</BorderSidesRight>
-    <BorderSidesTop>선택한 구성 요소에 대한 테두리의 스위치를 켭니다.</BorderSidesTop>
-    <BorderStyle>선택한 구성 요소의 테두리 스타일을 선택합니다.</BorderStyle>
-    <BringToFront>선택한 구성 요소를 전면으로 이동합니다.</BringToFront>
+    <Background>배경을 변경합니다.</Background>
+    <biConditions>조건을 편집합니다.</biConditions>
+    <BorderColor>테두리 색상을 변경합니다.</BorderColor>
+    <BorderSidesAll>모든 테두리를 표시합니다.</BorderSidesAll>
+    <BorderSidesBottom>아래쪽 테두리를 표시하거나 숨깁니다.</BorderSidesBottom>
+    <BorderSidesLeft>왼쪽 테두리를 표시하거나 숨깁니다.</BorderSidesLeft>
+    <BorderSidesNone>모든 테두리를 숨깁니다.</BorderSidesNone>
+    <BorderSidesRight>오른쪽 테두리를 표시하거나 숨깁니다.</BorderSidesRight>
+    <BorderSidesTop>위쪽 테두리를 표시하거나 숨깁니다.</BorderSidesTop>
+    <BorderStyle>테두리 스타일을 변경합니다.</BorderStyle>
+    <BringToFront>맨 앞으로 가져옵니다.</BringToFront>
     <CenterHorizontally>구성 요소가 배치되는 컨테이너의 가장자리에 구성 요소를 가로로 정렬 할 수 있습니다.</CenterHorizontally>
     <CenterVertically>구성 요소가 배치되는 컨테이너의 가장자리에 구성 요소를 세로로 정렬 할 수 있습니다.</CenterVertically>
     <Close>보고서 디자이너를 닫습니다.</Close>
-    <Columns>페이지를 열 분할한다.</Columns>
+    <Columns>페이지를 열로 나눕니다.</Columns>
     <CompilationAccess1>이 문서는 컴파일 프로세스를 사용합니다. 신뢰할 수 있는 원본 문서인 경우, "열기" 단추를 눌러 문서에 액세스할 수 있습니다.</CompilationAccess1>
     <CompilationAccess2>문서의 출처를 알 수 없지만 문서를 보려면 "안전 모드에서 열기" 단추를 클릭합니다. 이 경우 컴파일 대신 해석을 사용하여 문서를 안전하게 실행할 수 있습니다.</CompilationAccess2>
     <CompilationAccess3>이 문서는 컴파일 프로세스를 사용하므로 안전하지 않을 수 있습니다. 열 수 없습니다.</CompilationAccess3>
@@ -2188,15 +2191,15 @@
     <CompilationAccessForceInterpretation>컴파일된 문서는 프롬프트 없이 열리지만 컴파일 프로세스를 사용하지 않는 해석 모드로 자동 변환됩니다.</CompilationAccessForceInterpretation>
     <CompilationAccessTitle>문서가 컴파일을 사용합니다</CompilationAccessTitle>
     <CompilationModeEnabling>컴파일 모드로 전환하고 있습니다. 이 모드에서는 다른 코드를 실행할 수 있으며 때로는 위험할 수 있습니다. 모든 위험을 이해하고 이에 동의하는 경우에만 이 모드를 사용하십시오. 계속하려면 {0} 버튼을 클릭하십시오.</CompilationModeEnabling>
-    <ComponentSize>선택한 구성 요소의 크기를 변경합니다.</ComponentSize>
-    <ComponentsMenu>모바일 화면에서 사용되지 않은 대시보드 요소를 포함한 구성 요소 메뉴를 엽니다.</ComponentsMenu>
-    <CopyStyle>스타일을 복사</CopyStyle>
+    <ComponentSize>선택한 구성 요소의 크기를 조정합니다.</ComponentSize>
+    <ComponentsMenu>사용하지 않은 요소를 표시합니다.</ComponentsMenu>
+    <CopyStyle>스타일을 다른 구성 요소에 복사합니다.</CopyStyle>
     <CopyToClipboard>클립 보드에 복사</CopyToClipboard>
-    <CurrencySymbol>클립 보드에 복사...</CurrencySymbol>
+    <CurrencySymbol>통화 기호를 선택합니다.</CurrencySymbol>
     <DashboardNew>새 대시보드를 생성하십시오.</DashboardNew>
     <DataStore>보고서에 등록 된 데이터를 표시합니다.</DataStore>
-    <DateTimeFormat>선택한 구성 요소의 날짜 및 시간 형식을 선택합니다.</DateTimeFormat>
-    <DockingPanels>패널 설정.</DockingPanels>
+    <DateTimeFormat>날짜 및 시간 형식을 선택합니다.</DateTimeFormat>
+    <DockingPanels>패널을 표시하거나 숨깁니다.</DockingPanels>
     <DockStyleBottom>선택한 구성 요소를 아래쪽에 테두리를 표시합니다.</DockStyleBottom>
     <DockStyleFill>선택한 구성 요소를 모든면에 테두리를 표시합니다.</DockStyleFill>
     <DockStyleLeft>선택한 요소를 왼쪽에 테두리를 표시합니다.</DockStyleLeft>
@@ -2205,18 +2208,18 @@
     <DockStyleTop>선택한 구성 요소를 윗면에 테두리를 표시합니다.</DockStyleTop>
     <EventsAccess1>이 문서는 이벤트를 사용합니다. 신뢰할 수 있는 출처의 문서인 경우, "열기" 버튼을 눌러 문서에 액세스할 수 있습니다.</EventsAccess1>
     <EventsAccess2>문서의 출처가 불분명하지만 여전히 문서를 보려면 "안전 모드에서 열기" 버튼을 누를 수 있습니다. 이 경우 이벤트는 무시되고 실행되지 않습니다.</EventsAccess2>
-    <FontGrow>텍스트 크기를 크게합니다.</FontGrow>
-    <FontName>텍스트 글꼴.</FontName>
+    <FontGrow>텍스트를 더 크게 만듭니다.</FontGrow>
+    <FontName>텍스트 글꼴을 변경합니다.</FontName>
     <FontNameWatermark>워터 마크 텍스트 글꼴.</FontNameWatermark>
-    <FontShrink>텍스트 크기를 작게한다.</FontShrink>
-    <FontSize>글꼴 크기.</FontSize>
+    <FontShrink>텍스트를 더 작게 만듭니다.</FontShrink>
+    <FontSize>텍스트 크기를 변경합니다.</FontSize>
     <FontSizeWatermark>글꼴 크기를 변경합니다.</FontSizeWatermark>
-    <FontStyleBold>텍스트를 굵게합니다.</FontStyleBold>
+    <FontStyleBold>텍스트를 굵게 만듭니다.</FontStyleBold>
     <FontStyleBoldWatermark>워터 마크 텍스트를 굵게합니다.</FontStyleBoldWatermark>
-    <FontStyleItalic>이탤릭체 텍스트를 만듭니다.</FontStyleItalic>
+    <FontStyleItalic>텍스트를 이탤릭체로 만듭니다.</FontStyleItalic>
     <FontStyleItalicWatermark>워터 마크 텍스트를 이탤릭체로합니다.</FontStyleItalicWatermark>
-    <FontStyleStrikeout>텍스트를 취소선으로 만듭니다.</FontStyleStrikeout>
-    <FontStyleUnderline>텍스트에 밑줄을 그어주십시오.</FontStyleUnderline>
+    <FontStyleStrikeout>텍스트에 취소선을 긋습니다.</FontStyleStrikeout>
+    <FontStyleUnderline>텍스트에 밑줄을 긋습니다.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>워터 마크 텍스트에 밑줄을 붙인다.</FontStyleUnderlineWatermark>
     <FormatBoolean>이 형식은 부울 값의 서식에 사용됩니다.</FormatBoolean>
     <FormatCurrency>값을 통화로 표시합니다. 그러면 기본 통화 기호로 숫자를 표시 할 수 있습니다.</FormatCurrency>
@@ -2227,61 +2230,61 @@
     <FormatPercentage>값을 백분율로 표시합니다. 수치에 100을 곱한 백분율로 변환합니다.</FormatPercentage>
     <FormatTime>시간으로 값을 표시합니다. 시간 형식은 지역 시간 설정에 따라 달라집니다.</FormatTime>
     <FormNew>새로운 대화 양식을 만듭니다.</FormNew>
-    <GridMode>선 또는 점에서 그리드를 표시합니다.</GridMode>
+    <GridMode>그리드를 선 또는 점으로 표시합니다.</GridMode>
     <ImageAlignment>페이지에 워터 마크 이미지를 둔다.</ImageAlignment>
     <ImageTransparency>워터 마크 이미지의 투명도를 변경합니다.</ImageTransparency>
-    <Interaction>선택한 구성 요소의 상호 작용을 제어합니다.</Interaction>
-    <LineSpacing>텍스트 줄 간격 또는 단락 사이에 나타나는 공간을 선택합니다.</LineSpacing>
-    <Link>요소를 현재 컨테이너에 연결합니다.</Link>
+    <Interaction>상호 작용을 설정합니다.</Interaction>
+    <LineSpacing>줄 간격을 변경합니다.</LineSpacing>
+    <Link>컨테이너에 연결합니다.</Link>
     <LoadImage>파일에서 워터 마크 이미지를로드합니다.</LoadImage>
-    <Lock>구성 요소를 잠급니다. 구성 요소를 이동하고 크기를 변경할 수 없습니다.</Lock>
-    <MainMenu>시작, 종료 및 미리보기 등 보고서에서 가능한 작업 목록을 보려면 여기를 클릭하십시오.</MainMenu>
+    <Lock>위치와 크기를 잠급니다.</Lock>
+    <MainMenu>보고서를 만들거나 열거나 저장합니다.</MainMenu>
     <MakeHorizontalSpacingEqual>선택한 컴퍼넌트 간의 수평 방향의 간격을 균일하게 설정할 수 있습니다.</MakeHorizontalSpacingEqual>
     <MakeVerticalSpacingEqual>선택한 컴퍼넌트 간의 수직 방향의 간격을 균일하게 설정할 수 있습니다.</MakeVerticalSpacingEqual>
-    <Margins>현재 페이지의 여백을 선택합니다.</Margins>
+    <Margins>페이지 여백을 선택합니다.</Margins>
     <menuCheckIssues>보고서를 검토하여 오류 및 경고를 찾고 권장 사항을 받으세요.</menuCheckIssues>
     <menuDesignerOptions>보고서 디자이너의 옵션을 설정합니다.</menuDesignerOptions>
-    <menuEditClearContents>내용을 지 웁니다.</menuEditClearContents>
-    <menuEditCopy>선택한 구성 요소를 복사하여 클립 보드에 놓습니다.</menuEditCopy>
-    <menuEditCut>선택한 구성 요소를 보고서에서 잘라내어 클립 보드에 넣습니다.</menuEditCut>
-    <menuEditDelete>선택한 구성 요소를 제거합니다.</menuEditDelete>
-    <menuEditPaste>클립 보드의 내용을 보고서에 붙여 넣습니다.</menuEditPaste>
-    <menuExportSettings>현재 보고서 또는 대시보드의 내보내기 설정 편집기를 엽니다. 설정은 현재 보고서 또는 대시보드를 내보낼 때만 적용됩니다.</menuExportSettings>
+    <menuEditClearContents>내용을 지웁니다.</menuEditClearContents>
+    <menuEditCopy>선택한 구성 요소를 복사합니다.</menuEditCopy>
+    <menuEditCut>선택한 구성 요소를 잘라냅니다.</menuEditCut>
+    <menuEditDelete>선택한 구성 요소를 삭제합니다.</menuEditDelete>
+    <menuEditPaste>클립보드에서 붙여넣습니다.</menuEditPaste>
+    <menuExportSettings>내보내기 설정을 변경합니다.</menuExportSettings>
     <menuFAQPage>자주 질문되는 Web 페이지로 이동합니다.</menuFAQPage>
-    <menuGlobalizationStrings>현재 보고서의 국제화 문자열 편집기를 호출합니다.</menuGlobalizationStrings>
+    <menuGlobalizationStrings>국제화 문자열을 편집합니다.</menuGlobalizationStrings>
     <menuHelpAboutProgramm>보고서 생성기 버전과 .NET 버전에 대한 정보를 가져옵니다.</menuHelpAboutProgramm>
     <menuHomePage>제품의 홈페이지로 이동합니다.</menuHomePage>
     <menuPageOptions>현재 페이지의 기본 매개 변수를 설정합니다. 모든 페이지 옵션은 속성 패널을 사용하여 변경할 수 있습니다.</menuPageOptions>
     <menuPagesManager>페이지 관리자를 실행합니다. 페이지 이동, 페이지 제거 및 새 페이지를 만들 수 있습니다.</menuPagesManager>
-    <menuPreviewSettings>현재 보고서의 미리보기 설정 편집기를 호출합니다. 설정은 현재 보고서를 표시하는 경우에만 적용됩니다.</menuPreviewSettings>
+    <menuPreviewSettings>미리보기 설정을 변경합니다.</menuPreviewSettings>
     <menuPrint>인쇄하기 전에 프린터 인쇄 매수 및 기타 인쇄 옵션을 선택하십시오.</menuPrint>
     <menuPrintPreview>인쇄하기 전에 보고서를 미리 봅니다.</menuPrintPreview>
     <menuPrintQuick>보고서를 직접 기본 프린터로 인쇄합니다. 인쇄 대화 상자가 표시되지 않습니다.</menuPrintQuick>
-    <menuReportOptions>기본 보고서 옵션을 설정합니다. 모든 옵션은 속성 패널을 사용하여 변경할 수 있습니다.</menuReportOptions>
+    <menuReportOptions>보고서 옵션을 변경합니다.</menuReportOptions>
     <menuStyleDesigner>현재 보고서의 스타일 디자이너를 호출합니다.</menuStyleDesigner>
     <menuSupport>지원 페이지로 이동하여 질문합니다.</menuSupport>
-    <menuViewAlignToGrid>구성 요소를 격자에 맞춥니다.</menuViewAlignToGrid>
+    <menuViewAlignToGrid>구성 요소를 그리드에 맞춥니다.</menuViewAlignToGrid>
     <menuViewNormal>페이지의 표준 뷰.</menuViewNormal>
     <menuViewPageBreakPreview>세그먼트의 경계를 가지는 페이지를 표시하는 모드.</menuViewPageBreakPreview>
-    <menuViewQuickInfo>구성 요소의 간단한 정보를 표시 : 구성 요소 이름, 별칭, 컨텐츠, 이벤트 등</menuViewQuickInfo>
-    <menuViewShowGrid>보고서에서 개체를 정렬 할 수있는 그리드 선을 선택합니다.</menuViewShowGrid>
-    <menuViewShowHeaders>밴드의 헤더를 표시한다.</menuViewShowHeaders>
-    <menuViewShowOrder>페이지의 구성 요소의 순서를 표시합니다.</menuViewShowOrder>
-    <menuViewShowRulers>페이지의 개체 측정 및 정렬에 사용되는 눈금자를 표시합니다.</menuViewShowRulers>
-    <menuViewShowSmartGuides>스마트 가이드를 표시하여 구성 요소를 서로 상대적으로 배치합니다.</menuViewShowSmartGuides>
-    <MoveBackward>페이지에 구성 요소를 배치하는 순서로 구성 요소를 하나 이상 수준으로 이동합니다.</MoveBackward>
-    <MoveForward>페이지에 구성 요소를 배치하는 순서로 구성 요소를 하나 아래 단계로 이동합니다.</MoveForward>
+    <menuViewQuickInfo>구성 요소의 빠른 정보를 표시합니다.</menuViewQuickInfo>
+    <menuViewShowGrid>그리드를 표시합니다.</menuViewShowGrid>
+    <menuViewShowHeaders>밴드 헤더를 표시합니다.</menuViewShowHeaders>
+    <menuViewShowOrder>구성 요소의 순서를 표시합니다.</menuViewShowOrder>
+    <menuViewShowRulers>눈금자를 표시합니다.</menuViewShowRulers>
+    <menuViewShowSmartGuides>스마트 가이드를 표시합니다.</menuViewShowSmartGuides>
+    <MoveBackward>한 단계 뒤로 이동합니다.</MoveBackward>
+    <MoveForward>한 단계 앞으로 이동합니다.</MoveForward>
     <NotPossibleEnableCompilationMode>보고서에 컴파일 모드를 활성화할 수 없습니다. 디자이너 설정의 '컴파일 접근' 옵션으로 인해 금지되어 있습니다.</NotPossibleEnableCompilationMode>
-    <Orientation>화면 레이아웃의 페이지를 전환합니다.</Orientation>
+    <Orientation>세로 방향과 가로 방향을 전환합니다.</Orientation>
     <PageDelete>보고서에서 현재 페이지를 삭제합니다.</PageDelete>
     <PageNew>새 페이지를 만듭니다.</PageNew>
-    <PageSetup>페이지 설정 대화 상자를 표시합니다.</PageSetup>
-    <PageSize>보고서의 현재 페이지의 용지 크기를 선택합니다.</PageSize>
+    <PageSetup>페이지 설정을 변경합니다.</PageSetup>
+    <PageSize>용지 크기를 선택합니다.</PageSize>
     <PagesManager>페이지 관리자를 실행합니다.</PagesManager>
     <PressF1>F1을 눌러 상세보기</PressF1>
-    <PropertiesButton>보고서 템플릿 속성을 포함한 속성 패널을 활성화합니다.</PropertiesButton>
+    <PropertiesButton>보고서 속성을 표시합니다.</PropertiesButton>
     <Redo>이전에 취소 된 보고서의 변경을 시도합니다.</Redo>
-    <RemoveMobileSurfaceButton>현재 대시보드에서 모바일 화면을 제거합니다.</RemoveMobileSurfaceButton>
+    <RemoveMobileSurfaceButton>모바일 화면을 제거합니다.</RemoveMobileSurfaceButton>
     <ReportNew>새 보고서를 만듭니다.</ReportNew>
     <ReportOpen>디자이너에서 보고서를 엽니 다.</ReportOpen>
     <ReportPreview>뷰어에서 편집 한 보고서를 미리 봅니다.</ReportPreview>
@@ -2293,14 +2296,14 @@
     <ScriptSecuritySafeMode>안전한 스크립트 접근 (보안을 위해 제한된 기능).</ScriptSecuritySafeMode>
     <SelectAll>현재 페이지의 모든 구성 요소를 선택합니다.</SelectAll>
     <SelectUILanguage>UI 언어를 선택합니다.</SelectUILanguage>
-    <SendToBack>선택한 구성 요소를 다른 구성 요소에 대해 상대적으로 뒤로 이동합니다.</SendToBack>
+    <SendToBack>맨 뒤로 보냅니다.</SendToBack>
     <ServicesConfigurator>서비스 컨 피규 레이터를 실행합니다.</ServicesConfigurator>
-    <Shadow>구성 요소의 그림자를 표시합니다.</Shadow>
+    <Shadow>그림자를 표시하거나 숨깁니다.</Shadow>
     <ShowBehind>요소 뒤에 워터 마크 텍스트를 표시합니다.</ShowBehind>
     <ShowImageBehind>페이지의 모든 구성 요소의 뒤에 워터 마크 이미지를 놓습니다.</ShowImageBehind>
     <ShowToolbox>도구 상자를 표시합니다.</ShowToolbox>
     <StimulsoftHelp>도움말 Stimulsoft</StimulsoftHelp>
-    <StyleDesigner>스타일 디자이너를 실행합니다.</StyleDesigner>
+    <StyleDesigner>스타일 디자이너를 엽니다.</StyleDesigner>
     <TellMeMore>추가 도움말</TellMeMore>
     <Text>워터 마크 텍스트.</Text>
     <TextBrush>텍스트 색상을 변경합니다.</TextBrush>
@@ -2309,30 +2312,31 @@
     <TextFormat>값의 형식을 선택합니다.</TextFormat>
     <ToolbarStyle>선택한 모든 구성 요소에 선택한 스타일을 설정합니다.</ToolbarStyle>
     <Undo>보고서의 최신 변경을 취소합니다.</Undo>
-    <ViewModeDesktopButton>데스크톱 화면을 활성화합니다.</ViewModeDesktopButton>
-    <ViewModeMobileButton>모바일 화면을 활성화합니다.</ViewModeMobileButton>
-    <WordWrap>구성 요소의 텍스트를 랩합니다.</WordWrap>
+    <ViewModeDesktopButton>데스크톱 화면을 표시합니다.</ViewModeDesktopButton>
+    <ViewModeMobileButton>모바일 화면을 표시합니다.</ViewModeMobileButton>
+    <Watermark>워터마크 설정을 변경합니다.</Watermark>
+    <WordWrap>텍스트를 줄 바꿈합니다.</WordWrap>
     <Zoom>보고서의 줌 레벨을 지정합니다.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
-    <StiButtonControl>Button 컨트롤을 나타냅니다.</StiButtonControl>
-    <StiCheckBoxControl>Flag 컨트롤을 나타냅니다.</StiCheckBoxControl>
-    <StiCheckedListBoxControl>List 객체를 표시합니다. 각 요소의 왼쪽 플래그가 표시됩니다.</StiCheckedListBoxControl>
-    <StiComboBoxControl>컨트롤에 값을 직접 입력하거나 기존의 옵션 목록에서 선택하는 데 사용되는 ComboBox를 나타냅니다.</StiComboBoxControl>
-    <StiDateTimePickerControl>날짜와 시간을 선택할 수있는 컨트롤을 나타냅니다. 또한 지정된 형식으로 날짜와 시간을 출력 할 수 있습니다.</StiDateTimePickerControl>
-    <StiGridControl>행과 열로 구성된 Grid 컨트롤을 나타냅니다.</StiGridControl>
-    <StiGroupBoxControl>UI 콘텐츠의 테두리 및 헤더가있는 컨테이너를 만드는 컨트롤을 나타냅니다.</StiGroupBoxControl>
-    <StiLabelControl>라벨은 폼에 텍스트를 표시하는 사용자 인터페이스 컨트롤입니다. 일반적으로 상호 작용이없는 정적 컨트롤입니다.</StiLabelControl>
-    <StiListBoxControl>선택 요소의 목록을 포함합니다.</StiListBoxControl>
-    <StiListViewControl>데이터 요소의 목록을 보여 ListView 컨트롤을 나타냅니다.</StiListViewControl>
-    <StiLookUpBoxControl>선택 요소의 목록을 포함합니다.</StiLookUpBoxControl>
-    <StiNumericUpDownControl>수치를 나타내는 컨트롤을 나타냅니다.</StiNumericUpDownControl>
-    <StiPanelControl>Panel 요소는 개체의 배치 및 배치에 사용됩니다.</StiPanelControl>
-    <StiPictureBoxControl>이미지를 표시하는 컨트롤을 나타냅니다.</StiPictureBoxControl>
-    <StiRadioButtonControl>사용자가 미리 정의 된 옵션 세트 중 하나만을 선택할 수있는 라디오 버튼 컨트롤을 나타냅니다.</StiRadioButtonControl>
-    <StiRichTextBoxControl>다양한 편집을 포함 RichText 컨트롤을 나타냅니다.</StiRichTextBoxControl>
-    <StiTextBoxControl>텍스트를 보거나 편집하기 위해 사용되는 Text 컨트롤을 나타냅니다.</StiTextBoxControl>
-    <StiTreeViewControl>계층 구조 데이터를 트리로 표시하는 데 사용되는 컨트롤을 나타냅니다.</StiTreeViewControl>
+    <StiButtonControl>클릭하면 작업을 실행합니다.</StiButtonControl>
+    <StiCheckBoxControl>옵션 하나를 켜거나 끕니다.</StiCheckBoxControl>
+    <StiCheckedListBoxControl>항목마다 확인란이 있는 목록을 표시합니다.</StiCheckedListBoxControl>
+    <StiComboBoxControl>값을 고르거나 입력하는 드롭다운을 표시합니다.</StiComboBoxControl>
+    <StiDateTimePickerControl>날짜와 시간을 고르는 달력을 표시합니다.</StiDateTimePickerControl>
+    <StiGridControl>데이터를 행과 열로 표시합니다.</StiGridControl>
+    <StiGroupBoxControl>컨트롤을 캡션이 있는 프레임에 묶습니다.</StiGroupBoxControl>
+    <StiLabelControl>폼에 텍스트를 표시합니다.</StiLabelControl>
+    <StiListBoxControl>항목을 고르는 목록을 표시합니다.</StiListBoxControl>
+    <StiListViewControl>데이터 항목의 목록을 표시합니다.</StiListViewControl>
+    <StiLookUpBoxControl>항목을 고르는 드롭다운을 표시합니다.</StiLookUpBoxControl>
+    <StiNumericUpDownControl>버튼으로 바꿀 수 있는 숫자를 입력받습니다.</StiNumericUpDownControl>
+    <StiPanelControl>다른 컨트롤을 한 영역에 묶습니다.</StiPanelControl>
+    <StiPictureBoxControl>이미지를 표시합니다.</StiPictureBoxControl>
+    <StiRadioButtonControl>그룹에서 옵션 하나를 선택합니다.</StiRadioButtonControl>
+    <StiRichTextBoxControl>서식 있는 텍스트를 표시하고 편집합니다.</StiRichTextBoxControl>
+    <StiTextBoxControl>텍스트를 표시하고 편집합니다.</StiTextBoxControl>
+    <StiTreeViewControl>계층 데이터를 트리로 표시합니다.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
     <AddPageBreaks>보고서 페이지의 시각적 구분.</AddPageBreaks>

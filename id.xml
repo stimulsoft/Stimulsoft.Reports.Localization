@@ -2046,135 +2046,139 @@
     <sys_morebuttons>Lebih Banyak Tombol</sys_morebuttons>
   </Gui>
   <HelpComponents>
-    <StiBarCode>Komponen ini mengizinkan memperlihatkan kode-bar pada laporan. Kode-Bar data dikirimkan ke objek sebagai syarat. Syarat dapat mengandung simbol manapun tapi hanya mengizinkan simbol untuk grafik yang dipilih yang dapat ditampilkan.</StiBarCode>
-    <StiButtonElement>Komponen ini digunakan untuk mengeksekusi script saat pengguna berinteraksi</StiButtonElement>
-    <StiButtonUI>Tombol yang digunakan untuk memicu tindakan atau memulai perintah.</StiButtonUI>
-    <StiCardsElement>Komponen ini digunakan untuk menampilkan data yang dikelompokan sebagai kartu </StiCardsElement>
-    <StiChart>Komponen ini mengizinkan garfik pada laporan. Grafik yang berbeda juga ada. Diantaranya adalah grafik batang, Garis, pie, donat, garis, area, Gantt, menyebar dll. </StiChart>
-    <StiChartElement>Elemen ini memungkinkan menampilkan bagan di dasbor. Berbagai jenis grafik tersedia.</StiChartElement>
-    <StiCheckBox>Komponen ini mengizinkan untuk menunjukkan sebuah chekbox pada laporan. Ini dapat menampilkan dua mode : "memperbolehkan" atau "tidak memperbolehkan".</StiCheckBox>
-    <StiCheckBoxGroupUI>Grup kotak centang yang digunakan untuk memilih beberapa opsi yang telah ditentukan dari daftar.</StiCheckBoxGroupUI>
-    <StiCheckBoxUI>Kotak centang yang digunakan untuk mengaktifkan atau menonaktifkan satu opsi dengan cepat.</StiCheckBoxUI>
-    <StiChildBand>Pita Child dapat digunakan untuk mengahsilkan dua pita pada satu baris data.</StiChildBand>
-    <StiClone>Komponen ini digunakan untuk mengkloning bagian-bagian dari laporan pada bagian laporan yang diperlukan. Pengkloningan dapat diterapkan hanya pada isi panel.</StiClone>
-    <StiColumnFooterBand>Pita ini digunakan untuk menggunakan footer dari kolom pada pita data. Pita Kolom Footer menggunakan sekali dibawah masing-masing kolom. Semua komponen yang diletakkan pada pita ini juga menggunakan di bawah masing-masing kolom.</StiColumnFooterBand>
-    <StiColumnHeaderBand>Pita ini juga menggunakan kolom header. Pita Kolom Header menggunakan output hanya sekali. Semua komponen yang diletakkan pada pita dapat dikeluarkan di atas masing-masing kolom.</StiColumnHeaderBand>
-    <StiComboBoxElement>Mewakili ComboBox yang digunakan untuk mengetik nilai secara langsung ke dalam kontrol atau memilih dari daftar opsi yang ada.</StiComboBoxElement>
-    <StiContainer>Ini adalah wilayah bujur sangkar dimana komponen lain, termasuk pita, dapat diletakkan juga. Ketika bergerak ke kontainer maka komponen juga ikut bergerak. Kontainer dapat dilekatakkan baik pada pita adau halaman.</StiContainer>
-    <StiCrossDataBand>Pita ini tersambung pada sumber data. Keluarannya sebanyak baris pada sumber data. Suatu pita menyilang dikeluarkan dari kiri ke kanan.</StiCrossDataBand>
-    <StiCrossFooterBand>Pita ini digunakan untuk menampilkan footer dari pita data. Pita menghasilkan sekali setelah semua baris dari pita data. Suatu Pita Silang dihasilkan dari kiri ke kanan.</StiCrossFooterBand>
-    <StiCrossGroupFooterBand>Pita ini digunakan untuk menampilkan footer dari grup. Ini diletakkan di bawah Pita CrossData. Masing-masing CrossFooter semestinya ditentukan pita CrossHeader. Suatu Pita menyilang dihasilkan dari kiri ke kanan.</StiCrossGroupFooterBand>
-    <StiCrossGroupHeaderBand>Pita ini adalah satu hal dasar untuk pembuatan laporan dengan pengelompokan, ketika CrossData digunakan. Ini tidak mungkin untuk membuat pengelompokan tanpa pita ini. Komponen yang menunjukkan informasi oleh grup ditempatkan pada header grup. Informasi dapt dikelompokkan berdasar nama,tanggal,kondisi pengelompokan,dll. Pita dihasilkan pada permulaan masing-masing grup. Suatu Pita menyilang dikeluarkan dari kiri ke kanan.</StiCrossGroupHeaderBand>
-    <StiCrossHeaderBand>Pita ini akan keluar pada header. ini digunakan dengan pita silang. Suatu pita menyilang dikeluarkan dari kiri ke kanan.</StiCrossHeaderBand>
-    <StiCrossTab>Komponen cross-tab digunakan untuk mewakili struktur data sebagai tabel.</StiCrossTab>
-    <StiDataBand>Pita Data disambungkan ke sumber data dan dikeluarkan sebanyak baris pada sumber data.</StiDataBand>
-    <StiDatePickerElement>Elemen digunakan untuk memilih tanggal dan waktu.</StiDatePickerElement>
-    <StiDatePickerUI>Pemilih tanggal yang digunakan untuk memilih tanggal dari kalender.</StiDatePickerUI>
-    <StiElectronicSignature>Komponen ini digunakan untuk menambahkan tanda tangan grafis, gambar, inisial, dan teks.</StiElectronicSignature>
-    <StiEmptyBand>Pita ini digunakan untuk mengisi tempat kosong di bawah halaman. Pita ini mengisi tempat kosong pada masing-masing halaman laporan.</StiEmptyBand>
-    <StiFilterCategory>Sekelompok elemen yang digunakan untuk memilih dan memfilter nilai.</StiFilterCategory>
-    <StiFooterBand>Pita ini digunakan untuk menampilkan ringkasan oleh pita data. Diletakkan di bawah pita data dan keluar sekali setelah semua baris data.</StiFooterBand>
-    <StiGauge>komponen ini memungkinkan Anda untuk menampilkan nilai dalam kisaran yang telah ditentukan. Hal ini dapat memiliki representasi grafis yang berbeda.</StiGauge>
-    <StiGaugeElement>Elemen memungkinkan Anda untuk menampilkan nilai dalam rentang yang telah ditentukan. Itu dapat memiliki representasi grafis yang berbeda.</StiGaugeElement>
-    <StiGroupFooterBand>Pita GrupFooter digunakan untuk menampilkan grup footer. Pita ini diletakkan setelah pita data. Dan ini adalah pita data dengan pita GroupHeader menempel. Masing-masing Pita GroupFooter semestinya ditentukan pita GroupHeader. Pita GroupFooter tidak akan keluar tanpa pita GroupHeader.</StiGroupFooterBand>
-    <StiGroupHeaderBand>Pita ini merupakan pita dasar untuk pembuatan laporan dengan pengelompokan. Komponen-komponen untuk menunjukkan informasi oleh grup ini diletakkan pada grup header. Ini berupa nama grup, tanggal, kondisi pengelompokan, dll. Pita ini keluar sekali pada permulaan masing-masing grup.</StiGroupHeaderBand>
-    <StiHeaderBand>Pita ini digunakan untuk menampilkan header. Ini dipakai bersama dengan pita data.</StiHeaderBand>
-    <StiHierarchicalBand>Pita ini tersambung ke sumber data dan keluar sebanyak baris pada sumber data. Data keluar sebagai Tree.</StiHierarchicalBand>
-    <StiHorizontalLinePrimitive>Komponen ini digunakan untuk menampilkan garis.</StiHorizontalLinePrimitive>
-    <StiIconUI>Ikon yang digunakan untuk menampilkan grafik simbolis atau penanda visual.</StiIconUI>
-    <StiImage>Komponen ini digunakan untuk menampilkan gambar. Mendukung format gambar, seperti BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
-    <StiImageElement>Elemen ini digunakan untuk menampilkan gambar. Ini mendukung format grafik berikut, seperti BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF</StiImageElement>
-    <StiImageUI>Gambar yang digunakan untuk menampilkan konten grafis di dalam antarmuka.</StiImageUI>
-    <StiIndicatorElement>Elemen menampilkan perbedaan nilai antara data input.</StiIndicatorElement>
-    <StiLabelUI>Label yang digunakan untuk menampilkan teks atau keterangan singkat.</StiLabelUI>
-    <StiListBoxElement>Elemen memungkinkan memilih item dari daftar.</StiListBoxElement>
-    <StiListUI>Daftar yang digunakan untuk menampilkan item yang dapat dipilih dalam koleksi vertikal.</StiListUI>
-    <StiMap>Komponen ini digunakan untuk menampilkan data yang ditargetkan secara geografis.</StiMap>
-    <StiMapCategory>Kelompok elemen untuk bekerja dengan peta dan data.</StiMapCategory>
-    <StiMapElement>Elemen ini digunakan untuk menampilkan data yang ditargetkan secara geografis.</StiMapElement>
-    <StiMathFormula>Komponen ini digunakan untuk menampilkan rumus matematika dalam sebuah laporan.</StiMathFormula>
-    <StiMultiListUI>Daftar yang digunakan untuk memilih beberapa item dari koleksi yang sama.</StiMultiListUI>
-    <StiMultiSelectUI>Pemilih yang digunakan untuk memilih beberapa nilai dari daftar yang telah disiapkan.</StiMultiSelectUI>
-    <StiNumberBoxElement>Elemen ini digunakan untuk memilih nilai numerik atau menetapkan rentang nilai numerik.</StiNumberBoxElement>
-    <StiNumberInputUI>Input angka yang digunakan untuk memasukkan nilai numerik dengan input yang terkontrol.</StiNumberInputUI>
-    <StiOnlineMapElement>Elemen ini digunakan untuk menampilkan penanda geografis pada peta online.</StiOnlineMapElement>
-    <StiOverlayBand>Pita ini digunakan untuk menampilan cat air pada suatu halaman.</StiOverlayBand>
-    <StiPageFooterBand>Pita ini digunakan untuk menampilkan infomasi pada bawah halaman seperti nomer halaman, tanggal, dan informasi tambahan lainnya.</StiPageFooterBand>
-    <StiPageHeaderBand>Pita ini digunakan untuk menampilkan Header Halaman seperti NOmer Halaman, tanggal, dan informasi tambahan lainnya. Ini akan terlihat pada masing-masing di atas setiap halaman.</StiPageHeaderBand>
-    <StiPanel>Wilayah bujur sangkar yang mengandung komponen lain, termasuk pita. ketika panel bergerak ini juga akan ikut bergerak. Suatui panel dapat ditaruh apakah di atas pita atau halaman.</StiPanel>
-    <StiPanelElement>Sebuah wilayah persegi panjang yang dapat berisi elemen lain. Ketika panel dipindahkan, elemen-elemen di dalamnya juga dipindahkan.</StiPanelElement>
-    <StiPanelUI>Panel yang digunakan untuk mengelompokkan dan menata kontrol lain dalam satu area.</StiPanelUI>
-    <StiPdfDigitalSignature>Komponen interaktif ini digunakan untuk menentukan tempat bagi tanda tangan digital setelah laporan diekspor ke Adobe PDF.</StiPdfDigitalSignature>
-    <StiPdfDigitalSignatureElement>Komponen ini digunakan untuk menentukan ruang bagi tanda tangan digital dan bidang dari sertifikat saat mengekspor ke PDF.</StiPdfDigitalSignatureElement>
-    <StiPivotTableElement>TElemen tabel pivot digunakan untuk representasi data terstruktur sebagai tabel.</StiPivotTableElement>
-    <StiProgressElement>Elemen menampilkan rasio data input. Itu dapat disajikan dalam berbagai mode - pai, donat, batangan.</StiProgressElement>
-    <StiRadioGroupUI>Grup radio yang digunakan untuk memilih satu opsi dari kumpulan nilai yang telah ditentukan.</StiRadioGroupUI>
-    <StiRangeSelectorElement>Komponen ini digunakan untuk memilih rentang nilai pada skala atau garis waktu. Komponen ini memungkinkan pengguna menentukan secara visual batas minimum dan maksimum dari rentang tersebut.</StiRangeSelectorElement>
-    <StiRangeSliderUI>Penggeser rentang yang digunakan untuk menentukan nilai minimum dan maksimum pada suatu skala.</StiRangeSliderUI>
-    <StiRectanglePrimitive>Komponen ini untuk menampilkan bujur sangkar.</StiRectanglePrimitive>
-    <StiRegionMapElement>Elemen ini digunakan untuk menampilkan data yang ditargetkan secara geografis.</StiRegionMapElement>
-    <StiReportSummaryBand>Pita ini digunakan untuk menampilkan ringkasan seluruh laporan. Ini kelihatan sekali pada akhir laporan.</StiReportSummaryBand>
-    <StiReportTitleBand>Pita ini digunakan untuk menampilkan Judul Laporan. Ini akan muncul pada awal laporan.</StiReportTitleBand>
-    <StiRichText>Komponen ini digunakan untuk menampilkan dan merubah halaman RTF. Ini juga mendukung memuat dan menyimpan file dalam format RTF.</StiRichText>
-    <StiRoundedRectanglePrimitive>Komponen ini digunakan untuk menampilkan Bujur sangkar  dengan sudut lengkung.</StiRoundedRectanglePrimitive>
-    <StiScreen>Layar yang menampung kontrol, tata letak, dan interaksi pengguna untuk halaman aplikasi.</StiScreen>
-    <StiSelectUI>Kotak pilih yang digunakan untuk memilih satu nilai dari daftar drop-down.</StiSelectUI>
-    <StiShape>Komponen ini digunakan untuk memasukkan bentuk yang telah dibuat, seperti panah, Garis Diagonal menurun, Garis Diagonal meningkat, Garis Horisontal, Garis Kiri dan Kanan, oval, Bujur Sangkar, Bujur sangkar dengan sudut lengkung, Garis atas dan bawah, Segitiga, Garis Vertikal.</StiShape>
-    <StiShapeElement>Elemen ini digunakan untuk menyisipkan bentuk yang sudah jadi, seperti panah, garis diagonal ke bawah, garis diagonal ke atas, garis horizontal, garis kiri dan kanan, oval, persegi panjang, persegi panjang bulat, garis atas dan bawah, segitiga, garis vertikal.</StiShapeElement>
-    <StiSignature>Komponen ini digunakan untuk menambahkan tanda tangan elektronik atau digital ke laporan</StiSignature>
-    <StiSliderUI>Penggeser yang digunakan untuk memilih nilai pada skala numerik berkelanjutan.</StiSliderUI>
-    <StiSparkline>Komponen ini digunakan untuk membuat mikrografik dalam sebuah laporan. Ini memungkinkan Anda melacak data yang berubah secara dinamis sebagai bilah, garis, area.</StiSparkline>
-    <StiSubReport>Komponen ini digunakan untuk menampilkan tambahan data pada tempat yang berbeda pada laporan.</StiSubReport>
-    <StiSwitchUI>Sakelar yang digunakan untuk mengaktifkan atau menonaktifkan pengaturan dengan satu klik.</StiSwitchUI>
-    <StiTable>Kumpunan ini merupakan kumpulan dari bagian data yang terorganisisr menggunakan model kolom vertikal dan baris horisontal.</StiTable>
-    <StiTableElement>Elemen ini adalah sekumpulan elemen data yang disusun menggunakan model kolom vertikal dan baris horizontal.</StiTableElement>
-    <StiTableOfContents>Komponen ini digunakan untuk membuat daftar isi dalam sebuah laporan.</StiTableOfContents>
-    <StiTableUI>Tabel yang digunakan untuk menampilkan data dalam baris dan kolom dengan jelas.</StiTableUI>
-    <StiText>Komponen ini adalah komponen dasar untuk menampilkan data sebagai tulisan.</StiText>
-    <StiTextElement>Elemen ini adalah objek dasar untuk mengeluarkan data sebagai teks.</StiTextElement>
-    <StiTextInCells>Komponen ini digunakan untuk menampilkan tulisan dalam cell. Ini seringkali digunakan untuk membuat form.</StiTextInCells>
-    <StiTextInputUI>Input teks yang digunakan untuk memasukkan dan mengedit nilai teks.</StiTextInputUI>
-    <StiTreeViewBoxElement>Elemen digunakan untuk memilih nilai dengan daftar drop-down sebagai pohon.</StiTreeViewBoxElement>
-    <StiTreeViewElement>Mewakili elemen yang digunakan untuk menampilkan data hierarkis sebagai pohon.</StiTreeViewElement>
-    <StiVerticalLinePrimitive>Komponen ini digunakan untuk menampilkan garis vertikal.</StiVerticalLinePrimitive>
-    <StiWebContentElement>Komponen ini memungkinkan penambahan konten web ke dasbor.</StiWebContentElement>
-    <StiWinControl>Komponen mengizinkan untuk menunjukkan kontrol visual dari .NET.</StiWinControl>
-    <StiZipCode>Komponen ini digunakan untuk menampilkan kode zip.</StiZipCode>
+    <CategoryBands>Pita yang mencetak header, data, dan footer.</CategoryBands>
+    <CategoryComponents>Komponen penampil teks, gambar, dan data lain.</CategoryComponents>
+    <CategoryCrossBands>Pita yang dicetak dari kiri ke kanan.</CategoryCrossBands>
+    <StiBarCode>Menampilkan kode batang.</StiBarCode>
+    <StiButtonElement>Menjalankan skrip saat diklik.</StiButtonElement>
+    <StiButtonUI>Memulai tindakan atau perintah.</StiButtonUI>
+    <StiCardsElement>Menampilkan data berkelompok sebagai kartu.</StiCardsElement>
+    <StiChart>Menampilkan data sebagai grafik.</StiChart>
+    <StiChartElement>Menampilkan data sebagai grafik.</StiChartElement>
+    <StiCheckBox>Menampilkan nilai benar atau salah dengan centang.</StiCheckBox>
+    <StiCheckBoxGroupUI>Menawarkan opsi untuk dicentang lebih dari satu.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>Mengaktifkan atau menonaktifkan satu opsi.</StiCheckBoxUI>
+    <StiChildBand>Mencetak satu pita lagi di baris data yang sama.</StiChildBand>
+    <StiClone>Mengulang isi panel.</StiClone>
+    <StiColumnFooterBand>Dicetak di bawah setiap kolom Pita Data.</StiColumnFooterBand>
+    <StiColumnHeaderBand>Dicetak di atas setiap kolom Pita Data.</StiColumnHeaderBand>
+    <StiComboBoxElement>Memilih nilai dari daftar drop-down.</StiComboBoxElement>
+    <StiContainer>Mengelompokkan komponen lain dalam satu area.</StiContainer>
+    <StiCrossDataBand>Dicetak sekali per baris, dari kiri ke kanan.</StiCrossDataBand>
+    <StiCrossFooterBand>Dicetak setelah Pita Cross-Data.</StiCrossFooterBand>
+    <StiCrossGroupFooterBand>Dicetak di akhir setiap grup silang.</StiCrossGroupFooterBand>
+    <StiCrossGroupHeaderBand>Dicetak di awal setiap grup silang.</StiCrossGroupHeaderBand>
+    <StiCrossHeaderBand>Dicetak sebelum Pita Cross-Data.</StiCrossHeaderBand>
+    <StiCrossTab>Menampilkan data terstruktur berupa tabel silang.</StiCrossTab>
+    <StiDataBand>Dicetak sekali per baris sumber data.</StiDataBand>
+    <StiDatePickerElement>Memilih tanggal dan waktu.</StiDatePickerElement>
+    <StiDatePickerUI>Menampilkan kalender pemilih tanggal.</StiDatePickerUI>
+    <StiElectronicSignature>Menambah tanda tangan gores, ketik, atau gambar.</StiElectronicSignature>
+    <StiEmptyBand>Mengisi ruang kosong di bagian bawah halaman.</StiEmptyBand>
+    <StiFilterCategory>Elemen yang memilih dan memfilter nilai.</StiFilterCategory>
+    <StiFooterBand>Dicetak setelah baris Pita Data.</StiFooterBand>
+    <StiGauge>Menampilkan nilai dalam suatu rentang.</StiGauge>
+    <StiGaugeElement>Menampilkan nilai dalam suatu rentang.</StiGaugeElement>
+    <StiGroupFooterBand>Dicetak di akhir setiap grup.</StiGroupFooterBand>
+    <StiGroupHeaderBand>Dicetak di awal setiap grup.</StiGroupHeaderBand>
+    <StiHeaderBand>Dicetak sebelum baris Pita Data.</StiHeaderBand>
+    <StiHierarchicalBand>Mencetak baris sumber data sebagai pohon.</StiHierarchicalBand>
+    <StiHorizontalLinePrimitive>Menggambar garis horizontal.</StiHorizontalLinePrimitive>
+    <StiIconUI>Menampilkan ikon.</StiIconUI>
+    <StiImage>Menampilkan gambar.</StiImage>
+    <StiImageElement>Menampilkan gambar.</StiImageElement>
+    <StiImageUI>Menampilkan gambar.</StiImageUI>
+    <StiIndicatorElement>Menampilkan selisih antara nilai-nilai.</StiIndicatorElement>
+    <StiLabelUI>Menampilkan teks singkat.</StiLabelUI>
+    <StiListBoxElement>Memilih item dari daftar.</StiListBoxElement>
+    <StiListUI>Menampilkan daftar untuk memilih satu item.</StiListUI>
+    <StiMap>Menampilkan data pada peta.</StiMap>
+    <StiMapCategory>Elemen yang menampilkan data pada peta.</StiMapCategory>
+    <StiMapElement>Menampilkan data pada peta.</StiMapElement>
+    <StiMarkdown>Menampilkan teks Markdown.</StiMarkdown>
+    <StiMathFormula>Menampilkan rumus matematika.</StiMathFormula>
+    <StiMultiListUI>Menampilkan daftar untuk memilih beberapa item.</StiMultiListUI>
+    <StiMultiSelectUI>Memilih beberapa nilai dari daftar drop-down.</StiMultiSelectUI>
+    <StiNumberBoxElement>Memilih angka atau rentang angka.</StiNumberBoxElement>
+    <StiNumberInputUI>Menerima angka dari pengguna.</StiNumberInputUI>
+    <StiOnlineMapElement>Menampilkan penanda pada peta online.</StiOnlineMapElement>
+    <StiOverlayBand>Mencetak tanda air di setiap halaman.</StiOverlayBand>
+    <StiPageFooterBand>Dicetak di bagian bawah setiap halaman.</StiPageFooterBand>
+    <StiPageHeaderBand>Dicetak di bagian atas setiap halaman.</StiPageHeaderBand>
+    <StiPanel>Mengelompokkan komponen lain dalam satu area.</StiPanel>
+    <StiPanelElement>Mengelompokkan elemen lain dalam satu area.</StiPanelElement>
+    <StiPanelUI>Mengelompokkan kontrol lain dalam satu area.</StiPanelUI>
+    <StiPdfDigitalSignature>Menandai tempat tanda tangan digital di PDF.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>Menandai tempat tanda tangan digital di PDF.</StiPdfDigitalSignatureElement>
+    <StiPivotTableElement>Menampilkan data terstruktur sebagai tabel pivot.</StiPivotTableElement>
+    <StiProgressElement>Menampilkan nilai sebagai bagian dari keseluruhan.</StiProgressElement>
+    <StiRadioGroupUI>Menawarkan opsi untuk dipilih salah satunya.</StiRadioGroupUI>
+    <StiRangeSelectorElement>Memilih rentang pada skala atau garis waktu.</StiRangeSelectorElement>
+    <StiRangeSliderUI>Mengatur rentang pada skala.</StiRangeSliderUI>
+    <StiRectanglePrimitive>Menggambar persegi panjang.</StiRectanglePrimitive>
+    <StiRegionMapElement>Menampilkan data pada peta wilayah.</StiRegionMapElement>
+    <StiReportSummaryBand>Dicetak sekali di akhir laporan.</StiReportSummaryBand>
+    <StiReportTitleBand>Dicetak sekali di awal laporan.</StiReportTitleBand>
+    <StiRichText>Menampilkan teks RTF berformat.</StiRichText>
+    <StiRoundedRectanglePrimitive>Menggambar persegi panjang bersudut lengkung.</StiRoundedRectanglePrimitive>
+    <StiScreen>Menampung kontrol halaman aplikasi.</StiScreen>
+    <StiSelectUI>Memilih satu nilai dari daftar drop-down.</StiSelectUI>
+    <StiShape>Menampilkan bentuk siap pakai.</StiShape>
+    <StiShapeElement>Menampilkan bentuk siap pakai.</StiShapeElement>
+    <StiSignature>Menambah tanda tangan elektronik atau digital.</StiSignature>
+    <StiSliderUI>Mengatur nilai pada skala.</StiSliderUI>
+    <StiSparkline>Menampilkan grafik kecil dari seri data.</StiSparkline>
+    <StiSubReport>Mencetak laporan atau halaman lain di tempat ini.</StiSubReport>
+    <StiSwitchUI>Mengaktifkan atau menonaktifkan pengaturan.</StiSwitchUI>
+    <StiTable>Menampilkan data dalam baris dan kolom.</StiTable>
+    <StiTableElement>Menampilkan data dalam baris dan kolom.</StiTableElement>
+    <StiTableOfContents>Membuat daftar isi.</StiTableOfContents>
+    <StiTableUI>Menampilkan data dalam baris dan kolom.</StiTableUI>
+    <StiText>Menampilkan data sebagai teks.</StiText>
+    <StiTextElement>Menampilkan data sebagai teks.</StiTextElement>
+    <StiTextInCells>Menampilkan teks satu karakter per sel.</StiTextInCells>
+    <StiTextInputUI>Menerima teks dari pengguna.</StiTextInputUI>
+    <StiTreeViewBoxElement>Memilih nilai dari pohon drop-down.</StiTreeViewBoxElement>
+    <StiTreeViewElement>Menampilkan data hierarkis sebagai pohon.</StiTreeViewElement>
+    <StiVerticalLinePrimitive>Menggambar garis vertikal.</StiVerticalLinePrimitive>
+    <StiWebContentElement>Menampilkan konten web.</StiWebContentElement>
+    <StiWinControl>Menampilkan kontrol visual .NET.</StiWinControl>
+    <StiZipCode>Menampilkan kode ZIP.</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
     <ActiveRelation>Menetapkan Relasi prioritas untuk mengikat dua tabel. Ini digunakan dalam Transformasi Data dan Dasbor. Hanya satu Relasi di setiap Sumber Data yang dapat aktif.</ActiveRelation>
-    <Align>Rubah lokasi dari komponen yang dipilih.</Align>
-    <AlignBottom>Ratakan isi dari suatu komponen ke bawah</AlignBottom>
-    <AlignCenter>Ratakan isi dari suatu komponen ke tengah.</AlignCenter>
+    <Align>Ratakan komponen yang dipilih.</Align>
+    <AlignBottom>Ratakan isi ke bawah.</AlignBottom>
+    <AlignCenter>Ratakan isi ke tengah.</AlignCenter>
     <AlignComponentBottom>Mengizinkan anda untuk meratakan objek secara horisontal pada bagian bawah komponen yang dipilih.</AlignComponentBottom>
     <AlignComponentCenter>Mengizinkan anda untuk meratakan objek secara horisontal pada bagian tengah komponen yang dipilih</AlignComponentCenter>
     <AlignComponentLeft>Mengizinkan anda untuk meratakan objek secara vertikal pada bagian kiri komponen yang dipilih.</AlignComponentLeft>
     <AlignComponentMiddle>Mengizinkan anda untuk meratakan objek secara vertikal pada bagian tengah komponen yang dipilih.</AlignComponentMiddle>
     <AlignComponentRight>Mengizinkan anda untuk meratakan objek secara vertikal pada bagian kanan komponen yang dipilih.</AlignComponentRight>
     <AlignComponentTop>Mengizinkan anda untuk meratakan objek secara horisontal pada bagian atas komponen yang dipilih.</AlignComponentTop>
-    <AlignLeft>Ratakan isi dari komponen ke kiri.</AlignLeft>
-    <AlignMiddle>Tengahkan komponen di bagian atas dan bawah pinggiran dari komponen.</AlignMiddle>
-    <AlignRight>Ratakan isi dari komponen ke kanan.</AlignRight>
-    <AlignToGrid>Ratakan komponen yang dipilih ke node grid.</AlignToGrid>
-    <AlignTop>Ratakan isi dari komponen ke atas.</AlignTop>
-    <AlignWidth>Ratakan kanan kiri isi dari komponen.</AlignWidth>
-    <Angle>Putar isi dari komponen.</Angle>
+    <AlignLeft>Ratakan isi ke kiri.</AlignLeft>
+    <AlignMiddle>Ratakan isi ke tengah secara vertikal.</AlignMiddle>
+    <AlignRight>Ratakan isi ke kanan.</AlignRight>
+    <AlignToGrid>Ratakan komponen yang dipilih ke grid.</AlignToGrid>
+    <AlignTop>Ratakan isi ke atas.</AlignTop>
+    <AlignWidth>Ratakan isi kanan-kiri.</AlignWidth>
+    <Angle>Putar teks.</Angle>
     <AngleWatermark>sudut putaran tulisan cat air.</AngleWatermark>
-    <Background>Rubah background dari komponen yang dipilih.</Background>
-    <biConditions>Kontrol daftar kondisi dari komponen yang dipilih.</biConditions>
-    <BorderColor>Pilih warna pinggiran dari komponen yang dipilih.</BorderColor>
-    <BorderSidesAll>Ganti pada semua sisi pinggiran dari komponen yang dipilih.</BorderSidesAll>
-    <BorderSidesBottom>Ganti pada pinggiran sisi bawah dari komponen yang dipilih.</BorderSidesBottom>
-    <BorderSidesLeft>Ganti pada pinggiran sisi kiri dari komponen yang dipilih.</BorderSidesLeft>
-    <BorderSidesNone>Matikan pergantian pada sisi semua pinggiran dari komponen yang dipilih.</BorderSidesNone>
-    <BorderSidesRight>Ganti pada pinggiran sisi kanan dari komponen yang dipilih.</BorderSidesRight>
-    <BorderSidesTop>Ganti pada pinggiran sisi atas dari komponen yang dipilih.</BorderSidesTop>
-    <BorderStyle>Pilih Corak pinggiran dari komponen yang dipilih.</BorderStyle>
-    <BringToFront>Bawa komponen yang dipilih ke depan.</BringToFront>
+    <Background>Ubah latar belakang.</Background>
+    <biConditions>Edit kondisi.</biConditions>
+    <BorderColor>Ubah warna pinggiran.</BorderColor>
+    <BorderSidesAll>Tampilkan semua pinggiran.</BorderSidesAll>
+    <BorderSidesBottom>Tampilkan atau sembunyikan pinggiran bawah.</BorderSidesBottom>
+    <BorderSidesLeft>Tampilkan atau sembunyikan pinggiran kiri.</BorderSidesLeft>
+    <BorderSidesNone>Sembunyikan semua pinggiran.</BorderSidesNone>
+    <BorderSidesRight>Tampilkan atau sembunyikan pinggiran kanan.</BorderSidesRight>
+    <BorderSidesTop>Tampilkan atau sembunyikan pinggiran atas.</BorderSidesTop>
+    <BorderStyle>Ubah gaya pinggiran.</BorderStyle>
+    <BringToFront>Bawa ke depan.</BringToFront>
     <CenterHorizontally>Mengizinkan anda untuk meratakan komponen secara horisontal tergantung pada tepi kontainer dimana diletakkan.</CenterHorizontally>
     <CenterVertically>Mngizinkan anda untuk meratakan suatu komponen secara vertikal tergantung pada tepi komponen dimana diletakkan.</CenterVertically>
     <Close>Tutup Pembuat Laporan.</Close>
-    <Columns>Pisah suatu halaman ke dalam kolom.</Columns>
+    <Columns>Bagi halaman menjadi kolom.</Columns>
     <CompilationAccess1>Dokumen ini menggunakan proses kompilasi. Jika dokumen berasal dari sumber tepercaya, Anda dapat mengeklik tombol "Buka" untuk mengaksesnya.</CompilationAccess1>
     <CompilationAccess2>Jika Anda tidak yakin dengan sumber dokumen tetapi tetap ingin melihatnya, Anda dapat mengklik tombol "Open in safe mode". Dalam hal ini, Anda akan menggunakan interpretasi alih-alih kompilasi, yang memungkinkan Anda menjalankan dokumen dengan aman.</CompilationAccess2>
     <CompilationAccess3>Dokumen ini menggunakan proses kompilasi dan bisa jadi tidak aman. Anda tidak dapat membukanya.</CompilationAccess3>
@@ -2185,15 +2189,15 @@
     <CompilationAccessForceInterpretation>Dokumen dengan kompilasi akan dibuka tanpa prompt apa pun tetapi akan otomatis dikonversi ke mode interpretasi, yang tidak menggunakan proses kompilasi.</CompilationAccessForceInterpretation>
     <CompilationAccessTitle>Dokumen menggunakan kompilasi</CompilationAccessTitle>
     <CompilationModeEnabling>Anda beralih ke mode kompilasi. Mode ini memungkinkan Anda menjalankan kode yang berbeda dan terkadang bisa berbahaya. Harap gunakan mode ini hanya jika Anda memahami semua risiko dan menyetujuinya. Klik tombol {0} untuk melanjutkan.</CompilationModeEnabling>
-    <ComponentSize>Rubah ukuran dari komponen yang dipilih.</ComponentSize>
-    <ComponentsMenu>Membuka menu Komponen yang berisi elemen dasbor yang tidak terpakai pada permukaan seluler.</ComponentsMenu>
-    <CopyStyle>Copy gaya</CopyStyle>
+    <ComponentSize>Ubah ukuran komponen yang dipilih.</ComponentSize>
+    <ComponentsMenu>Tampilkan elemen yang tidak terpakai.</ComponentsMenu>
+    <CopyStyle>Salin gaya ke komponen lain.</CopyStyle>
     <CopyToClipboard>Salin ke Clipboard</CopyToClipboard>
     <CurrencySymbol>Pilih simbol mata uang.</CurrencySymbol>
     <DashboardNew>Buat dasbor baru.</DashboardNew>
     <DataStore>Tunjukkan data, terdaftar pada laporan.</DataStore>
-    <DateTimeFormat>Pilih format tanggal dan waktu untuk komponen yang dipilih.</DateTimeFormat>
-    <DockingPanels>Pengaturan panel.</DockingPanels>
+    <DateTimeFormat>Pilih format tanggal dan waktu.</DateTimeFormat>
+    <DockingPanels>Tampilkan atau sembunyikan panel.</DockingPanels>
     <DockStyleBottom>Dekatkan komponen terpilih ke sisi bawah.</DockStyleBottom>
     <DockStyleFill>Dekatkan komponen terpilih ke semua sisi.</DockStyleFill>
     <DockStyleLeft>Dekatkan komponen terpilih ke sisi kiri.</DockStyleLeft>
@@ -2202,18 +2206,18 @@
     <DockStyleTop>Dekatkan komponen terpilih ke sisi atas.</DockStyleTop>
     <EventsAccess1>Dokumen ini menggunakan Events. Jika dokumen berasal dari sumber tepercaya, Anda dapat mengeklik tombol "Buka" untuk mengaksesnya.</EventsAccess1>
     <EventsAccess2>Jika Anda tidak yakin dengan sumber dokumen tetapi tetap ingin melihatnya, Anda dapat mengklik tombol "Open in safe mode". Dalam hal ini, peristiwa akan diabaikan dan tidak dijalankan.</EventsAccess2>
-    <FontGrow>Buat ukuran tulisan lebih besar.</FontGrow>
-    <FontName>Huruf Tulisan.</FontName>
+    <FontGrow>Perbesar teks.</FontGrow>
+    <FontName>Ubah font teks.</FontName>
     <FontNameWatermark>Huruf Tulisan Cat Air.</FontNameWatermark>
-    <FontShrink>Buat ukuran tulisan lebih kecil.</FontShrink>
-    <FontSize>Ukuran huruf.</FontSize>
+    <FontShrink>Perkecil teks.</FontShrink>
+    <FontSize>Ubah ukuran teks.</FontSize>
     <FontSizeWatermark>Rubah ukuran huruf.</FontSizeWatermark>
-    <FontStyleBold>Buat tulisan tebal.</FontStyleBold>
+    <FontStyleBold>Tebalkan teks.</FontStyleBold>
     <FontStyleBoldWatermark>Buat tulisan cat air tebal.</FontStyleBoldWatermark>
-    <FontStyleItalic>Buat tulisan miring.</FontStyleItalic>
+    <FontStyleItalic>Miringkan teks.</FontStyleItalic>
     <FontStyleItalicWatermark>Buat tulisan cat air miring.</FontStyleItalicWatermark>
-    <FontStyleStrikeout>Buat teks dicoret.</FontStyleStrikeout>
-    <FontStyleUnderline>Buat tulisan bergaris bawah.</FontStyleUnderline>
+    <FontStyleStrikeout>Coret teks.</FontStyleStrikeout>
+    <FontStyleUnderline>Garis bawahi teks.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Buat tulisan cat air digarus bawahi.</FontStyleUnderlineWatermark>
     <FormatBoolean>Format ini digunakan untuk memformat nilai dari tipe boolean.</FormatBoolean>
     <FormatCurrency>Tampilkan nilai sebagai mata uang. Ini akan mengizinkan anda untuk menampilkan satu nomoer dengan simbol mata uang dengan default.</FormatCurrency>
@@ -2224,61 +2228,61 @@
     <FormatPercentage>Tampilkan nilai sebagai persen. Nomer dikalikan dengan 100 untuk mengkonversi menjadi persen.</FormatPercentage>
     <FormatTime>Tampilkan nilai sebagai waktu. Format waktu berdasarkan pengaturan waktu wilayah setempat.</FormatTime>
     <FormNew>Buat satu form dialog baru.</FormNew>
-    <GridMode>Perlihatkan grid dalam bentuk garis-garis atau titik-titik.</GridMode>
+    <GridMode>Tampilkan grid sebagai garis atau titik.</GridMode>
     <ImageAlignment>Letakkan gambar cat air pada halaman.</ImageAlignment>
     <ImageTransparency>Rubah transparansi dari gambar cat air.</ImageTransparency>
-    <Interaction>Kontrol interaksi komponen yang dipilih.</Interaction>
-    <LineSpacing>Pilih berapa banyak ruang yang muncul di antara baris teks atau di antara paragraf.</LineSpacing>
-    <Link>Tautkan komponen ke kontainer ini.</Link>
+    <Interaction>Atur interaksi.</Interaction>
+    <LineSpacing>Ubah jarak antarbaris.</LineSpacing>
+    <Link>Tautkan ke kontainer.</Link>
     <LoadImage>Muat Gambar Cat air dari file.</LoadImage>
-    <Lock>Kunci komponen. komponen tidak dapat digerakkan dan dirubah ukurannya.</Lock>
-    <MainMenu>Klik di sini untuk melihat daftar kemungikan-kemungkinan operasi pada laporan, termasuk pembukaan, penutupan, dan pratinjau.</MainMenu>
+    <Lock>Kunci posisi dan ukuran.</Lock>
+    <MainMenu>Buat, buka, atau simpan laporan.</MainMenu>
     <MakeHorizontalSpacingEqual>Mengizinkan anda untuk menetapkan jarak horisontal antara komponen-komponen terpilih.</MakeHorizontalSpacingEqual>
     <MakeVerticalSpacingEqual>Mengizinkan anda untuk menetapkan jarak vertikal antara komponen-komponen terpilih.</MakeVerticalSpacingEqual>
-    <Margins>Pilih garis tepi dari halaman ini.</Margins>
+    <Margins>Pilih margin halaman.</Margins>
     <menuCheckIssues>Memeirksa melalui laporan untuk mencari error, peringatan dan mendapat rekomendasi.</menuCheckIssues>
     <menuDesignerOptions>Pilihan Pengaturan pembuat laporan.</menuDesignerOptions>
     <menuEditClearContents>Bersihkan isi.</menuEditClearContents>
-    <menuEditCopy>Salin komponen terpilih dan taruh pada Clipboard.</menuEditCopy>
-    <menuEditCut>Potong komponen terpilih dan taruh pada Clipboard.</menuEditCut>
-    <menuEditDelete>Hapus komponen terpilih.</menuEditDelete>
-    <menuEditPaste>Tempelkan komponen dari Clipboard ke dalam laporan.</menuEditPaste>
-    <menuExportSettings>Membuka editor Pengaturan Ekspor untuk laporan atau dasbor saat ini. Pengaturan diterapkan hanya saat mengekspor laporan atau dasbor saat ini.</menuExportSettings>
+    <menuEditCopy>Salin komponen yang dipilih.</menuEditCopy>
+    <menuEditCut>Potong komponen yang dipilih.</menuEditCut>
+    <menuEditDelete>Hapus komponen yang dipilih.</menuEditDelete>
+    <menuEditPaste>Tempel dari Papan Klip.</menuEditPaste>
+    <menuExportSettings>Ubah pengaturan ekspor.</menuExportSettings>
     <menuFAQPage>Pergi ke halaman web dengan pertanyaan yang sering diajukan.</menuFAQPage>
-    <menuGlobalizationStrings>Panggil Perubah Syarat Global pada laporan ini.</menuGlobalizationStrings>
+    <menuGlobalizationStrings>Edit string globalisasi.</menuGlobalizationStrings>
     <menuHelpAboutProgramm>Dapatkan informasi tentang versi pembuat laoran dan versi dari .NET.</menuHelpAboutProgramm>
     <menuHomePage>Pergi ke Halaman Rumah dari produk.</menuHomePage>
     <menuPageOptions>Pengaturan parameter dasar di halaman ini. Semua pilihan halaman dapat dirubah menggunakan panel properti.</menuPageOptions>
     <menuPagesManager>Jalankan Pengatur Halaman. Ini mengizinkan memindah halaman, menghapus halaman, dan membuat halaman baru.</menuPagesManager>
-    <menuPreviewSettings>Panggil pengaturan pratinjau pada laporan ini. Pengaturan hanya akan diterapkan hanya ketika melihat laporan ini.</menuPreviewSettings>
+    <menuPreviewSettings>Ubah pengaturan pratinjau.</menuPreviewSettings>
     <menuPrint>Pilih satu printer, jumlah salinan, dan pilihan pencetakan lain sebelum mencetak.</menuPrint>
     <menuPrintPreview>Pratinjau suatu laporan sebelum mencetak.</menuPrintPreview>
     <menuPrintQuick>Cetak Laporan secara langsung ke printer default. Dialog Pencetakan tidak ditampilkan.</menuPrintQuick>
-    <menuReportOptions>Atur opsi laporan dasar. Semua pilihan dapat dirubah menggunakan Panel Properti.</menuReportOptions>
+    <menuReportOptions>Ubah opsi laporan.</menuReportOptions>
     <menuStyleDesigner>Panggil Pembuat Corak dari Laporan ini.</menuStyleDesigner>
     <menuSupport>Pergi ke halaman dukungan untuk bertanya.</menuSupport>
-    <menuViewAlignToGrid>Ratakan komponen pada grid.</menuViewAlignToGrid>
+    <menuViewAlignToGrid>Ratakan komponen ke grid.</menuViewAlignToGrid>
     <menuViewNormal>Melihat Normal suatu halaman.</menuViewNormal>
     <menuViewPageBreakPreview>Tunjukkan satu halaman dengan garis samping dan bagiannya.</menuViewPageBreakPreview>
-    <menuViewQuickInfo>Tunjukkan informasi cepat dari komponen-kompnen:nama komponen,nama lain,isi, event,dll.</menuViewQuickInfo>
-    <menuViewShowGrid>Perlihatkan garis grid untuk mengurutkan objek pada laporan.</menuViewShowGrid>
-    <menuViewShowHeaders>Perlihatkan header pada pita.</menuViewShowHeaders>
-    <menuViewShowOrder>Perlihatkan permintaan komponen di suatu halaman.</menuViewShowOrder>
-    <menuViewShowRulers>Lihat penggaris, digunakan untuk mengukur dan menggarisi objek di suatu halaman.</menuViewShowRulers>
-    <menuViewShowSmartGuides>Tampilkan Panduan Cerdas untuk memosisikan komponen relatif terhadap satu sama lain.</menuViewShowSmartGuides>
-    <MoveBackward>Gerakkan komponen ke satu level lebih tinggi untuk mengganti komponen suatu halaman.</MoveBackward>
-    <MoveForward>Gerakkan suatu komponen ke satu level lebih rendah untuk mengganti komponen suatu halaman.</MoveForward>
+    <menuViewQuickInfo>Tampilkan informasi cepat tentang komponen.</menuViewQuickInfo>
+    <menuViewShowGrid>Tampilkan grid.</menuViewShowGrid>
+    <menuViewShowHeaders>Tampilkan header pita.</menuViewShowHeaders>
+    <menuViewShowOrder>Tampilkan urutan komponen.</menuViewShowOrder>
+    <menuViewShowRulers>Tampilkan penggaris.</menuViewShowRulers>
+    <menuViewShowSmartGuides>Tampilkan panduan cerdas.</menuViewShowSmartGuides>
+    <MoveBackward>Pindahkan satu tingkat ke belakang.</MoveBackward>
+    <MoveForward>Pindahkan satu tingkat ke depan.</MoveForward>
     <NotPossibleEnableCompilationMode>Tidak mungkin mengaktifkan mode kompilasi untuk laporan. Ini dilarang oleh opsi 'Compilation Access' di pengaturan desainer.</NotPossibleEnableCompilationMode>
-    <Orientation>Tukar halaman antara bidang portrait dan landscape.</Orientation>
+    <Orientation>Beralih antara potret dan lanskap.</Orientation>
     <PageDelete>Hapus halaman ini pada laporan.</PageDelete>
     <PageNew>Membuat satu halaman baru.</PageNew>
-    <PageSetup>Tunjukkan Kotak Dialog pengaturan halaman.</PageSetup>
-    <PageSize>Pilih ukuran kertas untuk halaman ini pada laporan.</PageSize>
+    <PageSetup>Ubah pengaturan halaman.</PageSetup>
+    <PageSize>Pilih ukuran kertas.</PageSize>
     <PagesManager>Jalankan Pengatur Halaman.</PagesManager>
     <PressF1>Tekan F1 untuk Detail Lebih</PressF1>
-    <PropertiesButton>Mengaktifkan panel Properti dengan properti templat laporan.</PropertiesButton>
+    <PropertiesButton>Tampilkan properti laporan.</PropertiesButton>
     <Redo>Majukan perubahan sebelumnya pada laporan.</Redo>
-    <RemoveMobileSurfaceButton>Menghapus permukaan seluler dari dasbor saat ini.</RemoveMobileSurfaceButton>
+    <RemoveMobileSurfaceButton>Hapus permukaan seluler.</RemoveMobileSurfaceButton>
     <ReportNew>Buat Laporan Baru.</ReportNew>
     <ReportOpen>Buka laporan pada designer.</ReportOpen>
     <ReportPreview>Pratinjau suatu laporan yang diedit pada pelihat.</ReportPreview>
@@ -2290,46 +2294,47 @@
     <ScriptSecuritySafeMode>Akses skrip aman (kemampuan terbatas untuk keamanan).</ScriptSecuritySafeMode>
     <SelectAll>Pilih semua komponen pada halaman ini.</SelectAll>
     <SelectUILanguage>Pilih Bahasa UI.</SelectUILanguage>
-    <SendToBack>Pindahkan komponen yang dipilih ke belakang dari komponen lain.</SendToBack>
+    <SendToBack>Kirim ke belakang.</SendToBack>
     <ServicesConfigurator>Jalankan Services Configurator.</ServicesConfigurator>
-    <Shadow>Perlihatkan bayangan dari suatu komponen.</Shadow>
+    <Shadow>Tampilkan atau sembunyikan bayangan.</Shadow>
     <ShowBehind>Perlihatkan tulisan cap air di belakang komponen.</ShowBehind>
     <ShowImageBehind>Letakkan Gambar Cap Air di belakang semua komponen pada halaman.</ShowImageBehind>
     <ShowToolbox>Pelrihatkan toolbox.</ShowToolbox>
     <StimulsoftHelp>Bantuan Stimulsoft</StimulsoftHelp>
-    <StyleDesigner>Jalankan Style Designer.</StyleDesigner>
+    <StyleDesigner>Buka Desainer Gaya.</StyleDesigner>
     <TellMeMore>Ceritakan lebih</TellMeMore>
     <Text>Tulisan Cap Air.</Text>
     <TextBrush>Rubah warna tulisan.</TextBrush>
     <TextBrushWatermark>Rubah warna tulisan pada cap air.</TextBrushWatermark>
-    <TextColor>Rubah Warna tulisan.</TextColor>
+    <TextColor>Ubah warna teks.</TextColor>
     <TextFormat>Pilih format nilai.</TextFormat>
     <ToolbarStyle>Pilih corak yang dipilih kepada semua komponen yang dipilih.</ToolbarStyle>
     <Undo>Kembalikan perubahan terakhir dari laporan.</Undo>
-    <ViewModeDesktopButton>Aktifkan Permukaan Desktop.</ViewModeDesktopButton>
-    <ViewModeMobileButton>Aktifkan Permukaan Seluler.</ViewModeMobileButton>
-    <WordWrap>Kelilingi tulisan dari komponen.</WordWrap>
+    <ViewModeDesktopButton>Tampilkan permukaan desktop.</ViewModeDesktopButton>
+    <ViewModeMobileButton>Tampilkan permukaan seluler.</ViewModeMobileButton>
+    <Watermark>Ubah pengaturan tanda air.</Watermark>
+    <WordWrap>Bungkus teks.</WordWrap>
     <Zoom>Tentukan Persentase untuk melihat laporan.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
-    <StiButtonControl>Mewakili kontrol Tombol.</StiButtonControl>
-    <StiCheckBoxControl>Mewakili kontrol tanda.</StiCheckBoxControl>
-    <StiCheckedListBoxControl>Menunjukkan daftar objek, pada tanda apa di sebelah kiri yang menunjukkan masing-masing bagian.</StiCheckedListBoxControl>
-    <StiComboBoxControl>Mewakili ComboBox yang digunakan apakah tipe nilai secara langsung ke dalam kontrol atau memilih dari daftar pilihan yang sudah ada.</StiComboBoxControl>
-    <StiDateTimePickerControl>Mewakili kontrol yang mengizinkan pemilihan tanggal dan waktu. ini juga memperbolehkan anda untuk menghasilkan tanggal dan waktu dengan format yang ditentukan.</StiDateTimePickerControl>
-    <StiGridControl>Mewakili kontrol Grid yang mengandung baris dan kolom.</StiGridControl>
-    <StiGroupBoxControl>Mewakili kontrol yang membuat Kontainer dengan pinggiran dan satu header untuk isi UI.</StiGroupBoxControl>
-    <StiLabelControl>Suatu Label merupakan kontrol antar muka pengguna yang menampilkan tulisan pada form. Ini biasanya merupakan suatu kontrol statis yang tidak mempunyai hubungan.</StiLabelControl>
-    <StiListBoxControl>Mengandung daftar bagian-bagian untuk pemilihan.</StiListBoxControl>
-    <StiListViewControl>Mewakili Kontrol Listview yang menunjukkan daftar bagian-bagian data.</StiListViewControl>
-    <StiLookUpBoxControl>Mengandung daftar bagian untuk pemilihan.</StiLookUpBoxControl>
-    <StiNumericUpDownControl>Mewakili kontrol yang menunjukkan nilai nomer.</StiNumericUpDownControl>
-    <StiPanelControl>Bagian Panel yang digunakan untuk menempatkan dan mengurutkan objek.</StiPanelControl>
-    <StiPictureBoxControl>Mewakili Kontrol untuk menunjukkan suatu gambar.</StiPictureBoxControl>
-    <StiRadioButtonControl>Mewakili Kontrol Tombol Radio yang memperbolehkan pengguna untuk memilih hanya satu pilihan sebelumnya.</StiRadioButtonControl>
-    <StiRichTextBoxControl>Mewakili Kontrol Kaya Tulisan dengan perubahan melebar.</StiRichTextBoxControl>
-    <StiTextBoxControl>Mewakili kontrol Tulisan yang digunakan untuk menunjukkan atau merubah suatu Tulisan.</StiTextBoxControl>
-    <StiTreeViewControl>Mewakili kontrol yang digunakan untuk menunjukkan hirarki data seperti pohon.</StiTreeViewControl>
+    <StiButtonControl>Menjalankan tindakan saat diklik.</StiButtonControl>
+    <StiCheckBoxControl>Mengaktifkan atau menonaktifkan satu opsi.</StiCheckBoxControl>
+    <StiCheckedListBoxControl>Menampilkan daftar item dengan kotak centang.</StiCheckedListBoxControl>
+    <StiComboBoxControl>Memilih atau mengetik nilai di daftar drop-down.</StiComboBoxControl>
+    <StiDateTimePickerControl>Menampilkan kalender pemilih tanggal dan waktu.</StiDateTimePickerControl>
+    <StiGridControl>Menampilkan data dalam baris dan kolom.</StiGridControl>
+    <StiGroupBoxControl>Mengelompokkan kontrol dalam bingkai berjudul.</StiGroupBoxControl>
+    <StiLabelControl>Menampilkan teks pada form.</StiLabelControl>
+    <StiListBoxControl>Menampilkan daftar untuk memilih item.</StiListBoxControl>
+    <StiListViewControl>Menampilkan daftar item data.</StiListViewControl>
+    <StiLookUpBoxControl>Menampilkan daftar drop-down untuk memilih item.</StiLookUpBoxControl>
+    <StiNumericUpDownControl>Menerima angka yang dapat diubah dengan tombol.</StiNumericUpDownControl>
+    <StiPanelControl>Mengelompokkan kontrol lain dalam satu area.</StiPanelControl>
+    <StiPictureBoxControl>Menampilkan gambar.</StiPictureBoxControl>
+    <StiRadioButtonControl>Memilih satu opsi dari suatu grup.</StiRadioButtonControl>
+    <StiRichTextBoxControl>Menampilkan dan mengedit teks berformat.</StiRichTextBoxControl>
+    <StiTextBoxControl>Menampilkan dan mengedit teks.</StiTextBoxControl>
+    <StiTreeViewControl>Menampilkan data hierarkis sebagai pohon.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
     <AddPageBreaks>Visual pemisah halaman laporan.</AddPageBreaks>

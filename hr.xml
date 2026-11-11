@@ -2050,132 +2050,135 @@
     <sys_morebuttons>Više gumbiju</sys_morebuttons>
   </Gui>
   <HelpComponents>
-    <StiBarCode>Ova komponenta omogućuje prikaz bar-code-ova u izvještaju. Bar-code šalju se objektu kao string. String može sadržavati bilo koje simbole ali samo dopušteni simboli za odabrani grafikon mogu biti prikazani.</StiBarCode>
-    <StiButtonElement>Ova komponenta se koristi za izvršavanje skripte događaja kada je korisnik u interakciji.</StiButtonElement>
-    <StiButtonUI>Gumb koji se koristi za pokretanje akcije ili komande.</StiButtonUI>
-    <StiCardsElement>Ova komponenta se koristi za prikaz grupiranih podataka kao kartica.</StiCardsElement>
-    <StiChart>Ova komponenta omogućuje prikaz grafikona u izvještaju. Dostupni su različiti tipovi grafikona. Među njima su stupčasti, linijski, tortni, prstenasti, površinski, Gantt, raspršeni, itd. </StiChart>
-    <StiChartElement>Ovaj element omogućuje prikaz grafikona na kontrolnoj ploči. Dostupni su različiti tipovi grafikona.</StiChartElement>
-    <StiCheckBox>Ova komponenta omogućuje prikaz checkbox-a u izvještaju. Može prikazati dva stanja: "upaljeno" ili "ugašeno".</StiCheckBox>
-    <StiCheckBoxGroupUI>Checkbox grupa koja se koristi za odabir više unaprijed definiranih opcija s popisa.</StiCheckBoxGroupUI>
-    <StiCheckBoxUI>Checkbox koji se koristi za brzo paljenje ili gašenje pojedine opcije.</StiCheckBoxUI>
-    <StiChildBand>Child traka se može koristiti za prikaz dvije trake na jednom podatkovnom redu.</StiChildBand>
-    <StiClone>Ova komponenta se koristi za kloniranje dijelova izvještaja u željeni dio izvještaja. Kloniranje se može primijeniti samo na sadržaj panela.</StiClone>
-    <StiColumnFooterBand>Ova traka se koristi za prikaz podnožja stupaca na Data traci. ColumnFooter traka se prikazuje jednom ispod svakog stupca. Sve komponente koje su stavljene na ovu traku će se također prikazati ispod svakog stupca.</StiColumnFooterBand>
-    <StiColumnHeaderBand>Ova traka se koristi za zaglavlja stupaca. ColumnHeader traka se koristi za prikaz samo jednom. Sve komponente koje su stavljene na ovu traku mogu se prikazati ispod svakog stupca.</StiColumnHeaderBand>
-    <StiComboBoxElement>Predstavlja ComboBox koji se koristi za direktno unošenje vrijednosti u kontrolu ili za odabir vrijednosti iz liste.</StiComboBoxElement>
-    <StiContainer>Ovo je pravokutno područe gdje se druge komponente, uključujući trake, mogu postaviti. Prilikom pomicanja container-a, komponente u njemu će se također pomaknuti. Container se može postaviti i na traku i na stranicu.</StiContainer>
-    <StiCrossDataBand>Ova traka je konektirana na izvor podataka. Prikazana je onoliko puta koliko ima redaka u izvoru podataka. Cross trake su prikazane s lijeva na desno.</StiCrossDataBand>
-    <StiCrossFooterBand>Ova traka se koristi za prikaz podnožja CrossData trake. Traka se prikazuje jednom nakon svih redova Data trake. Cross trake su prikazane s lijeva na desno.</StiCrossFooterBand>
-    <StiCrossGroupFooterBand>Ova traka se koristi za prikaz podnožja grupe. Postavlja se ispod CrossData trake. Svaka CrossFooter traka pripada određenoj CrossHeader traci. Cross trake se prikazuju s lijeva na desno.</StiCrossGroupFooterBand>
-    <StiCrossGroupHeaderBand>Ova traka je osnovna za renderiranje izvještaja sa grupiranjem, kada se koristi CrossData. Nemoguće je napraviti grupiranje sa ovom trakom. Komponente za prikaz informacija za grupiranje se postavljaju na group header-u. Informacije mogu biti naziv grupe, datum, uvjetovano grupiranje, itd. Traka se prikazuje na početku svake grupe. Cross trake se prikazuju s lijeva na desno.</StiCrossGroupHeaderBand>
-    <StiCrossHeaderBand>Ova traka se koristi za prikaz zaglavlja. Koristi se zajedno sa Cross trakom. Cross trake se prikazuju s lijeva na desno.</StiCrossHeaderBand>
-    <StiCrossTab>Cross-tab komponenta se koristi za prikaz strukturiranih podataka kao tablica.</StiCrossTab>
-    <StiDataBand>Data traka je konektirana na izvor podataka i prikazuje se onoliko puta koliko ima redaka u izvoru podataka.</StiDataBand>
-    <StiDatePickerElement>Element se koristi za odabir datuma i vremena.</StiDatePickerElement>
-    <StiDatePickerUI>Birač datuma koji se koristi za odabir datuma iz kalendara.</StiDatePickerUI>
-    <StiElectronicSignature>Ova komponenta se koristi za dodavanje grafičkog potpisa, slike, inicijala i teksta.</StiElectronicSignature>
-    <StiEmptyBand>Ova traka se koristi za popunjavanje praznog prostora na dnu stranice. Ova traka popunjava prazan prostor na svakoj stranici izvještaja.</StiEmptyBand>
-    <StiFilterCategory>Grupa elemenata koja se koristi za odabir i filtriranje vrijednosti.</StiFilterCategory>
-    <StiFooterBand>Ova traka se koristi za prikaz sažetka kod Data trake. Postavlja se ispod Data trake i prikazuje se jednom nakon svih redova podataka koji su prikazani putem Data trake.</StiFooterBand>
-    <StiGauge>Komponenta vam omogućava da prikažete vrijednost unutar prethodno određenog raspona. Može imati različite grafičke prikaze.</StiGauge>
-    <StiGaugeElement>Element omogućuje prikaz vrijednosti unutar raspona. Može imati različite grafičke prikaze.</StiGaugeElement>
-    <StiGroupFooterBand>GroupFooter traka se koristi za prikaz podnožja grupe. Ova traka se postavlja nakon Data trake. Svaka GroupFooter traka pripada određenoj GroupHeader traci. GroupFooter traka se neće prikazivati bez GroupHeader trake.</StiGroupFooterBand>
-    <StiGroupHeaderBand>Ova traka je osnovna za renderiranje izvještaja sa grupiranjem. Komponente za prikaz informacija za grupiranje se postavljaju na group header-u. To mogu biti naziv grupe, datum, uvjet, itd. Traka se prikazuje jednom na početku svake grupe.</StiGroupHeaderBand>
-    <StiHeaderBand>Ova traka se koristi za prikaz zaglavlja. Koristi se zajedno sa Data trakom.</StiHeaderBand>
-    <StiHierarchicalBand>Ova traka je konektirana na izvor podataka i prikazana onoliko puta koliko ima redova u izvoru podataka. Podaci se prikazuju kao drvo.</StiHierarchicalBand>
-    <StiHorizontalLinePrimitive>Ova komponenta se koristi za prikaz linije.</StiHorizontalLinePrimitive>
-    <StiIconUI>Ikona koja se koristi za prikaz simbolične grafike ili vizualne oznake.</StiIconUI>
-    <StiImage>Ova komponenta se koristi za prikaz slika. Podržava slijedeće grafičke formate, kao što su BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
-    <StiImageElement>Ovaj element se koristi za prikaz slika. Podržava slijedeće grafičke formate - BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImageElement>
-    <StiImageUI>Slika koja se koristi za prikaz grafičkog sadržaja unutar sučelja.</StiImageUI>
-    <StiIndicatorElement>Element prikazuje razliku u vrijednostima između unešenih podataka.</StiIndicatorElement>
-    <StiLabelUI>Oznaka koja se koristi za prikaz teksta ili kratkih natpisa.</StiLabelUI>
-    <StiListBoxElement>Element omogućuje odabir stavki iz liste.</StiListBoxElement>
-    <StiListUI>Popis koji se koristi za prikaz stavki koje se mogu odabrati unutar okomite kolekcije.</StiListUI>
-    <StiMap>Ova komponenta se koristi za prikaz geografski označenih podataka.</StiMap>
-    <StiMapCategory>Grupa elemenata za rad sa mapama i podacima.</StiMapCategory>
-    <StiMapElement>Ovaj element se koristi za prikaz podataka koji su geografski ciljani.</StiMapElement>
-    <StiMarkdown>Ova komponenta se koristi za renderiranje CommonMark / GFM Markdown teksta u izvještaju.</StiMarkdown>
-    <StiMathFormula>Ova komponenta se koristi za prikaz matematičkih formula u izvještaju.</StiMathFormula>
-    <StiMultiListUI>Popis koji se koristi za odabir više stavki iz iste kolekcije.</StiMultiListUI>
-    <StiMultiSelectUI>Odabirač koji se koristi za odabir više vrijednosti iz pripremljenog popisa.</StiMultiSelectUI>
-    <StiNumberBoxElement>Ovaj element se koristi za odabir numeričke vrijednosti ili raspona numeričkih vrijednosti.</StiNumberBoxElement>
-    <StiNumberInputUI>Numerički unos koji se koristi za unos brojčanih vrijednosti uz kontrolirani unos.</StiNumberInputUI>
-    <StiOnlineMapElement>Ovaj element se koristi za prikaz geografskih markera na online mapi.</StiOnlineMapElement>
-    <StiOverlayBand>Ova traka se koristi za prikaz vodenih žigova na stranici.</StiOverlayBand>
-    <StiPageFooterBand>Ova traka se koristi za prikaz informacija na dnu svake stranice. Ova traka se koristi za prikaz brojeva stranica, datuma, i drugih informacija.</StiPageFooterBand>
-    <StiPageHeaderBand>Ova traka se koristi za prikaz zaglavlja stranice. Prikazuje se na vrhu svake stranice. Ova traka se koristi za prikaz brojeva stranica, datuma, i drugih informacija.</StiPageHeaderBand>
-    <StiPanel>Ovo je pravokutno područe gdje se druge komponente, uključujući trake, mogu postaviti. Prilikom pomicanja panela, komponente u njemu će se također pomaknuti. Panel se može postaviti i na traku i na stranicu.</StiPanel>
-    <StiPanelElement>Pravokutna regija koja može sadržavati druge elemente. Kada se ploča pomakne, i elementi unutar nje se pomiču.</StiPanelElement>
-    <StiPanelUI>Panel koji se koristi za grupiranje i raspoređivanje drugih kontrola unutar jednog područja.</StiPanelUI>
-    <StiPdfDigitalSignature>Ova komponenta se koristi za određivanje mjesta za digitalni potpis nakon što je izvještaj export-iran u Adobe PDF.</StiPdfDigitalSignature>
-    <StiPdfDigitalSignatureElement>Ova komponenta se koristi za određivanje prostora za digitalni potpis i polja iz certifikata prilikom izvoza PDF-a.</StiPdfDigitalSignatureElement>
-    <StiPivotTableElement>Pivot tablica se koristi za prikaz strukturiranih podataka kao tablice.</StiPivotTableElement>
-    <StiProgressElement>Element prikazuje odnos između unešenih podataka. Može biti prikazan u različitim modovima - pita, krug, trake.</StiProgressElement>
-    <StiRadioGroupUI>Grupa izbornih gumba koja se koristi za odabir jedne opcije iz unaprijed definiranog skupa vrijednosti.</StiRadioGroupUI>
-    <StiRangeSelectorElement>Ova komponenta se koristi za odabir raspona vrijednosti na skali ili vremenskoj crti. Omogućuje korisnicima vizualno definiranje minimalnih i maksimalnih granica raspona.</StiRangeSelectorElement>
-    <StiRangeSliderUI>Klizač raspona koji se koristi za definiranje minimalnih i maksimalnih vrijednosti na skali.</StiRangeSliderUI>
-    <StiRectanglePrimitive>Ova komponenta se koristi za prikaz pravokutnika.</StiRectanglePrimitive>
-    <StiRegionMapElement>Ovaj element se koristi za prikaz podataka koji su geografski ciljani.</StiRegionMapElement>
-    <StiReportSummaryBand>Ova traka se koristi za prikaz sažetaka duž cijelog izvještaja. Prikazuje se jednom na kraju izvještaja.</StiReportSummaryBand>
-    <StiReportTitleBand>Ova traka se koristi za prikaz naslova izvještaja. Prikazuje se na početku izvještaja.</StiReportTitleBand>
-    <StiRichText>Ova komponenta se koristi za prikazivanje i uređivanje RTF teksta. Također podržava učitavanje i spremanje datoteka u RTF formatu.</StiRichText>
-    <StiRoundedRectanglePrimitive>Ova komponenta se koristi za prikaz pravokutnika.</StiRoundedRectanglePrimitive>
-    <StiScreen>Ekran koji sadrži kontrole, raspored i korisničke interakcije za stranicu aplikacije.</StiScreen>
-    <StiSelectUI>Okvir za odabir koji se koristi za odabir jedne vrijednosti iz padajućeg popisa.</StiSelectUI>
-    <StiShape>Ova komponenta se koristi za umetanje već postojećih oblika, kao što su strelice, dijagonalne linije, vodoravne linije, lijeve i desne linije, krugove, pravokutnike, zaobljene pravokutnike, gornje i donje linije, trokute, okomite linije.</StiShape>
-    <StiShapeElement>Ovaj element se koristi za umetanje oblika kao što su strelice, dijagonalne linije prema dolje, dijagonalne linije prema gore, horizontalne linije, lijeve i desne linije, oval, pravokutnik, gornje i donje linije, trokuta, vertikalne linije.</StiShapeElement>
-    <StiSignature>Ova komponenta se koristi za dodavanje elektronskog ili digitalnog potpisa u izvještaj.</StiSignature>
-    <StiSliderUI>Klizač koji se koristi za odabir vrijednosti na kontinuiranoj numeričkoj skali.</StiSliderUI>
-    <StiSparkline>Ova komponenta se koristi za kreiranje mikrografika u izvještaju. Omogućava vam praćenje dinamički mijenjajućih podataka kao traka, linija, područja.</StiSparkline>
-    <StiSubReport>Ova komponenta se koristi za prikaz dodatnih podataka na različitim mjestima u izvještaju.</StiSubReport>
-    <StiSwitchUI>Prekidač koji se koristi za uključivanje ili isključivanje postavke jednim klikom.</StiSwitchUI>
-    <StiTable>Ova komponenta predstavlja skup podatkovnih elemenata koje su organizirane koristeći model okomitih stupaca i vodoravnih redaka.</StiTable>
-    <StiTableElement>Ovaj element je grupa podatkovnih elemenata koja je organizirana u model vertikalnih kolona i horizontalnih redova.</StiTableElement>
-    <StiTableOfContents>Ova komponenata se koristi za kreiranje tablice sadržaja u izvještaju.</StiTableOfContents>
-    <StiTableUI>Tablica koja se koristi za jasni prikaz podataka u redovima i stupcima.</StiTableUI>
-    <StiText>Ova komponenta je osnovni objekt za prikaz teksta.</StiText>
-    <StiTextElement>Ovaj element je osnovni objekt za prikaz podataka u obliku teksta.</StiTextElement>
-    <StiTextInCells>Ova komponenta se koristi za prikaz teksta u ćelijama. Često se koristi za kreiranje formulara.</StiTextInCells>
-    <StiTextInputUI>Polje za unos teksta koje se koristi za unos i editiranje tekstualnih vrijednosti.</StiTextInputUI>
-    <StiTreeViewBoxElement>Ovaj element se koristi za odabir vrijednosti iz padajućeg popisa kao stablo.</StiTreeViewBoxElement>
-    <StiTreeViewElement>Predstavlja element koji se koristi za prikaz hijerarhijskih podataka kao stablo.</StiTreeViewElement>
-    <StiVerticalLinePrimitive>Ova komponenta se koristi za prikaz okomitih linija.</StiVerticalLinePrimitive>
-    <StiWebContentElement>Komponenta dozvoljava dodavanje web sadržaja nadzornim pločama.</StiWebContentElement>
-    <StiWinControl>Ova komponenta omogućava prikaz vizualnih kontrola iz .NET-a.</StiWinControl>
-    <StiZipCode>Ova komponenta se koristi za prikaz poštanskog broja.</StiZipCode>
+    <CategoryBands>Trake koje ispisuju zaglavlja, podatke i podnožja.</CategoryBands>
+    <CategoryComponents>Komponente koje prikazuju tekst, slike i druge podatke.</CategoryComponents>
+    <CategoryCrossBands>Trake koje se ispisuju slijeva nadesno.</CategoryCrossBands>
+    <StiBarCode>Prikazuje bar kod.</StiBarCode>
+    <StiButtonElement>Pokreće skriptu na klik.</StiButtonElement>
+    <StiButtonUI>Pokreće akciju ili naredbu.</StiButtonUI>
+    <StiCardsElement>Prikazuje grupirane podatke kao kartice.</StiCardsElement>
+    <StiChart>Prikazuje podatke kao grafikon.</StiChart>
+    <StiChartElement>Prikazuje podatke kao grafikon.</StiChartElement>
+    <StiCheckBox>Prikazuje vrijednost točno ili netočno kao kvačicu.</StiCheckBox>
+    <StiCheckBoxGroupUI>Nudi opcije za označavanje nekoliko njih.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>Uključuje ili isključuje jednu opciju.</StiCheckBoxUI>
+    <StiChildBand>Ispisuje još jednu traku za isti red podataka.</StiChildBand>
+    <StiClone>Ponavlja sadržaj ploče.</StiClone>
+    <StiColumnFooterBand>Ispisuje se ispod svakog stupca trake Podaci.</StiColumnFooterBand>
+    <StiColumnHeaderBand>Ispisuje se iznad svakog stupca trake Podaci.</StiColumnHeaderBand>
+    <StiComboBoxElement>Odabire vrijednost s padajućeg popisa.</StiComboBoxElement>
+    <StiContainer>Grupira druge komponente u jednom području.</StiContainer>
+    <StiCrossDataBand>Ispisuje se jednom za svaki red, slijeva nadesno.</StiCrossDataBand>
+    <StiCrossFooterBand>Ispisuje se nakon trake Cross-Data.</StiCrossFooterBand>
+    <StiCrossGroupFooterBand>Ispisuje se na kraju svake cross-grupe.</StiCrossGroupFooterBand>
+    <StiCrossGroupHeaderBand>Ispisuje se na početku svake cross-grupe.</StiCrossGroupHeaderBand>
+    <StiCrossHeaderBand>Ispisuje se prije trake Cross-Data.</StiCrossHeaderBand>
+    <StiCrossTab>Prikazuje strukturirane podatke kao unakrsnu tablicu.</StiCrossTab>
+    <StiDataBand>Ispisuje se jednom za svaki red izvora podataka.</StiDataBand>
+    <StiDatePickerElement>Odabire datum i vrijeme.</StiDatePickerElement>
+    <StiDatePickerUI>Prikazuje kalendar za odabir datuma.</StiDatePickerUI>
+    <StiElectronicSignature>Dodaje nacrtan, upisan ili slikovni potpis.</StiElectronicSignature>
+    <StiEmptyBand>Popunjava slobodan prostor na dnu stranice.</StiEmptyBand>
+    <StiFilterCategory>Elementi koji odabiru i filtriraju vrijednosti.</StiFilterCategory>
+    <StiFooterBand>Ispisuje se nakon redova trake Podaci.</StiFooterBand>
+    <StiGauge>Prikazuje vrijednost unutar raspona.</StiGauge>
+    <StiGaugeElement>Prikazuje vrijednost unutar raspona.</StiGaugeElement>
+    <StiGroupFooterBand>Ispisuje se na kraju svake grupe.</StiGroupFooterBand>
+    <StiGroupHeaderBand>Ispisuje se na početku svake grupe.</StiGroupHeaderBand>
+    <StiHeaderBand>Ispisuje se prije redova trake Podaci.</StiHeaderBand>
+    <StiHierarchicalBand>Ispisuje redove izvora podataka kao stablo.</StiHierarchicalBand>
+    <StiHorizontalLinePrimitive>Crta vodoravnu liniju.</StiHorizontalLinePrimitive>
+    <StiIconUI>Prikazuje ikonu.</StiIconUI>
+    <StiImage>Prikazuje sliku.</StiImage>
+    <StiImageElement>Prikazuje sliku.</StiImageElement>
+    <StiImageUI>Prikazuje sliku.</StiImageUI>
+    <StiIndicatorElement>Prikazuje razliku između vrijednosti.</StiIndicatorElement>
+    <StiLabelUI>Prikazuje kratak tekst.</StiLabelUI>
+    <StiListBoxElement>Odabire stavke s popisa.</StiListBoxElement>
+    <StiListUI>Prikazuje popis za odabir jedne stavke.</StiListUI>
+    <StiMap>Prikazuje podatke na karti.</StiMap>
+    <StiMapCategory>Elementi koji prikazuju podatke na karti.</StiMapCategory>
+    <StiMapElement>Prikazuje podatke na karti.</StiMapElement>
+    <StiMarkdown>Prikazuje Markdown tekst.</StiMarkdown>
+    <StiMathFormula>Prikazuje matematičku formulu.</StiMathFormula>
+    <StiMultiListUI>Prikazuje popis za odabir više stavki.</StiMultiListUI>
+    <StiMultiSelectUI>Prikazuje padajući popis za odabir više vrijednosti.</StiMultiSelectUI>
+    <StiNumberBoxElement>Odabire broj ili raspon brojeva.</StiNumberBoxElement>
+    <StiNumberInputUI>Prima broj od korisnika.</StiNumberInputUI>
+    <StiOnlineMapElement>Prikazuje markere na online karti.</StiOnlineMapElement>
+    <StiOverlayBand>Ispisuje vodeni žig na svakoj stranici.</StiOverlayBand>
+    <StiPageFooterBand>Ispisuje se na dnu svake stranice.</StiPageFooterBand>
+    <StiPageHeaderBand>Ispisuje se na vrhu svake stranice.</StiPageHeaderBand>
+    <StiPanel>Grupira druge komponente u jednom području.</StiPanel>
+    <StiPanelElement>Grupira druge elemente u jednom području.</StiPanelElement>
+    <StiPanelUI>Grupira druge kontrole u jednom području.</StiPanelUI>
+    <StiPdfDigitalSignature>Označava mjesto digitalnog potpisa u PDF-u.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>Označava mjesto digitalnog potpisa u PDF-u.</StiPdfDigitalSignatureElement>
+    <StiPivotTableElement>Prikazuje strukturirane podatke kao pivot tablicu.</StiPivotTableElement>
+    <StiProgressElement>Prikazuje vrijednost kao dio cjeline.</StiProgressElement>
+    <StiRadioGroupUI>Nudi opcije za odabir jedne od njih.</StiRadioGroupUI>
+    <StiRangeSelectorElement>Odabire raspon na skali ili vremenskoj crti.</StiRangeSelectorElement>
+    <StiRangeSliderUI>Postavlja raspon na skali.</StiRangeSliderUI>
+    <StiRectanglePrimitive>Crta pravokutnik.</StiRectanglePrimitive>
+    <StiRegionMapElement>Prikazuje podatke na karti regija.</StiRegionMapElement>
+    <StiReportSummaryBand>Ispisuje se jednom na kraju izvještaja.</StiReportSummaryBand>
+    <StiReportTitleBand>Ispisuje se jednom na početku izvještaja.</StiReportTitleBand>
+    <StiRichText>Prikazuje formatirani RTF tekst.</StiRichText>
+    <StiRoundedRectanglePrimitive>Crta zaobljeni pravokutnik.</StiRoundedRectanglePrimitive>
+    <StiScreen>Sadrži kontrole stranice aplikacije.</StiScreen>
+    <StiSelectUI>Prikazuje padajući popis za odabir jedne vrijednosti.</StiSelectUI>
+    <StiShape>Prikazuje gotov oblik.</StiShape>
+    <StiShapeElement>Prikazuje gotov oblik.</StiShapeElement>
+    <StiSignature>Dodaje elektronski ili digitalni potpis.</StiSignature>
+    <StiSliderUI>Postavlja vrijednost na skali.</StiSliderUI>
+    <StiSparkline>Prikazuje mali grafikon niza podataka.</StiSparkline>
+    <StiSubReport>Ispisuje drugi izvještaj ili stranicu na ovom mjestu.</StiSubReport>
+    <StiSwitchUI>Uključuje ili isključuje postavku.</StiSwitchUI>
+    <StiTable>Prikazuje podatke u redovima i stupcima.</StiTable>
+    <StiTableElement>Prikazuje podatke u redovima i stupcima.</StiTableElement>
+    <StiTableOfContents>Izrađuje tablicu sadržaja.</StiTableOfContents>
+    <StiTableUI>Prikazuje podatke u redovima i stupcima.</StiTableUI>
+    <StiText>Prikazuje podatke kao tekst.</StiText>
+    <StiTextElement>Prikazuje podatke kao tekst.</StiTextElement>
+    <StiTextInCells>Prikazuje tekst, po jedan znak u ćeliji.</StiTextInCells>
+    <StiTextInputUI>Prima tekst od korisnika.</StiTextInputUI>
+    <StiTreeViewBoxElement>Odabire vrijednosti iz padajućeg stabla.</StiTreeViewBoxElement>
+    <StiTreeViewElement>Prikazuje hijerarhijske podatke kao stablo.</StiTreeViewElement>
+    <StiVerticalLinePrimitive>Crta okomitu liniju.</StiVerticalLinePrimitive>
+    <StiWebContentElement>Prikazuje web sadržaj.</StiWebContentElement>
+    <StiWinControl>Prikazuje .NET vizualnu kontrolu.</StiWinControl>
+    <StiZipCode>Prikazuje ZIP kod.</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
     <ActiveRelation>Postavlja primarnu relaciju za povezivanje dvije tablice. Koristi se kod transformacije podataka i kod kontrolne ploče. Samo jedna relacija u svakom izvoru podataka može biti aktivna.</ActiveRelation>
-    <Align>Promijeni lokaciju odabranih komponenata.</Align>
-    <AlignBottom>Poredaj sadržaj komponente na dno.</AlignBottom>
-    <AlignCenter>Poredaj sadržaj komponente u sredinu.</AlignCenter>
+    <Align>Poravnaj odabrane komponente.</Align>
+    <AlignBottom>Poravnaj sadržaj uz dno.</AlignBottom>
+    <AlignCenter>Centriraj sadržaj.</AlignCenter>
     <AlignComponentBottom>Omogućava vam da poredate objekte vodoravno uzduž donjeg ruba odabranih komponenata.</AlignComponentBottom>
     <AlignComponentCenter>Omogućava vam da poredate objekte vodoravno uzduž srednjeg ruba odabranih komponenata.</AlignComponentCenter>
     <AlignComponentLeft>Omogućava vam da poredate objekte vodoravno uzduž lijevog ruba odabranih komponenata.</AlignComponentLeft>
     <AlignComponentMiddle>Omogućava vam da poredate objekte vodoravno uzduž srednjeg ruba odabranih komponenata.</AlignComponentMiddle>
     <AlignComponentRight>Omogućava vam da poredate objekte vodoravno uzduž desnog ruba odabranih komponenata.</AlignComponentRight>
     <AlignComponentTop>Omogućava vam da poredate objekte vodoravno uzduž gornjeg ruba odabranih komponenata.</AlignComponentTop>
-    <AlignLeft>Poredaj sadržaj komponente na lijevo.</AlignLeft>
-    <AlignMiddle>Centriraj sadržaj po gornjem i donjem obrubu komponente.</AlignMiddle>
-    <AlignRight>Poravnaj sadržaj komponente na desno.</AlignRight>
-    <AlignToGrid>Poravnaj odabrane komponente sa rešetkom.</AlignToGrid>
-    <AlignTop>Poravnaj sadržaj komponente sa gornjim obrubom.</AlignTop>
-    <AlignWidth>Poravnaj sadržaj komponente.</AlignWidth>
-    <Angle>Rotiraj sadržaj komponente.</Angle>
+    <AlignLeft>Poravnaj sadržaj ulijevo.</AlignLeft>
+    <AlignMiddle>Poravnaj sadržaj po sredini.</AlignMiddle>
+    <AlignRight>Poravnaj sadržaj udesno.</AlignRight>
+    <AlignToGrid>Poravnaj odabrane komponente po mreži.</AlignToGrid>
+    <AlignTop>Poravnaj sadržaj uz vrh.</AlignTop>
+    <AlignWidth>Poravnaj sadržaj obostrano.</AlignWidth>
+    <Angle>Rotiraj tekst.</Angle>
     <AngleWatermark>Kut rotacije teksta vodenog žiga.</AngleWatermark>
-    <Background>Promijeni pozadinu odabrane komponente.</Background>
-    <biConditions>Kontroliraj popis uvjeta odabranih komponenata.</biConditions>
-    <BorderColor>Odaberi boju obruba odabrane komponente.</BorderColor>
-    <BorderSidesAll>Upali sve obrube odabranih komponenata.</BorderSidesAll>
-    <BorderSidesBottom>Upali donji obrub odabranih komponenata.</BorderSidesBottom>
-    <BorderSidesLeft>Upali lijevi obrub odabranih komponenata.</BorderSidesLeft>
-    <BorderSidesNone>Ugasi sve obrube odabranih komponenata.</BorderSidesNone>
-    <BorderSidesRight>Upali desni obrub odabranih komponenata.</BorderSidesRight>
-    <BorderSidesTop>Upali gornji obrub odabranih komponenata.</BorderSidesTop>
-    <BorderStyle>Odaberi stil obruba odabranih komponenata.</BorderStyle>
-    <BringToFront>Premjesti naprijed odabranu komponentu.</BringToFront>
+    <Background>Promijeni pozadinu.</Background>
+    <biConditions>Uredi uvjete.</biConditions>
+    <BorderColor>Promijeni boju obruba.</BorderColor>
+    <BorderSidesAll>Prikaži sve obrube.</BorderSidesAll>
+    <BorderSidesBottom>Prikaži ili sakrij donji obrub.</BorderSidesBottom>
+    <BorderSidesLeft>Prikaži ili sakrij lijevi obrub.</BorderSidesLeft>
+    <BorderSidesNone>Sakrij sve obrube.</BorderSidesNone>
+    <BorderSidesRight>Prikaži ili sakrij desni obrub.</BorderSidesRight>
+    <BorderSidesTop>Prikaži ili sakrij gornji obrub.</BorderSidesTop>
+    <BorderStyle>Promijeni stil obruba.</BorderStyle>
+    <BringToFront>Premjesti u prvi plan.</BringToFront>
     <CenterHorizontally>Omogućava da se vodoravno poravna komponenta u ovisnosti sa rubovima container-a u koji je smještena.</CenterHorizontally>
     <CenterVertically>Omogućava da se okomito poravna komponenta u ovisnosti sa rubovima container-a u koji je smještena.</CenterVertically>
     <Close>Zatvori dizajner izvještaja.</Close>
@@ -2191,14 +2194,14 @@
     <CompilationAccessTitle>Dokument koristi kompilaciju</CompilationAccessTitle>
     <CompilationModeEnabling>Prebacujete se na kompilacijski način. Ovaj način dopušta pokretanje različitog koda i ponekad može biti štetan. Molimo, koristite ovaj način samo ako razumijete sve rizike i slažete sa sa njima. Kliknite na gumb {0} da bi nastavili.</CompilationModeEnabling>
     <ComponentSize>Promijeni veličinu odabranih komponenata.</ComponentSize>
-    <ComponentsMenu>Otvara izbornik Komponente koji sadrži nekorištene elemente nadzorne ploče na mobilnoj povrsšini.</ComponentsMenu>
-    <CopyStyle>Stil kopiranja</CopyStyle>
+    <ComponentsMenu>Prikaži nekorištene elemente.</ComponentsMenu>
+    <CopyStyle>Kopiraj stil na druge komponente.</CopyStyle>
     <CopyToClipboard>Kopiraj u međuspremnik</CopyToClipboard>
     <CurrencySymbol>Odaberi simbol valute.</CurrencySymbol>
     <DashboardNew>Kreiraj novi dashboard.</DashboardNew>
     <DataStore>Prikaži registrirane podatke u izještaju.</DataStore>
-    <DateTimeFormat>Odaberi format datuma i vremena za odabrane komponente.</DateTimeFormat>
-    <DockingPanels>Postavke panela.</DockingPanels>
+    <DateTimeFormat>Odaberi format datuma i vremena.</DateTimeFormat>
+    <DockingPanels>Prikaži ili sakrij ploče.</DockingPanels>
     <DockStyleBottom>Spoji odabrane komponente na donju stranicu.</DockStyleBottom>
     <DockStyleFill>Spoji odabrane komponente na sve stranice.</DockStyleFill>
     <DockStyleLeft>Spoji odabrane komponente na lijevu stranicu.</DockStyleLeft>
@@ -2207,17 +2210,17 @@
     <DockStyleTop>Spoji odabrane komponente na gornju stranicu.</DockStyleTop>
     <EventsAccess1>Ovaj dokument koristi event-e. Ako je dokument iz pouzdanog izvora, možete kliknuti na "Otvori" gumb da bi mu pristupili.</EventsAccess1>
     <EventsAccess2>Ako niste sigurni za izvor ovog dokumenta ali ga svejedno želite pregledati, možete kliknuti na gumb "Otvori u sigurnom načinu". U tom slučaju, event-i će biti ignorirani i neće biti izvršeni.</EventsAccess2>
-    <FontGrow>Povećaj veličinu teksta.</FontGrow>
-    <FontName>Font teksta.</FontName>
+    <FontGrow>Povećaj tekst.</FontGrow>
+    <FontName>Promijeni font teksta.</FontName>
     <FontNameWatermark>Font teksta vodenog žiga.</FontNameWatermark>
-    <FontShrink>Smanji veličinu teksta.</FontShrink>
-    <FontSize>Veličina fonta.</FontSize>
+    <FontShrink>Smanji tekst.</FontShrink>
+    <FontSize>Promijeni veličinu teksta.</FontSize>
     <FontSizeWatermark>Promijeni veličinu fonta.</FontSizeWatermark>
     <FontStyleBold>Podebljaj tekst.</FontStyleBold>
     <FontStyleBoldWatermark>Podebljaj tekst vodenog žiga.</FontStyleBoldWatermark>
-    <FontStyleItalic>Kurziv tekst.</FontStyleItalic>
+    <FontStyleItalic>Ukosi tekst.</FontStyleItalic>
     <FontStyleItalicWatermark>Kurziv tekst vodenog žiga.</FontStyleItalicWatermark>
-    <FontStyleStrikeout>Učinite tekst precrtanim.</FontStyleStrikeout>
+    <FontStyleStrikeout>Precrtaj tekst.</FontStyleStrikeout>
     <FontStyleUnderline>Podcrtaj tekst.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Podcrtaj tekst vodenog žiga.</FontStyleUnderlineWatermark>
     <FormatBoolean>Ovaj format se koristi za oblikovanje vrijednosti tipa boolean.</FormatBoolean>
@@ -2229,61 +2232,61 @@
     <FormatPercentage>Prikaži vrijednost kao postotak. Brojevi su množeni sa 100 kako bi se prikazali kao postotak.</FormatPercentage>
     <FormatTime>Prikaži vrijednost kao vrijeme. Format vremena je baziran na regionalnim postavkama vremena.</FormatTime>
     <FormNew>kreiraj novu formu dijaloga.</FormNew>
-    <GridMode>Prikaži mrežu kao linije ili točkice.</GridMode>
+    <GridMode>Prikaži mrežu kao linije ili točke.</GridMode>
     <ImageAlignment>Stavi sliku vodenog žiga na stranicu.</ImageAlignment>
     <ImageTransparency>Promijeni prozirnost slike vodenog žiga.</ImageTransparency>
-    <Interaction>Kontroliraj interakciju odabranih komponenata.</Interaction>
-    <LineSpacing>Odaberite koliko prostora želite da bude između dvije linije teksta ili između odlomaka.</LineSpacing>
-    <Link>Poveži komponentu sa trenutnim container-om.</Link>
+    <Interaction>Podesi interakciju.</Interaction>
+    <LineSpacing>Promijeni razmak linija.</LineSpacing>
+    <Link>Poveži sa spremnikom.</Link>
     <LoadImage>Učitaj slike vodenog žiga iz datoteka.</LoadImage>
-    <Lock>Zaključaj komponentu. Komponenta se ne može micati ili mijenjati veličinu.</Lock>
-    <MainMenu>Klikni ovdje za listu mogućih operacija nad izvještajem, uključujući otvaranje, zatvaranje i pretpregled.</MainMenu>
+    <Lock>Zaključaj položaj i veličinu.</Lock>
+    <MainMenu>Stvori, otvori ili spremi izvještaj.</MainMenu>
     <MakeHorizontalSpacingEqual>Omogućava postavljanje jednakog vodoravnog razmaka između odabranih komponenti.</MakeHorizontalSpacingEqual>
     <MakeVerticalSpacingEqual>Omogućava postavljanje jednakog okomitog razmaka između odabranih komponenti.</MakeVerticalSpacingEqual>
-    <Margins>Odaberi margine trenutne stranice.</Margins>
+    <Margins>Odaberi margine stranice.</Margins>
     <menuCheckIssues>Prođi kroz izvještaj da nađeš greške, upozorenja i dobiješ preporuke.</menuCheckIssues>
     <menuDesignerOptions>Setup report designer options.</menuDesignerOptions>
     <menuEditClearContents>Očisti sadržaj.</menuEditClearContents>
-    <menuEditCopy>Kopiraj odabrane komponente u Clipboard.</menuEditCopy>
-    <menuEditCut>Izreži odabrane komponente iz izvještaja u Clipboard.</menuEditCut>
-    <menuEditDelete>Izbriši odabrane komponente.</menuEditDelete>
-    <menuEditPaste>Zalijepi sadržaj Clipboard-a u izvještaj.</menuEditPaste>
-    <menuExportSettings>Otvara uređivač postavki izvoza za trenutni izvještaj ili nadzornu ploču. Postavke se primjenjuju samo prilikom izvoza trenutnog izvještaja ili nadzorne ploče.</menuExportSettings>
+    <menuEditCopy>Kopiraj odabrane komponente.</menuEditCopy>
+    <menuEditCut>Izreži odabrane komponente.</menuEditCut>
+    <menuEditDelete>Obriši odabrane komponente.</menuEditDelete>
+    <menuEditPaste>Zalijepi iz međuspremnika.</menuEditPaste>
+    <menuExportSettings>Izmijeni postavke izvoza.</menuExportSettings>
     <menuFAQPage>Idi na web stranicu sa često ponavljanim pitanjima.</menuFAQPage>
-    <menuGlobalizationStrings>Pozovi Globalization Strings uređivač aktivnog izvještaja.</menuGlobalizationStrings>
+    <menuGlobalizationStrings>Uredi globalizacijske stringove.</menuGlobalizationStrings>
     <menuHelpAboutProgramm>Dohvati informacije o verziji generatora izvještaja i verziji .NET-a.</menuHelpAboutProgramm>
     <menuHomePage>Idi na početnu stranicu proizvoda.</menuHomePage>
     <menuPageOptions>Postavi osnovne parametre trenutne stranice. Sve opcije stranice mogu se promijeniti koristeći Property panel.</menuPageOptions>
     <menuPagesManager>Pokreni Pages Manager. Omogućuje micanje, brisanje i kreiranje novih stranica.</menuPagesManager>
-    <menuPreviewSettings>Pokreni uređivač postavki pretpregleda trenutnog izvještaja. Postavke će se primijeniti samo kod pregledavanja izvještaja.</menuPreviewSettings>
+    <menuPreviewSettings>Izmijeni postavke pretpregleda.</menuPreviewSettings>
     <menuPrint>Odaberi pisač, broj kopija i druge opcije ispisa prije ispisa.</menuPrint>
     <menuPrintPreview>Pregledaj izvještaj prije ispisa.</menuPrintPreview>
     <menuPrintQuick>Ispiši izvještaj direktno na zadani pisač. Dijaloški okvir za ispis nije prikazan.</menuPrintQuick>
-    <menuReportOptions>Postavi osnovne postavke izvještaja. Sve opcije se mogu promijeniti korištenjem Property panela.</menuReportOptions>
+    <menuReportOptions>Izmijeni opcije izvještaja.</menuReportOptions>
     <menuStyleDesigner>Pokreni Style Designer trenutnog izvještaja.</menuStyleDesigner>
     <menuSupport>Idi na stranicu za podršku kako bi postavio pitanje.</menuSupport>
-    <menuViewAlignToGrid>Poravnaj komponente sa rešetkom.</menuViewAlignToGrid>
+    <menuViewAlignToGrid>Poravnaj komponente po mreži.</menuViewAlignToGrid>
     <menuViewNormal>Običan pogled stranice.</menuViewNormal>
     <menuViewPageBreakPreview>Način prikaza stranice sa obrubima segmenata.</menuViewPageBreakPreview>
-    <menuViewQuickInfo>Prikaži brze informacije o komponentama: naziv komponente, alias, sadržaj, događaje etc.</menuViewQuickInfo>
-    <menuViewShowGrid>Uključi linije rešetke po kojima se mogu poravnati objekti u izvještaju.</menuViewShowGrid>
+    <menuViewQuickInfo>Prikaži brze informacije o komponentama.</menuViewQuickInfo>
+    <menuViewShowGrid>Prikaži mrežu.</menuViewShowGrid>
     <menuViewShowHeaders>Prikaži zaglavlja traka.</menuViewShowHeaders>
-    <menuViewShowOrder>Prikaži poredak komponenata na stranici.</menuViewShowOrder>
-    <menuViewShowRulers>Prikaži ravnala, koja se koriste za mjerenje i poredavanje objekata na stranici.</menuViewShowRulers>
-    <menuViewShowSmartGuides>Prikaži pametne smjernice za pozicioniranje komponenti ovisno jedna o drugoj.</menuViewShowSmartGuides>
-    <MoveBackward>Pomakni komponentu za jedan nivo više u redoslijedu postavljanja komponenata na stranicu.</MoveBackward>
-    <MoveForward>Pomakni komponentu za jedan nivo niže u redoslijedu postavljanja komponenata na stranicu.</MoveForward>
+    <menuViewShowOrder>Prikaži poredak komponenata.</menuViewShowOrder>
+    <menuViewShowRulers>Prikaži ravnala.</menuViewShowRulers>
+    <menuViewShowSmartGuides>Prikaži pametne smjernice.</menuViewShowSmartGuides>
+    <MoveBackward>Premjesti za jedan nivo unazad.</MoveBackward>
+    <MoveForward>Premjesti za jedan nivo naprijed.</MoveForward>
     <NotPossibleEnableCompilationMode>Nije moguće omogućiti kompilacijski mod za izvještaj. To je zabranjeno opcijom 'Pristup kompilaciji' u postavkama dizajnera.</NotPossibleEnableCompilationMode>
-    <Orientation>Zamijeni stranice između portret i album načina prikaza.</Orientation>
+    <Orientation>Prebaci između portreta i pejzaža.</Orientation>
     <PageDelete>Obriši trenutnu stranicu iz izvještaja.</PageDelete>
     <PageNew>Kreiraj novu stranicu.</PageNew>
-    <PageSetup>Prikaži dijalog za postavljanje stranice.</PageSetup>
-    <PageSize>Odaberi veličinu papira za trenutnu stranicu u izvještaju.</PageSize>
+    <PageSetup>Izmijeni postavke stranice.</PageSetup>
+    <PageSize>Odaberi veličinu papira.</PageSize>
     <PagesManager>Pokreni Pages Manager.</PagesManager>
     <PressF1>Pritisnite F1 za više detalja</PressF1>
-    <PropertiesButton>Aktivira panel Svojstva s postavkama predloška izvještaja.</PropertiesButton>
+    <PropertiesButton>Prikaži svojstva izvještaja.</PropertiesButton>
     <Redo>Ponovi prethodno otkazanu promjenu u izvještaju.</Redo>
-    <RemoveMobileSurfaceButton>Uklanja mobilnu površinu sa trenutne nadzorne ploče.</RemoveMobileSurfaceButton>
+    <RemoveMobileSurfaceButton>Ukloni mobilnu površinu.</RemoveMobileSurfaceButton>
     <ReportNew>Kreiraj novi izvještaj.</ReportNew>
     <ReportOpen>Otvori izvještaj u designer-u.</ReportOpen>
     <ReportPreview>Pregledaj izmijenjeni izvještaj u pregledniku.</ReportPreview>
@@ -2295,46 +2298,47 @@
     <ScriptSecuritySafeMode>Siguran pristup skripti (ograničene mogućnosti radi sigurnosti).</ScriptSecuritySafeMode>
     <SelectAll>Odaberi sve komponente na trenutnoj stranici.</SelectAll>
     <SelectUILanguage>Odaberi UI jezik.</SelectUILanguage>
-    <SendToBack>Pomakni odabranu komponentu unazad u odnosu na ostale komponente.</SendToBack>
+    <SendToBack>Premjesti u pozadinu.</SendToBack>
     <ServicesConfigurator>Pokreni Services Configurator.</ServicesConfigurator>
-    <Shadow>Prikaži sjenu komponente.</Shadow>
+    <Shadow>Prikaži ili sakrij sjenu.</Shadow>
     <ShowBehind>Prikaži tekst vodenog žiga iza komponenata.</ShowBehind>
     <ShowImageBehind>Stavi sliku vodenog žiga iza svih komponenata na stranici.</ShowImageBehind>
     <ShowToolbox>Prikaži toolbox.</ShowToolbox>
     <StimulsoftHelp>Pomoć Stimulsoft</StimulsoftHelp>
-    <StyleDesigner>Pokreni Style Designer.</StyleDesigner>
+    <StyleDesigner>Otvori Dizajner stilova.</StyleDesigner>
     <TellMeMore>Reci mi više</TellMeMore>
     <Text>Tekst vodenog žiga.</Text>
     <TextBrush>Promijeni boju teksta.</TextBrush>
     <TextBrushWatermark>Promijeni boju teksta vodenog žiga.</TextBrushWatermark>
     <TextColor>Promijeni boju teksta.</TextColor>
-    <TextFormat>Odaberi oblikovanje vrijednosti.</TextFormat>
+    <TextFormat>Odaberi format vrijednosti.</TextFormat>
     <ToolbarStyle>Postavi odabrani stil za sve komponente.</ToolbarStyle>
     <Undo>Poništi zadnju izmjenu u izvještaju.</Undo>
-    <ViewModeDesktopButton>Aktiviraj radnu površinu.</ViewModeDesktopButton>
-    <ViewModeMobileButton>Aktiviraj mobilnu površinu.</ViewModeMobileButton>
-    <WordWrap>Omotaj tekst komponente.</WordWrap>
+    <ViewModeDesktopButton>Prikaži radnu površinu.</ViewModeDesktopButton>
+    <ViewModeMobileButton>Prikaži mobilnu površinu.</ViewModeMobileButton>
+    <Watermark>Izmijeni postavke vodenog žiga.</Watermark>
+    <WordWrap>Prelomi tekst.</WordWrap>
     <Zoom>Odredi nivo zumiranja izvještaja.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
-    <StiButtonControl>Predstavlja Button kontrolu.</StiButtonControl>
-    <StiCheckBoxControl>Predstavlja Flag kontrolu.</StiCheckBoxControl>
-    <StiCheckedListBoxControl>Shows the List object, in what a flag on the left is shown for each elements.</StiCheckedListBoxControl>
-    <StiComboBoxControl>Predstavlja ComboBox koji se koristi da se upiše vrijednost direktno u kontrolu ili da se odabere iz postojeće liste.</StiComboBoxControl>
-    <StiDateTimePickerControl>Predstavlja kontrolu koja omogućava odabir datuma i vremena. Također omogućava prikaz datuma i vremena u određenom formatu.</StiDateTimePickerControl>
-    <StiGridControl>Predstavlja Grid kontrolu koja se sastoji od redaka i stupaca.</StiGridControl>
-    <StiGroupBoxControl>Predstavlja kontrolu koja kreira container sa obrubima i zaglavljima za UI sadržaj.</StiGroupBoxControl>
-    <StiLabelControl>Label je UI kontrola koja prikazuje tekst na formi. To je statička kontrola koja ne sadrži interaktivnost.</StiLabelControl>
-    <StiListBoxControl>Sadrži listu elemenata za odabir.</StiListBoxControl>
-    <StiListViewControl>Predstavlja ListView kontrolu koja prikazuje listu podatkovnih elemenata.</StiListViewControl>
-    <StiLookUpBoxControl>Sadrži listu elemenata za odabir.</StiLookUpBoxControl>
-    <StiNumericUpDownControl>Predstavlja kontrolu koja prikazuje numeričke vrijednosti.</StiNumericUpDownControl>
-    <StiPanelControl>Panel elementi se koriste za smještanje i razmještaj objekata.</StiPanelControl>
-    <StiPictureBoxControl>Predstavlja kontrolu za prikaz slike.</StiPictureBoxControl>
-    <StiRadioButtonControl>Predstavlja Radio button kontrolu koja omogućava korisniku da odabere samo jednu od više predefiniranih opcija. </StiRadioButtonControl>
-    <StiRichTextBoxControl>Predstavlja RichText kontrolu sa proširenim mogućnostima editiranja.</StiRichTextBoxControl>
-    <StiTextBoxControl>Predstavlja Text kontrolu koja se koristi za prikaz ili editiranje teksta.</StiTextBoxControl>
-    <StiTreeViewControl>Predstavlja kontrolu koja se koristi za prikaz hijerarhijskih podataka u obliku drveta.</StiTreeViewControl>
+    <StiButtonControl>Pokreće akciju na klik.</StiButtonControl>
+    <StiCheckBoxControl>Uključuje ili isključuje jednu opciju.</StiCheckBoxControl>
+    <StiCheckedListBoxControl>Prikazuje popis stavki s potvrdnim okvirima.</StiCheckedListBoxControl>
+    <StiComboBoxControl>Prikazuje padajući popis za odabir ili unos vrijednosti.</StiComboBoxControl>
+    <StiDateTimePickerControl>Prikazuje kalendar za odabir datuma i vremena.</StiDateTimePickerControl>
+    <StiGridControl>Prikazuje podatke u redovima i stupcima.</StiGridControl>
+    <StiGroupBoxControl>Grupira kontrole u okviru s naslovom.</StiGroupBoxControl>
+    <StiLabelControl>Prikazuje tekst na formi.</StiLabelControl>
+    <StiListBoxControl>Prikazuje popis za odabir stavki.</StiListBoxControl>
+    <StiListViewControl>Prikazuje popis stavki s podacima.</StiListViewControl>
+    <StiLookUpBoxControl>Prikazuje padajući popis za odabir stavke.</StiLookUpBoxControl>
+    <StiNumericUpDownControl>Prima broj, s gumbima za njegovu promjenu.</StiNumericUpDownControl>
+    <StiPanelControl>Grupira druge kontrole u jednom području.</StiPanelControl>
+    <StiPictureBoxControl>Prikazuje sliku.</StiPictureBoxControl>
+    <StiRadioButtonControl>Odabire jednu opciju iz grupe.</StiRadioButtonControl>
+    <StiRichTextBoxControl>Prikazuje i uređuje formatirani tekst.</StiRichTextBoxControl>
+    <StiTextBoxControl>Prikazuje i uređuje tekst.</StiTextBoxControl>
+    <StiTreeViewControl>Prikazuje hijerarhijske podatke kao stablo.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
     <AddPageBreaks>Vizualni razdjelnik stranica izvještaja.</AddPageBreaks>

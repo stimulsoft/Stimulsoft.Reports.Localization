@@ -1310,76 +1310,134 @@
     <sys_morebuttons>Botoi gehiago</sys_morebuttons>
   </Gui>
   <HelpComponents>
-    <StiBarCode>Osagai honek aukera ematen du txostenean barra-kodeak erakusteko. Barra-kodearen datuak kate batean hornitzen dira. Kateak edozein sinbolo izan dezake, baina soilik baimendutako sinboloak erakutsiko dira.</StiBarCode>
-    <StiChart>Osagai honek aukera ematen du txostenean grafiko bat erakusteko. Hainbat grafiko mota daude, besteak beste: barra-grafikoak, lerro-grafikoak, tarta, donuta, azalera-grafikoak, Gantt, sakabanaketa-grafikoak, etab. </StiChart>
-    <StiCheckBox>Osagai honek aukera ematen du txostenean egiaztatze-kutxa bat erakusteko. Bi egoera erakusteko aukera dago, "aukeratua" eta "ez aukeratua".</StiCheckBox>
-    <StiChildBand>Haur-banda batek aukera ematen du lerro bakar batean irteerako bi banda erakusteko.</StiChildBand>
-    <StiClone>Txosten baten zatiak txostenaren beste leku batzuetara klonatzeko erabiltzen da osagai hau. Klonazioa panel baten edukiari baino ez zaio aplikatzen.</StiClone>
-    <StiColumnFooterBand>Datu-bandako zutabeen oinetako edukia erakusteko erabiltzen da banda hau. ColumnFooter banda zutabe bakoitzeko behin inprimatzen da. Banda honetan kokatutako osagai guztiak zutabe bakoitzaren azpian erakutsiko dira.</StiColumnFooterBand>
-    <StiColumnHeaderBand>Zutabeen goiburuetako edukia erakusteko erabiltzen da banda hau. ColumnHeader banda behin inprimatzen da. Banda honetan kokatutako osagai guztiak zutabe bakoitzaren azpian erakutsiko dira.</StiColumnHeaderBand>
-    <StiContainer>Eremu laukizuzen bat adierazten du eta bertan beste osagai batzuk jar daitezke, bandak barne direla. Edukitzailea mugitzean, barneko eduki guztia ere mugitu egingo da. Edukitzailea banda batean edo orrialde batean jar daiteke.</StiContainer>
-    <StiCrossDataBand>Banda hau datu-iturri batera konektatzen da. Datu-iturrian zenbat ilara dauden, beste horrenbeste aldiz inprimatuko da. Banda gurutzatuak ezkerretik eskuinera inprimatzen dira.</StiCrossDataBand>
-    <StiCrossFooterBand>Banda hau banda gurutzatu bateko oinak inprimatzeko erabiltzen da. Banda behin inprimatzen da, datu-bandaren ilara guztien ondoren. Banda gurutzatuak ezkerretik eskuinera inprimatzen dira.</StiCrossFooterBand>
-    <StiCrossGroupFooterBand>Banda hau taldeen oinak inprimatzeko erabiltzen da. Datu gurutzatuen bandaren azpian jartzen da. CrossFooter bakoitza CrossHeader banda espezifiko batekoa da. Banda gurutzatuak ezkerretik eskuinera inprimatzen dira.</StiCrossGroupFooterBand>
-    <StiCrossGroupHeaderBand>Datu Gurutzatuak erabiltzen direnean multzokatzeak erakusteko erabiltzen da banda hau. Ezin da multzorik sortu banda hau gabe. Taldekako informazioa erakusteko erabili diren osagaiak goiburu honetan jartzen dira. Izenaren, dataren edo bestelako edozein baldintzaren arabera egin daitezke multzoak. Talde bakoitzaren hasieran inprimatzen da banda. Banda gurutzatuak ezkerretik eskuinera inprimatzen dira.</StiCrossGroupHeaderBand>
-    <StiCrossHeaderBand>Banda hau goiburuak inprimatzeko erabiltzen da. Banda Gurutzatu batekin batera erabiltzen da. Banda gurutzatuak ezkerretik eskuinera inprimatzen dira.</StiCrossHeaderBand>
-    <StiCrossTab>Taula-gurutzatuaren osagaia taula batean adierazitako datu egituratuekin erabiltzen da.</StiCrossTab>
-    <StiDataBand>Datu-banda datu-iturri bati konektatzen zaio. Datu-iturrian zenbat ilara dauden, beste horrenbeste aldiz inprimatuko da...</StiDataBand>
-    <StiEmptyBand>Orrialdearen oineko espazio librea betetzeko erabiltzen da banda hau. Txostenaren orrialde guztietako espazio librea beteko du.</StiEmptyBand>
-    <StiFooterBand>Datu-bandaren aurkibide bat inprimatzeko erabiltzen da banda hau. Datu-bandaren azpian jartzen da eta behin baino ez da inprimatuko, datu-ilara guztiak inprimatu ondoren.</StiFooterBand>
-    <StiGroupFooterBand>GroupFooter banda talde baten oina inprimatzeko erabiltzen da. Datu-bandaren ondoren jartzen da, eta GroupHeader bandak lotzen dituen datu berberekin egon behar du lotuta. GroupFooter banda bakoitza zehaztutako GroupHeader-ekoa da. GroupFooter banda ez da inprimatuko GroupHeader bandarik gabe.</StiGroupFooterBand>
-    <StiGroupHeaderBand>Banda hau multzoak erakusteko erabiltzen da. Talde honetarako informazioa erakusteko osagaiak taldearen goiburuan jartzen dira. Izenaren, dataren edo beste edozein baldintzaren arabera egin daitezke multzoak. Talde bakoitzaren hasieran inprimatzen da banda.</StiGroupHeaderBand>
-    <StiHeaderBand>Banda hau goiburuak erakusteko erabiltzen da. Datu-banda batekin batera erabiltzen da.</StiHeaderBand>
-    <StiHierarchicalBand>Banda hau datu-iturri batekin konektatuta dago, eta datu-iturrian zenbat ilara dauden, beste horrenbeste aldiz inprimatuko da. Datuak zuhaitz modura erakutsiko dira.</StiHierarchicalBand>
-    <StiHorizontalLinePrimitive>Osagai hau lerro bat erakusteko erabiltzen da.</StiHorizontalLinePrimitive>
-    <StiImage>Osagai hau irudiak erakusteko erabiltzen da. Honako formatu grafiko hauek eutsi ditzake: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
-    <StiOverlayBand>Orrialde batean filigranak erakusteko erabiltzen da banda hau.</StiOverlayBand>
-    <StiPageFooterBand>Orrialde bakoitzaren oinean informazioa ateratzeko erabiltzen da banda hau. Orrialdearen zenbakia, datak eta bestelako datu osagarriak erakusteko erabiltzen da.</StiPageFooterBand>
-    <StiPageHeaderBand>Orrialde bakoitzerako goiburuko informazioa ateratzeko erabiltzen da banda hau. Txostenaren orrialde guztietan erakutsiko du informazioa. Orrialdearen zenbakia, datak eta bestelako datu osagarriak erakusteko erabiltzen da.</StiPageHeaderBand>
-    <StiPanel>Eremu laukizuzen bat adierazten du eta bertan beste osagai batzuk jar daitezke, bandak barne direla. Edukitzailea mugitzean, barneko eduki guztia ere mugitu egingo da. Edukitzailea banda batean edo orrialde batean jar daiteke.</StiPanel>
-    <StiRectanglePrimitive>Osagai hau laukizuzenak inprimatzeko erabiltzen da.</StiRectanglePrimitive>
-    <StiReportSummaryBand>Txosten osoan zehar aurkibideak inprimatzeko erabiltzen da banda hau. Behin baino ez da inprimatzen, txostenaren amaieran.</StiReportSummaryBand>
-    <StiReportTitleBand>Txostenaren izenburua inprimatzeko erabiltzen da banda hau. Txostenaren hasieran baino ez da inprimatzen.</StiReportTitleBand>
-    <StiRichText>Testu aberastua (RTF) inprimatzeko eta editatzeko erabiltzen da osagai hau. RTF formatuko fitxategiak kargatzeko eta gordetzeko aukera ere jasaten du.</StiRichText>
-    <StiRoundedRectanglePrimitive>Ertz borobilduak dituzten laukizuzenak inprimatzeko erabiltzen da osagai hau.</StiRoundedRectanglePrimitive>
-    <StiShape>Osagai hau aurrez zehaztutako formak txertatzeko erabiltzen da, adibidez: geziak, lerro diagonalak, lerro horizontalak, ezkerretik eskuinerako lerroak, obaloak, laukizuzenak, ertz borobilduak dituzten laukizuzenak, goitik beherako lerroak, triangeluak eta lerro bertikalak.</StiShape>
-    <StiSubReport>Txostenaren leku batean eta bestean datu osagarriak erakusteko erabiltzen da osagai hau.</StiSubReport>
-    <StiTable>Zutabe bertikalen eta ilara horizontalen eredu bat erabiliz antolatutako datuen elementu multzo bat adierazten du osagai honek.</StiTable>
-    <StiText>Datuak testu gisa erakusteko oinarrizko objektua da osagai hau.</StiText>
-    <StiTextInCells>Testua gelaxkatan erakusteko erabiltzen da osagai hau. Sarritan inprimakiak sortzeko erabiltzen da.</StiTextInCells>
-    <StiVerticalLinePrimitive>Lerro bertikalak erakusteko erabiltzen da osagai hau.</StiVerticalLinePrimitive>
-    <StiWinControl>.Net inguruneko kontrolak bistaratzeko aukera ematen du osagai honek.</StiWinControl>
-    <StiZipCode>Posta-kode bat (ZIP) erakusteko erabiltzen da osagai hau.</StiZipCode>
+    <CategoryBands>Goiburuak, datuak eta oinak inprimatzeko bandak.</CategoryBands>
+    <CategoryComponents>Testua, irudiak eta beste datuak erakusteko osagaiak.</CategoryComponents>
+    <CategoryCrossBands>Ezkerretik eskuinera inprimatzen diren bandak.</CategoryCrossBands>
+    <StiBarCode>Barra-kode bat erakusten du.</StiBarCode>
+    <StiButtonElement>Klik egitean script bat exekutatzen du.</StiButtonElement>
+    <StiButtonUI>Ekintza edo komando bat abiarazten du.</StiButtonUI>
+    <StiCardsElement>Datu multzokatuak txartel gisa erakusten ditu.</StiCardsElement>
+    <StiChart>Datuak grafiko gisa erakusten ditu.</StiChart>
+    <StiChartElement>Datuak grafiko gisa erakusten ditu.</StiChartElement>
+    <StiCheckBox>Egia edo gezurra egiaztatze-marka gisa erakusten du.</StiCheckBox>
+    <StiCheckBoxGroupUI>Aukerak eskaintzen ditu, hainbat markatzeko.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>Aukera bat aktibatzen edo desaktibatzen du.</StiCheckBoxUI>
+    <StiChildBand>Datu-ilara bererako beste banda bat inprimatzen du.</StiChildBand>
+    <StiClone>Panel baten edukia errepikatzen du.</StiClone>
+    <StiColumnFooterBand>Datu-bandako zutabe guztien azpian inprimatzen da.</StiColumnFooterBand>
+    <StiColumnHeaderBand>Datu-bandako zutabe guztien gainean inprimatzen da.</StiColumnHeaderBand>
+    <StiComboBoxElement>Goitibeherako zerrendatik balio bat aukeratzen du.</StiComboBoxElement>
+    <StiContainer>Beste osagai batzuk eremu bakarrean biltzen ditu.</StiContainer>
+    <StiCrossDataBand>Ilarako behin inprimatzen da, ezkerretik eskuinera.</StiCrossDataBand>
+    <StiCrossFooterBand>Datu Gurutzatuen bandaren ondoren inprimatzen da.</StiCrossFooterBand>
+    <StiCrossGroupFooterBand>Talde gurutzatu bakoitzaren amaieran inprimatzen da.</StiCrossGroupFooterBand>
+    <StiCrossGroupHeaderBand>Talde gurutzatu bakoitzaren hasieran inprimatzen da.</StiCrossGroupHeaderBand>
+    <StiCrossHeaderBand>Datu Gurutzatuen bandaren aurretik inprimatzen da.</StiCrossHeaderBand>
+    <StiCrossTab>Datu egituratuak taula gurutzatu gisa erakusten ditu.</StiCrossTab>
+    <StiDataBand>Datu-iturriko ilara bakoitzeko behin inprimatzen da.</StiDataBand>
+    <StiDatePickerElement>Data eta ordua aukeratzen ditu.</StiDatePickerElement>
+    <StiDatePickerUI>Data bat aukeratzeko egutegia erakusten du.</StiDatePickerUI>
+    <StiElectronicSignature>Sinadura marraztua, idatzia edo irudizkoa gehitzen du.</StiElectronicSignature>
+    <StiEmptyBand>Orrialdearen beheko espazio librea betetzen du.</StiEmptyBand>
+    <StiFilterCategory>Balioak aukeratzeko eta iragazteko elementuak.</StiFilterCategory>
+    <StiFooterBand>Datu-bandaren ilaren ondoren inprimatzen da.</StiFooterBand>
+    <StiGauge>Balio bat tarte baten barruan erakusten du.</StiGauge>
+    <StiGaugeElement>Balio bat tarte baten barruan erakusten du.</StiGaugeElement>
+    <StiGroupFooterBand>Talde bakoitzaren amaieran inprimatzen da.</StiGroupFooterBand>
+    <StiGroupHeaderBand>Talde bakoitzaren hasieran inprimatzen da.</StiGroupHeaderBand>
+    <StiHeaderBand>Datu-bandaren ilaren aurretik inprimatzen da.</StiHeaderBand>
+    <StiHierarchicalBand>Datu-iturriko ilarak zuhaitz gisa inprimatzen ditu.</StiHierarchicalBand>
+    <StiHorizontalLinePrimitive>Lerro horizontal bat marrazten du.</StiHorizontalLinePrimitive>
+    <StiIconUI>Ikono bat erakusten du.</StiIconUI>
+    <StiImage>Irudi bat erakusten du.</StiImage>
+    <StiImageElement>Irudi bat erakusten du.</StiImageElement>
+    <StiImageUI>Irudi bat erakusten du.</StiImageUI>
+    <StiIndicatorElement>Balioen arteko aldea erakusten du.</StiIndicatorElement>
+    <StiLabelUI>Testu labur bat erakusten du.</StiLabelUI>
+    <StiListBoxElement>Zerrenda bateko elementuak aukeratzen ditu.</StiListBoxElement>
+    <StiListUI>Elementu bat aukeratzeko zerrenda erakusten du.</StiListUI>
+    <StiMap>Datuak mapa batean erakusten ditu.</StiMap>
+    <StiMapCategory>Datuak mapa batean erakusteko elementuak.</StiMapCategory>
+    <StiMapElement>Datuak mapa batean erakusten ditu.</StiMapElement>
+    <StiMarkdown>Markdown testua erakusten du.</StiMarkdown>
+    <StiMathFormula>Formula matematiko bat erakusten du.</StiMathFormula>
+    <StiMultiListUI>Hainbat elementu aukeratzeko zerrenda erakusten du.</StiMultiListUI>
+    <StiMultiSelectUI>Hainbat balio aukeratzeko goitibeherako zerrenda du.</StiMultiSelectUI>
+    <StiNumberBoxElement>Zenbaki bat edo zenbaki-tarte bat aukeratzen du.</StiNumberBoxElement>
+    <StiNumberInputUI>Erabiltzailearengandik zenbaki bat jasotzen du.</StiNumberInputUI>
+    <StiOnlineMapElement>Markagailuak lineako mapa batean erakusten ditu.</StiOnlineMapElement>
+    <StiOverlayBand>Orrialde bakoitzean filigrana bat inprimatzen du.</StiOverlayBand>
+    <StiPageFooterBand>Orrialde bakoitzaren behealdean inprimatzen da.</StiPageFooterBand>
+    <StiPageHeaderBand>Orrialde bakoitzaren goialdean inprimatzen da.</StiPageHeaderBand>
+    <StiPanel>Beste osagai batzuk eremu bakarrean biltzen ditu.</StiPanel>
+    <StiPanelElement>Beste elementu batzuk eremu bakarrean biltzen ditu.</StiPanelElement>
+    <StiPanelUI>Beste kontrol batzuk eremu bakarrean biltzen ditu.</StiPanelUI>
+    <StiPdfDigitalSignature>PDFan sinadura digitalaren lekua markatzen du.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>PDFan sinadura digitalaren lekua markatzen du.</StiPdfDigitalSignatureElement>
+    <StiPivotTableElement>Datu egituratuak taula dinamiko gisa erakusten ditu.</StiPivotTableElement>
+    <StiProgressElement>Balio bat osoaren zati gisa erakusten du.</StiProgressElement>
+    <StiRadioGroupUI>Aukerak eskaintzen ditu, bat hautatzeko.</StiRadioGroupUI>
+    <StiRangeSelectorElement>Eskala edo denbora-lerroan tarte bat aukeratzen du.</StiRangeSelectorElement>
+    <StiRangeSliderUI>Eskala batean tarte bat ezartzen du.</StiRangeSliderUI>
+    <StiRectanglePrimitive>Laukizuzen bat marrazten du.</StiRectanglePrimitive>
+    <StiRegionMapElement>Datuak eskualdeen mapa batean erakusten ditu.</StiRegionMapElement>
+    <StiReportSummaryBand>Txostenaren amaieran behin inprimatzen da.</StiReportSummaryBand>
+    <StiReportTitleBand>Txostenaren hasieran behin inprimatzen da.</StiReportTitleBand>
+    <StiRichText>Formatudun RTF testua erakusten du.</StiRichText>
+    <StiRoundedRectanglePrimitive>Laukizuzen borobildu bat marrazten du.</StiRoundedRectanglePrimitive>
+    <StiScreen>Aplikazioaren orrialde baten kontrolak dauzka.</StiScreen>
+    <StiSelectUI>Balio bat aukeratzeko goitibeherako zerrenda du.</StiSelectUI>
+    <StiShape>Aurrez egindako forma bat erakusten du.</StiShape>
+    <StiShapeElement>Aurrez egindako forma bat erakusten du.</StiShapeElement>
+    <StiSignature>Sinadura elektroniko edo digital bat gehitzen du.</StiSignature>
+    <StiSliderUI>Eskala batean balio bat ezartzen du.</StiSliderUI>
+    <StiSparkline>Datu-segida baten grafiko txiki bat erakusten du.</StiSparkline>
+    <StiSubReport>Hemen beste txosten edo orrialde bat inprimatzen du.</StiSubReport>
+    <StiSwitchUI>Ezarpen bat pizten edo itzaltzen du.</StiSwitchUI>
+    <StiTable>Datuak ilaratan eta zutabetan erakusten ditu.</StiTable>
+    <StiTableElement>Datuak ilaratan eta zutabetan erakusten ditu.</StiTableElement>
+    <StiTableOfContents>Aurkibidea sortzen du.</StiTableOfContents>
+    <StiTableUI>Datuak ilaratan eta zutabetan erakusten ditu.</StiTableUI>
+    <StiText>Datuak testu gisa erakusten ditu.</StiText>
+    <StiTextElement>Datuak testu gisa erakusten ditu.</StiTextElement>
+    <StiTextInCells>Testua erakusten du, gelaxkako karaktere bat.</StiTextInCells>
+    <StiTextInputUI>Erabiltzailearengandik testua jasotzen du.</StiTextInputUI>
+    <StiTreeViewBoxElement>Goitibeherako zuhaitzetik balioak aukeratzen ditu.</StiTreeViewBoxElement>
+    <StiTreeViewElement>Datu hierarkikoak zuhaitz gisa erakusten ditu.</StiTreeViewElement>
+    <StiVerticalLinePrimitive>Lerro bertikal bat marrazten du.</StiVerticalLinePrimitive>
+    <StiWebContentElement>Web edukia erakusten du.</StiWebContentElement>
+    <StiWinControl>.NET kontrol bisual bat erakusten du.</StiWinControl>
+    <StiZipCode>ZIP posta-kode bat erakusten du.</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
-    <Align>Aukeratutako osagaien kokapena aldatu.</Align>
-    <AlignBottom>Osagaiaren edukia behean lerrokatu.</AlignBottom>
-    <AlignCenter>Osagaiaren edukia erdian lerrokatu.</AlignCenter>
+    <Align>Aukeratutako osagaiak lerrokatu.</Align>
+    <AlignBottom>Edukia behean lerrokatu.</AlignBottom>
+    <AlignCenter>Edukia zentroan lerrokatu.</AlignCenter>
     <AlignComponentBottom>Aukeratutako osagaiaren objektuak horizontalki beheko ertzean lerrokatzeko aukera ematen du.</AlignComponentBottom>
     <AlignComponentCenter>Aukeratutako osagaiaren objektuak horizontalki erdiko ertzean lerrokatzeko aukera ematen du.</AlignComponentCenter>
     <AlignComponentLeft>Aukeratutako osagaiaren objektuak bertikalki ezkerreko ertzean lerrokatzeko aukera ematen du.</AlignComponentLeft>
     <AlignComponentMiddle>Aukeratutako osagaiaren objektuak bertikalki ezkerreko ertzean lerrokatzeko aukera ematen du.</AlignComponentMiddle>
     <AlignComponentRight>Aukeratutako osagaiaren objektuak horizontalki eskuineko ertzean lerrokatzeko aukera ematen du.</AlignComponentRight>
     <AlignComponentTop>Aukeratutako osagaiaren objektuak horizontalki goiko ertzean lerrokatzeko aukera ematen du.</AlignComponentTop>
-    <AlignLeft>Osagaiaren edukia ezkerrean lerrokatu.</AlignLeft>
-    <AlignMiddle>Osagaiaren edukia goiko eta beheko ertzean zentratu.</AlignMiddle>
-    <AlignRight>Osagaiaren edukia eskuinean lerrokatu.</AlignRight>
-    <AlignToGrid>Aukeratutako osagaiak saretaren nodoetara lerrokatu.</AlignToGrid>
-    <AlignTop>Osagaiaren edukia goian lerrokatu.</AlignTop>
-    <AlignWidth>Osagai baten edukia justifikatu.</AlignWidth>
-    <Angle>Osagaiaren edukia biratu.</Angle>
+    <AlignLeft>Edukia ezkerrean lerrokatu.</AlignLeft>
+    <AlignMiddle>Edukia erdian lerrokatu.</AlignMiddle>
+    <AlignRight>Edukia eskuinean lerrokatu.</AlignRight>
+    <AlignToGrid>Aukeratutako osagaiak saretara lerrokatu.</AlignToGrid>
+    <AlignTop>Edukia goian lerrokatu.</AlignTop>
+    <AlignWidth>Edukia justifikatu.</AlignWidth>
+    <Angle>Testua biratu.</Angle>
     <AngleWatermark>Filigranaren testuaren biraketa-angelua.</AngleWatermark>
-    <Background>Aukeratutako osagaien atzeko planoa aldatu.</Background>
-    <biConditions>Aukeratutako osagaientzako baldintza-kontrolen zerrenda.</biConditions>
-    <BorderColor>Aukeratutako osagaiaren markoaren kolorea aukeratu.</BorderColor>
-    <BorderSidesAll>Aukeratutako osagaien markoaren alde guztiak gaitu.</BorderSidesAll>
-    <BorderSidesBottom>Aukeratutako osagaien markoaren beheko marjina gaitu.</BorderSidesBottom>
-    <BorderSidesLeft>Aukeratutako osagaien markoaren ezkerreko marjina gaitu.</BorderSidesLeft>
-    <BorderSidesNone>Aukeratutako osagaien markoaren alde guztiak desgaitu.</BorderSidesNone>
-    <BorderSidesRight>Aukeratutako osagaien markoaren eskuineko marjina gaitu.</BorderSidesRight>
-    <BorderSidesTop>Aukeratutako osagaien markoaren goiko marjina gaitu.</BorderSidesTop>
-    <BorderStyle>Aukeratutako osagaientzako markoaren estiloa aukeratu.</BorderStyle>
-    <BringToFront>Aukeratutako osagaia aurrera ekarri.</BringToFront>
+    <Background>Atzeko planoa aldatu.</Background>
+    <biConditions>Baldintzak editatu.</biConditions>
+    <BorderColor>Markoaren kolorea aldatu.</BorderColor>
+    <BorderSidesAll>Markoaren alde guztiak erakutsi.</BorderSidesAll>
+    <BorderSidesBottom>Markoaren beheko aldea erakutsi edo ezkutatu.</BorderSidesBottom>
+    <BorderSidesLeft>Markoaren ezkerreko aldea erakutsi edo ezkutatu.</BorderSidesLeft>
+    <BorderSidesNone>Markoaren alde guztiak ezkutatu.</BorderSidesNone>
+    <BorderSidesRight>Markoaren eskuineko aldea erakutsi edo ezkutatu.</BorderSidesRight>
+    <BorderSidesTop>Markoaren goiko aldea erakutsi edo ezkutatu.</BorderSidesTop>
+    <BorderStyle>Markoaren estiloa aldatu.</BorderStyle>
+    <BringToFront>Aurrera ekarri.</BringToFront>
     <CenterHorizontally>Osagai bat edukitzailearen ertzaren arabera horizontalki lerrokatzeko aukera ematen du.</CenterHorizontally>
     <CenterVertically>Osagai bat edukitzailearen ertzaren arabera bertikalki lerrokatzeko aukera ematen du.</CenterVertically>
     <Close>Txosten Diseinatzailea itxi.</Close>
@@ -1390,28 +1448,31 @@
     <CompilationAccessDeniedTitle>Ezin da dokumentua ireki</CompilationAccessDeniedTitle>
     <CompilationAccessTitle>Dokumentuak konpilazioa erabiltzen du</CompilationAccessTitle>
     <ComponentSize>Aukeratutako osagaien neurria aldatu.</ComponentSize>
+    <ComponentsMenu>Erabili gabeko elementuak erakutsi.</ComponentsMenu>
+    <CopyStyle>Estiloa beste osagai batzuetara kopiatu.</CopyStyle>
     <CopyToClipboard>Kopiatu Arbelean.</CopyToClipboard>
     <CurrencySymbol>Dibisaren sinboloa aukeratu.</CurrencySymbol>
     <DataStore>Txostenean erregistratutako datuak erakutsi.</DataStore>
-    <DateTimeFormat>Aukeratutako osagaien data eta orduaren formatua aukeratu.</DateTimeFormat>
-    <DockingPanels>Panelaren Konfigurazioa.</DockingPanels>
+    <DateTimeFormat>Data eta orduaren formatua aukeratu.</DateTimeFormat>
+    <DockingPanels>Panelak erakutsi edo ezkutatu.</DockingPanels>
     <DockStyleBottom>Aukeratutako osagaiak beheko ertzera egokitu.</DockStyleBottom>
     <DockStyleFill>Aukeratutako osagaiak ertz guztietara egokitu.</DockStyleFill>
     <DockStyleLeft>Aukeratutako osagaiak ezkerreko ertzera egokitu.</DockStyleLeft>
     <DockStyleNone>Aukeratutako osagaiak banandu.</DockStyleNone>
     <DockStyleRight>Aukeratutako osagaiak eskuineko ertzera egokitu.</DockStyleRight>
     <DockStyleTop>Aukeratutako osagaiak goiko ertzera egokitu.</DockStyleTop>
-    <FontGrow>Testuaren tamaina zabaldu.</FontGrow>
-    <FontName>Testuaren letra tipoa.</FontName>
+    <FontGrow>Testua handitu.</FontGrow>
+    <FontName>Testuaren letra tipoa aldatu.</FontName>
     <FontNameWatermark>Filigranaren testuaren letra tipoa.</FontNameWatermark>
-    <FontShrink>Testuaren tamaina txikitu.</FontShrink>
-    <FontSize>Letra tipoaren tamaina.</FontSize>
+    <FontShrink>Testua txikitu.</FontShrink>
+    <FontSize>Testuaren tamaina aldatu.</FontSize>
     <FontSizeWatermark>Letra tipoaren tamaina aldatu.</FontSizeWatermark>
-    <FontStyleBold>Letra lodira bihurtu.</FontStyleBold>
+    <FontStyleBold>Testua letra lodiz jarri.</FontStyleBold>
     <FontStyleBoldWatermark>Filigranaren testua lodira bihurtu.</FontStyleBoldWatermark>
-    <FontStyleItalic>Letra etzanera bihurtu.</FontStyleItalic>
+    <FontStyleItalic>Testua letra etzanez jarri.</FontStyleItalic>
     <FontStyleItalicWatermark>Filigranaren testua letra etzanera bihurtu.</FontStyleItalicWatermark>
-    <FontStyleUnderline>Letra azpimarratura bihurtu.</FontStyleUnderline>
+    <FontStyleStrikeout>Testua marratu.</FontStyleStrikeout>
+    <FontStyleUnderline>Testua azpimarratu.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Filigranaren testua letra azpimarratura bihurtu.</FontStyleUnderlineWatermark>
     <FormatBoolean>Modu logikoko balioak formateatzeko erabiltzen da formatu hau.</FormatBoolean>
     <FormatCurrency>Balio bat moneta gisa erakutsi. Aukera ematen du zenbaki bat lehenetsitako dibisaren zeinuarekin erakusteko.</FormatCurrency>
@@ -1422,53 +1483,59 @@
     <FormatPercentage>Balio bat ehunekotan erakutsi. Zenbakiak 100ez biderkatzen dira ehuneko bihurtzeko.</FormatPercentage>
     <FormatTime>Balio bat ordu gisa erakutsi. Orduaren formatua eskualdeko konfigurazioaren araberakoa da. </FormatTime>
     <FormNew>Inprimaki berri bat sortu.</FormNew>
-    <GridMode>Sareta-lerroak edo -puntuak erakutsi.</GridMode>
+    <GridMode>Sareta lerro edo puntu gisa erakutsi.</GridMode>
     <ImageAlignment>Filigrana-irudi bat orrialdean jarri.</ImageAlignment>
     <ImageTransparency>Filigrana-irudiaren gardenkia aldatu.</ImageTransparency>
-    <Link>Osagaia uneko bere edukitzailera lotu.</Link>
+    <Interaction>Elkarreragina konfiguratu.</Interaction>
+    <LineSpacing>Lerroartea aldatu.</LineSpacing>
+    <Link>Edukitzailera lotu.</Link>
     <LoadImage>Filigrana-irudiak fitxategi batetik kargatu,</LoadImage>
-    <Lock>Osagaia blokatu. Osagaia ezingo da ez neurriz aldatu ez mugitu. </Lock>
-    <MainMenu>Egin klik ikusteko zer eragiketa egin daitekeen txosten batekin, besteak beste ireki, itxi eta bistaratu.</MainMenu>
+    <Lock>Posizioa eta neurria blokeatu.</Lock>
+    <MainMenu>Txosten bat sortu, ireki edo gorde.</MainMenu>
     <MakeHorizontalSpacingEqual>Aukeratutako osagaien artean tarte horizontala berdintzeko aukera ematen du.</MakeHorizontalSpacingEqual>
     <MakeVerticalSpacingEqual>Aukeratutako osagaien artean tarte bertikala berdintzeko aukera ematen du.</MakeVerticalSpacingEqual>
-    <Margins>Uneko orrialdearen marjinak aukeratu.</Margins>
+    <Margins>Orrialdearen marjinak aukeratu.</Margins>
     <menuCheckIssues>Txostena egiaztatu, akatsak, ohartarazpenak eta bestelako aholkuak bilatzeko.</menuCheckIssues>
     <menuDesignerOptions>Txosten-diseinatzailearen aukerak konfiguratu.</menuDesignerOptions>
     <menuEditClearContents>Edukia hustu.</menuEditClearContents>
-    <menuEditCopy>Aukeratutako osagaiak arbelean kopiatu.</menuEditCopy>
-    <menuEditCut>Txostenean aukeratutako osagaiak arbelera moztu.</menuEditCut>
+    <menuEditCopy>Aukeratutako osagaiak kopiatu.</menuEditCopy>
+    <menuEditCut>Aukeratutako osagaiak moztu.</menuEditCut>
     <menuEditDelete>Aukeratutako osagaiak ezabatu.</menuEditDelete>
-    <menuEditPaste>Arbeleko edukia txostenean itsatsi.</menuEditPaste>
+    <menuEditPaste>Arbeletik itsatsi.</menuEditPaste>
+    <menuExportSettings>Esportazioaren ezarpenak aldatu.</menuExportSettings>
     <menuFAQPage>Ohiko galderen web-orrialdera joan.</menuFAQPage>
-    <menuGlobalizationStrings>Eskualdeko Kateen editorea abiarazi txosten honetarako.</menuGlobalizationStrings>
+    <menuGlobalizationStrings>Itzulpen-kateak editatu.</menuGlobalizationStrings>
     <menuHelpAboutProgramm>Txosten-sortzailearen bertsioari eta Net ingurunearen bertsioari buruzko informazioa eskuratu.</menuHelpAboutProgramm>
     <menuHomePage>Produktuaren web-orrialdera joan.</menuHomePage>
     <menuPageOptions>Orrialde honen oinarrizko parametroak konfiguratu. Eskueran dauden aukera guztiak Propietateen panelean daude eskuragarri.</menuPageOptions>
     <menuPagesManager>Orrialdeen Kudeatzailea abiarazi. Orrialdeak mugitzeko, ezabatzeko eta berriak sortzeko aukera ematen du.</menuPagesManager>
-    <menuPreviewSettings>Aurrebista-editorea abiarazi. Aldaketa hauek soilik txosten hau bistaratzen duzun bitartean izango dute eragina.</menuPreviewSettings>
+    <menuPreviewSettings>Aurrebistaren ezarpenak aldatu.</menuPreviewSettings>
     <menuPrint>Inprimatu aurretik, inprimagailua, kopia kopurua eta inprimatzeko beste aukera batzuk hautatu.</menuPrint>
     <menuPrintPreview>Inprimatu aurretik aurrebista erakutsi.</menuPrintPreview>
     <menuPrintQuick>Txostena zuzenean inprimagailuan inprimatu. Ez du inprimaketa-elkarrizketa aurrez erakutsiko.</menuPrintQuick>
-    <menuReportOptions>Orrialde honen oinarrizko aukerak konfiguratu. Eskueran dauden aukera guztiak Propietateen panelean daude eskuragarri.</menuReportOptions>
+    <menuReportOptions>Txostenaren aukerak aldatu.</menuReportOptions>
     <menuStyleDesigner>Txosten honen Estilo Diseinatzailea abiarazi.</menuStyleDesigner>
     <menuSupport>Zerbait galdetzeko, web-orrialdera joan.</menuSupport>
     <menuViewAlignToGrid>Osagaiak saretara lerrokatu.</menuViewAlignToGrid>
     <menuViewNormal>Orrialdearen ikuspegi lehenetsia.</menuViewNormal>
     <menuViewPageBreakPreview>Orrialdea ertz eta segmenturik gabe erakutsi.</menuViewPageBreakPreview>
-    <menuViewQuickInfo>Osagaien informazio azkarra erakutsi: osagaiaren izena, ezizena, edukia, ekitaldiak, etab.</menuViewQuickInfo>
-    <menuViewShowGrid>Sareta-lerroak gaitu txostenean objektuak lerrokatzen laguntzeko.</menuViewShowGrid>
+    <menuViewQuickInfo>Osagaien informazio azkarra erakutsi.</menuViewQuickInfo>
+    <menuViewShowGrid>Sareta erakutsi.</menuViewShowGrid>
     <menuViewShowHeaders>Banden goiburuak erakutsi.</menuViewShowHeaders>
-    <menuViewShowOrder>Orrialdean osagaien ordena erakutsi.</menuViewShowOrder>
-    <menuViewShowRulers>Erregelak erakutsi, orrialdean objektuak neurtzeko eta lerrokatzeko tresna.</menuViewShowRulers>
-    <MoveBackward>Osagai bat maila bat igo.</MoveBackward>
-    <MoveForward>Osagai bat maila bat jaitsi.</MoveForward>
-    <Orientation>Erretratu eta paisaia orientazioen artean txandatu.</Orientation>
+    <menuViewShowOrder>Osagaien ordena erakutsi.</menuViewShowOrder>
+    <menuViewShowRulers>Erregelak erakutsi.</menuViewShowRulers>
+    <menuViewShowSmartGuides>Gida adimendunak erakutsi.</menuViewShowSmartGuides>
+    <MoveBackward>Maila bat atzera mugitu.</MoveBackward>
+    <MoveForward>Maila bat aurrera mugitu.</MoveForward>
+    <Orientation>Erretratuaren eta paisaiaren artean txandatu.</Orientation>
     <PageDelete>Orrialde hau txostenetik ezabatu.</PageDelete>
     <PageNew>Orrialde berri bat sortu.</PageNew>
-    <PageSetup>Orrialde Konfigurazioaren elkarrizketa erakutsi.</PageSetup>
-    <PageSize>Orrialde honentzako orrialde-neurria aukeratu.</PageSize>
+    <PageSetup>Orrialdearen ezarpenak aldatu.</PageSetup>
+    <PageSize>Paperaren neurria aukeratu.</PageSize>
     <PagesManager>Orrialde Kudeatzailea exekutatu.</PagesManager>
+    <PropertiesButton>Txostenaren propietateak erakutsi.</PropertiesButton>
     <Redo>Txostenean egindako azken aldaketa berregin.</Redo>
+    <RemoveMobileSurfaceButton>Mugikorrerako gainazala kendu.</RemoveMobileSurfaceButton>
     <ReportNew>Txosten berria sortu.</ReportNew>
     <ReportOpen>Txostena diseinatzailean ireki.</ReportOpen>
     <ReportPreview>Editatutako txostena bisorean bistaratu.</ReportPreview>
@@ -1476,13 +1543,13 @@
     <ScreenNew>Pantaila berri bat sortu.</ScreenNew>
     <SelectAll>Orrialde honetako osagai guztiak aukeratu.</SelectAll>
     <SelectUILanguage>UIaren hizkuntza aukeratu.</SelectUILanguage>
-    <SendToBack>Aukeratutako osagaiak gainerako osagaien atzera mugitu.</SendToBack>
+    <SendToBack>Atzera bidali.</SendToBack>
     <ServicesConfigurator>Zerbitzuen Konfiguratzailea exekutatu.</ServicesConfigurator>
-    <Shadow>Filigrana osagaiaren gainean erakutsi.</Shadow>
+    <Shadow>Itzala erakutsi edo ezkutatu.</Shadow>
     <ShowBehind>Filigrana osagaien atzean erakutsi.</ShowBehind>
     <ShowImageBehind>Filigrana orrialdeko osagai guztien atzean erakutsi.</ShowImageBehind>
     <ShowToolbox>Tresna-kutxa erakutsi.</ShowToolbox>
-    <StyleDesigner>Estilo Diseinatzailea exekutatu.</StyleDesigner>
+    <StyleDesigner>Estilo Diseinatzailea ireki.</StyleDesigner>
     <Text>Filigrana-testua</Text>
     <TextBrush>Testuaren kolorea aldatu.</TextBrush>
     <TextBrushWatermark>Filigranaren testuaren kolorea aldatu.</TextBrushWatermark>
@@ -1490,28 +1557,31 @@
     <TextFormat>Balioen formatua aukeratu.</TextFormat>
     <ToolbarStyle>Aukeratutako osagai guztiei uneko estiloa ezarri.</ToolbarStyle>
     <Undo>Txostenean egindako azken aldaketa desegin.</Undo>
-    <WordWrap>Osagai baten testua tolestu.</WordWrap>
+    <ViewModeDesktopButton>Mahaigainerako gainazala erakutsi.</ViewModeDesktopButton>
+    <ViewModeMobileButton>Mugikorrerako gainazala erakutsi.</ViewModeMobileButton>
+    <Watermark>Filigranaren ezarpenak aldatu.</Watermark>
+    <WordWrap>Testua tolestu.</WordWrap>
     <Zoom>Txostenaren zabalpen-maila adierazi.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
-    <StiButtonControl>Botoi erako kontrol bat adierazten du.</StiButtonControl>
-    <StiCheckBoxControl>Bandera erako kontrol bat adierazten du.</StiCheckBoxControl>
-    <StiCheckedListBoxControl>Zerrenda erako objektu bat erakusten du, elementu bakoitzerako egiaztatze-marka batekin.</StiCheckedListBoxControl>
-    <StiComboBoxControl>Aukera-kontrol bat adierazten du; testuak zuzenean sar daitezke bertan eta aukeren zerrenda batetik aukera daitezke.</StiComboBoxControl>
-    <StiDateTimePickerControl>Datak edota orduak aukeratzeko kontrol bat adierazten du. Data/ordu baten irteerako formatua adierazteko aukera ere ematen du.</StiDateTimePickerControl>
-    <StiGridControl>Zutabez eta ilaraz osatutako Sareta baten kontrola adierazten du.</StiGridControl>
-    <StiGroupBoxControl>Ertzak eta goiburuak dituzten edukitzaileak sortzeko kontrola adierazten du.</StiGroupBoxControl>
-    <StiLabelControl>Erabiltzailearen Interfazeko elementu bat da Errotulua, eta inprimaki batean testua erakusteko erabiltzen da. Normalean, edukia estatikoa da eta ez du erabiltzailearekin elkarreragiten.</StiLabelControl>
-    <StiListBoxControl>Aukeratzeko elementu batzuen zerrenda biltzen du.</StiListBoxControl>
-    <StiListViewControl>ListView erako kontrol bat adierazten du, elementuen zerrenda bat erakusteko.</StiListViewControl>
-    <StiLookUpBoxControl>Aukeratzeko elementu batzuen zerrenda biltzen du</StiLookUpBoxControl>
-    <StiNumericUpDownControl>Balio numerikoak erakusten dituen kontrol bat adierazten du.</StiNumericUpDownControl>
-    <StiPanelControl>Panel erako elementu bat beste objektu batzuk jartzeko eta egokitzeko erabiltzen da.</StiPanelControl>
-    <StiPictureBoxControl>Irudiak erakusteko kontrol bat adierazten du.</StiPictureBoxControl>
-    <StiRadioButtonControl>Aurrez zehaztutako balio batzuen zerrendatik aukera bakarra egiteko kontrola adierazten du. </StiRadioButtonControl>
-    <StiRichTextBoxControl>Testu Aberastuaren kontrol bat adierazten du.</StiRichTextBoxControl>
-    <StiTextBoxControl>Testu-kontrol bat adierazten du, testu jakin bat erakusteko eta editatzeko.</StiTextBoxControl>
-    <StiTreeViewControl>Datuak zuhaitz eran hierarkikoki erakusteko kontrol bat adierazten du.</StiTreeViewControl>
+    <StiButtonControl>Klik egitean ekintza bat exekutatzen du.</StiButtonControl>
+    <StiCheckBoxControl>Aukera bat aktibatzen edo desaktibatzen du.</StiCheckBoxControl>
+    <StiCheckedListBoxControl>Egiaztatze-kutxadun elementuen zerrenda erakusten du.</StiCheckedListBoxControl>
+    <StiComboBoxControl>Balioa aukeratu edo idazteko goitibeherako zerrenda du.</StiComboBoxControl>
+    <StiDateTimePickerControl>Data eta ordua aukeratzeko egutegia erakusten du.</StiDateTimePickerControl>
+    <StiGridControl>Datuak ilaratan eta zutabetan erakusten ditu.</StiGridControl>
+    <StiGroupBoxControl>Kontrolak izenburudun marko batean biltzen ditu.</StiGroupBoxControl>
+    <StiLabelControl>Inprimakian testu bat erakusten du.</StiLabelControl>
+    <StiListBoxControl>Elementuak aukeratzeko zerrenda erakusten du.</StiListBoxControl>
+    <StiListViewControl>Datu-elementuen zerrenda erakusten du.</StiListViewControl>
+    <StiLookUpBoxControl>Elementu bat aukeratzeko goitibeherako zerrenda du.</StiLookUpBoxControl>
+    <StiNumericUpDownControl>Zenbaki bat jasotzen du, aldatzeko botoiekin.</StiNumericUpDownControl>
+    <StiPanelControl>Beste kontrol batzuk eremu bakarrean biltzen ditu.</StiPanelControl>
+    <StiPictureBoxControl>Irudi bat erakusten du.</StiPictureBoxControl>
+    <StiRadioButtonControl>Talde bateko aukera bat hautatzen du.</StiRadioButtonControl>
+    <StiRichTextBoxControl>Formatudun testua erakutsi eta editatzen du.</StiRichTextBoxControl>
+    <StiTextBoxControl>Testu bat erakutsi eta editatzen du.</StiTextBoxControl>
+    <StiTreeViewControl>Datu hierarkikoak zuhaitz gisa erakusten ditu.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
     <Bookmarks>Orri-markatzaileak erakutsi.</Bookmarks>

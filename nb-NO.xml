@@ -2047,136 +2047,139 @@
     <sys_morebuttons>Flere knapper</sys_morebuttons>
   </Gui>
   <HelpComponents>
-    <StiBarCode>Denne komponenten gjør det mulig å vise strekkoder i en rapport. Data sendes til et objekt som en streng. Strengen kan inneholde alle symboler, men bare symboler som er tillatt for det valgte diagrammet kan vises.</StiBarCode>
-    <StiButtonElement>Dette elementet brukes til å utføre et hendelsesskript når en bruker samhandler.</StiButtonElement>
-    <StiButtonUI>En knapp som brukes til å utløse en handling eller starte en kommando.</StiButtonUI>
-    <StiCardsElement>Dette elementet brukes til å vise grupperte data som kort.</StiCardsElement>
-    <StiChart>Denne komponenten tillater visning av diagrammer i en rapport. Ulike typer av diagrammer er tilgjengelige. Blant disse er linje, pai, donut, områder, Gantt, punkt mfl.</StiChart>
-    <StiChartElement>Dette elementet tillater visning av diagrammer i et instrumentbord. Forskjellige typer diagrammer er tilgjengelig.</StiChartElement>
-    <StiCheckBox>Denne komponenten tillater visning av avkrysningsbokser i rapporter. «Aktivert» og «deaktivert» er mulig.</StiCheckBox>
-    <StiCheckBoxGroupUI>En gruppe med avkrysningsbokser som brukes til å velge flere forhåndsdefinerte alternativer fra en liste.</StiCheckBoxGroupUI>
-    <StiCheckBoxUI>En avkrysningsboks som brukes til å slå et enkelt alternativ av eller på raskt.</StiCheckBoxUI>
-    <StiChildBand>The Child band can be used to output two bands on one data row.</StiChildBand>
-    <StiClone>Denne komponenten brukes til å klone deler i en rapport. Kloning kan bare brukes på inneholdet i panelet.</StiClone>
-    <StiColumnFooterBand>Dette båndet brukes til å lage bunntekst av kolonner til databåndet. Kolonnebunnteksten blir skrevet en gang under hver kolonne. Alle komponentene som er plassert på dette båndet blir også skrevet under hver kolonne.</StiColumnFooterBand>
-    <StiColumnHeaderBand>Dette båndet brukes til å lage topptekst i kolonner. Kolonnetoppteksten brukes til å skrive én gang. Alle komponentene som er plassert på dette båndet kan skrive over hver kolonne.</StiColumnHeaderBand>
-    <StiComboBoxElement>Representerer kombinasjonsboksen som blir brukt til enten å taste en verdi direkte i kontrollen eller velge fra listen med eksisterende alternativer.</StiComboBoxElement>
-    <StiContainer>Dette er den rektangulære regionen hvor andre komponenter, inkludert bånd, kan bli plassert. Under flytting av en beholder blir komponentene inni også flyttet. Beholderen kan både bli plassert på et bånd og på en side.</StiContainer>
-    <StiCrossDataBand>Dette båndet er koblet til datakilden. Den skrives ut like mange ganger som det er rader i datakilden. Et kryssbånd skrives fra venstre til høyre.</StiCrossDataBand>
-    <StiCrossFooterBand>Dette båndet brukes til å skrive bunntekst av et kryssdatabånd. Båndet skrives en gang etter etter alle radene i databåndet. Et kryssbånd skrives fra venstre til høyre.</StiCrossFooterBand>
-    <StiCrossGroupFooterBand>Dette båndet brukes til å skrive bunntekst til en gruppe. Den blir plassert under kryssdatabåndet. Hver kryssbunntekst hører til den spesifiserte krysstopptekstens bånd. Et kryssbånd skrives fra venstre til høyre.</StiCrossGroupFooterBand>
-    <StiCrossGroupHeaderBand>Dette båndet er det grunnleggende for rapportrendering med grupperinger når kryssdata blir brukt. Det er umulig å lage en gruppering uten dette båndet. Komponentene for å vise informasjon gruppert plasseres under gruppetoppteksten. Informasjonen kan være gruppenavn, dato, vilkår for gruppering, etc. Båndet skrives på begynnelsen av hver gruppe. Et kryssbånd skrives fra venstre til høyre.</StiCrossGroupHeaderBand>
-    <StiCrossHeaderBand>Dette båndet brukes til å skrive topptekst. Det brukes sammen med kryssbåndet. Et kryssbånd skrives fra venstre til høyre.</StiCrossHeaderBand>
-    <StiCrossTab>Cross-tab-komponenten brukess for strukturert data representert som en tabell.</StiCrossTab>
-    <StiDataBand>Databåndet er koblet til datakilden og skrives så mange ganger som det er rader i datakilden.</StiDataBand>
-    <StiDatePickerElement>Elementet brukes til å velge dato og tid.</StiDatePickerElement>
-    <StiDatePickerUI>En datovelger som brukes til å velge en dato fra en kalender.</StiDatePickerUI>
-    <StiElectronicSignature>Denne komponenten brukes til å legge til en grafisk signatur, bilde, initialer og tekst.</StiElectronicSignature>
-    <StiEmptyBand>Dette båndet brukes til å fylle ledig plass på bunnen av en side. Båndet fyller ledig plass på hver side i en rapport.</StiEmptyBand>
-    <StiFilterCategory>En gruppe elementer brukt til å velge og filtrere verdier.</StiFilterCategory>
-    <StiFooterBand>Dette båndet brukes til å skrive sammendrag av databåndet. Det blir plassert under databåndet og skrives en gang etter alle dataradene som databåndet skriver.</StiFooterBand>
-    <StiGauge>Komponenten lar deg å vise en verdi innenfor et forhåndsdefinert område. Den kan ha ulik grafisk representasjon.</StiGauge>
-    <StiGaugeElement>Elementet lar deg vise en verdi innenfor et forhåndsdefinert område. Det kan ha forskjellig grafisk utseende.</StiGaugeElement>
-    <StiGroupFooterBand>Gruppebunntekstbåndet brukes til å skrive gruppebunnteksten. Dette båndet plasseres etter databåndet. Dette er databåndet som databåndet for gruppetopptekst bindes med. Hvert gruppebunntekstbånd hører til det spesifiserte gruppetopptekstbåndet. Gruppebunntekstbåndet vil ikke blir skrevet uten gruppetopptekstbåndet.</StiGroupFooterBand>
-    <StiGroupHeaderBand>Dette båndet er det grunnleggende båndet for rendering av rapporter med grupperinger. Komponentene for å vise informasjon om denne gruppen er plassert i gruppetoppteksten. Det kan være gruppenavn, dato, vilkår for gruppering, etc. Dette båndet skrives en gang på begynnelsen av hver gruppe.</StiGroupHeaderBand>
-    <StiHeaderBand>Dette båndet brukes til å skrive topptekst. Det brukes sammen med databåndet.</StiHeaderBand>
-    <StiHierarchicalBand>Dette båndet er koblet til datakilden og skrives så mange ganger som det er rader i datakilden. Data skrives som et tre.</StiHierarchicalBand>
-    <StiHorizontalLinePrimitive>Denne komponenten brukes til å skrive en linje.</StiHorizontalLinePrimitive>
-    <StiIconUI>Et ikon som brukes til å vise en symbolske grafisk representasjon eller visuell markør.</StiIconUI>
-    <StiImage>Denne komponenten brukes til å skrive ut bilder. Den støtter følgende grafiske formater, som BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
-    <StiImageElement>Dette elementet brukes til å skrive ut bilder. Det støtter følgende grafiske formater som BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImageElement>
-    <StiImageUI>Et bilde som brukes til å vise grafisk innhold i grensesnittet.</StiImageUI>
-    <StiIndicatorElement>Elementet viser differansen i verdier mellom inndataene.</StiIndicatorElement>
-    <StiLabelUI>Et etikett som brukes til å vise tekst eller korte overskrifter.</StiLabelUI>
-    <StiListBoxElement>Elementet tillater å velge verdier fra en liste.</StiListBoxElement>
-    <StiListUI>En liste som brukes til å vise valgbare elementer i en vertikal samling.</StiListUI>
-    <StiMap>Denne komponenten brukes til å vise geografisk rettede data.</StiMap>
-    <StiMapCategory>Gruppe av elementer for å jobbe med kart og data.</StiMapCategory>
-    <StiMapElement>Dette elementet brukes til å vise data som er geografisk merket.</StiMapElement>
-    <StiMarkdown>Denne komponenten brukes til å vise CommonMark / GFM Markdown-tekst i en rapport.</StiMarkdown>
-    <StiMathFormula>Denne komponenten brukes til å vise matematiske formler i en rapport.</StiMathFormula>
-    <StiMultiListUI>En liste som brukes til å velge flere elementer fra samme samling.</StiMultiListUI>
-    <StiMultiSelectUI>En velger som brukes til å velge flere verdier fra en forhåndsforberedt liste.</StiMultiSelectUI>
-    <StiNumberBoxElement>Dette elementet brukes til å velge en numerisk verdi eller angi et område av numeriske verdier.</StiNumberBoxElement>
-    <StiNumberInputUI>Et tallfelt som brukes til å skrive inn numeriske verdier med kontrollert inndata.</StiNumberInputUI>
-    <StiOnlineMapElement>Dette elementet brukes til å vise geografiske indikatorer på det elektroniske kartet.</StiOnlineMapElement>
-    <StiOverlayBand>Dette båndet brukes til å skrive vannmerker på en side.</StiOverlayBand>
-    <StiPageFooterBand>Dette båndet brukes til å skrive informasjon på bunnen av hver side. For eksempel sidetall, datoer og annen tilleggsinformasjon..</StiPageFooterBand>
-    <StiPageHeaderBand>Dette båndet brukes til å skrive toppteksten til siden. For eksempel sidetall, datoer og annen tilleggsinformasjon.</StiPageHeaderBand>
-    <StiPanel>En rektangulær region som kan inneholde andre komponenter, inkludert bånd. Når panelet flyttes følger komponentene med. Et panel kan enten bli plassert på et bånd eller en side.</StiPanel>
-    <StiPanelElement>Et rektangulært område som kan inneholde andre elementer. Når panelet flyttes, flyttes også elementene det inneholder.</StiPanelElement>
-    <StiPanelUI>Et panel som brukes til å gruppere og arrangere andre kontroller i ett område.</StiPanelUI>
-    <StiPdfDigitalSignature>Denne interaktive komponenten brukes til å angi et sted for digital signatur etter at rapporten er eksportert til Adobe PDF.</StiPdfDigitalSignature>
-    <StiPdfDigitalSignatureElement>Denne komponenten brukes til å angi plass for digital signatur og felt fra sertifikatet ved eksport til PDF.</StiPdfDigitalSignatureElement>
-    <StiPivotTableElement>Pivottabell-elementet brukes til strukturert datarepresentasjon i form av en tabell.</StiPivotTableElement>
-    <StiProgressElement>Elementet viser graden av inndata. Den kan vises på forskjellige måter - kakediagram, sirkel, stolper.</StiProgressElement>
-    <StiRadioGroupUI>En radiogruppe som brukes til å velge ett alternativ fra et forhåndsdefinert sett med verdier.</StiRadioGroupUI>
-    <StiRangeSelectorElement>Denne komponenten brukes til å velge et verdiområde på en skala eller tidslinje. Den lar brukere visuelt definere minimums- og maksimumsgrensene for området.</StiRangeSelectorElement>
-    <StiRangeSliderUI>En områdeglidebryter som brukes til å definere minimums- og maksimumsverdier på en skala.</StiRangeSliderUI>
-    <StiRectanglePrimitive>Denne komponenten brukes til å skrive rektangler.</StiRectanglePrimitive>
-    <StiRegionMapElement>Dette elementet brukes til å vise data som er geografisk merket.</StiRegionMapElement>
-    <StiReportSummaryBand>Dette båndet brukes til å skrive oppsummeringer gjennom hele rapporten. Den blir skrevet en gang på slutten av en rapport.</StiReportSummaryBand>
-    <StiReportTitleBand>Dette båndet brukes til å skrive tittelen på rapporten. Den skrives på begynnelsen av en rapport.</StiReportTitleBand>
-    <StiRichText>Denne komponenten brukes til å skrive og endre RTF-teksten. Den støtter også lasting og lagring av filer i RTF-formater.</StiRichText>
-    <StiRoundedRectanglePrimitive>Denne komponenten brukes til å skrive avrundede rektangler.</StiRoundedRectanglePrimitive>
-    <StiScreen>En skjerm som inneholder kontroller, layout og brukerinteraksjoner for en app-side.</StiScreen>
-    <StiSelectUI>En velgerute som brukes til å velge én verdi fra en nedtrekksliste.</StiSelectUI>
-    <StiShape>Denne komponenten brukes til å sette inn ferdiglagde figurer som piler, diagonale linjer, horisontale linjer, ovaler, rektangler, avrundede rektangler, triangler, mfl.</StiShape>
-    <StiShapeElement>Dette elementet brukes til å sette inn ferdige grafiske figurer som piler, diagonal linje ned, diagonal linje opp, horisontal linje venstre- og høyrelinjer, ovaler, rektangler, avrundede rektangler, topp- og bunnlinjer, triangler, vertikal linje.</StiShapeElement>
-    <StiSignature>Denne komponenten brukes til å legge til en elektronisk eller digital signatur i en rapport.</StiSignature>
-    <StiSliderUI>En glidebryter som brukes til å velge en verdi på en kontinuerlig numerisk skala.</StiSliderUI>
-    <StiSparkline>Denne komponenten brukes til å lage mikrodiagrammer i en rapport. Den lar deg spore dynamisk endrende data som stolper, linjer, områder.</StiSparkline>
-    <StiSubReport>Denne komponenten brukes til å skrive tilleggsinformasjon på forskjellige steder i en rapport.</StiSubReport>
-    <StiSwitchUI>En bryter som brukes til å slå en innstilling av eller på med ett klikk.</StiSwitchUI>
-    <StiTable>Denne komponenten er et sett med dataelementer som er organisert etter en modell med vertikale kolonner og horisontale rader.</StiTable>
-    <StiTableElement>Dette elementet er et sett av dataelementer som er organisert i et sett av vertikale kolonner og horisontale rader.</StiTableElement>
-    <StiTableOfContents>Denne komponenten brukes til å lage en innholdsfortegnelse i en rapport.</StiTableOfContents>
-    <StiTableUI>En tabell som brukes til å vise data i rader og kolonner på en tydelig måte.</StiTableUI>
-    <StiText>Denne komponenten er et grunnleggende objekt for å skrive data som tekst.</StiText>
-    <StiTextElement>Dette elementet er et basisobjekt for å vise data som en tekst.</StiTextElement>
-    <StiTextInCells>Denne komponenten brukes til å skrive tekst i celler. Den brukes ofte for å lage skjemaer.</StiTextInCells>
-    <StiTextInputUI>Et tekstfelt som brukes til å skrive inn og redigere tekstverdier.</StiTextInputUI>
-    <StiTreeViewBoxElement>Elementet brukes til å velge verdier med en rullegardinliste som et tre.</StiTreeViewBoxElement>
-    <StiTreeViewElement>Representerer elementet som brukes til å vise hierarkiske data som et tre.</StiTreeViewElement>
-    <StiVerticalLinePrimitive>Denne komponenten brukes til å skrive vertikale linjer.</StiVerticalLinePrimitive>
-    <StiWebContentElement>Komponenten lar deg legge til webinnhold i dashbord.</StiWebContentElement>
-    <StiWinControl>Denne komponenten tillater visning av visuelle kontroller fra .NET.</StiWinControl>
-    <StiZipCode>Denne komponenten brukes til å skrive postnummer.</StiZipCode>
+    <CategoryBands>Bånd som skriver ut topptekst, data og bunntekst.</CategoryBands>
+    <CategoryComponents>Komponenter som viser tekst, bilder og andre data.</CategoryComponents>
+    <CategoryCrossBands>Bånd som skrives ut fra venstre mot høyre.</CategoryCrossBands>
+    <StiBarCode>Viser en strekkode.</StiBarCode>
+    <StiButtonElement>Kjører et skript ved klikk.</StiButtonElement>
+    <StiButtonUI>Starter en handling eller en kommando.</StiButtonUI>
+    <StiCardsElement>Viser grupperte data som kort.</StiCardsElement>
+    <StiChart>Viser data som et diagram.</StiChart>
+    <StiChartElement>Viser data som et diagram.</StiChartElement>
+    <StiCheckBox>Viser en sann eller usann verdi som en hake.</StiCheckBox>
+    <StiCheckBoxGroupUI>Tilbyr alternativer der flere kan krysses av.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>Slår ett alternativ på eller av.</StiCheckBoxUI>
+    <StiChildBand>Skriver ut ett bånd til for samme datarad.</StiChildBand>
+    <StiClone>Gjentar innholdet i et panel.</StiClone>
+    <StiColumnFooterBand>Skrives ut under hver kolonne i et databånd.</StiColumnFooterBand>
+    <StiColumnHeaderBand>Skrives ut over hver kolonne i et databånd.</StiColumnHeaderBand>
+    <StiComboBoxElement>Velger en verdi fra en nedtrekksliste.</StiComboBoxElement>
+    <StiContainer>Grupperer andre komponenter i ett område.</StiContainer>
+    <StiCrossDataBand>Skrives ut én gang per rad, fra venstre mot høyre.</StiCrossDataBand>
+    <StiCrossFooterBand>Skrives ut etter et kryssdatabånd.</StiCrossFooterBand>
+    <StiCrossGroupFooterBand>Skrives ut på slutten av hver kryssgruppe.</StiCrossGroupFooterBand>
+    <StiCrossGroupHeaderBand>Skrives ut i starten av hver kryssgruppe.</StiCrossGroupHeaderBand>
+    <StiCrossHeaderBand>Skrives ut før et kryssdatabånd.</StiCrossHeaderBand>
+    <StiCrossTab>Viser strukturerte data som en krysstabell.</StiCrossTab>
+    <StiDataBand>Skrives ut én gang for hver rad i en datakilde.</StiDataBand>
+    <StiDatePickerElement>Velger dato og klokkeslett.</StiDatePickerElement>
+    <StiDatePickerUI>Viser en kalender for å velge en dato.</StiDatePickerUI>
+    <StiElectronicSignature>Legger til en signatur som tegning, tekst eller bilde.</StiElectronicSignature>
+    <StiEmptyBand>Fyller den ledige plassen nederst på en side.</StiEmptyBand>
+    <StiFilterCategory>Elementer som velger og filtrerer verdier.</StiFilterCategory>
+    <StiFooterBand>Skrives ut etter radene i et databånd.</StiFooterBand>
+    <StiGauge>Viser en verdi innenfor et område.</StiGauge>
+    <StiGaugeElement>Viser en verdi innenfor et område.</StiGaugeElement>
+    <StiGroupFooterBand>Skrives ut på slutten av hver gruppe.</StiGroupFooterBand>
+    <StiGroupHeaderBand>Skrives ut i starten av hver gruppe.</StiGroupHeaderBand>
+    <StiHeaderBand>Skrives ut før radene i et databånd.</StiHeaderBand>
+    <StiHierarchicalBand>Skriver ut radene i en datakilde som et tre.</StiHierarchicalBand>
+    <StiHorizontalLinePrimitive>Tegner en horisontal linje.</StiHorizontalLinePrimitive>
+    <StiIconUI>Viser et ikon.</StiIconUI>
+    <StiImage>Viser et bilde.</StiImage>
+    <StiImageElement>Viser et bilde.</StiImageElement>
+    <StiImageUI>Viser et bilde.</StiImageUI>
+    <StiIndicatorElement>Viser forskjellen mellom verdier.</StiIndicatorElement>
+    <StiLabelUI>Viser en kort tekst.</StiLabelUI>
+    <StiListBoxElement>Velger elementer fra en liste.</StiListBoxElement>
+    <StiListUI>Viser en liste for å velge ett element.</StiListUI>
+    <StiMap>Viser data på et kart.</StiMap>
+    <StiMapCategory>Elementer som viser data på et kart.</StiMapCategory>
+    <StiMapElement>Viser data på et kart.</StiMapElement>
+    <StiMarkdown>Viser Markdown-tekst.</StiMarkdown>
+    <StiMathFormula>Viser en matematisk formel.</StiMathFormula>
+    <StiMultiListUI>Viser en liste for å velge flere elementer.</StiMultiListUI>
+    <StiMultiSelectUI>Viser en nedtrekksliste for å velge flere verdier.</StiMultiSelectUI>
+    <StiNumberBoxElement>Velger et tall eller et tallområde.</StiNumberBoxElement>
+    <StiNumberInputUI>Tar imot et tall fra brukeren.</StiNumberInputUI>
+    <StiOnlineMapElement>Viser markører på et online-kart.</StiOnlineMapElement>
+    <StiOverlayBand>Skriver ut et vannmerke på hver side.</StiOverlayBand>
+    <StiPageFooterBand>Skrives ut nederst på hver side.</StiPageFooterBand>
+    <StiPageHeaderBand>Skrives ut øverst på hver side.</StiPageHeaderBand>
+    <StiPanel>Grupperer andre komponenter i ett område.</StiPanel>
+    <StiPanelElement>Grupperer andre elementer i ett område.</StiPanelElement>
+    <StiPanelUI>Grupperer andre kontroller i ett område.</StiPanelUI>
+    <StiPdfDigitalSignature>Markerer plassen for en digital signatur i PDF.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>Markerer plassen for en digital signatur i PDF.</StiPdfDigitalSignatureElement>
+    <StiPivotTableElement>Viser strukturerte data som en pivottabell.</StiPivotTableElement>
+    <StiProgressElement>Viser en verdi som en del av helheten.</StiProgressElement>
+    <StiRadioGroupUI>Tilbyr alternativer der ett kan velges.</StiRadioGroupUI>
+    <StiRangeSelectorElement>Velger et område på en skala eller tidslinje.</StiRangeSelectorElement>
+    <StiRangeSliderUI>Angir et område på en skala.</StiRangeSliderUI>
+    <StiRectanglePrimitive>Tegner et rektangel.</StiRectanglePrimitive>
+    <StiRegionMapElement>Viser data på et kart over regioner.</StiRegionMapElement>
+    <StiReportSummaryBand>Skrives ut én gang på slutten av rapporten.</StiReportSummaryBand>
+    <StiReportTitleBand>Skrives ut én gang i starten av rapporten.</StiReportTitleBand>
+    <StiRichText>Viser formatert RTF-tekst.</StiRichText>
+    <StiRoundedRectanglePrimitive>Tegner et avrundet rektangel.</StiRoundedRectanglePrimitive>
+    <StiScreen>Inneholder kontrollene på en app-side.</StiScreen>
+    <StiSelectUI>Viser en nedtrekksliste for å velge én verdi.</StiSelectUI>
+    <StiShape>Viser en ferdiglaget figur.</StiShape>
+    <StiShapeElement>Viser en ferdiglaget figur.</StiShapeElement>
+    <StiSignature>Legger til en elektronisk eller digital signatur.</StiSignature>
+    <StiSliderUI>Angir en verdi på en skala.</StiSliderUI>
+    <StiSparkline>Viser et lite diagram av en dataserie.</StiSparkline>
+    <StiSubReport>Skriver ut en annen rapport eller side her.</StiSubReport>
+    <StiSwitchUI>Slår en innstilling på eller av.</StiSwitchUI>
+    <StiTable>Viser data i rader og kolonner.</StiTable>
+    <StiTableElement>Viser data i rader og kolonner.</StiTableElement>
+    <StiTableOfContents>Lager innholdsfortegnelsen.</StiTableOfContents>
+    <StiTableUI>Viser data i rader og kolonner.</StiTableUI>
+    <StiText>Viser data som tekst.</StiText>
+    <StiTextElement>Viser data som tekst.</StiTextElement>
+    <StiTextInCells>Viser tekst med ett tegn per celle.</StiTextInCells>
+    <StiTextInputUI>Tar imot tekst fra brukeren.</StiTextInputUI>
+    <StiTreeViewBoxElement>Velger verdier fra et nedtrekkstre.</StiTreeViewBoxElement>
+    <StiTreeViewElement>Viser hierarkiske data som et tre.</StiTreeViewElement>
+    <StiVerticalLinePrimitive>Tegner en vertikal linje.</StiVerticalLinePrimitive>
+    <StiWebContentElement>Viser webinnhold.</StiWebContentElement>
+    <StiWinControl>Viser en visuell .NET-kontroll.</StiWinControl>
+    <StiZipCode>Viser et postnummer (ZIP-kode).</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
     <ActiveRelation>Setter prioritetsrelasjonen for å binde to tabeller. Den blir brukt i datatransformasjon og instrumentbord. Kun en relasjon i hver datakilde kan være aktiv.</ActiveRelation>
-    <Align>Endre plasseringen til valgte komponenter.</Align>
-    <AlignBottom>Juster komponentene mot bunnen.</AlignBottom>
-    <AlignCenter>Juster komponentene til midten.</AlignCenter>
+    <Align>Juster valgte komponenter.</Align>
+    <AlignBottom>Juster innholdet mot bunnen.</AlignBottom>
+    <AlignCenter>Midtstill innholdet vannrett.</AlignCenter>
     <AlignComponentBottom>Tillater justering av objekter horisontalt mot kanten på bunden for valgte komponenter.</AlignComponentBottom>
     <AlignComponentCenter>Tillater justering av objekter horisontalt sentrert for valgte komponenter.</AlignComponentCenter>
     <AlignComponentLeft>Tillater justering av objekter virtikalt langs venstre kant for valgte komponenter.</AlignComponentLeft>
     <AlignComponentMiddle>Tillater justering av objekter vertikalt sentrert for valgte komponenter.</AlignComponentMiddle>
     <AlignComponentRight>Tillater justering av objekter vertikalt langt høyre kant for valgte komponenter.</AlignComponentRight>
     <AlignComponentTop>Tillater justering av objekter horisontalt langt kanten på toppen for valgte komponenter.</AlignComponentTop>
-    <AlignLeft>Juster innholdet i en komponent til venstre.</AlignLeft>
-    <AlignMiddle>Sentrer innholdet i en komponent mellom øvre og nedre kant av en komponent.</AlignMiddle>
-    <AlignRight>Juster innholdet i en komponent til høyre.</AlignRight>
-    <AlignToGrid>Juster valgte komponenter til støttelinje.</AlignToGrid>
-    <AlignTop>Juster innholdet i en komponent til toppen.</AlignTop>
-    <AlignWidth>Juster innholdet i en komponent.</AlignWidth>
-    <Angle>Roter innholdet i en komponent.</Angle>
+    <AlignLeft>Juster innholdet til venstre.</AlignLeft>
+    <AlignMiddle>Midtstill innholdet loddrett.</AlignMiddle>
+    <AlignRight>Juster innholdet til høyre.</AlignRight>
+    <AlignToGrid>Juster valgte komponenter etter rutenettet.</AlignToGrid>
+    <AlignTop>Juster innholdet mot toppen.</AlignTop>
+    <AlignWidth>Blokkjuster innholdet.</AlignWidth>
+    <Angle>Roter teksten.</Angle>
     <AngleWatermark>Rotasjonsvinkel for vannmerketekst.</AngleWatermark>
-    <Background>Endre bakgrunnen til valgte komponenter.</Background>
-    <biConditions>Kontrolliste for betingelser til valgte komponenter.</biConditions>
-    <BorderColor>Velg rammefarge for valgt komponent.</BorderColor>
-    <BorderSidesAll>Skru på ramme på alle sider på valgte komponenter.</BorderSidesAll>
-    <BorderSidesBottom>Skru på ramme på bunnen av valgte komponenter.</BorderSidesBottom>
-    <BorderSidesLeft>Skru på ramme på venstre side av valgte komponenter.</BorderSidesLeft>
-    <BorderSidesNone>Skru av alle rammer på valgte komponenter.</BorderSidesNone>
-    <BorderSidesRight>Skru på ramme på høyre side av valgte komponenter.</BorderSidesRight>
-    <BorderSidesTop>Skru på rammen på toppen av valgte komponenter.</BorderSidesTop>
-    <BorderStyle>Velg rammestil på valgte komponenter.</BorderStyle>
-    <BringToFront>Hent valgte komponenter foran.</BringToFront>
+    <Background>Endre bakgrunnen.</Background>
+    <biConditions>Rediger betingelsene.</biConditions>
+    <BorderColor>Endre kantfargen.</BorderColor>
+    <BorderSidesAll>Vis alle kanter.</BorderSidesAll>
+    <BorderSidesBottom>Vis eller skjul nedre kant.</BorderSidesBottom>
+    <BorderSidesLeft>Vis eller skjul venstre kant.</BorderSidesLeft>
+    <BorderSidesNone>Skjul alle kanter.</BorderSidesNone>
+    <BorderSidesRight>Vis eller skjul høyre kant.</BorderSidesRight>
+    <BorderSidesTop>Vis eller skjul øvre kant.</BorderSidesTop>
+    <BorderStyle>Endre kantstilen.</BorderStyle>
+    <BringToFront>Plasser lengst frem.</BringToFront>
     <CenterHorizontally>Tillater å justere en komponent horisontalt, relativt til beholderkantene hvor den er plassert.</CenterHorizontally>
     <CenterVertically>Tillater å justere en komponent vertikalt, relativt til beholderkantene hvor den er plassert.</CenterVertically>
     <Close>Lukk rapportdesigneren.</Close>
-    <Columns>Del side i kolonner.</Columns>
+    <Columns>Del siden i kolonner.</Columns>
     <CompilationAccess1>Dette dokumentet bruker kompilering. Hvis dokumentet er fra en pålitelig kilde, kan du klikke "Åpne" for å få tilgang.</CompilationAccess1>
     <CompilationAccess2>Hvis du er usikker på kilden, men fortsatt vil se dokumentet, kan du klikke "Åpne i sikker modus". Da brukes tolkning i stedet for kompilering, slik at du kan kjøre dokumentet trygt.</CompilationAccess2>
     <CompilationAccess3>Dette dokumentet bruker kompilering og kan være usikkert. Du kan ikke åpne det.</CompilationAccess3>
@@ -2187,15 +2190,15 @@
     <CompilationAccessForceInterpretation>Dokumenter med kompilering åpnes uten varsel, men konverteres automatisk til tolkningsmodus.</CompilationAccessForceInterpretation>
     <CompilationAccessTitle>Dokumentet bruker kompilering</CompilationAccessTitle>
     <CompilationModeEnabling>Du bytter til kompilasjonsmodus. Denne modusen lar deg kjøre ulik kode og kan være risikabel. Bruk kun hvis du forstår og godtar risikoen. Klikk {0} for å fortsette.</CompilationModeEnabling>
-    <ComponentSize>Endre størrelse på valgte komponenter.</ComponentSize>
-    <ComponentsMenu>Åpner Komponenter-menyen som inneholder ubrukte instrumentpanelelementer på mobiloverflaten.</ComponentsMenu>
-    <CopyStyle>Kopier stil</CopyStyle>
+    <ComponentSize>Endre størrelsen på valgte komponenter.</ComponentSize>
+    <ComponentsMenu>Vis ubrukte elementer.</ComponentsMenu>
+    <CopyStyle>Kopier stilen til andre komponenter.</CopyStyle>
     <CopyToClipboard>Kopier til utklippstavlen</CopyToClipboard>
     <CurrencySymbol>Velg valutasymbol.</CurrencySymbol>
     <DashboardNew>Lag et nytt dashbord.</DashboardNew>
     <DataStore>Vis data registrert i en rapport.</DataStore>
-    <DateTimeFormat>Velg dato- og tidsformat for valgte komponenter.</DateTimeFormat>
-    <DockingPanels>Panelinstillinger.</DockingPanels>
+    <DateTimeFormat>Velg dato- og tidsformat.</DateTimeFormat>
+    <DockingPanels>Vis eller skjul panelene.</DockingPanels>
     <DockStyleBottom>Fest valgte komponenter mot bunnen.</DockStyleBottom>
     <DockStyleFill>Fest valgte komponenter til alle sider.</DockStyleFill>
     <DockStyleLeft>Fest valgte komponenter til venstre side.</DockStyleLeft>
@@ -2204,17 +2207,17 @@
     <DockStyleTop>Fest valgte komponenter til toppen.</DockStyleTop>
     <EventsAccess1>Dette dokumentet bruker hendelser. Hvis dokumentet er fra en pålitelig kilde, kan du klikke "Åpne" for å få tilgang.</EventsAccess1>
     <EventsAccess2>Hvis du er usikker på kilden, men fortsatt vil se dokumentet, kan du klikke "Åpne i sikker modus". Da ignoreres hendelser.</EventsAccess2>
-    <FontGrow>Forstørr tekststørrelse.</FontGrow>
-    <FontName>Teksttype.</FontName>
+    <FontGrow>Gjør teksten større.</FontGrow>
+    <FontName>Endre skrifttypen for teksten.</FontName>
     <FontNameWatermark>Teksttype på vannmerke.</FontNameWatermark>
-    <FontShrink>Forminsk tekststørrelse.</FontShrink>
-    <FontSize>Tekststørrelse.</FontSize>
+    <FontShrink>Gjør teksten mindre.</FontShrink>
+    <FontSize>Endre tekststørrelsen.</FontSize>
     <FontSizeWatermark>Entre størrelse på teksttype.</FontSizeWatermark>
     <FontStyleBold>Gjør teksten fet.</FontStyleBold>
     <FontStyleBoldWatermark>Gjør teksten på vannmerket fet.</FontStyleBoldWatermark>
     <FontStyleItalic>Gjør teksten kursiv.</FontStyleItalic>
     <FontStyleItalicWatermark>Gjør teksten på vannmerket kursiv.</FontStyleItalicWatermark>
-    <FontStyleStrikeout>Gjør teksten gjennomstreket.</FontStyleStrikeout>
+    <FontStyleStrikeout>Stryk gjennom teksten.</FontStyleStrikeout>
     <FontStyleUnderline>Understrek teksten.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Understrek teksten på vannmerket.</FontStyleUnderlineWatermark>
     <FormatBoolean>Dette formatet brukes til å formatere verdier for boolean-typen.</FormatBoolean>
@@ -2226,61 +2229,61 @@
     <FormatPercentage>Vis verdi som prosent. Tall multipliseres med 100 for å konvertere de til prosenttall.</FormatPercentage>
     <FormatTime>Vis verdi som tid. Tidsformatet er basert på regionale tidsinstillinger.</FormatTime>
     <FormNew>Lag ny dialogform.</FormNew>
-    <GridMode>Vis rutenett i linjer eller prikker.</GridMode>
+    <GridMode>Vis rutenettet som linjer eller prikker.</GridMode>
     <ImageAlignment>Vis vannmerke på side.</ImageAlignment>
     <ImageTransparency>Endre vannmerkets gjennomsiktighet.</ImageTransparency>
-    <Interaction>Kontroller interaksjon for valgte komponenter.</Interaction>
-    <LineSpacing>Velg hvor mye plass det skal være mellom tekstlinjer eller avsnitt.</LineSpacing>
-    <Link>Link komponenten til gjeldende beholder.</Link>
+    <Interaction>Sett opp interaksjonen.</Interaction>
+    <LineSpacing>Endre linjeavstanden.</LineSpacing>
+    <Link>Koble til beholderen.</Link>
     <LoadImage>Last inn vannmerke fra fil.</LoadImage>
-    <Lock>Lås komponenten. Man kan ikke flytte eller endre størrelse på komponenten.</Lock>
-    <MainMenu>Klikk here for å se en liste over alle mulige operasjoner for en rapport, inkludert åpning, lukking og forhåndsvisning.</MainMenu>
+    <Lock>Lås posisjonen og størrelsen.</Lock>
+    <MainMenu>Opprett, åpne eller lagre en rapport.</MainMenu>
     <MakeHorizontalSpacingEqual>Tillater å sette lik horisontal avstand mellom valgte komponenter.</MakeHorizontalSpacingEqual>
     <MakeVerticalSpacingEqual>Tillater å sette lik vertikal avstand mellom valgte komponenter.</MakeVerticalSpacingEqual>
-    <Margins>Velg maringer for gjeldende side.</Margins>
+    <Margins>Velg sidemarginer.</Margins>
     <menuCheckIssues>Kontroller rapport for feil, advarsler og anbefalinger.</menuCheckIssues>
     <menuDesignerOptions>Velg innstillinger for rapportdesigner.</menuDesignerOptions>
-    <menuEditClearContents>Tøm innhold.</menuEditClearContents>
-    <menuEditCopy>Kopier valgte komponenter og legg dem på utklippstavlen.</menuEditCopy>
-    <menuEditCut>Klipp ut valgte komponenter og legg dem på utklippstavlen.</menuEditCut>
+    <menuEditClearContents>Tøm innholdet.</menuEditClearContents>
+    <menuEditCopy>Kopier valgte komponenter.</menuEditCopy>
+    <menuEditCut>Klipp ut valgte komponenter.</menuEditCut>
     <menuEditDelete>Slett valgte komponenter.</menuEditDelete>
-    <menuEditPaste>Lim inn innholdet fra utklippstavlen på rapporten.</menuEditPaste>
-    <menuExportSettings>Åpner Eksportredigeringsprogram for gjeldende rapport eller instrumentpanel. Innstillinger brukes bare ved eksportering av gjeldende rapport eller instrumentpanel.</menuExportSettings>
+    <menuEditPaste>Lim inn fra utklippstavlen.</menuEditPaste>
+    <menuExportSettings>Endre eksportinnstillingene.</menuExportSettings>
     <menuFAQPage>Gå til nettsiden med ofte stilte spørsmål.</menuFAQPage>
-    <menuGlobalizationStrings>Kall redigering av språkstrenger for gjeldende rapport.</menuGlobalizationStrings>
+    <menuGlobalizationStrings>Rediger globaliseringsstrengene.</menuGlobalizationStrings>
     <menuHelpAboutProgramm>Hent informasjon om versionen til rapportgeneratoren og .NET.</menuHelpAboutProgramm>
     <menuHomePage>Gå til produktets hjemmeside.</menuHomePage>
     <menuPageOptions>Velg grunnleggende parametere for gjeldende side. Alle instillinger for siden kan endres ved hjelp av egenskapspanelet.</menuPageOptions>
     <menuPagesManager>Kjør sidebehandler. Den gjør det mulig å flytte, slette og lage nye sider.</menuPagesManager>
-    <menuPreviewSettings>Instillinger for forhåndsvisning. Instillinger blir gyldige først når gjeldende rapport vises.</menuPreviewSettings>
+    <menuPreviewSettings>Endre innstillingene for forhåndsvisning.</menuPreviewSettings>
     <menuPrint>Velg en printer, antall kopier og andre printerinstillinger.</menuPrint>
     <menuPrintPreview>Forhåndsvis en rapport før utskrift.</menuPrintPreview>
     <menuPrintQuick>Skriv ut en rapport direkte til standardprinteren. Utskriftsdialog vises ikke.</menuPrintQuick>
-    <menuReportOptions>Velg grunnleggende rapportinstillinger. Alle instillinger kan endres i egenskapspanelet.</menuReportOptions>
+    <menuReportOptions>Endre rapportalternativene.</menuReportOptions>
     <menuStyleDesigner>Stildesigner for gjeldende rapport.</menuStyleDesigner>
     <menuSupport>Gå til hjelpeside for å stille spørsmål.</menuSupport>
-    <menuViewAlignToGrid>Juster komponenter etter rutenett.</menuViewAlignToGrid>
+    <menuViewAlignToGrid>Juster komponenter etter rutenettet.</menuViewAlignToGrid>
     <menuViewNormal>Normal visning av side.</menuViewNormal>
     <menuViewPageBreakPreview>Modus for å vise en side med segmenterte rammer.</menuViewPageBreakPreview>
-    <menuViewQuickInfo>Vis hurtiginformasjon om komponenter: komponentnavn, alias, innhold, hendelser, osv.</menuViewQuickInfo>
-    <menuViewShowGrid>Skru på rutenett for å kunne justere objekter i en rapport.</menuViewShowGrid>
-    <menuViewShowHeaders>Vis topptekst til bånd.</menuViewShowHeaders>
-    <menuViewShowOrder>Vis rekkefølgen til komponentene på en side.</menuViewShowOrder>
-    <menuViewShowRulers>Vis linjaler, som brukes til å måle og stille opp objekter på en side.</menuViewShowRulers>
-    <menuViewShowSmartGuides>Vis smarte hjelpelinjer for å plassere komponenter relativt til hverandre.</menuViewShowSmartGuides>
-    <MoveBackward>Flytt en komponent ett niva opp i plasseringsordningen av komponenter på siden.</MoveBackward>
-    <MoveForward>Flytt en komponent ett niva ned i plasseringsordningen av komponenter på siden.</MoveForward>
+    <menuViewQuickInfo>Vis hurtiginformasjon om komponenter.</menuViewQuickInfo>
+    <menuViewShowGrid>Vis rutenettet.</menuViewShowGrid>
+    <menuViewShowHeaders>Vis topptekster for bånd.</menuViewShowHeaders>
+    <menuViewShowOrder>Vis rekkefølgen til komponentene.</menuViewShowOrder>
+    <menuViewShowRulers>Vis linjaler.</menuViewShowRulers>
+    <menuViewShowSmartGuides>Vis smarte hjelpelinjer.</menuViewShowSmartGuides>
+    <MoveBackward>Flytt ett nivå bakover.</MoveBackward>
+    <MoveForward>Flytt ett nivå fremover.</MoveForward>
     <NotPossibleEnableCompilationMode>Det er ikke mulig å aktivere kompilasjonsmodus for rapporten. Dette er forbudt av 'Compilation Access'-innstillingen i designeren.</NotPossibleEnableCompilationMode>
-    <Orientation>Bytt sideorientering mellom stående og liggende.</Orientation>
+    <Orientation>Bytt mellom stående og liggende.</Orientation>
     <PageDelete>Slett gjeldende side fra rapport.</PageDelete>
     <PageNew>Lag en ny side.</PageNew>
-    <PageSetup>Vis sideinstillingsdialogen.</PageSetup>
-    <PageSize>Velg papirstørrelse for gjeldende side i rapporten.</PageSize>
+    <PageSetup>Endre sideinnstillingene.</PageSetup>
+    <PageSize>Velg papirstørrelse.</PageSize>
     <PagesManager>Kjør Pages Manager.</PagesManager>
     <PressF1>Trykk F1 hvis du vil ha mer informasjon</PressF1>
-    <PropertiesButton>Aktiverer Egenskaper-panelet med egenskapene i rapportraden.</PropertiesButton>
+    <PropertiesButton>Vis rapportegenskapene.</PropertiesButton>
     <Redo>Gjør om forrige avbrutte endring i rapporten.</Redo>
-    <RemoveMobileSurfaceButton>Fjerner mobiloverflaten fra gjeldende instrumentpanel.</RemoveMobileSurfaceButton>
+    <RemoveMobileSurfaceButton>Fjern mobiloverflaten.</RemoveMobileSurfaceButton>
     <ReportNew>Lag en ny rapport.</ReportNew>
     <ReportOpen>Åpne rapport i designer.</ReportOpen>
     <ReportPreview>Forhåndsvis redigert rapport i viewer.</ReportPreview>
@@ -2292,46 +2295,47 @@
     <ScriptSecuritySafeMode>Sikker skripttilgang (begrensede funksjoner av hensyn til sikkerhet).</ScriptSecuritySafeMode>
     <SelectAll>VElg alle komponentene på gjeldende side.</SelectAll>
     <SelectUILanguage>Velg UI-språk.</SelectUILanguage>
-    <SendToBack>Flytt den valgte komponenten relativt til andre komponenter.</SendToBack>
+    <SendToBack>Plasser lengst bak.</SendToBack>
     <ServicesConfigurator>Kjør tjenestekonfigurering.</ServicesConfigurator>
-    <Shadow>Vis komponentens skygge.</Shadow>
+    <Shadow>Vis eller skjul skyggen.</Shadow>
     <ShowBehind>Vis vannmerkingstekst bak komponentene.</ShowBehind>
     <ShowImageBehind>Vis vannmerkingsbilde bak alle komponentene på siden.</ShowImageBehind>
     <ShowToolbox>Vis verktøylinjen.</ShowToolbox>
     <StimulsoftHelp>Hjelp Stimulsoft</StimulsoftHelp>
-    <StyleDesigner>Kjør stildesigner.</StyleDesigner>
+    <StyleDesigner>Åpne stildesigneren.</StyleDesigner>
     <TellMeMore>Fortell meg mer</TellMeMore>
     <Text>Vannmerkingstekst.</Text>
     <TextBrush>Endre tekstfargen.</TextBrush>
     <TextBrushWatermark>Endre tekstfargen til vannmerket.</TextBrushWatermark>
     <TextColor>Endre tekstfargen.</TextColor>
-    <TextFormat>Velg formatering for verdier.</TextFormat>
+    <TextFormat>Velg format for verdier.</TextFormat>
     <ToolbarStyle>Sett valgt stil for alle valgte komponenter.</ToolbarStyle>
     <Undo>Angre siste endring i rapporten.</Undo>
-    <ViewModeDesktopButton>Aktiver skrivebordoverflate.</ViewModeDesktopButton>
-    <ViewModeMobileButton>Aktiver mobil overflate.</ViewModeMobileButton>
-    <WordWrap>Bryt teksten i komponenten.</WordWrap>
+    <ViewModeDesktopButton>Vis skrivebordsoverflaten.</ViewModeDesktopButton>
+    <ViewModeMobileButton>Vis mobiloverflaten.</ViewModeMobileButton>
+    <Watermark>Endre vannmerkeinnstillingene.</Watermark>
+    <WordWrap>Bryt teksten.</WordWrap>
     <Zoom>Spesifiser zoomnivået for rapporten.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
-    <StiButtonControl>Representerer knappkontroll.</StiButtonControl>
-    <StiCheckBoxControl>Representerer markeringskontroll.</StiCheckBoxControl>
-    <StiCheckedListBoxControl>Viser listeobjekt, hvor en markering vises til venstre for hvert element.</StiCheckedListBoxControl>
-    <StiComboBoxControl>Representerer comboboksen som brukes enten for å angi verditype direkte eller for å velge fra en liste med eksisterende valgmuligheter.</StiComboBoxControl>
-    <StiDateTimePickerControl>Representerer kontrollen som gjør det mulig å velge dato og tid. Den tillater også å skrive dato og tid i et spesifisert format.</StiDateTimePickerControl>
-    <StiGridControl>Representerer rutenettkontrollen som består av rader og kolonner.</StiGridControl>
-    <StiGroupBoxControl>Representerer kontrollen lager beholdere med rammer og topptekst for UI-innhold.</StiGroupBoxControl>
-    <StiLabelControl>En etikett er en grensesnittskontroll som viser text i et visst format. Det er vanligvis en statisk kontroll som ikke er interaktiv.</StiLabelControl>
-    <StiListBoxControl>Inneholder listen over elementer som kan velges.</StiListBoxControl>
-    <StiListViewControl>Representerer ListView-kontrollen som lister opp alle dataelementer.</StiListViewControl>
-    <StiLookUpBoxControl>Inneholder listen over elementene som kan velges.</StiLookUpBoxControl>
-    <StiNumericUpDownControl>Representerer kontrollen som viser numeriske verdier.</StiNumericUpDownControl>
-    <StiPanelControl>Panelelement brukes for plassering og arrangering av objekter.</StiPanelControl>
-    <StiPictureBoxControl>Representerer kontrollen for å vise bilder.</StiPictureBoxControl>
-    <StiRadioButtonControl>Representerer radioknappen som gjør det mulig for brukeren å gjøre ett valg av flere forhåndsdefinerte alternativer. </StiRadioButtonControl>
-    <StiRichTextBoxControl>Representerer rik tekst-kontrollen med redigeringsmuligheter.</StiRichTextBoxControl>
-    <StiTextBoxControl>Representerer tekstkontrollen som brukes til visning og redigering av tekst.</StiTextBoxControl>
-    <StiTreeViewControl>Representerer kontrollen som brukes til trevisning av hierarkisk data.</StiTreeViewControl>
+    <StiButtonControl>Utfører en handling ved klikk.</StiButtonControl>
+    <StiCheckBoxControl>Slår ett alternativ på eller av.</StiCheckBoxControl>
+    <StiCheckedListBoxControl>Viser en liste med en avkrysningsboks per element.</StiCheckedListBoxControl>
+    <StiComboBoxControl>Viser en nedtrekksliste for å velge eller skrive en verdi.</StiComboBoxControl>
+    <StiDateTimePickerControl>Viser en kalender for å velge dato og klokkeslett.</StiDateTimePickerControl>
+    <StiGridControl>Viser data i rader og kolonner.</StiGridControl>
+    <StiGroupBoxControl>Grupperer kontroller i en ramme med overskrift.</StiGroupBoxControl>
+    <StiLabelControl>Viser en tekst på skjemaet.</StiLabelControl>
+    <StiListBoxControl>Viser en liste for å velge elementer.</StiListBoxControl>
+    <StiListViewControl>Viser en liste over dataelementer.</StiListViewControl>
+    <StiLookUpBoxControl>Viser en nedtrekksliste for å velge et element.</StiLookUpBoxControl>
+    <StiNumericUpDownControl>Tar imot et tall, med knapper for å endre det.</StiNumericUpDownControl>
+    <StiPanelControl>Grupperer andre kontroller i ett område.</StiPanelControl>
+    <StiPictureBoxControl>Viser et bilde.</StiPictureBoxControl>
+    <StiRadioButtonControl>Velger ett alternativ i en gruppe.</StiRadioButtonControl>
+    <StiRichTextBoxControl>Viser og redigerer formatert tekst.</StiRichTextBoxControl>
+    <StiTextBoxControl>Viser og redigerer en tekst.</StiTextBoxControl>
+    <StiTreeViewControl>Viser hierarkiske data som et tre.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
     <AddPageBreaks>Visuell inndeling av rapportsider.</AddPageBreaks>

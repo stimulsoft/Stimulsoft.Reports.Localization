@@ -2048,136 +2048,139 @@
     <sys_morebuttons>更多按鈕</sys_morebuttons>
   </Gui>
   <HelpComponents>
-    <StiBarCode>此元件可在報表中顯示條碼。條碼資料以字串形式傳送至物件。字串可包含任何符號，但僅能顯示所選條碼類型允許的符號。</StiBarCode>
-    <StiButtonElement>此元素用於在使用者與其互動時執行事件指令碼。</StiButtonElement>
-    <StiButtonUI>用於觸發動作或啟動命令的按鈕。</StiButtonUI>
-    <StiCardsElement>此元素用於以卡片形式顯示群組資料。</StiCardsElement>
-    <StiChart>此元件可在報表中顯示圖表。提供多種類型的圖表，其中包括長條圖、折線圖、圓餅圖、環圈圖、區域圖、甘特圖和散佈圖等。</StiChart>
-    <StiChartElement>此元素可在儀表板中顯示圖表。提供多種類型的圖表。</StiChartElement>
-    <StiCheckBox>此元件可在報表中顯示核取方塊。它可顯示為兩種狀態：「已啟用」或「已停用」。</StiCheckBox>
-    <StiCheckBoxGroupUI>用於從清單中選取多個預先定義選項的核取方塊群組。</StiCheckBoxGroupUI>
-    <StiCheckBoxUI>用於快速開啟或關閉單一選項的核取方塊。</StiCheckBoxUI>
-    <StiChildBand>子帶區可用於在一列資料上輸出兩個帶區。</StiChildBand>
-    <StiClone>此元件用於將報表的部分內容複製到報表的另一部分。複製僅能套用於面板內容。</StiClone>
-    <StiColumnFooterBand>此區帶用於輸出資料區帶上各欄的頁尾。欄頁尾區帶在每一欄之下輸出一次。放置在此區帶上的所有元件也會輸出在每一欄之下。</StiColumnFooterBand>
-    <StiColumnHeaderBand>此區帶用於輸出欄頁首。欄頁首區帶僅輸出一次。放置在此區帶上的所有元件均可輸出在每一欄的上方。</StiColumnHeaderBand>
-    <StiComboBoxElement>代表下拉式方塊，可直接在控制項中輸入值，或從現有選項清單中選擇。</StiComboBoxElement>
-    <StiContainer>這是可放置其他元件（包括區帶）的矩形區域。移動容器時，其中的元件也會一併移動。容器既可放置在區帶上，也可放置在頁面上。</StiContainer>
-    <StiCrossDataBand>此區帶連接至資料來源。其輸出次數與資料來源中的列數相同。交叉區帶由左至右輸出。</StiCrossDataBand>
-    <StiCrossFooterBand>此區帶用於輸出交叉資料區帶的頁尾。此區帶在資料區帶的所有列輸出之後輸出一次。交叉區帶由左至右輸出。</StiCrossFooterBand>
-    <StiCrossGroupFooterBand>此區帶用於輸出群組的頁尾。它放置在交叉資料區帶之下。每個交叉頁尾都屬於指定的交叉頁首區帶。交叉區帶由左至右輸出。</StiCrossGroupFooterBand>
-    <StiCrossGroupHeaderBand>此區帶是使用交叉資料時，呈現含群組報表的基本區帶。沒有此區帶就無法建立群組。用於顯示群組資訊的元件放置於群組頁首，資訊可以是群組名稱、日期、群組條件等。此區帶在每個群組的開頭輸出。交叉區帶由左至右輸出。</StiCrossGroupHeaderBand>
-    <StiCrossHeaderBand>此區帶用於輸出頁首。它與交叉區帶搭配使用。交叉區帶由左至右輸出。</StiCrossHeaderBand>
-    <StiCrossTab>交叉表元件用於將結構化資料以表格呈現。</StiCrossTab>
-    <StiDataBand>資料帶區連接至資料來源，並依資料來源中的列數輸出相同次數。</StiDataBand>
-    <StiDatePickerElement>此元素用於選取日期與時間。</StiDatePickerElement>
-    <StiDatePickerUI>用於從日曆中選取日期的日期選擇器。</StiDatePickerUI>
-    <StiElectronicSignature>此元件用於加入圖形簽名、圖片、姓名縮寫和文字。</StiElectronicSignature>
-    <StiEmptyBand>此區帶用於填滿頁面底部的可用空間。此區帶會填滿報表每一頁的可用空間。</StiEmptyBand>
-    <StiFilterCategory>用於選取和篩選值的元素群組。</StiFilterCategory>
-    <StiFooterBand>此區帶用於輸出資料區帶的摘要。它放置在資料區帶之下，並在資料區帶輸出所有資料列之後輸出一次。</StiFooterBand>
-    <StiGauge>此元件可讓您顯示預先定義範圍內的值。它可以有不同的圖形呈現方式。</StiGauge>
-    <StiGaugeElement>此元素可讓您顯示預先定義範圍內的值。它可以有不同的圖形呈現方式。</StiGaugeElement>
-    <StiGroupFooterBand>群組頁尾帶區用於輸出群組頁尾。此帶區位於資料帶區之後，即群組頁首帶區所繫結的資料帶區。每個群組頁尾帶區都屬於指定的群組頁首帶區。若沒有群組頁首帶區，群組頁尾帶區將不會被輸出。</StiGroupFooterBand>
-    <StiGroupHeaderBand>此區帶是呈現含群組報表的基本區帶。用於顯示此群組資訊的元件放置於群組頁首，可以是群組名稱、日期、群組條件等。此區帶在每個群組的開頭輸出一次。</StiGroupHeaderBand>
-    <StiHeaderBand>此區帶用於輸出頁首。它與資料區帶一起使用。</StiHeaderBand>
-    <StiHierarchicalBand>此區帶連接至資料來源，其輸出次數與資料來源中的列數相同。資料以樹狀結構輸出。</StiHierarchicalBand>
-    <StiHorizontalLinePrimitive>此元件用於輸出線條。</StiHorizontalLinePrimitive>
-    <StiIconUI>用於顯示符號圖形或視覺標記的圖示。</StiIconUI>
-    <StiImage>此元件用於輸出圖片。</StiImage>
-    <StiImageElement>此元素用於輸出圖片。它支援下列圖形格式：BMP、JPG、JPEG、GIF、TIFF、PNG、ICO、WMF、EMF、SVG。</StiImageElement>
-    <StiImageUI>用於在介面中顯示圖形內容的圖片。</StiImageUI>
-    <StiIndicatorElement>此元素顯示輸入資料之間的值差異。</StiIndicatorElement>
-    <StiLabelUI>用於顯示文字或簡短說明文字的標籤。</StiLabelUI>
-    <StiListBoxElement>此元素可從清單中選取項目。</StiListBoxElement>
-    <StiListUI>用於以垂直集合顯示可選取項目的清單。</StiListUI>
-    <StiMap>此元件用於顯示以地理位置為目標的資料。</StiMap>
-    <StiMapCategory>用於處理地圖與資料的元素群組。</StiMapCategory>
-    <StiMapElement>此元素用於顯示以地理位置為目標的資料。</StiMapElement>
-    <StiMarkdown>此元件可在報表中顯示 CommonMark / GFM Markdown 格式的文字。</StiMarkdown>
-    <StiMathFormula>此元件用於在報表中顯示數學公式。</StiMathFormula>
-    <StiMultiListUI>用於從同一集合中選取多個項目的清單。</StiMultiListUI>
-    <StiMultiSelectUI>用於從預先準備的清單中選擇多個值的選取器。</StiMultiSelectUI>
-    <StiNumberBoxElement>此元素用於選取數值或設定數值範圍。</StiNumberBoxElement>
-    <StiNumberInputUI>用於以受控方式輸入數值的數字輸入框。</StiNumberInputUI>
-    <StiOnlineMapElement>此元素用於在線上地圖上顯示地理標記。</StiOnlineMapElement>
-    <StiOverlayBand>此區帶用於在頁面上輸出浮水印。</StiOverlayBand>
-    <StiPageFooterBand>此區帶用於在每一頁的底部輸出頁碼、日期及其他附加資訊等內容。</StiPageFooterBand>
-    <StiPageHeaderBand>此區帶用於輸出頁面頁首，例如頁碼、日期及其他附加資訊。它輸出在每一頁的頂端。</StiPageHeaderBand>
-    <StiPanel>可包含其他元件（包括區段）的矩形區域。移動面板時，其中的元件也會一併移動。面板可放置於區段或頁面上。</StiPanel>
-    <StiPanelElement>可包含其他元素的矩形區域。移動面板時，其中的元素也會一併移動。</StiPanelElement>
-    <StiPanelUI>用於在同一區域內群組和排列其他控制項的面板。</StiPanelUI>
-    <StiPdfDigitalSignature>此互動式元件用於在報表匯出為 Adobe PDF 後指定數位簽章的位置。</StiPdfDigitalSignature>
-    <StiPdfDigitalSignatureElement>此元件用於在匯出為 PDF 時指定數位簽章及憑證欄位的位置。</StiPdfDigitalSignatureElement>
-    <StiPivotTableElement>樞紐分析表元素用於以表格形式呈現結構化資料。</StiPivotTableElement>
-    <StiProgressElement>此元素顯示輸入資料的比例。可以不同模式呈現 - 圓餅圖、環圈圖、長條圖。</StiProgressElement>
-    <StiRadioGroupUI>用於從預先定義的值集合中選取一個選項的選項按鈕群組。</StiRadioGroupUI>
-    <StiRangeSelectorElement>此元件用於在刻度或時間軸上選取值的範圍。它可讓使用者以視覺化方式定義範圍的最小和最大限制。</StiRangeSelectorElement>
-    <StiRangeSliderUI>用於在刻度上定義最小值和最大值的範圍滑桿。</StiRangeSliderUI>
-    <StiRectanglePrimitive>此元件用於輸出矩形。</StiRectanglePrimitive>
-    <StiRegionMapElement>此元素用於顯示以地理位置為目標的資料。</StiRegionMapElement>
-    <StiReportSummaryBand>此區帶用於輸出整份報表的摘要。它在報表結尾輸出一次。</StiReportSummaryBand>
-    <StiReportTitleBand>此區帶用於輸出報表標題。它在報表的開頭輸出。</StiReportTitleBand>
-    <StiRichText>此元件用於輸出和編輯 RTF 文字。它也支援以 RTF 格式載入和儲存檔案。</StiRichText>
-    <StiRoundedRectanglePrimitive>此元件用於輸出圓角矩形。</StiRoundedRectanglePrimitive>
-    <StiScreen>承載應用程式頁面之控制項、版面配置和使用者互動的畫面。</StiScreen>
-    <StiSelectUI>用於從下拉清單中選擇單一值的選取方塊。</StiSelectUI>
-    <StiShape>此元件用於插入現成的形狀，例如箭頭、右下斜線、右上斜線、水平線、左右線、橢圓、矩形、圓角矩形、上下線、三角形、垂直線。</StiShape>
-    <StiShapeElement>此元素用於插入現成的形狀，例如箭頭、右下斜線、右上斜線、水平線、左右線、橢圓、矩形、圓角矩形、上下線、三角形、垂直線。</StiShapeElement>
-    <StiSignature>此元件用於在報表中加入電子或數位簽章。</StiSignature>
-    <StiSliderUI>用於在連續數值刻度上選取值的滑桿。</StiSliderUI>
-    <StiSparkline>此元件用於在報表中建立微型圖形。它可讓您以長條、線條、區域的形式追蹤動態變化的資料。</StiSparkline>
-    <StiSubReport>此元件用於在報表的不同位置輸出附加資料。</StiSubReport>
-    <StiSwitchUI>用於一鍵開啟或關閉設定的開關。</StiSwitchUI>
-    <StiTable>此元件是一組資料元素，以垂直欄與水平列的模型加以組織。</StiTable>
-    <StiTableElement>此元素是一組資料元素，以垂直欄與水平列的模型加以組織。</StiTableElement>
-    <StiTableOfContents>此元件用於在報表中建立目錄。</StiTableOfContents>
-    <StiTableUI>用於以列與欄清楚顯示資料的表格。</StiTableUI>
-    <StiText>此元件是以文字形式輸出資料的基本物件。</StiText>
-    <StiTextElement>此元素是以文字形式輸出資料的基本物件。</StiTextElement>
-    <StiTextInCells>此元件用於在儲存格中輸出文字。常用於建立表單。</StiTextInCells>
-    <StiTextInputUI>用於輸入及編輯文字值的文字輸入框。</StiTextInputUI>
-    <StiTreeViewBoxElement>此元素用於透過樹狀下拉式清單選取值。</StiTreeViewBoxElement>
-    <StiTreeViewElement>代表用於以樹狀結構顯示階層資料的元素。</StiTreeViewElement>
-    <StiVerticalLinePrimitive>此元件用於輸出垂直線。</StiVerticalLinePrimitive>
-    <StiWebContentElement>此元件可將網頁內容加入儀表板。</StiWebContentElement>
-    <StiWinControl>此元件可顯示來自 .NET 的視覺控制項。</StiWinControl>
-    <StiZipCode>此元件用於輸出郵遞區號。</StiZipCode>
+    <CategoryBands>輸出頁首、資料與頁尾的區帶。</CategoryBands>
+    <CategoryComponents>顯示文字、圖片與其他資料的元件。</CategoryComponents>
+    <CategoryCrossBands>由左至右輸出的區帶。</CategoryCrossBands>
+    <StiBarCode>顯示條碼。</StiBarCode>
+    <StiButtonElement>按一下時執行指令碼。</StiButtonElement>
+    <StiButtonUI>啟動動作或命令。</StiButtonUI>
+    <StiCardsElement>以卡片形式顯示群組資料。</StiCardsElement>
+    <StiChart>以圖表形式顯示資料。</StiChart>
+    <StiChartElement>以圖表形式顯示資料。</StiChartElement>
+    <StiCheckBox>以核取記號顯示真或假值。</StiCheckBox>
+    <StiCheckBoxGroupUI>提供一組可勾選多項的選項。</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>開啟或關閉單一選項。</StiCheckBoxUI>
+    <StiChildBand>為同一資料列再輸出一個區帶。</StiChildBand>
+    <StiClone>重複面板的內容。</StiClone>
+    <StiColumnFooterBand>在數據區每一欄的下方輸出。</StiColumnFooterBand>
+    <StiColumnHeaderBand>在數據區每一欄的上方輸出。</StiColumnHeaderBand>
+    <StiComboBoxElement>從下拉式清單中選取值。</StiComboBoxElement>
+    <StiContainer>將其他元件組合在同一區域內。</StiContainer>
+    <StiCrossDataBand>由左至右為每個資料列輸出一次。</StiCrossDataBand>
+    <StiCrossFooterBand>在交叉-資料區之後輸出。</StiCrossFooterBand>
+    <StiCrossGroupFooterBand>在每個交叉群組的結尾輸出。</StiCrossGroupFooterBand>
+    <StiCrossGroupHeaderBand>在每個交叉群組的開頭輸出。</StiCrossGroupHeaderBand>
+    <StiCrossHeaderBand>在交叉-資料區之前輸出。</StiCrossHeaderBand>
+    <StiCrossTab>以交叉表形式顯示結構化資料。</StiCrossTab>
+    <StiDataBand>為資料來源的每一列輸出一次。</StiDataBand>
+    <StiDatePickerElement>選取日期與時間。</StiDatePickerElement>
+    <StiDatePickerUI>顯示日曆以選取日期。</StiDatePickerUI>
+    <StiElectronicSignature>加入手繪、輸入或圖片簽名。</StiElectronicSignature>
+    <StiEmptyBand>填滿頁面底部的空白區域。</StiEmptyBand>
+    <StiFilterCategory>用於選取與篩選值的元素。</StiFilterCategory>
+    <StiFooterBand>在數據區的各列之後輸出。</StiFooterBand>
+    <StiGauge>顯示某個範圍內的值。</StiGauge>
+    <StiGaugeElement>顯示某個範圍內的值。</StiGaugeElement>
+    <StiGroupFooterBand>在每個群組的結尾輸出。</StiGroupFooterBand>
+    <StiGroupHeaderBand>在每個群組的開頭輸出。</StiGroupHeaderBand>
+    <StiHeaderBand>在數據區的各列之前輸出。</StiHeaderBand>
+    <StiHierarchicalBand>以樹狀結構輸出資料來源的列。</StiHierarchicalBand>
+    <StiHorizontalLinePrimitive>繪製橫線。</StiHorizontalLinePrimitive>
+    <StiIconUI>顯示圖示。</StiIconUI>
+    <StiImage>顯示圖片。</StiImage>
+    <StiImageElement>顯示圖片。</StiImageElement>
+    <StiImageUI>顯示圖片。</StiImageUI>
+    <StiIndicatorElement>顯示值之間的差異。</StiIndicatorElement>
+    <StiLabelUI>顯示簡短文字。</StiLabelUI>
+    <StiListBoxElement>從清單中選取項目。</StiListBoxElement>
+    <StiListUI>顯示清單以選取一個項目。</StiListUI>
+    <StiMap>在地圖上顯示資料。</StiMap>
+    <StiMapCategory>在地圖上顯示資料的元素。</StiMapCategory>
+    <StiMapElement>在地圖上顯示資料。</StiMapElement>
+    <StiMarkdown>顯示 Markdown 文字。</StiMarkdown>
+    <StiMathFormula>顯示數學公式。</StiMathFormula>
+    <StiMultiListUI>顯示清單以選取多個項目。</StiMultiListUI>
+    <StiMultiSelectUI>顯示下拉式清單以選取多個值。</StiMultiSelectUI>
+    <StiNumberBoxElement>選取數字或數字範圍。</StiNumberBoxElement>
+    <StiNumberInputUI>接收使用者輸入的數字。</StiNumberInputUI>
+    <StiOnlineMapElement>在線上地圖上顯示標記。</StiOnlineMapElement>
+    <StiOverlayBand>在每一頁上輸出浮水印。</StiOverlayBand>
+    <StiPageFooterBand>在每一頁的底部輸出。</StiPageFooterBand>
+    <StiPageHeaderBand>在每一頁的頂端輸出。</StiPageHeaderBand>
+    <StiPanel>將其他元件組合在同一區域內。</StiPanel>
+    <StiPanelElement>將其他元素組合在同一區域內。</StiPanelElement>
+    <StiPanelUI>將其他控制項組合在同一區域內。</StiPanelUI>
+    <StiPdfDigitalSignature>標示 PDF 中數位簽章的位置。</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>標示 PDF 中數位簽章的位置。</StiPdfDigitalSignatureElement>
+    <StiPivotTableElement>以樞紐分析表形式顯示結構化資料。</StiPivotTableElement>
+    <StiProgressElement>將值顯示為整體的一部分。</StiProgressElement>
+    <StiRadioGroupUI>提供一組只能選取一項的選項。</StiRadioGroupUI>
+    <StiRangeSelectorElement>在刻度或時間軸上選取範圍。</StiRangeSelectorElement>
+    <StiRangeSliderUI>在刻度上設定範圍。</StiRangeSliderUI>
+    <StiRectanglePrimitive>繪製矩形。</StiRectanglePrimitive>
+    <StiRegionMapElement>在區域地圖上顯示資料。</StiRegionMapElement>
+    <StiReportSummaryBand>在報表結尾輸出一次。</StiReportSummaryBand>
+    <StiReportTitleBand>在報表開頭輸出一次。</StiReportTitleBand>
+    <StiRichText>顯示格式化的 RTF 文字。</StiRichText>
+    <StiRoundedRectanglePrimitive>繪製圓角矩形。</StiRoundedRectanglePrimitive>
+    <StiScreen>承載應用程式頁面的控制項。</StiScreen>
+    <StiSelectUI>顯示下拉式清單以選取一個值。</StiSelectUI>
+    <StiShape>顯示現成的形狀。</StiShape>
+    <StiShapeElement>顯示現成的形狀。</StiShapeElement>
+    <StiSignature>加入電子或數位簽章。</StiSignature>
+    <StiSliderUI>在刻度上設定值。</StiSliderUI>
+    <StiSparkline>顯示資料數列的小型圖表。</StiSparkline>
+    <StiSubReport>在此處輸出另一份報表或頁面。</StiSubReport>
+    <StiSwitchUI>開啟或關閉一項設定。</StiSwitchUI>
+    <StiTable>以列與欄顯示資料。</StiTable>
+    <StiTableElement>以列與欄顯示資料。</StiTableElement>
+    <StiTableOfContents>建立目錄。</StiTableOfContents>
+    <StiTableUI>以列與欄顯示資料。</StiTableUI>
+    <StiText>以文字形式顯示資料。</StiText>
+    <StiTextElement>以文字形式顯示資料。</StiTextElement>
+    <StiTextInCells>以每個儲存格一個字元顯示文字。</StiTextInCells>
+    <StiTextInputUI>接收使用者輸入的文字。</StiTextInputUI>
+    <StiTreeViewBoxElement>從下拉式樹狀清單中選取值。</StiTreeViewBoxElement>
+    <StiTreeViewElement>以樹狀結構顯示階層資料。</StiTreeViewElement>
+    <StiVerticalLinePrimitive>繪製豎線。</StiVerticalLinePrimitive>
+    <StiWebContentElement>顯示網頁內容。</StiWebContentElement>
+    <StiWinControl>顯示 .NET 視覺控制項。</StiWinControl>
+    <StiZipCode>顯示 ZIP 郵遞區號。</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
     <ActiveRelation>設定優先的關聯以繫結兩個表格。它用於資料轉換和儀表板。每個資料來源中只能有一個關聯處於作用中。</ActiveRelation>
-    <Align>變更選取元件的位置。</Align>
-    <AlignBottom>底端對齊</AlignBottom>
-    <AlignCenter>居中對齊</AlignCenter>
+    <Align>對齊選取的元件。</Align>
+    <AlignBottom>將內容靠下對齊。</AlignBottom>
+    <AlignCenter>將內容置中對齊。</AlignCenter>
     <AlignComponentBottom>可讓您沿所選元件的下緣水平對齊物件。</AlignComponentBottom>
     <AlignComponentCenter>可讓您沿所選元件的中線水平對齊物件。</AlignComponentCenter>
     <AlignComponentLeft>可讓您沿所選元件的左緣垂直對齊物件。</AlignComponentLeft>
     <AlignComponentMiddle>可讓您沿所選元件的中線垂直對齊物件。</AlignComponentMiddle>
     <AlignComponentRight>可讓您沿所選元件的右緣垂直對齊物件。</AlignComponentRight>
     <AlignComponentTop>可讓您沿所選元件的上緣水平對齊物件。</AlignComponentTop>
-    <AlignLeft>左對齊</AlignLeft>
-    <AlignMiddle>中間對齊</AlignMiddle>
-    <AlignRight>右對齊</AlignRight>
-    <AlignToGrid>對齊到網格</AlignToGrid>
-    <AlignTop>頂端對齊</AlignTop>
-    <AlignWidth>寬度相同</AlignWidth>
-    <Angle>角度</Angle>
+    <AlignLeft>將內容靠左對齊。</AlignLeft>
+    <AlignMiddle>將內容垂直置中對齊。</AlignMiddle>
+    <AlignRight>將內容靠右對齊。</AlignRight>
+    <AlignToGrid>將選取的元件對齊格線。</AlignToGrid>
+    <AlignTop>將內容靠上對齊。</AlignTop>
+    <AlignWidth>將內容左右對齊。</AlignWidth>
+    <Angle>旋轉文字。</Angle>
     <AngleWatermark>浮水印文字的旋轉角度。</AngleWatermark>
-    <Background>背景</Background>
-    <biConditions>控制所選元件的條件清單。</biConditions>
-    <BorderColor>邊框顏色</BorderColor>
-    <BorderSidesAll>開啟所選元件的所有框線。</BorderSidesAll>
-    <BorderSidesBottom>開啟所選元件的下框線。</BorderSidesBottom>
-    <BorderSidesLeft>開啟所選元件的左框線。</BorderSidesLeft>
-    <BorderSidesNone>關閉所選元件的所有框線。</BorderSidesNone>
-    <BorderSidesRight>開啟所選元件的右框線。</BorderSidesRight>
-    <BorderSidesTop>開啟所選元件的上框線。</BorderSidesTop>
-    <BorderStyle>邊框樣式</BorderStyle>
-    <BringToFront>前置</BringToFront>
+    <Background>變更背景。</Background>
+    <biConditions>編輯條件。</biConditions>
+    <BorderColor>變更框線顏色。</BorderColor>
+    <BorderSidesAll>顯示所有框線。</BorderSidesAll>
+    <BorderSidesBottom>顯示或隱藏下框線。</BorderSidesBottom>
+    <BorderSidesLeft>顯示或隱藏左框線。</BorderSidesLeft>
+    <BorderSidesNone>隱藏所有框線。</BorderSidesNone>
+    <BorderSidesRight>顯示或隱藏右框線。</BorderSidesRight>
+    <BorderSidesTop>顯示或隱藏上框線。</BorderSidesTop>
+    <BorderStyle>變更框線樣式。</BorderStyle>
+    <BringToFront>移到最上層。</BringToFront>
     <CenterHorizontally>水準居中</CenterHorizontally>
     <CenterVertically>垂直居中</CenterVertically>
     <Close>關閉報表設計器。</Close>
-    <Columns>欄數</Columns>
+    <Columns>將頁面分成多欄。</Columns>
     <CompilationAccess1>此文件使用了編譯過程。如果文件來自信任的來源，您可以按一下「開啟」按鈕來存取它。</CompilationAccess1>
     <CompilationAccess2>如果您不確定文件的來源但仍想檢視它，可以按一下「以安全模式開啟」按鈕。在此情況下，將使用解譯而非編譯，讓您能夠安全地執行文件。</CompilationAccess2>
     <CompilationAccess3>此文件使用了編譯過程，可能不安全。您無法開啟它。</CompilationAccess3>
@@ -2188,15 +2191,15 @@
     <CompilationAccessForceInterpretation>使用編譯的文件將直接開啟而不提示，但會自動轉換為不使用編譯程序的解譯模式。</CompilationAccessForceInterpretation>
     <CompilationAccessTitle>此文件使用編譯</CompilationAccessTitle>
     <CompilationModeEnabling>您正在切換至編譯模式。此模式允許執行不同的程式碼，有時可能造成危害。請僅在您了解並同意所有風險的情況下使用此模式。按一下 {0} 按鈕以繼續。</CompilationModeEnabling>
-    <ComponentSize>變更所選元件的大小。</ComponentSize>
-    <ComponentsMenu>開啟「元件」選單，其中包含行動介面上未使用的儀表板元素。</ComponentsMenu>
-    <CopyStyle>複製樣式</CopyStyle>
+    <ComponentSize>調整選取元件的大小。</ComponentSize>
+    <ComponentsMenu>顯示未使用的元素。</ComponentsMenu>
+    <CopyStyle>將樣式複製到其他元件。</CopyStyle>
     <CopyToClipboard>複製到剪貼簿</CopyToClipboard>
     <CurrencySymbol>選取貨幣符號。</CurrencySymbol>
     <DashboardNew>建立新儀表板。</DashboardNew>
     <DataStore>顯示報表中已註冊的資料。</DataStore>
-    <DateTimeFormat>為所選元件選取日期與時間格式。</DateTimeFormat>
-    <DockingPanels>面板設定。</DockingPanels>
+    <DateTimeFormat>選取日期與時間格式。</DateTimeFormat>
+    <DockingPanels>顯示或隱藏面板。</DockingPanels>
     <DockStyleBottom>按鈕</DockStyleBottom>
     <DockStyleFill>填充</DockStyleFill>
     <DockStyleLeft>左</DockStyleLeft>
@@ -2205,18 +2208,18 @@
     <DockStyleTop>上</DockStyleTop>
     <EventsAccess1>此文件使用了事件。如果文件來自信任的來源，您可以按一下「開啟」按鈕來存取它。</EventsAccess1>
     <EventsAccess2>如果您不確定文件的來源但仍想檢視它，可以按一下「以安全模式開啟」按鈕。在此情況下，事件將被忽略且不會執行。</EventsAccess2>
-    <FontGrow>增大字體</FontGrow>
-    <FontName>字體名稱</FontName>
+    <FontGrow>放大文字。</FontGrow>
+    <FontName>變更文字字型。</FontName>
     <FontNameWatermark>浮水印文字的字型。</FontNameWatermark>
-    <FontShrink>減小字體</FontShrink>
-    <FontSize>字體尺寸</FontSize>
+    <FontShrink>縮小文字。</FontShrink>
+    <FontSize>變更文字大小。</FontSize>
     <FontSizeWatermark>變更字型大小。</FontSizeWatermark>
-    <FontStyleBold>粗體</FontStyleBold>
+    <FontStyleBold>將文字設為粗體。</FontStyleBold>
     <FontStyleBoldWatermark>將浮水印文字設為粗體。</FontStyleBoldWatermark>
-    <FontStyleItalic>斜體</FontStyleItalic>
+    <FontStyleItalic>將文字設為斜體。</FontStyleItalic>
     <FontStyleItalicWatermark>將浮水印文字設為斜體。</FontStyleItalicWatermark>
-    <FontStyleStrikeout>將文字加上刪除線。</FontStyleStrikeout>
-    <FontStyleUnderline>下劃線</FontStyleUnderline>
+    <FontStyleStrikeout>為文字加上刪除線。</FontStyleStrikeout>
+    <FontStyleUnderline>為文字加上底線。</FontStyleUnderline>
     <FontStyleUnderlineWatermark>將浮水印文字加上底線。</FontStyleUnderlineWatermark>
     <FormatBoolean>此格式用於格式化布林類型的值。</FormatBoolean>
     <FormatCurrency>將值顯示為貨幣。可讓您以預設貨幣符號顯示數字。</FormatCurrency>
@@ -2230,58 +2233,58 @@
     <GridMode>以線條或點顯示格線。</GridMode>
     <ImageAlignment>對齊</ImageAlignment>
     <ImageTransparency>變更浮水印影像的透明度。</ImageTransparency>
-    <Interaction>互動</Interaction>
-    <LineSpacing>選擇文字行之間或段落之間的間距。</LineSpacing>
-    <Link>鏈結</Link>
+    <Interaction>設定互動。</Interaction>
+    <LineSpacing>變更行距。</LineSpacing>
+    <Link>連結至容器。</Link>
     <LoadImage>從檔案載入浮水印圖片。</LoadImage>
-    <Lock>固定</Lock>
-    <MainMenu>按一下這裡以檢視報表可用操作的清單，包括開啟、關閉和預覽。</MainMenu>
+    <Lock>鎖定位置與大小。</Lock>
+    <MainMenu>建立、開啟或儲存報表。</MainMenu>
     <MakeHorizontalSpacingEqual>水準間距相同</MakeHorizontalSpacingEqual>
     <MakeVerticalSpacingEqual>垂直間距相同</MakeVerticalSpacingEqual>
-    <Margins>頁邊距</Margins>
+    <Margins>選取頁面邊界。</Margins>
     <menuCheckIssues>進行檢查以找出錯誤、警告並取得建議。</menuCheckIssues>
     <menuDesignerOptions>設定報表設計器選項。</menuDesignerOptions>
-    <menuEditClearContents>清除內容</menuEditClearContents>
-    <menuEditCopy>複製(&amp;C)</menuEditCopy>
-    <menuEditCut>剪切(&amp;U)</menuEditCut>
-    <menuEditDelete>刪除(&amp;D)</menuEditDelete>
-    <menuEditPaste>粘貼(&amp;P)</menuEditPaste>
-    <menuExportSettings>開啟目前報表或儀表板的匯出設定編輯器。設定僅在匯出目前報表或儀表板時套用。</menuExportSettings>
+    <menuEditClearContents>清除內容。</menuEditClearContents>
+    <menuEditCopy>複製選取的元件。</menuEditCopy>
+    <menuEditCut>剪下選取的元件。</menuEditCut>
+    <menuEditDelete>刪除選取的元件。</menuEditDelete>
+    <menuEditPaste>從剪貼簿貼上。</menuEditPaste>
+    <menuExportSettings>變更匯出設定。</menuExportSettings>
     <menuFAQPage>前往常見問題網頁。</menuFAQPage>
-    <menuGlobalizationStrings>呼叫目前報表的全球化字串編輯器。</menuGlobalizationStrings>
+    <menuGlobalizationStrings>編輯全球化字串。</menuGlobalizationStrings>
     <menuHelpAboutProgramm>關於(&amp;A)...</menuHelpAboutProgramm>
     <menuHomePage>移至產品首頁。</menuHomePage>
     <menuPageOptions>設定目前頁面的基本參數。所有頁面選項皆可透過屬性面板變更。</menuPageOptions>
     <menuPagesManager>執行頁面管理員。它可以移動頁面、刪除頁面及建立新頁面。</menuPagesManager>
-    <menuPreviewSettings>呼叫目前報表的預覽設定編輯器。設定僅在檢視目前報表時套用。</menuPreviewSettings>
+    <menuPreviewSettings>變更預覽設定。</menuPreviewSettings>
     <menuPrint>列印前選取印表機、份數及其他列印選項。</menuPrint>
     <menuPrintPreview>列印前預覽報表。</menuPrintPreview>
     <menuPrintQuick>將報表直接列印至預設印表機，不顯示列印對話方塊。</menuPrintQuick>
-    <menuReportOptions>設定基本報表選項。所有選項皆可透過屬性面板變更。</menuReportOptions>
+    <menuReportOptions>變更報表選項。</menuReportOptions>
     <menuStyleDesigner>呼叫目前報表的樣式設計器。</menuStyleDesigner>
     <menuSupport>前往支援頁面提出問題。</menuSupport>
-    <menuViewAlignToGrid>對齊到網格</menuViewAlignToGrid>
+    <menuViewAlignToGrid>將元件對齊格線。</menuViewAlignToGrid>
     <menuViewNormal>普通(&amp;N)</menuViewNormal>
     <menuViewPageBreakPreview>分頁預覽(&amp;B)</menuViewPageBreakPreview>
-    <menuViewQuickInfo>提示資訊</menuViewQuickInfo>
-    <menuViewShowGrid>顯示網格</menuViewShowGrid>
-    <menuViewShowHeaders>顯示標題欄</menuViewShowHeaders>
-    <menuViewShowOrder>顯示次序</menuViewShowOrder>
-    <menuViewShowRulers>顯示尺規</menuViewShowRulers>
-    <menuViewShowSmartGuides>顯示智慧輔助線，以便相對於彼此定位元件。</menuViewShowSmartGuides>
-    <MoveBackward>後移</MoveBackward>
-    <MoveForward>前移</MoveForward>
+    <menuViewQuickInfo>顯示元件的快速資訊。</menuViewQuickInfo>
+    <menuViewShowGrid>顯示格線。</menuViewShowGrid>
+    <menuViewShowHeaders>顯示區帶標頭。</menuViewShowHeaders>
+    <menuViewShowOrder>顯示元件的順序。</menuViewShowOrder>
+    <menuViewShowRulers>顯示尺規。</menuViewShowRulers>
+    <menuViewShowSmartGuides>顯示智慧輔助線。</menuViewShowSmartGuides>
+    <MoveBackward>往後移一層。</MoveBackward>
+    <MoveForward>往前移一層。</MoveForward>
     <NotPossibleEnableCompilationMode>無法為此報表啟用編譯模式。這已被設計器設定中的「編譯存取」選項所禁止。</NotPossibleEnableCompilationMode>
-    <Orientation>定向</Orientation>
+    <Orientation>在縱向與橫向之間切換。</Orientation>
     <PageDelete>從報表中刪除目前頁面。</PageDelete>
     <PageNew>建立新頁面。</PageNew>
-    <PageSetup>顯示「版面設定」對話方塊。</PageSetup>
-    <PageSize>選擇報表目前頁面的紙張大小。</PageSize>
+    <PageSetup>變更頁面設定。</PageSetup>
+    <PageSize>選取紙張大小。</PageSize>
     <PagesManager>執行頁面管理員。</PagesManager>
     <PressF1>按 F1 取得更多詳細資訊</PressF1>
-    <PropertiesButton>啟用內含報表範本屬性的屬性面板。</PropertiesButton>
+    <PropertiesButton>顯示報表屬性。</PropertiesButton>
     <Redo>重做先前在報表中取消的變更。</Redo>
-    <RemoveMobileSurfaceButton>從目前儀表板移除行動介面。</RemoveMobileSurfaceButton>
+    <RemoveMobileSurfaceButton>移除行動介面。</RemoveMobileSurfaceButton>
     <ReportNew>建立新報表。</ReportNew>
     <ReportOpen>在設計器中開啟報表。</ReportOpen>
     <ReportPreview>在檢視器中預覽已編輯的報表。</ReportPreview>
@@ -2293,46 +2296,47 @@
     <ScriptSecuritySafeMode>安全指令碼存取（基於安全性限制功能）。</ScriptSecuritySafeMode>
     <SelectAll>選取目前頁面上的所有元件。</SelectAll>
     <SelectUILanguage>選取使用者介面語言。</SelectUILanguage>
-    <SendToBack>後置</SendToBack>
+    <SendToBack>移到最下層。</SendToBack>
     <ServicesConfigurator>執行服務設定程式。</ServicesConfigurator>
-    <Shadow>陰影</Shadow>
+    <Shadow>顯示或隱藏陰影。</Shadow>
     <ShowBehind>顯示於後面</ShowBehind>
     <ShowImageBehind>顯示圖片於後面</ShowImageBehind>
     <ShowToolbox>顯示工具箱。</ShowToolbox>
     <StimulsoftHelp>Stimulsoft 說明</StimulsoftHelp>
-    <StyleDesigner>樣式設計</StyleDesigner>
+    <StyleDesigner>開啟樣式設計器。</StyleDesigner>
     <TellMeMore>告訴我更多</TellMeMore>
     <Text>文本</Text>
     <TextBrush>文本刷</TextBrush>
     <TextBrushWatermark>變更浮水印的文字顏色。</TextBrushWatermark>
-    <TextColor>文本顏色</TextColor>
-    <TextFormat>文本格式</TextFormat>
+    <TextColor>變更文字顏色。</TextColor>
+    <TextFormat>選取值的格式。</TextFormat>
     <ToolbarStyle>樣式</ToolbarStyle>
     <Undo>復原報表中最近的變更。</Undo>
-    <ViewModeDesktopButton>啟用桌面介面。</ViewModeDesktopButton>
-    <ViewModeMobileButton>啟用行動介面。</ViewModeMobileButton>
-    <WordWrap>自動換行</WordWrap>
+    <ViewModeDesktopButton>顯示桌面介面。</ViewModeDesktopButton>
+    <ViewModeMobileButton>顯示行動介面。</ViewModeMobileButton>
+    <Watermark>變更浮水印設定。</Watermark>
+    <WordWrap>將文字自動換行。</WordWrap>
     <Zoom>縮放</Zoom>
   </HelpDesigner>
   <HelpDialogs>
-    <StiButtonControl>代表按鈕控制項。</StiButtonControl>
-    <StiCheckBoxControl>代表旗標控制項。</StiCheckBoxControl>
-    <StiCheckedListBoxControl>顯示清單物件，其中每個元素的左側都會顯示旗標。</StiCheckedListBoxControl>
-    <StiComboBoxControl>代表下拉式方塊，可直接在控制項中輸入值，或從現有選項清單中選擇。</StiComboBoxControl>
-    <StiDateTimePickerControl>代表允許選取日期與時間的控制項。它也允許您以指定的格式輸出日期與時間。</StiDateTimePickerControl>
-    <StiGridControl>代表由列與欄組成的網格控制項。</StiGridControl>
-    <StiGroupBoxControl>代表為 UI 內容建立具有框線與標題之容器的控制項。</StiGroupBoxControl>
-    <StiLabelControl>標籤是在表單上顯示文字的使用者介面控制項。它通常是不具互動性的靜態控制項。</StiLabelControl>
-    <StiListBoxControl>包含可供選取的元素清單。</StiListBoxControl>
-    <StiListViewControl>代表顯示資料元素清單的 ListView 控制項。</StiListViewControl>
-    <StiLookUpBoxControl>包含可供選取的元素清單。</StiLookUpBoxControl>
-    <StiNumericUpDownControl>代表顯示數值的控制項。</StiNumericUpDownControl>
-    <StiPanelControl>面板元素用於放置與排列物件。</StiPanelControl>
-    <StiPictureBoxControl>代表用於顯示圖片的控制項。</StiPictureBoxControl>
-    <StiRadioButtonControl>代表選項按鈕控制項，允許使用者只能從一組預先定義的選項中選擇一項。</StiRadioButtonControl>
-    <StiRichTextBoxControl>代表具有擴充編輯功能的 RichText 控制項。</StiRichTextBoxControl>
-    <StiTextBoxControl>代表用於顯示或編輯文字的文字控制項。</StiTextBoxControl>
-    <StiTreeViewControl>代表用於以樹狀結構顯示階層資料的控制項。</StiTreeViewControl>
+    <StiButtonControl>按一下時執行動作。</StiButtonControl>
+    <StiCheckBoxControl>開啟或關閉單一選項。</StiCheckBoxControl>
+    <StiCheckedListBoxControl>顯示每個項目皆附核取方塊的清單。</StiCheckedListBoxControl>
+    <StiComboBoxControl>顯示下拉式清單以選取或輸入值。</StiComboBoxControl>
+    <StiDateTimePickerControl>顯示日曆以選取日期與時間。</StiDateTimePickerControl>
+    <StiGridControl>以列與欄顯示資料。</StiGridControl>
+    <StiGroupBoxControl>將控制項組合在附標題的外框內。</StiGroupBoxControl>
+    <StiLabelControl>在表單上顯示文字。</StiLabelControl>
+    <StiListBoxControl>顯示清單以選取項目。</StiListBoxControl>
+    <StiListViewControl>顯示資料項目的清單。</StiListViewControl>
+    <StiLookUpBoxControl>顯示下拉式清單以選取項目。</StiLookUpBoxControl>
+    <StiNumericUpDownControl>接收數字並提供調整它的按鈕。</StiNumericUpDownControl>
+    <StiPanelControl>將其他控制項組合在同一區域內。</StiPanelControl>
+    <StiPictureBoxControl>顯示圖片。</StiPictureBoxControl>
+    <StiRadioButtonControl>從一組選項中選取一項。</StiRadioButtonControl>
+    <StiRichTextBoxControl>顯示並編輯格式化文字。</StiRichTextBoxControl>
+    <StiTextBoxControl>顯示並編輯文字。</StiTextBoxControl>
+    <StiTreeViewControl>以樹狀結構顯示階層資料。</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
     <AddPageBreaks>報表頁面的視覺分隔線。</AddPageBreaks>

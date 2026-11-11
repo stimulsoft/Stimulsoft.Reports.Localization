@@ -2046,131 +2046,135 @@
     <sys_morebuttons>Més botons</sys_morebuttons>
   </Gui>
   <HelpComponents>
-    <StiBarCode>Aquest component permet mostrar codis de barres en l’informe. Les dades del codi de barres se subministren en una cadena. La cadena pot contenir qualsevol símbol però només es mostraran els símbols permesos.</StiBarCode>
-    <StiButtonElement>Aquest element s'utilitza per executar un script d'esdeveniment quan un usuari hi interactua.</StiButtonElement>
-    <StiButtonUI>Un botó que s'utilitza per activar una acció o iniciar una ordre.</StiButtonUI>
-    <StiCardsElement>Aquest element s'utilitza per mostrar dades agrupades com a targetes.</StiCardsElement>
-    <StiChart>Aquest component permet mostrar un gràfic en l’informe. Hi ha diferents tipus de gràfics, entre els quals hi ha gràfics de barres, línies, circular, anell, àrees, Gantt, dispersió, etc. </StiChart>
-    <StiChartElement>Aquest element permet mostrar gràfics en un tauler. Hi ha disponibles diferents tipus de gràfics.</StiChartElement>
-    <StiCheckBox>Aquest component permet mostrar una caixa de verificació en l’informe. Es poden mostrar dos estats, “seleccionat” i “no seleccionat”.</StiCheckBox>
-    <StiCheckBoxGroupUI>Un grup de caselles de selecció que s'utilitza per seleccionar múltiples opcions predefinides d'una llista.</StiCheckBoxGroupUI>
-    <StiCheckBoxUI>Una casella de selecció que s'utilitza per activar o desactivar ràpidament una sola opció.</StiCheckBoxUI>
-    <StiChildBand>Una banda fill permet mostrar dues bandes de sortida en una sola fila.</StiChildBand>
-    <StiClone>Aquest component s’utilitza per clonar fragments d’un informe a altres llocs de l’informe. La clonació només s’aplica al contingut d’un panell.</StiClone>
-    <StiColumnFooterBand>Aquesta banda s’utilitza per mostrar el contingut de peus de columnes de la banda de dades. La banda ColumnFooter s’imprimeix una vegada per columna. Tots els components col·locats en aquesta banda es mostraran per sota de cada columna.</StiColumnFooterBand>
-    <StiColumnHeaderBand>Aquesta banda s’utilitza per mostrar el contingut de les capçaleres de columnes. La banda ColumnHeader s’imprimeix una vegada. Tots els components col·locats en aquesta banda es mostraran per sota de cada columna.</StiColumnHeaderBand>
-    <StiComboBoxElement>Representa el ComboBox que s'utilitza per escriure un valor directament al control o triar de la llista d'opcions existents.</StiComboBoxElement>
-    <StiContainer>Representa una zona rectangular en la qual es poden posar altres components, incloent-hi bandes. Quan es mou el contenidor, tot el contingut es mourà. El contenidor es pot col·locar en una banda o en una pàgina.</StiContainer>
-    <StiCrossDataBand>Aquesta banda es connecta a una font de dades. S’imprimirà tantes vegades com files hi hagi en la font de dades. Les bandes creuades s’imprimeixen d’esquerra a dreta.</StiCrossDataBand>
-    <StiCrossFooterBand>Aquesta banda s’utilitza per imprimir peus d’una banda creuada. La banda s’imprimeix una vegada després de totes les files de la banda de dades. Les bandes creuades s’imprimeixen d’esquerra a dreta.</StiCrossFooterBand>
-    <StiCrossGroupFooterBand>Aquesta banda s’utilitza per imprimir peus de grups. Es col·loca per sota de la banda de dades creuades. Cada CrossFooter pertany a una banda CrossHeader específica. Les bandes creuades s’imprimeixen d’esquerra a dreta.</StiCrossGroupFooterBand>
-    <StiCrossGroupHeaderBand>Aquesta banda s’empra per mostrar agrupacions quan s’utilitzen dades creuades. No és possible crear agrupacions sense aquesta banda. Els components utilitzats per mostrar informació per grups es col·loquen en aquesta capçalera. Es pot agrupar per nom, data o qualsevol condició d’agrupament. La banda s’imprimeix al principi de cada grup. Les bandes creuades s’imprimeixen d’esquerra a dreta.</StiCrossGroupHeaderBand>
-    <StiCrossHeaderBand>Aquesta banda s’utilitza per imprimir capçaleres. S’empra juntament amb una banda creuada. Les bandes creuades s’imprimeixen d’esquerra a dreta.</StiCrossHeaderBand>
-    <StiCrossTab>El component de taula-creuada s’utilitza amb dades estructurades representades en una taula.</StiCrossTab>
-    <StiDataBand>La banda de dades es connecta a una font de dades. S’imprimirà tantes vegades com files hi hagi en la font de dades.</StiDataBand>
-    <StiDatePickerElement>L'element s'utilitza per seleccionar la data i l'hora.</StiDatePickerElement>
-    <StiDatePickerUI>Un selector de dates que s'utilitza per seleccionar una data d'un calendari.</StiDatePickerUI>
-    <StiElectronicSignature>Aquest component s'utilitza per afegir una signatura gràfica, una imatge, inicials i text.</StiElectronicSignature>
-    <StiEmptyBand>Aquesta banda s’utilitza per omplir espai lliure al peu de la pàgina. Omplirà l’espai lliure en totes les pàgines de l’informe.</StiEmptyBand>
-    <StiFilterCategory>Un grup d'elements que s'utilitza per seleccionar i filtrar valors.</StiFilterCategory>
-    <StiFooterBand>Aquesta banda s’utilitza per imprimir un sumari de la banda de dades. Es col·loca per sota de la banda de dades i s’imprimirà una sola vegada després d’haver imprès totes les files de dades.</StiFooterBand>
-    <StiGauge>El component permet mostrar un valor dins d'un interval predefinit. Pot tenir diferents representacions gràfiques.</StiGauge>
-    <StiGaugeElement>L'element permet mostrar un valor dins d'un interval predefinit. Pot tenir diferents representacions gràfiques.</StiGaugeElement>
-    <StiGroupFooterBand>La banda GroupFooter s’utilitza per imprimir el peu d’un grup. Es col·loca després de la banda de dades, i ha d’estar enllaçat amb les mateixes dades que el GroupHeader. Cada banda GroupFooter pertany al GroupHeader especificat. La banda GroupFooter no s’imprimirà sense una banda GroupHeader.</StiGroupFooterBand>
-    <StiGroupHeaderBand>Aquesta banda s’empra per mostrar agrupacions. Els components per mostrar informació per a aquest grup es col·loquen en la capçalera del grup. Es pot agrupar per nom, data o qualsevol condició d’agrupament. La banda s’imprimeix al principi de cada grup.</StiGroupHeaderBand>
-    <StiHeaderBand>Aquesta banda s’utilitza per mostrar capçaleres. S’empra juntament amb una banda de dades.</StiHeaderBand>
-    <StiHierarchicalBand>Aquesta banda està connectada amb una font de dades i s’imprimirà tantes vegades com files hi hagi en la font de dades. Les dades es mostraran en forma d’arbre.</StiHierarchicalBand>
-    <StiHorizontalLinePrimitive>Aquest component s’utilitza per mostrar una línia.</StiHorizontalLinePrimitive>
-    <StiIconUI>Una icona que s'utilitza per mostrar un gràfic simbòlic o un marcador visual.</StiIconUI>
-    <StiImage>Aquest component s’utilitza per mostrar imatges. Admet els formats gràfics: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
-    <StiImageElement>Aquest element s'utilitza per generar imatges. Admet els següents formats gràfics: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF, SVG.</StiImageElement>
-    <StiImageUI>Una imatge que s'utilitza per mostrar contingut gràfic dins de la interfície.</StiImageUI>
-    <StiIndicatorElement>L'element mostra la diferència de valors entre les dades d'entrada.</StiIndicatorElement>
-    <StiLabelUI>Una etiqueta que s'utilitza per mostrar text o llegendes curtes.</StiLabelUI>
-    <StiListBoxElement>L'element permet seleccionar elements d'una llista.</StiListBoxElement>
-    <StiListUI>Una llista que s'utilitza per mostrar elements seleccionables en una col·lecció vertical.</StiListUI>
-    <StiMap>Aquest component s'utilitza per mostrar dades orientades geogràficament.</StiMap>
-    <StiMapCategory>Grup d'elements per treballar amb mapes i dades.</StiMapCategory>
-    <StiMapElement>Aquest element s'utilitza per mostrar dades orientades geogràficament.</StiMapElement>
-    <StiMathFormula>Aquest component s'utilitza per mostrar fórmules matemàtiques en un informe.</StiMathFormula>
-    <StiMultiListUI>Una llista que s'utilitza per seleccionar múltiples elements de la mateixa col·lecció.</StiMultiListUI>
-    <StiMultiSelectUI>Un selector que s'utilitza per triar múltiples valors d'una llista preparada.</StiMultiSelectUI>
-    <StiNumberBoxElement>Aquest element s'utilitza per seleccionar un valor numèric o establir un interval de valors numèrics.</StiNumberBoxElement>
-    <StiNumberInputUI>Una entrada numèrica que s'utilitza per introduir valors numèrics amb entrada controlada.</StiNumberInputUI>
-    <StiOnlineMapElement>Aquest element s'utilitza per mostrar marcadors geogràfics al mapa en línia.</StiOnlineMapElement>
-    <StiOverlayBand>Aquesta banda s’utilitza per mostrar filigranes en una pàgina.</StiOverlayBand>
-    <StiPageFooterBand>Aquesta banda s’utilitza per mostrar informació en el peu de cada pàgina. S’empra per mostrar números de pàgines, dates i altres dades addicionals.</StiPageFooterBand>
-    <StiPageHeaderBand>Aquesta banda s’utilitza per mostrar informació de capçalera per a cada pàgina. Mostrarà la informació en totes les pàgines de l’informe. S’empra per mostrar números de pàgines, dates i altres dades addicionals.</StiPageHeaderBand>
-    <StiPanel>Representa una zona rectangular on es poden posar altres components, incloent-hi bandes. Quan es mou el contenidor, tot el contingut es mourà. El contenidor es pot col·locar en una banda o en una pàgina.</StiPanel>
-    <StiPanelElement>Una regió rectangular que pot contenir altres elements. Quan es mou el tauler, els elements que conté també es mouen.</StiPanelElement>
-    <StiPanelUI>Un tauler que s'utilitza per agrupar i organitzar altres controls dins d'una àrea.</StiPanelUI>
-    <StiPdfDigitalSignature>Aquest component interactiu s'utilitza per especificar un lloc per a la signatura digital després que l'informe s'hagi exportat a Adobe PDF.</StiPdfDigitalSignature>
-    <StiPdfDigitalSignatureElement>Aquest component s'utilitza per especificar un espai per a la signatura digital i els camps del certificat en exportar a PDF.</StiPdfDigitalSignatureElement>
-    <StiPivotTableElement>L'element de taula dinàmica s'utilitza per representar dades estructurades com una taula.</StiPivotTableElement>
-    <StiProgressElement>L'element mostra la proporció de les dades d'entrada. Es pot presentar en diferents modes - un sector, un anell, barres.</StiProgressElement>
-    <StiRadioGroupUI>Un grup d'opcions que s'utilitza per seleccionar una opció d'un conjunt predefinit de valors.</StiRadioGroupUI>
-    <StiRangeSelectorElement>Aquest component s'utilitza per seleccionar un interval de valors en una escala o línia de temps. Permet als usuaris definir visualment els límits mínim i màxim de l'interval.</StiRangeSelectorElement>
-    <StiRangeSliderUI>Un control lliscant d'interval que s'utilitza per definir valors mínims i màxims en una escala.</StiRangeSliderUI>
-    <StiRectanglePrimitive>Aquest component s’utilitza per imprimir rectangles.</StiRectanglePrimitive>
-    <StiRegionMapElement>Aquest element s'utilitza per mostrar dades orientades geogràficament.</StiRegionMapElement>
-    <StiReportSummaryBand>Aquesta banda s’utilitza per imprimir sumaris a través de tot l’informe. S’imprimeix una sola vegada, al final de l’informe.&amp;</StiReportSummaryBand>
-    <StiReportTitleBand>Aquesta banda s’utilitza per imprimir el títol de l’informe. Només s’imprimeix al principi de l’informe.</StiReportTitleBand>
-    <StiRichText>Aquest component s’utilitza per imprimir i editar text enriquit (RTF). També permet carregar i desar fitxers en format RTF.</StiRichText>
-    <StiRoundedRectanglePrimitive>Aquest component s’utilitza per imprimir rectangles amb les cantonades arrodonides.</StiRoundedRectanglePrimitive>
-    <StiScreen>Una pantalla que allotja controls, disposició i interaccions d'usuari per a una pàgina d'aplicació.</StiScreen>
-    <StiSelectUI>Un quadre de selecció que s'utilitza per triar un valor d'una llista desplegable.</StiSelectUI>
-    <StiShape>Aquest component s’utilitza per inserir formes predefinides com ara fletxes, línies diagonals, línies horitzontals, línies d’esquerra-dreta, ovals, rectangles, rectangles amb cantonades arrodonides, línies de dalt a baix, triangles i línies verticals.</StiShape>
-    <StiShapeElement>Aquest element s'utilitza per inserir formes predefinides, com ara fletxes, línia diagonal avall, línia diagonal amunt, línia horitzontal, línies esquerra i dreta, oval, rectangle, rectangle arrodonit, línies superior i inferior, triangle, línia vertical.</StiShapeElement>
-    <StiSignature>Aquest component s'utilitza per afegir una signatura electrònica o digital a un informe.</StiSignature>
-    <StiSliderUI>Un control lliscant que s'utilitza per seleccionar un valor en una escala numèrica contínua.</StiSliderUI>
-    <StiSparkline>Aquest component s'utilitza per crear micrografies en un informe. Permet fer un seguiment de dades que canvien dinàmicament com a barres, línies i àrees.</StiSparkline>
-    <StiSubReport>Aquest component s’utilitza per mostrar dades addicionals en llocs diferents de l’informe.</StiSubReport>
-    <StiSwitchUI>Un commutador que s'utilitza per activar o desactivar una configuració amb un sol clic.</StiSwitchUI>
-    <StiTable>Aquest component representa un conjunt d’elements de dades organitzats amb un model de columnes verticals i files horitzontals.</StiTable>
-    <StiTableElement>Aquest element és un conjunt d'elements de dades organitzats mitjançant un model de columnes verticals i files horitzontals.</StiTableElement>
-    <StiTableOfContents>Aquest component s'utilitza per crear una taula de continguts en un informe.</StiTableOfContents>
-    <StiTableUI>Una taula que s'utilitza per mostrar dades en files i columnes de manera clara.</StiTableUI>
-    <StiText>Aquest component és l’objecte bàsic per mostrar dades com a text.</StiText>
-    <StiTextElement>Aquest element és un objecte bàsic per generar dades com a text.</StiTextElement>
-    <StiTextInCells>Aquest component s’empra per mostrar text en cel·les. Sovint s’utilitza per crear formularis.</StiTextInCells>
-    <StiTextInputUI>Una entrada de text que s'utilitza per introduir i editar valors de text.</StiTextInputUI>
-    <StiTreeViewBoxElement>L'element s'utilitza per seleccionar valors amb una llista desplegable en forma d'arbre.</StiTreeViewBoxElement>
-    <StiTreeViewElement>Representa l'element que s'utilitza per mostrar les dades jeràrquiques en forma d'arbre.</StiTreeViewElement>
-    <StiVerticalLinePrimitive>Aquest component s’utilitza per mostrar línies verticals.</StiVerticalLinePrimitive>
-    <StiWebContentElement>El component permet afegir contingut web als taulers.</StiWebContentElement>
-    <StiWinControl>Aquest component permet visualitzar controls de l’entorn .NET</StiWinControl>
-    <StiZipCode>Aquest component s’utilitza per mostrar un codi postal (ZIP).</StiZipCode>
+    <CategoryBands>Bandes que imprimeixen capçaleres, dades i peus.</CategoryBands>
+    <CategoryComponents>Components que mostren text, imatges i dades.</CategoryComponents>
+    <CategoryCrossBands>Bandes que s’imprimeixen d’esquerra a dreta.</CategoryCrossBands>
+    <StiBarCode>Mostra un codi de barres.</StiBarCode>
+    <StiButtonElement>Executa un script en fer clic.</StiButtonElement>
+    <StiButtonUI>Inicia una acció o una ordre.</StiButtonUI>
+    <StiCardsElement>Mostra dades agrupades com a targetes.</StiCardsElement>
+    <StiChart>Mostra dades com a gràfic.</StiChart>
+    <StiChartElement>Mostra dades com a gràfic.</StiChartElement>
+    <StiCheckBox>Mostra un valor cert o fals com a marca.</StiCheckBox>
+    <StiCheckBoxGroupUI>Ofereix opcions per marcar-ne diverses.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>Activa o desactiva una opció.</StiCheckBoxUI>
+    <StiChildBand>Imprimeix una altra banda per a la mateixa fila.</StiChildBand>
+    <StiClone>Repeteix el contingut d’un panell.</StiClone>
+    <StiColumnFooterBand>S’imprimeix sota cada columna d’una banda Dades.</StiColumnFooterBand>
+    <StiColumnHeaderBand>S’imprimeix sobre cada columna d’una banda Dades.</StiColumnHeaderBand>
+    <StiComboBoxElement>Selecciona un valor d’una llista desplegable.</StiComboBoxElement>
+    <StiContainer>Agrupa altres components en una àrea.</StiContainer>
+    <StiCrossDataBand>S’imprimeix un cop per fila, d’esquerra a dreta.</StiCrossDataBand>
+    <StiCrossFooterBand>S’imprimeix després d’una banda Dades creuades.</StiCrossFooterBand>
+    <StiCrossGroupFooterBand>S’imprimeix al final de cada grup creuat.</StiCrossGroupFooterBand>
+    <StiCrossGroupHeaderBand>S’imprimeix a l’inici de cada grup creuat.</StiCrossGroupHeaderBand>
+    <StiCrossHeaderBand>S’imprimeix abans d’una banda Dades creuades.</StiCrossHeaderBand>
+    <StiCrossTab>Mostra dades estructurades com a taula creuada.</StiCrossTab>
+    <StiDataBand>S’imprimeix un cop per fila d’una font de dades.</StiDataBand>
+    <StiDatePickerElement>Selecciona una data i hora.</StiDatePickerElement>
+    <StiDatePickerUI>Mostra un calendari per triar una data.</StiDatePickerUI>
+    <StiElectronicSignature>Afegeix una signatura: dibuix, text o imatge.</StiElectronicSignature>
+    <StiEmptyBand>Omple l’espai lliure al peu d’una pàgina.</StiEmptyBand>
+    <StiFilterCategory>Elements que seleccionen i filtren valors.</StiFilterCategory>
+    <StiFooterBand>S’imprimeix després de les files d’una banda Dades.</StiFooterBand>
+    <StiGauge>Mostra un valor dins d’un interval.</StiGauge>
+    <StiGaugeElement>Mostra un valor dins d’un interval.</StiGaugeElement>
+    <StiGroupFooterBand>S’imprimeix al final de cada grup.</StiGroupFooterBand>
+    <StiGroupHeaderBand>S’imprimeix a l’inici de cada grup.</StiGroupHeaderBand>
+    <StiHeaderBand>S’imprimeix abans de les files d’una banda Dades.</StiHeaderBand>
+    <StiHierarchicalBand>Imprimeix les files d’una font de dades en arbre.</StiHierarchicalBand>
+    <StiHorizontalLinePrimitive>Dibuixa una línia horitzontal.</StiHorizontalLinePrimitive>
+    <StiIconUI>Mostra una icona.</StiIconUI>
+    <StiImage>Mostra una imatge.</StiImage>
+    <StiImageElement>Mostra una imatge.</StiImageElement>
+    <StiImageUI>Mostra una imatge.</StiImageUI>
+    <StiIndicatorElement>Mostra la diferència entre valors.</StiIndicatorElement>
+    <StiLabelUI>Mostra un text curt.</StiLabelUI>
+    <StiListBoxElement>Selecciona elements d’una llista.</StiListBoxElement>
+    <StiListUI>Mostra una llista per triar un element.</StiListUI>
+    <StiMap>Mostra dades en un mapa.</StiMap>
+    <StiMapCategory>Elements que mostren dades en un mapa.</StiMapCategory>
+    <StiMapElement>Mostra dades en un mapa.</StiMapElement>
+    <StiMarkdown>Mostra text Markdown.</StiMarkdown>
+    <StiMathFormula>Mostra una fórmula matemàtica.</StiMathFormula>
+    <StiMultiListUI>Mostra una llista per triar diversos elements.</StiMultiListUI>
+    <StiMultiSelectUI>Desplega una llista per triar diversos valors.</StiMultiSelectUI>
+    <StiNumberBoxElement>Selecciona un nombre o un interval de nombres.</StiNumberBoxElement>
+    <StiNumberInputUI>Rep un nombre de l’usuari.</StiNumberInputUI>
+    <StiOnlineMapElement>Mostra marcadors en un mapa en línia.</StiOnlineMapElement>
+    <StiOverlayBand>Imprimeix una filigrana a cada pàgina.</StiOverlayBand>
+    <StiPageFooterBand>S’imprimeix al peu de cada pàgina.</StiPageFooterBand>
+    <StiPageHeaderBand>S’imprimeix a la part superior de cada pàgina.</StiPageHeaderBand>
+    <StiPanel>Agrupa altres components en una àrea.</StiPanel>
+    <StiPanelElement>Agrupa altres elements en una àrea.</StiPanelElement>
+    <StiPanelUI>Agrupa altres controls en una àrea.</StiPanelUI>
+    <StiPdfDigitalSignature>Marca el lloc d’una signatura digital en PDF.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>Marca el lloc d’una signatura digital en PDF.</StiPdfDigitalSignatureElement>
+    <StiPivotTableElement>Mostra dades estructurades com a taula dinàmica.</StiPivotTableElement>
+    <StiProgressElement>Mostra un valor com a part del total.</StiProgressElement>
+    <StiRadioGroupUI>Ofereix opcions per triar-ne una.</StiRadioGroupUI>
+    <StiRangeSelectorElement>Tria un interval en una escala o línia de temps.</StiRangeSelectorElement>
+    <StiRangeSliderUI>Estableix un interval en una escala.</StiRangeSliderUI>
+    <StiRectanglePrimitive>Dibuixa un rectangle.</StiRectanglePrimitive>
+    <StiRegionMapElement>Mostra dades en un mapa de regions.</StiRegionMapElement>
+    <StiReportSummaryBand>S’imprimeix un cop al final de l’informe.</StiReportSummaryBand>
+    <StiReportTitleBand>S’imprimeix un cop a l’inici de l’informe.</StiReportTitleBand>
+    <StiRichText>Mostra text RTF amb format.</StiRichText>
+    <StiRoundedRectanglePrimitive>Dibuixa un rectangle arrodonit.</StiRoundedRectanglePrimitive>
+    <StiScreen>Conté els controls d’una pàgina d’aplicació.</StiScreen>
+    <StiSelectUI>Desplega una llista per triar un valor.</StiSelectUI>
+    <StiShape>Mostra una forma predefinida.</StiShape>
+    <StiShapeElement>Mostra una forma predefinida.</StiShapeElement>
+    <StiSignature>Afegeix una signatura electrònica o digital.</StiSignature>
+    <StiSliderUI>Estableix un valor en una escala.</StiSliderUI>
+    <StiSparkline>Mostra un petit gràfic d’una sèrie de dades.</StiSparkline>
+    <StiSubReport>Imprimeix aquí un altre informe o pàgina.</StiSubReport>
+    <StiSwitchUI>Activa o desactiva una configuració.</StiSwitchUI>
+    <StiTable>Mostra dades en files i columnes.</StiTable>
+    <StiTableElement>Mostra dades en files i columnes.</StiTableElement>
+    <StiTableOfContents>Genera la taula de continguts.</StiTableOfContents>
+    <StiTableUI>Mostra dades en files i columnes.</StiTableUI>
+    <StiText>Mostra dades com a text.</StiText>
+    <StiTextElement>Mostra dades com a text.</StiTextElement>
+    <StiTextInCells>Mostra text amb un caràcter per cel·la.</StiTextInCells>
+    <StiTextInputUI>Rep text de l’usuari.</StiTextInputUI>
+    <StiTreeViewBoxElement>Selecciona valors d’un arbre desplegable.</StiTreeViewBoxElement>
+    <StiTreeViewElement>Mostra dades jeràrquiques en forma d’arbre.</StiTreeViewElement>
+    <StiVerticalLinePrimitive>Dibuixa una línia vertical.</StiVerticalLinePrimitive>
+    <StiWebContentElement>Mostra contingut web.</StiWebContentElement>
+    <StiWinControl>Mostra un control visual de .NET.</StiWinControl>
+    <StiZipCode>Mostra un codi postal ZIP.</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
     <ActiveRelation>Estableix la Relació prioritària per enllaçar dues taules. S'utilitza en la Transformació de dades i els Taulers. Només una Relació de cada Font de dades pot estar activa.</ActiveRelation>
-    <Align>Canvia la ubicació dels components seleccionats.</Align>
-    <AlignBottom>Alinea el contingut del component a baix.</AlignBottom>
-    <AlignCenter>Alinea el contingut del component al centre.</AlignCenter>
+    <Align>Alinea els components seleccionats.</Align>
+    <AlignBottom>Alinea el contingut a baix.</AlignBottom>
+    <AlignCenter>Alinea el contingut al centre.</AlignCenter>
     <AlignComponentBottom>Permet alinear els objectes del component seleccionat horitzontalment al llarg de la vora inferior.</AlignComponentBottom>
     <AlignComponentCenter>Permet alinear els objectes del component seleccionat horitzontalment al llarg de la vora central.</AlignComponentCenter>
     <AlignComponentLeft>Permet alinear els objectes del component seleccionat verticalment al llarg de la vora esquerra.</AlignComponentLeft>
     <AlignComponentMiddle>Permet alinear els objectes del component seleccionat verticalment al llarg de la vora central.</AlignComponentMiddle>
     <AlignComponentRight>Permet alinear els objectes del component seleccionat horitzontalment al llarg de la vora dreta.</AlignComponentRight>
     <AlignComponentTop>Permet alinear els objectes del component seleccionat horitzontalment al llarg de la vora superior.</AlignComponentTop>
-    <AlignLeft>Alinea el contingut del component a l’esquerra.</AlignLeft>
-    <AlignMiddle>Centra el contingut del component per la vora superior i inferior.</AlignMiddle>
-    <AlignRight>Alinea el contingut del component a la dreta.</AlignRight>
-    <AlignToGrid>Alinea els components seleccionats als nodes de la reixeta.</AlignToGrid>
-    <AlignTop>Alinea el contingut del component dalt.</AlignTop>
-    <AlignWidth>Justifica el contingut d’un component</AlignWidth>
-    <Angle>Rota el contingut del component.</Angle>
+    <AlignLeft>Alinea el contingut a l’esquerra.</AlignLeft>
+    <AlignMiddle>Alinea el contingut al mig.</AlignMiddle>
+    <AlignRight>Alinea el contingut a la dreta.</AlignRight>
+    <AlignToGrid>Alinea els components seleccionats a la reixeta.</AlignToGrid>
+    <AlignTop>Alinea el contingut a dalt.</AlignTop>
+    <AlignWidth>Justifica el contingut.</AlignWidth>
+    <Angle>Gira el text.</Angle>
     <AngleWatermark>L’angle de rotació del text de la filigrana.</AngleWatermark>
-    <Background>Canvia el fons dels components seleccionats.</Background>
-    <biConditions>Llista de control de condicions per als components seleccionats.</biConditions>
-    <BorderColor>Selecciona el color del marc del component seleccionat.</BorderColor>
-    <BorderSidesAll>Activa tots els costats del marc dels components seleccionats.</BorderSidesAll>
-    <BorderSidesBottom>Activa el marge inferior del marc dels components seleccionats.</BorderSidesBottom>
-    <BorderSidesLeft>Activa el marge esquerre del marc dels components seleccionats.</BorderSidesLeft>
-    <BorderSidesNone>Desactiva tots els costats del marc dels components seleccionats.</BorderSidesNone>
-    <BorderSidesRight>Activa el marge dret del marc dels components seleccionats.</BorderSidesRight>
-    <BorderSidesTop>Activa el marge superior del marc dels components seleccionats.</BorderSidesTop>
-    <BorderStyle>Seleccioneu l’estil de marc per als components seleccionats.</BorderStyle>
-    <BringToFront>Porta el component seleccionat al davant.</BringToFront>
+    <Background>Canvia el fons.</Background>
+    <biConditions>Edita les condicions.</biConditions>
+    <BorderColor>Canvia el color de la vora.</BorderColor>
+    <BorderSidesAll>Mostra totes les vores.</BorderSidesAll>
+    <BorderSidesBottom>Mostra o amaga la vora inferior.</BorderSidesBottom>
+    <BorderSidesLeft>Mostra o amaga la vora esquerra.</BorderSidesLeft>
+    <BorderSidesNone>Amaga totes les vores.</BorderSidesNone>
+    <BorderSidesRight>Mostra o amaga la vora dreta.</BorderSidesRight>
+    <BorderSidesTop>Mostra o amaga la vora superior.</BorderSidesTop>
+    <BorderStyle>Canvia l’estil de la vora.</BorderStyle>
+    <BringToFront>Porta al davant.</BringToFront>
     <CenterHorizontally>Permet alinear un component horitzontalment relatiu a la vora del continent.</CenterHorizontally>
     <CenterVertically>Permet alinear un component verticalment relatiu a la vora del continent.</CenterVertically>
     <Close>Tanca el dissenyador d’informes.</Close>
@@ -2186,14 +2190,14 @@
     <CompilationAccessTitle>El document utilitza la compilació</CompilationAccessTitle>
     <CompilationModeEnabling>Estàs canviant al mode de compilació. Aquest mode permet executar codi divers i de vegades pot ser perjudicial. Utilitza aquest mode només si comprens tots els riscos i hi estàs d'acord. Fes clic al botó {0} per continuar.</CompilationModeEnabling>
     <ComponentSize>Canvia la mida dels components seleccionats.</ComponentSize>
-    <ComponentsMenu>Obre el menú de components que conté els elements del tauler no utilitzats a la superfície mòbil.</ComponentsMenu>
-    <CopyStyle>Copiar l'estil</CopyStyle>
+    <ComponentsMenu>Mostra els elements no utilitzats.</ComponentsMenu>
+    <CopyStyle>Copia l’estil a altres components.</CopyStyle>
     <CopyToClipboard>Copia al porta-retalls</CopyToClipboard>
-    <CurrencySymbol>Seleccioneu el símbol de divisa.</CurrencySymbol>
+    <CurrencySymbol>Selecciona el símbol de divisa.</CurrencySymbol>
     <DashboardNew>Crear un tauler nou.</DashboardNew>
     <DataStore>Mostra dades, registrades en l’informe.</DataStore>
-    <DateTimeFormat>Seleccioneu el format de la data i l’hora dels components seleccionats.</DateTimeFormat>
-    <DockingPanels>Configuració del panell.</DockingPanels>
+    <DateTimeFormat>Selecciona el format de data i hora.</DateTimeFormat>
+    <DockingPanels>Mostra o amaga els panells.</DockingPanels>
     <DockStyleBottom>Acobla els components seleccionats a la vora inferior.</DockStyleBottom>
     <DockStyleFill>Acobla els components seleccionats a totes les vores.</DockStyleFill>
     <DockStyleLeft>Acobla els components seleccionats a la vora esquerra.</DockStyleLeft>
@@ -2202,18 +2206,18 @@
     <DockStyleTop>Acobla els components seleccionats a la vora superior.</DockStyleTop>
     <EventsAccess1>Aquest document utilitza Esdeveniments. Si el document prové d'una font de confiança, podeu fer clic al botó "Obrir" per accedir-hi.</EventsAccess1>
     <EventsAccess2>Si no esteu segurs de l'origen del document però tot i així voleu visualitzar-lo, podeu fer clic al botó "Obrir en mode segur". En aquest cas, els esdeveniments s'ignoraran i no s'executaran.</EventsAccess2>
-    <FontGrow>Amplia la mida del text.</FontGrow>
-    <FontName>La font del text.</FontName>
+    <FontGrow>Augmenta la mida del text.</FontGrow>
+    <FontName>Canvia la font del text.</FontName>
     <FontNameWatermark>La font del text de la filigrana.</FontNameWatermark>
-    <FontShrink>Disminueix la mida del text.</FontShrink>
-    <FontSize>Mida de la font.</FontSize>
+    <FontShrink>Redueix la mida del text.</FontShrink>
+    <FontSize>Canvia la mida del text.</FontSize>
     <FontSizeWatermark>Canvia la mida de la font.</FontSizeWatermark>
-    <FontStyleBold>Transforma a negreta.</FontStyleBold>
+    <FontStyleBold>Posa el text en negreta.</FontStyleBold>
     <FontStyleBoldWatermark>Transforma el text de la filigrana a negreta.</FontStyleBoldWatermark>
-    <FontStyleItalic>Transforma a cursiva.</FontStyleItalic>
+    <FontStyleItalic>Posa el text en cursiva.</FontStyleItalic>
     <FontStyleItalicWatermark>Transforma el text de la filigrana a cursiva.</FontStyleItalicWatermark>
-    <FontStyleStrikeout>Aplicar ratllat al text.</FontStyleStrikeout>
-    <FontStyleUnderline>Transforma a subratllat.</FontStyleUnderline>
+    <FontStyleStrikeout>Ratlla el text.</FontStyleStrikeout>
+    <FontStyleUnderline>Subratlla el text.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Transforma el text de la filigrana a subratllat.</FontStyleUnderlineWatermark>
     <FormatBoolean>Aquest format s’empra per formatar valors de tipus lògic.</FormatBoolean>
     <FormatCurrency>Mostra un valor com a moneda. Permet mostrar un número amb el signe de la divisa per defecte.</FormatCurrency>
@@ -2224,61 +2228,61 @@
     <FormatPercentage>Mostra un valor com a percentatge. Els números es multipliquen per 100 per convertir-los en percentatges.</FormatPercentage>
     <FormatTime>Mostra un valor com a hora. El format de l’hora depèn de la configuració regional.</FormatTime>
     <FormNew>Crea un formulari nou.</FormNew>
-    <GridMode>Mostra línia o punts de reixeta.</GridMode>
+    <GridMode>Mostra la reixeta com a línies o punts.</GridMode>
     <ImageAlignment>Afegeix una imatge de filigrana en la pàgina.</ImageAlignment>
     <ImageTransparency>Canvia la transparència de la imatge de filigrana.</ImageTransparency>
-    <Interaction>Interacció</Interaction>
-    <LineSpacing>Trieu quant espai apareix entre les línies de text o entre paràgrafs.</LineSpacing>
-    <Link>Enllaça el component al seu contenidor actual.</Link>
+    <Interaction>Configura la interacció.</Interaction>
+    <LineSpacing>Canvia l’espaiat de línia.</LineSpacing>
+    <Link>Enllaça al contenidor.</Link>
     <LoadImage>Carrega les imatges de filigranes des d’un fitxer.</LoadImage>
-    <Lock>Bloqueja el component. El component no es podrà redimensionar ni moure.</Lock>
-    <MainMenu>Feu clic aquí per veure una llista d’operacions possibles amb un informe, incloent-hi obrir, tancar i visualitzar.</MainMenu>
+    <Lock>Bloqueja la posició i la mida.</Lock>
+    <MainMenu>Crea, obre o desa un informe.</MainMenu>
     <MakeHorizontalSpacingEqual>Permet igualar l’espaiat horitzontal entre els components seleccionats.</MakeHorizontalSpacingEqual>
     <MakeVerticalSpacingEqual>Permet igualar l’espaiat vertical entre els components seleccionats.</MakeVerticalSpacingEqual>
-    <Margins>Seleccioneu els marges de la pàgina actual.</Margins>
+    <Margins>Selecciona els marges de la pàgina.</Margins>
     <menuCheckIssues>Verifica l’informe cercant errors, advertències i altres consells.</menuCheckIssues>
     <menuDesignerOptions>Configura les opcions del dissenyador d’informes.</menuDesignerOptions>
     <menuEditClearContents>Buida el contingut.</menuEditClearContents>
-    <menuEditCopy>Copia els components seleccionats al porta-retalls.</menuEditCopy>
-    <menuEditCut>Talla els components seleccionats de l’informe el porta-retalls.</menuEditCut>
+    <menuEditCopy>Copia els components seleccionats.</menuEditCopy>
+    <menuEditCut>Retalla els components seleccionats.</menuEditCut>
     <menuEditDelete>Elimina els components seleccionats.</menuEditDelete>
-    <menuEditPaste>Enganxa el contingut del porta-retalls a l’informe.</menuEditPaste>
-    <menuExportSettings>Obre l'editor de configuració d'exportació per a l'informe o el tauler actual. La configuració s'aplica només en exportar l'informe o el tauler actual.</menuExportSettings>
+    <menuEditPaste>Enganxa des del porta-retalls.</menuEditPaste>
+    <menuExportSettings>Canvia la configuració d’exportació.</menuExportSettings>
     <menuFAQPage>Vés a la pàgina web de preguntes freqüents.</menuFAQPage>
-    <menuGlobalizationStrings>Obre l’editor de cadenes regionals per a l’informe actual.</menuGlobalizationStrings>
+    <menuGlobalizationStrings>Edita les cadenes de traducció.</menuGlobalizationStrings>
     <menuHelpAboutProgramm>Obtén informació sobre la versió del generador d’informes i la versió de l’entorn Net.</menuHelpAboutProgramm>
     <menuHomePage>Obre la pàgina web del producte.</menuHomePage>
     <menuPageOptions>Configura els paràmetres bàsics de la pàgina actual. Totes les opcions disponibles estan accessibles en el panell de les propietats.</menuPageOptions>
     <menuPagesManager>Obre el gestor de pàgines. Permet moure, eliminar i crear pàgines noves.</menuPagesManager>
-    <menuPreviewSettings>Obre l’editor de vista preliminar. Aquests canvis només tindran efecte mentre es visualitza l’informe actual.</menuPreviewSettings>
+    <menuPreviewSettings>Canvia la configuració de vista preliminar.</menuPreviewSettings>
     <menuPrint>Selecciona una impressora, el nombre de còpies i altres opcions d’impressió abans d’imprimir.</menuPrint>
     <menuPrintPreview>Mostra vista preliminar abans d’imprimir.</menuPrintPreview>
     <menuPrintQuick>Imprimeix l’informe directament en la impressora. No mostrarà prèviament el diàleg d’impressió.</menuPrintQuick>
-    <menuReportOptions>Configura les opcions bàsiques de la pàgina actual. Totes les opcions disponibles estan accessibles en el panell de les propietats.</menuReportOptions>
+    <menuReportOptions>Canvia les opcions de l’informe.</menuReportOptions>
     <menuStyleDesigner>Obre el dissenyador d’estils de l’informe actual.</menuStyleDesigner>
     <menuSupport>Obre la pàgina web per fer una pregunta.</menuSupport>
     <menuViewAlignToGrid>Alinea els components a la reixeta.</menuViewAlignToGrid>
     <menuViewNormal>Vista per defecte de la pàgina.</menuViewNormal>
     <menuViewPageBreakPreview>Mostra la pàgina sense vores ni segments.</menuViewPageBreakPreview>
-    <menuViewQuickInfo>Mostra la informació ràpida dels components: nom de component, àlies, contingut, esdeveniments, etc.</menuViewQuickInfo>
-    <menuViewShowGrid>Activa les línies de reixeta per ajudar a alinear objectes en l’informe.</menuViewShowGrid>
-    <menuViewShowHeaders>Mostra les capçaleres de bandes.</menuViewShowHeaders>
-    <menuViewShowOrder>Mostra l’ordre dels components en la pàgina.</menuViewShowOrder>
-    <menuViewShowRulers>Mostra les regles, útil per mesurar i alinear objectes en la pàgina.</menuViewShowRulers>
-    <menuViewShowSmartGuides>Mostra les guies intel·ligents per posicionar els components els uns respecte als altres.</menuViewShowSmartGuides>
-    <MoveBackward>Puja un component un nivell.</MoveBackward>
-    <MoveForward>Baixa un component un nivell.</MoveForward>
+    <menuViewQuickInfo>Mostra informació ràpida dels components.</menuViewQuickInfo>
+    <menuViewShowGrid>Mostra la reixeta.</menuViewShowGrid>
+    <menuViewShowHeaders>Mostra les capçaleres de les bandes.</menuViewShowHeaders>
+    <menuViewShowOrder>Mostra l’ordre dels components.</menuViewShowOrder>
+    <menuViewShowRulers>Mostra els regles.</menuViewShowRulers>
+    <menuViewShowSmartGuides>Mostra les guies intel·ligents.</menuViewShowSmartGuides>
+    <MoveBackward>Mou un nivell cap enrere.</MoveBackward>
+    <MoveForward>Mou un nivell cap endavant.</MoveForward>
     <NotPossibleEnableCompilationMode>No és possible activar el mode de compilació per a l'informe. Això ho prohibeix l'opció 'Accés a la compilació' a la configuració del dissenyador.</NotPossibleEnableCompilationMode>
-    <Orientation>Alterna entre orientació retrat i horitzontal.</Orientation>
+    <Orientation>Alterna entre retrat i paisatge.</Orientation>
     <PageDelete>Elimina la pàgina actual de l’informe.</PageDelete>
     <PageNew>Crea una pàgina nova.</PageNew>
-    <PageSetup>Mostra el diàleg de configuració de pàgina.</PageSetup>
-    <PageSize>Tria la mida de pàgina per a la pàgina actual.</PageSize>
+    <PageSetup>Canvia la configuració de pàgina.</PageSetup>
+    <PageSize>Selecciona la mida del paper.</PageSize>
     <PagesManager>Executa el gestor de pàgines.</PagesManager>
     <PressF1>Premeu F1 per a més detalls</PressF1>
-    <PropertiesButton>Activa el tauler de propietats amb les propietats de la plantilla de l'informe.</PropertiesButton>
+    <PropertiesButton>Mostra les propietats de l’informe.</PropertiesButton>
     <Redo>Refés l’últim canvi realitzat en l’informe.</Redo>
-    <RemoveMobileSurfaceButton>Elimina la superfície mòbil del tauler actual.</RemoveMobileSurfaceButton>
+    <RemoveMobileSurfaceButton>Elimina la superfície mòbil.</RemoveMobileSurfaceButton>
     <ReportNew>Crea un informe nou.</ReportNew>
     <ReportOpen>Obre l’informe en el dissenyador.</ReportOpen>
     <ReportPreview>Visualitza l’informe editat en el visor.</ReportPreview>
@@ -2290,46 +2294,47 @@
     <ScriptSecuritySafeMode>Accés segur a scripts (capacitats restringides per seguretat).</ScriptSecuritySafeMode>
     <SelectAll>Seleccionar tots els components de la pàgina actual.</SelectAll>
     <SelectUILanguage>Seleccioneu l’idioma de l’UI.</SelectUILanguage>
-    <SendToBack>Mou els components seleccionats per darrere dels altres components.</SendToBack>
+    <SendToBack>Envia al fons.</SendToBack>
     <ServicesConfigurator>Executa el configurador de serveis.</ServicesConfigurator>
-    <Shadow>Mostra la filigrana a sobre del component.</Shadow>
+    <Shadow>Mostra o amaga l’ombra.</Shadow>
     <ShowBehind>Mostra la filigrana per darrere dels components.</ShowBehind>
     <ShowImageBehind>Mostra la filigrana per darrere de tots els components en la pàgina.</ShowImageBehind>
     <ShowToolbox>Mostra la caixa d’eines.</ShowToolbox>
     <StimulsoftHelp>Ajuda de Stimulsoft</StimulsoftHelp>
-    <StyleDesigner>Executa el dissenyador d’estils.</StyleDesigner>
+    <StyleDesigner>Obre el Dissenyador d’estils.</StyleDesigner>
     <TellMeMore>Explica'm més</TellMeMore>
     <Text>Text de filigrana.</Text>
     <TextBrush>Canvia el color del text.</TextBrush>
     <TextBrushWatermark>Canvia el color del text de la filigrana.</TextBrushWatermark>
     <TextColor>Canvia el color del text.</TextColor>
-    <TextFormat>Seleccioneu el format dels valors.</TextFormat>
+    <TextFormat>Selecciona el format dels valors.</TextFormat>
     <ToolbarStyle>Estableix l’estil actual a tots els components seleccionats.</ToolbarStyle>
     <Undo>Desfés l’últim canvi realitzat en l’informe.</Undo>
-    <ViewModeDesktopButton>Activa la superfície d'escriptori.</ViewModeDesktopButton>
-    <ViewModeMobileButton>Activa la superfície mòbil.</ViewModeMobileButton>
-    <WordWrap>Dobla el text d’un component.</WordWrap>
+    <ViewModeDesktopButton>Mostra la superfície d’escriptori.</ViewModeDesktopButton>
+    <ViewModeMobileButton>Mostra la superfície mòbil.</ViewModeMobileButton>
+    <Watermark>Canvia la configuració de la filigrana.</Watermark>
+    <WordWrap>Ajusta el text en diverses línies.</WordWrap>
     <Zoom>Indiqueu el nivell d’&amp;ampliació de l’informe.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
-    <StiButtonControl>Representa un control de tipus botó.</StiButtonControl>
-    <StiCheckBoxControl>Representa un control de tipus bandera.</StiCheckBoxControl>
-    <StiCheckedListBoxControl>Mostra un objecte de tipus llista, amb una marca de verificació per a cada element.</StiCheckedListBoxControl>
-    <StiComboBoxControl>Representa un control de selecció on es poden introduir textos directament i seleccionar d’una llista d’opcions existents.</StiComboBoxControl>
-    <StiDateTimePickerControl>Representa un control per seleccionar dates i/o hores. També permet indicar el format de sortida d’una data/hora.</StiDateTimePickerControl>
-    <StiGridControl>Representa un control de reixeta, comprenent columnes i files.</StiGridControl>
-    <StiGroupBoxControl>Representa un control per crear condemnadors amb vores i una capçalera.</StiGroupBoxControl>
-    <StiLabelControl>Un rètol és un element de la interfície d’usuari per mostrar text en un formulari. Generalment, el contingut és estàtic i no interactua amb l’usuari.</StiLabelControl>
-    <StiListBoxControl>Conté una llista d’elements per fer-ne la selecció.</StiListBoxControl>
-    <StiListViewControl>Representa un control de tipus ListView per mostrar una llista d’elements.</StiListViewControl>
-    <StiLookUpBoxControl>Conté una llista d’elements per fer-ne la selecció.</StiLookUpBoxControl>
-    <StiNumericUpDownControl>Representa un control que mostra valors numèrics.</StiNumericUpDownControl>
-    <StiPanelControl>Un element del tipus panell s’empra per col·locar i acomodar altres objectes.</StiPanelControl>
-    <StiPictureBoxControl>Representa un control per mostrar un imatge.</StiPictureBoxControl>
-    <StiRadioButtonControl>Representa un control de selecció única des d’una llista de valors predefinits. </StiRadioButtonControl>
-    <StiRichTextBoxControl>Representa un control de text enriquit.</StiRichTextBoxControl>
-    <StiTextBoxControl>Representa un control de text per mostrar i editar un text determinat.</StiTextBoxControl>
-    <StiTreeViewControl>Representa un control per mostrar dades en forma jeràrquica d’arbre.</StiTreeViewControl>
+    <StiButtonControl>Executa una acció en fer clic.</StiButtonControl>
+    <StiCheckBoxControl>Activa o desactiva una opció.</StiCheckBoxControl>
+    <StiCheckedListBoxControl>Mostra una llista amb una casella per element.</StiCheckedListBoxControl>
+    <StiComboBoxControl>Desplega una llista per triar o escriure un valor.</StiComboBoxControl>
+    <StiDateTimePickerControl>Mostra un calendari per triar data i hora.</StiDateTimePickerControl>
+    <StiGridControl>Mostra dades en files i columnes.</StiGridControl>
+    <StiGroupBoxControl>Agrupa controls en un marc amb títol.</StiGroupBoxControl>
+    <StiLabelControl>Mostra un text al formulari.</StiLabelControl>
+    <StiListBoxControl>Mostra una llista per triar elements.</StiListBoxControl>
+    <StiListViewControl>Mostra una llista d’elements de dades.</StiListViewControl>
+    <StiLookUpBoxControl>Desplega una llista per triar un element.</StiLookUpBoxControl>
+    <StiNumericUpDownControl>Rep un nombre, amb botons per canviar-lo.</StiNumericUpDownControl>
+    <StiPanelControl>Agrupa altres controls en una àrea.</StiPanelControl>
+    <StiPictureBoxControl>Mostra una imatge.</StiPictureBoxControl>
+    <StiRadioButtonControl>Tria una opció d’un grup.</StiRadioButtonControl>
+    <StiRichTextBoxControl>Mostra i edita text amb format.</StiRichTextBoxControl>
+    <StiTextBoxControl>Mostra i edita un text.</StiTextBoxControl>
+    <StiTreeViewControl>Mostra dades jeràrquiques en forma d’arbre.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
     <AddPageBreaks>Separador visual de les pàgines de l'informe.</AddPageBreaks>

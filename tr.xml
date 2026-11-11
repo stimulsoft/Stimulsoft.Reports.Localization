@@ -2047,136 +2047,139 @@
     <sys_morebuttons>Daha Fazla Buton</sys_morebuttons>
   </Gui>
   <HelpComponents>
-    <StiBarCode>Bu bileşen bir raporda barkodları göstermeye izin verir. Barkod verileri bir nesneye bir dize olarak gönderilir. Dize herhangi bir sembol içerebilir ancak sadece seçilen barkod türü için izin verilen semboller gösterilebilir.</StiBarCode>
-    <StiButtonElement>Bu bileşen, bir kullanıcı etkileşimde bulunduğunda bir olay komutu yürütmek için kullanılır.</StiButtonElement>
-    <StiButtonUI>Bir eylem tetiklemek veya komut başlatmak için kullanılan düğme.</StiButtonUI>
-    <StiCardsElement>Bu bileşen, gruplandırılmış verileri kartlar halinde görüntülemek için kullanılır.</StiCardsElement>
-    <StiChart>Bu bileşen bir raporda grafiklerin gösterilmesine izin verir. Farklı grafik türleri mevcuttur. Bunlardan bazıları; Çubuk, Çizgi, Pasta Grafik, Alanlar, Gantt, Dağılım Çizelgeleri vb. dir. </StiChart>
-    <StiChartElement> Bu öğe, bir kontrol panelinde grafikler gösterilmesine izin verir. Farklı grafik türleri mevcuttur.</StiChartElement>
-    <StiCheckBox>Bu bileşen bir raporda bir onay kutusu gösterilmesini sağlar. İki modu görüntüleyebilir: "aktif" veya "pasif".</StiCheckBox>
-    <StiCheckBoxGroupUI>Listeden birden çok önceden tanımlanmış seçeneği seçmek için kullanılan onay kutusu grubu.</StiCheckBoxGroupUI>
-    <StiCheckBoxUI>Tek bir seçeneği hızlı şekilde açıp kapatmak için kullanılan onay kutusu.</StiCheckBoxUI>
-    <StiChildBand>Alt Öğe bandı, bir veri satırında iki bant çıkışı için kullanılabilir.</StiChildBand>
-    <StiClone>Bu bileşen bir raporun bölümlerini raporun gerekli bir bölümüne kopyalamak için kullanılır. Klonlama sadece panel içeriğine uygulanabilir.</StiClone>
-    <StiColumnFooterBand>Bu bant, Data bandındaki sütunların altbilgisini çıkarmak için kullanılır. Sütun Altbilgi bandı, her sütunun altında bir kez çıkar. Bu bant üzerine yerleştirilen tüm bileşenler de her bir sütunun altında çıkarılacaktır.</StiColumnFooterBand>
-    <StiColumnHeaderBand>Bu bant, sütun başlıklarını çıktılamak için kullanılır. Sütun Başlığı bandı sadece bir kez çıktı almak için kullanılır. Bant üzerine yerleştirilen tüm bileşenler, her bir sütunun üzerine çıkarılabilir.</StiColumnHeaderBand>
-    <StiComboBoxElement>Doğrudan denetime bir değer yazmak veya varolan seçenekler listesinden seçim yapmak için kullanılan AçılanKutu'yu temsil eder.</StiComboBoxElement>
-    <StiContainer>Bu Alan, bantlar da  dahil olmak üzere diğer bileşenlerin yerleştirilebileceği dikdörtgen bölgedir. Konteynırı taşırken içindeki bileşenler de taşınacaktır. Konteyner hem bir bant üzerine hem de bir sayfaya yerleştirilebilir.</StiContainer>
-    <StiCrossDataBand>Bu bant veri kaynağına bağlanır. Veri kaynağından satırları oldukça çıktıya dönüşür. Soldan Sağa Doğru bir çapraz banttır.</StiCrossDataBand>
-    <StiCrossFooterBand>Bu bant, Cross-Data bandının altbilgisini çıkarmak için kullanılır. Bant, Veri bandının tüm satırlarından sonra bir kez çıkar. Soldan Sağa Doğru bir çapraz banttır.</StiCrossFooterBand>
-    <StiCrossGroupFooterBand>Bu bant bir grubun altbilgisini çıkarmak için kullanılır. Cross-Data bandının altına yerleştirilmiştir. Her Cross-Alt Kısım belirtilen Cross-Üst Kısım bandına aittir. Soldan Sağa Doğru bir çapraz banttır.</StiCrossGroupFooterBand>
-    <StiCrossGroupHeaderBand>Bu bant, Çapraz Veri kullanıldığında gruplandırmayla rapor oluşturma için temel olanıdır. Bu bant olmadan gruplama yaratmak imkansızdır. Grup tarafından bilgi gösterme bileşenleri grup başlığına yerleştirilir. Bilgi grup adı, tarih, gruplama durumu vb. Olabilir. Bant, her grubun başlangıcında çıkar.Soldan Sağa Doğru bir çapraz banttır.</StiCrossGroupHeaderBand>
-    <StiCrossHeaderBand>Bu bant başlıkların çıktısında kullanılır. Çapraz bant ile birlikte kullanılır.Soldan Sağa Doğru bir çapraz banttır.</StiCrossHeaderBand>
-    <StiCrossTab>Çapraz-sekmeli bileşen, bir tablo olarak yapılandırılmış veri gösterimi için kullanılır.</StiCrossTab>
-    <StiDataBand>Veri bandı veri kaynağına bağlanır ve veri kaynağında satırlar olduğu gibi çıkış verilir.</StiDataBand>
-    <StiDatePickerElement>Öğe, tarihi ve saati seçmek için kullanılır.</StiDatePickerElement>
-    <StiDatePickerUI>Takvimden tarih seçmek için kullanılan tarih seçici.</StiDatePickerUI>
-    <StiElectronicSignature>Bu öğe grafiksel imza, resim, ismin ilk harfi ve yazı eklemek için kullanılır.</StiElectronicSignature>
-    <StiEmptyBand>Bu bant, bir sayfanın altındaki boş alanı doldurmak için kullanılır. Bu bant, bir raporun her sayfasında boş alan doldurur.</StiEmptyBand>
-    <StiFilterCategory>Değerleri seçmek ve filtrelemek için kullanılan öğeler grubu.</StiFilterCategory>
-    <StiFooterBand>Bu bant Veri bandı tarafından özet çıktı olarak kullanılır. Data bandının altına yerleştirilir ve Data band çıkışlarının olduğu tüm veri satırlarından sonra bir kez çıkar.</StiFooterBand>
-    <StiGauge>Bileşen, önceden tanımlanmış bir aralıkta bir değer göstermenizi sağlar. Farklı grafiksel gösterime sahip olabilir.</StiGauge>
-    <StiGaugeElement>Öğe, önceden tanımlanmış bir aralık içinde bir değer görüntülemenizi sağlar. Farklı grafiksel gösterime sahip olabilir.</StiGaugeElement>
-    <StiGroupFooterBand>Grup Altbilgisi Bandı grup alt bilgisini çıktılamak için kullanılır. Bu bant Veri bandından sonra yerleştirilir. Grup ÜstBilgisi bandının bağlı olduğu veri grubudur. Her Grup Altbilgisi, belirtilen Grup Başlığı bandına aittir. Grup Altbilgisi bandı Grup Başlığı bandı olmadan çıkarılmayacaktır.</StiGroupFooterBand>
-    <StiGroupHeaderBand>Bu bant, gruplandırmayla rapor oluşturmak için temel banttır. Bu grup hakkında bilgi gösteren bileşenler grup başlığına yerleştirilir. Grup adı, tarihi, gruplama durumu vb. olabilir. Bu bant, her grubun başında bir kez çıkar.</StiGroupHeaderBand>
-    <StiHeaderBand>Bu bant başlıkların çıktısında kullanılır. Veri bandıyla birlikte kullanılır.</StiHeaderBand>
-    <StiHierarchicalBand>Bu bant veri kaynağına bağlanır ve veri kaynağında satırlar olduğu gibi çıkış verilir. Veri bir ağaç olarak çıktı verilir.</StiHierarchicalBand>
-    <StiHorizontalLinePrimitive>Bu bileşen bir çizgi çıktısı için kullanılır.</StiHorizontalLinePrimitive>
-    <StiIconUI>Sembolik grafik veya görsel işaretçi göstermek için kullanılan simge.</StiIconUI>
-    <StiImage>Bu bileşen görüntüleri çıkarmak için kullanılır.</StiImage>
-    <StiImageElement>Bu öğe görüntüleri çıkarmak için kullanılır. Aşağıdaki grafik formatlarını destekler: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF, SVG.</StiImageElement>
-    <StiImageUI>Arayüz içinde grafik içeriği göstermek için kullanılan resim.</StiImageUI>
-    <StiIndicatorElement>Öğe, giriş verileri arasındaki değer farkını görüntüler.</StiIndicatorElement>
-    <StiLabelUI>Metin veya kısa başlıklar göstermek için kullanılan etiket.</StiLabelUI>
-    <StiListBoxElement>Öğe, listeden öğe seçilmesine izin verir.</StiListBoxElement>
-    <StiListUI>Seçilebilir öğeleri dikey koleksiyonda göstermek için kullanılan liste.</StiListUI>
-    <StiMap>Bu bileşen, coğrafi olarak hedeflenmiş verileri görüntülemek için kullanılır.</StiMap>
-    <StiMapCategory>Haritalar ve verilerle çalışmak için öğe grubudur.</StiMapCategory>
-    <StiMapElement>Bu öğe, coğrafi olarak hedeflenmiş verileri görüntülemek için kullanılır.</StiMapElement>
-    <StiMarkdown>Bu bileşen, raporda CommonMark / GFM Markdown metnini oluşturmak için kullanılır.</StiMarkdown>
-    <StiMathFormula>Bu bileşen, bir raporda matematik formüllerini görüntülemek için kullanılır.</StiMathFormula>
-    <StiMultiListUI>Aynı koleksiyondan birden çok öğe seçmek için kullanılan liste.</StiMultiListUI>
-    <StiMultiSelectUI>Hazırlanan listeden birden çok değeri seçmek için kullanılan seçici.</StiMultiSelectUI>
-    <StiNumberBoxElement>Bu öğe sayısal bir değer veya sayısal aralık seçmek için kullanılır.</StiNumberBoxElement>
-    <StiNumberInputUI>Kontrollü girişle sayısal değerleri girmek için kullanılan sayı girdisi.</StiNumberInputUI>
-    <StiOnlineMapElement>Bu öğe, çevrimiçi haritadaki coğrafi işaretleyicileri görüntülemek için kullanılır. </StiOnlineMapElement>
-    <StiOverlayBand>Bu bant bir sayfada filigran çıktıları için kullanılır.</StiOverlayBand>
-    <StiPageFooterBand>Bu bant, her sayfanın altındaki bilgileri sayfa numaraları, tarihler ve diğer ek bilgiler gibi çıktılamak için kullanılır.</StiPageFooterBand>
-    <StiPageHeaderBand>Bu bant sayfa numaraları, tarihler ve diğer ek bilgiler gibi sayfa başlığını çıkarmak için kullanılır. Her sayfanın üstünde çıktı verilir.</StiPageHeaderBand>
-    <StiPanel>Bantlar dahil olmak üzere diğer bileşenleri içerebilen dikdörtgen bir bölgedir. Panel taşınırken içindeki bileşenler de taşınır. Bir panel ya bir banda ya da bir sayfaya yerleştirilebilir.</StiPanel>
-    <StiPanelElement> Diğer öğeleri içerebilen dikdörtgen bir bölgedir. Panel taşınırken içindeki öğeler de taşınır.</StiPanelElement>
-    <StiPanelUI>Diğer denetimleri bir alan içinde gruplandırmak ve düzenlemek için kullanılan panel.</StiPanelUI>
-    <StiPdfDigitalSignature>Bu etkileşimli öğe, rapor Adobe PDF formatına dönüştürüldükten sonra dijital imzaya yer belirlemek için kullanılır.</StiPdfDigitalSignature>
-    <StiPdfDigitalSignatureElement>Bu öğe, rapor PDF'e aktarılırken dijital imza ve sertifika alanları için yer belirlemek için kullanılır.</StiPdfDigitalSignatureElement>
-    <StiPivotTableElement>Pivot tablo elemanı, bir tablo olarak yapılandırılmış veri gösterimi için kullanılır.</StiPivotTableElement>
-    <StiProgressElement>Eleman, giriş verilerinin oranını gösterir. Farklı modlarda sunulabilir - pasta, çörek ve çubuk grafiklerdir.</StiProgressElement>
-    <StiRadioGroupUI>Önceden tanımlanmış bir değer setinden bir seçeneği seçmek için kullanılan radyo grubu.</StiRadioGroupUI>
-    <StiRangeSelectorElement>Bu bileşen, bir ölçek veya zaman çizelgesinde bir değer aralığı seçmek için kullanılır. Kullanıcıların aralığın minimum ve maksimum sınırlarını görsel olarak tanımlamasına olanak tanır.</StiRangeSelectorElement>
-    <StiRangeSliderUI>Bir ölçekte minimum ve maksimum değerleri tanımlamak için kullanılan aralık kaydırıcısı.</StiRangeSliderUI>
-    <StiRectanglePrimitive>Bu bileşen dikdörtgenler çıkarmak için kullanılır.</StiRectanglePrimitive>
-    <StiRegionMapElement> Bu öğe, coğrafi olarak hedeflenmiş verileri görüntülemek için kullanılır.</StiRegionMapElement>
-    <StiReportSummaryBand>Bu bant, raporun tamamında özet çıktıları için kullanılır. Bir raporun sonunda bir kez çıktı verilir.</StiReportSummaryBand>
-    <StiReportTitleBand>Bu bant, rapor başlığını çıkarmak için kullanılır. Bir raporun başlangıcında çıktı verilir.</StiReportTitleBand>
-    <StiRichText>Bu bileşen, RTF metnini çıkarmak ve düzenlemek için kullanılır. Ayrıca RTF formatında dosya yükleme ve kaydetmeyi de destekler.</StiRichText>
-    <StiRoundedRectanglePrimitive>Bu bileşen yuvarlatılmış dikdörtgenler çıkarmak için kullanılır.</StiRoundedRectanglePrimitive>
-    <StiScreen>Bir uygulama sayfası için denetimleri, düzeni ve kullanıcı etkileşimlerini barındıran ekran.</StiScreen>
-    <StiSelectUI>Açılır listeden bir değer seçmek için kullanılan seçim kutusu.</StiSelectUI>
-    <StiShape>Bu bileşen oklar, çapraz çizgi aşağı, çapraz çizgi yukarı, yatay çizgi, sol ve sağ çizgiler, oval, dikdörtgen, yuvarlatılmış dikdörtgen, üst ve alt çizgiler, üçgen, dikey çizgi gibi hazır şekiller eklemek için kullanılır.</StiShape>
-    <StiShapeElement>Bu öğe oklar, çapraz çizgi aşağı, çapraz çizgi yukarı, yatay çizgi, sol ve sağ çizgiler, oval, dikdörtgen, yuvarlatılmış dikdörtgen, üst ve alt çizgiler, üçgen, dikey çizgi gibi hazır şekiller eklemek için kullanılır.</StiShapeElement>
-    <StiSignature>Bu bileşen, bir rapora elektronik veya dijital imza eklemek için kullanılır. </StiSignature>
-    <StiSliderUI>Sürekli sayısal ölçekte bir değer seçmek için kullanılan kaydırıcı.</StiSliderUI>
-    <StiSparkline>Bu bileşen, bir raporda mikrografikler oluşturmak için kullanılır. Çubuklar, çizgiler, alanlar gibi dinamik olarak değişen verileri izlemenizi sağlar.</StiSparkline>
-    <StiSubReport>Bu bileşen, bir raporun farklı yerlerinde ek veri çıkışı için kullanılır.</StiSubReport>
-    <StiSwitchUI>Bir ayarı tek tıkla açıp kapatmak için kullanılan anahtar.</StiSwitchUI>
-    <StiTable>Bu bileşen, bir dikey sütun modeli ve yatay satırlar kullanılarak organize edilen bir dizi veri öğesidir.</StiTable>
-    <StiTableElement>Bu öğe, dikey sütunlar ve yatay satırlardan oluşan bir model kullanılarak organize edilen bir dizi veri öğesidir.</StiTableElement>
-    <StiTableOfContents>Bu bileşen, bir raporda içindekiler tablosu oluşturmak için kullanılır.</StiTableOfContents>
-    <StiTableUI>Verileri satır ve sütunlarda net şekilde göstermek için kullanılan tablo.</StiTableUI>
-    <StiText>Bu bileşen, verileri metin olarak çıkaran temel bir nesnedir.</StiText>
-    <StiTextElement>Bu öğe, verileri metin olarak çıkarmak için temel bir nesnedir.</StiTextElement>
-    <StiTextInCells>Bileşen, hücrelerde bir metin çıktılamak için kullanılır. Form oluşturmak için sıklıkla kullanılır.</StiTextInCells>
-    <StiTextInputUI>Metin değerlerini girmek ve düzenlemek için kullanılan metin girdisi.</StiTextInputUI>
-    <StiTreeViewBoxElement>Öğe, aşağı açılan listeyle değerleri ağaç olarak seçmek için kullanılır.</StiTreeViewBoxElement>
-    <StiTreeViewElement>Hiyerarşik verileri bir ağaç olarak göstermek için kullanılan öğeyi temsil eder.</StiTreeViewElement>
-    <StiVerticalLinePrimitive> Bu bileşen dikey çizgiler oluşturmak için kullanılır.</StiVerticalLinePrimitive>
-    <StiWebContentElement>Bu öğe web içeriğinin ana panele eklenmesini sağlar.</StiWebContentElement>
-    <StiWinControl>Bileşen, .NET'den görsel kontrollerin gösterilmesine izin verir.</StiWinControl>
-    <StiZipCode>Bu bileşen posta kodunu vermek için kullanılır.</StiZipCode>
+    <CategoryBands>Üst bilgi, veri ve alt bilgi yazdıran bantlar.</CategoryBands>
+    <CategoryComponents>Metin, resim ve diğer verileri gösteren bileşenler.</CategoryComponents>
+    <CategoryCrossBands>Soldan sağa yazdırılan bantlar.</CategoryCrossBands>
+    <StiBarCode>Bir barkod gösterir.</StiBarCode>
+    <StiButtonElement>Tıklandığında bir komut dosyası çalıştırır.</StiButtonElement>
+    <StiButtonUI>Bir eylem veya komut başlatır.</StiButtonUI>
+    <StiCardsElement>Gruplandırılmış verileri kartlar halinde gösterir.</StiCardsElement>
+    <StiChart>Verileri grafik olarak gösterir.</StiChart>
+    <StiChartElement>Verileri grafik olarak gösterir.</StiChartElement>
+    <StiCheckBox>Doğru veya yanlış değerini onay işaretiyle gösterir.</StiCheckBox>
+    <StiCheckBoxGroupUI>Birkaçını işaretlemek için seçenekler sunar.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>Bir seçeneği açar veya kapatır.</StiCheckBoxUI>
+    <StiChildBand>Aynı veri satırı için bir bant daha yazdırır.</StiChildBand>
+    <StiClone>Bir panelin içeriğini yineler.</StiClone>
+    <StiColumnFooterBand>Veri bandının her sütununun altında yazdırılır.</StiColumnFooterBand>
+    <StiColumnHeaderBand>Veri bandının her sütununun üstünde yazdırılır.</StiColumnHeaderBand>
+    <StiComboBoxElement>Açılır listeden bir değer seçer.</StiComboBoxElement>
+    <StiContainer>Diğer bileşenleri tek bir alanda gruplar.</StiContainer>
+    <StiCrossDataBand>Her satır için bir kez, soldan sağa yazdırılır.</StiCrossDataBand>
+    <StiCrossFooterBand>Çapraz-Veri bandından sonra yazdırılır.</StiCrossFooterBand>
+    <StiCrossGroupFooterBand>Her çapraz grubun sonunda yazdırılır.</StiCrossGroupFooterBand>
+    <StiCrossGroupHeaderBand>Her çapraz grubun başında yazdırılır.</StiCrossGroupHeaderBand>
+    <StiCrossHeaderBand>Çapraz-Veri bandından önce yazdırılır.</StiCrossHeaderBand>
+    <StiCrossTab>Yapılandırılmış verileri çapraz tablo olarak gösterir.</StiCrossTab>
+    <StiDataBand>Veri kaynağının her satırı için bir kez yazdırılır.</StiDataBand>
+    <StiDatePickerElement>Tarih ve saat seçer.</StiDatePickerElement>
+    <StiDatePickerUI>Tarih seçmek için takvim gösterir.</StiDatePickerUI>
+    <StiElectronicSignature>Çizim, yazı veya resim olarak imza ekler.</StiElectronicSignature>
+    <StiEmptyBand>Sayfanın altındaki boş alanı doldurur.</StiEmptyBand>
+    <StiFilterCategory>Değerleri seçen ve filtreleyen öğeler.</StiFilterCategory>
+    <StiFooterBand>Veri bandının satırlarından sonra yazdırılır.</StiFooterBand>
+    <StiGauge>Bir değeri aralık içinde gösterir.</StiGauge>
+    <StiGaugeElement>Bir değeri aralık içinde gösterir.</StiGaugeElement>
+    <StiGroupFooterBand>Her grubun sonunda yazdırılır.</StiGroupFooterBand>
+    <StiGroupHeaderBand>Her grubun başında yazdırılır.</StiGroupHeaderBand>
+    <StiHeaderBand>Veri bandının satırlarından önce yazdırılır.</StiHeaderBand>
+    <StiHierarchicalBand>Veri kaynağının satırlarını ağaç olarak yazdırır.</StiHierarchicalBand>
+    <StiHorizontalLinePrimitive>Yatay bir çizgi çizer.</StiHorizontalLinePrimitive>
+    <StiIconUI>Bir simge gösterir.</StiIconUI>
+    <StiImage>Bir resim gösterir.</StiImage>
+    <StiImageElement>Bir resim gösterir.</StiImageElement>
+    <StiImageUI>Bir resim gösterir.</StiImageUI>
+    <StiIndicatorElement>Değerler arasındaki farkı gösterir.</StiIndicatorElement>
+    <StiLabelUI>Kısa bir metin gösterir.</StiLabelUI>
+    <StiListBoxElement>Listeden öğeler seçer.</StiListBoxElement>
+    <StiListUI>Tek bir öğe seçmek için liste gösterir.</StiListUI>
+    <StiMap>Verileri harita üzerinde gösterir.</StiMap>
+    <StiMapCategory>Verileri harita üzerinde gösteren öğeler.</StiMapCategory>
+    <StiMapElement>Verileri harita üzerinde gösterir.</StiMapElement>
+    <StiMarkdown>Markdown metni gösterir.</StiMarkdown>
+    <StiMathFormula>Bir matematik formülü gösterir.</StiMathFormula>
+    <StiMultiListUI>Birkaç öğe seçmek için liste gösterir.</StiMultiListUI>
+    <StiMultiSelectUI>Birkaç değer seçmek için açılır liste gösterir.</StiMultiSelectUI>
+    <StiNumberBoxElement>Bir sayı veya sayı aralığı seçer.</StiNumberBoxElement>
+    <StiNumberInputUI>Kullanıcıdan bir sayı alır.</StiNumberInputUI>
+    <StiOnlineMapElement>Çevrimiçi haritada işaretleyiciler gösterir.</StiOnlineMapElement>
+    <StiOverlayBand>Her sayfaya filigran yazdırır.</StiOverlayBand>
+    <StiPageFooterBand>Her sayfanın altında yazdırılır.</StiPageFooterBand>
+    <StiPageHeaderBand>Her sayfanın üstünde yazdırılır.</StiPageHeaderBand>
+    <StiPanel>Diğer bileşenleri tek bir alanda gruplar.</StiPanel>
+    <StiPanelElement>Diğer öğeleri tek bir alanda gruplar.</StiPanelElement>
+    <StiPanelUI>Diğer denetimleri tek bir alanda gruplar.</StiPanelUI>
+    <StiPdfDigitalSignature>PDF'de dijital imzanın yerini işaretler.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>PDF'de dijital imzanın yerini işaretler.</StiPdfDigitalSignatureElement>
+    <StiPivotTableElement>Yapılandırılmış verileri pivot tablo olarak gösterir.</StiPivotTableElement>
+    <StiProgressElement>Bir değeri bütünün parçası olarak gösterir.</StiProgressElement>
+    <StiRadioGroupUI>Birini seçmek için seçenekler sunar.</StiRadioGroupUI>
+    <StiRangeSelectorElement>Ölçek veya zaman çizelgesinde aralık seçer.</StiRangeSelectorElement>
+    <StiRangeSliderUI>Ölçek üzerinde bir aralık ayarlar.</StiRangeSliderUI>
+    <StiRectanglePrimitive>Bir dikdörtgen çizer.</StiRectanglePrimitive>
+    <StiRegionMapElement>Verileri bölge haritası üzerinde gösterir.</StiRegionMapElement>
+    <StiReportSummaryBand>Raporun sonunda bir kez yazdırılır.</StiReportSummaryBand>
+    <StiReportTitleBand>Raporun başında bir kez yazdırılır.</StiReportTitleBand>
+    <StiRichText>Biçimlendirilmiş RTF metni gösterir.</StiRichText>
+    <StiRoundedRectanglePrimitive>Yuvarlatılmış bir dikdörtgen çizer.</StiRoundedRectanglePrimitive>
+    <StiScreen>Uygulama sayfasının denetimlerini barındırır.</StiScreen>
+    <StiSelectUI>Tek bir değer seçmek için açılır liste gösterir.</StiSelectUI>
+    <StiShape>Hazır bir şekil gösterir.</StiShape>
+    <StiShapeElement>Hazır bir şekil gösterir.</StiShapeElement>
+    <StiSignature>Elektronik veya dijital imza ekler.</StiSignature>
+    <StiSliderUI>Ölçek üzerinde bir değer ayarlar.</StiSliderUI>
+    <StiSparkline>Bir veri serisinin küçük grafiğini gösterir.</StiSparkline>
+    <StiSubReport>Bu konumda başka bir rapor veya sayfa yazdırır.</StiSubReport>
+    <StiSwitchUI>Bir ayarı açar veya kapatır.</StiSwitchUI>
+    <StiTable>Verileri satırlar ve sütunlar halinde gösterir.</StiTable>
+    <StiTableElement>Verileri satırlar ve sütunlar halinde gösterir.</StiTableElement>
+    <StiTableOfContents>İçindekiler tablosunu oluşturur.</StiTableOfContents>
+    <StiTableUI>Verileri satırlar ve sütunlar halinde gösterir.</StiTableUI>
+    <StiText>Verileri metin olarak gösterir.</StiText>
+    <StiTextElement>Verileri metin olarak gösterir.</StiTextElement>
+    <StiTextInCells>Metni her hücrede bir karakter olarak gösterir.</StiTextInCells>
+    <StiTextInputUI>Kullanıcıdan metin alır.</StiTextInputUI>
+    <StiTreeViewBoxElement>Açılır ağaçtan değerler seçer.</StiTreeViewBoxElement>
+    <StiTreeViewElement>Hiyerarşik verileri ağaç olarak gösterir.</StiTreeViewElement>
+    <StiVerticalLinePrimitive>Dikey bir çizgi çizer.</StiVerticalLinePrimitive>
+    <StiWebContentElement>Web içeriği gösterir.</StiWebContentElement>
+    <StiWinControl>Bir .NET görsel denetimi gösterir.</StiWinControl>
+    <StiZipCode>Bir ZIP posta kodu gösterir.</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
     <ActiveRelation>İki tabloyu bağlamak için öncelik İlişkisini ayarlar. Veri Dönüştürme ve Pano'larda kullanılır. Her Veri Kaynağında sadece bir İlişki aktif olabilir.</ActiveRelation>
-    <Align>Seçilen bileşenlerin yerini değiştirir.</Align>
-    <AlignBottom>Bileşenin içeriğini altta hizalar.</AlignBottom>
-    <AlignCenter>Bir bileşenin içeriğini merkeze hizalar.</AlignCenter>
+    <Align>Seçilen bileşenleri hizalayın.</Align>
+    <AlignBottom>İçeriği alta hizalayın.</AlignBottom>
+    <AlignCenter>İçeriği merkeze hizalayın.</AlignCenter>
     <AlignComponentBottom>Nesneleri seçilen bileşenlerin alt kenarı boyunca yatay olarak hizalamanıza izin verir.</AlignComponentBottom>
     <AlignComponentCenter>Nesneleri seçilen bileşenlerin orta kenarı boyunca yatay olarak hizalamanıza olanak verir.</AlignComponentCenter>
     <AlignComponentLeft>Nesneleri seçilen bileşenlerin sol kenarı boyunca dikey olarak hizalamanıza izin verir.</AlignComponentLeft>
     <AlignComponentMiddle>Nesneleri, seçilen bileşenlerin orta kenarı boyunca dikey olarak hizalamanıza izin verir.</AlignComponentMiddle>
     <AlignComponentRight>Nesneleri, seçilen bileşenlerin sağ kenarı boyunca dikey olarak hizalamanıza izin verir.</AlignComponentRight>
     <AlignComponentTop>Nesneleri, seçilen bileşenlerin üst kenarı boyunca yatay olarak hizalamanıza izin verir.</AlignComponentTop>
-    <AlignLeft>Bir bileşenin içeriğini sola hizalar.</AlignLeft>
-    <AlignMiddle>İçeriği bir bileşenin üst ve alt kenarlarına göre ortalar.</AlignMiddle>
-    <AlignRight>Bir bileşenin içeriğini sağa hizalar.</AlignRight>
-    <AlignToGrid>Seçilen bileşenleri ızgara düğümlerine hizalar.</AlignToGrid>
-    <AlignTop>Bileşenin içeriğini en üste hizalar.</AlignTop>
-    <AlignWidth>Bir bileşenin içeriğini doğrular.</AlignWidth>
-    <Angle>Bileşenin içeriğini döndürür.</Angle>
+    <AlignLeft>İçeriği sola hizalayın.</AlignLeft>
+    <AlignMiddle>İçeriği ortaya hizalayın.</AlignMiddle>
+    <AlignRight>İçeriği sağa hizalayın.</AlignRight>
+    <AlignToGrid>Seçilen bileşenleri ızgaraya hizalayın.</AlignToGrid>
+    <AlignTop>İçeriği üste hizalayın.</AlignTop>
+    <AlignWidth>İçeriği iki yana yaslayın.</AlignWidth>
+    <Angle>Metni döndürün.</Angle>
     <AngleWatermark>Filigran metni döndürme açısı.</AngleWatermark>
-    <Background>Seçilen bileşenlerin arka planını değiştirir.</Background>
-    <biConditions>Seçilen bileşenlerin koşullarının kontrol listesi.</biConditions>
-    <BorderColor>Seçilen bileşenin kenarlık rengini seçin.</BorderColor>
-    <BorderSidesAll>Seçilen bileşenlerin tüm kenarlarını açar.</BorderSidesAll>
-    <BorderSidesBottom>Seçili bileşenlerin alt kenarlığını açar.</BorderSidesBottom>
-    <BorderSidesLeft>Seçili bileşenlerin sol kenarlık kenarını açar.</BorderSidesLeft>
-    <BorderSidesNone>Seçilen bileşenlerin tüm kenarlarını kapatın.</BorderSidesNone>
-    <BorderSidesRight>Seçilen bileşenlerin sağ kenarını aç.</BorderSidesRight>
-    <BorderSidesTop>Seçili bileşenlerin üst sınır tarafını aç.</BorderSidesTop>
-    <BorderStyle>Seçilen bileşenlerin kenarlık stilini seçin.</BorderStyle>
-    <BringToFront>Seçilen bileşeni öne getir.</BringToFront>
+    <Background>Arka planı değiştirin.</Background>
+    <biConditions>Koşulları düzenleyin.</biConditions>
+    <BorderColor>Kenarlık rengini değiştirin.</BorderColor>
+    <BorderSidesAll>Tüm kenarlıkları gösterin.</BorderSidesAll>
+    <BorderSidesBottom>Alt kenarlığı gösterin veya gizleyin.</BorderSidesBottom>
+    <BorderSidesLeft>Sol kenarlığı gösterin veya gizleyin.</BorderSidesLeft>
+    <BorderSidesNone>Tüm kenarlıkları gizleyin.</BorderSidesNone>
+    <BorderSidesRight>Sağ kenarlığı gösterin veya gizleyin.</BorderSidesRight>
+    <BorderSidesTop>Üst kenarlığı gösterin veya gizleyin.</BorderSidesTop>
+    <BorderStyle>Kenarlık stilini değiştirin.</BorderStyle>
+    <BringToFront>Öne getirin.</BringToFront>
     <CenterHorizontally>Bir bileşeni, yerleştirildiği kapsayıcının kenarlarına göre yatay olarak hizalamanıza izin verir.</CenterHorizontally>
     <CenterVertically>Bir bileşeni, yerleştirildiği kapsayıcının kenarlarına göre dikey olarak hizalamanıza izin verir.</CenterVertically>
     <Close>Rapor Tasarımcısını Kapat.</Close>
-    <Columns>Bir sayfayı sütunlara ayır.</Columns>
+    <Columns>Sayfayı sütunlara bölün.</Columns>
     <CompilationAccess1>Bu doküman derleme işlemini kullanır. Eğer doküman güvenli bir kaynaktan geliyorsa "Aç" tuşuna basarak ona ulaşabilirsiniz.</CompilationAccess1>
     <CompilationAccess2>Eğer dokümanın kaynağından emin değilseniz ama yine de açmak istiyorsanız "Güvenli modda Aç" düğmesine tıklayabilirsiniz. Bu durumda, derleme yerine dokümanın güvenli bir şekilde açılmasını sağlayan yorumlayıcıyı kullanmış olacaksınız.</CompilationAccess2>
     <CompilationAccess3>Bu doküman derleme işlemi kullanıyor, o yüzden güvenli olmayabilir. Onu açamazsınız.</CompilationAccess3>
@@ -2187,15 +2190,15 @@
     <CompilationAccessForceInterpretation>Derleme gerektiren dosyalar herhangi bir uyarı olmaksızın açılacak fakat otomatik olarak, derleme işlemi kullanmayan, yorumlayıcı moduna çevrilecek.</CompilationAccessForceInterpretation>
     <CompilationAccessTitle>Belge derleme kullanıyor</CompilationAccessTitle>
     <CompilationModeEnabling>Derleme moduna geçiyorsunuz. Bu mod değişik kodların çalıştırılmasına imkan sağlar ve bazı durumlarda zararlı olabilir. Bu modu sadece bütün riskleri anladıysanız ve kabul ediyorsanız kullanın. Devam etmek için {0} tuşuna basın.</CompilationModeEnabling>
-    <ComponentSize>Seçilen bileşenlerin boyutunu değiştir.</ComponentSize>
-    <ComponentsMenu>Kullanılmayan gösterge paneli öğelerini içeren Bileşenler menüsünü mobil yüzeyde açar.</ComponentsMenu>
-    <CopyStyle>Stili Kopyala</CopyStyle>
+    <ComponentSize>Seçilen bileşenleri yeniden boyutlandırın.</ComponentSize>
+    <ComponentsMenu>Kullanılmayan öğeleri gösterin.</ComponentsMenu>
+    <CopyStyle>Stili diğer bileşenlere kopyalayın.</CopyStyle>
     <CopyToClipboard>Panoya Kopyala</CopyToClipboard>
-    <CurrencySymbol>Para birimi simgesini seç.</CurrencySymbol>
+    <CurrencySymbol>Para birimi simgesini seçin.</CurrencySymbol>
     <DashboardNew>Yeni bir Kontrol Paneli oluşturun.</DashboardNew>
     <DataStore>Bir raporda kayıtlı verileri göster.</DataStore>
-    <DateTimeFormat>Seçilen bileşenlerin tarih ve saat biçimini seç.</DateTimeFormat>
-    <DockingPanels>Panel ayarları.</DockingPanels>
+    <DateTimeFormat>Tarih ve saat biçimini seçin.</DateTimeFormat>
+    <DockingPanels>Panelleri gösterin veya gizleyin.</DockingPanels>
     <DockStyleBottom>Seçilen bileşenleri alt tarafa sabitle.</DockStyleBottom>
     <DockStyleFill>Seçilen bileşenleri tüm taraflara sabitle.</DockStyleFill>
     <DockStyleLeft>Seçilen bileşenleri sol tarafa yerleştir.</DockStyleLeft>
@@ -2204,18 +2207,18 @@
     <DockStyleTop>Seçilen bileşenleri üst tarafa sabitle.</DockStyleTop>
     <EventsAccess1>Bu doküman Etkinlikleri kullanır. Eğer doküman güvenilir bir kaynaktan geliyorsa "Aç" tuşuna basarak ona ulaşabilirsiniz.</EventsAccess1>
     <EventsAccess2>Eğer dokümanın kaynağından emin değilseniz ama yine de onu açmak istiyorsanız, "Güvenli modda aç" tuşuna basabilirsiniz. Bu durumda etkinlikler devre dışı bırakılacak ve çalıştırılmayacaktır.</EventsAccess2>
-    <FontGrow>Metin boyutunu büyütün.</FontGrow>
-    <FontName>Metin yazı tipi.</FontName>
+    <FontGrow>Metni büyütün.</FontGrow>
+    <FontName>Metnin yazı tipini değiştirin.</FontName>
     <FontNameWatermark>Filigran metni yazı tipi.</FontNameWatermark>
-    <FontShrink>Metin boyutunu küçültün.</FontShrink>
-    <FontSize>Yazı tipi boyutu.</FontSize>
+    <FontShrink>Metni küçültün.</FontShrink>
+    <FontSize>Metin boyutunu değiştirin.</FontSize>
     <FontSizeWatermark>Yazı tipi boyutunu değiştir.</FontSizeWatermark>
-    <FontStyleBold>Metni kalın yap.</FontStyleBold>
+    <FontStyleBold>Metni kalın yapın.</FontStyleBold>
     <FontStyleBoldWatermark>Filigran metnini kalın yap.</FontStyleBoldWatermark>
-    <FontStyleItalic>Metni Italik yap.</FontStyleItalic>
+    <FontStyleItalic>Metni italik yapın.</FontStyleItalic>
     <FontStyleItalicWatermark>Filigran metni Italic yap.</FontStyleItalicWatermark>
-    <FontStyleStrikeout>Metnin üzerini çiz.</FontStyleStrikeout>
-    <FontStyleUnderline>Metnin altı çiz.</FontStyleUnderline>
+    <FontStyleStrikeout>Metnin üstünü çizin.</FontStyleStrikeout>
+    <FontStyleUnderline>Metnin altını çizin.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Filigran metninin altını çiz.</FontStyleUnderlineWatermark>
     <FormatBoolean>Bu biçim, boole türünün değerlerini formatlamak için kullanılır.</FormatBoolean>
     <FormatCurrency>Bir değeri para birimi olarak görüntüler. Varsayılan para birimi simgesiyle bir sayı görüntülemenizi sağlar.</FormatCurrency>
@@ -2226,61 +2229,61 @@
     <FormatPercentage>Bir değeri yüzde olarak görüntüleyin. Sayılar, yüzdelere dönüştürmek için 100 ile çarpılır.</FormatPercentage>
     <FormatTime>Bir değeri zaman olarak görüntüler. Saat formatı bölgesel saat ayarlarına dayanır.</FormatTime>
     <FormNew>Yeni bir iletişim formu oluştur.</FormNew>
-    <GridMode>Izgarayı çizgiler veya noktalar halinde göster.</GridMode>
+    <GridMode>Izgarayı çizgi veya nokta olarak gösterin.</GridMode>
     <ImageAlignment>Bir sayfaya filigran görüntüsü koyun.</ImageAlignment>
     <ImageTransparency>Filigran görüntünün saydamlığını değiştirin.</ImageTransparency>
-    <Interaction>Seçilen bileşenlerin etkileşimini kontrol edin.</Interaction>
-    <LineSpacing> Metin satırları arasında veya paragraflar arasında ne kadar alan göründüğünü seçin.</LineSpacing>
-    <Link>Bileşeni geçerli kapsayıcıya köprüleyin.</Link>
+    <Interaction>Etkileşimi ayarlayın.</Interaction>
+    <LineSpacing>Satır aralığını değiştirin.</LineSpacing>
+    <Link>Kapsayıcıya bağlayın.</Link>
     <LoadImage>Dosyadan filigran görüntüleri yükleyin.</LoadImage>
-    <Lock>Bileşeni kilitle. Bileşen taşınamaz ve yeniden boyutlandırılamaz.</Lock>
-    <MainMenu>Açılış, kapanma ve önizleme dahil olmak üzere bir raporla olası işlemlerin listesini görmek için buraya tıklayın.</MainMenu>
+    <Lock>Konumu ve boyutu kilitleyin.</Lock>
+    <MainMenu>Rapor oluşturun, açın veya kaydedin.</MainMenu>
     <MakeHorizontalSpacingEqual>Seçilen bileşenler arasında eşit yatay boşluk bırakmanızı sağlar.</MakeHorizontalSpacingEqual>
     <MakeVerticalSpacingEqual>Seçilen bileşenler arasında eşit dikey boşluk ayarlamanıza olanak verir.</MakeVerticalSpacingEqual>
-    <Margins>Geçerli sayfanın kenar boşluklarını seçin.</Margins>
+    <Margins>Sayfa kenar boşluklarını seçin.</Margins>
     <menuCheckIssues>Hataları, uyarıları bulmak ve öneriler almak için bir raporu kontrol edin.</menuCheckIssues>
     <menuDesignerOptions>Rapor tasarımcısı seçeneklerini ayarla.</menuDesignerOptions>
-    <menuEditClearContents>İçeriği temizle.</menuEditClearContents>
-    <menuEditCopy>Seçilen bileşenleri kopyalayın ve bunları Panoya yerleştirin.</menuEditCopy>
-    <menuEditCut>Seçili bileşenleri bir rapordan kesin ve panoya koyun.</menuEditCut>
+    <menuEditClearContents>İçeriği temizleyin.</menuEditClearContents>
+    <menuEditCopy>Seçilen bileşenleri kopyalayın.</menuEditCopy>
+    <menuEditCut>Seçilen bileşenleri kesin.</menuEditCut>
     <menuEditDelete>Seçilen bileşenleri silin.</menuEditDelete>
-    <menuEditPaste>Pano'nun içeriğini rapora yapıştırın.</menuEditPaste>
-    <menuExportSettings>Geçerli rapor veya gösterge paneli için Dışa Aktarma Ayarları düzenleyicisini açar. Ayarlar yalnızca mevcut rapor veya gösterge paneli dışa aktarılırken uygulanır.</menuExportSettings>
+    <menuEditPaste>Panodan yapıştırın.</menuEditPaste>
+    <menuExportSettings>Dışa aktarma ayarlarını değiştirin.</menuExportSettings>
     <menuFAQPage>Sık sorulan sorularla web sayfasına gidin.</menuFAQPage>
-    <menuGlobalizationStrings>Mevcut raporun Küreselleşme Dizeleri Düzenleyicisini arayın.</menuGlobalizationStrings>
+    <menuGlobalizationStrings>Küreselleştirme dizelerini düzenleyin.</menuGlobalizationStrings>
     <menuHelpAboutProgramm>Rapor üreticisi sürümü ve .NET sürümü hakkında bilgi edinin.</menuHelpAboutProgramm>
     <menuHomePage>Ürünün Ana sayfasına gidin.</menuHomePage>
     <menuPageOptions>Geçerli sayfanın temel parametrelerini ayarlayın. Tüm sayfa seçenekleri Özellik paneli kullanılarak değiştirilebilir.</menuPageOptions>
     <menuPagesManager>Sayfa Yöneticisi'ni çalıştırın. Sayfaları hareket ettirmeye, sayfaları silmeye ve yeni sayfalar oluşturmaya izin verir.</menuPagesManager>
-    <menuPreviewSettings>Mevcut raporun Önizleme Ayarları düzenleyicisini arayın. Ayarlar sadece mevcut raporu görüntülerken uygulanacaktır.</menuPreviewSettings>
+    <menuPreviewSettings>Önizleme ayarlarını değiştirin.</menuPreviewSettings>
     <menuPrint>Yazdırmadan önce bir yazıcı, kopya sayısı ve diğer yazdırma seçeneklerini seçin.</menuPrint>
     <menuPrintPreview>Yazdırmadan önce bir raporu önizleyin.</menuPrintPreview>
     <menuPrintQuick>Bir raporu doğrudan varsayılan yazıcıya yazdırın. Yazdırma iletişim kutusu görüntülenmiyor.</menuPrintQuick>
-    <menuReportOptions>Temel rapor seçeneklerini ayarlayın. Tüm seçenekler, Özellik paneli kullanılarak değiştirilebilir.</menuReportOptions>
+    <menuReportOptions>Rapor seçeneklerini değiştirin.</menuReportOptions>
     <menuStyleDesigner>Mevcut raporun Stil Tasarımcısı'nı arayın.</menuStyleDesigner>
     <menuSupport>Bir soru sormak için destek sayfasına gidin.</menuSupport>
-    <menuViewAlignToGrid>Bileşenleri ızgaraya hizala.</menuViewAlignToGrid>
+    <menuViewAlignToGrid>Bileşenleri ızgaraya hizalayın.</menuViewAlignToGrid>
     <menuViewNormal>Sayfanın normal görünümü.</menuViewNormal>
     <menuViewPageBreakPreview>Segmentlerin bulunduğu bir sayfanın gösterilme şekli.</menuViewPageBreakPreview>
-    <menuViewQuickInfo>Bileşenlerin hızlı bilgilerini göster: bileşen adı, diğer adlar, içerikler, olaylar vb.</menuViewQuickInfo>
-    <menuViewShowGrid>Rapordaki nesneleri hizalayabileceğiniz ızgara çizgilerini açın.</menuViewShowGrid>
-    <menuViewShowHeaders>Bant başlıklarını göster.</menuViewShowHeaders>
-    <menuViewShowOrder>Sayfadaki bileşenlerin sırasını gösterir.</menuViewShowOrder>
-    <menuViewShowRulers>Sayfadaki nesneleri ölçmek ve sıralamak için kullanılan cetvelleri görüntüleyin.</menuViewShowRulers>
-    <menuViewShowSmartGuides>Bileşenleri birbirlerine göre pozisyonlamak için Akıllı Rehberi göster.</menuViewShowSmartGuides>
-    <MoveBackward>Bileşenleri sayfaya yerleştirmek için bir bileşeni bir üst seviyeye taşıyın.</MoveBackward>
-    <MoveForward>Bileşenleri sayfaya yerleştirmek için bir bileşeni bir alt kısma taşıyın.</MoveForward>
+    <menuViewQuickInfo>Bileşenlerin hızlı bilgilerini gösterin.</menuViewQuickInfo>
+    <menuViewShowGrid>Izgarayı gösterin.</menuViewShowGrid>
+    <menuViewShowHeaders>Bant başlıklarını gösterin.</menuViewShowHeaders>
+    <menuViewShowOrder>Bileşenlerin sırasını gösterin.</menuViewShowOrder>
+    <menuViewShowRulers>Cetvelleri gösterin.</menuViewShowRulers>
+    <menuViewShowSmartGuides>Akıllı rehberleri gösterin.</menuViewShowSmartGuides>
+    <MoveBackward>Bir seviye geriye taşıyın.</MoveBackward>
+    <MoveForward>Bir seviye ileri taşıyın.</MoveForward>
     <NotPossibleEnableCompilationMode>Rapor için derleme modunu aktifleştirmek imkansız. Dizayner ayarlarındaki 'Derleme Erişimi' opsiyonu buna izin vermiyor.</NotPossibleEnableCompilationMode>
-    <Orientation>Sayfaları dikey ve yatay düzenler arasında değiştirin.</Orientation>
+    <Orientation>Dikey ve yatay arasında geçiş yapın.</Orientation>
     <PageDelete>Mevcut sayfayı bir rapordan sil.</PageDelete>
     <PageNew>Yeni sayfa oluştur.</PageNew>
-    <PageSetup>Sayfa Yapısı iletişim kutusunu göster.</PageSetup>
-    <PageSize>Bir raporun geçerli sayfası için kağıt boyutunu seçin.</PageSize>
+    <PageSetup>Sayfa ayarlarını değiştirin.</PageSetup>
+    <PageSize>Kağıt boyutunu seçin.</PageSize>
     <PagesManager>Sayfa Yöneticisi'ni çalıştırın.</PagesManager>
     <PressF1>Daha Fazla Bilgi için F1'e basın</PressF1>
-    <PropertiesButton>Rapor şablonu özelliklerini içeren Özellikler panelini etkinleştirir.</PropertiesButton>
+    <PropertiesButton>Rapor özelliklerini gösterin.</PropertiesButton>
     <Redo>Bir raporda önceden iptal edilmiş değişikliği tekrar yapın.</Redo>
-    <RemoveMobileSurfaceButton>Geçerli gösterge panelinden mobil yüzeyi kaldırır.</RemoveMobileSurfaceButton>
+    <RemoveMobileSurfaceButton>Mobil yüzeyi kaldırın.</RemoveMobileSurfaceButton>
     <ReportNew>Yeni bir rapor oluşturun.</ReportNew>
     <ReportOpen>Tasarımcıda bir rapor açın.</ReportOpen>
     <ReportPreview>Düzenlenen bir raporu görüntüleyende önizleyin.</ReportPreview>
@@ -2292,46 +2295,47 @@
     <ScriptSecuritySafeMode>Güvenli betik erişimi (güvenlik için kısıtlı erişim).</ScriptSecuritySafeMode>
     <SelectAll>Geçerli sayfadaki tüm bileşenleri seçin.</SelectAll>
     <SelectUILanguage>UI dilini seçin.</SelectUILanguage>
-    <SendToBack>Seçilen bileşeni diğer bileşenlere göre arkaya taşıyın.</SendToBack>
+    <SendToBack>Arkaya gönderin.</SendToBack>
     <ServicesConfigurator>Services Configurator'ı çalıştırın.</ServicesConfigurator>
-    <Shadow>Bir bileşenin gölgesini göster.</Shadow>
+    <Shadow>Gölgeyi gösterin veya gizleyin.</Shadow>
     <ShowBehind>Bileşenlerin arkasındaki filigran metnini gösterin.</ShowBehind>
     <ShowImageBehind>Filigran görüntüsünü bir sayfanın tüm bileşenlerinin arkasına koyun.</ShowImageBehind>
     <ShowToolbox>Araç kutusunu göster.</ShowToolbox>
     <StimulsoftHelp>Yardım</StimulsoftHelp>
-    <StyleDesigner>Stil Tasarımcısı Çalıştır.</StyleDesigner>
+    <StyleDesigner>Stil Tasarımcısı'nı açın.</StyleDesigner>
     <TellMeMore>Daha Fazla Bilgi</TellMeMore>
     <Text>Filigran metni.</Text>
     <TextBrush>Metin rengini değiştirin.</TextBrush>
     <TextBrushWatermark>Filigranın metin rengini değiştirin.</TextBrushWatermark>
     <TextColor>Metin rengini değiştirin.</TextColor>
-    <TextFormat> Değer biçimini seçin.</TextFormat>
+    <TextFormat>Değer biçimini seçin.</TextFormat>
     <ToolbarStyle>Seçilen stili tüm seçilmiş bileşenlere ayarlayın.</ToolbarStyle>
     <Undo>Rapordaki son değişikliği geri al. </Undo>
-    <ViewModeDesktopButton>Masaüstü Yüzeyini Etkinleştir.</ViewModeDesktopButton>
-    <ViewModeMobileButton>Mobil Yüzeyi Etkinleştir.</ViewModeMobileButton>
-    <WordWrap>Bir bileşenin metnini sar.</WordWrap>
+    <ViewModeDesktopButton>Masaüstü yüzeyini gösterin.</ViewModeDesktopButton>
+    <ViewModeMobileButton>Mobil yüzeyi gösterin.</ViewModeMobileButton>
+    <Watermark>Filigran ayarlarını değiştirin.</Watermark>
+    <WordWrap>Metni kaydırın.</WordWrap>
     <Zoom>Raporun yakınlaştırma düzeyini belirtin.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
-    <StiButtonControl>Düğme denetimini temsil eder.</StiButtonControl>
-    <StiCheckBoxControl>Bayrak kontrolünü temsil eder.</StiCheckBoxControl>
-    <StiCheckedListBoxControl>Liste nesnesini, her öğe için solda bir işaretin gösterildiği şekilde gösterir.</StiCheckedListBoxControl>
-    <StiComboBoxControl>Doğrudan denetime bir değer yazmak veya varolan seçenekler listesinden seçim yapmak için kullanılan AçılırKutu'yu temsil eder.</StiComboBoxControl>
-    <StiDateTimePickerControl>Tarih ve saatin seçilmesine izin veren kontrolü temsil eder. Ayrıca, tarih ve saati belirtilen biçimde çıkış yapmanıza olanak verir.</StiDateTimePickerControl>
-    <StiGridControl>Satır ve sütunlardan oluşan Izgara denetimini temsil eder.</StiGridControl>
-    <StiGroupBoxControl>Sınırları olan bir kapsayıcı ve UI içeriği için bir başlık oluşturan denetimi temsil eder.</StiGroupBoxControl>
-    <StiLabelControl>Bir etiket, bir formdaki metni görüntüleyen bir kullanıcı arabirim denetimidir. Genellikle etkileşime sahip olmayan statik bir kontroldür.</StiLabelControl>
-    <StiListBoxControl>Seçim için öğe listesi içerir.</StiListBoxControl>
-    <StiListViewControl>Veri öğelerinin listesini gösteren ListView denetimini temsil eder.</StiListViewControl>
-    <StiLookUpBoxControl>Seçim için öğe listesini içerir.</StiLookUpBoxControl>
-    <StiNumericUpDownControl> Sayısal değerleri gösteren denetimi temsil eder.</StiNumericUpDownControl>
-    <StiPanelControl>Panel elemanları, nesnelerin yerleştirilmesi ve düzenlenmesi için kullanılır.</StiPanelControl>
-    <StiPictureBoxControl>Görüntünün gösterileceği kontrolü temsil eder.</StiPictureBoxControl>
-    <StiRadioButtonControl>Kullanıcının önceden tanımlanmış bir seçenekler kümesinden yalnızca birini seçmesine izin veren Radyo düğmesi denetimini temsil eder.</StiRadioButtonControl>
-    <StiRichTextBoxControl>Genişletilmiş düzenleme özellikli RichText denetimini temsil eder.</StiRichTextBoxControl>
-    <StiTextBoxControl>Bir metni göstermek veya düzenlemek için kullanılan Metin denetimini temsil eder.</StiTextBoxControl>
-    <StiTreeViewControl>Hiyerarşik verileri bir ağaç olarak göstermek için kullanılan denetimi temsil eder.</StiTreeViewControl>
+    <StiButtonControl>Tıklandığında bir eylem çalıştırır.</StiButtonControl>
+    <StiCheckBoxControl>Bir seçeneği açar veya kapatır.</StiCheckBoxControl>
+    <StiCheckedListBoxControl>Her öğe için onay kutusu olan bir liste gösterir.</StiCheckedListBoxControl>
+    <StiComboBoxControl>Değer seçmek veya yazmak için açılır liste gösterir.</StiComboBoxControl>
+    <StiDateTimePickerControl>Tarih ve saat seçmek için takvim gösterir.</StiDateTimePickerControl>
+    <StiGridControl>Verileri satırlar ve sütunlar halinde gösterir.</StiGridControl>
+    <StiGroupBoxControl>Denetimleri başlıklı bir çerçevede gruplar.</StiGroupBoxControl>
+    <StiLabelControl>Formda bir metin gösterir.</StiLabelControl>
+    <StiListBoxControl>Öğe seçmek için liste gösterir.</StiListBoxControl>
+    <StiListViewControl>Veri öğelerinin listesini gösterir.</StiListViewControl>
+    <StiLookUpBoxControl>Bir öğe seçmek için açılır liste gösterir.</StiLookUpBoxControl>
+    <StiNumericUpDownControl>Bir sayı alır, değiştirmek için butonları vardır.</StiNumericUpDownControl>
+    <StiPanelControl>Diğer denetimleri tek bir alanda gruplar.</StiPanelControl>
+    <StiPictureBoxControl>Bir resim gösterir.</StiPictureBoxControl>
+    <StiRadioButtonControl>Bir grubun seçeneklerinden birini seçer.</StiRadioButtonControl>
+    <StiRichTextBoxControl>Biçimlendirilmiş metni gösterir ve düzenler.</StiRichTextBoxControl>
+    <StiTextBoxControl>Bir metni gösterir ve düzenler.</StiTextBoxControl>
+    <StiTreeViewControl>Hiyerarşik verileri ağaç olarak gösterir.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
     <AddPageBreaks>Rapor sayfası görsel ayırıcısı.</AddPageBreaks>

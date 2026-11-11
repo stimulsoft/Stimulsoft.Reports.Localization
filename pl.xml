@@ -2047,132 +2047,135 @@
     <sys_morebuttons>Więcej przycisków</sys_morebuttons>
   </Gui>
   <HelpComponents>
-    <StiBarCode>Ten komponent umożliwia wyświetlanie kodów paskowych w raporcie. Dane kodu paskowego są wysyłane do obiektu w postaci łańcucha znaków. Łańcuch znaków może zawierać dowolne symbole, jednak wyświetlone zostaną jedynie symbole dozwolone dla danego typu kodu kreskowego.</StiBarCode>
-    <StiButtonElement>Ten element służy do wykonywania skryptu zdarzeń, gdy użytkownik wchodzi w interakcję.</StiButtonElement>
-    <StiButtonUI>Przycisk służący do wywołania akcji lub uruchomienia polecenia.</StiButtonUI>
-    <StiCardsElement>Ten element służy do wyświetlania zgrupowanych danych w postaci kart.</StiCardsElement>
-    <StiChart>Ten komponent umożliwia wyświetlanie wykresów w raportach. Dostępnych jest wiele typów wykresów. Spośród nich można wymienić pas, linię, koło, pierścieniowy, linie, obszary, Gantt, wykresy rozproszone itd.</StiChart>
-    <StiChartElement>Ten element umożliwia wyświetlanie wykresów na dashboardzie. Dostępne są różne typy wykresów.</StiChartElement>
-    <StiCheckBox>Ten komponent umożliwia wyświetlanie pola wyboru w raporcie. Może on wyświetlać dwa stany: "włączony lub "wyłączony".</StiCheckBox>
-    <StiCheckBoxGroupUI>Grupa pól wyboru służąca do zaznaczania wielu zdefiniowanych opcji z listy.</StiCheckBoxGroupUI>
-    <StiCheckBoxUI>Pole wyboru służące do szybkiego włączania lub wyłączania pojedynczej opcji.</StiCheckBoxUI>
-    <StiChildBand>Dziecko może być użyte do wyświetlenia dwóch grup danych  na jednym wierszu.</StiChildBand>
-    <StiClone>Ten komponent jest używany do duplikowania części raportu do wybranej innej części raportu. Klonowanie może być dodane jedynie do zawartości panelu.</StiClone>
-    <StiColumnFooterBand>Ten komponent służy do wyświetlania stopki kolumn na grupie danych. Stopka kolumny jest wyświetlana raz pod każdą kolumną. Wszystkie elementy, które są ustawione na tym komponencie również zostaną wyświetlone pod każdą kolumną.</StiColumnFooterBand>
-    <StiColumnHeaderBand>Ten komponent służy do wyświetlania nagłówków kolumn. Nagłówek kolumny jest wyświetlany tylko raz. Wszystkie elementy, które są ustawione na tym komponencie również zostaną wyświetlone pod każdą kolumną.</StiColumnHeaderBand>
-    <StiComboBoxElement>Reprezentuje ComboBox, który służy do wpisywania wartości bezpośrednio do kontrolki lub wyboru z listy istniejących opcji.</StiComboBoxElement>
-    <StiContainer>To jest prostokątny region, w którym inne komponenty, także związane z danymi, mogą zostać osadzone. Przemieszczając kontener przemieszczone zostaną również elementy w nim ustawione. Kontener może zostać osadzony zarówno na stronie jak i na grupach.</StiContainer>
-    <StiCrossDataBand>Ten komponent jest połączony ze źródłem danych. Jest on wyświetlany tyle razy, ile jest wierszy w źródle danych. Dane krzyżowe są wyświetlane od lewej do prawej.</StiCrossDataBand>
-    <StiCrossFooterBand>Ten komponent jest używany do wyświetlania stopki danych krzyżowych. Element jest pokazywany raz po wyświetleniu wszystkich danych. Dane krzyżowe są wyświetlane od lewej do prawej.</StiCrossFooterBand>
-    <StiCrossGroupFooterBand>Ten komponent jest używany do wyświetlania stopki grupy. Jest usytuowany pod danymi krzyżowymi. Każda stopka jest przyporządkowana do konkretnego nagłówka grupy. Dane krzyżowe są wyświetlane od lewej do prawej.</StiCrossGroupFooterBand>
-    <StiCrossGroupHeaderBand>Ten komponent jest podstawowym elementem do renderowania raportu z grupowaniem gdy w użyciu są dane krzyżowe. Niemożliwym jest stworzenie grupowania bez tego składnika. Komponenty wyświetlające informacje po grupie są usytuowane w nagłówku grupy. Tymi informacjami mogą być np. nazwa grupy, data, warunek grupowania itd. Komponent jest wyświetlany raz na początku każdej grupy. Dane krzyżowe są wyświetlane od lewej do prawej.</StiCrossGroupHeaderBand>
-    <StiCrossHeaderBand>Ten komponent służy do wyświetlania nagłówka. Jest powiązany z danymi krzyżowymi. Dane krzyżowe są wyświetlane od lewej do prawej.</StiCrossHeaderBand>
-    <StiCrossTab>Tabela krzyżowa służy do reprezentacji danych strukturalnych w postaci tabeli.</StiCrossTab>
-    <StiDataBand>Ten komponent jest połączony ze źródłem danych i jest wyświetlany tyle razy ile jest wierszy w źródle.</StiDataBand>
-    <StiDatePickerElement>Ten element służy do wyboru daty i godziny.</StiDatePickerElement>
-    <StiDatePickerUI>Selektor daty służący do wyboru daty z kalendarza.</StiDatePickerUI>
-    <StiElectronicSignature>Ten komponent służy do dodawania podpisu graficznego, obrazu, inicjałów i tekstu.</StiElectronicSignature>
-    <StiEmptyBand>Ten komponent służy do wypełniania pustej przestrzeni na dole strony. Wypełnia wolną przestrzeń na każdej stronie raportu.</StiEmptyBand>
-    <StiFilterCategory>Grupa elementów używanych do wybierania i filtrowania wartości.</StiFilterCategory>
-    <StiFooterBand>Ten komponent służy do wyświetlania podsumowania dla grupy danych. Jest usytuowany pod grupą danych i wyświetlany raz, po wygenerowaniu wszystkich wierszy danych.</StiFooterBand>
-    <StiGauge>Komponent umożliwia wyświetlanie wartości w predefiniowanym zakresie. Może mieć różną reprezentację graficzną.</StiGauge>
-    <StiGaugeElement>Ten element umożliwia wyświetlanie wartości w predefiniowanym zakresie. Może mieć różną reprezentację graficzną.</StiGaugeElement>
-    <StiGroupFooterBand>Ten komponent służy do wyświetlania stopki grupy. Jest usytuowany pod grupą danych. Każda stopka jest przyporządkowana do odpowiedniego nagłówka grupy i nie zostanie wyświetlona bez niego.</StiGroupFooterBand>
-    <StiGroupHeaderBand>Ten komponent jest podstawowym elementem do renderowania raportu z grupowaniem. Komponenty wyświetlające informacje po grupie są usytuowane w nagłówku grupy. Tymi informacjami mogą być np. nazwa grupy, data, warunek grupowania itd. Komponent jest wyświetlany raz na początku każdej grupy.</StiGroupHeaderBand>
-    <StiHeaderBand>Ten komponent służy do wyświetlania nagłówka. Jest powiązany z grupą danych.</StiHeaderBand>
-    <StiHierarchicalBand>Ten komponent jest połączony ze źródłem danych i wyświetlany tyle razy ile jest wierszy w źródle. Dane są wyświetlane w formie drzewa.</StiHierarchicalBand>
-    <StiHorizontalLinePrimitive>Ten komponent służy do wyświetlania linii.</StiHorizontalLinePrimitive>
-    <StiIconUI>Ikona służąca do wyświetlania symbolu graficznego lub znacznika wizualnego.</StiIconUI>
-    <StiImage>Ten komponent służy do wyświetlania obrazów. Obsługuje następujące formaty: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
-    <StiImageElement>Ten element służy do wyprowadzania obrazów. Obsługuje następujące formaty graficzne, takie jak BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF, SVG.</StiImageElement>
-    <StiImageUI>Obraz służący do wyświetlania zawartości graficznej w interfejsie.</StiImageUI>
-    <StiIndicatorElement>Element wyświetla różnicę wartości między danymi wejściowymi.</StiIndicatorElement>
-    <StiLabelUI>Etykieta służąca do wyświetlania tekstu lub krótkich podpisów.</StiLabelUI>
-    <StiListBoxElement>Element umożliwia wybór pozycji z listy.</StiListBoxElement>
-    <StiListUI>Lista służąca do wyświetlania elementów możliwych do wyboru w pionowej kolekcji.</StiListUI>
-    <StiMap>ten komponent służy do wyświetlania danych geograficznych.</StiMap>
-    <StiMapCategory>Grupa elementów do pracy z mapami i danymi.</StiMapCategory>
-    <StiMapElement>Ten element służy do wyświetlania danych ukierunkowanych geograficznie.</StiMapElement>
-    <StiMarkdown>Ten komponent służy do renderowania w raporcie tekstu Markdown zgodnego ze standardem CommonMark / GFM.</StiMarkdown>
-    <StiMathFormula>Ten komponent służy do wyświetlania formuł matematycznych w raporcie.</StiMathFormula>
-    <StiMultiListUI>Lista służąca do wybierania wielu elementów z tej samej kolekcji.</StiMultiListUI>
-    <StiMultiSelectUI>Selektor służący do wybierania wielu wartości z przygotowanej listy.</StiMultiSelectUI>
-    <StiNumberBoxElement>Ten element służy do wyboru wartości liczbowej lub ustawienia zakresu wartości liczbowych.</StiNumberBoxElement>
-    <StiNumberInputUI>Pole liczbowe służące do wprowadzania wartości liczbowych z kontrolą danych wejściowych.</StiNumberInputUI>
-    <StiOnlineMapElement>Ten element służy do wyświetlania znaczników geograficznych na mapie online.</StiOnlineMapElement>
-    <StiOverlayBand>Ten komponent służy do wyświetlania znaków wodnych na stronie.</StiOverlayBand>
-    <StiPageFooterBand>Ten komponent służy do wyświetlania informacji na dole każdej strony. Ten element jest używany do wyświetlania numerów stron, dat oraz innych dodatkowych informacji.</StiPageFooterBand>
-    <StiPageHeaderBand>Ten komponent służy do wyświetlania nagłówka na każdej stronie. Ten element jest używany do wyświetlania numerów stron, dat oraz innych dodatkowych informacji.</StiPageHeaderBand>
-    <StiPanel>Prostokątny region, w którym inne komponenty, również bazodanowe, są umieszczane. Przemieszczając panel, jego komponenty przemieszczają się również. Panel może być usytuowiony zarówno na komponencie jak i na stronie.</StiPanel>
-    <StiPanelElement>Prostokątny obszar, który może zawierać inne elementy. Gdy panel jest przesuwany, elementy w nim również są przesuwane.</StiPanelElement>
-    <StiPanelUI>Panel służący do grupowania i rozmieszczania innych kontrolek w jednym obszarze.</StiPanelUI>
-    <StiPdfDigitalSignature>Ten interaktywny komponent służy do określenia miejsca na podpis cyfrowy po wyeksportowaniu raportu do formatu Adobe PDF.</StiPdfDigitalSignature>
-    <StiPdfDigitalSignatureElement>Ten komponent służy do określania miejsca na podpis cyfrowy i pola z certyfikatu podczas eksportowania do formatu PDF.</StiPdfDigitalSignatureElement>
-    <StiPivotTableElement>Element tabeli przestawnej jest używany do strukturalnej reprezentacji danych w postaci tabeli.</StiPivotTableElement>
-    <StiProgressElement>Element wyświetla stosunek danych wejściowych. Może być prezentowany w różnych trybach - tort, pączek, słupki.</StiProgressElement>
-    <StiRadioGroupUI>Grupa przycisków opcji służąca do wyboru jednej opcji ze zdefiniowanego zestawu wartości.</StiRadioGroupUI>
-    <StiRangeSelectorElement>Ten komponent służy do wyboru zakresu wartości na skali lub osi czasu. Pozwala użytkownikom wizualnie określić minimalne i maksymalne granice zakresu.</StiRangeSelectorElement>
-    <StiRangeSliderUI>Suwak zakresu służący do określania minimalnej i maksymalnej wartości na skali.</StiRangeSliderUI>
-    <StiRectanglePrimitive>Ten komponent służy do wyświetlania prostokątów.</StiRectanglePrimitive>
-    <StiRegionMapElement>Ten element służy do wyświetlania danych, które są ukierunkowane geograficznie.</StiRegionMapElement>
-    <StiReportSummaryBand>Ten komponent służy do wyświetlania podsumowania całego raportu. Jest wyświetlany tylko raz, na jego końcu.</StiReportSummaryBand>
-    <StiReportTitleBand>Ten komponent służy do wyświetlania tytułu raportu. Jest wyświetlany tylko raz, na jego początku.</StiReportTitleBand>
-    <StiRichText>Ten komponent służy do wyświetlania i edycji tekstu RTF (bogatego tekstu). Obsługuje również ładowanie i zapis plików w formacie RTF.</StiRichText>
-    <StiRoundedRectanglePrimitive>Ten komponent służy do wyświetlania prostokątów o zaokrąglonych brzegach.</StiRoundedRectanglePrimitive>
-    <StiScreen>Ekran zawierający kontrolki, układ oraz elementy interakcji użytkownika dla strony aplikacji.</StiScreen>
-    <StiSelectUI>Pole wyboru służące do wybierania jednej wartości z listy rozwijanej.</StiSelectUI>
-    <StiShape>Ten komponent służy do wyświetlania przygotowanych kształtów takich jak strzałki, linie diagonalne w dół, linie diagonalne w górę, linie horyzontalne, owale, prostokąty, zaokrąglone prostokąty, dolne i górne linie, lewe i prawe linie, trójkąty, linie prostopadłe.</StiShape>
-    <StiShapeElement>Ten element służy do wstawiania gotowych kształtów, takich jak strzałki, ukośna linia w dół, ukośna linia w górę, pozioma linia, lewa i prawa linia, owal, prostokąt, zaokrąglony prostokąt, górna i dolna linia, trójkąt, pionowa linia.</StiShapeElement>
-    <StiSignature>Ten komponent służy do dodawania podpisu elektronicznego lub cyfrowego do raportu.</StiSignature>
-    <StiSliderUI>Suwak służący do wybierania wartości na ciągłej skali liczbowej.</StiSliderUI>
-    <StiSparkline>Ten komponent służy do tworzenia mikrografik w raporcie. Umożliwia śledzenie dynamicznie zmieniających się danych w postaci słupków, linii, obszarów.</StiSparkline>
-    <StiSubReport>Ten komponent służy do wyświetlania dodatkowych danych w różnych miejscach raportu.</StiSubReport>
-    <StiSwitchUI>Przełącznik służący do włączania lub wyłączania ustawienia jednym kliknięciem.</StiSwitchUI>
-    <StiTable>Ten komponent to zbiór elementów z danymi zorganizowanych w oparciu o model prostopadłych kolumn i poziomych wierszy.</StiTable>
-    <StiTableElement>Ten element jest zestawem elementów danych, które są zorganizowane przy użyciu modelu pionowych kolumn i poziomych rzędów.</StiTableElement>
-    <StiTableOfContents>Ten komponent służy do tworzenia spisu treści w raporcie.</StiTableOfContents>
-    <StiTableUI>Tabela służąca do czytelnego wyświetlania danych w wierszach i kolumnach.</StiTableUI>
-    <StiText>Ten komponent jest podstawowym obiektem do wyświetlania danych w formie tekstu.</StiText>
-    <StiTextElement>Ten element jest podstawowym elementem do wyprowadzania danych w postaci tekstu.</StiTextElement>
-    <StiTextInCells>Ten komponent służy do wyświetlanai tekstu w komórkach. Jest często używany do stworzenia formularzy.</StiTextInCells>
-    <StiTextInputUI>Pole tekstowe służące do wprowadzania i edytowania wartości tekstowych.</StiTextInputUI>
-    <StiTreeViewBoxElement>Element służy do wybierania wartości z rozwijaną listą jako drzewa.</StiTreeViewBoxElement>
-    <StiTreeViewElement>Reprezentuje element używany do wyświetlania danych hierarchicznych w postaci drzewa.</StiTreeViewElement>
-    <StiVerticalLinePrimitive>Ten komponent służy do wyświetlania pionowych linii.</StiVerticalLinePrimitive>
-    <StiWebContentElement>Komponent umożliwia dodawanie treści internetowych do dashboardów.</StiWebContentElement>
-    <StiWinControl>Ten komponent służy do wyświetlania kontrolek środowiska .NET.</StiWinControl>
-    <StiZipCode>Ten komponent służy do wyświetlania kodu pocztowego.</StiZipCode>
+    <CategoryBands>Grupy danych drukujące nagłówki, dane i stopki.</CategoryBands>
+    <CategoryComponents>Komponenty wyświetlające tekst, obrazy i inne dane.</CategoryComponents>
+    <CategoryCrossBands>Grupy danych drukowane od lewej do prawej.</CategoryCrossBands>
+    <StiBarCode>Wyświetla kod kreskowy.</StiBarCode>
+    <StiButtonElement>Uruchamia skrypt po kliknięciu.</StiButtonElement>
+    <StiButtonUI>Uruchamia akcję lub polecenie.</StiButtonUI>
+    <StiCardsElement>Wyświetla zgrupowane dane jako karty.</StiCardsElement>
+    <StiChart>Wyświetla dane jako wykres.</StiChart>
+    <StiChartElement>Wyświetla dane jako wykres.</StiChartElement>
+    <StiCheckBox>Wyświetla prawdę lub fałsz jako znacznik wyboru.</StiCheckBox>
+    <StiCheckBoxGroupUI>Oferuje opcje, z których można zaznaczyć kilka.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>Włącza lub wyłącza jedną opcję.</StiCheckBoxUI>
+    <StiChildBand>Drukuje kolejną grupę dla tego samego wiersza.</StiChildBand>
+    <StiClone>Powtarza zawartość panelu.</StiClone>
+    <StiColumnFooterBand>Drukuje się pod każdą kolumną grupy danych.</StiColumnFooterBand>
+    <StiColumnHeaderBand>Drukuje się nad każdą kolumną grupy danych.</StiColumnHeaderBand>
+    <StiComboBoxElement>Wybiera wartość z listy rozwijanej.</StiComboBoxElement>
+    <StiContainer>Grupuje inne komponenty w jednym obszarze.</StiContainer>
+    <StiCrossDataBand>Drukuje się raz na wiersz, od lewej do prawej.</StiCrossDataBand>
+    <StiCrossFooterBand>Drukuje się po grupie Cross-Dane.</StiCrossFooterBand>
+    <StiCrossGroupFooterBand>Drukuje się na końcu każdej grupy krzyżowej.</StiCrossGroupFooterBand>
+    <StiCrossGroupHeaderBand>Drukuje się na początku każdej grupy krzyżowej.</StiCrossGroupHeaderBand>
+    <StiCrossHeaderBand>Drukuje się przed grupą Cross-Dane.</StiCrossHeaderBand>
+    <StiCrossTab>Wyświetla dane strukturalne jako tabelę krzyżową.</StiCrossTab>
+    <StiDataBand>Drukuje się raz na wiersz źródła danych.</StiDataBand>
+    <StiDatePickerElement>Wybiera datę i godzinę.</StiDatePickerElement>
+    <StiDatePickerUI>Wyświetla kalendarz do wyboru daty.</StiDatePickerUI>
+    <StiElectronicSignature>Dodaje podpis narysowany, wpisany lub z obrazu.</StiElectronicSignature>
+    <StiEmptyBand>Wypełnia wolne miejsce na dole strony.</StiEmptyBand>
+    <StiFilterCategory>Elementy wybierające i filtrujące wartości.</StiFilterCategory>
+    <StiFooterBand>Drukuje się po wierszach grupy danych.</StiFooterBand>
+    <StiGauge>Wyświetla wartość w ramach zakresu.</StiGauge>
+    <StiGaugeElement>Wyświetla wartość w ramach zakresu.</StiGaugeElement>
+    <StiGroupFooterBand>Drukuje się na końcu każdej grupy.</StiGroupFooterBand>
+    <StiGroupHeaderBand>Drukuje się na początku każdej grupy.</StiGroupHeaderBand>
+    <StiHeaderBand>Drukuje się przed wierszami grupy danych.</StiHeaderBand>
+    <StiHierarchicalBand>Drukuje wiersze źródła danych jako drzewo.</StiHierarchicalBand>
+    <StiHorizontalLinePrimitive>Rysuje poziomą linię.</StiHorizontalLinePrimitive>
+    <StiIconUI>Wyświetla ikonę.</StiIconUI>
+    <StiImage>Wyświetla obraz.</StiImage>
+    <StiImageElement>Wyświetla obraz.</StiImageElement>
+    <StiImageUI>Wyświetla obraz.</StiImageUI>
+    <StiIndicatorElement>Wyświetla różnicę między wartościami.</StiIndicatorElement>
+    <StiLabelUI>Wyświetla krótki tekst.</StiLabelUI>
+    <StiListBoxElement>Wybiera pozycje z listy.</StiListBoxElement>
+    <StiListUI>Wyświetla listę do wyboru jednej pozycji.</StiListUI>
+    <StiMap>Wyświetla dane na mapie.</StiMap>
+    <StiMapCategory>Elementy wyświetlające dane na mapie.</StiMapCategory>
+    <StiMapElement>Wyświetla dane na mapie.</StiMapElement>
+    <StiMarkdown>Wyświetla tekst Markdown.</StiMarkdown>
+    <StiMathFormula>Wyświetla formułę matematyczną.</StiMathFormula>
+    <StiMultiListUI>Wyświetla listę do wyboru kilku pozycji.</StiMultiListUI>
+    <StiMultiSelectUI>Rozwija listę do wyboru kilku wartości.</StiMultiSelectUI>
+    <StiNumberBoxElement>Wybiera liczbę lub zakres liczb.</StiNumberBoxElement>
+    <StiNumberInputUI>Pobiera liczbę od użytkownika.</StiNumberInputUI>
+    <StiOnlineMapElement>Wyświetla znaczniki na mapie online.</StiOnlineMapElement>
+    <StiOverlayBand>Drukuje znak wodny na każdej stronie.</StiOverlayBand>
+    <StiPageFooterBand>Drukuje się na dole każdej strony.</StiPageFooterBand>
+    <StiPageHeaderBand>Drukuje się na górze każdej strony.</StiPageHeaderBand>
+    <StiPanel>Grupuje inne komponenty w jednym obszarze.</StiPanel>
+    <StiPanelElement>Grupuje inne elementy w jednym obszarze.</StiPanelElement>
+    <StiPanelUI>Grupuje inne kontrolki w jednym obszarze.</StiPanelUI>
+    <StiPdfDigitalSignature>Oznacza miejsce podpisu cyfrowego w PDF.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>Oznacza miejsce podpisu cyfrowego w PDF.</StiPdfDigitalSignatureElement>
+    <StiPivotTableElement>Wyświetla dane strukturalne jako tabelę przestawną.</StiPivotTableElement>
+    <StiProgressElement>Wyświetla wartość jako część całości.</StiProgressElement>
+    <StiRadioGroupUI>Oferuje opcje, z których można wybrać jedną.</StiRadioGroupUI>
+    <StiRangeSelectorElement>Wybiera zakres na skali lub osi czasu.</StiRangeSelectorElement>
+    <StiRangeSliderUI>Ustawia zakres na skali.</StiRangeSliderUI>
+    <StiRectanglePrimitive>Rysuje prostokąt.</StiRectanglePrimitive>
+    <StiRegionMapElement>Wyświetla dane na mapie regionów.</StiRegionMapElement>
+    <StiReportSummaryBand>Drukuje się raz na końcu raportu.</StiReportSummaryBand>
+    <StiReportTitleBand>Drukuje się raz na początku raportu.</StiReportTitleBand>
+    <StiRichText>Wyświetla sformatowany tekst RTF.</StiRichText>
+    <StiRoundedRectanglePrimitive>Rysuje zaokrąglony prostokąt.</StiRoundedRectanglePrimitive>
+    <StiScreen>Zawiera kontrolki strony aplikacji.</StiScreen>
+    <StiSelectUI>Rozwija listę do wyboru jednej wartości.</StiSelectUI>
+    <StiShape>Wyświetla gotowy kształt.</StiShape>
+    <StiShapeElement>Wyświetla gotowy kształt.</StiShapeElement>
+    <StiSignature>Dodaje podpis elektroniczny lub cyfrowy.</StiSignature>
+    <StiSliderUI>Ustawia wartość na skali.</StiSliderUI>
+    <StiSparkline>Wyświetla mały wykres serii danych.</StiSparkline>
+    <StiSubReport>Drukuje w tym miejscu inny raport lub stronę.</StiSubReport>
+    <StiSwitchUI>Włącza lub wyłącza ustawienie.</StiSwitchUI>
+    <StiTable>Wyświetla dane w wierszach i kolumnach.</StiTable>
+    <StiTableElement>Wyświetla dane w wierszach i kolumnach.</StiTableElement>
+    <StiTableOfContents>Tworzy spis treści.</StiTableOfContents>
+    <StiTableUI>Wyświetla dane w wierszach i kolumnach.</StiTableUI>
+    <StiText>Wyświetla dane jako tekst.</StiText>
+    <StiTextElement>Wyświetla dane jako tekst.</StiTextElement>
+    <StiTextInCells>Wyświetla tekst po jednym znaku w komórce.</StiTextInCells>
+    <StiTextInputUI>Pobiera tekst od użytkownika.</StiTextInputUI>
+    <StiTreeViewBoxElement>Wybiera wartości z rozwijanego drzewa.</StiTreeViewBoxElement>
+    <StiTreeViewElement>Wyświetla dane hierarchiczne jako drzewo.</StiTreeViewElement>
+    <StiVerticalLinePrimitive>Rysuje pionową linię.</StiVerticalLinePrimitive>
+    <StiWebContentElement>Wyświetla treści internetowe.</StiWebContentElement>
+    <StiWinControl>Wyświetla kontrolkę wizualną .NET.</StiWinControl>
+    <StiZipCode>Wyświetla kod pocztowy ZIP.</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
     <ActiveRelation>Ustawia priorytet relacji do powiązania dwóch tabel. Jest używana w Transformacji Danych i Dashboardach. Tylko jedna relacja w każdym źródle danych może być aktywna.</ActiveRelation>
-    <Align>Zmień ustawienie wybranych elementów.</Align>
-    <AlignBottom>Wyrównanie zawartości komponentu do dołu.</AlignBottom>
-    <AlignCenter>Wyrównanie zawartości komponentu do góry.</AlignCenter>
+    <Align>Wyrównaj wybrane komponenty.</Align>
+    <AlignBottom>Wyrównaj zawartość do dołu.</AlignBottom>
+    <AlignCenter>Wyrównaj zawartość do środka.</AlignCenter>
     <AlignComponentBottom>Pozwala na wyrównanie obiektów poziomo wzdłuż dolnej krawędzi wybranych komponentów.</AlignComponentBottom>
     <AlignComponentCenter>Pozwala na wyrównanie obiektów poziomo wzdłuż środkowej krawędzi wybranych komponentów.</AlignComponentCenter>
     <AlignComponentLeft>Pozwala na wyrównanie obiektów pionowo wzdłuż lewej krawędzi wybranych komponentów.</AlignComponentLeft>
     <AlignComponentMiddle>Pozwala na wyrównanie obiektów pionowo wzdłuż środkowej krawędzi wybranych komponentów.</AlignComponentMiddle>
     <AlignComponentRight>Pozwala na wyrównanie obiektów pionowo wzdłuż prawej krawędzi wybranych komponentów.</AlignComponentRight>
     <AlignComponentTop>Pozwala na wyrównanie obiektów poziomo wzdłuż górnej krawędzi wybranych komponentów.</AlignComponentTop>
-    <AlignLeft>Wyrównanie zawartości komponentu do lewej.</AlignLeft>
-    <AlignMiddle>Wycentrowanie zawartości względem górnej i dolnej krawędzi komponentu.</AlignMiddle>
-    <AlignRight>Wyrównanie zawartości komponentu do prawej.</AlignRight>
-    <AlignToGrid>Wyrównanie wybranych komponentów do węzłów siatki.</AlignToGrid>
-    <AlignTop>Wyrównanie zawartość komponentu do góry.</AlignTop>
-    <AlignWidth>Wyrównanie zawartości komponentu do lewej i prawej.</AlignWidth>
-    <Angle>Rotacja zawartości komponentu.</Angle>
+    <AlignLeft>Wyrównaj zawartość do lewej.</AlignLeft>
+    <AlignMiddle>Wyrównaj zawartość do środka w pionie.</AlignMiddle>
+    <AlignRight>Wyrównaj zawartość do prawej.</AlignRight>
+    <AlignToGrid>Wyrównaj wybrane komponenty do siatki.</AlignToGrid>
+    <AlignTop>Wyrównaj zawartość do góry.</AlignTop>
+    <AlignWidth>Wyjustuj zawartość.</AlignWidth>
+    <Angle>Obróć tekst.</Angle>
     <AngleWatermark>Kąt nachylenia tekstu znaku wodnego.</AngleWatermark>
-    <Background>Zmień tło wybranych komponentów.</Background>
-    <biConditions>Lista kontrolna warunków dla wybranych komponentów.</biConditions>
-    <BorderColor>Wybierz kolor krawędzi wybranych komponentów.</BorderColor>
-    <BorderSidesAll>Ustaw wszystkie krawędzie wybranych komponentów.</BorderSidesAll>
-    <BorderSidesBottom>Ustaw dolną krawędź wybranych komponentów.</BorderSidesBottom>
-    <BorderSidesLeft>Ustaw lewą krawędź wybranych komponentów.</BorderSidesLeft>
-    <BorderSidesNone>Schowaj wszystkie krawędzie wybranych komponentów.</BorderSidesNone>
-    <BorderSidesRight>Ustaw prawą krawędź wybranych komponentów.</BorderSidesRight>
-    <BorderSidesTop>Ustaw górną krawędź wybranych komponentów.</BorderSidesTop>
-    <BorderStyle>Wybierz styl krawędzi wybranych komponentów.</BorderStyle>
-    <BringToFront>Ustaw wybrany komponent na przodzie.</BringToFront>
+    <Background>Zmień tło.</Background>
+    <biConditions>Edytuj warunki.</biConditions>
+    <BorderColor>Zmień kolor krawędzi.</BorderColor>
+    <BorderSidesAll>Wyświetl wszystkie krawędzie.</BorderSidesAll>
+    <BorderSidesBottom>Wyświetl lub ukryj dolną krawędź.</BorderSidesBottom>
+    <BorderSidesLeft>Wyświetl lub ukryj lewą krawędź.</BorderSidesLeft>
+    <BorderSidesNone>Ukryj wszystkie krawędzie.</BorderSidesNone>
+    <BorderSidesRight>Wyświetl lub ukryj prawą krawędź.</BorderSidesRight>
+    <BorderSidesTop>Wyświetl lub ukryj górną krawędź.</BorderSidesTop>
+    <BorderStyle>Zmień styl krawędzi.</BorderStyle>
+    <BringToFront>Przesuń na wierzch.</BringToFront>
     <CenterHorizontally>Pozwala na wyrównanie komponentu poziomo w stosunku do krawędzi kontenera, w którym jest umieszczony.</CenterHorizontally>
     <CenterVertically>Pozwala na wyrównanie komponentu pionowo w stosunku do krawędzi kontenera, w którym jest umieszczony.</CenterVertically>
     <Close>Zamknij Projektanta Raportów.</Close>
@@ -2188,14 +2191,14 @@
     <CompilationAccessTitle>Dokument używa kompilacji</CompilationAccessTitle>
     <CompilationModeEnabling>Przechodzisz do trybu kompilacji. Tryb ten pozwala na uruchomienie dowolnego kodu i czasami może być szkodliwy. Korzystaj z tego trybu tylko wtedy, gdy rozumiesz wszystkie zagrożenia i zgadzasz się z nimi. Kliknij przycisk {0}, aby kontynuować.</CompilationModeEnabling>
     <ComponentSize>Zmień rozmiar wybranych komponentów.</ComponentSize>
-    <ComponentsMenu>Otwiera menu komponentów z nieużywanymi elementami dashboardu na widoku mobilnym.</ComponentsMenu>
-    <CopyStyle>Kopiuj styl</CopyStyle>
+    <ComponentsMenu>Wyświetl nieużywane elementy.</ComponentsMenu>
+    <CopyStyle>Skopiuj styl do innych komponentów.</CopyStyle>
     <CopyToClipboard>Kopiuj do schowka</CopyToClipboard>
     <CurrencySymbol>Wybierz symbol waluty.</CurrencySymbol>
     <DashboardNew>Utwórz nowy dashboard.</DashboardNew>
     <DataStore>Wyświetl dane zarejestrowane w raporcie.</DataStore>
-    <DateTimeFormat>Wybierz format daty i czasu dla wybranych komponentów.</DateTimeFormat>
-    <DockingPanels>Ustawienia panelu.</DockingPanels>
+    <DateTimeFormat>Wybierz format daty i godziny.</DateTimeFormat>
+    <DockingPanels>Wyświetl lub ukryj panele.</DockingPanels>
     <DockStyleBottom>Zadokuj wybrane komponenty na dole.</DockStyleBottom>
     <DockStyleFill>Zadokuj wybrane komponenty na wszystkich stronach.</DockStyleFill>
     <DockStyleLeft>Zadokuj wybrane komponentu po lewej.</DockStyleLeft>
@@ -2204,18 +2207,18 @@
     <DockStyleTop>Zadokuj wybrane komponenty na górze.</DockStyleTop>
     <EventsAccess1>Ten dokument wykorzystuje Zdarzenia. Jeśli dokument pochodzi z zaufanego źródła, możesz kliknąć przycisk "Otwórz", aby uzyskać do niego dostęp.</EventsAccess1>
     <EventsAccess2>Jeśli nie masz pewności co do źródła dokumentu, ale nadal chcesz go wyświetlić, możesz kliknąć przycisk "Otwórz w trybie bezpiecznym". W takim przypadku zdarzenia zostaną zignorowane i nie będą wykonywane.</EventsAccess2>
-    <FontGrow>Ustaw większy rozmiar tekstu.</FontGrow>
-    <FontName>Czcionka tekstu.</FontName>
+    <FontGrow>Powiększ tekst.</FontGrow>
+    <FontName>Zmień czcionkę tekstu.</FontName>
     <FontNameWatermark>Czcionka tekstu znaku wodnego.</FontNameWatermark>
-    <FontShrink>Ustaw mniejszy rozmiar tekstu.</FontShrink>
-    <FontSize>Rozmiar czcionki.</FontSize>
+    <FontShrink>Zmniejsz tekst.</FontShrink>
+    <FontSize>Zmień rozmiar tekstu.</FontSize>
     <FontSizeWatermark>Zmień rozmiar czcionki.</FontSizeWatermark>
-    <FontStyleBold>Ustaw wytłuszczenie tekstu.</FontStyleBold>
+    <FontStyleBold>Pogrub tekst.</FontStyleBold>
     <FontStyleBoldWatermark>Ustaw wytłuszczenie tekstu znaku wodnego.</FontStyleBoldWatermark>
-    <FontStyleItalic>Ustaw tekst jako kursywę.</FontStyleItalic>
+    <FontStyleItalic>Zastosuj kursywę do tekstu.</FontStyleItalic>
     <FontStyleItalicWatermark>Ustaw tekst znaku wodnego jako kursywę.</FontStyleItalicWatermark>
-    <FontStyleStrikeout>Ustaw przekreślenie tekstu.</FontStyleStrikeout>
-    <FontStyleUnderline>Ustaw podkreślenie tekstu.</FontStyleUnderline>
+    <FontStyleStrikeout>Przekreśl tekst.</FontStyleStrikeout>
+    <FontStyleUnderline>Podkreśl tekst.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Ustaw podkreślenie tekstu znaku wodnego.</FontStyleUnderlineWatermark>
     <FormatBoolean>Ten format jest używany do wartości typu boolowskiego (Prawda/Fałsz lub 0/1).</FormatBoolean>
     <FormatCurrency>Wyświetl wartość jako walutę. Pozwala na wyświetlenie liczby wraz z domyślnym symbolem waluty.</FormatCurrency>
@@ -2229,58 +2232,58 @@
     <GridMode>Wyświetl siatkę jako linie lub kropki.</GridMode>
     <ImageAlignment>Umieść obraz znaku wodnego na stronie.</ImageAlignment>
     <ImageTransparency>Zmień przeźroczystość obrazu znaku wodnego.</ImageTransparency>
-    <Interaction>Kontroluj interakcję wybranych komponentów.</Interaction>
-    <LineSpacing>Wybierz, ile miejsca pojawi się między wierszami tekstu lub między akapitami.</LineSpacing>
-    <Link>Połącz komponent z aktualnym kontenerem.</Link>
+    <Interaction>Skonfiguruj interakcję.</Interaction>
+    <LineSpacing>Zmień odstępy między liniami.</LineSpacing>
+    <Link>Połącz z kontenerem.</Link>
     <LoadImage>Załaduj obrazy znaków wodnych z pliku.</LoadImage>
-    <Lock>Zablokuj komponent. Komponent nie może być przemieszczany ani zmieniany jego rozmiar.</Lock>
-    <MainMenu>Naciśnij tu by zobaczyć listę dostępnych operacji na raporcie takich jak otwieranie, zamykanie i podgląd.</MainMenu>
+    <Lock>Zablokuj położenie i rozmiar.</Lock>
+    <MainMenu>Utwórz, otwórz lub zapisz raport.</MainMenu>
     <MakeHorizontalSpacingEqual>Pozwala na ustawienie równych odstępów poziomych pomiędzy wybranymi komponentami.</MakeHorizontalSpacingEqual>
     <MakeVerticalSpacingEqual>Pozwala na ustawienie równych odstępów pionowych pomiędzy wybranymi komponentami</MakeVerticalSpacingEqual>
-    <Margins>Ustaw marginesy aktualnej strony.</Margins>
+    <Margins>Wybierz marginesy strony.</Margins>
     <menuCheckIssues>Sprawdź raport w poszukiwaniu błędów, ostrzeżeń i wyświetl rozwiązania.</menuCheckIssues>
     <menuDesignerOptions>Ustaw opcje projektanta raportów.</menuDesignerOptions>
     <menuEditClearContents>Wyczyść zawartość.</menuEditClearContents>
-    <menuEditCopy>Kopiuj wybrane komponenty i umieść je w schowku.</menuEditCopy>
-    <menuEditCut>Wytnij wybrane komponenty z raportu i umieść je w schowku.</menuEditCut>
+    <menuEditCopy>Skopiuj wybrane komponenty.</menuEditCopy>
+    <menuEditCut>Wytnij wybrane komponenty.</menuEditCut>
     <menuEditDelete>Usuń wybrane komponenty.</menuEditDelete>
-    <menuEditPaste>Wklej zawartość schowka do raportu.</menuEditPaste>
-    <menuExportSettings>Otwiera edytor ustawień eksportu dla bieżącego raportu lub dashboardu. Ustawienia są stosowane tylko podczas eksportowania bieżącego raportu lub dashboardu.</menuExportSettings>
+    <menuEditPaste>Wklej ze schowka.</menuEditPaste>
+    <menuExportSettings>Zmień ustawienia eksportu.</menuExportSettings>
     <menuFAQPage>Przejdź do strony z najczęściej zadawanymi pytaniami.</menuFAQPage>
-    <menuGlobalizationStrings>Otwórz edytor lokalizacji tekstów dla aktualnego raportu.</menuGlobalizationStrings>
+    <menuGlobalizationStrings>Edytuj teksty zglobalizowane.</menuGlobalizationStrings>
     <menuHelpAboutProgramm>Informacje dotyczące wersji generatora raportów i .NET.</menuHelpAboutProgramm>
     <menuHomePage>Przejdź do strony domowej produktu.</menuHomePage>
     <menuPageOptions>Ustaw podstawowe parametry aktualnej strony. Wszystkie opcje strony mogą być zmienione przez właściwości.</menuPageOptions>
     <menuPagesManager>Uruchom menedżera stron. Menedżer zezwala na przenoszenie, usuwanie i tworzenie nowych stron.</menuPagesManager>
-    <menuPreviewSettings>Uruchom edytor ustawień podglądu dla aktualnego raportu. Ustawienia będą aktywne jedynie podczas podglądu aktualnego raportu.</menuPreviewSettings>
+    <menuPreviewSettings>Zmień ustawienia podglądu.</menuPreviewSettings>
     <menuPrint>Wybierz drukarkę, ilość kopii i inne ustawienia drukarki przed drukowaniem.</menuPrint>
     <menuPrintPreview>Podejrzyj raport przed drukowaniem.</menuPrintPreview>
     <menuPrintQuick>Wydrukuj raport bezpośrednio przez domyślną drukarkę. Dialog wydruku nie będzie wyświetlony.</menuPrintQuick>
-    <menuReportOptions>Ustaw podstawowe opcje raportu. Wszystkie opcje mogą być zmienione w panelu właściwości.</menuReportOptions>
+    <menuReportOptions>Zmień opcje raportu.</menuReportOptions>
     <menuStyleDesigner>Uruchom projektanta stylów dla aktualnego raportu.</menuStyleDesigner>
     <menuSupport>Przejdź do strony pomocy by zadać pytanie.</menuSupport>
-    <menuViewAlignToGrid>Wyrównaj komponenty do siatki.</menuViewAlignToGrid>
+    <menuViewAlignToGrid>Wyrównuj komponenty do siatki.</menuViewAlignToGrid>
     <menuViewNormal>Normalny widok strony.</menuViewNormal>
     <menuViewPageBreakPreview>Tryb wyświetlania strony wraz z krawędziami segmentów.</menuViewPageBreakPreview>
-    <menuViewQuickInfo>Wyświetl szybką informację o komponentach: nazwa, alias, zawartość, zdarzenia itd.</menuViewQuickInfo>
-    <menuViewShowGrid>Wyświetl linie siatki, do których możesz wyrównać obiekty w raporcie.</menuViewShowGrid>
-    <menuViewShowHeaders>Wyświetl nagłówki.</menuViewShowHeaders>
-    <menuViewShowOrder>Wyświetl kolejność komponentów na stronie.</menuViewShowOrder>
-    <menuViewShowRulers>Wyświetl linijki używane do mierzenia i ustawiania obiektów na stronie.</menuViewShowRulers>
-    <menuViewShowSmartGuides>Wyświetla inteligentne prowadnice w celu pozycjonowania komponentów.</menuViewShowSmartGuides>
-    <MoveBackward>Przesuń komponent jeden poziom wyżej w kolejności wyświetlania elementów na stronie.</MoveBackward>
-    <MoveForward>Przesuń komponent jeden poziom niżej w kolejności wyświetlania elementów na stronie.</MoveForward>
+    <menuViewQuickInfo>Wyświetl szybkie informacje o komponentach.</menuViewQuickInfo>
+    <menuViewShowGrid>Wyświetl siatkę.</menuViewShowGrid>
+    <menuViewShowHeaders>Wyświetl nagłówki grup danych.</menuViewShowHeaders>
+    <menuViewShowOrder>Wyświetl kolejność komponentów.</menuViewShowOrder>
+    <menuViewShowRulers>Wyświetl linijki.</menuViewShowRulers>
+    <menuViewShowSmartGuides>Wyświetl inteligentne prowadnice.</menuViewShowSmartGuides>
+    <MoveBackward>Przesuń o jeden poziom do tyłu.</MoveBackward>
+    <MoveForward>Przesuń o jeden poziom do przodu.</MoveForward>
     <NotPossibleEnableCompilationMode>Nie można włączyć trybu kompilacji dla raportu. Jest to zabronione przez opcję 'Dostęp do kompilacji' w ustawieniach projektanta.</NotPossibleEnableCompilationMode>
-    <Orientation>Przełącz układ stron między trybem portretu i albumu.</Orientation>
+    <Orientation>Przełącz między orientacją pionową a poziomą.</Orientation>
     <PageDelete>Usuń aktualną stronę z raportu.</PageDelete>
     <PageNew>Stwórz nową stronę</PageNew>
-    <PageSetup>Wyświetl okno ustawień strony.</PageSetup>
-    <PageSize>Wybierz rozmiar papieru dla aktualnej strony raportu.</PageSize>
+    <PageSetup>Zmień ustawienia strony.</PageSetup>
+    <PageSize>Wybierz rozmiar papieru.</PageSize>
     <PagesManager>Uruchom menedżera stron.</PagesManager>
     <PressF1>Naciśnij F1 dla uzyskania większej ilości szczegółów</PressF1>
-    <PropertiesButton>Aktywuje panel właściwości z ustawieniami szablonu raportu.</PropertiesButton>
+    <PropertiesButton>Wyświetl właściwości raportu.</PropertiesButton>
     <Redo>Przywróć poprzednio anulowaną zmianę w raporcie.</Redo>
-    <RemoveMobileSurfaceButton>Usuwa widok mobilny z bieżącego dashboardu.</RemoveMobileSurfaceButton>
+    <RemoveMobileSurfaceButton>Usuń widok mobilny.</RemoveMobileSurfaceButton>
     <ReportNew>Stwórz nowy raport.</ReportNew>
     <ReportOpen>Otwórz raport w projektancie.</ReportOpen>
     <ReportPreview>Podejrzyj modyfikowany raport w przeglądarce raportów.</ReportPreview>
@@ -2292,14 +2295,14 @@
     <ScriptSecuritySafeMode>Bezpieczny dostęp do skryptów (ograniczone możliwości ze względów bezpieczeństwa).</ScriptSecuritySafeMode>
     <SelectAll>Wybierz wszystkie komponenty na aktualnej stronie.</SelectAll>
     <SelectUILanguage>Wybierz język interfejsu.</SelectUILanguage>
-    <SendToBack>Przesuń wybrany komponent na tył w stosunku do pozostałych elementów.</SendToBack>
+    <SendToBack>Przesuń na spód.</SendToBack>
     <ServicesConfigurator>Uruchom konfiguratora usług.</ServicesConfigurator>
-    <Shadow>Wyświetl cień komponentu.</Shadow>
+    <Shadow>Wyświetl lub ukryj cień.</Shadow>
     <ShowBehind>Wyświetl tekst znaku wodnego pod komponentami.</ShowBehind>
     <ShowImageBehind>Ustaw obraz znaku wodnego pod wszystkimi komponentami na stronie.</ShowImageBehind>
     <ShowToolbox>Wyświetl pasek narzędzi.</ShowToolbox>
     <StimulsoftHelp>Pomoc Stimulsoft</StimulsoftHelp>
-    <StyleDesigner>Uruchom projektanta styli.</StyleDesigner>
+    <StyleDesigner>Otwórz Projektanta stylów.</StyleDesigner>
     <TellMeMore>Podaj więcej informacji</TellMeMore>
     <Text>Tekst znaku wodnego.</Text>
     <TextBrush>Zmień kolor tekstu.</TextBrush>
@@ -2308,30 +2311,31 @@
     <TextFormat>Wybierz format wartości.</TextFormat>
     <ToolbarStyle>Ustaw wybrany styl dla wszystkich wybranych komponentów.</ToolbarStyle>
     <Undo>Cofnij ostatnią zmianę w raporcie.</Undo>
-    <ViewModeDesktopButton>Aktywuj widok desktopowy.</ViewModeDesktopButton>
-    <ViewModeMobileButton>Aktywuj widok mobilny.</ViewModeMobileButton>
-    <WordWrap>Zawijaj tekst komponentu.</WordWrap>
+    <ViewModeDesktopButton>Wyświetl widok desktopowy.</ViewModeDesktopButton>
+    <ViewModeMobileButton>Wyświetl widok mobilny.</ViewModeMobileButton>
+    <Watermark>Zmień ustawienia znaku wodnego.</Watermark>
+    <WordWrap>Zawijaj tekst.</WordWrap>
     <Zoom>Ustaw poziom zbliżenia raportu.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
-    <StiButtonControl>Reprezentuje kontrolkę przycisku.</StiButtonControl>
-    <StiCheckBoxControl>Reprezentuje kontrolkę flagi.</StiCheckBoxControl>
-    <StiCheckedListBoxControl>Wyświetla obiekt listy, w którym flaga po lewej jest wyświetlona dla każdego elementu.</StiCheckedListBoxControl>
-    <StiComboBoxControl>Reprezentuje kombo używane do wpisywania wartości bezpośrednio lub wyboru z listy istniejących wartości.</StiComboBoxControl>
-    <StiDateTimePickerControl>Reprezentuje kontrolkę pozwalającą na wybór daty i czasu. Pozwala również na wyświetlanie daty i czasu w ustalonym formacie.</StiDateTimePickerControl>
-    <StiGridControl>Reprezentuje kontrolkę siatki zawierającą wiersze i kolumny.</StiGridControl>
-    <StiGroupBoxControl>Reprezentuje kontrolkę, która tworzy kontener z krawędziami i nagłówkiem dla danej zawartości.</StiGroupBoxControl>
-    <StiLabelControl>Etykieta jest kontrolką do wyświetlania tekstu na formularzu. Jest z reguły statyczną kontrolką nie posiadającą interakcji z użytkownikiem.</StiLabelControl>
-    <StiListBoxControl>Zawiera listę elementów do wyboru.</StiListBoxControl>
-    <StiListViewControl>Reprezentuje kontrolkę widoku listy wyświetlającą listę segmentów danych.</StiListViewControl>
-    <StiLookUpBoxControl>Zawiera listę elementów do wyboru.</StiLookUpBoxControl>
-    <StiNumericUpDownControl>Reprezentuje kontrolkę wyświetlającą wartości numeryczne.</StiNumericUpDownControl>
-    <StiPanelControl>Panele służą do ustawiania i porządkowania obiektów.</StiPanelControl>
-    <StiPictureBoxControl>Reprezentuje kontrolkę wyświetlającą obraz.</StiPictureBoxControl>
-    <StiRadioButtonControl>Reprezentuje kontrolkę rozłącznego wyboru umożliwiającą użytkownikowi wybranie tylko jednej ustalonej wartości ze zbioru. </StiRadioButtonControl>
-    <StiRichTextBoxControl>Reprezentuje kontrolkę bogatego tekstu z rozszerzonymi możliwościami edycji.</StiRichTextBoxControl>
-    <StiTextBoxControl>Reprezentuje kontrolkę służącą do wyświetlania i edycji tekstu.</StiTextBoxControl>
-    <StiTreeViewControl>Reprezentuje kontrolkę służącą do wyświetlania hierarchicznych danych w postaci drzewa.</StiTreeViewControl>
+    <StiButtonControl>Uruchamia akcję po kliknięciu.</StiButtonControl>
+    <StiCheckBoxControl>Włącza lub wyłącza jedną opcję.</StiCheckBoxControl>
+    <StiCheckedListBoxControl>Wyświetla listę pozycji z polami wyboru.</StiCheckedListBoxControl>
+    <StiComboBoxControl>Rozwija listę do wyboru lub wpisania wartości.</StiComboBoxControl>
+    <StiDateTimePickerControl>Wyświetla kalendarz do wyboru daty i godziny.</StiDateTimePickerControl>
+    <StiGridControl>Wyświetla dane w wierszach i kolumnach.</StiGridControl>
+    <StiGroupBoxControl>Grupuje kontrolki w ramce z tytułem.</StiGroupBoxControl>
+    <StiLabelControl>Wyświetla tekst na formularzu.</StiLabelControl>
+    <StiListBoxControl>Wyświetla listę do wyboru pozycji.</StiListBoxControl>
+    <StiListViewControl>Wyświetla listę pozycji danych.</StiListViewControl>
+    <StiLookUpBoxControl>Rozwija listę do wyboru pozycji.</StiLookUpBoxControl>
+    <StiNumericUpDownControl>Pobiera liczbę, z przyciskami do jej zmiany.</StiNumericUpDownControl>
+    <StiPanelControl>Grupuje inne kontrolki w jednym obszarze.</StiPanelControl>
+    <StiPictureBoxControl>Wyświetla obraz.</StiPictureBoxControl>
+    <StiRadioButtonControl>Wybiera jedną opcję z grupy.</StiRadioButtonControl>
+    <StiRichTextBoxControl>Wyświetla i edytuje sformatowany tekst.</StiRichTextBoxControl>
+    <StiTextBoxControl>Wyświetla i edytuje tekst.</StiTextBoxControl>
+    <StiTreeViewControl>Wyświetla dane hierarchiczne jako drzewo.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
     <AddPageBreaks>Wizualny separator stron raportu</AddPageBreaks>

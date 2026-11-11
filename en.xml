@@ -2047,136 +2047,139 @@
     <sys_morebuttons>More Buttons</sys_morebuttons>
   </Gui>
   <HelpComponents>
-    <StiBarCode>This component allows showing bar codes in a report. Bar code data are sent to an object as a string. The string may contain any symbols but only the symbols allowed for the selected bar code type can be displayed.</StiBarCode>
-    <StiButtonElement>This element is used to execute an event script when a user interacts with it.</StiButtonElement>
-    <StiButtonUI>A button used to trigger an action or start a command.</StiButtonUI>
-    <StiCardsElement>This element is used to display grouped data as cards.</StiCardsElement>
-    <StiChart>This component allows showing charts in a report. Different types of charts are available. Among them are bar, line, pie, doughnut, area, Gantt, and scatter charts, etc.</StiChart>
-    <StiChartElement>This element allows showing charts in a dashboard. Different types of charts are available.</StiChartElement>
-    <StiCheckBox>This component allows showing a checkbox in a report. It can be displayed in two states: "enabled" or "disabled".</StiCheckBox>
-    <StiCheckBoxGroupUI>A checkbox group used to select multiple predefined options from a list.</StiCheckBoxGroupUI>
-    <StiCheckBoxUI>A checkbox used to switch a single option on or off quickly.</StiCheckBoxUI>
-    <StiChildBand>The Child band can be used to output two bands on one data row.</StiChildBand>
-    <StiClone>This component is used to clone parts of a report into another part of the report. Cloning can be applied only to the panel contents.</StiClone>
-    <StiColumnFooterBand>This band is used to output footers of columns on the Data band. The Column Footer band is output once under each column. All components which are placed on this band will also be output under each column.</StiColumnFooterBand>
-    <StiColumnHeaderBand>This band is used to output column headers. The Column Header band is output only once. All components which are placed on the band can be output above each column.</StiColumnHeaderBand>
-    <StiComboBoxElement>Represents the ComboBox that is used to either type a value directly into the control or choose from the list of existing options.</StiComboBoxElement>
-    <StiContainer>This is the rectangular region where other components, including bands, can be placed. When moving the container, the components in it will be moved too. The container can be placed both on a band and on a page.</StiContainer>
-    <StiCrossDataBand>This band is connected to the data source. It is output as many times as there are rows in the data source. A Cross band is output from left to right.</StiCrossDataBand>
-    <StiCrossFooterBand>This band is used to output footers of the Cross-Data band. The band is output once after all rows of the Data band. A Cross band is output from left to right.</StiCrossFooterBand>
-    <StiCrossGroupFooterBand>This band is used to output footers of a group. It is placed under the Cross-Data band. Each Cross-Footer belongs to the specified Cross-Header band. A Cross band is output from left to right.</StiCrossGroupFooterBand>
-    <StiCrossGroupHeaderBand>This band is the basic one for rendering reports with grouping, when Cross-Data are used. It is impossible to create grouping without this band. The components for showing information about the group are placed on the group header. The information can be a group name, date, condition of grouping etc. The band is output in the beginning of each group. A Cross band is output from left to right.</StiCrossGroupHeaderBand>
-    <StiCrossHeaderBand>This band is used to output headers. It is used in association with the Cross band. A Cross band is output from left to right.</StiCrossHeaderBand>
-    <StiCrossTab>The cross-tab component is used to represent structured data as a table.</StiCrossTab>
-    <StiDataBand>The Data band is connected to the data source and is output as many times as there are rows in the data source.</StiDataBand>
-    <StiDatePickerElement>The element is used to select the date and time.</StiDatePickerElement>
-    <StiDatePickerUI>A date picker used to select a date from a calendar.</StiDatePickerUI>
-    <StiElectronicSignature>This component is used to add a graphic signature, image, initials, and text.</StiElectronicSignature>
-    <StiEmptyBand>This band is used to fill free space at the bottom of a page. This band fills free space on each page of a report.</StiEmptyBand>
-    <StiFilterCategory>A group of elements used for selecting and filtering values.</StiFilterCategory>
-    <StiFooterBand>This band is used to output a summary for the Data band. It is placed under the Data band and is output once after all the data rows that the Data band outputs.</StiFooterBand>
-    <StiGauge>The component allows you to display a value within a predefined range. It can have different graphical representations.</StiGauge>
-    <StiGaugeElement>The element allows you to display a value within a predefined range. It can have different graphical representations.</StiGaugeElement>
-    <StiGroupFooterBand>The Group Footer band is used to output the group footer. This band is placed after the Data band. And this is the Data band to which the Group Header band is bound. Each Group Footer band belongs to the specified Group Header band. The Group Footer band will not be output without the Group Header band.</StiGroupFooterBand>
-    <StiGroupHeaderBand>This band is the basic band for rendering reports with grouping. The components for showing information about this group are placed on the group header. It can be a group name, date, condition of grouping etc. This band is output once in the beginning of each group.</StiGroupHeaderBand>
-    <StiHeaderBand>This band is used to output headers. It is used together with the data band.</StiHeaderBand>
-    <StiHierarchicalBand>This band is connected to the data source and is output as many times as there are rows in the data source. Data are output as a tree.</StiHierarchicalBand>
-    <StiHorizontalLinePrimitive>This component is used to output a line.</StiHorizontalLinePrimitive>
-    <StiIconUI>An icon used to display a symbolic graphic or visual marker.</StiIconUI>
-    <StiImage>This component is used to output images.</StiImage>
-    <StiImageElement>This element is used to output images. It supports the following graphic formats: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF, SVG.</StiImageElement>
-    <StiImageUI>An image used to display graphic content inside the interface.</StiImageUI>
-    <StiIndicatorElement>The element displays the difference in values between the input data.</StiIndicatorElement>
-    <StiLabelUI>A label used to display text or short captions.</StiLabelUI>
-    <StiListBoxElement>The element allows selecting items from a list.</StiListBoxElement>
-    <StiListUI>A list used to display selectable items in a vertical collection.</StiListUI>
-    <StiMap>This component is used to display data that is geographically targeted.</StiMap>
-    <StiMapCategory>Group of elements for working with maps and data.</StiMapCategory>
-    <StiMapElement>This element is used to display data that is geographically targeted.</StiMapElement>
-    <StiMarkdown>This component is used to render CommonMark / GFM Markdown text in a report.</StiMarkdown>
-    <StiMathFormula>This component is used to display math formulas in a report.</StiMathFormula>
-    <StiMultiListUI>A list used to select multiple items from the same collection.</StiMultiListUI>
-    <StiMultiSelectUI>A selector used to choose multiple values from a prepared list.</StiMultiSelectUI>
-    <StiNumberBoxElement>This element is used to select a numeric value or set a range of numeric values.</StiNumberBoxElement>
-    <StiNumberInputUI>A number input used to enter numeric values with controlled input.</StiNumberInputUI>
-    <StiOnlineMapElement>This element is used to display geographic markers on the online map.</StiOnlineMapElement>
-    <StiOverlayBand>This band is used to output watermarks on a page.</StiOverlayBand>
-    <StiPageFooterBand>This band is used to output the information at the bottom of each page such as page numbers, dates, and other additional information.</StiPageFooterBand>
-    <StiPageHeaderBand>This band is used to output the page header such as page numbers, dates, and other additional information. It is output at the top of each page.</StiPageHeaderBand>
-    <StiPanel>A rectangular region that can contain other components, including bands. When the panel is moved the components in it are moved too. A panel can be placed either on a band or on a page.</StiPanel>
-    <StiPanelElement>A rectangular region that can contain other elements. When the panel is moved the elements in it are moved too.</StiPanelElement>
-    <StiPanelUI>A panel used to group and arrange other controls inside one area.</StiPanelUI>
-    <StiPdfDigitalSignature>This interactive component is used to specify a place for the digital signature after the report has been exported to Adobe PDF.</StiPdfDigitalSignature>
-    <StiPdfDigitalSignatureElement>This component is used to specify a space for the digital signature and fields from the certificate when exporting to PDF.</StiPdfDigitalSignatureElement>
-    <StiPivotTableElement>The pivot table element is used to represent structured data as a table.</StiPivotTableElement>
-    <StiProgressElement>The element displays the ratio of the input data. It can be presented in different modes - a pie, donut, bars.</StiProgressElement>
-    <StiRadioGroupUI>A radio group used to select one option from a predefined set of values.</StiRadioGroupUI>
-    <StiRangeSelectorElement>This component is used to select a range of values on a scale or timeline. It allows users to visually define the minimum and maximum limits of the range.</StiRangeSelectorElement>
-    <StiRangeSliderUI>A range slider used to define minimum and maximum values on a scale.</StiRangeSliderUI>
-    <StiRectanglePrimitive>This component is used to output rectangles.</StiRectanglePrimitive>
-    <StiRegionMapElement>This element is used to display data that is geographically targeted.</StiRegionMapElement>
-    <StiReportSummaryBand>This band is used to output summaries through the entire report. It is output once at the end of a report.</StiReportSummaryBand>
-    <StiReportTitleBand>This band is used to output the report title. It is output in the beginning of a report.</StiReportTitleBand>
-    <StiRichText>This component is used to output and edit the RTF text. It also supports loading and saving files in the RTF format.</StiRichText>
-    <StiRoundedRectanglePrimitive>This component is used to output rounded rectangles.</StiRoundedRectanglePrimitive>
-    <StiScreen>A screen that hosts controls, layout, and user interactions for an app page.</StiScreen>
-    <StiSelectUI>A select box used to choose one value from a drop-down list.</StiSelectUI>
-    <StiShape>This component is used to insert ready-made shapes, such as arrows, diagonal line down, diagonal line up, horizontal line, left and right lines, oval, rectangle, rounded rectangle, top and bottom lines, triangle, vertical line.</StiShape>
-    <StiShapeElement>This element is used to insert ready-made shapes, such as arrows, diagonal line down, diagonal line up, horizontal line, left and right lines, oval, rectangle, rounded rectangle, top and bottom lines, triangle, vertical line.</StiShapeElement>
-    <StiSignature>This component is used to add an electronic or digital signature to a report.</StiSignature>
-    <StiSliderUI>A slider used to select a value on a continuous numeric scale.</StiSliderUI>
-    <StiSparkline>This component is used to create micrographics in a report. It allows you to track dynamically changing data as bars, lines, areas.</StiSparkline>
-    <StiSubReport>This component is used to output additional data in different places of a report.</StiSubReport>
-    <StiSwitchUI>A switch used to toggle a setting on or off with one click.</StiSwitchUI>
-    <StiTable>This component is a set of data elements that is organized using a model of vertical columns and horizontal rows.</StiTable>
-    <StiTableElement>This element is a set of data elements that is organized using a model of vertical columns and horizontal rows.</StiTableElement>
-    <StiTableOfContents>This component is used to create a table of contents in a report.</StiTableOfContents>
-    <StiTableUI>A table used to display data in rows and columns clearly.</StiTableUI>
-    <StiText>This component is a basic object to output data as text.</StiText>
-    <StiTextElement>This element is a basic object to output data as text.</StiTextElement>
-    <StiTextInCells>The component is used to output text in cells. It is frequently used for creating forms.</StiTextInCells>
-    <StiTextInputUI>A text input used to enter and edit text values.</StiTextInputUI>
-    <StiTreeViewBoxElement>The element is used to select values with a drop-down list as a tree.</StiTreeViewBoxElement>
-    <StiTreeViewElement>Represents the element that is used to show the hierarchical data as a tree.</StiTreeViewElement>
-    <StiVerticalLinePrimitive>This component is used to output vertical lines.</StiVerticalLinePrimitive>
-    <StiWebContentElement>The component allows adding web content to dashboards.</StiWebContentElement>
-    <StiWinControl>The component allows showing visual controls from .NET.</StiWinControl>
-    <StiZipCode>This component is used to output the ZIP code.</StiZipCode>
+    <CategoryBands>Bands which print headers, data and footers.</CategoryBands>
+    <CategoryComponents>Components which show text, images and other data.</CategoryComponents>
+    <CategoryCrossBands>Bands which print from left to right.</CategoryCrossBands>
+    <StiBarCode>Shows a bar code.</StiBarCode>
+    <StiButtonElement>Runs a script on a click.</StiButtonElement>
+    <StiButtonUI>Starts an action or a command.</StiButtonUI>
+    <StiCardsElement>Shows grouped data as cards.</StiCardsElement>
+    <StiChart>Shows data as a chart.</StiChart>
+    <StiChartElement>Shows data as a chart.</StiChartElement>
+    <StiCheckBox>Shows a true or false value as a check mark.</StiCheckBox>
+    <StiCheckBoxGroupUI>Offers options to check several of them.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>Switches one option on or off.</StiCheckBoxUI>
+    <StiChildBand>Prints one more band for the same data row.</StiChildBand>
+    <StiClone>Repeats the contents of a panel.</StiClone>
+    <StiColumnFooterBand>Prints under each column of a Data Band.</StiColumnFooterBand>
+    <StiColumnHeaderBand>Prints above each column of a Data Band.</StiColumnHeaderBand>
+    <StiComboBoxElement>Selects a value from a drop-down list.</StiComboBoxElement>
+    <StiContainer>Groups other components in one area.</StiContainer>
+    <StiCrossDataBand>Prints once for each row, from left to right.</StiCrossDataBand>
+    <StiCrossFooterBand>Prints after a Cross-Data Band.</StiCrossFooterBand>
+    <StiCrossGroupFooterBand>Prints at the end of each cross group.</StiCrossGroupFooterBand>
+    <StiCrossGroupHeaderBand>Prints at the start of each cross group.</StiCrossGroupHeaderBand>
+    <StiCrossHeaderBand>Prints before a Cross-Data Band.</StiCrossHeaderBand>
+    <StiCrossTab>Shows structured data as a cross table.</StiCrossTab>
+    <StiDataBand>Prints once for each row of a data source.</StiDataBand>
+    <StiDatePickerElement>Selects a date and time.</StiDatePickerElement>
+    <StiDatePickerUI>Shows a calendar to pick a date.</StiDatePickerUI>
+    <StiElectronicSignature>Adds a drawn, typed or image signature.</StiElectronicSignature>
+    <StiEmptyBand>Fills the free space at the bottom of a page.</StiEmptyBand>
+    <StiFilterCategory>Elements which select and filter values.</StiFilterCategory>
+    <StiFooterBand>Prints after the rows of a Data Band.</StiFooterBand>
+    <StiGauge>Shows a value within a range.</StiGauge>
+    <StiGaugeElement>Shows a value within a range.</StiGaugeElement>
+    <StiGroupFooterBand>Prints at the end of each group.</StiGroupFooterBand>
+    <StiGroupHeaderBand>Prints at the start of each group.</StiGroupHeaderBand>
+    <StiHeaderBand>Prints before the rows of a Data Band.</StiHeaderBand>
+    <StiHierarchicalBand>Prints the rows of a data source as a tree.</StiHierarchicalBand>
+    <StiHorizontalLinePrimitive>Draws a horizontal line.</StiHorizontalLinePrimitive>
+    <StiIconUI>Shows an icon.</StiIconUI>
+    <StiImage>Shows an image.</StiImage>
+    <StiImageElement>Shows an image.</StiImageElement>
+    <StiImageUI>Shows an image.</StiImageUI>
+    <StiIndicatorElement>Shows the difference between values.</StiIndicatorElement>
+    <StiLabelUI>Shows a short text.</StiLabelUI>
+    <StiListBoxElement>Selects items from a list.</StiListBoxElement>
+    <StiListUI>Shows a list to pick one item.</StiListUI>
+    <StiMap>Shows data on a map.</StiMap>
+    <StiMapCategory>Elements which show data on a map.</StiMapCategory>
+    <StiMapElement>Shows data on a map.</StiMapElement>
+    <StiMarkdown>Shows Markdown text.</StiMarkdown>
+    <StiMathFormula>Shows a math formula.</StiMathFormula>
+    <StiMultiListUI>Shows a list to pick several items.</StiMultiListUI>
+    <StiMultiSelectUI>Shows a drop-down list to pick several values.</StiMultiSelectUI>
+    <StiNumberBoxElement>Selects a number or a range of numbers.</StiNumberBoxElement>
+    <StiNumberInputUI>Takes a number from the user.</StiNumberInputUI>
+    <StiOnlineMapElement>Shows markers on an online map.</StiOnlineMapElement>
+    <StiOverlayBand>Prints a watermark on each page.</StiOverlayBand>
+    <StiPageFooterBand>Prints at the bottom of each page.</StiPageFooterBand>
+    <StiPageHeaderBand>Prints at the top of each page.</StiPageHeaderBand>
+    <StiPanel>Groups other components in one area.</StiPanel>
+    <StiPanelElement>Groups other elements in one area.</StiPanelElement>
+    <StiPanelUI>Groups other controls in one area.</StiPanelUI>
+    <StiPdfDigitalSignature>Marks the place of a digital signature in PDF.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>Marks the place of a digital signature in PDF.</StiPdfDigitalSignatureElement>
+    <StiPivotTableElement>Shows structured data as a pivot table.</StiPivotTableElement>
+    <StiProgressElement>Shows a value as a part of the whole.</StiProgressElement>
+    <StiRadioGroupUI>Offers options to choose one of them.</StiRadioGroupUI>
+    <StiRangeSelectorElement>Selects a range on a scale or a timeline.</StiRangeSelectorElement>
+    <StiRangeSliderUI>Sets a range on a scale.</StiRangeSliderUI>
+    <StiRectanglePrimitive>Draws a rectangle.</StiRectanglePrimitive>
+    <StiRegionMapElement>Shows data on a map of regions.</StiRegionMapElement>
+    <StiReportSummaryBand>Prints once at the end of the report.</StiReportSummaryBand>
+    <StiReportTitleBand>Prints once at the start of the report.</StiReportTitleBand>
+    <StiRichText>Shows formatted RTF text.</StiRichText>
+    <StiRoundedRectanglePrimitive>Draws a rounded rectangle.</StiRoundedRectanglePrimitive>
+    <StiScreen>Holds the controls of an app page.</StiScreen>
+    <StiSelectUI>Shows a drop-down list to pick one value.</StiSelectUI>
+    <StiShape>Shows a ready-made shape.</StiShape>
+    <StiShapeElement>Shows a ready-made shape.</StiShapeElement>
+    <StiSignature>Adds an electronic or a digital signature.</StiSignature>
+    <StiSliderUI>Sets a value on a scale.</StiSliderUI>
+    <StiSparkline>Shows a small chart of a data series.</StiSparkline>
+    <StiSubReport>Prints another report or page in this place.</StiSubReport>
+    <StiSwitchUI>Toggles a setting on or off.</StiSwitchUI>
+    <StiTable>Shows data in rows and columns.</StiTable>
+    <StiTableElement>Shows data in rows and columns.</StiTableElement>
+    <StiTableOfContents>Builds the table of contents.</StiTableOfContents>
+    <StiTableUI>Shows data in rows and columns.</StiTableUI>
+    <StiText>Shows data as text.</StiText>
+    <StiTextElement>Shows data as text.</StiTextElement>
+    <StiTextInCells>Shows text one character per cell.</StiTextInCells>
+    <StiTextInputUI>Takes text from the user.</StiTextInputUI>
+    <StiTreeViewBoxElement>Selects values from a drop-down tree.</StiTreeViewBoxElement>
+    <StiTreeViewElement>Shows hierarchical data as a tree.</StiTreeViewElement>
+    <StiVerticalLinePrimitive>Draws a vertical line.</StiVerticalLinePrimitive>
+    <StiWebContentElement>Shows web content.</StiWebContentElement>
+    <StiWinControl>Shows a .NET visual control.</StiWinControl>
+    <StiZipCode>Shows a ZIP code.</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
     <ActiveRelation>Sets the priority Relation to bind two tables. It is used in Data Transformation and Dashboards. Only one Relation in each Data Source can be active.</ActiveRelation>
-    <Align>Change the location of selected components.</Align>
-    <AlignBottom>Align the contents of a component to bottom.</AlignBottom>
-    <AlignCenter>Align the contents of a component to center.</AlignCenter>
+    <Align>Align the selected components.</Align>
+    <AlignBottom>Align the contents to the bottom.</AlignBottom>
+    <AlignCenter>Align the contents to the center.</AlignCenter>
     <AlignComponentBottom>Allows you to align objects horizontally along the bottom edge of selected components.</AlignComponentBottom>
     <AlignComponentCenter>Allows you to align objects horizontally along the center edge of selected components.</AlignComponentCenter>
     <AlignComponentLeft>Allows you to align objects vertically along the left edge of selected components.</AlignComponentLeft>
     <AlignComponentMiddle>Allows you to align objects vertically along the center edge of selected components.</AlignComponentMiddle>
     <AlignComponentRight>Allows you to align objects vertically along the right edge of selected components.</AlignComponentRight>
     <AlignComponentTop>Allows you to align objects horizontally along the top edge of selected components.</AlignComponentTop>
-    <AlignLeft>Align the contents of a component to left.</AlignLeft>
-    <AlignMiddle>Center the contents of a component between the top and bottom borders.</AlignMiddle>
-    <AlignRight>Align the contents of a component to right.</AlignRight>
-    <AlignToGrid>Align the selected components to grid nodes.</AlignToGrid>
-    <AlignTop>Align the contents of a component to top.</AlignTop>
-    <AlignWidth>Justify the contents of a component.</AlignWidth>
-    <Angle>Rotate the contents of the component.</Angle>
+    <AlignLeft>Align the contents to the left.</AlignLeft>
+    <AlignMiddle>Align the contents to the middle.</AlignMiddle>
+    <AlignRight>Align the contents to the right.</AlignRight>
+    <AlignToGrid>Align the selected components to the grid.</AlignToGrid>
+    <AlignTop>Align the contents to the top.</AlignTop>
+    <AlignWidth>Justify the contents.</AlignWidth>
+    <Angle>Rotate the text.</Angle>
     <AngleWatermark>The watermark text rotation angle.</AngleWatermark>
-    <Background>Change the background of the selected components.</Background>
-    <biConditions>Control the list of conditions of the selected components.</biConditions>
-    <BorderColor>Select the border color of the selected component.</BorderColor>
-    <BorderSidesAll>Switch on all border sides of the selected components.</BorderSidesAll>
-    <BorderSidesBottom>Switch on bottom border side of the selected components.</BorderSidesBottom>
-    <BorderSidesLeft>Switch on left border side of the selected components.</BorderSidesLeft>
-    <BorderSidesNone>Switch off all border sides of the selected components.</BorderSidesNone>
-    <BorderSidesRight>Switch on right border side of the selected components.</BorderSidesRight>
-    <BorderSidesTop>Switch on top border side of the selected components.</BorderSidesTop>
-    <BorderStyle>Select the border style of the selected components.</BorderStyle>
-    <BringToFront>Bring the selected component to front.</BringToFront>
+    <Background>Change the background.</Background>
+    <biConditions>Edit the conditions.</biConditions>
+    <BorderColor>Change the border color.</BorderColor>
+    <BorderSidesAll>Show all borders.</BorderSidesAll>
+    <BorderSidesBottom>Show or hide the bottom border.</BorderSidesBottom>
+    <BorderSidesLeft>Show or hide the left border.</BorderSidesLeft>
+    <BorderSidesNone>Hide all borders.</BorderSidesNone>
+    <BorderSidesRight>Show or hide the right border.</BorderSidesRight>
+    <BorderSidesTop>Show or hide the top border.</BorderSidesTop>
+    <BorderStyle>Change the border style.</BorderStyle>
+    <BringToFront>Bring to the front.</BringToFront>
     <CenterHorizontally>Allows you to align a component horizontally relative to the edges of the container in which it is placed.</CenterHorizontally>
     <CenterVertically>Allows you to align a component vertically relative to the edges of the container in which it is placed.</CenterVertically>
     <Close>Close the Report Designer.</Close>
-    <Columns>Split a page into columns.</Columns>
+    <Columns>Split the page into columns.</Columns>
     <CompilationAccess1>This document uses the compilation process. If the document is from a trusted source, you can click the "Open" button to access it.</CompilationAccess1>
     <CompilationAccess2>If you're unsure about the document's source but still want to view it, you can click the "Open in safe mode" button. In this case, you will use interpretation instead of compilation, which enables you to run the document safely.</CompilationAccess2>
     <CompilationAccess3>This document uses the compilation process and it can be unsafe. You can't open it.</CompilationAccess3>
@@ -2187,15 +2190,15 @@
     <CompilationAccessForceInterpretation>Documents with compilation will be opened without any prompt but will be automatically converted to interpretation mode, which does not use the compilation process.</CompilationAccessForceInterpretation>
     <CompilationAccessTitle>The document uses compilation</CompilationAccessTitle>
     <CompilationModeEnabling>You are switching to the compilation mode. This mode allows you to run different code and sometimes it could be harmful. Please, use this mode only if you understand all the risks and agree with them. Click the {0} button to proceed.</CompilationModeEnabling>
-    <ComponentSize>Change the size of the selected components.</ComponentSize>
-    <ComponentsMenu>Opens the Components menu containing unused dashboard elements on the mobile surface.</ComponentsMenu>
-    <CopyStyle>Copy Style</CopyStyle>
+    <ComponentSize>Resize the selected components.</ComponentSize>
+    <ComponentsMenu>Show the unused elements.</ComponentsMenu>
+    <CopyStyle>Copy the style to other components.</CopyStyle>
     <CopyToClipboard>Copy to Clipboard</CopyToClipboard>
     <CurrencySymbol>Select the currency symbol.</CurrencySymbol>
     <DashboardNew>Create a new dashboard.</DashboardNew>
     <DataStore>Show data registered in a report.</DataStore>
-    <DateTimeFormat>Select the date and time format for the selected components.</DateTimeFormat>
-    <DockingPanels>Panel settings.</DockingPanels>
+    <DateTimeFormat>Select the date and time format.</DateTimeFormat>
+    <DockingPanels>Show or hide the panels.</DockingPanels>
     <DockStyleBottom>Dock selected components to the bottom side.</DockStyleBottom>
     <DockStyleFill>Dock selected components to all sides.</DockStyleFill>
     <DockStyleLeft>Dock selected components to the left side.</DockStyleLeft>
@@ -2204,18 +2207,18 @@
     <DockStyleTop>Dock selected components to the top side.</DockStyleTop>
     <EventsAccess1>This document uses Events. If the document is from a trusted source, you can click the "Open" button to access it.</EventsAccess1>
     <EventsAccess2>If you're unsure about the document's source but still want to view it, you can click the "Open in safe mode" button. In this case, events will be ignored and not executed.</EventsAccess2>
-    <FontGrow>Make the text size larger.</FontGrow>
-    <FontName>The text font.</FontName>
+    <FontGrow>Make the text larger.</FontGrow>
+    <FontName>Change the text font.</FontName>
     <FontNameWatermark>The watermark text font.</FontNameWatermark>
-    <FontShrink>Make the text size smaller.</FontShrink>
-    <FontSize>Font size.</FontSize>
+    <FontShrink>Make the text smaller.</FontShrink>
+    <FontSize>Change the text size.</FontSize>
     <FontSizeWatermark>Change the font size.</FontSizeWatermark>
     <FontStyleBold>Make the text bold.</FontStyleBold>
     <FontStyleBoldWatermark>Make the text of the watermark bold.</FontStyleBoldWatermark>
-    <FontStyleItalic>Make the text Italic.</FontStyleItalic>
+    <FontStyleItalic>Make the text italic.</FontStyleItalic>
     <FontStyleItalicWatermark>Make the watermark text Italic.</FontStyleItalicWatermark>
-    <FontStyleStrikeout>Make the text strikeout.</FontStyleStrikeout>
-    <FontStyleUnderline>Make the text underlined.</FontStyleUnderline>
+    <FontStyleStrikeout>Strike through the text.</FontStyleStrikeout>
+    <FontStyleUnderline>Underline the text.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Make the watermark text underlined.</FontStyleUnderlineWatermark>
     <FormatBoolean>This format is used to format values of the boolean type.</FormatBoolean>
     <FormatCurrency>Display a value as currency. It allows you to display a number with the default currency symbol.</FormatCurrency>
@@ -2226,61 +2229,61 @@
     <FormatPercentage>Display a value as percentage. Numbers are multiplied by 100 to convert them to percentages.</FormatPercentage>
     <FormatTime>Display a value as time. The time format is based on the regional time settings.</FormatTime>
     <FormNew>Create a new dialog form.</FormNew>
-    <GridMode>Show grid in lines or dots.</GridMode>
+    <GridMode>Show the grid as lines or dots.</GridMode>
     <ImageAlignment>Put a watermark image on a page.</ImageAlignment>
     <ImageTransparency>Change the transparency of the watermark image.</ImageTransparency>
-    <Interaction>Control an interaction of the selected components.</Interaction>
-    <LineSpacing>Choose how much space appears between lines of text or between paragraphs.</LineSpacing>
-    <Link>Link the component to the current container.</Link>
+    <Interaction>Set up the interaction.</Interaction>
+    <LineSpacing>Change the line spacing.</LineSpacing>
+    <Link>Link to the container.</Link>
     <LoadImage>Load watermark images from the file.</LoadImage>
-    <Lock>Lock the component. The component cannot be moved and resized.</Lock>
-    <MainMenu>Click here to see the list of possible operations with a report, including opening, closing, and previewing.</MainMenu>
+    <Lock>Lock the position and size.</Lock>
+    <MainMenu>Create, open or save a report.</MainMenu>
     <MakeHorizontalSpacingEqual>Allows you to set equal horizontal spacing between selected components.</MakeHorizontalSpacingEqual>
     <MakeVerticalSpacingEqual>Allows you to set equal vertical spacing between selected components.</MakeVerticalSpacingEqual>
-    <Margins>Select the margins of the current page.</Margins>
+    <Margins>Select the page margins.</Margins>
     <menuCheckIssues>Check to find errors, warnings and get recommendations.</menuCheckIssues>
     <menuDesignerOptions>Setup report designer options.</menuDesignerOptions>
     <menuEditClearContents>Clear the contents.</menuEditClearContents>
-    <menuEditCopy>Copy the selected components and put them on the Clipboard.</menuEditCopy>
-    <menuEditCut>Cut the selected components from a report and put them on the Clipboard.</menuEditCut>
-    <menuEditDelete>Delete selected components.</menuEditDelete>
-    <menuEditPaste>Paste the contents of the Clipboard into the report.</menuEditPaste>
-    <menuExportSettings>Opens the Export Settings editor for the current report or dashboard. Settings are applied only when exporting the current report or dashboard.</menuExportSettings>
+    <menuEditCopy>Copy the selected components.</menuEditCopy>
+    <menuEditCut>Cut the selected components.</menuEditCut>
+    <menuEditDelete>Delete the selected components.</menuEditDelete>
+    <menuEditPaste>Paste from the Clipboard.</menuEditPaste>
+    <menuExportSettings>Change the export settings.</menuExportSettings>
     <menuFAQPage>Go to the web page with frequently asked questions.</menuFAQPage>
-    <menuGlobalizationStrings>Call the Globalization Strings editor of the current report.</menuGlobalizationStrings>
+    <menuGlobalizationStrings>Edit the globalization strings.</menuGlobalizationStrings>
     <menuHelpAboutProgramm>Get information about the version of the report generator and the version of .NET.</menuHelpAboutProgramm>
     <menuHomePage>Go to the Home page of the product.</menuHomePage>
     <menuPageOptions>Setup the basic parameters of the current page. All page options can be changed using the Property panel.</menuPageOptions>
     <menuPagesManager>Run the Pages Manager. It allows moving pages, deleting pages, and creating new pages.</menuPagesManager>
-    <menuPreviewSettings>Call the Preview Settings editor of the current report. Settings will be applied only when viewing the current report.</menuPreviewSettings>
+    <menuPreviewSettings>Change the preview settings.</menuPreviewSettings>
     <menuPrint>Select a printer, number of copies, and other printing options before printing.</menuPrint>
     <menuPrintPreview>Preview a report before printing.</menuPrintPreview>
     <menuPrintQuick>Print a report directly to the default printer. The printing dialog is not displayed.</menuPrintQuick>
-    <menuReportOptions>Setup the basic report options. All options can be changed using the Property panel.</menuReportOptions>
+    <menuReportOptions>Change the report options.</menuReportOptions>
     <menuStyleDesigner>Call the Style Designer of the current report.</menuStyleDesigner>
     <menuSupport>Go to the support page to ask a question.</menuSupport>
-    <menuViewAlignToGrid>Align components to grid.</menuViewAlignToGrid>
+    <menuViewAlignToGrid>Align components to the grid.</menuViewAlignToGrid>
     <menuViewNormal>Normal view of a page.</menuViewNormal>
     <menuViewPageBreakPreview>The mode of showing a page with borders of segments.</menuViewPageBreakPreview>
-    <menuViewQuickInfo>Show quick information of components: component name, alias, contents, events, etc.</menuViewQuickInfo>
-    <menuViewShowGrid>Turn on grid lines to which you can align objects in a report.</menuViewShowGrid>
-    <menuViewShowHeaders>Show headers of bands.</menuViewShowHeaders>
-    <menuViewShowOrder>Show order of components on a page.</menuViewShowOrder>
-    <menuViewShowRulers>View the rulers, used to measure and line up objects on a page.</menuViewShowRulers>
-    <menuViewShowSmartGuides>Display Smart Guides to position components relative to each other.</menuViewShowSmartGuides>
-    <MoveBackward>Move a component to one level higher in order of placing components on a page.</MoveBackward>
-    <MoveForward>Move a component to one level lower in order of placing components on a page.</MoveForward>
+    <menuViewQuickInfo>Show quick information on components.</menuViewQuickInfo>
+    <menuViewShowGrid>Show the grid.</menuViewShowGrid>
+    <menuViewShowHeaders>Show the band headers.</menuViewShowHeaders>
+    <menuViewShowOrder>Show the order of components.</menuViewShowOrder>
+    <menuViewShowRulers>Show the rulers.</menuViewShowRulers>
+    <menuViewShowSmartGuides>Show the smart guides.</menuViewShowSmartGuides>
+    <MoveBackward>Move one level backward.</MoveBackward>
+    <MoveForward>Move one level forward.</MoveForward>
     <NotPossibleEnableCompilationMode>It is impossible to enable compilation mode for the report. This is prohibited by the 'Compilation Access' option in the designer settings.</NotPossibleEnableCompilationMode>
-    <Orientation>Switch the pages between portrait and landscape layouts.</Orientation>
+    <Orientation>Switch between portrait and landscape.</Orientation>
     <PageDelete>Delete current page from a report.</PageDelete>
     <PageNew>Create a new page.</PageNew>
-    <PageSetup>Show the Page Setup dialog box.</PageSetup>
-    <PageSize>Choose the paper size for the current page of a report.</PageSize>
+    <PageSetup>Change the page settings.</PageSetup>
+    <PageSize>Select the paper size.</PageSize>
     <PagesManager>Run the Pages Manager.</PagesManager>
     <PressF1>Press F1 for More Details</PressF1>
-    <PropertiesButton>Activates the Properties panel with the report template properties.</PropertiesButton>
+    <PropertiesButton>Show the report properties.</PropertiesButton>
     <Redo>Redo the previously canceled change in a report.</Redo>
-    <RemoveMobileSurfaceButton>Removes the mobile surface from the current dashboard.</RemoveMobileSurfaceButton>
+    <RemoveMobileSurfaceButton>Remove the mobile surface.</RemoveMobileSurfaceButton>
     <ReportNew>Create a new report.</ReportNew>
     <ReportOpen>Open a report in the designer.</ReportOpen>
     <ReportPreview>Preview an edited report in the viewer.</ReportPreview>
@@ -2292,14 +2295,14 @@
     <ScriptSecuritySafeMode>Safe script access (restricted capabilities for security).</ScriptSecuritySafeMode>
     <SelectAll>Select all components on the current page.</SelectAll>
     <SelectUILanguage>Select the UI language.</SelectUILanguage>
-    <SendToBack>Move the selected component to the back relative to other components.</SendToBack>
+    <SendToBack>Send to the back.</SendToBack>
     <ServicesConfigurator>Run the Services Configurator.</ServicesConfigurator>
-    <Shadow>Show the shadow of a component.</Shadow>
+    <Shadow>Show or hide the shadow.</Shadow>
     <ShowBehind>Show the watermark text behind the components.</ShowBehind>
     <ShowImageBehind>Put the watermark image behind all components on a page.</ShowImageBehind>
     <ShowToolbox>Show the toolbox.</ShowToolbox>
     <StimulsoftHelp>Stimulsoft Help</StimulsoftHelp>
-    <StyleDesigner>Run Style Designer.</StyleDesigner>
+    <StyleDesigner>Open the Style Designer.</StyleDesigner>
     <TellMeMore>Tell me more</TellMeMore>
     <Text>Watermark text.</Text>
     <TextBrush>Change the text color.</TextBrush>
@@ -2308,30 +2311,31 @@
     <TextFormat>Select the format of values.</TextFormat>
     <ToolbarStyle>Set selected style to all selected components.</ToolbarStyle>
     <Undo>Undo the latest change in a report.</Undo>
-    <ViewModeDesktopButton>Activate Desktop Surface.</ViewModeDesktopButton>
-    <ViewModeMobileButton>Activate Mobile Surface.</ViewModeMobileButton>
-    <WordWrap>Wrap the text of a component.</WordWrap>
+    <ViewModeDesktopButton>Show the desktop surface.</ViewModeDesktopButton>
+    <ViewModeMobileButton>Show the mobile surface.</ViewModeMobileButton>
+    <Watermark>Change the watermark settings.</Watermark>
+    <WordWrap>Wrap the text.</WordWrap>
     <Zoom>Specify the zoom level of the report.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
-    <StiButtonControl>Represents the Button control.</StiButtonControl>
-    <StiCheckBoxControl>Represents the Flag control.</StiCheckBoxControl>
-    <StiCheckedListBoxControl>Shows the List object, in which a flag on the left is shown for each element.</StiCheckedListBoxControl>
-    <StiComboBoxControl>Represents the ComboBox that is used to either type a value directly into the control or choose from the list of existing options.</StiComboBoxControl>
-    <StiDateTimePickerControl>Represents the control that allows selecting the date and time. It also allows you to output the date and time in the specified format.</StiDateTimePickerControl>
-    <StiGridControl>Represents the Grid control that consists of rows and columns.</StiGridControl>
-    <StiGroupBoxControl>Represents the control that creates a container with borders and a header for the UI content.</StiGroupBoxControl>
-    <StiLabelControl>A label is a user interface control which displays text on a form. It is usually a static control having no interactivity.</StiLabelControl>
-    <StiListBoxControl>Contains the list of elements for selection.</StiListBoxControl>
-    <StiListViewControl>Represents the ListView control that shows the list of data elements.</StiListViewControl>
-    <StiLookUpBoxControl>Contains the list of elements for selection.</StiLookUpBoxControl>
-    <StiNumericUpDownControl>Represents the control that shows numeric values.</StiNumericUpDownControl>
-    <StiPanelControl>The Panel elements are used for placing and arranging objects.</StiPanelControl>
-    <StiPictureBoxControl>Represents the control for showing an image.</StiPictureBoxControl>
-    <StiRadioButtonControl>Represents the Radio button control that allows the user to choose only one of a predefined set of options. </StiRadioButtonControl>
-    <StiRichTextBoxControl>Represents the RichText control with extended editing.</StiRichTextBoxControl>
-    <StiTextBoxControl>Represents the Text control that is used for showing or editing a text.</StiTextBoxControl>
-    <StiTreeViewControl>Represents the control that is used to show the hierarchical data as a tree.</StiTreeViewControl>
+    <StiButtonControl>Runs an action on a click.</StiButtonControl>
+    <StiCheckBoxControl>Switches one option on or off.</StiCheckBoxControl>
+    <StiCheckedListBoxControl>Shows a list with a check box for each item.</StiCheckedListBoxControl>
+    <StiComboBoxControl>Shows a drop-down list to pick or type a value.</StiComboBoxControl>
+    <StiDateTimePickerControl>Shows a calendar to pick a date and time.</StiDateTimePickerControl>
+    <StiGridControl>Shows data in rows and columns.</StiGridControl>
+    <StiGroupBoxControl>Groups controls in a frame with a caption.</StiGroupBoxControl>
+    <StiLabelControl>Shows a text on the form.</StiLabelControl>
+    <StiListBoxControl>Shows a list to pick items.</StiListBoxControl>
+    <StiListViewControl>Shows a list of data items.</StiListViewControl>
+    <StiLookUpBoxControl>Shows a drop-down list to pick an item.</StiLookUpBoxControl>
+    <StiNumericUpDownControl>Takes a number, with buttons to change it.</StiNumericUpDownControl>
+    <StiPanelControl>Groups other controls in one area.</StiPanelControl>
+    <StiPictureBoxControl>Shows an image.</StiPictureBoxControl>
+    <StiRadioButtonControl>Chooses one option of a group.</StiRadioButtonControl>
+    <StiRichTextBoxControl>Shows and edits formatted text.</StiRichTextBoxControl>
+    <StiTextBoxControl>Shows and edits a text.</StiTextBoxControl>
+    <StiTreeViewControl>Shows hierarchical data as a tree.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
     <AddPageBreaks>Visual separator of report pages.</AddPageBreaks>

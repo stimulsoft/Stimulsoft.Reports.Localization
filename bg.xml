@@ -2051,136 +2051,139 @@
     <sys_morebuttons>Повече бутони</sys_morebuttons>
   </Gui>
   <HelpComponents>
-    <StiBarCode>Този компонент позволява показване на баркодове в отчета. Бар-код данните се изпращат към обекта като низ. Низа може да съдържа всички символи, но само разрешените символи за указания тип ще бъдат показани.</StiBarCode>
-    <StiButtonElement>Този компонент се използва за изпълнение на скрипт за събитие, когато потребителят взаимодейства.</StiButtonElement>
-    <StiButtonUI>Бутон, използван за изпълнение на действие или стартиране на команда.</StiButtonUI>
-    <StiCardsElement>Този компонент се използва за показване на групирани данни като карти.</StiCardsElement>
-    <StiChart>Този компонент позволява показване на диаграми в отчета. Достъпни са различни типове диаграми. </StiChart>
-    <StiChartElement>Този елемент позволява показването на диаграми в таблото за управление. Предлагат се различни типове диаграми.</StiChartElement>
-    <StiCheckBox>Този компонент позволява показване на отметки в отчета. Той може да променя състоянието си в два режима: "включен" or "изключен".</StiCheckBox>
-    <StiCheckBoxGroupUI>Група от отметка, използвана за избиране на множество предварително дефинирани опции от списък.</StiCheckBoxGroupUI>
-    <StiCheckBoxUI>Отметка, използвано за бързо включване или изключване на една опция.</StiCheckBoxUI>
-    <StiChildBand>Подчинената секция може да се използва за показване на две секции в един ред от данни.</StiChildBand>
-    <StiClone>Този компонент позволява да се клонират части от отчета в други части на отчета. Клонирането може да се прилага само за съдържание от тип панел.</StiClone>
-    <StiColumnFooterBand>Тази секция се използва за извеждането на долни колонтитули в секцията Данни. Тази секция се извежда веднъж под всяка колона. Всички компоненти, които се намират в тази секция ще се извеждат под всяка колона.</StiColumnFooterBand>
-    <StiColumnHeaderBand>Тази секция се използва в заглавието на колоната. Секцията Заглавие на колона се извежда само веднъж. Всички компоненти, които се намират в тази секция ще се извеждат под всяка колона.</StiColumnHeaderBand>
-    <StiComboBoxElement>Представлява ComboBox, който се използва или за въвеждане на стойност директно в контрола, или за избор от списъка на съществуващите опции.</StiComboBoxElement>
-    <StiContainer>Това е правоъгълна област, където могат да бъдат поместени други компоненти, вкл. и секции. Когато областта се премести, компонентите в нея се преместват също. Контейнера може да се разположи както в секция, так и в страницата.</StiContainer>
-    <StiCrossDataBand>Тази секция е свързана с източника на данни. Тя се извежда толкова пъти, колкото редове има в източника на данни. Крос секцията се извежда от ляво надясно.</StiCrossDataBand>
-    <StiCrossFooterBand>Тази секция се използва за извеждане на долни колонтитули в секцията Крос данни. Тя се извежда веднъж след всички редове на секцията Данни. Крос секцията се извежда от ляво надясно.</StiCrossFooterBand>
-    <StiCrossGroupFooterBand>Тази секция се използва за извеждане на долни колонтитули в група. Тя се поместв под секцията Крос данни. Всяка Край на крос група секция принадлежи към секция Заглавие на крос група.Крос секцията се извежда от ляво надясно.</StiCrossGroupFooterBand>
-    <StiCrossGroupHeaderBand>Тази секция е базова при отчет с групиране и използване на Крос данни. Не е възможно да се създаде групиране без тази секция. Компоненти при показване на информация се разполагат в заглавието на групата. Информацията може да бъде име на група, дата условие и т.н. Секцията се показва в началото на всяка група.</StiCrossGroupHeaderBand>
-    <StiCrossHeaderBand>Тази секция се използва за показване на заглавие. Използва се в ассоциация с Крос данни секцията. Крос секцията се извежда от ляво надясно.</StiCrossHeaderBand>
-    <StiCrossTab>Компонента Крос-таблица се използва за структурно представяне на данните в таблица.</StiCrossTab>
-    <StiDataBand>Секцията Данни е свързана с източника на данни и се извежда толкова пъти, колкото редове има в източника на данни.</StiDataBand>
-    <StiDatePickerElement>Този елемент се използва за избор на дата и час.</StiDatePickerElement>
-    <StiDatePickerUI>Инструмент за избор на дата, използван за избиране на дата от календар.</StiDatePickerUI>
-    <StiElectronicSignature>Този компонент се използва за добавяне на графичен подпис, изображение, инициали и текст.</StiElectronicSignature>
-    <StiEmptyBand>Тази секция се използва за запълване на празно простанство в края на страницата. Тази секция запълва празно пространство на всяка страница на отчета.</StiEmptyBand>
-    <StiFilterCategory>Група от елементи, използвани за избор и филтриране на стойности.</StiFilterCategory>
-    <StiFooterBand>Тази секция се използва за извеждане на обобщения в секцията Данни. Тя се помества под секцията Данни и се извежда само веднъж, след като всички редове от секцията Данни са изведени.</StiFooterBand>
-    <StiGauge>Компонентата позволява изобразяването на стойност в зададения интервал. Може да има различна графична презентация.</StiGauge>
-    <StiGaugeElement>Елементът ви позволява да показвате стойност в рамките на предварително определен обхват. Тя може да има различно графично представяне.</StiGaugeElement>
-    <StiGroupFooterBand>Секцията Край на група се използва за извеждане на долни колонтитули в група. Тя се извежда след секцията Данни. Това е секцията от данни към която секцията Заглавие на група е свързана. Всяка секция Край на група принадлежи към определена секция Заглавие на група. Секцията Край на група не се извежда ако не е определана съответната секция Заглавие на група.</StiGroupFooterBand>
-    <StiGroupHeaderBand>Това е основна секция на отчета, когато се използва групиране. Компонентите за показване на информация в тази група се разполагат в заглавието на групата. Те могат да бъдат име на група, дата, условие на групиране и т.н. Тази секция се извежда веднъж в началото на всяка група.</StiGroupHeaderBand>
-    <StiHeaderBand>Тази секция се използва за извеждането на заглавия. Използва се съвместно със секцията Данни.</StiHeaderBand>
-    <StiHierarchicalBand>Тази секция е свързана с източника на данни и се извежда толкова пъти, колкото редове има в източника на данни. Данните се извеждат в дрвовиден вид.</StiHierarchicalBand>
-    <StiHorizontalLinePrimitive>Този компонент се използва за извеждането на линия.</StiHorizontalLinePrimitive>
-    <StiIconUI>Икона, използвана за показване на символичен графичен или визуален маркер.</StiIconUI>
-    <StiImage>Този компонент се използва за показване на картинки. Поддържат се следните графични формати: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
-    <StiImageElement>Този елемент се използва за извеждане на изображения. Поддържа следните графични формати, като например  BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImageElement>
-    <StiImageUI>Изображение, използвано за показване на графично съдържание в интерфейса.</StiImageUI>
-    <StiIndicatorElement>Елементът показва разликата в стойностите между входните данни.</StiIndicatorElement>
-    <StiLabelUI>Етикет, използван за показване на текст или кратки надписи.</StiLabelUI>
-    <StiListBoxElement>Елементът позволява избор на елементи от списък.</StiListBoxElement>
-    <StiListUI>Списък, използван за показване на избираеми елементи във вертикална колекция.</StiListUI>
-    <StiMap>Този компонент се използва за показване на данни, които са географски насочени.</StiMap>
-    <StiMapCategory>Група елементи за работа с карти и данни.</StiMapCategory>
-    <StiMapElement>Този елемент се използва за показване на географски насочени данни.</StiMapElement>
-    <StiMarkdown>Този компонент се използва за визуализиране на текст във формат CommonMark / GFM Markdown в отчет.</StiMarkdown>
-    <StiMathFormula>Този компонент се използва за показване на математически формули в отчет. </StiMathFormula>
-    <StiMultiListUI>Списък, използван за избор на множество елементи от една и съща колекция.</StiMultiListUI>
-    <StiMultiSelectUI>Селектор, използван за избор на множество стойности от подготвен списък.</StiMultiSelectUI>
-    <StiNumberBoxElement>Този елемент се използва за избор на числова стойност или за задаване на диапазон от числови стойности.</StiNumberBoxElement>
-    <StiNumberInputUI>Числов вход, използван за въвеждане на числови стойности с контролиран вход.</StiNumberInputUI>
-    <StiOnlineMapElement>Този елемент се използва за показване на географски маркери в онлайн картата.</StiOnlineMapElement>
-    <StiOverlayBand>Този компонент се използва за извеждането на воден знак в страницата.</StiOverlayBand>
-    <StiPageFooterBand>Тази секция се използва за извеждането на информация в края на всяка страница от рода на номер на страница, дати и друга информация</StiPageFooterBand>
-    <StiPageHeaderBand>Тази секция се използва за извеждане на информация в началото на страницата. Тя се извежда в началото на всяка страница.</StiPageHeaderBand>
-    <StiPanel>Това в правоъгълна област, където други компоненти вкл. и др. секции могат да бъдат разположени. При преместване на региона се преместват и всички компоненти в него. Панела може да бъде разположен както в секция, така и в страницата.</StiPanel>
-    <StiPanelElement>Правоъгълна област, която може да съдържа други елементи. При преместване на панела се преместват и елементите в него.</StiPanelElement>
-    <StiPanelUI>Панел, използван за групиране и подреждане на други контроли в една област.</StiPanelUI>
-    <StiPdfDigitalSignature>Този компонент се използва за указване на място за цифровия подпис, след като отчетът бъде експортиран в Adobe PDF.</StiPdfDigitalSignature>
-    <StiPdfDigitalSignatureElement>Този компонент се използва за указване на място за цифровия подпис и полетата от сертификата при експорт в PDF.</StiPdfDigitalSignatureElement>
-    <StiPivotTableElement>Pivot table елемента се използва за представяне на структурирани данни като таблица.</StiPivotTableElement>
-    <StiProgressElement>Елементът показва съотношението на входните данни. Той може да бъде представена в различни режими - кръгова диаграма, кръг, ивица.</StiProgressElement>
-    <StiRadioGroupUI>Радио група, използвана за избор на една опция от предварително дефиниран набор от стойности.</StiRadioGroupUI>
-    <StiRangeSelectorElement>Този компонент се използва за избор на диапазон от стойности в скала или времева линия. Той позволява на потребителите визуално да дефинират минималните и максималните граници на диапазона.</StiRangeSelectorElement>
-    <StiRangeSliderUI>Плъзгач за диапазон, използван за определяне на минимални и максимални стойности в скала.</StiRangeSliderUI>
-    <StiRectanglePrimitive>Този компонент се използва за извеждане на правоъгълници.</StiRectanglePrimitive>
-    <StiRegionMapElement>Този елемент се използва за показване на географски насочени данни.</StiRegionMapElement>
-    <StiReportSummaryBand>Тази секция се използва за извеждане на обобщаваща информация в отчета. Тя се извежда само веднъж в края на отчета.</StiReportSummaryBand>
-    <StiReportTitleBand>Тази секция се използва за извеждане на заглавия в отчета. Извежда се само веднъж в началото на отчета.</StiReportTitleBand>
-    <StiRichText>Този компонент се използва за извеждане на RTF текст. Поддържа зареьдане и съхранение на файлове в RTF формат.</StiRichText>
-    <StiRoundedRectanglePrimitive>Този компонент се използва за извеждане на закръглени правоъгълници.</StiRoundedRectanglePrimitive>
-    <StiScreen>Екран, който съдържа контроли, оформление и потребителски взаимодействия за страница на приложение.</StiScreen>
-    <StiSelectUI>Поле за избор, използвано за избиране на една стойност от падащ списък.</StiSelectUI>
-    <StiShape>Този компонент се използва за извеждане на различни геометрични примитиви като стрелки, линии, правоъгълници, триъгълници и др.</StiShape>
-    <StiShapeElement>Този елемент се използва за вмъкване на готови форми, като например стрелки, диагонална линия надолу, диагонална линия нагоре, хоризонтална линия, лява и дясна линии, овал, правоъгълик, заоблен правоъгълник, горна и долна линия, триъгълник, вертикална линия.</StiShapeElement>
-    <StiSignature>Този компонент се използва за добавяне на електронен или цифров подпис към отчет.</StiSignature>
-    <StiSliderUI>Плъзгач, използван за избор на стойност в непрекъсната числова скала.</StiSliderUI>
-    <StiSparkline>Този компонент се използва за създаване на микрографии в отчета. Той ви позволява да проследявате динамично променящите се данни като ленти, линии, области. </StiSparkline>
-    <StiSubReport>Този компонент се използва за извеждане на допълнителни данни  в различни места на отчета.</StiSubReport>
-    <StiSwitchUI>Превключвател, използван за включване или изключване на настройка с едно щракване.</StiSwitchUI>
-    <StiTable>Този компонент е набор от данни организирани във вертикални колони и хоризонтални редове. Той е опростен аналог на Microsoft Excel таблица.</StiTable>
-    <StiTableElement>Този елемент е набор от елементи за данни, който е организиран с помощта на модел на вертикални колони и хоризонтални редове.</StiTableElement>
-    <StiTableOfContents>Този компонент се използва за създаване на съдържание в отчет. </StiTableOfContents>
-    <StiTableUI>Таблица, използвана за ясно показване на данни в редове и колони.</StiTableUI>
-    <StiText>Това е основен компонент за извеждане на данни като текст.</StiText>
-    <StiTextElement>Този елемент е основен обект за извеждането на данни като текст.</StiTextElement>
-    <StiTextInCells>Този компонент се използва за извеждане на текст в клетки. Използва се често при създаване на форми.</StiTextInCells>
-    <StiTextInputUI>Текстов вход, използван за въвеждане и редактиране на текстови стойности.</StiTextInputUI>
-    <StiTreeViewBoxElement>Елементът се използва за избор на стойности с падащ списък като дърво.</StiTreeViewBoxElement>
-    <StiTreeViewElement>Представлява елемента, който се използва за показване на йерархичните данни като дърво.</StiTreeViewElement>
-    <StiVerticalLinePrimitive>Този компонент се използва за извеждане на вертикални линии.</StiVerticalLinePrimitive>
-    <StiWebContentElement>Компонентът позволява добавяне на уеб съдържание към таблата за управление.</StiWebContentElement>
-    <StiWinControl>Този компонент позволява показването на контроли от .NET.</StiWinControl>
-    <StiZipCode>Този компонент се използва за извеждането на пощенски код.</StiZipCode>
+    <CategoryBands>Секции за заглавия, данни и долни колонтитули.</CategoryBands>
+    <CategoryComponents>Компоненти за текст, картинки и други данни.</CategoryComponents>
+    <CategoryCrossBands>Секции, които се извеждат отляво надясно.</CategoryCrossBands>
+    <StiBarCode>Показва баркод.</StiBarCode>
+    <StiButtonElement>Изпълнява скрипт при щракване.</StiButtonElement>
+    <StiButtonUI>Стартира действие или команда.</StiButtonUI>
+    <StiCardsElement>Показва групирани данни като карти.</StiCardsElement>
+    <StiChart>Показва данни като диаграма.</StiChart>
+    <StiChartElement>Показва данни като диаграма.</StiChartElement>
+    <StiCheckBox>Показва стойност истина или лъжа като отметка.</StiCheckBox>
+    <StiCheckBoxGroupUI>Предлага опции за отмятане на няколко от тях.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>Включва или изключва една опция.</StiCheckBoxUI>
+    <StiChildBand>Извежда още една секция за същия ред с данни.</StiChildBand>
+    <StiClone>Повтаря съдържанието на панел.</StiClone>
+    <StiColumnFooterBand>Извежда се под всяка колона на секция Данни.</StiColumnFooterBand>
+    <StiColumnHeaderBand>Извежда се над всяка колона на секция Данни.</StiColumnHeaderBand>
+    <StiComboBoxElement>Избира стойност от падащ списък.</StiComboBoxElement>
+    <StiContainer>Групира други компоненти в една област.</StiContainer>
+    <StiCrossDataBand>Извежда се веднъж за всеки ред, отляво надясно.</StiCrossDataBand>
+    <StiCrossFooterBand>Извежда се след секция Крос-данни.</StiCrossFooterBand>
+    <StiCrossGroupFooterBand>Извежда се в края на всяка крос-група.</StiCrossGroupFooterBand>
+    <StiCrossGroupHeaderBand>Извежда се в началото на всяка крос-група.</StiCrossGroupHeaderBand>
+    <StiCrossHeaderBand>Извежда се преди секция Крос-данни.</StiCrossHeaderBand>
+    <StiCrossTab>Показва структурирани данни като крос-таблица.</StiCrossTab>
+    <StiDataBand>Извежда се за всеки ред от източника на данни.</StiDataBand>
+    <StiDatePickerElement>Избира дата и час.</StiDatePickerElement>
+    <StiDatePickerUI>Показва календар за избор на дата.</StiDatePickerUI>
+    <StiElectronicSignature>Добавя подпис: рисунка, текст или картинка.</StiElectronicSignature>
+    <StiEmptyBand>Запълва свободното място в края на страницата.</StiEmptyBand>
+    <StiFilterCategory>Елементи за избор и филтриране на стойности.</StiFilterCategory>
+    <StiFooterBand>Извежда се след редовете на секция Данни.</StiFooterBand>
+    <StiGauge>Показва стойност в рамките на диапазон.</StiGauge>
+    <StiGaugeElement>Показва стойност в рамките на диапазон.</StiGaugeElement>
+    <StiGroupFooterBand>Извежда се в края на всяка група.</StiGroupFooterBand>
+    <StiGroupHeaderBand>Извежда се в началото на всяка група.</StiGroupHeaderBand>
+    <StiHeaderBand>Извежда се преди редовете на секция Данни.</StiHeaderBand>
+    <StiHierarchicalBand>Извежда редовете от източник на данни като дърво.</StiHierarchicalBand>
+    <StiHorizontalLinePrimitive>Чертае хоризонтална линия.</StiHorizontalLinePrimitive>
+    <StiIconUI>Показва икона.</StiIconUI>
+    <StiImage>Показва картинка.</StiImage>
+    <StiImageElement>Показва картинка.</StiImageElement>
+    <StiImageUI>Показва картинка.</StiImageUI>
+    <StiIndicatorElement>Показва разликата между стойности.</StiIndicatorElement>
+    <StiLabelUI>Показва кратък текст.</StiLabelUI>
+    <StiListBoxElement>Избира елементи от списък.</StiListBoxElement>
+    <StiListUI>Показва списък за избор на един елемент.</StiListUI>
+    <StiMap>Показва данни на карта.</StiMap>
+    <StiMapCategory>Елементи, които показват данни на карта.</StiMapCategory>
+    <StiMapElement>Показва данни на карта.</StiMapElement>
+    <StiMarkdown>Показва текст във формат Markdown.</StiMarkdown>
+    <StiMathFormula>Показва математическа формула.</StiMathFormula>
+    <StiMultiListUI>Показва списък за избор на няколко елемента.</StiMultiListUI>
+    <StiMultiSelectUI>Показва падащ списък за множествен избор.</StiMultiSelectUI>
+    <StiNumberBoxElement>Избира число или диапазон от числа.</StiNumberBoxElement>
+    <StiNumberInputUI>Приема число от потребителя.</StiNumberInputUI>
+    <StiOnlineMapElement>Показва маркери на онлайн карта.</StiOnlineMapElement>
+    <StiOverlayBand>Извежда воден знак на всяка страница.</StiOverlayBand>
+    <StiPageFooterBand>Извежда се в долната част на всяка страница.</StiPageFooterBand>
+    <StiPageHeaderBand>Извежда се в горната част на всяка страница.</StiPageHeaderBand>
+    <StiPanel>Групира други компоненти в една област.</StiPanel>
+    <StiPanelElement>Групира други елементи в една област.</StiPanelElement>
+    <StiPanelUI>Групира други контроли в една област.</StiPanelUI>
+    <StiPdfDigitalSignature>Отбелязва мястото на цифровия подпис в PDF.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>Отбелязва мястото на цифровия подпис в PDF.</StiPdfDigitalSignatureElement>
+    <StiPivotTableElement>Показва структурирани данни като pivot таблица.</StiPivotTableElement>
+    <StiProgressElement>Показва стойност като част от цялото.</StiProgressElement>
+    <StiRadioGroupUI>Предлага опции за избор на една от тях.</StiRadioGroupUI>
+    <StiRangeSelectorElement>Избира диапазон по скала или времева линия.</StiRangeSelectorElement>
+    <StiRangeSliderUI>Задава диапазон по скала.</StiRangeSliderUI>
+    <StiRectanglePrimitive>Чертае правоъгълник.</StiRectanglePrimitive>
+    <StiRegionMapElement>Показва данни на карта на региони.</StiRegionMapElement>
+    <StiReportSummaryBand>Извежда се веднъж в края на отчета.</StiReportSummaryBand>
+    <StiReportTitleBand>Извежда се веднъж в началото на отчета.</StiReportTitleBand>
+    <StiRichText>Показва форматиран RTF текст.</StiRichText>
+    <StiRoundedRectanglePrimitive>Чертае закръглен правоъгълник.</StiRoundedRectanglePrimitive>
+    <StiScreen>Съдържа контролите на страница от приложение.</StiScreen>
+    <StiSelectUI>Показва падащ списък за избор на една стойност.</StiSelectUI>
+    <StiShape>Показва готова форма.</StiShape>
+    <StiShapeElement>Показва готова форма.</StiShapeElement>
+    <StiSignature>Добавя електронен или цифров подпис.</StiSignature>
+    <StiSliderUI>Задава стойност по скала.</StiSliderUI>
+    <StiSparkline>Показва малка диаграма на серия от данни.</StiSparkline>
+    <StiSubReport>Извежда друг отчет или страница на това място.</StiSubReport>
+    <StiSwitchUI>Включва или изключва настройка.</StiSwitchUI>
+    <StiTable>Показва данни в редове и колони.</StiTable>
+    <StiTableElement>Показва данни в редове и колони.</StiTableElement>
+    <StiTableOfContents>Съставя съдържанието.</StiTableOfContents>
+    <StiTableUI>Показва данни в редове и колони.</StiTableUI>
+    <StiText>Показва данни като текст.</StiText>
+    <StiTextElement>Показва данни като текст.</StiTextElement>
+    <StiTextInCells>Показва текст по един знак в клетка.</StiTextInCells>
+    <StiTextInputUI>Приема текст от потребителя.</StiTextInputUI>
+    <StiTreeViewBoxElement>Избира стойности от падащо дърво.</StiTreeViewBoxElement>
+    <StiTreeViewElement>Показва йерархични данни като дърво.</StiTreeViewElement>
+    <StiVerticalLinePrimitive>Чертае вертикална линия.</StiVerticalLinePrimitive>
+    <StiWebContentElement>Показва уеб съдържание.</StiWebContentElement>
+    <StiWinControl>Показва визуален .NET контрол.</StiWinControl>
+    <StiZipCode>Показва ZIP код.</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
     <ActiveRelation>Задава връзката за приоритет за свързване на две таблици. Използва се в Трансформацията на Данни и Табла за Управление. Само една връзка във всеки източник на данни може да бъде активна.</ActiveRelation>
-    <Align>Сменя разположението на избраните компоненти.</Align>
-    <AlignBottom>Подравнява съдържанието на компонента отдолу.</AlignBottom>
-    <AlignCenter>Подравнява съдържанието на компонента централно по хоризонтала.</AlignCenter>
+    <Align>Подравняване на избраните компоненти.</Align>
+    <AlignBottom>Подравняване на съдържанието отдолу.</AlignBottom>
+    <AlignCenter>Подравняване на съдържанието в центъра.</AlignCenter>
     <AlignComponentBottom>Позволява подравняването на компонентите хоризонтално по протежението на долния край на избраните компоненти.</AlignComponentBottom>
     <AlignComponentCenter>Позволява подравняването на обекти хоризонтално по отношение на центъра на избраните компоненти.</AlignComponentCenter>
     <AlignComponentLeft>Позволява подравняването на обекти вертикално по отношение на левия край на избраните компоненти.</AlignComponentLeft>
     <AlignComponentMiddle>Позволява подравняването на обекти вертикално по отношение на центъра на избраните компоненти.</AlignComponentMiddle>
     <AlignComponentRight>Позволява подравняването на обекти вертикално по отношение на десния на избраните компоненти.</AlignComponentRight>
     <AlignComponentTop>Позволява подравняването на обекти хоризонтално по отношение на горния край на избраните компоненти.</AlignComponentTop>
-    <AlignLeft>Подравнява съдържанието на компонента отляво.</AlignLeft>
-    <AlignMiddle>Центрира съдржанието по отношение на горната долната граница на компонента.</AlignMiddle>
-    <AlignRight>Подравнява съдържанието на компонента отдясно.</AlignRight>
-    <AlignToGrid>Подравнява избрания компонент по възлите на мрежата.</AlignToGrid>
-    <AlignTop>Подравнява съдържанието на компонента отгоре.</AlignTop>
-    <AlignWidth>Подравнява съдържанието по ширина.</AlignWidth>
-    <Angle>Завърта съдържанието на компонента.</Angle>
+    <AlignLeft>Подравняване на съдържанието отляво.</AlignLeft>
+    <AlignMiddle>Подравняване на съдържанието по средата.</AlignMiddle>
+    <AlignRight>Подравняване на съдържанието отдясно.</AlignRight>
+    <AlignToGrid>Подравняване на избраните компоненти по мрежа.</AlignToGrid>
+    <AlignTop>Подравняване на съдържанието отгоре.</AlignTop>
+    <AlignWidth>Подравняване на съдържанието по ширина.</AlignWidth>
+    <Angle>Завъртане на текста.</Angle>
     <AngleWatermark>Ъгъл на ротация на воден знак.</AngleWatermark>
-    <Background>Променя фона на избрания компонент.</Background>
-    <biConditions>Контролен списък от условия на избраните компоненти.</biConditions>
-    <BorderColor>Изберете цвят на граница на избрания компонент.</BorderColor>
-    <BorderSidesAll>Включи всички граници на избраните компоненти.</BorderSidesAll>
-    <BorderSidesBottom>Включи долната граница на избраните компоненти.</BorderSidesBottom>
-    <BorderSidesLeft>Включи лявата граница на избраните компоненти.</BorderSidesLeft>
-    <BorderSidesNone>Изключи всички граници на избраните обекти.</BorderSidesNone>
-    <BorderSidesRight>Включи дясната граница на избраните компоненти.</BorderSidesRight>
-    <BorderSidesTop>Включи горната граница на избраните компоненти.</BorderSidesTop>
-    <BorderStyle>Изберете стил на границата на избраните компоненти.</BorderStyle>
-    <BringToFront>Премести избраните компоненти на върха.</BringToFront>
+    <Background>Промяна на фона.</Background>
+    <biConditions>Редактиране на условията.</biConditions>
+    <BorderColor>Промяна на цвета на границата.</BorderColor>
+    <BorderSidesAll>Показване на всички граници.</BorderSidesAll>
+    <BorderSidesBottom>Показване или скриване на долната граница.</BorderSidesBottom>
+    <BorderSidesLeft>Показване или скриване на лявата граница.</BorderSidesLeft>
+    <BorderSidesNone>Скриване на всички граници.</BorderSidesNone>
+    <BorderSidesRight>Показване или скриване на дясната граница.</BorderSidesRight>
+    <BorderSidesTop>Показване или скриване на горната граница.</BorderSidesTop>
+    <BorderStyle>Промяна на стила на границата.</BorderStyle>
+    <BringToFront>Преместване на преден план.</BringToFront>
     <CenterHorizontally>Allows you to align a component horizontally relative to container edges in what it is placed.</CenterHorizontally>
     <CenterVertically>Allows you to align a component vertically relative to container edges in what it is placed.</CenterVertically>
     <Close>Затвори дизайнера на отчета.</Close>
-    <Columns>Разделите страницата на колони.</Columns>
+    <Columns>Разделяне на страницата на колони.</Columns>
     <CompilationAccess1>Този документ използва процеса на компилация. Ако документът е от доверен източник, можете да щракнете върху бутона "Отвори", за да го достъпите.</CompilationAccess1>
     <CompilationAccess2>Ако не сте сигурни за източника на документа, но все пак искате да го видите, можете да щракнете върху бутона „Отваряне в безопасен режим“. В този случай ще използвате интерпретация вместо компилация, което ви позволява да изпълните документа безопасно.</CompilationAccess2>
     <CompilationAccess3>Този документ използва процеса на компилиране и може да бъде опасен. Не можеш да го отвориш.</CompilationAccess3>
@@ -2191,15 +2194,15 @@
     <CompilationAccessForceInterpretation>Документите с компилация ще бъдат отворени без подкана, но ще бъдат автоматично преобразувани в режим на интерпретация, който не използва процеса на компилация.</CompilationAccessForceInterpretation>
     <CompilationAccessTitle>Документът използва компилация</CompilationAccessTitle>
     <CompilationModeEnabling>Превключвате в режим на компилация. Този режим позволява да се изпълнява различен код и понякога може да бъде вреден. Моля, използвайте този режим само ако разбирате всички рискове и сте съгласни с тях. Щракнете върху бутона {0}, за да продължите.</CompilationModeEnabling>
-    <ComponentSize>Промяна размера на избраните компоненти.</ComponentSize>
-    <ComponentsMenu>Отваря менюто Компоненти, съдържащо неизползвани елементи на таблото за управление на мобилната повърхност.</ComponentsMenu>
-    <CopyStyle>Копирай Стил</CopyStyle>
+    <ComponentSize>Преоразмеряване на избраните компоненти.</ComponentSize>
+    <ComponentsMenu>Показване на неизползваните елементи.</ComponentsMenu>
+    <CopyStyle>Копиране на стила върху други компоненти.</CopyStyle>
     <CopyToClipboard>Копирай в клипборда</CopyToClipboard>
-    <CurrencySymbol>Изберете символа валута.</CurrencySymbol>
+    <CurrencySymbol>Избор на символа за валута.</CurrencySymbol>
     <DashboardNew>Създайте ново табло за управление.</DashboardNew>
     <DataStore>Показване на данните, регистрирани в отчета.</DataStore>
-    <DateTimeFormat>Изберете формата на дата и час за избраните компоненти.</DateTimeFormat>
-    <DockingPanels>Настройка на панел.</DockingPanels>
+    <DateTimeFormat>Избор на формата за дата и час.</DateTimeFormat>
+    <DockingPanels>Показване или скриване на панелите.</DockingPanels>
     <DockStyleBottom>Dock selected components to bottom side.</DockStyleBottom>
     <DockStyleFill>Dock selected components to all sides.</DockStyleFill>
     <DockStyleLeft>Dock selected components to the left side.</DockStyleLeft>
@@ -2208,18 +2211,18 @@
     <DockStyleTop>Dock selected components to the top side.</DockStyleTop>
     <EventsAccess1>Този документ използва събития. Ако документът е от доверен източник, можете да щракнете върху бутона "Отвори", за да го получите.</EventsAccess1>
     <EventsAccess2>Ако не сте сигурни за източника на документа, но все пак искате да го видите, можете да щракнете върху бутона „Отваряне в безопасен режим“. В този случай събитията ще бъдат игнорирани и няма да бъдат изпълнени.</EventsAccess2>
-    <FontGrow>Уголемява размера на текста.</FontGrow>
-    <FontName>Шрифт на текст.</FontName>
+    <FontGrow>Уголемяване на текста.</FontGrow>
+    <FontName>Промяна на шрифта на текста.</FontName>
     <FontNameWatermark>Шрифт на текст на воден знак.</FontNameWatermark>
-    <FontShrink>Намаляване размера на текста.</FontShrink>
-    <FontSize>Рамер на шрифт.</FontSize>
+    <FontShrink>Намаляване на текста.</FontShrink>
+    <FontSize>Промяна на размера на текста.</FontSize>
     <FontSizeWatermark>Промяна размера на шрифта.</FontSizeWatermark>
-    <FontStyleBold>Удебеляване на текст.</FontStyleBold>
+    <FontStyleBold>Удебеляване на текста.</FontStyleBold>
     <FontStyleBoldWatermark>Удебеляване текста на водния знак.</FontStyleBoldWatermark>
-    <FontStyleItalic>Курсивен текст.</FontStyleItalic>
+    <FontStyleItalic>Изписване на текста в курсив.</FontStyleItalic>
     <FontStyleItalicWatermark>Курсивен текст на воден знак.</FontStyleItalicWatermark>
-    <FontStyleStrikeout>Направете зачертаване на текста .</FontStyleStrikeout>
-    <FontStyleUnderline>Подчертан текст.</FontStyleUnderline>
+    <FontStyleStrikeout>Зачеркване на текста.</FontStyleStrikeout>
+    <FontStyleUnderline>Подчертаване на текста.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Подчертаване на текст на воден знак.</FontStyleUnderlineWatermark>
     <FormatBoolean>Този формат се използва за форматиране на стойности от Булев тип.</FormatBoolean>
     <FormatCurrency>Показване на стойността като валута. Позволява показването на числото с текущия символ на валута.</FormatCurrency>
@@ -2230,61 +2233,61 @@
     <FormatPercentage>Показване на стойността като процент. Числата се уможават по 100 за да се преобразуват в процент.</FormatPercentage>
     <FormatTime>Показване на стойността като час. Формата се базира на регионалните настройки.</FormatTime>
     <FormNew>Създаване на нова диалогова форма.</FormNew>
-    <GridMode>Покзаване на мрежата като линии или точки.</GridMode>
+    <GridMode>Показване на мрежата като линии или точки.</GridMode>
     <ImageAlignment>Поставяне на картинка за воден знак.</ImageAlignment>
     <ImageTransparency>Промена прозрачността на картинката на водния знак.</ImageTransparency>
-    <Interaction>Контрол взаимодействието на избраните компоненти.</Interaction>
-    <LineSpacing>Изберете колко място се намира между редовете на текста или между параграфите.</LineSpacing>
-    <Link>Свързване компонента към текущия контейнер.</Link>
+    <Interaction>Настройка на взаимодействието.</Interaction>
+    <LineSpacing>Промяна на разстоянието между редовете.</LineSpacing>
+    <Link>Свързване с контейнера.</Link>
     <LoadImage>Зарежда картинка като воден знак от файл.</LoadImage>
-    <Lock>Заключване на компонента. Компонента не може да се мести и оразмерява.</Lock>
-    <MainMenu>Натиснете тук за да видите списъка от възможните операции в отчета, включително отваряне, затваряне и преглеждане.</MainMenu>
+    <Lock>Заключване на позицията и размера.</Lock>
+    <MainMenu>Създаване, отваряне или съхраняване на отчет.</MainMenu>
     <MakeHorizontalSpacingEqual>Позволява установяване на равни хоризинтални разстояния между избраните компоненти.</MakeHorizontalSpacingEqual>
     <MakeVerticalSpacingEqual>Позволява установяване на равни верикални разстояния между избраните компоненти.</MakeVerticalSpacingEqual>
-    <Margins>Изберете размера на полетата на текущата страница.</Margins>
+    <Margins>Избор на полетата на страницата.</Margins>
     <menuCheckIssues>Проверка на отчета за намиране на грешки, предупреждения и предложения.</menuCheckIssues>
     <menuDesignerOptions>Настройка на опции за дизайнер на отчета.</menuDesignerOptions>
     <menuEditClearContents>Изчистване на съдържанието.</menuEditClearContents>
-    <menuEditCopy>Копира избраните компоненти и ги поставя в Клипборд.</menuEditCopy>
-    <menuEditCut>Изрязва избраните компоненти от отчета и ги поставя в Клипборд.</menuEditCut>
+    <menuEditCopy>Копиране на избраните компоненти.</menuEditCopy>
+    <menuEditCut>Изрязване на избраните компоненти.</menuEditCut>
     <menuEditDelete>Изтриване на избраните компоненти.</menuEditDelete>
-    <menuEditPaste>Поставяне на съдържанието от  Клипборд в отчета.</menuEditPaste>
-    <menuExportSettings>Отваря редактора за настройки за експортиране за текущия отчет или табло. Настройките се прилагат само при експортиране на текущия отчет или табло.</menuExportSettings>
+    <menuEditPaste>Поставяне от клипборда.</menuEditPaste>
+    <menuExportSettings>Смяна на настройките за експорт.</menuExportSettings>
     <menuFAQPage>Отидете в интернет старницата с често задавани въпроси.</menuFAQPage>
-    <menuGlobalizationStrings>Извикване на редактора за глобални настройки на текущия отчет.</menuGlobalizationStrings>
+    <menuGlobalizationStrings>Редактиране на низовете за глобализация.</menuGlobalizationStrings>
     <menuHelpAboutProgramm>Информация за генератора на отчета и версията на .NET.</menuHelpAboutProgramm>
     <menuHomePage>Преход към страницата на продукта.</menuHomePage>
     <menuPageOptions>Настройка на основните параметри на текущата страница. Всички опции на страницата могат да се променят с използване на панела за свойства.</menuPageOptions>
     <menuPagesManager>Стартиране на менажера на стрниците. Позволява преместване, изтриване и създаване на нови страници.</menuPagesManager>
-    <menuPreviewSettings>Извикване на редактора за настройка на предварителен преглед на отчета. Настройките ще са в сила само при преглед на текущия отчет.</menuPreviewSettings>
+    <menuPreviewSettings>Смяна на настройките на прегледа.</menuPreviewSettings>
     <menuPrint>Изберете принтер, брой копия и други настройки преди отпечатване.</menuPrint>
     <menuPrintPreview>Преглед на отчета преди отпечатване.</menuPrintPreview>
     <menuPrintQuick>Отпечатване на отчета директно в принтера по подразбиране. Не се извежда диалог преди отпечатване.</menuPrintQuick>
-    <menuReportOptions>Настройка на основни свойства на отчета. Всички свойства могат да се променят с използване на панела свойства.</menuReportOptions>
+    <menuReportOptions>Смяна на опциите на отчета.</menuReportOptions>
     <menuStyleDesigner>Извиква дизайнер стил на текущия отчет.</menuStyleDesigner>
     <menuSupport>Преход към страницата за поддръжка за въпроси.</menuSupport>
-    <menuViewAlignToGrid>Подравняване по мрежа.</menuViewAlignToGrid>
+    <menuViewAlignToGrid>Подравняване на компонентите по мрежа.</menuViewAlignToGrid>
     <menuViewNormal>Нормален преглед на страница.</menuViewNormal>
     <menuViewPageBreakPreview>Режим на показване на очертанията на сегментите.</menuViewPageBreakPreview>
-    <menuViewQuickInfo>Показване на бърза информация за компонентите:име, псевдоним, съдържаниеs, събития и др.</menuViewQuickInfo>
-    <menuViewShowGrid>Включване на линиите на мрежата по които могат да се подравняват обектите на отчета.</menuViewShowGrid>
-    <menuViewShowHeaders>Показване не заглавията на секциите.</menuViewShowHeaders>
-    <menuViewShowOrder>Показване на реда на компонентите в страницата.</menuViewShowOrder>
-    <menuViewShowRulers>Показване на размерните линии за измерване и подравняване на обектите в страницата.</menuViewShowRulers>
-    <menuViewShowSmartGuides>Показване на интелигентни упътвания за позициониране на компонентите един спрямо друг.</menuViewShowSmartGuides>
-    <MoveBackward>Преместване на компонента едно ниво нагоре в реда на разместване на компонентите на страницата.</MoveBackward>
-    <MoveForward>Преместване на компонента едно ниво надолу в реда на разместване на компонентите на страницата.</MoveForward>
+    <menuViewQuickInfo>Показване на бърза информация за компонентите.</menuViewQuickInfo>
+    <menuViewShowGrid>Показване на мрежата.</menuViewShowGrid>
+    <menuViewShowHeaders>Показване на заглавията на секциите.</menuViewShowHeaders>
+    <menuViewShowOrder>Показване на реда на компонентите.</menuViewShowOrder>
+    <menuViewShowRulers>Показване на размерните линии.</menuViewShowRulers>
+    <menuViewShowSmartGuides>Показване на интелигентните упътвания.</menuViewShowSmartGuides>
+    <MoveBackward>Преместване с едно ниво назад.</MoveBackward>
+    <MoveForward>Преместване с едно ниво напред.</MoveForward>
     <NotPossibleEnableCompilationMode>Невъзможно е да се активира режим на компилация за отчета. Това е забранено от опцията 'Достъп до компилация' в настройките на дизайнера.</NotPossibleEnableCompilationMode>
-    <Orientation>Превключване между портретно и пейзажно странично ориентиране.</Orientation>
+    <Orientation>Превключване между портрет и пейзаж.</Orientation>
     <PageDelete>Изтриване на текъщата страница от отчета.</PageDelete>
     <PageNew>Създаване на нова страница.</PageNew>
-    <PageSetup>Показване на диалогов прозорец за настройка на страница.</PageSetup>
-    <PageSize>Изберете размера на хартията на текущата страница на отчета.</PageSize>
+    <PageSetup>Смяна на настройките на страницата.</PageSetup>
+    <PageSize>Избор на размера на хартията.</PageSize>
     <PagesManager>Стартира менажер на страници.</PagesManager>
     <PressF1>Натисни  F1 за подробности</PressF1>
-    <PropertiesButton>Активира панела Свойства със свойствата на шаблона за отчет.</PropertiesButton>
+    <PropertiesButton>Показване на свойствата на отчета.</PropertiesButton>
     <Redo>Връщане на по-рано отменената промяна в отчета.</Redo>
-    <RemoveMobileSurfaceButton>Премахва мобилната повърхност от текущото табло за управление.</RemoveMobileSurfaceButton>
+    <RemoveMobileSurfaceButton>Премахване на мобилната повърхност.</RemoveMobileSurfaceButton>
     <ReportNew>Създаване на нов отчет.</ReportNew>
     <ReportOpen>Отваряне на отчета в дизайнера.</ReportOpen>
     <ReportPreview>Предварителен преглед на редактирания отчет.</ReportPreview>
@@ -2296,46 +2299,47 @@
     <ScriptSecuritySafeMode>Безопасен достъп до скриптове (ограничени възможности за сигурност).</ScriptSecuritySafeMode>
     <SelectAll>Избиране на всички компоненти от текущата страница.</SelectAll>
     <SelectUILanguage>Изберете език на интерфейса.</SelectUILanguage>
-    <SendToBack>Преместване на избрания компонент обратно относно другите компоненти.</SendToBack>
+    <SendToBack>Преместване на заден план.</SendToBack>
     <ServicesConfigurator>Стартиране на конфигуратора на сервизи.</ServicesConfigurator>
-    <Shadow>Показване на сянката на компонента.</Shadow>
+    <Shadow>Показване или скриване на сянката.</Shadow>
     <ShowBehind>Показване на текста на водния знак зад компонентите.</ShowBehind>
     <ShowImageBehind>Поставяне на картинка на воден знак за всички компоненти в страницата.</ShowImageBehind>
     <ShowToolbox>Показване на инструментариум.</ShowToolbox>
     <StimulsoftHelp>Stimulsoft помощ</StimulsoftHelp>
-    <StyleDesigner>Стартиране на дизайнер на стил.</StyleDesigner>
+    <StyleDesigner>Отваряне на дизайнера на стилове.</StyleDesigner>
     <TellMeMore>Кажи ми още</TellMeMore>
     <Text>Текст на воден знак.</Text>
     <TextBrush>Промяна на цвета на текста.</TextBrush>
     <TextBrushWatermark>Промяна на цвета на текста на воден знак.</TextBrushWatermark>
     <TextColor>Промяна на цвета на текста.</TextColor>
-    <TextFormat>Избиране на форматиране за стойности.</TextFormat>
+    <TextFormat>Избор на формата на стойностите.</TextFormat>
     <ToolbarStyle>Прилагане на избрания стил за всички компоненти.</ToolbarStyle>
     <Undo>Отмяна на последното изменение в отчета.</Undo>
-    <ViewModeDesktopButton>Активира повърхността за работен плот.</ViewModeDesktopButton>
-    <ViewModeMobileButton>Активира мобилната повърхност (Surface).</ViewModeMobileButton>
-    <WordWrap>Пренасяне на текста на компонента.</WordWrap>
+    <ViewModeDesktopButton>Показване на повърхността за работен плот.</ViewModeDesktopButton>
+    <ViewModeMobileButton>Показване на мобилната повърхност.</ViewModeMobileButton>
+    <Watermark>Смяна на настройките на водния знак.</Watermark>
+    <WordWrap>Пренасяне на текста.</WordWrap>
     <Zoom>Определяне на нивото на мащабиране в отчета.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
-    <StiButtonControl>Представя елемент за управление на бутони.</StiButtonControl>
-    <StiCheckBoxControl>Представя елемен за управление на флагове.</StiCheckBoxControl>
-    <StiCheckedListBoxControl>Показва списъка от обекти с флаг на лявата част на всяка колона.</StiCheckedListBoxControl>
-    <StiComboBoxControl>Преставлява списък, който се използва както за въвеждане на на стойност директно в контрола, така и с възможност за избор от съществуващи опции.</StiComboBoxControl>
-    <StiDateTimePickerControl>Представлява елемент за управление, който позволява избиране на дата и час и да ги изобразява в определения формат.</StiDateTimePickerControl>
-    <StiGridControl>Представлява област от мрежа, която съдържа редове и колони.</StiGridControl>
-    <StiGroupBoxControl>Представлява елемент за управление създаващ контейнери със граници и заглавия за UI съдържанието.</StiGroupBoxControl>
-    <StiLabelControl>Етикета е елемент, който показва текст във форма. Това  обикновенно е статичен елемент.</StiLabelControl>
-    <StiListBoxControl>Съдържа списъка от елементи за избор.</StiListBoxControl>
-    <StiListViewControl>Представлява елемент за управление изобразяващ списъка от елементите с данни.</StiListViewControl>
-    <StiLookUpBoxControl>Съдържа списъка от елементите за избор.</StiLookUpBoxControl>
-    <StiNumericUpDownControl>Представлява елемент за управление показващ цифрови стойности.</StiNumericUpDownControl>
-    <StiPanelControl>Елементите Панел се използват за разместване и подреждане на обекти.</StiPanelControl>
-    <StiPictureBoxControl>Представлява елемент за управление показващ картинка.</StiPictureBoxControl>
-    <StiRadioButtonControl>Представлява елемент за управление радио бутон, който позволява на потребителя да избира само една от множество предефинирани стойности.</StiRadioButtonControl>
-    <StiRichTextBoxControl>Представлява елемент за управление RichText с разширено редактиране.</StiRichTextBoxControl>
-    <StiTextBoxControl>Представлява текстови елемент за управление на текст с възможност за показване и редактиране на текст.</StiTextBoxControl>
-    <StiTreeViewControl>Представлява елемент за управление използван за показване на йерархични данни като дърво.</StiTreeViewControl>
+    <StiButtonControl>Изпълнява действие при щракване.</StiButtonControl>
+    <StiCheckBoxControl>Включва или изключва една опция.</StiCheckBoxControl>
+    <StiCheckedListBoxControl>Показва списък с поле за отметка за всеки елемент.</StiCheckedListBoxControl>
+    <StiComboBoxControl>Показва падащ списък за избор или въвеждане.</StiComboBoxControl>
+    <StiDateTimePickerControl>Показва календар за избор на дата и час.</StiDateTimePickerControl>
+    <StiGridControl>Показва данни в редове и колони.</StiGridControl>
+    <StiGroupBoxControl>Групира контроли в рамка със заглавие.</StiGroupBoxControl>
+    <StiLabelControl>Показва текст във формата.</StiLabelControl>
+    <StiListBoxControl>Показва списък за избор на елементи.</StiListBoxControl>
+    <StiListViewControl>Показва списък от елементи с данни.</StiListViewControl>
+    <StiLookUpBoxControl>Показва падащ списък за избор на елемент.</StiLookUpBoxControl>
+    <StiNumericUpDownControl>Приема число, с бутони за промяната му.</StiNumericUpDownControl>
+    <StiPanelControl>Групира други контроли в една област.</StiPanelControl>
+    <StiPictureBoxControl>Показва картинка.</StiPictureBoxControl>
+    <StiRadioButtonControl>Избира една опция от група.</StiRadioButtonControl>
+    <StiRichTextBoxControl>Показва и редактира форматиран текст.</StiRichTextBoxControl>
+    <StiTextBoxControl>Показва и редактира текст.</StiTextBoxControl>
+    <StiTreeViewControl>Показва йерархични данни като дърво.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
     <AddPageBreaks>Визуален разделител на страниците на отчета.</AddPageBreaks>

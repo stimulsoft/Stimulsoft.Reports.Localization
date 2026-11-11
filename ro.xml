@@ -2073,136 +2073,139 @@
     <sys_morebuttons>Mai multe butoane</sys_morebuttons>
   </Gui>
   <HelpComponents>
-    <StiBarCode>Această componentă permite afişarea codurilor de bare într-un raport.Datele pentru codul de bare sunt trimise către obiect,ca un şir de caractere. Şirul poate conţine orice simbol,dar vor fi afişate doar cele permise pentru diagrama aleasă.</StiBarCode>
-    <StiButtonElement>Această componentă este folosită pentru a executa un script de eveniment atunci când un utilizator interacționează.</StiButtonElement>
-    <StiButtonUI>Un buton utilizat pentru a declanșa o acțiune sau a iniția o comandă.</StiButtonUI>
-    <StiCardsElement>Această componentă este utilizată pentru afișarea datelor grupate sub formă de carduri.</StiCardsElement>
-    <StiChart>Această componentă permite afişarea diagramelor intr-un raport. Sunt disponibile diverse tipuri de diagrame.Dintre acestea : bar, linie, placintă, gogoaşă, linii, arii, Gantt, diagrame impraştiate etc. </StiChart>
-    <StiChartElement>Acest element permite afișarea diagramelor într-un panou de control. Diferite tipuri de diagrame sunt disponibile.</StiChartElement>
-    <StiCheckBox>Această componentă permite afişarea unei casuţe cu bifă intr-un raport. Aceasta poate fi afişată în doua moduri :"activată" sau "dezactivată".</StiCheckBox>
-    <StiCheckBoxGroupUI>Un grup de casete de bifare utilizat pentru a selecta mai multe opțiuni predefinite dintr-o listă.</StiCheckBoxGroupUI>
-    <StiCheckBoxUI>O casetă de bifare utilizată pentru a activa sau dezactiva rapid o singură opțiune.</StiCheckBoxUI>
-    <StiChildBand>Banda Child se poate utiliza pentru a se obţine două benzi pentru un singur rând de date.</StiChildBand>
-    <StiClone>Această componentă este folosită pentru a clona părţi ale raportului în una dorită. Clonarea poate fi aplicată doar conţinutului unui panel.</StiClone>
-    <StiColumnFooterBand>Această bandă este folosită pentru a se afişa subsoluri de coloane în Banda de Date. Banda ColumnFooter este afişată o dată sub fiecare coloană.Toate componentele puse în această bandă vor fi,de asemenea,afişate pentru fiecare coloană.</StiColumnFooterBand>
-    <StiColumnHeaderBand>Această bandă este folosită pentru antetele de coloană. Banda ColumnHeader este utlizată pentru o singură afişare. Toate componentele puse în această bandă pot fi afişate sub fiecare coloană.</StiColumnHeaderBand>
-    <StiComboBoxElement>Reprezintă Controlul Selecție folosit fie pentru a introduce o valoare direct în control, fie pentru a alege din lista opțiunilor existente.</StiComboBoxElement>
-    <StiContainer>Aceasta este o regiune dreptunghiulară în care pot fi incluse alte componente, inclusiv benzi.Când containerul este mutat,sunt mutate de asemenea şi componentele.Containerul poate fi pus atât pe banda de date cât şi pe pagină.</StiContainer>
-    <StiCrossDataBand>Această bandă este conectată la sursa de date. Este afişată de atâtea ori câte înregistrari sunt în sursa de date. O bandă CrossData este afişată de la stânga la dreapta.</StiCrossDataBand>
-    <StiCrossFooterBand>Această bandă este folosită pentru afişarea subsolurilor unei benzi încrucişate. Această bandă este afişata o dată după toate rândurile benzii de date. O bandă CrossData este afişată de la stânga la dreapata.</StiCrossFooterBand>
-    <StiCrossGroupFooterBand>Această bandă este folosită pentru afişarea subsolurilor unui grup. Se găseşte sub banda CrossData. Fiecare bandă CrossFooter aparţine unei benzi specifice de tip CrossHeader. O bandă Cross este afişată de la stânga la dreapta.</StiCrossGroupFooterBand>
-    <StiCrossGroupHeaderBand>Această bandă este una de bază pentru redarea unui raport cu grupări, cand se foloseşte CrossData. Este imposibil de a crea grupare fără această bandă.Componentele pentru afişarea informaţiei se plasează pe antetul de grup. Informaţia poate fi: nume de grup,data,condiţie de grupare etc. Banda este afişată la începutul fiecarui grup. O bandă Cross este afişată de la stânga la dreapta.</StiCrossGroupHeaderBand>
-    <StiCrossHeaderBand>Această bandă este folosită pentru afişarea anteturilor. Este folosită împreună cu banda Cross. O bandă Cross este afişată de la stânga la dreapata.</StiCrossHeaderBand>
-    <StiCrossTab>Componenta cross-tab este folosită pentru structurarea datelor sub forma unui tabel.</StiCrossTab>
-    <StiDataBand>Banda de date este conectată la sursa de date şi este afişată de atâtea ori câte înregistrari sunt în sursa de date.</StiDataBand>
-    <StiDatePickerElement>Elementul este utilizat pentru a selecta data și ora.</StiDatePickerElement>
-    <StiDatePickerUI>Un selector de dată utilizat pentru a alege o dată dintr-un calendar.</StiDatePickerUI>
-    <StiElectronicSignature>Această componentă este utilizată pentru a adăuga o semnătură grafică, o imagine, inițiale și text.</StiElectronicSignature>
-    <StiEmptyBand>Această bandă este folosită pentru umplerea spaţiului liber din subsolul unei pagini. Aceasta bandă umple spaţiul liber pe fiecare pagină a raportului.</StiEmptyBand>
-    <StiFilterCategory>Un grup de elemente utilizate pentru selectarea și filtrarea valorilor.</StiFilterCategory>
-    <StiFooterBand>Această bandă este folosită pentru afişarea rezumatului din banda de date.Aceasta se găseşte sub banda de date şi este afişată o singură dată dupa ce sunt afişate toate înregistrarile din banda de date.</StiFooterBand>
-    <StiGauge>Componenta vă permite să afișați o valoare într-un interval predefinit.Poate avea reprezentare grafică diferită.</StiGauge>
-    <StiGaugeElement>Elementul vă permite să afișați o valoare într-un interval predefinit. Poate avea o reprezentare grafică diferită.</StiGaugeElement>
-    <StiGroupFooterBand>Banda GroupFooter este folosită pentru afişarea unui subsol de grup.Această bandă se găseşte după banda de date şi este banda de date cu care este legată o bandă GroupHeader.Fiecare bandă GroupFooter aparţine unei benzi GroupHeader specifice. Banda GroupFooter nu va fi afişată fără banda GroupHeader.</StiGroupFooterBand>
-    <StiGroupHeaderBand>Această bandă este una de bază pentru redarea unui raport cu grupări. Componentele pentru afişarea informaţiei din acest grup sunt plasate în antetul grupului. Informaţia poate fi: nume de grup,data,condiţie de grupare etc. Banda este afişată o singură dată la începutul fiecarui grup.</StiGroupHeaderBand>
-    <StiHeaderBand>Această bandă este folosită pentru afişarea anteturilor. Este folosită împreună cu banda de date.</StiHeaderBand>
-    <StiHierarchicalBand>Această bandă este conectată la sursa de date şi este afişată de atâtea ori câte înregistrari sunt în sursa de date.Datele sunt afişate arborescent.</StiHierarchicalBand>
-    <StiHorizontalLinePrimitive>Această componentă este folosită pentru afişarea unei linii.</StiHorizontalLinePrimitive>
-    <StiIconUI>O pictogramă utilizată pentru a afișa un element grafic simbolic sau un marcaj vizual.</StiIconUI>
-    <StiImage>Această componentă este folosită pentru a afişa imagini. Suportă următoarele formate grafice cum ar fi  BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
-    <StiImageElement>Acest element este folosit pentru a scoate imagini. Acceptă următoarele formate grafice, cum ar fi: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImageElement>
-    <StiImageUI>O imagine utilizată pentru a afișa conținut grafic în cadrul interfeței.</StiImageUI>
-    <StiIndicatorElement>Elementul afișează diferența de valori dintre datele de intrare.</StiIndicatorElement>
-    <StiLabelUI>O etichetă utilizată pentru afișarea de text sau de legende scurte.</StiLabelUI>
-    <StiListBoxElement>Elementul permite selectarea elementelor dintr-o listă.</StiListBoxElement>
-    <StiListUI>O listă utilizată pentru a afișa elemente selectabile într-o dispunere verticală.</StiListUI>
-    <StiMap>Această componentă este utilizată pentru afișarea datelor direcționate geografic.</StiMap>
-    <StiMapCategory>Grup de elemente pentru lucrul cu hărți și date.</StiMapCategory>
-    <StiMapElement>Acest element este utilizat pentru afișarea datelor direcționate din punct de vedere geografic.</StiMapElement>
-    <StiMarkdown>Această componentă este utilizată pentru a reda text Markdown CommonMark / GFM într-un raport.</StiMarkdown>
-    <StiMathFormula>Această componentă este utilizată pentru a afișa formule matematice într-un raport.</StiMathFormula>
-    <StiMultiListUI>O listă utilizată pentru a selecta mai multe elemente din aceeași colecție.</StiMultiListUI>
-    <StiMultiSelectUI>Un selector utilizat pentru a alege mai multe valori dintr-o listă pregătită.</StiMultiSelectUI>
-    <StiNumberBoxElement>Acest element este utilizat pentru a selecta o valoare numerică sau pentru a seta un interval de valori numerice.</StiNumberBoxElement>
-    <StiNumberInputUI>Un câmp utilizat pentru introducerea valorilor numerice cu control al datelor de intrare.</StiNumberInputUI>
-    <StiOnlineMapElement>Acest element este utilizat pentru a afișa marcaje geografice pe harta online.</StiOnlineMapElement>
-    <StiOverlayBand>Această bandă este folosită pentru afişare watermark-uri pe o pagină.</StiOverlayBand>
-    <StiPageFooterBand>Această bandă este folosită pentru afişare informatii în subsolul fiecărei pagini cum ar fi număr pagină,data şi alte informaţii adiţionale.</StiPageFooterBand>
-    <StiPageHeaderBand>Această bandă este folosită pentru afişarea în antetul de pagină a informaţiilor cum ar fi număr pagină,data şi alte informaţii adiţionale.Este afişată în partea de sus a fiecărei pagini.</StiPageHeaderBand>
-    <StiPanel>Aceasta este o regiune dreptunghiulară în care pot fi incluse alte componente, inclusiv benzi.Când panel-ul este mutat,sunt mutate de asemenea şi componentele.Panel-ul poate fi pus atât pe banda de date cât şi pe pagină.</StiPanel>
-    <StiPanelElement>O regiune dreptunghiulară care poate conține alte elemente. Când panoul este mutat, elementele din el sunt mutate.</StiPanelElement>
-    <StiPanelUI>Un panou utilizat pentru a grupa și aranja alte controale într-o singură zonă.</StiPanelUI>
-    <StiPdfDigitalSignature>Această componentă este utilizată pentru a specifica un loc pentru semnătura digitală după ce raportul a fost exportat în Adobe PDF.</StiPdfDigitalSignature>
-    <StiPdfDigitalSignatureElement>Această componentă este utilizată pentru a specifica un spațiu pentru semnătura digitală și câmpurile din certificat atunci când se exportă în PDF.</StiPdfDigitalSignatureElement>
-    <StiPivotTableElement>Elementul de tabel pivot este utilizat pentru reprezentarea datelor structurate ca tabel.</StiPivotTableElement>
-    <StiProgressElement>Elementul afișează raportul dintre datele de intrare. Acesta poate fi prezentat în diferite moduri - amestec, cerc, bare.</StiProgressElement>
-    <StiRadioGroupUI>Un grup de butoane radio utilizat pentru a selecta o opțiune dintr-un set predefinit de valori.</StiRadioGroupUI>
-    <StiRangeSelectorElement>Această componentă este utilizată pentru a selecta un interval de valori pe o scală sau o cronologie. Permite utilizatorilor să definească vizual limitele minime și maxime ale intervalului..</StiRangeSelectorElement>
-    <StiRangeSliderUI>Un cursor de interval utilizat pentru a defini valori minime și maxime pe o scală.</StiRangeSliderUI>
-    <StiRectanglePrimitive>Această componentă este folosită pentru a afişa dreptunghiuri.</StiRectanglePrimitive>
-    <StiRegionMapElement>Acest element este utilizat pentru afișarea datelor direcționate din punct de vedere geografic.</StiRegionMapElement>
-    <StiReportSummaryBand>Această bandă este folosită pentru afişarea rezumatului din întreg raportul.Este afişată o singură dată,la sfârsitul raportului.</StiReportSummaryBand>
-    <StiReportTitleBand>Această bandă este folosită pentru a se afişa titlul raportului. Este afişată la începutul raportului.</StiReportTitleBand>
-    <StiRichText>Această componentă este folosită pentru a afişa şi edita text RTF. Suportă incărcarea şi salvarea în formatul RTF.</StiRichText>
-    <StiRoundedRectanglePrimitive>Această componentă este folosită pentru a afişa dreptunghiuri rotunjite.</StiRoundedRectanglePrimitive>
-    <StiScreen>Un ecran care găzduiește controale, elemente de dispunere și interacțiuni ale utilizatorului pentru o pagină a aplicației.</StiScreen>
-    <StiSelectUI>O casetă de selecție utilizată pentru a alege o valoare dintr-o listă derulantă.</StiSelectUI>
-    <StiShape>Această componentă este folosită pentru a insera forme gata făcute , cum ar fi săgeţi,linie diagonală în jos, linie diagonală în sus, linie orizontală, linii de stânga şi la dreapta, oval, dreptunghi, dreptunghi rotunjit, linii de sus şi de jos, triunghi, linie verticală.</StiShape>
-    <StiShapeElement>Acest element este utilizat pentru a insera forme gata făcute, cum ar fi săgețile, linia diagonală în jos, linia diagonală în sus, linia orizontală stânga și dreapta, oval, dreptunghi, dreptunghi rotunjit, linii de sus și de jos, triunghi, linie verticală.</StiShapeElement>
-    <StiSignature>Această componentă este utilizată pentru a adăuga o semnătură electronică sau digitală unui raport.</StiSignature>
-    <StiSliderUI>Un cursor utilizat pentru a selecta o valoare pe o scală numerică continuă.</StiSliderUI>
-    <StiSparkline>Această componentă este utilizată pentru a crea micrografii într-un raport. Vă permite să urmăriți datele care se schimbă dinamic sub formă de bare, linii, zone.</StiSparkline>
-    <StiSubReport>Această componentă este folosită pentru a afişa date adiţionale în diferite parţi ale raportului.</StiSubReport>
-    <StiSwitchUI>Un comutator utilizat pentru a activa sau dezactiva o setare printr-un singur clic.</StiSwitchUI>
-    <StiTable>Această componentă este un set de elemente care organizează datele folosind un model bazat pe coloane verticale şi rănduri orizontale.</StiTable>
-    <StiTableElement>Acest element este un set de elemente de date care este organizat folosind un model de coloane verticale și rânduri orizontale.</StiTableElement>
-    <StiTableOfContents>Această componentă este utilizată pentru a crea un cuprins într-un raport.</StiTableOfContents>
-    <StiTableUI>Un tabel utilizat pentru a afișa clar datele pe rânduri și coloane.</StiTableUI>
-    <StiText>Această componentă este un obiect de bază pentru afişarea datelor ca text.</StiText>
-    <StiTextElement>Acest element este un obiect de bază pentru ieșirea datelor ca text.</StiTextElement>
-    <StiTextInCells>Această componentă este folosită pentru a afişa text în celule. Este utilizat frecvent la crearea formelor.</StiTextInCells>
-    <StiTextInputUI>Un câmp de introducere a textului utilizat pentru a introduce și edita valori de tip text.</StiTextInputUI>
-    <StiTreeViewBoxElement>Elementul este utilizat pentru a selecta valori cu o listă derulantă ca arbore.</StiTreeViewBoxElement>
-    <StiTreeViewElement>Reprezintă elementul utilizat pentru a arăta datele ierarhice ca arbore.</StiTreeViewElement>
-    <StiVerticalLinePrimitive>Această componentă este folosită pentru afişarea unei linii verticale.</StiVerticalLinePrimitive>
-    <StiWebContentElement>Componenta permite adăugarea de conținut web la panoul de control.</StiWebContentElement>
-    <StiWinControl>Această componentă permite afişarea controalelor vizuale din .NET.</StiWinControl>
-    <StiZipCode>Această componentă este folosită pentru afişarea codurilor poştale.</StiZipCode>
+    <CategoryBands>Benzi care tipăresc antete, date şi subsoluri.</CategoryBands>
+    <CategoryComponents>Componente care arată text, imagini şi alte date.</CategoryComponents>
+    <CategoryCrossBands>Benzi care se tipăresc de la stânga la dreapta.</CategoryCrossBands>
+    <StiBarCode>Arată un cod de bare.</StiBarCode>
+    <StiButtonElement>Execută un script la clic.</StiButtonElement>
+    <StiButtonUI>Porneşte o acţiune sau o comandă.</StiButtonUI>
+    <StiCardsElement>Arată date grupate sub formă de carduri.</StiCardsElement>
+    <StiChart>Arată datele ca grafic.</StiChart>
+    <StiChartElement>Arată datele ca grafic.</StiChartElement>
+    <StiCheckBox>Arată o valoare adevărat sau fals ca bifă.</StiCheckBox>
+    <StiCheckBoxGroupUI>Oferă opţiuni din care se pot bifa mai multe.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>Activează sau dezactivează o opţiune.</StiCheckBoxUI>
+    <StiChildBand>Tipăreşte încă o bandă la acelaşi rând de date.</StiChildBand>
+    <StiClone>Repetă conţinutul unui panel.</StiClone>
+    <StiColumnFooterBand>Tipărită sub fiecare coloană a benzii Date.</StiColumnFooterBand>
+    <StiColumnHeaderBand>Tipărită deasupra fiecărei coloane a benzii Date.</StiColumnHeaderBand>
+    <StiComboBoxElement>Selectează o valoare dintr-o listă derulantă.</StiComboBoxElement>
+    <StiContainer>Grupează alte componente într-o singură zonă.</StiContainer>
+    <StiCrossDataBand>Tipărită la fiecare rând, de la stânga la dreapta.</StiCrossDataBand>
+    <StiCrossFooterBand>Tipărită după banda DataBand încrucişate.</StiCrossFooterBand>
+    <StiCrossGroupFooterBand>Tipărită la sfârşitul fiecărui grup încrucişat.</StiCrossGroupFooterBand>
+    <StiCrossGroupHeaderBand>Tipărită la începutul fiecărui grup încrucişat.</StiCrossGroupHeaderBand>
+    <StiCrossHeaderBand>Tipărită înaintea benzii DataBand încrucişate.</StiCrossHeaderBand>
+    <StiCrossTab>Arată date structurate ca tabel încrucişat.</StiCrossTab>
+    <StiDataBand>Tipărită o dată la fiecare rând din sursa de date.</StiDataBand>
+    <StiDatePickerElement>Selectează o dată şi o oră.</StiDatePickerElement>
+    <StiDatePickerUI>Arată un calendar pentru a alege o dată.</StiDatePickerUI>
+    <StiElectronicSignature>Adaugă o semnătură desenată, tastată sau imagine.</StiElectronicSignature>
+    <StiEmptyBand>Umple spaţiul liber din josul unei pagini.</StiEmptyBand>
+    <StiFilterCategory>Elemente care selectează şi filtrează valori.</StiFilterCategory>
+    <StiFooterBand>Tipărită după rândurile benzii Date.</StiFooterBand>
+    <StiGauge>Arată o valoare într-un interval.</StiGauge>
+    <StiGaugeElement>Arată o valoare într-un interval.</StiGaugeElement>
+    <StiGroupFooterBand>Tipărită la sfârşitul fiecărui grup.</StiGroupFooterBand>
+    <StiGroupHeaderBand>Tipărită la începutul fiecărui grup.</StiGroupHeaderBand>
+    <StiHeaderBand>Tipărită înaintea rândurilor benzii Date.</StiHeaderBand>
+    <StiHierarchicalBand>Tipăreşte rândurile unei surse de date ca arbore.</StiHierarchicalBand>
+    <StiHorizontalLinePrimitive>Desenează o linie orizontală.</StiHorizontalLinePrimitive>
+    <StiIconUI>Arată o pictogramă.</StiIconUI>
+    <StiImage>Arată o imagine.</StiImage>
+    <StiImageElement>Arată o imagine.</StiImageElement>
+    <StiImageUI>Arată o imagine.</StiImageUI>
+    <StiIndicatorElement>Arată diferenţa dintre valori.</StiIndicatorElement>
+    <StiLabelUI>Arată un text scurt.</StiLabelUI>
+    <StiListBoxElement>Selectează elemente dintr-o listă.</StiListBoxElement>
+    <StiListUI>Arată o listă pentru a alege un element.</StiListUI>
+    <StiMap>Arată datele pe o hartă.</StiMap>
+    <StiMapCategory>Elemente care arată datele pe o hartă.</StiMapCategory>
+    <StiMapElement>Arată datele pe o hartă.</StiMapElement>
+    <StiMarkdown>Arată text Markdown.</StiMarkdown>
+    <StiMathFormula>Arată o formulă matematică.</StiMathFormula>
+    <StiMultiListUI>Arată o listă pentru a alege mai multe elemente.</StiMultiListUI>
+    <StiMultiSelectUI>Arată o listă derulantă pentru mai multe valori.</StiMultiSelectUI>
+    <StiNumberBoxElement>Selectează un număr sau un interval de numere.</StiNumberBoxElement>
+    <StiNumberInputUI>Primeşte un număr de la utilizator.</StiNumberInputUI>
+    <StiOnlineMapElement>Arată marcaje pe o hartă online.</StiOnlineMapElement>
+    <StiOverlayBand>Tipăreşte un watermark pe fiecare pagină.</StiOverlayBand>
+    <StiPageFooterBand>Tipărită în partea de jos a fiecărei pagini.</StiPageFooterBand>
+    <StiPageHeaderBand>Tipărită în partea de sus a fiecărei pagini.</StiPageHeaderBand>
+    <StiPanel>Grupează alte componente într-o singură zonă.</StiPanel>
+    <StiPanelElement>Grupează alte elemente într-o singură zonă.</StiPanelElement>
+    <StiPanelUI>Grupează alte controale într-o singură zonă.</StiPanelUI>
+    <StiPdfDigitalSignature>Marchează locul unei semnături digitale în PDF.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>Marchează locul unei semnături digitale în PDF.</StiPdfDigitalSignatureElement>
+    <StiPivotTableElement>Arată date structurate ca tabelă pivot.</StiPivotTableElement>
+    <StiProgressElement>Arată o valoare ca parte din întreg.</StiProgressElement>
+    <StiRadioGroupUI>Oferă opţiuni din care se alege una.</StiRadioGroupUI>
+    <StiRangeSelectorElement>Selectează un interval pe o scală sau cronologie.</StiRangeSelectorElement>
+    <StiRangeSliderUI>Stabileşte un interval pe o scală.</StiRangeSliderUI>
+    <StiRectanglePrimitive>Desenează un dreptunghi.</StiRectanglePrimitive>
+    <StiRegionMapElement>Arată datele pe o hartă a regiunilor.</StiRegionMapElement>
+    <StiReportSummaryBand>Tipărită o dată la sfârşitul raportului.</StiReportSummaryBand>
+    <StiReportTitleBand>Tipărită o dată la începutul raportului.</StiReportTitleBand>
+    <StiRichText>Arată text RTF formatat.</StiRichText>
+    <StiRoundedRectanglePrimitive>Desenează un dreptunghi rotunjit.</StiRoundedRectanglePrimitive>
+    <StiScreen>Conţine controalele unei pagini de aplicaţie.</StiScreen>
+    <StiSelectUI>Arată o listă derulantă pentru a alege o valoare.</StiSelectUI>
+    <StiShape>Arată o formă gata făcută.</StiShape>
+    <StiShapeElement>Arată o formă gata făcută.</StiShapeElement>
+    <StiSignature>Adaugă o semnătură electronică sau digitală.</StiSignature>
+    <StiSliderUI>Stabileşte o valoare pe o scală.</StiSliderUI>
+    <StiSparkline>Arată un grafic mic al unei serii de date.</StiSparkline>
+    <StiSubReport>Tipăreşte aici un alt raport sau o altă pagină.</StiSubReport>
+    <StiSwitchUI>Activează sau dezactivează o setare.</StiSwitchUI>
+    <StiTable>Arată datele pe rânduri şi coloane.</StiTable>
+    <StiTableElement>Arată datele pe rânduri şi coloane.</StiTableElement>
+    <StiTableOfContents>Generează cuprinsul.</StiTableOfContents>
+    <StiTableUI>Arată datele pe rânduri şi coloane.</StiTableUI>
+    <StiText>Arată datele ca text.</StiText>
+    <StiTextElement>Arată datele ca text.</StiTextElement>
+    <StiTextInCells>Arată textul, câte un caracter pe celulă.</StiTextInCells>
+    <StiTextInputUI>Primeşte un text de la utilizator.</StiTextInputUI>
+    <StiTreeViewBoxElement>Selectează valori dintr-un arbore derulant.</StiTreeViewBoxElement>
+    <StiTreeViewElement>Arată date ierarhice ca arbore.</StiTreeViewElement>
+    <StiVerticalLinePrimitive>Desenează o linie verticală.</StiVerticalLinePrimitive>
+    <StiWebContentElement>Arată conţinut web.</StiWebContentElement>
+    <StiWinControl>Arată un control vizual .NET.</StiWinControl>
+    <StiZipCode>Arată un cod poştal ZIP.</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
     <ActiveRelation>Stabilește Relația prioritară pentru a lega două tabele. Se utilizează în Transformarea Datelor si Panourile de control. Doar o singură relație în fiecare sursă de date poate fi activă.</ActiveRelation>
-    <Align>Schimbă locaţia componentelor selectate.</Align>
-    <AlignBottom>Aliniază conţinutul componentei în jos.</AlignBottom>
-    <AlignCenter>Aliniază conţinutul componentei la centru.</AlignCenter>
+    <Align>Aliniază componentele selectate.</Align>
+    <AlignBottom>Aliniază conţinutul jos.</AlignBottom>
+    <AlignCenter>Aliniază conţinutul la centru.</AlignCenter>
     <AlignComponentBottom>Vă permite să aliniaţi obiecte orizontal de-a lungul marginii de jos a componentelor selectate.</AlignComponentBottom>
     <AlignComponentCenter>Vă permite să aliniaţi obiecte orizontal de-a lungul marginii de centru a componentelor selectate.</AlignComponentCenter>
     <AlignComponentLeft>Vă permite să aliniaţi obiecte vertical de-a lungul marginea din stânga a componentelor selectate.</AlignComponentLeft>
     <AlignComponentMiddle>Vă permite să aliniaţi obiecte vertical de-a lungul marginii de centrul a componentelor selectate.</AlignComponentMiddle>
     <AlignComponentRight>Vă permite să aliniaţi obiecte vertical de-a lungul marginea din dreapta a componentelor selectate.</AlignComponentRight>
     <AlignComponentTop>Vă permite să aliniaţi obiecte orizontal de-a lungul marginea de sus a componentelor selectate.</AlignComponentTop>
-    <AlignLeft>Aliniază conţinutul componentei la stânga.</AlignLeft>
-    <AlignMiddle>Centrează conţinutul componentei faţa de marginile de sus şi de jos.</AlignMiddle>
-    <AlignRight>Aliniază conţinutul componentei la dreapta.</AlignRight>
-    <AlignToGrid>Aliniază componentele selectate la nodurile grilei.</AlignToGrid>
-    <AlignTop>Aliniază conţinutului componentei către partea de sus.</AlignTop>
-    <AlignWidth>Aliniază conţinut componentă.</AlignWidth>
-    <Angle>Roteşte conţinutul componentei.</Angle>
+    <AlignLeft>Aliniază conţinutul la stânga.</AlignLeft>
+    <AlignMiddle>Aliniază conţinutul la mijloc.</AlignMiddle>
+    <AlignRight>Aliniază conţinutul la dreapta.</AlignRight>
+    <AlignToGrid>Aliniază componentele selectate la grilă.</AlignToGrid>
+    <AlignTop>Aliniază conţinutul sus.</AlignTop>
+    <AlignWidth>Aliniază conţinutul stânga-dreapta.</AlignWidth>
+    <Angle>Roteşte textul.</Angle>
     <AngleWatermark>Unghiul de rotaţie al textului de watermark.</AngleWatermark>
-    <Background>Schimbă fundalul componentelor selectate.</Background>
-    <biConditions>Lista de control a condiţiilor pentru componentele selectate.</biConditions>
-    <BorderColor>Selectează culoarea marginii pentru componenta selectată.</BorderColor>
-    <BorderSidesAll>Activează marginile componentelor selectate.</BorderSidesAll>
-    <BorderSidesBottom>Activează marginile din partea de jos pentru componentele selectate.</BorderSidesBottom>
-    <BorderSidesLeft>Activează marginea din stânga pentru componentele selectate.</BorderSidesLeft>
-    <BorderSidesNone>Dezactivează marginile componentelor selectate.</BorderSidesNone>
-    <BorderSidesRight>Activează marginea din dreapta pentru componentele selectate.</BorderSidesRight>
-    <BorderSidesTop>Activează marginile din partea de sus pentru componentele selectate.</BorderSidesTop>
-    <BorderStyle>Selectează stil bordură pentru componentele selectate.</BorderStyle>
-    <BringToFront>Adu componenta selectată în faţă.</BringToFront>
+    <Background>Schimbă fundalul.</Background>
+    <biConditions>Editează condiţiile.</biConditions>
+    <BorderColor>Schimbă culoarea bordurii.</BorderColor>
+    <BorderSidesAll>Arată toate bordurile.</BorderSidesAll>
+    <BorderSidesBottom>Arată sau ascunde bordura de jos.</BorderSidesBottom>
+    <BorderSidesLeft>Arată sau ascunde bordura din stânga.</BorderSidesLeft>
+    <BorderSidesNone>Ascunde toate bordurile.</BorderSidesNone>
+    <BorderSidesRight>Arată sau ascunde bordura din dreapta.</BorderSidesRight>
+    <BorderSidesTop>Arată sau ascunde bordura de sus.</BorderSidesTop>
+    <BorderStyle>Schimbă stilul bordurii.</BorderStyle>
+    <BringToFront>Adu în faţă.</BringToFront>
     <CenterHorizontally>Vă permite să aliniaţi o componentă orizontal în raport cu marginile containerului în care se gaseşte.</CenterHorizontally>
     <CenterVertically>Vă permite să aliniaţi o componentă vertical în raport cu marginile containerului în care se gaseşte.</CenterVertically>
     <Close>Închide Designer-ul de Rapoarte .</Close>
-    <Columns>Împarte o pagină în coloane.</Columns>
+    <Columns>Împarte pagina în coloane.</Columns>
     <CompilationAccess1>Acest document utilizează procesul de compilare. Dacă documentul provine dintr-o sursă de încredere, puteți face clic pe butonul "Deschidere" pentru a-l accesa.</CompilationAccess1>
     <CompilationAccess2>Dacă nu sunteți sigur de sursa documentului, dar doriți totuși să-l vizualizați, puteți face clic pe butonul "Deschidere în modul sigur". În acest caz, veți folosi interpretarea în loc de compilare, ceea ce vă permite să rulați documentul în siguranță..</CompilationAccess2>
     <CompilationAccess3>Acest document utilizează procesul de compilare și poate fi nesigur. Nu îl puteți deschide.</CompilationAccess3>
@@ -2213,15 +2216,15 @@
     <CompilationAccessForceInterpretation>Documentele cu proces de compilare vor fi deschise fără nicio solicitare, dar vor fi convertite automat în modul de interpretare, care nu utilizează compilare.</CompilationAccessForceInterpretation>
     <CompilationAccessTitle>Documentul folosește compilarea</CompilationAccessTitle>
     <CompilationModeEnabling>Trecere la modul de compilare. Acest mod permite rularea unui cod diferit și uneori poate fi dăunător. Vă rugăm să utilizați acest mod numai dacă înțelegeți toate riscurile și sunteți de acord cu ele. Faceți clic pe butonul {0} pentru a continua.</CompilationModeEnabling>
-    <ComponentSize>Schimbă dimensiunea componentele selectate.</ComponentSize>
-    <ComponentsMenu>Deschide meniul Componente ce conține elemente panou de control neutilizate pe suprafața mobilă.</ComponentsMenu>
-    <CopyStyle>Stil Copiere</CopyStyle>
+    <ComponentSize>Redimensionează componentele selectate.</ComponentSize>
+    <ComponentsMenu>Arată elementele neutilizate.</ComponentsMenu>
+    <CopyStyle>Copiază stilul pe alte componente.</CopyStyle>
     <CopyToClipboard>Copie în Clipboard</CopyToClipboard>
-    <CurrencySymbol>Selectaţi simbolul pentru monedă.</CurrencySymbol>
+    <CurrencySymbol>Selectează simbolul monedei.</CurrencySymbol>
     <DashboardNew>Creare panou control nou.</DashboardNew>
     <DataStore>Afişează datele, înregistrate într-un raport.</DataStore>
-    <DateTimeFormat>Selectaţi formatul de dată şi oră pentru componentele selectate.</DateTimeFormat>
-    <DockingPanels>Panou de setări.</DockingPanels>
+    <DateTimeFormat>Selectează formatul de dată şi oră.</DateTimeFormat>
+    <DockingPanels>Arată sau ascunde panel-urile.</DockingPanels>
     <DockStyleBottom>Reţine componentele selectate spre partea de jos.</DockStyleBottom>
     <DockStyleFill>Reţine componentele selectate spre toate parţile.</DockStyleFill>
     <DockStyleLeft>Reţine componentele selectate spre partea din stânga.</DockStyleLeft>
@@ -2230,17 +2233,17 @@
     <DockStyleTop>Reţine componentele selectate spre partea de sus.</DockStyleTop>
     <EventsAccess1>Acest document folosește Evenimente. Dacă documentul provine dintr-o sursă de încredere, puteți face clic pe butonul "Deschide" pentru a-l accesa.</EventsAccess1>
     <EventsAccess2>Dacă nu sunteți sigur de sursa documentului, dar doriți totuși să îl vizualizați, puteți face clic pe butonul "Deschide în modul sigur". În acest caz, evenimentele vor fi ignorate și nu vor fi executate.</EventsAccess2>
-    <FontGrow>Creşte dimensiunea textului.</FontGrow>
-    <FontName>Fontul textului.</FontName>
+    <FontGrow>Măreşte textul.</FontGrow>
+    <FontName>Schimbă fontul textului.</FontName>
     <FontNameWatermark>Fontul textului de watermark.</FontNameWatermark>
-    <FontShrink>Micşorează dimensiunea textului.</FontShrink>
-    <FontSize>Dimensiunea fontului.</FontSize>
+    <FontShrink>Micşorează textul.</FontShrink>
+    <FontSize>Schimbă dimensiunea textului.</FontSize>
     <FontSizeWatermark>Modifică dimensiunea fontului.</FontSizeWatermark>
-    <FontStyleBold>Ingroaşă textul.</FontStyleBold>
+    <FontStyleBold>Îngroaşă textul.</FontStyleBold>
     <FontStyleBoldWatermark>Ingroaşă textul de watermark.</FontStyleBoldWatermark>
-    <FontStyleItalic>Apleacă textul spre dreapta.</FontStyleItalic>
+    <FontStyleItalic>Înclină textul.</FontStyleItalic>
     <FontStyleItalicWatermark>Apleacă textul de watermark spre dreapta.</FontStyleItalicWatermark>
-    <FontStyleStrikeout>Faceți eliminarea textului.</FontStyleStrikeout>
+    <FontStyleStrikeout>Taie textul cu o linie.</FontStyleStrikeout>
     <FontStyleUnderline>Subliniază textul.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Subliniază textul de watermark.</FontStyleUnderlineWatermark>
     <FormatBoolean>Acest format este folosit pentru formatarea valorilor de tip boolean.</FormatBoolean>
@@ -2252,61 +2255,61 @@
     <FormatPercentage>Afişează o valoare ca procent. Numerele sunt multiplicate cu 100 pentru a le converti la procente.</FormatPercentage>
     <FormatTime>Afişează o valoare ca timp. Formatul de dată este bazat pe setările regionale pentru timp.</FormatTime>
     <FormNew>Crearea unui nou formular de dialog.</FormNew>
-    <GridMode>Afişare grilă în linii sau puncte.</GridMode>
+    <GridMode>Arată grila ca linii sau puncte.</GridMode>
     <ImageAlignment>Pune o imagine de watermark pe o pagină.</ImageAlignment>
     <ImageTransparency>Schimbă transparenţa imaginii de watermark.</ImageTransparency>
-    <Interaction>Controlează o interacțiune a componentelor selectate.</Interaction>
-    <LineSpacing>Alegeți cât spațiu să apară între liniile de text sau între paragrafe.</LineSpacing>
-    <Link>Leagă componenta de containerul curent.</Link>
+    <Interaction>Configurează interacţiunea.</Interaction>
+    <LineSpacing>Schimbă spaţierea liniilor.</LineSpacing>
+    <Link>Leagă de container.</Link>
     <LoadImage>Încărcă imagini de watermark din fişier.</LoadImage>
-    <Lock>Blochează componenta. Componenta nu pote fi mutată şi redimensionată.</Lock>
-    <MainMenu>Clic aici pentru a vedea lista de posibile operaţiuni cu un raport, inclusiv deschiderea, închiderea, şi previzualizarea.</MainMenu>
+    <Lock>Blochează poziţia şi dimensiunea.</Lock>
+    <MainMenu>Creează, deschide sau salvează un raport.</MainMenu>
     <MakeHorizontalSpacingEqual>Vă permite să stabiliţi spaţierea orizontală egală între componentele selectate.</MakeHorizontalSpacingEqual>
     <MakeVerticalSpacingEqual>Vă permite să stabiliţi spaţierea egală verticală între componentele selectate.</MakeVerticalSpacingEqual>
-    <Margins>Selectează marginile paginii curente.</Margins>
+    <Margins>Selectează marginile paginii.</Margins>
     <menuCheckIssues>Verifică raportul pentru a găsi erori, avertismente şi a obţine recomandări.</menuCheckIssues>
     <menuDesignerOptions>Opţiuni de configurare Designer Rapoarte.</menuDesignerOptions>
-    <menuEditClearContents>Golire conţinut.</menuEditClearContents>
-    <menuEditCopy>Copie componentele selectate şi le pune în Clipboard.</menuEditCopy>
-    <menuEditCut>Taie componentele selectate din raport şi le pune în Clipboard.</menuEditCut>
-    <menuEditDelete>Şterge componente selectate.</menuEditDelete>
-    <menuEditPaste>Lipeşte conţinutul din Clipboard în raport.</menuEditPaste>
-    <menuExportSettings>Deschide editorul Setări de export pentru raportul sau panoul de control curent. Setările se aplică numai la exportarea raportului sau panoului curent..</menuExportSettings>
+    <menuEditClearContents>Goleşte conţinutul.</menuEditClearContents>
+    <menuEditCopy>Copiază componentele selectate.</menuEditCopy>
+    <menuEditCut>Taie componentele selectate.</menuEditCut>
+    <menuEditDelete>Şterge componentele selectate.</menuEditDelete>
+    <menuEditPaste>Lipeşte din Clipboard.</menuEditPaste>
+    <menuExportSettings>Schimbă setările de export.</menuExportSettings>
     <menuFAQPage>Mergi la pagina web cu raspunsurile la cele mai frecvente întrebări.</menuFAQPage>
-    <menuGlobalizationStrings>Apelare editor Globalizare String-uri al raportului curent.</menuGlobalizationStrings>
+    <menuGlobalizationStrings>Editează şirurile de globalizare.</menuGlobalizationStrings>
     <menuHelpAboutProgramm>Obţine informaţii despre versiunea generatorului de rapoarte şi versiunea de Net Framework.</menuHelpAboutProgramm>
     <menuHomePage>Mergi la pagina web principala a produsului.</menuHomePage>
     <menuPageOptions>Configurare parametrii de bază ai paginii curente. Toate opţiunile paginii pot fi schimbate utilizând panoul de proprietaţi.</menuPageOptions>
     <menuPagesManager>Porneşte Managerul de Pagini. Acesta permite mutarea paginilor, ştergerea lor, şi crearea de noi pagini.</menuPagesManager>
-    <menuPreviewSettings>Apelare editor Setari Previzualizare din raport curent. Setările vor fi aplicate doar atunci când se vizualizează raportul curent.</menuPreviewSettings>
+    <menuPreviewSettings>Schimbă setările de previzualizare.</menuPreviewSettings>
     <menuPrint>Selectare imprimantă, număr de copii, şi alte opţiuni de imprimare înainte de imprimare.</menuPrint>
     <menuPrintPreview>Previzualizare raport înainte de imprimare.</menuPrintPreview>
     <menuPrintQuick>Imprimare raport direct la imprimanta implicită. Fereastra de imprimare nu este arătată.</menuPrintQuick>
-    <menuReportOptions>Configurare opţiuni de bază raport. Toate opţiunile pot fi schimbate utilizând panoul de proprietaţi.</menuReportOptions>
+    <menuReportOptions>Schimbă opţiunile raportului.</menuReportOptions>
     <menuStyleDesigner>Apel Designer de Stil pentru raportul curent.</menuStyleDesigner>
     <menuSupport>Du-te la pagina web de suport pentru a pune o întrebare.</menuSupport>
-    <menuViewAlignToGrid>Aliniere componente la grilă.</menuViewAlignToGrid>
+    <menuViewAlignToGrid>Aliniază componentele la grilă.</menuViewAlignToGrid>
     <menuViewNormal>Vedere normală a unei pagini.</menuViewNormal>
     <menuViewPageBreakPreview>Mod de afişare a unei pagini cu margini de segmente.</menuViewPageBreakPreview>
-    <menuViewQuickInfo>Arată informaţii rapide ale componentelor: nume componentă, alias, conţinut, evenimente, etc</menuViewQuickInfo>
-    <menuViewShowGrid>Activare grilă de linii la care se pot alinia obiecte într-un raport.</menuViewShowGrid>
-    <menuViewShowHeaders>Arată antetele pentru benzi.</menuViewShowHeaders>
-    <menuViewShowOrder>Arată ordinea componentelor de pe o pagină.</menuViewShowOrder>
-    <menuViewShowRulers>Vizualizare rigle, utilizate pentru măsurarea şi alinierea obiectelor de pe o pagină.</menuViewShowRulers>
-    <menuViewShowSmartGuides>Afișare ghiduri inteligente pentru a poziționa componentele unul față de celălalt.</menuViewShowSmartGuides>
-    <MoveBackward>Mută un element la un nivel mai înalt, în vederea introducerii de componente pe o pagină.</MoveBackward>
-    <MoveForward>Mută o componentă la un nivel mai jos în vederea introducerii componentelor pe o pagină.</MoveForward>
+    <menuViewQuickInfo>Arată informaţii rapide despre componente.</menuViewQuickInfo>
+    <menuViewShowGrid>Arată grila.</menuViewShowGrid>
+    <menuViewShowHeaders>Arată antetele benzilor.</menuViewShowHeaders>
+    <menuViewShowOrder>Arată ordinea componentelor.</menuViewShowOrder>
+    <menuViewShowRulers>Arată riglele.</menuViewShowRulers>
+    <menuViewShowSmartGuides>Arată ghidurile inteligente.</menuViewShowSmartGuides>
+    <MoveBackward>Mută cu un nivel înapoi.</MoveBackward>
+    <MoveForward>Mută cu un nivel înainte.</MoveForward>
     <NotPossibleEnableCompilationMode>Este imposibil să activați modul de compilare pentru raport. Acest lucru este interzis de opțiunea „Acces la compilare” din setările designerului.</NotPossibleEnableCompilationMode>
-    <Orientation>Comutarea paginilor intre aspect portret şi aspect album.</Orientation>
+    <Orientation>Comută între portret şi peisaj.</Orientation>
     <PageDelete>Şterge pagina curentă dintr-un raport.</PageDelete>
     <PageNew>Crează o pagină nouă.</PageNew>
-    <PageSetup>Arată fereastra de dialog pentru configurare pagină.</PageSetup>
-    <PageSize>Alegeţi dimensiunea hârtiei pentru pagina curentă a unui raport.</PageSize>
+    <PageSetup>Schimbă setările paginii.</PageSetup>
+    <PageSize>Selectează dimensiunea hârtiei.</PageSize>
     <PagesManager>Porneşte Managerul de Pagini.</PagesManager>
     <PressF1>Apăsaţi F1 pentru Mai Multe Detalii</PressF1>
-    <PropertiesButton>Activează panoul Proprietăți ale șablonului de raport.</PropertiesButton>
+    <PropertiesButton>Arată proprietăţile raportului.</PropertiesButton>
     <Redo>Refă schimbarea anulată anterior într-un raport.</Redo>
-    <RemoveMobileSurfaceButton>Elimină suprafața mobilă din panoul control curent.</RemoveMobileSurfaceButton>
+    <RemoveMobileSurfaceButton>Elimină suprafaţa mobilă.</RemoveMobileSurfaceButton>
     <ReportNew>Crează un raport nou.</ReportNew>
     <ReportOpen>Deschide un raport în designer.</ReportOpen>
     <ReportPreview>Previzualizează un raport.</ReportPreview>
@@ -2318,46 +2321,47 @@
     <ScriptSecuritySafeMode>Acces securizat la scripturi (capacități restricționate pentru securitate).</ScriptSecuritySafeMode>
     <SelectAll>Selectează toate componentele de pe pagina curentă.</SelectAll>
     <SelectUILanguage>Selectaţi limba pentru interfaţa grafică.</SelectUILanguage>
-    <SendToBack>Mută componenta selectată în spate în funcţie de alte componente.</SendToBack>
+    <SendToBack>Trimite în spate.</SendToBack>
     <ServicesConfigurator>Porneşte Configuratorul de Servicii.</ServicesConfigurator>
-    <Shadow>Arată umbra unei componente.</Shadow>
+    <Shadow>Arată sau ascunde umbra.</Shadow>
     <ShowBehind>Arată textul de watermark în spatele componentelor.</ShowBehind>
     <ShowImageBehind>Pune imaginea de watermark în spatele tuturor componentelor pe o pagină.</ShowImageBehind>
     <ShowToolbox>Arată bara de instrumente.</ShowToolbox>
     <StimulsoftHelp>Ajutor Stimulsoft</StimulsoftHelp>
-    <StyleDesigner>Porneşte Designer de Stil.</StyleDesigner>
+    <StyleDesigner>Deschide designerul de stiluri.</StyleDesigner>
     <TellMeMore>Spune-mi mai multe</TellMeMore>
     <Text>Textul pentru watermark.</Text>
     <TextBrush>Schimbă culorea textului.</TextBrush>
     <TextBrushWatermark>Schimbă culorea textului pentru watermark.</TextBrushWatermark>
-    <TextColor>Schimbă culorea textului.</TextColor>
-    <TextFormat>Selectare format pentru valori.</TextFormat>
+    <TextColor>Schimbă culoarea textului.</TextColor>
+    <TextFormat>Selectează formatul valorilor.</TextFormat>
     <ToolbarStyle>Aplică stilul ales la toate componentele selectate.</ToolbarStyle>
     <Undo>Anulează ultima schimbare într-un raport.</Undo>
-    <ViewModeDesktopButton>Activare suprafață Desktop.</ViewModeDesktopButton>
-    <ViewModeMobileButton>Activare suprafață Mobilă.</ViewModeMobileButton>
-    <WordWrap>Aplică ruperea rândurilor pe textul unei componente.</WordWrap>
+    <ViewModeDesktopButton>Arată suprafaţa desktop.</ViewModeDesktopButton>
+    <ViewModeMobileButton>Arată suprafaţa mobilă.</ViewModeMobileButton>
+    <Watermark>Schimbă setările de watermark.</Watermark>
+    <WordWrap>Rupe textul pe rânduri.</WordWrap>
     <Zoom>Stabileşte nivelul de zoom al raportului.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
-    <StiButtonControl>Reprezintă butonul de control.</StiButtonControl>
-    <StiCheckBoxControl>Reprezintă indicatorul de control.</StiCheckBoxControl>
-    <StiCheckedListBoxControl>Afişează obiectul Listă, în care este afişat un indicator în stânga pentru fiecare element.</StiCheckedListBoxControl>
-    <StiComboBoxControl>Reprezintă ComboBox-ul, care este folosit atăt pentru a citi o valoare direct în control sau să se aleagă dintr-o lista de opţiuni existente.</StiComboBoxControl>
-    <StiDateTimePickerControl>Reprezintă controlul care permite selectarea datei şi a orei. De asemenea, vă permite să afişaţi data şi ora în formatul specificat.</StiDateTimePickerControl>
-    <StiGridControl>Reprezintă controlul Grid format din rânduri şi coloane.</StiGridControl>
-    <StiGroupBoxControl>Reprezintă controlul, care creează un container cu margini şi un antet pentru conţinutul interfeţei grafice.</StiGroupBoxControl>
-    <StiLabelControl>O etichetă este un control de interfaţă pentru utilizator care afiseaza text pe un formular. De regulă, aceasta este un control static care nu are nicio interactivitate.</StiLabelControl>
-    <StiListBoxControl>Conţine lista de elemente pentru selecţie.</StiListBoxControl>
-    <StiListViewControl>Reprezintă controlul ListView care arată datele sub formă de listă.</StiListViewControl>
-    <StiLookUpBoxControl>Conţine lista de elemente pentru selecţie.</StiLookUpBoxControl>
-    <StiNumericUpDownControl>Reprezintă controlul care afişează valori numerice.</StiNumericUpDownControl>
-    <StiPanelControl>Elementele de tip panel sunt folosite pentru introducerea şi aranjarea obiectelor.</StiPanelControl>
-    <StiPictureBoxControl>Reprezintă controlul pentru afişarea unei imagini.</StiPictureBoxControl>
-    <StiRadioButtonControl>Reprezintă controlul de butoane radio, care permite utilizatorului să aleagă doar una dint-un set predefinit de opţiuni. </StiRadioButtonControl>
-    <StiRichTextBoxControl>Reprezintă controlul RichText cu editare extinsă.</StiRichTextBoxControl>
-    <StiTextBoxControl>Reprezintă control Text care este folosit pentru afişarea sau editarea unui text.</StiTextBoxControl>
-    <StiTreeViewControl>Reprezintă controlul care este folosit pentru a afişa datele ierarhic sub formă arborescentă.</StiTreeViewControl>
+    <StiButtonControl>Execută o acţiune la clic.</StiButtonControl>
+    <StiCheckBoxControl>Activează sau dezactivează o opţiune.</StiCheckBoxControl>
+    <StiCheckedListBoxControl>Arată o listă cu o căsuţă pentru fiecare element.</StiCheckedListBoxControl>
+    <StiComboBoxControl>Arată o listă derulantă cu introducere liberă.</StiComboBoxControl>
+    <StiDateTimePickerControl>Arată un calendar pentru a alege data şi ora.</StiDateTimePickerControl>
+    <StiGridControl>Arată datele pe rânduri şi coloane.</StiGridControl>
+    <StiGroupBoxControl>Grupează controale într-un cadru cu titlu.</StiGroupBoxControl>
+    <StiLabelControl>Arată un text pe formular.</StiLabelControl>
+    <StiListBoxControl>Arată o listă pentru a alege elemente.</StiListBoxControl>
+    <StiListViewControl>Arată o listă de elemente de date.</StiListViewControl>
+    <StiLookUpBoxControl>Arată o listă derulantă pentru a alege un element.</StiLookUpBoxControl>
+    <StiNumericUpDownControl>Primeşte un număr, cu butoane pentru a-l schimba.</StiNumericUpDownControl>
+    <StiPanelControl>Grupează alte controale într-o singură zonă.</StiPanelControl>
+    <StiPictureBoxControl>Arată o imagine.</StiPictureBoxControl>
+    <StiRadioButtonControl>Alege o opţiune dintr-un grup.</StiRadioButtonControl>
+    <StiRichTextBoxControl>Arată şi editează text formatat.</StiRichTextBoxControl>
+    <StiTextBoxControl>Arată şi editează un text.</StiTextBoxControl>
+    <StiTreeViewControl>Arată date ierarhice ca arbore.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
     <AddPageBreaks>Separator vizual al paginilor raportului.</AddPageBreaks>

@@ -2046,135 +2046,139 @@
     <sys_morebuttons>Meer Knoppen</sys_morebuttons>
   </Gui>
   <HelpComponents>
-    <StiBarCode>Dit onderdeel laat zien bar-codes in een rapport. Bar-code gegevens worden naar een object als een string. De string kan bevatten symbolen, maar alleen toegestaan ​​voor de geselecteerde grafiek kan worden weergegeven.</StiBarCode>
-    <StiButtonElement>Dit element wordt gebruikt om een gebeurtenisscript uit te voeren wanneer een gebruiker ermee interacteert.</StiButtonElement>
-    <StiButtonUI>Een knop om een actie te activeren of een opdracht te starten.</StiButtonUI>
-    <StiCardsElement>Dit element wordt gebruikt om gegroepeerde gegevens als kaarten weer te geven.</StiCardsElement>
-    <StiChart>Dit onderdeel laat zien grafieken in een rapport. Verschillende grafieken zijn. Onder hen zijn staaf-, lijn-, cirkel-, donut, lijnen, vlakken, Gantt, spreidingsdiagrammen etc.</StiChart>
-    <StiChartElement>Met dit element kunnen grafieken in een dashboard worden weergegeven. Er zijn verschillende typen grafieken beschikbaar.</StiChartElement>
-    <StiCheckBox>Dit onderdeel toestaat dat een checkbox in een rapport. Ze kunnen twee modi: "enable" of "uitschakelen".</StiCheckBox>
-    <StiCheckBoxGroupUI>Een selectievakjesgroep om meerdere voorgedefinieerde opties uit een lijst te selecteren.</StiCheckBoxGroupUI>
-    <StiCheckBoxUI>Een selectievakje om snel een enkele optie in of uit te schakelen.</StiCheckBoxUI>
-    <StiChildBand>Het kind band kan worden gebruikt om twee bands op een rij gegevens uitvoeren.</StiChildBand>
-    <StiClone>Deze component wordt gebruikt om delen van een rapport te klonen in een verplicht onderdeel van een rapport. Klonen kan alleen worden toegepast op het paneel inhoud.</StiClone>
-    <StiColumnFooterBand>Deze band wordt gebruikt om output voetteksten van de kolommen op de Data band. De ColumnFooter band wordt uitgevoerd keer onder elke kolom. Alle componenten, die op deze band zal ook de uitgang onder elke kolom.</StiColumnFooterBand>
-    <StiColumnHeaderBand>Deze band wordt gebruikt om output voetteksten van de kolommen op de Data band. De ColumnFooter band wordt uitgevoerd keer onder elke kolom. Alle componenten, die op deze band zal ook de uitgang onder elke kolom.</StiColumnHeaderBand>
-    <StiComboBoxElement>Vertegenwoordigt de keuzelijst met invoervak waarmee u een waarde rechtstreeks in het besturingselement typt of kiest uit de lijst met bestaande opties.</StiComboBoxElement>
-    <StiContainer>Dit is het rechthoekig gebied waar andere componenten, zoals banden, kunnen worden geplaatst. Bij verplaatsing van de houder de componenten zal ook worden verplaatst. De container kan worden geplaatst op een band op een pagina.</StiContainer>
-    <StiCrossDataBand>Deze band is verbonden met de gegevensbron. Het is uitgevoerd als vaak als er rijen in de gegevensbron. Een Cross-band wordt uitgevoerd van links naar rechts.</StiCrossDataBand>
-    <StiCrossFooterBand>Deze band wordt gebruikt om output voetteksten van een CrossData band. De band wordt uitgevoerd als na alle rijen van de Data band. Een Cross-band wordt uitgevoerd van links naar rechts.</StiCrossFooterBand>
-    <StiCrossGroupFooterBand>Deze band wordt gebruikt om output footers van een groep. Het is geplaatst onder de CrossData band. Elke CrossFooter behoort tot de aangegeven CrossHeader band. Een Cross-band wordt uitgevoerd van links naar rechts.</StiCrossGroupFooterBand>
-    <StiCrossGroupHeaderBand>Deze band is de basis een voor het rapport renderen met groepering, wanneer CrossData worden gebruikt. Het is onmogelijk om groepering te maken zonder deze band. De componenten voor informatie-de groep op de groepskoptekst. De informatie kan groepsnaam, de datum staat van groepering, etc. De band wordt uitgevoerd in het begin van elke groep zijn. Een Cross-band wordt uitgevoerd van links naar rechts.</StiCrossGroupHeaderBand>
-    <StiCrossHeaderBand>Deze band wordt gebruikt om output headers. Het wordt gebruikt in combinatie met het kruis band. Een Cross-band wordt uitgevoerd van links naar rechts.</StiCrossHeaderBand>
-    <StiCrossTab>De kruistabel deel wordt gebruikt voor de gestructureerde gegevensweergave een tabel.</StiCrossTab>
-    <StiDataBand>De gegevens band is verbonden met de gegevensbron en weergegeven zoveel als er rijen in de gegevensbron.</StiDataBand>
-    <StiDatePickerElement>Het element wordt gebruikt om de datum en tijd te selecteren.</StiDatePickerElement>
-    <StiDatePickerUI>Een datumkiezer om een datum uit een kalender te selecteren.</StiDatePickerUI>
-    <StiElectronicSignature>Dit component wordt gebruikt om een grafische handtekening, afbeelding, initialen en tekst toe te voegen.</StiElectronicSignature>
-    <StiEmptyBand>Deze band wordt gebruikt om ruimte te vullen op de bodem van een pagina. Deze band vult vrije ruimte op elke pagina van een rapport.</StiEmptyBand>
-    <StiFilterCategory>Een groep elementen om waarden te selecteren en te filteren.</StiFilterCategory>
-    <StiFooterBand>Deze band wordt gebruikt om output samenvatting door de Data band. Het is geplaatst onder de Data band en wordt uitgevoerd een keer na alle gegevens rijen die gegevens band uitgangen.</StiFooterBand>
-    <StiGauge>Met het component kunt u een waarde binnen een vooraf gedefinieerd bereik weergeven. Het kan verschillende grafische weergaven hebben.</StiGauge>
-    <StiGaugeElement>Met het element kunt u een waarde binnen een vooraf gedefinieerd bereik weergeven. Het kan verschillende grafische weergaven hebben.</StiGaugeElement>
-    <StiGroupFooterBand>De GroupFooter band wordt gebruikt om de groepsvoettekst uitvoeren. Deze band wordt geplaatst na de Data band. En dit is de Data band met wat de GroupHeader band is gebonden. Elke GroupFooter band behoort tot de opgegeven GroupHeader band. De GroupFooter band zal niet uitgevoerd worden zonder de GroupHeader band.</StiGroupFooterBand>
-    <StiGroupHeaderBand>Deze band is de basis band voor het weergeven van rapporten met groepering. De componenten met informatie van deze groep op de groepskoptekst. Het kan de groep naam, datum, toestand van de groepering enz. Deze band wordt uitgevoerd een keer in het begin van elke groep.</StiGroupHeaderBand>
-    <StiHeaderBand>Deze band wordt gebruikt om output headers. Het wordt gebruikt samen met de gegevens band.</StiHeaderBand>
-    <StiHierarchicalBand>Deze band is verbonden met de gegevensbron en de uitgang zoveel als er rijen in de gegevensbron. De gegevens worden uitgevoerd als een boom.</StiHierarchicalBand>
-    <StiHorizontalLinePrimitive>Deze component wordt gebruikt om een ​​lijnuitgang.</StiHorizontalLinePrimitive>
-    <StiIconUI>Een pictogram om een symbolische afbeelding of visuele markering weer te geven.</StiIconUI>
-    <StiImage>Dit bestanddeel wordt toegepast om beelden. Het ondersteunt de volgende grafische formaten, zoals BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
-    <StiImageElement>Dit element wordt gebruikt om afbeeldingen uit te voeren. Het ondersteunt de volgende grafische formaten: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF, SVG.</StiImageElement>
-    <StiImageUI>Een afbeelding om grafische inhoud binnen de interface weer te geven.</StiImageUI>
-    <StiIndicatorElement>Het element toont het verschil in waarden tussen de invoergegevens.</StiIndicatorElement>
-    <StiLabelUI>Een label om tekst of korte bijschriften weer te geven.</StiLabelUI>
-    <StiListBoxElement>Met het element kunt u items uit een lijst selecteren.</StiListBoxElement>
-    <StiListUI>Een lijst om selecteerbare items in een verticale verzameling weer te geven.</StiListUI>
-    <StiMap>Dit component wordt gebruikt om gegevens weer te geven die geografisch gericht zijn.</StiMap>
-    <StiMapCategory>Groep elementen voor het werken met kaarten en gegevens.</StiMapCategory>
-    <StiMapElement>Dit element wordt gebruikt om gegevens weer te geven die geografisch gericht zijn.</StiMapElement>
-    <StiMathFormula>Dit component wordt gebruikt om wiskundige formules in een rapport weer te geven.</StiMathFormula>
-    <StiMultiListUI>Een lijst om meerdere items uit dezelfde verzameling te selecteren.</StiMultiListUI>
-    <StiMultiSelectUI>Een selector om meerdere waarden uit een voorbereide lijst te kiezen.</StiMultiSelectUI>
-    <StiNumberBoxElement>Dit element wordt gebruikt om een numerieke waarde te selecteren of een bereik van numerieke waarden in te stellen.</StiNumberBoxElement>
-    <StiNumberInputUI>Een numerieke invoer om numerieke waarden met gecontroleerde invoer in te voeren.</StiNumberInputUI>
-    <StiOnlineMapElement>Dit element wordt gebruikt om geografische markeringen op de online kaart weer te geven.</StiOnlineMapElement>
-    <StiOverlayBand>Deze band wordt gebruikt om output watermerken op een pagina.</StiOverlayBand>
-    <StiPageFooterBand>Deze band wordt gebruikt om de informatie aan de onderkant van elke pagina zoals paginanummers, datums en andere aanvullende informatie te exporteren.</StiPageFooterBand>
-    <StiPageHeaderBand>Deze band wordt gebruikt om de koptekst van de pagina zoals paginanummers, datums en andere aanvullende informatie te exporteren. Het wordt via de bovenkant van elke pagina.</StiPageHeaderBand>
-    <StiPanel>Een rechthoekig gebied die andere componenten bevatten, zoals banden. Wanneer het paneel de verschoven daarin zijn te verplaatsen. Een paneel kan worden geplaatst op een band of een pagina.</StiPanel>
-    <StiPanelElement>Een rechthoekig gebied dat andere elementen kan bevatten. Wanneer het paneel wordt verplaatst, worden de elementen erin ook verplaatst.</StiPanelElement>
-    <StiPanelUI>Een paneel om andere besturingselementen binnen één gebied te groeperen en te ordenen.</StiPanelUI>
-    <StiPdfDigitalSignature>Dit interactieve component wordt gebruikt om een plaats voor de digitale handtekening op te geven nadat het rapport naar Adobe PDF is geëxporteerd.</StiPdfDigitalSignature>
-    <StiPdfDigitalSignatureElement>Dit component wordt gebruikt om een ruimte op te geven voor de digitale handtekening en velden uit het certificaat bij het exporteren naar PDF.</StiPdfDigitalSignatureElement>
-    <StiPivotTableElement>Het draaitabelelement wordt gebruikt om gestructureerde gegevens als een tabel weer te geven.</StiPivotTableElement>
-    <StiProgressElement>Het element toont de verhouding van de invoergegevens. Het kan in verschillende modi worden weergegeven: cirkel, donut, balken.</StiProgressElement>
-    <StiRadioGroupUI>Een keuzerondjesgroep om één optie uit een voorgedefinieerde set waarden te selecteren.</StiRadioGroupUI>
-    <StiRangeSelectorElement>Dit component wordt gebruikt om een bereik van waarden op een schaal of tijdlijn te selecteren. Hiermee kunnen gebruikers de minimale en maximale grenzen van het bereik visueel bepalen.</StiRangeSelectorElement>
-    <StiRangeSliderUI>Een bereikschuifregelaar om minimum- en maximumwaarden op een schaal te definiëren.</StiRangeSliderUI>
-    <StiRectanglePrimitive>Dit bestanddeel wordt toegepast voor uitvoer rechthoeken.</StiRectanglePrimitive>
-    <StiRegionMapElement>Dit element wordt gebruikt om gegevens weer te geven die geografisch gericht zijn.</StiRegionMapElement>
-    <StiReportSummaryBand>Deze band wordt gebruikt om output samenvattingen door het gehele rapport. Het vermogen als het einde van een rapport.</StiReportSummaryBand>
-    <StiReportTitleBand>Deze band wordt gebruikt om de titel van het rapport uitvoeren. Het is uitgevoerd in het begin van een rapport.</StiReportTitleBand>
-    <StiRichText>Deze component wordt gebruikt voor het uitvoeren en bewerken van de RTF-tekst. Het ondersteunt ook het laden en opslaan van bestanden in de RTF-formaat.</StiRichText>
-    <StiRoundedRectanglePrimitive>Deze component wordt gebruikt om de afgeronde rechthoeken uitvoeren.</StiRoundedRectanglePrimitive>
-    <StiScreen>Een scherm dat besturingselementen, lay-out en gebruikersinteracties voor een app-pagina bevat.</StiScreen>
-    <StiSelectUI>Een keuzevak om één waarde uit een vervolgkeuzelijst te kiezen.</StiSelectUI>
-    <StiShape>Deze component wordt gebruikt om kant-en-klare vormen, zoals pijlen, diagonale lijn naar beneden, diagonaal line-up, horizontale lijn, links en rechts lijnen, ovaal, rechthoek, afgeronde rechthoek, boven en onder lijnen, driehoek, verticale lijn in te voegen.</StiShape>
-    <StiShapeElement>Dit element wordt gebruikt om kant-en-klare vormen in te voegen, zoals pijlen, diagonale lijn omlaag, diagonale lijn omhoog, horizontale lijn, linker- en rechterlijnen, ovaal, rechthoek, afgeronde rechthoek, boven- en onderlijnen, driehoek, verticale lijn.</StiShapeElement>
-    <StiSignature>Dit component wordt gebruikt om een elektronische of digitale handtekening aan een rapport toe te voegen.</StiSignature>
-    <StiSliderUI>Een schuifregelaar om een waarde op een continue numerieke schaal te selecteren.</StiSliderUI>
-    <StiSparkline>Dit component wordt gebruikt om micrografieken in een rapport te maken. Hiermee kunt u dynamisch veranderende gegevens volgen als balken, lijnen en vlakken.</StiSparkline>
-    <StiSubReport>Dit bestanddeel wordt toegepast om extra informatie op verschillende plaatsen van een rapport uitvoeren.</StiSubReport>
-    <StiSwitchUI>Een schakelaar om een instelling met één klik in of uit te schakelen.</StiSwitchUI>
-    <StiTable>Deze component is een groep data elementen die verricht volgens een model van verticale kolommen en horizontale rijen.</StiTable>
-    <StiTableElement>Dit element is een verzameling gegevenselementen die is georganiseerd volgens een model van verticale kolommen en horizontale rijen.</StiTableElement>
-    <StiTableOfContents>Dit component wordt gebruikt om een inhoudsopgave in een rapport te maken.</StiTableOfContents>
-    <StiTableUI>Een tabel om gegevens overzichtelijk in rijen en kolommen weer te geven.</StiTableUI>
-    <StiText>Deze component is een fundamentele doel om data weer als een tekst.</StiText>
-    <StiTextElement>Dit element is een basisobject om gegevens als tekst uit te voeren.</StiTextElement>
-    <StiTextInCells>De component wordt een tekst in cellen uitvoeren. Het wordt vaak gebruikt voor het maken vormen.</StiTextInCells>
-    <StiTextInputUI>Een tekstinvoer om tekstwaarden in te voeren en te bewerken.</StiTextInputUI>
-    <StiTreeViewBoxElement>Het element wordt gebruikt om waarden te selecteren met een vervolgkeuzelijst als boomstructuur.</StiTreeViewBoxElement>
-    <StiTreeViewElement>Vertegenwoordigt het element dat wordt gebruikt om de hiërarchische gegevens als een boomstructuur weer te geven.</StiTreeViewElement>
-    <StiVerticalLinePrimitive>Dit bestanddeel wordt toegepast voor verticale lijnen uitvoeren.</StiVerticalLinePrimitive>
-    <StiWebContentElement>Met het component kunt u webinhoud toevoegen aan dashboards.</StiWebContentElement>
-    <StiWinControl>De component toestaat dat visuele controles uit. NET Framework.</StiWinControl>
-    <StiZipCode>Deze component wordt gebruikt om de postcode uitvoeren.</StiZipCode>
+    <CategoryBands>Stroken voor kopteksten, gegevens en voetteksten.</CategoryBands>
+    <CategoryComponents>Componenten voor tekst, beeld en andere gegevens.</CategoryComponents>
+    <CategoryCrossBands>Stroken die van links naar rechts afdrukken.</CategoryCrossBands>
+    <StiBarCode>Toont een barcode.</StiBarCode>
+    <StiButtonElement>Voert een script uit bij een klik.</StiButtonElement>
+    <StiButtonUI>Start een actie of een opdracht.</StiButtonUI>
+    <StiCardsElement>Toont gegroepeerde gegevens als kaarten.</StiCardsElement>
+    <StiChart>Toont gegevens als grafiek.</StiChart>
+    <StiChartElement>Toont gegevens als grafiek.</StiChartElement>
+    <StiCheckBox>Toont een waarde waar of onwaar als vinkje.</StiCheckBox>
+    <StiCheckBoxGroupUI>Biedt opties om er meerdere van aan te vinken.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>Schakelt één optie in of uit.</StiCheckBoxUI>
+    <StiChildBand>Drukt nog een strook af voor dezelfde gegevensrij.</StiChildBand>
+    <StiClone>Herhaalt de inhoud van een paneel.</StiClone>
+    <StiColumnFooterBand>Drukt af onder elke kolom van een Gegevensstrook.</StiColumnFooterBand>
+    <StiColumnHeaderBand>Drukt af boven elke kolom van een Gegevensstrook.</StiColumnHeaderBand>
+    <StiComboBoxElement>Selecteert een waarde uit een vervolgkeuzelijst.</StiComboBoxElement>
+    <StiContainer>Groepeert andere componenten in één gebied.</StiContainer>
+    <StiCrossDataBand>Drukt eenmaal af per rij, van links naar rechts.</StiCrossDataBand>
+    <StiCrossFooterBand>Drukt af na een strook Draaitabel-Data.</StiCrossFooterBand>
+    <StiCrossGroupFooterBand>Drukt af aan het einde van elke draaitabelgroep.</StiCrossGroupFooterBand>
+    <StiCrossGroupHeaderBand>Drukt af aan het begin van elke draaitabelgroep.</StiCrossGroupHeaderBand>
+    <StiCrossHeaderBand>Drukt af vóór een strook Draaitabel-Data.</StiCrossHeaderBand>
+    <StiCrossTab>Toont gestructureerde gegevens als kruistabel.</StiCrossTab>
+    <StiDataBand>Drukt eenmaal af per rij van een gegevensbron.</StiDataBand>
+    <StiDatePickerElement>Selecteert een datum en tijd.</StiDatePickerElement>
+    <StiDatePickerUI>Toont een kalender om een datum te kiezen.</StiDatePickerUI>
+    <StiElectronicSignature>Plaatst een handtekening als tekening, tekst of beeld.</StiElectronicSignature>
+    <StiEmptyBand>Vult de vrije ruimte onderaan een pagina.</StiEmptyBand>
+    <StiFilterCategory>Elementen die waarden selecteren en filteren.</StiFilterCategory>
+    <StiFooterBand>Drukt af na de rijen van een Gegevensstrook.</StiFooterBand>
+    <StiGauge>Toont een waarde binnen een bereik.</StiGauge>
+    <StiGaugeElement>Toont een waarde binnen een bereik.</StiGaugeElement>
+    <StiGroupFooterBand>Drukt af aan het einde van elke groep.</StiGroupFooterBand>
+    <StiGroupHeaderBand>Drukt af aan het begin van elke groep.</StiGroupHeaderBand>
+    <StiHeaderBand>Drukt af vóór de rijen van een Gegevensstrook.</StiHeaderBand>
+    <StiHierarchicalBand>Drukt de rijen van een gegevensbron af als boom.</StiHierarchicalBand>
+    <StiHorizontalLinePrimitive>Tekent een horizontale lijn.</StiHorizontalLinePrimitive>
+    <StiIconUI>Toont een pictogram.</StiIconUI>
+    <StiImage>Toont een afbeelding.</StiImage>
+    <StiImageElement>Toont een afbeelding.</StiImageElement>
+    <StiImageUI>Toont een afbeelding.</StiImageUI>
+    <StiIndicatorElement>Toont het verschil tussen waarden.</StiIndicatorElement>
+    <StiLabelUI>Toont een korte tekst.</StiLabelUI>
+    <StiListBoxElement>Selecteert items uit een lijst.</StiListBoxElement>
+    <StiListUI>Toont een lijst om één item te kiezen.</StiListUI>
+    <StiMap>Toont gegevens op een kaart.</StiMap>
+    <StiMapCategory>Elementen die gegevens op een kaart tonen.</StiMapCategory>
+    <StiMapElement>Toont gegevens op een kaart.</StiMapElement>
+    <StiMarkdown>Toont Markdown-tekst.</StiMarkdown>
+    <StiMathFormula>Toont een wiskundige formule.</StiMathFormula>
+    <StiMultiListUI>Toont een lijst om meerdere items te kiezen.</StiMultiListUI>
+    <StiMultiSelectUI>Toont een vervolgkeuzelijst voor meerdere waarden.</StiMultiSelectUI>
+    <StiNumberBoxElement>Selecteert een getal of een getallenbereik.</StiNumberBoxElement>
+    <StiNumberInputUI>Ontvangt een getal van de gebruiker.</StiNumberInputUI>
+    <StiOnlineMapElement>Toont markeringen op een online kaart.</StiOnlineMapElement>
+    <StiOverlayBand>Drukt een watermerk af op elke pagina.</StiOverlayBand>
+    <StiPageFooterBand>Drukt af onderaan elke pagina.</StiPageFooterBand>
+    <StiPageHeaderBand>Drukt af bovenaan elke pagina.</StiPageHeaderBand>
+    <StiPanel>Groepeert andere componenten in één gebied.</StiPanel>
+    <StiPanelElement>Groepeert andere elementen in één gebied.</StiPanelElement>
+    <StiPanelUI>Groepeert andere besturingselementen in één gebied.</StiPanelUI>
+    <StiPdfDigitalSignature>Markeert de plaats van de digitale PDF-handtekening.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>Markeert de plaats van de digitale PDF-handtekening.</StiPdfDigitalSignatureElement>
+    <StiPivotTableElement>Toont gestructureerde gegevens als draaitabel.</StiPivotTableElement>
+    <StiProgressElement>Toont een waarde als deel van het geheel.</StiProgressElement>
+    <StiRadioGroupUI>Biedt opties om er één van te kiezen.</StiRadioGroupUI>
+    <StiRangeSelectorElement>Selecteert een bereik op een schaal of tijdlijn.</StiRangeSelectorElement>
+    <StiRangeSliderUI>Stelt een bereik in op een schaal.</StiRangeSliderUI>
+    <StiRectanglePrimitive>Tekent een rechthoek.</StiRectanglePrimitive>
+    <StiRegionMapElement>Toont gegevens op een kaart met regio's.</StiRegionMapElement>
+    <StiReportSummaryBand>Drukt eenmaal af aan het einde van het rapport.</StiReportSummaryBand>
+    <StiReportTitleBand>Drukt eenmaal af aan het begin van het rapport.</StiReportTitleBand>
+    <StiRichText>Toont opgemaakte RTF-tekst.</StiRichText>
+    <StiRoundedRectanglePrimitive>Tekent een afgeronde rechthoek.</StiRoundedRectanglePrimitive>
+    <StiScreen>Bevat de besturingselementen van een app-pagina.</StiScreen>
+    <StiSelectUI>Toont een vervolgkeuzelijst voor één waarde.</StiSelectUI>
+    <StiShape>Toont een kant-en-klare vorm.</StiShape>
+    <StiShapeElement>Toont een kant-en-klare vorm.</StiShapeElement>
+    <StiSignature>Plaatst een elektronische of digitale handtekening.</StiSignature>
+    <StiSliderUI>Stelt een waarde in op een schaal.</StiSliderUI>
+    <StiSparkline>Toont een kleine grafiek van een gegevensreeks.</StiSparkline>
+    <StiSubReport>Drukt hier een ander rapport of een pagina af.</StiSubReport>
+    <StiSwitchUI>Schakelt een instelling in of uit.</StiSwitchUI>
+    <StiTable>Toont gegevens in rijen en kolommen.</StiTable>
+    <StiTableElement>Toont gegevens in rijen en kolommen.</StiTableElement>
+    <StiTableOfContents>Stelt de inhoudsopgave samen.</StiTableOfContents>
+    <StiTableUI>Toont gegevens in rijen en kolommen.</StiTableUI>
+    <StiText>Toont gegevens als tekst.</StiText>
+    <StiTextElement>Toont gegevens als tekst.</StiTextElement>
+    <StiTextInCells>Toont tekst met één teken per cel.</StiTextInCells>
+    <StiTextInputUI>Ontvangt tekst van de gebruiker.</StiTextInputUI>
+    <StiTreeViewBoxElement>Selecteert waarden uit een uitklapbare boom.</StiTreeViewBoxElement>
+    <StiTreeViewElement>Toont hiërarchische gegevens als boom.</StiTreeViewElement>
+    <StiVerticalLinePrimitive>Tekent een verticale lijn.</StiVerticalLinePrimitive>
+    <StiWebContentElement>Toont webinhoud.</StiWebContentElement>
+    <StiWinControl>Toont een visueel .NET-besturingselement.</StiWinControl>
+    <StiZipCode>Toont een ZIP-code.</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
     <ActiveRelation>Stelt de prioriteitsrelatie in om twee tabellen te koppelen. Deze wordt gebruikt bij Gegevenstransformatie en Dashboards. Slechts één relatie in elke Gegevensbron kan actief zijn.</ActiveRelation>
-    <Align>De locatie van de geselecteerde componenten.</Align>
-    <AlignBottom>Breng de inhoud van een component naar beneden.</AlignBottom>
-    <AlignCenter>Breng de inhoud van een component tot het centrum.</AlignCenter>
+    <Align>Lijn de geselecteerde componenten uit.</Align>
+    <AlignBottom>Lijn de inhoud onderaan uit.</AlignBottom>
+    <AlignCenter>Centreer de inhoud.</AlignCenter>
     <AlignComponentBottom>Hiermee kunt u horizontaal uitlijnen van objecten langs de onderste rand van de geselecteerde componenten.</AlignComponentBottom>
     <AlignComponentCenter>Hiermee kunt u horizontaal uitlijnen van objecten langs het midden rand van de geselecteerde componenten.</AlignComponentCenter>
     <AlignComponentLeft>Hiermee kunt u objecten uit te lijnen verticaal langs de linkerrand van de geselecteerde componenten.</AlignComponentLeft>
     <AlignComponentMiddle>Hiermee kunt u objecten uit te lijnen verticaal langs het centrum rand van de geselecteerde componenten.</AlignComponentMiddle>
     <AlignComponentRight>Hiermee kunt u objecten uit te lijnen verticaal langs de rechterkant van de geselecteerde componenten.</AlignComponentRight>
     <AlignComponentTop>Hiermee kunt u horizontaal uitlijnen van objecten langs de bovenrand van de geselecteerde componenten.</AlignComponentTop>
-    <AlignLeft>Breng de inhoud van een component naar links.</AlignLeft>
-    <AlignMiddle>Centreer de inhoud van de boven-en onderrand van een component.</AlignMiddle>
-    <AlignRight>Breng de inhoud van een component naar rechts.</AlignRight>
-    <AlignToGrid>Lijn de geselecteerde componenten op raster knooppunten.</AlignToGrid>
-    <AlignTop>Breng de inhoud van een component naar boven.</AlignTop>
-    <AlignWidth>Rechtvaardig de inhoud van een component.</AlignWidth>
-    <Angle>Draai de inhoud van de component.</Angle>
+    <AlignLeft>Lijn de inhoud links uit.</AlignLeft>
+    <AlignMiddle>Lijn de inhoud in het midden uit.</AlignMiddle>
+    <AlignRight>Lijn de inhoud rechts uit.</AlignRight>
+    <AlignToGrid>Lijn de geselecteerde componenten uit op het raster.</AlignToGrid>
+    <AlignTop>Lijn de inhoud bovenaan uit.</AlignTop>
+    <AlignWidth>Vul de inhoud uit.</AlignWidth>
+    <Angle>Draai de tekst.</Angle>
     <AngleWatermark>Het watermerk tekst rotatiehoek.</AngleWatermark>
-    <Background>Verander de achtergrond van de geselecteerde componenten.</Background>
-    <biConditions>Controle lijst met voorwaarden van de geselecteerde componenten.</biConditions>
-    <BorderColor>Selecteer de rand kleur van de geselecteerde component.</BorderColor>
-    <BorderSidesAll>Schakel alle randen zijden van de geselecteerde componenten.</BorderSidesAll>
-    <BorderSidesBottom>Schakel de onderste rand kant van de geselecteerde componenten.</BorderSidesBottom>
-    <BorderSidesLeft>Schakel linkerrand zijde van de geselecteerde componenten.</BorderSidesLeft>
-    <BorderSidesNone>Schakel linkerrand zijde van de geselecteerde componenten.</BorderSidesNone>
-    <BorderSidesRight>Schakel rechterrand zijde van de geselecteerde componenten.</BorderSidesRight>
-    <BorderSidesTop>Schakel de bovenrand kant van de geselecteerde componenten.</BorderSidesTop>
-    <BorderStyle>Selecteer de rand stijl van de geselecteerde componenten.</BorderStyle>
-    <BringToFront>Breng de geselecteerde component naar voren.</BringToFront>
+    <Background>Wijzig de achtergrond.</Background>
+    <biConditions>Bewerk de voorwaarden.</biConditions>
+    <BorderColor>Wijzig de randkleur.</BorderColor>
+    <BorderSidesAll>Toon alle randen.</BorderSidesAll>
+    <BorderSidesBottom>Toon of verberg de onderrand.</BorderSidesBottom>
+    <BorderSidesLeft>Toon of verberg de linkerrand.</BorderSidesLeft>
+    <BorderSidesNone>Verberg alle randen.</BorderSidesNone>
+    <BorderSidesRight>Toon of verberg de rechterrand.</BorderSidesRight>
+    <BorderSidesTop>Toon of verberg de bovenrand.</BorderSidesTop>
+    <BorderStyle>Wijzig de randstijl.</BorderStyle>
+    <BringToFront>Breng naar de voorgrond.</BringToFront>
     <CenterHorizontally>Hiermee kunt u af te stemmen op een component horizontaal ten opzichte van de container randen in wat het wordt geplaatst.</CenterHorizontally>
     <CenterVertically>Hiermee kunt u af te stemmen op een component verticaal ten opzichte van de verpakking randen in wat het wordt geplaatst.</CenterVertically>
     <Close>Sluit de Report Designer.</Close>
-    <Columns>Split een pagina in kolommen.</Columns>
+    <Columns>Splits de pagina in kolommen.</Columns>
     <CompilationAccess1>Dit document maakt gebruik van het compilatieproces. Als het document van een vertrouwde bron afkomstig is, kunt u op de knop "Openen" klikken om het te openen.</CompilationAccess1>
     <CompilationAccess2>Als u niet zeker bent van de bron van het document maar het toch wilt bekijken, kunt u op de knop "Openen in veilige modus" klikken. In dat geval gebruikt u interpretatie in plaats van compilatie, waardoor u het document veilig kunt uitvoeren.</CompilationAccess2>
     <CompilationAccess3>Dit document maakt gebruik van het compilatieproces en dit kan onveilig zijn. U kunt het niet openen.</CompilationAccess3>
@@ -2185,15 +2189,15 @@
     <CompilationAccessForceInterpretation>Documenten met compilatie worden zonder enige melding geopend, maar worden automatisch geconverteerd naar interpretatiemodus, die het compilatieproces niet gebruikt.</CompilationAccessForceInterpretation>
     <CompilationAccessTitle>Het document gebruikt compilatie</CompilationAccessTitle>
     <CompilationModeEnabling>U schakelt over naar de compilatiemodus. In deze modus kunt u verschillende code uitvoeren, wat soms schadelijk kan zijn. Gebruik deze modus alleen als u alle risico's begrijpt en ermee akkoord gaat. Klik op de knop {0} om door te gaan.</CompilationModeEnabling>
-    <ComponentSize>De grootte van de geselecteerde componenten.</ComponentSize>
-    <ComponentsMenu>Opent het menu Componenten met ongebruikte dashboardelementen op het mobiele oppervlak.</ComponentsMenu>
-    <CopyStyle>Stijl kopiëren</CopyStyle>
+    <ComponentSize>Wijzig de grootte van de geselecteerde componenten.</ComponentSize>
+    <ComponentsMenu>Toon de ongebruikte elementen.</ComponentsMenu>
+    <CopyStyle>Kopieer de stijl naar andere componenten.</CopyStyle>
     <CopyToClipboard>Kopiëren naar klembord</CopyToClipboard>
-    <CurrencySymbol>Selecteer de valuta symbool.</CurrencySymbol>
+    <CurrencySymbol>Selecteer het valutasymbool.</CurrencySymbol>
     <DashboardNew>Een nieuw dashboard maken.</DashboardNew>
     <DataStore>Tonen van gegevens, geregistreerd in een rapport.</DataStore>
-    <DateTimeFormat>Selecteer de datum en tijd formaat voor de geselecteerde componenten.</DateTimeFormat>
-    <DockingPanels>Paneel-instellingen.</DockingPanels>
+    <DateTimeFormat>Selecteer het datum- en tijdformaat.</DateTimeFormat>
+    <DockingPanels>Toon of verberg de panelen.</DockingPanels>
     <DockStyleBottom>Dock geselecteerde componenten aan onderkant.</DockStyleBottom>
     <DockStyleFill>Dock geselecteerde componenten naar alle kanten.</DockStyleFill>
     <DockStyleLeft>Dock geselecteerde componenten aan de linkerkant.</DockStyleLeft>
@@ -2202,18 +2206,18 @@
     <DockStyleTop>Dok de geselecteerde componenten aan de bovenkant.</DockStyleTop>
     <EventsAccess1>Dit document maakt gebruik van Events. Als het document van een vertrouwde bron afkomstig is, kunt u op de knop "Openen" klikken om het te openen.</EventsAccess1>
     <EventsAccess2>Als u niet zeker bent van de bron van het document maar het toch wilt bekijken, kunt u op de knop "Openen in veilige modus" klikken. In dat geval worden gebeurtenissen genegeerd en niet uitgevoerd.</EventsAccess2>
-    <FontGrow>Maak de grootte van de tekst groter.</FontGrow>
-    <FontName>De tekst lettertype.</FontName>
+    <FontGrow>Maak de tekst groter.</FontGrow>
+    <FontName>Wijzig het lettertype van de tekst.</FontName>
     <FontNameWatermark>Het watermerk tekst lettertype.</FontNameWatermark>
     <FontShrink>Maak de tekst kleiner.</FontShrink>
-    <FontSize>Lettergrootte.</FontSize>
+    <FontSize>Wijzig de tekstgrootte.</FontSize>
     <FontSizeWatermark>Verander de lettergrootte.</FontSizeWatermark>
     <FontStyleBold>Maak de tekst vet.</FontStyleBold>
     <FontStyleBoldWatermark>Maak de tekst van het watermerk vet.</FontStyleBoldWatermark>
     <FontStyleItalic>Maak de tekst cursief.</FontStyleItalic>
     <FontStyleItalicWatermark>Maak het watermerk tekst cursief.</FontStyleItalicWatermark>
-    <FontStyleStrikeout>De tekst doorhalen.</FontStyleStrikeout>
-    <FontStyleUnderline>Maak de tekst onderstreept.</FontStyleUnderline>
+    <FontStyleStrikeout>Haal de tekst door.</FontStyleStrikeout>
+    <FontStyleUnderline>Onderstreep de tekst.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Maak het watermerk tekst onderstreept.</FontStyleUnderlineWatermark>
     <FormatBoolean>Dit formaat wordt gebruikt voor het opmaken van waarden van de boolean type.</FormatBoolean>
     <FormatCurrency>Geef een waarde als betaalmiddel. Het staat u toe om een ​​aantal weer te geven met de standaard valuta symbool.</FormatCurrency>
@@ -2224,61 +2228,61 @@
     <FormatPercentage>Geef een waarde als percentage. Getallen worden vermenigvuldigd met 100 om te zetten naar percentages.</FormatPercentage>
     <FormatTime>Geef een waarde als de tijd. Het formaat is gebaseerd op de regionale tijdsinstellingen.</FormatTime>
     <FormNew>Maak een nieuw dialoogvenster formulier.</FormNew>
-    <GridMode>Tonen rooster in lijnen of punten.</GridMode>
+    <GridMode>Toon het raster als lijnen of punten.</GridMode>
     <ImageAlignment>Zet een watermerk beeld op een pagina.</ImageAlignment>
     <ImageTransparency>Wijzig de transparantie van het watermerk afbeelding.</ImageTransparency>
-    <Interaction>Interactie</Interaction>
-    <LineSpacing>Kies hoeveel ruimte er tussen tekstregels of tussen alinea's verschijnt.</LineSpacing>
-    <Link>Link de component naar de huidige container.</Link>
+    <Interaction>Stel de interactie in.</Interaction>
+    <LineSpacing>Wijzig de regelafstand.</LineSpacing>
+    <Link>Koppel aan de container.</Link>
     <LoadImage>Laad watermerk beelden uit het bestand.</LoadImage>
-    <Lock>Zet de component. De component kan niet worden verplaatst en vergroot of verkleind.</Lock>
-    <MainMenu>Klik hier om de lijst met mogelijke activiteiten met een rapport, waaronder het openen, sluiten, en een voorbeschouwing te zien.</MainMenu>
+    <Lock>Vergrendel de positie en grootte.</Lock>
+    <MainMenu>Maak, open of bewaar een rapport.</MainMenu>
     <MakeHorizontalSpacingEqual>Hiermee kunt u gelijke horizontale afstand tussen de geselecteerde componenten.</MakeHorizontalSpacingEqual>
     <MakeVerticalSpacingEqual>Hiermee kunt u gelijke verticale afstand tussen de geselecteerde componenten.</MakeVerticalSpacingEqual>
-    <Margins>Selecteer de marges van de huidige pagina.</Margins>
+    <Margins>Selecteer de paginamarges.</Margins>
     <menuCheckIssues>Controleer door middel van een verslag aan fouten, waarschuwingen te vinden en aanbevelingen te krijgen.</menuCheckIssues>
     <menuDesignerOptions>Setup rapport ontwerper opties.</menuDesignerOptions>
     <menuEditClearContents>Wis de inhoud.</menuEditClearContents>
-    <menuEditCopy>Kopieer de geselecteerde componenten en leg ze op het Klembord.</menuEditCopy>
-    <menuEditCut>Knip de geselecteerde componenten uit een rapport en leg ze op het Klembord.</menuEditCut>
-    <menuEditDelete>Geselecteerde componenten.</menuEditDelete>
-    <menuEditPaste>Plak de inhoud van het Klembord in het rapport.</menuEditPaste>
-    <menuExportSettings>Opent de editor voor exportinstellingen voor het huidige rapport of dashboard. Instellingen worden alleen toegepast bij het exporteren van het huidige rapport of dashboard.</menuExportSettings>
+    <menuEditCopy>Kopieer de geselecteerde componenten.</menuEditCopy>
+    <menuEditCut>Knip de geselecteerde componenten.</menuEditCut>
+    <menuEditDelete>Verwijder de geselecteerde componenten.</menuEditDelete>
+    <menuEditPaste>Plak vanaf het Klembord.</menuEditPaste>
+    <menuExportSettings>Wijzig de exportinstellingen.</menuExportSettings>
     <menuFAQPage>Ga naar de webpagina met veelgestelde vragen.</menuFAQPage>
-    <menuGlobalizationStrings>Bel de globalisering Strings redacteur van het huidige rapport.</menuGlobalizationStrings>
+    <menuGlobalizationStrings>Bewerk de globalisatieteksten.</menuGlobalizationStrings>
     <menuHelpAboutProgramm>Krijg informatie over de versie van het rapport-generator en de versie van. Net Framework.</menuHelpAboutProgramm>
     <menuHomePage>Ga naar de startpagina van het product.</menuHomePage>
     <menuPageOptions>Stel de fundamentele parameters van de huidige pagina. Alle pagina opties kunnen worden gewijzigd met de eigenschappencontrole paneel.</menuPageOptions>
     <menuPagesManager>Voer de pagina's Manager. Het Verplaatsen pagina's, verwijderen van pagina's, en het creëren van nieuwe pagina's.</menuPagesManager>
-    <menuPreviewSettings>Bel de Preview-instellingen redacteur van het huidige rapport. Instellingen zal alleen worden toegepast bij het bekijken van het huidige rapport.</menuPreviewSettings>
+    <menuPreviewSettings>Wijzig de voorbeeldinstellingen.</menuPreviewSettings>
     <menuPrint>Selecteer een printer, aantal kopieën en andere afdrukken opties voor het afdrukken.</menuPrint>
     <menuPrintPreview>Een voorbeeld van een rapport voor het afdrukken.</menuPrintPreview>
     <menuPrintQuick>Druk een rapport rechtstreeks naar de standaard printer. Afdrukken dialoogvenster wordt niet weergegeven.</menuPrintQuick>
-    <menuReportOptions>Stel het basisrapport opties. Alle opties kunnen worden gewijzigd met de Property panel.</menuReportOptions>
+    <menuReportOptions>Wijzig de rapportopties.</menuReportOptions>
     <menuStyleDesigner>Bel de Style Designer van het huidige rapport.</menuStyleDesigner>
     <menuSupport>Ga naar de support pagina naar een vraag te stellen.</menuSupport>
-    <menuViewAlignToGrid>Lijn componenten tot het net.</menuViewAlignToGrid>
+    <menuViewAlignToGrid>Lijn componenten uit op het raster.</menuViewAlignToGrid>
     <menuViewNormal>Normale weergave van een pagina.</menuViewNormal>
     <menuViewPageBreakPreview>De wijze van met een pagina met een rand van de segmenten.</menuViewPageBreakPreview>
-    <menuViewQuickInfo>Tonen snelle informatie van de componenten: component naam, alias, inhoud, evenementen etc.</menuViewQuickInfo>
-    <menuViewShowGrid>Zet rasterlijnen die u zelf kunt objecten uit te lijnen in een rapport.</menuViewShowGrid>
-    <menuViewShowHeaders>Tonen headers van bands.</menuViewShowHeaders>
-    <menuViewShowOrder>Tonen volgorde van de onderdelen op een pagina.</menuViewShowOrder>
-    <menuViewShowRulers>Bekijk de heersers, voor het meten en line-up objecten op een pagina.</menuViewShowRulers>
-    <menuViewShowSmartGuides>Toon slimme hulplijnen om componenten ten opzichte van elkaar te positioneren.</menuViewShowSmartGuides>
-    <MoveBackward>Verplaats een component om een niveau hoger in de volgorde van het plaatsen van onderdelen op een pagina.</MoveBackward>
-    <MoveForward>Verplaats een component om een niveau lager in de volgorde van het plaatsen van onderdelen op een pagina.</MoveForward>
+    <menuViewQuickInfo>Toon snelle informatie over componenten.</menuViewQuickInfo>
+    <menuViewShowGrid>Toon het raster.</menuViewShowGrid>
+    <menuViewShowHeaders>Toon de kopteksten van de stroken.</menuViewShowHeaders>
+    <menuViewShowOrder>Toon de volgorde van componenten.</menuViewShowOrder>
+    <menuViewShowRulers>Toon de linialen.</menuViewShowRulers>
+    <menuViewShowSmartGuides>Toon de slimme hulplijnen.</menuViewShowSmartGuides>
+    <MoveBackward>Verplaats één niveau naar achteren.</MoveBackward>
+    <MoveForward>Verplaats één niveau naar voren.</MoveForward>
     <NotPossibleEnableCompilationMode>Het is onmogelijk om de compilatiemodus voor het rapport in te schakelen. Dit is verboden door de optie 'Compilatietoegang' in de designerinstellingen.</NotPossibleEnableCompilationMode>
-    <Orientation>Zet de pagina's tussen portret en landschap lay-outs.</Orientation>
+    <Orientation>Wissel tussen staand en liggend.</Orientation>
     <PageDelete>Verwijder huidige pagina uit een rapport.</PageDelete>
     <PageNew>Maak een nieuwe pagina.</PageNew>
-    <PageSetup>Tonen het dialoogvenster Pagina-instelling.</PageSetup>
-    <PageSize>Kies het papierformaat voor de huidige pagina van een rapport.</PageSize>
+    <PageSetup>Wijzig de pagina-instellingen.</PageSetup>
+    <PageSize>Selecteer het papierformaat.</PageSize>
     <PagesManager>Voer de pagina's Manager.</PagesManager>
     <PressF1>Druk op F1 voor meer details</PressF1>
-    <PropertiesButton>Activeert het eigenschappenpaneel met de eigenschappen van de rapportsjabloon.</PropertiesButton>
+    <PropertiesButton>Toon de rapporteigenschappen.</PropertiesButton>
     <Redo>Opnieuw de eerder geannuleerde verandering in een rapport.</Redo>
-    <RemoveMobileSurfaceButton>Verwijdert het mobiele oppervlak uit het huidige dashboard.</RemoveMobileSurfaceButton>
+    <RemoveMobileSurfaceButton>Verwijder het mobiele oppervlak.</RemoveMobileSurfaceButton>
     <ReportNew>Maak een nieuw rapport.</ReportNew>
     <ReportOpen>Open een rapport in ontwerper.</ReportOpen>
     <ReportPreview>Voorbeeld van een bewerkte rapport in kijker.</ReportPreview>
@@ -2290,14 +2294,14 @@
     <ScriptSecuritySafeMode>Veilige scripttoegang (beperkte mogelijkheden voor beveiliging).</ScriptSecuritySafeMode>
     <SelectAll>Selecteer alle componenten op de huidige pagina.</SelectAll>
     <SelectUILanguage>Selecteer de taal voor de gebruikersinterface.</SelectUILanguage>
-    <SendToBack>Het geselecteerde component terug ten opzichte van andere componenten.</SendToBack>
+    <SendToBack>Stuur naar de achtergrond.</SendToBack>
     <ServicesConfigurator>Voer de Diensten Configurator.</ServicesConfigurator>
-    <Shadow>Tonen de schaduw van een component.</Shadow>
+    <Shadow>Toon of verberg de schaduw.</Shadow>
     <ShowBehind>Tonen het watermerk tekst achter de componenten.</ShowBehind>
     <ShowImageBehind>Plaats het watermerk beeld achter alle onderdelen op een pagina.</ShowImageBehind>
     <ShowToolbox>Tonen de toolbox.</ShowToolbox>
     <StimulsoftHelp>Stimulsoft Help</StimulsoftHelp>
-    <StyleDesigner>Run Style Designer.</StyleDesigner>
+    <StyleDesigner>Open de Stijl Ontwerper.</StyleDesigner>
     <TellMeMore>Vertel me meer</TellMeMore>
     <Text>Watermark tekst.</Text>
     <TextBrush>Wijzig de tekstkleur.</TextBrush>
@@ -2306,30 +2310,31 @@
     <TextFormat>Selecteer het formaat van waarden.</TextFormat>
     <ToolbarStyle>Stel geselecteerde stijl op alle geselecteerde componenten.</ToolbarStyle>
     <Undo>Maak de laatste wijziging in een rapport.</Undo>
-    <ViewModeDesktopButton>Desktopoppervlak activeren.</ViewModeDesktopButton>
-    <ViewModeMobileButton>Mobiel oppervlak activeren.</ViewModeMobileButton>
-    <WordWrap>Wikkel de tekst van een component.</WordWrap>
+    <ViewModeDesktopButton>Toon het desktopoppervlak.</ViewModeDesktopButton>
+    <ViewModeMobileButton>Toon het mobiele oppervlak.</ViewModeMobileButton>
+    <Watermark>Wijzig de watermerkinstellingen.</Watermark>
+    <WordWrap>Laat de tekst teruglopen.</WordWrap>
     <Zoom>Geef het zoomniveau van het rapport.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
-    <StiButtonControl>Vertegenwoordigt de knop controle.</StiButtonControl>
-    <StiCheckBoxControl>Vertegenwoordigt de vlag controle.</StiCheckBoxControl>
-    <StiCheckedListBoxControl>Toont de Lijst object, wordt in wat een vlag aan de linkerkant getoond voor elke elementen.</StiCheckedListBoxControl>
-    <StiComboBoxControl>Vertegenwoordigt de ComboBox die wordt gebruikt om direct een waarde typen in de bediening of in de lijst van de bestaande opties te kiezen.</StiComboBoxControl>
-    <StiDateTimePickerControl>Vertegenwoordigt de controle die het mogelijk maakt de keuze van de datum en tijd. Het laat u ook uitvoeren de datum en tijd in de opgegeven formaat.</StiDateTimePickerControl>
-    <StiGridControl>Vertegenwoordigt de Grid controle die bestaan ​​uit rijen en kolommen.</StiGridControl>
-    <StiGroupBoxControl>Vertegenwoordigt de controle die een container creëert met randen en een header voor de UI inhoud.</StiGroupBoxControl>
-    <StiLabelControl>Een label is een user interface controle die tekst op een formulier. Het is meestal een statische controle zonder interactiviteit.</StiLabelControl>
-    <StiListBoxControl>Bevat de lijst van elementen voor de selectie.</StiListBoxControl>
-    <StiListViewControl>Vertegenwoordigt de ListView dat de lijst van data-elementen laat zien.</StiListViewControl>
-    <StiLookUpBoxControl>Bevat de lijst van elementen voor de selectie.</StiLookUpBoxControl>
-    <StiNumericUpDownControl>Vertegenwoordigt de controle die numerieke waarden laat zien.</StiNumericUpDownControl>
-    <StiPanelControl>De paneelelementen worden gebruikt voor het plaatsen en inrichting voorwerpen.</StiPanelControl>
-    <StiPictureBoxControl>Vertegenwoordigt de controle voor het tonen van een afbeelding.</StiPictureBoxControl>
-    <StiRadioButtonControl>Vertegenwoordigt de radio button control waarmee de gebruiker om te kiezen slechts een van een vooraf gedefinieerde set opties.</StiRadioButtonControl>
-    <StiRichTextBoxControl>Vertegenwoordigt de RichText controle met verbreden bewerken.</StiRichTextBoxControl>
-    <StiTextBoxControl>Vertegenwoordigt de tekst besturingselement dat wordt gebruikt voor het tonen van of bewerken van een tekst.</StiTextBoxControl>
-    <StiTreeViewControl>Geeft de controle die wordt gebruikt om de hiërarchische gegevens tonen een boom.</StiTreeViewControl>
+    <StiButtonControl>Voert een actie uit bij een klik.</StiButtonControl>
+    <StiCheckBoxControl>Schakelt één optie in of uit.</StiCheckBoxControl>
+    <StiCheckedListBoxControl>Toont een lijst met een selectievakje per item.</StiCheckedListBoxControl>
+    <StiComboBoxControl>Toont een vervolgkeuzelijst om te kiezen of te typen.</StiComboBoxControl>
+    <StiDateTimePickerControl>Toont een kalender om datum en tijd te kiezen.</StiDateTimePickerControl>
+    <StiGridControl>Toont gegevens in rijen en kolommen.</StiGridControl>
+    <StiGroupBoxControl>Groepeert besturingselementen in een kader met titel.</StiGroupBoxControl>
+    <StiLabelControl>Toont een tekst op het formulier.</StiLabelControl>
+    <StiListBoxControl>Toont een lijst om items te kiezen.</StiListBoxControl>
+    <StiListViewControl>Toont een lijst met gegevensitems.</StiListViewControl>
+    <StiLookUpBoxControl>Toont een vervolgkeuzelijst om een item te kiezen.</StiLookUpBoxControl>
+    <StiNumericUpDownControl>Ontvangt een getal, met knoppen om het te wijzigen.</StiNumericUpDownControl>
+    <StiPanelControl>Groepeert andere besturingselementen in één gebied.</StiPanelControl>
+    <StiPictureBoxControl>Toont een afbeelding.</StiPictureBoxControl>
+    <StiRadioButtonControl>Kiest één optie uit een groep.</StiRadioButtonControl>
+    <StiRichTextBoxControl>Toont en bewerkt opgemaakte tekst.</StiRichTextBoxControl>
+    <StiTextBoxControl>Toont en bewerkt een tekst.</StiTextBoxControl>
+    <StiTreeViewControl>Toont hiërarchische gegevens als boom.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
     <AddPageBreaks>Visuele scheiding van rapportpagina's.</AddPageBreaks>

@@ -2046,135 +2046,139 @@
     <sys_morebuttons>अधिक बटन</sys_morebuttons>
   </Gui>
   <HelpComponents>
-    <StiBarCode>यह घटक रिपोर्ट में बारकोड दिखाने की अनुमति देता है। बारकोड डेटा ऑब्जेक्ट को एक स्ट्रिंग के रूप में भेजा जाता है। स्ट्रिंग में कोई भी प्रतीक हो सकते हैं लेकिन केवल चयनित बारकोड प्रकार के लिए अनुमत प्रतीक ही प्रदर्शित किए जा सकते हैं।</StiBarCode>
-    <StiButtonElement>इस एलिमेंट का उपयोग तब इवेंट स्क्रिप्ट चलाने के लिए किया जाता है जब कोई उपयोगकर्ता इसके साथ इंटरैक्ट करता है।</StiButtonElement>
-    <StiButtonUI>किसी क्रिया को ट्रिगर करने या कमांड शुरू करने के लिए उपयोग किया जाने वाला बटन।</StiButtonUI>
-    <StiCardsElement>इस एलिमेंट का उपयोग समूहित डेटा को कार्ड के रूप में प्रदर्शित करने के लिए किया जाता है।</StiCardsElement>
-    <StiChart>यह घटक रिपोर्ट में चार्ट दिखाने की अनुमति देता है। विभिन्न प्रकार के चार्ट उपलब्ध हैं। उनमें बार, लाइन, पाई, डोनट, एरिया, गैंट और स्कैटर चार्ट आदि शामिल हैं।</StiChart>
-    <StiChartElement>यह एलिमेंट डैशबोर्ड में चार्ट दिखाने की अनुमति देता है। विभिन्न प्रकार के चार्ट उपलब्ध हैं।</StiChartElement>
-    <StiCheckBox>यह घटक रिपोर्ट में चेकबॉक्स दिखाने की अनुमति देता है। इसे दो स्थितियों में प्रदर्शित किया जा सकता है: "सक्षम" या "अक्षम"।</StiCheckBox>
-    <StiCheckBoxGroupUI>सूची से कई पूर्वनिर्धारित विकल्प चुनने के लिए उपयोग किया जाने वाला चेकबॉक्स समूह।</StiCheckBoxGroupUI>
-    <StiCheckBoxUI>किसी एकल विकल्प को त्वरित रूप से चालू या बंद करने के लिए उपयोग किया जाने वाला चेकबॉक्स।</StiCheckBoxUI>
-    <StiChildBand>चाइल्ड बैंड का उपयोग एक डेटा पंक्ति पर दो बैंड आउटपुट करने के लिए किया जा सकता है।</StiChildBand>
-    <StiClone>इस घटक का उपयोग रिपोर्ट के भागों को रिपोर्ट के किसी अन्य भाग में क्लोन करने के लिए किया जाता है। क्लोनिंग केवल पैनल सामग्री पर लागू की जा सकती है।</StiClone>
-    <StiColumnFooterBand>इस बैंड का उपयोग डेटा बैंड पर कॉलम के फुटर आउटपुट करने के लिए किया जाता है। कॉलम फुटर बैंड प्रत्येक कॉलम के नीचे एक बार आउटपुट होता है। इस बैंड पर रखे गए सभी घटक भी प्रत्येक कॉलम के नीचे आउटपुट होंगे।</StiColumnFooterBand>
-    <StiColumnHeaderBand>इस बैंड का उपयोग कॉलम हेडर आउटपुट करने के लिए किया जाता है। कॉलम हेडर बैंड केवल एक बार आउटपुट होता है। बैंड पर रखे गए सभी घटक प्रत्येक कॉलम के ऊपर आउटपुट किए जा सकते हैं।</StiColumnHeaderBand>
-    <StiComboBoxElement>ComboBox का प्रतिनिधित्व करता है जिसका उपयोग नियंत्रण में सीधे मान टाइप करने या मौजूदा विकल्पों की सूची में से चुनने के लिए किया जाता है।</StiComboBoxElement>
-    <StiContainer>यह वह आयताकार क्षेत्र है जहाँ बैंड सहित अन्य घटक रखे जा सकते हैं। कंटेनर को स्थानांतरित करने पर उसमें मौजूद घटक भी स्थानांतरित हो जाएँगे। कंटेनर को बैंड और पेज दोनों पर रखा जा सकता है।</StiContainer>
-    <StiCrossDataBand>यह बैंड डेटा स्रोत से जुड़ा है। यह उतनी ही बार आउटपुट होता है जितनी पंक्तियाँ डेटा स्रोत में होती हैं। क्रॉस बैंड बाएँ से दाएँ आउटपुट होता है।</StiCrossDataBand>
-    <StiCrossFooterBand>इस बैंड का उपयोग क्रॉस-डेटा बैंड के फुटर आउटपुट करने के लिए किया जाता है। यह बैंड डेटा बैंड की सभी पंक्तियों के बाद एक बार आउटपुट होता है। क्रॉस बैंड बाएँ से दाएँ आउटपुट होता है।</StiCrossFooterBand>
-    <StiCrossGroupFooterBand>इस बैंड का उपयोग किसी समूह के फुटर आउटपुट करने के लिए किया जाता है। इसे क्रॉस-डेटा बैंड के नीचे रखा जाता है। प्रत्येक क्रॉस-फुटर निर्दिष्ट क्रॉस-हेडर बैंड से संबंधित होता है। क्रॉस बैंड बाएँ से दाएँ आउटपुट होता है।</StiCrossGroupFooterBand>
-    <StiCrossGroupHeaderBand>यह बैंड ग्रुपिंग के साथ रिपोर्ट रेंडर करने के लिए मूल बैंड है, जब क्रॉस-डेटा का उपयोग किया जाता है। इस बैंड के बिना ग्रुपिंग बनाना असंभव है। समूह के बारे में जानकारी दिखाने वाले घटक समूह हेडर पर रखे जाते हैं। जानकारी में समूह का नाम, तारीख, ग्रुपिंग की शर्त आदि हो सकते हैं। यह बैंड प्रत्येक समूह के आरंभ में आउटपुट होता है। क्रॉस बैंड बाएँ से दाएँ आउटपुट होता है।</StiCrossGroupHeaderBand>
-    <StiCrossHeaderBand>इस बैंड का उपयोग हेडर आउटपुट करने के लिए किया जाता है। इसका उपयोग क्रॉस बैंड के साथ किया जाता है। क्रॉस बैंड बाएँ से दाएँ आउटपुट होता है।</StiCrossHeaderBand>
-    <StiCrossTab>क्रॉस-टैब घटक का उपयोग संरचित डेटा को तालिका के रूप में प्रस्तुत करने के लिए किया जाता है।</StiCrossTab>
-    <StiDataBand>डेटा बैंड डेटा स्रोत से जुड़ा है और उतनी ही बार आउटपुट होता है जितनी पंक्तियाँ डेटा स्रोत में होती हैं।</StiDataBand>
-    <StiDatePickerElement>इस एलिमेंट का उपयोग तारीख और समय चुनने के लिए किया जाता है।</StiDatePickerElement>
-    <StiDatePickerUI>कैलेंडर से तारीख चुनने के लिए उपयोग किया जाने वाला डेट पिकर।</StiDatePickerUI>
-    <StiElectronicSignature>इस घटक का उपयोग ग्राफ़िक हस्ताक्षर, छवि, आद्याक्षर और टेक्स्ट जोड़ने के लिए किया जाता है।</StiElectronicSignature>
-    <StiEmptyBand>इस बैंड का उपयोग पेज के निचले भाग में खाली स्थान भरने के लिए किया जाता है। यह बैंड रिपोर्ट के प्रत्येक पेज पर खाली स्थान भरता है।</StiEmptyBand>
-    <StiFilterCategory>मानों को चुनने और फ़िल्टर करने के लिए उपयोग किए जाने वाले एलिमेंट का समूह।</StiFilterCategory>
-    <StiFooterBand>इस बैंड का उपयोग डेटा बैंड के लिए सारांश आउटपुट करने के लिए किया जाता है। इसे डेटा बैंड के नीचे रखा जाता है और डेटा बैंड द्वारा आउटपुट की गई सभी डेटा पंक्तियों के बाद एक बार आउटपुट होता है।</StiFooterBand>
-    <StiGauge>यह घटक आपको पूर्वनिर्धारित श्रेणी के भीतर एक मान प्रदर्शित करने की अनुमति देता है। इसके विभिन्न ग्राफ़िकल प्रतिनिधित्व हो सकते हैं।</StiGauge>
-    <StiGaugeElement>यह एलिमेंट आपको पूर्वनिर्धारित श्रेणी के भीतर एक मान प्रदर्शित करने की अनुमति देता है। इसके विभिन्न ग्राफ़िकल प्रतिनिधित्व हो सकते हैं।</StiGaugeElement>
-    <StiGroupFooterBand>ग्रुप फुटर बैंड का उपयोग समूह फुटर आउटपुट करने के लिए किया जाता है। यह बैंड डेटा बैंड के बाद रखा जाता है। और यह वही डेटा बैंड है जिससे ग्रुप हेडर बैंड बंधा होता है। प्रत्येक ग्रुप फुटर बैंड निर्दिष्ट ग्रुप हेडर बैंड से संबंधित होता है। ग्रुप फुटर बैंड ग्रुप हेडर बैंड के बिना आउटपुट नहीं होगा।</StiGroupFooterBand>
-    <StiGroupHeaderBand>यह बैंड ग्रुपिंग के साथ रिपोर्ट रेंडर करने के लिए मूल बैंड है। इस समूह के बारे में जानकारी दिखाने वाले घटक समूह हेडर पर रखे जाते हैं। यह समूह का नाम, तारीख, ग्रुपिंग की शर्त आदि हो सकते हैं। यह बैंड प्रत्येक समूह के आरंभ में एक बार आउटपुट होता है।</StiGroupHeaderBand>
-    <StiHeaderBand>इस बैंड का उपयोग हेडर आउटपुट करने के लिए किया जाता है। इसका उपयोग डेटा बैंड के साथ किया जाता है।</StiHeaderBand>
-    <StiHierarchicalBand>यह बैंड डेटा स्रोत से जुड़ा है और उतनी ही बार आउटपुट होता है जितनी पंक्तियाँ डेटा स्रोत में होती हैं। डेटा एक ट्री के रूप में आउटपुट होता है।</StiHierarchicalBand>
-    <StiHorizontalLinePrimitive>इस घटक का उपयोग एक रेखा आउटपुट करने के लिए किया जाता है।</StiHorizontalLinePrimitive>
-    <StiIconUI>प्रतीकात्मक ग्राफ़िक या दृश्य मार्कर प्रदर्शित करने के लिए उपयोग किया जाने वाला आइकन।</StiIconUI>
-    <StiImage>इस घटक का उपयोग छवियाँ आउटपुट करने के लिए किया जाता है।</StiImage>
-    <StiImageElement>इस एलिमेंट का उपयोग छवियाँ आउटपुट करने के लिए किया जाता है। यह निम्नलिखित ग्राफ़िक प्रारूपों का समर्थन करता है: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF, SVG।</StiImageElement>
-    <StiImageUI>इंटरफ़ेस के भीतर ग्राफ़िक सामग्री प्रदर्शित करने के लिए उपयोग की जाने वाली छवि।</StiImageUI>
-    <StiIndicatorElement>यह एलिमेंट इनपुट डेटा के बीच मानों में अंतर प्रदर्शित करता है।</StiIndicatorElement>
-    <StiLabelUI>टेक्स्ट या छोटे कैप्शन प्रदर्शित करने के लिए उपयोग किया जाने वाला लेबल।</StiLabelUI>
-    <StiListBoxElement>यह एलिमेंट सूची से आइटम चुनने की अनुमति देता है।</StiListBoxElement>
-    <StiListUI>चयन योग्य आइटम को लंबवत संग्रह में प्रदर्शित करने के लिए उपयोग की जाने वाली सूची।</StiListUI>
-    <StiMap>इस घटक का उपयोग भौगोलिक रूप से लक्षित डेटा प्रदर्शित करने के लिए किया जाता है।</StiMap>
-    <StiMapCategory>मानचित्र और डेटा के साथ काम करने के लिए एलिमेंट का समूह।</StiMapCategory>
-    <StiMapElement>इस एलिमेंट का उपयोग भौगोलिक रूप से लक्षित डेटा प्रदर्शित करने के लिए किया जाता है।</StiMapElement>
-    <StiMathFormula>इस घटक का उपयोग रिपोर्ट में गणितीय सूत्र प्रदर्शित करने के लिए किया जाता है।</StiMathFormula>
-    <StiMultiListUI>एक ही संग्रह से कई आइटम चुनने के लिए उपयोग की जाने वाली सूची।</StiMultiListUI>
-    <StiMultiSelectUI>तैयार सूची से कई मान चुनने के लिए उपयोग किया जाने वाला चयनकर्ता।</StiMultiSelectUI>
-    <StiNumberBoxElement>इस एलिमेंट का उपयोग संख्यात्मक मान चुनने या संख्यात्मक मानों की श्रेणी सेट करने के लिए किया जाता है।</StiNumberBoxElement>
-    <StiNumberInputUI>नियंत्रित इनपुट के साथ संख्यात्मक मान दर्ज करने के लिए उपयोग किया जाने वाला संख्या इनपुट।</StiNumberInputUI>
-    <StiOnlineMapElement>इस एलिमेंट का उपयोग ऑनलाइन मानचित्र पर भौगोलिक मार्कर प्रदर्शित करने के लिए किया जाता है।</StiOnlineMapElement>
-    <StiOverlayBand>इस बैंड का उपयोग पेज पर वॉटरमार्क आउटपुट करने के लिए किया जाता है।</StiOverlayBand>
-    <StiPageFooterBand>इस बैंड का उपयोग प्रत्येक पेज के नीचे जानकारी जैसे पेज नंबर, तारीख और अन्य अतिरिक्त जानकारी आउटपुट करने के लिए किया जाता है।</StiPageFooterBand>
-    <StiPageHeaderBand>इस बैंड का उपयोग पेज हेडर जैसे पेज नंबर, तारीख और अन्य अतिरिक्त जानकारी आउटपुट करने के लिए किया जाता है। यह प्रत्येक पेज के ऊपर आउटपुट होता है।</StiPageHeaderBand>
-    <StiPanel>एक आयताकार क्षेत्र जिसमें बैंड सहित अन्य घटक हो सकते हैं। जब पैनल को स्थानांतरित किया जाता है तो उसमें मौजूद घटक भी स्थानांतरित हो जाते हैं। पैनल को बैंड या पेज पर रखा जा सकता है।</StiPanel>
-    <StiPanelElement>एक आयताकार क्षेत्र जिसमें अन्य एलिमेंट हो सकते हैं। जब पैनल को स्थानांतरित किया जाता है तो उसमें मौजूद एलिमेंट भी स्थानांतरित हो जाते हैं।</StiPanelElement>
-    <StiPanelUI>एक क्षेत्र के भीतर अन्य नियंत्रणों को समूहित और व्यवस्थित करने के लिए उपयोग किया जाने वाला पैनल।</StiPanelUI>
-    <StiPdfDigitalSignature>इस इंटरैक्टिव घटक का उपयोग रिपोर्ट को Adobe PDF में निर्यात करने के बाद डिजिटल हस्ताक्षर के लिए स्थान निर्दिष्ट करने के लिए किया जाता है।</StiPdfDigitalSignature>
-    <StiPdfDigitalSignatureElement>इस घटक का उपयोग PDF में निर्यात करते समय डिजिटल हस्ताक्षर और प्रमाणपत्र से फ़ील्ड के लिए स्थान निर्दिष्ट करने के लिए किया जाता है।</StiPdfDigitalSignatureElement>
-    <StiPivotTableElement>पिवट तालिका एलिमेंट का उपयोग संरचित डेटा को तालिका के रूप में प्रस्तुत करने के लिए किया जाता है।</StiPivotTableElement>
-    <StiProgressElement>यह एलिमेंट इनपुट डेटा का अनुपात प्रदर्शित करता है। इसे विभिन्न मोड में प्रस्तुत किया जा सकता है - पाई, डोनट, बार।</StiProgressElement>
-    <StiRadioGroupUI>पूर्वनिर्धारित मानों के समूह से एक विकल्प चुनने के लिए उपयोग किया जाने वाला रेडियो समूह।</StiRadioGroupUI>
-    <StiRangeSelectorElement>इस घटक का उपयोग किसी स्केल या टाइमलाइन पर मानों की श्रेणी चुनने के लिए किया जाता है। यह उपयोगकर्ताओं को श्रेणी की न्यूनतम और अधिकतम सीमाएँ दृश्य रूप से परिभाषित करने की अनुमति देता है।</StiRangeSelectorElement>
-    <StiRangeSliderUI>स्केल पर न्यूनतम और अधिकतम मान परिभाषित करने के लिए उपयोग किया जाने वाला रेंज स्लाइडर।</StiRangeSliderUI>
-    <StiRectanglePrimitive>इस घटक का उपयोग आयतों को आउटपुट करने के लिए किया जाता है।</StiRectanglePrimitive>
-    <StiRegionMapElement>इस एलिमेंट का उपयोग भौगोलिक रूप से लक्षित डेटा प्रदर्शित करने के लिए किया जाता है।</StiRegionMapElement>
-    <StiReportSummaryBand>इस बैंड का उपयोग पूरी रिपोर्ट का सारांश आउटपुट करने के लिए किया जाता है। यह रिपोर्ट के अंत में एक बार आउटपुट होता है।</StiReportSummaryBand>
-    <StiReportTitleBand>इस बैंड का उपयोग रिपोर्ट का शीर्षक आउटपुट करने के लिए किया जाता है। यह रिपोर्ट के आरंभ में आउटपुट होता है।</StiReportTitleBand>
-    <StiRichText>इस घटक का उपयोग RTF टेक्स्ट को आउटपुट और संपादित करने के लिए किया जाता है। यह RTF प्रारूप में फ़ाइलें लोड करने और सहेजने का भी समर्थन करता है।</StiRichText>
-    <StiRoundedRectanglePrimitive>इस घटक का उपयोग गोल आयतों को आउटपुट करने के लिए किया जाता है।</StiRoundedRectanglePrimitive>
-    <StiScreen>एक स्क्रीन जो किसी ऐप पेज के लिए नियंत्रण, लेआउट और उपयोगकर्ता इंटरैक्शन को होस्ट करती है।</StiScreen>
-    <StiSelectUI>ड्रॉप-डाउन सूची से एक मान चुनने के लिए उपयोग किया जाने वाला सेलेक्ट बॉक्स।</StiSelectUI>
-    <StiShape>इस घटक का उपयोग तैयार आकृतियाँ सम्मिलित करने के लिए किया जाता है, जैसे तीर, नीचे की ओर विकर्ण रेखा, ऊपर की ओर विकर्ण रेखा, क्षैतिज रेखा, बाईं और दाईं रेखाएँ, अंडाकार, आयत, गोल आयत, ऊपरी और निचली रेखाएँ, त्रिभुज, लंबवत रेखा।</StiShape>
-    <StiShapeElement>इस एलिमेंट का उपयोग तैयार आकृतियाँ सम्मिलित करने के लिए किया जाता है, जैसे तीर, नीचे की ओर विकर्ण रेखा, ऊपर की ओर विकर्ण रेखा, क्षैतिज रेखा, बाईं और दाईं रेखाएँ, अंडाकार, आयत, गोल आयत, ऊपरी और निचली रेखाएँ, त्रिभुज, लंबवत रेखा।</StiShapeElement>
-    <StiSignature>इस घटक का उपयोग रिपोर्ट में इलेक्ट्रॉनिक या डिजिटल हस्ताक्षर जोड़ने के लिए किया जाता है।</StiSignature>
-    <StiSliderUI>निरंतर संख्यात्मक पैमाने पर एक मान चुनने के लिए उपयोग किया जाने वाला स्लाइडर।</StiSliderUI>
-    <StiSparkline>इस घटक का उपयोग रिपोर्ट में माइक्रोग्राफ़िक्स बनाने के लिए किया जाता है। यह आपको गतिशील रूप से बदलते डेटा को बार, रेखाओं, क्षेत्रों के रूप में ट्रैक करने की अनुमति देता है।</StiSparkline>
-    <StiSubReport>इस घटक का उपयोग किसी रिपोर्ट के विभिन्न स्थानों में अतिरिक्त डेटा आउटपुट करने के लिए किया जाता है।</StiSubReport>
-    <StiSwitchUI>एक क्लिक में किसी सेटिंग को चालू या बंद करने के लिए उपयोग किया जाने वाला स्विच।</StiSwitchUI>
-    <StiTable>यह घटक डेटा एलिमेंट्स का एक समूह है जो लंबवत कॉलम और क्षैतिज पंक्तियों के मॉडल का उपयोग करके व्यवस्थित किया गया है।</StiTable>
-    <StiTableElement>यह एलिमेंट डेटा एलिमेंट्स का एक समूह है जो लंबवत कॉलम और क्षैतिज पंक्तियों के मॉडल का उपयोग करके व्यवस्थित किया गया है।</StiTableElement>
-    <StiTableOfContents>इस घटक का उपयोग रिपोर्ट में विषय-सूची बनाने के लिए किया जाता है।</StiTableOfContents>
-    <StiTableUI>पंक्तियों और कॉलम में डेटा को स्पष्ट रूप से प्रदर्शित करने के लिए उपयोग की जाने वाली तालिका।</StiTableUI>
-    <StiText>यह घटक डेटा को टेक्स्ट के रूप में आउटपुट करने के लिए एक बुनियादी ऑब्जेक्ट है।</StiText>
-    <StiTextElement>यह एलिमेंट डेटा को टेक्स्ट के रूप में आउटपुट करने के लिए एक बुनियादी ऑब्जेक्ट है।</StiTextElement>
-    <StiTextInCells>इस घटक का उपयोग सेल में टेक्स्ट आउटपुट करने के लिए किया जाता है। इसका उपयोग अक्सर फ़ॉर्म बनाने के लिए किया जाता है।</StiTextInCells>
-    <StiTextInputUI>टेक्स्ट मान दर्ज करने और संपादित करने के लिए उपयोग किया जाने वाला टेक्स्ट इनपुट।</StiTextInputUI>
-    <StiTreeViewBoxElement>इस एलिमेंट का उपयोग ड्रॉप-डाउन सूची के साथ मानों को पेड़ के रूप में चुनने के लिए किया जाता है।</StiTreeViewBoxElement>
-    <StiTreeViewElement>उस एलिमेंट का प्रतिनिधित्व करता है जिसका उपयोग पदानुक्रमिक डेटा को पेड़ के रूप में दिखाने के लिए किया जाता है।</StiTreeViewElement>
-    <StiVerticalLinePrimitive>इस घटक का उपयोग लंबवत रेखाएँ आउटपुट करने के लिए किया जाता है।</StiVerticalLinePrimitive>
-    <StiWebContentElement>यह घटक डैशबोर्ड में वेब सामग्री जोड़ने की अनुमति देता है।</StiWebContentElement>
-    <StiWinControl>यह घटक .NET से विज़ुअल नियंत्रण दिखाने की अनुमति देता है।</StiWinControl>
-    <StiZipCode>इस घटक का उपयोग ZIP कोड आउटपुट करने के लिए किया जाता है।</StiZipCode>
+    <CategoryBands>हेडर, डेटा और फ़ुटर छापने वाले बैंड।</CategoryBands>
+    <CategoryComponents>टेक्स्ट, छवि और अन्य डेटा दिखाने वाले घटक।</CategoryComponents>
+    <CategoryCrossBands>बाएँ से दाएँ छपने वाले बैंड।</CategoryCrossBands>
+    <StiBarCode>बारकोड दिखाता है।</StiBarCode>
+    <StiButtonElement>क्लिक करने पर स्क्रिप्ट चलाता है।</StiButtonElement>
+    <StiButtonUI>कोई क्रिया या कमांड शुरू करता है।</StiButtonUI>
+    <StiCardsElement>समूहित डेटा कार्ड के रूप में दिखाता है।</StiCardsElement>
+    <StiChart>डेटा को चार्ट के रूप में दिखाता है।</StiChart>
+    <StiChartElement>डेटा को चार्ट के रूप में दिखाता है।</StiChartElement>
+    <StiCheckBox>सही या गलत मान चेक मार्क से दिखाता है।</StiCheckBox>
+    <StiCheckBoxGroupUI>विकल्पों में से कई चुनने देता है।</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>एक विकल्प को चालू या बंद करता है।</StiCheckBoxUI>
+    <StiChildBand>उसी डेटा पंक्ति पर एक और बैंड छापता है।</StiChildBand>
+    <StiClone>पैनल की सामग्री को दोहराता है।</StiClone>
+    <StiColumnFooterBand>डेटा बैंड के हर कॉलम के नीचे छपता है।</StiColumnFooterBand>
+    <StiColumnHeaderBand>डेटा बैंड के हर कॉलम के ऊपर छपता है।</StiColumnHeaderBand>
+    <StiComboBoxElement>ड्रॉप-डाउन सूची से एक मान चुनता है।</StiComboBoxElement>
+    <StiContainer>अन्य घटक एक क्षेत्र में समूहित करता है।</StiContainer>
+    <StiCrossDataBand>हर पंक्ति पर एक बार, बाएँ से दाएँ छपता है।</StiCrossDataBand>
+    <StiCrossFooterBand>क्रॉस-डेटा बैंड के बाद छपता है।</StiCrossFooterBand>
+    <StiCrossGroupFooterBand>हर क्रॉस-समूह के अंत में छपता है।</StiCrossGroupFooterBand>
+    <StiCrossGroupHeaderBand>हर क्रॉस-समूह के आरंभ में छपता है।</StiCrossGroupHeaderBand>
+    <StiCrossHeaderBand>क्रॉस-डेटा बैंड से पहले छपता है।</StiCrossHeaderBand>
+    <StiCrossTab>संरचित डेटा क्रॉस तालिका में दिखाता है।</StiCrossTab>
+    <StiDataBand>डेटा स्रोत की हर पंक्ति पर एक बार छपता है।</StiDataBand>
+    <StiDatePickerElement>दिनांक और समय चुनता है।</StiDatePickerElement>
+    <StiDatePickerUI>दिनांक चुनने का कैलेंडर दिखाता है।</StiDatePickerUI>
+    <StiElectronicSignature>खींचा, टाइप किया या छवि हस्ताक्षर जोड़ता है।</StiElectronicSignature>
+    <StiEmptyBand>पेज के नीचे की खाली जगह भरता है।</StiEmptyBand>
+    <StiFilterCategory>मान चुनने और फ़िल्टर करने वाले एलिमेंट।</StiFilterCategory>
+    <StiFooterBand>डेटा बैंड की पंक्तियों के बाद छपता है।</StiFooterBand>
+    <StiGauge>किसी रेंज के भीतर मान दिखाता है।</StiGauge>
+    <StiGaugeElement>किसी रेंज के भीतर मान दिखाता है।</StiGaugeElement>
+    <StiGroupFooterBand>हर समूह के अंत में छपता है।</StiGroupFooterBand>
+    <StiGroupHeaderBand>हर समूह के आरंभ में छपता है।</StiGroupHeaderBand>
+    <StiHeaderBand>डेटा बैंड की पंक्तियों से पहले छपता है।</StiHeaderBand>
+    <StiHierarchicalBand>डेटा स्रोत की पंक्तियाँ ट्री में छापता है।</StiHierarchicalBand>
+    <StiHorizontalLinePrimitive>क्षैतिज रेखा खींचता है।</StiHorizontalLinePrimitive>
+    <StiIconUI>आइकन दिखाता है।</StiIconUI>
+    <StiImage>छवि दिखाता है।</StiImage>
+    <StiImageElement>छवि दिखाता है।</StiImageElement>
+    <StiImageUI>छवि दिखाता है।</StiImageUI>
+    <StiIndicatorElement>मानों के बीच का अंतर दिखाता है।</StiIndicatorElement>
+    <StiLabelUI>छोटा टेक्स्ट दिखाता है।</StiLabelUI>
+    <StiListBoxElement>सूची से आइटम चुनता है।</StiListBoxElement>
+    <StiListUI>एक आइटम चुनने की सूची दिखाता है।</StiListUI>
+    <StiMap>मानचित्र पर डेटा दिखाता है।</StiMap>
+    <StiMapCategory>मानचित्र पर डेटा दिखाने वाले एलिमेंट।</StiMapCategory>
+    <StiMapElement>मानचित्र पर डेटा दिखाता है।</StiMapElement>
+    <StiMarkdown>Markdown टेक्स्ट दिखाता है।</StiMarkdown>
+    <StiMathFormula>गणितीय सूत्र दिखाता है।</StiMathFormula>
+    <StiMultiListUI>कई आइटम चुनने की सूची दिखाता है।</StiMultiListUI>
+    <StiMultiSelectUI>कई मान चुनने की ड्रॉप-डाउन सूची दिखाता है।</StiMultiSelectUI>
+    <StiNumberBoxElement>संख्या या संख्याओं की रेंज चुनता है।</StiNumberBoxElement>
+    <StiNumberInputUI>उपयोगकर्ता से संख्या लेता है।</StiNumberInputUI>
+    <StiOnlineMapElement>ऑनलाइन मानचित्र पर मार्कर दिखाता है।</StiOnlineMapElement>
+    <StiOverlayBand>हर पेज पर वॉटरमार्क छापता है।</StiOverlayBand>
+    <StiPageFooterBand>हर पेज के नीचे छपता है।</StiPageFooterBand>
+    <StiPageHeaderBand>हर पेज के ऊपर छपता है।</StiPageHeaderBand>
+    <StiPanel>अन्य घटक एक क्षेत्र में समूहित करता है।</StiPanel>
+    <StiPanelElement>अन्य एलिमेंट एक क्षेत्र में समूहित करता है।</StiPanelElement>
+    <StiPanelUI>अन्य नियंत्रण एक क्षेत्र में समूहित करता है।</StiPanelUI>
+    <StiPdfDigitalSignature>PDF में डिजिटल हस्ताक्षर की जगह दर्शाता है।</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>PDF में डिजिटल हस्ताक्षर की जगह दर्शाता है।</StiPdfDigitalSignatureElement>
+    <StiPivotTableElement>संरचित डेटा पिवट तालिका में दिखाता है।</StiPivotTableElement>
+    <StiProgressElement>मान को पूर्ण के भाग के रूप में दिखाता है।</StiProgressElement>
+    <StiRadioGroupUI>विकल्पों में से एक चुनने देता है।</StiRadioGroupUI>
+    <StiRangeSelectorElement>स्केल या टाइमलाइन पर रेंज चुनता है।</StiRangeSelectorElement>
+    <StiRangeSliderUI>स्केल पर रेंज सेट करता है।</StiRangeSliderUI>
+    <StiRectanglePrimitive>आयत खींचता है।</StiRectanglePrimitive>
+    <StiRegionMapElement>क्षेत्रों के मानचित्र पर डेटा दिखाता है।</StiRegionMapElement>
+    <StiReportSummaryBand>रिपोर्ट के अंत में एक बार छपता है।</StiReportSummaryBand>
+    <StiReportTitleBand>रिपोर्ट के आरंभ में एक बार छपता है।</StiReportTitleBand>
+    <StiRichText>प्रारूपित RTF टेक्स्ट दिखाता है।</StiRichText>
+    <StiRoundedRectanglePrimitive>गोल आयत खींचता है।</StiRoundedRectanglePrimitive>
+    <StiScreen>ऐप पेज के नियंत्रण रखता है।</StiScreen>
+    <StiSelectUI>एक मान चुनने की ड्रॉप-डाउन सूची दिखाता है।</StiSelectUI>
+    <StiShape>तैयार आकृति दिखाता है।</StiShape>
+    <StiShapeElement>तैयार आकृति दिखाता है।</StiShapeElement>
+    <StiSignature>इलेक्ट्रॉनिक या डिजिटल हस्ताक्षर जोड़ता है।</StiSignature>
+    <StiSliderUI>स्केल पर मान सेट करता है।</StiSliderUI>
+    <StiSparkline>डेटा श्रृंखला का छोटा चार्ट दिखाता है।</StiSparkline>
+    <StiSubReport>इस जगह अन्य रिपोर्ट या पेज छापता है।</StiSubReport>
+    <StiSwitchUI>सेटिंग को चालू या बंद करता है।</StiSwitchUI>
+    <StiTable>डेटा को पंक्तियों और कॉलम में दिखाता है।</StiTable>
+    <StiTableElement>डेटा को पंक्तियों और कॉलम में दिखाता है।</StiTableElement>
+    <StiTableOfContents>विषय-सूची बनाता है।</StiTableOfContents>
+    <StiTableUI>डेटा को पंक्तियों और कॉलम में दिखाता है।</StiTableUI>
+    <StiText>डेटा को टेक्स्ट के रूप में दिखाता है।</StiText>
+    <StiTextElement>डेटा को टेक्स्ट के रूप में दिखाता है।</StiTextElement>
+    <StiTextInCells>टेक्स्ट दिखाता है, हर सेल में एक वर्ण।</StiTextInCells>
+    <StiTextInputUI>उपयोगकर्ता से टेक्स्ट लेता है।</StiTextInputUI>
+    <StiTreeViewBoxElement>ड्रॉप-डाउन ट्री से मान चुनता है।</StiTreeViewBoxElement>
+    <StiTreeViewElement>पदानुक्रमिक डेटा को ट्री में दिखाता है।</StiTreeViewElement>
+    <StiVerticalLinePrimitive>लंबवत रेखा खींचता है।</StiVerticalLinePrimitive>
+    <StiWebContentElement>वेब सामग्री दिखाता है।</StiWebContentElement>
+    <StiWinControl>.NET विज़ुअल नियंत्रण दिखाता है।</StiWinControl>
+    <StiZipCode>ZIP कोड दिखाता है।</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
     <ActiveRelation>दो तालिकाओं को बाँधने के लिए प्राथमिकता संबंध सेट करता है। इसका उपयोग डेटा रूपांतरण और डैशबोर्ड में किया जाता है। प्रत्येक डेटा स्रोत में केवल एक संबंध सक्रिय हो सकता है।</ActiveRelation>
-    <Align>चयनित घटकों का स्थान बदलें।</Align>
-    <AlignBottom>किसी घटक की सामग्री को नीचे संरेखित करें।</AlignBottom>
-    <AlignCenter>किसी घटक की सामग्री को केंद्र में संरेखित करें।</AlignCenter>
+    <Align>चयनित घटकों को संरेखित करें।</Align>
+    <AlignBottom>सामग्री को नीचे संरेखित करें।</AlignBottom>
+    <AlignCenter>सामग्री को केंद्र में संरेखित करें।</AlignCenter>
     <AlignComponentBottom>आपको चयनित घटकों के निचले किनारे के साथ ऑब्जेक्ट्स को क्षैतिज रूप से संरेखित करने की अनुमति देता है।</AlignComponentBottom>
     <AlignComponentCenter>आपको चयनित घटकों के केंद्र किनारे के साथ ऑब्जेक्ट्स को क्षैतिज रूप से संरेखित करने की अनुमति देता है।</AlignComponentCenter>
     <AlignComponentLeft>आपको चयनित घटकों के बाएँ किनारे के साथ ऑब्जेक्ट्स को लंबवत रूप से संरेखित करने की अनुमति देता है।</AlignComponentLeft>
     <AlignComponentMiddle>आपको चयनित घटकों के केंद्र किनारे के साथ ऑब्जेक्ट्स को लंबवत रूप से संरेखित करने की अनुमति देता है।</AlignComponentMiddle>
     <AlignComponentRight>आपको चयनित घटकों के दाएँ किनारे के साथ ऑब्जेक्ट्स को लंबवत रूप से संरेखित करने की अनुमति देता है।</AlignComponentRight>
     <AlignComponentTop>आपको चयनित घटकों के ऊपरी किनारे के साथ ऑब्जेक्ट्स को क्षैतिज रूप से संरेखित करने की अनुमति देता है।</AlignComponentTop>
-    <AlignLeft>किसी घटक की सामग्री को बाएँ संरेखित करें।</AlignLeft>
-    <AlignMiddle>किसी घटक की सामग्री को ऊपरी और निचले बॉर्डर के बीच केंद्रित करें।</AlignMiddle>
-    <AlignRight>किसी घटक की सामग्री को दाएँ संरेखित करें।</AlignRight>
-    <AlignToGrid>चयनित घटकों को ग्रिड नोड्स पर संरेखित करें।</AlignToGrid>
-    <AlignTop>किसी घटक की सामग्री को ऊपर संरेखित करें।</AlignTop>
-    <AlignWidth>किसी घटक की सामग्री को दोनों ओर संरेखित करें।</AlignWidth>
-    <Angle>घटक की सामग्री को घुमाएँ।</Angle>
+    <AlignLeft>सामग्री को बाएँ संरेखित करें।</AlignLeft>
+    <AlignMiddle>सामग्री को मध्य में संरेखित करें।</AlignMiddle>
+    <AlignRight>सामग्री को दाएँ संरेखित करें।</AlignRight>
+    <AlignToGrid>चयनित घटकों को ग्रिड पर संरेखित करें।</AlignToGrid>
+    <AlignTop>सामग्री को ऊपर संरेखित करें।</AlignTop>
+    <AlignWidth>सामग्री को दोनों ओर संरेखित करें।</AlignWidth>
+    <Angle>टेक्स्ट घुमाएँ।</Angle>
     <AngleWatermark>वॉटरमार्क टेक्स्ट का घूर्णन कोण।</AngleWatermark>
-    <Background>चयनित घटकों की पृष्ठभूमि बदलें।</Background>
-    <biConditions>चयनित घटकों की शर्तों की सूची नियंत्रित करें।</biConditions>
-    <BorderColor>चयनित घटक का बॉर्डर रंग चुनें।</BorderColor>
-    <BorderSidesAll>चयनित घटकों के सभी बॉर्डर किनारे चालू करें।</BorderSidesAll>
-    <BorderSidesBottom>चयनित घटकों का निचला बॉर्डर किनारा चालू करें।</BorderSidesBottom>
-    <BorderSidesLeft>चयनित घटकों का बायाँ बॉर्डर किनारा चालू करें।</BorderSidesLeft>
-    <BorderSidesNone>चयनित घटकों के सभी बॉर्डर किनारे बंद करें।</BorderSidesNone>
-    <BorderSidesRight>चयनित घटकों का दायाँ बॉर्डर किनारा चालू करें।</BorderSidesRight>
-    <BorderSidesTop>चयनित घटकों का ऊपरी बॉर्डर किनारा चालू करें।</BorderSidesTop>
-    <BorderStyle>चयनित घटकों की बॉर्डर शैली चुनें।</BorderStyle>
-    <BringToFront>चयनित घटक को सामने लाएँ।</BringToFront>
+    <Background>पृष्ठभूमि बदलें।</Background>
+    <biConditions>शर्तें संपादित करें।</biConditions>
+    <BorderColor>बॉर्डर का रंग बदलें।</BorderColor>
+    <BorderSidesAll>सभी बॉर्डर दिखाएँ।</BorderSidesAll>
+    <BorderSidesBottom>निचला बॉर्डर दिखाएँ या छिपाएँ।</BorderSidesBottom>
+    <BorderSidesLeft>बायाँ बॉर्डर दिखाएँ या छिपाएँ।</BorderSidesLeft>
+    <BorderSidesNone>सभी बॉर्डर छिपाएँ।</BorderSidesNone>
+    <BorderSidesRight>दायाँ बॉर्डर दिखाएँ या छिपाएँ।</BorderSidesRight>
+    <BorderSidesTop>ऊपरी बॉर्डर दिखाएँ या छिपाएँ।</BorderSidesTop>
+    <BorderStyle>बॉर्डर की शैली बदलें।</BorderStyle>
+    <BringToFront>सामने लाएँ।</BringToFront>
     <CenterHorizontally>आपको किसी घटक को उस कंटेनर के किनारों के सापेक्ष क्षैतिज रूप से संरेखित करने की अनुमति देता है जिसमें उसे रखा गया है।</CenterHorizontally>
     <CenterVertically>आपको किसी घटक को उस कंटेनर के किनारों के सापेक्ष लंबवत रूप से संरेखित करने की अनुमति देता है जिसमें उसे रखा गया है।</CenterVertically>
     <Close>रिपोर्ट डिज़ाइनर बंद करें।</Close>
-    <Columns>किसी पेज को कॉलम में विभाजित करें।</Columns>
+    <Columns>पेज को कॉलम में विभाजित करें।</Columns>
     <CompilationAccess1>यह दस्तावेज़ संकलन प्रक्रिया का उपयोग करता है। यदि दस्तावेज़ किसी विश्वसनीय स्रोत से है, तो आप इसे एक्सेस करने के लिए "खोलें" बटन पर क्लिक कर सकते हैं।</CompilationAccess1>
     <CompilationAccess2>यदि आप दस्तावेज़ के स्रोत के बारे में अनिश्चित हैं लेकिन फिर भी इसे देखना चाहते हैं, तो आप "सुरक्षित मोड में खोलें" बटन पर क्लिक कर सकते हैं। इस स्थिति में, आप संकलन के बजाय व्याख्या का उपयोग करेंगे, जो आपको दस्तावेज़ को सुरक्षित रूप से चलाने में सक्षम बनाता है।</CompilationAccess2>
     <CompilationAccess3>यह दस्तावेज़ संकलन प्रक्रिया का उपयोग करता है और यह असुरक्षित हो सकता है। आप इसे नहीं खोल सकते।</CompilationAccess3>
@@ -2186,14 +2190,14 @@
     <CompilationAccessTitle>दस्तावेज़ कंपाइलेशन का उपयोग करता है</CompilationAccessTitle>
     <CompilationModeEnabling>आप संकलन मोड में स्विच कर रहे हैं। यह मोड आपको विभिन्न कोड चलाने की अनुमति देता है और कभी-कभी यह हानिकारक हो सकता है। कृपया, इस मोड का उपयोग केवल तभी करें जब आप सभी जोखिमों को समझते हों और उनसे सहमत हों। आगे बढ़ने के लिए {0} बटन पर क्लिक करें।</CompilationModeEnabling>
     <ComponentSize>चयनित घटकों का आकार बदलें।</ComponentSize>
-    <ComponentsMenu>मोबाइल सतह पर अप्रयुक्त डैशबोर्ड एलिमेंट्स वाला घटक मेनू खोलता है।</ComponentsMenu>
-    <CopyStyle>शैली कॉपी करें</CopyStyle>
+    <ComponentsMenu>अप्रयुक्त एलिमेंट दिखाएँ।</ComponentsMenu>
+    <CopyStyle>शैली को अन्य घटकों पर कॉपी करें।</CopyStyle>
     <CopyToClipboard>क्लिपबोर्ड पर कॉपी करें</CopyToClipboard>
     <CurrencySymbol>मुद्रा प्रतीक चुनें।</CurrencySymbol>
     <DashboardNew>एक नया डैशबोर्ड बनाएँ।</DashboardNew>
     <DataStore>रिपोर्ट में पंजीकृत डेटा दिखाएँ।</DataStore>
-    <DateTimeFormat>चयनित घटकों के लिए दिनांक और समय प्रारूप चुनें।</DateTimeFormat>
-    <DockingPanels>पैनल सेटिंग्स।</DockingPanels>
+    <DateTimeFormat>दिनांक और समय का प्रारूप चुनें।</DateTimeFormat>
+    <DockingPanels>पैनल दिखाएँ या छिपाएँ।</DockingPanels>
     <DockStyleBottom>चयनित घटकों को निचली ओर डॉक करें।</DockStyleBottom>
     <DockStyleFill>चयनित घटकों को सभी ओर डॉक करें।</DockStyleFill>
     <DockStyleLeft>चयनित घटकों को बाईं ओर डॉक करें।</DockStyleLeft>
@@ -2202,11 +2206,11 @@
     <DockStyleTop>चयनित घटकों को ऊपरी ओर डॉक करें।</DockStyleTop>
     <EventsAccess1>यह दस्तावेज़ इवेंट्स का उपयोग करता है। यदि दस्तावेज़ किसी विश्वसनीय स्रोत से है, तो आप इसे एक्सेस करने के लिए "खोलें" बटन पर क्लिक कर सकते हैं।</EventsAccess1>
     <EventsAccess2>यदि आप दस्तावेज़ के स्रोत के बारे में अनिश्चित हैं लेकिन फिर भी इसे देखना चाहते हैं, तो आप "सुरक्षित मोड में खोलें" बटन पर क्लिक कर सकते हैं। इस स्थिति में, इवेंट्स को अनदेखा किया जाएगा और निष्पादित नहीं किया जाएगा।</EventsAccess2>
-    <FontGrow>टेक्स्ट का आकार बड़ा करें।</FontGrow>
-    <FontName>टेक्स्ट फ़ॉन्ट।</FontName>
+    <FontGrow>टेक्स्ट बड़ा करें।</FontGrow>
+    <FontName>टेक्स्ट का फ़ॉन्ट बदलें।</FontName>
     <FontNameWatermark>वॉटरमार्क टेक्स्ट फ़ॉन्ट।</FontNameWatermark>
-    <FontShrink>टेक्स्ट का आकार छोटा करें।</FontShrink>
-    <FontSize>फ़ॉन्ट आकार।</FontSize>
+    <FontShrink>टेक्स्ट छोटा करें।</FontShrink>
+    <FontSize>टेक्स्ट का आकार बदलें।</FontSize>
     <FontSizeWatermark>फ़ॉन्ट आकार बदलें।</FontSizeWatermark>
     <FontStyleBold>टेक्स्ट को बोल्ड करें।</FontStyleBold>
     <FontStyleBoldWatermark>वॉटरमार्क के टेक्स्ट को बोल्ड करें।</FontStyleBoldWatermark>
@@ -2227,58 +2231,58 @@
     <GridMode>ग्रिड को रेखाओं या बिंदुओं में दिखाएँ।</GridMode>
     <ImageAlignment>किसी पेज पर वॉटरमार्क छवि रखें।</ImageAlignment>
     <ImageTransparency>वॉटरमार्क छवि की पारदर्शिता बदलें।</ImageTransparency>
-    <Interaction>चयनित घटकों के इंटरैक्शन को नियंत्रित करें।</Interaction>
-    <LineSpacing>चुनें कि टेक्स्ट की पंक्तियों के बीच या अनुच्छेदों के बीच कितनी जगह दिखाई देती है।</LineSpacing>
-    <Link>घटक को वर्तमान कंटेनर से लिंक करें।</Link>
+    <Interaction>इंटरैक्शन सेट करें।</Interaction>
+    <LineSpacing>पंक्तियों के बीच की दूरी बदलें।</LineSpacing>
+    <Link>कंटेनर से लिंक करें।</Link>
     <LoadImage>फ़ाइल से वॉटरमार्क छवियाँ लोड करें।</LoadImage>
-    <Lock>घटक को लॉक करें। घटक को स्थानांतरित और आकार परिवर्तित नहीं किया जा सकता।</Lock>
-    <MainMenu>किसी रिपोर्ट के साथ संभावित संचालनों की सूची देखने के लिए यहाँ क्लिक करें, जिसमें खोलना, बंद करना और पूर्वावलोकन शामिल है।</MainMenu>
+    <Lock>स्थिति और आकार लॉक करें।</Lock>
+    <MainMenu>रिपोर्ट बनाएँ, खोलें या सहेजें।</MainMenu>
     <MakeHorizontalSpacingEqual>आपको चयनित घटकों के बीच समान क्षैतिज अंतराल सेट करने की अनुमति देता है।</MakeHorizontalSpacingEqual>
     <MakeVerticalSpacingEqual>आपको चयनित घटकों के बीच समान लंबवत अंतराल सेट करने की अनुमति देता है।</MakeVerticalSpacingEqual>
-    <Margins>वर्तमान पेज के हाशिये चुनें।</Margins>
+    <Margins>पेज के हाशिये चुनें।</Margins>
     <menuCheckIssues>त्रुटियाँ, चेतावनियाँ खोजने और सिफ़ारिशें प्राप्त करने के लिए जाँचें।</menuCheckIssues>
     <menuDesignerOptions>रिपोर्ट डिज़ाइनर विकल्प सेटअप करें।</menuDesignerOptions>
     <menuEditClearContents>सामग्री साफ़ करें।</menuEditClearContents>
-    <menuEditCopy>चयनित घटकों को कॉपी करें और उन्हें क्लिपबोर्ड पर रखें।</menuEditCopy>
-    <menuEditCut>चयनित घटकों को रिपोर्ट से काटें और उन्हें क्लिपबोर्ड पर रखें।</menuEditCut>
+    <menuEditCopy>चयनित घटकों को कॉपी करें।</menuEditCopy>
+    <menuEditCut>चयनित घटकों को काटें।</menuEditCut>
     <menuEditDelete>चयनित घटकों को हटाएँ।</menuEditDelete>
-    <menuEditPaste>क्लिपबोर्ड की सामग्री को रिपोर्ट में चिपकाएँ।</menuEditPaste>
-    <menuExportSettings>वर्तमान रिपोर्ट या डैशबोर्ड के लिए निर्यात सेटिंग्स संपादक खोलता है। सेटिंग्स केवल वर्तमान रिपोर्ट या डैशबोर्ड निर्यात करते समय लागू होती हैं।</menuExportSettings>
+    <menuEditPaste>क्लिपबोर्ड से चिपकाएँ।</menuEditPaste>
+    <menuExportSettings>निर्यात सेटिंग बदलें।</menuExportSettings>
     <menuFAQPage>अक्सर पूछे जाने वाले प्रश्नों वाले वेब पेज पर जाएँ।</menuFAQPage>
-    <menuGlobalizationStrings>वर्तमान रिपोर्ट का वैश्वीकरण स्ट्रिंग्स संपादक कॉल करें।</menuGlobalizationStrings>
+    <menuGlobalizationStrings>वैश्वीकरण स्ट्रिंग्स संपादित करें।</menuGlobalizationStrings>
     <menuHelpAboutProgramm>रिपोर्ट जनरेटर के संस्करण और .NET के संस्करण के बारे में जानकारी प्राप्त करें।</menuHelpAboutProgramm>
     <menuHomePage>उत्पाद के होम पेज पर जाएँ।</menuHomePage>
     <menuPageOptions>वर्तमान पेज के बुनियादी पैरामीटर सेटअप करें। सभी पेज विकल्प गुण पैनल का उपयोग करके बदले जा सकते हैं।</menuPageOptions>
     <menuPagesManager>पेज प्रबंधक चलाएँ। यह पेज स्थानांतरित करने, पेज हटाने और नए पेज बनाने की अनुमति देता है।</menuPagesManager>
-    <menuPreviewSettings>वर्तमान रिपोर्ट का पूर्वावलोकन सेटिंग्स संपादक कॉल करें। सेटिंग्स केवल वर्तमान रिपोर्ट देखते समय लागू होंगी।</menuPreviewSettings>
+    <menuPreviewSettings>पूर्वावलोकन सेटिंग बदलें।</menuPreviewSettings>
     <menuPrint>प्रिंट करने से पहले एक प्रिंटर, प्रतियों की संख्या और अन्य प्रिंटिंग विकल्प चुनें।</menuPrint>
     <menuPrintPreview>प्रिंट करने से पहले किसी रिपोर्ट का पूर्वावलोकन करें।</menuPrintPreview>
     <menuPrintQuick>किसी रिपोर्ट को सीधे डिफ़ॉल्ट प्रिंटर पर प्रिंट करें। प्रिंटिंग डायलॉग प्रदर्शित नहीं होता।</menuPrintQuick>
-    <menuReportOptions>बुनियादी रिपोर्ट विकल्प सेटअप करें। सभी विकल्प गुण पैनल का उपयोग करके बदले जा सकते हैं।</menuReportOptions>
+    <menuReportOptions>रिपोर्ट के विकल्प बदलें।</menuReportOptions>
     <menuStyleDesigner>वर्तमान रिपोर्ट का शैली डिज़ाइनर कॉल करें।</menuStyleDesigner>
     <menuSupport>प्रश्न पूछने के लिए सहायता पेज पर जाएँ।</menuSupport>
     <menuViewAlignToGrid>घटकों को ग्रिड पर संरेखित करें।</menuViewAlignToGrid>
     <menuViewNormal>किसी पेज का सामान्य दृश्य।</menuViewNormal>
     <menuViewPageBreakPreview>खंडों की सीमाओं के साथ किसी पेज को दिखाने का मोड।</menuViewPageBreakPreview>
-    <menuViewQuickInfo>घटकों की त्वरित जानकारी दिखाएँ: घटक नाम, उपनाम, सामग्री, इवेंट्स आदि।</menuViewQuickInfo>
-    <menuViewShowGrid>ग्रिड रेखाएँ चालू करें जिन पर आप किसी रिपोर्ट में ऑब्जेक्ट्स को संरेखित कर सकते हैं।</menuViewShowGrid>
+    <menuViewQuickInfo>घटकों की त्वरित जानकारी दिखाएँ।</menuViewQuickInfo>
+    <menuViewShowGrid>ग्रिड दिखाएँ।</menuViewShowGrid>
     <menuViewShowHeaders>बैंड के हेडर दिखाएँ।</menuViewShowHeaders>
-    <menuViewShowOrder>किसी पेज पर घटकों का क्रम दिखाएँ।</menuViewShowOrder>
-    <menuViewShowRulers>रूलर देखें, जिनका उपयोग किसी पेज पर ऑब्जेक्ट्स को मापने और पंक्तिबद्ध करने के लिए किया जाता है।</menuViewShowRulers>
-    <menuViewShowSmartGuides>घटकों को एक-दूसरे के सापेक्ष स्थित करने के लिए स्मार्ट गाइड प्रदर्शित करें।</menuViewShowSmartGuides>
-    <MoveBackward>किसी पेज पर घटकों को रखने के क्रम में किसी घटक को एक स्तर ऊपर ले जाएँ।</MoveBackward>
-    <MoveForward>किसी पेज पर घटकों को रखने के क्रम में किसी घटक को एक स्तर नीचे ले जाएँ।</MoveForward>
+    <menuViewShowOrder>घटकों का क्रम दिखाएँ।</menuViewShowOrder>
+    <menuViewShowRulers>रूलर दिखाएँ।</menuViewShowRulers>
+    <menuViewShowSmartGuides>स्मार्ट गाइड दिखाएँ।</menuViewShowSmartGuides>
+    <MoveBackward>एक स्तर पीछे भेजें।</MoveBackward>
+    <MoveForward>एक स्तर आगे लाएँ।</MoveForward>
     <NotPossibleEnableCompilationMode>रिपोर्ट के लिए संकलन मोड सक्षम करना असंभव है। यह डिज़ाइनर सेटिंग्स में 'Compilation Access' विकल्प द्वारा निषिद्ध है।</NotPossibleEnableCompilationMode>
-    <Orientation>पेजों को पोर्ट्रेट और लैंडस्केप लेआउट के बीच स्विच करें।</Orientation>
+    <Orientation>पोर्ट्रेट और लैंडस्केप के बीच बदलें।</Orientation>
     <PageDelete>रिपोर्ट से वर्तमान पेज हटाएँ।</PageDelete>
     <PageNew>एक नया पेज बनाएँ।</PageNew>
-    <PageSetup>पेज सेटअप डायलॉग बॉक्स दिखाएँ।</PageSetup>
-    <PageSize>रिपोर्ट के वर्तमान पेज के लिए कागज़ का आकार चुनें।</PageSize>
+    <PageSetup>पेज सेटिंग बदलें।</PageSetup>
+    <PageSize>कागज़ का आकार चुनें।</PageSize>
     <PagesManager>पेज प्रबंधक चलाएँ।</PagesManager>
     <PressF1>अधिक विवरण के लिए F1 दबाएँ</PressF1>
-    <PropertiesButton>रिपोर्ट टेम्पलेट गुणों के साथ गुण पैनल सक्रिय करता है।</PropertiesButton>
+    <PropertiesButton>रिपोर्ट के गुण दिखाएँ।</PropertiesButton>
     <Redo>रिपोर्ट में पहले रद्द किए गए परिवर्तन को फिर से करें।</Redo>
-    <RemoveMobileSurfaceButton>वर्तमान डैशबोर्ड से मोबाइल सतह हटाता है।</RemoveMobileSurfaceButton>
+    <RemoveMobileSurfaceButton>मोबाइल सतह हटाएँ।</RemoveMobileSurfaceButton>
     <ReportNew>एक नई रिपोर्ट बनाएँ।</ReportNew>
     <ReportOpen>डिज़ाइनर में एक रिपोर्ट खोलें।</ReportOpen>
     <ReportPreview>व्यूअर में संपादित रिपोर्ट का पूर्वावलोकन करें।</ReportPreview>
@@ -2290,14 +2294,14 @@
     <ScriptSecuritySafeMode>सुरक्षित स्क्रिप्ट एक्सेस (सुरक्षा के लिए प्रतिबंधित क्षमताएँ)।</ScriptSecuritySafeMode>
     <SelectAll>वर्तमान पेज पर सभी घटकों का चयन करें।</SelectAll>
     <SelectUILanguage>UI भाषा चुनें।</SelectUILanguage>
-    <SendToBack>चयनित घटक को अन्य घटकों के सापेक्ष पीछे ले जाएँ।</SendToBack>
+    <SendToBack>पीछे भेजें।</SendToBack>
     <ServicesConfigurator>सेवा कॉन्फ़िगरेटर चलाएँ।</ServicesConfigurator>
-    <Shadow>किसी घटक की छाया दिखाएँ।</Shadow>
+    <Shadow>छाया दिखाएँ या छिपाएँ।</Shadow>
     <ShowBehind>वॉटरमार्क टेक्स्ट को घटकों के पीछे दिखाएँ।</ShowBehind>
     <ShowImageBehind>वॉटरमार्क छवि को किसी पेज पर सभी घटकों के पीछे रखें।</ShowImageBehind>
     <ShowToolbox>टूलबॉक्स दिखाएँ।</ShowToolbox>
     <StimulsoftHelp>Stimulsoft मदद</StimulsoftHelp>
-    <StyleDesigner>शैली डिज़ाइनर चलाएँ।</StyleDesigner>
+    <StyleDesigner>शैली डिज़ाइनर खोलें।</StyleDesigner>
     <TellMeMore>मुझे और बताएँ</TellMeMore>
     <Text>वॉटरमार्क टेक्स्ट।</Text>
     <TextBrush>टेक्स्ट का रंग बदलें।</TextBrush>
@@ -2306,30 +2310,31 @@
     <TextFormat>मानों का प्रारूप चुनें।</TextFormat>
     <ToolbarStyle>सभी चयनित घटकों पर चयनित शैली सेट करें।</ToolbarStyle>
     <Undo>रिपोर्ट में नवीनतम परिवर्तन को पूर्ववत करें।</Undo>
-    <ViewModeDesktopButton>डेस्कटॉप सतह सक्रिय करें।</ViewModeDesktopButton>
-    <ViewModeMobileButton>मोबाइल सतह सक्रिय करें।</ViewModeMobileButton>
-    <WordWrap>किसी घटक के टेक्स्ट को रैप करें।</WordWrap>
+    <ViewModeDesktopButton>डेस्कटॉप सतह दिखाएँ।</ViewModeDesktopButton>
+    <ViewModeMobileButton>मोबाइल सतह दिखाएँ।</ViewModeMobileButton>
+    <Watermark>वॉटरमार्क सेटिंग बदलें।</Watermark>
+    <WordWrap>टेक्स्ट को रैप करें।</WordWrap>
     <Zoom>रिपोर्ट का ज़ूम स्तर निर्दिष्ट करें।</Zoom>
   </HelpDesigner>
   <HelpDialogs>
-    <StiButtonControl>बटन नियंत्रण का प्रतिनिधित्व करता है।</StiButtonControl>
-    <StiCheckBoxControl>फ़्लैग नियंत्रण का प्रतिनिधित्व करता है।</StiCheckBoxControl>
-    <StiCheckedListBoxControl>सूची ऑब्जेक्ट दिखाता है, जिसमें प्रत्येक एलिमेंट के लिए बाईं ओर एक फ़्लैग दिखाया जाता है।</StiCheckedListBoxControl>
-    <StiComboBoxControl>कॉम्बोबॉक्स का प्रतिनिधित्व करता है जिसका उपयोग या तो नियंत्रण में सीधे मान टाइप करने या मौजूदा विकल्पों की सूची से चुनने के लिए किया जाता है।</StiComboBoxControl>
-    <StiDateTimePickerControl>उस नियंत्रण का प्रतिनिधित्व करता है जो दिनांक और समय चुनने की अनुमति देता है। यह आपको निर्दिष्ट प्रारूप में दिनांक और समय आउटपुट करने की भी अनुमति देता है।</StiDateTimePickerControl>
-    <StiGridControl>उस ग्रिड नियंत्रण का प्रतिनिधित्व करता है जो पंक्तियों और कॉलम से बना होता है।</StiGridControl>
-    <StiGroupBoxControl>उस नियंत्रण का प्रतिनिधित्व करता है जो UI सामग्री के लिए बॉर्डर और हेडर वाला एक कंटेनर बनाता है।</StiGroupBoxControl>
-    <StiLabelControl>लेबल एक उपयोगकर्ता इंटरफ़ेस नियंत्रण है जो किसी फ़ॉर्म पर टेक्स्ट प्रदर्शित करता है। यह आमतौर पर बिना किसी इंटरैक्टिविटी वाला एक स्थिर नियंत्रण होता है।</StiLabelControl>
-    <StiListBoxControl>चयन के लिए एलिमेंट्स की सूची शामिल है।</StiListBoxControl>
-    <StiListViewControl>उस लिस्टव्यू नियंत्रण का प्रतिनिधित्व करता है जो डेटा एलिमेंट्स की सूची दिखाता है।</StiListViewControl>
-    <StiLookUpBoxControl>चयन के लिए एलिमेंट्स की सूची शामिल है।</StiLookUpBoxControl>
-    <StiNumericUpDownControl>उस नियंत्रण का प्रतिनिधित्व करता है जो संख्यात्मक मान दिखाता है।</StiNumericUpDownControl>
-    <StiPanelControl>पैनल एलिमेंट्स का उपयोग ऑब्जेक्ट्स को रखने और व्यवस्थित करने के लिए किया जाता है।</StiPanelControl>
-    <StiPictureBoxControl>किसी छवि को दिखाने के लिए नियंत्रण का प्रतिनिधित्व करता है।</StiPictureBoxControl>
-    <StiRadioButtonControl>रेडियो बटन नियंत्रण का प्रतिनिधित्व करता है जो उपयोगकर्ता को विकल्पों के पूर्वनिर्धारित समूह में से केवल एक चुनने की अनुमति देता है। </StiRadioButtonControl>
-    <StiRichTextBoxControl>विस्तारित संपादन के साथ रिचटेक्स्ट नियंत्रण का प्रतिनिधित्व करता है।</StiRichTextBoxControl>
-    <StiTextBoxControl>उस टेक्स्ट नियंत्रण का प्रतिनिधित्व करता है जिसका उपयोग टेक्स्ट दिखाने या संपादित करने के लिए किया जाता है।</StiTextBoxControl>
-    <StiTreeViewControl>उस नियंत्रण का प्रतिनिधित्व करता है जिसका उपयोग पदानुक्रमिक डेटा को पेड़ के रूप में दिखाने के लिए किया जाता है।</StiTreeViewControl>
+    <StiButtonControl>क्लिक करने पर क्रिया चलाता है।</StiButtonControl>
+    <StiCheckBoxControl>एक विकल्प को चालू या बंद करता है।</StiCheckBoxControl>
+    <StiCheckedListBoxControl>हर आइटम के चेक बॉक्स वाली सूची दिखाता है।</StiCheckedListBoxControl>
+    <StiComboBoxControl>मान चुनने या लिखने की ड्रॉप-डाउन सूची दिखाता है।</StiComboBoxControl>
+    <StiDateTimePickerControl>दिनांक और समय चुनने का कैलेंडर दिखाता है।</StiDateTimePickerControl>
+    <StiGridControl>डेटा को पंक्तियों और कॉलम में दिखाता है।</StiGridControl>
+    <StiGroupBoxControl>कैप्शन वाले फ़्रेम में नियंत्रण समूहित करता है।</StiGroupBoxControl>
+    <StiLabelControl>फ़ॉर्म पर टेक्स्ट दिखाता है।</StiLabelControl>
+    <StiListBoxControl>आइटम चुनने की सूची दिखाता है।</StiListBoxControl>
+    <StiListViewControl>डेटा आइटम की सूची दिखाता है।</StiListViewControl>
+    <StiLookUpBoxControl>एक आइटम चुनने की ड्रॉप-डाउन सूची दिखाता है।</StiLookUpBoxControl>
+    <StiNumericUpDownControl>संख्या लेता है, उसे बदलने के बटनों सहित।</StiNumericUpDownControl>
+    <StiPanelControl>अन्य नियंत्रण एक क्षेत्र में समूहित करता है।</StiPanelControl>
+    <StiPictureBoxControl>छवि दिखाता है।</StiPictureBoxControl>
+    <StiRadioButtonControl>समूह में से एक विकल्प चुनता है।</StiRadioButtonControl>
+    <StiRichTextBoxControl>प्रारूपित टेक्स्ट दिखाता और संपादित करता है।</StiRichTextBoxControl>
+    <StiTextBoxControl>टेक्स्ट दिखाता और संपादित करता है।</StiTextBoxControl>
+    <StiTreeViewControl>पदानुक्रमिक डेटा को ट्री में दिखाता है।</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
     <AddPageBreaks>रिपोर्ट पेजों का विज़ुअल विभाजक।</AddPageBreaks>

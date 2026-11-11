@@ -2046,135 +2046,139 @@
     <sys_morebuttons>Máis botóns</sys_morebuttons>
   </Gui>
   <HelpComponents>
-    <StiBarCode>Este compoñente permite mostrar códigos de barras no informe. Os datos do código de barras subminístrase nunha cadea. A cadea pode conter calquera símbolo pero soamente se mostrarán símbolos permitidos.</StiBarCode>
-    <StiButtonElement>Este elemento úsase para executar un script de evento cando un usuario interactúa con el.</StiButtonElement>
-    <StiButtonUI>Un botón usado para desencadear unha acción ou iniciar un comando.</StiButtonUI>
-    <StiCardsElement>Este elemento úsase para mostrar datos agrupados como tarxetas.</StiCardsElement>
-    <StiChart>Este compoñente permite mostrar un gráfico no informe. Existen diferentes tipos de gráficos, entre eles hai gráficos de: barras, liñas, torta, donut, áreas, Gantt, dispersión, etc. </StiChart>
-    <StiChartElement>Este elemento permite mostrar gráficos nun panel. Están dispoñibles diferentes tipos de gráficos.</StiChartElement>
-    <StiCheckBox>Este compoñente permite mostrar unha caixa de verificación no informe. Permítese mostrar dous estados, "seleccionado" e "non seleccionado".</StiCheckBox>
-    <StiCheckBoxGroupUI>Un grupo de caixas de verificación usado para seleccionar varias opcións predefinidas dunha lista.</StiCheckBoxGroupUI>
-    <StiCheckBoxUI>Unha caixa de verificación usada para activar ou desactivar rapidamente unha única opción.</StiCheckBoxUI>
-    <StiChildBand>Unha banda Fillo permite mostrar dúas bandas de saída nunha soa fila.</StiChildBand>
-    <StiClone>Este compoñente úsase para clonar fragmentos dun informe a outros lugares do informe. A Clonación soamente se aplica ao contido dun panel.</StiClone>
-    <StiColumnFooterBand>Esta banda úsase para mostrar o contido de pés de columnas da banda de datos. A banda ColumnFooter imprímese unha vez por columna. Todos os compoñentes colocados nesta banda mostraranse por debaixo de cada columna.</StiColumnFooterBand>
-    <StiColumnHeaderBand>Esta banda úsase para mostrar o contido das cabeceiras de columnas. A banda ColumnHeader imprímese unha vez. Todos os compoñentes colocados nesta banda mostraranse por debaixo de cada columna.</StiColumnHeaderBand>
-    <StiComboBoxElement>Representa o ComboBox que se usa para escribir un valor directamente no control ou elixir da lista de opcións existentes.</StiComboBoxElement>
-    <StiContainer>Representa unha zona rectangular onde se pode poñer outros compoñentes, incluíndo bandas. Ao mover o contedor, todo o seu contido moverase con el. O contedor pódese colocar nunha banda ou nunha páxina.</StiContainer>
-    <StiCrossDataBand>Esta banda conéctase a unha fonte de datos. Imprimirase tantas veces como filas existan na fonte de datos. Imprímense bandas cruzadas de esquerda a dereita.</StiCrossDataBand>
-    <StiCrossFooterBand>Esta banda úsase para imprimir pés dunha banda cruzada. A banda imprímese unha vez despois de todas as filas da banda de datos. Bandas cruzadas imprímense de esquerda a dereita.</StiCrossFooterBand>
-    <StiCrossGroupFooterBand>Esta banda úsase para imprimir pés de grupos. Colócase por debaixo da banda de datos cruzados. Cada CrossFooter pertence a unha banda CrossHeader específica. Bandas cruzadas imprímense de esquerda a dereita.</StiCrossGroupFooterBand>
-    <StiCrossGroupHeaderBand>Esta banda emprégase para mostrar agrupacións cando se usan Datos Cruzados. Non é posible crear agrupacións sen esta banda. Os compoñentes utilizados para mostrar información por grupos colócanse nesta cabeceira. Pódese agrupar por nome, data ou calquera condición de agrupamento. A banda imprímese ao principio de cada grupo. Bandas cruzadas imprímense de esquerda a dereita.</StiCrossGroupHeaderBand>
-    <StiCrossHeaderBand>Esta banda úsase para imprimir cabeceiras. Emprégase xuntamente cunha Banda Cruzada. Bandas cruzadas imprímense de esquerda a dereita.</StiCrossHeaderBand>
-    <StiCrossTab>O compoñente de táboa-cruzada úsase con datos estruturados representados nunha táboa.</StiCrossTab>
-    <StiDataBand>A banda de Datos conéctase a unha fonte de datos. Imprimirase tantas veces como filas existan na fonte de datos..</StiDataBand>
-    <StiDatePickerElement>O elemento úsase para seleccionar a data e a hora.</StiDatePickerElement>
-    <StiDatePickerUI>Un selector de datas usado para seleccionar unha data dun calendario.</StiDatePickerUI>
-    <StiElectronicSignature>Este compoñente úsase para engadir unha sinatura gráfica, imaxe, iniciais e texto.</StiElectronicSignature>
-    <StiEmptyBand>Esta banda úsase para cubrir espazo libre ao pé da páxina. Cubrirase o espazo libre en todas as páxinas do informe.</StiEmptyBand>
-    <StiFilterCategory>Un grupo de elementos usado para seleccionar e filtrar valores.</StiFilterCategory>
-    <StiFooterBand>Esta banda úsase para imprimir un sumario da banda de Datos. Colócase por debaixo da banda de Datos e imprimirase unha soa vez despois de imprimir todas as filas de datos.</StiFooterBand>
-    <StiGauge>O compoñente permítelle amosar un valor dentro dun intervalo predefinido. Pode ter diferentes representacións gráficas.</StiGauge>
-    <StiGaugeElement>O elemento permítelle amosar un valor dentro dun intervalo predefinido. Pode ter diferentes representacións gráficas.</StiGaugeElement>
-    <StiGroupFooterBand>A banda GroupFooter úsase para imprimir o pé dun grupo. Colócase despois da banda de Datos, e debe estar enlazado cos mesmos datos ca o GroupHeader. Cada banda GroupFooter pertence ao GroupHeader especificado. A banda GroupFooter non se imprimirá sen unha banda GroupHeader.</StiGroupFooterBand>
-    <StiGroupHeaderBand>Esta banda emprégase para mostrar agrupacións. Os compoñentes para mostrar información para este grupo colócanse na cabeceira do grupo. Pódese agrupar por nome, data ou calquera condición de agrupamento. A banda imprímese ao principio de cada grupo.</StiGroupHeaderBand>
-    <StiHeaderBand>Esta banda úsase para mostrar cabeceiras. Emprégase xuntamente cunha banda de Datos.</StiHeaderBand>
-    <StiHierarchicalBand>Esta banda está conectada cunha fonte de datos e imprimirase tantas veces como filas existentes na fonte de datos. Os datos mostraranse en forma de árbore.</StiHierarchicalBand>
-    <StiHorizontalLinePrimitive>Esta compoñente úsase para mostrar unha liña.</StiHorizontalLinePrimitive>
-    <StiIconUI>Unha icona usada para amosar un gráfico simbólico ou un marcador visual.</StiIconUI>
-    <StiImage>Este compoñente úsase para mostrar imaxes. Soporta os seguintes formatos gráficos: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
-    <StiImageElement>Este elemento úsase para producir imaxes. Admite os seguintes formatos gráficos: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF, SVG.</StiImageElement>
-    <StiImageUI>Unha imaxe usada para amosar contido gráfico dentro da interface.</StiImageUI>
-    <StiIndicatorElement>O elemento amosa a diferenza nos valores entre os datos de entrada.</StiIndicatorElement>
-    <StiLabelUI>Unha etiqueta usada para amosar texto ou lendas curtas.</StiLabelUI>
-    <StiListBoxElement>O elemento permite seleccionar elementos dunha lista.</StiListBoxElement>
-    <StiListUI>Unha lista usada para amosar elementos seleccionables nunha colección vertical.</StiListUI>
-    <StiMap>Este compoñente úsase para mostrar datos localizados xeograficamente.</StiMap>
-    <StiMapCategory>Grupo de elementos para traballar con mapas e datos.</StiMapCategory>
-    <StiMapElement>Este elemento úsase para mostrar datos localizados xeograficamente.</StiMapElement>
-    <StiMathFormula>Este compoñente úsase para mostrar fórmulas matemáticas nun informe.</StiMathFormula>
-    <StiMultiListUI>Unha lista usada para seleccionar varios elementos da mesma colección.</StiMultiListUI>
-    <StiMultiSelectUI>Un selector usado para escoller varios valores dunha lista preparada.</StiMultiSelectUI>
-    <StiNumberBoxElement>Este elemento úsase para seleccionar un valor numérico ou establecer un intervalo de valores numéricos.</StiNumberBoxElement>
-    <StiNumberInputUI>Unha entrada numérica usada para introducir valores numéricos con entrada controlada.</StiNumberInputUI>
-    <StiOnlineMapElement>Este elemento úsase para mostrar marcadores xeográficos no mapa en liña.</StiOnlineMapElement>
-    <StiOverlayBand>Esta banda úsase para mostrar filigranas nunha páxina.</StiOverlayBand>
-    <StiPageFooterBand>Esta banda úsase para sacar información no pé de cada páxina. Emprégase para mostrar números de páxinas, datas e outros datos adicionais.</StiPageFooterBand>
-    <StiPageHeaderBand>Esta banda úsase para sacar información de cabeceira para cada páxina. Mostrará a información en todas as páxinas do informe. Emprégase para mostrar números de páxinas, datas e outros datos adicionais.</StiPageHeaderBand>
-    <StiPanel>Representa unha zona rectangular onde se poden poñer outros compoñentes, incluíndo bandas. Ao mover o contedor, todo o seu contido moverase con el. O contedor pódese colocar nunha banda ou nunha páxina.</StiPanel>
-    <StiPanelElement>Unha rexión rectangular que pode conter outros elementos. Cando se move o panel, os elementos que contén tamén se moven.</StiPanelElement>
-    <StiPanelUI>Un panel usado para agrupar e organizar outros controis dentro dunha área.</StiPanelUI>
-    <StiPdfDigitalSignature>Este compoñente interactivo úsase para especificar un lugar para a sinatura dixital despois de exportar o informe a Adobe PDF.</StiPdfDigitalSignature>
-    <StiPdfDigitalSignatureElement>Este compoñente úsase para especificar un espazo para a sinatura dixital e os campos do certificado ao exportar a PDF.</StiPdfDigitalSignatureElement>
-    <StiPivotTableElement>O elemento de táboa dinámica úsase para representar datos estruturados como unha táboa.</StiPivotTableElement>
-    <StiProgressElement>O elemento amosa a proporción dos datos de entrada. Pode presentarse en diferentes modos - sectores, rosca, barras.</StiProgressElement>
-    <StiRadioGroupUI>Un grupo de botóns de opción usado para seleccionar unha opción dun conxunto predefinido de valores.</StiRadioGroupUI>
-    <StiRangeSelectorElement>Este compoñente úsase para seleccionar un intervalo de valores nunha escala ou liña temporal. Permite aos usuarios definir visualmente os límites mínimo e máximo do intervalo.</StiRangeSelectorElement>
-    <StiRangeSliderUI>Un control desprazable de intervalo usado para definir valores mínimos e máximos nunha escala.</StiRangeSliderUI>
-    <StiRectanglePrimitive>Este compoñente úsase para imprimir rectángulos.</StiRectanglePrimitive>
-    <StiRegionMapElement>Este elemento úsase para mostrar datos localizados xeograficamente.</StiRegionMapElement>
-    <StiReportSummaryBand>Esta banda úsase para imprimir sumarios a través de todo o informe. Imprímese unha soa vez, ao final do informe.</StiReportSummaryBand>
-    <StiReportTitleBand>Esta banda úsase para imprimir o título do informe. Soamente se imprime ao principio do informe.</StiReportTitleBand>
-    <StiRichText>Este compoñente úsase para imprimir e editar texto enriquecido (RTF). Tamén soporta a posibilidade de cargar e gardar ficheiros en formato RTF.</StiRichText>
-    <StiRoundedRectanglePrimitive>Este compoñente úsase para imprimir rectángulos coas esquinas arredondadas.</StiRoundedRectanglePrimitive>
-    <StiScreen>Unha pantalla que aloxa controis, deseño e interaccións do usuario para unha páxina de aplicación.</StiScreen>
-    <StiSelectUI>Unha caixa de selección usada para escoller un valor dunha lista despregable.</StiSelectUI>
-    <StiShape>Este compoñente úsase para inserir formas predefinidas como por exemplo, frechas, liñas diagonais, liñas horizontais, liñas de esquerda-dereita, óvalos, rectángulos, rectángulos con esquinas arredondadas, liñas arriba-abaixo, triángulos e liñas verticais.</StiShape>
-    <StiShapeElement>Este elemento úsase para inserir formas predefinidas, como frechas, liña diagonal cara abaixo, liña diagonal cara arriba, liña horizontal, liñas esquerda e dereita, óvalo, rectángulo, rectángulo redondeado, liñas superior e inferior, triángulo, liña vertical.</StiShapeElement>
-    <StiSignature>Este compoñente úsase para engadir unha sinatura electrónica ou dixital a un informe.</StiSignature>
-    <StiSliderUI>Un control desprazable usado para seleccionar un valor nunha escala numérica continua.</StiSliderUI>
-    <StiSparkline>Este compoñente úsase para crear micrográficos nun informe. Permite seguir datos que cambian dinamicamente como barras, liñas ou áreas.</StiSparkline>
-    <StiSubReport>Este compoñente úsase para mostrar datos adicionais en lugares diferentes do informe.</StiSubReport>
-    <StiSwitchUI>Un interruptor usado para activar ou desactivar unha configuración cun só clic.</StiSwitchUI>
-    <StiTable>Este compoñente representa un conxunto de elementos de datos organizados usando un modelo de columnas verticais e filas horizontais.</StiTable>
-    <StiTableElement>Este elemento é un conxunto de elementos de datos organizado mediante un modelo de columnas verticais e filas horizontais.</StiTableElement>
-    <StiTableOfContents>Este compoñente úsase para crear un índice de contidos nun informe.</StiTableOfContents>
-    <StiTableUI>Unha táboa usada para amosar datos en filas e columnas con claridade.</StiTableUI>
-    <StiText>Este compoñente é o obxecto básico para mostrar datos como texto.</StiText>
-    <StiTextElement>Este elemento é un obxecto básico para producir datos como texto.</StiTextElement>
-    <StiTextInCells>Este compoñente emprégase para mostrar texto en celas. A miúdo úsase para crear formularios.</StiTextInCells>
-    <StiTextInputUI>Unha entrada de texto usada para introducir e editar valores de texto.</StiTextInputUI>
-    <StiTreeViewBoxElement>O elemento úsase para seleccionar valores cunha lista despregable en forma de árbore.</StiTreeViewBoxElement>
-    <StiTreeViewElement>Representa o elemento que se usa para mostrar os datos xerárquicos como unha árbore.</StiTreeViewElement>
-    <StiVerticalLinePrimitive>Este compoñente úsase para mostrar liñas verticais.</StiVerticalLinePrimitive>
-    <StiWebContentElement>O compoñente permite engadir contido web aos paneis.</StiWebContentElement>
-    <StiWinControl>Este compoñente permite visualizar controles do contorno .NET</StiWinControl>
-    <StiZipCode>Este compoñente úsase para mostrar un código postal (ZIP).</StiZipCode>
+    <CategoryBands>Bandas que imprimen encabezamentos, datos e pés.</CategoryBands>
+    <CategoryComponents>Compoñentes que mostran texto, imaxes e datos.</CategoryComponents>
+    <CategoryCrossBands>Bandas que se imprimen de esquerda a dereita.</CategoryCrossBands>
+    <StiBarCode>Mostra un código de barras.</StiBarCode>
+    <StiButtonElement>Executa un script ao facer clic.</StiButtonElement>
+    <StiButtonUI>Inicia unha acción ou un comando.</StiButtonUI>
+    <StiCardsElement>Mostra datos agrupados como tarxetas.</StiCardsElement>
+    <StiChart>Mostra datos como gráfico.</StiChart>
+    <StiChartElement>Mostra datos como gráfico.</StiChartElement>
+    <StiCheckBox>Mostra un valor verdadeiro ou falso como marca.</StiCheckBox>
+    <StiCheckBoxGroupUI>Ofrece opcións para marcar varias delas.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>Activa ou desactiva unha opción.</StiCheckBoxUI>
+    <StiChildBand>Imprime outra banda para a mesma fila de datos.</StiChildBand>
+    <StiClone>Repite o contido dun panel.</StiClone>
+    <StiColumnFooterBand>Imprímese baixo cada columna dunha banda Datos.</StiColumnFooterBand>
+    <StiColumnHeaderBand>Imprímese sobre cada columna dunha banda Datos.</StiColumnHeaderBand>
+    <StiComboBoxElement>Selecciona un valor dunha lista despregable.</StiComboBoxElement>
+    <StiContainer>Agrupa outros compoñentes nunha área.</StiContainer>
+    <StiCrossDataBand>Imprímese por cada fila, de esquerda a dereita.</StiCrossDataBand>
+    <StiCrossFooterBand>Imprímese despois dunha banda Datos Cruzados.</StiCrossFooterBand>
+    <StiCrossGroupFooterBand>Imprímese ao final de cada grupo cruzado.</StiCrossGroupFooterBand>
+    <StiCrossGroupHeaderBand>Imprímese ao inicio de cada grupo cruzado.</StiCrossGroupHeaderBand>
+    <StiCrossHeaderBand>Imprímese antes dunha banda Datos Cruzados.</StiCrossHeaderBand>
+    <StiCrossTab>Mostra datos estruturados como táboa cruzada.</StiCrossTab>
+    <StiDataBand>Imprímese por cada fila dunha fonte de datos.</StiDataBand>
+    <StiDatePickerElement>Selecciona unha data e hora.</StiDatePickerElement>
+    <StiDatePickerUI>Mostra un calendario para elixir unha data.</StiDatePickerUI>
+    <StiElectronicSignature>Engade unha sinatura: debuxo, texto ou imaxe.</StiElectronicSignature>
+    <StiEmptyBand>Enche o espazo libre ao pé dunha páxina.</StiEmptyBand>
+    <StiFilterCategory>Elementos que seleccionan e filtran valores.</StiFilterCategory>
+    <StiFooterBand>Imprímese despois das filas dunha banda Datos.</StiFooterBand>
+    <StiGauge>Mostra un valor dentro dun intervalo.</StiGauge>
+    <StiGaugeElement>Mostra un valor dentro dun intervalo.</StiGaugeElement>
+    <StiGroupFooterBand>Imprímese ao final de cada grupo.</StiGroupFooterBand>
+    <StiGroupHeaderBand>Imprímese ao inicio de cada grupo.</StiGroupHeaderBand>
+    <StiHeaderBand>Imprímese antes das filas dunha banda Datos.</StiHeaderBand>
+    <StiHierarchicalBand>Imprime as filas dunha fonte de datos como árbore.</StiHierarchicalBand>
+    <StiHorizontalLinePrimitive>Debuxa unha liña horizontal.</StiHorizontalLinePrimitive>
+    <StiIconUI>Mostra unha icona.</StiIconUI>
+    <StiImage>Mostra unha imaxe.</StiImage>
+    <StiImageElement>Mostra unha imaxe.</StiImageElement>
+    <StiImageUI>Mostra unha imaxe.</StiImageUI>
+    <StiIndicatorElement>Mostra a diferenza entre valores.</StiIndicatorElement>
+    <StiLabelUI>Mostra un texto curto.</StiLabelUI>
+    <StiListBoxElement>Selecciona elementos dunha lista.</StiListBoxElement>
+    <StiListUI>Mostra unha lista para elixir un elemento.</StiListUI>
+    <StiMap>Mostra datos nun mapa.</StiMap>
+    <StiMapCategory>Elementos que mostran datos nun mapa.</StiMapCategory>
+    <StiMapElement>Mostra datos nun mapa.</StiMapElement>
+    <StiMarkdown>Mostra texto Markdown.</StiMarkdown>
+    <StiMathFormula>Mostra unha fórmula matemática.</StiMathFormula>
+    <StiMultiListUI>Mostra unha lista para elixir varios elementos.</StiMultiListUI>
+    <StiMultiSelectUI>Desprega unha lista para elixir varios valores.</StiMultiSelectUI>
+    <StiNumberBoxElement>Selecciona un número ou un intervalo de números.</StiNumberBoxElement>
+    <StiNumberInputUI>Recibe un número do usuario.</StiNumberInputUI>
+    <StiOnlineMapElement>Mostra marcadores nun mapa en liña.</StiOnlineMapElement>
+    <StiOverlayBand>Imprime unha filigrana en cada páxina.</StiOverlayBand>
+    <StiPageFooterBand>Imprímese ao pé de cada páxina.</StiPageFooterBand>
+    <StiPageHeaderBand>Imprímese na parte superior de cada páxina.</StiPageHeaderBand>
+    <StiPanel>Agrupa outros compoñentes nunha área.</StiPanel>
+    <StiPanelElement>Agrupa outros elementos nunha área.</StiPanelElement>
+    <StiPanelUI>Agrupa outros controis nunha área.</StiPanelUI>
+    <StiPdfDigitalSignature>Marca o lugar dunha sinatura dixital en PDF.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>Marca o lugar dunha sinatura dixital en PDF.</StiPdfDigitalSignatureElement>
+    <StiPivotTableElement>Mostra datos estruturados como táboa dinámica.</StiPivotTableElement>
+    <StiProgressElement>Mostra un valor como parte do total.</StiProgressElement>
+    <StiRadioGroupUI>Ofrece opcións para elixir unha delas.</StiRadioGroupUI>
+    <StiRangeSelectorElement>Elixe un intervalo nunha escala ou liña temporal.</StiRangeSelectorElement>
+    <StiRangeSliderUI>Establece un intervalo nunha escala.</StiRangeSliderUI>
+    <StiRectanglePrimitive>Debuxa un rectángulo.</StiRectanglePrimitive>
+    <StiRegionMapElement>Mostra datos nun mapa de rexións.</StiRegionMapElement>
+    <StiReportSummaryBand>Imprímese unha vez ao final do informe.</StiReportSummaryBand>
+    <StiReportTitleBand>Imprímese unha vez ao inicio do informe.</StiReportTitleBand>
+    <StiRichText>Mostra texto RTF con formato.</StiRichText>
+    <StiRoundedRectanglePrimitive>Debuxa un rectángulo arredondado.</StiRoundedRectanglePrimitive>
+    <StiScreen>Contén os controis dunha páxina de aplicación.</StiScreen>
+    <StiSelectUI>Desprega unha lista para elixir un valor.</StiSelectUI>
+    <StiShape>Mostra unha forma predefinida.</StiShape>
+    <StiShapeElement>Mostra unha forma predefinida.</StiShapeElement>
+    <StiSignature>Engade unha sinatura electrónica ou dixital.</StiSignature>
+    <StiSliderUI>Establece un valor nunha escala.</StiSliderUI>
+    <StiSparkline>Mostra un pequeno gráfico dunha serie de datos.</StiSparkline>
+    <StiSubReport>Imprime outro informe ou páxina neste lugar.</StiSubReport>
+    <StiSwitchUI>Activa ou desactiva unha configuración.</StiSwitchUI>
+    <StiTable>Mostra datos en filas e columnas.</StiTable>
+    <StiTableElement>Mostra datos en filas e columnas.</StiTableElement>
+    <StiTableOfContents>Xera o índice de contidos.</StiTableOfContents>
+    <StiTableUI>Mostra datos en filas e columnas.</StiTableUI>
+    <StiText>Mostra datos como texto.</StiText>
+    <StiTextElement>Mostra datos como texto.</StiTextElement>
+    <StiTextInCells>Mostra texto cun carácter por cela.</StiTextInCells>
+    <StiTextInputUI>Recibe texto do usuario.</StiTextInputUI>
+    <StiTreeViewBoxElement>Selecciona valores dunha árbore despregable.</StiTreeViewBoxElement>
+    <StiTreeViewElement>Mostra datos xerárquicos en forma de árbore.</StiTreeViewElement>
+    <StiVerticalLinePrimitive>Debuxa unha liña vertical.</StiVerticalLinePrimitive>
+    <StiWebContentElement>Mostra contido web.</StiWebContentElement>
+    <StiWinControl>Mostra un control visual de .NET.</StiWinControl>
+    <StiZipCode>Mostra un código postal ZIP.</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
     <ActiveRelation>Establece a relación prioritaria para vincular dúas táboas. Úsase na transformación de datos e nos paneis. Só pode estar activa unha relación en cada fonte de datos.</ActiveRelation>
-    <Align>Cambiar a situación dos compoñentes seleccionados.</Align>
-    <AlignBottom>Aliñar o contido do compoñente abaixo.</AlignBottom>
-    <AlignCenter>Aliñar o contido do compoñente ao centro.</AlignCenter>
+    <Align>Aliñar os compoñentes seleccionados.</Align>
+    <AlignBottom>Aliñar o contido abaixo.</AlignBottom>
+    <AlignCenter>Aliñar o contido ao centro.</AlignCenter>
     <AlignComponentBottom>Permite aliñar os obxectos do compoñente seleccionado horizontalmente ao longo do bordo inferior.</AlignComponentBottom>
     <AlignComponentCenter>Permite aliñar os obxectos do compoñente seleccionado horizontalmente ao longo do bordo central.</AlignComponentCenter>
     <AlignComponentLeft>Permite aliñar os obxectos do compoñente seleccionado verticalmente ao longo do bordo esquerdo.</AlignComponentLeft>
     <AlignComponentMiddle>Permite aliñar os obxectos do compoñente seleccionado verticalmente ao longo do bordo central.</AlignComponentMiddle>
     <AlignComponentRight>Permite aliñar os obxectos do compoñente seleccionado horizontalmente ao longo do bordo dereito.</AlignComponentRight>
     <AlignComponentTop>Permite aliñar os obxectos do compoñente seleccionado horizontalmente ao longo do bordo superior.</AlignComponentTop>
-    <AlignLeft>Aliñar o contido do compoñente á esquerda.</AlignLeft>
-    <AlignMiddle>Centrar o contido do compoñente polo bordo superior e inferior.</AlignMiddle>
-    <AlignRight>Aliñar o contido do compoñente á dereita.</AlignRight>
-    <AlignToGrid>Aliñar os compoñentes seleccionados aos nodos do enreixado.</AlignToGrid>
-    <AlignTop>Aliñar o contido do compoñente arriba.</AlignTop>
-    <AlignWidth>Xustificar o contido dun compoñente</AlignWidth>
-    <Angle>Rotar o contido do compoñente.</Angle>
+    <AlignLeft>Aliñar o contido á esquerda.</AlignLeft>
+    <AlignMiddle>Aliñar o contido no medio.</AlignMiddle>
+    <AlignRight>Aliñar o contido á dereita.</AlignRight>
+    <AlignToGrid>Aliñar os compoñentes seleccionados ao enreixado.</AlignToGrid>
+    <AlignTop>Aliñar o contido arriba.</AlignTop>
+    <AlignWidth>Xustificar o contido.</AlignWidth>
+    <Angle>Rotar o texto.</Angle>
     <AngleWatermark>O ángulo de rotación do texto da filigrana.</AngleWatermark>
-    <Background>Cambiar o fondo dos compoñentes seleccionados.</Background>
-    <biConditions>Lista de control de condicións para os compoñentes seleccionados.</biConditions>
-    <BorderColor>Seleccionar a cor do marco do compoñente seleccionado.</BorderColor>
-    <BorderSidesAll>Habilitar todos os lados do marco dos compoñentes seleccionados.</BorderSidesAll>
-    <BorderSidesBottom>Habilitar a marxe inferior do marco dos compoñentes seleccionados.</BorderSidesBottom>
-    <BorderSidesLeft>Habilitar a marxe esquerda do marco dos compoñentes seleccionados.</BorderSidesLeft>
-    <BorderSidesNone>Deshabilitar todos os lados do marco dos compoñentes seleccionados.</BorderSidesNone>
-    <BorderSidesRight>Habilitar a marxe dereita do marco dos compoñentes seleccionados.</BorderSidesRight>
-    <BorderSidesTop>Habilitar a marxe superior do marco dos compoñentes seleccionados.</BorderSidesTop>
-    <BorderStyle>Seleccione o estilo de marco para os compoñentes seleccionados.</BorderStyle>
-    <BringToFront>Traer o compoñente seleccionado á fronte.</BringToFront>
+    <Background>Cambiar o fondo.</Background>
+    <biConditions>Editar as condicións.</biConditions>
+    <BorderColor>Cambiar a cor do bordo.</BorderColor>
+    <BorderSidesAll>Mostrar todos os bordos.</BorderSidesAll>
+    <BorderSidesBottom>Mostrar ou ocultar o bordo inferior.</BorderSidesBottom>
+    <BorderSidesLeft>Mostrar ou ocultar o bordo esquerdo.</BorderSidesLeft>
+    <BorderSidesNone>Ocultar todos os bordos.</BorderSidesNone>
+    <BorderSidesRight>Mostrar ou ocultar o bordo dereito.</BorderSidesRight>
+    <BorderSidesTop>Mostrar ou ocultar o bordo superior.</BorderSidesTop>
+    <BorderStyle>Cambiar o estilo do bordo.</BorderStyle>
+    <BringToFront>Traer á fronte.</BringToFront>
     <CenterHorizontally>Permite aliñar un compoñente horizontalmente relativo ao bordo do continente.</CenterHorizontally>
     <CenterVertically>Permite aliñar un compoñente verticalmente relativo ao bordo do continente.</CenterVertically>
     <Close>Cerrar o Deseñador de Informes.</Close>
-    <Columns>Partir a páxina en columnas.</Columns>
+    <Columns>Dividir a páxina en columnas.</Columns>
     <CompilationAccess1>Este documento usa o proceso de compilación. Se o documento provén dunha fonte de confianza, pode premer o botón "Abrir" para acceder a el.</CompilationAccess1>
     <CompilationAccess2>Se non está seguro da orixe do documento pero aínda así quere velo, pode premer o botón "Abrir en modo seguro". Neste caso, usará a interpretación en lugar da compilación, o que lle permite executar o documento de forma segura.</CompilationAccess2>
     <CompilationAccess3>Este documento usa o proceso de compilación e pode non ser seguro. Non se pode abrir.</CompilationAccess3>
@@ -2186,14 +2190,14 @@
     <CompilationAccessTitle>O documento usa compilación</CompilationAccessTitle>
     <CompilationModeEnabling>Está a cambiar ao modo de compilación. Este modo permite executar diferente código e ás veces podería ser prexudicial. Use este modo só se comprende todos os riscos e está de acordo con eles. Prema o botón {0} para continuar.</CompilationModeEnabling>
     <ComponentSize>Cambiar o tamaño dos compoñentes seleccionados.</ComponentSize>
-    <ComponentsMenu>Abre o menú de compoñentes que contén os elementos non utilizados do panel na superficie móbil.</ComponentsMenu>
-    <CopyStyle>Copiar estilo</CopyStyle>
+    <ComponentsMenu>Mostrar os elementos non utilizados.</ComponentsMenu>
+    <CopyStyle>Copiar o estilo a outros compoñentes.</CopyStyle>
     <CopyToClipboard>Copiar ao Portapapeis</CopyToClipboard>
-    <CurrencySymbol>Seleccione o símbolo de divisa.</CurrencySymbol>
+    <CurrencySymbol>Seleccionar o símbolo de divisa.</CurrencySymbol>
     <DashboardNew>Crear un novo panel.</DashboardNew>
     <DataStore>Mostrar datos rexistrados no informe.</DataStore>
-    <DateTimeFormat>Seleccione o formato da data e hora dos compoñentes seleccionados.</DateTimeFormat>
-    <DockingPanels>Configuración do Panel.</DockingPanels>
+    <DateTimeFormat>Seleccionar o formato de data e hora.</DateTimeFormat>
+    <DockingPanels>Mostrar ou ocultar os paneis.</DockingPanels>
     <DockStyleBottom>Acoplar os compoñentes seleccionados ao bordo inferior.</DockStyleBottom>
     <DockStyleFill>Acoplar os compoñentes seleccionados a todos os bordos.</DockStyleFill>
     <DockStyleLeft>Acoplar os compoñentes seleccionados ao bordo esquerdo.</DockStyleLeft>
@@ -2202,18 +2206,18 @@
     <DockStyleTop>Acoplar os compoñentes seleccionados ao bordo superior.</DockStyleTop>
     <EventsAccess1>Este documento usa eventos. Se o documento provén dunha fonte de confianza, pode premer o botón "Abrir" para acceder a el.</EventsAccess1>
     <EventsAccess2>Se non está seguro da orixe do documento pero aínda así quere velo, pode premer o botón "Abrir en modo seguro". Neste caso, os eventos ignoraranse e non se executarán.</EventsAccess2>
-    <FontGrow>Ampliar o tamaño do texto.</FontGrow>
-    <FontName>A fonte do texto.</FontName>
+    <FontGrow>Aumentar o tamaño do texto.</FontGrow>
+    <FontName>Cambiar a fonte do texto.</FontName>
     <FontNameWatermark>A fonte do texto da filigrana.</FontNameWatermark>
-    <FontShrink>Diminuír o tamaño do texto.</FontShrink>
-    <FontSize>Tamaño da fonte.</FontSize>
+    <FontShrink>Reducir o tamaño do texto.</FontShrink>
+    <FontSize>Cambiar o tamaño do texto.</FontSize>
     <FontSizeWatermark>Cambiar o tamaño da fonte.</FontSizeWatermark>
-    <FontStyleBold>Converter a grosa.</FontStyleBold>
+    <FontStyleBold>Poñer o texto en grosa.</FontStyleBold>
     <FontStyleBoldWatermark>Converter o texto da filigrana a grosa.</FontStyleBoldWatermark>
-    <FontStyleItalic>Converter a cursiva.</FontStyleItalic>
+    <FontStyleItalic>Poñer o texto en cursiva.</FontStyleItalic>
     <FontStyleItalicWatermark>Converter o texto da filigrana a cursiva.</FontStyleItalicWatermark>
-    <FontStyleStrikeout>Poñer o texto riscado.</FontStyleStrikeout>
-    <FontStyleUnderline>Converter a subliñado.</FontStyleUnderline>
+    <FontStyleStrikeout>Riscar o texto.</FontStyleStrikeout>
+    <FontStyleUnderline>Subliñar o texto.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Converter o texto da filigrana a subliñado.</FontStyleUnderlineWatermark>
     <FormatBoolean>Este formato emprégase para formatar valores de tipo lóxico.</FormatBoolean>
     <FormatCurrency>Mostrar un valor como moeda. Permite mostrar un número co signo da divisa por defecto.</FormatCurrency>
@@ -2224,61 +2228,61 @@
     <FormatPercentage>Mostrar un valor como porcentaxe. Os números multiplícanse por 100 para convertelos a porcentaxes.</FormatPercentage>
     <FormatTime>Mostrar un valor como hora. O formato da hora depende da configuración rexional.</FormatTime>
     <FormNew>Crear un formulario novo.</FormNew>
-    <GridMode>Mostrar liña ou puntos de enreixado.</GridMode>
+    <GridMode>Mostrar o enreixado como liñas ou puntos.</GridMode>
     <ImageAlignment>Poñer un imaxe de filigrana na páxina.</ImageAlignment>
     <ImageTransparency>Cambiar a transparencia da imaxe de filigrana.</ImageTransparency>
-    <Interaction>Interacción</Interaction>
-    <LineSpacing>Escolle canto espazo aparece entre as liñas de texto ou entre os parágrafos.</LineSpacing>
-    <Link>Enlazar o compoñente ao seu contedor actual.</Link>
+    <Interaction>Configurar a interacción.</Interaction>
+    <LineSpacing>Cambiar o espazamento entre liñas.</LineSpacing>
+    <Link>Enlazar ao contedor.</Link>
     <LoadImage>Cargar as imaxes de filigranas desde un ficheiro.</LoadImage>
-    <Lock>Bloquear o compoñente. O compoñente non poderá ser redimensionado nin movido.</Lock>
-    <MainMenu>Faga clic aquí para ver unha lista de operacións posibles cun informe, incluíndo abrir, cerrar e visualizar.</MainMenu>
+    <Lock>Bloquear a posición e o tamaño.</Lock>
+    <MainMenu>Crear, abrir ou gardar un informe.</MainMenu>
     <MakeHorizontalSpacingEqual>Permite igualar o espazado horizontal entre os compoñentes seleccionados.</MakeHorizontalSpacingEqual>
     <MakeVerticalSpacingEqual>Permite igualar o espazado vertical entre os compoñentes seleccionados.</MakeVerticalSpacingEqual>
-    <Margins>Seleccione as marxes da páxina actual.</Margins>
+    <Margins>Seleccionar as marxes da páxina.</Margins>
     <menuCheckIssues>Verificar o informe buscando erros, advertencias e outros consellos.</menuCheckIssues>
     <menuDesignerOptions>Configurar opcións do deseñador de informes.</menuDesignerOptions>
-    <menuEditClearContents>Baleirar contido.</menuEditClearContents>
-    <menuEditCopy>Copiar os compoñentes seleccionados ao portapapeis.</menuEditCopy>
-    <menuEditCut>Cortar os compoñentes seleccionados do informe ao portapapeis.</menuEditCut>
+    <menuEditClearContents>Baleirar o contido.</menuEditClearContents>
+    <menuEditCopy>Copiar os compoñentes seleccionados.</menuEditCopy>
+    <menuEditCut>Cortar os compoñentes seleccionados.</menuEditCut>
     <menuEditDelete>Eliminar os compoñentes seleccionados.</menuEditDelete>
-    <menuEditPaste>Pegar o contido do portapapeis no informe.</menuEditPaste>
-    <menuExportSettings>Abre o editor de configuración de exportación para o informe ou panel actual. A configuración só se aplica ao exportar o informe ou panel actual.</menuExportSettings>
+    <menuEditPaste>Pegar desde o portapapeis.</menuEditPaste>
+    <menuExportSettings>Cambiar a configuración de exportación.</menuExportSettings>
     <menuFAQPage>Ir á páxina web de preguntas frecuentes.</menuFAQPage>
-    <menuGlobalizationStrings>Lanzar o editor de Cadeas Rexionais para o informe actual.</menuGlobalizationStrings>
+    <menuGlobalizationStrings>Editar as cadeas de tradución.</menuGlobalizationStrings>
     <menuHelpAboutProgramm>Obter información acerca da versión do xerador de informes e a versión do contorno Net.</menuHelpAboutProgramm>
     <menuHomePage>Ir á páxina web do produto.</menuHomePage>
     <menuPageOptions>Configurar os parámetros básicas da páxina actual. Todas as opcións dispoñibles están accesibles no panel das Propiedades.</menuPageOptions>
     <menuPagesManager>Lanzar o Xestor de Páxinas. Permite mover, eliminar e crear novas páxinas.</menuPagesManager>
-    <menuPreviewSettings>Lanzar o editor de Vista Preliminar. Estes cambios soamente terán efecto mentres visualice o informe actual.</menuPreviewSettings>
+    <menuPreviewSettings>Cambiar a configuración de vista preliminar.</menuPreviewSettings>
     <menuPrint>Selecciona unha impresora, número de copias e outras opcións de impresión antes de imprimir.</menuPrint>
     <menuPrintPreview>Mostrar vista preliminar antes de imprimir.</menuPrintPreview>
     <menuPrintQuick>Imprimir o informe directamente na impresora. Non mostrará o diálogo de impresión antes.</menuPrintQuick>
-    <menuReportOptions>Configurar as opcións básicas da páxina actual. Todas as opcións dispoñibles están accesibles no panel das Propiedades.</menuReportOptions>
+    <menuReportOptions>Cambiar as opcións do informe.</menuReportOptions>
     <menuStyleDesigner>Lanzar o Deseñador de Estilos do informe actual.</menuStyleDesigner>
     <menuSupport>Ir á páxina web para preguntar algo.</menuSupport>
-    <menuViewAlignToGrid>Aliñar compoñentes ao enreixado.</menuViewAlignToGrid>
+    <menuViewAlignToGrid>Aliñar os compoñentes ao enreixado.</menuViewAlignToGrid>
     <menuViewNormal>Vista por defecto da páxina.</menuViewNormal>
     <menuViewPageBreakPreview>Mostrar a páxina sen bordos nin segmentos.</menuViewPageBreakPreview>
-    <menuViewQuickInfo>Mostrar información rápida de compoñentes: nome de compoñente, alias, contido, eventos, etc.</menuViewQuickInfo>
-    <menuViewShowGrid>Habilitar as liñas de enreixado para axudar a aliñar obxectos no informe.</menuViewShowGrid>
-    <menuViewShowHeaders>Mostrar cabeceiras de bandas.</menuViewShowHeaders>
-    <menuViewShowOrder>Mostrar a orde dos compoñentes na páxina.</menuViewShowOrder>
-    <menuViewShowRulers>Mostrar as regras, útil para medir e aliñar obxectos na páxina.</menuViewShowRulers>
-    <menuViewShowSmartGuides>Amosar guías intelixentes para posicionar os compoñentes uns respecto dos outros.</menuViewShowSmartGuides>
-    <MoveBackward>Subir un compoñente un nivel.</MoveBackward>
-    <MoveForward>Baixar un compoñente un nivel.</MoveForward>
+    <menuViewQuickInfo>Mostrar información rápida dos compoñentes.</menuViewQuickInfo>
+    <menuViewShowGrid>Mostrar o enreixado.</menuViewShowGrid>
+    <menuViewShowHeaders>Mostrar os encabezamentos das bandas.</menuViewShowHeaders>
+    <menuViewShowOrder>Mostrar a orde dos compoñentes.</menuViewShowOrder>
+    <menuViewShowRulers>Mostrar as regras.</menuViewShowRulers>
+    <menuViewShowSmartGuides>Mostrar as guías intelixentes.</menuViewShowSmartGuides>
+    <MoveBackward>Mover un nivel cara atrás.</MoveBackward>
+    <MoveForward>Mover un nivel cara adiante.</MoveForward>
     <NotPossibleEnableCompilationMode>Non é posible activar o modo de compilación para o informe. Isto está prohibido pola opción 'Compilation Access' na configuración do deseñador.</NotPossibleEnableCompilationMode>
-    <Orientation>Alternar entre orientación retrato e apaisado.</Orientation>
+    <Orientation>Alternar entre retrato e paisaxe.</Orientation>
     <PageDelete>Eliminar a páxina actual do informe.</PageDelete>
     <PageNew>Crear unha nova páxina.</PageNew>
-    <PageSetup>Mostrar o diálogo de Configuración de Páxina.</PageSetup>
-    <PageSize>Escolle o tamaño de páxina para a páxina actual.</PageSize>
+    <PageSetup>Cambiar a configuración de páxina.</PageSetup>
+    <PageSize>Seleccionar o tamaño do papel.</PageSize>
     <PagesManager>Executar o Xestor de Páxinas.</PagesManager>
     <PressF1>Prema F1 para máis detalles</PressF1>
-    <PropertiesButton>Activa o panel de Propiedades coas propiedades do modelo de informe.</PropertiesButton>
+    <PropertiesButton>Mostrar as propiedades do informe.</PropertiesButton>
     <Redo>Refacer o último cambio realizado no informe.</Redo>
-    <RemoveMobileSurfaceButton>Elimina a superficie móbil do panel actual.</RemoveMobileSurfaceButton>
+    <RemoveMobileSurfaceButton>Eliminar a superficie móbil.</RemoveMobileSurfaceButton>
     <ReportNew>Crear un novo informe.</ReportNew>
     <ReportOpen>Abrir o informe no deseñador.</ReportOpen>
     <ReportPreview>Visualizar o informe editado no visor.</ReportPreview>
@@ -2290,46 +2294,47 @@
     <ScriptSecuritySafeMode>Acceso seguro a scripts (capacidades restrinxidas por seguridade).</ScriptSecuritySafeMode>
     <SelectAll>Seleccionar todos os compoñentes da páxina actual.</SelectAll>
     <SelectUILanguage>Seleccione o idioma do UI.</SelectUILanguage>
-    <SendToBack>Mover os compoñentes seleccionados por detrás dos demais compoñentes.</SendToBack>
+    <SendToBack>Enviar ao fondo.</SendToBack>
     <ServicesConfigurator>Executar o Configurador de Servizos.</ServicesConfigurator>
-    <Shadow>Mostrar a sobre do compoñente.</Shadow>
+    <Shadow>Mostrar ou ocultar a sombra.</Shadow>
     <ShowBehind>Mostrar a filigrana por detrás dos compoñentes.</ShowBehind>
     <ShowImageBehind>Mostrar a filigrana por detrás de todos os compoñentes na páxina.</ShowImageBehind>
     <ShowToolbox>Mostrar a caixa de ferramentas.</ShowToolbox>
     <StimulsoftHelp>Axuda de Stimulsoft</StimulsoftHelp>
-    <StyleDesigner>Executar o Deseñador de Estilos.</StyleDesigner>
+    <StyleDesigner>Abrir o Deseñador de Estilos.</StyleDesigner>
     <TellMeMore>Contádeme máis</TellMeMore>
     <Text>Texto de filigrana.</Text>
     <TextBrush>Cambiar a cor do texto.</TextBrush>
     <TextBrushWatermark>Cambiar a cor do texto da filigrana.</TextBrushWatermark>
     <TextColor>Cambiar a cor do texto.</TextColor>
-    <TextFormat>Seleccione o formato dos valores.</TextFormat>
+    <TextFormat>Seleccionar o formato dos valores.</TextFormat>
     <ToolbarStyle>Estableza o estilo actual a todos os compoñentes seleccionados.</ToolbarStyle>
     <Undo>Desfacer o último cambio realizado no informe.</Undo>
-    <ViewModeDesktopButton>Activar a superficie de escritorio.</ViewModeDesktopButton>
-    <ViewModeMobileButton>Activar a superficie móbil.</ViewModeMobileButton>
-    <WordWrap>Dobrar o texto dun compoñente.</WordWrap>
+    <ViewModeDesktopButton>Mostrar a superficie de escritorio.</ViewModeDesktopButton>
+    <ViewModeMobileButton>Mostrar a superficie móbil.</ViewModeMobileButton>
+    <Watermark>Cambiar a configuración da filigrana.</Watermark>
+    <WordWrap>Axustar o texto en varias liñas.</WordWrap>
     <Zoom>Indique o nivel de ampliación do informe.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
-    <StiButtonControl>Representa un control de tipo Botón.</StiButtonControl>
-    <StiCheckBoxControl>Representa un control de tipo Bandeira.</StiCheckBoxControl>
-    <StiCheckedListBoxControl>Mostra un obxecto de tipo Lista, cunha marca de verificación para cada elemento.</StiCheckedListBoxControl>
-    <StiComboBoxControl>Representa un control de Selección onde se pode ingresar textos directamente e seleccionar dunha lista de opcións existentes.</StiComboBoxControl>
-    <StiDateTimePickerControl>Representa un control para seleccionar datas e/o horas. Tamén permite indicar o formato de saída dunha data/hora.</StiDateTimePickerControl>
-    <StiGridControl>Representa un control de Enreixado, comprendido de columnas e filas.</StiGridControl>
-    <StiGroupBoxControl>Representa un control para crear condenadores con bordos e unha cabeceira.</StiGroupBoxControl>
-    <StiLabelControl>Un Rótulo é un elemento da interface de usuario para mostrar texto nun formulario. Xeralmente, o contido é estático e non interactúa co usuario.</StiLabelControl>
-    <StiListBoxControl>Contén unha lista de elementos para a súa selección.</StiListBoxControl>
-    <StiListViewControl>Representa un control de tipo ListView para mostrar unha lista de elementos.</StiListViewControl>
-    <StiLookUpBoxControl>Contén unha lista de elementos para a súa selección.</StiLookUpBoxControl>
-    <StiNumericUpDownControl>Representa un control que mostra valores numéricos.</StiNumericUpDownControl>
-    <StiPanelControl>Un elemento de tipo Panel emprégase para colocar e acomodar outros obxectos.</StiPanelControl>
-    <StiPictureBoxControl>Representa un control para mostrar unha imaxe.</StiPictureBoxControl>
-    <StiRadioButtonControl>Representa un control de selección única desde unha lista de valores predefinidos. </StiRadioButtonControl>
-    <StiRichTextBoxControl>Representa un control de Texto Enriquecido.</StiRichTextBoxControl>
-    <StiTextBoxControl>Representa un control de Texto para mostrar e editar un texto determinado.</StiTextBoxControl>
-    <StiTreeViewControl>Representa un control para mostrar datos de forma xerárquica de árbore.</StiTreeViewControl>
+    <StiButtonControl>Executa unha acción ao facer clic.</StiButtonControl>
+    <StiCheckBoxControl>Activa ou desactiva unha opción.</StiCheckBoxControl>
+    <StiCheckedListBoxControl>Mostra unha lista con caixas de verificación.</StiCheckedListBoxControl>
+    <StiComboBoxControl>Desprega unha lista e permite escribir un valor.</StiComboBoxControl>
+    <StiDateTimePickerControl>Mostra un calendario para elixir data e hora.</StiDateTimePickerControl>
+    <StiGridControl>Mostra datos en filas e columnas.</StiGridControl>
+    <StiGroupBoxControl>Agrupa controis nun marco con título.</StiGroupBoxControl>
+    <StiLabelControl>Mostra un texto no formulario.</StiLabelControl>
+    <StiListBoxControl>Mostra unha lista para elixir elementos.</StiListBoxControl>
+    <StiListViewControl>Mostra unha lista de elementos de datos.</StiListViewControl>
+    <StiLookUpBoxControl>Desprega unha lista para elixir un elemento.</StiLookUpBoxControl>
+    <StiNumericUpDownControl>Recibe un número, con botóns para cambialo.</StiNumericUpDownControl>
+    <StiPanelControl>Agrupa outros controis nunha área.</StiPanelControl>
+    <StiPictureBoxControl>Mostra unha imaxe.</StiPictureBoxControl>
+    <StiRadioButtonControl>Elixe unha opción dun grupo.</StiRadioButtonControl>
+    <StiRichTextBoxControl>Mostra e edita texto con formato.</StiRichTextBoxControl>
+    <StiTextBoxControl>Mostra e edita un texto.</StiTextBoxControl>
+    <StiTreeViewControl>Mostra datos xerárquicos en forma de árbore.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
     <AddPageBreaks>Separador visual das páxinas do informe.</AddPageBreaks>

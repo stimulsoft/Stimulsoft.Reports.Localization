@@ -2046,135 +2046,139 @@
     <sys_morebuttons>Thêm nút</sys_morebuttons>
   </Gui>
   <HelpComponents>
-    <StiBarCode>Thành phần này cho phép hiển thị mã vạch trong một báo cáo. Dữ liệu mã vạch được gửi đến một đối tượng dưới dạng một chuỗi. Chuỗi có thể chứa bất kỳ ký hiệu nào nhưng chỉ ký hiệu được cho phép của biểu đồ đã chọn có thể được hiển thị.</StiBarCode>
-    <StiButtonElement>Thành phần này được sử dụng để thực thi một tập lệnh sự kiện khi người dùng đang tương tác.</StiButtonElement>
-    <StiButtonUI>Một nút dùng để kích hoạt một hành động hoặc bắt đầu một lệnh.</StiButtonUI>
-    <StiCardsElement>Thành phần này được sử dụng để hiển thị dữ liệu được tổng hợp dưới dạng thẻ.</StiCardsElement>
-    <StiChart>Thành phần này cho phép hiển thị biểu đồ trong một báo cáo. Các loại biểu đồ khác nhau đã sẵn. Trong số đó có biểu đồ thanh, đường thanh, đường, vùng, Gantt, biểu đồ tán xạ... </StiChart>
-    <StiChartElement>Phần tử này cho phép hiển thị biểu đồ trong trang tổng quan. Có nhiều loại biểu đồ khác nhau có sẵn.</StiChartElement>
-    <StiCheckBox>Thành phần này cho phép hiển thị một hộp chọn trong một báo cáo. Nó có thể hiển thị hai chế độ: "cho phép" hoặc "vô hiệu hóa".</StiCheckBox>
-    <StiCheckBoxGroupUI>Một nhóm hộp kiểm dùng để chọn nhiều tùy chọn được xác định trước từ một danh sách.</StiCheckBoxGroupUI>
-    <StiCheckBoxUI>Một hộp kiểm dùng để bật hoặc tắt nhanh một tùy chọn đơn lẻ.</StiCheckBoxUI>
-    <StiChildBand>Dải con có thể được sử dụng để xuất ra hai dải trên một hàng dữ liệu.</StiChildBand>
-    <StiClone>Thành phần này được sử dụng để nhân bản các phần của một báo cáo vào một phần yêu cầu của một báo cáo. Nhân bản chỉ có thể được áp dụng cho nội dung của bảng điều khiển.</StiClone>
-    <StiColumnFooterBand>Dải này được sử dụng để xuất ra các chân trang của các cột trên dải dữ liệu. Dải chân cột được xuất ra một lần dưới mỗi cột. Tất cả các thành phần được đặt trên dải này cũng sẽ được xuất ra dưới mỗi cột.</StiColumnFooterBand>
-    <StiColumnHeaderBand>Dải này được sử dụng để xuất tiêu đề cột. Dải tiêu đề cột được sử dụng để chỉ xuất ra một lần. Tất cả các thành phần được đặt trên dải có thể được xuất ở trên mỗi cột.</StiColumnHeaderBand>
-    <StiComboBoxElement>Đại diện cho Danh sách sổ xuống được sử dụng để nhập giá trị trực tiếp vào điều khiển hoặc chọn từ danh sách các tùy chọn hiện có.</StiComboBoxElement>
-    <StiContainer>Đây là vùng hình chữ nhật mà các thành phần khác, bao gồm cả dải có thể đặt lên. Khi di chuyển đối tượng chứa các thành phần trong nó sẽ được di chuyển quá. Đối tượng chứa có thể được đặt cả trên băng và trên một trang.</StiContainer>
-    <StiCrossDataBand>Dải này được kết nối với nguồn dữ liệu. Nó được xuất ra số lần bằng số hàng trong nguồn dữ liệu. Một dải chéo được xuất ra từ trái sang phải.</StiCrossDataBand>
-    <StiCrossFooterBand>Dải này được sử dụng để xuất chân của dải dữ liệu chéo. Dải được xuất ra một lần sau tất cả các hàng của dải dữ liệu. Một dải chéo được xuất ra từ trái sang phải.</StiCrossFooterBand>
-    <StiCrossGroupFooterBand>Dải này được sử dụng để xuất ra chân trang của một nhóm. Nó được đặt dưới dải dữ liệu chéo. Mỗi chân trang chéo thuộc về dải tiêu đề chéo được chỉ định. Một dải chéo được xuất ra từ trái sang phải.</StiCrossGroupFooterBand>
-    <StiCrossGroupHeaderBand>Dải này là cơ bản cho báo cáo kết xuất bằng nhóm, khi sử dụng dữ liệu chéo. Không thể tạo nhóm mà không có dải này. Các thành phần để hiển thị thông tin theo nhóm được đặt trên tiêu đề nhóm. Thông tin có thể là tên nhóm, ngày tháng, điều kiện nhóm, dải được xuất ra ở đầu mỗi nhóm. Một dải chéo được xuất ra từ trái sang phải.</StiCrossGroupHeaderBand>
-    <StiCrossHeaderBand>Dải này được sử dụng để xuất tiêu đề. Nó được sử dụng kết hợp với dải chéo. Một dải chéo được xuất ra từ trái sang phải.</StiCrossHeaderBand>
-    <StiCrossTab>Thành phần tab chéo được sử dụng để biểu diễn dữ liệu có cấu trúc dưới dạng bảng.</StiCrossTab>
-    <StiDataBand>Dải dữ liệu được kết nối với nguồn dữ liệu và được xuất ra số lần bằng số hàng trong nguồn dữ liệu.</StiDataBand>
-    <StiDatePickerElement>Phần tử được sử dụng để chọn ngày giờ.</StiDatePickerElement>
-    <StiDatePickerUI>Một bộ chọn ngày dùng để chọn một ngày từ lịch.</StiDatePickerUI>
-    <StiElectronicSignature>Thành phần này được sử dụng để thêm chữ ký đồ họa, hình ảnh, tên viết tắt và văn bản.</StiElectronicSignature>
-    <StiEmptyBand>Dải này được sử dụng để lấp đầy không gian trống ở cuối trang. Dải này làm đầy không gian trống trên mỗi trang của một báo cáo.</StiEmptyBand>
-    <StiFilterCategory>Nhóm các phần tử được sử dụng để lựa chọn và lọc các giá trị.</StiFilterCategory>
-    <StiFooterBand>Dải này được sử dụng để xuất ra tóm tắt bởi dải dữ liệu. Nó được đặt dưới dải dữ liệu và được xuất ra một lần sau tất cả các dòng dữ liệu được xuất ra bởi dải dữ liệu.</StiFooterBand>
-    <StiGauge>Thành phần này cho phép bạn hiển thị một giá trị trong phạm vi được xác định trước. Nó có thể có đại diện đồ họa khác nhau.</StiGauge>
-    <StiGaugeElement>Phần tử cho phép bạn hiển thị một giá trị trong phạm vi được xác định trước. Nó có thể có biểu diễn đồ họa khác nhau.</StiGaugeElement>
-    <StiGroupFooterBand>Dải nhóm chân trang được sử dụng để xuất ra nhóm chân trang. Dải này được đặt sau dải dữ liệu. Và đây chính là dải dữ liệu mà dải nhóm tiêu đề bị ràng buộc. Mỗi nhóm chân trang phụ thuộc một nhóm tiêu đề nhất định. Dãi nhóm chân trang sẽ không được xuất ra mà không có dải nhóm tiêu đề.</StiGroupFooterBand>
-    <StiGroupHeaderBand>Dải này là dải cơ bản để hiển thị các báo cáo có nhóm. Các thành phần để hiển thị thông tin theo nhóm này được đặt trên tiêu đề nhóm. Nó có thể là tên nhóm, ngày tháng, điều kiện nhóm ... Dải này được xuất ra một lần ở đầu mỗi nhóm.</StiGroupHeaderBand>
-    <StiHeaderBand>Dải này được sử dụng để xuất tiêu đề. Nó được sử dụng cùng với dải dữ liệu.</StiHeaderBand>
-    <StiHierarchicalBand>Dải này được kết nối với nguồn dữ liệu và số lượng xuất ra bằng số hàng trong nguồn dữ liệu. Dữ liệu được xuất ra dưới dạng cây.</StiHierarchicalBand>
-    <StiHorizontalLinePrimitive>Thành phần này được sử dụng để xuất ra một đường thẳng.</StiHorizontalLinePrimitive>
-    <StiIconUI>Một biểu tượng dùng để hiển thị một đồ họa mang tính biểu tượng hoặc dấu hiệu trực quan.</StiIconUI>
-    <StiImage>Thành phần này được sử dụng để xuất hình ảnh. Nó hỗ trợ các định dạng đồ họa, ví dụ như BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
-    <StiImageElement>Phần tử này được sử dụng để xuất hình ảnh. Nó hỗ trợ các định dạng đồ họa sau: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImageElement>
-    <StiImageUI>Một hình ảnh dùng để hiển thị nội dung đồ họa bên trong giao diện.</StiImageUI>
-    <StiIndicatorElement>Phần tử hiển thị sự khác biệt về giá trị giữa dữ liệu đầu vào.</StiIndicatorElement>
-    <StiLabelUI>Một nhãn dùng để hiển thị văn bản hoặc chú thích ngắn.</StiLabelUI>
-    <StiListBoxElement>Phần tử cho phép chọn các mục từ danh sách.</StiListBoxElement>
-    <StiListUI>Một danh sách dùng để hiển thị các mục có thể chọn trong một tập hợp dọc.</StiListUI>
-    <StiMap>Thành phần này được sử dụng để hiển thị dữ liệu được nhắm mục tiêu theo địa lý.</StiMap>
-    <StiMapCategory>Nhóm các phần tử để làm việc với bản đồ và dữ liệu.</StiMapCategory>
-    <StiMapElement>Phần tử này được sử dụng để hiển thị dữ liệu có mục tiêu theo địa lý.</StiMapElement>
-    <StiMathFormula>Thành phần này được sử dụng để hiển thị các công thức toán học trong một báo cáo.</StiMathFormula>
-    <StiMultiListUI>Một danh sách dùng để chọn nhiều mục từ cùng một tập hợp.</StiMultiListUI>
-    <StiMultiSelectUI>Một bộ chọn dùng để chọn nhiều giá trị từ một danh sách đã chuẩn bị.</StiMultiSelectUI>
-    <StiNumberBoxElement>Phần tử này được sử dụng để chọn một giá trị số hoặc thiết lập một phạm vi các giá trị số.</StiNumberBoxElement>
-    <StiNumberInputUI>Một ô nhập số dùng để nhập các giá trị số với đầu vào được kiểm soát.</StiNumberInputUI>
-    <StiOnlineMapElement>Phần tử này được sử dụng để hiển thị các điểm đánh dấu địa lý trên bản đồ trực tuyến.</StiOnlineMapElement>
-    <StiOverlayBand>Dải này được sử dụng để xuất các thủy ấn trên một trang.</StiOverlayBand>
-    <StiPageFooterBand>Dải này được sử dụng để xuất ra thông tin ở cuối mỗi trang như số trang, ngày, và các thông tin bổ sung khác.</StiPageFooterBand>
-    <StiPageHeaderBand>Dải này được sử dụng để xuất ra tiêu đề trang như số trang, ngày, và các thông tin bổ sung khác. Nó được xuất ra ở đầu mỗi trang.</StiPageHeaderBand>
-    <StiPanel>Vùng chữ nhật có thể chứa các thành phần khác, bao gồm các dải. Khi bảng điều khiển được di chuyển, các thành phần trong nó cũng được di chuyển. Bảng điều khiển có thể được đặt trên dải hoặc trên một trang.</StiPanel>
-    <StiPanelElement>Một vùng hình chữ nhật có thể chứa các phần tử khác. Khi bảng điều khiển được di chuyển, các phần tử trong đó cũng được di chuyển.</StiPanelElement>
-    <StiPanelUI>Một bảng dùng để nhóm và sắp xếp các điều khiển khác bên trong một khu vực.</StiPanelUI>
-    <StiPdfDigitalSignature>Thành phần này được sử dụng để chỉ định vị trí cho chữ ký điện tử sau khi báo cáo đã được xuất sang Adobe PDF.</StiPdfDigitalSignature>
-    <StiPdfDigitalSignatureElement>Thành phần này được sử dụng để chỉ định một khoảng trống cho chữ ký số và các trường từ chứng chỉ khi xuất sang PDF.</StiPdfDigitalSignatureElement>
-    <StiPivotTableElement>Phần tử bảng tổng hợp được sử dụng cho biểu diễn dữ liệu có cấu trúc dưới dạng bảng.</StiPivotTableElement>
-    <StiProgressElement>Phần tử hiển thị tỷ lệ dữ liệu đầu vào. Nó có thể được trình bày trong các chế độ khác nhau - biểu đồ tròn , hình tròn, thanh.</StiProgressElement>
-    <StiRadioGroupUI>Một nhóm nút radio dùng để chọn một tùy chọn từ một tập hợp giá trị được xác định trước.</StiRadioGroupUI>
-    <StiRangeSelectorElement>Thành phần này được dùng để chọn một phạm vi giá trị trên thang đo hoặc dòng thời gian. Nó cho phép người dùng xác định trực quan giới hạn tối thiểu và tối đa của phạm vi.</StiRangeSelectorElement>
-    <StiRangeSliderUI>Một thanh trượt phạm vi dùng để xác định giá trị tối thiểu và tối đa trên một thang đo.</StiRangeSliderUI>
-    <StiRectanglePrimitive>Thành phần này được sử dụng để xuất các hình chữ nhật.</StiRectanglePrimitive>
-    <StiRegionMapElement>Phần tử này được sử dụng để hiển thị dữ liệu có mục tiêu theo địa lý.</StiRegionMapElement>
-    <StiReportSummaryBand>Dải này được sử dụng để xuất ra tóm tắt thông qua toàn bộ báo cáo. Nó được xuất ra một lần ở cuối của một báo cáo.</StiReportSummaryBand>
-    <StiReportTitleBand>Dải này được sử dụng để xuất ra tiêu đề báo cáo. Nó được xuất ra trong phần đầu của một báo cáo.</StiReportTitleBand>
-    <StiRichText>Thành phần này được sử dụng để xuất và chỉnh sửa văn bản RTF. Nó cũng hỗ trợ tải và lưu các tệp ở định dạng RTF.</StiRichText>
-    <StiRoundedRectanglePrimitive>Thành phần này được sử dụng để xuất các hình chữ nhật bo tròn.</StiRoundedRectanglePrimitive>
-    <StiScreen>Một màn hình chứa các điều khiển, bố cục và tương tác của người dùng cho một trang ứng dụng.</StiScreen>
-    <StiSelectUI>Một hộp chọn dùng để chọn một giá trị từ danh sách thả xuống.</StiSelectUI>
-    <StiShape>Thành phần này được sử dụng để chèn các hình dạng đã làm sẵn, chẳng hạn như các mũi tên, đường chéo xuống, đường chéo lên, đường ngang, các đường bên trái và bên phải, hình bầu dục, hình chữ nhật, hình chữ nhật tròn, đường trên cùng và dưới cùng, tam giác, đường thẳng đứng.</StiShape>
-    <StiShapeElement>Phần tử này được sử dụng để chèn các hình dạng sẵn có, như mũi tên, đường chéo lên, đường chéo xuống, đường ngang, đường trái và phải, hình bầu dục, hình chữ nhật, hình chữ nhật tròn, đường trên cùng và dưới cùng, hình tam giác, đường thẳng đứng.</StiShapeElement>
-    <StiSignature>Thành phần này được sử dụng để thêm chữ ký điện tử hoặc kỹ thuật số vào báo cáo.</StiSignature>
-    <StiSliderUI>Một thanh trượt dùng để chọn một giá trị trên thang đo số liên tục.</StiSliderUI>
-    <StiSparkline>Thành phần này được sử dụng để tạo đồ họa nhỏ trong một báo cáo. Nó cho phép bạn theo dõi dữ liệu thay đổi động dưới dạng thanh, đường, khu vực.</StiSparkline>
-    <StiSubReport>Thành phần này được sử dụng để xuất dữ liệu bổ sung ở các vị trí khác nhau của báo cáo.</StiSubReport>
-    <StiSwitchUI>Một công tắc dùng để bật hoặc tắt một cài đặt chỉ với một cú nhấp.</StiSwitchUI>
-    <StiTable>Thành phần này là tập hợp các phần tử dữ liệu được tổ chức sử dụng mô hình cột dọc và các hàng ngang.</StiTable>
-    <StiTableElement>Phần tử này là tập hợp các phần tử dữ liệu được sắp xếp bằng cách sử dụng mô hình cột dọc và hàng ngang.</StiTableElement>
-    <StiTableOfContents>Thành phần này được sử dụng để tạo mục lục trong báo cáo.</StiTableOfContents>
-    <StiTableUI>Một bảng dùng để hiển thị dữ liệu theo hàng và cột một cách rõ ràng.</StiTableUI>
-    <StiText>Thành phần này là một đối tượng cơ bản để xuất dữ liệu dưới dạng văn bản.</StiText>
-    <StiTextElement>Phần tử này là một đối tượng cơ bản để xuất dữ liệu dưới dạng văn bản.</StiTextElement>
-    <StiTextInCells>Thành phần này được sử dụng để xuất ra một văn bản trong các ô. Nó thường được sử dụng để tạo các biểu mẫu.</StiTextInCells>
-    <StiTextInputUI>Một ô nhập văn bản dùng để nhập và chỉnh sửa các giá trị văn bản.</StiTextInputUI>
-    <StiTreeViewBoxElement>Phần tử được sử dụng để chọn các giá trị có danh sách thả xuống dưới dạng cây.</StiTreeViewBoxElement>
-    <StiTreeViewElement>Đại diện cho phần tử được sử dụng để hiển thị dữ liệu phân cấp dưới dạng cây.</StiTreeViewElement>
-    <StiVerticalLinePrimitive>Thành phần này được sử dụng để xuất các đường thẳng đứng.</StiVerticalLinePrimitive>
-    <StiWebContentElement>Thành phần cho phép thêm nội dung web vào bảng điều khiển.</StiWebContentElement>
-    <StiWinControl>Thành phần cho phép hiển thị điều khiển trực quan từ. NET Framework.</StiWinControl>
-    <StiZipCode>Thành phần này được sử dụng để xuất ra mã bưu điện.</StiZipCode>
+    <CategoryBands>Dải in tiêu đề, dữ liệu và phần chân.</CategoryBands>
+    <CategoryComponents>Thành phần hiển thị văn bản, ảnh và dữ liệu khác.</CategoryComponents>
+    <CategoryCrossBands>Dải in từ trái sang phải.</CategoryCrossBands>
+    <StiBarCode>Hiển thị mã vạch.</StiBarCode>
+    <StiButtonElement>Chạy tập lệnh khi nhấp chuột.</StiButtonElement>
+    <StiButtonUI>Bắt đầu một hành động hoặc một lệnh.</StiButtonUI>
+    <StiCardsElement>Hiển thị dữ liệu đã nhóm dưới dạng thẻ.</StiCardsElement>
+    <StiChart>Hiển thị dữ liệu dưới dạng biểu đồ.</StiChart>
+    <StiChartElement>Hiển thị dữ liệu dưới dạng biểu đồ.</StiChartElement>
+    <StiCheckBox>Hiển thị giá trị đúng hoặc sai bằng dấu kiểm.</StiCheckBox>
+    <StiCheckBoxGroupUI>Đưa ra các tùy chọn để đánh dấu nhiều mục.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>Bật hoặc tắt một tùy chọn.</StiCheckBoxUI>
+    <StiChildBand>In thêm một dải cho cùng một hàng dữ liệu.</StiChildBand>
+    <StiClone>Lặp lại nội dung của một bảng điều khiển.</StiClone>
+    <StiColumnFooterBand>In bên dưới mỗi cột của dải Dữ liệu.</StiColumnFooterBand>
+    <StiColumnHeaderBand>In bên trên mỗi cột của dải Dữ liệu.</StiColumnHeaderBand>
+    <StiComboBoxElement>Chọn một giá trị từ danh sách xổ xuống.</StiComboBoxElement>
+    <StiContainer>Nhóm các thành phần khác trong một vùng.</StiContainer>
+    <StiCrossDataBand>In một lần cho mỗi hàng, từ trái sang phải.</StiCrossDataBand>
+    <StiCrossFooterBand>In sau dải Dữ liệu chéo.</StiCrossFooterBand>
+    <StiCrossGroupFooterBand>In ở cuối mỗi nhóm chéo.</StiCrossGroupFooterBand>
+    <StiCrossGroupHeaderBand>In ở đầu mỗi nhóm chéo.</StiCrossGroupHeaderBand>
+    <StiCrossHeaderBand>In trước dải Dữ liệu chéo.</StiCrossHeaderBand>
+    <StiCrossTab>Hiển thị dữ liệu có cấu trúc dưới dạng bảng chéo.</StiCrossTab>
+    <StiDataBand>In một lần cho mỗi hàng của nguồn dữ liệu.</StiDataBand>
+    <StiDatePickerElement>Chọn ngày và giờ.</StiDatePickerElement>
+    <StiDatePickerUI>Hiển thị lịch để chọn ngày.</StiDatePickerUI>
+    <StiElectronicSignature>Thêm chữ ký vẽ tay, nhập chữ hoặc hình ảnh.</StiElectronicSignature>
+    <StiEmptyBand>Lấp đầy khoảng trống ở cuối trang.</StiEmptyBand>
+    <StiFilterCategory>Phần tử chọn và lọc giá trị.</StiFilterCategory>
+    <StiFooterBand>In sau các hàng của dải Dữ liệu.</StiFooterBand>
+    <StiGauge>Hiển thị một giá trị trong một phạm vi.</StiGauge>
+    <StiGaugeElement>Hiển thị một giá trị trong một phạm vi.</StiGaugeElement>
+    <StiGroupFooterBand>In ở cuối mỗi nhóm.</StiGroupFooterBand>
+    <StiGroupHeaderBand>In ở đầu mỗi nhóm.</StiGroupHeaderBand>
+    <StiHeaderBand>In trước các hàng của dải Dữ liệu.</StiHeaderBand>
+    <StiHierarchicalBand>In các hàng của nguồn dữ liệu dưới dạng cây.</StiHierarchicalBand>
+    <StiHorizontalLinePrimitive>Vẽ một đường thẳng ngang.</StiHorizontalLinePrimitive>
+    <StiIconUI>Hiển thị một biểu tượng.</StiIconUI>
+    <StiImage>Hiển thị một hình ảnh.</StiImage>
+    <StiImageElement>Hiển thị một hình ảnh.</StiImageElement>
+    <StiImageUI>Hiển thị một hình ảnh.</StiImageUI>
+    <StiIndicatorElement>Hiển thị chênh lệch giữa các giá trị.</StiIndicatorElement>
+    <StiLabelUI>Hiển thị một văn bản ngắn.</StiLabelUI>
+    <StiListBoxElement>Chọn các mục từ một danh sách.</StiListBoxElement>
+    <StiListUI>Hiển thị danh sách để chọn một mục.</StiListUI>
+    <StiMap>Hiển thị dữ liệu trên bản đồ.</StiMap>
+    <StiMapCategory>Phần tử hiển thị dữ liệu trên bản đồ.</StiMapCategory>
+    <StiMapElement>Hiển thị dữ liệu trên bản đồ.</StiMapElement>
+    <StiMarkdown>Hiển thị văn bản Markdown.</StiMarkdown>
+    <StiMathFormula>Hiển thị một công thức toán học.</StiMathFormula>
+    <StiMultiListUI>Hiển thị danh sách để chọn nhiều mục.</StiMultiListUI>
+    <StiMultiSelectUI>Hiển thị danh sách xổ xuống để chọn nhiều giá trị.</StiMultiSelectUI>
+    <StiNumberBoxElement>Chọn một số hoặc một phạm vi số.</StiNumberBoxElement>
+    <StiNumberInputUI>Nhận một số từ người dùng.</StiNumberInputUI>
+    <StiOnlineMapElement>Hiển thị điểm đánh dấu trên bản đồ trực tuyến.</StiOnlineMapElement>
+    <StiOverlayBand>In thủy ấn trên mỗi trang.</StiOverlayBand>
+    <StiPageFooterBand>In ở cuối mỗi trang.</StiPageFooterBand>
+    <StiPageHeaderBand>In ở đầu mỗi trang.</StiPageHeaderBand>
+    <StiPanel>Nhóm các thành phần khác trong một vùng.</StiPanel>
+    <StiPanelElement>Nhóm các phần tử khác trong một vùng.</StiPanelElement>
+    <StiPanelUI>Nhóm các điều khiển khác trong một vùng.</StiPanelUI>
+    <StiPdfDigitalSignature>Đánh dấu vị trí chữ ký số trong PDF.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>Đánh dấu vị trí chữ ký số trong PDF.</StiPdfDigitalSignatureElement>
+    <StiPivotTableElement>Hiển thị dữ liệu có cấu trúc dạng bảng tổng hợp.</StiPivotTableElement>
+    <StiProgressElement>Hiển thị giá trị dưới dạng một phần của tổng thể.</StiProgressElement>
+    <StiRadioGroupUI>Đưa ra các tùy chọn để chọn một mục.</StiRadioGroupUI>
+    <StiRangeSelectorElement>Chọn phạm vi trên thang đo hoặc dòng thời gian.</StiRangeSelectorElement>
+    <StiRangeSliderUI>Đặt phạm vi trên thang đo.</StiRangeSliderUI>
+    <StiRectanglePrimitive>Vẽ một hình chữ nhật.</StiRectanglePrimitive>
+    <StiRegionMapElement>Hiển thị dữ liệu trên bản đồ khu vực.</StiRegionMapElement>
+    <StiReportSummaryBand>In một lần ở cuối báo cáo.</StiReportSummaryBand>
+    <StiReportTitleBand>In một lần ở đầu báo cáo.</StiReportTitleBand>
+    <StiRichText>Hiển thị văn bản RTF có định dạng.</StiRichText>
+    <StiRoundedRectanglePrimitive>Vẽ một hình chữ nhật bo tròn.</StiRoundedRectanglePrimitive>
+    <StiScreen>Chứa các điều khiển của một trang ứng dụng.</StiScreen>
+    <StiSelectUI>Hiển thị danh sách xổ xuống để chọn một giá trị.</StiSelectUI>
+    <StiShape>Hiển thị một hình dạng có sẵn.</StiShape>
+    <StiShapeElement>Hiển thị một hình dạng có sẵn.</StiShapeElement>
+    <StiSignature>Thêm chữ ký điện tử hoặc chữ ký số.</StiSignature>
+    <StiSliderUI>Đặt giá trị trên thang đo.</StiSliderUI>
+    <StiSparkline>Hiển thị biểu đồ nhỏ của một chuỗi dữ liệu.</StiSparkline>
+    <StiSubReport>In một báo cáo hoặc trang khác tại vị trí này.</StiSubReport>
+    <StiSwitchUI>Bật hoặc tắt một cài đặt.</StiSwitchUI>
+    <StiTable>Hiển thị dữ liệu theo hàng và cột.</StiTable>
+    <StiTableElement>Hiển thị dữ liệu theo hàng và cột.</StiTableElement>
+    <StiTableOfContents>Tạo mục lục.</StiTableOfContents>
+    <StiTableUI>Hiển thị dữ liệu theo hàng và cột.</StiTableUI>
+    <StiText>Hiển thị dữ liệu dưới dạng văn bản.</StiText>
+    <StiTextElement>Hiển thị dữ liệu dưới dạng văn bản.</StiTextElement>
+    <StiTextInCells>Hiển thị văn bản, mỗi ô một ký tự.</StiTextInCells>
+    <StiTextInputUI>Nhận văn bản từ người dùng.</StiTextInputUI>
+    <StiTreeViewBoxElement>Chọn các giá trị từ cây xổ xuống.</StiTreeViewBoxElement>
+    <StiTreeViewElement>Hiển thị dữ liệu phân cấp dưới dạng cây.</StiTreeViewElement>
+    <StiVerticalLinePrimitive>Vẽ một đường thẳng đứng.</StiVerticalLinePrimitive>
+    <StiWebContentElement>Hiển thị nội dung web.</StiWebContentElement>
+    <StiWinControl>Hiển thị một điều khiển trực quan .NET.</StiWinControl>
+    <StiZipCode>Hiển thị mã ZIP.</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
     <ActiveRelation>Đặt mối quan hệ ưu tiên để liên kết hai bảng. Nó được sử dụng trong chuyển đổi dữ liệu và bảng điều khiển. Chỉ một quan hệ trong mỗi nguồn dữ liệu có thể hoạt động.</ActiveRelation>
-    <Align>Thay đổi vị trí của các thành phần đã chọn.</Align>
-    <AlignBottom>Căn chỉnh nội dung của một thành phần xuống dưới.</AlignBottom>
-    <AlignCenter>Căn chỉnh nội dung của một thành phần đến trung tâm.</AlignCenter>
+    <Align>Căn chỉnh các thành phần đã chọn.</Align>
+    <AlignBottom>Căn chỉnh nội dung xuống dưới.</AlignBottom>
+    <AlignCenter>Căn chỉnh nội dung vào giữa.</AlignCenter>
     <AlignComponentBottom>Cho phép bạn căn chỉnh các đối tượng theo chiều ngang dọc theo cạnh dưới cùng của các thành phần được chọn.</AlignComponentBottom>
     <AlignComponentCenter>Cho phép bạn căn chỉnh các đối tượng theo chiều ngang dọc theo cạnh giữa của các thành phần được chọn.</AlignComponentCenter>
     <AlignComponentLeft>Cho phép bạn căn chỉnh các đối tượng theo chiều dọc dọc theo cạnh trái của các thành phần đã chọn.</AlignComponentLeft>
     <AlignComponentMiddle>Cho phép bạn căn chỉnh các đối tượng theo chiều dọc dọc theo cạnh giữa của các thành phần được chọn.</AlignComponentMiddle>
     <AlignComponentRight>Cho phép bạn căn chỉnh các đối tượng theo chiều dọc dọc theo cạnh phải của các thành phần được chọn.</AlignComponentRight>
     <AlignComponentTop>Cho phép bạn căn chỉnh các đối tượng theo chiều ngang dọc theo cạnh trên của các thành phần được chọn.</AlignComponentTop>
-    <AlignLeft>Căn chỉnh nội dung của một thành phần sang trái.</AlignLeft>
-    <AlignMiddle>Tập trung các nội dung bằng các đường viền trên và dưới của một thành phần.</AlignMiddle>
-    <AlignRight>Căn chỉnh nội dung của một thành phần sang phải.</AlignRight>
-    <AlignToGrid>Căn chỉnh các thành phần đã chọn vào các nút lưới.</AlignToGrid>
-    <AlignTop>Căn chỉnh nội dung của một thành phần lên trên.</AlignTop>
-    <AlignWidth>Căn chỉnh nội dung của mội thành phần.</AlignWidth>
-    <Angle>Xoay nội dung của các thành phần.</Angle>
+    <AlignLeft>Căn chỉnh nội dung sang trái.</AlignLeft>
+    <AlignMiddle>Căn chỉnh nội dung vào giữa theo chiều dọc.</AlignMiddle>
+    <AlignRight>Căn chỉnh nội dung sang phải.</AlignRight>
+    <AlignToGrid>Căn chỉnh các thành phần đã chọn vào lưới.</AlignToGrid>
+    <AlignTop>Căn chỉnh nội dung lên trên.</AlignTop>
+    <AlignWidth>Căn đều nội dung hai bên.</AlignWidth>
+    <Angle>Xoay văn bản.</Angle>
     <AngleWatermark>Góc quay văn bản thủy ấn.</AngleWatermark>
-    <Background>Thay đổi nền của các thành phần đã chọn.</Background>
-    <biConditions>Kiểm soát danh sách các điều kiện của các thành phần được lựa chọn.</biConditions>
-    <BorderColor>Chọn màu đường viền của thành phần được chọn.</BorderColor>
-    <BorderSidesAll>Hiển thị tất cả đường viền của các thành phần được chọn.</BorderSidesAll>
-    <BorderSidesBottom>Hiển thị đường viền bên dưới của các thành phần được chọn.</BorderSidesBottom>
-    <BorderSidesLeft>Hiển thị đường viền bên trái của các thành phần được chọn.</BorderSidesLeft>
-    <BorderSidesNone>Không hiển thị tất cả các đường viền của các thành phần được chọn.</BorderSidesNone>
-    <BorderSidesRight>Hiển thị đường viền bên phải của các thành phần được chọn.</BorderSidesRight>
-    <BorderSidesTop>Hiển thị đường viền bên trên của các thành phần được chọn.</BorderSidesTop>
-    <BorderStyle>Chọn kiểu đường viền của các thành phần được chọn.</BorderStyle>
-    <BringToFront>Đưa thành phần đã chọn lên trước.</BringToFront>
+    <Background>Thay đổi nền.</Background>
+    <biConditions>Chỉnh sửa các điều kiện.</biConditions>
+    <BorderColor>Thay đổi màu đường viền.</BorderColor>
+    <BorderSidesAll>Hiển thị tất cả đường viền.</BorderSidesAll>
+    <BorderSidesBottom>Hiển thị hoặc ẩn đường viền dưới.</BorderSidesBottom>
+    <BorderSidesLeft>Hiển thị hoặc ẩn đường viền trái.</BorderSidesLeft>
+    <BorderSidesNone>Ẩn tất cả đường viền.</BorderSidesNone>
+    <BorderSidesRight>Hiển thị hoặc ẩn đường viền phải.</BorderSidesRight>
+    <BorderSidesTop>Hiển thị hoặc ẩn đường viền trên.</BorderSidesTop>
+    <BorderStyle>Thay đổi kiểu đường viền.</BorderStyle>
+    <BringToFront>Đưa lên trước.</BringToFront>
     <CenterHorizontally>Cho phép bạn căn chỉnh một thành phần theo chiều ngang tương đối so với các cạnh của đối tượng chứa thành phần đó.</CenterHorizontally>
     <CenterVertically>Cho phép bạn căn chỉnh một thành phần theo chiều dọc tương đối so với các cạnh của đối tượng chứa thành phần đó.</CenterVertically>
     <Close>Đóng trình thiết kế báo cáo.</Close>
-    <Columns>Chia một trang thành các cột.</Columns>
+    <Columns>Chia trang thành các cột.</Columns>
     <CompilationAccess1>Tài liệu này sử dụng quy trình biên dịch. Nếu tài liệu từ một nguồn đáng tin cậy, bạn có thể nhấp vào nút "Mở" để truy cập nó.</CompilationAccess1>
     <CompilationAccess2>Nếu bạn không chắc chắn về nguồn của tài liệu nhưng vẫn muốn xem nó, bạn có thể nhấp vào nút "Mở trong chế độ an toàn". Trong trường hợp này, bạn sẽ sử dụng giải thích thay vì biên dịch, cho phép bạn chạy tài liệu một cách an toàn.</CompilationAccess2>
     <CompilationAccess3>Tài liệu này sử dụng quy trình biên dịch và có thể không an toàn. Bạn không thể mở nó.</CompilationAccess3>
@@ -2185,15 +2189,15 @@
     <CompilationAccessForceInterpretation>Tài liệu có biên dịch sẽ được mở mà không có bất kỳ lời nhắc nào nhưng sẽ tự động chuyển đổi sang chế độ giải thích, không sử dụng quy trình biên dịch.</CompilationAccessForceInterpretation>
     <CompilationAccessTitle>Tài liệu sử dụng biên dịch</CompilationAccessTitle>
     <CompilationModeEnabling>Bạn đang chuyển sang chế độ biên dịch. Chế độ này cho phép chạy các mã khác nhau và đôi khi nó có thể gây hại. Vui lòng sử dụng chế độ này chỉ khi bạn hiểu tất cả các rủi ro và đồng ý với chúng. Nhấp vào nút {0} để tiếp tục.</CompilationModeEnabling>
-    <ComponentSize>Thay đổi kích thước của các thành phần đã chọn.</ComponentSize>
-    <ComponentsMenu>Mở menu Thành phần chứa các phần tử dashboard chưa được sử dụng trên bề mặt di động.</ComponentsMenu>
-    <CopyStyle>Sao chép kiểu</CopyStyle>
+    <ComponentSize>Thay đổi kích thước các thành phần đã chọn.</ComponentSize>
+    <ComponentsMenu>Hiển thị các phần tử chưa sử dụng.</ComponentsMenu>
+    <CopyStyle>Sao chép kiểu sang các thành phần khác.</CopyStyle>
     <CopyToClipboard>Sao chép vào bộ nhớ tạm</CopyToClipboard>
     <CurrencySymbol>Chọn biểu tượng tiền tệ.</CurrencySymbol>
     <DashboardNew>Tạo một bảng điều khiển mới.</DashboardNew>
     <DataStore>Hiển thị dữ liệu, đã đăng ký trong báo cáo.</DataStore>
-    <DateTimeFormat>Chọn định dạng ngày tháng và thời gian cho các thành phần đã chọn.</DateTimeFormat>
-    <DockingPanels>Cài đặt bảng điều khiển.</DockingPanels>
+    <DateTimeFormat>Chọn định dạng ngày và giờ.</DateTimeFormat>
+    <DockingPanels>Hiển thị hoặc ẩn các bảng điều khiển.</DockingPanels>
     <DockStyleBottom>Gắn các thành phần đã chọn vào phía bên dưới.</DockStyleBottom>
     <DockStyleFill>Gắn các thành phần đã chọn vào tất cả các phía.</DockStyleFill>
     <DockStyleLeft>Gắn các thành phần đã chọn vào phía bên trái.</DockStyleLeft>
@@ -2202,18 +2206,18 @@
     <DockStyleTop>Gắn các thành phần đã chọn vào phía bên trên.</DockStyleTop>
     <EventsAccess1>Tài liệu này sử dụng sự kiện. Nếu tài liệu đến từ nguồn đáng tin cậy, bạn có thể nhấp vào nút "Mở" để truy cập.</EventsAccess1>
     <EventsAccess2>Nếu bạn không chắc chắn về nguồn gốc của tài liệu nhưng vẫn muốn xem, bạn có thể nhấp vào nút "Mở ở chế độ an toàn". Trong trường hợp này, các sự kiện sẽ bị bỏ qua và không được thực thi.</EventsAccess2>
-    <FontGrow>Làm cho kích thước văn bản lớn hơn.</FontGrow>
-    <FontName>Phông chữ.</FontName>
+    <FontGrow>Làm cho văn bản lớn hơn.</FontGrow>
+    <FontName>Thay đổi phông chữ văn bản.</FontName>
     <FontNameWatermark>Phông chữ thủy ấn.</FontNameWatermark>
-    <FontShrink>Làm cho kích thước chữ nhỏ hơn.</FontShrink>
-    <FontSize>Cỡ chữ</FontSize>
+    <FontShrink>Làm cho văn bản nhỏ hơn.</FontShrink>
+    <FontSize>Thay đổi kích thước văn bản.</FontSize>
     <FontSizeWatermark>Thay đổi kích cỡ phông chữ.</FontSizeWatermark>
-    <FontStyleBold>Làm cho chữ đậm.</FontStyleBold>
+    <FontStyleBold>In đậm văn bản.</FontStyleBold>
     <FontStyleBoldWatermark>Làm cho văn bản của thủy ấn đậm.</FontStyleBoldWatermark>
-    <FontStyleItalic>Làm cho chữ nghiêng.</FontStyleItalic>
+    <FontStyleItalic>In nghiêng văn bản.</FontStyleItalic>
     <FontStyleItalicWatermark>Làm cho văn bản của thủy ấn nghiêng.</FontStyleItalicWatermark>
-    <FontStyleStrikeout>Làm cho văn bản gạch ngang.</FontStyleStrikeout>
-    <FontStyleUnderline>Làm cho chữ gạch dưới.</FontStyleUnderline>
+    <FontStyleStrikeout>Gạch ngang văn bản.</FontStyleStrikeout>
+    <FontStyleUnderline>Gạch chân văn bản.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>Làm cho văn bản của thủy ấn gạch chân.</FontStyleUnderlineWatermark>
     <FormatBoolean>Định dạng này được sử dụng để định dạng các giá trị của kiểu boolean.</FormatBoolean>
     <FormatCurrency>Hiển thị giá trị bằng đơn vị tiền tệ. Nó cho phép bạn hiển thị một số với ký hiệu tiền tệ mặc định.</FormatCurrency>
@@ -2224,61 +2228,61 @@
     <FormatPercentage>Hiển thị giá trị theo tỷ lệ phần trăm. Số được nhân với 100 để chuyển đổi chúng thành phần trăm.</FormatPercentage>
     <FormatTime>Hiển thị một giá trị theo thời gian. Định dạng thời gian được dựa trên cài đặt thời gian khu vực.</FormatTime>
     <FormNew>Tạo một hộp thoại mới.</FormNew>
-    <GridMode>Hiển thị lưới trong các đường kẻ hoặc chấm.</GridMode>
+    <GridMode>Hiển thị lưới dưới dạng đường kẻ hoặc chấm.</GridMode>
     <ImageAlignment>Đặt thủy ấn trên một trang.</ImageAlignment>
     <ImageTransparency>Thay đổi độ trong suốt của thủy ấn.</ImageTransparency>
-    <Interaction>Kiểm soát sự tương tác của các thành phần được chọn.</Interaction>
-    <LineSpacing>Chọn khoảng cách không gian xuất hiện giữa các dòng văn bản hoặc giữa các đoạn văn.</LineSpacing>
-    <Link>Liên kết thành phần vào thành phần chứa hiện tại.</Link>
+    <Interaction>Thiết lập tương tác.</Interaction>
+    <LineSpacing>Thay đổi khoảng cách dòng.</LineSpacing>
+    <Link>Liên kết với đối tượng chứa.</Link>
     <LoadImage>Nạp thủy ấn từ tệp tin.</LoadImage>
-    <Lock>Khóa thành phần. Không thể di chuyển và thay đổi kích thước thành phần.</Lock>
-    <MainMenu>Nhấp vào đây để xem danh sách các hoạt động có thể thực hiện với báo cáo, bao gồm mở, đóng và xem trước.</MainMenu>
+    <Lock>Khóa vị trí và kích thước.</Lock>
+    <MainMenu>Tạo, mở hoặc lưu báo cáo.</MainMenu>
     <MakeHorizontalSpacingEqual>Cho phép bạn thiết lập khoảng cách ngang bằng nhau giữa các thành phần được chọn.</MakeHorizontalSpacingEqual>
     <MakeVerticalSpacingEqual>Cho phép bạn đặt khoảng trắng bằng nhau giữa các thành phần được chọn.</MakeVerticalSpacingEqual>
-    <Margins>Chọn lề của trang hiện tại.</Margins>
+    <Margins>Chọn lề trang.</Margins>
     <menuCheckIssues>Kiểm tra thông qua một báo cáo để tìm lỗi, cảnh báo và nhận được đề xuất.</menuCheckIssues>
     <menuDesignerOptions>Thiết lập các tùy chọn thiết kế báo cáo.</menuDesignerOptions>
     <menuEditClearContents>Xóa nội dung.</menuEditClearContents>
-    <menuEditCopy>Sao chép các thành phần đã chọn và đặt chúng vào bộ nhớ tạm.</menuEditCopy>
-    <menuEditCut>Cắt các thành phần đã chọn từ một báo cáo và đặt chúng vào bộ nhớ tạm.</menuEditCut>
+    <menuEditCopy>Sao chép các thành phần đã chọn.</menuEditCopy>
+    <menuEditCut>Cắt các thành phần đã chọn.</menuEditCut>
     <menuEditDelete>Xóa các thành phần đã chọn.</menuEditDelete>
-    <menuEditPaste>Dán nội dung của bộ nhớ tạm vào báo cáo.</menuEditPaste>
-    <menuExportSettings>Mở trình chỉnh sửa Cài đặt xuất cho báo cáo hoặc dashboard hiện tại. Cài đặt chỉ được áp dụng khi xuất báo cáo hoặc dashboard hiện tại.</menuExportSettings>
+    <menuEditPaste>Dán từ Bảng tạm.</menuEditPaste>
+    <menuExportSettings>Thay đổi cài đặt xuất.</menuExportSettings>
     <menuFAQPage>Vào trang web với các câu hỏi thường gặp.</menuFAQPage>
-    <menuGlobalizationStrings>Gọi cho trình chỉnh sửa lược đồ toàn cầu hoá của báo cáo hiện tại.</menuGlobalizationStrings>
+    <menuGlobalizationStrings>Chỉnh sửa các chuỗi ký tự toàn cầu hóa.</menuGlobalizationStrings>
     <menuHelpAboutProgramm>Nhận thông tin về phiên bản của trình tạo báo cáo và phiên bản của .NET.</menuHelpAboutProgramm>
     <menuHomePage>Đi tới trang chủ của sản phẩm.</menuHomePage>
     <menuPageOptions>Thiết lập các thông số cơ bản của trang hiện tại. Tất cả các tùy chọn trang có thể được thay đổi bằng cách sử dụng bảng điều khiển thuộc tính.</menuPageOptions>
     <menuPagesManager>Chạy trình quản lý trang. Nó cho phép di chuyển các trang, xóa các trang, và tạo các trang mới.</menuPagesManager>
-    <menuPreviewSettings>Gọi trình chỉnh sửa cài đặt xem trước của báo cáo hiện tại. Cài đặt sẽ chỉ được áp dụng khi xem báo cáo hiện tại.</menuPreviewSettings>
+    <menuPreviewSettings>Thay đổi cài đặt xem trước.</menuPreviewSettings>
     <menuPrint>Chọn máy in, số bản sao, và các tùy chọn in khác trước khi in.</menuPrint>
     <menuPrintPreview>Xem trước báo cáo trước khi in.</menuPrintPreview>
     <menuPrintQuick>In báo cáo trực tiếp đến máy in mặc định. Hộp thoại in không được hiển thị.</menuPrintQuick>
-    <menuReportOptions>Thiết lập các tùy chọn báo cáo cơ bản. Tất cả tùy chọn có thể được thay đổi bằng bảng thuộc tính.</menuReportOptions>
+    <menuReportOptions>Thay đổi tùy chọn báo cáo.</menuReportOptions>
     <menuStyleDesigner>Gọi cho trình thiết kế phong cách của báo cáo hiện tại.</menuStyleDesigner>
     <menuSupport>Truy cập trang hỗ trợ để đặt câu hỏi.</menuSupport>
     <menuViewAlignToGrid>Căn chỉnh các thành phần vào lưới.</menuViewAlignToGrid>
     <menuViewNormal>Chế độ xem bình thường của một trang.</menuViewNormal>
     <menuViewPageBreakPreview>Chế độ hiển thị trang có đường viền của các phân đoạn.</menuViewPageBreakPreview>
-    <menuViewQuickInfo>Hiển thị thông tin nhanh về các thành phần: tên thành phần, bí danh, nội dung, sự kiện...</menuViewQuickInfo>
-    <menuViewShowGrid>Bật các đường lưới để bạn có thể căn chỉnh các đối tượng trong một báo cáo.</menuViewShowGrid>
+    <menuViewQuickInfo>Hiển thị thông tin nhanh về các thành phần.</menuViewQuickInfo>
+    <menuViewShowGrid>Hiển thị lưới.</menuViewShowGrid>
     <menuViewShowHeaders>Hiển thị tiêu đề các dải.</menuViewShowHeaders>
-    <menuViewShowOrder>Hiển thị thứ tự các thành phần trên một trang.</menuViewShowOrder>
-    <menuViewShowRulers>Xem thước đo, được sử dụng để đo và xếp các đối tượng trên một trang.</menuViewShowRulers>
-    <menuViewShowSmartGuides>Hiển thị Hướng dẫn thông minh để định vị các thành phần liên quan đến nhau.</menuViewShowSmartGuides>
-    <MoveBackward>Di chuyển một thành phần đến một cấp độ cao hơn theo thứ tự đặt các thành phần trên một trang.</MoveBackward>
-    <MoveForward>Di chuyển một thành phần đến một cấp độ thấp hơn theo thứ tự đặt các thành phần trên một trang.</MoveForward>
+    <menuViewShowOrder>Hiển thị thứ tự các thành phần.</menuViewShowOrder>
+    <menuViewShowRulers>Hiển thị thước kẻ.</menuViewShowRulers>
+    <menuViewShowSmartGuides>Hiển thị hướng dẫn thông minh.</menuViewShowSmartGuides>
+    <MoveBackward>Di chuyển ra sau một cấp.</MoveBackward>
+    <MoveForward>Di chuyển lên trước một cấp.</MoveForward>
     <NotPossibleEnableCompilationMode>Không thể kích hoạt chế độ biên dịch cho báo cáo. Điều này bị cấm bởi tùy chọn 'Quyền truy cập biên dịch' trong cài đặt trình thiết kế.</NotPossibleEnableCompilationMode>
-    <Orientation>Chuyển đổi các trang giữa bố cục dọc và ngang.</Orientation>
+    <Orientation>Chuyển giữa hướng dọc và hướng ngang.</Orientation>
     <PageDelete>Xóa trang hiện tại khỏi một báo cáo.</PageDelete>
     <PageNew>Tạo một trang mới.</PageNew>
-    <PageSetup>Hiển thị hộp thoại cài đặt trang.</PageSetup>
-    <PageSize>Chọn kích thước giấy cho trang hiện tại của một báo cáo.</PageSize>
+    <PageSetup>Thay đổi cài đặt trang.</PageSetup>
+    <PageSize>Chọn khổ giấy.</PageSize>
     <PagesManager>Chạy trình quản lý trang.</PagesManager>
     <PressF1>Nhấn F1 để biết thêm chi tiết</PressF1>
-    <PropertiesButton>Kích hoạt bảng Thuộc tính với các thuộc tính của mẫu báo cáo.</PropertiesButton>
+    <PropertiesButton>Hiển thị thuộc tính báo cáo.</PropertiesButton>
     <Redo>Hoàn tác thay đổi đã hủy trước đó trong báo cáo.</Redo>
-    <RemoveMobileSurfaceButton>Xóa bề mặt di động khỏi dashboard hiện tại.</RemoveMobileSurfaceButton>
+    <RemoveMobileSurfaceButton>Xóa bề mặt di động.</RemoveMobileSurfaceButton>
     <ReportNew>Tạo một báo cáo mới.</ReportNew>
     <ReportOpen>Mở một báo cáo trong trình thiết kế.</ReportOpen>
     <ReportPreview>Xem trước báo cáo đã chỉnh sửa trong trình xem.</ReportPreview>
@@ -2290,14 +2294,14 @@
     <ScriptSecuritySafeMode>Truy cập tập lệnh an toàn (khả năng bị hạn chế vì bảo mật).</ScriptSecuritySafeMode>
     <SelectAll>Chọn tất cả các thành phần trên trang hiện tại.</SelectAll>
     <SelectUILanguage>Chọn ngôn ngữ giao diện người dùng.</SelectUILanguage>
-    <SendToBack>Di chuyển thành phần đã chọn xuống dưới các thành phần liên quan khác.</SendToBack>
+    <SendToBack>Đưa ra sau.</SendToBack>
     <ServicesConfigurator>Chạy trình cấu hình dịch vụ.</ServicesConfigurator>
-    <Shadow>Hiển thị bóng của một thành phần.</Shadow>
+    <Shadow>Hiển thị hoặc ẩn bóng.</Shadow>
     <ShowBehind>Hiển thị văn bản thủy ấn phía sau các thành phần.</ShowBehind>
     <ShowImageBehind>Đặt thủy ấn dưới tất cả các thành phần trên một trang.</ShowImageBehind>
     <ShowToolbox>Hiển thị hộp công cụ.</ShowToolbox>
     <StimulsoftHelp>Trợ giúp Stimulsoft</StimulsoftHelp>
-    <StyleDesigner>Thực hiện thiết kế kiểu dáng.</StyleDesigner>
+    <StyleDesigner>Mở trình Thiết kế kiểu dáng.</StyleDesigner>
     <TellMeMore>Xem thêm</TellMeMore>
     <Text>Chữ thủy ấn.</Text>
     <TextBrush>Thay đổi màu văn bản.</TextBrush>
@@ -2306,30 +2310,31 @@
     <TextFormat>Chọn định dạng giá trị.</TextFormat>
     <ToolbarStyle>Đặt kiểu đã chọn cho tất cả các thành phần đã chọn.</ToolbarStyle>
     <Undo>Hoàn tác thay đổi mới nhất trong báo cáo.</Undo>
-    <ViewModeDesktopButton>Kích hoạt bề mặt máy tính để bàn.</ViewModeDesktopButton>
-    <ViewModeMobileButton>Kích hoạt bề mặt di động.</ViewModeMobileButton>
-    <WordWrap>Bao bọc văn bản của một thành phần.</WordWrap>
+    <ViewModeDesktopButton>Hiển thị bề mặt máy tính để bàn.</ViewModeDesktopButton>
+    <ViewModeMobileButton>Hiển thị bề mặt di động.</ViewModeMobileButton>
+    <Watermark>Thay đổi cài đặt thủy ấn.</Watermark>
+    <WordWrap>Ngắt dòng văn bản.</WordWrap>
     <Zoom>Chỉ định mức thu phóng của báo cáo.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
-    <StiButtonControl>Đại diện cho điều khiển nút.</StiButtonControl>
-    <StiCheckBoxControl>Đại diện cho điều khiển cờ.</StiCheckBoxControl>
-    <StiCheckedListBoxControl>Đại diện cho điều khiển hiển thị danh sách đối tượng, trong đó một lá cờ ở bên trái được hiển thị cho mỗi phần tử.</StiCheckedListBoxControl>
-    <StiComboBoxControl>Đại diện cho điều khiển danh sách xổ xuống được sử dụng để nhập giá trị trực tiếp hoặc chọn từ danh sách các tùy chọn hiện có.</StiComboBoxControl>
-    <StiDateTimePickerControl>Đại diện cho điều khiển cho phép chọn ngày tháng và thời gian. Nó cũng cho phép bạn xuất ra ngày tháng và thời gian ở định dạng được chỉ định.</StiDateTimePickerControl>
-    <StiGridControl>Biểu diễn điều khiển bảng bao gồm các hàng và cột.</StiGridControl>
-    <StiGroupBoxControl>Đại diện cho điều khiển tạo vùng chứa có đường viền và tiêu đề cho nội dung UI.</StiGroupBoxControl>
-    <StiLabelControl>Đại diện cho điều khiển giao diện người dùng hiển thị văn bản trên một biểu mẫu. Nó thường là một thành phần tĩnh không có tương tác.</StiLabelControl>
-    <StiListBoxControl>Chứa danh sách các yếu tố để lựa chọn.</StiListBoxControl>
-    <StiListViewControl>Đại diện cho danh sách để hiển thị danh sách các phần tử dữ liệu.</StiListViewControl>
-    <StiLookUpBoxControl>Chứa danh sách các yếu tố để lựa chọn.</StiLookUpBoxControl>
-    <StiNumericUpDownControl>Đại diện cho điều khiển hiển thị các giá trị số.</StiNumericUpDownControl>
-    <StiPanelControl>Các phần tử bảng được sử dụng để đặt và sắp xếp các đối tượng.</StiPanelControl>
-    <StiPictureBoxControl>Đại diện cho điều khiển hiển thị hình ảnh.</StiPictureBoxControl>
-    <StiRadioButtonControl>Đại diện cho điều khiển nút radio cho phép người dùng chỉ chọn một trong các bộ tùy chọn được xác định trước.</StiRadioButtonControl>
-    <StiRichTextBoxControl>Đại diện cho điều khiển văn bản phong phú với mở rộng chỉnh sửa.</StiRichTextBoxControl>
-    <StiTextBoxControl>Đại diện cho điều khiển văn bản được sử dụng để hiển thị hoặc chỉnh sửa văn bản.</StiTextBoxControl>
-    <StiTreeViewControl>Đại diện cho điều khiển được sử dụng để hiển thị dữ liệu có tính phân cấp như một cây.</StiTreeViewControl>
+    <StiButtonControl>Thực hiện một hành động khi nhấp chuột.</StiButtonControl>
+    <StiCheckBoxControl>Bật hoặc tắt một tùy chọn.</StiCheckBoxControl>
+    <StiCheckedListBoxControl>Hiển thị danh sách có hộp chọn cho từng mục.</StiCheckedListBoxControl>
+    <StiComboBoxControl>Hiển thị danh sách xổ xuống để chọn hoặc nhập.</StiComboBoxControl>
+    <StiDateTimePickerControl>Hiển thị lịch để chọn ngày và giờ.</StiDateTimePickerControl>
+    <StiGridControl>Hiển thị dữ liệu theo hàng và cột.</StiGridControl>
+    <StiGroupBoxControl>Nhóm các điều khiển trong một khung có tiêu đề.</StiGroupBoxControl>
+    <StiLabelControl>Hiển thị một văn bản trên biểu mẫu.</StiLabelControl>
+    <StiListBoxControl>Hiển thị danh sách để chọn các mục.</StiListBoxControl>
+    <StiListViewControl>Hiển thị danh sách các mục dữ liệu.</StiListViewControl>
+    <StiLookUpBoxControl>Hiển thị danh sách xổ xuống để chọn một mục.</StiLookUpBoxControl>
+    <StiNumericUpDownControl>Nhận một số, kèm các nút để thay đổi số đó.</StiNumericUpDownControl>
+    <StiPanelControl>Nhóm các điều khiển khác trong một vùng.</StiPanelControl>
+    <StiPictureBoxControl>Hiển thị một hình ảnh.</StiPictureBoxControl>
+    <StiRadioButtonControl>Chọn một tùy chọn trong một nhóm.</StiRadioButtonControl>
+    <StiRichTextBoxControl>Hiển thị và chỉnh sửa văn bản có định dạng.</StiRichTextBoxControl>
+    <StiTextBoxControl>Hiển thị và chỉnh sửa văn bản.</StiTextBoxControl>
+    <StiTreeViewControl>Hiển thị dữ liệu phân cấp dưới dạng cây.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
     <AddPageBreaks>Phân tách trực quan các trang báo cáo.</AddPageBreaks>

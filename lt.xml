@@ -799,29 +799,221 @@
     <Help1>Paspauskite F4 norėdami persijungti į žodyno medį. Spauskite Control + Enter norėdami uždaryti redaktorių.</Help1>
     <Help2>Paspauskite F4 norėdami persijungti į redaktorių. Spauskite Insert norėdami įterpti žodyno elementą.</Help2>
   </Help>
+  <HelpComponents>
+    <CategoryBands>Sekcijos, spausdinančios viršų, duomenis ir apačią.</CategoryBands>
+    <CategoryComponents>Teksto, paveikslėlių ir kitų duomenų komponentai.</CategoryComponents>
+    <CategoryCrossBands>Sekcijos, spausdinamos iš kairės į dešinę.</CategoryCrossBands>
+    <StiBarCode>Rodo barkodą.</StiBarCode>
+    <StiButtonElement>Spustelėjus vykdo scenarijų.</StiButtonElement>
+    <StiButtonUI>Pradeda veiksmą arba komandą.</StiButtonUI>
+    <StiCardsElement>Rodo sugrupuotus duomenis kaip korteles.</StiCardsElement>
+    <StiChart>Rodo duomenis kaip grafiką.</StiChart>
+    <StiChartElement>Rodo duomenis kaip grafiką.</StiChartElement>
+    <StiCheckBox>Rodo reikšmę tiesa arba netiesa kaip varnelę.</StiCheckBox>
+    <StiCheckBoxGroupUI>Siūlo parinktis, iš kurių galima pažymėti kelias.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>Įjungia arba išjungia vieną parinktį.</StiCheckBoxUI>
+    <StiChildBand>Spausdina dar vieną sekciją tai pačiai duomenų eilutei.</StiChildBand>
+    <StiClone>Pakartoja panelės turinį.</StiClone>
+    <StiColumnFooterBand>Spausdinama po visais duomenų sekcijos stulpeliais.</StiColumnFooterBand>
+    <StiColumnHeaderBand>Spausdinama virš visų duomenų sekcijos stulpelių.</StiColumnHeaderBand>
+    <StiComboBoxElement>Parenka reikšmę iš išsiskleidžiančio sąrašo.</StiComboBoxElement>
+    <StiContainer>Grupuoja kitus komponentus vienoje srityje.</StiContainer>
+    <StiCrossDataBand>Spausdinama kartą kiekvienai eilutei, iš kairės į dešinę.</StiCrossDataBand>
+    <StiCrossFooterBand>Spausdinama po Cross duomenų sekcijos.</StiCrossFooterBand>
+    <StiCrossGroupFooterBand>Spausdinama kiekvienos Cross grupės pabaigoje.</StiCrossGroupFooterBand>
+    <StiCrossGroupHeaderBand>Spausdinama kiekvienos Cross grupės pradžioje.</StiCrossGroupHeaderBand>
+    <StiCrossHeaderBand>Spausdinama prieš Cross duomenų sekciją.</StiCrossHeaderBand>
+    <StiCrossTab>Rodo struktūrizuotus duomenis kaip kryžminę lentelę.</StiCrossTab>
+    <StiDataBand>Spausdinama kartą kiekvienai duomenų šaltinio eilutei.</StiDataBand>
+    <StiDatePickerElement>Parenka datą ir laiką.</StiDatePickerElement>
+    <StiDatePickerUI>Rodo kalendorių datai pasirinkti.</StiDatePickerUI>
+    <StiElectronicSignature>Prideda pieštą, įvestą arba paveikslėlio parašą.</StiElectronicSignature>
+    <StiEmptyBand>Užpildo laisvą vietą lapo apačioje.</StiEmptyBand>
+    <StiFilterCategory>Elementai, parenkantys ir filtruojantys reikšmes.</StiFilterCategory>
+    <StiFooterBand>Spausdinama po duomenų sekcijos eilučių.</StiFooterBand>
+    <StiGauge>Rodo reikšmę intervalo ribose.</StiGauge>
+    <StiGaugeElement>Rodo reikšmę intervalo ribose.</StiGaugeElement>
+    <StiGroupFooterBand>Spausdinama kiekvienos grupės pabaigoje.</StiGroupFooterBand>
+    <StiGroupHeaderBand>Spausdinama kiekvienos grupės pradžioje.</StiGroupHeaderBand>
+    <StiHeaderBand>Spausdinama prieš duomenų sekcijos eilutes.</StiHeaderBand>
+    <StiHierarchicalBand>Spausdina duomenų šaltinio eilutes kaip medį.</StiHierarchicalBand>
+    <StiHorizontalLinePrimitive>Piešia horizontalią liniją.</StiHorizontalLinePrimitive>
+    <StiIconUI>Rodo piktogramą.</StiIconUI>
+    <StiImage>Rodo paveikslėlį.</StiImage>
+    <StiImageElement>Rodo paveikslėlį.</StiImageElement>
+    <StiImageUI>Rodo paveikslėlį.</StiImageUI>
+    <StiIndicatorElement>Rodo skirtumą tarp reikšmių.</StiIndicatorElement>
+    <StiLabelUI>Rodo trumpą tekstą.</StiLabelUI>
+    <StiListBoxElement>Parenka elementus iš sąrašo.</StiListBoxElement>
+    <StiListUI>Rodo sąrašą vienam elementui pasirinkti.</StiListUI>
+    <StiMap>Rodo duomenis žemėlapyje.</StiMap>
+    <StiMapCategory>Elementai, rodantys duomenis žemėlapyje.</StiMapCategory>
+    <StiMapElement>Rodo duomenis žemėlapyje.</StiMapElement>
+    <StiMarkdown>Rodo Markdown tekstą.</StiMarkdown>
+    <StiMathFormula>Rodo matematinę formulę.</StiMathFormula>
+    <StiMultiListUI>Rodo sąrašą keliems elementams pasirinkti.</StiMultiListUI>
+    <StiMultiSelectUI>Išskleidžia sąrašą kelioms reikšmėms pasirinkti.</StiMultiSelectUI>
+    <StiNumberBoxElement>Parenka skaičių arba skaičių intervalą.</StiNumberBoxElement>
+    <StiNumberInputUI>Priima naudotojo įvestą skaičių.</StiNumberInputUI>
+    <StiOnlineMapElement>Rodo žymeklius internetiniame žemėlapyje.</StiOnlineMapElement>
+    <StiOverlayBand>Spausdina vandenženklį kiekviename lape.</StiOverlayBand>
+    <StiPageFooterBand>Spausdinama kiekvieno lapo apačioje.</StiPageFooterBand>
+    <StiPageHeaderBand>Spausdinama kiekvieno lapo viršuje.</StiPageHeaderBand>
+    <StiPanel>Grupuoja kitus komponentus vienoje srityje.</StiPanel>
+    <StiPanelElement>Grupuoja kitus elementus vienoje srityje.</StiPanelElement>
+    <StiPanelUI>Grupuoja kitus valdymo elementus vienoje srityje.</StiPanelUI>
+    <StiPdfDigitalSignature>Pažymi skaitmeninio parašo vietą PDF faile.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>Pažymi skaitmeninio parašo vietą PDF faile.</StiPdfDigitalSignatureElement>
+    <StiPivotTableElement>Rodo struktūrizuotus duomenis kaip suvestinę lentelę.</StiPivotTableElement>
+    <StiProgressElement>Rodo reikšmę kaip visumos dalį.</StiProgressElement>
+    <StiRadioGroupUI>Siūlo parinktis, iš kurių galima pasirinkti vieną.</StiRadioGroupUI>
+    <StiRangeSelectorElement>Parenka intervalą skalėje arba laiko juostoje.</StiRangeSelectorElement>
+    <StiRangeSliderUI>Nustato intervalą skalėje.</StiRangeSliderUI>
+    <StiRectanglePrimitive>Piešia stačiakampį.</StiRectanglePrimitive>
+    <StiRegionMapElement>Rodo duomenis regionų žemėlapyje.</StiRegionMapElement>
+    <StiReportSummaryBand>Spausdinama vieną kartą ataskaitos pabaigoje.</StiReportSummaryBand>
+    <StiReportTitleBand>Spausdinama vieną kartą ataskaitos pradžioje.</StiReportTitleBand>
+    <StiRichText>Rodo formatuotą RTF tekstą.</StiRichText>
+    <StiRoundedRectanglePrimitive>Piešia suapvalintą stačiakampį.</StiRoundedRectanglePrimitive>
+    <StiScreen>Talpina programėlės puslapio valdymo elementus.</StiScreen>
+    <StiSelectUI>Išskleidžia sąrašą vienai reikšmei pasirinkti.</StiSelectUI>
+    <StiShape>Rodo paruoštą formą.</StiShape>
+    <StiShapeElement>Rodo paruoštą formą.</StiShapeElement>
+    <StiSignature>Prideda elektroninį arba skaitmeninį parašą.</StiSignature>
+    <StiSliderUI>Nustato reikšmę skalėje.</StiSliderUI>
+    <StiSparkline>Rodo mažą duomenų sekos grafiką.</StiSparkline>
+    <StiSubReport>Spausdina kitą ataskaitą arba lapą šioje vietoje.</StiSubReport>
+    <StiSwitchUI>Įjungia arba išjungia nustatymą.</StiSwitchUI>
+    <StiTable>Rodo duomenis eilutėmis ir stulpeliais.</StiTable>
+    <StiTableElement>Rodo duomenis eilutėmis ir stulpeliais.</StiTableElement>
+    <StiTableOfContents>Sudaro turinį.</StiTableOfContents>
+    <StiTableUI>Rodo duomenis eilutėmis ir stulpeliais.</StiTableUI>
+    <StiText>Rodo duomenis kaip tekstą.</StiText>
+    <StiTextElement>Rodo duomenis kaip tekstą.</StiTextElement>
+    <StiTextInCells>Rodo tekstą po vieną simbolį langelyje.</StiTextInCells>
+    <StiTextInputUI>Priima naudotojo įvestą tekstą.</StiTextInputUI>
+    <StiTreeViewBoxElement>Parenka reikšmes iš išsiskleidžiančio medžio.</StiTreeViewBoxElement>
+    <StiTreeViewElement>Rodo hierarchinius duomenis kaip medį.</StiTreeViewElement>
+    <StiVerticalLinePrimitive>Piešia vertikalią liniją.</StiVerticalLinePrimitive>
+    <StiWebContentElement>Rodo žiniatinklio turinį.</StiWebContentElement>
+    <StiWinControl>Rodo .NET vizualinį valdymo elementą.</StiWinControl>
+    <StiZipCode>Rodo pašto kodą (ZIP).</StiZipCode>
+  </HelpComponents>
   <HelpDesigner>
+    <Align>Lygiuoti pasirinktus komponentus.</Align>
+    <AlignBottom>Lygiuoti turinį pagal apačią.</AlignBottom>
+    <AlignCenter>Lygiuoti turinį pagal centrą.</AlignCenter>
+    <AlignLeft>Lygiuoti turinį pagal kairę pusę.</AlignLeft>
+    <AlignMiddle>Lygiuoti turinį pagal vidurį.</AlignMiddle>
+    <AlignRight>Lygiuoti turinį pagal dešinę pusę.</AlignRight>
+    <AlignToGrid>Lygiuoti pasirinktus komponentus pagal tinklelį.</AlignToGrid>
+    <AlignTop>Lygiuoti turinį pagal viršų.</AlignTop>
+    <AlignWidth>Lygiuoti turinį pagal plotį.</AlignWidth>
+    <Angle>Pasukti tekstą.</Angle>
+    <Background>Keisti foną.</Background>
+    <biConditions>Redaguoti sąlygas.</biConditions>
+    <BorderColor>Keisti krašto spalvą.</BorderColor>
+    <BorderSidesAll>Rodyti visus kraštus.</BorderSidesAll>
+    <BorderSidesBottom>Rodyti arba slėpti apatinį kraštą.</BorderSidesBottom>
+    <BorderSidesLeft>Rodyti arba slėpti kairįjį kraštą.</BorderSidesLeft>
+    <BorderSidesNone>Slėpti visus kraštus.</BorderSidesNone>
+    <BorderSidesRight>Rodyti arba slėpti dešinįjį kraštą.</BorderSidesRight>
+    <BorderSidesTop>Rodyti arba slėpti viršutinį kraštą.</BorderSidesTop>
+    <BorderStyle>Keisti kraštų stilių.</BorderStyle>
+    <BringToFront>Perkelti į priekį.</BringToFront>
+    <Columns>Padalyti lapą į stulpelius.</Columns>
     <CompilationAccess1>Šis dokumentas naudoja kompiliavimo procesą. Jei dokumentas gautas iš patikimo šaltinio, galite spustelėti mygtuką „Atidaryti“, kad jį atidarytumėte.</CompilationAccess1>
     <CompilationAccess2>Jei nesate tikri dėl dokumento šaltinio, bet vis tiek norite jį peržiūrėti, galite spustelėti mygtuką „Atidaryti saugiuoju režimu“. Tokiu atveju vietoj kompiliavimo bus naudojamas interpretavimas, todėl dokumentą galėsite vykdyti saugiai.</CompilationAccess2>
     <CompilationAccess3>Šis dokumentas naudoja kompiliavimo procesą ir gali būti nesaugus. Negalite jo atidaryti.</CompilationAccess3>
     <CompilationAccessDeniedTitle>Dokumento atidaryti negalima</CompilationAccessDeniedTitle>
     <CompilationAccessTitle>Dokumentas naudoja kompiliavimą</CompilationAccessTitle>
+    <ComponentSize>Keisti pasirinktų komponentų dydį.</ComponentSize>
+    <ComponentsMenu>Rodyti nenaudojamus elementus.</ComponentsMenu>
+    <CopyStyle>Kopijuoti stilių kitiems komponentams.</CopyStyle>
     <CopyToClipboard>Copia negli appunti</CopyToClipboard>
+    <CurrencySymbol>Pasirinkti valiutos simbolį.</CurrencySymbol>
+    <DateTimeFormat>Pasirinkti datos ir laiko formatą.</DateTimeFormat>
+    <DockingPanels>Rodyti arba slėpti paneles.</DockingPanels>
+    <FontGrow>Padidinti tekstą.</FontGrow>
+    <FontName>Keisti teksto šriftą.</FontName>
+    <FontShrink>Sumažinti tekstą.</FontShrink>
+    <FontSize>Keisti teksto dydį.</FontSize>
+    <FontStyleBold>Paryškinti tekstą.</FontStyleBold>
+    <FontStyleItalic>Paversti tekstą kursyvu.</FontStyleItalic>
+    <FontStyleStrikeout>Perbraukti tekstą.</FontStyleStrikeout>
+    <FontStyleUnderline>Pabraukti tekstą.</FontStyleUnderline>
+    <GridMode>Rodyti tinklelį linijomis arba taškais.</GridMode>
+    <Interaction>Nustatyti sąveiką.</Interaction>
+    <LineSpacing>Keisti tarpą tarp eilučių.</LineSpacing>
+    <Link>Susieti su konteineriu.</Link>
+    <Lock>Užrakinti padėtį ir dydį.</Lock>
+    <MainMenu>Kurti, atidaryti arba išsaugoti ataskaitą.</MainMenu>
+    <Margins>Pasirinkti lapo paraštes.</Margins>
     <menuCheckIssues>Controlla nel report per trovare errori, avvertimenti e suggerimenti.</menuCheckIssues>
     <menuDesignerOptions>Imposta opzioni del report designer.</menuDesignerOptions>
+    <menuEditClearContents>Išvalyti turinį.</menuEditClearContents>
+    <menuEditCopy>Kopijuoti pasirinktus komponentus.</menuEditCopy>
+    <menuEditCut>Iškirpti pasirinktus komponentus.</menuEditCut>
+    <menuEditDelete>Ištrinti pasirinktus komponentus.</menuEditDelete>
+    <menuEditPaste>Įklijuoti iš mainų srities.</menuEditPaste>
+    <menuExportSettings>Keisti eksporto nustatymus.</menuExportSettings>
     <menuFAQPage>Vai alla pagina web con le risposte alle domande frequenti.</menuFAQPage>
-    <menuGlobalizationStrings>Richiama l'editor di stringhe Globalizzate del report corrente.</menuGlobalizationStrings>
+    <menuGlobalizationStrings>Redaguoti globalizacijos eilutes.</menuGlobalizationStrings>
     <menuHomePage>Vai alla Homepage del prodotto.</menuHomePage>
     <menuPageOptions>Imposta i parametri di base della pagina corrente. Tutte le opzioni di pagina possono essere cambiate usando il pannello Proprietà.</menuPageOptions>
     <menuPagesManager>Lancia il Gestore Pagine. Consente di spostare, cancellare, creare nuove pagine.</menuPagesManager>
-    <menuPreviewSettings>Richiama l'editor delle Impostazioni Anteprima del report corrente. Le Impostazioni saranno applicate solo guardando il report corrente.</menuPreviewSettings>
+    <menuPreviewSettings>Keisti peržiūros nustatymus.</menuPreviewSettings>
     <menuPrint>Seleziona una stampante, numero di copie, e altre opzioni prima della stampa.</menuPrint>
     <menuPrintPreview>Visualizza un report prima della stampa.</menuPrintPreview>
     <menuPrintQuick>Stampa un report direttamente sulla stampante di default. la finestra di Stampa non viene mostrata.</menuPrintQuick>
-    <menuReportOptions>Imposta le opzioni di base del report. Tutte le opzioni possono essere cambiate dal pannello Proprietà.</menuReportOptions>
+    <menuReportOptions>Keisti ataskaitos parinktis.</menuReportOptions>
     <menuStyleDesigner>Richiama il designer di Stili del report corrente.</menuStyleDesigner>
     <menuSupport>Vai alla pagina di supporto per chiedere informazioni.</menuSupport>
+    <menuViewAlignToGrid>Lygiuoti komponentus pagal tinklelį.</menuViewAlignToGrid>
+    <menuViewQuickInfo>Rodyti greitą informaciją apie komponentus.</menuViewQuickInfo>
+    <menuViewShowGrid>Rodyti tinklelį.</menuViewShowGrid>
+    <menuViewShowHeaders>Rodyti sekcijų viršūnes.</menuViewShowHeaders>
+    <menuViewShowOrder>Rodyti komponentų eilės tvarką.</menuViewShowOrder>
+    <menuViewShowRulers>Rodyti liniuotes.</menuViewShowRulers>
+    <menuViewShowSmartGuides>Rodyti išmaniąsias pagalbines linijas.</menuViewShowSmartGuides>
+    <MoveBackward>Perkelti vienu lygiu atgal.</MoveBackward>
+    <MoveForward>Perkelti vienu lygiu pirmyn.</MoveForward>
+    <Orientation>Perjungti portretinę ir gulsčią orientaciją.</Orientation>
+    <PageSetup>Keisti lapo nustatymus.</PageSetup>
+    <PageSize>Pasirinkti popieriaus dydį.</PageSize>
+    <PropertiesButton>Rodyti ataskaitos savybes.</PropertiesButton>
+    <RemoveMobileSurfaceButton>Pašalinti mobilųjį paviršių.</RemoveMobileSurfaceButton>
     <ScreenNew>Sukurti naują ekraną.</ScreenNew>
+    <SendToBack>Perkelti į galą.</SendToBack>
+    <Shadow>Rodyti arba slėpti šešėlį.</Shadow>
+    <StyleDesigner>Atidaryti stilių redaktorių.</StyleDesigner>
+    <TextColor>Keisti teksto spalvą.</TextColor>
+    <TextFormat>Pasirinkti reikšmių formatą.</TextFormat>
+    <ViewModeDesktopButton>Rodyti darbalaukio paviršių.</ViewModeDesktopButton>
+    <ViewModeMobileButton>Rodyti mobilųjį paviršių.</ViewModeMobileButton>
+    <Watermark>Keisti vandenženklio nustatymus.</Watermark>
+    <WordWrap>Kelti tekstą į kitą eilutę.</WordWrap>
   </HelpDesigner>
+  <HelpDialogs>
+    <StiButtonControl>Spustelėjus vykdo veiksmą.</StiButtonControl>
+    <StiCheckBoxControl>Įjungia arba išjungia vieną parinktį.</StiCheckBoxControl>
+    <StiCheckedListBoxControl>Rodo sąrašą su varnele prie kiekvieno elemento.</StiCheckedListBoxControl>
+    <StiComboBoxControl>Išskleidžia sąrašą reikšmei pasirinkti arba įvesti.</StiComboBoxControl>
+    <StiDateTimePickerControl>Rodo kalendorių datai ir laikui pasirinkti.</StiDateTimePickerControl>
+    <StiGridControl>Rodo duomenis eilutėmis ir stulpeliais.</StiGridControl>
+    <StiGroupBoxControl>Grupuoja valdymo elementus rėmelyje su antrašte.</StiGroupBoxControl>
+    <StiLabelControl>Rodo tekstą formoje.</StiLabelControl>
+    <StiListBoxControl>Rodo sąrašą elementams pasirinkti.</StiListBoxControl>
+    <StiListViewControl>Rodo duomenų elementų sąrašą.</StiListViewControl>
+    <StiLookUpBoxControl>Išskleidžia sąrašą elementui pasirinkti.</StiLookUpBoxControl>
+    <StiNumericUpDownControl>Priima skaičių, kurį galima keisti mygtukais.</StiNumericUpDownControl>
+    <StiPanelControl>Grupuoja kitus valdymo elementus vienoje srityje.</StiPanelControl>
+    <StiPictureBoxControl>Rodo paveikslėlį.</StiPictureBoxControl>
+    <StiRadioButtonControl>Parenka vieną grupės parinktį.</StiRadioButtonControl>
+    <StiRichTextBoxControl>Rodo ir redaguoja formatuotą tekstą.</StiRichTextBoxControl>
+    <StiTextBoxControl>Rodo ir redaguoja tekstą.</StiTextBoxControl>
+    <StiTreeViewControl>Rodo hierarchinius duomenis kaip medį.</StiTreeViewControl>
+  </HelpDialogs>
   <HelpViewer>
     <Bookmarks>Rodyti žymes.</Bookmarks>
     <Close>Uždaryti peržiūrą.</Close>

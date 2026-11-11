@@ -1598,77 +1598,134 @@
     <sys_morebuttons>أكثر الأزرار</sys_morebuttons>
   </Gui>
   <HelpComponents>
-    <StiBarCode>يسمح هذا العنصر يظهر شريط رموز في التقرير. شريط البيانات رمز يتم إرسالها إلى كائن كسلسلة. السلسلة قد تحتوي على أي رموز ولكن يسمح فقط للتخطيط الرموز المختارة يمكن عرضها.</StiBarCode>
-    <StiChart>يسمح هذا العنصر تظهر الرسوم البيانية في التقرير. هناك أنواع مختلفة من الخرائط المتوفرة. ومن بين هؤلاء المحامين ، خط ، فطيرة ، دونات ، وخطوط ، والمناطق ، جانت ، والرسوم البيانية مبعثر الخ.</StiChart>
-    <StiCheckBox>يسمح هذا العنصر يظهر مربع في التقرير. يمكنه عرض وضعين : "تمكين" أو "تعطيل".</StiCheckBox>
-    <StiChildBand>الفرقة الطفل يمكن أن تستخدم لانتاج شريطين بيانات واحدة على التوالي.</StiChildBand>
-    <StiClone>هذا العنصر هو استخدامها لاستنساخ اجزاء من التقرير في الجزء المطلوب من التقرير. الاستنساخ يمكن تطبيقها فقط على محتويات اللوحة.</StiClone>
-    <StiColumnFooterBand>هذه الفرقة هي تستخدم لانتاج تذييلاتها من الأعمدة على شريط البيانات. الفرقة ColumnFooter هو الإخراج مرة تحت كل عمود. جميع العناصر التي يتم وضعها على هذا النطاق ، كما سيتم انتاج تحت كل عمود.</StiColumnFooterBand>
-    <StiColumnHeaderBand>هذه الفرقة هي المستخدمة لرؤوس الأعمدة. الفرقة ColumnHeader يستخدم لانتاج مرة واحدة فقط. جميع العناصر التي يتم وضعها على شريط يمكن أن يكون الناتج تحت كل عمود.</StiColumnHeaderBand>
-    <StiContainer>هذه هي منطقة مستطيلة حيث المكونات الأخرى ، بما في ذلك العصابات ، ويمكن وضعها. عند نقل الحاوية على compinents في أنه سيتم نقله ايضا. الحاوية يمكن وضعها على حد سواء على الفرقة ، وعلى الصفحة.</StiContainer>
-    <StiCrossDataBand>هذه الفرقة هي مرتبطة إلى مصدر البيانات. هو إخراج العديد من المرات كما أن هناك الصفوف في مصدر البيانات. عبر العصابات هي ناتج من اليسار إلى اليمين.</StiCrossDataBand>
-    <StiCrossFooterBand>هذه الفرقة هي المستخدمة لتذييلاتها الناتج من الفرقة CrossData. الفرقة هو الإخراج مرة واحدة بعد كل الصفوف من الفرقة البيانات. عبر العصابات هي ناتج من اليسار إلى اليمين.</StiCrossFooterBand>
-    <StiCrossGroupFooterBand>هذه الفرقة هي تستخدم لانتاج تذييلاتها من مجموعة. فإنه يتم وضع إطار الفرقة CrossData. كل CrossFooter ينتمي الى الفرقة CrossHeader المحدد. عبر العصابات الناتج ارى من اليسار إلى اليمين.</StiCrossGroupFooterBand>
-    <StiCrossGroupHeaderBand>هذه الفرقة هي واحدة أساسية لتقديم التقرير مع التجمع ، عندما تستخدم CrossData. فمن المستحيل لخلق تجمع من دون هذه الفرقة. مكونات لعرض المعلومات من قبل المجموعة التي وضعت على رأس المجموعة. هذه المعلومات يمكن أن يكون اسم المجموعة ، حتى الآن ، حالة التجمع الخ الفرقة هي الإخراج في بداية كل مجموعة. عبر العصابات هي ناتج من اليسار إلى اليمين.</StiCrossGroupHeaderBand>
-    <StiCrossHeaderBand>هذه الفرقة هي تستخدم لانتاج رؤوس. فهو يستخدم في تكوين الجمعيات مع الفرقة الصليب. عبر العصابات هي ناتج من اليسار إلى اليمين.</StiCrossHeaderBand>
-    <StiCrossTab>عبر مكون التبويب تستخدم لتمثيل البيانات المهيكلة كجدول.</StiCrossTab>
-    <StiDataBand>الفرقة في توصيل البيانات إلى مصدر البيانات ويتم إخراج العديد من المرات كما أن هناك الصفوف في مصدر البيانات.</StiDataBand>
-    <StiEmptyBand>هذه الفرقة هي المستخدمة لملء المساحة الحرة على الجزء السفلي من الصفحة. هذه الفرقة يملأ المساحة الحرة على كل صفحة من التقرير.</StiEmptyBand>
-    <StiFooterBand>هذه الفرقة هي تستخدم لانتاج موجز الفرقة من خلال البيانات. فإنه يتم وضع إطار الفرقة البيانات ويتم إخراج كافة الصفوف مرة واحدة بعد البيانات التي بيانات النواتج الفرقة.</StiFooterBand>
-    <StiGauge>هذا المكون يسمح لك بعرض قيمة ضمن نطاق محدد. بإمكانك أيضا تغيير العرض الرسومي.</StiGauge>
-    <StiGroupFooterBand>الفرقة GroupFooter يستخدم لانتاج تذييل المجموعة. هذه الفرقة هي الفرقة بعد أن وضعت البيانات. وهذه هي الفرقة البيانات مع ما الفرقة GroupHeader منضما. كل من ينتمي الى الفرقة GroupFooter المحدد GroupHeader الفرقة. الفرقة GroupFooter لن يكون الانتاج دون الفرقة GroupHeader.</StiGroupFooterBand>
-    <StiGroupHeaderBand>هذه الفرقة هي الفرقة الأساسية لتقديم التقارير مع التجمع. مكونات لعرض المعلومات من قبل هذه المجموعة وضعت على رأس المجموعة. يمكن أن يكون اسم المجموعة ، حتى الآن ، حالة التجمع الخ هذه الفرقة هي الانتاج مرة واحدة في بداية كل مجموعة.</StiGroupHeaderBand>
-    <StiHeaderBand>هذه الفرقة هي تستخدم لانتاج رؤوس. فهو يستخدم جنبا إلى جنب مع الفرقة البيانات.</StiHeaderBand>
-    <StiHierarchicalBand>هذه الفرقة هي مرتبطة إلى مصدر البيانات وانتاج العديد من المرات كما أن هناك الصفوف في مصدر البيانات. بيانات الانتاج كما هي شجرة.</StiHierarchicalBand>
-    <StiHorizontalLinePrimitive>هذا العنصر يستخدم لانتاج خط.</StiHorizontalLinePrimitive>
-    <StiImage>هذا العنصر يستخدم لانتاج صور. وهو يدعم تنسيقات الرسومات التالية ، مثل [بمب] ، التخطيط المشترك ، الحياة السياسية في فرنسا ، GIF ، تيفاني ، بابوا نيو غينيا ، إيكو ، المنقولةبالصور ، كهرومغناطيسية.</StiImage>
-    <StiOverlayBand>هذه الفرقة هي العلامات المائية المستخدمة في الانتاج على صفحة.</StiOverlayBand>
-    <StiPageFooterBand>هذه الفرقة هي تستخدم لإخراج المعلومات في أسفل كل صفحة. هذه الفرقة هي تستخدم لانتاج أرقام الصفحات والتواريخ ، وغيرها من معلومات إضافية.</StiPageFooterBand>
-    <StiPageHeaderBand>هذه الفرقة هي تستخدم لانتاج رأس الصفحة. ومن إخراج على أعلى كل صفحة. هذه الفرقة هي تستخدم لانتاج أرقام الصفحات والتواريخ ، وغيرها من معلومات إضافية.</StiPageHeaderBand>
-    <StiPanel>انها منطقة مستطيلة الشكل ، في ما المكونات الأخرى ، بما في ذلك العصابات ، وسيتم وضعها. عندما تتحرك لوحة ، والمكونات في ذلك تتحرك أيضا. لوحة يمكن أن توضع على حد سواء على النطاق أو على صفحة.</StiPanel>
-    <StiRectanglePrimitive>هذا العنصر يستخدم لانتاج المستطيلات.</StiRectanglePrimitive>
-    <StiReportSummaryBand>هذه الفرقة هي المستخدمة لملخصات الانتاج على الرغم من أن التقرير بأكمله. فمن الانتاج مرة واحدة في نهاية التقرير.</StiReportSummaryBand>
-    <StiReportTitleBand>هذه الفرقة هي تستخدم لانتاج عنوان التقرير. فمن الانتاج في بداية التقرير.</StiReportTitleBand>
-    <StiRichText>هذا العنصر يستخدم لانتاج وتحرير النص الغذاء. كما أنها تدعم تحميل الملفات وحفظها في شكل الغذاء.</StiRichText>
-    <StiRoundedRectanglePrimitive>هذا العنصر يستخدم لانتاج المستطيلات مستدير الزوايا.</StiRoundedRectanglePrimitive>
-    <StiShape>هذا العنصر يستخدم لادخال الأشكال الجاهزة ، مثل السهام ، خط مائل إلى أسفل ، حتى خط قطري ، خط أفقي ، وترك خطوط الحق ، البيضاوي ، والمستطيل ، مستطيل مستدير الزوايا ، أعلى وأسفل خطوط ، مثلث ، خط عمودي.</StiShape>
-    <StiSubReport>هذا العنصر يستخدم لانتاج بيانات إضافية في أماكن مختلفة من التقرير.</StiSubReport>
-    <StiTable>هذا العنصر هو مجموعة من عناصر البيانات التي يتم تنظيمها باستخدام نموذج من صفوف الأعمدة الرأسية والأفقية. انها تمثيلية مبسطة لمايكروسوفت اكسل الجدول.</StiTable>
-    <StiText>هذا هو العنصر الأساسي وجوه لإخراج البيانات بوصفه نصا.</StiText>
-    <StiTextInCells>عنصر يستخدم لإخراج النص في الخلايا. فإنه كثيرا ما يستخدم لخلق أشكال.</StiTextInCells>
-    <StiVerticalLinePrimitive>هذا العنصر يستخدم لانتاج خطوط عمودية.</StiVerticalLinePrimitive>
-    <StiWinControl>عنصر يسمح تبين من المراقبة البصرية .صافي الإطار.</StiWinControl>
-    <StiZipCode>هذا العنصر يستخدم لانتاج والرمز البريدي.</StiZipCode>
+    <CategoryBands>نطاقات تطبع العناوين والبيانات والتذييلات.</CategoryBands>
+    <CategoryComponents>مكونات تعرض النصوص والصور وبيانات أخرى.</CategoryComponents>
+    <CategoryCrossBands>نطاقات تطبع من اليسار إلى اليمين.</CategoryCrossBands>
+    <StiBarCode>يعرض باركود.</StiBarCode>
+    <StiButtonElement>ينفذ نصًا برمجيًا عند النقر.</StiButtonElement>
+    <StiButtonUI>يبدأ إجراءً أو أمرًا.</StiButtonUI>
+    <StiCardsElement>يعرض البيانات المجمعة كبطاقات.</StiCardsElement>
+    <StiChart>يعرض البيانات كرسم بياني.</StiChart>
+    <StiChartElement>يعرض البيانات كرسم بياني.</StiChartElement>
+    <StiCheckBox>يعرض قيمة صح أو خطأ كعلامة اختيار.</StiCheckBox>
+    <StiCheckBoxGroupUI>يقدم خيارات لتحديد عدة منها.</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>يشغل خيارًا واحدًا أو يوقفه.</StiCheckBoxUI>
+    <StiChildBand>يطبع نطاقًا إضافيًا لصف البيانات نفسه.</StiChildBand>
+    <StiClone>يكرر محتويات إطار.</StiClone>
+    <StiColumnFooterBand>يطبع تحت كل عمود من نطاق البيانات.</StiColumnFooterBand>
+    <StiColumnHeaderBand>يطبع فوق كل عمود من نطاق البيانات.</StiColumnHeaderBand>
+    <StiComboBoxElement>يختار قيمة من قائمة منسدلة.</StiComboBoxElement>
+    <StiContainer>يجمع مكونات أخرى في منطقة واحدة.</StiContainer>
+    <StiCrossDataBand>يطبع مرة لكل صف، من اليسار إلى اليمين.</StiCrossDataBand>
+    <StiCrossFooterBand>يطبع بعد نطاق البيانات المتعاكسة.</StiCrossFooterBand>
+    <StiCrossGroupFooterBand>يطبع في نهاية كل مجموعة متعاكسة.</StiCrossGroupFooterBand>
+    <StiCrossGroupHeaderBand>يطبع في بداية كل مجموعة متعاكسة.</StiCrossGroupHeaderBand>
+    <StiCrossHeaderBand>يطبع قبل نطاق البيانات المتعاكسة.</StiCrossHeaderBand>
+    <StiCrossTab>يعرض البيانات المهيكلة كجدول متعاكس.</StiCrossTab>
+    <StiDataBand>يطبع مرة لكل صف من مصدر البيانات.</StiDataBand>
+    <StiDatePickerElement>يختار تاريخًا ووقتًا.</StiDatePickerElement>
+    <StiDatePickerUI>يعرض تقويمًا لاختيار تاريخ.</StiDatePickerUI>
+    <StiElectronicSignature>يضيف توقيعًا مرسومًا أو مكتوبًا أو كصورة.</StiElectronicSignature>
+    <StiEmptyBand>يملأ المساحة الفارغة في أسفل الصفحة.</StiEmptyBand>
+    <StiFilterCategory>عناصر تختار القيم وتصفيها.</StiFilterCategory>
+    <StiFooterBand>يطبع بعد صفوف نطاق البيانات.</StiFooterBand>
+    <StiGauge>يعرض قيمة ضمن نطاق.</StiGauge>
+    <StiGaugeElement>يعرض قيمة ضمن نطاق.</StiGaugeElement>
+    <StiGroupFooterBand>يطبع في نهاية كل مجموعة.</StiGroupFooterBand>
+    <StiGroupHeaderBand>يطبع في بداية كل مجموعة.</StiGroupHeaderBand>
+    <StiHeaderBand>يطبع قبل صفوف نطاق البيانات.</StiHeaderBand>
+    <StiHierarchicalBand>يطبع صفوف مصدر البيانات كشجرة.</StiHierarchicalBand>
+    <StiHorizontalLinePrimitive>يرسم خطًا أفقيًا.</StiHorizontalLinePrimitive>
+    <StiIconUI>يعرض أيقونة.</StiIconUI>
+    <StiImage>يعرض صورة.</StiImage>
+    <StiImageElement>يعرض صورة.</StiImageElement>
+    <StiImageUI>يعرض صورة.</StiImageUI>
+    <StiIndicatorElement>يعرض الفرق بين القيم.</StiIndicatorElement>
+    <StiLabelUI>يعرض نصًا قصيرًا.</StiLabelUI>
+    <StiListBoxElement>يختار عناصر من قائمة.</StiListBoxElement>
+    <StiListUI>يعرض قائمة لاختيار عنصر واحد.</StiListUI>
+    <StiMap>يعرض البيانات على خريطة.</StiMap>
+    <StiMapCategory>عناصر تعرض البيانات على خريطة.</StiMapCategory>
+    <StiMapElement>يعرض البيانات على خريطة.</StiMapElement>
+    <StiMarkdown>يعرض نص Markdown.</StiMarkdown>
+    <StiMathFormula>يعرض صيغة رياضية.</StiMathFormula>
+    <StiMultiListUI>يعرض قائمة لاختيار عدة عناصر.</StiMultiListUI>
+    <StiMultiSelectUI>يعرض قائمة منسدلة لاختيار عدة قيم.</StiMultiSelectUI>
+    <StiNumberBoxElement>يختار رقمًا أو نطاق أرقام.</StiNumberBoxElement>
+    <StiNumberInputUI>يستقبل رقمًا من المستخدم.</StiNumberInputUI>
+    <StiOnlineMapElement>يعرض علامات على خريطة عبر الإنترنت.</StiOnlineMapElement>
+    <StiOverlayBand>يطبع علامة مائية على كل صفحة.</StiOverlayBand>
+    <StiPageFooterBand>يطبع في أسفل كل صفحة.</StiPageFooterBand>
+    <StiPageHeaderBand>يطبع في أعلى كل صفحة.</StiPageHeaderBand>
+    <StiPanel>يجمع مكونات أخرى في منطقة واحدة.</StiPanel>
+    <StiPanelElement>يجمع عناصر أخرى في منطقة واحدة.</StiPanelElement>
+    <StiPanelUI>يجمع عناصر تحكم أخرى في منطقة واحدة.</StiPanelUI>
+    <StiPdfDigitalSignature>يحدد مكان التوقيع الرقمي في PDF.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>يحدد مكان التوقيع الرقمي في PDF.</StiPdfDigitalSignatureElement>
+    <StiPivotTableElement>يعرض البيانات المهيكلة كجدول محوري.</StiPivotTableElement>
+    <StiProgressElement>يعرض قيمة كجزء من الكل.</StiProgressElement>
+    <StiRadioGroupUI>يقدم خيارات لاختيار واحد منها.</StiRadioGroupUI>
+    <StiRangeSelectorElement>يختار نطاقًا على مقياس أو خط زمني.</StiRangeSelectorElement>
+    <StiRangeSliderUI>يحدد نطاقًا على مقياس.</StiRangeSliderUI>
+    <StiRectanglePrimitive>يرسم مستطيلًا.</StiRectanglePrimitive>
+    <StiRegionMapElement>يعرض البيانات على خريطة مناطق.</StiRegionMapElement>
+    <StiReportSummaryBand>يطبع مرة واحدة في نهاية التقرير.</StiReportSummaryBand>
+    <StiReportTitleBand>يطبع مرة واحدة في بداية التقرير.</StiReportTitleBand>
+    <StiRichText>يعرض نص RTF منسقًا.</StiRichText>
+    <StiRoundedRectanglePrimitive>يرسم مستطيلًا مستدير الحواف.</StiRoundedRectanglePrimitive>
+    <StiScreen>يحتوي على عناصر تحكم صفحة تطبيق.</StiScreen>
+    <StiSelectUI>يعرض قائمة منسدلة لاختيار قيمة واحدة.</StiSelectUI>
+    <StiShape>يعرض شكلًا جاهزًا.</StiShape>
+    <StiShapeElement>يعرض شكلًا جاهزًا.</StiShapeElement>
+    <StiSignature>يضيف توقيعًا إلكترونيًا أو رقميًا.</StiSignature>
+    <StiSliderUI>يحدد قيمة على مقياس.</StiSliderUI>
+    <StiSparkline>يعرض رسمًا بيانيًا صغيرًا لسلسلة بيانات.</StiSparkline>
+    <StiSubReport>يطبع تقريرًا آخر أو صفحة أخرى في هذا المكان.</StiSubReport>
+    <StiSwitchUI>يشغل إعدادًا أو يوقفه.</StiSwitchUI>
+    <StiTable>يعرض البيانات في صفوف وأعمدة.</StiTable>
+    <StiTableElement>يعرض البيانات في صفوف وأعمدة.</StiTableElement>
+    <StiTableOfContents>ينشئ جدول المحتويات.</StiTableOfContents>
+    <StiTableUI>يعرض البيانات في صفوف وأعمدة.</StiTableUI>
+    <StiText>يعرض البيانات كنص.</StiText>
+    <StiTextElement>يعرض البيانات كنص.</StiTextElement>
+    <StiTextInCells>يعرض النص بحرف واحد في كل خلية.</StiTextInCells>
+    <StiTextInputUI>يستقبل نصًا من المستخدم.</StiTextInputUI>
+    <StiTreeViewBoxElement>يختار قيمًا من شجرة منسدلة.</StiTreeViewBoxElement>
+    <StiTreeViewElement>يعرض البيانات الهرمية كشجرة.</StiTreeViewElement>
+    <StiVerticalLinePrimitive>يرسم خطًا عموديًا.</StiVerticalLinePrimitive>
+    <StiWebContentElement>يعرض محتوى ويب.</StiWebContentElement>
+    <StiWinControl>يعرض عنصر تحكم مرئيًا من .NET.</StiWinControl>
+    <StiZipCode>يعرض الرمز البريدي ZIP.</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
-    <Align>تغيير الموقع من عناصر مختارة.</Align>
-    <AlignBottom>محاذاة محتويات مكون إلى أسفل.</AlignBottom>
-    <AlignCenter>محاذاة محتويات مكون للمركز.</AlignCenter>
+    <Align>محاذاة المكونات المختارة.</Align>
+    <AlignBottom>محاذاة المحتويات إلى الأسفل.</AlignBottom>
+    <AlignCenter>محاذاة المحتويات إلى الوسط.</AlignCenter>
     <AlignComponentBottom>يسمح لك محاذاة الكائنات أفقيا على طول الحافة السفلية من عناصر مختارة.</AlignComponentBottom>
     <AlignComponentCenter>يسمح لك محاذاة الكائنات أفقيا على طول حافة وسط عناصر مختارة.</AlignComponentCenter>
     <AlignComponentLeft>يسمح لك محاذاة الكائنات عموديا على طول الحافة اليسرى من عناصر مختارة.</AlignComponentLeft>
     <AlignComponentMiddle>يسمح لك محاذاة الكائنات عموديا على طول حافة وسط عناصر مختارة.</AlignComponentMiddle>
     <AlignComponentRight>يسمح لك محاذاة الكائنات عموديا على طول الحافة اليمنى من عناصر مختارة.</AlignComponentRight>
     <AlignComponentTop>يسمح لك محاذاة الكائنات أفقيا على طول الحافة العليا من عناصر مختارة.</AlignComponentTop>
-    <AlignLeft>محاذاة محتويات مكون إلى اليسار.</AlignLeft>
-    <AlignMiddle>مركز محتويات من الحدود العليا والدنيا من عنصر.</AlignMiddle>
-    <AlignRight>محاذاة محتويات مكون إلى اليمين.</AlignRight>
-    <AlignToGrid>محاذاة العناصر المحددة لعقد الشبكة.</AlignToGrid>
-    <AlignTop>محاذاة محتويات مكون إلى أعلى.</AlignTop>
-    <AlignWidth>تبرير محتويات عنصر.</AlignWidth>
-    <Angle>تدوير محتويات العنصر.</Angle>
+    <AlignLeft>محاذاة المحتويات إلى اليسار.</AlignLeft>
+    <AlignMiddle>محاذاة المحتويات إلى المنتصف.</AlignMiddle>
+    <AlignRight>محاذاة المحتويات إلى اليمين.</AlignRight>
+    <AlignToGrid>محاذاة المكونات المختارة إلى الشبكة.</AlignToGrid>
+    <AlignTop>محاذاة المحتويات إلى الأعلى.</AlignTop>
+    <AlignWidth>محاذاة المحتويات إلى الجانبين.</AlignWidth>
+    <Angle>تدوير النص.</Angle>
     <AngleWatermark>العلامة المائية زاوية دوران النص.</AngleWatermark>
-    <Background>تغيير الخلفية لعناصر مختارة.</Background>
-    <biConditions>قائمة مراقبة ظروف عناصر مختارة.</biConditions>
-    <BorderColor>حدد لون حدود العنصر المحدد.</BorderColor>
-    <BorderSidesAll>التبديل على جانبي الحدود من جميع عناصر مختارة.</BorderSidesAll>
-    <BorderSidesBottom>تبديل الحدود على الجانب السفلي من عناصر مختارة.</BorderSidesBottom>
-    <BorderSidesLeft>تبديل الحدود على الجانب الأيسر من عناصر مختارة.</BorderSidesLeft>
-    <BorderSidesNone>إيقاف جميع الاطراف الحدود من عناصر مختارة.</BorderSidesNone>
-    <BorderSidesRight>تبديل الحدود على الجانب الأيمن من عناصر مختارة.</BorderSidesRight>
-    <BorderSidesTop>تبديل الحدود على الجانب العلوي من عناصر مختارة.</BorderSidesTop>
-    <BorderStyle>حدد نمط الحدود من عناصر مختارة.</BorderStyle>
-    <BringToFront>جلب العنصر المحدد إلى الجبهة.</BringToFront>
+    <Background>تغيير الخلفية.</Background>
+    <biConditions>تحرير الشروط.</biConditions>
+    <BorderColor>تغيير لون الحدود.</BorderColor>
+    <BorderSidesAll>إظهار كل الحدود.</BorderSidesAll>
+    <BorderSidesBottom>إظهار أو إخفاء الحد السفلي.</BorderSidesBottom>
+    <BorderSidesLeft>إظهار أو إخفاء الحد الأيسر.</BorderSidesLeft>
+    <BorderSidesNone>إخفاء كل الحدود.</BorderSidesNone>
+    <BorderSidesRight>إظهار أو إخفاء الحد الأيمن.</BorderSidesRight>
+    <BorderSidesTop>إظهار أو إخفاء الحد العلوي.</BorderSidesTop>
+    <BorderStyle>تغيير نمط الحدود.</BorderStyle>
+    <BringToFront>الإحضار إلى المقدمة.</BringToFront>
     <CenterHorizontally>يسمح لك محاذاة عنصر أفقيا النسبي لحواف الحاويات في ما هو وضعها.</CenterHorizontally>
     <CenterVertically>يسمح لك محاذاة عنصر عموديا بالنسبة إلى حواف الحاويات في ما هو وضعها.</CenterVertically>
     <Close>إغلاق مصمم التقرير.</Close>
@@ -1678,30 +1735,32 @@
     <CompilationAccess3>يستخدم هذا المستند عملية التجميع وقد يكون غير آمن. لا يمكنك فتحه.</CompilationAccess3>
     <CompilationAccessDeniedTitle>لا يمكن فتح المستند</CompilationAccessDeniedTitle>
     <CompilationAccessTitle>يستخدم المستند التجميع</CompilationAccessTitle>
-    <ComponentSize>تغيير حجم المكونات المحددة.</ComponentSize>
-    <CopyStyle>نسخ التنسيق</CopyStyle>
+    <ComponentSize>تغيير حجم المكونات المختارة.</ComponentSize>
+    <ComponentsMenu>إظهار العناصر غير المستخدمة.</ComponentsMenu>
+    <CopyStyle>نسخ النمط إلى مكونات أخرى.</CopyStyle>
     <CopyToClipboard>نسخ إلى الحافظة</CopyToClipboard>
-    <CurrencySymbol>حدد رمز العملة.</CurrencySymbol>
+    <CurrencySymbol>اختيار رمز العملة.</CurrencySymbol>
     <DataStore>وتظهر البيانات ، والمسجلة في التقرير.</DataStore>
-    <DateTimeFormat>حدد تنسيق التاريخ والوقت لعناصر مختارة.</DateTimeFormat>
-    <DockingPanels>ضبط لوحة.</DockingPanels>
+    <DateTimeFormat>اختيار تنسيق التاريخ والوقت.</DateTimeFormat>
+    <DockingPanels>إظهار أو إخفاء اللوحات.</DockingPanels>
     <DockStyleBottom>قفص الاتهام لعناصر مختارة الجانب السفلي.</DockStyleBottom>
     <DockStyleFill>قفص الاتهام المكونات المحددة لجميع الاطراف.</DockStyleFill>
     <DockStyleLeft>قفص الاتهام لعناصر مختارة في الجانب الأيسر.</DockStyleLeft>
     <DockStyleNone>إرساء مكونات مختارة.</DockStyleNone>
     <DockStyleRight>قفص الاتهام لعناصر مختارة الجانب الأيمن.</DockStyleRight>
     <DockStyleTop>قفص الاتهام لعناصر مختارة الجانب العلوي.</DockStyleTop>
-    <FontGrow>جعل حجم النص أكبر.</FontGrow>
-    <FontName>خط النص.</FontName>
+    <FontGrow>تكبير النص.</FontGrow>
+    <FontName>تغيير خط النص.</FontName>
     <FontNameWatermark>العلامة المائية خط النص.</FontNameWatermark>
-    <FontShrink>جعل النص حجم أصغر.</FontShrink>
-    <FontSize>حجم الخط.</FontSize>
+    <FontShrink>تصغير النص.</FontShrink>
+    <FontSize>تغيير حجم النص.</FontSize>
     <FontSizeWatermark>تغيير حجم الخط.</FontSizeWatermark>
-    <FontStyleBold>جعل النص جريئة.</FontStyleBold>
+    <FontStyleBold>جعل النص غامقًا.</FontStyleBold>
     <FontStyleBoldWatermark>جعل نص مائية جريئة.</FontStyleBoldWatermark>
-    <FontStyleItalic>جعل النص مائل.</FontStyleItalic>
+    <FontStyleItalic>جعل النص مائلًا.</FontStyleItalic>
     <FontStyleItalicWatermark>جعل النص مائل مائية.</FontStyleItalicWatermark>
-    <FontStyleUnderline>جعل النص المسطر.</FontStyleUnderline>
+    <FontStyleStrikeout>وضع خط يتوسط النص.</FontStyleStrikeout>
+    <FontStyleUnderline>وضع خط تحت النص.</FontStyleUnderline>
     <FontStyleUnderlineWatermark>جعل النص أكد العلامة المائية.</FontStyleUnderlineWatermark>
     <FormatBoolean>يتم استخدام هذا التنسيق لتنسيق قيم من نوع منطقي.</FormatBoolean>
     <FormatCurrency>كما عرض قيمة العملة. فإنه يسمح لك عرض عددا مع رمز العملة الافتراضية.</FormatCurrency>
@@ -1712,54 +1771,60 @@
     <FormatPercentage>عرض قيمة كنسبة مئوية. أرقام مضروبة في 100 ، لتحويلها إلى نسب مئوية.</FormatPercentage>
     <FormatTime>كما عرض قيمة الوقت. تنسيق الوقت يقوم على ضبط الوقت الإقليمي.</FormatTime>
     <FormNew>إنشاء نموذج جديد الحوار.</FormNew>
-    <GridMode>وتظهر في خطوط الشبكة أو النقط.</GridMode>
+    <GridMode>إظهار الشبكة كخطوط أو نقاط.</GridMode>
     <ImageAlignment>وضع صورة مائية على صفحة.</ImageAlignment>
     <ImageTransparency>تغيير الشفافية في صورة مائية.</ImageTransparency>
-    <Link>ربط عنصر إلى الحاوية الحالية.</Link>
+    <Interaction>إعداد التفاعل.</Interaction>
+    <LineSpacing>تغيير تباعد الأسطر.</LineSpacing>
+    <Link>الربط بالحاوية.</Link>
     <LoadImage>صور مائية من تحميل الملف.</LoadImage>
-    <Lock>قفل المكون. عنصر لا يمكن نقلها وتغيير حجمها.</Lock>
-    <MainMenu>انقر هنا لرؤية قائمة لعمليات محتملة مع التقرير ، بما في ذلك الافتتاحية والختامية ، ومعاينة.</MainMenu>
+    <Lock>قفل الموضع والحجم.</Lock>
+    <MainMenu>إنشاء تقرير أو فتحه أو حفظه.</MainMenu>
     <MakeHorizontalSpacingEqual>يسمح لك تعيين متساوية التباعد الأفقي بين عناصر مختارة.</MakeHorizontalSpacingEqual>
     <MakeVerticalSpacingEqual>يسمح لك تعيين متساوية التباعد العمودي بين عناصر مختارة.</MakeVerticalSpacingEqual>
-    <Margins>تحديد هوامش الصفحة الحالية.</Margins>
+    <Margins>اختيار هوامش الصفحة.</Margins>
     <menuCheckIssues>التحقق من الأخطاء والتنبيهات في التقرير</menuCheckIssues>
     <menuDesignerOptions>ضبط إعدادات مصمم التقارير</menuDesignerOptions>
-    <menuEditClearContents>مسح محتويات.</menuEditClearContents>
-    <menuEditCopy>نسخة المكونات المحددة ووضعها في الحافظة.</menuEditCopy>
-    <menuEditCut>قطع عناصر مختارة من التقرير ووضعها في الحافظة.</menuEditCut>
-    <menuEditDelete>حذف عناصر مختارة.</menuEditDelete>
-    <menuEditPaste>لصق محتويات الحافظة إلى التقرير.</menuEditPaste>
+    <menuEditClearContents>مسح المحتويات.</menuEditClearContents>
+    <menuEditCopy>نسخ المكونات المختارة.</menuEditCopy>
+    <menuEditCut>قص المكونات المختارة.</menuEditCut>
+    <menuEditDelete>حذف المكونات المختارة.</menuEditDelete>
+    <menuEditPaste>اللصق من الحافظة.</menuEditPaste>
+    <menuExportSettings>تغيير إعدادات التصدير.</menuExportSettings>
     <menuFAQPage>الذهاب إلى صفحة الأسئلة الشائعة</menuFAQPage>
-    <menuGlobalizationStrings>مناداة محرر Globalization Strings للتقرير الحالي</menuGlobalizationStrings>
+    <menuGlobalizationStrings>تحرير سلاسل العولمة.</menuGlobalizationStrings>
     <menuHelpAboutProgramm>الحصول على معلومات حول إصدار تقرير مولد وإصدار .إطار صافي.</menuHelpAboutProgramm>
     <menuHomePage>الذهاب إلى الصفحة الرئيسية للمنتج</menuHomePage>
     <menuPageOptions>تعديل الخيارات الأساسية للصفحة الحالية. جميع خيارات الصفحات يجب أن تتم من خلال مدير الخصائص</menuPageOptions>
     <menuPagesManager>تشغيل مدير الصفحات والذي يسمح بتحريك وانشاء وتعديل الصفحات.</menuPagesManager>
-    <menuPreviewSettings>عرض محرر إعدادات المعاينة للتقرير الحالي.سيتم تطبيق التعديلات عند عرض التقرير.</menuPreviewSettings>
+    <menuPreviewSettings>تغيير إعدادات المعاينة.</menuPreviewSettings>
     <menuPrint>حدد الطابعة, عدد التسخ,وخيارات الطباعة الأخرى.</menuPrint>
     <menuPrintPreview>معاينة التقرير قبل الطباعة.</menuPrintPreview>
     <menuPrintQuick>الطباعة إلى الطابعة الافتراضية مباشرة دون إظهار صندوق الطباعة.</menuPrintQuick>
-    <menuReportOptions>تعديل خيارات التقرير الأساسية. يمكن تعديل الخيارات الأساسية من محرر الخصائص.</menuReportOptions>
+    <menuReportOptions>تغيير خيارات التقرير.</menuReportOptions>
     <menuStyleDesigner>عرض مصمم التنسيق للتقرير الحالي.</menuStyleDesigner>
     <menuSupport>الذهاب إلى صفحة الدعم الفني لطرح الأسئلة.</menuSupport>
-    <menuViewAlignToGrid>محاذاة إلى مكونات الشبكة.</menuViewAlignToGrid>
+    <menuViewAlignToGrid>محاذاة المكونات إلى الشبكة.</menuViewAlignToGrid>
     <menuViewNormal>عرض عادي من صفحة.</menuViewNormal>
     <menuViewPageBreakPreview>طريقة تظهر صفحة من القطع التي لها حدود.</menuViewPageBreakPreview>
-    <menuViewQuickInfo>وتظهر معلومات سريعة لمكونات : مكون الاسم ، اسم مستعار ، والمحتويات ، والأحداث وما إلى ذلك.</menuViewQuickInfo>
-    <menuViewShowGrid>بدوره على خطوط الشبكة التي يمكنك محاذاة الكائنات في التقرير.</menuViewShowGrid>
-    <menuViewShowHeaders>وتظهر رؤوس العصابات.</menuViewShowHeaders>
-    <menuViewShowOrder>وتظهر ترتيب المكونات على صفحة.</menuViewShowOrder>
-    <menuViewShowRulers>عرض الحكام ، ويستخدم لقياس وحتى خط الكائنات على الصفحة.</menuViewShowRulers>
-    <MoveBackward>نقل عنصر واحد إلى مستوى أعلى من أجل وضع العناصر على الصفحة.</MoveBackward>
-    <MoveForward>نقل عنصر واحد على مستوى أدنى من أجل وضع العناصر على الصفحة.</MoveForward>
-    <Orientation>التبديل بين صفحات صورة وتخطيطات الألبوم.</Orientation>
+    <menuViewQuickInfo>إظهار معلومات سريعة على المكونات.</menuViewQuickInfo>
+    <menuViewShowGrid>إظهار الشبكة.</menuViewShowGrid>
+    <menuViewShowHeaders>إظهار رؤوس النطاقات.</menuViewShowHeaders>
+    <menuViewShowOrder>إظهار ترتيب المكونات.</menuViewShowOrder>
+    <menuViewShowRulers>إظهار المساطر.</menuViewShowRulers>
+    <menuViewShowSmartGuides>إظهار الأدلة الذكية.</menuViewShowSmartGuides>
+    <MoveBackward>النقل مستوى واحدًا إلى الخلف.</MoveBackward>
+    <MoveForward>النقل مستوى واحدًا إلى الأمام.</MoveForward>
+    <Orientation>التبديل بين الاتجاه الطولي والعرضي.</Orientation>
     <PageDelete>حذف صفحة من التقرير الحالي.</PageDelete>
     <PageNew>إنشاء صفحة جديدة.</PageNew>
-    <PageSetup>وتظهر في مربع الحوار إعداد الصفحة.</PageSetup>
-    <PageSize>اختيار حجم الورق للصفحة الحالية للتقرير.</PageSize>
+    <PageSetup>تغيير إعدادات الصفحة.</PageSetup>
+    <PageSize>اختيار حجم الورق.</PageSize>
     <PagesManager>تشغيل وإدارة صفحات.</PagesManager>
     <PressF1>اضغط F1 للمزيد من التفاصيل</PressF1>
+    <PropertiesButton>إظهار خصائص التقرير.</PropertiesButton>
     <Redo>يعيد تغيير الغى في وقت سابق تقريرا  (CTRL+Y).</Redo>
+    <RemoveMobileSurfaceButton>إزالة واجهة الجوال.</RemoveMobileSurfaceButton>
     <ReportNew>إنشاء تقرير جديد.</ReportNew>
     <ReportOpen>تقرير المفتوحة في المصمم.</ReportOpen>
     <ReportPreview>معاينة تقرير تحريرها في المشاهد.</ReportPreview>
@@ -1767,44 +1832,47 @@
     <ScreenNew>إنشاء شاشة جديدة.</ScreenNew>
     <SelectAll>حدد كافة العناصر على الصفحة الحالية (CTRL+A).</SelectAll>
     <SelectUILanguage>حدد لغة واجهة المستخدم.</SelectUILanguage>
-    <SendToBack>تحريك العنصر المحدد إلى العودة النسبية لمكونات أخرى.</SendToBack>
+    <SendToBack>الإرسال إلى الخلف.</SendToBack>
     <ServicesConfigurator>تشغيل خدمات مكون.</ServicesConfigurator>
-    <Shadow>وتظهر ظلال عنصر.</Shadow>
+    <Shadow>إظهار أو إخفاء الظل.</Shadow>
     <ShowBehind>وتظهر علامة مائية وراء النص المكونات.</ShowBehind>
     <ShowImageBehind>وضع صورة مائية وراء كل المكونات على صفحة.</ShowImageBehind>
     <ShowToolbox>وتظهر الأدوات.</ShowToolbox>
     <StimulsoftHelp>مساعدة Stimulsoft</StimulsoftHelp>
-    <StyleDesigner>تشغيل نمط مصمم.</StyleDesigner>
+    <StyleDesigner>فتح مصمم الأنماط.</StyleDesigner>
     <TellMeMore>أخبرني المزيد</TellMeMore>
     <Text>نص العلامة المائية.</Text>
     <TextBrush>تغيير لون النص.</TextBrush>
     <TextBrushWatermark>تغيير لون النص من العلامة المائية.</TextBrushWatermark>
     <TextColor>تغيير لون النص.</TextColor>
-    <TextFormat>حدد تنسيق من القيم.</TextFormat>
+    <TextFormat>اختيار تنسيق القيم.</TextFormat>
     <ToolbarStyle>تعيين النمط المحدد لجميع عناصر مختارة.</ToolbarStyle>
     <Undo>التراجع عن التغيير الأخير في تقرير  (Ctrl+Z).</Undo>
-    <WordWrap>التفاف النص عنصر.</WordWrap>
+    <ViewModeDesktopButton>إظهار واجهة سطح المكتب.</ViewModeDesktopButton>
+    <ViewModeMobileButton>إظهار واجهة الجوال.</ViewModeMobileButton>
+    <Watermark>تغيير إعدادات العلامة المائية.</Watermark>
+    <WordWrap>التفاف النص.</WordWrap>
     <Zoom>تحديد مستوى التكبير من التقرير.</Zoom>
   </HelpDesigner>
   <HelpDialogs>
-    <StiButtonControl>ويمثل عنصر التحكم زر.</StiButtonControl>
-    <StiCheckBoxControl>ويمثل علم التحكم.</StiCheckBoxControl>
-    <StiCheckedListBoxControl>ويبين وجوه قائمة ، في ما العلم على اليسار هو مبين لكل العناصر.</StiCheckedListBoxControl>
-    <StiComboBoxControl>يمثل مربع تحرير وسرد يستخدم إما اكتب قيمة مباشرة في السيطرة أو اختر من قائمة الخيارات القائمة.</StiComboBoxControl>
-    <StiDateTimePickerControl>يمثل السيطرة التي تتيح اختيار التاريخ والوقت. كما أنه يسمح لك لانتاج التاريخ والوقت في شكل محدد.</StiDateTimePickerControl>
-    <StiGridControl>ويمثل عنصر التحكم الشبكة التي تتكون من الصفوف والأعمدة.</StiGridControl>
-    <StiGroupBoxControl>ويمثل عنصر التحكم الذي يخلق الحاويات ذات حدود وضربة رأس لمحتوى واجهة المستخدم.</StiGroupBoxControl>
-    <StiLabelControl>والتسمية هي واجهة مستخدم التحكم الذي يعرض نص على نموذج. عادة ما يكون لعدم وجود مراقبة ثابتة التفاعل.</StiLabelControl>
-    <StiListBoxControl>يحتوي على قائمة لاختيار العناصر.</StiListBoxControl>
-    <StiListViewControl>ويمثل التحكم ListView التي تظهر في قائمة عناصر البيانات.</StiListViewControl>
-    <StiLookUpBoxControl>يحتوي على قائمة لاختيار العناصر.</StiLookUpBoxControl>
-    <StiNumericUpDownControl>ويمثل التحكم التي تظهر القيم الرقمية.</StiNumericUpDownControl>
-    <StiPanelControl>عناصر الفريق وتستخدم لوضع وترتيب الأشياء.</StiPanelControl>
-    <StiPictureBoxControl>ويمثل التحكم لعرض صورة.</StiPictureBoxControl>
-    <StiRadioButtonControl>يمثل إذاعة زر التحكم التي تسمح للمستخدم أن يختار واحدا فقط من مجموعة معرفة مسبقا من خيارات.</StiRadioButtonControl>
-    <StiRichTextBoxControl>يمثل السيطرة RichText مع توسيع نطاق التحرير.</StiRichTextBoxControl>
-    <StiTextBoxControl>يمثل سيطرة النص الذي يتم استخدامه لعرض أو تحرير النص.</StiTextBoxControl>
-    <StiTreeViewControl>ويمثل التحكم الذي يستخدم لعرض البيانات الهرمية كما شجرة.</StiTreeViewControl>
+    <StiButtonControl>ينفذ إجراءً عند النقر.</StiButtonControl>
+    <StiCheckBoxControl>يشغل خيارًا واحدًا أو يوقفه.</StiCheckBoxControl>
+    <StiCheckedListBoxControl>يعرض قائمة مع مربع صح خطأ لكل عنصر.</StiCheckedListBoxControl>
+    <StiComboBoxControl>يعرض قائمة منسدلة لاختيار قيمة أو كتابتها.</StiComboBoxControl>
+    <StiDateTimePickerControl>يعرض تقويمًا لاختيار تاريخ ووقت.</StiDateTimePickerControl>
+    <StiGridControl>يعرض البيانات في صفوف وأعمدة.</StiGridControl>
+    <StiGroupBoxControl>يجمع عناصر التحكم في إطار ذي عنوان.</StiGroupBoxControl>
+    <StiLabelControl>يعرض نصًا على النموذج.</StiLabelControl>
+    <StiListBoxControl>يعرض قائمة لاختيار عناصر.</StiListBoxControl>
+    <StiListViewControl>يعرض قائمة بعناصر البيانات.</StiListViewControl>
+    <StiLookUpBoxControl>يعرض قائمة منسدلة لاختيار عنصر.</StiLookUpBoxControl>
+    <StiNumericUpDownControl>يستقبل رقمًا، مع أزرار لتغييره.</StiNumericUpDownControl>
+    <StiPanelControl>يجمع عناصر تحكم أخرى في منطقة واحدة.</StiPanelControl>
+    <StiPictureBoxControl>يعرض صورة.</StiPictureBoxControl>
+    <StiRadioButtonControl>يختار خيارًا واحدًا من مجموعة.</StiRadioButtonControl>
+    <StiRichTextBoxControl>يعرض نصًا منسقًا ويحرره.</StiRichTextBoxControl>
+    <StiTextBoxControl>يعرض نصًا ويحرره.</StiTextBoxControl>
+    <StiTreeViewControl>يعرض البيانات الهرمية كشجرة.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
     <AddPageBreaks>فاصل مرئي لصفحات التقرير.</AddPageBreaks>

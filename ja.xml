@@ -2048,136 +2048,139 @@
     <sys_morebuttons>その他のボタン</sys_morebuttons>
   </Gui>
   <HelpComponents>
-    <StiBarCode>この部品により、レポートにバーコードを表示することができます。 バーコードデータは文字列としてオブジェクトに送られます。 文字列には任意の記号を含めることができますが、選択した図表に対して許可された記号のみを表示することができます。</StiBarCode>
-    <StiButtonElement>このコンポーネントは、ユーザーとの対話時にイベントスクリプトを実行するために使用されます。</StiButtonElement>
-    <StiButtonUI>アクションを実行したり、コマンドを開始したりするためのボタンです。</StiButtonUI>
-    <StiCardsElement>グループ化されたデータをカードとして表示するためのコンポーネントです。</StiCardsElement>
-    <StiChart>この部品により、レポートにグラフを表示できます。 異なるタイプのグラフが利用可能です。 バー、ライン、パイ、ドーナツ、ライン、エリア、ガント、散布図など</StiChart>
-    <StiChartElement>この部品により、ダッシュボードにグラフを表示することができます。 異なるタイプのグラフが利用可能です。</StiChartElement>
-    <StiCheckBox>この部品により、レポートにチェックボックスを表示することができます。 「有効」または「無効」の2つのモードを表示できます。</StiCheckBox>
-    <StiCheckBoxGroupUI>一覧から事前定義された複数の選択肢を選択するためのチェックボックスグループです。</StiCheckBoxGroupUI>
-    <StiCheckBoxUI>単一のオプションをすばやくオン／オフするためのチェックボックスです。</StiCheckBoxUI>
-    <StiChildBand>Childバンドは、1つのデータ行に2つのバンドを出力するために使用できます。</StiChildBand>
-    <StiClone>この部品は、レポートの一部をレポートの必要な部分に複製するために使用されます。 クローニングはパネルの内容にのみ適用できます。</StiClone>
-    <StiColumnFooterBand>このバンドは、データバンドの列のフッタを出力するために使用されます。 列フッタバンドは各列の下に1回出力されます。 このバンドに配置されたすべての部品も各列の下に出力されます。</StiColumnFooterBand>
-    <StiColumnHeaderBand>このバンドは、列見出しを出力するために使用されます。 列ヘッダバンドは、一度だけ出力するために使用されます。 バンドに配置されたすべての部品は、各列の上に出力できます。</StiColumnHeaderBand>
-    <StiComboBoxElement>コントロールに値を直接入力するか、既存のオプションのリストから選択するために使用されるComboBoxを表します。</StiComboBoxElement>
-    <StiContainer>これは、バンドを含む他の部品を配置できる長方形の領域です。 コンテナを動かすと、コンテナも移動します。 コンテナはバンドとページの両方に配置できます。</StiContainer>
-    <StiCrossDataBand>このバンドはデータソースに接続されています。 データソースに行がある場合と同じ回数だけ出力されます。 クロスバンドは左から右に出力されます。</StiCrossDataBand>
-    <StiCrossFooterBand>このバンドは、クロスデータバンドのフッタを出力するために使用されます。 このバンドは、データバンドのすべての行の後に1回出力されます。 クロスバンドは左から右に出力されます。</StiCrossFooterBand>
-    <StiCrossGroupFooterBand>このバンドは、グループのフッタを出力するために使用されます。 それはクロスデータバンドの下に置かれます。 各クロスフッタは、指定されたクロスヘッダバンドに属します。 クロスバンドは左から右に出力されます。</StiCrossGroupFooterBand>
-    <StiCrossGroupHeaderBand>このバンドは、クロスデータが使用されている場合、グループ化されたレポートレンダリングの基本的なバンドです。 このバンドなしでグループ化を作成することは不可能です。 グループによって情報を表示するための部品は、グループヘッダに配置されます。 情報は、グループ名、日付、グループ化の条件などである。バンドは、各グループの先頭に出力される。 クロスバンドは左から右に出力されます。</StiCrossGroupHeaderBand>
-    <StiCrossHeaderBand>このバンドはヘッダを出力するために使用されます。 クロスバンドと関連して使用されます。 クロスバンドは左から右に出力されます。</StiCrossHeaderBand>
-    <StiCrossTab>クロスタブ部品は、構造化データ表現をテーブルとして使用します。</StiCrossTab>
-    <StiDataBand>データバンドはデータソースに接続され、データソースの行数と同じ回数だけ出力されます。</StiDataBand>
-    <StiDatePickerElement>コントロールは、日付と時刻を選択するために使用されます。</StiDatePickerElement>
-    <StiDatePickerUI>カレンダーから日付を選択するための日付ピッカーです。</StiDatePickerUI>
-    <StiElectronicSignature>このコンポーネントは、グラフィック署名、画像、イニシャル、およびテキストを追加するために使用されます。</StiElectronicSignature>
-    <StiEmptyBand>このバンドは、ページ下部の空欄領域を埋めるために使用されます。 このバンドは、レポートの各ページの空欄領域を埋めます。</StiEmptyBand>
-    <StiFilterCategory>値の選択とフィルタリングに使用される部品のグループ。</StiFilterCategory>
-    <StiFooterBand>このバンドは、データバンドの集計を出力するために使用されます。 データバンドの下に配置され、データバンドが出力するすべてのデータの後に1回出力されます。</StiFooterBand>
-    <StiGauge>この部品では、事前定義された範囲内の値を表示できます。 異なるグラフィック表示を持つことができます。</StiGauge>
-    <StiGaugeElement>この部品では、事前定義された範囲内の値を表示できます。 異なるグラフィック表示を持つことができます。</StiGaugeElement>
-    <StiGroupFooterBand>グループフッタバンドは、グループフッタを出力するために使用されます。 このバンドはデータバンドの後に置かれます。 そして、これはグループヘッダバンドに紐づいているデータバンドです。 各グループフッタバンドは、指定されたグループヘッダバンドに属します。 グループフッタバンドはグループヘッダバンドなしでは出力されません。</StiGroupFooterBand>
-    <StiGroupHeaderBand>このバンドは、グループ化してレポートをレンダリングするための基本バンドです。 このグループによる情報を表示するための部品は、グループヘッダに配置されています。 グループ名、日付、グループ化の条件などがあります。このバンドは各グループの先頭に1回出力されます。</StiGroupHeaderBand>
-    <StiHeaderBand>このバンドはヘッダを出力するために使用されます。 これはデータバンドと同時に使用されます。</StiHeaderBand>
-    <StiHierarchicalBand>このバンドはデータソースに接続され、データソースの行数と同じ回数だけ出力されます。 データはツリーとして出力されます。</StiHierarchicalBand>
-    <StiHorizontalLinePrimitive>この部品は、行を出力するために使用されます。</StiHorizontalLinePrimitive>
-    <StiIconUI>象徴的なグラフィックや視覚的な目印を表示するためのアイコンです。</StiIconUI>
-    <StiImage>この部品は画像を出力するために使用されます。</StiImage>
-    <StiImageElement>この部品は画像を出力するために使用されます。 BMP、JPG、JPEG、GIF、TIFF、PNG、ICO、WMF、EMFなどの次のグラフィックフォーマットをサポートしています。</StiImageElement>
-    <StiImageUI>インターフェース内に画像コンテンツを表示するためのイメージです。</StiImageUI>
-    <StiIndicatorElement>部品は、入力データ間の値の差異を表示します。</StiIndicatorElement>
-    <StiLabelUI>テキストや短いキャプションを表示するためのラベルです。</StiLabelUI>
-    <StiListBoxElement>部品では、リストからアイテムを選択できます。</StiListBoxElement>
-    <StiListUI>選択可能な項目を縦方向の一覧として表示するためのリストです。</StiListUI>
-    <StiMap>この部品は、地理的にターゲットとされているデータを表示するために使用されます。</StiMap>
-    <StiMapCategory>地図やデータを扱うための部品群。</StiMapCategory>
-    <StiMapElement>この部品は、地理的にターゲットとされているデータを表示するために使用されます。</StiMapElement>
-    <StiMarkdown>このコンポーネントは、レポート内に CommonMark / GFM Markdown テキストを表示するために使用します。</StiMarkdown>
-    <StiMathFormula>このコンポーネントは、レポートに数式を表示するために使用されます。</StiMathFormula>
-    <StiMultiListUI>同じコレクションから複数の項目を選択するためのリストです。</StiMultiListUI>
-    <StiMultiSelectUI>用意された一覧から複数の値を選択するためのセレクターです。</StiMultiSelectUI>
-    <StiNumberBoxElement>この要素は、数値を選択したり、数値の範囲を設定するために使われます。</StiNumberBoxElement>
-    <StiNumberInputUI>数値を制御された形式で入力するための数値入力です。</StiNumberInputUI>
-    <StiOnlineMapElement>この部品は、オンラインマップ上に地理的マーカーを表示するために使用されます。</StiOnlineMapElement>
-    <StiOverlayBand>このバンドは、ページ上に透かしを出力するために使用されます。</StiOverlayBand>
-    <StiPageFooterBand>このバンドは、ページ番号、日付、およびその他の追加情報など、各ページの下部にある情報を出力するために使用されます。</StiPageFooterBand>
-    <StiPageHeaderBand>このバンドは、ページ番号、日付、およびその他の追加情報などのページヘッダを出力するために使用されます。 各ページの上部に出力されます。</StiPageHeaderBand>
-    <StiPanel>バンドを含む他の部品を含むことができる長方形の領域。 パネルが移動されると、パネル内の部品も移動されます。 パネルは、バンドまたはページ上に配置できます。</StiPanel>
-    <StiPanelElement>他の部品を含むことができる長方形の領域。 パネルが移動されると、パネル内の部品も移動されます。</StiPanelElement>
-    <StiPanelUI>他のコントロールを1つの領域内にグループ化して配置するためのパネルです。</StiPanelUI>
-    <StiPdfDigitalSignature>このコンポーネントは、レポートがAdobe PDFにエクスポートされた後に、デジタル署名の場所を指定するために使用されます。</StiPdfDigitalSignature>
-    <StiPdfDigitalSignatureElement>このコンポーネントは、PDFにエクスポートする際に、電子署名と証明書のフィールドのためのスペースを指定するために使用されます。</StiPdfDigitalSignatureElement>
-    <StiPivotTableElement>ピボット・部品は、構造化されたデータ表現を表として使用します。</StiPivotTableElement>
-    <StiProgressElement>部品には、入力データの比率が表示されます。 これは、パイ、円、棒など、さまざまなモードで表示できます。</StiProgressElement>
-    <StiRadioGroupUI>事前定義された値のセットから1つのオプションを選択するためのラジオグループです。</StiRadioGroupUI>
-    <StiRangeSelectorElement>このコンポーネントは、スケールやタイムライン上の値の範囲を選択するために使用されます。ユーザーは最小値と最大値を視覚的に設定できます。</StiRangeSelectorElement>
-    <StiRangeSliderUI>スケール上で最小値と最大値を指定するための範囲スライダーです。</StiRangeSliderUI>
-    <StiRectanglePrimitive>この部品は、長方形を出力するために使用されます。</StiRectanglePrimitive>
-    <StiRegionMapElement>この部品は、地理的にターゲットとされているデータを表示するために使用されます。</StiRegionMapElement>
-    <StiReportSummaryBand>このバンドは、レポート全体を通して集計を出力するために使用されます。 レポートの最後に1回出力されます。</StiReportSummaryBand>
-    <StiReportTitleBand>このバンドは、レポートのタイトルを出力するために使用されます。 レポートの最初に出力されます。</StiReportTitleBand>
-    <StiRichText>この部品は、RTFテキストの出力と編集に使用されます。 RTF形式のファイルの読み込みと保存もサポートしています。</StiRichText>
-    <StiRoundedRectanglePrimitive>この部品は、丸められた長方形を出力するために使用されます。</StiRoundedRectanglePrimitive>
-    <StiScreen>アプリページのコントロール、レイアウト、ユーザー操作を配置する画面です。</StiScreen>
-    <StiSelectUI>ドロップダウンリストから1つの値を選択するための選択ボックスです。</StiSelectUI>
-    <StiShape>この部品は、丸められた長方形を出力するために使用されます。...</StiShape>
-    <StiShapeElement>この部品は、矢印、斜線下、対角線上、水平線、左および右線、楕円形、四角形、四角形、上部および下部線、三角形、垂直線などの既成の図形を挿入するために使用されます。</StiShapeElement>
-    <StiSignature>このコンポーネントは、レポートに電子署名またはデジタル署名を追加するために使用されます。</StiSignature>
-    <StiSliderUI>連続した数値スケール上で値を選択するためのスライダーです。</StiSliderUI>
-    <StiSparkline>このコンポーネントは、レポートにマイクログラフィックを作成するために使用されます。 動的に変化するデータを棒、線、領域として追跡できます。</StiSparkline>
-    <StiSubReport>この部品は、レポートのさまざまな場所で追加データを出力するために使用されます。</StiSubReport>
-    <StiSwitchUI>設定をワンクリックでオン／オフ切り替えるためのスイッチです。</StiSwitchUI>
-    <StiTable>この部品は、垂直列と水平行のモデルを使用して編成された一連のデータ要素です。</StiTable>
-    <StiTableElement>この部品は、垂直列と水平行のモデルを使用して編成された一連のデータ要素です。</StiTableElement>
-    <StiTableOfContents>このコンポーネントは、レポートの目次を作成するために使用されます。</StiTableOfContents>
-    <StiTableUI>データを行と列でわかりやすく表示するためのテーブルです。</StiTableUI>
-    <StiText>この部品は、データをテキストとして出力するための基本オブジェクトです。</StiText>
-    <StiTextElement>この部品は、データをテキストとして出力するための基本オブジェクトです。</StiTextElement>
-    <StiTextInCells>この部品は、セル内にテキストを出力するために使用されます。 フォームの作成に頻繁に使用されます。</StiTextInCells>
-    <StiTextInputUI>テキスト値を入力・編集するためのテキスト入力です。</StiTextInputUI>
-    <StiTreeViewBoxElement>コントロールは、ドロップダウンリストを使用して値をツリーとして選択するために使用されます。</StiTreeViewBoxElement>
-    <StiTreeViewElement>階層データをツリーとして表示するために使用されるコントロールを表します。</StiTreeViewElement>
-    <StiVerticalLinePrimitive>この部品は、垂直線を出力するために使用されます。</StiVerticalLinePrimitive>
-    <StiWebContentElement>このコンポーネントは、ダッシュボードにウェブコンテンツを追加することができます。</StiWebContentElement>
-    <StiWinControl>この部品により、.NETからのビジュアルコントロールを表示できます。</StiWinControl>
-    <StiZipCode>この部品は、Zipコードを出力するために使用されます。</StiZipCode>
+    <CategoryBands>ヘッダ、データ、フッタを出力するバンド。</CategoryBands>
+    <CategoryComponents>テキスト、画像などのデータを表示する部品。</CategoryComponents>
+    <CategoryCrossBands>左から右へ出力されるバンド。</CategoryCrossBands>
+    <StiBarCode>バーコードを表示します。</StiBarCode>
+    <StiButtonElement>クリック時にスクリプトを実行します。</StiButtonElement>
+    <StiButtonUI>アクションまたはコマンドを開始します。</StiButtonUI>
+    <StiCardsElement>グループ化したデータをカードで表示します。</StiCardsElement>
+    <StiChart>データをグラフとして表示します。</StiChart>
+    <StiChartElement>データをグラフとして表示します。</StiChartElement>
+    <StiCheckBox>真偽値をチェックマークとして表示します。</StiCheckBox>
+    <StiCheckBoxGroupUI>複数チェックできるオプションを提示します。</StiCheckBoxGroupUI>
+    <StiCheckBoxUI>1つのオプションをオンまたはオフにします。</StiCheckBoxUI>
+    <StiChildBand>同じデータ行にもう1つバンドを出力します。</StiChildBand>
+    <StiClone>パネルの内容を繰り返します。</StiClone>
+    <StiColumnFooterBand>データバンドの各列の下に出力されます。</StiColumnFooterBand>
+    <StiColumnHeaderBand>データバンドの各列の上に出力されます。</StiColumnHeaderBand>
+    <StiComboBoxElement>ドロップダウンから値を選択します。</StiComboBoxElement>
+    <StiContainer>他の部品を1つの領域にまとめます。</StiContainer>
+    <StiCrossDataBand>行ごとに1回、左から右へ出力されます。</StiCrossDataBand>
+    <StiCrossFooterBand>クロスデータバンドの後に出力されます。</StiCrossFooterBand>
+    <StiCrossGroupFooterBand>各クロスグループの最後に出力されます。</StiCrossGroupFooterBand>
+    <StiCrossGroupHeaderBand>各クロスグループの先頭に出力されます。</StiCrossGroupHeaderBand>
+    <StiCrossHeaderBand>クロスデータバンドの前に出力されます。</StiCrossHeaderBand>
+    <StiCrossTab>構造化データをクロス集計表で表示します。</StiCrossTab>
+    <StiDataBand>データソースの行ごとに1回出力されます。</StiDataBand>
+    <StiDatePickerElement>日付と時刻を選択します。</StiDatePickerElement>
+    <StiDatePickerUI>日付を選ぶカレンダーを表示します。</StiDatePickerUI>
+    <StiElectronicSignature>手書き、入力、画像の署名を追加します。</StiElectronicSignature>
+    <StiEmptyBand>ページ下部の空き領域を埋めます。</StiEmptyBand>
+    <StiFilterCategory>値の選択とフィルタリングを行う要素。</StiFilterCategory>
+    <StiFooterBand>データバンドの行の後に出力されます。</StiFooterBand>
+    <StiGauge>範囲内の値を表示します。</StiGauge>
+    <StiGaugeElement>範囲内の値を表示します。</StiGaugeElement>
+    <StiGroupFooterBand>各グループの最後に出力されます。</StiGroupFooterBand>
+    <StiGroupHeaderBand>各グループの先頭に出力されます。</StiGroupHeaderBand>
+    <StiHeaderBand>データバンドの行の前に出力されます。</StiHeaderBand>
+    <StiHierarchicalBand>データソースの行をツリーとして出力します。</StiHierarchicalBand>
+    <StiHorizontalLinePrimitive>水平線を描画します。</StiHorizontalLinePrimitive>
+    <StiIconUI>アイコンを表示します。</StiIconUI>
+    <StiImage>画像を表示します。</StiImage>
+    <StiImageElement>画像を表示します。</StiImageElement>
+    <StiImageUI>画像を表示します。</StiImageUI>
+    <StiIndicatorElement>値の差を表示します。</StiIndicatorElement>
+    <StiLabelUI>短いテキストを表示します。</StiLabelUI>
+    <StiListBoxElement>リストから項目を選択します。</StiListBoxElement>
+    <StiListUI>項目を1つ選ぶリストを表示します。</StiListUI>
+    <StiMap>データを地図上に表示します。</StiMap>
+    <StiMapCategory>データを地図上に表示する要素。</StiMapCategory>
+    <StiMapElement>データを地図上に表示します。</StiMapElement>
+    <StiMarkdown>Markdownテキストを表示します。</StiMarkdown>
+    <StiMathFormula>数式を表示します。</StiMathFormula>
+    <StiMultiListUI>複数の項目を選ぶリストを表示します。</StiMultiListUI>
+    <StiMultiSelectUI>複数の値を選ぶドロップダウンを表示します。</StiMultiSelectUI>
+    <StiNumberBoxElement>数値または数値の範囲を選択します。</StiNumberBoxElement>
+    <StiNumberInputUI>ユーザーの数値入力を受け付けます。</StiNumberInputUI>
+    <StiOnlineMapElement>オンライン地図にマーカーを表示します。</StiOnlineMapElement>
+    <StiOverlayBand>各ページに透かしを出力します。</StiOverlayBand>
+    <StiPageFooterBand>各ページの下部に出力されます。</StiPageFooterBand>
+    <StiPageHeaderBand>各ページの上部に出力されます。</StiPageHeaderBand>
+    <StiPanel>他の部品を1つの領域にまとめます。</StiPanel>
+    <StiPanelElement>他の要素を1つの領域にまとめます。</StiPanelElement>
+    <StiPanelUI>他のコントロールを1つの領域にまとめます。</StiPanelUI>
+    <StiPdfDigitalSignature>PDFのデジタル署名の位置を指定します。</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>PDFのデジタル署名の位置を指定します。</StiPdfDigitalSignatureElement>
+    <StiPivotTableElement>構造化データをピボットテーブルで表示します。</StiPivotTableElement>
+    <StiProgressElement>値を全体の一部として表示します。</StiProgressElement>
+    <StiRadioGroupUI>1つ選択できるオプションを提示します。</StiRadioGroupUI>
+    <StiRangeSelectorElement>スケールやタイムライン上の範囲を選択します。</StiRangeSelectorElement>
+    <StiRangeSliderUI>スケール上の範囲を設定します。</StiRangeSliderUI>
+    <StiRectanglePrimitive>矩形を描画します。</StiRectanglePrimitive>
+    <StiRegionMapElement>データを地域の地図上に表示します。</StiRegionMapElement>
+    <StiReportSummaryBand>レポートの最後に1回出力されます。</StiReportSummaryBand>
+    <StiReportTitleBand>レポートの先頭に1回出力されます。</StiReportTitleBand>
+    <StiRichText>書式付きRTFテキストを表示します。</StiRichText>
+    <StiRoundedRectanglePrimitive>角丸矩形を描画します。</StiRoundedRectanglePrimitive>
+    <StiScreen>アプリページのコントロールを格納します。</StiScreen>
+    <StiSelectUI>値を1つ選ぶドロップダウンを表示します。</StiSelectUI>
+    <StiShape>既成の図形を表示します。</StiShape>
+    <StiShapeElement>既成の図形を表示します。</StiShapeElement>
+    <StiSignature>電子署名またはデジタル署名を追加します。</StiSignature>
+    <StiSliderUI>スケール上の値を設定します。</StiSliderUI>
+    <StiSparkline>データ系列の小さなグラフを表示します。</StiSparkline>
+    <StiSubReport>この位置に別のレポートやページを出力します。</StiSubReport>
+    <StiSwitchUI>設定をオンまたはオフに切り替えます。</StiSwitchUI>
+    <StiTable>データを行と列で表示します。</StiTable>
+    <StiTableElement>データを行と列で表示します。</StiTableElement>
+    <StiTableOfContents>目次を作成します。</StiTableOfContents>
+    <StiTableUI>データを行と列で表示します。</StiTableUI>
+    <StiText>データをテキストとして表示します。</StiText>
+    <StiTextElement>データをテキストとして表示します。</StiTextElement>
+    <StiTextInCells>テキストを1セルに1文字ずつ表示します。</StiTextInCells>
+    <StiTextInputUI>ユーザーのテキスト入力を受け付けます。</StiTextInputUI>
+    <StiTreeViewBoxElement>ドロップダウンツリーから値を選択します。</StiTreeViewBoxElement>
+    <StiTreeViewElement>階層データをツリーとして表示します。</StiTreeViewElement>
+    <StiVerticalLinePrimitive>垂直線を描画します。</StiVerticalLinePrimitive>
+    <StiWebContentElement>ウェブコンテンツを表示します。</StiWebContentElement>
+    <StiWinControl>.NETのビジュアルコントロールを表示します。</StiWinControl>
+    <StiZipCode>ZIPコードを表示します。</StiZipCode>
   </HelpComponents>
   <HelpDesigner>
     <ActiveRelation>2つのテーブルをバインドする優先リレーションを設定します。 これは、データ変換とダッシュボードで使用されます。 各データソースの1つのリレーションのみがアクティブになります。</ActiveRelation>
-    <Align>選択した部品の場所を変更します。</Align>
-    <AlignBottom>部品の内容を下部に揃えます。</AlignBottom>
-    <AlignCenter>部品の内容を中央に揃えます。</AlignCenter>
+    <Align>選択した部品を整列します。</Align>
+    <AlignBottom>内容を下端に揃えます。</AlignBottom>
+    <AlignCenter>内容を中央に揃えます。</AlignCenter>
     <AlignComponentBottom>選択した部品の下端に沿ってオブジェクトを水平に整列させることができます。</AlignComponentBottom>
     <AlignComponentCenter>選択した部品の中央のエッジに沿ってオブジェクトを水平に整列させることができます。</AlignComponentCenter>
     <AlignComponentLeft>選択した部品の左端に沿ってオブジェクトを垂直に揃えることができます。</AlignComponentLeft>
     <AlignComponentMiddle>選択した部品の中央のエッジに沿ってオブジェクトを垂直に整列させることができます。</AlignComponentMiddle>
     <AlignComponentRight>選択した部品の右端に沿ってオブジェクトを垂直に整列させることができます。</AlignComponentRight>
     <AlignComponentTop>選択した部品の上端に沿ってオブジェクトを水平に整列させることができます。</AlignComponentTop>
-    <AlignLeft>部品の内容を左端に揃えます。</AlignLeft>
-    <AlignMiddle>部品の上部と下部の境界線で内容を中央揃えします。</AlignMiddle>
-    <AlignRight>部品の内容を右端に揃えます。</AlignRight>
+    <AlignLeft>内容を左端に揃えます。</AlignLeft>
+    <AlignMiddle>内容を上下中央に揃えます。</AlignMiddle>
+    <AlignRight>内容を右端に揃えます。</AlignRight>
     <AlignToGrid>選択した部品をグリッドに揃えます。</AlignToGrid>
-    <AlignTop>部品の内容を上端に揃えます。</AlignTop>
-    <AlignWidth>部品の内容を両端に揃えます。</AlignWidth>
-    <Angle>部品の内容を回転します。</Angle>
+    <AlignTop>内容を上端に揃えます。</AlignTop>
+    <AlignWidth>内容を両端に揃えます。</AlignWidth>
+    <Angle>テキストを回転します。</Angle>
     <AngleWatermark>ウォーターマークのテキストの回転角度。</AngleWatermark>
-    <Background>選択した部品の背景を変更します。</Background>
-    <biConditions>選択した部品の条件のリストを制御します。</biConditions>
-    <BorderColor>選択した部品の罫線の色を選択します。</BorderColor>
-    <BorderSidesAll>選択した部品のすべての罫線を表示します。</BorderSidesAll>
-    <BorderSidesBottom>選択した部品の下部の罫線を表示します。</BorderSidesBottom>
-    <BorderSidesLeft>選択した部品の左側の罫線を表示します。</BorderSidesLeft>
-    <BorderSidesNone>選択した部品のすべての罫線を表示しません。</BorderSidesNone>
-    <BorderSidesRight>選択した部品の右側の罫線を表示します。</BorderSidesRight>
-    <BorderSidesTop>選択した部品の上部の罫線の表示します。</BorderSidesTop>
-    <BorderStyle>選択した部品の罫線スタイルを選択します。</BorderStyle>
-    <BringToFront>選択した部品を前面に移動します。</BringToFront>
+    <Background>背景を変更します。</Background>
+    <biConditions>条件を編集します。</biConditions>
+    <BorderColor>罫線の色を変更します。</BorderColor>
+    <BorderSidesAll>すべての罫線を表示します。</BorderSidesAll>
+    <BorderSidesBottom>下側の罫線を表示または非表示にします。</BorderSidesBottom>
+    <BorderSidesLeft>左側の罫線を表示または非表示にします。</BorderSidesLeft>
+    <BorderSidesNone>すべての罫線を非表示にします。</BorderSidesNone>
+    <BorderSidesRight>右側の罫線を表示または非表示にします。</BorderSidesRight>
+    <BorderSidesTop>上側の罫線を表示または非表示にします。</BorderSidesTop>
+    <BorderStyle>罫線のスタイルを変更します。</BorderStyle>
+    <BringToFront>最前面へ移動します。</BringToFront>
     <CenterHorizontally>部品が配置されているコンテナのエッジに対して部品を水平方向に揃えることができます。</CenterHorizontally>
     <CenterVertically>部品が配置されているコンテナのエッジに対して部品を垂直方向に揃えることができます。</CenterVertically>
     <Close>レポートデザイナを閉じます。</Close>
-    <Columns>ページを列に分割する。</Columns>
+    <Columns>ページを列に分割します。</Columns>
     <CompilationAccess1>この文書はコンパイルプロセスを使用しています。信頼できるソースからの文書であれば、「開く」ボタンをクリックしてアクセスすることができます。</CompilationAccess1>
     <CompilationAccess2>文書の出典が不確かで、それでも閲覧したい場合は、「セーフモードで開く」ボタンをクリックしてください。この場合、コンパイルの代わりにインタープリテーションを使用することになり、ドキュメントを安全に実行することができます。</CompilationAccess2>
     <CompilationAccess3>この文書はコンパイルプロセスを使用しており、安全でない可能性があります。開くことはできない。</CompilationAccess3>
@@ -2189,14 +2192,14 @@
     <CompilationAccessTitle>このドキュメントはコンパイルを使用しています</CompilationAccessTitle>
     <CompilationModeEnabling>コンパイルモードに切り替わっています。このモードでは異なるコードを実行することができ、時には有害な場合もあります。すべてのリスクを理解し、同意できる場合のみこのモードを使用してください。{0}ボタンをクリックして次に進んでください。</CompilationModeEnabling>
     <ComponentSize>選択した部品のサイズを変更します。</ComponentSize>
-    <ComponentsMenu>モバイルサーフェス上で未使用のダッシュボード要素を含むコンポーネントメニューを開きます。</ComponentsMenu>
-    <CopyStyle>スタイルコピー</CopyStyle>
+    <ComponentsMenu>未使用の要素を表示します。</ComponentsMenu>
+    <CopyStyle>スタイルを他の部品にコピーします。</CopyStyle>
     <CopyToClipboard>クリップボードコピー</CopyToClipboard>
-    <CurrencySymbol>クリップボードコピー...</CurrencySymbol>
+    <CurrencySymbol>通貨記号を選択します。</CurrencySymbol>
     <DashboardNew>新しいダッシュボードを作成してください。</DashboardNew>
     <DataStore>レポートに登録されたデータを表示します。</DataStore>
-    <DateTimeFormat>選択した部品の日付と時刻の形式を選択します。</DateTimeFormat>
-    <DockingPanels>パネル設定。</DockingPanels>
+    <DateTimeFormat>日付と時刻の形式を選択します。</DateTimeFormat>
+    <DockingPanels>パネルを表示または非表示にします。</DockingPanels>
     <DockStyleBottom>選択した部品を下部にドッキングします。</DockStyleBottom>
     <DockStyleFill>選択した部品をすべての面にドッキングします。</DockStyleFill>
     <DockStyleLeft>選択した部品を左側にドッキングします。</DockStyleLeft>
@@ -2205,17 +2208,17 @@
     <DockStyleTop>選択した部品を上面にドッキングします。</DockStyleTop>
     <EventsAccess1>このドキュメントはイベントを使用しています。このドキュメントが信頼できるソースからのものである場合は、「開く」ボタンをクリックしてアクセスできます。</EventsAccess1>
     <EventsAccess2>ドキュメントのソースが不明であっても表示したい場合は、「セーフモードで開く」ボタンをクリックできます。この場合、イベントは無視され、実行されません。</EventsAccess2>
-    <FontGrow>テキストサイズを大きくします。</FontGrow>
-    <FontName>テキストフォント。</FontName>
+    <FontGrow>テキストを大きくします。</FontGrow>
+    <FontName>テキストのフォントを変更します。</FontName>
     <FontNameWatermark>ウォーターマークのテキストフォント。</FontNameWatermark>
-    <FontShrink>テキストサイズを小さくする。</FontShrink>
-    <FontSize>フォントサイズ</FontSize>
+    <FontShrink>テキストを小さくします。</FontShrink>
+    <FontSize>テキストのサイズを変更します。</FontSize>
     <FontSizeWatermark>フォントサイズを変更します。</FontSizeWatermark>
     <FontStyleBold>テキストを太字にします。</FontStyleBold>
     <FontStyleBoldWatermark>透かしのテキストを太字にします。</FontStyleBoldWatermark>
     <FontStyleItalic>テキストをイタリック体にします。</FontStyleItalic>
     <FontStyleItalicWatermark>ウォーターマークのテキストをイタリック体にします。</FontStyleItalicWatermark>
-    <FontStyleStrikeout>テキストを取り消し線で囲みます。</FontStyleStrikeout>
+    <FontStyleStrikeout>テキストに取り消し線を引きます。</FontStyleStrikeout>
     <FontStyleUnderline>テキストに下線を引きます。</FontStyleUnderline>
     <FontStyleUnderlineWatermark>ウォーターマークのテキストに下線を引きます。</FontStyleUnderlineWatermark>
     <FormatBoolean>この形式はブール型の値の書式設定に使用されます。</FormatBoolean>
@@ -2227,61 +2230,61 @@
     <FormatPercentage>値をパーセンテージで表示します。 数値に100を掛けてパーセントに変換します。</FormatPercentage>
     <FormatTime>時間として値を表示します。 時間形式は地域時間の設定に基づいています。</FormatTime>
     <FormNew>新規ダイアログフォームを作成します。</FormNew>
-    <GridMode>線または点でグリッドを表示します。</GridMode>
+    <GridMode>グリッドを線または点で表示します。</GridMode>
     <ImageAlignment>ページに透かし画像を置く。</ImageAlignment>
     <ImageTransparency>透かし画像の透明度を変更します。</ImageTransparency>
-    <Interaction>選択したコンポーネントの相互作用を制御します。</Interaction>
-    <LineSpacing>テキスト行間または段落間に表示されるスペースを選択します。</LineSpacing>
-    <Link>部品を現在のコンテナにリンクします。</Link>
+    <Interaction>インタラクションを設定します。</Interaction>
+    <LineSpacing>行間隔を変更します。</LineSpacing>
+    <Link>コンテナにリンクします。</Link>
     <LoadImage>ファイルから透かし画像を読み込みます。</LoadImage>
-    <Lock>部品をロックします。 部品を移動およびサイズ変更することはできません。</Lock>
-    <MainMenu>開始、終了、およびプレビューなど、レポートで可能な操作のリストを表示するには、ここをクリックしてください。</MainMenu>
+    <Lock>位置とサイズをロックします。</Lock>
+    <MainMenu>レポートを作成、開く、または保存します。</MainMenu>
     <MakeHorizontalSpacingEqual>選択した部品間の水平方向の間隔を均等に設定できます。</MakeHorizontalSpacingEqual>
     <MakeVerticalSpacingEqual>選択した部品間の垂直方向の間隔を均等に設定できます。</MakeVerticalSpacingEqual>
-    <Margins>現在のページの余白を選択します。</Margins>
+    <Margins>ページの余白を選択します。</Margins>
     <menuCheckIssues>レポートを確認して、エラーや警告を見つけ、推奨事項を入手してください。</menuCheckIssues>
     <menuDesignerOptions>レポートデザイナーのオプションを設定します。</menuDesignerOptions>
     <menuEditClearContents>内容をクリアします。</menuEditClearContents>
-    <menuEditCopy>選択した部品をコピーし、クリップボードに格納します。</menuEditCopy>
-    <menuEditCut>選択した部品をレポートから切り取り、クリップボードに格納します。</menuEditCut>
+    <menuEditCopy>選択した部品をコピーします。</menuEditCopy>
+    <menuEditCut>選択した部品を切り取ります。</menuEditCut>
     <menuEditDelete>選択した部品を削除します。</menuEditDelete>
-    <menuEditPaste>クリップボードの内容をレポートに貼り付けます。</menuEditPaste>
-    <menuExportSettings>現在のレポートまたはダッシュボードのエクスポート設定エディターを開きます。設定は、現在のレポートまたはダッシュボードをエクスポートするときにのみ適用されます。</menuExportSettings>
+    <menuEditPaste>クリップボードから貼り付けます。</menuEditPaste>
+    <menuExportSettings>エクスポート設定を変更します。</menuExportSettings>
     <menuFAQPage>頻繁に質問されるWebページに移動します。</menuFAQPage>
-    <menuGlobalizationStrings>現在のレポートのグローバル対応エディタを呼び出します。</menuGlobalizationStrings>
+    <menuGlobalizationStrings>グローバル対応文字列を編集します。</menuGlobalizationStrings>
     <menuHelpAboutProgramm>レポートジェネレータのバージョンと.NETのバージョンに関する情報を取得します。</menuHelpAboutProgramm>
     <menuHomePage>製品のホームページに移動します。</menuHomePage>
     <menuPageOptions>現在のページの基本パラメータを設定します。 すべてのページオプションは、プロパティパネルを使用して変更できます。</menuPageOptions>
     <menuPagesManager>ページマネージャを実行します。 ページの移動、ページの削除、および新規ページの作成が可能です。</menuPagesManager>
-    <menuPreviewSettings>現在のレポートのプレビュー設定エディタを呼び出します。 設定は、現在のレポートを表示する場合にのみ適用されます。</menuPreviewSettings>
+    <menuPreviewSettings>プレビュー設定を変更します。</menuPreviewSettings>
     <menuPrint>印刷する前に、プリンタ、部数、その他の印刷オプションを選択してください。</menuPrint>
     <menuPrintPreview>印刷する前にレポートをプレビューします。</menuPrintPreview>
     <menuPrintQuick>レポートを直接デフォルトプリンタに印刷します。 印刷ダイアログは表示されません。</menuPrintQuick>
-    <menuReportOptions>基本的なレポートオプションを設定します。 すべてのオプションは、プロパティパネルを使用して変更できます。</menuReportOptions>
+    <menuReportOptions>レポートオプションを変更します。</menuReportOptions>
     <menuStyleDesigner>現在のレポートのスタイルデザイナを呼び出します。</menuStyleDesigner>
     <menuSupport>サポートページに移動して質問します。</menuSupport>
     <menuViewAlignToGrid>部品をグリッドに揃えます。</menuViewAlignToGrid>
     <menuViewNormal>ページの標準ビュー。</menuViewNormal>
     <menuViewPageBreakPreview>セグメントの境界線を持つページを表示するモード。</menuViewPageBreakPreview>
-    <menuViewQuickInfo>部品の簡単な情報を表示：部品名、エイリアス、コンテンツ、イベントなど</menuViewQuickInfo>
-    <menuViewShowGrid>レポート内のオブジェクトを整列できるグリッド線をオンにします。</menuViewShowGrid>
-    <menuViewShowHeaders>バンドのヘッダを表示する。</menuViewShowHeaders>
-    <menuViewShowOrder>ページ上の部品の順序を表示します。</menuViewShowOrder>
-    <menuViewShowRulers>ページ上のオブジェクトの測定と整列に使用されるルーラーを表示します。</menuViewShowRulers>
-    <menuViewShowSmartGuides>スマートガイドを表示して、コンポーネントを相対的に配置する。</menuViewShowSmartGuides>
-    <MoveBackward>ページに部品を配置する順序で、部品を1つ上のレベルに移動します。</MoveBackward>
-    <MoveForward>ページ上に部品を配置する順序で部品を1つ下のレベルに移動します。</MoveForward>
+    <menuViewQuickInfo>部品の簡単な情報を表示します。</menuViewQuickInfo>
+    <menuViewShowGrid>グリッドを表示します。</menuViewShowGrid>
+    <menuViewShowHeaders>バンドのヘッダを表示します。</menuViewShowHeaders>
+    <menuViewShowOrder>部品の順序を表示します。</menuViewShowOrder>
+    <menuViewShowRulers>ルーラーを表示します。</menuViewShowRulers>
+    <menuViewShowSmartGuides>スマートガイドを表示します。</menuViewShowSmartGuides>
+    <MoveBackward>1つ背面へ移動します。</MoveBackward>
+    <MoveForward>1つ前面へ移動します。</MoveForward>
     <NotPossibleEnableCompilationMode>このレポートに対してコンパイルモードを有効にすることはできません。「デザイナー設定」の「コンパイルアクセス」オプションによって禁止されています。</NotPossibleEnableCompilationMode>
-    <Orientation>縦横レイアウトのページを切り替えます。</Orientation>
+    <Orientation>縦向きと横向きを切り替えます。</Orientation>
     <PageDelete>レポートから現在のページを削除します。</PageDelete>
     <PageNew>新規ページを作成します。</PageNew>
-    <PageSetup>[ページ設定]ダイアログボックスを表示します。</PageSetup>
-    <PageSize>レポートの現在のページの用紙サイズを選択します。</PageSize>
+    <PageSetup>ページ設定を変更します。</PageSetup>
+    <PageSize>用紙サイズを選択します。</PageSize>
     <PagesManager>ページマネージャを実行します。</PagesManager>
     <PressF1>F1を押して詳細を表示</PressF1>
-    <PropertiesButton>レポートテンプレートのプロパティを表示するプロパティパネルを有効にします。</PropertiesButton>
+    <PropertiesButton>レポートのプロパティを表示します。</PropertiesButton>
     <Redo>以前にキャンセルされたレポートの変更をやり直します。</Redo>
-    <RemoveMobileSurfaceButton>現在のダッシュボードからモバイルサーフェスを削除します。</RemoveMobileSurfaceButton>
+    <RemoveMobileSurfaceButton>モバイルサーフェスを削除します。</RemoveMobileSurfaceButton>
     <ReportNew>新規レポートを作成します。</ReportNew>
     <ReportOpen>デザイナーでレポートを開きます。</ReportOpen>
     <ReportPreview>ビューアで編集したレポートをプレビューします。</ReportPreview>
@@ -2293,46 +2296,47 @@
     <ScriptSecuritySafeMode>安全なスクリプトアクセス（セキュリティのため機能が制限されます）。</ScriptSecuritySafeMode>
     <SelectAll>現在のページのすべての部品を選択します。</SelectAll>
     <SelectUILanguage>UI言語を選択します。</SelectUILanguage>
-    <SendToBack>選択した部品を他の部品に対して相対的に後ろに移動します。</SendToBack>
+    <SendToBack>最背面へ移動します。</SendToBack>
     <ServicesConfigurator>サービスコンフィグレータを実行します。</ServicesConfigurator>
-    <Shadow>部品の影を表示します。</Shadow>
+    <Shadow>影を表示または非表示にします。</Shadow>
     <ShowBehind>部品の後ろに透かしテキストを表示します。</ShowBehind>
     <ShowImageBehind>ページ上のすべての部品の後ろにウォーターマークイメージを置きます。</ShowImageBehind>
     <ShowToolbox>ツールボックスを表示</ShowToolbox>
     <StimulsoftHelp>ヘルプStimulsoft</StimulsoftHelp>
-    <StyleDesigner>スタイルデザイナを実行</StyleDesigner>
+    <StyleDesigner>スタイルデザイナを開きます。</StyleDesigner>
     <TellMeMore>ヘルプを確認</TellMeMore>
     <Text>ウォーターマークのテキスト</Text>
     <TextBrush>テキストの色を変更</TextBrush>
     <TextBrushWatermark>透かしのテキストの色を変更</TextBrushWatermark>
-    <TextColor>テキストの色を変更</TextColor>
-    <TextFormat>値の書式を選択</TextFormat>
+    <TextColor>テキストの色を変更します。</TextColor>
+    <TextFormat>値の形式を選択します。</TextFormat>
     <ToolbarStyle>選択したすべての部品に選択したスタイルを設定</ToolbarStyle>
     <Undo>レポートの最新の変更を取り消す</Undo>
-    <ViewModeDesktopButton>デスクトップサーフェスを有効にします。</ViewModeDesktopButton>
-    <ViewModeMobileButton>モバイルサーフェスを有効にします。</ViewModeMobileButton>
-    <WordWrap>部品のテキストをラップ</WordWrap>
+    <ViewModeDesktopButton>デスクトップサーフェスを表示します。</ViewModeDesktopButton>
+    <ViewModeMobileButton>モバイルサーフェスを表示します。</ViewModeMobileButton>
+    <Watermark>透かしの設定を変更します。</Watermark>
+    <WordWrap>テキストを折り返します。</WordWrap>
     <Zoom>レポートのズームレベルを指定</Zoom>
   </HelpDesigner>
   <HelpDialogs>
-    <StiButtonControl>Buttonコントロールを表します。</StiButtonControl>
-    <StiCheckBoxControl>Flagコントロールを表します。</StiCheckBoxControl>
-    <StiCheckedListBoxControl>Listオブジェクトを表示します。各要素の左のフラグが表示されます。</StiCheckedListBoxControl>
-    <StiComboBoxControl>コントロールに値を直接入力するか、既存のオプションのリストから選択するために使用されるComboBoxを表します。</StiComboBoxControl>
-    <StiDateTimePickerControl>日付と時刻を選択できるコントロールを表します。 また、指定した形式で日付と時刻を出力することもできます。</StiDateTimePickerControl>
-    <StiGridControl>行と列で構成されるGridコントロールを表します。</StiGridControl>
-    <StiGroupBoxControl>UIコンテンツの枠線とヘッダを持つコンテナを作成するコントロールを表します。</StiGroupBoxControl>
-    <StiLabelControl>ラベルとは、フォームにテキストを表示するユーザーインターフェイスコントロールです。 通常、対話性のない静的なコントロールです。</StiLabelControl>
-    <StiListBoxControl>選択する要素のリストを含みます。</StiListBoxControl>
-    <StiListViewControl>データ要素のリストを示すListViewコントロールを表します。</StiListViewControl>
-    <StiLookUpBoxControl>選択する要素のリストを含みます。</StiLookUpBoxControl>
-    <StiNumericUpDownControl>数値を示すコントロールを表します。</StiNumericUpDownControl>
-    <StiPanelControl>Panel要素は、オブジェクトの配置および配置に使用されます。</StiPanelControl>
-    <StiPictureBoxControl>画像を表示するためのコントロールを表します。</StiPictureBoxControl>
-    <StiRadioButtonControl>ユーザーが事前定義済みのオプションセットの1つだけを選択できるラジオボタンコントロールを表します。</StiRadioButtonControl>
-    <StiRichTextBoxControl>幅広い編集を含むRichTextコントロールを表します。</StiRichTextBoxControl>
-    <StiTextBoxControl>テキストを表示または編集するために使用されるTextコントロールを表します。</StiTextBoxControl>
-    <StiTreeViewControl>階層データをツリーとして表示するために使用されるコントロールを表します。</StiTreeViewControl>
+    <StiButtonControl>クリック時にアクションを実行します。</StiButtonControl>
+    <StiCheckBoxControl>1つのオプションをオンまたはオフにします。</StiCheckBoxControl>
+    <StiCheckedListBoxControl>チェックボックス付き項目リストを表示します。</StiCheckedListBoxControl>
+    <StiComboBoxControl>値の選択・入力用ドロップダウンを表示します。</StiComboBoxControl>
+    <StiDateTimePickerControl>日付と時刻を選ぶカレンダーを表示します。</StiDateTimePickerControl>
+    <StiGridControl>データを行と列で表示します。</StiGridControl>
+    <StiGroupBoxControl>コントロールを見出し付きの枠にまとめます。</StiGroupBoxControl>
+    <StiLabelControl>フォームにテキストを表示します。</StiLabelControl>
+    <StiListBoxControl>項目を選ぶリストを表示します。</StiListBoxControl>
+    <StiListViewControl>データ項目のリストを表示します。</StiListViewControl>
+    <StiLookUpBoxControl>項目を選ぶドロップダウンを表示します。</StiLookUpBoxControl>
+    <StiNumericUpDownControl>数値入力を受け付け、ボタンで変更できます。</StiNumericUpDownControl>
+    <StiPanelControl>他のコントロールを1つの領域にまとめます。</StiPanelControl>
+    <StiPictureBoxControl>画像を表示します。</StiPictureBoxControl>
+    <StiRadioButtonControl>グループ内のオプションを1つ選択します。</StiRadioButtonControl>
+    <StiRichTextBoxControl>書式付きテキストを表示および編集します。</StiRichTextBoxControl>
+    <StiTextBoxControl>テキストを表示および編集します。</StiTextBoxControl>
+    <StiTreeViewControl>階層データをツリーとして表示します。</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
     <AddPageBreaks>レポートページの視覚的区切り。</AddPageBreaks>
