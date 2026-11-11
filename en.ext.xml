@@ -699,6 +699,7 @@
     <Font>A font of bar-code.</Font>
     <ForeColor>A bar-code color.</ForeColor>
     <GetBarCodeEvent>Occurs when getting the code of the bar-code.</GetBarCodeEvent>
+    <PixelSnapping>Snaps the bars of the bar code to the dots of the device, so that every bar of the same width prints with the same number of dots. 'Printing' snaps the bar code when the report is printed, 'Always' also on the screen and in exported pictures.</PixelSnapping>
     <ShowLabelText>A value that indicates whether this bar-code will show a label text or not.</ShowLabelText>
     <ShowQuietZones>A value which indicates whether this bar code will show quiet zones or not.</ShowQuietZones>
     <Zoom>A value by which to multiply the bar-code size.</Zoom>
