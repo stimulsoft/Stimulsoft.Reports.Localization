@@ -2413,10 +2413,12 @@
     <Print>Imprimir el informe.</Print>
     <PutFeedPageCode>Separar las páginas del documento final con un carácter especial.</PutFeedPageCode>
     <RangePages>Números de páginas a procesar. Puede indicar una única página, una lista de páginas (separado por comas), además de un rango de páginas donde se separa la página de inicio y la página final por el carácter "-". Por ejemplo: 1,3,5-12.</RangePages>
+    <RebuildReport>Vuelve a generar el informe para la nueva página, de modo que los datos llenen las nuevas páginas. Sin esta opción, solo cambia el tamaño de las páginas ya generadas. No disponible para un documento abierto desde un archivo.</RebuildReport>
     <RemoveEmptySpaceAtBottom>Minimizar el espacio al final de la página.</RemoveEmptySpaceAtBottom>
     <Resources>Mostrar los recursos.</Resources>
     <RestrictEditing>Límites en cambios de documentos Word.</RestrictEditing>
     <Save>Guardar el informe.</Save>
+    <ScaleContent>Cambia el tamaño de los componentes junto con la página. Sin esta opción, conservan su tamaño y posición.</ScaleContent>
     <ScaleHtml>El tamaño (escala) de las páginas del informe después de la exportación.</ScaleHtml>
     <ScaleImage>El tamaño (escala) del informe después de la exportación. Cuanto más bajo, mayor será el número de pixeles por pulgada, y vice versa.</ScaleImage>
     <SendEMail>Enviar el informe por correo electrónico.</SendEMail>

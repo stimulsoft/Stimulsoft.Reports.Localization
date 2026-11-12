@@ -2413,10 +2413,12 @@
     <Print>Skriv ut rapporten.</Print>
     <PutFeedPageCode>Fyll opp sider i det endelige dokumentet med et spesialtegn.</PutFeedPageCode>
     <RangePages>Sidenumrene som skal behandles. Du kan angi en enkelt side, en liste med sider (hvor du bruker komma for å dele inn), i tillegg til at du kan angi et område ved å skrive inn startsiden til området adskilt med "-" og deretter sistesiden til området. For eksempel: 1,3,5-12.</RangePages>
+    <RebuildReport>Bygger rapporten på nytt for den nye siden, slik at dataene fyller de nye sidene. Uten dette endres bare størrelsen på sidene som allerede er bygget. Ikke tilgjengelig for et dokument som er åpnet fra en fil.</RebuildReport>
     <RemoveEmptySpaceAtBottom>Reduser det tomme området nederst på siden til et minimum.</RemoveEmptySpaceAtBottom>
     <Resources>Vis ressurser.</Resources>
     <RestrictEditing>Begrenser muligheten til å endret et Word-dokument.</RestrictEditing>
     <Save>Lagre rapporten.</Save>
+    <ScaleContent>Endrer størrelsen på komponentene sammen med siden. Uten dette beholder de størrelse og plassering.</ScaleContent>
     <ScaleHtml>Størrelsen (skalaen) til rapportsider og elementer etter eksporten.</ScaleHtml>
     <ScaleImage>Størrelsen (skalaen) til rapporten etter eksport. Jo mindre skalaen er, jo større er antall piksler per tomme og motsatt.</ScaleImage>
     <SendEMail>Send rapporten via e-post.</SendEMail>

@@ -2293,10 +2293,12 @@
     <Print>Jelentés nyomtatása.</Print>
     <PutFeedPageCode>Oldalak megjelölése a végső dokumentumban egy speciális karakterrel.</PutFeedPageCode>
     <RangePages>A feldolgozandó oldalak számai. Megadhat egyetlen oldalt, oldalak egy listáját (vesszőt használva elválasztó karakterként), valamint megadható tartomány, melyhez be kell állítani a kezdőoldalt, elválasztva a "-" karakterrel az utolsó oldaltól. Például: 1,3,5-12.</RangePages>
+    <RebuildReport>Újra elkészíti a jelentést az új oldalhoz, hogy az adatok kitöltsék az új oldalakat. Enélkül csak a már elkészült oldalak mérete változik. Fájlból megnyitott dokumentumnál nem érhető el.</RebuildReport>
     <RemoveEmptySpaceAtBottom>Az üres terület minimalizálása az oldal aljára.</RemoveEmptySpaceAtBottom>
     <Resources>Erőforrások megjelenítése.</Resources>
     <RestrictEditing>Változtatások korlátozása egy Word dokumentumban.</RestrictEditing>
     <Save>Jelentés mentése.</Save>
+    <ScaleContent>Átméretezi az összetevőket az oldallal együtt. Enélkül megtartják a méretüket és a helyüket.</ScaleContent>
     <ScaleHtml>A jelentés oldalainak és elemeinek mérete (méretezés) az exportálás után.</ScaleHtml>
     <ScaleImage>A mérete (méretezése) a jelentésnek az exportálás után. Ha kisebb a méretezés, akkor több pixel jut egy inchre, és fordítva.</ScaleImage>
     <SendEMail>Jelentés küldése e-mailben.</SendEMail>

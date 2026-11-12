@@ -2416,10 +2416,12 @@
     <Print>打印报表.</Print>
     <PutFeedPageCode>用指定字符在最终文档里插入页面.</PutFeedPageCode>
     <RangePages>处理页面数目. 你可以指定单一页面，页面列表(用逗号隔开), 或者指定范围，可通过设置范围的起始页和结束页，用 "-" 隔开。 例如: 1,3,5-12.</RangePages>
+    <RebuildReport>为新页面重新生成报表，使数据填满新页面。不选此项时，只改变已生成页面的大小。对从文件打开的文档不可用。</RebuildReport>
     <RemoveEmptySpaceAtBottom>最小化页面底部的空白空间.</RemoveEmptySpaceAtBottom>
     <Resources>显示资源.</Resources>
     <RestrictEditing>限制Word文档的变化.</RestrictEditing>
     <Save>保存报表.</Save>
+    <ScaleContent>随页面一起调整组件大小。不选此项时，组件保持原有大小和位置。</ScaleContent>
     <ScaleHtml>导出后报表页面和项的尺寸.</ScaleHtml>
     <ScaleImage>导出后报表的尺寸. 尺寸越小，每英寸的像素数越大，反之亦然.</ScaleImage>
     <SendEMail>通过邮件发送报表.</SendEMail>

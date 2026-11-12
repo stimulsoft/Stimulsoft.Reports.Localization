@@ -2413,10 +2413,12 @@
     <Print>Bericht drucken.</Print>
     <PutFeedPageCode>Das Seitenende in der Textdatei mit einem speziellen Zeichen markieren.</PutFeedPageCode>
     <RangePages>Seitennummern, welche verarbeitet werden sollen. Es kann eine einzelne Seite, eine kommagetrennte Liste von Seiten oder ein durch das "-"-Zeichen getrennter Bereich von Seiten angegeben werden. Beispiel: 1,3,5-12</RangePages>
+    <RebuildReport>Erstellt den Bericht für die neue Seite neu, sodass die Daten die neuen Seiten füllen. Ohne diese Option ändert sich nur die Größe der bereits erstellten Seiten. Nicht verfügbar für ein aus einer Datei geöffnetes Dokument.</RebuildReport>
     <RemoveEmptySpaceAtBottom>Unterdrückt den leeren Bereich am unteren Ende einer Berichtseite.</RemoveEmptySpaceAtBottom>
     <Resources>Ressourcen anzeigen.</Resources>
     <RestrictEditing>Limitiert die Bearbeitbarkeit von Text in einem Word Dokument.</RestrictEditing>
     <Save>Bericht speichern.</Save>
+    <ScaleContent>Passt die Größe der Komponenten an die Seite an. Ohne diese Option behalten sie ihre Größe und Position.</ScaleContent>
     <ScaleHtml>Die Skalierung der Berichtseiten beim Exportieren.</ScaleHtml>
     <ScaleImage>Die Skalierung des Bildes beim Export. Je tiefer der Wert, desto höher ist der Dpi-Wert des exportieren Bildes.</ScaleImage>
     <SendEMail>Bericht per E-Mail versenden.</SendEMail>

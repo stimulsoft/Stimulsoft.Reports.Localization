@@ -2413,10 +2413,12 @@
     <Print>Imprimer le rapport.</Print>
     <PutFeedPageCode>Utiliser un caractère spécial pour les sauts de pages dans le document.</PutFeedPageCode>
     <RangePages>Les numéros de pages à traiter. Vous pouvez spécifier un numéro de page unique, une liste de numéros de pages (séparés par des virgules), ou encore une plage de numéros de pages, en séparant la page de début et la page de fin par le caractère "-". Par exemple : 1,3,5-12.</RangePages>
+    <RebuildReport>Génère à nouveau le rapport pour la nouvelle page, afin que les données remplissent les nouvelles pages. Sinon, seule la taille des pages déjà générées change. Non disponible pour un document ouvert depuis un fichier.</RebuildReport>
     <RemoveEmptySpaceAtBottom>Minimiser l'espace vide à la fin de la page.</RemoveEmptySpaceAtBottom>
     <Resources>Afficher les ressources.</Resources>
     <RestrictEditing>Restreint les modifications à un document Word.</RestrictEditing>
     <Save>Enregistrer le rapport.</Save>
+    <ScaleContent>Redimensionne les composants avec la page. Sinon, ils gardent leur taille et leur position.</ScaleContent>
     <ScaleHtml>La taille (échelle) des pages du rapport et des éléments après l'export.</ScaleHtml>
     <ScaleImage>La taille (échelle) du rapport après l'export. Plus l'échelle est petite, plus le nombre de points par pouce est grand, et réciproquement.</ScaleImage>
     <SendEMail>Envoyer le rapport par e-mail.</SendEMail>

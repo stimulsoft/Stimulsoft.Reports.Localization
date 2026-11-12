@@ -2412,10 +2412,12 @@
     <Print>Skriv ut rapporten.</Print>
     <PutFeedPageCode>Mata sidor i det färdiga dokumentet med specialtecken.</PutFeedPageCode>
     <RangePages>Antal sidor att behandla. Du kan definiera om en enskild sida, ett antal sidor (kommatecken som separator), en sekvens av sidor genom att ange startsida och slutsida separerade med ett "-". Exempel: 1,3,5-12.</RangePages>
+    <RebuildReport>Bygger rapporten på nytt för den nya sidan, så att data fyller de nya sidorna. Utan detta ändras bara storleken på redan byggda sidor. Inte tillgängligt för ett dokument som öppnats från en fil.</RebuildReport>
     <RemoveEmptySpaceAtBottom>Minimera tomma utrymmen på botten av sidan.</RemoveEmptySpaceAtBottom>
     <Resources>Visa resurser.</Resources>
     <RestrictEditing>Begränsningar för ändringar i ett Worddokument</RestrictEditing>
     <Save>Spara rapporten.</Save>
+    <ScaleContent>Ändrar storlek på komponenterna tillsammans med sidan. Utan detta behåller de sin storlek och placering.</ScaleContent>
     <ScaleHtml>Storleken (skalan) på rapportsidor och komponenter efter export.</ScaleHtml>
     <ScaleImage>Storleken (skalan) på rapport efter export. Lägre skala ger större antal pixel per tum och tvärt om.</ScaleImage>
     <SendEMail>Skicka rapporten via e-post.</SendEMail>

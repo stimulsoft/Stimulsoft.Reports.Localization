@@ -2439,10 +2439,12 @@
     <Print>Tipăreşte raportul.</Print>
     <PutFeedPageCode>Alimentare pagini din documentul final, cu un caracter special.</PutFeedPageCode>
     <RangePages>Numerele de pagină pentru a fi prelucrate. Puteţi specifica o singură pagină, o lista de pagini (folosind virgula ca separator), precum şi precizarea unui interval,stabilind pagina de start separată prin "-" şi pagina de sfârşit. De exemplu: 1,3,5-12.</RangePages>
+    <RebuildReport>Generează din nou raportul pentru noua pagină, astfel încât datele să umple noile pagini. Fără această opțiune, se schimbă doar dimensiunea paginilor deja generate. Nu este disponibil pentru un document deschis dintr-un fișier.</RebuildReport>
     <RemoveEmptySpaceAtBottom>Reducerea spaţiului gol din partea de jos a paginii.</RemoveEmptySpaceAtBottom>
     <Resources>Arată resursele.</Resources>
     <RestrictEditing>Limitează modificările dintr-un document Word.</RestrictEditing>
     <Save>Salvează raportul.</Save>
+    <ScaleContent>Redimensionează componentele odată cu pagina. Fără această opțiune, își păstrează dimensiunea și poziția.</ScaleContent>
     <ScaleHtml>Dimensiunea (scala) paginii şi elementelor raportului după export.</ScaleHtml>
     <ScaleImage>Dimensiunea (scala) din raport după export.Cu cât dimensiunea este mai mică, cu atât mai mare este numărul de pixeli pe inch, si invers.</ScaleImage>
     <SendEMail>Trimite raportul prin e-mail.</SendEMail>

@@ -2414,10 +2414,12 @@
     <Print>レポートを印刷します。</Print>
     <PutFeedPageCode>最終的な文書のページに特殊文字を入力します。</PutFeedPageCode>
     <RangePages>処理されるページ番号。 単一のページ、ページのリスト（セパレータとしてコンマを使用）、および範囲の開始ページを " - "で区切って範囲を指定し、その範囲の最後のページを指定することができます。 例：1,3,5-12。</RangePages>
+    <RebuildReport>新しいページに合わせてレポートを再構築し、データが新しいページに配置されるようにします。オフの場合、構築済みのページのサイズだけが変わります。ファイルから開いたドキュメントでは使用できません。</RebuildReport>
     <RemoveEmptySpaceAtBottom>ページ下部の空きスペースを最小限に抑えます。</RemoveEmptySpaceAtBottom>
     <Resources>リソースを表示します。</Resources>
     <RestrictEditing>Word文書の変更の制限。</RestrictEditing>
     <Save>レポートを保存します。</Save>
+    <ScaleContent>ページに合わせてコンポーネントのサイズを変更します。オフの場合、コンポーネントのサイズと位置は変わりません。</ScaleContent>
     <ScaleHtml>エクスポート後のレポートページおよびアイテムのサイズ（スケール）。</ScaleHtml>
     <ScaleImage>エクスポート後のレポートのサイズ（縮尺）。 スケールが小さいほど、1インチあたりのピクセル数が多くなり、その逆もあります。</ScaleImage>
     <SendEMail>電子メールでレポートを送信します。</SendEMail>

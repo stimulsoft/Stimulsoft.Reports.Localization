@@ -2413,10 +2413,12 @@
     <Print>Wydrukuj raport.</Print>
     <PutFeedPageCode>Wstaw znak specjalny na stronach dokumentu końcowego. </PutFeedPageCode>
     <RangePages>Numery stron do przetworzenia. Można podać jedną stronę, listę stron (stosując przecinek jako znak rozdzielający), jak również podać zakres stron poprzez podanie strony początkowej i końcowej zakresu oddzielonych znakiem "-". Na przykład: 1,3,5-12. </RangePages>
+    <RebuildReport>Buduje raport od nowa dla nowej strony, aby dane wypełniły nowe strony. Bez tej opcji zmienia się tylko rozmiar już zbudowanych stron. Niedostępne dla dokumentu otwartego z pliku.</RebuildReport>
     <RemoveEmptySpaceAtBottom>Minimalizuj puste miejsce na dole strony. </RemoveEmptySpaceAtBottom>
     <Resources>Wyświetl zasoby.</Resources>
     <RestrictEditing>Ograniczenie zmian w dokumencie Word.</RestrictEditing>
     <Save>Zapisz raport.</Save>
+    <ScaleContent>Zmienia rozmiar komponentów razem ze stroną. Bez tej opcji zachowują swój rozmiar i położenie.</ScaleContent>
     <ScaleHtml>Rozmiar (skala) stron i elementów raportu po eksporcie. </ScaleHtml>
     <ScaleImage>Rozmiar (skala) raportu po eksporcie. Im mniejsza jest skala, tym większa jest liczba pikseli na cal i odwrotnie. </ScaleImage>
     <SendEMail>Wyślij raport przez e-mail.</SendEMail>

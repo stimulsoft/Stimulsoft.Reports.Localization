@@ -2414,10 +2414,12 @@
     <Print>Imprimir o relatório.</Print>
     <PutFeedPageCode>Separe as páginas do documento final com um carácter especial.</PutFeedPageCode>
     <RangePages>Os números das páginas a serem processados. Pode especificar uma única página, uma lista de páginas (usando uma vírgula como separador), bem como especificar um intervalo, definindo a página inicial do intervalo, um separador "-" e a página final do intervalo. Por exemplo: 1,3,5-12.</RangePages>
+    <RebuildReport>Gera novamente o relatório para a nova página, para que os dados preencham as novas páginas. Sem esta opção, apenas muda o tamanho das páginas já geradas. Não disponível para um documento aberto a partir de um ficheiro.</RebuildReport>
     <RemoveEmptySpaceAtBottom>Minimizar o espaço vazio na parte inferior da página.</RemoveEmptySpaceAtBottom>
     <Resources>Mostrar os recursos.</Resources>
     <RestrictEditing>Limites de alterações num documento do Word.</RestrictEditing>
     <Save>Gravar o relatório.</Save>
+    <ScaleContent>Redimensiona os componentes com a página. Sem esta opção, mantêm o seu tamanho e posição.</ScaleContent>
     <ScaleHtml>O tamanho (escala) de páginas de relatórios e itens após a exportação.</ScaleHtml>
     <ScaleImage>O tamanho (escala) do relatório após a exportação. Quanto menor a escala, maior o número de pixéis por polegada, e vice-versa.</ScaleImage>
     <SendEMail>Enviar o relatório por Email.</SendEMail>

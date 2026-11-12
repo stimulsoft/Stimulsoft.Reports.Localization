@@ -2413,10 +2413,12 @@
     <Print>Stampa il report.</Print>
     <PutFeedPageCode>Inserisce un carattere speciale di salto pagina.</PutFeedPageCode>
     <RangePages>Numero di pagine da processare. Puoi specificare una pagina singola, una lista di pagine (utilizzando la virgola come separatore), oppure un intervallo di pagine specificando la prima pagina dell'insieme separata da "-" e l'ultima pagina dell'insieme. Per esempio: 1,3,5-12.</RangePages>
+    <RebuildReport>Genera di nuovo il report per la nuova pagina, in modo che i dati riempiano le nuove pagine. Senza questa opzione cambia solo la dimensione delle pagine già generate. Non disponibile per un documento aperto da un file.</RebuildReport>
     <RemoveEmptySpaceAtBottom>Minimizza lo spazio vuoto in fondo alla pagina.</RemoveEmptySpaceAtBottom>
     <Resources>Mostra le risorse.</Resources>
     <RestrictEditing>Limita le modifiche sui documenti Word.</RestrictEditing>
     <Save>Salva il report.</Save>
+    <ScaleContent>Ridimensiona i componenti insieme alla pagina. Senza questa opzione mantengono dimensione e posizione.</ScaleContent>
     <ScaleHtml>La dimensione (scala) delle pagine e degli oggetti del report dopo l'esportazione.</ScaleHtml>
     <ScaleImage>La dimensione (scala) del report dopo l'esportazione. Minore è la scala, maggiore è il numero di pixel per pollice, e viceversa.</ScaleImage>
     <SendEMail>Invia il report via Email.</SendEMail>
