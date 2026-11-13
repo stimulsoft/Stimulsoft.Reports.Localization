@@ -5851,6 +5851,7 @@ Wiadomość e-mail została wysłana do "{0}". Zawiera ona link do potwierdzenia
     <LabelCheckAfterSheet>Nie sprawdzono, dopóki układ nie zmieści się na arkuszu</LabelCheckAfterSheet>
     <LabelCheckDots>Kreski drukują się równomiernie</LabelCheckDots>
     <LabelCheckDotsDetail>Moduł {0} przy {1} DPI, minimum to {2}</LabelCheckDotsDetail>
+    <LabelCheckDotsModuleDetail>Punktów na moduł: {0} przy {1} DPI ({2}), minimum to {3}</LabelCheckDotsModuleDetail>
     <LabelCheckDotsProblem>Kreski są zbyt cienkie dla skanerów</LabelCheckDotsProblem>
     <LabelCheckHeight>Zawartość mieści się w wysokości etykiety</LabelCheckHeight>
     <LabelCheckHeightDetail>{0} z {1}</LabelCheckHeightDetail>
@@ -5877,6 +5878,7 @@ Wiadomość e-mail została wysłana do "{0}". Zawiera ona link do potwierdzenia
     <LabelCheckWidth>Kod kreskowy i strefy ciszy mieszczą się</LabelCheckWidth>
     <LabelCheckWidthDetail>{0} z {1} szerokości</LabelCheckWidthDetail>
     <LabelCheckWidthProblem>Kod kreskowy jest szerszy niż etykieta</LabelCheckWidthProblem>
+    <LabelCheckWidthRecordDetail>Rekord {0} z {1}: {2} z {3} szerokości</LabelCheckWidthRecordDetail>
     <LabelCornerText>Tekst w rogu</LabelCornerText>
     <LabelDirection>Kierunek:</LabelDirection>
     <LabelDots>punkty</LabelDots>
@@ -5891,11 +5893,13 @@ Wiadomość e-mail została wysłana do "{0}". Zawiera ona link do potwierdzenia
     <LabelPreviewCaption>Etykieta {0} w rzeczywistych proporcjach</LabelPreviewCaption>
     <LabelPrinterResolution>Rozdzielczość drukarki</LabelPrinterResolution>
     <LabelPrintTestPage>Drukuj stronę testową</LabelPrintTestPage>
+    <LabelQuietZones>Strefy ciszy</LabelQuietZones>
     <LabelReadyToPrint>Etykiety: {0}, arkusze: {1}</LabelReadyToPrint>
     <LabelReport>Raport z etykietami</LabelReport>
     <LabelSettings>Ustawienia etykiety</LabelSettings>
     <LabelSize>Rozmiar:</LabelSize>
     <LabelStartHere>Drukowanie zaczyna się tutaj</LabelStartHere>
+    <LabelStartsAt>Zaczyna od etykiety {0}</LabelStartsAt>
     <LabelTestPageOutlines>Drukuj kontury etykiet na stronie testowej</LabelTestPageOutlines>
     <LabelTopMargin>Górny margines:</LabelTopMargin>
     <LabelVerticalGap>Odstęp pionowy:</LabelVerticalGap>

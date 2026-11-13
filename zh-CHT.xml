@@ -5851,6 +5851,7 @@
     <LabelCheckAfterSheet>版面配置符合紙張前不進行檢查</LabelCheckAfterSheet>
     <LabelCheckDots>線條列印均勻</LabelCheckDots>
     <LabelCheckDotsDetail>模組 {0},{1} DPI,最小值 {2}</LabelCheckDotsDetail>
+    <LabelCheckDotsModuleDetail>每模組點數: {0}，{1} DPI ({2})，最小值 {3}</LabelCheckDotsModuleDetail>
     <LabelCheckDotsProblem>線條太細,掃描器無法辨識</LabelCheckDotsProblem>
     <LabelCheckHeight>內容符合標籤高度</LabelCheckHeight>
     <LabelCheckHeightDetail>{0} / {1}</LabelCheckHeightDetail>
@@ -5877,6 +5878,7 @@
     <LabelCheckWidth>條碼和靜區可以容納</LabelCheckWidth>
     <LabelCheckWidthDetail>寬度 {0} / {1}</LabelCheckWidthDetail>
     <LabelCheckWidthProblem>條碼比標籤寬</LabelCheckWidthProblem>
+    <LabelCheckWidthRecordDetail>記錄 {0}/{1}: 寬 {2} / {3}</LabelCheckWidthRecordDetail>
     <LabelCornerText>角落文字</LabelCornerText>
     <LabelDirection>說明:</LabelDirection>
     <LabelDots>點</LabelDots>
@@ -5891,11 +5893,13 @@
     <LabelPreviewCaption>標籤 {0} (實際比例)</LabelPreviewCaption>
     <LabelPrinterResolution>印表機解析度</LabelPrinterResolution>
     <LabelPrintTestPage>列印測試頁</LabelPrintTestPage>
+    <LabelQuietZones>靜區</LabelQuietZones>
     <LabelReadyToPrint>標籤: {0},紙張: {1}</LabelReadyToPrint>
     <LabelReport>報表標籤</LabelReport>
     <LabelSettings>標籤設置</LabelSettings>
     <LabelSize>尺寸:</LabelSize>
     <LabelStartHere>從此處開始列印</LabelStartHere>
+    <LabelStartsAt>從標籤 {0} 開始</LabelStartsAt>
     <LabelTestPageOutlines>在測試頁上列印標籤輪廓</LabelTestPageOutlines>
     <LabelTopMargin>上邊距:</LabelTopMargin>
     <LabelVerticalGap>垂直間距:</LabelVerticalGap>

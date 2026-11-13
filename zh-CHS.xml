@@ -5869,6 +5869,7 @@
     <LabelCheckAfterSheet>布局适合纸张之前不进行检查</LabelCheckAfterSheet>
     <LabelCheckDots>线条打印均匀</LabelCheckDots>
     <LabelCheckDotsDetail>模块 {0},{1} DPI,最小值 {2}</LabelCheckDotsDetail>
+    <LabelCheckDotsModuleDetail>每模块点数: {0}，{1} DPI ({2})，最小值 {3}</LabelCheckDotsModuleDetail>
     <LabelCheckDotsProblem>线条太细,扫描仪无法识别</LabelCheckDotsProblem>
     <LabelCheckHeight>内容适合标签高度</LabelCheckHeight>
     <LabelCheckHeightDetail>{0} / {1}</LabelCheckHeightDetail>
@@ -5895,6 +5896,7 @@
     <LabelCheckWidth>条形码和静区可以容纳</LabelCheckWidth>
     <LabelCheckWidthDetail>宽度 {0} / {1}</LabelCheckWidthDetail>
     <LabelCheckWidthProblem>条形码比标签宽</LabelCheckWidthProblem>
+    <LabelCheckWidthRecordDetail>记录 {0}/{1}: 宽 {2} / {3}</LabelCheckWidthRecordDetail>
     <LabelCornerText>角落文本</LabelCornerText>
     <LabelDirection>说明:</LabelDirection>
     <LabelDots>点</LabelDots>
@@ -5909,11 +5911,13 @@
     <LabelPreviewCaption>标签 {0} (实际比例)</LabelPreviewCaption>
     <LabelPrinterResolution>打印机分辨率</LabelPrinterResolution>
     <LabelPrintTestPage>打印测试页</LabelPrintTestPage>
+    <LabelQuietZones>静区</LabelQuietZones>
     <LabelReadyToPrint>标签: {0},纸张: {1}</LabelReadyToPrint>
     <LabelReport>报表标签</LabelReport>
     <LabelSettings>标签设置</LabelSettings>
     <LabelSize>尺寸:</LabelSize>
     <LabelStartHere>从此处开始打印</LabelStartHere>
+    <LabelStartsAt>从标签 {0} 开始</LabelStartsAt>
     <LabelTestPageOutlines>在测试页上打印标签轮廓</LabelTestPageOutlines>
     <LabelTopMargin>上边距:</LabelTopMargin>
     <LabelVerticalGap>垂直间距:</LabelVerticalGap>

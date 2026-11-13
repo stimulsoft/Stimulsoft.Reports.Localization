@@ -5822,6 +5822,7 @@ Enviouse un correo electrónico a "{0}". Contén unha ligazón para confirmar o 
     <LabelCheckAfterSheet>Non comprobado ata que a disposición caiba na folla</LabelCheckAfterSheet>
     <LabelCheckDots>As barras imprímense uniformes</LabelCheckDots>
     <LabelCheckDotsDetail>Módulo {0} a {1} DPI, o mínimo é {2}</LabelCheckDotsDetail>
+    <LabelCheckDotsModuleDetail>Puntos por módulo: {0} a {1} DPI ({2}), o mínimo é {3}</LabelCheckDotsModuleDetail>
     <LabelCheckDotsProblem>As barras son demasiado finas para os escáneres</LabelCheckDotsProblem>
     <LabelCheckHeight>O contido cabe na altura da etiqueta</LabelCheckHeight>
     <LabelCheckHeightDetail>{0} de {1}</LabelCheckHeightDetail>
@@ -5848,6 +5849,7 @@ Enviouse un correo electrónico a "{0}". Contén unha ligazón para confirmar o 
     <LabelCheckWidth>O código de barras e as zonas de silencio caben</LabelCheckWidth>
     <LabelCheckWidthDetail>{0} de {1} de ancho</LabelCheckWidthDetail>
     <LabelCheckWidthProblem>O código de barras é máis ancho cá etiqueta</LabelCheckWidthProblem>
+    <LabelCheckWidthRecordDetail>Rexistro {0} de {1}: {2} de {3} de ancho</LabelCheckWidthRecordDetail>
     <LabelCornerText>Texto de Esquina</LabelCornerText>
     <LabelDirection>Dirección:</LabelDirection>
     <LabelDots>puntos</LabelDots>
@@ -5862,11 +5864,13 @@ Enviouse un correo electrónico a "{0}". Contén unha ligazón para confirmar o 
     <LabelPreviewCaption>Etiqueta {0} a Proporcións Reais</LabelPreviewCaption>
     <LabelPrinterResolution>Resolución da Impresora</LabelPrinterResolution>
     <LabelPrintTestPage>Imprimir Páxina de Proba</LabelPrintTestPage>
+    <LabelQuietZones>Zonas de Silencio</LabelQuietZones>
     <LabelReadyToPrint>Etiquetas: {0}, Follas: {1}</LabelReadyToPrint>
     <LabelReport>Informe de Etiquetas</LabelReport>
     <LabelSettings>Configuración de Etiquetas</LabelSettings>
     <LabelSize>Tamaño:</LabelSize>
     <LabelStartHere>A Impresión Comeza Aquí</LabelStartHere>
+    <LabelStartsAt>Comeza na Etiqueta {0}</LabelStartsAt>
     <LabelTestPageOutlines>Contornos na Páxina de Proba</LabelTestPageOutlines>
     <LabelTopMargin>Marxe Superior:</LabelTopMargin>
     <LabelVerticalGap>Espazado Vertical:</LabelVerticalGap>
