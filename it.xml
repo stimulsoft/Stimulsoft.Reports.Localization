@@ -2600,8 +2600,13 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>Il timeout della richiesta per le query SQL supera il timeout della richiesta del designer di report. Imposta il timeout della richiesta per il componente designer non inferiore a {0} secondi.</ChangeRequestTimeout>
+    <DatabaseAlreadyExists>Il database esiste già</DatabaseAlreadyExists>
+    <DatabaseAlreadyExistsAddTables>Esiste già un database con questo nome. Si desidera aggiungervi delle tabelle?</DatabaseAlreadyExistsAddTables>
     <DatabaseTypeChangeWarning>Attenzione! Questa funzione converte l'origine dati in {0}. Per recuperare correttamente i dati, tutti i nomi di tabelle e colonne devono corrispondere. Le query non saranno convertite. Vuoi procedere?</DatabaseTypeChangeWarning>
+    <DeleteColumnPermanently>Si desidera davvero eliminare la colonna selezionata '{0}'? La colonna e tutti i suoi dati verranno eliminati definitivamente e non potranno essere recuperati.</DeleteColumnPermanently>
     <DoNotShowAgain>Non mostrare più</DoNotShowAgain>
+    <ImportNotComplete>L'importazione non è completata</ImportNotComplete>
+    <ImportNotCompleteStop>Il processo di importazione dei dati non è ancora completato. Si desidera interromperlo?</ImportNotCompleteStop>
     <LatexFormat>Il formato LaTeX viene utilizzato per visualizzare formule matematiche.</LatexFormat>
     <MessageTimeOutExpired>Timeout del comando raggiunto!</MessageTimeOutExpired>
     <MustBeFile>Deve essere un file {0}.</MustBeFile>

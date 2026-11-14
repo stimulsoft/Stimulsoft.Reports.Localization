@@ -2478,7 +2478,12 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>Az SQL lekérdezések iránti kérés időtúllépése meghaladja a jelentésmegjelenítő kérés időtúllépését. Állítsd be a megjelenítő komponens kérelmének időtúllépését legalább {0} másodpercre!</ChangeRequestTimeout>
+    <DatabaseAlreadyExists>Az adatbázis már létezik</DatabaseAlreadyExists>
+    <DatabaseAlreadyExistsAddTables>Már létezik ilyen nevű adatbázis. Szeretne táblákat hozzáadni?</DatabaseAlreadyExistsAddTables>
+    <DeleteColumnPermanently>Biztosan törölni szeretné a kijelölt '{0}' oszlopot? Az oszlop és minden adata véglegesen törlődik, és nem állítható vissza.</DeleteColumnPermanently>
     <DoNotShowAgain>Ne mutassa többé</DoNotShowAgain>
+    <ImportNotComplete>Az importálás nem fejeződött be</ImportNotComplete>
+    <ImportNotCompleteStop>Az adatimportálás még nem fejeződött be. Szeretné leállítani?</ImportNotCompleteStop>
     <LatexFormat>A LaTeX formátumot a matematikai egyenletek megjelenítésére használjuk.</LatexFormat>
     <MessageTimeOutExpired>A parancs időtúllépés lejárt!</MessageTimeOutExpired>
     <RenderingWillOccurInTheInterpretationMode>A megosztott jelentés megtekintésekor a megjelenítés értelmezési módban történik</RenderingWillOccurInTheInterpretationMode>

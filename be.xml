@@ -2600,8 +2600,13 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>Час чакання для SQL запытаў перавышае час чакання запытаў дызайнера. Усталюеце час чакання запытаў дызайнера не менш {0} секундаў.</ChangeRequestTimeout>
+    <DatabaseAlreadyExists>База даных ужо існуе</DatabaseAlreadyExists>
+    <DatabaseAlreadyExistsAddTables>База даных з такой назвай ужо існуе. Дадаць у яе табліцы?</DatabaseAlreadyExistsAddTables>
     <DatabaseTypeChangeWarning>Будзьце асцярожныя! Гэта функцыя ператворыць крыніцу дадзеных у {0}. Для паспяховага атрымання дадзеных усе імёны табліц і калонак павінны супадаць. Запыты не будуць ператвораны. Вы хочаце працягнуць?</DatabaseTypeChangeWarning>
+    <DeleteColumnPermanently>Вы ўпэўнены, што хочаце выдаліць вылучаны слупок '{0}'? Слупок і ўсе яго даныя будуць выдалены беззваротна, і іх нельга будзе аднавіць.</DeleteColumnPermanently>
     <DoNotShowAgain>Не паказваць ізноў</DoNotShowAgain>
+    <ImportNotComplete>Імпарт не завершаны</ImportNotComplete>
+    <ImportNotCompleteStop>Імпарт даных яшчэ не завершаны. Спыніць яго?</ImportNotCompleteStop>
     <LatexFormat>Фармат LaTeX выкарыстоўваецца для адлюстравання матэматычных формул.</LatexFormat>
     <MessageTimeOutExpired>Мінула час чакання выканання каманды!</MessageTimeOutExpired>
     <MustBeFile>Павінен быць файл {0}.</MustBeFile>

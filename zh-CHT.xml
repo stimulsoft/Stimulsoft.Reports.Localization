@@ -2601,8 +2601,13 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>SQL 查詢的要求逾時超過報表設計器的要求逾時。請將設計器元件的要求逾時設定為不少於 {0} 秒。</ChangeRequestTimeout>
+    <DatabaseAlreadyExists>資料庫已存在</DatabaseAlreadyExists>
+    <DatabaseAlreadyExistsAddTables>已存在同名資料庫。是否要向其中新增資料表？</DatabaseAlreadyExistsAddTables>
     <DatabaseTypeChangeWarning>請注意！此功能會將資料來源轉換為 {0}。若要成功擷取資料，所有表格與欄名稱必須相符。查詢將不會被轉換。要繼續嗎？</DatabaseTypeChangeWarning>
+    <DeleteColumnPermanently>確定要刪除所選欄 '{0}' 嗎？該欄及其所有資料將被永久刪除，且無法復原。</DeleteColumnPermanently>
     <DoNotShowAgain>不再顯示</DoNotShowAgain>
+    <ImportNotComplete>匯入尚未完成</ImportNotComplete>
+    <ImportNotCompleteStop>資料匯入程序尚未完成。是否要停止？</ImportNotCompleteStop>
     <LatexFormat>LaTeX 格式用於顯示數學公式。</LatexFormat>
     <MessageTimeOutExpired>命令已逾時！</MessageTimeOutExpired>
     <MustBeFile>必須是 {0} 檔案。</MustBeFile>

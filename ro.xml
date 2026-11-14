@@ -2632,8 +2632,13 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>Interogările SQL depășesc timpul de așteptare al solicitantului de raport. Setați tipul de așteptare pentru componenta de designer nu mai puțin de {0} secunde.</ChangeRequestTimeout>
+    <DatabaseAlreadyExists>Baza de date există deja</DatabaseAlreadyExists>
+    <DatabaseAlreadyExistsAddTables>Există deja o bază de date cu acest nume. Doriți să adăugați tabele în ea?</DatabaseAlreadyExistsAddTables>
     <DatabaseTypeChangeWarning>Atenție! Această funcție transformă sursa de date în {0}. Pentru a prelua datele cu succes, toate numele tabelelor și coloanelor trebuie să se potrivească. Interogările nu vor fi convertite. Continuați?</DatabaseTypeChangeWarning>
+    <DeleteColumnPermanently>Sigur doriți să ștergeți coloana selectată '{0}'? Coloana și toate datele ei vor fi șterse definitiv și nu vor putea fi recuperate.</DeleteColumnPermanently>
     <DoNotShowAgain>Nu se afișează din nou</DoNotShowAgain>
+    <ImportNotComplete>Importul nu s-a încheiat</ImportNotComplete>
+    <ImportNotCompleteStop>Procesul de import al datelor nu s-a încheiat încă. Doriți să îl opriți?</ImportNotCompleteStop>
     <LatexFormat>Formatul LaTeX este utilizat pentru a afișa formule matematice.</LatexFormat>
     <MessageTimeOutExpired>Timp comandă expirat!</MessageTimeOutExpired>
     <MustBeFile>Trebuie să fie fișierul {0} .</MustBeFile>

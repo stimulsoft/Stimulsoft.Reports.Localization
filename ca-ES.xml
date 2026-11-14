@@ -2599,8 +2599,13 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>El temps d'espera de la sol·licitud per a les consultes SQL supera el temps d'espera de la sol·licitud del dissenyador d'informes. Establiu el temps d'espera de la sol·licitud per al component del dissenyador a no menys de {0} segons.</ChangeRequestTimeout>
+    <DatabaseAlreadyExists>La base de dades ja existeix</DatabaseAlreadyExists>
+    <DatabaseAlreadyExistsAddTables>Ja existeix una base de dades amb aquest nom. Voleu afegir-hi taules?</DatabaseAlreadyExistsAddTables>
     <DatabaseTypeChangeWarning>Aneu amb compte! Aquesta funció converteix la font de dades a {0}. Per recuperar les dades correctament, tots els noms de taules i columnes han de coincidir. Les consultes no es convertiran. Voleu continuar?</DatabaseTypeChangeWarning>
+    <DeleteColumnPermanently>Segur que voleu suprimir la columna seleccionada '{0}'? La columna i totes les seves dades se suprimiran permanentment i no es podran recuperar.</DeleteColumnPermanently>
     <DoNotShowAgain>No ho tornis a mostrar</DoNotShowAgain>
+    <ImportNotComplete>La importació no s'ha completat</ImportNotComplete>
+    <ImportNotCompleteStop>El procés d'importació de dades encara no s'ha completat. Voleu aturar-lo?</ImportNotCompleteStop>
     <LatexFormat>El format LaTeX s'utilitza per mostrar fórmules matemàtiques.</LatexFormat>
     <MessageTimeOutExpired>El temps d'espera de l'ordre ha expirat!</MessageTimeOutExpired>
     <MustBeFile>Ha de ser un fitxer {0}.</MustBeFile>

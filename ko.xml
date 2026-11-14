@@ -2601,8 +2601,13 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>SQL 쿼리 요청 제한 시간이 보고서 디자이너의 요구 타임 아웃을 초과합니다. 디자이너 구성 요소의 요구 타임 아웃을 {0} 초 이상으로 설정합니다.</ChangeRequestTimeout>
+    <DatabaseAlreadyExists>데이터베이스가 이미 있습니다</DatabaseAlreadyExists>
+    <DatabaseAlreadyExistsAddTables>이 이름의 데이터베이스가 이미 있습니다. 테이블을 추가하시겠습니까?</DatabaseAlreadyExistsAddTables>
     <DatabaseTypeChangeWarning>주의하세요! 이 함수는 데이터소스를 {0}(으)로 변환합니다. 데이터를 성공적으로 검색하려면 모든 테이블과 열 이름이 일치해야 합니다. 쿼리는 변환되지 않습니다. 계속하시겠습니까?</DatabaseTypeChangeWarning>
+    <DeleteColumnPermanently>선택한 열 '{0}'을(를) 삭제하시겠습니까? 열과 모든 데이터가 영구적으로 삭제되며 복구할 수 없습니다.</DeleteColumnPermanently>
     <DoNotShowAgain>다시 표시하지 않음</DoNotShowAgain>
+    <ImportNotComplete>가져오기가 완료되지 않았습니다</ImportNotComplete>
+    <ImportNotCompleteStop>데이터 가져오기 프로세스가 아직 완료되지 않았습니다. 중지하시겠습니까?</ImportNotCompleteStop>
     <LatexFormat>LaTeX 형식은 수학 공식을 표시하는 데 사용됩니다.</LatexFormat>
     <MessageTimeOutExpired>명령 제한 시간이 만료되었습니다!</MessageTimeOutExpired>
     <MustBeFile>{0} 파일이어야 합니다.</MustBeFile>

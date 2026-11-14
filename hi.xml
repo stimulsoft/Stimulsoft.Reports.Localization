@@ -2599,8 +2599,13 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>SQL क्वेरी के लिए अनुरोध टाइमआउट रिपोर्ट डिज़ाइनर के अनुरोध टाइमआउट से अधिक है। डिज़ाइनर घटक के लिए अनुरोध टाइमआउट को कम से कम {0} सेकंड पर सेट करें।</ChangeRequestTimeout>
+    <DatabaseAlreadyExists>डेटाबेस पहले से मौजूद है</DatabaseAlreadyExists>
+    <DatabaseAlreadyExistsAddTables>इस नाम का डेटाबेस पहले से मौजूद है। क्या आप इसमें तालिकाएँ जोड़ना चाहते हैं?</DatabaseAlreadyExistsAddTables>
     <DatabaseTypeChangeWarning>सावधान रहें! यह फ़ंक्शन डेटा स्रोत को {0} में बदल देता है। डेटा को सफलतापूर्वक प्राप्त करने के लिए, सभी तालिका और कॉलम नाम मेल खाने चाहिए। क्वेरी परिवर्तित नहीं होंगी। क्या आप आगे बढ़ना चाहते हैं?</DatabaseTypeChangeWarning>
+    <DeleteColumnPermanently>क्या आप वाकई चयनित कॉलम '{0}' को हटाना चाहते हैं? कॉलम और उसका सारा डेटा स्थायी रूप से हटा दिया जाएगा और उसे पुनर्प्राप्त नहीं किया जा सकेगा।</DeleteColumnPermanently>
     <DoNotShowAgain>फिर से न दिखाएँ</DoNotShowAgain>
+    <ImportNotComplete>आयात पूरा नहीं हुआ है</ImportNotComplete>
+    <ImportNotCompleteStop>डेटा आयात की प्रक्रिया अभी पूरी नहीं हुई है। क्या आप इसे रोकना चाहते हैं?</ImportNotCompleteStop>
     <LatexFormat>LaTeX प्रारूप का उपयोग गणितीय सूत्र प्रदर्शित करने के लिए किया जाता है।</LatexFormat>
     <MessageTimeOutExpired>कमांड टाइमआउट समाप्त हो गया है!</MessageTimeOutExpired>
     <MustBeFile>{0} फ़ाइल होनी चाहिए।</MustBeFile>

@@ -2601,8 +2601,13 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>SQLクエリの要求タイムアウトが、レポートデザイナの要求タイムアウトを超えています。 デザイナー部品の要求タイムアウトを{0}秒以上に設定します。</ChangeRequestTimeout>
+    <DatabaseAlreadyExists>データベースは既に存在します</DatabaseAlreadyExists>
+    <DatabaseAlreadyExistsAddTables>この名前のデータベースは既に存在します。テーブルを追加しますか？</DatabaseAlreadyExistsAddTables>
     <DatabaseTypeChangeWarning>注意してください！この関数はデータソースを{0}に変換します。データを正常に取得するには、すべてのテーブル名と列名が一致する必要があります。クエリは変換されません。続行しますか？</DatabaseTypeChangeWarning>
+    <DeleteColumnPermanently>選択した列 '{0}' を削除してもよろしいですか？列とそのデータはすべて完全に削除され、復元できません。</DeleteColumnPermanently>
     <DoNotShowAgain>再び表示しない</DoNotShowAgain>
+    <ImportNotComplete>インポートが完了していません</ImportNotComplete>
+    <ImportNotCompleteStop>データのインポート処理はまだ完了していません。中止しますか？</ImportNotCompleteStop>
     <LatexFormat>LaTeX形式は、数式を表示するために使用されます。</LatexFormat>
     <MessageTimeOutExpired>コマンドのタイムアウトが切れました！</MessageTimeOutExpired>
     <MustBeFile>{0}ファイルでなければならない。</MustBeFile>

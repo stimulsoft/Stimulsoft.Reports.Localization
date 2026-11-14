@@ -2599,8 +2599,13 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>Batas waktu permintaan untuk kueri SQL melebihi batas waktu permintaan perancang laporan. Setel batas waktu permintaan untuk komponen desainer tidak kurang dari {0} detik.</ChangeRequestTimeout>
+    <DatabaseAlreadyExists>Database sudah ada</DatabaseAlreadyExists>
+    <DatabaseAlreadyExistsAddTables>Database dengan nama ini sudah ada. Apakah Anda ingin menambahkan tabel ke dalamnya?</DatabaseAlreadyExistsAddTables>
     <DatabaseTypeChangeWarning>Hati-hati! Fungsi ini mengonversi sumber data menjadi {0}. Untuk berhasil mengambil data, semua nama tabel dan kolom harus cocok. Kueri tidak akan dikonversi. Apakah Anda ingin melanjutkan?</DatabaseTypeChangeWarning>
+    <DeleteColumnPermanently>Apakah Anda yakin ingin menghapus kolom '{0}' yang dipilih? Kolom dan semua datanya akan dihapus secara permanen dan tidak dapat dipulihkan.</DeleteColumnPermanently>
     <DoNotShowAgain>Jangan tunjukkan lagi</DoNotShowAgain>
+    <ImportNotComplete>Impor belum selesai</ImportNotComplete>
+    <ImportNotCompleteStop>Proses impor data belum selesai. Apakah Anda ingin menghentikannya?</ImportNotCompleteStop>
     <LatexFormat>Format LaTeX digunakan untuk menampilkan rumus matematika.</LatexFormat>
     <MessageTimeOutExpired>Command batas waktu telah berakhir!</MessageTimeOutExpired>
     <MustBeFile>Harus berupa file {0}.</MustBeFile>

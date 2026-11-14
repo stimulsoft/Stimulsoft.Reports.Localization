@@ -2599,8 +2599,13 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>Tidsgränsen för SQL-frågor överskrider tidsgränsen för rapportdesignern. Ställ in tidsgränsen för designerkomponenten till minst {0} sekunder.</ChangeRequestTimeout>
+    <DatabaseAlreadyExists>Databasen finns redan</DatabaseAlreadyExists>
+    <DatabaseAlreadyExistsAddTables>Det finns redan en databas med det här namnet. Vill du lägga till tabeller i den?</DatabaseAlreadyExistsAddTables>
     <DatabaseTypeChangeWarning>Var försiktig! Den här funktionen konverterar datakällan till {0}. För att data ska kunna hämtas korrekt måste alla tabell- och kolumnnamn stämma överens. Frågor konverteras inte. Vill du fortsätta?</DatabaseTypeChangeWarning>
+    <DeleteColumnPermanently>Vill du verkligen ta bort den markerade kolumnen '{0}'? Kolumnen och alla dess data tas bort permanent och kan inte återställas.</DeleteColumnPermanently>
     <DoNotShowAgain>Visa inte igen</DoNotShowAgain>
+    <ImportNotComplete>Importen är inte klar</ImportNotComplete>
+    <ImportNotCompleteStop>Dataimporten är inte klar ännu. Vill du stoppa den?</ImportNotCompleteStop>
     <LatexFormat>LaTeX-formatet används för att visa matematiska formler.</LatexFormat>
     <MessageTimeOutExpired>Kommandots tidsgräns har löpt ut!</MessageTimeOutExpired>
     <MustBeFile>Måste vara en {0}-fil.</MustBeFile>

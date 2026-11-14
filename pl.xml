@@ -2600,8 +2600,13 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>Limit czasu żądania dla zapytań SQL przekracza limit czasu żądania designera. Ustaw limit czasu żądania dla komponentu designera na nie mniej niż {0} sekund.</ChangeRequestTimeout>
+    <DatabaseAlreadyExists>Baza danych już istnieje</DatabaseAlreadyExists>
+    <DatabaseAlreadyExistsAddTables>Baza danych o tej nazwie już istnieje. Czy chcesz dodać do niej tabele?</DatabaseAlreadyExistsAddTables>
     <DatabaseTypeChangeWarning>Uwaga! Ta funkcja konwertuje źródło danych na {0}. Aby pomyślnie pobrać dane, wszystkie nazwy tabel i kolumn muszą być zgodne. Zapytania nie zostaną przekonwertowane. Czy chcesz kontynuować?</DatabaseTypeChangeWarning>
+    <DeleteColumnPermanently>Czy na pewno chcesz usunąć zaznaczoną kolumnę '{0}'? Kolumna i wszystkie jej dane zostaną trwale usunięte i nie będzie można ich odzyskać.</DeleteColumnPermanently>
     <DoNotShowAgain>Nie pokazuj ponownie</DoNotShowAgain>
+    <ImportNotComplete>Import nie został zakończony</ImportNotComplete>
+    <ImportNotCompleteStop>Proces importu danych nie został jeszcze zakończony. Czy chcesz go zatrzymać?</ImportNotCompleteStop>
     <LatexFormat>Format LaTeX służy do wyświetlania formuł matematycznych.</LatexFormat>
     <MessageTimeOutExpired>Upłynął limit czasu polecenia!</MessageTimeOutExpired>
     <MustBeFile>Musi być plikiem {0}.</MustBeFile>

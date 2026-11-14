@@ -2611,8 +2611,13 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>Časový limit žiadosti o SQL dopyty presahuje časový limit žiadosti dizajnéra zostáv. Nastavte časový limit žiadosti pre dizajnér nie menej ako {0} sekúnd.</ChangeRequestTimeout>
+    <DatabaseAlreadyExists>Databáza už existuje</DatabaseAlreadyExists>
+    <DatabaseAlreadyExistsAddTables>Databáza s týmto názvom už existuje. Chcete do nej pridať tabuľky?</DatabaseAlreadyExistsAddTables>
     <DatabaseTypeChangeWarning>Buďte opatrný! Táto funkcia konvertuje zdroj údajov na {0}. Na úspešné načítanie údajov sa musia všetky názvy tabuliek a stĺpcov zhodovať. Dopyty nebudú konvertované. Chcete pokračovať?</DatabaseTypeChangeWarning>
+    <DeleteColumnPermanently>Naozaj chcete odstrániť vybraný stĺpec '{0}'? Stĺpec a všetky jeho údaje budú natrvalo odstránené a nebude ich možné obnoviť.</DeleteColumnPermanently>
     <DoNotShowAgain>Znovu nezobrazovať</DoNotShowAgain>
+    <ImportNotComplete>Import nie je dokončený</ImportNotComplete>
+    <ImportNotCompleteStop>Proces importu údajov ešte nie je dokončený. Chcete ho zastaviť?</ImportNotCompleteStop>
     <LatexFormat>Na zobrazenie matematických vzorcov sa používa formát LaTeX.</LatexFormat>
     <MessageTimeOutExpired>Časový limit uplynul!</MessageTimeOutExpired>
     <MustBeFile>Musí to byť {0} súbor.</MustBeFile>

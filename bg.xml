@@ -2610,8 +2610,13 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>Времето на заявката за SQL командите надхвърля времето за изчакване на заявката на дизайнера на отчета. Задайте срока на заявката за дизайнерския компонент за не по-малко от {0} секунди.</ChangeRequestTimeout>
+    <DatabaseAlreadyExists>Базата данни вече съществува</DatabaseAlreadyExists>
+    <DatabaseAlreadyExistsAddTables>База данни с това име вече съществува. Искате ли да добавите таблици към нея?</DatabaseAlreadyExistsAddTables>
     <DatabaseTypeChangeWarning>Бъдете внимателени! Тази функция преобразува източника на данни в {0}. За успешно извличане на данни всички имена на таблици и колони трябва да съвпадат. Заявките няма да бъдат конвертирани. Искате ли да продължите?</DatabaseTypeChangeWarning>
+    <DeleteColumnPermanently>Наистина ли искате да изтриете избраната колона '{0}'? Колоната и всички нейни данни ще бъдат изтрити окончателно и не могат да бъдат възстановени.</DeleteColumnPermanently>
     <DoNotShowAgain>Не показвай отново</DoNotShowAgain>
+    <ImportNotComplete>Импортирането не е завършено</ImportNotComplete>
+    <ImportNotCompleteStop>Процесът на импортиране на данни все още не е завършен. Искате ли да го спрете?</ImportNotCompleteStop>
     <LatexFormat>Форматът LaTeX се използва за показване на математически формули.</LatexFormat>
     <MessageTimeOutExpired>Командата за изчакване е изтекла!</MessageTimeOutExpired>
     <MustBeFile>Трябва да е {0} файл.</MustBeFile>

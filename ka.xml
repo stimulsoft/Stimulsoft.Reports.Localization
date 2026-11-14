@@ -2626,8 +2626,13 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>SQL მოთხვნათა შესრულების დრო აჭარბებს რეპორტების დიზაინერში მითითებულ მაქსიმალურ დროს. გთხოვთ დიზაინერში მიუთითოთ არანაკლებ {0} წამისა.</ChangeRequestTimeout>
+    <DatabaseAlreadyExists>მონაცემთა ბაზა უკვე არსებობს</DatabaseAlreadyExists>
+    <DatabaseAlreadyExistsAddTables>ამ სახელის მქონე მონაცემთა ბაზა უკვე არსებობს. გსურთ მასში ცხრილების დამატება?</DatabaseAlreadyExistsAddTables>
     <DatabaseTypeChangeWarning>ყურადღება! ეს ფუნქცია გარდაქმნის მონაცემთა წყაროს {0}. მონაცემთა წარმატებული მიღებისთვის ყველა ცხრილი და სვეტების სახელები უნდა იყოს იდენტური. მოთხოვნები არ იქნება გარდაქმნილი. ნამდვილად გსურთ გაგრძელება?</DatabaseTypeChangeWarning>
+    <DeleteColumnPermanently>დარწმუნებული ხართ, რომ გსურთ არჩეული სვეტის '{0}' წაშლა? სვეტი და მისი ყველა მონაცემი სამუდამოდ წაიშლება და მათი აღდგენა შეუძლებელი იქნება.</DeleteColumnPermanently>
     <DoNotShowAgain>აღარ მაჩვენოთ ხელმეორედ</DoNotShowAgain>
+    <ImportNotComplete>იმპორტი არ დასრულებულა</ImportNotComplete>
+    <ImportNotCompleteStop>მონაცემების იმპორტის პროცესი ჯერ არ დასრულებულა. გსურთ მისი შეჩერება?</ImportNotCompleteStop>
     <LatexFormat>მათემატიკური ფორმულების საჩვენებლად გამოიყენეთ LaTeX ფორმატი.</LatexFormat>
     <MessageTimeOutExpired>ბღძანების შესრულების დრო ამოწურულია!</MessageTimeOutExpired>
     <MustBeFile>უნდა იყოს ფაილი {0}.</MustBeFile>

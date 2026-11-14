@@ -2599,8 +2599,13 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>Η λήξη χρόνου εκτέλεσης για τα ερωτήματα SQL υπερβαίνει την λήξη χρόνου εκτέλεσης για τις κλήσεις του σχεδιαστή αναφοράς. Ορίστε την λήξη χρόνου εκτέλεσης για τον σχεδιαστή ώστε να μην είναι λιγότερο από {0} δεπτερόλεπτα.</ChangeRequestTimeout>
+    <DatabaseAlreadyExists>Η βάση δεδομένων υπάρχει ήδη</DatabaseAlreadyExists>
+    <DatabaseAlreadyExistsAddTables>Υπάρχει ήδη βάση δεδομένων με αυτό το όνομα. Θέλετε να προσθέσετε πίνακες σε αυτήν;</DatabaseAlreadyExistsAddTables>
     <DatabaseTypeChangeWarning>Προσοχή! Η συνάρτηση αυτή μετατρέπει την πηγή εδομένων σε {0}. Για να ανακτήσετε τα δεδομένα με επιτυχία, όλα τα ονόματα πινάκων και στηλών θα πρέπει να ταιριάζουν. Τα Ερωτήματα δεν θα μετατραπούν. Επιθυμείτε να προχωρήσετε?</DatabaseTypeChangeWarning>
+    <DeleteColumnPermanently>Είστε βέβαιοι ότι θέλετε να διαγράψετε την επιλεγμένη στήλη '{0}'; Η στήλη και όλα τα δεδομένα της θα διαγραφούν οριστικά και δεν θα είναι δυνατή η ανάκτησή τους.</DeleteColumnPermanently>
     <DoNotShowAgain>Μην το δείξεις ξανά</DoNotShowAgain>
+    <ImportNotComplete>Η εισαγωγή δεν ολοκληρώθηκε</ImportNotComplete>
+    <ImportNotCompleteStop>Η διαδικασία εισαγωγής δεδομένων δεν έχει ολοκληρωθεί ακόμα. Θέλετε να τη διακόψετε;</ImportNotCompleteStop>
     <LatexFormat>Η μορφοποίηση LaTeX χρησιμοποιείται για την προβολή μαθηματικών τύπων.</LatexFormat>
     <MessageTimeOutExpired>Ο μέγιστος χρόνος εκτέλεσης της εντολής πέρασε!</MessageTimeOutExpired>
     <MustBeFile>Υποχρεωτικά {0} αρχείο.</MustBeFile>

@@ -2600,8 +2600,13 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>Час очікування запиту для SQL-запитів перевищує час очікування запиту дизайнера звітів. Встановіть час очікування запиту для компонента дизайнера не менше {0} секунд.</ChangeRequestTimeout>
+    <DatabaseAlreadyExists>База даних уже існує</DatabaseAlreadyExists>
+    <DatabaseAlreadyExistsAddTables>База даних з такою назвою вже існує. Додати до неї таблиці?</DatabaseAlreadyExistsAddTables>
     <DatabaseTypeChangeWarning>Будьте обережні! Ця функція перетворює джерело даних на {0}. Для успішного отримання даних усі назви таблиць і стовпців повинні збігатися. Запити не буде перетворено. Бажаєте продовжити?</DatabaseTypeChangeWarning>
+    <DeleteColumnPermanently>Ви впевнені, що хочете видалити вибраний стовпець '{0}'? Стовпець і всі його дані буде видалено назавжди, відновити їх буде неможливо.</DeleteColumnPermanently>
     <DoNotShowAgain>Більше не показувати</DoNotShowAgain>
+    <ImportNotComplete>Імпорт не завершено</ImportNotComplete>
+    <ImportNotCompleteStop>Імпорт даних ще не завершено. Зупинити його?</ImportNotCompleteStop>
     <LatexFormat>Формат LaTeX використовується для відображення математичних формул.</LatexFormat>
     <MessageTimeOutExpired>Час очікування команди минув!</MessageTimeOutExpired>
     <MustBeFile>Має бути файл {0}.</MustBeFile>

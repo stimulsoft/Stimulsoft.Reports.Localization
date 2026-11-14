@@ -2600,8 +2600,13 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>El tiempo de espera de solicitud para consultas SQL excede el tiempo de espera de solicitud del diseñador de informes. Establezca el tiempo de espera de solicitud para el componente de diseñador en no menos de {0} segundos.</ChangeRequestTimeout>
+    <DatabaseAlreadyExists>La base de datos ya existe</DatabaseAlreadyExists>
+    <DatabaseAlreadyExistsAddTables>Ya existe una base de datos con este nombre. ¿Desea agregarle tablas?</DatabaseAlreadyExistsAddTables>
     <DatabaseTypeChangeWarning>¡Ten cuidado! Esta función convierte la fuente de datos a {0}. Para recuperar datos correctamente, todos los nombres de tablas y columnas deben coincidir. Las consultas no se convertirán. ¿Quieres proceder?</DatabaseTypeChangeWarning>
+    <DeleteColumnPermanently>¿Está seguro de que desea eliminar la columna seleccionada '{0}'? La columna y todos sus datos se eliminarán de forma permanente y no se podrán recuperar.</DeleteColumnPermanently>
     <DoNotShowAgain>No mostrar de nuevo</DoNotShowAgain>
+    <ImportNotComplete>La importación no ha finalizado</ImportNotComplete>
+    <ImportNotCompleteStop>El proceso de importación de datos aún no ha finalizado. ¿Desea detenerlo?</ImportNotCompleteStop>
     <LatexFormat>El formato LaTeX se utiliza para mostrar fórmulas matemáticas..</LatexFormat>
     <MessageTimeOutExpired>¡Ha expirado el tiempo de espera del comando!</MessageTimeOutExpired>
     <MustBeFile>Debe ser un archivo {0}.</MustBeFile>

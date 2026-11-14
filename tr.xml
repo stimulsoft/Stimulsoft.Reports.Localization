@@ -2600,8 +2600,13 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>SQL sorguları için istek zaman aşımı, rapor tasarımcısının istek zaman aşımını aşıyor. Tasarımcı bileşeni için istek zaman aşımını en az {0} saniye içinde ayarlayın.</ChangeRequestTimeout>
+    <DatabaseAlreadyExists>Veritabanı zaten var</DatabaseAlreadyExists>
+    <DatabaseAlreadyExistsAddTables>Bu ada sahip bir veritabanı zaten var. Bu veritabanına tablo eklemek istiyor musunuz?</DatabaseAlreadyExistsAddTables>
     <DatabaseTypeChangeWarning>Dikkatli olun! Bu fonksiyon veri kaynağını {0}'a dönüştürür. Verileri başarıyla almak için tüm tablo ve sütun adlarının eşleşmesi gerekir. Sorgular dönüştürülmeyecektir. Devam etmek istiyor musunuz?</DatabaseTypeChangeWarning>
+    <DeleteColumnPermanently>Seçili '{0}' sütununu silmek istediğinizden emin misiniz? Sütun ve tüm verileri kalıcı olarak silinecek ve geri yüklenemeyecek.</DeleteColumnPermanently>
     <DoNotShowAgain>Tekrar gösterme</DoNotShowAgain>
+    <ImportNotComplete>İçe aktarma tamamlanmadı</ImportNotComplete>
+    <ImportNotCompleteStop>Veri içe aktarma işlemi henüz tamamlanmadı. Durdurmak istiyor musunuz?</ImportNotCompleteStop>
     <LatexFormat>LaTeX formatı matematiksel formülleri görüntülemek için kullanılır.</LatexFormat>
     <MessageTimeOutExpired>Komut zaman aşımı süresi doldu!</MessageTimeOutExpired>
     <MustBeFile>{0} dosyası olmalı.</MustBeFile>

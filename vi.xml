@@ -2599,8 +2599,13 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>Thời gian chờ yêu cầu cho các truy vấn SQL vượt quá thời gian chờ yêu cầu của trình thiết kế báo cáo. Đặt thời gian chờ yêu cầu cho thành phần thiết kế không quá {0} giây.</ChangeRequestTimeout>
+    <DatabaseAlreadyExists>Cơ sở dữ liệu đã tồn tại</DatabaseAlreadyExists>
+    <DatabaseAlreadyExistsAddTables>Đã có cơ sở dữ liệu với tên này. Bạn có muốn thêm bảng vào đó không?</DatabaseAlreadyExistsAddTables>
     <DatabaseTypeChangeWarning>Hãy cẩn thận! Chức năng này chuyển đổi nguồn dữ liệu thành {0}. Để truy xuất dữ liệu thành công, tất cả tên bảng và cột phải khớp. Các truy vấn sẽ không được chuyển đổi. Bạn có muốn tiếp tục không?</DatabaseTypeChangeWarning>
+    <DeleteColumnPermanently>Bạn có chắc chắn muốn xóa cột đã chọn '{0}' không? Cột và toàn bộ dữ liệu của cột sẽ bị xóa vĩnh viễn và không thể khôi phục.</DeleteColumnPermanently>
     <DoNotShowAgain>Không hiển thị trở lại</DoNotShowAgain>
+    <ImportNotComplete>Quá trình nhập chưa hoàn tất</ImportNotComplete>
+    <ImportNotCompleteStop>Quá trình nhập dữ liệu chưa hoàn tất. Bạn có muốn dừng không?</ImportNotCompleteStop>
     <LatexFormat>Định dạng LaTeX được sử dụng để hiển thị các công thức toán học.</LatexFormat>
     <MessageTimeOutExpired>Thời gian chờ của lệnh đã hết hạn!</MessageTimeOutExpired>
     <MustBeFile>Phải là tệp {0}.</MustBeFile>

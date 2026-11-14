@@ -2603,8 +2603,13 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>Vrijeme za izvršavanje SQL upita je duže od dozvoljenog vremena za dizajner izvještaja. Podesite vrijeme čekanja za dizajner komponentu na ne manje od {0} sekundi.</ChangeRequestTimeout>
+    <DatabaseAlreadyExists>Baza podataka već postoji</DatabaseAlreadyExists>
+    <DatabaseAlreadyExistsAddTables>Baza podataka sa ovim imenom već postoji. Želite li da dodate tabele u nju?</DatabaseAlreadyExistsAddTables>
     <DatabaseTypeChangeWarning>Pažnja! Ova funkcija pretvara izvor podataka u {0}. Za uspješno preuzimanje podataka, sva imena tabela i kolona moraju se podudarati. Upiti se neće konvertovati. Da li želite da nastavite?</DatabaseTypeChangeWarning>
+    <DeleteColumnPermanently>Jeste li sigurni da želite da obrišete izabranu kolonu '{0}'? Kolona i svi njeni podaci biće trajno obrisani i ne mogu se vratiti.</DeleteColumnPermanently>
     <DoNotShowAgain>Ne prikazuj ponovno</DoNotShowAgain>
+    <ImportNotComplete>Uvoz nije završen</ImportNotComplete>
+    <ImportNotCompleteStop>Proces uvoza podataka još nije završen. Želite li da ga zaustavite?</ImportNotCompleteStop>
     <LatexFormat>LaTeX format se koristi za prikaz matematičkih formula.</LatexFormat>
     <MessageTimeOutExpired>Timeout komande je istekao!</MessageTimeOutExpired>
     <MustBeFile>Mora biti {0} fajl.</MustBeFile>

@@ -2599,8 +2599,13 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>De time-out voor SQL-query's overschrijdt de time-out van de rapportontwerper. Stel de time-out voor het ontwerpercomponent in op niet minder dan {0} seconden.</ChangeRequestTimeout>
+    <DatabaseAlreadyExists>De database bestaat al</DatabaseAlreadyExists>
+    <DatabaseAlreadyExistsAddTables>Er bestaat al een database met deze naam. Wilt u er tabellen aan toevoegen?</DatabaseAlreadyExistsAddTables>
     <DatabaseTypeChangeWarning>Wees voorzichtig! Deze functie converteert de gegevensbron naar {0}. Om gegevens succesvol op te halen, moeten alle tabel- en kolomnamen overeenkomen. Query's worden niet geconverteerd. Wilt u doorgaan?</DatabaseTypeChangeWarning>
+    <DeleteColumnPermanently>Weet u zeker dat u de geselecteerde kolom '{0}' wilt verwijderen? De kolom en al zijn gegevens worden definitief verwijderd en kunnen niet worden hersteld.</DeleteColumnPermanently>
     <DoNotShowAgain>Niet opnieuw weergeven</DoNotShowAgain>
+    <ImportNotComplete>De import is niet voltooid</ImportNotComplete>
+    <ImportNotCompleteStop>Het importeren van gegevens is nog niet voltooid. Wilt u het stoppen?</ImportNotCompleteStop>
     <LatexFormat>De LaTeX-indeling wordt gebruikt om wiskundige formules weer te geven.</LatexFormat>
     <MessageTimeOutExpired>Time-out van opdracht is verlopen!</MessageTimeOutExpired>
     <MustBeFile>Moet een {0}-bestand zijn.</MustBeFile>

@@ -2600,8 +2600,13 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>Spørrings-tidsavbruddet for SQL-spørringer overskrider spørrings-tidsavbruddet for rapportdesigneren. Sett spørrings-tidsavbruddet for designer komponenten til minst {0} sekunder.</ChangeRequestTimeout>
+    <DatabaseAlreadyExists>Databasen finnes allerede</DatabaseAlreadyExists>
+    <DatabaseAlreadyExistsAddTables>Det finnes allerede en database med dette navnet. Vil du legge til tabeller i den?</DatabaseAlreadyExistsAddTables>
     <DatabaseTypeChangeWarning>Vær forsiktig! Denne funksjonen konverterer datakilden til {0}. For å hente data må alle tabell- og kolonnenavn samsvare. Spørringer konverteres ikke. Vil du fortsette?</DatabaseTypeChangeWarning>
+    <DeleteColumnPermanently>Er du sikker på at du vil slette den valgte kolonnen '{0}'? Kolonnen og alle dataene i den slettes permanent og kan ikke gjenopprettes.</DeleteColumnPermanently>
     <DoNotShowAgain>Ikke vis igjen</DoNotShowAgain>
+    <ImportNotComplete>Importen er ikke fullført</ImportNotComplete>
+    <ImportNotCompleteStop>Dataimporten er ikke fullført ennå. Vil du stoppe den?</ImportNotCompleteStop>
     <LatexFormat>LaTeX-format brukes til å vise matematiske formler.</LatexFormat>
     <MessageTimeOutExpired>Kommandoen ble tidsavbrutt!</MessageTimeOutExpired>
     <MustBeFile>Må være {0}-fil.</MustBeFile>

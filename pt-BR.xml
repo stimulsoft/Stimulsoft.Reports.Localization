@@ -2601,8 +2601,13 @@ sucedida</ConnectionSuccessfull>
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>O tempo limite da solicitação para consultas SQL excede o tempo limite da solicitação do designer de relatório. Defina o tempo limite da solicitação para o componente designer em não menos que {0} segundos.</ChangeRequestTimeout>
+    <DatabaseAlreadyExists>O banco de dados já existe</DatabaseAlreadyExists>
+    <DatabaseAlreadyExistsAddTables>Já existe um banco de dados com este nome. Deseja adicionar tabelas a ele?</DatabaseAlreadyExistsAddTables>
     <DatabaseTypeChangeWarning>Tome cuidado! Esta função converte a fonte de dados em {0}. Para recuperar dados com êxito, todos os nomes de tabelas e colunas devem corresponder. As consultas não serão convertidas. Você quer prosseguir?</DatabaseTypeChangeWarning>
+    <DeleteColumnPermanently>Tem certeza de que deseja excluir a coluna selecionada '{0}'? A coluna e todos os seus dados serão excluídos permanentemente e não poderão ser recuperados.</DeleteColumnPermanently>
     <DoNotShowAgain>Não mostre novamente</DoNotShowAgain>
+    <ImportNotComplete>A importação não foi concluída</ImportNotComplete>
+    <ImportNotCompleteStop>O processo de importação de dados ainda não foi concluído. Deseja interrompê-lo?</ImportNotCompleteStop>
     <LatexFormat>O formato LaTeX é usado para exibir fórmulas matemáticas.</LatexFormat>
     <MessageTimeOutExpired>O tempo limite do comando expirou!</MessageTimeOutExpired>
     <MustBeFile>Deve ser um arquivo {0}.</MustBeFile>

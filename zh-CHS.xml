@@ -2603,8 +2603,13 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>SQL查询的请求超时超过报表设计器的请求超时。将设计器组件的请求超时设置为不小于超过{0}秒。</ChangeRequestTimeout>
+    <DatabaseAlreadyExists>数据库已存在</DatabaseAlreadyExists>
+    <DatabaseAlreadyExistsAddTables>已存在同名数据库。是否要向其中添加表？</DatabaseAlreadyExistsAddTables>
     <DatabaseTypeChangeWarning>小心！此函数将数据源转换为{0}。要成功检索数据，所有表名和列名都必须匹配。查询将不会被转换。您想继续吗?</DatabaseTypeChangeWarning>
+    <DeleteColumnPermanently>确定要删除所选列 '{0}' 吗？该列及其所有数据将被永久删除，且无法恢复。</DeleteColumnPermanently>
     <DoNotShowAgain>不再显示</DoNotShowAgain>
+    <ImportNotComplete>导入尚未完成</ImportNotComplete>
+    <ImportNotCompleteStop>数据导入过程尚未完成。是否要停止？</ImportNotCompleteStop>
     <LatexFormat>LaTeX格式用于显示数学公式。</LatexFormat>
     <MessageTimeOutExpired>命令超时已过期!</MessageTimeOutExpired>
     <MustBeFile>必须是{0}文件。</MustBeFile>
