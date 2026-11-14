@@ -303,6 +303,7 @@
     <RemoveStrip>स्ट्रिप हटाएँ</RemoveStrip>
     <Ribbon>रिबन</Ribbon>
     <RunChartWizard>चार्ट &amp;विज़ार्ड चलाएँ</RunChartWizard>
+    <Sankey>सैंकी</Sankey>
     <Scatter>स्कैटर</Scatter>
     <ScatterLine>स्कैटर रेखा</ScatterLine>
     <ScatterSpline>स्कैटर स्प्लाइन</ScatterSpline>
@@ -2677,6 +2678,9 @@
     <AuthRoleNameIsSystemRole>निर्दिष्ट नाम "{0}" वाली भूमिका एक सिस्टम भूमिका है!</AuthRoleNameIsSystemRole>
     <AuthSendMessageWithInstructions>आगे के निर्देशों वाला एक संदेश "{0}" पर भेजा गया है!</AuthSendMessageWithInstructions>
     <AuthTokenIsNotCorrect>टोकन सही नहीं है!</AuthTokenIsNotCorrect>
+    <AuthTwoFactorCodeIsNotCorrect>दो-कारक प्रमाणीकरण कोड सही नहीं है!</AuthTwoFactorCodeIsNotCorrect>
+    <AuthTwoFactorCodeIsRequired>दो-कारक प्रमाणीकरण कोड आवश्यक है!</AuthTwoFactorCodeIsRequired>
+    <AuthTwoFactorIsExpired>दो-कारक प्रमाणीकरण की अवधि समाप्त हो गई है। कृपया फिर से लॉग इन करें!</AuthTwoFactorIsExpired>
     <AuthUserHasLoggedOut>आप लॉग आउट हो गए हैं!</AuthUserHasLoggedOut>
     <AuthUserHasLoggedOutPrevDevice>किसी ने दूसरे डिवाइस से आपके खाते में लॉग इन किया है। जारी रखने के लिए फिर से लॉग इन करें।</AuthUserHasLoggedOutPrevDevice>
     <AuthUserNameAlreadyExists>उपयोगकर्ता नाम (ईमेल) पहले से उपयोग में है!</AuthUserNameAlreadyExists>
@@ -3006,9 +3010,11 @@
     <SeriesLabelsCategory>शृंखला लेबल</SeriesLabelsCategory>
     <ShapeCategory>आकृति</ShapeCategory>
     <Size>आकार</Size>
+    <SourceCategory>स्रोत</SourceCategory>
     <SubReportCategory>उप-रिपोर्ट</SubReportCategory>
     <TableCategory>तालिका</TableCategory>
     <TableOfContents>विषय-सूची</TableOfContents>
+    <TargetCategory>लक्ष्य</TargetCategory>
     <TextAdditionalCategory>टेक्स्ट अतिरिक्त</TextAdditionalCategory>
     <TextCategory>टेक्स्ट</TextCategory>
     <TickLabelMajorCategory>टिक लेबल मुख्य</TickLabelMajorCategory>
@@ -3447,6 +3453,8 @@
     <StiFilterInclusionModeSelectionOnly>केवल चयन</StiFilterInclusionModeSelectionOnly>
     <StiFilterItemArgument>आर्ग्युमेंट</StiFilterItemArgument>
     <StiFilterItemExpression>एक्सप्रेशन</StiFilterItemExpression>
+    <StiFilterItemSource>स्रोत</StiFilterItemSource>
+    <StiFilterItemTarget>लक्ष्य</StiFilterItemTarget>
     <StiFilterItemValue>मान</StiFilterItemValue>
     <StiFilterItemValueClose>मान बंद</StiFilterItemValueClose>
     <StiFilterItemValueEnd>मान अंत</StiFilterItemValueEnd>
@@ -4110,6 +4118,11 @@
     <CalcInvisible>अदृश्य गणना करें</CalcInvisible>
     <CalculatedDataColumn>गणना किया गया डेटा कॉलम</CalculatedDataColumn>
     <CalculationMode>गणना मोड</CalculationMode>
+    <CalloutCaution>कॉलआउट सावधानी</CalloutCaution>
+    <CalloutImportant>कॉलआउट महत्वपूर्ण</CalloutImportant>
+    <CalloutNote>कॉलआउट नोट</CalloutNote>
+    <CalloutTip>कॉलआउट टिप</CalloutTip>
+    <CalloutWarning>कॉलआउट चेतावनी</CalloutWarning>
     <CanBreak>तोड़ सकता है</CanBreak>
     <Cancel>रद्द करें</Cancel>
     <CanGrow>बढ़ सकता है</CanGrow>
@@ -4153,6 +4166,7 @@
     <CloneContainer>कंटेनर क्लोन करें</CloneContainer>
     <CloseValues>बंद मान</CloseValues>
     <Code>कोड</Code>
+    <CodeBackground>कोड पृष्ठभूमि</CodeBackground>
     <CodePage>कोड पेज</CodePage>
     <Collapsed>संक्षिप्त</Collapsed>
     <CollapseGroupFooter>समूह पादलेख संक्षिप्त करें</CollapseGroupFooter>
@@ -4554,7 +4568,9 @@
     <Linked>लिंक्ड</Linked>
     <ListOfArguments>तर्कों की सूची</ListOfArguments>
     <ListOfHyperlinks>हाइपरलिंक की सूची</ListOfHyperlinks>
+    <ListOfSources>स्रोतों की सूची</ListOfSources>
     <ListOfTags>टैग की सूची</ListOfTags>
+    <ListOfTargets>लक्ष्यों की सूची</ListOfTargets>
     <ListOfToolTips>टूलटिप की सूची</ListOfToolTips>
     <ListOfValues>मानों की सूची</ListOfValues>
     <ListOfValuesClose>मानों की सूची बंद</ListOfValuesClose>
@@ -4753,6 +4769,8 @@
     <ProductHomePage>उत्पाद होम पेज</ProductHomePage>
     <Property>गुण</Property>
     <Provider>प्रदाता</Provider>
+    <Quote>उद्धरण</Quote>
+    <QuoteBar>उद्धरण पट्टी</QuoteBar>
     <RadarStyle>रडार शैली</RadarStyle>
     <RadialBarBorderBrush>रेडियल बार बॉर्डर ब्रश</RadialBarBorderBrush>
     <RadialBarBrush>रेडियल बार ब्रश</RadialBarBrush>
@@ -4823,6 +4841,7 @@
     <RowHeaderWidth>पंक्ति हेडर चौड़ाई</RowHeaderWidth>
     <Rows>पंक्तियाँ</Rows>
     <RowsPerPage>प्रति पेज पंक्तियाँ</RowsPerPage>
+    <Rule>क्षैतिज रेखा</Rule>
     <Scale>स्केल</Scale>
     <ScaleHor>क्षैतिज स्केल</ScaleHor>
     <ScriptLanguage>स्क्रिप्ट भाषा</ScriptLanguage>
@@ -4879,6 +4898,7 @@
     <ShortValue>संक्षिप्त मान</ShortValue>
     <Show3D>3D दिखाएँ</Show3D>
     <ShowAllValue>सभी मान दिखाएँ</ShowAllValue>
+    <ShowAsIndex>इंडेक्स के रूप में दिखाएँ</ShowAsIndex>
     <ShowBehind>पीछे दिखाएँ</ShowBehind>
     <ShowBlanks>रिक्त दिखाएँ</ShowBlanks>
     <ShowBubble>बुलबुला दिखाएँ</ShowBubble>
@@ -4942,6 +4962,8 @@
     <SortLetters>A-Z</SortLetters>
     <SortType>क्रम प्रकार</SortType>
     <Source>स्रोत</Source>
+    <SourceDataColumn>स्रोत डेटा कॉलम</SourceDataColumn>
+    <Sources>स्रोत</Sources>
     <Space>स्थान</Space>
     <SpaceRatio>स्थान अनुपात</SpaceRatio>
     <Spacing>अंतराल</Spacing>
@@ -4997,9 +5019,11 @@
     <TagValue>टैग मान</TagValue>
     <Target>लक्ष्य</Target>
     <TargetColor>लक्ष्य रंग</TargetColor>
+    <TargetDataColumn>लक्ष्य डेटा कॉलम</TargetDataColumn>
     <TargetFormat>लक्ष्य प्रारूप</TargetFormat>
     <TargetIcon>लक्ष्य आइकन</TargetIcon>
     <TargetMode>लक्ष्य मोड</TargetMode>
+    <Targets>लक्ष्य</Targets>
     <TargetSettings>लक्ष्य</TargetSettings>
     <Tension>तनाव</Tension>
     <Text>टेक्स्ट</Text>
@@ -5140,6 +5164,7 @@
     <Weights>भार</Weights>
     <Width>चौड़ाई</Width>
     <WindowState>विंडो स्थिति</WindowState>
+    <WinLoss>जीत / हार</WinLoss>
     <WinLossNegative>जीत हार ऋणात्मक</WinLossNegative>
     <WinLossPositive>जीत हार धनात्मक</WinLossPositive>
     <WordWrap>वर्ड रैप</WordWrap>
@@ -5321,6 +5346,7 @@
     <ClickForMoreDetails>अधिक विवरण के लिए क्लिक करें</ClickForMoreDetails>
     <ClickHereToCreateNewCondition>नई शर्त बनाने के लिए</ClickHereToCreateNewCondition>
     <ClickHereToCreateNewField>नया फ़ील्ड बनाने के लिए</ClickHereToCreateNewField>
+    <ClickHereToCreateNewFilter>नया फ़िल्टर बनाने के लिए</ClickHereToCreateNewFilter>
     <CollapseAll>सभी संक्षिप्त करें</CollapseAll>
     <Collection>संग्रह</Collection>
     <CompilationAccess>संकलन एक्सेस</CompilationAccess>

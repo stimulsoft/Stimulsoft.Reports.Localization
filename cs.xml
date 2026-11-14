@@ -303,6 +303,7 @@
     <RemoveStrip>Odstranit pruh</RemoveStrip>
     <Ribbon>Páskový</Ribbon>
     <RunChartWizard>Spustit &amp;průvodce grafem</RunChartWizard>
+    <Sankey>Sankeyův</Sankey>
     <Scatter>Rozptyl</Scatter>
     <ScatterLine>Čára s rozptylem</ScatterLine>
     <ScatterSpline>Křivka s rozptylem</ScatterSpline>
@@ -2674,6 +2675,9 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <AuthRoleNameIsSystemRole>Role se zadaným názvem „{0}“ je systémová role!</AuthRoleNameIsSystemRole>
     <AuthSendMessageWithInstructions>Zpráva s dalšími pokyny byla odeslána na adresu „{0}“!</AuthSendMessageWithInstructions>
     <AuthTokenIsNotCorrect>Token není správný!</AuthTokenIsNotCorrect>
+    <AuthTwoFactorCodeIsNotCorrect>Kód dvoufázového ověření není správný!</AuthTwoFactorCodeIsNotCorrect>
+    <AuthTwoFactorCodeIsRequired>Kód dvoufázového ověření je povinný!</AuthTwoFactorCodeIsRequired>
+    <AuthTwoFactorIsExpired>Platnost dvoufázového ověření vypršela. Přihlaste se znovu!</AuthTwoFactorIsExpired>
     <AuthUserHasLoggedOut>Byli jste odhlášeni!</AuthUserHasLoggedOut>
     <AuthUserHasLoggedOutPrevDevice>Někdo se přihlásil k vašemu účtu na jiném zařízení. Chcete-li pokračovat, přihlaste se znovu.</AuthUserHasLoggedOutPrevDevice>
     <AuthUserNameAlreadyExists>Uživatelské jméno (e-mail) se již používá!</AuthUserNameAlreadyExists>
@@ -3003,9 +3007,11 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <SeriesLabelsCategory>Štítky řad</SeriesLabelsCategory>
     <ShapeCategory>Obrazec</ShapeCategory>
     <Size>Velikost</Size>
+    <SourceCategory>Zdroj</SourceCategory>
     <SubReportCategory>Subreport</SubReportCategory>
     <TableCategory>Tabulka</TableCategory>
     <TableOfContents>Obsah</TableOfContents>
+    <TargetCategory>Cíl</TargetCategory>
     <TextAdditionalCategory>Text přídavná</TextAdditionalCategory>
     <TextCategory>Text</TextCategory>
     <TickLabelMajorCategory>Popisek hlavní značky</TickLabelMajorCategory>
@@ -3444,6 +3450,8 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <StiFilterInclusionModeSelectionOnly>Pouze výběr</StiFilterInclusionModeSelectionOnly>
     <StiFilterItemArgument>Argument</StiFilterItemArgument>
     <StiFilterItemExpression>Výraz</StiFilterItemExpression>
+    <StiFilterItemSource>Zdroj</StiFilterItemSource>
+    <StiFilterItemTarget>Cíl</StiFilterItemTarget>
     <StiFilterItemValue>Hodnota</StiFilterItemValue>
     <StiFilterItemValueClose>Uzavírací hodnota</StiFilterItemValueClose>
     <StiFilterItemValueEnd>Koncová hodnota</StiFilterItemValueEnd>
@@ -4107,6 +4115,11 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <CalcInvisible>Počítat neviditelné</CalcInvisible>
     <CalculatedDataColumn>Počítané datové sloupce</CalculatedDataColumn>
     <CalculationMode>Výpočetní mód</CalculationMode>
+    <CalloutCaution>Rámeček Pozor</CalloutCaution>
+    <CalloutImportant>Rámeček Důležité</CalloutImportant>
+    <CalloutNote>Rámeček Poznámka</CalloutNote>
+    <CalloutTip>Rámeček Tip</CalloutTip>
+    <CalloutWarning>Rámeček Varování</CalloutWarning>
     <CanBreak>Moci přerušit</CanBreak>
     <Cancel>Storno</Cancel>
     <CanGrow>Povoleno zvětšování</CanGrow>
@@ -4150,6 +4163,7 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <CloneContainer>Klonovat kontejner</CloneContainer>
     <CloseValues>Hodnoty uzavření</CloseValues>
     <Code>Kód</Code>
+    <CodeBackground>Pozadí kódu</CodeBackground>
     <CodePage>Kódová stránka</CodePage>
     <Collapsed>Sbalený</Collapsed>
     <CollapseGroupFooter>Sbal patičku skupiny</CollapseGroupFooter>
@@ -4551,7 +4565,9 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <Linked>Spojený</Linked>
     <ListOfArguments>Seznam argumentů</ListOfArguments>
     <ListOfHyperlinks>Seznam odkazů</ListOfHyperlinks>
+    <ListOfSources>Seznam zdrojů</ListOfSources>
     <ListOfTags>Seznam štítků</ListOfTags>
+    <ListOfTargets>Seznam cílů</ListOfTargets>
     <ListOfToolTips>Seznam Tool Tipů</ListOfToolTips>
     <ListOfValues>Seznam hodnot</ListOfValues>
     <ListOfValuesClose>Seznam hodnot Close (uzavření)</ListOfValuesClose>
@@ -4750,6 +4766,8 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <ProductHomePage>Domovská stránka</ProductHomePage>
     <Property>Vlastnost</Property>
     <Provider>Poskytovatel</Provider>
+    <Quote>Citace</Quote>
+    <QuoteBar>Pruh citace</QuoteBar>
     <RadarStyle>Radarový styl</RadarStyle>
     <RadialBarBorderBrush>Výplň ohraničení radiální lišty</RadialBarBorderBrush>
     <RadialBarBrush>Výplň radiální lišty</RadialBarBrush>
@@ -4820,6 +4838,7 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <RowHeaderWidth>Šířka hlavičky řádku</RowHeaderWidth>
     <Rows>Řádky</Rows>
     <RowsPerPage>Počet řádků na stránku</RowsPerPage>
+    <Rule>Vodorovná čára</Rule>
     <Scale>Poměr</Scale>
     <ScaleHor>Horizontální stupnice</ScaleHor>
     <ScriptLanguage>Skriptovací jazyk</ScriptLanguage>
@@ -4940,6 +4959,8 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <SortLetters>A-Z</SortLetters>
     <SortType>Typ třídění</SortType>
     <Source>Zdroj</Source>
+    <SourceDataColumn>Zdroj datového sloupce</SourceDataColumn>
+    <Sources>Zdroje</Sources>
     <Space>Mezera</Space>
     <SpaceRatio>Poměr mezer</SpaceRatio>
     <Spacing>Rozestup</Spacing>
@@ -4995,9 +5016,11 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <TagValue>Hodnota Tagu</TagValue>
     <Target>Cíl</Target>
     <TargetColor>Barva cíle</TargetColor>
+    <TargetDataColumn>Cíl datového sloupce</TargetDataColumn>
     <TargetFormat>Formát cíle</TargetFormat>
     <TargetIcon>Ikona cíle</TargetIcon>
     <TargetMode>Režim cíle</TargetMode>
+    <Targets>Cíle</Targets>
     <TargetSettings>Cíl</TargetSettings>
     <Tension>Napnutí</Tension>
     <Text>Text</Text>
@@ -5138,6 +5161,7 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <Weights>Váhy</Weights>
     <Width>Šířka</Width>
     <WindowState>Pozice okna</WindowState>
+    <WinLoss>Výhra / prohra</WinLoss>
     <WinLossNegative>Výhra/prohra negativní</WinLossNegative>
     <WinLossPositive>Výhra/prohra pozitivní</WinLossPositive>
     <WordWrap>Zalomení textu</WordWrap>
@@ -5319,6 +5343,7 @@ E-mail byl odeslán na adresu "{0}". Obsahuje odkaz pro potvrzení vaší regist
     <ClickForMoreDetails>Klikněte pro více podrobností</ClickForMoreDetails>
     <ClickHereToCreateNewCondition>pro vytvoření nové podmínky</ClickHereToCreateNewCondition>
     <ClickHereToCreateNewField>pro vytvoření nového pole</ClickHereToCreateNewField>
+    <ClickHereToCreateNewFilter>pro vytvoření nového filtru</ClickHereToCreateNewFilter>
     <CollapseAll>Sbalit vše</CollapseAll>
     <Collection>Kolekce</Collection>
     <CompilationAccess>Přístup ke kompilaci</CompilationAccess>

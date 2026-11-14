@@ -303,6 +303,7 @@
     <RemoveStrip>Remover Strip</RemoveStrip>
     <Ribbon>Fita</Ribbon>
     <RunChartWizard>Executar &amp;Assistente de Gráfico</RunChartWizard>
+    <Sankey>Sankey</Sankey>
     <Scatter>Dispersão</Scatter>
     <ScatterLine>Dispersão com Linhas</ScatterLine>
     <ScatterSpline>Dispersão com Curvas</ScatterSpline>
@@ -2677,6 +2678,9 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <AuthRoleNameIsSystemRole>A função com o nome especificado "{0}" é uma função do sistema!</AuthRoleNameIsSystemRole>
     <AuthSendMessageWithInstructions>Uma mensagem com mais instruções foi enviada para "{0}"!</AuthSendMessageWithInstructions>
     <AuthTokenIsNotCorrect>O token não está correto!</AuthTokenIsNotCorrect>
+    <AuthTwoFactorCodeIsNotCorrect>O código de autenticação de dois fatores não está correto!</AuthTwoFactorCodeIsNotCorrect>
+    <AuthTwoFactorCodeIsRequired>O código de autenticação de dois fatores é obrigatório!</AuthTwoFactorCodeIsRequired>
+    <AuthTwoFactorIsExpired>A autenticação de dois fatores expirou. Faça login novamente!</AuthTwoFactorIsExpired>
     <AuthUserHasLoggedOut>Você efetuou logout!</AuthUserHasLoggedOut>
     <AuthUserHasLoggedOutPrevDevice>Alguém entrou na sua conta em outro dispositivo. Faça login novamente para continuar.</AuthUserHasLoggedOutPrevDevice>
     <AuthUserNameAlreadyExists>O nome de usuário (e-mail) já está em uso!</AuthUserNameAlreadyExists>
@@ -3006,9 +3010,11 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <SeriesLabelsCategory>Rótulos de Séries</SeriesLabelsCategory>
     <ShapeCategory>Forma</ShapeCategory>
     <Size>Tamanho</Size>
+    <SourceCategory>Fonte</SourceCategory>
     <SubReportCategory>Sub-Relatório</SubReportCategory>
     <TableCategory>Tabela</TableCategory>
     <TableOfContents>Índice</TableOfContents>
+    <TargetCategory>Alvo</TargetCategory>
     <TextAdditionalCategory>Texto Adicional</TextAdditionalCategory>
     <TextCategory>Texto</TextCategory>
     <TickLabelMajorCategory>Marque o rótulo principal</TickLabelMajorCategory>
@@ -3447,6 +3453,8 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <StiFilterInclusionModeSelectionOnly>Somente seleção</StiFilterInclusionModeSelectionOnly>
     <StiFilterItemArgument>Argumento</StiFilterItemArgument>
     <StiFilterItemExpression>Expressão</StiFilterItemExpression>
+    <StiFilterItemSource>Fonte</StiFilterItemSource>
+    <StiFilterItemTarget>Alvo</StiFilterItemTarget>
     <StiFilterItemValue>Valor</StiFilterItemValue>
     <StiFilterItemValueClose>Valor de Fechamento</StiFilterItemValueClose>
     <StiFilterItemValueEnd>Valor Final</StiFilterItemValueEnd>
@@ -4110,6 +4118,11 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <CalcInvisible>Cálculo Invisível</CalcInvisible>
     <CalculatedDataColumn>Coluna de Dados calculada</CalculatedDataColumn>
     <CalculationMode>Modo de cálculo</CalculationMode>
+    <CalloutCaution>Destaque Cuidado</CalloutCaution>
+    <CalloutImportant>Destaque Importante</CalloutImportant>
+    <CalloutNote>Destaque Nota</CalloutNote>
+    <CalloutTip>Destaque Dica</CalloutTip>
+    <CalloutWarning>Destaque Aviso</CalloutWarning>
     <CanBreak>Pode Quebrar</CanBreak>
     <Cancel>Cancelar</Cancel>
     <CanGrow>Pode Crescer</CanGrow>
@@ -4153,6 +4166,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <CloneContainer>Clonar Recipiente</CloneContainer>
     <CloseValues>Fechar valores</CloseValues>
     <Code>Código</Code>
+    <CodeBackground>Fundo do Código</CodeBackground>
     <CodePage>Página de código</CodePage>
     <Collapsed>Recolhido</Collapsed>
     <CollapseGroupFooter>Recolher Grupo Rodapé</CollapseGroupFooter>
@@ -4554,7 +4568,9 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <Linked>Vinculado</Linked>
     <ListOfArguments>Lista de Argumentos</ListOfArguments>
     <ListOfHyperlinks>Lista de Hyperlinks</ListOfHyperlinks>
+    <ListOfSources>Lista de Fontes</ListOfSources>
     <ListOfTags>Lista de Etiquetas</ListOfTags>
+    <ListOfTargets>Lista de Alvos</ListOfTargets>
     <ListOfToolTips>Lista de Dicas da Ferramenta</ListOfToolTips>
     <ListOfValues>Lista de Valores</ListOfValues>
     <ListOfValuesClose>Lista de Valores de Fechamento</ListOfValuesClose>
@@ -4753,6 +4769,8 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <ProductHomePage>Home Page do Produto</ProductHomePage>
     <Property>Propriedade</Property>
     <Provider>Fornecedor</Provider>
+    <Quote>Citação</Quote>
+    <QuoteBar>Barra de Citação</QuoteBar>
     <RadarStyle>Estilo do Radar</RadarStyle>
     <RadialBarBorderBrush>Pincel de borda de barra radial</RadialBarBorderBrush>
     <RadialBarBrush>Pincel de barra radial</RadialBarBrush>
@@ -4823,6 +4841,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <RowHeaderWidth>Largura do Cabeçalho de Linha</RowHeaderWidth>
     <Rows>Linhas</Rows>
     <RowsPerPage>Linhas por página</RowsPerPage>
+    <Rule>Linha Horizontal</Rule>
     <Scale>Escala</Scale>
     <ScaleHor>Escala Horizontal</ScaleHor>
     <ScriptLanguage>Linguagem do Script</ScriptLanguage>
@@ -4943,6 +4962,8 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <SortLetters>A-Z</SortLetters>
     <SortType>Tipo de Classificação</SortType>
     <Source>Fonte</Source>
+    <SourceDataColumn>Fonte da Coluna de Dados</SourceDataColumn>
+    <Sources>Fontes</Sources>
     <Space>Espaço</Space>
     <SpaceRatio>Razão de Espaço</SpaceRatio>
     <Spacing>Espaçamento</Spacing>
@@ -4998,9 +5019,11 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <TagValue>Valor da Etiqueta</TagValue>
     <Target>Alvo</Target>
     <TargetColor>Cor Alvo</TargetColor>
+    <TargetDataColumn>Alvo da Coluna de Dados</TargetDataColumn>
     <TargetFormat>Formato de destino</TargetFormat>
     <TargetIcon>Ícone Alvo</TargetIcon>
     <TargetMode>Modo Alvo</TargetMode>
+    <Targets>Alvos</Targets>
     <TargetSettings>Alvo</TargetSettings>
     <Tension>Tensão</Tension>
     <Text>Texto</Text>
@@ -5141,6 +5164,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <Weights>Pesos</Weights>
     <Width>Largura</Width>
     <WindowState>Estado de janela</WindowState>
+    <WinLoss>Vitória / Perda</WinLoss>
     <WinLossNegative>Vitória Perda Negativa</WinLossNegative>
     <WinLossPositive>Vitória Perda Positiva</WinLossPositive>
     <WordWrap>Múltiplas Linhas</WordWrap>
@@ -5326,6 +5350,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <ClickForMoreDetails>Clique para mais detalhes</ClickForMoreDetails>
     <ClickHereToCreateNewCondition>para criar uma nova condição</ClickHereToCreateNewCondition>
     <ClickHereToCreateNewField>para criar um novo campo</ClickHereToCreateNewField>
+    <ClickHereToCreateNewFilter>para criar um novo filtro</ClickHereToCreateNewFilter>
     <CollapseAll>Recolher Tudo</CollapseAll>
     <Collection>Coleção</Collection>
     <CompilationAccess>Acesso de compilação</CompilationAccess>

@@ -303,6 +303,7 @@
     <RemoveStrip>Ta bort remsa</RemoveStrip>
     <Ribbon>Menyfliksområde</Ribbon>
     <RunChartWizard>Starta grafguide</RunChartWizard>
+    <Sankey>Sankey</Sankey>
     <Scatter>Spridd</Scatter>
     <ScatterLine>Spridd linje</ScatterLine>
     <ScatterSpline>Spridd spline</ScatterSpline>
@@ -2674,6 +2675,9 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <AuthRoleNameIsSystemRole>Rollen med det angivna namnet "{0}" är en systemroll!</AuthRoleNameIsSystemRole>
     <AuthSendMessageWithInstructions>Ett meddelande med ytterligare instruktioner har skickats till "{0}"!</AuthSendMessageWithInstructions>
     <AuthTokenIsNotCorrect>Token är inte korrekt!</AuthTokenIsNotCorrect>
+    <AuthTwoFactorCodeIsNotCorrect>Koden för tvåfaktorsautentisering är felaktig!</AuthTwoFactorCodeIsNotCorrect>
+    <AuthTwoFactorCodeIsRequired>Koden för tvåfaktorsautentisering krävs!</AuthTwoFactorCodeIsRequired>
+    <AuthTwoFactorIsExpired>Tvåfaktorsautentiseringen har gått ut. Logga in igen!</AuthTwoFactorIsExpired>
     <AuthUserHasLoggedOut>Du har loggat ut!</AuthUserHasLoggedOut>
     <AuthUserHasLoggedOutPrevDevice>Någon loggade in på ditt konto från en annan enhet. Logga in igen för att fortsätta.</AuthUserHasLoggedOutPrevDevice>
     <AuthUserNameAlreadyExists>Användarnamnet (e-post) används redan!</AuthUserNameAlreadyExists>
@@ -3003,9 +3007,11 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <SeriesLabelsCategory>Serieetiketter</SeriesLabelsCategory>
     <ShapeCategory>Form</ShapeCategory>
     <Size>Storlek</Size>
+    <SourceCategory>Källa</SourceCategory>
     <SubReportCategory>Delrapport</SubReportCategory>
     <TableCategory>Tabell</TableCategory>
     <TableOfContents>Innehållsförteckning</TableOfContents>
+    <TargetCategory>Mål</TargetCategory>
     <TextAdditionalCategory>Text tillägg</TextAdditionalCategory>
     <TextCategory>Text</TextCategory>
     <TickLabelMajorCategory>Etikett för större skalstreck</TickLabelMajorCategory>
@@ -3444,6 +3450,8 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <StiFilterInclusionModeSelectionOnly>Endast markering</StiFilterInclusionModeSelectionOnly>
     <StiFilterItemArgument>Argument</StiFilterItemArgument>
     <StiFilterItemExpression>Uttryck</StiFilterItemExpression>
+    <StiFilterItemSource>Källa</StiFilterItemSource>
+    <StiFilterItemTarget>Mål</StiFilterItemTarget>
     <StiFilterItemValue>Värde</StiFilterItemValue>
     <StiFilterItemValueClose>Stängt värde</StiFilterItemValueClose>
     <StiFilterItemValueEnd>Slutvärde</StiFilterItemValueEnd>
@@ -4107,6 +4115,11 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <CalcInvisible>Beräkna osynliga</CalcInvisible>
     <CalculatedDataColumn>Beräkna datakolumner</CalculatedDataColumn>
     <CalculationMode>Beräkningsmode</CalculationMode>
+    <CalloutCaution>Inforuta Försiktighet</CalloutCaution>
+    <CalloutImportant>Inforuta Viktigt</CalloutImportant>
+    <CalloutNote>Inforuta Notering</CalloutNote>
+    <CalloutTip>Inforuta Tips</CalloutTip>
+    <CalloutWarning>Inforuta Varning</CalloutWarning>
     <CanBreak>Kan bryta</CanBreak>
     <Cancel>Avbryt</Cancel>
     <CanGrow>Kan växa</CanGrow>
@@ -4150,6 +4163,7 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <CloneContainer>Kopiera kontainer</CloneContainer>
     <CloseValues>Stängningsvärden</CloseValues>
     <Code>Kod</Code>
+    <CodeBackground>Kodbakgrund</CodeBackground>
     <CodePage>Kodsida</CodePage>
     <Collapsed>Sammanslagen</Collapsed>
     <CollapseGroupFooter>Slå samman gruppfot</CollapseGroupFooter>
@@ -4377,7 +4391,7 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <GridColumns>Rutnätskolumner</GridColumns>
     <GridLineColor>Färg på stödlinje</GridLineColor>
     <GridLinesHor>Horisontella stödlinjer</GridLinesHor>
-    <GridLinesHorColor>Färg på Horizontella rutnätslinjer</GridLinesHorColor>
+    <GridLinesHorColor>Färg på Horisontella rutnätslinjer</GridLinesHorColor>
     <GridLinesHorRight>Horisontell stödlinje höger</GridLinesHorRight>
     <GridLineStyle>Stödlinje stil</GridLineStyle>
     <GridLinesVert>Vertikala stödlinjer</GridLinesVert>
@@ -4480,7 +4494,7 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <Interaction>Interaktion</Interaction>
     <InterlacedBrush>Interlacad borste</InterlacedBrush>
     <InterlacingHor>Interlaca horisontellt</InterlacingHor>
-    <InterlacingHorBrush>Borste för horizontell sammanflätning</InterlacingHorBrush>
+    <InterlacingHorBrush>Borste för horisontell sammanflätning</InterlacingHorBrush>
     <InterlacingVert>Interlaca vertikalt</InterlacingVert>
     <InterlacingVertBrush>Borste för vertikal sammanflätning</InterlacingVertBrush>
     <Interpolation>Interpolering</Interpolation>
@@ -4551,7 +4565,9 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <Linked>Länkad</Linked>
     <ListOfArguments>Lista med argument</ListOfArguments>
     <ListOfHyperlinks>Lista med hyperlänkar</ListOfHyperlinks>
+    <ListOfSources>Lista med källor</ListOfSources>
     <ListOfTags>Lista med taggar</ListOfTags>
+    <ListOfTargets>Lista med mål</ListOfTargets>
     <ListOfToolTips>Lista med tool tips</ListOfToolTips>
     <ListOfValues>Lista med värden</ListOfValues>
     <ListOfValuesClose>Lista av värden slutet</ListOfValuesClose>
@@ -4750,6 +4766,8 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <ProductHomePage>Produktens hemsida</ProductHomePage>
     <Property>Egenskap</Property>
     <Provider>Leverantör</Provider>
+    <Quote>Citat</Quote>
+    <QuoteBar>Citatstapel</QuoteBar>
     <RadarStyle>Radarstil</RadarStyle>
     <RadialBarBorderBrush>Radiell stapel kantpensel</RadialBarBorderBrush>
     <RadialBarBrush>Radiell stapel pensel</RadialBarBrush>
@@ -4820,6 +4838,7 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <RowHeaderWidth>Radhuvud bredd</RowHeaderWidth>
     <Rows>Rader</Rows>
     <RowsPerPage>Rader per sida</RowsPerPage>
+    <Rule>Horisontell linje</Rule>
     <Scale>Skala</Scale>
     <ScaleHor>Skala Hor</ScaleHor>
     <ScriptLanguage>Scriptspråk</ScriptLanguage>
@@ -4940,6 +4959,8 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <SortLetters>A-Ö</SortLetters>
     <SortType>Sorteringstyp</SortType>
     <Source>Källa</Source>
+    <SourceDataColumn>Källa datakolumn</SourceDataColumn>
+    <Sources>Källor</Sources>
     <Space>Mellanslag</Space>
     <SpaceRatio>Mellanrumsförhållande</SpaceRatio>
     <Spacing>Mellanrum</Spacing>
@@ -4995,9 +5016,11 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <TagValue>Tagvärde</TagValue>
     <Target>Mål</Target>
     <TargetColor>Målfärg</TargetColor>
+    <TargetDataColumn>Mål datakolumn</TargetDataColumn>
     <TargetFormat>Målformat</TargetFormat>
     <TargetIcon>Målikon</TargetIcon>
     <TargetMode>Målläge</TargetMode>
+    <Targets>Mål</Targets>
     <TargetSettings>Mål</TargetSettings>
     <Tension>Tension</Tension>
     <Text>Text</Text>
@@ -5138,6 +5161,7 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <Weights>Vikter</Weights>
     <Width>Bredd</Width>
     <WindowState>Fönstertillstånd</WindowState>
+    <WinLoss>Vinst / Förlust</WinLoss>
     <WinLossNegative>Vinst/förlust negativ</WinLossNegative>
     <WinLossPositive>Vinst/förlust positiv</WinLossPositive>
     <WordWrap>Ordbrytning</WordWrap>
@@ -5319,6 +5343,7 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <ClickForMoreDetails>Klicka för mer detaljer</ClickForMoreDetails>
     <ClickHereToCreateNewCondition>för att skapa ett nytt villkor</ClickHereToCreateNewCondition>
     <ClickHereToCreateNewField>för att skapa ett nytt fält</ClickHereToCreateNewField>
+    <ClickHereToCreateNewFilter>för att skapa ett nytt filter</ClickHereToCreateNewFilter>
     <CollapseAll>Kollapsa alla</CollapseAll>
     <Collection>Samling</Collection>
     <CompilationAccess>Kompileringsåtkomst</CompilationAccess>
@@ -5585,7 +5610,7 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <FlowchartPreparation>Flödesschema: Förbered</FlowchartPreparation>
     <FlowchartSort>Flödesschema: Sortera</FlowchartSort>
     <Frame>Ram</Frame>
-    <HorizontalLine>Horizontell linje</HorizontalLine>
+    <HorizontalLine>Horisontell linje</HorizontalLine>
     <InsertShapes>Lägg till form</InsertShapes>
     <LeftAndRightLine>Vänster och högerlinje</LeftAndRightLine>
     <Lines>Linjer</Lines>

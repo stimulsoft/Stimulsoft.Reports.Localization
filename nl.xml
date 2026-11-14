@@ -303,6 +303,7 @@
     <RemoveStrip>Verwijder Strip</RemoveStrip>
     <Ribbon>Lint</Ribbon>
     <RunChartWizard>Start de Grafiek &amp;Wizard</RunChartWizard>
+    <Sankey>Sankey</Sankey>
     <Scatter>Spreiding</Scatter>
     <ScatterLine>Spreiding Lijn</ScatterLine>
     <ScatterSpline>Spreiding Gebogen Lijn</ScatterSpline>
@@ -2674,6 +2675,9 @@ De e-mail is verzonden naar "{0}". Deze bevat een link om uw registratie te beve
     <AuthRoleNameIsSystemRole>De rol met de opgegeven naam "{0}" is een systeemrol!</AuthRoleNameIsSystemRole>
     <AuthSendMessageWithInstructions>Er is een bericht met verdere instructies verzonden naar "{0}"!</AuthSendMessageWithInstructions>
     <AuthTokenIsNotCorrect>Token is niet correct!</AuthTokenIsNotCorrect>
+    <AuthTwoFactorCodeIsNotCorrect>De code voor tweefactorauthenticatie is niet correct!</AuthTwoFactorCodeIsNotCorrect>
+    <AuthTwoFactorCodeIsRequired>De code voor tweefactorauthenticatie is vereist!</AuthTwoFactorCodeIsRequired>
+    <AuthTwoFactorIsExpired>De tweefactorauthenticatie is verlopen. Meld u opnieuw aan!</AuthTwoFactorIsExpired>
     <AuthUserHasLoggedOut>U bent afgemeld!</AuthUserHasLoggedOut>
     <AuthUserHasLoggedOutPrevDevice>Iemand heeft zich op een ander apparaat aangemeld bij uw account. Meld u opnieuw aan om door te gaan.</AuthUserHasLoggedOutPrevDevice>
     <AuthUserNameAlreadyExists>De gebruikersnaam (e-mail) is al in gebruik!</AuthUserNameAlreadyExists>
@@ -3003,9 +3007,11 @@ De e-mail is verzonden naar "{0}". Deze bevat een link om uw registratie te beve
     <SeriesLabelsCategory>Reekslabels</SeriesLabelsCategory>
     <ShapeCategory>Vorm</ShapeCategory>
     <Size>Grootte</Size>
+    <SourceCategory>Bron</SourceCategory>
     <SubReportCategory>Sub-Rapport</SubReportCategory>
     <TableCategory>Tabel</TableCategory>
     <TableOfContents>Inhoudsopgave</TableOfContents>
+    <TargetCategory>Doel</TargetCategory>
     <TextAdditionalCategory>Tekst Extra</TextAdditionalCategory>
     <TextCategory>Tekst</TextCategory>
     <TickLabelMajorCategory>Streepjeslabel hoofd</TickLabelMajorCategory>
@@ -3444,6 +3450,8 @@ De e-mail is verzonden naar "{0}". Deze bevat een link om uw registratie te beve
     <StiFilterInclusionModeSelectionOnly>Alleen selectie</StiFilterInclusionModeSelectionOnly>
     <StiFilterItemArgument>Argument</StiFilterItemArgument>
     <StiFilterItemExpression>Expressie</StiFilterItemExpression>
+    <StiFilterItemSource>Bron</StiFilterItemSource>
+    <StiFilterItemTarget>Doel</StiFilterItemTarget>
     <StiFilterItemValue>Waarde</StiFilterItemValue>
     <StiFilterItemValueClose>Sluitwaarde</StiFilterItemValueClose>
     <StiFilterItemValueEnd>Eindwaarde</StiFilterItemValueEnd>
@@ -4107,6 +4115,11 @@ De e-mail is verzonden naar "{0}". Deze bevat een link om uw registratie te beve
     <CalcInvisible>Bereken op Achtergrond</CalcInvisible>
     <CalculatedDataColumn>Berekende Gegevens Kolom</CalculatedDataColumn>
     <CalculationMode>Berekeningsmode</CalculationMode>
+    <CalloutCaution>Kader Voorzichtig</CalloutCaution>
+    <CalloutImportant>Kader Belangrijk</CalloutImportant>
+    <CalloutNote>Kader Notitie</CalloutNote>
+    <CalloutTip>Kader Tip</CalloutTip>
+    <CalloutWarning>Kader Waarschuwing</CalloutWarning>
     <CanBreak>Kan Splitsen</CanBreak>
     <Cancel>Annuleren</Cancel>
     <CanGrow>Kan Groeien</CanGrow>
@@ -4150,6 +4163,7 @@ De e-mail is verzonden naar "{0}". Deze bevat een link om uw registratie te beve
     <CloneContainer>Kloon Container</CloneContainer>
     <CloseValues>Slotwaarden</CloseValues>
     <Code>Code</Code>
+    <CodeBackground>Code Achtergrond</CodeBackground>
     <CodePage>Code Pagina</CodePage>
     <Collapsed>Ingeklapt</Collapsed>
     <CollapseGroupFooter>Groep Voettekst Inklappen</CollapseGroupFooter>
@@ -4551,7 +4565,9 @@ De e-mail is verzonden naar "{0}". Deze bevat een link om uw registratie te beve
     <Linked>Verbonden</Linked>
     <ListOfArguments>Lijst van Argumenten</ListOfArguments>
     <ListOfHyperlinks>Lijst van Hyperlinks</ListOfHyperlinks>
+    <ListOfSources>Lijst van Bronnen</ListOfSources>
     <ListOfTags>Lijst van Tags</ListOfTags>
+    <ListOfTargets>Lijst van Doelen</ListOfTargets>
     <ListOfToolTips>Lijst van Tool Tip</ListOfToolTips>
     <ListOfValues>Lijst van Waardes</ListOfValues>
     <ListOfValuesClose>Lijst van Values Afsluiting</ListOfValuesClose>
@@ -4750,6 +4766,8 @@ De e-mail is verzonden naar "{0}". Deze bevat een link om uw registratie te beve
     <ProductHomePage>Product Thuis Pagina</ProductHomePage>
     <Property>Eigenschap</Property>
     <Provider>Provider</Provider>
+    <Quote>Citaat</Quote>
+    <QuoteBar>Citaatbalk</QuoteBar>
     <RadarStyle>Stijl Radar</RadarStyle>
     <RadialBarBorderBrush>Randpenseel radiale balk</RadialBarBorderBrush>
     <RadialBarBrush>Penseel radiale balk</RadialBarBrush>
@@ -4820,6 +4838,7 @@ De e-mail is verzonden naar "{0}". Deze bevat een link om uw registratie te beve
     <RowHeaderWidth>Rijkop Breedte</RowHeaderWidth>
     <Rows>Rijen</Rows>
     <RowsPerPage>Rijen per pagina</RowsPerPage>
+    <Rule>Horizontale Lijn</Rule>
     <Scale>Schaal</Scale>
     <ScaleHor>Schaal Hor</ScaleHor>
     <ScriptLanguage>Script-taal</ScriptLanguage>
@@ -4940,6 +4959,8 @@ De e-mail is verzonden naar "{0}". Deze bevat een link om uw registratie te beve
     <SortLetters>A-Z</SortLetters>
     <SortType>Sorteer Type</SortType>
     <Source>Bron</Source>
+    <SourceDataColumn>Bron Gegevens Kolom</SourceDataColumn>
+    <Sources>Bronnen</Sources>
     <Space>Spatie</Space>
     <SpaceRatio>Ruimteverhouding</SpaceRatio>
     <Spacing>Spatiëring</Spacing>
@@ -4995,9 +5016,11 @@ De e-mail is verzonden naar "{0}". Deze bevat een link om uw registratie te beve
     <TagValue>Tag Waarde</TagValue>
     <Target>Doel</Target>
     <TargetColor>Doelkleur</TargetColor>
+    <TargetDataColumn>Doel Gegevens Kolom</TargetDataColumn>
     <TargetFormat>Doelindeling</TargetFormat>
     <TargetIcon>Doelpictogram</TargetIcon>
     <TargetMode>Doelmodus</TargetMode>
+    <Targets>Doelen</Targets>
     <TargetSettings>Doel</TargetSettings>
     <Tension>Spanning</Tension>
     <Text>Tekst</Text>
@@ -5138,6 +5161,7 @@ De e-mail is verzonden naar "{0}". Deze bevat een link om uw registratie te beve
     <Weights>Gewichten</Weights>
     <Width>Breedte</Width>
     <WindowState>Venster Status</WindowState>
+    <WinLoss>Winst / Verlies</WinLoss>
     <WinLossNegative>Winst-verlies negatief</WinLossNegative>
     <WinLossPositive>Winst-verlies positief</WinLossPositive>
     <WordWrap>Tekst Terugloop</WordWrap>
@@ -5319,6 +5343,7 @@ De e-mail is verzonden naar "{0}". Deze bevat een link om uw registratie te beve
     <ClickForMoreDetails>Druk voor Meer Details</ClickForMoreDetails>
     <ClickHereToCreateNewCondition>om een nieuwe voorwaarde te maken</ClickHereToCreateNewCondition>
     <ClickHereToCreateNewField>om een nieuw veld te maken</ClickHereToCreateNewField>
+    <ClickHereToCreateNewFilter>om een nieuw filter te maken</ClickHereToCreateNewFilter>
     <CollapseAll>Alles Inklappen</CollapseAll>
     <Collection>Verzameling</Collection>
     <CompilationAccess>Compilatietoegang</CompilationAccess>

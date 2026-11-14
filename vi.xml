@@ -303,6 +303,7 @@
     <RemoveStrip>Xóa dải</RemoveStrip>
     <Ribbon>Mảnh</Ribbon>
     <RunChartWizard>Chạy thuật sĩ biểu đồ</RunChartWizard>
+    <Sankey>Biểu đồ Sankey</Sankey>
     <Scatter>Phân tán</Scatter>
     <ScatterLine>Đường phân tán</ScatterLine>
     <ScatterSpline>Lưỡi gà phân tán</ScatterSpline>
@@ -2677,6 +2678,9 @@
     <AuthRoleNameIsSystemRole>Vai trò với tên được chỉ định "{0}" là vai trò của hệ thống!</AuthRoleNameIsSystemRole>
     <AuthSendMessageWithInstructions>Thông báo với hướng dẫn thêm được gửi tới "{0}"!</AuthSendMessageWithInstructions>
     <AuthTokenIsNotCorrect>Mã thông báo không đúng!</AuthTokenIsNotCorrect>
+    <AuthTwoFactorCodeIsNotCorrect>Mã xác thực hai yếu tố không đúng!</AuthTwoFactorCodeIsNotCorrect>
+    <AuthTwoFactorCodeIsRequired>Mã xác thực hai yếu tố là bắt buộc!</AuthTwoFactorCodeIsRequired>
+    <AuthTwoFactorIsExpired>Xác thực hai yếu tố đã hết hạn. Hãy đăng nhập lại!</AuthTwoFactorIsExpired>
     <AuthUserHasLoggedOut>Bạn đã đăng xuất!</AuthUserHasLoggedOut>
     <AuthUserHasLoggedOutPrevDevice>Ai đó đã đăng nhập vào tài khoản của bạn trên thiết bị khác. Hãy đăng nhập lại để tiếp tục.</AuthUserHasLoggedOutPrevDevice>
     <AuthUserNameAlreadyExists>Tên người dùng (thư điện tử) đã được sử dụng!</AuthUserNameAlreadyExists>
@@ -3006,9 +3010,11 @@
     <SeriesLabelsCategory>Nhãn dòng</SeriesLabelsCategory>
     <ShapeCategory>Hình dáng</ShapeCategory>
     <Size>Kích cỡ</Size>
+    <SourceCategory>Nguồn</SourceCategory>
     <SubReportCategory>Báo cáo phụ</SubReportCategory>
     <TableCategory>Bảng</TableCategory>
     <TableOfContents>Mục lục</TableOfContents>
+    <TargetCategory>Mục tiêu</TargetCategory>
     <TextAdditionalCategory>Văn bản bổ sung</TextAdditionalCategory>
     <TextCategory>Văn bản</TextCategory>
     <TickLabelMajorCategory>Đánh dấu vào nhãn chính</TickLabelMajorCategory>
@@ -3447,6 +3453,8 @@
     <StiFilterInclusionModeSelectionOnly>Chỉ vùng chọn</StiFilterInclusionModeSelectionOnly>
     <StiFilterItemArgument>Đối số</StiFilterItemArgument>
     <StiFilterItemExpression>Biểu thức</StiFilterItemExpression>
+    <StiFilterItemSource>Nguồn</StiFilterItemSource>
+    <StiFilterItemTarget>Mục tiêu</StiFilterItemTarget>
     <StiFilterItemValue>Giá trị</StiFilterItemValue>
     <StiFilterItemValueClose>Giá trị đóng</StiFilterItemValueClose>
     <StiFilterItemValueEnd>Giá trị kết thúc</StiFilterItemValueEnd>
@@ -4110,6 +4118,11 @@
     <CalcInvisible>Tính toán mức độ ẩn</CalcInvisible>
     <CalculatedDataColumn>Cột dữ liệu tính toán</CalculatedDataColumn>
     <CalculationMode>Chế độ tính toán</CalculationMode>
+    <CalloutCaution>Hộp Thận trọng</CalloutCaution>
+    <CalloutImportant>Hộp Quan trọng</CalloutImportant>
+    <CalloutNote>Hộp Ghi chú</CalloutNote>
+    <CalloutTip>Hộp Mẹo</CalloutTip>
+    <CalloutWarning>Hộp Cảnh báo</CalloutWarning>
     <CanBreak>Có thể ngắt</CanBreak>
     <Cancel>Hủy</Cancel>
     <CanGrow>Có thể phát triển</CanGrow>
@@ -4153,6 +4166,7 @@
     <CloneContainer>Nhân bản thành phần chứa</CloneContainer>
     <CloseValues>Giá trị đóng</CloseValues>
     <Code>Mã</Code>
+    <CodeBackground>Nền mã</CodeBackground>
     <CodePage>Mã trang</CodePage>
     <Collapsed>Đã thu gọn</Collapsed>
     <CollapseGroupFooter>Thu gọn nhóm chân trang</CollapseGroupFooter>
@@ -4554,7 +4568,9 @@
     <Linked>Đã liên kết</Linked>
     <ListOfArguments>Danh sách đối số</ListOfArguments>
     <ListOfHyperlinks>Danh sách liên kết</ListOfHyperlinks>
+    <ListOfSources>Danh sách nguồn</ListOfSources>
     <ListOfTags>Danh sách thẻ</ListOfTags>
+    <ListOfTargets>Danh sách mục tiêu</ListOfTargets>
     <ListOfToolTips>Danh sách chú thích</ListOfToolTips>
     <ListOfValues>Danh sách giá trị</ListOfValues>
     <ListOfValuesClose>Danh sách giá trị đóng</ListOfValuesClose>
@@ -4753,6 +4769,8 @@
     <ProductHomePage>Trang chủ sản phẩm</ProductHomePage>
     <Property>Tính chất</Property>
     <Provider>Các nhà cung cấp</Provider>
+    <Quote>Trích dẫn</Quote>
+    <QuoteBar>Thanh trích dẫn</QuoteBar>
     <RadarStyle>Phong cách mạng nhện</RadarStyle>
     <RadialBarBorderBrush>Cọ viền thanh xuyên tâm</RadialBarBorderBrush>
     <RadialBarBrush>Cọ thanh xuyên tâm</RadialBarBrush>
@@ -4823,6 +4841,7 @@
     <RowHeaderWidth>Chiều rộng đầu hàng</RowHeaderWidth>
     <Rows>Hàng</Rows>
     <RowsPerPage>Hàng trên mỗi trang</RowsPerPage>
+    <Rule>Đường thẳng ngang</Rule>
     <Scale>Tỉ lệ</Scale>
     <ScaleHor>Tỉ lệ ngang</ScaleHor>
     <ScriptLanguage>Ngôn ngữ kịch bản</ScriptLanguage>
@@ -4879,6 +4898,7 @@
     <ShortValue>Giá trị ngắn</ShortValue>
     <Show3D>Hiển thị 3D</Show3D>
     <ShowAllValue>Hiển thị tất cả giá trị</ShowAllValue>
+    <ShowAsIndex>Hiển thị dưới dạng chỉ mục</ShowAsIndex>
     <ShowBehind>Hiển thị đằng sau</ShowBehind>
     <ShowBlanks>Hiển thị Trống</ShowBlanks>
     <ShowBubble>Hiển thị bong bóng</ShowBubble>
@@ -4942,6 +4962,8 @@
     <SortLetters>A-Z</SortLetters>
     <SortType>Kiểu sắp xếp</SortType>
     <Source>Nguồn</Source>
+    <SourceDataColumn>Cột dữ liệu nguồn</SourceDataColumn>
+    <Sources>Các nguồn</Sources>
     <Space>Không gian</Space>
     <SpaceRatio>Tỷ lệ không gian</SpaceRatio>
     <Spacing>Khoảng cách</Spacing>
@@ -4997,9 +5019,11 @@
     <TagValue>Giá trị thẻ</TagValue>
     <Target>Mục tiêu</Target>
     <TargetColor>Màu mục tiêu </TargetColor>
+    <TargetDataColumn>Cột dữ liệu mục tiêu</TargetDataColumn>
     <TargetFormat>Định dạng đích</TargetFormat>
     <TargetIcon>Biểu tượng mục tiêu</TargetIcon>
     <TargetMode>Chế độ mục tiêu</TargetMode>
+    <Targets>Các mục tiêu</Targets>
     <TargetSettings>Mục tiêu</TargetSettings>
     <Tension>Sức căng</Tension>
     <Text>Văn bản</Text>
@@ -5140,6 +5164,7 @@
     <Weights>Các trọng số</Weights>
     <Width>Chiều rộng</Width>
     <WindowState>Trạng thái cửa sổ</WindowState>
+    <WinLoss>Thắng / Thua</WinLoss>
     <WinLossNegative>Thắng thua âm</WinLossNegative>
     <WinLossPositive>Thắng thua dương</WinLossPositive>
     <WordWrap>Ngắt từ</WordWrap>
@@ -5321,6 +5346,7 @@
     <ClickForMoreDetails>Nhấp để biết thêm chi tiết</ClickForMoreDetails>
     <ClickHereToCreateNewCondition>để tạo điều kiện mới</ClickHereToCreateNewCondition>
     <ClickHereToCreateNewField>để tạo trường mới</ClickHereToCreateNewField>
+    <ClickHereToCreateNewFilter>để tạo bộ lọc mới</ClickHereToCreateNewFilter>
     <CollapseAll>Thu gọn tất cả</CollapseAll>
     <Collection>Bộ sưu tập</Collection>
     <CompilationAccess>Quyền truy cập biên dịch</CompilationAccess>

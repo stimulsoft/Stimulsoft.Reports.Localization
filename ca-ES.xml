@@ -303,6 +303,7 @@
     <RemoveStrip>Elimina la franja</RemoveStrip>
     <Ribbon>Cinta</Ribbon>
     <RunChartWizard>Inicia l’assistent de &amp;gràfics</RunChartWizard>
+    <Sankey>Sankey</Sankey>
     <Scatter>Dispersió</Scatter>
     <ScatterLine>Dispersió amb línies</ScatterLine>
     <ScatterSpline>Dispersió amb línies rectes</ScatterSpline>
@@ -2674,6 +2675,9 @@ S'ha enviat un correu electrònic a "{0}". Conté un enllaç per confirmar el vo
     <AuthRoleNameIsSystemRole>El rol amb el nom especificat "{0}" és un rol del sistema!</AuthRoleNameIsSystemRole>
     <AuthSendMessageWithInstructions>S'ha enviat un missatge amb més instruccions a "{0}"!</AuthSendMessageWithInstructions>
     <AuthTokenIsNotCorrect>El token no és correcte!</AuthTokenIsNotCorrect>
+    <AuthTwoFactorCodeIsNotCorrect>El codi d'autenticació de dos factors no és correcte!</AuthTwoFactorCodeIsNotCorrect>
+    <AuthTwoFactorCodeIsRequired>El codi d'autenticació de dos factors és obligatori!</AuthTwoFactorCodeIsRequired>
+    <AuthTwoFactorIsExpired>L'autenticació de dos factors ha caducat. Torna a iniciar sessió!</AuthTwoFactorIsExpired>
     <AuthUserHasLoggedOut>Has tancat la sessió!</AuthUserHasLoggedOut>
     <AuthUserHasLoggedOutPrevDevice>Algú ha iniciat sessió al teu compte des d'un altre dispositiu. Torna a iniciar sessió per continuar.</AuthUserHasLoggedOutPrevDevice>
     <AuthUserNameAlreadyExists>El nom d'usuari (Correu electrònic) ja està en ús!</AuthUserNameAlreadyExists>
@@ -3003,9 +3007,11 @@ S'ha enviat un correu electrònic a "{0}". Conté un enllaç per confirmar el vo
     <SeriesLabelsCategory>Etiquetes de la sèrie</SeriesLabelsCategory>
     <ShapeCategory>Forma</ShapeCategory>
     <Size>Mida</Size>
+    <SourceCategory>Font</SourceCategory>
     <SubReportCategory>Subinforme</SubReportCategory>
     <TableCategory>Taula</TableCategory>
     <TableOfContents>Taula de continguts</TableOfContents>
+    <TargetCategory>Objectiu</TargetCategory>
     <TextAdditionalCategory>Text addicional</TextAdditionalCategory>
     <TextCategory>Text</TextCategory>
     <TickLabelMajorCategory>Etiqueta de marca principal</TickLabelMajorCategory>
@@ -3444,6 +3450,8 @@ S'ha enviat un correu electrònic a "{0}". Conté un enllaç per confirmar el vo
     <StiFilterInclusionModeSelectionOnly>Només la selecció</StiFilterInclusionModeSelectionOnly>
     <StiFilterItemArgument>Argument</StiFilterItemArgument>
     <StiFilterItemExpression>Expressió</StiFilterItemExpression>
+    <StiFilterItemSource>Font</StiFilterItemSource>
+    <StiFilterItemTarget>Objectiu</StiFilterItemTarget>
     <StiFilterItemValue>Valor</StiFilterItemValue>
     <StiFilterItemValueClose>Valor tancament</StiFilterItemValueClose>
     <StiFilterItemValueEnd>Valor final</StiFilterItemValueEnd>
@@ -3714,14 +3722,14 @@ S'ha enviat un correu electrònic a "{0}". Conté un enllaç per confirmar el vo
     <StiSelectionModeFromVariable>Des de la variable</StiSelectionModeFromVariable>
     <StiSelectionModeNothing>Res</StiSelectionModeNothing>
     <StiSeriesLabelsValueTypeArgument>Argument</StiSeriesLabelsValueTypeArgument>
-    <StiSeriesLabelsValueTypeArgumentValue>Argument – valor</StiSeriesLabelsValueTypeArgumentValue>
+    <StiSeriesLabelsValueTypeArgumentValue>Argument - valor</StiSeriesLabelsValueTypeArgumentValue>
     <StiSeriesLabelsValueTypeSeriesTitle>Títol de sèrie</StiSeriesLabelsValueTypeSeriesTitle>
-    <StiSeriesLabelsValueTypeSeriesTitleArgument>Títol de sèrie – argument</StiSeriesLabelsValueTypeSeriesTitleArgument>
-    <StiSeriesLabelsValueTypeSeriesTitleValue>Títol de sèrie – valor</StiSeriesLabelsValueTypeSeriesTitleValue>
+    <StiSeriesLabelsValueTypeSeriesTitleArgument>Títol de sèrie - argument</StiSeriesLabelsValueTypeSeriesTitleArgument>
+    <StiSeriesLabelsValueTypeSeriesTitleValue>Títol de sèrie - valor</StiSeriesLabelsValueTypeSeriesTitleValue>
     <StiSeriesLabelsValueTypeTag>Etiqueta</StiSeriesLabelsValueTypeTag>
     <StiSeriesLabelsValueTypeTotal>Total</StiSeriesLabelsValueTypeTotal>
     <StiSeriesLabelsValueTypeValue>Valor</StiSeriesLabelsValueTypeValue>
-    <StiSeriesLabelsValueTypeValueArgument>Valor – argument</StiSeriesLabelsValueTypeValueArgument>
+    <StiSeriesLabelsValueTypeValueArgument>Valor - argument</StiSeriesLabelsValueTypeValueArgument>
     <StiSeriesLabelsValueTypeWeight>Pes</StiSeriesLabelsValueTypeWeight>
     <StiSeriesSortDirectionAscending>Ascendent</StiSeriesSortDirectionAscending>
     <StiSeriesSortDirectionDescending>Descendent</StiSeriesSortDirectionDescending>
@@ -4107,6 +4115,11 @@ S'ha enviat un correu electrònic a "{0}". Conté un enllaç per confirmar el vo
     <CalcInvisible>Calcula invisibles</CalcInvisible>
     <CalculatedDataColumn>Columna de dades calculat</CalculatedDataColumn>
     <CalculationMode>Mode de càlcul</CalculationMode>
+    <CalloutCaution>Requadre Precaució</CalloutCaution>
+    <CalloutImportant>Requadre Important</CalloutImportant>
+    <CalloutNote>Requadre Nota</CalloutNote>
+    <CalloutTip>Requadre Consell</CalloutTip>
+    <CalloutWarning>Requadre Advertiment</CalloutWarning>
     <CanBreak>Permet interrompre</CanBreak>
     <Cancel>Cancel·la</Cancel>
     <CanGrow>Pot créixer</CanGrow>
@@ -4150,6 +4163,7 @@ S'ha enviat un correu electrònic a "{0}". Conté un enllaç per confirmar el vo
     <CloneContainer>Clona el contenidor</CloneContainer>
     <CloseValues>Valors de tancament</CloseValues>
     <Code>Codi</Code>
+    <CodeBackground>Fons del codi</CodeBackground>
     <CodePage>Codi de pàgina</CodePage>
     <Collapsed>Replegat</Collapsed>
     <CollapseGroupFooter>Replega grup de peu</CollapseGroupFooter>
@@ -4551,7 +4565,9 @@ S'ha enviat un correu electrònic a "{0}". Conté un enllaç per confirmar el vo
     <Linked>Lligat</Linked>
     <ListOfArguments>Llista d’arguments</ListOfArguments>
     <ListOfHyperlinks>Llista d’hiperenllaços</ListOfHyperlinks>
+    <ListOfSources>Llista de fonts</ListOfSources>
     <ListOfTags>Llista d’etiquetes</ListOfTags>
+    <ListOfTargets>Llista d’objectius</ListOfTargets>
     <ListOfToolTips>Llista de suggeriments</ListOfToolTips>
     <ListOfValues>Llista de valors</ListOfValues>
     <ListOfValuesClose>Llista de valors de tancament</ListOfValuesClose>
@@ -4750,6 +4766,8 @@ S'ha enviat un correu electrònic a "{0}". Conté un enllaç per confirmar el vo
     <ProductHomePage>Lloc web del producte</ProductHomePage>
     <Property>Propietat</Property>
     <Provider>Proveïdor</Provider>
+    <Quote>Cita</Quote>
+    <QuoteBar>Barra de cita</QuoteBar>
     <RadarStyle>Estil radar</RadarStyle>
     <RadialBarBorderBrush>Pinzell de vora de barra radial</RadialBarBorderBrush>
     <RadialBarBrush>Pinzell de barra radial</RadialBarBrush>
@@ -4820,6 +4838,7 @@ S'ha enviat un correu electrònic a "{0}". Conté un enllaç per confirmar el vo
     <RowHeaderWidth>Amplada de la fila de capçalera</RowHeaderWidth>
     <Rows>Files</Rows>
     <RowsPerPage>Files per pàgina</RowsPerPage>
+    <Rule>Línia horitzontal</Rule>
     <Scale>Escala</Scale>
     <ScaleHor>Escala horitzontal</ScaleHor>
     <ScriptLanguage>Llenguatge de l’Script</ScriptLanguage>
@@ -4876,6 +4895,7 @@ S'ha enviat un correu electrònic a "{0}". Conté un enllaç per confirmar el vo
     <ShortValue>Valor curt</ShortValue>
     <Show3D>Mostrar 3D</Show3D>
     <ShowAllValue>Mostrar tots els valors</ShowAllValue>
+    <ShowAsIndex>Mostra com a índex</ShowAsIndex>
     <ShowBehind>Mostra al darrere</ShowBehind>
     <ShowBlanks>Mostrar espais en blanc</ShowBlanks>
     <ShowBubble>Mostrar bombolla</ShowBubble>
@@ -4939,6 +4959,8 @@ S'ha enviat un correu electrònic a "{0}". Conté un enllaç per confirmar el vo
     <SortLetters>A-Z</SortLetters>
     <SortType>Tipus d’ordenació</SortType>
     <Source>Font</Source>
+    <SourceDataColumn>Font de columna de dades</SourceDataColumn>
+    <Sources>Fonts</Sources>
     <Space>Espai</Space>
     <SpaceRatio>Relació d'espai</SpaceRatio>
     <Spacing>Espaiat</Spacing>
@@ -4994,9 +5016,11 @@ S'ha enviat un correu electrònic a "{0}". Conté un enllaç per confirmar el vo
     <TagValue>Valor d’etiqueta</TagValue>
     <Target>Objectiu</Target>
     <TargetColor>Color de l'objectiu</TargetColor>
+    <TargetDataColumn>Objectiu de columna de dades</TargetDataColumn>
     <TargetFormat>Format de l'objectiu</TargetFormat>
     <TargetIcon>Icona de l'objectiu</TargetIcon>
     <TargetMode>Mode de l'objectiu</TargetMode>
+    <Targets>Objectius</Targets>
     <TargetSettings>Objectiu</TargetSettings>
     <Tension>Tensió</Tension>
     <Text>Text</Text>
@@ -5137,6 +5161,7 @@ S'ha enviat un correu electrònic a "{0}". Conté un enllaç per confirmar el vo
     <Weights>Pesos</Weights>
     <Width>Amplada</Width>
     <WindowState>Estat de la finestra</WindowState>
+    <WinLoss>Guany / Pèrdua</WinLoss>
     <WinLossNegative>Guany-pèrdua negatiu</WinLossNegative>
     <WinLossPositive>Guany-pèrdua positiu</WinLossPositive>
     <WordWrap>Dobla línies</WordWrap>
@@ -5318,6 +5343,7 @@ S'ha enviat un correu electrònic a "{0}". Conté un enllaç per confirmar el vo
     <ClickForMoreDetails>Cliqueu per obtenir més detalls</ClickForMoreDetails>
     <ClickHereToCreateNewCondition>per crear una nova condició</ClickHereToCreateNewCondition>
     <ClickHereToCreateNewField>per crear un nou camp</ClickHereToCreateNewField>
+    <ClickHereToCreateNewFilter>per crear un nou filtre</ClickHereToCreateNewFilter>
     <CollapseAll>Replega-ho tot</CollapseAll>
     <Collection>Col·lecció</Collection>
     <CompilationAccess>Accés de compilació</CompilationAccess>

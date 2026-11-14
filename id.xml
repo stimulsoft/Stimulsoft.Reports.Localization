@@ -303,6 +303,7 @@
     <RemoveStrip>Hilangkan Lajur</RemoveStrip>
     <Ribbon>Pita</Ribbon>
     <RunChartWizard>Jalankan Grafik &amp;Wizard</RunChartWizard>
+    <Sankey>Sankey</Sankey>
     <Scatter>Penyebaran</Scatter>
     <ScatterLine>Garis Penyebaran</ScatterLine>
     <ScatterSpline>Penyebaran Spline</ScatterSpline>
@@ -581,20 +582,20 @@
     <TextRun>Jalankan</TextRun>
     <TextUser>Pengguna</TextUser>
     <TextUserName>User Name (Email)</TextUserName>
-    <TimeHoursAgoFive>Lima jam lalu, {0: t}</TimeHoursAgoFive>
-    <TimeHoursAgoFour>Empat jam yang lalu, {0: t}</TimeHoursAgoFour>
-    <TimeHoursAgoOne>Satu jam yang lalu, {0: t}</TimeHoursAgoOne>
-    <TimeHoursAgoThree>Tiga jam yang lalu, {0: t}</TimeHoursAgoThree>
-    <TimeHoursAgoTwo>Dua jam yang lalu, {0: t}</TimeHoursAgoTwo>
-    <TimeMinutesAgoFive>Lima menit yang lalu, {0: t}</TimeMinutesAgoFive>
-    <TimeMinutesAgoFour>Empat menit yang lalu, {0: t}</TimeMinutesAgoFour>
+    <TimeHoursAgoFive>Lima jam lalu, {0:t}</TimeHoursAgoFive>
+    <TimeHoursAgoFour>Empat jam yang lalu, {0:t}</TimeHoursAgoFour>
+    <TimeHoursAgoOne>Satu jam yang lalu, {0:t}</TimeHoursAgoOne>
+    <TimeHoursAgoThree>Tiga jam yang lalu, {0:t}</TimeHoursAgoThree>
+    <TimeHoursAgoTwo>Dua jam yang lalu, {0:t}</TimeHoursAgoTwo>
+    <TimeMinutesAgoFive>Lima menit yang lalu, {0:t}</TimeMinutesAgoFive>
+    <TimeMinutesAgoFour>Empat menit yang lalu, {0:t}</TimeMinutesAgoFour>
     <TimeMinutesAgoLessOne>Kurang dari satu menit yang lalu</TimeMinutesAgoLessOne>
-    <TimeMinutesAgoN>{0} menit yang lalu, {1: t}</TimeMinutesAgoN>
-    <TimeMinutesAgoOne>Satu menit yang lalu, {0: t}</TimeMinutesAgoOne>
-    <TimeMinutesAgoThree>Tiga menit yang lalu, {0: t}</TimeMinutesAgoThree>
-    <TimeMinutesAgoTwo>Dua menit yang lalu, {0: t}</TimeMinutesAgoTwo>
-    <TimeToday>Hari ini, {0: t}</TimeToday>
-    <TimeYesterday>Kemarin, {0: t}</TimeYesterday>
+    <TimeMinutesAgoN>{0} menit yang lalu, {1:t}</TimeMinutesAgoN>
+    <TimeMinutesAgoOne>Satu menit yang lalu, {0:t}</TimeMinutesAgoOne>
+    <TimeMinutesAgoThree>Tiga menit yang lalu, {0:t}</TimeMinutesAgoThree>
+    <TimeMinutesAgoTwo>Dua menit yang lalu, {0:t}</TimeMinutesAgoTwo>
+    <TimeToday>Hari ini, {0:t}</TimeToday>
+    <TimeYesterday>Kemarin, {0:t}</TimeYesterday>
     <ToolTipAddRole>Membuat peran baru dalam ruang kerja.</ToolTipAddRole>
     <ToolTipAddUser>Membuat pengguna baru dalam peran yang dipilih.</ToolTipAddUser>
     <ToolTipAspNet>Publikasikan laporan yang dipilih untuk aplikasi ASP.NET.</ToolTipAspNet>
@@ -2676,6 +2677,9 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <AuthRoleNameIsSystemRole>Peran dengan nama tertentu "{0}" adalah peran sistem!</AuthRoleNameIsSystemRole>
     <AuthSendMessageWithInstructions>Suatu pesan dengan instruksi lebih lanjut dikirim ke "{0}"!</AuthSendMessageWithInstructions>
     <AuthTokenIsNotCorrect>Token tidak benar!</AuthTokenIsNotCorrect>
+    <AuthTwoFactorCodeIsNotCorrect>Kode otentikasi dua faktor tidak benar!</AuthTwoFactorCodeIsNotCorrect>
+    <AuthTwoFactorCodeIsRequired>Kode otentikasi dua faktor diperlukan!</AuthTwoFactorCodeIsRequired>
+    <AuthTwoFactorIsExpired>Otentikasi dua faktor sudah kedaluwarsa. Silakan masuk kembali!</AuthTwoFactorIsExpired>
     <AuthUserHasLoggedOut>Anda telah log out!</AuthUserHasLoggedOut>
     <AuthUserHasLoggedOutPrevDevice>Seseorang masuk ke akun Anda dari perangkat lain. Masuk kembali untuk melanjutkan.</AuthUserHasLoggedOutPrevDevice>
     <AuthUserNameAlreadyExists>Username (Email) sudah digunakan!</AuthUserNameAlreadyExists>
@@ -3005,9 +3009,11 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <SeriesLabelsCategory>Seri Label</SeriesLabelsCategory>
     <ShapeCategory>Bentuk</ShapeCategory>
     <Size>Ukuran</Size>
+    <SourceCategory>Sumber</SourceCategory>
     <SubReportCategory>Sub-Laporan</SubReportCategory>
     <TableCategory>Table</TableCategory>
     <TableOfContents>Table of Contents</TableOfContents>
+    <TargetCategory>Sasaran</TargetCategory>
     <TextAdditionalCategory>Tambahan tulisan</TextAdditionalCategory>
     <TextCategory>tulisan</TextCategory>
     <TickLabelMajorCategory>Centang Label Mayor</TickLabelMajorCategory>
@@ -3446,6 +3452,8 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <StiFilterInclusionModeSelectionOnly>Hanya Pilihan</StiFilterInclusionModeSelectionOnly>
     <StiFilterItemArgument>Penjelasan</StiFilterItemArgument>
     <StiFilterItemExpression>Ekspresi</StiFilterItemExpression>
+    <StiFilterItemSource>Sumber</StiFilterItemSource>
+    <StiFilterItemTarget>Sasaran</StiFilterItemTarget>
     <StiFilterItemValue>Nilai</StiFilterItemValue>
     <StiFilterItemValueClose>Nilai Tertutup</StiFilterItemValueClose>
     <StiFilterItemValueEnd>Nilai Terakhir</StiFilterItemValueEnd>
@@ -4109,6 +4117,11 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <CalcInvisible>Perhitungan Tidak Terlihat</CalcInvisible>
     <CalculatedDataColumn>Perhitungan Kolom Data</CalculatedDataColumn>
     <CalculationMode>Mode Perhitungan</CalculationMode>
+    <CalloutCaution>Kotak Hati-hati</CalloutCaution>
+    <CalloutImportant>Kotak Penting</CalloutImportant>
+    <CalloutNote>Kotak Catatan</CalloutNote>
+    <CalloutTip>Kotak Tips</CalloutTip>
+    <CalloutWarning>Kotak Peringatan</CalloutWarning>
     <CanBreak>Dapat Terputus</CanBreak>
     <Cancel>Tunda</Cancel>
     <CanGrow>Dapat Membesar</CanGrow>
@@ -4152,6 +4165,7 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <CloneContainer>Copy Container</CloneContainer>
     <CloseValues>Close Values</CloseValues>
     <Code>Kode</Code>
+    <CodeBackground>Latar Belakang Kode</CodeBackground>
     <CodePage>Kode Halaman</CodePage>
     <Collapsed>Telah Mengempis</Collapsed>
     <CollapseGroupFooter>Collapse Group Footer</CollapseGroupFooter>
@@ -4553,7 +4567,9 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <Linked>Tersambung</Linked>
     <ListOfArguments>Daftar Argument</ListOfArguments>
     <ListOfHyperlinks>Daftar Hyperlink</ListOfHyperlinks>
+    <ListOfSources>Daftar Sumber</ListOfSources>
     <ListOfTags>Daftar Label</ListOfTags>
+    <ListOfTargets>Daftar Sasaran</ListOfTargets>
     <ListOfToolTips>Daftar Tool Tip</ListOfToolTips>
     <ListOfValues>Daftar Nilai</ListOfValues>
     <ListOfValuesClose>Daftar Nilai Tertutup</ListOfValuesClose>
@@ -4752,6 +4768,8 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <ProductHomePage>Halaman Rumah Produk</ProductHomePage>
     <Property>Properti</Property>
     <Provider>Pemberi</Provider>
+    <Quote>Kutipan</Quote>
+    <QuoteBar>Bilah Kutipan</QuoteBar>
     <RadarStyle>Bentuk Radar</RadarStyle>
     <RadialBarBorderBrush>Radial Bar Border Brush</RadialBarBorderBrush>
     <RadialBarBrush>Radial Bar Brush</RadialBarBrush>
@@ -4822,6 +4840,7 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <RowHeaderWidth>Lebar Baris Header</RowHeaderWidth>
     <Rows>Baris</Rows>
     <RowsPerPage>Baris per Halaman</RowsPerPage>
+    <Rule>Garis Horisontal</Rule>
     <Scale>Skala</Scale>
     <ScaleHor>Skala Hor</ScaleHor>
     <ScriptLanguage>Bahasa Script</ScriptLanguage>
@@ -4878,6 +4897,7 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <ShortValue>Nilai Pendek</ShortValue>
     <Show3D>Tampilkan 3D</Show3D>
     <ShowAllValue>Tampilkan Semua Nilai</ShowAllValue>
+    <ShowAsIndex>Tampilkan sebagai Indeks</ShowAsIndex>
     <ShowBehind>Perlihatkan Di Belakang</ShowBehind>
     <ShowBlanks>Tampilkan Kosong</ShowBlanks>
     <ShowBubble>Tampilkan Gelembung</ShowBubble>
@@ -4941,6 +4961,8 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <SortLetters>A-Z</SortLetters>
     <SortType>Tipe Urutan</SortType>
     <Source>Sumber</Source>
+    <SourceDataColumn>Kolom Data Sumber</SourceDataColumn>
+    <Sources>Sumber</Sources>
     <Space>Jarak</Space>
     <SpaceRatio>SRasio Ruang</SpaceRatio>
     <Spacing>Penentuan Jarak</Spacing>
@@ -4996,9 +5018,11 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <TagValue>Nilai Pengingat</TagValue>
     <Target>Sasaran</Target>
     <TargetColor>Warna Targetr</TargetColor>
+    <TargetDataColumn>Kolom Data Sasaran</TargetDataColumn>
     <TargetFormat>Format Target</TargetFormat>
     <TargetIcon>Ikon Sasaran</TargetIcon>
     <TargetMode>Modus Target</TargetMode>
+    <Targets>Sasaran</Targets>
     <TargetSettings>Sasaran</TargetSettings>
     <Tension>Tekanan</Tension>
     <Text>Tulisan</Text>
@@ -5139,6 +5163,7 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <Weights>Berat</Weights>
     <Width>Lebar</Width>
     <WindowState>Penamaam Jendela</WindowState>
+    <WinLoss>Menang / Kalah</WinLoss>
     <WinLossNegative>Menang Kalah Negatif</WinLossNegative>
     <WinLossPositive>Menang Kalah Positif</WinLossPositive>
     <WordWrap>Kelilingi Kata</WordWrap>
@@ -5320,6 +5345,7 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <ClickForMoreDetails>Klik untuk detail lebih lanjut</ClickForMoreDetails>
     <ClickHereToCreateNewCondition>untuk membuat kondisi baru</ClickHereToCreateNewCondition>
     <ClickHereToCreateNewField>untuk membuat bidang baru</ClickHereToCreateNewField>
+    <ClickHereToCreateNewFilter>untuk membuat filter baru</ClickHereToCreateNewFilter>
     <CollapseAll>Collapse All</CollapseAll>
     <Collection>Koleksi</Collection>
     <CompilationAccess>Akses Kompilasi</CompilationAccess>

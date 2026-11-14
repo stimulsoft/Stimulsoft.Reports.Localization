@@ -303,6 +303,7 @@
     <RemoveStrip>Αφαίρεση Λωρίδας</RemoveStrip>
     <Ribbon>Κορδέλα</Ribbon>
     <RunChartWizard>Άνοιγμα &amp;Οδηγού Κατασκευής Διαγράμματος</RunChartWizard>
+    <Sankey>Sankey</Sankey>
     <Scatter>Γράφημα Διασποράς</Scatter>
     <ScatterLine>Γράφημα Διασποράς Με Γραμμές</ScatterLine>
     <ScatterSpline>Γράφημα Διασποράς Με Spline</ScatterSpline>
@@ -2675,6 +2676,9 @@
     <AuthRoleNameIsSystemRole>Ο ρόλος με το καθορισμένο όνομα "{0}" είναι ρόλος συστήματος!</AuthRoleNameIsSystemRole>
     <AuthSendMessageWithInstructions>Ένα μήνυμα με επιπλέον οδηγίες στάλθηκε στο "{0}"!</AuthSendMessageWithInstructions>
     <AuthTokenIsNotCorrect>Το Token δεν είναι σωστό!</AuthTokenIsNotCorrect>
+    <AuthTwoFactorCodeIsNotCorrect>Ο κωδικός ελέγχου ταυτότητας δύο παραγόντων δεν είναι σωστός!</AuthTwoFactorCodeIsNotCorrect>
+    <AuthTwoFactorCodeIsRequired>Απαιτείται ο κωδικός ελέγχου ταυτότητας δύο παραγόντων!</AuthTwoFactorCodeIsRequired>
+    <AuthTwoFactorIsExpired>Ο έλεγχος ταυτότητας δύο παραγόντων έχει λήξει. Συνδεθείτε ξανά!</AuthTwoFactorIsExpired>
     <AuthUserHasLoggedOut>Είστε αποσυνδεδεμένος!</AuthUserHasLoggedOut>
     <AuthUserHasLoggedOutPrevDevice>Κάποιος συνδέθηκε στον λογαριασμό σας από άλλη συσκευή. Συνδεθείτε ξανά για να συνεχίσετε.</AuthUserHasLoggedOutPrevDevice>
     <AuthUserNameAlreadyExists>Το όνομα χρήστη (Email) χρησιμοποιείται ήδη!</AuthUserNameAlreadyExists>
@@ -3004,9 +3008,11 @@
     <SeriesLabelsCategory>Ετικέτες Σειρών Δεδομένων</SeriesLabelsCategory>
     <ShapeCategory>Σχήμα</ShapeCategory>
     <Size>Μέγεθος</Size>
+    <SourceCategory>Πηγή</SourceCategory>
     <SubReportCategory>Υπο-Αναφορά</SubReportCategory>
     <TableCategory>Πίνακας</TableCategory>
     <TableOfContents>Πίνακας Περιεχομένων</TableOfContents>
+    <TargetCategory>Στόχος</TargetCategory>
     <TextAdditionalCategory>Πρόσθετα Κειμένου</TextAdditionalCategory>
     <TextCategory>Κείμενο</TextCategory>
     <TickLabelMajorCategory>Tick Label Major</TickLabelMajorCategory>
@@ -3445,6 +3451,8 @@
     <StiFilterInclusionModeSelectionOnly>Μόνο Επιλογή</StiFilterInclusionModeSelectionOnly>
     <StiFilterItemArgument>Όρισμα</StiFilterItemArgument>
     <StiFilterItemExpression>Έκφραση</StiFilterItemExpression>
+    <StiFilterItemSource>Πηγή</StiFilterItemSource>
+    <StiFilterItemTarget>Στόχος</StiFilterItemTarget>
     <StiFilterItemValue>Τιμή</StiFilterItemValue>
     <StiFilterItemValueClose>Τιμή Κλεισίματος</StiFilterItemValueClose>
     <StiFilterItemValueEnd>Τιμή Τέλους</StiFilterItemValueEnd>
@@ -4108,6 +4116,11 @@
     <CalcInvisible>Υπολογισμός Αόρατων</CalcInvisible>
     <CalculatedDataColumn>Υπολογισμένη Στήλη Δεδομένων</CalculatedDataColumn>
     <CalculationMode>Λειτουργία Υπολογισμού</CalculationMode>
+    <CalloutCaution>Πλαίσιο Προσοχή</CalloutCaution>
+    <CalloutImportant>Πλαίσιο Σημαντικό</CalloutImportant>
+    <CalloutNote>Πλαίσιο Σημείωση</CalloutNote>
+    <CalloutTip>Πλαίσιο Συμβουλή</CalloutTip>
+    <CalloutWarning>Πλαίσιο Προειδοποίηση</CalloutWarning>
     <CanBreak>Μπορεί να Σπάσει</CanBreak>
     <Cancel>Ακύρωση</Cancel>
     <CanGrow>Μπορεί να Μεγαλώσει</CanGrow>
@@ -4151,6 +4164,7 @@
     <CloneContainer>Κλωνοποίηση Φορέα Περιεχομένων</CloneContainer>
     <CloseValues>Τιμές Κλεισίματος</CloseValues>
     <Code>Κωδικός</Code>
+    <CodeBackground>Φόντο Κώδικα</CodeBackground>
     <CodePage>Κωδικοσελίδα</CodePage>
     <Collapsed>Συμπτυγμένο</Collapsed>
     <CollapseGroupFooter>Σύμπτυξη Υποσέλιδου Ομάδας</CollapseGroupFooter>
@@ -4552,7 +4566,9 @@
     <Linked>Συνδεδεμένο</Linked>
     <ListOfArguments>Λίστα Ορισμάτων</ListOfArguments>
     <ListOfHyperlinks>Λίστα Υπερ-Συνδέσεων</ListOfHyperlinks>
+    <ListOfSources>Λίστα Πηγών</ListOfSources>
     <ListOfTags>Λίστα Ετικετών</ListOfTags>
+    <ListOfTargets>Λίστα Στόχων</ListOfTargets>
     <ListOfToolTips>Λίστα Επεξηγήσεων Εργαλείων</ListOfToolTips>
     <ListOfValues>Λίστα Τιμών</ListOfValues>
     <ListOfValuesClose>Λίστα Τιμών Κλεισίματος</ListOfValuesClose>
@@ -4751,6 +4767,8 @@
     <ProductHomePage>Κεντρική Σελίδα Προϊόντος</ProductHomePage>
     <Property>Ιδιότητα</Property>
     <Provider>Πάροχος</Provider>
+    <Quote>Παράθεση</Quote>
+    <QuoteBar>Μπάρα Παράθεσης</QuoteBar>
     <RadarStyle>Στυλ Ραντάρ</RadarStyle>
     <RadialBarBorderBrush>Ακτινική Βούρτσα Ορίου Μπάρας</RadialBarBorderBrush>
     <RadialBarBrush>Ακτινική Βούρτσα Μπάρας</RadialBarBrush>
@@ -4821,6 +4839,7 @@
     <RowHeaderWidth>Πλάτος Κεφαλίδων Γραμμών</RowHeaderWidth>
     <Rows>Γραμμές</Rows>
     <RowsPerPage>Γραμμές ανά Σελίδα</RowsPerPage>
+    <Rule>Οριζόντια Γραμμή</Rule>
     <Scale>Κλίμακα</Scale>
     <ScaleHor>Οριζόντια Κλίμακα</ScaleHor>
     <ScriptLanguage>Γλώσσα Δέσμης Ενεργειών</ScriptLanguage>
@@ -4877,6 +4896,7 @@
     <ShortValue>Σύντομη Τιμή</ShortValue>
     <Show3D>Προβολή 3D</Show3D>
     <ShowAllValue>Εμφάνιση Τιμής Όλων</ShowAllValue>
+    <ShowAsIndex>Εμφάνιση ως Ευρετήριο</ShowAsIndex>
     <ShowBehind>Εμφάνιση από Πίσω</ShowBehind>
     <ShowBlanks>Προβολή Κενών</ShowBlanks>
     <ShowBubble>Προβολή Bubble</ShowBubble>
@@ -4940,6 +4960,8 @@
     <SortLetters>A-Z (Α-Ω)</SortLetters>
     <SortType>Τύπος Ταξινόμησης</SortType>
     <Source>Πηγή</Source>
+    <SourceDataColumn>Στήλη Δεδομένων Πηγής</SourceDataColumn>
+    <Sources>Πηγές</Sources>
     <Space>Διάστημα</Space>
     <SpaceRatio>Αναλογία Χώρου</SpaceRatio>
     <Spacing>Διάκενο</Spacing>
@@ -4995,9 +5017,11 @@
     <TagValue>Τιμή Ετικέτα</TagValue>
     <Target>Στόχος</Target>
     <TargetColor>Χρώμα Στόχου</TargetColor>
+    <TargetDataColumn>Στήλη Δεδομένων Στόχου</TargetDataColumn>
     <TargetFormat>Μορφή Στόχου</TargetFormat>
     <TargetIcon>Εικονίδιο Στόχου</TargetIcon>
     <TargetMode>Mode Στόχου</TargetMode>
+    <Targets>Στόχοι</Targets>
     <TargetSettings>Στόχος</TargetSettings>
     <Tension>Ένταση</Tension>
     <Text>Κείμενο</Text>
@@ -5138,6 +5162,7 @@
     <Weights>Βάρη</Weights>
     <Width>Πλάτος</Width>
     <WindowState>Κατάσταση Παραθύρου</WindowState>
+    <WinLoss>Κέρδη / Απώλειες</WinLoss>
     <WinLossNegative>Αρνητικό Win Loss</WinLossNegative>
     <WinLossPositive>Θετικό Win Loss</WinLossPositive>
     <WordWrap>Αναδίπλωση Λέξεων</WordWrap>
@@ -5319,6 +5344,7 @@
     <ClickForMoreDetails>Κάντε Κλικ Για Λεπτομέρειες</ClickForMoreDetails>
     <ClickHereToCreateNewCondition>για να δημιουργήσετε μια νέα συνθήξη</ClickHereToCreateNewCondition>
     <ClickHereToCreateNewField>για να δημιουργήσετε νέο πεδίο</ClickHereToCreateNewField>
+    <ClickHereToCreateNewFilter>για να δημιουργήσετε νέο φίλτρο</ClickHereToCreateNewFilter>
     <CollapseAll>Σύμπτυξη Όλων</CollapseAll>
     <Collection>Συλλογή</Collection>
     <CompilationAccess>Πρόσβαση Μεταγλώττισης</CompilationAccess>
