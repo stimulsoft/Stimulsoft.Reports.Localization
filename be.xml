@@ -1189,16 +1189,16 @@
     <TiffCompressionScheme>Схема сціску TIFF:</TiffCompressionScheme>
     <title>Параметры экспарту</title>
     <TxtBorderType>Тып мяжы</TxtBorderType>
-    <TxtBorderTypeDouble>Unicode падвойная</TxtBorderTypeDouble>
+    <TxtBorderTypeDouble>Падвойная</TxtBorderTypeDouble>
     <TxtBorderTypeSimple>Простая</TxtBorderTypeSimple>
-    <TxtBorderTypeSingle>Unicode адзінарная</TxtBorderTypeSingle>
+    <TxtBorderTypeSingle>Адзінарная</TxtBorderTypeSingle>
     <TxtCutLongLines>Абрэзаць доўгія лініі</TxtCutLongLines>
     <TxtDrawBorder>Маляваць мяжу</TxtDrawBorder>
-    <TxtKillSpaceGraphLines>Выдаляць пустыя графічныя лініі</TxtKillSpaceGraphLines>
-    <TxtKillSpaceLines>Выдаляць пустыя лініі</TxtKillSpaceLines>
-    <TxtPutFeedPageCode>Адзначаць канец старонкі</TxtPutFeedPageCode>
+    <TxtKillSpaceGraphLines>Выдаляць радкі толькі з межамі</TxtKillSpaceGraphLines>
+    <TxtKillSpaceLines>Выдаляць пустыя радкі</TxtKillSpaceLines>
+    <TxtPutFeedPageCode>Прагон аркуша пасля кожнай старонкі</TxtPutFeedPageCode>
     <Type>Тып:</Type>
-    <UseDefaultSystemEncoding>Выкарыстоўваць кодировку па умолчанию</UseDefaultSystemEncoding>
+    <UseDefaultSystemEncoding>Выкарыстоўваць сістэмную кадыроўку па змаўчанні</UseDefaultSystemEncoding>
     <UseDigitalSignature>Выкарыстоўваць лічбавы подпіс</UseDigitalSignature>
     <UseEscapeCodes>Выкарыстоўваць кіраўнікі кода</UseEscapeCodes>
     <UseOnePageHeaderAndFooter>Адзін загаловак і падрахунак</UseOnePageHeaderAndFooter>
@@ -2344,62 +2344,65 @@
     <StiTreeViewControl>Паказвае іерархічныя дадзеныя ў выглядзе дрэва.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
-    <AddPageBreaks>Візуальны падзельнік старонак справаздачы.</AddPageBreaks>
-    <AllowAddOrModifyTextAnnotations>Абмежаваны доступ да працы з заўвагамі ў дакуменце.</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Абмежаваны доступ да капіявання інфармацыі.</AllowCopyTextAndGraphics>
-    <AllowEditable>Дазволіць змены толькі для кампанентаў з уключанай уласцівасцю Рэдагуемы.</AllowEditable>
-    <AllowModifyContents>Абмежаваны доступ да рэдагавання тэксту.</AllowModifyContents>
-    <AllowPrintDocument>Абмежаваны доступ да аперацыі друк.</AllowPrintDocument>
+    <AddPageBreaks>Паказаць падзельнік паміж старонкамі справаздачы.</AddPageBreaks>
+    <AllowAddOrModifyTextAnnotations>Дазволіць даданне і змяненне заўваг.</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Дазволіць капіяванне тэксту і графікі дакумента.</AllowCopyTextAndGraphics>
+    <AllowEditable>Дазволіць змяненне кампанентаў, у якіх уключана ўласцівасць Рэдагуемы.</AllowEditable>
+    <AllowModifyContents>Дазволіць змяненне тэксту дакумента.</AllowModifyContents>
+    <AllowPrintDocument>Дазволіць друк дакумента.</AllowPrintDocument>
     <Bookmarks>Паказаць закладкі.</Bookmarks>
-    <BorderType>Тып мяжы кампанентаў: простая - адмалёўка мяжы кампанентаў сімваламі +, -, |. Unicode адзінарная - адмалёўка межаў кампанентаў адзінарнымі сімваламі псеўдаграфікі, Unicode падвойная - адмалёўка межаў кампанентаў падвойнымі сімваламі псеўдаграфікі.</BorderType>
+    <BorderType>Сімвалы меж кампанентаў: Простая малюе іх знакамі +, - і |, Адзінарная і Падвойная малююць адзінарнымі або падвойнымі лініямі псеўдаграфікі.</BorderType>
     <Close>Зачыніць прагляд.</Close>
     <CloseDotMatrix>Згарнуць закладку прагляду для матрычных прынтэраў і вярнуцца да рэдагавання справаздачы.</CloseDotMatrix>
-    <Compressed>Сціск канчатковага дакумента. Рэкамендуецца заўсёды ўключаць сціск файла.</Compressed>
-    <CompressToArchive>Спакаваць усе файлы і тэчкі ў zip архіў.</CompressToArchive>
-    <ContinuousPages>Рэжым размяшчэння старонак справаздачы ў выглядзе вертыкальнай стужкі.</ContinuousPages>
-    <CurrentPage>Апрацоўка бягучай старонкі, гэта значыць, калі вылучаны дадзены параметр, то апрацоўвацца будзе выдзеленая старонка справаздачы.</CurrentPage>
-    <CutEdges>Абрэзаць мяжы старонак справаздачы.</CutEdges>
-    <CutLongLines>Абрэзаць доўгія лініі (радкі тэксту) па межах кампанента.</CutLongLines>
+    <Compressed>Сціснуць дакумент. Пакіньце ўключаным, каб файл быў меншым.</Compressed>
+    <CompressToArchive>Спакаваць усе файлы і тэчкі ў zip-архіў.</CompressToArchive>
+    <ContinuousPages>Размясціць старонкі справаздачы адну пад адной суцэльнай стужкай.</ContinuousPages>
+    <CurrentPage>Толькі бягучая старонка справаздачы.</CurrentPage>
+    <CutEdges>Абрэзаць краі старонак справаздачы.</CutEdges>
+    <CutLongLines>Абрэзаць тэкст, які не змяшчаецца ў свой кампанент, замест пераносу.</CutLongLines>
     <DashboardContains1>Прабачце, але гэта справаздача ўтрымвае панэль індыкатараў.</DashboardContains1>
     <DashboardContains2>Вы павінны адкрыць гэту справаздачу проста ў дызайнеру!</DashboardContains2>
     <DashboardContains3>Вы не можаце зрабіць гэта з вьювера справаздач!</DashboardContains3>
-    <DigitalSignature>Лічбавы подпіс да файла.</DigitalSignature>
-    <DitheringType>Тып манахромнага змешвання: None - без згладжвання, Ordered, FloydSt - са згладжваннем.</DitheringType>
+    <DigitalSignature>Падпісаць дакумент лічбавым подпісам.</DigitalSignature>
+    <DitheringType>Змешванне чорна-белых малюнкаў: None, Ordered або Floyd-Steinberg.</DitheringType>
     <DotMatrixMode>Паказаць у матрычным рэжыме.</DotMatrixMode>
-    <DrawBorder>Адмалёўка межаў кампанентаў сімваламі графікі.</DrawBorder>
+    <DotMatrixSettings>Паказаць або схаваць налады.</DotMatrixSettings>
+    <DrawBorder>Маляваць межы кампанентаў сімваламі псеўдаграфікі.</DrawBorder>
     <Edit>Рэдагаваць элементы справаздачы.</Edit>
     <EmbeddedFonts>Ўбудаваць файлы шрыфтоў у файл PDF.</EmbeddedFonts>
     <EmbeddedFontsHtml>Убудаваць файлы шрыфтоў у файл HTML: ніякія, толькі карыстальніцкія або ўсе шрыфты, якія выкарыстоўваюцца ў справаздачы.</EmbeddedFontsHtml>
     <EmbeddedFontsOffice>Убудаваць файлы шрыфтоў у экспартаваны файл.</EmbeddedFontsOffice>
-    <EmbeddedImageData>Ўбудаваць малюнкi непасрэдна ў HTML файл.</EmbeddedImageData>
-    <Encoding>Кадаваньне тэксту справаздачы пасля экспарту.</Encoding>
+    <EmbeddedImageData>Убудаваць малюнкі непасрэдна ў файл HTML.</EmbeddedImageData>
+    <Encoding>Кадаванне экспартаванага тэксту.</Encoding>
     <EncodingData>Кадаванне файла дадзеных.</EncodingData>
-    <EncryptionKeyLength>Даўжыня ключа шыфравання да дакумента. Чым больш даўжыня, тым больш складана расшыфраваць дакумент, і адпаведна, бяспека дакумента вышэй.</EncryptionKeyLength>
-    <ExportDataOnly>Экспарт толькі бэндаў Дадзеныя (кампанента Табліца, бэнд Дрэва).</ExportDataOnly>
-    <ExportEachPageToSheet>Экспартаваць кожную старонку справаздачы на асобны лiст у Excel.</ExportEachPageToSheet>
-    <ExportMode>Прымяніць ўмову фільтрацыі пры экспарце. Толькі дадзеныя - экспартавацца будуць толькі бэнды Дадзеныя (кампанент Табліца, бэнд Дрэва), Дадзеныя і Загалоўкі/Падрахункi - экспартавацца будуць бэнды Дадзеныя (кампанент Табліца, бэнд Дрэва) і іх загалоўкі/падрахункі, пры наяўнасці, Усе бэнды - экспартавацца будуць увесь бэнды справаздачы .</ExportMode>
-    <ExportModeHtml>Спосаб разметкі HTML старонкі.</ExportModeHtml>
-    <ExportModeRtf>Прадстаўленне дадзеных справаздачы пасля экспарту. Табліца - справаздача будзе ўяўляць сабой табліцу, дзе кожны кампанент справаздачы - гэта ячэйка ў табліцы. Рамка - кожны кампанент будзе ўяўляць сабой асобную рамку, але ўзаемасувязі паміж імі не будзе.</ExportModeRtf>
-    <ExportObjectFormatting>Ўжываць фарматаванне да экспарту з бэндаў Дадзеныя (кампанент Табліца, бэнд Дрэва).</ExportObjectFormatting>
+    <EncryptionKeyLength>Даўжыня ключа шыфравання: чым даўжэйшы ключ, тым складаней расшыфраваць дакумент.</EncryptionKeyLength>
+    <ExportDataOnly>Экспартаваць толькі бэнды Дадзеныя: кампанент Табліца і бэнд Дрэва.</ExportDataOnly>
+    <ExportEachPageToSheet>Экспартаваць кожную старонку справаздачы на асобны ліст Excel.</ExportEachPageToSheet>
+    <ExportMode>Бэнды, якія трапяць у файл: Толькі дадзеныя бярэ бэнды Дадзеныя (кампанент Табліца, бэнд Дрэва), Дадзеныя і Загалоўкі/Вынікі дадае іх загалоўкі і вынікі, Усе бэнды бярэ ўсе бэнды справаздачы.</ExportMode>
+    <ExportModeHtml>Разметка старонкі HTML.</ExportModeHtml>
+    <ExportModeRtf>Выгляд справаздачы пасля экспарту: у рэжыме Табліца кожны кампанент становіцца ячэйкай табліцы, у рэжыме Рамка кожны кампанент стаіць у сваёй рамцы, без сувязі з іншымі.</ExportModeRtf>
+    <ExportObjectFormatting>Захаваць фарматаванне дадзеных з бэндаў Дадзеныя (кампанент Табліца, бэнд Дрэва).</ExportObjectFormatting>
     <ExportPageBreaks>Паказваць мяжы старонак справаздачы на лісце ў Excel.</ExportPageBreaks>
-    <ExportRtfTextAsImage>Канвертацыя RTF тэксту ў малюнак пры экспарце. Калі параметр выключаны, то фарматаваны тэкст пры экспарце раскладваецца на больш простыя прымітывы, якія падтрымліваюцца фарматам PDF. Фарматаваны тэкст са складаным фарматаваннем (укладзеныя малюнкi, табліцы) не заўсёды можа быць ператвораны карэктна. У гэтым выпадку рэкамендуецца ўключыць дадзены параметр.</ExportRtfTextAsImage>
+    <ExportRtfTextAsImage>Экспартаваць тэкст RTF як малюнак. Уключыце для тэксту з малюнкамі або табліцамі: ён не заўсёды правільна ператвараецца ў тэкст PDF.</ExportRtfTextAsImage>
     <Find>Знайсці тэкст.</Find>
     <FullScreen>Паказаць ва ўвесь экран.</FullScreen>
-    <GetCertificateFromCryptoUI>Выкарыстанне інтэрфейсу сістэмнай бібліятэкі крыптаграфіі.</GetCertificateFromCryptoUI>
-    <ImageCompressionMethod>Метад сціскання: JPEG - гэта сцісканне малюнкаў з стратамі, Flate - скампрэсаваныя без страт, Simple, Ordered, FloydSt. - малюнкi ў манахромным рэжыме.</ImageCompressionMethod>
-    <ImageFormat>Фармат малюнкаў у канчатковым файле.</ImageFormat>
-    <ImageQuality>Дазваляе выбраць суадносіны якасцi малюнка/памера файла. Чым вышэй якасць, тым больш памер выхаднога файла.</ImageQuality>
-    <ImageQualityPdf>Параметр даступны толькі пры сціску JPEG, і дазваляе выбраць суадносіны якасць малюнка/памер файла. Чым вышэй якасць, тым больш памер выхаднога файла.</ImageQualityPdf>
-    <ImageResolution>Колькасць пікселяў на цалю малюнка. Чым больш дадзеная колькасць пікселяў, тым вышэй выразнасць малюнка і лёгкасць ўспрымання яго, але і памер выхаднога файла значна больш.</ImageResolution>
+    <GetCertificateFromCryptoUI>Выбраць сертыфікат у акне сістэмнай бібліятэкі крыптаграфіі.</GetCertificateFromCryptoUI>
+    <ImageCompressionMethod>Сціск малюнкаў: JPEG можа губляць якасць, Flate яе захоўвае, а Simple, Ordered і Floyd-Steinberg робяць малюнкі чорна-белымі.</ImageCompressionMethod>
+    <ImageFormat>Фармат малюнкаў у экспартаваным файле.</ImageFormat>
+    <ImageQuality>Баланс якасці малюнкаў і памеру файла: чым вышэй якасць, тым большы файл.</ImageQuality>
+    <ImageQualityPdf>Баланс якасці малюнкаў і памеру файла пры сціску JPEG: чым вышэй якасць, тым большы файл.</ImageQualityPdf>
+    <ImageResolution>Колькасць пікселяў на цалю: чым больш пікселяў, тым лепшыя малюнкі і тым большы файл.</ImageResolution>
     <ImageResolutionMode>Як дазвол ужываецца да малюнкаў: дакладна, толькі для памяншэння большых або зусім не ўжываецца.</ImageResolutionMode>
-    <ImageType>Каляровая схема малюнка: колер - малюнак пасля экспарту будзе цалкам адпавядаць малюнку ва вьюверы; шэры - малюнкi пасля экспарту будуць шэрага адцення; манахромны - малюнкі будуць асабліва чорна-белыя. Пры гэтым, варта ўлічваць, што манахромныя малюнкі маюць тры рэжыму: None, Ordered, FloydSt.</ImageType>
-    <KillSpaceLines>Выдаліць пустыя лініі (радкі) у дакуменце.</KillSpaceLines>
-    <MultipleFiles>Кожная старонка справаздачы асобным файлам.</MultipleFiles>
+    <ImageType>Колеры малюнка: Колер супадае з вьюверам, Шэры выкарыстоўвае адценні шэрага, Манахромны толькі чорны і белы ў адным з трох рэжымаў змешвання.</ImageType>
+    <KeepProportions>Захоўваць прапорцыі.</KeepProportions>
+    <KillSpaceGraphLines>Выдаліць радкі, у якіх толькі межы і прабелы.</KillSpaceGraphLines>
+    <KillSpaceLines>Выдаліць пустыя радкі з дакумента.</KillSpaceLines>
+    <MultipleFiles>Экспартаваць кожную старонку справаздачы ў асобны файл.</MultipleFiles>
     <Open>Адкрыць справаздачу.</Open>
-    <OpenAfterExport>Аўтаматычнае адкрыццё створанага дакумента (пасля завяршэння экспарту), праграмай, усталяванай па змаўчанні для гэтых тыпаў файлаў.</OpenAfterExport>
-    <OwnerPassword>Пароль доступу да аперацый з файлам.</OwnerPassword>
-    <PageAll>Апрацоўка ўсіх старонак справаздачы.</PageAll>
-    <PageBands>Якія калантытулы старонак трапяць у дакумент: ніякія, першы загаловак і апошні падрахунак або ўсе.</PageBands>
+    <OpenAfterExport>Адкрыць экспартаваны файл у праграме, прызначанай для яго тыпу.</OpenAfterExport>
+    <OwnerPassword>Пароль, патрэбны для змены правоў дакумента.</OwnerPassword>
+    <PageAll>Усе старонкі справаздачы.</PageAll>
+    <PageBands>Калантытулы старонак, якія трапяць у дакумент: ніякія, першы загаловак і апошні падрахунак або ўсе.</PageBands>
     <PageDelete>Выдаліць выбраную старонку.</PageDelete>
     <PageDesign>Змяніць старонку ў дызайнеры.</PageDesign>
     <PageFirst>Перайсці на першую старонку.</PageFirst>
@@ -2410,37 +2413,37 @@
     <PagePrevious>Перайсці на папярэднюю старонку.</PagePrevious>
     <PageSize>Змяніць параметры старонкі.</PageSize>
     <Parameters>Паказаць параметры.</Parameters>
-    <PdfACompliance>Падтрымка стандарту доўгатэрміновага архіўнага захоўвання электронных дакументаў.</PdfACompliance>
-    <PdfUniversalAccessibility>Падтрымка стандарту ўніверсальнай даступнасці электронных дакументаў і інфармацыі.</PdfUniversalAccessibility>
+    <PdfACompliance>Выконваць стандарт PDF/A для доўгатэрміновага архіўнага захоўвання дакументаў.</PdfACompliance>
+    <PdfUniversalAccessibility>Выконваць стандарт PDF/UA для дакументаў, даступных усім.</PdfUniversalAccessibility>
     <Print>Надрукаваць справаздачу.</Print>
-    <PutFeedPageCode>Размяжоўваць старонкі ў канчатковым дакуменце пры дапамозе адмысловага знака.</PutFeedPageCode>
-    <RangePages>Нумары старонак, якія неабходна апрацаваць. Пазначыць можна адну старонку, спіс старонак (выкарыстоўваючы коскі, як падзельнік), а так жа ўсталяваць дыяпазон, задаўшы пачатковую старонку дыяпазону, падзельнік "-", і канчатковую старонку дыяпазону. Для прыкладу: 1,3,5-12.</RangePages>
+    <PutFeedPageCode>Пачынаць кожную старонку з новага ліста сімвалам прагону старонкі.</PutFeedPageCode>
+    <RangePages>Дыяпазон старонак: адна старонка, спіс праз коску або дыяпазон праз злучок, напрыклад 1,3,5-12.</RangePages>
     <RebuildReport>Пабудаваць справаздачу нанова для новай старонкі, каб даныя запоўнілі новыя старонкі. Без гэтага мяняецца толькі памер ужо пабудаваных старонак. Недаступна для дакумента, адкрытага з файла.</RebuildReport>
-    <RemoveEmptySpaceAtBottom>Мінімізаваць пустое месца ўнізе старонкі.</RemoveEmptySpaceAtBottom>
+    <RemoveEmptySpaceAtBottom>Паменшыць пустое месца ўнізе старонак.</RemoveEmptySpaceAtBottom>
     <Resources>Паказаць рэсурсы.</Resources>
-    <RestrictEditing>Абмежаванні на змены ў дакуменце Word.</RestrictEditing>
+    <RestrictEditing>Абмежаванні на змяненне дакумента Word.</RestrictEditing>
     <Save>Захаваць справаздачу.</Save>
     <ScaleContent>Змяніць памер кампанентаў разам са старонкай. Без гэтага яны захоўваюць свой памер і месца.</ScaleContent>
-    <ScaleHtml>Памер (маштаб) старонак справаздачы і элементаў справаздачы пасля экспарту.</ScaleHtml>
-    <ScaleImage>Памер (маштаб) справаздачы пасля экспарту. Чым менш маштаб, тым большая колькасць пікселяў на цалю і наадварот.</ScaleImage>
+    <ScaleHtml>Маштаб старонак і элементаў справаздачы ў экспартаваным файле.</ScaleHtml>
+    <ScaleImage>Маштаб справаздачы на малюнку: чым большы маштаб, тым большы малюнак.</ScaleImage>
     <SendEMail>Даслаць справаздачу па Email.</SendEMail>
-    <Separator>Знак-падзельнік паміж дадзенымі ў CSV файле.</Separator>
-    <SkipColumnHeaders>Ўключыць/выключыць загалоўкі калонак.</SkipColumnHeaders>
-    <StandardPdfFonts>14 стандартных шрыфтоў Adobe. Калі дадзены параметр уключаны, то ў PDF файле пасля экспарту, будуць выкарыстаны толькі стандартныя 14 шрыфтоў, і ўсе шрыфты справаздачы будуць ператвораны ў іх.</StandardPdfFonts>
-    <SubjectNameString>Ідэнтыфікатар сертыфіката. Ідэнтыфікатар - гэта імя ўладальніка сертыфіката (поўны радок) або частка імя (падрадок).</SubjectNameString>
+    <Separator>Сімвал, які падзяляе дадзеныя ў файле CSV.</Separator>
+    <SkipColumnHeaders>Не ўключаць загалоўкі калонак у файл.</SkipColumnHeaders>
+    <StandardPdfFonts>Выкарыстоўваць толькі 14 стандартных шрыфтоў Adobe: усе шрыфты справаздачы замяняюцца імі.</StandardPdfFonts>
+    <SubjectNameString>Сертыфікат для подпісу: поўнае імя яго ўладальніка або частка імя.</SubjectNameString>
     <Thumbnails>Паказаць эскізы старонак.</Thumbnails>
-    <TiffCompressionScheme>Схема сціску для TIFF файлаў.</TiffCompressionScheme>
+    <TiffCompressionScheme>Сціск файла TIFF.</TiffCompressionScheme>
     <ToolEditor>Рэдагаваць рэдагуемыя кампаненты.</ToolEditor>
     <ToolSignature>Падпісаць пазначаныя месцы.</ToolSignature>
-    <TypeExport>Тып файла, у які будзе ператворана справаздача.</TypeExport>
+    <TypeExport>Тып файла, у які ператвараецца справаздача.</TypeExport>
     <UnsafeCompilation1>У гэтым дакуменце выкарыстоўваецца працэс кампіляцыі. У некаторых выпадках гэта можа быць небяспечна. Таму дакумент будзе загружаны ў бяспечным рэжыме, каб звесці да мінімуму кожныя патэнцыйныя рызыкі.</UnsafeCompilation1>
     <UnsafeCompilation2>Калі вам патрабуецца, каб гэты дакумент выкарыстоўваўся ў арыгінальнай выглядзе, звярніцеся да сваіх распрацоўнікаў.</UnsafeCompilation2>
     <UnsafeCompilationTitle>Дакумент адкрыецца ў бяспечным рэжыме</UnsafeCompilationTitle>
-    <UseDefaultSystemEncoding>Выкарыстоўваць кадыроўку сістэмы па змаўчанні ці задаць кадыроўку па стандарту.</UseDefaultSystemEncoding>
-    <UseOnePageHeaderAndFooter>Вызначыць бэнды Загаловак і Вынік старонкі як верхні і ніжні калантытул дакумента ў MS Word.</UseOnePageHeaderAndFooter>
-    <UsePageHeadersAndFooters>Вызначыць бэнды Загаловак і Вынік старонкі як верхні і ніжні калантытул дакумента ў MS Word.</UsePageHeadersAndFooters>
+    <UseDefaultSystemEncoding>Выкарыстоўваць кадаванне сістэмы. Выключыце, каб выбраць іншае.</UseDefaultSystemEncoding>
+    <UseOnePageHeaderAndFooter>Пакінуць у файле Excel адзін загаловак старонкі і адзін падрахунак старонкі, без паўтору на кожнай старонцы.</UseOnePageHeaderAndFooter>
+    <UsePageHeadersAndFooters>Зрабіць бэнды Загаловак старонкі і Падрахунак старонкі калантытуламі дакумента.</UsePageHeadersAndFooters>
     <UserPassword>Пароль неабходны для адкрыцця дакумента.</UserPassword>
-    <UseUnicode>Пашыраная падтрымка кадавання знакаў. Ўплывае на ўнутранае кадаванне знакаў ўнутры PDF файла і паляпшае капіяванне тэксту з PDF файла.</UseUnicode>
+    <UseUnicode>Захоўваць сімвалы ў Unicode ўнутры файла PDF, каб тэкст правільна капіяваўся.</UseUnicode>
     <ViewModeContinuous>Паказваць усе старонкі стужкай.</ViewModeContinuous>
     <ViewModeMultiplePages>Паказваць некалькі старонак.</ViewModeMultiplePages>
     <ViewModeSinglePage>Паказваць адну старонку.</ViewModeSinglePage>
@@ -2448,7 +2451,7 @@
     <ZoomOnePage>Змясціць адну старонку.</ZoomOnePage>
     <ZoomPageWidth>Падагнаць шырыню старонкі.</ZoomPageWidth>
     <ZoomTwoPages>Змясціць дзве старонкі.</ZoomTwoPages>
-    <ZoomTxt>Памер (маштаб) справаздачы: X - змяніць маштаб па гарызанталі, IE - змяніць маштаб па вертыкалі.</ZoomTxt>
+    <ZoomTxt>Маштаб тэксту справаздачы: X па гарызанталі, Y па вертыкалі.</ZoomTxt>
   </HelpViewer>
   <Interface>
     <Mouse>Мыш</Mouse>

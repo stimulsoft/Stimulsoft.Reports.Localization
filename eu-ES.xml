@@ -533,7 +533,7 @@
   </Errors>
   <Export>
     <AddPageBreaks>Gehitu Orrialde-jauziak</AddPageBreaks>
-    <AllBands>Goiburu Guztiak</AllBands>
+    <AllBands>Banda Guztiak</AllBands>
     <AllowAddOrModifyTextAnnotations>Testu-oharrak Gehitzen edo Aldatzen utzi</AllowAddOrModifyTextAnnotations>
     <AllowCopyTextAndGraphics>Testuak eta Grafikoak Kopiatzen utzi</AllowCopyTextAndGraphics>
     <AllowModifyContents>Edukiak Aldatzen utzi</AllowModifyContents>
@@ -624,14 +624,14 @@
     <TiffCompressionScheme>TIFF Konpresio-Eskema:</TiffCompressionScheme>
     <title>Esportazio-Konfigurazioa:</title>
     <TxtBorderType>Marjina mota</TxtBorderType>
-    <TxtBorderTypeDouble>Unicode-Bikoitza</TxtBorderTypeDouble>
+    <TxtBorderTypeDouble>Bikoitza</TxtBorderTypeDouble>
     <TxtBorderTypeSimple>Sinplea</TxtBorderTypeSimple>
-    <TxtBorderTypeSingle>Unicode-Sinplea</TxtBorderTypeSingle>
+    <TxtBorderTypeSingle>Bakuna</TxtBorderTypeSingle>
     <TxtCutLongLines>Lerro Luzeak moztu</TxtCutLongLines>
     <TxtDrawBorder>Erakutsi Ertz Irtena</TxtDrawBorder>
-    <TxtKillSpaceGraphLines>Grafikoetan Tarte Lerroak ezabatu</TxtKillSpaceGraphLines>
-    <TxtKillSpaceLines>Tarteak ezabatu</TxtKillSpaceLines>
-    <TxtPutFeedPageCode>Kode Orrialdea kokatu</TxtPutFeedPageCode>
+    <TxtKillSpaceGraphLines>Ertzak soilik dituzten lerroak kendu</TxtKillSpaceGraphLines>
+    <TxtKillSpaceLines>Lerro hutsak kendu</TxtKillSpaceLines>
+    <TxtPutFeedPageCode>Orri-jauzia orri bakoitzaren ondoren</TxtPutFeedPageCode>
     <UseDefaultSystemEncoding>Sistemaren Kodetze lehenetsia erabili</UseDefaultSystemEncoding>
     <UseDigitalSignature>Sinadura Digitala erabili</UseDigitalSignature>
     <UseEscapeCodes>Ihes Kodeak erabili</UseEscapeCodes>
@@ -1592,18 +1592,60 @@
     <StiTreeViewControl>Datu hierarkikoak zuhaitz gisa erakusten ditu.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
+    <AddPageBreaks>Txostenaren orrialdeen artean bereizle bat erakutsi.</AddPageBreaks>
+    <AllowAddOrModifyTextAnnotations>Oharpenak gehitzea eta aldatzea baimendu.</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Dokumentuaren testua eta grafikoak kopiatzea baimendu.</AllowCopyTextAndGraphics>
+    <AllowEditable>Editagarria propietatea aktibatuta duten osagaiak aldatzea baimendu.</AllowEditable>
+    <AllowModifyContents>Dokumentuaren testua aldatzea baimendu.</AllowModifyContents>
+    <AllowPrintDocument>Dokumentua inprimatzea baimendu.</AllowPrintDocument>
     <Bookmarks>Orri-markatzaileak erakutsi.</Bookmarks>
+    <BorderType>Osagaien ertzen karaktereak: Sinplea aukerak +, - eta | karaktereekin marrazten ditu, Bakuna eta Bikoitza aukerek lerro bakun edo bikoitzekin.</BorderType>
     <Close>Aurrebista itxi.</Close>
     <CloseDotMatrix>Bisore Matriziala itxi eta txostena berriro editatu.</CloseDotMatrix>
+    <CompressToArchive>Fitxategi eta karpeta guztiak zip artxibo batean bildu.</CompressToArchive>
+    <Compressed>Dokumentua konprimitu. Utzi aktibatuta fitxategia txikiagoa izan dadin.</Compressed>
+    <ContinuousPages>Txostenaren orrialdeak bata bestearen azpian jarri, zerrenda jarraitu bakar batean.</ContinuousPages>
+    <CurrentPage>Txostenaren uneko orrialdea soilik.</CurrentPage>
+    <CutEdges>Txostenaren orrialdeen ertzak moztu.</CutEdges>
+    <CutLongLines>Bere osagaian sartzen ez den testua moztu, hurrengo lerrora eraman beharrean.</CutLongLines>
+    <DigitalSignature>Dokumentua sinadura digitalarekin sinatu.</DigitalSignature>
+    <DitheringType>Irudi zuri-beltzen difuminazioa: None, Ordered edo Floyd-Steinberg.</DitheringType>
     <DotMatrixMode>Modu matrizialean ikusi.</DotMatrixMode>
+    <DotMatrixSettings>Ezarpenak erakutsi edo ezkutatu.</DotMatrixSettings>
+    <DrawBorder>Osagaien ertzak koadro-marrazketako karaktereekin marraztu.</DrawBorder>
     <Edit>Osagaiak editatu.</Edit>
     <EmbeddedFontsHtml>Letra-tipoen fitxategiak HTML fitxategian txertatu: bat ere ez, pertsonalizatuak soilik, edo txostenean erabilitako letra-tipo guztiak.</EmbeddedFontsHtml>
     <EmbeddedFontsOffice>Letra-tipoen fitxategiak esportatutako fitxategian txertatu.</EmbeddedFontsOffice>
+    <EmbeddedImageData>Irudiak zuzenean HTML fitxategian txertatu.</EmbeddedImageData>
+    <Encoding>Esportatutako testuaren kodeketa.</Encoding>
+    <EncodingData>Datu-fitxategiaren kodeketa.</EncodingData>
+    <EncryptionKeyLength>Enkriptatze-gakoaren luzera: zenbat eta gako luzeagoa, orduan eta zailagoa dokumentua desenkriptatzea.</EncryptionKeyLength>
+    <ExportDataOnly>Datu-bandak soilik esportatu: Taula osagaia eta Banda hierarkikoa.</ExportDataOnly>
+    <ExportEachPageToSheet>Txostenaren orrialde bakoitza Excel orri propio batera esportatu.</ExportEachPageToSheet>
+    <ExportMode>Fitxategian sartzen diren bandak: Soilik Datuak aukerak datu-bandak hartzen ditu (Taula osagaia, Banda hierarkikoa), Datuak eta Goiburuak/Oinak aukerak haien goiburuak eta oinak gehitzen ditu, Banda Guztiak aukerak banda guztiak hartzen ditu.</ExportMode>
+    <ExportModeHtml>HTML orrialdearen markaketa.</ExportModeHtml>
+    <ExportModeRtf>Txostenaren diseinua esportatu ondoren: Taula aukerak osagai bakoitza taula-gelaxka batean jartzen du, Esparrua aukerak osagai bakoitza bere esparruan jartzen du, haien artean loturarik gabe.</ExportModeRtf>
+    <ExportObjectFormatting>Datu-banden datuen formatua mantendu (Taula osagaia, Banda hierarkikoa).</ExportObjectFormatting>
+    <ExportRtfTextAsImage>RTF testua irudi gisa esportatu. Aktibatu irudiak edo taulak dituen testu aberatserako, ez baita beti behar bezala PDF testu bihurtzen.</ExportRtfTextAsImage>
     <Find>Testua bilatu.</Find>
     <FullScreen>Pantaila osoan ikusi.</FullScreen>
+    <GetCertificateFromCryptoUI>Ziurtagiria sistemaren kriptografia-liburutegiaren leihoan aukeratu.</GetCertificateFromCryptoUI>
+    <ImageCompressionMethod>Irudien konpresioa: JPEG-k kalitatea gal dezake, Flate-k mantendu egiten du, eta Simple, Ordered eta Floyd-Steinberg moduek irudiak zuri-beltz bihurtzen dituzte.</ImageCompressionMethod>
+    <ImageFormat>Esportatutako fitxategiko irudien formatua.</ImageFormat>
+    <ImageQuality>Irudien kalitatearen eta fitxategiaren tamainaren arteko oreka: zenbat eta kalitate handiagoa, orduan eta fitxategi handiagoa.</ImageQuality>
+    <ImageQualityPdf>Irudien kalitatearen eta fitxategiaren tamainaren arteko oreka JPEG konpresioan: zenbat eta kalitate handiagoa, orduan eta fitxategi handiagoa.</ImageQualityPdf>
+    <ImageResolution>Hazbeteko pixel kopurua: zenbat eta pixel gehiago, orduan eta irudi hobeak eta fitxategi handiagoa.</ImageResolution>
     <ImageResolutionMode>Erresoluzioa irudiei nola aplikatzen zaien: zehazki, handiagoak txikitzeko soilik, edo batere ez.</ImageResolutionMode>
+    <ImageType>Irudiaren koloreak: Kolorea aukera ikustailearen berdina da, Grisen Eskala aukerak gris tonuak erabiltzen ditu, Monokromatikoa aukerak zuria eta beltza soilik erabiltzen ditu, hiru difuminazio moduetako batean.</ImageType>
+    <KeepProportions>Proportzioak mantendu.</KeepProportions>
+    <KillSpaceGraphLines>Ertzak eta zuriuneak soilik dituzten lerroak kendu.</KillSpaceGraphLines>
+    <KillSpaceLines>Dokumentuko lerro hutsak kendu.</KillSpaceLines>
+    <MultipleFiles>Txostenaren orrialde bakoitza fitxategi bereizi batera esportatu.</MultipleFiles>
     <Open>Txosten bat ireki.</Open>
-    <PageBands>Zein orrialde-goiburu eta -oin sartzen diren dokumentuan: bat ere ez, lehen goiburua eta azken oina, edo guztiak.</PageBands>
+    <OpenAfterExport>Esportatutako fitxategia bere motarako ezarritako programan ireki.</OpenAfterExport>
+    <OwnerPassword>Dokumentuaren baimenak aldatzeko behar den pasahitza.</OwnerPassword>
+    <PageAll>Txostenaren orrialde guztiak.</PageAll>
+    <PageBands>Dokumentuan sartzen diren orrialde-goiburu eta -oinak: bat ere ez, lehen goiburua eta azken oina, edo guztiak.</PageBands>
     <PageDelete>Aukeratutako orrialdea ezabatu.</PageDelete>
     <PageDesign>Orrialdea diseinatzailean editatu.</PageDesign>
     <PageFirst>Lehen orrialdera joan.</PageFirst>
@@ -1614,18 +1656,36 @@
     <PagePrevious>Aurreko orrialdera joan.</PagePrevious>
     <PageSize>Orrialdearen ezarpenak aldatu.</PageSize>
     <Parameters>Parametroak erakutsi.</Parameters>
+    <PdfACompliance>PDF/A estandarra bete dokumentuak epe luzean artxibatzeko.</PdfACompliance>
+    <PdfUniversalAccessibility>PDF/UA estandarra bete denentzat eskuragarri dauden dokumentuetarako.</PdfUniversalAccessibility>
     <Print>Txostena inprimatu.</Print>
+    <PutFeedPageCode>Orrialde bakoitza orri berri batean hasi, orri-jauziaren karakterearekin.</PutFeedPageCode>
+    <RangePages>Orrialde-tartea: orrialde bat, komaz bereizitako zerrenda bat edo marratxoz adierazitako tarte bat, adibidez 1,3,5-12.</RangePages>
     <RebuildReport>Txostena berriro sortzen du orri berrirako, datuek orri berriak bete ditzaten. Aukera hau gabe, sortutako orrien tamaina bakarrik aldatzen da. Ez dago erabilgarri fitxategi batetik irekitako dokumentu batentzat.</RebuildReport>
+    <RemoveEmptySpaceAtBottom>Orrialdeen behealdeko leku hutsa txikitu.</RemoveEmptySpaceAtBottom>
     <Resources>Baliabideak erakutsi.</Resources>
+    <RestrictEditing>Word dokumentua aldatzeko mugak.</RestrictEditing>
     <Save>Txostena gorde.</Save>
     <ScaleContent>Osagaien tamaina orriarekin batera aldatzen du. Aukera hau gabe, beren tamaina eta kokapena gordetzen dituzte.</ScaleContent>
+    <ScaleHtml>Txostenaren orrialdeen eta elementuen eskala esportatutako fitxategian.</ScaleHtml>
+    <ScaleImage>Txostenaren eskala irudian: zenbat eta eskala handiagoa, orduan eta irudi handiagoa.</ScaleImage>
     <SendEMail>Txostena posta elektronikoz bidali.</SendEMail>
+    <Separator>CSV fitxategiko datuak bereizten dituen karakterea.</Separator>
+    <SkipColumnHeaders>Zutabe-goiburuak fitxategitik kanpo utzi.</SkipColumnHeaders>
+    <StandardPdfFonts>Adobe-ren 14 letra-tipo estandarrak soilik erabili: txostenaren letra-tipo guztiak horietara bihurtzen dira.</StandardPdfFonts>
+    <SubjectNameString>Sinatzeko ziurtagiria: jabearen izen osoa edo haren zati bat.</SubjectNameString>
     <Thumbnails>Orrialde-miniaturak erakutsi.</Thumbnails>
+    <TiffCompressionScheme>TIFF fitxategiaren konpresioa.</TiffCompressionScheme>
     <ToolEditor>Osagai editagarriak editatu.</ToolEditor>
     <ToolSignature>Markatutako lekuetan sinatu.</ToolSignature>
+    <TypeExport>Txostena bihurtzen den fitxategiaren mota.</TypeExport>
     <UnsafeCompilation1>Dokumentu honek konpilazio-prozesua erabiltzen du. Kasu batzuetan, baliteke segurua ez izatea. Horregatik, dokumentua modu seguruan kargatuko da arrisku potentzialak murrizteko.</UnsafeCompilation1>
     <UnsafeCompilation2>Dokumentua jatorrizko moduan erabili behar baduzu, jarri harremanetan zure garatzaileekin.</UnsafeCompilation2>
     <UnsafeCompilationTitle>Dokumentua modu seguruan irekiko da</UnsafeCompilationTitle>
+    <UseDefaultSystemEncoding>Sistemaren kodeketa erabili. Desaktibatu beste bat aukeratzeko.</UseDefaultSystemEncoding>
+    <UseOnePageHeaderAndFooter>Excel fitxategian orrialde-goiburu bat eta orrialde-oin bat soilik utzi, orrialde guztietan errepikatu beharrean.</UseOnePageHeaderAndFooter>
+    <UsePageHeadersAndFooters>Orrialdearen Goiburua eta Orrialdearen Oina bandak dokumentuaren goiburu eta oin bihurtu.</UsePageHeadersAndFooters>
+    <UseUnicode>Karaktereak Unicode gisa gorde PDF fitxategiaren barruan, testua behar bezala kopia dadin.</UseUnicode>
     <ViewModeContinuous>Orrialde guztiak zinta gisa erakutsi.</ViewModeContinuous>
     <ViewModeMultiplePages>Hainbat orrialde erakutsi.</ViewModeMultiplePages>
     <ViewModeSinglePage>Orrialde bakar bat erakutsi.</ViewModeSinglePage>
@@ -1633,6 +1693,7 @@
     <ZoomOnePage>Orrialde bat egokitu.</ZoomOnePage>
     <ZoomPageWidth>Orrialdearen zabalera egokitu.</ZoomPageWidth>
     <ZoomTwoPages>Bi orrialde egokitu.</ZoomTwoPages>
+    <ZoomTxt>Txostenaren testuaren eskala: X horizontalean, Y bertikalean.</ZoomTxt>
   </HelpViewer>
   <MainMenu>
     <menuCheckIssues>Izan daitezkeen Akatsak egiaztatu</menuCheckIssues>

@@ -729,7 +729,7 @@
   </Errors>
   <Export>
     <AddPageBreaks>إضافة فواصل صفحات</AddPageBreaks>
-    <AllBands>جميع المجموعات</AllBands>
+    <AllBands>جميع النطاقات</AllBands>
     <AllowAddOrModifyTextAnnotations>تمكين إضافة أو تعديل التهميشات</AllowAddOrModifyTextAnnotations>
     <AllowCopyTextAndGraphics>تمكين نسخ النصوص والصور</AllowCopyTextAndGraphics>
     <AllowEditable>السماح بالتعديلات:</AllowEditable>
@@ -832,14 +832,14 @@
     <TiffCompressionScheme>TIFF صيغة ضغط:</TiffCompressionScheme>
     <title>إعدادات التصدير</title>
     <TxtBorderType>نوع الحدود</TxtBorderType>
-    <TxtBorderTypeDouble>Unicode-ضعف</TxtBorderTypeDouble>
+    <TxtBorderTypeDouble>مزدوج</TxtBorderTypeDouble>
     <TxtBorderTypeSimple>بسيط</TxtBorderTypeSimple>
-    <TxtBorderTypeSingle>Unicode-مفرد</TxtBorderTypeSingle>
+    <TxtBorderTypeSingle>مفرد</TxtBorderTypeSingle>
     <TxtCutLongLines>قطع الأسطر الطويلة</TxtCutLongLines>
     <TxtDrawBorder>رسم الحدود</TxtDrawBorder>
-    <TxtKillSpaceGraphLines>تخطي مسافات خطوط الرسم البياني</TxtKillSpaceGraphLines>
-    <TxtKillSpaceLines>تخطي خطوط المسافات</TxtKillSpaceLines>
-    <TxtPutFeedPageCode>إدراج أوامر صفحة التغذية</TxtPutFeedPageCode>
+    <TxtKillSpaceGraphLines>إزالة الأسطر التي تحتوي على حدود فقط</TxtKillSpaceGraphLines>
+    <TxtKillSpaceLines>إزالة الأسطر الفارغة</TxtKillSpaceLines>
+    <TxtPutFeedPageCode>تغذية الورقة بعد كل صفحة</TxtPutFeedPageCode>
     <Type>النوع:</Type>
     <UseDefaultSystemEncoding>استخدام ترميز النظام الافتراضي</UseDefaultSystemEncoding>
     <UseDigitalSignature>استخدام التوقيع الإلكتروني</UseDigitalSignature>
@@ -1883,66 +1883,62 @@
     <StiTreeViewControl>يعرض البيانات الهرمية كشجرة.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
-    <AddPageBreaks>فاصل مرئي لصفحات التقرير.</AddPageBreaks>
-    <AllowAddOrModifyTextAnnotations>محدودية الوصول للعمل مع الشروح في الوثيقة.</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>محدودية الوصول لنسخ المعلومات.</AllowCopyTextAndGraphics>
-    <AllowEditable>السماح فقط بتعديل العناصر ذات خاصية التعديل مفعلة.</AllowEditable>
-    <AllowModifyContents>محدودية الوصول لتعديل النصوص.</AllowModifyContents>
-    <AllowPrintDocument>محدودية الوصول لعمليات الطباعة.</AllowPrintDocument>
+    <AddPageBreaks>إظهار فاصل بين صفحات التقرير.</AddPageBreaks>
+    <AllowAddOrModifyTextAnnotations>السماح بإضافة الشروح وتغييرها.</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>السماح بنسخ نص الوثيقة ورسوماتها.</AllowCopyTextAndGraphics>
+    <AllowEditable>السماح بتغيير المكونات المفعلة فيها خاصية تعديل.</AllowEditable>
+    <AllowModifyContents>السماح بتغيير نص الوثيقة.</AllowModifyContents>
+    <AllowPrintDocument>السماح بطباعة الوثيقة.</AllowPrintDocument>
     <Bookmarks>إظهار العناوين.</Bookmarks>
-    <BorderType>نوع حدود المكون: بسيط - رسم حدود المكونات باستخدام الرموز +, -, |; يونيكود مفرد - رسم الحدود باستخدام رمز صندوق منفرد, يونيكود ثنائي - رسم الحدود باستخدام رمز صندوق ثنائي.</BorderType>
+    <BorderType>رموز حدود المكونات: بسيط يرسمها بالرموز + و - و |، ومفرد ومزدوج بخطوط رسم مفردة أو مزدوجة.</BorderType>
     <Close>إغلاق المعاينة.</Close>
     <CloseDotMatrix>مصفوفة نقطة قريبة عارض والعودة إلى تحرير هذا التقرير.</CloseDotMatrix>
-    <Compressed>ضغط الوثيقة الجاهزة. من المستحسن دائما ضغط الملف.</Compressed>
-    <CompressToArchive>ضم كافة الملفات والمجلدات في أرشيف مضغوط.</CompressToArchive>
-    <ContinuousPages>طريقة وضع صفحات التقرير كشريط عمودي.</ContinuousPages>
-    <CurrentPage>معالجة الصفحة الحالية. إذا تم تحديد هذا الخيار، سيتم تجهيز صفحة التقرير المحددة.</CurrentPage>
-    <CutEdges>تقليم حدود صفحات التقرير.</CutEdges>
-    <CutLongLines>تقليم الأسطر طويلة (أسطرالنص) من قبل حدود المكونات.</CutLongLines>
-    <DigitalSignature>التوقيع الرقمي للملف.</DigitalSignature>
-    <DitheringType>نمط التردد: بدون - بلا تردد, مرتب, FloydSt - مع تردد.</DitheringType>
+    <Compressed>ضغط الوثيقة. اتركه مفعلا لتصغير حجم الملف.</Compressed>
+    <CompressToArchive>ضم كل الملفات والمجلدات في أرشيف zip.</CompressToArchive>
+    <ContinuousPages>وضع صفحات التقرير واحدة تحت الأخرى في شريط متصل.</ContinuousPages>
+    <CurrentPage>الصفحة الحالية من التقرير فقط.</CurrentPage>
+    <CutEdges>تقليم حواف صفحات التقرير.</CutEdges>
+    <CutLongLines>قص النص الذي لا يتسع في مكونه بدلا من نقله إلى سطر جديد.</CutLongLines>
+    <DigitalSignature>توقيع الوثيقة بتوقيع رقمي.</DigitalSignature>
+    <DitheringType>تنقيط الصور بالأبيض والأسود: None أو Ordered أو Floyd-Steinberg.</DitheringType>
     <DotMatrixMode>العرض في نمط الطباعة النقطية.</DotMatrixMode>
-    <DrawBorder>رسم حدود المكونات باستخدام رموز رسومية.</DrawBorder>
+    <DotMatrixSettings>إظهار الإعدادات أو إخفاؤها.</DotMatrixSettings>
+    <DrawBorder>رسم حدود المكونات باستخدام رموز رسم المربعات.</DrawBorder>
     <Edit>عدل المكونات.</Edit>
     <EmbeddedFonts>تضمين ملفات الخط في ملف PDF.</EmbeddedFonts>
     <EmbeddedFontsHtml>تضمين ملفات الخط في ملف HTML: لا شيء، أو الخطوط المخصصة فقط، أو جميع الخطوط المستخدمة في التقرير.</EmbeddedFontsHtml>
     <EmbeddedFontsOffice>تضمين ملفات الخط في الملف المُصدَّر.</EmbeddedFontsOffice>
-    <EmbeddedImageData>تضمين الصور مباشرة إلى ملف HTML.</EmbeddedImageData>
-    <Encoding>ترميز نص التقرير بعد التصدير.</Encoding>
+    <EmbeddedImageData>تضمين الصور مباشرة في ملف HTML.</EmbeddedImageData>
+    <Encoding>ترميز النص الذي تم تصديره.</Encoding>
     <EncodingData>ترميز ملف البيانات.</EncodingData>
-    <EncryptionKeyLength>طول مفتاح التشفير. وكلما زاد طوله، كلما زادت صعوبة فك تشفير الوثيقة،
-
-وتبعا لذلك، زيادة أمن الوثيقة.</EncryptionKeyLength>
-    <ExportDataOnly>تصدير نطاقات البيانات فقط (جدول مكون، ونطاق الهرمي).</ExportDataOnly>
-    <ExportEachPageToSheet>تصدير كل صفحة التقرير في ورقة اكسل منفصلة.</ExportEachPageToSheet>
-    <ExportMode>تطبيق حالة التصفية عند التصدير. البيانات فقط - نطاقات البيانات فقط (مكونات الجدول، النطاقات الهرمية) سيتم
-
-تصديرها. وسيتم تصدير نطاقات البيانات (مكون جدول، نطاق هرمي) مع الترويسات والتذييلات. كل
-
-سيتم تصدير جميع نطاقات تقرير - النطاقات.</ExportMode>
-    <ExportModeHtml>معالجة وضع علامات على صفحة HTML.</ExportModeHtml>
-    <ExportModeRtf>طريقة عرض بيانات التقرير بعد التصدير. جدول - التقرير يظهر كجدول، حيث كل مكون في التقرير هو خلية جدول. الإطار - سيبدو كل مكون كأنه إطار منفصل، ولكن من دون أي علاقة بينهما.
-</ExportModeRtf>
-    <ExportObjectFormatting>تطبيق التنسيق لتصدير البيانات من نطاقات البيانات (مكون جدول، ونطاق هرمية).</ExportObjectFormatting>
+    <EncryptionKeyLength>طول مفتاح التشفير: كلما طال المفتاح، صعب فك تشفير الوثيقة.</EncryptionKeyLength>
+    <ExportDataOnly>تصدير نطاقات البيانات فقط: مكون الجدول والنطاق الهرمي.</ExportDataOnly>
+    <ExportEachPageToSheet>تصدير كل صفحة من التقرير إلى ورقة Excel خاصة بها.</ExportEachPageToSheet>
+    <ExportMode>النطاقات التي تدخل في الملف: البيانات فقط يأخذ نطاقات البيانات (مكون الجدول، النطاق الهرمي)، البيانات مع الترويسة/التذييل يضيف ترويساتها وتذييلاتها، جميع النطاقات يأخذ كل النطاقات.</ExportMode>
+    <ExportModeHtml>بنية الوسوم في صفحة HTML.</ExportModeHtml>
+    <ExportModeRtf>شكل التقرير بعد التصدير: جدول يضع كل مكون في خلية جدول، الإطار يضع كل مكون في إطار خاص به، دون أي علاقة بينها.</ExportModeRtf>
+    <ExportObjectFormatting>الحفاظ على تنسيق البيانات من نطاقات البيانات (مكون الجدول، النطاق الهرمي).</ExportObjectFormatting>
     <ExportPageBreaks>كيفية حدود صفحات التقرير على ورقة اكسل.</ExportPageBreaks>
-    <ExportRtfTextAsImage>تحويل النص RTF إلى صورة. إذا تم تمكين الخيار، فإنه عند التصدير، RichText يتحلل إلى أبسط المكونات المعتمدة من قبل تنسيق PDF. لا يمكن دائما تحويل RichText معقد النسق  (الصور المضمنة والجداول) بشكل صحيح. في هذه الحالة فمن المستحسن تمكين هذا الخيار.</ExportRtfTextAsImage>
+    <ExportRtfTextAsImage>تصدير نص RTF كصورة. فعّله للنص المنسق الذي يحتوي على صور أو جداول، فهو لا يتحول دائما إلى نص PDF بشكل صحيح.</ExportRtfTextAsImage>
     <Find>البحث عن نص.</Find>
     <FullScreen>العرض في الشاشة الكاملة.</FullScreen>
-    <GetCertificateFromCryptoUI>استخدام واجهة مكتبة التشفير الخاصة بنظام التشغيل.</GetCertificateFromCryptoUI>
-    <ImageCompressionMethod>طريقة الضغط: JPEG - قد تسبب فقدان للجودة، Flate - عدم فقدان للجودة، Simple, Ordered, FloydSt - صور أحادية اللون.</ImageCompressionMethod>
-    <ImageFormat>صيغة صورة في الملف النهائي.</ImageFormat>
-    <ImageQuality>يتيح لك اختيار نسبة  جودة الصورة / حجم الملف. وكلما ارتفعت الجودة كلما كان حجم الملف النهائي.</ImageQuality>
-    <ImageQualityPdf>هذا الخيار متاح فقط في ضغط JPEG، ويسمح لك بتحديد نسبة جودة الصورة / حجم الملف. وكلما ارتفعت الجودة كلما كان حجم الملف النهائي أكبر.</ImageQualityPdf>
-    <ImageResolution>عدد البكسلات لكل بوصة. وكلما ارتفع عدد البكسلات ، كلما كانت جودة الصورة أفضل. وحجم الملف النهائي سيكون أكبر.</ImageResolution>
+    <GetCertificateFromCryptoUI>اختيار الشهادة في نافذة مكتبة التشفير الخاصة بالنظام.</GetCertificateFromCryptoUI>
+    <ImageCompressionMethod>ضغط الصور: JPEG قد يفقد الجودة، و Flate يحافظ عليها، و Simple و Ordered و Floyd-Steinberg تجعل الصور بالأبيض والأسود.</ImageCompressionMethod>
+    <ImageFormat>صيغة الصور في الملف الذي تم تصديره.</ImageFormat>
+    <ImageQuality>التوازن بين جودة الصور وحجم الملف: كلما ارتفعت الجودة، كبر حجم الملف.</ImageQuality>
+    <ImageQualityPdf>التوازن بين جودة الصور وحجم الملف عند ضغط JPEG: كلما ارتفعت الجودة، كبر حجم الملف.</ImageQualityPdf>
+    <ImageResolution>عدد البكسلات في البوصة: كلما زاد عدد البكسلات، تحسنت الصور وكبر حجم الملف.</ImageResolution>
     <ImageResolutionMode>طريقة تطبيق الوضوح على الصور: بالضبط، أو لتصغير الصور الأكبر فقط، أو عدم تطبيقه إطلاقًا.</ImageResolutionMode>
-    <ImageType>تدرج الألوان في الصورة: ملون - الصورة بعد التصدير ستطابق المستعرض مطابقة كاملة; الرمادي – الصورة بعد التصدير ستكون بتدرج الرمادي; أحادي - الصور ستكون باللونين الأبيض والأسود فقط. في نفس الوقت, يجب الأخذ في الحسبان أن اللون الأحادي له ثلاثة أنماط None, Ordered, FloydSt.</ImageType>
-    <KillSpaceLines>إزالة الأسطر الفارغة (الصفوف) من الوثيقة.</KillSpaceLines>
-    <MultipleFiles>كل صفحة في التقرير يمكن أن تكون في ملف منفصل.</MultipleFiles>
+    <ImageType>ألوان الصورة: اللون يطابق المستعرض، تدرج الرمادي يستخدم درجات الرمادي، أبيض وأسود يستخدم الأسود والأبيض فقط بأحد أنماط التنقيط الثلاثة.</ImageType>
+    <KeepProportions>الحفاظ على التناسب.</KeepProportions>
+    <KillSpaceGraphLines>إزالة الأسطر التي لا تحتوي إلا على حدود ومسافات.</KillSpaceGraphLines>
+    <KillSpaceLines>إزالة الأسطر الفارغة من الوثيقة.</KillSpaceLines>
+    <MultipleFiles>تصدير كل صفحة من التقرير إلى ملف منفصل.</MultipleFiles>
     <Open>فتح تقرير.</Open>
-    <OpenAfterExport>الفتح التلقائي للوثيقة بعد إنشائها (بعد التصدير) بواسطة البرنامج المخصص لهذا النوع من الملفات.</OpenAfterExport>
-    <OwnerPassword>كلمة المرور للوصول إلى العمليات للملفات.</OwnerPassword>
-    <PageAll>معالجة كافة صفحات التقرير.</PageAll>
-    <PageBands>ما رؤوس الصفحة وتذييلاتها التي تدخل في المستند: لا شيء، أو الرأس الأول والتذييل الأخير، أو الكل.</PageBands>
+    <OpenAfterExport>فتح الملف الذي تم تصديره في البرنامج المخصص لهذا النوع من الملفات.</OpenAfterExport>
+    <OwnerPassword>كلمة المرور المطلوبة لتغيير أذونات الوثيقة.</OwnerPassword>
+    <PageAll>كل صفحات التقرير.</PageAll>
+    <PageBands>ترويسات الصفحات وتذييلاتها التي تدخل في الوثيقة: لا شيء، أو الترويسة الأولى والتذييل الأخير، أو كلها.</PageBands>
     <PageDelete>حذف الصفحة المختارة.</PageDelete>
     <PageDesign>تحرير الصفحة في المصمم.</PageDesign>
     <PageFirst>الذهاب إلى الصفحة الأولى.</PageFirst>
@@ -1953,36 +1949,37 @@
     <PagePrevious>الذهاب إلى الصفحة السابقة.</PagePrevious>
     <PageSize>تغيير إعدادات الصفحة.</PageSize>
     <Parameters>إظهار المتغيرات.</Parameters>
-    <PdfACompliance>دعم المواصفات القياسية للأرشفة طويلة المدى لتخزين الوثائق الرقمية.</PdfACompliance>
+    <PdfACompliance>اتباع معيار PDF/A للأرشفة طويلة المدى للوثائق.</PdfACompliance>
+    <PdfUniversalAccessibility>اتباع معيار PDF/UA للوثائق المتاحة للجميع.</PdfUniversalAccessibility>
     <Print>طباعة التقرير.</Print>
-    <PutFeedPageCode>تغذية الصفحات في نهاية الوثيقة بحرف مميز.</PutFeedPageCode>
-    <RangePages>عدد الصفحات للمعالجة.يمكنك تحديد صفحة واحدة فقط,قائمة بالصفحات (استخدم علامة الفاصلة),بالإضافة لتحديد نطاق بتحديد صفحة البداية ومن ثم وضع علامة "-" ثم تحديد صفحة النهاية للنطاق.مثال: 1,3,5-12.</RangePages>
+    <PutFeedPageCode>بدء كل صفحة على ورقة جديدة باستخدام حرف تغذية الصفحة.</PutFeedPageCode>
+    <RangePages>نطاق الصفحات: صفحة واحدة، أو قائمة مفصولة بفواصل، أو نطاق بشرطة، مثلا 1,3,5-12.</RangePages>
     <RebuildReport>إعادة إنشاء التقرير للصفحة الجديدة بحيث تملأ البيانات الصفحات الجديدة. بدون هذا الخيار يتغير حجم الصفحات المنشأة فقط. غير متاح لمستند مفتوح من ملف.</RebuildReport>
-    <RemoveEmptySpaceAtBottom>تصغير المساحة الفارغة في أسفل الصفحة.</RemoveEmptySpaceAtBottom>
+    <RemoveEmptySpaceAtBottom>تقليص المساحة الفارغة في أسفل الصفحات.</RemoveEmptySpaceAtBottom>
     <Resources>إظهار الموارد.</Resources>
-    <RestrictEditing>حظر التعديلات في ملف ورد.</RestrictEditing>
+    <RestrictEditing>القيود على تغيير وثيقة Word.</RestrictEditing>
     <Save>حفظ التقرير.</Save>
     <ScaleContent>تغيير حجم المكونات مع الصفحة. بدون هذا الخيار تحتفظ المكونات بحجمها وموضعها.</ScaleContent>
-    <ScaleHtml>الحجم (الوزن) لصفحات التقرير والعناصر بعد التصدير.</ScaleHtml>
-    <ScaleImage>حجم (وزن) التقرير بعد التصدير. الوزن الأقل, يتيح عددا أكبر من البكسلات في الانش الواحد والعكس صحيح, and vice versa.</ScaleImage>
+    <ScaleHtml>مقياس صفحات التقرير وعناصره في الملف الذي تم تصديره.</ScaleHtml>
+    <ScaleImage>مقياس التقرير في الصورة: كلما زاد المقياس، كبرت الصورة.</ScaleImage>
     <SendEMail>إرسال التقرير عبر البريد الإلكتروني.</SendEMail>
-    <Separator>الفاصل بين البيانات في ملف CSV.</Separator>
-    <SkipColumnHeaders>تفعيل/تعطيل عنوان العمود.</SkipColumnHeaders>
-    <StandardPdfFonts>14 خط أدوبي قياسي. إذا تم تحديد هذا الخيار, فإنه سيتم استخدام 14 خط قياسي فقط في ملفات PDF. جميع الخطوط المستخدمة في التقرير سيتم تحويلها إلى هذه الخطوط القياسية.</StandardPdfFonts>
-    <SubjectNameString>معرف الشهادة. المعرف هو اسم مالك الشهادة (سطر كامل) أو جزء منه (جزء مقطوع).</SubjectNameString>
+    <Separator>الرمز الذي يفصل بين البيانات في ملف CSV.</Separator>
+    <SkipColumnHeaders>عدم تضمين عناوين الأعمدة في الملف.</SkipColumnHeaders>
+    <StandardPdfFonts>استخدام خطوط Adobe القياسية الأربعة عشر فقط: تتحول إليها كل خطوط التقرير.</StandardPdfFonts>
+    <SubjectNameString>الشهادة المستخدمة للتوقيع: الاسم الكامل لمالكها أو جزء منه.</SubjectNameString>
     <Thumbnails>إظهار الصور المصغرة للصفحات.</Thumbnails>
-    <TiffCompressionScheme>مخطط الضغك لملفات TIFF.</TiffCompressionScheme>
+    <TiffCompressionScheme>ضغط ملف TIFF.</TiffCompressionScheme>
     <ToolEditor>تحرير المكونات القابلة للتعديل.</ToolEditor>
     <ToolSignature>التوقيع في الأماكن المحددة.</ToolSignature>
-    <TypeExport>الملف الذي سيتم تحويل التقرير إليه.</TypeExport>
+    <TypeExport>نوع الملف الذي يتحول إليه التقرير.</TypeExport>
     <UnsafeCompilation1>يستخدم هذا المستند عملية التجميع. في بعض الحالات، قد لا يكون ذلك آمنًا. لذلك سيتم تحميل المستند في الوضع الآمن لتقليل أي مخاطر محتملة.</UnsafeCompilation1>
     <UnsafeCompilation2>إذا كنت بحاجة إلى استخدام هذا المستند بشكله الأصلي، يرجى التواصل مع المطورين لديك.</UnsafeCompilation2>
     <UnsafeCompilationTitle>سيُفتح المستند في الوضع الآمن</UnsafeCompilationTitle>
-    <UseDefaultSystemEncoding>استخدام الترميز الافتراضي للنظام أو تحديد ترميز خاص</UseDefaultSystemEncoding>
-    <UseOnePageHeaderAndFooter>تعريف قيود ترويس وتذييل الصفحة كترويسة وتذييل الصفحة  في MS Word.</UseOnePageHeaderAndFooter>
-    <UsePageHeadersAndFooters>تعريف قيود ترويس وتذييل الصفحة كترويسة وتذييل الصفحة  في MS Word.</UsePageHeadersAndFooters>
+    <UseDefaultSystemEncoding>استخدام ترميز النظام. أوقفه لاختيار ترميز آخر.</UseDefaultSystemEncoding>
+    <UseOnePageHeaderAndFooter>الإبقاء على ترويسة صفحة واحدة وتذييل صفحة واحد فقط في ملف Excel بدلا من تكرارهما في كل صفحة.</UseOnePageHeaderAndFooter>
+    <UsePageHeadersAndFooters>تحويل نطاقي عنوان صفحة وتذييل صفحة إلى ترويسة الوثيقة وتذييلها.</UsePageHeadersAndFooters>
     <UserPassword>طلب كلمة مرور لفتح الملف</UserPassword>
-    <UseUnicode>دعم إضافي لحروف الترميز. تؤثر في الترميز الداخلي للحروف في ملفات PDF, وتحسن نسخ النصوص من ملفات PDF.</UseUnicode>
+    <UseUnicode>تخزين الحروف بترميز Unicode داخل ملف PDF، ليُنسخ النص بشكل صحيح.</UseUnicode>
     <ViewModeContinuous>عرض كل الصفحات كشريط.</ViewModeContinuous>
     <ViewModeMultiplePages>عرض عدة صفحات.</ViewModeMultiplePages>
     <ViewModeSinglePage>عرض صفحة واحدة.</ViewModeSinglePage>
@@ -1990,7 +1987,7 @@
     <ZoomOnePage>ملاءمة صفحة واحدة.</ZoomOnePage>
     <ZoomPageWidth>ملاءمة عرض الصفحة.</ZoomPageWidth>
     <ZoomTwoPages>ملاءمة صفحتين.</ZoomTwoPages>
-    <ZoomTxt>حجم التقرير  - الوزن (scale): X - تغيير المحور الأفقي, Y - تغيير المحور العمودي.</ZoomTxt>
+    <ZoomTxt>مقياس نص التقرير: X أفقيا، Y عموديا.</ZoomTxt>
   </HelpViewer>
   <MainMenu>
     <menuCheckIssues>التحقق من الأخطاء</menuCheckIssues>

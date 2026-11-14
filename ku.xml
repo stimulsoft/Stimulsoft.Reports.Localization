@@ -1190,14 +1190,14 @@
     <TiffCompressionScheme>پلانی پەستانی TIFF:</TiffCompressionScheme>
     <title>هەناردەکردنی ڕێکخستنەکان</title>
     <TxtBorderType>جۆری سنوور</TxtBorderType>
-    <TxtBorderTypeDouble>یونیکۆد-دەبڵ</TxtBorderTypeDouble>
+    <TxtBorderTypeDouble>دەبڵ</TxtBorderTypeDouble>
     <TxtBorderTypeSimple>سادە</TxtBorderTypeSimple>
-    <TxtBorderTypeSingle>یونیکۆد-تاک</TxtBorderTypeSingle>
+    <TxtBorderTypeSingle>تاک</TxtBorderTypeSingle>
     <TxtCutLongLines>بڕینی هێڵە درێژەکان</TxtCutLongLines>
     <TxtDrawBorder>کێشانی سنوور</TxtDrawBorder>
-    <TxtKillSpaceGraphLines>لابردنی بۆشای لە هێڵی نەخشەکەدا</TxtKillSpaceGraphLines>
-    <TxtKillSpaceLines>لابردنی بۆشای لە هێڵەکەدا</TxtKillSpaceLines>
-    <TxtPutFeedPageCode>دانانی کۆد لە پەڕەی فیید دا</TxtPutFeedPageCode>
+    <TxtKillSpaceGraphLines>لابردنی ئەو هێڵانەی تەنها سنووریان هەیە</TxtKillSpaceGraphLines>
+    <TxtKillSpaceLines>لابردنی هێڵە بەتاڵەکان</TxtKillSpaceLines>
+    <TxtPutFeedPageCode>گۆڕینی پەڕە دوای هەر پەڕەیەک</TxtPutFeedPageCode>
     <Type>جۆر:</Type>
     <UseDefaultSystemEncoding>بەکارهێنانی شێوەی ئاسای کۆدکردنی سیستەم </UseDefaultSystemEncoding>
     <UseDigitalSignature>ئیمزای دیجیتاڵ بەکاربهێنە</UseDigitalSignature>
@@ -2345,62 +2345,65 @@
     <StiTreeViewControl>داتای هەرەمی وەک درەخت پیشان دەدات.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
-    <AddPageBreaks>جیاکەرەوەی بینراوی لاپەڕەکانی ڕاپۆرت.</AddPageBreaks>
-    <AllowAddOrModifyTextAnnotations>دەستگەیشتنی سنوردار بۆ کارکردن لەگەڵ تێبینیەکان لە دۆکیومێنتەکە.دەستگەیشتنی سنوردار بۆ کارکردن لەگەڵ تێبینیەکان لە دۆکیومێنتەکە.</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>دەسەڵاتی سنوردار لە کۆپیکردنی زانیاری.</AllowCopyTextAndGraphics>
-    <AllowEditable>ڕێگە دەدات بە گۆڕینی پێکهاتەکان کاتێ تایبەتمەندی گۆڕانکاری چالاککراوبێت.</AllowEditable>
-    <AllowModifyContents>دەسەڵاتی سنووردار لە گۆڕینی تێکست</AllowModifyContents>
-    <AllowPrintDocument>دەسەڵاتی سنووردار لە ئەنجامدانی پرینتکردن</AllowPrintDocument>
+    <AddPageBreaks>پیشاندانی جیاکەرەوەیەک لە نێوان لاپەڕەکانی ڕاپۆرت.</AddPageBreaks>
+    <AllowAddOrModifyTextAnnotations>ڕێگەدان بە زیادکردن و گۆڕینی تێبینییەکان.</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>ڕێگەدان بە کۆپیکردنی دەق و گرافیکی دۆکیومێنت.</AllowCopyTextAndGraphics>
+    <AllowEditable>ڕێگەدان بە گۆڕینی ئەو پێکهاتانەی تایبەتمەندی بژارکردنیان چالاکە.</AllowEditable>
+    <AllowModifyContents>ڕێگەدان بە گۆڕینی دەقی دۆکیومێنت.</AllowModifyContents>
+    <AllowPrintDocument>ڕێگەدان بە چاپکردنی دۆکیومێنت.</AllowPrintDocument>
     <Bookmarks>پیشاندانی نیشانەکان.</Bookmarks>
-    <BorderType>جۆری سنووری پێکهاتەکان: سنورەکانی هێڵکاری سادەی پێکهاتەکان لەگەڵ پیتەکان +, -, |; Unicode تاک - وێنەکێشانی سنوورەکان لەگەڵ تاکە سنووقی وێنەکێشان پیتەکان, Unicode جووت - وێنەکێشانی سنوورەکان لەگەڵ دوو بۆکس-وێنەکێشان پیتەکان.</BorderType>
+    <BorderType>پیتەکانی سنووری پێکهاتەکان: سادە بە + و - و | دەیانکێشێت، تاک و دەبڵ بە هێڵی هێڵکاری تاک یان دووانە.</BorderType>
     <Close>داخستنی پێشبینین.</Close>
     <CloseDotMatrix>داخستنی پێشاندەری Dot Matrix.</CloseDotMatrix>
-    <Compressed>پەستانی دۆکیومێنتی ئامادە. پێشنیار دەکرێت هەمیشە پەستانکردنی فایل لەخۆ بگرێت.</Compressed>
-    <CompressToArchive>هەموو فایلەکان و فۆڵدەرەکان لە ئەرشیفی Zip.</CompressToArchive>
-    <ContinuousPages>شێوازی دانانی لاپەڕەکانی ڕاپۆرت وەک شریتی ستوونی.</ContinuousPages>
-    <CurrentPage>پرۆسەکردنی ئەم لاپەڕەیە. ئەگەر ئەم هەڵبژاردنە دیاریکرا، ئەوا لاپەڕەی راپۆرتی هەڵبژێردراو پرۆسە دەکرێت.</CurrentPage>
-    <CutEdges>بڕینی سنوورەکانی لاپەڕەکانی ڕاپۆرت.</CutEdges>
-    <CutLongLines>بڕینی هێڵە درێژەکان (هێڵەکانی دەق) بە سنووری پێکهاتەکان.</CutLongLines>
+    <Compressed>پەستانی دۆکیومێنت. چالاکی بهێڵەرەوە بۆ ئەوەی فایلەکە بچووکتر بێت.</Compressed>
+    <CompressToArchive>کۆکردنەوەی هەموو فایل و فۆڵدەرەکان لە ئەرشیفێکی zip دا.</CompressToArchive>
+    <ContinuousPages>دانانی لاپەڕەکانی ڕاپۆرت یەک لە ژێر یەکدا لە یەک شریتی بەردەوامدا.</ContinuousPages>
+    <CurrentPage>تەنها لاپەڕەی ئێستای ڕاپۆرت.</CurrentPage>
+    <CutEdges>بڕینی لێوارەکانی لاپەڕەکانی ڕاپۆرت.</CutEdges>
+    <CutLongLines>بڕینی ئەو دەقەی لە پێکهاتەکەی خۆیدا جێی نابێتەوە، لە جیاتی بردنی بۆ هێڵی دواتر.</CutLongLines>
     <DashboardContains1>ببورە، بەڵام ئەم ڕاپۆرتە داشبۆردی تێدایە.</DashboardContains1>
     <DashboardContains2>پێویستە ئەم ڕاپۆرتە ڕاستەوخۆ لە دیزاینەر بکەیتەوە!</DashboardContains2>
     <DashboardContains3>ناتوانیت ئەوە بکەیت لە لایەن بینەری ڕاپۆرتەکەوە!</DashboardContains3>
-    <DigitalSignature>ئیمزای دیجیتاڵی فایلەکە.</DigitalSignature>
-    <DitheringType>جۆری داگرتن:None - no dithering, Ordered, FloydSt. - with dithering.</DitheringType>
+    <DigitalSignature>ئیمزاکردنی دۆکیومێنت بە ئیمزای دیجیتاڵی.</DigitalSignature>
+    <DitheringType>تێکەڵکردنی پیکسڵەکانی وێنەی ڕەش و سپی: None، Ordered یان Floyd-Steinberg.</DitheringType>
     <DotMatrixMode>بینین لە مۆدی خاڵ-ماتریکسدا.</DotMatrixMode>
-    <DrawBorder>وێنەکێشانی سنوورەکانی پێکهاتەکان لەگەڵ هێما گرافیکیەکان.</DrawBorder>
+    <DotMatrixSettings>پیشاندان یان شاردنەوەی ڕێکخستنەکان.</DotMatrixSettings>
+    <DrawBorder>کێشانی سنووری پێکهاتەکان بە پیتەکانی هێڵکاری چوارچێوە.</DrawBorder>
     <Edit>گۆڕانکاری لە پێکهاتەکان.</Edit>
     <EmbeddedFonts>فایلەکانی فۆنتەکە بنچین بکە ناو فایلی PDF.</EmbeddedFonts>
     <EmbeddedFontsHtml>فایلەکانی فۆنت بنچین بکە ناو فایلی HTML: هیچیان، تەنها فۆنتە تایبەتەکان، یان هەموو ئەو فۆنتانەی لە ڕاپۆرتەکەدا بەکارهاتوون.</EmbeddedFontsHtml>
     <EmbeddedFontsOffice>فایلەکانی فۆنت بنچین بکە ناو فایلی هەناردەکراو.</EmbeddedFontsOffice>
-    <EmbeddedImageData>وێنەکان ڕاستەوخۆ بنچینە بکە ناو فایلی HTML.</EmbeddedImageData>
-    <Encoding>مشەفەرکردنی دەقی ڕاپۆرت پاش هەناردەکردن.</Encoding>
-    <EncodingData>مشەفەرکردنی فایلی داتا.</EncodingData>
-    <EncryptionKeyLength>درێژی کلیلی رەمزاندن. هەتا درێژی درێژتر بێت، مشەفەرکردنی دۆکیومێنتەکە قورسترە، و بەو پێیە، ئاسایشی دۆکیومێنتەکە لەسەر ئەولەویەتی بەرزترە.</EncryptionKeyLength>
-    <ExportDataOnly>هەناردەکردنی تەنها باندەکانی داتا (پێکهاتەی خشتە، باندی هیراچیکال).</ExportDataOnly>
-    <ExportEachPageToSheet>هەناردەکردنی هەر لاپەڕەیەکی ڕاپۆرت لە شیتی Excel جیا.</ExportEachPageToSheet>
-    <ExportMode>کارپێکردنی مەرجی فلتەر لەکاتی ناردن. تەنها داتا - تەنها باندەکانی داتا (پێکهاتەی خشتە، باندە هەرەمیەکان) هەناردە دەکرێن. داتا و سەرپەڕەکان/ژێرپەڕەکان - باندەکانی داتا (پێکهاتەی خشتە، باندە هەرەمیەکان) و سەرپەڕەکان/بن پەڕەکانیان هەناردە دەکرێن. هەموو باندەکان - هەموو باندەکانی ڕاپۆرت هەناردە دەکرێن.</ExportMode>
-    <ExportModeHtml>بەشێوەی HTML</ExportModeHtml>
-    <ExportModeRtf>پێشکەشکردنی داتای ڕاپۆرت دوای هەناردەکردن. خشتەکە - راپۆرتەکە وەک خشتەیەک دەردەکەوێت، کە هەر پێکهاتەیەکی راپۆرتەکە خانەی خشتەیە. چوارچێوە - هەر پێکهاتەیەک لە چوارچێوەیەکی تاک دەچێت، بەڵام بەبێ هیچ پەیوەندیەک لەنێوانیاندا.</ExportModeRtf>
-    <ExportObjectFormatting>جێبەجێ کردنی فۆرمات بۆ هەناردەکردنی Data لە باندەکانی داتا (پێکهاتەی خشتە، باندی هیراچیکال).</ExportObjectFormatting>
+    <EmbeddedImageData>جێگیرکردنی وێنەکان ڕاستەوخۆ لە ناو فایلی HTML دا.</EmbeddedImageData>
+    <Encoding>کۆدکردنی دەقی هەناردەکراو.</Encoding>
+    <EncodingData>کۆدکردنی فایلی داتا.</EncodingData>
+    <EncryptionKeyLength>درێژی کلیلی ڕەمزاندن: تا کلیلەکە درێژتر بێت، کردنەوەی ڕەمزی دۆکیومێنتەکە قورستر دەبێت.</EncryptionKeyLength>
+    <ExportDataOnly>هەناردەکردنی تەنها باندەکانی داتا: پێکهاتەی خشتە و باندی هەرەمی.</ExportDataOnly>
+    <ExportEachPageToSheet>هەناردەکردنی هەر لاپەڕەیەکی ڕاپۆرت بۆ شیتێکی تایبەتی Excel.</ExportEachPageToSheet>
+    <ExportMode>ئەو باندانەی دەچنە ناو فایلەکە: تەنها داتا باندەکانی داتا وەردەگرێت (پێکهاتەی خشتە، باندی هەرەمی)، داتا و سەرپەڕەکان/ژێرپەڕەکان سەرپەڕە و ژێرپەڕەکانیان زیاد دەکات، هەموو باندەکان هەموو باندەکان وەردەگرێت.</ExportMode>
+    <ExportModeHtml>نیشانەکردنی لاپەڕەی HTML.</ExportModeHtml>
+    <ExportModeRtf>شێوەی ڕاپۆرت دوای هەناردەکردن: خشتە هەر پێکهاتەیەک دەخاتە ناو خانەیەکی خشتە، چێوە هەر پێکهاتەیەک دەخاتە ناو چێوەی خۆی، بەبێ هیچ پەیوەندییەک لە نێوانیاندا.</ExportModeRtf>
+    <ExportObjectFormatting>پاراستنی فۆرماتی داتای باندەکانی داتا (پێکهاتەی خشتە، باندی هەرەمی).</ExportObjectFormatting>
     <ExportPageBreaks>پیشاندانی سنوورەکانی لاپەڕەکانی ڕاپۆرت لەسەر شیتی Excel.</ExportPageBreaks>
-    <ExportRtfTextAsImage>گۆڕینی دەقی RTF بۆ وێنە. ئەگەر بژاردەکە چالاک بکرێت، ئەوا، کاتێک هەناردە دەکرێت، ڕیچ تێکست داشکاندن دەکات بۆ سەرەتاییە سادەکان کە لەلایەن فۆرماتی PDFەوە پشتگیری دەکرێن. RichText لەگەڵ فۆرماتی ئاڵۆز (وێنە بنچینکراوەکان، خشتەکان) هەمیشە ناتوانرێت بە دروستی بگۆڕدرێت. لەم حاڵەتەدا پێشنیار کراوە بۆ چالاککردنی ئەم هەڵبژاردنە.</ExportRtfTextAsImage>
+    <ExportRtfTextAsImage>هەناردەکردنی دەقی RTF وەک وێنە. بۆ دەقی دەوڵەمەند کە وێنە یان خشتەی تێدایە چالاکی بکە، چونکە هەمیشە بە دروستی ناگۆڕدرێت بۆ دەقی PDF.</ExportRtfTextAsImage>
     <Find>دۆزینەوەی دەق.</Find>
     <FullScreen>بینینی پڕ بە شاشەکە.</FullScreen>
-    <GetCertificateFromCryptoUI>بەکارهێنانی ڕووکاری system cryptography library.</GetCertificateFromCryptoUI>
-    <ImageCompressionMethod>شێوازی پەستان: JPEG - ئەمە لەوانەیە ببێتە هۆی لە دەست دانی کوالیتی، Flate - بێ لەدەستدانی کوالیتی، Simple, Ordered, FloydSt. - وێنەکان لە مۆنۆکرۆم دەرهێنراون.</ImageCompressionMethod>
-    <ImageFormat>فۆرماتی وێنە لە فایلی تەواوکراو.</ImageFormat>
-    <ImageQuality>ڕێگەت پێدەدات بۆ هەڵبژاردنی ڕێژەی کوالیتی/قەبارەی وێنەکەی فایلەکە. ئەو کوالێتییە بەرزترە، فایلی تەواوکراو قەبارەی گەورەتر دەبێت .</ImageQuality>
-    <ImageQualityPdf>بژاردەکە تەنها لە پەستانی JPEG بەردەستە، و ڕێگەت پێدەدات بۆ دیاریکردنی ڕێژەی کوالێتی/قەبارەی وێنەکەی فایلەکە. ئەو کوالێتییە بەرزترە، ، فایلی تەواوکراو قەبارەی گەورەتر دەبێت.</ImageQualityPdf>
-    <ImageResolution>ژمارەی پیکسڵەکان بۆ هەر ئینچێک کە ژمارەی پیکسڵەکان زیاتر بێت، باشتر کوالێتی وێنەکە. قەبارەی فایلی تەواوکراو زۆر گەورەتر دەبێت.</ImageResolution>
+    <GetCertificateFromCryptoUI>هەڵبژاردنی بڕوانامە لە پەنجەرەی کتێبخانەی کریپتۆگرافی سیستەم.</GetCertificateFromCryptoUI>
+    <ImageCompressionMethod>پەستانی وێنەکان: JPEG لەوانەیە کوالیتی کەم بکاتەوە، Flate دەیپارێزێت، و Simple، Ordered و Floyd-Steinberg وێنەکان ڕەش و سپی دەکەن.</ImageCompressionMethod>
+    <ImageFormat>فۆرماتی وێنەکان لە فایلی هەناردەکراودا.</ImageFormat>
+    <ImageQuality>هاوسەنگی نێوان کوالیتی وێنە و قەبارەی فایل: تا کوالیتی بەرزتر بێت، فایلەکە گەورەتر دەبێت.</ImageQuality>
+    <ImageQualityPdf>هاوسەنگی نێوان کوالیتی وێنە و قەبارەی فایل لە پەستانی JPEG دا: تا کوالیتی بەرزتر بێت، فایلەکە گەورەتر دەبێت.</ImageQualityPdf>
+    <ImageResolution>ژمارەی پیکسڵ لە هەر ئینچێکدا: تا پیکسڵ زیاتر بێت، وێنەکان باشتر و فایلەکە گەورەتر دەبێت.</ImageResolution>
     <ImageResolutionMode>چۆنیەتی جێبەجێکردنی کوالێتی ڕوونی لەسەر وێنەکان: بە وردی، تەنها بۆ بچووککردنەوەی گەورەترەکان، یان هەرگیز.</ImageResolutionMode>
-    <ImageType>نەخشی ڕەنگ لە وێنە: ڕەنگ - وێنە دوای ناردن بەتەواوی هاوتا دەبێت لەگەڵ وێنەکە لە پیشاندان دا؛ خۆڵەمێشی – وێنەیەک دوای ناردن لە سێبەری خۆڵەمێشی دەبێت، مۆنۆکرۆم - وێنەکان بە توندی ڕەش و سپی دەبن. لە هەمان کاتدا، دەبێت ڕەچاوی ئەوە بکرێت کە مۆنۆکرۆم سێ مۆدی هەیە None, Ordered, FloydSt.</ImageType>
-    <KillSpaceLines>لابردنی هێڵە بەتاڵەکان (ڕیزەکان) لە دۆکیومێنتەکە.</KillSpaceLines>
-    <MultipleFiles>هەر پەڕەی راپۆرتێک دەتوانێت فایلێکی جیا بێت.</MultipleFiles>
+    <ImageType>ڕەنگەکانی وێنە: ڕەنگ وەک پیشاندەر دەبێت، وێنەی ڕەساسی سێبەرەکانی خۆڵەمێشی بەکاردەهێنێت، مۆنۆکرۆم تەنها ڕەش و سپی بەکاردەهێنێت بە یەکێک لە سێ شێوازی تێکەڵکردنی پیکسڵەکان.</ImageType>
+    <KeepProportions>پاراستنی ڕێژەکان.</KeepProportions>
+    <KillSpaceGraphLines>لابردنی ئەو هێڵانەی تەنها سنوور و بۆشاییان تێدایە.</KillSpaceGraphLines>
+    <KillSpaceLines>لابردنی هێڵە بەتاڵەکان لە دۆکیومێنتەکە.</KillSpaceLines>
+    <MultipleFiles>هەناردەکردنی هەر لاپەڕەیەکی ڕاپۆرت بۆ فایلێکی جیا.</MultipleFiles>
     <Open>کردنەوەی ڕاپۆرتێک.</Open>
-    <OpenAfterExport>کردنەوەی خۆکارانەی دۆکیومێنتی دروست کراو (دوای هەناردەکردن) لەلایەن بەرنامەی دانراو بۆ ئەم جۆرە فایلانە.</OpenAfterExport>
-    <OwnerPassword>ووشەی نهێنی بۆ چوونە ژورەوەی کردارەکان لەگەڵ فایلەکان.</OwnerPassword>
-    <PageAll>پرۆسەکردنی هەموو لاپەڕەکانی ڕاپۆرت.</PageAll>
-    <PageBands>کام سەرپەڕە و ژێرپەڕەی لاپەڕە دەچنە ناو بەڵگەنامەکە: هیچیان، یەکەم سەرپەڕە و دوا ژێرپەڕە، یان هەموویان.</PageBands>
+    <OpenAfterExport>کردنەوەی فایلی هەناردەکراو لەو بەرنامەیەی کە بۆ جۆرەکەی دانراوە.</OpenAfterExport>
+    <OwnerPassword>ئەو وشەی نهێنییەی بۆ گۆڕینی مۆڵەتەکانی دۆکیومێنت پێویستە.</OwnerPassword>
+    <PageAll>هەموو لاپەڕەکانی ڕاپۆرت.</PageAll>
+    <PageBands>ئەو سەرپەڕە و ژێرپەڕانەی لاپەڕە کە دەچنە ناو دۆکیومێنتەکە: هیچیان، یەکەم سەرپەڕە و دوا ژێرپەڕە، یان هەموویان.</PageBands>
     <PageDelete>سڕینەوەی لاپەڕەی دیاریکراو.</PageDelete>
     <PageDesign>گۆڕانکاری لە پەڕە لە دیزاینەردا.</PageDesign>
     <PageFirst>بڕۆ بۆ یەکەم لاپەڕە.</PageFirst>
@@ -2411,37 +2414,37 @@
     <PagePrevious>بڕۆ بۆ لاپەڕەی پێشتر.</PagePrevious>
     <PageSize>گۆڕینی ڕێکخستنەکانی لاپەڕە.</PageSize>
     <Parameters>پیشاندانی پارامیتەرەکان.</Parameters>
-    <PdfACompliance>پاڵپشتیکردنی ستانداردی هەڵگرتنی دۆکۆمێنت و ئەرشیف کردنیبۆماوەیەکی زۆر.</PdfACompliance>
-    <PdfUniversalAccessibility>پشتگیری بۆ ستانداردی بەڵگەنامە و زانیارییە ئەلیکترۆنییە گشتگیرەکان.</PdfUniversalAccessibility>
+    <PdfACompliance>پەیڕەوکردنی ستانداردی PDF/A بۆ ئەرشیفکردنی درێژخایەنی دۆکیومێنتەکان.</PdfACompliance>
+    <PdfUniversalAccessibility>پەیڕەوکردنی ستانداردی PDF/UA بۆ دۆکیومێنتی گونجاو بۆ هەمووان.</PdfUniversalAccessibility>
     <Print>چاپکردنی ڕاپۆرتەکە.</Print>
-    <PutFeedPageCode>پەڕەکانی پوختەکردن لە دۆکیومێنتی کۆتایی بە کاراکتەرێکی تایبەتەوە.</PutFeedPageCode>
-    <RangePages>ژمارەی لاپەڕەکان بۆ پرۆسەکردن. دەتوانیت یەک لاپەڕە دیاری بکەیت، لیستی پەڕەکان (بەکارهێنانی فاریزە وەک جیاکەرەوە)، هەروەها مەوداکە دیاریبکە بە دانانی لاپەڕەی دەستپێک لەو مەودایەی جیاکراوەتەوە بە "-" و لاپەڕەی کۆتایی مەوداکە. بۆ نموونە: 1,3,5-12</RangePages>
+    <PutFeedPageCode>دەستپێکردنی هەر لاپەڕەیەک لە شیتێکی نوێ بە پیتی پەڕەگۆڕین.</PutFeedPageCode>
+    <RangePages>مەودای لاپەڕەکان: یەک لاپەڕە، لیستێک کە بە فاریزە جیاکراوەتەوە، یان مەودایەک بە خەتێکی کورت، بۆ نموونە 1,3,5-12.</RangePages>
     <RebuildReport>ڕاپۆرتەکە بۆ پەڕە نوێیەکە دووبارە دروست دەکاتەوە بۆ ئەوەی داتاکان پەڕە نوێیەکان پڕ بکەنەوە. بەبێ ئەمە تەنها قەبارەی ئەو پەڕانەی دروستکراون دەگۆڕێت. بۆ بەڵگەنامەیەک کە لە فایلێکەوە کراوەتەوە بەردەست نییە.</RebuildReport>
-    <RemoveEmptySpaceAtBottom>بچووککردنەوەی بۆشایی بەتاڵ لە خوارەوەی لاپەڕەکە.</RemoveEmptySpaceAtBottom>
+    <RemoveEmptySpaceAtBottom>بچووککردنەوەی بۆشایی بەتاڵ لە خوارەوەی لاپەڕەکان.</RemoveEmptySpaceAtBottom>
     <Resources>پیشاندانی سەرچاوەکان.</Resources>
-    <RestrictEditing>سنووردارکردنیگۆڕانکاری لە ئەنجامدانی گۆڕانکاری لە دۆکۆمێنتی Word.</RestrictEditing>
+    <RestrictEditing>سنوورەکانی گۆڕینی دۆکیومێنتی Word.</RestrictEditing>
     <Save>هەڵگرتنی ڕاپۆرتەکە.</Save>
     <ScaleContent>قەبارەی پێکهاتەکان لەگەڵ پەڕەکە دەگۆڕێت. بەبێ ئەمە قەبارە و شوێنی خۆیان دەپارێزن.</ScaleContent>
-    <ScaleHtml>قەبارەی (پێوەر) لە پەڕەکانی ڕاپۆرت و بەندەکان دوای هەناردەکردن.</ScaleHtml>
-    <ScaleImage>قەبارەی (پێوەر) ڕاپۆرتەکە دوای ناردن. پێوەری کەمتر یانی باشترە و وە بوونی زیاتر ژمارەی پیکسڵەکان لە هەر ئینچێکدا، و بە پێچەوانەوە.</ScaleImage>
+    <ScaleHtml>پێوەری لاپەڕە و بەشەکانی ڕاپۆرت لە فایلی هەناردەکراودا.</ScaleHtml>
+    <ScaleImage>پێوەری ڕاپۆرت لە وێنەکەدا: تا پێوەر گەورەتر بێت، وێنەکە گەورەتر دەبێت.</ScaleImage>
     <SendEMail>ناردنی ڕاپۆرتەکە بە ئیمەیڵ.</SendEMail>
-    <Separator>جیاکەرەوە لە نێوان داتا لە فایلی CSV.</Separator>
-    <SkipColumnHeaders>چالاککردن/ناچالاککردنی سەرپەڕەکانی ستوون.</SkipColumnHeaders>
-    <StandardPdfFonts>14 فۆنتی Adobe ستاندارد. ئەگەر ئەم هەڵبژاردنە چالاک بکرێت، ئەوا تەنها 14 فۆنتی ستاندارد بەکاردێت لە فایلی PDF. هەموو فۆنتەکانی ڕاپۆرت گۆڕدراون بۆ ئەوان.</StandardPdfFonts>
-    <SubjectNameString>پێناسی بڕوانامە. پێناسەکە ناوی خاوەنی بڕوانامە (هێڵی تەواو) یان بەشێکە لە ناو (ژێربەندی).</SubjectNameString>
+    <Separator>ئەو پیتەی داتاکان لە فایلی CSV دا جیا دەکاتەوە.</Separator>
+    <SkipColumnHeaders>نەخستنی سەرپەڕەکانی ستوون بۆ ناو فایلەکە.</SkipColumnHeaders>
+    <StandardPdfFonts>بەکارهێنانی تەنها 14 فۆنتی ستانداردی Adobe: هەموو فۆنتەکانی ڕاپۆرت دەگۆڕدرێن بۆ ئەوان.</StandardPdfFonts>
+    <SubjectNameString>بڕوانامە بۆ ئیمزاکردن: ناوی تەواوی خاوەنەکەی یان بەشێکی.</SubjectNameString>
     <Thumbnails>پیشاندانی وێنە بچووکەکانی لاپەڕەکان.</Thumbnails>
-    <TiffCompressionScheme>پلانی پەستاندن بۆ فایلەکانی TIFF.</TiffCompressionScheme>
+    <TiffCompressionScheme>پەستانی فایلی TIFF.</TiffCompressionScheme>
     <ToolEditor>بژارکردنی ئەو پێکهاتانەی بژار دەکرێن.</ToolEditor>
     <ToolSignature>واژۆکردنی شوێنە دیاریکراوەکان.</ToolSignature>
-    <TypeExport>فایلی ڕاپۆرتەکە دەگۆڕێت بۆ.</TypeExport>
+    <TypeExport>جۆری ئەو فایلەی ڕاپۆرتەکە دەگۆڕێت بۆی.</TypeExport>
     <UnsafeCompilation1>ئەم بەڵگەنامەیە پرۆسەی کۆمپایل بەکاردێنێت. لە هەندێک حاڵەتدا، لەوانەیە ئەمە سەلامەت نەبێت. لەبەر ئەوە، بەڵگەنامەکە لە دۆخی سەلامەتدا بار دەکرێت بۆ کەمکردنەوەی هەر مەترسییەک.</UnsafeCompilation1>
     <UnsafeCompilation2>ئەگەر پێویستت بە بەکارهێنانی ئەم بەڵگەنامەیە هەیە لە شێوە ڕەسەنەکەی، تکایە پەیوەندی بکە بە گەشەپێدەرەکانتەوە.</UnsafeCompilation2>
     <UnsafeCompilationTitle>بەڵگەنامەکە لە دۆخی پارێزراودا دەکرێتەوە</UnsafeCompilationTitle>
-    <UseDefaultSystemEncoding>بەکارهێنانی کۆدی سیستەم بە بنەڕەت یان دیاریکردنی کۆدکردن بەپێی ستاندارد.</UseDefaultSystemEncoding>
-    <UseOnePageHeaderAndFooter>پێناسەی پەڕەی باندەکانی سەرپەڕ و ژێرپەڕ وەک سەرپەڕە و بن پەڕەی دۆکیومێنتی Microsoft Word.</UseOnePageHeaderAndFooter>
-    <UsePageHeadersAndFooters>پێناسەی باندەکانی سەرپەڕ و ژێرپەڕ وەک سەرپەڕە و ژێرپەڕەی دۆکیومێنتەکە لە Microsoft Word.</UsePageHeadersAndFooters>
+    <UseDefaultSystemEncoding>بەکارهێنانی کۆدکردنی سیستەم. ناچالاکی بکە بۆ هەڵبژاردنی کۆدکردنێکی تر.</UseDefaultSystemEncoding>
+    <UseOnePageHeaderAndFooter>هێشتنەوەی تەنها یەک سەرپەڕەی لاپەڕە و یەک ژێرپەڕەی لاپەڕە لە فایلی Excel دا لە جیاتی دووبارەکردنەوەیان لە هەموو لاپەڕەیەکدا.</UseOnePageHeaderAndFooter>
+    <UsePageHeadersAndFooters>گۆڕینی باندەکانی سەرپەڕەی لاپەڕە و ژێرپەڕەی لاپەڕە بۆ سەرپەڕە و ژێرپەڕەی دۆکیومێنت.</UsePageHeadersAndFooters>
     <UserPassword>وشەی نهێنی پێویستە بۆ کردنەوەی دۆکیومێنتەکە.</UserPassword>
-    <UseUnicode>پشتگیری درێژکراوە بۆ هێماکانی مشەفەرکردن. کاردەکاتە سەر کۆدکردنی کاراکتەری ناو فایلی PDF ەکەو، و کۆپیکردنی دەقەکە لە فایلی PDF باشتر دەکات.</UseUnicode>
+    <UseUnicode>هەڵگرتنی پیتەکان وەک Unicode لە ناو فایلی PDF دا، بۆ ئەوەی دەقەکە بە دروستی کۆپی بکرێت.</UseUnicode>
     <ViewModeContinuous>پیشاندانی هەموو لاپەڕەکان وەک شریتێک.</ViewModeContinuous>
     <ViewModeMultiplePages>پیشاندانی چەند لاپەڕەیەک.</ViewModeMultiplePages>
     <ViewModeSinglePage>پیشاندانی یەک لاپەڕە.</ViewModeSinglePage>
@@ -2449,7 +2452,7 @@
     <ZoomOnePage>گونجاندنی یەک لاپەڕە.</ZoomOnePage>
     <ZoomPageWidth>گونجاندنی پانی لاپەڕە.</ZoomPageWidth>
     <ZoomTwoPages>گونجاندنی دوو لاپەڕە.</ZoomTwoPages>
-    <ZoomTxt>قەبارەی ڕاپۆرتەکە (پێوەر): X - گۆڕینی پێوەری ئاسۆیی، Y - بۆ گۆڕینی پێوەری ستوونی.</ZoomTxt>
+    <ZoomTxt>پێوەری دەقی ڕاپۆرت: X بە ئاسۆیی، Y بە ستوونی.</ZoomTxt>
   </HelpViewer>
   <Interface>
     <Mouse>ماوس</Mouse>

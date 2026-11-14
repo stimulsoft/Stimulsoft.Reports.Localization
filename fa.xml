@@ -395,14 +395,14 @@
     <StandardPDFFonts>فونت های استاندارد pdf</StandardPDFFonts>
     <title>تنظیمات صادر شدن:</title>
     <TxtBorderType>نوع حاشیه:</TxtBorderType>
-    <TxtBorderTypeDouble>Unicode-Double</TxtBorderTypeDouble>
+    <TxtBorderTypeDouble>دوتایی</TxtBorderTypeDouble>
     <TxtBorderTypeSimple>ساده</TxtBorderTypeSimple>
-    <TxtBorderTypeSingle>Unicode-Single</TxtBorderTypeSingle>
+    <TxtBorderTypeSingle>تکی</TxtBorderTypeSingle>
     <TxtCutLongLines>برش خطوط بلند</TxtCutLongLines>
     <TxtDrawBorder>طراحی حاشیه</TxtDrawBorder>
-    <TxtKillSpaceGraphLines>بین بردن فضای خطوط گراف </TxtKillSpaceGraphLines>
-    <TxtKillSpaceLines>از بین بردن خط خالی</TxtKillSpaceLines>
-    <TxtPutFeedPageCode>صفحه کد خالی بگذار</TxtPutFeedPageCode>
+    <TxtKillSpaceGraphLines>حذف خطوطی که فقط کادر دارند</TxtKillSpaceGraphLines>
+    <TxtKillSpaceLines>حذف خطوط خالی</TxtKillSpaceLines>
+    <TxtPutFeedPageCode>تغذیه کاغذ پس از هر صفحه</TxtPutFeedPageCode>
     <UseDigitalSignature>استفاده از امضای دیجیتالی</UseDigitalSignature>
     <UseOnePageHeaderAndFooter>استفاده از یک سربرگ و ته برگ</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>استفاده از سربرگها و ته برگها</UsePageHeadersAndFooters>
@@ -1129,16 +1129,58 @@
     <StiTreeViewControl>داده‌های سلسله‌مراتبی را به صورت درخت نمایش می‌دهد.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
+    <AddPageBreaks>نمایش جداکننده بین صفحه‌های گزارش.</AddPageBreaks>
+    <AllowAddOrModifyTextAnnotations>اجازه افزودن و تغییر حاشیه‌نویسی‌ها.</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>اجازه کپی متن و گرافیک سند.</AllowCopyTextAndGraphics>
+    <AllowEditable>اجازه تغییر مؤلفه‌هایی که ویژگی قابل ویرایش آنها روشن است.</AllowEditable>
+    <AllowModifyContents>اجازه تغییر متن سند.</AllowModifyContents>
+    <AllowPrintDocument>اجازه چاپ سند.</AllowPrintDocument>
     <Bookmarks>نمایش نشانواره‌ها.</Bookmarks>
+    <BorderType>نویسه‌های حاشیه مؤلفه‌ها: ساده آنها را با + و - و | رسم می‌کند، تکی و دوتایی با خطوط کادرکشی تکی یا دوتایی.</BorderType>
     <Close>بستن پیش‌نمایش.</Close>
+    <CompressToArchive>فشرده‌سازی همه فایل‌ها و پوشه‌ها در یک آرشیو zip.</CompressToArchive>
+    <Compressed>فشرده‌سازی سند. آن را روشن نگه دارید تا فایل کوچک‌تر شود.</Compressed>
+    <ContinuousPages>قرار دادن صفحه‌های گزارش زیر یکدیگر در یک نوار پیوسته.</ContinuousPages>
+    <CurrentPage>فقط صفحه جاری گزارش.</CurrentPage>
+    <CutEdges>بریدن لبه‌های صفحه‌های گزارش.</CutEdges>
+    <CutLongLines>بریدن متنی که در مؤلفه خود جا نمی‌شود، به جای شکستن آن به خط بعد.</CutLongLines>
+    <DigitalSignature>امضای سند با امضای دیجیتال.</DigitalSignature>
+    <DitheringType>دیترینگ تصاویر سیاه و سفید: None، Ordered یا Floyd-Steinberg.</DitheringType>
     <DotMatrixMode>مشاهده در حالت ماتریس نقطه‌ای.</DotMatrixMode>
+    <DotMatrixSettings>نمایش یا پنهان کردن تنظیمات.</DotMatrixSettings>
+    <DrawBorder>رسم حاشیه مؤلفه‌ها با نویسه‌های کادرکشی.</DrawBorder>
     <EmbeddedFontsHtml>فایل های فونت در فایل HTML جاسازی شوند: هیچ کدام، فقط فونت های سفارشی، یا همه فونت های استفاده شده در گزارش.</EmbeddedFontsHtml>
     <EmbeddedFontsOffice>فایل های فونت در فایل خروجی جاسازی شوند.</EmbeddedFontsOffice>
+    <EmbeddedImageData>جاسازی تصاویر مستقیما در فایل HTML.</EmbeddedImageData>
+    <Encoding>کدگذاری متن صادرشده.</Encoding>
+    <EncodingData>کدگذاری فایل داده.</EncodingData>
+    <EncryptionKeyLength>طول کلید رمزگذاری: هرچه کلید بلندتر باشد، رمزگشایی سند دشوارتر است.</EncryptionKeyLength>
+    <ExportDataOnly>صدور فقط باندهای داده: مؤلفه جدول و باند سلسله مراتبی.</ExportDataOnly>
+    <ExportEachPageToSheet>صدور هر صفحه گزارش در برگه جداگانه خود در Excel.</ExportEachPageToSheet>
+    <ExportMode>باندهایی که وارد فایل می‌شوند: فقط داده باندهای داده (مؤلفه جدول، باند سلسله مراتبی) را می‌گیرد، داده و سرصفحه‌ها/زیرنویس‌ها سرصفحه‌ها و زیرنویس‌های آنها را اضافه می‌کند، همه باندها همه باندها را می‌گیرد.</ExportMode>
+    <ExportModeHtml>نشانه‌گذاری صفحه HTML.</ExportModeHtml>
+    <ExportModeRtf>چیدمان گزارش پس از صدور: جدول هر مؤلفه را در یک سلول جدول قرار می‌دهد، فریم هر مؤلفه را در فریم جداگانه خودش قرار می‌دهد، بدون هیچ ارتباطی بین آنها.</ExportModeRtf>
+    <ExportObjectFormatting>حفظ قالب‌بندی داده‌های باندهای داده (مؤلفه جدول، باند سلسله مراتبی).</ExportObjectFormatting>
+    <ExportRtfTextAsImage>صدور متن RTF به صورت تصویر. آن را برای متن غنی دارای تصویر یا جدول روشن کنید، چون همیشه درست به متن PDF تبدیل نمی‌شود.</ExportRtfTextAsImage>
     <Find>جستجوی متن.</Find>
     <FullScreen>مشاهده به صورت تمام صفحه.</FullScreen>
+    <GetCertificateFromCryptoUI>انتخاب گواهی در پنجره کتابخانه رمزنگاری سیستم.</GetCertificateFromCryptoUI>
+    <ImageCompressionMethod>فشرده‌سازی تصاویر: JPEG ممکن است کیفیت را کم کند، Flate آن را حفظ می‌کند و Simple، Ordered و Floyd-Steinberg تصاویر را سیاه و سفید می‌کنند.</ImageCompressionMethod>
+    <ImageFormat>قالب تصاویر در فایل صادرشده.</ImageFormat>
+    <ImageQuality>تعادل کیفیت تصاویر و حجم فایل: هرچه کیفیت بالاتر باشد، فایل بزرگ‌تر است.</ImageQuality>
+    <ImageQualityPdf>تعادل کیفیت تصاویر و حجم فایل در فشرده‌سازی JPEG: هرچه کیفیت بالاتر باشد، فایل بزرگ‌تر است.</ImageQualityPdf>
+    <ImageResolution>تعداد پیکسل در هر اینچ: هرچه پیکسل بیشتر باشد، تصاویر بهتر و فایل بزرگ‌تر است.</ImageResolution>
     <ImageResolutionMode>نحوه اعمال وضوح روی تصاویر: دقیقاً، فقط برای کوچک کردن تصاویر بزرگ تر، یا اصلاً اعمال نشود.</ImageResolutionMode>
+    <ImageType>رنگ‌های تصویر: رنگ با نمایشگر یکسان است، برد سایه روشن از سایه‌های خاکستری استفاده می‌کند، تک رنگ فقط از سیاه و سفید با یکی از سه حالت دیترینگ استفاده می‌کند.</ImageType>
+    <KeepProportions>حفظ تناسب.</KeepProportions>
+    <KillSpaceGraphLines>حذف خطوطی که فقط کادر و فاصله دارند.</KillSpaceGraphLines>
+    <KillSpaceLines>حذف خطوط خالی از سند.</KillSpaceLines>
+    <MultipleFiles>صدور هر صفحه گزارش در یک فایل جداگانه.</MultipleFiles>
     <Open>باز کردن گزارش.</Open>
-    <PageBands>کدام سرصفحه ها و زیرنویس های صفحه در سند قرار می گیرند: هیچ کدام، اولین سرصفحه و آخرین زیرنویس، یا همه آنها.</PageBands>
+    <OpenAfterExport>باز کردن فایل صادرشده در برنامه‌ای که برای نوع آن تعیین شده است.</OpenAfterExport>
+    <OwnerPassword>رمز عبوری که برای تغییر مجوزهای سند لازم است.</OwnerPassword>
+    <PageAll>همه صفحه‌های گزارش.</PageAll>
+    <PageBands>سرصفحه‌ها و زیرنویس‌های صفحه که وارد سند می‌شوند: هیچ، اولین سرصفحه و آخرین زیرنویس، یا همه آنها.</PageBands>
     <PageDelete>حذف صفحه انتخاب‌شده.</PageDelete>
     <PageDesign>ویرایش صفحه در طراح.</PageDesign>
     <PageFirst>رفتن به صفحه اول.</PageFirst>
@@ -1149,18 +1191,36 @@
     <PagePrevious>رفتن به صفحه قبل.</PagePrevious>
     <PageSize>تغییر تنظیمات صفحه.</PageSize>
     <Parameters>نمایش پارامترها.</Parameters>
+    <PdfACompliance>رعایت استاندارد PDF/A برای بایگانی بلندمدت اسناد.</PdfACompliance>
+    <PdfUniversalAccessibility>رعایت استاندارد PDF/UA برای اسنادی که برای همه قابل دسترس هستند.</PdfUniversalAccessibility>
     <Print>چاپ گزارش.</Print>
+    <PutFeedPageCode>شروع هر صفحه در برگه جدید با نویسه تغذیه کاغذ.</PutFeedPageCode>
+    <RangePages>محدوده صفحه‌ها: یک صفحه، فهرستی جداشده با کاما یا محدوده‌ای با خط تیره، برای مثال 1,3,5-12.</RangePages>
     <RebuildReport>گزارش را برای صفحه جدید دوباره می‌سازد تا داده‌ها صفحات جدید را پر کنند. بدون این گزینه فقط اندازه صفحات ساخته‌شده تغییر می‌کند. برای سندی که از فایل باز شده در دسترس نیست.</RebuildReport>
+    <RemoveEmptySpaceAtBottom>کاهش فضای خالی پایین صفحه‌ها.</RemoveEmptySpaceAtBottom>
     <Resources>نمایش منابع.</Resources>
+    <RestrictEditing>محدودیت‌های تغییر سند Word.</RestrictEditing>
     <Save>ذخیره گزارش.</Save>
     <ScaleContent>اندازه اجزا را همراه با صفحه تغییر می‌دهد. بدون این گزینه، اندازه و جای خود را حفظ می‌کنند.</ScaleContent>
+    <ScaleHtml>مقیاس صفحه‌ها و عناصر گزارش در فایل صادرشده.</ScaleHtml>
+    <ScaleImage>مقیاس گزارش در تصویر: هرچه مقیاس بیشتر باشد، تصویر بزرگ‌تر است.</ScaleImage>
     <SendEMail>ارسال گزارش با نامه الکترونیکی.</SendEMail>
+    <Separator>نویسه‌ای که داده‌ها را در فایل CSV از هم جدا می‌کند.</Separator>
+    <SkipColumnHeaders>کنار گذاشتن سرستون‌ها از فایل.</SkipColumnHeaders>
+    <StandardPdfFonts>استفاده فقط از 14 فونت استاندارد Adobe: همه فونت‌های گزارش به آنها تبدیل می‌شوند.</StandardPdfFonts>
+    <SubjectNameString>گواهی برای امضا: نام کامل مالک آن یا بخشی از آن.</SubjectNameString>
     <Thumbnails>نمایش تصاویر کوچک صفحه‌ها.</Thumbnails>
+    <TiffCompressionScheme>فشرده‌سازی فایل TIFF.</TiffCompressionScheme>
     <ToolEditor>ویرایش مولفات قابل ویرایش.</ToolEditor>
     <ToolSignature>امضای محل‌های مشخص‌شده.</ToolSignature>
+    <TypeExport>نوع فایلی که گزارش به آن تبدیل می‌شود.</TypeExport>
     <UnsafeCompilation1>این سند از فرایند کامپایل استفاده می‌کند. در برخی موارد ممکن است این کار امن نباشد. بنابراین سند برای کاهش خطرات احتمالی در حالت امن بارگذاری می‌شود.</UnsafeCompilation1>
     <UnsafeCompilation2>اگر لازم است این سند به شکل اصلی خود استفاده شود، لطفاً با توسعه‌دهندگان خود تماس بگیرید.</UnsafeCompilation2>
     <UnsafeCompilationTitle>سند در حالت امن باز می‌شود</UnsafeCompilationTitle>
+    <UseDefaultSystemEncoding>استفاده از کدگذاری سیستم. آن را خاموش کنید تا کدگذاری دیگری انتخاب کنید.</UseDefaultSystemEncoding>
+    <UseOnePageHeaderAndFooter>نگه داشتن فقط یک سرصفحه و یک زیرنویس صفحه در فایل Excel به جای تکرار آنها در هر صفحه.</UseOnePageHeaderAndFooter>
+    <UsePageHeadersAndFooters>تبدیل باندهای سرصفحه صفحه و زیرنویس صفحه به سربرگ و ته‌برگ سند.</UsePageHeadersAndFooters>
+    <UseUnicode>ذخیره نویسه‌ها به صورت Unicode در فایل PDF، تا متن درست کپی شود.</UseUnicode>
     <ViewModeContinuous>نمایش همه صفحه‌ها به صورت نوار.</ViewModeContinuous>
     <ViewModeMultiplePages>نمایش چند صفحه.</ViewModeMultiplePages>
     <ViewModeSinglePage>نمایش یک صفحه.</ViewModeSinglePage>
@@ -1168,6 +1228,7 @@
     <ZoomOnePage>جا دادن یک صفحه.</ZoomOnePage>
     <ZoomPageWidth>جا دادن عرض صفحه.</ZoomPageWidth>
     <ZoomTwoPages>جا دادن دو صفحه.</ZoomTwoPages>
+    <ZoomTxt>مقیاس متن گزارش: X افقی، Y عمودی.</ZoomTxt>
   </HelpViewer>
   <MainMenu>
     <menuContextClone>تکثیر...</menuContextClone>

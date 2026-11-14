@@ -1191,14 +1191,14 @@
     <TiffCompressionScheme>TIFF schéma kompresie:</TiffCompressionScheme>
     <title>Nastavenie exportu</title>
     <TxtBorderType>Typ okraja</TxtBorderType>
-    <TxtBorderTypeDouble>Unicode-dvojitý</TxtBorderTypeDouble>
+    <TxtBorderTypeDouble>Dvojitá</TxtBorderTypeDouble>
     <TxtBorderTypeSimple>Jednoduchý</TxtBorderTypeSimple>
-    <TxtBorderTypeSingle>Unicode-jednoduchý</TxtBorderTypeSingle>
+    <TxtBorderTypeSingle>Jedna čiara</TxtBorderTypeSingle>
     <TxtCutLongLines>Orezať dlhé čiary</TxtCutLongLines>
     <TxtDrawBorder>Kresliť okraj</TxtDrawBorder>
-    <TxtKillSpaceGraphLines>Odstrániť medzery v grafe</TxtKillSpaceGraphLines>
+    <TxtKillSpaceGraphLines>Odstrániť riadky len s okrajmi</TxtKillSpaceGraphLines>
     <TxtKillSpaceLines>Odstrániť prázdne riadky</TxtKillSpaceLines>
-    <TxtPutFeedPageCode>Vložiť značku konca strany</TxtPutFeedPageCode>
+    <TxtPutFeedPageCode>Posun papiera po každej strane</TxtPutFeedPageCode>
     <Type>Typ:</Type>
     <UseDefaultSystemEncoding>Používať prednastavené systémové kódovanie</UseDefaultSystemEncoding>
     <UseDigitalSignature>Použiť digitálny podpis</UseDigitalSignature>
@@ -2349,62 +2349,65 @@
     <StiTreeViewControl>Zobrazuje hierarchické dáta ako strom.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
-    <AddPageBreaks>Oddeľovač stránok zostavy.</AddPageBreaks>
-    <AllowAddOrModifyTextAnnotations>Povoliť prístup k práci s poznámkami v dokumente.</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Povoliť kopírovať informáciu.</AllowCopyTextAndGraphics>
-    <AllowEditable>Povoliť zmenu len pre komponenty s vlastnosťou Editovať nastavenou na Povoliť.</AllowEditable>
-    <AllowModifyContents>Povoliť prístup editovať text.</AllowModifyContents>
-    <AllowPrintDocument>Povoliť prístup k operácii tlače.</AllowPrintDocument>
+    <AddPageBreaks>Zobraziť oddeľovač medzi stranami zostavy.</AddPageBreaks>
+    <AllowAddOrModifyTextAnnotations>Povoliť pridávanie a zmenu anotácií.</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Povoliť kopírovanie textu a grafiky dokumentu.</AllowCopyTextAndGraphics>
+    <AllowEditable>Povoliť zmenu komponentov, ktoré majú zapnutú vlastnosť Editovateľný.</AllowEditable>
+    <AllowModifyContents>Povoliť zmenu textu dokumentu.</AllowModifyContents>
+    <AllowPrintDocument>Povoliť tlač dokumentu.</AllowPrintDocument>
     <Bookmarks>Zobraziť záložky.</Bookmarks>
-    <BorderType>Typ okraja komponentov: jednoduchý - kreslenie okraja komponentov znakmi +, -, |; jednoduchý Unicode - kreslenie okraja komponentov jednoduchými grafickými znakmi rámčeka, dvojitý Unicode - kreslenie okraja komponentov dvojitými grafickými znakmi rámčeka.</BorderType>
+    <BorderType>Znaky okrajov komponentov: Jednoduchý ich kreslí znakmi +, - a |, Jedna čiara a Dvojitá jednoduchými alebo dvojitými čiarami na kreslenie rámčekov.</BorderType>
     <Close>Zavrieť náhľad.</Close>
     <CloseDotMatrix>Zatvorí Dot Matrix prehliadač a vráti sa do editácie zostavy.</CloseDotMatrix>
-    <Compressed>Komprimovať aktuálny dokument. Odporúčame vždy použiť kompresiu súboru.</Compressed>
-    <CompressToArchive>Skomprimovať všetky súbory a adresáre do zip archívu.</CompressToArchive>
-    <ContinuousPages>Mód súvislej strány vertikálne.</ContinuousPages>
-    <CurrentPage>Spracovanie aktuálnej stránky. Ak je zvolená táto voľba, je spracovaná vybraná stránka.</CurrentPage>
-    <CutEdges>Odstrániť okraje stránok zostavy.</CutEdges>
-    <CutLongLines>Odstrániť dlhé riadky (riadky textu) presahujúce okraje komponentov.</CutLongLines>
+    <Compressed>Komprimovať dokument. Nechajte zapnuté, aby bol súbor menší.</Compressed>
+    <CompressToArchive>Zbaliť všetky súbory a priečinky do zip archívu.</CompressToArchive>
+    <ContinuousPages>Umiestniť strany zostavy pod seba do jedného súvislého pásu.</ContinuousPages>
+    <CurrentPage>Len aktuálna strana zostavy.</CurrentPage>
+    <CutEdges>Orezať okraje strán zostavy.</CutEdges>
+    <CutLongLines>Orezať text, ktorý sa nezmestí do svojho komponentu, namiesto jeho zalomenia.</CutLongLines>
     <DashboardContains1>Ľutujeme, ale tento prehľad obsahuje informačný panel.</DashboardContains1>
     <DashboardContains2>Túto správu by ste mali otvoriť priamo v dizajnéri!</DashboardContains2>
     <DashboardContains3>V prehliadači zostáv to nemôžete urobiť!</DashboardContains3>
-    <DigitalSignature>Digitálny podpis súboru.</DigitalSignature>
-    <DitheringType>Typ ditheringu: Bez - bez ditheringu, usporiadaný, FloydSt - s ditheringom.</DitheringType>
+    <DigitalSignature>Podpísať dokument digitálnym podpisom.</DigitalSignature>
+    <DitheringType>Dithering čiernobielych obrázkov: None, Ordered alebo Floyd-Steinberg.</DitheringType>
     <DotMatrixMode>Zobraziť v režime matice bodov.</DotMatrixMode>
-    <DrawBorder>Kreslenie okrajov komponentov grafickými znakmi.</DrawBorder>
+    <DotMatrixSettings>Zobraziť alebo skryť nastavenia.</DotMatrixSettings>
+    <DrawBorder>Kresliť okraje komponentov znakmi na kreslenie rámčekov.</DrawBorder>
     <Edit>Editovať prvky.</Edit>
     <EmbeddedFonts>Vložiť súbor fontov do PDF súboru.</EmbeddedFonts>
     <EmbeddedFontsHtml>Vložiť súbory fontov do HTML súboru: žiadne, iba vlastné alebo všetky fonty použité v zostave.</EmbeddedFontsHtml>
     <EmbeddedFontsOffice>Vložiť súbory fontov do exportovaného súboru.</EmbeddedFontsOffice>
-    <EmbeddedImageData>Vložiť obrázky priamo do HTML súboru.</EmbeddedImageData>
-    <Encoding>Zakódovať texty zostavy po exporte.</Encoding>
-    <EncodingData>Zakódovať dátový súbor.</EncodingData>
-    <EncryptionKeyLength>Dĺžka šifrovacieho kľúča. Väčšia dĺžka znamená - je ťažšie dešifrovať dokument a tiež bezpečnosť dokumentu je vyššia.</EncryptionKeyLength>
-    <ExportDataOnly>Exportovať len dáta (komponent tabuľka, hierarchický pruh).</ExportDataOnly>
-    <ExportEachPageToSheet>Exportovať každú stránku do samostatnej záložky excelovského zošita.</ExportEachPageToSheet>
-    <ExportMode>Applikovať pri exporte filter. Len dáta - len dátový pruh (komponent tabuľka, hierarchický pruh) sa exportuje. Dáta a záhlavia/päty - dátový pruh (komponent tabuľka, hierarchický pruh) a ich záhlavia/päty sa exportujú. Všetky pruhy - všetky pruhy zostavy sa exportujú.</ExportMode>
-    <ExportModeHtml>Proces vytvárania HTML stránky.</ExportModeHtml>
-    <ExportModeRtf>Zobrazenie dát zostavy po exporte. Tabuľka - zostava bude vyzerať ako tabuľka, kde každý komponent zostavy je bunkou tabuľky. Rámik - každý komponent vyzerá ako jednoduchý rámik, ale bez vzťahmi medzi nimi.</ExportModeRtf>
-    <ExportObjectFormatting>Applikuj formátovanie na export dát z dátových pruhov (komponent tabuľka, hierarchický pruh).</ExportObjectFormatting>
+    <EmbeddedImageData>Vložiť obrázky priamo do súboru HTML.</EmbeddedImageData>
+    <Encoding>Kódovanie exportovaného textu.</Encoding>
+    <EncodingData>Kódovanie dátového súboru.</EncodingData>
+    <EncryptionKeyLength>Dĺžka šifrovacieho kľúča: čím dlhší kľúč, tým ťažšie je dokument dešifrovať.</EncryptionKeyLength>
+    <ExportDataOnly>Exportovať len dátové pruhy: komponent Tabuľka a hierarchický pruh.</ExportDataOnly>
+    <ExportEachPageToSheet>Exportovať každú stranu zostavy na samostatný hárok Excelu.</ExportEachPageToSheet>
+    <ExportMode>Pruhy, ktoré sa dostanú do súboru: Len dáta berie dátové pruhy (komponent Tabuľka, hierarchický pruh), Dáta a záhlavia/päty pridáva ich záhlavia a päty, Všetky pruhy berie všetky pruhy.</ExportMode>
+    <ExportModeHtml>Značkovanie stránky HTML.</ExportModeHtml>
+    <ExportModeRtf>Rozloženie zostavy po exporte: Tabuľka vloží každý komponent do bunky tabuľky, Rám vloží každý komponent do vlastného rámu, bez väzby medzi nimi.</ExportModeRtf>
+    <ExportObjectFormatting>Zachovať formátovanie dát z dátových pruhov (komponent Tabuľka, hierarchický pruh).</ExportObjectFormatting>
     <ExportPageBreaks>Ukáž okraje stránok zostavy na záložkách excelovského zošita.</ExportPageBreaks>
-    <ExportRtfTextAsImage>Konvertovať RTF text na obrázok. Ak je voľba vybraná, potom, počas exportu, RichText sa rozloží do jednoduchých objektov podporovaných PDF formátom. RichText s komplexným formátovaním (vložené obrázky, tabuľky) sa nie vždy konvertuje správne. V tomto prípade odporúčame povoliť túto voľbu.</ExportRtfTextAsImage>
+    <ExportRtfTextAsImage>Exportovať text RTF ako obrázok. Zapnite pre formátovaný text s obrázkami alebo tabuľkami, ktorý sa nie vždy správne prevedie na text PDF.</ExportRtfTextAsImage>
     <Find>Hľadať text.</Find>
     <FullScreen>Zobraziť na celú obrazovku.</FullScreen>
-    <GetCertificateFromCryptoUI>Použiť rozhranie systémovej kryptografickej knižnice.</GetCertificateFromCryptoUI>
-    <ImageCompressionMethod>Metóda kompresie: JPEG - môže spôsobiť zníženie kvality, bezstratové – bez straty kvality, jednoduché, sekvenčné, FloydSt - obrázky na výstupe sú monochromatické.</ImageCompressionMethod>
-    <ImageFormat>Formát obrázku je vo výslednom súbore.</ImageFormat>
-    <ImageQuality>Vždy nastav pomer medzi kvalitou obrázku a veľkosťou súboru. Vyššia kvalita znamená, väčšiu veľkosť výsledného súboru.</ImageQuality>
-    <ImageQualityPdf>Voľba je dostupná len pre JPEG kompresiu, a umožňuje vybrať pomer medzi kvalitou obrázku a veľkosťou súboru. Vyššia kvalita znamená väčšiu veľkosť výsledného súboru.</ImageQualityPdf>
-    <ImageResolution>Počet pixelov na palec. Väčší počet pixelov znamená vyššiu kvalitu obrázku. Veľkosť výsledného súboru je omnoho väčšia.</ImageResolution>
+    <GetCertificateFromCryptoUI>Vybrať certifikát v okne systémovej kryptografickej knižnice.</GetCertificateFromCryptoUI>
+    <ImageCompressionMethod>Kompresia obrázkov: JPEG môže znížiť kvalitu, Flate ju zachováva a Simple, Ordered a Floyd-Steinberg robia obrázky čiernobiele.</ImageCompressionMethod>
+    <ImageFormat>Formát obrázkov v exportovanom súbore.</ImageFormat>
+    <ImageQuality>Pomer kvality obrázkov a veľkosti súboru: čím vyššia kvalita, tým väčší súbor.</ImageQuality>
+    <ImageQualityPdf>Pomer kvality obrázkov a veľkosti súboru pri kompresii JPEG: čím vyššia kvalita, tým väčší súbor.</ImageQualityPdf>
+    <ImageResolution>Počet pixelov na palec: čím viac pixelov, tým lepšie obrázky a tým väčší súbor.</ImageResolution>
     <ImageResolutionMode>Ako sa rozlíšenie použije na obrázky: presne, iba na zmenšenie väčších alebo vôbec.</ImageResolutionMode>
-    <ImageType>Paleta farieb obrázku: farebná - obrázok po exporte plne zodpovedá obrázku v prehliadači; šedá – a obrázok po exporte bude v odtieňoch šedej; monochromatická - obrázok bude čierno-biely. Tak isto, pri monochromatickej palete sú tri módy: bez, sekvenčne, FloydSt.</ImageType>
-    <KillSpaceLines>Odstrániť prázdne riadky v dokumente.</KillSpaceLines>
-    <MultipleFiles>Každá stránka bude vo zvláštnom súbore.</MultipleFiles>
+    <ImageType>Farby obrázka: Farba zodpovedá prehliadaču, Odtiene šedej používa odtiene šedej, Monochromatický používa len čiernu a bielu v jednom z troch režimov ditheringu.</ImageType>
+    <KeepProportions>Zachovať pomer strán.</KeepProportions>
+    <KillSpaceGraphLines>Odstrániť riadky, ktoré obsahujú len okraje a medzery.</KillSpaceGraphLines>
+    <KillSpaceLines>Odstrániť prázdne riadky z dokumentu.</KillSpaceLines>
+    <MultipleFiles>Exportovať každú stranu zostavy do samostatného súboru.</MultipleFiles>
     <Open>Otvoriť zostavu.</Open>
-    <OpenAfterExport>Automaticky otvoriť vytváraný dokument (po exporte) programom nastaveným pre tento typ súborov.</OpenAfterExport>
-    <OwnerPassword>Heslo pre prístup k operáciám so súbormi.</OwnerPassword>
-    <PageAll>Spracuj všetky stránky zostavy.</PageAll>
-    <PageBands>Ktoré záhlavia a päty strán sa dostanú do dokumentu: žiadne, prvé záhlavie a posledná päta alebo všetky.</PageBands>
+    <OpenAfterExport>Otvoriť exportovaný súbor v programe priradenom k jeho typu.</OpenAfterExport>
+    <OwnerPassword>Heslo potrebné na zmenu oprávnení dokumentu.</OwnerPassword>
+    <PageAll>Všetky strany zostavy.</PageAll>
+    <PageBands>Záhlavia a päty strán, ktoré sa dostanú do dokumentu: žiadne, prvé záhlavie a posledná päta alebo všetky.</PageBands>
     <PageDelete>Zmazať vybranú stránku.</PageDelete>
     <PageDesign>Editovať stránku v dizajnéri.</PageDesign>
     <PageFirst>Prejsť na prvú stránku.</PageFirst>
@@ -2415,37 +2418,37 @@
     <PagePrevious>Prejsť na predchádzajúcu stránku.</PagePrevious>
     <PageSize>Zmeniť nastavenia stránky.</PageSize>
     <Parameters>Zobraziť parametre.</Parameters>
-    <PdfACompliance>Podpora pre štandardy dlhodobej archivácie a ukladania elektronických dokumentov.</PdfACompliance>
-    <PdfUniversalAccessibility>Podpora štandardu pre univerzálne dostupné elektronické dokumenty a informácie.</PdfUniversalAccessibility>
+    <PdfACompliance>Dodržiavať štandard PDF/A pre dlhodobú archiváciu dokumentov.</PdfACompliance>
+    <PdfUniversalAccessibility>Dodržiavať štandard PDF/UA pre dokumenty prístupné všetkým.</PdfUniversalAccessibility>
     <Print>Vytlačiť zostavu.</Print>
-    <PutFeedPageCode>Naplň stránky výstupného dokumentu špeciálnym znakom.</PutFeedPageCode>
-    <RangePages>Čísla stránok pre spracovanie. Môžete zadať jednu stránku, zoznam stránok (použiť čiarku ako oddeľovač), taktiež zadať rozsah stránok, počiatočná stránka "-" a posledná stránka. Na príklad: 1,3,5-12.</RangePages>
+    <PutFeedPageCode>Začínať každú stranu na novom hárku znakom posunu strany.</PutFeedPageCode>
+    <RangePages>Rozsah strán: jedna strana, zoznam oddelený čiarkami alebo rozsah so spojovníkom, napríklad 1,3,5-12.</RangePages>
     <RebuildReport>Zostaví zostavu znova pre novú stranu, aby údaje vyplnili nové strany. Bez tejto voľby sa zmení iba veľkosť už zostavených strán. Nie je k dispozícii pre dokument otvorený zo súboru.</RebuildReport>
-    <RemoveEmptySpaceAtBottom>Minimálny prázdny priestor od spodku stránky.</RemoveEmptySpaceAtBottom>
+    <RemoveEmptySpaceAtBottom>Zmenšiť prázdne miesto v dolnej časti strán.</RemoveEmptySpaceAtBottom>
     <Resources>Zobraziť zdroje.</Resources>
-    <RestrictEditing>Zakázať zmeny vo Word dokumente.</RestrictEditing>
+    <RestrictEditing>Obmedzenia zmien dokumentu Word.</RestrictEditing>
     <Save>Uložiť zostavu.</Save>
     <ScaleContent>Zmení veľkosť komponentov spolu so stranou. Bez tejto voľby si zachovajú svoju veľkosť a umiestnenie.</ScaleContent>
-    <ScaleHtml>Veľkosť (mierka) stránok zostavy a položiek po exporte.</ScaleHtml>
-    <ScaleImage>Veľkosť (mierka) zostavy po reporte. Menšia mierka znamená, počet pixelov na palec, atď.</ScaleImage>
+    <ScaleHtml>Mierka strán a prvkov zostavy v exportovanom súbore.</ScaleHtml>
+    <ScaleImage>Mierka zostavy v obrázku: čím väčšia mierka, tým väčší obrázok.</ScaleImage>
     <SendEMail>Poslať zostavu cez e-mail.</SendEMail>
-    <Separator>Separátor medzi dátami v CSV súbore.</Separator>
-    <SkipColumnHeaders>Povoliť/Nepovoliť hlavičky stĺpcov.</SkipColumnHeaders>
-    <StandardPdfFonts>14 štandardných Adobe fontov. Ak je voľba vybraná, potom len štandardných 14 fontov bude použitých v PDF súbore. Všetky fonty zostavy budú konvertované na ne.</StandardPdfFonts>
-    <SubjectNameString>Identifikátor certifikačnej autority. Identifikátor je meno vlastníka certifikátu (celé) alebo časť mena (podreťazec).</SubjectNameString>
+    <Separator>Znak, ktorý oddeľuje dáta v súbore CSV.</Separator>
+    <SkipColumnHeaders>Nezahrnúť záhlavia stĺpcov do súboru.</SkipColumnHeaders>
+    <StandardPdfFonts>Použiť len 14 štandardných písiem Adobe: všetky písma zostavy sa nimi nahradia.</StandardPdfFonts>
+    <SubjectNameString>Certifikát na podpis: celé meno jeho vlastníka alebo časť mena.</SubjectNameString>
     <Thumbnails>Zobraziť miniatúry stránok.</Thumbnails>
-    <TiffCompressionScheme>Kompresná schéma pre súbory typu TIFF.</TiffCompressionScheme>
+    <TiffCompressionScheme>Kompresia súboru TIFF.</TiffCompressionScheme>
     <ToolEditor>Editovať editovateľné komponenty.</ToolEditor>
     <ToolSignature>Podpísať označené miesta.</ToolSignature>
-    <TypeExport>Zostava bude konvertovaná do súboru typu.</TypeExport>
+    <TypeExport>Typ súboru, na ktorý sa zostava prevedie.</TypeExport>
     <UnsafeCompilation1>Tento dokument používa proces kompilácie. V niektorých prípadoch to nemusí byť bezpečné. Dokument sa preto načíta v núdzovom režime, aby sa minimalizovali prípadné riziká.</UnsafeCompilation1>
     <UnsafeCompilation2>Ak požadujete, aby bol tento dokument použitý v jeho pôvodnej podobe, kontaktujte svojich vývojárov.</UnsafeCompilation2>
     <UnsafeCompilationTitle>Dokument sa otvorí v núdzovom režime</UnsafeCompilationTitle>
-    <UseDefaultSystemEncoding>Použiť systémové kódovanie alebo vybrať štandardné kódovanie.</UseDefaultSystemEncoding>
-    <UseOnePageHeaderAndFooter>Definovať záhlavia a päty stránky ako záhlavia a päty MS Word dokumentu.</UseOnePageHeaderAndFooter>
-    <UsePageHeadersAndFooters>Definovať pruh záhlavia a päty ako záhlavie a päta v MS Worde.</UsePageHeadersAndFooters>
+    <UseDefaultSystemEncoding>Použiť systémové kódovanie. Vypnite, ak chcete zvoliť iné.</UseDefaultSystemEncoding>
+    <UseOnePageHeaderAndFooter>Ponechať v súbore Excel len jedno záhlavie strany a jednu pätu strany namiesto ich opakovania na každej strane.</UseOnePageHeaderAndFooter>
+    <UsePageHeadersAndFooters>Použiť pruhy Záhlavie strany a Päta strany ako záhlavie a pätu dokumentu.</UsePageHeadersAndFooters>
     <UserPassword>Heslo je požadované pre otvorenie dokumentu.</UserPassword>
-    <UseUnicode>Rozšírená podpora pre zakódovanie znakov. Ovplyvňuje interné kódovanie znakov vo vnútri PDF súboru a ovplyvňuje kopírovanie textu z PDF súboru.</UseUnicode>
+    <UseUnicode>Ukladať znaky v Unicode vnútri súboru PDF, aby sa text správne kopíroval.</UseUnicode>
     <ViewModeContinuous>Zobraziť všetky stránky ako pruh.</ViewModeContinuous>
     <ViewModeMultiplePages>Zobraziť niekoľko stránok.</ViewModeMultiplePages>
     <ViewModeSinglePage>Zobraziť jednu stránku.</ViewModeSinglePage>
@@ -2453,7 +2456,7 @@
     <ZoomOnePage>Prispôsobiť jednu stránku.</ZoomOnePage>
     <ZoomPageWidth>Prispôsobiť šírku stránky.</ZoomPageWidth>
     <ZoomTwoPages>Prispôsobiť dve stránky.</ZoomTwoPages>
-    <ZoomTxt>Veľkosť zostavy (mierka): X - zmeniť horizontálnu mierku, Y - zmeniť vertikálnu mierku.</ZoomTxt>
+    <ZoomTxt>Mierka textu zostavy: X vodorovne, Y zvisle.</ZoomTxt>
   </HelpViewer>
   <Interface>
     <Mouse>Myš</Mouse>

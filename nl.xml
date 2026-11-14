@@ -1188,14 +1188,14 @@
     <TiffCompressionScheme>TIFF CompressieSchema:</TiffCompressionScheme>
     <title>Exporteer Opties</title>
     <TxtBorderType>Randtype</TxtBorderType>
-    <TxtBorderTypeDouble>Dubbel</TxtBorderTypeDouble>
+    <TxtBorderTypeDouble>Dubbele lijn</TxtBorderTypeDouble>
     <TxtBorderTypeSimple>Enkel</TxtBorderTypeSimple>
-    <TxtBorderTypeSingle>Enkel</TxtBorderTypeSingle>
+    <TxtBorderTypeSingle>Enkele lijn</TxtBorderTypeSingle>
     <TxtCutLongLines>Lange Lijnen Knippen</TxtCutLongLines>
     <TxtDrawBorder>Teken Rand</TxtDrawBorder>
-    <TxtKillSpaceGraphLines>Lege grafische regels verwijderen</TxtKillSpaceGraphLines>
+    <TxtKillSpaceGraphLines>Regels met alleen randen verwijderen</TxtKillSpaceGraphLines>
     <TxtKillSpaceLines>Lege regels verwijderen</TxtKillSpaceLines>
-    <TxtPutFeedPageCode>Plaats Pagina-einde Code</TxtPutFeedPageCode>
+    <TxtPutFeedPageCode>Paginadoorvoer na elke pagina</TxtPutFeedPageCode>
     <Type>Type</Type>
     <UseDefaultSystemEncoding>Gebruik Standaard Systeem Encoding</UseDefaultSystemEncoding>
     <UseDigitalSignature>Gebruik Digitale Handtekening</UseDigitalSignature>
@@ -2343,62 +2343,65 @@
     <StiTreeViewControl>Toont hiërarchische gegevens als boom.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
-    <AddPageBreaks>Visuele scheiding van rapportpagina's.</AddPageBreaks>
-    <AllowAddOrModifyTextAnnotations>Beperkte toegang tot het werken met annotaties in het document.</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Beperkte toegang tot het kopiëren van informatie.</AllowCopyTextAndGraphics>
-    <AllowEditable>Maakt het wijzigen van componenten mogelijk waarvan de eigenschap Bewerkbaar is ingeschakeld.</AllowEditable>
-    <AllowModifyContents>Beperkte toegang tot het bewerken van tekst.</AllowModifyContents>
-    <AllowPrintDocument>Beperkte toegang tot de afdrukbewerking.</AllowPrintDocument>
+    <AddPageBreaks>Toon een scheidingslijn tussen de rapportpagina's.</AddPageBreaks>
+    <AllowAddOrModifyTextAnnotations>Sta het toevoegen en wijzigen van annotaties toe.</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Sta het kopiëren van de tekst en afbeeldingen van het document toe.</AllowCopyTextAndGraphics>
+    <AllowEditable>Sta het wijzigen toe van componenten waarvan de eigenschap Bewerkbaar is ingeschakeld.</AllowEditable>
+    <AllowModifyContents>Sta het wijzigen van de tekst van het document toe.</AllowModifyContents>
+    <AllowPrintDocument>Sta het afdrukken van het document toe.</AllowPrintDocument>
     <Bookmarks>Toon de bladwijzers.</Bookmarks>
-    <BorderType>Het randtype van componenten: simple - randen van componenten tekenen met de tekens +, -, |; Unicode single - de randen tekenen met enkele lijntekens, Unicode double - de randen tekenen met dubbele lijntekens.</BorderType>
+    <BorderType>De tekens van de componentranden: Enkel tekent ze met +, - en |, Enkele lijn en Dubbele lijn met enkele of dubbele lijntekens.</BorderType>
     <Close>Sluit het voorbeeld.</Close>
     <CloseDotMatrix>Sluit Dot Matrix Viewer van het rapport.</CloseDotMatrix>
-    <Compressed>Compressie van het gereed document. Het wordt aanbevolen om bestandscompressie altijd in te schakelen.</Compressed>
-    <CompressToArchive>Alle bestanden en mappen in het zip-archief inpakken.</CompressToArchive>
-    <ContinuousPages>De modus voor het plaatsen van rapportpagina's als een verticale strook.</ContinuousPages>
-    <CurrentPage>De huidige pagina verwerken. Als deze optie is geselecteerd, wordt een geselecteerde rapportpagina verwerkt.</CurrentPage>
-    <CutEdges>De randen van rapportpagina's bijsnijden.</CutEdges>
-    <CutLongLines>De lange lijnen (tekstregels) bijsnijden op de randen van componenten.</CutLongLines>
+    <Compressed>Comprimeer het document. Laat deze optie ingeschakeld voor een kleiner bestand.</Compressed>
+    <CompressToArchive>Pak alle bestanden en mappen in een zip-archief in.</CompressToArchive>
+    <ContinuousPages>Plaats de rapportpagina's onder elkaar in één doorlopende strook.</ContinuousPages>
+    <CurrentPage>Alleen de huidige pagina van het rapport.</CurrentPage>
+    <CutEdges>Snijd de randen van de rapportpagina's bij.</CutEdges>
+    <CutLongLines>Snijd tekst die niet in de component past af in plaats van deze te laten teruglopen.</CutLongLines>
     <DashboardContains1>Sorry, maar dit rapport bevat een dashboard.</DashboardContains1>
     <DashboardContains2>U moet dit rapport rechtstreeks in de ontwerper openen!</DashboardContains2>
     <DashboardContains3>Dat kunt u niet doen vanuit de rapportviewer!</DashboardContains3>
-    <DigitalSignature>De digitale handtekening van het bestand.</DigitalSignature>
-    <DitheringType>Ditheringtype: Geen - geen dithering, Ordered, FloydSt. - met dithering.</DitheringType>
+    <DigitalSignature>Onderteken het document met een digitale handtekening.</DigitalSignature>
+    <DitheringType>De dithering van zwart-witafbeeldingen: None, Ordered of Floyd-Steinberg.</DitheringType>
     <DotMatrixMode>Bekijk in Dot-Matrix modus.</DotMatrixMode>
-    <DrawBorder>Teken Rand</DrawBorder>
+    <DotMatrixSettings>De instellingen tonen of verbergen.</DotMatrixSettings>
+    <DrawBorder>Teken de randen van componenten met lijntekens.</DrawBorder>
     <Edit>Edit components.</Edit>
     <EmbeddedFonts>Sluit de lettertypebestanden in een PDF-bestand in.</EmbeddedFonts>
     <EmbeddedFontsHtml>Sluit de lettertypebestanden in het HTML-bestand in: geen, alleen aangepaste of alle lettertypen die in het rapport worden gebruikt.</EmbeddedFontsHtml>
     <EmbeddedFontsOffice>Sluit de lettertypebestanden in het geëxporteerde bestand in.</EmbeddedFontsOffice>
-    <EmbeddedImageData>Sluit afbeeldingen rechtstreeks in het HTML-bestand in.</EmbeddedImageData>
-    <Encoding>De rapporttekst coderen na het exporteren.</Encoding>
-    <EncodingData>Gegevensbestand coderen.</EncodingData>
-    <EncryptionKeyLength>De lengte van de versleutelingssleutel. Hoe langer de lengte, hoe moeilijker het is om het document te ontsleutelen en, dienovereenkomstig, hoe hoger de documentbeveiliging.</EncryptionKeyLength>
-    <ExportDataOnly>Exporteer alleen gegevensbanden (het Tabel-component, Hiërarchische band).</ExportDataOnly>
-    <ExportEachPageToSheet>Exporteer elke rapportpagina in een apart Excel-werkblad.</ExportEachPageToSheet>
-    <ExportMode>Pas een filtervoorwaarde toe bij het exporteren. Alleen gegevens - alleen gegevensbanden (Tabelcomponent, Hiërarchische band) worden geëxporteerd. Gegevens en kop-/voetteksten - gegevensbanden (Tabelcomponent, Hiërarchische band) en hun kop-/voetteksten worden geëxporteerd. Alle banden - alle rapportbanden worden geëxporteerd.</ExportMode>
-    <ExportModeHtml>De wijze van de HTML-paginaopmaak.</ExportModeHtml>
-    <ExportModeRtf>Presentatie van de rapportgegevens na exporteren. De Tabel - het rapport ziet eruit als een tabel, waarbij elke rapportcomponent een tabelcel is. Kader - elke component ziet eruit als een afzonderlijk kader, maar zonder onderlinge relatie.</ExportModeRtf>
-    <ExportObjectFormatting>Pas opmaak toe om gegevens te exporteren uit gegevensbanden (Tabelcomponent, Hiërarchische band).</ExportObjectFormatting>
+    <EmbeddedImageData>Sluit de afbeeldingen rechtstreeks in het HTML-bestand in.</EmbeddedImageData>
+    <Encoding>De codering van de geëxporteerde tekst.</Encoding>
+    <EncodingData>De codering van het gegevensbestand.</EncodingData>
+    <EncryptionKeyLength>De lengte van de versleutelingssleutel: hoe langer de sleutel, hoe moeilijker het document te ontsleutelen is.</EncryptionKeyLength>
+    <ExportDataOnly>Exporteer alleen de gegevensbanden: het Tabel-component en de Hiërarchische band.</ExportDataOnly>
+    <ExportEachPageToSheet>Exporteer elke rapportpagina naar een eigen Excel-werkblad.</ExportEachPageToSheet>
+    <ExportMode>De banden die in het bestand komen: Enkel data neemt de gegevensbanden (het Tabel-component, de Hiërarchische band), Data en Hoofdingen/Voetnoten voegt hun kop- en voetteksten toe, Alle stroken neemt alle banden.</ExportMode>
+    <ExportModeHtml>De opmaak van de HTML-pagina.</ExportModeHtml>
+    <ExportModeRtf>De indeling van het rapport na het exporteren: Tabel plaatst elke component in een tabelcel, Kader plaatst elke component in een eigen kader, zonder onderlinge relatie.</ExportModeRtf>
+    <ExportObjectFormatting>Behoud de opmaak van de gegevens uit de gegevensbanden (het Tabel-component, de Hiërarchische band).</ExportObjectFormatting>
     <ExportPageBreaks>Geef de randen van de rapportpagina's op het Excel-blad weer.</ExportPageBreaks>
-    <ExportRtfTextAsImage>Converteer de RTF-tekst naar de afbeelding. Als de optie is uitgeschakeld, wordt RichText bij het exporteren ontleed in eenvoudigere primitieven die door het PDF-formaat worden ondersteund. RichText met complexe opmaak (ingesloten afbeeldingen, tabellen) kan niet altijd correct worden geconverteerd. In dat geval wordt aanbevolen deze optie in te schakelen.</ExportRtfTextAsImage>
+    <ExportRtfTextAsImage>Exporteer de RTF-tekst als afbeelding. Schakel dit in voor opgemaakte tekst met afbeeldingen of tabellen, die niet altijd correct naar PDF-tekst wordt geconverteerd.</ExportRtfTextAsImage>
     <Find>Zoek tekst.</Find>
     <FullScreen>Bekijk in volledig scherm.</FullScreen>
-    <GetCertificateFromCryptoUI>Gebruik van de interface van de cryptografiebibliotheek van het systeem.</GetCertificateFromCryptoUI>
-    <ImageCompressionMethod>De compressiemethode: JPEG - dit kan kwaliteitsverlies veroorzaken, Flate - geen kwaliteitsverlies, Simple, Ordered, FloydSt. - afbeeldingen worden monochroom uitgevoerd.</ImageCompressionMethod>
-    <ImageFormat>De afbeeldingsindeling in het voltooide bestand.</ImageFormat>
-    <ImageQuality>Hiermee kunt u de verhouding tussen afbeeldingskwaliteit en bestandsgrootte kiezen. Hoe hoger de kwaliteit, hoe groter het uiteindelijke bestand.</ImageQuality>
-    <ImageQualityPdf>De optie is alleen beschikbaar bij JPEG-compressie en stelt u in staat om de verhouding tussen de afbeeldingskwaliteit en de bestandsgrootte te selecteren. Hoe hoger de kwaliteit, hoe groter de grootte van het voltooide bestand.</ImageQualityPdf>
-    <ImageResolution>Het aantal pixels per inch. Hoe hoger het aantal pixels, hoe beter de kwaliteit van de afbeelding. De grootte van het voltooide bestand is veel groter.</ImageResolution>
+    <GetCertificateFromCryptoUI>Kies het certificaat in het venster van de cryptografiebibliotheek van het systeem.</GetCertificateFromCryptoUI>
+    <ImageCompressionMethod>De compressie van de afbeeldingen: JPEG kan kwaliteit verliezen, Flate behoudt die, en Simple, Ordered en Floyd-Steinberg maken de afbeeldingen zwart-wit.</ImageCompressionMethod>
+    <ImageFormat>De indeling van de afbeeldingen in het geëxporteerde bestand.</ImageFormat>
+    <ImageQuality>De verhouding tussen afbeeldingskwaliteit en bestandsgrootte: hoe hoger de kwaliteit, hoe groter het bestand.</ImageQuality>
+    <ImageQualityPdf>De verhouding tussen afbeeldingskwaliteit en bestandsgrootte bij JPEG-compressie: hoe hoger de kwaliteit, hoe groter het bestand.</ImageQualityPdf>
+    <ImageResolution>Het aantal pixels per inch: hoe meer pixels, hoe beter de afbeeldingen en hoe groter het bestand.</ImageResolution>
     <ImageResolutionMode>Hoe de resolutie op afbeeldingen wordt toegepast: exact, alleen om grotere te verkleinen, of helemaal niet.</ImageResolutionMode>
-    <ImageType>Het kleurenschema van de afbeelding: color - de afbeelding komt na het exporteren volledig overeen met de afbeelding in de viewer; gray - een afbeelding is na het exporteren in grijstinten; monochrome - de afbeeldingen zijn strikt zwart-wit. Houd er daarbij rekening mee dat monochrome drie modi heeft: None, Ordered, FloydSt.</ImageType>
-    <KillSpaceLines>Verwijder lege regels (rijen) in het document.</KillSpaceLines>
-    <MultipleFiles>Elke rapportpagina kan een apart bestand zijn.</MultipleFiles>
+    <ImageType>De kleuren van de afbeelding: Kleuren komt overeen met de viewer, Grijsschaal gebruikt grijstinten, Monochroom gebruikt alleen zwart en wit in een van drie ditheringmodi.</ImageType>
+    <KeepProportions>De verhoudingen behouden.</KeepProportions>
+    <KillSpaceGraphLines>Verwijder de regels die alleen randen en spaties bevatten.</KillSpaceGraphLines>
+    <KillSpaceLines>Verwijder de lege regels uit het document.</KillSpaceLines>
+    <MultipleFiles>Exporteer elke rapportpagina naar een apart bestand.</MultipleFiles>
     <Open>Open een rapport.</Open>
-    <OpenAfterExport>Automatisch openen van het gemaakte document (na export) door het programma dat aan deze bestandstypen is gekoppeld.</OpenAfterExport>
-    <OwnerPassword>Het wachtwoord dat vereist is om bewerkingen met het bestand uit te voeren.</OwnerPassword>
-    <PageAll>Verwerking van alle rapportpagina's.</PageAll>
-    <PageBands>Welke paginakop- en voetteksten in het document komen: geen, de eerste koptekst en de laatste voettekst, of alle.</PageBands>
+    <OpenAfterExport>Open het geëxporteerde bestand in het programma dat aan het bestandstype is gekoppeld.</OpenAfterExport>
+    <OwnerPassword>Het wachtwoord dat nodig is om de machtigingen van het document te wijzigen.</OwnerPassword>
+    <PageAll>Alle pagina's van het rapport.</PageAll>
+    <PageBands>De paginakop- en voetteksten die in het document komen: geen, de eerste koptekst en de laatste voettekst, of alle.</PageBands>
     <PageDelete>Verwijder de geselecteerde pagina.</PageDelete>
     <PageDesign>Bewerk de pagina in de ontwerper.</PageDesign>
     <PageFirst>Ga naar de eerste pagina.</PageFirst>
@@ -2409,37 +2412,37 @@
     <PagePrevious>Ga naar de vorige pagina.</PagePrevious>
     <PageSize>Wijzig de pagina-instellingen.</PageSize>
     <Parameters>Toon de parameters.</Parameters>
-    <PdfACompliance>Ondersteuning voor de standaard voor langdurige archivering en opslag van elektronische documenten.</PdfACompliance>
-    <PdfUniversalAccessibility>Ondersteuning voor de standaard voor universeel toegankelijke elektronische documenten en informatie.</PdfUniversalAccessibility>
+    <PdfACompliance>Volg de PDF/A-standaard voor langdurige archivering van documenten.</PdfACompliance>
+    <PdfUniversalAccessibility>Volg de PDF/UA-standaard voor documenten die voor iedereen toegankelijk zijn.</PdfUniversalAccessibility>
     <Print>Druk het rapport af.</Print>
-    <PutFeedPageCode>Scheid de pagina's in het uiteindelijke document met een speciaal teken.</PutFeedPageCode>
-    <RangePages>Pagina's:</RangePages>
+    <PutFeedPageCode>Begin elke pagina op een nieuw vel met een paginadoorvoerteken.</PutFeedPageCode>
+    <RangePages>Het paginabereik: één pagina, een lijst gescheiden door komma's of een bereik met een koppelteken, bijvoorbeeld 1,3,5-12.</RangePages>
     <RebuildReport>Bouwt het rapport opnieuw op voor de nieuwe pagina, zodat de gegevens de nieuwe pagina's vullen. Zonder deze optie verandert alleen de grootte van de al opgebouwde pagina's. Niet beschikbaar voor een document dat uit een bestand is geopend.</RebuildReport>
-    <RemoveEmptySpaceAtBottom>Minimaliseer de lege ruimte onderaan de pagina.</RemoveEmptySpaceAtBottom>
+    <RemoveEmptySpaceAtBottom>Verklein de lege ruimte onder aan de pagina's.</RemoveEmptySpaceAtBottom>
     <Resources>Toon de bronnen.</Resources>
-    <RestrictEditing>Beperkingen op wijzigingen in een Word-document.</RestrictEditing>
+    <RestrictEditing>De beperkingen op het wijzigen van het Word-document.</RestrictEditing>
     <Save>Bewaar het rapport.</Save>
     <ScaleContent>Past de grootte van de componenten aan met de pagina. Zonder deze optie behouden ze hun grootte en positie.</ScaleContent>
-    <ScaleHtml>De grootte (schaal) van rapportpagina's en items na het exporteren.</ScaleHtml>
-    <ScaleImage>De grootte (schaal) van het rapport na het exporteren. Hoe lager de schaal, hoe groter het aantal pixels per inch, en omgekeerd.</ScaleImage>
+    <ScaleHtml>De schaal van de rapportpagina's en -items in het geëxporteerde bestand.</ScaleHtml>
+    <ScaleImage>De schaal van het rapport in de afbeelding: hoe groter de schaal, hoe groter de afbeelding.</ScaleImage>
     <SendEMail>Stuur het rapport per e-mail.</SendEMail>
-    <Separator>Scheidingsteken tussen de gegevens in het CSV-bestand.</Separator>
-    <SkipColumnHeaders>Kolomkopteksten in-/uitschakelen.</SkipColumnHeaders>
-    <StandardPdfFonts>14 standaard Adobe-lettertypen. Als deze optie is ingeschakeld, worden alleen de 14 standaardlettertypen gebruikt in het PDF-bestand. Alle rapportlettertypen worden hiernaar geconverteerd.</StandardPdfFonts>
-    <SubjectNameString>Certificaatidentificatie. De identificatie is de naam van de certificaateigenaar (volledige regel) of een deel van de naam (subtekenreeks).</SubjectNameString>
+    <Separator>Het teken dat de gegevens in het CSV-bestand scheidt.</Separator>
+    <SkipColumnHeaders>Laat de kolomkoppen weg uit het bestand.</SkipColumnHeaders>
+    <StandardPdfFonts>Gebruik alleen de 14 standaardlettertypen van Adobe: alle lettertypen van het rapport worden erdoor vervangen.</StandardPdfFonts>
+    <SubjectNameString>Het certificaat om mee te ondertekenen: de volledige naam van de eigenaar of een deel ervan.</SubjectNameString>
     <Thumbnails>Toon de paginaminiaturen.</Thumbnails>
-    <TiffCompressionScheme>Compressieschema voor TIFF-bestanden.</TiffCompressionScheme>
+    <TiffCompressionScheme>De compressie van het TIFF-bestand.</TiffCompressionScheme>
     <ToolEditor>Bewerk de bewerkbare componenten.</ToolEditor>
     <ToolSignature>Onderteken op de gemarkeerde plaatsen.</ToolSignature>
-    <TypeExport>Het bestand waarnaar het rapport wordt geconverteerd.</TypeExport>
+    <TypeExport>Het type bestand waarnaar het rapport wordt geconverteerd.</TypeExport>
     <UnsafeCompilation1>Dit document maakt gebruik van het compilatieproces. In sommige gevallen kan dit onveilig zijn. Daarom wordt het document in de veilige modus geladen om mogelijke risico's te minimaliseren.</UnsafeCompilation1>
     <UnsafeCompilation2>Als u dit document in de oorspronkelijke vorm wilt gebruiken, neem dan contact op met uw ontwikkelaars.</UnsafeCompilation2>
     <UnsafeCompilationTitle>Het document wordt geopend in veilige modus</UnsafeCompilationTitle>
-    <UseDefaultSystemEncoding>Gebruik standaard de systeemcodering of geef de codering handmatig op.</UseDefaultSystemEncoding>
-    <UseOnePageHeaderAndFooter>Definieer de paginabanden Koptekst en Voettekst als de koptekst en voettekst van het Microsoft Word-document.</UseOnePageHeaderAndFooter>
-    <UsePageHeadersAndFooters>Definieer de banden Paginakoptekst en Voettekst als de koptekst en voettekst van het document in Microsoft Word.</UsePageHeadersAndFooters>
+    <UseDefaultSystemEncoding>Gebruik de systeemcodering. Schakel dit uit om een andere te kiezen.</UseDefaultSystemEncoding>
+    <UseOnePageHeaderAndFooter>Behoud slechts één paginakoptekst en één paginavoettekst in het Excel-bestand in plaats van ze op elke pagina te herhalen.</UseOnePageHeaderAndFooter>
+    <UsePageHeadersAndFooters>Maak van de banden Pagina Koptekst en Pagina Voettekst de koptekst en voettekst van het document.</UsePageHeadersAndFooters>
     <UserPassword>Het wachtwoord dat vereist is om het document te openen.</UserPassword>
-    <UseUnicode>Uitgebreide ondersteuning voor het coderen van tekens. Het beïnvloedt de interne tekencodering binnen het PDF-bestand en verbetert het kopiëren van de tekst uit het PDF-bestand.</UseUnicode>
+    <UseUnicode>Sla de tekens op als Unicode in het PDF-bestand, zodat de tekst correct wordt gekopieerd.</UseUnicode>
     <ViewModeContinuous>Toon alle pagina's als een lint.</ViewModeContinuous>
     <ViewModeMultiplePages>Toon meerdere pagina's.</ViewModeMultiplePages>
     <ViewModeSinglePage>Toon één pagina.</ViewModeSinglePage>
@@ -2447,7 +2450,7 @@
     <ZoomOnePage>Pas één pagina in.</ZoomOnePage>
     <ZoomPageWidth>Pas de paginabreedte in.</ZoomPageWidth>
     <ZoomTwoPages>Pas twee pagina's in.</ZoomTwoPages>
-    <ZoomTxt>De rapportgrootte (schaal): X - de horizontale schaal wijzigen, Y - de verticale schaal wijzigen.</ZoomTxt>
+    <ZoomTxt>De schaal van de rapporttekst: X horizontaal, Y verticaal.</ZoomTxt>
   </HelpViewer>
   <Interface>
     <Mouse>Muis</Mouse>

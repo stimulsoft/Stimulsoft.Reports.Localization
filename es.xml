@@ -1189,14 +1189,14 @@
     <TiffCompressionScheme>Esquema de Compresión TIFF:</TiffCompressionScheme>
     <title>Configuración de Exportación</title>
     <TxtBorderType>Tipo de Margen</TxtBorderType>
-    <TxtBorderTypeDouble>Unicode-Doble</TxtBorderTypeDouble>
+    <TxtBorderTypeDouble>Doble Línea</TxtBorderTypeDouble>
     <TxtBorderTypeSimple>Simple</TxtBorderTypeSimple>
-    <TxtBorderTypeSingle>Unicode-Simple</TxtBorderTypeSingle>
+    <TxtBorderTypeSingle>Una Línea</TxtBorderTypeSingle>
     <TxtCutLongLines>Cortar Líneas Largas</TxtCutLongLines>
     <TxtDrawBorder>Mostrar Reborde</TxtDrawBorder>
-    <TxtKillSpaceGraphLines>Suprimir Líneas de Espaciado en Gráficos</TxtKillSpaceGraphLines>
-    <TxtKillSpaceLines>Eliminar Espacios</TxtKillSpaceLines>
-    <TxtPutFeedPageCode>Colocar Página de Código</TxtPutFeedPageCode>
+    <TxtKillSpaceGraphLines>Eliminar Líneas Solo con Bordes</TxtKillSpaceGraphLines>
+    <TxtKillSpaceLines>Eliminar Líneas Vacías</TxtKillSpaceLines>
+    <TxtPutFeedPageCode>Salto de Página Tras Cada Página</TxtPutFeedPageCode>
     <Type>Tipo:</Type>
     <UseDefaultSystemEncoding>Usar Codificación del sistema por defecto</UseDefaultSystemEncoding>
     <UseDigitalSignature>Usar Firma Digital</UseDigitalSignature>
@@ -2344,62 +2344,65 @@
     <StiTreeViewControl>Muestra datos jerárquicos en forma de árbol.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
-    <AddPageBreaks>Separador Visual de páginas del informe.</AddPageBreaks>
-    <AllowAddOrModifyTextAnnotations>Acceso Restringido para trabajar con las anotaciones del documento.</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Acceso Restringido para copiar información.</AllowCopyTextAndGraphics>
-    <AllowEditable>Permite cambiar solamente los componentes con la propiedad Editable habilitado.</AllowEditable>
-    <AllowModifyContents>Acceso Restringido para editar texto.</AllowModifyContents>
-    <AllowPrintDocument>Acceso Restringido para operaciones de impresión.</AllowPrintDocument>
+    <AddPageBreaks>Mostrar un separador entre las páginas del informe.</AddPageBreaks>
+    <AllowAddOrModifyTextAnnotations>Permitir añadir y cambiar anotaciones.</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Permitir copiar el texto y los gráficos del documento.</AllowCopyTextAndGraphics>
+    <AllowEditable>Permitir cambiar los componentes que tienen activada la propiedad Editable.</AllowEditable>
+    <AllowModifyContents>Permitir cambiar el texto del documento.</AllowModifyContents>
+    <AllowPrintDocument>Permitir imprimir el documento.</AllowPrintDocument>
     <Bookmarks>Mostrar los marcadores.</Bookmarks>
-    <BorderType>El tipo de borde del componente: simple - utiliza la caracteres +, -, |; Unicode simple - pinta los bordes con caracteres de recuadro simple, Unicode doble - pinta los bordes con caracteres de recuadro dobles.</BorderType>
+    <BorderType>Los caracteres de los bordes de los componentes: Simple los dibuja con +, - y |, Una Línea y Doble Línea con líneas de recuadro simples o dobles.</BorderType>
     <Close>Cerrar la vista preliminar.</Close>
     <CloseDotMatrix>Cerrar el Visor Matricial y volver a editar el informe.</CloseDotMatrix>
-    <Compressed>Compresión del documento. Se recomienda siempre incluir la compresión de archivos.</Compressed>
-    <CompressToArchive>Empaquetar los archivos y carpetas en el archivo zip.</CompressToArchive>
-    <ContinuousPages>El modo de ubicar las páginas del informe en una tira vertical.</ContinuousPages>
-    <CurrentPage>Procesar la página actual. Seleccionando esta opción procesará la página seleccionada.</CurrentPage>
+    <Compressed>Comprimir el documento. Déjelo activado para que el archivo sea más pequeño.</Compressed>
+    <CompressToArchive>Empaquetar todos los archivos y carpetas en un archivo zip.</CompressToArchive>
+    <ContinuousPages>Colocar las páginas del informe una debajo de otra en una sola tira continua.</ContinuousPages>
+    <CurrentPage>Solo la página actual del informe.</CurrentPage>
     <CutEdges>Recortar los bordes de las páginas del informe.</CutEdges>
-    <CutLongLines>Recortar las líneas largas (líneas de texto) por los bordes del componente.</CutLongLines>
+    <CutLongLines>Cortar el texto que no cabe en su componente en lugar de ajustarlo.</CutLongLines>
     <DashboardContains1>Lo sentimos, pero este informe contiene un tablero.</DashboardContains1>
     <DashboardContains2>¡Debe abrir este informe directamente en el diseñador!</DashboardContains2>
     <DashboardContains3>¡No puede hacer eso desde el visor de informes!</DashboardContains3>
-    <DigitalSignature>La firma digital del documento.</DigitalSignature>
-    <DitheringType>Tipo Difuminación: Ninguno - sin difuminación, Ordenado, FloydSt - con difuminación.</DitheringType>
+    <DigitalSignature>Firmar el documento con una firma digital.</DigitalSignature>
+    <DitheringType>El difuminado de las imágenes en blanco y negro: None, Ordered o Floyd-Steinberg.</DitheringType>
     <DotMatrixMode>Ver en modo matricial.</DotMatrixMode>
-    <DrawBorder>Pintando los bordes de los componentes con caracteres gráficos.</DrawBorder>
+    <DotMatrixSettings>Mostrar u ocultar la configuración.</DotMatrixSettings>
+    <DrawBorder>Dibujar los bordes de los componentes con caracteres de dibujo de recuadros.</DrawBorder>
     <Edit>Editar componentes.</Edit>
     <EmbeddedFonts>Incrustar los archivos de fuentes en el PDF.</EmbeddedFonts>
     <EmbeddedFontsHtml>Incrustar los archivos de fuentes en el archivo HTML: ninguna, solo las personalizadas o todas las fuentes usadas en el informe.</EmbeddedFontsHtml>
     <EmbeddedFontsOffice>Incrustar los archivos de fuentes en el archivo exportado.</EmbeddedFontsOffice>
-    <EmbeddedImageData>Incrustar las imágenes directamente en el HTML.</EmbeddedImageData>
-    <Encoding>Codificando el informe después de exportarse.</Encoding>
-    <EncodingData>Codificando archivo de datos.</EncodingData>
-    <EncryptionKeyLength>La longitud de la clave de encriptación. Cuanto más largo la clave más difícil es desencriptar el documento, y consecuentemente, aumenta la seguridad del documento.</EncryptionKeyLength>
-    <ExportDataOnly>Exportar solamente las Bandas de Datos (el componente de Tabla, banda jerárquica).</ExportDataOnly>
-    <ExportEachPageToSheet>Exportar cada página a una nueva hoja de Excel.</ExportEachPageToSheet>
-    <ExportMode>Aplicar un filtro al exportar. Solo datos - solamente las bandas de datos (el componente de Tabla, banda jerárquica) se exportarán. Datos y Cabeceras/Pies - bandas de datos (el componente de Tabla, banda jerárquica) y sus cabeceras/pies se exportarán. Todas las Bandas - Se exportará todas las bandas.</ExportMode>
-    <ExportModeHtml>El proceso de generar una página HTML.</ExportModeHtml>
-    <ExportModeRtf>Presentación del informe después de la exportación. La Tabla - el informe aparecerá como una tabla donde cada componente será una celda. Marco - cada componente aparecerá como un marco, pero sin relación entre ellos.</ExportModeRtf>
-    <ExportObjectFormatting>Aplicar el formateo a los datos exportados de las Bandas de Datos (el componente de Tabla, banda jerárquica).</ExportObjectFormatting>
+    <EmbeddedImageData>Incrustar las imágenes directamente en el archivo HTML.</EmbeddedImageData>
+    <Encoding>La codificación del texto exportado.</Encoding>
+    <EncodingData>La codificación del archivo de datos.</EncodingData>
+    <EncryptionKeyLength>La longitud de la clave de cifrado: cuanto más larga es la clave, más difícil es descifrar el documento.</EncryptionKeyLength>
+    <ExportDataOnly>Exportar solo las bandas Datos: el componente Tabla y la banda jerárquica.</ExportDataOnly>
+    <ExportEachPageToSheet>Exportar cada página del informe a su propia hoja de Excel.</ExportEachPageToSheet>
+    <ExportMode>Las bandas que pasan al archivo: Solo Datos toma las bandas Datos (el componente Tabla, la banda jerárquica), Datos y Encabezados/Pies añade sus encabezados y pies, Todas las bandas toma todas las bandas.</ExportMode>
+    <ExportModeHtml>El marcado de la página HTML.</ExportModeHtml>
+    <ExportModeRtf>La disposición del informe después de la exportación: Tabla coloca cada componente en una celda de tabla, Marco coloca cada componente en su propio marco, sin relación entre ellos.</ExportModeRtf>
+    <ExportObjectFormatting>Conservar el formato de los datos de las bandas Datos (el componente Tabla, la banda jerárquica).</ExportObjectFormatting>
     <ExportPageBreaks>Mostrar los bordes de las páginas en las hojas de Excel.</ExportPageBreaks>
-    <ExportRtfTextAsImage>Convertir el texto RTF en imagen. Si esta opción está deshabilitada, al exportar, RichText se descompondrá en los primitivos más simples soportados por el formato PDF. RichText con formato complejo (imágenes incrustadas, tablas) no siempre puede convertirse correctamente. En este caso se recomienda habilitar esta opción.</ExportRtfTextAsImage>
+    <ExportRtfTextAsImage>Exportar el texto RTF como imagen. Actívelo para texto enriquecido con imágenes o tablas, que no siempre se convierte correctamente en texto PDF.</ExportRtfTextAsImage>
     <Find>Buscar texto.</Find>
     <FullScreen>Ver en pantalla completa.</FullScreen>
-    <GetCertificateFromCryptoUI>Usando el interfaz de la librería de criptografía del sistema.</GetCertificateFromCryptoUI>
-    <ImageCompressionMethod>Método de compresión: JPEG - puede perder calidad, Flate – sin pérdida de calidad, Simple, Ordenado, FloydSt - las imágenes se exportan en blanco y negro.</ImageCompressionMethod>
-    <ImageFormat>El formato de la imagen del archivo resultante.</ImageFormat>
-    <ImageQuality>Permite escoger el ratio de calidad/tamaño de las imágenes del archivo. Cuanto más calidad, más grande será el archivo resultante.</ImageQuality>
-    <ImageQualityPdf>Opción solamente disponible para la compresión JPEG y que permite escoger el ratio de calidad/tamaño de la imagen. Cuanto más calidad, más grande será el archivo resultante.</ImageQualityPdf>
-    <ImageResolution>Número de pixeles por pulgada. Cuanto más alto es el número de pixeles, más calidad tendrá la imagen. El tamaño del archivo resultante será más grande.</ImageResolution>
+    <GetCertificateFromCryptoUI>Elegir el certificado en la ventana de la biblioteca de criptografía del sistema.</GetCertificateFromCryptoUI>
+    <ImageCompressionMethod>La compresión de las imágenes: JPEG puede perder calidad, Flate la conserva, y Simple, Ordered y Floyd-Steinberg convierten las imágenes en blanco y negro.</ImageCompressionMethod>
+    <ImageFormat>El formato de las imágenes en el archivo exportado.</ImageFormat>
+    <ImageQuality>El equilibrio entre la calidad de imagen y el tamaño del archivo: cuanto mayor es la calidad, mayor es el archivo.</ImageQuality>
+    <ImageQualityPdf>El equilibrio entre la calidad de imagen y el tamaño del archivo con compresión JPEG: cuanto mayor es la calidad, mayor es el archivo.</ImageQualityPdf>
+    <ImageResolution>Los píxeles por pulgada: cuantos más píxeles, mejores son las imágenes y mayor es el archivo.</ImageResolution>
     <ImageResolutionMode>Cómo se aplica la resolución a las imágenes: exactamente, solo para reducir las más grandes o no se aplica.</ImageResolutionMode>
-    <ImageType>Esquema de color de la imagen: color - la image será idéntica al original del visor; gris – la imagen se exportará en tonos de gris; monocromático - la imagen se exportará en blanco y negro. Se recuerda que el modo monocromático tiene tres modos Ninguno, Ordenado, FloydSt.</ImageType>
-    <KillSpaceLines>Eliminar filas vacías del documento.</KillSpaceLines>
-    <MultipleFiles>Cada página del informe puede ser un archivo nuevo.</MultipleFiles>
+    <ImageType>Los colores de la imagen: Color coincide con el visor, Escala de Grises usa tonos de gris, Monocromático usa solo blanco y negro con uno de tres modos de difuminado.</ImageType>
+    <KeepProportions>Mantener las proporciones.</KeepProportions>
+    <KillSpaceGraphLines>Eliminar las líneas que solo contienen bordes y espacios.</KillSpaceGraphLines>
+    <KillSpaceLines>Eliminar las líneas vacías del documento.</KillSpaceLines>
+    <MultipleFiles>Exportar cada página del informe a un archivo independiente.</MultipleFiles>
     <Open>Abrir un informe.</Open>
-    <OpenAfterExport>Apertura automática del documento (después de exportar) por el programa asociado con este tipo de archivo.</OpenAfterExport>
-    <OwnerPassword>Contraseña de acceso para operaciones con archivos.</OwnerPassword>
-    <PageAll>Procesando todas las páginas del informe.</PageAll>
-    <PageBands>Qué encabezados y pies de página se incluyen en el documento: ninguno, el primer encabezado y el último pie, o todos.</PageBands>
+    <OpenAfterExport>Abrir el archivo exportado en el programa asignado a su tipo.</OpenAfterExport>
+    <OwnerPassword>La contraseña necesaria para cambiar los permisos del documento.</OwnerPassword>
+    <PageAll>Todas las páginas del informe.</PageAll>
+    <PageBands>Los encabezados y pies de página que pasan al documento: ninguno, el primer encabezado y el último pie, o todos.</PageBands>
     <PageDelete>Eliminar la página seleccionada.</PageDelete>
     <PageDesign>Editar la página en el diseñador.</PageDesign>
     <PageFirst>Ir a la primera página.</PageFirst>
@@ -2410,37 +2413,37 @@
     <PagePrevious>Ir a la página anterior.</PagePrevious>
     <PageSize>Cambiar la configuración de página.</PageSize>
     <Parameters>Mostrar los parámetros.</Parameters>
-    <PdfACompliance>Soporte para el archivo de larga duración y ordenación de documentos electrónicos.</PdfACompliance>
-    <PdfUniversalAccessibility>Soporte para el estándar de documentos e información electrónicos de acceso universal.</PdfUniversalAccessibility>
+    <PdfACompliance>Cumplir el estándar PDF/A para el archivado de documentos a largo plazo.</PdfACompliance>
+    <PdfUniversalAccessibility>Cumplir el estándar PDF/UA para documentos accesibles para todos.</PdfUniversalAccessibility>
     <Print>Imprimir el informe.</Print>
-    <PutFeedPageCode>Separar las páginas del documento final con un carácter especial.</PutFeedPageCode>
-    <RangePages>Números de páginas a procesar. Puede indicar una única página, una lista de páginas (separado por comas), además de un rango de páginas donde se separa la página de inicio y la página final por el carácter "-". Por ejemplo: 1,3,5-12.</RangePages>
+    <PutFeedPageCode>Empezar cada página en una hoja nueva con un carácter de avance de página.</PutFeedPageCode>
+    <RangePages>El rango de páginas: una página, una lista separada por comas o un rango con guion, por ejemplo 1,3,5-12.</RangePages>
     <RebuildReport>Vuelve a generar el informe para la nueva página, de modo que los datos llenen las nuevas páginas. Sin esta opción, solo cambia el tamaño de las páginas ya generadas. No disponible para un documento abierto desde un archivo.</RebuildReport>
-    <RemoveEmptySpaceAtBottom>Minimizar el espacio al final de la página.</RemoveEmptySpaceAtBottom>
+    <RemoveEmptySpaceAtBottom>Reducir el espacio vacío en la parte inferior de las páginas.</RemoveEmptySpaceAtBottom>
     <Resources>Mostrar los recursos.</Resources>
-    <RestrictEditing>Límites en cambios de documentos Word.</RestrictEditing>
+    <RestrictEditing>Las restricciones para cambiar el documento Word.</RestrictEditing>
     <Save>Guardar el informe.</Save>
     <ScaleContent>Cambia el tamaño de los componentes junto con la página. Sin esta opción, conservan su tamaño y posición.</ScaleContent>
-    <ScaleHtml>El tamaño (escala) de las páginas del informe después de la exportación.</ScaleHtml>
-    <ScaleImage>El tamaño (escala) del informe después de la exportación. Cuanto más bajo, mayor será el número de pixeles por pulgada, y vice versa.</ScaleImage>
+    <ScaleHtml>La escala de las páginas y los elementos del informe en el archivo exportado.</ScaleHtml>
+    <ScaleImage>La escala del informe en la imagen: cuanto mayor es la escala, mayor es la imagen.</ScaleImage>
     <SendEMail>Enviar el informe por correo electrónico.</SendEMail>
-    <Separator>Separador entre datos en el archivo CSV.</Separator>
-    <SkipColumnHeaders>Habilitar/deshabilitar los encabezados de las columnas.</SkipColumnHeaders>
-    <StandardPdfFonts>14 fuentes estándar de Adobe. Habilitando esta opción, solamente dispondrá de 14 fuentes estándar en el archivo PDF. Todas las fuentes se convertirán a estas.</StandardPdfFonts>
-    <SubjectNameString>Identificador del Certificado. El identificador del certificado es el propietario del certificado (líneas completa) o nombre parcial (sub-cadena).</SubjectNameString>
+    <Separator>El carácter que separa los datos en el archivo CSV.</Separator>
+    <SkipColumnHeaders>No incluir los encabezados de columna en el archivo.</SkipColumnHeaders>
+    <StandardPdfFonts>Usar solo las 14 fuentes estándar de Adobe: todas las fuentes del informe se sustituyen por ellas.</StandardPdfFonts>
+    <SubjectNameString>El certificado para firmar: el nombre completo de su propietario o una parte de él.</SubjectNameString>
     <Thumbnails>Mostrar las miniaturas de páginas.</Thumbnails>
-    <TiffCompressionScheme>Esquema de compresión de archivos TIFF.</TiffCompressionScheme>
+    <TiffCompressionScheme>La compresión del archivo TIFF.</TiffCompressionScheme>
     <ToolEditor>Editar los componentes editables.</ToolEditor>
     <ToolSignature>Firmar en los lugares marcados.</ToolSignature>
-    <TypeExport>El archivo destino a la cual se convertirá el informe.</TypeExport>
+    <TypeExport>El tipo de archivo en el que se convierte el informe.</TypeExport>
     <UnsafeCompilation1>Este documento utiliza el proceso de compilación. En algunos casos, esto puede no ser seguro. Por lo tanto, el documento se cargará en modo seguro para minimizar cualquier riesgo potencial.</UnsafeCompilation1>
     <UnsafeCompilation2>Si necesita que este documento se utilice en su forma original, comuníquese con sus desarrolladores.</UnsafeCompilation2>
     <UnsafeCompilationTitle>El documento se abrirá en modo seguro</UnsafeCompilationTitle>
-    <UseDefaultSystemEncoding>Usar la codificación del sistema por defecto o especifique una codificación distinta.</UseDefaultSystemEncoding>
-    <UseOnePageHeaderAndFooter>Use las bandas de Cabecera y Pie como cabeceras y pies del documento MS Word.</UseOnePageHeaderAndFooter>
-    <UsePageHeadersAndFooters>Use las bandas de página de Cabecera y Pie como cabeceras y pies del documento MS Word.</UsePageHeadersAndFooters>
+    <UseDefaultSystemEncoding>Usar la codificación del sistema. Desactívelo para elegir otra.</UseDefaultSystemEncoding>
+    <UseOnePageHeaderAndFooter>Dejar solo un encabezado de página y un pie de página en el archivo Excel en lugar de repetirlos en cada página.</UseOnePageHeaderAndFooter>
+    <UsePageHeadersAndFooters>Convertir las bandas Encabezado Página y Pie Página en el encabezado y el pie del documento.</UsePageHeadersAndFooters>
     <UserPassword>La contraseña requerida para abrir el documento.</UserPassword>
-    <UseUnicode>Soporte ampliado para caracteres de codificación. Afecta a la codificación interna de un archivo PDF, y mejora el copiado de texto desde un archivo PDF.</UseUnicode>
+    <UseUnicode>Guardar los caracteres en Unicode dentro del archivo PDF para que el texto se copie correctamente.</UseUnicode>
     <ViewModeContinuous>Mostrar todas las páginas en una cinta.</ViewModeContinuous>
     <ViewModeMultiplePages>Mostrar varias páginas.</ViewModeMultiplePages>
     <ViewModeSinglePage>Mostrar una sola página.</ViewModeSinglePage>
@@ -2448,7 +2451,7 @@
     <ZoomOnePage>Ajustar una página.</ZoomOnePage>
     <ZoomPageWidth>Ajustar la anchura de la página.</ZoomPageWidth>
     <ZoomTwoPages>Ajustar dos páginas.</ZoomTwoPages>
-    <ZoomTxt>Tamaño del informe (escala): X - cambiar la escala horizontal, Y - cambiar la escala vertical.</ZoomTxt>
+    <ZoomTxt>La escala del texto del informe: X en horizontal, Y en vertical.</ZoomTxt>
   </HelpViewer>
   <Interface>
     <Mouse>Ratón</Mouse>

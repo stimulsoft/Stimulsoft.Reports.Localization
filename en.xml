@@ -1189,14 +1189,14 @@
     <TiffCompressionScheme>TIFF Compression Scheme:</TiffCompressionScheme>
     <title>Export Settings</title>
     <TxtBorderType>Border Type</TxtBorderType>
-    <TxtBorderTypeDouble>Unicode-Double</TxtBorderTypeDouble>
+    <TxtBorderTypeDouble>Double</TxtBorderTypeDouble>
     <TxtBorderTypeSimple>Simple</TxtBorderTypeSimple>
-    <TxtBorderTypeSingle>Unicode-Single</TxtBorderTypeSingle>
+    <TxtBorderTypeSingle>Single</TxtBorderTypeSingle>
     <TxtCutLongLines>Cut Long Lines</TxtCutLongLines>
     <TxtDrawBorder>Draw Border</TxtDrawBorder>
-    <TxtKillSpaceGraphLines>Kill Space Graph Lines</TxtKillSpaceGraphLines>
-    <TxtKillSpaceLines>Kill Space Lines</TxtKillSpaceLines>
-    <TxtPutFeedPageCode>Put Feed Page Code</TxtPutFeedPageCode>
+    <TxtKillSpaceGraphLines>Remove Border-Only Lines</TxtKillSpaceGraphLines>
+    <TxtKillSpaceLines>Remove Empty Lines</TxtKillSpaceLines>
+    <TxtPutFeedPageCode>Form Feed After Each Page</TxtPutFeedPageCode>
     <Type>Type:</Type>
     <UseDefaultSystemEncoding>Use Default System Encoding</UseDefaultSystemEncoding>
     <UseDigitalSignature>Use Digital Signature</UseDigitalSignature>
@@ -2344,62 +2344,65 @@
     <StiTreeViewControl>Shows hierarchical data as a tree.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
-    <AddPageBreaks>Visual separator of report pages.</AddPageBreaks>
-    <AllowAddOrModifyTextAnnotations>Limited access to work with annotations in the document.</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Limited access to copying information.</AllowCopyTextAndGraphics>
-    <AllowEditable>Allows changing components with the Editable property enabled.</AllowEditable>
-    <AllowModifyContents>Limited access to the text editing.</AllowModifyContents>
-    <AllowPrintDocument>Limited access to the print operation.</AllowPrintDocument>
+    <AddPageBreaks>Show a separator between the report pages.</AddPageBreaks>
+    <AllowAddOrModifyTextAnnotations>Allow adding and changing annotations.</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Allow copying the text and graphics of the document.</AllowCopyTextAndGraphics>
+    <AllowEditable>Allow changing the components that have the Editable property on.</AllowEditable>
+    <AllowModifyContents>Allow changing the text of the document.</AllowModifyContents>
+    <AllowPrintDocument>Allow printing the document.</AllowPrintDocument>
     <Bookmarks>Show the bookmarks.</Bookmarks>
-    <BorderType>The border type of components: simple - drawing borders of components with characters +, -, |; Unicode single - drawing the borders with single box-drawing characters, Unicode double - drawing the borders with double box-drawing characters.</BorderType>
+    <BorderType>The characters of the component borders: Simple draws them with +, - and |, Single and Double with single or double box-drawing lines.</BorderType>
     <Close>Close the preview.</Close>
     <CloseDotMatrix>Close the Dot Matrix Viewer.</CloseDotMatrix>
-    <Compressed>Compression of the ready document. It is recommended to always include file compression.</Compressed>
-    <CompressToArchive>Pack all files and folders in the zip archive.</CompressToArchive>
-    <ContinuousPages>The mode of placing report pages as a vertical strip.</ContinuousPages>
-    <CurrentPage>Processing the current page. If this option is selected, then a selected report page will be processed.</CurrentPage>
-    <CutEdges>Trim the borders of report pages.</CutEdges>
-    <CutLongLines>Trim the long lines (text lines) by the borders of components.</CutLongLines>
+    <Compressed>Compress the document. Keep it on to make the file smaller.</Compressed>
+    <CompressToArchive>Pack all the files and folders into a zip archive.</CompressToArchive>
+    <ContinuousPages>Place the report pages one under another in a single strip.</ContinuousPages>
+    <CurrentPage>Only the current page of the report.</CurrentPage>
+    <CutEdges>Trim the edges of the report pages.</CutEdges>
+    <CutLongLines>Cut the text that does not fit its component instead of wrapping it.</CutLongLines>
     <DashboardContains1>Sorry, but this report contains a dashboard.</DashboardContains1>
     <DashboardContains2>You should open this report directly in the designer!</DashboardContains2>
     <DashboardContains3>You cannot do that from the report viewer!</DashboardContains3>
-    <DigitalSignature>The digital signature of the file.</DigitalSignature>
-    <DitheringType>Dithering type: None - no dithering, Ordered, FloydSt. - with dithering.</DitheringType>
+    <DigitalSignature>Sign the document with a digital signature.</DigitalSignature>
+    <DitheringType>The dithering of black and white images: None, Ordered or Floyd-Steinberg.</DitheringType>
     <DotMatrixMode>View in dot-matrix mode.</DotMatrixMode>
-    <DrawBorder>Drawing the borders of components with graphic characters.</DrawBorder>
+    <DotMatrixSettings>Show or hide the settings.</DotMatrixSettings>
+    <DrawBorder>Draw the borders of components with box-drawing characters.</DrawBorder>
     <Edit>Edit components.</Edit>
-    <EmbeddedFonts>Embed the font files into a PDF file.</EmbeddedFonts>
+    <EmbeddedFonts>Embed the font files into the PDF file.</EmbeddedFonts>
     <EmbeddedFontsHtml>Embed the font files into the HTML file: none, the custom fonts only, or all the fonts used in the report.</EmbeddedFontsHtml>
     <EmbeddedFontsOffice>Embed the font files into the exported file.</EmbeddedFontsOffice>
-    <EmbeddedImageData>Embed images directly into the HTML file.</EmbeddedImageData>
-    <Encoding>Encoding the report text after export.</Encoding>
-    <EncodingData>Encoding data file.</EncodingData>
-    <EncryptionKeyLength>The length of the encryption key. The longer the length is, the more difficult it is to decrypt the document, and, accordingly, the higher the document security.</EncryptionKeyLength>
-    <ExportDataOnly>Export only Data bands (the Table component, Hierarchical band).</ExportDataOnly>
-    <ExportEachPageToSheet>Export each report page in a separate Excel sheet.</ExportEachPageToSheet>
-    <ExportMode>Apply a filter condition when exporting. Data Only - only data bands (Table component, Hierarchical Band) will be exported. Data and Headers/Footers - data bands (Table component, Hierarchical Band) and their headers/footers will be exported. All Bands - All the report bands will be exported.</ExportMode>
-    <ExportModeHtml>The way of the HTML page markup.</ExportModeHtml>
-    <ExportModeRtf>Presentation of the report data after export. The Table - the report will look like a table, where each report component is a table cell. Frame - each component will look like a single frame, but without any relationship between them.</ExportModeRtf>
-    <ExportObjectFormatting>Apply formatting to export data from Data bands (Table component, Hierarchical band).</ExportObjectFormatting>
+    <EmbeddedImageData>Embed the images right into the HTML file.</EmbeddedImageData>
+    <Encoding>The encoding of the exported text.</Encoding>
+    <EncodingData>The encoding of the data file.</EncodingData>
+    <EncryptionKeyLength>The length of the encryption key: the longer the key, the harder it is to decrypt the document.</EncryptionKeyLength>
+    <ExportDataOnly>Export only the data bands: the Table component and the Hierarchical band.</ExportDataOnly>
+    <ExportEachPageToSheet>Export each report page to its own Excel sheet.</ExportEachPageToSheet>
+    <ExportMode>The bands that go into the file: Data Only takes the data bands (the Table component, the Hierarchical band), Data and Headers/Footers adds their headers and footers, All Bands takes every band.</ExportMode>
+    <ExportModeHtml>The markup of the HTML page.</ExportModeHtml>
+    <ExportModeRtf>The layout of the report after the export: Table puts every component into a table cell, Frame puts every component into a frame of its own, with no relation between them.</ExportModeRtf>
+    <ExportObjectFormatting>Keep the formatting of the data from the data bands (the Table component, the Hierarchical band).</ExportObjectFormatting>
     <ExportPageBreaks>Show the borders of the report pages on the Excel sheet.</ExportPageBreaks>
-    <ExportRtfTextAsImage>Convert the RTF text into the image. If the option is disabled, then, when exporting, RichText decomposes into simpler primitives supported by the PDF format. RichText with complex formatting (embedded images, tables) cannot always be converted correctly. In this case it is recommended to enable this option.</ExportRtfTextAsImage>
+    <ExportRtfTextAsImage>Export the RTF text as an image. Turn it on for rich text with images or tables, which does not always convert into PDF text correctly.</ExportRtfTextAsImage>
     <Find>Find text.</Find>
     <FullScreen>View in full screen.</FullScreen>
-    <GetCertificateFromCryptoUI>Using the interface of the system cryptography library.</GetCertificateFromCryptoUI>
-    <ImageCompressionMethod>The compression method: JPEG - this may cause loss of quality, Flate – no quality loss, Simple, Ordered, FloydSt. - images are output in monochrome.</ImageCompressionMethod>
-    <ImageFormat>The image format in the finished file.</ImageFormat>
-    <ImageQuality>Allows you to choose the ratio of the image quality/size of the file. The higher the quality is, the larger is the size of the finished file.</ImageQuality>
-    <ImageQualityPdf>The option is available only in JPEG compression, and allows you to select the ratio of the image quality/size of the file. The higher the quality is, the larger is the size of the finished file.</ImageQualityPdf>
-    <ImageResolution>The number of pixels per inch. The higher the number of pixels is, the better is the quality of the image. The size of the finished file is much larger.</ImageResolution>
-    <ImageResolutionMode>How the resolution is applied to images: exactly, only to reduce larger ones, or not at all.</ImageResolutionMode>
-    <ImageType>The color scheme of the image: color - the image after exporting will fully match the image in the viewer; gray – an image after exporting will be in shades of gray; monochrome - the images will be strictly black and white. At the same time, it should be considered that monochrome has three modes None, Ordered, FloydSt.</ImageType>
-    <KillSpaceLines>Remove blank lines (rows) in the document.</KillSpaceLines>
-    <MultipleFiles>Each report page can be a separate file.</MultipleFiles>
+    <GetCertificateFromCryptoUI>Choose the certificate in the window of the system cryptography library.</GetCertificateFromCryptoUI>
+    <ImageCompressionMethod>The compression of the images: JPEG may lose quality, Flate keeps it, and Simple, Ordered and Floyd-Steinberg make the images black and white.</ImageCompressionMethod>
+    <ImageFormat>The format of the images in the exported file.</ImageFormat>
+    <ImageQuality>The balance of image quality and file size: the higher the quality, the larger the file.</ImageQuality>
+    <ImageQualityPdf>The balance of image quality and file size with JPEG compression: the higher the quality, the larger the file.</ImageQualityPdf>
+    <ImageResolution>The pixels per inch: the more pixels, the better the images and the larger the file.</ImageResolution>
+    <ImageResolutionMode>The way the resolution applies to the images: exactly, only to reduce larger ones, or not at all.</ImageResolutionMode>
+    <ImageType>The colors of the image: Color matches the viewer, Grayscale uses shades of gray, Monochrome uses only black and white in one of three dithering modes.</ImageType>
+    <KeepProportions>Keep the proportions.</KeepProportions>
+    <KillSpaceGraphLines>Remove the lines that hold only borders and spaces.</KillSpaceGraphLines>
+    <KillSpaceLines>Remove the empty lines from the document.</KillSpaceLines>
+    <MultipleFiles>Export each report page to a separate file.</MultipleFiles>
     <Open>Open a report.</Open>
-    <OpenAfterExport>Automatic opening of the created document (after export) by the program associated with these file types.</OpenAfterExport>
-    <OwnerPassword>The password required to perform operations with the file.</OwnerPassword>
-    <PageAll>Processing of all report pages.</PageAll>
-    <PageBands>Which page headers and footers go into the document: none, the first header and the last footer, or all of them.</PageBands>
+    <OpenAfterExport>Open the exported file in the program set for its type.</OpenAfterExport>
+    <OwnerPassword>The password required to change the permissions of the document.</OwnerPassword>
+    <PageAll>All the pages of the report.</PageAll>
+    <PageBands>The page headers and footers that go into the document: none, the first header and the last footer, or all of them.</PageBands>
     <PageDelete>Delete the selected page.</PageDelete>
     <PageDesign>Edit the page in the designer.</PageDesign>
     <PageFirst>Go to the first page.</PageFirst>
@@ -2410,37 +2413,37 @@
     <PagePrevious>Go to the previous page.</PagePrevious>
     <PageSize>Change the page settings.</PageSize>
     <Parameters>Show the parameters.</Parameters>
-    <PdfACompliance>Support for the standard of the long-term archiving and storing of electronic documents.</PdfACompliance>
-    <PdfUniversalAccessibility>Support for the standard of the universally accessible electronic documents and information.</PdfUniversalAccessibility>
+    <PdfACompliance>Follow the PDF/A standard for long-term archiving of documents.</PdfACompliance>
+    <PdfUniversalAccessibility>Follow the PDF/UA standard for documents accessible to everyone.</PdfUniversalAccessibility>
     <Print>Print the report.</Print>
-    <PutFeedPageCode>Separate the pages in the final document with a special character.</PutFeedPageCode>
-    <RangePages>The page numbers to be processed. You can specify a single page, a list of pages (using a comma as the separator), or a range by giving the start page, a "-" separator, and the end page. For example: 1,3,5-12.</RangePages>
+    <PutFeedPageCode>Start each page on a new sheet with a form feed character.</PutFeedPageCode>
+    <RangePages>The page range: one page, a list separated by commas, or a range with a hyphen, for example 1,3,5-12.</RangePages>
     <RebuildReport>Build the report again for the new page, so the data fills the new pages. Without it, only the built pages change their size. Not available for a document opened from a file.</RebuildReport>
-    <RemoveEmptySpaceAtBottom>Minimize the empty space at the bottom of the page.</RemoveEmptySpaceAtBottom>
+    <RemoveEmptySpaceAtBottom>Shrink the empty space at the bottom of the pages.</RemoveEmptySpaceAtBottom>
     <Resources>Show the resources.</Resources>
-    <RestrictEditing>Limits on changes in a Word document.</RestrictEditing>
+    <RestrictEditing>The limits on changing the Word document.</RestrictEditing>
     <Save>Save the report.</Save>
     <ScaleContent>Resize the components with the page. Without it, they keep their size and place.</ScaleContent>
-    <ScaleHtml>The size (scale) of report pages and items after the export.</ScaleHtml>
-    <ScaleImage>The size (scale) of the report after exporting. The lower the scale, the greater the number of pixels per inch, and vice versa.</ScaleImage>
+    <ScaleHtml>The scale of the report pages and items in the exported file.</ScaleHtml>
+    <ScaleImage>The scale of the report in the image: the higher the scale, the larger the image.</ScaleImage>
     <SendEMail>Send the report via Email.</SendEMail>
-    <Separator>Separator between the data in the CSV file.</Separator>
-    <SkipColumnHeaders>Enable/disable the column headers.</SkipColumnHeaders>
-    <StandardPdfFonts>14 standard Adobe fonts. If this option is enabled, then only standard 14 fonts will be used in the PDF file. All report fonts are converted into them.</StandardPdfFonts>
-    <SubjectNameString>Certificate identifier. The identifier is the name of the certificate owner (full line) or a part of the name (substring).</SubjectNameString>
+    <Separator>The character that separates the data in the CSV file.</Separator>
+    <SkipColumnHeaders>Leave the column headers out of the file.</SkipColumnHeaders>
+    <StandardPdfFonts>Use only the 14 standard Adobe fonts: all the report fonts turn into them.</StandardPdfFonts>
+    <SubjectNameString>The certificate to sign with: the full name of its owner or a part of it.</SubjectNameString>
     <Thumbnails>Show the page thumbnails.</Thumbnails>
-    <TiffCompressionScheme>Compression scheme for TIFF files.</TiffCompressionScheme>
+    <TiffCompressionScheme>The compression of the TIFF file.</TiffCompressionScheme>
     <ToolEditor>Edit the editable components.</ToolEditor>
     <ToolSignature>Sign the marked places.</ToolSignature>
-    <TypeExport>The file the report will be converted into.</TypeExport>
+    <TypeExport>The type of the file the report turns into.</TypeExport>
     <UnsafeCompilation1>This document uses the compilation process. In some cases, this may not be safe. Therefore, the document will be loaded in safe mode to minimize any potential risks.</UnsafeCompilation1>
     <UnsafeCompilation2>If you require this document to be used in its original form, please contact your developers.</UnsafeCompilation2>
     <UnsafeCompilationTitle>The document will open in safe mode</UnsafeCompilationTitle>
-    <UseDefaultSystemEncoding>Use the system encoding by default or specify the encoding manually.</UseDefaultSystemEncoding>
-    <UseOnePageHeaderAndFooter>Define the page bands Header and Footer as the header and footer of the Microsoft Word document.</UseOnePageHeaderAndFooter>
-    <UsePageHeadersAndFooters>Define the bands Page Header and Footer as the header and footer of the document in Microsoft Word.</UsePageHeadersAndFooters>
+    <UseDefaultSystemEncoding>Use the system encoding. Turn it off to choose another one.</UseDefaultSystemEncoding>
+    <UseOnePageHeaderAndFooter>Keep only one page header and one page footer in the Excel file instead of repeating them on every page.</UseOnePageHeaderAndFooter>
+    <UsePageHeadersAndFooters>Turn the Page Header and Page Footer bands into the header and footer of the document.</UsePageHeadersAndFooters>
     <UserPassword>The password required to open the document.</UserPassword>
-    <UseUnicode>Extended support for encoding characters. It affects the internal character encoding within the PDF file, and improves the copying of the text from the PDF file.</UseUnicode>
+    <UseUnicode>Store the characters as Unicode inside the PDF file, so the text copies correctly.</UseUnicode>
     <ViewModeContinuous>Show all pages as a ribbon.</ViewModeContinuous>
     <ViewModeMultiplePages>Show several pages.</ViewModeMultiplePages>
     <ViewModeSinglePage>Show a single page.</ViewModeSinglePage>
@@ -2448,7 +2451,7 @@
     <ZoomOnePage>Fit one page.</ZoomOnePage>
     <ZoomPageWidth>Fit the page width.</ZoomPageWidth>
     <ZoomTwoPages>Fit two pages.</ZoomTwoPages>
-    <ZoomTxt>The report size (scale): X - change the horizontal scale, Y - change the vertical scale.</ZoomTxt>
+    <ZoomTxt>The scale of the report text: X across, Y down.</ZoomTxt>
   </HelpViewer>
   <Interface>
     <Mouse>Mouse</Mouse>

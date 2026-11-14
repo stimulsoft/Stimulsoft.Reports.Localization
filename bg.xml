@@ -1191,14 +1191,14 @@
     <TiffCompressionScheme>TIFF схема на компресия:</TiffCompressionScheme>
     <title>Настройки експорт</title>
     <TxtBorderType>Тип очертание</TxtBorderType>
-    <TxtBorderTypeDouble>Уникод - двойно</TxtBorderTypeDouble>
+    <TxtBorderTypeDouble>Двойна</TxtBorderTypeDouble>
     <TxtBorderTypeSimple>Просто</TxtBorderTypeSimple>
-    <TxtBorderTypeSingle>Уникод- единично</TxtBorderTypeSingle>
+    <TxtBorderTypeSingle>Единична</TxtBorderTypeSingle>
     <TxtCutLongLines>Изрязване на дългите линии</TxtCutLongLines>
     <TxtDrawBorder>Очертаване на границите</TxtDrawBorder>
-    <TxtKillSpaceGraphLines>Премахване на графичните линии</TxtKillSpaceGraphLines>
-    <TxtKillSpaceLines>Премахване на празните линии</TxtKillSpaceLines>
-    <TxtPutFeedPageCode>Отбелязване края на страницата</TxtPutFeedPageCode>
+    <TxtKillSpaceGraphLines>Премахване на редовете само с граници</TxtKillSpaceGraphLines>
+    <TxtKillSpaceLines>Премахване на празните редове</TxtKillSpaceLines>
+    <TxtPutFeedPageCode>Подаване на лист след всяка страница</TxtPutFeedPageCode>
     <Type>Тип:</Type>
     <UseDefaultSystemEncoding>Изполване на кодиране по подразбиране</UseDefaultSystemEncoding>
     <UseDigitalSignature>Използване на цифров подпис</UseDigitalSignature>
@@ -2348,62 +2348,65 @@
     <StiTreeViewControl>Показва йерархични данни като дърво.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
-    <AddPageBreaks>Визуален разделител на страниците на отчета.</AddPageBreaks>
-    <AllowAddOrModifyTextAnnotations>Ограничен достъп за работа с анотации в документа.</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Ограничен достъп за копиране на информация.</AllowCopyTextAndGraphics>
-    <AllowEditable>Разрешава промяна на компоненти  със свойство Редакция Разреши.</AllowEditable>
-    <AllowModifyContents>Ограничен достъп за текстово редактиране.</AllowModifyContents>
-    <AllowPrintDocument>Ограничен достъп за опечатване.</AllowPrintDocument>
+    <AddPageBreaks>Показване на разделител между страниците на отчета.</AddPageBreaks>
+    <AllowAddOrModifyTextAnnotations>Разрешаване на добавянето и промяната на анотации.</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Разрешаване на копирането на текста и графиката на документа.</AllowCopyTextAndGraphics>
+    <AllowEditable>Разрешаване на промяната на компонентите, в които е включено свойството Редактируем.</AllowEditable>
+    <AllowModifyContents>Разрешаване на промяната на текста на документа.</AllowModifyContents>
+    <AllowPrintDocument>Разрешаване на отпечатването на документа.</AllowPrintDocument>
     <Bookmarks>Показване на отметките.</Bookmarks>
-    <BorderType>Типови очертания на компонентите: simple - очертаване рамките със символите +, -, |; Unicode single - очертаване на рамките с единични box-drawing символи, Unicode double - очертаване на рамките с двойни box-drawing символи.</BorderType>
+    <BorderType>Символите на границите на компонентите: Просто ги рисува със знаците +, - и |, Единична и Двойна с единични или двойни линии от псевдографика.</BorderType>
     <Close>Затваряне на прегледа.</Close>
     <CloseDotMatrix>Затвори преглед за матричен принтер и се върни за редактиране на отчета.</CloseDotMatrix>
-    <Compressed>Компресиране на готовия документ. Препоръчително е винаги да се използва компресия на файла.</Compressed>
+    <Compressed>Компресиране на документа. Оставете го включено, за да е по-малък файлът.</Compressed>
     <CompressToArchive>Пакетиране на всички файлове и папки в zip архив.</CompressToArchive>
-    <ContinuousPages>Начинът на поставяне на страниците с отчетите като вертикална лента.</ContinuousPages>
-    <CurrentPage>Обработка на текущата страница. Ако тази опция е избрана, то старницата на отчета ще бъде обработена.</CurrentPage>
-    <CutEdges>Скъсяване на очертанията на страниците на отчета.</CutEdges>
-    <CutLongLines>Скъсяване на дългите линии (текстови линии) с очертанията на компонентите.</CutLongLines>
+    <ContinuousPages>Подреждане на страниците на отчета една под друга в непрекъсната лента.</ContinuousPages>
+    <CurrentPage>Само текущата страница на отчета.</CurrentPage>
+    <CutEdges>Изрязване на краищата на страниците на отчета.</CutEdges>
+    <CutLongLines>Изрязване на текста, който не се побира в компонента си, вместо пренасянето му.</CutLongLines>
     <DashboardContains1>Съжаляваме, но този отчет съдържа табло dashboard.</DashboardContains1>
     <DashboardContains2>Трябва да отворите този отчет директно в дизайнера!</DashboardContains2>
     <DashboardContains3>Не можете да направите това от програмата за преглед на отчети!</DashboardContains3>
-    <DigitalSignature>Цифровият подпис на файла.</DigitalSignature>
-    <DitheringType>Вид трептене: None - без трептене, Ordered, FloydSt - с трептене.</DitheringType>
+    <DigitalSignature>Подписване на документа с цифров подпис.</DigitalSignature>
+    <DitheringType>Смесването на черно-белите изображения: None, Ordered или Floyd-Steinberg.</DitheringType>
     <DotMatrixMode>Преглед в матричен режим.</DotMatrixMode>
-    <DrawBorder>Очертаване границите на компонента с графични символи.</DrawBorder>
+    <DotMatrixSettings>Показване или скриване на настройките.</DotMatrixSettings>
+    <DrawBorder>Рисуване на границите на компонентите със символи за псевдографика.</DrawBorder>
     <Edit>Редакция на компоненти.</Edit>
     <EmbeddedFonts>Вмъкване файла с шрифтове в PDF файла.</EmbeddedFonts>
     <EmbeddedFontsHtml>Вграждане на файловете с шрифтове в HTML файла: никакви, само потребителските или всички шрифтове, използвани в отчета.</EmbeddedFontsHtml>
     <EmbeddedFontsOffice>Вграждане на файловете с шрифтове в експортирания файл.</EmbeddedFontsOffice>
-    <EmbeddedImageData>Вмъкване на графика директно в HTML файла.</EmbeddedImageData>
-    <Encoding>Кодиране (encoding) на текста в отчета след експорт.</Encoding>
-    <EncodingData>Кодиране (encoding) на файла с данни.</EncodingData>
-    <EncryptionKeyLength>Дължината на ключа за кодиране. Колкото ключа за кодиране е по-дълъг, толкова е по-трудно декодирането на документа и, респективно, документа е с по-голяма степен на защита.</EncryptionKeyLength>
-    <ExportDataOnly>Експорт само на данните (табличните компоненти,  йерархичните данни).</ExportDataOnly>
-    <ExportEachPageToSheet>Експорт на всяка страница в отделен лист (sheet) на Excel.</ExportEachPageToSheet>
-    <ExportMode>Прилагане на критериите за филтриране при експорт. Само данни - само групите с данни (Таблици, Йерархични ленти) ще се експортират. Данни със Заглавия/Завършеци - ще се експортирате групите с данни (Таблични компоненти , Йерархични ленти) и техните заглавия и завършец. Всички групи- Ще се експортират всички части на отчета.</ExportMode>
-    <ExportModeHtml>Процес на маркиране на HTML страници.</ExportModeHtml>
-    <ExportModeRtf>Представянето на на данните на отчета след експорт. Таблица - отчета ще изглежда като таблица, където всеки компонент на отчета е таблична клетка. Рамка - всеки компонент ще изглежда като обикновенна рамка, но без всякъква връзка между тях.</ExportModeRtf>
-    <ExportObjectFormatting>Прилага форматиране на групите данни при експорт.</ExportObjectFormatting>
+    <EmbeddedImageData>Вграждане на изображенията направо във файла HTML.</EmbeddedImageData>
+    <Encoding>Кодировката на експортирания текст.</Encoding>
+    <EncodingData>Кодировката на файла с данни.</EncodingData>
+    <EncryptionKeyLength>Дължината на ключа за шифроване: колкото по-дълъг е ключът, толкова по-трудно се дешифрира документът.</EncryptionKeyLength>
+    <ExportDataOnly>Експортиране само на секциите Данни: компонентът Таблица и секцията Йерархични данни.</ExportDataOnly>
+    <ExportEachPageToSheet>Експортиране на всяка страница на отчета в отделен лист на Excel.</ExportEachPageToSheet>
+    <ExportMode>Секциите, които влизат във файла: Само данни взема секциите Данни (компонентът Таблица, секцията Йерархични данни), Данни и Заглавие/Край добавя техните заглавия и краища, Всички секции взема всички секции на отчета.</ExportMode>
+    <ExportModeHtml>Маркирането на HTML страницата.</ExportModeHtml>
+    <ExportModeRtf>Видът на отчета след експорта: в режим Таблица всеки компонент става клетка на таблица, в режим Рамка всеки компонент е в собствена рамка, без връзка с другите.</ExportModeRtf>
+    <ExportObjectFormatting>Запазване на форматирането на данните от секциите Данни (компонентът Таблица, секцията Йерархични данни).</ExportObjectFormatting>
     <ExportPageBreaks>Показване на очертанията на страниците на отчета в листа на Excel.</ExportPageBreaks>
-    <ExportRtfTextAsImage>Конвертиране на RTF текста в графика. Ако тази опция е разрешена, то при експорт, RichText ще се декомпозира в опростени примитиви поддържани от PDF формата. 		RichText е сложно форматиране (с включване на графика, таблици) което не винаги може да бъде конвертирано правилно. В този случай се препоръчва разрешаването на тази опция.</ExportRtfTextAsImage>
+    <ExportRtfTextAsImage>Експортиране на текста RTF като изображение. Включете го за текст с картинки или таблици, който не винаги се превръща правилно в текст на PDF.</ExportRtfTextAsImage>
     <Find>Търсене на текст.</Find>
     <FullScreen>Преглед в цял екран.</FullScreen>
-    <GetCertificateFromCryptoUI>Използване на интерфейса на системната криптографичан библиотека.</GetCertificateFromCryptoUI>
-    <ImageCompressionMethod>Метод на компресиране: JPEG - може да се загуби от качеството, Flate – без загуба на качество, Simple, Ordered, FloydSt - графиката е монохромна.</ImageCompressionMethod>
-    <ImageFormat>Форматът на изображението в готовия файл.</ImageFormat>
-    <ImageQuality>Позволява да изберете съотношението качество / размер на графичния файла. Колкото е по-голямо качеството, толкова размера на файла е по-голям.</ImageQuality>
-    <ImageQualityPdf>Тази опция е налична само при JPEG компресия, и Ви позволява да изберете съотношението качество/размер на графичния файл. Колкото е по-голямо качеството, толкова размера на файла е по-голям.</ImageQualityPdf>
-    <ImageResolution>Броят на пикселите за инч. Колкото е по-голям броя на пикселите, толкова е подобро качеството на графиката. Размера на файла в този случай е доста по-голям.</ImageResolution>
+    <GetCertificateFromCryptoUI>Избор на сертификата в прозореца на системната криптографска библиотека.</GetCertificateFromCryptoUI>
+    <ImageCompressionMethod>Компресията на изображенията: JPEG може да губи качество, Flate го запазва, а Simple, Ordered и Floyd-Steinberg правят изображенията черно-бели.</ImageCompressionMethod>
+    <ImageFormat>Форматът на изображенията в експортирания файл.</ImageFormat>
+    <ImageQuality>Балансът между качеството на изображенията и размера на файла: колкото по-високо е качеството, толкова по-голям е файлът.</ImageQuality>
+    <ImageQualityPdf>Балансът между качеството на изображенията и размера на файла при компресия JPEG: колкото по-високо е качеството, толкова по-голям е файлът.</ImageQualityPdf>
+    <ImageResolution>Броят пиксели на инч: колкото повече пиксели, толкова по-добри са изображенията и толкова по-голям е файлът.</ImageResolution>
     <ImageResolutionMode>Как резолюцията се прилага към изображенията: точно, само за намаляване на по-големите или изобщо не.</ImageResolutionMode>
-    <ImageType>Цветовата схема на изображението: color - изображението след експорт напълно ще съответства на изображението в прегледа; gray – изображението след експорт ще бъде на сивата скала; monochrome - изображенията ще бъдат строго черно и бяло. В същото време, трябва да се счита, че има три монохромни режима: None, Ordered, FloydSt.</ImageType>
-    <KillSpaceLines>Премахва празните линии (редове) в документа.</KillSpaceLines>
-    <MultipleFiles>Всяка страница на отчета може да е отделен файл.</MultipleFiles>
+    <ImageType>Цветовете на изображението: Цвят съвпада с прегледа, Скала на сивото използва нюанси на сивото, Монохромен използва само черно и бяло в един от трите режима на смесване.</ImageType>
+    <KeepProportions>Запазване на пропорциите.</KeepProportions>
+    <KillSpaceGraphLines>Премахва редовете, които съдържат само граници и интервали.</KillSpaceGraphLines>
+    <KillSpaceLines>Премахване на празните редове от документа.</KillSpaceLines>
+    <MultipleFiles>Експортиране на всяка страница на отчета в отделен файл.</MultipleFiles>
     <Open>Отваряне на отчет.</Open>
-    <OpenAfterExport>Автоматично отваряне на създадения документ (след експорт) от програмата асоциирана за този тип файл.</OpenAfterExport>
-    <OwnerPassword>Паролата за достъп за операциите с файловете.</OwnerPassword>
-    <PageAll>Обработка на всички страници на отчета.</PageAll>
-    <PageBands>Кои заглавия и краища на страници да влязат в документа: никакви, първото заглавие и последният край или всички.</PageBands>
+    <OpenAfterExport>Отваряне на експортирания файл в програмата, зададена за неговия тип.</OpenAfterExport>
+    <OwnerPassword>Паролата, нужна за промяна на правата на документа.</OwnerPassword>
+    <PageAll>Всички страници на отчета.</PageAll>
+    <PageBands>Заглавията и краищата на страниците, които влизат в документа: никакви, първото заглавие и последният край или всички.</PageBands>
     <PageDelete>Изтриване на избраната страница.</PageDelete>
     <PageDesign>Редакция на страницата в дизайнера.</PageDesign>
     <PageFirst>Преминаване към първата страница.</PageFirst>
@@ -2414,37 +2417,37 @@
     <PagePrevious>Преминаване към предишната страница.</PagePrevious>
     <PageSize>Смяна на настройките на страницата.</PageSize>
     <Parameters>Показване на параметрите.</Parameters>
-    <PdfACompliance>Поддръжка на стандарта на дългосрочно архивиране и съхраняване на електронни документи.</PdfACompliance>
-    <PdfUniversalAccessibility>Поддръжка за стандарта за универсално достъпни електронни документи и информация.</PdfUniversalAccessibility>
+    <PdfACompliance>Спазване на стандарта PDF/A за дългосрочно архивно съхранение на документи.</PdfACompliance>
+    <PdfUniversalAccessibility>Спазване на стандарта PDF/UA за документи, достъпни за всички.</PdfUniversalAccessibility>
     <Print>Отпечатване на отчета.</Print>
-    <PutFeedPageCode>Запълването на страниците в окончателния документ със специален знак.</PutFeedPageCode>
-    <RangePages>Броят на страниците за обработка. Можете да определите само една страница, списък от страници (разделени със запетая), както и обхват с определяне на начална страница с последващ символ "-" и крайна страница. Например: 1,3,5-12.</RangePages>
+    <PutFeedPageCode>Започване на всяка страница на нов лист със символ за нова страница.</PutFeedPageCode>
+    <RangePages>Диапазонът от страници: една страница, списък, разделен със запетаи, или диапазон с тире, например 1,3,5-12.</RangePages>
     <RebuildReport>Построяване на отчета наново за новата страница, за да запълнят данните новите страници. Без това се променя само размерът на вече построените страници. Не е достъпно за документ, отворен от файл.</RebuildReport>
-    <RemoveEmptySpaceAtBottom>Намаляване на празно пространство в долната част на страницата.</RemoveEmptySpaceAtBottom>
+    <RemoveEmptySpaceAtBottom>Намаляване на празното място в долната част на страниците.</RemoveEmptySpaceAtBottom>
     <Resources>Показване на ресурсите.</Resources>
-    <RestrictEditing>Лимитира промените в Word документ.</RestrictEditing>
+    <RestrictEditing>Ограниченията за промяна на документа Word.</RestrictEditing>
     <Save>Съхраняване на отчета.</Save>
     <ScaleContent>Преоразмеряване на компонентите заедно със страницата. Без това те запазват размера и мястото си.</ScaleContent>
-    <ScaleHtml>Размерът (скалата) на страниците с отчетите и позициите след експорт.</ScaleHtml>
-    <ScaleImage>Размерът (скалата) на отчета след експорт. Колкото е по-малка скалата, толкова размера на пикселите за инч е по-голям, и обратно.</ScaleImage>
+    <ScaleHtml>Мащабът на страниците и елементите на отчета в експортирания файл.</ScaleHtml>
+    <ScaleImage>Мащабът на отчета в изображението: колкото по-голям е мащабът, толкова по-голямо е изображението.</ScaleImage>
     <SendEMail>Изпращане на отчета по електронна поща.</SendEMail>
-    <Separator>Разделителят между данните за CSV файла.</Separator>
-    <SkipColumnHeaders>Разреши / забрани заглавие на колоните.</SkipColumnHeaders>
-    <StandardPdfFonts>14 стандартни шрифтове на Adobe. Ако тази опция е маркирана, то само стандартните 14 шрифта ще се използват в PDF файла. Всички шрифтове на отчета се конвертират до тези.</StandardPdfFonts>
-    <SubjectNameString>Идентификатор на сертификата. Идентификатора е името на притежателя на сертификата (цял ред) или на част от името (подстринг).</SubjectNameString>
+    <Separator>Символът, който разделя данните във файла CSV.</Separator>
+    <SkipColumnHeaders>Изключване на заглавията на колоните от файла.</SkipColumnHeaders>
+    <StandardPdfFonts>Използване само на 14-те стандартни шрифта на Adobe: всички шрифтове на отчета се заменят с тях.</StandardPdfFonts>
+    <SubjectNameString>Сертификатът за подписване: пълното име на притежателя му или част от него.</SubjectNameString>
     <Thumbnails>Показване на ескизите на страниците.</Thumbnails>
-    <TiffCompressionScheme>Схемата на компресия за TIFF файлове.</TiffCompressionScheme>
+    <TiffCompressionScheme>Компресията на файла TIFF.</TiffCompressionScheme>
     <ToolEditor>Редакция на редактируемите компоненти.</ToolEditor>
     <ToolSignature>Подписване на отбелязаните места.</ToolSignature>
-    <TypeExport>Файла в който отчетът ще бъде кнвертиран.</TypeExport>
+    <TypeExport>Типът на файла, в който се превръща отчетът.</TypeExport>
     <UnsafeCompilation1>Този документ използва процеса на компилация. В някои случаи това може да не е безопасно. Следователно документът ще бъде зареден в безопасен режим, за да се сведат до минимум всички потенциални рискове.</UnsafeCompilation1>
     <UnsafeCompilation2>Ако искате този документ да се използва в оригиналната му форма, моля, свържете се с вашите разработчици.</UnsafeCompilation2>
     <UnsafeCompilationTitle>Документът ще се отвори в безопасен режим</UnsafeCompilationTitle>
-    <UseDefaultSystemEncoding>Използване на системната кодировка по подразбиране или задайте стандартна кодировка.</UseDefaultSystemEncoding>
-    <UseOnePageHeaderAndFooter>Дефиниране на секциите заглавие и край на страницата като заглавие и край в MS Word документа</UseOnePageHeaderAndFooter>
-    <UsePageHeadersAndFooters>Дефиниране на секциите заглавие и край на страницата като заглавие и край в документа на MS Word.</UsePageHeadersAndFooters>
+    <UseDefaultSystemEncoding>Използване на кодировката на системата. Изключете го, за да изберете друга.</UseDefaultSystemEncoding>
+    <UseOnePageHeaderAndFooter>Запазване във файла Excel само на едно заглавие на страница и един край на страница, без повтаряне на всяка страница.</UseOnePageHeaderAndFooter>
+    <UsePageHeadersAndFooters>Превръщане на секциите Заглавие на страница и Край на страница в горен и долен колонтитул на документа.</UsePageHeadersAndFooters>
     <UserPassword>Паролата за отваряне на документ.</UserPassword>
-    <UseUnicode>Разширена поддръжка за кодиране (encoding) на символи. Тя засяга вътрешното кодиране в PDF файл, и подобрява копирането на текст от PDF файл.</UseUnicode>
+    <UseUnicode>Съхраняване на символите в Unicode във файла PDF, за да се копира текстът правилно.</UseUnicode>
     <ViewModeContinuous>Показване на всички страници като лента.</ViewModeContinuous>
     <ViewModeMultiplePages>Показване на няколко страници.</ViewModeMultiplePages>
     <ViewModeSinglePage>Показване на една страница.</ViewModeSinglePage>
@@ -2452,7 +2455,7 @@
     <ZoomOnePage>Побиране на една страница.</ZoomOnePage>
     <ZoomPageWidth>Побиране по ширината на страницата.</ZoomPageWidth>
     <ZoomTwoPages>Побиране на две страници.</ZoomTwoPages>
-    <ZoomTxt>Размера на отчета (скалата): X - променя се хоризонталната скала, Y - промяна на вертикалната скала.</ZoomTxt>
+    <ZoomTxt>Мащабът на текста на отчета: X по хоризонтала, Y по вертикала.</ZoomTxt>
   </HelpViewer>
   <Interface>
     <Mouse>Мишка</Mouse>

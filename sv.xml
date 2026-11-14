@@ -1188,14 +1188,14 @@
     <TiffCompressionScheme>TIFF kompressionsformat:</TiffCompressionScheme>
     <title>Exportera inställningar</title>
     <TxtBorderType>Ramtyp</TxtBorderType>
-    <TxtBorderTypeDouble>Unicode-dubbel</TxtBorderTypeDouble>
+    <TxtBorderTypeDouble>Dubbel</TxtBorderTypeDouble>
     <TxtBorderTypeSimple>Enkel</TxtBorderTypeSimple>
-    <TxtBorderTypeSingle>Unicode-enkel</TxtBorderTypeSingle>
+    <TxtBorderTypeSingle>En linje</TxtBorderTypeSingle>
     <TxtCutLongLines>Beskär långa rader</TxtCutLongLines>
     <TxtDrawBorder>Rita ram</TxtDrawBorder>
-    <TxtKillSpaceGraphLines>Ta bort radmellanrum i graf</TxtKillSpaceGraphLines>
-    <TxtKillSpaceLines>Ta bort radmellanrum</TxtKillSpaceLines>
-    <TxtPutFeedPageCode>Lägg till sidmatningskod</TxtPutFeedPageCode>
+    <TxtKillSpaceGraphLines>Ta bort rader med bara kantlinjer</TxtKillSpaceGraphLines>
+    <TxtKillSpaceLines>Ta bort tomma rader</TxtKillSpaceLines>
+    <TxtPutFeedPageCode>Sidmatning efter varje sida</TxtPutFeedPageCode>
     <Type>Typ:</Type>
     <UseDefaultSystemEncoding>Använd systemets standardkodning</UseDefaultSystemEncoding>
     <UseDigitalSignature>Använd digital signatur</UseDigitalSignature>
@@ -2343,62 +2343,65 @@
     <StiTreeViewControl>Visar hierarkiska data som ett träd.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
-    <AddPageBreaks>Visuell separator för rapportsidor.</AddPageBreaks>
-    <AllowAddOrModifyTextAnnotations>Begränsad behörighet till att arbeta med noteringar i dokumentet.</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Begränsad behörighet att kopiera information.</AllowCopyTextAndGraphics>
-    <AllowEditable>Tillåter endast komponenter att ändras</AllowEditable>
-    <AllowModifyContents>Begränsad behörighet att redigera text.</AllowModifyContents>
-    <AllowPrintDocument>Begränsad behörighet att skriva ut.</AllowPrintDocument>
+    <AddPageBreaks>Visa en avgränsare mellan rapportsidorna.</AddPageBreaks>
+    <AllowAddOrModifyTextAnnotations>Tillåt att anteckningar läggs till och ändras.</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Tillåt kopiering av dokumentets text och grafik.</AllowCopyTextAndGraphics>
+    <AllowEditable>Tillåt ändring av komponenter som har egenskapen Redigerbar påslagen.</AllowEditable>
+    <AllowModifyContents>Tillåt ändring av dokumentets text.</AllowModifyContents>
+    <AllowPrintDocument>Tillåt utskrift av dokumentet.</AllowPrintDocument>
     <Bookmarks>Visa bokmärken.</Bookmarks>
-    <BorderType>Kanttyp på komponenter: enkel - rita kanter på komponenter med +, -, |; Unicode enkel - rita kanter på komponenter med rittecken, Unicode dubbel - rita kanter på komponenter med dubbla rittecken.</BorderType>
+    <BorderType>Tecknen för komponenternas kanter: Enkel ritar dem med +, - och |, En linje och Dubbel med enkla eller dubbla ramlinjer.</BorderType>
     <Close>Stäng förhandsvisningen.</Close>
     <CloseDotMatrix>Stäng Dot Matrix Viewer och återgå till att redigera rapport.</CloseDotMatrix>
-    <Compressed>Komprimering av det färdiga dokumentet. Det är rekommenderat att alltid använda filkomprimering.</Compressed>
-    <CompressToArchive>Komprimera alla filer och mappar i ziparkivet.</CompressToArchive>
-    <ContinuousPages>Mode för placering av rapportsidor längs vertikalt område.</ContinuousPages>
-    <CurrentPage>Behandlar aktuell sida. Välj detta för att behandla vald rapportsida.</CurrentPage>
-    <CutEdges>Justera ramen på rapportsida.</CutEdges>
-    <CutLongLines>Justera långa linjer (textrader) utiofrån kanterna på komponenterna.</CutLongLines>
+    <Compressed>Komprimera dokumentet. Låt alternativet vara på för en mindre fil.</Compressed>
+    <CompressToArchive>Packa alla filer och mappar i ett zip-arkiv.</CompressToArchive>
+    <ContinuousPages>Placera rapportsidorna under varandra i en enda sammanhängande remsa.</ContinuousPages>
+    <CurrentPage>Endast den aktuella sidan i rapporten.</CurrentPage>
+    <CutEdges>Beskär kanterna på rapportsidorna.</CutEdges>
+    <CutLongLines>Klipp av text som inte får plats i sin komponent i stället för att radbryta den.</CutLongLines>
     <DashboardContains1>Tyvärr, men den här rapporten innehåller en dashboard.</DashboardContains1>
     <DashboardContains2>Du bör öppna denna rapport direkt i designern!</DashboardContains2>
     <DashboardContains3>Du kan inte göra det från rapportvisaren!</DashboardContains3>
-    <DigitalSignature>Digitala signaturen på filen.</DigitalSignature>
-    <DitheringType>Gittertyp: Ingen - inget gitter, Sorterad, FloydSt - med gitter.</DitheringType>
+    <DigitalSignature>Signera dokumentet med en digital signatur.</DigitalSignature>
+    <DitheringType>Ditheringen av svartvita bilder: None, Ordered eller Floyd-Steinberg.</DitheringType>
     <DotMatrixMode>Visa i Dot-Matrix läge.</DotMatrixMode>
-    <DrawBorder>Rita kanterna på komponenten med grafiska tecken.</DrawBorder>
+    <DotMatrixSettings>Visa eller dölj inställningarna.</DotMatrixSettings>
+    <DrawBorder>Rita komponenternas kanter med ramtecken.</DrawBorder>
     <Edit>Redigera komponent.</Edit>
     <EmbeddedFonts>Inkludera typsnittsinformation i PDF-filen.</EmbeddedFonts>
     <EmbeddedFontsHtml>Bädda in typsnittsfilerna i HTML-filen: inga, endast anpassade eller alla typsnitt som används i rapporten.</EmbeddedFontsHtml>
     <EmbeddedFontsOffice>Bädda in typsnittsfilerna i den exporterade filen.</EmbeddedFontsOffice>
-    <EmbeddedImageData>Inkludera bilder direkt i HTML-filen.</EmbeddedImageData>
-    <Encoding>Koda rapporttexten efter export.</Encoding>
-    <EncodingData>Koda datafilen.</EncodingData>
-    <EncryptionKeyLength>Längd på krypteringsnyckel. Ju längre nyckeln är, destu svårare att dekryptera dokumentet. Det ger högre dokumentsäkerhet.</EncryptionKeyLength>
-    <ExportDataOnly>Exportera endast databand (tabellkomponent, hierarkiskt band).</ExportDataOnly>
-    <ExportEachPageToSheet>Exportera varje rapportsida som ett separat Excelark.</ExportEachPageToSheet>
-    <ExportMode>Applicera filtervillkor under export. Endast data - endast databand (tabellkomponent, hierarkiskt band) kommer att exporteras. Data och huvud/fot - databand (tabellkomponent, hierarkiskt band) och deras huvud/fötter kommer att exporteras. Alla band - Alla rapportband kommer att exporteras.</ExportMode>
-    <ExportModeHtml>Processen för att markera HTML-sida.</ExportModeHtml>
-    <ExportModeRtf>Presentation av rapportdata efter export. Tabellen - rapporten kommer att se ut som en tabell där varje komponent är en tabellcell. Ram - varje komponent kommer att se ut som en ram, men utankoppling mellan dem.</ExportModeRtf>
-    <ExportObjectFormatting>Applicera formattering på exporterat data från databand (tabellkomponent, hierarkiskt band).</ExportObjectFormatting>
+    <EmbeddedImageData>Bädda in bilderna direkt i HTML-filen.</EmbeddedImageData>
+    <Encoding>Kodningen av den exporterade texten.</Encoding>
+    <EncodingData>Kodningen av datafilen.</EncodingData>
+    <EncryptionKeyLength>Krypteringsnyckelns längd: ju längre nyckel, desto svårare är det att dekryptera dokumentet.</EncryptionKeyLength>
+    <ExportDataOnly>Exportera endast databanden: tabellkomponenten och det hierarkiska bandet.</ExportDataOnly>
+    <ExportEachPageToSheet>Exportera varje rapportsida till ett eget Excel-blad.</ExportEachPageToSheet>
+    <ExportMode>Banden som hamnar i filen: Endast data tar med databanden (tabellkomponenten, det hierarkiska bandet), Data och Sidhuvud/Fot lägger till deras huvuden och fötter, Alla band tar med alla band.</ExportMode>
+    <ExportModeHtml>Uppmärkningen av HTML-sidan.</ExportModeHtml>
+    <ExportModeRtf>Rapportens layout efter exporten: Tabell placerar varje komponent i en tabellcell, Ram placerar varje komponent i en egen ram, utan koppling mellan dem.</ExportModeRtf>
+    <ExportObjectFormatting>Behåll formateringen av data från databanden (tabellkomponenten, det hierarkiska bandet).</ExportObjectFormatting>
     <ExportPageBreaks>Visa ram på rapportsidor i Excelarket.</ExportPageBreaks>
-    <ExportRtfTextAsImage>Konvertera RTF-text till bild. Om detta val aktiveras så kommer RichText konverteras till enklare format som stödjs av PDF formatet vid export. RichText med komplex formattering (inbakade bilder,tabeller) kan inte alltid konverteras korrekt. I dessa fall är det rekommenderat att aktivera detta val.</ExportRtfTextAsImage>
+    <ExportRtfTextAsImage>Exportera RTF-texten som en bild. Slå på för formaterad text med bilder eller tabeller, som inte alltid omvandlas korrekt till PDF-text.</ExportRtfTextAsImage>
     <Find>Sök text.</Find>
     <FullScreen>Visa i fullskärm.</FullScreen>
-    <GetCertificateFromCryptoUI>Använd gränssnittet till systemets krypteringsbibliotek.</GetCertificateFromCryptoUI>
-    <ImageCompressionMethod>Kompressionsmetod: JPEG - kan ge kvalitetsförlust, Flat – ingen kvalitetsförlust, Enkel, Ordnad, FloydSt - bilder blir i svart/vitt.</ImageCompressionMethod>
-    <ImageFormat>Bildformatet i färdig fil.</ImageFormat>
-    <ImageQuality>Möjliggör val av kvaliet/storlek på filen. Ju högre kvalitet, destu större fil.</ImageQuality>
-    <ImageQualityPdf>Detta val är endast möjligt för JPEG-komprimeringoch gör att du kan välja kvaliet/storlek på filen. Ju högre kvalitet, destu större fil.</ImageQualityPdf>
-    <ImageResolution>Antal pixel per tum. Högre antal pixel ger bättre bildkvalitet. Storleken på filen blir mycket större.</ImageResolution>
+    <GetCertificateFromCryptoUI>Välj certifikatet i fönstret för systemets kryptografibibliotek.</GetCertificateFromCryptoUI>
+    <ImageCompressionMethod>Komprimeringen av bilderna: JPEG kan försämra kvaliteten, Flate bevarar den, och Simple, Ordered och Floyd-Steinberg gör bilderna svartvita.</ImageCompressionMethod>
+    <ImageFormat>Formatet på bilderna i den exporterade filen.</ImageFormat>
+    <ImageQuality>Balansen mellan bildkvalitet och filstorlek: ju högre kvalitet, desto större fil.</ImageQuality>
+    <ImageQualityPdf>Balansen mellan bildkvalitet och filstorlek vid JPEG-komprimering: ju högre kvalitet, desto större fil.</ImageQualityPdf>
+    <ImageResolution>Antalet pixlar per tum: ju fler pixlar, desto bättre bilder och desto större fil.</ImageResolution>
     <ImageResolutionMode>Hur upplösningen tillämpas på bilder: exakt, endast för att minska större bilder eller inte alls.</ImageResolutionMode>
-    <ImageType>Färgschemat för bilden: färg - bilden kommer efter export att stämma överens med bilden i viewern; gråskala – bilden kommer efter export att vara i gråskala; svart/vit - bilden kommer endast att vara svart/vit. Notera att svart/vit har tre modes Ingen, Ordnad, FloydSt.</ImageType>
-    <KillSpaceLines>Ta bort svarta linjer (rader) i dokumentet.</KillSpaceLines>
-    <MultipleFiles>Varje rapport kan vara en separat fil.</MultipleFiles>
+    <ImageType>Bildens färger: Färg motsvarar bilden i visaren, Gråskala använder gråtoner, Monokrom använder endast svart och vitt i ett av tre ditheringlägen.</ImageType>
+    <KeepProportions>Behåll proportionerna.</KeepProportions>
+    <KillSpaceGraphLines>Ta bort raderna som bara innehåller kantlinjer och mellanslag.</KillSpaceGraphLines>
+    <KillSpaceLines>Ta bort de tomma raderna från dokumentet.</KillSpaceLines>
+    <MultipleFiles>Exportera varje rapportsida till en separat fil.</MultipleFiles>
     <Open>Öppna en rapport.</Open>
-    <OpenAfterExport>Öppna skapat dokument automatiskt (efter export) med hjälp av standardprogrammet för aktuell filtyp.</OpenAfterExport>
-    <OwnerPassword>Lösenordet för att få behörighet att arbeta med filen.</OwnerPassword>
-    <PageAll>Behandla alla rapportsidor.</PageAll>
-    <PageBands>Vilka sidhuvuden och sidfötter som tas med i dokumentet: inga, det första sidhuvudet och den sista sidfoten, eller alla.</PageBands>
+    <OpenAfterExport>Öppna den exporterade filen i programmet som är kopplat till filtypen.</OpenAfterExport>
+    <OwnerPassword>Lösenordet som krävs för att ändra dokumentets behörigheter.</OwnerPassword>
+    <PageAll>Alla sidor i rapporten.</PageAll>
+    <PageBands>Sidhuvudena och sidfötterna som hamnar i dokumentet: inga, det första sidhuvudet och den sista sidfoten, eller alla.</PageBands>
     <PageDelete>Radera markerad sida.</PageDelete>
     <PageDesign>Redigera sidan i designern.</PageDesign>
     <PageFirst>Gå till första sidan.</PageFirst>
@@ -2409,37 +2412,37 @@
     <PagePrevious>Gå till föregående sida.</PagePrevious>
     <PageSize>Ändra sidinställningarna.</PageSize>
     <Parameters>Visa parametrar.</Parameters>
-    <PdfACompliance>Stöd för standard för långtidsarkivering och lagring av digitala dokument.</PdfACompliance>
-    <PdfUniversalAccessibility>Stöd för standarden för allmänt tillgängliga elektroniska dokument och information.</PdfUniversalAccessibility>
+    <PdfACompliance>Följ PDF/A-standarden för långtidsarkivering av dokument.</PdfACompliance>
+    <PdfUniversalAccessibility>Följ PDF/UA-standarden för dokument som är tillgängliga för alla.</PdfUniversalAccessibility>
     <Print>Skriv ut rapporten.</Print>
-    <PutFeedPageCode>Mata sidor i det färdiga dokumentet med specialtecken.</PutFeedPageCode>
-    <RangePages>Antal sidor att behandla. Du kan definiera om en enskild sida, ett antal sidor (kommatecken som separator), en sekvens av sidor genom att ange startsida och slutsida separerade med ett "-". Exempel: 1,3,5-12.</RangePages>
+    <PutFeedPageCode>Börja varje sida på ett nytt ark med ett sidmatningstecken.</PutFeedPageCode>
+    <RangePages>Sidintervallet: en sida, en lista avgränsad med kommatecken eller ett intervall med bindestreck, till exempel 1,3,5-12.</RangePages>
     <RebuildReport>Bygger rapporten på nytt för den nya sidan, så att data fyller de nya sidorna. Utan detta ändras bara storleken på redan byggda sidor. Inte tillgängligt för ett dokument som öppnats från en fil.</RebuildReport>
-    <RemoveEmptySpaceAtBottom>Minimera tomma utrymmen på botten av sidan.</RemoveEmptySpaceAtBottom>
+    <RemoveEmptySpaceAtBottom>Minska det tomma utrymmet längst ned på sidorna.</RemoveEmptySpaceAtBottom>
     <Resources>Visa resurser.</Resources>
-    <RestrictEditing>Begränsningar för ändringar i ett Worddokument</RestrictEditing>
+    <RestrictEditing>Begränsningarna för ändring av Word-dokumentet.</RestrictEditing>
     <Save>Spara rapporten.</Save>
     <ScaleContent>Ändrar storlek på komponenterna tillsammans med sidan. Utan detta behåller de sin storlek och placering.</ScaleContent>
-    <ScaleHtml>Storleken (skalan) på rapportsidor och komponenter efter export.</ScaleHtml>
-    <ScaleImage>Storleken (skalan) på rapport efter export. Lägre skala ger större antal pixel per tum och tvärt om.</ScaleImage>
+    <ScaleHtml>Skalan på rapportens sidor och element i den exporterade filen.</ScaleHtml>
+    <ScaleImage>Rapportens skala i bilden: ju större skala, desto större bild.</ScaleImage>
     <SendEMail>Skicka rapporten via e-post.</SendEMail>
-    <Separator>Separator mellan data i CSV-fil.</Separator>
-    <SkipColumnHeaders>Aktivera/avaktivera kolumnhuvud.</SkipColumnHeaders>
-    <StandardPdfFonts>14 standard Adobe typsnitt. Om detta val aktiveras så kommer endast 14 standardtypsnitt att användas i PDF-filen. Alla rapporttypsnitt konverteras till något av dessa 14.</StandardPdfFonts>
-    <SubjectNameString>Certifikatidentifierare. Identifieraren är namnet på certifikatägaren (en hel rad) eller en del av namnet (del av rad).</SubjectNameString>
+    <Separator>Tecknet som avgränsar data i CSV-filen.</Separator>
+    <SkipColumnHeaders>Ta inte med kolumnrubrikerna i filen.</SkipColumnHeaders>
+    <StandardPdfFonts>Använd endast de 14 standardteckensnitten från Adobe: alla teckensnitt i rapporten ersätts med dem.</StandardPdfFonts>
+    <SubjectNameString>Certifikatet att signera med: ägarens fullständiga namn eller en del av det.</SubjectNameString>
     <Thumbnails>Visa sidminiatyrer.</Thumbnails>
-    <TiffCompressionScheme>Kompression för TIFF-fil.</TiffCompressionScheme>
+    <TiffCompressionScheme>Komprimeringen av TIFF-filen.</TiffCompressionScheme>
     <ToolEditor>Redigera de redigerbara komponenterna.</ToolEditor>
     <ToolSignature>Signera på de markerade platserna.</ToolSignature>
-    <TypeExport>Filen som rapporten konverteras till.</TypeExport>
+    <TypeExport>Typen av fil som rapporten omvandlas till.</TypeExport>
     <UnsafeCompilation1>Det här dokumentet använder kompileringsprocessen. I vissa fall kan detta vara osäkert. Därför laddas dokumentet i säkert läge för att minimera eventuella risker.</UnsafeCompilation1>
     <UnsafeCompilation2>Om du behöver att detta dokument används i sin ursprungliga form, kontakta dina utvecklare.</UnsafeCompilation2>
     <UnsafeCompilationTitle>Dokumentet öppnas i felsäkert läge</UnsafeCompilationTitle>
-    <UseDefaultSystemEncoding>Använd systemkodning som standard eller specificera kodning som används som standard.</UseDefaultSystemEncoding>
-    <UseOnePageHeaderAndFooter>Definiera sidbandens huvud och fot som huvud och fot i MS Word dokument.</UseOnePageHeaderAndFooter>
-    <UsePageHeadersAndFooters>Definiera bandens sidhuvud och sidfot som huvud och fot i MS Word.</UsePageHeadersAndFooters>
+    <UseDefaultSystemEncoding>Använd systemets kodning. Stäng av för att välja en annan.</UseDefaultSystemEncoding>
+    <UseOnePageHeaderAndFooter>Behåll endast ett sidhuvud och en sidfot i Excel-filen i stället för att upprepa dem på varje sida.</UseOnePageHeaderAndFooter>
+    <UsePageHeadersAndFooters>Gör banden Sidhuvud och Sidfot till dokumentets sidhuvud och sidfot.</UsePageHeadersAndFooters>
     <UserPassword>Lösenordet som behövs för att öppna dokumentet.</UserPassword>
-    <UseUnicode>Utökat stöd för att kodning av tecken. Det påverkar intern teckenkodning inom PDF-filen och förbättrar möjligheten att kopiera text från PDF-filen.</UseUnicode>
+    <UseUnicode>Lagra tecknen som Unicode i PDF-filen så att texten kopieras korrekt.</UseUnicode>
     <ViewModeContinuous>Visa alla sidor som ett band.</ViewModeContinuous>
     <ViewModeMultiplePages>Visa flera sidor.</ViewModeMultiplePages>
     <ViewModeSinglePage>Visa en enda sida.</ViewModeSinglePage>
@@ -2447,7 +2450,7 @@
     <ZoomOnePage>Anpassa en sida.</ZoomOnePage>
     <ZoomPageWidth>Anpassa sidbredden.</ZoomPageWidth>
     <ZoomTwoPages>Anpassa två sidor.</ZoomTwoPages>
-    <ZoomTxt>Rapportens storlek (skala): X - ändra horisontell skala, Y - ändra vertikal skala.</ZoomTxt>
+    <ZoomTxt>Skalan på rapportens text: X vågrätt, Y lodrätt.</ZoomTxt>
   </HelpViewer>
   <Interface>
     <Mouse>Mus</Mouse>

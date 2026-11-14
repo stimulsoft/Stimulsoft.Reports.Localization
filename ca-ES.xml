@@ -1076,7 +1076,7 @@
   </ExceptionProvider>
   <Export>
     <AddPageBreaks>Afegeix salts de pàgina</AddPageBreaks>
-    <AllBands>Totes les capçaleres</AllBands>
+    <AllBands>Totes les bandes</AllBands>
     <AllowAddOrModifyTextAnnotations>Permet afegir o modificar anotacions de text</AllowAddOrModifyTextAnnotations>
     <AllowCopyTextAndGraphics>Permet copiar textos i gràfics</AllowCopyTextAndGraphics>
     <AllowEditable>Permetre camps editables</AllowEditable>
@@ -1188,14 +1188,14 @@
     <TiffCompressionScheme>Esquema de compressió TIFF:</TiffCompressionScheme>
     <title>Configuració d’exportació</title>
     <TxtBorderType>Tipus de marge</TxtBorderType>
-    <TxtBorderTypeDouble>Unicode-Doble</TxtBorderTypeDouble>
+    <TxtBorderTypeDouble>Línia doble</TxtBorderTypeDouble>
     <TxtBorderTypeSimple>Simple</TxtBorderTypeSimple>
-    <TxtBorderTypeSingle>Unicode-Simple</TxtBorderTypeSingle>
+    <TxtBorderTypeSingle>Línia única</TxtBorderTypeSingle>
     <TxtCutLongLines>Talla les línies llargues</TxtCutLongLines>
     <TxtDrawBorder>Mostra la vora</TxtDrawBorder>
-    <TxtKillSpaceGraphLines>Suprimeix les línies d’espaiat en gràfics</TxtKillSpaceGraphLines>
-    <TxtKillSpaceLines>Elimina espais</TxtKillSpaceLines>
-    <TxtPutFeedPageCode>Col·loca pàgina de codi</TxtPutFeedPageCode>
+    <TxtKillSpaceGraphLines>Elimina les línies només amb vores</TxtKillSpaceGraphLines>
+    <TxtKillSpaceLines>Elimina les línies buides</TxtKillSpaceLines>
+    <TxtPutFeedPageCode>Salt de pàgina després de cada pàgina</TxtPutFeedPageCode>
     <Type>Tipus</Type>
     <UseDefaultSystemEncoding>Utilitza la codificació del sistema per defecte</UseDefaultSystemEncoding>
     <UseDigitalSignature>Utilitza la signatura digital</UseDigitalSignature>
@@ -2343,62 +2343,65 @@
     <StiTreeViewControl>Mostra dades jeràrquiques en forma d’arbre.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
-    <AddPageBreaks>Separador visual de les pàgines de l'informe.</AddPageBreaks>
-    <AllowAddOrModifyTextAnnotations>Accés limitat per treballar amb anotacions al document.</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Accés limitat a la còpia d'informació.</AllowCopyTextAndGraphics>
-    <AllowEditable>Permet canviar components amb la propietat Editable activada.</AllowEditable>
-    <AllowModifyContents>Accés limitat a l'edició de text.</AllowModifyContents>
-    <AllowPrintDocument>Accés limitat a l'operació d'impressió.</AllowPrintDocument>
+    <AddPageBreaks>Mostra un separador entre les pàgines de l'informe.</AddPageBreaks>
+    <AllowAddOrModifyTextAnnotations>Permet afegir i canviar anotacions.</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Permet copiar el text i els gràfics del document.</AllowCopyTextAndGraphics>
+    <AllowEditable>Permet canviar els components que tenen activada la propietat Editable.</AllowEditable>
+    <AllowModifyContents>Permet canviar el text del document.</AllowModifyContents>
+    <AllowPrintDocument>Permet imprimir el document.</AllowPrintDocument>
     <Bookmarks>Mostra els marcadors.</Bookmarks>
-    <BorderType>El tipus de vora dels components: simple - dibuixar les vores dels components amb els caràcters +, -, |; Unicode simple - dibuixar les vores amb caràcters simples de dibuix de caixes, Unicode doble - dibuixar les vores amb caràcters dobles de dibuix de caixes.</BorderType>
+    <BorderType>Els caràcters de les vores dels components: Simple les dibuixa amb +, - i |, Línia única i Línia doble amb línies simples o dobles de dibuix de caixes.</BorderType>
     <Close>Tanca la vista preliminar.</Close>
     <CloseDotMatrix>Tanca el visor matricial i torna a editar l’informe.</CloseDotMatrix>
-    <Compressed>Compressió del document acabat. Es recomana incloure sempre la compressió de fitxers.</Compressed>
-    <CompressToArchive>Empaquetar tots els fitxers i carpetes a l'arxiu zip.</CompressToArchive>
-    <ContinuousPages>El mode de col·locar les pàgines de l'informe com una tira vertical.</ContinuousPages>
-    <CurrentPage>Processament de la pàgina actual. Si se selecciona aquesta opció, es processarà una pàgina seleccionada de l'informe.</CurrentPage>
+    <Compressed>Comprimeix el document. Deixeu-ho activat perquè el fitxer sigui més petit.</Compressed>
+    <CompressToArchive>Empaqueta tots els fitxers i carpetes en un arxiu zip.</CompressToArchive>
+    <ContinuousPages>Col·loca les pàgines de l'informe una sota l'altra en una sola tira contínua.</ContinuousPages>
+    <CurrentPage>Només la pàgina actual de l'informe.</CurrentPage>
     <CutEdges>Retalla les vores de les pàgines de l'informe.</CutEdges>
-    <CutLongLines>Retalla les línies llargues (línies de text) pels límits dels components.</CutLongLines>
+    <CutLongLines>Talla el text que no cap al seu component en lloc d'ajustar-lo.</CutLongLines>
     <DashboardContains1>Ho sentim, però aquest informe conté un tauler.</DashboardContains1>
     <DashboardContains2>Has d'obrir aquest informe directament al dissenyador!</DashboardContains2>
     <DashboardContains3>No pots fer això des del visualitzador d'informes!</DashboardContains3>
-    <DigitalSignature>La signatura digital del fitxer.</DigitalSignature>
-    <DitheringType>Tipus de tramat: Cap - sense tramat, Ordenat, FloydSt. - amb tramat.</DitheringType>
+    <DigitalSignature>Signa el document amb una signatura digital.</DigitalSignature>
+    <DitheringType>L'esfumat de les imatges en blanc i negre: None, Ordered o Floyd-Steinberg.</DitheringType>
     <DotMatrixMode>Visualitza en mode matricial.</DotMatrixMode>
-    <DrawBorder>Mostra la vora</DrawBorder>
+    <DotMatrixSettings>Mostra o amaga la configuració.</DotMatrixSettings>
+    <DrawBorder>Dibuixa les vores dels components amb caràcters de dibuix de caixes.</DrawBorder>
     <Edit>Edita els components.</Edit>
     <EmbeddedFonts>Incrusta els fitxers de tipus de lletra en un fitxer PDF.</EmbeddedFonts>
     <EmbeddedFontsHtml>Incrusta els fitxers de tipus de lletra al fitxer HTML: cap, només els personalitzats o tots els utilitzats a l'informe.</EmbeddedFontsHtml>
     <EmbeddedFontsOffice>Incrusta els fitxers de tipus de lletra al fitxer exportat.</EmbeddedFontsOffice>
     <EmbeddedImageData>Incrusta les imatges directament al fitxer HTML.</EmbeddedImageData>
-    <Encoding>Codificació del text de l'informe després de l'exportació.</Encoding>
-    <EncodingData>Codificació del fitxer de dades.</EncodingData>
-    <EncryptionKeyLength>La longitud de la clau de xifratge. Com més llarga sigui la longitud, més difícil serà desxifrar el document i, en conseqüència, més alta serà la seguretat del document.</EncryptionKeyLength>
-    <ExportDataOnly>Exporta només les bandes de dades (el component Taula, la banda Jeràrquica).</ExportDataOnly>
-    <ExportEachPageToSheet>Exporta cada pàgina de l'informe en un full d'Excel separat.</ExportEachPageToSheet>
-    <ExportMode>Aplicar una condició de filtre en exportar. Només dades: només s'exportaran les bandes de dades (component Taula, Banda jeràrquica). Dades i capçaleres/peus: s'exportaran les bandes de dades (component Taula, Banda jeràrquica) i les seves capçaleres/peus. Totes les bandes: s'exportaran totes les bandes de l'informe.</ExportMode>
-    <ExportModeHtml>La manera del marcatge de la pàgina HTML.</ExportModeHtml>
-    <ExportModeRtf>Presentació de les dades de l'informe després de l'exportació. La Taula: l'informe tindrà l'aspecte d'una taula, on cada component de l'informe és una cel·la de la taula. Marc: cada component tindrà l'aspecte d'un marc individual, però sense cap relació entre ells.</ExportModeRtf>
-    <ExportObjectFormatting>Aplicar format per exportar dades de les bandes de dades (component Taula, Banda jeràrquica).</ExportObjectFormatting>
+    <Encoding>La codificació del text exportat.</Encoding>
+    <EncodingData>La codificació del fitxer de dades.</EncodingData>
+    <EncryptionKeyLength>La longitud de la clau de xifratge: com més llarga és la clau, més difícil és desxifrar el document.</EncryptionKeyLength>
+    <ExportDataOnly>Exporta només les bandes Dades: el component Taula i la banda jeràrquica.</ExportDataOnly>
+    <ExportEachPageToSheet>Exporta cada pàgina de l'informe al seu propi full d'Excel.</ExportEachPageToSheet>
+    <ExportMode>Les bandes que van al fitxer: Només dades agafa les bandes Dades (el component Taula, la banda jeràrquica), Dades i capçaleres/peus hi afegeix les seves capçaleres i peus, Totes les bandes agafa totes les bandes.</ExportMode>
+    <ExportModeHtml>El marcatge de la pàgina HTML.</ExportModeHtml>
+    <ExportModeRtf>La disposició de l'informe després de l'exportació: Taula posa cada component en una cel·la de taula, Marc posa cada component en el seu propi marc, sense relació entre ells.</ExportModeRtf>
+    <ExportObjectFormatting>Conserva el format de les dades de les bandes Dades (el component Taula, la banda jeràrquica).</ExportObjectFormatting>
     <ExportPageBreaks>Mostreu les vores de les pàgines de l'informe al full d'Excel.</ExportPageBreaks>
-    <ExportRtfTextAsImage>Convertir el text RTF en una imatge. Si l'opció està desactivada, en exportar, el RichText es descompon en primitives més simples compatibles amb el format PDF. El RichText amb format complex (imatges incrustades, taules) no sempre es pot convertir correctament. En aquest cas, es recomana activar aquesta opció.</ExportRtfTextAsImage>
+    <ExportRtfTextAsImage>Exporta el text RTF com a imatge. Activeu-ho per al text enriquit amb imatges o taules, que no sempre es converteix correctament en text PDF.</ExportRtfTextAsImage>
     <Find>Cerca text.</Find>
     <FullScreen>Visualitza en pantalla completa.</FullScreen>
-    <GetCertificateFromCryptoUI>S'utilitza la interfície de la biblioteca de criptografia del sistema.</GetCertificateFromCryptoUI>
-    <ImageCompressionMethod>El mètode de compressió: JPEG - això pot causar pèrdua de qualitat, Flate – sense pèrdua de qualitat, Simple, Ordered, FloydSt. - les imatges es generen en monocrom.</ImageCompressionMethod>
-    <ImageFormat>El format d'imatge del fitxer acabat.</ImageFormat>
-    <ImageQuality>Us permet triar la relació entre la qualitat de la imatge i la mida del fitxer. Com més alta sigui la qualitat, més gran serà la mida del fitxer resultant.</ImageQuality>
-    <ImageQualityPdf>L'opció només està disponible en la compressió JPEG i permet seleccionar la proporció de qualitat de la imatge/mida del fitxer. Com més alta sigui la qualitat, més gran serà la mida del fitxer acabat.</ImageQualityPdf>
-    <ImageResolution>El nombre de píxels per polzada. Com més gran sigui el nombre de píxels, millor serà la qualitat de la imatge. La mida del fitxer acabat és molt més gran.</ImageResolution>
+    <GetCertificateFromCryptoUI>Tria el certificat a la finestra de la biblioteca de criptografia del sistema.</GetCertificateFromCryptoUI>
+    <ImageCompressionMethod>La compressió de les imatges: JPEG pot perdre qualitat, Flate la conserva, i Simple, Ordered i Floyd-Steinberg fan les imatges en blanc i negre.</ImageCompressionMethod>
+    <ImageFormat>El format de les imatges al fitxer exportat.</ImageFormat>
+    <ImageQuality>L'equilibri entre la qualitat de les imatges i la mida del fitxer: com més qualitat, més gran és el fitxer.</ImageQuality>
+    <ImageQualityPdf>L'equilibri entre la qualitat de les imatges i la mida del fitxer amb compressió JPEG: com més qualitat, més gran és el fitxer.</ImageQualityPdf>
+    <ImageResolution>Els píxels per polzada: com més píxels, millors són les imatges i més gran és el fitxer.</ImageResolution>
     <ImageResolutionMode>Com s'aplica la resolució a les imatges: exactament, només per reduir les més grans o gens.</ImageResolutionMode>
-    <ImageType>L'esquema de color de la imatge: color - la imatge després d'exportar coincidirà completament amb la imatge del visor; gris – una imatge després d'exportar serà en tons de gris; monocrom - les imatges seran estrictament en blanc i negre. Alhora, cal tenir en compte que el monocrom té tres modes None, Ordered, FloydSt.</ImageType>
-    <KillSpaceLines>Elimina les línies (files) en blanc del document.</KillSpaceLines>
-    <MultipleFiles>Cada pàgina de l'informe pot ser un fitxer separat.</MultipleFiles>
+    <ImageType>Els colors de la imatge: Color coincideix amb el visor, Escala de grisos fa servir tons de gris, Monocromàtic fa servir només el blanc i el negre en un dels tres modes d'esfumat.</ImageType>
+    <KeepProportions>Manté les proporcions.</KeepProportions>
+    <KillSpaceGraphLines>Elimina les línies que només contenen vores i espais.</KillSpaceGraphLines>
+    <KillSpaceLines>Elimina les línies buides del document.</KillSpaceLines>
+    <MultipleFiles>Exporta cada pàgina de l'informe a un fitxer independent.</MultipleFiles>
     <Open>Obre un informe.</Open>
-    <OpenAfterExport>Obertura automàtica del document creat (després de l'exportació) pel programa associat amb aquests tipus de fitxer.</OpenAfterExport>
-    <OwnerPassword>La contrasenya necessària per realitzar operacions amb el fitxer.</OwnerPassword>
-    <PageAll>Processament de totes les pàgines de l'informe.</PageAll>
-    <PageBands>Quines capçaleres i peus de pàgina s'inclouen al document: cap, la primera capçalera i el darrer peu, o tots.</PageBands>
+    <OpenAfterExport>Obre el fitxer exportat amb el programa associat al seu tipus.</OpenAfterExport>
+    <OwnerPassword>La contrasenya necessària per canviar els permisos del document.</OwnerPassword>
+    <PageAll>Totes les pàgines de l'informe.</PageAll>
+    <PageBands>Les capçaleres i peus de pàgina que van al document: cap, la primera capçalera i el darrer peu, o tots.</PageBands>
     <PageDelete>Elimina la pàgina seleccionada.</PageDelete>
     <PageDesign>Edita la pàgina en el dissenyador.</PageDesign>
     <PageFirst>Vés a la primera pàgina.</PageFirst>
@@ -2409,37 +2412,37 @@
     <PagePrevious>Vés a la pàgina anterior.</PagePrevious>
     <PageSize>Canvia la configuració de pàgina.</PageSize>
     <Parameters>Mostra els paràmetres.</Parameters>
-    <PdfACompliance>Suport per a l'estàndard d'arxivament i emmagatzematge a llarg termini de documents electrònics.</PdfACompliance>
-    <PdfUniversalAccessibility>Suport per a l'estàndard de documents i informació electrònics universalment accessibles.</PdfUniversalAccessibility>
+    <PdfACompliance>Compleix l'estàndard PDF/A per a l'arxivament de documents a llarg termini.</PdfACompliance>
+    <PdfUniversalAccessibility>Compleix l'estàndard PDF/UA per a documents accessibles a tothom.</PdfUniversalAccessibility>
     <Print>Imprimeix l’informe.</Print>
-    <PutFeedPageCode>Separeu les pàgines del document final amb un caràcter especial.</PutFeedPageCode>
-    <RangePages>Pàgines:</RangePages>
+    <PutFeedPageCode>Comença cada pàgina en un full nou amb un caràcter de salt de pàgina.</PutFeedPageCode>
+    <RangePages>L'interval de pàgines: una pàgina, una llista separada per comes o un interval amb guionet, per exemple 1,3,5-12.</RangePages>
     <RebuildReport>Torna a generar l'informe per a la pàgina nova, perquè les dades omplin les pàgines noves. Sense aquesta opció, només canvia la mida de les pàgines ja generades. No disponible per a un document obert des d'un fitxer.</RebuildReport>
-    <RemoveEmptySpaceAtBottom>Minimitzar l'espai buit a la part inferior de la pàgina.</RemoveEmptySpaceAtBottom>
+    <RemoveEmptySpaceAtBottom>Redueix l'espai buit a la part inferior de les pàgines.</RemoveEmptySpaceAtBottom>
     <Resources>Mostra els recursos.</Resources>
-    <RestrictEditing>Límits en els canvis en un document de Word.</RestrictEditing>
+    <RestrictEditing>Les restriccions per canviar el document Word.</RestrictEditing>
     <Save>Desa l’informe.</Save>
     <ScaleContent>Canvia la mida dels components amb la pàgina. Sense aquesta opció, conserven la seva mida i posició.</ScaleContent>
-    <ScaleHtml>La mida (escala) de les pàgines i els elements de l'informe després de l'exportació.</ScaleHtml>
-    <ScaleImage>La mida (escala) de l'informe després d'exportar. Com més baixa sigui l'escala, més gran serà el nombre de píxels per polzada, i viceversa.</ScaleImage>
+    <ScaleHtml>L'escala de les pàgines i els elements de l'informe al fitxer exportat.</ScaleHtml>
+    <ScaleImage>L'escala de l'informe a la imatge: com més gran és l'escala, més gran és la imatge.</ScaleImage>
     <SendEMail>Envia l’informe per correu electrònic.</SendEMail>
-    <Separator>Separador entre les dades del fitxer CSV.</Separator>
-    <SkipColumnHeaders>Activa/desactiva les capçaleres de columna.</SkipColumnHeaders>
-    <StandardPdfFonts>14 tipus de lletra estàndard d'Adobe. Si aquesta opció està activada, només s'utilitzaran els 14 tipus de lletra estàndard al fitxer PDF. Tots els tipus de lletra de l'informe s'hi converteixen.</StandardPdfFonts>
-    <SubjectNameString>Identificador del certificat. L'identificador és el nom del propietari del certificat (línia completa) o una part del nom (subcadena).</SubjectNameString>
+    <Separator>El caràcter que separa les dades al fitxer CSV.</Separator>
+    <SkipColumnHeaders>Exclou les capçaleres de columna del fitxer.</SkipColumnHeaders>
+    <StandardPdfFonts>Utilitza només les 14 fonts estàndard d'Adobe: totes les fonts de l'informe se substitueixen per aquestes.</StandardPdfFonts>
+    <SubjectNameString>El certificat per signar: el nom complet del seu titular o una part del nom.</SubjectNameString>
     <Thumbnails>Mostra les miniatures de pàgines.</Thumbnails>
-    <TiffCompressionScheme>Esquema de compressió per a fitxers TIFF.</TiffCompressionScheme>
+    <TiffCompressionScheme>La compressió del fitxer TIFF.</TiffCompressionScheme>
     <ToolEditor>Edita els components editables.</ToolEditor>
     <ToolSignature>Signa als llocs marcats.</ToolSignature>
-    <TypeExport>El fitxer en què es convertirà l'informe.</TypeExport>
+    <TypeExport>El tipus de fitxer en què es converteix l'informe.</TypeExport>
     <UnsafeCompilation1>Aquest document utilitza el procés de compilació. En alguns casos, això pot no ser segur. Per tant, el document es carregarà en mode segur per minimitzar qualsevol risc potencial.</UnsafeCompilation1>
     <UnsafeCompilation2>Si necessiteu que aquest document s'utilitzi en la seva forma original, poseu-vos en contacte amb els vostres desenvolupadors.</UnsafeCompilation2>
     <UnsafeCompilationTitle>El document s'obrirà en mode segur</UnsafeCompilationTitle>
-    <UseDefaultSystemEncoding>Utilitza la codificació del sistema per defecte o especifica la codificació manualment.</UseDefaultSystemEncoding>
-    <UseOnePageHeaderAndFooter>Defineix les bandes de pàgina Capçalera i Peu com a capçalera i peu del document de Microsoft Word.</UseOnePageHeaderAndFooter>
-    <UsePageHeadersAndFooters>Defineix les bandes Capçalera i Peu de pàgina com a capçalera i peu del document a Microsoft Word.</UsePageHeadersAndFooters>
+    <UseDefaultSystemEncoding>Utilitza la codificació del sistema. Desactiveu-ho per triar-ne una altra.</UseDefaultSystemEncoding>
+    <UseOnePageHeaderAndFooter>Manté al fitxer Excel només una capçalera i un peu de pàgina, en lloc de repetir-los a cada pàgina.</UseOnePageHeaderAndFooter>
+    <UsePageHeadersAndFooters>Converteix les bandes Capçalera de pàgina i Peu de pàgina en la capçalera i el peu del document.</UsePageHeadersAndFooters>
     <UserPassword>La contrasenya necessària per obrir el document.</UserPassword>
-    <UseUnicode>Suport ampliat per a la codificació de caràcters. Afecta la codificació interna de caràcters dins del fitxer PDF i millora la còpia del text des del fitxer PDF.</UseUnicode>
+    <UseUnicode>Desa els caràcters en Unicode dins del fitxer PDF, perquè el text es copiï correctament.</UseUnicode>
     <ViewModeContinuous>Mostra totes les pàgines en una cinta.</ViewModeContinuous>
     <ViewModeMultiplePages>Mostra diverses pàgines.</ViewModeMultiplePages>
     <ViewModeSinglePage>Mostra una sola pàgina.</ViewModeSinglePage>
@@ -2447,7 +2450,7 @@
     <ZoomOnePage>Ajusta una pàgina.</ZoomOnePage>
     <ZoomPageWidth>Ajusta l’amplada de la pàgina.</ZoomPageWidth>
     <ZoomTwoPages>Ajusta dues pàgines.</ZoomTwoPages>
-    <ZoomTxt>La mida de l'informe (escala): X - canvia l'escala horitzontal, Y - canvia l'escala vertical.</ZoomTxt>
+    <ZoomTxt>L'escala del text de l'informe: X en horitzontal, Y en vertical.</ZoomTxt>
   </HelpViewer>
   <Interface>
     <Mouse>Ratolí</Mouse>

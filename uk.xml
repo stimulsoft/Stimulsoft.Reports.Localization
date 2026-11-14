@@ -1189,14 +1189,14 @@
     <TiffCompressionScheme>Схема компресії TIFF:</TiffCompressionScheme>
     <title>Параметри експорту</title>
     <TxtBorderType>Тип границі</TxtBorderType>
-    <TxtBorderTypeDouble>Unіcode подвійна</TxtBorderTypeDouble>
+    <TxtBorderTypeDouble>Подвійна</TxtBorderTypeDouble>
     <TxtBorderTypeSimple>Проста</TxtBorderTypeSimple>
-    <TxtBorderTypeSingle>Unіcode одинарна</TxtBorderTypeSingle>
+    <TxtBorderTypeSingle>Одинарна</TxtBorderTypeSingle>
     <TxtCutLongLines>Обрізати довгі лінії</TxtCutLongLines>
     <TxtDrawBorder>Малювати границю</TxtDrawBorder>
-    <TxtKillSpaceGraphLines>Видаляти порожні графічні лінії</TxtKillSpaceGraphLines>
-    <TxtKillSpaceLines>Видаляти порожні лінії</TxtKillSpaceLines>
-    <TxtPutFeedPageCode>Позначати кінець сторінки</TxtPutFeedPageCode>
+    <TxtKillSpaceGraphLines>Видаляти рядки лише з межами</TxtKillSpaceGraphLines>
+    <TxtKillSpaceLines>Видаляти порожні рядки</TxtKillSpaceLines>
+    <TxtPutFeedPageCode>Прогін аркуша після кожної сторінки</TxtPutFeedPageCode>
     <Type>Тип:</Type>
     <UseDefaultSystemEncoding>Використовувати кодування за замовчуванням</UseDefaultSystemEncoding>
     <UseDigitalSignature>Використовувати цифровий підпис</UseDigitalSignature>
@@ -2344,62 +2344,65 @@
     <StiTreeViewControl>Показує ієрархічні дані у вигляді дерева.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
-    <AddPageBreaks>Додати роздільники сторінок.</AddPageBreaks>
-    <AllowAddOrModifyTextAnnotations>Дозволити додавати або змінювати примітки.</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Дозволити копіювати текст і графіку.</AllowCopyTextAndGraphics>
-    <AllowEditable>Дозволяє змінювати тільки компоненти з увімкненою властивістю "Редагований".</AllowEditable>
-    <AllowModifyContents>Дозволити редагування документа.</AllowModifyContents>
+    <AddPageBreaks>Показати роздільник між сторінками звіту.</AddPageBreaks>
+    <AllowAddOrModifyTextAnnotations>Дозволити додавання та зміну приміток.</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Дозволити копіювання тексту й графіки документа.</AllowCopyTextAndGraphics>
+    <AllowEditable>Дозволити зміну компонентів, у яких увімкнено властивість Редагований.</AllowEditable>
+    <AllowModifyContents>Дозволити зміну тексту документа.</AllowModifyContents>
     <AllowPrintDocument>Дозволити друк документа.</AllowPrintDocument>
     <Bookmarks>Показати закладки.</Bookmarks>
-    <BorderType>Тип границі компонентів: проста - формування границь компонентів символами +, -, |. Unicode одинарна - формування границь компонентів одинарними символами псевдографіки, Unicode подвійна - формування границь компонентів подвійними символами псевдографіки.</BorderType>
+    <BorderType>Символи границь компонентів: Проста малює їх знаками +, - і |, Одинарна та Подвійна малюють одинарними або подвійними лініями псевдографіки.</BorderType>
     <Close>Закрити попередній перегляд.</Close>
     <CloseDotMatrix>Закрити попередній перегляд для матричних принтерів.</CloseDotMatrix>
-    <Compressed>Стиснення кінцевого документа. Рекомендується завжди вмикати стиснення файлу.</Compressed>
-    <CompressToArchive>Упакувати всі файли і папки в ZIP архів.</CompressToArchive>
-    <ContinuousPages>Режим розташування сторінок звіту у вигляді вертикальної стрічки.</ContinuousPages>
-    <CurrentPage>Обробка поточної сторінки, тобто якщо обрано цей параметр, то оброблятися буде виділена сторінка звіту.</CurrentPage>
-    <CutEdges>Обрізати границі сторінок звіту.</CutEdges>
-    <CutLongLines>Обрізати довгі лінії (рядки тексту) по границях компонента.</CutLongLines>
+    <Compressed>Стиснути документ. Залиште ввімкненим, щоб файл був меншим.</Compressed>
+    <CompressToArchive>Упакувати всі файли й папки в zip-архів.</CompressToArchive>
+    <ContinuousPages>Розташувати сторінки звіту одна під одною суцільною стрічкою.</ContinuousPages>
+    <CurrentPage>Тільки поточна сторінка звіту.</CurrentPage>
+    <CutEdges>Обрізати краї сторінок звіту.</CutEdges>
+    <CutLongLines>Обрізати текст, який не вміщується у свій компонент, замість перенесення.</CutLongLines>
     <DashboardContains1>На жаль, цей звіт містить дашборд.</DashboardContains1>
     <DashboardContains2>Цей звіт слід відкрити безпосередньо в дизайнері!</DashboardContains2>
     <DashboardContains3>Ви не можете зробити це з переглядача звітів!</DashboardContains3>
-    <DigitalSignature>Цифровий підпис файлу.</DigitalSignature>
-    <DitheringType>Тип монохромного змішування: Ні - без дезірінга, Ordered, FloydSt - з дезірінгом.</DitheringType>
+    <DigitalSignature>Підписати документ цифровим підписом.</DigitalSignature>
+    <DitheringType>Змішування чорно-білих зображень: None, Ordered або Floyd-Steinberg.</DitheringType>
     <DotMatrixMode>Показати матричним методом.</DotMatrixMode>
-    <DrawBorder>Формування границь компонентів символами графіки.</DrawBorder>
+    <DotMatrixSettings>Показати або приховати налаштування.</DotMatrixSettings>
+    <DrawBorder>Малювати границі компонентів символами псевдографіки.</DrawBorder>
     <Edit>Редагувати елементи звіту.</Edit>
     <EmbeddedFonts>Вбудувати файли шрифтів у файл PDF.</EmbeddedFonts>
     <EmbeddedFontsHtml>Вбудувати файли шрифтів у файл HTML: жодних, лише власні або всі шрифти, використані у звіті.</EmbeddedFontsHtml>
     <EmbeddedFontsOffice>Вбудувати файли шрифтів в експортований файл.</EmbeddedFontsOffice>
-    <EmbeddedImageData>Вбудувати зображення безпосередньо в HTML файл.</EmbeddedImageData>
-    <Encoding>Кодування тексту звіту після експорту.</Encoding>
+    <EmbeddedImageData>Вбудувати зображення безпосередньо у файл HTML.</EmbeddedImageData>
+    <Encoding>Кодування експортованого тексту.</Encoding>
     <EncodingData>Кодування файлу даних.</EncodingData>
-    <EncryptionKeyLength>Довжина ключа шифрування для документа. Чим більше довжина, тим складніше розшифрувати документ, і відповідно безпека документа вище.</EncryptionKeyLength>
-    <ExportDataOnly>Експорт тільки бендів Дані (компонент Таблиця, бенд Дерево).</ExportDataOnly>
-    <ExportEachPageToSheet>Експортувати кожну сторінку звіту на окремий лист в Excel.</ExportEachPageToSheet>
-    <ExportMode>Застосувати умову фільтрації при експорті. Тільки дані - експортуватимуться тільки бенди Дані (компонент Таблиця, бенд Дерево), Дані та Заголовки/Підсумки - експортуватимуться бенди Дані (компонент Таблиця, бенд Дерево) та їх заголовки/підсумки, за наявності, Всі бенди - експортуватимуться всі бенди звіту.</ExportMode>
-    <ExportModeHtml>Cпособ розмітки HTML сторінки.</ExportModeHtml>
-    <ExportModeRtf>Представлення даних звіту після експорту. Таблиця - звіт буде представлено у вигляді таблиці, де кожен компонент звіту - клітинка в таблиці. Рамка - кожен компонент буде являти собою окрему рамку, але взаємозв'язків між ними не буде.</ExportModeRtf>
-    <ExportObjectFormatting>Застосовувати форматування до експорту з бендів Дані (компонент Таблиця, бенд Дерево).</ExportObjectFormatting>
+    <EncryptionKeyLength>Довжина ключа шифрування: що довший ключ, то складніше розшифрувати документ.</EncryptionKeyLength>
+    <ExportDataOnly>Експортувати тільки бенди Дані: компонент Таблиця та Ієрархічний бенд.</ExportDataOnly>
+    <ExportEachPageToSheet>Експортувати кожну сторінку звіту на окремий аркуш Excel.</ExportEachPageToSheet>
+    <ExportMode>Бенди, які потраплять у файл: Тільки дані бере бенди Дані (компонент Таблиця, Ієрархічний бенд), Дані та Заголовки/Підсумки додає їхні заголовки й підсумки, Всі бенди бере всі бенди звіту.</ExportMode>
+    <ExportModeHtml>Розмітка сторінки HTML.</ExportModeHtml>
+    <ExportModeRtf>Вигляд звіту після експорту: у режимі Таблиця кожен компонент стає клітинкою таблиці, у режимі Рамка кожен компонент стоїть у власній рамці, без зв'язку з іншими.</ExportModeRtf>
+    <ExportObjectFormatting>Зберегти форматування даних із бендів Дані (компонент Таблиця, Ієрархічний бенд).</ExportObjectFormatting>
     <ExportPageBreaks>Відобразити границі сторінок звіту на сторінці в Excel.</ExportPageBreaks>
-    <ExportRtfTextAsImage>Конвертація Rtf тексту в картинку при експорті. Якщо параметр вимкнено, то форматований текст при експорті розкладається на більш прості примітиви, підтримувані форматом PDF. Форматований текст зі складним форматуванням (вкладені зображення, таблиці) не завжди може бути перетворений коректно. У цьому випадку рекомендується увімкнути цей параметр.</ExportRtfTextAsImage>
+    <ExportRtfTextAsImage>Експортувати текст RTF як зображення. Увімкніть для тексту з картинками чи таблицями: він не завжди правильно перетворюється на текст PDF.</ExportRtfTextAsImage>
     <Find>Знайти текст.</Find>
     <FullScreen>Показати на весь екран.</FullScreen>
-    <GetCertificateFromCryptoUI>Використання інтерфейсу системної бібліотеки криптографії.</GetCertificateFromCryptoUI>
-    <ImageCompressionMethod>Метод стиснення: JPEG - це стиснення з втратами, Flate - стиснення без втрат, Simple, Ordered, FloydSt. - зображення в монохромному режимі.</ImageCompressionMethod>
-    <ImageFormat>Формат зображень в кінцевому файлі.</ImageFormat>
-    <ImageQuality>Дозволяє вибрати співвідношення якість зображення/розмір файлу. Чим вища якість, тим більше розмір вихідного файлу.</ImageQuality>
-    <ImageQualityPdf>Параметр доступний тільки при стисканні JPEG і дозволяє вибрати співвідношення якість зображення/розмір файлу. Чим вища якість, тим більший розмір вихідного файлу.</ImageQualityPdf>
-    <ImageResolution>Кількість пікселів на дюйм зображення. Чим більша дана кількість пікселів, тим вище чіткість зображення і легкість сприйняття, але й розмір вихідного файлу набагато більший.</ImageResolution>
+    <GetCertificateFromCryptoUI>Вибрати сертифікат у вікні системної бібліотеки криптографії.</GetCertificateFromCryptoUI>
+    <ImageCompressionMethod>Стиснення зображень: JPEG може втрачати якість, Flate її зберігає, а Simple, Ordered і Floyd-Steinberg роблять зображення чорно-білими.</ImageCompressionMethod>
+    <ImageFormat>Формат зображень в експортованому файлі.</ImageFormat>
+    <ImageQuality>Баланс якості зображень і розміру файлу: що вища якість, то більший файл.</ImageQuality>
+    <ImageQualityPdf>Баланс якості зображень і розміру файлу при стисненні JPEG: що вища якість, то більший файл.</ImageQualityPdf>
+    <ImageResolution>Кількість пікселів на дюйм: що більше пікселів, то кращі зображення й більший файл.</ImageResolution>
     <ImageResolutionMode>Як роздільна здатність застосовується до зображень: точно, лише для зменшення більших або не застосовується зовсім.</ImageResolutionMode>
-    <ImageType>Колірна схема зображення: колір - зображення після експорту буде повністю відповідати зображенню у формі перегляду; сірий - зображення після експорту буде сірого відтінку; монохромний - зображення буде суто чорно-біле. При цьому слід враховувати, що монохромні зображення мають три режими: None, Ordered, FloydSt.</ImageType>
-    <KillSpaceLines>Видалити порожні лінії (рядки) в документі.</KillSpaceLines>
-    <MultipleFiles>Кожна сторінка звіту окремим файлом.</MultipleFiles>
+    <ImageType>Кольори зображення: Колір збігається з вікном перегляду, Сірий використовує відтінки сірого, Монохромний лише чорний і білий в одному з трьох режимів змішування.</ImageType>
+    <KeepProportions>Зберігати пропорції.</KeepProportions>
+    <KillSpaceGraphLines>Видалити рядки, у яких лише межі та пробіли.</KillSpaceGraphLines>
+    <KillSpaceLines>Видалити порожні рядки з документа.</KillSpaceLines>
+    <MultipleFiles>Експортувати кожну сторінку звіту в окремий файл.</MultipleFiles>
     <Open>Відкрити звіт.</Open>
-    <OpenAfterExport>Автоматичне відкриття створеного документа (після завершення експорту) програмою, встановленою за замовчуванням для цих типів файлів.</OpenAfterExport>
-    <OwnerPassword>Пароль доступу до операцій з файлом.</OwnerPassword>
-    <PageAll>Обробка всіх сторінок звіту.</PageAll>
-    <PageBands>Які колонтитули сторінок потраплять до документа: жодних, перший заголовок і останній підсумок або всі.</PageBands>
+    <OpenAfterExport>Відкрити експортований файл у програмі, призначеній для його типу.</OpenAfterExport>
+    <OwnerPassword>Пароль, потрібний для зміни прав документа.</OwnerPassword>
+    <PageAll>Усі сторінки звіту.</PageAll>
+    <PageBands>Колонтитули сторінок, які потраплять у документ: жодних, перший заголовок і останній підсумок або всі.</PageBands>
     <PageDelete>Видалити вибрану сторінку.</PageDelete>
     <PageDesign>Змінити сторінку в дизайнері.</PageDesign>
     <PageFirst>Перейти на першу сторінку.</PageFirst>
@@ -2410,37 +2413,37 @@
     <PagePrevious>Перейти на попередню сторінку.</PagePrevious>
     <PageSize>Змінити параметри сторінки.</PageSize>
     <Parameters>Показати параметри.</Parameters>
-    <PdfACompliance>Підтримка стандарту довгострокового архівного зберігання електронних документів.</PdfACompliance>
-    <PdfUniversalAccessibility>Підтримка стандарту загальнодоступних електронних документів та інформації.</PdfUniversalAccessibility>
+    <PdfACompliance>Дотримуватися стандарту PDF/A для довгострокового архівного зберігання документів.</PdfACompliance>
+    <PdfUniversalAccessibility>Дотримуватися стандарту PDF/UA для документів, доступних усім.</PdfUniversalAccessibility>
     <Print>Надрукувати звіт.</Print>
-    <PutFeedPageCode>Розділяти сторінки в кінцевому документі за допомогою спеціального символу.</PutFeedPageCode>
-    <RangePages>Номери сторінок, які необхідно обробити. Вказати можна одну сторінку, список сторінок (використовуючи коми як роздільник), а також, вказати діапазон, задавши початкову сторінку діапазону, роздільник "-" і кінцеву сторінку діапазону. Для прикладу: 1,3,5-12.</RangePages>
+    <PutFeedPageCode>Починати кожну сторінку з нового аркуша символом прогону сторінки.</PutFeedPageCode>
+    <RangePages>Діапазон сторінок: одна сторінка, список через кому або діапазон через дефіс, наприклад 1,3,5-12.</RangePages>
     <RebuildReport>Побудувати звіт заново для нової сторінки, щоб дані заповнили нові сторінки. Без цього змінюється лише розмір уже побудованих сторінок. Недоступно для документа, відкритого з файлу.</RebuildReport>
-    <RemoveEmptySpaceAtBottom>Мінімізувати порожнє місце внизу сторінки.</RemoveEmptySpaceAtBottom>
+    <RemoveEmptySpaceAtBottom>Зменшити порожнє місце внизу сторінок.</RemoveEmptySpaceAtBottom>
     <Resources>Показати ресурси.</Resources>
-    <RestrictEditing>Обмежити редагування в документі Word.</RestrictEditing>
+    <RestrictEditing>Обмеження на зміну документа Word.</RestrictEditing>
     <Save>Зберегти звіт.</Save>
     <ScaleContent>Змінити розмір компонентів разом зі сторінкою. Без цього вони зберігають свій розмір і місце.</ScaleContent>
-    <ScaleHtml>Розмір (масштаб) сторінок звіту та елементів звіту після експорту.</ScaleHtml>
-    <ScaleImage>Розмір (масштаб) звіту після експорту. Чим менше масштаб, тим більше кількість пікселів на дюйм і навпаки.</ScaleImage>
+    <ScaleHtml>Масштаб сторінок і елементів звіту в експортованому файлі.</ScaleHtml>
+    <ScaleImage>Масштаб звіту на зображенні: що більший масштаб, то більше зображення.</ScaleImage>
     <SendEMail>Надіслати звіт по Email.</SendEMail>
-    <Separator>Символ-роздільник даних у файлі CSV.</Separator>
-    <SkipColumnHeaders>Увімкнути/вимкнути заголовки колонок.</SkipColumnHeaders>
-    <StandardPdfFonts>14 стандартних шрифтів Adobe. Якщо цей параметр увімкнено, то в PDF файлі після експорту будуть використані тільки стандартні 14 шрифтів, і всі шрифти звіту будуть перетворені в них.</StandardPdfFonts>
-    <SubjectNameString>Ідентифікатор сертифіката. Ідентифікатор - це ім'я власника сертифіката (повний рядок) або частина імені (частина рядка).</SubjectNameString>
+    <Separator>Символ, який розділяє дані у файлі CSV.</Separator>
+    <SkipColumnHeaders>Не включати заголовки колонок у файл.</SkipColumnHeaders>
+    <StandardPdfFonts>Використовувати лише 14 стандартних шрифтів Adobe: усі шрифти звіту замінюються ними.</StandardPdfFonts>
+    <SubjectNameString>Сертифікат для підпису: повне ім'я його власника або частина імені.</SubjectNameString>
     <Thumbnails>Показати ескізи сторінок.</Thumbnails>
-    <TiffCompressionScheme>Схема стиснення для файлів TIFF.</TiffCompressionScheme>
+    <TiffCompressionScheme>Стиснення файлу TIFF.</TiffCompressionScheme>
     <ToolEditor>Редагувати редаговані компоненти.</ToolEditor>
     <ToolSignature>Підписати позначені місця.</ToolSignature>
-    <TypeExport>Тип файлу, в який буде перетворено звіт.</TypeExport>
+    <TypeExport>Тип файлу, на який перетворюється звіт.</TypeExport>
     <UnsafeCompilation1>Цей документ використовує процес компіляції. У деяких випадках це може бути небезпечно. Тому документ буде завантажено в безпечному режимі, щоб мінімізувати можливі ризики.</UnsafeCompilation1>
     <UnsafeCompilation2>Якщо вам потрібно використовувати цей документ у його оригінальному вигляді, зверніться до своїх розробників.</UnsafeCompilation2>
     <UnsafeCompilationTitle>Документ відкриється в безпечному режимі</UnsafeCompilationTitle>
-    <UseDefaultSystemEncoding>Використовувати кодування системи за замовчуванням або задати кодування за стандартом.</UseDefaultSystemEncoding>
-    <UseOnePageHeaderAndFooter>Визначити бенди Заголовок сторінки і Підсумок сторінки як верхній і нижній колонтитул документа в MS Word.</UseOnePageHeaderAndFooter>
-    <UsePageHeadersAndFooters>Визначити бенди Заголовок сторінки і Підсумок сторінки як верхній і нижній колонтитул документа в MS Word.</UsePageHeadersAndFooters>
+    <UseDefaultSystemEncoding>Використовувати кодування системи. Вимкніть, щоб вибрати інше.</UseDefaultSystemEncoding>
+    <UseOnePageHeaderAndFooter>Залишити у файлі Excel один заголовок сторінки та один підсумок сторінки, без повтору на кожній сторінці.</UseOnePageHeaderAndFooter>
+    <UsePageHeadersAndFooters>Зробити бенди Заголовок сторінки та Підсумок сторінки колонтитулами документа.</UsePageHeadersAndFooters>
     <UserPassword>Пароль необхідний для відкриття документа.</UserPassword>
-    <UseUnicode>Розширена підтримка кодування символів. Впливає на внутрішнє кодування символів всередині PDF файлу і покращує копіювання тексту з PDF файлу.</UseUnicode>
+    <UseUnicode>Зберігати символи в Unicode всередині файлу PDF, щоб текст правильно копіювався.</UseUnicode>
     <ViewModeContinuous>Показувати всі сторінки стрічкою.</ViewModeContinuous>
     <ViewModeMultiplePages>Показувати кілька сторінок.</ViewModeMultiplePages>
     <ViewModeSinglePage>Показувати одну сторінку.</ViewModeSinglePage>
@@ -2448,7 +2451,7 @@
     <ZoomOnePage>Вписати одну сторінку.</ZoomOnePage>
     <ZoomPageWidth>Вписати ширину сторінки.</ZoomPageWidth>
     <ZoomTwoPages>Вписати дві сторінки.</ZoomTwoPages>
-    <ZoomTxt>Розмір (масштаб) звіту: X - змінити масштаб по горизонталі, Y - змінити масштаб по вертикалі.</ZoomTxt>
+    <ZoomTxt>Масштаб тексту звіту: X по горизонталі, Y по вертикалі.</ZoomTxt>
   </HelpViewer>
   <Interface>
     <Mouse>Миша</Mouse>

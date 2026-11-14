@@ -1206,14 +1206,14 @@
     <TiffCompressionScheme>Schema comprimare TIFF:</TiffCompressionScheme>
     <title>Setările exportării</title>
     <TxtBorderType>Tip de margine</TxtBorderType>
-    <TxtBorderTypeDouble>Unicod-dublu</TxtBorderTypeDouble>
+    <TxtBorderTypeDouble>Dublă</TxtBorderTypeDouble>
     <TxtBorderTypeSimple>Simplu</TxtBorderTypeSimple>
-    <TxtBorderTypeSingle>Unicod-simplu</TxtBorderTypeSingle>
+    <TxtBorderTypeSingle>Unică</TxtBorderTypeSingle>
     <TxtCutLongLines>Taie liniile lungi</TxtCutLongLines>
     <TxtDrawBorder>Trasează margine</TxtDrawBorder>
-    <TxtKillSpaceGraphLines>Taie liniile de spaţiu în grafic</TxtKillSpaceGraphLines>
-    <TxtKillSpaceLines>Îndepărtează liniile goale</TxtKillSpaceLines>
-    <TxtPutFeedPageCode>Adaugă salt la pagină nouă</TxtPutFeedPageCode>
+    <TxtKillSpaceGraphLines>Elimină liniile doar cu borduri</TxtKillSpaceGraphLines>
+    <TxtKillSpaceLines>Elimină liniile goale</TxtKillSpaceLines>
+    <TxtPutFeedPageCode>Avans de pagină după fiecare pagină</TxtPutFeedPageCode>
     <Type>Tip:</Type>
     <UseDefaultSystemEncoding>Utilizează Encoding impliciti sistem</UseDefaultSystemEncoding>
     <UseDigitalSignature>Utilizează semnatura digitală</UseDigitalSignature>
@@ -2370,62 +2370,65 @@
     <StiTreeViewControl>Arată date ierarhice ca arbore.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
-    <AddPageBreaks>Separator vizual al paginilor raportului.</AddPageBreaks>
-    <AllowAddOrModifyTextAnnotations>Accesul limitat la a lucra cu adnotări în document.</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Accesul limitat la copierea informaţiilor.</AllowCopyTextAndGraphics>
-    <AllowEditable>Permite schimbarea numai a componentelor cu proprietatea Editabil activată.</AllowEditable>
-    <AllowModifyContents>Accesul limitat la editarea textului.</AllowModifyContents>
-    <AllowPrintDocument>Accesul limitat la operaţia de imprimare.</AllowPrintDocument>
+    <AddPageBreaks>Afișează un separator între paginile raportului.</AddPageBreaks>
+    <AllowAddOrModifyTextAnnotations>Permite adăugarea și modificarea adnotărilor.</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Permite copierea textului și a graficii documentului.</AllowCopyTextAndGraphics>
+    <AllowEditable>Permite modificarea componentelor care au activată proprietatea Modificabil.</AllowEditable>
+    <AllowModifyContents>Permite modificarea textului documentului.</AllowModifyContents>
+    <AllowPrintDocument>Permite imprimarea documentului.</AllowPrintDocument>
     <Bookmarks>Arată bookmark-urile.</Bookmarks>
-    <BorderType>Tipul de margină al componentelor: Simplu - desenare margini cu caracterele +, -, |; Unicod simplu - desenarea marginilor folosind caracterele desenare-cutie simple, Unicod doublu - desenarea marginilor folosind caracterele desenare-cutie duble.</BorderType>
+    <BorderType>Caracterele marginilor componentelor: Simplu le desenează cu +, - și |, Unică și Dublă cu linii de chenar simple sau duble.</BorderType>
     <Close>Închide previzualizarea.</Close>
     <CloseDotMatrix>Inchide Dot Matrix Viewer şi revine la editarea raportului.</CloseDotMatrix>
-    <Compressed>Compresia documentului pregătit. Este recomandat să se includă întotdeauna compresie fişier.</Compressed>
-    <CompressToArchive>Comprimă toate fişierele şi folderele în arhivă zip.</CompressToArchive>
-    <ContinuousPages>Mod plasare pagini raport ca o bandă verticală.</ContinuousPages>
-    <CurrentPage>Prelucrarea pagină curentă. Dacă această opţiune este aleasă, o pagină selectată din raport va fi prelucrată.</CurrentPage>
-    <CutEdges>Tăiere margini pagini raport.</CutEdges>
-    <CutLongLines>Tăiere linii lungi (linii de text) de marginile componentelor.</CutLongLines>
+    <Compressed>Comprimă documentul. Lasă opțiunea activată pentru un fișier mai mic.</Compressed>
+    <CompressToArchive>Împachetează toate fișierele și folderele într-o arhivă zip.</CompressToArchive>
+    <ContinuousPages>Așază paginile raportului una sub alta într-o singură fâșie continuă.</ContinuousPages>
+    <CurrentPage>Doar pagina curentă a raportului.</CurrentPage>
+    <CutEdges>Taie marginile paginilor raportului.</CutEdges>
+    <CutLongLines>Taie textul care nu încape în componenta sa, în loc să-l încadreze pe mai multe rânduri.</CutLongLines>
     <DashboardContains1>Ne pare rău, dar acest raport conține un panou de control.</DashboardContains1>
     <DashboardContains2>Ar trebui să deschideți acest raport direct în designer!</DashboardContains2>
     <DashboardContains3>Nu puteți face aceasta din vizualizatorul de rapoarte!</DashboardContains3>
-    <DigitalSignature>Semnătura digitală a fişierului.</DigitalSignature>
-    <DitheringType>Tip Cuantizare: Făra - făra cuantizare, Ordonat, FloydSt - folosind cuantizare.</DitheringType>
+    <DigitalSignature>Semnează documentul cu o semnătură digitală.</DigitalSignature>
+    <DitheringType>Ditheringul imaginilor alb-negru: None, Ordered sau Floyd-Steinberg.</DitheringType>
     <DotMatrixMode>Vizualizează în modul punct-matrice.</DotMatrixMode>
-    <DrawBorder>Desenarea marginilor componentelor cu caractere grafice.</DrawBorder>
+    <DotMatrixSettings>Afișează sau ascunde setările.</DotMatrixSettings>
+    <DrawBorder>Desenează marginile componentelor cu caractere de desenare a chenarelor.</DrawBorder>
     <Edit>Editare componente.</Edit>
     <EmbeddedFonts>Încorporare fişiere font intr-un fişier PDF.</EmbeddedFonts>
     <EmbeddedFontsHtml>Încorporare fișiere font în fișierul HTML: niciunul, doar cele personalizate sau toate fonturile utilizate în raport.</EmbeddedFontsHtml>
     <EmbeddedFontsOffice>Încorporare fișiere font în fișierul exportat.</EmbeddedFontsOffice>
-    <EmbeddedImageData>Încorporare imagini direct în fişierul HTML.</EmbeddedImageData>
-    <Encoding>Encodare text raport dupa export.</Encoding>
-    <EncodingData>Encodare fişier date.</EncodingData>
-    <EncryptionKeyLength>Lungimea cheii de criptare. Cu cât lungimea este mai mare cu atât este mai greu este de a decripta documentul, şi, în consecinţă, securitatea documentului este mai prioritară.</EncryptionKeyLength>
-    <ExportDataOnly>Export numai benzi de Date (Tabela componentă, Banda ierarhică).</ExportDataOnly>
-    <ExportEachPageToSheet>Export fiecare pagină de raport într-o foaie Excel separată.</ExportEachPageToSheet>
-    <ExportMode>Aplică o condiţie filtru la export.	Numai Datele - doar benzile de Date	(Tabela componentă, Banda ierarhică) vor fi exportate. Datele şi Anteturi / Subsoluri - benzile de Date (Tabela componentă, Banda ierarhică) şi anteturile / subsolurile lor vor fi exportate. Toate benzile - toate benzile din raport vor fi exportate.</ExportMode>
-    <ExportModeHtml>Procesul de marcare a paginii HTML.</ExportModeHtml>
-    <ExportModeRtf>Prezentarea datelor raportului, după export.	Tabla - raportul va arăta ca un tabel, unde fiecare componentă raport este o celulă de tabel. Cadru - fiecare componentă va arăta ca un singur cadru, dar fără nici o relaţie între ele.</ExportModeRtf>
-    <ExportObjectFormatting>Aplicare formatare pentru export date din benzile de Date (Tabela componentă, Banda ierarhică).</ExportObjectFormatting>
+    <EmbeddedImageData>Încorporează imaginile direct în fișierul HTML.</EmbeddedImageData>
+    <Encoding>Codificarea textului exportat.</Encoding>
+    <EncodingData>Codificarea fișierului de date.</EncodingData>
+    <EncryptionKeyLength>Lungimea cheii de criptare: cu cât cheia este mai lungă, cu atât documentul este mai greu de decriptat.</EncryptionKeyLength>
+    <ExportDataOnly>Exportă doar benzile de date: componenta Tabel și banda ierarhică.</ExportDataOnly>
+    <ExportEachPageToSheet>Exportă fiecare pagină a raportului într-o foaie Excel proprie.</ExportEachPageToSheet>
+    <ExportMode>Benzile care intră în fișier: Doar date preia benzile de date (componenta Tabel, banda ierarhică), Date şi Antete/Subsoluri adaugă antetele și subsolurile lor, Toate benzile preia toate benzile.</ExportMode>
+    <ExportModeHtml>Marcajul paginii HTML.</ExportModeHtml>
+    <ExportModeRtf>Aspectul raportului după export: Tabel pune fiecare componentă într-o celulă de tabel, Cadru pune fiecare componentă într-un cadru propriu, fără legătură între ele.</ExportModeRtf>
+    <ExportObjectFormatting>Păstrează formatarea datelor din benzile de date (componenta Tabel, banda ierarhică).</ExportObjectFormatting>
     <ExportPageBreaks>Arată marginile paginilor raportului pe foaia Excel.</ExportPageBreaks>
-    <ExportRtfTextAsImage>Convertire text RTF în imagine. Dacă opţiunea este activată, atunci, la exportul,	RichText se descompune în primitive simple acceptate de formatul PDF. RichText cu formatare complexă (imagini încorporate, tabele), nu poate fi întotdeauna convertit corect. În acest caz, este recomandat să activaţi această opţiune.</ExportRtfTextAsImage>
+    <ExportRtfTextAsImage>Exportă textul RTF ca imagine. Activează opțiunea pentru textul formatat cu imagini sau tabele, care nu se transformă întotdeauna corect în text PDF.</ExportRtfTextAsImage>
     <Find>Caută text.</Find>
     <FullScreen>Vizualizează pe tot ecranul.</FullScreen>
-    <GetCertificateFromCryptoUI>Utilizare interfaţa bibliotecii criptografie sistem.</GetCertificateFromCryptoUI>
-    <ImageCompressionMethod>Metoda de compresie: JPEG - aceasta poate provoca pierderi de calitate,	Flate - nici o pierdere de calitate, Simplu, Ordonat, FloydSt - imaginile sunt transmise la ieşire în alb-negru.</ImageCompressionMethod>
-    <ImageFormat>Format de imagine în fişierul final.</ImageFormat>
-    <ImageQuality>Vă permite să alegeţi raportul dintre calitatea imaginii / dimensiunea fişierului. Cu cât calitatea este mai mare, cu atât mai mare este dimensiunea fişierului final.</ImageQuality>
-    <ImageQualityPdf>Opţiunea este disponibilă numai în compresie JPEG şi vă permite să selectaţi raportul dintre calitatea imaginii / dimensiunea fişierului. Cu cât calitatea este mai mare, cu atât mai mare este dimensiunea fişierului final.</ImageQualityPdf>
-    <ImageResolution>Numărul de pixeli pe inch. Cu cât numărul de pixeli este mai mare, cu atât mai buna este calitatea imaginii.Dimensiunea fişierului final este mult mai mare.</ImageResolution>
+    <GetCertificateFromCryptoUI>Alege certificatul în fereastra bibliotecii de criptografie a sistemului.</GetCertificateFromCryptoUI>
+    <ImageCompressionMethod>Compresia imaginilor: JPEG poate pierde din calitate, Flate o păstrează, iar Simple, Ordered și Floyd-Steinberg fac imaginile alb-negru.</ImageCompressionMethod>
+    <ImageFormat>Formatul imaginilor din fișierul exportat.</ImageFormat>
+    <ImageQuality>Echilibrul dintre calitatea imaginilor și dimensiunea fișierului: cu cât calitatea este mai mare, cu atât fișierul este mai mare.</ImageQuality>
+    <ImageQualityPdf>Echilibrul dintre calitatea imaginilor și dimensiunea fișierului la compresia JPEG: cu cât calitatea este mai mare, cu atât fișierul este mai mare.</ImageQualityPdf>
+    <ImageResolution>Numărul de pixeli pe inch: cu cât sunt mai mulți pixeli, cu atât imaginile sunt mai bune și fișierul mai mare.</ImageResolution>
     <ImageResolutionMode>Cum se aplică rezoluția imaginilor: exact, doar pentru a le reduce pe cele mai mari sau deloc.</ImageResolutionMode>
-    <ImageType>Schema de culori a imaginii: color - imaginea după export se va potrivi pe deplin celei vizualizate, gri - o imagine după export va fi de umbră gri, alb-negru - imaginile vor fi strict în alb şi negru. În acelaşi timp, trebuie să se considere că alb-negru are trei moduri: Nici unul, Ordonat, FloydSt.</ImageType>
-    <KillSpaceLines>Eliminare linii goale (rânduri) din document.</KillSpaceLines>
-    <MultipleFiles>Fiecare pagină de raport poate fi un fişier separat.</MultipleFiles>
+    <ImageType>Culorile imaginii: Culoare corespunde vizualizatorului, Nuanţe de gri folosește nuanțe de gri, Monocromatic folosește doar alb și negru într-unul din cele trei moduri de dithering.</ImageType>
+    <KeepProportions>Păstrează proporțiile.</KeepProportions>
+    <KillSpaceGraphLines>Elimină liniile care conțin doar borduri și spații.</KillSpaceGraphLines>
+    <KillSpaceLines>Elimină liniile goale din document.</KillSpaceLines>
+    <MultipleFiles>Exportă fiecare pagină a raportului într-un fișier separat.</MultipleFiles>
     <Open>Deschide un raport.</Open>
-    <OpenAfterExport>Deschiderea automată a documentului creat (după export) de programul stabilit pentru aceste tipuri de fişier.</OpenAfterExport>
-    <OwnerPassword>Parola pentru accesare operaţii cu fişiere.</OwnerPassword>
-    <PageAll>Prelucrarea tuturor paginilor raportului.</PageAll>
-    <PageBands>Ce antete și subsoluri de pagină intră în document: niciunul, primul antet și ultimul subsol sau toate.</PageBands>
+    <OpenAfterExport>Deschide fișierul exportat în programul asociat tipului său.</OpenAfterExport>
+    <OwnerPassword>Parola necesară pentru modificarea permisiunilor documentului.</OwnerPassword>
+    <PageAll>Toate paginile raportului.</PageAll>
+    <PageBands>Antetele și subsolurile de pagină care intră în document: niciunul, primul antet și ultimul subsol sau toate.</PageBands>
     <PageDelete>Şterge pagina selectată.</PageDelete>
     <PageDesign>Editează pagina în designer.</PageDesign>
     <PageFirst>Mergi la prima pagină.</PageFirst>
@@ -2436,37 +2439,37 @@
     <PagePrevious>Mergi la pagina anterioară.</PagePrevious>
     <PageSize>Schimbă setările paginii.</PageSize>
     <Parameters>Arată parametrii.</Parameters>
-    <PdfACompliance>Suport pentru standardul de arhivare şi stocare pe termen lung a documentelor electronice.</PdfACompliance>
-    <PdfUniversalAccessibility>Suport pentru standardul documentelor și informațiilor electronice universal accesibile.</PdfUniversalAccessibility>
+    <PdfACompliance>Respectă standardul PDF/A pentru arhivarea pe termen lung a documentelor.</PdfACompliance>
+    <PdfUniversalAccessibility>Respectă standardul PDF/UA pentru documente accesibile tuturor.</PdfUniversalAccessibility>
     <Print>Tipăreşte raportul.</Print>
-    <PutFeedPageCode>Alimentare pagini din documentul final, cu un caracter special.</PutFeedPageCode>
-    <RangePages>Numerele de pagină pentru a fi prelucrate. Puteţi specifica o singură pagină, o lista de pagini (folosind virgula ca separator), precum şi precizarea unui interval,stabilind pagina de start separată prin "-" şi pagina de sfârşit. De exemplu: 1,3,5-12.</RangePages>
+    <PutFeedPageCode>Începe fiecare pagină pe o foaie nouă cu un caracter de salt de pagină.</PutFeedPageCode>
+    <RangePages>Intervalul de pagini: o pagină, o listă separată prin virgule sau un interval cu cratimă, de exemplu 1,3,5-12.</RangePages>
     <RebuildReport>Generează din nou raportul pentru noua pagină, astfel încât datele să umple noile pagini. Fără această opțiune, se schimbă doar dimensiunea paginilor deja generate. Nu este disponibil pentru un document deschis dintr-un fișier.</RebuildReport>
-    <RemoveEmptySpaceAtBottom>Reducerea spaţiului gol din partea de jos a paginii.</RemoveEmptySpaceAtBottom>
+    <RemoveEmptySpaceAtBottom>Micșorează spațiul gol din partea de jos a paginilor.</RemoveEmptySpaceAtBottom>
     <Resources>Arată resursele.</Resources>
-    <RestrictEditing>Limitează modificările dintr-un document Word.</RestrictEditing>
+    <RestrictEditing>Restricțiile privind modificarea documentului Word.</RestrictEditing>
     <Save>Salvează raportul.</Save>
     <ScaleContent>Redimensionează componentele odată cu pagina. Fără această opțiune, își păstrează dimensiunea și poziția.</ScaleContent>
-    <ScaleHtml>Dimensiunea (scala) paginii şi elementelor raportului după export.</ScaleHtml>
-    <ScaleImage>Dimensiunea (scala) din raport după export.Cu cât dimensiunea este mai mică, cu atât mai mare este numărul de pixeli pe inch, si invers.</ScaleImage>
+    <ScaleHtml>Scara paginilor și elementelor raportului în fișierul exportat.</ScaleHtml>
+    <ScaleImage>Scara raportului în imagine: cu cât scara este mai mare, cu atât imaginea este mai mare.</ScaleImage>
     <SendEMail>Trimite raportul prin e-mail.</SendEMail>
-    <Separator>Separator între datele din fişierul CSV.</Separator>
-    <SkipColumnHeaders>Activare / dezactivare anteturi de coloană.</SkipColumnHeaders>
-    <StandardPdfFonts>14 fonturi Adobe standard. Dacă această opţiune este activată, atunci doar 14 fonturi standard vor fi folosite în fişierul PDF. Toate fonturile raport sunt convertite în ele.</StandardPdfFonts>
-    <SubjectNameString>Identificator certificat.Identificator este numele proprietarului certificatului	(linie completă) sau o parte a numelui (subşir).</SubjectNameString>
+    <Separator>Caracterul care separă datele în fișierul CSV.</Separator>
+    <SkipColumnHeaders>Nu include antetele coloanelor în fișier.</SkipColumnHeaders>
+    <StandardPdfFonts>Folosește doar cele 14 fonturi standard Adobe: toate fonturile raportului sunt înlocuite cu acestea.</StandardPdfFonts>
+    <SubjectNameString>Certificatul pentru semnare: numele complet al proprietarului sau o parte din acesta.</SubjectNameString>
     <Thumbnails>Arată miniaturile paginilor.</Thumbnails>
-    <TiffCompressionScheme>Schema de compresie fişiere TIFF.</TiffCompressionScheme>
+    <TiffCompressionScheme>Compresia fișierului TIFF.</TiffCompressionScheme>
     <ToolEditor>Editează componentele modificabile.</ToolEditor>
     <ToolSignature>Semnează în locurile marcate.</ToolSignature>
-    <TypeExport>Fişierul raport va fi convertite în.</TypeExport>
+    <TypeExport>Tipul fișierului în care se transformă raportul.</TypeExport>
     <UnsafeCompilation1>Acest document utilizează procesul de compilare. În unele cazuri, acest lucru poate să nu fie sigur. Prin urmare, documentul va fi încărcat în modul sigur pentru a minimiza orice riscuri potențiale.</UnsafeCompilation1>
     <UnsafeCompilation2>Dacă doriți ca acest document să fie utilizat în forma sa originală, vă rugăm să contactați dezvoltatorii dvs.</UnsafeCompilation2>
     <UnsafeCompilationTitle>Documentul se va deschide în modul sigur</UnsafeCompilationTitle>
-    <UseDefaultSystemEncoding>Utilizaţi sistemul de encodare implicit sau specifică encodarea standard.</UseDefaultSystemEncoding>
-    <UseOnePageHeaderAndFooter>Definire benzi pagină Antet şi Subsol ca antet şi subsol din documentul MS Word.</UseOnePageHeaderAndFooter>
-    <UsePageHeadersAndFooters>Definire benzi pagină Antet şi Subsol ca antet şi subsol a documentului în MS Word.</UsePageHeadersAndFooters>
+    <UseDefaultSystemEncoding>Folosește codificarea sistemului. Dezactivează opțiunea pentru a alege alta.</UseDefaultSystemEncoding>
+    <UseOnePageHeaderAndFooter>Păstrează în fișierul Excel un singur antet de pagină și un singur subsol de pagină, fără a le repeta pe fiecare pagină.</UseOnePageHeaderAndFooter>
+    <UsePageHeadersAndFooters>Transformă benzile Antet pagină și Indice jos pagină în antetul și subsolul documentului.</UsePageHeadersAndFooters>
     <UserPassword>Parola necesară pentru a deschide documentul.</UserPassword>
-    <UseUnicode>Suport extins pentru caractere de encodare. Aceasta afectează encodarea internă a caracterelor în fişierul PDF, şi îmbunătăţeşte copierea textului din fişierul PDF.</UseUnicode>
+    <UseUnicode>Stochează caracterele ca Unicode în fișierul PDF, pentru ca textul să se copieze corect.</UseUnicode>
     <ViewModeContinuous>Arată toate paginile ca o bandă.</ViewModeContinuous>
     <ViewModeMultiplePages>Arată mai multe pagini.</ViewModeMultiplePages>
     <ViewModeSinglePage>Arată o singură pagină.</ViewModeSinglePage>
@@ -2474,7 +2477,7 @@
     <ZoomOnePage>Potriveşte o pagină.</ZoomOnePage>
     <ZoomPageWidth>Potriveşte lăţimea paginii.</ZoomPageWidth>
     <ZoomTwoPages>Potriveşte două pagini.</ZoomTwoPages>
-    <ZoomTxt>Dimensiunea raportului (scala): X - modifică scala orizontală, Y - pentru a modifica scala verticală.</ZoomTxt>
+    <ZoomTxt>Scara textului raportului: X pe orizontală, Y pe verticală.</ZoomTxt>
   </HelpViewer>
   <Interface>
     <Mouse>Mouse</Mouse>

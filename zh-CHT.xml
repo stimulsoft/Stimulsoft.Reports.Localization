@@ -1190,14 +1190,14 @@
     <TiffCompressionScheme>TIFF 壓縮方式：</TiffCompressionScheme>
     <title>導出設置</title>
     <TxtBorderType>邊框類型</TxtBorderType>
-    <TxtBorderTypeDouble>Unicode-雙線</TxtBorderTypeDouble>
+    <TxtBorderTypeDouble>雙線邊框</TxtBorderTypeDouble>
     <TxtBorderTypeSimple>單線</TxtBorderTypeSimple>
-    <TxtBorderTypeSingle>Unicode-單線</TxtBorderTypeSingle>
+    <TxtBorderTypeSingle>單線邊框</TxtBorderTypeSingle>
     <TxtCutLongLines>截斷長行</TxtCutLongLines>
     <TxtDrawBorder>繪製邊框</TxtDrawBorder>
-    <TxtKillSpaceGraphLines>消除空行</TxtKillSpaceGraphLines>
-    <TxtKillSpaceLines>去除空行</TxtKillSpaceLines>
-    <TxtPutFeedPageCode>放置頁碼</TxtPutFeedPageCode>
+    <TxtKillSpaceGraphLines>刪除僅含框線的行</TxtKillSpaceGraphLines>
+    <TxtKillSpaceLines>刪除空行</TxtKillSpaceLines>
+    <TxtPutFeedPageCode>每頁後換頁</TxtPutFeedPageCode>
     <Type>類型</Type>
     <UseDefaultSystemEncoding>使用預設的系統編碼</UseDefaultSystemEncoding>
     <UseDigitalSignature>使用數位簽名</UseDigitalSignature>
@@ -2345,62 +2345,65 @@
     <StiTreeViewControl>以樹狀結構顯示階層資料。</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
-    <AddPageBreaks>報表頁面的視覺分隔線。</AddPageBreaks>
-    <AllowAddOrModifyTextAnnotations>文件中註解作業的存取受限。</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>複製資訊的存取受限。</AllowCopyTextAndGraphics>
+    <AddPageBreaks>在報表頁面之間顯示分隔符號。</AddPageBreaks>
+    <AllowAddOrModifyTextAnnotations>允許新增和變更註解。</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>允許複製文件的文字和圖形。</AllowCopyTextAndGraphics>
     <AllowEditable>允許變更已啟用「可編輯」屬性的元件。</AllowEditable>
-    <AllowModifyContents>文字編輯的存取受限。</AllowModifyContents>
-    <AllowPrintDocument>列印作業的存取受限。</AllowPrintDocument>
+    <AllowModifyContents>允許變更文件的文字。</AllowModifyContents>
+    <AllowPrintDocument>允許列印文件。</AllowPrintDocument>
     <Bookmarks>顯示書籤。</Bookmarks>
-    <BorderType>元件的框線類型：簡單 - 使用 +、-、| 字元繪製元件框線；Unicode 單線 - 使用單線方框繪製字元繪製框線；Unicode 雙線 - 使用雙線方框繪製字元繪製框線。</BorderType>
+    <BorderType>元件框線的字元：「單線」使用 +、- 和 | 繪製，「單線邊框」和「雙線邊框」使用單線或雙線框線字元繪製。</BorderType>
     <Close>關閉預覽。</Close>
     <CloseDotMatrix>關閉點陣檢視器。</CloseDotMatrix>
-    <Compressed>對完成的文件進行壓縮。建議一律啟用檔案壓縮。</Compressed>
-    <CompressToArchive>將所有檔案和資料夾封裝到 zip 壓縮檔中。</CompressToArchive>
-    <ContinuousPages>將報表頁面以垂直條狀排列的模式。</ContinuousPages>
-    <CurrentPage>處理目前頁面。若選取此選項，將處理所選的報表頁面。</CurrentPage>
-    <CutEdges>修剪報表頁面的邊界。</CutEdges>
-    <CutLongLines>依元件邊界修剪過長的行（文字行）。</CutLongLines>
+    <Compressed>壓縮文件。保持啟用可使檔案更小。</Compressed>
+    <CompressToArchive>將所有檔案和資料夾封裝成 zip 壓縮檔。</CompressToArchive>
+    <ContinuousPages>將報表頁面上下依序排列成一個連續的長頁面。</ContinuousPages>
+    <CurrentPage>僅報表的目前頁面。</CurrentPage>
+    <CutEdges>裁切報表頁面的邊緣。</CutEdges>
+    <CutLongLines>截斷無法容納於元件中的文字，而不換行。</CutLongLines>
     <DashboardContains1>很抱歉，此報表包含儀表板。</DashboardContains1>
     <DashboardContains2>您應該直接在設計器中開啟此報表！</DashboardContains2>
     <DashboardContains3>您無法在報表檢視器中執行此操作！</DashboardContains3>
-    <DigitalSignature>檔案的數位簽章。</DigitalSignature>
-    <DitheringType>遞色類型：None - 無遞色，Ordered、FloydSt. - 有遞色。</DitheringType>
+    <DigitalSignature>以數字簽名簽署文件。</DigitalSignature>
+    <DitheringType>黑白圖片的遞色：None、Ordered 或 Floyd-Steinberg。</DitheringType>
     <DotMatrixMode>以點陣模式檢視。</DotMatrixMode>
-    <DrawBorder>繪製邊框</DrawBorder>
+    <DotMatrixSettings>顯示或隱藏設定。</DotMatrixSettings>
+    <DrawBorder>使用框線字元繪製元件的框線。</DrawBorder>
     <Edit>編輯</Edit>
     <EmbeddedFonts>將字型檔案內嵌至 PDF 檔案。</EmbeddedFonts>
     <EmbeddedFontsHtml>將字型檔案內嵌至 HTML 檔案：無、僅自訂字型或報表中使用的所有字型。</EmbeddedFontsHtml>
     <EmbeddedFontsOffice>將字型檔案內嵌至匯出的檔案。</EmbeddedFontsOffice>
     <EmbeddedImageData>將圖片直接內嵌至 HTML 檔案。</EmbeddedImageData>
-    <Encoding>匯出後對報表文字進行編碼。</Encoding>
-    <EncodingData>正在編碼資料檔案。</EncodingData>
-    <EncryptionKeyLength>加密金鑰的長度。金鑰長度越長，文件就越難被解密，相應地，文件的安全性也就越高。</EncryptionKeyLength>
-    <ExportDataOnly>僅匯出資料區帶（表格元件、階層區帶）。</ExportDataOnly>
-    <ExportEachPageToSheet>將每個報表頁面匯出至個別的 Excel 工作表。</ExportEachPageToSheet>
-    <ExportMode>匯出時套用篩選條件。僅資料 - 只匯出資料區段（表格元件、階層區段）。資料與頁首/頁尾 - 匯出資料區段（表格元件、階層區段）及其頁首/頁尾。所有區段 - 匯出報表的所有區段。</ExportMode>
-    <ExportModeHtml>HTML 頁面標記的方式。</ExportModeHtml>
-    <ExportModeRtf>匯出後報表資料的呈現方式。「表格」－報表將以表格顯示，每個報表元件為一個表格儲存格。「框架」－每個元件將顯示為單獨的框架，但彼此之間沒有任何關聯。</ExportModeRtf>
-    <ExportObjectFormatting>對從資料區段（表格元件、階層區段）匯出的資料套用格式。</ExportObjectFormatting>
+    <Encoding>匯出文字的編碼。</Encoding>
+    <EncodingData>資料檔案的編碼。</EncodingData>
+    <EncryptionKeyLength>加密金鑰的長度：金鑰越長，文件越難解密。</EncryptionKeyLength>
+    <ExportDataOnly>僅匯出數據區：表格元件和分級區。</ExportDataOnly>
+    <ExportEachPageToSheet>將報表的每一頁匯出至個別的 Excel 工作表。</ExportEachPageToSheet>
+    <ExportMode>檔案中包含的區段：「僅資料」包含數據區（表格元件、分級區），「資料與頁首/頁尾」再加入其頁首和頁尾，「所有區段」包含全部區段。</ExportMode>
+    <ExportModeHtml>HTML 頁面的標記。</ExportModeHtml>
+    <ExportModeRtf>匯出後報表的版面配置：「表」將每個元件放入表格儲存格，「框架」將每個元件放入各自獨立的框架，彼此之間沒有關聯。</ExportModeRtf>
+    <ExportObjectFormatting>保留數據區（表格元件、分級區）中資料的格式。</ExportObjectFormatting>
     <ExportPageBreaks>在 Excel 工作表上顯示報表頁面的框線。</ExportPageBreaks>
-    <ExportRtfTextAsImage>將 RTF 文字轉換為圖片。若停用此選項，匯出時 RichText 會分解為 PDF 格式支援的較簡單圖元。具有複雜格式（內嵌圖片、表格）的 RichText 不一定能正確轉換。在此情況下建議啟用此選項。</ExportRtfTextAsImage>
+    <ExportRtfTextAsImage>將 RTF 文字匯出為圖片。對於包含圖片或表格的格式化文字，請啟用此項，因為這類文字不一定能正確轉換為 PDF 文字。</ExportRtfTextAsImage>
     <Find>尋找文字。</Find>
     <FullScreen>以全螢幕檢視。</FullScreen>
-    <GetCertificateFromCryptoUI>使用系統密碼編譯程式庫的介面。</GetCertificateFromCryptoUI>
-    <ImageCompressionMethod>壓縮方法：JPEG - 可能造成品質損失；Flate - 無品質損失；Simple、Ordered、FloydSt. - 圖片以黑白輸出。</ImageCompressionMethod>
-    <ImageFormat>完成檔案中的圖片格式。</ImageFormat>
-    <ImageQuality>可讓您選擇圖片品質與檔案大小的比例。品質越高，完成檔案的大小就越大。</ImageQuality>
-    <ImageQualityPdf>此選項僅適用於 JPEG 壓縮，可讓您選擇圖片品質與檔案大小的比例。品質越高，完成檔案的大小就越大。</ImageQualityPdf>
-    <ImageResolution>每英吋的像素數。像素數越高，圖片品質越好。完成檔案的大小也會大得多。</ImageResolution>
+    <GetCertificateFromCryptoUI>在系統加密程式庫的視窗中選擇憑證。</GetCertificateFromCryptoUI>
+    <ImageCompressionMethod>圖片的壓縮：JPEG 可能降低品質，Flate 保持品質，Simple、Ordered 和 Floyd-Steinberg 會將圖片轉為黑白。</ImageCompressionMethod>
+    <ImageFormat>匯出檔案中圖片的格式。</ImageFormat>
+    <ImageQuality>圖片品質與檔案大小的平衡：品質越高，檔案越大。</ImageQuality>
+    <ImageQualityPdf>使用 JPEG 壓縮時圖片品質與檔案大小的平衡：品質越高，檔案越大。</ImageQualityPdf>
+    <ImageResolution>每英吋像素數：像素越多，圖片越清晰，檔案也越大。</ImageResolution>
     <ImageResolutionMode>解析度套用至圖片的方式：完全依設定、僅用於縮小較大的圖片，或完全不套用。</ImageResolutionMode>
-    <ImageType>圖片的色彩配置：彩色 - 匯出後的圖片將與檢視器中的圖片完全一致；灰階 - 匯出後的圖片將以灰階呈現；黑白 - 圖片將為純黑白。同時應注意，黑白模式有三種：None、Ordered、FloydSt。</ImageType>
-    <KillSpaceLines>移除文件中的空白行（列）。</KillSpaceLines>
-    <MultipleFiles>每個報表頁面可以是個別的檔案。</MultipleFiles>
+    <ImageType>圖片的色彩：「顏色」與檢視器一致，「灰階」使用灰色色調，「單色」以三種遞色模式之一僅使用黑白兩色。</ImageType>
+    <KeepProportions>保持比例。</KeepProportions>
+    <KillSpaceGraphLines>刪除僅包含框線和空格的行。</KillSpaceGraphLines>
+    <KillSpaceLines>移除文件中的空白行。</KillSpaceLines>
+    <MultipleFiles>將報表的每一頁匯出為個別的檔案。</MultipleFiles>
     <Open>開啟報表。</Open>
-    <OpenAfterExport>匯出後，由與這些檔案類型關聯的程式自動開啟建立的文件。</OpenAfterExport>
-    <OwnerPassword>對檔案執行操作所需的密碼。</OwnerPassword>
-    <PageAll>處理所有報表頁面。</PageAll>
-    <PageBands>文件中包含哪些頁眉和頁腳：無、第一個頁眉和最後一個頁腳或全部。</PageBands>
+    <OpenAfterExport>以該檔案類型所設定的程式開啟匯出的檔案。</OpenAfterExport>
+    <OwnerPassword>變更文件權限所需的密碼。</OwnerPassword>
+    <PageAll>報表的所有頁面。</PageAll>
+    <PageBands>文件中包含的頁眉和頁腳：無、第一個頁眉和最後一個頁腳，或全部。</PageBands>
     <PageDelete>刪除選取的頁面。</PageDelete>
     <PageDesign>在設計器中編輯頁面。</PageDesign>
     <PageFirst>移至第一頁。</PageFirst>
@@ -2411,37 +2414,37 @@
     <PagePrevious>移至上一頁。</PagePrevious>
     <PageSize>變更頁面設定。</PageSize>
     <Parameters>顯示參數。</Parameters>
-    <PdfACompliance>支援電子文件長期封存與儲存的標準。</PdfACompliance>
-    <PdfUniversalAccessibility>支援通用無障礙電子文件與資訊的標準。</PdfUniversalAccessibility>
+    <PdfACompliance>遵循用於文件長期封存的 PDF/A 標準。</PdfACompliance>
+    <PdfUniversalAccessibility>遵循讓所有人都能存取文件的 PDF/UA 標準。</PdfUniversalAccessibility>
     <Print>列印報表。</Print>
-    <PutFeedPageCode>在最終文件中以特殊字元分隔頁面。</PutFeedPageCode>
-    <RangePages>頁數:</RangePages>
+    <PutFeedPageCode>使用換頁字元讓每一頁從新的一張紙開始。</PutFeedPageCode>
+    <RangePages>頁面範圍：單一頁面、以逗號分隔的清單，或以連字號表示的範圍，例如 1,3,5-12。</RangePages>
     <RebuildReport>為新頁面重新產生報表，使資料填滿新頁面。不選此項時，只改變已產生頁面的大小。對從檔案開啟的文件不可用。</RebuildReport>
-    <RemoveEmptySpaceAtBottom>將頁面底部的空白空間縮至最小。</RemoveEmptySpaceAtBottom>
+    <RemoveEmptySpaceAtBottom>縮小頁面底部的空白區域。</RemoveEmptySpaceAtBottom>
     <Resources>顯示資源。</Resources>
-    <RestrictEditing>Word 文件中的變更受限。</RestrictEditing>
+    <RestrictEditing>對 Word 文件變更的限制。</RestrictEditing>
     <Save>儲存報表。</Save>
     <ScaleContent>隨頁面一起調整元件大小。不選此項時，元件保持原有大小和位置。</ScaleContent>
-    <ScaleHtml>匯出後報表頁面與項目的大小（縮放比例）。</ScaleHtml>
-    <ScaleImage>匯出後報表的大小（縮放比例）。縮放比例越低，每英吋的像素數就越多，反之亦然。</ScaleImage>
+    <ScaleHtml>匯出檔案中報表頁面和項目的縮放比例。</ScaleHtml>
+    <ScaleImage>圖片中報表的縮放比例：比例越大，圖片越大。</ScaleImage>
     <SendEMail>透過電子郵件傳送報表。</SendEMail>
-    <Separator>CSV 檔案中資料之間的分隔符號。</Separator>
-    <SkipColumnHeaders>啟用/停用欄標題。</SkipColumnHeaders>
-    <StandardPdfFonts>14 種標準 Adobe 字型。若啟用此選項，PDF 檔案中將僅使用 14 種標準字型。所有報表字型都會轉換為這些字型。</StandardPdfFonts>
-    <SubjectNameString>憑證識別碼。識別碼為憑證擁有者的名稱（完整字串）或名稱的一部分（子字串）。</SubjectNameString>
+    <Separator>CSV 檔案中分隔資料的字元。</Separator>
+    <SkipColumnHeaders>不在檔案中包含欄標題。</SkipColumnHeaders>
+    <StandardPdfFonts>僅使用 14 種標準 Adobe 字型：報表中的所有字型都會替換為這些字型。</StandardPdfFonts>
+    <SubjectNameString>用於簽署的憑證：其擁有者的全名或全名的一部分。</SubjectNameString>
     <Thumbnails>顯示頁面縮圖。</Thumbnails>
     <TiffCompressionScheme>TIFF 檔案的壓縮方式。</TiffCompressionScheme>
     <ToolEditor>編輯可編輯的元件。</ToolEditor>
     <ToolSignature>在標示的位置簽名。</ToolSignature>
-    <TypeExport>報表將轉換成的檔案。</TypeExport>
+    <TypeExport>報表要轉換成的檔案類型。</TypeExport>
     <UnsafeCompilation1>此文件使用了編譯過程。在某些情況下，這可能不安全。因此，文件將以安全模式載入，以將任何潛在風險降至最低。</UnsafeCompilation1>
     <UnsafeCompilation2>若您需要以原始形式使用此文件，請聯絡您的開發人員。</UnsafeCompilation2>
     <UnsafeCompilationTitle>文件將以安全模式開啟</UnsafeCompilationTitle>
-    <UseDefaultSystemEncoding>預設使用系統編碼，或手動指定編碼。</UseDefaultSystemEncoding>
-    <UseOnePageHeaderAndFooter>將頁面區帶「頁首」與「頁尾」定義為 Microsoft Word 文件的頁首與頁尾。</UseOnePageHeaderAndFooter>
-    <UsePageHeadersAndFooters>將「頁首」與「頁尾」區帶定義為 Microsoft Word 中文件的頁首與頁尾。</UsePageHeadersAndFooters>
+    <UseDefaultSystemEncoding>使用系統編碼。關閉此項可選擇其他編碼。</UseDefaultSystemEncoding>
+    <UseOnePageHeaderAndFooter>在 Excel 檔案中僅保留一個頁眉和一個頁腳，而不在每一頁重複。</UseOnePageHeaderAndFooter>
+    <UsePageHeadersAndFooters>將「頁眉」和「頁腳」區段轉為文件的頁首和頁尾。</UsePageHeadersAndFooters>
     <UserPassword>開啟文件所需的密碼。</UserPassword>
-    <UseUnicode>對字元編碼的延伸支援。這會影響 PDF 檔案內部的字元編碼，並改善從 PDF 檔案複製文字的效果。</UseUnicode>
+    <UseUnicode>在 PDF 檔案中以 Unicode 儲存字元，以便正確複製文字。</UseUnicode>
     <ViewModeContinuous>將所有頁面顯示為帶狀。</ViewModeContinuous>
     <ViewModeMultiplePages>顯示多個頁面。</ViewModeMultiplePages>
     <ViewModeSinglePage>顯示單一頁面。</ViewModeSinglePage>
@@ -2449,7 +2452,7 @@
     <ZoomOnePage>符合單一頁面。</ZoomOnePage>
     <ZoomPageWidth>符合頁面寬度。</ZoomPageWidth>
     <ZoomTwoPages>符合兩個頁面。</ZoomTwoPages>
-    <ZoomTxt>報表大小（縮放比例）：X - 變更水平縮放比例，Y - 變更垂直縮放比例。</ZoomTxt>
+    <ZoomTxt>報表文字的縮放比例：X 為水平方向，Y 為垂直方向。</ZoomTxt>
   </HelpViewer>
   <Interface>
     <Mouse>滑鼠</Mouse>

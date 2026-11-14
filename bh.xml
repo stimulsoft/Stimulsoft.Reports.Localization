@@ -1092,7 +1092,7 @@
     <CompressToArchive>Kompresuj u arhivu</CompressToArchive>
     <ContinuousPages>Neprekidne stranice</ContinuousPages>
     <DataAndHeaders>Podaci i zaglavlja</DataAndHeaders>
-    <DataAndHeadersFooters>Data and Headers/Footers</DataAndHeadersFooters>
+    <DataAndHeadersFooters>Podaci i zaglavlja/podnožja</DataAndHeadersFooters>
     <DataExport>Eksport podataka</DataExport>
     <DataOnly>Samo podaci</DataOnly>
     <DigitalSignature>Digitalni Potpis</DigitalSignature>
@@ -1116,7 +1116,7 @@
     <ExportingFormatingObjects>Formatiranje objekata</ExportingFormatingObjects>
     <ExportingReport>Izvoz izvještaja</ExportingReport>
     <ExportMode>Mod izvoza:</ExportMode>
-    <ExportModeFrame>Okvri</ExportModeFrame>
+    <ExportModeFrame>Okvir</ExportModeFrame>
     <ExportModeTable>Tabela</ExportModeTable>
     <ExportObjectFormatting>Izvezi formatiranje objekta</ExportObjectFormatting>
     <ExportPageBreaks>Izvezi prelome stranice</ExportPageBreaks>
@@ -1157,8 +1157,8 @@
     <ImageCompressionMethod>Metoda kompresije slike:</ImageCompressionMethod>
     <ImageCutEdges>Odjeci ivice</ImageCutEdges>
     <ImageFormat>Format slike:</ImageFormat>
-    <ImageGrayscale>Grayscale</ImageGrayscale>
-    <ImageMonochrome>Monochrome</ImageMonochrome>
+    <ImageGrayscale>Nijanse sive</ImageGrayscale>
+    <ImageMonochrome>Monohromatsko</ImageMonochrome>
     <ImageQuality>Kvalitet slike:</ImageQuality>
     <ImageResolution>Rezolucija slike:</ImageResolution>
     <ImageResolutionMode>Image Resolution Mode:</ImageResolutionMode>
@@ -1190,14 +1190,14 @@
     <TiffCompressionScheme>TIFF šema sabijanja:</TiffCompressionScheme>
     <title>Postavke izvoza</title>
     <TxtBorderType>Tip okvira</TxtBorderType>
-    <TxtBorderTypeDouble>Unicode-Double</TxtBorderTypeDouble>
+    <TxtBorderTypeDouble>Dvostruka</TxtBorderTypeDouble>
     <TxtBorderTypeSimple>Jednostavan</TxtBorderTypeSimple>
-    <TxtBorderTypeSingle>Unicode-Single</TxtBorderTypeSingle>
+    <TxtBorderTypeSingle>Jednostruka</TxtBorderTypeSingle>
     <TxtCutLongLines>Presijeci duge linije</TxtCutLongLines>
     <TxtDrawBorder>Nacrtaj okvir</TxtDrawBorder>
-    <TxtKillSpaceGraphLines>Ukloni prazne linije grafikona</TxtKillSpaceGraphLines>
-    <TxtKillSpaceLines>Ukloni prazne linije</TxtKillSpaceLines>
-    <TxtPutFeedPageCode>Dodaj Feed Page kod</TxtPutFeedPageCode>
+    <TxtKillSpaceGraphLines>Ukloni redove samo s okvirima</TxtKillSpaceGraphLines>
+    <TxtKillSpaceLines>Ukloni prazne redove</TxtKillSpaceLines>
+    <TxtPutFeedPageCode>Pomjeranje lista nakon svake stranice</TxtPutFeedPageCode>
     <Type>Tip:</Type>
     <UseDefaultSystemEncoding>Koristi zadani sistemski encoding</UseDefaultSystemEncoding>
     <UseDigitalSignature>Koristi digitalni potpis</UseDigitalSignature>
@@ -2346,62 +2346,65 @@
     <StiTreeViewControl>Prikazuje hijerarhijske podatke kao stablo.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
-    <AddPageBreaks>Visual separator of report pages.</AddPageBreaks>
-    <AllowAddOrModifyTextAnnotations>Limited access to work with annotations in the document.</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Limited access to copying information.</AllowCopyTextAndGraphics>
-    <AllowEditable>Allows changing components with the Editable property enabled.</AllowEditable>
-    <AllowModifyContents>Limited access to the text editing.</AllowModifyContents>
-    <AllowPrintDocument>Limited access to the print operation.</AllowPrintDocument>
+    <AddPageBreaks>Prikaži razdjelnik između stranica izvještaja.</AddPageBreaks>
+    <AllowAddOrModifyTextAnnotations>Dozvoli dodavanje i izmjenu napomena.</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Dozvoli kopiranje teksta i grafike dokumenta.</AllowCopyTextAndGraphics>
+    <AllowEditable>Dozvoli izmjenu komponenti kojima je uključeno svojstvo Može se editovati.</AllowEditable>
+    <AllowModifyContents>Dozvoli izmjenu teksta dokumenta.</AllowModifyContents>
+    <AllowPrintDocument>Dozvoli štampanje dokumenta.</AllowPrintDocument>
     <Bookmarks>Prikaži sačuvane oznake.</Bookmarks>
-    <BorderType>The border type of components: simple - drawing borders of components with characters +, -, |; Unicode single - drawing the borders with single box-drawing characters, Unicode double - drawing the borders with double box-drawing characters.</BorderType>
+    <BorderType>Znakovi obruba komponenti: Jednostavan ih crta znakovima +, - i |, Jednostruka i Dvostruka jednostrukim ili dvostrukim linijama pseudografike.</BorderType>
     <Close>Zatvori pregled.</Close>
     <CloseDotMatrix>Close the Dot Matrix Viewer.</CloseDotMatrix>
-    <Compressed>Compression of the ready document. It is recommended to always include file compression.</Compressed>
-    <CompressToArchive>Pack all files and folders in the zip archive.</CompressToArchive>
-    <ContinuousPages>The mode of placing report pages as a vertical strip.</ContinuousPages>
-    <CurrentPage>Processing the current page. If this option is selected, then a selected report page will be processed.</CurrentPage>
-    <CutEdges>Trim the borders of report pages.</CutEdges>
-    <CutLongLines>Trim the long lines (text lines) by the borders of components.</CutLongLines>
+    <Compressed>Kompresuj dokument. Ostavi uključeno da bi datoteka bila manja.</Compressed>
+    <CompressToArchive>Spakuj sve datoteke i foldere u zip arhivu.</CompressToArchive>
+    <ContinuousPages>Postavi stranice izvještaja jednu ispod druge u neprekidnu traku.</ContinuousPages>
+    <CurrentPage>Samo trenutna stranica izvještaja.</CurrentPage>
+    <CutEdges>Izreži rubove stranica izvještaja.</CutEdges>
+    <CutLongLines>Izreži tekst koji ne staje u svoju komponentu umjesto prelamanja.</CutLongLines>
     <DashboardContains1>Žao nam je, ali ovaj izvještaj sadrži kontrolnu tablu.</DashboardContains1>
     <DashboardContains2>Ovaj izvještaj trebate otvoriti direktno u dizajneru!</DashboardContains2>
     <DashboardContains3>Ovo nije moguće uraditi u pregledaču izvještaja!</DashboardContains3>
-    <DigitalSignature>The digital signature of the file.</DigitalSignature>
-    <DitheringType>Dithering type: None - no dithering, Ordered, FloydSt. - with dithering.</DitheringType>
+    <DigitalSignature>Potpiši dokument digitalnim potpisom.</DigitalSignature>
+    <DitheringType>Miješanje crno-bijelih slika: None, Ordered ili Floyd-Steinberg.</DitheringType>
     <DotMatrixMode>Prikaži u Dot-Matrix modu.</DotMatrixMode>
-    <DrawBorder>Drawing the borders of components with graphic characters.</DrawBorder>
+    <DotMatrixSettings>Prikaži ili sakrij postavke.</DotMatrixSettings>
+    <DrawBorder>Iscrtaj obrube komponenti znakovima pseudografike.</DrawBorder>
     <Edit>Edit components.</Edit>
     <EmbeddedFonts>Embed the font files into a PDF file.</EmbeddedFonts>
     <EmbeddedFontsHtml>Ugradi datoteke fontova u HTML datoteku: nijedan, samo prilagođene ili sve fontove korištene u izvještaju.</EmbeddedFontsHtml>
     <EmbeddedFontsOffice>Ugradi datoteke fontova u izvezenu datoteku.</EmbeddedFontsOffice>
-    <EmbeddedImageData>Embed images directly into the HTML file.</EmbeddedImageData>
-    <Encoding>Encoding the report text after export.</Encoding>
-    <EncodingData>Encoding data file.</EncodingData>
-    <EncryptionKeyLength>The length of the encryption key. The longer the length is, the more difficult it is to decrypt the document, and, accordingly, the document security is on higher priority.</EncryptionKeyLength>
-    <ExportDataOnly>Export only Data bands (the Table component, Hierachical band).</ExportDataOnly>
-    <ExportEachPageToSheet>Export each report page in a separate Excel sheet.</ExportEachPageToSheet>
-    <ExportMode>Apply a filter condition when exporting. Data Only - only data bands (Table component, Hierarchical Band) will be exported. Data and Headers/Footers - data bands (Table component, Hierarchical Band) and their headers/footers will be exported. All Bands - All the report bands will be exported.</ExportMode>
-    <ExportModeHtml>The way of the HTML page markup.</ExportModeHtml>
-    <ExportModeRtf>Presentation of the report data after export. The Table - the report will look like a table, where each report component is a table cell. Frame - each component will look like a single frame, but without any relationship between them.</ExportModeRtf>
-    <ExportObjectFormatting>Apply formatting to export data from Data bands (Table component, Hierachical band).</ExportObjectFormatting>
+    <EmbeddedImageData>Ugradi slike direktno u HTML datoteku.</EmbeddedImageData>
+    <Encoding>Kodiranje izvezenog teksta.</Encoding>
+    <EncodingData>Kodiranje datoteke sa podacima.</EncodingData>
+    <EncryptionKeyLength>Dužina ključa za šifrovanje: što je ključ duži, to je teže dešifrovati dokument.</EncryptionKeyLength>
+    <ExportDataOnly>Izvezi samo trake za podatke: komponentu Tabela i traku Hijerarhijski podaci.</ExportDataOnly>
+    <ExportEachPageToSheet>Izvezi svaku stranicu izvještaja na zaseban Excel list.</ExportEachPageToSheet>
+    <ExportMode>Trake koje ulaze u datoteku: Samo podaci uzima trake za podatke (komponenta Tabela, traka Hijerarhijski podaci), Podaci i zaglavlja/podnožja dodaje njihova zaglavlja i podnožja, Sve trake uzima sve trake izvještaja.</ExportMode>
+    <ExportModeHtml>Način označavanja HTML stranice.</ExportModeHtml>
+    <ExportModeRtf>Izgled izvještaja nakon izvoza: Tabela stavlja svaku komponentu u ćeliju tabele, Okvir stavlja svaku komponentu u vlastiti okvir, bez veze među njima.</ExportModeRtf>
+    <ExportObjectFormatting>Zadrži formatiranje podataka iz traka za podatke (komponenta Tabela, traka Hijerarhijski podaci).</ExportObjectFormatting>
     <ExportPageBreaks>Show the borders of the report pages on the Excel sheet.</ExportPageBreaks>
-    <ExportRtfTextAsImage>Convert the RTF text into the image. If the option is enabled, then, when exporting, RichText decomposes into simpler primitives supported by the PDF format. RichText with complex formatting (embedded images, tables) cannot always be converted correctly. In this case it is recommended to enable this option.</ExportRtfTextAsImage>
+    <ExportRtfTextAsImage>Izvezi RTF tekst kao sliku. Uključi za tekst sa slikama ili tabelama, koji se ne pretvara uvijek ispravno u PDF tekst.</ExportRtfTextAsImage>
     <Find>Pronađi tekst.</Find>
     <FullScreen>Prikaži na čitavom ekranu.</FullScreen>
-    <GetCertificateFromCryptoUI>Using the interface of the system cryptography library.</GetCertificateFromCryptoUI>
-    <ImageCompressionMethod>The compression method: JPEG - this may cause loss of quality, Flate – no quality loss, Simple, Ordered, FloydSt. - images are output in monochrome.</ImageCompressionMethod>
-    <ImageFormat>The image format in the finished file.</ImageFormat>
-    <ImageQuality>Allows you to choose the ratio of the image quality/size of the file. The higher the quality is, the larger is the size of the finished file.</ImageQuality>
-    <ImageQualityPdf>The option is available only in JPEG compression, and allows you to select the ratio of the image quality/size of the file. The higher the quality is, the larger is the size of the finished file.</ImageQualityPdf>
-    <ImageResolution>The number of pixels per inch. The higher the number of pixels is, the better is the quality of the image. The size of the finished file is much larger.</ImageResolution>
+    <GetCertificateFromCryptoUI>Odaberi certifikat u prozoru sistemske biblioteke za kriptografiju.</GetCertificateFromCryptoUI>
+    <ImageCompressionMethod>Kompresija slika: JPEG može izgubiti kvalitet, Flate ga čuva, a Simple, Ordered i Floyd-Steinberg čine slike crno-bijelim.</ImageCompressionMethod>
+    <ImageFormat>Format slika u izvezenoj datoteci.</ImageFormat>
+    <ImageQuality>Omjer kvaliteta slika i veličine datoteke: što je kvalitet veći, to je datoteka veća.</ImageQuality>
+    <ImageQualityPdf>Omjer kvaliteta slika i veličine datoteke pri JPEG kompresiji: što je kvalitet veći, to je datoteka veća.</ImageQualityPdf>
+    <ImageResolution>Broj piksela po inču: što više piksela, to su slike bolje, a datoteka veća.</ImageResolution>
     <ImageResolutionMode>Kako se rezolucija primjenjuje na slike: tačno, samo za smanjenje većih ili nikako.</ImageResolutionMode>
-    <ImageType>The color scheme of the image: color - image after exporting will fully match the image in the viewer; gray – an image after exporting will be of the gray shade; monochrome - the images will be strictly black and white. At the same time, it should be considered that the monochrome has three modes None, Ordered, FloydSt.</ImageType>
-    <KillSpaceLines>Remove blank lines (rows) in the document.</KillSpaceLines>
-    <MultipleFiles>Each report page can be a separate file.</MultipleFiles>
+    <ImageType>Boje slike: Boja odgovara pregledniku, Nijanse sive koristi sive tonove, Monohromatsko koristi samo crnu i bijelu u jednom od tri načina miješanja.</ImageType>
+    <KeepProportions>Zadrži proporcije.</KeepProportions>
+    <KillSpaceGraphLines>Ukloni redove koji sadrže samo okvire i razmake.</KillSpaceGraphLines>
+    <KillSpaceLines>Ukloni prazne redove iz dokumenta.</KillSpaceLines>
+    <MultipleFiles>Izvezi svaku stranicu izvještaja u zasebnu datoteku.</MultipleFiles>
     <Open>Otvori izvještaj.</Open>
-    <OpenAfterExport>Automatic opening of the created document (after export) by the program set for these file types.</OpenAfterExport>
-    <OwnerPassword>The password to access operations with files.</OwnerPassword>
-    <PageAll>Processing of all report pages.</PageAll>
-    <PageBands>Koja zaglavlja i podnožja stranica ulaze u dokument: nijedno, prvo zaglavlje i posljednje podnožje ili sva.</PageBands>
+    <OpenAfterExport>Otvori izvezenu datoteku u programu podešenom za njen tip.</OpenAfterExport>
+    <OwnerPassword>Lozinka potrebna za promjenu dozvola dokumenta.</OwnerPassword>
+    <PageAll>Sve stranice izvještaja.</PageAll>
+    <PageBands>Zaglavlja i podnožja stranica koja ulaze u dokument: nijedno, prvo zaglavlje i posljednje podnožje ili sva.</PageBands>
     <PageDelete>Obriši odabranu stranu.</PageDelete>
     <PageDesign>Uredi stranu u dizajneru.</PageDesign>
     <PageFirst>Idi na prvu stranu.</PageFirst>
@@ -2412,37 +2415,37 @@
     <PagePrevious>Idi na prethodnu stranu.</PagePrevious>
     <PageSize>Promijeni postavke strane.</PageSize>
     <Parameters>Prikaži parametre.</Parameters>
-    <PdfACompliance>Support for the standard of the long-term archiving and storing of electronic documents.</PdfACompliance>
-    <PdfUniversalAccessibility>Podrška standardu univerzalno dostupnih elektronskih dokumenata i informacija.</PdfUniversalAccessibility>
+    <PdfACompliance>Poštuj standard PDF/A za dugoročno arhiviranje dokumenata.</PdfACompliance>
+    <PdfUniversalAccessibility>Poštuj standard PDF/UA za dokumente dostupne svima.</PdfUniversalAccessibility>
     <Print>Štampaj izvještaj.</Print>
-    <PutFeedPageCode>Feed pages in the final document with a special character.</PutFeedPageCode>
-    <RangePages>The page numbers to be processed. You can specify a single page, a list of pages (using a comma as the separator), as well as specify the range by setting the start page of the range separated by "-" and the end page of the range. For example: 1,3,5-12.</RangePages>
+    <PutFeedPageCode>Započni svaku stranicu na novom listu znakom za prelazak na novu stranicu.</PutFeedPageCode>
+    <RangePages>Raspon stranica: jedna stranica, lista odvojena zarezima ili raspon sa crticom, na primjer 1,3,5-12.</RangePages>
     <RebuildReport>Ponovo pravi izvještaj za novu stranicu, tako da podaci popune nove stranice. Bez ove opcije mijenja se samo veličina već napravljenih stranica. Nije dostupno za dokument otvoren iz datoteke.</RebuildReport>
-    <RemoveEmptySpaceAtBottom>Minimize the empty space at the bottom of the page.</RemoveEmptySpaceAtBottom>
+    <RemoveEmptySpaceAtBottom>Smanji prazan prostor na dnu stranica.</RemoveEmptySpaceAtBottom>
     <Resources>Prikaži resurse.</Resources>
-    <RestrictEditing>Limits on changes in a Word document.</RestrictEditing>
+    <RestrictEditing>Ograničenja izmjene Word dokumenta.</RestrictEditing>
     <Save>Sačuvaj izvještaj.</Save>
     <ScaleContent>Mijenja veličinu komponenti zajedno sa stranicom. Bez ove opcije zadržavaju svoju veličinu i položaj.</ScaleContent>
-    <ScaleHtml>The size (scale) of report pages and items after the export.</ScaleHtml>
-    <ScaleImage>The size (scale) of the report after exporting. The lower scale is, the greater is the number of pixels per inch, and vice versa.</ScaleImage>
+    <ScaleHtml>Razmjera stranica i elemenata izvještaja u izvezenoj datoteci.</ScaleHtml>
+    <ScaleImage>Razmjera izvještaja na slici: što je razmjera veća, to je slika veća.</ScaleImage>
     <SendEMail>Pošalji izvještaj putem Emaila.</SendEMail>
-    <Separator>Separator between the data in the CSV file.</Separator>
-    <SkipColumnHeaders>Enable/disable the column headers.</SkipColumnHeaders>
-    <StandardPdfFonts>14 standard Adobe fonts. If this option is enabled, then only standard 14 fonts will be used in the PDF file. All report fonts are converted into them.</StandardPdfFonts>
-    <SubjectNameString>Certificate identifier. The identifier is the name of the certificate owner (full line) or a part of the name (substring).</SubjectNameString>
+    <Separator>Znak koji razdvaja podatke u CSV datoteci.</Separator>
+    <SkipColumnHeaders>Izostavi zaglavlja kolona iz datoteke.</SkipColumnHeaders>
+    <StandardPdfFonts>Koristi samo 14 standardnih Adobe fontova: svi fontovi izvještaja zamjenjuju se njima.</StandardPdfFonts>
+    <SubjectNameString>Certifikat za potpisivanje: puno ime njegovog vlasnika ili dio imena.</SubjectNameString>
     <Thumbnails>Prikaži slikovne oznake strana.</Thumbnails>
-    <TiffCompressionScheme>Compression scheme for TIFF files.</TiffCompressionScheme>
+    <TiffCompressionScheme>Kompresija TIFF datoteke.</TiffCompressionScheme>
     <ToolEditor>Uredi komponente koje se mogu editovati.</ToolEditor>
     <ToolSignature>Potpiši označena mjesta.</ToolSignature>
-    <TypeExport>The file the report will be converted into.</TypeExport>
+    <TypeExport>Tip datoteke u koju se izvještaj pretvara.</TypeExport>
     <UnsafeCompilation1>Ovaj dokument koristi kompajliranje. U nekim slučajevima, ovo možda nije sigurno. Stoga će se dokument učitati u sigurnom načinu rada kako bi se umanjili potencijalni rizici.</UnsafeCompilation1>
     <UnsafeCompilation2>Ako želite da se ovaj dokument koristi u originalnom obliku, molimo da kontaktirate svoje programere.</UnsafeCompilation2>
     <UnsafeCompilationTitle>Dokument će se otvoriti u sigurnom modu</UnsafeCompilationTitle>
-    <UseDefaultSystemEncoding>Use system coding by default or specify the encoding by standard.</UseDefaultSystemEncoding>
-    <UseOnePageHeaderAndFooter>Define the page bands Header and Footer as the header and footer of the Microsoft Word document.</UseOnePageHeaderAndFooter>
-    <UsePageHeadersAndFooters>Define the bands Page Header and Footer as the header and footer of the document in Microsoft Word.</UsePageHeadersAndFooters>
+    <UseDefaultSystemEncoding>Koristi sistemsko kodiranje. Isključi da bi odabrao drugo.</UseDefaultSystemEncoding>
+    <UseOnePageHeaderAndFooter>Zadrži u Excel datoteci samo jedno zaglavlje stranice i jedno podnožje stranice, bez ponavljanja na svakoj stranici.</UseOnePageHeaderAndFooter>
+    <UsePageHeadersAndFooters>Pretvori trake Zaglavlje stranice i Podnožje stranice u zaglavlje i podnožje dokumenta.</UsePageHeadersAndFooters>
     <UserPassword>The password required to open the document.</UserPassword>
-    <UseUnicode>Extended support for encoding characters. It affects on the internal character encoding within the PDF file, and improves the copying of the text from the PDF file.</UseUnicode>
+    <UseUnicode>Čuvaj znakove kao Unicode unutar PDF datoteke, da bi se tekst ispravno kopirao.</UseUnicode>
     <ViewModeContinuous>Prikaži sve strane kao traku.</ViewModeContinuous>
     <ViewModeMultiplePages>Prikaži nekoliko strana.</ViewModeMultiplePages>
     <ViewModeSinglePage>Prikaži jednu stranu.</ViewModeSinglePage>
@@ -2450,7 +2453,7 @@
     <ZoomOnePage>Uklopi jednu stranu.</ZoomOnePage>
     <ZoomPageWidth>Uklopi širinu strane.</ZoomPageWidth>
     <ZoomTwoPages>Uklopi dvije strane.</ZoomTwoPages>
-    <ZoomTxt>The report size (scale): X - change the horizontal scale, Y - to change the vertical scale.</ZoomTxt>
+    <ZoomTxt>Razmjera teksta izvještaja: X horizontalno, Y vertikalno.</ZoomTxt>
   </HelpViewer>
   <Interface>
     <Mouse>Miš</Mouse>

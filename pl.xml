@@ -1189,14 +1189,14 @@
     <TiffCompressionScheme>Schemat kompresji TIFF:</TiffCompressionScheme>
     <title>Ustawienia eksportu</title>
     <TxtBorderType>Typ obramowania</TxtBorderType>
-    <TxtBorderTypeDouble>Podwójne Unicode</TxtBorderTypeDouble>
+    <TxtBorderTypeDouble>Podwójne</TxtBorderTypeDouble>
     <TxtBorderTypeSimple>Proste</TxtBorderTypeSimple>
-    <TxtBorderTypeSingle>Pojedyncze Unicode</TxtBorderTypeSingle>
+    <TxtBorderTypeSingle>Pojedyncze</TxtBorderTypeSingle>
     <TxtCutLongLines>Tnij długie linie</TxtCutLongLines>
     <TxtDrawBorder>Rysuj obramowanie</TxtDrawBorder>
-    <TxtKillSpaceGraphLines>Usuń odstępy lini wykresu</TxtKillSpaceGraphLines>
-    <TxtKillSpaceLines>Usuń odstępy linii</TxtKillSpaceLines>
-    <TxtPutFeedPageCode>Oznaczaj koniec strony</TxtPutFeedPageCode>
+    <TxtKillSpaceGraphLines>Usuń wiersze tylko z obramowaniem</TxtKillSpaceGraphLines>
+    <TxtKillSpaceLines>Usuń puste wiersze</TxtKillSpaceLines>
+    <TxtPutFeedPageCode>Wysuw strony po każdej stronie</TxtPutFeedPageCode>
     <Type>Typ:</Type>
     <UseDefaultSystemEncoding>Użyj domyślnego kodowania</UseDefaultSystemEncoding>
     <UseDigitalSignature>Użyj podpisu cyfrowego</UseDigitalSignature>
@@ -2344,62 +2344,65 @@
     <StiTreeViewControl>Wyświetla dane hierarchiczne jako drzewo.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
-    <AddPageBreaks>Wizualny separator stron raportu</AddPageBreaks>
-    <AllowAddOrModifyTextAnnotations>Ograniczony dostęp do pracy z adnotacjami w dokumencie </AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Ograniczony dostęp do kopiowania informacji </AllowCopyTextAndGraphics>
-    <AllowEditable>Pozwala na zmianę tych składników, które mają możliwość edycji właściwości.</AllowEditable>
-    <AllowModifyContents>Ograniczony dostęp do edytowania tekstu </AllowModifyContents>
-    <AllowPrintDocument>Ograniczony dostęp do operacji drukowania </AllowPrintDocument>
+    <AddPageBreaks>Pokaż separator między stronami raportu.</AddPageBreaks>
+    <AllowAddOrModifyTextAnnotations>Zezwól na dodawanie i zmianę adnotacji.</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Zezwól na kopiowanie tekstu i grafiki dokumentu.</AllowCopyTextAndGraphics>
+    <AllowEditable>Zezwól na zmianę elementów, które mają włączoną właściwość Edytowalny.</AllowEditable>
+    <AllowModifyContents>Zezwól na zmianę tekstu dokumentu.</AllowModifyContents>
+    <AllowPrintDocument>Zezwól na drukowanie dokumentu.</AllowPrintDocument>
     <Bookmarks>Wyświetl zakładki.</Bookmarks>
-    <BorderType>Typ obramowania elementów: prosty – rysowanie obramowania elementów przy użyciu znaków +, -, |; Unicode pojedynczy – rysowanie obramowań przy użyciu pojedynczych znaków do rysowania ramek, Unicode podwójny – rysowanie obramowań przy użyciu podwójnych znaków do rysowania ramek </BorderType>
+    <BorderType>Znaki obramowań elementów: Proste rysuje je znakami +, - i |, Pojedyncze i Podwójne pojedynczymi lub podwójnymi liniami semigraficznymi.</BorderType>
     <Close>Zamknij podgląd.</Close>
     <CloseDotMatrix>Zamknij przeglądarkę mozaikową i powróć do modyfikacji raportu.</CloseDotMatrix>
-    <Compressed>Kompresja gotowego dokumentu. Zawsze zaleca się załączenie kompresji pliku. </Compressed>
-    <CompressToArchive>Spakuj wszystkie pliki i foldery do archiwum zip. </CompressToArchive>
-    <ContinuousPages>Tryb umieszczania stron raportu jako pionowego paska </ContinuousPages>
-    <CurrentPage>Przetwarzanie bieżącej strony. Jeśli zostanie wybrana ta opcja, będzie przetwarzana wybrana strona raportu. </CurrentPage>
-    <CutEdges>Przycinaj obramowania stron raportu. </CutEdges>
-    <CutLongLines>Przycinaj długie wiersze (wiersze tekstowe) przy obramowaniach elementów. </CutLongLines>
+    <Compressed>Kompresuj dokument. Pozostaw włączone, aby plik był mniejszy.</Compressed>
+    <CompressToArchive>Spakuj wszystkie pliki i foldery do archiwum zip.</CompressToArchive>
+    <ContinuousPages>Umieść strony raportu jedna pod drugą w jednym ciągłym pasie.</ContinuousPages>
+    <CurrentPage>Tylko bieżąca strona raportu.</CurrentPage>
+    <CutEdges>Przytnij krawędzie stron raportu.</CutEdges>
+    <CutLongLines>Obetnij tekst, który nie mieści się w swoim elemencie, zamiast go zawijać.</CutLongLines>
     <DashboardContains1>Przepraszamy, ale ten raport zawiera dashboard.</DashboardContains1>
     <DashboardContains2>Należy otworzyć ten raport bezpośrednio w designerze!</DashboardContains2>
     <DashboardContains3>Nie możesz tego zrobić z przeglądarki raportów!</DashboardContains3>
-    <DigitalSignature>Podpis cyfrowy pliku </DigitalSignature>
-    <DitheringType>Typ symulacji kolorów: Brak – brak symulacji kolorów, Uporządkowany, FloydSt – z symulacją kolorów. </DitheringType>
+    <DigitalSignature>Podpisz dokument podpisem cyfrowym.</DigitalSignature>
+    <DitheringType>Dithering obrazów czarno-białych: None, Ordered lub Floyd-Steinberg.</DitheringType>
     <DotMatrixMode>Wyświetl w trybie matrycy punktowej.</DotMatrixMode>
-    <DrawBorder>Rysowanie obramowań elementów przy użyciu znaków graficznych </DrawBorder>
+    <DotMatrixSettings>Pokaż lub ukryj ustawienia.</DotMatrixSettings>
+    <DrawBorder>Rysuj obramowania elementów znakami semigraficznymi.</DrawBorder>
     <Edit>Modyfikuj komponenty.</Edit>
     <EmbeddedFonts>Wbuduj pliki z czcionkami do pliku PDF. </EmbeddedFonts>
     <EmbeddedFontsHtml>Wbuduj pliki czcionek do pliku HTML: żadne, tylko niestandardowe lub wszystkie czcionki użyte w raporcie.</EmbeddedFontsHtml>
     <EmbeddedFontsOffice>Wbuduj pliki czcionek do eksportowanego pliku.</EmbeddedFontsOffice>
-    <EmbeddedImageData>Wbuduj obrazy bezpośrednio do pliku HTML </EmbeddedImageData>
-    <Encoding>Zakodowanie tekstu raportu po eksporcie </Encoding>
-    <EncodingData>Zakodowanie pliku z danymi </EncodingData>
-    <EncryptionKeyLength>Długość klucza szyfrującego. Im większa jest długość klucza, tym trudniej jest odszyfrować dokument, a zatem bezpieczeństwo dokumentu ma większy priorytet. </EncryptionKeyLength>
-    <ExportDataOnly>Eksportuj tylko paski danych (element Tabela, pasek hierarchiczny). </ExportDataOnly>
-    <ExportEachPageToSheet>Eksportuj każdą stronę raportu w oddzielnym arkuszu Excela. </ExportEachPageToSheet>
-    <ExportMode>Stosuj warunek filtrowania przy eksportowaniu. Tylko dane – będą eksportowane tylko paski danych (element Tabela, Pasek hierarchiczny). Będą eksportowane Dane i Nagłówki/ Stopki – paski danych (element Tabela, pasek hierarchiczny) oraz ich nagłówki/ stopki. Wszystkie paski – będą eksportowane wszystkie paski raportu. </ExportMode>
-    <ExportModeHtml>Proces znakowania strony HTML </ExportModeHtml>
-    <ExportModeRtf>Prezentacja danych z raportu po eksporcie. Tabela - raport będzie wyglądał jak tabela, w której każdy element raportu stanowi komórkę tabeli. Ramka - każdy element raportu będzie wyglądał jak pojedyncza ramka, lecz bez żadnego powiązania pomiędzy nimi. </ExportModeRtf>
-    <ExportObjectFormatting>Stosuj formatowanie do eksportu danych z pasków danych (element Tabela, pasek hierarchiczny). </ExportObjectFormatting>
+    <EmbeddedImageData>Osadź obrazy bezpośrednio w pliku HTML.</EmbeddedImageData>
+    <Encoding>Kodowanie wyeksportowanego tekstu.</Encoding>
+    <EncodingData>Kodowanie pliku danych.</EncodingData>
+    <EncryptionKeyLength>Długość klucza szyfrowania: im dłuższy klucz, tym trudniej odszyfrować dokument.</EncryptionKeyLength>
+    <ExportDataOnly>Eksportuj tylko paski danych: element Tabela i pasek hierarchiczny.</ExportDataOnly>
+    <ExportEachPageToSheet>Eksportuj każdą stronę raportu do osobnego arkusza Excel.</ExportEachPageToSheet>
+    <ExportMode>Paski, które trafiają do pliku: Tylko dane bierze paski danych (element Tabela, pasek hierarchiczny), Dane i nagłówki/stopki dodaje ich nagłówki i stopki, Wszystkie pasma bierze wszystkie paski.</ExportMode>
+    <ExportModeHtml>Znaczniki strony HTML.</ExportModeHtml>
+    <ExportModeRtf>Układ raportu po eksporcie: Tabela umieszcza każdy element w komórce tabeli, Ramka umieszcza każdy element w osobnej ramce, bez powiązania między nimi.</ExportModeRtf>
+    <ExportObjectFormatting>Zachowaj formatowanie danych z pasków danych (element Tabela, pasek hierarchiczny).</ExportObjectFormatting>
     <ExportPageBreaks>Pokazuj obramowania stron raportu na arkuszu Excela. </ExportPageBreaks>
-    <ExportRtfTextAsImage>Przekształć tekst RTF na obraz. Jeśli ta opcja jest wyłączona, to podczas eksportowania format RichText rozkłada się na prostsze podstawowe elementy obsługiwane przez format PDF. RichText o skomplikowanym formatowaniu (wbudowane obrazy, tabele) nie zawsze może być przekształcony prawidłowo. W tym przypadku, zaleca się włączenie tej opcji. </ExportRtfTextAsImage>
+    <ExportRtfTextAsImage>Eksportuj tekst RTF jako obraz. Włącz dla tekstu sformatowanego z obrazami lub tabelami, który nie zawsze poprawnie zamienia się w tekst PDF.</ExportRtfTextAsImage>
     <Find>Znajdź tekst.</Find>
     <FullScreen>Wyświetl na pełnym ekranie.</FullScreen>
-    <GetCertificateFromCryptoUI>Używanie interfejsu biblioteki kryptograficznej systemu </GetCertificateFromCryptoUI>
-    <ImageCompressionMethod>Metoda kompresji: JPEG – może spowodować utratę jakości, Flate – bez utraty jakości, Prosty, Uporządkowany, FloydSt – obrazy stanowią wyjście monochromatyczne. </ImageCompressionMethod>
-    <ImageFormat>Format obrazu jest plikiem końcowym. </ImageFormat>
-    <ImageQuality>Pozwala wybrać stosunek jakości obrazu do wielkości pliku. Im lepsza jest jakość, tym większy jest plik końcowy. </ImageQuality>
-    <ImageQualityPdf>Opcja ta jest dostępna tylko w kompresji JPEG i pozwala wybrać stosunek jakości obrazu do wielkości pliku. Im lepsza jest jakość, tym większy jest plik końcowy. </ImageQualityPdf>
-    <ImageResolution>Liczba pikseli na cal. Im większa jest liczba pikseli, tym lepsza jest jakość obrazu. Rozmiar końcowego pliku jest dużo większy. </ImageResolution>
+    <GetCertificateFromCryptoUI>Wybierz certyfikat w oknie systemowej biblioteki kryptograficznej.</GetCertificateFromCryptoUI>
+    <ImageCompressionMethod>Kompresja obrazów: JPEG może obniżyć jakość, Flate ją zachowuje, a Simple, Ordered i Floyd-Steinberg zamieniają obrazy na czarno-białe.</ImageCompressionMethod>
+    <ImageFormat>Format obrazów w wyeksportowanym pliku.</ImageFormat>
+    <ImageQuality>Proporcja jakości obrazów i rozmiaru pliku: im wyższa jakość, tym większy plik.</ImageQuality>
+    <ImageQualityPdf>Proporcja jakości obrazów i rozmiaru pliku przy kompresji JPEG: im wyższa jakość, tym większy plik.</ImageQualityPdf>
+    <ImageResolution>Liczba pikseli na cal: im więcej pikseli, tym lepsze obrazy i tym większy plik.</ImageResolution>
     <ImageResolutionMode>Jak rozdzielczość jest stosowana do obrazów: dokładnie, tylko do zmniejszania większych lub wcale.</ImageResolutionMode>
-    <ImageType>Schemat kolorów obrazu: kolor – obraz po eksporcie jest całkowicie zgodny z obrazem w przeglądarce; szary – obraz po eksporcie jest przedstawiony w odcieniu szarości; monochromatyczny – obrazy są dokładnie czarno-białe. Jednocześnie, należy zauważyć, że obraz monochromatyczny ma trzy tryby Brak, Uporządkowany, FloydSt. </ImageType>
-    <KillSpaceLines>Usuń puste wiersze (rzędy) w dokumencie. </KillSpaceLines>
-    <MultipleFiles>Każda strona może być oddzielnym plikiem. </MultipleFiles>
+    <ImageType>Kolory obrazu: Kolor odpowiada podglądowi, Skala szarości używa odcieni szarości, Monochromatyczny używa tylko czerni i bieli w jednym z trzech trybów ditheringu.</ImageType>
+    <KeepProportions>Zachowaj proporcje.</KeepProportions>
+    <KillSpaceGraphLines>Usuń wiersze, które zawierają tylko obramowania i spacje.</KillSpaceGraphLines>
+    <KillSpaceLines>Usuń puste wiersze z dokumentu.</KillSpaceLines>
+    <MultipleFiles>Eksportuj każdą stronę raportu do osobnego pliku.</MultipleFiles>
     <Open>Otwórz raport.</Open>
-    <OpenAfterExport>Automatyczne otwieranie utworzonego dokumentu (po eksporcie) przez program ustawiony do plików tego typu </OpenAfterExport>
-    <OwnerPassword>Hasło dostępu do operacji na plikach </OwnerPassword>
-    <PageAll>Przetwarzanie wszystkich stron raportu </PageAll>
-    <PageBands>Które nagłówki i stopki stron trafiają do dokumentu: żadne, pierwszy nagłówek i ostatnia stopka lub wszystkie.</PageBands>
+    <OpenAfterExport>Otwórz wyeksportowany plik w programie przypisanym do jego typu.</OpenAfterExport>
+    <OwnerPassword>Hasło wymagane do zmiany uprawnień dokumentu.</OwnerPassword>
+    <PageAll>Wszystkie strony raportu.</PageAll>
+    <PageBands>Nagłówki i stopki stron, które trafiają do dokumentu: żadne, pierwszy nagłówek i ostatnia stopka lub wszystkie.</PageBands>
     <PageDelete>Usuń wybraną stronę.</PageDelete>
     <PageDesign>Modyfikuj stronę w projektancie.</PageDesign>
     <PageFirst>Idź do pierwszej strony.</PageFirst>
@@ -2410,37 +2413,37 @@
     <PagePrevious>Idź do poprzedniej strony.</PagePrevious>
     <PageSize>Zmień ustawienia strony.</PageSize>
     <Parameters>Wyświetl parametry.</Parameters>
-    <PdfACompliance>Obsługa standardu długoterminowej archiwizacji i przechowywania dokumentów elektronicznych. </PdfACompliance>
-    <PdfUniversalAccessibility> Obsługa standardu uniwersalnie dostępnych dokumentów elektronicznych i informacji.</PdfUniversalAccessibility>
+    <PdfACompliance>Przestrzegaj standardu PDF/A do długoterminowej archiwizacji dokumentów.</PdfACompliance>
+    <PdfUniversalAccessibility>Przestrzegaj standardu PDF/UA dla dokumentów dostępnych dla wszystkich.</PdfUniversalAccessibility>
     <Print>Wydrukuj raport.</Print>
-    <PutFeedPageCode>Wstaw znak specjalny na stronach dokumentu końcowego. </PutFeedPageCode>
-    <RangePages>Numery stron do przetworzenia. Można podać jedną stronę, listę stron (stosując przecinek jako znak rozdzielający), jak również podać zakres stron poprzez podanie strony początkowej i końcowej zakresu oddzielonych znakiem "-". Na przykład: 1,3,5-12. </RangePages>
+    <PutFeedPageCode>Zaczynaj każdą stronę od nowego arkusza znakiem wysuwu strony.</PutFeedPageCode>
+    <RangePages>Zakres stron: jedna strona, lista rozdzielona przecinkami lub zakres z łącznikiem, na przykład 1,3,5-12.</RangePages>
     <RebuildReport>Buduje raport od nowa dla nowej strony, aby dane wypełniły nowe strony. Bez tej opcji zmienia się tylko rozmiar już zbudowanych stron. Niedostępne dla dokumentu otwartego z pliku.</RebuildReport>
-    <RemoveEmptySpaceAtBottom>Minimalizuj puste miejsce na dole strony. </RemoveEmptySpaceAtBottom>
+    <RemoveEmptySpaceAtBottom>Zmniejsz puste miejsce na dole stron.</RemoveEmptySpaceAtBottom>
     <Resources>Wyświetl zasoby.</Resources>
-    <RestrictEditing>Ograniczenie zmian w dokumencie Word.</RestrictEditing>
+    <RestrictEditing>Ograniczenia zmian w dokumencie Word.</RestrictEditing>
     <Save>Zapisz raport.</Save>
     <ScaleContent>Zmienia rozmiar komponentów razem ze stroną. Bez tej opcji zachowują swój rozmiar i położenie.</ScaleContent>
-    <ScaleHtml>Rozmiar (skala) stron i elementów raportu po eksporcie. </ScaleHtml>
-    <ScaleImage>Rozmiar (skala) raportu po eksporcie. Im mniejsza jest skala, tym większa jest liczba pikseli na cal i odwrotnie. </ScaleImage>
+    <ScaleHtml>Skala stron i elementów raportu w wyeksportowanym pliku.</ScaleHtml>
+    <ScaleImage>Skala raportu na obrazie: im większa skala, tym większy obraz.</ScaleImage>
     <SendEMail>Wyślij raport przez e-mail.</SendEMail>
-    <Separator>Separator pomiędzy danymi w pliku CSV. </Separator>
-    <SkipColumnHeaders>Otwórz/ zamknij nagłówki kolumn. </SkipColumnHeaders>
-    <StandardPdfFonts>14 standardowych zestawów czcionek Adobe. Jeśli opcja ta jest wybrana, używanych będzie tylko 14 standardowych zestawów czcionek w pliku PDF. Wszystkie czcionki raportu są przekształcane na powyższe czcionki. </StandardPdfFonts>
-    <SubjectNameString>Identyfikator certyfikatu. Identyfikator jest nazwą właściciela certyfikatu (pełny wiersz) lub częścią nazwy (podłańcuch). </SubjectNameString>
+    <Separator>Znak, który rozdziela dane w pliku CSV.</Separator>
+    <SkipColumnHeaders>Pomiń nagłówki kolumn w pliku.</SkipColumnHeaders>
+    <StandardPdfFonts>Używaj tylko 14 standardowych czcionek Adobe: wszystkie czcionki raportu zostaną nimi zastąpione.</StandardPdfFonts>
+    <SubjectNameString>Certyfikat do podpisu: pełna nazwa jego właściciela lub jej część.</SubjectNameString>
     <Thumbnails>Wyświetl miniatury stron.</Thumbnails>
-    <TiffCompressionScheme>Schemat kompresji dla plików TIFF </TiffCompressionScheme>
+    <TiffCompressionScheme>Kompresja pliku TIFF.</TiffCompressionScheme>
     <ToolEditor>Edytuj edytowalne komponenty.</ToolEditor>
     <ToolSignature>Podpisz oznaczone miejsca.</ToolSignature>
-    <TypeExport>Plik z raportem zostanie przekształcony na: </TypeExport>
+    <TypeExport>Typ pliku, na który zostanie przekształcony raport.</TypeExport>
     <UnsafeCompilation1>Ten dokument wykorzystuje proces kompilacji. W niektórych przypadkach może to nie być bezpieczne. Dlatego dokument zostanie załadowany w trybie bezpiecznym, aby zminimalizować potencjalne ryzyko.</UnsafeCompilation1>
     <UnsafeCompilation2>Jeśli chcesz, aby ten dokument był używany w oryginalnej formie, skontaktuj się z programistami.</UnsafeCompilation2>
     <UnsafeCompilationTitle>Dokument zostanie otwarty w trybie bezpiecznym</UnsafeCompilationTitle>
-    <UseDefaultSystemEncoding>Stosuj kodowanie systemowe domyślnie lub podaj kodowanie według standardu. </UseDefaultSystemEncoding>
-    <UseOnePageHeaderAndFooter>Definiuj paski strony Nagłówek i Stopkę jako nagłówek i stopkę dokumentu w MS Word. </UseOnePageHeaderAndFooter>
-    <UsePageHeadersAndFooters>Definiuj paski Nagłówek i Stopkę Strony jako nagłówek i stopkę dokumentu w MS Word. </UsePageHeadersAndFooters>
+    <UseDefaultSystemEncoding>Używaj kodowania systemowego. Wyłącz, aby wybrać inne.</UseDefaultSystemEncoding>
+    <UseOnePageHeaderAndFooter>Zostaw w pliku Excel tylko jeden nagłówek strony i jedną stopkę strony zamiast powtarzać je na każdej stronie.</UseOnePageHeaderAndFooter>
+    <UsePageHeadersAndFooters>Zamień paski Nagłówek strony i Stopka strony w nagłówek i stopkę dokumentu.</UsePageHeadersAndFooters>
     <UserPassword>Hasło wymagane do otwarcia dokumentu </UserPassword>
-    <UseUnicode>Rozszerzona obsługa znaków kodujących. Ma ona wpływ na kodowanie znaku wewnętrznego w pliku PDF i poprawia kopiowanie tekstu z pliku PDF. </UseUnicode>
+    <UseUnicode>Przechowuj znaki w Unicode wewnątrz pliku PDF, aby tekst był poprawnie kopiowany.</UseUnicode>
     <ViewModeContinuous>Wyświetl wszystkie strony jako wstęgę.</ViewModeContinuous>
     <ViewModeMultiplePages>Wyświetl kilka stron.</ViewModeMultiplePages>
     <ViewModeSinglePage>Wyświetl pojedynczą stronę.</ViewModeSinglePage>
@@ -2448,7 +2451,7 @@
     <ZoomOnePage>Dopasuj jedną stronę.</ZoomOnePage>
     <ZoomPageWidth>Dopasuj szerokość strony.</ZoomPageWidth>
     <ZoomTwoPages>Dopasuj dwie strony.</ZoomTwoPages>
-    <ZoomTxt>Rozmiar raportu (skala): X – zmiana skali poziomej, Y – zmiana skali pionowej </ZoomTxt>
+    <ZoomTxt>Skala tekstu raportu: X w poziomie, Y w pionie.</ZoomTxt>
   </HelpViewer>
   <Interface>
     <Mouse>myszka</Mouse>

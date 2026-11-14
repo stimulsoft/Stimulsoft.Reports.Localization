@@ -1076,7 +1076,7 @@
   </ExceptionProvider>
   <Export>
     <AddPageBreaks>Tambahkan pemisah halaman</AddPageBreaks>
-    <AllBands>Semua Berkas</AllBands>
+    <AllBands>Semua Band</AllBands>
     <AllowAddOrModifyTextAnnotations>Memperbolehkan menambah atau merubah Catatan</AllowAddOrModifyTextAnnotations>
     <AllowCopyTextAndGraphics>Memperbolehkan manyalin tulisan dan grafik</AllowCopyTextAndGraphics>
     <AllowEditable>Izinkan diedit:</AllowEditable>
@@ -1155,7 +1155,7 @@
     <ImageCompressionMethod>Metode Kompresi Gambar:</ImageCompressionMethod>
     <ImageCutEdges>Potong tepi</ImageCutEdges>
     <ImageFormat>Format Gambar:</ImageFormat>
-    <ImageGrayscale>Hitam Putih</ImageGrayscale>
+    <ImageGrayscale>Skala Abu-abu</ImageGrayscale>
     <ImageMonochrome>Satu Warna</ImageMonochrome>
     <ImageQuality>Kualitas Gambar</ImageQuality>
     <ImageResolution>Resolusi Gambar:</ImageResolution>
@@ -1188,14 +1188,14 @@
     <TiffCompressionScheme>Skema kompresi TIFF:</TiffCompressionScheme>
     <title>Pengaturan Ekspor</title>
     <TxtBorderType>Bentuk Pinggiran</TxtBorderType>
-    <TxtBorderTypeDouble>Unicode-Double</TxtBorderTypeDouble>
+    <TxtBorderTypeDouble>Ganda</TxtBorderTypeDouble>
     <TxtBorderTypeSimple>Sederhana</TxtBorderTypeSimple>
-    <TxtBorderTypeSingle>Unicode-Single</TxtBorderTypeSingle>
+    <TxtBorderTypeSingle>Tunggal</TxtBorderTypeSingle>
     <TxtCutLongLines>Potong Garis Panjang</TxtCutLongLines>
     <TxtDrawBorder>Menggambar Pinggiran</TxtDrawBorder>
-    <TxtKillSpaceGraphLines>Hilangkan Jarak Garis Grafik</TxtKillSpaceGraphLines>
-    <TxtKillSpaceLines>Matikan Jarak Garis</TxtKillSpaceLines>
-    <TxtPutFeedPageCode>Letakkan Kode HalamanPut</TxtPutFeedPageCode>
+    <TxtKillSpaceGraphLines>Hapus Baris yang Hanya Berisi Bingkai</TxtKillSpaceGraphLines>
+    <TxtKillSpaceLines>Hapus Baris Kosong</TxtKillSpaceLines>
+    <TxtPutFeedPageCode>Ganti Halaman Setelah Setiap Halaman</TxtPutFeedPageCode>
     <Type>Tipe:</Type>
     <UseDefaultSystemEncoding>Gunakan Sistem Penyandian Default</UseDefaultSystemEncoding>
     <UseDigitalSignature>Gunakan Tanda Tangan Digital</UseDigitalSignature>
@@ -2343,62 +2343,65 @@
     <StiTreeViewControl>Menampilkan data hierarkis sebagai pohon.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
-    <AddPageBreaks>Visual pemisah halaman laporan.</AddPageBreaks>
-    <AllowAddOrModifyTextAnnotations>akses terbatas untuk bekerja dengan penjelasan dalam dokumen.</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Terbatasnya akses terhadap menyalin informasi.</AllowCopyTextAndGraphics>
-    <AllowEditable>Memungkinkan mengubah komponen dengan properti Editable diaktifkan.</AllowEditable>
-    <AllowModifyContents>akses terbatas ke mengedit teks.</AllowModifyContents>
-    <AllowPrintDocument>akses terbatas untuk operasi cetak.</AllowPrintDocument>
+    <AddPageBreaks>Tampilkan pemisah di antara halaman laporan.</AddPageBreaks>
+    <AllowAddOrModifyTextAnnotations>Izinkan penambahan dan perubahan anotasi.</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Izinkan penyalinan teks dan grafik dokumen.</AllowCopyTextAndGraphics>
+    <AllowEditable>Izinkan perubahan komponen yang properti Bisa Diedit-nya aktif.</AllowEditable>
+    <AllowModifyContents>Izinkan perubahan teks dokumen.</AllowModifyContents>
+    <AllowPrintDocument>Izinkan pencetakan dokumen.</AllowPrintDocument>
     <Bookmarks>Tampilkan penanda buku.</Bookmarks>
-    <BorderType>Jenis perbatasan komponen: sederhana - gambar perbatasan komponen dengan karakter +, -, |; Unicode tunggal - menggambar perbatasan dengan single box-gambar karakter, Unicode ganda -. Menggambar perbatasan dengan dua karakter kotak-gambar</BorderType>
+    <BorderType>Karakter garis tepi komponen: Sederhana menggambarnya dengan +, - dan |, Tunggal dan Ganda dengan garis gambar kotak tunggal atau ganda.</BorderType>
     <Close>Tutup pratinjau.</Close>
     <CloseDotMatrix>Tutup Pelihat Laporan Dot Matrix.</CloseDotMatrix>
-    <Compressed>Kompresi dokumen siap. Dianjurkan untuk selalu menyertakan file kompresi.</Compressed>
-    <CompressToArchive>Paket semua file dan folder dalam arsip zip.</CompressToArchive>
-    <ContinuousPages>Modus menempatkan halaman laporan sebagai strip vertikal.</ContinuousPages>
-    <CurrentPage>Pengolahan halaman saat ini. Jika opsi ini dipilih, maka halaman laporan yang dipilih akan diproses.</CurrentPage>
-    <CutEdges>Potong perbatasan halaman laporan.</CutEdges>
-    <CutLongLines>Potong garis panjang (baris teks) dengan batas komponen.</CutLongLines>
+    <Compressed>Kompres dokumen. Biarkan aktif agar file lebih kecil.</Compressed>
+    <CompressToArchive>Kemas semua file dan folder ke dalam arsip zip.</CompressToArchive>
+    <ContinuousPages>Letakkan halaman laporan berurutan ke bawah dalam satu strip.</ContinuousPages>
+    <CurrentPage>Hanya halaman laporan saat ini.</CurrentPage>
+    <CutEdges>Potong tepi halaman laporan.</CutEdges>
+    <CutLongLines>Potong teks yang tidak muat di komponennya, alih-alih memindahkannya ke baris berikutnya.</CutLongLines>
     <DashboardContains1>Maaf, tetapi laporan ini berisi dasbor.</DashboardContains1>
     <DashboardContains2>Anda harus membuka laporan ini langsung di perancang!</DashboardContains2>
     <DashboardContains3>Anda tidak dapat melakukan itu dari penampil laporan!</DashboardContains3>
-    <DigitalSignature>Tanda tangan digital file.</DigitalSignature>
-    <DitheringType>Dithering Jenis: Tidak ada - ada dithering, Memerintahkan, FloydSt. -. Dengan dithering</DitheringType>
+    <DigitalSignature>Tandatangani dokumen dengan tanda tangan digital.</DigitalSignature>
+    <DitheringType>Dithering gambar hitam putih: None, Ordered, atau Floyd-Steinberg.</DitheringType>
     <DotMatrixMode>Lihat dalam mode dot-matrix.</DotMatrixMode>
-    <DrawBorder>Menggambar perbatasan komponen dengan karakter grafis.</DrawBorder>
+    <DotMatrixSettings>Tampilkan atau sembunyikan pengaturan.</DotMatrixSettings>
+    <DrawBorder>Gambarkan garis tepi komponen dengan karakter gambar kotak.</DrawBorder>
     <Edit>Rubah komponen.</Edit>
     <EmbeddedFonts>Embed file font ke file PDF.</EmbeddedFonts>
     <EmbeddedFontsHtml>Embed file font ke file HTML: tidak ada, hanya font kustom, atau semua font yang digunakan dalam laporan.</EmbeddedFontsHtml>
     <EmbeddedFontsOffice>Embed file font ke file yang diekspor.</EmbeddedFontsOffice>
-    <EmbeddedImageData>Embed gambar langsung ke file HTML.</EmbeddedImageData>
-    <Encoding>Pengkodean teks laporan setelah ekspor.</Encoding>
-    <EncodingData>Pengkodean data file.</EncodingData>
-    <EncryptionKeyLength>Panjang kunci enkripsi. Semakin lama panjang, semakin sulit untuk mendekripsi dokumen, dan, sesuai, keamanan dokumen pada prioritas yang lebih tinggi.</EncryptionKeyLength>
-    <ExportDataOnly>Ekspor hanya band Data (komponen Table, hirarkis band).</ExportDataOnly>
-    <ExportEachPageToSheet>Ekspor setiap halaman laporan dalam lembar Excel terpisah.</ExportEachPageToSheet>
-    <ExportMode>Terapkan kondisi filter bila mengekspor. Data Only - hanya band data (komponen Table, hirarkis Band) akan diekspor. Data dan Header / Footers - band data (komponen Table, hirarkis Band) dan header mereka / footer akan diekspor. Semua Band -. Semua band laporan akan diekspor</ExportMode>
-    <ExportModeHtml>Cara dari halaman HTML markup.</ExportModeHtml>
-    <ExportModeRtf>Penyajian data laporan setelah ekspor. Tabel - laporan akan terlihat seperti sebuah meja, di mana setiap komponen laporan adalah sel tabel. Bingkai -. Setiap komponen akan terlihat seperti satu frame, tetapi tanpa hubungan antara mereka</ExportModeRtf>
-    <ExportObjectFormatting>Terapkan format data ekspor dari band Data (komponen Table, band hirarkis).</ExportObjectFormatting>
+    <EmbeddedImageData>Sematkan gambar langsung ke dalam file HTML.</EmbeddedImageData>
+    <Encoding>Pengodean teks hasil ekspor.</Encoding>
+    <EncodingData>Pengodean file data.</EncodingData>
+    <EncryptionKeyLength>Panjang kunci enkripsi: semakin panjang kunci, semakin sulit dokumen didekripsi.</EncryptionKeyLength>
+    <ExportDataOnly>Ekspor hanya band Data: komponen Tabel dan band hierarkis.</ExportDataOnly>
+    <ExportEachPageToSheet>Ekspor setiap halaman laporan ke lembar Excel tersendiri.</ExportEachPageToSheet>
+    <ExportMode>Band yang masuk ke file: Hanya Data mengambil band Data (komponen Tabel, band hierarkis), Data dan Headers/Footers menambahkan header dan footer-nya, Semua Band mengambil semua band.</ExportMode>
+    <ExportModeHtml>Markup halaman HTML.</ExportModeHtml>
+    <ExportModeRtf>Tata letak laporan setelah ekspor: Tabel menempatkan setiap komponen di sel tabel, Bingkai menempatkan setiap komponen di bingkainya sendiri, tanpa hubungan satu sama lain.</ExportModeRtf>
+    <ExportObjectFormatting>Pertahankan format data dari band Data (komponen Tabel, band hierarkis).</ExportObjectFormatting>
     <ExportPageBreaks>Tampilkan perbatasan halaman laporan pada lembar Excel.</ExportPageBreaks>
-    <ExportRtfTextAsImage>Mengkonversi teks RTF ke dalam gambar. Jika opsi ini diaktifkan, maka, ketika mengekspor, RichText terurai menjadi primitif sederhana didukung oleh format PDF. RichText dengan format yang kompleks (gambar tertanam, tabel) tidak selalu dapat dikonversi dengan benar. Dalam hal ini dianjurkan untuk mengaktifkan opsi ini.</ExportRtfTextAsImage>
+    <ExportRtfTextAsImage>Ekspor teks RTF sebagai gambar. Aktifkan untuk teks kaya dengan gambar atau tabel, yang tidak selalu terkonversi dengan benar menjadi teks PDF.</ExportRtfTextAsImage>
     <Find>Cari teks.</Find>
     <FullScreen>Lihat dalam layar penuh.</FullScreen>
-    <GetCertificateFromCryptoUI>Menggunakan antarmuka perpustakaan sistem kriptografi.</GetCertificateFromCryptoUI>
-    <ImageCompressionMethod>Kompresi Metode: JPEG - ini dapat menyebabkan penurunan kualitas, Flate - tanpa kehilangan kualitas, Simple, Memerintahkan, FloydSt. - Gambar adalah output dalam monokrom</ImageCompressionMethod>
-    <ImageFormat>Format gambar dalam file selesai.</ImageFormat>
-    <ImageQuality>Memungkinkan Anda untuk memilih rasio kualitas gambar / ukuran file. Semakin tinggi kualitas, semakin besar adalah ukuran file selesai.</ImageQuality>
-    <ImageQualityPdf>Pilihan ini hanya tersedia dalam kompresi JPEG, dan memungkinkan Anda untuk memilih rasio kualitas gambar / ukuran file. Semakin tinggi kualitas, semakin besar adalah ukuran file selesai.</ImageQualityPdf>
-    <ImageResolution>Jumlah pixel per inci. Semakin tinggi jumlah pixel, semakin baik kualitas gambar. Ukuran file selesai jauh lebih besar.</ImageResolution>
+    <GetCertificateFromCryptoUI>Pilih sertifikat di jendela pustaka kriptografi sistem.</GetCertificateFromCryptoUI>
+    <ImageCompressionMethod>Kompresi gambar: JPEG dapat menurunkan kualitas, Flate mempertahankannya, sedangkan Simple, Ordered, dan Floyd-Steinberg menjadikan gambar hitam putih.</ImageCompressionMethod>
+    <ImageFormat>Format gambar dalam file hasil ekspor.</ImageFormat>
+    <ImageQuality>Keseimbangan kualitas gambar dan ukuran file: semakin tinggi kualitas, semakin besar file.</ImageQuality>
+    <ImageQualityPdf>Keseimbangan kualitas gambar dan ukuran file pada kompresi JPEG: semakin tinggi kualitas, semakin besar file.</ImageQualityPdf>
+    <ImageResolution>Jumlah piksel per inci: semakin banyak piksel, semakin baik gambar dan semakin besar file.</ImageResolution>
     <ImageResolutionMode>Cara resolusi diterapkan pada gambar: persis, hanya untuk mengecilkan yang lebih besar, atau tidak sama sekali.</ImageResolutionMode>
-    <ImageType>Skema warna gambar: warna - gambar setelah mengekspor akan sepenuhnya sesuai dengan gambar di penampil; abu-abu - gambar setelah mengekspor akan dari warna abu-abu; monokrom - gambar akan ketat hitam dan putih. Pada saat yang sama, itu harus dipertimbangkan bahwa monokrom memiliki tiga mode ada, Memerintahkan, FloydSt.</ImageType>
-    <KillSpaceLines>Hapus baris kosong (baris) dalam dokumen.</KillSpaceLines>
-    <MultipleFiles>Setiap halaman laporan dapat file terpisah.</MultipleFiles>
+    <ImageType>Warna gambar: Warna sama dengan penampil, Skala Abu-abu memakai gradasi abu-abu, Satu Warna hanya memakai hitam dan putih dengan salah satu dari tiga mode dithering.</ImageType>
+    <KeepProportions>Pertahankan proporsi.</KeepProportions>
+    <KillSpaceGraphLines>Hapus baris yang hanya berisi bingkai dan spasi.</KillSpaceGraphLines>
+    <KillSpaceLines>Hapus baris kosong dari dokumen.</KillSpaceLines>
+    <MultipleFiles>Ekspor setiap halaman laporan ke file terpisah.</MultipleFiles>
     <Open>Buka laporan.</Open>
-    <OpenAfterExport>pembukaan otomatis dari dokumen yang dibuat (setelah ekspor) dengan program yang ditetapkan untuk jenis file ini.</OpenAfterExport>
-    <OwnerPassword>Sandi untuk mengakses operasi dengan file.</OwnerPassword>
-    <PageAll>Pengolahan dari semua halaman laporan.</PageAll>
-    <PageBands>Header dan footer halaman mana yang dimasukkan ke dalam dokumen: tidak ada, header pertama dan footer terakhir, atau semuanya.</PageBands>
+    <OpenAfterExport>Buka file hasil ekspor di program yang ditetapkan untuk jenisnya.</OpenAfterExport>
+    <OwnerPassword>Kata sandi yang diperlukan untuk mengubah izin dokumen.</OwnerPassword>
+    <PageAll>Semua halaman laporan.</PageAll>
+    <PageBands>Header dan footer halaman yang masuk ke dokumen: tidak ada, header pertama dan footer terakhir, atau semuanya.</PageBands>
     <PageDelete>Hapus halaman yang dipilih.</PageDelete>
     <PageDesign>Ubah halaman di designer.</PageDesign>
     <PageFirst>Pergi ke halaman pertama.</PageFirst>
@@ -2409,37 +2412,37 @@
     <PagePrevious>Pergi ke halaman sebelumnya.</PagePrevious>
     <PageSize>Ubah pengaturan halaman.</PageSize>
     <Parameters>Tampilkan parameter.</Parameters>
-    <PdfACompliance>Dukungan untuk standar pengarsipan jangka panjang dan menyimpan dokumen elektronik.</PdfACompliance>
-    <PdfUniversalAccessibility>Dukungan untuk standar dokumen dan informasi elektronik yang dapat diakses secara universal.</PdfUniversalAccessibility>
+    <PdfACompliance>Ikuti standar PDF/A untuk pengarsipan dokumen jangka panjang.</PdfACompliance>
+    <PdfUniversalAccessibility>Ikuti standar PDF/UA untuk dokumen yang dapat diakses semua orang.</PdfUniversalAccessibility>
     <Print>Cetak laporan.</Print>
-    <PutFeedPageCode>Umpan halaman dalam dokumen akhir dengan karakter khusus.</PutFeedPageCode>
-    <RangePages>Nomor halaman untuk diproses. Anda dapat menentukan satu halaman, daftar halaman (menggunakan koma sebagai pemisah), serta menentukan rentang dengan menetapkan halaman awal dari kisaran dipisahkan oleh "-" dan halaman akhir rentang. Sebagai contoh:. 1,3,5-12</RangePages>
+    <PutFeedPageCode>Mulai setiap halaman di lembar baru dengan karakter form feed.</PutFeedPageCode>
+    <RangePages>Rentang halaman: satu halaman, daftar yang dipisahkan koma, atau rentang dengan tanda hubung, misalnya 1,3,5-12.</RangePages>
     <RebuildReport>Membangun ulang laporan untuk halaman baru agar data mengisi halaman baru. Tanpa opsi ini, hanya ukuran halaman yang sudah dibangun yang berubah. Tidak tersedia untuk dokumen yang dibuka dari file.</RebuildReport>
-    <RemoveEmptySpaceAtBottom>Minimalkan ruang kosong di bagian bawah halaman.</RemoveEmptySpaceAtBottom>
+    <RemoveEmptySpaceAtBottom>Perkecil ruang kosong di bagian bawah halaman.</RemoveEmptySpaceAtBottom>
     <Resources>Tampilkan sumber daya.</Resources>
-    <RestrictEditing>Batas perubahan dalam dokumen Word.</RestrictEditing>
+    <RestrictEditing>Batasan perubahan dokumen Word.</RestrictEditing>
     <Save>Simpan laporan.</Save>
     <ScaleContent>Mengubah ukuran komponen bersama halaman. Tanpa opsi ini, komponen mempertahankan ukuran dan posisinya.</ScaleContent>
-    <ScaleHtml>Ukuran (skala) dari halaman laporan dan barang-barang setelah ekspor.</ScaleHtml>
-    <ScaleImage>Ukuran (skala) dari laporan setelah ekspor. Skala yang lebih rendah adalah, lebih besar adalah jumlah pixel per inci, dan sebaliknya.</ScaleImage>
+    <ScaleHtml>Skala halaman dan elemen laporan dalam file hasil ekspor.</ScaleHtml>
+    <ScaleImage>Skala laporan dalam gambar: semakin besar skala, semakin besar gambar.</ScaleImage>
     <SendEMail>Kirim laporan lewat Email.</SendEMail>
-    <Separator>Separator antara data di file CSV.</Separator>
-    <SkipColumnHeaders>Mengaktifkan / menonaktifkan header kolom.</SkipColumnHeaders>
-    <StandardPdfFonts>14 font Adobe standar. Jika opsi ini diaktifkan, maka hanya standar 14 font akan digunakan dalam file PDF. Semua font laporan dikonversi ke mereka.</StandardPdfFonts>
-    <SubjectNameString>pengenal Sertifikat. identifier adalah nama dari pemilik sertifikat (garis penuh) atau bagian dari nama (substring).</SubjectNameString>
+    <Separator>Karakter yang memisahkan data dalam file CSV.</Separator>
+    <SkipColumnHeaders>Jangan sertakan header kolom dalam file.</SkipColumnHeaders>
+    <StandardPdfFonts>Gunakan hanya 14 font standar Adobe: semua font laporan diganti dengan font tersebut.</StandardPdfFonts>
+    <SubjectNameString>Sertifikat untuk penandatanganan: nama lengkap pemiliknya atau sebagian darinya.</SubjectNameString>
     <Thumbnails>Tampilkan thumbnail halaman.</Thumbnails>
-    <TiffCompressionScheme>Skema kompresi untuk file TIFF.</TiffCompressionScheme>
+    <TiffCompressionScheme>Kompresi file TIFF.</TiffCompressionScheme>
     <ToolEditor>Ubah komponen yang bisa diedit.</ToolEditor>
     <ToolSignature>Tanda tangani tempat yang ditandai.</ToolSignature>
-    <TypeExport>File laporan akan diubah menjadi.</TypeExport>
+    <TypeExport>Jenis file yang dihasilkan dari laporan.</TypeExport>
     <UnsafeCompilation1>Dokumen ini menggunakan proses kompilasi. Dalam beberapa kasus, hal ini mungkin tidak aman. Oleh karena itu, dokumen akan dimuat dalam mode aman untuk meminimalkan potensi risiko.</UnsafeCompilation1>
     <UnsafeCompilation2>Jika Anda memerlukan dokumen ini digunakan dalam bentuk aslinya, silakan hubungi pengembang Anda.</UnsafeCompilation2>
     <UnsafeCompilationTitle>Dokumen akan dibuka dalam Mode Aman</UnsafeCompilationTitle>
-    <UseDefaultSystemEncoding>Gunakan sistem pengkodean secara default atau menentukan encoding dengan standar.</UseDefaultSystemEncoding>
-    <UseOnePageHeaderAndFooter>Tentukan band halaman Header dan Footer sebagai header dan footer dari dokumen Microsoft Word.</UseOnePageHeaderAndFooter>
-    <UsePageHeadersAndFooters>Tentukan band Halaman Header dan Footer sebagai header dan footer dari dokumen Microsoft Word.</UsePageHeadersAndFooters>
+    <UseDefaultSystemEncoding>Gunakan pengodean sistem. Matikan untuk memilih pengodean lain.</UseDefaultSystemEncoding>
+    <UseOnePageHeaderAndFooter>Pertahankan hanya satu header halaman dan satu footer halaman di file Excel, bukan mengulanginya di setiap halaman.</UseOnePageHeaderAndFooter>
+    <UsePageHeadersAndFooters>Jadikan band Halaman Header dan Halaman Footer sebagai header dan footer dokumen.</UsePageHeadersAndFooters>
     <UserPassword>Sandi diperlukan untuk membuka dokumen.</UserPassword>
-    <UseUnicode>Diperpanjang dukungan untuk encoding karakter. Ini mempengaruhi pada pengkodean karakter internal dalam file PDF, dan meningkatkan menyalin teks dari file PDF.</UseUnicode>
+    <UseUnicode>Simpan karakter sebagai Unicode di dalam file PDF agar teks tersalin dengan benar.</UseUnicode>
     <ViewModeContinuous>Tampilkan semua halaman sebagai pita.</ViewModeContinuous>
     <ViewModeMultiplePages>Tampilkan beberapa halaman.</ViewModeMultiplePages>
     <ViewModeSinglePage>Tampilkan halaman tunggal.</ViewModeSinglePage>
@@ -2447,7 +2450,7 @@
     <ZoomOnePage>Sesuaikan satu halaman.</ZoomOnePage>
     <ZoomPageWidth>Sesuaikan lebar halaman.</ZoomPageWidth>
     <ZoomTwoPages>Sesuaikan dua halaman.</ZoomTwoPages>
-    <ZoomTxt>Ukuran laporan (skala). X - mengubah skala horisontal, Y - untuk mengubah skala vertikal</ZoomTxt>
+    <ZoomTxt>Skala teks laporan: X horizontal, Y vertikal.</ZoomTxt>
   </HelpViewer>
   <Interface>
     <Mouse>Mouse</Mouse>

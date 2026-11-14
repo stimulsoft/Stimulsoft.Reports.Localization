@@ -1190,14 +1190,14 @@
     <TiffCompressionScheme>TIFF 압축 방식 :</TiffCompressionScheme>
     <title>내보내기 설정</title>
     <TxtBorderType>테두리 유형</TxtBorderType>
-    <TxtBorderTypeDouble>Unicode-더블</TxtBorderTypeDouble>
+    <TxtBorderTypeDouble>더블</TxtBorderTypeDouble>
     <TxtBorderTypeSimple>Simple</TxtBorderTypeSimple>
-    <TxtBorderTypeSingle>Unicode-싱글</TxtBorderTypeSingle>
+    <TxtBorderTypeSingle>싱글</TxtBorderTypeSingle>
     <TxtCutLongLines>긴 줄을 자르기</TxtCutLongLines>
     <TxtDrawBorder>테두리를 그리는</TxtDrawBorder>
-    <TxtKillSpaceGraphLines>킬 공간 그래프 선</TxtKillSpaceGraphLines>
-    <TxtKillSpaceLines>공백 라인을 제거</TxtKillSpaceLines>
-    <TxtPutFeedPageCode>피드 페이지 코드를 넣기</TxtPutFeedPageCode>
+    <TxtKillSpaceGraphLines>테두리만 있는 줄 제거</TxtKillSpaceGraphLines>
+    <TxtKillSpaceLines>빈 줄 제거</TxtKillSpaceLines>
+    <TxtPutFeedPageCode>각 페이지 뒤에 용지 넘김</TxtPutFeedPageCode>
     <Type>유형 :</Type>
     <UseDefaultSystemEncoding>기본 시스템 인코딩을 사용</UseDefaultSystemEncoding>
     <UseDigitalSignature>디지털 서명을 사용</UseDigitalSignature>
@@ -2345,62 +2345,65 @@
     <StiTreeViewControl>계층 데이터를 트리로 표시합니다.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
-    <AddPageBreaks>보고서 페이지의 시각적 구분.</AddPageBreaks>
-    <AllowAddOrModifyTextAnnotations>문서의 주석을 사용한 작업에 대한 액세스가 제한되어 있습니다.</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>정보의 사본에 대한 액세스가 제한되어 있습니다.</AllowCopyTextAndGraphics>
-    <AllowEditable>Editable 속성을 사용하여 구성 요소를 변경할 수 있도록합니다.</AllowEditable>
-    <AllowModifyContents>텍스트 편집에 대한 액세스가 제한되어 있습니다.</AllowModifyContents>
-    <AllowPrintDocument>인쇄 작업에 대한 액세스가 제한되어 있습니다.</AllowPrintDocument>
+    <AddPageBreaks>보고서 페이지 사이에 구분선을 표시합니다.</AddPageBreaks>
+    <AllowAddOrModifyTextAnnotations>주석 추가 및 변경을 허용합니다.</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>문서의 텍스트와 그래픽 복사를 허용합니다.</AllowCopyTextAndGraphics>
+    <AllowEditable>'편집 가능' 속성이 켜진 구성 요소의 변경을 허용합니다.</AllowEditable>
+    <AllowModifyContents>문서 텍스트 변경을 허용합니다.</AllowModifyContents>
+    <AllowPrintDocument>문서 인쇄를 허용합니다.</AllowPrintDocument>
     <Bookmarks>북마크를 표시합니다.</Bookmarks>
-    <BorderType>컴퍼넌트의 테두리 유형 : 단순 - 문자 의한 구성 요소의 선 그리기 - -</BorderType>
+    <BorderType>구성 요소 테두리의 문자: 'Simple'은 +, -, |로 그리고, '싱글'과 '더블'은 한 줄 또는 두 줄 상자 그리기 선으로 그립니다.</BorderType>
     <Close>미리보기를 닫습니다.</Close>
     <CloseDotMatrix>도트 매트릭스 뷰어를 닫습니다.</CloseDotMatrix>
-    <Compressed>준비 문서의 압축. 항상 파일 압축을 포함하는 것이 좋습니다.</Compressed>
-    <CompressToArchive>zip 아카이브의 모든 파일과 폴더를 압축합니다.</CompressToArchive>
-    <ContinuousPages>보고서 페이지를 세로 방향으로 배치 모드.</ContinuousPages>
-    <CurrentPage>현재 페이지를 처리하고 있습니다. 이 옵션을 선택하면 선택한 보고서 페이지가 처리됩니다.</CurrentPage>
-    <CutEdges>보고서 페이지 테두리를 자릅니다.</CutEdges>
-    <CutLongLines>긴 선 (텍스트 줄)을 구성 요소의 테두리 트림합니다.</CutLongLines>
+    <Compressed>문서를 압축합니다. 파일을 더 작게 하려면 켜 두십시오.</Compressed>
+    <CompressToArchive>모든 파일과 폴더를 zip 아카이브로 압축합니다.</CompressToArchive>
+    <ContinuousPages>보고서 페이지를 위아래로 이어 붙여 하나의 연속된 페이지로 배치합니다.</ContinuousPages>
+    <CurrentPage>보고서의 현재 페이지만.</CurrentPage>
+    <CutEdges>보고서 페이지의 가장자리를 잘라냅니다.</CutEdges>
+    <CutLongLines>구성 요소에 맞지 않는 텍스트를 줄 바꿈하지 않고 잘라냅니다.</CutLongLines>
     <DashboardContains1>죄송합니다. 이 보고서에는 대시보드가 포함되어 있습니다.</DashboardContains1>
     <DashboardContains2>이 보고서는 디자이너에서 직접 열어야 합니다!</DashboardContains2>
     <DashboardContains3>보고서 뷰어에서는 이 작업을 수행할 수 없습니다!</DashboardContains3>
-    <DigitalSignature>파일의 디지털 서명.</DigitalSignature>
-    <DitheringType>디더링 유형 : 없음 - 디더링없이 주문도, FloydSt. - 디더링 있습니다.</DitheringType>
+    <DigitalSignature>문서에 디지털 서명을 합니다.</DigitalSignature>
+    <DitheringType>흑백 이미지의 디더링: None, Ordered 또는 Floyd-Steinberg.</DitheringType>
     <DotMatrixMode>도트 매트릭스 모드로 봅니다.</DotMatrixMode>
-    <DrawBorder>그림 문자로 컴퍼넌트의 테두리를 그립니다.</DrawBorder>
+    <DotMatrixSettings>설정을 표시하거나 숨깁니다.</DotMatrixSettings>
+    <DrawBorder>구성 요소의 테두리를 상자 그리기 문자로 그립니다.</DrawBorder>
     <Edit>요소를 편집합니다.</Edit>
     <EmbeddedFonts>글꼴 파일을 PDF 파일에 포함합니다.</EmbeddedFonts>
     <EmbeddedFontsHtml>글꼴 파일을 HTML 파일에 포함합니다: 없음, 사용자 지정 글꼴만 또는 보고서에 사용된 모든 글꼴.</EmbeddedFontsHtml>
     <EmbeddedFontsOffice>글꼴 파일을 내보낸 파일에 포함합니다.</EmbeddedFontsOffice>
     <EmbeddedImageData>이미지를 HTML 파일에 직접 포함합니다.</EmbeddedImageData>
-    <Encoding>내 보낸 보고서 텍스트 인코딩</Encoding>
-    <EncodingData>인코딩 데이터 파일.</EncodingData>
-    <EncryptionKeyLength>암호화 키의 길이. 길이가 길어질수록 문서를 해독하기 어렵게되고, 따라서 문서의 보안은 더 높은 우선 순위를 갖습니다.</EncryptionKeyLength>
-    <ExportDataOnly>데이터 밴드 만 내 보냅니다 (테이블 구성 요소 계층 밴드).</ExportDataOnly>
-    <ExportEachPageToSheet>각 보고서 페이지를 별도의 Excel 시트로 내 보냅니다.</ExportEachPageToSheet>
-    <ExportMode>내보낼 때 필터 조건을 적용합니다. 데이터 만 - 데이터 밴드 (테이블 구성 요소 계층 밴드) 만 내보내기됩니다. 데이터와 헤더</ExportMode>
-    <ExportModeHtml>HTML 페이지의 마크 업 방법.</ExportModeHtml>
-    <ExportModeRtf>내 보낸 보고서 데이터를 표시합니다. 테이블 - 보고서는 테이블처럼 보이지만 각 보고서 구성 요소는 테이블 셀입니다. 프레임 - 각 구성 요소는 단일 프레임처럼 보이지만, 그들 사이에는 아무런 관계도 없습니다.</ExportModeRtf>
-    <ExportObjectFormatting>데이터 밴드 (표 컴포넌트 계층 밴드)에서 데이터를 내보내기위한 서식을 적용합니다.</ExportObjectFormatting>
+    <Encoding>내보낸 텍스트의 인코딩.</Encoding>
+    <EncodingData>데이터 파일의 인코딩.</EncodingData>
+    <EncryptionKeyLength>암호화 키의 길이: 키가 길수록 문서를 해독하기 어려워집니다.</EncryptionKeyLength>
+    <ExportDataOnly>데이터 밴드만 내보냅니다: 테이블 구성 요소와 계층 데이터 밴드.</ExportDataOnly>
+    <ExportEachPageToSheet>보고서의 각 페이지를 별도의 Excel 시트로 내보냅니다.</ExportEachPageToSheet>
+    <ExportMode>파일에 포함할 밴드: '데이터 만'은 데이터 밴드(테이블 구성 요소, 계층 데이터 밴드)를 포함하고, '데이터 및 머리글 / 바닥 글'은 해당 머리글과 바닥글을 추가하며, '모든 밴드'는 모든 밴드를 포함합니다.</ExportMode>
+    <ExportModeHtml>HTML 페이지의 마크업.</ExportModeHtml>
+    <ExportModeRtf>내보낸 후 보고서의 레이아웃: '테이블'은 모든 구성 요소를 테이블 셀에 넣고, '프레임'은 모든 구성 요소를 서로 관계없는 각자의 프레임에 넣습니다.</ExportModeRtf>
+    <ExportObjectFormatting>데이터 밴드(테이블 구성 요소, 계층 데이터 밴드)에 있는 데이터의 서식을 유지합니다.</ExportObjectFormatting>
     <ExportPageBreaks>보고서 시트의 테두리를 Excel 시트에 표시합니다.</ExportPageBreaks>
-    <ExportRtfTextAsImage>RTF 텍스트를 이미지로 변환합니다. 이 옵션을 사용하면 내보낼 때 RichText PDF 형식으로 지원되는보다 간단한 기본으로 분해됩니다. 복잡한 서식 (포함 된 이미지, 테이블)를 사용하여 리치 텍스트는 항상 올바르게 변환되는 것은 아닙니다. 이 경우이 옵션을 사용하는 것이 좋습니다.</ExportRtfTextAsImage>
+    <ExportRtfTextAsImage>RTF 텍스트를 이미지로 내보냅니다. 이미지나 표가 포함된 서식 있는 텍스트는 PDF 텍스트로 항상 올바르게 변환되지는 않으므로 이 경우 켜십시오.</ExportRtfTextAsImage>
     <Find>텍스트를 검색합니다.</Find>
     <FullScreen>전체 화면으로 봅니다.</FullScreen>
-    <GetCertificateFromCryptoUI>시스템 암호화 라이브러리의 인터페이스를 사용한다.</GetCertificateFromCryptoUI>
-    <ImageCompressionMethod>압축 방법 : JPEG - 이것은 품질 저하, Flate - 품질 손실없이, Simple, Ordered, FloydSt. - 이미지는 흑백으로 출력됩니다.</ImageCompressionMethod>
-    <ImageFormat>완성 된 파일의 이미지 포맷.</ImageFormat>
-    <ImageQuality>화질의 비율을 선택할 수 있습니다</ImageQuality>
-    <ImageQualityPdf>이 옵션은 JPEG 압축에만 사용할 수 있으며 화질의 비율을 선택할 수 있습니다</ImageQualityPdf>
-    <ImageResolution>인치당 픽셀 수입니다. 픽셀 수가 많을수록 화질이 좋아집니다. 완성 된 파일의 크기가 훨씬 큽니다.</ImageResolution>
+    <GetCertificateFromCryptoUI>시스템 암호화 라이브러리 창에서 인증서를 선택합니다.</GetCertificateFromCryptoUI>
+    <ImageCompressionMethod>이미지의 압축: JPEG는 품질이 떨어질 수 있고, Flate는 품질을 유지하며, Simple, Ordered, Floyd-Steinberg는 이미지를 흑백으로 만듭니다.</ImageCompressionMethod>
+    <ImageFormat>내보낸 파일에 있는 이미지의 형식.</ImageFormat>
+    <ImageQuality>이미지 품질과 파일 크기의 균형: 품질이 높을수록 파일이 커집니다.</ImageQuality>
+    <ImageQualityPdf>JPEG 압축 시 이미지 품질과 파일 크기의 균형: 품질이 높을수록 파일이 커집니다.</ImageQualityPdf>
+    <ImageResolution>인치당 픽셀 수: 픽셀이 많을수록 이미지가 좋아지고 파일이 커집니다.</ImageResolution>
     <ImageResolutionMode>이미지에 해상도를 적용하는 방식: 정확히, 더 큰 이미지만 줄이기, 또는 적용 안 함.</ImageResolutionMode>
-    <ImageType>이미지 색상 : 내 보낸 컬러 이미지 뷰어의 이미지와 완벽하게 일치합니다. 그레이 - 내 보낸 이미지는 회색 음영입니다. 흑백 - 이미지 엄격하게 흑백입니다. 동시에 흑백은 None, Ordered, FloydSt 세 가지 모드가 있다고 생각한다.</ImageType>
-    <KillSpaceLines>문서에서 빈 줄 (행)을 제거합니다.</KillSpaceLines>
-    <MultipleFiles>각 보고서 페이지는 별도의 파일로 할 수 있습니다.</MultipleFiles>
+    <ImageType>이미지의 색상: '색상'은 뷰어와 같은 색상을 사용하고, '그레이 스케일'은 회색 음영을 사용하며, '모노크롬'은 세 가지 디더링 모드 중 하나로 검은색과 흰색만 사용합니다.</ImageType>
+    <KeepProportions>비율을 유지합니다.</KeepProportions>
+    <KillSpaceGraphLines>테두리와 공백만 있는 줄을 제거합니다.</KillSpaceGraphLines>
+    <KillSpaceLines>문서에서 빈 줄을 제거합니다.</KillSpaceLines>
+    <MultipleFiles>보고서의 각 페이지를 별도의 파일로 내보냅니다.</MultipleFiles>
     <Open>보고서를 엽니다.</Open>
-    <OpenAfterExport>이 파일 유형에 설정된 프로그램에 의해 생성 된 문서를 (내보내기 후) 자동으로 열립니다.</OpenAfterExport>
-    <OwnerPassword>파일 작업에 액세스하기위한 암호입니다.</OwnerPassword>
-    <PageAll>모든 보고서 페이지의 처리.</PageAll>
-    <PageBands>문서에 포함할 페이지 머리글과 바닥 글: 없음, 첫 머리글과 마지막 바닥 글 또는 전체.</PageBands>
+    <OpenAfterExport>내보낸 파일을 해당 형식에 지정된 프로그램으로 엽니다.</OpenAfterExport>
+    <OwnerPassword>문서의 권한을 변경하는 데 필요한 암호.</OwnerPassword>
+    <PageAll>보고서의 모든 페이지.</PageAll>
+    <PageBands>문서에 포함할 페이지 머리글과 바닥글: 없음, 첫 머리글과 마지막 바닥글 또는 전체.</PageBands>
     <PageDelete>선택한 페이지를 삭제합니다.</PageDelete>
     <PageDesign>디자이너에서 페이지를 편집합니다.</PageDesign>
     <PageFirst>첫 번째 페이지로 이동합니다.</PageFirst>
@@ -2411,37 +2414,37 @@
     <PagePrevious>이전 페이지로 이동합니다.</PagePrevious>
     <PageSize>페이지 설정을 변경합니다.</PageSize>
     <Parameters>매개 변수를 표시합니다.</Parameters>
-    <PdfACompliance>전자 문서의 장기 보존 및 보관 기준을 지원합니다.</PdfACompliance>
-    <PdfUniversalAccessibility>전자 문서 및 정보의 범용 접근성 표준을 지원합니다.</PdfUniversalAccessibility>
+    <PdfACompliance>문서의 장기 보관을 위한 PDF/A 표준을 따릅니다.</PdfACompliance>
+    <PdfUniversalAccessibility>누구나 접근할 수 있는 문서를 위한 PDF/UA 표준을 따릅니다.</PdfUniversalAccessibility>
     <Print>보고서를 인쇄합니다.</Print>
-    <PutFeedPageCode>최종 문서의 페이지에 특수 문자를 입력합니다.</PutFeedPageCode>
-    <RangePages>처리되는 페이지 번호. 단일 페이지, 페이지의 목록 (구분자로 쉼표를 사용) 및 범위의 시작 페이지를 "-"로 구분하여 범위를 지정하고 해당 범위의 마지막 페이지를 지정할 수 있습니다. 예 : 1,3,5-12.</RangePages>
+    <PutFeedPageCode>폼 피드 문자로 각 페이지를 새 용지에서 시작합니다.</PutFeedPageCode>
+    <RangePages>페이지 범위: 한 페이지, 쉼표로 구분한 목록 또는 하이픈으로 지정한 범위(예: 1,3,5-12).</RangePages>
     <RebuildReport>새 페이지에 맞게 보고서를 다시 작성하여 데이터가 새 페이지를 채우도록 합니다. 사용하지 않으면 이미 작성된 페이지의 크기만 변경됩니다. 파일에서 연 문서에는 사용할 수 없습니다.</RebuildReport>
-    <RemoveEmptySpaceAtBottom>페이지 하단의 여유 공간을 최소화합니다.</RemoveEmptySpaceAtBottom>
+    <RemoveEmptySpaceAtBottom>페이지 하단의 빈 공간을 줄입니다.</RemoveEmptySpaceAtBottom>
     <Resources>리소스를 표시합니다.</Resources>
-    <RestrictEditing>Word 문서의 변경 제한.</RestrictEditing>
+    <RestrictEditing>Word 문서 변경에 대한 제한.</RestrictEditing>
     <Save>보고서를 저장합니다.</Save>
     <ScaleContent>페이지와 함께 구성 요소의 크기를 조정합니다. 사용하지 않으면 구성 요소의 크기와 위치가 유지됩니다.</ScaleContent>
-    <ScaleHtml>내 보낸 보고서 페이지 및 항목의 크기 (규모).</ScaleHtml>
-    <ScaleImage>내 보낸 보고서의 크기 (규모). 규모가 작을수록 인치당 픽셀 수가 많아지고, 그 반대의 경우도 있습니다.</ScaleImage>
+    <ScaleHtml>내보낸 파일에 있는 보고서 페이지와 항목의 배율.</ScaleHtml>
+    <ScaleImage>이미지에 표시되는 보고서의 배율: 배율이 클수록 이미지가 커집니다.</ScaleImage>
     <SendEMail>전자 메일로 보고서를 보냅니다.</SendEMail>
-    <Separator>CSV 파일의 데이터 사이의 구분 기호.</Separator>
-    <SkipColumnHeaders>활성화</SkipColumnHeaders>
-    <StandardPdfFonts>14 표준 Adobe 글꼴. 이 옵션을 사용하면 표준 14 글꼴 만 PDF 파일로 사용됩니다. 모든 보고서 글꼴이 그들로 변환됩니다.</StandardPdfFonts>
-    <SubjectNameString>인증서 식별자입니다. 식별자는 인증서 소유자의 이름 (전체 라인) 또는 이름의 일부 (하위 문자열)입니다.</SubjectNameString>
+    <Separator>CSV 파일에서 데이터를 구분하는 문자.</Separator>
+    <SkipColumnHeaders>열 머리글을 파일에서 제외합니다.</SkipColumnHeaders>
+    <StandardPdfFonts>표준 Adobe 글꼴 14개만 사용합니다: 보고서의 모든 글꼴이 이 글꼴로 바뀝니다.</StandardPdfFonts>
+    <SubjectNameString>서명에 사용할 인증서: 소유자의 전체 이름 또는 그 일부.</SubjectNameString>
     <Thumbnails>페이지 썸네일을 표시합니다.</Thumbnails>
-    <TiffCompressionScheme>TIFF 압축 방식.</TiffCompressionScheme>
+    <TiffCompressionScheme>TIFF 파일의 압축 방식.</TiffCompressionScheme>
     <ToolEditor>편집 가능한 구성 요소를 편집합니다.</ToolEditor>
     <ToolSignature>표시된 위치에 서명합니다.</ToolSignature>
-    <TypeExport>보고서가 변환되는 파일입니다.</TypeExport>
+    <TypeExport>보고서가 변환될 파일의 형식.</TypeExport>
     <UnsafeCompilation1>이 문서는 컴파일 프로세스를 사용합니다. 경우에 따라 안전하지 않을 수 있습니다. 따라서 문서는 잠재적 위험을 최소화하기 위해 안전 모드로 로드됩니다.</UnsafeCompilation1>
     <UnsafeCompilation2>이 문서를 원래 형태로 사용하려면 개발자에게 문의하십시오.</UnsafeCompilation2>
     <UnsafeCompilationTitle>문서가 안전 모드에서 열립니다</UnsafeCompilationTitle>
-    <UseDefaultSystemEncoding>기본적으로 시스템 코딩을 사용하거나 표준 인코딩을 지정하십시오.</UseDefaultSystemEncoding>
-    <UseOnePageHeaderAndFooter>머리글과 바닥 글을 Microsoft Word 문서의 머리글과 바닥 글로 정의합니다.</UseOnePageHeaderAndFooter>
-    <UsePageHeadersAndFooters>페이지 머리글과 바닥 글을 Microsoft Word에서 문서의 머리글과 바닥 글로 정의합니다.</UsePageHeadersAndFooters>
+    <UseDefaultSystemEncoding>시스템 인코딩을 사용합니다. 다른 인코딩을 선택하려면 끄십시오.</UseDefaultSystemEncoding>
+    <UseOnePageHeaderAndFooter>Excel 파일에서 페이지 머리글과 페이지 바닥글을 각 페이지마다 반복하지 않고 하나씩만 남깁니다.</UseOnePageHeaderAndFooter>
+    <UsePageHeadersAndFooters>'페이지 머리글' 및 '페이지 바닥 글' 밴드를 문서의 머리글과 바닥글로 만듭니다.</UsePageHeadersAndFooters>
     <UserPassword>문서를 여는 데 필요한 암호입니다.</UserPassword>
-    <UseUnicode>인코딩 문자 확장 지원. 이것은 PDF 파일의 문자 인코딩에 영향을 PDF 파일에서 텍스트 복사를 개선합니다.</UseUnicode>
+    <UseUnicode>PDF 파일 안에 문자를 Unicode로 저장하여 텍스트가 올바르게 복사되도록 합니다.</UseUnicode>
     <ViewModeContinuous>모든 페이지를 리본으로 표시합니다.</ViewModeContinuous>
     <ViewModeMultiplePages>여러 페이지를 표시합니다.</ViewModeMultiplePages>
     <ViewModeSinglePage>단일 페이지를 표시합니다.</ViewModeSinglePage>
@@ -2449,7 +2452,7 @@
     <ZoomOnePage>한 페이지에 맞춥니다.</ZoomOnePage>
     <ZoomPageWidth>페이지 폭에 맞춥니다.</ZoomPageWidth>
     <ZoomTwoPages>두 페이지에 맞춥니다.</ZoomTwoPages>
-    <ZoomTxt>보고서의 크기 (규모) : X - 가로 크기를 변경, Y - 세로 크기를 변경합니다.</ZoomTxt>
+    <ZoomTxt>보고서 텍스트의 배율: X는 가로, Y는 세로.</ZoomTxt>
   </HelpViewer>
   <Interface>
     <Mouse>마우스</Mouse>

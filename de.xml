@@ -1115,7 +1115,7 @@
     <ExportingFormatingObjects>Objekte formatieren</ExportingFormatingObjects>
     <ExportingReport>Bericht exportieren</ExportingReport>
     <ExportMode>Exportmodus:</ExportMode>
-    <ExportModeFrame>Doppelrandig</ExportModeFrame>
+    <ExportModeFrame>Rahmen</ExportModeFrame>
     <ExportModeTable>Tabelle</ExportModeTable>
     <ExportObjectFormatting>Objekte beim Export Formatieren</ExportObjectFormatting>
     <ExportPageBreaks>Seitenumbrüche exportieren</ExportPageBreaks>
@@ -1189,14 +1189,14 @@
     <TiffCompressionScheme>TIFF-Kompressionsschema:</TiffCompressionScheme>
     <title>Export-Einstellungen</title>
     <TxtBorderType>Rahmentyp</TxtBorderType>
-    <TxtBorderTypeDouble>Unicode-Doppelt</TxtBorderTypeDouble>
+    <TxtBorderTypeDouble>Doppelt</TxtBorderTypeDouble>
     <TxtBorderTypeSimple>Einfach</TxtBorderTypeSimple>
-    <TxtBorderTypeSingle>Unicode-Einfach</TxtBorderTypeSingle>
+    <TxtBorderTypeSingle>Einzeln</TxtBorderTypeSingle>
     <TxtCutLongLines>Lange Linien abschneiden</TxtCutLongLines>
     <TxtDrawBorder>Grenze zeichnen</TxtDrawBorder>
-    <TxtKillSpaceGraphLines>Leere Graphen entfernen</TxtKillSpaceGraphLines>
-    <TxtKillSpaceLines>Leere Zeilen entfernen</TxtKillSpaceLines>
-    <TxtPutFeedPageCode>Seiten-Ende markieren</TxtPutFeedPageCode>
+    <TxtKillSpaceGraphLines>Zeilen nur mit Rahmen entfernen</TxtKillSpaceGraphLines>
+    <TxtKillSpaceLines>Leerzeilen entfernen</TxtKillSpaceLines>
+    <TxtPutFeedPageCode>Seitenvorschub nach jeder Seite</TxtPutFeedPageCode>
     <Type>Typ:</Type>
     <UseDefaultSystemEncoding>Standardcodierung des Systems verwenden</UseDefaultSystemEncoding>
     <UseDigitalSignature>Digitale Signatur benutzen</UseDigitalSignature>
@@ -2344,62 +2344,65 @@
     <StiTreeViewControl>Zeigt hierarchische Daten als Baum an.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
-    <AddPageBreaks>Trenner für Berichtseiten anzeigen.</AddPageBreaks>
-    <AllowAddOrModifyTextAnnotations>Die Nutzung von Anmerkungen im Dokument erlauben.</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Das Kopieren von Text und Grafik erlauben.</AllowCopyTextAndGraphics>
-    <AllowEditable>Erlaubt im exportierten PDF das Bearbeiten von Elementen, bei welchen die Eigenschaft Editierbar aktiviert ist.</AllowEditable>
-    <AllowModifyContents>Das Bearbeiten von Inhalten erlauben.</AllowModifyContents>
+    <AddPageBreaks>Einen Trenner zwischen den Berichtseiten anzeigen.</AddPageBreaks>
+    <AllowAddOrModifyTextAnnotations>Das Hinzufügen und Ändern von Anmerkungen erlauben.</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Das Kopieren von Text und Grafiken des Dokuments erlauben.</AllowCopyTextAndGraphics>
+    <AllowEditable>Das Ändern der Komponenten erlauben, bei denen die Eigenschaft Editierbar aktiviert ist.</AllowEditable>
+    <AllowModifyContents>Das Ändern des Dokumenttextes erlauben.</AllowModifyContents>
     <AllowPrintDocument>Das Drucken des Dokuments erlauben.</AllowPrintDocument>
     <Bookmarks>Lesezeichen anzeigen.</Bookmarks>
-    <BorderType>Rahmentyp der Komponenten: Einfach - der Rahmen wird mit den Zeichen +, - und | gezeichnet; Unicode-Einfach - der Rahmen wird mit einfachen Unicode-Rahmenelementen gezeichnet, Unicode-Doppelt - der Rahmen wird mit doppelten Unicode-Rahmenelementen gezeichnet</BorderType>
+    <BorderType>Die Zeichen der Komponentenrahmen: Einfach zeichnet sie mit +, - und |, Einzeln und Doppelt mit einfachen oder doppelten Rahmenlinien.</BorderType>
     <Close>Vorschau schließen.</Close>
     <CloseDotMatrix>Dot-Matrix Vorschau schließen</CloseDotMatrix>
-    <Compressed>Komprimierung des erstellten Dokuments. Es wird empfohlen, die Dateikomprimierung immer zu aktivieren.</Compressed>
-    <CompressToArchive>Alle Dateien und Ordner in ZIP-Datei archivieren.</CompressToArchive>
-    <ContinuousPages>Alle Seiten eines Berichts vertikal fortlaufend darstellen.</ContinuousPages>
-    <CurrentPage>Die momentan angezeigte Seite des Berichts wird verarbeitet.</CurrentPage>
-    <CutEdges>Report ohne Seitenränder exportieren.</CutEdges>
-    <CutLongLines>Lange Textzeilen beim Komponentenrahmen abschneiden.</CutLongLines>
+    <Compressed>Das Dokument komprimieren. Aktiviert lassen, damit die Datei kleiner wird.</Compressed>
+    <CompressToArchive>Alle Dateien und Ordner in ein zip-Archiv packen.</CompressToArchive>
+    <ContinuousPages>Die Berichtseiten untereinander in einem durchgehenden Streifen anordnen.</ContinuousPages>
+    <CurrentPage>Nur die aktuelle Seite des Berichts.</CurrentPage>
+    <CutEdges>Die Ränder der Berichtseiten abschneiden.</CutEdges>
+    <CutLongLines>Text, der nicht in seine Komponente passt, abschneiden statt umbrechen.</CutLongLines>
     <DashboardContains1>Leider enthält dieser Bericht ein Dashboard.</DashboardContains1>
     <DashboardContains2>Diesen Bericht sollten Sie direkt im Designer öffnen!</DashboardContains2>
     <DashboardContains3>Sie können nicht es aus dem Viewer erfüllen!</DashboardContains3>
-    <DigitalSignature>Die digitale Signatur der Datei aktivieren.</DigitalSignature>
-    <DitheringType>Dithering Typ: None - ohne Dithering; Ordered und FloydSteinberg - mit Dithering</DitheringType>
+    <DigitalSignature>Das Dokument mit einer digitalen Signatur signieren.</DigitalSignature>
+    <DitheringType>Das Dithering von Schwarzweißbildern: None, Ordered oder Floyd-Steinberg.</DitheringType>
     <DotMatrixMode>Im Dot-Matrix Modus anzeigen.</DotMatrixMode>
-    <DrawBorder>Den Rahmen von Komponenten mit Hilfe von grafischen Zeichen darstellen.</DrawBorder>
+    <DotMatrixSettings>Einstellungen ein- oder ausblenden.</DotMatrixSettings>
+    <DrawBorder>Die Rahmen der Komponenten mit Rahmenzeichen zeichnen.</DrawBorder>
     <Edit>Bearbeiten</Edit>
     <EmbeddedFonts>Schriftarten in die PDF-Datei einbetten.</EmbeddedFonts>
     <EmbeddedFontsHtml>Schriftarten in die HTML-Datei einbetten: keine, nur benutzerdefinierte oder alle im Bericht verwendeten Schriftarten.</EmbeddedFontsHtml>
     <EmbeddedFontsOffice>Schriftarten in die exportierte Datei einbetten.</EmbeddedFontsOffice>
-    <EmbeddedImageData>Bilder direkt in die HTML-Datei einbetten.</EmbeddedImageData>
-    <Encoding>Codierung der zu erstellenden Textdatei.</Encoding>
-    <EncodingData>Codierung der Datendatei.</EncodingData>
-    <EncryptionKeyLength>Die Länge des Verschlüsselungsschlüssel. Ein längerer Wert erschwert die Entschlüsselung des Dokuments und erhöht damit die Sicherheit.</EncryptionKeyLength>
-    <ExportDataOnly>Es werden nur Datenbänder exportiert (Datenband, Tabelle, hierarchisches Band).</ExportDataOnly>
-    <ExportEachPageToSheet>Jede Berichtseite in ein separates Excelblatt exportieren.</ExportEachPageToSheet>
-    <ExportMode>Wendet einen Komponentenfilter beim Exportieren an. Nur Datenbänder (Datenband, Tabelle, hierarchisches Band); Daten-, Kopf- und Fuß-Bänder - Alle Datenbänder und ihre dazugehörenden Kopf-/Fuß-Bänder; Alle Bänder - Alle Bänder des Berichts.</ExportMode>
-    <ExportModeHtml>HTML-Elemente, welche zum Aufbau des Berichts verwendet werden.</ExportModeHtml>
-    <ExportModeRtf>Exportmodus der Komponenten. Tabelle - Der Bericht wird als Tabelle exportiert, wobei jede Komponente in einer eigenen Zelle dargestellt wird; Positionsrahmen - Jede Komponente wird in einen unabhängigen Positionsrahmen exportiert</ExportModeRtf>
-    <ExportObjectFormatting>Formatierung beim Exportieren von Daten anwenden (Datenband, Tabelle, hierarchisches Band).</ExportObjectFormatting>
+    <EmbeddedImageData>Die Bilder direkt in die HTML-Datei einbetten.</EmbeddedImageData>
+    <Encoding>Die Codierung des exportierten Textes.</Encoding>
+    <EncodingData>Die Codierung der Datendatei.</EncodingData>
+    <EncryptionKeyLength>Die Länge des Verschlüsselungsschlüssels: je länger der Schlüssel, desto schwerer lässt sich das Dokument entschlüsseln.</EncryptionKeyLength>
+    <ExportDataOnly>Nur die Datenbänder exportieren: die Komponente Tabelle und das hierarchische Band.</ExportDataOnly>
+    <ExportEachPageToSheet>Jede Berichtseite in ein eigenes Excel-Blatt exportieren.</ExportEachPageToSheet>
+    <ExportMode>Die Bänder, die in die Datei übernommen werden: Nur Daten übernimmt die Datenbänder (die Komponente Tabelle, das hierarchische Band), Daten und Kopf/Fuss fügt deren Kopf- und Fußbänder hinzu, Alle Bänder übernimmt alle Bänder.</ExportMode>
+    <ExportModeHtml>Das Markup der HTML-Seite.</ExportModeHtml>
+    <ExportModeRtf>Der Aufbau des Berichts nach dem Export: Tabelle setzt jede Komponente in eine Tabellenzelle, Rahmen setzt jede Komponente in einen eigenen Rahmen, ohne Verbindung untereinander.</ExportModeRtf>
+    <ExportObjectFormatting>Die Formatierung der Daten aus den Datenbändern beibehalten (die Komponente Tabelle, das hierarchische Band).</ExportObjectFormatting>
     <ExportPageBreaks>Seitenumbrüche in der Excel-Tabelle anzeigen.</ExportPageBreaks>
-    <ExportRtfTextAsImage>Konvertiert den Inhalt von Richtext-Elementen in ein Bild. Diese Option kann verwendet werden, wenn komplexer Richtext (zum Beispiel mit eingebetteten Bildern oder Tabellen) nicht korrekt ins PDF-Format exportiert werden kann.</ExportRtfTextAsImage>
+    <ExportRtfTextAsImage>Den RTF-Text als Bild exportieren. Für Rich Text mit Bildern oder Tabellen aktivieren, der nicht immer korrekt in PDF-Text umgewandelt wird.</ExportRtfTextAsImage>
     <Find>Text suchen.</Find>
     <FullScreen>Auf dem ganzen Bildschirm anzeigen.</FullScreen>
-    <GetCertificateFromCryptoUI>Während dem Export ein auf dem Rechner installiertes Zertifikat in einem Dialogfenster auswählen.</GetCertificateFromCryptoUI>
-    <ImageCompressionMethod>Auswahl der Bildkomprimierungsmethode: JPEG - kleine Dateien aber möglicherweise Datenverlust; Flate – ohne Qualitätsverlust aber grössere Dateien; Simple, Ordered und FloydSt - Bilder werden monochrom exportiert.</ImageCompressionMethod>
-    <ImageFormat>Exportformat von Bildern.</ImageFormat>
-    <ImageQuality>Bestimmt die Qualität der zu exportierenden Bilder. Eine tieferer Wert kann die Dateigröße des exportierten Berichts markant reduzieren. </ImageQuality>
-    <ImageQualityPdf>Bestimmt die Qualität der zu exportierenden Bilder (Nur Bildtyp JPEG). Eine tieferer Wert kann die Dateigröße des exportierten Berichts markant reduzieren.</ImageQualityPdf>
-    <ImageResolution>Auflösung in Dpi (Punkte/Inch). Je höher die Auflösung desto besser die Qualität der exportierten Grafik. Die Dateigröße des exportierten Berichts kann aber markant ansteigen.</ImageResolution>
+    <GetCertificateFromCryptoUI>Das Zertifikat im Fenster der Kryptografiebibliothek des Systems auswählen.</GetCertificateFromCryptoUI>
+    <ImageCompressionMethod>Die Komprimierung der Bilder: JPEG kann Qualität verlieren, Flate erhält sie, und Simple, Ordered und Floyd-Steinberg machen die Bilder schwarzweiß.</ImageCompressionMethod>
+    <ImageFormat>Das Format der Bilder in der exportierten Datei.</ImageFormat>
+    <ImageQuality>Das Verhältnis von Bildqualität und Dateigröße: je höher die Qualität, desto größer die Datei.</ImageQuality>
+    <ImageQualityPdf>Das Verhältnis von Bildqualität und Dateigröße bei JPEG-Komprimierung: je höher die Qualität, desto größer die Datei.</ImageQualityPdf>
+    <ImageResolution>Die Pixel pro Zoll: je mehr Pixel, desto besser die Bilder und desto größer die Datei.</ImageResolution>
     <ImageResolutionMode>Wie die Auflösung auf Bilder angewendet wird: exakt, nur zum Verkleinern größerer Bilder oder gar nicht.</ImageResolutionMode>
-    <ImageType>Das Farbschema des zu exportierenden Bildes: Farbe - die Bilder werden in vollem Farbumfang exportiert; Graustufen – die Bilder werden in Graustufen umgewandelt; Monochrom - die Bilder werden in Schwarz/Weiss umgewandelt.</ImageType>
-    <KillSpaceLines>Entfernt Leerzeilen aus dem Dokument.</KillSpaceLines>
-    <MultipleFiles>Exportiert jede Berichtseite in eine eigene Datei.</MultipleFiles>
+    <ImageType>Die Farben des Bildes: Farbe entspricht dem Viewer, Graustufen verwendet Grautöne, Monochrom verwendet nur Schwarz und Weiß in einem von drei Dithering-Modi.</ImageType>
+    <KeepProportions>Seitenverhältnis beibehalten.</KeepProportions>
+    <KillSpaceGraphLines>Entfernt Zeilen, die nur Rahmen und Leerzeichen enthalten.</KillSpaceGraphLines>
+    <KillSpaceLines>Die Leerzeilen aus dem Dokument entfernen.</KillSpaceLines>
+    <MultipleFiles>Jede Berichtseite in eine eigene Datei exportieren.</MultipleFiles>
     <Open>Einen Bericht öffnen.</Open>
-    <OpenAfterExport>Die Exportdatei wird nach Abschluss des Exportvorgangs automatisch durch das dem Dateityp zugewiesene Programm geöffnet.</OpenAfterExport>
-    <OwnerPassword>Das benötigte Passwort, um Aktionen im geöffneten Dokument auszuführen.</OwnerPassword>
-    <PageAll>Alle Berichtseiten werden verarbeitet.</PageAll>
-    <PageBands>Welche Seitenköpfe und -füße in das Dokument übernommen werden: keine, der erste Seitenkopf und der letzte Seitenfuß oder alle.</PageBands>
+    <OpenAfterExport>Die exportierte Datei in dem Programm öffnen, das für ihren Dateityp festgelegt ist.</OpenAfterExport>
+    <OwnerPassword>Das Passwort, das zum Ändern der Berechtigungen des Dokuments erforderlich ist.</OwnerPassword>
+    <PageAll>Alle Seiten des Berichts.</PageAll>
+    <PageBands>Die Seitenköpfe und -füße, die in das Dokument übernommen werden: keine, der erste Seitenkopf und der letzte Seitenfuß oder alle.</PageBands>
     <PageDelete>Ausgewählte Seite löschen.</PageDelete>
     <PageDesign>Seite im Designer bearbeiten.</PageDesign>
     <PageFirst>Zur ersten Seite gehen.</PageFirst>
@@ -2410,37 +2413,37 @@
     <PagePrevious>Zur vorherigen Seite gehen.</PagePrevious>
     <PageSize>Seiteneinstellungen ändern.</PageSize>
     <Parameters>Parameter anzeigen.</Parameters>
-    <PdfACompliance>Das exportierte Dokument unterstützt das Format PDF/A, welches für Langzeitarchivierung verwendet wird.</PdfACompliance>
-    <PdfUniversalAccessibility>Die Unterstützung für Standard der universellen Verfügbarkeit von elektronischen Dokumenten und Informationen.</PdfUniversalAccessibility>
+    <PdfACompliance>Den Standard PDF/A für die Langzeitarchivierung von Dokumenten einhalten.</PdfACompliance>
+    <PdfUniversalAccessibility>Den Standard PDF/UA für barrierefreie Dokumente einhalten.</PdfUniversalAccessibility>
     <Print>Bericht drucken.</Print>
-    <PutFeedPageCode>Das Seitenende in der Textdatei mit einem speziellen Zeichen markieren.</PutFeedPageCode>
-    <RangePages>Seitennummern, welche verarbeitet werden sollen. Es kann eine einzelne Seite, eine kommagetrennte Liste von Seiten oder ein durch das "-"-Zeichen getrennter Bereich von Seiten angegeben werden. Beispiel: 1,3,5-12</RangePages>
+    <PutFeedPageCode>Jede Seite mit einem Seitenvorschubzeichen auf einem neuen Blatt beginnen.</PutFeedPageCode>
+    <RangePages>Der Seitenbereich: eine Seite, eine durch Kommas getrennte Liste oder ein Bereich mit Bindestrich, zum Beispiel 1,3,5-12.</RangePages>
     <RebuildReport>Erstellt den Bericht für die neue Seite neu, sodass die Daten die neuen Seiten füllen. Ohne diese Option ändert sich nur die Größe der bereits erstellten Seiten. Nicht verfügbar für ein aus einer Datei geöffnetes Dokument.</RebuildReport>
-    <RemoveEmptySpaceAtBottom>Unterdrückt den leeren Bereich am unteren Ende einer Berichtseite.</RemoveEmptySpaceAtBottom>
+    <RemoveEmptySpaceAtBottom>Den leeren Bereich am unteren Rand der Seiten verkleinern.</RemoveEmptySpaceAtBottom>
     <Resources>Ressourcen anzeigen.</Resources>
-    <RestrictEditing>Limitiert die Bearbeitbarkeit von Text in einem Word Dokument.</RestrictEditing>
+    <RestrictEditing>Die Einschränkungen für das Ändern des Word-Dokuments.</RestrictEditing>
     <Save>Bericht speichern.</Save>
     <ScaleContent>Passt die Größe der Komponenten an die Seite an. Ohne diese Option behalten sie ihre Größe und Position.</ScaleContent>
-    <ScaleHtml>Die Skalierung der Berichtseiten beim Exportieren.</ScaleHtml>
-    <ScaleImage>Die Skalierung des Bildes beim Export. Je tiefer der Wert, desto höher ist der Dpi-Wert des exportieren Bildes.</ScaleImage>
+    <ScaleHtml>Die Skalierung der Berichtseiten und -elemente in der exportierten Datei.</ScaleHtml>
+    <ScaleImage>Die Skalierung des Berichts im Bild: je größer die Skalierung, desto größer das Bild.</ScaleImage>
     <SendEMail>Bericht per E-Mail versenden.</SendEMail>
-    <Separator>Trennzeichen zwischen den Feldern der CSV-Datei.</Separator>
-    <SkipColumnHeaders>Export der Spaltenüberschriften unterdrücken.</SkipColumnHeaders>
-    <StandardPdfFonts>Aktiviert die Verwendung der 14 Standardschriftarten von Adobe. Alle im Bericht verwendeten Schriftarten werden in eine dieser Standardschriftarten konvertiert.</StandardPdfFonts>
-    <SubjectNameString>Identifiziert ein Zertifikat. Der Wert kann den vollen oder einen Teil des Zertifikatnamens beinhalten.</SubjectNameString>
+    <Separator>Das Zeichen, das die Daten in der CSV-Datei trennt.</Separator>
+    <SkipColumnHeaders>Die Spaltenüberschriften nicht in die Datei übernehmen.</SkipColumnHeaders>
+    <StandardPdfFonts>Nur die 14 Standardschriftarten von Adobe verwenden: alle Schriftarten des Berichts werden durch sie ersetzt.</StandardPdfFonts>
+    <SubjectNameString>Das Zertifikat zum Signieren: der vollständige Name seines Inhabers oder ein Teil davon.</SubjectNameString>
     <Thumbnails>Seitenminiaturen anzeigen.</Thumbnails>
-    <TiffCompressionScheme>Legt das Kompressionsschema für TIFF Grafikdateien fest.</TiffCompressionScheme>
+    <TiffCompressionScheme>Die Komprimierung der TIFF-Datei.</TiffCompressionScheme>
     <ToolEditor>Editierbare Komponenten bearbeiten.</ToolEditor>
     <ToolSignature>An markierten Stellen unterschreiben.</ToolSignature>
-    <TypeExport>Der Typ Datendatei, welcher durch den Export erstellt wird.</TypeExport>
+    <TypeExport>Der Dateityp, in den der Bericht umgewandelt wird.</TypeExport>
     <UnsafeCompilation1>Dieses Dokument verwendet den Kompilationsprozess. Manchmal könnte es gefährlich sein. Deshalb wird das Dokument im abgesicherten Modus geladen werden, um mögliche Risiken zu minimieren.</UnsafeCompilation1>
     <UnsafeCompilation2>Wenn Sie das Dokument in seiner ursprünglichen Form verwenden möchten, kontaktieren Sie Ihren Entwicklern.</UnsafeCompilation2>
     <UnsafeCompilationTitle>Das Dokument wird im abgesicherten Modus geöffnet</UnsafeCompilationTitle>
-    <UseDefaultSystemEncoding>Entweder die Standardcodierung des Systems verwenden oder eine Codierung festlegen.</UseDefaultSystemEncoding>
-    <UseOnePageHeaderAndFooter>Die Kopf- und Fuß-Bänder der Berichtseite als Kopf- bzw. Fußzeile im MS Word Dokument verwenden.</UseOnePageHeaderAndFooter>
-    <UsePageHeadersAndFooters>Die Kopf- und Fuß-Bänder der Berichtseite als Kopf- bzw. Fußzeile im MS Word Dokument verwenden.</UsePageHeadersAndFooters>
+    <UseDefaultSystemEncoding>Die Codierung des Systems verwenden. Deaktivieren, um eine andere auszuwählen.</UseDefaultSystemEncoding>
+    <UseOnePageHeaderAndFooter>Nur einen Seitenkopf und einen Seitenfuß in der Excel-Datei behalten, statt sie auf jeder Seite zu wiederholen.</UseOnePageHeaderAndFooter>
+    <UsePageHeadersAndFooters>Die Bänder Seitenkopf und Seitenfuß zur Kopf- und Fußzeile des Dokuments machen.</UsePageHeadersAndFooters>
     <UserPassword>Das benötigte Passwort, um das Dokument zu öffnen.</UserPassword>
-    <UseUnicode>Unterstützung des Unicode Zeichensatzes. Damit wird die Codierung spezieller Zeichen im PDF und das Kopieren von Text aus dem PDF verbessert.</UseUnicode>
+    <UseUnicode>Die Zeichen in der PDF-Datei als Unicode speichern, damit der Text korrekt kopiert wird.</UseUnicode>
     <ViewModeContinuous>Alle Seiten als Band anzeigen.</ViewModeContinuous>
     <ViewModeMultiplePages>Mehrere Seiten anzeigen.</ViewModeMultiplePages>
     <ViewModeSinglePage>Einzelne Seite anzeigen.</ViewModeSinglePage>
@@ -2448,7 +2451,7 @@
     <ZoomOnePage>Eine Seite einpassen.</ZoomOnePage>
     <ZoomPageWidth>An Seitenbreite anpassen.</ZoomPageWidth>
     <ZoomTwoPages>Zwei Seiten einpassen.</ZoomTwoPages>
-    <ZoomTxt>Die Skalierung im Dokument: X - Ändert die horizontale Skalierung; Y - Ändert die vertikale Skalierung.</ZoomTxt>
+    <ZoomTxt>Die Skalierung des Berichtstextes: X horizontal, Y vertikal.</ZoomTxt>
   </HelpViewer>
   <Interface>
     <Mouse>Maus</Mouse>

@@ -1083,7 +1083,7 @@
   </ExceptionProvider>
   <Export>
     <AddPageBreaks>გვერდის წყვეტის დამატება</AddPageBreaks>
-    <AllBands>ყველა სვეტი</AllBands>
+    <AllBands>ყველა სექცია</AllBands>
     <AllowAddOrModifyTextAnnotations>ტექსტის ანოტაციის დამატების ან შეცვლის უფლება</AllowAddOrModifyTextAnnotations>
     <AllowCopyTextAndGraphics>ტექსტის და სურათების კოპირების უფლება</AllowCopyTextAndGraphics>
     <AllowEditable>რედაქტირებადებზე ნებართვა:</AllowEditable>
@@ -1195,14 +1195,14 @@
     <TiffCompressionScheme>TIFF კომპრესიის სქემა:</TiffCompressionScheme>
     <title>ექსპორტის პარამეტრები</title>
     <TxtBorderType>ველების ტიპი</TxtBorderType>
-    <TxtBorderTypeDouble>Unicode ორმაგი</TxtBorderTypeDouble>
+    <TxtBorderTypeDouble>ორმაგი</TxtBorderTypeDouble>
     <TxtBorderTypeSimple>ჩვეულებრივი</TxtBorderTypeSimple>
-    <TxtBorderTypeSingle>Unicode ერთიანი</TxtBorderTypeSingle>
+    <TxtBorderTypeSingle>ერთმაგი</TxtBorderTypeSingle>
     <TxtCutLongLines>გრძელი ხაზების მოჭრა</TxtCutLongLines>
     <TxtDrawBorder>საზღვრის გამოჩენა</TxtDrawBorder>
-    <TxtKillSpaceGraphLines>ცარიელი გრაფიკული ხაზების გამოტოვება</TxtKillSpaceGraphLines>
-    <TxtKillSpaceLines>ცარიელი ხაზების გამოტოვება</TxtKillSpaceLines>
-    <TxtPutFeedPageCode>გვერდის დამთავრების ბეჭდვა</TxtPutFeedPageCode>
+    <TxtKillSpaceGraphLines>მხოლოდ ჩარჩოიანი სტრიქონების წაშლა</TxtKillSpaceGraphLines>
+    <TxtKillSpaceLines>ცარიელი სტრიქონების წაშლა</TxtKillSpaceLines>
+    <TxtPutFeedPageCode>ფურცლის გადაწევა ყოველი გვერდის შემდეგ</TxtPutFeedPageCode>
     <Type>ტიპი:</Type>
     <UseDefaultSystemEncoding>სისტემური კოდირების გამოყენება</UseDefaultSystemEncoding>
     <UseDigitalSignature>ციფრული ხელმოწერის გამოყენება</UseDigitalSignature>
@@ -2355,62 +2355,65 @@
     <StiTreeViewControl>აჩვენებს იერარქიულ მონაცემებს ხის სახით.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
-    <AddPageBreaks>რეპორტის გვერდის ვიზუალური გაწყვეტა.</AddPageBreaks>
-    <AllowAddOrModifyTextAnnotations>შენივნების დამატება/შეცვლის ნებართვა.</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>ტექსტისა და გრაფიკის კოპირების ნებართვა.</AllowCopyTextAndGraphics>
-    <AllowEditable>მხოლოდ "რედაქტირებადი" თვისების მქონე კომპონენტების ცვლილების ნებართვა.</AllowEditable>
-    <AllowModifyContents>ტექსტის რედაქტირების შეზღუდვა.</AllowModifyContents>
-    <AllowPrintDocument>ბეჭდვის ოპერაციებთან წვდომის შეზღუდვა.</AllowPrintDocument>
+    <AddPageBreaks>რეპორტის გვერდებს შორის გამყოფის ჩვენება.</AddPageBreaks>
+    <AllowAddOrModifyTextAnnotations>შენიშვნების დამატებისა და შეცვლის ნებართვა.</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>დოკუმენტის ტექსტისა და გრაფიკის კოპირების ნებართვა.</AllowCopyTextAndGraphics>
+    <AllowEditable>იმ კომპონენტების შეცვლის ნებართვა, რომლებსაც ჩართული აქვთ თვისება "რედაქტირებადი".</AllowEditable>
+    <AllowModifyContents>დოკუმენტის ტექსტის შეცვლის ნებართვა.</AllowModifyContents>
+    <AllowPrintDocument>დოკუმენტის ბეჭდვის ნებართვა.</AllowPrintDocument>
     <Bookmarks>ჩასანიშნების ჩვენება.</Bookmarks>
-    <BorderType>კომპონენტის საზღვრის ტიპი: მარტივი - საზღვრების ხატვა მარტივი სიმბოლოებით: +, -, |; Unicode ერთიანი - საზღვებრის ხატვა ერთზოლიანი სპეც. სიმბოლოებით. Unicode ორმაგი - საზღვრების ხატვა ორზოლიანი სპეც. სიმბოლოებით.</BorderType>
+    <BorderType>კომპონენტების საზღვრების სიმბოლოები: ჩვეულებრივი მათ ხატავს +, - და | სიმბოლოებით, ერთმაგი და ორმაგი კი ერთმაგი ან ორმაგი ფსევდოგრაფიკული ხაზებით.</BorderType>
     <Close>წინასწარი დათვალიერების დახურვა.</Close>
     <CloseDotMatrix>მატრიცული პრინტერის რეჟიმის დახურვა და რეპორტის დიზაინერის ფანჯარაში დაბრუნება.</CloseDotMatrix>
-    <Compressed>მზა დოკუმენტის კომპრესია. რეკომენდირებულია ყოველთვის იყოს ჩართული.</Compressed>
-    <CompressToArchive>ყველა ფაილის და ფოლდერის განთავსება zip არქივში.</CompressToArchive>
-    <ContinuousPages>რეპორტის გვერდების განლაგების სტილი - ვერტიკალური ლენტი.</ContinuousPages>
-    <CurrentPage>მიმდინარე გვერდის დამუშავება. თუ მონიშნულია, მაშინ დამუშავდება რეპორტის მიმდნარე გვერდი.</CurrentPage>
-    <CutEdges>რეპორტის გვერდების ცარიელი საზღვრების მოჭრა.</CutEdges>
-    <CutLongLines>გრძელი ხაზების (ტექსტის სტრიქონი) მოჭრა კომპონენტების საზღვრების შესაბამისად.</CutLongLines>
+    <Compressed>დოკუმენტის კომპრესია. დატოვეთ ჩართული, რომ ფაილი უფრო მცირე იყოს.</Compressed>
+    <CompressToArchive>ყველა ფაილისა და ფოლდერის შეფუთვა zip არქივში.</CompressToArchive>
+    <ContinuousPages>რეპორტის გვერდების ერთმანეთის ქვეშ განლაგება ერთიან ლენტად.</ContinuousPages>
+    <CurrentPage>რეპორტის მხოლოდ მიმდინარე გვერდი.</CurrentPage>
+    <CutEdges>რეპორტის გვერდების კიდეების მოჭრა.</CutEdges>
+    <CutLongLines>იმ ტექსტის მოჭრა, რომელიც თავის კომპონენტში არ ეტევა, ახალ სტრიქონზე გადატანის ნაცვლად.</CutLongLines>
     <DashboardContains1>უკაცრავად, მაგრამ აღნიშნული ანგარიში მოიცავს ინდიკატორების პანელს.</DashboardContains1>
     <DashboardContains2>თქვენ უნდა გახსნათ აღნიშნული ანგარიში უშუალოდ დიზაინერში!</DashboardContains2>
     <DashboardContains3>თქვენ არ შეგიძლიათ აღნიშნული მოქმედების განხორციელება ანგარიშების ვიუვერიდან!</DashboardContains3>
-    <DigitalSignature>ფაილის ციფრული ხელმოწერა.</DigitalSignature>
-    <DitheringType>მონოქრომული შერევის ტიპი: None - შერევის გარეშე, Ordered, FloydSt. - შერევით.</DitheringType>
+    <DigitalSignature>დოკუმენტის ხელმოწერა ციფრული ხელმოწერით.</DigitalSignature>
+    <DitheringType>შავ-თეთრი სურათების შერევა: None, Ordered ან Floyd-Steinberg.</DitheringType>
     <DotMatrixMode>მატრიცულ რეჟიმში ნახვა.</DotMatrixMode>
-    <DrawBorder>კომპონენტების საზღვრების ხატვა გრაფიკული სიმბოლოებით.</DrawBorder>
+    <DotMatrixSettings>პარამეტრების ჩვენება ან დამალვა.</DotMatrixSettings>
+    <DrawBorder>კომპონენტების საზღვრების ხატვა ფსევდოგრაფიკული სიმბოლოებით.</DrawBorder>
     <Edit>კომპონენტების რედაქტირება.</Edit>
     <EmbeddedFonts>PDF ფაილში გამოყენებული ფონტების ჩაშენება.</EmbeddedFonts>
     <EmbeddedFontsHtml>შრიფტის ფაილების HTML ფაილში ჩაშენება: არცერთი, მხოლოდ სამომხმარებლო, თუ რეპორტში გამოყენებული ყველა შრიფტი.</EmbeddedFontsHtml>
     <EmbeddedFontsOffice>შრიფტის ფაილების ექსპორტირებულ ფაილში ჩაშენება.</EmbeddedFontsOffice>
-    <EmbeddedImageData>HTML ფაილში სურათების ჩაშენება.</EmbeddedImageData>
-    <Encoding>ექსპორტის შემდეგ რეპორტის ტექსტის შიფრაცია.</Encoding>
-    <EncodingData>მონაცემთა ფაილის შიფრაცია.</EncodingData>
-    <EncryptionKeyLength>შიფრაციის გასაღების სიგრძე. რაც უფრო გრძელია ის, მით უფრო ძნელია დოკუმენტის დეშიფრაცია და შესაბამისად დოკუმენტი მეტად დაცულია.</EncryptionKeyLength>
-    <ExportDataOnly>მხოლოდ მონაცემთა სექციების ექსპორტი (კომპონენტი "ცხრილი", იერარქიული სექცია).</ExportDataOnly>
-    <ExportEachPageToSheet>რეპორტის გვერდების ექსპორტი Excel-ის ფაილში ცალ-ცალკე ჩასანიშნებად.</ExportEachPageToSheet>
-    <ExportMode>ფილტრაციის ტიპები: მხოლოდ მონაცემები - მხოლოდ მონაცემთა სექციების ექსპორტი (კომპონენტი "ცხრილი", იერარქიული სექცია); მონაცემები და ზედა/ქვედა კოლონტიტული - მონაცემთა სექციების (კომპონენტი "ცხრილი", იერარქიული სექცია) და მათი ზედა/ქვედა კოლონტიტულების ექსპორტი; ყველა სექსია - რეპორტის ყველა სექციის ექსპორტი.</ExportMode>
-    <ExportModeHtml>HTML გვერდის markup-ის ტიპი.</ExportModeHtml>
-    <ExportModeRtf>ექსპორტის შემდეგ რეპორტის მონაცემების წარდგენა. ცხრილი - რეპორტის თითოეული კომპონენტი წარმოდგენილია ცხრილის უჯრად; ჩარჩო - რეპორტის თითოეული კომპონენტი წარმოდგენილია ცალკეული ჩარჩოს სახით კავშირების გარეშე.</ExportModeRtf>
-    <ExportObjectFormatting>მონაცემთა სექციებზე (კომპონენტი "ცხრილი", იერარქიული სექცია) ფორმატირების მინიჭება.</ExportObjectFormatting>
+    <EmbeddedImageData>სურათების ჩაშენება პირდაპირ HTML ფაილში.</EmbeddedImageData>
+    <Encoding>ექსპორტირებული ტექსტის კოდირება.</Encoding>
+    <EncodingData>მონაცემთა ფაილის კოდირება.</EncodingData>
+    <EncryptionKeyLength>შიფრაციის გასაღების სიგრძე: რაც უფრო გრძელია გასაღები, მით უფრო რთულია დოკუმენტის დეშიფრაცია.</EncryptionKeyLength>
+    <ExportDataOnly>მხოლოდ მონაცემთა სექციების ექსპორტი: კომპონენტი "ცხრილი" და იერარქიული სექცია.</ExportDataOnly>
+    <ExportEachPageToSheet>რეპორტის თითოეული გვერდის ექსპორტი Excel-ის ცალკე ფურცელზე.</ExportEachPageToSheet>
+    <ExportMode>ფაილში მოსახვედრი სექციები: მხოლოდ მონაცემები იღებს მონაცემთა სექციებს (კომპონენტი "ცხრილი", იერარქიული სექცია), მონაცემები და ზედა/ქვედა კოლონტიტულები ამატებს მათ ზედა და ქვედა კოლონტიტულებს, ყველა სექცია იღებს ყველა სექციას.</ExportMode>
+    <ExportModeHtml>HTML გვერდის მარკირება.</ExportModeHtml>
+    <ExportModeRtf>რეპორტის განლაგება ექსპორტის შემდეგ: ცხრილი თითოეულ კომპონენტს ცხრილის უჯრაში ათავსებს, ჩარჩო თითოეულ კომპონენტს საკუთარ ჩარჩოში ათავსებს, მათ შორის კავშირის გარეშე.</ExportModeRtf>
+    <ExportObjectFormatting>მონაცემთა სექციების (კომპონენტი "ცხრილი", იერარქიული სექცია) მონაცემების ფორმატირების შენარჩუნება.</ExportObjectFormatting>
     <ExportPageBreaks>რეპორტის გვერდების საზღრების ჩვენება Excel-ის ჩასანიშნში.</ExportPageBreaks>
-    <ExportRtfTextAsImage>RTF ტექსტის სურათად გარდაქმნა. თუ გამორთულია - ექსპორტის დროს RichText გარდაიქმნება PDF ფორმატისთვის ხელმისაწვდომ მარტივ კომპონენტებში. RichText რთული ფორმატირებით (ჩაშენებული სურათი, ცხრილი) ხანდახან არ გარდაიქმნება კორექტულად. ასეთ შემთხვევაში რეკომენდირებულია პარამეტრის ჩართვა.</ExportRtfTextAsImage>
+    <ExportRtfTextAsImage>RTF ტექსტის ექსპორტი სურათად. ჩართეთ სურათებიანი ან ცხრილებიანი ფორმატირებული ტექსტისთვის, რომელიც ყოველთვის სწორად არ გარდაიქმნება PDF ტექსტად.</ExportRtfTextAsImage>
     <Find>ტექსტის ძებნა.</Find>
     <FullScreen>მთელ ეკრანზე ნახვა.</FullScreen>
-    <GetCertificateFromCryptoUI>სისტემის კრიპტოგრაფიის ხელსაწყოს ინტერფეისის გამოყენება.</GetCertificateFromCryptoUI>
-    <ImageCompressionMethod>კომპრესიის მეთოდი: JPEG - შესაძლოა ხარისხის გაუარესება; Flate – ხარისხის ცვლილების გარეშე; Simple, Ordered, FloydSt. - სურათების მონოქრომულად გარდაქმნა.</ImageCompressionMethod>
-    <ImageFormat>სურათების ფორმატი მისაღებ ფაილში.</ImageFormat>
-    <ImageQuality>შესაძლებლობას გაძლევთ აირჩიოთ სურათის ხარისხი/ზომის შეფარდება. უკეთესი ხარისხი - უფრო დიდი მოცულობის ფაილი.</ImageQuality>
-    <ImageQualityPdf>მოცემული პარამეტრი ხელმისაწვდომია მხოლო JPEG კომპრესიის დროს და შესაძლებლობას გაძლევთ აირჩიოთ სურათის ხარისხი/ზომის შეფარდება. უკეთესი ხარისხი - უფრო დიდი მოცულობის ფაილი.</ImageQualityPdf>
-    <ImageResolution>ერთ დიუმზე პიქსელების რაოდენობა. პიქსელების მეტი რაოდენობა - სურათის უკეთესი ხარისხი.</ImageResolution>
+    <GetCertificateFromCryptoUI>სერტიფიკატის არჩევა სისტემის კრიპტოგრაფიის ბიბლიოთეკის ფანჯარაში.</GetCertificateFromCryptoUI>
+    <ImageCompressionMethod>სურათების კომპრესია: JPEG შეიძლება ხარისხს აუარესებდეს, Flate ხარისხს ინარჩუნებს, ხოლო Simple, Ordered და Floyd-Steinberg სურათებს შავ-თეთრად აქცევს.</ImageCompressionMethod>
+    <ImageFormat>სურათების ფორმატი ექსპორტირებულ ფაილში.</ImageFormat>
+    <ImageQuality>სურათების ხარისხისა და ფაილის ზომის ბალანსი: რაც უფრო მაღალია ხარისხი, მით უფრო დიდია ფაილი.</ImageQuality>
+    <ImageQualityPdf>სურათების ხარისხისა და ფაილის ზომის ბალანსი JPEG კომპრესიისას: რაც უფრო მაღალია ხარისხი, მით უფრო დიდია ფაილი.</ImageQualityPdf>
+    <ImageResolution>პიქსელების რაოდენობა ერთ დიუმზე: რაც მეტია პიქსელი, მით უკეთესია სურათები და მით უფრო დიდია ფაილი.</ImageResolution>
     <ImageResolutionMode>როგორ გამოიყენება რეზოლუცია სურათებზე: ზუსტად, მხოლოდ უფრო დიდების შესამცირებლად, ან საერთოდ არა.</ImageResolutionMode>
-    <ImageType>სურათის ფერების ტიპი: ფერადი - ექსპორტის შემდეგ სურათი ემთხვევა დასათვალიერებელ პროგრამაში არსებულს; ნაცრისფერი – ექსპორტის შემდეგ სურათი იქნება ნაცრისფერ ტონებში; მონოქრომული - ექსპორტის შემდეგ სურათი იქნება შავ-თეთრი. ამავდროულად გაითვალისწინეთ, რომ მონოქრომს გააჩნია სამი რეჟიმი: None, Ordered, FloydSt.</ImageType>
-    <KillSpaceLines>ცარიელი სტრიქონების წაშლა.</KillSpaceLines>
-    <MultipleFiles>რეპორტის თითოეული გვერდი იქნება ცალკეული ფაილი.</MultipleFiles>
+    <ImageType>სურათის ფერები: ფერი ემთხვევა დასათვალიერებელ პროგრამას, ნაცრისფერი იყენებს ნაცრისფერ ტონებს, მონოქრომული იყენებს მხოლოდ შავსა და თეთრს შერევის სამი რეჟიმიდან ერთ-ერთით.</ImageType>
+    <KeepProportions>პროპორციების შენარჩუნება.</KeepProportions>
+    <KillSpaceGraphLines>იმ სტრიქონების წაშლა, რომლებიც მხოლოდ ჩარჩოებსა და ჰარებს შეიცავს.</KillSpaceGraphLines>
+    <KillSpaceLines>დოკუმენტიდან ცარიელი სტრიქონების წაშლა.</KillSpaceLines>
+    <MultipleFiles>რეპორტის თითოეული გვერდის ექსპორტი ცალკე ფაილში.</MultipleFiles>
     <Open>რეპორტის გახსნა.</Open>
-    <OpenAfterExport>ექსპორტირებული ფაილის გახსნა შესაბამისი პროგრამით.</OpenAfterExport>
-    <OwnerPassword>ფაილის ოპერაციებთან წვდომის პაროლი.</OwnerPassword>
-    <PageAll>რეპორტის ყველა გვერდის დამუშავება.</PageAll>
-    <PageBands>გვერდის რომელი კოლონტიტულები მოხვდება დოკუმენტში: არცერთი, პირველი ზედა და ბოლო ქვედა კოლონტიტული, თუ ყველა.</PageBands>
+    <OpenAfterExport>ექსპორტირებული ფაილის გახსნა მისი ტიპისთვის მინიჭებულ პროგრამაში.</OpenAfterExport>
+    <OwnerPassword>დოკუმენტის უფლებების შესაცვლელად საჭირო პაროლი.</OwnerPassword>
+    <PageAll>რეპორტის ყველა გვერდი.</PageAll>
+    <PageBands>გვერდის კოლონტიტულები, რომლებიც დოკუმენტში მოხვდება: არცერთი, პირველი ზედა და ბოლო ქვედა კოლონტიტული, ან ყველა.</PageBands>
     <PageDelete>მონიშნული გვერდის წაშლა.</PageDelete>
     <PageDesign>გვერდის შეცვლა დიზაინერში.</PageDesign>
     <PageFirst>პირველ გვერდზე გადასვლა.</PageFirst>
@@ -2421,37 +2424,37 @@
     <PagePrevious>წინა გვერდზე გადასვლა.</PagePrevious>
     <PageSize>გვერდის პარამეტრების შეცვლა.</PageSize>
     <Parameters>პარამეტრების ჩვენება.</Parameters>
-    <PdfACompliance>ელექტრონული დოკუმენტების გრძელვადიანი არქივაციის სტანდარტების (PdfA) მხარდაჭერა.</PdfACompliance>
-    <PdfUniversalAccessibility>ელექტრონული დოკუმენტებისა და ინფორმაციის უნივერსალური ხელმისაწვდომობის სტანდარტის მხარდაჭერა.</PdfUniversalAccessibility>
+    <PdfACompliance>PDF/A სტანდარტის დაცვა დოკუმენტების გრძელვადიანი არქივაციისთვის.</PdfACompliance>
+    <PdfUniversalAccessibility>PDF/UA სტანდარტის დაცვა ყველასთვის ხელმისაწვდომი დოკუმენტებისთვის.</PdfUniversalAccessibility>
     <Print>რეპორტის ბეჭდვა.</Print>
-    <PutFeedPageCode>მიღებულ დოკუმენტში გვერდების წყვეტა სპეც. სიმბოლოს გამოყენებით.</PutFeedPageCode>
-    <RangePages>დასამუშავებელი გვერდების ნომრები. შეგიძლიათ მიუთითოთ როგორც ცალკეული გვერდი, გვერდების სია (მძიმის გამოყენებით), ასევე გვერდების დიაპაზონი, საწყისი და ბოლო გვერდის ნომრებს შორის "-" სიმბოლოს ჩასმით. მაგ.: 1,3,5-12.</RangePages>
+    <PutFeedPageCode>თითოეული გვერდის ახალ ფურცელზე დაწყება გვერდის გადაწევის სიმბოლოთი.</PutFeedPageCode>
+    <RangePages>გვერდების დიაპაზონი: ერთი გვერდი, მძიმით გამოყოფილი სია ან დეფისით მითითებული დიაპაზონი, მაგალითად 1,3,5-12.</RangePages>
     <RebuildReport>ხელახლა აგებს ანგარიშს ახალი გვერდისთვის, რომ მონაცემებმა ახალი გვერდები შეავსოს. ამის გარეშე იცვლება მხოლოდ უკვე აგებული გვერდების ზომა. მიუწვდომელია ფაილიდან გახსნილი დოკუმენტისთვის.</RebuildReport>
-    <RemoveEmptySpaceAtBottom>ცარიელი ადგილის მინიმიზაცია გვერდის ქვედა ნაწილში.</RemoveEmptySpaceAtBottom>
+    <RemoveEmptySpaceAtBottom>გვერდების ქვედა ნაწილში ცარიელი ადგილის შემცირება.</RemoveEmptySpaceAtBottom>
     <Resources>რესურსების ჩვენება.</Resources>
-    <RestrictEditing>Word-ის დოკუმენტში რედაქტირების აკრძალვა.</RestrictEditing>
+    <RestrictEditing>Word დოკუმენტის შეცვლის შეზღუდვები.</RestrictEditing>
     <Save>რეპორტის შენახვა.</Save>
     <ScaleContent>ცვლის კომპონენტების ზომას გვერდთან ერთად. ამის გარეშე ისინი ინარჩუნებენ ზომასა და ადგილს.</ScaleContent>
-    <ScaleHtml>ექსპორტირებული გვერდების და ელემენტების ზომა (მასშტაბი).</ScaleHtml>
-    <ScaleImage>რეპორტის ზომა (მასშტაბი) ექსპორტის შემდეგ. რაც უფრო მცირეა ზომა, მით უფრო მეტია დიუმში პიქსელების რაოდენობა.</ScaleImage>
+    <ScaleHtml>რეპორტის გვერდებისა და ელემენტების მასშტაბი ექსპორტირებულ ფაილში.</ScaleHtml>
+    <ScaleImage>რეპორტის მასშტაბი სურათზე: რაც უფრო დიდია მასშტაბი, მით უფრო დიდია სურათი.</ScaleImage>
     <SendEMail>რეპორტის გაგზავნა Email-ით.</SendEMail>
-    <Separator>CSV ფაილში გამყოფი სიმბოლო მონაცემთა შორის.</Separator>
-    <SkipColumnHeaders>სვეტის წარწერის ჩართვა/გამორთვა.</SkipColumnHeaders>
-    <StandardPdfFonts>14 სტანდარტული Adobe ფონტი. თუ ეს პარამეტრი ჩართულია მხოლოდ 14 სტანდარტული ფონტი იქნება გამოყენებული PDF ფაილში. რეპორტის ყველა ფონტი შეიცვლება.</StandardPdfFonts>
-    <SubjectNameString>სერტიფიკატის იდენტიფიკატორი. იდენტიფიკატორი - სერტიფიკატის მფლობელის სახელია (full line) ან სახელის ნაწილი (substring).</SubjectNameString>
+    <Separator>სიმბოლო, რომელიც CSV ფაილში მონაცემებს ჰყოფს.</Separator>
+    <SkipColumnHeaders>სვეტების სათაურების გამოტოვება ფაილში.</SkipColumnHeaders>
+    <StandardPdfFonts>მხოლოდ 14 სტანდარტული Adobe ფონტის გამოყენება: რეპორტის ყველა ფონტი მათით შეიცვლება.</StandardPdfFonts>
+    <SubjectNameString>სერტიფიკატი ხელმოსაწერად: მისი მფლობელის სრული სახელი ან მისი ნაწილი.</SubjectNameString>
     <Thumbnails>გვერდების ესკიზების ჩვენება.</Thumbnails>
-    <TiffCompressionScheme>TIFF ფაილის კომპრესიის ტიპი.</TiffCompressionScheme>
+    <TiffCompressionScheme>TIFF ფაილის კომპრესია.</TiffCompressionScheme>
     <ToolEditor>რედაქტირებადი კომპონენტების შეცვლა.</ToolEditor>
     <ToolSignature>ხელმოწერა მონიშნულ ადგილებში.</ToolSignature>
-    <TypeExport>რეპორტის ექსპორტის ტიპი.</TypeExport>
+    <TypeExport>ფაილის ტიპი, რომლადაც გარდაიქმნება რეპორტი.</TypeExport>
     <UnsafeCompilation1>აღნიშნულ დოკუმენტში გამოიყენება კომპილაციის პროცესი. ზოგიერთ შემთხვევაში ეს სახიფათოა. შესაბამისად დოკუმენტი ჩაიტვირთება უსაფრთხო რეჟიმში, პოტენციური რისკების მინიმუმამდე დასაყვანად.</UnsafeCompilation1>
     <UnsafeCompilation2>თუ გსურთ აღნიშნული დოკუმენტის თავდაპირველი სახით გამოყენება, მიმართეთ თქვენს დეველოპერებს.</UnsafeCompilation2>
     <UnsafeCompilationTitle>დოკუმენტი გაიხსნება უსაფრთხო რეჟიმში</UnsafeCompilationTitle>
-    <UseDefaultSystemEncoding>სისტემის სტანდარტული კოდირების გამოყენებით ან მომხმარებლის მიერ არჩეული კოდირებით.</UseDefaultSystemEncoding>
-    <UseOnePageHeaderAndFooter>რეპორტის გვერდის მონაცემთა სექციის ზედა/ქვედა კოლონტიტულების გარდაქმნა "Microsoft Word Document"-ის გვერდის ზედა/ქვედა კოლონტიტულებად.</UseOnePageHeaderAndFooter>
-    <UsePageHeadersAndFooters>რეპორტის გვერდის ზედა/ქვედა კოლონტიტულების გარდაქმნა "Microsoft Word Document"-ის გვერდის ზედა/ქვედა კოლონტიტულებად.</UsePageHeadersAndFooters>
+    <UseDefaultSystemEncoding>სისტემის კოდირების გამოყენება. გამორთეთ, რომ სხვა კოდირება აირჩიოთ.</UseDefaultSystemEncoding>
+    <UseOnePageHeaderAndFooter>Excel ფაილში მხოლოდ ერთი გვერდის სათაურისა და ერთი გვერდის ქვედა კოლონტიტულის დატოვება, ყველა გვერდზე მათი გამეორების ნაცვლად.</UseOnePageHeaderAndFooter>
+    <UsePageHeadersAndFooters>"გვერდის სათაური" და "გვერდის ქვედა კოლონტიტული" სექციების გარდაქმნა დოკუმენტის ზედა და ქვედა კოლონტიტულებად.</UsePageHeadersAndFooters>
     <UserPassword>დოკუმენტის გახსნის პაროლი.</UserPassword>
-    <UseUnicode>დოკუმენტში Unicode კოდირების მხარდაჭერა. მოქმედებს PDF ფაილში შენახულ სიმბოლოებზე და შემდგომში აადვილებს  ტექსტის კოპირება/გადატანას ფაილიდან.</UseUnicode>
+    <UseUnicode>სიმბოლოების Unicode-ში შენახვა PDF ფაილის შიგნით, რომ ტექსტი სწორად დაკოპირდეს.</UseUnicode>
     <ViewModeContinuous>ყველა გვერდის ჩვენება ლენტის სახით.</ViewModeContinuous>
     <ViewModeMultiplePages>რამდენიმე გვერდის ჩვენება.</ViewModeMultiplePages>
     <ViewModeSinglePage>ერთი გვერდის ჩვენება.</ViewModeSinglePage>
@@ -2459,7 +2462,7 @@
     <ZoomOnePage>ერთი გვერდის ჩატევა.</ZoomOnePage>
     <ZoomPageWidth>გვერდის სიგანის მორგება.</ZoomPageWidth>
     <ZoomTwoPages>ორი გვერდის ჩატევა.</ZoomTwoPages>
-    <ZoomTxt>რეპორტის ზომა (მასშტაბი): X - ჰორიზონტალური მასშტაბის ცვლილება, Y - ვერტიკალური მასშტაბის ცვლილება.</ZoomTxt>
+    <ZoomTxt>რეპორტის ტექსტის მასშტაბი: X ჰორიზონტალურად, Y ვერტიკალურად.</ZoomTxt>
   </HelpViewer>
   <Infographics>
     <Arguments>არგუმენტები</Arguments>

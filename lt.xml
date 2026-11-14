@@ -349,14 +349,15 @@
     <Settings>Nustatymai</Settings>
     <StandardPDFFonts>Standartiniai PDF šriftai</StandardPDFFonts>
     <TiffCompressionScheme>Schema Compressione TIFF:</TiffCompressionScheme>
+    <TxtKillSpaceGraphLines>Šalinti eilutes tik su rėmeliais</TxtKillSpaceGraphLines>
     <title>Eksportuoti nustatymus</title>
     <TxtBorderType>Rėmelio tipas</TxtBorderType>
-    <TxtBorderTypeDouble>Unicode-Dvigubas</TxtBorderTypeDouble>
+    <TxtBorderTypeDouble>Dvigubas</TxtBorderTypeDouble>
     <TxtBorderTypeSimple>Paprastas</TxtBorderTypeSimple>
-    <TxtBorderTypeSingle>Unicode-Viengubas</TxtBorderTypeSingle>
+    <TxtBorderTypeSingle>Viengubas</TxtBorderTypeSingle>
     <TxtDrawBorder>Piešti rėmelį</TxtDrawBorder>
-    <TxtKillSpaceLines>Panaikinti tarpus tarp eilučių</TxtKillSpaceLines>
-    <TxtPutFeedPageCode>Žymėti puslapio pabaigą</TxtPutFeedPageCode>
+    <TxtKillSpaceLines>Šalinti tuščias eilutes</TxtKillSpaceLines>
+    <TxtPutFeedPageCode>Lapo perstūmimas po kiekvieno puslapio</TxtPutFeedPageCode>
     <UseEscapeCodes>Usa codici di escape</UseEscapeCodes>
     <X>X:</X>
     <Y>Y:</Y>
@@ -1062,16 +1063,59 @@
     <StiTreeViewControl>Rodo hierarchinius duomenis kaip medį.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
+    <AddPageBreaks>Rodyti skyriklį tarp ataskaitos puslapių.</AddPageBreaks>
+    <AllowAddOrModifyTextAnnotations>Leisti pridėti ir keisti pastabas.</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Leisti kopijuoti dokumento tekstą ir grafiką.</AllowCopyTextAndGraphics>
+    <AllowEditable>Leisti keisti komponentus, kuriems įjungta savybė Redaguojamas.</AllowEditable>
+    <AllowModifyContents>Leisti keisti dokumento tekstą.</AllowModifyContents>
+    <AllowPrintDocument>Leisti spausdinti dokumentą.</AllowPrintDocument>
     <Bookmarks>Rodyti žymes.</Bookmarks>
+    <BorderType>Komponentų kraštinių simboliai: Paprastas jas piešia ženklais +, - ir |, Viengubas ir Dvigubas viengubomis arba dvigubomis pseudografikos linijomis.</BorderType>
     <Close>Uždaryti peržiūrą.</Close>
+    <CompressToArchive>Supakuoti visus failus ir aplankus į zip archyvą.</CompressToArchive>
+    <Compressed>Suspausti dokumentą. Palikite įjungtą, kad failas būtų mažesnis.</Compressed>
+    <ContinuousPages>Išdėstyti ataskaitos puslapius vieną po kito ištisine juosta.</ContinuousPages>
+    <CurrentPage>Tik dabartinis ataskaitos puslapis.</CurrentPage>
+    <CutEdges>Apkarpyti ataskaitos puslapių kraštus.</CutEdges>
+    <CutLongLines>Nukirpti tekstą, kuris netelpa į savo komponentą, užuot jį perkėlus.</CutLongLines>
+    <DigitalSignature>Pasirašyti dokumentą skaitmeniniu parašu.</DigitalSignature>
+    <DitheringType>Juodai baltų paveikslėlių maišymas: None, Ordered arba Floyd-Steinberg.</DitheringType>
     <DotMatrixMode>Peržiūrėti matriciniu režimu.</DotMatrixMode>
+    <DotMatrixSettings>Rodyti arba slėpti nustatymus.</DotMatrixSettings>
+    <DrawBorder>Piešti komponentų kraštines pseudografikos simboliais.</DrawBorder>
+    <EmbeddedFonts>Įterpti šriftų failus į PDF failą.</EmbeddedFonts>
     <EmbeddedFontsHtml>Įterpti šriftų failus į HTML failą: jokių, tik pasirinktinius arba visus ataskaitoje naudojamus šriftus.</EmbeddedFontsHtml>
     <EmbeddedFontsOffice>Įterpti šriftų failus į eksportuotą failą.</EmbeddedFontsOffice>
+    <EmbeddedImageData>Įterpti paveikslėlius tiesiai į HTML failą.</EmbeddedImageData>
+    <Encoding>Eksportuoto teksto koduotė.</Encoding>
+    <EncodingData>Duomenų failo koduotė.</EncodingData>
+    <EncryptionKeyLength>Šifravimo rakto ilgis: kuo ilgesnis raktas, tuo sunkiau iššifruoti dokumentą.</EncryptionKeyLength>
+    <ExportDataOnly>Eksportuoti tik sekcijas Duomenys: komponentą Lentelė ir sekciją Hierarchiniai duomenys.</ExportDataOnly>
+    <ExportEachPageToSheet>Eksportuoti kiekvieną ataskaitos puslapį į atskirą Excel lapą.</ExportEachPageToSheet>
+    <ExportMode>Sekcijos, kurios pateks į failą: Tik duomenys ima sekcijas Duomenys (komponentas Lentelė, sekcija Hierarchiniai duomenys), Duomenys ir antraštės/poraštės prideda jų antraštes ir poraštes, Visos sekcijos ima visas ataskaitos sekcijas.</ExportMode>
+    <ExportModeHtml>HTML puslapio žymėjimas.</ExportModeHtml>
+    <ExportModeRtf>Ataskaitos išdėstymas po eksporto: Lentelė kiekvieną komponentą paverčia lentelės langeliu, Rėmelis kiekvieną komponentą įdeda į atskirą rėmelį, be ryšio tarp jų.</ExportModeRtf>
+    <ExportObjectFormatting>Išsaugoti duomenų iš sekcijų Duomenys (komponentas Lentelė, sekcija Hierarchiniai duomenys) formatavimą.</ExportObjectFormatting>
+    <ExportRtfTextAsImage>Eksportuoti RTF tekstą kaip paveikslėlį. Įjunkite tekstui su paveikslėliais ar lentelėmis, nes jis ne visada teisingai virsta PDF tekstu.</ExportRtfTextAsImage>
     <Find>Rasti tekstą.</Find>
     <FullScreen>Peržiūrėti visame ekrane.</FullScreen>
+    <GetCertificateFromCryptoUI>Pasirinkti sertifikatą sistemos kriptografijos bibliotekos lange.</GetCertificateFromCryptoUI>
+    <ImageCompressionMethod>Paveikslėlių suspaudimas: JPEG gali prarasti kokybę, Flate ją išsaugo, o Simple, Ordered ir Floyd-Steinberg paverčia paveikslėlius juodai baltais.</ImageCompressionMethod>
+    <ImageFormat>Paveikslėlių formatas eksportuotame faile.</ImageFormat>
+    <ImageQuality>Paveikslėlių kokybės ir failo dydžio santykis: kuo aukštesnė kokybė, tuo didesnis failas.</ImageQuality>
+    <ImageQualityPdf>Paveikslėlių kokybės ir failo dydžio santykis naudojant JPEG suspaudimą: kuo aukštesnė kokybė, tuo didesnis failas.</ImageQualityPdf>
+    <ImageResolution>Pikselių skaičius colyje: kuo daugiau pikselių, tuo geresni paveikslėliai ir didesnis failas.</ImageResolution>
     <ImageResolutionMode>Kaip raiška taikoma paveikslėliams: tiksliai, tik didesniems sumažinti arba visai netaikoma.</ImageResolutionMode>
+    <ImageType>Paveikslėlio spalvos: Spalva atitinka peržiūros langą, Pilkas naudoja pilkos atspalvius, Juodai baltas naudoja tik juodą ir baltą vienu iš trijų maišymo režimų.</ImageType>
+    <KeepProportions>Išlaikyti proporcijas.</KeepProportions>
+    <KillSpaceGraphLines>Pašalinti eilutes, kuriose yra tik rėmeliai ir tarpai.</KillSpaceGraphLines>
+    <KillSpaceLines>Pašalinti tuščias eilutes iš dokumento.</KillSpaceLines>
+    <MultipleFiles>Eksportuoti kiekvieną ataskaitos puslapį į atskirą failą.</MultipleFiles>
     <Open>Atidaryti ataskaitą.</Open>
-    <PageBands>Kurie puslapių viršai ir apačios patenka į dokumentą: jokie, pirmas viršus ir paskutinė apačia arba visi.</PageBands>
+    <OpenAfterExport>Atidaryti eksportuotą failą programa, priskirta jo tipui.</OpenAfterExport>
+    <OwnerPassword>Slaptažodis, reikalingas dokumento teisėms keisti.</OwnerPassword>
+    <PageAll>Visi ataskaitos puslapiai.</PageAll>
+    <PageBands>Puslapių antraštės ir poraštės, kurios pateks į dokumentą: jokios, pirma antraštė ir paskutinė poraštė arba visos.</PageBands>
     <PageDelete>Ištrinti pasirinktą lapą.</PageDelete>
     <PageDesign>Redaguoti lapą dizaineryje.</PageDesign>
     <PageFirst>Eiti į pirmą lapą.</PageFirst>
@@ -1082,18 +1126,36 @@
     <PagePrevious>Eiti į ankstesnį lapą.</PagePrevious>
     <PageSize>Keisti lapo nustatymus.</PageSize>
     <Parameters>Rodyti parametrus.</Parameters>
+    <PdfACompliance>Laikytis PDF/A standarto ilgalaikiam dokumentų archyvavimui.</PdfACompliance>
+    <PdfUniversalAccessibility>Laikytis PDF/UA standarto dokumentams, prieinamiems visiems.</PdfUniversalAccessibility>
     <Print>Spausdinti ataskaitą.</Print>
+    <PutFeedPageCode>Pradėti kiekvieną puslapį naujame lape lapo keitimo simboliu.</PutFeedPageCode>
+    <RangePages>Puslapių intervalas: vienas puslapis, sąrašas per kablelį arba intervalas per brūkšnelį, pavyzdžiui, 1,3,5-12.</RangePages>
     <RebuildReport>Iš naujo sukuria ataskaitą naujam puslapiui, kad duomenys užpildytų naujus puslapius. Be šios parinkties keičiasi tik jau sukurtų puslapių dydis. Negalima naudoti dokumentui, atidarytam iš failo.</RebuildReport>
+    <RemoveEmptySpaceAtBottom>Sumažinti tuščią vietą puslapių apačioje.</RemoveEmptySpaceAtBottom>
     <Resources>Rodyti išteklius.</Resources>
+    <RestrictEditing>Word dokumento keitimo apribojimai.</RestrictEditing>
     <Save>Išsaugoti ataskaitą.</Save>
     <ScaleContent>Keičia komponentų dydį kartu su puslapiu. Be šios parinkties jie išlaiko savo dydį ir vietą.</ScaleContent>
+    <ScaleHtml>Ataskaitos puslapių ir elementų mastelis eksportuotame faile.</ScaleHtml>
+    <ScaleImage>Ataskaitos mastelis paveikslėlyje: kuo didesnis mastelis, tuo didesnis paveikslėlis.</ScaleImage>
     <SendEMail>Siųsti ataskaitą el. paštu.</SendEMail>
+    <Separator>Simbolis, kuris skiria duomenis CSV faile.</Separator>
+    <SkipColumnHeaders>Neįtraukti stulpelių antraščių į failą.</SkipColumnHeaders>
+    <StandardPdfFonts>Naudoti tik 14 standartinių Adobe šriftų: visi ataskaitos šriftai pakeičiami jais.</StandardPdfFonts>
+    <SubjectNameString>Sertifikatas pasirašymui: visas jo savininko vardas arba jo dalis.</SubjectNameString>
     <Thumbnails>Rodyti lapų eskizus.</Thumbnails>
+    <TiffCompressionScheme>TIFF failo suspaudimas.</TiffCompressionScheme>
     <ToolEditor>Redaguoti redaguojamus komponentus.</ToolEditor>
     <ToolSignature>Pasirašyti pažymėtose vietose.</ToolSignature>
+    <TypeExport>Failo, į kurį virsta ataskaita, tipas.</TypeExport>
     <UnsafeCompilation1>Šis dokumentas naudoja kompiliavimo procesą. Kai kuriais atvejais tai gali būti nesaugu. Todėl dokumentas bus įkeltas saugiuoju režimu, kad būtų sumažinta galima rizika.</UnsafeCompilation1>
     <UnsafeCompilation2>Jei šį dokumentą reikia naudoti originalios formos, kreipkitės į savo kūrėjus.</UnsafeCompilation2>
     <UnsafeCompilationTitle>Dokumentas bus atidarytas saugiuoju režimu</UnsafeCompilationTitle>
+    <UseDefaultSystemEncoding>Naudoti sistemos koduotę. Išjunkite, kad pasirinktumėte kitą.</UseDefaultSystemEncoding>
+    <UseOnePageHeaderAndFooter>Palikti Excel faile vieną puslapio antraštę ir vieną puslapio poraštę, nekartojant jų kiekviename puslapyje.</UseOnePageHeaderAndFooter>
+    <UsePageHeadersAndFooters>Paversti sekcijas Puslapio viršus ir Puslapio apačia dokumento antrašte ir porašte.</UsePageHeadersAndFooters>
+    <UseUnicode>Saugoti simbolius kaip Unicode PDF failo viduje, kad tekstas būtų teisingai kopijuojamas.</UseUnicode>
     <ViewModeContinuous>Rodyti visus lapus kaip juostą.</ViewModeContinuous>
     <ViewModeMultiplePages>Rodyti kelis lapus.</ViewModeMultiplePages>
     <ViewModeSinglePage>Rodyti vieną lapą.</ViewModeSinglePage>
@@ -1101,6 +1163,7 @@
     <ZoomOnePage>Sutalpinti vieną lapą.</ZoomOnePage>
     <ZoomPageWidth>Pritaikyti lapo plotį.</ZoomPageWidth>
     <ZoomTwoPages>Sutalpinti du lapus.</ZoomTwoPages>
+    <ZoomTxt>Ataskaitos teksto mastelis: X horizontaliai, Y vertikaliai.</ZoomTxt>
   </HelpViewer>
   <MainMenu>
     <menuCheckIssues>Controlla problemi</menuCheckIssues>
