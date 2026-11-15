@@ -655,17 +655,17 @@
     <StiCheckBox>جعبه چک</StiCheckBox>
     <StiChildBand>فرزند</StiChildBand>
     <StiClone>تکثیر</StiClone>
-    <StiColumnFooterBand>ستون زیرنویس</StiColumnFooterBand>
+    <StiColumnFooterBand>پانویس ستون</StiColumnFooterBand>
     <StiColumnHeaderBand>ستون سرصفحه</StiColumnHeaderBand>
     <StiComboBox>جعبه ترکیبی</StiComboBox>
-    <StiComponent>مولفه</StiComponent>
+    <StiComponent>مؤلفه</StiComponent>
     <StiContainer>حامل</StiContainer>
     <StiContourText>نوشته ناحیه</StiContourText>
     <StiCrossColumn>ستون متقاطع</StiCrossColumn>
     <StiCrossColumnTotal>جمع ستون متقاطع</StiCrossColumnTotal>
     <StiCrossDataBand>داده متقاطع</StiCrossDataBand>
-    <StiCrossFooterBand>زیرنویس متقاطع</StiCrossFooterBand>
-    <StiCrossGroupFooterBand>زیرنویس گروهی متقاطع</StiCrossGroupFooterBand>
+    <StiCrossFooterBand>پانویس متقاطع</StiCrossFooterBand>
+    <StiCrossGroupFooterBand>پاگروه متقاطع</StiCrossGroupFooterBand>
     <StiCrossGroupHeaderBand>سرصفحه گروهی متقاطع</StiCrossGroupHeaderBand>
     <StiCrossHeaderBand>سرصفحه متقاطع</StiCrossHeaderBand>
     <StiCrossRow>ردیف متقاطع</StiCrossRow>
@@ -679,10 +679,10 @@
     <StiDatePicker>انتخابگر تاریخ</StiDatePicker>
     <StiElectronicSignature>امضای الکترونیکی</StiElectronicSignature>
     <StiEmptyBand>نوار خالی</StiEmptyBand>
-    <StiFooterBand>زیرنویس</StiFooterBand>
+    <StiFooterBand>پانویس</StiFooterBand>
     <StiGauge>گیج</StiGauge>
-    <StiGroupFooterBand>گروه زیرنویس</StiGroupFooterBand>
-    <StiGroupHeaderBand>گروه سرصفحه</StiGroupHeaderBand>
+    <StiGroupFooterBand>پاگروه</StiGroupFooterBand>
+    <StiGroupHeaderBand>سرگروه</StiGroupHeaderBand>
     <StiHeaderBand>سرصفحه</StiHeaderBand>
     <StiHierarchicalBand>باند سلسله مراتبی</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>خط افقی</StiHorizontalLinePrimitive>
@@ -698,7 +698,7 @@
     <StiOnlineMap>نقشه آنلاین</StiOnlineMap>
     <StiOverlayBand>روی هم قرار دادن</StiOverlayBand>
     <StiPage>صفحه</StiPage>
-    <StiPageFooterBand>زیرنویس صفحه</StiPageFooterBand>
+    <StiPageFooterBand>پاصفحه</StiPageFooterBand>
     <StiPageHeaderBand>سرصفحه صفحه</StiPageHeaderBand>
     <StiPanel>پنل</StiPanel>
     <StiPdfDigitalSignature>امضای دیجیتال PDF</StiPdfDigitalSignature>
@@ -1033,8 +1033,8 @@
     <UseRegularExpressions>عبارات منظم &amp;استفاده کن از</UseRegularExpressions>
   </Editor>
   <Errors>
-    <ComponentIsNotRelease>مولفه تحویل داده نشد{0}.</ComponentIsNotRelease>
-    <ContainerIsNotValidForComponent>حامل {0} برای مولفه {1}معتبر نیست</ContainerIsNotValidForComponent>
+    <ComponentIsNotRelease>مؤلفه "{0}" را پیاده‌سازی نمی‌کند.</ComponentIsNotRelease>
+    <ContainerIsNotValidForComponent>حامل {0} برای مؤلفه {1} معتبر نیست.</ContainerIsNotValidForComponent>
     <DataNotFound>داده پیدا نشد.</DataNotFound>
     <DataNotLoaded>داده‌ای بارگذاری نشد.</DataNotLoaded>
     <Error>اشتباه</Error>
@@ -1043,7 +1043,7 @@
     <FileNotFound>پیدا نشد "{0}" فایل.</FileNotFound>
     <IdentifierIsNotValid>مشخصه {0} پیدا نشد.</IdentifierIsNotValid>
     <ImpossibleFindDataSource>پیدا کردن منبع داده امکان پذیر نیست</ImpossibleFindDataSource>
-    <NameExists> .هم اکنون یک مولفه با نام'{0}'وجود دارد مولفه ها باید نام های واحد داشته باشند.و نام ها باید حساس به متن باشند</NameExists>
+    <NameExists>شیئی با نام '{0}' از قبل وجود دارد. اشیاء باید نام‌های یکتا داشته باشند.</NameExists>
     <NoServices>سرویس ها در'{0}'پیدا نشد</NoServices>
     <NotAssign>منبع داده مشخص نشده است</NotAssign>
     <NotCorrectFormat>رشته ورودی در قالب درستی نبود.</NotCorrectFormat>
@@ -1172,9 +1172,9 @@
     <NoMoreThan>حداکثر</NoMoreThan>
     <OpenAfterExport>باز کردن بعد از صادرکردن</OpenAfterExport>
     <Ordered>مرتب‌شده</Ordered>
-    <PageBands>سرصفحه ها و زیرنویس های صفحه:</PageBands>
+    <PageBands>سرصفحه‌ها و پاصفحه‌ها:</PageBands>
     <PageBandsAll>همه</PageBandsAll>
-    <PageBandsFirstAndLast>اولین سرصفحه و آخرین زیرنویس</PageBandsFirstAndLast>
+    <PageBandsFirstAndLast>اولین سرصفحه و آخرین پاصفحه</PageBandsFirstAndLast>
     <PageBandsNone>هیچ</PageBandsNone>
     <PdfACompliance>سازگاری با PDF/A</PdfACompliance>
     <PdfUA>PDF/UA (دسترسی‌پذیری همگانی)</PdfUA>
@@ -1188,12 +1188,12 @@
     <StandardPDFFonts>فونت های استاندارد pdf</StandardPDFFonts>
     <TiffCompressionScheme>طرح فشرده‌سازی TIFF:</TiffCompressionScheme>
     <title>تنظیمات صادر شدن:</title>
-    <TxtBorderType>نوع حاشیه:</TxtBorderType>
+    <TxtBorderType>نوع کادر:</TxtBorderType>
     <TxtBorderTypeDouble>دوتایی</TxtBorderTypeDouble>
     <TxtBorderTypeSimple>ساده</TxtBorderTypeSimple>
     <TxtBorderTypeSingle>تکی</TxtBorderTypeSingle>
     <TxtCutLongLines>برش خطوط بلند</TxtCutLongLines>
-    <TxtDrawBorder>طراحی حاشیه</TxtDrawBorder>
+    <TxtDrawBorder>رسم کادر</TxtDrawBorder>
     <TxtKillSpaceGraphLines>حذف خطوطی که فقط کادر دارند</TxtKillSpaceGraphLines>
     <TxtKillSpaceLines>حذف خطوط خالی</TxtKillSpaceLines>
     <TxtPutFeedPageCode>تغذیه کاغذ پس از هر صفحه</TxtPutFeedPageCode>
@@ -1543,7 +1543,7 @@
     <ParentSource>منبع داده والد:</ParentSource>
     <Queries>پرس‌وجوها</Queries>
     <QueryNew>پرس‌وجوی جدید</QueryNew>
-    <QueryText>متن درخواست</QueryText>
+    <QueryText>متن پرس‌وجو</QueryText>
     <QueryTimeout>مهلت پرس‌وجو</QueryTimeout>
     <RelationEdit>ویرایش ارتباط</RelationEdit>
     <RelationNew>ارتباط جدید</RelationNew>
@@ -1572,7 +1572,7 @@
     <VariableEdit>ویرایش متغیر</VariableEdit>
     <VariableNew>متغیر جدید</VariableNew>
     <ViewData>نمایش داده</ViewData>
-    <ViewQuery>نمایش درخواست</ViewQuery>
+    <ViewQuery>نمایش پرس‌وجو</ViewQuery>
   </FormDictionaryDesigner>
   <FormFormatEditor>
     <Boolean>بولی</Boolean>
@@ -1669,7 +1669,7 @@
     <EditAfterInsert>ویرایش بعد از الحاق</EditAfterInsert>
     <EnableAutoSaveMode>فعال سازی ذخیره سازی اتوماتیک</EnableAutoSaveMode>
     <FillBands>پرکردن حاشیه ها</FillBands>
-    <FillComponents>پر کردن مولفه ها</FillComponents>
+    <FillComponents>پر کردن مؤلفه‌ها</FillComponents>
     <FillContainers>پر کردن حامل ها</FillContainers>
     <FillCrossBands>پرکردن نوارهای متقاطع</FillCrossBands>
     <GenerateLocalizedName>تولید نام محلی</GenerateLocalizedName>
@@ -1712,8 +1712,8 @@
     <ShowSearch>نمایش جستجو</ShowSearch>
     <ShowSmartGuides>نمایش راهنماهای هوشمند</ShowSmartGuides>
     <StartScreen>صفحه شروع</StartScreen>
-    <title>انتخاب</title>
-    <UseComponentColor>استفاده از مولفه رنگ برای پرکردن </UseComponentColor>
+    <title>گزینه‌ها</title>
+    <UseComponentColor>استفاده از رنگ مؤلفه برای پر کردن</UseComponentColor>
     <UseLastFormat>استفاده از آخرین قالب</UseLastFormat>
     <ViewSize>اندازه نمایش</ViewSize>
     <Welcome>خوش آمدید</Welcome>
@@ -1855,7 +1855,7 @@
     <ExpressionEditorForm>ویرایشگر عبارت</ExpressionEditorForm>
     <GroupConditionForm>شرط گروه</GroupConditionForm>
     <InteractionDrillDownPageSelectForm>انتخاب صفحه جزئیات</InteractionDrillDownPageSelectForm>
-    <MasterComponentSelectForm>انتخاب مولفه اصلی</MasterComponentSelectForm>
+    <MasterComponentSelectForm>انتخاب مؤلفه اصلی</MasterComponentSelectForm>
     <PageAddForm>اضافه کردن صفحه</PageAddForm>
     <PageSizeForm>اندازه صفحه</PageSizeForm>
     <PagesManagerForm>مدیر صفحات</PagesManagerForm>
@@ -1907,7 +1907,7 @@
     <SendEMail>نامه الکترونیکی بفرست</SendEMail>
     <StatusBar>میله وضعیت</StatusBar>
     <Thumbnails>کوچک</Thumbnails>
-    <title>پیش نمایش</title>
+    <title>نمایشگر</title>
     <titlePageSettings>تنظیمات صفحه</titlePageSettings>
     <Toolbar>میله ابزار</Toolbar>
     <ToolEditor>ویرایشگر ابزار</ToolEditor>
@@ -2060,7 +2060,7 @@
   </Gui>
   <HelpComponents>
     <CategoryBands>نوارهایی که سرصفحه، داده و زیرنویس را چاپ می‌کنند.</CategoryBands>
-    <CategoryComponents>مولفاتی که متن، تصویر و داده‌های دیگر را نمایش می‌دهند.</CategoryComponents>
+    <CategoryComponents>مؤلفه‌هایی که متن، تصویر و داده‌های دیگر را نمایش می‌دهند.</CategoryComponents>
     <CategoryCrossBands>نوارهایی که از چپ به راست چاپ می‌شوند.</CategoryCrossBands>
     <StiBarCode>رمز میله‌ای را نمایش می‌دهد.</StiBarCode>
     <StiButtonElement>با کلیک، یک اسکریپت را اجرا می‌کند.</StiButtonElement>
@@ -2076,7 +2076,7 @@
     <StiColumnFooterBand>زیر هر ستون نوار داده چاپ می‌شود.</StiColumnFooterBand>
     <StiColumnHeaderBand>بالای هر ستون نوار داده چاپ می‌شود.</StiColumnHeaderBand>
     <StiComboBoxElement>یک مقدار را از لیست کشویی انتخاب می‌کند.</StiComboBoxElement>
-    <StiContainer>مولفات دیگر را در یک ناحیه گروه‌بندی می‌کند.</StiContainer>
+    <StiContainer>مؤلفه‌های دیگر را در یک ناحیه گروه‌بندی می‌کند.</StiContainer>
     <StiCrossDataBand>برای هر ردیف یک بار، از چپ به راست چاپ می‌شود.</StiCrossDataBand>
     <StiCrossFooterBand>بعد از نوار داده متقاطع چاپ می‌شود.</StiCrossFooterBand>
     <StiCrossGroupFooterBand>در انتهای هر گروه متقاطع چاپ می‌شود.</StiCrossGroupFooterBand>
@@ -2118,7 +2118,7 @@
     <StiOverlayBand>روی هر صفحه یک واترمارک چاپ می‌کند.</StiOverlayBand>
     <StiPageFooterBand>در پایین هر صفحه چاپ می‌شود.</StiPageFooterBand>
     <StiPageHeaderBand>در بالای هر صفحه چاپ می‌شود.</StiPageHeaderBand>
-    <StiPanel>مولفات دیگر را در یک ناحیه گروه‌بندی می‌کند.</StiPanel>
+    <StiPanel>مؤلفه‌های دیگر را در یک ناحیه گروه‌بندی می‌کند.</StiPanel>
     <StiPanelElement>عناصر دیگر را در یک ناحیه گروه‌بندی می‌کند.</StiPanelElement>
     <StiPanelUI>کنترل‌های دیگر را در یک ناحیه گروه‌بندی می‌کند.</StiPanelUI>
     <StiPdfDigitalSignature>محل امضای دیجیتال را در PDF مشخص می‌کند.</StiPdfDigitalSignature>
@@ -2160,19 +2160,19 @@
   </HelpComponents>
   <HelpDesigner>
     <ActiveRelation>رابطه اولویت‌دار برای اتصال دو جدول را تنظیم می‌کند. در تبدیل داده و داشبوردها استفاده می‌شود. در هر منبع داده فقط یک رابطه می‌تواند فعال باشد.</ActiveRelation>
-    <Align>تراز کردن مولفات انتخاب‌شده.</Align>
+    <Align>تراز کردن مؤلفه‌های انتخاب‌شده.</Align>
     <AlignBottom>تراز کردن محتوا به پایین.</AlignBottom>
     <AlignCenter>تراز کردن محتوا به مرکز.</AlignCenter>
-    <AlignComponentBottom>تراز کردن مولفات با لبه پایین.</AlignComponentBottom>
-    <AlignComponentCenter>تراز کردن مولفات با مرکز.</AlignComponentCenter>
-    <AlignComponentLeft>تراز کردن مولفات با لبه چپ.</AlignComponentLeft>
-    <AlignComponentMiddle>تراز کردن مولفات با وسط.</AlignComponentMiddle>
-    <AlignComponentRight>تراز کردن مولفات با لبه راست.</AlignComponentRight>
-    <AlignComponentTop>تراز کردن مولفات با لبه بالا.</AlignComponentTop>
+    <AlignComponentBottom>تراز کردن مؤلفه‌ها با لبه پایین.</AlignComponentBottom>
+    <AlignComponentCenter>تراز کردن مؤلفه‌ها با مرکز.</AlignComponentCenter>
+    <AlignComponentLeft>تراز کردن مؤلفه‌ها با لبه چپ.</AlignComponentLeft>
+    <AlignComponentMiddle>تراز کردن مؤلفه‌ها با وسط.</AlignComponentMiddle>
+    <AlignComponentRight>تراز کردن مؤلفه‌ها با لبه راست.</AlignComponentRight>
+    <AlignComponentTop>تراز کردن مؤلفه‌ها با لبه بالا.</AlignComponentTop>
     <AlignLeft>تراز کردن محتوا به چپ.</AlignLeft>
     <AlignMiddle>تراز کردن محتوا به وسط.</AlignMiddle>
     <AlignRight>تراز کردن محتوا به راست.</AlignRight>
-    <AlignToGrid>تراز کردن مولفات انتخاب‌شده با شبکه.</AlignToGrid>
+    <AlignToGrid>تراز کردن مؤلفه‌های انتخاب‌شده با شبکه.</AlignToGrid>
     <AlignTop>تراز کردن محتوا به بالا.</AlignTop>
     <AlignWidth>تراز کردن محتوا از دو طرف.</AlignWidth>
     <Angle>چرخاندن متن.</Angle>
@@ -2202,9 +2202,9 @@
     <CompilationAccessForceInterpretation>اسناد دارای کامپایل بدون هیچ پرسشی باز می‌شوند، اما به‌طور خودکار به حالت تفسیر تبدیل می‌شوند که از فرایند کامپایل استفاده نمی‌کند.</CompilationAccessForceInterpretation>
     <CompilationAccessTitle>سند از کامپایل استفاده می‌کند</CompilationAccessTitle>
     <CompilationModeEnabling>در حال تغییر به حالت کامپایل هستید. این حالت اجازه اجرای کدهای مختلف را می‌دهد و گاهی ممکن است مضر باشد. لطفاً فقط در صورتی از این حالت استفاده کنید که همه خطرات را درک کرده و با آنها موافق هستید. برای ادامه روی دکمه {0} کلیک کنید.</CompilationModeEnabling>
-    <ComponentSize>تغییر اندازه مولفات انتخاب‌شده.</ComponentSize>
+    <ComponentSize>تغییر اندازه مؤلفه‌های انتخاب‌شده.</ComponentSize>
     <ComponentsMenu>نمایش عناصر استفاده‌نشده.</ComponentsMenu>
-    <CopyStyle>کپی سبک به مولفات دیگر.</CopyStyle>
+    <CopyStyle>کپی سبک به مؤلفه‌های دیگر.</CopyStyle>
     <CopyToClipboard>کپی در حافظه موقت</CopyToClipboard>
     <CurrencySymbol>انتخاب نماد ارز.</CurrencySymbol>
     <DashboardNew>ایجاد داشبورد جدید.</DashboardNew>
@@ -2215,7 +2215,7 @@
     <DockStyleBottom>چسباندن به سمت پایین.</DockStyleBottom>
     <DockStyleFill>چسباندن به همه سمت‌ها.</DockStyleFill>
     <DockStyleLeft>چسباندن به سمت چپ.</DockStyleLeft>
-    <DockStyleNone>لغو چسباندن مولفات.</DockStyleNone>
+    <DockStyleNone>لغو چسباندن مؤلفه‌ها.</DockStyleNone>
     <DockStyleRight>چسباندن به سمت راست.</DockStyleRight>
     <DockStyleTop>چسباندن به سمت بالا.</DockStyleTop>
     <EventsAccess1>این سند از رویدادها استفاده می‌کند. اگر سند از منبع مورد اعتماد است، می‌توانید برای دسترسی به آن روی دکمه "باز کردن" کلیک کنید.</EventsAccess1>
@@ -2257,9 +2257,9 @@
     <menuCheckIssues>بررسی برای یافتن خطاها و هشدارها و دریافت توصیه‌ها.</menuCheckIssues>
     <menuDesignerOptions>تنظیم گزینه‌های طراح گزارش.</menuDesignerOptions>
     <menuEditClearContents>پاک کردن محتوا.</menuEditClearContents>
-    <menuEditCopy>کپی مولفات انتخاب‌شده.</menuEditCopy>
-    <menuEditCut>برش مولفات انتخاب‌شده.</menuEditCut>
-    <menuEditDelete>حذف مولفات انتخاب‌شده.</menuEditDelete>
+    <menuEditCopy>کپی مؤلفه‌های انتخاب‌شده.</menuEditCopy>
+    <menuEditCut>برش مؤلفه‌های انتخاب‌شده.</menuEditCut>
+    <menuEditDelete>حذف مؤلفه‌های انتخاب‌شده.</menuEditDelete>
     <menuEditPaste>جای‌گذاری از بریده‌دان.</menuEditPaste>
     <menuExportSettings>تغییر تنظیمات خروجی.</menuExportSettings>
     <menuFAQPage>رفتن به صفحه وب پرسش‌های متداول.</menuFAQPage>
@@ -2275,13 +2275,13 @@
     <menuReportOptions>تغییر گزینه‌های گزارش.</menuReportOptions>
     <menuStyleDesigner>فراخوانی طراح سبک گزارش فعلی.</menuStyleDesigner>
     <menuSupport>رفتن به صفحه پشتیبانی برای طرح پرسش.</menuSupport>
-    <menuViewAlignToGrid>تراز کردن مولفات با شبکه.</menuViewAlignToGrid>
+    <menuViewAlignToGrid>تراز کردن مؤلفه‌ها با شبکه.</menuViewAlignToGrid>
     <menuViewNormal>نمای عادی صفحه.</menuViewNormal>
     <menuViewPageBreakPreview>حالت نمایش صفحه با مرزهای بخش‌ها.</menuViewPageBreakPreview>
-    <menuViewQuickInfo>نمایش اطلاعات سریع روی مولفات.</menuViewQuickInfo>
+    <menuViewQuickInfo>نمایش اطلاعات سریع روی مؤلفه‌ها.</menuViewQuickInfo>
     <menuViewShowGrid>نمایش شبکه.</menuViewShowGrid>
     <menuViewShowHeaders>نمایش سرصفحه نوارها.</menuViewShowHeaders>
-    <menuViewShowOrder>نمایش ترتیب مولفات.</menuViewShowOrder>
+    <menuViewShowOrder>نمایش ترتیب مؤلفه‌ها.</menuViewShowOrder>
     <menuViewShowRulers>نمایش خط‌کش‌ها.</menuViewShowRulers>
     <menuViewShowSmartGuides>نمایش راهنماهای هوشمند.</menuViewShowSmartGuides>
     <MoveBackward>انتقال یک سطح به عقب.</MoveBackward>
@@ -2308,7 +2308,7 @@
     <ScriptEvalAccess2>اگر از منبع سند مطمئن نیستید اما همچنان می‌خواهید آن را مشاهده کنید، می‌توانید روی دکمه "باز کردن در حالت امن" کلیک کنید. در این حالت Script Eval نادیده گرفته شده و اجرا نمی‌شود.</ScriptEvalAccess2>
     <ScriptSecurityFullAccess>دسترسی کامل اسکریپت (بدون محدودیت، بالقوه ناامن).</ScriptSecurityFullAccess>
     <ScriptSecuritySafeMode>دسترسی امن اسکریپت (قابلیت‌های محدود برای امنیت).</ScriptSecuritySafeMode>
-    <SelectAll>انتخاب همه مولفات صفحه.</SelectAll>
+    <SelectAll>انتخاب همه مؤلفه‌های صفحه.</SelectAll>
     <SelectUILanguage>انتخاب زبان رابط کاربری.</SelectUILanguage>
     <SendToBack>فرستادن به عقب.</SendToBack>
     <ServicesConfigurator>باز کردن تنظیم کننده خدمات.</ServicesConfigurator>
@@ -2324,7 +2324,7 @@
     <TextBrushWatermark>تغییر رنگ متن واترمارک.</TextBrushWatermark>
     <TextColor>تغییر رنگ متن.</TextColor>
     <TextFormat>انتخاب قالب مقادیر.</TextFormat>
-    <ToolbarStyle>اعمال سبک به مولفات انتخاب‌شده.</ToolbarStyle>
+    <ToolbarStyle>اعمال سبک به مؤلفه‌های انتخاب‌شده.</ToolbarStyle>
     <Undo>لغو آخرین تغییر.</Undo>
     <ViewModeDesktopButton>نمایش سطح دسکتاپ.</ViewModeDesktopButton>
     <ViewModeMobileButton>نمایش سطح موبایل.</ViewModeMobileButton>
@@ -2387,7 +2387,7 @@
     <EncryptionKeyLength>طول کلید رمزگذاری: هرچه کلید بلندتر باشد، رمزگشایی سند دشوارتر است.</EncryptionKeyLength>
     <ExportDataOnly>صدور فقط باندهای داده: مؤلفه جدول و باند سلسله مراتبی.</ExportDataOnly>
     <ExportEachPageToSheet>صدور هر صفحه گزارش در برگه جداگانه خود در Excel.</ExportEachPageToSheet>
-    <ExportMode>باندهایی که وارد فایل می‌شوند: فقط داده باندهای داده (مؤلفه جدول، باند سلسله مراتبی) را می‌گیرد، داده و سرصفحه‌ها/زیرنویس‌ها سرصفحه‌ها و زیرنویس‌های آنها را اضافه می‌کند، همه باندها همه باندها را می‌گیرد.</ExportMode>
+    <ExportMode>باندهایی که وارد فایل می‌شوند: فقط داده باندهای داده (مؤلفه جدول، باند سلسله مراتبی) را می‌گیرد، داده و سرصفحه‌ها/پاصفحه‌ها سرصفحه‌ها و پاصفحه‌های آنها را اضافه می‌کند، همه باندها همه باندها را می‌گیرد.</ExportMode>
     <ExportModeHtml>نشانه‌گذاری صفحه HTML.</ExportModeHtml>
     <ExportModeRtf>چیدمان گزارش پس از صدور: جدول هر مؤلفه را در یک سلول جدول قرار می‌دهد، فریم هر مؤلفه را در فریم جداگانه خودش قرار می‌دهد، بدون هیچ ارتباطی بین آنها.</ExportModeRtf>
     <ExportObjectFormatting>حفظ قالب‌بندی داده‌های باندهای داده (مؤلفه جدول، باند سلسله مراتبی).</ExportObjectFormatting>
@@ -2442,7 +2442,7 @@
     <SubjectNameString>گواهی برای امضا: نام کامل مالک آن یا بخشی از آن.</SubjectNameString>
     <Thumbnails>نمایش تصاویر کوچک صفحه‌ها.</Thumbnails>
     <TiffCompressionScheme>فشرده‌سازی فایل TIFF.</TiffCompressionScheme>
-    <ToolEditor>ویرایش مولفات قابل ویرایش.</ToolEditor>
+    <ToolEditor>ویرایش مؤلفه‌های قابل ویرایش.</ToolEditor>
     <ToolSignature>امضای محل‌های مشخص‌شده.</ToolSignature>
     <TypeExport>نوع فایلی که گزارش به آن تبدیل می‌شود.</TypeExport>
     <UnsafeCompilation1>این سند از فرایند کامپایل استفاده می‌کند. در برخی موارد ممکن است این کار امن نباشد. بنابراین سند برای کاهش خطرات احتمالی در حالت امن بارگذاری می‌شود.</UnsafeCompilation1>
@@ -2450,7 +2450,7 @@
     <UnsafeCompilationTitle>سند در حالت امن باز می‌شود</UnsafeCompilationTitle>
     <UseDefaultSystemEncoding>استفاده از کدگذاری سیستم. آن را خاموش کنید تا کدگذاری دیگری انتخاب کنید.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>نگه داشتن فقط یک سرصفحه و یک زیرنویس صفحه در فایل Excel به جای تکرار آنها در هر صفحه.</UseOnePageHeaderAndFooter>
-    <UsePageHeadersAndFooters>تبدیل باندهای سرصفحه صفحه و زیرنویس صفحه به سربرگ و ته‌برگ سند.</UsePageHeadersAndFooters>
+    <UsePageHeadersAndFooters>تبدیل باندهای سرصفحه و پاصفحه به سربرگ و ته‌برگ سند.</UsePageHeadersAndFooters>
     <UserPassword>رمز عبور لازم برای باز کردن سند.</UserPassword>
     <UseUnicode>ذخیره نویسه‌ها به صورت Unicode در فایل PDF، تا متن درست کپی شود.</UseUnicode>
     <ViewModeContinuous>نمایش همه صفحه‌ها به صورت نوار.</ViewModeContinuous>
@@ -2573,7 +2573,7 @@
     <menuTools>ابزار</menuTools>
     <menuToolsDataStore>مخزن داده...</menuToolsDataStore>
     <menuToolsDictionary>دیکشنری...</menuToolsDictionary>
-    <menuToolsOptions>&amp;انتخاب...</menuToolsOptions>
+    <menuToolsOptions>&amp;گزینه‌ها...</menuToolsOptions>
     <menuToolsPagesManager>&amp;مدیر صفحات...</menuToolsPagesManager>
     <menuToolsServicesConfigurator>تنظیم کننده خدمات</menuToolsServicesConfigurator>
     <menuToolsStyleDesigner>طراح سبک</menuToolsStyleDesigner>
@@ -2586,9 +2586,9 @@
     <menuViewPageBreakPreview>صفحه جدا کردن پیش نمایش</menuViewPageBreakPreview>
     <menuViewQuickInfo>اطلاع سریع</menuViewQuickInfo>
     <menuViewQuickInfoNone>هیچ</menuViewQuickInfoNone>
-    <menuViewQuickInfoOverlay>نمایش مولفه های بیشتر</menuViewQuickInfoOverlay>
+    <menuViewQuickInfoOverlay>نمایش روی مؤلفه‌ها</menuViewQuickInfoOverlay>
     <menuViewQuickInfoShowAliases>نمایش نام مستعار</menuViewQuickInfoShowAliases>
-    <menuViewQuickInfoShowComponentsNames>نمایش نام مولفه ها</menuViewQuickInfoShowComponentsNames>
+    <menuViewQuickInfoShowComponentsNames>نمایش نام مؤلفه‌ها</menuViewQuickInfoShowComponentsNames>
     <menuViewQuickInfoShowContent>نمایش محتوا</menuViewQuickInfoShowContent>
     <menuViewQuickInfoShowEvents>نمایش وقایع</menuViewQuickInfoShowEvents>
     <menuViewQuickInfoShowFields>نمایش زمینه ها</menuViewQuickInfoShowFields>
@@ -3001,7 +3001,7 @@
     <Needle>عقربه</Needle>
     <NeedleCategory>عقربه</NeedleCategory>
     <OnlineMapCategory>نقشه آنلاین</OnlineMapCategory>
-    <OptionsCategory>انتخاب ها</OptionsCategory>
+    <OptionsCategory>گزینه‌ها</OptionsCategory>
     <PageAdditionalCategory>صفحه اضافی</PageAdditionalCategory>
     <PageCategory>صفحه</PageCategory>
     <PageColumnBreakCategory>شکست صفحه و ستون</PageColumnBreakCategory>
@@ -3033,7 +3033,7 @@
     <TreeViewBoxCategory>جعبه نمای درختی</TreeViewBoxCategory>
     <TreeViewCategory>نمای درختی</TreeViewCategory>
     <TrendLineCategory>خط روند</TrendLineCategory>
-    <ValueCategory>ارزش</ValueCategory>
+    <ValueCategory>مقدار</ValueCategory>
     <ValueCloseCategory>مقدار بسته شدن</ValueCloseCategory>
     <ValueEndCategory>مقدار پایانی</ValueEndCategory>
     <ValueEventsCategory>مقدار وقایع</ValueEventsCategory>
@@ -3428,8 +3428,8 @@
     <StiEmptyCellsAsConnectPointsWithLine>اتصال نقاط با خط</StiEmptyCellsAsConnectPointsWithLine>
     <StiEmptyCellsAsGap>فاصله</StiEmptyCellsAsGap>
     <StiEmptyCellsAsZero>صفر</StiEmptyCellsAsZero>
-    <StiEmptySizeModeAlignFooterToBottom>تنظیم زیرنویس به پایین</StiEmptySizeModeAlignFooterToBottom>
-    <StiEmptySizeModeAlignFooterToTop>تنظیم زیرنویس به بالا</StiEmptySizeModeAlignFooterToTop>
+    <StiEmptySizeModeAlignFooterToBottom>تنظیم پانویس به پایین</StiEmptySizeModeAlignFooterToBottom>
+    <StiEmptySizeModeAlignFooterToTop>تنظیم پانویس به بالا</StiEmptySizeModeAlignFooterToTop>
     <StiEmptySizeModeDecreaseLastRow>کاهش آخرین ردیف</StiEmptySizeModeDecreaseLastRow>
     <StiEmptySizeModeIncreaseLastRow>افزایش آخرین ردیف</StiEmptySizeModeIncreaseLastRow>
     <StiEnumeratorTypeABC>ABC</StiEnumeratorTypeABC>
@@ -3469,7 +3469,7 @@
     <StiFilterItemExpression>عبارت</StiFilterItemExpression>
     <StiFilterItemSource>منبع</StiFilterItemSource>
     <StiFilterItemTarget>هدف</StiFilterItemTarget>
-    <StiFilterItemValue>ارزش</StiFilterItemValue>
+    <StiFilterItemValue>مقدار</StiFilterItemValue>
     <StiFilterItemValueClose>مقدار بسته شدن</StiFilterItemValueClose>
     <StiFilterItemValueEnd>مقدار پایانی</StiFilterItemValueEnd>
     <StiFilterItemValueHigh>مقدار بالا</StiFilterItemValueHigh>
@@ -3739,20 +3739,20 @@
     <StiSelectionModeFromVariable>از متغیر</StiSelectionModeFromVariable>
     <StiSelectionModeNothing>هیچ‌کدام</StiSelectionModeNothing>
     <StiSeriesLabelsValueTypeArgument>آرگومان</StiSeriesLabelsValueTypeArgument>
-    <StiSeriesLabelsValueTypeArgumentValue>آرگومان-ارزش</StiSeriesLabelsValueTypeArgumentValue>
+    <StiSeriesLabelsValueTypeArgumentValue>آرگومان - مقدار</StiSeriesLabelsValueTypeArgumentValue>
     <StiSeriesLabelsValueTypeSeriesTitle>عنوان سری ها</StiSeriesLabelsValueTypeSeriesTitle>
     <StiSeriesLabelsValueTypeSeriesTitleArgument>سری های عنوان -آرگومان</StiSeriesLabelsValueTypeSeriesTitleArgument>
-    <StiSeriesLabelsValueTypeSeriesTitleValue>سری های عنوان -ارزش</StiSeriesLabelsValueTypeSeriesTitleValue>
+    <StiSeriesLabelsValueTypeSeriesTitleValue>عنوان سری - مقدار</StiSeriesLabelsValueTypeSeriesTitleValue>
     <StiSeriesLabelsValueTypeTag>تگ</StiSeriesLabelsValueTypeTag>
     <StiSeriesLabelsValueTypeTotal>مجموع</StiSeriesLabelsValueTypeTotal>
-    <StiSeriesLabelsValueTypeValue>ارزش</StiSeriesLabelsValueTypeValue>
-    <StiSeriesLabelsValueTypeValueArgument>آرگومان-ارزش</StiSeriesLabelsValueTypeValueArgument>
+    <StiSeriesLabelsValueTypeValue>مقدار</StiSeriesLabelsValueTypeValue>
+    <StiSeriesLabelsValueTypeValueArgument>مقدار - آرگومان</StiSeriesLabelsValueTypeValueArgument>
     <StiSeriesLabelsValueTypeWeight>وزن</StiSeriesLabelsValueTypeWeight>
     <StiSeriesSortDirectionAscending>صعودی</StiSeriesSortDirectionAscending>
     <StiSeriesSortDirectionDescending>نزولی</StiSeriesSortDirectionDescending>
     <StiSeriesSortTypeArgument>آرگومان</StiSeriesSortTypeArgument>
     <StiSeriesSortTypeNone>هیج</StiSeriesSortTypeNone>
-    <StiSeriesSortTypeValue>ارزش</StiSeriesSortTypeValue>
+    <StiSeriesSortTypeValue>مقدار</StiSeriesSortTypeValue>
     <StiSeriesXAxisBottomXAxis>محور X پایین</StiSeriesXAxisBottomXAxis>
     <StiSeriesXAxisTopXAxis>محور X بالا</StiSeriesXAxisTopXAxis>
     <StiSeriesYAxisLeftYAxis>محورهای چپ Y</StiSeriesYAxisLeftYAxis>
@@ -3764,7 +3764,7 @@
     <StiShiftModeDecreasingSize>اندازه نزولی</StiShiftModeDecreasingSize>
     <StiShiftModeIncreasingSize>اندازه صعودی</StiShiftModeIncreasingSize>
     <StiShiftModeNone>هیچ</StiShiftModeNone>
-    <StiShiftModeOnlyInWidthOfComponent>فقط در عرض مولفه</StiShiftModeOnlyInWidthOfComponent>
+    <StiShiftModeOnlyInWidthOfComponent>فقط در عرض مؤلفه</StiShiftModeOnlyInWidthOfComponent>
     <StiShowEmptyCellsAsConnectPointsWithLine>اتصال نقاط با خط</StiShowEmptyCellsAsConnectPointsWithLine>
     <StiShowEmptyCellsAsGap>فاصله</StiShowEmptyCellsAsGap>
     <StiShowEmptyCellsAsZero>صفر</StiShowEmptyCellsAsZero>
@@ -3920,7 +3920,7 @@
     <GetListOfTagsEvent>دریافت لیست تگ‌ها</GetListOfTagsEvent>
     <GetListOfToolTipsEvent>دریافت لیست راهنماهای ابزار</GetListOfToolTipsEvent>
     <GetListOfValuesEndEvent>دریافت لیست مقادیر پایانی</GetListOfValuesEndEvent>
-    <GetListOfValuesEvent>لیست ارزش ها را بگیر</GetListOfValuesEvent>
+    <GetListOfValuesEvent>لیست مقادیر را بگیر</GetListOfValuesEvent>
     <GetListOfWeights>دریافت لیست وزن‌ها</GetListOfWeights>
     <GetListOfWeightsEvent>دریافت لیست وزن‌ها</GetListOfWeightsEvent>
     <GetPointerEvent>دریافت اشاره‌گر</GetPointerEvent>
@@ -4092,7 +4092,7 @@
     <AxisLabelsColor>رنگ برچسب‌های محور</AxisLabelsColor>
     <AxisLineColor>رنگ خط محور</AxisLineColor>
     <AxisTitleColor>رنگ عنوان محور</AxisTitleColor>
-    <AxisValue>محور ارزش ها</AxisValue>
+    <AxisValue>مقدار محور</AxisValue>
     <BackColor>رنگ پس‌زمینه</BackColor>
     <Background>زمینه</Background>
     <BackgroundColor>رنگ زمینه</BackgroundColor>
@@ -4105,13 +4105,13 @@
     <BodyShape>شکل بدنه</BodyShape>
     <Bold>پررنگ</Bold>
     <Bookmark>نشانواره</Bookmark>
-    <Border>حاشیه</Border>
+    <Border>کادر</Border>
     <BorderBrush>قلم‌موی کادر</BorderBrush>
-    <BorderColor>رنگ حاشیه</BorderColor>
+    <BorderColor>رنگ کادر</BorderColor>
     <BorderColorNegative>رنگ کادر منفی</BorderColorNegative>
-    <Borders>حواشی</Borders>
+    <Borders>کادرها</Borders>
     <BorderSize>اندازه کادر</BorderSize>
-    <BorderStyle>سبک حاشیه</BorderStyle>
+    <BorderStyle>سبک کادر</BorderStyle>
     <BorderThickness>ضخامت کادر</BorderThickness>
     <BorderVisible>کادر قابل مشاهده</BorderVisible>
     <BorderWidth>عرض کادر</BorderWidth>
@@ -4206,9 +4206,9 @@
     <ColumnWidth>عرض ستون</ColumnWidth>
     <CommandTimeout>اتمام وقت اجرا</CommandTimeout>
     <CompanyPrefix>پیشوند شرکت</CompanyPrefix>
-    <ComponentStyle>سبک مولفه</ComponentStyle>
+    <ComponentStyle>سبک مؤلفه</ComponentStyle>
     <Condition>شرط</Condition>
-    <ConditionOptions>انتخاب شرط</ConditionOptions>
+    <ConditionOptions>گزینه‌های شرط</ConditionOptions>
     <Conditions>شروط</Conditions>
     <ConnectionString>رشته ارتباط</ConnectionString>
     <ConnectOnStart>ارتباط شروع</ConnectOnStart>
@@ -4387,7 +4387,7 @@
     <FooterPrintOnEvenOddPages>چاپ پانویس در صفحات زوج و فرد</FooterPrintOnEvenOddPages>
     <FooterRowsCount>تعداد ردیف‌های پانویس</FooterRowsCount>
     <Footers>پانویس‌ها</Footers>
-    <ForeColor>رنگ جلو</ForeColor>
+    <ForeColor>رنگ پیش‌زمینه</ForeColor>
     <Foreground>رنگ پیش‌زمینه</Foreground>
     <Format>قالب</Format>
     <FormName>نام فرم</FormName>
@@ -4429,7 +4429,7 @@
     <HeaderCanShrink>سرآیند قابل جمع شدن</HeaderCanShrink>
     <HeaderColor>رنگ سرآیند</HeaderColor>
     <HeaderFont>فونت سرصفحه</HeaderFont>
-    <HeaderForeColor>رنگ جلو سرصفحه</HeaderForeColor>
+    <HeaderForeColor>رنگ پیش‌زمینه سرصفحه</HeaderForeColor>
     <HeaderForeground>رنگ پیش‌زمینه سرآیند</HeaderForeground>
     <HeaderPrintAtBottom>چاپ سرآیند در پایین</HeaderPrintAtBottom>
     <HeaderPrintIfEmpty>چاپ سرآیند در صورت خالی بودن</HeaderPrintIfEmpty>
@@ -4525,7 +4525,7 @@
     <KeepCrossTabTogether>نگه داشتن جدول متقاطع با هم</KeepCrossTabTogether>
     <KeepDetails>نگه داشتن جزئیات</KeepDetails>
     <KeepDetailsTogether>نگه داشتن جزئیات با هم</KeepDetailsTogether>
-    <KeepFooterTogether>نگه داشتن زیرنویس با هم</KeepFooterTogether>
+    <KeepFooterTogether>نگه داشتن پانویس با هم</KeepFooterTogether>
     <KeepGroupFooterTogether>نگه داشتن پاگروه با هم</KeepGroupFooterTogether>
     <KeepGroupHeaderTogether>نگه داشتن سرگروه با هم</KeepGroupHeaderTogether>
     <KeepGroupTogether>نگه داشتن گروه با هم</KeepGroupTogether>
@@ -4628,7 +4628,7 @@
     <MarkerSize>سایزنشانه گذار</MarkerSize>
     <MarkerType>نوع نشانه کدار</MarkerType>
     <MarkerVisible>مشاهده نشانه گذارها</MarkerVisible>
-    <MasterComponent>مولفه اصلی</MasterComponent>
+    <MasterComponent>مؤلفه اصلی</MasterComponent>
     <MasterKeyDataColumn>ستون داده  کلید اصلی</MasterKeyDataColumn>
     <MatrixSize>سایز ماتریکس</MatrixSize>
     <MaxDate>تاریخ بیشینخ</MaxDate>
@@ -4714,7 +4714,7 @@
     <Opacity>کدری</Opacity>
     <OpenValues>مقادیر باز شدن</OpenValues>
     <Operation>عملیات</Operation>
-    <Options>انتخاب</Options>
+    <Options>گزینه‌ها</Options>
     <Options3D>گزینه‌های سه‌بعدی</Options3D>
     <Orientation>جهت یابی</Orientation>
     <OthersText>متن سایر</OthersText>
@@ -4737,7 +4737,7 @@
     <ParameterWidth>عرض پارامتر</ParameterWidth>
     <ParentColumns>ستون های والد</ParentColumns>
     <ParentSource>منبع داده والد</ParentSource>
-    <ParentValue>ارزش والد</ParentValue>
+    <ParentValue>مقدار والد</ParentValue>
     <ParetoSeriesColors>رنگ‌های سری پارتو</ParetoSeriesColors>
     <PasswordChar>کارکتر کلمه رمز</PasswordChar>
     <Path>مسیر</Path>
@@ -4880,7 +4880,7 @@
     <Selection>انتخاب</Selection>
     <SelectionBackColor>انتخاب رنگ پشتی</SelectionBackColor>
     <SelectionEnabled>انتخاب فعال</SelectionEnabled>
-    <SelectionForeColor>انتخاب رنگ جلویی</SelectionForeColor>
+    <SelectionForeColor>رنگ پیش‌زمینه انتخاب</SelectionForeColor>
     <SelectionMode>حالت انتخاب</SelectionMode>
     <SelectionType>نوع انتخاب</SelectionType>
     <SelectStyle>انتخاب سبک</SelectStyle>
@@ -4917,7 +4917,7 @@
     <ShowBlanks>نمایش خالی‌ها</ShowBlanks>
     <ShowBubble>نمایش حباب</ShowBubble>
     <ShowDialog>نمایش دیالوگ</ShowDialog>
-    <ShowEdgeValues>نمایش ارزش های لبه</ShowEdgeValues>
+    <ShowEdgeValues>نمایش مقادیر لبه</ShowEdgeValues>
     <ShowHyperlink>نمایش ابرلینک</ShowHyperlink>
     <ShowImageBehind>نمایش تصویر پشتی</ShowImageBehind>
     <ShowInLegend>نمایش در فهرست علایم</ShowInLegend>
@@ -4943,7 +4943,7 @@
     <ShowTotal>نمایش جمع</ShowTotal>
     <ShowTotalSummary>نمایش خلاصه کل</ShowTotalSummary>
     <ShowUpDown>نمایش بالا به پایین</ShowUpDown>
-    <ShowValue>نمایش ارزش</ShowValue>
+    <ShowValue>نمایش مقدار</ShowValue>
     <ShowXAxis>نمایش محور X</ShowXAxis>
     <ShowYAxis>نمایش محور Y</ShowYAxis>
     <ShowZeros>نمایش صفرها</ShowZeros>
@@ -5053,7 +5053,7 @@
     <TextFont>فونت متن</TextFont>
     <TextFormat>قالب متن</TextFormat>
     <TextOnly>فقط متن</TextOnly>
-    <TextOptions>انتخاب متن</TextOptions>
+    <TextOptions>گزینه‌های متن</TextOptions>
     <TextPlacement>محل متن</TextPlacement>
     <TextQuality>کیفیت متن</TextQuality>
     <TextRightToLeft>متن راست به چپ</TextRightToLeft>
@@ -5082,7 +5082,7 @@
     <TitleVisible>مریی</TitleVisible>
     <To>تا</To>
     <Today>امروز</Today>
-    <ToolTip>تیپ ابزار</ToolTip>
+    <ToolTip>راهنمای ابزار</ToolTip>
     <ToolTipBorder>کادر راهنمای ابزار</ToolTipBorder>
     <ToolTipBrush>قلم‌موی راهنمای ابزار</ToolTipBrush>
     <ToolTipCornerRadius>شعاع گوشه راهنمای ابزار</ToolTipCornerRadius>
@@ -5198,7 +5198,7 @@
     <Zoom>زوم</Zoom>
   </PropertyMain>
   <PropertySystemColors>
-    <ActiveBorder>فعال کردن حاشیه</ActiveBorder>
+    <ActiveBorder>کادر فعال</ActiveBorder>
     <ActiveCaption>فعال کردن عنوان</ActiveCaption>
     <ActiveCaptionText>فعال کردن متن عنوان</ActiveCaptionText>
     <AppWorkspace>فضای کاری برنامه</AppWorkspace>
@@ -5213,7 +5213,7 @@
     <Highlight>جلوه دادن</Highlight>
     <HighlightText>جلوه دادن متن</HighlightText>
     <HotTrack>شیار تند</HotTrack>
-    <InactiveBorder>حاشیه غیر فعال</InactiveBorder>
+    <InactiveBorder>کادر غیرفعال</InactiveBorder>
     <InactiveCaption>عنوان غیر فعال</InactiveCaption>
     <InactiveCaptionText>متن عنوان غیرفعال</InactiveCaptionText>
     <Info>اطلاعات</Info>
@@ -5276,13 +5276,13 @@
     <ProcedureParameters>پارامترهای رویه</ProcedureParameters>
     <Procedures>رویه ها</Procedures>
     <qnSaveChanges>شما می خواهید تغییرات درخواست ذخیره شود?</qnSaveChanges>
-    <Query>درخواست</Query>
-    <QueryBuilder>سازنده درخواست</QueryBuilder>
+    <Query>پرس‌وجو</Query>
+    <QueryBuilder>سازنده پرس‌وجو</QueryBuilder>
     <QueryParameters>خصوصیات پارامترها</QueryParameters>
-    <QueryProperties> خصوصیات درخواست</QueryProperties>
+    <QueryProperties>خصوصیات پرس‌وجو</QueryProperties>
     <Remove>حذف</Remove>
     <RemoveBrackets>حذف براکت</RemoveBrackets>
-    <RunQueryBuilder>اجرای سازنده ی درخواست</RunQueryBuilder>
+    <RunQueryBuilder>اجرای سازنده پرس‌وجو</RunQueryBuilder>
     <SelectAllFromLeft>انتخاب همه از چپ</SelectAllFromLeft>
     <SelectAllFromRight>انتخاب همه از راست</SelectAllFromRight>
     <SwitchToDerivedTable>سوییچ به جدول تحویلی</SwitchToDerivedTable>
@@ -5290,7 +5290,7 @@
     <UnexpectedTokenAt>علامت غیرمنتظره "{0}" در خط {1}, پست {2}!</UnexpectedTokenAt>
     <Unions>اتحادها</Unions>
     <UnionSubMenu>اتحاد</UnionSubMenu>
-    <ViewQuery>درخواست از دید</ViewQuery>
+    <ViewQuery>نمایش پرس‌وجو</ViewQuery>
     <Views>دید</Views>
   </QueryBuilder>
   <Questions>
@@ -5367,7 +5367,7 @@
     <CompilationAccess>دسترسی به کامپایل</CompilationAccess>
     <CompilingReport>در حال کامپایل شدن</CompilingReport>
     <Complete>کامل</Complete>
-    <Components>مولفات</Components>
+    <Components>مؤلفه‌ها</Components>
     <ConnectingToData>در حال ارتباط داده</ConnectingToData>
     <CopyOf>کپی</CopyOf>
     <CreateNewReportPageForm>ایجاد گزارش جدید، افزودن صفحه، افزودن فرم</CreateNewReportPageForm>
@@ -5438,7 +5438,7 @@
     <LabelTotals>مجموع</LabelTotals>
     <LabelType>تایپ:</LabelType>
     <LabelUserName>نام کاربری:</LabelUserName>
-    <LabelValue>ارزش:</LabelValue>
+    <LabelValue>مقدار:</LabelValue>
     <LoadData>بارگذاری داده‌ها</LoadData>
     <LoadingReport>یارگذاری گزارش</LoadingReport>
     <nameAssembly>اسمبلی</nameAssembly>
@@ -5793,7 +5793,7 @@
     <ToolbarWatermarkText>متن واترمارک</ToolbarWatermarkText>
   </Toolbars>
   <Toolbox>
-    <Create>ایجاد مولفه ها</Create>
+    <Create>ایجاد مؤلفه‌ها</Create>
     <Hand>دست</Hand>
     <Select>انتخاب</Select>
     <Style>سبک کپی</Style>
