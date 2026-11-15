@@ -149,7 +149,7 @@
     <Install>Unduh</Install>
     <InvertAll>Balikkan Semua</InvertAll>
     <LessOptions>Kurang Pilihan</LessOptions>
-    <LoadDataSet>Load DataSet (*.data)</LoadDataSet>
+    <LoadDataSet>Muat DataSet (*.data)</LoadDataSet>
     <More>Lebih</More>
     <MoreApps>Aplikasi tambahan lainnya</MoreApps>
     <MoreOptions>Opsi lanjutan</MoreOptions>
@@ -200,7 +200,7 @@
     <AxisReverse>Membalikkan</AxisReverse>
     <AxisX>Sumbu X</AxisX>
     <AxisY>Sumbu Y</AxisY>
-    <BoxAndWhisker>Box and Whisker</BoxAndWhisker>
+    <BoxAndWhisker>Kotak dan Garis</BoxAndWhisker>
     <Bubble>Gelembung</Bubble>
     <Candlestick>Candlestick</Candlestick>
     <ChartConditionsCollectionForm>Kriteria</ChartConditionsCollectionForm>
@@ -581,7 +581,7 @@
     <TextRole>Peran</TextRole>
     <TextRun>Jalankan</TextRun>
     <TextUser>Pengguna</TextUser>
-    <TextUserName>User Name (Email)</TextUserName>
+    <TextUserName>Nama Pengguna (Email)</TextUserName>
     <TimeHoursAgoFive>Lima jam lalu, {0:t}</TimeHoursAgoFive>
     <TimeHoursAgoFour>Empat jam yang lalu, {0:t}</TimeHoursAgoFour>
     <TimeHoursAgoOne>Satu jam yang lalu, {0:t}</TimeHoursAgoOne>
@@ -725,7 +725,7 @@
     <StiSubReport>Sub-Laporan</StiSubReport>
     <StiSystemText>Tulisan Sistem</StiSystemText>
     <StiTable>Tabel</StiTable>
-    <StiTableOfContents>Table of Contents</StiTableOfContents>
+    <StiTableOfContents>Daftar Isi</StiTableOfContents>
     <StiText>Tulisan</StiText>
     <StiTextInCells>Tulisan dalam cell</StiTextInCells>
     <StiTreeView>Tree View</StiTreeView>
@@ -944,7 +944,7 @@
     <SkillLevel>Tingkat keahlian</SkillLevel>
     <WhoAreYou>Kamu siapa?</WhoAreYou>
     <WhoAreYouBeginnerDescription>Perfect fit if you are doing the first run of the designer.</WhoAreYouBeginnerDescription>
-    <WhoAreYouCreatorDescription>Perfect fit for creating reports. The necessary functionality for design is available.</WhoAreYouCreatorDescription>
+    <WhoAreYouCreatorDescription>Sangat cocok untuk membuat laporan. Tersedia fungsi yang diperlukan untuk desain.</WhoAreYouCreatorDescription>
     <WhoAreYouDeveloperDescription>Sangat cocok untuk membuat laporan. Fungsionalitas yang diperlukan untuk desain tersedia.</WhoAreYouDeveloperDescription>
   </Desktop>
   <Dialogs>
@@ -1027,10 +1027,10 @@
     <titleFind>Cari</titleFind>
     <titleGotoLine>Pergi ke Garis</titleGotoLine>
     <titleReplace>Mengganti</titleReplace>
-    <ToggleAllOutlining>Toggle A&amp;ll Outlining</ToggleAllOutlining>
-    <ToggleOutliningExpansion>&amp;Toggle Outlining Expansion</ToggleOutliningExpansion>
+    <ToggleAllOutlining>Ciutkan atau Bentangkan &amp;Semua</ToggleAllOutlining>
+    <ToggleOutliningExpansion>&amp;Ciutkan atau Bentangkan Blok</ToggleOutliningExpansion>
     <TypeToSearch>Ketik untuk mencari</TypeToSearch>
-    <UseRegularExpressions>Use &amp;Regular Expressions</UseRegularExpressions>
+    <UseRegularExpressions>Gunakan &amp;Ekspresi Reguler</UseRegularExpressions>
   </Editor>
   <Errors>
     <ComponentIsNotRelease>Komponen belum dikeluarkan "{0}".</ComponentIsNotRelease>
@@ -1137,7 +1137,7 @@
     <ExportTypeJsonFile>File JSON..</ExportTypeJsonFile>
     <ExportTypeMarkdownFile>File Markdown...</ExportTypeMarkdownFile>
     <ExportTypeMetafile>Windows Metafile...</ExportTypeMetafile>
-    <ExportTypeMhtFile>MHT Web Archive...</ExportTypeMhtFile>
+    <ExportTypeMhtFile>Arsip Web MHT...</ExportTypeMhtFile>
     <ExportTypePcxFile>Gambar PCX...</ExportTypePcxFile>
     <ExportTypePdfFile>File Adobe PDF...</ExportTypePdfFile>
     <ExportTypePngFile>Gambar PNG...</ExportTypePngFile>
@@ -1148,7 +1148,7 @@
     <ExportTypeSylkFile>File Symbolic Link (SYLK)...</ExportTypeSylkFile>
     <ExportTypeTiffFile>Gambar TIFF...</ExportTypeTiffFile>
     <ExportTypeTxtFile>File Tulisan...</ExportTypeTxtFile>
-    <ExportTypeWord2007File>Microsoft Word File...</ExportTypeWord2007File>
+    <ExportTypeWord2007File>File Microsoft Word...</ExportTypeWord2007File>
     <ExportTypeWriterFile>File Buka Dokumen Penulis...</ExportTypeWriterFile>
     <ExportTypeXmlFile>File XML...</ExportTypeXmlFile>
     <ExportTypeXpsFile>File Microsoft XPS...</ExportTypeXpsFile>
@@ -1176,7 +1176,7 @@
     <PageBandsAll>Semua</PageBandsAll>
     <PageBandsFirstAndLast>Header Pertama dan Footer Terakhir</PageBandsFirstAndLast>
     <PageBandsNone>Tidak Ada</PageBandsNone>
-    <PdfACompliance>PDF/A Compliance</PdfACompliance>
+    <PdfACompliance>Kepatuhan PDF/A</PdfACompliance>
     <PdfUA>PDF/UA (Aksesibilitas Universal)</PdfUA>
     <PrintingReport>Mencetak Laporan</PrintingReport>
     <RemoveEmptySpaceAtBottom>Hilangkan jarak kosong di bawah halaman</RemoveEmptySpaceAtBottom>
@@ -1364,7 +1364,7 @@
     <Rows>Baris:</Rows>
     <Summary>Ringkasan:</Summary>
     <Swap>Tukar Baris / Kolom</Swap>
-    <title>Cross-Tab Designer</title>
+    <title>Desainer Cross-Tab</title>
   </FormCrossTabDesigner>
   <FormDatabaseEdit>
     <AccessToken>Token akses</AccessToken>
@@ -2512,10 +2512,10 @@
     <menuFileDashboardOpen>Buka Dasbor...</menuFileDashboardOpen>
     <menuFileDashboardSaveAs>Simpan Sebagai Dasbor...</menuFileDashboardSaveAs>
     <menuFileExit>K&amp;eluar</menuFileExit>
-    <menuFileExportXMLSchema>Export XML Schema...</menuFileExportXMLSchema>
+    <menuFileExportXMLSchema>Ekspor Skema XML...</menuFileExportXMLSchema>
     <menuFileFormNew>Form Baru</menuFileFormNew>
     <menuFileFormOpen>Buka Formulir</menuFileFormOpen>
-    <menuFileImportXMLSchema>Import XML Schema...</menuFileImportXMLSchema>
+    <menuFileImportXMLSchema>Impor Skema XML...</menuFileImportXMLSchema>
     <menuFileMerge>Gabung...</menuFileMerge>
     <menuFileMergeXMLSchema>Gabung XML Schema...</menuFileMergeXMLSchema>
     <menuFileNew>&amp;Baru</menuFileNew>
@@ -2978,7 +2978,7 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <InterlacingCategory>Interlacing</InterlacingCategory>
     <LabelsCategory>Labels</LabelsCategory>
     <LegendCategory>Legenda</LegendCategory>
-    <LinearScaleBarCategory>Linear Scale Bar</LinearScaleBarCategory>
+    <LinearScaleBarCategory>Bilah Skala Linier</LinearScaleBarCategory>
     <LinearScaleCategory>Linear Scale</LinearScaleCategory>
     <ListBoxCategory>List Box</ListBoxCategory>
     <MacroDataCategory>Data Makro</MacroDataCategory>
@@ -3002,7 +3002,7 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <PrimitiveCategory>Primitif</PrimitiveCategory>
     <PrintEventsCategory>Ketika Mencetak</PrintEventsCategory>
     <ProgressCategory>Progress</ProgressCategory>
-    <RadialScaleBarCategory>Radial Scale Bar</RadialScaleBarCategory>
+    <RadialScaleBarCategory>Batang Skala Radial</RadialScaleBarCategory>
     <RegionMapCategory>Region Map</RegionMapCategory>
     <RenderEventsCategory>Ketika Pembuatan</RenderEventsCategory>
     <SeriesCategory>Series</SeriesCategory>
@@ -3012,7 +3012,7 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <SourceCategory>Sumber</SourceCategory>
     <SubReportCategory>Sub-Laporan</SubReportCategory>
     <TableCategory>Table</TableCategory>
-    <TableOfContents>Table of Contents</TableOfContents>
+    <TableOfContents>Daftar Isi</TableOfContents>
     <TargetCategory>Sasaran</TargetCategory>
     <TextAdditionalCategory>Tambahan tulisan</TextAdditionalCategory>
     <TextCategory>tulisan</TextCategory>
@@ -3931,7 +3931,7 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <ProcessChartEvent>Buat Grafik</ProcessChartEvent>
     <RefreshingEvent>Menyegarkan</RefreshingEvent>
     <RenderingEvent>Sedang Membuat</RenderingEvent>
-    <ReportCacheProcessingEvent>Report Cache Processing</ReportCacheProcessingEvent>
+    <ReportCacheProcessingEvent>Pemrosesan Cache Laporan</ReportCacheProcessingEvent>
     <SelectedIndexChangedEvent>Indek yang terpilih berubah</SelectedIndexChangedEvent>
     <StartValueChangedEvent>Nilai Awal Berubah</StartValueChangedEvent>
     <StateRestoreEvent>Kembalikan Tahap Ini</StateRestoreEvent>
@@ -4010,7 +4010,7 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <AllowApplyBrush>Memperbolehkan menerapkan Kuas</AllowApplyBrush>
     <AllowApplyBrushNegative>Memperbolehkan menerapkan Kuas Negatif</AllowApplyBrushNegative>
     <AllowApplyColorNegative>Memperbolehkan menerapkan Warna Negatif</AllowApplyColorNegative>
-    <AllowApplyLineColor>Allow Apply Line Color</AllowApplyLineColor>
+    <AllowApplyLineColor>Memperbolehkan menerapkan Warna Garis</AllowApplyLineColor>
     <AllowApplyStyle>Memperbolehkan menerapkan Corak</AllowApplyStyle>
     <AllowCleanSignature>Izinkan Tanda Tangan Bersih</AllowCleanSignature>
     <AllowExpressions>Memperbolehkan Ekspresi </AllowExpressions>
@@ -4031,19 +4031,19 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <AllowUseForeColor>Memperbolehkan menggunakan Warna Depan</AllowUseForeColor>
     <AllowUseHorAlignment>Memperbolehkan Pengurutan</AllowUseHorAlignment>
     <AllowUseImage>Memperbolehkan menggunakan Gambar</AllowUseImage>
-    <AllowUseNegativeTextBrush>Allow Use Negative Text Brush</AllowUseNegativeTextBrush>
+    <AllowUseNegativeTextBrush>Memperbolehkan menggunakan Kuas Teks Negatif</AllowUseNegativeTextBrush>
     <AllowUserValues>Memperbolehkan Nilai Sendiri</AllowUserValues>
     <AllowUseTextBrush>Memperbolehkan Kuas Tulisan</AllowUseTextBrush>
-    <AllowUseTextFormat>Allow Use Text Format</AllowUseTextFormat>
+    <AllowUseTextFormat>Memperbolehkan menggunakan Format Teks</AllowUseTextFormat>
     <AllowUseTextOptions>Memperbolehkan Pilihan Tulisan</AllowUseTextOptions>
     <AllowUseTitle>Izinkan Penggunaan Judul</AllowUseTitle>
     <AllowUseVertAlignment>Memperbolehkan Rata Vertikal</AllowUseVertAlignment>
     <AllowUsingAsSqlParameter>Izinkan menggunakan sebagai parameter SQL</AllowUsingAsSqlParameter>
     <AlternatingBackColor>Warna Dasar Alternatif</AlternatingBackColor>
-    <AlternatingCellBackColor>Alternating Cell Back Color</AlternatingCellBackColor>
-    <AlternatingCellForeColor>Alternating Cell Fore Color</AlternatingCellForeColor>
-    <AlternatingDataColor>Alternating Data Color</AlternatingDataColor>
-    <AlternatingDataForeground>Alternating Data Foreground</AlternatingDataForeground>
+    <AlternatingCellBackColor>Warna Belakang Sel Berselang</AlternatingCellBackColor>
+    <AlternatingCellForeColor>Warna Depan Sel Berselang</AlternatingCellForeColor>
+    <AlternatingDataColor>Warna Data Berselang</AlternatingDataColor>
+    <AlternatingDataForeground>Latar Depan Data Berselang</AlternatingDataForeground>
     <Always>Always</Always>
     <Anchor>Anchor</Anchor>
     <Angle>Sudut</Angle>
@@ -4068,12 +4068,12 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <AutoRefresh>Auto Refresh</AutoRefresh>
     <AutoRotate>Auto Rotate</AutoRotate>
     <AutoScale>Auto Scale</AutoScale>
-    <AutoSeriesColorDataColumn>Auto Series Color Data Column</AutoSeriesColorDataColumn>
-    <AutoSeriesKeyDataColumn>Auto Series Key Data Column</AutoSeriesKeyDataColumn>
-    <AutoSeriesTitleDataColumn>Auto Series Title Data Column</AutoSeriesTitleDataColumn>
+    <AutoSeriesColorDataColumn>Kolom Data Warna Seri Otomatis</AutoSeriesColorDataColumn>
+    <AutoSeriesKeyDataColumn>Kolom Data Kunci Seri Otomatis</AutoSeriesKeyDataColumn>
+    <AutoSeriesTitleDataColumn>Kolom Data Judul Seri Otomatis</AutoSeriesTitleDataColumn>
     <AutoWidth>Lebar Sendiri</AutoWidth>
     <AutoWidthType>Tipe Lebar Secara Otomatis</AutoWidthType>
-    <AvailableInTheViewer>Available in the Viewer</AvailableInTheViewer>
+    <AvailableInTheViewer>Tersedia di Penampil</AvailableInTheViewer>
     <AxisLabelsColor>Warna Label</AxisLabelsColor>
     <AxisLineColor>Warna Garis</AxisLineColor>
     <AxisTitleColor>Warna Judul</AxisTitleColor>
@@ -4093,7 +4093,7 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <Border>Pinggiran</Border>
     <BorderBrush>Garis Sikat</BorderBrush>
     <BorderColor>Warna Pinggiran</BorderColor>
-    <BorderColorNegative>Border Color Negative</BorderColorNegative>
+    <BorderColorNegative>Warna Pinggiran Negatif</BorderColorNegative>
     <Borders>Pinggiran</Borders>
     <BorderSize>Ukuran garis</BorderSize>
     <BorderStyle>Corak Pinggiran</BorderStyle>
@@ -4108,8 +4108,8 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <Brush>Kuas</Brush>
     <BrushNegative>Kuas Negatif</BrushNegative>
     <BrushType>Tipe Sikat</BrushType>
-    <BubbleBackColor>Bubble Back Color</BubbleBackColor>
-    <BubbleBorderColor>Bubble Border Color</BubbleBorderColor>
+    <BubbleBackColor>Warna Belakang Gelembung</BubbleBackColor>
+    <BubbleBorderColor>Warna Pinggiran Gelembung</BubbleBorderColor>
     <BubbleScale>Skala Gelembung</BubbleScale>
     <BusinessObject>Objek Bisnins</BusinessObject>
     <CacheAllData>Menyembunyikan Semua Data</CacheAllData>
@@ -4131,9 +4131,9 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <Category>Kategori</Category>
     <CategoryConnections>Koneksi</CategoryConnections>
     <CellAlignment>Perataan Sel</CellAlignment>
-    <CellBackColor>Cell Back Color</CellBackColor>
+    <CellBackColor>Warna Belakang Sel</CellBackColor>
     <CellDockStyle>Ragam DOck Cell</CellDockStyle>
-    <CellForeColor>Cell Fore Color</CellForeColor>
+    <CellForeColor>Warna Depan Sel</CellForeColor>
     <CellHeight>Tinggi Cell</CellHeight>
     <Cells>Sel</Cells>
     <CellType>Tipe Cell</CellType>
@@ -4168,12 +4168,12 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <CodeBackground>Latar Belakang Kode</CodeBackground>
     <CodePage>Kode Halaman</CodePage>
     <Collapsed>Telah Mengempis</Collapsed>
-    <CollapseGroupFooter>Collapse Group Footer</CollapseGroupFooter>
+    <CollapseGroupFooter>Ciutkan Footer Grup</CollapseGroupFooter>
     <CollapsingEnabled>Perbolehkan Mengempis</CollapsingEnabled>
     <Collate>Menyatukan</Collate>
     <CollectionName>Koleksi Nama</CollectionName>
     <Color>Warna</Color>
-    <ColorDataColumn>Color Data Column</ColorDataColumn>
+    <ColorDataColumn>Kolom Data Warna</ColorDataColumn>
     <ColorEach>Masing-masing Warna</ColorEach>
     <ColorMeter>Color Meter</ColorMeter>
     <Colors>Colors</Colors>
@@ -4183,8 +4183,8 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <ColumnCount>Jumlah Kolom</ColumnCount>
     <ColumnDirection>Arah Kolom</ColumnDirection>
     <ColumnGaps>Jarak Kolom</ColumnGaps>
-    <ColumnHeaderBackColor>Column Header Back Color</ColumnHeaderBackColor>
-    <ColumnHeaderForeColor>Column Header Fore Color</ColumnHeaderForeColor>
+    <ColumnHeaderBackColor>Warna Belakang Header Kolom</ColumnHeaderBackColor>
+    <ColumnHeaderForeColor>Warna Depan Header Kolom</ColumnHeaderForeColor>
     <ColumnHeadersVisible>Header Kolom Terlihat</ColumnHeadersVisible>
     <Columns>Kolom</Columns>
     <ColumnShape>Bentuk Kolom</ColumnShape>
@@ -4260,7 +4260,7 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <Diameter>Diameter</Diameter>
     <Direction>Arahan</Direction>
     <Disabled>Telah dinonaktifkan</Disabled>
-    <DisplayNameType>Display Name Type</DisplayNameType>
+    <DisplayNameType>Tipe Nama Tampilan</DisplayNameType>
     <DisplayValue>Perlihatkan Nilai</DisplayValue>
     <Distance>Jarak</Distance>
     <DistanceBetweenTabs>Jarak Diantara Tab</DistanceBetweenTabs>
@@ -4289,8 +4289,8 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <Duplex>Rangkap Dua</Duplex>
     <Editable>Bisa Diedit</Editable>
     <Effects>Effects</Effects>
-    <EmptyBorderBrush>Empty Border Brush</EmptyBorderBrush>
-    <EmptyBorderWidth>Empty Border Width</EmptyBorderWidth>
+    <EmptyBorderBrush>Kuas Pinggiran Kosong</EmptyBorderBrush>
+    <EmptyBorderWidth>Lebar Pinggiran Kosong</EmptyBorderWidth>
     <EmptyBrush>Empty Brush</EmptyBrush>
     <EmptyValue>Nilai Kosong</EmptyValue>
     <Enabled>Perbolehkan</Enabled>
@@ -4318,10 +4318,10 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <Expression>Ekspresi</Expression>
     <Extended>Diperluas</Extended>
     <ExtensionDigit>Extension Digit</ExtensionDigit>
-    <EyeBallBrush>Eye Ball Brush</EyeBallBrush>
-    <EyeBallShape>Eye Ball Shape</EyeBallShape>
-    <EyeFrameBrush>Eye Frame Brush</EyeFrameBrush>
-    <EyeFrameShape>Eye Frame Shape</EyeFrameShape>
+    <EyeBallBrush>Kuas Bola Mata</EyeBallBrush>
+    <EyeBallShape>Bentuk Bola Mata</EyeBallShape>
+    <EyeFrameBrush>Kuas Bingkai Mata</EyeFrameBrush>
+    <EyeFrameShape>Bentuk Bingkai Mata</EyeFrameShape>
     <FaqPage>Halaman FAQ</FaqPage>
     <Field>Field</Field>
     <FieldIs>Field Adalah</FieldIs>
@@ -4352,7 +4352,7 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <FontItalic>Huruf Miring</FontItalic>
     <FontName>Nama Huruf</FontName>
     <FontSize>Ukuran Huruf</FontSize>
-    <FontSizeMode>Font Size Mode</FontSizeMode>
+    <FontSizeMode>Mode Ukuran Huruf</FontSizeMode>
     <FontStrikeout>Huruf Yang dicoret</FontStrikeout>
     <FontSubscript>Huruf Yang ditulis di bawah</FontSubscript>
     <FontSuperscript>Huruf Yang ditulis di atas</FontSuperscript>
@@ -4363,7 +4363,7 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <FooterCanShrink>Footer dapat mengecil</FooterCanShrink>
     <FooterColor>Footer Color</FooterColor>
     <FooterFont>Footer Font</FooterFont>
-    <FooterForeColor>Footer Fore Color</FooterForeColor>
+    <FooterForeColor>Warna Depan Footer</FooterForeColor>
     <FooterForeground>Footer Foreground</FooterForeground>
     <FooterPrintAtBottom>Cetak Footer di Bawah</FooterPrintAtBottom>
     <FooterPrintIfEmpty>Cetak Footer Jika Kosong</FooterPrintIfEmpty>
@@ -4427,7 +4427,7 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <Heading>Heading</Heading>
     <Heatmap>Heatmap</Heatmap>
     <HeatmapColors>Heatmap Colors</HeatmapColors>
-    <HeatmapWithGroup>Heatmap With Group</HeatmapWithGroup>
+    <HeatmapWithGroup>Peta Panas dengan Grup</HeatmapWithGroup>
     <Height>Tinggi</Height>
     <Hidden>Tersembunyi</Hidden>
     <HideSeriesWithEmptyTitle>Sembunyikan Seri dengan Judul Kosong</HideSeriesWithEmptyTitle>
@@ -4437,12 +4437,12 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <HighValues>High Values</HighValues>
     <HorAlignment>Perataan Horisontal</HorAlignment>
     <HorSpacing>Jarak Horisontal</HorSpacing>
-    <HotBackColor>Hot Back Color</HotBackColor>
-    <HotColumnHeaderBackColor>Hot Column Header Back Color</HotColumnHeaderBackColor>
-    <HotForeColor>Hot Fore Color</HotForeColor>
-    <HotGlyphColor>Hot Glyph Color</HotGlyphColor>
+    <HotBackColor>Warna Belakang Panas</HotBackColor>
+    <HotColumnHeaderBackColor>Warna Belakang Header Kolom Panas</HotColumnHeaderBackColor>
+    <HotForeColor>Warna Depan Panas</HotForeColor>
+    <HotGlyphColor>Warna Glyph Panas</HotGlyphColor>
     <HotHeaderBackColor>Warna Latar Kepala Aktif</HotHeaderBackColor>
-    <HotHeaderColor>Hot Header Color</HotHeaderColor>
+    <HotHeaderColor>Warna Header Panas</HotHeaderColor>
     <HotkeyPrefix>Awalan Hotkey</HotkeyPrefix>
     <HotRowHeaderBackColor>Warna Belakang Header Baris Panas</HotRowHeaderBackColor>
     <HotSelectedBackColor>Warna Belakang Terpilih Panas</HotSelectedBackColor>
@@ -4496,7 +4496,7 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <Interaction>Interaksi</Interaction>
     <InterlacedBrush>Penggantian SIkat</InterlacedBrush>
     <InterlacingHor>Penggantian Horisontal</InterlacingHor>
-    <InterlacingHorBrush>Interlacing Horizontal Brush</InterlacingHorBrush>
+    <InterlacingHorBrush>Kuas Penggantian Horisontal</InterlacingHorBrush>
     <InterlacingVert>Penggantian Vertikal</InterlacingVert>
     <InterlacingVertBrush>Interlacing Vertikal Brush</InterlacingVertBrush>
     <Interpolation>Interpolasi</Interpolation>
@@ -4551,7 +4551,7 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <LimitRows>Limit Rows</LimitRows>
     <Linear>Lurus</Linear>
     <LinearBarBorderBrush>Kuas Batang Linier</LinearBarBorderBrush>
-    <LinearBarBrush>Linear Bar Brush</LinearBarBrush>
+    <LinearBarBrush>Kuas Bilah Linier</LinearBarBrush>
     <LinearBarEmptyBorderBrush>Kuas Perbatasan Kosong Linear Bar</LinearBarEmptyBorderBrush>
     <LinearBarEmptyBrush>Kuas Kosong Bar Linear</LinearBarEmptyBrush>
     <LinearScaleBrush>Kuas Skala Linear</LinearScaleBrush>
@@ -4771,8 +4771,8 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <Quote>Kutipan</Quote>
     <QuoteBar>Bilah Kutipan</QuoteBar>
     <RadarStyle>Bentuk Radar</RadarStyle>
-    <RadialBarBorderBrush>Radial Bar Border Brush</RadialBarBorderBrush>
-    <RadialBarBrush>Radial Bar Brush</RadialBarBrush>
+    <RadialBarBorderBrush>Kuas Pinggiran Batang Radial</RadialBarBorderBrush>
+    <RadialBarBrush>Kuas Batang Radial</RadialBarBrush>
     <RadialBarEmptyBorderBrush>Kuas Perbatasan Kosong Radial Bar</RadialBarEmptyBorderBrush>
     <RadialBarEmptyBrush>Kuas Kosong Radial Bar</RadialBarEmptyBrush>
     <Radius>Radius</Radius>
@@ -5046,11 +5046,11 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <ThumbBorderColor>Warna Batas Penggeser</ThumbBorderColor>
     <ThumbColor>Warna Penggeser</ThumbColor>
     <TickLabelMajorFont>Centang Label Huruf Utama</TickLabelMajorFont>
-    <TickLabelMajorTextBrush>Tick Label Major Text Brush</TickLabelMajorTextBrush>
-    <TickLabelMinorFont>Tick Label Minor Font</TickLabelMinorFont>
-    <TickLabelMinorTextBrush>Tick Label Minor Text Brush</TickLabelMinorTextBrush>
-    <TickMarkMajorBorder>Tick Mark Major Border</TickMarkMajorBorder>
-    <TickMarkMajorBorderWidth>Tick Mark Major Border Width</TickMarkMajorBorderWidth>
+    <TickLabelMajorTextBrush>Kuas Teks Label Tanda Utama</TickLabelMajorTextBrush>
+    <TickLabelMinorFont>Huruf Label Tanda Sekunder</TickLabelMinorFont>
+    <TickLabelMinorTextBrush>Kuas Teks Label Tanda Sekunder</TickLabelMinorTextBrush>
+    <TickMarkMajorBorder>Pinggiran Tanda Utama</TickMarkMajorBorder>
+    <TickMarkMajorBorderWidth>Lebar Pinggiran Tanda Utama</TickMarkMajorBorderWidth>
     <TickMarkMajorBrush>Tanda Centang Kuas Utama</TickMarkMajorBrush>
     <TickMarkMinorBorder>Centang Tandai Batas Kecil</TickMarkMinorBorder>
     <TickMarkMinorBorderWidth>Centang Tandai Minor Border Width</TickMarkMinorBorderWidth>
@@ -5253,7 +5253,7 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <MetaProviderCantLoadMetadataForDatabase>Metadata povider secara otomatis tidak dapat memuat metadata dari databaase: {0}</MetaProviderCantLoadMetadataForDatabase>
     <MoveDown>Pindahkan ke Bawah</MoveDown>
     <MoveUp>Pindahkan ke Atas</MoveUp>
-    <NewUnionSubQuery>New union sub-query</NewUnionSubQuery>
+    <NewUnionSubQuery>Sub-kueri union baru</NewUnionSubQuery>
     <NoConnectionObject>Tidak ada koneksi dengan objek (properti {0} belum diset).</NoConnectionObject>
     <NoTransactionObject>Tdak ada transaksi(Properti {0} belum diset).</NoTransactionObject>
     <Objects>Objek</Objects>
@@ -5303,7 +5303,7 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <AddAPlaceDesc>Anda dapat menambahkan lokasi untuk mempermudah penyimpanan Laporan ke penyimpanan.</AddAPlaceDesc>
     <ChangeFileType>Ubah tipe file</ChangeFileType>
     <ChooseALocation>Pilih Lokasi</ChooseALocation>
-    <ClearUnpinnedItems>Clear unpinned items</ClearUnpinnedItems>
+    <ClearUnpinnedItems>Hapus item yang tidak disematkan</ClearUnpinnedItems>
     <CopyPathToClipboard>Hapus item yang tidak disematkan</CopyPathToClipboard>
     <DateModified>Tanggal diubah</DateModified>
     <Documents>Dokumen</Documents>
@@ -5508,7 +5508,7 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
   <Scheduler>
     <ActionRunReport>Jalankan Laporan</ActionRunReport>
     <AdvancedSettings>Pengaturan lanjutan</AdvancedSettings>
-    <CheckBoxOverwriteIfExists>Overwrite If Exists</CheckBoxOverwriteIfExists>
+    <CheckBoxOverwriteIfExists>Timpa Jika Sudah Ada</CheckBoxOverwriteIfExists>
     <DayAll>Semua</DayAll>
     <DayDayX>Hari {0}</DayDayX>
     <DayLast>Terakhir</DayLast>
@@ -5608,7 +5608,7 @@ Email telah dikirim ke "{0}". Ini berisi tautan untuk mengonfirmasi pendaftaran 
     <FlowchartCollate>Flowchart: Menyusun</FlowchartCollate>
     <FlowchartDecision>Flowchart: Keputusan</FlowchartDecision>
     <FlowchartManualInput>Flowchart: Input Manual</FlowchartManualInput>
-    <FlowchartOffPageConnector>Flowchart: Off Page Connector</FlowchartOffPageConnector>
+    <FlowchartOffPageConnector>Flowchart: Penghubung Luar Halaman</FlowchartOffPageConnector>
     <FlowchartPreparation>Flowchart: Persiapan</FlowchartPreparation>
     <FlowchartSort>Flowchart: Urut</FlowchartSort>
     <Frame>Bingkai</Frame>
