@@ -383,7 +383,7 @@
     <LegendHorizontalAlignment>المحاذاة الأفقية</LegendHorizontalAlignment>
     <LegendMarker>علامة</LegendMarker>
     <LegendMarkerAlignmentLeft>يسار</LegendMarkerAlignmentLeft>
-    <LegendMarkerAlignmentRight>صحيح</LegendMarkerAlignmentRight>
+    <LegendMarkerAlignmentRight>يمين</LegendMarkerAlignmentRight>
     <LegendMarkerVisible>مرئية</LegendMarkerVisible>
     <LegendVerticalAlignment>المحاذاة العمودية</LegendVerticalAlignment>
     <LegendVisible>مرئية</LegendVisible>
@@ -2588,7 +2588,7 @@
     <menuViewShowHeaders>وتظهر رؤوس</menuViewShowHeaders>
     <menuViewShowInsertTab>إظهار علامة التبويب 'إدراج'</menuViewShowInsertTab>
     <menuViewShowOrder>وتظهر الأمر</menuViewShowOrder>
-    <menuViewShowRulers>وتبين من الحكام</menuViewShowRulers>
+    <menuViewShowRulers>إظهار المساطر</menuViewShowRulers>
     <menuViewShowToolbox>إظهار صندوق الأدوات</menuViewShowToolbox>
     <menuViewToolbars>أشرطة الأدوات</menuViewToolbars>
   </MainMenu>
@@ -2664,20 +2664,20 @@
     <AuthAccountIsNotActivated>.الحساب غير منشط بعد! يرجى اتباع التعليمات المرسلة إلى البريد الاكتروني أثناء التسجيل</AuthAccountIsNotActivated>
     <AuthCantChangeRoleBecauseLastAdministratorUser>لا يمكن تغيير دور المستخدم لكونه المسؤول الأخير في مساحة العمل!</AuthCantChangeRoleBecauseLastAdministratorUser>
     <AuthCantChangeRoleBecauseLastSupervisorUser>لا يمكن تغيير دور المستخدم لكونه المشرف الأخير في الخادم!</AuthCantChangeRoleBecauseLastSupervisorUser>
-    <AuthCantChangeSystemRole>!لا يمكن تغيير دور النظام</AuthCantChangeSystemRole>
-    <AuthCantDeleteHimselfUser>!لا يمكن للمستخدم حذف نفسه</AuthCantDeleteHimselfUser>
+    <AuthCantChangeSystemRole>لا يمكن تغيير دور النظام!</AuthCantChangeSystemRole>
+    <AuthCantDeleteHimselfUser>لا يمكن للمستخدم حذف نفسه!</AuthCantDeleteHimselfUser>
     <AuthCantDeleteLastAdministratorUser>لا يمكن حذف المستخدم لكونه المسؤول الأخير في مساحة العمل!</AuthCantDeleteLastAdministratorUser>
     <AuthCantDeleteLastSupervisorUser>لا حذف المستخدم لكونه المشرف الأخير في الخادم!</AuthCantDeleteLastSupervisorUser>
     <AuthCantDeleteSystemRole>لا يمكن حذف هذا الدور, لأنه دور خاص بالنظام!</AuthCantDeleteSystemRole>
     <AuthCantDisableUserBecauseLastAdministratorUser>لا يمكن تعطيل المستخدم لكونه المسؤول الأخير في مساحة العمل!</AuthCantDisableUserBecauseLastAdministratorUser>
     <AuthCantDisableUserBecauseLastSupervisorUser>لا يمكن تعطيل المستخدم لكونه المشرف الأخير في الخادم!</AuthCantDisableUserBecauseLastSupervisorUser>
-    <AuthFirstNameIsNotSpecified>!الاسم الأول غير محدد</AuthFirstNameIsNotSpecified>
-    <AuthLastNameIsNotSpecified>!الاسم الأخير غير محدد</AuthLastNameIsNotSpecified>
+    <AuthFirstNameIsNotSpecified>الاسم الأول غير محدد!</AuthFirstNameIsNotSpecified>
+    <AuthLastNameIsNotSpecified>الاسم الأخير غير محدد!</AuthLastNameIsNotSpecified>
     <AuthOAuthIdNotSpecified>معرف OAuth غير محدد!</AuthOAuthIdNotSpecified>
-    <AuthPasswordIsNotCorrect>!كلمة المرور ليست صحيحة</AuthPasswordIsNotCorrect>
-    <AuthPasswordIsNotSpecified>!كلمة المرور غير محددة</AuthPasswordIsNotSpecified>
+    <AuthPasswordIsNotCorrect>كلمة المرور ليست صحيحة!</AuthPasswordIsNotCorrect>
+    <AuthPasswordIsNotSpecified>كلمة المرور غير محددة!</AuthPasswordIsNotSpecified>
     <AuthPasswordIsTooLong>كلمة المرور طويلة جدًا!</AuthPasswordIsTooLong>
-    <AuthPasswordIsTooShort>!كلمة المرور قصيرة (أقل كلمة تتكون من ستة أحرف)</AuthPasswordIsTooShort>
+    <AuthPasswordIsTooShort>كلمة المرور قصيرة (أقل كلمة تتكون من ستة أحرف)!</AuthPasswordIsTooShort>
     <AuthRequestsLimitIsExceeded>تم تجاوز حد الطلبات! يرجى التواصل مع إدارة المبيعات على sales@stimulsoft.com!</AuthRequestsLimitIsExceeded>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>لا يمكن حذف الدور لأنه مستخدم من قبل مستخدمين آخرين</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>هذا الدور "{0}" موجود مسبقا!</AuthRoleNameAlreadyExists>
@@ -2687,23 +2687,23 @@
     <AuthTwoFactorCodeIsNotCorrect>رمز المصادقة الثنائية غير صحيح!</AuthTwoFactorCodeIsNotCorrect>
     <AuthTwoFactorCodeIsRequired>رمز المصادقة الثنائية مطلوب!</AuthTwoFactorCodeIsRequired>
     <AuthTwoFactorIsExpired>انتهت صلاحية المصادقة الثنائية. يرجى تسجيل الدخول مرة أخرى!</AuthTwoFactorIsExpired>
-    <AuthUserHasLoggedOut>!تم تسجيل خروجك</AuthUserHasLoggedOut>
+    <AuthUserHasLoggedOut>تم تسجيل خروجك!</AuthUserHasLoggedOut>
     <AuthUserHasLoggedOutPrevDevice>قام شخص ما بتسجيل الدخول إلى حسابك من جهاز آخر. سجّل الدخول مرة أخرى للمتابعة.</AuthUserHasLoggedOutPrevDevice>
-    <AuthUserNameAlreadyExists>!اسم المستخدم (البريد الالكتروني) موجود مسيقاً</AuthUserNameAlreadyExists>
+    <AuthUserNameAlreadyExists>اسم المستخدم (البريد الالكتروني) موجود مسيقاً!</AuthUserNameAlreadyExists>
     <AuthUserNameEmailIsBlocked>لا يمكن استخدام عنوان البريد الإلكتروني هذا!</AuthUserNameEmailIsBlocked>
-    <AuthUserNameIsNotSpecified>!اسم المستخدم (البريد الالكتروني) غير محدد</AuthUserNameIsNotSpecified>
+    <AuthUserNameIsNotSpecified>اسم المستخدم (البريد الالكتروني) غير محدد!</AuthUserNameIsNotSpecified>
     <AuthUserNameIsTooLong>اسم المستخدم (البريد الإلكتروني) طويل جدًا!</AuthUserNameIsTooLong>
     <AuthUserNameNotAssociatedWithYourAccount>اسم المستخدم (البريد الإلكتروني) {0} غير مرتبط بحساب {1} الخاص بك!</AuthUserNameNotAssociatedWithYourAccount>
-    <AuthUserNameOrPasswordIsNotCorrect>!اسم المستخدم (البريد الالكتروني) أو كلمة المرور غير صحيحة</AuthUserNameOrPasswordIsNotCorrect>
-    <AuthUserNameShouldLookLikeAnEmailAddress>!يجب أن يكون اسم المستخدم وعنوان البريد الالكتروني متماثلين</AuthUserNameShouldLookLikeAnEmailAddress>
-    <AuthWorkspaceNameAlreadyInUse>!اسم مساحة العمل هذا مأخوذ</AuthWorkspaceNameAlreadyInUse>
+    <AuthUserNameOrPasswordIsNotCorrect>اسم المستخدم (البريد الالكتروني) أو كلمة المرور غير صحيحة!</AuthUserNameOrPasswordIsNotCorrect>
+    <AuthUserNameShouldLookLikeAnEmailAddress>يجب أن يكون اسم المستخدم وعنوان البريد الالكتروني متماثلين!</AuthUserNameShouldLookLikeAnEmailAddress>
+    <AuthWorkspaceNameAlreadyInUse>اسم مساحة العمل هذا مأخوذ!</AuthWorkspaceNameAlreadyInUse>
     <CertificateNotFound>لم يتم العثور على الشهادة!</CertificateNotFound>
-    <CommandTimeOut>!انتهى وقت الانتظار لمعالجة الأمر</CommandTimeOut>
+    <CommandTimeOut>انتهى وقت الانتظار لمعالجة الأمر!</CommandTimeOut>
     <Congratulations>تهانينا!</Congratulations>
     <ContentNeedsAdditionalPackage>يحتاج هذا المحتوى إلى حزمة إضافية</ContentNeedsAdditionalPackage>
     <DeveloperInformation>معلومات المطوّر</DeveloperInformation>
-    <EndDateShouldBeGreaterThanCurrentDate>!تاريخ النهاية يجب أن يكون أكبر من التاريخ الحالي </EndDateShouldBeGreaterThanCurrentDate>
-    <EndDateShouldBeGreaterThanStartDate>!تاريخ النهاية يجب أن يكون أكبر من تاريخ البداية</EndDateShouldBeGreaterThanStartDate>
+    <EndDateShouldBeGreaterThanCurrentDate>تاريخ النهاية يجب أن يكون أكبر من التاريخ الحالي!</EndDateShouldBeGreaterThanCurrentDate>
+    <EndDateShouldBeGreaterThanStartDate>تاريخ النهاية يجب أن يكون أكبر من تاريخ البداية!</EndDateShouldBeGreaterThanStartDate>
     <Error>خطأ</Error>
     <ExecutionError>خطأ في التنفيذ</ExecutionError>
     <ExpressionValidationFailed>فشل التحقق من صحة التعبير.</ExpressionValidationFailed>
@@ -2718,12 +2718,12 @@
     <IsNotFound>"{0}" لم يتم العثور عليه!</IsNotFound>
     <IsNotRecognized>"{0}" لم يتم التعرف عليه!</IsNotRecognized>
     <IsNotSpecified>"{0}" غير محدد!</IsNotSpecified>
-    <IsRequiredFile>!يجب إضافة ملف واحد على الأقل</IsRequiredFile>
-    <ItemCantBeAttachedToItself>!لا يمكن إلحاق العنصر بنفسه</ItemCantBeAttachedToItself>
+    <IsRequiredFile>يجب إضافة ملف واحد على الأقل!</IsRequiredFile>
+    <ItemCantBeAttachedToItself>لا يمكن إلحاق العنصر بنفسه!</ItemCantBeAttachedToItself>
     <ItemCantBeDeletedBecauseItemIsAttachedToOtherItems>العناصر "{0}" لأنها ملحقة بعناصر أخرى!</ItemCantBeDeletedBecauseItemIsAttachedToOtherItems>
-    <ItemCantBeMovedToSpecifiedPlace>!لا يمكن نقل العنصر إلى مكان محدد</ItemCantBeMovedToSpecifiedPlace>
+    <ItemCantBeMovedToSpecifiedPlace>لا يمكن نقل العنصر إلى مكان محدد!</ItemCantBeMovedToSpecifiedPlace>
     <ItemDoesNotSupport>العنصر لا يدعم "{0}"!</ItemDoesNotSupport>
-    <KeyAndToKeyAreEqual>المفتاح وإلى المفتاح غير متماثلين!</KeyAndToKeyAreEqual>
+    <KeyAndToKeyAreEqual>المفتاح ومفتاح الوجهة متساويان!</KeyAndToKeyAreEqual>
     <LengthRange>يجب أن يكون الطول بين {0} و{1}.</LengthRange>
     <MaximumComputers>تم الوصول إلى حد الاشتراك!</MaximumComputers>
     <MaximumLength>الحد الأقصى للطول هو {0}.</MaximumLength>
@@ -2736,7 +2736,7 @@
     <NewProductAddedToSubscription>تمت إضافة منتج جديد إلى اشتراكك</NewProductAddedToSubscription>
     <NewVersionsAvailable>إصدار جديد</NewVersionsAvailable>
     <NotificationConnectPackage>قم بتوصيل الحزمة "{0}" للتشغيل الصحيح.</NotificationConnectPackage>
-    <NotificationFailed>!نتيجة فاشلة</NotificationFailed>
+    <NotificationFailed>نتيجة فاشلة!</NotificationFailed>
     <NotificationFailedAddFollowingFiles>فشلت إضافة الملفات التالية. تم تجاوز الحجم {0} ميغابايت.</NotificationFailedAddFollowingFiles>
     <NotificationFilesUploadingComplete>.تم رفع الملفات بنجاح</NotificationFilesUploadingComplete>
     <NotificationFileUploading>يتم رفع الملف "{0}"</NotificationFileUploading>
@@ -2754,7 +2754,7 @@
     <NotificationMailing>جاري الإرسال</NotificationMailing>
     <NotificationMailingComplete>عملية إرسال  "{0}" قد اكتملت.</NotificationMailingComplete>
     <NotificationMailingWaitingProcessing>عملية إرسال "{0}" قيد الإجراء.</NotificationMailingWaitingProcessing>
-    <NotificationOperationAborted>!تم إيقاف العملية</NotificationOperationAborted>
+    <NotificationOperationAborted>تم إيقاف العملية!</NotificationOperationAborted>
     <NotificationPackageRequiredToDisplay>لعرض هذا المحتوى، يرجى تنزيل الحزمة "{0}" من NuGet.</NotificationPackageRequiredToDisplay>
     <NotificationRecycleBinCleaning>يتم الآن تنظيف سلة المحذوفات</NotificationRecycleBinCleaning>
     <NotificationRecycleBinCleaningComplete>تم تنظيف سلة المحذوفات بنجاح</NotificationRecycleBinCleaningComplete>
@@ -2800,7 +2800,7 @@
     <RenewSubscriptionBeforeGracePeriodEnds>انتهى اشتراك {0}. جدِّده قبل انتهاء فترة السماح.</RenewSubscriptionBeforeGracePeriodEnds>
     <RenewSubscriptionToGetNewVersions>جدِّد اشتراك {0} لتبقى مواكبًا للتحسينات المستمرة.</RenewSubscriptionToGetNewVersions>
     <RenewSubscriptionToGetNewVersionsAgain>جدِّد اشتراك {0} لتحصل على الإصدارات الجديدة مجددًا.</RenewSubscriptionToGetNewVersionsAgain>
-    <SchedulerCantRunItSelf>!لا يمكن للمجدول تشغيل نفسه</SchedulerCantRunItSelf>
+    <SchedulerCantRunItSelf>لا يمكن للمجدول تشغيل نفسه!</SchedulerCantRunItSelf>
     <SeatLimitUpgradeBeforeDate>يستخدم اشتراكك مقاعد مطورين أكثر مما يتضمن. قم بترقية خطتك قبل {0} لمواصلة العمل دون انقطاع.</SeatLimitUpgradeBeforeDate>
     <SeatLimitUpgradeToContinue>يستخدم اشتراكك مقاعد مطورين أكثر مما يتضمن. قم بترقية خطتك للمتابعة. إغلاق هذه النافذة يغلق التطبيق أيضًا.</SeatLimitUpgradeToContinue>
     <SessionTimeOut>انتهى وقت الجلسة</SessionTimeOut>
@@ -2844,7 +2844,7 @@
     <YourSubscriptionHasBeenRenewed>تم تجديد اشتراكك</YourSubscriptionHasBeenRenewed>
     <YourSubscriptionHasExpired>انتهى اشتراكك</YourSubscriptionHasExpired>
     <YourSubscriptionNeedsAttention>اشتراكك يحتاج إلى انتباهك</YourSubscriptionNeedsAttention>
-    <YourTimeSessionHasExpired>!انتهى وقت جلستك</YourTimeSessionHasExpired>
+    <YourTimeSessionHasExpired>انتهى وقت جلستك!</YourTimeSessionHasExpired>
     <YourTrialEndsInDays>تنتهي فترتك التجريبية خلال {0} أيام</YourTrialEndsInDays>
     <YourTrialEndsToday>تنتهي فترتك التجريبية اليوم</YourTrialEndsToday>
     <YourTrialEndsTomorrow>تنتهي فترتك التجريبية غدًا</YourTrialEndsTomorrow>
@@ -3240,13 +3240,13 @@
     <FormWindowStateNormal>طبيعي</FormWindowStateNormal>
     <HorizontalAlignmentCenter>مركز</HorizontalAlignmentCenter>
     <HorizontalAlignmentLeft>يسار</HorizontalAlignmentLeft>
-    <HorizontalAlignmentRight>صحيح</HorizontalAlignmentRight>
+    <HorizontalAlignmentRight>يمين</HorizontalAlignmentRight>
     <HotkeyPrefixHide>إخفاء</HotkeyPrefixHide>
     <HotkeyPrefixNone>بلا</HotkeyPrefixNone>
     <HotkeyPrefixShow>يظهر</HotkeyPrefixShow>
     <LeftRightAlignmentLeft>يسار</LeftRightAlignmentLeft>
-    <LeftRightAlignmentRight>صحيح</LeftRightAlignmentRight>
-    <PictureBoxSizeModeAutoSize>الحجم السيارات</PictureBoxSizeModeAutoSize>
+    <LeftRightAlignmentRight>يمين</LeftRightAlignmentRight>
+    <PictureBoxSizeModeAutoSize>حجم تلقائي</PictureBoxSizeModeAutoSize>
     <PictureBoxSizeModeCenterImage>مركز الصور</PictureBoxSizeModeCenterImage>
     <PictureBoxSizeModeNormal>طبيعي</PictureBoxSizeModeNormal>
     <PictureBoxSizeModeStretchImage>وتمتد الصورة</PictureBoxSizeModeStretchImage>
@@ -3281,7 +3281,7 @@
     <StiBorderSidesBottom>أسفل</StiBorderSidesBottom>
     <StiBorderSidesLeft>يسار</StiBorderSidesLeft>
     <StiBorderSidesNone>بلا</StiBorderSidesNone>
-    <StiBorderSidesRight>صحيح</StiBorderSidesRight>
+    <StiBorderSidesRight>يمين</StiBorderSidesRight>
     <StiBorderSidesTop>أعلى</StiBorderSidesTop>
     <StiBorderStyleBump>نتوء</StiBorderStyleBump>
     <StiBorderStyleEtched>محفورا</StiBorderStyleEtched>
@@ -3327,7 +3327,7 @@
     <StiChartLabelsStyleValue>القيمة</StiChartLabelsStyleValue>
     <StiChartTitleDockBottom>أسفل</StiChartTitleDockBottom>
     <StiChartTitleDockLeft>يسار</StiChartTitleDockLeft>
-    <StiChartTitleDockRight>صحيح</StiChartTitleDockRight>
+    <StiChartTitleDockRight>يمين</StiChartTitleDockRight>
     <StiChartTitleDockTop>أعلى</StiChartTitleDockTop>
     <StiChartTrendLineTypeExponential>أسي</StiChartTrendLineTypeExponential>
     <StiChartTrendLineTypeLinear>خطي</StiChartTrendLineTypeLinear>
@@ -3348,7 +3348,7 @@
     <StiCheckStyleNoneRectangle>لا شيء مستطيل</StiCheckStyleNoneRectangle>
     <StiCheckSumNo>لا</StiCheckSumNo>
     <StiCheckSumYes>نعم</StiCheckSumYes>
-    <StiCode11CheckSumAuto>السيارات</StiCode11CheckSumAuto>
+    <StiCode11CheckSumAuto>تلقائي</StiCode11CheckSumAuto>
     <StiCode11CheckSumNone>بلا</StiCode11CheckSumNone>
     <StiCode11CheckSumOneDigit>الرقم واحد</StiCode11CheckSumOneDigit>
     <StiCode11CheckSumTwoDigits>رقمين</StiCode11CheckSumTwoDigits>
@@ -3368,7 +3368,7 @@
     <StiCrossHorAlignmentCenter>مركز</StiCrossHorAlignmentCenter>
     <StiCrossHorAlignmentLeft>يسار</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>بلا</StiCrossHorAlignmentNone>
-    <StiCrossHorAlignmentRight>صحيح</StiCrossHorAlignmentRight>
+    <StiCrossHorAlignmentRight>يمين</StiCrossHorAlignmentRight>
     <StiDashboardContentAlignmentCenter>الوسط</StiDashboardContentAlignmentCenter>
     <StiDashboardContentAlignmentLeft>يسار</StiDashboardContentAlignmentLeft>
     <StiDashboardContentAlignmentRight>يمين</StiDashboardContentAlignmentRight>
@@ -3410,7 +3410,7 @@
     <StiDockStyleFill>يملأ</StiDockStyleFill>
     <StiDockStyleLeft>يسار</StiDockStyleLeft>
     <StiDockStyleNone>بلا</StiDockStyleNone>
-    <StiDockStyleRight>صحيح</StiDockStyleRight>
+    <StiDockStyleRight>يمين</StiDockStyleRight>
     <StiDockStyleTop>أعلى</StiDockStyleTop>
     <StiDrillDownModeMultiPage>صفحات متعددة</StiDrillDownModeMultiPage>
     <StiDrillDownModeSinglePage>صفحة مفردة</StiDrillDownModeSinglePage>
@@ -3501,7 +3501,7 @@
     <StiGroupSortDirectionNone>بلا</StiGroupSortDirectionNone>
     <StiHorAlignmentCenter>مركز</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>يسار</StiHorAlignmentLeft>
-    <StiHorAlignmentRight>صحيح</StiHorAlignmentRight>
+    <StiHorAlignmentRight>يمين</StiHorAlignmentRight>
     <StiHtmlEmbeddedFontsModeAll>جميع الخطوط</StiHtmlEmbeddedFontsModeAll>
     <StiHtmlEmbeddedFontsModeCustomOnly>المخصصة فقط</StiHtmlEmbeddedFontsModeCustomOnly>
     <StiHtmlEmbeddedFontsModeNone>بلا</StiHtmlEmbeddedFontsModeNone>
@@ -3521,8 +3521,8 @@
     <StiImageRotationFlipVertical>الوجه الراسي</StiImageRotationFlipVertical>
     <StiImageRotationNone>بلا</StiImageRotationNone>
     <StiImageRotationRotate180>تناوب 180 °</StiImageRotationRotate180>
-    <StiImageRotationRotate90CCW>تدوير 90 درجة في الاتفاقية</StiImageRotationRotate90CCW>
-    <StiImageRotationRotate90CW>تدوير 90 درجة الأسلحة الكيميائية</StiImageRotationRotate90CW>
+    <StiImageRotationRotate90CCW>تدوير 90 درجة عكس اتجاه عقارب الساعة</StiImageRotationRotate90CCW>
+    <StiImageRotationRotate90CW>تدوير 90 درجة باتجاه عقارب الساعة</StiImageRotationRotate90CW>
     <StiIndicatorValueTypeValue>القيمة</StiIndicatorValueTypeValue>
     <StiIndicatorValueTypeValueTarget>القيمة / الهدف</StiIndicatorValueTypeValueTarget>
     <StiInteractionOnClick>بلا</StiInteractionOnClick>
@@ -3558,7 +3558,7 @@
     <StiLegendHorAlignmentCenter>مركز</StiLegendHorAlignmentCenter>
     <StiLegendHorAlignmentLeft>يسار</StiLegendHorAlignmentLeft>
     <StiLegendHorAlignmentLeftOutside>غادر خارج</StiLegendHorAlignmentLeftOutside>
-    <StiLegendHorAlignmentRight>صحيح</StiLegendHorAlignmentRight>
+    <StiLegendHorAlignmentRight>يمين</StiLegendHorAlignmentRight>
     <StiLegendHorAlignmentRightOutside>الحق في الخارج</StiLegendHorAlignmentRightOutside>
     <StiLegendVertAlignmentBottom>أسفل</StiLegendVertAlignmentBottom>
     <StiLegendVertAlignmentBottomOutside>خارج القاعدة</StiLegendVertAlignmentBottomOutside>
@@ -3593,7 +3593,7 @@
     <StiMapTypePoints>نقاط</StiMapTypePoints>
     <StiMarkerAlignmentCenter>الوسط</StiMarkerAlignmentCenter>
     <StiMarkerAlignmentLeft>يسار</StiMarkerAlignmentLeft>
-    <StiMarkerAlignmentRight>صحيح</StiMarkerAlignmentRight>
+    <StiMarkerAlignmentRight>يمين</StiMarkerAlignmentRight>
     <StiMarkerTypeCircle>دائرة</StiMarkerTypeCircle>
     <StiMarkerTypeHalfCircle>نصف دائرة</StiMarkerTypeHalfCircle>
     <StiMarkerTypeHexagon>سداسي</StiMarkerTypeHexagon>
@@ -3724,7 +3724,7 @@
     <StiRangeSelectorSnapModeNone>بلا</StiRangeSelectorSnapModeNone>
     <StiRangeSelectorSnapModeStep>خطوة</StiRangeSelectorSnapModeStep>
     <StiRangeSelectorSnapModeTick>علامة تدريج</StiRangeSelectorSnapModeTick>
-    <StiReportCacheModeAuto>السيارات</StiReportCacheModeAuto>
+    <StiReportCacheModeAuto>تلقائي</StiReportCacheModeAuto>
     <StiReportCacheModeOff>بعيدا</StiReportCacheModeOff>
     <StiReportCacheModeOn>على</StiReportCacheModeOn>
     <StiReportUnitTypeCentimeters>سم</StiReportUnitTypeCentimeters>
@@ -3766,7 +3766,7 @@
     <StiSeriesYAxisRightYAxis>نعم الحق في محور</StiSeriesYAxisRightYAxis>
     <StiShapeDirectionDown>أسفل</StiShapeDirectionDown>
     <StiShapeDirectionLeft>يسار</StiShapeDirectionLeft>
-    <StiShapeDirectionRight>صحيح</StiShapeDirectionRight>
+    <StiShapeDirectionRight>يمين</StiShapeDirectionRight>
     <StiShapeDirectionUp>فوق</StiShapeDirectionUp>
     <StiShiftModeDecreasingSize>انخفاض الحجم</StiShiftModeDecreasingSize>
     <StiShiftModeIncreasingSize>زيادة حجم</StiShiftModeIncreasingSize>
@@ -3827,7 +3827,7 @@
     <StiTargetModeVariation>التغير</StiTargetModeVariation>
     <StiTextHorAlignmentCenter>مركز</StiTextHorAlignmentCenter>
     <StiTextHorAlignmentLeft>يسار</StiTextHorAlignmentLeft>
-    <StiTextHorAlignmentRight>صحيح</StiTextHorAlignmentRight>
+    <StiTextHorAlignmentRight>يمين</StiTextHorAlignmentRight>
     <StiTextHorAlignmentWidth>عرض</StiTextHorAlignmentWidth>
     <StiTextPositionCenterBottom>مركز القاع</StiTextPositionCenterBottom>
     <StiTextPositionCenterTop>مركز للأعلى</StiTextPositionCenterTop>
@@ -4084,25 +4084,25 @@
     <ArrowWidth>السهم العرض</ArrowWidth>
     <AspectRatio>الجانب نسبة</AspectRatio>
     <Author>المؤلف</Author>
-    <Auto>السيارات</Auto>
+    <Auto>تلقائي</Auto>
     <AutoCalculateCenterPoint>حساب نقطة المنتصف تلقائيا</AutoCalculateCenterPoint>
     <AutoDataColumns>أعمدة بيانات تلقائية</AutoDataColumns>
     <AutoDataRows>صفوف بيانات تلقائية</AutoDataRows>
-    <AutoLocalizeReportOnRun>تقرير عن السيارات موضع تشغيل</AutoLocalizeReportOnRun>
-    <AutoRefresh>تجديد السيارات</AutoRefresh>
-    <AutoRotate>تدوير السيارات</AutoRotate>
-    <AutoScale>مقياس السيارات</AutoScale>
-    <AutoSeriesColorDataColumn>لون السيارات سلسلة بيانات العمود</AutoSeriesColorDataColumn>
-    <AutoSeriesKeyDataColumn>البيانات الرئيسية لمجموعة السيارات في العمود</AutoSeriesKeyDataColumn>
-    <AutoSeriesTitleDataColumn>السيارات بيانات العمود عنوان السلسلة</AutoSeriesTitleDataColumn>
-    <AutoWidth>عرض السيارات</AutoWidth>
+    <AutoLocalizeReportOnRun>ترجمة التقرير تلقائيًا عند التشغيل</AutoLocalizeReportOnRun>
+    <AutoRefresh>تحديث تلقائي</AutoRefresh>
+    <AutoRotate>تدوير تلقائي</AutoRotate>
+    <AutoScale>تحجيم تلقائي</AutoScale>
+    <AutoSeriesColorDataColumn>عمود بيانات لون السلسلة التلقائية</AutoSeriesColorDataColumn>
+    <AutoSeriesKeyDataColumn>عمود بيانات مفتاح السلسلة التلقائية</AutoSeriesKeyDataColumn>
+    <AutoSeriesTitleDataColumn>عمود بيانات عنوان السلسلة التلقائية</AutoSeriesTitleDataColumn>
+    <AutoWidth>عرض تلقائي</AutoWidth>
     <AutoWidthType>نوع العرض التلقائي</AutoWidthType>
     <AvailableInTheViewer>متاح في العارض</AvailableInTheViewer>
     <AxisLabelsColor>لون المسميات</AxisLabelsColor>
     <AxisLineColor>لون الخطوط</AxisLineColor>
     <AxisTitleColor>لون العنوان</AxisTitleColor>
     <AxisValue>محور القيمة</AxisValue>
-    <BackColor>عاد اللون</BackColor>
+    <BackColor>لون الخلفية</BackColor>
     <Background>خلفية</Background>
     <BackgroundColor>لون الخلفية</BackgroundColor>
     <BandColor>لون النطاق</BandColor>
@@ -4851,7 +4851,7 @@
     <ReturnValue>عودة القيمة</ReturnValue>
     <ReverseHor>عكس اتجاه أفقي</ReverseHor>
     <ReverseVert>عكس الراسي</ReverseVert>
-    <Right>صحيح</Right>
+    <Right>يمين</Right>
     <RightSide>الجانب الأيمن</RightSide>
     <RightToLeft>من اليمين إلى اليسار</RightToLeft>
     <Rotation>استدارة</Rotation>
@@ -5454,7 +5454,7 @@
     <LabelValue>القيمة :</LabelValue>
     <LoadData>تحميل البيانات</LoadData>
     <LoadingReport>تحميل التقرير</LoadingReport>
-    <nameAssembly>الجمعية العامة</nameAssembly>
+    <nameAssembly>Assembly</nameAssembly>
     <NewFeatures>الميزات الجديدة</NewFeatures>
     <No>لا</No>
     <NoFixes>لا توجد إصلاحات أو تحديثات لهذا الإصدار!</NoFixes>
