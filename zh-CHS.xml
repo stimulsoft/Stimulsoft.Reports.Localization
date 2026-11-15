@@ -1253,6 +1253,7 @@
     <PdfFiles>Adobe PDF files (*.pdf)|*.pdf</PdfFiles>
     <PngFiles>PNG 图片 (*.png)|*.png</PngFiles>
     <Ppt2007Files>Microsoft PowerPoint 2007/2013文件 (*.pptx)|*.pptx</Ppt2007Files>
+    <PrnFiles>打印机文件 (*.prn)|*.prn</PrnFiles>
     <ReportEmbededDataFiles>报告嵌入数据的模板(*.mrt)|*.mrt</ReportEmbededDataFiles>
     <ReportFiles>Files report (*.mrt)|*.mrt</ReportFiles>
     <RtfFiles>Rich Text (*.rtf)|*.rtf</RtfFiles>
@@ -2368,8 +2369,24 @@
     <DashboardContains3>您不能从报表查看器执行此操作</DashboardContains3>
     <DigitalSignature>使用数字签名对文档签名。</DigitalSignature>
     <DitheringType>黑白图像的抖动：None、Ordered 或 Floyd-Steinberg。</DitheringType>
+    <DotMatrixControlCodes>显示或隐藏打印机控制代码。</DotMatrixControlCodes>
+    <DotMatrixFitToPaper>适合纸张</DotMatrixFitToPaper>
+    <DotMatrixGreenbar>每隔一组三行添加底纹。</DotMatrixGreenbar>
+    <DotMatrixGreenbarTitle>绿条纹</DotMatrixGreenbarTitle>
+    <DotMatrixIssues>问题: {0}</DotMatrixIssues>
+    <DotMatrixLongLines>在第 {0} 列超出纸张边缘的行: {1}。</DotMatrixLongLines>
     <DotMatrixMode>以点阵模式查看.</DotMatrixMode>
+    <DotMatrixPageDrift>没有换页符时，页面会偏离齿孔。</DotMatrixPageDrift>
+    <DotMatrixPosition>第 {0} 行，第 {1} 列</DotMatrixPosition>
+    <DotMatrixReadyToPrint>可以打印</DotMatrixReadyToPrint>
+    <DotMatrixReplacedCharacters>此编码替换的字符: {0}。</DotMatrixReplacedCharacters>
+    <DotMatrixRuler>显示或隐藏标尺和行号。</DotMatrixRuler>
     <DotMatrixSettings>显示或隐藏设置。</DotMatrixSettings>
+    <DotMatrixSheetNofM>第 {0} 张，共 {1} 张</DotMatrixSheetNofM>
+    <DotMatrixSwitchTo>切换到{0}</DotMatrixSwitchTo>
+    <DotMatrixTurnOn>打开</DotMatrixTurnOn>
+    <DotMatrixUnicodeEncoding>大多数针式打印机不支持 Unicode。</DotMatrixUnicodeEncoding>
+    <DotMatrixUseSimpleBorders>使用简单边框</DotMatrixUseSimpleBorders>
     <DrawBorder>使用框线字符绘制组件的边框。</DrawBorder>
     <Edit>编辑组件.</Edit>
     <EmbeddedFonts>将字体文件嵌入到PDF文件里.</EmbeddedFonts>

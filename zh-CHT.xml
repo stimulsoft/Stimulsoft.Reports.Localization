@@ -1252,6 +1252,7 @@
     <PdfFiles>Adobe PDF files (*.pdf)|*.pdf</PdfFiles>
     <PngFiles>PNG 圖片 (*.png)|*.png</PngFiles>
     <Ppt2007Files>Microsoft PowerPoint 2007/2013 檔案 (*.pptx)|*.pptx</Ppt2007Files>
+    <PrnFiles>印表機檔案 (*.prn)|*.prn</PrnFiles>
     <ReportEmbededDataFiles>Stimulsoft 內嵌資料範本 (*.mrt)|*.mrt</ReportEmbededDataFiles>
     <ReportFiles>Files report (*.mrt)|*.mrt</ReportFiles>
     <RtfFiles>Rich Text (*.rtf)|*.rtf</RtfFiles>
@@ -2366,8 +2367,24 @@
     <DashboardContains3>您無法在報表檢視器中執行此操作！</DashboardContains3>
     <DigitalSignature>以數字簽名簽署文件。</DigitalSignature>
     <DitheringType>黑白圖片的遞色：None、Ordered 或 Floyd-Steinberg。</DitheringType>
+    <DotMatrixControlCodes>顯示或隱藏印表機控制碼。</DotMatrixControlCodes>
+    <DotMatrixFitToPaper>符合紙張</DotMatrixFitToPaper>
+    <DotMatrixGreenbar>每隔一組三行加上網底。</DotMatrixGreenbar>
+    <DotMatrixGreenbarTitle>綠條紋</DotMatrixGreenbarTitle>
+    <DotMatrixIssues>問題: {0}</DotMatrixIssues>
+    <DotMatrixLongLines>在第 {0} 欄超出紙張邊緣的行: {1}。</DotMatrixLongLines>
     <DotMatrixMode>以點陣模式檢視。</DotMatrixMode>
+    <DotMatrixPageDrift>沒有換頁字元時，頁面會偏離齒孔。</DotMatrixPageDrift>
+    <DotMatrixPosition>第 {0} 行，第 {1} 欄</DotMatrixPosition>
+    <DotMatrixReadyToPrint>可以列印</DotMatrixReadyToPrint>
+    <DotMatrixReplacedCharacters>此編碼取代的字元: {0}。</DotMatrixReplacedCharacters>
+    <DotMatrixRuler>顯示或隱藏尺規和行號。</DotMatrixRuler>
     <DotMatrixSettings>顯示或隱藏設定。</DotMatrixSettings>
+    <DotMatrixSheetNofM>第 {0} 張，共 {1} 張</DotMatrixSheetNofM>
+    <DotMatrixSwitchTo>切換至 {0}</DotMatrixSwitchTo>
+    <DotMatrixTurnOn>開啟</DotMatrixTurnOn>
+    <DotMatrixUnicodeEncoding>大多數點陣印表機不支援 Unicode。</DotMatrixUnicodeEncoding>
+    <DotMatrixUseSimpleBorders>使用簡單框線</DotMatrixUseSimpleBorders>
     <DrawBorder>使用框線字元繪製元件的框線。</DrawBorder>
     <Edit>編輯</Edit>
     <EmbeddedFonts>將字型檔案內嵌至 PDF 檔案。</EmbeddedFonts>

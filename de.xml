@@ -1251,6 +1251,7 @@
     <PdfFiles>Adobe PDF-Dateien (*.pdf)|*.pdf</PdfFiles>
     <PngFiles>PNG-Bild (*.png)|*.png</PngFiles>
     <Ppt2007Files>Microsoft PowerPoint 2007/2013 Datei (*.pptx)|*.pptx</Ppt2007Files>
+    <PrnFiles>Druckerdateien (*.prn)|*.prn</PrnFiles>
     <ReportEmbededDataFiles>Stimulsoft Vorlagen mit eingebetteten Daten (*.mrt)|*.mrt</ReportEmbededDataFiles>
     <ReportFiles>Stimulsoft-Dateien (*.mrt)|*.mrt</ReportFiles>
     <RtfFiles>Rich Text-Dateien (*.rtf)|*.rtf</RtfFiles>
@@ -2365,8 +2366,24 @@
     <DashboardContains3>Sie können nicht es aus dem Viewer erfüllen!</DashboardContains3>
     <DigitalSignature>Das Dokument mit einer digitalen Signatur signieren.</DigitalSignature>
     <DitheringType>Das Dithering von Schwarzweißbildern: None, Ordered oder Floyd-Steinberg.</DitheringType>
+    <DotMatrixControlCodes>Steuercodes des Druckers ein- oder ausblenden.</DotMatrixControlCodes>
+    <DotMatrixFitToPaper>An Papier anpassen</DotMatrixFitToPaper>
+    <DotMatrixGreenbar>Jede zweite Gruppe von drei Zeilen schattieren.</DotMatrixGreenbar>
+    <DotMatrixGreenbarTitle>Grünstreifen</DotMatrixGreenbarTitle>
+    <DotMatrixIssues>Probleme: {0}</DotMatrixIssues>
+    <DotMatrixLongLines>Zeilen über den Papierrand bei Spalte {0}: {1}.</DotMatrixLongLines>
     <DotMatrixMode>Im Dot-Matrix Modus anzeigen.</DotMatrixMode>
+    <DotMatrixPageDrift>Ohne Seitenvorschub verschieben sich die Seiten gegenüber der Perforation.</DotMatrixPageDrift>
+    <DotMatrixPosition>Zeile {0}, Spalte {1}</DotMatrixPosition>
+    <DotMatrixReadyToPrint>Druckbereit</DotMatrixReadyToPrint>
+    <DotMatrixReplacedCharacters>Zeichen, die diese Codierung ersetzt: {0}.</DotMatrixReplacedCharacters>
+    <DotMatrixRuler>Lineal und Zeilennummern ein- oder ausblenden.</DotMatrixRuler>
     <DotMatrixSettings>Einstellungen ein- oder ausblenden.</DotMatrixSettings>
+    <DotMatrixSheetNofM>Blatt {0} von {1}</DotMatrixSheetNofM>
+    <DotMatrixSwitchTo>Wechseln zu {0}</DotMatrixSwitchTo>
+    <DotMatrixTurnOn>Einschalten</DotMatrixTurnOn>
+    <DotMatrixUnicodeEncoding>Die meisten Nadeldrucker verstehen kein Unicode.</DotMatrixUnicodeEncoding>
+    <DotMatrixUseSimpleBorders>Einfache Rahmen verwenden</DotMatrixUseSimpleBorders>
     <DrawBorder>Die Rahmen der Komponenten mit Rahmenzeichen zeichnen.</DrawBorder>
     <Edit>Bearbeiten</Edit>
     <EmbeddedFonts>Schriftarten in die PDF-Datei einbetten.</EmbeddedFonts>

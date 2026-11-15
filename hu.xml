@@ -1251,6 +1251,7 @@
     <PdfFiles>Adobe PDF fájlok(*.pdf)|*.pdf</PdfFiles>
     <PngFiles>PNG képek(*.png)|*.png</PngFiles>
     <Ppt2007Files>Microsoft PowerPoint 2007/2013 fájlok (*.pptx)|*.pptx</Ppt2007Files>
+    <PrnFiles>Nyomtatófájlok (*.prn)|*.prn</PrnFiles>
     <ReportEmbededDataFiles>Riport minta beágyazott adattal (*.mrt)|*.mrt</ReportEmbededDataFiles>
     <ReportFiles>Jelentés fájlok(*.mrt)|*.mrt</ReportFiles>
     <RtfFiles>Rich Text (*.rtf)|*.rtf</RtfFiles>
@@ -2365,8 +2366,24 @@
     <DashboardContains3>Ezt a jelentés előnézetéből nem teheti meg!</DashboardContains3>
     <DigitalSignature>A dokumentum aláírása digitális aláírással.</DigitalSignature>
     <DitheringType>A fekete-fehér képek dithering módja: None, Ordered vagy Floyd-Steinberg.</DitheringType>
+    <DotMatrixControlCodes>A nyomtató vezérlőkódjainak megjelenítése vagy elrejtése.</DotMatrixControlCodes>
+    <DotMatrixFitToPaper>Igazítás a papírhoz</DotMatrixFitToPaper>
+    <DotMatrixGreenbar>Minden második háromsoros csoport árnyékolása.</DotMatrixGreenbar>
+    <DotMatrixGreenbarTitle>Zöld csíkok</DotMatrixGreenbarTitle>
+    <DotMatrixIssues>Problémák: {0}</DotMatrixIssues>
+    <DotMatrixLongLines>A papír szélén túllógó sorok a(z) {0}. oszlopnál: {1}.</DotMatrixLongLines>
     <DotMatrixMode>Megtekintés matrix módban.</DotMatrixMode>
+    <DotMatrixPageDrift>Lapdobás nélkül az oldalak elcsúsznak a perforációtól.</DotMatrixPageDrift>
+    <DotMatrixPosition>{0}. sor, {1}. oszlop</DotMatrixPosition>
+    <DotMatrixReadyToPrint>Nyomtatásra kész</DotMatrixReadyToPrint>
+    <DotMatrixReplacedCharacters>A kódolás által lecserélt karakterek: {0}.</DotMatrixReplacedCharacters>
+    <DotMatrixRuler>A vonalzó és a sorszámok megjelenítése vagy elrejtése.</DotMatrixRuler>
     <DotMatrixSettings>A beállítások megjelenítése vagy elrejtése.</DotMatrixSettings>
+    <DotMatrixSheetNofM>{0}. lap / {1}</DotMatrixSheetNofM>
+    <DotMatrixSwitchTo>Váltás ide: {0}</DotMatrixSwitchTo>
+    <DotMatrixTurnOn>Bekapcsolás</DotMatrixTurnOn>
+    <DotMatrixUnicodeEncoding>A legtöbb mátrixnyomtató nem ismeri a Unicode-ot.</DotMatrixUnicodeEncoding>
+    <DotMatrixUseSimpleBorders>Egyszerű keretek használata</DotMatrixUseSimpleBorders>
     <DrawBorder>A komponensek szegélyeinek kirajzolása vonalrajzoló karakterekkel.</DrawBorder>
     <Edit>Komponensek szerkesztése.</Edit>
     <EmbeddedFonts>Betűtípus fájlok beágyazása a PDF fájlba.</EmbeddedFonts>

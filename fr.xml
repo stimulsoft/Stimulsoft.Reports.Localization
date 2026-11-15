@@ -1251,6 +1251,7 @@
     <PdfFiles>Fichiers Adobe PDF (*.pdf)|*.pdf</PdfFiles>
     <PngFiles>Fichiers PNG (*.png)|*.png</PngFiles>
     <Ppt2007Files>Fichiers Microsoft PowerPoint 2007/2013 (*.pptx)|*.pptx</Ppt2007Files>
+    <PrnFiles>Fichiers d'imprimante (*.prn)|*.prn</PrnFiles>
     <ReportEmbededDataFiles>Modèles de rapport avec données intégrées (*.mrt)|*.mrt</ReportEmbededDataFiles>
     <ReportFiles>Fichiers Rapport (*.mrt)|*.mrt</ReportFiles>
     <RtfFiles>Fichiers Rich Text (*.rtf)|*.rtf</RtfFiles>
@@ -2365,8 +2366,24 @@
     <DashboardContains3>Vous ne pouvez pas faire cela depuis le visualiseur de rapports !</DashboardContains3>
     <DigitalSignature>Signer le document avec une signature numérique.</DigitalSignature>
     <DitheringType>Le tramage des images en noir et blanc : None, Ordered ou Floyd-Steinberg.</DitheringType>
+    <DotMatrixControlCodes>Afficher ou masquer les codes de contrôle de l'imprimante.</DotMatrixControlCodes>
+    <DotMatrixFitToPaper>Ajuster au papier</DotMatrixFitToPaper>
+    <DotMatrixGreenbar>Ombrer un groupe de trois lignes sur deux.</DotMatrixGreenbar>
+    <DotMatrixGreenbarTitle>Bandes vertes</DotMatrixGreenbarTitle>
+    <DotMatrixIssues>Problèmes : {0}</DotMatrixIssues>
+    <DotMatrixLongLines>Lignes au-delà du bord du papier à la colonne {0} : {1}.</DotMatrixLongLines>
     <DotMatrixMode>Afficher en mode matriciel.</DotMatrixMode>
+    <DotMatrixPageDrift>Sans saut de page, les pages se décalent par rapport aux perforations.</DotMatrixPageDrift>
+    <DotMatrixPosition>Ligne {0}, colonne {1}</DotMatrixPosition>
+    <DotMatrixReadyToPrint>Prêt à imprimer</DotMatrixReadyToPrint>
+    <DotMatrixReplacedCharacters>Caractères remplacés par cet encodage : {0}.</DotMatrixReplacedCharacters>
+    <DotMatrixRuler>Afficher ou masquer la règle et les numéros de ligne.</DotMatrixRuler>
     <DotMatrixSettings>Afficher ou masquer les paramètres.</DotMatrixSettings>
+    <DotMatrixSheetNofM>Feuille {0} sur {1}</DotMatrixSheetNofM>
+    <DotMatrixSwitchTo>Basculer vers {0}</DotMatrixSwitchTo>
+    <DotMatrixTurnOn>Activer</DotMatrixTurnOn>
+    <DotMatrixUnicodeEncoding>La plupart des imprimantes matricielles ne comprennent pas Unicode.</DotMatrixUnicodeEncoding>
+    <DotMatrixUseSimpleBorders>Utiliser des bordures simples</DotMatrixUseSimpleBorders>
     <DrawBorder>Dessiner les bordures des composants avec des caractères semi-graphiques.</DrawBorder>
     <Edit>Modifier les composants.</Edit>
     <EmbeddedFonts>Inclure les fichiers de police de caractères dans le fichier PDF.</EmbeddedFonts>

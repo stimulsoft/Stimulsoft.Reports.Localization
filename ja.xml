@@ -1252,6 +1252,7 @@
     <PdfFiles>Adobe PDFファイル(*.pdf)|*.pdf</PdfFiles>
     <PngFiles>PNG画像(*.png)|*.png</PngFiles>
     <Ppt2007Files>Microsoft PowerPoint 2007</Ppt2007Files>
+    <PrnFiles>プリンター ファイル (*.prn)|*.prn</PrnFiles>
     <ReportEmbededDataFiles>埋め込みデータありのレポートテンプレート(*.mrt)|*.mrt</ReportEmbededDataFiles>
     <ReportFiles>レポートテンプレート(*.mrt)|*.mrt</ReportFiles>
     <RtfFiles>リッチテキスト(*.rtf)|*.rtf</RtfFiles>
@@ -2366,8 +2367,24 @@
     <DashboardContains3>レポート・ビューアからはできない！</DashboardContains3>
     <DigitalSignature>文書にデジタル署名を付けます。</DigitalSignature>
     <DitheringType>白黒画像のディザリング：None、OrderedまたはFloyd-Steinberg。</DitheringType>
+    <DotMatrixControlCodes>プリンター制御コードを表示または非表示にします。</DotMatrixControlCodes>
+    <DotMatrixFitToPaper>用紙に合わせる</DotMatrixFitToPaper>
+    <DotMatrixGreenbar>3 行のグループを 1 つおきに網掛けします。</DotMatrixGreenbar>
+    <DotMatrixGreenbarTitle>グリーンバー</DotMatrixGreenbarTitle>
+    <DotMatrixIssues>問題: {0}</DotMatrixIssues>
+    <DotMatrixLongLines>{0} 桁で用紙の端を超える行: {1}。</DotMatrixLongLines>
     <DotMatrixMode>ドットマトリクスモードで表示します。</DotMatrixMode>
+    <DotMatrixPageDrift>改ページがないと、ページがミシン目からずれます。</DotMatrixPageDrift>
+    <DotMatrixPosition>{0} 行、{1} 桁</DotMatrixPosition>
+    <DotMatrixReadyToPrint>印刷の準備完了</DotMatrixReadyToPrint>
+    <DotMatrixReplacedCharacters>このエンコードで置き換えられる文字: {0}。</DotMatrixReplacedCharacters>
+    <DotMatrixRuler>ルーラーと行番号を表示または非表示にします。</DotMatrixRuler>
     <DotMatrixSettings>設定を表示または非表示にします。</DotMatrixSettings>
+    <DotMatrixSheetNofM>用紙 {0}/{1}</DotMatrixSheetNofM>
+    <DotMatrixSwitchTo>{0} に切り替え</DotMatrixSwitchTo>
+    <DotMatrixTurnOn>オンにする</DotMatrixTurnOn>
+    <DotMatrixUnicodeEncoding>ほとんどのドットマトリクスプリンターは Unicode を認識しません。</DotMatrixUnicodeEncoding>
+    <DotMatrixUseSimpleBorders>シンプルな罫線を使用</DotMatrixUseSimpleBorders>
     <DrawBorder>部品の境界線を罫線文字で描画します。</DrawBorder>
     <Edit>部品を編集します。</Edit>
     <EmbeddedFonts>フォントファイルをPDFファイルに埋め込みます。</EmbeddedFonts>
