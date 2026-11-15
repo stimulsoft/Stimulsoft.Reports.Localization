@@ -21,7 +21,7 @@
     <DayThursday>Πέμπτη</DayThursday>
     <DayTuesday>Τρίτη</DayTuesday>
     <DayWednesday>Τετάρτη</DayWednesday>
-    <Email>Email:</Email>
+    <Email>Ηλ. ταχυδρομείο:</Email>
     <EmailOptions>Επιλογές Email</EmailOptions>
     <FirstPage>Πρώτη Σελίδα</FirstPage>
     <Hours>Ώρες</Hours>
@@ -177,7 +177,7 @@
     <ShowSpecific>Εμφάνιση '{0}'</ShowSpecific>
     <Sign>Υπογραφή</Sign>
     <Submit>Υποβολή</Submit>
-    <SwitchTo>Switch to {0}</SwitchTo>
+    <SwitchTo>Μετάβαση σε {0}</SwitchTo>
     <Test>Δοκιμή</Test>
     <TryToReconnect>Προσπάθεια Επανασύνδεσης</TryToReconnect>
     <Up>Πάνω</Up>
@@ -331,7 +331,7 @@
     <Strip>Λωρίδες</Strip>
     <StripsEditorForm>Φόρμα Επεξεργασίας Λωρίδων</StripsEditorForm>
     <Style>Μορφή</Style>
-    <Sunburst>Sunburst</Sunburst>
+    <Sunburst>Ηλιακές Ακτίνες</Sunburst>
     <Surface>Επιφάνεια</Surface>
     <Treemap>Δενδρικός χάρτης</Treemap>
     <TrendLinesEditorForm>Επεξεργασία Γραμμών Τάσεων</TrendLinesEditorForm>
@@ -673,7 +673,7 @@
     <StiCrossSummary>Περίληψη Διασταύρωσης</StiCrossSummary>
     <StiCrossSummaryHeader>Κεφαλίδα Περίληψης Διασταύρωσης</StiCrossSummaryHeader>
     <StiCrossTab>Διασταύρωση</StiCrossTab>
-    <StiCrossTitle>Cross-Title</StiCrossTitle>
+    <StiCrossTitle>Τίτλος Διασταύρωσης</StiCrossTitle>
     <StiDashboard>Ταμπλό</StiDashboard>
     <StiDataBand>Ζώνη Δεδομένων</StiDataBand>
     <StiDatePicker>Επιλογέας Ημερομηνίας</StiDatePicker>
@@ -721,7 +721,7 @@
     <StiSignature>Υπογραφή</StiSignature>
     <StiSingleSelection>Απλή Επιλογή</StiSingleSelection>
     <StiSlider>Ρυθμιστικό</StiSlider>
-    <StiSparkline>Sparkline</StiSparkline>
+    <StiSparkline>Μικρογράφημα</StiSparkline>
     <StiSubReport>Υπο-Αναφορά</StiSubReport>
     <StiSystemText>Κείμενο Συστήματος</StiSystemText>
     <StiTable>Πίνακας</StiTable>
@@ -839,8 +839,8 @@
     <Trend>Τάση</Trend>
     <ViewEditCompilationNotice>Δεν μπορείτε να επεξεργαστείτε την αναφορά εάν σε αυτή τη ιδιότητα 'Report.CalculationMode' έχει τιμή 'Compilation'. Παρακαλώ θέστε στην ιδιότητα αυτή την τιμή 'Interpretation'.</ViewEditCompilationNotice>
     <ViewEditCompilationTitle>Η επεξεργασία δεν είναι διαθέσιμη</ViewEditCompilationTitle>
-    <ViewModeDesktop>Desktop</ViewModeDesktop>
-    <ViewModeMobile>Mobile</ViewModeMobile>
+    <ViewModeDesktop>Επιφάνεια Εργασίας</ViewModeDesktop>
+    <ViewModeMobile>Κινητό</ViewModeMobile>
   </Dashboard>
   <Database>
     <Connection>Σύνδεση</Connection>
@@ -959,17 +959,17 @@
     <StiGridControl>Πλέγμα</StiGridControl>
     <StiGroupBoxControl>Κουτί Ομαδοποίησης</StiGroupBoxControl>
     <StiLabelControl>Ταμπέλα</StiLabelControl>
-    <StiListBoxControl>List Box</StiListBoxControl>
+    <StiListBoxControl>Πλαίσιο Λίστας</StiListBoxControl>
     <StiListControl>Λίστα</StiListControl>
-    <StiListViewControl>List View</StiListViewControl>
-    <StiLookUpBoxControl>LookUp Box</StiLookUpBoxControl>
+    <StiListViewControl>Προβολή Λίστας</StiListViewControl>
+    <StiLookUpBoxControl>Πλαίσιο Αναζήτησης</StiLookUpBoxControl>
     <StiMultiListControl>Πολλαπλή λίστα</StiMultiListControl>
     <StiMultiSelectControl>Πολλαπλή επιλογή</StiMultiSelectControl>
     <StiNumberInputControl>Εισαγωγή αριθμού</StiNumberInputControl>
     <StiNumericUpDownControl>Αριθμητικό Up Down</StiNumericUpDownControl>
     <StiPanelControl>Πάνελ</StiPanelControl>
     <StiPictureBoxControl>Κουτί Εικόνας</StiPictureBoxControl>
-    <StiRadioButtonControl>Radio Button</StiRadioButtonControl>
+    <StiRadioButtonControl>Κουμπί Επιλογής</StiRadioButtonControl>
     <StiRadioGroupControl>Ομάδα Επιλογών (Radio Group)</StiRadioGroupControl>
     <StiRangeSliderControl>Ρυθμιστικό εύρους</StiRangeSliderControl>
     <StiReportControl>Χειριστήριο Αναφοράς</StiReportControl>
@@ -1054,14 +1054,14 @@
     <ServiceNotFound>'{0}' Η υπηρεσία δεν βρέθηκε.</ServiceNotFound>
   </Errors>
   <ExceptionProvider>
-    <Assemblies>Assemblies</Assemblies>
+    <Assemblies>Συγκροτήματα</Assemblies>
     <BackupsKeptFor30Days>Τα αντίγραφα ασφαλείας που δεν θα ανακτήσετε τώρα διατηρούνται για 30 ημέρες.</BackupsKeptFor30Days>
     <ClickIgnore>Πατήστε 'Αγνόηση' για να διαγράψετε όλα τα αυτομάτως αποθηκευθέντα αρχεία.</ClickIgnore>
     <DeleteAllBackups>Διαγραφή όλων των αντιγράφων ασφαλείας...</DeleteAllBackups>
     <DesignerClosedUnexpectedly>Το εργαλείο σχεδιασμού έκλεισε απροσδόκητα την προηγούμενη φορά</DesignerClosedUnexpectedly>
     <Exception>Εξαιρέσεις</Exception>
     <ExceptionReport>Αναφορά Εξαιρέσεων</ExceptionReport>
-    <Framework>Framework</Framework>
+    <Framework>Πλαίσιο Εργασίας</Framework>
     <General>Γενικό</General>
     <Message>Μήνυμα</Message>
     <Number>Αριθμός</Number>
@@ -1071,7 +1071,7 @@
     <SendErrorSuccess>Το μήνυμα σφάλματος παραδόθηκε με επιτυχία.</SendErrorSuccess>
     <Sending>Αποστολή...</Sending>
     <Source>Πηγή</Source>
-    <StackTrace>Stack Trace</StackTrace>
+    <StackTrace>Ίχνος Στοίβας</StackTrace>
     <YouCanRestore>Μποτείτε να ανακτήσετε μη αποθηκευθείσες αλλαγές από ένα αρχείο αντιγράφου ασφαλείας (backup file).</YouCanRestore>
     <YourPreviousWorkSession>Στην τελευταία χρήση, το εργαλείο σχεδιασμού τερμάτισε απροσδόκητα τη λειτουργία του.</YourPreviousWorkSession>
   </ExceptionProvider>
@@ -1367,7 +1367,7 @@
     <title>Σχεδιαστής Διασταύρωσης Δεδομένων</title>
   </FormCrossTabDesigner>
   <FormDatabaseEdit>
-    <AccessToken>Access token</AccessToken>
+    <AccessToken>Διακριτικό πρόσβασης</AccessToken>
     <AccountKey>Κλειδί Λογαριασμού</AccountKey>
     <AccountName>Όνομα Λογαριασμού</AccountName>
     <AnyoneWithTheLink>Οποιοσδήποτε με τον σύνδεσμο</AnyoneWithTheLink>
@@ -1379,7 +1379,7 @@
     <ConnectionString>Περιγραφικό Σύνδεσης (Conn. String):</ConnectionString>
     <ContainerName>Όνομα Container</ContainerName>
     <DashboardConnections>Συνδέσεις Ταμπλό</DashboardConnections>
-    <DatabaseSecret>Database Secret</DatabaseSecret>
+    <DatabaseSecret>Μυστικό Βάσης Δεδομένων</DatabaseSecret>
     <DatasetId>Id Dataset</DatasetId>
     <DB2Edit>Επεξεργασία Σύνδεσης IBM DB2</DB2Edit>
     <DB2New>Νέα Σύνδεση IBM DB2</DB2New>
@@ -1390,7 +1390,7 @@
     <FirstRowIsHeader>Η Πρώτη Γραμμή Είναι Κεφαλίδα</FirstRowIsHeader>
     <GeneralAccess>Γενική πρόσβαση</GeneralAccess>
     <GetAuthorizationCode>Πάρτε κωδικό εξουσιοδότησης</GetAuthorizationCode>
-    <GetTokens>Get tokens</GetTokens>
+    <GetTokens>Λήψη διακριτικών</GetTokens>
     <GisEdit>Επεξεργσίας δεδομένων GIS</GisEdit>
     <GisNew>Νέα GIS Δεδομένα</GisNew>
     <ImportData>Εισαγωγή Δεδομένων</ImportData>
@@ -1505,7 +1505,7 @@
     <CsvSeparatorTab>Στηλοθέτης (Tab)</CsvSeparatorTab>
     <DatabaseEdit>Επεξεργασία Βάσης Δεδομένων</DatabaseEdit>
     <DatabaseNew>Νέα Βάση Δεδομένων</DatabaseNew>
-    <DataMonitor>Data Monitor</DataMonitor>
+    <DataMonitor>Παρακολούθηση Δεδομένων</DataMonitor>
     <DataParameterEdit>Επεξεργασία Παραμέτρου</DataParameterEdit>
     <DataParameterNew>Νέα Παράμετρος</DataParameterNew>
     <DataSetToBusinessObjects>DataSet σε Business Objects</DataSetToBusinessObjects>
@@ -1703,7 +1703,7 @@
     <MessageTopBottomNotValid>Η τιμή Επάνω και Κάτω δεν είναι έγκυρη.</MessageTopBottomNotValid>
     <Minutes>{0} λεπτά</Minutes>
     <SaveReportEvery>Αποθήκευση Αναφοράς Κάθε:</SaveReportEvery>
-    <ScaleMode>Scale Mode</ScaleMode>
+    <ScaleMode>Λειτουργία Κλίμακας</ScaleMode>
     <SelectUILanguage>Επιλογή Γλώσσας Εφαρμογής</SelectUILanguage>
     <ShowDialogForms>Εμφάνιση Φορμών Διαλόγου</ShowDialogForms>
     <ShowDimensionLines>Εμφάνιση Γραμμών Διαστάσεων</ShowDimensionLines>
@@ -1973,7 +1973,7 @@
     <colorpicker_recentcolorslabel>Πρόσφατα Χρώματα</colorpicker_recentcolorslabel>
     <colorpicker_standardcolorslabel>Βασικά Χρώματα</colorpicker_standardcolorslabel>
     <colorpicker_themecolorslabel>Χρώματα Θέματος</colorpicker_themecolorslabel>
-    <colorpickerdialog_alphalabel>&amp;Alpha:</colorpickerdialog_alphalabel>
+    <colorpickerdialog_alphalabel>&amp;Άλφα:</colorpickerdialog_alphalabel>
     <colorpickerdialog_bluelabel>&amp;Μπλε:</colorpickerdialog_bluelabel>
     <colorpickerdialog_cancelbutton>Ακύρωση</colorpickerdialog_cancelbutton>
     <colorpickerdialog_caption>Χρώματα</colorpickerdialog_caption>
@@ -2545,7 +2545,7 @@
     <menuHelpDemos>Παραδείγματα</menuHelpDemos>
     <menuHelpDocumentation>Τεκμηρίωση</menuHelpDocumentation>
     <menuHelpFAQPage>Σελίδα με συχνές ερωτήσεις</menuHelpFAQPage>
-    <menuHelpForum>Forum</menuHelpForum>
+    <menuHelpForum>Φόρουμ</menuHelpForum>
     <menuHelpHowToRegister>Πως να Εγγραφείτε</menuHelpHowToRegister>
     <menuHelpProductHomePage>Κεντρική Σελίδα Προϊόντος</menuHelpProductHomePage>
     <menuHelpSamples>Δείγματα</menuHelpSamples>
@@ -2967,7 +2967,7 @@
     <ExportEventsCategory>Γεγονότα Εξαγωγής</ExportEventsCategory>
     <FooterTableCategory>Πίνακας Υποσέλιδου</FooterTableCategory>
     <GaugeCategory>Μετρητής</GaugeCategory>
-    <GlobalizationCategory>Globalization</GlobalizationCategory>
+    <GlobalizationCategory>Παγκοσμιοποίηση</GlobalizationCategory>
     <GridLinesCategory>Γραμμές Πλέγματος</GridLinesCategory>
     <HeaderTableCategory>Πίνακας Κεφαλίδας</HeaderTableCategory>
     <HierarchicalCategory>Ιεραρχικά</HierarchicalCategory>
@@ -3192,7 +3192,7 @@
     <ChartGridLinesAll>Όλες</ChartGridLinesAll>
     <ChartGridLinesMajor>Μείζονες</ChartGridLinesMajor>
     <ChartGridLinesNone>Καμιά</ChartGridLinesNone>
-    <ComboBoxStyleDropDown>Drop Down</ComboBoxStyleDropDown>
+    <ComboBoxStyleDropDown>Αναπτυσσόμενο</ComboBoxStyleDropDown>
     <ComboBoxStyleDropDownList>Αναπτυσσόμενη Λίστα</ComboBoxStyleDropDownList>
     <ComboBoxStyleSimple>Απλό</ComboBoxStyleSimple>
     <ContentAlignmentBottomCenter>Κάτω Κέντρο</ContentAlignmentBottomCenter>
@@ -3220,7 +3220,7 @@
     <DialogResultYes>Ναι</DialogResultYes>
     <DuplexDefault>Προεπιλογή</DuplexDefault>
     <DuplexHorizontal>Οριζόντιο</DuplexHorizontal>
-    <DuplexSimplex>Simplex</DuplexSimplex>
+    <DuplexSimplex>Μονής Όψης</DuplexSimplex>
     <DuplexVertical>Κάθετο</DuplexVertical>
     <FormStartPositionCenterParent>Κεντράρισμα στον Πατέρα</FormStartPositionCenterParent>
     <FormStartPositionCenterScreen>Κεντράρισμα στην Οθόνη</FormStartPositionCenterScreen>
@@ -3247,8 +3247,8 @@
     <RightToLeftInherit>Κληρονομικό</RightToLeftInherit>
     <RightToLeftNo>Όχι</RightToLeftNo>
     <RightToLeftYes>Ναι</RightToLeftYes>
-    <SelectionModeMultiExtended>Multi Extended</SelectionModeMultiExtended>
-    <SelectionModeMultiSimple>Multi Simple</SelectionModeMultiSimple>
+    <SelectionModeMultiExtended>Πολλαπλή Εκτεταμένη</SelectionModeMultiExtended>
+    <SelectionModeMultiSimple>Πολλαπλή Απλή</SelectionModeMultiSimple>
     <SelectionModeNone>Κανένα</SelectionModeNone>
     <SelectionModeOne>Ένα</SelectionModeOne>
     <StiAnchorModeBottom>Κάτω</StiAnchorModeBottom>
@@ -3462,14 +3462,14 @@
     <StiFilterModeAnd>Και</StiFilterModeAnd>
     <StiFilterModeOr>Ή</StiFilterModeOr>
     <StiFontIconGroupAccessibilityIcons>Προσβασιμότητα</StiFontIconGroupAccessibilityIcons>
-    <StiFontIconGroupBrandIcons>Brand</StiFontIconGroupBrandIcons>
+    <StiFontIconGroupBrandIcons>Μάρκες</StiFontIconGroupBrandIcons>
     <StiFontIconGroupDirectionalIcons>Κατευθυντικός</StiFontIconGroupDirectionalIcons>
     <StiFontIconGroupGenderIcons>Γένος</StiFontIconGroupGenderIcons>
     <StiFontIconGroupMedicalIcons>Ιατρικός</StiFontIconGroupMedicalIcons>
     <StiFontIconGroupPaymentIcons>Πληρωμή</StiFontIconGroupPaymentIcons>
-    <StiFontIconGroupSpinnerIcons>Spinner</StiFontIconGroupSpinnerIcons>
+    <StiFontIconGroupSpinnerIcons>Δείκτες Φόρτωσης</StiFontIconGroupSpinnerIcons>
     <StiFontIconGroupTransportationIcons>Μεταφορά</StiFontIconGroupTransportationIcons>
-    <StiFontIconGroupVideoPlayerIcons>Video</StiFontIconGroupVideoPlayerIcons>
+    <StiFontIconGroupVideoPlayerIcons>Βίντεο</StiFontIconGroupVideoPlayerIcons>
     <StiFontIconGroupWebApplicationIcons>Εφαρμογή</StiFontIconGroupWebApplicationIcons>
     <StiFontSizeModeAuto>Αυτόματα</StiFontSizeModeAuto>
     <StiFontSizeModeTarget>Στόχος</StiFontSizeModeTarget>
@@ -3483,7 +3483,7 @@
     <StiGaugeRangeModeValue>Τιμή</StiGaugeRangeModeValue>
     <StiGaugeRangeTypeColor>Χρώμα</StiGaugeRangeTypeColor>
     <StiGaugeRangeTypeNone>Κανένα</StiGaugeRangeTypeNone>
-    <StiGaugeTypeBullet>Bullet</StiGaugeTypeBullet>
+    <StiGaugeTypeBullet>Γράφημα Bullet</StiGaugeTypeBullet>
     <StiGaugeTypeFullCircular>Πλήρες Κυκλικό</StiGaugeTypeFullCircular>
     <StiGaugeTypeHalfCircular>Ημικυκλικό</StiGaugeTypeHalfCircular>
     <StiGaugeTypeHorizontalLinear>Οριζόνται Γραμμικό</StiGaugeTypeHorizontalLinear>
@@ -3587,7 +3587,7 @@
     <StiNavigatorButtonVisibilityInsert>Εισαγωγή</StiNavigatorButtonVisibilityInsert>
     <StiNavigatorButtonVisibilityLast>Τελευταίο</StiNavigatorButtonVisibilityLast>
     <StiNavigatorButtonVisibilityNext>Επόμενο</StiNavigatorButtonVisibilityNext>
-    <StiNavigatorButtonVisibilityPost>Post</StiNavigatorButtonVisibilityPost>
+    <StiNavigatorButtonVisibilityPost>Καταχώριση</StiNavigatorButtonVisibilityPost>
     <StiNavigatorButtonVisibilityPrior>Προηγούμενο</StiNavigatorButtonVisibilityPrior>
     <StiNavigatorButtonVisibilityRefresh>Ανανέωση</StiNavigatorButtonVisibilityRefresh>
     <StiNestedFactorHigh>Υψηλός</StiNestedFactorHigh>
@@ -3596,14 +3596,14 @@
     <StiNumberOfPassDoublePass>Διπλό Πέρασμα</StiNumberOfPassDoublePass>
     <StiNumberOfPassSinglePass>Απλό Πέρασμα</StiNumberOfPassSinglePass>
     <StiOnlineMapHeatmapColorGradientTypeAddRange>Προσθήκη εύρους τιμών</StiOnlineMapHeatmapColorGradientTypeAddRange>
-    <StiOnlineMapHeatmapColorGradientTypeBlackAquaWhite>Black Aqua White</StiOnlineMapHeatmapColorGradientTypeBlackAquaWhite>
-    <StiOnlineMapHeatmapColorGradientTypeBlueRed>Blue Red</StiOnlineMapHeatmapColorGradientTypeBlueRed>
+    <StiOnlineMapHeatmapColorGradientTypeBlackAquaWhite>Μαύρο Γαλάζιο Λευκό</StiOnlineMapHeatmapColorGradientTypeBlackAquaWhite>
+    <StiOnlineMapHeatmapColorGradientTypeBlueRed>Μπλε Κόκκινο</StiOnlineMapHeatmapColorGradientTypeBlueRed>
     <StiOnlineMapHeatmapColorGradientTypeColorSpectrum>Χρωματικό Φάσμα</StiOnlineMapHeatmapColorGradientTypeColorSpectrum>
-    <StiOnlineMapHeatmapColorGradientTypeDeepSea>Deep Sea</StiOnlineMapHeatmapColorGradientTypeDeepSea>
-    <StiOnlineMapHeatmapColorGradientTypeHeatedMetal>Heated Metal</StiOnlineMapHeatmapColorGradientTypeHeatedMetal>
-    <StiOnlineMapHeatmapColorGradientTypeIncandescent>Incandescent</StiOnlineMapHeatmapColorGradientTypeIncandescent>
+    <StiOnlineMapHeatmapColorGradientTypeDeepSea>Βαθιά Θάλασσα</StiOnlineMapHeatmapColorGradientTypeDeepSea>
+    <StiOnlineMapHeatmapColorGradientTypeHeatedMetal>Πυρακτωμένο Μέταλλο</StiOnlineMapHeatmapColorGradientTypeHeatedMetal>
+    <StiOnlineMapHeatmapColorGradientTypeIncandescent>Λευκοπυρωμένο</StiOnlineMapHeatmapColorGradientTypeIncandescent>
     <StiOnlineMapHeatmapColorGradientTypeSteppedColors>Βηματικά Χρώματα</StiOnlineMapHeatmapColorGradientTypeSteppedColors>
-    <StiOnlineMapHeatmapColorGradientTypeSunrise>Sunrise</StiOnlineMapHeatmapColorGradientTypeSunrise>
+    <StiOnlineMapHeatmapColorGradientTypeSunrise>Ανατολή</StiOnlineMapHeatmapColorGradientTypeSunrise>
     <StiOnlineMapHeatmapColorGradientTypeVisibleSpectrum>Ορατό Φάσμα</StiOnlineMapHeatmapColorGradientTypeVisibleSpectrum>
     <StiOnlineMapLocationTypeAdminDivision1>ΤμήμαΔιαχειριστών1</StiOnlineMapLocationTypeAdminDivision1>
     <StiOnlineMapLocationTypeAdminDivision2>ΤμήμαΔιαχειριστών2</StiOnlineMapLocationTypeAdminDivision2>
@@ -3639,7 +3639,7 @@
     <StiPlesseyCheckSumModulo10>Υπόλοιπο10</StiPlesseyCheckSumModulo10>
     <StiPlesseyCheckSumModulo11>Υπόλοιπο11</StiPlesseyCheckSumModulo11>
     <StiPlesseyCheckSumNone>Κανένα</StiPlesseyCheckSumNone>
-    <StiPreviewModeDotMatrix>Dot-Matrix</StiPreviewModeDotMatrix>
+    <StiPreviewModeDotMatrix>Εκτυπωτής Ακίδων</StiPreviewModeDotMatrix>
     <StiPreviewModeStandard>Κανονική</StiPreviewModeStandard>
     <StiPreviewModeStandardAndDotMatrix>Κανονική και Dot-Matrix</StiPreviewModeStandardAndDotMatrix>
     <StiPrintOnEvenOddPagesTypeIgnore>Αγνόηση</StiPrintOnEvenOddPagesTypeIgnore>
@@ -3773,7 +3773,7 @@
     <StiSortDirectionNone>Καμιά</StiSortDirectionNone>
     <StiSortTypeByDisplayValue>σύμφωνα με την Τιμή Προβολής</StiSortTypeByDisplayValue>
     <StiSortTypeByValue>σύμφωνα με την Τιμή</StiSortTypeByValue>
-    <StiSqlSourceTypeStoredProcedure>Stored Procedure</StiSqlSourceTypeStoredProcedure>
+    <StiSqlSourceTypeStoredProcedure>Αποθηκευμένη Διαδικασία</StiSqlSourceTypeStoredProcedure>
     <StiSqlSourceTypeTable>Πίνακας</StiSqlSourceTypeTable>
     <StiStyleComponentTypeChart>Διάγραμμα</StiStyleComponentTypeChart>
     <StiStyleComponentTypeCheckBox>Πλαίσιο Ελέγχου</StiStyleComponentTypeCheckBox>
@@ -3885,9 +3885,9 @@
     <ExportingEvent>Εξάγεται</ExportingEvent>
     <FillParametersEvent>Παράμετροι συμπληρωσης (Fill)</FillParametersEvent>
     <GetArgumentEvent>Λήψη Ορίσματος</GetArgumentEvent>
-    <GetBarCodeEvent>Get BarCode</GetBarCodeEvent>
+    <GetBarCodeEvent>Λήψη Γραμμωτού Κώδικα</GetBarCodeEvent>
     <GetBookmarkEvent>Λήψη Σελιδοδείκτη</GetBookmarkEvent>
-    <GetCheckedEvent>Get Checked</GetCheckedEvent>
+    <GetCheckedEvent>Λήψη Επιλογής</GetCheckedEvent>
     <GetCollapsedEvent>Λήψη Συμπτυγμένου</GetCollapsedEvent>
     <GetCrossValueEvent>Λήψη Τιμής Διασταύρωσης</GetCrossValueEvent>
     <GetCutPieListEvent>Λήψη Λίστας Αποκομμένων Κομματιών Πίτας</GetCutPieListEvent>
@@ -3907,7 +3907,7 @@
     <GetListOfValuesEvent>Λήψη Λίστας Τιμών</GetListOfValuesEvent>
     <GetListOfWeights>Λήψη Λίστας Βαρών</GetListOfWeights>
     <GetListOfWeightsEvent>Λήψη Λίστας Βαρών</GetListOfWeightsEvent>
-    <GetPointerEvent>Get Pointer</GetPointerEvent>
+    <GetPointerEvent>Λήψη Δείκτη</GetPointerEvent>
     <GetSummaryExpressionEvent>Λήψη Έκφρασης Περίληψης</GetSummaryExpressionEvent>
     <GetTagEvent>Λήψη Ετικέτας</GetTagEvent>
     <GetTitleEvent>Λήψη Τίτλου</GetTitleEvent>
@@ -4109,8 +4109,8 @@
     <BrushType>Τύπος Πινέλου</BrushType>
     <BubbleBackColor>Bubble Back Χρώματος</BubbleBackColor>
     <BubbleBorderColor>Bubble Χρώματος Φόντου</BubbleBorderColor>
-    <BubbleScale>Bubble Scale</BubbleScale>
-    <BusinessObject>Business Object</BusinessObject>
+    <BubbleScale>Κλίμακα Φυσαλίδων</BubbleScale>
+    <BusinessObject>Επιχειρησιακό Αντικείμενο</BusinessObject>
     <CacheAllData>Χρήση Λανθάνουσας Μνήμης για Όλα τα Δεδομένα</CacheAllData>
     <CacheTotals>Σύνολα Κρυφής Μνήμης</CacheTotals>
     <CalcInvisible>Υπολογισμός Αόρατων</CalcInvisible>
@@ -4211,7 +4211,7 @@
     <Create>Δημιουργία</Create>
     <CreateFieldOnDoubleClick>Δημιουργία Πεδίου με Διπλό Κλικ</CreateFieldOnDoubleClick>
     <CreateLabel>Δημιουργία Ταμπέλας</CreateLabel>
-    <CrossFiltering>Cross-Filtering</CrossFiltering>
+    <CrossFiltering>Διασταυρούμενο Φιλτράρισμα</CrossFiltering>
     <Culture>Γλώσσα</Culture>
     <CustomFonts>Προσαρμοσμένες Γραμματοσειρές</CustomFonts>
     <CustomFormat>Προσαρμοσμένη Διαμόρφωση</CustomFormat>
@@ -4270,7 +4270,7 @@
     <DrawBorder>Σχεδίαση Ορίου</DrawBorder>
     <DrawHatch>Σχεδίαση Διαγράμμισης</DrawHatch>
     <DrawLine>Σχεδίαση Γραμμής</DrawLine>
-    <DrillDown>Drill-Down</DrillDown>
+    <DrillDown>Drill Down</DrillDown>
     <DrillDownEnabled>Drill-Down Ενεργό</DrillDownEnabled>
     <DrillDownMode>Λειτουργία Drill-Down</DrillDownMode>
     <DrillDownPage>Σελίδα Drill-Down</DrillDownPage>
@@ -4285,7 +4285,7 @@
     <DropDownStyle>Στυλ Drop Down</DropDownStyle>
     <DropDownWidth>Πλάτος Drop Down</DropDownWidth>
     <DropShadow>Εμφάνιση Σκιάς</DropShadow>
-    <Duplex>Duplex</Duplex>
+    <Duplex>Διπλής Όψης</Duplex>
     <Editable>Επεξεργάσιμο</Editable>
     <Effects>Εφέ</Effects>
     <EmptyBorderBrush>Κενή Βούρτσα Περιθωρίου</EmptyBorderBrush>
@@ -4843,7 +4843,7 @@
     <Scale>Κλίμακα</Scale>
     <ScaleHor>Οριζόντια Κλίμακα</ScaleHor>
     <ScriptLanguage>Γλώσσα Δέσμης Ενεργειών</ScriptLanguage>
-    <ScriptTimeout>Script Timeout</ScriptTimeout>
+    <ScriptTimeout>Χρονικό Όριο Σεναρίου</ScriptTimeout>
     <ScrollTime>Χρόνος Κύλισης</ScrollTime>
     <Second>Δεύτερο</Second>
     <SegmentCount>Πλήθος Τμημάτων</SegmentCount>
@@ -4965,7 +4965,7 @@
     <Space>Διάστημα</Space>
     <SpaceRatio>Αναλογία Χώρου</SpaceRatio>
     <Spacing>Διάκενο</Spacing>
-    <Sparkline>Sparkline</Sparkline>
+    <Sparkline>Μικρογράφημα</Sparkline>
     <SqlCommand>Εντολή Sql</SqlCommand>
     <Standard>Πρότυπο</Standard>
     <StartAngle>Γωνία Εκκίνησης</StartAngle>
@@ -5195,7 +5195,7 @@
     <GrayText>Γκρι Κείμενο</GrayText>
     <Highlight>Επισήμανση</Highlight>
     <HighlightText>Επισημασμένο Κείμενο</HighlightText>
-    <HotTrack>Hot Track</HotTrack>
+    <HotTrack>Ενεργή Παρακολούθηση</HotTrack>
     <InactiveBorder>Ανενεργό Όριο</InactiveBorder>
     <InactiveCaption>Ανενεργή Γραμμή Λεζάντας</InactiveCaption>
     <InactiveCaptionText>Ανενεργό Κείμενο Γραμμής Λεζάντας</InactiveCaptionText>
@@ -5272,7 +5272,7 @@
     <Tables>Πίνακες</Tables>
     <UnexpectedTokenAt>Απροσδόκητο σύμβολο "{0}" στη γραμμή {1}, θέση {2}!</UnexpectedTokenAt>
     <Unions>UNIONs</Unions>
-    <UnionSubMenu>Union</UnionSubMenu>
+    <UnionSubMenu>Ένωση</UnionSubMenu>
     <ViewQuery>Προβολή Ερωτήματος</ViewQuery>
     <Views>Προβολές</Views>
   </QueryBuilder>
@@ -5336,7 +5336,7 @@
     <Bands>Ζώνες</Bands>
     <Basic>Βασική</Basic>
     <BasicConfiguration>Ελάχιστος αριθμός ιδιοτήτων αντικειμένων, που είναι απαραίτητα για την παραγωγή των βασικών τύπων αναφοράς.</BasicConfiguration>
-    <BusinessObjects>Business Objects</BusinessObjects>
+    <BusinessObjects>Επιχειρησιακά Αντικείμενα</BusinessObjects>
     <Categorized>Κατηγοριοποιημένο</Categorized>
     <Charts>Διαγράμματα</Charts>
     <Checking>Έλεγχος...</Checking>
@@ -5364,7 +5364,7 @@
     <DataNotLoadedHint>Φορτώστε τα δεδομένα για να περιηγηθείτε εδώ στις τιμές του {0}.</DataNotLoadedHint>
     <Dialogs>Διάλογοι</Dialogs>
     <EditStyles>Επεξεργασία Στυλ</EditStyles>
-    <Email>Email</Email>
+    <Email>Ηλ. ταχυδρομείο</Email>
     <EmbedIntoReport>Ενσωμάτωση στην Αναφορά</EmbedIntoReport>
     <EnableCacheAllDataMode>Ενεργοποίηση της προσωρινής αποθήκευσης όλων των δεδομένων</EnableCacheAllDataMode>
     <Enhancements>Βελτιώσεις</Enhancements>
@@ -5424,7 +5424,7 @@
     <LabelValue>Τιμή:</LabelValue>
     <LoadData>Φόρτωση Δεδομένων</LoadData>
     <LoadingReport>Φόρτωση Αναφοράς</LoadingReport>
-    <nameAssembly>Assembly</nameAssembly>
+    <nameAssembly>Συγκρότημα</nameAssembly>
     <NewFeatures>Νέα χαρακτηριστικά</NewFeatures>
     <No>Όχι</No>
     <NoFixes>Δεν υπάρχουν διορθώσεις ή ενημερώσεις για αυτή την έκδοση!</NoFixes>
@@ -5480,10 +5480,10 @@
     <StyleWarning>Προειδοποίηση</StyleWarning>
     <UseDataFields>Χρήση πεδίων δεδομένων</UseDataFields>
     <VisualChecked>Επιλεγμένο</VisualChecked>
-    <VisualDefault>Default</VisualDefault>
+    <VisualDefault>Προεπιλογή</VisualDefault>
     <VisualDisabled>Απενεργοποιημένο</VisualDisabled>
     <VisualFocused>Επικεντρωμένο</VisualFocused>
-    <VisualHover>Hover</VisualHover>
+    <VisualHover>Αιώρηση</VisualHover>
     <VisualPressed>Πατημένο</VisualPressed>
     <Warnings>Προειδοποιήσεις</Warnings>
     <WhatsNewInVersion>Τι είναι νέο στην έκδοση {0}</WhatsNewInVersion>
@@ -5521,7 +5521,7 @@
     <ForADurationOf>για διάρκεια</ForADurationOf>
     <GetFolder>Λήψη φακέλου</GetFolder>
     <GroupBoxFiles>Αρχεία</GroupBoxFiles>
-    <Host>Host</Host>
+    <Host>Κεντρικός Υπολογιστής</Host>
     <Info>Για την εκτέλεση χρονοπρογραμματισμού απαιτείται ο Windows Task Scheduler.</Info>
     <LabelDaysOfWeek>Ημέρες της εβδομάδας</LabelDaysOfWeek>
     <LabelMessage>Μήνυμα</LabelMessage>
@@ -5796,8 +5796,8 @@
     <LanguageJS>JS: γεννήτριες αναφορών για JavaScript, PHP και Python.</LanguageJS>
     <LanguagesIntroduction>Το σώμα της συνάρτησης εκτελείται σύμφωνα με τη γλώσσα δέσμης ενεργειών της αναφοράς. Αυτή η αναφορά χρησιμοποιεί {0}.</LanguagesIntroduction>
     <LanguageVB>VB: μόνο η γεννήτρια αναφορών για .NET Framework, στη λειτουργία υπολογισμού Μεταγλώττιση.</LanguageVB>
-    <ReturnType>Return Type</ReturnType>
-    <Script>Script</Script>
+    <ReturnType>Τύπος Επιστροφής</ReturnType>
+    <Script>Σενάριο</Script>
     <ScriptMode>Λειτουργία Script</ScriptMode>
     <Title>Συνάρτηση Χρήστη</Title>
     <UserFunctionEdit>Επεξεργασία Συνάρτησης Χρήστη</UserFunctionEdit>

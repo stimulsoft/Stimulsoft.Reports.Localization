@@ -91,8 +91,8 @@
     <AdapterVistaDBConnection>Данни от VistaDB връзка</AdapterVistaDBConnection>
   </Adapters>
   <BarCode>
-    <Post>Post</Post>
-    <TwoDimensional>Two-Dimensional</TwoDimensional>
+    <Post>Пощенски</Post>
+    <TwoDimensional>Двуизмерни</TwoDimensional>
   </BarCode>
   <Blockly>
     <AllComponents>Всички компоненти</AllComponents>
@@ -111,7 +111,7 @@
     <LocalVariables>Локална променлива</LocalVariables>
     <Logic>Логика</Logic>
     <Loops>Цикли</Loops>
-    <Math>Math</Math>
+    <Math>Математика</Math>
     <OfDataSource>от източник данни</OfDataSource>
     <OfObject>от обект</OfObject>
     <OpenLink>Отвори връзка</OpenLink>
@@ -201,7 +201,7 @@
     <AxisX>Ос X</AxisX>
     <AxisY>Ос Y</AxisY>
     <BoxAndWhisker>Кутия с Мустаци</BoxAndWhisker>
-    <Bubble>Bubble</Bubble>
+    <Bubble>Мехурчета</Bubble>
     <Candlestick>Свещник</Candlestick>
     <ChartConditionsCollectionForm>Условия</ChartConditionsCollectionForm>
     <ChartEditorForm>Редактор Диаграми</ChartEditorForm>
@@ -284,11 +284,11 @@
     <NoConditions>Няма условия</NoConditions>
     <NoFilters>Няма филтри</NoFilters>
     <Pareto>Парето</Pareto>
-    <Pictorial>Pictorial</Pictorial>
+    <Pictorial>Пиктограмна</Pictorial>
     <PictorialStacked>Картинно подреден</PictorialStacked>
     <Pie>Кръгова диаграма</Pie>
-    <Polar>Polar</Polar>
-    <PolarStacked>Polar Stacked</PolarStacked>
+    <Polar>Полярна</Polar>
+    <PolarStacked>Полярна с наслагване</PolarStacked>
     <Radar>Радар</Radar>
     <RadarArea>Радар област</RadarArea>
     <RadarColumn>Колона радар</RadarColumn>
@@ -314,7 +314,7 @@
     <SparklinesArea>Област</SparklinesArea>
     <SparklinesColumn>Колона</SparklinesColumn>
     <SparklinesLine>Линия</SparklinesLine>
-    <SparklinesWinLoss>Win / Loss</SparklinesWinLoss>
+    <SparklinesWinLoss>Печалба / Загуба</SparklinesWinLoss>
     <Spline>Шпонка</Spline>
     <SplineArea>Област на шпонка</SplineArea>
     <SplineRange>Диапазон шпонка</SplineRange>
@@ -327,11 +327,11 @@
     <SteppedArea>Стъпкова област</SteppedArea>
     <SteppedLine>Стъпкова линия</SteppedLine>
     <SteppedRange>Стъпков обхватe</SteppedRange>
-    <Stock>Stock</Stock>
+    <Stock>Борсова</Stock>
     <Strip>Ивица</Strip>
     <StripsEditorForm>Редактор на ивици</StripsEditorForm>
     <Style>Стил</Style>
-    <Sunburst>Sunburst</Sunburst>
+    <Sunburst>Слънчеви лъчи</Sunburst>
     <Surface>Повърхност</Surface>
     <Treemap>Дървовидна карта</Treemap>
     <TrendLinesEditorForm>Редактор на линиите на тренда</TrendLinesEditorForm>
@@ -642,7 +642,7 @@
     <WizardPublicShareDescription>Външен достъп за неупълномощени потребители.</WizardPublicShareDescription>
     <WizardRegisteredShare>Оторизиран достъп</WizardRegisteredShare>
     <WizardRegisteredShareDescription>Външен достъп само за регистрирани потребители от всяко работно място.</WizardRegisteredShareDescription>
-    <WizardTeamShare>Team Access</WizardTeamShare>
+    <WizardTeamShare>Екипен достъп</WizardTeamShare>
     <WizardTeamShareDescription>Външен достъп само за потребители на едно работно пространство.</WizardTeamShareDescription>
     <WizardXmlDescription>Създаване на отчет с Xml данни.</WizardXmlDescription>
     <YourPlan>Вашия план</YourPlan>
@@ -657,7 +657,7 @@
     <StiClone>Клонирай</StiClone>
     <StiColumnFooterBand>Край на колона</StiColumnFooterBand>
     <StiColumnHeaderBand>Заглавие на колона</StiColumnHeaderBand>
-    <StiComboBox>Combo Box</StiComboBox>
+    <StiComboBox>Списък полета</StiComboBox>
     <StiComponent>Компонент</StiComponent>
     <StiContainer>Контейнер</StiContainer>
     <StiContourText>Граница текст</StiContourText>
@@ -676,11 +676,11 @@
     <StiCrossTitle>Крос-Заглавие</StiCrossTitle>
     <StiDashboard>Табло</StiDashboard>
     <StiDataBand>Данни</StiDataBand>
-    <StiDatePicker>Date Picker</StiDatePicker>
+    <StiDatePicker>Селектор за дата</StiDatePicker>
     <StiElectronicSignature>Електронен Подпис</StiElectronicSignature>
     <StiEmptyBand>Празни данни</StiEmptyBand>
     <StiFooterBand>Край</StiFooterBand>
-    <StiGauge>Gauge</StiGauge>
+    <StiGauge>Уред</StiGauge>
     <StiGroupFooterBand>Край на група</StiGroupFooterBand>
     <StiGroupHeaderBand>Заглавие на група</StiGroupHeaderBand>
     <StiHeaderBand>Заглавие</StiHeaderBand>
@@ -689,13 +689,13 @@
     <StiIcon>Икона</StiIcon>
     <StiImage>Картинка</StiImage>
     <StiIndicator>Индикатор</StiIndicator>
-    <StiListBox>List Box</StiListBox>
+    <StiListBox>Списък</StiListBox>
     <StiMap>Карта</StiMap>
     <StiMarkdown>Markdown</StiMarkdown>
     <StiMathFormula>Матем. Формула</StiMathFormula>
     <StiMultipleSelection>Множествен избор</StiMultipleSelection>
-    <StiNumberBox>Number Box</StiNumberBox>
-    <StiOnlineMap>Online Map</StiOnlineMap>
+    <StiNumberBox>Поле за число</StiNumberBox>
+    <StiOnlineMap>Онлайн карта</StiOnlineMap>
     <StiOverlayBand>Подложка</StiOverlayBand>
     <StiPage>Страница</StiPage>
     <StiPageFooterBand>Край на страница</StiPageFooterBand>
@@ -704,14 +704,14 @@
     <StiPdfDigitalSignature>PDF Цифров Подпис</StiPdfDigitalSignature>
     <StiPdfDigitalSignatureElement>PDF Елемент</StiPdfDigitalSignatureElement>
     <StiPivot>Осова таблица</StiPivot>
-    <StiPivotColumn>Pivot Column</StiPivotColumn>
-    <StiPivotRow>Pivot Row</StiPivotRow>
-    <StiPivotSummary>Pivot Summary</StiPivotSummary>
-    <StiPivotTable>Pivot Table</StiPivotTable>
+    <StiPivotColumn>Обобщаваща колона</StiPivotColumn>
+    <StiPivotRow>Обобщаващ ред</StiPivotRow>
+    <StiPivotSummary>Обобщаващ сбор</StiPivotSummary>
+    <StiPivotTable>Обобщаваща таблица</StiPivotTable>
     <StiProgress>Напредък</StiProgress>
     <StiRangeSelector>Селектор на диапазон</StiRangeSelector>
     <StiRectanglePrimitive>Правоъгълник</StiRectanglePrimitive>
-    <StiRegionMap>Region Map</StiRegionMap>
+    <StiRegionMap>Карта на региони</StiRegionMap>
     <StiReport>Отчет</StiReport>
     <StiReportSummaryBand>Обобщение на отчет</StiReportSummaryBand>
     <StiReportTitleBand>Заглавие на отчет</StiReportTitleBand>
@@ -722,15 +722,15 @@
     <StiSignature>Подпис</StiSignature>
     <StiSingleSelection>Единична селекция</StiSingleSelection>
     <StiSlider>Плъзгач</StiSlider>
-    <StiSparkline>Sparkline</StiSparkline>
+    <StiSparkline>Микродиаграма</StiSparkline>
     <StiSubReport>Вложен отчет</StiSubReport>
     <StiSystemText>Системен текст</StiSystemText>
     <StiTable>Таблица</StiTable>
     <StiTableOfContents>Съдържание</StiTableOfContents>
     <StiText>Текст</StiText>
     <StiTextInCells>Текст в клетки</StiTextInCells>
-    <StiTreeView>Tree View</StiTreeView>
-    <StiTreeViewBox>Tree View Box</StiTreeViewBox>
+    <StiTreeView>Дърво</StiTreeView>
+    <StiTreeViewBox>Поле с дърво</StiTreeViewBox>
     <StiVerticalLinePrimitive>Вертикална линия</StiVerticalLinePrimitive>
     <StiWebContent>Уеб съдържание</StiWebContent>
     <StiWinControl>Win компонент</StiWinControl>
@@ -806,7 +806,7 @@
     <NResult>{0} резултат</NResult>
     <NResults>{0} резултати</NResults>
     <NSelected>{0} избрани</NSelected>
-    <Nulls>(Nulls)</Nulls>
+    <Nulls>(Null стойности)</Nulls>
     <NumberFilters>Числови филтри</NumberFilters>
     <OpenInDesignerToViewDashboards>Отворете отчета в дизайнера, за да видите таблата му за управление.</OpenInDesignerToViewDashboards>
     <ParentElement>Родителски елемент</ParentElement>
@@ -834,7 +834,7 @@
     <SortOldestToNewest>Сортирайте най-старото към най-новото</SortOldestToNewest>
     <SortSmallestToLargest>Сортиране от най-малките до най-големите</SortSmallestToLargest>
     <SortZA>Сортиране Я до А</SortZA>
-    <Sparklines>Sparklines</Sparklines>
+    <Sparklines>Микродиаграми</Sparklines>
     <StringFilters>Низови филтри</StringFilters>
     <TransformationHint>Натиснете върху заглавието на таблицата за да приложите сортиране, филтриране или промяна на данни. Тази транформация се отнася само за данни от този елемент.</TransformationHint>
     <Trend>Тренд</Trend>
@@ -1138,7 +1138,7 @@
     <ExportTypeJpegFile>JPEG Картинка...</ExportTypeJpegFile>
     <ExportTypeJsonFile>JSON файл...</ExportTypeJsonFile>
     <ExportTypeMarkdownFile>Markdown файл...</ExportTypeMarkdownFile>
-    <ExportTypeMetafile>Windows Metafile...</ExportTypeMetafile>
+    <ExportTypeMetafile>Windows метафайл...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Web архив...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX картинка...</ExportTypePcxFile>
     <ExportTypePdfFile>Adobe PDF файл...</ExportTypePdfFile>
@@ -1585,8 +1585,8 @@
     <Custom>По избор</Custom>
     <Date>Дата</Date>
     <DateTimeFormat>Формат дата час</DateTimeFormat>
-    <DecimalDigits>Decimal Digits:</DecimalDigits>
-    <DecimalSeparator>Decimal Separator:</DecimalSeparator>
+    <DecimalDigits>Десетични знаци:</DecimalDigits>
+    <DecimalSeparator>Десетичен разделител:</DecimalSeparator>
     <FormatMask>Маска на формата:</FormatMask>
     <Formats>Формати</Formats>
     <General>Стандартен</General>
@@ -1977,7 +1977,7 @@
     <colorpicker_recentcolorslabel>Последни цветове</colorpicker_recentcolorslabel>
     <colorpicker_standardcolorslabel>Стандартни цветове</colorpicker_standardcolorslabel>
     <colorpicker_themecolorslabel>Цветови теми</colorpicker_themecolorslabel>
-    <colorpickerdialog_alphalabel>&amp;Alpha:</colorpickerdialog_alphalabel>
+    <colorpickerdialog_alphalabel>&amp;Алфа:</colorpickerdialog_alphalabel>
     <colorpickerdialog_bluelabel>&amp;Син:</colorpickerdialog_bluelabel>
     <colorpickerdialog_cancelbutton>Отказ</colorpickerdialog_cancelbutton>
     <colorpickerdialog_caption>Цветове</colorpickerdialog_caption>
@@ -2960,7 +2960,7 @@
     <CheckCategory>Квадратче</CheckCategory>
     <ColorsCategory>Цветове</ColorsCategory>
     <ColumnsCategory>Колони</ColumnsCategory>
-    <ComboBoxCategory>Combo Box</ComboBoxCategory>
+    <ComboBoxCategory>Списък полета</ComboBoxCategory>
     <CommonCategory>Общ</CommonCategory>
     <ControlCategory>Управление</ControlCategory>
     <ControlsEventsCategory>Управление на събития</ControlsEventsCategory>
@@ -2968,7 +2968,7 @@
     <DashboardCategory>Табло</DashboardCategory>
     <DataCategory>Данни</DataCategory>
     <DataCells>Клетка с данни</DataCells>
-    <DatePickerCategory>Date Picker</DatePickerCategory>
+    <DatePickerCategory>Селектор за дата</DatePickerCategory>
     <DescriptionCategory>Описание</DescriptionCategory>
     <DesignCategory>Дизайн</DesignCategory>
     <DisplayCategory>Показване</DisplayCategory>
@@ -2976,7 +2976,7 @@
     <ExportCategory>Експорт</ExportCategory>
     <ExportEventsCategory>Експорт събития</ExportEventsCategory>
     <FooterTableCategory>Край на Таблица</FooterTableCategory>
-    <GaugeCategory>Gauge</GaugeCategory>
+    <GaugeCategory>Уред</GaugeCategory>
     <GlobalizationCategory>Глабализация</GlobalizationCategory>
     <GridLinesCategory>Мрежови линии</GridLinesCategory>
     <HeaderTableCategory>Заглавие на Таблица</HeaderTableCategory>
@@ -2989,7 +2989,7 @@
     <LegendCategory>Легенда</LegendCategory>
     <LinearScaleBarCategory>Линейна лентова скала</LinearScaleBarCategory>
     <LinearScaleCategory>Линейна скала</LinearScaleCategory>
-    <ListBoxCategory>List Box</ListBoxCategory>
+    <ListBoxCategory>Списък</ListBoxCategory>
     <MacroDataCategory>Макро данни</MacroDataCategory>
     <MainCategory>Основни</MainCategory>
     <MarkerCategory>Маркер</MarkerCategory>
@@ -3000,19 +3000,19 @@
     <NavigationEventsCategory>Събития навигация</NavigationEventsCategory>
     <Needle>Показалец</Needle>
     <NeedleCategory>Стрелка</NeedleCategory>
-    <OnlineMapCategory>Online Map</OnlineMapCategory>
+    <OnlineMapCategory>Онлайн карта</OnlineMapCategory>
     <OptionsCategory>Опции</OptionsCategory>
     <PageAdditionalCategory>Страница още</PageAdditionalCategory>
     <PageCategory>Страница</PageCategory>
     <PageColumnBreakCategory>Прекъсване на страница и колона</PageColumnBreakCategory>
     <ParametersCategory>Параметри</ParametersCategory>
-    <PivotTableCategory>Pivot Table</PivotTableCategory>
+    <PivotTableCategory>Обобщаваща таблица</PivotTableCategory>
     <PositionCategory>Позиция</PositionCategory>
     <PrimitiveCategory>Примитив</PrimitiveCategory>
     <PrintEventsCategory>Печат</PrintEventsCategory>
     <ProgressCategory>Развитие</ProgressCategory>
     <RadialScaleBarCategory>Радиална лентова скала</RadialScaleBarCategory>
-    <RegionMapCategory>Region Map</RegionMapCategory>
+    <RegionMapCategory>Карта на региони</RegionMapCategory>
     <RenderEventsCategory>Построение</RenderEventsCategory>
     <SeriesCategory>Серии</SeriesCategory>
     <SeriesLabelsCategory>Етикети на Серия</SeriesLabelsCategory>
@@ -3030,8 +3030,8 @@
     <TickMarkMajorCategory>Основен марка с отметка</TickMarkMajorCategory>
     <TickMarkMinorCategory>Второстепенна марка с отметка</TickMarkMinorCategory>
     <TitleCategory>Заглавие</TitleCategory>
-    <TreeViewBoxCategory>Tree View Box</TreeViewBoxCategory>
-    <TreeViewCategory>Tree View</TreeViewCategory>
+    <TreeViewBoxCategory>Поле с дърво</TreeViewBoxCategory>
+    <TreeViewCategory>Дърво</TreeViewCategory>
     <TrendLineCategory>Линия на тренда</TrendLineCategory>
     <ValueCategory>Стойност</ValueCategory>
     <ValueCloseCategory>Последна стойност</ValueCloseCategory>
@@ -3046,149 +3046,149 @@
     <ZipCodeCategory>Пощенски код</ZipCodeCategory>
   </PropertyCategory>
   <PropertyColor>
-    <AliceBlue>Alice Blue</AliceBlue>
-    <AntiqueWhite>Antique White</AntiqueWhite>
-    <Aqua>Aqua</Aqua>
-    <Aquamarine>Aquamarine</Aquamarine>
-    <Azure>Azure</Azure>
-    <Beige>Beige</Beige>
-    <Bisque>Bisque</Bisque>
-    <Black>Black</Black>
-    <BlanchedAlmond>Blanched Almond</BlanchedAlmond>
-    <Blue>Blue</Blue>
-    <BlueViolet>Blue Violet</BlueViolet>
-    <Brown>Brown</Brown>
-    <BurlyWood>Burly Wood</BurlyWood>
-    <CadetBlue>Cadet Blue</CadetBlue>
+    <AliceBlue>Синьо Алис</AliceBlue>
+    <AntiqueWhite>Антично бяло</AntiqueWhite>
+    <Aqua>Аква</Aqua>
+    <Aquamarine>Аквамарин</Aquamarine>
+    <Azure>Лазурно</Azure>
+    <Beige>Бежово</Beige>
+    <Bisque>Бисквитено</Bisque>
+    <Black>Черно</Black>
+    <BlanchedAlmond>Бадемово бяло</BlanchedAlmond>
+    <Blue>Синьо</Blue>
+    <BlueViolet>Синьо-виолетово</BlueViolet>
+    <Brown>Кафяво</Brown>
+    <BurlyWood>Дървесно кафяво</BurlyWood>
+    <CadetBlue>Кадетско синьо</CadetBlue>
     <Carmine>Кармин</Carmine>
-    <Chartreuse>Chartreuse</Chartreuse>
-    <Chocolate>Chocolate</Chocolate>
-    <Coral>Coral</Coral>
-    <CornflowerBlue>Cornflower Blue</CornflowerBlue>
-    <Cornsilk>Cornsilk</Cornsilk>
-    <Crimson>Crimson</Crimson>
-    <Cyan>Cyan</Cyan>
-    <DarkBlue>Dark Blue</DarkBlue>
-    <DarkCyan>Dark Cyan</DarkCyan>
-    <DarkGoldenrod>Dark Goldenrod</DarkGoldenrod>
-    <DarkGray>Dark Gray</DarkGray>
-    <DarkGreen>Dark Green</DarkGreen>
-    <DarkKhaki>Dark Khaki</DarkKhaki>
-    <DarkMagenta>Dark Magenta</DarkMagenta>
-    <DarkOliveGreen>Dark Olive Green</DarkOliveGreen>
-    <DarkOrange>Dark Orange</DarkOrange>
-    <DarkOrchid>Dark Orchid</DarkOrchid>
-    <DarkRed>Dark Red</DarkRed>
-    <DarkSalmon>Dark Salmon</DarkSalmon>
-    <DarkSeaGreen>Dark Sea Green</DarkSeaGreen>
-    <DarkSlateBlue>Dark Slate Blue</DarkSlateBlue>
-    <DarkSlateGray>Dark Slate Gray</DarkSlateGray>
-    <DarkTurquoise>Dark Turquoise</DarkTurquoise>
-    <DarkViolet>Dark Violet</DarkViolet>
-    <DeepPink>Deep Pink</DeepPink>
-    <DeepSkyBlue>Deep Sky Blue</DeepSkyBlue>
-    <DimGray>Dim Gray</DimGray>
-    <DodgerBlue>Dodger Blue</DodgerBlue>
-    <Firebrick>Firebrick</Firebrick>
-    <FloralWhite>Floral White</FloralWhite>
-    <ForestGreen>Forest Green</ForestGreen>
-    <Fuchsia>Fuchsia</Fuchsia>
-    <Gainsboro>Gainsboro</Gainsboro>
-    <GhostWhite>Ghost White</GhostWhite>
-    <Gold>Gold</Gold>
-    <Goldenrod>Goldenrod</Goldenrod>
-    <Gray>Gray</Gray>
-    <Green>Green</Green>
-    <GreenYellow>Green Yellow</GreenYellow>
-    <Honeydew>Honeydew</Honeydew>
-    <HotPink>Hot Pink</HotPink>
-    <IndianRed>Indian Red</IndianRed>
-    <Indigo>Indigo</Indigo>
-    <Ivory>Ivory</Ivory>
-    <Khaki>Khaki</Khaki>
-    <Lavender>Lavender</Lavender>
-    <LavenderBlush>Lavender Blush</LavenderBlush>
-    <LawnGreen>Lawn Green</LawnGreen>
-    <LemonChiffon>Lemon Chiffon</LemonChiffon>
-    <LightBlue>Light Blue</LightBlue>
-    <LightCoral>Light Coral</LightCoral>
-    <LightCyan>Light Cyan</LightCyan>
-    <LightGoldenrodYellow>Light Goldenrod Yellow</LightGoldenrodYellow>
-    <LightGray>Light Gray</LightGray>
-    <LightGreen>Light Green</LightGreen>
-    <LightPink>Light Pink</LightPink>
-    <LightSalmon>Light Salmon</LightSalmon>
-    <LightSeaGreen>Light Sea Green</LightSeaGreen>
-    <LightSkyBlue>Light Sky Blue</LightSkyBlue>
-    <LightSlateGray>Light Slate Gray</LightSlateGray>
-    <LightSteelBlue>Light Steel Blue</LightSteelBlue>
-    <LightYellow>Light Yellow</LightYellow>
-    <Lime>Lime</Lime>
-    <LimeGreen>Lime Green</LimeGreen>
-    <Linen>Linen</Linen>
-    <Magenta>Magenta</Magenta>
-    <Maroon>Maroon</Maroon>
-    <MediumAquamarine>Medium Aquamarine</MediumAquamarine>
-    <MediumBlue>Medium Blue</MediumBlue>
-    <MediumOrchid>Medium Orchid</MediumOrchid>
-    <MediumPurple>Medium Purple</MediumPurple>
-    <MediumSeaGreen>Medium Sea Green</MediumSeaGreen>
-    <MediumSlateBlue>Medium Slate Blue</MediumSlateBlue>
-    <MediumSpringGreen>Medium Spring Green</MediumSpringGreen>
-    <MediumTurquoise>Medium Turquoise</MediumTurquoise>
-    <MediumVioletRed>Medium Violet Red</MediumVioletRed>
-    <MidnightBlue>Midnight Blue</MidnightBlue>
-    <MintCream>Mint Cream</MintCream>
-    <MistyRose>Misty Rose</MistyRose>
-    <Moccasin>Moccasin</Moccasin>
-    <NavajoWhite>Navajo White</NavajoWhite>
-    <Navy>Navy</Navy>
-    <OldLace>Old Lace</OldLace>
-    <Olive>Olive</Olive>
-    <OliveDrab>Olive Drab</OliveDrab>
-    <Orange>Orange</Orange>
-    <OrangeRed>Orange Red</OrangeRed>
-    <Orchid>Orchid</Orchid>
-    <PaleGoldenrod>Pale Goldenrod</PaleGoldenrod>
-    <PaleGreen>Pale Green</PaleGreen>
-    <PaleTurquoise>Pale Turquoise</PaleTurquoise>
-    <PaleVioletRed>Pale Violet Red</PaleVioletRed>
-    <PapayaWhip>Papaya Whip</PapayaWhip>
-    <PeachPuff>Peach Puff</PeachPuff>
-    <Peru>Peru</Peru>
-    <Pink>Pink</Pink>
-    <Plum>Plum</Plum>
-    <PowderBlue>Powder Blue</PowderBlue>
-    <Purple>Purple</Purple>
-    <Red>Red</Red>
-    <RosyBrown>Rosy Brown</RosyBrown>
-    <RoyalBlue>Royal Blue</RoyalBlue>
-    <SaddleBrown>Saddle Brown</SaddleBrown>
-    <Salmon>Salmon</Salmon>
-    <SandyBrown>Sandy Brown</SandyBrown>
-    <SeaGreen>Sea Green</SeaGreen>
-    <SeaShell>Sea Shell</SeaShell>
-    <Sienna>Sienna</Sienna>
-    <Silver>Silver</Silver>
-    <SkyBlue>Sky Blue</SkyBlue>
-    <SlateBlue>Slate Blue</SlateBlue>
-    <SlateGray>Slate Gray</SlateGray>
-    <Snow>Snow</Snow>
-    <SpringGreen>Spring Green</SpringGreen>
-    <SteelBlue>Steel Blue</SteelBlue>
-    <Tan>Tan</Tan>
-    <Teal>Teal</Teal>
-    <Thistle>Thistle</Thistle>
-    <Tomato>Tomato</Tomato>
-    <Transparent>Transparent</Transparent>
-    <Turquoise>Turquoise</Turquoise>
+    <Chartreuse>Шартрьоз</Chartreuse>
+    <Chocolate>Шоколадово</Chocolate>
+    <Coral>Коралово</Coral>
+    <CornflowerBlue>Метличино синьо</CornflowerBlue>
+    <Cornsilk>Царевична свила</Cornsilk>
+    <Crimson>Пурпурночервено</Crimson>
+    <Cyan>Циан</Cyan>
+    <DarkBlue>Тъмносиньо</DarkBlue>
+    <DarkCyan>Тъмен циан</DarkCyan>
+    <DarkGoldenrod>Тъмна златна пръчица</DarkGoldenrod>
+    <DarkGray>Тъмносиво</DarkGray>
+    <DarkGreen>Тъмнозелено</DarkGreen>
+    <DarkKhaki>Тъмно каки</DarkKhaki>
+    <DarkMagenta>Тъмна магента</DarkMagenta>
+    <DarkOliveGreen>Тъмно маслиненозелено</DarkOliveGreen>
+    <DarkOrange>Тъмнооранжево</DarkOrange>
+    <DarkOrchid>Тъмна орхидея</DarkOrchid>
+    <DarkRed>Тъмночервено</DarkRed>
+    <DarkSalmon>Тъмна сьомга</DarkSalmon>
+    <DarkSeaGreen>Тъмно морскозелено</DarkSeaGreen>
+    <DarkSlateBlue>Тъмно шистово синьо</DarkSlateBlue>
+    <DarkSlateGray>Тъмно шистово сиво</DarkSlateGray>
+    <DarkTurquoise>Тъмно тюркоазено</DarkTurquoise>
+    <DarkViolet>Тъмновиолетово</DarkViolet>
+    <DeepPink>Наситено розово</DeepPink>
+    <DeepSkyBlue>Наситено небесносиньо</DeepSkyBlue>
+    <DimGray>Мътно сиво</DimGray>
+    <DodgerBlue>Доджър синьо</DodgerBlue>
+    <Firebrick>Тухлено червено</Firebrick>
+    <FloralWhite>Флорално бяло</FloralWhite>
+    <ForestGreen>Горско зелено</ForestGreen>
+    <Fuchsia>Фуксия</Fuchsia>
+    <Gainsboro>Гейнсборо</Gainsboro>
+    <GhostWhite>Призрачно бяло</GhostWhite>
+    <Gold>Златно</Gold>
+    <Goldenrod>Златна пръчица</Goldenrod>
+    <Gray>Сиво</Gray>
+    <Green>Зелено</Green>
+    <GreenYellow>Зелено-жълто</GreenYellow>
+    <Honeydew>Медена роса</Honeydew>
+    <HotPink>Яркорозово</HotPink>
+    <IndianRed>Индийско червено</IndianRed>
+    <Indigo>Индиго</Indigo>
+    <Ivory>Слонова кост</Ivory>
+    <Khaki>Каки</Khaki>
+    <Lavender>Лавандула</Lavender>
+    <LavenderBlush>Лавандулова руменина</LavenderBlush>
+    <LawnGreen>Тревистозелено</LawnGreen>
+    <LemonChiffon>Лимонов шифон</LemonChiffon>
+    <LightBlue>Светлосиньо</LightBlue>
+    <LightCoral>Светло коралово</LightCoral>
+    <LightCyan>Светъл циан</LightCyan>
+    <LightGoldenrodYellow>Светложълта златна пръчица</LightGoldenrodYellow>
+    <LightGray>Светлосиво</LightGray>
+    <LightGreen>Светлозелено</LightGreen>
+    <LightPink>Светлорозово</LightPink>
+    <LightSalmon>Светла сьомга</LightSalmon>
+    <LightSeaGreen>Светло морскозелено</LightSeaGreen>
+    <LightSkyBlue>Светло небесносиньо</LightSkyBlue>
+    <LightSlateGray>Светло шистово сиво</LightSlateGray>
+    <LightSteelBlue>Светло стоманеносиньо</LightSteelBlue>
+    <LightYellow>Светложълто</LightYellow>
+    <Lime>Лайм</Lime>
+    <LimeGreen>Лаймовозелено</LimeGreen>
+    <Linen>Ленено</Linen>
+    <Magenta>Магента</Magenta>
+    <Maroon>Кестеняво</Maroon>
+    <MediumAquamarine>Среден аквамарин</MediumAquamarine>
+    <MediumBlue>Средно синьо</MediumBlue>
+    <MediumOrchid>Средна орхидея</MediumOrchid>
+    <MediumPurple>Средно лилаво</MediumPurple>
+    <MediumSeaGreen>Средно морскозелено</MediumSeaGreen>
+    <MediumSlateBlue>Средно шистово синьо</MediumSlateBlue>
+    <MediumSpringGreen>Средно пролетнозелено</MediumSpringGreen>
+    <MediumTurquoise>Средно тюркоазено</MediumTurquoise>
+    <MediumVioletRed>Средно виолетовочервено</MediumVioletRed>
+    <MidnightBlue>Среднощно синьо</MidnightBlue>
+    <MintCream>Ментов крем</MintCream>
+    <MistyRose>Мъглива роза</MistyRose>
+    <Moccasin>Мокасин</Moccasin>
+    <NavajoWhite>Навахо бяло</NavajoWhite>
+    <Navy>Морскосиньо</Navy>
+    <OldLace>Стара дантела</OldLace>
+    <Olive>Маслинено</Olive>
+    <OliveDrab>Маслинено сиво</OliveDrab>
+    <Orange>Оранжево</Orange>
+    <OrangeRed>Оранжевочервено</OrangeRed>
+    <Orchid>Орхидея</Orchid>
+    <PaleGoldenrod>Бледа златна пръчица</PaleGoldenrod>
+    <PaleGreen>Бледозелено</PaleGreen>
+    <PaleTurquoise>Бледо тюркоазено</PaleTurquoise>
+    <PaleVioletRed>Бледо виолетовочервено</PaleVioletRed>
+    <PapayaWhip>Папаев крем</PapayaWhip>
+    <PeachPuff>Прасковено</PeachPuff>
+    <Peru>Перу</Peru>
+    <Pink>Розово</Pink>
+    <Plum>Сливово</Plum>
+    <PowderBlue>Пудрено синьо</PowderBlue>
+    <Purple>Лилаво</Purple>
+    <Red>Червено</Red>
+    <RosyBrown>Розовокафяво</RosyBrown>
+    <RoyalBlue>Кралско синьо</RoyalBlue>
+    <SaddleBrown>Седлово кафяво</SaddleBrown>
+    <Salmon>Сьомга</Salmon>
+    <SandyBrown>Пясъчнокафяво</SandyBrown>
+    <SeaGreen>Морскозелено</SeaGreen>
+    <SeaShell>Морска мида</SeaShell>
+    <Sienna>Сиена</Sienna>
+    <Silver>Сребристо</Silver>
+    <SkyBlue>Небесносиньо</SkyBlue>
+    <SlateBlue>Шистово синьо</SlateBlue>
+    <SlateGray>Шистово сиво</SlateGray>
+    <Snow>Снежно</Snow>
+    <SpringGreen>Пролетнозелено</SpringGreen>
+    <SteelBlue>Стоманеносиньо</SteelBlue>
+    <Tan>Жълтеникавокафяво</Tan>
+    <Teal>Синьозелено</Teal>
+    <Thistle>Магарешки бодил</Thistle>
+    <Tomato>Доматено</Tomato>
+    <Transparent>Прозрачно</Transparent>
+    <Turquoise>Тюркоазено</Turquoise>
     <VeryDarkGray>Много тъмно сиво</VeryDarkGray>
-    <Violet>Violet</Violet>
-    <Wheat>Wheat</Wheat>
-    <White>White</White>
-    <WhiteSmoke>White Smoke</WhiteSmoke>
-    <Yellow>Yellow</Yellow>
-    <YellowGreen>Yellow Green</YellowGreen>
+    <Violet>Виолетово</Violet>
+    <Wheat>Пшенично</Wheat>
+    <White>Бяло</White>
+    <WhiteSmoke>Димно бяло</WhiteSmoke>
+    <Yellow>Жълто</Yellow>
+    <YellowGreen>Жълто-зелено</YellowGreen>
   </PropertyColor>
   <PropertyEnum>
     <boolFalse>Не</boolFalse>
@@ -3321,7 +3321,7 @@
     <StiCapStyleOpen>Отвори</StiCapStyleOpen>
     <StiCapStyleOval>Овал</StiCapStyleOval>
     <StiCapStyleSquare>Квадрат</StiCapStyleSquare>
-    <StiCapStyleStealth>Stealth</StiCapStyleStealth>
+    <StiCapStyleStealth>Стелт</StiCapStyleStealth>
     <StiChartLabelsStyleCategory>Категория</StiChartLabelsStyleCategory>
     <StiChartLabelsStyleCategoryPercentOfTotal>Категория - процент от общо</StiChartLabelsStyleCategoryPercentOfTotal>
     <StiChartLabelsStyleCategoryValue>Категория - стойност</StiChartLabelsStyleCategoryValue>
@@ -3541,7 +3541,7 @@
     <StiItemFilterModeSelectedOnly>Само избраните</StiItemFilterModeSelectedOnly>
     <StiItemOrientationHorizontal>Хоризонтално</StiItemOrientationHorizontal>
     <StiItemOrientationVertical>Вертикално</StiItemOrientationVertical>
-    <StiItemSelectionModeMulti>Multi</StiItemSelectionModeMulti>
+    <StiItemSelectionModeMulti>Множествен</StiItemSelectionModeMulti>
     <StiItemSelectionModeOne>Единствен</StiItemSelectionModeOne>
     <StiKeepDetailsKeepDetailsTogether>Задръж детаилите заедно</StiKeepDetailsKeepDetailsTogether>
     <StiKeepDetailsKeepFirstDetailTogether>Задръж първия детайл заедно</StiKeepDetailsKeepFirstDetailTogether>
@@ -3585,7 +3585,7 @@
     <StiMapIDUK>Велокобритания</StiMapIDUK>
     <StiMapIDUSA>САЩ</StiMapIDUSA>
     <StiMapIDWorld>World</StiMapIDWorld>
-    <StiMapModeChoropleth>Choropleth</StiMapModeChoropleth>
+    <StiMapModeChoropleth>Хороплет</StiMapModeChoropleth>
     <StiMapModeOnline>На линия</StiMapModeOnline>
     <StiMapTypeGroup>Група</StiMapTypeGroup>
     <StiMapTypeHeatmap>Топлинна карта</StiMapTypeHeatmap>
@@ -3706,7 +3706,7 @@
     <StiQRCodeBodyShapeTypeCircle>Кръг</StiQRCodeBodyShapeTypeCircle>
     <StiQRCodeBodyShapeTypeCircular>Кръгов</StiQRCodeBodyShapeTypeCircular>
     <StiQRCodeBodyShapeTypeDiamond>Диамант</StiQRCodeBodyShapeTypeDiamond>
-    <StiQRCodeBodyShapeTypeDockedDiamonds>Docked Diamonds</StiQRCodeBodyShapeTypeDockedDiamonds>
+    <StiQRCodeBodyShapeTypeDockedDiamonds>Свързани ромбове</StiQRCodeBodyShapeTypeDockedDiamonds>
     <StiQRCodeBodyShapeTypeDot>Точка</StiQRCodeBodyShapeTypeDot>
     <StiQRCodeBodyShapeTypeRoundedSquare>Заоблен квадрат</StiQRCodeBodyShapeTypeRoundedSquare>
     <StiQRCodeBodyShapeTypeSquare>Квадрат</StiQRCodeBodyShapeTypeSquare>
@@ -3799,11 +3799,11 @@
     <StiSortDirectionNone>Няма</StiSortDirectionNone>
     <StiSortTypeByDisplayValue>по показана стойност</StiSortTypeByDisplayValue>
     <StiSortTypeByValue>по стойност</StiSortTypeByValue>
-    <StiSqlSourceTypeStoredProcedure>Stored Procedure</StiSqlSourceTypeStoredProcedure>
+    <StiSqlSourceTypeStoredProcedure>Съхранена процедура</StiSqlSourceTypeStoredProcedure>
     <StiSqlSourceTypeTable>Запитване</StiSqlSourceTypeTable>
     <StiStyleComponentTypeChart>Диаграма</StiStyleComponentTypeChart>
     <StiStyleComponentTypeCheckBox>Отметка</StiStyleComponentTypeCheckBox>
-    <StiStyleComponentTypeCrossTab>Cross-Tab</StiStyleComponentTypeCrossTab>
+    <StiStyleComponentTypeCrossTab>Крос-таблица</StiStyleComponentTypeCrossTab>
     <StiStyleComponentTypeImage>Картинка</StiStyleComponentTypeImage>
     <StiStyleComponentTypePrimitive>Примитив</StiStyleComponentTypePrimitive>
     <StiStyleComponentTypeText>Текст</StiStyleComponentTypeText>
@@ -3814,9 +3814,9 @@
     <StiSummaryValuesAllValues>Всички стойности</StiSummaryValuesAllValues>
     <StiSummaryValuesSkipNulls>Пропускане на Nulls</StiSummaryValuesSkipNulls>
     <StiSummaryValuesSkipZerosAndNulls>Пропускане на нула и Nulls</StiSummaryValuesSkipZerosAndNulls>
-    <StiTablceCellTypeCheckBox>CheckBox</StiTablceCellTypeCheckBox>
+    <StiTablceCellTypeCheckBox>Отметка</StiTablceCellTypeCheckBox>
     <StiTablceCellTypeImage>Картинка</StiTablceCellTypeImage>
-    <StiTablceCellTypeRichText>RichText</StiTablceCellTypeRichText>
+    <StiTablceCellTypeRichText>Форматиран текст</StiTablceCellTypeRichText>
     <StiTablceCellTypeText>Текст</StiTablceCellTypeText>
     <StiTableAutoWidthNone>Няма</StiTableAutoWidthNone>
     <StiTableAutoWidthPage>Страница</StiTableAutoWidthPage>
@@ -3906,7 +3906,7 @@
     <DoubleClickEvent>Двойно натискане</DoubleClickEvent>
     <EndRenderEvent>Край построение</EndRenderEvent>
     <EndValueChangedEvent>Крайната стойност е променена</EndValueChangedEvent>
-    <EnterEvent>Enter</EnterEvent>
+    <EnterEvent>При влизане</EnterEvent>
     <ExportedEvent>След експорт</ExportedEvent>
     <ExportingEvent>При експорт</ExportingEvent>
     <FillParametersEvent>Попълни параметри</FillParametersEvent>
@@ -3914,7 +3914,7 @@
     <GetBarCodeEvent>Вземете BarCode</GetBarCodeEvent>
     <GetBookmarkEvent>При отметка</GetBookmarkEvent>
     <GetCheckedEvent>Вземете Checked</GetCheckedEvent>
-    <GetCollapsedEvent>Get Collapsed</GetCollapsedEvent>
+    <GetCollapsedEvent>Вземи свиване</GetCollapsedEvent>
     <GetCrossValueEvent>При крос стойност</GetCrossValueEvent>
     <GetCutPieListEvent>Вземи списък с кръгови диаграми</GetCutPieListEvent>
     <GetDataUrlEvent>Вземи Url данни</GetDataUrlEvent>
@@ -3943,11 +3943,11 @@
     <GetWeightEvent>Вземи тегло</GetWeightEvent>
     <LeaveEvent>При напускане</LeaveEvent>
     <LoadFormEvent>При зареждане</LoadFormEvent>
-    <MouseDownEvent>Mouse Down</MouseDownEvent>
-    <MouseEnterEvent>Mouse Enter</MouseEnterEvent>
-    <MouseLeaveEvent>Mouse Leave</MouseLeaveEvent>
-    <MouseMoveEvent>Mouse Move</MouseMoveEvent>
-    <MouseUpEvent>Mouse Up</MouseUpEvent>
+    <MouseDownEvent>Натискане на мишката</MouseDownEvent>
+    <MouseEnterEvent>При навлизане на мишката</MouseEnterEvent>
+    <MouseLeaveEvent>При напускане на мишката</MouseLeaveEvent>
+    <MouseMoveEvent>Движение на мишката</MouseMoveEvent>
+    <MouseUpEvent>Отпускане на мишката</MouseUpEvent>
     <NewAutoSeriesEvent>Нова авт. серия</NewAutoSeriesEvent>
     <PositionChangedEvent>Промяна на позиция</PositionChangedEvent>
     <PrintedEvent>След отпечатване</PrintedEvent>
@@ -3964,60 +3964,60 @@
     <ValueChangedEvent>При промяна на стойност</ValueChangedEvent>
   </PropertyEvents>
   <PropertyHatchStyle>
-    <BackwardDiagonal>Backward Diagonal</BackwardDiagonal>
-    <Cross>Cross</Cross>
-    <DarkDownwardDiagonal>Dark Downward Diagonal</DarkDownwardDiagonal>
-    <DarkHorizontal>Dark Horizontal</DarkHorizontal>
-    <DarkUpwardDiagonal>Dark Upward Diagonal</DarkUpwardDiagonal>
-    <DarkVertical>Dark Vertical</DarkVertical>
-    <DashedDownwardDiagonal>Dashed Downward Diagonal</DashedDownwardDiagonal>
-    <DashedHorizontal>Dashed Horizontal</DashedHorizontal>
-    <DashedUpwardDiagonal>Dashed Upward Diagonal</DashedUpwardDiagonal>
-    <DashedVertical>Dashed Vertical</DashedVertical>
-    <DiagonalBrick>Diagonal Brick</DiagonalBrick>
-    <DiagonalCross>Diagonal Cross</DiagonalCross>
-    <Divot>Divot</Divot>
-    <DottedDiamond>Dotted Diamond</DottedDiamond>
-    <DottedGrid>Dotted Grid</DottedGrid>
-    <ForwardDiagonal>Forward Diagonal</ForwardDiagonal>
-    <Horizontal>Horizontal</Horizontal>
-    <HorizontalBrick>Horizontal Brick</HorizontalBrick>
-    <LargeCheckerBoard>Large Checker Board</LargeCheckerBoard>
-    <LargeConfetti>Large Confetti</LargeConfetti>
-    <LargeGrid>Large Grid</LargeGrid>
-    <LightDownwardDiagonal>Light Downward Diagonal</LightDownwardDiagonal>
-    <LightHorizontal>Light Horizontal</LightHorizontal>
-    <LightUpwardDiagonal>Light Upward Diagonal</LightUpwardDiagonal>
-    <LightVertical>Light Vertical</LightVertical>
-    <NarrowHorizontal>Narrow Horizontal</NarrowHorizontal>
-    <NarrowVertical>Narrow Vertical</NarrowVertical>
-    <OutlinedDiamond>Outlined Diamond</OutlinedDiamond>
-    <Percent05>Percent05</Percent05>
-    <Percent10>Percent10</Percent10>
-    <Percent20>Percent20</Percent20>
-    <Percent25>Percent25</Percent25>
-    <Percent30>Percent30</Percent30>
-    <Percent40>Percent40</Percent40>
-    <Percent50>Percent50</Percent50>
-    <Percent60>Percent60</Percent60>
-    <Percent70>Percent70</Percent70>
-    <Percent75>Percent75</Percent75>
-    <Percent80>Percent80</Percent80>
-    <Percent90>Percent90</Percent90>
-    <Plaid>Plaid</Plaid>
-    <Shingle>Shingle</Shingle>
-    <SmallCheckerBoard>Small Checker Board</SmallCheckerBoard>
-    <SmallConfetti>Small Confetti</SmallConfetti>
-    <SmallGrid>Small Grid</SmallGrid>
-    <SolidDiamond>Solid Diamond</SolidDiamond>
-    <Sphere>Sphere</Sphere>
-    <Trellis>Trellis</Trellis>
-    <Vertical>Vertical</Vertical>
+    <BackwardDiagonal>Обратен диагонал</BackwardDiagonal>
+    <Cross>Кръст</Cross>
+    <DarkDownwardDiagonal>Тъмен низходящ диагонал</DarkDownwardDiagonal>
+    <DarkHorizontal>Тъмна хоризонтала</DarkHorizontal>
+    <DarkUpwardDiagonal>Тъмен възходящ диагонал</DarkUpwardDiagonal>
+    <DarkVertical>Тъмна вертикала</DarkVertical>
+    <DashedDownwardDiagonal>Пунктирен низходящ диагонал</DashedDownwardDiagonal>
+    <DashedHorizontal>Пунктирна хоризонтала</DashedHorizontal>
+    <DashedUpwardDiagonal>Пунктирен възходящ диагонал</DashedUpwardDiagonal>
+    <DashedVertical>Пунктирна вертикала</DashedVertical>
+    <DiagonalBrick>Диагонални тухли</DiagonalBrick>
+    <DiagonalCross>Диагонален кръст</DiagonalCross>
+    <Divot>Чим</Divot>
+    <DottedDiamond>Точков ромб</DottedDiamond>
+    <DottedGrid>Точкова мрежа</DottedGrid>
+    <ForwardDiagonal>Прав диагонал</ForwardDiagonal>
+    <Horizontal>Хоризонтала</Horizontal>
+    <HorizontalBrick>Хоризонтални тухли</HorizontalBrick>
+    <LargeCheckerBoard>Голяма шахматна дъска</LargeCheckerBoard>
+    <LargeConfetti>Едри конфети</LargeConfetti>
+    <LargeGrid>Голяма мрежа</LargeGrid>
+    <LightDownwardDiagonal>Светъл низходящ диагонал</LightDownwardDiagonal>
+    <LightHorizontal>Светла хоризонтала</LightHorizontal>
+    <LightUpwardDiagonal>Светъл възходящ диагонал</LightUpwardDiagonal>
+    <LightVertical>Светла вертикала</LightVertical>
+    <NarrowHorizontal>Тясна хоризонтала</NarrowHorizontal>
+    <NarrowVertical>Тясна вертикала</NarrowVertical>
+    <OutlinedDiamond>Очертан ромб</OutlinedDiamond>
+    <Percent05>Процент 05</Percent05>
+    <Percent10>Процент 10</Percent10>
+    <Percent20>Процент 20</Percent20>
+    <Percent25>Процент 25</Percent25>
+    <Percent30>Процент 30</Percent30>
+    <Percent40>Процент 40</Percent40>
+    <Percent50>Процент 50</Percent50>
+    <Percent60>Процент 60</Percent60>
+    <Percent70>Процент 70</Percent70>
+    <Percent75>Процент 75</Percent75>
+    <Percent80>Процент 80</Percent80>
+    <Percent90>Процент 90</Percent90>
+    <Plaid>Каре</Plaid>
+    <Shingle>Керемиди</Shingle>
+    <SmallCheckerBoard>Малка шахматна дъска</SmallCheckerBoard>
+    <SmallConfetti>Дребни конфети</SmallConfetti>
+    <SmallGrid>Малка мрежа</SmallGrid>
+    <SolidDiamond>Плътен ромб</SolidDiamond>
+    <Sphere>Сфера</Sphere>
+    <Trellis>Решетка</Trellis>
+    <Vertical>Вертикала</Vertical>
     <Wave>Вълна</Wave>
-    <Weave>Weave</Weave>
-    <WideDownwardDiagonal>Wide Downward Diagonal</WideDownwardDiagonal>
-    <WideUpwardDiagonal>Wide Upward Diagonal</WideUpwardDiagonal>
-    <ZigZag>Zig Zag</ZigZag>
+    <Weave>Плетка</Weave>
+    <WideDownwardDiagonal>Широк низходящ диагонал</WideDownwardDiagonal>
+    <WideUpwardDiagonal>Широк възходящ диагонал</WideUpwardDiagonal>
+    <ZigZag>Зигзаг</ZigZag>
   </PropertyHatchStyle>
   <PropertyMain>
     <AcceptsReturn>Приемане на Return</AcceptsReturn>
@@ -4291,9 +4291,9 @@
     <Distance>Дистанция</Distance>
     <DistanceBetweenTabs>Дистанция между Tabs</DistanceBetweenTabs>
     <DistinguishedName>Отличително име</DistinguishedName>
-    <Dock>Dock</Dock>
-    <DockableTable>Dockable Table</DockableTable>
-    <DockStyle>Dock Style</DockStyle>
+    <Dock>Закрепване</Dock>
+    <DockableTable>Закрепваща се таблица</DockableTable>
+    <DockStyle>Стил на закрепване</DockStyle>
     <DrawBorder>Рисуване граници</DrawBorder>
     <DrawHatch>Щриховка</DrawHatch>
     <DrawLine>Рисуване линия</DrawLine>
@@ -4311,7 +4311,7 @@
     <DropDownAlign>Подравняване списък</DropDownAlign>
     <DropDownStyle>Стил списък</DropDownStyle>
     <DropDownWidth>Ширина списък</DropDownWidth>
-    <DropShadow>Drop Shadow</DropShadow>
+    <DropShadow>Падаща сянка</DropShadow>
     <Duplex>Дуплекс</Duplex>
     <Editable>Редактируем</Editable>
     <Effects>Ефекти</Effects>
@@ -4323,7 +4323,7 @@
     <EnableLog>Включен Log</EnableLog>
     <EncodingMode>Режим Кодиране</EncodingMode>
     <EncodingType>Тип кодиране</EncodingType>
-    <EndCap>End Cap</EndCap>
+    <EndCap>Краен накрайник</EndCap>
     <EndColor>Краен цвят</EndColor>
     <EndValue>Крайна Стойност</EndValue>
     <EndValues>Крайни стойности</EndValues>
@@ -4335,7 +4335,7 @@
     <ErrorsCorrectionLevel>Грешки Корегиращо Ниво</ErrorsCorrectionLevel>
     <EvenStyle>Стил четни редове</EvenStyle>
     <ExceedMargins>Превишаване на маржовете</ExceedMargins>
-    <ExcelSheet>Excel Sheet</ExcelSheet>
+    <ExcelSheet>Лист на Excel</ExcelSheet>
     <ExcelValue>Excel стойност</ExcelValue>
     <Expand>Разшири</Expand>
     <Exponential>Експоненциално</Exponential>
@@ -4662,12 +4662,12 @@
     <Minimum>Минимум</Minimum>
     <MinimumFontSize>Минимален размер шрифт</MinimumFontSize>
     <MinimumValue>Минимална Стойност</MinimumValue>
-    <MinorColor>Minor Color</MinorColor>
-    <MinorCount>Minor Count</MinorCount>
+    <MinorColor>Второстепенен цвят</MinorColor>
+    <MinorCount>Второстепенен брой</MinorCount>
     <MinorInterval>Второстепенен интервал</MinorInterval>
-    <MinorLength>Minor Length</MinorLength>
-    <MinorStyle>Minor Style</MinorStyle>
-    <MinorVisible>Minor Visible</MinorVisible>
+    <MinorLength>Второстепенна дължина</MinorLength>
+    <MinorStyle>Второстепенен стил</MinorStyle>
+    <MinorVisible>Второстепенно видимо</MinorVisible>
     <MinRowsInColumn>Минимален брой редове в колона</MinRowsInColumn>
     <MinSize>Минимален размер</MinSize>
     <MinValue>Минимална стойност</MinValue>
@@ -4992,13 +4992,13 @@
     <SourceDataColumn>Колона с изходни данни</SourceDataColumn>
     <Sources>Източници</Sources>
     <Space>Разредка</Space>
-    <SpaceRatio>Space Ratio</SpaceRatio>
+    <SpaceRatio>Съотношение на разстоянието</SpaceRatio>
     <Spacing>Разстояние</Spacing>
-    <Sparkline>Sparkline</Sparkline>
+    <Sparkline>Микродиаграма</Sparkline>
     <SqlCommand>Sql команда</SqlCommand>
     <Standard>Стандарт</Standard>
     <StartAngle>Начален ъгъл</StartAngle>
-    <StartCap>Start Cap</StartCap>
+    <StartCap>Начален накрайник</StartCap>
     <StartColor>Начален цвят</StartColor>
     <StartFromZero>Стартиране от нула</StartFromZero>
     <StartMode>Режим на стартиране</StartMode>
@@ -5131,7 +5131,7 @@
     <UndoLimit>Брой стъпки</UndoLimit>
     <Unit>Мерна единица</Unit>
     <UnitAlignment>Единица за подравняване</UnitAlignment>
-    <UnlimitedBreakable>Unlimited Breakable</UnlimitedBreakable>
+    <UnlimitedBreakable>Неограничено разделяне</UnlimitedBreakable>
     <UnlimitedHeight>Неограничена височина</UnlimitedHeight>
     <UnlimitedWidth>Неограничена ширина</UnlimitedWidth>
     <UpperMarks>Горни маркери</UpperMarks>
@@ -5191,7 +5191,7 @@
     <Weights>Тегла</Weights>
     <Width>Ширина</Width>
     <WindowState>Състояние на прозорец</WindowState>
-    <WinLoss>Win Loss</WinLoss>
+    <WinLoss>Печалба / Загуба</WinLoss>
     <WinLossNegative>Отрицателен Win Loss </WinLossNegative>
     <WinLossPositive>Положителен Win Loss</WinLossPositive>
     <WordWrap>Пренос на текст</WordWrap>
@@ -5224,7 +5224,7 @@
     <GrayText>Сив текст</GrayText>
     <Highlight>Изпъкване</Highlight>
     <HighlightText>Текст на изпъкване</HighlightText>
-    <HotTrack>Hot Track</HotTrack>
+    <HotTrack>Активно проследяване</HotTrack>
     <InactiveBorder>Неактивна граница</InactiveBorder>
     <InactiveCaption>Неактивно заглавие</InactiveCaption>
     <InactiveCaptionText>Неактивен текст на заглавие</InactiveCaptionText>
@@ -5587,9 +5587,9 @@
     <RadioButtonDay>Ден</RadioButtonDay>
     <RadioButtonOn>Включен</RadioButtonOn>
     <RepeatTaskEvery>Повтаряйте задачата всеки</RepeatTaskEvery>
-    <Schedule>Schedule</Schedule>
-    <Scheduler>Scheduler</Scheduler>
-    <Schedulers>Schedulers</Schedulers>
+    <Schedule>График</Schedule>
+    <Scheduler>Разписание</Scheduler>
+    <Schedulers>Задания</Schedulers>
     <SenderEmail>Имейл на изпращача </SenderEmail>
     <ShowHTMLReportsInMessageBody>Показване на HTML отчетите в текста на писмото</ShowHTMLReportsInMessageBody>
     <SmtpSettings>Smtp настойки</SmtpSettings>
@@ -5798,7 +5798,7 @@
     <ToolbarArrange>Подредба</ToolbarArrange>
     <ToolbarBorders>Граници</ToolbarBorders>
     <ToolbarClipboard>Клипборд</ToolbarClipboard>
-    <ToolbarDockStyle>Dock Style</ToolbarDockStyle>
+    <ToolbarDockStyle>Стил на закрепване</ToolbarDockStyle>
     <ToolbarFont>Шрифт</ToolbarFont>
     <ToolbarFormatting>Форматиране</ToolbarFormatting>
     <ToolbarLayout>Оформление</ToolbarLayout>
