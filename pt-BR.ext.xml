@@ -69,7 +69,7 @@
     <Zero>Zero</Zero>
   </CheckActions>
   <CheckComponent>
-    <StiAllowHtmlTagsInTextCheckLong>Tags HTML são usadas no texto. Mas a propriedade Permitir Tags Html (AllowHtmlTags) está definida como falso. O conteúdo do componente {0} será impresso incorretamente.</StiAllowHtmlTagsInTextCheckLong>
+    <StiAllowHtmlTagsInTextCheckLong>Tags HTML são usadas no texto. Mas a propriedade Permitir Tags Html (AllowHtmlTags) está definida como falso. O conteúdo do componente '{0}' será impresso incorretamente.</StiAllowHtmlTagsInTextCheckLong>
     <StiAllowHtmlTagsInTextCheckShort>A propriedade Permitir Tags Html (AllowHtmlTags) não está definida</StiAllowHtmlTagsInTextCheckShort>
     <StiCanBreakComponentInContainerCheckLong>A propriedade Pode Quebrar (CanBreak) do recipiente '{0}' está definida como falso. Alguns componentes aninhados têm a propriedade Pode Quebrar definida como verdadeiro.</StiCanBreakComponentInContainerCheckLong>
     <StiCanBreakComponentInContainerCheckShort>A propriedade Pode Quebrar (CanBreak) do recipiente está definida como falso</StiCanBreakComponentInContainerCheckShort>
@@ -86,7 +86,7 @@
     <StiColumnsWidthGreaterPageWidthCheckShort>A largura total das colunas é maior que a largura da página</StiColumnsWidthGreaterPageWidthCheckShort>
     <StiComponentBoundsAreOutOfBandLong>O componente '{0}' está completa ou parcialmente fora da banda. Este componente não será impresso corretamente. Mas, em alguns casos, tal posição do componente é aceitável. Também pode causar alguns problemas ao exportar o relatório para outros formatos.</StiComponentBoundsAreOutOfBandLong>
     <StiComponentBoundsAreOutOfBandShort>O componente está parcialmente fora da banda</StiComponentBoundsAreOutOfBandShort>
-    <StiComponentExpressionCheckLong>A expressão na propriedade {0} de '{1}' não pode ser avaliada.</StiComponentExpressionCheckLong>
+    <StiComponentExpressionCheckLong>A expressão na propriedade '{0}' de '{1}' não pode ser avaliada.</StiComponentExpressionCheckLong>
     <StiComponentExpressionCheckShort>A expressão não pode ser avaliada</StiComponentExpressionCheckShort>
     <StiComponentNameIsSystemVariableCheckLong>O nome do componente '{0}' entra em conflito com o nome de uma variável de sistema. As expressões que usam essa variável de sistema não funcionarão corretamente, pois a referência será substituída pela referência do componente.</StiComponentNameIsSystemVariableCheckLong>
     <StiComponentNameIsSystemVariableCheckShort>O nome do componente entra em conflito com o nome de uma variável de sistema</StiComponentNameIsSystemVariableCheckShort>
@@ -111,7 +111,7 @@
     <StiEventsAtInterpretationCheckShort>Eventos na Interpretação</StiEventsAtInterpretationCheckShort>
     <StiExpressionElementCheckLong>A expressão '{0}' no componente '{1}' funciona incorretamente. A seguinte mensagem foi recebida do analisador: '{2}'.</StiExpressionElementCheckLong>
     <StiExpressionElementCheckShort>Uma expressão funciona incorretamente</StiExpressionElementCheckShort>
-    <StiFilterAfterLoadingCheckLong>A banda de dados '{0}' filtra as linhas da fonte de dados '{1}' pela variável '{2}' depois que todas as linhas são carregadas do banco de dados. Para uma tabela grande, filtre na consulta: adicione à consulta uma condição com o parâmetro @{2} e permita que a variável seja usada como parâmetro SQL.</StiFilterAfterLoadingCheckLong>
+    <StiFilterAfterLoadingCheckLong>A banda de dados '{0}' filtra as linhas da fonte de dados '{1}' pela variável '{2}' depois que todas as linhas são carregadas do banco de dados. Para uma tabela grande, filtre na consulta: adicione à consulta uma condição com o parâmetro '@{2}' e permita que a variável seja usada como parâmetro SQL.</StiFilterAfterLoadingCheckLong>
     <StiFilterAfterLoadingCheckShort>As linhas são filtradas após o carregamento</StiFilterAfterLoadingCheckShort>
     <StiFilterCircularDependencyElementCheckLong>A dependência circular do filtro foi encontrada no elemento '{0}'. Verifique a propriedade 'Chave Pai' do elemento '{0}'!</StiFilterCircularDependencyElementCheckLong>
     <StiFilterCircularDependencyElementCheckShort>Dependência circular de filtro</StiFilterCircularDependencyElementCheckShort>
@@ -119,11 +119,11 @@
     <StiFilterColumnNotFoundCheckShort>A coluna do filtro não foi encontrada</StiFilterColumnNotFoundCheckShort>
     <StiFilterValueCheckLong>O valor do filtro de '{0}' não está especificado. Este filtro não pode ser processado.</StiFilterValueCheckLong>
     <StiFilterValueCheckShort>O Valor do filtro não está especificado</StiFilterValueCheckShort>
-    <StiFilterValueTypeCheckLong>Um filtro do componente '{0}' compara com o valor '{1}', que não é um valor do tipo {2}. Em vez disso, o filtro compara com um valor padrão (0, a data atual ou false), portanto a banda mostra outras linhas.</StiFilterValueTypeCheckLong>
+    <StiFilterValueTypeCheckLong>Um filtro do componente '{0}' compara com o valor '{1}', que não é um valor do tipo '{2}'. Em vez disso, o filtro compara com um valor padrão (0, a data atual ou false), portanto a banda mostra outras linhas.</StiFilterValueTypeCheckLong>
     <StiFilterValueTypeCheckShort>O valor do filtro não corresponde ao seu tipo de dados</StiFilterValueTypeCheckShort>
-    <StiFilterVariableAsTextCheckLong>Um filtro do componente '{0}' compara com a variável '{1}', mas seu tipo de dados é {2}, portanto o filtro compara com o nome como texto, e não com o valor da variável. Defina o tipo de dados do filtro como Expression.</StiFilterVariableAsTextCheckLong>
+    <StiFilterVariableAsTextCheckLong>Um filtro do componente '{0}' compara com a variável '{1}', mas seu tipo de dados é '{2}', portanto o filtro compara com o nome como texto, e não com o valor da variável. Defina o tipo de dados do filtro como Expression.</StiFilterVariableAsTextCheckLong>
     <StiFilterVariableAsTextCheckShort>O filtro trata uma variável como texto</StiFilterVariableAsTextCheckShort>
-    <StiFontGlyphsMissingCheckLong>A fonte '{0}' do componente '{1}' não contém glifos para os seguintes caracteres: {2}. Esses caracteres serão exibidos como retângulos vazios em um arquivo PDF.</StiFontGlyphsMissingCheckLong>
+    <StiFontGlyphsMissingCheckLong>A fonte '{0}' do componente '{1}' não contém glifos para os seguintes caracteres: '{2}'. Esses caracteres serão exibidos como retângulos vazios em um arquivo PDF.</StiFontGlyphsMissingCheckLong>
     <StiFontGlyphsMissingCheckShort>A fonte não contém glifos para o texto</StiFontGlyphsMissingCheckShort>
     <StiFontMissingCheckLong>A fonte '{0}' especificada para o componente '{1}' não foi encontrada.</StiFontMissingCheckLong>
     <StiFontMissingCheckShort>A fonte não foi encontrada</StiFontMissingCheckShort>
@@ -132,11 +132,11 @@
     <StiGroupHeaderNotEqualToGroupFooterOnContainerLong>O número de GroupFooter não corresponde ao número de GroupHeader no recipiente '{0}'. Os componentes sem par não serão construídos.</StiGroupHeaderNotEqualToGroupFooterOnContainerLong>
     <StiGroupHeaderNotEqualToGroupFooterOnPageLong>O número de GroupFooter não corresponde ao número de GroupHeader na página '{0}'. Os componentes sem par não serão construídos.</StiGroupHeaderNotEqualToGroupFooterOnPageLong>
     <StiGroupHeaderNotEqualToGroupFooterShort>Alguns componentes não serão construídos</StiGroupHeaderNotEqualToGroupFooterShort>
-    <StiGroupHeaderSummaryExpressionCheckLong>A Expressão de Resumo do cabeçalho de grupo {0} contém uma função de agregação, mas essa função é definida em uma propriedade separada. A geração do relatório não é possível.</StiGroupHeaderSummaryExpressionCheckLong>
+    <StiGroupHeaderSummaryExpressionCheckLong>A Expressão de Resumo do cabeçalho de grupo '{0}' contém uma função de agregação, mas essa função é definida em uma propriedade separada. A geração do relatório não é possível.</StiGroupHeaderSummaryExpressionCheckLong>
     <StiGroupHeaderSummaryExpressionCheckShort>Função inválida na expressão</StiGroupHeaderSummaryExpressionCheckShort>
     <StiGrowToHeightOverlappingLong>A propriedade Aumentar a Altura (GrowToHeight) do componente '{0}' está definida como verdadeiro. Ao construir o relatório, este componente pode sobrepor um ou mais componentes abaixo dele.</StiGrowToHeightOverlappingLong>
     <StiGrowToHeightOverlappingShort>Os componentes podem se sobrepor</StiGrowToHeightOverlappingShort>
-    <StiInsufficientTextHeightForOneLineCheckLong>A altura do componente de texto {0} é muito pequena, mesmo para uma linha de texto. Isso pode causar problemas na exportação para alguns formatos, bem como na impressão na Web. É recomendado aumentar a altura ou definir a propriedade Pode Crescer (CanGrow) como verdadeiro.</StiInsufficientTextHeightForOneLineCheckLong>
+    <StiInsufficientTextHeightForOneLineCheckLong>A altura do componente de texto '{0}' é muito pequena, mesmo para uma linha de texto. Isso pode causar problemas na exportação para alguns formatos, bem como na impressão na Web. É recomendado aumentar a altura ou definir a propriedade Pode Crescer (CanGrow) como verdadeiro.</StiInsufficientTextHeightForOneLineCheckLong>
     <StiInsufficientTextHeightForOneLineCheckShort>Altura insuficiente para uma linha</StiInsufficientTextHeightForOneLineCheckShort>
     <StiIsFirstPageIsLastPageDoublePassCheckLong>As variáveis de sistema IsFirstPage, IsFirstPageThrough, IsLastPage, IsLastPageThrough fornecem resultados incorretos com uma passagem. É necessário definir a propriedade Número de Passagens (NumberOfPass) como DoublePass.</StiIsFirstPageIsLastPageDoublePassCheckLong>
     <StiIsFirstPageIsLastPageDoublePassCheckShort>Variáveis de sistema que exigem passagem dupla são usadas no relatório</StiIsFirstPageIsLastPageDoublePassCheckShort>
@@ -158,7 +158,7 @@
     <StiNoNameComponentCheckShort>O componente não tem nome</StiNoNameComponentCheckShort>
     <StiNoNamePageCheckLong>O nome da página com o índice '{0}' não está especificado. Se o nome da página não for especificado, o motor de relatórios não compilará o relatório.</StiNoNamePageCheckLong>
     <StiNoNamePageCheckShort>Uma página não tem nome</StiNoNamePageCheckShort>
-    <StiPageFooterOnlyLastPageCheckLong>A banda {0} com a propriedade Imprimir em (PrintOn)=OnlyLastPage cria espaços indesejados na parte inferior da página. Recomendamos substituí-la por ReportSummary.</StiPageFooterOnlyLastPageCheckLong>
+    <StiPageFooterOnlyLastPageCheckLong>A banda '{0}' com a propriedade Imprimir em (PrintOn)=OnlyLastPage cria espaços indesejados na parte inferior da página. Recomendamos substituí-la por ReportSummary.</StiPageFooterOnlyLastPageCheckLong>
     <StiPageFooterOnlyLastPageCheckShort>Probabilidade de aparecimento de espaços</StiPageFooterOnlyLastPageCheckShort>
     <StiPageLineAndDoublePassCheckLong>A variável de sistema PageLine exige Double-Pass do motor de relatórios.</StiPageLineAndDoublePassCheckLong>
     <StiPageLineAndDoublePassCheckShort>A PageLine exige Double-Pass</StiPageLineAndDoublePassCheckShort>
@@ -190,7 +190,7 @@
     <StiTextColorEqualToBackColorCheckShort>A propriedade Preenchimento do Texto (TextBrush) é igual à propriedade Preenchimento (Brush)</StiTextColorEqualToBackColorCheckShort>
     <StiTextTextFormatCheckLong>O formato de texto selecionado para o componente '{0}' não pode ser aplicado, porque o resultado da expressão é uma cadeia de texto.</StiTextTextFormatCheckLong>
     <StiTextTextFormatCheckShort>O formato não pode ser aplicado</StiTextTextFormatCheckShort>
-    <StiTextTextFormatFieldCheckLong>A coluna usada no componente {0} não é do tipo data. Recomenda-se alterar a formatação para Geral para evitar a lentidão do relatório e garantir a formatação correta.</StiTextTextFormatFieldCheckLong>
+    <StiTextTextFormatFieldCheckLong>A coluna usada no componente '{0}' não é do tipo data. Recomenda-se alterar a formatação para Geral para evitar a lentidão do relatório e garantir a formatação correta.</StiTextTextFormatFieldCheckLong>
     <StiTextTextFormatFieldCheckShort>O formato selecionado não é compatível com o tipo da coluna de dados</StiTextTextFormatFieldCheckShort>
     <StiTotalPageCountDoublePassCheckLong>As variáveis de sistema TotalPageCount, TotalPageCountThrough em scripts e condições fornecem resultados incorretos com uma passagem. É necessário definir a propriedade Número de Passagens (NumberOfPass) como DoublePass.</StiTotalPageCountDoublePassCheckLong>
     <StiUndefinedComponentCheckLong>Um componente indefinido '{0}' foi encontrado no relatório. A ferramenta de relatórios não consegue identificar este componente. Talvez seja um componente personalizado. O relatório não pode ser construído!</StiUndefinedComponentCheckLong>
@@ -203,7 +203,7 @@
     <StiWidthHeightZeroComponentCheckShortHeight>A altura do componente '{0}' é igual a 0</StiWidthHeightZeroComponentCheckShortHeight>
     <StiWidthHeightZeroComponentCheckShortWidth>A largura do componente '{0}' é igual a 0</StiWidthHeightZeroComponentCheckShortWidth>
     <StiWidthHeightZeroComponentCheckShortWidthHeight>A altura e a largura do componente '{0}' são iguais a 0</StiWidthHeightZeroComponentCheckShortWidthHeight>
-    <StiWordWrapCanGrowTextDoesNotFitLong>Se a propriedade Múltiplas Linhas (WordWrap) estiver definida como verdadeiro e a propriedade Pode Crescer (CanGrow) estiver definida como falso, o texto do componente {0} não poderá ser mostrado completamente. É recomendado definir a propriedade Pode Crescer como verdadeiro.</StiWordWrapCanGrowTextDoesNotFitLong>
+    <StiWordWrapCanGrowTextDoesNotFitLong>Se a propriedade Múltiplas Linhas (WordWrap) estiver definida como verdadeiro e a propriedade Pode Crescer (CanGrow) estiver definida como falso, o texto do componente '{0}' não poderá ser mostrado completamente. É recomendado definir a propriedade Pode Crescer como verdadeiro.</StiWordWrapCanGrowTextDoesNotFitLong>
     <StiWordWrapCanGrowTextDoesNotFitShort>O texto pode não caber</StiWordWrapCanGrowTextDoesNotFitShort>
   </CheckComponent>
   <CheckConnection>
@@ -237,11 +237,11 @@
     <StiNoNameInSourceDataSourceCheckShort>O campo Nome na Fonte (NameInSource) da fonte de dados não está preenchido</StiNoNameInSourceDataSourceCheckShort>
     <StiSqlParameterDuplicateCheckLong>A fonte de dados '{0}' tem vários parâmetros com o nome '{1}'. A consulta não pode ser executada.</StiSqlParameterDuplicateCheckLong>
     <StiSqlParameterDuplicateCheckShort>Parâmetro SQL duplicado</StiSqlParameterDuplicateCheckShort>
-    <StiSqlParameterNotFoundCheckLong>A consulta da fonte de dados '{0}' usa o parâmetro @{1}, mas a fonte de dados não tem esse parâmetro e o relatório não tem uma variável com esse nome. A consulta falha quando o relatório é gerado.</StiSqlParameterNotFoundCheckLong>
+    <StiSqlParameterNotFoundCheckLong>A consulta da fonte de dados '{0}' usa o parâmetro '@{1}', mas a fonte de dados não tem esse parâmetro e o relatório não tem uma variável com esse nome. A consulta falha quando o relatório é gerado.</StiSqlParameterNotFoundCheckLong>
     <StiSqlParameterNotFoundCheckShort>A consulta usa um parâmetro não definido</StiSqlParameterNotFoundCheckShort>
     <StiSqlParameterVariableNotFoundCheckLong>O parâmetro '{1}' da fonte de dados '{0}' obtém seu valor de '{2}', mas o relatório não tem uma variável com esse nome. A consulta não recebe nenhum valor para o parâmetro.</StiSqlParameterVariableNotFoundCheckLong>
     <StiSqlParameterVariableNotFoundCheckShort>Um parâmetro faz referência a uma variável inexistente</StiSqlParameterVariableNotFoundCheckShort>
-    <StiSqlVariableNotAllowedCheckLong>A consulta da fonte de dados '{0}' usa o parâmetro @{1}. O relatório tem a variável '{1}', mas não é permitido usá-la como parâmetro SQL, portanto seu valor não é passado para a consulta e a consulta falha.</StiSqlVariableNotAllowedCheckLong>
+    <StiSqlVariableNotAllowedCheckLong>A consulta da fonte de dados '{0}' usa o parâmetro '@{1}'. O relatório tem a variável '{1}', mas não é permitido usá-la como parâmetro SQL, portanto seu valor não é passado para a consulta e a consulta falha.</StiSqlVariableNotAllowedCheckLong>
     <StiSqlVariableNotAllowedCheckShort>Não é permitido usar a variável como parâmetro SQL</StiSqlVariableNotAllowedCheckShort>
     <StiUndefinedDataSourceCheckLong>A fonte de dados indefinida '{0}' foi encontrada no relatório. A ferramenta de relatórios não consegue processar corretamente este tipo de fonte de dados! Talvez fontes de dados personalizadas sejam usadas no relatório. Este relatório não pode ser construído!</StiUndefinedDataSourceCheckLong>
     <StiUndefinedDataSourceCheckShort>Fonte de Dados indefinida</StiUndefinedDataSourceCheckShort>
@@ -259,7 +259,7 @@
     <StiValidSubscriptioRequiredCheckLong>Assinatura Válida Necessária. Atualize sua assinatura para usar a versão totalmente funcional do Stimulsoft Designer.</StiValidSubscriptioRequiredCheckLong>
   </CheckLicense>
   <CheckPage>
-    <StiLostPointsOnPageCheckLong>Pontos perdidos foram encontrados na página '{0}': {1}. Os pontos são invisíveis e usados nos seguintes primitivos: linha vertical, retângulo e retângulo arredondado. Se o ponto não corresponder a nenhum componente, ele pode ser excluído.</StiLostPointsOnPageCheckLong>
+    <StiLostPointsOnPageCheckLong>Pontos perdidos foram encontrados na página '{0}': '{1}'. Os pontos são invisíveis e usados nos seguintes primitivos: linha vertical, retângulo e retângulo arredondado. Se o ponto não corresponder a nenhum componente, ele pode ser excluído.</StiLostPointsOnPageCheckLong>
     <StiLostPointsOnPageCheckShort>Pontos perdidos</StiLostPointsOnPageCheckShort>
     <StiOrientationPageCheckLongLandscape>A orientação da página '{0}' não corresponde ao tamanho de página especificado. Normalmente, para a orientação Paisagem, a largura da página deve ser maior que a altura da página. A largura desta página é menor que a altura. Isso pode causar problemas ao imprimir esta página.</StiOrientationPageCheckLongLandscape>
     <StiOrientationPageCheckLongPortrait>A orientação da página '{0}' não corresponde ao tamanho de página especificado. Normalmente, para a orientação Retrato, a largura da página deve ser menor que a altura da página. A largura desta página é maior que a altura. Isso pode causar problemas ao imprimir esta página.</StiOrientationPageCheckLongPortrait>
@@ -288,9 +288,9 @@
     <StiDuplicatedNameInSourceInDataRelationReportCheckShort>Duplicatas nas relações</StiDuplicatedNameInSourceInDataRelationReportCheckShort>
     <StiDuplicatedReportName2CheckLong>O nome do relatório '{0}' é igual ao nome da fonte de dados.</StiDuplicatedReportName2CheckLong>
     <StiDuplicatedReportNameCheckLong>O nome do relatório '{0}' é igual ao nome do componente.</StiDuplicatedReportNameCheckLong>
-    <StiFontNotEmbeddableCheckLong>O arquivo da fonte '{0}' não foi encontrado, a fonte não será incorporada no arquivo PDF. A fonte é usada nos componentes: {1}</StiFontNotEmbeddableCheckLong>
+    <StiFontNotEmbeddableCheckLong>O arquivo da fonte '{0}' não foi encontrado, a fonte não será incorporada no arquivo PDF. A fonte é usada nos componentes: '{1}'</StiFontNotEmbeddableCheckLong>
     <StiFontNotEmbeddableCheckShort>A fonte não pode ser incorporada no arquivo PDF</StiFontNotEmbeddableCheckShort>
-    <StiFontStyleNotAvailableCheckLong>A fonte '{0}' não contém o estilo '{1}', ele será emulado na exportação para PDF. A fonte é usada nos componentes: {2}</StiFontStyleNotAvailableCheckLong>
+    <StiFontStyleNotAvailableCheckLong>A fonte '{0}' não contém o estilo '{1}', ele será emulado na exportação para PDF. A fonte é usada nos componentes: '{2}'</StiFontStyleNotAvailableCheckLong>
     <StiFontStyleNotAvailableCheckShort>O estilo da fonte não está disponível</StiFontStyleNotAvailableCheckShort>
     <StiMainPageMissingCheckLong>O relatório não pode ser construído porque a página principal não pode ser determinada. Verifique a referência de página nos SubReports e DrillDowns.</StiMainPageMissingCheckLong>
     <StiMainPageMissingCheckShort>A página principal está faltando</StiMainPageMissingCheckShort>
@@ -302,7 +302,7 @@
     <StiScriptExecutionErrorCheck3Long>O erro de execução de script ocorreu no evento '{1}' do componente '{2}'.</StiScriptExecutionErrorCheck3Long>
     <StiScriptExecutionErrorCheckLong>Ocorreu o erro de execução de script.</StiScriptExecutionErrorCheckLong>
     <StiScriptExecutionErrorCheckShort>Erro de execução de script</StiScriptExecutionErrorCheckShort>
-    <StiStyleNegativeBorderSizeCheckLong>O estilo '{0}' tem um tamanho de borda negativo: {1}. O tamanho de uma borda não pode ser menor que 0.</StiStyleNegativeBorderSizeCheckLong>
+    <StiStyleNegativeBorderSizeCheckLong>O estilo '{0}' tem um tamanho de borda negativo: '{1}'. O tamanho de uma borda não pode ser menor que 0.</StiStyleNegativeBorderSizeCheckLong>
     <StiStyleNegativeBorderSizeCheckShort>Tamanho de borda negativo em um estilo</StiStyleNegativeBorderSizeCheckShort>
   </CheckReport>
   <CheckVariable>
@@ -2362,7 +2362,7 @@
     <InterpretationModeSwitchToBlocks>Este relatório usa o modo de Interpretação. Funções com código não funcionarão. Recomendamos mudar para o ScriptMode em Blocks.</InterpretationModeSwitchToBlocks>
     <StiScriptAtInterpretationCheckLong>O script na função do usuário '{0}' não funciona no modo de interpretação.</StiScriptAtInterpretationCheckLong>
     <StiScriptAtInterpretationCheckShort>Script em Interpretação</StiScriptAtInterpretationCheckShort>
-    <StiUserFunctionLangScriptValueCheckLong>Nenhum script definido para a linguagem {0} na função do usuário '{1}'.</StiUserFunctionLangScriptValueCheckLong>
+    <StiUserFunctionLangScriptValueCheckLong>Nenhum script definido para a linguagem '{0}' na função do usuário '{1}'.</StiUserFunctionLangScriptValueCheckLong>
     <StiUserFunctionScriptValueCheckLong>Nenhum script especificado para a linguagem de programação atual do relatório na função do usuário '{0}'.</StiUserFunctionScriptValueCheckLong>
     <StiUserFunctionScriptValueCheckShort>Script</StiUserFunctionScriptValueCheckShort>
   </StiUserFunction>

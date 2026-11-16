@@ -69,7 +69,7 @@
     <Zero>Null</Zero>
   </CheckActions>
   <CheckComponent>
-    <StiAllowHtmlTagsInTextCheckLong>HTML-Tags werden im Text benutzt. Aber die Eigenschaft 'Html-Tags erlauben' ist auf falsch gesetzt. Der Inhalt der Komponente {0} wird fehlerhaft gedruckt.</StiAllowHtmlTagsInTextCheckLong>
+    <StiAllowHtmlTagsInTextCheckLong>HTML-Tags werden im Text benutzt. Aber die Eigenschaft 'Html-Tags erlauben' ist auf falsch gesetzt. Der Inhalt der Komponente '{0}' wird fehlerhaft gedruckt.</StiAllowHtmlTagsInTextCheckLong>
     <StiAllowHtmlTagsInTextCheckShort>Die Eigenschaft 'Html-Tags erlauben' ist nicht gesetzt</StiAllowHtmlTagsInTextCheckShort>
     <StiCanBreakComponentInContainerCheckLong>Die Eigenschaft 'Kann unterbrochen werden' des Containers '{0}' ist auf falsch gesetzt. Verschachtelte Komponenten haben die Eigenschaft 'Kann unterbrochen werden' auf wahr gesetzt.</StiCanBreakComponentInContainerCheckLong>
     <StiCanBreakComponentInContainerCheckShort>Die Eigenschaft 'Kann unterbrochen werden' des Containers ist auf falsch gesetzt</StiCanBreakComponentInContainerCheckShort>
@@ -86,7 +86,7 @@
     <StiColumnsWidthGreaterPageWidthCheckShort>Die gesamte Spaltenbreite ist größer als die Seitenbreite</StiColumnsWidthGreaterPageWidthCheckShort>
     <StiComponentBoundsAreOutOfBandLong>Die Komponente '{0}' ist vollständig oder teilweise außerhalb des Bandes. Diese Komponente wird nicht fehlerfrei ausgegeben. In einigen Fällen sind derartige Komponenten brauchbar. Allerdings können Probleme beim Export des Reports in andere Formate auftreten.</StiComponentBoundsAreOutOfBandLong>
     <StiComponentBoundsAreOutOfBandShort>Die Komponente ist teilweise außerhalb des Bandes</StiComponentBoundsAreOutOfBandShort>
-    <StiComponentExpressionCheckLong>Der Ausdruck in der Eigenschaft {0} von '{1}' kann nicht berechnet werden.</StiComponentExpressionCheckLong>
+    <StiComponentExpressionCheckLong>Der Ausdruck in der Eigenschaft '{0}' von '{1}' kann nicht berechnet werden.</StiComponentExpressionCheckLong>
     <StiComponentExpressionCheckShort>Der Ausdruck kann nicht berechnet werden</StiComponentExpressionCheckShort>
     <StiComponentNameIsSystemVariableCheckLong>Der Komponentenname '{0}' widerspricht dem Namen der Systemvariablen. Die Ausdrücke, die diese Systemvariable verwenden, werden nicht korrekt funktionieren, da die Referenz durch die Referenz der Komponente ersetzt wird.</StiComponentNameIsSystemVariableCheckLong>
     <StiComponentNameIsSystemVariableCheckShort>Der Komponentenname widerspricht dem Namen der Systemvariablen.</StiComponentNameIsSystemVariableCheckShort>
@@ -111,7 +111,7 @@
     <StiEventsAtInterpretationCheckShort>Ereignisse in Interpretation</StiEventsAtInterpretationCheckShort>
     <StiExpressionElementCheckLong>Der Ausdruck '{0}' in der '{1}' Komponente funktioniert fehlerhaft. Die folgende Nachricht wurde aus dem Parser: '{2}' erhalten.</StiExpressionElementCheckLong>
     <StiExpressionElementCheckShort>Ein Ausdruck funktioniert fehlerhaft</StiExpressionElementCheckShort>
-    <StiFilterAfterLoadingCheckLong>Das Datenband '{0}' filtert die Zeilen der Datenquelle '{1}' nach der Variablen '{2}', nachdem alle Zeilen aus der Datenbank geladen wurden. Bei einer großen Tabelle filtern Sie besser in der Abfrage: Fügen Sie der Abfrage eine Bedingung mit dem Parameter @{2} hinzu und erlauben Sie die Verwendung der Variablen als SQL-Parameter.</StiFilterAfterLoadingCheckLong>
+    <StiFilterAfterLoadingCheckLong>Das Datenband '{0}' filtert die Zeilen der Datenquelle '{1}' nach der Variablen '{2}', nachdem alle Zeilen aus der Datenbank geladen wurden. Bei einer großen Tabelle filtern Sie besser in der Abfrage: Fügen Sie der Abfrage eine Bedingung mit dem Parameter '@{2}' hinzu und erlauben Sie die Verwendung der Variablen als SQL-Parameter.</StiFilterAfterLoadingCheckLong>
     <StiFilterAfterLoadingCheckShort>Die Zeilen werden nach dem Laden gefiltert</StiFilterAfterLoadingCheckShort>
     <StiFilterCircularDependencyElementCheckLong>Die zirkuläre Abhängigkeit des Filters wurde für das Element '{0}' gefunden. Bitte prüfen Sie die 'Parent Key'-Eigenschaft des '{0}'-Elementes!</StiFilterCircularDependencyElementCheckLong>
     <StiFilterCircularDependencyElementCheckShort>Zirkuläre Abhängigkeit des Filters</StiFilterCircularDependencyElementCheckShort>
@@ -119,11 +119,11 @@
     <StiFilterColumnNotFoundCheckShort>Die Filterspalte wurde nicht gefunden</StiFilterColumnNotFoundCheckShort>
     <StiFilterValueCheckLong>Ein Filterwert von '{0}' ist nicht angegeben. Dieser Filter kann nicht verarbeitet werden.</StiFilterValueCheckLong>
     <StiFilterValueCheckShort>Ein Filterwert ist nicht angegeben.</StiFilterValueCheckShort>
-    <StiFilterValueTypeCheckLong>Ein Filter der Komponente '{0}' vergleicht mit dem Wert '{1}', der kein Wert vom Typ {2} ist. Stattdessen vergleicht der Filter mit einem Standardwert (0, dem aktuellen Datum oder false), daher zeigt das Band andere Zeilen.</StiFilterValueTypeCheckLong>
+    <StiFilterValueTypeCheckLong>Ein Filter der Komponente '{0}' vergleicht mit dem Wert '{1}', der kein Wert vom Typ '{2}' ist. Stattdessen vergleicht der Filter mit einem Standardwert (0, dem aktuellen Datum oder false), daher zeigt das Band andere Zeilen.</StiFilterValueTypeCheckLong>
     <StiFilterValueTypeCheckShort>Der Filterwert passt nicht zu seinem Datentyp</StiFilterValueTypeCheckShort>
-    <StiFilterVariableAsTextCheckLong>Ein Filter der Komponente '{0}' vergleicht mit der Variablen '{1}', aber sein Datentyp ist {2}, daher vergleicht der Filter mit dem Namen als Text und nicht mit dem Wert der Variablen. Setzen Sie den Datentyp des Filters auf Expression.</StiFilterVariableAsTextCheckLong>
+    <StiFilterVariableAsTextCheckLong>Ein Filter der Komponente '{0}' vergleicht mit der Variablen '{1}', aber sein Datentyp ist '{2}', daher vergleicht der Filter mit dem Namen als Text und nicht mit dem Wert der Variablen. Setzen Sie den Datentyp des Filters auf Expression.</StiFilterVariableAsTextCheckLong>
     <StiFilterVariableAsTextCheckShort>Der Filter behandelt eine Variable als Text</StiFilterVariableAsTextCheckShort>
-    <StiFontGlyphsMissingCheckLong>Die Schrift '{0}' der Komponente '{1}' enthält keine Glyphen für die folgenden Zeichen: {2}. Diese Zeichen werden in der PDF-Datei als leere Rechtecke angezeigt.</StiFontGlyphsMissingCheckLong>
+    <StiFontGlyphsMissingCheckLong>Die Schrift '{0}' der Komponente '{1}' enthält keine Glyphen für die folgenden Zeichen: '{2}'. Diese Zeichen werden in der PDF-Datei als leere Rechtecke angezeigt.</StiFontGlyphsMissingCheckLong>
     <StiFontGlyphsMissingCheckShort>Die Schrift enthält keine Glyphen für den Text</StiFontGlyphsMissingCheckShort>
     <StiFontMissingCheckLong>Die für Komponente '{1}' angegebene Schrift '{0}' ist nicht gefunden.</StiFontMissingCheckLong>
     <StiFontMissingCheckShort>Die Schrift ist nicht gefunden</StiFontMissingCheckShort>
@@ -132,11 +132,11 @@
     <StiGroupHeaderNotEqualToGroupFooterOnContainerLong>Die Anzahl der Gruppenfüße stimmt nicht mit der Anzahl der Gruppenköpfe des Containers '{0}' überein. Ungerade Komponenten werden nicht dargestellt.</StiGroupHeaderNotEqualToGroupFooterOnContainerLong>
     <StiGroupHeaderNotEqualToGroupFooterOnPageLong>Die Anzahl der Gruppenfüße stimmt nicht mit der Anzahl der Gruppenköpfe auf der Seite '{0}' überein. Ungerade Komponenten werden nicht dargestellt.</StiGroupHeaderNotEqualToGroupFooterOnPageLong>
     <StiGroupHeaderNotEqualToGroupFooterShort>Einige Komponenten werden im Report nicht dargestellt</StiGroupHeaderNotEqualToGroupFooterShort>
-    <StiGroupHeaderSummaryExpressionCheckLong>Der Ausdruck für Zusammenfassung für den Gruppenkopf {0} enthält eine Aggregatfunktion, aber diese Funktion wird in einer separaten Eigenschaft gestellt. Die Berichterstellung ist unmöglich.</StiGroupHeaderSummaryExpressionCheckLong>
+    <StiGroupHeaderSummaryExpressionCheckLong>Der Ausdruck für Zusammenfassung für den Gruppenkopf '{0}' enthält eine Aggregatfunktion, aber diese Funktion wird in einer separaten Eigenschaft gestellt. Die Berichterstellung ist unmöglich.</StiGroupHeaderSummaryExpressionCheckLong>
     <StiGroupHeaderSummaryExpressionCheckShort>Ungültige Funktion im Ausdruck.</StiGroupHeaderSummaryExpressionCheckShort>
     <StiGrowToHeightOverlappingLong>Die Eigenschaft 'In die Höhe wachsen' der Komponente '{0}' ist auf wahr gesetzt. Beim Ausführen des Reports kann diese Komponente eine oder mehrere unterhalb angeordneten Komponenten überlappen. </StiGrowToHeightOverlappingLong>
     <StiGrowToHeightOverlappingShort>Es ist möglich, Komponenten zu überlappen</StiGrowToHeightOverlappingShort>
-    <StiInsufficientTextHeightForOneLineCheckLong>Die Höhe der Textkomponente {0} ist zu klein, sogar für eine Textzeile. Das kann Probleme beim Export in einige Formate und auch beim Drucken im Web verursachen. Wir empfehlen, die Höhe zu vergrößern oder die Eigenschaft CanGrow auf wahr zu setzen.</StiInsufficientTextHeightForOneLineCheckLong>
+    <StiInsufficientTextHeightForOneLineCheckLong>Die Höhe der Textkomponente '{0}' ist zu klein, sogar für eine Textzeile. Das kann Probleme beim Export in einige Formate und auch beim Drucken im Web verursachen. Wir empfehlen, die Höhe zu vergrößern oder die Eigenschaft CanGrow auf wahr zu setzen.</StiInsufficientTextHeightForOneLineCheckLong>
     <StiInsufficientTextHeightForOneLineCheckShort>Unzureichende Höhe für eine Zeile</StiInsufficientTextHeightForOneLineCheckShort>
     <StiIsFirstPageIsLastPageDoublePassCheckLong>Die Systemvariablen IsFirstPage, IsFirstPageThrough, IsLastPage, IsLastPageThrough ergeben fehlerhafte Ergebnisse bei nur einem Durchlauf. Es ist notwendig, die Eigenschaft 'Anzahl der Durchläufe' auf doppelten Durchlauf zu setzen.</StiIsFirstPageIsLastPageDoublePassCheckLong>
     <StiIsFirstPageIsLastPageDoublePassCheckShort>Systemvariablen, die einen doppelten Durchlauf erfordern, werden in diesem Report benutzt</StiIsFirstPageIsLastPageDoublePassCheckShort>
@@ -158,7 +158,7 @@
     <StiNoNameComponentCheckShort>Die Komponente hat keinen Namen</StiNoNameComponentCheckShort>
     <StiNoNamePageCheckLong>Der Name der Seite mit dem Index '{0}' ist nicht angegeben. Wenn der Name der Seite nicht angegeben wurde, kann die Engine den Report nicht aufbereiten.</StiNoNamePageCheckLong>
     <StiNoNamePageCheckShort>Eine Seite hat keinen Namen</StiNoNamePageCheckShort>
-    <StiPageFooterOnlyLastPageCheckLong>Band {0} mit der Eigenschaft PrintOn=OnlyLastPage erstellt unerwünschte Lücken am unteren Seitenrand. Es wird empfohlen, es durch ReportSummary zu ersetzen.</StiPageFooterOnlyLastPageCheckLong>
+    <StiPageFooterOnlyLastPageCheckLong>Band '{0}' mit der Eigenschaft PrintOn=OnlyLastPage erstellt unerwünschte Lücken am unteren Seitenrand. Es wird empfohlen, es durch ReportSummary zu ersetzen.</StiPageFooterOnlyLastPageCheckLong>
     <StiPageFooterOnlyLastPageCheckShort>Wahrscheinlichkeit der Entstehung von Lücken</StiPageFooterOnlyLastPageCheckShort>
     <StiPageLineAndDoublePassCheckLong>Die System-Variable PageLine fordert Double-Pass der Berichtsengine.</StiPageLineAndDoublePassCheckLong>
     <StiPageLineAndDoublePassCheckShort>PageLine fordert Double-Pass</StiPageLineAndDoublePassCheckShort>
@@ -190,7 +190,7 @@
     <StiTextColorEqualToBackColorCheckShort>Die Eigenschaft 'Text-Pinsel' stimmt mit der Eigenschaft 'Pinsel' überein</StiTextColorEqualToBackColorCheckShort>
     <StiTextTextFormatCheckLong>Das ausgewählte Textformat für die Komponente '{0}' kann nicht angewendet werden, da das Ergebnis des Ausdrucks eine Textzeichenfolge ist.</StiTextTextFormatCheckLong>
     <StiTextTextFormatCheckShort>Das Format kann nicht angewendet werden</StiTextTextFormatCheckShort>
-    <StiTextTextFormatFieldCheckLong>Die Spalte, die in {0}-Komponente verwendet wird, gehört nicht zum date-Typen. Wir empfehlen die Formatierung auf Allgemein zu ändern, um die Verlangsamung der Arbeit mit dem Bericht zu vermeiden und korrekte Formatierung sicherzustellen.</StiTextTextFormatFieldCheckLong>
+    <StiTextTextFormatFieldCheckLong>Die Spalte, die in '{0}'-Komponente verwendet wird, gehört nicht zum date-Typen. Wir empfehlen die Formatierung auf Allgemein zu ändern, um die Verlangsamung der Arbeit mit dem Bericht zu vermeiden und korrekte Formatierung sicherzustellen.</StiTextTextFormatFieldCheckLong>
     <StiTextTextFormatFieldCheckShort>Das ausgewählte Format ist nicht mit dem Datenspalte-Typen kompatibel</StiTextTextFormatFieldCheckShort>
     <StiTotalPageCountDoublePassCheckLong>Die Systemvariablen TotalPageCount, TotalPageCountThrough in Scripten und Bedingungen liefern fehlerhafte Ergebnisse bei nur einem Durchlauf. Es ist notwendig, die Eigenschaft 'Anzahl der Durchläufe' auf doppelten Durchlauf zu setzen.</StiTotalPageCountDoublePassCheckLong>
     <StiUndefinedComponentCheckLong>Der Report enthält eine undefinierte Komponente '{0}'. Das Reportprogramm kann diese Komponente nicht ermitteln. Möglicherweise ist dies eine kundenspezifische Komponente. Der Report kann nicht ausgeführt werden!</StiUndefinedComponentCheckLong>
@@ -203,7 +203,7 @@
     <StiWidthHeightZeroComponentCheckShortHeight>Die Höhe der Komponente '{0}' ist 0</StiWidthHeightZeroComponentCheckShortHeight>
     <StiWidthHeightZeroComponentCheckShortWidth>Die Breite der Komponente '{0}' ist 0</StiWidthHeightZeroComponentCheckShortWidth>
     <StiWidthHeightZeroComponentCheckShortWidthHeight>Die Höhe und Breite der Komponente '{0}' sind 0</StiWidthHeightZeroComponentCheckShortWidthHeight>
-    <StiWordWrapCanGrowTextDoesNotFitLong>Wenn die Eigenschaft 'Automatischer Textumbruch' auf wahr und die Eigenschaft 'Kann wachsen' auf falsch gesetzt wird, kann der Text der Komponente {0} nicht vollständig angezeigt werden. Es wird empfohlen, die Eigenschaft 'Kann wachsen' auf wahr zu setzen.</StiWordWrapCanGrowTextDoesNotFitLong>
+    <StiWordWrapCanGrowTextDoesNotFitLong>Wenn die Eigenschaft 'Automatischer Textumbruch' auf wahr und die Eigenschaft 'Kann wachsen' auf falsch gesetzt wird, kann der Text der Komponente '{0}' nicht vollständig angezeigt werden. Es wird empfohlen, die Eigenschaft 'Kann wachsen' auf wahr zu setzen.</StiWordWrapCanGrowTextDoesNotFitLong>
     <StiWordWrapCanGrowTextDoesNotFitShort>Text nicht passend.</StiWordWrapCanGrowTextDoesNotFitShort>
   </CheckComponent>
   <CheckConnection>
@@ -237,11 +237,11 @@
     <StiNoNameInSourceDataSourceCheckShort>Das Feld 'Name in der Datenquelle' ist nicht gefüllt.</StiNoNameInSourceDataSourceCheckShort>
     <StiSqlParameterDuplicateCheckLong>Die Datenquelle '{0}' hat mehrere Parameter mit dem Namen '{1}'. Die Abfrage kann nicht ausgeführt werden.</StiSqlParameterDuplicateCheckLong>
     <StiSqlParameterDuplicateCheckShort>Doppelter SQL-Parameter</StiSqlParameterDuplicateCheckShort>
-    <StiSqlParameterNotFoundCheckLong>Die Abfrage der Datenquelle '{0}' verwendet den Parameter @{1}, aber die Datenquelle hat keinen solchen Parameter und der Bericht hat keine Variable mit diesem Namen. Die Abfrage schlägt beim Erstellen des Berichts fehl.</StiSqlParameterNotFoundCheckLong>
+    <StiSqlParameterNotFoundCheckLong>Die Abfrage der Datenquelle '{0}' verwendet den Parameter '@{1}', aber die Datenquelle hat keinen solchen Parameter und der Bericht hat keine Variable mit diesem Namen. Die Abfrage schlägt beim Erstellen des Berichts fehl.</StiSqlParameterNotFoundCheckLong>
     <StiSqlParameterNotFoundCheckShort>Die Abfrage verwendet einen nicht definierten Parameter</StiSqlParameterNotFoundCheckShort>
     <StiSqlParameterVariableNotFoundCheckLong>Der Parameter '{1}' der Datenquelle '{0}' übernimmt seinen Wert aus '{2}', aber der Bericht hat keine Variable mit diesem Namen. Die Abfrage erhält keinen Wert für den Parameter.</StiSqlParameterVariableNotFoundCheckLong>
     <StiSqlParameterVariableNotFoundCheckShort>Ein Parameter verweist auf eine fehlende Variable</StiSqlParameterVariableNotFoundCheckShort>
-    <StiSqlVariableNotAllowedCheckLong>Die Abfrage der Datenquelle '{0}' verwendet den Parameter @{1}. Der Bericht hat die Variable '{1}', aber sie darf nicht als SQL-Parameter verwendet werden, daher wird ihr Wert nicht an die Abfrage übergeben und die Abfrage schlägt fehl.</StiSqlVariableNotAllowedCheckLong>
+    <StiSqlVariableNotAllowedCheckLong>Die Abfrage der Datenquelle '{0}' verwendet den Parameter '@{1}'. Der Bericht hat die Variable '{1}', aber sie darf nicht als SQL-Parameter verwendet werden, daher wird ihr Wert nicht an die Abfrage übergeben und die Abfrage schlägt fehl.</StiSqlVariableNotAllowedCheckLong>
     <StiSqlVariableNotAllowedCheckShort>Die Variable darf nicht als SQL-Parameter verwendet werden</StiSqlVariableNotAllowedCheckShort>
     <StiUndefinedDataSourceCheckLong>Undefinierte Datenquelle '{0}' wurde im Report gefunden. Das Reportprogramm kann diesen Typ der Datenquelle nicht korrekt ausführen! Es könnte eine kundenspezifische Datenquelle im Report verwendet worden sein. Dieser Report kann nicht erstellt werden!</StiUndefinedDataSourceCheckLong>
     <StiUndefinedDataSourceCheckShort>Undefinierte Datenquelle</StiUndefinedDataSourceCheckShort>
@@ -259,7 +259,7 @@
     <StiValidSubscriptioRequiredCheckLong>Gültiges Abonnement erforderlich. Bitte aktualisieren Sie Ihr Abonnement, um die voll funktionsfähige Version des Stimulsoft Designers zu verwenden.</StiValidSubscriptioRequiredCheckLong>
   </CheckLicense>
   <CheckPage>
-    <StiLostPointsOnPageCheckLong>Nicht zugeordnete Punkte wurden auf Seite '{0}' gefunden: {1}. Punkte sind unsichtbar und in folgenden einfachen Figuren benutzt: senkrechte Linien, Rechteck und abgerundete Rechtecke. Wenn der Punkt nicht zu irgendeiner Komponente passt, kann er gelöscht werden.</StiLostPointsOnPageCheckLong>
+    <StiLostPointsOnPageCheckLong>Nicht zugeordnete Punkte wurden auf Seite '{0}' gefunden: '{1}'. Punkte sind unsichtbar und in folgenden einfachen Figuren benutzt: senkrechte Linien, Rechteck und abgerundete Rechtecke. Wenn der Punkt nicht zu irgendeiner Komponente passt, kann er gelöscht werden.</StiLostPointsOnPageCheckLong>
     <StiLostPointsOnPageCheckShort>Nicht zugeordnete Punkte</StiLostPointsOnPageCheckShort>
     <StiOrientationPageCheckLongLandscape>Das Seitenformat der Seite '{0}' stimmt nicht mit der ausgewählten Seitengröße überein. Gewöhnlich sollte beim Querformat die Breite der Seite größer als die Höhe sein. Die Breite dieser Seite ist kleiner als die Höhe. Es könnten Probleme beim Drucken dieser Seite auftreten.</StiOrientationPageCheckLongLandscape>
     <StiOrientationPageCheckLongPortrait>Das Seitenformat der Seite '{0}' stimmt nicht mit der ausgewählten Seitengröße überein. Gewöhnlich sollte beim Hochformat die Breite der Seite kleiner als die Höhe sein. Die Breite dieser Seite ist größer als die Höhe. Es könnten Probleme beim Drucken dieser Seite auftreten.</StiOrientationPageCheckLongPortrait>
@@ -288,9 +288,9 @@
     <StiDuplicatedNameInSourceInDataRelationReportCheckShort>Duplikate in Beziehungen</StiDuplicatedNameInSourceInDataRelationReportCheckShort>
     <StiDuplicatedReportName2CheckLong>Der Berichtsname '{0}' ist gleich wie der Datenquellenname.</StiDuplicatedReportName2CheckLong>
     <StiDuplicatedReportNameCheckLong>Der Berichtsname '{0}' ist gleich wie der Komponentenname.</StiDuplicatedReportNameCheckLong>
-    <StiFontNotEmbeddableCheckLong>Die Schriftdatei der Schrift '{0}' wurde nicht gefunden, die Schrift wird nicht in die PDF-Datei eingebettet. Die Schrift wird in den Komponenten verwendet: {1}</StiFontNotEmbeddableCheckLong>
+    <StiFontNotEmbeddableCheckLong>Die Schriftdatei der Schrift '{0}' wurde nicht gefunden, die Schrift wird nicht in die PDF-Datei eingebettet. Die Schrift wird in den Komponenten verwendet: '{1}'</StiFontNotEmbeddableCheckLong>
     <StiFontNotEmbeddableCheckShort>Die Schrift kann nicht in die PDF-Datei eingebettet werden</StiFontNotEmbeddableCheckShort>
-    <StiFontStyleNotAvailableCheckLong>Die Schrift '{0}' enthält den Schnitt '{1}' nicht, er wird beim PDF-Export emuliert. Die Schrift wird in den Komponenten verwendet: {2}</StiFontStyleNotAvailableCheckLong>
+    <StiFontStyleNotAvailableCheckLong>Die Schrift '{0}' enthält den Schnitt '{1}' nicht, er wird beim PDF-Export emuliert. Die Schrift wird in den Komponenten verwendet: '{2}'</StiFontStyleNotAvailableCheckLong>
     <StiFontStyleNotAvailableCheckShort>Der Schriftschnitt ist nicht verfügbar</StiFontStyleNotAvailableCheckShort>
     <StiMainPageMissingCheckLong>Der Bericht kann nicht gerendert werden, weil die Hauptseite nicht bestimmt werden kann. Überprüfen Sie die Seitenreferenz in SubReports und DrillDowns.</StiMainPageMissingCheckLong>
     <StiMainPageMissingCheckShort>Die Hauptseite fehlt.</StiMainPageMissingCheckShort>
@@ -302,7 +302,7 @@
     <StiScriptExecutionErrorCheck3Long>Der Fehler bei der Skriptausführung trat im Ereignis '{1}' der Komponente '{2}' auf.</StiScriptExecutionErrorCheck3Long>
     <StiScriptExecutionErrorCheckLong>Der Fehler bei der Skriptausführung trat auf.</StiScriptExecutionErrorCheckLong>
     <StiScriptExecutionErrorCheckShort>Der Fehler bei der Skriptausführung</StiScriptExecutionErrorCheckShort>
-    <StiStyleNegativeBorderSizeCheckLong>Der Stil '{0}' hat eine negative Rahmengröße: {1}. Eine Rahmengröße darf nicht kleiner als 0 sein.</StiStyleNegativeBorderSizeCheckLong>
+    <StiStyleNegativeBorderSizeCheckLong>Der Stil '{0}' hat eine negative Rahmengröße: '{1}'. Eine Rahmengröße darf nicht kleiner als 0 sein.</StiStyleNegativeBorderSizeCheckLong>
     <StiStyleNegativeBorderSizeCheckShort>Negative Rahmengröße in einem Stil</StiStyleNegativeBorderSizeCheckShort>
   </CheckReport>
   <CheckVariable>
@@ -2368,7 +2368,7 @@
     <InterpretationModeSwitchToBlocks>Dieser Bericht verwendet den Interpretation-Modus. Die Funktionen mit dem Code funktionieren nicht. Wir empfehlen, den Blockly-Modus zu aktivieren.</InterpretationModeSwitchToBlocks>
     <StiScriptAtInterpretationCheckLong>Das Skript der Benutzer-Funktion '{0}' funktioniert nicht im Interpretation-Modus.</StiScriptAtInterpretationCheckLong>
     <StiScriptAtInterpretationCheckShort>Das Skript in der Interpretation</StiScriptAtInterpretationCheckShort>
-    <StiUserFunctionLangScriptValueCheckLong>Kein Script für {0}-Sprache in '{1}'-Benutzerfunktion ist festgelegt.</StiUserFunctionLangScriptValueCheckLong>
+    <StiUserFunctionLangScriptValueCheckLong>Kein Script für '{0}'-Sprache in '{1}'-Benutzerfunktion ist festgelegt.</StiUserFunctionLangScriptValueCheckLong>
     <StiUserFunctionScriptValueCheckLong>Kein Script für aktuelle Programmiersprache des Berichtes in '{0}'-Benutzerfunktion ist festgelegt.</StiUserFunctionScriptValueCheckLong>
     <StiUserFunctionScriptValueCheckShort>Script</StiUserFunctionScriptValueCheckShort>
   </StiUserFunction>

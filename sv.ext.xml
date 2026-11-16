@@ -69,7 +69,7 @@
     <Zero>Noll</Zero>
   </CheckActions>
   <CheckComponent>
-    <StiAllowHtmlTagsInTextCheckLong>HTML-taggar används i texten. Men egenskapen AllowHtmlTags är inställd på false. Innehållet i komponenten {0} kommer att skrivas ut felaktigt.</StiAllowHtmlTagsInTextCheckLong>
+    <StiAllowHtmlTagsInTextCheckLong>HTML-taggar används i texten. Men egenskapen AllowHtmlTags är inställd på false. Innehållet i komponenten '{0}' kommer att skrivas ut felaktigt.</StiAllowHtmlTagsInTextCheckLong>
     <StiAllowHtmlTagsInTextCheckShort>Egenskapen AllowHtmlTags är inte inställd</StiAllowHtmlTagsInTextCheckShort>
     <StiCanBreakComponentInContainerCheckLong>Egenskapen CanBreak för behållaren '{0}' är inställd på false. Vissa kapslade komponenter har egenskapen CanBreak inställd på true.</StiCanBreakComponentInContainerCheckLong>
     <StiCanBreakComponentInContainerCheckShort>Egenskapen CanBreak för behållaren är false</StiCanBreakComponentInContainerCheckShort>
@@ -86,7 +86,7 @@
     <StiColumnsWidthGreaterPageWidthCheckShort>Den totala kolumnbredden är större än sidans bredd</StiColumnsWidthGreaterPageWidthCheckShort>
     <StiComponentBoundsAreOutOfBandLong>Komponenten "{0}" är helt eller delvis utanför bandet. Denna komponent kommer inte att skrivas ut på rätt sätt. Men i vissa fall är en sådan position av komponenten acceptabel. Det kan också orsaka en del problem med att exportera en rapport till andra format.</StiComponentBoundsAreOutOfBandLong>
     <StiComponentBoundsAreOutOfBandShort>Komponenten är delvis utanför bandet</StiComponentBoundsAreOutOfBandShort>
-    <StiComponentExpressionCheckLong>Uttrycket i egenskapen {0} för "{1}" kan inte utvärderas.</StiComponentExpressionCheckLong>
+    <StiComponentExpressionCheckLong>Uttrycket i egenskapen '{0}' för "{1}" kan inte utvärderas.</StiComponentExpressionCheckLong>
     <StiComponentExpressionCheckShort>Uttrycket kan inte utvärderas</StiComponentExpressionCheckShort>
     <StiComponentNameIsSystemVariableCheckLong>Komponentnamnet '{0}' står i konflikt med ett systemvariabelnamn. Uttryck som använder denna systemvariabel fungerar inte korrekt, eftersom referensen ersätts av komponentreferensen.</StiComponentNameIsSystemVariableCheckLong>
     <StiComponentNameIsSystemVariableCheckShort>Komponentnamnet står i konflikt med ett systemvariabelnamn</StiComponentNameIsSystemVariableCheckShort>
@@ -111,7 +111,7 @@
     <StiEventsAtInterpretationCheckShort>Händelser i tolkning</StiEventsAtInterpretationCheckShort>
     <StiExpressionElementCheckLong>Uttrycket '{0}' i komponenten '{1}' fungerar felaktigt. Följande meddelande togs emot från parsern: '{2}'.</StiExpressionElementCheckLong>
     <StiExpressionElementCheckShort>Ett uttryck fungerar felaktigt</StiExpressionElementCheckShort>
-    <StiFilterAfterLoadingCheckLong>Databandet '{0}' filtrerar raderna i datakällan '{1}' efter variabeln '{2}' efter att alla rader har lästs in från databasen. För en stor tabell bör du filtrera i frågan i stället: lägg till ett villkor med parametern @{2} i frågan och tillåt att variabeln används som SQL-parameter.</StiFilterAfterLoadingCheckLong>
+    <StiFilterAfterLoadingCheckLong>Databandet '{0}' filtrerar raderna i datakällan '{1}' efter variabeln '{2}' efter att alla rader har lästs in från databasen. För en stor tabell bör du filtrera i frågan i stället: lägg till ett villkor med parametern '@{2}' i frågan och tillåt att variabeln används som SQL-parameter.</StiFilterAfterLoadingCheckLong>
     <StiFilterAfterLoadingCheckShort>Raderna filtreras efter inläsningen</StiFilterAfterLoadingCheckShort>
     <StiFilterCircularDependencyElementCheckLong>Filtrets cirkulära beroende hittades vid elementet '{0}'. Kontrollera egenskapen 'Parent Key' för elementet '{0}'!</StiFilterCircularDependencyElementCheckLong>
     <StiFilterCircularDependencyElementCheckShort>Cirkulärt filterberoende</StiFilterCircularDependencyElementCheckShort>
@@ -119,11 +119,11 @@
     <StiFilterColumnNotFoundCheckShort>Filterkolumnen hittades inte</StiFilterColumnNotFoundCheckShort>
     <StiFilterValueCheckLong>Ett filtervärde för '{0}' har inte angetts. Detta filter kan inte bearbetas.</StiFilterValueCheckLong>
     <StiFilterValueCheckShort>Ett filtervärde har inte angetts</StiFilterValueCheckShort>
-    <StiFilterValueTypeCheckLong>Ett filter för komponenten '{0}' jämför med värdet '{1}', som inte är ett värde av typen {2}. Filtret jämför i stället med ett standardvärde (0, dagens datum eller false), så bandet visar andra rader.</StiFilterValueTypeCheckLong>
+    <StiFilterValueTypeCheckLong>Ett filter för komponenten '{0}' jämför med värdet '{1}', som inte är ett värde av typen '{2}'. Filtret jämför i stället med ett standardvärde (0, dagens datum eller false), så bandet visar andra rader.</StiFilterValueTypeCheckLong>
     <StiFilterValueTypeCheckShort>Filtervärdet matchar inte dess datatyp</StiFilterValueTypeCheckShort>
-    <StiFilterVariableAsTextCheckLong>Ett filter för komponenten '{0}' jämför med variabeln '{1}', men dess datatyp är {2}, så filtret jämför med namnet som text och inte med variabelns värde. Ställ in filtrets datatyp på Expression.</StiFilterVariableAsTextCheckLong>
+    <StiFilterVariableAsTextCheckLong>Ett filter för komponenten '{0}' jämför med variabeln '{1}', men dess datatyp är '{2}', så filtret jämför med namnet som text och inte med variabelns värde. Ställ in filtrets datatyp på Expression.</StiFilterVariableAsTextCheckLong>
     <StiFilterVariableAsTextCheckShort>Filtret tolkar en variabel som text</StiFilterVariableAsTextCheckShort>
-    <StiFontGlyphsMissingCheckLong>Typsnittet '{0}' för komponenten '{1}' innehåller inte glyfer för följande tecken: {2}. Dessa tecken visas som tomma rektanglar i PDF-filen.</StiFontGlyphsMissingCheckLong>
+    <StiFontGlyphsMissingCheckLong>Typsnittet '{0}' för komponenten '{1}' innehåller inte glyfer för följande tecken: '{2}'. Dessa tecken visas som tomma rektanglar i PDF-filen.</StiFontGlyphsMissingCheckLong>
     <StiFontGlyphsMissingCheckShort>Typsnittet innehåller inte glyfer för texten</StiFontGlyphsMissingCheckShort>
     <StiFontMissingCheckLong>Typsnittet "{0}" som anges för komponenten "{1}" finns inte.</StiFontMissingCheckLong>
     <StiFontMissingCheckShort>Typsnittet hittas inte</StiFontMissingCheckShort>
@@ -132,11 +132,11 @@
     <StiGroupHeaderNotEqualToGroupFooterOnContainerLong>Antalet GroupFooter motsvarar inte antalet GroupHeader i behållaren '{0}'. Udda komponenter kommer inte att renderas.</StiGroupHeaderNotEqualToGroupFooterOnContainerLong>
     <StiGroupHeaderNotEqualToGroupFooterOnPageLong>Antalet GroupFooter motsvarar inte antalet GroupHeader på sidan "{0}". Udda komponenter kommer inte att renderas.</StiGroupHeaderNotEqualToGroupFooterOnPageLong>
     <StiGroupHeaderNotEqualToGroupFooterShort>Vissa komponenter kommer inte att renderas</StiGroupHeaderNotEqualToGroupFooterShort>
-    <StiGroupHeaderSummaryExpressionCheckLong>Summeringsuttrycket för grupphuvudet {0} innehåller en aggregatfunktion, men denna funktion är angiven i en separat egenskap. Rapportgenerering är inte möjlig.</StiGroupHeaderSummaryExpressionCheckLong>
+    <StiGroupHeaderSummaryExpressionCheckLong>Summeringsuttrycket för grupphuvudet '{0}' innehåller en aggregatfunktion, men denna funktion är angiven i en separat egenskap. Rapportgenerering är inte möjlig.</StiGroupHeaderSummaryExpressionCheckLong>
     <StiGroupHeaderSummaryExpressionCheckShort>Ogiltig funktion i uttryck</StiGroupHeaderSummaryExpressionCheckShort>
     <StiGrowToHeightOverlappingLong>Egenskapen GrowToHeight för komponenten '{0}' är inställd på true. När en rapport renderas kan denna komponent överlappa en eller flera underliggande komponenter.</StiGrowToHeightOverlappingLong>
     <StiGrowToHeightOverlappingShort>Komponenter kan överlappa</StiGrowToHeightOverlappingShort>
-    <StiInsufficientTextHeightForOneLineCheckLong>Höjden på textkomponenten {0} är för liten, även för en textrad. Detta kan orsaka problem vid export till vissa format samt vid utskrift på webben. Det rekommenderas att öka höjden eller ange egenskapen CanGrow till true.</StiInsufficientTextHeightForOneLineCheckLong>
+    <StiInsufficientTextHeightForOneLineCheckLong>Höjden på textkomponenten '{0}' är för liten, även för en textrad. Detta kan orsaka problem vid export till vissa format samt vid utskrift på webben. Det rekommenderas att öka höjden eller ange egenskapen CanGrow till true.</StiInsufficientTextHeightForOneLineCheckLong>
     <StiInsufficientTextHeightForOneLineCheckShort>Otillräcklig höjd för en rad</StiInsufficientTextHeightForOneLineCheckShort>
     <StiIsFirstPageIsLastPageDoublePassCheckLong>Systemvariablerna IsFirstPage, IsFirstPageThrough, IsLastPage, IsLastPageThrough ger felaktiga resultat vid ett pass. Det krävs att egenskapen NumberOfPass ställs in på DoublePass.</StiIsFirstPageIsLastPageDoublePassCheckLong>
     <StiIsFirstPageIsLastPageDoublePassCheckShort>Systemvariabler som kräver dubbla pass används i rapporten</StiIsFirstPageIsLastPageDoublePassCheckShort>
@@ -158,7 +158,7 @@
     <StiNoNameComponentCheckShort>Komponenten har inget namn</StiNoNameComponentCheckShort>
     <StiNoNamePageCheckLong>Namnet på sidan med index '{0}' har inte angetts. Om namnet på sidan inte anges kommer rapportmotorn inte att kompilera rapporten.</StiNoNamePageCheckLong>
     <StiNoNamePageCheckShort>En sida har inget namn</StiNoNamePageCheckShort>
-    <StiPageFooterOnlyLastPageCheckLong>Bandet {0} med egenskapen PrintOn=OnlyLastPage skapar oönskade mellanrum längst ned på sidan. Vi rekommenderar att du ersätter det med ReportSummary.</StiPageFooterOnlyLastPageCheckLong>
+    <StiPageFooterOnlyLastPageCheckLong>Bandet '{0}' med egenskapen PrintOn=OnlyLastPage skapar oönskade mellanrum längst ned på sidan. Vi rekommenderar att du ersätter det med ReportSummary.</StiPageFooterOnlyLastPageCheckLong>
     <StiPageFooterOnlyLastPageCheckShort>Sannolikhet för att luckor uppstår</StiPageFooterOnlyLastPageCheckShort>
     <StiPageLineAndDoublePassCheckLong>Systemvariabeln PageLine kräver Double-Pass av rapportmotorn.</StiPageLineAndDoublePassCheckLong>
     <StiPageLineAndDoublePassCheckShort>PageLine kräver Double-Pass</StiPageLineAndDoublePassCheckShort>
@@ -190,7 +190,7 @@
     <StiTextColorEqualToBackColorCheckShort>Egenskapen TextBrush är lika med egenskapen Brush</StiTextColorEqualToBackColorCheckShort>
     <StiTextTextFormatCheckLong>Det valda textformatet för komponenten '{0}' kan inte tillämpas eftersom resultatet av uttrycket är en textsträng.</StiTextTextFormatCheckLong>
     <StiTextTextFormatCheckShort>Formatet kan inte tillämpas</StiTextTextFormatCheckShort>
-    <StiTextTextFormatFieldCheckLong>Kolumnen som används i komponenten {0} är inte av datumtyp. Det rekommenderas att ändra formateringen till General för att undvika att rapporten blir långsam och för att säkerställa korrekt formatering.</StiTextTextFormatFieldCheckLong>
+    <StiTextTextFormatFieldCheckLong>Kolumnen som används i komponenten '{0}' är inte av datumtyp. Det rekommenderas att ändra formateringen till General för att undvika att rapporten blir långsam och för att säkerställa korrekt formatering.</StiTextTextFormatFieldCheckLong>
     <StiTextTextFormatFieldCheckShort>Det valda formatet är inte kompatibelt med datakolumnens typ</StiTextTextFormatFieldCheckShort>
     <StiTotalPageCountDoublePassCheckLong>Systemvariablerna TotalPageCount och TotalPageCountThrough i skript och villkor ger felaktiga resultat vid ett pass. Det krävs att egenskapen NumberOfPass ställs in på DoublePass.</StiTotalPageCountDoublePassCheckLong>
     <StiUndefinedComponentCheckLong>En odefinierad komponent "{0}" finns i rapporten. Rapporteringsverktyget kan inte identifiera denna komponent. Kanske är detta en anpassad komponent. Rapporten kan inte renderas!</StiUndefinedComponentCheckLong>
@@ -203,7 +203,7 @@
     <StiWidthHeightZeroComponentCheckShortHeight>Höjden på komponenten '{0}' är lika med 0</StiWidthHeightZeroComponentCheckShortHeight>
     <StiWidthHeightZeroComponentCheckShortWidth>Bredden på komponenten '{0}' är lika med 0</StiWidthHeightZeroComponentCheckShortWidth>
     <StiWidthHeightZeroComponentCheckShortWidthHeight>Höjden och bredden på komponenten '{0}' är lika med 0</StiWidthHeightZeroComponentCheckShortWidthHeight>
-    <StiWordWrapCanGrowTextDoesNotFitLong>Om egenskapen WordWrap är inställd på true och egenskapen CanGrow är inställd på false kan texten i komponenten {0} inte visas helt. Du rekommenderas att ställa in egenskapen CanGrow till true.</StiWordWrapCanGrowTextDoesNotFitLong>
+    <StiWordWrapCanGrowTextDoesNotFitLong>Om egenskapen WordWrap är inställd på true och egenskapen CanGrow är inställd på false kan texten i komponenten '{0}' inte visas helt. Du rekommenderas att ställa in egenskapen CanGrow till true.</StiWordWrapCanGrowTextDoesNotFitLong>
     <StiWordWrapCanGrowTextDoesNotFitShort>Texten kanske inte passar</StiWordWrapCanGrowTextDoesNotFitShort>
   </CheckComponent>
   <CheckConnection>
@@ -237,11 +237,11 @@
     <StiNoNameInSourceDataSourceCheckShort>NameInSource-fältet för datakällan är inte ifyllt</StiNoNameInSourceDataSourceCheckShort>
     <StiSqlParameterDuplicateCheckLong>Datakällan '{0}' har flera parametrar med namnet '{1}'. Frågan kan inte köras.</StiSqlParameterDuplicateCheckLong>
     <StiSqlParameterDuplicateCheckShort>Dubblerad SQL-parameter</StiSqlParameterDuplicateCheckShort>
-    <StiSqlParameterNotFoundCheckLong>Frågan i datakällan '{0}' använder parametern @{1}, men datakällan har ingen sådan parameter och rapporten har ingen variabel med detta namn. Frågan misslyckas när rapporten skapas.</StiSqlParameterNotFoundCheckLong>
+    <StiSqlParameterNotFoundCheckLong>Frågan i datakällan '{0}' använder parametern '@{1}', men datakällan har ingen sådan parameter och rapporten har ingen variabel med detta namn. Frågan misslyckas när rapporten skapas.</StiSqlParameterNotFoundCheckLong>
     <StiSqlParameterNotFoundCheckShort>Frågan använder en odefinierad parameter</StiSqlParameterNotFoundCheckShort>
     <StiSqlParameterVariableNotFoundCheckLong>Parametern '{1}' i datakällan '{0}' hämtar sitt värde från '{2}', men rapporten har ingen variabel med detta namn. Frågan får inget värde för parametern.</StiSqlParameterVariableNotFoundCheckLong>
     <StiSqlParameterVariableNotFoundCheckShort>En parameter refererar till en saknad variabel</StiSqlParameterVariableNotFoundCheckShort>
-    <StiSqlVariableNotAllowedCheckLong>Frågan i datakällan '{0}' använder parametern @{1}. Rapporten har variabeln '{1}', men den får inte användas som SQL-parameter, så dess värde skickas inte till frågan och frågan misslyckas.</StiSqlVariableNotAllowedCheckLong>
+    <StiSqlVariableNotAllowedCheckLong>Frågan i datakällan '{0}' använder parametern '@{1}'. Rapporten har variabeln '{1}', men den får inte användas som SQL-parameter, så dess värde skickas inte till frågan och frågan misslyckas.</StiSqlVariableNotAllowedCheckLong>
     <StiSqlVariableNotAllowedCheckShort>Variabeln får inte användas som SQL-parameter</StiSqlVariableNotAllowedCheckShort>
     <StiUndefinedDataSourceCheckLong>Den odefinierade datakällan '{0}' hittades i rapporten. Rapporteringsverktyget kan inte korrekt bearbeta denna typ av datakälla! Kanske används anpassade datakällor i rapporten. Rapporten kan inte genereras!</StiUndefinedDataSourceCheckLong>
     <StiUndefinedDataSourceCheckShort>Odefinierad datakälla</StiUndefinedDataSourceCheckShort>
@@ -259,7 +259,7 @@
     <StiValidSubscriptioRequiredCheckLong>Giltig prenumeration krävs. Uppdatera din prenumeration för att använda den fullt fungerande versionen av Stimulsoft Designer.</StiValidSubscriptioRequiredCheckLong>
   </CheckLicense>
   <CheckPage>
-    <StiLostPointsOnPageCheckLong>Förlorade punkter finns på sidan '{0}': {1}. Punkter är osynliga och används i följande primitiver: lodrät linje, rektangel och rundad rektangel. Om punkten inte matchar någon komponent kan den tas bort.</StiLostPointsOnPageCheckLong>
+    <StiLostPointsOnPageCheckLong>Förlorade punkter finns på sidan '{0}': '{1}'. Punkter är osynliga och används i följande primitiver: lodrät linje, rektangel och rundad rektangel. Om punkten inte matchar någon komponent kan den tas bort.</StiLostPointsOnPageCheckLong>
     <StiLostPointsOnPageCheckShort>Förlorade punkter</StiLostPointsOnPageCheckShort>
     <StiOrientationPageCheckLongLandscape>Sidorienteringen '{0}' motsvarar inte den angivna sidstorleken. Vanligtvis, för liggande orientering, bör sidbredden vara större än sidhöjden. Bredden på denna sida är mindre än höjden. Detta kan leda till problem när du skriver ut den här sidan.</StiOrientationPageCheckLongLandscape>
     <StiOrientationPageCheckLongPortrait>Sidorienteringen '{0}' motsvarar inte den angivna sidstorleken. Vanligtvis, för stående orientering, bör sidbredden vara mindre än sidhöjden. Bredden på denna sida är större än höjden. Detta kan leda till problem när du skriver ut den här sidan.</StiOrientationPageCheckLongPortrait>
@@ -288,9 +288,9 @@
     <StiDuplicatedNameInSourceInDataRelationReportCheckShort>Dubbletter i relationer</StiDuplicatedNameInSourceInDataRelationReportCheckShort>
     <StiDuplicatedReportName2CheckLong>Rapportnamnet '{0}' är samma som datakällans namn.</StiDuplicatedReportName2CheckLong>
     <StiDuplicatedReportNameCheckLong>Rapportnamnet '{0}' är samma som komponentnamnet.</StiDuplicatedReportNameCheckLong>
-    <StiFontNotEmbeddableCheckLong>Typsnittsfilen för typsnittet '{0}' hittades inte, typsnittet bäddas inte in i PDF-filen. Typsnittet används i komponenterna: {1}</StiFontNotEmbeddableCheckLong>
+    <StiFontNotEmbeddableCheckLong>Typsnittsfilen för typsnittet '{0}' hittades inte, typsnittet bäddas inte in i PDF-filen. Typsnittet används i komponenterna: '{1}'</StiFontNotEmbeddableCheckLong>
     <StiFontNotEmbeddableCheckShort>Typsnittet kan inte bäddas in i PDF-filen</StiFontNotEmbeddableCheckShort>
-    <StiFontStyleNotAvailableCheckLong>Typsnittet '{0}' innehåller inte stilen '{1}', den emuleras vid PDF-export. Typsnittet används i komponenterna: {2}</StiFontStyleNotAvailableCheckLong>
+    <StiFontStyleNotAvailableCheckLong>Typsnittet '{0}' innehåller inte stilen '{1}', den emuleras vid PDF-export. Typsnittet används i komponenterna: '{2}'</StiFontStyleNotAvailableCheckLong>
     <StiFontStyleNotAvailableCheckShort>Typsnittsstilen är inte tillgänglig</StiFontStyleNotAvailableCheckShort>
     <StiMainPageMissingCheckLong>Rapporten kan inte genereras eftersom huvudsidan inte kan fastställas. Kontrollera sidhänvisningen i SubReports och DrillDowns.</StiMainPageMissingCheckLong>
     <StiMainPageMissingCheckShort>Huvudsidan saknas</StiMainPageMissingCheckShort>
@@ -302,7 +302,7 @@
     <StiScriptExecutionErrorCheck3Long>Ett skriptkörningsfel uppstod i händelsen '{1}' för komponenten '{2}'.</StiScriptExecutionErrorCheck3Long>
     <StiScriptExecutionErrorCheckLong>Ett skriptkörningsfel uppstod.</StiScriptExecutionErrorCheckLong>
     <StiScriptExecutionErrorCheckShort>Fel vid skriptkörning</StiScriptExecutionErrorCheckShort>
-    <StiStyleNegativeBorderSizeCheckLong>Stilen '{0}' har en negativ kantstorlek: {1}. En kantstorlek kan inte vara mindre än 0.</StiStyleNegativeBorderSizeCheckLong>
+    <StiStyleNegativeBorderSizeCheckLong>Stilen '{0}' har en negativ kantstorlek: '{1}'. En kantstorlek kan inte vara mindre än 0.</StiStyleNegativeBorderSizeCheckLong>
     <StiStyleNegativeBorderSizeCheckShort>Negativ kantstorlek i en stil</StiStyleNegativeBorderSizeCheckShort>
   </CheckReport>
   <CheckVariable>
@@ -2363,7 +2363,7 @@
     <InterpretationModeSwitchToBlocks>Den här rapporten använder tolkningsläge. Funktioner med kod fungerar inte. Vi rekommenderar att du växlar till ScriptMode på Blocks.</InterpretationModeSwitchToBlocks>
     <StiScriptAtInterpretationCheckLong>Skriptet i användarfunktionen '{0}' fungerar inte i tolkningsläget.</StiScriptAtInterpretationCheckLong>
     <StiScriptAtInterpretationCheckShort>Skript i tolkningsläge</StiScriptAtInterpretationCheckShort>
-    <StiUserFunctionLangScriptValueCheckLong>Inget skript definierat för språket {0} i användarfunktionen '{1}'.</StiUserFunctionLangScriptValueCheckLong>
+    <StiUserFunctionLangScriptValueCheckLong>Inget skript definierat för språket '{0}' i användarfunktionen '{1}'.</StiUserFunctionLangScriptValueCheckLong>
     <StiUserFunctionScriptValueCheckLong>Inget skript angivet för det aktuella rapportprogrammeringsspråket i användarfunktionen '{0}'.</StiUserFunctionScriptValueCheckLong>
     <StiUserFunctionScriptValueCheckShort>Skript</StiUserFunctionScriptValueCheckShort>
   </StiUserFunction>
