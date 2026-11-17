@@ -2946,8 +2946,14 @@
     <UserWorkspace>ワークスペース</UserWorkspace>
   </Permissions>
   <PlacementComponent>
+    <AddContentLeft>フィールドをテキストの前に追加します。</AddContentLeft>
+    <AddContentNewLine>フィールドを新しい行に追加します。</AddContentNewLine>
+    <AddContentRight>フィールドをテキストの後に追加します。</AddContentRight>
+    <KeepSeparateComponent>フィールドを別の部品として残します。</KeepSeparateComponent>
+    <LeaveComponent>部品をその位置のままにします。</LeaveComponent>
     <MoveLeftFreeSpace>部品を空きスペースの左側に移動し、部品の高さを空きスペースの高さまで増やします。</MoveLeftFreeSpace>
     <MoveRightFreeSpace>部品を空きスペースの右側に移動し、部品の高さを空きスペースの高さに上げます。</MoveRightFreeSpace>
+    <ReplaceContent>テキストをフィールドに置き換えます。</ReplaceContent>
   </PlacementComponent>
   <PromptForm>
     <CacheLoginData>現在のセッションのログインデータをキャッシュする</CacheLoginData>
