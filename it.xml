@@ -1089,6 +1089,7 @@
     <Color>Colore</Color>
     <Compressed>Compresso</Compressed>
     <CompressToArchive>Comprimi in un archivio</CompressToArchive>
+    <Content>Contenuto</Content>
     <ContinuousPages>Pagine continue</ContinuousPages>
     <DataAndHeaders>Dati e intestazioni</DataAndHeaders>
     <DataAndHeadersFooters>Dati e intestazioni/Piè di pagina</DataAndHeadersFooters>
@@ -1097,6 +1098,7 @@
     <DigitalSignature>Firma Digitale</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>Il certificato non è selezionato</DigitalSignatureCertificateNotSelected>
     <DigitalSignatureError>Errore nella fase di firma digitale</DigitalSignatureError>
+    <Document>Documento</Document>
     <DocumentSecurity>Sicurezza Documento</DocumentSecurity>
     <DotMatrixMode>Modalità Matrice di Punti</DotMatrixMode>
     <EmbeddedFonts>Tipi di carattere incorporati</EmbeddedFonts>
@@ -1152,6 +1154,7 @@
     <ExportTypeWriterFile>File OpenDocument Writer...</ExportTypeWriterFile>
     <ExportTypeXmlFile>File XML...</ExportTypeXmlFile>
     <ExportTypeXpsFile>File Microsoft XPS...</ExportTypeXpsFile>
+    <Format>Formato</Format>
     <GetCertificateFromCryptoUI>Ottieni Certificato da Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Metodo di Compressione Immagini:</ImageCompressionMethod>
     <ImageCutEdges>Taglia contorni</ImageCutEdges>
@@ -1162,6 +1165,7 @@
     <ImageResolution>Risoluzione immagine</ImageResolution>
     <ImageResolutionMode>Modalità risoluzione immagine:</ImageResolutionMode>
     <ImageType>Tipo immagine</ImageType>
+    <Images>Immagini</Images>
     <labelEncryptionKeyLength>Lunghezza Chiave di Criptazione:</labelEncryptionKeyLength>
     <labelOwnerPassword>Password Proprietario:</labelOwnerPassword>
     <labelSubjectNameString>Nome del Soggetto:</labelSubjectNameString>
@@ -1179,11 +1183,15 @@
     <PdfACompliance>Conformità PDF/A</PdfACompliance>
     <PdfUA>PDF/UA (Accessibilità universale)</PdfUA>
     <PrintingReport>Stampa report</PrintingReport>
+    <Protection>Protezione</Protection>
+    <Quality>Qualità</Quality>
     <RemoveEmptySpaceAtBottom>Rimuovi spazi vuoti in fondo alla pagina</RemoveEmptySpaceAtBottom>
+    <Resolution>Risoluzione</Resolution>
     <RestrictEditing>Modifica limitata:</RestrictEditing>
     <Scale>Scala:</Scale>
     <Separator>Separatore</Separator>
     <Settings>Impostazioni</Settings>
+    <Sheets>Fogli</Sheets>
     <SkipColumnHeaders>Salta Intestazioni Colonna</SkipColumnHeaders>
     <StandardPDFFonts>Caratteri PDF standard</StandardPDFFonts>
     <TiffCompressionScheme>Schema di compressione TIFF:</TiffCompressionScheme>
@@ -2438,7 +2446,7 @@
     <RebuildReport>Genera di nuovo il report per la nuova pagina, in modo che i dati riempiano le nuove pagine. Senza questa opzione cambia solo la dimensione delle pagine già generate. Non disponibile per un documento aperto da un file.</RebuildReport>
     <RemoveEmptySpaceAtBottom>Riduci lo spazio vuoto in fondo alle pagine.</RemoveEmptySpaceAtBottom>
     <Resources>Mostra le risorse.</Resources>
-    <RestrictEditing>Le limitazioni alla modifica del documento Word.</RestrictEditing>
+    <RestrictEditing>Le limitazioni alla modifica del documento.</RestrictEditing>
     <Save>Salva il report.</Save>
     <ScaleContent>Ridimensiona i componenti insieme alla pagina. Senza questa opzione mantengono dimensione e posizione.</ScaleContent>
     <ScaleHtml>La scala delle pagine e degli elementi del report nel file esportato.</ScaleHtml>
@@ -5468,7 +5476,7 @@
     <PropertiesTab>Proprietà</PropertiesTab>
     <RangeAll>Tutto</RangeAll>
     <RangeCurrentPage>Pagina corrente</RangeCurrentPage>
-    <RangeInfo>Immettere i numeri di pagina e/o gli intervalli di pagine separati da virgole. Ad esempio: 1, 3, 5-12</RangeInfo>
+    <RangeInfo>Numeri o intervalli separati da virgole: 1, 3, 5-12</RangeInfo>
     <RangePage>Pagine da stampare</RangePage>
     <RangePages>Pagine:</RangePages>
     <RecentAddresses>Indirizzi recenti</RecentAddresses>

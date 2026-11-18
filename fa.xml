@@ -1089,6 +1089,7 @@
     <Color>رنگ</Color>
     <Compressed>فشرده شده</Compressed>
     <CompressToArchive>فشرده‌سازی در بایگانی</CompressToArchive>
+    <Content>محتوا</Content>
     <ContinuousPages>صفحات پیوسته</ContinuousPages>
     <DataAndHeaders>داده و سرصفحه‌ها</DataAndHeaders>
     <DataAndHeadersFooters>داده و سرصفحه‌ها/پاصفحه‌ها</DataAndHeadersFooters>
@@ -1097,6 +1098,7 @@
     <DigitalSignature>امضای دیجیتالی</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>گواهینامه انتخاب نشده است</DigitalSignatureCertificateNotSelected>
     <DigitalSignatureError>خطای امضای دیجیتالی در مرحله</DigitalSignatureError>
+    <Document>سند</Document>
     <DocumentSecurity>سند محرمانه</DocumentSecurity>
     <DotMatrixMode>حالت ماتریس نقطه ای</DotMatrixMode>
     <EmbeddedFonts>خانواده حروف محدود شده</EmbeddedFonts>
@@ -1152,6 +1154,7 @@
     <ExportTypeWriterFile>بازکردن پرونده نویسنده</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML فایل</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS فایل...</ExportTypeXpsFile>
+    <Format>قالب</Format>
     <GetCertificateFromCryptoUI>گرفتن گواهینامه Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>روش فشرده‌سازی تصویر:</ImageCompressionMethod>
     <ImageCutEdges>حاشیه های بریده شده</ImageCutEdges>
@@ -1162,6 +1165,7 @@
     <ImageResolution>شفافیت تصویر:</ImageResolution>
     <ImageResolutionMode>حالت وضوح تصویر:</ImageResolutionMode>
     <ImageType>نوع تصویر</ImageType>
+    <Images>تصاویر</Images>
     <labelEncryptionKeyLength>طول کلید رمزدار شده:</labelEncryptionKeyLength>
     <labelOwnerPassword>رمز مالک:</labelOwnerPassword>
     <labelSubjectNameString>رشته نام موضوع:</labelSubjectNameString>
@@ -1179,11 +1183,15 @@
     <PdfACompliance>سازگاری با PDF/A</PdfACompliance>
     <PdfUA>PDF/UA (دسترسی‌پذیری همگانی)</PdfUA>
     <PrintingReport>در حال چاپ گزارش</PrintingReport>
+    <Protection>محافظت</Protection>
+    <Quality>کیفیت</Quality>
     <RemoveEmptySpaceAtBottom>حذف فضای خالی پایین صفحه</RemoveEmptySpaceAtBottom>
+    <Resolution>وضوح</Resolution>
     <RestrictEditing>محدود کردن ویرایش:</RestrictEditing>
     <Scale>مقیاس:</Scale>
     <Separator>جداکننده:</Separator>
     <Settings>تنظیمات</Settings>
+    <Sheets>برگه‌ها</Sheets>
     <SkipColumnHeaders>گذر از سر ستون</SkipColumnHeaders>
     <StandardPDFFonts>فونت های استاندارد pdf</StandardPDFFonts>
     <TiffCompressionScheme>طرح فشرده‌سازی TIFF:</TiffCompressionScheme>
@@ -2447,7 +2455,7 @@
     <RebuildReport>گزارش را برای صفحه جدید دوباره می‌سازد تا داده‌ها صفحات جدید را پر کنند. بدون این گزینه فقط اندازه صفحات ساخته‌شده تغییر می‌کند. برای سندی که از فایل باز شده در دسترس نیست.</RebuildReport>
     <RemoveEmptySpaceAtBottom>کاهش فضای خالی پایین صفحه‌ها.</RemoveEmptySpaceAtBottom>
     <Resources>نمایش منابع.</Resources>
-    <RestrictEditing>محدودیت‌های تغییر سند Word.</RestrictEditing>
+    <RestrictEditing>محدودیت‌های تغییر سند.</RestrictEditing>
     <Save>ذخیره گزارش.</Save>
     <ScaleContent>اندازه اجزا را همراه با صفحه تغییر می‌دهد. بدون این گزینه، اندازه و جای خود را حفظ می‌کنند.</ScaleContent>
     <ScaleHtml>مقیاس صفحه‌ها و عناصر گزارش در فایل صادرشده.</ScaleHtml>
@@ -5483,7 +5491,7 @@
     <PropertiesTab>برچسب خصوصیات</PropertiesTab>
     <RangeAll>همه</RangeAll>
     <RangeCurrentPage>صفحه جاری</RangeCurrentPage>
-    <RangeInfo>شماره صفحه و/یا محدوده صفحات که بوسیله کاما جدا شدهرا وارد کنید.برای مثال 1و3و5-12</RangeInfo>
+    <RangeInfo>شماره یا محدوده صفحات، جدا شده بوسیله کاما: 1, 3, 5-12</RangeInfo>
     <RangePage>برد صفحه</RangePage>
     <RangePages>صفحات:</RangePages>
     <RecentAddresses>آدرس‌های اخیر</RecentAddresses>

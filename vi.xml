@@ -1089,6 +1089,7 @@
     <Color>Màu sắc</Color>
     <Compressed>Nén</Compressed>
     <CompressToArchive>Nén vào tệp lưu trữ</CompressToArchive>
+    <Content>Nội dung</Content>
     <ContinuousPages>Trang liên tục</ContinuousPages>
     <DataAndHeaders>Dữ liệu và tiêu đề</DataAndHeaders>
     <DataAndHeadersFooters>Dữ liệu và tiêu đề/chân trang</DataAndHeadersFooters>
@@ -1097,6 +1098,7 @@
     <DigitalSignature>Chữ ký số</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>Chứng chỉ không được chọn</DigitalSignatureCertificateNotSelected>
     <DigitalSignatureError>Lỗi chữ ký số ở bước</DigitalSignatureError>
+    <Document>Tài liệu</Document>
     <DocumentSecurity>Bảo mật tài liệu</DocumentSecurity>
     <DotMatrixMode>Chế độ ma trận điểm</DotMatrixMode>
     <EmbeddedFonts>Phông chữ nhúng</EmbeddedFonts>
@@ -1152,6 +1154,7 @@
     <ExportTypeWriterFile>Tệp OpenDocument Writer...</ExportTypeWriterFile>
     <ExportTypeXmlFile>Tệp XML...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Tệp Microsoft XPS...</ExportTypeXpsFile>
+    <Format>Định dạng</Format>
     <GetCertificateFromCryptoUI>Nhận chứng chỉ từ Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Phương pháp nén hình ảnh:</ImageCompressionMethod>
     <ImageCutEdges>Cắt góc</ImageCutEdges>
@@ -1162,6 +1165,7 @@
     <ImageResolution>Độ phân giải hình ảnh:</ImageResolution>
     <ImageResolutionMode>Chế độ phân giải hình ảnh</ImageResolutionMode>
     <ImageType>Loại hình ảnh</ImageType>
+    <Images>Hình ảnh</Images>
     <labelEncryptionKeyLength>Độ dài khóa mã hóa:</labelEncryptionKeyLength>
     <labelOwnerPassword>Mật khẩu chủ sở hữu:</labelOwnerPassword>
     <labelSubjectNameString>Chuỗi ký tự tên chủ đề:</labelSubjectNameString>
@@ -1179,11 +1183,15 @@
     <PdfACompliance>Phù hợp với PDF/A</PdfACompliance>
     <PdfUA>PDF/UA (Khả năng truy cập toàn cầu)</PdfUA>
     <PrintingReport>Báo cáo in</PrintingReport>
+    <Protection>Bảo vệ</Protection>
+    <Quality>Chất lượng</Quality>
     <RemoveEmptySpaceAtBottom>Xóa không gian trống ở cuối trang</RemoveEmptySpaceAtBottom>
+    <Resolution>Độ phân giải</Resolution>
     <RestrictEditing>Hạn chế chỉnh sửa:</RestrictEditing>
     <Scale>Tỉ lệ:</Scale>
     <Separator>Phân cách:</Separator>
     <Settings>Cài đặt</Settings>
+    <Sheets>Trang tính</Sheets>
     <SkipColumnHeaders>Bỏ qua tiêu đề cột</SkipColumnHeaders>
     <StandardPDFFonts>Phông chữ chuẩn PDF</StandardPDFFonts>
     <TiffCompressionScheme>Tiến trình nén TIFF:</TiffCompressionScheme>
@@ -2438,7 +2446,7 @@
     <RebuildReport>Tạo lại báo cáo cho trang mới để dữ liệu lấp đầy các trang mới. Nếu không, chỉ kích thước của các trang đã tạo thay đổi. Không khả dụng cho tài liệu mở từ tệp.</RebuildReport>
     <RemoveEmptySpaceAtBottom>Thu nhỏ khoảng trống ở cuối trang.</RemoveEmptySpaceAtBottom>
     <Resources>Hiển thị tài nguyên.</Resources>
-    <RestrictEditing>Các giới hạn đối với việc thay đổi tài liệu Word.</RestrictEditing>
+    <RestrictEditing>Các giới hạn đối với việc thay đổi tài liệu.</RestrictEditing>
     <Save>Lưu báo cáo.</Save>
     <ScaleContent>Thay đổi kích thước các thành phần cùng với trang. Nếu không, chúng giữ nguyên kích thước và vị trí.</ScaleContent>
     <ScaleHtml>Tỷ lệ của các trang và mục báo cáo trong tệp đã xuất.</ScaleHtml>
@@ -5468,7 +5476,7 @@
     <PropertiesTab>Tab thuộc tính</PropertiesTab>
     <RangeAll>Tất cả</RangeAll>
     <RangeCurrentPage>Trang hiện tại</RangeCurrentPage>
-    <RangeInfo>Nhập số trang và/hoặc phạm vi trang phân cách bởi dấu phẩy. Ví dụ: 1, 3, 5-12</RangeInfo>
+    <RangeInfo>Số trang hoặc phạm vi, phân cách bởi dấu phẩy: 1, 3, 5-12</RangeInfo>
     <RangePage>Phạm vi trang</RangePage>
     <RangePages>Trang:</RangePages>
     <RecentAddresses>Địa chỉ gần đây</RecentAddresses>

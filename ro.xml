@@ -1106,6 +1106,7 @@
     <Color>Culoare</Color>
     <Compressed>Comprimat</Compressed>
     <CompressToArchive>Comprimă în Arhivă</CompressToArchive>
+    <Content>Conţinut</Content>
     <ContinuousPages>Pagini continue</ContinuousPages>
     <DataAndHeaders>Date și Antete</DataAndHeaders>
     <DataAndHeadersFooters>Date şi Antete/Subsoluri</DataAndHeadersFooters>
@@ -1114,6 +1115,7 @@
     <DigitalSignature>Semnătură digitală</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>Certificatul nu este selectat</DigitalSignatureCertificateNotSelected>
     <DigitalSignatureError>Eroare Semnătură Digitală la pasul</DigitalSignatureError>
+    <Document>Document</Document>
     <DocumentSecurity>Securitatea documentului</DocumentSecurity>
     <DotMatrixMode>Mod Punct-Matrice</DotMatrixMode>
     <EmbeddedFonts>Caractere imbricate</EmbeddedFonts>
@@ -1169,6 +1171,7 @@
     <ExportTypeWriterFile>Fişier OpenDocument Writer...</ExportTypeWriterFile>
     <ExportTypeXmlFile>Fişier XML...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Fişier Microsoft XPS...</ExportTypeXpsFile>
+    <Format>Format</Format>
     <GetCertificateFromCryptoUI>Obţine certificat de la Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Metodă compresie imagine:</ImageCompressionMethod>
     <ImageCutEdges>Îndepărtează marginile</ImageCutEdges>
@@ -1179,6 +1182,7 @@
     <ImageResolution>Rezoluţia imaginii:</ImageResolution>
     <ImageResolutionMode>Mod Rezoluție Imagine:</ImageResolutionMode>
     <ImageType>Tipul imaginii</ImageType>
+    <Images>Imagini</Images>
     <labelEncryptionKeyLength>Lungimea cheii de criptare:</labelEncryptionKeyLength>
     <labelOwnerPassword>Parola posesorului:</labelOwnerPassword>
     <labelSubjectNameString>Şir nume subiect:</labelSubjectNameString>
@@ -1196,11 +1200,15 @@
     <PdfACompliance>PDF/Conformitate A</PdfACompliance>
     <PdfUA>PDF/UA (Accesibilitate universală)</PdfUA>
     <PrintingReport>Imprimare Raport</PrintingReport>
+    <Protection>Protecţie</Protection>
+    <Quality>Calitate</Quality>
     <RemoveEmptySpaceAtBottom>Eliminare spaţiu gol din partea de jos a paginii</RemoveEmptySpaceAtBottom>
+    <Resolution>Rezoluţie</Resolution>
     <RestrictEditing>Restricţionare Editare:</RestrictEditing>
     <Scale>Scală:</Scale>
     <Separator>Separator:</Separator>
     <Settings>Setări</Settings>
+    <Sheets>Foi de lucru</Sheets>
     <SkipColumnHeaders>Sare antetul de coloane</SkipColumnHeaders>
     <StandardPDFFonts>Caractere PDF standard</StandardPDFFonts>
     <TiffCompressionScheme>Schema comprimare TIFF:</TiffCompressionScheme>
@@ -2464,7 +2472,7 @@
     <RebuildReport>Generează din nou raportul pentru noua pagină, astfel încât datele să umple noile pagini. Fără această opțiune, se schimbă doar dimensiunea paginilor deja generate. Nu este disponibil pentru un document deschis dintr-un fișier.</RebuildReport>
     <RemoveEmptySpaceAtBottom>Micșorează spațiul gol din partea de jos a paginilor.</RemoveEmptySpaceAtBottom>
     <Resources>Arată resursele.</Resources>
-    <RestrictEditing>Restricțiile privind modificarea documentului Word.</RestrictEditing>
+    <RestrictEditing>Restricțiile privind modificarea documentului.</RestrictEditing>
     <Save>Salvează raportul.</Save>
     <ScaleContent>Redimensionează componentele odată cu pagina. Fără această opțiune, își păstrează dimensiunea și poziția.</ScaleContent>
     <ScaleHtml>Scara paginilor și elementelor raportului în fișierul exportat.</ScaleHtml>
@@ -5547,7 +5555,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <PropertiesTab>Proprietăţi</PropertiesTab>
     <RangeAll>Tot</RangeAll>
     <RangeCurrentPage>Pagina curentă</RangeCurrentPage>
-    <RangeInfo>Introduceţi numărul paginii si/sau o succesiune de pagini separate prin virgule. De exemplu: 1, 3, 5-12</RangeInfo>
+    <RangeInfo>Numere sau intervale separate prin virgule: 1, 3, 5-12</RangeInfo>
     <RangePage>Pagini de imprimat</RangePage>
     <RangePages>Pagini:</RangePages>
     <RecentAddresses>Adrese recente</RecentAddresses>

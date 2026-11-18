@@ -1089,6 +1089,7 @@
     <Color>Color</Color>
     <Compressed>Comprimir</Compressed>
     <CompressToArchive>Comprimir a Archivo</CompressToArchive>
+    <Content>Contenido</Content>
     <ContinuousPages>Páginas Continuas</ContinuousPages>
     <DataAndHeaders>Datos y encabezados</DataAndHeaders>
     <DataAndHeadersFooters>Datos y Encabezados/Pies</DataAndHeadersFooters>
@@ -1097,6 +1098,7 @@
     <DigitalSignature>Firma Digital</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>No se ha seleccionado ningún Certificado</DigitalSignatureCertificateNotSelected>
     <DigitalSignatureError>Error de Firma Digital en paso</DigitalSignatureError>
+    <Document>Documento</Document>
     <DocumentSecurity>Seguridad del Documento</DocumentSecurity>
     <DotMatrixMode>Modo Matricial</DotMatrixMode>
     <EmbeddedFonts>Fuentes Incrustadas</EmbeddedFonts>
@@ -1152,6 +1154,7 @@
     <ExportTypeWriterFile>Escritor de Archivo OpenDocument...</ExportTypeWriterFile>
     <ExportTypeXmlFile>Archivo XML...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Archivo Microsoft XPS...</ExportTypeXpsFile>
+    <Format>Formato</Format>
     <GetCertificateFromCryptoUI>Obtener Certificado de Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Método de Compresión del Imagen:</ImageCompressionMethod>
     <ImageCutEdges>Cortar Bordes</ImageCutEdges>
@@ -1162,6 +1165,7 @@
     <ImageResolution>Resolución de la Imagen</ImageResolution>
     <ImageResolutionMode>Modo de Resolución de Imagen:</ImageResolutionMode>
     <ImageType>Tipo de Imagen</ImageType>
+    <Images>Imágenes</Images>
     <labelEncryptionKeyLength>Longitud de Clave de Encriptación:</labelEncryptionKeyLength>
     <labelOwnerPassword>Contraseña del Propietario:</labelOwnerPassword>
     <labelSubjectNameString>Nombre del Sujeto:</labelSubjectNameString>
@@ -1179,11 +1183,15 @@
     <PdfACompliance>Conformidad PDF/A</PdfACompliance>
     <PdfUA>PDF/UA (Accesibilidad Universal)</PdfUA>
     <PrintingReport>Imprimiendo informe</PrintingReport>
+    <Protection>Protección</Protection>
+    <Quality>Calidad</Quality>
     <RemoveEmptySpaceAtBottom>Eliminar espacio en blanco al final de la página</RemoveEmptySpaceAtBottom>
+    <Resolution>Resolución</Resolution>
     <RestrictEditing>Restringir Edición:</RestrictEditing>
     <Scale>Escalar:</Scale>
     <Separator>Separador:</Separator>
     <Settings>Configuración</Settings>
+    <Sheets>Hojas</Sheets>
     <SkipColumnHeaders>Saltar Cabeceras de Columnas</SkipColumnHeaders>
     <StandardPDFFonts>Fuentes Estándar PDF</StandardPDFFonts>
     <TiffCompressionScheme>Esquema de Compresión TIFF:</TiffCompressionScheme>
@@ -2438,7 +2446,7 @@
     <RebuildReport>Vuelve a generar el informe para la nueva página, de modo que los datos llenen las nuevas páginas. Sin esta opción, solo cambia el tamaño de las páginas ya generadas. No disponible para un documento abierto desde un archivo.</RebuildReport>
     <RemoveEmptySpaceAtBottom>Reducir el espacio vacío en la parte inferior de las páginas.</RemoveEmptySpaceAtBottom>
     <Resources>Mostrar los recursos.</Resources>
-    <RestrictEditing>Las restricciones para cambiar el documento Word.</RestrictEditing>
+    <RestrictEditing>Las restricciones para cambiar el documento.</RestrictEditing>
     <Save>Guardar el informe.</Save>
     <ScaleContent>Cambia el tamaño de los componentes junto con la página. Sin esta opción, conservan su tamaño y posición.</ScaleContent>
     <ScaleHtml>La escala de las páginas y los elementos del informe en el archivo exportado.</ScaleHtml>
@@ -5466,7 +5474,7 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <PropertiesTab>Pestaña de Propiedades</PropertiesTab>
     <RangeAll>Todos</RangeAll>
     <RangeCurrentPage>Página Actual</RangeCurrentPage>
-    <RangeInfo>Entre el número de la página y/o  un rango separados por comas. Por ejemplo:1, 3, 5-12</RangeInfo>
+    <RangeInfo>Números o rangos separados por comas: 1, 3, 5-12</RangeInfo>
     <RangePage>Rango de Páginas</RangePage>
     <RangePages>Páginas:</RangePages>
     <RecentAddresses>Direcciones recientes</RecentAddresses>

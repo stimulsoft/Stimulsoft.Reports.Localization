@@ -1089,6 +1089,7 @@
     <Color>Color</Color>
     <Compressed>Comprimeix</Compressed>
     <CompressToArchive>Comprimir en un arxiu</CompressToArchive>
+    <Content>Contingut</Content>
     <ContinuousPages>Pàgines contínues</ContinuousPages>
     <DataAndHeaders>Dades i capçaleres</DataAndHeaders>
     <DataAndHeadersFooters>Dades i capçaleres/peus</DataAndHeadersFooters>
@@ -1097,6 +1098,7 @@
     <DigitalSignature>Signatura digital</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>No s’ha seleccionat cap certificat</DigitalSignatureCertificateNotSelected>
     <DigitalSignatureError>S’ha produït un error de signatura digital en pas</DigitalSignatureError>
+    <Document>Document</Document>
     <DocumentSecurity>Seguretat del document</DocumentSecurity>
     <DotMatrixMode>Mode matricial</DotMatrixMode>
     <EmbeddedFonts>Fonts incrustades</EmbeddedFonts>
@@ -1152,6 +1154,7 @@
     <ExportTypeWriterFile>Escriptor de fitxer OpenDocument...</ExportTypeWriterFile>
     <ExportTypeXmlFile>Arxiu XML...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Fitxer Microsoft XPS...</ExportTypeXpsFile>
+    <Format>Format</Format>
     <GetCertificateFromCryptoUI>Obtén certificat de Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Mètode de compressió de la imatge:</ImageCompressionMethod>
     <ImageCutEdges>Talla extrems</ImageCutEdges>
@@ -1162,6 +1165,7 @@
     <ImageResolution>Resolució de la imatge</ImageResolution>
     <ImageResolutionMode>Mode de resolució de la imatge:</ImageResolutionMode>
     <ImageType>Tipus d’imatge</ImageType>
+    <Images>Imatges</Images>
     <labelEncryptionKeyLength>Longitud de clau d’encriptació:</labelEncryptionKeyLength>
     <labelOwnerPassword>Contrasenya del propietari:</labelOwnerPassword>
     <labelSubjectNameString>Nom de tema:</labelSubjectNameString>
@@ -1179,11 +1183,15 @@
     <PdfACompliance>Conformitat PDF/A</PdfACompliance>
     <PdfUA>PDF/UA (Accessibilitat universal)</PdfUA>
     <PrintingReport>Imprimint l'informe</PrintingReport>
+    <Protection>Protecció</Protection>
+    <Quality>Qualitat</Quality>
     <RemoveEmptySpaceAtBottom>Elimina l’espai en blanc al final de la pàgina</RemoveEmptySpaceAtBottom>
+    <Resolution>Resolució</Resolution>
     <RestrictEditing>Restringir l'edició:</RestrictEditing>
     <Scale>Escala</Scale>
     <Separator>Separador:</Separator>
     <Settings>Configuració</Settings>
+    <Sheets>Fulls</Sheets>
     <SkipColumnHeaders>Salta les capçaleres de columnes</SkipColumnHeaders>
     <StandardPDFFonts>Fonts estàndard PDF</StandardPDFFonts>
     <TiffCompressionScheme>Esquema de compressió TIFF:</TiffCompressionScheme>
@@ -2438,7 +2446,7 @@
     <RebuildReport>Torna a generar l'informe per a la pàgina nova, perquè les dades omplin les pàgines noves. Sense aquesta opció, només canvia la mida de les pàgines ja generades. No disponible per a un document obert des d'un fitxer.</RebuildReport>
     <RemoveEmptySpaceAtBottom>Redueix l'espai buit a la part inferior de les pàgines.</RemoveEmptySpaceAtBottom>
     <Resources>Mostra els recursos.</Resources>
-    <RestrictEditing>Les restriccions per canviar el document Word.</RestrictEditing>
+    <RestrictEditing>Les restriccions per canviar el document.</RestrictEditing>
     <Save>Desa l’informe.</Save>
     <ScaleContent>Canvia la mida dels components amb la pàgina. Sense aquesta opció, conserven la seva mida i posició.</ScaleContent>
     <ScaleHtml>L'escala de les pàgines i els elements de l'informe al fitxer exportat.</ScaleHtml>
@@ -5465,7 +5473,7 @@ S'ha enviat un correu electrònic a "{0}". Conté un enllaç per confirmar el vo
     <PropertiesTab>Pestanya de propietats</PropertiesTab>
     <RangeAll>Tots</RangeAll>
     <RangeCurrentPage>Pàgina actual</RangeCurrentPage>
-    <RangeInfo>Introduïu el número de la pàgina i/o un rang separats per comes. Per exemple:1, 3, 5-12</RangeInfo>
+    <RangeInfo>Números o rangs separats per comes: 1, 3, 5-12</RangeInfo>
     <RangePage>Rang de pàgines</RangePage>
     <RangePages>Pàgines:</RangePages>
     <RecentAddresses>Adreces recents</RecentAddresses>

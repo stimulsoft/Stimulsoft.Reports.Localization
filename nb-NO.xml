@@ -1089,6 +1089,7 @@
     <Color>Farge</Color>
     <Compressed>Komprimert</Compressed>
     <CompressToArchive>Komprimer til arkiv</CompressToArchive>
+    <Content>Innhold</Content>
     <ContinuousPages>Kontinuerlige sider</ContinuousPages>
     <DataAndHeaders>Data og topptekster</DataAndHeaders>
     <DataAndHeadersFooters>Data og topptekster/bunntekster</DataAndHeadersFooters>
@@ -1097,6 +1098,7 @@
     <DigitalSignature>Digital signatur</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>Ingen sertifikater er valgt</DigitalSignatureCertificateNotSelected>
     <DigitalSignatureError>Feil med digital signatur ved trinn</DigitalSignatureError>
+    <Document>Dokument</Document>
     <DocumentSecurity>Dokumentsikkerhet</DocumentSecurity>
     <DotMatrixMode>Prikkmatriseformat</DotMatrixMode>
     <EmbeddedFonts>Innebygde skrifttyper</EmbeddedFonts>
@@ -1152,6 +1154,7 @@
     <ExportTypeWriterFile>OpenDocument Writer-fil...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML-fil...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS-fil...</ExportTypeXpsFile>
+    <Format>Format</Format>
     <GetCertificateFromCryptoUI>Hent sertifikat fra Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Metode for bildekomprimering:</ImageCompressionMethod>
     <ImageCutEdges>Klipp kanter</ImageCutEdges>
@@ -1162,6 +1165,7 @@
     <ImageResolution>Bildeoppløsning:</ImageResolution>
     <ImageResolutionMode>Bildeoppløsningsmodus:</ImageResolutionMode>
     <ImageType>Bildetype</ImageType>
+    <Images>Bilder</Images>
     <labelEncryptionKeyLength>Lengde på krypteringsnøkkel:</labelEncryptionKeyLength>
     <labelOwnerPassword>Eierpassord:</labelOwnerPassword>
     <labelSubjectNameString>Emne navnestreng:</labelSubjectNameString>
@@ -1179,11 +1183,15 @@
     <PdfACompliance>PDF/A-samsvar</PdfACompliance>
     <PdfUA>PDF/UA (Universell tilgjengelighet)</PdfUA>
     <PrintingReport>Skriver rapport</PrintingReport>
+    <Protection>Beskyttelse</Protection>
+    <Quality>Kvalitet</Quality>
     <RemoveEmptySpaceAtBottom>Fjern tomrom nederst  på siden</RemoveEmptySpaceAtBottom>
+    <Resolution>Oppløsning</Resolution>
     <RestrictEditing>Begrense redigering:</RestrictEditing>
     <Scale>Skala:</Scale>
     <Separator>Separator:</Separator>
     <Settings>Instillinger</Settings>
+    <Sheets>Ark</Sheets>
     <SkipColumnHeaders>Hopp over kolonnetopptekst</SkipColumnHeaders>
     <StandardPDFFonts>Standard PDF-skrifttype</StandardPDFFonts>
     <TiffCompressionScheme>TIFF-komprimeringsskjema:</TiffCompressionScheme>
@@ -2438,7 +2446,7 @@
     <RebuildReport>Bygger rapporten på nytt for den nye siden, slik at dataene fyller de nye sidene. Uten dette endres bare størrelsen på sidene som allerede er bygget. Ikke tilgjengelig for et dokument som er åpnet fra en fil.</RebuildReport>
     <RemoveEmptySpaceAtBottom>Reduser det tomme området nederst på sidene.</RemoveEmptySpaceAtBottom>
     <Resources>Vis ressurser.</Resources>
-    <RestrictEditing>Begrensningene for endring av Word-dokumentet.</RestrictEditing>
+    <RestrictEditing>Begrensningene for endring av dokumentet.</RestrictEditing>
     <Save>Lagre rapporten.</Save>
     <ScaleContent>Endrer størrelsen på komponentene sammen med siden. Uten dette beholder de størrelse og plassering.</ScaleContent>
     <ScaleHtml>Skalaen på rapportsidene og elementene i den eksporterte filen.</ScaleHtml>
@@ -5465,7 +5473,7 @@ E-posten ble sendt til "{0}". Den inneholder en lenke for å bekrefte registreri
     <PropertiesTab>Egenskapsfane</PropertiesTab>
     <RangeAll>Alle</RangeAll>
     <RangeCurrentPage>Gjeldende side</RangeCurrentPage>
-    <RangeInfo>Angi sidenummer og/eller sideområde separert med komma. For eksempel: 1, 3, 5-12</RangeInfo>
+    <RangeInfo>Sidenumre eller sideområder, separert med komma: 1, 3, 5-12</RangeInfo>
     <RangePage>Sideområde</RangePage>
     <RangePages>Sider:</RangePages>
     <RecentAddresses>Nylige adresser</RecentAddresses>

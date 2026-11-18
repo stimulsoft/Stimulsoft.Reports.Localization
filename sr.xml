@@ -1091,6 +1091,7 @@
     <Color>Boja</Color>
     <Compressed>Kompresovano</Compressed>
     <CompressToArchive>Kompresuj u arhivu</CompressToArchive>
+    <Content>Sadržaj</Content>
     <ContinuousPages>Neprekidne stranice</ContinuousPages>
     <DataAndHeaders>Podaci i zaglavlja</DataAndHeaders>
     <DataAndHeadersFooters>Podaci i zaglavlja/podnožja</DataAndHeadersFooters>
@@ -1099,6 +1100,7 @@
     <DigitalSignature>Digitalni Potpis</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>Nije odabran sertifikat</DigitalSignatureCertificateNotSelected>
     <DigitalSignatureError>Greška digitalnog potpisa u koraku</DigitalSignatureError>
+    <Document>Dokument</Document>
     <DocumentSecurity>Sigurnost Dokumenta</DocumentSecurity>
     <DotMatrixMode>Dot-Matrix Mod</DotMatrixMode>
     <EmbeddedFonts>Ugrađeni Fontovi</EmbeddedFonts>
@@ -1154,6 +1156,7 @@
     <ExportTypeWriterFile>OpenDocument Writer datoteka...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML datoteka...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS datoteka...</ExportTypeXpsFile>
+    <Format>Format</Format>
     <GetCertificateFromCryptoUI>Nabavi sertifikat od Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Metoda kompresije slike:</ImageCompressionMethod>
     <ImageCutEdges>Odjeci ivice</ImageCutEdges>
@@ -1164,6 +1167,7 @@
     <ImageResolution>Rezolucija slike:</ImageResolution>
     <ImageResolutionMode>Mod rezolucije slike:</ImageResolutionMode>
     <ImageType>Tip slike</ImageType>
+    <Images>Slike</Images>
     <labelEncryptionKeyLength>Dužina enkripcionog ključa:</labelEncryptionKeyLength>
     <labelOwnerPassword>Vlasnička lozinka:</labelOwnerPassword>
     <labelSubjectNameString>Naziv subjekta:</labelSubjectNameString>
@@ -1181,11 +1185,15 @@
     <PdfACompliance>Usklađenost sa PDF/A</PdfACompliance>
     <PdfUA>PDF/UA (univerzalna pristupačnost)</PdfUA>
     <PrintingReport>Štampanje izvještaja</PrintingReport>
+    <Protection>Zaštita</Protection>
+    <Quality>Kvalitet</Quality>
     <RemoveEmptySpaceAtBottom>Ukloni prazni razmak na dnu</RemoveEmptySpaceAtBottom>
+    <Resolution>Rezolucija</Resolution>
     <RestrictEditing>Ograničeno uređivanje:</RestrictEditing>
     <Scale>Razmera:</Scale>
     <Separator>Separator:</Separator>
     <Settings>Postavke</Settings>
+    <Sheets>Listovi</Sheets>
     <SkipColumnHeaders>Preskoči zaglavlja kolona</SkipColumnHeaders>
     <StandardPDFFonts>Standardni PDF fontovi</StandardPDFFonts>
     <TiffCompressionScheme>TIFF šema sabijanja:</TiffCompressionScheme>
@@ -2442,7 +2450,7 @@
     <RebuildReport>Ponovo pravi izveštaj za novu stranicu, tako da podaci popune nove stranice. Bez ove opcije menja se samo veličina već napravljenih stranica. Nije dostupno za dokument otvoren iz datoteke.</RebuildReport>
     <RemoveEmptySpaceAtBottom>Smanji prazan prostor na dnu stranica.</RemoveEmptySpaceAtBottom>
     <Resources>Prikaži resurse.</Resources>
-    <RestrictEditing>Ograničenja izmene Word dokumenta.</RestrictEditing>
+    <RestrictEditing>Ograničenja izmene dokumenta.</RestrictEditing>
     <Save>Sačuvaj izveštaj.</Save>
     <ScaleContent>Menja veličinu komponenti zajedno sa stranicom. Bez ove opcije zadržavaju svoju veličinu i položaj.</ScaleContent>
     <ScaleHtml>Razmera stranica i elemenata izveštaja u izvezenoj datoteci.</ScaleHtml>
@@ -5489,7 +5497,7 @@ Sadrži link za potvrdu vaše registracije. Kako biste dovršili registraciju mo
     <PropertiesTab>Kartica svojstava</PropertiesTab>
     <RangeAll>Sve</RangeAll>
     <RangeCurrentPage>Trenutna stranica</RangeCurrentPage>
-    <RangeInfo>Unesite broj stranice i/ili raspon stranica odvojenih zapetom. Na primer: 1, 3, 5-12</RangeInfo>
+    <RangeInfo>Brojevi ili rasponi odvojeni zapetom: 1, 3, 5-12</RangeInfo>
     <RangePage>Raspon stranica</RangePage>
     <RangePages>Stranice:</RangePages>
     <RecentAddresses>Nedavne adrese</RecentAddresses>

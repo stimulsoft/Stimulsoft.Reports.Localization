@@ -1089,6 +1089,7 @@
     <Color>Farbe</Color>
     <Compressed>Komprimiert</Compressed>
     <CompressToArchive>Dateien Komprimieren</CompressToArchive>
+    <Content>Inhalt</Content>
     <ContinuousPages>Fortlaufende Seiten</ContinuousPages>
     <DataAndHeaders>Daten und Kopfzeilen</DataAndHeaders>
     <DataAndHeadersFooters>Daten und Kopf/Fuss</DataAndHeadersFooters>
@@ -1097,6 +1098,7 @@
     <DigitalSignature>Digitale Signatur</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>Kein Zertifikat ausgewählt</DigitalSignatureCertificateNotSelected>
     <DigitalSignatureError>Fehler in der digitalen Signatur</DigitalSignatureError>
+    <Document>Dokument</Document>
     <DocumentSecurity>Dokumenten-Sicherheit</DocumentSecurity>
     <DotMatrixMode>Dot-Matrix Modus</DotMatrixMode>
     <EmbeddedFonts>Schriftarten einbetten</EmbeddedFonts>
@@ -1152,6 +1154,7 @@
     <ExportTypeWriterFile>OpenDocument Writer-Datei...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML-Datei...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS-Datei...</ExportTypeXpsFile>
+    <Format>Format</Format>
     <GetCertificateFromCryptoUI>Zertifikat vom Crypto UI nehmen</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Bild-Komprimierungsmethode:</ImageCompressionMethod>
     <ImageCutEdges>Ränder abschneiden</ImageCutEdges>
@@ -1162,6 +1165,7 @@
     <ImageResolution>Auflösung:</ImageResolution>
     <ImageResolutionMode>Bildauflösung-Modus:</ImageResolutionMode>
     <ImageType>Bildtyp</ImageType>
+    <Images>Bilder</Images>
     <labelEncryptionKeyLength>Schlüssellänge für die Verschlüsselung:</labelEncryptionKeyLength>
     <labelOwnerPassword>Besitzer-Passwort:</labelOwnerPassword>
     <labelSubjectNameString>Name des Subjekten:</labelSubjectNameString>
@@ -1179,11 +1183,15 @@
     <PdfACompliance>PDF/A Konformität</PdfACompliance>
     <PdfUA>PDF/UA (universelle Verfügbarkeit)</PdfUA>
     <PrintingReport>Drucken des Berichts</PrintingReport>
+    <Protection>Schutz</Protection>
+    <Quality>Qualität</Quality>
     <RemoveEmptySpaceAtBottom>Leeren Bereich am Ende der Seite entfernen</RemoveEmptySpaceAtBottom>
+    <Resolution>Auflösung</Resolution>
     <RestrictEditing>Bearbeitung einschränken:</RestrictEditing>
     <Scale>Maßstab:</Scale>
     <Separator>Trennzeichen:</Separator>
     <Settings>Einstellungen</Settings>
+    <Sheets>Tabellenblätter</Sheets>
     <SkipColumnHeaders>Spaltenüberschriften auslassen</SkipColumnHeaders>
     <StandardPDFFonts>Standard PDF-Schriftarten</StandardPDFFonts>
     <TiffCompressionScheme>TIFF-Kompressionsschema:</TiffCompressionScheme>
@@ -2438,7 +2446,7 @@
     <RebuildReport>Erstellt den Bericht für die neue Seite neu, sodass die Daten die neuen Seiten füllen. Ohne diese Option ändert sich nur die Größe der bereits erstellten Seiten. Nicht verfügbar für ein aus einer Datei geöffnetes Dokument.</RebuildReport>
     <RemoveEmptySpaceAtBottom>Den leeren Bereich am unteren Rand der Seiten verkleinern.</RemoveEmptySpaceAtBottom>
     <Resources>Ressourcen anzeigen.</Resources>
-    <RestrictEditing>Die Einschränkungen für das Ändern des Word-Dokuments.</RestrictEditing>
+    <RestrictEditing>Die Einschränkungen für das Ändern des Dokuments.</RestrictEditing>
     <Save>Bericht speichern.</Save>
     <ScaleContent>Passt die Größe der Komponenten an die Seite an. Ohne diese Option behalten sie ihre Größe und Position.</ScaleContent>
     <ScaleHtml>Die Skalierung der Berichtseiten und -elemente in der exportierten Datei.</ScaleHtml>
@@ -5466,7 +5474,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <PropertiesTab>Eigenschaften</PropertiesTab>
     <RangeAll>Alle</RangeAll>
     <RangeCurrentPage>Aktuelle Seite</RangeCurrentPage>
-    <RangeInfo>Geben Sie bitte die Seitennummer (durch Komma getrennt) oder Seitenbereiche ein. Z.B. 1, 3, 5-12</RangeInfo>
+    <RangeInfo>Nummern oder Bereiche, durch Komma getrennt: 1, 3, 5-12</RangeInfo>
     <RangePage>Seiten:</RangePage>
     <RangePages>Nummer</RangePages>
     <RecentAddresses>Zuletzt verwendete Adressen</RecentAddresses>

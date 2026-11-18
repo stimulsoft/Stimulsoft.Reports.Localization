@@ -1089,6 +1089,7 @@
     <Color>Цвет</Color>
     <Compressed>Сжатый</Compressed>
     <CompressToArchive>Сжать в архив</CompressToArchive>
+    <Content>Содержимое</Content>
     <ContinuousPages>Непрерывные страницы</ContinuousPages>
     <DataAndHeaders>Данные и Заголовки</DataAndHeaders>
     <DataAndHeadersFooters>Данные и Заголовки/Итоги</DataAndHeadersFooters>
@@ -1097,6 +1098,7 @@
     <DigitalSignature>Цифровая подпись</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>Сертификат не выбран</DigitalSignatureCertificateNotSelected>
     <DigitalSignatureError>Ошибка цифровой подписи на шаге</DigitalSignatureError>
+    <Document>Документ</Document>
     <DocumentSecurity>Безопасность документа</DocumentSecurity>
     <DotMatrixMode>Матричный режим</DotMatrixMode>
     <EmbeddedFonts>Встроить шрифты</EmbeddedFonts>
@@ -1152,6 +1154,7 @@
     <ExportTypeWriterFile>OpenDocument Writer файл...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML файл...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS файл...</ExportTypeXpsFile>
+    <Format>Формат</Format>
     <GetCertificateFromCryptoUI>Брать сертификат из Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Метод сжатия изображения:</ImageCompressionMethod>
     <ImageCutEdges>Обрезать края</ImageCutEdges>
@@ -1162,6 +1165,7 @@
     <ImageResolution>Разрешение изображения:</ImageResolution>
     <ImageResolutionMode>Режим разрешения:</ImageResolutionMode>
     <ImageType>Тип изображения</ImageType>
+    <Images>Изображения</Images>
     <labelEncryptionKeyLength>Длина ключа шифрования:</labelEncryptionKeyLength>
     <labelOwnerPassword>Пароль владельца:</labelOwnerPassword>
     <labelSubjectNameString>Имя субъекта:</labelSubjectNameString>
@@ -1179,11 +1183,15 @@
     <PdfACompliance>PDF/A соглашение</PdfACompliance>
     <PdfUA>PDF/UA (Универсальная доступность)</PdfUA>
     <PrintingReport>Печать отчета</PrintingReport>
+    <Protection>Защита</Protection>
+    <Quality>Качество</Quality>
     <RemoveEmptySpaceAtBottom>Убрать пустое место внизу страницы</RemoveEmptySpaceAtBottom>
+    <Resolution>Разрешение</Resolution>
     <RestrictEditing>Ограничение Редактирования:</RestrictEditing>
     <Scale>Масштаб:</Scale>
     <Separator>Разделитель:</Separator>
     <Settings>Настройки</Settings>
+    <Sheets>Листы</Sheets>
     <SkipColumnHeaders>Пропускать заголовки колонок</SkipColumnHeaders>
     <StandardPDFFonts>Стандартные PDF шрифты</StandardPDFFonts>
     <TiffCompressionScheme>Схема сжатия TIFF:</TiffCompressionScheme>
@@ -2438,7 +2446,7 @@
     <RebuildReport>Построить отчет заново для новой страницы, чтобы данные заполнили новые страницы. Без этого меняется только размер уже построенных страниц. Недоступно для документа, открытого из файла.</RebuildReport>
     <RemoveEmptySpaceAtBottom>Уменьшить пустое место внизу страниц.</RemoveEmptySpaceAtBottom>
     <Resources>Показать ресурсы.</Resources>
-    <RestrictEditing>Ограничения на изменение документа Word.</RestrictEditing>
+    <RestrictEditing>Ограничения на изменение документа.</RestrictEditing>
     <Save>Сохранить отчет.</Save>
     <ScaleContent>Изменить размер компонентов вместе со страницей. Без этого они сохраняют свой размер и место.</ScaleContent>
     <ScaleHtml>Масштаб страниц и элементов отчета в экспортированном файле.</ScaleHtml>
@@ -5465,7 +5473,7 @@
     <PropertiesTab>Свойства</PropertiesTab>
     <RangeAll>Все</RangeAll>
     <RangeCurrentPage>Текущая</RangeCurrentPage>
-    <RangeInfo>Введите номера или диапазоны страниц, разделенные запятыми. Например: 1, 3, 5-12</RangeInfo>
+    <RangeInfo>Номера или диапазоны через запятую: 1, 3, 5-12</RangeInfo>
     <RangePage>Страницы</RangePage>
     <RangePages>Номера</RangePages>
     <RecentAddresses>Недавние адреса</RecentAddresses>

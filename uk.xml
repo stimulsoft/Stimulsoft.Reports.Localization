@@ -1089,6 +1089,7 @@
     <Color>Колір</Color>
     <Compressed>Стислий</Compressed>
     <CompressToArchive>Стиснути в архів</CompressToArchive>
+    <Content>Вміст</Content>
     <ContinuousPages>Неперервні сторінки</ContinuousPages>
     <DataAndHeaders>Дані та заголовки</DataAndHeaders>
     <DataAndHeadersFooters>Дані та Заголовки/Підсумки</DataAndHeadersFooters>
@@ -1097,6 +1098,7 @@
     <DigitalSignature>Цифровий підпис</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>Сертифікат не вибрано</DigitalSignatureCertificateNotSelected>
     <DigitalSignatureError>Помилка цифрового підпису на кроці</DigitalSignatureError>
+    <Document>Документ</Document>
     <DocumentSecurity>Безпека документа</DocumentSecurity>
     <DotMatrixMode>Матричний метод</DotMatrixMode>
     <EmbeddedFonts>Вмонтувати шрифти</EmbeddedFonts>
@@ -1152,6 +1154,7 @@
     <ExportTypeWriterFile>OpenDocument Writer файл...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML файл...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS файл...</ExportTypeXpsFile>
+    <Format>Формат</Format>
     <GetCertificateFromCryptoUI>Отримати сертифікат з Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Метод компресії зображення:</ImageCompressionMethod>
     <ImageCutEdges>Обрізати краї</ImageCutEdges>
@@ -1162,6 +1165,7 @@
     <ImageResolution>Роздільна здатність зображення:</ImageResolution>
     <ImageResolutionMode>Режим роздільної здатності зображення:</ImageResolutionMode>
     <ImageType>Тип зображення</ImageType>
+    <Images>Зображення</Images>
     <labelEncryptionKeyLength>Довжина ключа шифрування:</labelEncryptionKeyLength>
     <labelOwnerPassword>Пароль власника:</labelOwnerPassword>
     <labelSubjectNameString>Ім'я суб'єкта:</labelSubjectNameString>
@@ -1179,11 +1183,15 @@
     <PdfACompliance>PDF/A стандарт</PdfACompliance>
     <PdfUA>PDF/UA (універсальна доступність)</PdfUA>
     <PrintingReport>Друк звіту</PrintingReport>
+    <Protection>Захист</Protection>
+    <Quality>Якість</Quality>
     <RemoveEmptySpaceAtBottom>Видалити порожнє місце внизу сторінки</RemoveEmptySpaceAtBottom>
+    <Resolution>Роздільна здатність</Resolution>
     <RestrictEditing>Обмежити редагування:</RestrictEditing>
     <Scale>Масштаб:</Scale>
     <Separator>Роздільник:</Separator>
     <Settings>Настройки</Settings>
+    <Sheets>Аркуші</Sheets>
     <SkipColumnHeaders>Пропустити заголовки стовпчиків</SkipColumnHeaders>
     <StandardPDFFonts>Стандартні PDF шрифти</StandardPDFFonts>
     <TiffCompressionScheme>Схема компресії TIFF:</TiffCompressionScheme>
@@ -2438,7 +2446,7 @@
     <RebuildReport>Побудувати звіт заново для нової сторінки, щоб дані заповнили нові сторінки. Без цього змінюється лише розмір уже побудованих сторінок. Недоступно для документа, відкритого з файлу.</RebuildReport>
     <RemoveEmptySpaceAtBottom>Зменшити порожнє місце внизу сторінок.</RemoveEmptySpaceAtBottom>
     <Resources>Показати ресурси.</Resources>
-    <RestrictEditing>Обмеження на зміну документа Word.</RestrictEditing>
+    <RestrictEditing>Обмеження на зміну документа.</RestrictEditing>
     <Save>Зберегти звіт.</Save>
     <ScaleContent>Змінити розмір компонентів разом зі сторінкою. Без цього вони зберігають свій розмір і місце.</ScaleContent>
     <ScaleHtml>Масштаб сторінок і елементів звіту в експортованому файлі.</ScaleHtml>
@@ -5465,7 +5473,7 @@
     <PropertiesTab>Властивості</PropertiesTab>
     <RangeAll>все</RangeAll>
     <RangeCurrentPage>поточна</RangeCurrentPage>
-    <RangeInfo>Вкажіть номери або діапазони сторінок, розділені комами. Наприклад: 1, 3, 5-12</RangeInfo>
+    <RangeInfo>Номери або діапазони через кому: 1, 3, 5-12</RangeInfo>
     <RangePage>Сторінки:</RangePage>
     <RangePages>номери</RangePages>
     <RecentAddresses>Недавні адреси</RecentAddresses>

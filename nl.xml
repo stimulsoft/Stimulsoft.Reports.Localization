@@ -1089,6 +1089,7 @@
     <Color>Kleuren</Color>
     <Compressed>Gecomprimeerd</Compressed>
     <CompressToArchive>Comprimeren naar archief</CompressToArchive>
+    <Content>Inhoud</Content>
     <ContinuousPages>Doorlopende Pagina's</ContinuousPages>
     <DataAndHeaders>Gegevens en koppen</DataAndHeaders>
     <DataAndHeadersFooters>Data en Hoofdingen/Voetnoten</DataAndHeadersFooters>
@@ -1097,6 +1098,7 @@
     <DigitalSignature>Digitale Handtekening</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>Certificaat is niet geselecteerd</DigitalSignatureCertificateNotSelected>
     <DigitalSignatureError>Digitale Handtekening fout op stap</DigitalSignatureError>
+    <Document>Document</Document>
     <DocumentSecurity>Documentbeveiliging</DocumentSecurity>
     <DotMatrixMode>Dot-Matrix Modus</DotMatrixMode>
     <EmbeddedFonts>Ingebedde Fonts</EmbeddedFonts>
@@ -1152,6 +1154,7 @@
     <ExportTypeWriterFile>OpenDocument Writer Bestand...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML Bestand...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS Bestand...</ExportTypeXpsFile>
+    <Format>Formaat</Format>
     <GetCertificateFromCryptoUI>Haal Certificaat uit Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Afbeelding Compressie Methode:</ImageCompressionMethod>
     <ImageCutEdges>Randen knippen</ImageCutEdges>
@@ -1162,6 +1165,7 @@
     <ImageResolution>Afbeeldingsresolutie:</ImageResolution>
     <ImageResolutionMode>Afbeeldingsresolutiemodus:</ImageResolutionMode>
     <ImageType>Afbeeldingstype</ImageType>
+    <Images>Afbeeldingen</Images>
     <labelEncryptionKeyLength>Lengte Encryptiesleutel:</labelEncryptionKeyLength>
     <labelOwnerPassword>Eigenaarswachtwoord:</labelOwnerPassword>
     <labelSubjectNameString>Onderwerp Naam Tekst:</labelSubjectNameString>
@@ -1179,11 +1183,15 @@
     <PdfACompliance>PDF/A-conformiteit</PdfACompliance>
     <PdfUA>PDF/UA (Universele toegankelijkheid)</PdfUA>
     <PrintingReport>Rapport afdrukken</PrintingReport>
+    <Protection>Beveiliging</Protection>
+    <Quality>Kwaliteit</Quality>
     <RemoveEmptySpaceAtBottom>Verwijder de lege ruimte aan de onderkant van de pagina</RemoveEmptySpaceAtBottom>
+    <Resolution>Resolutie</Resolution>
     <RestrictEditing>Bewerken beperken:</RestrictEditing>
     <Scale>Schaal</Scale>
     <Separator>Scheidingsteken:</Separator>
     <Settings>Opties</Settings>
+    <Sheets>Werkbladen</Sheets>
     <SkipColumnHeaders>Kolomhoofding Overslaan</SkipColumnHeaders>
     <StandardPDFFonts>Standaard PDF Fonts</StandardPDFFonts>
     <TiffCompressionScheme>TIFF CompressieSchema:</TiffCompressionScheme>
@@ -2438,7 +2446,7 @@
     <RebuildReport>Bouwt het rapport opnieuw op voor de nieuwe pagina, zodat de gegevens de nieuwe pagina's vullen. Zonder deze optie verandert alleen de grootte van de al opgebouwde pagina's. Niet beschikbaar voor een document dat uit een bestand is geopend.</RebuildReport>
     <RemoveEmptySpaceAtBottom>Verklein de lege ruimte onder aan de pagina's.</RemoveEmptySpaceAtBottom>
     <Resources>Toon de bronnen.</Resources>
-    <RestrictEditing>De beperkingen op het wijzigen van het Word-document.</RestrictEditing>
+    <RestrictEditing>De beperkingen op het wijzigen van het document.</RestrictEditing>
     <Save>Bewaar het rapport.</Save>
     <ScaleContent>Past de grootte van de componenten aan met de pagina. Zonder deze optie behouden ze hun grootte en positie.</ScaleContent>
     <ScaleHtml>De schaal van de rapportpagina's en -items in het geëxporteerde bestand.</ScaleHtml>
@@ -5465,7 +5473,7 @@ De e-mail is verzonden naar "{0}". Deze bevat een link om uw registratie te beve
     <PropertiesTab>Eigenschappen Tabblad</PropertiesTab>
     <RangeAll>Alles</RangeAll>
     <RangeCurrentPage>Huidige Pagina</RangeCurrentPage>
-    <RangeInfo>Geef de paginanummer op en/of een paginabereik, gescheiden door komma's. Bijvoorbeeld: 1, 3, 5-12</RangeInfo>
+    <RangeInfo>Nummers of bereiken, gescheiden door komma's: 1, 3, 5-12</RangeInfo>
     <RangePage>Pagina Bereik</RangePage>
     <RangePages>Pagina's:</RangePages>
     <RecentAddresses>Recente adressen</RecentAddresses>

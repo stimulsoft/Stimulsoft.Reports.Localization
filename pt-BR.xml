@@ -1090,6 +1090,7 @@ sucedida</ConnectionSuccessfull>
     <Color>Cor</Color>
     <Compressed>Comprimido</Compressed>
     <CompressToArchive>Comprimir para Arquivo</CompressToArchive>
+    <Content>Conteúdo</Content>
     <ContinuousPages>Páginas contínuas</ContinuousPages>
     <DataAndHeaders>Dados e Cabeçalhos</DataAndHeaders>
     <DataAndHeadersFooters>Dados e Cabeçalhos/Rodapés</DataAndHeadersFooters>
@@ -1098,6 +1099,7 @@ sucedida</ConnectionSuccessfull>
     <DigitalSignature>Assinatura Digital</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>Certificado não Selecionado</DigitalSignatureCertificateNotSelected>
     <DigitalSignatureError>Erro de assinatura digital no passo</DigitalSignatureError>
+    <Document>Documento</Document>
     <DocumentSecurity>Segurança do Documento</DocumentSecurity>
     <DotMatrixMode>Modo Dot-Matrix</DotMatrixMode>
     <EmbeddedFonts>Fontes Embutidas</EmbeddedFonts>
@@ -1153,6 +1155,7 @@ sucedida</ConnectionSuccessfull>
     <ExportTypeWriterFile>Arquivo OpenDocument Writer...</ExportTypeWriterFile>
     <ExportTypeXmlFile>Arquivo XML...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Arquivo Microsoft XPS...</ExportTypeXpsFile>
+    <Format>Formato</Format>
     <GetCertificateFromCryptoUI>Obter Certificado da Interface de Criptografia</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Método de Compressão de Imagem:</ImageCompressionMethod>
     <ImageCutEdges>Cortar Extremidades</ImageCutEdges>
@@ -1163,6 +1166,7 @@ sucedida</ConnectionSuccessfull>
     <ImageResolution>Resolução da Imagem:</ImageResolution>
     <ImageResolutionMode>Modo de Resolução da imagem:</ImageResolutionMode>
     <ImageType>Tipo de Imagem</ImageType>
+    <Images>Imagens</Images>
     <labelEncryptionKeyLength>Comprimento da Chave de Criptografia:</labelEncryptionKeyLength>
     <labelOwnerPassword>Senha do Proprietário:</labelOwnerPassword>
     <labelSubjectNameString>String do Nome do Assunto:</labelSubjectNameString>
@@ -1180,11 +1184,15 @@ sucedida</ConnectionSuccessfull>
     <PdfACompliance>Conformidade PDF/A</PdfACompliance>
     <PdfUA>PDF/UA (Acessibilidade Universal)</PdfUA>
     <PrintingReport>Imprimindo Relatório</PrintingReport>
+    <Protection>Proteção</Protection>
+    <Quality>Qualidade</Quality>
     <RemoveEmptySpaceAtBottom>Remover o espaço vazio na parte inferior da página</RemoveEmptySpaceAtBottom>
+    <Resolution>Resolução</Resolution>
     <RestrictEditing>Restringir edição:</RestrictEditing>
     <Scale>Escala:</Scale>
     <Separator>Separador:</Separator>
     <Settings>Configurações</Settings>
+    <Sheets>Planilhas</Sheets>
     <SkipColumnHeaders>Pular cabeçalhos de coluna</SkipColumnHeaders>
     <StandardPDFFonts>Fontes PDF Padrão</StandardPDFFonts>
     <TiffCompressionScheme>Esquema da compressão do TIFF:</TiffCompressionScheme>
@@ -2440,7 +2448,7 @@ sucedida</ConnectionSuccessfull>
     <RebuildReport>Gera o relatório novamente para a nova página, para que os dados preencham as novas páginas. Sem esta opção, só muda o tamanho das páginas já geradas. Não disponível para um documento aberto de um arquivo.</RebuildReport>
     <RemoveEmptySpaceAtBottom>Reduzir o espaço vazio na parte inferior das páginas.</RemoveEmptySpaceAtBottom>
     <Resources>Mostrar os recursos.</Resources>
-    <RestrictEditing>As restrições à alteração do documento Word.</RestrictEditing>
+    <RestrictEditing>As restrições à alteração do documento.</RestrictEditing>
     <Save>Salvar o relatório.</Save>
     <ScaleContent>Redimensiona os componentes junto com a página. Sem esta opção, eles mantêm seu tamanho e posição.</ScaleContent>
     <ScaleHtml>A escala das páginas e dos elementos do relatório no arquivo exportado.</ScaleHtml>
@@ -5472,7 +5480,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <PropertiesTab>Aba de propriedades</PropertiesTab>
     <RangeAll>Tudo</RangeAll>
     <RangeCurrentPage>Página atual</RangeCurrentPage>
-    <RangeInfo>Insira números de páginas e/ou intervalos de páginas separados por vírgulas. Por exemplo: 1, 3, 5-12</RangeInfo>
+    <RangeInfo>Números ou intervalos separados por vírgulas: 1, 3, 5-12</RangeInfo>
     <RangePage>Intervalo de Páginas</RangePage>
     <RangePages>Páginas:</RangePages>
     <RecentAddresses>Endereços recentes</RecentAddresses>

@@ -1089,6 +1089,7 @@
     <Color>Renk</Color>
     <Compressed>Sıkıştırılmış</Compressed>
     <CompressToArchive>Arşive sıkıştır</CompressToArchive>
+    <Content>İçerik</Content>
     <ContinuousPages>Sürekli Sayfalar</ContinuousPages>
     <DataAndHeaders>Veri ve Üst Kısımlar</DataAndHeaders>
     <DataAndHeadersFooters>Veri ve Üst Kısımlar/Alt Kısımlar</DataAndHeadersFooters>
@@ -1097,6 +1098,7 @@
     <DigitalSignature>Dijital İmza</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>Sertifika Seçilmedi</DigitalSignatureCertificateNotSelected>
     <DigitalSignatureError>Dijital İmza Sırasında Hata</DigitalSignatureError>
+    <Document>Doküman</Document>
     <DocumentSecurity>Doküman Güvenliği</DocumentSecurity>
     <DotMatrixMode>Dot-Matrix Modu</DotMatrixMode>
     <EmbeddedFonts>Gömülü Fontlar</EmbeddedFonts>
@@ -1152,6 +1154,7 @@
     <ExportTypeWriterFile>OpenDocument Writer Dosyası...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML Dosyası...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS Dosyası...</ExportTypeXpsFile>
+    <Format>Format</Format>
     <GetCertificateFromCryptoUI>Sertifikayı Crypto UI'den Al</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Resim Sıkıştırma Metodu:</ImageCompressionMethod>
     <ImageCutEdges>Kesim Kenarları</ImageCutEdges>
@@ -1162,6 +1165,7 @@
     <ImageResolution>Resim Çözünürlüğü:</ImageResolution>
     <ImageResolutionMode>Resim Çözünürlük Modu:</ImageResolutionMode>
     <ImageType>Resim Tipi</ImageType>
+    <Images>Resimler</Images>
     <labelEncryptionKeyLength>Şifreleme Anahtarı Uzunluğu:</labelEncryptionKeyLength>
     <labelOwnerPassword>Sahip Parolası:</labelOwnerPassword>
     <labelSubjectNameString>Konu Adı Dizesi:</labelSubjectNameString>
@@ -1179,11 +1183,15 @@
     <PdfACompliance>PDF/A Uyumu</PdfACompliance>
     <PdfUA>PDF/UA (Evrensel Erişilebilirlik)</PdfUA>
     <PrintingReport>Rapor Yazdırılıyor</PrintingReport>
+    <Protection>Koruma</Protection>
+    <Quality>Kalite</Quality>
     <RemoveEmptySpaceAtBottom>Sayfanın Altındaki Boş Alanı Kaldır</RemoveEmptySpaceAtBottom>
+    <Resolution>Çözünürlük</Resolution>
     <RestrictEditing>Düzenlemeyi Kısıtla:</RestrictEditing>
     <Scale>Ölçek:</Scale>
     <Separator>Ayırıcı:</Separator>
     <Settings>Ayarlar</Settings>
+    <Sheets>Sayfalar</Sheets>
     <SkipColumnHeaders>Sütun Üst Kısımlarını Atla</SkipColumnHeaders>
     <StandardPDFFonts>Standart PDF Fontları</StandardPDFFonts>
     <TiffCompressionScheme>TIFF Sıkıştırma Şeması:</TiffCompressionScheme>
@@ -2438,7 +2446,7 @@
     <RebuildReport>Raporu yeni sayfa için yeniden oluşturur, böylece veriler yeni sayfaları doldurur. Bu seçenek olmadan yalnızca oluşturulmuş sayfaların boyutu değişir. Dosyadan açılan bir belge için kullanılamaz.</RebuildReport>
     <RemoveEmptySpaceAtBottom>Sayfaların altındaki boş alanı küçültün.</RemoveEmptySpaceAtBottom>
     <Resources>Kaynakları gösterin.</Resources>
-    <RestrictEditing>Word belgesinin değiştirilmesine ilişkin sınırlamalar.</RestrictEditing>
+    <RestrictEditing>Belgenin değiştirilmesine ilişkin sınırlamalar.</RestrictEditing>
     <Save>Raporu kaydedin.</Save>
     <ScaleContent>Bileşenleri sayfayla birlikte yeniden boyutlandırır. Bu seçenek olmadan boyutlarını ve konumlarını korurlar.</ScaleContent>
     <ScaleHtml>Dışa aktarılan dosyada rapor sayfalarının ve öğelerinin ölçeği.</ScaleHtml>
@@ -5468,7 +5476,7 @@
     <PropertiesTab>Özellikler Sekmesi</PropertiesTab>
     <RangeAll>Tümü</RangeAll>
     <RangeCurrentPage>Geçerli Sayfa</RangeCurrentPage>
-    <RangeInfo>Sayfa numarasını ve / veya virgülle ayrılmış sayfa aralığını girin. Örneğin: 1, 3, 5-12</RangeInfo>
+    <RangeInfo>Virgülle ayrılmış numaralar veya aralıklar: 1, 3, 5-12</RangeInfo>
     <RangePage>Sayfa Aralığı</RangePage>
     <RangePages>Sayfalar:</RangePages>
     <RecentAddresses>Son adresler</RecentAddresses>

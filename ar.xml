@@ -1089,6 +1089,7 @@
     <Color>اللون</Color>
     <Compressed>مضغوط</Compressed>
     <CompressToArchive>الضغط كأرشيف</CompressToArchive>
+    <Content>المحتوى</Content>
     <ContinuousPages>صفحات متواصلة</ContinuousPages>
     <DataAndHeaders>البيانات مع الترويسة</DataAndHeaders>
     <DataAndHeadersFooters>البيانات مع الترويسة/التذييل</DataAndHeadersFooters>
@@ -1097,6 +1098,7 @@
     <DigitalSignature>توقيع إلكتروني</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>لم يتم تحديد الشهادة</DigitalSignatureCertificateNotSelected>
     <DigitalSignatureError>خطأ الشهادة الرقمية في الخطوة</DigitalSignatureError>
+    <Document>الوثيقة</Document>
     <DocumentSecurity>حماية الوثيقة</DocumentSecurity>
     <DotMatrixMode>نمط الطباعة النقطية</DotMatrixMode>
     <EmbeddedFonts>خطوط مضمنة</EmbeddedFonts>
@@ -1152,6 +1154,7 @@
     <ExportTypeWriterFile>OpenDocument Writer ملف...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML ملف...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS ملف...</ExportTypeXpsFile>
+    <Format>الصيغة</Format>
     <GetCertificateFromCryptoUI>جلب شهادة من Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>نمط ضغط الصور:</ImageCompressionMethod>
     <ImageCutEdges>قطع الحواف</ImageCutEdges>
@@ -1162,6 +1165,7 @@
     <ImageResolution>أبعاد الصورة:</ImageResolution>
     <ImageResolutionMode>نمط وضوح الصورة:</ImageResolutionMode>
     <ImageType>نوع الصورة</ImageType>
+    <Images>الصور</Images>
     <labelEncryptionKeyLength>طول مفتاح التشفير:</labelEncryptionKeyLength>
     <labelOwnerPassword>كلمة مرور المالك:</labelOwnerPassword>
     <labelSubjectNameString>الموضوع:</labelSubjectNameString>
@@ -1179,11 +1183,15 @@
     <PdfACompliance>PDF/A متوافق</PdfACompliance>
     <PdfUA>PDF/UA (إمكانية الوصول الشاملة)</PdfUA>
     <PrintingReport>جارٍ طباعة التقرير</PrintingReport>
+    <Protection>الحماية</Protection>
+    <Quality>الجودة</Quality>
     <RemoveEmptySpaceAtBottom>إزالة المسافة الفارغة من أسفل الصفحة</RemoveEmptySpaceAtBottom>
+    <Resolution>الدقة</Resolution>
     <RestrictEditing>حظر التعديل:</RestrictEditing>
     <Scale>الوزن:</Scale>
     <Separator>فاصل:</Separator>
     <Settings>إعدادات</Settings>
+    <Sheets>أوراق العمل</Sheets>
     <SkipColumnHeaders>تخطي عناوين الأعمدة</SkipColumnHeaders>
     <StandardPDFFonts>خطوط PDF القياسية</StandardPDFFonts>
     <TiffCompressionScheme>TIFF صيغة ضغط:</TiffCompressionScheme>
@@ -2440,7 +2448,7 @@
     <RebuildReport>إعادة إنشاء التقرير للصفحة الجديدة بحيث تملأ البيانات الصفحات الجديدة. بدون هذا الخيار يتغير حجم الصفحات المنشأة فقط. غير متاح لمستند مفتوح من ملف.</RebuildReport>
     <RemoveEmptySpaceAtBottom>تقليص المساحة الفارغة في أسفل الصفحات.</RemoveEmptySpaceAtBottom>
     <Resources>إظهار الموارد.</Resources>
-    <RestrictEditing>القيود على تغيير وثيقة Word.</RestrictEditing>
+    <RestrictEditing>القيود على تغيير الوثيقة.</RestrictEditing>
     <Save>حفظ التقرير.</Save>
     <ScaleContent>تغيير حجم المكونات مع الصفحة. بدون هذا الخيار تحتفظ المكونات بحجمها وموضعها.</ScaleContent>
     <ScaleHtml>مقياس صفحات التقرير وعناصره في الملف الذي تم تصديره.</ScaleHtml>
@@ -5496,7 +5504,7 @@
     <PropertiesTab>خصائص علامة التبويب</PropertiesTab>
     <RangeAll>الكل</RangeAll>
     <RangeCurrentPage>الصفحة الحالية</RangeCurrentPage>
-    <RangeInfo>أدخل رقم الصفحة و / أو نطاقات الصفحات مفصولة بفواصل. على سبيل المثال : 1 و 3 و 5-12</RangeInfo>
+    <RangeInfo>أرقام أو نطاقات مفصولة بفواصل: 1, 3, 5-12</RangeInfo>
     <RangePage>صفحة المدى</RangePage>
     <RangePages>الصفحات :</RangePages>
     <RecentAddresses>العناوين الأخيرة</RecentAddresses>

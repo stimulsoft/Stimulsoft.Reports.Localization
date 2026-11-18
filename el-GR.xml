@@ -1089,6 +1089,7 @@
     <Color>Χρώμα</Color>
     <Compressed>Συμπιεσμένο</Compressed>
     <CompressToArchive>Συμπίεση</CompressToArchive>
+    <Content>Περιεχόμενο</Content>
     <ContinuousPages>Συνεχείς Σελίδες</ContinuousPages>
     <DataAndHeaders>Δεδομένα και Κεφαλίδες</DataAndHeaders>
     <DataAndHeadersFooters>Δεδομένα και Κεφαλίδες/Υποσέλιδα</DataAndHeadersFooters>
@@ -1097,6 +1098,7 @@
     <DigitalSignature>Ψηφιακή Υπογραφή</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>Το πιστοποιητικό δεν είναι επιλεγμένο</DigitalSignatureCertificateNotSelected>
     <DigitalSignatureError>Σφάλμα ψηφιακής υπογραφής στο βήμα</DigitalSignatureError>
+    <Document>Έγγραφο</Document>
     <DocumentSecurity>Ασφάλεια Εγγράφου</DocumentSecurity>
     <DotMatrixMode>Λειτουργία Dot-Matrix</DotMatrixMode>
     <EmbeddedFonts>Ενσωματωμένες Γραμματοσειρές</EmbeddedFonts>
@@ -1152,6 +1154,7 @@
     <ExportTypeWriterFile>Αρχείο OpenDocument Writer...</ExportTypeWriterFile>
     <ExportTypeXmlFile>Αρχείο XML...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Αρχείο XPS...</ExportTypeXpsFile>
+    <Format>Μορφή</Format>
     <GetCertificateFromCryptoUI>Λήψη Πιστοποιητικού Από Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Μέθοδος Συμπίεσης Εικόνας:</ImageCompressionMethod>
     <ImageCutEdges>Αποκοπή Άκρων</ImageCutEdges>
@@ -1162,6 +1165,7 @@
     <ImageResolution>Ανάλυση Εικόνας:</ImageResolution>
     <ImageResolutionMode>Λειτουργία Ανάλυσης Εικόνας :</ImageResolutionMode>
     <ImageType>Τύπος Εικόνας</ImageType>
+    <Images>Εικόνες</Images>
     <labelEncryptionKeyLength>Μήκος Κλειδιού Κρυπτογράφησης:</labelEncryptionKeyLength>
     <labelOwnerPassword>Κωδικός Ιδιοκτήτη:</labelOwnerPassword>
     <labelSubjectNameString>Όνομα Υποκειμένου:</labelSubjectNameString>
@@ -1179,11 +1183,15 @@
     <PdfACompliance>Συμμόρφωση με PDF/A</PdfACompliance>
     <PdfUA>PDF/UA (Καθολική προσβασιμότητα)</PdfUA>
     <PrintingReport>Εκτύπωση Αναφοράς</PrintingReport>
+    <Protection>Προστασία</Protection>
+    <Quality>Ποιότητα</Quality>
     <RemoveEmptySpaceAtBottom>Αφαίρεση Κενού Χώρου Από Το Τέλος Της Σελίδας</RemoveEmptySpaceAtBottom>
+    <Resolution>Ανάλυση</Resolution>
     <RestrictEditing>Περιορισμός Επεξεργασίας:</RestrictEditing>
     <Scale>Κλίμακα:</Scale>
     <Separator>Διαχωριστής:</Separator>
     <Settings>Ρυθμίσεις</Settings>
+    <Sheets>Φύλλα</Sheets>
     <SkipColumnHeaders>Παράλειψη Κεφαλίδων Στηλών</SkipColumnHeaders>
     <StandardPDFFonts>Προεπιλεγμένες Γραμματοσειρές</StandardPDFFonts>
     <TiffCompressionScheme>Μέθοδος Συμπίεσης TIFF:</TiffCompressionScheme>
@@ -2438,7 +2446,7 @@
     <RebuildReport>Δημιουργεί ξανά την αναφορά για τη νέα σελίδα, ώστε τα δεδομένα να γεμίσουν τις νέες σελίδες. Χωρίς αυτό, αλλάζει μόνο το μέγεθος των σελίδων που έχουν ήδη δημιουργηθεί. Δεν είναι διαθέσιμο για έγγραφο που ανοίχτηκε από αρχείο.</RebuildReport>
     <RemoveEmptySpaceAtBottom>Μείωση του κενού χώρου στο κάτω μέρος των σελίδων.</RemoveEmptySpaceAtBottom>
     <Resources>Εμφάνιση των πόρων.</Resources>
-    <RestrictEditing>Οι περιορισμοί αλλαγών στο έγγραφο Word.</RestrictEditing>
+    <RestrictEditing>Οι περιορισμοί αλλαγών στο έγγραφο.</RestrictEditing>
     <Save>Αποθήκευση της αναφοράς.</Save>
     <ScaleContent>Αλλάζει το μέγεθος των στοιχείων μαζί με τη σελίδα. Χωρίς αυτό, διατηρούν το μέγεθος και τη θέση τους.</ScaleContent>
     <ScaleHtml>Η κλίμακα των σελίδων και των στοιχείων της αναφοράς στο αρχείο εξαγωγής.</ScaleHtml>
@@ -5466,7 +5474,7 @@
     <PropertiesTab>Καρτέλα Ιδιοτήτων</PropertiesTab>
     <RangeAll>Όλες</RangeAll>
     <RangeCurrentPage>Τρέχουσα Σελίδα</RangeCurrentPage>
-    <RangeInfo>Εισάγετε αριθμό σελίδας και/ή εύρος σελιδών χωρισμένα με κόμμα. Για παράδειγμα: 1, 3, 5-12</RangeInfo>
+    <RangeInfo>Αριθμοί ή εύρη, χωρισμένα με κόμμα: 1, 3, 5-12</RangeInfo>
     <RangePage>Εύρος Σελιδών</RangePage>
     <RangePages>Σελίδες:</RangePages>
     <RecentAddresses>Πρόσφατες διευθύνσεις</RecentAddresses>

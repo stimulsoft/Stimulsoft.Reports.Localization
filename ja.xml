@@ -1090,6 +1090,7 @@
     <Color>色</Color>
     <Compressed>圧縮された</Compressed>
     <CompressToArchive>アーカイブに圧縮</CompressToArchive>
+    <Content>コンテンツ</Content>
     <ContinuousPages>連続ページ</ContinuousPages>
     <DataAndHeaders>データとヘッダ</DataAndHeaders>
     <DataAndHeadersFooters>データとヘッダ/フッタ</DataAndHeadersFooters>
@@ -1098,6 +1099,7 @@
     <DigitalSignature>デジタル署名</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>証明書が選択されていません</DigitalSignatureCertificateNotSelected>
     <DigitalSignatureError>ステップのデジタル署名エラー</DigitalSignatureError>
+    <Document>ドキュメント</Document>
     <DocumentSecurity>ドキュメントのセキュリティ</DocumentSecurity>
     <DotMatrixMode>ドットマトリクスモード</DotMatrixMode>
     <EmbeddedFonts>埋め込みフォント</EmbeddedFonts>
@@ -1153,6 +1155,7 @@
     <ExportTypeWriterFile>OpenDocument Writerファイル...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XMLファイル...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPSファイル...</ExportTypeXpsFile>
+    <Format>形式</Format>
     <GetCertificateFromCryptoUI>暗号UIから証明書を取得</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>画像圧縮方式：</ImageCompressionMethod>
     <ImageCutEdges>エッジをカット</ImageCutEdges>
@@ -1163,6 +1166,7 @@
     <ImageResolution>画像の解像度：</ImageResolution>
     <ImageResolutionMode>画像解像度モード：</ImageResolutionMode>
     <ImageType>イメージタイプ</ImageType>
+    <Images>画像</Images>
     <labelEncryptionKeyLength>暗号化キーの長さ：</labelEncryptionKeyLength>
     <labelOwnerPassword>オーナーパスワード：</labelOwnerPassword>
     <labelSubjectNameString>サブジェクト名文字列：</labelSubjectNameString>
@@ -1180,11 +1184,15 @@
     <PdfACompliance>PDF</PdfACompliance>
     <PdfUA>PDF/UA（ユニバーサルアクセシビリティ）</PdfUA>
     <PrintingReport>印刷レポート</PrintingReport>
+    <Protection>保護</Protection>
+    <Quality>画質</Quality>
     <RemoveEmptySpaceAtBottom>ページの下部にある空白を削除</RemoveEmptySpaceAtBottom>
+    <Resolution>解像度</Resolution>
     <RestrictEditing>編集を制限：</RestrictEditing>
     <Scale>規模：</Scale>
     <Separator>セパレータ：</Separator>
     <Settings>設定</Settings>
+    <Sheets>シート</Sheets>
     <SkipColumnHeaders>列ヘッダをスキップ</SkipColumnHeaders>
     <StandardPDFFonts>標準PDFフォント</StandardPDFFonts>
     <TiffCompressionScheme>TIFF圧縮スキーム：</TiffCompressionScheme>
@@ -2439,7 +2447,7 @@
     <RebuildReport>新しいページに合わせてレポートを再構築し、データが新しいページに配置されるようにします。オフの場合、構築済みのページのサイズだけが変わります。ファイルから開いたドキュメントでは使用できません。</RebuildReport>
     <RemoveEmptySpaceAtBottom>ページ下部の空白を縮小します。</RemoveEmptySpaceAtBottom>
     <Resources>リソースを表示します。</Resources>
-    <RestrictEditing>Word文書の変更の制限。</RestrictEditing>
+    <RestrictEditing>文書の変更の制限。</RestrictEditing>
     <Save>レポートを保存します。</Save>
     <ScaleContent>ページに合わせてコンポーネントのサイズを変更します。オフの場合、コンポーネントのサイズと位置は変わりません。</ScaleContent>
     <ScaleHtml>エクスポートしたファイル内のレポートページと要素のスケール。</ScaleHtml>
@@ -5470,7 +5478,7 @@
     <PropertiesTab>[プロパティ]タブ</PropertiesTab>
     <RangeAll>すべて</RangeAll>
     <RangeCurrentPage>現在のページ</RangeCurrentPage>
-    <RangeInfo>ページ番号と</RangeInfo>
+    <RangeInfo>カンマ区切りのページ番号または範囲: 1, 3, 5-12</RangeInfo>
     <RangePage>ページ範囲</RangePage>
     <RangePages>ページ：</RangePages>
     <RecentAddresses>最近使ったアドレス</RecentAddresses>

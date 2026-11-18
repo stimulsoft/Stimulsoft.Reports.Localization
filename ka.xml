@@ -1095,6 +1095,7 @@
     <Color>ფერი</Color>
     <Compressed>კომპრესირებული</Compressed>
     <CompressToArchive>არქივში შეკუმშვა</CompressToArchive>
+    <Content>შიგთავსი</Content>
     <ContinuousPages>უწყვეტი გვერდები</ContinuousPages>
     <DataAndHeaders>მონაცემები და კოლონტიტულები</DataAndHeaders>
     <DataAndHeadersFooters>მონაცემები და ზედა/ქვედა კოლონტიტულები</DataAndHeadersFooters>
@@ -1103,6 +1104,7 @@
     <DigitalSignature>ციფრული ხელმოწერა</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>სერტიფიკატი არ არის მონიშნული</DigitalSignatureCertificateNotSelected>
     <DigitalSignatureError>ციფრული ხელმოწერის შეცდომა</DigitalSignatureError>
+    <Document>დოკუმენტი</Document>
     <DocumentSecurity>დოკუმენტის უსაფრთხოება</DocumentSecurity>
     <DotMatrixMode>მატრიცული რეჟიმი</DotMatrixMode>
     <EmbeddedFonts>ფონტების ჩაშენება</EmbeddedFonts>
@@ -1158,6 +1160,7 @@
     <ExportTypeWriterFile>OpenDocument Writer ფაილი...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML ფაილი...</ExportTypeXmlFile>
     <ExportTypeXpsFile>XPS ფაილი...</ExportTypeXpsFile>
+    <Format>ფორმატი</Format>
     <GetCertificateFromCryptoUI>Crypto UI-სგან სერტიფიკატის მიღება</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>სურათის კომპრესიის მეთოდი:</ImageCompressionMethod>
     <ImageCutEdges>გვერდების მოჭრით</ImageCutEdges>
@@ -1168,6 +1171,7 @@
     <ImageResolution>სურათის რეზოლუცია:</ImageResolution>
     <ImageResolutionMode>სურათის გაფართოების რეჟიმი:</ImageResolutionMode>
     <ImageType>გამოსახულების ტიპი</ImageType>
+    <Images>სურათები</Images>
     <labelEncryptionKeyLength>შიფრაციის გასაღების სიგრძე:</labelEncryptionKeyLength>
     <labelOwnerPassword>მფლობელის პაროლი:</labelOwnerPassword>
     <labelSubjectNameString>ობიექტთა დასახელებების სტრიქონი:</labelSubjectNameString>
@@ -1185,11 +1189,15 @@
     <PdfACompliance>PDF/A შესაბამისობა</PdfACompliance>
     <PdfUA>PDF/UA (უნივერსალური ხელმისაწვდომობა)</PdfUA>
     <PrintingReport>რეპორტის ბეჭდვა</PrintingReport>
+    <Protection>დაცვა</Protection>
+    <Quality>ხარისხი</Quality>
     <RemoveEmptySpaceAtBottom>ფურცლის ქვედა მხრიდან ცარიელი ადგილის გაუქმება</RemoveEmptySpaceAtBottom>
+    <Resolution>რეზოლუცია</Resolution>
     <RestrictEditing>რედაქტირების აკრძალვა:</RestrictEditing>
     <Scale>მასშტაბი:</Scale>
     <Separator>გამყოფი:</Separator>
     <Settings>პარამეტრები</Settings>
+    <Sheets>ფურცლები</Sheets>
     <SkipColumnHeaders>სვეტების დასახელებების გამოტოვება</SkipColumnHeaders>
     <StandardPDFFonts>სტანდარტული PDF ფონტები</StandardPDFFonts>
     <TiffCompressionScheme>TIFF კომპრესიის სქემა:</TiffCompressionScheme>
@@ -2449,7 +2457,7 @@
     <RebuildReport>ხელახლა აგებს ანგარიშს ახალი გვერდისთვის, რომ მონაცემებმა ახალი გვერდები შეავსოს. ამის გარეშე იცვლება მხოლოდ უკვე აგებული გვერდების ზომა. მიუწვდომელია ფაილიდან გახსნილი დოკუმენტისთვის.</RebuildReport>
     <RemoveEmptySpaceAtBottom>გვერდების ქვედა ნაწილში ცარიელი ადგილის შემცირება.</RemoveEmptySpaceAtBottom>
     <Resources>რესურსების ჩვენება.</Resources>
-    <RestrictEditing>Word დოკუმენტის შეცვლის შეზღუდვები.</RestrictEditing>
+    <RestrictEditing>დოკუმენტის შეცვლის შეზღუდვები.</RestrictEditing>
     <Save>რეპორტის შენახვა.</Save>
     <ScaleContent>ცვლის კომპონენტების ზომას გვერდთან ერთად. ამის გარეშე ისინი ინარჩუნებენ ზომასა და ადგილს.</ScaleContent>
     <ScaleHtml>რეპორტის გვერდებისა და ელემენტების მასშტაბი ექსპორტირებულ ფაილში.</ScaleHtml>
@@ -5564,7 +5572,7 @@
     <PropertiesTab>თვისებები</PropertiesTab>
     <RangeAll>ყველა</RangeAll>
     <RangeCurrentPage>მიმდინარე</RangeCurrentPage>
-    <RangeInfo>შეიყვანეთ გვერდის ნომერი ან დიაპაზონი. გამოყავით მძიმეებით. მაგალითად: 1, 3, 5-12</RangeInfo>
+    <RangeInfo>მძიმეებით გამოყოფილი ნომრები ან დიაპაზონები: 1, 3, 5-12</RangeInfo>
     <RangePage>გვერდები:</RangePage>
     <RangePages>ნომრები</RangePages>
     <RecentAddresses>ბოლო მისამართები</RecentAddresses>

@@ -1089,6 +1089,7 @@
     <Color>रंग</Color>
     <Compressed>संपीड़ित</Compressed>
     <CompressToArchive>संग्रह में संपीड़ित करें</CompressToArchive>
+    <Content>सामग्री</Content>
     <ContinuousPages>निरंतर पेज</ContinuousPages>
     <DataAndHeaders>डेटा और हेडर</DataAndHeaders>
     <DataAndHeadersFooters>डेटा और हेडर/फ़ुटर</DataAndHeadersFooters>
@@ -1097,6 +1098,7 @@
     <DigitalSignature>डिजिटल हस्ताक्षर</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>प्रमाणपत्र चयनित नहीं है</DigitalSignatureCertificateNotSelected>
     <DigitalSignatureError>चरण पर डिजिटल हस्ताक्षर त्रुटि</DigitalSignatureError>
+    <Document>दस्तावेज़</Document>
     <DocumentSecurity>दस्तावेज़ सुरक्षा</DocumentSecurity>
     <DotMatrixMode>डॉट-मैट्रिक्स मोड</DotMatrixMode>
     <EmbeddedFonts>एम्बेडेड फ़ॉन्ट</EmbeddedFonts>
@@ -1152,6 +1154,7 @@
     <ExportTypeWriterFile>OpenDocument Writer फ़ाइल...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML फ़ाइल...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS फ़ाइल...</ExportTypeXpsFile>
+    <Format>प्रारूप</Format>
     <GetCertificateFromCryptoUI>Crypto UI से प्रमाणपत्र प्राप्त करें</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>छवि संपीड़न विधि:</ImageCompressionMethod>
     <ImageCutEdges>किनारे काटें</ImageCutEdges>
@@ -1162,6 +1165,7 @@
     <ImageResolution>छवि रिज़ॉल्यूशन:</ImageResolution>
     <ImageResolutionMode>छवि रिज़ॉल्यूशन मोड:</ImageResolutionMode>
     <ImageType>छवि प्रकार</ImageType>
+    <Images>छवियाँ</Images>
     <labelEncryptionKeyLength>एन्क्रिप्शन कुंजी लंबाई:</labelEncryptionKeyLength>
     <labelOwnerPassword>स्वामी पासवर्ड:</labelOwnerPassword>
     <labelSubjectNameString>विषय नाम स्ट्रिंग:</labelSubjectNameString>
@@ -1179,11 +1183,15 @@
     <PdfACompliance>PDF/A अनुपालन</PdfACompliance>
     <PdfUA>PDF/UA (यूनिवर्सल एक्सेसिबिलिटी)</PdfUA>
     <PrintingReport>रिपोर्ट प्रिंट की जा रही है</PrintingReport>
+    <Protection>सुरक्षा</Protection>
+    <Quality>गुणवत्ता</Quality>
     <RemoveEmptySpaceAtBottom>पेज के नीचे खाली स्थान हटाएँ</RemoveEmptySpaceAtBottom>
+    <Resolution>रिज़ॉल्यूशन</Resolution>
     <RestrictEditing>संपादन प्रतिबंधित करें:</RestrictEditing>
     <Scale>स्केल:</Scale>
     <Separator>विभाजक:</Separator>
     <Settings>सेटिंग्स</Settings>
+    <Sheets>शीटें</Sheets>
     <SkipColumnHeaders>कॉलम हेडर छोड़ें</SkipColumnHeaders>
     <StandardPDFFonts>मानक PDF फ़ॉन्ट</StandardPDFFonts>
     <TiffCompressionScheme>TIFF संपीड़न योजना:</TiffCompressionScheme>
@@ -2438,7 +2446,7 @@
     <RebuildReport>नए पृष्ठ के लिए रिपोर्ट फिर से बनाता है, ताकि डेटा नए पृष्ठों को भर दे। इसके बिना केवल पहले से बने पृष्ठों का आकार बदलता है। फ़ाइल से खोले गए दस्तावेज़ के लिए उपलब्ध नहीं है।</RebuildReport>
     <RemoveEmptySpaceAtBottom>पेजों के नीचे का खाली स्थान कम करें।</RemoveEmptySpaceAtBottom>
     <Resources>संसाधन दिखाएँ।</Resources>
-    <RestrictEditing>Word दस्तावेज़ को बदलने पर सीमाएँ।</RestrictEditing>
+    <RestrictEditing>दस्तावेज़ को बदलने पर सीमाएँ।</RestrictEditing>
     <Save>रिपोर्ट सहेजें।</Save>
     <ScaleContent>पृष्ठ के साथ घटकों का आकार बदलता है। इसके बिना वे अपना आकार और स्थान बनाए रखते हैं।</ScaleContent>
     <ScaleHtml>निर्यात की गई फ़ाइल में रिपोर्ट पेजों और आइटमों का स्केल।</ScaleHtml>
@@ -5468,7 +5476,7 @@
     <PropertiesTab>गुण टैब</PropertiesTab>
     <RangeAll>सभी</RangeAll>
     <RangeCurrentPage>वर्तमान पेज</RangeCurrentPage>
-    <RangeInfo>अल्पविराम से अलग करके पेज संख्याएँ और/या पेज रेंज दर्ज करें। उदाहरण के लिए: 1, 3, 5-12</RangeInfo>
+    <RangeInfo>अल्पविराम से अलग पेज संख्याएँ या रेंज: 1, 3, 5-12</RangeInfo>
     <RangePage>पेज रेंज</RangePage>
     <RangePages>पेज:</RangePages>
     <RecentAddresses>हाल के पते</RecentAddresses>

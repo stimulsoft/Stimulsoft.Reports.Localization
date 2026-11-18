@@ -1090,6 +1090,7 @@
     <Color>顏色</Color>
     <Compressed>壓縮</Compressed>
     <CompressToArchive>壓縮為封存檔</CompressToArchive>
+    <Content>內容</Content>
     <ContinuousPages>連續頁面</ContinuousPages>
     <DataAndHeaders>資料與頁首</DataAndHeaders>
     <DataAndHeadersFooters>資料與頁首/頁尾</DataAndHeadersFooters>
@@ -1098,6 +1099,7 @@
     <DigitalSignature>數字簽名</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>未選擇憑證</DigitalSignatureCertificateNotSelected>
     <DigitalSignatureError>數位簽章錯誤發生於步驟</DigitalSignatureError>
+    <Document>文檔</Document>
     <DocumentSecurity>文檔安全</DocumentSecurity>
     <DotMatrixMode>點陣模式</DotMatrixMode>
     <EmbeddedFonts>嵌入字體</EmbeddedFonts>
@@ -1153,6 +1155,7 @@
     <ExportTypeWriterFile>打開 Writer File 文檔...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML 文件...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS 檔案...</ExportTypeXpsFile>
+    <Format>格式</Format>
     <GetCertificateFromCryptoUI>從 Crypto UI 獲取證書</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>圖像壓縮方法:</ImageCompressionMethod>
     <ImageCutEdges>裁邊</ImageCutEdges>
@@ -1163,6 +1166,7 @@
     <ImageResolution>清晰度:</ImageResolution>
     <ImageResolutionMode>圖片解析度模式：</ImageResolutionMode>
     <ImageType>圖片類型</ImageType>
+    <Images>圖像</Images>
     <labelEncryptionKeyLength>密鑰長度:</labelEncryptionKeyLength>
     <labelOwnerPassword>所有者密碼:</labelOwnerPassword>
     <labelSubjectNameString>主題命名字串:</labelSubjectNameString>
@@ -1180,11 +1184,15 @@
     <PdfACompliance>PDF/A 相容性</PdfACompliance>
     <PdfUA>PDF/UA（通用無障礙）</PdfUA>
     <PrintingReport>正在列印報表</PrintingReport>
+    <Protection>保護</Protection>
+    <Quality>品質</Quality>
     <RemoveEmptySpaceAtBottom>移除頁面底部的空白區域</RemoveEmptySpaceAtBottom>
+    <Resolution>清晰度</Resolution>
     <RestrictEditing>限制編輯：</RestrictEditing>
     <Scale>縮放</Scale>
     <Separator>分隔符號:</Separator>
     <Settings>設置</Settings>
+    <Sheets>工作表</Sheets>
     <SkipColumnHeaders>略過列頭</SkipColumnHeaders>
     <StandardPDFFonts>標準PDF字體</StandardPDFFonts>
     <TiffCompressionScheme>TIFF 壓縮方式：</TiffCompressionScheme>
@@ -2439,7 +2447,7 @@
     <RebuildReport>為新頁面重新產生報表，使資料填滿新頁面。不選此項時，只改變已產生頁面的大小。對從檔案開啟的文件不可用。</RebuildReport>
     <RemoveEmptySpaceAtBottom>縮小頁面底部的空白區域。</RemoveEmptySpaceAtBottom>
     <Resources>顯示資源。</Resources>
-    <RestrictEditing>對 Word 文件變更的限制。</RestrictEditing>
+    <RestrictEditing>對文件變更的限制。</RestrictEditing>
     <Save>儲存報表。</Save>
     <ScaleContent>隨頁面一起調整元件大小。不選此項時，元件保持原有大小和位置。</ScaleContent>
     <ScaleHtml>匯出檔案中報表頁面和項目的縮放比例。</ScaleHtml>
@@ -5466,7 +5474,7 @@
     <PropertiesTab>屬性表</PropertiesTab>
     <RangeAll>全部</RangeAll>
     <RangeCurrentPage>當前頁</RangeCurrentPage>
-    <RangeInfo>輸入頁碼並且/或頁碼範圍用逗號分隔。例如: 1, 3, 5-12</RangeInfo>
+    <RangeInfo>用逗號分隔的頁碼或範圍: 1, 3, 5-12</RangeInfo>
     <RangePage>頁面範圍</RangePage>
     <RangePages>頁面：</RangePages>
     <RecentAddresses>最近的位址</RecentAddresses>

@@ -1089,6 +1089,7 @@
     <Color>Color</Color>
     <Compressed>Compressed</Compressed>
     <CompressToArchive>Compress to Archive</CompressToArchive>
+    <Content>Content</Content>
     <ContinuousPages>Continuous Pages</ContinuousPages>
     <DataAndHeaders>Data and Headers</DataAndHeaders>
     <DataAndHeadersFooters>Data and Headers/Footers</DataAndHeadersFooters>
@@ -1097,6 +1098,7 @@
     <DigitalSignature>Digital Signature</DigitalSignature>
     <DigitalSignatureCertificateNotSelected>Certificate is not selected</DigitalSignatureCertificateNotSelected>
     <DigitalSignatureError>Digital Signature error at step</DigitalSignatureError>
+    <Document>Document</Document>
     <DocumentSecurity>Document Security</DocumentSecurity>
     <DotMatrixMode>Dot-Matrix Mode</DotMatrixMode>
     <EmbeddedFonts>Embedded Fonts</EmbeddedFonts>
@@ -1152,6 +1154,7 @@
     <ExportTypeWriterFile>OpenDocument Writer File...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML File...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS File...</ExportTypeXpsFile>
+    <Format>Format</Format>
     <GetCertificateFromCryptoUI>Get Certificate from Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Image Compression Method:</ImageCompressionMethod>
     <ImageCutEdges>Cut Edges</ImageCutEdges>
@@ -1162,6 +1165,7 @@
     <ImageResolution>Image Resolution:</ImageResolution>
     <ImageResolutionMode>Image Resolution Mode:</ImageResolutionMode>
     <ImageType>Image Type</ImageType>
+    <Images>Images</Images>
     <labelEncryptionKeyLength>Encryption Key Length:</labelEncryptionKeyLength>
     <labelOwnerPassword>Owner Password:</labelOwnerPassword>
     <labelSubjectNameString>Subject Name String:</labelSubjectNameString>
@@ -1179,11 +1183,15 @@
     <PdfACompliance>PDF/A Compliance</PdfACompliance>
     <PdfUA>PDF/UA (Universal Accessibility)</PdfUA>
     <PrintingReport>Printing Report</PrintingReport>
+    <Protection>Protection</Protection>
+    <Quality>Quality</Quality>
     <RemoveEmptySpaceAtBottom>Remove Empty Space at Bottom of Page</RemoveEmptySpaceAtBottom>
+    <Resolution>Resolution</Resolution>
     <RestrictEditing>Restrict Editing:</RestrictEditing>
     <Scale>Scale:</Scale>
     <Separator>Separator:</Separator>
     <Settings>Settings</Settings>
+    <Sheets>Sheets</Sheets>
     <SkipColumnHeaders>Skip Column Headers</SkipColumnHeaders>
     <StandardPDFFonts>Standard PDF Fonts</StandardPDFFonts>
     <TiffCompressionScheme>TIFF Compression Scheme:</TiffCompressionScheme>
@@ -2438,7 +2446,7 @@
     <RebuildReport>Build the report again for the new page, so the data fills the new pages. Without it, only the built pages change their size. Not available for a document opened from a file.</RebuildReport>
     <RemoveEmptySpaceAtBottom>Shrink the empty space at the bottom of the pages.</RemoveEmptySpaceAtBottom>
     <Resources>Show the resources.</Resources>
-    <RestrictEditing>The limits on changing the Word document.</RestrictEditing>
+    <RestrictEditing>The limits on changing the document.</RestrictEditing>
     <Save>Save the report.</Save>
     <ScaleContent>Resize the components with the page. Without it, they keep their size and place.</ScaleContent>
     <ScaleHtml>The scale of the report pages and items in the exported file.</ScaleHtml>
@@ -5468,7 +5476,7 @@
     <PropertiesTab>Properties Tab</PropertiesTab>
     <RangeAll>All</RangeAll>
     <RangeCurrentPage>Current Page</RangeCurrentPage>
-    <RangeInfo>Enter page numbers and/or page ranges separated by commas. For example: 1, 3, 5-12</RangeInfo>
+    <RangeInfo>Numbers or ranges, comma-separated: 1, 3, 5-12</RangeInfo>
     <RangePage>Page Range</RangePage>
     <RangePages>Pages:</RangePages>
     <RecentAddresses>Recent URLs</RecentAddresses>
