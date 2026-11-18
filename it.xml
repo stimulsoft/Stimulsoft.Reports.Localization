@@ -1078,16 +1078,17 @@
   <Export>
     <AddPageBreaks>Aggiungi Interruzioni di Pagina</AddPageBreaks>
     <AllBands>Tutte le bande</AllBands>
-    <AllowAddOrModifyTextAnnotations>Consenti Aggiunta o Modifica Annotazioni di Testo</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Consenti copia testo e grafica</AllowCopyTextAndGraphics>
+    <AllowAddOrModifyTextAnnotations>Commenti</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Copia del Contenuto</AllowCopyTextAndGraphics>
     <AllowEditable>Consenti modifica:</AllowEditable>
-    <AllowModifyContents>Consenti Modifica Contenuti</AllowModifyContents>
-    <AllowPrintDocument>Consenti Stampa Documento</AllowPrintDocument>
+    <AllowModifyContents>Modifica del Documento</AllowModifyContents>
+    <AllowPrintDocument>Stampa</AllowPrintDocument>
     <Auto>Automatico</Auto>
     <BandsFilter>Filtro delle bande:</BandsFilter>
     <CancelExport>Annulla esportazione</CancelExport>
     <Color>Colore</Color>
     <Compressed>Compresso</Compressed>
+    <Compression>Compressione</Compression>
     <CompressToArchive>Comprimi in un archivio</CompressToArchive>
     <Content>Contenuto</Content>
     <ContinuousPages>Pagine continue</ContinuousPages>
@@ -1105,7 +1106,9 @@
     <EmbeddedImageData>Dati integrati nell'immagine</EmbeddedImageData>
     <EnableAnimation>Abilita animazione</EnableAnimation>
     <Encoding>Codifica</Encoding>
+    <Encryption>Criptazione</Encryption>
     <EncryptionError>Errore nella fase di crittografia</EncryptionError>
+    <EncryptionMethod>Metodo di Criptazione</EncryptionMethod>
     <EscapeCodes>Codici di escape</EscapeCodes>
     <Exactly>Esatto</Exactly>
     <ExceptEditableFields>Escludi campi modificabili</ExceptEditableFields>
@@ -1154,6 +1157,7 @@
     <ExportTypeWriterFile>File OpenDocument Writer...</ExportTypeWriterFile>
     <ExportTypeXmlFile>File XML...</ExportTypeXmlFile>
     <ExportTypeXpsFile>File Microsoft XPS...</ExportTypeXpsFile>
+    <FloydSteinbergMonochrome>Monocromatico (Floyd-Steinberg)</FloydSteinbergMonochrome>
     <Format>Formato</Format>
     <GetCertificateFromCryptoUI>Ottieni Certificato da Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Metodo di Compressione Immagini:</ImageCompressionMethod>
@@ -1176,12 +1180,14 @@
     <NoMoreThan>Non più di</NoMoreThan>
     <OpenAfterExport>Apertura dopo l'esportazione</OpenAfterExport>
     <Ordered>Ordinato</Ordered>
+    <OrderedMonochrome>Monocromatico (ordinato)</OrderedMonochrome>
     <PageBands>Intestazioni e Piè di Pagina:</PageBands>
     <PageBandsAll>Tutti</PageBandsAll>
     <PageBandsFirstAndLast>Prima Intestazione e Ultimo Piè di Pagina</PageBandsFirstAndLast>
     <PageBandsNone>Nessuno</PageBandsNone>
-    <PdfACompliance>Conformità PDF/A</PdfACompliance>
+    <PdfACompliance>PDF/A (Archiviazione)</PdfACompliance>
     <PdfUA>PDF/UA (Accessibilità universale)</PdfUA>
+    <Permissions>Autorizzazioni</Permissions>
     <PrintingReport>Stampa report</PrintingReport>
     <Protection>Protezione</Protection>
     <Quality>Qualità</Quality>
@@ -1189,11 +1195,14 @@
     <Resolution>Risoluzione</Resolution>
     <RestrictEditing>Modifica limitata:</RestrictEditing>
     <Scale>Scala:</Scale>
+    <SelectCertificate>Seleziona un certificato</SelectCertificate>
     <Separator>Separatore</Separator>
     <Settings>Impostazioni</Settings>
     <Sheets>Fogli</Sheets>
+    <SimpleMonochrome>Monocromatico (semplice)</SimpleMonochrome>
     <SkipColumnHeaders>Salta Intestazioni Colonna</SkipColumnHeaders>
     <StandardPDFFonts>Caratteri PDF standard</StandardPDFFonts>
+    <Standards>Standard</Standards>
     <TiffCompressionScheme>Schema di compressione TIFF:</TiffCompressionScheme>
     <title>Impostazioni di esportazione</title>
     <TxtBorderType>Tipo di bordo</TxtBorderType>
@@ -2401,6 +2410,7 @@
     <Encoding>La codifica del testo esportato.</Encoding>
     <EncodingData>La codifica del file di dati.</EncodingData>
     <EncryptionKeyLength>La lunghezza della chiave di crittografia: più lunga è la chiave, più è difficile decrittare il documento.</EncryptionKeyLength>
+    <EncryptionMethod>L'algoritmo di crittografia e la lunghezza della sua chiave: più forte è il metodo, più è difficile decrittare il documento.</EncryptionMethod>
     <ExportDataOnly>Esporta solo le bande Dati: il componente Tabella e la Banda Gerarchica.</ExportDataOnly>
     <ExportEachPageToSheet>Esporta ogni pagina del report in un proprio foglio Excel.</ExportEachPageToSheet>
     <ExportMode>Le bande incluse nel file: Solo dati prende le bande Dati (il componente Tabella, la Banda Gerarchica), Dati e intestazioni/Piè di pagina aggiunge le loro intestazioni e piè di pagina, Tutte le bande prende tutte le bande.</ExportMode>

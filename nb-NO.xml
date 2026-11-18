@@ -1078,16 +1078,17 @@
   <Export>
     <AddPageBreaks>Legg til sideskift</AddPageBreaks>
     <AllBands>Alle bånd</AllBands>
-    <AllowAddOrModifyTextAnnotations>Tillat å legge til eller endre tekstbeskrivelser</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Tillat kopiering av tekst og grafikk</AllowCopyTextAndGraphics>
+    <AllowAddOrModifyTextAnnotations>Kommentering</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Kopiering av innhold</AllowCopyTextAndGraphics>
     <AllowEditable>Tillat redigering:</AllowEditable>
-    <AllowModifyContents>Tillat redigering av innhold</AllowModifyContents>
-    <AllowPrintDocument>Tillat utskrift av dokument</AllowPrintDocument>
+    <AllowModifyContents>Endring av dokumentet</AllowModifyContents>
+    <AllowPrintDocument>Utskrift</AllowPrintDocument>
     <Auto>Auto</Auto>
     <BandsFilter>Båndfilter:</BandsFilter>
     <CancelExport>Avbryt eksport</CancelExport>
     <Color>Farge</Color>
     <Compressed>Komprimert</Compressed>
+    <Compression>Komprimering</Compression>
     <CompressToArchive>Komprimer til arkiv</CompressToArchive>
     <Content>Innhold</Content>
     <ContinuousPages>Kontinuerlige sider</ContinuousPages>
@@ -1105,7 +1106,9 @@
     <EmbeddedImageData>Innebygde bildedata</EmbeddedImageData>
     <EnableAnimation>Aktiver animasjon</EnableAnimation>
     <Encoding>Koding:</Encoding>
+    <Encryption>Kryptering</Encryption>
     <EncryptionError>Krypteringsfeil ved trinn</EncryptionError>
+    <EncryptionMethod>Krypteringsmetode</EncryptionMethod>
     <EscapeCodes>Unngå koder</EscapeCodes>
     <Exactly>Eksakt</Exactly>
     <ExceptEditableFields>Unntatt redigerbare felter</ExceptEditableFields>
@@ -1154,6 +1157,7 @@
     <ExportTypeWriterFile>OpenDocument Writer-fil...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML-fil...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS-fil...</ExportTypeXpsFile>
+    <FloydSteinbergMonochrome>Monokrom (Floyd-Steinberg)</FloydSteinbergMonochrome>
     <Format>Format</Format>
     <GetCertificateFromCryptoUI>Hent sertifikat fra Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Metode for bildekomprimering:</ImageCompressionMethod>
@@ -1176,12 +1180,14 @@
     <NoMoreThan>Ikke mer enn</NoMoreThan>
     <OpenAfterExport>Åpne etter eksportering</OpenAfterExport>
     <Ordered>Sortert</Ordered>
+    <OrderedMonochrome>Monokrom (ordnet)</OrderedMonochrome>
     <PageBands>Topptekster/bunntekster:</PageBands>
     <PageBandsAll>Alle</PageBandsAll>
     <PageBandsFirstAndLast>Første topptekst og siste bunntekst</PageBandsFirstAndLast>
     <PageBandsNone>Ingen</PageBandsNone>
-    <PdfACompliance>PDF/A-samsvar</PdfACompliance>
+    <PdfACompliance>PDF/A (Arkivering)</PdfACompliance>
     <PdfUA>PDF/UA (Universell tilgjengelighet)</PdfUA>
+    <Permissions>Tillatelser</Permissions>
     <PrintingReport>Skriver rapport</PrintingReport>
     <Protection>Beskyttelse</Protection>
     <Quality>Kvalitet</Quality>
@@ -1189,11 +1195,14 @@
     <Resolution>Oppløsning</Resolution>
     <RestrictEditing>Begrense redigering:</RestrictEditing>
     <Scale>Skala:</Scale>
+    <SelectCertificate>Velg et sertifikat</SelectCertificate>
     <Separator>Separator:</Separator>
     <Settings>Instillinger</Settings>
     <Sheets>Ark</Sheets>
+    <SimpleMonochrome>Monokrom (enkel)</SimpleMonochrome>
     <SkipColumnHeaders>Hopp over kolonnetopptekst</SkipColumnHeaders>
     <StandardPDFFonts>Standard PDF-skrifttype</StandardPDFFonts>
+    <Standards>Standarder</Standards>
     <TiffCompressionScheme>TIFF-komprimeringsskjema:</TiffCompressionScheme>
     <title>Eksporter instillinger</title>
     <TxtBorderType>Kanttype</TxtBorderType>
@@ -2401,6 +2410,7 @@
     <Encoding>Kodingen av den eksporterte teksten.</Encoding>
     <EncodingData>Kodingen av datafilen.</EncodingData>
     <EncryptionKeyLength>Lengden på krypteringsnøkkelen: jo lengre nøkkel, desto vanskeligere er det å dekryptere dokumentet.</EncryptionKeyLength>
+    <EncryptionMethod>Krypteringsalgoritmen og lengden på nøkkelen: jo sterkere metode, desto vanskeligere er det å dekryptere dokumentet.</EncryptionMethod>
     <ExportDataOnly>Eksporter bare databåndene: tabellkomponenten og det hierarkiske båndet.</ExportDataOnly>
     <ExportEachPageToSheet>Eksporter hver rapportside til et eget Excel-ark.</ExportEachPageToSheet>
     <ExportMode>Båndene som kommer med i filen: Kun data tar med databåndene (tabellkomponenten, det hierarkiske båndet), Data og topptekster/bunntekster legger til topptekstene og bunntekstene deres, Alle bånd tar med alle bånd.</ExportMode>

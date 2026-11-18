@@ -1078,16 +1078,17 @@
   <Export>
     <AddPageBreaks>Προσθήκη Αλλαγών Σελίδας</AddPageBreaks>
     <AllBands>Όλες Οι Ζώνες</AllBands>
-    <AllowAddOrModifyTextAnnotations>Να Επιτρέπεται η Προσθήκη και Τροποποίηση Σχολίων</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Να Επιτρέπεται η Αντιγραφή Κειμένου και Γραφικών</AllowCopyTextAndGraphics>
+    <AllowAddOrModifyTextAnnotations>Σχολιασμός</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Αντιγραφή Περιεχομένου</AllowCopyTextAndGraphics>
     <AllowEditable>Επιτρέπεται Αλλαγή Επεξεργάσιμων:</AllowEditable>
-    <AllowModifyContents>Να Επιτρέπεται η Τροποποίηση Των Περιεχομένων</AllowModifyContents>
-    <AllowPrintDocument>Να Επιτρέπεται η Εκτύπωση Του Εγγράφου</AllowPrintDocument>
+    <AllowModifyContents>Αλλαγή του Εγγράφου</AllowModifyContents>
+    <AllowPrintDocument>Εκτύπωση</AllowPrintDocument>
     <Auto>Αυτόματη</Auto>
     <BandsFilter>Φίλτρο Ζωνών:</BandsFilter>
     <CancelExport>Ακύρωση Εξαγωγής</CancelExport>
     <Color>Χρώμα</Color>
     <Compressed>Συμπιεσμένο</Compressed>
+    <Compression>Συμπίεση</Compression>
     <CompressToArchive>Συμπίεση</CompressToArchive>
     <Content>Περιεχόμενο</Content>
     <ContinuousPages>Συνεχείς Σελίδες</ContinuousPages>
@@ -1105,7 +1106,9 @@
     <EmbeddedImageData>Ενσωματωμένα Δεδομένα Εικόνας</EmbeddedImageData>
     <EnableAnimation>Ενεργοποίηση Animation</EnableAnimation>
     <Encoding>Κωδικοποίηση:</Encoding>
+    <Encryption>Κρυπτογράφηση</Encryption>
     <EncryptionError>Σφάλμα Κρυπτογράφησης στο βήμα</EncryptionError>
+    <EncryptionMethod>Μέθοδος Κρυπτογράφησης</EncryptionMethod>
     <EscapeCodes>Χαρακτήρες Διαφυγής</EscapeCodes>
     <Exactly>Ακριβής</Exactly>
     <ExceptEditableFields>Εκτός Από Επεξεργάσιμα Πεδία</ExceptEditableFields>
@@ -1154,6 +1157,7 @@
     <ExportTypeWriterFile>Αρχείο OpenDocument Writer...</ExportTypeWriterFile>
     <ExportTypeXmlFile>Αρχείο XML...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Αρχείο XPS...</ExportTypeXpsFile>
+    <FloydSteinbergMonochrome>Μονόχρωμο (Floyd-Steinberg)</FloydSteinbergMonochrome>
     <Format>Μορφή</Format>
     <GetCertificateFromCryptoUI>Λήψη Πιστοποιητικού Από Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Μέθοδος Συμπίεσης Εικόνας:</ImageCompressionMethod>
@@ -1176,12 +1180,14 @@
     <NoMoreThan>Όχι Περισσότερο Από</NoMoreThan>
     <OpenAfterExport>Άνοιγμα μετά την Εξαγωγή</OpenAfterExport>
     <Ordered>Ταξινόμηση</Ordered>
+    <OrderedMonochrome>Μονόχρωμο (διατεταγμένο)</OrderedMonochrome>
     <PageBands>Κεφαλίδες/Υποσέλιδα Σελίδας:</PageBands>
     <PageBandsAll>Όλα</PageBandsAll>
     <PageBandsFirstAndLast>Πρώτη Κεφαλίδα και Τελευταίο Υποσέλιδο</PageBandsFirstAndLast>
     <PageBandsNone>Κανένα</PageBandsNone>
-    <PdfACompliance>Συμμόρφωση με PDF/A</PdfACompliance>
+    <PdfACompliance>PDF/A (Αρχειοθέτηση)</PdfACompliance>
     <PdfUA>PDF/UA (Καθολική προσβασιμότητα)</PdfUA>
+    <Permissions>Δικαιώματα</Permissions>
     <PrintingReport>Εκτύπωση Αναφοράς</PrintingReport>
     <Protection>Προστασία</Protection>
     <Quality>Ποιότητα</Quality>
@@ -1189,11 +1195,14 @@
     <Resolution>Ανάλυση</Resolution>
     <RestrictEditing>Περιορισμός Επεξεργασίας:</RestrictEditing>
     <Scale>Κλίμακα:</Scale>
+    <SelectCertificate>Επιλέξτε πιστοποιητικό</SelectCertificate>
     <Separator>Διαχωριστής:</Separator>
     <Settings>Ρυθμίσεις</Settings>
     <Sheets>Φύλλα</Sheets>
+    <SimpleMonochrome>Μονόχρωμο (απλό)</SimpleMonochrome>
     <SkipColumnHeaders>Παράλειψη Κεφαλίδων Στηλών</SkipColumnHeaders>
     <StandardPDFFonts>Προεπιλεγμένες Γραμματοσειρές</StandardPDFFonts>
+    <Standards>Πρότυπα</Standards>
     <TiffCompressionScheme>Μέθοδος Συμπίεσης TIFF:</TiffCompressionScheme>
     <title>Ρυθμίσεις Εξαγωγής</title>
     <TxtBorderType>Τύπος Ορίου</TxtBorderType>
@@ -2401,6 +2410,7 @@
     <Encoding>Η κωδικοποίηση του κειμένου εξαγωγής.</Encoding>
     <EncodingData>Η κωδικοποίηση του αρχείου δεδομένων.</EncodingData>
     <EncryptionKeyLength>Το μήκος του κλειδιού κρυπτογράφησης: όσο μεγαλύτερο το κλειδί, τόσο δυσκολότερη η αποκρυπτογράφηση του εγγράφου.</EncryptionKeyLength>
+    <EncryptionMethod>Ο αλγόριθμος κρυπτογράφησης και το μήκος του κλειδιού του: όσο ισχυρότερη η μέθοδος, τόσο δυσκολότερη η αποκρυπτογράφηση του εγγράφου.</EncryptionMethod>
     <ExportDataOnly>Εξαγωγή μόνο των Ζωνών Δεδομένων: του εξαρτήματος Πίνακας και της Ζώνης Ιεραρχικών Δεδομένων.</ExportDataOnly>
     <ExportEachPageToSheet>Εξαγωγή κάθε σελίδας της αναφοράς σε ξεχωριστό φύλλο Excel.</ExportEachPageToSheet>
     <ExportMode>Οι ζώνες που περιλαμβάνονται στο αρχείο: το Μόνο Δεδομένα παίρνει τις Ζώνες Δεδομένων (το εξάρτημα Πίνακας, τη Ζώνη Ιεραρχικών Δεδομένων), το Δεδομένα και Κεφαλίδες/Υποσέλιδα προσθέτει τις κεφαλίδες και τα υποσέλιδά τους, το Όλες Οι Ζώνες παίρνει όλες τις ζώνες της αναφοράς.</ExportMode>

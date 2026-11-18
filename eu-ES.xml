@@ -1078,16 +1078,17 @@
   <Export>
     <AddPageBreaks>Gehitu Orrialde-jauziak</AddPageBreaks>
     <AllBands>Banda Guztiak</AllBands>
-    <AllowAddOrModifyTextAnnotations>Testu-oharrak Gehitzen edo Aldatzen utzi</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Testuak eta Grafikoak Kopiatzen utzi</AllowCopyTextAndGraphics>
+    <AllowAddOrModifyTextAnnotations>Iruzkinak egitea</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Edukia kopiatzea</AllowCopyTextAndGraphics>
     <AllowEditable>Eremu Editagarriak baimendu</AllowEditable>
-    <AllowModifyContents>Edukiak Aldatzen utzi</AllowModifyContents>
-    <AllowPrintDocument>Dokumentuak Inprimatzen utzi</AllowPrintDocument>
+    <AllowModifyContents>Dokumentua aldatzea</AllowModifyContents>
+    <AllowPrintDocument>Inprimatzea</AllowPrintDocument>
     <Auto>Automatikoa</Auto>
     <BandsFilter>Goiburuen Iragazkia:</BandsFilter>
     <CancelExport>Esportazioa ezeztatu</CancelExport>
     <Color>Kolorea</Color>
     <Compressed>Konprimitu</Compressed>
+    <Compression>Konpresioa</Compression>
     <CompressToArchive>Artxibo batean konprimitu</CompressToArchive>
     <Content>Edukia</Content>
     <ContinuousPages>Orrialde Jarraituak</ContinuousPages>
@@ -1105,7 +1106,9 @@
     <EmbeddedImageData>Enbutitutako Irudi Datuak</EmbeddedImageData>
     <EnableAnimation>Animazioa gaitu</EnableAnimation>
     <Encoding>Kodetzea</Encoding>
+    <Encryption>Enkriptatzea</Encryption>
     <EncryptionError>Enkriptatze-errorea urratsean </EncryptionError>
+    <EncryptionMethod>Enkriptatze-metodoa</EncryptionMethod>
     <EscapeCodes>Ihes Kodeak</EscapeCodes>
     <Exactly>Zehazki</Exactly>
     <ExceptEditableFields>Eremu editagarriak izan ezik</ExceptEditableFields>
@@ -1154,6 +1157,7 @@
     <ExportTypeWriterFile>OpenDocument Fitxategiaren Idazlea...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML Artxiboa...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS Fitxategia...</ExportTypeXpsFile>
+    <FloydSteinbergMonochrome>Monokromatikoa (Floyd-Steinberg)</FloydSteinbergMonochrome>
     <Format>Formatua</Format>
     <GetCertificateFromCryptoUI>Crypto UI Ziurtagiria lortu</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Irudiak Konprimitzeko metodoa:</ImageCompressionMethod>
@@ -1176,12 +1180,14 @@
     <NoMoreThan>Gehienez</NoMoreThan>
     <OpenAfterExport>Esportatu ondoren ireki</OpenAfterExport>
     <Ordered>Ordenatua</Ordered>
+    <OrderedMonochrome>Monokromatikoa (ordenatua)</OrderedMonochrome>
     <PageBands>Orrialdeko goiburuak eta oinak:</PageBands>
     <PageBandsAll>Guztiak</PageBandsAll>
     <PageBandsFirstAndLast>Lehen goiburua eta azken oina</PageBandsFirstAndLast>
     <PageBandsNone>Batere ez</PageBandsNone>
-    <PdfACompliance>PDF/A Onespena</PdfACompliance>
+    <PdfACompliance>PDF/A (Artxibatzea)</PdfACompliance>
     <PdfUA>PDF/UA (Irisgarritasun Unibertsala)</PdfUA>
+    <Permissions>Baimenak</Permissions>
     <PrintingReport>Txostena inprimatzen</PrintingReport>
     <Protection>Babesa</Protection>
     <Quality>Kalitatea</Quality>
@@ -1189,11 +1195,14 @@
     <Resolution>Erresoluzioa</Resolution>
     <RestrictEditing>Edizioa mugatu:</RestrictEditing>
     <Scale>Eskala:</Scale>
+    <SelectCertificate>Hautatu ziurtagiri bat</SelectCertificate>
     <Separator>Bereizlea:</Separator>
     <Settings>Konfigurazioa:</Settings>
     <Sheets>Orriak</Sheets>
+    <SimpleMonochrome>Monokromatikoa (sinplea)</SimpleMonochrome>
     <SkipColumnHeaders>Zutabeen Goiburuak utzita aurrera egin</SkipColumnHeaders>
     <StandardPDFFonts>PDF Letra tipo Estandarrak</StandardPDFFonts>
+    <Standards>Estandarrak</Standards>
     <TiffCompressionScheme>TIFF Konpresio-Eskema:</TiffCompressionScheme>
     <title>Esportazio-Konfigurazioa:</title>
     <TxtBorderType>Marjina mota</TxtBorderType>
@@ -2402,6 +2411,7 @@
     <Encoding>Esportatutako testuaren kodeketa.</Encoding>
     <EncodingData>Datu-fitxategiaren kodeketa.</EncodingData>
     <EncryptionKeyLength>Enkriptatze-gakoaren luzera: zenbat eta gako luzeagoa, orduan eta zailagoa dokumentua desenkriptatzea.</EncryptionKeyLength>
+    <EncryptionMethod>Enkriptatze-algoritmoa eta haren gakoaren luzera: zenbat eta metodo sendoagoa, orduan eta zailagoa dokumentua desenkriptatzea.</EncryptionMethod>
     <ExportDataOnly>Datu-bandak soilik esportatu: Taula osagaia eta Banda hierarkikoa.</ExportDataOnly>
     <ExportEachPageToSheet>Txostenaren orrialde bakoitza Excel orri propio batera esportatu.</ExportEachPageToSheet>
     <ExportMode>Fitxategian sartzen diren bandak: Soilik Datuak aukerak datu-bandak hartzen ditu (Taula osagaia, Banda hierarkikoa), Datuak eta Goiburuak/Oinak aukerak haien goiburuak eta oinak gehitzen ditu, Banda Guztiak aukerak banda guztiak hartzen ditu.</ExportMode>

@@ -1078,16 +1078,17 @@
   <Export>
     <AddPageBreaks>إضافة فواصل صفحات</AddPageBreaks>
     <AllBands>جميع النطاقات</AllBands>
-    <AllowAddOrModifyTextAnnotations>تمكين إضافة أو تعديل التهميشات</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>تمكين نسخ النصوص والصور</AllowCopyTextAndGraphics>
+    <AllowAddOrModifyTextAnnotations>التعليق</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>نسخ المحتوى</AllowCopyTextAndGraphics>
     <AllowEditable>السماح بالتعديلات:</AllowEditable>
-    <AllowModifyContents>تمكين تعديل المحتوى</AllowModifyContents>
-    <AllowPrintDocument>تمكين طباعة الوثيقة</AllowPrintDocument>
+    <AllowModifyContents>تغيير المستند</AllowModifyContents>
+    <AllowPrintDocument>الطباعة</AllowPrintDocument>
     <Auto>تلقائي</Auto>
     <BandsFilter>تصفية المجموعات:</BandsFilter>
     <CancelExport>إلغاء التصدير</CancelExport>
     <Color>اللون</Color>
     <Compressed>مضغوط</Compressed>
+    <Compression>ضغط</Compression>
     <CompressToArchive>الضغط كأرشيف</CompressToArchive>
     <Content>المحتوى</Content>
     <ContinuousPages>صفحات متواصلة</ContinuousPages>
@@ -1105,7 +1106,9 @@
     <EmbeddedImageData>تضمين بيانات رسومية</EmbeddedImageData>
     <EnableAnimation>تمكين الحركة</EnableAnimation>
     <Encoding>الترميز:</Encoding>
+    <Encryption>التشفير</Encryption>
     <EncryptionError>خطأ تشفير في الخطوة</EncryptionError>
+    <EncryptionMethod>طريقة التشفير</EncryptionMethod>
     <EscapeCodes>أوامر التخطي</EscapeCodes>
     <Exactly>محدد</Exactly>
     <ExceptEditableFields>استثناء الحقول القابلة للتعديل</ExceptEditableFields>
@@ -1154,6 +1157,7 @@
     <ExportTypeWriterFile>OpenDocument Writer ملف...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML ملف...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS ملف...</ExportTypeXpsFile>
+    <FloydSteinbergMonochrome>أبيض وأسود (Floyd-Steinberg)</FloydSteinbergMonochrome>
     <Format>الصيغة</Format>
     <GetCertificateFromCryptoUI>جلب شهادة من Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>نمط ضغط الصور:</ImageCompressionMethod>
@@ -1176,12 +1180,14 @@
     <NoMoreThan>ليس أكثر من</NoMoreThan>
     <OpenAfterExport>فتح بعد التصدير</OpenAfterExport>
     <Ordered>مرتب</Ordered>
+    <OrderedMonochrome>أبيض وأسود (منتظم)</OrderedMonochrome>
     <PageBands>رؤوس وتذييلات الصفحة:</PageBands>
     <PageBandsAll>الكل</PageBandsAll>
     <PageBandsFirstAndLast>الرأس الأول والتذييل الأخير</PageBandsFirstAndLast>
     <PageBandsNone>بلا</PageBandsNone>
-    <PdfACompliance>PDF/A متوافق</PdfACompliance>
+    <PdfACompliance>PDF/A (الأرشفة)</PdfACompliance>
     <PdfUA>PDF/UA (إمكانية الوصول الشاملة)</PdfUA>
+    <Permissions>الأذونات</Permissions>
     <PrintingReport>جارٍ طباعة التقرير</PrintingReport>
     <Protection>الحماية</Protection>
     <Quality>الجودة</Quality>
@@ -1189,11 +1195,14 @@
     <Resolution>الدقة</Resolution>
     <RestrictEditing>حظر التعديل:</RestrictEditing>
     <Scale>الوزن:</Scale>
+    <SelectCertificate>اختر شهادة</SelectCertificate>
     <Separator>فاصل:</Separator>
     <Settings>إعدادات</Settings>
     <Sheets>أوراق العمل</Sheets>
+    <SimpleMonochrome>أبيض وأسود (بسيط)</SimpleMonochrome>
     <SkipColumnHeaders>تخطي عناوين الأعمدة</SkipColumnHeaders>
     <StandardPDFFonts>خطوط PDF القياسية</StandardPDFFonts>
+    <Standards>المعايير</Standards>
     <TiffCompressionScheme>TIFF صيغة ضغط:</TiffCompressionScheme>
     <title>إعدادات التصدير</title>
     <TxtBorderType>نوع الحدود</TxtBorderType>
@@ -2403,6 +2412,7 @@
     <Encoding>ترميز النص الذي تم تصديره.</Encoding>
     <EncodingData>ترميز ملف البيانات.</EncodingData>
     <EncryptionKeyLength>طول مفتاح التشفير: كلما طال المفتاح، صعب فك تشفير الوثيقة.</EncryptionKeyLength>
+    <EncryptionMethod>خوارزمية التشفير وطول مفتاحها: كلما كانت الطريقة أقوى، صعب فك تشفير الوثيقة.</EncryptionMethod>
     <ExportDataOnly>تصدير نطاقات البيانات فقط: مكون الجدول والنطاق الهرمي.</ExportDataOnly>
     <ExportEachPageToSheet>تصدير كل صفحة من التقرير إلى ورقة Excel خاصة بها.</ExportEachPageToSheet>
     <ExportMode>النطاقات التي تدخل في الملف: البيانات فقط يأخذ نطاقات البيانات (مكون الجدول، النطاق الهرمي)، البيانات مع الترويسة/التذييل يضيف ترويساتها وتذييلاتها، جميع النطاقات يأخذ كل النطاقات.</ExportMode>

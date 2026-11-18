@@ -1078,16 +1078,17 @@
   <Export>
     <AddPageBreaks>Add Page Breaks</AddPageBreaks>
     <AllBands>All bands</AllBands>
-    <AllowAddOrModifyTextAnnotations>Allow Add or Modify Text Annotations</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Allow Copy Text and Graphics</AllowCopyTextAndGraphics>
+    <AllowAddOrModifyTextAnnotations>Commenting</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Content Copying</AllowCopyTextAndGraphics>
     <AllowEditable>Allow Editable Fields</AllowEditable>
-    <AllowModifyContents>Allow Modify Contents</AllowModifyContents>
-    <AllowPrintDocument>Allow Print Document</AllowPrintDocument>
+    <AllowModifyContents>Changing the Document</AllowModifyContents>
+    <AllowPrintDocument>Printing</AllowPrintDocument>
     <Auto>Auto</Auto>
     <BandsFilter>Bands Filter:</BandsFilter>
     <CancelExport>Cancel Export</CancelExport>
     <Color>Color</Color>
     <Compressed>Compressed</Compressed>
+    <Compression>Compression</Compression>
     <CompressToArchive>Compress to Archive</CompressToArchive>
     <Content>Content</Content>
     <ContinuousPages>Continuous Pages</ContinuousPages>
@@ -1105,7 +1106,9 @@
     <EmbeddedImageData>Embedded Image Data</EmbeddedImageData>
     <EnableAnimation>Enable Animation</EnableAnimation>
     <Encoding>Encoding:</Encoding>
+    <Encryption>Encryption</Encryption>
     <EncryptionError>Encryption error at step</EncryptionError>
+    <EncryptionMethod>Encryption Method</EncryptionMethod>
     <EscapeCodes>Escape Codes</EscapeCodes>
     <Exactly>Exactly</Exactly>
     <ExceptEditableFields>Except Editable Fields</ExceptEditableFields>
@@ -1154,6 +1157,7 @@
     <ExportTypeWriterFile>OpenDocument Writer File...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML File...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS File...</ExportTypeXpsFile>
+    <FloydSteinbergMonochrome>Floyd-Steinberg Monochrome</FloydSteinbergMonochrome>
     <Format>Format</Format>
     <GetCertificateFromCryptoUI>Get Certificate from Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Image Compression Method:</ImageCompressionMethod>
@@ -1176,12 +1180,14 @@
     <NoMoreThan>No More Than</NoMoreThan>
     <OpenAfterExport>Open After Export</OpenAfterExport>
     <Ordered>Ordered</Ordered>
+    <OrderedMonochrome>Ordered Monochrome</OrderedMonochrome>
     <PageBands>Page Headers/Footers:</PageBands>
     <PageBandsAll>All</PageBandsAll>
     <PageBandsFirstAndLast>First Header and Last Footer</PageBandsFirstAndLast>
     <PageBandsNone>None</PageBandsNone>
-    <PdfACompliance>PDF/A Compliance</PdfACompliance>
+    <PdfACompliance>PDF/A (Archiving)</PdfACompliance>
     <PdfUA>PDF/UA (Universal Accessibility)</PdfUA>
+    <Permissions>Permissions</Permissions>
     <PrintingReport>Printing Report</PrintingReport>
     <Protection>Protection</Protection>
     <Quality>Quality</Quality>
@@ -1189,11 +1195,14 @@
     <Resolution>Resolution</Resolution>
     <RestrictEditing>Restrict Editing:</RestrictEditing>
     <Scale>Scale:</Scale>
+    <SelectCertificate>Select a certificate</SelectCertificate>
     <Separator>Separator:</Separator>
     <Settings>Settings</Settings>
     <Sheets>Sheets</Sheets>
+    <SimpleMonochrome>Simple Monochrome</SimpleMonochrome>
     <SkipColumnHeaders>Skip Column Headers</SkipColumnHeaders>
     <StandardPDFFonts>Standard PDF Fonts</StandardPDFFonts>
+    <Standards>Standards</Standards>
     <TiffCompressionScheme>TIFF Compression Scheme:</TiffCompressionScheme>
     <title>Export Settings</title>
     <TxtBorderType>Border Type</TxtBorderType>
@@ -2401,6 +2410,7 @@
     <Encoding>The encoding of the exported text.</Encoding>
     <EncodingData>The encoding of the data file.</EncodingData>
     <EncryptionKeyLength>The length of the encryption key: the longer the key, the harder it is to decrypt the document.</EncryptionKeyLength>
+    <EncryptionMethod>The encryption algorithm and the length of its key: the stronger the method, the harder it is to decrypt the document.</EncryptionMethod>
     <ExportDataOnly>Export only the data bands: the Table component and the Hierarchical band.</ExportDataOnly>
     <ExportEachPageToSheet>Export each report page to its own Excel sheet.</ExportEachPageToSheet>
     <ExportMode>The bands that go into the file: Data Only takes the data bands (the Table component, the Hierarchical band), Data and Headers/Footers adds their headers and footers, All Bands takes every band.</ExportMode>

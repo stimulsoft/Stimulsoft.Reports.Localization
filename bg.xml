@@ -1080,16 +1080,17 @@
   <Export>
     <AddPageBreaks>Добави прекъсване цтраница</AddPageBreaks>
     <AllBands>Всички секции</AllBands>
-    <AllowAddOrModifyTextAnnotations>Разрешава добавяне или редакция на текстови анотации</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Разрешава копиране на текст и графика</AllowCopyTextAndGraphics>
+    <AllowAddOrModifyTextAnnotations>Коментиране</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Копиране на съдържание</AllowCopyTextAndGraphics>
     <AllowEditable>Разреши Редакция:</AllowEditable>
-    <AllowModifyContents>Разрешава редакция на съдържанието</AllowModifyContents>
-    <AllowPrintDocument>Пазрешава печат на документ</AllowPrintDocument>
+    <AllowModifyContents>Промяна на документа</AllowModifyContents>
+    <AllowPrintDocument>Печат</AllowPrintDocument>
     <Auto>Авто</Auto>
     <BandsFilter>Филтър секции:</BandsFilter>
     <CancelExport>Прекъсване на Експорта</CancelExport>
     <Color>Цвят</Color>
     <Compressed>Компресиран</Compressed>
+    <Compression>Компресия</Compression>
     <CompressToArchive>Компресирай в архива</CompressToArchive>
     <Content>Съдържание</Content>
     <ContinuousPages>Непрекъснати Страници</ContinuousPages>
@@ -1107,7 +1108,9 @@
     <EmbeddedImageData>Вградени графични данни</EmbeddedImageData>
     <EnableAnimation>Разреши Анимация</EnableAnimation>
     <Encoding>Кодировка:</Encoding>
+    <Encryption>Криптиране</Encryption>
     <EncryptionError>Разкодираща греша при</EncryptionError>
+    <EncryptionMethod>Метод на криптиране</EncryptionMethod>
     <EscapeCodes>Escape кодове</EscapeCodes>
     <Exactly>Точно</Exactly>
     <ExceptEditableFields>Освен полета за редактиране</ExceptEditableFields>
@@ -1156,6 +1159,7 @@
     <ExportTypeWriterFile>OpenDocument Writer файл...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML файл...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS файл...</ExportTypeXpsFile>
+    <FloydSteinbergMonochrome>Монохромен (Floyd-Steinberg)</FloydSteinbergMonochrome>
     <Format>Формат</Format>
     <GetCertificateFromCryptoUI>Вземи сертификат от Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Метод на компресия на картинка:</ImageCompressionMethod>
@@ -1178,12 +1182,14 @@
     <NoMoreThan>Не повече от</NoMoreThan>
     <OpenAfterExport>Отвори след експорт</OpenAfterExport>
     <Ordered>Подреден</Ordered>
+    <OrderedMonochrome>Монохромен (подреден)</OrderedMonochrome>
     <PageBands>Заглавия и краища на страници:</PageBands>
     <PageBandsAll>Всички</PageBandsAll>
     <PageBandsFirstAndLast>Първо заглавие и последен край</PageBandsFirstAndLast>
     <PageBandsNone>Няма</PageBandsNone>
-    <PdfACompliance>PDF/A съгласъваност</PdfACompliance>
+    <PdfACompliance>PDF/A (Архивиране)</PdfACompliance>
     <PdfUA>PDF/УД (Унверсална Достъпност)</PdfUA>
+    <Permissions>Разрешения</Permissions>
     <PrintingReport>Отпечатване отчет</PrintingReport>
     <Protection>Защита</Protection>
     <Quality>Качество</Quality>
@@ -1191,11 +1197,14 @@
     <Resolution>Резолюция</Resolution>
     <RestrictEditing>Ограничи Редакция:</RestrictEditing>
     <Scale>Скала:</Scale>
+    <SelectCertificate>Изберете сертификат</SelectCertificate>
     <Separator>Разделител:</Separator>
     <Settings>Настройки</Settings>
     <Sheets>Листове</Sheets>
+    <SimpleMonochrome>Монохромен (прост)</SimpleMonochrome>
     <SkipColumnHeaders>Пропусни заглавие колона</SkipColumnHeaders>
     <StandardPDFFonts>Стандартни PDF шрифтове</StandardPDFFonts>
+    <Standards>Стандарти</Standards>
     <TiffCompressionScheme>TIFF схема на компресия:</TiffCompressionScheme>
     <title>Настройки експорт</title>
     <TxtBorderType>Тип очертание</TxtBorderType>
@@ -2405,6 +2414,7 @@
     <Encoding>Кодировката на експортирания текст.</Encoding>
     <EncodingData>Кодировката на файла с данни.</EncodingData>
     <EncryptionKeyLength>Дължината на ключа за шифроване: колкото по-дълъг е ключът, толкова по-трудно се дешифрира документът.</EncryptionKeyLength>
+    <EncryptionMethod>Алгоритъмът за шифроване и дължината на ключа му: колкото по-силен е методът, толкова по-трудно се дешифрира документът.</EncryptionMethod>
     <ExportDataOnly>Експортиране само на секциите Данни: компонентът Таблица и секцията Йерархични данни.</ExportDataOnly>
     <ExportEachPageToSheet>Експортиране на всяка страница на отчета в отделен лист на Excel.</ExportEachPageToSheet>
     <ExportMode>Секциите, които влизат във файла: Само данни взема секциите Данни (компонентът Таблица, секцията Йерархични данни), Данни и Заглавие/Край добавя техните заглавия и краища, Всички секции взема всички секции на отчета.</ExportMode>

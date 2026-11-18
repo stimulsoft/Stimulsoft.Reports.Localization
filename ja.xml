@@ -1079,16 +1079,17 @@
   <Export>
     <AddPageBreaks>改ページを追加</AddPageBreaks>
     <AllBands>すべてのバンド</AllBands>
-    <AllowAddOrModifyTextAnnotations>テキスト注釈の追加または変更を許可</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>テキストとグラフィックのコピーを許可</AllowCopyTextAndGraphics>
+    <AllowAddOrModifyTextAnnotations>注釈</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>内容のコピー</AllowCopyTextAndGraphics>
     <AllowEditable>編集可能：</AllowEditable>
-    <AllowModifyContents>コンテンツの変更を許可</AllowModifyContents>
-    <AllowPrintDocument>印刷ドキュメントを許可</AllowPrintDocument>
+    <AllowModifyContents>文書の変更</AllowModifyContents>
+    <AllowPrintDocument>印刷</AllowPrintDocument>
     <Auto>自動</Auto>
     <BandsFilter>バンドフィルター：</BandsFilter>
     <CancelExport>エキスポートキャンセル</CancelExport>
     <Color>色</Color>
     <Compressed>圧縮された</Compressed>
+    <Compression>圧縮</Compression>
     <CompressToArchive>アーカイブに圧縮</CompressToArchive>
     <Content>コンテンツ</Content>
     <ContinuousPages>連続ページ</ContinuousPages>
@@ -1106,7 +1107,9 @@
     <EmbeddedImageData>埋め込み画像データ</EmbeddedImageData>
     <EnableAnimation>アニメーションを有効にする</EnableAnimation>
     <Encoding>エンコーディング：</Encoding>
+    <Encryption>暗号化</Encryption>
     <EncryptionError>ステップでの暗号化エラー</EncryptionError>
+    <EncryptionMethod>暗号化方式</EncryptionMethod>
     <EscapeCodes>エスケープコード</EscapeCodes>
     <Exactly>正確に</Exactly>
     <ExceptEditableFields>編集可能なフィールドを除く</ExceptEditableFields>
@@ -1155,6 +1158,7 @@
     <ExportTypeWriterFile>OpenDocument Writerファイル...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XMLファイル...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPSファイル...</ExportTypeXpsFile>
+    <FloydSteinbergMonochrome>モノクローム (Floyd-Steinberg)</FloydSteinbergMonochrome>
     <Format>形式</Format>
     <GetCertificateFromCryptoUI>暗号UIから証明書を取得</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>画像圧縮方式：</ImageCompressionMethod>
@@ -1177,12 +1181,14 @@
     <NoMoreThan>に過ぎません</NoMoreThan>
     <OpenAfterExport>エクスポート後に開く</OpenAfterExport>
     <Ordered>順序付き</Ordered>
+    <OrderedMonochrome>モノクローム (組織的)</OrderedMonochrome>
     <PageBands>ページヘッダ/フッタ:</PageBands>
     <PageBandsAll>すべて</PageBandsAll>
     <PageBandsFirstAndLast>最初のヘッダと最後のフッタ</PageBandsFirstAndLast>
     <PageBandsNone>なし</PageBandsNone>
-    <PdfACompliance>PDF</PdfACompliance>
+    <PdfACompliance>PDF/A（アーカイブ）</PdfACompliance>
     <PdfUA>PDF/UA（ユニバーサルアクセシビリティ）</PdfUA>
+    <Permissions>アクセス許可</Permissions>
     <PrintingReport>印刷レポート</PrintingReport>
     <Protection>保護</Protection>
     <Quality>画質</Quality>
@@ -1190,11 +1196,14 @@
     <Resolution>解像度</Resolution>
     <RestrictEditing>編集を制限：</RestrictEditing>
     <Scale>規模：</Scale>
+    <SelectCertificate>証明書を選択してください</SelectCertificate>
     <Separator>セパレータ：</Separator>
     <Settings>設定</Settings>
     <Sheets>シート</Sheets>
+    <SimpleMonochrome>モノクローム (単純)</SimpleMonochrome>
     <SkipColumnHeaders>列ヘッダをスキップ</SkipColumnHeaders>
     <StandardPDFFonts>標準PDFフォント</StandardPDFFonts>
+    <Standards>規格</Standards>
     <TiffCompressionScheme>TIFF圧縮スキーム：</TiffCompressionScheme>
     <title>エクスポート設定</title>
     <TxtBorderType>ボーダータイプ</TxtBorderType>
@@ -2402,6 +2411,7 @@
     <Encoding>エクスポートしたテキストのエンコーディング。</Encoding>
     <EncodingData>データファイルのエンコーディング。</EncodingData>
     <EncryptionKeyLength>暗号化キーの長さ：キーが長いほど、文書の解読は難しくなります。</EncryptionKeyLength>
+    <EncryptionMethod>暗号化アルゴリズムとそのキーの長さ：方式が強力なほど、文書の解読は難しくなります。</EncryptionMethod>
     <ExportDataOnly>データバンドのみをエクスポートします：表部品と階層データバンド。</ExportDataOnly>
     <ExportEachPageToSheet>レポートの各ページを個別のExcelシートにエクスポートします。</ExportEachPageToSheet>
     <ExportMode>ファイルに含めるバンド：「データのみ」はデータバンド（表部品、階層データバンド）を含め、「データとヘッダ/フッタ」はそのヘッダとフッタを加え、「すべてのバンド」はすべてのバンドを含めます。</ExportMode>

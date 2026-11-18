@@ -1078,16 +1078,17 @@
   <Export>
     <AddPageBreaks>Přidat konce stránek</AddPageBreaks>
     <AllBands>Všechny skupiny</AllBands>
-    <AllowAddOrModifyTextAnnotations>Umožnit přidat nebo editovat textové poznámky</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Povolit kopírování textu a grafiky</AllowCopyTextAndGraphics>
+    <AllowAddOrModifyTextAnnotations>Komentování</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Kopírování obsahu</AllowCopyTextAndGraphics>
     <AllowEditable>Povolit editovatelná pole</AllowEditable>
-    <AllowModifyContents>Povolit měnit obsah</AllowModifyContents>
-    <AllowPrintDocument>Povolit tisknout dokument</AllowPrintDocument>
+    <AllowModifyContents>Změny dokumentu</AllowModifyContents>
+    <AllowPrintDocument>Tisk</AllowPrintDocument>
     <Auto>Automaticky</Auto>
     <BandsFilter>Filtr skupin:</BandsFilter>
     <CancelExport>Zrušit export</CancelExport>
     <Color>Barva</Color>
     <Compressed>Komprimovaný</Compressed>
+    <Compression>Komprese</Compression>
     <CompressToArchive>Komprimovat do archivu</CompressToArchive>
     <Content>Obsah</Content>
     <ContinuousPages>Souvislé stránky</ContinuousPages>
@@ -1105,7 +1106,9 @@
     <EmbeddedImageData>Vložená data obrázku</EmbeddedImageData>
     <EnableAnimation>Povolit animaci</EnableAnimation>
     <Encoding>Kódování:</Encoding>
+    <Encryption>Šifrování</Encryption>
     <EncryptionError>Chyba šifrování v kroku</EncryptionError>
+    <EncryptionMethod>Metoda šifrování</EncryptionMethod>
     <EscapeCodes>Escape sekvenční znaky</EscapeCodes>
     <Exactly>Přesně</Exactly>
     <ExceptEditableFields>Kromě editovatelných polí</ExceptEditableFields>
@@ -1154,6 +1157,7 @@
     <ExportTypeWriterFile>OpenDocument Writer soubor...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML soubor...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS soubor...</ExportTypeXpsFile>
+    <FloydSteinbergMonochrome>Monochromatický (Floyd-Steinberg)</FloydSteinbergMonochrome>
     <Format>Formát</Format>
     <GetCertificateFromCryptoUI>Získat certifikát z Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Metoda komprese obrázku:</ImageCompressionMethod>
@@ -1176,12 +1180,14 @@
     <NoMoreThan>Nejvýše</NoMoreThan>
     <OpenAfterExport>Otevřít po exportování</OpenAfterExport>
     <Ordered>Uspořádané</Ordered>
+    <OrderedMonochrome>Monochromatický (uspořádaný)</OrderedMonochrome>
     <PageBands>Záhlaví a zápatí stránek:</PageBands>
     <PageBandsAll>Všechna</PageBandsAll>
     <PageBandsFirstAndLast>První záhlaví a poslední zápatí</PageBandsFirstAndLast>
     <PageBandsNone>Žádná</PageBandsNone>
-    <PdfACompliance>Shodnost s PDF/A</PdfACompliance>
+    <PdfACompliance>PDF/A (archivace)</PdfACompliance>
     <PdfUA>PDF/UA (univerzální přístupnost)</PdfUA>
+    <Permissions>Oprávnění</Permissions>
     <PrintingReport>Tisk reportu</PrintingReport>
     <Protection>Ochrana</Protection>
     <Quality>Kvalita</Quality>
@@ -1189,11 +1195,14 @@
     <Resolution>Rozlišení</Resolution>
     <RestrictEditing>Omezit úpravy:</RestrictEditing>
     <Scale>Měřítko:</Scale>
+    <SelectCertificate>Vyberte certifikát</SelectCertificate>
     <Separator>Oddělovač:</Separator>
     <Settings>Nastavení</Settings>
     <Sheets>Listy</Sheets>
+    <SimpleMonochrome>Monochromatický (jednoduchý)</SimpleMonochrome>
     <SkipColumnHeaders>Přeskoč názvy sloupců</SkipColumnHeaders>
     <StandardPDFFonts>Standardní písma PDF</StandardPDFFonts>
+    <Standards>Standardy</Standards>
     <TiffCompressionScheme>TIFF schéma komprese:</TiffCompressionScheme>
     <title>Nastavení exportu</title>
     <TxtBorderType>Typ okraje</TxtBorderType>
@@ -2401,6 +2410,7 @@
     <Encoding>Kódování exportovaného textu.</Encoding>
     <EncodingData>Kódování datového souboru.</EncodingData>
     <EncryptionKeyLength>Délka šifrovacího klíče: čím delší klíč, tím obtížnější je dokument dešifrovat.</EncryptionKeyLength>
+    <EncryptionMethod>Šifrovací algoritmus a délka jeho klíče: čím silnější metoda, tím obtížnější je dokument dešifrovat.</EncryptionMethod>
     <ExportDataOnly>Exportovat pouze bandy Data: komponentu Tabulka a hierarchický band.</ExportDataOnly>
     <ExportEachPageToSheet>Exportovat každou stránku reportu na samostatný list Excelu.</ExportEachPageToSheet>
     <ExportMode>Bandy, které se dostanou do souboru: Pouze data bere bandy Data (komponenta Tabulka, hierarchický band), Data a záhlaví/zápatí přidává jejich záhlaví a zápatí, Všechny skupiny bere všechny bandy.</ExportMode>

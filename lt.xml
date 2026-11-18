@@ -1082,17 +1082,18 @@
   <Export>
     <AddPageBreaks>Pridėti puslapių lūžius</AddPageBreaks>
     <AllBands>Visos sekcijos</AllBands>
-    <AllowAddOrModifyTextAnnotations>Leisti pridėti ar keisti teksto anotacijas</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Leisti kopijuoti tekstą ir grafiką</AllowCopyTextAndGraphics>
+    <AllowAddOrModifyTextAnnotations>Komentavimas</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Turinio kopijavimas</AllowCopyTextAndGraphics>
     <AllowEditable>Leisti redaguojamus laukus</AllowEditable>
-    <AllowModifyContents>Leisti keisti turinį</AllowModifyContents>
-    <AllowPrintDocument>Leisti spausdinti dokumentą</AllowPrintDocument>
+    <AllowModifyContents>Dokumento keitimas</AllowModifyContents>
+    <AllowPrintDocument>Spausdinimas</AllowPrintDocument>
     <Auto>Automatiškai</Auto>
     <BandsFilter>Sekcijų filtras:</BandsFilter>
     <CancelExport>Atšaukti eksportavimą</CancelExport>
     <CodePage>Kodo puslapis:</CodePage>
     <Color>Spalva</Color>
     <Compressed>Suspaustas</Compressed>
+    <Compression>Suspaudimas</Compression>
     <CompressToArchive>Suspausti į archyvą</CompressToArchive>
     <Content>Turinys</Content>
     <ContinuousPages>Ištisiniai puslapiai</ContinuousPages>
@@ -1110,7 +1111,9 @@
     <EmbeddedImageData>Įterpti paveikslėlių duomenis</EmbeddedImageData>
     <EnableAnimation>Įjungti animaciją</EnableAnimation>
     <Encoding>Kodavimas:</Encoding>
+    <Encryption>Šifravimas</Encryption>
     <EncryptionError>Šifravimo klaida etape</EncryptionError>
+    <EncryptionMethod>Šifravimo metodas</EncryptionMethod>
     <EscapeCodes>Escape kodai</EscapeCodes>
     <Exactly>Tiksliai</Exactly>
     <ExceptEditableFields>Išskyrus redaguojamus laukus</ExceptEditableFields>
@@ -1164,6 +1167,7 @@
     <ExportTypeWriterFile>OpenDocument Writer failas...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML failas...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS failas...</ExportTypeXpsFile>
+    <FloydSteinbergMonochrome>Juodai baltas (Floyd-Steinberg)</FloydSteinbergMonochrome>
     <Format>Formatas</Format>
     <GetCertificateFromCryptoUI>Gauti sertifikatą iš Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Paveikslėlių suspaudimo metodas:</ImageCompressionMethod>
@@ -1186,12 +1190,14 @@
     <NoMoreThan>Ne daugiau kaip</NoMoreThan>
     <OpenAfterExport>Eksportavus atidaryti</OpenAfterExport>
     <Ordered>Išrikiuota</Ordered>
+    <OrderedMonochrome>Juodai baltas (tvarkingas)</OrderedMonochrome>
     <PageBands>Puslapių antraštės/poraštės:</PageBands>
     <PageBandsAll>Visi</PageBandsAll>
     <PageBandsFirstAndLast>Pirmas viršus ir paskutinė apačia</PageBandsFirstAndLast>
     <PageBandsNone>Nėra</PageBandsNone>
-    <PdfACompliance>PDF/A atitiktis</PdfACompliance>
+    <PdfACompliance>PDF/A (archyvavimas)</PdfACompliance>
     <PdfUA>PDF/UA (universalus prieinamumas)</PdfUA>
+    <Permissions>Leidimai</Permissions>
     <PrintingReport>Spausdinama ataskaita</PrintingReport>
     <Protection>Apsauga</Protection>
     <Quality>Kokybė</Quality>
@@ -1199,11 +1205,14 @@
     <Resolution>Raiška</Resolution>
     <RestrictEditing>Riboti redagavimą:</RestrictEditing>
     <Scale>Mastelis:</Scale>
+    <SelectCertificate>Pasirinkite sertifikatą</SelectCertificate>
     <Separator>Skirtukas:</Separator>
     <Settings>Nustatymai</Settings>
     <Sheets>Lapai</Sheets>
+    <SimpleMonochrome>Juodai baltas (paprastas)</SimpleMonochrome>
     <SkipColumnHeaders>Praleisti stulpelių antraštes</SkipColumnHeaders>
     <StandardPDFFonts>Standartiniai PDF šriftai</StandardPDFFonts>
+    <Standards>Standartai</Standards>
     <TiffCompressionScheme>TIFF suspaudimo schema:</TiffCompressionScheme>
     <TxtKillSpaceGraphLines>Šalinti eilutes tik su rėmeliais</TxtKillSpaceGraphLines>
     <title>Eksportavimo nustatymai</title>
@@ -2456,6 +2465,7 @@
     <Encoding>Eksportuoto teksto koduotė.</Encoding>
     <EncodingData>Duomenų failo koduotė.</EncodingData>
     <EncryptionKeyLength>Šifravimo rakto ilgis: kuo ilgesnis raktas, tuo sunkiau iššifruoti dokumentą.</EncryptionKeyLength>
+    <EncryptionMethod>Šifravimo algoritmas ir jo rakto ilgis: kuo stipresnis metodas, tuo sunkiau iššifruoti dokumentą.</EncryptionMethod>
     <ExportDataOnly>Eksportuoti tik sekcijas Duomenys: komponentą Lentelė ir sekciją Hierarchiniai duomenys.</ExportDataOnly>
     <ExportEachPageToSheet>Eksportuoti kiekvieną ataskaitos puslapį į atskirą Excel lapą.</ExportEachPageToSheet>
     <ExportMode>Sekcijos, kurios pateks į failą: Tik duomenys ima sekcijas Duomenys (komponentas Lentelė, sekcija Hierarchiniai duomenys), Duomenys ir antraštės/poraštės prideda jų antraštes ir poraštes, Visos sekcijos ima visas ataskaitos sekcijas.</ExportMode>

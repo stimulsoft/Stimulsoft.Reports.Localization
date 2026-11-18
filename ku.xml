@@ -1079,16 +1079,17 @@
   <Export>
     <AddPageBreaks>زیادکردنی جیاکردنەوەی پەڕە</AddPageBreaks>
     <AllBands>هەموو باندەکان</AllBands>
-    <AllowAddOrModifyTextAnnotations>ڕێ بدە بە زیادکردن یان هەموارکردنی تێبینیەکانی دەق</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>ڕێپێدانی کۆپیکردنی دەق و گرافیکەکان</AllowCopyTextAndGraphics>
+    <AllowAddOrModifyTextAnnotations>لێدوان</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>کۆپیکردنی ناوەڕۆک</AllowCopyTextAndGraphics>
     <AllowEditable>ڕێگەدان بە:</AllowEditable>
-    <AllowModifyContents>ڕێ بدە بە گۆڕانکاری ناوەڕۆکەکان</AllowModifyContents>
-    <AllowPrintDocument>ڕێگەدان بە چاپکردنی دۆکیومێنت</AllowPrintDocument>
+    <AllowModifyContents>گۆڕینی دۆکیومێنت</AllowModifyContents>
+    <AllowPrintDocument>چاپکردن</AllowPrintDocument>
     <Auto>خۆکار</Auto>
     <BandsFilter>فلتەری باندەکان:</BandsFilter>
     <CancelExport>پاشگەزبەوە لە ناردن</CancelExport>
     <Color>ڕەنگ</Color>
     <Compressed>پەستێنراو</Compressed>
+    <Compression>پەستان</Compression>
     <CompressToArchive>کۆمپرێس بکە بۆ ئەرشیف</CompressToArchive>
     <Content>ناوەڕۆک</Content>
     <ContinuousPages>پەڕە بەردەوامەکان</ContinuousPages>
@@ -1106,7 +1107,9 @@
     <EmbeddedImageData>داتای وێنەی بنچینکراو</EmbeddedImageData>
     <EnableAnimation>چالاککردنی ئەنیمەیشن</EnableAnimation>
     <Encoding>مشەفەرکردن:</Encoding>
+    <Encryption>مشەفەرکردن</Encryption>
     <EncryptionError>هەڵەی ئنکریپتکردن لەکاتی دامەزراندا</EncryptionError>
+    <EncryptionMethod>شێوازی مشەفەرکردن</EncryptionMethod>
     <EscapeCodes>کۆدەکانی ئیسکەیپ</EscapeCodes>
     <Exactly>ڕێک وەکخۆی</Exactly>
     <ExceptEditableFields>جگە لە خانە بژارکراوەکان</ExceptEditableFields>
@@ -1155,6 +1158,7 @@
     <ExportTypeWriterFile>فایلی نووسەری OpenDocument...</ExportTypeWriterFile>
     <ExportTypeXmlFile>فایلی XML...</ExportTypeXmlFile>
     <ExportTypeXpsFile>فایلی Microsoft XPS...</ExportTypeXpsFile>
+    <FloydSteinbergMonochrome>مۆنۆکرۆم (Floyd-Steinberg)</FloydSteinbergMonochrome>
     <Format>فۆرمات</Format>
     <GetCertificateFromCryptoUI>بڕوانامە بهێنە لە Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>شێوازی پەستانی وێنە:</ImageCompressionMethod>
@@ -1177,12 +1181,14 @@
     <NoMoreThan>زیاتر لەوە نا</NoMoreThan>
     <OpenAfterExport>کردنەوە پاش هەناردەکردن</OpenAfterExport>
     <Ordered>ڕیزکراو</Ordered>
+    <OrderedMonochrome>مۆنۆکرۆم (ڕێکخراو)</OrderedMonochrome>
     <PageBands>سەرپەڕە و ژێرپەڕەکانی لاپەڕە:</PageBands>
     <PageBandsAll>هەموو</PageBandsAll>
     <PageBandsFirstAndLast>یەکەم سەرپەڕە و دوا ژێرپەڕە</PageBandsFirstAndLast>
     <PageBandsNone>هیچ</PageBandsNone>
-    <PdfACompliance>PDF/A پابەندبوون</PdfACompliance>
+    <PdfACompliance>PDF/A (ئەرشیفکردن)</PdfACompliance>
     <PdfUA>PDF/UA (دەستپێڕاگەیشتنی گشتگیر)</PdfUA>
+    <Permissions>مۆڵەتەکان</Permissions>
     <PrintingReport>چاپکردنی ڕاپۆرت</PrintingReport>
     <Protection>پاراستن</Protection>
     <Quality>کوالێتی</Quality>
@@ -1190,11 +1196,14 @@
     <Resolution>ڕوونی</Resolution>
     <RestrictEditing>بژارکردنی سنوردارکراو:</RestrictEditing>
     <Scale>پێوەر:</Scale>
+    <SelectCertificate>بڕوانامەیەک هەڵبژێرە</SelectCertificate>
     <Separator>جیاکەرەوە:</Separator>
     <Settings>ڕێکخستنەکان</Settings>
     <Sheets>شیتەکان</Sheets>
+    <SimpleMonochrome>مۆنۆکرۆم (سادە)</SimpleMonochrome>
     <SkipColumnHeaders>تەرککردنی ستوونی هێدەرەکان</SkipColumnHeaders>
     <StandardPDFFonts>فۆنتی ستانداردنی PDF</StandardPDFFonts>
+    <Standards>ستانداردەکان</Standards>
     <TiffCompressionScheme>پلانی پەستانی TIFF:</TiffCompressionScheme>
     <title>هەناردەکردنی ڕێکخستنەکان</title>
     <TxtBorderType>جۆری سنوور</TxtBorderType>
@@ -2402,6 +2411,7 @@
     <Encoding>کۆدکردنی دەقی هەناردەکراو.</Encoding>
     <EncodingData>کۆدکردنی فایلی داتا.</EncodingData>
     <EncryptionKeyLength>درێژی کلیلی ڕەمزاندن: تا کلیلەکە درێژتر بێت، کردنەوەی ڕەمزی دۆکیومێنتەکە قورستر دەبێت.</EncryptionKeyLength>
+    <EncryptionMethod>ئەلگۆریتمی ڕەمزاندن و درێژی کلیلەکەی: تا ڕێگاکە بەهێزتر بێت، کردنەوەی ڕەمزی دۆکیومێنتەکە قورستر دەبێت.</EncryptionMethod>
     <ExportDataOnly>هەناردەکردنی تەنها باندەکانی داتا: پێکهاتەی خشتە و باندی هەرەمی.</ExportDataOnly>
     <ExportEachPageToSheet>هەناردەکردنی هەر لاپەڕەیەکی ڕاپۆرت بۆ شیتێکی تایبەتی Excel.</ExportEachPageToSheet>
     <ExportMode>ئەو باندانەی دەچنە ناو فایلەکە: تەنها داتا باندەکانی داتا وەردەگرێت (پێکهاتەی خشتە، باندی هەرەمی)، داتا و سەرپەڕەکان/ژێرپەڕەکان سەرپەڕە و ژێرپەڕەکانیان زیاد دەکات، هەموو باندەکان هەموو باندەکان وەردەگرێت.</ExportMode>

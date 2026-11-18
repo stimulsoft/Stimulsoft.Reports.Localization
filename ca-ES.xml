@@ -1078,16 +1078,17 @@
   <Export>
     <AddPageBreaks>Afegeix salts de pàgina</AddPageBreaks>
     <AllBands>Totes les bandes</AllBands>
-    <AllowAddOrModifyTextAnnotations>Permet afegir o modificar anotacions de text</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Permet copiar textos i gràfics</AllowCopyTextAndGraphics>
+    <AllowAddOrModifyTextAnnotations>Comentaris</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Còpia de contingut</AllowCopyTextAndGraphics>
     <AllowEditable>Permetre camps editables</AllowEditable>
-    <AllowModifyContents>Permet modificar continguts</AllowModifyContents>
-    <AllowPrintDocument>Permet imprimir documents</AllowPrintDocument>
+    <AllowModifyContents>Canvis al document</AllowModifyContents>
+    <AllowPrintDocument>Impressió</AllowPrintDocument>
     <Auto>Automàtic</Auto>
     <BandsFilter>Filtre de capçaleres:</BandsFilter>
     <CancelExport>Cancel·lar l'exportació</CancelExport>
     <Color>Color</Color>
     <Compressed>Comprimeix</Compressed>
+    <Compression>Compressió</Compression>
     <CompressToArchive>Comprimir en un arxiu</CompressToArchive>
     <Content>Contingut</Content>
     <ContinuousPages>Pàgines contínues</ContinuousPages>
@@ -1105,7 +1106,9 @@
     <EmbeddedImageData>Dades d'imatge incrustada</EmbeddedImageData>
     <EnableAnimation>Activar l'animació</EnableAnimation>
     <Encoding>Codificació</Encoding>
+    <Encryption>Encriptació</Encryption>
     <EncryptionError>S’han produït un error d’encriptació en pas</EncryptionError>
+    <EncryptionMethod>Mètode d'encriptació</EncryptionMethod>
     <EscapeCodes>Codis d’escapament</EscapeCodes>
     <Exactly>Exactament</Exactly>
     <ExceptEditableFields>Excepte els camps editables</ExceptEditableFields>
@@ -1154,6 +1157,7 @@
     <ExportTypeWriterFile>Escriptor de fitxer OpenDocument...</ExportTypeWriterFile>
     <ExportTypeXmlFile>Arxiu XML...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Fitxer Microsoft XPS...</ExportTypeXpsFile>
+    <FloydSteinbergMonochrome>Monocromàtic (Floyd-Steinberg)</FloydSteinbergMonochrome>
     <Format>Format</Format>
     <GetCertificateFromCryptoUI>Obtén certificat de Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Mètode de compressió de la imatge:</ImageCompressionMethod>
@@ -1176,12 +1180,14 @@
     <NoMoreThan>No més de</NoMoreThan>
     <OpenAfterExport>Obre després d’exportar</OpenAfterExport>
     <Ordered>Ordenat</Ordered>
+    <OrderedMonochrome>Monocromàtic (ordenat)</OrderedMonochrome>
     <PageBands>Capçaleres i peus de pàgina:</PageBands>
     <PageBandsAll>Tots</PageBandsAll>
     <PageBandsFirstAndLast>Primera capçalera i darrer peu</PageBandsFirstAndLast>
     <PageBandsNone>Cap</PageBandsNone>
-    <PdfACompliance>Conformitat PDF/A</PdfACompliance>
+    <PdfACompliance>PDF/A (Arxivament)</PdfACompliance>
     <PdfUA>PDF/UA (Accessibilitat universal)</PdfUA>
+    <Permissions>Permisos</Permissions>
     <PrintingReport>Imprimint l'informe</PrintingReport>
     <Protection>Protecció</Protection>
     <Quality>Qualitat</Quality>
@@ -1189,11 +1195,14 @@
     <Resolution>Resolució</Resolution>
     <RestrictEditing>Restringir l'edició:</RestrictEditing>
     <Scale>Escala</Scale>
+    <SelectCertificate>Seleccioneu un certificat</SelectCertificate>
     <Separator>Separador:</Separator>
     <Settings>Configuració</Settings>
     <Sheets>Fulls</Sheets>
+    <SimpleMonochrome>Monocromàtic (simple)</SimpleMonochrome>
     <SkipColumnHeaders>Salta les capçaleres de columnes</SkipColumnHeaders>
     <StandardPDFFonts>Fonts estàndard PDF</StandardPDFFonts>
+    <Standards>Estàndards</Standards>
     <TiffCompressionScheme>Esquema de compressió TIFF:</TiffCompressionScheme>
     <title>Configuració d’exportació</title>
     <TxtBorderType>Tipus de marge</TxtBorderType>
@@ -2401,6 +2410,7 @@
     <Encoding>La codificació del text exportat.</Encoding>
     <EncodingData>La codificació del fitxer de dades.</EncodingData>
     <EncryptionKeyLength>La longitud de la clau de xifratge: com més llarga és la clau, més difícil és desxifrar el document.</EncryptionKeyLength>
+    <EncryptionMethod>L'algorisme de xifratge i la longitud de la seva clau: com més fort és el mètode, més difícil és desxifrar el document.</EncryptionMethod>
     <ExportDataOnly>Exporta només les bandes Dades: el component Taula i la banda jeràrquica.</ExportDataOnly>
     <ExportEachPageToSheet>Exporta cada pàgina de l'informe al seu propi full d'Excel.</ExportEachPageToSheet>
     <ExportMode>Les bandes que van al fitxer: Només dades agafa les bandes Dades (el component Taula, la banda jeràrquica), Dades i capçaleres/peus hi afegeix les seves capçaleres i peus, Totes les bandes agafa totes les bandes.</ExportMode>

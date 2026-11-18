@@ -1078,16 +1078,17 @@
   <Export>
     <AddPageBreaks>Добавить разделители страниц</AddPageBreaks>
     <AllBands>Все бэнды</AllBands>
-    <AllowAddOrModifyTextAnnotations>Разрешить добавлять или изменять примечания</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Разрешить копировать текст и графику</AllowCopyTextAndGraphics>
+    <AllowAddOrModifyTextAnnotations>Комментирование</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Копирование содержимого</AllowCopyTextAndGraphics>
     <AllowEditable>Разрешить редактируемые:</AllowEditable>
-    <AllowModifyContents>Разрешить редактирование документа</AllowModifyContents>
-    <AllowPrintDocument>Разрешить печать документа</AllowPrintDocument>
+    <AllowModifyContents>Изменение документа</AllowModifyContents>
+    <AllowPrintDocument>Печать</AllowPrintDocument>
     <Auto>Авто</Auto>
     <BandsFilter>Фильтр бэндов:</BandsFilter>
     <CancelExport>Отмена экспорта</CancelExport>
     <Color>Цвет</Color>
     <Compressed>Сжатый</Compressed>
+    <Compression>Сжатие</Compression>
     <CompressToArchive>Сжать в архив</CompressToArchive>
     <Content>Содержимое</Content>
     <ContinuousPages>Непрерывные страницы</ContinuousPages>
@@ -1105,7 +1106,9 @@
     <EmbeddedImageData>Внедрить изображение</EmbeddedImageData>
     <EnableAnimation>Включить анимацию</EnableAnimation>
     <Encoding>Кодировка:</Encoding>
+    <Encryption>Шифрование</Encryption>
     <EncryptionError>Ошибка шифрования на шаге</EncryptionError>
+    <EncryptionMethod>Метод шифрования</EncryptionMethod>
     <EscapeCodes>Управляющие коды</EscapeCodes>
     <Exactly>Точно</Exactly>
     <ExceptEditableFields>Исключить редактируемые</ExceptEditableFields>
@@ -1154,6 +1157,7 @@
     <ExportTypeWriterFile>OpenDocument Writer файл...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML файл...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS файл...</ExportTypeXpsFile>
+    <FloydSteinbergMonochrome>Монохромный (Floyd-Steinberg)</FloydSteinbergMonochrome>
     <Format>Формат</Format>
     <GetCertificateFromCryptoUI>Брать сертификат из Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Метод сжатия изображения:</ImageCompressionMethod>
@@ -1176,12 +1180,14 @@
     <NoMoreThan>Не больше чем</NoMoreThan>
     <OpenAfterExport>Открыть после экспорта</OpenAfterExport>
     <Ordered>Упорядочено</Ordered>
+    <OrderedMonochrome>Монохромный (упорядоченный)</OrderedMonochrome>
     <PageBands>Колонтитулы страницы:</PageBands>
     <PageBandsAll>Все</PageBandsAll>
     <PageBandsFirstAndLast>Первый заголовок и последний итог</PageBandsFirstAndLast>
     <PageBandsNone>Нет</PageBandsNone>
-    <PdfACompliance>PDF/A соглашение</PdfACompliance>
+    <PdfACompliance>PDF/A (Архивирование)</PdfACompliance>
     <PdfUA>PDF/UA (Универсальная доступность)</PdfUA>
+    <Permissions>Разрешения</Permissions>
     <PrintingReport>Печать отчета</PrintingReport>
     <Protection>Защита</Protection>
     <Quality>Качество</Quality>
@@ -1189,11 +1195,14 @@
     <Resolution>Разрешение</Resolution>
     <RestrictEditing>Ограничение Редактирования:</RestrictEditing>
     <Scale>Масштаб:</Scale>
+    <SelectCertificate>Выберите сертификат</SelectCertificate>
     <Separator>Разделитель:</Separator>
     <Settings>Настройки</Settings>
     <Sheets>Листы</Sheets>
+    <SimpleMonochrome>Монохромный (простой)</SimpleMonochrome>
     <SkipColumnHeaders>Пропускать заголовки колонок</SkipColumnHeaders>
     <StandardPDFFonts>Стандартные PDF шрифты</StandardPDFFonts>
+    <Standards>Стандарты</Standards>
     <TiffCompressionScheme>Схема сжатия TIFF:</TiffCompressionScheme>
     <title>Параметры экспорта</title>
     <TxtBorderType>Тип границы</TxtBorderType>
@@ -2401,6 +2410,7 @@
     <Encoding>Кодировка экспортированного текста.</Encoding>
     <EncodingData>Кодировка файла данных.</EncodingData>
     <EncryptionKeyLength>Длина ключа шифрования: чем длиннее ключ, тем сложнее расшифровать документ.</EncryptionKeyLength>
+    <EncryptionMethod>Алгоритм шифрования и длина его ключа: чем сильнее метод, тем сложнее расшифровать документ.</EncryptionMethod>
     <ExportDataOnly>Экспортировать только бэнды Данные: компонент Таблица и бэнд Дерево.</ExportDataOnly>
     <ExportEachPageToSheet>Экспортировать каждую страницу отчета на отдельный лист Excel.</ExportEachPageToSheet>
     <ExportMode>Бэнды, которые попадут в файл: Только данные берет бэнды Данные (компонент Таблица, бэнд Дерево), Данные и Заголовки/Итоги добавляет их заголовки и итоги, Все бэнды берет все бэнды отчета.</ExportMode>

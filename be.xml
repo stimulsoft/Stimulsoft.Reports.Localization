@@ -1078,16 +1078,17 @@
   <Export>
     <AddPageBreaks>Дадаць падзельнікі старонак</AddPageBreaks>
     <AllBands>Усе бэнды</AllBands>
-    <AllowAddOrModifyTextAnnotations>Дазволіць дадаваць або змяняць нататкі</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Дазволіць капіраваць тэкст і графіку</AllowCopyTextAndGraphics>
+    <AllowAddOrModifyTextAnnotations>Каментаванне</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Капіраванне змесціва</AllowCopyTextAndGraphics>
     <AllowEditable>Дазволіць рэдагуемыя:</AllowEditable>
-    <AllowModifyContents>Дазволіць рэдагаванне дакумента</AllowModifyContents>
-    <AllowPrintDocument>Дазволіць друк дакумента</AllowPrintDocument>
+    <AllowModifyContents>Змяненне дакумента</AllowModifyContents>
+    <AllowPrintDocument>Друк</AllowPrintDocument>
     <Auto>Аўта</Auto>
     <BandsFilter>Фільтр бэндаў:</BandsFilter>
     <CancelExport>Адмена экспарту</CancelExport>
     <Color>Колер</Color>
     <Compressed>Сціснуты</Compressed>
+    <Compression>Сцісканне</Compression>
     <CompressToArchive>Сціснуць у архіў</CompressToArchive>
     <Content>Змесціва</Content>
     <ContinuousPages>Бесперапынныя старонкі</ContinuousPages>
@@ -1105,7 +1106,9 @@
     <EmbeddedImageData>Уставіць малюнак</EmbeddedImageData>
     <EnableAnimation>Уключыць анімацыю</EnableAnimation>
     <Encoding>Кадыроўка:</Encoding>
+    <Encryption>Шыфраванне</Encryption>
     <EncryptionError>Памылка шыфравання на кроку</EncryptionError>
+    <EncryptionMethod>Метад шыфравання</EncryptionMethod>
     <EscapeCodes>Кіраўнікі кода</EscapeCodes>
     <Exactly>Дакладна</Exactly>
     <ExceptEditableFields>Выключыць рэдагуемыя</ExceptEditableFields>
@@ -1154,6 +1157,7 @@
     <ExportTypeWriterFile>OpenDocument Writer файл...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML файл...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS файл...</ExportTypeXpsFile>
+    <FloydSteinbergMonochrome>Манахромны (Floyd-Steinberg)</FloydSteinbergMonochrome>
     <Format>Фармат</Format>
     <GetCertificateFromCryptoUI>Браць сертыфікат з Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Метад сціскання малюнка:</ImageCompressionMethod>
@@ -1176,12 +1180,14 @@
     <NoMoreThan>Не больш чым</NoMoreThan>
     <OpenAfterExport>Адкрыць пасля экспарту</OpenAfterExport>
     <Ordered>Упарадкавана</Ordered>
+    <OrderedMonochrome>Манахромны (упарадкаваны)</OrderedMonochrome>
     <PageBands>Калантытулы старонкі:</PageBands>
     <PageBandsAll>Усе</PageBandsAll>
     <PageBandsFirstAndLast>Першы загаловак і апошні падрахунак</PageBandsFirstAndLast>
     <PageBandsNone>Не</PageBandsNone>
-    <PdfACompliance>PDF/A дамова</PdfACompliance>
+    <PdfACompliance>PDF/A (Архіваванне)</PdfACompliance>
     <PdfUA>PDF/UA (Універсальная даступнасць)</PdfUA>
+    <Permissions>Дазволы</Permissions>
     <PrintingReport>Друк справаздачы</PrintingReport>
     <Protection>Абарона</Protection>
     <Quality>Якасць</Quality>
@@ -1189,11 +1195,14 @@
     <Resolution>Раздзяляльнасць</Resolution>
     <RestrictEditing>Абмежаванне Рэдагавання:</RestrictEditing>
     <Scale>Маштаб:</Scale>
+    <SelectCertificate>Выберыце сертыфікат</SelectCertificate>
     <Separator>Падзельнік:</Separator>
     <Settings>Налады</Settings>
     <Sheets>Лісты</Sheets>
+    <SimpleMonochrome>Манахромны (просты)</SimpleMonochrome>
     <SkipColumnHeaders>Прапускаць загалоўкі калонак</SkipColumnHeaders>
     <StandardPDFFonts>Стандартныя PDF шрыфты</StandardPDFFonts>
+    <Standards>Стандарты</Standards>
     <TiffCompressionScheme>Схема сціску TIFF:</TiffCompressionScheme>
     <title>Параметры экспарту</title>
     <TxtBorderType>Тып мяжы</TxtBorderType>
@@ -2401,6 +2410,7 @@
     <Encoding>Кадаванне экспартаванага тэксту.</Encoding>
     <EncodingData>Кадаванне файла дадзеных.</EncodingData>
     <EncryptionKeyLength>Даўжыня ключа шыфравання: чым даўжэйшы ключ, тым складаней расшыфраваць дакумент.</EncryptionKeyLength>
+    <EncryptionMethod>Алгарытм шыфравання і даўжыня яго ключа: чым мацнейшы метад, тым складаней расшыфраваць дакумент.</EncryptionMethod>
     <ExportDataOnly>Экспартаваць толькі бэнды Дадзеныя: кампанент Табліца і бэнд Дрэва.</ExportDataOnly>
     <ExportEachPageToSheet>Экспартаваць кожную старонку справаздачы на асобны ліст Excel.</ExportEachPageToSheet>
     <ExportMode>Бэнды, якія трапяць у файл: Толькі дадзеныя бярэ бэнды Дадзеныя (кампанент Табліца, бэнд Дрэва), Дадзеныя і Загалоўкі/Вынікі дадае іх загалоўкі і вынікі, Усе бэнды бярэ ўсе бэнды справаздачы.</ExportMode>

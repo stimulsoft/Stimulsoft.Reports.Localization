@@ -1078,16 +1078,17 @@
   <Export>
     <AddPageBreaks>Tambahkan pemisah halaman</AddPageBreaks>
     <AllBands>Semua Band</AllBands>
-    <AllowAddOrModifyTextAnnotations>Memperbolehkan menambah atau merubah Catatan</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Memperbolehkan manyalin tulisan dan grafik</AllowCopyTextAndGraphics>
+    <AllowAddOrModifyTextAnnotations>Memberi Komentar</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Menyalin Konten</AllowCopyTextAndGraphics>
     <AllowEditable>Izinkan diedit:</AllowEditable>
-    <AllowModifyContents>Memperbolehkan merubah isi</AllowModifyContents>
-    <AllowPrintDocument>Memperbolehkan mencetak dokumen</AllowPrintDocument>
+    <AllowModifyContents>Mengubah Dokumen</AllowModifyContents>
+    <AllowPrintDocument>Pencetakan</AllowPrintDocument>
     <Auto>Otomatis</Auto>
     <BandsFilter>Saringan Berkas:</BandsFilter>
     <CancelExport>Batalkan Ekspor</CancelExport>
     <Color>Warna</Color>
     <Compressed>Telah diringkas</Compressed>
+    <Compression>Kompresi</Compression>
     <CompressToArchive>Kompres ke Arsip</CompressToArchive>
     <Content>Konten</Content>
     <ContinuousPages>Halaman Berlanjut</ContinuousPages>
@@ -1105,7 +1106,9 @@
     <EmbeddedImageData>Sertakan data Gambar</EmbeddedImageData>
     <EnableAnimation>Aktifkan Animasi</EnableAnimation>
     <Encoding>Menyandikan:</Encoding>
+    <Encryption>Enkripsi</Encryption>
     <EncryptionError>Terdapat Kesalahan Penyandian pada tahap ini</EncryptionError>
+    <EncryptionMethod>Metode Enkripsi</EncryptionMethod>
     <EscapeCodes>Kode Keluar</EscapeCodes>
     <Exactly>Tepat</Exactly>
     <ExceptEditableFields>Kecuali field yang dapat diubah</ExceptEditableFields>
@@ -1154,6 +1157,7 @@
     <ExportTypeWriterFile>File Buka Dokumen Penulis...</ExportTypeWriterFile>
     <ExportTypeXmlFile>File XML...</ExportTypeXmlFile>
     <ExportTypeXpsFile>File Microsoft XPS...</ExportTypeXpsFile>
+    <FloydSteinbergMonochrome>Satu Warna (Floyd-Steinberg)</FloydSteinbergMonochrome>
     <Format>Format</Format>
     <GetCertificateFromCryptoUI>Dapatkan sertifikat dari Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Metode Kompresi Gambar:</ImageCompressionMethod>
@@ -1176,12 +1180,14 @@
     <NoMoreThan>Tidak Lebih dari</NoMoreThan>
     <OpenAfterExport>Buka setelah export</OpenAfterExport>
     <Ordered>Terurut</Ordered>
+    <OrderedMonochrome>Satu Warna (Berurutan)</OrderedMonochrome>
     <PageBands>Header/Footer Halaman:</PageBands>
     <PageBandsAll>Semua</PageBandsAll>
     <PageBandsFirstAndLast>Header Pertama dan Footer Terakhir</PageBandsFirstAndLast>
     <PageBandsNone>Tidak Ada</PageBandsNone>
-    <PdfACompliance>Kepatuhan PDF/A</PdfACompliance>
+    <PdfACompliance>PDF/A (Pengarsipan)</PdfACompliance>
     <PdfUA>PDF/UA (Aksesibilitas Universal)</PdfUA>
+    <Permissions>Izin</Permissions>
     <PrintingReport>Mencetak Laporan</PrintingReport>
     <Protection>Perlindungan</Protection>
     <Quality>Kualitas</Quality>
@@ -1189,11 +1195,14 @@
     <Resolution>Resolusi</Resolution>
     <RestrictEditing>Batasi Perubahan:</RestrictEditing>
     <Scale>Skala:</Scale>
+    <SelectCertificate>Pilih sertifikat</SelectCertificate>
     <Separator>Pemisah:</Separator>
     <Settings>Pengaturan</Settings>
     <Sheets>Sheet</Sheets>
+    <SimpleMonochrome>Satu Warna (Sederhana)</SimpleMonochrome>
     <SkipColumnHeaders>Lewati Kolom Header</SkipColumnHeaders>
     <StandardPDFFonts>Huruf Standar PDF</StandardPDFFonts>
+    <Standards>Standar</Standards>
     <TiffCompressionScheme>Skema kompresi TIFF:</TiffCompressionScheme>
     <title>Pengaturan Ekspor</title>
     <TxtBorderType>Bentuk Pinggiran</TxtBorderType>
@@ -2401,6 +2410,7 @@
     <Encoding>Pengodean teks hasil ekspor.</Encoding>
     <EncodingData>Pengodean file data.</EncodingData>
     <EncryptionKeyLength>Panjang kunci enkripsi: semakin panjang kunci, semakin sulit dokumen didekripsi.</EncryptionKeyLength>
+    <EncryptionMethod>Algoritme enkripsi dan panjang kuncinya: semakin kuat metodenya, semakin sulit dokumen didekripsi.</EncryptionMethod>
     <ExportDataOnly>Ekspor hanya band Data: komponen Tabel dan band hierarkis.</ExportDataOnly>
     <ExportEachPageToSheet>Ekspor setiap halaman laporan ke lembar Excel tersendiri.</ExportEachPageToSheet>
     <ExportMode>Band yang masuk ke file: Hanya Data mengambil band Data (komponen Tabel, band hierarkis), Data dan Headers/Footers menambahkan header dan footer-nya, Semua Band mengambil semua band.</ExportMode>

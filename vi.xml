@@ -1078,16 +1078,17 @@
   <Export>
     <AddPageBreaks>Thêm ngắt trang</AddPageBreaks>
     <AllBands>Tất cả các dải</AllBands>
-    <AllowAddOrModifyTextAnnotations>Cho phép thêm hoặc chỉnh sửa chú thích văn bản</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Cho phép sao chép văn bản và đồ họa</AllowCopyTextAndGraphics>
+    <AllowAddOrModifyTextAnnotations>Nhận xét</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Sao chép nội dung</AllowCopyTextAndGraphics>
     <AllowEditable>Cho phép chỉnh sửa:</AllowEditable>
-    <AllowModifyContents>Cho phép thay đổi nội dung</AllowModifyContents>
-    <AllowPrintDocument>Cho phép in văn bản</AllowPrintDocument>
+    <AllowModifyContents>Thay đổi tài liệu</AllowModifyContents>
+    <AllowPrintDocument>In</AllowPrintDocument>
     <Auto>Tự động</Auto>
     <BandsFilter>Lọc dải:</BandsFilter>
     <CancelExport>Hủy Xuất</CancelExport>
     <Color>Màu sắc</Color>
     <Compressed>Nén</Compressed>
+    <Compression>Nén</Compression>
     <CompressToArchive>Nén vào tệp lưu trữ</CompressToArchive>
     <Content>Nội dung</Content>
     <ContinuousPages>Trang liên tục</ContinuousPages>
@@ -1105,7 +1106,9 @@
     <EmbeddedImageData>Dữ liệu hình ảnh nhúng</EmbeddedImageData>
     <EnableAnimation>Bật hoạt ảnh</EnableAnimation>
     <Encoding>Mã hóa:</Encoding>
+    <Encryption>Mã hóa</Encryption>
     <EncryptionError>Lỗi mã hóa ở bước</EncryptionError>
+    <EncryptionMethod>Phương thức mã hóa</EncryptionMethod>
     <EscapeCodes>Chuỗi thoát</EscapeCodes>
     <Exactly>Chính xác</Exactly>
     <ExceptEditableFields>Ngoại trừ trường có thể chỉnh sửa</ExceptEditableFields>
@@ -1154,6 +1157,7 @@
     <ExportTypeWriterFile>Tệp OpenDocument Writer...</ExportTypeWriterFile>
     <ExportTypeXmlFile>Tệp XML...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Tệp Microsoft XPS...</ExportTypeXpsFile>
+    <FloydSteinbergMonochrome>Đơn sắc (Floyd-Steinberg)</FloydSteinbergMonochrome>
     <Format>Định dạng</Format>
     <GetCertificateFromCryptoUI>Nhận chứng chỉ từ Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Phương pháp nén hình ảnh:</ImageCompressionMethod>
@@ -1176,12 +1180,14 @@
     <NoMoreThan>Không nhiều hơn</NoMoreThan>
     <OpenAfterExport>Mở sau khi xuất</OpenAfterExport>
     <Ordered>Đã sắp xếp</Ordered>
+    <OrderedMonochrome>Đơn sắc (có thứ tự)</OrderedMonochrome>
     <PageBands>Tiêu đề/Chân trang:</PageBands>
     <PageBandsAll>Tất cả</PageBandsAll>
     <PageBandsFirstAndLast>Tiêu đề đầu tiên và chân trang cuối cùng</PageBandsFirstAndLast>
     <PageBandsNone>Không</PageBandsNone>
-    <PdfACompliance>Phù hợp với PDF/A</PdfACompliance>
+    <PdfACompliance>PDF/A (Lưu trữ)</PdfACompliance>
     <PdfUA>PDF/UA (Khả năng truy cập toàn cầu)</PdfUA>
+    <Permissions>Quyền</Permissions>
     <PrintingReport>Báo cáo in</PrintingReport>
     <Protection>Bảo vệ</Protection>
     <Quality>Chất lượng</Quality>
@@ -1189,11 +1195,14 @@
     <Resolution>Độ phân giải</Resolution>
     <RestrictEditing>Hạn chế chỉnh sửa:</RestrictEditing>
     <Scale>Tỉ lệ:</Scale>
+    <SelectCertificate>Chọn chứng chỉ</SelectCertificate>
     <Separator>Phân cách:</Separator>
     <Settings>Cài đặt</Settings>
     <Sheets>Trang tính</Sheets>
+    <SimpleMonochrome>Đơn sắc (đơn giản)</SimpleMonochrome>
     <SkipColumnHeaders>Bỏ qua tiêu đề cột</SkipColumnHeaders>
     <StandardPDFFonts>Phông chữ chuẩn PDF</StandardPDFFonts>
+    <Standards>Tiêu chuẩn</Standards>
     <TiffCompressionScheme>Tiến trình nén TIFF:</TiffCompressionScheme>
     <title>Cài đặt tùy chọn xuất</title>
     <TxtBorderType>Loại viền</TxtBorderType>
@@ -2401,6 +2410,7 @@
     <Encoding>Bảng mã của văn bản đã xuất.</Encoding>
     <EncodingData>Bảng mã của tệp dữ liệu.</EncodingData>
     <EncryptionKeyLength>Độ dài của khóa mã hóa: khóa càng dài, tài liệu càng khó giải mã.</EncryptionKeyLength>
+    <EncryptionMethod>Thuật toán mã hóa và độ dài khóa của nó: phương thức càng mạnh, tài liệu càng khó giải mã.</EncryptionMethod>
     <ExportDataOnly>Chỉ xuất các dải Dữ liệu: thành phần Bảng và dải Dữ liệu phân cấp.</ExportDataOnly>
     <ExportEachPageToSheet>Xuất mỗi trang báo cáo ra một trang tính Excel riêng.</ExportEachPageToSheet>
     <ExportMode>Các dải được đưa vào tệp: “Chỉ dữ liệu” lấy các dải Dữ liệu (thành phần Bảng, dải Dữ liệu phân cấp), “Dữ liệu và tiêu đề/chân trang” thêm tiêu đề và chân trang của chúng, “Tất cả các dải” lấy mọi dải.</ExportMode>

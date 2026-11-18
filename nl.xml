@@ -1078,16 +1078,17 @@
   <Export>
     <AddPageBreaks>Paginaeinde Toevoegen</AddPageBreaks>
     <AllBands>Alle stroken</AllBands>
-    <AllowAddOrModifyTextAnnotations>Toestaan Toevoegen of Aanpassen Tekst Annotaties</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Tekst- en Grafiekkopiëren toegestaan</AllowCopyTextAndGraphics>
+    <AllowAddOrModifyTextAnnotations>Opmerkingen</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Inhoud Kopiëren</AllowCopyTextAndGraphics>
     <AllowEditable>Bewerkbare velden toestaan</AllowEditable>
-    <AllowModifyContents>Inhoud mag Gewijzigd worden</AllowModifyContents>
-    <AllowPrintDocument>Document mag Afgedrukt worden</AllowPrintDocument>
+    <AllowModifyContents>Document Wijzigen</AllowModifyContents>
+    <AllowPrintDocument>Afdrukken</AllowPrintDocument>
     <Auto>Automatisch</Auto>
     <BandsFilter>Strookfilter:</BandsFilter>
     <CancelExport>Export annuleren</CancelExport>
     <Color>Kleuren</Color>
     <Compressed>Gecomprimeerd</Compressed>
+    <Compression>Compressie</Compression>
     <CompressToArchive>Comprimeren naar archief</CompressToArchive>
     <Content>Inhoud</Content>
     <ContinuousPages>Doorlopende Pagina's</ContinuousPages>
@@ -1105,7 +1106,9 @@
     <EmbeddedImageData>Ingesloten afbeeldingsgegevens</EmbeddedImageData>
     <EnableAnimation>Animatie inschakelen</EnableAnimation>
     <Encoding>Codering:</Encoding>
+    <Encryption>Encryptie</Encryption>
     <EncryptionError>Encryptie fout op stap</EncryptionError>
+    <EncryptionMethod>Encryptiemethode</EncryptionMethod>
     <EscapeCodes>Escape-codes</EscapeCodes>
     <Exactly>Exact</Exactly>
     <ExceptEditableFields>Behalve bewerkbare velden</ExceptEditableFields>
@@ -1154,6 +1157,7 @@
     <ExportTypeWriterFile>OpenDocument Writer Bestand...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML Bestand...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS Bestand...</ExportTypeXpsFile>
+    <FloydSteinbergMonochrome>Monochroom (Floyd-Steinberg)</FloydSteinbergMonochrome>
     <Format>Formaat</Format>
     <GetCertificateFromCryptoUI>Haal Certificaat uit Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Afbeelding Compressie Methode:</ImageCompressionMethod>
@@ -1176,12 +1180,14 @@
     <NoMoreThan>Niet meer dan</NoMoreThan>
     <OpenAfterExport>Openen Na Export</OpenAfterExport>
     <Ordered>Geordend</Ordered>
+    <OrderedMonochrome>Monochroom (geordend)</OrderedMonochrome>
     <PageBands>Pagina Kop- en Voetteksten:</PageBands>
     <PageBandsAll>Alle</PageBandsAll>
     <PageBandsFirstAndLast>Eerste Koptekst en Laatste Voettekst</PageBandsFirstAndLast>
     <PageBandsNone>Geen</PageBandsNone>
-    <PdfACompliance>PDF/A-conformiteit</PdfACompliance>
+    <PdfACompliance>PDF/A (Archivering)</PdfACompliance>
     <PdfUA>PDF/UA (Universele toegankelijkheid)</PdfUA>
+    <Permissions>Machtigingen</Permissions>
     <PrintingReport>Rapport afdrukken</PrintingReport>
     <Protection>Beveiliging</Protection>
     <Quality>Kwaliteit</Quality>
@@ -1189,11 +1195,14 @@
     <Resolution>Resolutie</Resolution>
     <RestrictEditing>Bewerken beperken:</RestrictEditing>
     <Scale>Schaal</Scale>
+    <SelectCertificate>Selecteer een certificaat</SelectCertificate>
     <Separator>Scheidingsteken:</Separator>
     <Settings>Opties</Settings>
     <Sheets>Werkbladen</Sheets>
+    <SimpleMonochrome>Monochroom (eenvoudig)</SimpleMonochrome>
     <SkipColumnHeaders>Kolomhoofding Overslaan</SkipColumnHeaders>
     <StandardPDFFonts>Standaard PDF Fonts</StandardPDFFonts>
+    <Standards>Standaarden</Standards>
     <TiffCompressionScheme>TIFF CompressieSchema:</TiffCompressionScheme>
     <title>Exporteer Opties</title>
     <TxtBorderType>Randtype</TxtBorderType>
@@ -2401,6 +2410,7 @@
     <Encoding>De codering van de geëxporteerde tekst.</Encoding>
     <EncodingData>De codering van het gegevensbestand.</EncodingData>
     <EncryptionKeyLength>De lengte van de versleutelingssleutel: hoe langer de sleutel, hoe moeilijker het document te ontsleutelen is.</EncryptionKeyLength>
+    <EncryptionMethod>Het versleutelingsalgoritme en de lengte van de sleutel: hoe sterker de methode, hoe moeilijker het document te ontsleutelen is.</EncryptionMethod>
     <ExportDataOnly>Exporteer alleen de gegevensbanden: het Tabel-component en de Hiërarchische band.</ExportDataOnly>
     <ExportEachPageToSheet>Exporteer elke rapportpagina naar een eigen Excel-werkblad.</ExportEachPageToSheet>
     <ExportMode>De banden die in het bestand komen: Enkel data neemt de gegevensbanden (het Tabel-component, de Hiërarchische band), Data en Hoofdingen/Voetnoten voegt hun kop- en voetteksten toe, Alle stroken neemt alle banden.</ExportMode>

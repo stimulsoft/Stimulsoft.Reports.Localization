@@ -1078,16 +1078,17 @@
   <Export>
     <AddPageBreaks>Sayfa Sonu Ekle</AddPageBreaks>
     <AllBands>Tüm bantlar</AllBands>
-    <AllowAddOrModifyTextAnnotations>Metin Ek Açıklamaları Eklemeye veya Değiştirmeye İzin Ver</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Metin ve Grafik Kopyalamaya İzin Ver</AllowCopyTextAndGraphics>
+    <AllowAddOrModifyTextAnnotations>Yorum Ekleme</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>İçerik Kopyalama</AllowCopyTextAndGraphics>
     <AllowEditable>Düzenlenebilir Alanlara İzin Ver</AllowEditable>
-    <AllowModifyContents>İçeriği Değiştirmeye İzin Ver</AllowModifyContents>
-    <AllowPrintDocument>Belge Yazdırmaya İzin Ver</AllowPrintDocument>
+    <AllowModifyContents>Belgeyi Değiştirme</AllowModifyContents>
+    <AllowPrintDocument>Yazdırma</AllowPrintDocument>
     <Auto>Otomatik</Auto>
     <BandsFilter>Grup Filtresi:</BandsFilter>
     <CancelExport>Dışa Aktarmayı İptal Et</CancelExport>
     <Color>Renk</Color>
     <Compressed>Sıkıştırılmış</Compressed>
+    <Compression>Sıkıştırma</Compression>
     <CompressToArchive>Arşive sıkıştır</CompressToArchive>
     <Content>İçerik</Content>
     <ContinuousPages>Sürekli Sayfalar</ContinuousPages>
@@ -1105,7 +1106,9 @@
     <EmbeddedImageData>Gömülü Görüntü Verisi</EmbeddedImageData>
     <EnableAnimation>Animasyonu Etkinleştir</EnableAnimation>
     <Encoding>Kodlama:</Encoding>
+    <Encryption>Şifreleme</Encryption>
     <EncryptionError>Şifreleme Sırasında Hata</EncryptionError>
+    <EncryptionMethod>Şifreleme Yöntemi</EncryptionMethod>
     <EscapeCodes>Kaçış Kodları</EscapeCodes>
     <Exactly>Tam</Exactly>
     <ExceptEditableFields>Düzenlenebilir Alanlar Hariç</ExceptEditableFields>
@@ -1154,6 +1157,7 @@
     <ExportTypeWriterFile>OpenDocument Writer Dosyası...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML Dosyası...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS Dosyası...</ExportTypeXpsFile>
+    <FloydSteinbergMonochrome>Tek renkli (Floyd-Steinberg)</FloydSteinbergMonochrome>
     <Format>Format</Format>
     <GetCertificateFromCryptoUI>Sertifikayı Crypto UI'den Al</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Resim Sıkıştırma Metodu:</ImageCompressionMethod>
@@ -1176,12 +1180,14 @@
     <NoMoreThan>Daha Fazlası Yok</NoMoreThan>
     <OpenAfterExport>Dışa Aktardıktan Sonra Aç</OpenAfterExport>
     <Ordered>Sıralı</Ordered>
+    <OrderedMonochrome>Tek renkli (düzenli)</OrderedMonochrome>
     <PageBands>Sayfa Üst ve Alt Kısımları:</PageBands>
     <PageBandsAll>Tümü</PageBandsAll>
     <PageBandsFirstAndLast>İlk Üst Kısım ve Son Alt Kısım</PageBandsFirstAndLast>
     <PageBandsNone>Yok</PageBandsNone>
-    <PdfACompliance>PDF/A Uyumu</PdfACompliance>
+    <PdfACompliance>PDF/A (Arşivleme)</PdfACompliance>
     <PdfUA>PDF/UA (Evrensel Erişilebilirlik)</PdfUA>
+    <Permissions>İzinler</Permissions>
     <PrintingReport>Rapor Yazdırılıyor</PrintingReport>
     <Protection>Koruma</Protection>
     <Quality>Kalite</Quality>
@@ -1189,11 +1195,14 @@
     <Resolution>Çözünürlük</Resolution>
     <RestrictEditing>Düzenlemeyi Kısıtla:</RestrictEditing>
     <Scale>Ölçek:</Scale>
+    <SelectCertificate>Bir sertifika seçin</SelectCertificate>
     <Separator>Ayırıcı:</Separator>
     <Settings>Ayarlar</Settings>
     <Sheets>Sayfalar</Sheets>
+    <SimpleMonochrome>Tek renkli (basit)</SimpleMonochrome>
     <SkipColumnHeaders>Sütun Üst Kısımlarını Atla</SkipColumnHeaders>
     <StandardPDFFonts>Standart PDF Fontları</StandardPDFFonts>
+    <Standards>Standartlar</Standards>
     <TiffCompressionScheme>TIFF Sıkıştırma Şeması:</TiffCompressionScheme>
     <title>Dışa Aktarma Ayarları</title>
     <TxtBorderType>Kenarlık Türü</TxtBorderType>
@@ -2401,6 +2410,7 @@
     <Encoding>Dışa aktarılan metnin kodlaması.</Encoding>
     <EncodingData>Veri dosyasının kodlaması.</EncodingData>
     <EncryptionKeyLength>Şifreleme anahtarının uzunluğu: anahtar ne kadar uzunsa belgenin şifresini çözmek o kadar zor olur.</EncryptionKeyLength>
+    <EncryptionMethod>Şifreleme algoritması ve anahtarının uzunluğu: yöntem ne kadar güçlüyse belgenin şifresini çözmek o kadar zor olur.</EncryptionMethod>
     <ExportDataOnly>Yalnızca veri bantlarını dışa aktarın: Tablo bileşeni ve Hiyerarşik bant.</ExportDataOnly>
     <ExportEachPageToSheet>Her rapor sayfasını kendi Excel sayfasına aktarın.</ExportEachPageToSheet>
     <ExportMode>Dosyaya giren bantlar: Sadece Veri veri bantlarını (Tablo bileşeni, Hiyerarşik bant) alır, Veri ve Üst Kısımlar/Alt Kısımlar bunların üst ve alt kısımlarını ekler, Tüm bantlar tüm bantları alır.</ExportMode>

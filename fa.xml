@@ -1078,16 +1078,17 @@
   <Export>
     <AddPageBreaks>اضافه جدا کننده صفحه</AddPageBreaks>
     <AllBands>همه باندها</AllBands>
-    <AllowAddOrModifyTextAnnotations>اجازه افزودن یا تغییر یادداشت‌های متنی</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>اجاره کپی متن و گرافیک</AllowCopyTextAndGraphics>
+    <AllowAddOrModifyTextAnnotations>نظردهی</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>کپی محتوا</AllowCopyTextAndGraphics>
     <AllowEditable>اجازه فیلدهای قابل ویرایش</AllowEditable>
-    <AllowModifyContents>اجاره تصحیح محتوا</AllowModifyContents>
-    <AllowPrintDocument>اجاره تصحیح سند</AllowPrintDocument>
+    <AllowModifyContents>تغییر سند</AllowModifyContents>
+    <AllowPrintDocument>چاپ</AllowPrintDocument>
     <Auto>خودکار</Auto>
     <BandsFilter>فیلتر باندها:</BandsFilter>
     <CancelExport>لغو خروجی</CancelExport>
     <Color>رنگ</Color>
     <Compressed>فشرده شده</Compressed>
+    <Compression>فشرده‌سازی</Compression>
     <CompressToArchive>فشرده‌سازی در بایگانی</CompressToArchive>
     <Content>محتوا</Content>
     <ContinuousPages>صفحات پیوسته</ContinuousPages>
@@ -1105,7 +1106,9 @@
     <EmbeddedImageData>داده‌های تصویر جاسازی‌شده</EmbeddedImageData>
     <EnableAnimation>فعال‌سازی پویانمایی</EnableAnimation>
     <Encoding>رمزگذاری:</Encoding>
+    <Encryption>رمزگذاری</Encryption>
     <EncryptionError>خطای رمزگذاری در مرحله</EncryptionError>
+    <EncryptionMethod>روش رمزگذاری</EncryptionMethod>
     <EscapeCodes>کدهای Escape</EscapeCodes>
     <Exactly>دقیقاً</Exactly>
     <ExceptEditableFields>به جز فیلدهای قابل ویرایش</ExceptEditableFields>
@@ -1154,6 +1157,7 @@
     <ExportTypeWriterFile>بازکردن پرونده نویسنده</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML فایل</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS فایل...</ExportTypeXpsFile>
+    <FloydSteinbergMonochrome>تک رنگ (Floyd-Steinberg)</FloydSteinbergMonochrome>
     <Format>قالب</Format>
     <GetCertificateFromCryptoUI>گرفتن گواهینامه Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>روش فشرده‌سازی تصویر:</ImageCompressionMethod>
@@ -1176,12 +1180,14 @@
     <NoMoreThan>حداکثر</NoMoreThan>
     <OpenAfterExport>باز کردن بعد از صادرکردن</OpenAfterExport>
     <Ordered>مرتب‌شده</Ordered>
+    <OrderedMonochrome>تک رنگ (منظم)</OrderedMonochrome>
     <PageBands>سرصفحه‌ها و پاصفحه‌ها:</PageBands>
     <PageBandsAll>همه</PageBandsAll>
     <PageBandsFirstAndLast>اولین سرصفحه و آخرین پاصفحه</PageBandsFirstAndLast>
     <PageBandsNone>هیچ</PageBandsNone>
-    <PdfACompliance>سازگاری با PDF/A</PdfACompliance>
+    <PdfACompliance>PDF/A (بایگانی)</PdfACompliance>
     <PdfUA>PDF/UA (دسترسی‌پذیری همگانی)</PdfUA>
+    <Permissions>مجوزها</Permissions>
     <PrintingReport>در حال چاپ گزارش</PrintingReport>
     <Protection>محافظت</Protection>
     <Quality>کیفیت</Quality>
@@ -1189,11 +1195,14 @@
     <Resolution>وضوح</Resolution>
     <RestrictEditing>محدود کردن ویرایش:</RestrictEditing>
     <Scale>مقیاس:</Scale>
+    <SelectCertificate>یک گواهی انتخاب کنید</SelectCertificate>
     <Separator>جداکننده:</Separator>
     <Settings>تنظیمات</Settings>
     <Sheets>برگه‌ها</Sheets>
+    <SimpleMonochrome>تک رنگ (ساده)</SimpleMonochrome>
     <SkipColumnHeaders>گذر از سر ستون</SkipColumnHeaders>
     <StandardPDFFonts>فونت های استاندارد pdf</StandardPDFFonts>
+    <Standards>استانداردها</Standards>
     <TiffCompressionScheme>طرح فشرده‌سازی TIFF:</TiffCompressionScheme>
     <title>تنظیمات صادر شدن:</title>
     <TxtBorderType>نوع کادر:</TxtBorderType>
@@ -2410,6 +2419,7 @@
     <Encoding>کدگذاری متن صادرشده.</Encoding>
     <EncodingData>کدگذاری فایل داده.</EncodingData>
     <EncryptionKeyLength>طول کلید رمزگذاری: هرچه کلید بلندتر باشد، رمزگشایی سند دشوارتر است.</EncryptionKeyLength>
+    <EncryptionMethod>الگوریتم رمزگذاری و طول کلید آن: هرچه روش قوی‌تر باشد، رمزگشایی سند دشوارتر است.</EncryptionMethod>
     <ExportDataOnly>صدور فقط باندهای داده: مؤلفه جدول و باند سلسله مراتبی.</ExportDataOnly>
     <ExportEachPageToSheet>صدور هر صفحه گزارش در برگه جداگانه خود در Excel.</ExportEachPageToSheet>
     <ExportMode>باندهایی که وارد فایل می‌شوند: فقط داده باندهای داده (مؤلفه جدول، باند سلسله مراتبی) را می‌گیرد، داده و سرصفحه‌ها/پاصفحه‌ها سرصفحه‌ها و پاصفحه‌های آنها را اضافه می‌کند، همه باندها همه باندها را می‌گیرد.</ExportMode>

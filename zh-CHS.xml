@@ -1080,16 +1080,17 @@
   <Export>
     <AddPageBreaks>增加分页符</AddPageBreaks>
     <AllBands>所有带区</AllBands>
-    <AllowAddOrModifyTextAnnotations>允许添加或修改文本附注</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>允许复制文字和图片</AllowCopyTextAndGraphics>
+    <AllowAddOrModifyTextAnnotations>注释</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>内容复制</AllowCopyTextAndGraphics>
     <AllowEditable>允许编辑:</AllowEditable>
-    <AllowModifyContents>允许修改内容</AllowModifyContents>
-    <AllowPrintDocument>允许打印文档</AllowPrintDocument>
+    <AllowModifyContents>更改文档</AllowModifyContents>
+    <AllowPrintDocument>打印</AllowPrintDocument>
     <Auto>自动的</Auto>
     <BandsFilter>带区过滤器:</BandsFilter>
     <CancelExport>取消输出</CancelExport>
     <Color>颜色</Color>
     <Compressed>压缩</Compressed>
+    <Compression>压缩</Compression>
     <CompressToArchive>压缩存档</CompressToArchive>
     <Content>内容</Content>
     <ContinuousPages>连续页码</ContinuousPages>
@@ -1107,7 +1108,9 @@
     <EmbeddedImageData>嵌入式图像数据</EmbeddedImageData>
     <EnableAnimation>动画效果</EnableAnimation>
     <Encoding>编码:</Encoding>
+    <Encryption>加密</Encryption>
     <EncryptionError>加密步骤错误</EncryptionError>
+    <EncryptionMethod>加密方式</EncryptionMethod>
     <EscapeCodes>转义代码</EscapeCodes>
     <Exactly>精确地</Exactly>
     <ExceptEditableFields>除可编辑字段外</ExceptEditableFields>
@@ -1156,6 +1159,7 @@
     <ExportTypeWriterFile>打开 Writer File 文档...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML 文件...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS 文件...</ExportTypeXpsFile>
+    <FloydSteinbergMonochrome>单色（Floyd-Steinberg）</FloydSteinbergMonochrome>
     <Format>格式</Format>
     <GetCertificateFromCryptoUI>从 Crypto UI 获取证书</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>图像压缩方法:</ImageCompressionMethod>
@@ -1178,12 +1182,14 @@
     <NoMoreThan>不超过</NoMoreThan>
     <OpenAfterExport>导出后打开</OpenAfterExport>
     <Ordered>已排序</Ordered>
+    <OrderedMonochrome>单色（有序）</OrderedMonochrome>
     <PageBands>页眉/页脚:</PageBands>
     <PageBandsAll>全部</PageBandsAll>
     <PageBandsFirstAndLast>第一个页眉和最后一个页脚</PageBandsFirstAndLast>
     <PageBandsNone>无</PageBandsNone>
-    <PdfACompliance>PDF/A规格</PdfACompliance>
+    <PdfACompliance>PDF/A（存档）</PdfACompliance>
     <PdfUA>PDF/UA（通用无障碍）</PdfUA>
+    <Permissions>权限</Permissions>
     <PrintingReport>打印报告</PrintingReport>
     <Protection>保护</Protection>
     <Quality>质量</Quality>
@@ -1191,11 +1197,14 @@
     <Resolution>清晰度</Resolution>
     <RestrictEditing>编辑限制:</RestrictEditing>
     <Scale>缩放:</Scale>
+    <SelectCertificate>选择证书</SelectCertificate>
     <Separator>分隔符:</Separator>
     <Settings>设置</Settings>
     <Sheets>工作表</Sheets>
+    <SimpleMonochrome>单色（简单）</SimpleMonochrome>
     <SkipColumnHeaders>略过列头</SkipColumnHeaders>
     <StandardPDFFonts>标准PDF字体</StandardPDFFonts>
+    <Standards>标准</Standards>
     <TiffCompressionScheme>TIFF压缩方案 :</TiffCompressionScheme>
     <title>导出设置</title>
     <TxtBorderType>边框类型</TxtBorderType>
@@ -2404,6 +2413,7 @@
     <Encoding>导出文本的编码。</Encoding>
     <EncodingData>数据文件的编码。</EncodingData>
     <EncryptionKeyLength>加密密钥的长度：密钥越长，文档越难解密。</EncryptionKeyLength>
+    <EncryptionMethod>加密算法及其密钥长度：方式越强，文档越难解密。</EncryptionMethod>
     <ExportDataOnly>仅导出数据区：表格组件和分级区。</ExportDataOnly>
     <ExportEachPageToSheet>将报表的每一页导出到单独的 Excel 工作表。</ExportEachPageToSheet>
     <ExportMode>文件中包含的带区：“纯数据”包含数据区（表格组件、分级区），“数据和页眉/页脚”再加入它们的页眉和页脚，“所有带区”包含全部带区。</ExportMode>

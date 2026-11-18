@@ -1078,16 +1078,17 @@
   <Export>
     <AddPageBreaks>पेज ब्रेक जोड़ें</AddPageBreaks>
     <AllBands>सभी बैंड</AllBands>
-    <AllowAddOrModifyTextAnnotations>टेक्स्ट एनोटेशन जोड़ने या संशोधित करने की अनुमति दें</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>टेक्स्ट और ग्राफ़िक्स कॉपी करने की अनुमति दें</AllowCopyTextAndGraphics>
+    <AllowAddOrModifyTextAnnotations>टिप्पणी करना</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>सामग्री कॉपी करना</AllowCopyTextAndGraphics>
     <AllowEditable>संपादन योग्य फ़ील्ड की अनुमति दें</AllowEditable>
-    <AllowModifyContents>सामग्री संशोधित करने की अनुमति दें</AllowModifyContents>
-    <AllowPrintDocument>दस्तावेज़ प्रिंट करने की अनुमति दें</AllowPrintDocument>
+    <AllowModifyContents>दस्तावेज़ बदलना</AllowModifyContents>
+    <AllowPrintDocument>प्रिंटिंग</AllowPrintDocument>
     <Auto>स्वतः</Auto>
     <BandsFilter>बैंड फ़िल्टर:</BandsFilter>
     <CancelExport>निर्यात रद्द करें</CancelExport>
     <Color>रंग</Color>
     <Compressed>संपीड़ित</Compressed>
+    <Compression>संपीड़न</Compression>
     <CompressToArchive>संग्रह में संपीड़ित करें</CompressToArchive>
     <Content>सामग्री</Content>
     <ContinuousPages>निरंतर पेज</ContinuousPages>
@@ -1105,7 +1106,9 @@
     <EmbeddedImageData>एम्बेडेड छवि डेटा</EmbeddedImageData>
     <EnableAnimation>एनिमेशन सक्षम करें</EnableAnimation>
     <Encoding>एन्कोडिंग:</Encoding>
+    <Encryption>एन्क्रिप्शन</Encryption>
     <EncryptionError>चरण पर एन्क्रिप्शन त्रुटि</EncryptionError>
+    <EncryptionMethod>एन्क्रिप्शन विधि</EncryptionMethod>
     <EscapeCodes>एस्केप कोड</EscapeCodes>
     <Exactly>बिल्कुल</Exactly>
     <ExceptEditableFields>संपादन योग्य फ़ील्ड को छोड़कर</ExceptEditableFields>
@@ -1154,6 +1157,7 @@
     <ExportTypeWriterFile>OpenDocument Writer फ़ाइल...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML फ़ाइल...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS फ़ाइल...</ExportTypeXpsFile>
+    <FloydSteinbergMonochrome>मोनोक्रोम (Floyd-Steinberg)</FloydSteinbergMonochrome>
     <Format>प्रारूप</Format>
     <GetCertificateFromCryptoUI>Crypto UI से प्रमाणपत्र प्राप्त करें</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>छवि संपीड़न विधि:</ImageCompressionMethod>
@@ -1176,12 +1180,14 @@
     <NoMoreThan>इससे अधिक नहीं</NoMoreThan>
     <OpenAfterExport>निर्यात के बाद खोलें</OpenAfterExport>
     <Ordered>क्रमबद्ध</Ordered>
+    <OrderedMonochrome>मोनोक्रोम (क्रमित)</OrderedMonochrome>
     <PageBands>पेज हेडर/फ़ुटर:</PageBands>
     <PageBandsAll>सभी</PageBandsAll>
     <PageBandsFirstAndLast>पहला हेडर और अंतिम फ़ुटर</PageBandsFirstAndLast>
     <PageBandsNone>कोई नहीं</PageBandsNone>
-    <PdfACompliance>PDF/A अनुपालन</PdfACompliance>
+    <PdfACompliance>PDF/A (संग्रहण)</PdfACompliance>
     <PdfUA>PDF/UA (यूनिवर्सल एक्सेसिबिलिटी)</PdfUA>
+    <Permissions>अनुमतियाँ</Permissions>
     <PrintingReport>रिपोर्ट प्रिंट की जा रही है</PrintingReport>
     <Protection>सुरक्षा</Protection>
     <Quality>गुणवत्ता</Quality>
@@ -1189,11 +1195,14 @@
     <Resolution>रिज़ॉल्यूशन</Resolution>
     <RestrictEditing>संपादन प्रतिबंधित करें:</RestrictEditing>
     <Scale>स्केल:</Scale>
+    <SelectCertificate>प्रमाणपत्र चुनें</SelectCertificate>
     <Separator>विभाजक:</Separator>
     <Settings>सेटिंग्स</Settings>
     <Sheets>शीटें</Sheets>
+    <SimpleMonochrome>मोनोक्रोम (सरल)</SimpleMonochrome>
     <SkipColumnHeaders>कॉलम हेडर छोड़ें</SkipColumnHeaders>
     <StandardPDFFonts>मानक PDF फ़ॉन्ट</StandardPDFFonts>
+    <Standards>मानक</Standards>
     <TiffCompressionScheme>TIFF संपीड़न योजना:</TiffCompressionScheme>
     <title>निर्यात सेटिंग्स</title>
     <TxtBorderType>बॉर्डर प्रकार</TxtBorderType>
@@ -2401,6 +2410,7 @@
     <Encoding>निर्यात किए गए टेक्स्ट की एन्कोडिंग।</Encoding>
     <EncodingData>डेटा फ़ाइल की एन्कोडिंग।</EncodingData>
     <EncryptionKeyLength>एन्क्रिप्शन कुंजी की लंबाई: कुंजी जितनी लंबी होगी, दस्तावेज़ को डिक्रिप्ट करना उतना ही कठिन होगा।</EncryptionKeyLength>
+    <EncryptionMethod>एन्क्रिप्शन एल्गोरिदम और उसकी कुंजी की लंबाई: विधि जितनी मज़बूत होगी, दस्तावेज़ को डिक्रिप्ट करना उतना ही कठिन होगा।</EncryptionMethod>
     <ExportDataOnly>केवल डेटा बैंड निर्यात करें: तालिका घटक और पदानुक्रमिक बैंड।</ExportDataOnly>
     <ExportEachPageToSheet>प्रत्येक रिपोर्ट पेज को उसकी अपनी Excel शीट में निर्यात करें।</ExportEachPageToSheet>
     <ExportMode>फ़ाइल में जाने वाले बैंड: केवल डेटा में डेटा बैंड (तालिका घटक, पदानुक्रमिक बैंड) शामिल होते हैं, डेटा और हेडर/फ़ुटर उनके हेडर और फ़ुटर जोड़ता है, सभी बैंड में हर बैंड शामिल होता है।</ExportMode>

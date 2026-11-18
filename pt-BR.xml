@@ -1079,16 +1079,17 @@ sucedida</ConnectionSuccessfull>
   <Export>
     <AddPageBreaks>Adicionar Quebras de Página</AddPageBreaks>
     <AllBands>Todas as Faixas</AllBands>
-    <AllowAddOrModifyTextAnnotations>Permitir adicionar ou modificar anotações de texto</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Permite Copiar Texto e Gráficos</AllowCopyTextAndGraphics>
+    <AllowAddOrModifyTextAnnotations>Comentários</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Cópia de Conteúdo</AllowCopyTextAndGraphics>
     <AllowEditable>Permitir editar:</AllowEditable>
-    <AllowModifyContents>Permite Modificar Conteúdos</AllowModifyContents>
-    <AllowPrintDocument>Permite a Impressão do Documento</AllowPrintDocument>
+    <AllowModifyContents>Alteração do Documento</AllowModifyContents>
+    <AllowPrintDocument>Impressão</AllowPrintDocument>
     <Auto>Automático</Auto>
     <BandsFilter>Filtro de Faixas:</BandsFilter>
     <CancelExport>Cancelar exportação</CancelExport>
     <Color>Cor</Color>
     <Compressed>Comprimido</Compressed>
+    <Compression>Compressão</Compression>
     <CompressToArchive>Comprimir para Arquivo</CompressToArchive>
     <Content>Conteúdo</Content>
     <ContinuousPages>Páginas contínuas</ContinuousPages>
@@ -1106,7 +1107,9 @@ sucedida</ConnectionSuccessfull>
     <EmbeddedImageData>Dados de imagem incorporada</EmbeddedImageData>
     <EnableAnimation>Habilitar Animação</EnableAnimation>
     <Encoding>Codificação:</Encoding>
+    <Encryption>Criptografia</Encryption>
     <EncryptionError>Erro de criptografia na etapa</EncryptionError>
+    <EncryptionMethod>Método de Criptografia</EncryptionMethod>
     <EscapeCodes>Códigos de escape</EscapeCodes>
     <Exactly>Exatamente</Exactly>
     <ExceptEditableFields>Exceto Campos Editáveis</ExceptEditableFields>
@@ -1155,6 +1158,7 @@ sucedida</ConnectionSuccessfull>
     <ExportTypeWriterFile>Arquivo OpenDocument Writer...</ExportTypeWriterFile>
     <ExportTypeXmlFile>Arquivo XML...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Arquivo Microsoft XPS...</ExportTypeXpsFile>
+    <FloydSteinbergMonochrome>Monocromático (Floyd-Steinberg)</FloydSteinbergMonochrome>
     <Format>Formato</Format>
     <GetCertificateFromCryptoUI>Obter Certificado da Interface de Criptografia</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Método de Compressão de Imagem:</ImageCompressionMethod>
@@ -1177,12 +1181,14 @@ sucedida</ConnectionSuccessfull>
     <NoMoreThan>Não mais que</NoMoreThan>
     <OpenAfterExport>Abrir Depois da Exportação</OpenAfterExport>
     <Ordered>Ordenado</Ordered>
+    <OrderedMonochrome>Monocromático (ordenado)</OrderedMonochrome>
     <PageBands>Cabeçalhos e Rodapés de Página:</PageBands>
     <PageBandsAll>Todos</PageBandsAll>
     <PageBandsFirstAndLast>Primeiro Cabeçalho e Último Rodapé</PageBandsFirstAndLast>
     <PageBandsNone>Nenhum</PageBandsNone>
-    <PdfACompliance>Conformidade PDF/A</PdfACompliance>
+    <PdfACompliance>PDF/A (Arquivamento)</PdfACompliance>
     <PdfUA>PDF/UA (Acessibilidade Universal)</PdfUA>
+    <Permissions>Permissões</Permissions>
     <PrintingReport>Imprimindo Relatório</PrintingReport>
     <Protection>Proteção</Protection>
     <Quality>Qualidade</Quality>
@@ -1190,11 +1196,14 @@ sucedida</ConnectionSuccessfull>
     <Resolution>Resolução</Resolution>
     <RestrictEditing>Restringir edição:</RestrictEditing>
     <Scale>Escala:</Scale>
+    <SelectCertificate>Selecione um certificado</SelectCertificate>
     <Separator>Separador:</Separator>
     <Settings>Configurações</Settings>
     <Sheets>Planilhas</Sheets>
+    <SimpleMonochrome>Monocromático (simples)</SimpleMonochrome>
     <SkipColumnHeaders>Pular cabeçalhos de coluna</SkipColumnHeaders>
     <StandardPDFFonts>Fontes PDF Padrão</StandardPDFFonts>
+    <Standards>Padrões</Standards>
     <TiffCompressionScheme>Esquema da compressão do TIFF:</TiffCompressionScheme>
     <title>Configuração de Exportação</title>
     <TxtBorderType>Tipo de Borda</TxtBorderType>
@@ -2403,6 +2412,7 @@ sucedida</ConnectionSuccessfull>
     <Encoding>A codificação do texto exportado.</Encoding>
     <EncodingData>A codificação do arquivo de dados.</EncodingData>
     <EncryptionKeyLength>O comprimento da chave de criptografia: quanto mais longa a chave, mais difícil é descriptografar o documento.</EncryptionKeyLength>
+    <EncryptionMethod>O algoritmo de criptografia e o comprimento da sua chave: quanto mais forte o método, mais difícil é descriptografar o documento.</EncryptionMethod>
     <ExportDataOnly>Exportar somente as faixas Dados: o componente Tabela e a Faixa Hierárquica.</ExportDataOnly>
     <ExportEachPageToSheet>Exportar cada página do relatório para sua própria planilha do Excel.</ExportEachPageToSheet>
     <ExportMode>As faixas que entram no arquivo: Somente dados inclui as faixas Dados (o componente Tabela, a Faixa Hierárquica), Dados e Cabeçalhos/Rodapés adiciona seus cabeçalhos e rodapés, Todas as Faixas inclui todas as faixas.</ExportMode>

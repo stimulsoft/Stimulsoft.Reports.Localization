@@ -1078,16 +1078,17 @@
   <Export>
     <AddPageBreaks>Додати розриви сторінок</AddPageBreaks>
     <AllBands>Всі бенди</AllBands>
-    <AllowAddOrModifyTextAnnotations>Дозволити додавати або модифікувати текстові анотації</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Дозволити копіювати текст і графіку</AllowCopyTextAndGraphics>
+    <AllowAddOrModifyTextAnnotations>Коментування</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Копіювання вмісту</AllowCopyTextAndGraphics>
     <AllowEditable>Дозволити редагування:</AllowEditable>
-    <AllowModifyContents>Дозволити редагування документа</AllowModifyContents>
-    <AllowPrintDocument>Дозволити друкувати документ</AllowPrintDocument>
+    <AllowModifyContents>Зміна документа</AllowModifyContents>
+    <AllowPrintDocument>Друк</AllowPrintDocument>
     <Auto>Авто</Auto>
     <BandsFilter>Фільтр бендів:</BandsFilter>
     <CancelExport>Скасувати експорт</CancelExport>
     <Color>Колір</Color>
     <Compressed>Стислий</Compressed>
+    <Compression>Стиснення</Compression>
     <CompressToArchive>Стиснути в архів</CompressToArchive>
     <Content>Вміст</Content>
     <ContinuousPages>Неперервні сторінки</ContinuousPages>
@@ -1105,7 +1106,9 @@
     <EmbeddedImageData>Вбудувати зображення</EmbeddedImageData>
     <EnableAnimation>Увімкнути анімацію</EnableAnimation>
     <Encoding>Кодування:</Encoding>
+    <Encryption>Шифрування</Encryption>
     <EncryptionError>Помилка шифрування на кроці</EncryptionError>
+    <EncryptionMethod>Метод шифрування</EncryptionMethod>
     <EscapeCodes>Escape коди</EscapeCodes>
     <Exactly>Точно</Exactly>
     <ExceptEditableFields>Крім редагованих полів</ExceptEditableFields>
@@ -1154,6 +1157,7 @@
     <ExportTypeWriterFile>OpenDocument Writer файл...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML файл...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS файл...</ExportTypeXpsFile>
+    <FloydSteinbergMonochrome>Монохромний (Floyd-Steinberg)</FloydSteinbergMonochrome>
     <Format>Формат</Format>
     <GetCertificateFromCryptoUI>Отримати сертифікат з Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Метод компресії зображення:</ImageCompressionMethod>
@@ -1176,12 +1180,14 @@
     <NoMoreThan>Не більше ніж</NoMoreThan>
     <OpenAfterExport>Відкрити після експорту</OpenAfterExport>
     <Ordered>Впорядкований</Ordered>
+    <OrderedMonochrome>Монохромний (упорядкований)</OrderedMonochrome>
     <PageBands>Колонтитули сторінки:</PageBands>
     <PageBandsAll>Усі</PageBandsAll>
     <PageBandsFirstAndLast>Перший заголовок і останній підсумок</PageBandsFirstAndLast>
     <PageBandsNone>Немає</PageBandsNone>
-    <PdfACompliance>PDF/A стандарт</PdfACompliance>
+    <PdfACompliance>PDF/A (архівування)</PdfACompliance>
     <PdfUA>PDF/UA (універсальна доступність)</PdfUA>
+    <Permissions>Дозволи</Permissions>
     <PrintingReport>Друк звіту</PrintingReport>
     <Protection>Захист</Protection>
     <Quality>Якість</Quality>
@@ -1189,11 +1195,14 @@
     <Resolution>Роздільна здатність</Resolution>
     <RestrictEditing>Обмежити редагування:</RestrictEditing>
     <Scale>Масштаб:</Scale>
+    <SelectCertificate>Виберіть сертифікат</SelectCertificate>
     <Separator>Роздільник:</Separator>
     <Settings>Настройки</Settings>
     <Sheets>Аркуші</Sheets>
+    <SimpleMonochrome>Монохромний (простий)</SimpleMonochrome>
     <SkipColumnHeaders>Пропустити заголовки стовпчиків</SkipColumnHeaders>
     <StandardPDFFonts>Стандартні PDF шрифти</StandardPDFFonts>
+    <Standards>Стандарти</Standards>
     <TiffCompressionScheme>Схема компресії TIFF:</TiffCompressionScheme>
     <title>Параметри експорту</title>
     <TxtBorderType>Тип границі</TxtBorderType>
@@ -2401,6 +2410,7 @@
     <Encoding>Кодування експортованого тексту.</Encoding>
     <EncodingData>Кодування файлу даних.</EncodingData>
     <EncryptionKeyLength>Довжина ключа шифрування: що довший ключ, то складніше розшифрувати документ.</EncryptionKeyLength>
+    <EncryptionMethod>Алгоритм шифрування і довжина його ключа: що сильніший метод, то складніше розшифрувати документ.</EncryptionMethod>
     <ExportDataOnly>Експортувати тільки бенди Дані: компонент Таблиця та Ієрархічний бенд.</ExportDataOnly>
     <ExportEachPageToSheet>Експортувати кожну сторінку звіту на окремий аркуш Excel.</ExportEachPageToSheet>
     <ExportMode>Бенди, які потраплять у файл: Тільки дані бере бенди Дані (компонент Таблиця, Ієрархічний бенд), Дані та Заголовки/Підсумки додає їхні заголовки й підсумки, Всі бенди бере всі бенди звіту.</ExportMode>

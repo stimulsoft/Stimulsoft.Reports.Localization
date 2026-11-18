@@ -1078,16 +1078,17 @@
   <Export>
     <AddPageBreaks>Oldal törést hozzáad.</AddPageBreaks>
     <AllBands>Minden sáv</AllBands>
-    <AllowAddOrModifyTextAnnotations>Szöveg jegyzetek hozzáadásának és módosításának engedélyezése</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Szöveg és grafika másolás engedélyez</AllowCopyTextAndGraphics>
+    <AllowAddOrModifyTextAnnotations>Megjegyzések</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Tartalom másolása</AllowCopyTextAndGraphics>
     <AllowEditable>Szerkesztés engedélyezett:</AllowEditable>
-    <AllowModifyContents>Tartalom módosítás engedélyez</AllowModifyContents>
-    <AllowPrintDocument>Dokumentum nyomtatás engedélyez</AllowPrintDocument>
+    <AllowModifyContents>A dokumentum módosítása</AllowModifyContents>
+    <AllowPrintDocument>Nyomtatás</AllowPrintDocument>
     <Auto>Automatikus</Auto>
     <BandsFilter>Sáv szűrő:</BandsFilter>
     <CancelExport>Export leállítása</CancelExport>
     <Color>Szín</Color>
     <Compressed>Tömörített</Compressed>
+    <Compression>Tömörítés</Compression>
     <CompressToArchive>Betömörítés</CompressToArchive>
     <Content>Tartalom</Content>
     <ContinuousPages>Folyamatos oldalak</ContinuousPages>
@@ -1105,7 +1106,9 @@
     <EmbeddedImageData>Beágyazott kép adat</EmbeddedImageData>
     <EnableAnimation>Animáció bekapcsolása</EnableAnimation>
     <Encoding>Kódolás:</Encoding>
+    <Encryption>Titkosítás</Encryption>
     <EncryptionError>Kódolási hiba a lépésben</EncryptionError>
+    <EncryptionMethod>Titkosítási módszer</EncryptionMethod>
     <EscapeCodes>Escape kódok</EscapeCodes>
     <Exactly>Pontosan</Exactly>
     <ExceptEditableFields>Szerkeszthető mezők kivételével</ExceptEditableFields>
@@ -1154,6 +1157,7 @@
     <ExportTypeWriterFile>OpenDocument Writer fájl...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML fájl...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS fájl...</ExportTypeXpsFile>
+    <FloydSteinbergMonochrome>Monokróm (Floyd-Steinberg)</FloydSteinbergMonochrome>
     <Format>Formátum</Format>
     <GetCertificateFromCryptoUI>Tanusítvány Crypto UI-ból</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Képo tömörítés:</ImageCompressionMethod>
@@ -1176,12 +1180,14 @@
     <NoMoreThan>Nem több mint</NoMoreThan>
     <OpenAfterExport>Megnyitás export után</OpenAfterExport>
     <Ordered>Rendezett</Ordered>
+    <OrderedMonochrome>Monokróm (rendezett)</OrderedMonochrome>
     <PageBands>Oldal fejlécek/láblécek:</PageBands>
     <PageBandsAll>Mind</PageBandsAll>
     <PageBandsFirstAndLast>Első fejléc és utolsó lábléc</PageBandsFirstAndLast>
     <PageBandsNone>Nincs</PageBandsNone>
-    <PdfACompliance>PDF/A típus</PdfACompliance>
+    <PdfACompliance>PDF/A (archiválás)</PdfACompliance>
     <PdfUA>PDF/UA (univerzális akadálymentesség)</PdfUA>
+    <Permissions>Engedélyek</Permissions>
     <PrintingReport>Riport nyomtatása</PrintingReport>
     <Protection>Védelem</Protection>
     <Quality>Minőség</Quality>
@@ -1189,11 +1195,14 @@
     <Resolution>Felbontás</Resolution>
     <RestrictEditing>Szerkesztés korlátozása:</RestrictEditing>
     <Scale>Mérték:</Scale>
+    <SelectCertificate>Válasszon tanúsítványt</SelectCertificate>
     <Separator>Elválasztó:</Separator>
     <Settings>Beállítások</Settings>
     <Sheets>Munkalapok</Sheets>
+    <SimpleMonochrome>Monokróm (egyszerű)</SimpleMonochrome>
     <SkipColumnHeaders>Oszlop fejléc kihagyás</SkipColumnHeaders>
     <StandardPDFFonts>Alap PDF betükészlet</StandardPDFFonts>
+    <Standards>Szabványok</Standards>
     <TiffCompressionScheme>TIFF tömörítési séma:</TiffCompressionScheme>
     <title>Export beállítások</title>
     <TxtBorderType>Keret típus</TxtBorderType>
@@ -2401,6 +2410,7 @@
     <Encoding>Az exportált szöveg kódolása.</Encoding>
     <EncodingData>Az adatfájl kódolása.</EncodingData>
     <EncryptionKeyLength>A titkosítási kulcs hossza: minél hosszabb a kulcs, annál nehezebb visszafejteni a dokumentumot.</EncryptionKeyLength>
+    <EncryptionMethod>A titkosítási algoritmus és kulcsának hossza: minél erősebb a módszer, annál nehezebb visszafejteni a dokumentumot.</EncryptionMethod>
     <ExportDataOnly>Csak az adatsávok exportálása: a táblázat komponens és a hierarchikus sáv.</ExportDataOnly>
     <ExportEachPageToSheet>A jelentés minden oldalának exportálása külön Excel munkalapra.</ExportEachPageToSheet>
     <ExportMode>A fájlba kerülő sávok: a Csak adat az adatsávokat veszi (a táblázat komponens, a hierarchikus sáv), az Adatok és Fejlécek/Láblécek hozzáadja a fejléceiket és lábléceiket, a Minden sáv az összes sávot veszi.</ExportMode>

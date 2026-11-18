@@ -1084,16 +1084,17 @@
   <Export>
     <AddPageBreaks>გვერდის წყვეტის დამატება</AddPageBreaks>
     <AllBands>ყველა სექცია</AllBands>
-    <AllowAddOrModifyTextAnnotations>ტექსტის ანოტაციის დამატების ან შეცვლის უფლება</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>ტექსტის და სურათების კოპირების უფლება</AllowCopyTextAndGraphics>
+    <AllowAddOrModifyTextAnnotations>კომენტირება</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>შიგთავსის კოპირება</AllowCopyTextAndGraphics>
     <AllowEditable>რედაქტირებადებზე ნებართვა:</AllowEditable>
-    <AllowModifyContents>დოკუმენტის რედაქტირების უფლება</AllowModifyContents>
-    <AllowPrintDocument>დოკუმენტის ბეჭდვის უფლება</AllowPrintDocument>
+    <AllowModifyContents>დოკუმენტის შეცვლა</AllowModifyContents>
+    <AllowPrintDocument>ბეჭდვა</AllowPrintDocument>
     <Auto>ავტომატური</Auto>
     <BandsFilter>სვეტების ფილტრი:</BandsFilter>
     <CancelExport>ექსპორტის გაუქმება</CancelExport>
     <Color>ფერი</Color>
     <Compressed>კომპრესირებული</Compressed>
+    <Compression>კომპრესია</Compression>
     <CompressToArchive>არქივში შეკუმშვა</CompressToArchive>
     <Content>შიგთავსი</Content>
     <ContinuousPages>უწყვეტი გვერდები</ContinuousPages>
@@ -1111,7 +1112,9 @@
     <EmbeddedImageData>სურათის ჩაშენება</EmbeddedImageData>
     <EnableAnimation>ანიმაციის ჩართვა</EnableAnimation>
     <Encoding>კოდირება:</Encoding>
+    <Encryption>შიფრაცია</Encryption>
     <EncryptionError>შიფრაციის შეცდომა</EncryptionError>
+    <EncryptionMethod>შიფრაციის მეთოდი</EncryptionMethod>
     <EscapeCodes>მმართველი კოდები</EscapeCodes>
     <Exactly>ზუსტი</Exactly>
     <ExceptEditableFields>რედაქტირებადი ველების გარდა</ExceptEditableFields>
@@ -1160,6 +1163,7 @@
     <ExportTypeWriterFile>OpenDocument Writer ფაილი...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML ფაილი...</ExportTypeXmlFile>
     <ExportTypeXpsFile>XPS ფაილი...</ExportTypeXpsFile>
+    <FloydSteinbergMonochrome>მონოქრომული (Floyd-Steinberg)</FloydSteinbergMonochrome>
     <Format>ფორმატი</Format>
     <GetCertificateFromCryptoUI>Crypto UI-სგან სერტიფიკატის მიღება</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>სურათის კომპრესიის მეთოდი:</ImageCompressionMethod>
@@ -1182,12 +1186,14 @@
     <NoMoreThan>არაუმეტეს</NoMoreThan>
     <OpenAfterExport>გაიხსნას ექსპორტის შემდეგ</OpenAfterExport>
     <Ordered>დალაგებული</Ordered>
+    <OrderedMonochrome>მონოქრომული (მოწესრიგებული)</OrderedMonochrome>
     <PageBands>გვერდის კოლონტიტულები:</PageBands>
     <PageBandsAll>ყველა</PageBandsAll>
     <PageBandsFirstAndLast>პირველი ზედა და ბოლო ქვედა კოლონტიტული</PageBandsFirstAndLast>
     <PageBandsNone>არა</PageBandsNone>
-    <PdfACompliance>PDF/A შესაბამისობა</PdfACompliance>
+    <PdfACompliance>PDF/A (დაარქივება)</PdfACompliance>
     <PdfUA>PDF/UA (უნივერსალური ხელმისაწვდომობა)</PdfUA>
+    <Permissions>ნებართვები</Permissions>
     <PrintingReport>რეპორტის ბეჭდვა</PrintingReport>
     <Protection>დაცვა</Protection>
     <Quality>ხარისხი</Quality>
@@ -1195,11 +1201,14 @@
     <Resolution>რეზოლუცია</Resolution>
     <RestrictEditing>რედაქტირების აკრძალვა:</RestrictEditing>
     <Scale>მასშტაბი:</Scale>
+    <SelectCertificate>აირჩიეთ სერტიფიკატი</SelectCertificate>
     <Separator>გამყოფი:</Separator>
     <Settings>პარამეტრები</Settings>
     <Sheets>ფურცლები</Sheets>
+    <SimpleMonochrome>მონოქრომული (მარტივი)</SimpleMonochrome>
     <SkipColumnHeaders>სვეტების დასახელებების გამოტოვება</SkipColumnHeaders>
     <StandardPDFFonts>სტანდარტული PDF ფონტები</StandardPDFFonts>
+    <Standards>სტანდარტები</Standards>
     <TiffCompressionScheme>TIFF კომპრესიის სქემა:</TiffCompressionScheme>
     <title>ექსპორტის პარამეტრები</title>
     <TxtBorderType>ველების ტიპი</TxtBorderType>
@@ -2412,6 +2421,7 @@
     <Encoding>ექსპორტირებული ტექსტის კოდირება.</Encoding>
     <EncodingData>მონაცემთა ფაილის კოდირება.</EncodingData>
     <EncryptionKeyLength>შიფრაციის გასაღების სიგრძე: რაც უფრო გრძელია გასაღები, მით უფრო რთულია დოკუმენტის დეშიფრაცია.</EncryptionKeyLength>
+    <EncryptionMethod>შიფრაციის ალგორითმი და მისი გასაღების სიგრძე: რაც უფრო ძლიერია მეთოდი, მით უფრო რთულია დოკუმენტის დეშიფრაცია.</EncryptionMethod>
     <ExportDataOnly>მხოლოდ მონაცემთა სექციების ექსპორტი: კომპონენტი "ცხრილი" და იერარქიული სექცია.</ExportDataOnly>
     <ExportEachPageToSheet>რეპორტის თითოეული გვერდის ექსპორტი Excel-ის ცალკე ფურცელზე.</ExportEachPageToSheet>
     <ExportMode>ფაილში მოსახვედრი სექციები: მხოლოდ მონაცემები იღებს მონაცემთა სექციებს (კომპონენტი "ცხრილი", იერარქიული სექცია), მონაცემები და ზედა/ქვედა კოლონტიტულები ამატებს მათ ზედა და ქვედა კოლონტიტულებს, ყველა სექცია იღებს ყველა სექციას.</ExportMode>

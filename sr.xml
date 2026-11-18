@@ -1080,16 +1080,17 @@
   <Export>
     <AddPageBreaks>Dodaj Prelom Stranice</AddPageBreaks>
     <AllBands>Sve trake</AllBands>
-    <AllowAddOrModifyTextAnnotations>Dozvoli dodavanje ili izmenu tekstualne napomene</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Dozvoli kopiranje teksta i grafike</AllowCopyTextAndGraphics>
+    <AllowAddOrModifyTextAnnotations>Komentarisanje</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Kopiranje sadržaja</AllowCopyTextAndGraphics>
     <AllowEditable>Dozvoli Izmenjivo:</AllowEditable>
-    <AllowModifyContents>Dozvoli izmenu sadržaja</AllowModifyContents>
-    <AllowPrintDocument>Dozvoli Štampu Dokumenta</AllowPrintDocument>
+    <AllowModifyContents>Izmena dokumenta</AllowModifyContents>
+    <AllowPrintDocument>Štampanje</AllowPrintDocument>
     <Auto>Automatski</Auto>
     <BandsFilter>Filter traka:</BandsFilter>
     <CancelExport>Otkaži izvoz</CancelExport>
     <Color>Boja</Color>
     <Compressed>Kompresovano</Compressed>
+    <Compression>Kompresija</Compression>
     <CompressToArchive>Kompresuj u arhivu</CompressToArchive>
     <Content>Sadržaj</Content>
     <ContinuousPages>Neprekidne stranice</ContinuousPages>
@@ -1107,7 +1108,9 @@
     <EmbeddedImageData>Ugrađeni podaci slike</EmbeddedImageData>
     <EnableAnimation>Omogući animacije</EnableAnimation>
     <Encoding>Kodiranje:</Encoding>
+    <Encryption>Enkripcija</Encryption>
     <EncryptionError>Greška enkripcije u koraku</EncryptionError>
+    <EncryptionMethod>Metoda enkripcije</EncryptionMethod>
     <EscapeCodes>Escape kodovi</EscapeCodes>
     <Exactly>Upravo</Exactly>
     <ExceptEditableFields>Osim Uredivih Polja</ExceptEditableFields>
@@ -1156,6 +1159,7 @@
     <ExportTypeWriterFile>OpenDocument Writer datoteka...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML datoteka...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS datoteka...</ExportTypeXpsFile>
+    <FloydSteinbergMonochrome>Monohromatsko (Floyd-Steinberg)</FloydSteinbergMonochrome>
     <Format>Format</Format>
     <GetCertificateFromCryptoUI>Nabavi sertifikat od Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Metoda kompresije slike:</ImageCompressionMethod>
@@ -1178,12 +1182,14 @@
     <NoMoreThan>Ne više od</NoMoreThan>
     <OpenAfterExport>Otvori nakon izvoza</OpenAfterExport>
     <Ordered>Poredano</Ordered>
+    <OrderedMonochrome>Monohromatsko (uređeno)</OrderedMonochrome>
     <PageBands>Zaglavlja i podnožja stranice:</PageBands>
     <PageBandsAll>Sve</PageBandsAll>
     <PageBandsFirstAndLast>Prvo zaglavlje i poslednje podnožje</PageBandsFirstAndLast>
     <PageBandsNone>Ništa</PageBandsNone>
-    <PdfACompliance>Usklađenost sa PDF/A</PdfACompliance>
+    <PdfACompliance>PDF/A (arhiviranje)</PdfACompliance>
     <PdfUA>PDF/UA (univerzalna pristupačnost)</PdfUA>
+    <Permissions>Dozvole</Permissions>
     <PrintingReport>Štampanje izvještaja</PrintingReport>
     <Protection>Zaštita</Protection>
     <Quality>Kvalitet</Quality>
@@ -1191,11 +1197,14 @@
     <Resolution>Rezolucija</Resolution>
     <RestrictEditing>Ograničeno uređivanje:</RestrictEditing>
     <Scale>Razmera:</Scale>
+    <SelectCertificate>Izaberite sertifikat</SelectCertificate>
     <Separator>Separator:</Separator>
     <Settings>Postavke</Settings>
     <Sheets>Listovi</Sheets>
+    <SimpleMonochrome>Monohromatsko (jednostavno)</SimpleMonochrome>
     <SkipColumnHeaders>Preskoči zaglavlja kolona</SkipColumnHeaders>
     <StandardPDFFonts>Standardni PDF fontovi</StandardPDFFonts>
+    <Standards>Standardi</Standards>
     <TiffCompressionScheme>TIFF šema sabijanja:</TiffCompressionScheme>
     <title>Postavke izvoza</title>
     <TxtBorderType>Tip okvira</TxtBorderType>
@@ -2405,6 +2414,7 @@
     <Encoding>Kodiranje izvezenog teksta.</Encoding>
     <EncodingData>Kodiranje datoteke sa podacima.</EncodingData>
     <EncryptionKeyLength>Dužina ključa za šifrovanje: što je ključ duži, to je teže dešifrovati dokument.</EncryptionKeyLength>
+    <EncryptionMethod>Algoritam šifrovanja i dužina njegovog ključa: što je metoda jača, to je teže dešifrovati dokument.</EncryptionMethod>
     <ExportDataOnly>Izvezi samo trake za podatke: komponentu Tabela i traku Hijerarhijski podaci.</ExportDataOnly>
     <ExportEachPageToSheet>Izvezi svaku stranicu izveštaja na poseban Excel list.</ExportEachPageToSheet>
     <ExportMode>Trake koje ulaze u datoteku: Samo podaci uzima trake za podatke (komponenta Tabela, traka Hijerarhijski podaci), Podaci i zaglavlja/podnožja dodaje njihova zaglavlja i podnožja, Sve trake uzima sve trake izveštaja.</ExportMode>

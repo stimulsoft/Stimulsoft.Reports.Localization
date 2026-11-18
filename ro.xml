@@ -1095,16 +1095,17 @@
   <Export>
     <AddPageBreaks>Adaugă salt de pagină</AddPageBreaks>
     <AllBands>Toate benzile</AllBands>
-    <AllowAddOrModifyTextAnnotations>Permite adăugarea sau modificarea adnotărilor</AllowAddOrModifyTextAnnotations>
-    <AllowCopyTextAndGraphics>Permite copierea de text şi grafica</AllowCopyTextAndGraphics>
+    <AllowAddOrModifyTextAnnotations>Comentarii</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Copierea conţinutului</AllowCopyTextAndGraphics>
     <AllowEditable>Permite Editabil:</AllowEditable>
-    <AllowModifyContents>Permite modificarea conţinutului</AllowModifyContents>
-    <AllowPrintDocument>Permite imprimarea documentului</AllowPrintDocument>
+    <AllowModifyContents>Modificarea documentului</AllowModifyContents>
+    <AllowPrintDocument>Imprimare</AllowPrintDocument>
     <Auto>Auto</Auto>
     <BandsFilter>Filtru Benzi:</BandsFilter>
     <CancelExport>Anulare Export</CancelExport>
     <Color>Culoare</Color>
     <Compressed>Comprimat</Compressed>
+    <Compression>Compresie</Compression>
     <CompressToArchive>Comprimă în Arhivă</CompressToArchive>
     <Content>Conţinut</Content>
     <ContinuousPages>Pagini continue</ContinuousPages>
@@ -1122,7 +1123,9 @@
     <EmbeddedImageData>Încorporare Imagine Date</EmbeddedImageData>
     <EnableAnimation>Activați animația</EnableAnimation>
     <Encoding>Codificare:</Encoding>
+    <Encryption>Criptare</Encryption>
     <EncryptionError>Eroare criptare la pasul</EncryptionError>
+    <EncryptionMethod>Metodă de criptare</EncryptionMethod>
     <EscapeCodes>Secvenţe Escape</EscapeCodes>
     <Exactly>Exact</Exactly>
     <ExceptEditableFields>Excepţie Câmpuri Editabile</ExceptEditableFields>
@@ -1171,6 +1174,7 @@
     <ExportTypeWriterFile>Fişier OpenDocument Writer...</ExportTypeWriterFile>
     <ExportTypeXmlFile>Fişier XML...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Fişier Microsoft XPS...</ExportTypeXpsFile>
+    <FloydSteinbergMonochrome>Monocromatic (Floyd-Steinberg)</FloydSteinbergMonochrome>
     <Format>Format</Format>
     <GetCertificateFromCryptoUI>Obţine certificat de la Crypto UI</GetCertificateFromCryptoUI>
     <ImageCompressionMethod>Metodă compresie imagine:</ImageCompressionMethod>
@@ -1193,12 +1197,14 @@
     <NoMoreThan>Nu mai mult de</NoMoreThan>
     <OpenAfterExport>Deschide după exportare</OpenAfterExport>
     <Ordered>Sortat</Ordered>
+    <OrderedMonochrome>Monocromatic (ordonat)</OrderedMonochrome>
     <PageBands>Antete și subsoluri de pagină:</PageBands>
     <PageBandsAll>Toate</PageBandsAll>
     <PageBandsFirstAndLast>Primul antet și ultimul subsol</PageBandsFirstAndLast>
     <PageBandsNone>Niciunul</PageBandsNone>
-    <PdfACompliance>PDF/Conformitate A</PdfACompliance>
+    <PdfACompliance>PDF/A (Arhivare)</PdfACompliance>
     <PdfUA>PDF/UA (Accesibilitate universală)</PdfUA>
+    <Permissions>Permisiuni</Permissions>
     <PrintingReport>Imprimare Raport</PrintingReport>
     <Protection>Protecţie</Protection>
     <Quality>Calitate</Quality>
@@ -1206,11 +1212,14 @@
     <Resolution>Rezoluţie</Resolution>
     <RestrictEditing>Restricţionare Editare:</RestrictEditing>
     <Scale>Scală:</Scale>
+    <SelectCertificate>Selectați un certificat</SelectCertificate>
     <Separator>Separator:</Separator>
     <Settings>Setări</Settings>
     <Sheets>Foi de lucru</Sheets>
+    <SimpleMonochrome>Monocromatic (simplu)</SimpleMonochrome>
     <SkipColumnHeaders>Sare antetul de coloane</SkipColumnHeaders>
     <StandardPDFFonts>Caractere PDF standard</StandardPDFFonts>
+    <Standards>Standarde</Standards>
     <TiffCompressionScheme>Schema comprimare TIFF:</TiffCompressionScheme>
     <title>Setările exportării</title>
     <TxtBorderType>Tip de margine</TxtBorderType>
@@ -2427,6 +2436,7 @@
     <Encoding>Codificarea textului exportat.</Encoding>
     <EncodingData>Codificarea fișierului de date.</EncodingData>
     <EncryptionKeyLength>Lungimea cheii de criptare: cu cât cheia este mai lungă, cu atât documentul este mai greu de decriptat.</EncryptionKeyLength>
+    <EncryptionMethod>Algoritmul de criptare și lungimea cheii sale: cu cât metoda este mai puternică, cu atât documentul este mai greu de decriptat.</EncryptionMethod>
     <ExportDataOnly>Exportă doar benzile de date: componenta Tabel și banda ierarhică.</ExportDataOnly>
     <ExportEachPageToSheet>Exportă fiecare pagină a raportului într-o foaie Excel proprie.</ExportEachPageToSheet>
     <ExportMode>Benzile care intră în fișier: Doar date preia benzile de date (componenta Tabel, banda ierarhică), Date şi Antete/Subsoluri adaugă antetele și subsolurile lor, Toate benzile preia toate benzile.</ExportMode>
