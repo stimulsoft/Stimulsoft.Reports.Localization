@@ -1790,8 +1790,15 @@
     <groupDescription>Descrição do relatório</groupDescription>
     <groupMainParameters>Parâmetros que afetam a renderização do relatório</groupMainParameters>
     <groupNames>O nome do relatório, o apelido do relatório e o autor do relatório</groupNames>
+    <groupRendering>Renderização do relatório</groupRendering>
     <groupScript>Linguagem de script do seu relatório</groupScript>
     <groupUnits>Dimensões e coordenadas do relatório serão especificados em unidades</groupUnits>
+    <hintCacheAllData>Todos os dados num único DataSet</hintCacheAllData>
+    <hintCalculationMode>Como as expressões do relatório são avaliadas.</hintCalculationMode>
+    <hintConvertNulls>Substituir nulos por 0, texto vazio ou false</hintConvertNulls>
+    <hintDescription>Opcional</hintDescription>
+    <hintNumberOfPass>Para valores conhecidos apenas no fim.</hintNumberOfPass>
+    <hintReportCacheMode>Páginas em disco para poupar memória.</hintReportCacheMode>
     <labelInfoDescription>Indicar as informações de um relatório</labelInfoDescription>
     <labelInfoMain>Mudança de parâmetros básicos do relatório</labelInfoMain>
     <labelNumberOfPass>Número de passagens:</labelNumberOfPass>
@@ -1799,6 +1806,7 @@
     <ReportChanged>Relatório alterado:</ReportChanged>
     <ReportCreated>Relatório criado:</ReportCreated>
     <title>Opções do relatório</title>
+    <UseDoublePass>Utilizar dupla passagem</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Marcas</Bullets>

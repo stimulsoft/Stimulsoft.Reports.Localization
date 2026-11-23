@@ -1789,8 +1789,15 @@
     <groupDescription>Descrición do Informe</groupDescription>
     <groupMainParameters>Parámetros de interpretación do informe</groupMainParameters>
     <groupNames>Nome, alias e autor do informe</groupNames>
+    <groupRendering>Xeración do informe</groupRendering>
     <groupScript>Linguaxe Script para o informe</groupScript>
     <groupUnits>Os tamaños e coordenadas usarán as unidades de medida indicadas</groupUnits>
+    <hintCacheAllData>Todos os datos nun único DataSet</hintCacheAllData>
+    <hintCalculationMode>Como se avalían as expresións ao executar o informe.</hintCalculationMode>
+    <hintConvertNulls>Substituír os nulos por 0, texto baleiro ou false</hintConvertNulls>
+    <hintDescription>Opcional</hintDescription>
+    <hintNumberOfPass>Para valores coñecidos só ao final.</hintNumberOfPass>
+    <hintReportCacheMode>Páxinas en disco para aforrar memoria.</hintReportCacheMode>
     <labelInfoDescription>Indique a información do informe</labelInfoDescription>
     <labelInfoMain>Modificar os parámetros básicos do informe</labelInfoMain>
     <labelNumberOfPass>Número de Pases:</labelNumberOfPass>
@@ -1798,6 +1805,7 @@
     <ReportChanged>Informe modificado:</ReportChanged>
     <ReportCreated>Informe creado:</ReportCreated>
     <title>Configuración do Informe</title>
+    <UseDoublePass>Usar Dous Pases</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Remuda</Bullets>

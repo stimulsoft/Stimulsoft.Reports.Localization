@@ -1792,8 +1792,15 @@
     <groupDescription>Описание на отчета</groupDescription>
     <groupMainParameters>Параметри, влияещи на построяването на отчета</groupMainParameters>
     <groupNames>Име, псевдоним и автор на отчета</groupNames>
+    <groupRendering>Построяване на отчета</groupRendering>
     <groupScript>Скриптов език на Вашия отчет</groupScript>
     <groupUnits>Размера и координатите на отета са определенит мерни единици</groupUnits>
+    <hintCacheAllData>Всички данни в един DataSet</hintCacheAllData>
+    <hintCalculationMode>Как се изчисляват изразите на отчета.</hintCalculationMode>
+    <hintConvertNulls>Замени null с 0, празен текст или false</hintConvertNulls>
+    <hintDescription>По избор</hintDescription>
+    <hintNumberOfPass>За стойности, известни едва в края.</hintNumberOfPass>
+    <hintReportCacheMode>Готовите страници на диска пестят памет.</hintReportCacheMode>
     <labelInfoDescription>Информация за отчета</labelInfoDescription>
     <labelInfoMain>Промяна на основни параметри на отчета</labelInfoMain>
     <labelNumberOfPass>Брой преходи:</labelNumberOfPass>
@@ -1801,6 +1808,7 @@
     <ReportChanged>Промяна на отчета:</ReportChanged>
     <ReportCreated>Създаване на отчета:</ReportCreated>
     <title>Настройки на отчета</title>
+    <UseDoublePass>Използвай два прехода</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Маркери</Bullets>

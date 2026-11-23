@@ -1789,8 +1789,15 @@
     <groupDescription>Descrizione Report</groupDescription>
     <groupMainParameters>Parametri che influenzano la visualizzazione del report</groupMainParameters>
     <groupNames>Nome Report, alias Report, e autore Report</groupNames>
+    <groupRendering>Rendering del Report</groupRendering>
     <groupScript>Linguaggio di script del tuo report</groupScript>
     <groupUnits>Dimensioni e coordinate in un report saranno specificate nell'unità di misura corrente</groupUnits>
+    <hintCacheAllData>Tutti i dati in un unico DataSet</hintCacheAllData>
+    <hintCalculationMode>Come vengono valutate le espressioni.</hintCalculationMode>
+    <hintConvertNulls>Sostituisci i null con 0, testo vuoto o false</hintConvertNulls>
+    <hintDescription>Facoltativo</hintDescription>
+    <hintNumberOfPass>Usa il Passo Doppio per i valori noti solo alla fine.</hintNumberOfPass>
+    <hintReportCacheMode>Pagine su disco per risparmiare memoria.</hintReportCacheMode>
     <labelInfoDescription>Indica le informazioni di un report</labelInfoDescription>
     <labelInfoMain>Cambiamento di parametri base di un report</labelInfoMain>
     <labelNumberOfPass>Numero di Passaggi:</labelNumberOfPass>
@@ -1798,6 +1805,7 @@
     <ReportChanged>Data modifica:</ReportChanged>
     <ReportCreated>Data creazione:</ReportCreated>
     <title>Imposta Report</title>
+    <UseDoublePass>Usa Passo Doppio</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Elenco puntato</Bullets>

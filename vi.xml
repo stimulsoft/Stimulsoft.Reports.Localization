@@ -1789,8 +1789,15 @@
     <groupDescription>Mô tả báo cáo</groupDescription>
     <groupMainParameters>Các tham số có ảnh hưởng đến việc kết xuất báo cáo</groupMainParameters>
     <groupNames>Tên báo cáo, bí danh báo cáo, và tác giả báo cáo</groupNames>
+    <groupRendering>Kết xuất báo cáo</groupRendering>
     <groupScript>Ngôn ngữ kịch bản của báo cáo của bạn</groupScript>
     <groupUnits>Kích cỡ và tọa độ trong một báo cáo sẽ nằm trong các đơn vị quy định</groupUnits>
+    <hintCacheAllData>Giữ mọi dữ liệu trong một DataSet</hintCacheAllData>
+    <hintCalculationMode>Cách các biểu thức được tính khi chạy báo cáo.</hintCalculationMode>
+    <hintConvertNulls>Thay null bằng 0, văn bản trống hoặc false</hintConvertNulls>
+    <hintDescription>Không bắt buộc</hintDescription>
+    <hintNumberOfPass>Cho giá trị chỉ biết được ở cuối.</hintNumberOfPass>
+    <hintReportCacheMode>Lưu các trang đã tạo trên đĩa để tiết kiệm bộ nhớ.</hintReportCacheMode>
     <labelInfoDescription>Cho biết thông tin của một báo cáo</labelInfoDescription>
     <labelInfoMain>Thay đổi các tham số báo cáo cơ bản</labelInfoMain>
     <labelNumberOfPass>Số lần vượt qua:</labelNumberOfPass>
@@ -1798,6 +1805,7 @@
     <ReportChanged>Báo cáo đã thay đổi:</ReportChanged>
     <ReportCreated>Báo cáo đã tạo:</ReportCreated>
     <title>Tùy chọn báo cáo</title>
+    <UseDoublePass>Dùng truyền hai lần</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Viên đạn</Bullets>

@@ -1790,8 +1790,15 @@
     <groupDescription>報表描述</groupDescription>
     <groupMainParameters>報表渲染影響參數</groupMainParameters>
     <groupNames>報表名稱, 報表別名, 報表作者</groupNames>
+    <groupRendering>報表渲染</groupRendering>
     <groupScript>報表指令碼語言</groupScript>
     <groupUnits>報表的大小和座標在指定單位內</groupUnits>
+    <hintCacheAllData>將所有報表資料保存在一個 DataSet 中</hintCacheAllData>
+    <hintCalculationMode>執行報表時如何計算運算式。</hintCalculationMode>
+    <hintConvertNulls>將 null 取代為 0、空文字或 false</hintConvertNulls>
+    <hintDescription>可選</hintDescription>
+    <hintNumberOfPass>對於僅在最後才能確定的值，請使用雙通道。</hintNumberOfPass>
+    <hintReportCacheMode>將已產生的頁面儲存在磁碟上以節省記憶體。</hintReportCacheMode>
     <labelInfoDescription>顯示報表資訊</labelInfoDescription>
     <labelInfoMain>改變報表基本參數</labelInfoMain>
     <labelNumberOfPass>密碼數位:</labelNumberOfPass>
@@ -1799,6 +1806,7 @@
     <ReportChanged>修改時間:</ReportChanged>
     <ReportCreated>創建時間:</ReportCreated>
     <title>報表設置</title>
+    <UseDoublePass>使用雙通道</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>專案符號</Bullets>

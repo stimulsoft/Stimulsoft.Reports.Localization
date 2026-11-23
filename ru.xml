@@ -1789,8 +1789,15 @@
     <groupDescription>Описание отчета</groupDescription>
     <groupMainParameters>Параметры, влияющие на построение отчета</groupMainParameters>
     <groupNames>Наименование, псевдоним и автор отчета</groupNames>
+    <groupRendering>Построение отчета</groupRendering>
     <groupScript>Скриптовый язык Вашего отчета</groupScript>
     <groupUnits>В указанных единицах будут измеряться все размеры и координаты в отчете</groupUnits>
+    <hintCacheAllData>Хранить все данные отчета в одном DataSet</hintCacheAllData>
+    <hintCalculationMode>Как вычисляются выражения отчета.</hintCalculationMode>
+    <hintConvertNulls>Заменять null на 0, пустой текст или false</hintConvertNulls>
+    <hintDescription>Необязательно</hintDescription>
+    <hintNumberOfPass>Для значений, известных только в конце.</hintNumberOfPass>
+    <hintReportCacheMode>Готовые страницы на диске экономят память.</hintReportCacheMode>
     <labelInfoDescription>Информация об отчете</labelInfoDescription>
     <labelInfoMain>Изменение базовых параметров отчета</labelInfoMain>
     <labelNumberOfPass>Количество проходов в отчете:</labelNumberOfPass>
@@ -1798,6 +1805,7 @@
     <ReportChanged>Дата изменения отчета:</ReportChanged>
     <ReportCreated>Дата создания отчета:</ReportCreated>
     <title>Свойства отчета</title>
+    <UseDoublePass>Использовать два прохода</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Маркеры</Bullets>

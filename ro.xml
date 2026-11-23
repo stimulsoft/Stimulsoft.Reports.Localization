@@ -1813,8 +1813,15 @@
     <groupDescription>Descrierea raportului</groupDescription>
     <groupMainParameters>Parametri care afectează redarea raportului</groupMainParameters>
     <groupNames>Nume raport, alias raport şi autorul raportului</groupNames>
+    <groupRendering>Redarea raportului</groupRendering>
     <groupScript>Limbajul de scripting al raportului</groupScript>
     <groupUnits>Marimea şi coordonatele în raport se vor da în unitaţile specificate</groupUnits>
+    <hintCacheAllData>Toate datele într-un singur DataSet</hintCacheAllData>
+    <hintCalculationMode>Cum sunt evaluate expresiile la rularea raportului.</hintCalculationMode>
+    <hintConvertNulls>Înlocuieşte nulurile cu 0, text gol sau false</hintConvertNulls>
+    <hintDescription>Opţional</hintDescription>
+    <hintNumberOfPass>Pentru valori cunoscute doar la sfârşit.</hintNumberOfPass>
+    <hintReportCacheMode>Pagini pe disc pentru a economisi memorie.</hintReportCacheMode>
     <labelInfoDescription>Indicaţi informaţiile raportului</labelInfoDescription>
     <labelInfoMain>Schimbarea parametrilor de baza ai raportului</labelInfoMain>
     <labelNumberOfPass>Număr de treceri:</labelNumberOfPass>
@@ -1822,6 +1829,7 @@
     <ReportChanged>Data modificării:</ReportChanged>
     <ReportCreated>Data creării:</ReportCreated>
     <title>Setări raport</title>
+    <UseDoublePass>Foloseşte dubla trecere</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Listă punctată</Bullets>

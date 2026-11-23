@@ -1798,8 +1798,15 @@
     <groupDescription>რეპორტის აღწერა</groupDescription>
     <groupMainParameters>პარამეტრები, რომლებიც ახდენენ გავლენას რეპორტის რენდერზე</groupMainParameters>
     <groupNames>რეპორტის დასახელება, მეტსახელი და ავტორი</groupNames>
+    <groupRendering>რეპორტის დამზადება</groupRendering>
     <groupScript>რეპორტის სკრიპტის ენა</groupScript>
     <groupUnits>რეპორტის ზომები და კოორდინატები იქნება განსაზღვრული სპეციფიურ ერთეულებში</groupUnits>
+    <hintCacheAllData>ყველა მონაცემი ერთ DataSet-ში</hintCacheAllData>
+    <hintCalculationMode>გამოსახულებების გამოთვლის წესი.</hintCalculationMode>
+    <hintConvertNulls>null-ის ნაცვლად 0, ცარიელი ან false</hintConvertNulls>
+    <hintDescription>არასავალდებულო</hintDescription>
+    <hintNumberOfPass>ბოლოს ცნობილი მნიშვნელობებისთვის.</hintNumberOfPass>
+    <hintReportCacheMode>გვერდები დისკზე, მეხსიერების დასაზოგად.</hintReportCacheMode>
     <labelInfoDescription>რეპორტის შესახებ ინფორმაციის ჩვენება</labelInfoDescription>
     <labelInfoMain>რეპორტის ძირითადი პარამეტრების შეცვლა</labelInfoMain>
     <labelNumberOfPass>გადასვლების რაოდენობას:</labelNumberOfPass>
@@ -1807,6 +1814,7 @@
     <ReportChanged>რეპორტის რედაქტირების თარიღი:</ReportChanged>
     <ReportCreated>რეპორტის შექმნის თარიღი:</ReportCreated>
     <title>რეპორტის თვისებები</title>
+    <UseDoublePass>ორი გასვლის გამოყენება</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>მარკერები</Bullets>

@@ -1790,8 +1790,15 @@
     <groupDescription>보고서 설명</groupDescription>
     <groupMainParameters>보고서의 렌더링에 영향을 미치는 매개 변수</groupMainParameters>
     <groupNames>보고서 이름, 보고서 별칭 및 보고서 작성자</groupNames>
+    <groupRendering>보고서 렌더링</groupRendering>
     <groupScript>보고서의 스크립트 언어</groupScript>
     <groupUnits>보고서의 크기와 좌표는 지정된 단위로 표시됩니다</groupUnits>
+    <hintCacheAllData>모든 데이터를 하나의 DataSet에 유지</hintCacheAllData>
+    <hintCalculationMode>보고서 실행 시 식이 평가되는 방식입니다.</hintCalculationMode>
+    <hintConvertNulls>null을 0, 빈 텍스트 또는 false로 바꿉니다</hintConvertNulls>
+    <hintDescription>선택 사항</hintDescription>
+    <hintNumberOfPass>마지막에만 알 수 있는 값에 사용합니다.</hintNumberOfPass>
+    <hintReportCacheMode>메모리 절약을 위해 페이지를 디스크에 저장</hintReportCacheMode>
     <labelInfoDescription>보고서의 정보를 표시</labelInfoDescription>
     <labelInfoMain>기본 보고서 매개 변수 변경</labelInfoMain>
     <labelNumberOfPass>엔진실행 :</labelNumberOfPass>
@@ -1799,6 +1806,7 @@
     <ReportChanged>보고서가 변경되었습니다 :</ReportChanged>
     <ReportCreated>작성된 보고서 :</ReportCreated>
     <title>보고서 옵션</title>
+    <UseDoublePass>더블 패스 사용</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>글머리 기호</Bullets>

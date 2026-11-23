@@ -1789,8 +1789,15 @@
     <groupDescription>Popis reportu</groupDescription>
     <groupMainParameters>Parametry pro renderování reportu</groupMainParameters>
     <groupNames>Jméno reportu, alias reportu a autor reportu</groupNames>
+    <groupRendering>Zpracování reportu</groupRendering>
     <groupScript>Jazyk skriptu Vašeho reportu</groupScript>
     <groupUnits>Velikost a souřadnice v reportu budou ve specifikovaných jednotkách</groupUnits>
+    <hintCacheAllData>Všechna data v jednom DataSetu</hintCacheAllData>
+    <hintCalculationMode>Jak se vyhodnocují výrazy při spuštění sestavy.</hintCalculationMode>
+    <hintConvertNulls>Null nahradit 0, prázdným textem nebo false</hintConvertNulls>
+    <hintDescription>Nepovinné</hintDescription>
+    <hintNumberOfPass>Pro hodnoty známé až na konci.</hintNumberOfPass>
+    <hintReportCacheMode>Stránky na disku šetří paměť.</hintReportCacheMode>
     <labelInfoDescription>Ukazovat informace reportu</labelInfoDescription>
     <labelInfoMain>Změna základních parametrů reportu</labelInfoMain>
     <labelNumberOfPass>Počet projití:</labelNumberOfPass>
@@ -1798,6 +1805,7 @@
     <ReportChanged>Sestava změněna:</ReportChanged>
     <ReportCreated>Sestava vytvořena:</ReportCreated>
     <title>Nastavení sestavy</title>
+    <UseDoublePass>Použít dva průchody</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Odrážky</Bullets>

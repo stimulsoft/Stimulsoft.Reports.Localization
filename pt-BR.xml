@@ -1791,8 +1791,15 @@ sucedida</ConnectionSuccessfull>
     <groupDescription>descrição do Relatório</groupDescription>
     <groupMainParameters>Parâmetros que afetam a renderização do relatório</groupMainParameters>
     <groupNames>O nome do relatório, o apelido do relatório e o autor do relatório</groupNames>
+    <groupRendering>Renderização do Relatório</groupRendering>
     <groupScript>Linguagem de script do seu relatório</groupScript>
     <groupUnits>O tamanho e as coordenadas no relatório estarão nas unidades especificadas</groupUnits>
+    <hintCacheAllData>Todos os dados em um único DataSet</hintCacheAllData>
+    <hintCalculationMode>Como as expressões do relatório são avaliadas.</hintCalculationMode>
+    <hintConvertNulls>Substituir nulos por 0, texto vazio ou false</hintConvertNulls>
+    <hintDescription>Opcional</hintDescription>
+    <hintNumberOfPass>Para valores conhecidos apenas no final.</hintNumberOfPass>
+    <hintReportCacheMode>Páginas em disco para economizar memória.</hintReportCacheMode>
     <labelInfoDescription>Informações sobre o relatório</labelInfoDescription>
     <labelInfoMain>Mudança de parâmetros básicos do relatório</labelInfoMain>
     <labelNumberOfPass>Número de Passagens:</labelNumberOfPass>
@@ -1800,6 +1807,7 @@ sucedida</ConnectionSuccessfull>
     <ReportChanged>Relatório alterado:</ReportChanged>
     <ReportCreated>Relatório criado:</ReportCreated>
     <title>Opções do Relatório</title>
+    <UseDoublePass>Usar Dupla Passagem</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Marcadores</Bullets>

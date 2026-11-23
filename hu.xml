@@ -1789,8 +1789,15 @@
     <groupDescription>Jelentés leírása</groupDescription>
     <groupMainParameters>Paraméterek hogy milyen módon rendeli a jelentést</groupMainParameters>
     <groupNames>Jelentés név, aliasz, készítő</groupNames>
+    <groupRendering>Jelentés renderelése</groupRendering>
     <groupScript>Skript nyelv amin a jelentés készül</groupScript>
     <groupUnits>Méret és coordináta mértékegység amiben a jelentés készül</groupUnits>
+    <hintCacheAllData>Minden adat egyetlen DataSetben</hintCacheAllData>
+    <hintCalculationMode>A kifejezések kiértékelésének módja.</hintCalculationMode>
+    <hintConvertNulls>Null helyett 0, üres szöveg vagy false</hintConvertNulls>
+    <hintDescription>Nem kötelező</hintDescription>
+    <hintNumberOfPass>A csak a végén ismert értékekhez.</hintNumberOfPass>
+    <hintReportCacheMode>Lemezen tárolt oldalak, kevesebb memória.</hintReportCacheMode>
     <labelInfoDescription>Jelentés szükséges leírása</labelInfoDescription>
     <labelInfoMain>Változtasd meg a jeletés fő beállításait</labelInfoMain>
     <labelNumberOfPass>Pass száma:</labelNumberOfPass>
@@ -1798,6 +1805,7 @@
     <ReportChanged>Jelentés módosítva:</ReportChanged>
     <ReportCreated>Jelentés létrehozva:</ReportCreated>
     <title>Jelentés beállításai</title>
+    <UseDoublePass>Dupla Pass használata</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Golyók</Bullets>

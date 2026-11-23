@@ -1789,8 +1789,15 @@
     <groupDescription>Rapport-omschrijving</groupDescription>
     <groupMainParameters>Parameters dewelke effect hebben op rapport-rendering</groupMainParameters>
     <groupNames>Rapport-naam, rapport-alias en rapport-auteur</groupNames>
+    <groupRendering>Rapport Renderen</groupRendering>
     <groupScript>Script-taal van uw rapport</groupScript>
     <groupUnits>Afmetingen en coördinaten in een rapport zullen gespecifiëerd worden in eenheden</groupUnits>
+    <hintCacheAllData>Alle rapportgegevens in één DataSet bewaren</hintCacheAllData>
+    <hintCalculationMode>Hoe expressies worden geëvalueerd.</hintCalculationMode>
+    <hintConvertNulls>Nulls vervangen door 0, lege tekst of false</hintConvertNulls>
+    <hintDescription>Optioneel</hintDescription>
+    <hintNumberOfPass>Voor waarden die pas aan het einde bekend zijn.</hintNumberOfPass>
+    <hintReportCacheMode>Pagina's op schijf om geheugen te sparen.</hintReportCacheMode>
     <labelInfoDescription>Geef de informatie van een rapport weer</labelInfoDescription>
     <labelInfoMain>Wijziging van basis rapport-parameters</labelInfoMain>
     <labelNumberOfPass>Nummer van Doorgang:</labelNumberOfPass>
@@ -1798,6 +1805,7 @@
     <ReportChanged>Rapport Gewijzigd:</ReportChanged>
     <ReportCreated>Rapport Gecreëerd:</ReportCreated>
     <title>Rapport-Instellingen</title>
+    <UseDoublePass>Dubbele Doorgang gebruiken</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Bolletjes</Bullets>

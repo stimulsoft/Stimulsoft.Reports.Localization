@@ -1789,8 +1789,15 @@
     <groupDescription>Txostenaren Deskribapena</groupDescription>
     <groupMainParameters>Txostena interpretatzeko Parametroak</groupMainParameters>
     <groupNames>Izena, ezizena eta txostenaren egilea</groupNames>
+    <groupRendering>Txostenaren sorrera</groupRendering>
     <groupScript>Txostenerako Script Hizkuntza </groupScript>
     <groupUnits>Neurriek eta koordinatuek adierazitako neurri-unitateak erabiliko dituzte</groupUnits>
+    <hintCacheAllData>Datu guztiak DataSet bakarrean</hintCacheAllData>
+    <hintCalculationMode>Txostenaren adierazpenak nola ebaluatzen diren.</hintCalculationMode>
+    <hintConvertNulls>Ordeztu nuluak 0, testu huts edo false balioekin</hintConvertNulls>
+    <hintDescription>Aukerakoa</hintDescription>
+    <hintNumberOfPass>Amaieran soilik ezagutzen diren balioetarako.</hintNumberOfPass>
+    <hintReportCacheMode>Orriak diskoan, memoria aurrezteko.</hintReportCacheMode>
     <labelInfoDescription>Txostenaren informazioa adierazi</labelInfoDescription>
     <labelInfoMain>Txostenaren oinarrizko parametroak aldatu</labelInfoMain>
     <labelNumberOfPass>Emanaldi kopurua:</labelNumberOfPass>
@@ -1798,6 +1805,7 @@
     <ReportChanged>Moldatutako Txostena:</ReportChanged>
     <ReportCreated>Sortutako Txostena:</ReportCreated>
     <title>Txostenaren Konfigurazioa</title>
+    <UseDoublePass>Erabili bi emanaldi</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Erreleboa</Bullets>

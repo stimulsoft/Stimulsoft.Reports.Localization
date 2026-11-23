@@ -1790,8 +1790,15 @@
     <groupDescription>وصف التقرير</groupDescription>
     <groupMainParameters>البارامترات التي تؤثر على تقديم تقرير</groupMainParameters>
     <groupNames>اسم التقرير، الاسم المستعار، مؤلف التقرير</groupNames>
+    <groupRendering>عرض التقرير</groupRendering>
     <groupScript>لغة البرمجة في تقريرك</groupScript>
     <groupUnits>حجم وتنسيق في التقرير سيكون في وحدات محددة</groupUnits>
+    <hintCacheAllData>الاحتفاظ بجميع بيانات التقرير في DataSet واحد</hintCacheAllData>
+    <hintCalculationMode>كيفية تقييم التعبيرات عند تشغيل التقرير.</hintCalculationMode>
+    <hintConvertNulls>استبدال القيم الفارغة بـ 0 أو نص فارغ أو false</hintConvertNulls>
+    <hintDescription>اختياري</hintDescription>
+    <hintNumberOfPass>استخدم الممر المزدوج للقيم المعروفة في النهاية فقط.</hintNumberOfPass>
+    <hintReportCacheMode>يخزن الصفحات المعروضة على القرص لتوفير الذاكرة.</hintReportCacheMode>
     <labelInfoDescription>معلومات تقرير</labelInfoDescription>
     <labelInfoMain>تغيير المعالم الأساسية في التقرير</labelInfoMain>
     <labelNumberOfPass>عدد تصاريح الدخول :</labelNumberOfPass>
@@ -1799,6 +1806,7 @@
     <ReportChanged>تم تغيير التقرير :</ReportChanged>
     <ReportCreated>تم إنشاء التقرير :</ReportCreated>
     <title>إعداد التقرير</title>
+    <UseDoublePass>استخدام الممر المزدوج</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>بنود</Bullets>

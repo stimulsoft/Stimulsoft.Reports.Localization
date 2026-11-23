@@ -1790,8 +1790,15 @@
     <groupDescription>توضیحات گزارش</groupDescription>
     <groupMainParameters>پارامترهایی که بر ساخت گزارش اثر می‌گذارند</groupMainParameters>
     <groupNames>نام گزارش، نام مستعار گزارش و نویسنده گزارش</groupNames>
+    <groupRendering>رندر گزارش</groupRendering>
     <groupScript>زبان اسکریپت گزارش شما</groupScript>
     <groupUnits>اندازه و مختصات در گزارش با واحدهای مشخص‌شده خواهند بود</groupUnits>
+    <hintCacheAllData>نگهداری همه داده های گزارش در یک DataSet</hintCacheAllData>
+    <hintCalculationMode>نحوه ارزیابی عبارات هنگام اجرای گزارش.</hintCalculationMode>
+    <hintConvertNulls>جایگزینی مقادیر null با 0، متن خالی یا false</hintConvertNulls>
+    <hintDescription>اختیاری</hintDescription>
+    <hintNumberOfPass>برای مقادیری که فقط در پایان مشخص می شوند.</hintNumberOfPass>
+    <hintReportCacheMode>صفحات روی دیسک برای صرفه جویی در حافظه.</hintReportCacheMode>
     <labelInfoDescription>اطلاعات درباره گزارش</labelInfoDescription>
     <labelInfoMain>تغییر پارامترهای اصلی گزارش</labelInfoMain>
     <labelNumberOfPass>تعداد گذرها:</labelNumberOfPass>
@@ -1799,6 +1806,7 @@
     <ReportChanged>تغییر گزارش:</ReportChanged>
     <ReportCreated>ایجاد گزارش:</ReportCreated>
     <title>برپا کردن گزارش</title>
+    <UseDoublePass>استفاده از دو گذره</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>گلوله</Bullets>

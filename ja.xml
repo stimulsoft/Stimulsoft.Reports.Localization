@@ -1790,8 +1790,15 @@
     <groupDescription>レポートの説明</groupDescription>
     <groupMainParameters>レポートのレンダリングに影響を与えるパラメータ</groupMainParameters>
     <groupNames>レポート名、レポートエイリアス、およびレポート作成者</groupNames>
+    <groupRendering>レポートのレンダリング</groupRendering>
     <groupScript>レポートのスクリプト言語</groupScript>
     <groupUnits>レポートのサイズと座標は指定された単位で表示</groupUnits>
+    <hintCacheAllData>すべてのレポートデータを1つのDataSetに保持します</hintCacheAllData>
+    <hintCalculationMode>レポート実行時に式を評価する方法です。</hintCalculationMode>
+    <hintConvertNulls>nullを0、空のテキスト、またはfalseに置き換えます</hintConvertNulls>
+    <hintDescription>任意</hintDescription>
+    <hintNumberOfPass>最後にしか分からない値にはダブルパスを使用します。</hintNumberOfPass>
+    <hintReportCacheMode>メモリ節約のためページをディスクに保存します。</hintReportCacheMode>
     <labelInfoDescription>レポートの情報を表示</labelInfoDescription>
     <labelInfoMain>基本レポートパラメータの変更</labelInfoMain>
     <labelNumberOfPass>パス数：</labelNumberOfPass>
@@ -1799,6 +1806,7 @@
     <ReportChanged>レポートが変更されました：</ReportChanged>
     <ReportCreated>作成されたレポート：</ReportCreated>
     <title>レポートオプション</title>
+    <UseDoublePass>ダブルパスを使用</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>箇条書き</Bullets>

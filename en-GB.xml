@@ -1789,8 +1789,15 @@
     <groupDescription>Report description</groupDescription>
     <groupMainParameters>Parameters which effect on report rendering</groupMainParameters>
     <groupNames>Report name, report alias, and report author</groupNames>
+    <groupRendering>Report Rendering</groupRendering>
     <groupScript>Script language of your report</groupScript>
     <groupUnits>Size and coordinates in a report will be in specified units</groupUnits>
+    <hintCacheAllData>Keep all report data in a single DataSet</hintCacheAllData>
+    <hintCalculationMode>How expressions are evaluated when the report runs.</hintCalculationMode>
+    <hintConvertNulls>Replace nulls with 0, empty text or false</hintConvertNulls>
+    <hintDescription>Optional</hintDescription>
+    <hintNumberOfPass>Use Double Pass for values known only at the end.</hintNumberOfPass>
+    <hintReportCacheMode>Stores rendered pages on disk to save memory.</hintReportCacheMode>
     <labelInfoDescription>Indicate the information of a report</labelInfoDescription>
     <labelInfoMain>Change of basic report parameters</labelInfoMain>
     <labelNumberOfPass>Number of Pass:</labelNumberOfPass>
@@ -1798,6 +1805,7 @@
     <ReportChanged>Report Changed:</ReportChanged>
     <ReportCreated>Report Created:</ReportCreated>
     <title>Report Options</title>
+    <UseDoublePass>Use Double Pass</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Bullets</Bullets>

@@ -1789,8 +1789,15 @@
     <groupDescription>Rapportbeskrivelse</groupDescription>
     <groupMainParameters>Parametere som påvirker rapportrendering</groupMainParameters>
     <groupNames>Rapportnavn, rapportalias og rapportforfatter</groupNames>
+    <groupRendering>Rapportgjengivelse</groupRendering>
     <groupScript>Scriptspråk for din rapport</groupScript>
     <groupUnits>Størrelse og koordinater rapporten bruker spesifisert i enheter</groupUnits>
+    <hintCacheAllData>Behold alle rapportdata i ett enkelt DataSet</hintCacheAllData>
+    <hintCalculationMode>Hvordan uttrykk evalueres når rapporten kjøres.</hintCalculationMode>
+    <hintConvertNulls>Erstatt null med 0, tom tekst eller false</hintConvertNulls>
+    <hintDescription>Valgfritt</hintDescription>
+    <hintNumberOfPass>For verdier som først er kjent til slutt.</hintNumberOfPass>
+    <hintReportCacheMode>Lagrer genererte sider på disk for å spare minne.</hintReportCacheMode>
     <labelInfoDescription>Indikere informasjonen om en rapport</labelInfoDescription>
     <labelInfoMain>Endre grunnleggende rapportparametere</labelInfoMain>
     <labelNumberOfPass>Antall passeringer:</labelNumberOfPass>
@@ -1798,6 +1805,7 @@
     <ReportChanged>Rapport endret:</ReportChanged>
     <ReportCreated>Rapport laget:</ReportCreated>
     <title>Rapportinstillinger</title>
+    <UseDoublePass>Bruk dobbelpassering</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Punkter</Bullets>

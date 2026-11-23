@@ -1789,8 +1789,15 @@
     <groupDescription>Rapportbeskrivning</groupDescription>
     <groupMainParameters>Parametrar som påverkar rapportrendering</groupMainParameters>
     <groupNames>Rapportnamn, alias och författare</groupNames>
+    <groupRendering>Rapportrendering</groupRendering>
     <groupScript>Scriptspråk för din rapport</groupScript>
     <groupUnits>Storlek och koordinater i rapporten använder specificerad enhet</groupUnits>
+    <hintCacheAllData>Behåll alla rapportdata i en enda DataSet</hintCacheAllData>
+    <hintCalculationMode>Hur uttryck utvärderas när rapporten körs.</hintCalculationMode>
+    <hintConvertNulls>Ersätt null med 0, tom text eller false</hintConvertNulls>
+    <hintDescription>Valfritt</hintDescription>
+    <hintNumberOfPass>För värden som blir kända först i slutet.</hintNumberOfPass>
+    <hintReportCacheMode>Lagrar genererade sidor på disk för att spara minne.</hintReportCacheMode>
     <labelInfoDescription>Ange informationen i en rapport</labelInfoDescription>
     <labelInfoMain>Ändra grundläggande rapportparametrar</labelInfoMain>
     <labelNumberOfPass>Antal pass:</labelNumberOfPass>
@@ -1798,6 +1805,7 @@
     <ReportChanged>Rapport ändrad:</ReportChanged>
     <ReportCreated>Rapport skapad:</ReportCreated>
     <title>Rapportinställningar</title>
+    <UseDoublePass>Använd dubbel körning</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Punkter</Bullets>

@@ -1789,8 +1789,15 @@
     <groupDescription>Опис звіту</groupDescription>
     <groupMainParameters>Параметри, що впливають на побудову звіту</groupMainParameters>
     <groupNames>Назва, псевдонім та автор звіту</groupNames>
+    <groupRendering>Побудова звіту</groupRendering>
     <groupScript>Скриптова мова Вашого звіту</groupScript>
     <groupUnits>У вказаних одиницях будуть вимірюватися всі розміри і координати в звіті</groupUnits>
+    <hintCacheAllData>Зберігати всі дані звіту в одному DataSet</hintCacheAllData>
+    <hintCalculationMode>Як обчислюються вирази під час побудови звіту.</hintCalculationMode>
+    <hintConvertNulls>Null на 0, порожній текст або false</hintConvertNulls>
+    <hintDescription>Необов'язково</hintDescription>
+    <hintNumberOfPass>Для значень, відомих лише наприкінці.</hintNumberOfPass>
+    <hintReportCacheMode>Готові сторінки на диску заощаджують пам'ять.</hintReportCacheMode>
     <labelInfoDescription>Інформація про звіт</labelInfoDescription>
     <labelInfoMain>Зміна основних параметрів звіту</labelInfoMain>
     <labelNumberOfPass>Кількість проходів у звіті:</labelNumberOfPass>
@@ -1798,6 +1805,7 @@
     <ReportChanged>Дата останньої зміни звіту</ReportChanged>
     <ReportCreated>Дата створення звіту</ReportCreated>
     <title>Параметри звіту</title>
+    <UseDoublePass>Використати подвійний прохід</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Маркери</Bullets>

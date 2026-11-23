@@ -1789,8 +1789,15 @@
     <groupDescription>Descripció de l’informe</groupDescription>
     <groupMainParameters>Paràmetres d’interpretació de l’informe</groupMainParameters>
     <groupNames>Nom, àlies i autor de l’informe</groupNames>
+    <groupRendering>Generació de l'informe</groupRendering>
     <groupScript>Llenguatge Script per a l’informe</groupScript>
     <groupUnits>Les mides i els coordinats utilitzaran les unitats de mesura indicades</groupUnits>
+    <hintCacheAllData>Totes les dades en un sol DataSet</hintCacheAllData>
+    <hintCalculationMode>Com s'avaluen les expressions de l'informe.</hintCalculationMode>
+    <hintConvertNulls>Substitueix els nuls per 0, text buit o false</hintConvertNulls>
+    <hintDescription>Opcional</hintDescription>
+    <hintNumberOfPass>Per a valors coneguts només al final.</hintNumberOfPass>
+    <hintReportCacheMode>Pàgines al disc per estalviar memòria.</hintReportCacheMode>
     <labelInfoDescription>Indiqueu la informació de l’informe</labelInfoDescription>
     <labelInfoMain>Modifica els paràmetres bàsics de l’informe</labelInfoMain>
     <labelNumberOfPass>Nombre de passades:</labelNumberOfPass>
@@ -1798,6 +1805,7 @@
     <ReportChanged>Informe modificat:</ReportChanged>
     <ReportCreated>Informe creat:</ReportCreated>
     <title>Configuració de l’informe</title>
+    <UseDoublePass>Utilitza dues passades</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Relleu</Bullets>

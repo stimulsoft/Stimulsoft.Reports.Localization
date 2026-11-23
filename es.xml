@@ -1789,8 +1789,15 @@
     <groupDescription>Descripción del Informe</groupDescription>
     <groupMainParameters>Parámetros de interpretación del informe</groupMainParameters>
     <groupNames>Nombre, alias y autor del informe</groupNames>
+    <groupRendering>Generación del informe</groupRendering>
     <groupScript>Lenguaje Script para el informe</groupScript>
     <groupUnits>Los tamaños y coordinados usarán las unidades de medida indicadas</groupUnits>
+    <hintCacheAllData>Todos los datos en un único DataSet</hintCacheAllData>
+    <hintCalculationMode>Cómo se evalúan las expresiones del informe.</hintCalculationMode>
+    <hintConvertNulls>Reemplazar los nulos por 0, texto vacío o false</hintConvertNulls>
+    <hintDescription>Opcional</hintDescription>
+    <hintNumberOfPass>Para valores conocidos solo al final.</hintNumberOfPass>
+    <hintReportCacheMode>Páginas en disco para ahorrar memoria.</hintReportCacheMode>
     <labelInfoDescription>Indique la información del informe</labelInfoDescription>
     <labelInfoMain>Modificar los parámetros básicos del informe</labelInfoMain>
     <labelNumberOfPass>Número de Pases:</labelNumberOfPass>
@@ -1798,6 +1805,7 @@
     <ReportChanged>Informe modificado:</ReportChanged>
     <ReportCreated>Informe creado:</ReportCreated>
     <title>Configuración del Informe</title>
+    <UseDoublePass>Usar Dos Pases</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Viñetas</Bullets>

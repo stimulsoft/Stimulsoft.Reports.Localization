@@ -1789,8 +1789,15 @@
     <groupDescription>Апісанне справаздачы</groupDescription>
     <groupMainParameters>Параметры, уплываючыя на пастраенне справаздачы</groupMainParameters>
     <groupNames>Назва, псеўданім і аўтар справаздачы</groupNames>
+    <groupRendering>Пабудова справаздачы</groupRendering>
     <groupScript>Скрыптавая мова Вашай справаздачы</groupScript>
     <groupUnits>У паказаных адзінках будуць вымярацца ўсе памеры і каардынаты ў справаздачы</groupUnits>
+    <hintCacheAllData>Усе дадзеныя ў адным DataSet</hintCacheAllData>
+    <hintCalculationMode>Як вылічваюцца выразы справаздачы.</hintCalculationMode>
+    <hintConvertNulls>Замяняць null на 0, пусты тэкст або false</hintConvertNulls>
+    <hintDescription>Неабавязкова</hintDescription>
+    <hintNumberOfPass>Для значэнняў, вядомых толькі ў канцы.</hintNumberOfPass>
+    <hintReportCacheMode>Гатовыя старонкі на дыску эканомяць памяць.</hintReportCacheMode>
     <labelInfoDescription>Інфармацыя аб справаздачы</labelInfoDescription>
     <labelInfoMain>Змяненне базавых параметраў справаздачы</labelInfoMain>
     <labelNumberOfPass>Колькасць праходаў у справаздачы:</labelNumberOfPass>
@@ -1798,6 +1805,7 @@
     <ReportChanged>Дата змены справаздачы:</ReportChanged>
     <ReportCreated>Дата стварэння справаздачы:</ReportCreated>
     <title>Уласцівасці справаздачы</title>
+    <UseDoublePass>Выкарыстоўваць два праходу</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Маркеры</Bullets>

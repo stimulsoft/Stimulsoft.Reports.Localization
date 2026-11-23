@@ -1789,8 +1789,15 @@
     <groupDescription>Penjelasan Laporan</groupDescription>
     <groupMainParameters>Parameter yang mempengaruhi pembuatan laporan</groupMainParameters>
     <groupNames>Nama Laporan, Nama Lain Laporan, dan penulis Laporan</groupNames>
+    <groupRendering>Rendering Laporan</groupRendering>
     <groupScript>Script Bahasa laporan anda</groupScript>
     <groupUnits>Ukuran dan koordinat pada laporan yang ditentukan</groupUnits>
+    <hintCacheAllData>Simpan semua data laporan dalam satu DataSet</hintCacheAllData>
+    <hintCalculationMode>Cara ekspresi dievaluasi saat laporan dijalankan.</hintCalculationMode>
+    <hintConvertNulls>Ganti null dengan 0, teks kosong, atau false</hintConvertNulls>
+    <hintDescription>Opsional</hintDescription>
+    <hintNumberOfPass>Untuk nilai yang baru diketahui di akhir.</hintNumberOfPass>
+    <hintReportCacheMode>Halaman disimpan di disk, hemat memori.</hintReportCacheMode>
     <labelInfoDescription>Mengindikasikan informasi dari laporan</labelInfoDescription>
     <labelInfoMain>Perubahan parameter laporan dasar</labelInfoMain>
     <labelNumberOfPass>Jumlah Lewat:</labelNumberOfPass>
@@ -1798,6 +1805,7 @@
     <ReportChanged>Laporan telah Berubah:</ReportChanged>
     <ReportCreated>Laporan telah dibuat:</ReportCreated>
     <title>Pengaturan laporan</title>
+    <UseDoublePass>Gunakan Dua Pass</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Peluru</Bullets>

@@ -1792,8 +1792,15 @@
     <groupDescription>Popis zostavy</groupDescription>
     <groupMainParameters>Parametre ovplyvňujúce renderovanie zostavy</groupMainParameters>
     <groupNames>Meno zostavy, alias zostavy a autor zostavy</groupNames>
+    <groupRendering>Spracovanie zostavy</groupRendering>
     <groupScript>Skriptovací jazyk zostavy</groupScript>
     <groupUnits>Veľkosť a súradnice zostavy budú v špecifikovaných jednotkách</groupUnits>
+    <hintCacheAllData>Všetky dáta v jednom DataSete</hintCacheAllData>
+    <hintCalculationMode>Ako sa vyhodnocujú výrazy pri spustení zostavy.</hintCalculationMode>
+    <hintConvertNulls>Null nahradiť 0, prázdnym textom alebo false</hintConvertNulls>
+    <hintDescription>Nepovinné</hintDescription>
+    <hintNumberOfPass>Pre hodnoty známe až na konci.</hintNumberOfPass>
+    <hintReportCacheMode>Stránky na disku šetria pamäť.</hintReportCacheMode>
     <labelInfoDescription>Ukazovať informácie zostavy</labelInfoDescription>
     <labelInfoMain>Zmena základných parametrov zostavy</labelInfoMain>
     <labelNumberOfPass>Počet prechodov:</labelNumberOfPass>
@@ -1801,6 +1808,7 @@
     <ReportChanged>Zostava zmenená:</ReportChanged>
     <ReportCreated>Zostava vytvorená:</ReportCreated>
     <title>Nastavenie zostavy</title>
+    <UseDoublePass>Použiť dvojitý prechod</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Odrážky</Bullets>

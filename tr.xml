@@ -1789,8 +1789,15 @@
     <groupDescription>Rapor açıklaması</groupDescription>
     <groupMainParameters>Rapor oluşturmada etkili olan parametreler</groupMainParameters>
     <groupNames>Rapor adı, rapor takma adı ve rapor yazarı</groupNames>
+    <groupRendering>Rapor Oluşturma</groupRendering>
     <groupScript>Raporunuzun komut dosyası dili</groupScript>
     <groupUnits>Bir rapordaki boyut ve koordinatlar belirtilen birimlerde olacaktır</groupUnits>
+    <hintCacheAllData>Tüm rapor verilerini tek bir DataSet içinde tut</hintCacheAllData>
+    <hintCalculationMode>Rapor çalışırken ifadelerin nasıl değerlendirildiği.</hintCalculationMode>
+    <hintConvertNulls>Null değerleri 0, boş metin veya false ile değiştir</hintConvertNulls>
+    <hintDescription>İsteğe bağlı</hintDescription>
+    <hintNumberOfPass>Yalnızca sonda bilinen değerler için Çift Geçiş kullanın.</hintNumberOfPass>
+    <hintReportCacheMode>Sayfaları diskte saklayarak bellek tasarrufu.</hintReportCacheMode>
     <labelInfoDescription>Rapor hakkında bilgi</labelInfoDescription>
     <labelInfoMain>Temel rapor parametrelerinin değiştirilmesi</labelInfoMain>
     <labelNumberOfPass>Geçiş Sayısı:</labelNumberOfPass>
@@ -1798,6 +1805,7 @@
     <ReportChanged>Rapor Değişti:</ReportChanged>
     <ReportCreated>Rapor Oluşturuldu:</ReportCreated>
     <title>Rapor Seçenekleri</title>
+    <UseDoublePass>Çift Geçiş Kullan</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Madde İşaretleri</Bullets>

@@ -1815,8 +1815,15 @@
     <groupDescription>Ataskaitos aprašas</groupDescription>
     <groupMainParameters>Parametrai, turintys įtakos ataskaitos generavimui</groupMainParameters>
     <groupNames>Ataskaitos pavadinimas, ataskaitos slapyvardis ir ataskaitos autorius</groupNames>
+    <groupRendering>Ataskaitos atvaizdavimas</groupRendering>
     <groupScript>Jūsų ataskaitos scenarijų kalba</groupScript>
     <groupUnits>Dydžiai ir koordinatės ataskaitoje bus nurodytais vienetais</groupUnits>
+    <hintCacheAllData>Visi duomenys viename DataSet</hintCacheAllData>
+    <hintCalculationMode>Kaip apskaičiuojamos išraiškos vykdant ataskaitą.</hintCalculationMode>
+    <hintConvertNulls>Pakeisti null reikšmes 0, tuščiu tekstu arba false</hintConvertNulls>
+    <hintDescription>Neprivaloma</hintDescription>
+    <hintNumberOfPass>Reikšmėms, žinomoms tik pabaigoje.</hintNumberOfPass>
+    <hintReportCacheMode>Puslapiai diske taupo atmintį.</hintReportCacheMode>
     <labelInfoDescription>Informacija apie ataskaitą</labelInfoDescription>
     <labelInfoMain>Pagrindinių ataskaitos parametrų keitimas</labelInfoMain>
     <labelNumberOfPass>Perėjimų skaičius:</labelNumberOfPass>
@@ -1825,6 +1832,7 @@
     <ReportChanged>Ataskaita pakeista:</ReportChanged>
     <ReportCreated>Ataskaita sukurta:</ReportCreated>
     <title>Ataskaitos parametrai</title>
+    <UseDoublePass>Naudoti du praėjimus</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Markeriai</Bullets>

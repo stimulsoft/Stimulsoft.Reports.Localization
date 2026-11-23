@@ -1789,8 +1789,15 @@
     <groupDescription>Description du rapport</groupDescription>
     <groupMainParameters>Paramètres qui ont un effet sur le rendu de rapport</groupMainParameters>
     <groupNames>Nom du rapport, alias du rapport et auteur du rapport</groupNames>
+    <groupRendering>Rendu du rapport</groupRendering>
     <groupScript>Langage de script de votre rapport</groupScript>
     <groupUnits>La taille et les coordonnées dans un rapport seront dans les unités spécifiées</groupUnits>
+    <hintCacheAllData>Toutes les données dans un seul DataSet</hintCacheAllData>
+    <hintCalculationMode>Mode d'évaluation des expressions du rapport.</hintCalculationMode>
+    <hintConvertNulls>Nulls remplacés par 0, texte vide ou false</hintConvertNulls>
+    <hintDescription>Facultatif</hintDescription>
+    <hintNumberOfPass>Pour les valeurs connues seulement à la fin.</hintNumberOfPass>
+    <hintReportCacheMode>Pages générées sur disque, moins de mémoire.</hintReportCacheMode>
     <labelInfoDescription>Indiquez les informations d'un rapport</labelInfoDescription>
     <labelInfoMain>Modification des paramètres basiques de rapport</labelInfoMain>
     <labelNumberOfPass>Nombre de passes:</labelNumberOfPass>
@@ -1798,6 +1805,7 @@
     <ReportChanged>Date de modification</ReportChanged>
     <ReportCreated>Date de création</ReportCreated>
     <title>Paramètres du rapport</title>
+    <UseDoublePass>Utiliser la double passe</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Puces</Bullets>

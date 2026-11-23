@@ -1789,8 +1789,15 @@
     <groupDescription>रिपोर्ट विवरण</groupDescription>
     <groupMainParameters>रिपोर्ट रेंडरिंग को प्रभावित करने वाले पैरामीटर</groupMainParameters>
     <groupNames>रिपोर्ट नाम, रिपोर्ट उपनाम, और रिपोर्ट लेखक</groupNames>
+    <groupRendering>रिपोर्ट रेंडरिंग</groupRendering>
     <groupScript>आपकी रिपोर्ट की स्क्रिप्ट भाषा</groupScript>
     <groupUnits>रिपोर्ट में आकार और निर्देशांक निर्दिष्ट इकाइयों में होंगे</groupUnits>
+    <hintCacheAllData>सभी रिपोर्ट डेटा को एक ही DataSet में रखें</hintCacheAllData>
+    <hintCalculationMode>रिपोर्ट चलने पर एक्सप्रेशन का मूल्यांकन कैसे होता है।</hintCalculationMode>
+    <hintConvertNulls>null को 0, खाली टेक्स्ट या false से बदलें</hintConvertNulls>
+    <hintDescription>वैकल्पिक</hintDescription>
+    <hintNumberOfPass>केवल अंत में ज्ञात मानों के लिए।</hintNumberOfPass>
+    <hintReportCacheMode>मेमोरी बचाने के लिए पेज डिस्क पर रखता है।</hintReportCacheMode>
     <labelInfoDescription>रिपोर्ट के बारे में जानकारी</labelInfoDescription>
     <labelInfoMain>मूल रिपोर्ट पैरामीटर का परिवर्तन</labelInfoMain>
     <labelNumberOfPass>पास की संख्या:</labelNumberOfPass>
@@ -1798,6 +1805,7 @@
     <ReportChanged>रिपोर्ट बदली गई:</ReportChanged>
     <ReportCreated>रिपोर्ट बनाई गई:</ReportCreated>
     <title>रिपोर्ट विकल्प</title>
+    <UseDoublePass>डबल पास का उपयोग करें</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>बुलेट</Bullets>

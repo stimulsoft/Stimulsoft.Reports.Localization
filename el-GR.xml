@@ -1789,8 +1789,15 @@
     <groupDescription>Περιγραφή Αναφοράς</groupDescription>
     <groupMainParameters>Παράμετροι που επηρεάζουν την κατασκευή της αναφοράς</groupMainParameters>
     <groupNames>Όνομα, ψευδώνυμο και συγγραφέας αναφοράς</groupNames>
+    <groupRendering>Απόδοση αναφοράς</groupRendering>
     <groupScript>Γλώσσα του λειτουργικού κώδικα της αφοράς</groupScript>
     <groupUnits>Το μέγεθος και οι συντεταγμένες της αναφοράς θα προσδιορίζονται σε μονάδες</groupUnits>
+    <hintCacheAllData>Όλα τα δεδομένα σε ένα DataSet</hintCacheAllData>
+    <hintCalculationMode>Πώς υπολογίζονται οι εκφράσεις.</hintCalculationMode>
+    <hintConvertNulls>Τα null γίνονται 0, κενό κείμενο ή false</hintConvertNulls>
+    <hintDescription>Προαιρετικό</hintDescription>
+    <hintNumberOfPass>Για τιμές γνωστές μόνο στο τέλος.</hintNumberOfPass>
+    <hintReportCacheMode>Σελίδες στον δίσκο για λιγότερη μνήμη.</hintReportCacheMode>
     <labelInfoDescription>Ρύθμιση πληροφοριών αφοράς</labelInfoDescription>
     <labelInfoMain>Αλλαγή βασικών παραμέτρων αναφοράς</labelInfoMain>
     <labelNumberOfPass>Αριθμός Περασμάτων:</labelNumberOfPass>
@@ -1798,6 +1805,7 @@
     <ReportChanged>Ημερομηνία Τροποποίησης:</ReportChanged>
     <ReportCreated>Ημερομηνία Δημιουργίας:</ReportCreated>
     <title>Ρυθμίσεις Αναφοράς</title>
+    <UseDoublePass>Χρήση Διπλού Περάσματος</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Κουκκίδες</Bullets>

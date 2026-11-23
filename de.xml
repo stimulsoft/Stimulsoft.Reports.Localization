@@ -1789,8 +1789,15 @@
     <groupDescription>Beschreibung</groupDescription>
     <groupMainParameters>Rendering: Parameter</groupMainParameters>
     <groupNames>Berichtsname, -alias, -autor</groupNames>
+    <groupRendering>Berichts-Rendering</groupRendering>
     <groupScript>Scriptsprache</groupScript>
     <groupUnits>Größe und Koordinaten in aktuellen Einheiten</groupUnits>
+    <hintCacheAllData>Alle Daten in einem DataSet halten</hintCacheAllData>
+    <hintCalculationMode>Wie Ausdrücke im Bericht ausgewertet werden.</hintCalculationMode>
+    <hintConvertNulls>Null durch 0, leeren Text oder false ersetzen</hintConvertNulls>
+    <hintDescription>Optional</hintDescription>
+    <hintNumberOfPass>Für Werte, die erst am Ende bekannt sind.</hintNumberOfPass>
+    <hintReportCacheMode>Speichert Seiten auf der Festplatte, spart Speicher.</hintReportCacheMode>
     <labelInfoDescription>Berichtsinformation anzeigen</labelInfoDescription>
     <labelInfoMain>Grundlegende Berichtsparameter ändern</labelInfoMain>
     <labelNumberOfPass>Durchlaufs-Nr.:</labelNumberOfPass>
@@ -1798,6 +1805,7 @@
     <ReportChanged>Bericht zuletzt geändert am:</ReportChanged>
     <ReportCreated>Bericht erstellt am:</ReportCreated>
     <title>Bericht-Eigenschaften</title>
+    <UseDoublePass>Zwei Durchläufe verwenden</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Marker</Bullets>

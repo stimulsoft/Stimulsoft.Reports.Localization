@@ -1791,8 +1791,15 @@
     <groupDescription>Opis izvještaja</groupDescription>
     <groupMainParameters>Parametri koji utiču na učitavanja izvještaja</groupMainParameters>
     <groupNames>Ime, alijas, autor izvještaja</groupNames>
+    <groupRendering>Renderovanje izvještaja</groupRendering>
     <groupScript>Jezik skripti vašeg izvještaja</groupScript>
     <groupUnits>Veličine i koordinate u izvještaja će biti u odabranoj mjernoj jedinici</groupUnits>
+    <hintCacheAllData>Čuvaj sve podatke izvještaja u jednom DataSetu</hintCacheAllData>
+    <hintCalculationMode>Kako se izrazi izračunavaju pri pokretanju izvještaja.</hintCalculationMode>
+    <hintConvertNulls>Zamijeni null sa 0, praznim tekstom ili false</hintConvertNulls>
+    <hintDescription>Opcionalno</hintDescription>
+    <hintNumberOfPass>Za vrijednosti poznate tek na kraju.</hintNumberOfPass>
+    <hintReportCacheMode>Stranice na disku štede memoriju.</hintReportCacheMode>
     <labelInfoDescription>Prikaži informacije izvještaja</labelInfoDescription>
     <labelInfoMain>Izmjena osnovnih parametara izvještaja</labelInfoMain>
     <labelNumberOfPass>Broj prolaza:</labelNumberOfPass>
@@ -1800,6 +1807,7 @@
     <ReportChanged>Izvještaj ažuriran:</ReportChanged>
     <ReportCreated>Izvještaj kreiran:</ReportCreated>
     <title>Postavke izvještaja</title>
+    <UseDoublePass>Koristi dvostruki prolaz</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Grafičke oznake</Bullets>

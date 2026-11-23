@@ -1789,8 +1789,15 @@
     <groupDescription>Opis raportu</groupDescription>
     <groupMainParameters>Parametry mające wplyw na renderowanie raportu</groupMainParameters>
     <groupNames>Nazwa, alias i autor raportu</groupNames>
+    <groupRendering>Renderowanie raportu</groupRendering>
     <groupScript>Język skryptu raportu</groupScript>
     <groupUnits>Rozmiar i współrzędne raportu będą w określonych jednostkach</groupUnits>
+    <hintCacheAllData>Wszystkie dane w jednym DataSet</hintCacheAllData>
+    <hintCalculationMode>Sposób obliczania wyrażeń raportu.</hintCalculationMode>
+    <hintConvertNulls>Null jako 0, pusty tekst lub false</hintConvertNulls>
+    <hintDescription>Opcjonalnie</hintDescription>
+    <hintNumberOfPass>Dla wartości znanych dopiero na końcu.</hintNumberOfPass>
+    <hintReportCacheMode>Strony na dysku oszczędzają pamięć.</hintReportCacheMode>
     <labelInfoDescription>Określ informacje o raporcie</labelInfoDescription>
     <labelInfoMain>Zmiana podstawowych parametrów raportu</labelInfoMain>
     <labelNumberOfPass>Ilość przebiegów:</labelNumberOfPass>
@@ -1798,6 +1805,7 @@
     <ReportChanged>Raport zmieniony:</ReportChanged>
     <ReportCreated>Raport stworzony:</ReportCreated>
     <title>Ustawienia raportu</title>
+    <UseDoublePass>Użyj podwójnego przebiegu</UseDoublePass>
   </FormReportSetup>
   <FormRichTextEditor>
     <Bullets>Kule</Bullets>
