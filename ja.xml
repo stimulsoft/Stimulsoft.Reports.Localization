@@ -1658,6 +1658,7 @@
     <ExpressionCall>画像を返す式を入力してください</ExpressionCall>
     <ExpressionRenderHint>画像はレポートのレンダリング時に計算されます</ExpressionRenderHint>
     <FileCall>画像ファイルをドロップするか、クリックして選択してください</FileCall>
+    <FileChoose>画像ファイルを選択します。</FileChoose>
     <FileLocalWarning>このパスはこのコンピューターにのみ存在します。他の環境では画像が見つかりません。</FileLocalWarning>
     <FileNotImage>このファイルは画像ではありません</FileNotImage>
     <LinkCall>画像へのリンクを入力または貼り付けてください</LinkCall>
@@ -5695,6 +5696,9 @@
   <Signature>
     <ClearSignature>クリアサイン</ClearSignature>
     <DigitalSignatureEmptyWatermark>PDFビューアにデジタル署名を配置</DigitalSignatureEmptyWatermark>
+    <ImageFill>拡大</ImageFill>
+    <ImageFit>合わせる</ImageFit>
+    <ImageOriginal>元のサイズ</ImageOriginal>
     <FullName>フルネーム</FullName>
     <Initials>イニシャル</Initials>
     <InsertImage>画像を挿入</InsertImage>
@@ -5702,8 +5706,15 @@
     <LoadSignature>署名のロード</LoadSignature>
     <NoSavedItems>保存されたアイテムはありません</NoSavedItems>
     <PdfDigitalSignatureTitle>PDFファイルの署名に表示したいオブジェクトを選択します。</PdfDigitalSignatureTitle>
+    <Pen>ペン</Pen>
     <SaveSignature>署名の保存</SaveSignature>
     <SignatureSavedSuccessfully>署名が正常に保存されました。</SignatureSavedSuccessfully>
+    <SignHint>署名するには、描画するか、テキストを入力するか、画像を追加します。</SignHint>
+    <Thickness>太さ</Thickness>
+    <ThicknessBold>太い</ThicknessBold>
+    <ThicknessMedium>中</ThicknessMedium>
+    <ThicknessThin>細い</ThicknessThin>
+    <TypeHere>ここに入力</TypeHere>
     <UseBrush>ブラシを使用する</UseBrush>
   </Signature>
   <StimulAI>
