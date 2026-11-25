@@ -1483,6 +1483,7 @@
     <CopyPropertyName>Tulajdonság nevének másolása</CopyPropertyName>
     <DockingPanels>Panelek</DockingPanels>
     <Four>Négy</Four>
+    <HidePreview>Az előnézet elrejtése.</HidePreview>
     <HtmlPreview>HTML nézet</HtmlPreview>
     <JsPreview>JS előnézet</JsPreview>
     <labelPleaseSelectTypeOfInterface>Kérem válasszon interfész típust</labelPleaseSelectTypeOfInterface>
@@ -1499,6 +1500,7 @@
     <RTPreview>WinRT előnézet</RTPreview>
     <SetupToolbox>Beállítás eszköztár</SetupToolbox>
     <ShowDescription>Leírást megmutatni</ShowDescription>
+    <ShowPreview>Az előnézet megjelenítése.</ShowPreview>
     <SLPreview>Silverlight nézet</SLPreview>
     <title>Tervező</title>
     <WebPreview>Web nézet</WebPreview>
@@ -1682,10 +1684,16 @@
     <BlankReport>Üres riport</BlankReport>
     <BlankScreen>Üres képernyő</BlankScreen>
     <CheckDashboardExpressions>Irányítópult-kifejezések ellenőrzése</CheckDashboardExpressions>
+    <ContentWidthMode>Tartalom szélessége</ContentWidthMode>
+    <ContentWidthModeClip>Levágás</ContentWidthModeClip>
+    <ContentWidthModeExpandPage>Oldal kibővítése</ContentWidthModeExpandPage>
+    <ContentWidthModeFitToPage>Igazítás az oldalhoz</ContentWidthModeFitToPage>
+    <ContentWidthModeSplitToPages>Felosztás oldalakra</ContentWidthModeSplitToPages>
     <Default>Alapértelmezett</Default>
     <DefaultSaveFormat>Alapértelmezett mentési formátum</DefaultSaveFormat>
     <DefaultScriptMode>Alapértelmezett script mód</DefaultScriptMode>
     <DesignSize>Tervezési méret</DesignSize>
+    <DisableUIAnimation>Felület animációinak kikapcsolása</DisableUIAnimation>
     <Drawing>Rajzolás</Drawing>
     <DrawMarkersWhenMoving>Mutatók rajzolsáa mozgás közben</DrawMarkersWhenMoving>
     <EditAfterInsert>Beszúrás után szerkeszt</EditAfterInsert>
@@ -5948,6 +5956,8 @@ Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztr
     <LabelCheckNoRecords>Nincs ellenőrizhető rekord</LabelCheckNoRecords>
     <LabelCheckNoSizes>Néhány méret üres</LabelCheckNoSizes>
     <LabelCheckNoSource>Nincs adatforrás</LabelCheckNoSource>
+    <LabelCheckOffsetProblem>A nyomtató eltolása kitolja a címkéket a lapról</LabelCheckOffsetProblem>
+    <LabelCheckOffsetProblemDetail>Eltolás {0} jobbra és {1} lefelé, a címkék {2} távolsággal túlnyúlnak a papír szélén</LabelCheckOffsetProblemDetail>
     <LabelCheckPrinter>A címkék elférnek a nyomtatható területen</LabelCheckPrinter>
     <LabelCheckPrinterDetail>A(z) '{0}' nyomtató {1} távolságtól nyomtat, a címkék {2} távolságtól</LabelCheckPrinterDetail>
     <LabelCheckPrinterProblem>A címkék elérik a szélt, amelyre a nyomtató nem nyomtat</LabelCheckPrinterProblem>

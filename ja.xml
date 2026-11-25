@@ -1484,6 +1484,7 @@
     <CopyPropertyName>コピー プロパティ名</CopyPropertyName>
     <DockingPanels>パネル</DockingPanels>
     <Four>4</Four>
+    <HidePreview>プレビューを非表示にします。</HidePreview>
     <HtmlPreview>HTMLプレビュー</HtmlPreview>
     <JsPreview>JSプレビュー</JsPreview>
     <labelPleaseSelectTypeOfInterface>インタフェースのタイプを選択してください</labelPleaseSelectTypeOfInterface>
@@ -1500,6 +1501,7 @@
     <RTPreview>WinRTプレビュー</RTPreview>
     <SetupToolbox>設定ボックス</SetupToolbox>
     <ShowDescription>説明を表示</ShowDescription>
+    <ShowPreview>プレビューを表示します。</ShowPreview>
     <SLPreview>Silverlightプレビュー</SLPreview>
     <title>デザイナー</title>
     <WebPreview>Flashプレビュー</WebPreview>
@@ -1683,10 +1685,16 @@
     <BlankReport>空白レポート</BlankReport>
     <BlankScreen>空白の画面</BlankScreen>
     <CheckDashboardExpressions>ダッシュボードの式を確認</CheckDashboardExpressions>
+    <ContentWidthMode>コンテンツの幅</ContentWidthMode>
+    <ContentWidthModeClip>切り取る</ContentWidthModeClip>
+    <ContentWidthModeExpandPage>ページを拡張</ContentWidthModeExpandPage>
+    <ContentWidthModeFitToPage>ページに合わせる</ContentWidthModeFitToPage>
+    <ContentWidthModeSplitToPages>複数ページに分割</ContentWidthModeSplitToPages>
     <Default>デフォルト</Default>
     <DefaultSaveFormat>デフォルト保存形式</DefaultSaveFormat>
     <DefaultScriptMode>デフォルトのスクリプトモード</DefaultScriptMode>
     <DesignSize>デザインサイズ</DesignSize>
+    <DisableUIAnimation>UIアニメーションを無効にする</DisableUIAnimation>
     <Drawing>お絵かき</Drawing>
     <DrawMarkersWhenMoving>移動時にマーカーを描く</DrawMarkersWhenMoving>
     <EditAfterInsert>挿入後に編集</EditAfterInsert>
@@ -5956,6 +5964,8 @@
     <LabelCheckNoRecords>チェックするレコードがありません</LabelCheckNoRecords>
     <LabelCheckNoSizes>空のサイズがあります</LabelCheckNoSizes>
     <LabelCheckNoSource>データソースなし</LabelCheckNoSource>
+    <LabelCheckOffsetProblem>プリンターのオフセットでラベルがシートからはみ出します</LabelCheckOffsetProblem>
+    <LabelCheckOffsetProblemDetail>オフセット 右 {0}、下 {1} で、ラベルが用紙の端から {2} はみ出しています</LabelCheckOffsetProblemDetail>
     <LabelCheckPrinter>ラベルが印刷可能領域に収まります</LabelCheckPrinter>
     <LabelCheckPrinterDetail>プリンター '{0}' は {1} から印刷し、ラベルは {2} からです</LabelCheckPrinterDetail>
     <LabelCheckPrinterProblem>ラベルがプリンターの印刷できない端にかかっています</LabelCheckPrinterProblem>

@@ -1483,6 +1483,7 @@
     <CopyPropertyName>Copiar nombre de propiedad</CopyPropertyName>
     <DockingPanels>Paneles</DockingPanels>
     <Four>Cuatro</Four>
+    <HidePreview>Ocultar la vista previa.</HidePreview>
     <HtmlPreview>Vista Preliminar HTML</HtmlPreview>
     <JsPreview>Vista previa JS</JsPreview>
     <labelPleaseSelectTypeOfInterface>Por favor, indique el tipo de interfaz</labelPleaseSelectTypeOfInterface>
@@ -1499,6 +1500,7 @@
     <RTPreview>Vista Previa WinRT</RTPreview>
     <SetupToolbox>Configuración de la Caja de Herramientas</SetupToolbox>
     <ShowDescription>Mostrar Descripción</ShowDescription>
+    <ShowPreview>Mostrar la vista previa.</ShowPreview>
     <SLPreview>Vista Previa Silverlight</SLPreview>
     <title>Diseñador</title>
     <WebPreview>Vista Previa Flash</WebPreview>
@@ -1682,10 +1684,16 @@
     <BlankReport>Informe en blanco</BlankReport>
     <BlankScreen>Pantalla en blanco</BlankScreen>
     <CheckDashboardExpressions>Comprobar expresiones de consolas</CheckDashboardExpressions>
+    <ContentWidthMode>Ancho del contenido</ContentWidthMode>
+    <ContentWidthModeClip>Recortar</ContentWidthModeClip>
+    <ContentWidthModeExpandPage>Ampliar la página</ContentWidthModeExpandPage>
+    <ContentWidthModeFitToPage>Ajustar a la página</ContentWidthModeFitToPage>
+    <ContentWidthModeSplitToPages>Dividir en páginas</ContentWidthModeSplitToPages>
     <Default>Estándar</Default>
     <DefaultSaveFormat>Formato de guardado predeterminado</DefaultSaveFormat>
     <DefaultScriptMode>Modo de secuencia de comandos predeterminado</DefaultScriptMode>
     <DesignSize>Tamaño de diseño</DesignSize>
+    <DisableUIAnimation>Deshabilitar animación de la interfaz</DisableUIAnimation>
     <Drawing>Dibujo</Drawing>
     <DrawMarkersWhenMoving>Dibujar Marcadores al Mover</DrawMarkersWhenMoving>
     <EditAfterInsert>Editar Después de Insertar</EditAfterInsert>
@@ -5948,6 +5956,8 @@ Contiene un enlace para confirmar su registro. Para completar el registro, por f
     <LabelCheckNoRecords>No hay registros que comprobar</LabelCheckNoRecords>
     <LabelCheckNoSizes>Algunos tamaños están vacíos</LabelCheckNoSizes>
     <LabelCheckNoSource>Sin origen de datos</LabelCheckNoSource>
+    <LabelCheckOffsetProblem>El desplazamiento de la impresora saca las etiquetas de la hoja</LabelCheckOffsetProblem>
+    <LabelCheckOffsetProblemDetail>Desplazamiento de {0} a la derecha y {1} hacia abajo, las etiquetas sobresalen {2} del borde del papel</LabelCheckOffsetProblemDetail>
     <LabelCheckPrinter>Las etiquetas caben en el área de impresión</LabelCheckPrinter>
     <LabelCheckPrinterDetail>La impresora '{0}' imprime desde {1}, las etiquetas desde {2}</LabelCheckPrinterDetail>
     <LabelCheckPrinterProblem>Las etiquetas llegan al borde que la impresora no imprime</LabelCheckPrinterProblem>

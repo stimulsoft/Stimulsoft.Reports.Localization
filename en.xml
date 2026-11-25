@@ -1483,6 +1483,7 @@
     <CopyPropertyName>Copy Property Name</CopyPropertyName>
     <DockingPanels>Panels</DockingPanels>
     <Four>Four</Four>
+    <HidePreview>Hide the preview.</HidePreview>
     <HtmlPreview>HTML Preview</HtmlPreview>
     <JsPreview>JS Preview</JsPreview>
     <labelPleaseSelectTypeOfInterface>Please select the type of interface</labelPleaseSelectTypeOfInterface>
@@ -1499,6 +1500,7 @@
     <RTPreview>WinRT Preview</RTPreview>
     <SetupToolbox>Setup Toolbox</SetupToolbox>
     <ShowDescription>Show Description</ShowDescription>
+    <ShowPreview>Show the preview.</ShowPreview>
     <SLPreview>Silverlight Preview</SLPreview>
     <title>Designer</title>
     <WebPreview>Flash Preview</WebPreview>
@@ -1682,10 +1684,16 @@
     <BlankReport>Blank Report</BlankReport>
     <BlankScreen>Blank Screen</BlankScreen>
     <CheckDashboardExpressions>Check Dashboard Expressions</CheckDashboardExpressions>
+    <ContentWidthMode>Content Width</ContentWidthMode>
+    <ContentWidthModeClip>Clip</ContentWidthModeClip>
+    <ContentWidthModeExpandPage>Expand Page</ContentWidthModeExpandPage>
+    <ContentWidthModeFitToPage>Fit to Page</ContentWidthModeFitToPage>
+    <ContentWidthModeSplitToPages>Split to Pages</ContentWidthModeSplitToPages>
     <Default>Default</Default>
     <DefaultSaveFormat>Default Save Format</DefaultSaveFormat>
     <DefaultScriptMode>Default Script Mode</DefaultScriptMode>
     <DesignSize>Design Size</DesignSize>
+    <DisableUIAnimation>Disable UI Animation</DisableUIAnimation>
     <Drawing>Drawing</Drawing>
     <DrawMarkersWhenMoving>Draw Markers When Moving</DrawMarkersWhenMoving>
     <EditAfterInsert>Edit After Insert</EditAfterInsert>
@@ -5950,6 +5958,8 @@
     <LabelCheckNoRecords>No records to check</LabelCheckNoRecords>
     <LabelCheckNoSizes>Some sizes are empty</LabelCheckNoSizes>
     <LabelCheckNoSource>No data source</LabelCheckNoSource>
+    <LabelCheckOffsetProblem>The printer offset moves the labels off the sheet</LabelCheckOffsetProblem>
+    <LabelCheckOffsetProblemDetail>Offset {0} right and {1} down, the labels go {2} past the edge of the paper</LabelCheckOffsetProblemDetail>
     <LabelCheckPrinter>Labels fit the printable area</LabelCheckPrinter>
     <LabelCheckPrinterDetail>Printer '{0}' prints from {1}, the labels from {2}</LabelCheckPrinterDetail>
     <LabelCheckPrinterProblem>The labels reach the edge the printer cannot print</LabelCheckPrinterProblem>

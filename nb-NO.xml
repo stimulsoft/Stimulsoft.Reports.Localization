@@ -1483,6 +1483,7 @@
     <CopyPropertyName>Kopier egenskapsnavn</CopyPropertyName>
     <DockingPanels>Paneler</DockingPanels>
     <Four>Fire</Four>
+    <HidePreview>Skjul forhåndsvisningen.</HidePreview>
     <HtmlPreview>HTML forhåndsvisning</HtmlPreview>
     <JsPreview>JS-forhåndsvisning</JsPreview>
     <labelPleaseSelectTypeOfInterface>Vennligst velg grensesnitt</labelPleaseSelectTypeOfInterface>
@@ -1499,6 +1500,7 @@
     <RTPreview>WinRT-forhåndsvisning</RTPreview>
     <SetupToolbox>Oppsett av verktøyboks</SetupToolbox>
     <ShowDescription>Vis beskrivelse</ShowDescription>
+    <ShowPreview>Vis forhåndsvisningen.</ShowPreview>
     <SLPreview>Silverlight forhåndsvisning</SLPreview>
     <title>Designverktøy</title>
     <WebPreview>Web forhåndsvisning</WebPreview>
@@ -1682,10 +1684,16 @@
     <BlankReport>Blank rapport</BlankReport>
     <BlankScreen>Tom skjerm</BlankScreen>
     <CheckDashboardExpressions>Kontroller dashbord-uttrykk</CheckDashboardExpressions>
+    <ContentWidthMode>Innholdsbredde</ContentWidthMode>
+    <ContentWidthModeClip>Beskjær</ContentWidthModeClip>
+    <ContentWidthModeExpandPage>Utvid siden</ContentWidthModeExpandPage>
+    <ContentWidthModeFitToPage>Tilpass til siden</ContentWidthModeFitToPage>
+    <ContentWidthModeSplitToPages>Del opp på sider</ContentWidthModeSplitToPages>
     <Default>Standard</Default>
     <DefaultSaveFormat>Standard lagringsformat</DefaultSaveFormat>
     <DefaultScriptMode>Standard skriptmodus</DefaultScriptMode>
     <DesignSize>Designstørrelse</DesignSize>
+    <DisableUIAnimation>Deaktiver animasjoner i grensesnittet</DisableUIAnimation>
     <Drawing>Tegning</Drawing>
     <DrawMarkersWhenMoving>Tegn markører under flytting</DrawMarkersWhenMoving>
     <EditAfterInsert>Rediger etter innsetting</EditAfterInsert>
@@ -5947,6 +5955,8 @@ E-posten ble sendt til "{0}". Den inneholder en lenke for å bekrefte registreri
     <LabelCheckNoRecords>Ingen poster å kontrollere</LabelCheckNoRecords>
     <LabelCheckNoSizes>Noen størrelser er tomme</LabelCheckNoSizes>
     <LabelCheckNoSource>Ingen datakilde</LabelCheckNoSource>
+    <LabelCheckOffsetProblem>Skriverforskyvningen flytter etikettene utenfor arket</LabelCheckOffsetProblem>
+    <LabelCheckOffsetProblemDetail>Forskyvning {0} til høyre og {1} ned, etikettene går {2} utenfor papirkanten</LabelCheckOffsetProblemDetail>
     <LabelCheckPrinter>Etikettene får plass i utskriftsområdet</LabelCheckPrinter>
     <LabelCheckPrinterDetail>Skriveren '{0}' skriver ut fra {1}, etikettene fra {2}</LabelCheckPrinterDetail>
     <LabelCheckPrinterProblem>Etikettene når kanten skriveren ikke skriver ut</LabelCheckPrinterProblem>

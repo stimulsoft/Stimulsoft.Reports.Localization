@@ -1483,6 +1483,7 @@
     <CopyPropertyName>Kopiera egenskapsnamn</CopyPropertyName>
     <DockingPanels>Panelser</DockingPanels>
     <Four>Fyra</Four>
+    <HidePreview>Dölj förhandsgranskningen.</HidePreview>
     <HtmlPreview>HTML förhandsgranskning</HtmlPreview>
     <JsPreview>JS-förhandsgranskning</JsPreview>
     <labelPleaseSelectTypeOfInterface>Vänligen välj typ av interface</labelPleaseSelectTypeOfInterface>
@@ -1499,6 +1500,7 @@
     <RTPreview>WinRT Förhandsgranskning</RTPreview>
     <SetupToolbox>Definiera verktygslåda</SetupToolbox>
     <ShowDescription>Visa beskrivning</ShowDescription>
+    <ShowPreview>Visa förhandsgranskningen.</ShowPreview>
     <SLPreview>Silverlight förhandsgranska</SLPreview>
     <title>Designverktyg</title>
     <WebPreview>Flash förhandsgranska</WebPreview>
@@ -1682,10 +1684,16 @@
     <BlankReport>Tom rapport</BlankReport>
     <BlankScreen>Tom skärm</BlankScreen>
     <CheckDashboardExpressions>Kontrollera dashboard-uttryck</CheckDashboardExpressions>
+    <ContentWidthMode>Innehållsbredd</ContentWidthMode>
+    <ContentWidthModeClip>Beskär</ContentWidthModeClip>
+    <ContentWidthModeExpandPage>Utöka sidan</ContentWidthModeExpandPage>
+    <ContentWidthModeFitToPage>Anpassa till sidan</ContentWidthModeFitToPage>
+    <ContentWidthModeSplitToPages>Dela upp på sidor</ContentWidthModeSplitToPages>
     <Default>Standard</Default>
     <DefaultSaveFormat>Standardformat för sparande</DefaultSaveFormat>
     <DefaultScriptMode>Standardskriptläge</DefaultScriptMode>
     <DesignSize>Designstorlek</DesignSize>
+    <DisableUIAnimation>Inaktivera animeringar i gränssnittet</DisableUIAnimation>
     <Drawing>Ritning</Drawing>
     <DrawMarkersWhenMoving>Visa markering vid flytt</DrawMarkersWhenMoving>
     <EditAfterInsert>Redigera efter lägg till</EditAfterInsert>
@@ -5947,6 +5955,8 @@ E-postmeddelandet har skickats till "{0}". Det innehåller en länk för att bek
     <LabelCheckNoRecords>Inga poster att kontrollera</LabelCheckNoRecords>
     <LabelCheckNoSizes>Vissa storlekar är tomma</LabelCheckNoSizes>
     <LabelCheckNoSource>Ingen datakälla</LabelCheckNoSource>
+    <LabelCheckOffsetProblem>Skrivarförskjutningen flyttar etiketterna utanför arket</LabelCheckOffsetProblem>
+    <LabelCheckOffsetProblemDetail>Förskjutning {0} åt höger och {1} nedåt, etiketterna går {2} utanför papperets kant</LabelCheckOffsetProblemDetail>
     <LabelCheckPrinter>Etiketterna får plats i utskriftsområdet</LabelCheckPrinter>
     <LabelCheckPrinterDetail>Skrivaren '{0}' skriver ut från {1}, etiketterna från {2}</LabelCheckPrinterDetail>
     <LabelCheckPrinterProblem>Etiketterna når kanten som skrivaren inte kan skriva ut</LabelCheckPrinterProblem>

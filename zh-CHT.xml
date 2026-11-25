@@ -1484,6 +1484,7 @@
     <CopyPropertyName>複製屬性名稱</CopyPropertyName>
     <DockingPanels>面板</DockingPanels>
     <Four>四</Four>
+    <HidePreview>隱藏預覽。</HidePreview>
     <HtmlPreview>HTML 預覽</HtmlPreview>
     <JsPreview>JS 預覽</JsPreview>
     <labelPleaseSelectTypeOfInterface>請選擇介面類別型</labelPleaseSelectTypeOfInterface>
@@ -1500,6 +1501,7 @@
     <RTPreview>WinRT 預覽</RTPreview>
     <SetupToolbox>設計工具欄</SetupToolbox>
     <ShowDescription>顯示描述</ShowDescription>
+    <ShowPreview>顯示預覽。</ShowPreview>
     <SLPreview>Silverlight 預覽</SLPreview>
     <title>設計器</title>
     <WebPreview>Flash 預覽</WebPreview>
@@ -1683,10 +1685,16 @@
     <BlankReport>空白報表</BlankReport>
     <BlankScreen>空白畫面</BlankScreen>
     <CheckDashboardExpressions>檢查儀表板運算式</CheckDashboardExpressions>
+    <ContentWidthMode>內容寬度</ContentWidthMode>
+    <ContentWidthModeClip>裁剪</ContentWidthModeClip>
+    <ContentWidthModeExpandPage>擴展頁面</ContentWidthModeExpandPage>
+    <ContentWidthModeFitToPage>符合頁面</ContentWidthModeFitToPage>
+    <ContentWidthModeSplitToPages>分割成多頁</ContentWidthModeSplitToPages>
     <Default>默認</Default>
     <DefaultSaveFormat>預設儲存格式</DefaultSaveFormat>
     <DefaultScriptMode>預設指令碼模式</DefaultScriptMode>
     <DesignSize>設計大小</DesignSize>
+    <DisableUIAnimation>停用介面動畫</DisableUIAnimation>
     <Drawing>圖紙</Drawing>
     <DrawMarkersWhenMoving>移動時繪製標注</DrawMarkersWhenMoving>
     <EditAfterInsert>插入後編輯</EditAfterInsert>
@@ -5948,6 +5956,8 @@
     <LabelCheckNoRecords>沒有要檢查的記錄</LabelCheckNoRecords>
     <LabelCheckNoSizes>部分尺寸為空</LabelCheckNoSizes>
     <LabelCheckNoSource>無數據源</LabelCheckNoSource>
+    <LabelCheckOffsetProblem>印表機位移使標籤超出紙張</LabelCheckOffsetProblem>
+    <LabelCheckOffsetProblemDetail>向右位移 {0}、向下位移 {1}，標籤超出紙張邊緣 {2}</LabelCheckOffsetProblemDetail>
     <LabelCheckPrinter>標籤在可列印區域內</LabelCheckPrinter>
     <LabelCheckPrinterDetail>印表機 '{0}' 從 {1} 處列印,標籤從 {2} 處開始</LabelCheckPrinterDetail>
     <LabelCheckPrinterProblem>標籤到達印表機無法列印的邊緣</LabelCheckPrinterProblem>

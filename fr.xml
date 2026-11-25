@@ -1483,6 +1483,7 @@
     <CopyPropertyName>Copier le nom de la propriété</CopyPropertyName>
     <DockingPanels>Panneaux</DockingPanels>
     <Four>Quatre</Four>
+    <HidePreview>Masquer l'aperçu.</HidePreview>
     <HtmlPreview>Prévisualisation HTML</HtmlPreview>
     <JsPreview>Aperçu JS</JsPreview>
     <labelPleaseSelectTypeOfInterface>Veuillez choisir le type d'interface</labelPleaseSelectTypeOfInterface>
@@ -1499,6 +1500,7 @@
     <RTPreview>Aperçu WinRT</RTPreview>
     <SetupToolbox>Paramétrage de la boîte à outils</SetupToolbox>
     <ShowDescription>Afficher les descriptions</ShowDescription>
+    <ShowPreview>Afficher l'aperçu.</ShowPreview>
     <SLPreview>Aperçu Silverlight</SLPreview>
     <title>Concepteur</title>
     <WebPreview>Aperçu Flash</WebPreview>
@@ -1682,10 +1684,16 @@
     <BlankReport>Rapport vide</BlankReport>
     <BlankScreen>Écran blanc</BlankScreen>
     <CheckDashboardExpressions>Vérifier les expressions des tableaux de bord</CheckDashboardExpressions>
+    <ContentWidthMode>Largeur du contenu</ContentWidthMode>
+    <ContentWidthModeClip>Rogner</ContentWidthModeClip>
+    <ContentWidthModeExpandPage>Agrandir la page</ContentWidthModeExpandPage>
+    <ContentWidthModeFitToPage>Ajuster à la page</ContentWidthModeFitToPage>
+    <ContentWidthModeSplitToPages>Répartir sur plusieurs pages</ContentWidthModeSplitToPages>
     <Default>Par défaut</Default>
     <DefaultSaveFormat>Format d'enregistrement par défaut</DefaultSaveFormat>
     <DefaultScriptMode>Mode de script par défaut</DefaultScriptMode>
     <DesignSize>Taille de conception</DesignSize>
+    <DisableUIAnimation>Désactiver les animations de l'interface</DisableUIAnimation>
     <Drawing>Dessin</Drawing>
     <DrawMarkersWhenMoving>Afficher les marqueurs lors du déplacment</DrawMarkersWhenMoving>
     <EditAfterInsert>Éditer après insertion</EditAfterInsert>
@@ -5948,6 +5956,8 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <LabelCheckNoRecords>Aucun enregistrement à vérifier</LabelCheckNoRecords>
     <LabelCheckNoSizes>Certaines tailles sont vides</LabelCheckNoSizes>
     <LabelCheckNoSource>Pas de source de données</LabelCheckNoSource>
+    <LabelCheckOffsetProblem>Le décalage de l'imprimante fait sortir les étiquettes de la planche</LabelCheckOffsetProblem>
+    <LabelCheckOffsetProblemDetail>Décalage de {0} vers la droite et de {1} vers le bas, les étiquettes dépassent le bord du papier de {2}</LabelCheckOffsetProblemDetail>
     <LabelCheckPrinter>Les étiquettes tiennent dans la zone imprimable</LabelCheckPrinter>
     <LabelCheckPrinterDetail>L'imprimante '{0}' imprime à partir de {1}, les étiquettes à partir de {2}</LabelCheckPrinterDetail>
     <LabelCheckPrinterProblem>Les étiquettes atteignent le bord que l'imprimante n'imprime pas</LabelCheckPrinterProblem>

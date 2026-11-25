@@ -1484,6 +1484,7 @@
     <CopyPropertyName>속성 이름 복사</CopyPropertyName>
     <DockingPanels>패널</DockingPanels>
     <Four>넷</Four>
+    <HidePreview>미리보기를 숨깁니다.</HidePreview>
     <HtmlPreview>HTML 미리보기</HtmlPreview>
     <JsPreview>JS 미리보기</JsPreview>
     <labelPleaseSelectTypeOfInterface>인터페이스 유형을 선택하십시오</labelPleaseSelectTypeOfInterface>
@@ -1500,6 +1501,7 @@
     <RTPreview>WinRT 미리보기</RTPreview>
     <SetupToolbox>설정 도구 상자</SetupToolbox>
     <ShowDescription>설명을 표시</ShowDescription>
+    <ShowPreview>미리보기를 표시합니다.</ShowPreview>
     <SLPreview>Silverlight 미리보기</SLPreview>
     <title>디자이너</title>
     <WebPreview>Flash 미리보기</WebPreview>
@@ -1683,10 +1685,16 @@
     <BlankReport>빈 보고서</BlankReport>
     <BlankScreen>빈 화면</BlankScreen>
     <CheckDashboardExpressions>대시보드 식 확인</CheckDashboardExpressions>
+    <ContentWidthMode>콘텐츠 너비</ContentWidthMode>
+    <ContentWidthModeClip>자르기</ContentWidthModeClip>
+    <ContentWidthModeExpandPage>페이지 확장</ContentWidthModeExpandPage>
+    <ContentWidthModeFitToPage>페이지에 맞춤</ContentWidthModeFitToPage>
+    <ContentWidthModeSplitToPages>여러 페이지로 분할</ContentWidthModeSplitToPages>
     <Default>기본</Default>
     <DefaultSaveFormat>기본 저장 포멧</DefaultSaveFormat>
     <DefaultScriptMode>기본 스크립트 모드</DefaultScriptMode>
     <DesignSize>디자인 크기</DesignSize>
+    <DisableUIAnimation>UI 애니메이션 사용 안 함</DisableUIAnimation>
     <Drawing>그림 그리기</Drawing>
     <DrawMarkersWhenMoving>이동시 마커를 그리는</DrawMarkersWhenMoving>
     <EditAfterInsert>삽입 후 편집</EditAfterInsert>
@@ -5954,6 +5962,8 @@
     <LabelCheckNoRecords>검사할 레코드가 없습니다</LabelCheckNoRecords>
     <LabelCheckNoSizes>비어 있는 크기가 있습니다</LabelCheckNoSizes>
     <LabelCheckNoSource>데이터 원본 없음</LabelCheckNoSource>
+    <LabelCheckOffsetProblem>프린터 오프셋 때문에 레이블이 시트를 벗어납니다</LabelCheckOffsetProblem>
+    <LabelCheckOffsetProblemDetail>오프셋 오른쪽 {0}, 아래쪽 {1}로 레이블이 용지 가장자리를 {2} 벗어납니다</LabelCheckOffsetProblemDetail>
     <LabelCheckPrinter>레이블이 인쇄 가능 영역에 맞습니다</LabelCheckPrinter>
     <LabelCheckPrinterDetail>프린터 '{0}'은(는) {1}부터 인쇄하고, 레이블은 {2}부터입니다</LabelCheckPrinterDetail>
     <LabelCheckPrinterProblem>레이블이 프린터가 인쇄할 수 없는 가장자리에 닿습니다</LabelCheckPrinterProblem>
